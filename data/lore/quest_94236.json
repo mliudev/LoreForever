@@ -1,0 +1,78 @@
+{
+ "key": "quest:94236",
+ "type": "quest",
+ "name": "Craftsman's Writ: Big Bronze Bomb",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94236
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Big Bronze Bomb and gives delivery and payment details. You need the writ with you to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "The faded note asks you to bring one Big Bronze Bomb. It also names a delivery place and payment, and says the writ can pass from hand to hand. Keep it with you for the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what item is requested",
+    "big bronze bomb writ"
+   ],
+   "answer": "The writ requests one Big Bronze Bomb."
+  },
+  {
+   "q": "Where do I deliver the bomb?",
+   "aliases": [
+    "delivery location",
+    "where to take it"
+   ],
+   "answer": "The writ points to the delivery location marked on your map."
+  },
+  {
+   "q": "What does the customer offer?",
+   "aliases": [
+    "how much is payment",
+    "payment details"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "pass the note"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ for the exchange?",
+   "aliases": [
+    "need writ to complete",
+    "must I carry the note"
+   ],
+   "answer": "Yes. You need the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "big bronze bomb",
+  "bomb",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Big Bronze Bomb"
+ ]
+}

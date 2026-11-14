@@ -11,46 +11,46 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Tran'jani in Rog'mar teaches you to throw spears with practice in the Riverglades. Freshwater Crocolisks make his targets, and he hopes the lesson will shape you into a headhunter.",
+ "summary": "Tan'jani in Rog'mar teaches you to throw spears with practice in the Riverglades. Freshwater Crocolisks make his targets, and he hopes the lesson will shape you into a headhunter.",
  "sections": [
   {
    "title": "A Crocolisk Target",
-   "body": "Tran'jani in Rog'mar has spears for you and wants you to learn to throw them. The Riverglades are full of Freshwater Crocolisks, which he calls dangerous. He sets them up as targets for your practice.",
+   "body": "Tan'jani in Rog'mar has spears for you and wants you to learn to throw them. The Riverglades are full of Freshwater Crocolisks, which he calls dangerous. He sets them up as targets for your practice.",
    "spoiler": 0
   },
   {
    "title": "A Headhunter's Promise",
-   "body": "After your practice, Tran'jani praises your work and says you have the makings of a real headhunter. He asks you to remember him if you become well known.",
+   "body": "After your practice, Tan'jani praises your work and says you have the makings of a real headhunter. He asks you to remember him if you become well known.",
    "spoiler": 1
   }
  ],
  "faq": [
   {
-   "q": "Who is Tran'jani?",
+   "q": "Who is Tan'jani?",
    "aliases": [
     "tran'jani",
     "who's tran'jani",
     "old troll"
    ],
-   "answer": "Tran'jani is the one who gives you spears and teaches you to throw them in Rog'mar."
+   "answer": "Tan'jani is the one who gives you spears and teaches you to throw them in Rog'mar."
   },
   {
-   "q": "Why does Tran'jani send me after crocolisks?",
+   "q": "Why does Tan'jani send me after crocolisks?",
    "aliases": [
     "why crocolisks",
     "crocolisk practice",
     "stick crocs"
    ],
-   "answer": "Tran'jani uses the Freshwater Crocolisks of the Riverglades as targets for spear-throwing practice."
+   "answer": "Tan'jani uses the Freshwater Crocolisks of the Riverglades as targets for spear-throwing practice."
   },
   {
-   "q": "What does Tran'jani want me to do?",
+   "q": "What does Tan'jani want me to do?",
    "aliases": [
     "what do i do",
     "stick 'em",
     "spear targets"
    ],
-   "answer": "Tran'jani wants you to practice throwing spears at Freshwater Crocolisks in the Riverglades."
+   "answer": "Tan'jani wants you to practice throwing spears at Freshwater Crocolisks in the Riverglades."
   },
   {
    "q": "Where is this happening?",
@@ -59,16 +59,16 @@
     "riverglades quest",
     "rog'mar"
    ],
-   "answer": "Tran'jani gives you the spears in Rog'mar and points you toward the Riverglades for practice."
+   "answer": "Tan'jani gives you the spears in Rog'mar and points you toward the Riverglades for practice."
   },
   {
-   "q": "What does Tran'jani say about the crocolisks?",
+   "q": "What does Tan'jani say about the crocolisks?",
    "aliases": [
     "are crocs dangerous",
     "crocolisk danger",
     "snap you up"
    ],
-   "answer": "Tran'jani warns that the Freshwater Crocolisks are dangerous and can snap you up if you are not quick."
+   "answer": "Tan'jani warns that the Freshwater Crocolisks are dangerous and can snap you up if you are not quick."
   }
  ],
  "angles": [],
@@ -80,6 +80,7 @@
   "spear throwing",
   "spears",
   "stick 'em",
+  "tan'jani",
   "tran'jani"
  ],
  "related": [

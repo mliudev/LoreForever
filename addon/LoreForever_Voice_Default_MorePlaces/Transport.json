@@ -8089,9 +8089,9 @@
     "subzone:southshore-town-hall": {
       "1": [
         {
-          "duration": 35.44816326530612,
-          "file": "Audio/Transport/full_subzone_southshore-town-hall-c3bfdd3c08c5c0e90b26/1-0000.mp3",
-          "sha256": "7b6e7569ad7516818729e6aab4cb7792131656c50a422906c3901152ab8dca8e",
+          "duration": 35.78775510204082,
+          "file": "Audio/Transport/full_subzone_southshore-town-hall-12168ec33bfb49f73ba0/1-0000.mp3",
+          "sha256": "60a6bb0d52f80f0fae86d89498449271bc9c258112af5e085b7d59360bc182b7",
           "start": 0
         }
       ],
@@ -8103,12 +8103,12 @@
         ]
       },
       "fullHash": "a5048e",
-      "generation": "572af63e1b884f0125c6",
+      "generation": "53db570e6067c37bd856",
       "hash": "a5048e",
       "source": {
-        "duration": 35.448163,
+        "duration": 35.813878,
         "file": null,
-        "sha256": "c3bfdd3c08c5c0e90b26bf988a57fcc6105ca9dee0e89e6f1959f7fccd495c82"
+        "sha256": "12168ec33bfb49f73ba0a51fc2ef9ff28cc16896bc4801bcff79e2a1b564ce39"
       },
       "text": "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It is one of Lordaeron’s last centers of civil authority as the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office and works with officials such as Kundric Zanden to secure supplies and keep order. Undead press from nearby lands, Syndicate rogues threaten the region, and fierce skirmishes mark Hillsbrad’s border. From the hall, town leaders guide Southshore’s fight to survive."
     },
@@ -12061,6 +12061,13 @@
       548,
       793
     ],
+    "60a6bb0d52f80f0fae86d89498449271bc9c258112af5e085b7d59360bc182b7": [
+      221,
+      491,
+      654,
+      931,
+      1213
+    ],
     "63eb167cb1e74fb906e52ad7796f5d868f25110b3bfd39b4cb076115272c9ff7": [
       442,
       715
@@ -12477,10 +12484,6 @@
       371,
       563,
       899
-    ],
-    "7b6e7569ad7516818729e6aab4cb7792131656c50a422906c3901152ab8dca8e": [
-      636,
-      919
     ],
     "7c63c125dc73c01dc47878a8a498cfc62bd17622c7b08c349ab3fdce3d10a058": [
       216,
@@ -14962,6 +14965,9 @@
       "238": 1,
       "793": 2
     },
+    "60a6bb0d52f80f0fae86d89498449271bc9c258112af5e085b7d59360bc182b7": {
+      "491": 1
+    },
     "63f81f6f4c01bfea5ea8026c8a02e045a15e33455d2f937bbbb9e3ac9e776143": {
       "319": 1
     },
@@ -15801,187 +15807,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MorePlaces",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_subzone_andorhal-be878d6112e6b9c84235/1-0000.mp3",
-      "sha256": "4c06261986c2e5f5fcf62a54f3bdd949cb7a4198d23bfec41f741f3699b150ea"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_browman-mill-59278ab4f853b23711d2/1-0000.mp3",
-      "sha256": "be51c0ba0c4d3287f53d4a04a5c41384957b4a97aac382fb8707e54d1c24062b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_caer-darrow-0072455b6e68566f18fd/1-0000.mp3",
-      "sha256": "9bd315037c0e8c7645e8635c573d025495d7004e48773f828d6475ad621d9715"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_caverns-of-time-eab4e41d3461dbe30ade/1-0000.mp3",
-      "sha256": "a186b9e467ff95dbb8a43727746dc4b9bc8505e0fb48efe16e36c197bf247ea1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_chillwind-camp-d0004599a0f756dd225c/1-0000.mp3",
-      "sha256": "839cb8550a524d74449c40b95977438f32242e1fc8b1a3ca34f35311473b2b59"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_chillwind-point-0bdaf52c530e1cd98b83/1-0000.mp3",
-      "sha256": "a98943e2beb12826ab0ba324f17dd6cfcca688f5e891d1dc6a3111d03ce319cf"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_corin-s-crossing-6ef30b9bb76f37fe2cb6/1-0000.mp3",
-      "sha256": "61bbdc8ffcf17c5c8d35275d396f6bb492b0c5d0ca7d57a6f43aa9f2ffc9cb94"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_crown-guard-tower-edd760736795cc67fdae/1-0000.mp3",
-      "sha256": "bab5c58ac370a1ea35c3c71fcfbec122421d01df071097892de12f46699b3296"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_darrowshire-c3ed6b8b301959d31242/1-0000.mp3",
-      "sha256": "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_eastwall-tower-f2e275645f36b3985010/1-0000.mp3",
-      "sha256": "2527ce9d11d7fe2e603633a27a75b3e4c5121f01b3c658057326113af52ac972"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_felstone-field-0bb073132561af0e599c/1-0000.mp3",
-      "sha256": "c0e0d01eee4277db3f6768d536e19b73f212db31cd1293c4608507e56ff81b54"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_forlorn-cloister-f5eee7a170b0ceb2aef1/1-0000.mp3",
-      "sha256": "1c454656860cf1342ae893b0248d74218114471a9a3b6ff4babbeef05d964ac4"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_fungal-vale-6f7d17ce6cf2b90269d7/1-0000.mp3",
-      "sha256": "173cef2ddc66fbf18015b1bbad3c8773927cf2c44b9a8cba44aaf8b8430cbe99"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_gahrron-s-withering-9d2f5e3ab3722adc043f/1-0000.mp3",
-      "sha256": "1d792365b5ac04c49604d428cee4e694e39974daf6d7190977b22c32cbc659c3"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_gallery-of-treasures-a82d47e97eb46ba0c976/1-0000.mp3",
-      "sha256": "e3d401dafd67cbc99bbced482ce0565a3fb729669d2cb9b435fced799627ea69"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_hall-of-champions-60132f4ec7553c28135a/1-0000.mp3",
-      "sha256": "f30ec7693a231b576f07ee6f9e1c0d47953c7535c7b48f1c805898b7c4c8fc8d"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_hammerfall-ce04defb3c6959a19ac3/1-0000.mp3",
-      "sha256": "00b6c3e44e2c47e34a731dfa25a55d725076b8851b540d3739950f261a68dd63"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_hearthglen-6cb806d2230f19e69150/1-0000.mp3",
-      "sha256": "c01517ecc5959c5465f30bb415a5b16a503359c6dd2e7528717453949f4acd08"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_lake-mereldar-a015a9de517521089537/1-0000.mp3",
-      "sha256": "54a4a7cc42fa786a194275e3ce0c9781535f2e3ab9926330ed286aba4113ebc1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_mardenholde-keep-0742783ef30eab96328e/1-0000.mp3",
-      "sha256": "60bf0e1158d5b99f83fd276f56bb98df41d8ab69bb0231d50dce3ccfedbcd691"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_marris-stead-68ff57de363ea5baca22/1-0000.mp3",
-      "sha256": "3494a7b3ddc82a84d7a97495ad0a7cf3dd733e60fdf4780e89bb082406e95bcb"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_northpass-tower-4b0482f6d4be33832574/1-0000.mp3",
-      "sha256": "c980e247576c2846f3eaf2272ddbcdbc61980e74b46752c74e421abd7794b265"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_northridge-lumber-camp-0e68fe0567ec4535e051/1-0000.mp3",
-      "sha256": "0eeab6d2e0573ad694da11f7571dca3c31813d07a7274a6d0205b5758dfe38b1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_pestilent-scar-b9e5d7894127df7aa378/1-0000.mp3",
-      "sha256": "0ced454ab39d611eff6a90dff1404bd2e9d67048d256ae1fa9cbff3584880f09"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_plaguemist-ravine-d0925a3db14d41c38c22/1-0000.mp3",
-      "sha256": "e4da8f3adeb5a4c915f83c2b2feb94296077b3b152343610ec54a5f1ba4d6346"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_plaguewood-tower-7644d612943fcbf8640a/1-0000.mp3",
-      "sha256": "bd987c4d2b369dcb64915642ca6df17dd560e6fef10316fae20429c23dea7775"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_quel-lithien-lodge-2fa9ed5d0b575acf2737/1-0000.mp3",
-      "sha256": "a0f6b616f088abc3f7b94f2d33c0d8447b555e27998f2b9a067527cf6be600de"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ruins-of-alterac-82ec89adde54fc72ecb3/1-0000.mp3",
-      "sha256": "9b1f0a07bdd81a346790bb0c3a7e147ab6b908270578e44c8e8e67a5dae14545"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ruins-of-andorhal-c69c302aacecc477b47f/1-0000.mp3",
-      "sha256": "6f76be8224e2be38e79a6b957df223659f89148c64da8f675db5f788abd87b4b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scarlet-basilica-d5e66f0f093cc08a7dbe/1-0000.mp3",
-      "sha256": "136d887a53105daebc9ff7a5e0c6cfbb727b8b56257b9959740295c86fe9145b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scarlet-monastery-cathedral-8cde9b7ceb2cad5a66c9/1-0000.mp3",
-      "sha256": "5b05d95df065e02b0a54d82d54a12ac7a14d3a6ea40c2b429f75eede876471ae"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scarlet-monastery-graveyard-2d8c2bd207f8b1e42fb9/1-0000.mp3",
-      "sha256": "af1b6dead27849c1e16202894a0ac6d75a8ab214d27e582b8b6b7bd19a0408ea"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scarlet-monastery-library-63a82404b32cf1d500d6/1-0000.mp3",
-      "sha256": "b7eeccfc28aea4ab11c215913cba90dd7d7c066ae9ddee8d0cd565a9f0277cdc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scholomance-classic-dc8d047e0c295ac19e89/1-0000.mp3",
-      "sha256": "b0898f89c131128bb1846ea75ec060637ee2e6950a0b085b9229ead8cb7bd672"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_southshore-town-hall-bf68a795ffd83a993f12/1-0000.mp3",
-      "sha256": "edc291f7561e487e5aec4bd3390d82047c9b80a58b451c2b3f5efdcce5c3ad03"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stratholme-34bc491151f5b741276b/1-0000.mp3",
-      "sha256": "c87b44451402d615f3b491488cd72ca11c32aa15545d2e238c5343a6bbe7c453"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stratholme-classic-8dda45ce355eab30d86a/1-0000.mp3",
-      "sha256": "349577d98d2ed5112668d87650518441c6ae9cd006b663805538374e7206f042"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stratholme-main-gate-888e39c8368d288353c2/1-0000.mp3",
-      "sha256": "d85e78f74efec5548b781cb1bd1e422c0d5a9752f70a37a99e8a98297f76bc11"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_thoradin-s-wall-a65313ccad83903b3f96/1-0000.mp3",
-      "sha256": "558d060542261a3d73d6ffe4798cd03048604f7b6ba2ad37643b7b1352ecedb1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_tyr-s-hand-bea5e8992ea889d5e410/1-0000.mp3",
-      "sha256": "b34ce94b46fc3d9b767df32d6c9719de292f854f67dd21539d8bf944f26883c3"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_undercroft-adabf897d8a922c5fabb/1-0000.mp3",
-      "sha256": "791da43c183c887549d8ca61e39503abf0d5782496ee0f523823d96ba72690b4"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_writhing-haunt-e58be80b6a0a5d6219f4/1-0000.mp3",
-      "sha256": "9ddac990a79443781dd1a8aee353a8b4c1d689b687e07b8d864273c81d3b7e00"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_zul-mashar-8bb9490ed579f2285005/1-0000.mp3",
-      "sha256": "cb7b19e766e624c88fe8a9ebf27c86e38871bd146076846ec0ca77981422086b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_southpoint-tower-ca6a3364e914d12e0f2b/1-0000.mp3",
-      "sha256": "a38b19b8e633574e1884a03926f90c49493aeae5e18174575edb499214b79a56"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_thelgen-rock-c9215e09a75a206a8814/1-0000.mp3",
-      "sha256": "a6b85a3aaf9f47657595ec1a3fb830531001e8038e6e0ec5106aeb80fbb2bb75"
-    }
-  ],
   "version": 1
 }

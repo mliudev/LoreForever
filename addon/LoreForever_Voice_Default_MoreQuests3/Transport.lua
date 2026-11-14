@@ -1766,7 +1766,7 @@ P.transport["quest:523"] = {
   fullHash = "863398",
   text = "Baron's Demise. In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head. After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_523-f190f128f0678007c961/1-0000.mp3", duration = 41.6653061, start = 0},
+    {file = "Audio/Transport/full_quest_523-b0124dd00bff093dd1e5/1-0000.mp3", duration = 41.3779592, start = 0},
   },
 }
 P.transport["quest:537"] = {
@@ -1774,7 +1774,7 @@ P.transport["quest:537"] = {
   fullHash = "8c2b83",
   text = "Dark Council. In Southshore, Magistrate Henry Maleb weighs a letter naming Nagaz and the Argus Wake. He fears they may threaten the land if allied with the Syndicate, and sends you to hunt Nagaz and the Argus Shadow Mages in the Uplands. After Further Mysteries, Maleb tells you the letter came from Nagaz, who belongs to the Argus Wake. He does not know what the Argus Wake is, but fears an alliance with the Syndicate would make them a threat. So he wants Nagaz and the Argus Shadow Mages named in the letter found and killed. Bring him Nagaz’s head.\n\nSearch the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake’s envoys are there.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_537-ecacad963ee8df3e26c3/1-0000.mp3", duration = 39.8889796, start = 0},
+    {file = "Audio/Transport/full_quest_537-598165d393666ea1c423/1-0000.mp3", duration = 39.8889796, start = 0},
   },
 }
 P.transport["quest:551"] = {

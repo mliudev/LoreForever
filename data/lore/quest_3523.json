@@ -1,0 +1,55 @@
+{
+ "key": "quest:3523",
+ "type": "quest",
+ "name": "Scourge of the Downs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3523
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Belnistrasz asks for your aid and gives you an Oathstone. You can agree and return it to him.",
+ "sections": [],
+ "faq": [
+  {
+   "q": "Who asks for help?",
+   "aliases": [
+    "who is Belnistrasz",
+    "Belnistrasz help"
+   ],
+   "answer": "Belnistrasz asks you to aid him."
+  },
+  {
+   "q": "What does Belnistrasz give you?",
+   "aliases": [
+    "what is the Oathstone",
+    "Oathstone"
+   ],
+   "answer": "Belnistrasz gives you an Oathstone."
+  },
+  {
+   "q": "What do I do with the Oathstone?",
+   "aliases": [
+    "return Oathstone",
+    "hand stone back"
+   ],
+   "answer": "If you agree to help Belnistrasz, speak with him again and return the Oathstone."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aid",
+  "belnistrasz",
+  "oathstone",
+  "return",
+  "scourge of the downs"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Scourge of the Downs"
+ ]
+}

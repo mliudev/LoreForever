@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Bloodmaster sends you into the pit for a bout with Kronk. The crowd is already eager for the next round.",
+ "summary": "The ring's goblin sends you into the pit of the Bloodmaster's Ring for a bout with Kronk. The crowd is already eager for the next round.",
  "sections": [
   {
    "title": "The Next Bout",
@@ -36,7 +36,7 @@
     "ring task",
     "bloodmaster ring"
    ],
-   "answer": "The Bloodmaster sends you into the pit to face Kronk."
+   "answer": "You are sent into the pit of the Bloodmaster's Ring to face Kronk."
   },
   {
    "q": "Why am I fighting Kronk?",

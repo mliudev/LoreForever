@@ -1,0 +1,99 @@
+{
+ "key": "quest:93394",
+ "type": "quest",
+ "name": "Meeting the Magister",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93394
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Shen'dralar contact asks you to find Magister Kirandis inside the temple of Shen'dralas. The meeting concerns the temple's restored pylons and your place among its wary denizens.",
+ "sections": [
+  {
+   "title": "At the Temple",
+   "body": "The grand structure draws your attention, and a Shen'dralar contact points you toward Magister Kirandis. The magister is an old friend of the one who sent you and may welcome your presence. The Shen'dralar may be wary, so you are asked to approach them with respect.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Pylons",
+   "body": "After you find Kirandis, the magister sees that the pylons' power shines again. Their return binds the Shen'dralar fully to Shen'dralas. Kirandis urges you to meet the temple's denizens, whose wariness may ease with time.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I supposed to find?",
+   "aliases": [
+    "find kirandis",
+    "magister meeting",
+    "kirandis temple"
+   ],
+   "answer": "You are asked to locate Magister Kirandis inside the temple of Shen'dralas."
+  },
+  {
+   "q": "Where is Magister Kirandis?",
+   "aliases": [
+    "kirandis location",
+    "where magister",
+    "temple kirandis"
+   ],
+   "answer": "Magister Kirandis is inside the temple of Shen'dralas."
+  },
+  {
+   "q": "Who is Kirandis to the person who sent me?",
+   "aliases": [
+    "kirandis friend",
+    "old friend magister"
+   ],
+   "answer": "Kirandis is an old friend of the Shen'dralar contact who sent you."
+  },
+  {
+   "q": "Will the Shen'dralar welcome me?",
+   "aliases": [
+    "shen'dralar wary",
+    "will they like me",
+    "shen dralar welcome"
+   ],
+   "answer": "The Shen'dralar may be wary of your presence, but you are asked to tread respectfully."
+  },
+  {
+   "q": "What has happened to the pylons?",
+   "aliases": [
+    "pylon power",
+    "temple pylons",
+    "pylons restored"
+   ],
+   "answer": "Their power shines again, and Kirandis says this binds the Shen'dralar fully to Shen'dralas."
+  },
+  {
+   "q": "What should I do after meeting Kirandis?",
+   "aliases": [
+    "meet denizens",
+    "what next kirandis",
+    "shen'dralas people"
+   ],
+   "answer": "Kirandis encourages you to meet some of the temple's denizens, who may be wary at first."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "kirandis",
+  "magister kirandis",
+  "meeting the magister",
+  "pylons",
+  "shen'dralar",
+  "shen'dralas",
+  "temple"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Meeting the Magister"
+ ]
+}

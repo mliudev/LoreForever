@@ -1,0 +1,85 @@
+{
+ "key": "quest:96018",
+ "type": "quest",
+ "name": "Powering the Pylons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96018
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mordent Evenshade asks you to restore the damaged pylons in Shen'dralas. Floating mana has appeared there, and he needs it gathered and returned to the pylons.",
+ "sections": [
+  {
+   "title": "Gathering Mana",
+   "body": "Inside Shen'dralas's temple, you seek the Mana Sieve, an artifact its denizens may resent you borrowing. Mordent Evenshade needs the scattered mana gathered in a semicrystallized form. With enough Ancient Mana Crystals, you can empower the damaged pylons and bring the sieve's work back to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Pylons",
+   "body": "Mordent Evenshade sees the pylons restored and gestures toward the sky. He notices your subdued response as he turns back to you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Mordent need mana?",
+   "aliases": [
+    "why mana",
+    "mordent mana"
+   ],
+   "answer": "Mordent needs mana gathered as Ancient Mana Crystals to empower the damaged pylons in Shen'dralas."
+  },
+  {
+   "q": "Where do I find the Mana Sieve?",
+   "aliases": [
+    "mana sieve location",
+    "where sieve"
+   ],
+   "answer": "The Mana Sieve is inside the temple in Shen'dralas."
+  },
+  {
+   "q": "What is happening to the mana in Shen'dralas?",
+   "aliases": [
+    "floating mana",
+    "mana orbs"
+   ],
+   "answer": "Floating sparks of mana have appeared around Shen'dralas, likely because the pylons have suffered damage."
+  },
+  {
+   "q": "What does the Mana Sieve do?",
+   "aliases": [
+    "sieve purpose",
+    "collect mana"
+   ],
+   "answer": "You use the Mana Sieve to gather floating mana as Ancient Mana Crystals."
+  },
+  {
+   "q": "Who is asking for the pylons to be empowered?",
+   "aliases": [
+    "who is mordent",
+    "mordent evenshade"
+   ],
+   "answer": "Mordent Evenshade asks you to gather mana and empower the pylons."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient mana crystals",
+  "floating mana",
+  "mana sieve",
+  "mordent evenshade",
+  "pylons",
+  "shen'dralas"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Powering the Pylons"
+ ]
+}

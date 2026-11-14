@@ -1,0 +1,87 @@
+{
+ "key": "quest:93465",
+ "type": "quest",
+ "name": "Notes on Draenethyst",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93465
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Azore Aldamort sends you after Gimashi's notes on draenethyst. The Burning Blade warlocks are studying the substance, which came from beyond the Dark Portal.",
+ "sections": [
+  {
+   "title": "Gimashi's Notes",
+   "body": "Azore Aldamort says Gimashi's notes may explain what the Burning Blade has learned about draenethyst. Gimashi is a warlock whose tower stands in a ravine to the southeast. You are asked to bring her notes back to Azore, before the Burning Blade can use its knowledge of the substance for darker ends.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is draenethyst?",
+   "aliases": [
+    "draenethyst meaning",
+    "what's draenethyst",
+    "draenethyst stone"
+   ],
+   "answer": "Draenethyst is a substance from beyond the Dark Portal."
+  },
+  {
+   "q": "Who is Gimashi?",
+   "aliases": [
+    "Gimashi who",
+    "warlock Gimashi",
+    "Gimashi notes"
+   ],
+   "answer": "Gimashi is a Burning Blade warlock studying draenethyst."
+  },
+  {
+   "q": "Why does Azore want Gimashi's notes?",
+   "aliases": [
+    "why notes",
+    "Azore draenethyst",
+    "what does Azore need"
+   ],
+   "answer": "Azore wants Gimashi's notes to learn what the Burning Blade knows about draenethyst."
+  },
+  {
+   "q": "Where is Gimashi?",
+   "aliases": [
+    "Gimashi location",
+    "where tower",
+    "southeast ravine"
+   ],
+   "answer": "Gimashi can be found atop her tower in a ravine to the southeast."
+  },
+  {
+   "q": "Where did draenethyst come from?",
+   "aliases": [
+    "draenethyst origin",
+    "Dark Portal substance",
+    "draenethyst from where"
+   ],
+   "answer": "Draenethyst came from beyond the Dark Portal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azore aldamort",
+  "burning blade",
+  "dark portal",
+  "draenethyst",
+  "gimashi",
+  "notes",
+  "warlock"
+ ],
+ "related": [
+  "subzone:dark-portal",
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Notes on Draenethyst"
+ ]
+}

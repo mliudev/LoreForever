@@ -1,0 +1,83 @@
+{
+ "key": "quest:93016",
+ "type": "quest",
+ "name": "A Brief History Lesson",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93016
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are sent to Shen'dralas to hear about the crystals you repaired. Their lights have drawn concern, and an explanation is waiting.",
+ "sections": [
+  {
+   "title": "Questions in Shen'dralas",
+   "body": "The crystals you repaired have raised questions, and you are sent to Mordent Evenshade in Shen'dralas for answers. The skies have taken on a dramatic appearance, adding to the unease around the earlier requests.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Visit Planned",
+   "body": "Mordent says his silence came from excitement at seeing the crystals shine again. He hopes to visit the temple of Shen'dralas, though he lacks the courage to speak with the Shen'dralar there.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is supposed to explain the crystals?",
+   "aliases": [
+    "who explains crystals",
+    "Mordent info",
+    "crystal explanation"
+   ],
+   "answer": "Mordent Evenshade in Shen'dralas is asked to explain the crystals you repaired."
+  },
+  {
+   "q": "Why did the earlier requests seem suspicious?",
+   "aliases": [
+    "why suspicious",
+    "what was strange",
+    "why no context"
+   ],
+   "answer": "The requests came without context, and the skies had taken on a dramatic appearance."
+  },
+  {
+   "q": "Why did Mordent leave out the explanation?",
+   "aliases": [
+    "why no explanation",
+    "Mordent reason",
+    "why did he wait"
+   ],
+   "answer": "Mordent says he was eager to see the crystals' lights shine again and failed to explain the situation from the start."
+  },
+  {
+   "q": "Does Mordent plan to visit the temple?",
+   "aliases": [
+    "temple visit",
+    "Mordent going there",
+    "Shen'dralas temple"
+   ],
+   "answer": "Mordent is excited to visit the temple of Shen'dralas again, though he says it may take time before he can speak with the Shen'dralar there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a brief history lesson",
+  "crystal lights",
+  "crystals",
+  "dramatic skies",
+  "mordent evenshade",
+  "shen'dralar",
+  "shen'dralas",
+  "temple"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Brief History Lesson"
+ ]
+}

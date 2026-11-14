@@ -2358,7 +2358,7 @@ P.transport["npc:magistrate-henry-maleb"] = {
   fullHash = "a6ff0a",
   text = "Magistrate Henry Maleb. In Southshore, Magistrate Henry Maleb keeps order as threats gather around the Alliance's chief coastal stronghold in Hillsbrad Foothills. The Forsaken and the Syndicate menace the port town. Magistrate Henry Maleb governs from Southshore's town hall, one of the last true Alliance settlements in Lordaeron. Forsaken forces threaten the town from the north and west, while highwaymen prowl the foothills. Maleb took office after the previous magistrate was mysteriously assassinated, and he blames the Syndicate. He means to avoid the same fate. His inquiries seek hidden assassins, Syndicate supply networks, and the nobles directing them from the ruins of Alterac.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magistrate-henry-maleb-30047cce86dcab95f28c/1-0000.mp3", duration = 40.202449, start = 0},
+    {file = "Audio/Transport/full_npc_magistrate-henry-maleb-65829b4ef086280bf5d9/1-0000.mp3", duration = 41.0906122, start = 0},
   },
 }
 P.transport["npc:magus-rimtori"] = {
@@ -4606,7 +4606,7 @@ P.transport["topic:syndicate"] = {
   fullHash = "840093",
   text = "Syndicate. Across northern Lordaeron, the Syndicate holds strongholds and fights to reclaim Alterac. Dispossessed nobles lead this human criminal organization against both the Alliance and the Horde, seeking to restore their lost aristocracy. After King Aiden Perenolde's treachery during the Second War, the kingdom of Alterac collapsed in dishonor. Its aristocracy lost its lands and titles, but the surviving nobles refused to accept exile. They gathered under the late king's son, Prince Aliden Perenolde, and forged the Syndicate.\n\nThey marked themselves with orange bandanas and filled their ranks with hired thugs, highwaymen, and hedge wizards. To outsiders, they are brigands who raid caravans, ambush travelers, and extort people. Yet their crimes exist only to fund an organized bid to reclaim their ancestral lands and subjugate the surrounding regions. Across northern Lordaeron, the Syndicate holds fortified ground. In the snowy Alterac Mountains, they fortified the ruined town of Strahnbrad and set camps in the Uplands and Dandred's Fold. Farther south, they hold the crumbling Durnholde Keep in the Hillsbrad Foothills. From there, they harass Southshore and raid supply routes.\n\nFarther east, beyond Thoradin's Wall, Lord Falconcrest commands an occupying Syndicate army in the historic ruins of Stromgarde Keep. There, they battle the battered Stromgarde Militia for control of the Arathi Highlands. The Syndicate's ambitions reach beyond ordinary outlawry, earning them the hatred of nearly every regional faction. They call the Alliance their mortal enemy, believing it stole their rightful heritage. Their attacks often target Southshore officials such as Magistrate Henry Maleb.\n\nToward the Horde, their scorn is open. Following Aedelas Blackmoore's philosophy, they see orcs as beasts fit for slave labor and seek to restore the internment camps. Sylvanas Windrunner's Forsaken execute captured Syndicate members on sight. Ravenholdt's clandestine thieves' guild wages a shadow war against Syndicate operatives it considers sloppy and arrogant.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_syndicate-52e82046c927e270ee79/1-0000.mp3", duration = 126.484898, start = 0},
+    {file = "Audio/Transport/full_topic_syndicate-88249b40569169d96b4b/1-0000.mp3", duration = 124.003265, start = 0},
   },
 }
 P.transport["topic:varian-wrynn"] = {

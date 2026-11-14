@@ -1,0 +1,63 @@
+{
+ "key": "quest:2280",
+ "type": "quest",
+ "name": "The Platinum Discs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2280
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A miniature Discs of Norgannon is to be taken to one of the sages in Thunder Bluff. You are carrying it there for a sage.",
+ "sections": [
+  {
+   "title": "A Sage in Thunder Bluff",
+   "body": "One of the sages in Thunder Bluff is to receive the miniature Discs of Norgannon from you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I take to Thunder Bluff?",
+   "aliases": [
+    "discs of norgannon",
+    "platinum discs item"
+   ],
+   "answer": "You take a miniature version of the Discs of Norgannon to one of Thunder Bluff's sages."
+  },
+  {
+   "q": "Who receives the miniature discs?",
+   "aliases": [
+    "which sage",
+    "sage in thunder bluff"
+   ],
+   "answer": "One of the sages in Thunder Bluff receives the miniature Discs of Norgannon."
+  },
+  {
+   "q": "Where do I bring the Discs of Norgannon?",
+   "aliases": [
+    "where are the sages",
+    "thunder bluff discs"
+   ],
+   "answer": "Bring the miniature Discs of Norgannon to one of the sages in Thunder Bluff."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "discs of norgannon",
+  "miniature discs",
+  "platinum discs",
+  "sage",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Platinum Discs"
+ ]
+}

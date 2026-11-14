@@ -1,0 +1,101 @@
+{
+ "key": "quest:94893",
+ "type": "quest",
+ "name": "Delivering Closure",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94893
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Demar asks you to bring Marshal Ryan\u2019s crest to Abigail Lawson in Stormwind. Ryan\u2019s death leaves a message for the woman he once planned to marry.",
+ "sections": [
+  {
+   "title": "A Message in Stormwind",
+   "body": "Abigail Lawson waits in Cathedral Square, and you carry Marshal Ryan\u2019s crest to her for Demar. She did not join Demar and Ryan when they established Farholde Keep. Ryan and Abigail had disagreed, though Demar does not know the cause. He believes his own presence would not be welcome, so the crest must speak in his stead.",
+   "spoiler": 0
+  },
+  {
+   "title": "Words Left Unsaid",
+   "body": "Ryan\u2019s family died during the orc invasion, and his sense of duty against the Horde became hatred. Demar once urged him to live with Demar\u2019s parents in Stormwind, but Ryan refused. He vowed to stay until he had driven the orcs from his home. Ryan and Abigail had not spoken since.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crest Received",
+   "body": "When you bring the crest, Abigail speaks of Ryan\u2019s refusal to leave his home and of their long silence. She calls Demar a hero, but warns that heroes often bring danger to those around them. Then she holds Ryan\u2019s crest close and calls him an idiot.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Abigail Lawson?",
+   "aliases": [
+    "abigail who",
+    "who is abigail",
+    "ryan's betrothed"
+   ],
+   "answer": "Abigail Lawson was Marshal Ryan\u2019s betrothed. She lives in Stormwind City and had not joined Ryan and Demar at Farholde Keep."
+  },
+  {
+   "q": "Who asks me to bring Ryan\u2019s crest?",
+   "aliases": [
+    "who sent me",
+    "demar crest",
+    "who wants the crest delivered"
+   ],
+   "answer": "Demar asks you to bring Marshal Ryan\u2019s crest to Abigail Lawson in Stormwind City. He believes she would not welcome his presence."
+  },
+  {
+   "q": "Why did Ryan stay behind?",
+   "aliases": [
+    "why ryan stayed",
+    "ryan and the orcs",
+    "his family"
+   ],
+   "answer": "After Ryan\u2019s family was killed during the orc invasion, his duty against the Horde became hatred. He vowed to remain until he had driven the orcs from his home."
+  },
+  {
+   "q": "Why did Abigail and Ryan stop speaking?",
+   "aliases": [
+    "why they stopped talking",
+    "abigail and ryan",
+    "their disagreement"
+   ],
+   "answer": "Abigail and Ryan had a disagreement, but Demar does not know its specifics. They had not spoken since."
+  },
+  {
+   "q": "What is Ryan\u2019s crest for?",
+   "aliases": [
+    "marshal crest",
+    "ryan's crest",
+    "what do i bring"
+   ],
+   "answer": "Demar asks you to bring Marshal Ryan\u2019s crest to Abigail Lawson in Cathedral Square, Stormwind City."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "abigail lawson",
+  "cathedral square",
+  "delivering closure",
+  "demar",
+  "farholde keep",
+  "marshal ryan",
+  "ryan's crest",
+  "stormwind"
+ ],
+ "related": [
+  "quest:92703",
+  "subzone:cathedral-square",
+  "zone:stormwind",
+  "topic:stormwind-kingdom",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Delivering Closure"
+ ]
+}

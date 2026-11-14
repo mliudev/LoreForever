@@ -1,8 +1,14 @@
 -- The talk mark (LOR-910, Mike's pick "A and B", 11/11): players didn't know a character they target can answer them
 -- out loud ("it's like a different button that you have to press"). When the target is a character who would answer
 -- in person, a small mark sits beside the target frame: the first WORDS times "Hold F7 and ask out loud" (their real
--- key), after that a microphone and the key. Their tooltip gets the same line. Silent: no sound, no pop-up, nothing to
--- click or dismiss (the mark takes no mouse). Options › "Show who can answer you" (talkMark) turns both off.
+-- key), after that a microphone and the key. Their tooltip gets the same line. Silent: no sound, no pop-up. Options ›
+-- "Show who can answer you" (talkMark) turns both off.
+-- Hiding it from the mark itself (LOR-1458; Mike, 11/12: "Is there a way to remove the hold F7 to ask aloud?"): hover
+-- says what it means ("Guard Berton can answer you."), its words, then "Right-click to stop showing this." (Design
+-- Lead's wording after the blind review, 11/12); a right-click anywhere on it
+-- turns talkMark off (account-wide, so every character, and the tooltip line too) with one chat line on the way back,
+-- like his pins. Every other button passes through to the target frame or the world behind it, so left-click does
+-- nothing here and a click never lands on the mark by accident.
 --
 -- A mark on someone who then doesn't answer is a broken promise, so everything here can only take marks away (the
 -- Architect's review, 11/11). It shows only when all of these hold:
@@ -64,8 +70,9 @@ function TalkMark.Answers(unit)
   local d = willo()
   if not d or try(UnitExists, unit) ~= true then return false end
   if try(UnitIsPlayer, unit) or try(UnitPlayerControlled, unit) or try(UnitIsDead, unit) then return false end
+  -- (Secret values, in combat or an instance, throw when compared: Context.Usable first, as Strip does.)
   local reaction = try(UnitReaction, unit, "player")
-  if type(reaction) == "number" and reaction >= 1 and reaction <= 3 then return false end
+  if ns.Context.Usable(reaction) and type(reaction) == "number" and reaction >= 1 and reaction <= 3 then return false end
   local kind = ns.Strip.CreatureType(unit)
   for _, k in ipairs(d.talkKinds) do
     if k == kind then return true end
@@ -88,10 +95,50 @@ function TalkMark.TooltipLine(unit)
 end
 
 local mark, words, shownFor
+
+-- The mark's own tooltip: its words in full with the target's name, then how to hide it.
+local function tip(f)
+  local key = TalkMark.Key()
+  if not (key and GameTooltip) then return end
+  local name = try(UnitName, "target")
+  GameTooltip:SetOwner(f, "ANCHOR_RIGHT")
+  if ns.Context.Usable(name) and type(name) == "string" and name ~= "" then ns.Theme.Tip(L["%s can answer you."]:format(name), "tipText", true) end
+  ns.Theme.Tip(line(key), "tipText", true)   -- the mark's own words, whole on a line of their own
+  ns.Theme.Tip(L["Right-click to stop showing this."], "tipDim", true)
+  GameTooltip:Show()
+end
+
+-- Right-click: off for every character on the account (the same option as the tick, so the tooltip line goes too). It
+-- only hides our own frame, so it's safe in combat.
+function TalkMark.HideHint()
+  if not (LoreForeverDB and LoreForeverDB.settings) then return end
+  LoreForeverDB.settings.talkMark = false
+  local panel = ns.Options and ns.Options.panel   -- Options open now: its tick follows at once
+  for _, cb in ipairs(panel and panel.checks or {}) do
+    if cb.key == "talkMark" then cb:SetChecked(false) end
+  end
+  if GameTooltip and mark and try(GameTooltip.IsOwned, GameTooltip, mark) then GameTooltip:Hide() end
+  if mark then mark:Hide() end
+  shownFor = nil
+  DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX
+    .. L["mark hidden. To show it again, tick \"%s\" in Options."]:format(L["Show who can answer you"]))
+end
+
 local function create()
   local f = CreateFrame("Frame", "LoreForeverTalkMark", UIParent)
   f:SetSize(40, 22)
-  f:EnableMouse(false)   -- a label, not a button: never in the way of a click
+  -- Takes the mouse for hover and right-click only; every other button goes through to what's behind it. Made only
+  -- out of combat (Update), where SetPassThroughButtons may be called.
+  f:EnableMouse(true)
+  if f.SetPassThroughButtons then pcall(f.SetPassThroughButtons, f, "LeftButton", "MiddleButton", "Button4", "Button5") end
+  f:SetScript("OnEnter", tip)
+  f:SetScript("OnLeave", function(self) if GameTooltip and try(GameTooltip.IsOwned, GameTooltip, self) then GameTooltip:Hide() end end)
+  -- Only a right-click that lets go on the mark: a camera turn started on it and released elsewhere leaves it be (the
+  -- pins' guard, PinArrive.PinMouseUp).
+  f:SetScript("OnMouseUp", function(self, button)
+    if button == "RightButton" and self.IsMouseOver and self:IsMouseOver() then TalkMark.HideHint() end
+  end)
+  f:SetScript("OnHide", function(self) if GameTooltip and try(GameTooltip.IsOwned, GameTooltip, self) then GameTooltip:Hide() end end)
   f:Hide()
   ns.Theme.Area(f, { 0.043, 0.071, 0.157, 0.94 }, "BACKGROUND"):SetAllPoints()
   ns.Theme.Outline(f, "willo", "BORDER")
@@ -129,6 +176,7 @@ function TalkMark.Update(counted)
   end
   mark = mark or create()
   local guid = try(UnitGUID, "target")
+  if not ns.Context.Usable(guid) then guid = nil end   -- a secret one throws when compared
   if counted or not shownFor or guid ~= shownFor then
     local n = tonumber(S().talkMarkWords) or 0
     words = n < WORDS
@@ -146,6 +194,7 @@ function TalkMark.Update(counted)
     mark.at = at
   end
   mark:Show()
+  if GameTooltip and try(GameTooltip.IsOwned, GameTooltip, mark) then tip(mark) end   -- a new target under the mouse
 end
 
 -- Events only, no OnUpdate: a new target, the target's faction, the key's binding, and the end of combat (a mark that

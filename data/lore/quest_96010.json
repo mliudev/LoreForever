@@ -1,0 +1,87 @@
+{
+ "key": "quest:96010",
+ "type": "quest",
+ "name": "Fragments of the Pylons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96010
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mordent Evenshade asks you to recover pylon fragments from the Magram and Gelkis villages in Shen'dralas. The pieces are needed for his work on the damaged pylons.",
+ "sections": [
+  {
+   "title": "Broken Pylons",
+   "body": "Mordent Evenshade believes centaur rampages damaged both pylons in Shen'dralas. He suspects the Magram and Gelkis carried the scattered shards back to their villages as trophies. You are asked to recover the fragments guarded there and bring them to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crystals",
+   "body": "Mordent receives the fragments and says the crystals are more broken than he expected. He will keep them for now. His next step is to gather pliable mana, which can bind the pieces and let leyline power pass through them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the pylon fragments?",
+   "aliases": [
+    "who is Mordent",
+    "Mordent Evenshade",
+    "who wants the crystals"
+   ],
+   "answer": "Mordent Evenshade asks you to recover shards and fragments from the Magram and Gelkis villages and return them to him."
+  },
+  {
+   "q": "Where are the pylon fragments?",
+   "aliases": [
+    "where shards",
+    "pylon pieces location",
+    "find fragments"
+   ],
+   "answer": "Mordent believes the Magram and Gelkis took the pylon fragments to their villages in Shen'dralas."
+  },
+  {
+   "q": "Why are the pylons damaged?",
+   "aliases": [
+    "what broke pylons",
+    "centaur damage",
+    "why pylon broken"
+   ],
+   "answer": "Mordent believes reckless centaur activity damaged both pylons."
+  },
+  {
+   "q": "What does Mordent plan to do with the fragments?",
+   "aliases": [
+    "what are crystals for",
+    "repair pylons how",
+    "mordent plan"
+   ],
+   "answer": "Mordent plans to bind the broken pieces with pliable mana and use that mana as a conduit for the leylines."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "crystals",
+  "fragments of the pylons",
+  "gelkis",
+  "magram",
+  "mana",
+  "mordent evenshade",
+  "pylon",
+  "shards",
+  "shen'dralas"
+ ],
+ "related": [
+  "zone:shendralas",
+  "subzone:gelkis-village",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fragments of the Pylons"
+ ]
+}

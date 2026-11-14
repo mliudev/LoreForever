@@ -26,7 +26,7 @@ local function try(fn, ...)
   local ok, a, b, c, d, e = pcall(fn, ...)
   if ok then return a, b, c, d, e end
 end
-local function later(delay, fn) C_Timer.After(delay, function() pcall(fn) end) end
+local function later(delay, fn) C_Timer.After(delay, function() ns.Guard(fn) end) end
 
 -- A whole number the game told us plainly, or nil (a secret value, or not a number).
 local function count(v)
@@ -123,10 +123,10 @@ local function complete(winner, duration)
   local P = _G.C_PvP
   b.out = outcome(winner, b) or outcome(P and try(P.GetActiveMatchWinner), b) or outcome(try(GetBattlefieldWinner), b)
   b.dur = count(duration) or count(P and try(P.GetActiveMatchDuration)) or b.dur
-  pcall(readScore, b)
+  ns.Guard(readScore, b)
   try(RequestBattlefieldScoreData)
   later(SETTLE, function()
-    if current() == b then pcall(readScore, b); write(b) end
+    if current() == b then ns.Guard(readScore, b); write(b) end
   end)
 end
 
@@ -137,7 +137,7 @@ local handlers = {
   -- The final scoreboard can arrive just after the end.
   UPDATE_BATTLEFIELD_SCORE = function()
     local b = current()
-    if b and b.done and not b.written then pcall(readScore, b) end
+    if b and b.done and not b.written then ns.Guard(readScore, b) end
   end,
 }
 
@@ -148,7 +148,7 @@ end
 frame:SetScript("OnEvent", function(_, event, ...)
   if not (LoreForeverDB and LoreForeverDB.texts) then return end   -- before login
   local h = handlers[event]
-  if h then pcall(h, ...) end
+  if h then ns.Guard(h, ...) end   -- a broken handler is kept for /lore errors (Errors.lua)
 end)
 
 -- For tests: what's being tracked now.

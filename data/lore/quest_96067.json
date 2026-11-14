@@ -1,0 +1,89 @@
+{
+ "key": "quest:96067",
+ "type": "quest",
+ "name": "Rock 'em and Sock 'em",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96067
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sleebo asks you to test G45-B4G, his gas-powered engine prototype. The trial will give him notes for repairs and changes.",
+ "sections": [
+  {
+   "title": "A Mechanical Trial",
+   "body": "Sleebo has one working prototype of his gas-powered engine, housed in G45-B4G's burlap chest. He can power the mechanical companion with gas you have collected. You are asked to test the machine in a fight so Sleebo can see how it performs.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sleebo's Notes",
+   "body": "After the test, Sleebo is pleased with the spectacle and the notes he gathered. He plans to repair G45-B4G and adjust the engine before the next test.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is G45-B4G?",
+   "aliases": [
+    "g45-b4g",
+    "who is g45",
+    "mechanical companion"
+   ],
+   "answer": "G45-B4G is Sleebo's mechanical companion and houses the working prototype of his gas-powered engine in a burlap chest."
+  },
+  {
+   "q": "What does Sleebo want tested?",
+   "aliases": [
+    "sleebo test",
+    "test the engine",
+    "what am i testing"
+   ],
+   "answer": "Sleebo wants you to test G45-B4G, the working prototype of his gas-powered engine, in a fight."
+  },
+  {
+   "q": "What powers G45-B4G?",
+   "aliases": [
+    "gas powered robot",
+    "engine fuel",
+    "what powers g45"
+   ],
+   "answer": "Sleebo can power G45-B4G with gas you have collected."
+  },
+  {
+   "q": "Can G45-B4G feel pain?",
+   "aliases": [
+    "does g45 feel",
+    "hurt the machine",
+    "robot pain"
+   ],
+   "answer": "No. Sleebo says G45-B4G cannot feel anything."
+  },
+  {
+   "q": "Why is Sleebo testing his invention?",
+   "aliases": [
+    "why test g45",
+    "engine stress test",
+    "sleebo invention"
+   ],
+   "answer": "Sleebo wants to stress test the gas-powered engine prototype and gather notes on how it performs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "g45-b4g",
+  "gas",
+  "gas-powered engine",
+  "mechanical companion",
+  "prototype",
+  "sleebo",
+  "stress test"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rock 'em and Sock 'em"
+ ]
+}

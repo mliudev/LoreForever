@@ -1,0 +1,79 @@
+{
+ "key": "quest:95424",
+ "type": "quest",
+ "name": "Might Makes Right",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95424
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clugfist challenges you to prove your strength in Bolder'ok. Twilight's Hammer ogres are the test.",
+ "sections": [
+  {
+   "title": "Clugfist's Test",
+   "body": "Clugfist judges strength by blood, and sends you against the Twilight Maulers and Twilight Firecallers in Bolder'ok. He doubts your size, yet gives you the chance to show what you can do. The challenge puts your strength against the Twilight ogres.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clugfist?",
+   "aliases": [
+    "clugfist",
+    "who's clugfist",
+    "ogre guy"
+   ],
+   "answer": "Clugfist is the ogre in Bolder'ok who challenges you to prove your strength."
+  },
+  {
+   "q": "What does Clugfist want me to do?",
+   "aliases": [
+    "what does clugfist want",
+    "clugfist task",
+    "what do i kill"
+   ],
+   "answer": "Clugfist asks you to kill Twilight Maulers and Twilight Firecallers in Bolder'ok."
+  },
+  {
+   "q": "Why does Clugfist doubt me?",
+   "aliases": [
+    "why doubt me",
+    "too tiny",
+    "clugfist thinks weak"
+   ],
+   "answer": "Clugfist calls you tiny and questions whether you are strong."
+  },
+  {
+   "q": "What is Bolder'ok like?",
+   "aliases": [
+    "bolderok",
+    "bolder'ok ogres",
+    "what happens here"
+   ],
+   "answer": "Bolder'ok is where Clugfist says ogres value strength and blood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "clugfist",
+  "might makes right",
+  "ogres",
+  "skyborne",
+  "twilight firecallers",
+  "twilight maulers",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer",
+  "topic:skyborne"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Might Makes Right"
+ ]
+}

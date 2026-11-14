@@ -1,0 +1,74 @@
+{
+ "key": "quest:94890",
+ "type": "quest",
+ "name": "Bring Me His Head",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94890
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sergeant Riftan sends you back to the Twilight's Shroud, where Overlord Kilgar remains hidden in his keep. The rescued soldiers are ready to fight, and Riftan wants Kilgar brought down.",
+ "sections": [
+  {
+   "title": "Back to the Keep",
+   "body": "The rescued soldiers are eager to fight, and Sergeant Riftan says your strength has helped carry the assault this far. Overlord Kilgar, an orc, is hidden deep within his keep in the Twilight's Shroud. Riftan asks you to defeat him and bring back his head.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Overlord Kilgar?",
+   "aliases": [
+    "kilgar",
+    "who's kilgar",
+    "orc leader"
+   ],
+   "answer": "Overlord Kilgar is an orc leader hiding deep within his keep in the Twilight's Shroud."
+  },
+  {
+   "q": "Why am I being sent back to the Twilight's Shroud?",
+   "aliases": [
+    "why go back",
+    "twilight shroud task",
+    "what's next"
+   ],
+   "answer": "The rescued soldiers are ready to fight, and Sergeant Riftan says the assault should continue. He asks you to return to the Twilight's Shroud and bring back Overlord Kilgar's head."
+  },
+  {
+   "q": "Who wants Kilgar's head?",
+   "aliases": [
+    "riftan wants what",
+    "who asked for kilgar",
+    "bring me his head"
+   ],
+   "answer": "Sergeant Riftan asks you to bring him Overlord Kilgar's head."
+  },
+  {
+   "q": "Where is Kilgar hiding?",
+   "aliases": [
+    "kilgar location",
+    "where's overlord",
+    "kilgar keep"
+   ],
+   "answer": "Overlord Kilgar is hidden deep within his keep in the Twilight's Shroud."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bring me his head",
+  "orc",
+  "overlord kilgar",
+  "rescued soldiers",
+  "sergeant riftan",
+  "twilight's shroud"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bring Me His Head"
+ ]
+}

@@ -238,6 +238,54 @@ function Lang.MergeNames(db, w)
   end
 end
 
+-- Every area's own name in the client's language, from the client itself: C_Map.GetAreaInfo(area id) is what
+-- GetRealZoneText and GetSubZoneText say there. The name leads wherever the area's English name leads (the name, zone
+-- and area indexes; ns.DB.index.areaName from pipeline/lore/game_ids.py), so places are found, and named in Willo's
+-- context, in every client language with no language pack. A name an index already has (English, or the pack's) keeps
+-- what it leads to. One local name for areas with different English names ("Die Höhle" for two caves) goes to
+-- index.areaClash[name] = {English names}, and the zone you stand in decides (Engine:SubzoneKey, AreaKey).
+-- Returns how many names it added, how many clash, and how many it left alone because an index already had them for
+-- something else.
+function Lang.ClientAreaNames(db, getName)
+  getName = getName or (_G.C_Map and C_Map.GetAreaInfo)
+  local idx = db.index
+  if type(getName) ~= "function" or type(idx.areaName) ~= "table" then return 0, 0, 0 end
+  local local2en = {}   -- local name -> { [English name] = true }
+  for id, english in pairs(idx.areaName) do
+    local ok, name = pcall(getName, id)
+    if ok and type(name) == "string" and name ~= "" then
+      local n, en = lower(name), lower(english)
+      if n ~= en then
+        local2en[n] = local2en[n] or {}
+        local2en[n][en] = true
+      end
+    end
+  end
+  local added, clashes, taken = 0, 0, 0
+  for n, ens in pairs(local2en) do
+    local list = {}
+    for en in pairs(ens) do list[#list + 1] = en end
+    table.sort(list)
+    if #list > 1 then
+      idx.areaClash = idx.areaClash or {}
+      idx.areaClash[n] = list
+      clashes = clashes + 1
+    else
+      local en = list[1]
+      local bare = en:gsub("^the ", "")
+      for _, field in ipairs({ "name", "zone", "area" }) do
+        local t = idx[field]
+        local v = t and (t[en] or t[bare])
+        if v ~= nil then
+          if t[n] == nil then t[n] = v; added = added + 1
+          elseif t[n] ~= v then taken = taken + 1 end
+        end
+      end
+    end
+  end
+  return added, clashes, taken
+end
+
 -- Display names (LOR-403). A place or quest the client names in another language (English, usually) shows under the
 -- reading language's own client name: the pack's list (P.shown), else the entry's translated name (a pack from before
 -- the list, or a language with no client, like Ukrainian), else nil, and the caller keeps the client's name for that
@@ -721,6 +769,7 @@ local function init(lang)
   -- Client names first: they describe the game client, whichever language the player reads.
   local cw, crec = load(client, auto or want ~= client or orec ~= nil)
   if cw then Lang.MergeNames(db, cw) end
+  if not ENGLISH[client] then lang.areaNames = { Lang.ClientAreaNames(db) } end   -- the client's own, after the pack's
   local tw, trec = cw, crec
   if want ~= client then tw, trec = load(want, orec ~= nil) end
   if ENGLISH[want] then return end
@@ -876,9 +925,11 @@ function Lang.ApplyEdition(db, pair)
     end
   end
   -- Retain only names/IDs that lead to visible text. Zone groups can retain visible children without a zone story.
-  for _, field in ipairs({ "name", "quest", "questTitle", "area", "mob" }) do
+  for _, field in ipairs({ "name", "quest", "questTitle", "area", "mob", "npcId", "itemId", "mapId" }) do
+    db.index[field] = db.index[field] or {}
     for k, v in pairs(index[field] or {}) do if db.entries[v] then db.index[field][k] = v end end
   end
+  db.index.areaName = index.areaName
   for key, e in pairs(db.entries) do
     db.index.name[lower(e.n)] = key
     for _, k in ipairs(original[key].rel or {}) do if db.entries[k] then e.rel[#e.rel + 1] = k end end
@@ -890,6 +941,7 @@ function Lang.ApplyEdition(db, pair)
     end
   end
   for k, z in pairs(index.zone or {}) do if db.zones[z] then db.index.zone[k] = z end end
+  if not ENGLISH[Lang.ClientLocale()] then Lang.ClientAreaNames(db) end
   -- Item requirements are mechanical quest IDs; omit IDs whose text is hidden.
   for name, rec in pairs(index.item or {}) do
     local kept = {}

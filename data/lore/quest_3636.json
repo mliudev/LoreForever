@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Archbishop Bendictus asks you to face Amnennar the Coldbringer in Razorfen Downs. His request makes the archbishop\u2019s concern plain.",
+ "summary": "Archbishop Benedictus asks you to face Amnennar the Coldbringer in Razorfen Downs. His request makes the archbishop\u2019s concern plain.",
  "sections": [
   {
-   "title": "Bendictus\u2019s Request",
-   "body": "You are bound for Razorfen Downs at Archbishop Bendictus\u2019s request. He names Amnennar the Coldbringer as the one you are to slay. The archbishop\u2019s concern rests on that foe.",
+   "title": "Benedictus\u2019s Request",
+   "body": "You are bound for Razorfen Downs at Archbishop Benedictus\u2019s request. He names Amnennar the Coldbringer as the one you are to slay. The archbishop\u2019s concern rests on that foe.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "Bendictus request",
     "who wants Amnennar dead"
    ],
-   "answer": "Archbishop Bendictus asks you to slay Amnennar the Coldbringer in Razorfen Downs."
+   "answer": "Archbishop Benedictus asks you to slay Amnennar the Coldbringer in Razorfen Downs."
   },
   {
    "q": "Who is Amnennar the Coldbringer?",
@@ -36,7 +36,7 @@
     "coldbringer",
     "who is amnennar"
    ],
-   "answer": "Amnennar the Coldbringer is the foe Archbishop Bendictus names for you to slay in Razorfen Downs."
+   "answer": "Amnennar the Coldbringer is the foe Archbishop Benedictus names for you to slay in Razorfen Downs."
   },
   {
    "q": "Where is Amnennar?",
@@ -45,7 +45,7 @@
     "Razorfen Downs location",
     "find coldbringer"
    ],
-   "answer": "Archbishop Bendictus names Razorfen Downs as the place to find Amnennar the Coldbringer."
+   "answer": "Archbishop Benedictus names Razorfen Downs as the place to find Amnennar the Coldbringer."
   }
  ],
  "angles": [],

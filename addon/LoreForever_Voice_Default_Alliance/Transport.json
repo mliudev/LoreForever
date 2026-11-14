@@ -6945,9 +6945,9 @@
     "subzone:northshire-valley": {
       "1": [
         {
-          "duration": 71.52326530612245,
-          "file": "Audio/Transport/full_subzone_northshire-valley-35f2aae5599751be4aaf/1-0000.mp3",
-          "sha256": "d9658e19c22ff869a9873eb7e7cd31b5df0271ecda8b71aa475ee60b3e2c1a92",
+          "duration": 93.17877551020409,
+          "file": "Audio/Transport/full_subzone_northshire-valley-ce054403709b0c3a7572/1-0000.mp3",
+          "sha256": "6d8a7b6ff574281e54e7477e736473487c0812ce14f4cbb2971c323b87c39696",
           "start": 0
         }
       ],
@@ -6959,12 +6959,12 @@
         ]
       },
       "fullHash": "1f0519",
-      "generation": "7420cc4e75d6fbafd489",
+      "generation": "6b8ac0c50be089365002",
       "hash": "9c92fc",
       "source": {
-        "duration": 71.523265,
+        "duration": 93.178776,
         "file": null,
-        "sha256": "35f2aae5599751be4aaf7dbbea6d95cd6b65a977cce091fd1d3ee50f73990334"
+        "sha256": "ce054403709b0c3a7572c1e155e47c0b3e426e9cfaea12b92356e022edf1db21"
       },
       "text": "Northshire Valley. Northshire Valley, in the hills of northern Elwynn, is where Stormwind's newest defenders begin. Mountain ridges guard it on every side but one. At its heart stands the ancient abbey, with fertile vineyards and a rich mine close by. But bandits and kobolds trouble the valley now, and wolves prowl its quiet pastures. The only way out is the road south. It runs through a fortified gatehouse, on toward Goldshire and the rest of the forest. A clear river crosses the pastures and flows into Crystal Lake. In the abbey, recruits train under seasoned veterans and the Knights of the Silver Hand. With its vineyards and its mine, the valley has all it needs, far from the wars beyond its ridges. But even here, Stormwind's defenses are stretched thin. In the valley, Marshal McBride and his detachment of the Guard struggle to keep order. So the commanders here take on every able-bodied soul who reaches the gates. They need every one of them.\n\nWolves have come north out of darkened Duskwood. Kobolds have overrun the tunnels of Echo Ridge Mine. And masked thugs of the Defias Brotherhood harass the vineyards. They threaten even the abbey grounds."
     },
@@ -8141,9 +8141,9 @@
     "subzone:southshore": {
       "1": [
         {
-          "duration": 68.62367346938775,
-          "file": "Audio/Transport/full_subzone_southshore-044c58baffcee32c2792/1-0000.mp3",
-          "sha256": "6bd1f5cea8a5d8bf5972ea591514eb01fbadec6e950fe831147e1797b5c262b7",
+          "duration": 73.29959183673469,
+          "file": "Audio/Transport/full_subzone_southshore-c76fea99a42fe3ef42fa/1-0000.mp3",
+          "sha256": "3211d5f22377b24f4d5286824831f5395440e381121369c8516e21eb50a9d263",
           "start": 0
         }
       ],
@@ -8155,12 +8155,12 @@
         ]
       },
       "fullHash": "e3bd9c",
-      "generation": "425591f5a60172561238",
+      "generation": "e7894a7d865304a51a72",
       "hash": "a59a4b",
       "source": {
-        "duration": 68.649796,
+        "duration": 73.325714,
         "file": null,
-        "sha256": "044c58baffcee32c27928a8b7ce98b044289e7deab91c68c7a5dc848a6014888"
+        "sha256": "c76fea99a42fe3ef42fa5741f27bfdc1ce5a4343fcada989996b7f138ac1d1f7"
       },
       "text": "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders."
     },
@@ -10583,6 +10583,18 @@
       1419,
       1571
     ],
+    "3211d5f22377b24f4d5286824831f5395440e381121369c8516e21eb50a9d263": [
+      188,
+      510,
+      747,
+      925,
+      1329,
+      1618,
+      1874,
+      2213,
+      2437,
+      2636
+    ],
     "33f5315184d609fff1bed7c6bff0e42c5faa3cb533e364d4487c207e3ee3efc7": [
       295,
       499,
@@ -11232,16 +11244,6 @@
       914,
       1150
     ],
-    "6bd1f5cea8a5d8bf5972ea591514eb01fbadec6e950fe831147e1797b5c262b7": [
-      182,
-      504,
-      733,
-      897,
-      1535,
-      1858,
-      2075,
-      2279
-    ],
     "6c062e10361c3bfcd69590473200b1dc4d75886f744d50efb95704fdf85fc927": [
       172,
       394,
@@ -11270,6 +11272,22 @@
       1616,
       1872,
       2103
+    ],
+    "6d8a7b6ff574281e54e7477e736473487c0812ce14f4cbb2971c323b87c39696": [
+      161,
+      385,
+      526,
+      790,
+      1040,
+      1245,
+      1553,
+      1782,
+      2057,
+      2261,
+      2509,
+      2751,
+      3031,
+      3212
     ],
     "6de7497fcfe4731b9d020f68d5006e528e004f37277fb85a59d22f7eb3e184c4": [
       267,
@@ -12740,19 +12758,6 @@
       1718,
       2021
     ],
-    "d9658e19c22ff869a9873eb7e7cd31b5df0271ecda8b71aa475ee60b3e2c1a92": [
-      243,
-      588,
-      805,
-      1090,
-      1237,
-      1448,
-      1680,
-      1820,
-      2015,
-      2192,
-      2487
-    ],
     "d9924a22e1bf9e8bc3b8826f35651b52f1db2ae882b60a29976637c4aa247d91": [
       207,
       411,
@@ -13446,6 +13451,10 @@
       "1273": 2,
       "453": 1
     },
+    "3211d5f22377b24f4d5286824831f5395440e381121369c8516e21eb50a9d263": {
+      "1618": 2,
+      "510": 1
+    },
     "3433899914f69b096990f0b9e6e208354245286824286a408126a324d6fa7386": {
       "1266": 2,
       "467": 1
@@ -13726,6 +13735,10 @@
     "6c6958cf793883229cd381e791aaaec9e1bf6229856d792150eab4aace001eef": {
       "1435": 2,
       "518": 1
+    },
+    "6d8a7b6ff574281e54e7477e736473487c0812ce14f4cbb2971c323b87c39696": {
+      "1040": 1,
+      "2057": 2
     },
     "6de7497fcfe4731b9d020f68d5006e528e004f37277fb85a59d22f7eb3e184c4": {
       "443": 1

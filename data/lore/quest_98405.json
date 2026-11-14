@@ -1,0 +1,74 @@
+{
+ "key": "quest:98405",
+ "type": "quest",
+ "name": "The Great Cat Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98405
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A wise spirit in southern Moonglade teaches druids who seek the cat shape. You go to learn what it knows of the feline form.",
+ "sections": [
+  {
+   "title": "A Druid's Teacher",
+   "body": "Druids who seek the feline shape look to the Great Cat Spirit in southern Moonglade. It lives on a hill overlooking the bridge, where it offers wisdom to those who come to learn. You seek its teaching about the nature of the cat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Great Cat Spirit?",
+   "aliases": [
+    "cat spirit location",
+    "where cat spirit",
+    "great cat spirit moonglade"
+   ],
+   "answer": "The Great Cat Spirit lives on a hill in southern Moonglade overlooking the bridge."
+  },
+  {
+   "q": "What does the Great Cat Spirit teach?",
+   "aliases": [
+    "cat spirit teaches what",
+    "learn cat form",
+    "cat shape teacher"
+   ],
+   "answer": "The Great Cat Spirit teaches druids about the nature of the cat and the feline shape."
+  },
+  {
+   "q": "Why do druids seek the Great Cat Spirit?",
+   "aliases": [
+    "why cat spirit",
+    "druid cat spirit",
+    "cat form wisdom"
+   ],
+   "answer": "Druids who desire the feline shape seek the Great Cat Spirit's wisdom and instruction."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you seek the Great Cat Spirit's wisdom if you desire to take the feline shape."
+  }
+ ],
+ "keywords": [
+  "cat shape",
+  "cat spirit",
+  "druid",
+  "feline form",
+  "great cat spirit",
+  "moonglade"
+ ],
+ "related": [
+  "quest:5921",
+  "topic:druid",
+  "quest:5929"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Cat Spirit"
+ ]
+}

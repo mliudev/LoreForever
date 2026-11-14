@@ -1,0 +1,67 @@
+{
+ "key": "quest:7901",
+ "type": "quest",
+ "name": "Soft Bushy Tails",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7901
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At the Darkmoon Faire, a request for bushy tails helps provide prizes for its visitors. The Faire hopes happy visitors will bring others along.",
+ "sections": [
+  {
+   "title": "Faire Prizes",
+   "body": "Happy visitors mean more to the Darkmoon Faire. The tails you bring make prizes for those who come, and pleased visitors may tell their friends to visit too. The Faire gives you tickets and welcomes you to enjoy your time there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the bushy tails for?",
+   "aliases": [
+    "why tails",
+    "bushy tails use",
+    "tails for faire"
+   ],
+   "answer": "The Darkmoon Faire will use them as prizes for its visitors."
+  },
+  {
+   "q": "Why does the Faire want happy visitors?",
+   "aliases": [
+    "why happy visitors",
+    "faire visitors",
+    "more people at faire"
+   ],
+   "answer": "Happy visitors may tell their friends about the Faire and bring more visitors."
+  },
+  {
+   "q": "What does the Faire give you?",
+   "aliases": [
+    "faire tickets",
+    "what do i get",
+    "tickets for tails"
+   ],
+   "answer": "The Faire gives you tickets."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkmoon faire",
+  "prizes",
+  "soft bushy tails",
+  "tails",
+  "tickets",
+  "visitors"
+ ],
+ "related": [
+  "quest:7905"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Soft Bushy Tails"
+ ]
+}

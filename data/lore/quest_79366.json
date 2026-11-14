@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Rau Cliffrunner asks you to use the Twisted Totems against the Razormane ritual. The corrupted elementals threaten to leave the lands unclean.",
+ "summary": "You use the Twisted Totems against the Razormane ritual, then report back to Rau Cliffrunner. The corrupted elementals threaten to leave the lands unclean.",
  "sections": [
   {
    "title": "At the Steam Pools",
-   "body": "With the Twisted Totems in hand, you are ready to interrupt the Razormane ritual. Rau Cliffrunner asks you to begin at the steam pools to the west, where each element is plentiful. The quilboar will resist your efforts. Use the totems against the ritual and its corrupted elementals.",
+   "body": "With the Twisted Totems in hand, you are ready to interrupt the Razormane ritual. You are told to begin at the steam pools to the west, where each element is plentiful. The quilboar will resist your efforts. Use the totems against the ritual and its corrupted elementals.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "rau cliffrunner task",
     "what does rau want"
    ],
-   "answer": "Rau Cliffrunner asks you to use the Twisted Totems to interrupt the quilboar ritual."
+   "answer": "Rau Cliffrunner wants you to use the Twisted Totems to end the quilboar ritual, then report back to him with your success."
   },
   {
    "q": "Where should I begin?",
@@ -39,7 +39,7 @@
     "where start",
     "steam pools"
    ],
-   "answer": "Rau Cliffrunner points you toward the steam pools to the west, where each element is plentiful."
+   "answer": "Begin at the steam pools to the west, where each element is plentiful."
   },
   {
    "q": "What are the Twisted Totems for?",
@@ -55,7 +55,7 @@
     "who ritual",
     "razormane ritual"
    ],
-   "answer": "Rau Cliffrunner identifies the ritual as the Razormane's and says the quilboar are calling upon corrupted elementals."
+   "answer": "The Razormane quilboar are performing the ritual, calling upon corrupted elementals."
   },
   {
    "q": "Why might the quilboar resist?",
@@ -63,7 +63,7 @@
     "quilboar resist",
     "why attack me"
    ],
-   "answer": "Rau warns that the quilboar will not sit idle while you interrupt their plans."
+   "answer": "You are warned that the quilboar will not sit idle while you interrupt their plans."
   }
  ],
  "angles": [],

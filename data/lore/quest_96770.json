@@ -1,0 +1,92 @@
+{
+ "key": "quest:96770",
+ "type": "quest",
+ "name": "The Witch Doctor's Head",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96770
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Archmage Lan'dalock asks you to kill the Sandfury witch doctor Zum'rah in Zul'Farrak and bring back his intact head. The request rests on a history Lan'dalock shares with the troll.",
+ "sections": [
+  {
+   "title": "Lan'dalock's Request",
+   "body": "Archmage Lan'dalock in Dalaran wants Zum'rah dead. The witch doctor is inside Zul'Farrak, a Sandfury stronghold deep in Tanaris. Lan'dalock says he has history with Zum'rah, and asks you to return with the troll's head intact. His request turns on that old grievance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zum'rah?",
+   "aliases": [
+    "zumrah",
+    "witch doctor zum'rah",
+    "sandfury witch doctor"
+   ],
+   "answer": "Zum'rah is a troll witch doctor inside Zul'Farrak, the Sandfury stronghold in Tanaris."
+  },
+  {
+   "q": "Who wants Zum'rah dead?",
+   "aliases": [
+    "who gave this",
+    "lan'dalock",
+    "why kill zumrah"
+   ],
+   "answer": "Archmage Lan'dalock in Dalaran asks you to kill Zum'rah. He says he has history with the troll."
+  },
+  {
+   "q": "Where is Zum'rah?",
+   "aliases": [
+    "where find zumrah",
+    "zul'farrak",
+    "tanaris troll"
+   ],
+   "answer": "Zum'rah is inside Zul'Farrak, deep in the deserts of Tanaris."
+  },
+  {
+   "q": "Why does Lan'dalock want him killed?",
+   "aliases": [
+    "lan'dalock grudge",
+    "why does archmage want zumrah dead",
+    "history with zumrah"
+   ],
+   "answer": "Lan'dalock says he has history with Zum'rah, but gives no further detail."
+  },
+  {
+   "q": "What does Lan'dalock ask you to bring back?",
+   "aliases": [
+    "bring back what",
+    "zumrah head",
+    "intact head"
+   ],
+   "answer": "Lan'dalock asks you to bring him Zum'rah's head intact."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dalaran",
+  "lan'dalock",
+  "sandfury",
+  "tanaris",
+  "troll",
+  "witch doctor",
+  "zul'farrak",
+  "zum'rah",
+  "zumrah"
+ ],
+ "related": [
+  "subzone:zul-farrak",
+  "zone:tanaris",
+  "subzone:dalaran",
+  "quest:96775",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Witch Doctor's Head"
+ ]
+}

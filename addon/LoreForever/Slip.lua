@@ -142,7 +142,8 @@ function Slip.OnFound(key)
   if S().pageSlip == false then return end
   -- A page whose story this character has heard isn't new to you: no note (as a heard zone; LOR-1388).
   -- (Not a quest: its quest giver's page marks its story heard as it speaks, before you Accept: #3833 review.)
-  if ns.Voice and not key:match("^quest:") and ns.Voice.Heard(key) then return end
+  -- (With "Skip what you've heard" off, a heard page's story joins again, so its note shows with it.)
+  if ns.Voice and not key:match("^quest:") and S().skipHeard ~= false and ns.Voice.Heard(key) then return end
   Slip.waiting[#Slip.waiting + 1] = key
   Slip.Flush()
 end

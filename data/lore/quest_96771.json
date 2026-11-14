@@ -1,0 +1,75 @@
+{
+ "key": "quest:96771",
+ "type": "quest",
+ "name": "Vengeance of the Highborne",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96771
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A patron asks you to find Zalfan Moonshadow at Krol'dok Stronghold in the Riverglades. He condemns Zalfan's ties to the Twilight's Hammer and use of stolen arcane knowledge.",
+ "sections": [
+  {
+   "title": "A Highborne in the Glades",
+   "body": "A patron points you southeast to Krol'dok Stronghold in the Riverglades, where Zalfan Moonshadow has been seen with the Twilight's Hammer. He calls Zalfan a disgrace to the Highborne, accusing him of serving fanatics with stolen arcane knowledge. The patron offers generous pay for Zalfan's death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zalfan Moonshadow?",
+   "aliases": [
+    "zalfan",
+    "who's zalfan"
+   ],
+   "answer": "Zalfan Moonshadow is a Highborne seen at Krol'dok Stronghold with the Twilight's Hammer."
+  },
+  {
+   "q": "Where is Zalfan?",
+   "aliases": [
+    "where's zalfan",
+    "kroldok location"
+   ],
+   "answer": "Zalfan has been seen at Krol'dok Stronghold in the Riverglades, southeast of here."
+  },
+  {
+   "q": "Why does the patron want Zalfan dead?",
+   "aliases": [
+    "why kill zalfan",
+    "zalfan problem"
+   ],
+   "answer": "The patron says Zalfan brings shame to the Highborne by consorting with the Twilight's Hammer and using stolen arcane knowledge in their service."
+  },
+  {
+   "q": "What does the patron offer?",
+   "aliases": [
+    "pay for zalfan",
+    "zalfan bounty"
+   ],
+   "answer": "The patron offers generous pay to anyone who kills Zalfan Moonshadow."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "highborne",
+  "krol'dok stronghold",
+  "riverglades",
+  "stolen arcane knowledge",
+  "twilight's hammer",
+  "vengeance of the highborne",
+  "zalfan moonshadow"
+ ],
+ "related": [
+  "zone:riverglades",
+  "topic:highborne",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vengeance of the Highborne"
+ ]
+}

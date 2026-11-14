@@ -17,9 +17,34 @@ import re
 import tempfile
 import zipfile
 
-EDITION_ID = "densuad-esES"
-TEXT_NAME = "LoreForever_Edition_Densuad_esES_Text"
-AUDIO_NAME = "LoreForever_Edition_Densuad_esES_Audio"
+# Every contributor edition: one contributor's frozen text and voice, credited to them (Mike, 11/9: "an upload stays
+# one pack"). The TOC title words are the edition's own language. A new edition is a row here (and its two folders in
+# RELEASE_PACKS, scripts/build-release.sh); everything that builds, checks, stamps or lists an edition reads this.
+EDITIONS = {
+    "densuad-esES": {"credit": "Densuad", "locale": "esES", "folder": "LoreForever_Edition_Densuad_esES",
+                     "title": "Densuad español", "text_word": "texto", "voice_word": "voz",
+                     "voice_id": "densuad-spanish", "name": "Spanish (Densuad)", "language": "Español",
+                     "language_en": "Spanish", "his": "his"},
+    "masterzblaze-nlNL": {"credit": "MasterZBlaze", "locale": "nlNL", "folder": "LoreForever_Edition_MasterZBlaze_nlNL",
+                          "title": "MasterZBlaze Nederlands", "text_word": "tekst", "voice_word": "stem",
+                          "voice_id": "masterzblaze-dutch", "name": "Dutch (MasterZBlaze)", "language": "Nederlands",
+                          "language_en": "Dutch", "his": "their"},
+}
+EDITION_ID = "densuad-esES"   # the first edition: the default where one isn't named
+
+
+def names(edition_id):
+    """(text add-on, audio add-on) folder names of an edition."""
+    folder = EDITIONS[edition_id]["folder"]
+    return folder + "_Text", folder + "_Audio"
+
+
+def editions_in(addon_root):
+    """The editions with any component in addon_root, in a fixed order."""
+    return [e for e in EDITIONS if any((Path(addon_root) / n).exists() for n in names(e))]
+
+
+TEXT_NAME, AUDIO_NAME = names(EDITION_ID)
 SCHEMA = "lore-contributor-edition-v1"
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = "Manifest.json"
@@ -36,6 +61,12 @@ TEXT_FIELDS = {"n", "s", "h", "sec", "faq"}
 def split_id(rid):
     key, sep, index = rid.partition("#faq")
     return key, int(index) if sep else None
+
+
+def clip_file(rid):
+    """The file name the add-on plays a clip from (Voice.ClipPath: '#' as '__', anything else not a word character,
+    '-' or '_' as '_')."""
+    return re.sub(r"[^A-Za-z0-9_-]", "_", rid.replace("#", "__")) + ".mp3"
 
 
 def _unique_object(pairs):
@@ -104,29 +135,31 @@ def _core_metadata(addon_root):
         raise ValueError("core version must be an explicit semantic version")
     return metadata["Interface"], metadata["Version"]
 
-def _edition(peer, version):
-    return {"id": EDITION_ID, "version": version, "peer": peer, "api": 1}
+def _edition(peer, version, edition_id=EDITION_ID):
+    return {"id": edition_id, "version": version, "peer": peer, "api": 1}
 
 def _toc(name, peer, kind, manifest):
+    e = EDITIONS[manifest["id"]]
     return (f"## Interface: {manifest['interface']}\n"
-            f"## Title: Lore Forever — Densuad español ({'texto' if kind == 'edition-text' else 'voz'})\n"
-            "## Notes: Optional paired contributor edition.\n## Author: Densuad\n"
+            f"## Title: Lore Forever — {e['title']} ({e['text_word'] if kind == 'edition-text' else e['voice_word']})\n"
+            f"## Notes: Optional paired contributor edition.\n## Author: {e['credit']}\n"
             f"## Version: {manifest['core_version']}\n## Dependencies: LoreForever\n## LoadOnDemand: 1\n"
-            f"## X-LoreForever-Pack: {kind}\n## X-LoreForever-Locale: esES\n"
-            "## X-LoreForever-Format: 1\n## X-LoreForever-Credit: Densuad\n"
+            f"## X-LoreForever-Pack: {kind}\n## X-LoreForever-Locale: {e['locale']}\n"
+            f"## X-LoreForever-Format: 1\n## X-LoreForever-Credit: {e['credit']}\n"
             f"## X-LoreForever-CoreVersion: {manifest['core_version']}\n"
-            f"## X-LoreForever-Edition: {EDITION_ID}\n"
+            f"## X-LoreForever-Edition: {manifest['id']}\n"
             f"## X-LoreForever-EditionVersion: {manifest['version']}\n"
             f"## X-LoreForever-EditionPeer: {peer}\n## X-LoreForever-EditionAPI: 1\nEdition.xml\n")
 
 def declared_files(manifest):
     """Pure serialization: same manifest gives byte-identical TOCs and Lua."""
     result = {}
-    for name, peer, kind in [(TEXT_NAME, AUDIO_NAME, "edition-text"), (AUDIO_NAME, TEXT_NAME, "edition-voice")]:
+    text_name, audio_name = names(manifest["id"])
+    for name, peer, kind in [(text_name, audio_name, "edition-text"), (audio_name, text_name, "edition-voice")]:
         result[f"{name}/{name}.toc"] = _toc(name, peer, kind, manifest).encode("utf-8")
         prefix = HEADER + "local name = ...\nlocal P = LoreForeverPacks and LoreForeverPacks.Begin(name)\nif not P then return end\n"
         scripts = ["Edition.lua"]
-        result[f"{name}/Edition.lua"] = (prefix + "P.edition = " + lua(_edition(peer, manifest["version"])) + "\n").encode("utf-8")
+        result[f"{name}/Edition.lua"] = (prefix + "P.edition = " + lua(_edition(peer, manifest["version"], manifest["id"])) + "\n").encode("utf-8")
         payload = manifest["text_data"] if kind == "edition-text" else manifest["audio_data"]
         for field, values in sorted(payload.items()):
             # Small chunks stay comfortably below Lua 5.1's constant limit.
@@ -152,16 +185,16 @@ def _counts(records, entries):
             "unavailable_script_pairings": sum(not r["exact_audio_pair"] for r in records),
             "readable_without_audio": sum(r["source_status"] == "accepted" and not r["published_audio"] for r in records)}
 
-def _unhydrated_store(addon_root):
+def _unhydrated_store(addon_root, audio_name=AUDIO_NAME):
     """The asset store's list of the audio component's recordings (name: [sha256, bytes]) when this checkout keeps
     them there and holds no Audio/ folder for them, else None. In the private repo they live in the asset store
     (LOR-440, release/audio-store/<pack>.json beside addon/) and only scripts/audio_store.py hydrate fills the
     gitignored Audio/, which a sparse or pointers worktree never does. The public repo has no store manifest."""
-    path = Path(addon_root).parent / "release" / "audio-store" / f"{AUDIO_NAME}.json"
-    if (Path(addon_root) / AUDIO_NAME / "Audio").exists() or not path.is_file():
+    path = Path(addon_root).parent / "release" / "audio-store" / f"{audio_name}.json"
+    if (Path(addon_root) / audio_name / "Audio").exists() or not path.is_file():
         return None
     store = json.loads(path.read_bytes(), object_pairs_hook=_unique_object)
-    if store.get("pack") != AUDIO_NAME or not isinstance(store.get("clips"), dict):
+    if store.get("pack") != audio_name or not isinstance(store.get("clips"), dict):
         raise ValueError("malformed asset store manifest: " + path.name)
     return store["clips"]
 
@@ -175,10 +208,12 @@ def validate_pair(addon_root, edition_id=EDITION_ID, allow_unhydrated_store=Fals
     and size are checked against the store's manifest instead of its bytes. With an Audio/ folder every byte is
     checked as always, and nothing that publishes, stamps or builds the pair passes it.
     """
-    if edition_id != EDITION_ID:
+    if edition_id not in EDITIONS:
         raise ValueError("unsupported edition ID")
+    edition = EDITIONS[edition_id]
+    TEXT_NAME, AUDIO_NAME = names(edition_id)
     addon_root = Path(addon_root)
-    store = _unhydrated_store(addon_root) if allow_unhydrated_store else None
+    store = _unhydrated_store(addon_root, AUDIO_NAME) if allow_unhydrated_store else None
     audio_dir = f"{AUDIO_NAME}/Audio/"
     paths = [addon_root / name for name in (TEXT_NAME, AUDIO_NAME)]
     if any(p.is_symlink() or (p / MANIFEST).is_symlink() for p in paths):
@@ -200,7 +235,7 @@ def validate_pair(addon_root, edition_id=EDITION_ID, allow_unhydrated_store=Fals
         raise ValueError("core interface is incompatible with contributor edition")
     if "core_source" in manifest:
         raise ValueError("a pair bound to core Data: regenerate it (packs never depend on our data)")
-    if manifest.get("locale") != "esES" or manifest.get("credit") != "Densuad":
+    if manifest.get("locale") != edition["locale"] or manifest.get("credit") != edition["credit"]:
         raise ValueError("unsupported edition locale/credit")
     if set(manifest.get("text_data", {})) != {"entries", "clipHash", "answerHash"} or set(manifest.get("audio_data", {})) != {"clips", "durations"}:
         raise ValueError("unexpected runtime payload fields")
@@ -223,6 +258,8 @@ def validate_pair(addon_root, edition_id=EDITION_ID, allow_unhydrated_store=Fals
                 raise ValueError("ineligible or wrong-script audio")
             if not re.fullmatch(r"[a-z0-9_-]+\.mp3", row["audio_file"]):
                 raise ValueError("unsafe audio member")
+            if row["audio_file"] != clip_file(row["id"]):
+                raise ValueError("recording the add-on would never find: " + row["audio_file"])
             rel = f"{AUDIO_NAME}/Audio/{row['audio_file']}"
             if rel in expected_inventory:
                 raise ValueError("duplicate audio member")
@@ -311,22 +348,23 @@ def validate_pair(addon_root, edition_id=EDITION_ID, allow_unhydrated_store=Fals
         raise ValueError("incorrect source dispositions")
     return manifest
 
-def build_bundle(addon_root, out_dir, versioned=False):
+def build_bundle(addon_root, out_dir, versioned=False, edition_id=EDITION_ID):
     """Build one deterministic ZIP containing exactly both validated components."""
     addon_root, out_dir = Path(addon_root), Path(out_dir)
-    manifest = validate_pair(addon_root)
+    TEXT_NAME, AUDIO_NAME = names(edition_id)
+    manifest = validate_pair(addon_root, edition_id)
     core_metadata = _core_metadata(addon_root)
     out_dir.mkdir(parents=True, exist_ok=True)
     suffix = "-" + manifest["core_version"] if versioned else ""
-    dest = out_dir / ("LoreForever_Edition_Densuad_esES" + suffix + ".zip")
-    names = sorted(set(manifest["files"]) | {f"{n}/{MANIFEST}" for n in (TEXT_NAME, AUDIO_NAME)})
+    dest = out_dir / (EDITIONS[edition_id]["folder"] + suffix + ".zip")
+    members = sorted(set(manifest["files"]) | {f"{n}/{MANIFEST}" for n in (TEXT_NAME, AUDIO_NAME)})
     with tempfile.NamedTemporaryFile(prefix=".contributor-", suffix=".zip", dir=out_dir, delete=False) as f:
         pending = Path(f.name)
     try:
         manifest_proof = {f"{n}/{MANIFEST}": {"sha256": file_sha(addon_root / n / MANIFEST),
                           "bytes": (addon_root / n / MANIFEST).stat().st_size} for n in (TEXT_NAME, AUDIO_NAME)}
         with zipfile.ZipFile(pending, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as z:
-            for rel in names:
+            for rel in members:
                 info = zipfile.ZipInfo(rel, date_time=(1980, 1, 1, 0, 0, 0))
                 info.compress_type, info.create_system, info.external_attr = zipfile.ZIP_DEFLATED, 3, 0o100644 << 16
                 info._compresslevel = 9
@@ -361,15 +399,19 @@ def main(argv=None):
     parser.add_argument("--allow-unhydrated-store", action="store_true",
                         help="validation only: with no Audio/ here, check the recordings against the asset store's "
                              "manifest (publish-public.sh --check)")
+    parser.add_argument("--edition", action="append", choices=sorted(EDITIONS),
+                        help="this edition only (repeatable); default every edition in --addons")
     args = parser.parse_args(argv)
     if args.allow_unhydrated_store and args.out is not None:
         parser.error("--allow-unhydrated-store only validates; a bundle needs the recordings")
     try:
-        if args.out is None:
-            m = validate_pair(args.addons, allow_unhydrated_store=args.allow_unhydrated_store)
-            print(json.dumps({"version": m["version"], "counts": m["counts"]}, sort_keys=True))
-        else:
-            print(build_bundle(args.addons, args.out, args.versioned))
+        # One line per edition: its validation summary, or the ZIP built.
+        for edition_id in args.edition or editions_in(args.addons):
+            if args.out is None:
+                m = validate_pair(args.addons, edition_id, allow_unhydrated_store=args.allow_unhydrated_store)
+                print(json.dumps({"id": edition_id, "version": m["version"], "counts": m["counts"]}, sort_keys=True))
+            else:
+                print(build_bundle(args.addons, args.out, args.versioned, edition_id))
     except (OSError, ValueError, KeyError, TypeError, IndexError) as error:
         parser.exit(1, "contributor-bundle: " + str(error) + "\n")
 

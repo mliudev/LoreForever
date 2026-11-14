@@ -102,7 +102,7 @@ local function usable(v) return ns.Context.Usable(v) and type(v) == "string" and
 local function scrub(s) return ns.Log.Scrub(s) end
 local function settings() return (LoreForeverDB and LoreForeverDB.settings) or {} end
 -- Timers run outside the event handler's pcall: an error in one must not reach the player.
-local function later(delay, fn) C_Timer.After(delay, function() pcall(fn) end) end
+local function later(delay, fn) C_Timer.After(delay, function() ns.Guard(fn) end) end
 
 local char           -- this character's record in LoreForeverDB.journey.chars
 local loginAt        -- time() of this load's login event (none while Remember my journey is off)
@@ -3783,9 +3783,9 @@ frame:SetScript("OnEvent", function(_, event, ...)
   if not (LoreForeverDB and LoreForeverDB.texts) then return end   -- before login
   if not (char and Journey.On()) then
     local h = ALWAYS[event]
-    if h then pcall(h == true and handlers[event] or h, ...) end
+    if h then ns.Guard(h == true and handlers[event] or h, ...) end
     return
   end
   local h = handlers[event]
-  if h then pcall(h, ...) end
+  if h then ns.Guard(h, ...) end   -- a broken handler is kept for /lore errors (Errors.lua)
 end)

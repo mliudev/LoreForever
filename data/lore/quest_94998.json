@@ -1,0 +1,72 @@
+{
+ "key": "quest:94998",
+ "type": "quest",
+ "name": "Curios of Curiosity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94998
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You carry a satchel of unusual mementos to Melanie Sable. Their fine craftsmanship may make them useful.",
+ "sections": [
+  {
+   "title": "A Satchel for Melanie",
+   "body": "Someone who examined the mementos sends you to Melanie Sable with the satchel. They believe the objects are safe, though their origin remains unknown. Their workmanship is unusual, and Melanie may find a use for them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I take the mementos to?",
+   "aliases": [
+    "where take the satchel",
+    "who is Melanie Sable"
+   ],
+   "answer": "Take the satchel of mementos to Melanie Sable, as the examiner asks."
+  },
+  {
+   "q": "What are the mementos?",
+   "aliases": [
+    "what's in the satchel",
+    "what are these curios"
+   ],
+   "answer": "They are remnants of something, but the examiner does not know exactly what."
+  },
+  {
+   "q": "Why are the mementos unusual?",
+   "aliases": [
+    "what's special about them",
+    "curios craftsmanship"
+   ],
+   "answer": "Their craftsmanship is described as quite unique and intricate."
+  },
+  {
+   "q": "Are the mementos safe?",
+   "aliases": [
+    "is the satchel safe",
+    "are they dangerous"
+   ],
+   "answer": "The examiner asks you to tell Melanie that the mementos are safe."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsmanship",
+  "curios of curiosity",
+  "melanie sable",
+  "mementos",
+  "remnants",
+  "satchel of mementos"
+ ],
+ "related": [
+  "quest:98313"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Curios of Curiosity"
+ ]
+}

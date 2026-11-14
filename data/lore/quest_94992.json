@@ -1,0 +1,84 @@
+{
+ "key": "quest:94992",
+ "type": "quest",
+ "name": "Rescue Roundup",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94992
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wheeler asks you to bring his lost horse, Biscuit, back to Wheeler's Grange. Her return means the grange is back in business.",
+ "sections": [
+  {
+   "title": "Biscuit Returns",
+   "body": "Wheeler's lost horse is named Biscuit, and she bows her head before nudging your arm. You bring her back to Wheeler's Grange. Wheeler is grateful to have Biscuit home, though she expects the horse to be alone for a while. The grange is open for business again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Biscuit?",
+   "aliases": [
+    "biscuit horse",
+    "lost horse",
+    "who's biscuit"
+   ],
+   "answer": "Biscuit is Wheeler's horse, who has been lost and needs to be brought back to Wheeler's Grange."
+  },
+  {
+   "q": "Where does Biscuit need to go?",
+   "aliases": [
+    "where bring horse",
+    "biscuit location",
+    "horse destination"
+   ],
+   "answer": "Biscuit needs to be brought back to Wheeler's Grange."
+  },
+  {
+   "q": "Why is Wheeler grateful?",
+   "aliases": [
+    "why thanks",
+    "saved biscuit",
+    "wheeler thank you"
+   ],
+   "answer": "Wheeler is grateful because you bring Biscuit back to the grange."
+  },
+  {
+   "q": "Is Biscuit alone?",
+   "aliases": [
+    "biscuit alone",
+    "where stablemates",
+    "other horses"
+   ],
+   "answer": "Wheeler says Biscuit will be alone for a while and hopes to find some of her stable-mates."
+  },
+  {
+   "q": "Is Wheeler's Grange open?",
+   "aliases": [
+    "grange open",
+    "wheeler business",
+    "grange back"
+   ],
+   "answer": "With Biscuit back, Wheeler's Grange is back in business."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "biscuit",
+  "demar",
+  "horse",
+  "lost horse",
+  "rescue roundup",
+  "stable-mates",
+  "wheeler's grange"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rescue Roundup"
+ ]
+}

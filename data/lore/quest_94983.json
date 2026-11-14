@@ -1,0 +1,82 @@
+{
+ "key": "quest:94983",
+ "type": "quest",
+ "name": "Twilight Mementos",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94983
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sergeant Riftan sends you north to Krol'dok Stronghold after scouts confirm a Twilight's Hammer hideout. He asks you to bring back proof of the cultists' defeat.",
+ "sections": [
+  {
+   "title": "Scouts' Reports",
+   "body": "Scouts have brought Sergeant Riftan grim accounts of a cultist hideout. Their reports confirm what others have said. A cave lies north, concealed by its surroundings, and Riftan believes it gives the cult a foothold deep in the mountains. He sends you to Krol'dok Stronghold to bring back proof that the Twilight's Hammer cultists have been defeated.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to go north?",
+   "aliases": [
+    "who sent me",
+    "sergeant riftan"
+   ],
+   "answer": "Sergeant Riftan asks you to seek out the Twilight's Hammer cultists at Krol'dok Stronghold and return with proof of their defeat."
+  },
+  {
+   "q": "What did the scouts find?",
+   "aliases": [
+    "scouts report",
+    "what did they discover"
+   ],
+   "answer": "The scouts' accounts confirmed reports of a cultist hideout, with a concealed cave to the north."
+  },
+  {
+   "q": "Where is the hideout?",
+   "aliases": [
+    "cultist cave",
+    "where are cultists"
+   ],
+   "answer": "The hideout is in a cave to the north, concealed by its surroundings. Riftan believes it is a foothold deep in the mountains."
+  },
+  {
+   "q": "What proof does Riftan want?",
+   "aliases": [
+    "what proof",
+    "cultist proof"
+   ],
+   "answer": "Riftan asks you to bring back proof that the cultists at Krol'dok Stronghold have been defeated."
+  },
+  {
+   "q": "Who are the cultists?",
+   "aliases": [
+    "twilight cult",
+    "twilights hammer"
+   ],
+   "answer": "They are members of the Twilight's Hammer, whose hideout has been confirmed by the scouts' reports."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cave",
+  "cultist bangles",
+  "cultist hideout",
+  "krol'dok stronghold",
+  "scouts",
+  "sergeant riftan",
+  "twilight mementos",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Twilight Mementos"
+ ]
+}

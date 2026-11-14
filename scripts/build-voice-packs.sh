@@ -68,28 +68,18 @@ root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
 from transport_assets import TransportError, pause_split_report, validate as validate_transport
 from load_order import LoadError, addon_files
+from pack_zip import AUDIO, write_zip, zip_files   # what a zip holds and its bytes: the zip cache keys on that file
 import build_jobs   # sized by free memory too, so builds started together can't take it all (scripts/build_jobs.py)
 SPLIT_WORKER_MB = 400
-addons, out = root / "addon", root / "dist" / "packs"
+# LORE_PACKS_OUT (an absolute folder) puts the zips elsewhere: the release rehearsal's go beside its zip cache, on
+# another disk than these recordings (LOR-1007). The pause splits' hard-linked copies stay in dist/, beside them.
+addons, out = root / "addon", Path(os.environ.get("LORE_PACKS_OUT") or root / "dist" / "packs")
+def shown(path):   # a zip as this log names it: from the checkout's root, or whole when LORE_PACKS_OUT is elsewhere
+    return path.relative_to(root) if path.is_relative_to(root) else path
 VERSIONED = "--versioned" in sys.argv[2:]
 SIZES = "--sizes" in sys.argv[2:]
 ONLY = {a for i, a in enumerate(sys.argv[2:]) if i and sys.argv[2:][i - 1] == "--pack"}   # --pack NAME ...
-AUDIO = {".mp3", ".ogg"}
 DEFLATED = {}   # path -> its deflated size (a language pack's files go in several zips)
-
-def write_zip(path, files):
-    """One download's zip: files is [(folder, src, paths)], each path's entry under folder/ by its place in src. The same
-    bytes whichever process writes it (fixed dates and modes, entries in the order given), so zips are written side by
-    side (ZIP_POOL below): one after another they took ~12 minutes of the rehearsal, most of it per-file Python."""
-    with zipfile.ZipFile(path, "w") as z:
-        for f, src, paths in files:
-            for p in paths:
-                if p.is_file():
-                    info = zipfile.ZipInfo(f"{f}/{p.relative_to(src).as_posix()}", date_time=(2026, 1, 1, 0, 0, 0))
-                    info.compress_type = zipfile.ZIP_STORED if p.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
-                    info.external_attr = 0o644 << 16
-                    z.writestr(info, p.read_bytes(), compresslevel=9)
-    return path.stat().st_size
 
 # The zip writers: forked here, before the pause-split pool starts its threads, and only for a build that writes zips.
 # Disk-bound past a few, so at most LORE_PACK_ZIP_JOBS (default 8). LORE_PACK_ZIP_JOBS=1 writes them in this process.
@@ -104,10 +94,16 @@ if not SIZES and int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8) > 1:
 
 # LORE_PACK_ZIP_CACHE=DIR (release.sh's rehearsal only; never the Release workflow, which builds every zip): a zip whose
 # inputs match one built before is linked from DIR instead of written again (the 2nd and later candidates of a version).
-# Its key: this build's scripts and Python, the zip's name and folders, each folder's recordings by release/audio.json's
-# fingerprint (their names and contents; the count and bytes checked here too), and every other file of the folders and
-# of the language pack it carries, by content. A pack without a fingerprint is always built.
+# Its key: what decides a zip's contents and bytes (Python, scripts/pack_zip.py whole, the pause splits'
+# transport_assets.py and the language files' load_order.py), the zip's name and folders, each folder's recordings by release/audio.json's fingerprint (their
+# names and contents; the count and bytes checked here too), and every other file of the folders and of the language
+# pack it carries, by content. A pack without a fingerprint is always built. Not the rest of this script or
+# build-release.sh: they change most days (twice between 1.8.0's two candidates, never in how a zip is written), and with
+# them in the key no candidate ever hit (LOR-1007). A zip from the cache still gets its packs' checks, so a check added
+# since runs on every pack. (Only the rehearsal reads the cache: the Release workflow writes every zip itself.)
 CACHE = Path(os.environ["LORE_PACK_ZIP_CACHE"]) if os.environ.get("LORE_PACK_ZIP_CACHE") and not SIZES else None
+import time
+BUILD_START = time.time()
 AUDIO_JSON = {}
 if CACHE:
     try:
@@ -120,9 +116,8 @@ if CACHE:
 def _sha(b):
     import hashlib
     return hashlib.sha256(b).hexdigest()
-_BUILD = _sha(sys.version.encode() + b"".join((root / "scripts" / n).read_bytes() for n in
-              ("build-voice-packs.sh", "transport_assets.py", "load_order.py", "build-release.sh")
-              if (root / "scripts" / n).is_file()))
+_BUILD = _sha(sys.version.encode() + b"".join((root / "scripts" / n).read_bytes()
+                                              for n in ("pack_zip.py", "transport_assets.py", "load_order.py")))
 def zip_key(name, folders, lang):
     parts = [_BUILD, name]
     for f in folders:
@@ -147,7 +142,7 @@ def zip_key(name, folders, lang):
         parts += [lf, *(p + ":" + _sha((addons / lf / p).read_bytes()) for p in listed)]
     return _sha("\n".join(parts).encode())
 def from_cache(key, path):
-    hit = CACHE / f"{key}.zip"
+    hit = CACHE / f"{core}-{key}.zip"
     if not hit.is_file():
         return False
     path.unlink(missing_ok=True)
@@ -163,10 +158,10 @@ def from_cache(key, path):
     return True
 CACHE_NOTED = []
 def to_cache(key, path):
-    tmp = CACHE / f".{key}.{os.getpid()}.tmp"
+    tmp = CACHE / f".{core}-{key}.{os.getpid()}.tmp"
     try:
         os.link(path, tmp)   # the same disk only: a copy would double what the build writes
-        os.replace(tmp, CACHE / f"{key}.zip")
+        os.replace(tmp, CACHE / f"{core}-{key}.zip")
     except OSError as e:
         tmp.unlink(missing_ok=True)
         if not CACHE_NOTED:
@@ -390,6 +385,13 @@ def version(folder):
     return m.group(1)
 
 core = version("LoreForever") if (addons / "LoreForever" / "LoreForever.toc").is_file() else None
+# The cache holds one version: its zips are named <core version>-<key>.zip, and a whole build first drops every other
+# version's (they hold that version's .toc: none can match). So it never holds more than one version's zips, ~23 GB
+# at 1.9.0, where a new version's first build used to keep the last one's too until its end (LOR-1007).
+if CACHE and not ONLY and core:
+    for old in CACHE.glob("*.zip"):
+        if not old.name.startswith(f"{core}-"):
+            old.unlink(missing_ok=True)
 
 @functools.cache   # each language goes in several zips; its checks (a secret scan over ~35 MB) hold for all
 def language_files(locale):
@@ -435,7 +437,8 @@ SOURCES, STAGE, SPLITS = {}, None, None
 def source(folder):
     global STAGE, SPLITS
     if SPLITS is None:
-        STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=out))
+        (root / "dist").mkdir(exist_ok=True)
+        STAGE = Path(tempfile.mkdtemp(prefix=".pause-split-", dir=root / "dist"))   # hard links: the recordings' disk
         atexit.register(shutil.rmtree, STAGE, True)
         # Only the packs a zip that gets built holds: with --pack, the rest are never read (a zip is built only when all
         # its folders are in ONLY), so they must not each start a worker either (10/25: 6 runs x 16 workers).
@@ -478,7 +481,7 @@ def installer_packs_ready():
         os.replace(part, READY)   # whole or not there: the workflow polls for it
         READY = None
 def check_packs(folders):
-    """Each pack's checks, once whichever zips it goes in (a zip linked from the cache passed them on these inputs)."""
+    """Each pack's checks, once whichever zips it goes in (a zip from the cache too)."""
     for f in folders:
         if f in CHECKED:
             continue
@@ -517,17 +520,19 @@ def drain(block):
         RANK[path.name] = TABLE[name]
         if hit:
             HITS.append(name)
-            print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB, from the zip cache)")
+            print(f"built {shown(path)} ({path.stat().st_size / 1024**2:.1f} MB, from the zip cache)")
         else:
             BUILT += 1
             if key:
                 to_cache(key, path)
-            print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
+            print(f"built {shown(path)} ({path.stat().st_size / 1024**2:.1f} MB)")
         if name in CURSEFORGE_OWN and path.stat().st_size > CURSEFORGE_MB * 1024**2:
             print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
                   "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
                   "split an answers part (lore.answers PARTS)")
-edition_names_all = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
+sys.path.insert(0, str(root / "scripts"))
+from contributor_bundle import EDITIONS, names as edition_pair   # every contributor edition, one zip each
+EDITION_PAIRS = {e: edition_pair(e) for e in EDITIONS}
 marked = False
 for name, (folders, display) in DOWNLOADS.items():
     if name not in (FIRST or ()) and not marked:
@@ -576,14 +581,13 @@ for name, (folders, display) in DOWNLOADS.items():
         continue
     key = zip_key(name, folders, lang) if CACHE else None
     if key and from_cache(key, path):
+        check_packs(folders)   # the checks as of this build, on a zip written by an earlier one
         PENDING.append((name, path, display, v, None, None, True))
         drain(False)
         continue
     check_packs(folders)
-    files = [(f, source(f), sorted(source(f).rglob("*"))) for f in folders]   # before the zip: a split can fail
-    if lang:
-        f, listed = lang
-        files.append((f, addons / f, [addons / f / p for p in listed]))
+    # Before the zip: a split can fail.
+    files = zip_files(folders, source, (lang[0], lang[1], addons / lang[0]) if lang else None)
     job = ZIP_POOL.submit(write_zip, path, files) if ZIP_POOL else None
     if job is None:
         write_zip(path, files)
@@ -593,32 +597,57 @@ drain(True)
 if CACHE and HITS:
     print(f"zip cache: {len(HITS)} of {len(HITS) + BUILT} zips had the same inputs as before and were linked from it")
 installer_packs_ready()   # every zip was one of the installer's (or there were none)
-if CACHE:   # what no build used for two days goes
-    import time
+if CACHE:
+    # A whole build keeps only the zips it used or wrote (a hit is touched): the next candidate of this version can
+    # reuse those, and no other zip can match it (each holds its version's .toc). Two days of them was 60 GB on 11/12
+    # and filled the disk the rehearsal writes to (LOR-1007). A --pack build keeps the rest; stray .tmp go after a day.
+    # Two versions stay, this one and the newest other (docs/qa/release-branches.md: a release branch's candidates and
+    # main's next version's take turns, and neither may empty the other's): a whole build drops the zips of any older one.
+    newest = {}
+    for z in CACHE.glob("*.zip"):
+        v = z.name.rsplit("-", 1)[0]
+        if v != core:
+            try:
+                newest[v] = max(newest.get(v, 0), z.stat().st_mtime)
+            except OSError:
+                pass
+    other = max(newest, key=newest.get) if newest else None
     for old in [*CACHE.glob("*.zip"), *CACHE.glob(".*.tmp")]:
         try:
-            if old.stat().st_mtime < time.time() - 2 * 86400:
+            age = old.stat().st_mtime
+            v = old.name.rsplit("-", 1)[0]
+            if (old.suffix == ".zip" and not ONLY and ((v == core and age < BUILD_START - 60) or v not in (core, other))) \
+                    or (old.suffix == ".tmp" and age < time.time() - 86400):
                 old.unlink(missing_ok=True)
         except OSError:   # another build took it first
             pass
+    def size(z):   # another build may prune it between the listing and the stat
+        try:
+            return z.stat().st_size
+        except OSError:
+            return None
+    kept = [n for n in map(size, CACHE.glob("*.zip")) if n is not None]
+    print(f"zip cache: holds {len(kept)} zips, {sum(kept) / 1024**3:.1f} GB ({CACHE})")
 rows.sort(key=lambda r: RANK[r[0]])
-if ONLY and not any(set(fs) <= ONLY for fs, _ in DOWNLOADS.values()) and not set(edition_names_all) <= ONLY:
+if ONLY and not any(set(fs) <= ONLY for fs, _ in DOWNLOADS.values()) and not any(set(p) <= ONLY for p in EDITION_PAIRS.values()):
     sys.exit(f"build-voice-packs: no download is made only of {', '.join(sorted(ONLY))} (each --pack is an addon/ folder)")
 # A contributor edition must remain a single paired artifact. Its validator also
 # rejects a lone component, mismatched pairing identity and unhydrated audio.
-edition_names = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
 if SIZES:
-    for f in edition_names:   # contributor_bundle.py zips both folders as they are, as LoreForever_Edition_Densuad_esES
-        if (addons / f).is_dir() and (not ONLY or set(edition_names) <= ONLY):
-            print(f"size\tLoreForever_Edition_Densuad_esES.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
+    for edition, edition_names in EDITION_PAIRS.items():   # contributor_bundle.py zips both folders as they are
+        for f in edition_names:
+            if (addons / f).is_dir() and (not ONLY or set(edition_names) <= ONLY):
+                print(f"size\t{EDITIONS[edition]['folder']}.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
     sys.exit(0)
-if any((addons / name).exists() for name in edition_names) and (not ONLY or set(edition_names) <= ONLY):
-    command = [sys.executable, str(root / "scripts" / "contributor_bundle.py"),
-               "--addons", str(addons), "--out", str(out)]
-    if VERSIONED:
-        command.append("--versioned")
-    path = Path(subprocess.check_output(command, cwd=root, text=True).strip())
-    rows.append((path.name, f"Densuad: Spanish text and narration {core}", core))
-    print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
+for edition, edition_names in EDITION_PAIRS.items():
+    if any((addons / name).exists() for name in edition_names) and (not ONLY or set(edition_names) <= ONLY):
+        command = [sys.executable, str(root / "scripts" / "contributor_bundle.py"),
+                   "--addons", str(addons), "--out", str(out), "--edition", edition]
+        if VERSIONED:
+            command.append("--versioned")
+        path = Path(subprocess.check_output(command, cwd=root, text=True).strip())
+        e = EDITIONS[edition]
+        rows.append((path.name, f"{e['credit']}: {e['language_en']} text and narration {core}", core))
+        print(f"built {shown(path)} ({path.stat().st_size / 1024**2:.1f} MB)")
 (out / "manifest.tsv").write_text("".join("\t".join(r) + "\n" for r in rows), encoding="utf-8")
 PY

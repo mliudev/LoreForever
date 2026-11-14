@@ -1,0 +1,85 @@
+{
+ "key": "quest:2981",
+ "type": "quest",
+ "name": "A Threat in Feralas",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2981
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Belgrom Rockmaul sends you to Camp Mojache to speak with Rok Orhan about the growing Gordunni ogre tribe. Their strength threatens your side's presence in Feralas.",
+ "sections": [
+  {
+   "title": "A Growing Force",
+   "body": "The Gordunni ogres are Feralas's dominant military force, and their numbers are increasing. Belgrom Rockmaul sends you to Camp Mojache to find Rok Orhan, a warrior who can tell you more about the situation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Belgrom Rockmaul?",
+   "aliases": [
+    "Belgrom",
+    "who sent me",
+    "Belgrom Rockmaul quest"
+   ],
+   "answer": "Belgrom Rockmaul sends you to speak with Rok Orhan about the Gordunni in Feralas."
+  },
+  {
+   "q": "Who is Rok Orhan?",
+   "aliases": [
+    "Rok",
+    "Rok Orhan quest",
+    "warrior in Camp Mojache"
+   ],
+   "answer": "Rok Orhan is a warrior who resides at Camp Mojache in Feralas and can tell you more about the Gordunni situation."
+  },
+  {
+   "q": "Who are the Gordunni?",
+   "aliases": [
+    "Gordunni ogres",
+    "ogres in Feralas",
+    "Gordunni threat"
+   ],
+   "answer": "The Gordunni are an ogre tribe and Feralas's dominant military force. Their numbers are growing."
+  },
+  {
+   "q": "Why am I being sent to Camp Mojache?",
+   "aliases": [
+    "why Camp Mojache",
+    "where do I go",
+    "talk to Rok"
+   ],
+   "answer": "Belgrom Rockmaul wants you to speak with Rok Orhan at Camp Mojache, where she can explain more about the situation."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "As a warrior, you are called to prove yourself against the growing Gordunni threat in Feralas."
+  }
+ ],
+ "keywords": [
+  "a threat in feralas",
+  "belgrom rockmaul",
+  "camp mojache",
+  "feralas",
+  "gordunni",
+  "ogres",
+  "rok orhan",
+  "warrior"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:camp-mojache",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Threat in Feralas"
+ ]
+}

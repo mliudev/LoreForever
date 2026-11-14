@@ -1,0 +1,104 @@
+{
+ "key": "quest:6610",
+ "type": "quest",
+ "name": "Clamlette Surprise",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6610
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dirge Quikcleave wants supplies for his clamlette, a new culinary creation. In return, he offers to teach you exotic cuisine and prepare a couple for you.",
+ "sections": [
+  {
+   "title": "A New Recipe",
+   "body": "Dirge Quikcleave is ready to show you how he makes his clamlette surprise. He needs giant eggs, zesty clam meat, and Alterac Swiss before he can begin. Gather the ingredients he asks for, and Dirge will teach you about exotic cuisine while preparing the dish.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a clamlette?",
+   "aliases": [
+    "clamlette surprise",
+    "what's a clamlette"
+   ],
+   "answer": "A clamlette is Dirge Quikcleave's latest culinary creation, made with giant eggs, zesty clam meat, and Alterac Swiss."
+  },
+  {
+   "q": "Who is asking for the ingredients?",
+   "aliases": [
+    "who wants the supplies",
+    "dirge quest"
+   ],
+   "answer": "Dirge Quikcleave wants the ingredients for his clamlette surprise."
+  },
+  {
+   "q": "What ingredients does Dirge need?",
+   "aliases": [
+    "clamlette ingredients",
+    "what do i gather"
+   ],
+   "answer": "Dirge needs giant eggs, zesty clam meat, and Alterac Swiss."
+  },
+  {
+   "q": "Where can I find the giant eggs?",
+   "aliases": [
+    "giant egg location",
+    "where eggs"
+   ],
+   "answer": "The giant eggs can come from rocs wandering Tanaris or other large birds."
+  },
+  {
+   "q": "Where does the zesty clam meat come from?",
+   "aliases": [
+    "clam meat source",
+    "zesty clam meat"
+   ],
+   "answer": "Zesty clam meat can be found in clams."
+  },
+  {
+   "q": "Where can I get Alterac Swiss?",
+   "aliases": [
+    "alterac swiss source",
+    "cheese for dirge"
+   ],
+   "answer": "Dirge says to get Alterac Swiss from a cheesery."
+  },
+  {
+   "q": "What does Dirge offer in return?",
+   "aliases": [
+    "what do i get",
+    "dirge teaches"
+   ],
+   "answer": "Dirge offers to teach you the finer points of exotic cuisine and prepare a couple of clamblettes for you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can learn the finer points of exotic cuisine from Dirge Quikcleave."
+  }
+ ],
+ "keywords": [
+  "alterac swiss",
+  "clamlette",
+  "clamlette surprise",
+  "dirge quikcleave",
+  "exotic cuisine",
+  "giant eggs",
+  "zesty clam meat"
+ ],
+ "related": [
+  "npc:dirge-quikcleave",
+  "zone:tanaris",
+  "topic:alterac-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Clamlette Surprise"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "quest:93224",
+ "type": "quest",
+ "name": "Carved Centaur Totems",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93224
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Captain Pentigast at Nijel's Point seeks carved centaur totems to imitate their designs. He hopes the copies can help buy an advantage with the centaur clans.",
+ "sections": [
+  {
+   "title": "A Bargain in Wood",
+   "body": "Captain Pentigast at Nijel's Point looks to the centaur clans' carved wood for a way to gain an advantage. Both clans hesitate to accept aid from outsiders, especially non-centaurs. He asks you to bring him samples of their designs so he can arrange similar carvings.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Captain Pentigast want the totems?",
+   "aliases": [
+    "why totems",
+    "pentigast's plan"
+   ],
+   "answer": "He hopes to arrange similar carvings and buy an advantage with the centaur clans."
+  },
+  {
+   "q": "Why are the centaur clans hesitant to accept help?",
+   "aliases": [
+    "why won't centaur accept aid",
+    "centaur distrust outsiders"
+   ],
+   "answer": "Both clans hesitate to accept aid from outside their clan, especially from non-centaurs."
+  },
+  {
+   "q": "What are the centaur totems made of?",
+   "aliases": [
+    "totems material",
+    "carved wood"
+   ],
+   "answer": "The local centaur barter with carved wood."
+  },
+  {
+   "q": "Where does Captain Pentigast wait?",
+   "aliases": [
+    "where is pentigast",
+    "nijel's point captain"
+   ],
+   "answer": "Captain Pentigast is at Nijel's Point."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain pentigast",
+  "carved centaur totems",
+  "carved wood",
+  "centaur",
+  "centaur clans",
+  "desolace",
+  "nijel's point",
+  "totems"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:nijel-s-point",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Carved Centaur Totems"
+ ]
+}
