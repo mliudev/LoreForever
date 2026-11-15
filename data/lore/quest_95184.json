@@ -1,0 +1,70 @@
+{
+ "key": "quest:95184",
+ "type": "quest",
+ "name": "The Sharpest of Blades",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95184
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ember Bladewhisper wants sharpening stones for the Farholde recruits. A seasoned blade can mean the difference between victory and death.",
+ "sections": [
+  {
+   "title": "Blades for Recruits",
+   "body": "At the Farholde training grounds, Ember Bladewhisper sees that the recruits know little of the difference between a practice sword and a veteran's well-kept blade. You are asked to bring her sharpening stones so the recruits can learn what a keen edge means.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs sharpening stones?",
+   "aliases": [
+    "who wants stones",
+    "Ember Bladewhisper stones"
+   ],
+   "answer": "Ember Bladewhisper at the Farholde training grounds asks for sharpening stones."
+  },
+  {
+   "q": "Why does Ember want the stones?",
+   "aliases": [
+    "why sharpening stones",
+    "what are stones for"
+   ],
+   "answer": "She wants the recruits to understand how a sharpened blade differs from a training sword."
+  },
+  {
+   "q": "Where should I bring the stones?",
+   "aliases": [
+    "where to take stones",
+    "Farholde stones"
+   ],
+   "answer": "Bring the sharpening stones to Ember Bladewhisper at the Farholde training grounds."
+  },
+  {
+   "q": "What kind of stones does Ember need?",
+   "aliases": [
+    "which stones",
+    "stone type"
+   ],
+   "answer": "Ember asks for Solid Sharpening Stones."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ember bladewhisper",
+  "farholde",
+  "recruits",
+  "sharpening stones",
+  "solid sharpening stones",
+  "training grounds"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Sharpest of Blades"
+ ]
+}

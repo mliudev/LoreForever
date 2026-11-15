@@ -2230,7 +2230,7 @@ P.transport["quest:1654"] = {
   fullHash = "2c811a",
   text = "The Test of Righteousness. Jordan Stilwell has a sacred weapon in mind for a paladin worthy of the Light. The Ironforge smith needs rare materials from distant lands, including his lost family hammer. Outside Ironforge's gates, Jordan Stilwell cannot forge the paladin's weapon on his own. You gather the materials his craft demands. Jordan Stilwell needs four things for the weapon: Whitestone Oak lumber, refined ore from master prospectors, a purified Kor Gem, and his smithing hammer. He left the hammer behind while escaping Shadowfang Keep. Finding all four means facing dangers across the Eastern Kingdoms and beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1654-cc8d7dd2c2df9c64e870/1-0000.mp3", duration = 40.3069388, start = 0},
+    {file = "Audio/Transport/full_quest_1654-d4ca2f96302ebb4d6edd/1-0000.mp3", duration = 50.3379592, start = 0},
   },
 }
 P.transport["quest:1655"] = {
@@ -2710,7 +2710,7 @@ P.transport["quest:1806"] = {
   fullHash = "5c690b",
   text = "The Test of Righteousness. At Jordan Stilwell’s forge outside Ironforge, you bring the materials for a paladin’s warhammer. Gathered across the Eastern Kingdoms and Kalimdor, they help turn an apprentice into a recognized champion of the Light. Jordan Stilwell works at his forge outside Ironforge’s gates. He envies paladins who wander the land, yet takes pride in serving their cause. You bring him rare materials gathered from shadowy crypts, sunken ruins, and dangerous mines. With them, the master smith keeps his promise and forges a weapon worthy of a true defender. Jordan Stilwell names the finished warhammer Verigan's Fist, for Bosch Verigan, an honored dwarven paladin and his dear friend. On behalf of himself and his wife, he places the sacred weapon in a young champion's hands. Through it, his fallen friend's memory and valor endure against the darkness threatening Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1806-ff218fc7794b5a617f8b/1-0000.mp3", duration = 55.2228571, start = 0},
+    {file = "Audio/Transport/full_quest_1806-405f1d1a6da8ce90c9f4/1-0000.mp3", duration = 80.3526531, start = 0},
   },
 }
 P.transport["quest:181"] = {
@@ -2774,7 +2774,7 @@ P.transport["quest:1842"] = {
   fullHash = "cc54cb",
   text = "Satyr Hooves. In Sen'jin Village, Ula'elek sends warriors north to Ashenvale for Satyr Hooves. He needs their strange power to forge brutal gauntlets. Ula'elek sends you into Ashenvale's ancient woods to gather what his craft requires. Demonic corruption still clings to the satyr covens there. For armor meant to rival Kalimdor's fiercest forces, he needs more than iron and leather. In northeastern Ashenvale, satyrs feed on the forest's lingering purity and twist it into foul power. Those that take in the most grow swollen hooves without the usual cloven split. Ula'elek plans to draw out that concentrated magic and weave it into his gauntlets.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1842-efcf5346e949cae5d11d/1-0000.mp3", duration = 39.9934694, start = 0},
+    {file = "Audio/Transport/full_quest_1842-96552cfb8dc0b573aac2/1-0000.mp3", duration = 50.2334694, start = 0},
   },
 }
 P.transport["quest:1843"] = {
@@ -2782,7 +2782,7 @@ P.transport["quest:1843"] = {
   fullHash = "c944ac",
   text = "Brutal Gauntlets. In Durotar, Ula'elek has finished Brutal Gauntlets for a seasoned Horde warrior. Rare materials from distant lands went into the work, meant to honor both maker and bearer. In Durotar, Ula'elek brings his lineage and skill to armor for a seasoned frontline warrior. He shapes brutal gauntlets from hardened trophies taken from dangerous foes. The finished armor can withstand fierce blows and strengthen the wearer's attacks. Among orcs and trolls, fine arms and armor carry the forge's prestige and the maker's spirit into battle. When Ula'elek presents the finished gauntlets, he entrusts a warrior with his ancestors' legacy. He expects a champion who wears them to answer that craft with courage, martial discipline, and strength.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1843-9f8cecf0dfa751e2bbd2/1-0000.mp3", duration = 46.9681633, start = 0},
+    {file = "Audio/Transport/full_quest_1843-9d497784f10f3df4d6e7/1-0000.mp3", duration = 64.9665306, start = 0},
   },
 }
 P.transport["quest:1844"] = {
@@ -3726,7 +3726,7 @@ P.transport["quest:2985"] = {
   fullHash = "bcec1e",
   text = "Call of Water. Swart sends an initiate from Razor Hill toward Islen Waterseer on the Barrens coast. Earth and fire have tested the shaman; water asks for another kind of understanding. Swart, the shaman trainer in Razor Hill, guides initiates through the elements. Earth teaches endurance, and fire tests their command. Once an initiate can wield flame without being consumed, Swart judges them ready to seek the teachings of water. Islen Waterseer lives on the Barrens coast beyond Ratchet. Travel south along the Southfury River into the Barrens, then east to the shore near a massive shark's carcass. Islen dwells where the waves meet the land, apart from the trainers in Durotar's towns. She guides the Horde in communion with water.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2985-e3f3d4202eac0381b58e/1-0000.mp3", duration = 45.5836735, start = 0},
+    {file = "Audio/Transport/full_quest_2985-7ba16a6d36d49d4c0f2d/1-0000.mp3", duration = 55.7453061, start = 0},
   },
 }
 P.transport["quest:299"] = {
@@ -5566,7 +5566,7 @@ P.transport["quest:637"] = {
   fullHash = "1d6a42",
   text = "Sully Balloo's Letter. At the Thandol Span, Sully Balloo's Letter carries a dwarf's last words to his wife in Ironforge. Found beneath the bridge, it tells where he died. Beneath the stone pilings of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands, a drowned skeleton still clutches an envelope. Its water-damaged pages begin, “My dear Sara,” and preserve the tenderness of Sully Balloo's careful writing. Alliance forces and their enemies have fought fiercely for the Thandol Span. Dark Iron saboteurs and warbands contesting the borderlands have threatened the crossing. Sully Balloo was among the dwarven soldiers sent north to defend it. His family in the mountains knew nothing of his fate until a diver brought his farewell letter up from beneath the waves.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_637-072ad493472e7402568b/1-0000.mp3", duration = 49.4236735, start = 0},
+    {file = "Audio/Transport/full_quest_637-9ca4abb5d7528574a465/1-0000.mp3", duration = 64.7314286, start = 0},
   },
 }
 P.transport["quest:638"] = {
@@ -5958,7 +5958,7 @@ P.transport["quest:683"] = {
   fullHash = "ec0716",
   text = "Sara Balloo's Plea. In Ironforge, Sara Balloo grieves for Sully and asks you to carry her plea to King Magni Bronzebeard. Sara has received Sully’s final letter, recovered from the waters of the Thandol Span. She wants the king to remember his sacrifice, so she writes him a plea. Grief keeps her from appearing before the throne herself. She entrusts the sealed letter to you, a champion of the Alliance, to carry to King Magni Bronzebeard.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_683-4849cf2c47207cdd3e76/1-0000.mp3", duration = 29.0742857, start = 0},
+    {file = "Audio/Transport/full_quest_683-863de8e813905499dab7/1-0000.mp3", duration = 34.7428571, start = 0},
   },
 }
 P.transport["quest:684"] = {
@@ -5990,7 +5990,7 @@ P.transport["quest:689"] = {
   fullHash = "22b832",
   text = "A King's Tribute. King Magni Bronzebeard has ordered a memorial for Sully Balloo, who died defending the Thandol Span. Grand Mason Marblesten sends you north to Hillsbrad for stone worthy of the fallen soldier. Grand Mason Marblesten carries King Magni Bronzebeard’s commission to honor Sully Balloo. Sully died in the disaster at the Thandol Span. Dark Iron saboteurs have attacked the span, a vital artery between the dwarven lands and the northern kingdoms. Marblesten will shape a sculpture to withstand time and war, so the Great Forge remembers the dwarven sacrifice. For Sully Balloo’s likeness, Marblesten requires Alterac Granite. Its dense, resilient stone and clean texture make it prized by masons. The finest deposits lie around Darrow Hill in Hillsbrad’s contested foothills. The journey into the troubled north is dangerous, but Marblesten seeks stone worthy of the heroism it will honor.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_689-beb41eb5ded4313143b3/1-0000.mp3", duration = 57.1036735, start = 0},
+    {file = "Audio/Transport/full_quest_689-46990c33cebd86f23998/1-0000.mp3", duration = 75.3893878, start = 0},
   },
 }
 P.transport["quest:69"] = {
@@ -7862,7 +7862,7 @@ P.transport["quest:94"] = {
   fullHash = "17e7ca",
   text = "A Watchful Eye. At the Tower of Azora, Theocritus watches Morganth from afar. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar. From his tower in eastern Elwynn Forest, Theocritus watches the hills. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Fearing Morganth's dark magic may cross the border, Theocritus made the Eye of Azora to watch the rogue wizard from afar. A distant view cannot show Theocritus what Morganth plans. So he gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades.\n\nSet the glyph into the worn hollow at its base. An arcane link then reaches back to Azora, letting Theocritus look into his rival's mind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94-4329bb43a4048579001a/1-0000.mp3", duration = 54.4130612, start = 0},
+    {file = "Audio/Transport/full_quest_94-a162d71ee4afaead5b9a/1-0000.mp3", duration = 72.6204082, start = 0},
   },
 }
 P.transport["quest:94003"] = {

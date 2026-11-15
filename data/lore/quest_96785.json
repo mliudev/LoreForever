@@ -1,0 +1,81 @@
+{
+ "key": "quest:96785",
+ "type": "quest",
+ "name": "Ain't No Telling",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96785
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Anastasia at Stromgarde Keep will not discuss her superiors\u2019 secret deal without a reason. You need something valuable enough to make her talk.",
+ "sections": [
+  {
+   "title": "A Reason to Talk",
+   "body": "At Stromgarde Keep, Anastasia refuses to share what her superiors are doing with a newcomer. She asks for something important or valuable before she will speak. You need to find something in the keep that convinces her to give details about the secret deal.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Bargain",
+   "body": "Anastasia reacts when you show her what you found. She agrees to tell you about the deal if you give it back to her.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Anastasia?",
+   "aliases": [
+    "anastasia",
+    "who's anastasia",
+    "anastasia deal"
+   ],
+   "answer": "Anastasia is the person who can give you details about her superiors\u2019 secret deal."
+  },
+  {
+   "q": "Why won't Anastasia talk?",
+   "aliases": [
+    "why won't she talk",
+    "anastasia won't tell",
+    "why so secretive"
+   ],
+   "answer": "Anastasia says she will not share her superiors\u2019 dealings without a good reason."
+  },
+  {
+   "q": "What does Anastasia want?",
+   "aliases": [
+    "what does she want",
+    "give anastasia something",
+    "anastasia bargain"
+   ],
+   "answer": "Anastasia asks for something important or valuable before she will discuss the deal."
+  },
+  {
+   "q": "Where do I look for something to convince her?",
+   "aliases": [
+    "where to look",
+    "find something for anastasia",
+    "stromgarde keep item"
+   ],
+   "answer": "Anastasia asks you to find something within Stromgarde Keep to convince her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ain't no telling",
+  "anastasia",
+  "higher-ups",
+  "secret deal",
+  "stromgarde keep",
+  "valuable"
+ ],
+ "related": [
+  "subzone:stromgarde-keep"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ain't No Telling"
+ ]
+}

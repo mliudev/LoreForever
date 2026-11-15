@@ -1,0 +1,86 @@
+{
+ "key": "quest:94907",
+ "type": "quest",
+ "name": "A Small Favor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94907
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A druid is asked to bring Twilight's Hammer magic to its source in the Twilight Shroud. Amberhall wants a cult thrall captured for questioning.",
+ "sections": [
+  {
+   "title": "A Druid's Favor",
+   "body": "Amberhall asks you for help in the Twilight Shroud. The reagents you gathered are attuned to Twilight's Hammer magic, and Amberhall says they can be used in a summoning ritual. To reach the source of that power, you are asked to use a conduit to call a cult thrall and capture it with Amberhall's Soulstone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Amberhall want me to do?",
+   "aliases": [
+    "amberhall favor",
+    "small favor",
+    "what do i do"
+   ],
+   "answer": "Amberhall asks you to summon a Twilight's Thrall from a conduit in the Twilight Shroud and capture it with Amberhall's Soulstone."
+  },
+  {
+   "q": "Why are the reagents useful?",
+   "aliases": [
+    "reagents for what",
+    "why reagents",
+    "twilight magic reagents"
+   ],
+   "answer": "The reagents are attuned to Twilight's Hammer magic, making them suitable for a summoning ritual."
+  },
+  {
+   "q": "Where do I use the conduit?",
+   "aliases": [
+    "conduit location",
+    "where summon thrall",
+    "twilight shroud conduit"
+   ],
+   "answer": "The conduit is within the Twilight Shroud."
+  },
+  {
+   "q": "Why capture the thrall?",
+   "aliases": [
+    "why soulstone",
+    "capture thrall why",
+    "thrall questioning"
+   ],
+   "answer": "Amberhall wants the Twilight's Thrall captured for questioning."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you are the one Amberhall calls a good little druid before asking for this favor."
+  }
+ ],
+ "keywords": [
+  "a small favor",
+  "amberhall",
+  "conduit",
+  "druid",
+  "reagents",
+  "soulstone",
+  "summoning ritual",
+  "twilight shroud",
+  "twilight's hammer",
+  "twilight's thrall"
+ ],
+ "related": [
+  "topic:druid",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Small Favor"
+ ]
+}

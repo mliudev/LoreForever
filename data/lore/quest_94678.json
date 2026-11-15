@@ -1,0 +1,81 @@
+{
+ "key": "quest:94678",
+ "type": "quest",
+ "name": "Gnoll Infestation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94678
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Cedric Dalton at Southern Watch asks you to thin the Redridge gnolls. Their numbers make the northern passage dangerous and threaten people beyond Farholde Keep.",
+ "sections": [
+  {
+   "title": "A Threat Nearby",
+   "body": "Cedric Dalton at Southern Watch faces gnolls across the hills beyond the post. Their numbers make passage north dangerous, and people outside Farholde Keep are at risk. You are asked to reduce their hold on the area by killing Redridge Mystics, Trappers, and Brutes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the gnolls a problem?",
+   "aliases": [
+    "why gnolls",
+    "gnolls dangerous",
+    "gnoll infestation"
+   ],
+   "answer": "The gnolls are aggressive and numerous. They make passage north dangerous and threaten people living outside Farholde Keep."
+  },
+  {
+   "q": "Who asks me to deal with the gnolls?",
+   "aliases": [
+    "who gave gnoll task",
+    "Cedric Dalton",
+    "Southern Watch gnolls"
+   ],
+   "answer": "Cedric Dalton at Southern Watch asks you to reduce the gnoll threat."
+  },
+  {
+   "q": "Which gnolls are involved?",
+   "aliases": [
+    "gnoll types",
+    "Redridge gnolls",
+    "mystics trappers brutes"
+   ],
+   "answer": "The Redridge Mystics, Redridge Trappers, and Redridge Brutes are named as the gnolls to kill."
+  },
+  {
+   "q": "Where are the gnolls?",
+   "aliases": [
+    "gnoll location",
+    "where are they",
+    "hills beyond post"
+   ],
+   "answer": "They infest the hills beyond Southern Watch, making passage to the north dangerous."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cedric dalton",
+  "farholde keep",
+  "gnoll infestation",
+  "gnolls",
+  "northern passage",
+  "redridge brutes",
+  "redridge mystics",
+  "redridge trappers",
+  "southern watch"
+ ],
+ "related": [
+  "topic:gnoll",
+  "topic:twilight-s-hammer",
+  "quest:567"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gnoll Infestation"
+ ]
+}

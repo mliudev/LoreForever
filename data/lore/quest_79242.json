@@ -1,0 +1,95 @@
+{
+ "key": "quest:79242",
+ "type": "quest",
+ "name": "No Honor Among Thieves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79242
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A former thief names Illari Duskfeather as the night elf who led the gang and left them behind. You are pointed toward her hideout on the coast of Arathi Highlands and her cache of stolen goods.",
+ "sections": [
+  {
+   "title": "A Gang Betrayed",
+   "body": "The marshal is on the gang's trail when Illari Duskfeather abandons them. A surviving thief believes they were used as patsies, though he cannot say why. He leaves the pursuit to anyone willing to follow it. Illari once spoke of a hideout on the coast of Arathi Highlands, where her stolen goods remain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Illari Duskfeather?",
+   "aliases": [
+    "Illari",
+    "who's Illari",
+    "Illari Duskfeather backstory"
+   ],
+   "answer": "Illari Duskfeather is a night elf who led a gang of thieves. She gave them information on the camps and kept only some of their rarer finds."
+  },
+  {
+   "q": "Why did Illari leave the gang?",
+   "aliases": [
+    "why'd she leave",
+    "Illari motives",
+    "why abandon the thieves"
+   ],
+   "answer": "The surviving thief does not know why Illari abandoned the gang when the marshal was on their trail."
+  },
+  {
+   "q": "Where can I find Illari?",
+   "aliases": [
+    "Illari location",
+    "where is Illari",
+    "Arathi hideout"
+   ],
+   "answer": "Illari once mentioned a hideout on the coast of Arathi Highlands."
+  },
+  {
+   "q": "What does the gang want from Illari?",
+   "aliases": [
+    "Illari cache",
+    "stolen goods",
+    "what's in her hideout"
+   ],
+   "answer": "The gang's former member points you toward Illari's hideout and her cache of stolen goods."
+  },
+  {
+   "q": "Who was the gang's boss?",
+   "aliases": [
+    "thief boss",
+    "gang leader",
+    "who led the thieves"
+   ],
+   "answer": "Illari Duskfeather, a night elf, was the gang's boss."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you learn that Illari Duskfeather led a gang of thieves and left them behind when the marshal pursued them."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "cache",
+  "hideout",
+  "illari duskfeather",
+  "marshal",
+  "night elf",
+  "no honor among thieves",
+  "stolen loot",
+  "thieves"
+ ],
+ "related": [
+  "zone:arathi",
+  "topic:night-elf",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: No Honor Among Thieves"
+ ]
+}

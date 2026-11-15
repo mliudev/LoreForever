@@ -1,0 +1,99 @@
+{
+ "key": "quest:95934",
+ "type": "quest",
+ "name": "Proof of Profit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95934
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gelinda Coppergleam has found signs of cubic draconia in the caves, but needs a crystal to prove it exists. She asks you to bring her one so she can show others its worth.",
+ "sections": [
+  {
+   "title": "A Crystal for Proof",
+   "body": "Gelinda Coppergleam's surveying tools show signs of a new mineral in the caves, which she calls cubic draconia. Readings alone will not convince people, so she asks you to bring back a crystal as proof. Dragons are in the caves, and Gelinda says there may be crystals showing through the dirt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gelinda Coppergleam?",
+   "aliases": [
+    "Gelinda",
+    "who's Gelinda",
+    "coppergleam"
+   ],
+   "answer": "Gelinda Coppergleam has found signs of cubic draconia in the caves using her surveying tools."
+  },
+  {
+   "q": "What is cubic draconia?",
+   "aliases": [
+    "cubic draconia",
+    "new mineral",
+    "what mineral"
+   ],
+   "answer": "Cubic draconia is a mineral Gelinda believes she has found in the caves."
+  },
+  {
+   "q": "Why does Gelinda want a crystal?",
+   "aliases": [
+    "why crystal",
+    "proof of profit",
+    "what's the proof"
+   ],
+   "answer": "Gelinda wants a crystal to prove that cubic draconia exists, since people prefer to see one rather than inspect her readings."
+  },
+  {
+   "q": "Where can I find cubic draconia?",
+   "aliases": [
+    "where's draconia",
+    "crystal location",
+    "find cubic draconia"
+   ],
+   "answer": "Gelinda says there may be crystals showing through the dirt in the caves."
+  },
+  {
+   "q": "Are there dragons in the caves?",
+   "aliases": [
+    "dragons cave",
+    "cave danger",
+    "dragons"
+   ],
+   "answer": "Yes. Gelinda warns that dragons are in the caves."
+  },
+  {
+   "q": "What if I can't get a crystal out?",
+   "aliases": [
+    "can't dig it",
+    "need dynamite",
+    "crystal stuck"
+   ],
+   "answer": "Gelinda offers to lend you dynamite if you have trouble getting cubic draconia out of the ground."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "As a miner, you can bring Gelinda Coppergleam a cubic draconia crystal to prove the mineral exists."
+  }
+ ],
+ "keywords": [
+  "caves",
+  "crystal",
+  "cubic draconia",
+  "dynamite",
+  "gelinda coppergleam",
+  "mineral",
+  "proof of profit",
+  "surveying tools"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Proof of Profit"
+ ]
+}

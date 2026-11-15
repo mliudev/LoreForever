@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "Vark\u2019s Request",
-   "body": "In Shadowprey Village, Vark Battlescar asks you to heal plants afflicted by corruption. You need a Coated Cerulean Vial from the orange crystal pool in Maraudon. The vial is meant for the Vylestem Vines, where corrupted Noxxious Scions emerge.",
+   "body": "In Shadowprey Village, Vark Battlescar asks you to heal plants afflicted by corruption. He gives you a Coated Cerulean Vial to fill at the orange crystal pool in Maraudon. The vial is meant for the Vylestem Vines, where corrupted Noxxious Scions emerge.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "where vial",
     "orange pool"
    ],
-   "answer": "The Coated Cerulean Vial is filled at the orange crystal pool in Maraudon."
+   "answer": "Vark Battlescar hands you the Coated Cerulean Vial, and you fill it at the orange crystal pool in Maraudon."
   },
   {
    "q": "What are the Vylestem Vines for?",

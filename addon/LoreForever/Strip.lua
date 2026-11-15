@@ -52,16 +52,24 @@
 --   41-42  CRC-16 of bytes 36-40 (its own: the old block's add-ons from before it painted no row 7)
 -- Then the target's line of work, so a guard or a flight master Willo hands the word to knows what they do (Strip.Role):
 --   43     ROLES' number for it, from the line under its name or the name itself; 0 none known, no target, a player
---   44     CRC-8 of bytes 10-12 and 43: the role is this target's (0 with no role)
+--          (bits 0-4). For a Willo that says she reads them (Strip.TargetFromWillo, LOR-1517), who the target is to
+--          you in bits 5-7: bit 5 player-controlled (a player, a pet, a minion, anything charmed), bit 6 yours (you,
+--          when a player; your own pet or minion, when player-controlled), bit 7 out of talking range
+--          (CheckInteractDistance, REACH); and a pet's creature id in bytes 10-12 (the imp is 416), its kind, never
+--          its name. Without her say-so, byte 43 is the role alone and a pet sends 0, as before.
+--   44     CRC-8 of bytes 10-12 and 43 (the whole byte): the role is this target's (0 when byte 43 is 0)
 -- Beside the 45 bytes, since 0.19, the sky's outer ring carries 5 bytes of its own (Strip.SetRing, LOR-557) with
 -- their own repair bytes, which older companions never look at: LOR-547's answer on screen or question asked, and
 -- where you stand on the map when it carries neither (LOR-672, spotPage below), or now and then the purse instead
--- (Strip.Purse), so "how much gold do I have?" has the number as it is now (the answer log, 10/18).
+-- (Strip.Purse), so "how much gold do I have?" has the number as it is now (the answer log, 10/18). While an ask has
+-- the sky up, what they carry, wear and have on cooldown take two turns in three with those (Own.lua, LOR-1516).
 -- companion/lore_companion/sky.py reads it; companion/README.md explains it for players. A new field goes in a new
 -- format number, so an older companion says "update the companion" instead of misreading it (the trailer and the
--- role are the exceptions: they only add what an older companion does without). Names never go out: the companion
--- matches the lore hashes against the same add-on's entry keys, the model id against the add-on's own
--- ModelRaces.lua, and a role is one of a few kinds of work, never the words it was read from.
+-- role are the exceptions: they only add what an older companion does without). The companion matches the lore hashes
+-- against the same add-on's entry keys, the model id against the add-on's own ModelRaces.lua, and a role is one of a
+-- few kinds of work, never the words it was read from. The one name that goes out is a game character's, the one you
+-- target, for a Willo that says she reads it (namePages below, LOR-1517): never a player's, a pet's or anything a
+-- player controls.
 -- Painting is event-driven: an event marks the sky stale, and it repaints at most every MIN_GAP seconds.
 
 local _, ns = ...
@@ -302,11 +310,45 @@ local function trackedQuest()
   return int(r and r[1] and r[9], 0xFFFFFF) or 0   -- GetQuestLogTitle's 8th value
 end
 
-local function npcID(guid)
+-- pets: a Pet GUID's creature id too (its kind: the imp is 416), for a Willo that reads it (Strip.TargetFromWillo).
+local function npcID(guid, pets)
   if not ns.Context.Usable(guid) or type(guid) ~= "string" then return 0 end
   local kind, id = guid:match("^(%a+)%-%d+%-%d+%-%d+%-%d+%-(%d+)%-")
-  if kind ~= "Creature" and kind ~= "Vehicle" then return 0 end
+  if kind ~= "Creature" and kind ~= "Vehicle" and not (pets and kind == "Pet") then return 0 end
   return int(tonumber(id), 0xFFFFFF) or 0
+end
+
+-- Whether the Willo on this PC reads the target's name pages and who-they-are bits (LoreForeverJourneyData.skyTarget,
+-- written by a Willo that reads them, LOR-1517; the game loads it at login or /reload). Without it the sky paints
+-- what it painted before, byte for byte: an older Willo takes an unknown ring page as the answer gone.
+function Strip.TargetFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.skyTarget == true
+end
+
+-- Who the target is to you, byte 43's bits 5-7 (above): player-controlled, yours, out of talking range. REACH is
+-- CheckInteractDistance's "follow" distance (about 28 yards): past it, a character can't hear you. A distance the
+-- game won't give (an error, a secret value) counts as in reach.
+local REACH = 4
+local function outOfReach()
+  if type(_G.CheckInteractDistance) ~= "function" then return false end
+  -- Never in a fight: it's the kind of call that can raise "Interface action failed" there. Unknown counts as in reach.
+  if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) then return false end
+  local ok, near = pcall(_G.CheckInteractDistance, "target", REACH)
+  if not ok or (near ~= nil and not ns.Context.Usable(near)) then return false end
+  return not near or near == 0
+end
+local function whoBits(isPlayer)
+  local controlled = isPlayer or yes(try(UnitPlayerControlled, "target"))
+  local bits = controlled and 32 or 0
+  if isPlayer then
+    if yes(try(UnitIsUnit, "target", "player")) then bits = bits + 64 end
+  elseif controlled and (yes(try(UnitIsUnit, "target", "pet"))
+      or yes(try(_G.UnitIsOwnerOrControllerOfUnit, "player", "target"))) then
+    bits = bits + 64
+  end
+  if outOfReach() then bits = bits + 128 end
+  return bits
 end
 
 -- The target's model file id, looked at once per target (Giver.ModelOf's "strip" slot; it can load a moment after you
@@ -464,7 +506,8 @@ function Strip.Payload()
   put(out, health(), 1)
   local has = yes(try(UnitExists, "target"))
   local isPlayer = has and yes(try(UnitIsPlayer, "target"))
-  put(out, has and not isPlayer and npcID(try(UnitGUID, "target")) or 0, 3)
+  local who = Strip.TargetFromWillo()
+  put(out, has and not isPlayer and npcID(try(UnitGUID, "target"), who) or 0, 3)
   local level = has and try(UnitLevel, "target")
   put(out, not has and 0 or (ns.Context.Usable(level) and level == -1) and 255 or int(level, 254) or 0, 1)
   local reaction = has and int(try(UnitReaction, "target", "player"), 8) or 0
@@ -501,6 +544,7 @@ function Strip.Payload()
   for _, b in ipairs(narration) do out[#out + 1] = b end
   put(out, Strip.CRC(narration), 2)
   local role = targetRole(has, isPlayer)
+  if who and has then role = role % 32 + whoBits(isPlayer) end
   put(out, role, 1)
   put(out, role > 0 and Strip.CRC8({ out[11], out[12], out[13], role }) or 0, 1)
   return out
@@ -742,6 +786,160 @@ local function recipePage()
   return page
 end
 
+-- The name and title of the game character you target (LOR-1517: a friend's characters answered as if they didn't
+-- know who they were; most Forever characters have nothing written, and the name on their screen never reached
+-- Willo). Only for a Willo that says she reads them (Strip.TargetFromWillo). Pages of kind 3:
+--   low bits 8, the first: byte 1 a tag, the CRC-8 of the target's creature id (bytes 10-12, as byte 44's check),
+--     byte 2 how many bytes the text has (1 to NAME_MAX), byte 3 the CRC-8 of the text, byte 4 0;
+--   low bits 9 to 23, the next ones in order: 4 bytes of the text each, the last padded with zeros.
+-- The text is UTF-8, as the game shows it in the player's language: the name, then a newline and the line under it on
+-- its tooltip (Strip.TitleOf: "Innkeeper", "Gryphon Master") when that is a title and not its level; at most NAME_MAX
+-- bytes, cut before a character, never inside one. Each page is held SKY_UP_HOLD, so one of Willo's reads lands on
+-- it. They go after the identity and recipe pages when the sky comes up, and when the target changes while it's up:
+-- once per target per sky-up. A moment or a question going round takes the ring: the pages stop, and start again from
+-- the first once it's free. After every NAME_RUN of them the ring has one SKY_UP_HOLD turn for whatever it would carry
+-- otherwise (the identity, the purse, where you stand, an answer, another kind's page), so nothing waits for the whole
+-- name. Kind 3's low 6 bits go to 63: 8-23 are these, 24 on are free for other pages.
+-- Never a person's name: only a Creature or Vehicle GUID, and only when the game plainly says it's no player and
+-- nothing a player controls (a hunter's pet, a warlock's demon, the charmed, a guardian; a secret answer sends
+-- nothing); never a name the game keeps secret; never a title that names an owner ("<Owner>'s Minion").
+local NAME_MAX, NAME_RUN = 60, 4
+-- guid: whose pages; pages, i: them and the one up; till: its hold; rest: the end of a turn left for the rest of the
+-- ring; owed: pages to come once the identity is out or the turn ends; sent: the targets done this sky-up.
+local names = { guid = nil, pages = nil, i = 0, till = nil, rest = nil, owed = false, sent = {} }
+local nameAt = nil   -- the repaint that puts the next name page up
+
+-- The game's own word for "Level" (GlobalStrings LEVEL: "Stufe", "Niveau"), so a level line reads as one in any language.
+local function levelLine(t)
+  local l = t:lower()
+  if l:find("^level ") then return true end
+  local word = type(_G.LEVEL) == "string" and _G.LEVEL ~= "" and _G.LEVEL:lower()
+  return word and l:sub(1, #word + 1) == word .. " " or false
+end
+
+-- s cut to at most max bytes, before a UTF-8 character rather than inside one.
+local function cutText(s, max)
+  if #s <= max then return s end
+  local n = max
+  while n > 0 do
+    local b = s:byte(n + 1)
+    if b < 0x80 or b >= 0xC0 then break end   -- the byte after the cut starts a character
+    n = n - 1
+  end
+  return s:sub(1, n)
+end
+
+-- The game's own lines for whose a creature is ("%s's Pet", "%s's Minion", ...): a title like that names a player, so
+-- it never goes out, whatever the unit's flags say. The English ones too, for a client without these strings.
+local OWNER_TITLES = { "UNITNAME_TITLE_PET", "UNITNAME_TITLE_MINION", "UNITNAME_TITLE_CHARM", "UNITNAME_TITLE_COMPANION",
+  "UNITNAME_TITLE_GUARDIAN", "UNITNAME_TITLE_CREATION", "UNITNAME_TITLE_SQUIRE", "UNITNAME_TITLE_OPPONENT" }
+for i = 1, 20 do OWNER_TITLES[#OWNER_TITLES + 1] = "UNITNAME_SUMMON_TITLE" .. i end
+local ownerPatterns
+local function ownerTitle(t)
+  if not ownerPatterns then
+    ownerPatterns = { "'s pet$", "'s minion$", "'s companion$", "'s guardian$", "'s creation$", "'s squire$" }
+    for _, key in ipairs(OWNER_TITLES) do
+      local f = _G[key]
+      if type(f) == "string" and f:find("%%s") then
+        local parts = {}
+        for piece in (f .. "%s"):gmatch("(.-)%%s") do parts[#parts + 1] = (piece:lower():gsub("%p", "%%%0")) end
+        ownerPatterns[#ownerPatterns + 1] = "^" .. table.concat(parts, ".+") .. "$"
+      end
+    end
+  end
+  local l = t:lower()
+  for _, p in ipairs(ownerPatterns) do
+    if l:find(p) then return true end
+  end
+  return false
+end
+
+-- A plain no from the game about the target (UnitIsPlayer, UnitPlayerControlled): readable and false. A secret
+-- answer, an error or a missing function is no answer, and no name goes out on it.
+local function surelyNot(fn)
+  if type(fn) ~= "function" then return false end
+  local ok, v = pcall(fn, "target")
+  if not ok then return false end
+  if v == nil then return true end   -- the older API's "no"
+  return ns.Context.Usable(v) and (v == false or v == 0)
+end
+
+-- "Name\nTitle" for a unit, or "Name"; nil when the game won't say (no name, a secret value).
+function Strip.NameText(unit)
+  local name = try(UnitName, unit)
+  if not (ns.Context.Usable(name) and type(name) == "string" and name ~= "") then return nil end
+  local title = Strip.TitleOf(unit)
+  if title then
+    title = title:gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", ""):gsub("[\r\n]+", " ")
+    if title == "" or title == name or levelLine(title) or ownerTitle(title) then title = nil end
+  end
+  local text = cutText(name:gsub("[\r\n]+", " ") .. (title and ("\n" .. title) or ""), NAME_MAX)
+  text = text:gsub("\n$", "")
+  return text ~= "" and text or nil
+end
+
+-- The target's name pages for the payload just made, or nil: nothing to send (no target, not a game character, the
+-- name not given now).
+function Strip.NamePages(payload)
+  if not Strip.TargetFromWillo() or type(payload) ~= "table" then return nil end
+  local id = { payload[11] or 0, payload[12] or 0, payload[13] or 0 }
+  if id[1] + id[2] + id[3] == 0 then return nil end
+  if not yes(try(UnitExists, "target")) or not surelyNot(_G.UnitIsPlayer)
+      or not surelyNot(_G.UnitPlayerControlled) then
+    return nil
+  end
+  local guid = try(UnitGUID, "target")
+  if not (ns.Context.Usable(guid) and type(guid) == "string") then return nil end
+  local kind = guid:match("^(%a+)%-")
+  if kind ~= "Creature" and kind ~= "Vehicle" then return nil end
+  local text = Strip.NameText("target")
+  if not text then return nil end
+  local bytes = { text:byte(1, -1) }
+  local pages = { { 0xC8, Strip.CRC8(id), #bytes, Strip.CRC8(bytes), 0 } }
+  for i = 1, math.ceil(#bytes / 4) do
+    local p = { 0xC8 + i }
+    for j = 1, 4 do p[j + 1] = bytes[(i - 1) * 4 + j] or 0 end
+    pages[#pages + 1] = p
+  end
+  return pages
+end
+
+-- Stop the name pages (a moment or a question took the ring): they start again from the first.
+local function dropNames()
+  names.guid, names.pages, names.i, names.till, names.rest, names.owed, nameAt = nil, nil, 0, nil, nil, false, nil
+end
+
+-- The name page to show now, or nil. go: a new page may go up (the identity is out first at sky-up).
+local function namePage(payload, t, go)
+  if not Strip.TargetFromWillo() then return nil end
+  local guid = try(UnitGUID, "target")
+  guid = ns.Context.Usable(guid) and type(guid) == "string" and guid or nil
+  if guid ~= names.guid then   -- another target: the last one's pages stop
+    names.guid, names.pages, names.i, names.till, names.rest, nameAt = guid, nil, 0, nil, nil, nil
+  end
+  if names.pages and names.till and t < names.till then return names.pages[names.i] end
+  names.owed = false
+  if not guid then return nil end
+  if not go or (names.rest and t < names.rest) then   -- the identity first, or the rest of the ring's turn
+    names.owed = not names.sent[guid]
+    return nil
+  end
+  if not names.pages then
+    if names.sent[guid] then return nil end
+    names.pages, names.i, names.till = Strip.NamePages(payload), 0, nil   -- nil: tried again at the next repaint
+    if not names.pages then return nil end
+  end
+  names.i = names.i + 1
+  local page = names.pages[names.i]
+  if not page then
+    names.sent[guid], names.pages, names.i, names.till, nameAt = true, nil, 0, nil, nil
+    return nil
+  end
+  names.till, nameAt = t + SKY_UP_HOLD, t + SKY_UP_HOLD
+  names.rest = names.i % NAME_RUN == 0 and names.till + SKY_UP_HOLD or nil
+  return page
+end
+
 local function idlePage(payload)
   purseTurn = (purseTurn + 1) % PURSE_EVERY
   local purse = (purseDue or purseTurn == 0) and Strip.Purse()
@@ -752,7 +950,13 @@ local function idlePage(payload)
   return spotPage(payload) or Strip.Purse()
 end
 
-local function ringFor(payload)
+-- An ask's own pages are owed (Own.lua, LOR-1516): this ask started them and the sky is still up for it.
+local ownTurn = 0
+local function owing()
+  return ns.Own and ns.Own.Pending() and Strip.Asking and Strip.Asking()
+end
+
+local function ringPage(payload)
   -- Idle: first repaint and at least every eight seconds, also where Journey.Here has no map spot. Over an answer,
   -- require its own capability: older spot readers treat any unknown page as the answer gone. Questions stay intact.
   local kind = ring and math.floor(ring[1] / 64)
@@ -760,6 +964,7 @@ local function ringFor(payload)
   if skyUpStage > 0 and ((moment and kind ~= 2) or not (ring == nil or kind == 1)) then
     skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = 0, nil, nil, nil
   end
+  if (names.pages or names.owed) and (moment or not (ring == nil or kind == 1)) then dropNames() end
   if moment and kind ~= 2 then return momentPage(moment) end
   if skyUpStage > 0 then
     local t = now()
@@ -778,14 +983,22 @@ local function ringFor(payload)
       local recipe = Strip.RecipePage()
       if recipe then
         recipeOwed, skyUpPage, skyUpUntil = 0, recipe, t + SKY_UP_HOLD   -- then up until the next heartbeat
+        -- or, for a Willo that reads the target's name, until its first page goes up
+        if Strip.TargetFromWillo() then skyUpRepaintAt = skyUpUntil end
         return recipe
       end
     end
     skyUpStage, skyUpUntil, skyUpPage = 0, nil, nil
   end
   if ring == nil or kind == 1 then
+    local t = now()
+    local held = names.pages and names.till and t < names.till and namePage(payload, t, false)
+    if held then return held end
     local recipe = recipePage()
     if recipe then return recipe end
+    -- The target's name, once the identity (and the sheet after it) is out at sky-up.
+    local name = namePage(payload, t, not (identityFromWillo() and (identityTurn == 7 or sheetNext)))
+    if name then return name end
   end
   if identityFromWillo() and (ring == nil or kind == 1) then
     if sheetNext then
@@ -801,12 +1014,44 @@ local function ringFor(payload)
       if identity then identityTurn = 0; sheetNext = sheetFromWillo(); return identity end
     end
   end
+  -- What they carry, wear and have on cooldown (Own.lua, LOR-1516), while an ask has the sky up and Willo reads them:
+  -- two turns in three, so they reach her before she sends the question, and where they stand and their gold still
+  -- get read for a question about them.
+  if ring == nil and owing() then
+    ownTurn = (ownTurn + 1) % 3
+    local p = ownTurn ~= 0 and ns.Own.Next() or idlePage(payload)
+    if p then return p end
+  end
   if ring == nil then return idlePage(payload) end
   if math.floor(ring[1] / 64) == 1 and Strip.SpotFromWillo() then
     spotTurn = (spotTurn + 1) % SPOT_EVERY
     if spotTurn == 0 then return spotPage(payload, true) or ring end
   end
   return ring
+end
+
+-- While an ask's own pages are owed (LOR-1516), every page the ring carries stays up OWN_HOLD, so one of Willo's reads
+-- lands on each whatever her phase, and the next goes up right then (ownAt), not at MIN_GAP's next multiple or the
+-- heartbeat. The last one stays its full time too.
+local OWN_HOLD = 0.13     -- seconds: longer than Willo's 0.125 s between reads
+local heldPage, heldUntil, ownAt = nil, 0, nil
+local function ringFor(payload)
+  local t = now()
+  if heldPage and t < heldUntil then return heldPage end
+  local page = ringPage(payload)
+  local own = page and page[1] >= 0xD8 and page[1] <= 0xDB   -- kind 3, low bits 24-27: an own page (the last too)
+  if owing() or own then
+    heldPage, heldUntil, ownAt = page, t + OWN_HOLD, t + OWN_HOLD
+  else
+    heldPage, ownAt = nil, nil
+  end
+  -- Another page went up while the target's name pages are still owed (the identity, the sheet, a recipe, the rest of
+  -- the ring's turn): the next name page follows soon, not at the next heartbeat.
+  local t = now()
+  if (names.pages or names.owed) and not (names.till and t < names.till) then
+    nameAt = names.rest and t < names.rest and names.rest or t + MIN_GAP
+  end
+  return page
 end
 
 local function paint()
@@ -1097,6 +1342,8 @@ local function create()
     if skyUpUntil and t < skyUpUntil then return end              -- a sky-up page's hold: events wait (stale stays)
     local due = skyUpRepaintAt and t >= skyUpRepaintAt
     if due then skyUpRepaintAt = nil end                          -- once: never a loop of repaints
+    if nameAt and t >= nameAt then due, nameAt = true, nil end    -- the next name page (namePage sets it again)
+    if ownAt and t >= ownAt then due, ownAt = true, nil end       -- the next own page (ringFor sets it again)
     if stale or t - lastPaint >= HEARTBEAT or due then
       if t - lastPaint >= HEARTBEAT then ns.Sky.Relayout() end   -- a resized window or a moved minimap, no event
       paint()
@@ -1176,6 +1423,8 @@ function Strip.Ask(down, talkKey)
   -- Willo is about to answer out loud: narration that started by itself makes way (Voice.OnWilloAsked, LOR-471).
   -- With Live game info off too: nothing leaves the game for this.
   if ns.Voice and ns.Voice.OnWilloAsked then pcall(ns.Voice.OnWilloAsked, down, keep) end
+  -- This ask's own pages (Own.lua, LOR-1516), for a Willo that reads them.
+  if down and ns.Own and ns.Own.FromWillo() then pcall(ns.Own.Start) end
   -- Talked to her: a pin she makes reaches the maps without a /reload (PinsLive, LOR-1292).
   if not down and ns.PinsLive then pcall(ns.PinsLive.Talked) end
   if C_Timer and C_Timer.After then C_Timer.After((keep or (down and ASK_MAX or ASK_AFTER)) + 0.05, Strip.Update) end
@@ -1455,6 +1704,8 @@ function Strip.Update()
   if not showing then   -- the first visible pages must reach a short talk-key capture
     identityTurn, recipeOwed = 7, 1
     skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = Strip.RecipePage() and 1 or 0, nil, nil, nil
+    dropNames()
+    names.sent = {}   -- each sky-up sends the target's name again
   end
   showing = true
   if not frame then create() end

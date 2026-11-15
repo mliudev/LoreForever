@@ -1,0 +1,88 @@
+{
+ "key": "quest:92755",
+ "type": "quest",
+ "name": "Mysterious Mysticism",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92755
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Halea of Gelkis Village needs Greater Mystic Essences to enchant weapons for the Gelkis windchasers. You are asked to bring her three while keeping the Gelkis\u2019 trust.",
+ "sections": [
+  {
+   "title": "Halea\u2019s Need",
+   "body": "Halea in Gelkis Village salvages magical arms gathered from fallen adventurers. She turns their mysterious remnants toward enchanting weapons, especially those carried by the Gelkis windchasers. Now she needs Greater Mystic Essences to outfit the next raiding party.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the essences?",
+   "aliases": [
+    "who wants essences",
+    "Halea request",
+    "who is Halea"
+   ],
+   "answer": "Halea, who works with salvaged magical armaments in Gelkis Village, needs Greater Mystic Essences."
+  },
+  {
+   "q": "Why does Halea need Greater Mystic Essences?",
+   "aliases": [
+    "why essences",
+    "what are essences for",
+    "Gelkis mysticism"
+   ],
+   "answer": "Halea needs them to enchant weapons for the Gelkis\u2019 next raiding party, especially the windchasers\u2019 arms."
+  },
+  {
+   "q": "What does Halea do with salvaged weapons?",
+   "aliases": [
+    "salvaged weapons",
+    "what does Halea salvage",
+    "Gelkis scraps"
+   ],
+   "answer": "Halea cannot use the salvaged armaments directly, so she takes their magical remnants and uses them to enchant weapons."
+  },
+  {
+   "q": "Where can I find Halea?",
+   "aliases": [
+    "Halea location",
+    "where is Halea",
+    "Gelkis Village"
+   ],
+   "answer": "Halea is in Gelkis Village in Desolace."
+  },
+  {
+   "q": "How many Greater Mystic Essences does Halea need?",
+   "aliases": [
+    "essence count",
+    "how many essences",
+    "3 mystic essences"
+   ],
+   "answer": "Halea asks for three Greater Mystic Essences."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "enchanted weapons",
+  "gelkis",
+  "gelkis village",
+  "greater mystic essence",
+  "halea",
+  "mysterious mysticism",
+  "windchasers"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mysterious Mysticism"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "key": "quest:94286",
+ "type": "quest",
+ "name": "Craftsman's Writ: Flash Bomb",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94286
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Flash Bomb from a customer. The note calls for delivery to a marked location and information about payment.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "A faded note requests one Flash Bomb, with a delivery place and payment information. The writ can be transferred, but you need to hold it to complete the exchange. The marked location is shown on your map.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "flash bomb writ",
+    "what item is requested",
+    "craftsman writ"
+   ],
+   "answer": "The writ requests one Flash Bomb, along with information about delivery and payment."
+  },
+  {
+   "q": "Can I transfer the writ?",
+   "aliases": [
+    "is writ transferable",
+    "pass the writ",
+    "give writ away"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What do I need to complete the exchange?",
+   "aliases": [
+    "what do i need",
+    "how complete transaction",
+    "delivery requirements"
+   ],
+   "answer": "You need the writ in your possession and the requested item, then deliver it to the location marked on your map."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "flash bomb",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Flash Bomb"
+ ]
+}

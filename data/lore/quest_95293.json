@@ -1,0 +1,101 @@
+{
+ "key": "quest:95293",
+ "type": "quest",
+ "name": "Smuggler's Special",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95293
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Friz sends you to Captain Bentcoin on Eastwind Shore with a crate called The Friz Special. The delivery is her answer to his attempt to muscle in on her turf.",
+ "sections": [
+  {
+   "title": "Friz's Answer",
+   "body": "Captain Bentcoin threatens you when you step onto his ship. Friz has sent you with a crate called The Friz Special, meant for the captain on Eastwind Shore. Her goods were supposed to come straight to her, and she believes Bentcoin is trying to muscle in on her turf. She calls this her second lesson and presents the crate as a fitting answer to his bargaining.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crate",
+   "body": "When Bentcoin receives the crate from Friz, he takes it as a sign that she knows she has been beaten. Then he hears a ticking sound.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Friz?",
+   "aliases": [
+    "friz",
+    "who sent me",
+    "friz special giver"
+   ],
+   "answer": "Friz sent you to Captain Bentcoin with a crate called The Friz Special after goods meant for her were diverted."
+  },
+  {
+   "q": "Who is Captain Bentcoin?",
+   "aliases": [
+    "bentcoin",
+    "captain guy",
+    "eastwind captain"
+   ],
+   "answer": "Captain Bentcoin is the captain Friz sends you to meet on his ship along Eastwind Shore."
+  },
+  {
+   "q": "What am I delivering?",
+   "aliases": [
+    "friz special",
+    "the crate",
+    "what do i bring"
+   ],
+   "answer": "You are carrying The Friz Special, a crate Friz made for Captain Bentcoin."
+  },
+  {
+   "q": "Why is Friz sending a gift?",
+   "aliases": [
+    "why gift bentcoin",
+    "friz delivery",
+    "trade war"
+   ],
+   "answer": "Friz says goods you procured from the Eastsea pirates were meant to be shipped directly to her, and she believes Bentcoin is trying to muscle in on her turf."
+  },
+  {
+   "q": "Where do I find Captain Bentcoin?",
+   "aliases": [
+    "bentcoin location",
+    "where is captain",
+    "eastwind shore"
+   ],
+   "answer": "Captain Bentcoin is on his ship along Eastwind Shore."
+  },
+  {
+   "q": "What does Bentcoin say when I arrive?",
+   "aliases": [
+    "bentcoin reaction",
+    "what does captain say",
+    "step on ship"
+   ],
+   "answer": "Bentcoin threatens to keelhaul you for stepping aboard his ship and demands a reason to spare you."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain bentcoin",
+  "crate",
+  "eastsea pirates",
+  "eastwind shore",
+  "friz",
+  "smuggler's special",
+  "the friz special",
+  "trade war"
+ ],
+ "related": [
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Smuggler's Special"
+ ]
+}

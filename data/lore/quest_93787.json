@@ -1,0 +1,83 @@
+{
+ "key": "quest:93787",
+ "type": "quest",
+ "name": "Food for the Taking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93787
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krom'rosh sends you to an Alliance farm in Meadowsbrook for its feed. Taking the supplies will hinder the humans and buy time to plan the next move.",
+ "sections": [
+  {
+   "title": "The Farm's Stores",
+   "body": "The Alliance farm in Meadowsbrook holds feed that Krom'rosh wants taken. You are sent to the southwest to seize what you find, denying the humans supplies and buying time for another plan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the feed taken?",
+   "aliases": [
+    "who sent me",
+    "Kromrosh request",
+    "who wants supplies"
+   ],
+   "answer": "Krom'rosh wants you to take feed from the Alliance farm in Meadowsbrook."
+  },
+  {
+   "q": "Where is the farm?",
+   "aliases": [
+    "where is alliance farm",
+    "Meadowsbrook farm",
+    "farm location"
+   ],
+   "answer": "The Alliance farm is in Meadowsbrook, to the southwest."
+  },
+  {
+   "q": "Why take the supplies?",
+   "aliases": [
+    "why steal feed",
+    "why deny food",
+    "what is the point"
+   ],
+   "answer": "Taking the supplies will deny the humans their provisions and buy time to plan the next move."
+  },
+  {
+   "q": "What supplies are being taken?",
+   "aliases": [
+    "what feed",
+    "feed satchels",
+    "what to steal"
+   ],
+   "answer": "The supplies are Feed Satchels from the Alliance farm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you are asked to deny the Alliance humans the comfort and sustenance of their farm supplies."
+  }
+ ],
+ "keywords": [
+  "alliance farm",
+  "feed satchels",
+  "food for the taking",
+  "humans",
+  "krom'rosh",
+  "meadowsbrook",
+  "supplies"
+ ],
+ "related": [
+  "topic:alliance",
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Food for the Taking"
+ ]
+}

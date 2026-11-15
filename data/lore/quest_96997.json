@@ -1,0 +1,106 @@
+{
+ "key": "quest:96997",
+ "type": "quest",
+ "name": "A Steed in Death as They Were in Life",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96997
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Forsaken offers you a choice of a steed that serves in death as it did in life. Though only an echo of life remains, the bond between rider and horse can still be real.",
+ "sections": [
+  {
+   "title": "A Forsaken Steed",
+   "body": "A Forsaken offers you a choice among horses once counted among Lordaeron\u2019s finest. They retain their own personalities, though only an echo of life remains in them. They do not flee from harm and will remain at your side until their true death.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Real Bond",
+   "body": "Your chosen steed needs neither rest nor food. Its bond with you is real, though it is dead, and you are asked to care for it as it cares for you. Even in undeath, you and your companion must find purpose.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What kind of horses are these?",
+   "aliases": [
+    "undead horse",
+    "forsaken steed",
+    "dead horses"
+   ],
+   "answer": "They were once among the finest horses in Lordaeron. In death, they serve the Forsaken as they did in life."
+  },
+  {
+   "q": "Do the horses still have personalities?",
+   "aliases": [
+    "horse personality",
+    "do undead horses think",
+    "what are they like"
+   ],
+   "answer": "Yes. The horses retain their own personalities, though only an echo of life remains in them."
+  },
+  {
+   "q": "Will the steed run from danger?",
+   "aliases": [
+    "horse flee",
+    "does it run away",
+    "steed scared"
+   ],
+   "answer": "No. The steed will stay at your side until its true death."
+  },
+  {
+   "q": "Does an unholy steed need food or rest?",
+   "aliases": [
+    "feed undead horse",
+    "horse needs rest",
+    "steed food"
+   ],
+   "answer": "No. An unholy steed needs neither food nor rest."
+  },
+  {
+   "q": "Is the bond with a dead horse real?",
+   "aliases": [
+    "bond with undead horse",
+    "dead steed bond",
+    "is it attached"
+   ],
+   "answer": "Yes. Though the steed is dead, the bond it shares with its rider is real."
+  },
+  {
+   "q": "Why are these horses companions for the Forsaken?",
+   "aliases": [
+    "why forsaken horses",
+    "undead horse purpose",
+    "steed for forsaken"
+   ],
+   "answer": "They are fitting companions for the Forsaken because they serve in death as they did in life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "As Forsaken, you are offered a companion that shares your undeath. The steed\u2019s bond with you is real, and both of you must find purpose."
+  }
+ ],
+ "keywords": [
+  "bond",
+  "forsaken",
+  "horse",
+  "lordaeron",
+  "steed",
+  "undead horse",
+  "undeath",
+  "unholy steed"
+ ],
+ "related": [
+  "topic:lordaeron"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Steed in Death as They Were in Life"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "quest:96996",
+ "type": "quest",
+ "name": "Your First Riding Galestrider",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96996
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Your trainer asks you to choose your first riding galestrider after training. The strider you choose will travel with you as you journey far from Zephras.",
+ "sections": [
+  {
+   "title": "A Choice to Make",
+   "body": "Training is complete, and the riding galestriders are waiting for you in Zephras. Your trainer says your ancestors have ridden these slender, wispy mounts for generations. They are steadfast and fierce despite their appearance. Examine the striders and choose one to accompany you.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Reminder of Home",
+   "body": "After you choose, your trainer sees that the strider seems fond of you already. The bond brings a reminder of Zephras along as your adventures carry you far from home. Your trainer hopes you will care for the strider, and that it will care for you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a galestrider?",
+   "aliases": [
+    "galestrider mount",
+    "riding strider",
+    "what is that strider"
+   ],
+   "answer": "A galestrider is a mount ridden by your ancestors for generations. Though slender and wispy, galestriders are steadfast and fierce."
+  },
+  {
+   "q": "Why am I choosing a strider?",
+   "aliases": [
+    "why pick a strider",
+    "first mount choice",
+    "choose my mount"
+   ],
+   "answer": "Your training is complete, and your trainer asks you to choose a riding galestrider to accompany you on your travels."
+  },
+  {
+   "q": "Where are the riding striders?",
+   "aliases": [
+    "where striders",
+    "galestriders location",
+    "striders in zephras"
+   ],
+   "answer": "The riding striders are in Zephras, where your trainer asks you to examine them."
+  },
+  {
+   "q": "Will my strider travel with me?",
+   "aliases": [
+    "strider comes with me",
+    "mount travel",
+    "take strider along"
+   ],
+   "answer": "Yes. Your chosen strider will accompany you as your adventures take you far from Zephras."
+  },
+  {
+   "q": "What does my trainer say about the strider I choose?",
+   "aliases": [
+    "trainer choice response",
+    "strider likes me",
+    "picked strider"
+   ],
+   "answer": "Your trainer says the strider seems fond of you and hopes you will care for one another."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancestors",
+  "first mount",
+  "galestrider",
+  "mount",
+  "riding strider",
+  "training",
+  "zephras"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Your First Riding Galestrider"
+ ]
+}

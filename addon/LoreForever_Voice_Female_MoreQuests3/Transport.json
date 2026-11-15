@@ -757,9 +757,9 @@
     "quest:1380": {
       "1": [
         {
-          "duration": 39.49714285714286,
-          "file": "Audio/Transport/full_quest_1380-542b3d2cbd567c45da03/1-0000.mp3",
-          "sha256": "61634a857e594f86ccb634bdad0cd638ccae3fe4be9e76c9f6fdd8cc40106218",
+          "duration": 55.64081632653061,
+          "file": "Audio/Transport/full_quest_1380-58e6a40b5635bfb07e4c/1-0000.mp3",
+          "sha256": "0ca151a4e95a91196ebf0727243f5f06391a253f6214b7d438a188a445bff3d1",
           "start": 0
         }
       ],
@@ -771,12 +771,12 @@
         ]
       },
       "fullHash": "5e18ea",
-      "generation": "b2a726e9e08f8be62b64",
+      "generation": "f993da61e8e5d2914e14",
       "hash": "5e18ea",
       "source": {
-        "duration": 39.523265,
+        "duration": 55.666939,
         "file": null,
-        "sha256": "542b3d2cbd567c45da0316cdcbe89e826e19b45f76ea2fa7154a5522f2bc9265"
+        "sha256": "58e6a40b5635bfb07e4ceb3d9c734b2cd6007cd1a2bbb4e6b5b47c73968af782"
       },
       "text": "Khan Hratha. At Gelkis Village, Uthek the Wise sends you against the Maraudine after your help against the Magram. Their leader, Khan Hratha, carries a piece of a key Uthek wants returned to him. The Gelkis need your help against the Maraudine, Uthek the Wise tells you. Their War Horn stands on a tall bluff in the Valley of Spears. Sound it, and Khan Hratha will answer. But first, you need a warhorn mouthpiece. Only trusted Maraudine centaur carry one, and they are rare. More centaur arrive when the horn sounds. Hratha comes last. Khan Hratha holds a piece of a key. Uthek wants you to bring it to Gelkis Village."
     },
@@ -861,9 +861,9 @@
     "quest:1420": {
       "1": [
         {
-          "duration": 18.729795918367348,
-          "file": "Audio/Transport/full_quest_1420-f0cdbdb2777c701a2d3f/1-0000.mp3",
-          "sha256": "54a4b3b2bfa6c0f28ac4fbf73a2d0cdc712e6adbfdb5e8da9cd2871bcf70ea8b",
+          "duration": 28.708571428571428,
+          "file": "Audio/Transport/full_quest_1420-f2996780c991adb69509/1-0000.mp3",
+          "sha256": "fd460f41c2cbe1ee34e0f9ed1d6492f40fbe869989032622a6431b5457547711",
           "start": 0
         }
       ],
@@ -875,12 +875,12 @@
         ]
       },
       "fullHash": "dc0230",
-      "generation": "a4b57844929750b17bf9",
+      "generation": "33b8c5f97878c0412050",
       "hash": "dc0230",
       "source": {
-        "duration": 18.755918,
+        "duration": 28.734694,
         "file": null,
-        "sha256": "f0cdbdb2777c701a2d3f85ba96a827ba21da5c148bc76ba9e70dcf2a22e69785"
+        "sha256": "f2996780c991adb6950990d4c4c3be3e292fb54ecd6ba92460db567991400a88"
       },
       "text": "Report to Helgrum. At Kargath, Neeka Bloodscar gives you a fresh report for Helgrum the Swift in Stonard. You have just spoken with her there. Neeka Bloodscar gives you a fresh report for Helgrum in Stonard. She warns that anyone who calls themselves an outrunner must keep the way and avoid falling to an enemy."
     },
@@ -1225,9 +1225,9 @@
     "quest:1466": {
       "1": [
         {
-          "duration": 51.69632653061225,
-          "file": "Audio/Transport/full_quest_1466-9c9371cc37d34c783039/1-0000.mp3",
-          "sha256": "23d44f1505fe7b60fd304f644203d4e51f4f906311c1a957c379eeaefdaeaff6",
+          "duration": 65.9330612244898,
+          "file": "Audio/Transport/full_quest_1466-5db258059bdc07b89a04/1-0000.mp3",
+          "sha256": "ef293b0df4af9edd9b2f197edca0e591319db2f7e8a21d52dee09c57be9b8cbd",
           "start": 0
         }
       ],
@@ -1239,21 +1239,21 @@
         ]
       },
       "fullHash": "012b39",
-      "generation": "c7bf3f51cb6c492c3137",
+      "generation": "f7b68214045ac96a6895",
       "hash": "012b39",
       "source": {
-        "duration": 51.722449,
+        "duration": 65.959184,
         "file": null,
-        "sha256": "9c9371cc37d34c783039f90e0aaf43843770f6a51fe106b6ce37aef3b39fb7a8"
+        "sha256": "5db258059bdc07b89a0490fa1fda9fd3ad76290f303193a50424885c33a59426"
       },
       "text": "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor has the last items Leftwitch requested. They all come from demons: brains, wings, and blood. Kreldig Ungor warns you that the final set is grim and slower to gather than any before. Leftwitch wants ten of each of three kinds of parts. You can take felhound brains from mana eaters, mage hunters, or ley hunters. The wings come from nether maidens, sisters, or sorceresses, while doomwarder captains and lords carry the blood. Kreldig would understand if you passed on this one. Kreldig Ungor had not known these demons lived in Desolace. His reading said the centaur held most of the land after the night elves departed years ago. So he wonders how the demons came here and why they settled. They dwell near Mannoroc Coven in southern Desolace, beyond the Kodo Graveyard."
     },
     "quest:1467": {
       "1": [
         {
-          "duration": 27.794285714285714,
-          "file": "Audio/Transport/full_quest_1467-9c7ce8d3a755942fb9c4/1-0000.mp3",
-          "sha256": "cc23cc66694fb6796eb15b68837ccc8fad5f30f37cfab0be8aafc20b3d17a4f5",
+          "duration": 40.542040816326534,
+          "file": "Audio/Transport/full_quest_1467-4f5bd5c529094d735399/1-0000.mp3",
+          "sha256": "5b8f06c707f2185f2aa82bea311446527e34343f25bc3a3958d13efbd58fc4c5",
           "start": 0
         }
       ],
@@ -1265,12 +1265,12 @@
         ]
       },
       "fullHash": "0be1c2",
-      "generation": "299017d6835dd874e963",
+      "generation": "fbfaccf81a994dc4386b",
       "hash": "0be1c2",
       "source": {
-        "duration": 27.820408,
+        "duration": 40.568163,
         "file": null,
-        "sha256": "9c7ce8d3a755942fb9c4cda628db78fc6aea0ec711fcd22bffc537205148aa1f"
+        "sha256": "4f5bd5c529094d735399f4e6466ffbc748a1069a09f0d9a8697c8ec9f61fab27"
       },
       "text": "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor sends you to Ironforge with Leftwitch's package. Roetten Stonehammer has your pay, and Kreldig plans to speak well of you when he returns home. Kreldig says Roetten Stonehammer has your pay in Ironforge. Roetten will be glad to receive Leftwitch's package, and handing it over should be enough to collect what you are owed. Kreldig expects to stay in Desolace only a little longer. Once he is home, he still means to speak well of you."
     },
@@ -1303,9 +1303,9 @@
     "quest:1488": {
       "1": [
         {
-          "duration": 52.1665306122449,
-          "file": "Audio/Transport/full_quest_1488-0b7f3d9676d0e128ae9f/1-0000.mp3",
-          "sha256": "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8",
+          "duration": 73.37795918367347,
+          "file": "Audio/Transport/full_quest_1488-be1fb45afc3dc48d61fb/1-0000.mp3",
+          "sha256": "f8444be839ae7ac5d7372ecb5ea0a5cab34b074366d6f1dd5bee1b372e06f504",
           "start": 0
         }
       ],
@@ -1317,12 +1317,12 @@
         ]
       },
       "fullHash": "7fe279",
-      "generation": "76245d7db99c9d0306fe",
+      "generation": "df2d49d46bef66f4cb08",
       "hash": "7fe279",
       "source": {
-        "duration": 52.192653,
+        "duration": 73.404082,
         "file": null,
-        "sha256": "0b7f3d9676d0e128ae9f47ef8aba21871d18aecbcabaa1ff7a80bebd79f2fc09"
+        "sha256": "be1fb45afc3dc48d61fb7c4be92f707c1a5805243c28aba56a127abacfa5f4cf"
       },
       "text": "The Corrupter. Takata Steelblade sides with Maurin: Lord Azrethoc must be stopped, especially if he seeks influence over the Burning Blade. Takata trusts you to gather a party against the demon lord and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, but agrees with Maurin that the demon lord must be stopped. The danger grows if Azrethoc is trying to sway the Burning Blade. You have already shown that you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Head directly south to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever. Each newly arrived foul creature dims the prospect of returning to the Warchief. At times, Takata wishes the centaur were the only enemy."
     },
@@ -4787,9 +4787,9 @@
     "quest:3821": {
       "1": [
         {
-          "duration": 32.052244897959184,
-          "file": "Audio/Transport/full_quest_3821-3edd41ccf4e953d3f0c7/1-0000.mp3",
-          "sha256": "12b3c1efbc3556499a6e6ad516b5490f430b92adffde49a32252a2f769a073ea",
+          "duration": 44.04244897959184,
+          "file": "Audio/Transport/full_quest_3821-c1dbf8906daecb8f19fd/1-0000.mp3",
+          "sha256": "2bea5b385780d437832711a11ebd35bee70e5fd2731def4c8afcd09e45d93811",
           "start": 0
         }
       ],
@@ -4801,12 +4801,12 @@
         ]
       },
       "fullHash": "29050d",
-      "generation": "cbaeda02363a210d29d7",
+      "generation": "adbf2358960a00e60471",
       "hash": "29050d",
       "source": {
-        "duration": 32.052245,
+        "duration": 44.068571,
         "file": null,
-        "sha256": "3edd41ccf4e953d3f0c7f51c0c6bcb0640f8d5a31425baf07642375c919274fe"
+        "sha256": "c1dbf8906daecb8f19fdc55912c97acc7edf95cbbabe3218c2f7e27c411c121c"
       },
       "text": "Dreadmaul Rock. In the Burning Steppes, Sha'ni's platoon has been gone for more than three weeks. Thal'trak Proudtusk cannot leave his post, and asks you to learn what became of his wife. Sha'ni went to the Burning Steppes to investigate strange rituals among the Firegut ogres. More than three weeks have passed, and Goretooth has heard nothing from her platoon. He tells Thal'trak to put the matter behind him and keep to his duty. But Sha'ni is his wife, and Thal'trak will not accept that. Bound to his post, he asks you to search for her."
     },
@@ -4917,9 +4917,9 @@
     "quest:4062": {
       "1": [
         {
-          "duration": 30.145306122448982,
-          "file": "Audio/Transport/full_quest_4062-7c97a6404f9939bf720b/1-0000.mp3",
-          "sha256": "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88",
+          "duration": 46.36734693877551,
+          "file": "Audio/Transport/full_quest_4062-9121056e7b30ce0b2734/1-0000.mp3",
+          "sha256": "8a03c2410937fca538e379366fa177e52a5709539533234d223c7094772333d2",
           "start": 0
         }
       ],
@@ -4931,12 +4931,12 @@
         ]
       },
       "fullHash": "4b2f30",
-      "generation": "fdff9b162950c7846ead",
+      "generation": "c527ce6f883cf8cab8a2",
       "hash": "4b2f30",
       "source": {
-        "duration": 30.171429,
+        "duration": 46.393469,
         "file": null,
-        "sha256": "7c97a6404f9939bf720bbdac2e7ed874c7c231faf2f2e6f4ff50eba8ef28a6c3"
+        "sha256": "9121056e7b30ce0b27346213633fce0ef58278880d98969b42d0c0f4e322bd9c"
       },
       "text": "The Rise of the Machines. In the Burning Steppes, the machines bore marks that now send you to Lotwil Veriatus. The shards bear G.L.A., with a rank marking beneath. The machines you brought down in the Burning Steppes bore Rank IV, which Theodora takes to be a low rank. So Hierophant Theodora Mulvadania sends you with a sample shard to Lotwil Veriatus, renowned among scholars of elemental sciences. Lotwil is stationed at a camp to the east, where Theodora hopes he can help with the search."
     },
@@ -5723,9 +5723,9 @@
     "quest:523": {
       "1": [
         {
-          "duration": 42.605714285714285,
-          "file": "Audio/Transport/full_quest_523-17d29cf31b2f61cdd355/1-0000.mp3",
-          "sha256": "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769",
+          "duration": 60.290612244897964,
+          "file": "Audio/Transport/full_quest_523-6e62faae0917f38dc563/1-0000.mp3",
+          "sha256": "c4ab6f903e0c8b29526f2c4daea9d2ef0dcbd1d735c42aeb1f7baef53a791c23",
           "start": 0
         }
       ],
@@ -5737,21 +5737,21 @@
         ]
       },
       "fullHash": "863398",
-      "generation": "377721b4d534d64e3ce1",
+      "generation": "95419cfa1a04efe2f82c",
       "hash": "863398",
       "source": {
-        "duration": 42.631837,
+        "duration": 60.316735,
         "file": null,
-        "sha256": "17d29cf31b2f61cdd355fc86294208ea51d672521ef5ccdfe8ff92c2c41261cb"
+        "sha256": "6e62faae0917f38dc563c57b07474f70d2f0938d7f15aeeb355aed2b9972557e"
       },
       "text": "Baron's Demise. In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head. After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head."
     },
     "quest:537": {
       "1": [
         {
-          "duration": 43.46775510204082,
-          "file": "Audio/Transport/full_quest_537-023f6110d7881baa4472/1-0000.mp3",
-          "sha256": "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962",
+          "duration": 60.78693877551021,
+          "file": "Audio/Transport/full_quest_537-9df267442d07e0e2bffc/1-0000.mp3",
+          "sha256": "d809bc802d7884e69e10335b42d91039f3ab0b44d042413a9c3efdc69a3d84ce",
           "start": 0
         }
       ],
@@ -5763,21 +5763,21 @@
         ]
       },
       "fullHash": "8c2b83",
-      "generation": "72337d4ab3a0101d72c4",
+      "generation": "9a1b0366506616977abe",
       "hash": "8c2b83",
       "source": {
-        "duration": 43.467755,
+        "duration": 60.813061,
         "file": null,
-        "sha256": "023f6110d7881baa4472686740bad1e810bdc3624e5fe7e0bba36fd6a90262e3"
+        "sha256": "9df267442d07e0e2bffcb4fbf28b118c838d16358c4861be28de226f3c7b5318"
       },
       "text": "Dark Council. In Southshore, Magistrate Henry Maleb weighs a letter naming Nagaz and the Argus Wake. He fears they may threaten the land if allied with the Syndicate, and sends you to hunt Nagaz and the Argus Shadow Mages in the Uplands. After Further Mysteries, Maleb tells you the letter came from Nagaz, who belongs to the Argus Wake. He does not know what the Argus Wake is, but fears an alliance with the Syndicate would make them a threat. So he wants Nagaz and the Argus Shadow Mages named in the letter found and killed. Bring him Nagaz’s head.\n\nSearch the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake’s envoys are there."
     },
     "quest:551": {
       "1": [
         {
-          "duration": 19.61795918367347,
-          "file": "Audio/Transport/full_quest_551-3872f3e58d2fa42d2b18/1-0000.mp3",
-          "sha256": "194abe1472962b750c2c8e48251f9a474da2a331a1abb0f0cf7c8469c22a8390",
+          "duration": 27.71591836734694,
+          "file": "Audio/Transport/full_quest_551-0655b956057ce722f1c8/1-0000.mp3",
+          "sha256": "ee43009c431def7db248c44429e27054d74afb53750f1c07d41faa31b767020f",
           "start": 0
         }
       ],
@@ -5789,12 +5789,12 @@
         ]
       },
       "fullHash": "14e8cf",
-      "generation": "5629d50ef442a399d6b9",
+      "generation": "251eecae305cbb64db4e",
       "hash": "14e8cf",
       "source": {
-        "duration": 19.644082,
+        "duration": 27.742041,
         "file": null,
-        "sha256": "3872f3e58d2fa42d2b1807968191455a8fe372c0f9f294d0ad6cc56cb2d3ea5a"
+        "sha256": "0655b956057ce722f1c89a8878e448ce54a12a8bfee63f6760ff3a13db6b9166"
       },
       "text": "The Ensorcelled Parchment. At the top of The Ensorcelled Parchment, Nagaz is the only name clear. A spell hides the rest, so you take it to Loremaster Dibbs in Southshore. A spell keeps the parchment's writing from being read. Only Nagaz can be made out at the top. You take it to Loremaster Dibbs in Southshore."
     },
@@ -6867,9 +6867,9 @@
     "quest:640": {
       "1": [
         {
-          "duration": 39.60163265306122,
-          "file": "Audio/Transport/full_quest_640-da24c0e2a72bb11ddb4b/1-0000.mp3",
-          "sha256": "1102e6dc20149e39dc694324692448cfaa88c76222d700ec8adbd58db1c3d0e1",
+          "duration": 56.58122448979592,
+          "file": "Audio/Transport/full_quest_640-d956e5b4904c001eb66f/1-0000.mp3",
+          "sha256": "f560c6f3d75b31f24abc78b2a24cc08bc092f32ba0b7b791155be8cf7e8b33c9",
           "start": 0
         }
       ],
@@ -6881,21 +6881,21 @@
         ]
       },
       "fullHash": "497fba",
-      "generation": "11d396b2d0862cb9cdce",
+      "generation": "505aa6c0007235388bac",
       "hash": "497fba",
       "source": {
-        "duration": 39.627755,
+        "duration": 56.607347,
         "file": null,
-        "sha256": "da24c0e2a72bb11ddb4bdd2b0faa9bed8e73f50f3408cd8f546b01dab6d8b1a7"
+        "sha256": "d956e5b4904c001eb66fff079777287cb9252f53bb6d29c75964d2107973bdf1"
       },
       "text": "The Broken Sigil. Zengu sends you to recover sigils from the Stromgarde militia. Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into eleven pieces, and you carry them to Tor'gan in Hammerfall. Three sigils guard Thoras Trollbane's tomb. You have taken the first from the Syndicate. The firmly entrenched Stromgarde militia holds the other two. Galen, Thoras' son, broke the Sigil of Thoradin into eleven pieces and scattered them among the defenders. Zengu asks you to gather the pieces from Stromgarde's defenders. Then carry them to Tor'gan, the troll shaman at Hammerfall. He can bind them into a whole sigil."
     },
     "quest:641": {
       "1": [
         {
-          "duration": 21.4465306122449,
-          "file": "Audio/Transport/full_quest_641-f89f58277d4d9f2b3fb0/1-0000.mp3",
-          "sha256": "8e8b9b2ac1db67da8bc31c63c343cd51bfd531067977f710394186c2f6acd5c9",
+          "duration": 29.204897959183675,
+          "file": "Audio/Transport/full_quest_641-a0b73fd2fe4cbddd75b1/1-0000.mp3",
+          "sha256": "dd4542133e478677570e55e08dab75dcc8f4e11abe22596a28315785aac0b4c5",
           "start": 0
         }
       ],
@@ -6907,21 +6907,21 @@
         ]
       },
       "fullHash": "802730",
-      "generation": "773ba2bad751ca51acc3",
+      "generation": "3ef464550e459e4477b2",
       "hash": "802730",
       "source": {
-        "duration": 21.472653,
+        "duration": 29.23102,
         "file": null,
-        "sha256": "f89f58277d4d9f2b3fb0a28d30f9687063cfcc17b544651f370d984c91750211"
+        "sha256": "a0b73fd2fe4cbddd75b1782ede8590585ef77f1b0ee85e9e020d43d9f5288375"
       },
       "text": "Sigil of Thoradin. Tor'gan has restored the Sigil of Thoradin, and Zengu waits in Hammerfall for its return. The sigil can open the seal on Trollbane's tomb. Tor'gan's reconstruction has worked. The Sigil of Thoradin can open the seal on Trollbane's tomb, so he sends you back to Zengu in Hammerfall. Zengu has more for you to do."
     },
     "quest:643": {
       "1": [
         {
-          "duration": 30.432653061224492,
-          "file": "Audio/Transport/full_quest_643-47be31625378324d543a/1-0000.mp3",
-          "sha256": "49657c586fd4da9b2babb7f07d44fb064b857917d98b874bdc0c6f0b44f5528d",
+          "duration": 44.59102040816327,
+          "file": "Audio/Transport/full_quest_643-e85d8ae6ff93ded95b09/1-0000.mp3",
+          "sha256": "df2a9b868377e02bda4761c3050c3d8d87af72f049ccc3cd03089d1a0cc02977",
           "start": 0
         }
       ],
@@ -6933,21 +6933,21 @@
         ]
       },
       "fullHash": "6dc383",
-      "generation": "923dc824659dde157516",
+      "generation": "bc39f14efc5030dd72c7",
       "hash": "6dc383",
       "source": {
-        "duration": 30.458776,
+        "duration": 44.617143,
         "file": null,
-        "sha256": "47be31625378324d543a6383e3466cd3fedea8e81d6aed9d271ae3b2a57aa324"
+        "sha256": "e85d8ae6ff93ded95b0919758071e4e04cfee981460fa496ecf43a3b3c1c45bc"
       },
       "text": "Sigil of Arathor. Zengu sends you from Hammerfall to seek a sigil carried by human cavalry in the Arathi Highlands. Find their leader, Lieutenant Valorcall, and bring the sigil back. Zengu doubts the humans can claim Stromgarde, much less the whole Arathi Highlands. Yet their prince still sends the last of his horsemen through the countryside. Zengu cannot see why. He knows Lieutenant Valorcall leads those riders and carries one of the sigils. Find Valorcall and bring it back to Hammerfall."
     },
     "quest:644": {
       "1": [
         {
-          "duration": 27.924897959183674,
-          "file": "Audio/Transport/full_quest_644-52371b71377c757ac60e/1-0000.mp3",
-          "sha256": "58edc36cb6128c7675dc5bf36897438f6cc6808480e5363d0c2971f9e27e5833",
+          "duration": 38.97469387755102,
+          "file": "Audio/Transport/full_quest_644-3e64442410129b7f655e/1-0000.mp3",
+          "sha256": "7fe94deac7612ea673f0d4511ffe52edb8da8e5f15beef919a6c525f2a47881e",
           "start": 0
         }
       ],
@@ -6959,21 +6959,21 @@
         ]
       },
       "fullHash": "8fc2c0",
-      "generation": "ccf727c65c1c47f97efa",
+      "generation": "1793dfcf9d4972347f19",
       "hash": "8fc2c0",
       "source": {
-        "duration": 27.95102,
+        "duration": 39.000816,
         "file": null,
-        "sha256": "52371b71377c757ac60edd531c43d9aa09238e7aaf0a1575f03c2dddb327e566"
+        "sha256": "3e64442410129b7f655ebeae38bf23498625c626c5114f14df3a4ec21b18e903"
       },
       "text": "Sigil of Trollbane. In Hammerfall, Zengu sends you deep into Stromgarde for the Sigil of Trollbane. Prince Galen keeps the last sigil, which is needed to claim Trol'kalar. Prince Galen, son of Thoras Trollbane, keeps the last sigil in Stromgarde. He waits in a chapel deep in the districts held by the militia. Zengu warns that Galen is well guarded and a fine fighter. You are to kill the prince and carry the sigil back to Zengu in Hammerfall."
     },
     "quest:645": {
       "1": [
         {
-          "duration": 25.99183673469388,
-          "file": "Audio/Transport/full_quest_645-578bd7b4bbec0e454c15/1-0000.mp3",
-          "sha256": "f1312f9345822596bd068bf33b24dc61aea549b71adc44757f901a0f3698c4e5",
+          "duration": 32.70530612244898,
+          "file": "Audio/Transport/full_quest_645-ca76e1d2bf7417fa2e1b/1-0000.mp3",
+          "sha256": "1edb44ee90ea7944fca4bf33bbcf4edfaea8243a7b93f80028e9ff778ba8bc8e",
           "start": 0
         }
       ],
@@ -6985,12 +6985,12 @@
         ]
       },
       "fullHash": "ae4c0c",
-      "generation": "5cdf5220e779866443d3",
+      "generation": "cecc93a8ceee9a93d9ae",
       "hash": "ae4c0c",
       "source": {
-        "duration": 26.017959,
+        "duration": 32.731429,
         "file": null,
-        "sha256": "578bd7b4bbec0e454c15398ea9861339c009fcee9953376e98daaa0381220c46"
+        "sha256": "ca76e1d2bf7417fa2e1bb45db22080a9cb8d4a39cc9ace06d44bc7f519fee227"
       },
       "text": "Trol'kalar. At Stromgarde, Zengu sends you after Trol'kalar, now that four sigils have joined as one. Zengu has seen the four sigils unite as the Sigil of Ignaeus. He believes their union can break the wardings on Trollbane's tomb. The tomb lies in the Sanctum behind Stromgarde's chapel, and Zengu sends you there to retrieve Trol'kalar. A fenced path to the right of the chapel entrance descends to the crypt."
     },
@@ -7049,9 +7049,9 @@
     "quest:652": {
       "1": [
         {
-          "duration": 35.84,
-          "file": "Audio/Transport/full_quest_652-42228222efcc02b193ae/1-0000.mp3",
-          "sha256": "f7545f910f58329594b99da14af142facfdaac85fcc8568b3cb49eec856c99db",
+          "duration": 54.51755102040816,
+          "file": "Audio/Transport/full_quest_652-d245febecfc4eb994a30/1-0000.mp3",
+          "sha256": "deec61d4529d56fa622374972d449066c526700ad93a9393caa0c0e4744c2dc4",
           "start": 0
         }
       ],
@@ -7063,21 +7063,21 @@
         ]
       },
       "fullHash": "35ec3a",
-      "generation": "3f5282321f672107ceb3",
+      "generation": "7cd97f7db3a0aa763685",
       "hash": "35ec3a",
       "source": {
-        "duration": 35.866122,
+        "duration": 54.543673,
         "file": null,
-        "sha256": "42228222efcc02b193ae901196bf4b6dfa3f2cbe7db292b9b3f70419c6b8a456"
+        "sha256": "d245febecfc4eb994a3096491ff03b4de52ee912340b132d690d5fd8a92ac73d"
       },
       "text": "Breaking the Keystone. The voice has more freedom now, though the Keystone still binds it. The Keystone lies among a ring of stones, and Fozruk holds the key the watchers call the Rod of Order. Opening the Stones of Binding eased the voice's confinement, but one lock still holds the Keystone. It lies among the circle of stones around you. Fozruk, a stone watcher and one of its captors, holds the key the watchers call the Rod of Order. Carry the rod to the Keystone and open the lock. The voice promises gratitude that will shake the earth to its roots. Geomantic energy fills the Keystone."
     },
     "quest:653": {
       "1": [
         {
-          "duration": 42.63183673469388,
-          "file": "Audio/Transport/full_quest_653-a7f68106049af8c7a00d/1-0000.mp3",
-          "sha256": "5abd969b7f602792b9179547d544a33e77328299dfbe10595bbb5ff8019de81a",
+          "duration": 58.35755102040817,
+          "file": "Audio/Transport/full_quest_653-44391f9b21f1cdd4d255/1-0000.mp3",
+          "sha256": "3ab7f0687479163a70409b23aa197b450e3f16a82875224b20b632019ede703d",
           "start": 0
         }
       ],
@@ -7089,12 +7089,12 @@
         ]
       },
       "fullHash": "0d0520",
-      "generation": "fdb7dd781bae73512c01",
+      "generation": "ec23f040e152a58086ee",
       "hash": "0d0520",
       "source": {
-        "duration": 42.657959,
+        "duration": 58.357551,
         "file": null,
-        "sha256": "a7f68106049af8c7a00d6ebe14c927b240497b3db9ca285afd078151df3ddffe"
+        "sha256": "44391f9b21f1cdd4d255e1da3d16b36218ddf07b9bbecafbb851dffb945a4d7e"
       },
       "text": "Myzrael's Allies. Myzrael is free, yet she must gather strength before she can face her captors. She calls you a noble ally and sends you to Gerrig Bonegrip in a shop in Ironforge's Forlorn Cavern, where he knows how to summon her. Myzrael is free, but not strong enough to face her captors. They would overpower her now and lock her away again. So she will gather strength in hiding. When she is ready, she means to face the giants and make them rue the day they held her. She calls you a noble ally and says she will need your help to summon her to the surface. Myzrael sends you to Gerrig Bonegrip, whose shop is in Ironforge's Forlorn Cavern. He knows how to summon her."
     },
@@ -7127,9 +7127,9 @@
     "quest:656": {
       "1": [
         {
-          "duration": 35.42204081632653,
-          "file": "Audio/Transport/full_quest_656-aeb62fd2ebdcfe5fb8b0/1-0000.mp3",
-          "sha256": "45e88ac0a031b48cb82b5617ec1d4f8f0a968c0cbaf228e1a3ab0dc9653b115f",
+          "duration": 46.13224489795918,
+          "file": "Audio/Transport/full_quest_656-a38c8388ca3b7e4bf651/1-0000.mp3",
+          "sha256": "b5b8ee85f4ca8c6f3136f7f1993fbe68bd9ea722a14a4ec4a4b16b6973f889b9",
           "start": 0
         }
       ],
@@ -7141,12 +7141,12 @@
         ]
       },
       "fullHash": "3bb4bb",
-      "generation": "21782f14a2e87757d90c",
+      "generation": "3a04eef85054a783e2bd",
       "hash": "3bb4bb",
       "source": {
-        "duration": 35.422041,
+        "duration": 46.158367,
         "file": null,
-        "sha256": "aeb62fd2ebdcfe5fb8b0bffc15794e30714eca2d7ac90a1ab8e021b6c39f3b64"
+        "sha256": "a38c8388ca3b7e4bf65175582d4e0b313249fd0ea4b26e1c9961708bf1289b35"
       },
       "text": "Summoning the Princess. At the Shards of Myzrael, you summon Myzrael and face her before she grows strong enough to challenge her captors. Theldurin the Lost wants her defeated and her Eldritch Shackles bound to the Shards. Theldurin fears Myzrael will grow strong enough to turn against her captors. Some say she can be controlled. But Theldurin asks why the giants would have chained her if that were true. You take the Scroll of Myzrael to the Shards, where you first spoke with her, and call her forth. Once Myzrael is defeated, you bind her Eldritch Shackles to the Shards and trap her again."
     },
@@ -7205,9 +7205,9 @@
     "quest:664": {
       "1": [
         {
-          "duration": 32.20897959183674,
-          "file": "Audio/Transport/full_quest_664-3453dfeafc1ed6094030/1-0000.mp3",
-          "sha256": "e7b69efeda83337b68abd4defda38535a5eaf0559d90fca7333ac50fe17beccc",
+          "duration": 40.15020408163265,
+          "file": "Audio/Transport/full_quest_664-a95fbca2577e614ab196/1-0000.mp3",
+          "sha256": "f6670d26fc2a04e49314b81aa5eef03014cf18da6b91309ce4fb34db1d820ad3",
           "start": 0
         }
       ],
@@ -7219,21 +7219,21 @@
         ]
       },
       "fullHash": "c1838a",
-      "generation": "f43db12e4c8d172896e3",
+      "generation": "3ba4bdb5c5fe28dcfe07",
       "hash": "c1838a",
       "source": {
-        "duration": 32.235102,
+        "duration": 40.176327,
         "file": null,
-        "sha256": "3453dfeafc1ed6094030edf97e2610e5f6edc7c44b04cfb54cb120cb1373b014"
+        "sha256": "a95fbca2577e614ab196efe3c6bb84e27bbd963a0182b84462c870c3660dda58"
       },
       "text": "Drowned Sorrows. At Faldir's Cove, Captain Steelgut mourns the Maiden's Folly and asks you to kill the Daggerspine naga who slew the wreck's survivors. At Faldir's Cove, Captain Steelgut sits by the fire and wishes the sea had taken him too. His crew fought hard to save the Maiden's Folly, but water rushed in all at once and the ship sank. O'Breen reached shore safely, while the naga killed the other survivors. Steelgut wants ten Daggerspine raiders and three Daggerspine sorceresses dead."
     },
     "quest:665": {
       "1": [
         {
-          "duration": 35.160816326530615,
-          "file": "Audio/Transport/full_quest_665-94951f6e97003b5821af/1-0000.mp3",
-          "sha256": "70a302f8a456442a95546639d9b0192cb5f7cff0eee57e180156dfb3d13d5572",
+          "duration": 49.31918367346939,
+          "file": "Audio/Transport/full_quest_665-74151a333c6648131d5c/1-0000.mp3",
+          "sha256": "c6dee076709d30955c778a3d9f1d3c489ea4266718b0feea4ec071ab103b5856",
           "start": 0
         }
       ],
@@ -7245,12 +7245,12 @@
         ]
       },
       "fullHash": "016fd7",
-      "generation": "971513609be47b2edb83",
+      "generation": "f327c7fca72898032ec2",
       "hash": "016fd7",
       "source": {
-        "duration": 35.186939,
+        "duration": 49.319184,
         "file": null,
-        "sha256": "94951f6e97003b5821afc304483ac55497f036bf28c75ea212d1c0231ba547e8"
+        "sha256": "74151a333c6648131d5ca748c684e1005883bd313124f7f1a1a72c232e87232f"
       },
       "text": "Sunken Treasure. Professor Phizzlethorpe and Doctor Draxlegauge now aid the Blackwater Raiders in their search for lost elven treasure. Before the search can begin, the professor needs your protection while he charges goggles for the dark sea. Professor Phizzlethorpe asks you to guard him as he prepares for a search beneath the dark sea. Doctor Draxlegauge built goggles to find the lost gems, but they need power from an enchanted stone in a cave a short way uphill. The cave is cursed, and those who draw near are ambushed. Defend the professor while he draws the stone’s energy into the goggles."
     },
@@ -7309,9 +7309,9 @@
     "quest:668": {
       "1": [
         {
-          "duration": 31.895510204081635,
-          "file": "Audio/Transport/full_quest_668-98185f73a463fced5957/1-0000.mp3",
-          "sha256": "b0325568097dda1ed1a2a87df7891f4e637227ee32f71398e49c85100dd88e81",
+          "duration": 48.66612244897959,
+          "file": "Audio/Transport/full_quest_668-be08993bdc25df18f002/1-0000.mp3",
+          "sha256": "acbee6be754a7ea96f09ad1b83eb472449003da7928d3a011f3a772bc28c79c4",
           "start": 0
         }
       ],
@@ -7323,21 +7323,21 @@
         ]
       },
       "fullHash": "3ca53f",
-      "generation": "446a6be0916218753fe0",
+      "generation": "f3e0edc2ed4ed74ebb3e",
       "hash": "3ca53f",
       "source": {
-        "duration": 31.921633,
+        "duration": 48.692245,
         "file": null,
-        "sha256": "98185f73a463fced59576fd048fda71fcff299f52b95f3effca9016ca7e7b1d4"
+        "sha256": "be08993bdc25df18f002cf66c18704e4bbd06553d73f7fb54231fb6f9fc85494"
       },
       "text": "Sunken Treasure. Doctor Draxlegauge sends you to Captain O'Breen, who waits at the bridge for the elven gems. After weeks among pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. Doctor Draxlegauge is eager to bring Captain O'Breen the elven gems. The captain waits at the bridge and wants to see them for himself. After weeks among these pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. So Draxlegauge gives you the gems to carry to O'Breen."
     },
     "quest:669": {
       "1": [
         {
-          "duration": 26.514285714285716,
-          "file": "Audio/Transport/full_quest_669-e351c0ea7b0b0ae33bdd/1-0000.mp3",
-          "sha256": "d68b7c0849c043a25b2e9f7fe4254417a25ce131453bd8ea7da92bfd0e04c873",
+          "duration": 35.44816326530612,
+          "file": "Audio/Transport/full_quest_669-45f903352fc0bd6cd9af/1-0000.mp3",
+          "sha256": "b1792097fc2befbedfc85288a06288c262dbfd7e03d2f49ebea7694aba0674f0",
           "start": 0
         }
       ],
@@ -7349,21 +7349,21 @@
         ]
       },
       "fullHash": "5ee154",
-      "generation": "c4e076ab41efdeeb297f",
+      "generation": "e4a56cbcdd89700c08e0",
       "hash": "5ee154",
       "source": {
-        "duration": 26.540408,
+        "duration": 35.474286,
         "file": null,
-        "sha256": "e351c0ea7b0b0ae33bdda86960bdb77e69878da5eb1cb42a9816de6086484b6d"
+        "sha256": "45f903352fc0bd6cd9af87507dfbd230ef9bc1f19a30038253963e2933a680f8"
       },
       "text": "Sunken Treasure. In Sunken Treasure, Shakes O'Breen is held back by the low tide and watchful creatures, so word must reach Booty Bay. Shakes O'Breen needs Fleet Master Seahorn in Booty Bay to hear of the find at once. The tide is too low for him to leave, and the creatures his crew disturbed watch every move. He asks you to tell Seahorn the treasure has been found and more is being brought up. You carry a sample elven gem as proof."
     },
     "quest:670": {
       "1": [
         {
-          "duration": 26.383673469387755,
-          "file": "Audio/Transport/full_quest_670-8dd8c6ccc31015a2ce9a/1-0000.mp3",
-          "sha256": "ab0666983771ffcd66ee30f53e47d8f12be5c55e20753791f2d3fdb9c467b1c0",
+          "duration": 37.06775510204082,
+          "file": "Audio/Transport/full_quest_670-2b6161a60373195d5ea7/1-0000.mp3",
+          "sha256": "fc75185fcad5e8c9633d06ed8d676f0f20f10c4427bcebe07051e0bb9e7ae9f2",
           "start": 0
         }
       ],
@@ -7375,21 +7375,21 @@
         ]
       },
       "fullHash": "f59fe0",
-      "generation": "bedbe8c9f6c257fc151d",
+      "generation": "cf4f00a9a6644c115a10",
       "hash": "f59fe0",
       "source": {
-        "duration": 26.409796,
+        "duration": 37.093878,
         "file": null,
-        "sha256": "8dd8c6ccc31015a2ce9a0ea75648af97c3b0487121d0c5b46ff1881bb4d9c4f9"
+        "sha256": "2b6161a60373195d5ea7cb4a451f8fdf0dadf8986c654bcb6f29de2099702c9f"
       },
       "text": "Sunken Treasure. Fleet Master Seahorn waits in Booty Bay with a letter for Shakes O'Breen off the Arathi coast. His ships cannot sail until they restock. Fleet Master Seahorn sees an adventurer in you. His ships must restock before they can leave Booty Bay. Heavy things are brewing here and abroad, he says, and he has a secret letter for Shakes O'Breen off the Arathi coast. Can he trust you to deliver it safely and keep it confidential?"
     },
     "quest:673": {
       "1": [
         {
-          "duration": 38.66122448979592,
-          "file": "Audio/Transport/full_quest_673-454265939cb96db2abe6/1-0000.mp3",
-          "sha256": "c59d626e51d303f48fe2994cd1876b6a93165e88f5ecbfb0fb4a03fdc367c5fb",
+          "duration": 47.36,
+          "file": "Audio/Transport/full_quest_673-fde68c3fc55449b64790/1-0000.mp3",
+          "sha256": "575ca332e9a75a429019eb7fe0306cc64e637aaf8d2538d794a506d71a0df13b",
           "start": 0
         }
       ],
@@ -7401,21 +7401,21 @@
         ]
       },
       "fullHash": "13a8c2",
-      "generation": "2bee4fbcf81bdb6e2a3c",
+      "generation": "da58675dbd8a45f17ab6",
       "hash": "13a8c2",
       "source": {
-        "duration": 38.687347,
+        "duration": 47.36,
         "file": null,
-        "sha256": "454265939cb96db2abe66cabad72c94950dcb7b5c4dcea575a724758ae7563f2"
+        "sha256": "fde68c3fc55449b64790a91c44df271126f6eadc5abb062d400a091de9c6bb73"
       },
       "text": "Foul Magics. In Hammerfall, Tor'gan fears a warlock in Stromgarde is calling demons with an arcane relic. Your first work for him has led to a hunt for the warlock and the relic. Tor'gan is certain a warlock within Stromgarde's walls uses an arcane relic to call up terrible demons in great numbers. The burning in his blood grows by the day. So he sends you to find and kill the warlock, then bring back the magical object on the warlock's body. He means to destroy it before its power can taint the land. The warlock is Marez Cowl, and the object is a Befouled Bloodstone Orb."
     },
     "quest:679": {
       "1": [
         {
-          "duration": 29.15265306122449,
-          "file": "Audio/Transport/full_quest_679-a8b6afb6839e7f39703b/1-0000.mp3",
-          "sha256": "bb5fce825680704905f0e1fda04d93c5b5b95b765a1ef351292ac366439c7275",
+          "duration": 35.5265306122449,
+          "file": "Audio/Transport/full_quest_679-63f1971be2ccb2eb4c3c/1-0000.mp3",
+          "sha256": "281f170ff7e9e57992f295f8ee9baacb8209db8de7cae1f9906839def904b409",
           "start": 0
         }
       ],
@@ -7427,21 +7427,21 @@
         ]
       },
       "fullHash": "eaf3f4",
-      "generation": "d27091b17d31f39fb0cb",
+      "generation": "80ce053417eaab6d1f49",
       "hash": "eaf3f4",
       "source": {
-        "duration": 29.178776,
+        "duration": 35.552653,
         "file": null,
-        "sha256": "a8b6afb6839e7f39703b6557a7eecb905fa23c2c71414776f37a7d2044f0437c"
+        "sha256": "63f1971be2ccb2eb4c3c4564ac82014a103d869dea0223b9fa5e6201f051d6a5"
       },
       "text": "Call to Arms. At Hammerfall, Drum Fel sends you after the Boulderfist leaders in Stromgarde. After your earlier work, he says it is time to strike the head from the beast. Drum Fel says you are ready to help deliver one last great blow. The Boulderfist leaders have made their lair in Stromgarde’s ruins, which he calls a symbol of human frailty. He sends you to hunt down the lords and the shaman who serve them. They lead attacks meant to drive the Horde from these lands."
     },
     "quest:680": {
       "1": [
         {
-          "duration": 41.325714285714284,
-          "file": "Audio/Transport/full_quest_680-214d8884e23b1e879a83/1-0000.mp3",
-          "sha256": "5e1a9849a5dbcd80dbd6bbf33bb8fa9de170d5b95f6a5e4abfd369c278bf4464",
+          "duration": 50.72979591836735,
+          "file": "Audio/Transport/full_quest_680-ecb19b522f7c1b5b3a03/1-0000.mp3",
+          "sha256": "431867c0789e5c5e831b1572ca328c98d927324659a6075fd7ba267580bf84df",
           "start": 0
         }
       ],
@@ -7453,21 +7453,21 @@
         ]
       },
       "fullHash": "7bdfc3",
-      "generation": "c7ce3d5cde03a1efeaa1",
+      "generation": "dbc3b23791b59fef545d",
       "hash": "7bdfc3",
       "source": {
-        "duration": 41.351837,
+        "duration": 50.755918,
         "file": null,
-        "sha256": "214d8884e23b1e879a83798ebb1a8795e91c3f081b90de233f1a2198d9dd654f"
+        "sha256": "ecb19b522f7c1b5b3a032588bb1465f8300413511a7c8cbd584f52ff0670d6ef"
       },
       "text": "The Real Threat. Korin Fel asks you to end the attacks on Hammerfall by slaying Or'Kalar and bringing her his head. Korin Fel says you serve her husband well, though he does not know why Hammerfall is under attack. Or'Kalar serves Mug'thol in Stromgarde and seeks her husband's death. Years ago, her husband defeated the ogre. Now Korin's auguries warn that Or'Kalar has set a trap for him. Korin has hidden the signs of Or'Kalar's presence from her husband. She fears he would rush off foolishly if he knew where the ogre was, so she asks you to help instead. Or'Kalar is near the Tower of Arathor. Korin expects his death to end the attacks on Hammerfall."
     },
     "quest:687": {
       "1": [
         {
-          "duration": 30.223673469387755,
-          "file": "Audio/Transport/full_quest_687-0603e58227e33be05859/1-0000.mp3",
-          "sha256": "188df59f67accf395dcc09a7b91d240099c162772766021f08f76a8a0fbd808f",
+          "duration": 39.54938775510204,
+          "file": "Audio/Transport/full_quest_687-80ba2e329a13050f272a/1-0000.mp3",
+          "sha256": "0908e222b412352daa55b913361671adb0c2997570fd48cfda1bb5545d662a4b",
           "start": 0
         }
       ],
@@ -7479,21 +7479,21 @@
         ]
       },
       "fullHash": "134730",
-      "generation": "6c4b4cafdf17592d41e3",
+      "generation": "2dafa7031aec74b7307c",
       "hash": "134730",
       "source": {
-        "duration": 30.249796,
+        "duration": 39.57551,
         "file": null,
-        "sha256": "0603e58227e33be058594866e13baa96d9fd70726492b82eac84d86a58495c6a"
+        "sha256": "80ba2e329a13050f272a1363f60c5265f83c9c9f87dbafb09a3bbf64f9373389"
       },
       "text": "Theldurin the Lost. In the Badlands, the Twilight's Hammer hunts for Theldurin the Lost and the scroll of Myzrael he took when he fled. Theldurin once followed the Twilight's Hammer. Then his mind slipped, and he turned from its teachings. He fled with the scroll of Myzrael, and the order could not catch him. Word has reached the Twilight's Hammer that Theldurin hides in the Badlands, raving and mad. The order needs the scroll for the Lady's return. First, you must find the man who took it."
     },
     "quest:688": {
       "1": [
         {
-          "duration": 38.45224489795918,
-          "file": "Audio/Transport/full_quest_688-59f2aca566fd76ff5438/1-0000.mp3",
-          "sha256": "72821b82634d0acf7eda15ffec8c390b5c3bcb70dc126fd92006b85023e95dd7",
+          "duration": 53.968979591836735,
+          "file": "Audio/Transport/full_quest_688-68704000cc1ac80f8849/1-0000.mp3",
+          "sha256": "10e782c9bc96085a12d123dceb17a49d2d05733576127430cf6e72e78824b430",
           "start": 0
         }
       ],
@@ -7505,21 +7505,21 @@
         ]
       },
       "fullHash": "44f56a",
-      "generation": "352e0c7feec2ee2b2175",
+      "generation": "3374b30471f04e099f01",
       "hash": "44f56a",
       "source": {
-        "duration": 38.452245,
+        "duration": 53.995102,
         "file": null,
-        "sha256": "59f2aca566fd76ff543852fd9f36c760129fa999698892c9f60f26a171124b75"
+        "sha256": "68704000cc1ac80f8849f17619eef848203e36a006c370f3779a6a0f34dfc401"
       },
       "text": "Myzrael's Allies. Through the keystone, Myzrael declares herself free, though still hidden from her captors. She sends you to Zaruk in Hammerfall, who knows how to summon her. Myzrael declares that she is free through the keystone. She must gather her strength out of sight. Her captors would overpower and imprison her again if they faced her now. In time, she vows to confront the giants who held her and make them regret keeping her. Myzrael calls you a noble ally and says she will need your aid again in time. When ready, she will have you summon her to the surface. For now, she sends you to Zaruk in Hammerfall, who knows how it can be done."
     },
     "quest:692": {
       "1": [
         {
-          "duration": 38.608979591836736,
-          "file": "Audio/Transport/full_quest_692-fd2677322ea83b90d346/1-0000.mp3",
-          "sha256": "a0cf948b835a183d95583a4cee10a8db72d5ea615a7e80cc49e9824f3d5f3df8",
+          "duration": 51.40897959183674,
+          "file": "Audio/Transport/full_quest_692-ed8daab5089214d41f1a/1-0000.mp3",
+          "sha256": "4004aaf44c8e41fa1604daf60af12076d546f8fb968d2e95aea90cc62427c8c6",
           "start": 0
         }
       ],
@@ -7531,12 +7531,12 @@
         ]
       },
       "fullHash": "7481c2",
-      "generation": "f87f8cf3b659181e10bb",
+      "generation": "6638d39dd8afb218af98",
       "hash": "7481c2",
       "source": {
-        "duration": 38.635102,
+        "duration": 51.435102,
         "file": null,
-        "sha256": "fd2677322ea83b90d346fc41b59fa5a05b592177ebb0d3215787f33793907979"
+        "sha256": "ed8daab5089214d41f1abc671251f789eb6605cebd3c1ab54aeb11bc5cb7f0a2"
       },
       "text": "The Lost Fragments. Behind Theldurin, furious elementals fight over scraps of the Scroll of Myzrael. You gather the torn pieces while he fears what its magic might do. Theldurin the Lost fears the Scroll of Myzrael could draw Myzrael up to the surface. Then he considers another danger. She may already be free, or gathering strength to strike. If so, the scroll may be what you need to bind her again. Furious elementals took the scroll and tore it apart. Now they fight over its scraps in the hills behind Theldurin. Bring back three pieces: one torn, one crumpled and one singed. Theldurin hopes to mend them."
     },
@@ -7621,9 +7621,9 @@
     "quest:703": {
       "1": [
         {
-          "duration": 23.04,
-          "file": "Audio/Transport/full_quest_703-09bbb806c366674224a1/1-0000.mp3",
-          "sha256": "481bbca56ad3ac943304604276c79d26bc8865bec2288138de95179af7277e78",
+          "duration": 33.01877551020408,
+          "file": "Audio/Transport/full_quest_703-61d3417de3e98c8c00fd/1-0000.mp3",
+          "sha256": "50c2414efe37db9f9072598680ccc754e390760b5e799dead0debc7acba3262a",
           "start": 0
         }
       ],
@@ -7635,12 +7635,12 @@
         ]
       },
       "fullHash": "109edf",
-      "generation": "b16dcdeabb43633f5223",
+      "generation": "42af1da46e6cffa9e16d",
       "hash": "109edf",
       "source": {
-        "duration": 23.066122,
+        "duration": 33.044898,
         "file": null,
-        "sha256": "09bbb806c366674224a1b47f58d07a0b1e4fa3e7e0fa7bfed88648196f1f8145"
+        "sha256": "61d3417de3e98c8c00fd3d29f8df0c505872369252f7e27008a6b6932c236e03"
       },
       "text": "Barbecued Buzzard Wings. Rigglefuzz has every ingredient for his barbecued buzzard wings except the wings themselves. Rigglefuzz takes pride in his barbecued buzzard wings. He coats the tangy meat in rich sauce, and its aroma carries to hungry folk nearby. He has all the ingredients for a batch but the wings. Bring him four buzzard wings, and he may share the recipe."
     },
@@ -7673,9 +7673,9 @@
     "quest:708": {
       "1": [
         {
-          "duration": 21.02857142857143,
-          "file": "Audio/Transport/full_quest_708-26818ab1da4f03175532/1-0000.mp3",
-          "sha256": "ffa1831aec99e92a5b2ea778c58b687c36773244b7245e76b5b2cc71a1cec873",
+          "duration": 26.14857142857143,
+          "file": "Audio/Transport/full_quest_708-8e4d1afb34473be3be51/1-0000.mp3",
+          "sha256": "662fa37009fcac03245fa1522ce2033548fd95684d321702f86034b43dd2a672",
           "start": 0
         }
       ],
@@ -7687,21 +7687,21 @@
         ]
       },
       "fullHash": "85affa",
-      "generation": "494631e90ef3396db89d",
+      "generation": "bd207348a64aabc6b3ef",
       "hash": "85affa",
       "source": {
-        "duration": 21.054694,
+        "duration": 26.174694,
         "file": null,
-        "sha256": "26818ab1da4f031755328db6c3df0bdeb9bb7be9838e6e2230afc52f8222965c"
+        "sha256": "8e4d1afb34473be3be515a4d11d298af04f98897071bda3be7d66e0fd7c199a8"
       },
       "text": "The Black Box. A giant condor in the Badlands swallowed a black box marked for Ironforge. After ages in the condor's stomach, acid had pitted the metal. A symbol marks the underside above the words Engine #19 - Ironforge Siege Brigade. You carry the box to Pilot Longbeard in Ironforge's Hall of Arms."
     },
     "quest:712": {
       "1": [
         {
-          "duration": 31.81714285714286,
-          "file": "Audio/Transport/full_quest_712-b4f977212a27f748a4cd/1-0000.mp3",
-          "sha256": "1a93520187fa3260a1ffc6c8b2a91fd661307efd96d1de5ae825b841d526ca37",
+          "duration": 42.65795918367347,
+          "file": "Audio/Transport/full_quest_712-e489e139527162415991/1-0000.mp3",
+          "sha256": "0b961c184fdf2900fd70f0b1d4ea3df690369a9b4acad628576dfc211b757c96",
           "start": 0
         }
       ],
@@ -7713,21 +7713,21 @@
         ]
       },
       "fullHash": "7a4bb7",
-      "generation": "382a9e0162984323c79d",
+      "generation": "4b9bc2d5420d84eee832",
       "hash": "7a4bb7",
       "source": {
-        "duration": 31.843265,
+        "duration": 42.684082,
         "file": null,
-        "sha256": "b4f977212a27f748a4cd118170dd3128cf69aa04e04ec426677a92fb9fe5b878"
+        "sha256": "e489e139527162415991eec6c02a0779e179beeec849afcb35ccb0154e5df529"
       },
       "text": "Study of the Elements: Rock. In the Badlands, Lotwil Veriatus needs bracers from greater rock elementals to judge his shackles. Lotwil Veriatus needs one last part from the Badlands' elementals, after the stone slabs. Bracers of rock binding from greater rock elementals will help him judge the shackles under construction.\n\nHis scrying found a group southwest, near some ogres, if memory serves. He asks for five bracers so there will be spares, since Servo often misplaces reagents and research."
     },
     "quest:716": {
       "1": [
         {
-          "duration": 40.98612244897959,
-          "file": "Audio/Transport/full_quest_716-5c823ae11f8da891d18b/1-0000.mp3",
-          "sha256": "87a5baefe671715450dab490469a4d684db00487133a5bda7e863c30aca9aa11",
+          "duration": 58.72326530612245,
+          "file": "Audio/Transport/full_quest_716-c086e340e2b9c10f736d/1-0000.mp3",
+          "sha256": "28938f1b8e8c0cd55e6959fe9486aa092040bab22acccafefe09efa24b1318a5",
           "start": 0
         }
       ],
@@ -7739,12 +7739,12 @@
         ]
       },
       "fullHash": "60e68d",
-      "generation": "4c998060ceb9c9fa4bb4",
+      "generation": "b85465d26dddaa460cc3",
       "hash": "60e68d",
       "source": {
-        "duration": 41.012245,
+        "duration": 58.749388,
         "file": null,
-        "sha256": "5c823ae11f8da891d18b10ddc1eb90c4408cc95cf6f61d06fda6f620dad3ac0b"
+        "sha256": "c086e340e2b9c10f736dea50fb99641259f7be22fa218aaccbed85e8ce707ee9"
       },
       "text": "Stone Is Better than Cloth. In the Badlands, Lucien Tosselwrench has a gift for you, though his work is not finished. The extra stones you gathered are ready, but he still needs patterned bronze bracers. After your work for Lotwil on his third Study of the Elements: Rock request, Lucien Tosselwrench admits Lotwil can be cheap. He means to make it up to you with fine enchanted bracers fashioned from the extra stones you gathered. They may help guard you against the coming atrocity of Lotwil's newest invention. To finish the bracers, Lucien needs patterned bronze bracers of the kind a blacksmith makes. He warns you not to wait long. No one knows what happens next."
     },
@@ -7777,9 +7777,9 @@
     "quest:723": {
       "1": [
         {
-          "duration": 28.656326530612247,
-          "file": "Audio/Transport/full_quest_723-66e5eb976077fabe64ac/1-0000.mp3",
-          "sha256": "ac98913bb050b9e87c485da1b16b4ac9b5ff7cabfc3cdcea572caa27dadcabd2",
+          "duration": 34.11591836734694,
+          "file": "Audio/Transport/full_quest_723-bf96ef8f9fa840fd8098/1-0000.mp3",
+          "sha256": "8e91b92f5490f478962ef672f67623bbc63440cdbc8fe6e633b4fc07b3a7086e",
           "start": 0
         }
       ],
@@ -7791,21 +7791,21 @@
         ]
       },
       "fullHash": "2e2cbb",
-      "generation": "41b3407b49219e7c52fc",
+      "generation": "d223a1e612d2abecf027",
       "hash": "2e2cbb",
       "source": {
-        "duration": 28.656327,
+        "duration": 34.115918,
         "file": null,
-        "sha256": "66e5eb976077fabe64ac58e7d62e1537c8e80f3c11e2d5d3e53a98be6421ab2c"
+        "sha256": "bf96ef8f9fa840fd8098f55bafd6b5f625491ccb2ff958c45d30661c32b5266c"
       },
       "text": "Prospect of Faith. In the Badlands, Hammertoe Grez sends you to Prospector Ryedol with his amulet. Ryedol knows Hammertoe sought the origins of their people and wants to keep the scrolls from the Shadowforge clan. Wounded in the Badlands, Hammertoe Grez asks you to carry his amulet to Ryedol. He trusts Ryedol to know what to do. Hammertoe sought the origins of their people and meant to thwart the Shadowforge clan. The clan must not get the scrolls."
     },
     "quest:724": {
       "1": [
         {
-          "duration": 26.04408163265306,
-          "file": "Audio/Transport/full_quest_724-d9650c4f4be8bb3165c8/1-0000.mp3",
-          "sha256": "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497",
+          "duration": 33.25387755102041,
+          "file": "Audio/Transport/full_quest_724-4c852c4491a0c722de3f/1-0000.mp3",
+          "sha256": "89177706c6cff71cf5b86dabc1aec53f53d1b19cd579c63f30fda608d0135ebf",
           "start": 0
         }
       ],
@@ -7817,12 +7817,12 @@
         ]
       },
       "fullHash": "3d2960",
-      "generation": "5a2834f1574b4acde6aa",
+      "generation": "ae206996fc7d0c4fa356",
       "hash": "3d2960",
       "source": {
-        "duration": 26.070204,
+        "duration": 33.28,
         "file": null,
-        "sha256": "d9650c4f4be8bb3165c801455c5013a5686331991eb112cae22d82df156141fd"
+        "sha256": "4c852c4491a0c722de3f324f3c2eaa2832da2aeed02d4931a112a66be8e20216"
       },
       "text": "Prospect of Faith. In the Badlands, Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe sought Uldaman's lost artifacts together. Ryedol suspects the Shadowforge learned they knew more than they let on. Prospector Ryedol sends you to Historian Karnik in Ironforge. Tell Karnik what happened to Hammertoe and place the amulet in his hands. Karnik will decide what to do next."
     },
@@ -7855,9 +7855,9 @@
     "quest:726": {
       "1": [
         {
-          "duration": 22.230204081632653,
-          "file": "Audio/Transport/full_quest_726-05af57eb9d8cdee53c3e/1-0000.mp3",
-          "sha256": "38ba3197dba01cb0a959e290659c89dd7bda3996a01600ad0637359e59f0387f",
+          "duration": 32.07836734693878,
+          "file": "Audio/Transport/full_quest_726-fad074aa55d61c5f688f/1-0000.mp3",
+          "sha256": "da4e298d66b2e916e114039de4c48636acaa07d6990e5cd1c173ef11713bef47",
           "start": 0
         }
       ],
@@ -7869,21 +7869,21 @@
         ]
       },
       "fullHash": "1a9a5c",
-      "generation": "9398dda4e2a8222a5326",
+      "generation": "9e64831d58ec6275d1ff",
       "hash": "1a9a5c",
       "source": {
-        "duration": 22.256327,
+        "duration": 32.078367,
         "file": null,
-        "sha256": "05af57eb9d8cdee53c3e6ae24d99c4746c5bd5ca86c84537eea02cdac96170dd"
+        "sha256": "fad074aa55d61c5f688fb69d254a5a06a944901547daafb1c9c597c4e3971146"
       },
       "text": "Passing Word of a Threat. In the Badlands, Belgrum sends you back to Karnik with the king's command to act swiftly against the Shadowforge. Belgrum reads Karnik's note to the end. His eyes widen at the evil tidings. He sends you back to Karnik with the king's command: act swiftly and decisively on what is known. The Shadowforge's activities in the Badlands must stop."
     },
     "quest:727": {
       "1": [
         {
-          "duration": 45.68816326530612,
-          "file": "Audio/Transport/full_quest_727-d1a4c791900daba4efa8/1-0000.mp3",
-          "sha256": "0408743241631ea109262b8453397f63fdc93f4fc5567cd7969d2b03ccc2fd87",
+          "duration": 62.223673469387755,
+          "file": "Audio/Transport/full_quest_727-edfd4bd43b5ebd9fd4c5/1-0000.mp3",
+          "sha256": "2eabb92ec64c856f0a7e2061d8627acf0cec97af0ff1cb3855b20ef425c2fe02",
           "start": 0
         }
       ],
@@ -7895,21 +7895,21 @@
         ]
       },
       "fullHash": "674e6d",
-      "generation": "a55b2757e670d786e378",
+      "generation": "34766b8d5123436505eb",
       "hash": "674e6d",
       "source": {
-        "duration": 45.714286,
+        "duration": 62.249796,
         "file": null,
-        "sha256": "d1a4c791900daba4efa831e7dc8594681de6e66126ad4b8953894aaddc975e27"
+        "sha256": "edfd4bd43b5ebd9fd4c57efb987f7ae9e47ec6d31401e75d0feafc4f6ebb971e"
       },
       "text": "To Ironforge for Yagyin's Digest. Theldurin the Lost sends you to Ironforge with a sigil. In a shop in the Forlorn Cavern, Gerrig Bonegrip is meant to take you for one of the people Theldurin fled, so you can ask him for Yagyin's Digest. The Tablet has taught Theldurin much, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study it. Theldurin believes its vast knowledge can offer protection, so he wants you to bring it back. Gerrig Bonegrip keeps a shop in Ironforge's Forlorn Cavern. Theldurin gives you the Sigil of the Hammer to show Gerrig. Then Gerrig should take you for one of the people Theldurin fled. Ask him for Yagyin's Digest."
     },
     "quest:728": {
       "1": [
         {
-          "duration": 43.70285714285714,
-          "file": "Audio/Transport/full_quest_728-c3084ccc318b6385bec7/1-0000.mp3",
-          "sha256": "702ffafee89e530bebbb408f67e34af6888b9e065525d89f0361a63ca00a860f",
+          "duration": 56.76408163265307,
+          "file": "Audio/Transport/full_quest_728-486f236c4413306f9027/1-0000.mp3",
+          "sha256": "22714ff5be76428c3ada8d4406e72ee85e8622135c91d8806e96706b88c93fb8",
           "start": 0
         }
       ],
@@ -7921,21 +7921,21 @@
         ]
       },
       "fullHash": "372f92",
-      "generation": "766483e1066b1072386f",
+      "generation": "9bd6c97e976dd2039b73",
       "hash": "372f92",
       "source": {
-        "duration": 43.72898,
+        "duration": 56.764082,
         "file": null,
-        "sha256": "c3084ccc318b6385bec7d6202769b908c1ec79a1db3552162a2b4dd93df8a3fb"
+        "sha256": "486f236c4413306f90277a6942bbb6140f1688fdb5175759e74a8a4d1fb4202f"
       },
       "text": "To the Undercity for Yagyin's Digest. Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil for Keeper Bel'dugur. He wants the keeper to mistake you for one of the people he fled, and asks you to find Yagyin's Digest. The tablet has answered much for Theldurin, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study its pages. Theldurin believes its vast knowledge can protect them, so he wants you to bring it back. Keeper Bel'dugur waits in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, who is to take you for one of the people he fled. Ask Bel'dugur for the digest."
     },
     "quest:732": {
       "1": [
         {
-          "duration": 45.42693877551021,
-          "file": "Audio/Transport/full_quest_732-80a08d47c55b0594533d/1-0000.mp3",
-          "sha256": "5d7d6864938aa64313c219ba88d5532d5c28221dd56f2aa7611b3989bfe1115f",
+          "duration": 62.61551020408164,
+          "file": "Audio/Transport/full_quest_732-7173e974dd3daa484cd3/1-0000.mp3",
+          "sha256": "bb06509330fed21488823c7c634608dd8cf0c87d447c9979ad89e291508cdad5",
           "start": 0
         }
       ],
@@ -7947,21 +7947,21 @@
         ]
       },
       "fullHash": "9487f0",
-      "generation": "89a52c44fda1256ad3af",
+      "generation": "f13f1f1cc8878793e174",
       "hash": "9487f0",
       "source": {
-        "duration": 45.426939,
+        "duration": 62.641633,
         "file": null,
-        "sha256": "80a08d47c55b0594533d8a66d34cce23c53ef4fcbbd894423c4a4c3f0b6c2412"
+        "sha256": "7173e974dd3daa484cd30910aad7943551fda13ef4217f62160bba958fd5586a"
       },
       "text": "Tremors of the Earth. Garek asks for your help after hearing all you have done for Sigrun. His master, Krasus of the Kirin Tor, sent him to the Badlands to stop trouble brewing in Lethlor Ravine. First, he needs the stolen Sign of the Earth. Krasus of the Kirin Tor sent Garek to the Badlands to stop trouble brewing in Lethlor Ravine. He cannot tell you the exact assignment, only that it matters greatly. Roving ogres took the Sign of the Earth, and Garek needs it back before he can tell you more. They are sometimes seen around Camp Boff. Ogres wander from camp to camp across the Badlands. Rising heat and swirling winds make their trail hard to follow. Garek has heard they sometimes pass through Camp Boff, so look there if you lose track of them."
     },
     "quest:733": {
       "1": [
         {
-          "duration": 34.351020408163265,
-          "file": "Audio/Transport/full_quest_733-7175580e55b957591956/1-0000.mp3",
-          "sha256": "c378bf170e06f237c3870d64be5fe01ac5fe311ae3ecdd2d1cc75a17b9686a33",
+          "duration": 40.59428571428572,
+          "file": "Audio/Transport/full_quest_733-7f195071cd9383c16806/1-0000.mp3",
+          "sha256": "3b47531c210b676533511ac04489a3d0350ad1a1c6e739e0a2b2b3cc1d0598c7",
           "start": 0
         }
       ],
@@ -7973,12 +7973,12 @@
         ]
       },
       "fullHash": "3f8582",
-      "generation": "cc75a5069e38d9546cb9",
+      "generation": "049f503b22bb19d44a4a",
       "hash": "3f8582",
       "source": {
-        "duration": 34.377143,
+        "duration": 40.594286,
         "file": null,
-        "sha256": "7175580e55b957591956d6d778ed03ec31a7ce9c7888e8c8be1a956fb8deb102"
+        "sha256": "7f195071cd9383c1680675c2c18d935d90b8ed898395715b1afe4aa70baa873b"
       },
       "text": "Scrounging. At Sigrun Ironhew's camp, defenses and supplies wait on scrap metal. She needs seven pieces, and nearby ogres carry plenty. Sigrun Ironhew needs materials for the camp's defenses and other needs. The Prospector worries about the camp's condition, so Sigrun wants to begin work soon. Scrap metal is what she lacks. Nearby ogres carry scrap metal, adding weight to talk of siege engines in the Badlands. Their main camp, Dustbelch Grotto, lies a long trek west of Sigrun's camp."
     },
@@ -8011,9 +8011,9 @@
     "quest:735": {
       "1": [
         {
-          "duration": 45.4530612244898,
-          "file": "Audio/Transport/full_quest_735-60c01ea0e3e25e845a98/1-0000.mp3",
-          "sha256": "6688410ab855918ad55c5e05c15dcb9355685df4d3cddecf6ef715af69668fe5",
+          "duration": 54.02122448979592,
+          "file": "Audio/Transport/full_quest_735-362f3f8c4c62fbf0de77/1-0000.mp3",
+          "sha256": "aa3167a30033779a165bc2608e0b0a525711cb58948135f01ce23917d7f0c2f1",
           "start": 0
         }
       ],
@@ -8025,12 +8025,12 @@
         ]
       },
       "fullHash": "046386",
-      "generation": "e5c1980cc7af54938db5",
+      "generation": "e099056fc3b59d39d011",
       "hash": "046386",
       "source": {
-        "duration": 45.479184,
+        "duration": 54.047347,
         "file": null,
-        "sha256": "60c01ea0e3e25e845a988e202563b6d6928bd1b09c8546288177c3b1fe7ab515"
+        "sha256": "362f3f8c4c62fbf0de77bed8f4b1fab793c5f82eedcdd4b1d24e078a2fb96a5c"
       },
       "text": "The Star, the Hand and the Heart. In Ironforge, Gerrig Bonegrip offers Yagyin's Digest in exchange for three items of power. Their names are kept from listening ears and written in a note. Gerrig Bonegrip hears you ask for Yagyin's Digest and wonders whether you mean to begin a new chapter of the order somewhere. Gerrig decides it is not their place to ask. With an extra copy on hand, Gerrig believes those of the order should aid one another. So Gerrig asks you to bring three items of power. Their names stay unspoken in case someone is listening, and Gerrig writes them down. Gerrig's note names the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart. Gerrig wants all three before handing over Yagyin's Digest."
     },
@@ -8115,9 +8115,9 @@
     "quest:762": {
       "1": [
         {
-          "duration": 37.30285714285714,
-          "file": "Audio/Transport/full_quest_762-b2fa8366ac6b58786069/1-0000.mp3",
-          "sha256": "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256",
+          "duration": 51.800816326530615,
+          "file": "Audio/Transport/full_quest_762-fc0e7eacf7789589d7c8/1-0000.mp3",
+          "sha256": "253a35fd028bb6c574babc417d3008a02c1ea820aa7829752c71a65d1de62f42",
           "start": 0
         }
       ],
@@ -8129,12 +8129,12 @@
         ]
       },
       "fullHash": "9ab557",
-      "generation": "631ced03617b88198da3",
+      "generation": "c710a1e1495c5792178b",
       "hash": "9ab557",
       "source": {
-        "duration": 37.32898,
+        "duration": 51.826939,
         "file": null,
-        "sha256": "b2fa8366ac6b5878606932508391d2f99af159e53f75aec215a1119c2a60eda3"
+        "sha256": "fc0e7eacf7789589d7c8faae40570c80063d1658c5b02055feed17de7c790699"
       },
       "text": "An Ambassador of Evil. In the Badlands, Historian Karnik sends you after Ambassador Infernus. He wants you to carry proof of the kill to Advisor Belgrum in Ironforge. Ragnaros sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman. The search has already cost many dwarven lives, and more are dying. Karnik fears the Shadowforge could turn the artifacts against Ironforge. So he sends you back into the Badlands to destroy Infernus and carry Belgrum proof of your victory. Time is short. Ragnaros will not wait for the Shadowforge to prepare."
     },
@@ -8687,9 +8687,9 @@
     "quest:778": {
       "1": [
         {
-          "duration": 24.084897959183674,
-          "file": "Audio/Transport/full_quest_778-7d041ceec67e756fc688/1-0000.mp3",
-          "sha256": "09c5652619d407adb0cb40a20a49c24753cfe41e3c6b4f1c5f6efca481dc44a4",
+          "duration": 32.78367346938776,
+          "file": "Audio/Transport/full_quest_778-03935f55df6cfb2b9eed/1-0000.mp3",
+          "sha256": "5fd0d41ecbe8aaab9f4fd7aca5e9cd18eb0af1d7f9e88ac8ed2a2eba2c589192",
           "start": 0
         }
       ],
@@ -8701,12 +8701,12 @@
         ]
       },
       "fullHash": "6bf157",
-      "generation": "8919547df3a47f7998a4",
+      "generation": "7b58c96fe40d85f12419",
       "hash": "6bf157",
       "source": {
-        "duration": 24.11102,
+        "duration": 32.809796,
         "file": null,
-        "sha256": "7d041ceec67e756fc6881a46362832341db78d73a7777ea76fe8e2c10a1f294a"
+        "sha256": "03935f55df6cfb2b9eedb3390efc444b69797576359bca563ee8b2b94affd25a"
       },
       "text": "This Is Going to Be Hard. In the Badlands, Lotwil Veriatus is ready to summon a powerful elemental. Lotwil calls out that the shackles are finished. The time has come. He asks Lucien and Servo to witness the summoning with you. Alchemy, engineering and the arcane come together in the shackles, and Lotwil expects a powerful elemental to answer on this groundbreaking day."
     },
@@ -8791,9 +8791,9 @@
     "quest:782": {
       "1": [
         {
-          "duration": 57.312653061224495,
-          "file": "Audio/Transport/full_quest_782-60265f923d0508ee0db1/1-0000.mp3",
-          "sha256": "b7358a63ccfdc2f294aefadc70b3b5871dda81e3921e8d5a2525ea10a20aa8d9",
+          "duration": 72.20244897959184,
+          "file": "Audio/Transport/full_quest_782-87694a6f7061319f5110/1-0000.mp3",
+          "sha256": "3bbfe135f538c9470e5724868afb9e8cce896fed8ff676067e56c733d9f7f6e6",
           "start": 0
         }
       ],
@@ -8805,12 +8805,12 @@
         ]
       },
       "fullHash": "ab9c01",
-      "generation": "6aa1b8238be2cf4865a7",
+      "generation": "a43c04607d4ce4184c96",
       "hash": "ab9c01",
       "source": {
-        "duration": 57.338776,
+        "duration": 72.228571,
         "file": null,
-        "sha256": "60265f923d0508ee0db1b609bdb552a8c8fd6a3e8395aa434f2ffdbc9dbd84b3"
+        "sha256": "87694a6f7061319f51109eeaefb7208477a25f7e2cbcfaf2d2e30d44928c8af1"
       },
       "text": "Broken Alliances. Gorn sends you from Kargath to reclaim what the ogres took. He seeks to restore the Horde’s honor after its alliance with Deathwing. Boss Tho’grun, hired to find the Sign of the Earth, betrayed the Horde and kept it. During the Second War, the Horde fought beside Deathwing. His lieutenants Blacklash and Hematus were later imprisoned far to the east in Lethlor Ravine. Gorn believes these old, depraved allies must be silenced to restore the Horde’s honor.\n\nThe Horde needed the Sign of the Earth to open the drakes’ prison, so it hired ogre mercenaries led by Boss Tho’grun to find the sign. Tho’grun turned against the Horde, overwhelmed its forces and kept it. Gorn sends you southeast of Kargath to Camp Boff. Kill Tho’grun and bring back the Sign of the Earth. Gorn will be glad to see Tho’grun dead. The ogres no longer belong to the Horde."
     },
@@ -9233,9 +9233,9 @@
     "quest:793": {
       "1": [
         {
-          "duration": 32.23510204081633,
-          "file": "Audio/Transport/full_quest_793-f58ea45d7b3b357c749e/1-0000.mp3",
-          "sha256": "258d55a72565006a121bfb93ba97f9dfa35d4a543ce0122320adf45dc4dc3ecc",
+          "duration": 43.44163265306123,
+          "file": "Audio/Transport/full_quest_793-58c2c720f82143beaafc/1-0000.mp3",
+          "sha256": "439f0efb036d6ff723e5d9c4093eb87a2a5059975bc54a22b87ad205984eab7b",
           "start": 0
         }
       ],
@@ -9247,12 +9247,12 @@
         ]
       },
       "fullHash": "4033d2",
-      "generation": "fb799a018db147a76e9e",
+      "generation": "9926b5628999f295c7a3",
       "hash": "4033d2",
       "source": {
-        "duration": 32.261224,
+        "duration": 43.467755,
         "file": null,
-        "sha256": "f58ea45d7b3b357c749efb4bb93b863ee644681e9ea545ea953bdb14d9718638"
+        "sha256": "58c2c720f82143beaafc4b356faca0781b4aa08509909e7df53faf90cd5c7485"
       },
       "text": "Broken Alliances. Gorn sends you east into Lethlor Ravine to free two black drakes bound by the Seal of the Earth. This follows the first Broken Alliances. Three runestones keep the Seal of the Earth closed, one in each of Lethlor Ravine’s Diamond, Opal and Amethyst pillars. Gorn gives you the Sign of the Earth, which draws the stones out and opens the seal.\n\nCountless drakes live in the ravine, and Blacklash and Hematus are formidable foes. Gorn wants both dead, with their bindings brought back to him."
     },
@@ -10016,14 +10016,6 @@
       1037,
       1213
     ],
-    "0408743241631ea109262b8453397f63fdc93f4fc5567cd7969d2b03ccc2fd87": [
-      145,
-      508,
-      660,
-      902,
-      1216,
-      1397
-    ],
     "04114ec582cb52728b1c57ff6df67cac7e6ccae2daac957c008a92a81990b041": [
       455,
       1043,
@@ -10104,14 +10096,16 @@
       414,
       752
     ],
+    "0908e222b412352daa55b913361671adb0c2997570fd48cfda1bb5545d662a4b": [
+      162,
+      433,
+      576,
+      943,
+      1241
+    ],
     "09b00b0dd7e251c60d64b771035646b217f9170143f99d6300df33aa50b6e05e": [
       318,
       590
-    ],
-    "09c5652619d407adb0cb40a20a49c24753cfe41e3c6b4f1c5f6efca481dc44a4": [
-      236,
-      416,
-      559
     ],
     "0a04944e88de1f0cf7a39fd17e36ce1e7b03db9e7f89cd1cb753ea27c43ae505": [
       256,
@@ -10130,14 +10124,24 @@
     "0aa49f1c6c87d98518d1ad3867a4219ab59d0072d791c67c7f98e85049fbb703": [
       626
     ],
-    "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8": [
-      326,
-      585,
-      823,
-      978,
-      1296,
-      1518,
-      1676
+    "0b961c184fdf2900fd70f0b1d4ea3df690369a9b4acad628576dfc211b757c96": [
+      192,
+      472,
+      692,
+      1077,
+      1326,
+      1472
+    ],
+    "0ca151a4e95a91196ebf0727243f5f06391a253f6214b7d438a188a445bff3d1": [
+      169,
+      323,
+      472,
+      761,
+      985,
+      1179,
+      1369,
+      1606,
+      1885
     ],
     "0d4110d25c393d435b49162c64617930d7bc622b0913568de42590e94eef88a9": [
       565
@@ -10186,13 +10190,16 @@
       430,
       599
     ],
-    "1102e6dc20149e39dc694324692448cfaa88c76222d700ec8adbd58db1c3d0e1": [
-      161,
-      518,
-      732,
-      877,
-      1131,
-      1278
+    "10e782c9bc96085a12d123dceb17a49d2d05733576127430cf6e72e78824b430": [
+      181,
+      435,
+      659,
+      821,
+      957,
+      1164,
+      1432,
+      1677,
+      1820
     ],
     "11cdb20275c9435afc901ddff49bb7c57749fdbe844c32e05178b64a5971f08a": [
       478
@@ -10211,13 +10218,6 @@
       161,
       468,
       857
-    ],
-    "12b3c1efbc3556499a6e6ad516b5490f430b92adffde49a32252a2f769a073ea": [
-      182,
-      394,
-      604,
-      794,
-      945
     ],
     "12e315e0ebc924be3fb62df2ac6dcf3832092f0ebb05c2d3ce95c7a90cbbf236": [
       252,
@@ -10344,20 +10344,8 @@
       282,
       623
     ],
-    "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497": [
-      205,
-      417,
-      588,
-      750
-    ],
     "1809916ec8b8989828c05557452e56ee997fa92b5a675682afff0593198b74fc": [
       584
-    ],
-    "188df59f67accf395dcc09a7b91d240099c162772766021f08f76a8a0fbd808f": [
-      286,
-      524,
-      700,
-      929
     ],
     "190c67184722c73848df87fa02b7943e17ced95a07b45c70bf08f26006a6da9b": [
       669,
@@ -10366,10 +10354,6 @@
     "191e6495d3f45141a30e3ef2ea78e75b9934ab1c64a1fdf1fdfd0bb99eceed94": [
       493,
       736
-    ],
-    "194abe1472962b750c2c8e48251f9a474da2a331a1abb0f0cf7c8469c22a8390": [
-      199,
-      400
     ],
     "19cf709000eb8e450d7784bbe9cbe9bd9dba25b013ffc340968c83b172dc1628": [
       427,
@@ -10384,12 +10368,6 @@
     "1a58a94693030fc059e18f3ade65c5afa7836a3e939de0d801f29b7c371d9fc1": [
       268,
       894
-    ],
-    "1a93520187fa3260a1ffc6c8b2a91fd661307efd96d1de5ae825b841d526ca37": [
-      254,
-      500,
-      752,
-      945
     ],
     "1aa1625715e43ac02daad279c0e1868d95c8342b31834abc1f8a95df308a54d0": [
       243,
@@ -10462,6 +10440,13 @@
       1181,
       1554
     ],
+    "1edb44ee90ea7944fca4bf33bbcf4edfaea8243a7b93f80028e9ff778ba8bc8e": [
+      365,
+      564,
+      763,
+      916,
+      1057
+    ],
     "1f24f173c62ebed91496e60bc2141f8332b1c45ed51c9b73e7d6a3bea9f5839c": [
       467,
       656,
@@ -10501,6 +10486,17 @@
       578,
       894
     ],
+    "22714ff5be76428c3ada8d4406e72ee85e8622135c91d8806e96706b88c93fb8": [
+      159,
+      360,
+      643,
+      782,
+      979,
+      1271,
+      1631,
+      1781,
+      1937
+    ],
     "2307f2b0d409e9b0a5785f60bf6f2aac587beb7cf61765196adf13ad517588ca": [
       249,
       589,
@@ -10515,15 +10511,6 @@
       711,
       1034
     ],
-    "23d44f1505fe7b60fd304f644203d4e51f4f906311c1a957c379eeaefdaeaff6": [
-      186,
-      346,
-      566,
-      887,
-      1261,
-      1420,
-      1763
-    ],
     "246ff515c1a22500f0641cb40388dac36acdc3fdac5bbc0f967a8ad4b3443e7e": [
       268,
       508
@@ -10535,10 +10522,14 @@
       957,
       1225
     ],
-    "258d55a72565006a121bfb93ba97f9dfa35d4a543ce0122320adf45dc4dc3ecc": [
-      341,
-      649,
-      864
+    "253a35fd028bb6c574babc417d3008a02c1ea820aa7829752c71a65d1de62f42": [
+      192,
+      404,
+      624,
+      1008,
+      1163,
+      1456,
+      1767
     ],
     "25cbc163147dc15d538e6b1367fd2a84d21aa52a8bebeb52671d82e9fbbf6ea9": [
       475
@@ -10592,6 +10583,22 @@
       241,
       784
     ],
+    "281f170ff7e9e57992f295f8ee9baacb8209db8de7cae1f9906839def904b409": [
+      300,
+      544,
+      768,
+      938
+    ],
+    "28938f1b8e8c0cd55e6959fe9486aa092040bab22acccafefe09efa24b1318a5": [
+      224,
+      372,
+      612,
+      767,
+      962,
+      1192,
+      1516,
+      1742
+    ],
     "28b1e4a964abc013bbe22b16807f15f8d8f7cfc3b2ae7e37afbe53af5a7843d4": [
       577
     ],
@@ -10624,6 +10631,14 @@
       1294,
       1550
     ],
+    "2bea5b385780d437832711a11ebd35bee70e5fd2731def4c8afcd09e45d93811": [
+      338,
+      601,
+      903,
+      1141,
+      1330,
+      1524
+    ],
     "2c073ee014ea6e708f51c1720e338c587c7fe543c81d05b080d5d8bd3d5c71c8": [
       485
     ],
@@ -10642,6 +10657,18 @@
     "2da11a20b22930f24658de71cd73aaa2f8095001a683906269c785b38fe8cb2b": [
       407,
       715
+    ],
+    "2eabb92ec64c856f0a7e2061d8627acf0cec97af0ff1cb3855b20ef425c2fe02": [
+      163,
+      319,
+      458,
+      672,
+      830,
+      1024,
+      1329,
+      1712,
+      1925,
+      2109
     ],
     "2ed479498973638d02ac0c7c29f057960cb253a00876cc327af213a268c00c34": [
       234,
@@ -10796,10 +10823,6 @@
       404,
       783
     ],
-    "38ba3197dba01cb0a959e290659c89dd7bda3996a01600ad0637359e59f0387f": [
-      290,
-      496
-    ],
     "38cd8baf48e67708bac82e00e4cc112234566b1a6ff3b81403b944e10bf8f3a4": [
       321
     ],
@@ -10829,12 +10852,30 @@
       758,
       992
     ],
+    "3ab7f0687479163a70409b23aa197b450e3f16a82875224b20b632019ede703d": [
+      191,
+      411,
+      659,
+      863,
+      1084,
+      1233,
+      1609,
+      1896
+    ],
     "3ac197b0f06d99c388a884bbcbaf41773f75868a9c8d13249093fe8d27b34424": [
       246,
       603
     ],
     "3b3c9af6d98071f7f517e26d73ff8bfd6ce162a17ae4c020359e24b377ea310d": [
       362
+    ],
+    "3b47531c210b676533511ac04489a3d0350ad1a1c6e739e0a2b2b3cc1d0598c7": [
+      166,
+      301,
+      483,
+      708,
+      1044,
+      1314
     ],
     "3b642a297a4f812e32e0d0a30bf303db523824fa5a6c4630f804d35ef3034c8f": [
       240,
@@ -10854,6 +10895,18 @@
     "3bbd136339be67387006d293bbd331ac6bc08a7c5395efa4d95c0877e90e9b22": [
       294,
       723
+    ],
+    "3bbfe135f538c9470e5724868afb9e8cce896fed8ff676067e56c733d9f7f6e6": [
+      286,
+      503,
+      745,
+      901,
+      1161,
+      1432,
+      1890,
+      2117,
+      2312,
+      2492
     ],
     "3c101ad0052289378116c49a2ea7800bfc5378a8bb06e2d7bc0159e980cd8a15": [
       262,
@@ -10899,6 +10952,14 @@
       515,
       710,
       929
+    ],
+    "4004aaf44c8e41fa1604daf60af12076d546f8fb968d2e95aea90cc62427c8c6": [
+      170,
+      410,
+      697,
+      904,
+      1179,
+      1352
     ],
     "405bb9bfaf3cdc3e042b93beec7e47d51d729543abddce959477c1d6c561168f": [
       147,
@@ -10968,8 +11029,27 @@
     "42b5fc4e73a9ecbb4b3457165db2ba46dbce94a9e58176862f37306d603eee16": [
       584
     ],
+    "431867c0789e5c5e831b1572ca328c98d927324659a6075fd7ba267580bf84df": [
+      252,
+      421,
+      678,
+      897,
+      1196,
+      1374,
+      1556,
+      1775
+    ],
     "437d0439e8fecf0e1c8c942ac87244b8fb322ca5a3396f47ef1012577a904cc2": [
       559
+    ],
+    "439f0efb036d6ff723e5d9c4093eb87a2a5059975bc54a22b87ad205984eab7b": [
+      399,
+      551,
+      711,
+      887,
+      1062,
+      1214,
+      1479
     ],
     "43adb47534ea736146be5ca55cc4c21856aa5f320923b349e5f0495ded4cd52b": [
       550
@@ -11039,13 +11119,6 @@
       357,
       612
     ],
-    "45e88ac0a031b48cb82b5617ec1d4f8f0a968c0cbaf228e1a3ab0dc9653b115f": [
-      248,
-      448,
-      631,
-      889,
-      1068
-    ],
     "46dc1926bbabd42ec4416c82d5b0ec951ca97fa79915e751a04514cb9ee9bf1c": [
       463,
       803
@@ -11064,20 +11137,9 @@
       252,
       823
     ],
-    "481bbca56ad3ac943304604276c79d26bc8865bec2288138de95179af7277e78": [
-      264,
-      401,
-      610
-    ],
     "4920b4e942d1897b89d422a845344a14e3c2a695837bcdff1c623c510ef60e27": [
       268,
       612
-    ],
-    "49657c586fd4da9b2babb7f07d44fb064b857917d98b874bdc0c6f0b44f5528d": [
-      249,
-      433,
-      633,
-      785
     ],
     "497908fab089670744ac6f32a0ca356a3a6af9fc8daaddac0286da699e39724f": [
       486
@@ -11173,6 +11235,13 @@
       360,
       671
     ],
+    "50c2414efe37db9f9072598680ccc754e390760b5e799dead0debc7acba3262a": [
+      450,
+      615,
+      751,
+      911,
+      1083
+    ],
     "5207fbf35c74be0078fa0b665095c8bdcd613d1d685ce93f4f9860d07facdda6": [
       354,
       785
@@ -11216,10 +11285,6 @@
     "5484b4b3e70b388b21af8ce37ca1b303146b7f92dbb8a9a0d41de60779f76826": [
       588
     ],
-    "54a4b3b2bfa6c0f28ac4fbf73a2d0cdc712e6adbfdb5e8da9cd2871bcf70ea8b": [
-      327,
-      483
-    ],
     "54c80a26e89f27b6f9b6ddea83fee60bfac74a2c67976cccdf63a4ec3dea021c": [
       482
     ],
@@ -11253,6 +11318,14 @@
       377,
       905
     ],
+    "575ca332e9a75a429019eb7fe0306cc64e637aaf8d2538d794a506d71a0df13b": [
+      163,
+      382,
+      581,
+      952,
+      1355,
+      1547
+    ],
     "57659577f38a970811a161aa7f7ca21196199ec6bc765af2184fa832203900b4": [
       205,
       412,
@@ -11283,12 +11356,6 @@
       534,
       771
     ],
-    "58edc36cb6128c7675dc5bf36897438f6cc6808480e5363d0c2971f9e27e5833": [
-      211,
-      400,
-      614,
-      898
-    ],
     "592124d4a1120e0ca6ccba95fc52e727e2ce67fa6b4b2291d08939cb66671257": [
       181,
       350,
@@ -11317,14 +11384,6 @@
     "59c2339477d25df141ccc3dec0b915364641022312f55260583a06fb191b777e": [
       406,
       639
-    ],
-    "5abd969b7f602792b9179547d544a33e77328299dfbe10595bbb5ff8019de81a": [
-      216,
-      565,
-      721,
-      945,
-      1133,
-      1339
     ],
     "5ac6de46e236bc9821bf2849a78847b40adbd2bebe577163d6784c4bc167e3dc": [
       202,
@@ -11355,6 +11414,13 @@
     "5b89e2be0774c4166cf8f3b53ce3cef58220cfda146f8ffcb043be872651ed48": [
       562
     ],
+    "5b8f06c707f2185f2aa82bea311446527e34343f25bc3a3958d13efbd58fc4c5": [
+      136,
+      708,
+      918,
+      1224,
+      1382
+    ],
     "5b95cf3b16221cbd2e3fa248002eb384d6f0e4c82958b55868f2dd3f1bbeee5b": [
       451
     ],
@@ -11381,23 +11447,6 @@
     "5d79600ca08865740351ed690c30f42dd60fe6c4a65f93e8e73acd37f2e89cc7": [
       393,
       754
-    ],
-    "5d7d6864938aa64313c219ba88d5532d5c28221dd56f2aa7611b3989bfe1115f": [
-      160,
-      534,
-      760,
-      918,
-      1229,
-      1370,
-      1523
-    ],
-    "5e1a9849a5dbcd80dbd6bbf33bb8fa9de170d5b95f6a5e4abfd369c278bf4464": [
-      298,
-      526,
-      683,
-      969,
-      1121,
-      1348
     ],
     "5e2d2e8c1df4c337338f9c7588c42eb626f20dfb776e7c500d4ee2048493f5f9": [
       1006,
@@ -11427,6 +11476,12 @@
     ],
     "5f5e3b50aa8cdc9525afc60bcdadd1e40e6210c3e76995927ebbdbdbd741b081": [
       302
+    ],
+    "5fd0d41ecbe8aaab9f4fd7aca5e9cd18eb0af1d7f9e88ac8ed2a2eba2c589192": [
+      178,
+      381,
+      597,
+      767
     ],
     "601950021e21c680cc334684ea5bd92bb977687aebb3ecd3f0e4b3548e2e1972": [
       256,
@@ -11471,15 +11526,6 @@
       633,
       881,
       1104
-    ],
-    "61634a857e594f86ccb634bdad0cd638ccae3fe4be9e76c9f6fdd8cc40106218": [
-      238,
-      437,
-      629,
-      773,
-      984,
-      1134,
-      1299
     ],
     "617ebebdec452792d2a7cfdbb190cf28386964f550a6df1a66f021b747753d1d": [
       792
@@ -11533,19 +11579,15 @@
       330,
       884
     ],
+    "662fa37009fcac03245fa1522ce2033548fd95684d321702f86034b43dd2a672": [
+      315,
+      496,
+      701
+    ],
     "66724d17de8735b9cd0d4e9d09d52fb1450a3b2356ba1bbad4e91bb1995090e8": [
       422,
       755,
       1155
-    ],
-    "6688410ab855918ad55c5e05c15dcb9355685df4d3cddecf6ef715af69668fe5": [
-      259,
-      410,
-      698,
-      888,
-      1128,
-      1334,
-      1545
     ],
     "66cda1357e823bde89e1fde89922975b7519311e1f044bf3c4c167cc0c85f5c2": [
       153,
@@ -11660,24 +11702,9 @@
       448,
       745
     ],
-    "702ffafee89e530bebbb408f67e34af6888b9e065525d89f0361a63ca00a860f": [
-      230,
-      478,
-      648,
-      884,
-      1202,
-      1336
-    ],
     "7088f5e1580e5c601f9e97571ed9ace41b5b221ef4fe96be0d294b93cb05968f": [
       388,
       622
-    ],
-    "70a302f8a456442a95546639d9b0192cb5f7cff0eee57e180156dfb3d13d5572": [
-      287,
-      522,
-      724,
-      1044,
-      1186
     ],
     "70f78f535e30a8033822ab87930984599adc3412650d2c1e7b2dfe13a3059cd0": [
       217,
@@ -11736,14 +11763,6 @@
       402,
       557,
       981
-    ],
-    "72821b82634d0acf7eda15ffec8c390b5c3bcb70dc126fd92006b85023e95dd7": [
-      225,
-      399,
-      623,
-      784,
-      997,
-      1184
     ],
     "7296483be44bfd3c37d7085509c38374379611e10e198404e17f542e476ae09d": [
       185,
@@ -11987,6 +12006,12 @@
       384,
       622
     ],
+    "7fe94deac7612ea673f0d4511ffe52edb8da8e5f15beef919a6c525f2a47881e": [
+      191,
+      664,
+      809,
+      1108
+    ],
     "801bbbd09b8d36226af9e06931f656391d110fd9dbd6d66ed7534a5a9cf20fa5": [
       681
     ],
@@ -12052,13 +12077,6 @@
       164,
       515
     ],
-    "87a5baefe671715450dab490469a4d684db00487133a5bda7e863c30aca9aa11": [
-      168,
-      435,
-      756,
-      964,
-      1152
-    ],
     "87e7d6e34314ee3a46a60269dcb2793bb33baeac37dd770fd289f89e318b8372": [
       350,
       805
@@ -12089,11 +12107,25 @@
       646,
       798
     ],
+    "89177706c6cff71cf5b86dabc1aec53f53d1b19cd579c63f30fda608d0135ebf": [
+      334,
+      546,
+      733,
+      950
+    ],
     "897437a48a42529f6860671c0095a5e6eb250957794129776bb12c1b715f151e": [
       224,
       366,
       543,
       714
+    ],
+    "8a03c2410937fca538e379366fa177e52a5709539533234d223c7094772333d2": [
+      214,
+      471,
+      902,
+      1190,
+      1365,
+      1526
     ],
     "8a54d66d85e4f50150cc682f9f1b01ad64c2213e2a042e735ccad18b549bc211": [
       629
@@ -12180,9 +12212,12 @@
       954,
       1089
     ],
-    "8e8b9b2ac1db67da8bc31c63c343cd51bfd531067977f710394186c2f6acd5c9": [
-      216,
-      356
+    "8e91b92f5490f478962ef672f67623bbc63440cdbc8fe6e633b4fc07b3a7086e": [
+      162,
+      334,
+      608,
+      867,
+      1079
     ],
     "8ea20f2c2f340b3b438a778ab78514224c8e6247c277b8de70292264a5dd99de": [
       615,
@@ -12380,15 +12415,6 @@
     "a0b47c44a1592db71fbb9ae80d50c515975f1f27c92d366271268ed11593a07c": [
       624
     ],
-    "a0cf948b835a183d95583a4cee10a8db72d5ea615a7e80cc49e9824f3d5f3df8": [
-      213,
-      374,
-      577,
-      724,
-      940,
-      1076,
-      1216
-    ],
     "a0e37be7baa24023b283cfb4ffe0a33a376dc66fdc57b05ff51793e296fc179d": [
       204,
       411,
@@ -12468,13 +12494,6 @@
       800,
       1109
     ],
-    "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769": [
-      228,
-      508,
-      749,
-      953,
-      1264
-    ],
     "a7281441f55c5639e0c0a43bd279cf935e13e3b0ef14813f98c312c1efb2ade0": [
       560
     ],
@@ -12514,16 +12533,19 @@
     "a98c0cb0aebe90a8d2b6b1bfa9cb04e3764803a731cf662d7630136915fb0785": [
       537
     ],
-    "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88": [
-      225,
-      935
+    "aa3167a30033779a165bc2608e0b0a525711cb58948135f01ce23917d7f0c2f1": [
+      136,
+      430,
+      595,
+      914,
+      1069,
+      1286,
+      1429,
+      1654,
+      1893
     ],
     "aab36d063d6c35da4b1e2e0e144fe3d172a840e857cdeb0eabfc809bda89b372": [
       465
-    ],
-    "ab0666983771ffcd66ee30f53e47d8f12be5c55e20753791f2d3fdb9c467b1c0": [
-      345,
-      481
     ],
     "ab223dac269014ee371923057243a82b81039f7151bece6bf2d8f31c40e8d98f": [
       165,
@@ -12570,10 +12592,14 @@
       774,
       1016
     ],
-    "ac98913bb050b9e87c485da1b16b4ac9b5ff7cabfc3cdcea572caa27dadcabd2": [
-      222,
-      510,
-      718
+    "acbee6be754a7ea96f09ad1b83eb472449003da7928d3a011f3a772bc28c79c4": [
+      284,
+      431,
+      628,
+      825,
+      1077,
+      1273,
+      1571
     ],
     "acd7860d6aea70621d3981656e1f8957cb82f276b54f0eb0e8d2a2caa66c5545": [
       309,
@@ -12617,13 +12643,6 @@
       822,
       1065
     ],
-    "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962": [
-      225,
-      532,
-      787,
-      1041,
-      1248
-    ],
     "af29dd04b9068ec66fa9af3715aa02f92b8ecacd04e7113c2c7322db8681b59f": [
       581
     ],
@@ -12635,11 +12654,6 @@
       1192,
       1462,
       1708
-    ],
-    "b0325568097dda1ed1a2a87df7891f4e637227ee32f71398e49c85100dd88e81": [
-      216,
-      495,
-      677
     ],
     "b0bf65d5661db13d9e33729c36117fa25ec504c50f4058144e45308b05e1d187": [
       241,
@@ -12658,6 +12672,12 @@
     "b166c2c4da38aa003527b3edfdbec1dd3c43c64e91600eadc5e3ce6f2042018c": [
       480,
       836
+    ],
+    "b1792097fc2befbedfc85288a06288c262dbfd7e03d2f49ebea7694aba0674f0": [
+      158,
+      472,
+      740,
+      1006
     ],
     "b1e9dafad28d2a9709171435a9cce9545ec71a27c7fec792ff44fcdc44af9ec9": [
       429,
@@ -12708,14 +12728,6 @@
     "b42aec5cfaf1e21ee54ca134bee38a51dff565a804b0b5643f4f51ae42a47731": [
       482
     ],
-    "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256": [
-      184,
-      380,
-      661,
-      836,
-      999,
-      1245
-    ],
     "b54d5cd270a5224642a52b6c5e4e03a9c197d2e282664feeeadecdb4ad10673f": [
       201,
       356,
@@ -12738,6 +12750,15 @@
     "b59d5bd7cceee66d1ea5cd791628ddff0ded29958b331289c5fe43ff61d47522": [
       375,
       619
+    ],
+    "b5b8ee85f4ca8c6f3136f7f1993fbe68bd9ea722a14a4ec4a4b16b6973f889b9": [
+      174,
+      418,
+      663,
+      904,
+      1209,
+      1347,
+      1504
     ],
     "b5c0129c55f3972b903758f24b2b8b3b5a7b69e1a878ea8c5348fbe1127710e3": [
       583
@@ -12768,18 +12789,6 @@
     "b722b06251db37ea135583ef9ec4a322114109e50256579bea8a2e19827666e9": [
       353,
       598
-    ],
-    "b7358a63ccfdc2f294aefadc70b3b5871dda81e3921e8d5a2525ea10a20aa8d9": [
-      153,
-      312,
-      540,
-      690,
-      920,
-      1158,
-      1490,
-      1681,
-      1834,
-      1968
     ],
     "b7dbb8b25686feaed5fb4a9d3b97951aeeb56e3caa9355ad11748a3f7892f1cc": [
       432,
@@ -12863,11 +12872,13 @@
       742,
       1117
     ],
-    "bb5fce825680704905f0e1fda04d93c5b5b95b765a1ef351292ac366439c7275": [
-      201,
-      396,
-      571,
-      825
+    "bb06509330fed21488823c7c634608dd8cf0c87d447c9979ad89e291508cdad5": [
+      379,
+      720,
+      889,
+      1208,
+      1435,
+      1815
     ],
     "bc0031c466112e818cd6f18632a2b99cd4c65544dd02624877cfa973759b5065": [
       653
@@ -12961,12 +12972,16 @@
       522,
       1143
     ],
-    "c378bf170e06f237c3870d64be5fe01ac5fe311ae3ecdd2d1cc75a17b9686a33": [
-      207,
-      372,
-      548,
-      860,
-      1088
+    "c4ab6f903e0c8b29526f2c4daea9d2ef0dcbd1d735c42aeb1f7baef53a791c23": [
+      168,
+      400,
+      617,
+      797,
+      1130,
+      1342,
+      1576,
+      1836,
+      2000
     ],
     "c4b8619f897cd8f7db700bedcc7508d7aab52279ec2628a4533d0f79473416b2": [
       203,
@@ -12980,12 +12995,12 @@
       620,
       899
     ],
-    "c59d626e51d303f48fe2994cd1876b6a93165e88f5ecbfb0fb4a03fdc367c5fb": [
-      251,
-      451,
-      768,
-      1140,
-      1288
+    "c6dee076709d30955c778a3d9f1d3c489ea4266718b0feea4ec071ab103b5856": [
+      478,
+      1074,
+      1265,
+      1498,
+      1680
     ],
     "c6ecbe87d0a846e218dcce8692c6cbe955aed64513db21b13d20b247593f64f3": [
       249,
@@ -13110,12 +13125,6 @@
       831,
       1167,
       1619
-    ],
-    "cc23cc66694fb6796eb15b68837ccc8fad5f30f37cfab0be8aafc20b3d17a4f5": [
-      207,
-      454,
-      599,
-      817
     ],
     "cc4805643712c48c49755248634e9572d9f44a1a0901223f10d6ac291d1d739b": [
       571
@@ -13309,10 +13318,17 @@
     "d612d142f0a1f6ce594bb99d85801ba9a57e1f891b8688d33e5a906de6dc8db8": [
       419
     ],
-    "d68b7c0849c043a25b2e9f7fe4254417a25ce131453bd8ea7da92bfd0e04c873": [
-      309,
-      507,
-      716
+    "d809bc802d7884e69e10335b42d91039f3ab0b44d042413a9c3efdc69a3d84ce": [
+      245,
+      452,
+      633,
+      866,
+      1105,
+      1356,
+      1537,
+      1749,
+      1929,
+      2074
     ],
     "d8282dd1cc3ebab0c16e9bd8e982cdc83fe6689f8054f056e5d85a31e757f2cf": [
       181,
@@ -13346,6 +13362,13 @@
       208,
       383,
       647
+    ],
+    "da4e298d66b2e916e114039de4c48636acaa07d6990e5cd1c173ef11713bef47": [
+      173,
+      486,
+      622,
+      904,
+      1056
     ],
     "dad1d44687103c97244eebf9f8b245606189934eb697e837dddaedc399365a76": [
       250,
@@ -13387,6 +13410,11 @@
       302,
       513
     ],
+    "dd4542133e478677570e55e08dab75dcc8f4e11abe22596a28315785aac0b4c5": [
+      235,
+      378,
+      544
+    ],
     "ddd3232cfa4620bcde1ceca42887ebd365bee9320b5a2d5bc91c8ca21518d84e": [
       439,
       897
@@ -13399,11 +13427,30 @@
     "de7d27ef7840096f6074f7d54886afb1d58cbbadef7b771b212ac8fad7ff48dd": [
       554
     ],
+    "deec61d4529d56fa622374972d449066c526700ad93a9393caa0c0e4744c2dc4": [
+      472,
+      692,
+      896,
+      1047,
+      1231,
+      1376,
+      1568,
+      1750
+    ],
     "def4f3a15012bc7c44f669d4ae8346d301bd79cc2892bf29b1bf68731e11c074": [
       236,
       462,
       750,
       943
+    ],
+    "df2a9b868377e02bda4761c3050c3d8d87af72f049ccc3cd03089d1a0cc02977": [
+      222,
+      472,
+      689,
+      851,
+      986,
+      1229,
+      1549
     ],
     "df390c633b82af5efb2e39127dc57ee1bf132a7282bb858d1291e8fcf91521d4": [
       268,
@@ -13531,12 +13578,6 @@
     "e77be80f4ddaad4853a95f7e3d07be9e1bff391395d897e0d180b8b9dddda351": [
       390
     ],
-    "e7b69efeda83337b68abd4defda38535a5eaf0559d90fca7333ac50fe17beccc": [
-      378,
-      621,
-      856,
-      1030
-    ],
     "e7e4c351da75f612c77f608ee9c975bb56cd2cb4dcd8787034f85c5a59e9f58e": [
       293,
       532
@@ -13628,12 +13669,25 @@
       1126,
       1322
     ],
+    "ee43009c431def7db248c44429e27054d74afb53750f1c07d41faa31b767020f": [
+      236,
+      437,
+      577
+    ],
     "ee8e3f422dddd5fada479d6b1637f667d5c7793f5171b21f0c4e2bc610e576b0": [
       442,
       924
     ],
     "eea2c36f196538d40c164b0b71fdbd91249c036f8566dec3b8ad4c9c0bdd02d4": [
       1008
+    ],
+    "ef293b0df4af9edd9b2f197edca0e591319db2f7e8a21d52dee09c57be9b8cbd": [
+      523,
+      970,
+      1210,
+      1636,
+      2037,
+      2244
     ],
     "ef30146bfe702d9d787b85c94b96454133ce2431541f18c293b86b73763bac3e": [
       470
@@ -13702,11 +13756,6 @@
     ],
     "f1133dca47e37a2e9038017bc1ceb10d5688eabd140dcd86f1eca76eff9ad8dc": [
       228
-    ],
-    "f1312f9345822596bd068bf33b24dc61aea549b71adc44757f901a0f3698c4e5": [
-      279,
-      444,
-      599
     ],
     "f13f583a71fb3d918731fb939d64e610b4861c73abe615dc63517c00d8190b63": [
       357,
@@ -13780,6 +13829,14 @@
       834,
       1067
     ],
+    "f560c6f3d75b31f24abc78b2a24cc08bc092f32ba0b7b791155be8cf7e8b33c9": [
+      333,
+      780,
+      944,
+      1263,
+      1635,
+      1850
+    ],
     "f5c83f9963697b27903fa6bfc82589df839b1b9fefcb8a32730f93faab09457b": [
       167,
       373,
@@ -13793,6 +13850,14 @@
     "f64dcd1ea318ec10b672e574c4edfc895e77bca9a9e9924c89c44902b3fb0f73": [
       588
     ],
+    "f6670d26fc2a04e49314b81aa5eef03014cf18da6b91309ce4fb34db1d820ad3": [
+      166,
+      526,
+      697,
+      936,
+      1092,
+      1298
+    ],
     "f6b3f7a8ac38cf77a08cd278cccf58468d553f4b7df03caa5ff80e23cce74a29": [
       288,
       554,
@@ -13805,12 +13870,6 @@
     "f7137250046f6e3153cd5e22e6226b86aef4893bb6c355284f666d6f8cbe8cfb": [
       301,
       451
-    ],
-    "f7545f910f58329594b99da14af142facfdaac85fcc8568b3cb49eec856c99db": [
-      148,
-      399,
-      645,
-      995
     ],
     "f78afd42e2b8dd8d9cc9a0a4b88a78923b12ad8fd3a0f2a639722329fabc6e49": [
       592
@@ -13843,6 +13902,18 @@
       439,
       652,
       906
+    ],
+    "f8444be839ae7ac5d7372ecb5ea0a5cab34b074366d6f1dd5bee1b372e06f504": [
+      227,
+      542,
+      866,
+      1163,
+      1387,
+      1530,
+      1880,
+      2084,
+      2284,
+      2586
     ],
     "f84467dcc61489a45c68c28d60b9769e3a243f33eec9a37a37e362bd698af93a": [
       295,
@@ -13914,6 +13985,14 @@
       1357,
       1524
     ],
+    "fc75185fcad5e8c9633d06ed8d676f0f20f10c4427bcebe07051e0bb9e7ae9f2": [
+      401,
+      555,
+      715,
+      882,
+      1037,
+      1239
+    ],
     "fcecbdcdc3d8a5f6c3ddad33ef7fd13e7f254e6f27d7b70c73883b6038347db9": [
       506
     ],
@@ -13927,6 +14006,12 @@
     "fd34078ab137b9f9c9a665c0fc3359cf4d3ccb802c0727511e2b4d42f511010f": [
       339,
       615
+    ],
+    "fd460f41c2cbe1ee34e0f9ed1d6492f40fbe869989032622a6431b5457547711": [
+      159,
+      417,
+      757,
+      923
     ],
     "fe26b348469f69f68f628fe82d888966c26752e746541670afab0fa87f42bd89": [
       235,
@@ -13957,11 +14042,6 @@
     "feae42b2b591d2ac22c73c541c70e9feb10194c67a163cf3f788d7c6cd1424d7": [
       489,
       764
-    ],
-    "ffa1831aec99e92a5b2ea778c58b687c36773244b7245e76b5b2cc71a1cec873": [
-      219,
-      383,
-      642
     ]
   },
   "heads": {
@@ -13974,10 +14054,6 @@
     },
     "0301d5a491270bfe381c697045722783bf013bfc78a10ac965c8689a5e9d30a0": {
       "445": 1
-    },
-    "0408743241631ea109262b8453397f63fdc93f4fc5567cd7969d2b03ccc2fd87": {
-      "1216": 2,
-      "508": 1
     },
     "05187e141cfeb0c4c431de25c7e1b86063e4c3adbf0685634f5bf6774367aa49": {
       "502": 1
@@ -13997,8 +14073,9 @@
       "1181": 2,
       "541": 1
     },
-    "09c5652619d407adb0cb40a20a49c24753cfe41e3c6b4f1c5f6efca481dc44a4": {
-      "236": 1
+    "0908e222b412352daa55b913361671adb0c2997570fd48cfda1bb5545d662a4b": {
+      "433": 1,
+      "943": 2
     },
     "0a04944e88de1f0cf7a39fd17e36ce1e7b03db9e7f89cd1cb753ea27c43ae505": {
       "575": 1
@@ -14006,9 +14083,12 @@
     "0a42aaab002c67801f7ebd14434ce0f53ffb0c9c12cc69e63c593ed96fd48617": {
       "351": 1
     },
-    "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8": {
-      "1518": 2,
-      "585": 1
+    "0b961c184fdf2900fd70f0b1d4ea3df690369a9b4acad628576dfc211b757c96": {
+      "472": 1
+    },
+    "0ca151a4e95a91196ebf0727243f5f06391a253f6214b7d438a188a445bff3d1": {
+      "1885": 2,
+      "761": 1
     },
     "0e25303081c8bb93e8da780771b2a0af6d63e9b5a39f16d63ddd1f4db494e6fb": {
       "457": 1
@@ -14029,18 +14109,15 @@
     "10af8bc42874af60f4f2bd75097e5dcaf5677e43fd0c936b2af1d60c7230e80e": {
       "430": 1
     },
-    "1102e6dc20149e39dc694324692448cfaa88c76222d700ec8adbd58db1c3d0e1": {
-      "1131": 2,
-      "518": 1
+    "10e782c9bc96085a12d123dceb17a49d2d05733576127430cf6e72e78824b430": {
+      "1432": 2,
+      "659": 1
     },
     "11ed9382e68ab56bb7c9f47a660b52c45cd85ae5b199d9b1d1564f5d37a381e7": {
       "406": 1
     },
     "12b00c8b7c7a6ccdb748ce20eacc68db036884cd49cc66ce45c0abaddba6f864": {
       "468": 1
-    },
-    "12b3c1efbc3556499a6e6ad516b5490f430b92adffde49a32252a2f769a073ea": {
-      "394": 1
     },
     "12e561ec75a1c216976eb1e255334329d8d04e78385ac71d20cf00a41ea65ef1": {
       "1071": 2,
@@ -14081,21 +14158,8 @@
     "17af889e0838bdc1dab7c0ec60860f3a56c7aecc38effafb9a15b0d56137a861": {
       "639": 1
     },
-    "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497": {
-      "588": 1
-    },
-    "188df59f67accf395dcc09a7b91d240099c162772766021f08f76a8a0fbd808f": {
-      "286": 1,
-      "700": 2
-    },
-    "194abe1472962b750c2c8e48251f9a474da2a331a1abb0f0cf7c8469c22a8390": {
-      "400": 1
-    },
     "19f09e9a264b18faeb8cf63ff0b6cc7ab7a7b7567d948c1069a9abc411830a3b": {
       "390": 1
-    },
-    "1a93520187fa3260a1ffc6c8b2a91fd661307efd96d1de5ae825b841d526ca37": {
-      "254": 1
     },
     "1aa1625715e43ac02daad279c0e1868d95c8342b31834abc1f8a95df308a54d0": {
       "1371": 2,
@@ -14125,6 +14189,9 @@
       "1181": 2,
       "439": 1
     },
+    "1edb44ee90ea7944fca4bf33bbcf4edfaea8243a7b93f80028e9ff778ba8bc8e": {
+      "365": 1
+    },
     "1f24f173c62ebed91496e60bc2141f8332b1c45ed51c9b73e7d6a3bea9f5839c": {
       "467": 1
     },
@@ -14135,12 +14202,12 @@
       "317": 1,
       "893": 2
     },
+    "22714ff5be76428c3ada8d4406e72ee85e8622135c91d8806e96706b88c93fb8": {
+      "1631": 2,
+      "782": 1
+    },
     "2307f2b0d409e9b0a5785f60bf6f2aac587beb7cf61765196adf13ad517588ca": {
       "589": 1
-    },
-    "23d44f1505fe7b60fd304f644203d4e51f4f906311c1a957c379eeaefdaeaff6": {
-      "1261": 2,
-      "346": 1
     },
     "246ff515c1a22500f0641cb40388dac36acdc3fdac5bbc0f967a8ad4b3443e7e": {
       "268": 1
@@ -14149,8 +14216,8 @@
       "528": 1,
       "957": 2
     },
-    "258d55a72565006a121bfb93ba97f9dfa35d4a543ce0122320adf45dc4dc3ecc": {
-      "341": 1
+    "253a35fd028bb6c574babc417d3008a02c1ea820aa7829752c71a65d1de62f42": {
+      "624": 1
     },
     "25d1bd44b7a3b564bce15f3eae61e2b005ad6049d65130f81ec1cdfcd1507968": {
       "641": 1
@@ -14162,12 +14229,26 @@
       "1263": 2,
       "604": 1
     },
+    "281f170ff7e9e57992f295f8ee9baacb8209db8de7cae1f9906839def904b409": {
+      "544": 1
+    },
+    "28938f1b8e8c0cd55e6959fe9486aa092040bab22acccafefe09efa24b1318a5": {
+      "1742": 2,
+      "767": 1
+    },
     "29c45785546ba0d3fda20da8b12f2fc3a8916d97159270c9a9523e414ba9b8d2": {
       "373": 1
     },
     "2be048d8855bafc4f7102aaf4ac735b0c9dca2b9fac64fd931e96886246d9bc9": {
       "1294": 2,
       "402": 1
+    },
+    "2bea5b385780d437832711a11ebd35bee70e5fd2731def4c8afcd09e45d93811": {
+      "601": 1
+    },
+    "2eabb92ec64c856f0a7e2061d8627acf0cec97af0ff1cb3855b20ef425c2fe02": {
+      "1712": 2,
+      "830": 1
     },
     "2ed479498973638d02ac0c7c29f057960cb253a00876cc327af213a268c00c34": {
       "234": 1
@@ -14220,9 +14301,6 @@
       "421": 1,
       "917": 2
     },
-    "38ba3197dba01cb0a959e290659c89dd7bda3996a01600ad0637359e59f0387f": {
-      "290": 1
-    },
     "38f807b18147574081688c9dc4b7d6fbffdaf747caf17f84c3af30b8c31ff92e": {
       "1194": 2,
       "517": 1
@@ -14230,8 +14308,20 @@
     "3a9db6d1506bbb08d10e880348ced7496d8734c5bd2820fdd14c1933a0f0f188": {
       "494": 1
     },
+    "3ab7f0687479163a70409b23aa197b450e3f16a82875224b20b632019ede703d": {
+      "1896": 2,
+      "863": 1
+    },
+    "3b47531c210b676533511ac04489a3d0350ad1a1c6e739e0a2b2b3cc1d0598c7": {
+      "1044": 2,
+      "483": 1
+    },
     "3b6b0276e0b929e343bf9949481859dea891e60001b3644cf67750b8e725be88": {
       "449": 1
+    },
+    "3bbfe135f538c9470e5724868afb9e8cce896fed8ff676067e56c733d9f7f6e6": {
+      "2117": 2,
+      "745": 1
     },
     "3c101ad0052289378116c49a2ea7800bfc5378a8bb06e2d7bc0159e980cd8a15": {
       "537": 1
@@ -14251,6 +14341,9 @@
     },
     "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04": {
       "515": 1
+    },
+    "4004aaf44c8e41fa1604daf60af12076d546f8fb968d2e95aea90cc62427c8c6": {
+      "1352": 2
     },
     "405bb9bfaf3cdc3e042b93beec7e47d51d729543abddce959477c1d6c561168f": {
       "477": 1
@@ -14276,6 +14369,13 @@
     },
     "42b0134b651029c0fcbcd027ef6b9e029f164570cccabb7a663438e1f2061a97": {
       "579": 1
+    },
+    "431867c0789e5c5e831b1572ca328c98d927324659a6075fd7ba267580bf84df": {
+      "1196": 2,
+      "421": 1
+    },
+    "439f0efb036d6ff723e5d9c4093eb87a2a5059975bc54a22b87ad205984eab7b": {
+      "551": 1
     },
     "43b6a63380f72ca73d6920418f900e6efe63f605a4c186a1fba4099839bb1413": {
       "317": 1
@@ -14310,18 +14410,8 @@
     "45713ef5c0a1998605fc0dc92ef625be6fa789f136424614862c1e0cd8c194e1": {
       "363": 1
     },
-    "45e88ac0a031b48cb82b5617ec1d4f8f0a968c0cbaf228e1a3ab0dc9653b115f": {
-      "448": 1,
-      "889": 2
-    },
-    "481bbca56ad3ac943304604276c79d26bc8865bec2288138de95179af7277e78": {
-      "264": 1
-    },
     "4920b4e942d1897b89d422a845344a14e3c2a695837bcdff1c623c510ef60e27": {
       "268": 1
-    },
-    "49657c586fd4da9b2babb7f07d44fb064b857917d98b874bdc0c6f0b44f5528d": {
-      "433": 1
     },
     "4b13b24a5a207069f3a643785a976a2856e4c38581bd8d1591054d5a3a6316e3": {
       "1250": 2,
@@ -14338,6 +14428,9 @@
       "230": 1,
       "797": 2
     },
+    "50c2414efe37db9f9072598680ccc754e390760b5e799dead0debc7acba3262a": {
+      "450": 1
+    },
     "5285510e14dce039977620ee20888fbd52ae1de8d97af56df30f991a4a77b98d": {
       "641": 1
     },
@@ -14347,12 +14440,12 @@
     "545f946d1b86a0690db3eca2e2372befd6abbfa0142ff50ed3ba1465f33768de": {
       "326": 1
     },
-    "54a4b3b2bfa6c0f28ac4fbf73a2d0cdc712e6adbfdb5e8da9cd2871bcf70ea8b": {
-      "327": 1
-    },
     "55f5d3ca9622192de3406287d8d87d8abc07aa4195e5c2b5d00e7938c7aa2b4f": {
       "402": 1,
       "999": 2
+    },
+    "575ca332e9a75a429019eb7fe0306cc64e637aaf8d2538d794a506d71a0df13b": {
+      "581": 1
     },
     "57659577f38a970811a161aa7f7ca21196199ec6bc765af2184fa832203900b4": {
       "412": 1
@@ -14365,9 +14458,6 @@
       "1000": 2,
       "558": 1
     },
-    "58edc36cb6128c7675dc5bf36897438f6cc6808480e5363d0c2971f9e27e5833": {
-      "400": 1
-    },
     "592124d4a1120e0ca6ccba95fc52e727e2ce67fa6b4b2291d08939cb66671257": {
       "350": 1
     },
@@ -14379,10 +14469,6 @@
     },
     "59b410f174fa2e0996aa6364289cbc2c8cd930ab33024c6628f13676722c3ef6": {
       "262": 1
-    },
-    "5abd969b7f602792b9179547d544a33e77328299dfbe10595bbb5ff8019de81a": {
-      "1339": 2,
-      "565": 1
     },
     "5ac6de46e236bc9821bf2849a78847b40adbd2bebe577163d6784c4bc167e3dc": {
       "355": 1
@@ -14397,19 +14483,17 @@
     "5b17262a44d2c0f753023062af192e0ef23aca13af8a55dc9333be06562e69d9": {
       "515": 1
     },
+    "5b8f06c707f2185f2aa82bea311446527e34343f25bc3a3958d13efbd58fc4c5": {
+      "708": 1
+    },
     "5cbd1801b29634aa7596ab4f0cbd04db37a6fc442595cf339caa070e51455503": {
       "425": 1
     },
-    "5d7d6864938aa64313c219ba88d5532d5c28221dd56f2aa7611b3989bfe1115f": {
-      "1229": 2,
-      "534": 1
-    },
-    "5e1a9849a5dbcd80dbd6bbf33bb8fa9de170d5b95f6a5e4abfd369c278bf4464": {
-      "298": 1,
-      "969": 2
-    },
     "5f5e3b50aa8cdc9525afc60bcdadd1e40e6210c3e76995927ebbdbdbd741b081": {
       "302": 1
+    },
+    "5fd0d41ecbe8aaab9f4fd7aca5e9cd18eb0af1d7f9e88ac8ed2a2eba2c589192": {
+      "381": 1
     },
     "601950021e21c680cc334684ea5bd92bb977687aebb3ecd3f0e4b3548e2e1972": {
       "256": 1
@@ -14427,10 +14511,6 @@
     "615920f9610409ac2e24c01d1ec469d7d58f92eaeeb86f7b3a485c14a0334010": {
       "446": 1
     },
-    "61634a857e594f86ccb634bdad0cd638ccae3fe4be9e76c9f6fdd8cc40106218": {
-      "1299": 2,
-      "437": 1
-    },
     "62093eab6d4009cfe474d0c669cf2adb0dfc11c8b73648eb654ac5d02885310a": {
       "1144": 2,
       "368": 1
@@ -14445,9 +14525,8 @@
     "63541b96b692d5ffca30acbfed416876f8fc9688fd59c7ea87903f781bde6f41": {
       "488": 1
     },
-    "6688410ab855918ad55c5e05c15dcb9355685df4d3cddecf6ef715af69668fe5": {
-      "1334": 2,
-      "410": 1
+    "662fa37009fcac03245fa1522ce2033548fd95684d321702f86034b43dd2a672": {
+      "315": 1
     },
     "66cda1357e823bde89e1fde89922975b7519311e1f044bf3c4c167cc0c85f5c2": {
       "496": 1
@@ -14485,13 +14564,6 @@
     "700b50c6736275a25d0f733943e5cdd37a057add3da1f9b7fc2674971a3874a8": {
       "593": 1
     },
-    "702ffafee89e530bebbb408f67e34af6888b9e065525d89f0361a63ca00a860f": {
-      "1202": 2,
-      "478": 1
-    },
-    "70a302f8a456442a95546639d9b0192cb5f7cff0eee57e180156dfb3d13d5572": {
-      "522": 1
-    },
     "70f78f535e30a8033822ab87930984599adc3412650d2c1e7b2dfe13a3059cd0": {
       "1441": 2,
       "619": 1
@@ -14516,10 +14588,6 @@
     },
     "728165b78ee376f3d5de02d903d0c5a52e2ae7cda35d1d739103b98550fd0ca6": {
       "557": 1
-    },
-    "72821b82634d0acf7eda15ffec8c390b5c3bcb70dc126fd92006b85023e95dd7": {
-      "399": 1,
-      "997": 2
     },
     "7296483be44bfd3c37d7085509c38374379611e10e198404e17f542e476ae09d": {
       "350": 1
@@ -14591,6 +14659,9 @@
       "1112": 2,
       "513": 1
     },
+    "7fe94deac7612ea673f0d4511ffe52edb8da8e5f15beef919a6c525f2a47881e": {
+      "664": 1
+    },
     "81746510b930334f3ad8e9abd60362af56608dca9dd5442c485f5a3f872981e3": {
       "434": 1
     },
@@ -14616,18 +14687,20 @@
     "8753b1689f040ff8f47c6665b473625e3710b55d0f1e3ed18c0e47dbe6847902": {
       "515": 1
     },
-    "87a5baefe671715450dab490469a4d684db00487133a5bda7e863c30aca9aa11": {
-      "1152": 2,
-      "435": 1
-    },
     "8825d6cabf8df51256dcd016bcd907f87fe87801bbe9170929550fb36ee39f2c": {
       "633": 1
     },
     "8909c4132e08c803969b130feaad39d4e9f32cb613d58c48f18ee2acaaf6fd5e": {
       "314": 1
     },
+    "89177706c6cff71cf5b86dabc1aec53f53d1b19cd579c63f30fda608d0135ebf": {
+      "733": 1
+    },
     "897437a48a42529f6860671c0095a5e6eb250957794129776bb12c1b715f151e": {
       "366": 1
+    },
+    "8a03c2410937fca538e379366fa177e52a5709539533234d223c7094772333d2": {
+      "471": 1
     },
     "8a879f019cf360c1e168364ccea675ed60f6e8ea83ef898dbc7941f3e507dfd8": {
       "1339": 2,
@@ -14651,8 +14724,8 @@
     "8e4c7ddbeab11bddbd8bbbd8b478405f975ae819f279e3350ba801a20aa54df5": {
       "480": 1
     },
-    "8e8b9b2ac1db67da8bc31c63c343cd51bfd531067977f710394186c2f6acd5c9": {
-      "356": 1
+    "8e91b92f5490f478962ef672f67623bbc63440cdbc8fe6e633b4fc07b3a7086e": {
+      "608": 1
     },
     "9118db8f398fd3e466ef27c7141bbae85953d42277e8eaeba5e4cc45cdc9077d": {
       "453": 1
@@ -14704,10 +14777,6 @@
     "a041470534fc61a26abf6f918b3ce7071c62f4fcc1f699d33ef894216299eb37": {
       "421": 1
     },
-    "a0cf948b835a183d95583a4cee10a8db72d5ea615a7e80cc49e9824f3d5f3df8": {
-      "374": 1,
-      "940": 2
-    },
     "a0e37be7baa24023b283cfb4ffe0a33a376dc66fdc57b05ff51793e296fc179d": {
       "411": 1
     },
@@ -14737,9 +14806,6 @@
     "a674d17225f6953b37a8c34e5833e46ca0d93e5e35394a0f3c32292db3c4c14b": {
       "397": 1
     },
-    "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769": {
-      "508": 1
-    },
     "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": {
       "349": 1
     },
@@ -14752,11 +14818,9 @@
     "a97c040b7a3e784ce03a853958da6c08767a23440167ce82996152238bb33c15": {
       "208": 1
     },
-    "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88": {
-      "225": 1
-    },
-    "ab0666983771ffcd66ee30f53e47d8f12be5c55e20753791f2d3fdb9c467b1c0": {
-      "345": 1
+    "aa3167a30033779a165bc2608e0b0a525711cb58948135f01ce23917d7f0c2f1": {
+      "1654": 2,
+      "595": 1
     },
     "ab223dac269014ee371923057243a82b81039f7151bece6bf2d8f31c40e8d98f": {
       "664": 1
@@ -14771,8 +14835,8 @@
     "ac82870a5adf86d134ddd2913502f9a2a84c68ed62d9964f2ea812a1ef3b55b2": {
       "466": 1
     },
-    "ac98913bb050b9e87c485da1b16b4ac9b5ff7cabfc3cdcea572caa27dadcabd2": {
-      "510": 1
+    "acbee6be754a7ea96f09ad1b83eb472449003da7928d3a011f3a772bc28c79c4": {
+      "825": 1
     },
     "acd7860d6aea70621d3981656e1f8957cb82f276b54f0eb0e8d2a2caa66c5545": {
       "309": 1,
@@ -14792,15 +14856,9 @@
       "1065": 2,
       "315": 1
     },
-    "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962": {
-      "532": 1
-    },
     "af3539ff94d7fb9a73fd354cd07975288d57d97631e0460ea4e56a90b44a4235": {
       "1192": 2,
       "415": 1
-    },
-    "b0325568097dda1ed1a2a87df7891f4e637227ee32f71398e49c85100dd88e81": {
-      "495": 1
     },
     "b0bf65d5661db13d9e33729c36117fa25ec504c50f4058144e45308b05e1d187": {
       "426": 1
@@ -14808,6 +14866,9 @@
     "b0fca017aa334c87dd938ef5c67c29cc583595fc73949881c85db650a4cd82b5": {
       "409": 1,
       "909": 2
+    },
+    "b1792097fc2befbedfc85288a06288c262dbfd7e03d2f49ebea7694aba0674f0": {
+      "472": 1
     },
     "b2ce49aed6621cc781327ab52764295399341c9d5c14b71386e41bbac4e52511": {
       "272": 1
@@ -14818,9 +14879,6 @@
     "b3838e44d7fc70720643b2eec80603d16d95d58e86c6e5b464eee6be9a53b7f5": {
       "394": 1
     },
-    "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256": {
-      "380": 1
-    },
     "b54d5cd270a5224642a52b6c5e4e03a9c197d2e282664feeeadecdb4ad10673f": {
       "1349": 2,
       "686": 1
@@ -14828,16 +14886,16 @@
     "b56b71033ea2ca486c897be611b4b47eb5e0d5e966de340a366f425b8796aed1": {
       "559": 1
     },
+    "b5b8ee85f4ca8c6f3136f7f1993fbe68bd9ea722a14a4ec4a4b16b6973f889b9": {
+      "1209": 2,
+      "663": 1
+    },
     "b645979e041a8cfc51df8ddb1fe5961a24778eabcc69a23898577ce0410dac24": {
       "439": 1
     },
     "b69406f70bb008ea3550627ac263c7f0f7f0002f31b0461f567a7db5a2c8dcf2": {
       "265": 1,
       "802": 2
-    },
-    "b7358a63ccfdc2f294aefadc70b3b5871dda81e3921e8d5a2525ea10a20aa8d9": {
-      "1681": 2,
-      "540": 1
     },
     "b83467e70effbaeb4956d1b392c0b1c727fdd49a1bcd344111bdf8daa3bb82c2": {
       "431": 1
@@ -14864,8 +14922,9 @@
     "bae70ff72870aa386a4c6daf4005334807bb5f3c1eddcbeab5e33811cb34d858": {
       "276": 1
     },
-    "bb5fce825680704905f0e1fda04d93c5b5b95b765a1ef351292ac366439c7275": {
-      "396": 1
+    "bb06509330fed21488823c7c634608dd8cf0c87d447c9979ad89e291508cdad5": {
+      "1815": 2,
+      "379": 1
     },
     "bc1e6790cace62e72ee5ef6d7740934a7eb787159e259dbc5eafb517654a67b5": {
       "474": 1
@@ -14900,9 +14959,8 @@
     "c1f2c4989bbb7608511a3f41ca0e8ac5f56d2190698d2aff3e1c7580ac11b847": {
       "555": 1
     },
-    "c378bf170e06f237c3870d64be5fe01ac5fe311ae3ecdd2d1cc75a17b9686a33": {
-      "372": 1,
-      "860": 2
+    "c4ab6f903e0c8b29526f2c4daea9d2ef0dcbd1d735c42aeb1f7baef53a791c23": {
+      "797": 1
     },
     "c4b8619f897cd8f7db700bedcc7508d7aab52279ec2628a4533d0f79473416b2": {
       "433": 1
@@ -14910,9 +14968,6 @@
     "c4f6e76cdbe015f8e3a79c2f35c9a1710bc3fdd62437211bb4f4c19071a4f84f": {
       "249": 1,
       "899": 2
-    },
-    "c59d626e51d303f48fe2994cd1876b6a93165e88f5ecbfb0fb4a03fdc367c5fb": {
-      "451": 1
     },
     "c6ecbe87d0a846e218dcce8692c6cbe955aed64513db21b13d20b247593f64f3": {
       "573": 1
@@ -14962,9 +15017,6 @@
     "cbd504dcd059e6f7f524658017ea49639e5be0025d32b2ab36e4de5a968ef6a4": {
       "1167": 2,
       "414": 1
-    },
-    "cc23cc66694fb6796eb15b68837ccc8fad5f30f37cfab0be8aafc20b3d17a4f5": {
-      "454": 1
     },
     "ccc07870f44d6a021327765561332f2e083fc11862bccfdb32e9a7949b7856aa": {
       "623": 1
@@ -15023,8 +15075,8 @@
     "d4f8c9e1ad82d02db3d1e2ee61b10f519824f95fe26e01d879b2162bae0ac8fb": {
       "457": 1
     },
-    "d68b7c0849c043a25b2e9f7fe4254417a25ce131453bd8ea7da92bfd0e04c873": {
-      "309": 1
+    "d809bc802d7884e69e10335b42d91039f3ab0b44d042413a9c3efdc69a3d84ce": {
+      "866": 1
     },
     "d8282dd1cc3ebab0c16e9bd8e982cdc83fe6689f8054f056e5d85a31e757f2cf": {
       "521": 1
@@ -15034,6 +15086,9 @@
     },
     "d9b63e62487f572cd937c8e45688c603043e7168d0ede2e6d90e77d6b1cb8864": {
       "383": 1
+    },
+    "da4e298d66b2e916e114039de4c48636acaa07d6990e5cd1c173ef11713bef47": {
+      "486": 1
     },
     "dad1d44687103c97244eebf9f8b245606189934eb697e837dddaedc399365a76": {
       "503": 1
@@ -15051,11 +15106,20 @@
     "dce21d6321527bfe43b7a84381a624d166d527ae7f28038c1d5dd20447ef84b9": {
       "302": 1
     },
+    "dd4542133e478677570e55e08dab75dcc8f4e11abe22596a28315785aac0b4c5": {
+      "544": 1
+    },
     "de3b2ad5b59f678f4a7137c84a4b326e37d97721248af19320ebab0bef2e7b25": {
       "461": 1
     },
+    "deec61d4529d56fa622374972d449066c526700ad93a9393caa0c0e4744c2dc4": {
+      "692": 1
+    },
     "def4f3a15012bc7c44f669d4ae8346d301bd79cc2892bf29b1bf68731e11c074": {
       "462": 1
+    },
+    "df2a9b868377e02bda4761c3050c3d8d87af72f049ccc3cd03089d1a0cc02977": {
+      "689": 1
     },
     "df3b978b5acd62e825940335dc3ccb45c7c366e84483f5ecb59e6699c55645c8": {
       "1075": 2,
@@ -15100,9 +15164,6 @@
     "e71725596087f966aa79ecc1f4a38c3f73bca9e3217446a2dd6ed411dae661aa": {
       "446": 1
     },
-    "e7b69efeda83337b68abd4defda38535a5eaf0559d90fca7333ac50fe17beccc": {
-      "378": 1
-    },
     "e7e4c351da75f612c77f608ee9c975bb56cd2cb4dcd8787034f85c5a59e9f58e": {
       "293": 1
     },
@@ -15127,6 +15188,13 @@
     },
     "ee33d5045df10ec9381d22ea70bd137dd161d790a7147dfa2435322c08ac06da": {
       "507": 1
+    },
+    "ee43009c431def7db248c44429e27054d74afb53750f1c07d41faa31b767020f": {
+      "577": 1
+    },
+    "ef293b0df4af9edd9b2f197edca0e591319db2f7e8a21d52dee09c57be9b8cbd": {
+      "1636": 2,
+      "523": 1
     },
     "ef5052ac44c64ceed08b4e8ff5c66cb25a5d3ec8ba67344908f38e123b89bb77": {
       "536": 1
@@ -15157,9 +15225,6 @@
     "f1133dca47e37a2e9038017bc1ceb10d5688eabd140dcd86f1eca76eff9ad8dc": {
       "228": 1
     },
-    "f1312f9345822596bd068bf33b24dc61aea549b71adc44757f901a0f3698c4e5": {
-      "279": 1
-    },
     "f1630c31ff94f5a1abcaf2351003c53a30f7f63cbba806bb4178762f256ee8dd": {
       "454": 1,
       "981": 2
@@ -15185,8 +15250,15 @@
     "f538134a5e4474efa2cfd81afb806a5561c154707fc19efb2cd27c4cb6984fab": {
       "452": 1
     },
+    "f560c6f3d75b31f24abc78b2a24cc08bc092f32ba0b7b791155be8cf7e8b33c9": {
+      "1635": 2,
+      "780": 1
+    },
     "f5c83f9963697b27903fa6bfc82589df839b1b9fefcb8a32730f93faab09457b": {
       "574": 1
+    },
+    "f6670d26fc2a04e49314b81aa5eef03014cf18da6b91309ce4fb34db1d820ad3": {
+      "526": 1
     },
     "f6b3f7a8ac38cf77a08cd278cccf58468d553f4b7df03caa5ff80e23cce74a29": {
       "1350": 2,
@@ -15195,15 +15267,16 @@
     "f7137250046f6e3153cd5e22e6226b86aef4893bb6c355284f666d6f8cbe8cfb": {
       "301": 1
     },
-    "f7545f910f58329594b99da14af142facfdaac85fcc8568b3cb49eec856c99db": {
-      "399": 1
-    },
     "f7b76b110c4d7ff1c4eced07dea40116ec7f84e96053519282c2ef7a23a47d5b": {
       "218": 1,
       "773": 2
     },
     "f81d5517aa35bf805fe08216a89f9f8112c775298ffafbcfa2bfbe4d2930a377": {
       "439": 1
+    },
+    "f8444be839ae7ac5d7372ecb5ea0a5cab34b074366d6f1dd5bee1b372e06f504": {
+      "2084": 2,
+      "866": 1
     },
     "f84467dcc61489a45c68c28d60b9769e3a243f33eec9a37a37e362bd698af93a": {
       "743": 1
@@ -15223,9 +15296,15 @@
     "fbd62b21947fe93d0219407071758e24eadcb9be100c5ec8ad7008fa9ff5fdb5": {
       "521": 1
     },
+    "fc75185fcad5e8c9633d06ed8d676f0f20f10c4427bcebe07051e0bb9e7ae9f2": {
+      "555": 1
+    },
     "fd05e9f2248c3f1b9d136e3797c43321ac63aa648070bc59ba03308c295fec57": {
       "1156": 2,
       "452": 1
+    },
+    "fd460f41c2cbe1ee34e0f9ed1d6492f40fbe869989032622a6431b5457547711": {
+      "159": 1
     },
     "fe26b348469f69f68f628fe82d888966c26752e746541670afab0fa87f42bd89": {
       "434": 1
@@ -15239,11 +15318,190 @@
     },
     "feaa3c25faaed18195277ccb313479b354fb053cbb17c99bd793331d01aed490": {
       "394": 1
-    },
-    "ffa1831aec99e92a5b2ea778c58b687c36773244b7245e76b5b2cc71a1cec873": {
-      "219": 1
     }
   },
   "pack": "LoreForever_Voice_Female_MoreQuests3",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_quest_1380-542b3d2cbd567c45da03/1-0000.mp3",
+      "sha256": "61634a857e594f86ccb634bdad0cd638ccae3fe4be9e76c9f6fdd8cc40106218"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1420-f0cdbdb2777c701a2d3f/1-0000.mp3",
+      "sha256": "54a4b3b2bfa6c0f28ac4fbf73a2d0cdc712e6adbfdb5e8da9cd2871bcf70ea8b"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1466-9c9371cc37d34c783039/1-0000.mp3",
+      "sha256": "23d44f1505fe7b60fd304f644203d4e51f4f906311c1a957c379eeaefdaeaff6"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1467-9c7ce8d3a755942fb9c4/1-0000.mp3",
+      "sha256": "cc23cc66694fb6796eb15b68837ccc8fad5f30f37cfab0be8aafc20b3d17a4f5"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1488-0b7f3d9676d0e128ae9f/1-0000.mp3",
+      "sha256": "0ca2a254ed314aa03279cbc85838a40dc10fd869f72201a8098bc8143f77b0a8"
+    },
+    {
+      "file": "Audio/Transport/full_quest_3821-3edd41ccf4e953d3f0c7/1-0000.mp3",
+      "sha256": "12b3c1efbc3556499a6e6ad516b5490f430b92adffde49a32252a2f769a073ea"
+    },
+    {
+      "file": "Audio/Transport/full_quest_4062-7c97a6404f9939bf720b/1-0000.mp3",
+      "sha256": "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88"
+    },
+    {
+      "file": "Audio/Transport/full_quest_523-17d29cf31b2f61cdd355/1-0000.mp3",
+      "sha256": "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769"
+    },
+    {
+      "file": "Audio/Transport/full_quest_537-023f6110d7881baa4472/1-0000.mp3",
+      "sha256": "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962"
+    },
+    {
+      "file": "Audio/Transport/full_quest_551-3872f3e58d2fa42d2b18/1-0000.mp3",
+      "sha256": "194abe1472962b750c2c8e48251f9a474da2a331a1abb0f0cf7c8469c22a8390"
+    },
+    {
+      "file": "Audio/Transport/full_quest_640-da24c0e2a72bb11ddb4b/1-0000.mp3",
+      "sha256": "1102e6dc20149e39dc694324692448cfaa88c76222d700ec8adbd58db1c3d0e1"
+    },
+    {
+      "file": "Audio/Transport/full_quest_641-f89f58277d4d9f2b3fb0/1-0000.mp3",
+      "sha256": "8e8b9b2ac1db67da8bc31c63c343cd51bfd531067977f710394186c2f6acd5c9"
+    },
+    {
+      "file": "Audio/Transport/full_quest_643-47be31625378324d543a/1-0000.mp3",
+      "sha256": "49657c586fd4da9b2babb7f07d44fb064b857917d98b874bdc0c6f0b44f5528d"
+    },
+    {
+      "file": "Audio/Transport/full_quest_644-52371b71377c757ac60e/1-0000.mp3",
+      "sha256": "58edc36cb6128c7675dc5bf36897438f6cc6808480e5363d0c2971f9e27e5833"
+    },
+    {
+      "file": "Audio/Transport/full_quest_645-578bd7b4bbec0e454c15/1-0000.mp3",
+      "sha256": "f1312f9345822596bd068bf33b24dc61aea549b71adc44757f901a0f3698c4e5"
+    },
+    {
+      "file": "Audio/Transport/full_quest_652-42228222efcc02b193ae/1-0000.mp3",
+      "sha256": "f7545f910f58329594b99da14af142facfdaac85fcc8568b3cb49eec856c99db"
+    },
+    {
+      "file": "Audio/Transport/full_quest_653-a7f68106049af8c7a00d/1-0000.mp3",
+      "sha256": "5abd969b7f602792b9179547d544a33e77328299dfbe10595bbb5ff8019de81a"
+    },
+    {
+      "file": "Audio/Transport/full_quest_665-94951f6e97003b5821af/1-0000.mp3",
+      "sha256": "70a302f8a456442a95546639d9b0192cb5f7cff0eee57e180156dfb3d13d5572"
+    },
+    {
+      "file": "Audio/Transport/full_quest_668-98185f73a463fced5957/1-0000.mp3",
+      "sha256": "b0325568097dda1ed1a2a87df7891f4e637227ee32f71398e49c85100dd88e81"
+    },
+    {
+      "file": "Audio/Transport/full_quest_669-e351c0ea7b0b0ae33bdd/1-0000.mp3",
+      "sha256": "d68b7c0849c043a25b2e9f7fe4254417a25ce131453bd8ea7da92bfd0e04c873"
+    },
+    {
+      "file": "Audio/Transport/full_quest_673-454265939cb96db2abe6/1-0000.mp3",
+      "sha256": "c59d626e51d303f48fe2994cd1876b6a93165e88f5ecbfb0fb4a03fdc367c5fb"
+    },
+    {
+      "file": "Audio/Transport/full_quest_680-214d8884e23b1e879a83/1-0000.mp3",
+      "sha256": "5e1a9849a5dbcd80dbd6bbf33bb8fa9de170d5b95f6a5e4abfd369c278bf4464"
+    },
+    {
+      "file": "Audio/Transport/full_quest_688-59f2aca566fd76ff5438/1-0000.mp3",
+      "sha256": "72821b82634d0acf7eda15ffec8c390b5c3bcb70dc126fd92006b85023e95dd7"
+    },
+    {
+      "file": "Audio/Transport/full_quest_692-fd2677322ea83b90d346/1-0000.mp3",
+      "sha256": "a0cf948b835a183d95583a4cee10a8db72d5ea615a7e80cc49e9824f3d5f3df8"
+    },
+    {
+      "file": "Audio/Transport/full_quest_703-09bbb806c366674224a1/1-0000.mp3",
+      "sha256": "481bbca56ad3ac943304604276c79d26bc8865bec2288138de95179af7277e78"
+    },
+    {
+      "file": "Audio/Transport/full_quest_708-26818ab1da4f03175532/1-0000.mp3",
+      "sha256": "ffa1831aec99e92a5b2ea778c58b687c36773244b7245e76b5b2cc71a1cec873"
+    },
+    {
+      "file": "Audio/Transport/full_quest_716-5c823ae11f8da891d18b/1-0000.mp3",
+      "sha256": "87a5baefe671715450dab490469a4d684db00487133a5bda7e863c30aca9aa11"
+    },
+    {
+      "file": "Audio/Transport/full_quest_726-05af57eb9d8cdee53c3e/1-0000.mp3",
+      "sha256": "38ba3197dba01cb0a959e290659c89dd7bda3996a01600ad0637359e59f0387f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_727-d1a4c791900daba4efa8/1-0000.mp3",
+      "sha256": "0408743241631ea109262b8453397f63fdc93f4fc5567cd7969d2b03ccc2fd87"
+    },
+    {
+      "file": "Audio/Transport/full_quest_728-c3084ccc318b6385bec7/1-0000.mp3",
+      "sha256": "702ffafee89e530bebbb408f67e34af6888b9e065525d89f0361a63ca00a860f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_732-80a08d47c55b0594533d/1-0000.mp3",
+      "sha256": "5d7d6864938aa64313c219ba88d5532d5c28221dd56f2aa7611b3989bfe1115f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_735-60c01ea0e3e25e845a98/1-0000.mp3",
+      "sha256": "6688410ab855918ad55c5e05c15dcb9355685df4d3cddecf6ef715af69668fe5"
+    },
+    {
+      "file": "Audio/Transport/full_quest_762-b2fa8366ac6b58786069/1-0000.mp3",
+      "sha256": "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256"
+    },
+    {
+      "file": "Audio/Transport/full_quest_778-7d041ceec67e756fc688/1-0000.mp3",
+      "sha256": "09c5652619d407adb0cb40a20a49c24753cfe41e3c6b4f1c5f6efca481dc44a4"
+    },
+    {
+      "file": "Audio/Transport/full_quest_782-60265f923d0508ee0db1/1-0000.mp3",
+      "sha256": "b7358a63ccfdc2f294aefadc70b3b5871dda81e3921e8d5a2525ea10a20aa8d9"
+    },
+    {
+      "file": "Audio/Transport/full_quest_793-f58ea45d7b3b357c749e/1-0000.mp3",
+      "sha256": "258d55a72565006a121bfb93ba97f9dfa35d4a543ce0122320adf45dc4dc3ecc"
+    },
+    {
+      "file": "Audio/Transport/full_quest_656-aeb62fd2ebdcfe5fb8b0/1-0000.mp3",
+      "sha256": "45e88ac0a031b48cb82b5617ec1d4f8f0a968c0cbaf228e1a3ab0dc9653b115f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_664-3453dfeafc1ed6094030/1-0000.mp3",
+      "sha256": "e7b69efeda83337b68abd4defda38535a5eaf0559d90fca7333ac50fe17beccc"
+    },
+    {
+      "file": "Audio/Transport/full_quest_670-8dd8c6ccc31015a2ce9a/1-0000.mp3",
+      "sha256": "ab0666983771ffcd66ee30f53e47d8f12be5c55e20753791f2d3fdb9c467b1c0"
+    },
+    {
+      "file": "Audio/Transport/full_quest_679-a8b6afb6839e7f39703b/1-0000.mp3",
+      "sha256": "bb5fce825680704905f0e1fda04d93c5b5b95b765a1ef351292ac366439c7275"
+    },
+    {
+      "file": "Audio/Transport/full_quest_687-0603e58227e33be05859/1-0000.mp3",
+      "sha256": "188df59f67accf395dcc09a7b91d240099c162772766021f08f76a8a0fbd808f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_712-b4f977212a27f748a4cd/1-0000.mp3",
+      "sha256": "1a93520187fa3260a1ffc6c8b2a91fd661307efd96d1de5ae825b841d526ca37"
+    },
+    {
+      "file": "Audio/Transport/full_quest_723-66e5eb976077fabe64ac/1-0000.mp3",
+      "sha256": "ac98913bb050b9e87c485da1b16b4ac9b5ff7cabfc3cdcea572caa27dadcabd2"
+    },
+    {
+      "file": "Audio/Transport/full_quest_724-d9650c4f4be8bb3165c8/1-0000.mp3",
+      "sha256": "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497"
+    },
+    {
+      "file": "Audio/Transport/full_quest_733-7175580e55b957591956/1-0000.mp3",
+      "sha256": "c378bf170e06f237c3870d64be5fe01ac5fe311ae3ecdd2d1cc75a17b9686a33"
+    }
+  ],
   "version": 1
 }

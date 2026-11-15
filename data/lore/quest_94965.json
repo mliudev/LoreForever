@@ -1,0 +1,82 @@
+{
+ "key": "quest:94965",
+ "type": "quest",
+ "name": "Bloodmaster's Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94965
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An ogre asks you to prove yourself to his people by facing Snufflesnout in the Bloodmaster's Ring. Her favorite treat will draw her into the fight, though Chub'chob may not take kindly to the result.",
+ "sections": [
+  {
+   "title": "A Test for You",
+   "body": "The ogre sets out a treat before you enter the Bloodmaster's Ring. Snufflesnout is fond of it, and the sight of it rouses her. Your trial is to face Chub'chob's companion while proving yourself to the ogres.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Fight",
+   "body": "Chub'chob's companion is Snufflesnout, and defeating her leaves a mess between you and the ogres. Take care around them now.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Snufflesnout?",
+   "aliases": [
+    "snufflesnout",
+    "snuffle snout",
+    "chubchob's pet"
+   ],
+   "answer": "Snufflesnout is Chub'chob's companion and is fond of a particular treat."
+  },
+  {
+   "q": "Why is there a treat?",
+   "aliases": [
+    "snufflesnout treat",
+    "what's the treat for",
+    "feed snufflesnout"
+   ],
+   "answer": "The ogre uses Snufflesnout's favorite treat to draw her into the Bloodmaster's Ring."
+  },
+  {
+   "q": "What is the Bloodmaster's Ring?",
+   "aliases": [
+    "bloodmaster ring",
+    "the ring",
+    "where do i fight snufflesnout"
+   ],
+   "answer": "It is the ring where you face Snufflesnout to prove yourself to the ogres."
+  },
+  {
+   "q": "Why am I fighting Snufflesnout?",
+   "aliases": [
+    "snufflesnout fight",
+    "why fight her",
+    "prove myself to ogres"
+   ],
+   "answer": "The ogres consider proving yourself to them important, and facing Snufflesnout is your trial."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodmaster ring",
+  "bloodmaster's ring",
+  "chub'chob",
+  "ogres",
+  "snufflesnout",
+  "treat"
+ ],
+ "related": [
+  "quest:94733",
+  "quest:94668"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodmaster's Ring"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "quest:79678",
+ "type": "quest",
+ "name": "Taste Testing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79678
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Skonk invites you to taste a new dish made over a hot fire. The tasting is his way of sharing with a new friend who has helped him.",
+ "sections": [
+  {
+   "title": "A New Dish",
+   "body": "Skonk has a new dish ready over the fire, and he wants to share it with you. After the favors you have done for him, he thinks you should get to try it too. The recipe is ready for tasting.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Skonk?",
+   "aliases": [
+    "skonk",
+    "who's skonk"
+   ],
+   "answer": "Skonk is making a new dish and invites you to taste it."
+  },
+  {
+   "q": "What does Skonk want me to do?",
+   "aliases": [
+    "taste test",
+    "what does skonk want"
+   ],
+   "answer": "Skonk wants you to taste the recipe with him."
+  },
+  {
+   "q": "Why is Skonk sharing the dish?",
+   "aliases": [
+    "why food",
+    "why share"
+   ],
+   "answer": "Skonk says you have done him many favors, so he wants you to try his new dish."
+  },
+  {
+   "q": "What does Skonk think of the recipe?",
+   "aliases": [
+    "is it good",
+    "recipe taste"
+   ],
+   "answer": "After the tasting, Skonk says the recipe is delicious."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dish",
+  "fire",
+  "food",
+  "recipe",
+  "skonk",
+  "taste testing",
+  "tasting"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Taste Testing"
+ ]
+}

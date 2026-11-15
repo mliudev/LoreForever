@@ -240,7 +240,7 @@
       "requires": [],
       "id": 1767855,
       "slug": "lore-forever-item-stories-and-quest-stories-40",
-      "live": false
+      "live": false, "paused": true
     },
     {
       "key": "female-more-places",
@@ -305,7 +305,7 @@
       "requires": ["female-narrator"],
       "id": 1767942,
       "slug": "lore-forever-female-narrator-item-and-quest",
-      "live": false
+      "live": false, "paused": true
     },
     {
       "key": "original-narrator",

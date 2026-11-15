@@ -1,0 +1,89 @@
+{
+ "key": "quest:79358",
+ "type": "quest",
+ "name": "Storm, Earth, and Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79358
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Veyric Thunderhame asks you to gather twisted elemental totems in Arathi Highlands. He hopes to learn how other peoples practice shamanism and find a way to counter the quilboar's elemental working.",
+ "sections": [
+  {
+   "title": "A Counter-Ritual",
+   "body": "Veyric Thunderhame in Arathi Highlands needs your help after the quilboar flooded Thousand Needles. He says their use of the elements has stirred outrage, and a counter-ritual will require better knowledge of these twisted forces. A book describes how Azeroth's many peoples practice shamanism. Veyric asks you to bring him twisted fire, earth, air, and water totems so he can learn from them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the totems?",
+   "aliases": [
+    "who wants the totems",
+    "veyric's request"
+   ],
+   "answer": "Veyric Thunderhame in Arathi Highlands asks you to collect twisted fire, earth, air, and water totems."
+  },
+  {
+   "q": "Why does Veyric need the totems?",
+   "aliases": [
+    "why totems",
+    "what are they for"
+   ],
+   "answer": "Veyric wants to understand the twisted elements as he works toward a counter-ritual against the quilboar's elemental working."
+  },
+  {
+   "q": "What happened in Thousand Needles?",
+   "aliases": [
+    "thousand needles flood",
+    "what did the quilboar do"
+   ],
+   "answer": "The quilboar flooded Thousand Needles, and Veyric says their use of the elements has stirred outrage."
+  },
+  {
+   "q": "What does the book describe?",
+   "aliases": [
+    "shamanism book",
+    "what's in the book"
+   ],
+   "answer": "The book describes the many peoples of Azeroth and how they practice shamanism."
+  },
+  {
+   "q": "Which totems does Veyric ask for?",
+   "aliases": [
+    "totem types",
+    "fire earth air water"
+   ],
+   "answer": "He asks for twisted fire, earth, air, and water totems."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a shaman, you are asked to help Veyric learn how peoples across Azeroth practice shamanism and understand the twisted elements."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "counter-ritual",
+  "quilboar",
+  "shamanism",
+  "storm earth and fire",
+  "thousand needles",
+  "twisted totems",
+  "veyric thunderhame"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "zone:arathi",
+  "topic:quilboar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Storm, Earth, and Fire"
+ ]
+}

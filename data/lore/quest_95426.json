@@ -1,0 +1,67 @@
+{
+ "key": "quest:95426",
+ "type": "quest",
+ "name": "Rog'mar Supplies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95426
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A local contact asks you to hinder Rog'mar by taking supply shipments from the training grounds north of camp. The delay could leave Horde forces less ready for battle.",
+ "sections": [
+  {
+   "title": "A Supply Shortage",
+   "body": "A contact near Rog'mar sees a chance to slow the orcs' growth. You are asked to take their supply shipments from the training grounds north of Rog'mar. Supply deliveries here are difficult, and the theft is meant to delay the Horde's preparations for battle.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I being asked to do?",
+   "aliases": [
+    "rog'mar supplies",
+    "steal shipments",
+    "supply theft"
+   ],
+   "answer": "You are asked to take Horde supply shipments from the training camps north of Rog'mar."
+  },
+  {
+   "q": "Why take the supplies?",
+   "aliases": [
+    "why steal supplies",
+    "slow rog'mar",
+    "horde supplies"
+   ],
+   "answer": "The theft is intended to delay Rog'mar's growth and keep Horde forces from being as ready for battle."
+  },
+  {
+   "q": "Where are the shipments?",
+   "aliases": [
+    "where are supplies",
+    "training camps",
+    "north of rog'mar"
+   ],
+   "answer": "The Horde supply shipments are at the training camps north of Rog'mar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "horde",
+  "rog'mar",
+  "shipment",
+  "supplies",
+  "supply delivery",
+  "training camps"
+ ],
+ "related": [
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rog'mar Supplies"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "quest:97378",
+ "type": "quest",
+ "name": "Mirrorscale",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97378
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Melor Stonehoof offers you a hunt in Feralas: the wind serpent Mirrorscale has been ambushing travelers along a coastal road. He asks you to bring her wing back to Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Hunt in Feralas",
+   "body": "Melor Stonehoof, impressed by your bravery, sends you after Mirrorscale. The wind serpent attacks travelers on a road along the coast of Feralas and leaves their bodies there. Melor says she hunts without need and no longer shares the Earthmother's blessing. Her lair lies at the foot of a waterfall by the coast; he asks you to bring her wing to him in Thunder Bluff.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mirrorscale?",
+   "aliases": [
+    "mirrorscale",
+    "wind serpent mirrorscale"
+   ],
+   "answer": "Mirrorscale is a wind serpent that makes her lair at the foot of a waterfall along the coast of Feralas."
+  },
+  {
+   "q": "Why is Melor sending me after her?",
+   "aliases": [
+    "why hunt mirrorscale",
+    "melor hunt"
+   ],
+   "answer": "Mirrorscale has been ambushing travelers along a road on the coast of Feralas, and Melor says she hunts without need."
+  },
+  {
+   "q": "Where can I find Mirrorscale?",
+   "aliases": [
+    "mirrorscale location",
+    "where is she"
+   ],
+   "answer": "Mirrorscale's lair is at the bottom of a waterfall along the coast of Feralas."
+  },
+  {
+   "q": "What does Melor want brought back?",
+   "aliases": [
+    "mirrorscale wing",
+    "what do i bring"
+   ],
+   "answer": "Melor asks you to bring him Mirrorscale's wing in Thunder Bluff."
+  },
+  {
+   "q": "What does Melor say about the Earthmother?",
+   "aliases": [
+    "earthmother blessing",
+    "why no blessing"
+   ],
+   "answer": "Melor says Mirrorscale no longer shares the Earthmother's blessing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, Melor calls you dutiful and brave before offering you the hunt for Mirrorscale."
+  }
+ ],
+ "keywords": [
+  "earthmother",
+  "feralas",
+  "melor stonehoof",
+  "mirrorscale",
+  "thunder bluff",
+  "wind serpent",
+  "wing"
+ ],
+ "related": [
+  "zone:feralas",
+  "zone:thunderbluff",
+  "npc:melor-stonehoof",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mirrorscale"
+ ]
+}

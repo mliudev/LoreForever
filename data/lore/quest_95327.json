@@ -1,0 +1,75 @@
+{
+ "key": "quest:95327",
+ "type": "quest",
+ "name": "All's Well That Ends Well",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95327
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Friz Frazzlespark says the Venture Co. has paid for its part in the deal, and she has received her loot. You return to Powderfuse Port as another shipment approaches.",
+ "sections": [
+  {
+   "title": "Another Shipment",
+   "body": "A new shipment is on its way to Powderfuse Port, and Friz Frazzlespark is waiting there. You return to her in the Riverglades after the Venture Co. has suffered its comeuppance and Friz has received her loot. She calls the transaction smooth. Now Southsea Pirates are due to bring in the next shipment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Friz Frazzlespark?",
+   "aliases": [
+    "who's Friz",
+    "Friz Frazzlespark"
+   ],
+   "answer": "Friz Frazzlespark is waiting for you at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "What happened to the Venture Co.?",
+   "aliases": [
+    "Venture Co deal",
+    "what about Venture Co"
+   ],
+   "answer": "Friz says the Venture Co. got its comeuppance."
+  },
+  {
+   "q": "Did Friz get her loot?",
+   "aliases": [
+    "Friz loot",
+    "did she get it"
+   ],
+   "answer": "Yes. Friz says she has received her loot."
+  },
+  {
+   "q": "What is coming next?",
+   "aliases": [
+    "next shipment",
+    "Southsea Pirates"
+   ],
+   "answer": "Friz expects another shipment from the Southsea Pirates."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "deal",
+  "friz frazzlespark",
+  "powderfuse port",
+  "riverglades",
+  "shipment",
+  "southsea pirates",
+  "venture co."
+ ],
+ "related": [
+  "quest:764",
+  "zone:riverglades",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: All's Well That Ends Well"
+ ]
+}

@@ -2470,7 +2470,7 @@ P.transport["quest:1739"] = {
   fullHash = "148466",
   text = "The Binding. In Stormwind, warlocks seek to bind a succubus to their will. Beneath The Slaughtered Lamb, an initiate uses an enchanted Heartswood core to summon the demon and defeat it in combat. Beneath The Slaughtered Lamb in Stormwind's Mage Quarter, a crypt shelters the city's warlocks. They practice forbidden arts there, away from the city watch and the Cathedral of Light. Stone summoning circles channel the Nether's power and let initiates reach across the veil between worlds. A warlock needs a prepared Heartswood Core to summon a succubus. The ritual opens a breach at the summoning circle, but the demon can corrupt and overwhelm even a fortified mind. To master it, the warlock must defeat it in single combat. Its physical form returns to the Twisting Nether, while its true tether is secured.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1739-09fa6012d66633d257ff/1-0000.mp3", duration = 49.2669388, start = 0},
+    {file = "Audio/Transport/full_quest_1739-fc98113ae8fc98815474/1-0000.mp3", duration = 65.9069388, start = 0},
   },
 }
 P.transport["quest:174"] = {
@@ -2774,7 +2774,7 @@ P.transport["quest:1842"] = {
   fullHash = "cc54cb",
   text = "Satyr Hooves. In Sen'jin Village, Ula'elek sends warriors north to Ashenvale for Satyr Hooves. He needs their strange power to forge brutal gauntlets. Ula'elek sends you into Ashenvale's ancient woods to gather what his craft requires. Demonic corruption still clings to the satyr covens there. For armor meant to rival Kalimdor's fiercest forces, he needs more than iron and leather. In northeastern Ashenvale, satyrs feed on the forest's lingering purity and twist it into foul power. Those that take in the most grow swollen hooves without the usual cloven split. Ula'elek plans to draw out that concentrated magic and weave it into his gauntlets.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1842-286d91be2cf3c14cbdcd/1-0000.mp3", duration = 40.1240816, start = 0},
+    {file = "Audio/Transport/full_quest_1842-7e47e6d8c7873d889e64/1-0000.mp3", duration = 49.3714286, start = 0},
   },
 }
 P.transport["quest:1843"] = {
@@ -2782,7 +2782,7 @@ P.transport["quest:1843"] = {
   fullHash = "c944ac",
   text = "Brutal Gauntlets. In Durotar, Ula'elek has finished Brutal Gauntlets for a seasoned Horde warrior. Rare materials from distant lands went into the work, meant to honor both maker and bearer. In Durotar, Ula'elek brings his lineage and skill to armor for a seasoned frontline warrior. He shapes brutal gauntlets from hardened trophies taken from dangerous foes. The finished armor can withstand fierce blows and strengthen the wearer's attacks. Among orcs and trolls, fine arms and armor carry the forge's prestige and the maker's spirit into battle. When Ula'elek presents the finished gauntlets, he entrusts a warrior with his ancestors' legacy. He expects a champion who wears them to answer that craft with courage, martial discipline, and strength.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1843-62d774729d003dc8be79/1-0000.mp3", duration = 44.6955102, start = 0},
+    {file = "Audio/Transport/full_quest_1843-b0c360bee21b16fd2532/1-0000.mp3", duration = 70.2955102, start = 0},
   },
 }
 P.transport["quest:1844"] = {
@@ -3726,7 +3726,7 @@ P.transport["quest:2985"] = {
   fullHash = "bcec1e",
   text = "Call of Water. Swart sends an initiate from Razor Hill toward Islen Waterseer on the Barrens coast. Earth and fire have tested the shaman; water asks for another kind of understanding. Swart, the shaman trainer in Razor Hill, guides initiates through the elements. Earth teaches endurance, and fire tests their command. Once an initiate can wield flame without being consumed, Swart judges them ready to seek the teachings of water. Islen Waterseer lives on the Barrens coast beyond Ratchet. Travel south along the Southfury River into the Barrens, then east to the shore near a massive shark's carcass. Islen dwells where the waves meet the land, apart from the trainers in Durotar's towns. She guides the Horde in communion with water.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2985-571e8e1a094af11af157/1-0000.mp3", duration = 44.7477551, start = 0},
+    {file = "Audio/Transport/full_quest_2985-25125b257ff5fd4748fd/1-0000.mp3", duration = 55.4318367, start = 0},
   },
 }
 P.transport["quest:299"] = {
@@ -5958,7 +5958,7 @@ P.transport["quest:683"] = {
   fullHash = "ec0716",
   text = "Sara Balloo's Plea. In Ironforge, Sara Balloo grieves for Sully and asks you to carry her plea to King Magni Bronzebeard. Sara has received Sully’s final letter, recovered from the waters of the Thandol Span. She wants the king to remember his sacrifice, so she writes him a plea. Grief keeps her from appearing before the throne herself. She entrusts the sealed letter to you, a champion of the Alliance, to carry to King Magni Bronzebeard.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_683-67a4620704a9deb08043/1-0000.mp3", duration = 27.7681633, start = 0},
+    {file = "Audio/Transport/full_quest_683-aad6f76be3b6a2c72197/1-0000.mp3", duration = 34.1420408, start = 0},
   },
 }
 P.transport["quest:684"] = {
@@ -7862,7 +7862,7 @@ P.transport["quest:94"] = {
   fullHash = "17e7ca",
   text = "A Watchful Eye. At the Tower of Azora, Theocritus watches Morganth from afar. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar. From his tower in eastern Elwynn Forest, Theocritus watches the hills. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Fearing Morganth's dark magic may cross the border, Theocritus made the Eye of Azora to watch the rogue wizard from afar. A distant view cannot show Theocritus what Morganth plans. So he gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades.\n\nSet the glyph into the worn hollow at its base. An arcane link then reaches back to Azora, letting Theocritus look into his rival's mind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94-d8ac7a39e9ffc6f8d723/1-0000.mp3", duration = 52.0881633, start = 0},
+    {file = "Audio/Transport/full_quest_94-fdcccc7748a4919ed786/1-0000.mp3", duration = 73.6130612, start = 0},
   },
 }
 P.transport["quest:94003"] = {

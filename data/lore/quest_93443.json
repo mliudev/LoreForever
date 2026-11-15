@@ -1,0 +1,73 @@
+{
+ "key": "quest:93443",
+ "type": "quest",
+ "name": "Lost Shipping Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93443
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Friz Frazzlespark\u2019s Lost Shipping Crate bears a warning against opening it without supervision. Its label directs you to return it to Powderfuse Port in the Riverglades.",
+ "sections": [
+  {
+   "title": "The Crate\u2019s Label",
+   "body": "A handwritten label on the Lost Shipping Crate names Friz Frazzlespark and Powderfuse Port. It warns against tampering or opening the crate without supervision, then asks that it be returned to Friz at the port in the Riverglades.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns the Lost Shipping Crate?",
+   "aliases": [
+    "crate owner",
+    "who does it belong to"
+   ],
+   "answer": "The label names Friz Frazzlespark as the crate\u2019s owner."
+  },
+  {
+   "q": "Where should I take the crate?",
+   "aliases": [
+    "where to return crate",
+    "crate delivery"
+   ],
+   "answer": "The label directs you to return the Lost Shipping Crate to Friz Frazzlespark at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "What does the label say?",
+   "aliases": [
+    "crate warning",
+    "what's on the label"
+   ],
+   "answer": "The handwritten label warns against tampering with or opening the crate without supervision, and says to return it to Friz Frazzlespark."
+  },
+  {
+   "q": "What is shown on the crate\u2019s map?",
+   "aliases": [
+    "crate map",
+    "what's on the map"
+   ],
+   "answer": "The label\u2019s map marks a southeastern shoreline north of a poorly drawn temple surrounded by water and winged creatures."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate label",
+  "crate map",
+  "friz frazzlespark",
+  "lost shipping crate",
+  "powderfuse port",
+  "riverglades"
+ ],
+ "related": [
+  "zone:riverglades",
+  "quest:94930"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lost Shipping Crate"
+ ]
+}

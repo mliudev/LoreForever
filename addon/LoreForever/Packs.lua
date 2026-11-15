@@ -144,10 +144,11 @@ local function describe(rec)
   rec.editionPeer = meta(n, "X-LoreForever-EditionPeer")
   rec.editionAPI = tonumber(meta(n, "X-LoreForever-EditionAPI") or "")
   local prefix = (rec.kind == "lang" or rec.kind == "lang-overlay") and PREFIX[rec.kind]
-  -- Before its .toc can be read: a language pack's locale ends its name, and so does a voice pack's in another
-  -- language (LoreForever_Voice_Female_deDE, see Voice.KeyOf).
+  -- Before its .toc can be read: a language pack's locale follows its prefix (LoreForever_Lang_ruRU, and a second
+  -- pack of that language, LoreForever_Lang_ruRU_LF), and a voice pack's in another language ends its name
+  -- (LoreForever_Voice_Female_deDE, see Voice.KeyOf).
   rec.locale = meta(n, "X-LoreForever-Locale") or rec.locale
-    or (prefix and n:sub(1, #prefix) == prefix and n:sub(#prefix + 1))
+    or (prefix and n:sub(1, #prefix) == prefix and n:sub(#prefix + 1):match("^%l%l%u%u"))
     or (rec.kind == "voice" and n:match("_(%l%l%u%u)$")) or nil
   rec.format = tonumber(meta(n, "X-LoreForever-Format") or "") or rec.format
   rec.dataVersion = meta(n, "X-LoreForever-DataVersion") or rec.dataVersion

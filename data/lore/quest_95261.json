@@ -1,0 +1,85 @@
+{
+ "key": "quest:95261",
+ "type": "quest",
+ "name": "It Takes Guts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95261
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Argo Brinewhistle asks you for beast entrails and Rotflesh mushrooms as bait for a long-necked creature he has seen near the islands. He hopes the catch will make others believe his tale.",
+ "sections": [
+  {
+   "title": "Argo's Bait",
+   "body": "Argo Brinewhistle says he has seen a long-necked monster around the islands while out on his boat. He wants you to gather beast entrails and Rotflesh mushrooms for bait. The mushrooms grow in a cave by Windstead, and Argo hopes to catch the creature.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Argo Brinewhistle?",
+   "aliases": [
+    "who's argo",
+    "argo fisherman",
+    "argo backstory"
+   ],
+   "answer": "Argo Brinewhistle is a fisherman who says he has seen a long-necked monster around the islands."
+  },
+  {
+   "q": "What does Argo want for bait?",
+   "aliases": [
+    "what bait does argo need",
+    "argo entrails",
+    "smelly bait"
+   ],
+   "answer": "Argo asks you to bring him beast entrails and Rotflesh mushrooms."
+  },
+  {
+   "q": "Where do Rotflesh mushrooms grow?",
+   "aliases": [
+    "rotflesh location",
+    "where mushrooms grow",
+    "windstead cave"
+   ],
+   "answer": "Rotflesh mushrooms grow in a cave by Windstead."
+  },
+  {
+   "q": "Why does Argo need the bait?",
+   "aliases": [
+    "why bait",
+    "what is argo catching",
+    "long neck monster"
+   ],
+   "answer": "Argo wants bait so he can catch the long-necked creature he says he has seen near the islands."
+  },
+  {
+   "q": "Why doesn't anyone believe Argo?",
+   "aliases": [
+    "why they doubt argo",
+    "argo drunkard",
+    "who believes argo"
+   ],
+   "answer": "Argo says people dismiss his story because they see him as a drunkard fisherman."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "argo brinewhistle",
+  "bait",
+  "beast entrails",
+  "islands",
+  "it takes guts",
+  "long-necked monster",
+  "rotflesh mushrooms",
+  "windstead"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: It Takes Guts"
+ ]
+}

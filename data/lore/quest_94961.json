@@ -1,0 +1,64 @@
+{
+ "key": "quest:94961",
+ "type": "quest",
+ "name": "Biting the Hand",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94961
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Fuzzle offers trade to anyone who helps him get revenge. He promises to show you treasure once you bring him Twilight Finger Bones.",
+ "sections": [
+  {
+   "title": "Fuzzle's Offer",
+   "body": "A bit of gold changes hands as Fuzzle offers you a bargain. The gnoll promises more treasure if you help him get revenge. He asks you to bring him twenty Twilight Finger Bones before he shows you what he has.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fuzzle?",
+   "aliases": [
+    "fuzzle",
+    "gnoll with gold"
+   ],
+   "answer": "Fuzzle is a gnoll who offers you gold and promises treasure in exchange for help getting revenge."
+  },
+  {
+   "q": "What does Fuzzle want?",
+   "aliases": [
+    "what does he want",
+    "fuzzle revenge"
+   ],
+   "answer": "Fuzzle asks you to bring him twenty Twilight Finger Bones to help him get revenge."
+  },
+  {
+   "q": "What are the Twilight Finger Bones for?",
+   "aliases": [
+    "finger bones",
+    "twilight bones"
+   ],
+   "answer": "Fuzzle wants twenty Twilight Finger Bones before he shows you his treasure."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "biting the hand",
+  "fuzzle",
+  "gnoll",
+  "revenge",
+  "treasure",
+  "twilight finger bones"
+ ],
+ "related": [
+  "topic:gnoll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Biting the Hand"
+ ]
+}

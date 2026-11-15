@@ -1,0 +1,74 @@
+{
+ "key": "quest:95615",
+ "type": "quest",
+ "name": "In Memoriam",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95615
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sister Rowland asks you to relight memorial candles at Farholde Keep. The small act honors the dead and helps keep the church alive.",
+ "sections": [
+  {
+   "title": "Candles for the Fallen",
+   "body": "At Farholde Keep, Sister Rowland asks you to tend the chapel graveyard. Place fresh candles on three graves where the old flames have gone out, and give the fallen a quiet remembrance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to light the candles?",
+   "aliases": [
+    "who is sister rowland",
+    "sister rowland candles"
+   ],
+   "answer": "Sister Rowland at Farholde Keep asks you to light memorial candles in the chapel graveyard."
+  },
+  {
+   "q": "Where do the candles go?",
+   "aliases": [
+    "candle location",
+    "where are the graves"
+   ],
+   "answer": "Place the memorial candles on graves in the chapel graveyard at Farholde Keep."
+  },
+  {
+   "q": "How many graves need candles?",
+   "aliases": [
+    "number of candles",
+    "how many candles"
+   ],
+   "answer": "Sister Rowland asks you to place three memorial candles on graves."
+  },
+  {
+   "q": "Why light the candles?",
+   "aliases": [
+    "why candles",
+    "what is this for"
+   ],
+   "answer": "The candles honor those who have died and help keep the church alive."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chapel graveyard",
+  "church",
+  "farholde keep",
+  "graves",
+  "in memoriam",
+  "light",
+  "memorial candles",
+  "sister rowland"
+ ],
+ "related": [
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: In Memoriam"
+ ]
+}

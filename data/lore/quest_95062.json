@@ -1,0 +1,85 @@
+{
+ "key": "quest:95062",
+ "type": "quest",
+ "name": "Frazzlespark's Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95062
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A delivery from Frazzlespark is bound for Old Krom'rosh at Rog'mar. Carry the crate there quickly and carefully.",
+ "sections": [
+  {
+   "title": "A Careful Delivery",
+   "body": "Frazzlespark has a package for Old Krom'rosh, who is waiting at Rog'mar just west of here. You are asked to carry it quickly and carefully, though the reason is left unspoken. Krom'rosh's dealings help accomplish the group's goals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for Frazzlespark's crate?",
+   "aliases": [
+    "who gets the crate",
+    "crate for krom'rosh",
+    "kromrosh package"
+   ],
+   "answer": "Old Krom'rosh is waiting for Frazzlespark's crate at Rog'mar."
+  },
+  {
+   "q": "Where is Rog'mar?",
+   "aliases": [
+    "where's rog'mar",
+    "rogmar location",
+    "rog'mar place"
+   ],
+   "answer": "Rog'mar is just west of Frazzlespark."
+  },
+  {
+   "q": "What should I do with the crate?",
+   "aliases": [
+    "deliver crate",
+    "frazzlespark delivery",
+    "what to do"
+   ],
+   "answer": "Carry Frazzlespark's crate to Old Krom'rosh at Rog'mar, quickly and carefully."
+  },
+  {
+   "q": "Why does the crate need careful delivery?",
+   "aliases": [
+    "why careful",
+    "why rush the crate",
+    "crate reason"
+   ],
+   "answer": "Frazzlespark advises you to deliver it quickly and carefully but gives no reason."
+  },
+  {
+   "q": "Why does Krom'rosh make these kinds of dealings?",
+   "aliases": [
+    "krom'rosh dealings",
+    "why relationships",
+    "what are dealings for"
+   ],
+   "answer": "Krom'rosh says such dealings help accomplish their goals."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate",
+  "delivery",
+  "frazzlespark",
+  "frazzlespark's crate",
+  "krom'rosh",
+  "old krom'rosh",
+  "package",
+  "rog'mar"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Frazzlespark's Crate"
+ ]
+}

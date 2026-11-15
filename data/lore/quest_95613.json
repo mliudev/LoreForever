@@ -1,0 +1,78 @@
+{
+ "key": "quest:95613",
+ "type": "quest",
+ "name": "Keeping the Light On",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95613
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sister Rowland asks you to bring Holy Candles to Farholde Keep. She keeps them burning in the church crypt for the fallen, so their sacrifices are remembered.",
+ "sections": [
+  {
+   "title": "Candles for the Fallen",
+   "body": "Sister Rowland at Farholde Keep asks you for Holy Candles. Though service no longer takes place at the church, she keeps candles lit on the graves of the fallen in its crypt. Their flames are a sign that the dead are remembered and their sacrifices were not in vain. Marla, a friend of Sister Rowland, may have candles to spare in the house just outside the church.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Sister Rowland keep candles lit?",
+   "aliases": [
+    "why candles",
+    "crypt candles",
+    "candles for dead"
+   ],
+   "answer": "Sister Rowland keeps candles lit on the graves in the church crypt so the fallen are remembered and their sacrifices are not in vain."
+  },
+  {
+   "q": "Where does Sister Rowland want the candles brought?",
+   "aliases": [
+    "where bring candles",
+    "candle delivery",
+    "Rowland candles"
+   ],
+   "answer": "Sister Rowland asks you to bring Holy Candles to her at Farholde Keep."
+  },
+  {
+   "q": "Who is Marla?",
+   "aliases": [
+    "Marla candles",
+    "who has candles",
+    "candle source"
+   ],
+   "answer": "Marla is a friend of Sister Rowland who lives in the house just outside the church and may have candles to spare."
+  },
+  {
+   "q": "Is there still service at the church?",
+   "aliases": [
+    "church service",
+    "church closed",
+    "no service"
+   ],
+   "answer": "No service is held at the church now, though Sister Rowland continues to keep candles burning in its crypt."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "church",
+  "crypt",
+  "fallen",
+  "farholde keep",
+  "holy candles",
+  "keeping the light on",
+  "marla",
+  "sister rowland"
+ ],
+ "related": [
+  "subzone:crypt-stromgarde-keep"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Keeping the Light On"
+ ]
+}
