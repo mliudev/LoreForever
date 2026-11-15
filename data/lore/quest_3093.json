@@ -1,0 +1,65 @@
+{
+ "key": "quest:3093",
+ "type": "quest",
+ "name": "Rune-Inscribed Note",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3093
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A rune-inscribed note sends you to Meela Dawnstrider in Camp Narache. Her words look toward the lessons and trials ahead.",
+ "sections": [
+  {
+   "title": "Meela's Counsel",
+   "body": "Meela Dawnstrider speaks of the times you will meet again and hopes each will leave you stronger and better prepared. She compares your spirit to an Eternal Flame, burning bright and hot. For now, she sends you to test yourself and says she will be there when you need her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What should I do with the Rune-Inscribed Note?",
+   "aliases": [
+    "rune note",
+    "what is this note for"
+   ],
+   "answer": "Read the Rune-Inscribed Note, then speak to Meela Dawnstrider in Camp Narache."
+  },
+  {
+   "q": "Who is Meela Dawnstrider?",
+   "aliases": [
+    "who's Meela",
+    "Meela backstory"
+   ],
+   "answer": "Meela Dawnstrider is the one you are asked to speak with in Camp Narache."
+  },
+  {
+   "q": "What does Meela say?",
+   "aliases": [
+    "Meela's message",
+    "what does the rune note say"
+   ],
+   "answer": "Meela hopes your meetings will leave you stronger and better prepared. She tells you to test yourself and says she will be there when you need her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp narache",
+  "eternal flame",
+  "meela dawnstrider",
+  "prepared",
+  "rune note",
+  "rune-inscribed note",
+  "spirit"
+ ],
+ "related": [
+  "subzone:camp-narache"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rune-Inscribed Note"
+ ]
+}

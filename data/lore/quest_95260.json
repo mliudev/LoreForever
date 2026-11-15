@@ -1,0 +1,63 @@
+{
+ "key": "quest:95260",
+ "type": "quest",
+ "name": "Terrors From the Deep",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95260
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Powderfuse Port, you seek a sailor who can identify a sea monster painted on a hide. The strange image may point to a beast in these waters.",
+ "sections": [
+  {
+   "title": "A Painted Beast",
+   "body": "A painted hide brings you to Powderfuse Port, where a sailor may recognize the beast. Fish guts and squid ink form a long-necked shape rising from the waves. If it belongs to a real monster in these waters, someone who sails here may know it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is painted on the hide?",
+   "aliases": [
+    "what's on the hide",
+    "sea monster picture"
+   ],
+   "answer": "The hide shows a long-necked sea monster rising from the waves, painted with fish guts and squid ink."
+  },
+  {
+   "q": "Where can someone identify the monster?",
+   "aliases": [
+    "where do I go",
+    "powderfuse port sailor"
+   ],
+   "answer": "Powderfuse Port is the nearest port, and a sailor there may recognize the creature."
+  },
+  {
+   "q": "Is the sea monster real?",
+   "aliases": [
+    "real sea beast",
+    "monster real?"
+   ],
+   "answer": "The painting raises the possibility that a sea monster lurks in these waters, but you are looking for a sailor who can identify it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fish guts",
+  "painted hide",
+  "powderfuse port",
+  "sailor",
+  "sea monster",
+  "squid ink",
+  "terrors from the deep"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Terrors From the Deep"
+ ]
+}

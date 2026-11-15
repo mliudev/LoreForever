@@ -1,0 +1,79 @@
+{
+ "key": "quest:95294",
+ "type": "quest",
+ "name": "Smuggler's Bargain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95294
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An Eastsea pirate offers Friz Frazzlespark a bargain to leave her business alone. You carry his message back to her in Powderfuse Port.",
+ "sections": [
+  {
+   "title": "A Captain's Offer",
+   "body": "Friz Frazzlespark has drawn the Eastsea pirates' attention, and one of them offers to keep his crew from interfering with her business. In return, he proposes a profitable arrangement. You carry his message back to Friz in Powderfuse Port, where she will hear who claims command.",
+   "spoiler": 0
+  },
+  {
+   "title": "Friz's Lesson",
+   "body": "Friz answers the pirate's offer with a warning about the cost of crossing her. Her words leave the bargain's terms in doubt.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the pirate offer Friz?",
+   "aliases": [
+    "eastsea pirate offer",
+    "friz bargain"
+   ],
+   "answer": "An Eastsea pirate offers to keep his crew from interfering with Friz's business and proposes a profitable arrangement."
+  },
+  {
+   "q": "Who do I report back to?",
+   "aliases": [
+    "where return",
+    "who gets the message"
+   ],
+   "answer": "You return to Friz Frazzlespark in Powderfuse Port."
+  },
+  {
+   "q": "What message does the captain send?",
+   "aliases": [
+    "captain message",
+    "what tell friz"
+   ],
+   "answer": "He wants Friz to know that a new captain is in charge and foresees a profitable relationship."
+  },
+  {
+   "q": "Who is the new captain?",
+   "aliases": [
+    "captain who",
+    "pirate boss"
+   ],
+   "answer": "Friz questions who the captain is, and the message does not name him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain",
+  "eastsea pirates",
+  "friz frazzlespark",
+  "goblin",
+  "pirate",
+  "powderfuse port",
+  "smuggler's bargain"
+ ],
+ "related": [
+  "topic:goblin",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Smuggler's Bargain"
+ ]
+}

@@ -878,7 +878,9 @@ function Voice.Refresh(sameClips)
       end
     end
   end
-  Voice.questRanked, Voice.questFits = questRanked, questFits
+  local questOrder = {}   -- (each quest voice's place in the list: questReaders' tie-break)
+  for i, name in ipairs(questChain) do questOrder[name] = i end
+  Voice.questRanked, Voice.questFits, Voice.questOrder = questRanked, questFits, questOrder
   -- The answers packs (LOR-227: LoreForever_Voice_<voice>_Answers_<Part>) are retired (Mike's voices and plans picks,
   -- 10/21): an installed one plays nothing, so a short answer with no other recording shows as text. Community narrators' answers come through their own packs
   -- (Voice.ScopedClip, Voice.active) and still play.
@@ -2824,7 +2826,7 @@ end
 -- voices have every page some voice recorded, else "narrator", who then reads all of it. The data decides (each page's
 -- recording, current, with a known speaker of the data's gender for it); a quest whose giver didn't fit the NPC at its
 -- window once stays with the narrator (S().questNarrated, kept), so its later pages don't switch back. And of the
--- narrators, the first in the list that has the most of its pages reads it (a lower one only fills a page it lacks).
+-- narrators, only one that has all of its pages reads it (questReaders: Mike 11/15, "A, one narrator").
 local function questPages(qid, rec)
   local out = {}
   for kind, part in pairs(QUEST_PART) do
@@ -2862,6 +2864,70 @@ function Voice.QuestSpeaker(qid, rec)
     any = any or giver ~= nil
   end
   return any and "giver" or "narrator"
+end
+
+-- What the quest window saw of who says a page (UnitSex("npc")), kept where the data says otherwise or doesn't know:
+-- S().questSex[questID] = one letter a page, detail, progress, turn-in ("f-m"; "-" is the data's or not seen). The
+-- quest log and the playlist have no NPC to look at; with it they pick the voice the window picked.
+local function rememberSex(qid, rec, part, sex)
+  local seen = (sex == 2 and "m") or (sex == 3 and "f") or nil
+  if not seen then return end
+  local data = type(rec[5]) == "string" and rec[5]:sub(part - 1, part - 1) or ""
+  local all, key = S().questSex, tostring(qid)
+  local was = type(all) == "table" and type(all[key]) == "string" and #all[key] == 3 and all[key] or "---"
+  local now = was:sub(1, part - 2) .. (seen == data and "-" or seen) .. was:sub(part)
+  if now == was then return end
+  if type(all) ~= "table" then
+    all = {}
+    S().questSex = all
+  end
+  all[key] = now ~= "---" and now or nil
+end
+
+-- Who says a page, a man or a woman, away from its window: what the window saw there (rememberSex), else the data's,
+-- else the quest givers' pack's own speaker; nil when nothing says (or "Match the quest giver's voice" is off).
+local function pageWant(qid, rec, kind, id)
+  if S().voiceMatchGender == false then return nil end
+  local i = QUEST_PART[kind] - 1
+  local seen = type(S().questSex) == "table" and S().questSex[tostring(qid)]
+  local want = GENDER_CODE[type(seen) == "string" and seen:sub(i, i) or ""]
+    or GENDER_CODE[type(rec[5]) == "string" and rec[5]:sub(i, i) or ""]
+  if want then return want end
+  return (giverClip(id, "male", false) and "male") or (giverClip(id, "female", false) and "female") or nil
+end
+
+-- The narrators that may read a quest (Mike 11/15, "A, one narrator": a quest is read by a voice that has all of its
+-- pages; the other reads only quests it has in full): those with every page some narrator has. When none has them
+-- all, the one with the most (the first in the list on a tie) reads alone, and a page it lacks stays as text. A
+-- narrator has a page when its recording is current (questRanked), whoever says it: who may read a page (the top
+-- narrator's family, or the speaker's gender) is QuestClip's check, page by page, so with "Let the other narrator
+-- fill in" off a narrator with the whole quest still counts as whole (the review of #4207). Only a narrator that may
+-- read some page of the quest counts at all (mayRead), so one the player kept out of a man's quest doesn't take it
+-- from the narrator who may. Only the data decides, never the words on screen, so the quest window, the quest log
+-- and the playlist pick the same voice. Of two that have it all, the speaker's gender and then the list pick per
+-- page (questNarrator), as before.
+local function questReaders(qid, rec, mayRead)
+  local union, has, n = {}, {}, 0
+  for kind, id in pairs(questPages(qid, rec)) do
+    local part = QUEST_PART[kind]
+    for _, v in ipairs(Voice.questRanked[id] or {}) do
+      local row = type(v[3]) == "table" and v[3][qid]
+      if type(row) == "table" and type(row[part]) == "string" and row[part] ~= "" and mayRead(v[1]) then
+        if not union[kind] then union[kind], n = true, n + 1 end
+        has[v[1]] = has[v[1]] or {}
+        has[v[1]][kind] = true
+      end
+    end
+  end
+  local rank, readers, best, most = Voice.questOrder or {}, {}, nil, -1
+  for name, pages in pairs(has) do
+    local c = 0
+    for _ in pairs(pages) do c = c + 1 end
+    if c == n then readers[name] = true end
+    if c > most or (c == most and (rank[name] or math.huge) < (rank[best] or math.huge)) then best, most = name, c end
+  end
+  if best and not next(readers) then readers[best] = true end
+  return readers
 end
 
 -- The narrator who reads a quest: one of the speaker's gender (want) when one is ticked, else of the top narrator's
@@ -2907,11 +2973,8 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     local ok, guid = pcall(function() return UnitGUID and UnitGUID("npc") end)
     local player = ok and ns.Context.Usable(guid) and type(guid) == "string" and guid:sub(1, 7) == "Player-"
     local sex = window and not player and ns.Giver and ns.Giver.Sex("npc") or nil
-    local code = type(rec[5]) == "string" and rec[5]:sub(part - 1, part - 1) or ""
-    want = (sex == 2 and "male") or (sex == 3 and "female") or GENDER_CODE[code]
-    if not want and not window then   -- the data doesn't say: the giver pack's own speaker
-      want = (giverClip(id, "male", false) and "male") or (giverClip(id, "female", false) and "female") or nil
-    end
+    if window and not peek then rememberSex(qid, rec, part, sex) end
+    want = (sex == 2 and "male") or (sex == 3 and "female") or pageWant(qid, rec, kind, id)
   end
   local giver, giverRows, giverPack = giverClip(id, want, window)
   if not list[1] and not giver then return nil end
@@ -2950,6 +3013,22 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     local allowed = family(v[1]) or (want and Voice.Gender(v[1]) == want)
     if allowed and reads(v[3]) then fits[#fits + 1] = v
     elseif allowed and across(v) then fits[#fits + 1], crossed[v] = v, true end
+  end
+  -- One narrator per quest (Mike 11/15, "A, one narrator"): only a narrator questReaders lets read the quest reads
+  -- this page, so a page another narrator lacks is never filled by this one, here or in the quest log.
+  if fits[1] then
+    local wants = {}   -- (who says each page: this one's as above, the others' as away from their window)
+    for k, pageId in pairs(questPages(qid, rec)) do wants[k] = k == kind and want or pageWant(qid, rec, k, pageId) end
+    wants[kind] = want
+    local readers = questReaders(qid, rec, function(name)
+      if family(name) then return true end
+      local g = Voice.Gender(name)
+      for _, w in pairs(wants) do if w and w == g then return true end end
+      return false
+    end)
+    local kept = {}
+    for _, v in ipairs(fits) do if readers[v[1]] then kept[#kept + 1] = v end end
+    fits = kept
   end
   -- The quest givers' role and the narrator's never fill for each other page by page: a giver quest plays the
   -- giver's recording alone; a page whose giver doesn't fit the NPC in front of you goes to the narrator, and so

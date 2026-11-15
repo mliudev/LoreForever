@@ -1,0 +1,91 @@
+{
+ "key": "quest:95642",
+ "type": "quest",
+ "name": "Abominable Magics",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95642
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Apprentice Claire asks you to gather samples of Twilight's Hammer magic in a cave beneath Sunnyglade. Farholde needs the samples so she can study the cult's witchcraft.",
+ "sections": [
+  {
+   "title": "Claire's Request",
+   "body": "Claire sent by Ashe Amberhall investigates Twilight's Hammer in the Riverglades, where cultists dig for something. She needs a sample of their witchcraft to understand it. You carry a Crystal Catalyst enchanted to absorb the cult's power from runes or cultists, and Claire says Farholde urgently needs what it gathers.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Potent Sample",
+   "body": "When you return, Claire touches the crystal and flinches at the magic crackling within it. The gathered power is stronger than she feared, and she says it must be handled with care.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the samples?",
+   "aliases": [
+    "who wants samples",
+    "Claire sample request"
+   ],
+   "answer": "Apprentice Claire asks you to gather samples of Twilight's Hammer magic for her."
+  },
+  {
+   "q": "Why does Claire need the samples?",
+   "aliases": [
+    "why samples",
+    "what are samples for"
+   ],
+   "answer": "Claire wants to study the cult's witchcraft, and she says Farholde urgently needs the samples."
+  },
+  {
+   "q": "Where are the cultists digging?",
+   "aliases": [
+    "where is Twilight Hammer digging",
+    "cult digging"
+   ],
+   "answer": "Twilight's Hammer is digging for something within the Riverglades."
+  },
+  {
+   "q": "What does the Crystal Catalyst do?",
+   "aliases": [
+    "crystal thing",
+    "catalyst purpose"
+   ],
+   "answer": "The enchanted Crystal Catalyst absorbs the power of Twilight's Hammer magic from runes or cultists."
+  },
+  {
+   "q": "Who sent Claire to investigate?",
+   "aliases": [
+    "who sent Claire",
+    "Amberhall"
+   ],
+   "answer": "Ashe Amberhall sent Claire to investigate Twilight's Hammer."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "abominable magics",
+  "apprentice claire",
+  "ashe amberhall",
+  "crystal catalyst",
+  "farholde",
+  "riverglades",
+  "sunnyglade",
+  "twilight's hammer",
+  "witchcraft"
+ ],
+ "related": [
+  "zone:riverglades",
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer",
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Abominable Magics"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "quest:95284",
+ "type": "quest",
+ "name": "The Elite of the Elite",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95284
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A supplier near the coast asks you to find a missing force of Kor\u2019kron elites. Their trail points toward Alcaz Island, where something may have gone wrong.",
+ "sections": [
+  {
+   "title": "A Troubled Trail",
+   "body": "A few days ago, Kor\u2019kron soldiers stopped here to buy supplies and rest before moving on. The supplier heard one of them speak of an island, and Alcaz lies just off the coast. Now you are asked to find the missing elites and learn what befell them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the missing Kor\u2019kron?",
+   "aliases": [
+    "kor'kron elites",
+    "missing soldiers",
+    "kor kron missing"
+   ],
+   "answer": "They are a small force of Kor\u2019kron soldiers who stopped here for supplies and rest before moving on."
+  },
+  {
+   "q": "Where might the Kor\u2019kron have gone?",
+   "aliases": [
+    "which island",
+    "kor'kron island",
+    "where did they go"
+   ],
+   "answer": "One of the soldiers mentioned an island, and the supplier suspects Alcaz Island off the coast."
+  },
+  {
+   "q": "Why is the supplier worried?",
+   "aliases": [
+    "what went wrong",
+    "why look for kor'kron",
+    "elite soldiers missing"
+   ],
+   "answer": "The Kor\u2019kron moved on after resting, but the supplier feels something went wrong."
+  },
+  {
+   "q": "What is Alcaz Island like?",
+   "aliases": [
+    "alcaz island",
+    "is alcaz dangerous",
+    "nasty island"
+   ],
+   "answer": "The supplier describes Alcaz as a really nasty place."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you are being asked to find a missing force of Kor\u2019kron soldiers."
+  }
+ ],
+ "keywords": [
+  "alcaz island",
+  "coast",
+  "elite soldiers",
+  "island",
+  "kor'kron",
+  "missing kor'kron",
+  "supplier"
+ ],
+ "related": [
+  "quest:95283"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Elite of the Elite"
+ ]
+}

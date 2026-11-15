@@ -1,0 +1,79 @@
+{
+ "key": "quest:95295",
+ "type": "quest",
+ "name": "I Know a Guy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95295
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Friz sends you to Booty Bay to meet his contact, Ruzzgot. The contact gets goods from the local freebooters and will explain what comes next.",
+ "sections": [
+  {
+   "title": "A Contact in Booty Bay",
+   "body": "Friz says his contact is Ruzzgot, waiting in Booty Bay. He gets goods from the pirates there, whom Friz calls freebooters. Find Ruzzgot, and he will explain the rest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Friz's contact?",
+   "aliases": [
+    "friz contact",
+    "who is Ruzzgot",
+    "booty bay contact"
+   ],
+   "answer": "Friz names Ruzzgot as his contact in Booty Bay."
+  },
+  {
+   "q": "Where does Friz send me?",
+   "aliases": [
+    "where to go",
+    "where is Ruzzgot",
+    "booty bay"
+   ],
+   "answer": "Friz sends you to Booty Bay to meet Ruzzgot."
+  },
+  {
+   "q": "What does Ruzzgot do?",
+   "aliases": [
+    "what does the contact do",
+    "ruzzgot goods",
+    "pirate goods"
+   ],
+   "answer": "Ruzzgot gets goods from the local pirates in Booty Bay."
+  },
+  {
+   "q": "Why does Friz call the pirates freebooters?",
+   "aliases": [
+    "freebooter meaning",
+    "pirates or freebooters",
+    "why freebooters"
+   ],
+   "answer": "Friz says some people call pirates freebooters, and jokes that the word contains \u201cfree booty.\u201d"
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "contact",
+  "freebooters",
+  "friz",
+  "goods",
+  "i know a guy",
+  "pirates",
+  "ruzzgot"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: I Know a Guy"
+ ]
+}

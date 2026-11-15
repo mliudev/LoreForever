@@ -1,0 +1,67 @@
+{
+ "key": "quest:81947",
+ "type": "quest",
+ "name": "Sanguine Sorcery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   81947
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian seeks magical works for the Library in Ironforge. Your contribution adds to its collection and knowledge.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "In the Library of Ironforge, a librarian asks you to bring something for the collection. Your contribution helps expand the library's knowledge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want?",
+   "aliases": [
+    "what do they want",
+    "library request",
+    "sanguine sorcery"
+   ],
+   "answer": "The librarian asks you to bring something to add to the collection."
+  },
+  {
+   "q": "Where is this request from?",
+   "aliases": [
+    "where is the librarian",
+    "ironforge library",
+    "library location"
+   ],
+   "answer": "The request comes from the Library in Ironforge."
+  },
+  {
+   "q": "Why bring magical works to the library?",
+   "aliases": [
+    "why magical books",
+    "what is it for",
+    "library collection"
+   ],
+   "answer": "The librarian says magical works may benefit the library and expand its knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works",
+  "sanguine sorcery"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Sanguine Sorcery"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "quest:96125",
+ "type": "quest",
+ "name": "In Need of Relief",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96125
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A guard at Bolder'ok needs relief after the lion hides are gathered and orcish poachers are culled. Dunston Willis has not returned from the ogre settlement, and you are asked to find him.",
+ "sections": [
+  {
+   "title": "A Missing Relief",
+   "body": "At Bolder'ok, the watch remains without its promised relief. Dunston Willis, an explorer, went to investigate the ogre settlement to the north a few days ago and was expected back to take over the post. The guard asks you to find him among the ogres. If Dunston is alive, bring him back; if not, bring proof so Demar can send someone else.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dunston Willis?",
+   "aliases": [
+    "Dunston",
+    "who is Dunston",
+    "explorer Willis"
+   ],
+   "answer": "Dunston Willis is an explorer who went to investigate the ogre settlement to the north of Bolder'ok."
+  },
+  {
+   "q": "Why is the guard looking for Dunston?",
+   "aliases": [
+    "why find Dunston",
+    "missing relief",
+    "guard needs help"
+   ],
+   "answer": "Dunston was expected to return and take over the guard's post, but he has not come back."
+  },
+  {
+   "q": "Where did Dunston go?",
+   "aliases": [
+    "Dunston location",
+    "where is Willis",
+    "ogre settlement"
+   ],
+   "answer": "Dunston went to investigate the ogre settlement at Bolder'ok."
+  },
+  {
+   "q": "What does the guard ask me to do?",
+   "aliases": [
+    "what do I do",
+    "find Dunston",
+    "relief request"
+   ],
+   "answer": "You are asked to find Dunston among the ogres. If he is alive, bring him back; otherwise, bring proof so Demar can send another guard."
+  },
+  {
+   "q": "What happened before Dunston went missing?",
+   "aliases": [
+    "lion hides",
+    "poachers culled",
+    "what came first"
+   ],
+   "answer": "The lion hides were collected and the orcish poachers were culled before the guard expected Dunston to relieve the watch."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "demar",
+  "dunston willis",
+  "in need of relief",
+  "lion hides",
+  "ogres",
+  "orcish poachers",
+  "watch"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: In Need of Relief"
+ ]
+}

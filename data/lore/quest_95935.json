@@ -1,0 +1,71 @@
+{
+ "key": "quest:95935",
+ "type": "quest",
+ "name": "Hail the Dragonslayer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95935
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Cedric Dalton at the Southern Watch asks you to bring him Scaldaron\u2019s head. The dragon\u2019s threat is gone, and the sentries should hear what happened.",
+ "sections": [
+  {
+   "title": "Word at the Watch",
+   "body": "Scaldaron\u2019s head is a grisly sign of the danger that has passed. At the Southern Watch, Cedric Dalton learns what happened when you bring it to him. The sentries there had thought gnolls in the hills were their only concern.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for Scaldaron\u2019s head?",
+   "aliases": [
+    "who wants the dragon head",
+    "Cedric Dalton request"
+   ],
+   "answer": "Cedric Dalton at the Southern Watch asks you to bring him the Head of Scaldaron."
+  },
+  {
+   "q": "Where should I take the Head of Scaldaron?",
+   "aliases": [
+    "where take head",
+    "dragon head location"
+   ],
+   "answer": "Take the Head of Scaldaron to Cedric Dalton at the Southern Watch."
+  },
+  {
+   "q": "Who was Scaldaron?",
+   "aliases": [
+    "scaldaron dragon",
+    "what is scaldaron"
+   ],
+   "answer": "Scaldaron was a dragon whose threat is now gone."
+  },
+  {
+   "q": "Why should the sentries hear what happened?",
+   "aliases": [
+    "why tell sentries",
+    "southern watch news"
+   ],
+   "answer": "The Southern Watch sentries should know what happened after Scaldaron\u2019s threat ended."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cedric dalton",
+  "dragon",
+  "gnolls",
+  "head of scaldaron",
+  "scaldaron",
+  "sentries",
+  "southern watch"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hail the Dragonslayer"
+ ]
+}

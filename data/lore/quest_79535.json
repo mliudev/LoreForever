@@ -1,0 +1,64 @@
+{
+ "key": "quest:79535",
+ "type": "quest",
+ "name": "Basilisks: Should Petrification be Feared?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79535
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian asks you to bring magical works that could enrich the library\u2019s collection. Your discoveries help expand its knowledge.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The librarian thanks you for adding to the collection. Your efforts bring new knowledge to the library, and further magical works may be welcome there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want?",
+   "aliases": [
+    "library request",
+    "what should i bring"
+   ],
+   "answer": "The librarian welcomes magical works that might benefit the collection."
+  },
+  {
+   "q": "Why are magical works wanted?",
+   "aliases": [
+    "why books",
+    "what are they for"
+   ],
+   "answer": "The librarian says they can benefit the library and expand its knowledge."
+  },
+  {
+   "q": "What happens when I bring something?",
+   "aliases": [
+    "collection update",
+    "what did i add"
+   ],
+   "answer": "The librarian thanks you, saying your efforts expand the library\u2019s knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "basilisks",
+  "collection",
+  "knowledge",
+  "library",
+  "magical works",
+  "petrification"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Basilisks: Should Petrification be Feared?"
+ ]
+}

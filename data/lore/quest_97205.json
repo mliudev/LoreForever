@@ -1,0 +1,78 @@
+{
+ "key": "quest:97205",
+ "type": "quest",
+ "name": "Learning to Ride",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97205
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Genn Fairweather offers to teach you to ride a galestrider for a fee. Training prepares you to travel with a mount, and he provides one mount after you learn.",
+ "sections": [
+  {
+   "title": "A Steady Hand",
+   "body": "After you have enough coin, Genn Fairweather can teach you the Apprentice Riding skill. He says riding a galestrider takes patience and a steady hand. He provides a mount once you have trained, so you can set out prepared for what you and your mount may face.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to ride a galestrider?",
+   "aliases": [
+    "genn riding",
+    "galestrider trainer"
+   ],
+   "answer": "Genn Fairweather teaches you the Apprentice Riding skill for galestriders."
+  },
+  {
+   "q": "Do I need to pay for riding lessons?",
+   "aliases": [
+    "riding cost",
+    "how much coin"
+   ],
+   "answer": "Genn asks for a fee and says to speak with him when you have enough coin."
+  },
+  {
+   "q": "Do I get a mount after training?",
+   "aliases": [
+    "free mount",
+    "mount after riding"
+   ],
+   "answer": "Genn provides you with a free mount once you have trained with him."
+  },
+  {
+   "q": "Can I ride other creatures too?",
+   "aliases": [
+    "other mounts",
+    "different riding skills"
+   ],
+   "answer": "Genn says many creatures require their own riding skill, and you will need to find trainers for each."
+  },
+  {
+   "q": "What does riding a galestrider take?",
+   "aliases": [
+    "galestrider riding",
+    "ride patience"
+   ],
+   "answer": "Genn says riding a galestrider often takes patience and a steady hand."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice riding",
+  "galestrider",
+  "genn fairweather",
+  "learning to ride",
+  "mount",
+  "riding trainer"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Learning to Ride"
+ ]
+}

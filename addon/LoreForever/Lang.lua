@@ -111,10 +111,40 @@ function Lang.SetDot(reading)
   Lang.dot = (CYRILLIC[reading] or CYRILLIC[Lang.ClientLocale()]) and "∙" or "·"
 end
 
-local function packFor(locale, kind)
+-- A pack is apart from its language: two packs can read one language (a community pack and ours, 11/14). Which one
+-- reads it: the player's pick (settings().langPacks[locale] = the pack's folder), else the one named for the language
+-- alone (LoreForever_Lang_<locale>: the community pack, or the only one), else the first installed.
+local function packsOf(locale, kind)
+  local out = {}
   for _, rec in ipairs(ns.Packs.List(kind or "lang")) do
-    if rec.locale == locale then return rec end
+    if rec.locale == locale then out[#out + 1] = rec end
   end
+  return out
+end
+
+local function packFor(locale, kind)
+  local all = packsOf(locale, kind)
+  local picks = settings().langPacks
+  local pick = type(picks) == "table" and picks[locale]
+  for _, rec in ipairs(all) do
+    if pick and rec.name == pick then return rec end
+  end
+  for _, rec in ipairs(all) do
+    if rec.name:sub(-#locale - 1) == "_" .. locale then return rec end
+  end
+  return all[1]
+end
+
+-- The language packs installed for a language, and the one that reads it (for the settings row that picks one).
+function Lang.PacksOf(locale) return packsOf(locale), packFor(locale) end
+
+-- Pick which pack reads a language (nil: back to the default above). Takes effect at the next reload.
+function Lang.SetPack(locale, name)
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if not s then return end
+  s.langPacks = type(s.langPacks) == "table" and s.langPacks or {}
+  s.langPacks[locale] = name
+  if not next(s.langPacks) then s.langPacks = nil end
 end
 local function overlayFor(locale) return packFor(locale, "lang-overlay") end
 
@@ -164,8 +194,10 @@ function Lang.StringsFor(locale)
 end
 
 function Lang.NeedsReload()
-  return ns.lang ~= nil and (Lang.Selected() ~= ns.lang.selection or Lang.Resolve() ~= ns.lang.locale
-    or ns.lang.editionUnavailable ~= nil)
+  if ns.lang == nil then return false end
+  local now = ns.lang.pack and not ns.lang.edition and packFor(ns.lang.locale)
+  return Lang.Selected() ~= ns.lang.selection or Lang.Resolve() ~= ns.lang.locale
+    or ns.lang.editionUnavailable ~= nil or (now and now.name ~= ns.lang.pack) or false
 end
 
 function Lang.Reason(reason, rec)
@@ -180,7 +212,9 @@ function Lang.Choices()
   }
   local listed = {}
   for _, rec in ipairs(ns.Packs.List("lang")) do
-    if rec.locale and not ENGLISH[rec.locale] then
+    -- One row per language, from the pack that reads it (Lang.PacksOf lists them all).
+    rec = rec.locale and packFor(rec.locale) or rec
+    if rec.locale and not ENGLISH[rec.locale] and not listed[rec.locale] then
       listed[rec.locale] = true
       out[#out + 1] = { id = rec.locale, label = rec.languageName or rec.locale,
         reason = (not rec.loadable) and Lang.Reason(rec.reason, rec) or nil }

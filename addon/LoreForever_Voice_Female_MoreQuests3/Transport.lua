@@ -238,7 +238,7 @@ P.transport["quest:1380"] = {
   fullHash = "5e18ea",
   text = "Khan Hratha. At Gelkis Village, Uthek the Wise sends you against the Maraudine after your help against the Magram. Their leader, Khan Hratha, carries a piece of a key Uthek wants returned to him. The Gelkis need your help against the Maraudine, Uthek the Wise tells you. Their War Horn stands on a tall bluff in the Valley of Spears. Sound it, and Khan Hratha will answer. But first, you need a warhorn mouthpiece. Only trusted Maraudine centaur carry one, and they are rare. More centaur arrive when the horn sounds. Hratha comes last. Khan Hratha holds a piece of a key. Uthek wants you to bring it to Gelkis Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1380-542b3d2cbd567c45da03/1-0000.mp3", duration = 39.4971429, start = 0},
+    {file = "Audio/Transport/full_quest_1380-58e6a40b5635bfb07e4c/1-0000.mp3", duration = 55.6408163, start = 0},
   },
 }
 P.transport["quest:1381"] = {
@@ -270,7 +270,7 @@ P.transport["quest:1420"] = {
   fullHash = "dc0230",
   text = "Report to Helgrum. At Kargath, Neeka Bloodscar gives you a fresh report for Helgrum the Swift in Stonard. You have just spoken with her there. Neeka Bloodscar gives you a fresh report for Helgrum in Stonard. She warns that anyone who calls themselves an outrunner must keep the way and avoid falling to an enemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1420-f0cdbdb2777c701a2d3f/1-0000.mp3", duration = 18.7297959, start = 0},
+    {file = "Audio/Transport/full_quest_1420-f2996780c991adb69509/1-0000.mp3", duration = 28.7085714, start = 0},
   },
 }
 P.transport["quest:1422"] = {
@@ -382,7 +382,7 @@ P.transport["quest:1466"] = {
   fullHash = "012b39",
   text = "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor has the last items Leftwitch requested. They all come from demons: brains, wings, and blood. Kreldig Ungor warns you that the final set is grim and slower to gather than any before. Leftwitch wants ten of each of three kinds of parts. You can take felhound brains from mana eaters, mage hunters, or ley hunters. The wings come from nether maidens, sisters, or sorceresses, while doomwarder captains and lords carry the blood. Kreldig would understand if you passed on this one. Kreldig Ungor had not known these demons lived in Desolace. His reading said the centaur held most of the land after the night elves departed years ago. So he wonders how the demons came here and why they settled. They dwell near Mannoroc Coven in southern Desolace, beyond the Kodo Graveyard.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1466-9c9371cc37d34c783039/1-0000.mp3", duration = 51.6963265, start = 0},
+    {file = "Audio/Transport/full_quest_1466-5db258059bdc07b89a04/1-0000.mp3", duration = 65.9330612, start = 0},
   },
 }
 P.transport["quest:1467"] = {
@@ -390,7 +390,7 @@ P.transport["quest:1467"] = {
   fullHash = "0be1c2",
   text = "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor sends you to Ironforge with Leftwitch's package. Roetten Stonehammer has your pay, and Kreldig plans to speak well of you when he returns home. Kreldig says Roetten Stonehammer has your pay in Ironforge. Roetten will be glad to receive Leftwitch's package, and handing it over should be enough to collect what you are owed. Kreldig expects to stay in Desolace only a little longer. Once he is home, he still means to speak well of you.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1467-9c7ce8d3a755942fb9c4/1-0000.mp3", duration = 27.7942857, start = 0},
+    {file = "Audio/Transport/full_quest_1467-4f5bd5c529094d735399/1-0000.mp3", duration = 40.5420408, start = 0},
   },
 }
 P.transport["quest:1469"] = {
@@ -406,7 +406,7 @@ P.transport["quest:1488"] = {
   fullHash = "7fe279",
   text = "The Corrupter. Takata Steelblade sides with Maurin: Lord Azrethoc must be stopped, especially if he seeks influence over the Burning Blade. Takata trusts you to gather a party against the demon lord and his warlock servant, Jugkar Grim'rod. Takata has never heard of Lord Azrethoc, but agrees with Maurin that the demon lord must be stopped. The danger grows if Azrethoc is trying to sway the Burning Blade. You have already shown that you want to aid the Warchief, so Takata trusts you to gather a party and slay Azrethoc and his warlock servant, Jugkar Grim'rod. Head directly south to Mannoroc Coven, where both are found. Takata calls the demons in Desolace a greater threat than ever. Each newly arrived foul creature dims the prospect of returning to the Warchief. At times, Takata wishes the centaur were the only enemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1488-0b7f3d9676d0e128ae9f/1-0000.mp3", duration = 52.1665306, start = 0},
+    {file = "Audio/Transport/full_quest_1488-be1fb45afc3dc48d61fb/1-0000.mp3", duration = 73.3779592, start = 0},
   },
 }
 P.transport["quest:1560"] = {
@@ -1478,7 +1478,7 @@ P.transport["quest:3821"] = {
   fullHash = "29050d",
   text = "Dreadmaul Rock. In the Burning Steppes, Sha'ni's platoon has been gone for more than three weeks. Thal'trak Proudtusk cannot leave his post, and asks you to learn what became of his wife. Sha'ni went to the Burning Steppes to investigate strange rituals among the Firegut ogres. More than three weeks have passed, and Goretooth has heard nothing from her platoon. He tells Thal'trak to put the matter behind him and keep to his duty. But Sha'ni is his wife, and Thal'trak will not accept that. Bound to his post, he asks you to search for her.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3821-3edd41ccf4e953d3f0c7/1-0000.mp3", duration = 32.0522449, start = 0},
+    {file = "Audio/Transport/full_quest_3821-c1dbf8906daecb8f19fd/1-0000.mp3", duration = 44.042449, start = 0},
   },
 }
 P.transport["quest:3841"] = {
@@ -1518,7 +1518,7 @@ P.transport["quest:4062"] = {
   fullHash = "4b2f30",
   text = "The Rise of the Machines. In the Burning Steppes, the machines bore marks that now send you to Lotwil Veriatus. The shards bear G.L.A., with a rank marking beneath. The machines you brought down in the Burning Steppes bore Rank IV, which Theodora takes to be a low rank. So Hierophant Theodora Mulvadania sends you with a sample shard to Lotwil Veriatus, renowned among scholars of elemental sciences. Lotwil is stationed at a camp to the east, where Theodora hopes he can help with the search.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4062-7c97a6404f9939bf720b/1-0000.mp3", duration = 30.1453061, start = 0},
+    {file = "Audio/Transport/full_quest_4062-9121056e7b30ce0b2734/1-0000.mp3", duration = 46.3673469, start = 0},
   },
 }
 P.transport["quest:4120"] = {
@@ -1766,7 +1766,7 @@ P.transport["quest:523"] = {
   fullHash = "863398",
   text = "Baron's Demise. In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head. After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_523-17d29cf31b2f61cdd355/1-0000.mp3", duration = 42.6057143, start = 0},
+    {file = "Audio/Transport/full_quest_523-6e62faae0917f38dc563/1-0000.mp3", duration = 60.2906122, start = 0},
   },
 }
 P.transport["quest:537"] = {
@@ -1774,7 +1774,7 @@ P.transport["quest:537"] = {
   fullHash = "8c2b83",
   text = "Dark Council. In Southshore, Magistrate Henry Maleb weighs a letter naming Nagaz and the Argus Wake. He fears they may threaten the land if allied with the Syndicate, and sends you to hunt Nagaz and the Argus Shadow Mages in the Uplands. After Further Mysteries, Maleb tells you the letter came from Nagaz, who belongs to the Argus Wake. He does not know what the Argus Wake is, but fears an alliance with the Syndicate would make them a threat. So he wants Nagaz and the Argus Shadow Mages named in the letter found and killed. Bring him Nagaz’s head.\n\nSearch the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake’s envoys are there.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_537-023f6110d7881baa4472/1-0000.mp3", duration = 43.4677551, start = 0},
+    {file = "Audio/Transport/full_quest_537-9df267442d07e0e2bffc/1-0000.mp3", duration = 60.7869388, start = 0},
   },
 }
 P.transport["quest:551"] = {
@@ -1782,7 +1782,7 @@ P.transport["quest:551"] = {
   fullHash = "14e8cf",
   text = "The Ensorcelled Parchment. At the top of The Ensorcelled Parchment, Nagaz is the only name clear. A spell hides the rest, so you take it to Loremaster Dibbs in Southshore. A spell keeps the parchment's writing from being read. Only Nagaz can be made out at the top. You take it to Loremaster Dibbs in Southshore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_551-3872f3e58d2fa42d2b18/1-0000.mp3", duration = 19.6179592, start = 0},
+    {file = "Audio/Transport/full_quest_551-0655b956057ce722f1c8/1-0000.mp3", duration = 27.7159184, start = 0},
   },
 }
 P.transport["quest:554"] = {
@@ -2118,7 +2118,7 @@ P.transport["quest:640"] = {
   fullHash = "497fba",
   text = "The Broken Sigil. Zengu sends you to recover sigils from the Stromgarde militia. Galen, son of Thoras Trollbane, broke the Sigil of Thoradin into eleven pieces, and you carry them to Tor'gan in Hammerfall. Three sigils guard Thoras Trollbane's tomb. You have taken the first from the Syndicate. The firmly entrenched Stromgarde militia holds the other two. Galen, Thoras' son, broke the Sigil of Thoradin into eleven pieces and scattered them among the defenders. Zengu asks you to gather the pieces from Stromgarde's defenders. Then carry them to Tor'gan, the troll shaman at Hammerfall. He can bind them into a whole sigil.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_640-da24c0e2a72bb11ddb4b/1-0000.mp3", duration = 39.6016327, start = 0},
+    {file = "Audio/Transport/full_quest_640-d956e5b4904c001eb66f/1-0000.mp3", duration = 56.5812245, start = 0},
   },
 }
 P.transport["quest:641"] = {
@@ -2126,7 +2126,7 @@ P.transport["quest:641"] = {
   fullHash = "802730",
   text = "Sigil of Thoradin. Tor'gan has restored the Sigil of Thoradin, and Zengu waits in Hammerfall for its return. The sigil can open the seal on Trollbane's tomb. Tor'gan's reconstruction has worked. The Sigil of Thoradin can open the seal on Trollbane's tomb, so he sends you back to Zengu in Hammerfall. Zengu has more for you to do.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_641-f89f58277d4d9f2b3fb0/1-0000.mp3", duration = 21.4465306, start = 0},
+    {file = "Audio/Transport/full_quest_641-a0b73fd2fe4cbddd75b1/1-0000.mp3", duration = 29.204898, start = 0},
   },
 }
 P.transport["quest:643"] = {
@@ -2134,7 +2134,7 @@ P.transport["quest:643"] = {
   fullHash = "6dc383",
   text = "Sigil of Arathor. Zengu sends you from Hammerfall to seek a sigil carried by human cavalry in the Arathi Highlands. Find their leader, Lieutenant Valorcall, and bring the sigil back. Zengu doubts the humans can claim Stromgarde, much less the whole Arathi Highlands. Yet their prince still sends the last of his horsemen through the countryside. Zengu cannot see why. He knows Lieutenant Valorcall leads those riders and carries one of the sigils. Find Valorcall and bring it back to Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_643-47be31625378324d543a/1-0000.mp3", duration = 30.4326531, start = 0},
+    {file = "Audio/Transport/full_quest_643-e85d8ae6ff93ded95b09/1-0000.mp3", duration = 44.5910204, start = 0},
   },
 }
 P.transport["quest:644"] = {
@@ -2142,7 +2142,7 @@ P.transport["quest:644"] = {
   fullHash = "8fc2c0",
   text = "Sigil of Trollbane. In Hammerfall, Zengu sends you deep into Stromgarde for the Sigil of Trollbane. Prince Galen keeps the last sigil, which is needed to claim Trol'kalar. Prince Galen, son of Thoras Trollbane, keeps the last sigil in Stromgarde. He waits in a chapel deep in the districts held by the militia. Zengu warns that Galen is well guarded and a fine fighter. You are to kill the prince and carry the sigil back to Zengu in Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_644-52371b71377c757ac60e/1-0000.mp3", duration = 27.924898, start = 0},
+    {file = "Audio/Transport/full_quest_644-3e64442410129b7f655e/1-0000.mp3", duration = 38.9746939, start = 0},
   },
 }
 P.transport["quest:645"] = {
@@ -2150,7 +2150,7 @@ P.transport["quest:645"] = {
   fullHash = "ae4c0c",
   text = "Trol'kalar. At Stromgarde, Zengu sends you after Trol'kalar, now that four sigils have joined as one. Zengu has seen the four sigils unite as the Sigil of Ignaeus. He believes their union can break the wardings on Trollbane's tomb. The tomb lies in the Sanctum behind Stromgarde's chapel, and Zengu sends you there to retrieve Trol'kalar. A fenced path to the right of the chapel entrance descends to the crypt.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_645-578bd7b4bbec0e454c15/1-0000.mp3", duration = 25.9918367, start = 0},
+    {file = "Audio/Transport/full_quest_645-ca76e1d2bf7417fa2e1b/1-0000.mp3", duration = 32.7053061, start = 0},
   },
 }
 P.transport["quest:646"] = {
@@ -2174,7 +2174,7 @@ P.transport["quest:652"] = {
   fullHash = "35ec3a",
   text = "Breaking the Keystone. The voice has more freedom now, though the Keystone still binds it. The Keystone lies among a ring of stones, and Fozruk holds the key the watchers call the Rod of Order. Opening the Stones of Binding eased the voice's confinement, but one lock still holds the Keystone. It lies among the circle of stones around you. Fozruk, a stone watcher and one of its captors, holds the key the watchers call the Rod of Order. Carry the rod to the Keystone and open the lock. The voice promises gratitude that will shake the earth to its roots. Geomantic energy fills the Keystone.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_652-42228222efcc02b193ae/1-0000.mp3", duration = 35.84, start = 0},
+    {file = "Audio/Transport/full_quest_652-d245febecfc4eb994a30/1-0000.mp3", duration = 54.517551, start = 0},
   },
 }
 P.transport["quest:653"] = {
@@ -2182,7 +2182,7 @@ P.transport["quest:653"] = {
   fullHash = "0d0520",
   text = "Myzrael's Allies. Myzrael is free, yet she must gather strength before she can face her captors. She calls you a noble ally and sends you to Gerrig Bonegrip in a shop in Ironforge's Forlorn Cavern, where he knows how to summon her. Myzrael is free, but not strong enough to face her captors. They would overpower her now and lock her away again. So she will gather strength in hiding. When she is ready, she means to face the giants and make them rue the day they held her. She calls you a noble ally and says she will need your help to summon her to the surface. Myzrael sends you to Gerrig Bonegrip, whose shop is in Ironforge's Forlorn Cavern. He knows how to summon her.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_653-a7f68106049af8c7a00d/1-0000.mp3", duration = 42.6318367, start = 0},
+    {file = "Audio/Transport/full_quest_653-44391f9b21f1cdd4d255/1-0000.mp3", duration = 58.357551, start = 0},
   },
 }
 P.transport["quest:654"] = {
@@ -2198,7 +2198,7 @@ P.transport["quest:656"] = {
   fullHash = "3bb4bb",
   text = "Summoning the Princess. At the Shards of Myzrael, you summon Myzrael and face her before she grows strong enough to challenge her captors. Theldurin the Lost wants her defeated and her Eldritch Shackles bound to the Shards. Theldurin fears Myzrael will grow strong enough to turn against her captors. Some say she can be controlled. But Theldurin asks why the giants would have chained her if that were true. You take the Scroll of Myzrael to the Shards, where you first spoke with her, and call her forth. Once Myzrael is defeated, you bind her Eldritch Shackles to the Shards and trap her again.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_656-aeb62fd2ebdcfe5fb8b0/1-0000.mp3", duration = 35.4220408, start = 0},
+    {file = "Audio/Transport/full_quest_656-a38c8388ca3b7e4bf651/1-0000.mp3", duration = 46.1322449, start = 0},
   },
 }
 P.transport["quest:6568"] = {
@@ -2222,7 +2222,7 @@ P.transport["quest:664"] = {
   fullHash = "c1838a",
   text = "Drowned Sorrows. At Faldir's Cove, Captain Steelgut mourns the Maiden's Folly and asks you to kill the Daggerspine naga who slew the wreck's survivors. At Faldir's Cove, Captain Steelgut sits by the fire and wishes the sea had taken him too. His crew fought hard to save the Maiden's Folly, but water rushed in all at once and the ship sank. O'Breen reached shore safely, while the naga killed the other survivors. Steelgut wants ten Daggerspine raiders and three Daggerspine sorceresses dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_664-3453dfeafc1ed6094030/1-0000.mp3", duration = 32.2089796, start = 0},
+    {file = "Audio/Transport/full_quest_664-a95fbca2577e614ab196/1-0000.mp3", duration = 40.1502041, start = 0},
   },
 }
 P.transport["quest:665"] = {
@@ -2230,7 +2230,7 @@ P.transport["quest:665"] = {
   fullHash = "016fd7",
   text = "Sunken Treasure. Professor Phizzlethorpe and Doctor Draxlegauge now aid the Blackwater Raiders in their search for lost elven treasure. Before the search can begin, the professor needs your protection while he charges goggles for the dark sea. Professor Phizzlethorpe asks you to guard him as he prepares for a search beneath the dark sea. Doctor Draxlegauge built goggles to find the lost gems, but they need power from an enchanted stone in a cave a short way uphill. The cave is cursed, and those who draw near are ambushed. Defend the professor while he draws the stone’s energy into the goggles.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_665-94951f6e97003b5821af/1-0000.mp3", duration = 35.1608163, start = 0},
+    {file = "Audio/Transport/full_quest_665-74151a333c6648131d5c/1-0000.mp3", duration = 49.3191837, start = 0},
   },
 }
 P.transport["quest:666"] = {
@@ -2254,7 +2254,7 @@ P.transport["quest:668"] = {
   fullHash = "3ca53f",
   text = "Sunken Treasure. Doctor Draxlegauge sends you to Captain O'Breen, who waits at the bridge for the elven gems. After weeks among pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. Doctor Draxlegauge is eager to bring Captain O'Breen the elven gems. The captain waits at the bridge and wants to see them for himself. After weeks among these pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. So Draxlegauge gives you the gems to carry to O'Breen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_668-98185f73a463fced5957/1-0000.mp3", duration = 31.8955102, start = 0},
+    {file = "Audio/Transport/full_quest_668-be08993bdc25df18f002/1-0000.mp3", duration = 48.6661224, start = 0},
   },
 }
 P.transport["quest:669"] = {
@@ -2262,7 +2262,7 @@ P.transport["quest:669"] = {
   fullHash = "5ee154",
   text = "Sunken Treasure. In Sunken Treasure, Shakes O'Breen is held back by the low tide and watchful creatures, so word must reach Booty Bay. Shakes O'Breen needs Fleet Master Seahorn in Booty Bay to hear of the find at once. The tide is too low for him to leave, and the creatures his crew disturbed watch every move. He asks you to tell Seahorn the treasure has been found and more is being brought up. You carry a sample elven gem as proof.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_669-e351c0ea7b0b0ae33bdd/1-0000.mp3", duration = 26.5142857, start = 0},
+    {file = "Audio/Transport/full_quest_669-45f903352fc0bd6cd9af/1-0000.mp3", duration = 35.4481633, start = 0},
   },
 }
 P.transport["quest:670"] = {
@@ -2270,7 +2270,7 @@ P.transport["quest:670"] = {
   fullHash = "f59fe0",
   text = "Sunken Treasure. Fleet Master Seahorn waits in Booty Bay with a letter for Shakes O'Breen off the Arathi coast. His ships cannot sail until they restock. Fleet Master Seahorn sees an adventurer in you. His ships must restock before they can leave Booty Bay. Heavy things are brewing here and abroad, he says, and he has a secret letter for Shakes O'Breen off the Arathi coast. Can he trust you to deliver it safely and keep it confidential?",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_670-8dd8c6ccc31015a2ce9a/1-0000.mp3", duration = 26.3836735, start = 0},
+    {file = "Audio/Transport/full_quest_670-2b6161a60373195d5ea7/1-0000.mp3", duration = 37.0677551, start = 0},
   },
 }
 P.transport["quest:673"] = {
@@ -2278,7 +2278,7 @@ P.transport["quest:673"] = {
   fullHash = "13a8c2",
   text = "Foul Magics. In Hammerfall, Tor'gan fears a warlock in Stromgarde is calling demons with an arcane relic. Your first work for him has led to a hunt for the warlock and the relic. Tor'gan is certain a warlock within Stromgarde's walls uses an arcane relic to call up terrible demons in great numbers. The burning in his blood grows by the day. So he sends you to find and kill the warlock, then bring back the magical object on the warlock's body. He means to destroy it before its power can taint the land. The warlock is Marez Cowl, and the object is a Befouled Bloodstone Orb.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_673-454265939cb96db2abe6/1-0000.mp3", duration = 38.6612245, start = 0},
+    {file = "Audio/Transport/full_quest_673-fde68c3fc55449b64790/1-0000.mp3", duration = 47.36, start = 0},
   },
 }
 P.transport["quest:679"] = {
@@ -2286,7 +2286,7 @@ P.transport["quest:679"] = {
   fullHash = "eaf3f4",
   text = "Call to Arms. At Hammerfall, Drum Fel sends you after the Boulderfist leaders in Stromgarde. After your earlier work, he says it is time to strike the head from the beast. Drum Fel says you are ready to help deliver one last great blow. The Boulderfist leaders have made their lair in Stromgarde’s ruins, which he calls a symbol of human frailty. He sends you to hunt down the lords and the shaman who serve them. They lead attacks meant to drive the Horde from these lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_679-a8b6afb6839e7f39703b/1-0000.mp3", duration = 29.1526531, start = 0},
+    {file = "Audio/Transport/full_quest_679-63f1971be2ccb2eb4c3c/1-0000.mp3", duration = 35.5265306, start = 0},
   },
 }
 P.transport["quest:680"] = {
@@ -2294,7 +2294,7 @@ P.transport["quest:680"] = {
   fullHash = "7bdfc3",
   text = "The Real Threat. Korin Fel asks you to end the attacks on Hammerfall by slaying Or'Kalar and bringing her his head. Korin Fel says you serve her husband well, though he does not know why Hammerfall is under attack. Or'Kalar serves Mug'thol in Stromgarde and seeks her husband's death. Years ago, her husband defeated the ogre. Now Korin's auguries warn that Or'Kalar has set a trap for him. Korin has hidden the signs of Or'Kalar's presence from her husband. She fears he would rush off foolishly if he knew where the ogre was, so she asks you to help instead. Or'Kalar is near the Tower of Arathor. Korin expects his death to end the attacks on Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_680-214d8884e23b1e879a83/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_quest_680-ecb19b522f7c1b5b3a03/1-0000.mp3", duration = 50.7297959, start = 0},
   },
 }
 P.transport["quest:687"] = {
@@ -2302,7 +2302,7 @@ P.transport["quest:687"] = {
   fullHash = "134730",
   text = "Theldurin the Lost. In the Badlands, the Twilight's Hammer hunts for Theldurin the Lost and the scroll of Myzrael he took when he fled. Theldurin once followed the Twilight's Hammer. Then his mind slipped, and he turned from its teachings. He fled with the scroll of Myzrael, and the order could not catch him. Word has reached the Twilight's Hammer that Theldurin hides in the Badlands, raving and mad. The order needs the scroll for the Lady's return. First, you must find the man who took it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_687-0603e58227e33be05859/1-0000.mp3", duration = 30.2236735, start = 0},
+    {file = "Audio/Transport/full_quest_687-80ba2e329a13050f272a/1-0000.mp3", duration = 39.5493878, start = 0},
   },
 }
 P.transport["quest:688"] = {
@@ -2310,7 +2310,7 @@ P.transport["quest:688"] = {
   fullHash = "44f56a",
   text = "Myzrael's Allies. Through the keystone, Myzrael declares herself free, though still hidden from her captors. She sends you to Zaruk in Hammerfall, who knows how to summon her. Myzrael declares that she is free through the keystone. She must gather her strength out of sight. Her captors would overpower and imprison her again if they faced her now. In time, she vows to confront the giants who held her and make them regret keeping her. Myzrael calls you a noble ally and says she will need your aid again in time. When ready, she will have you summon her to the surface. For now, she sends you to Zaruk in Hammerfall, who knows how it can be done.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_688-59f2aca566fd76ff5438/1-0000.mp3", duration = 38.4522449, start = 0},
+    {file = "Audio/Transport/full_quest_688-68704000cc1ac80f8849/1-0000.mp3", duration = 53.9689796, start = 0},
   },
 }
 P.transport["quest:692"] = {
@@ -2318,7 +2318,7 @@ P.transport["quest:692"] = {
   fullHash = "7481c2",
   text = "The Lost Fragments. Behind Theldurin, furious elementals fight over scraps of the Scroll of Myzrael. You gather the torn pieces while he fears what its magic might do. Theldurin the Lost fears the Scroll of Myzrael could draw Myzrael up to the surface. Then he considers another danger. She may already be free, or gathering strength to strike. If so, the scroll may be what you need to bind her again. Furious elementals took the scroll and tore it apart. Now they fight over its scraps in the hills behind Theldurin. Bring back three pieces: one torn, one crumpled and one singed. Theldurin hopes to mend them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_692-fd2677322ea83b90d346/1-0000.mp3", duration = 38.6089796, start = 0},
+    {file = "Audio/Transport/full_quest_692-ed8daab5089214d41f1a/1-0000.mp3", duration = 51.4089796, start = 0},
   },
 }
 P.transport["quest:698"] = {
@@ -2350,7 +2350,7 @@ P.transport["quest:703"] = {
   fullHash = "109edf",
   text = "Barbecued Buzzard Wings. Rigglefuzz has every ingredient for his barbecued buzzard wings except the wings themselves. Rigglefuzz takes pride in his barbecued buzzard wings. He coats the tangy meat in rich sauce, and its aroma carries to hungry folk nearby. He has all the ingredients for a batch but the wings. Bring him four buzzard wings, and he may share the recipe.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_703-09bbb806c366674224a1/1-0000.mp3", duration = 23.04, start = 0},
+    {file = "Audio/Transport/full_quest_703-61d3417de3e98c8c00fd/1-0000.mp3", duration = 33.0187755, start = 0},
   },
 }
 P.transport["quest:706"] = {
@@ -2366,7 +2366,7 @@ P.transport["quest:708"] = {
   fullHash = "85affa",
   text = "The Black Box. A giant condor in the Badlands swallowed a black box marked for Ironforge. After ages in the condor's stomach, acid had pitted the metal. A symbol marks the underside above the words Engine #19 - Ironforge Siege Brigade. You carry the box to Pilot Longbeard in Ironforge's Hall of Arms.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_708-26818ab1da4f03175532/1-0000.mp3", duration = 21.0285714, start = 0},
+    {file = "Audio/Transport/full_quest_708-8e4d1afb34473be3be51/1-0000.mp3", duration = 26.1485714, start = 0},
   },
 }
 P.transport["quest:712"] = {
@@ -2374,7 +2374,7 @@ P.transport["quest:712"] = {
   fullHash = "7a4bb7",
   text = "Study of the Elements: Rock. In the Badlands, Lotwil Veriatus needs bracers from greater rock elementals to judge his shackles. Lotwil Veriatus needs one last part from the Badlands' elementals, after the stone slabs. Bracers of rock binding from greater rock elementals will help him judge the shackles under construction.\n\nHis scrying found a group southwest, near some ogres, if memory serves. He asks for five bracers so there will be spares, since Servo often misplaces reagents and research.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_712-b4f977212a27f748a4cd/1-0000.mp3", duration = 31.8171429, start = 0},
+    {file = "Audio/Transport/full_quest_712-e489e139527162415991/1-0000.mp3", duration = 42.6579592, start = 0},
   },
 }
 P.transport["quest:716"] = {
@@ -2382,7 +2382,7 @@ P.transport["quest:716"] = {
   fullHash = "60e68d",
   text = "Stone Is Better than Cloth. In the Badlands, Lucien Tosselwrench has a gift for you, though his work is not finished. The extra stones you gathered are ready, but he still needs patterned bronze bracers. After your work for Lotwil on his third Study of the Elements: Rock request, Lucien Tosselwrench admits Lotwil can be cheap. He means to make it up to you with fine enchanted bracers fashioned from the extra stones you gathered. They may help guard you against the coming atrocity of Lotwil's newest invention. To finish the bracers, Lucien needs patterned bronze bracers of the kind a blacksmith makes. He warns you not to wait long. No one knows what happens next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_716-5c823ae11f8da891d18b/1-0000.mp3", duration = 40.9861224, start = 0},
+    {file = "Audio/Transport/full_quest_716-c086e340e2b9c10f736d/1-0000.mp3", duration = 58.7232653, start = 0},
   },
 }
 P.transport["quest:717"] = {
@@ -2398,7 +2398,7 @@ P.transport["quest:723"] = {
   fullHash = "2e2cbb",
   text = "Prospect of Faith. In the Badlands, Hammertoe Grez sends you to Prospector Ryedol with his amulet. Ryedol knows Hammertoe sought the origins of their people and wants to keep the scrolls from the Shadowforge clan. Wounded in the Badlands, Hammertoe Grez asks you to carry his amulet to Ryedol. He trusts Ryedol to know what to do. Hammertoe sought the origins of their people and meant to thwart the Shadowforge clan. The clan must not get the scrolls.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_723-66e5eb976077fabe64ac/1-0000.mp3", duration = 28.6563265, start = 0},
+    {file = "Audio/Transport/full_quest_723-bf96ef8f9fa840fd8098/1-0000.mp3", duration = 34.1159184, start = 0},
   },
 }
 P.transport["quest:724"] = {
@@ -2406,7 +2406,7 @@ P.transport["quest:724"] = {
   fullHash = "3d2960",
   text = "Prospect of Faith. In the Badlands, Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe sought Uldaman's lost artifacts together. Ryedol suspects the Shadowforge learned they knew more than they let on. Prospector Ryedol sends you to Historian Karnik in Ironforge. Tell Karnik what happened to Hammertoe and place the amulet in his hands. Karnik will decide what to do next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_724-d9650c4f4be8bb3165c8/1-0000.mp3", duration = 26.0440816, start = 0},
+    {file = "Audio/Transport/full_quest_724-4c852c4491a0c722de3f/1-0000.mp3", duration = 33.2538776, start = 0},
   },
 }
 P.transport["quest:725"] = {
@@ -2422,7 +2422,7 @@ P.transport["quest:726"] = {
   fullHash = "1a9a5c",
   text = "Passing Word of a Threat. In the Badlands, Belgrum sends you back to Karnik with the king's command to act swiftly against the Shadowforge. Belgrum reads Karnik's note to the end. His eyes widen at the evil tidings. He sends you back to Karnik with the king's command: act swiftly and decisively on what is known. The Shadowforge's activities in the Badlands must stop.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_726-05af57eb9d8cdee53c3e/1-0000.mp3", duration = 22.2302041, start = 0},
+    {file = "Audio/Transport/full_quest_726-fad074aa55d61c5f688f/1-0000.mp3", duration = 32.0783673, start = 0},
   },
 }
 P.transport["quest:727"] = {
@@ -2430,7 +2430,7 @@ P.transport["quest:727"] = {
   fullHash = "674e6d",
   text = "To Ironforge for Yagyin's Digest. Theldurin the Lost sends you to Ironforge with a sigil. In a shop in the Forlorn Cavern, Gerrig Bonegrip is meant to take you for one of the people Theldurin fled, so you can ask him for Yagyin's Digest. The Tablet has taught Theldurin much, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study it. Theldurin believes its vast knowledge can offer protection, so he wants you to bring it back. Gerrig Bonegrip keeps a shop in Ironforge's Forlorn Cavern. Theldurin gives you the Sigil of the Hammer to show Gerrig. Then Gerrig should take you for one of the people Theldurin fled. Ask him for Yagyin's Digest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_727-d1a4c791900daba4efa8/1-0000.mp3", duration = 45.6881633, start = 0},
+    {file = "Audio/Transport/full_quest_727-edfd4bd43b5ebd9fd4c5/1-0000.mp3", duration = 62.2236735, start = 0},
   },
 }
 P.transport["quest:728"] = {
@@ -2438,7 +2438,7 @@ P.transport["quest:728"] = {
   fullHash = "372f92",
   text = "To the Undercity for Yagyin's Digest. Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil for Keeper Bel'dugur. He wants the keeper to mistake you for one of the people he fled, and asks you to find Yagyin's Digest. The tablet has answered much for Theldurin, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study its pages. Theldurin believes its vast knowledge can protect them, so he wants you to bring it back. Keeper Bel'dugur waits in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, who is to take you for one of the people he fled. Ask Bel'dugur for the digest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_728-c3084ccc318b6385bec7/1-0000.mp3", duration = 43.7028571, start = 0},
+    {file = "Audio/Transport/full_quest_728-486f236c4413306f9027/1-0000.mp3", duration = 56.7640816, start = 0},
   },
 }
 P.transport["quest:732"] = {
@@ -2446,7 +2446,7 @@ P.transport["quest:732"] = {
   fullHash = "9487f0",
   text = "Tremors of the Earth. Garek asks for your help after hearing all you have done for Sigrun. His master, Krasus of the Kirin Tor, sent him to the Badlands to stop trouble brewing in Lethlor Ravine. First, he needs the stolen Sign of the Earth. Krasus of the Kirin Tor sent Garek to the Badlands to stop trouble brewing in Lethlor Ravine. He cannot tell you the exact assignment, only that it matters greatly. Roving ogres took the Sign of the Earth, and Garek needs it back before he can tell you more. They are sometimes seen around Camp Boff. Ogres wander from camp to camp across the Badlands. Rising heat and swirling winds make their trail hard to follow. Garek has heard they sometimes pass through Camp Boff, so look there if you lose track of them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_732-80a08d47c55b0594533d/1-0000.mp3", duration = 45.4269388, start = 0},
+    {file = "Audio/Transport/full_quest_732-7173e974dd3daa484cd3/1-0000.mp3", duration = 62.6155102, start = 0},
   },
 }
 P.transport["quest:733"] = {
@@ -2454,7 +2454,7 @@ P.transport["quest:733"] = {
   fullHash = "3f8582",
   text = "Scrounging. At Sigrun Ironhew's camp, defenses and supplies wait on scrap metal. She needs seven pieces, and nearby ogres carry plenty. Sigrun Ironhew needs materials for the camp's defenses and other needs. The Prospector worries about the camp's condition, so Sigrun wants to begin work soon. Scrap metal is what she lacks. Nearby ogres carry scrap metal, adding weight to talk of siege engines in the Badlands. Their main camp, Dustbelch Grotto, lies a long trek west of Sigrun's camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_733-7175580e55b957591956/1-0000.mp3", duration = 34.3510204, start = 0},
+    {file = "Audio/Transport/full_quest_733-7f195071cd9383c16806/1-0000.mp3", duration = 40.5942857, start = 0},
   },
 }
 P.transport["quest:734"] = {
@@ -2470,7 +2470,7 @@ P.transport["quest:735"] = {
   fullHash = "046386",
   text = "The Star, the Hand and the Heart. In Ironforge, Gerrig Bonegrip offers Yagyin's Digest in exchange for three items of power. Their names are kept from listening ears and written in a note. Gerrig Bonegrip hears you ask for Yagyin's Digest and wonders whether you mean to begin a new chapter of the order somewhere. Gerrig decides it is not their place to ask. With an extra copy on hand, Gerrig believes those of the order should aid one another. So Gerrig asks you to bring three items of power. Their names stay unspoken in case someone is listening, and Gerrig writes them down. Gerrig's note names the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart. Gerrig wants all three before handing over Yagyin's Digest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_735-60c01ea0e3e25e845a98/1-0000.mp3", duration = 45.4530612, start = 0},
+    {file = "Audio/Transport/full_quest_735-362f3f8c4c62fbf0de77/1-0000.mp3", duration = 54.0212245, start = 0},
   },
 }
 P.transport["quest:737"] = {
@@ -2502,7 +2502,7 @@ P.transport["quest:762"] = {
   fullHash = "9ab557",
   text = "An Ambassador of Evil. In the Badlands, Historian Karnik sends you after Ambassador Infernus. He wants you to carry proof of the kill to Advisor Belgrum in Ironforge. Ragnaros sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman. The search has already cost many dwarven lives, and more are dying. Karnik fears the Shadowforge could turn the artifacts against Ironforge. So he sends you back into the Badlands to destroy Infernus and carry Belgrum proof of your victory. Time is short. Ragnaros will not wait for the Shadowforge to prepare.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_762-b2fa8366ac6b58786069/1-0000.mp3", duration = 37.3028571, start = 0},
+    {file = "Audio/Transport/full_quest_762-fc0e7eacf7789589d7c8/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
 P.transport["quest:77"] = {
@@ -2678,7 +2678,7 @@ P.transport["quest:778"] = {
   fullHash = "6bf157",
   text = "This Is Going to Be Hard. In the Badlands, Lotwil Veriatus is ready to summon a powerful elemental. Lotwil calls out that the shackles are finished. The time has come. He asks Lucien and Servo to witness the summoning with you. Alchemy, engineering and the arcane come together in the shackles, and Lotwil expects a powerful elemental to answer on this groundbreaking day.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_778-7d041ceec67e756fc688/1-0000.mp3", duration = 24.084898, start = 0},
+    {file = "Audio/Transport/full_quest_778-03935f55df6cfb2b9eed/1-0000.mp3", duration = 32.7836735, start = 0},
   },
 }
 P.transport["quest:7810"] = {
@@ -2710,7 +2710,7 @@ P.transport["quest:782"] = {
   fullHash = "ab9c01",
   text = "Broken Alliances. Gorn sends you from Kargath to reclaim what the ogres took. He seeks to restore the Horde’s honor after its alliance with Deathwing. Boss Tho’grun, hired to find the Sign of the Earth, betrayed the Horde and kept it. During the Second War, the Horde fought beside Deathwing. His lieutenants Blacklash and Hematus were later imprisoned far to the east in Lethlor Ravine. Gorn believes these old, depraved allies must be silenced to restore the Horde’s honor.\n\nThe Horde needed the Sign of the Earth to open the drakes’ prison, so it hired ogre mercenaries led by Boss Tho’grun to find the sign. Tho’grun turned against the Horde, overwhelmed its forces and kept it. Gorn sends you southeast of Kargath to Camp Boff. Kill Tho’grun and bring back the Sign of the Earth. Gorn will be glad to see Tho’grun dead. The ogres no longer belong to the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_782-60265f923d0508ee0db1/1-0000.mp3", duration = 57.3126531, start = 0},
+    {file = "Audio/Transport/full_quest_782-87694a6f7061319f5110/1-0000.mp3", duration = 72.202449, start = 0},
   },
 }
 P.transport["quest:7828"] = {
@@ -2846,7 +2846,7 @@ P.transport["quest:793"] = {
   fullHash = "4033d2",
   text = "Broken Alliances. Gorn sends you east into Lethlor Ravine to free two black drakes bound by the Seal of the Earth. This follows the first Broken Alliances. Three runestones keep the Seal of the Earth closed, one in each of Lethlor Ravine’s Diamond, Opal and Amethyst pillars. Gorn gives you the Sign of the Earth, which draws the stones out and opens the seal.\n\nCountless drakes live in the ravine, and Blacklash and Hematus are formidable foes. Gorn wants both dead, with their bindings brought back to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_793-f58ea45d7b3b357c749e/1-0000.mp3", duration = 32.235102, start = 0},
+    {file = "Audio/Transport/full_quest_793-58c2c720f82143beaafc/1-0000.mp3", duration = 43.4416327, start = 0},
   },
 }
 P.transport["quest:82"] = {

@@ -1,0 +1,76 @@
+{
+ "key": "quest:95123",
+ "type": "quest",
+ "name": "A Blast Ye Scurvy Dogs!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95123
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wharfmaster Whizzbuzz wants gunpowder to destroy Eastsea pirate ships. You are sent to look for powder kegs near the demolished Winstead.",
+ "sections": [
+  {
+   "title": "Powder for the Wharfmaster",
+   "body": "The ships are Whizzbuzz's next concern, after the Eastsea pirates themselves. He believes they may have stored gunpowder near the freshly demolished Winstead to the north. You are sent to find the powder kegs; he will explain his plan later.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the powder?",
+   "aliases": [
+    "who wants the kegs",
+    "whizzbuzz powder",
+    "who sent me"
+   ],
+   "answer": "Wharfmaster Whizzbuzz wants gunpowder for a plan against the Eastsea ships."
+  },
+  {
+   "q": "Why does Whizzbuzz want gunpowder?",
+   "aliases": [
+    "why powder",
+    "what's the powder for",
+    "eastsea ship plan"
+   ],
+   "answer": "He wants to take out the Eastsea ships so they cannot flee for reinforcements."
+  },
+  {
+   "q": "Where might the pirates have stored the powder?",
+   "aliases": [
+    "powder location",
+    "where are the kegs",
+    "winstead powder"
+   ],
+   "answer": "Whizzbuzz thinks the pirates may have stored gunpowder near the freshly demolished Winstead to the north."
+  },
+  {
+   "q": "What is Whizzbuzz's plan?",
+   "aliases": [
+    "what's his plan",
+    "whizzbuzz plan",
+    "what will happen"
+   ],
+   "answer": "Whizzbuzz says he will explain his plan later; for now, he wants you to find the powder."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "eastsea pirates",
+  "gunpowder",
+  "pirate ships",
+  "powder kegs",
+  "wharfmaster whizzbuzz",
+  "winstead"
+ ],
+ "related": [
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Blast Ye Scurvy Dogs!"
+ ]
+}

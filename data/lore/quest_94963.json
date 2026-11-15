@@ -1,0 +1,77 @@
+{
+ "key": "quest:94963",
+ "type": "quest",
+ "name": "Biting the Hand",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94963
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Fuzzle asks you to leave with him and promises a reward once you are safe. He snarls as any would-be pursuers are threatened.",
+ "sections": [
+  {
+   "title": "Leaving with Fuzzle",
+   "body": "Fuzzle is ready to leave, and he asks you to go with him. He warns that anyone who tries to stop you will be torn to shreds. Your safety comes first; he promises a reward once you are clear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to leave?",
+   "aliases": [
+    "who is fuzzle",
+    "fuzzle?",
+    "who wants to leave"
+   ],
+   "answer": "Fuzzle asks you to leave with him."
+  },
+  {
+   "q": "What does Fuzzle threaten?",
+   "aliases": [
+    "what does fuzzle say",
+    "fuzzle threat",
+    "who will he attack"
+   ],
+   "answer": "Fuzzle threatens to tear apart anyone who tries to stop you."
+  },
+  {
+   "q": "When will Fuzzle give me a reward?",
+   "aliases": [
+    "fuzzle reward",
+    "when reward",
+    "what does he promise"
+   ],
+   "answer": "Fuzzle says he will give you a reward once you are safe."
+  },
+  {
+   "q": "What is the reward?",
+   "aliases": [
+    "what do i get",
+    "fuzzle gold",
+    "reward from fuzzle"
+   ],
+   "answer": "Fuzzle has amassed a hefty sum of gold, which becomes yours."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "biting the hand",
+  "fuzzle",
+  "gnoll",
+  "gold",
+  "leave",
+  "reward",
+  "safe"
+ ],
+ "related": [
+  "topic:gnoll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Biting the Hand"
+ ]
+}

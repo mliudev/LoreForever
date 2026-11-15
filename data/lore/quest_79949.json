@@ -1,0 +1,68 @@
+{
+ "key": "quest:79949",
+ "type": "quest",
+ "name": "A Web of Lies: Debunking Myths and Legends",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79949
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian seeks magical works to expand the library\u2019s collection. You can bring writings that may benefit its shelves.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The librarian at the Library in Ironforge welcomes works for the collection. Magical writings may add to what the library knows, and your discoveries can help its knowledge grow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want?",
+   "aliases": [
+    "what does the librarian need",
+    "library request",
+    "bring what to the library"
+   ],
+   "answer": "The librarian seeks magical works that might benefit the collection."
+  },
+  {
+   "q": "Where should I bring the books?",
+   "aliases": [
+    "where is the library",
+    "ironforge library",
+    "where to take magical works"
+   ],
+   "answer": "Bring the magical works to the librarian at the Library in Ironforge."
+  },
+  {
+   "q": "Why collect magical works?",
+   "aliases": [
+    "why bring books",
+    "what is the collection for",
+    "library purpose"
+   ],
+   "answer": "The librarian says the collection expands the library\u2019s knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "books",
+  "collection",
+  "ironforge",
+  "knowledge",
+  "librarian",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Web of Lies: Debunking Myths and Legends"
+ ]
+}

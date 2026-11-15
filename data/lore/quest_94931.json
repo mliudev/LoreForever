@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "At Southern Watch, Halligan Turner asks you to recover saw blades stolen by gnolls. The lumber mill needs them back.",
+ "summary": "At the lumber mill, Halligan Turner asks you to recover saw blades stolen by gnolls. The mill needs them back.",
  "sections": [
   {
    "title": "Missing Blades",
-   "body": "Gnolls sometimes slip into Southern Watch at night and steal saw blades. Halligan Turner at the lumber mill asks you to look for them in the gnoll camps in Bristle Hills, where the blades may be kept. The lumber mill needs the sharp metal returned.",
+   "body": "Southern Watch keeps most gnolls away, but a few still slip into the camp at night and steal saw blades. Halligan Turner at the lumber mill asks you to look for them in the gnoll camps in Bristle Hills, where the blades may be kept. The lumber mill needs the sharp metal returned.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "where did gnolls steal saws",
     "stolen saws where"
    ],
-   "answer": "Gnolls sneak into Southern Watch at night and steal saw blades."
+   "answer": "A few gnolls get past Southern Watch and sneak into the lumber camp at night to take them."
   },
   {
    "q": "Where might the gnolls keep the blades?",

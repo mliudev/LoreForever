@@ -8011,9 +8011,9 @@
     "quest:1739": {
       "1": [
         {
-          "duration": 49.266938775510205,
-          "file": "Audio/Transport/full_quest_1739-09fa6012d66633d257ff/1-0000.mp3",
-          "sha256": "fabe05e1297f9e8247d1dcce5f6435c90f6d50d60730c10d576dfd2981c42e41",
+          "duration": 65.90693877551021,
+          "file": "Audio/Transport/full_quest_1739-fc98113ae8fc98815474/1-0000.mp3",
+          "sha256": "56c0152818e471cd6eec61ba2c9cc4aa6b010d08f31e271c6625a71908f83c10",
           "start": 0
         }
       ],
@@ -8025,12 +8025,12 @@
         ]
       },
       "fullHash": "148466",
-      "generation": "82d23b60f84fb9de684b",
+      "generation": "1e5e780f69bd76451cf1",
       "hash": "148466",
       "source": {
-        "duration": 49.293061,
+        "duration": 65.933061,
         "file": null,
-        "sha256": "09fa6012d66633d257ff2e18fd1abe6c1d529e0eb4c53e0282b1589c7e655d91"
+        "sha256": "fc98113ae8fc988154745663205a5b3511fa56fbd313d9f5fbb1bd9b5dc75242"
       },
       "text": "The Binding. In Stormwind, warlocks seek to bind a succubus to their will. Beneath The Slaughtered Lamb, an initiate uses an enchanted Heartswood core to summon the demon and defeat it in combat. Beneath The Slaughtered Lamb in Stormwind's Mage Quarter, a crypt shelters the city's warlocks. They practice forbidden arts there, away from the city watch and the Cathedral of Light. Stone summoning circles channel the Nether's power and let initiates reach across the veil between worlds. A warlock needs a prepared Heartswood Core to summon a succubus. The ritual opens a breach at the summoning circle, but the demon can corrupt and overwhelm even a fortified mind. To master it, the warlock must defeat it in single combat. Its physical form returns to the Twisting Nether, while its true tether is secured."
     },
@@ -8999,9 +8999,9 @@
     "quest:1842": {
       "1": [
         {
-          "duration": 40.12408163265306,
-          "file": "Audio/Transport/full_quest_1842-286d91be2cf3c14cbdcd/1-0000.mp3",
-          "sha256": "0843df43330c1b1d363acc71ac8ad98100c3ba33f3603d4e22b14fea77a37f6c",
+          "duration": 49.371428571428574,
+          "file": "Audio/Transport/full_quest_1842-7e47e6d8c7873d889e64/1-0000.mp3",
+          "sha256": "d1bbde74b499ddea90bb8aa048049426f29456718afd18bf334500767cd1c400",
           "start": 0
         }
       ],
@@ -9013,21 +9013,21 @@
         ]
       },
       "fullHash": "cc54cb",
-      "generation": "c89c282ddaf14b6fc3f1",
+      "generation": "47c433a1ea9f8fab8459",
       "hash": "cc54cb",
       "source": {
-        "duration": 40.150204,
+        "duration": 49.397551,
         "file": null,
-        "sha256": "286d91be2cf3c14cbdcd2ec5976a033ea5f1c95553238677db12f64725060637"
+        "sha256": "7e47e6d8c7873d889e647b175181dcb0f36efc20b830ad53124fd974d7829bf5"
       },
       "text": "Satyr Hooves. In Sen'jin Village, Ula'elek sends warriors north to Ashenvale for Satyr Hooves. He needs their strange power to forge brutal gauntlets. Ula'elek sends you into Ashenvale's ancient woods to gather what his craft requires. Demonic corruption still clings to the satyr covens there. For armor meant to rival Kalimdor's fiercest forces, he needs more than iron and leather. In northeastern Ashenvale, satyrs feed on the forest's lingering purity and twist it into foul power. Those that take in the most grow swollen hooves without the usual cloven split. Ula'elek plans to draw out that concentrated magic and weave it into his gauntlets."
     },
     "quest:1843": {
       "1": [
         {
-          "duration": 44.695510204081636,
-          "file": "Audio/Transport/full_quest_1843-62d774729d003dc8be79/1-0000.mp3",
-          "sha256": "5ad19984be19beaf164d355452e277938bf9d77008d15f56d2a387a7cf26bc36",
+          "duration": 70.29551020408164,
+          "file": "Audio/Transport/full_quest_1843-b0c360bee21b16fd2532/1-0000.mp3",
+          "sha256": "118a0ab12cd315e34cb2d7920bbaabcd4d1d37bcd40eaa49dbb2e015e28e0c57",
           "start": 0
         }
       ],
@@ -9039,12 +9039,12 @@
         ]
       },
       "fullHash": "c944ac",
-      "generation": "4dc939048f78cffcf682",
+      "generation": "6c01b80bd93760ee9dd9",
       "hash": "c944ac",
       "source": {
-        "duration": 44.721633,
+        "duration": 70.321633,
         "file": null,
-        "sha256": "62d774729d003dc8be7972be7db396ae40b194e160a2c984cb9d1895f58b1d2d"
+        "sha256": "b0c360bee21b16fd25329e49aeb236605b67501dae03973b8633aeba76711d91"
       },
       "text": "Brutal Gauntlets. In Durotar, Ula'elek has finished Brutal Gauntlets for a seasoned Horde warrior. Rare materials from distant lands went into the work, meant to honor both maker and bearer. In Durotar, Ula'elek brings his lineage and skill to armor for a seasoned frontline warrior. He shapes brutal gauntlets from hardened trophies taken from dangerous foes. The finished armor can withstand fierce blows and strengthen the wearer's attacks. Among orcs and trolls, fine arms and armor carry the forge's prestige and the maker's spirit into battle. When Ula'elek presents the finished gauntlets, he entrusts a warrior with his ancestors' legacy. He expects a champion who wears them to answer that craft with courage, martial discipline, and strength."
     },
@@ -12093,9 +12093,9 @@
     "quest:2985": {
       "1": [
         {
-          "duration": 44.74775510204082,
-          "file": "Audio/Transport/full_quest_2985-571e8e1a094af11af157/1-0000.mp3",
-          "sha256": "5022ed09a9fc69905ee076c5f5d8453d92d433d64daf3cdde43c96939df48fa0",
+          "duration": 55.43183673469388,
+          "file": "Audio/Transport/full_quest_2985-25125b257ff5fd4748fd/1-0000.mp3",
+          "sha256": "fea269125b6a755ed7318761526d99ad8c77408c5d1128bfecb57def7523e15a",
           "start": 0
         }
       ],
@@ -12107,12 +12107,12 @@
         ]
       },
       "fullHash": "bcec1e",
-      "generation": "a7d7259a5e858c8b5ca0",
+      "generation": "d0fa48e54680ec9af91d",
       "hash": "bcec1e",
       "source": {
-        "duration": 44.773878,
+        "duration": 55.457959,
         "file": null,
-        "sha256": "571e8e1a094af11af157dd94f11be61a1c4d7bc6abd3d39a2175572e7b6439b4"
+        "sha256": "25125b257ff5fd4748fdb7843db5cde3cfd12e00d465facfd9078b78d3e58970"
       },
       "text": "Call of Water. Swart sends an initiate from Razor Hill toward Islen Waterseer on the Barrens coast. Earth and fire have tested the shaman; water asks for another kind of understanding. Swart, the shaman trainer in Razor Hill, guides initiates through the elements. Earth teaches endurance, and fire tests their command. Once an initiate can wield flame without being consumed, Swart judges them ready to seek the teachings of water. Islen Waterseer lives on the Barrens coast beyond Ratchet. Travel south along the Southfury River into the Barrens, then east to the shore near a massive shark's carcass. Islen dwells where the waves meet the land, apart from the trainers in Durotar's towns. She guides the Horde in communion with water."
     },
@@ -19347,9 +19347,9 @@
     "quest:683": {
       "1": [
         {
-          "duration": 27.768163265306125,
-          "file": "Audio/Transport/full_quest_683-67a4620704a9deb08043/1-0000.mp3",
-          "sha256": "e9ce14a2cd753304e0b45cf56ddf0a66142dfae34bac632d87561b70fea0dc6f",
+          "duration": 34.142040816326535,
+          "file": "Audio/Transport/full_quest_683-aad6f76be3b6a2c72197/1-0000.mp3",
+          "sha256": "143550094539ce2b39a9fdcf50fb273e3e131e336fca7b2087342aab54aab50f",
           "start": 0
         }
       ],
@@ -19361,12 +19361,12 @@
         ]
       },
       "fullHash": "ec0716",
-      "generation": "7e98aa9030f5fd8f4f8a",
+      "generation": "e9906ea0dfafd6a511bd",
       "hash": "ec0716",
       "source": {
-        "duration": 27.768163,
+        "duration": 34.168163,
         "file": null,
-        "sha256": "67a4620704a9deb0804359a80fe2d953601af1339fa7d8e60513565e7e593e76"
+        "sha256": "aad6f76be3b6a2c72197519bcadd646c35a80cd6f96b93e0f50301285523d295"
       },
       "text": "Sara Balloo's Plea. In Ironforge, Sara Balloo grieves for Sully and asks you to carry her plea to King Magni Bronzebeard. Sara has received Sully’s final letter, recovered from the waters of the Thandol Span. She wants the king to remember his sacrifice, so she writes him a plea. Grief keeps her from appearing before the throne herself. She entrusts the sealed letter to you, a champion of the Alliance, to carry to King Magni Bronzebeard."
     },
@@ -25535,9 +25535,9 @@
     "quest:94": {
       "1": [
         {
-          "duration": 52.08816326530612,
-          "file": "Audio/Transport/full_quest_94-d8ac7a39e9ffc6f8d723/1-0000.mp3",
-          "sha256": "8dfc5b640df59a24bc4cf60950e6d27d6df0f48833784b2b44fbe9f2733e3f7b",
+          "duration": 73.6130612244898,
+          "file": "Audio/Transport/full_quest_94-fdcccc7748a4919ed786/1-0000.mp3",
+          "sha256": "628b937b783794c9532869a9b54cb0eecf8e094c95495d0816bd0621a12064e2",
           "start": 0
         }
       ],
@@ -25549,12 +25549,12 @@
         ]
       },
       "fullHash": "17e7ca",
-      "generation": "ee0b29c261b0b0bf7dba",
+      "generation": "2c6d5fdc3d087f9f8af9",
       "hash": "17e7ca",
       "source": {
-        "duration": 52.088163,
+        "duration": 73.639184,
         "file": null,
-        "sha256": "d8ac7a39e9ffc6f8d72317e4da399288c4a3ee586ae2fec668123d9f116c8227"
+        "sha256": "fdcccc7748a4919ed78629c2c374a095d05bbded00fba9ca91fdf7f02fa56fa2"
       },
       "text": "A Watchful Eye. At the Tower of Azora, Theocritus watches Morganth from afar. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar. From his tower in eastern Elwynn Forest, Theocritus watches the hills. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Fearing Morganth's dark magic may cross the border, Theocritus made the Eye of Azora to watch the rogue wizard from afar. A distant view cannot show Theocritus what Morganth plans. So he gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades.\n\nSet the glyph into the worn hollow at its base. An arcane link then reaches back to Azora, letting Theocritus look into his rival's mind."
     },
@@ -34519,15 +34519,6 @@
       1290,
       1499
     ],
-    "0843df43330c1b1d363acc71ac8ad98100c3ba33f3603d4e22b14fea77a37f6c": [
-      214,
-      364,
-      561,
-      698,
-      925,
-      1176,
-      1348
-    ],
     "088ed96d7baaf7d30e148bd5794a287d7da02ac89729607a946217c710b03f49": [
       162,
       502,
@@ -34892,6 +34883,17 @@
       1439,
       1750
     ],
+    "118a0ab12cd315e34cb2d7920bbaabcd4d1d37bcd40eaa49dbb2e015e28e0c57": [
+      201,
+      482,
+      675,
+      818,
+      1170,
+      1428,
+      1676,
+      2044,
+      2347
+    ],
     "11c4685900cf9402c203060f8548fa7c0a6a6954abd597704ea72b4a93fd0aa4": [
       290,
       438,
@@ -35011,6 +35013,12 @@
     ],
     "140e3a932a5d69d6524b49cd3d0455dd7ea5f54cc7a1074a32556da0f6a64527": [
       712
+    ],
+    "143550094539ce2b39a9fdcf50fb273e3e131e336fca7b2087342aab54aab50f": [
+      424,
+      665,
+      852,
+      1001
     ],
     "14e0681454bd853c0baf70945bb3d2e4cf5347742c0284e7a03396a6a285343b": [
       511
@@ -37591,13 +37599,6 @@
       1090,
       1628
     ],
-    "5022ed09a9fc69905ee076c5f5d8453d92d433d64daf3cdde43c96939df48fa0": [
-      412,
-      615,
-      752,
-      1008,
-      1148
-    ],
     "505c5027523403d7129a2697d04957e0696447e4058a796d034ce4e86911b73b": [
       216,
       385,
@@ -37850,6 +37851,18 @@
       1983,
       2193
     ],
+    "56c0152818e471cd6eec61ba2c9cc4aa6b010d08f31e271c6625a71908f83c10": [
+      154,
+      311,
+      710,
+      883,
+      1251,
+      1550,
+      1747,
+      1887,
+      2095,
+      2295
+    ],
     "56c47761108e72e9e6b776b3fa735216c75ff0068ed8ca29436368a057d0a776": [
       693
     ],
@@ -37986,14 +37999,6 @@
     "5ac144968902c184d306a5782f33f768abc27a4b9e0b9b07494fdfe541bb396e": [
       226,
       435
-    ],
-    "5ad19984be19beaf164d355452e277938bf9d77008d15f56d2a387a7cf26bc36": [
-      198,
-      427,
-      646,
-      817,
-      999,
-      1264
     ],
     "5ad788920f5ca228aa30794e41ce9f831884036a990e394eee1297e2e6a94e80": [
       190,
@@ -38325,6 +38330,19 @@
       1081,
       1311,
       1484
+    ],
+    "628b937b783794c9532869a9b54cb0eecf8e094c95495d0816bd0621a12064e2": [
+      179,
+      706,
+      860,
+      1298,
+      1448,
+      1659,
+      1844,
+      2071,
+      2290,
+      2488,
+      2653
     ],
     "62b7dd4c9c6a17aec5717f36ad443dfc2d8647d1bdd76c88b849ba1601a7cfcd": [
       189,
@@ -40085,14 +40103,6 @@
       1019,
       1157,
       1312
-    ],
-    "8dfc5b640df59a24bc4cf60950e6d27d6df0f48833784b2b44fbe9f2733e3f7b": [
-      161,
-      451,
-      632,
-      1165,
-      1545,
-      1776
     ],
     "8e3c2c0985ad4174364e17ddd52ce7485738fecea4241212f2f7a92b814a9efd": [
       272,
@@ -42886,6 +42896,15 @@
       967,
       1238
     ],
+    "d1bbde74b499ddea90bb8aa048049426f29456718afd18bf334500767cd1c400": [
+      335,
+      494,
+      736,
+      886,
+      1149,
+      1447,
+      1656
+    ],
     "d1bddb2a74fdfc45e6a99e7a9921d417e664e481d6524c47bf8969b00339be2f": [
       151,
       357,
@@ -43930,12 +43949,6 @@
       530,
       672
     ],
-    "e9ce14a2cd753304e0b45cf56ddf0a66142dfae34bac632d87561b70fea0dc6f": [
-      293,
-      509,
-      689,
-      826
-    ],
     "e9dbe49fd961b082d6918248b6cd8b665d54bfbd27901051e92a0bbf93e9a39d": [
       200,
       366,
@@ -44574,16 +44587,6 @@
       1303,
       1472
     ],
-    "fabe05e1297f9e8247d1dcce5f6435c90f6d50d60730c10d576dfd2981c42e41": [
-      163,
-      449,
-      689,
-      882,
-      1157,
-      1310,
-      1559,
-      1695
-    ],
     "fad45b0baaf246378bb24b04fdb735361d5fdb826625edbff59b66945dc9e7f6": [
       243,
       546,
@@ -44735,6 +44738,16 @@
       1123,
       1326,
       1525
+    ],
+    "fea269125b6a755ed7318761526d99ad8c77408c5d1128bfecb57def7523e15a": [
+      193,
+      567,
+      802,
+      979,
+      1135,
+      1288,
+      1455,
+      1758
     ],
     "fea9f4a999f28186ec30a9addf6f26a391b059462b9bb9b376ae138cc460349a": [
       239,
@@ -45008,10 +45021,6 @@
       "1137": 2,
       "350": 1
     },
-    "0843df43330c1b1d363acc71ac8ad98100c3ba33f3603d4e22b14fea77a37f6c": {
-      "364": 1,
-      "925": 2
-    },
     "088ed96d7baaf7d30e148bd5794a287d7da02ac89729607a946217c710b03f49": {
       "1089": 2,
       "502": 1
@@ -45177,6 +45186,10 @@
       "1439": 2,
       "776": 1
     },
+    "118a0ab12cd315e34cb2d7920bbaabcd4d1d37bcd40eaa49dbb2e015e28e0c57": {
+      "1676": 2,
+      "818": 1
+    },
     "11c4685900cf9402c203060f8548fa7c0a6a6954abd597704ea72b4a93fd0aa4": {
       "438": 1,
       "961": 2
@@ -45232,6 +45245,9 @@
     "13d6bed3f42056923e5b022453947bf664443350655f3e6d0b95789fc3541bb3": {
       "1557": 2,
       "647": 1
+    },
+    "143550094539ce2b39a9fdcf50fb273e3e131e336fca7b2087342aab54aab50f": {
+      "424": 1
     },
     "1524a462d58b5599a6ee9c3c49b99debd1ba5cc3cb679ae14a121518a535d59a": {
       "1265": 2,
@@ -46323,10 +46339,6 @@
       "1090": 2,
       "329": 1
     },
-    "5022ed09a9fc69905ee076c5f5d8453d92d433d64daf3cdde43c96939df48fa0": {
-      "1008": 2,
-      "412": 1
-    },
     "505c5027523403d7129a2697d04957e0696447e4058a796d034ce4e86911b73b": {
       "1479": 2,
       "667": 1
@@ -46436,6 +46448,10 @@
       "1689": 3,
       "404": 1
     },
+    "56c0152818e471cd6eec61ba2c9cc4aa6b010d08f31e271c6625a71908f83c10": {
+      "1550": 2,
+      "710": 1
+    },
     "56e2d5f2efe1b20dc3a2fa3522ab0ca52568570558a061c0076f84b97d395c6e": {
       "1122": 2,
       "397": 1
@@ -46500,10 +46516,6 @@
     },
     "5ac144968902c184d306a5782f33f768abc27a4b9e0b9b07494fdfe541bb396e": {
       "226": 1
-    },
-    "5ad19984be19beaf164d355452e277938bf9d77008d15f56d2a387a7cf26bc36": {
-      "427": 1,
-      "999": 2
     },
     "5ad788920f5ca228aa30794e41ce9f831884036a990e394eee1297e2e6a94e80": {
       "1405": 2,
@@ -46660,6 +46672,10 @@
     },
     "625fdd0fce5eb2de7d028d2dae0b6d9dd0235c3258a204201ff22a5eeb62e31b": {
       "665": 1
+    },
+    "628b937b783794c9532869a9b54cb0eecf8e094c95495d0816bd0621a12064e2": {
+      "1659": 2,
+      "706": 1
     },
     "62b7dd4c9c6a17aec5717f36ad443dfc2d8647d1bdd76c88b849ba1601a7cfcd": {
       "1103": 2,
@@ -47432,10 +47448,6 @@
     "8de7dfa6377cdec9c9a24fcb9b0d68e4f4c67cb874899c07f810cce024f062c3": {
       "1157": 2,
       "521": 1
-    },
-    "8dfc5b640df59a24bc4cf60950e6d27d6df0f48833784b2b44fbe9f2733e3f7b": {
-      "1165": 2,
-      "451": 1
     },
     "8e3c2c0985ad4174364e17ddd52ce7485738fecea4241212f2f7a92b814a9efd": {
       "272": 1
@@ -48653,6 +48665,10 @@
     "d17501e4ca83f21d15828a3575acde055b0ef037ebd91842198d794e2c7de9ac": {
       "480": 1
     },
+    "d1bbde74b499ddea90bb8aa048049426f29456718afd18bf334500767cd1c400": {
+      "1149": 2,
+      "494": 1
+    },
     "d26b2fa41fb34934ab248abf7678826bf702a8e9fc4040da560785d18a5c365f": {
       "362": 1
     },
@@ -49092,9 +49108,6 @@
     "e9854618f6cc36b9f18f48b04df49949bab6c57b4e28357e5ac4f3aef5987531": {
       "382": 1
     },
-    "e9ce14a2cd753304e0b45cf56ddf0a66142dfae34bac632d87561b70fea0dc6f": {
-      "293": 1
-    },
     "e9dbe49fd961b082d6918248b6cd8b665d54bfbd27901051e92a0bbf93e9a39d": {
       "1105": 2,
       "366": 1
@@ -49381,10 +49394,6 @@
       "1114": 2,
       "397": 1
     },
-    "fabe05e1297f9e8247d1dcce5f6435c90f6d50d60730c10d576dfd2981c42e41": {
-      "1157": 2,
-      "449": 1
-    },
     "fad45b0baaf246378bb24b04fdb735361d5fdb826625edbff59b66945dc9e7f6": {
       "243": 1,
       "871": 2
@@ -49455,6 +49464,10 @@
       "1123": 2,
       "471": 1
     },
+    "fea269125b6a755ed7318761526d99ad8c77408c5d1128bfecb57def7523e15a": {
+      "1288": 2,
+      "567": 1
+    },
     "fea9f4a999f28186ec30a9addf6f26a391b059462b9bb9b376ae138cc460349a": {
       "418": 1
     },
@@ -49498,5 +49511,31 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreQuests2",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_quest_1739-09fa6012d66633d257ff/1-0000.mp3",
+      "sha256": "fabe05e1297f9e8247d1dcce5f6435c90f6d50d60730c10d576dfd2981c42e41"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1842-286d91be2cf3c14cbdcd/1-0000.mp3",
+      "sha256": "0843df43330c1b1d363acc71ac8ad98100c3ba33f3603d4e22b14fea77a37f6c"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1843-62d774729d003dc8be79/1-0000.mp3",
+      "sha256": "5ad19984be19beaf164d355452e277938bf9d77008d15f56d2a387a7cf26bc36"
+    },
+    {
+      "file": "Audio/Transport/full_quest_2985-571e8e1a094af11af157/1-0000.mp3",
+      "sha256": "5022ed09a9fc69905ee076c5f5d8453d92d433d64daf3cdde43c96939df48fa0"
+    },
+    {
+      "file": "Audio/Transport/full_quest_683-67a4620704a9deb08043/1-0000.mp3",
+      "sha256": "e9ce14a2cd753304e0b45cf56ddf0a66142dfae34bac632d87561b70fea0dc6f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_94-d8ac7a39e9ffc6f8d723/1-0000.mp3",
+      "sha256": "8dfc5b640df59a24bc4cf60950e6d27d6df0f48833784b2b44fbe9f2733e3f7b"
+    }
+  ],
   "version": 1
 }

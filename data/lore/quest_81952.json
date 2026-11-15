@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Growing Collection",
-   "body": "The keeper of the Library in Ironforge asks you to bring magical works that might benefit the collection. Your efforts help the library\u2019s knowledge grow.",
+   "body": "Any magical work you find might earn a place on the library's shelves. Your efforts help the library\u2019s knowledge grow.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "where is the library",
     "Ironforge library"
    ],
-   "answer": "The request concerns the Library in Ironforge."
+   "answer": "It comes from a library keeper: Garion Wendell in Stormwind for the Alliance, or Owen Thadd in the Undercity for the Horde."
   },
   {
    "q": "Why are magical works being collected?",
@@ -52,14 +52,11 @@
  "keywords": [
   "collection",
   "everyday etiquette",
-  "ironforge",
   "knowledge",
   "library",
   "magical works"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Everyday Etiquette"

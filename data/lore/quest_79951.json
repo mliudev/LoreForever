@@ -1,0 +1,67 @@
+{
+ "key": "quest:79951",
+ "type": "quest",
+ "name": "Mummies: A Guide to the Unsavory Undead",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79951
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian seeks magical works for the collection on mummies and the unsavory undead. Your contribution helps expand the library\u2019s knowledge.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The library\u2019s collection depends on works brought by visitors. You are asked to add something about mummies and the unsavory undead, and further magical books may also be of use. Each such work can widen what the library knows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the librarian collecting?",
+   "aliases": [
+    "mummy books",
+    "undead guide",
+    "what books do they want"
+   ],
+   "answer": "The librarian seeks works about mummies and the unsavory undead, along with other magical books that could benefit the library."
+  },
+  {
+   "q": "Why bring a book to the library?",
+   "aliases": [
+    "why give book",
+    "what does the library gain",
+    "help library"
+   ],
+   "answer": "Works brought to the librarian expand the library\u2019s knowledge."
+  },
+  {
+   "q": "Can I bring other magical books?",
+   "aliases": [
+    "other magic books",
+    "more magical works",
+    "what else can I bring"
+   ],
+   "answer": "Yes. The librarian welcomes other magical works that might benefit the library."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "books",
+  "collection",
+  "library",
+  "magical works",
+  "mummies",
+  "unsavory undead"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mummies: A Guide to the Unsavory Undead"
+ ]
+}

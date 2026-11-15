@@ -1,0 +1,83 @@
+{
+ "key": "quest:96782",
+ "type": "quest",
+ "name": "Covert Extraction",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96782
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Myrokos Silentform seeks two Perenolde heirlooms in the ruins of Alterac. The Syndicate is after them too.",
+ "sections": [
+  {
+   "title": "The Heirlooms",
+   "body": "In the ruins of Alterac, Myrokos Silentform wants you to recover two heirlooms of House Perenolde. The Blade of House Perenolde and the Royal Aegis of Perenolde lie in two towers, according to a report. The Syndicate seeks them as well, while ogres occupy the ruins. Myrokos asks you to bring both relics to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Perenolde heirlooms?",
+   "aliases": [
+    "who sent me",
+    "who wants these relics"
+   ],
+   "answer": "Myrokos Silentform wants you to retrieve the Blade of House Perenolde and the Royal Aegis of Perenolde."
+  },
+  {
+   "q": "What are the two heirlooms?",
+   "aliases": [
+    "perenolde relics",
+    "blade and shield"
+   ],
+   "answer": "They are the Blade of House Perenolde, a sword, and the Royal Aegis of Perenolde, a shield."
+  },
+  {
+   "q": "Where are the heirlooms?",
+   "aliases": [
+    "where are the relics",
+    "perenolde items location"
+   ],
+   "answer": "A report places the Blade of House Perenolde and the Royal Aegis of Perenolde in two towers among the ruins of Alterac."
+  },
+  {
+   "q": "Why does Myrokos want them?",
+   "aliases": [
+    "why retrieve the heirlooms",
+    "why does he need them"
+   ],
+   "answer": "The Syndicate is also after the two Perenolde heirlooms, so Myrokos wants you to acquire them first."
+  },
+  {
+   "q": "Who occupies the ruins?",
+   "aliases": [
+    "ogres in alterac",
+    "what's in the ruins"
+   ],
+   "answer": "Ogres occupy the ruins of Alterac."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "blade of house perenolde",
+  "covert extraction",
+  "myrokos silentform",
+  "ogres",
+  "royal aegis of perenolde",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:ruins-of-alterac",
+  "topic:syndicate",
+  "topic:alterac-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Covert Extraction"
+ ]
+}

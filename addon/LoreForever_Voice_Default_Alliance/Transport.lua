@@ -38,7 +38,7 @@ P.transport["npc:athridas-bearmantle"] = {
   fullHash = "0b93f6",
   text = "Athridas Bearmantle. In Dolanaar, Athridas Bearmantle calls young adventurers to defend the settlement and its wilds. The night elf druid sends them to investigate corruption among local wildlife and the nearby Gnarlpine furbolgs. Athridas Bearmantle helps defend night elves arriving from Shadowglen in Dolanaar. Teldrassil, the newly grown world tree, shows unnatural signs of decay and unrest. So Athridas organizes local scouting and guards the township against threats from the surrounding wilds. Athridas Bearmantle worries over the nearby Gnarlpine furbolgs. Once peaceful neighbors, the tribe has fallen to spreading madness and corruption. The taint poisons their shamans and chieftains, driving them to violence against the Kaldorei. Athridas calls on willing champions to contain the danger and investigate the deeper corruption taking root in the wilderness.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_athridas-bearmantle-019bd17142746f5efe96/1-0000.mp3", duration = 53.4726531, start = 0},
+    {file = "Audio/Transport/full_npc_athridas-bearmantle-f327b56fbd78e9545cce/1-0000.mp3", duration = 66.56, start = 0},
   },
 }
 P.transport["npc:auntie-bernice-stonefield"] = {
@@ -46,7 +46,7 @@ P.transport["npc:auntie-bernice-stonefield"] = {
   fullHash = "250781",
   text = "\"Auntie\" Bernice Stonefield. At the Stonefield homestead in south-central Elwynn Forest, “Auntie” Bernice Stonefield keeps watch over the neighborhood. Widowed by the kingdom’s military campaigns, she lives beside Ma Stonefield and is known across the valley for her pork belly pies. She remains deeply suspicious of the rival Maclure family. War took Bernice’s husband in the Kingdom of Stormwind’s military campaigns. She now lives with her kin at the family homestead. There, she helps Ma Stonefield manage the farm’s daily affairs and keeps the household fed and running. Her pork belly pies have made her famous throughout the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_auntie-bernice-stonefield-8169135bc4a45507ccda/1-0000.mp3", duration = 35.3697959, start = 0},
+    {file = "Audio/Transport/full_npc_auntie-bernice-stonefield-8568c88bd4af90defd5a/1-0000.mp3", duration = 51.2522449, start = 0},
   },
 }
 P.transport["npc:balthule-shadowstrike"] = {
@@ -70,7 +70,7 @@ P.transport["npc:billy-maclure"] = {
   fullHash = "cb3fc3",
   text = "Billy Maclure. At Maclure Vineyards, Billy Maclure's pranks stir trouble between two neighboring farms. The young human boy dodges chores and joins the feud between his family and the Stonefields, though fresh pastries can win his help. Billy Maclure spends his days outside the barn at Maclure Vineyards, near farmer Gerard Tiller. He grows up among the grapevines in southern Elwynn Forest, often slipping away from chores to roam the meadows. The Maclures and Stonefields have long been hostile toward each other. Billy turns their feud into a chance for pranks and petty theft.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_billy-maclure-5626b23d64b6cd2807eb/1-0000.mp3", duration = 33.1755102, start = 0},
+    {file = "Audio/Transport/full_npc_billy-maclure-f874c046f67efc7579c1/1-0000.mp3", duration = 43.7289796, start = 0},
   },
 }
 P.transport["npc:blind-mary"] = {
@@ -150,7 +150,7 @@ P.transport["npc:corithras-moonrage"] = {
   fullHash = "245ea0",
   text = "Corithras Moonrage. In Dolanaar, Corithras Moonrage teaches newcomers about Teldrassil and its moonwells. His lessons reveal the tree’s place in kaldorei life and the burdens its people bear. In Dolanaar, Corithras Moonrage teaches travelers about Teldrassil. Young kaldorei begin exploring the tree beyond Shadowglen, and he explains the history of their new home. He also speaks of the care its wilderness demands. In this changing era, survival calls for vigilance and respect for the natural order. Corithras gathers moonwell water for the druids in Darnassus. He sends travelers to draw pure water from moonwells across Teldrassil in specially crafted phials, then deliver it to Fandral Staghelm. This work helps him watch over the World Tree and preserve the wilderness against creeping corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_corithras-moonrage-409e34493bbbdf175d98/1-0000.mp3", duration = 50.0506122, start = 0},
+    {file = "Audio/Transport/full_npc_corithras-moonrage-ebbc4649f81dba2e3c45/1-0000.mp3", duration = 68.2579592, start = 0},
   },
 }
 P.transport["npc:daphne-stilwell"] = {
@@ -174,7 +174,7 @@ P.transport["npc:denalan"] = {
   fullHash = "32a485",
   text = "Denalan. At Lake Al'Ameth, Denalan studies Teldrassil's strange plants and seeks a remedy for its corruption. From his small lakeside plot, he asks young adventurers to gather samples, examine timberlings, and test enchanted soil. On Lake Al'Ameth's eastern shore, Denalan studies the plants that have taken root since Teldrassil's planting. Beneath a cloth awning, he keeps field tools and rows of planter boxes close at hand. While many kaldorei watch for danger or tend to high druidic rites, Denalan gives his days to herbalism. He chose this plot over Darnassus's grand barrows to study the World Tree's unusual flora. Denalan investigates the unrest among Teldrassil's native wildlife. Timberlings, usually docile woodland beings of wood and sprout, have grown more aggressive. He enchants soil to nurture wild seeds in captivity and study how corruption seeps into root systems. Among the specimens he examines are shimmering fronds, glowing fruit, and moss-twined growths. He seeks the taint troubling the forest boughs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_denalan-1d1d218a0e5d6df8a316/1-0000.mp3", duration = 66.037551, start = 0},
+    {file = "Audio/Transport/full_npc_denalan-ba0eeb76042fb2a75ccb/1-0000.mp3", duration = 79.5689796, start = 0},
   },
 }
 P.transport["npc:dirania-silvershine"] = {
@@ -182,7 +182,7 @@ P.transport["npc:dirania-silvershine"] = {
   fullHash = "c99711",
   text = "Dirania Silvershine. In Shadowglen, Dirania Silvershine keeps watch over the grove and worries for Iverron. Loyal and observant, she looks out for her companion when his reckless ventures put him in peril. Dirania watches over Shadowglen, a quiet vale beneath Teldrassil's boughs. Young night elves begin their service to Kalimdor and the Alliance here. While others in the barrow mounds and sanctuaries tend to wider spiritual duties, Dirania keeps her attention on those closest to her. Even in Teldrassil's heart, quiet dangers stir. Dirania's chief concern is her companion Iverron. Eager and careless around the poisonous creatures that creep through the glen, he often gets into trouble. When a webwood spider's venomous bite fells him, Dirania seeks willing hands to gather ingredients and prepare a remedy before the venom causes lasting harm.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dirania-silvershine-4a5c5079fea6d83c601f/1-0000.mp3", duration = 52.2187755, start = 0},
+    {file = "Audio/Transport/full_npc_dirania-silvershine-3f0f3302d9b40c656a9b/1-0000.mp3", duration = 66.6383673, start = 0},
   },
 }
 P.transport["npc:dorn-plainstalker"] = {
@@ -214,7 +214,7 @@ P.transport["npc:fandral-staghelm"] = {
   fullHash = "286930",
   text = "Fandral Staghelm. From the Cenarion Enclave in Darnassus, Fandral Staghelm leads the druids of the Cenarion Circle. With Malfurion Stormrage gone into the Emerald Dream, Fandral championed Teldrassil and a forceful Kaldorei resurgence, often clashing with High Priestess Tyrande Whisperwind. After the Third War, the night elves lost their immortality and sacred sanctuary when Nordrassil was sacrificed atop Mount Hyjal. When Malfurion Stormrage vanished, Fandral took up leadership of the druids. He persuaded the Circle of Ancients that their people must rebuild and regain their immortality.\n\nWith the Circle's approval, Fandral led the druids in raising Teldrassil off the coast of Kalimdor. He meant its great bough to honor Kaldorei endurance and restore their lost supremacy. The Dragon Aspects withheld their blessings from the endeavor. A millennium before the First War, Fandral served as the Kaldorei field commander in Silithus during the War of the Shifting Sands. The qiraji knew him as Kar'sis, the Hand of Earth. His beloved only son, Valstann, fought beside him on the front lines.\n\nThe qiraji General Rajaxx exploited Fandral's devotion with a feint against Southwind Village. Valstann was captured and executed before the horrified Archdruid. Grief broke Fandral's spirit and drove a devastating retreat. His bitter hatred of the swarm endures. In Darnassus, Fandral governs Kaldorei affairs with a haughty, unyielding hand. High Priestess Tyrande Whisperwind is a spiritual leader who favors preservation and cautious diplomacy. Fandral instead sees military expansion and decisive strength as vital to his people's survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_fandral-staghelm-40c2d7a74cc869c2c62c/1-0000.mp3", duration = 103.88898, start = 0},
+    {file = "Audio/Transport/full_npc_fandral-staghelm-90742a1ca495776d32f6/1-0000.mp3", duration = 142.785306, start = 0},
   },
 }
 P.transport["npc:farthing"] = {
@@ -286,7 +286,7 @@ P.transport["npc:grelin-whitebeard"] = {
   fullHash = "d2dc43",
   text = "Grelin Whitebeard. In Coldridge Valley, Grelin Whitebeard keeps watch over the Frostmane threat by royal decree. Ironforge is busy fighting troggs, so his isolated camp depends on local recruits. Grelin Whitebeard and his brother Senir came to Coldridge Valley under orders from the Senate of Ironforge and King Magni Bronzebeard. Their charge was to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are busy fighting trogg outbreaks across Dun Morogh, leaving the brothers short of supplies. So Grelin made camp in the snowy hills and relies on local recruits and passing initiates to do the work. From his camp, Grelin watches the Frostmane tribe press south from Coldridge Valley. The trolls grow bolder and raid beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations.\n\nGrelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grelin-whitebeard-3999f36ff6d5e3861df6/1-0000.mp3", duration = 64.235102, start = 0},
+    {file = "Audio/Transport/full_npc_grelin-whitebeard-4c25be8ac86ebab7a24e/1-0000.mp3", duration = 82.7297959, start = 0},
   },
 }
 P.transport["npc:grif-wildheart"] = {
@@ -294,7 +294,7 @@ P.transport["npc:grif-wildheart"] = {
   fullHash = "504471",
   text = "Grif Wildheart. Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart guides young hunters toward life with a beast companion. He teaches tracking, marksmanship, and how to tame beasts to hunters arriving from Coldridge Valley. Grif Wildheart has spent his life in Dun Morogh’s frozen wilds. While many Ironforge dwarves choose the forge or the mines, local mountaineers say he spends too much time among four-legged beasts. Still, none question his command of the wild. Years spent tracking snowbound ridges with seasoned hunting companions have taught him the ways of the predators among the crags. Young dwarf hunters finish their first trials in Coldridge Valley, then travel to Kharanos for Grif’s guidance. He sharpens their aim and teaches them to survive in the wild. His deepest craft, though, is joining hunter and beast. He sends his pupils into Dun Morogh’s freezing wastes with a taming rod to face Large Crag Boars, Snow Leopards, and Ice Claw Bears. Once a hunter has calmed three kinds of wild beasts, Grif’s training in Kharanos is complete. A hunter must also learn to feed, discipline, and train a new companion. So Grif sends his graduates up the mountainside to Ironforge. Beneath the capital’s vaulted roofs, they report to master beast trainers and learn to care for a companion meant to stay with them for life.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grif-wildheart-e80230c10af5938a3fc6/1-0000.mp3", duration = 82.6514286, start = 0},
+    {file = "Audio/Transport/full_npc_grif-wildheart-93430cc7a865fd2d0b71/1-0000.mp3", duration = 99.8138776, start = 0},
   },
 }
 P.transport["npc:gryan-stoutmantle"] = {
@@ -310,7 +310,7 @@ P.transport["npc:guard-thomas"] = {
   fullHash = "93d9d7",
   text = "Guard Thomas. At the bridge west of Eastvale Logging Camp, Guard Thomas watches Elwynn’s eastern frontier. He guards local workers from wild predators and murlocs for the Stormwind Army. Guard Thomas holds a quiet but exposed post at the stone bridge over the river toward Eastvale Logging Camp. Aggressive creatures shelter in the woods nearby, and the logging workers depend on Stormwind’s guard for protection. With the army stretched thin, Thomas relies on travelers to help keep order and carry messages to central command.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_guard-thomas-4c982e51749aed95a632/1-0000.mp3", duration = 31.3991837, start = 0},
+    {file = "Audio/Transport/full_npc_guard-thomas-4118f72d2f3c05981cb2/1-0000.mp3", duration = 46.1061224, start = 0},
   },
 }
 P.transport["npc:gwennyth-bly-leggonde"] = {
@@ -350,7 +350,7 @@ P.transport["npc:iverron"] = {
   fullHash = "5cc0e2",
   text = "Iverron. In Shadowglen, Iverron lies stricken by spider venom. His plight points to a growing corruption within Teldrassil. Webwood spiders bit Iverron beneath Shadowglen’s quiet canopies. Their venom left the young night elf unable to reach safety alone. Once, the spiders shared the glade in peace. Now they grow more aggressive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_iverron-5991a112ecf829fff1b9/1-0000.mp3", duration = 21.3942857, start = 0},
+    {file = "Audio/Transport/full_npc_iverron-9267426a514447de39c4/1-0000.mp3", duration = 28.4212245, start = 0},
   },
 }
 P.transport["npc:jaina-proudmoore"] = {
@@ -398,7 +398,7 @@ P.transport["npc:jordan-stilwell"] = {
   fullHash = "b0a7c4",
   text = "Jordan Stilwell. Outside Ironforge’s gates, Jordan Stilwell tends his forge in Dun Morogh. Once expected to join the Church of the Holy Light, he followed his father into smithing and learned from Bailor Stonehand. Now his craft arms paladins across the Alliance. Jordan Stilwell was expected to take holy vows and become a paladin in the Church of the Holy Light. Instead, he followed his father into smithing and took up his father’s enchanted hammer. Bailor Stonehand, a dwarven blacksmith, helped him refine his craft. Jordan remains deeply faithful to the Light and puts his skill to work for champions who fight in its name. Jordan once worked as a smith at Baron Silverlaine’s keep in Silverpine Forest. Then Archmage Arugal unleashed feral worgen upon the fortress and made it Shadowfang Keep. Jordan escaped the bloodshed, leaving his forge and former home behind. In time, he found refuge among the dwarves of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jordan-stilwell-501d5705ce1f7bad6a1c/1-0000.mp3", duration = 55.1444898, start = 0},
+    {file = "Audio/Transport/full_npc_jordan-stilwell-5b60553db424a37f4a4f/1-0000.mp3", duration = 79.9869388, start = 0},
   },
 }
 P.transport["npc:kaela-shadowspear"] = {
@@ -414,7 +414,7 @@ P.transport["npc:laurna-morninglight"] = {
   fullHash = "1ff054",
   text = "Laurna Morninglight. In Dolanaar, Laurna Morninglight guides young priests as threats gather in Teldrassil. Devoted to the Sisterhood of Elune, she teaches acolytes from Shadowglen healing and the rites of Elune. In Dolanaar, Laurna Morninglight guides young priests from Shadowglen. As the new initiates travel farther into Teldrassil, she helps them deepen their bond with Elune. Her lessons join healing with defensive rites, skills needed as the wild grows more hostile. Among the kaldorei, priests follow Elune rather than the Holy Light revered by humans and dwarves. Laurna sends her students for sacred robes and to heal a wounded Sentinel. Through these rites, acolytes learn that the Mother Moon grants power to preserve and mend the kaldorei people.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_laurna-morninglight-62997d0dade54e6d105c/1-0000.mp3", duration = 46.9681633, start = 0},
+    {file = "Audio/Transport/full_npc_laurna-morninglight-67bb54f614c019f57cd3/1-0000.mp3", duration = 64.6008163, start = 0},
   },
 }
 P.transport["npc:lieutenant-farren-orinelle"] = {
@@ -462,7 +462,7 @@ P.transport["npc:magni-bronzebeard"] = {
   fullHash = "af70df",
   text = "Magni Bronzebeard. In Ironforge, Magni Bronzebeard bears his people's grief and political strain. Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan, he is a veteran of the Second War who champions dwarven archaeology across Azeroth. Magni Bronzebeard grew up the eldest of three brothers, knowing the mountain would one day be his to rule. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates. Once the siege broke, he pledged Khaz Modan to the Alliance of Lordaeron. In the peace that followed, Magni welcomed his gnomish allies after Gnomeregan fell. He gave High Tinker Gelbin Mekkatorque and the refugees sanctuary beneath the mountain.\n\nMagni then sought to unite the fractured northern and southern kingdoms. He asked Mekkatorque to build the Deeprun Tram, an unprecedented route beneath the earth that connects Ironforge directly to Stormwind. Magni carries deep sorrow beneath his regal bearing. During the Third War, word came from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Grief overwhelmed Magni, but he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people. Magni still rules wisely, with that loss weighing upon him. Magni has turned dwarven society from commercial mining toward the unearthing of ancient history. Strange titan relics found deep beneath the earth inspired him to found the explorers' league with his surviving brother, Brann Bronzebeard. Dwarven dig sites now span the continents, from Dun Morogh to Kalimdor, as the League seeks the truth of the dwarves' fabled origins.\n\nPeace at home remains fragile. Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magni-bronzebeard-ad07615f9275e9dcdc9e/1-0000.mp3", duration = 109.505306, start = 0},
+    {file = "Audio/Transport/full_npc_magni-bronzebeard-cbc5aee038b66bd06793/1-0000.mp3", duration = 148.897959, start = 0},
   },
 }
 P.transport["npc:makaba-flathoof"] = {
@@ -478,7 +478,7 @@ P.transport["npc:malfurion-stormrage"] = {
   fullHash = "a6f4e8",
   text = "Malfurion Stormrage. In Darnassus, the kaldorei wait for Malfurion Stormrage to wake from his coma in the Emerald Dream. First among mortal druids, he helped defeat the Burning Legion in the War of the Ancients and the Third War. His people honor him as Shan'do, their honored teacher, and look to his return for guidance. Ten thousand years ago, Malfurion Stormrage turned from the arcane to nature. Before the Great Sundering broke ancient Kalimdor, he studied under Cenarius, the demigod. As Queen Azshara and her Highborne delved into the Well of Eternity's power, Malfurion became Azeroth's first mortal druid. He feared what that power could bring. His fears proved true when Azshara's sorcery opened a way for Sargeras and the Burning Legion, beginning the War of the Ancients. Malfurion Stormrage fought to drive the demons back and close the portal above the Well of Eternity. Cenarius, Tyrande Whisperwind, and his twin brother Illidan fought beside him. After the world shattered, he led the druids into the Emerald Dream to rebuild and protect Azeroth's living world.\n\nTen thousand years later, Tyrande woke Malfurion to face Archimonde in the Third War. At Mount Hyjal, he rallied the forest spirits and shattered the Burning Legion once more. After the Third War, Malfurion Stormrage returned to sleep in Moonglade, seeking the Emerald Dream and strength for his spent power. His spirit never returned to his body, leaving him in an unnatural coma. In Darnassus, Archdruid Fandral Staghelm carries the Cenarion Circle's duties of leadership. Tyrande and the sisterhood wait for their Shan'do to wake.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_malfurion-stormrage-449ea69183574bef4e84/1-0000.mp3", duration = 100.466939, start = 0},
+    {file = "Audio/Transport/full_npc_malfurion-stormrage-4f6edb63c68c2c389df2/1-0000.mp3", duration = 137.795918, start = 0},
   },
 }
 P.transport["npc:marshal-dughan"] = {
@@ -486,7 +486,7 @@ P.transport["npc:marshal-dughan"] = {
   fullHash = "4bcf42",
   text = "Marshal Dughan. In Goldshire, Marshal Dughan holds the roads against threats from the mines and woods. He commands Stormwind's small army detachment, stretched thin by kobolds, gnolls, and bandits. To guard the town and nearby farms, he depends on independent adventurers. From Goldshire, Marshal Dughan directs Elwynn Forest's defense outside the Lion's Pride Inn. Stormwind's soldiers are tied up elsewhere as trouble grows in the woods. Kobolds crowd the mines, gnolls gather along the riverbanks, and highwaymen harass travelers on the King's Road. With too few footmen, Dughan sends new recruits to reinforce outposts and scout dangerous ground. Kobolds overrun Fargodeep and Jasperlode Mines, threatening Goldshire's mineral supply. West of town, Hogger's Riverpaw gnolls press against Westbrook Garrison. Eastward, Guard Thomas reports vicious murlocs killing patrols along the river. Dughan has too few soldiers to meet each threat, so he needs capable mercenaries to help contain them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marshal-dughan-067eab35359f4aa5f0b2/1-0000.mp3", duration = 61.1787755, start = 0},
+    {file = "Audio/Transport/full_npc_marshal-dughan-b6362de23af3c9f7c359/1-0000.mp3", duration = 80.8228571, start = 0},
   },
 }
 P.transport["npc:marshal-marris"] = {
@@ -502,7 +502,7 @@ P.transport["npc:marshal-mcbride"] = {
   fullHash = "3f62df",
   text = "Marshal McBride. At Northshire Abbey, Marshal Douglas McBride turns to new recruits as kobolds threaten the valley's farms and mines. He commands Stormwind's garrison there, the army's authority in Northshire. Marshal McBride has only a handful of sworn guards to keep the valley peaceful and protect its food and resources. Unrest across the kingdom has left military garrisons short of soldiers. Green recruits arrive seeking training under the abbey's masters, so McBride puts them to work defending the valley. Kobolds grow more aggressive around Northshire. They spread through the woods and seize Echo Ridge Mine, an important local resource. With regular soldiers scarce, McBride calls on paladins, warriors, and other novices to drive back the tunneling kobolds. He needs them to learn how far the infestation reaches before the valley is cut off.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marshal-mcbride-aa2a1828b5c43bb57c2d/1-0000.mp3", duration = 51.3828571, start = 0},
+    {file = "Audio/Transport/full_npc_marshal-mcbride-df7ba87529ca7f93bfdc/1-0000.mp3", duration = 66.4032653, start = 0},
   },
 }
 P.transport["npc:mathias-shaw"] = {
@@ -518,7 +518,7 @@ P.transport["npc:mathrengyl-bearwalker"] = {
   fullHash = "f6465b",
   text = "Mathrengyl Bearwalker. From Darnassus, Mathrengyl Bearwalker guides Alliance druids through spiritual trials and the art of shapeshifting. Once Fandral Staghelm's direct assistant, he now helps young druids serve across Kalimdor. In the Cenarion Enclave of Darnassus, Mathrengyl Bearwalker guides Alliance druids through their first rites. A respected elder of the Cenarion Circle, he sends initiates to commune with Moonglade and judges when they are ready to take animal forms. He remembers his own bewildering communion with the Great Bear Spirit. Before they enter the path of the Druid of the Claw, he asks each initiate to test their spirit against Lunaclaw, the sacred moonkin. For many years, Mathrengyl has served as Fandral Staghelm's second. He tends the Cenarion Circle's daily affairs and finds recruits for the Archdruid's plans. When Fandral sought great stores of morrowgrain, Mathrengyl arranged for returning adventurers to gather it. In private, he admitted unease about the plant's unnatural essence.\n\nMathrengyl also coordinates Alliance responses to calls from Moonglade and handles the Circle's delicate politics. Meanwhile, Fandral turns his attention to southern Kalimdor. Mathrengyl thinks more openly than Fandral Staghelm, whose pride and disdain for other races are well known. Relics from Mulgris Deepriver reached Darnassus after the druid died fighting the Scourge in the Western Plaguelands. Mathrengyl was moved to learn that the investigator was a tauren. The Cenarion Circle shares one mission, he reflected, and tauren may not have strayed as far from Cenarius's teachings as Fandral claims.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mathrengyl-bearwalker-6190d3e535aa53f1ae0b/1-0000.mp3", duration = 97.5934694, start = 0},
+    {file = "Audio/Transport/full_npc_mathrengyl-bearwalker-e32c3af00e0c9021ab75/1-0000.mp3", duration = 130.011429, start = 0},
   },
 }
 P.transport["npc:motega-firemane"] = {
@@ -542,7 +542,7 @@ P.transport["npc:orgrim-doomhammer"] = {
   fullHash = "f63856",
   text = "Orgrim Doomhammer. During the Second War, Orgrim Doomhammer led the Old Horde as its supreme Warchief. He became one of history’s greatest orc warriors. He died freeing the internment camps in the Arathi Highlands, but his legacy lives on in Orgrimmar and through Thrall, who inherited his warhammer and black plate armor. Orgrim Doomhammer rose from second-in-command to become Chieftain of the Blackrock clan. Gul'dan offered him demonic blood, but Orgrim refused and kept his doubts hidden beneath fierce loyalty. Near the end of the First War, he turned against the Shadow Council after its treachery and the murder of his childhood friend Durotan.\n\nOrgrim slew Blackhand in honorable combat and took the mantle of Warchief. He purged Gul'dan's warlocks and led the Horde across the Eastern Kingdoms during the Second War. A devastating strategist, he drove human kingdoms to the brink of ruin. Gul'dan's betrayal split his forces, and Orgrim was defeated and captured outside Blackrock Spire. Orgrim Doomhammer escaped human captivity and lived in hiding until he met Thrall, Durotan's orphaned son. The young shaman's vision gave Orgrim new purpose, and he rallied the remaining orcish clans to storm the internment camps and free their people.\n\nDuring a fierce battle at an encampment in the Arathi Highlands, a lance struck the Warchief from behind. As he lay dying, Orgrim gave Thrall his black plate armor, his ancestral weapon, the Doomhammer, and the title of Warchief. The liberated outpost was renamed Hammerfall in his honor, and the newly founded capital in Durotar was named Orgrimmar.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_orgrim-doomhammer-5bb480612b6f9c1e0aae/1-0000.mp3", duration = 96.0522449, start = 0},
+    {file = "Audio/Transport/full_npc_orgrim-doomhammer-38fda5f17ebf7e0867a8/1-0000.mp3", duration = 132.414694, start = 0},
   },
 }
 P.transport["npc:ozzie-togglevolt"] = {
@@ -566,7 +566,7 @@ P.transport["npc:priestess-alathea"] = {
   fullHash = "25b7e0",
   text = "Priestess Alathea. In Darnassus, Priestess Alathea guides night elf priests at the Temple of the Moon. Devoted to Elune, she teaches sacred rites and prepares acolytes for healing, protection, and celestial magic. Within Darnassus's Temple of the Moon, Priestess Alathea teaches and guides the Sisterhood of Elune. After leaving Shadowglen, night elf initiates come to deepen their bond with the Goddess. Alathea shares sacred knowledge with those devoted to healing, protection, and divine light. Night elf priests draw on Elune's grace, while human and dwarven priests follow the Holy Light. Alathea teaches blessings such as Stars of Elune and Elune's Grace. Under her guidance, acolytes shape starlight into swift, protective shields against the dangers facing Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_priestess-alathea-045c69a64fb541f3f8ed/1-0000.mp3", duration = 48.1959184, start = 0},
+    {file = "Audio/Transport/full_npc_priestess-alathea-57b260f03f8bc4ceb4d1/1-0000.mp3", duration = 70.9485714, start = 0},
   },
 }
 P.transport["npc:raene-wolfrunner"] = {
@@ -574,7 +574,7 @@ P.transport["npc:raene-wolfrunner"] = {
   fullHash = "163225",
   text = "Raene Wolfrunner. In Astranaar, Raene Wolfrunner directs the Sentinels as Ashenvale faces threats from the Horde and corrupted furbolg tribes. Korra, her saber cat, and Dagri, her wolf, remain close at hand. Raene Wolfrunner keeps watch in Astranaar with Korra, her saber cat, and Dagri, her wolf. As a Sentinel officer, she oversees patrols throughout Ashenvale and gathers intelligence from beyond the forest. She sends scouts such as Kaela Shadowspear into neighboring regions, including the Stonetalon Mountains. Raene works to halt the corruption spreading among Ashenvale’s native denizens. She directs campaigns against hostile furbolg tribes, including strikes on Foulweald camps that harass travelers and efforts to remove rising Thistlefur leaders. Her scouts watch for changes in furbolg behavior. Under her command, they guard local settlements and passing travelers against coordinated ambushes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_raene-wolfrunner-982bd57b7b8f192eba4e/1-0000.mp3", duration = 56.7118367, start = 0},
+    {file = "Audio/Transport/full_npc_raene-wolfrunner-f6e3f4f9fdda6c171981/1-0000.mp3", duration = 74.8408163, start = 0},
   },
 }
 P.transport["npc:rejold-barleybrew"] = {
@@ -582,7 +582,7 @@ P.transport["npc:rejold-barleybrew"] = {
   fullHash = "72cd5a",
   text = "Rejold Barleybrew. At Brewnall Village, Rejold Barleybrew keeps working toward the perfect mountain spirit. He gathers ingredients from western Dun Morogh and tests each recipe. Dwarves in Dun Morogh take brewing seriously. Rejold works in Brewnall Village, near the frozen lake of the Iceflow River. He keeps refining his blends with rare hops, mountain minerals, and pristine ice water. His aim is a stout hearty enough to warm even the stoutest dwarven warriors. Rejold seeks the right flavors for drinks such as Shimmer Stout. He sends travelers across Dun Morogh for ingredients and trades favors with the siege pilots of Steelgrill's Depot. He also arranges deliveries to thirsty patrons. So hearty ale keeps flowing along Dun Morogh's cold, trogg-plagued roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rejold-barleybrew-02bbe6534b2a42000184/1-0000.mp3", duration = 47.3338776, start = 0},
+    {file = "Audio/Transport/full_npc_rejold-barleybrew-d2eb06d4ad01617e41d2/1-0000.mp3", duration = 69.355102, start = 0},
   },
 }
 P.transport["npc:rethiel-the-greenwarden"] = {
@@ -614,7 +614,7 @@ P.transport["npc:senir-whitebeard"] = {
   fullHash = "a18908",
   text = "Senir Whitebeard. Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches the threats growing across Dun Morogh. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership. Senir Whitebeard brings the Senate of Ironforge's authority to Kharanos. The city's halls watch as unrest grows across Dun Morogh. Senir carries news from scouts on the snowy frontier to the lawmakers behind Ironforge's stone gates. The Frostmane trolls grow more aggressive, pressing close to dwarven settlements and roads from the frozen crags where they are displaced and desperate. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. His work is to gather intelligence, not charge into battle.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_senir-whitebeard-88b86fa726b9099011a7/1-0000.mp3", duration = 48.2481633, start = 0},
+    {file = "Audio/Transport/full_npc_senir-whitebeard-9304bf3831305993a4d5/1-0000.mp3", duration = 71.7583673, start = 0},
   },
 }
 P.transport["npc:shael-dryn"] = {
@@ -622,7 +622,7 @@ P.transport["npc:shael-dryn"] = {
   fullHash = "cf873a",
   text = "Shael'dryn. At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences. Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shael-dryn-3edfb67bbda399c4b750/1-0000.mp3", duration = 29.1004082, start = 0},
+    {file = "Audio/Transport/full_npc_shael-dryn-e90efe2887f5f07e5e74/1-0000.mp3", duration = 37.1983673, start = 0},
   },
 }
 P.transport["npc:sprite-jumpsprocket"] = {
@@ -638,7 +638,7 @@ P.transport["npc:sten-stoutarm"] = {
   fullHash = "264dc1",
   text = "Sten Stoutarm. Outside Anvilmar, Sten Stoutarm keeps recruits equipped and messages moving through Coldridge Valley. Winter blizzards cut off the valley, and dangers nearby make warmth, food, and clear instructions vital. Near the tavern outside Anvilmar, Sten Stoutarm meets new dwarven and gnomish recruits. Winter blizzards cut off Coldridge Valley, and dangers lie close at hand. So Sten gives green apprentices sturdy gear to face the snow prepared. Sten gathers wolf hides for winter clothing and carries messages through Coldridge Valley. He takes dispatches through dangerous Coldridge Pass, then brings official runes, memoranda, and orders to class trainers across the basin. Troggs block the tunnels, yet young warriors, priests, and mages still need their instructions.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sten-stoutarm-9ae2e57a3959ff90bd0a/1-0000.mp3", duration = 48.2220408, start = 0},
+    {file = "Audio/Transport/full_npc_sten-stoutarm-b7552fa307ab80a218ce/1-0000.mp3", duration = 63.4514286, start = 0},
   },
 }
 P.transport["npc:sven-yorgen"] = {
@@ -654,7 +654,7 @@ P.transport["npc:tallonkai-swiftroot"] = {
   fullHash = "bcf8ed",
   text = "Tallonkai Swiftroot. From Dolanaar, Tallonkai Swiftroot watches corruption spread beneath Teldrassil’s boughs. He sends young adventurers to recover enchanted relics and confront the foul forces troubling the forest. Tallonkai Swiftroot watches the woods from Dolanaar, a settlement in Teldrassil’s canopy. Like many night elves beneath the newly grown World Tree, he fears the changes around them. Wildlife acts in unnatural ways, and shadows gather at the edges of their homes. Tallonkai sends adventurers against the foul beings disturbing Teldrassil’s peace. Corrupted dream catchers threaten the druids’ sleep, while a dark malaise has made the gnarlpine furbolgs vicious. Ferocitas the Dream Eater leads corrupted Gnarlpine mystics. Tallonkai seeks to cleanse these threats and defend the Kaldorei’s fragile home.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tallonkai-swiftroot-6c32abd4ea1ea208f263/1-0000.mp3", duration = 50.9126531, start = 0},
+    {file = "Audio/Transport/full_npc_tallonkai-swiftroot-b60299c76e88b2b0198c/1-0000.mp3", duration = 62.7722449, start = 0},
   },
 }
 P.transport["npc:tavernkeep-smitts"] = {
@@ -670,7 +670,7 @@ P.transport["npc:terenthis"] = {
   fullHash = "4eaf43",
   text = "Terenthis. In Auberdine, Terenthis tracks corruption spreading into Darkshore. The Cenarion Circle sent the night elf druid from Teldrassil to learn how far it has reached and seek help from travelers and local allies. Terenthis searches Darkshore for Fel Moss and other signs of corruption. The Cenarion Circle sent him to Auberdine to follow the blight spreading from Teldrassil. Night elves fear it may break the balance of northern Kalimdor. He seeks the rot's cause and a way to stop it before it consumes the forests.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_terenthis-077ad0089c61d92e5d15/1-0000.mp3", duration = 30.1714286, start = 0},
+    {file = "Audio/Transport/full_npc_terenthis-acac1c9132c6b40a5efc/1-0000.mp3", duration = 45.7404082, start = 0},
   },
 }
 P.transport["npc:theocritus"] = {
@@ -678,7 +678,7 @@ P.transport["npc:theocritus"] = {
   fullHash = "ca5adf",
   text = "Theocritus. At the Tower of Azora in eastern Elwynn, Theocritus watches over Stormwind's kingdom and opposes Morganth. The eccentric human archmage lives independently, apart from everyday concerns, with servants and magical scrying devices. Archmage Theocritus keeps his own stronghold in Stormwind's kingdom. He lives in the Tower of Azora, near the eastern road to Redridge. Eccentric in his habits, he enjoys a comfortable life with a large household staff. Among them are gnomish attendants and his clothier, Morley Eberlein. Though apart from local villagers' everyday concerns, his magic guards eastern Elwynn. The fallen mage Morganth is Theocritus's greatest concern. Morganth works from the Tower of Ilgalar in the nearby Redridge Mountains. Theocritus sees him as both a personal enemy and a danger to Stormwind. For months, arcane research has helped Theocritus undermine him.\n\nWith scrying devices such as the Eye of Azora, he watches Morganth's actions and probes his thoughts. He also studies the magical pendants worn by Morganth's Shadowhide gnolls, hoping an arcane pulse can turn their master's creations against him and immobilize the entire pack.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_theocritus-b72582e7910f09a8cd28/1-0000.mp3", duration = 72.3591837, start = 0},
+    {file = "Audio/Transport/full_npc_theocritus-d629454aa34a6e1de2e8/1-0000.mp3", duration = 99.9444898, start = 0},
   },
 }
 P.transport["npc:thyn-tel-bladeweaver"] = {
@@ -710,7 +710,7 @@ P.transport["npc:tyrande-whisperwind"] = {
   fullHash = "618a40",
   text = "Tyrande Whisperwind. From Darnassus, Tyrande Whisperwind watches over the night elves. As Elune’s High Priestess, she leads her people, who endured the War of the Ancients and the ten thousand years of the Long Vigil under her guidance with Malfurion Stormrage. Now she commands the Sisterhood of Elune and directs the Sentinel army in Kalimdor’s defense. Tyrande Whisperwind now leads the night elves as Elune’s High Priestess. Born in the ancient kaldorei empire, she grew up with the twin brothers Malfurion and Illidan Stormrage. They turned to druidism and sorcery, while she became a priestess of Elune.\n\nWhen the Burning Legion first invaded Azeroth in the War of the Ancients, she stood against it beside Malfurion. The Moon Goddess favored her, and Tyrande made the Sisterhood a fighting force. Its priestesses wielded divine healing and lunar wrath as the kaldorei faced annihilation. After the Great Sundering and the sealing of the Well of Eternity, Malfurion and the druids entered the Emerald Dream for long hibernations. Tyrande took up the lonely task of defending their recovering realm.\n\nShe formed the Sentinels, an elite band of warrior-women who patrolled Kalimdor’s forests through ten thousand years. During the Long Vigil, they watched over ancient evils and lingering demonic remnants. Tyrande kept faith in Elune as centuries passed between brief reunions with Malfurion. Tyrande now governs the kaldorei from Darnassus as the night elves take their place in the Alliance. When the Burning Legion returned during the Third War, she woke the sleeping druids to face the danger. Though she mistrusted the newly arrived orcs and humans, she helped forge a desperate coalition at Mount Hyjal. The night elves gave up their immortality at Nordrassil to destroy Archimonde.\n\nMount Hyjal still bears the scars of that battle, and Malfurion is again occupied with guarding the Emerald Dream. From the grand Temple of the Moon, Tyrande watches for Horde incursions.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tyrande-whisperwind-479d5189577b3e61de26/1-0000.mp3", duration = 121.077551, start = 0},
+    {file = "Audio/Transport/full_npc_tyrande-whisperwind-e3da80ebb2c595bcab76/1-0000.mp3", duration = 162.142041, start = 0},
   },
 }
 P.transport["npc:verner-osgood"] = {
@@ -742,7 +742,7 @@ P.transport["npc:william-pestle"] = {
   fullHash = "d7f394",
   text = "William Pestle. At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District. William hires travelers to find candles, kelp, and herbs. William works from the Lion's Pride Inn in Goldshire. His brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. In Elwynn Forest, William works with local gatherers to secure raw materials for the city's shops. He sends regular shipments to Stormwind, where citizens rely on restorative salves, draughts, and powders. Common garden herbs do not always meet William's needs. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy. William believes they have potent virtues in a mixture.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_william-pestle-711b46a41c0937ed1336/1-0000.mp3", duration = 55.6146939, start = 0},
+    {file = "Audio/Transport/full_npc_william-pestle-e59ed29c915e90519820/1-0000.mp3", duration = 82.7297959, start = 0},
   },
 }
 P.transport["npc:wizbang-cranktoggle"] = {
@@ -750,7 +750,7 @@ P.transport["npc:wizbang-cranktoggle"] = {
   fullHash = "a7cadb",
   text = "Wizbang Cranktoggle. In Auberdine, Wizbang Cranktoggle keeps Darkshore’s buzzboxes working. The eccentric gnome engineer lives upstairs at the inn, far from the halls of Gnomeregan and Ironforge. Wizbang Cranktoggle brings Alliance ingenuity to Auberdine. The gnome engineer works on the inn’s upper floor, among tools and spare parts. The night elves here seek harmony with nature and follow ancient customs. Wizbang tackles practical mechanical problems instead, far from Kalimdor’s solemn druidic traditions. Along Darkshore’s rugged coast, Wizbang maintains a network of buzzboxes. The devices send automated reports and carry messages over long distances. Coastal weather and hostile wildlife often damage them. So Wizbang asks travelers to find parts, salvage tools such as gaffer jacks, and recover electropellers to keep the network working.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_wizbang-cranktoggle-aa8172239f5beb660eda/1-0000.mp3", duration = 53.4465306, start = 0},
+    {file = "Audio/Transport/full_npc_wizbang-cranktoggle-926e354127a7927f62e5/1-0000.mp3", duration = 64.9404082, start = 0},
   },
 }
 P.transport["subzone:addle-s-stead"] = {
@@ -766,7 +766,7 @@ P.transport["subzone:aldrassil"] = {
   fullHash = "938881",
   text = "Aldrassil. Young kaldorei gather beneath Aldrassil’s vast boughs in Shadowglen. Its hollowed trunk shelters trainers, merchants, and local leaders. Aldrassil shelters young night elves in Shadowglen. Ramps wind through its immense trunk, past trainers and artisans, and climb to the high roost. Tenaron Stormgrip watches over the glade’s protection from there. Beyond the tree, Teldrassil stretches across the horizon. Beneath Aldrassil’s canopy, novices learn their arts before venturing into Kalimdor’s troubled wilds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_aldrassil-2acd0d212fb8a316d029/1-0000.mp3", duration = 33.1755102, start = 0},
+    {file = "Audio/Transport/full_subzone_aldrassil-2e30d35a27e5addca8e1/1-0000.mp3", duration = 40.4114286, start = 0},
   },
 }
 P.transport["subzone:alexston-farmstead"] = {
@@ -806,7 +806,7 @@ P.transport["subzone:amberstill-ranch"] = {
   fullHash = "435d18",
   text = "Amberstill Ranch. North of Gol'Bolar Quarry, Amberstill Ranch stands along the snowy road to Loch Modan. The Amberstill family tends its mountain rams and guards them from hungry predators. Across Khaz Modan, Amberstill Ranch is known for its strong mountain rams. The Amberstill family tends the stables and paddocks, training the sure-footed beasts for snowy passes and steep cliffs. The ranch supplies riding mounts and livestock. Wendigos drawn to the flock threaten the herd, and the family must fend them off.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_amberstill-ranch-4ea815bec3494386c7c4/1-0000.mp3", duration = 30.5110204, start = 0},
+    {file = "Audio/Transport/full_subzone_amberstill-ranch-d0593fe7af04576ac9d0/1-0000.mp3", duration = 43.284898, start = 0},
   },
 }
 P.transport["subzone:ameth-aran"] = {
@@ -814,7 +814,7 @@ P.transport["subzone:ameth-aran"] = {
   fullHash = "c20187",
   text = "Ameth'Aran. Broken colonnades rise from Ameth'Aran in southern Darkshore, where restless ghosts haunt the stones. Once a great Highborne city, it fell when the Well of Eternity collapsed and shattered the ancient world. Before the Great Sundering, Ameth'Aran and Bashal'Aran were twin centers of Highborne influence along the ancient coastline. Queen Azshara favored Ameth'Aran, where its ruling nobles pursued unrestrained arcane experiments. Their sorcerer, Athrikus Narassin, governed from afar in the Tower of Althalaxx. The city flourished until the Well of Eternity collapsed and tore the Kaldorei Empire apart.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ameth-aran-cda1aba3070376e5fb45/1-0000.mp3", duration = 37.6163265, start = 0},
+    {file = "Audio/Transport/full_subzone_ameth-aran-0ffa5ae8609c7ba4ffd0/1-0000.mp3", duration = 46.4457143, start = 0},
   },
 }
 P.transport["subzone:angerfang-encampment"] = {
@@ -830,7 +830,7 @@ P.transport["subzone:anvilmar"] = {
   fullHash = "8e3204",
   text = "Anvilmar. In Coldridge Valley, Anvilmar gathers young Bronzebeard dwarves and displaced gnomes to train for the road ahead. Snowy Dun Morogh surrounds the fortified outpost and its great stone forge. A great forge burns inside Anvilmar's sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors serve the outpost, while veteran mountain mountaineers drill recruits before they set out across the kingdom. Snowdrifts shelter the walls, but Frostmane trolls and wild beasts prowl the frozen valley, keeping the defenders alert. Anvilmar may take its name from High King Modimus Anvilmar. He ruled the dwarven clans before the War of the Three Hammers. Today, the garrison keeps watch and tends the forge fires as trolls and beasts roam the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_anvilmar-96737394f001c4c61071/1-0000.mp3", duration = 46.837551, start = 0},
+    {file = "Audio/Transport/full_subzone_anvilmar-9c58602ecf0e06e4f5ad/1-0000.mp3", duration = 59.2979592, start = 0},
   },
 }
 P.transport["subzone:astranaar"] = {
@@ -846,7 +846,7 @@ P.transport["subzone:auberdine"] = {
   fullHash = "b034d4",
   text = "Auberdine. Ships crowd Auberdine's docks, carrying travelers between Darkshore, Teldrassil, and the Eastern Kingdoms. The night elven town is the Alliance's main port in northern Kalimdor, between the Veiled Sea and pine-covered bluffs. Auberdine stands on the Veiled Sea, the only major settlement still thriving in Darkshore. Ships sail to Stormwind Harbor and, by way of Southshore, to Menethil Harbor. Ferries cross to Rut'theran Village beneath the boughs of the World Tree. Unlike Teldrassil's secluded treetop cities, Auberdine welcomes travelers from across the sea. Lamps light its stone streets, where dwarves and gnomes mingle with merchants among low, arched timber houses. Elder Thundris Windweaver and the Auberdine Village Council govern the town. They coordinate Darkshore's defense with the local Sentinels. Auberdine is a vital trade hub, though Darnassus rarely speaks its name; memory there dwells on the great cities lost to the Sundering. Trouble presses from every side. Aggressive murlocs raid fishing boats along the strand, corrupted Blackwood furbolgs push from the south, and foul magic drifting down from Felwood agitates the wildlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_auberdine-068ef8b6dbd1eada0fa6/1-0000.mp3", duration = 70.922449, start = 0},
+    {file = "Audio/Transport/full_subzone_auberdine-2e31767003b2b72c9dd6/1-0000.mp3", duration = 89.6261224, start = 0},
   },
 }
 P.transport["subzone:azurelode-mine"] = {
@@ -862,7 +862,7 @@ P.transport["subzone:ban-ethil-barrow-den"] = {
   fullHash = "de5a05",
   text = "Ban'ethil Barrow Den. Beneath Teldrassil's roots, Gnarlpine furbolgs have overrun Ban'ethil Barrow Den. The sacred chambers were made for the sleeping Druids of the Talon, whose spirits commune with the Emerald Dream. Now the den is a dangerous warren, and the druids within are at risk. Ban'ethil Barrow Den lies beneath Teldrassil's roots, with chambers above and below. Barrow dens shelter night elf druids as they sleep and send their spirits into the Emerald Dream. This den was made for the Druids of the Talon to commune with nature. Its halls once held quiet meditation, but corruption spreading through Teldrassil's wildlife reached the Gnarlpine furbolgs. They invaded and made the hollowed chambers a fortified warren. The Gnarlpine tribe has gone mad under a mysterious corruption spreading across the World Tree. Its furbolgs drove out or endangered the sleeping druids, and now guard the winding tunnels fiercely. Any night elf who approaches is attacked. Teldrassil's defenders must drive the furbolgs back to protect the vulnerable druids and the sacred relics trapped in the den's lower depths.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ban-ethil-barrow-den-26a483daded321912b14/1-0000.mp3", duration = 67.0040816, start = 0},
+    {file = "Audio/Transport/full_subzone_ban-ethil-barrow-den-466727ee30450503043a/1-0000.mp3", duration = 92.3428571, start = 0},
   },
 }
 P.transport["subzone:ban-ethil-hollow"] = {
@@ -870,7 +870,7 @@ P.transport["subzone:ban-ethil-hollow"] = {
   fullHash = "185306",
   text = "Ban'ethil Hollow. Furbolgs threaten travelers in Ban'ethil Hollow, south of the road between Dolanaar and Darnassus. At the ravine's far end, a hidden entrance leads to Ban'ethil Barrow Den. Furbolgs roam the rocky descent into Ban'ethil Hollow. A strange affliction has driven them mad, and they stalk the nearby road to ambush couriers and wandering sentinels. The hollow lies just south of the road between Dolanaar and Darnassus. Here, Teldrassil's woods are not wholly safe.\n\nAt the ravine's back stands the entrance to Ban'ethil Barrow Den. Slumbering druids and ancient tunnels lie within, threatened by the maddened beasts outside.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ban-ethil-hollow-adb299c73c5082970adb/1-0000.mp3", duration = 38.7395918, start = 0},
+    {file = "Audio/Transport/full_subzone_ban-ethil-hollow-d728c3ffcc717d9c79c5/1-0000.mp3", duration = 50.0506122, start = 0},
   },
 }
 P.transport["subzone:baradin-bay"] = {
@@ -886,7 +886,7 @@ P.transport["subzone:bashal-aran"] = {
   fullHash = "87be68",
   text = "Bashal'Aran. In northern Darkshore, Bashal'Aran's ruins draw satyrs and grells to lingering magic. A lone elven ghost remains bound by a curse centuries old. Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, Queen Azshara settled favored Highborne in Bashal'Aran and its twin, Ameth'Aran. The mage Athrikus Narassin governed both towns. Their splendid markets and temples honored Elune.\n\nWhen the Well of Eternity collapsed, the cataclysm destroyed both settlements. For reasons lost to time, Athrikus used his arcane mastery to bind his second-in-command, the mage Asterion, inside a moonstone seal in Bashal'Aran. Asterion's body perished, but his ghost remained shackled to the ruined shrine. Deth'ryll satyrs and grells claim Bashal'Aran's crumbled stones. Drawn by magic lingering in the ancient masonry, they feed on its energy to strengthen their foul arts. They swarm the broken courtyards and terrorize travelers on Darkshore's forest paths.\n\nYet the creatures keep clear of the central shrine, where Asterion endures his endless vigil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bashal-aran-08e067cbc60aa4f61e3f/1-0000.mp3", duration = 70.2955102, start = 0},
+    {file = "Audio/Transport/full_subzone_bashal-aran-6638c1a1723cecbad1bc/1-0000.mp3", duration = 87.5363265, start = 0},
   },
 }
 P.transport["subzone:bathran-s-haunt"] = {
@@ -894,7 +894,7 @@ P.transport["subzone:bathran-s-haunt"] = {
   fullHash = "cb6847",
   text = "Bathran's Haunt. Forsaken herbalists harvest rare plants at Bathran's Haunt, east of the Zoram Strand in northwestern Ashenvale. Their work is withering the woodland around the ancient kaldorei ruin. Crumbling night elf pillars rise north of the Ruins of Ordil'Aran, caught in Ashenvale's thick foliage. Once a tranquil kaldorei relic, Bathran's Haunt now shelters Forsaken herbalists and their enforcers. They work among broken marble in an open-air laboratory, gathering rare woodland reagents for experiments. As they harvest, grass rots brown and blossoms wilt. Decay creeps through the grove, blighting the ancient soil. Bathran's Hair grows only among these stones, and it is a unique remedial herb. Night elf and Alliance scouts see its harvest as desecration of sacred elven soil. Forsaken herbalists seek the plant's potent properties, and the Horde has an interest in its yield. Yet the Forsaken keep their methods secret. The corrupted earth draws suspicion from outsiders and allies alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bathran-s-haunt-72f31d614344d44b6f92/1-0000.mp3", duration = 60.1861224, start = 0},
+    {file = "Audio/Transport/full_subzone_bathran-s-haunt-55646b6969519f0bdb0f/1-0000.mp3", duration = 78.8114286, start = 0},
   },
 }
 P.transport["subzone:beggar-s-haunt"] = {
@@ -918,7 +918,7 @@ P.transport["subzone:blackwood-den"] = {
   fullHash = "02e68e",
   text = "Blackwood Den. In southern Darkshore, Blackwood Den has fallen to the Blackwood furbolgs’ corruption. Their cave and camps, once a peaceful home near Ashenvale, now echo with madness. Volcor, a night elf scout, is trapped inside and awaits aid from Auberdine. Near the southern border of Darkshore and Ashenvale, Blackwood furbolgs hold a rocky cave and crude camps. Corruption has taken hold of the tribe, and its members attack outsiders. Deep inside the cave, the night elf Volcor is pinned down and in danger. Scouts and travelers from Auberdine are needed to help him.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackwood-den-065cfff0f203cc228d5b/1-0000.mp3", duration = 36.2318367, start = 0},
+    {file = "Audio/Transport/full_subzone_blackwood-den-55f6f81ee55f157a1b9c/1-0000.mp3", duration = 51.435102, start = 0},
   },
 }
 P.transport["subzone:bloodtooth-camp"] = {
@@ -926,7 +926,7 @@ P.transport["subzone:bloodtooth-camp"] = {
   fullHash = "55e097",
   text = "Bloodtooth Camp. In central Ashenvale, Bloodtooth Camp lies west of the Falfarren River. Ran Bloodtooth leads the corrupted furbolgs, who attack anyone approaching. Alliance scouts seek to cleanse the surrounding woodlands. Bloodtooth Camp lies southwest of the southern Moonwell and west of the Falfarren River. The furbolgs were once bound to Kalimdor’s sacred wilderness, but lingering spiritual corruption has consumed their tribe. Ran Bloodtooth commands the crude settlement. His followers attack travelers and night elven protectors alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bloodtooth-camp-cce979e5d5420dd2930f/1-0000.mp3", duration = 31.1640816, start = 0},
+    {file = "Audio/Transport/full_subzone_bloodtooth-camp-055e51f21f09d9434aaf/1-0000.mp3", duration = 44.7738776, start = 0},
   },
 }
 P.transport["subzone:bough-shadow"] = {
@@ -934,7 +934,7 @@ P.transport["subzone:bough-shadow"] = {
   fullHash = "fcc48c",
   text = "Bough Shadow. In northeastern Ashenvale, Bough Shadow lies east of Forest Song beneath a colossal Great Tree. Its roots surround an ancient portal into the Emerald Dream. At Bough Shadow, the Great Tree’s roots wind around a natural crossing into the Emerald Dream. The Green Dragonflight guards the quiet grove. Emerald drakes such as Phantim and Dreamstalker circle above the canopy. Emeraldon dragonspawn and oracles patrol the swirling green portal at the tree’s base. Mortals who approach without permission are turned away.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bough-shadow-0acce133e0ce2eda3bff/1-0000.mp3", duration = 30.6416327, start = 0},
+    {file = "Audio/Transport/full_subzone_bough-shadow-dcdd1e2fbc34798bdbce/1-0000.mp3", duration = 42.8408163, start = 0},
   },
 }
 P.transport["subzone:boulderslide-cavern"] = {
@@ -958,7 +958,7 @@ P.transport["subzone:brackwell-pumpkin-patch"] = {
   fullHash = "91fd3a",
   text = "Brackwell Pumpkin Patch. Defias brigands hold Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm belonged to the Brackwell family, but now conspirators meet in its cottage and fields, where stolen mine gold arrives. Southeast of the Stonefield homestead, Brackwell's fields lie untended. The family vanished as crime spread through the area, driven away or worse. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Beyond the reach of Goldshire's patrols, brigands regroup here. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold from the forest's mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-4924db5946f65a921691/1-0000.mp3", duration = 36.8587755, start = 0},
+    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-7d9d38406bd8f7bf86ef/1-0000.mp3", duration = 48.2481633, start = 0},
   },
 }
 P.transport["subzone:brewnall-village"] = {
@@ -966,7 +966,7 @@ P.transport["subzone:brewnall-village"] = {
   fullHash = "c3ef67",
   text = "Brewnall Village. In Chill Breeze Valley, the Barleybrew family works on new brews and guards against wild beasts. Their camp lies near the entrance to Gnomeregan. The Barleybrew clan brews in Chill Breeze Valley, among the gnomish reaches of western Dun Morogh. They work to perfect old recipes and make the finest stout. Tents and brewing gear fill the camp, with no permanent stone buildings. As the Barleybrews test new ales, wolves and bears threaten the valley. Wandering mountaineers gather rare ingredients and help keep the area safe.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brewnall-village-a03be51650f17d332507/1-0000.mp3", duration = 32.3134694, start = 0},
+    {file = "Audio/Transport/full_subzone_brewnall-village-1c4fa75127661521717d/1-0000.mp3", duration = 40.4636735, start = 0},
   },
 }
 P.transport["subzone:brightwood-grove"] = {
@@ -1046,7 +1046,7 @@ P.transport["subzone:chill-breeze-valley"] = {
   fullHash = "03cf29",
   text = "Chill Breeze Valley. In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow the main trail, while dangerous beasts haunt the secluded reaches. A T-shaped trench cuts through the mountains, its main trail running east to west. Young dwarves and gnomes travel between Kharanos and the outskirts of Gnomeregan. The north-south branch leads into dangerous ground. Blood stains the snow, and mangled carcasses lie nearby.\n\nSavage wendigos make dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chill-breeze-valley-9d7e34f3671410727c54/1-0000.mp3", duration = 36.2318367, start = 0},
+    {file = "Audio/Transport/full_subzone_chill-breeze-valley-df72f13b91cc136016d2/1-0000.mp3", duration = 55.1183673, start = 0},
   },
 }
 P.transport["subzone:clean-zone"] = {
@@ -1062,7 +1062,7 @@ P.transport["subzone:cleft"] = {
   fullHash = "404e97",
   text = "Cleft. Northwest of Dolanaar, Gnarlpine furbolgs ambush travelers in the Cleft. Off the road between Dolanaar and Darnassus, Gnarlpine furbolgs have made their den in the Cleft. Teldrassil’s spreading corruption has driven them mad, and they have fortified the hollow. From there, they threaten travelers on the main road and may cut Dolanaar off from Darnassus.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cleft-acada7a6f227bf10aa9b/1-0000.mp3", duration = 22.0734694, start = 0},
+    {file = "Audio/Transport/full_subzone_cleft-60eb66e9af426027de64/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["subzone:cliffspring-falls"] = {
@@ -1078,7 +1078,7 @@ P.transport["subzone:coldridge-pass"] = {
   fullHash = "1e03b4",
   text = "Coldridge Pass. Troggs now bar the road through Coldridge Pass, the way out of Coldridge Valley. Recruits leave Coldridge Valley through Coldridge Pass and travel toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, carrying them from sheltered training grounds into the wider kingdom. Troggs have overrun the passage, threatening anyone who crosses between the valley and the rest of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_coldridge-pass-faf30a410f68c6514eca/1-0000.mp3", duration = 22.7004082, start = 0},
+    {file = "Audio/Transport/full_subzone_coldridge-pass-d0b2a5cc66a37ae4f20f/1-0000.mp3", duration = 35.082449, start = 0},
   },
 }
 P.transport["subzone:command-center"] = {
@@ -1118,7 +1118,7 @@ P.transport["subzone:crystal-lake"] = {
   fullHash = "e82dbe",
   text = "Crystal Lake. At Crystal Lake, murlocs claim the shore east of Goldshire. Their attacks endanger villagers and travelers passing by. East of Goldshire, Crystal Lake lies within walking distance of the Lion's Pride Inn. Freshwater murlocs claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crystal-lake-822817e7779f7949c6f9/1-0000.mp3", duration = 25.3126531, start = 0},
+    {file = "Audio/Transport/full_subzone_crystal-lake-b174f2646ec8bb441446/1-0000.mp3", duration = 39.8889796, start = 0},
   },
 }
 P.transport["subzone:cut-throat-alley"] = {
@@ -1214,7 +1214,7 @@ P.transport["subzone:demon-fall-canyon"] = {
   fullHash = "427645",
   text = "Demon Fall Canyon. In southern Ashenvale, the canyon bears the scars of the battle that freed the orcs from the blood curse. Thrall and Grommash Hellscream faced Mannoroth here. Near Felfire Hill and Demon Fall Ridge, the canyon still bears the scars of the Third War. Warchief Thrall and chieftain Grommash Hellscream tracked the pit lord Mannoroth here to break his hold over the Horde. Mannoroth struck Thrall down. Grom seized the chance to drive his axe, Gorehowl, into the demon’s chest.\n\nThe infernal blast shattered Mannoroth and killed Grom. With the pit lord’s death, the orcs were free of their lingering demonic servitude. The Horde named the canyon for Grom’s final stand and raised a monument nearby to honor his redemption. Mannoroth’s death unleashed demonic power that tainted the surrounding land. Fel magic still saturates the canyon, where lesser demons roam. Pilgrims who come to this hallowed ground face danger at every turn.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_demon-fall-canyon-ac9d6765df170f3f5693/1-0000.mp3", duration = 57.7567347, start = 0},
+    {file = "Audio/Transport/full_subzone_demon-fall-canyon-8e2d341ec7ad04de6f0e/1-0000.mp3", duration = 77.844898, start = 0},
   },
 }
 P.transport["subzone:demon-fall-ridge"] = {
@@ -1222,7 +1222,7 @@ P.transport["subzone:demon-fall-ridge"] = {
   fullHash = "43b8d0",
   text = "Demon Fall Ridge. Demons hold Demon Fall Ridge in southeastern Ashenvale, above the place where Mannoroth fell. Fel magic still stains the heights, and the Burning Legion has claimed a night elf barrow den. West of Demon Fall Canyon, Demon Fall Ridge looks down on the place where Grommash Hellscream fought the pit lord Mannoroth. Its cliffs still bear the fel scars of the Third War. The demons who survived use the heights as a staging ground. Lesser demons patrol the rocky slopes, defile the woodland, and threaten travelers along Ashenvale’s southern border. A night elf barrow den lies abandoned in the ridge’s side. Dark sorcery now fills the passages where druids once slept. Fel fiends prowl its halls, and deep within, Diathorus the Seeker rules the conclave. The cunning dreadlord directs the demons who remain across the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_demon-fall-ridge-f563c91ee194efc33271/1-0000.mp3", duration = 50.7036735, start = 0},
+    {file = "Audio/Transport/full_subzone_demon-fall-ridge-aa17e3e716558281b1bc/1-0000.mp3", duration = 72.4636735, start = 0},
   },
 }
 P.transport["subzone:demont-s-place"] = {
@@ -1238,7 +1238,7 @@ P.transport["subzone:dolanaar"] = {
   fullHash = "1bb1c3",
   text = "Dolanaar. At Dolanaar, travelers and guides gather beneath Teldrassil’s boughs. Southwest of Shadowglen, the town is the first place young night elves reach after leaving their sheltered training grounds. Rangers, druids, and craftsmen help newcomers as strange afflictions spread through the World Tree. Beneath Teldrassil’s canopy, Dolanaar is a crossroads for travelers. Southwest of Shadowglen, its homes and platforms follow the traditional night elven way, woven into the woodland. Young night elves come here for their first broad training in trades, martial arts, and nature crafts. The road west leads toward Darnassus, the capital. Reports of corrupted wildlife, aggressive furbolgs, and foul mosses come from the surrounding boughs, and Dolanaar’s council hears them.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dolanaar-1733ff2557ef5f3bfe0e/1-0000.mp3", duration = 48.5093878, start = 0},
+    {file = "Audio/Transport/full_subzone_dolanaar-32ac546aa7b6e1663c11/1-0000.mp3", duration = 63.6604082, start = 0},
   },
 }
 P.transport["subzone:dor-danil-barrow-den"] = {
@@ -1246,7 +1246,7 @@ P.transport["subzone:dor-danil-barrow-den"] = {
   fullHash = "464d96",
   text = "Dor'Danil Barrow Den. South of Splintertree Post, Dor'Danil Barrow Den lies under Forsaken shadow. Druids once slept here while their spirits roamed the Emerald Dream. Now horror fills the sanctuary. For centuries, night elven druids have slept in barrow dens across Kalimdor. Their bodies rest underground while their spirits travel the Emerald Dream. When the Horde pushed into Ashenvale, Dor'Danil lay deep behind enemy lines. The orcs mostly left the sleeping elves alone, but the newly allied Forsaken saw an opportunity. Their agents entered the depths and began experiments to sever the druids from their spirits.\n\nThe ordeal fractured the dreamers' minds and drove them mad. Now sinister Forsaken assassins prowl the dark hollows. The tormented spirits of druids who cannot return to their bodies haunt them too.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dor-danil-barrow-den-f6255340f4a1353ec83a/1-0000.mp3", duration = 50.3379592, start = 0},
+    {file = "Audio/Transport/full_subzone_dor-danil-barrow-den-2a52d74bbd93fc512b27/1-0000.mp3", duration = 73.0383673, start = 0},
   },
 }
 P.transport["subzone:dormitory"] = {
@@ -1310,7 +1310,7 @@ P.transport["subzone:eastvale-logging-camp"] = {
   fullHash = "8bb0ab",
   text = "Eastvale Logging Camp. Timber orders from Stormwind reach Eastvale Logging Camp, where danger keeps the work from going smoothly. Wolves and bears drive lumberjacks from the eastern woods, but the camp still sends timber to Stormwind and nearby settlements. Timber buyers across the Kingdom of Stormwind send Eastvale Logging Camp orders with strict deadlines. Wolves and bears prowl the woods around the work sites. They drive lumberjacks away and leave cut timber behind.\n\nSupervisor Raelen directs the camp’s work. Travelers help drive off the beasts and recover the abandoned wood before deliveries fall behind schedule. Eastvale Logging Camp has homes and horse stables where travelers can buy fine mounts. On a nearby hill above the work site, retired Marshal Haggard lives in a quiet manor.\n\nHe once led the Stormwind Guard. Then he left its service to retire far from the capital’s politics.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_eastvale-logging-camp-8906bf6b38277e318e27/1-0000.mp3", duration = 52.5061224, start = 0},
+    {file = "Audio/Transport/full_subzone_eastvale-logging-camp-fa9976a08a2d0416a8e7/1-0000.mp3", duration = 78.6808163, start = 0},
   },
 }
 P.transport["subzone:echo-ridge-mine"] = {
@@ -1318,7 +1318,7 @@ P.transport["subzone:echo-ridge-mine"] = {
   fullHash = "03cf9d",
   text = "Echo Ridge Mine. Kobolds hold Echo Ridge Mine in the northwestern cliffs of Northshire Valley, where stone and ore once fed the valley. Echo Ridge Mine was cut into the hills above Northshire Abbey to supply the valley with stone and metal. Kobolds poured through its tunnels and drove out the workers. Marshal McBride fears they endanger Northshire's safety and its recruits. So he sends new recruits into the mine to thin their numbers and take it back. Kobolds have pushed beyond Echo Ridge Mine into Elwynn Forest. From the northwestern ridge, they threaten Northshire's training grounds and the flow of resources to the abbey.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_echo-ridge-mine-6a0693d184e0492acff7/1-0000.mp3", duration = 36.8065306, start = 0},
+    {file = "Audio/Transport/full_subzone_echo-ridge-mine-dad5cb0e8390467ed200/1-0000.mp3", duration = 48.4571429, start = 0},
   },
 }
 P.transport["subzone:engineering-labs"] = {
@@ -1342,7 +1342,7 @@ P.transport["subzone:fallen-sky-lake"] = {
   fullHash = "3a1a97",
   text = "Fallen Sky Lake. At Fallen Sky Lake, Shadethickets defend the shores and central isle between Silverwing Outpost and the Warsong Labor Camp. South of Silverwing Outpost and west of the Warsong Labor Camp, Fallen Sky Lake draws you into contested waters. Hulking Shadethickets roam the shore and the small isle at its center, treating intruders as threats.\n\nA powerful Shadethicket Oracle rules from the isle's heart. The Oracle hoards the fallen moonstones once gathered here and keeps the shadethickets bound to the lake, watchful for travelers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fallen-sky-lake-3f277c9ff6c31cc51252/1-0000.mp3", duration = 32.5485714, start = 0},
+    {file = "Audio/Transport/full_subzone_fallen-sky-lake-b2647c3089479ab57291/1-0000.mp3", duration = 47.0465306, start = 0},
   },
 }
 P.transport["subzone:fargodeep-mine"] = {
@@ -1350,7 +1350,7 @@ P.transport["subzone:fargodeep-mine"] = {
   fullHash = "cc9f11",
   text = "Fargodeep Mine. Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. Its gold once filled Stormwind's treasury, but now kobolds make their home in its tunnels. Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, the outlying mine grew vulnerable. Kobolds filled its dark tunnels and made a warren beneath the hills. Now Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings. Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fargodeep-mine-cf3063101120bfbff624/1-0000.mp3", duration = 53.6032653, start = 0},
+    {file = "Audio/Transport/full_subzone_fargodeep-mine-9978c926f9a9a762ec98/1-0000.mp3", duration = 75.5461224, start = 0},
   },
 }
 P.transport["subzone:farstrider-lodge"] = {
@@ -1366,7 +1366,7 @@ P.transport["subzone:fel-rock"] = {
   fullHash = "8f81a8",
   text = "Fel Rock. North of Dolanaar, corruption spreads through Fel Rock and threatens Teldrassil’s woods. Lord Melenas and his grells have made the once-tranquil cavern a danger. North of Dolanaar, Fel Rock lies among Teldrassil’s wooded hills. Once peaceful, the cavern is now choked by twisted roots and strange shadows. Wild grells and grellkin roam within. The taint reaches into the boughs of the world tree. Lord Melenas, a satyr, has made Fel Rock his stronghold. From the cavern, he spreads corruption while night elf sentinels keep watch. Druids in Dolanaar, among them Tallonkai Swiftroot, seek defenders to cleanse the cave and slay Melenas. They must stop the blight before it reaches farther into the surrounding woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fel-rock-3d5d9dd7803d50db013b/1-0000.mp3", duration = 45.4530612, start = 0},
+    {file = "Audio/Transport/full_subzone_fel-rock-d43c51e447a03c4b3851/1-0000.mp3", duration = 61.5444898, start = 0},
   },
 }
 P.transport["subzone:felfire-hill"] = {
@@ -1374,7 +1374,7 @@ P.transport["subzone:felfire-hill"] = {
   fullHash = "ec8612",
   text = "Felfire Hill. In eastern Ashenvale, demons still crawl across the blighted rise of Felfire Hill. Infernals struck there during the Third War, and fel power still burns in the soil. Horde guards hold the bridges to the hill near their settlements. During the Third War, the Burning Legion sent flaming meteors across Kalimdor, carrying fearsome infernals. Several struck this ridge in Ashenvale. Their fires burned away the ancient woodland and corrupted the earth. The Legion fell at Mount Hyjal, yet demons that survived its defeat still prowl the scorched slopes. Fel energy saturates the land they haunt. Felfire Hill lies southeast of Splintertree Post and southwest of the Warsong Lumber Camp, near vital Horde operations. Demonic remnants threaten to spill into the surrounding forest. So Horde forces raised fortified barricades and guard towers at both bridges leading to the hill. The guards keep the creatures within their blighted haven.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_felfire-hill-d0b7733e6d802a654529/1-0000.mp3", duration = 59.4546939, start = 0},
+    {file = "Audio/Transport/full_subzone_felfire-hill-4b0303b9c1ee417946e7/1-0000.mp3", duration = 79.4383673, start = 0},
   },
 }
 P.transport["subzone:fire-scar-shrine"] = {
@@ -1390,7 +1390,7 @@ P.transport["subzone:forest-s-edge"] = {
   fullHash = "ddc119",
   text = "Forest's Edge. At Forest's Edge, Riverpaw gnolls under Hogger threaten travelers on Elwynn's southwestern frontier. At Forest's Edge, the woods run southwest from Stormwind City, between Mirror Lake Orchard and the rivers that border Westfall. Westbrook Garrison is nearby, yet Stormwind has too few soldiers to keep the woods clear of wild beasts and raiding parties. Boars roam among the trees and along the banks. Riverpaw gnolls gather in force, using the woods as a staging ground. Hogger and his pack hunt through the woods of Forest's Edge. He is a massive, brutal gnoll chieftain who leads raids on nearby farms and harasses travelers. The Stormwind Army has placed a bounty on his head. His pack makes the timberland dangerous for anyone crossing it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forest-s-edge-cf2bb5419f3fff406794/1-0000.mp3", duration = 44.4865306, start = 0},
+    {file = "Audio/Transport/full_subzone_forest-s-edge-8405a81b52618610d6f2/1-0000.mp3", duration = 62.5893878, start = 0},
   },
 }
 P.transport["subzone:forest-song"] = {
@@ -1398,7 +1398,7 @@ P.transport["subzone:forest-song"] = {
   fullHash = "5e635b",
   text = "Forest Song. In northeastern Ashenvale, Forest Song keeps watch near Satyrnaar and Bough Shadow. The ancient kaldorei ruins lie mostly deserted, with Kayneth Stillwind guarding the eastern border. Forest Song’s white columns and broken arches rise among the trees of northeastern Ashenvale. Once an elegant kaldorei settlement, the ruin now lies overgrown with ivy and wild ferns. Satyrnaar lies southwest, while the Warsong Lumber Camp presses in from the south. Eastern trails lead from here toward Azshara and Bough Shadow. Demonic corruption and Horde incursions trouble the woods, though the ruins remain quiet. Kayneth Stillwind keeps watch over Forest Song alone. From the crumbling outpost, the druid watches for enemies entering the wilderness, including the Forsaken in the eastern forests. Astranaar lies far away, and Forest Song has no garrison fortifications. Still, Alliance travelers bound north for Felwood or seeking the corruption spreading through the canopy can gather here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forest-song-1a1f68672ada53ad6130/1-0000.mp3", duration = 60.8130612, start = 0},
+    {file = "Audio/Transport/full_subzone_forest-song-786695e897e343496847/1-0000.mp3", duration = 82.442449, start = 0},
   },
 }
 P.transport["subzone:forlorn-cavern"] = {
@@ -1430,7 +1430,7 @@ P.transport["subzone:frostmane-hold"] = {
   fullHash = "678f6c",
   text = "Frostmane Hold. Frostmane trolls raid from the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as the raiders press into dwarven lands. In western Dun Morogh, Frostmane Hold cuts into cold cliffs. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe’s stronghold. From here, Frostmane raiders strike the valleys, threaten travelers on mountain passes, and test the defenses around Kharanos. Dwarven commanders in Kharanos fear the growing Frostmane force. Young mountaineers and adventurers scout the caverns and map their defenses. They thin the warbands before the tribe can gather for an organized assault on dwarven outposts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostmane-hold-eeb997e9d5e319765fc8/1-0000.mp3", duration = 45.4269388, start = 0},
+    {file = "Audio/Transport/full_subzone_frostmane-hold-233d1b89a0118ba612d0/1-0000.mp3", duration = 59.0106122, start = 0},
   },
 }
 P.transport["subzone:frostmane-hovel"] = {
@@ -1438,7 +1438,7 @@ P.transport["subzone:frostmane-hovel"] = {
   fullHash = "e8b62a",
   text = "Frostmane Hovel. In southern Coldridge Valley, Frostmane trolls press toward the dwarven training grounds. Frostmane trolls shelter in caverns cut into the mountains south of Coldridge Valley. They refuse to yield the high snows to Ironforge and raid nearby dwarven camps. Their attacks disrupt the supply lines into the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostmane-hovel-bf25f2f888eb606414ee/1-0000.mp3", duration = 19.0955102, start = 0},
+    {file = "Audio/Transport/full_subzone_frostmane-hovel-651b6d06f6fdc9cd1588/1-0000.mp3", duration = 27.7420408, start = 0},
   },
 }
 P.transport["subzone:furlbrow-s-pumpkin-farm"] = {
@@ -1470,7 +1470,7 @@ P.transport["subzone:goblin-foundry"] = {
   fullHash = "3cf1ab",
   text = "Goblin Foundry. In the Deadmines, goblins keep the Goblin Foundry working for the Defias Brotherhood. Gilnid oversees the craftsmen and engineers around its great smelting cauldron. Deep beneath Moonbrook, goblin craftsmen and engineers labor for the Defias Brotherhood. Smelters and iron ramps fill the chamber. There, they make anchors and cannonballs. Gilnid, the smelter, oversees the goblin workforce. Craftsmen keep production moving while engineers send remote-controlled golems to defend the workshop. Narrow ramps and molten metal make the chamber dangerous for intruders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_goblin-foundry-19c0b959e41b92cc98d7/1-0000.mp3", duration = 36.3885714, start = 0},
+    {file = "Audio/Transport/full_subzone_goblin-foundry-6ec484694552a4e063bc/1-0000.mp3", duration = 48.3004082, start = 0},
   },
 }
 P.transport["subzone:gol-bolar-quarry"] = {
@@ -1478,7 +1478,7 @@ P.transport["subzone:gol-bolar-quarry"] = {
   fullHash = "5e7732",
   text = "Gol'Bolar Quarry. At Gol'Bolar Quarry, troggs have driven the miners from the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but now the dig lies quiet. Ironforge dwarves opened Gol'Bolar Quarry southeast of Kharanos to draw stone and mineral wealth from the mountains. Their digging broke into underground warrens and brought a horde of hostile troggs into the open. The creatures soon drove out the miners.\n\nThe upper camp is now an embattled staging ground. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive the troggs back and reclaim the pit.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-0bb759710a050731b348/1-0000.mp3", duration = 37.1722449, start = 0},
+    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-0021a9e722b6593d4010/1-0000.mp3", duration = 56.0065306, start = 0},
   },
 }
 P.transport["subzone:gol-bolar-quarry-mine"] = {
@@ -1486,7 +1486,7 @@ P.transport["subzone:gol-bolar-quarry-mine"] = {
   fullHash = "a22b3d",
   text = "Gol'Bolar Quarry Mine. Troggs hold Gol'Bolar Quarry Mine beneath the quarry in eastern Dun Morogh. Dwarves of Ironforge mined its tunnels for stone and rich ore until their picks broke into trogg caverns. Now Hammerspine leads the warband in the deepest shafts. The dwarves' pickaxes broke through a wall into caverns where troggs dwelled. Their mining ended there. Troggs poured from the darkness, overwhelmed the crews, and drove them from the mine. The abandoned shafts remain in trogg hands. Younger troggs roam the quarry's sunlit terraces, but the mine shelters the warband's fiercest fighters. Deep in its cramped tunnels lurks Hammerspine, their vicious chieftain. Local mountaineers still need to reclaim the valuable quarry. To do so, they must reach the mine's deepest shafts and cut off the troggs at their source.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-mine-7d2c3881cbc05ce47a98/1-0000.mp3", duration = 49.162449, start = 0},
+    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-mine-1d5ac1cfc98afbc57ac5/1-0000.mp3", duration = 62.0669388, start = 0},
   },
 }
 P.transport["subzone:gold-coast-quarry"] = {
@@ -1502,7 +1502,7 @@ P.transport["subzone:goldshire"] = {
   fullHash = "8549d4",
   text = "Goldshire. Goldshire stands where Elwynn’s roads meet, between Stormwind City, Westfall, Redridge, and the southern frontier. Rebuilt after the First War, it offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends the town. Goldshire holds the crossroads in rural Elwynn, where the king’s highways meet. Threats press closer as Stormwind’s forces thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan must rely on passing adventurers instead of regular troops to guard the borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to town. Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until it was rebuilt after the Second War.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_goldshire-fb3cbb78b80a04fcd9a7/1-0000.mp3", duration = 62.4065306, start = 0},
+    {file = "Audio/Transport/full_subzone_goldshire-eb6d261fd2859b9547eb/1-0000.mp3", duration = 75.6244898, start = 0},
   },
 }
 P.transport["subzone:grand-vestibule"] = {
@@ -1558,7 +1558,7 @@ P.transport["subzone:grizzled-den"] = {
   fullHash = "4e71ff",
   text = "Grizzled Den. In Dun Morogh, wendigo packs make their lair in Grizzled Den, southwest of Kharanos. Southwest of Kharanos, Grizzled Den cuts into Dun Morogh’s crags. Wendigo packs make their home in its hollows. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their lair. Hunters brave the cavern for thick wendigo manes, used by craftsmen to line cold chairs and carriage seats with insulating fur. Prospectors work copper veins in Grizzled Den’s frozen stone walls. Scouts search its darker corners for discarded footlockers. Deeper in the tunnels, the den’s largest and most vicious predators wait in the shadows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grizzled-den-c54de70c6a0768776f53/1-0000.mp3", duration = 41.5608163, start = 0},
+    {file = "Audio/Transport/full_subzone_grizzled-den-59b0949602a29966f0ea/1-0000.mp3", duration = 55.1967347, start = 0},
   },
 }
 P.transport["subzone:grizzlepaw-ridge"] = {
@@ -1574,7 +1574,7 @@ P.transport["subzone:grove-of-the-ancients"] = {
   fullHash = "e89200",
   text = "Grove of the Ancients. Nature spirits and kaldorei gather in the Grove of the Ancients, where Onu, an Ancient of Lore, keeps watch. Old temple ruins stand beside the Wildbend River in southeastern Darkshore. Old temple stones ring the Grove of the Ancients in southeastern Darkshore. The Wildbend River runs through its heart, offering refuge from a troubled coastline. Nature spirits and kaldorei gather here as the Circle of Ancients. Together, they tend to the forest’s balance. Onu, an Ancient of Lore, watches the land’s changing fortunes and offers wisdom to travelers. Wandering merchants and slumbering druids rest beneath the boughs. To the southeast, territorial furbolg camps hold their ground. Alliance sentinels and druids watch the southern reaches of Darkshore from this frontier outpost.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grove-of-the-ancients-81faa65ae62477508e71/1-0000.mp3", duration = 48.3004082, start = 0},
+    {file = "Audio/Transport/full_subzone_grove-of-the-ancients-7f0bcdc4cd894614f4c7/1-0000.mp3", duration = 63.8432653, start = 0},
   },
 }
 P.transport["subzone:gryphon-roost"] = {
@@ -1598,7 +1598,7 @@ P.transport["subzone:hall-of-arms-northshire"] = {
   fullHash = "1de868",
   text = "Hall of Arms (Northshire). Recruits train with the Stormwind Army in Northshire Abbey’s Hall of Arms, south of the Main Hall. Blunted steel rings through the Hall of Arms, and instruction keeps a measured cadence. South of Northshire Abbey’s Main Hall, human fighters and devout aspirants train for the Stormwind Army. Veteran battle instructors and paladin mentors teach the postures and disciplines needed to defend Elwynn Forest from kobolds, Defias bandits, and gnoll raiders. Across the courtyard, clerics and scholars study ancient tomes in the Library Wing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-arms-northshire-90639d184d0a201b4bd1/1-0000.mp3", duration = 31.6604082, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-arms-northshire-020e2cc531fe25f2757c/1-0000.mp3", duration = 52.9502041, start = 0},
   },
 }
 P.transport["subzone:hall-of-explorers"] = {
@@ -1630,7 +1630,7 @@ P.transport["subzone:helm-s-bed-lake"] = {
   fullHash = "a0a729",
   text = "Helm's Bed Lake. In southeastern Dun Morogh, dwarves keep a hole open in Helm's Bed Lake for fresh water. But beasts, troggs, and hostile Dark Iron dwarves make the shore dangerous. The ice is firm enough to cross, but the banks are dangerous. Displaced troggs scavenge along the ridges, and wild beasts prowl the edges. South of the water, hostile Dark Iron dwarves have taken an abandoned lodge. They ambush travelers who pass nearby.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_helm-s-bed-lake-5ef42ff93961b5a0609e/1-0000.mp3", duration = 27.115102, start = 0},
+    {file = "Audio/Transport/full_subzone_helm-s-bed-lake-59d28033d4d2083446a7/1-0000.mp3", duration = 41.3779592, start = 0},
   },
 }
 P.transport["subzone:heroes-vigil"] = {
@@ -1638,7 +1638,7 @@ P.transport["subzone:heroes-vigil"] = {
   fullHash = "72724c",
   text = "Heroes' Vigil. On Stone Cairn Lake's island, Heroes' Vigil lies neglected and overrun by renegade wizards. The Stone of Remembrance honors those who fell in the First War. Heroes' Vigil gathers around the Stone of Remembrance on an island in Stone Cairn Lake. Erected after the First War, its inscribed circle honors the soldiers and citizens slain when the Old Horde sacked Goldshire and the surrounding valleys. Once a sacred place of faith and sacrifice, the memorial has slipped from Stormwind's attention. Its grounds are overgrown, and no soldiers tend them. Without a kingdom garrison, outcasts have claimed the island. Rogue wizards control Stone Cairn Lake and the memorial grounds. They practice wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will know peace again.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_heroes-vigil-8ade6627152e6b24d218/1-0000.mp3", duration = 56.4244898, start = 0},
+    {file = "Audio/Transport/full_subzone_heroes-vigil-59706943be5279827abd/1-0000.mp3", duration = 77.7665306, start = 0},
   },
 }
 P.transport["subzone:high-seat"] = {
@@ -1670,7 +1670,7 @@ P.transport["subzone:howling-vale"] = {
   fullHash = "b26ec2",
   text = "Howling Vale. In north-central Ashenvale, Terrowulf worgen howl through Howling Vale near the Felwood border. Their caves conceal an ancient shrine to Elune, bound to the worgen’s origins on Kalimdor. North of the road to Felwood, the Terrowulf’s howls break Ashenvale’s calm. Ancient trees fill the vale, but corrupted packlords and aggressive wildlife roam beneath them. At its heart, a cave holds the ruined shrine of Mel'Thandris, an ancient night elf priestess. Once devoted to quiet worship, the shrine is now defiled by feral wolf-men. The nearby Sentinels cannot explain where they came from.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_howling-vale-6c115eb0dddf8e1e5755/1-0000.mp3", duration = 40.1240816, start = 0},
+    {file = "Audio/Transport/full_subzone_howling-vale-b09aca4c5a6327a6ae52/1-0000.mp3", duration = 46.0277551, start = 0},
   },
 }
 P.transport["subzone:hushed-bank"] = {
@@ -1686,7 +1686,7 @@ P.transport["subzone:iceflow-lake"] = {
   fullHash = "e0cebc",
   text = "Iceflow Lake. In western Dun Morogh, dwarves keep fishing holes open at Iceflow Lake, just north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves prowl under their alpha, Timber. Paxton Ganter and other local dwarves clear thick ice from the lake for drinking water and fish. Bitter cold sweeps the shore, yet it still sustains them.\n\nThe islands are dangerous ground. A fierce pack of wild wolves prowls the icy mounds, led by Timber, a savage gray worg.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_iceflow-lake-450fedae05c958335e66/1-0000.mp3", duration = 32.0522449, start = 0},
+    {file = "Audio/Transport/full_subzone_iceflow-lake-dc8d3607fab8e64ba3a9/1-0000.mp3", duration = 41.7436735, start = 0},
   },
 }
 P.transport["subzone:iris-lake"] = {
@@ -1694,7 +1694,7 @@ P.transport["subzone:iris-lake"] = {
   fullHash = "795ea9",
   text = "Iris Lake. In north-central Ashenvale, Fel corruption has turned Iris Lake yellow-green. Bog beasts prowl its shores. Between Astranaar and Shael'dryn's moonwell, Iris Lake has been fouled since the Third War. Fel energies drift south from the tainted heights of Felwood and poison the basin. Clear water becomes a yellow-green mire, and the native plants and water spirits are twisted. Aggressive bog beasts lash out at travelers who come near. Pollution chokes Iris Lake, yet sacred traces of the past remain along its edges. Rare crystalline stones called Elune's Tears sometimes lie on the muddy banks. Keepers of elven traditions, including Shael'dryn, seek these holy stones to help purify tainted moonwells and resist the demonic blight spreading across Ashenvale.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_iris-lake-0215268a39b4accdfb6c/1-0000.mp3", duration = 47.1510204, start = 0},
+    {file = "Audio/Transport/full_subzone_iris-lake-3e9d050960b9f708fa79/1-0000.mp3", duration = 58.4359184, start = 0},
   },
 }
 P.transport["subzone:ironband-s-compound"] = {
@@ -1702,7 +1702,7 @@ P.transport["subzone:ironband-s-compound"] = {
   fullHash = "7c38de",
   text = "Ironband's Compound. Dark Iron dwarves now hold Ironband's Compound south of Helm's Bed Lake in eastern Dun Morogh. Sturgy Ironband once used the camp, but its fall has brought danger to travelers and nearby settlements. Sturgy Ironband raised the camp as a staging post in Dun Morogh's snowy wilderness. Dark Iron infiltrators then pushed deep into Bronzebeard territory and seized it. Their forces now stand close to Ironforge, and the outpost threatens the city's edge. Within Dun Morogh, the Dark Iron camp is a grave provocation to Ironforge. The city keeps watch and sends seasoned warriors to recover fallen scouts. They also seek vital intelligence on the Dark Iron threat in the mountain kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironband-s-compound-6259553cc848c2e0e885/1-0000.mp3", duration = 43.7028571, start = 0},
+    {file = "Audio/Transport/full_subzone_ironband-s-compound-7a6e52b427c5a519b095/1-0000.mp3", duration = 52.48, start = 0},
   },
 }
 P.transport["subzone:ironband-s-excavation-site"] = {
@@ -1726,7 +1726,7 @@ P.transport["subzone:ironclad-cove"] = {
   fullHash = "3fb148",
   text = "Ironclad Cove. Deep beneath Westfall, the Defias Brotherhood hides a shipyard in Ironclad Cove. There, they build a war juggernaught with a passage to the sea. At the deepest point of the Deadmines, Ironclad Cove opens into a vast sea cavern, now a fortified dockyard. Edwin VanCleef and the Defias Brotherhood are building an enormous warship here, the juggernaught. Wooden scaffolding, islets, and loading catwalks fill the cavern. Defias pirates, deckhands, and overseers watch over the work.\n\nVanCleef means to do more than raid Westfall's farmsteads. He plans to assemble a private naval force that can bombard Stormwind's shores.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironclad-cove-61b5625c188d2b16dc86/1-0000.mp3", duration = 40.6987755, start = 0},
+    {file = "Audio/Transport/full_subzone_ironclad-cove-6c15405e537d9121b837/1-0000.mp3", duration = 57.6261224, start = 0},
   },
 }
 P.transport["subzone:ironforge-airfield"] = {
@@ -1734,7 +1734,7 @@ P.transport["subzone:ironforge-airfield"] = {
   fullHash = "a3fbcb",
   text = "Ironforge Airfield. Gnome flying machines and dwarven mountaineers keep watch at Ironforge Airfield, high above Dun Morogh. Its plateau overlooks jagged crags and the steep descent toward the Wetlands. Above Dun Morogh's trails, gnome flying machines line open strips among the peaks. Dwarven stonework holds the ridgelines, where mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold. Frostmane trolls dwell in caves near the airfield and harass the dwarven sentries. Across the frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders. So the outpost remains on guard.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-airfield-4a4739d8c71c71c38a68/1-0000.mp3", duration = 43.2326531, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-airfield-98c1c8952ffdb6900ec3/1-0000.mp3", duration = 58.1746939, start = 0},
   },
 }
 P.transport["subzone:jangolode-mine"] = {
@@ -1758,7 +1758,7 @@ P.transport["subzone:jasperlode-mine"] = {
   fullHash = "a79e15",
   text = "Jasperlode Mine. In north-central Elwynn, kobolds and giant spiders hold Jasperlode Mine. Its shafts once sent iron and minerals to Stormwind City, but the kingdom lacks the strength to reclaim them. Jasperlode Mine once sent a steady supply of minerals to Stormwind, as did nearby Fargodeep. Now the kingdom's forces are stretched thin by threats beyond its borders and unrest at home. Local garrisons cannot guard the shafts. Kobolds drove out the human miners and seized the mine, hoarding stolen gold and tallow candles. Mine spiders have made their home beneath Jasperlode Mine's timber supports. A massive matriarch called Mother Fang leads them. They prey on kobolds who trespass and on unwary prospectors. Salvaging the mine means facing those dangers in its depths.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jasperlode-mine-061b099d48c8d4f3ba0b/1-0000.mp3", duration = 47.3338776, start = 0},
+    {file = "Audio/Transport/full_subzone_jasperlode-mine-b5fa33f09bb23bc00784/1-0000.mp3", duration = 67.9444898, start = 0},
   },
 }
 P.transport["subzone:jerod-s-landing"] = {
@@ -1766,7 +1766,7 @@ P.transport["subzone:jerod-s-landing"] = {
   fullHash = "1e0827",
   text = "Jerod's Landing. Defias smugglers hold Jerod's Landing beside the Nazferiti River in Elwynn Forest. Its dock gives them a hidden route for stolen goods across the kingdom's waterways. Defias outlaws control the dock at Jerod's Landing, where Elwynn Forest meets the Nazferiti River. Once an ordinary boat dock, it now receives goods plundered from the Redridge Mountains. A Defias dockmaster watches over the cargo as the outlaws move it downstream toward holdings such as Klaven's Tower in Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jerod-s-landing-71c37796cbf1a1725e5c/1-0000.mp3", duration = 28.7869388, start = 0},
+    {file = "Audio/Transport/full_subzone_jerod-s-landing-3d6e28a6f67c917d6b19/1-0000.mp3", duration = 46.3412245, start = 0},
   },
 }
 P.transport["subzone:kargathia-keep"] = {
@@ -1774,7 +1774,7 @@ P.transport["subzone:kargathia-keep"] = {
   fullHash = "add9cc",
   text = "Kargathia Keep. Warsong overseers hold the eastern edge of their lumber camp at Kargathia Keep. The stronghold guards the Southfury River border in Ashenvale and links the outpost to Orgrimmar. At the eastern edge of the Warsong Lumber Camp, Kargathia Keep stands just west of the Southfury River. Spiked barricades guard the outpost, where Overseer Gorthak and his officers direct the Horde’s logging. From the river border, the Warsong clan watches for incursions. When night elf skirmishers strike, reinforcements can come swiftly from Durotar and Orgrimmar. Kargathia Keep takes its name from Kargath Bladefist, famed chieftain of the Shattered Hand clan. Kargath in the Badlands and Bladefist Bay on Durotar’s coast bear his name as well. For Warsong orcs facing Ashenvale’s hostile woodlands, the keep’s imposing walls speak of martial resilience and Horde defiance in lands claimed by the night elves.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kargathia-keep-c8db4204af2e617ed02d/1-0000.mp3", duration = 55.2228571, start = 0},
+    {file = "Audio/Transport/full_subzone_kargathia-keep-d19e9474f99e2014d02f/1-0000.mp3", duration = 79.9346939, start = 0},
   },
 }
 P.transport["subzone:kharanos"] = {
@@ -1782,7 +1782,7 @@ P.transport["subzone:kharanos"] = {
   fullHash = "5eb7c8",
   text = "Kharanos. Travelers leaving Coldridge Valley make Kharanos their primary stop, just down the road from Ironforge. The town has a forge, gnomish workshops, and the famous Thunderbrew Distillery. Along Dun Morogh's central road, Kharanos is the first true town for recruits arriving from Anvilmar. The cold and wind bite hard, but dwarven grit and gnomish ingenuity keep the settlement thriving. Its heart is a roaring public forge and the Thunderbrew Distillery, whose ale is counted among the finest in Khaz Modan and renowned across the eastern mountains.\n\nCrafters work among weary travelers seeking warmth. Together, they make Kharanos an essential place for business in the lower peaks. Behind Kharanos's cozy hearths, a military outpost guards the mountain passes. Fierce indigenous wendigo prowl the frozen caverns directly to the west, while aggressive Frostmane trolls hold Shimmer Ridge to the northwest.\n\nIronforge's regular forces are stretched thin across the realm. So Kharanos relies heavily on visiting adventurers and local watchmen to drive back raiding parties, cull dangerous predators, and keep the trade routes open.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kharanos-c7a0d611422514c9858b/1-0000.mp3", duration = 68.9110204, start = 0},
+    {file = "Audio/Transport/full_subzone_kharanos-c8e66b20ec20a7a9e2dc/1-0000.mp3", duration = 96.8620408, start = 0},
   },
 }
 P.transport["subzone:lake-al-ameth"] = {
@@ -1790,7 +1790,7 @@ P.transport["subzone:lake-al-ameth"] = {
   fullHash = "3fb6dc",
   text = "Lake Al'Ameth. South of Dolanaar, Lake Al'Ameth's shores have grown dangerous as the plants turn violent. Once a quiet haven with little more than a wooden jetty, it is one of Teldrassil's largest freshwater lakes. Timberlings and timberling sprouts prowl the water's edge at Lake Al'Ameth. The lake lies just south of Dolanaar, where calm water and a sparse settlement give little hint of the danger ashore. An unnatural sickness spreading through Teldrassil has driven the plants into a frenzy. So druids and researchers from Dolanaar send travelers to gather seeds and kill the creatures before corruption spreads deeper into the forest. Oakenscowl, once a noble timberling, now spreads corruption from a cave on Lake Al'Ameth's southern bank. A gargantuan tumor has swollen his body, and other timberlings lash out at anyone who comes near. The woodland spirits have lost their balance. Now the Cenarion Circle faces an urgent test: can the rot around the lake be diagnosed and treated, and can Teldrassil's unblessed creation endure?",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lake-al-ameth-2f03987a0682a7c1a456/1-0000.mp3", duration = 58.5926531, start = 0},
+    {file = "Audio/Transport/full_subzone_lake-al-ameth-2074d04cfaf68515f582/1-0000.mp3", duration = 74.475102, start = 0},
   },
 }
 P.transport["subzone:lake-everstill"] = {
@@ -1806,7 +1806,7 @@ P.transport["subzone:lake-falathim"] = {
   fullHash = "a0242d",
   text = "Lake Falathim. Murlocs now overrun Lake Falathim, on Ashenvale’s western shore southwest of Maestra’s Post. Night elves once swam and fished here, drawn by moonlight said to touch the water by day and night. Southeast of the Zoram Strand, Lake Falathim once welcomed Kaldorei who came to swim and fish. Local lore says Elune’s gentle light touches the water at every hour, by day and by night. Now ferocious murlocs have surged inland and seized the shores. Their numbers drive travelers and scholars away. Lake Falathim’s murlocs make it dangerous to wander alone. The night elf scholar Teronis recently went missing near the water while pursuing his inquiry. Sentinels fear for anyone who approaches the moonlit pool alone, with hostile murlocs lurking along the banks and in the shallows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lake-falathim-e4858c300c2e89b11f56/1-0000.mp3", duration = 46.3934694, start = 0},
+    {file = "Audio/Transport/full_subzone_lake-falathim-f651e338d4ca1608e075/1-0000.mp3", duration = 61.1526531, start = 0},
   },
 }
 P.transport["subzone:lakeridge-highway"] = {
@@ -1854,7 +1854,7 @@ P.transport["subzone:library-wing-northshire"] = {
   fullHash = "bc8c18",
   text = "Library Wing (Northshire). In Northshire Abbey, the Library Wing gathers scholars and new priests and mages. They prepare to join Stormwind’s defense. The Library Wing opens south from Northshire Abbey’s Main Hall. Dusty shelves, lecterns, and quiet alcoves fill its rooms. Here aspiring mages and priests study the Arcane and the Holy Light. Across the abbey, recruits drill in the Hall of Arms.\n\nPriestess Anetta guides novice priests in faith and healing. Khelden Bremen teaches budding mages to shape primal elemental energy.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_library-wing-northshire-064a02c855003f635933/1-0000.mp3", duration = 32.3918367, start = 0},
+    {file = "Audio/Transport/full_subzone_library-wing-northshire-4fe5c5864c77fc50e897/1-0000.mp3", duration = 44.9044898, start = 0},
   },
 }
 P.transport["subzone:lion-s-pride-inn"] = {
@@ -1862,7 +1862,7 @@ P.transport["subzone:lion-s-pride-inn"] = {
   fullHash = "b7aa6c",
   text = "Lion's Pride Inn. At the Lion's Pride Inn, travelers rest and find work just south of Stormwind. Innkeeper Farley welcomes them to Goldshire's gathering place in Elwynn Forest. Goldshire's crossroads bring travelers to the Lion's Pride Inn. Innkeeper Farley keeps the old motto: “Rest and relaxation for the tired and cold.” Hearths, strong drinks, and rooms welcome weary travelers from Northshire. The roads link Stormwind with Westfall, Redridge, and Duskwood, so town marshals, local crafters, and seasoned trainers gather here to share news and hire passing mercenaries.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-c6128faa32e15df595c7/1-0000.mp3", duration = 36.1795918, start = 0},
+    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-f9b95478d93a5987e022/1-0000.mp3", duration = 46.4718367, start = 0},
   },
 }
 P.transport["subzone:long-wash"] = {
@@ -1870,7 +1870,7 @@ P.transport["subzone:long-wash"] = {
   fullHash = "99b5c3",
   text = "Long Wash. Murlocs now threaten the shore of Long Wash, south of Auberdine and toward Ameth'Aran beneath Darkshore's gray sky. Long Wash is Darkshore's shortest stretch of distinct coast, despite its name. Beneath the region's perpetual overcast skies, damp sand lies strewn with flotsam, driftwood, and sea creatures washed up by the Veiled Sea. Crabs comb the surf, but travelers heading south from Auberdine must watch for murloc tribes camped at the water's edge. The murlocs attack anyone who enters the ground where they scavenge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_long-wash-bb60ca912e02a2073b14/1-0000.mp3", duration = 32.522449, start = 0},
+    {file = "Audio/Transport/full_subzone_long-wash-16b2b17511ddf1d9e553/1-0000.mp3", duration = 42.7102041, start = 0},
   },
 }
 P.transport["subzone:longshore"] = {
@@ -1894,7 +1894,7 @@ P.transport["subzone:maclure-vineyards"] = {
   fullHash = "2a778d",
   text = "Maclure Vineyards. In southern Elwynn, grapes and wine from Maclure Vineyards go to Stormwind. The Maclure estate is known for its harvest and its bitter feud with the neighboring Stonefields. In southern Elwynn Forest, the Maclures tend their fields and make wine. Yet the Stonefields, who live down the road, cast a shadow over that daily labor. Accusations of theft and old resentment keep tempers high between the households. Hungry boars prowl the land, while kobolds press toward both homesteads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maclure-vineyards-65bafe26beccf9656612/1-0000.mp3", duration = 28.6302041, start = 0},
+    {file = "Audio/Transport/full_subzone_maclure-vineyards-6a998596f9c3e525d79d/1-0000.mp3", duration = 36.884898, start = 0},
   },
 }
 P.transport["subzone:maestra-s-post"] = {
@@ -1902,7 +1902,7 @@ P.transport["subzone:maestra-s-post"] = {
   fullHash = "167eb4",
   text = "Maestra's Post. Along western Ashenvale's road, Maestra's Post guards the way between Astranaar and the Ruins of Ordil'Aran. Night elven Sentinels hold the settlement, where a few humans serve the Alliance. Maestra's Post keeps watch beneath the trees of western Ashenvale. A slender night elven tower and an open lodge mark the settlement beside the road from the coast of Darkshore to Astranaar. Sentinels scan the wilds as corrupted furbolg stir nearby. Horde movements also threaten Alliance supply lines. At Maestra's Post, a handful of human allies live among the night elven Sentinels. Feero Ironhand and Delgren the Purifier bring martial strength and devotion to the holy Light in service of the Alliance. This remote campsite is an early meeting place between the eastern kingdoms and Kalimdor's ancient defenders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maestra-s-post-75c32e6e7e760d367ff6/1-0000.mp3", duration = 49.6326531, start = 0},
+    {file = "Audio/Transport/full_subzone_maestra-s-post-8aff4b0bee06380e67e1/1-0000.mp3", duration = 65.3322449, start = 0},
   },
 }
 P.transport["subzone:mage-quarter"] = {
@@ -1918,7 +1918,7 @@ P.transport["subzone:main-hall-northshire"] = {
   fullHash = "3f6123",
   text = "Main Hall (Northshire). Newcomers report to the Main Hall at Northshire Abbey in western Elwynn. From there, they reach the Hall of Arms, the Library Wing, and the abbey tower before receiving their first assignments defending Stormwind. Trainees and clerics pass through the Main Hall when they enter Northshire Abbey. The chamber joins the Hall of Arms, where recruits prepare for battle, to the Library Wing and the stairs to the abbey tower.\n\nStrife in the valley reaches even this quiet place. Officers gather able newcomers here to defend the kingdom's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_main-hall-northshire-be43579efaa6db3a8fd2/1-0000.mp3", duration = 32.0522449, start = 0},
+    {file = "Audio/Transport/full_subzone_main-hall-northshire-b9a02512b2cf3fdb764a/1-0000.mp3", duration = 50.155102, start = 0},
   },
 }
 P.transport["subzone:malaka-jin"] = {
@@ -1990,7 +1990,7 @@ P.transport["subzone:mirror-lake"] = {
   fullHash = "8209e1",
   text = "Mirror Lake. Water falls into Mirror Lake beneath Stormwind’s cliffs in northwestern Elwynn Forest. An orchard stands nearby, where Defias bandits prowl and mages watch the forest’s arcane currents. Mirror Lake rests beneath Stormwind City's walls, where fishermen and tired travelers can seek a quiet rest. Yet Defias Brotherhood brigands stalk the surrounding orchards, making a long stay perilous for locals.\n\nMystical disturbances across Azeroth have begun to warp the forest's natural channels of arcane energy. Mages from the Wizard's Sanctum watch the lake closely. They send practitioners to sample its currents and guard against chaotic arcane runoff poisoning communities downstream.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirror-lake-0c892fe85447f7156367/1-0000.mp3", duration = 42.5273469, start = 0},
+    {file = "Audio/Transport/full_subzone_mirror-lake-161a6ed1b3289340df50/1-0000.mp3", duration = 59.0106122, start = 0},
   },
 }
 P.transport["subzone:mirror-lake-orchard"] = {
@@ -1998,7 +1998,7 @@ P.transport["subzone:mirror-lake-orchard"] = {
   fullHash = "cba9ce",
   text = "Mirror Lake Orchard. Defias bandits now hold Mirror Lake Orchard on Mirror Lake’s southern shore in western Elwynn Forest. With Stormwind’s guards stretched thin, the grove near Thunder Falls lies exposed. Mirror Lake’s clean waters once sustained the farmstead. Now outlaws across Elwynn seek shelter in rural homes. The orchard’s cottage and grounds give the Defias Brotherhood a place to hide near Thunder Falls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirror-lake-orchard-6b14f38c7a25a6d0e29b/1-0000.mp3", duration = 25.2081633, start = 0},
+    {file = "Audio/Transport/full_subzone_mirror-lake-orchard-4e1cf7bde4932d26d30f/1-0000.mp3", duration = 38.5306122, start = 0},
   },
 }
 P.transport["subzone:mist-s-edge"] = {
@@ -2006,7 +2006,7 @@ P.transport["subzone:mist-s-edge"] = {
   fullHash = "347262",
   text = "Mist's Edge. North of Auberdine, Mist's Edge follows Darkshore's western shore under ocean fog. Gray beaches hold wrecks, the remains of great sea creatures, crabs, and murlocs. Along Darkshore's western edge, Mist's Edge is a shore of damp sand and rocky tidepools beneath coastal fog. Shattered vessels and drift timber lie among the remains of huge sea creatures. Crabs forage along the beach, while murloc tribes make their homes in the surf. Lost vessels leave wreckage and discarded cargo along these sands. Night elf sentinels and scavengers watch the coast. Yet murloc encampments menace travelers making their way along the shore from Auberdine.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mist-s-edge-bf3384890de0d4b0df79/1-0000.mp3", duration = 41.6130612, start = 0},
+    {file = "Audio/Transport/full_subzone_mist-s-edge-11839223c1c266680e4a/1-0000.mp3", duration = 53.0808163, start = 0},
   },
 }
 P.transport["subzone:misty-pine-refuge"] = {
@@ -2014,7 +2014,7 @@ P.transport["subzone:misty-pine-refuge"] = {
   fullHash = "fdb87c",
   text = "Misty Pine Refuge. In central Dun Morogh, the Argent Dawn keeps a small outpost at Misty Pine Refuge. Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the crags nearby. Father Gavin, the order's lone agent here, keeps a quiet hearth amid bitter cold and danger on the mountain roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-pine-refuge-1597b6f58cff1b30617f/1-0000.mp3", duration = 21.9428571, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-pine-refuge-66d8630da1a112e19451/1-0000.mp3", duration = 33.6718367, start = 0},
   },
 }
 P.transport["subzone:mo-grosh-stronghold"] = {
@@ -2070,7 +2070,7 @@ P.transport["subzone:moonwell-ashenvale"] = {
   fullHash = "216bba",
   text = "Moonwell (Ashenvale). In central Ashenvale, the Moonwell of Purity rests east of Iris Lake and west of Raynewood Retreat. Its waters carry Elune's grace to nourish the forest and cleanse foulness from the land. Alliance travelers following Raene Wolfrunner's research seek Shael'dryn beside its basin. Beneath central Ashenvale's canopy, this moonwell is a sacred place for the kaldorei. Its shining waters draw on nature's magic and the light of Elune. Satyr corruption, fel taint, and logging harm the surrounding forest. Shrines of pure water are vital to those working to heal the woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_moonwell-ashenvale-b2d06d67d171469d1d8f/1-0000.mp3", duration = 36.9371429, start = 0},
+    {file = "Audio/Transport/full_subzone_moonwell-ashenvale-e1c150eb00c141942f66/1-0000.mp3", duration = 48.4571429, start = 0},
   },
 }
 P.transport["subzone:mor-shan-rampart"] = {
@@ -2078,7 +2078,7 @@ P.transport["subzone:mor-shan-rampart"] = {
   fullHash = "7171f2",
   text = "Mor'shan Rampart. At Mor'shan Rampart, Horde guards hold the northern end of the Gold Road and the way into Ashenvale. The Warsong clan raised the barricade to shield Horde territory from night elf counterattacks and to stage raids into the forest. At the northern end of the Gold Road, Mor'shan Rampart guards the meeting of the Barrens and Ashenvale. Its timber walls and watchtowers were raised against night elf strikes over the Horde's logging. From here, raiding parties head north toward Astranaar. Warsong fighters and sentries keep Mor'shan Rampart ready for battle. They watch the tree line for night elf scouts and archers. The post also keeps supply lines open between Ashenvale's frontline outposts and Horde settlements to the south.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mor-shan-rampart-0f4bdab1cc7ce02083a7/1-0000.mp3", duration = 42.0310204, start = 0},
+    {file = "Audio/Transport/full_subzone_mor-shan-rampart-1f32ab8db5566cf0a107/1-0000.mp3", duration = 54.4653061, start = 0},
   },
 }
 P.transport["subzone:mortwake-s-tower"] = {
@@ -2102,7 +2102,7 @@ P.transport["subzone:mystral-lake"] = {
   fullHash = "9d95e3",
   text = "Mystral Lake. Travelers from the Horde and Alliance come to Mystral Lake in south-central Ashenvale. Its deep waters draw them beneath the night elves’ watch. Mystral Lake draws travelers to its shores in southern Ashenvale. It lies south of Silverwind Refuge and east of Talondeep Vale, and no lake in the forest is larger. Night elves keep watch from their outpost on the northern shore. Travelers of both the Horde and the Alliance often find their journeys bringing them here. Horde shaman come to Mystral Lake during trials of elemental communion. In its deep waters, they seek to understand the element of water. The lake’s primal resonance makes it an essential pilgrimage for those learning to bind and respect the tidal spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mystral-lake-ec7266c73be756424a44/1-0000.mp3", duration = 41.5085714, start = 0},
+    {file = "Audio/Transport/full_subzone_mystral-lake-3fbc88877245dd788a9f/1-0000.mp3", duration = 54.9355102, start = 0},
   },
 }
 P.transport["subzone:night-run"] = {
@@ -2110,7 +2110,7 @@ P.transport["subzone:night-run"] = {
   fullHash = "21998f",
   text = "Night Run. In east-central Ashenvale, the Felmusk satyr hold Night Run among ancient elven ruins. Dark soul magic gathers within their outpost. Night Run is Ashenvale’s smallest and most isolated of its three great satyr strongholds, with Xavian and Satyrnaar. Crumbling elven stonework and broken pillars shelter the settlement on a high ridge, ringed by steep cliffs no traveler can cross.\n\nYou can follow the Falfarren River near Xavian’s waters, then turn west up the ridge. Or take the precarious northern ledge above Raynewood Retreat. The Felmusk satyr have joined the shadowy Cult of the Dark Strand. Together they anchor twisted soulgems here to gather demonic essence in the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_night-run-160bdd2e0972d1ee8105/1-0000.mp3", duration = 43.7289796, start = 0},
+    {file = "Audio/Transport/full_subzone_night-run-05af258d52c07e30ab4c/1-0000.mp3", duration = 56.5812245, start = 0},
   },
 }
 P.transport["subzone:nightsong-woods"] = {
@@ -2126,7 +2126,7 @@ P.transport["subzone:north-gate-outpost"] = {
   fullHash = "eb7f50",
   text = "North Gate Outpost. At North Gate Outpost, mountaineers guard the road where Dun Morogh meets Loch Modan. Their patrols shield travelers from beasts in the crags. Dwarven mountaineers watch North Gate Pass from the outpost. They guard travelers heading through the mountain tunnels into Loch Modan. The pass marks Dun Morogh’s northeastern edge, where harsh weather and steep ravines make patrols perilous. When patrols go missing or predators threaten the road, the garrison calls on travelers to scout the ridges.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_north-gate-outpost-b2c7a8e5aafbc9c30326/1-0000.mp3", duration = 28.4212245, start = 0},
+    {file = "Audio/Transport/full_subzone_north-gate-outpost-82ec14655da944b16bd2/1-0000.mp3", duration = 45.5053061, start = 0},
   },
 }
 P.transport["subzone:north-gate-pass"] = {
@@ -2150,7 +2150,7 @@ P.transport["subzone:northshire-vineyards"] = {
   fullHash = "d33602",
   text = "Northshire Vineyards. East of Northshire Abbey, Northshire Vineyards are in Defias hands. Their grapes once supplied wine to the clerics, but thieves now plunder the harvest and threaten local farmers. Across the stream from Northshire Abbey, local workers once tended the grape fields. Milly Osworth was among them. Now Garrick Padfoot leads the Defias Brotherhood brigands who hold the acreage.\n\nThe vineyards give newly arrived Brotherhood recruits an easy foothold close to the abbey. The Defias presence has reached its fields.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-vineyards-c3da757991fad3782dbc/1-0000.mp3", duration = 32.9142857, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-vineyards-2930e1947db93bbdd5b4/1-0000.mp3", duration = 42.6057143, start = 0},
   },
 }
 P.transport["subzone:old-ironforge"] = {
@@ -2174,7 +2174,7 @@ P.transport["subzone:oracle-glade"] = {
   fullHash = "36d0d6",
   text = "Oracle Glade. In Oracle Glade, Bloodfeather harpies trouble a sacred woodland between Darnassus and Wellspring Lake. The ancient Oracle Tree and Teldrassil’s first and most potent moonwell watch over the island boughs. Between Darnassus and Wellspring Lake, Oracle Glade offers a place of communion with nature. At its heart, the ancient Oracle Tree has been magically nurtured. Its great boughs form the shape of an eagle perched atop a bear. Nearby shines Teldrassil’s first and most potent sacred moonwell, bright with Elune’s grace.\n\nThe Circle of the Ancients and the Oracle Tree watch over the island boughs. The tree sheds bark marked with messages for Archdruid Fandral Staghelm about the World Tree’s health. Bloodfeather harpies have made roosts in the glade’s high branches. These aggressive avian scavengers threaten the sacred tree and harass traveling druids, disturbing the moonwell’s quiet. Sentinels from Darnassus struggle to drive them out.\n\nAs you pass through the northern part of the glade, tread carefully. Harpies strike swiftly near their roosts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_oracle-glade-533ea8c1a62f43fdbc32/1-0000.mp3", duration = 68.4408163, start = 0},
+    {file = "Audio/Transport/full_subzone_oracle-glade-8a0ed8625493a5738f8c/1-0000.mp3", duration = 98.5338776, start = 0},
   },
 }
 P.transport["subzone:park"] = {
@@ -2206,7 +2206,7 @@ P.transport["subzone:pool-of-ask-ar"] = {
   fullHash = "76ea67",
   text = "Pool of Ask'ar. Naga invaders and aquatic beasts crowd Pool of Ask'ar, deep within Blackfathom Deeps. Beneath its waters lie night elven stonework and passages into the corrupted sanctuary. Past the Drowned Sacellum, cold water fills Pool of Ask'ar beneath a vast cavern roof. Oversized snapping turtles and deep-sea crabs nest among natural caverns and ancient stonework. Ghamoo-ra, an enormous ancient chelonian, watches over them.\n\nNaga have seized the temple and guard this flooded threshold. Their patrols watch the approaches leading deeper into the complex, toward Lady Sarevess and the Moonshrine Ruins. Dangerous creatures and naga patrols guard relics from the shrine's past, before the Sundering. Submerged ledges and hidden alcoves along the cavern's edges hold lost artifacts, including the Lorgalis Manuscript sought by Gerrig Bonegrip, a dwarven scholar from Ironforge.\n\nSwim through the flooded southern passages to reach dry tunnels guarded by vile murlocs and Old God cultists. The pool remains a vital waterway through Blackfathom Deeps.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pool-of-ask-ar-be9812911b49cf89b157/1-0000.mp3", duration = 67.2391837, start = 0},
+    {file = "Audio/Transport/full_subzone_pool-of-ask-ar-f12794acb866c91ed354/1-0000.mp3", duration = 85.7077551, start = 0},
   },
 }
 P.transport["subzone:pools-of-arlithrien"] = {
@@ -2214,7 +2214,7 @@ P.transport["subzone:pools-of-arlithrien"] = {
   fullHash = "8b9ec4",
   text = "Pools of Arlithrien. South of Darnassus, danger and neglect have overtaken the Pools of Arlithrien. Their moonwell no longer draws night elves to a quiet sanctuary, as beasts and nearby Gnarlpine furbolgs threaten the springs. Beneath Teldrassil’s shaded boughs, the Pools of Arlithrien lie south of Darnassus. A stone moonwell rests at their heart, its waters touched by Elune’s grace. Danger has driven the night elves to leave the sanctuary untended, though it lies near their capital. Agitated beasts roam the shallows, and hostile Gnarlpine furbolgs remain nearby. A quiet retreat has become a place troubled by dangers across the island.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pools-of-arlithrien-0f8106c09817d8286f28/1-0000.mp3", duration = 39.4187755, start = 0},
+    {file = "Audio/Transport/full_subzone_pools-of-arlithrien-551275cb8c775b509851/1-0000.mp3", duration = 47.882449, start = 0},
   },
 }
 P.transport["subzone:raven-hill"] = {
@@ -2262,7 +2262,7 @@ P.transport["subzone:remtravel-s-excavation"] = {
   fullHash = "6e4c18",
   text = "Remtravel's Excavation. Prospector Remtravel's dig in southern Darkshore has broken into ancient ruins. Prospector Remtravel came to southern Darkshore in search of relics from the distant past. He set up a large dig, far from Auberdine's safety. As his team cut through old layers of earth, they uncovered Gravelflint troggs and hulking stone golems. The creatures overran the quarry and scattered the miners. Now Remtravel scrambles to recover his most promising finds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_remtravel-s-excavation-982b07490283936bb36b/1-0000.mp3", duration = 27.2195918, start = 0},
+    {file = "Audio/Transport/full_subzone_remtravel-s-excavation-c759b075a3d04e4adb40/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["subzone:render-s-rock"] = {
@@ -2294,7 +2294,7 @@ P.transport["subzone:ridgepoint-tower"] = {
   fullHash = "e1f046",
   text = "Ridgepoint Tower. Stormwind guards watch eastern Elwynn from Ridgepoint Tower, where forest roads lead into neighboring wilderness. The garrison scans the valleys for threats to the kingdom’s farms and settlements. Ridgepoint Tower looks out from high ground at the eastern edge of Stormwind’s authority, with wild country beyond. Its guards watch the routes toward farms and settlements nearer Northshire and Goldshire. They remain alert for danger crossing the border. Threats press in from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl Duskwood’s timberline. Nearby wilderness camps shelter rogue Defias Brotherhood bandits seeking gaps in the guard’s defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ridgepoint-tower-d2fda041be515e1e23cf/1-0000.mp3", duration = 46.3412245, start = 0},
+    {file = "Audio/Transport/full_subzone_ridgepoint-tower-1a68aaa06fb8e4800036/1-0000.mp3", duration = 64.4179592, start = 0},
   },
 }
 P.transport["subzone:roland-s-doom"] = {
@@ -2358,7 +2358,7 @@ P.transport["subzone:rut-theran-village"] = {
   fullHash = "6f401d",
   text = "Rut'theran Village. At Teldrassil’s southern shore, Rut'theran Village joins Darnassus to Kalimdor by sea and sky. Ferries and hippogryphs carry travelers between the World Tree and the mainland. Rut'theran Village meets the water below Teldrassil’s towering heights. Darnassus rests in the boughs above, and the village tends to its needs beyond the tree. A mystical portal beneath the trees carries travelers between the shore and Darnassus in an instant. Ferries leave the docks for Auberdine on Darkshore’s mainland coast, and flight masters tend roosts of trained hippogryphs.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_rut-theran-village-a5f481abb3dfc58cf4f7/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_subzone_rut-theran-village-1d326481867790c19326/1-0000.mp3", duration = 52.3755102, start = 0},
   },
 }
 P.transport["subzone:saldean-s-farm"] = {
@@ -2406,7 +2406,7 @@ P.transport["subzone:shadowthread-cave"] = {
   fullHash = "64f37b",
   text = "Shadowthread Cave. In Shadowthread Cave, spiders now threaten the young kaldorei near Aldrassil. The cave lies beneath Shadowglen’s northwest cliffs. In Shadowglen’s shaded northwest, Shadowthread Cave shelters Teldrassil’s giant spiders. Once they lived quietly among the World Tree’s young boughs. Now the brood guards its territory fiercely. Webwood silk chokes the stone corridors, and the spiders threaten young kaldorei who venture beyond Aldrassil. Githyiss the Vile rules Shadowthread Cave’s deepest recesses. The monstrous broodmother is far more ferocious than the common webwood crawlers. Young night elf sentinels and druids enter the cave to curb the infestation and slay her. Corruption touches Teldrassil’s wildlife, and the sanctuary of Shadowglen is at risk.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shadowthread-cave-a2b04e608f8aed9c4e1b/1-0000.mp3", duration = 49.6587755, start = 0},
+    {file = "Audio/Transport/full_subzone_shadowthread-cave-5b0ee5def2afdacbe503/1-0000.mp3", duration = 60.6302041, start = 0},
   },
 }
 P.transport["subzone:shimmer-ridge"] = {
@@ -2414,7 +2414,7 @@ P.transport["subzone:shimmer-ridge"] = {
   fullHash = "a6c34c",
   text = "Shimmer Ridge. In northern Dun Morogh, Shimmer Ridge lies west of the Gates of Ironforge, where Frostmane trolls hold two camps across a chasm. Shimmerweed grows nowhere else. Frostmane trolls hold camps on both sides of a chasm, joined by a rickety wooden bridge. Troll scavengers and tamed mountain boars guard the rocky heights. The ridge lies near the main road and the dwarven capital, giving the trolls a place to raid travelers and mountain patrols. Frostmane trolls grow shimmerweed on the ridge. Dwarven brewmasters prize the plant for the potent, flavorful highland ales it makes. Since it is hard to gather elsewhere, mountaineers and young recruits brave troll ambushes and tusked beasts to harvest it from the trolls' plots.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shimmer-ridge-a3bad644f09e0ebfb2c8/1-0000.mp3", duration = 44.9306122, start = 0},
+    {file = "Audio/Transport/full_subzone_shimmer-ridge-2be0342406476a88892b/1-0000.mp3", duration = 58.7232653, start = 0},
   },
 }
 P.transport["subzone:shimmering-flats"] = {
@@ -2430,7 +2430,7 @@ P.transport["subzone:shrine-of-aessina"] = {
   fullHash = "44932d",
   text = "Shrine of Aessina. At the Shrine of Aessina, night elves honor an ancient spirit of nature and wild creatures. The shrine lies in southwestern Ashenvale, between Maestra's Post and Astranaar, where border friction is growing. West of Astranaar, night elves honor Aessina, a Wild God who bears the heart and spirit of the deep forests. For generations, they and their woodland kin have come here to commune with nature, far from the main roads. The Horde presses into Ashenvale for timber and footholds, and peace grows uncertain at sacred grounds across the territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shrine-of-aessina-9513530ae54c624cfd16/1-0000.mp3", duration = 33.6718367, start = 0},
+    {file = "Audio/Transport/full_subzone_shrine-of-aessina-51876cef420afb846316/1-0000.mp3", duration = 50.1028571, start = 0},
   },
 }
 P.transport["subzone:si-7-stormwind-city"] = {
@@ -2470,7 +2470,7 @@ P.transport["subzone:silverwing-outpost"] = {
   fullHash = "271fef",
   text = "Silverwing Outpost. At Silverwing Outpost, Duriel Moonfire commands the Alliance’s easternmost hold against the Horde in contested Ashenvale. The garrison guards the eastern bank of the Falfarren River in the forest’s south-central reaches. Southwest of Splintertree Post and just north of the Barrens border, Silverwing Outpost holds the eastern bank of the Falfarren River. The Horde contests and patrols this ground. From here, the garrison shields night elf holdings deeper in the forest. Duriel Moonfire and her Silverwing Sentinels face constant attacks from nearby orcs seeking to drive night elf forces away.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_silverwing-outpost-e50418ca253028bce63b/1-0000.mp3", duration = 36.2579592, start = 0},
+    {file = "Audio/Transport/full_subzone_silverwing-outpost-071a3bdda5eaad9f8d96/1-0000.mp3", duration = 48.5616327, start = 0},
   },
 }
 P.transport["subzone:sishir-canyon"] = {
@@ -2494,7 +2494,7 @@ P.transport["subzone:south-gate-outpost"] = {
   fullHash = "bf9847",
   text = "South Gate Outpost. At South Gate Outpost, mountaineers guard the pass between Dun Morogh and Loch Modan. Their fortified post watches the southern road from Ironforge's frigid heights to the Loch's temperate valley. South Gate Outpost marks the spot where the snowy slopes end and the basin begins. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Their kin at North Gate Outpost face a harder fight, but the southern road is largely secure. Travelers, pilgrims, and trade wagons can reach Thelsamar in relative safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_south-gate-outpost-b9820c1b11bf81ff3af3/1-0000.mp3", duration = 32.8620408, start = 0},
+    {file = "Audio/Transport/full_subzone_south-gate-outpost-d48fdb2338655cadf6bb/1-0000.mp3", duration = 47.0726531, start = 0},
   },
 }
 P.transport["subzone:south-gate-pass"] = {
@@ -2518,7 +2518,7 @@ P.transport["subzone:splintertree-post"] = {
   fullHash = "2590eb",
   text = "Splintertree Post. In eastern Ashenvale, Splintertree Post holds the Horde’s frontier northwest of Felfire Hill. Grommash Hellscream and the Warsong clan raised it during the Third War as a fortified base against the night elves and a staging ground for expansion. Splintertree Post anchors the Horde’s military and supply lines across eastern Ashenvale. Grommash Hellscream and the Warsong clan founded it when the orcs first entered the forest during the Third War. Orcish and tauren scouts and warriors still guard the armed outpost. An inn, a flight master, and steady supplies from Orgrimmar support the Horde’s contested hold beneath the trees. Splintertree Post stays ready for attack. The night elves have neither forgotten nor forgiven Grommash’s actions during the war. They also oppose the Horde’s continued logging and its raids on Astranaar. Sentinels hide in the surrounding woods and strike in constant retaliation, testing the post’s watchmen at all hours.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_splintertree-post-ac7a979886508587cb8c/1-0000.mp3", duration = 56.9730612, start = 0},
+    {file = "Audio/Transport/full_subzone_splintertree-post-531178add50fa4740a55/1-0000.mp3", duration = 81.7632653, start = 0},
   },
 }
 P.transport["subzone:splithoof-crag"] = {
@@ -2542,7 +2542,7 @@ P.transport["subzone:starbreeze-village"] = {
   fullHash = "c00bc8",
   text = "Starbreeze Village. Gnarlpine furbolgs have overrun Starbreeze Village, east of Dolanaar in Teldrassil. The once quiet night elf hamlet lies in ruins beneath the corruption spreading through the World Tree. Southeast of Shadowglen, just down the road from Dolanaar, Starbreeze Village lies in shambles. Night elf families once lived peacefully beneath Teldrassil’s boughs. Now aggressive Gnarlpine furbolgs occupy the wooden homes. Corruption afflicting the World Tree’s boughs has driven them wild. They drove out the elven residents and fiercely defend the ruined grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_starbreeze-village-b93c8f8bb51fb7df689a/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_subzone_starbreeze-village-bf24904841732b2fbea3/1-0000.mp3", duration = 51.0171429, start = 0},
   },
 }
 P.transport["subzone:steelgrill-s-depot"] = {
@@ -2550,7 +2550,7 @@ P.transport["subzone:steelgrill-s-depot"] = {
   fullHash = "b9a745",
   text = "Steelgrill's Depot. East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery working. Beldin Steelgrill and his crew repair them, supply tinkerers, and salvage what they can. Just off the snowy road, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and raw ore from nearby quarries. Metal clanks, steam vents hiss, and experimental engines churn. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. In the bitter cold, travelers come for spare parts or technical guidance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_steelgrill-s-depot-68fa264568322f5b5217/1-0000.mp3", duration = 35.6571429, start = 0},
+    {file = "Audio/Transport/full_subzone_steelgrill-s-depot-a23d3604877e6067868e/1-0000.mp3", duration = 45.8187755, start = 0},
   },
 }
 P.transport["subzone:stendel-s-pond"] = {
@@ -2566,7 +2566,7 @@ P.transport["subzone:stone-cairn-lake"] = {
   fullHash = "bec26f",
   text = "Stone Cairn Lake. At Stone Cairn Lake in northeastern Elwynn, murlocs hold the southern shore. Renegade wizards camp beside Heroes' Vigil, a memorial to those lost in the First War. Families and pilgrims once crossed the calm lake waters to honor the dead at Heroes' Vigil. The stone memorial rises on the central island, marking the heavy loss of human life in the First War against the Orcish Horde. Now the island is hostile, and those who come to pay their respects must face the wizards' camp beside the monument. Aggressive murlocs hold Stone Cairn Lake's southern banks. Crude huts line the water, and the murlocs harass anyone who comes near. Rich mineral veins run through the hills and rocky outcrops around the lake, drawing prospectors and miners despite the dangers along the shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stone-cairn-lake-808fc2551ff7ff4828b6/1-0000.mp3", duration = 46.9681633, start = 0},
+    {file = "Audio/Transport/full_subzone_stone-cairn-lake-b98cd4b597d4110d377d/1-0000.mp3", duration = 58.7232653, start = 0},
   },
 }
 P.transport["subzone:stonefield-farm"] = {
@@ -2574,7 +2574,7 @@ P.transport["subzone:stonefield-farm"] = {
   fullHash = "416b04",
   text = "Stonefield Farm. In southern Elwynn Forest, the Stonefield family works its fields while a long feud divides them from the Maclures. South of Goldshire, the Stonefields grow crops for the realm. For decades, they have quarreled with the nearby Maclure Vineyards. Each household accuses the other of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonefield-farm-35f31735cfc175dbfcaf/1-0000.mp3", duration = 26.5926531, start = 0},
+    {file = "Audio/Transport/full_subzone_stonefield-farm-ff83208c86950da1c617/1-0000.mp3", duration = 34.3771429, start = 0},
   },
 }
 P.transport["subzone:stonefire-tavern"] = {
@@ -2646,7 +2646,7 @@ P.transport["subzone:stormwind-gate"] = {
   fullHash = "b3cbcd",
   text = "Stormwind Gate. Stormwind Gate stands open between Elwynn Forest and Stormwind City, watched by sentries. Beyond its arch, stone monuments line the Valley of Heroes. The Stormwind City Guard holds this passage, and patrols march from the outer arch toward the Valley of Heroes. Unrest lingers in Elwynn, yet the iron and stone gates remain open. Travelers, merchants, and defenders returning from the road pass through toward the heart of the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-gate-e358b5a1d3b3320f8635/1-0000.mp3", duration = 27.1673469, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-gate-b52984c362b4663cb5ec/1-0000.mp3", duration = 37.7730612, start = 0},
   },
 }
 P.transport["subzone:stormwind-keep"] = {
@@ -2710,7 +2710,7 @@ P.transport["subzone:talondeep-vale"] = {
   fullHash = "a4c4cb",
   text = "Talondeep Vale. In south-central Ashenvale, the wooded vale carries travelers toward the Stonetalon Mountains. Talondeep Vale lies beneath Ashenvale’s trees. Silverwind Refuge stands to the east, with the Ruins of Stardust nearby. To the south, the land rises toward the Stonetalon Mountains. Travelers cross the valley between Ashenvale’s heart and the high crags beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_talondeep-vale-a72d400a4ab7d846c5ed/1-0000.mp3", duration = 22.4391837, start = 0},
+    {file = "Audio/Transport/full_subzone_talondeep-vale-429405a4547cd289a2c0/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["subzone:tarren-mill"] = {
@@ -2726,7 +2726,7 @@ P.transport["subzone:temple-gardens"] = {
   fullHash = "c85ef7",
   text = "Temple Gardens. In Temple Gardens, water and bridges gather at the heart of Darnassus. The city bank stands on the main island, beside the Temple of the Moon to the south and a glowing tree portal to Teldrassil's base. Water runs beneath wooden bridges through Darnassus's center. They link the Temple Gardens' islets with the Cenarion Enclave to the north, the terraces to the east, and the Temple of the Moon to the south. Night elves tend the waters and foliage. Travelers and priestesses find a quiet place to rest. Darnassus's central vault and bank occupy the main island. On its western bank, a great glowing pink tree portal carries travelers through the boughs to Rut'theran Village at Teldrassil's base. From there, coastal docks and flight paths connect the World Tree to other destinations.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_temple-gardens-5fff16230fceea7de265/1-0000.mp3", duration = 48.1959184, start = 0},
+    {file = "Audio/Transport/full_subzone_temple-gardens-93c313e9d0bacccec4f6/1-0000.mp3", duration = 62.72, start = 0},
   },
 }
 P.transport["subzone:temple-of-the-moon"] = {
@@ -2734,7 +2734,7 @@ P.transport["subzone:temple-of-the-moon"] = {
   fullHash = "1ade3e",
   text = "Temple of the Moon. High Priestess Tyrande Whisperwind guides her people from the Temple of the Moon in Darnassus. The sanctuary is the seat of government on Teldrassil and home to the Sisterhood of Elune, whose priestesses tend a sacred moonwell. Built soon after the Third War, the Temple of the Moon rose as the night elves made their home on Teldrassil. It is among the largest stone works made by modern kaldorei hands. Its marble came from quarries on the Kalimdor mainland and crossed the sea by magical means.\n\nAt the temple's heart, a broad moonwell rests beneath the statue of Haidene. Pilgrims come to worship and reflect beside its consecrated waters. The temple also holds Darnassus's highest seat of government, where High Priestess Tyrande Whisperwind guides her people through a new age. The priestesses of the Sisterhood of Elune serve their goddess from the temple terraces, in worship and in the field. Emissaries and dispatched sisters travel across northern Kalimdor to investigate threats or aid local sentinels. Priestess Gwennyth Bly'Leggonde, for example, makes inquiries along the Darkshore coastline.\n\nNovices and veteran priestesses gather beneath the starry vaulted ceiling to learn divine spellwork, tend the wounded, and guard the sanctum from outside corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_temple-of-the-moon-7fb13e0893359019bad1/1-0000.mp3", duration = 77.4530612, start = 0},
+    {file = "Audio/Transport/full_subzone_temple-of-the-moon-893d8c644cdb181627fd/1-0000.mp3", duration = 101.929796, start = 0},
   },
 }
 P.transport["subzone:the-loch"] = {
@@ -2758,7 +2758,7 @@ P.transport["subzone:thistlefur-hold"] = {
   fullHash = "409dc7",
   text = "Thistlefur Hold. At Thistlefur Hold, corruption has turned the furbolgs against every outsider who draws near. Their cavern den lies at the northern end of Thistlefur Village in west-central Ashenvale. At the northern end of Thistlefur Village, Thistlefur Hold lies at the heart of the Thistlefur tribe's territory. Corruption has driven the furbolgs mad, and they attack travelers and neighbors who draw near. In the winding caverns, the tribe hoards scavenged relics, including troll charms sought by the Darkspear. Deep within, wooden cages hold captives, among them Ruul Snowhoof, a tauren brave.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thistlefur-hold-115903cb030c044459f1/1-0000.mp3", duration = 35.9706122, start = 0},
+    {file = "Audio/Transport/full_subzone_thistlefur-hold-652a9708939f0a214926/1-0000.mp3", duration = 50.4946939, start = 0},
   },
 }
 P.transport["subzone:thistlefur-village"] = {
@@ -2766,7 +2766,7 @@ P.transport["subzone:thistlefur-village"] = {
   fullHash = "f019d4",
   text = "Thistlefur Village. In Ashenvale, Thistlefur furbolgs attack outsiders who approach their village north of Astranaar. Corruption has taken hold of the tribe, making the village dangerous to travelers. Among Ashenvale’s woodland communities, Thistlefur Village lies north of Astranaar. Corruption has maddened the Thistlefur furbolgs. They guard the paths through their settlement and attack travelers who draw near. Dal Bloodclaw and Rorgish Jowl lead the clan as fierce chieftains. Their aggression threatens nearby settlements and those traveling the roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thistlefur-village-da5b25c0add420d0c085/1-0000.mp3", duration = 31.6604082, start = 0},
+    {file = "Audio/Transport/full_subzone_thistlefur-village-1fce2f7b255bb11af3d7/1-0000.mp3", duration = 47.0204082, start = 0},
   },
 }
 P.transport["subzone:thistlefuzz-arcanery"] = {
@@ -2790,7 +2790,7 @@ P.transport["subzone:thunder-falls"] = {
   fullHash = "5b6646",
   text = "Thunder Falls. Bandits now hold a cottage beside the stream at Thunder Falls, high in northwestern Elwynn Forest. Above Mirror Lake, a mountain stream runs between the steep cliffs of Thunder Falls. From an unreachable cascade in the north, it spills down in falls on both sides. One pours into Mirror Lake, while the stream runs west toward Westfall’s rugged border.\n\nA cottage, a dock, and an outdoor forge stand beside the water. Bandits now claim the clearing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunder-falls-da47b8fdde5be83093ca/1-0000.mp3", duration = 28.7608163, start = 0},
+    {file = "Audio/Transport/full_subzone_thunder-falls-9ecc79c6e7b7fe6952ed/1-0000.mp3", duration = 39.8367347, start = 0},
   },
 }
 P.transport["subzone:thunderbrew-distillery"] = {
@@ -2798,7 +2798,7 @@ P.transport["subzone:thunderbrew-distillery"] = {
   fullHash = "9432e7",
   text = "Thunderbrew Distillery. In Kharanos, Thunderbrew Distillery offers travelers ale and shelter. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk share their skills within. The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded its brewhouse, and his kin have kept it in the family. Its strong ales are known across Khaz Modan for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside. Kharanos is the first major settlement travelers reach after leaving Coldridge Valley. Beneath the distillery’s timber rafters, instructors teach martial arts, holy rites, arcane studies, and roguecraft. Teachers also offer cooking and first aid. The hall pours its well-known stouts and gives travelers a place to prepare for the road ahead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunderbrew-distillery-d304ad06f8cf2ca59879/1-0000.mp3", duration = 54.4130612, start = 0},
+    {file = "Audio/Transport/full_subzone_thunderbrew-distillery-0d336d3e4c26731dd25b/1-0000.mp3", duration = 74.6057143, start = 0},
   },
 }
 P.transport["subzone:tinker-town"] = {
@@ -2822,7 +2822,7 @@ P.transport["subzone:tower-of-althalaxx"] = {
   fullHash = "b0eea6",
   text = "Tower of Althalaxx. Dark sorcery stirs at the Tower of Althalaxx on northern Darkshore's coast. Athrikus Narassin once withdrew there, and now demonic cultists and warlocks shelter within its ancient Highborne walls. Queen Azshara settled favored Highborne servants in Ameth'Aran and Bashal'Aran ten thousand years ago. She placed the powerful sorcerer Athrikus Narassin in authority over them. As Athrikus turned from civic governance, he withdrew to the nearby Tower of Althalaxx. The Great Sundering shattered ancient Kalimdor, yet the tower endured on Darkshore's desolate coast, a quiet ruin of forgotten elven magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tower-of-althalaxx-a35957ca2c0cde8ec06d/1-0000.mp3", duration = 37.1722449, start = 0},
+    {file = "Audio/Transport/full_subzone_tower-of-althalaxx-2be8336263fa732f1ed7/1-0000.mp3", duration = 52.3493878, start = 0},
   },
 }
 P.transport["subzone:tower-of-azora"] = {
@@ -2830,7 +2830,7 @@ P.transport["subzone:tower-of-azora"] = {
   fullHash = "1f04e6",
   text = "Tower of Azora. At the Tower of Azora, Archmage Theocritus leads a scholarly outpost in eastern Elwynn Forest. The slender spire rises north of the Brackwell Pumpkin Patch, where its human master keeps watch over a silent magical feud with a hostile tower in the Redridge Mountains. The Tower of Azora stands beside the eastern road to the Redridge Mountains. Gnome spellcasters staff most of the spire, where Archmage Theocritus guides their studies of strange curiosities and teaches wandering spellweavers. A wild magical aura surrounds the tower and sometimes warps nearby wildlife. Inside, gnome servants contend with enchanted household items and mutated insects that creep past the doorway.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tower-of-azora-712fd2b125155c780c7a/1-0000.mp3", duration = 42.9453061, start = 0},
+    {file = "Audio/Transport/full_subzone_tower-of-azora-8dbc1deb71b0b86295c4/1-0000.mp3", duration = 52.715102, start = 0},
   },
 }
 P.transport["subzone:tower-of-ilgalar"] = {
@@ -2854,7 +2854,7 @@ P.transport["subzone:tradesmen-s-terrace"] = {
   fullHash = "fbb52d",
   text = "Tradesmen's Terrace. Merchants and craftspeople gather in Tradesmen's Terrace along Darnassus's southern edge. Its auction house and shops connect travelers with goods from Teldrassil and beyond. Shops and merchants fill Darnassus's southern stretch in Tradesmen's Terrace. Kaldorei and travelers from across the Alliance find provisions, crafting supplies, and the city's central auction house here. Paths lead north to the Warrior's Terrace and west toward the Temple Gardens and the Temple of the Moon. Travelers bound for the wilds gather what they need here. Kaldorei shops favor quiet stone, timber, and woven goods shaped to live in harmony with nature. No roaring furnaces or smog rise from these workshops as they do in dwarven and human ones. Adventurers seeking trade contracts, repairs, or materials gathered from Teldrassil's boughs find northern Kalimdor's principal center of business here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tradesmen-s-terrace-ec6fe67303528d991f90/1-0000.mp3", duration = 51.2, start = 0},
+    {file = "Audio/Transport/full_subzone_tradesmen-s-terrace-bd2c9e24b40dddb9f913/1-0000.mp3", duration = 66.9257143, start = 0},
   },
 }
 P.transport["subzone:train-depot"] = {
@@ -2878,7 +2878,7 @@ P.transport["subzone:tundrid-hills"] = {
   fullHash = "79400d",
   text = "Tundrid Hills. In south-central Dun Morogh, the Tundrid Hills offer a perilous crossing west of Gol'Bolar Quarry. Snowbound ridges and dangerous wildlife make every step off the rocky passes a risk. From Coldridge Valley, the Tundrid Hills give you a rough way into eastern Dun Morogh, away from the main roads through Kharanos. Jagged slopes hold the snow, and the crossing is dangerous. Ferocious predators prowl the hills, so keep a weapon ready if you leave the beaten path.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tundrid-hills-0e3c3415c11e22506806/1-0000.mp3", duration = 28.0293878, start = 0},
+    {file = "Audio/Transport/full_subzone_tundrid-hills-6f4ecfc242030f513ca0/1-0000.mp3", duration = 36.2057143, start = 0},
   },
 }
 P.transport["subzone:twilight-grove"] = {
@@ -2894,7 +2894,7 @@ P.transport["subzone:twilight-shore-darkshore"] = {
   fullHash = "4aa939",
   text = "Twilight Shore (Darkshore). Murloc tribes and hungry sea creatures crowd Twilight Shore in southern Darkshore. Its rugged coast runs from the Long Wash to Ashenvale, where misty beaches meet cliffs, islets, and dangerous surf. Twilight Shore runs south from the Long Wash, past the ruins of Ameth'Aran, toward Ashenvale. Gray beaches give way to sharp cliffs and rocky islands. Threshadons and sea crawlers prowl the waters, while aggressive murloc camps line the shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_twilight-shore-darkshore-5c043b832cb961243351/1-0000.mp3", duration = 27.7159184, start = 0},
+    {file = "Audio/Transport/full_subzone_twilight-shore-darkshore-c1a44af2d9669a2f6bd6/1-0000.mp3", duration = 39.8367347, start = 0},
   },
 }
 P.transport["subzone:twilight-vale"] = {
@@ -2902,7 +2902,7 @@ P.transport["subzone:twilight-vale"] = {
   fullHash = "c51d9f",
   text = "Twilight Vale. In Twilight Vale, beasts and furbolgs prowl the dark woods between Darkshore and Ashenvale. The southern forest marks a perilous passage from Darkshore’s tainted coast to Ashenvale’s sacred canopies. Twilight Vale runs south from Ameth'Aran to the Ashenvale border, where dusk hangs over Darkshore’s southern woods. Corruption has spread deep among the wildlife. Rabid bears roam beside feral nightsabers, and hostile furbolg tribes stalk the trees.\n\nSentinels and travelers urge you to stay on the main road. A few paces into the woods can bring a swift, deadly ambush.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_twilight-vale-1ead52419cf2540164aa/1-0000.mp3", duration = 36.2579592, start = 0},
+    {file = "Audio/Transport/full_subzone_twilight-vale-8a7affea02e972790574/1-0000.mp3", duration = 49.5804082, start = 0},
   },
 }
 P.transport["subzone:valley-of-heroes"] = {
@@ -2966,7 +2966,7 @@ P.transport["subzone:warsong-lumber-camp"] = {
   fullHash = "c4250b",
   text = "Warsong Lumber Camp. Warsong Lumber Camp cuts Ashenvale timber for the Horde and keeps its conflict with the night elves alive. Kargathia Keep guards the operation. In eastern Ashenvale, Warsong Lumber Camp cuts through the dense canopy for the Horde. Orc peons and hired goblin engineers drive whirring shredders through towering trunks, making lumber for nearby Splintertree Post and the fledgling nation of Durotar.\n\nKargathia Keep anchors the camp's defenses against night elf counterattacks. War wolves wait in an active kennel. To the Warsong, every felled tree means survival and strength. To the native Sentinels, each saw blade is an act of sacrilege. Warsong clan warriors first entered these woods with Grom Hellscream during the Third War, seeking timber for the Horde. Their clearing enraged the demigod Cenarius and drew the ancient wrath of the night elves.\n\nNow Thrall's Horde banners fly over the camp, but old hatreds still burn. Untamed timber, hostile elves, and demonic corruption around neighboring Felfire Hill surround it. Its defenders stay armed around the clock, axes in hand as they harvest, ready to abandon the lumber when the next ambush comes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_warsong-lumber-camp-3bd5fb360ce8dd12f451/1-0000.mp3", duration = 74.5273469, start = 0},
+    {file = "Audio/Transport/full_subzone_warsong-lumber-camp-ddb83e6a088a222b3e68/1-0000.mp3", duration = 102.478367, start = 0},
   },
 }
 P.transport["subzone:weathered-nook"] = {
@@ -2990,7 +2990,7 @@ P.transport["subzone:wellspring-lake"] = {
   fullHash = "1aed9d",
   text = "Wellspring Lake. In northern Teldrassil, Wellspring Lake’s waters flow north as corruption troubles the wildlife. Northeast of Darnassus, the lake once offered night elf fishermen a quiet retreat. Beneath Teldrassil’s canopy, Wellspring Lake lies between Darnassus and the Oracle Glade. Night elves once came to its clear waters to fish and sit in quiet thought. Springs deep within the World Tree feed the lake, whose waters flow north through the Wellspring River.\n\nNow a blight troubles the surrounding wilds. Aggressive spiders, prowling nightsabers, and agitated timberlings roam the banks, making the shore dangerous for travelers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_wellspring-lake-f10b48650f92662cec32/1-0000.mp3", duration = 40.0457143, start = 0},
+    {file = "Audio/Transport/full_subzone_wellspring-lake-6833eb806d2a6d0fe2b5/1-0000.mp3", duration = 53.1591837, start = 0},
   },
 }
 P.transport["subzone:wellspring-river"] = {
@@ -2998,7 +2998,7 @@ P.transport["subzone:wellspring-river"] = {
   fullHash = "5bdf83",
   text = "Wellspring River. In Teldrassil, Wellspring River carries water north from Wellspring Lake and over the World Tree's edge to the sea. Timberlings along its banks have grown dangerous. Wellspring River runs north from Wellspring Lake through Teldrassil's forest. At the edge of the great tree, its waters plunge to the sea below.\n\nThe riverbanks have grown unsafe. Timberlings there have gone crazed, attacking travelers and druids who come near the water.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_wellspring-river-4445d5035dfcd2848a6d/1-0000.mp3", duration = 27.4808163, start = 0},
+    {file = "Audio/Transport/full_subzone_wellspring-river-493549ba4c8d90cf1b9d/1-0000.mp3", duration = 36.8587755, start = 0},
   },
 }
 P.transport["subzone:westbrook-garrison"] = {
@@ -3006,7 +3006,7 @@ P.transport["subzone:westbrook-garrison"] = {
   fullHash = "b12354",
   text = "Westbrook Garrison. At Westbrook Garrison, Deputy Rainer's few guards watch Elwynn's western road. Gnolls and bandits threaten the border, and the outpost lacks the men and supplies to hold it alone. Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads, too few to cover them. Much of the Stormwind Army serves abroad, and indecision in the capital leaves the outpost without needed support.\n\nThieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has sent no formal reinforcements, so the guards depend on travelers to help secure the highway. Riverpaw gnolls gather south of Forest's Edge, raiding supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength.\n\nA high bounty is posted across the outpost. It seeks fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_westbrook-garrison-2b80b31e6d236e9c9c11/1-0000.mp3", duration = 60.8653061, start = 0},
+    {file = "Audio/Transport/full_subzone_westbrook-garrison-662cc5c3ccb6ebead929/1-0000.mp3", duration = 93.8840816, start = 0},
   },
 }
 P.transport["subzone:westfall-lighthouse"] = {
@@ -3054,7 +3054,7 @@ P.transport["subzone:xavian"] = {
   fullHash = "0199e9",
   text = "Xavian. At Xavian in northeastern Ashenvale, satyrs hold an ancient night elf temple. They make it their chief seat in the forest and use its ruins for dark rites that spread demonic corruption through the woodland. In Ashenvale's northeastern hills, Xavian lies west of Forest Song and north of Satyrnaar. Satyrs hold its ruined temple, once sacred to the night elves, and make it their chief stronghold in the forest. Their leaders, including Prince Raze and Geltharis, direct their followers from its desecrated arches and terraces.\n\nAcross the grounds, satyrs perform rites against the woodland and use stolen Warsong oil to blight it. The place bears the name of Xavius, a highborne councilor who became the first satyr during the War of the Ancients after failing Sargeras.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_xavian-e3d07acac69eeece33d6/1-0000.mp3", duration = 47.9346939, start = 0},
+    {file = "Audio/Transport/full_subzone_xavian-a7a962669544ff706410/1-0000.mp3", duration = 66.2726531, start = 0},
   },
 }
 P.transport["subzone:yorgen-farmstead"] = {
@@ -3078,6 +3078,6 @@ P.transport["subzone:zoram-strand"] = {
   fullHash = "a37424",
   text = "Zoram Strand. At Ashenvale's northwestern edge, Zoram Strand faces the Veiled Sea. The shore's ancient night elven ruins now lie beneath Wrathtail naga, shipwrecks, and beached leviathans. Blackfathom Deeps begins in the submerged temple complex nearby. Ten thousand years ago, the night elven city of Zoram stood on this coast. Then the Great Sundering tore Kalimdor apart and sank the settlement beneath the sea. Now the tide carries ancient relics, shattered vessels, and the carcasses of massive sea beasts onto the shore. Wrathtail naga overrun the beaches and tidal pools, guarding the flooded ruins and ancient artifacts from anyone who comes near. Travelers from the mainland and along the coast still come to Zoram Strand despite the naga. South of the shore, the Horde holds Zoram'gar Outpost, where its warriors fight to secure the coast. Nearby, Blackfathom Deeps lies deep within the caverns. The ancient temple of Elune has fallen into dark hands, drawing scouts, scholars, and treasure seekers who brave the surf.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_zoram-strand-4b2b47edaba6b8cf9475/1-0000.mp3", duration = 64.1828571, start = 0},
+    {file = "Audio/Transport/full_subzone_zoram-strand-3e618e8295c1448a7efe/1-0000.mp3", duration = 82.0506122, start = 0},
   },
 }

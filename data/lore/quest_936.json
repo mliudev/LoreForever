@@ -1,0 +1,80 @@
+{
+ "key": "quest:936",
+ "type": "quest",
+ "name": "Assisting Arch Druid Runetotem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   936
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Cenarion Circle in Thunder Bluff seeks seasoned adventurers for a research project led by Hamuul Runetotem. You are asked to speak with him on the Elder Rise.",
+ "sections": [
+  {
+   "title": "A Call to Speak",
+   "body": "The Cenarion Circle seeks your aid in a research project in Thunder Bluff. Hamuul Runetotem leads the work, though its details are not known to the one who directs you there. Speak with the Arch Druid on the Elder Rise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is leading the research?",
+   "aliases": [
+    "who leads it",
+    "hamuul's research",
+    "arch druid runetotem"
+   ],
+   "answer": "Arch Druid Hamuul Runetotem is leading the Cenarion Circle's research project."
+  },
+  {
+   "q": "Where can I speak with Hamuul?",
+   "aliases": [
+    "where is hamuul",
+    "elder rise location",
+    "talk to runetotem"
+   ],
+   "answer": "Hamuul Runetotem is on the Elder Rise in Thunder Bluff."
+  },
+  {
+   "q": "What is the research about?",
+   "aliases": [
+    "research details",
+    "what research",
+    "cenarion project"
+   ],
+   "answer": "The Cenarion Circle seeks aid with a vital research project, but its details are not known to the one directing you to Hamuul."
+  },
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who wants help",
+    "cenarion circle request",
+    "why am i here"
+   ],
+   "answer": "The Cenarion Circle in Thunder Bluff is seeking seasoned adventurers to aid its research project."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "assisting arch druid runetotem",
+  "cenarion circle",
+  "elder rise",
+  "hamuul runetotem",
+  "research",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1489",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Assisting Arch Druid Runetotem"
+ ]
+}

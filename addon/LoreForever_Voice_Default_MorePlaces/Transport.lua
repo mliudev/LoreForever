@@ -6,7 +6,7 @@ P.transport["subzone:agmond-s-end"] = {
   fullHash = "43c5d2",
   text = "Agmond's End. Stonevault troggs overrun Agmond's End, the ruined dwarven dig in the southern Badlands. Prospector Agmond led the search until the creatures killed him and his miners. Dwarven prospectors came to Agmond's End in search of ancient relics and the earth's buried history. Then troggs surged from nearby crevices and overwhelmed the miners. Agmond fell in the attack, and the site took his name. Stonevault troggs now infest the ruined dig, among shattered crates and abandoned tools. Near the ruined excavation, Theldurin the Lost lives at a solitary camp. The dwarf's sanity has long since frayed. Yet he remains one of the few souls willing to brave the southern desert near the doomed site.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_agmond-s-end-e785952958d44a4a7710/1-0000.mp3", duration = 43.5461224, start = 0},
+    {file = "Audio/Transport/full_subzone_agmond-s-end-f8f37375ef68299b2e28/1-0000.mp3", duration = 53.6816327, start = 0},
   },
 }
 P.transport["subzone:aku-mai-s-lair"] = {
@@ -22,7 +22,7 @@ P.transport["subzone:altar-of-storms-burning-steppes"] = {
   fullHash = "4fb72e",
   text = "Altar of Storms (Burning Steppes). Blackrock warlocks perform fel rites at the Altar of Storms in the Burning Steppes. The dark monument draws those seeking demonic power. Blackrock warlocks hold the Altar of Storms, where they perform rites to channel fel magic and seal dark pacts. The monument was built during the earlier wars. Nearby, the hermit Gorzeeki Wildeyes and his master, Mor'zul Bloodbringer, keep an encampment overlooking the altar. Renegade practitioners study its violent energies and devise demanding rites for spellcasters who seek greater dark power.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_altar-of-storms-burning-steppes-32c7c46b728a6ef8731c/1-0000.mp3", duration = 31.7910204, start = 0},
+    {file = "Audio/Transport/full_subzone_altar-of-storms-burning-steppes-69ef6a810f7488c121e4/1-0000.mp3", duration = 50.677551, start = 0},
   },
 }
 P.transport["subzone:alterac-mountains-classic"] = {
@@ -46,7 +46,7 @@ P.transport["subzone:ariden-s-camp"] = {
   fullHash = "274c7e",
   text = "Ariden's Camp. In Deadwind Pass, Ariden's Camp lies abandoned north of the road from Duskwood to the Swamp of Sorrows. Travelers pass beneath Karazhan's shadow and wonder who pitched a tent there. North of the road from Duskwood to the Swamp of Sorrows, weathered cloth and cold ashes mark Ariden's Camp. It may once have been an ordinary stop, long abandoned by living men.\n\nDark sorcery has left its mark across Deadwind Pass. No one knows who named the camp for Ariden or what fortune its owner sought near Karazhan. The pass's lingering horrors have swallowed the answer.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ariden-s-camp-63a08eed58768be1435f/1-0000.mp3", duration = 35.604898, start = 0},
+    {file = "Audio/Transport/full_subzone_ariden-s-camp-8f54c488e67f3315853c/1-0000.mp3", duration = 51.4873469, start = 0},
   },
 }
 P.transport["subzone:bal-lal-ruins"] = {
@@ -94,7 +94,7 @@ P.transport["subzone:bitter-reaches"] = {
   fullHash = "15fe29",
   text = "Bitter Reaches. Along Azshara’s northeastern cliffs, the Bitter Reaches rise above the Great Sea. Predators roam the heights, and mountain giants hold the northern ridges. The Bitter Reaches rise above the Great Sea along Azshara’s northeastern cliffs. Feral hippogryphs and two-headed chimaeras nest among the heights. Acidic oozes seep through the cold ground, while colossal mountain giants claim the high northern ridges. They drive lesser creatures away and make the frozen approaches perilous for a lone traveler. Mountain Silversage grows in sparse clusters on the crags. The rare herb clings to high rock faces and windy perches. Herbalists must avoid the giants and territorial chimaeras to gather it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bitter-reaches-9b924275e8528fe6fb1f/1-0000.mp3", duration = 41.7697959, start = 0},
+    {file = "Audio/Transport/full_subzone_bitter-reaches-2f6a020f7e6cb22deec6/1-0000.mp3", duration = 54.0212245, start = 0},
   },
 }
 P.transport["subzone:black-channel-marsh"] = {
@@ -118,7 +118,7 @@ P.transport["subzone:blackfathom-deeps"] = {
   fullHash = "957d4c",
   text = "Blackfathom Deeps. Naga, satyr, and the Twilight's Hammer hold Blackfathom Deeps beneath Ashenvale's northwestern coast. Flooded halls that once honored Elune lie in ruin beneath the Zoram Strand. Beneath Ashenvale's northwestern cliffs, flooded halls remain from an ancient temple. Before the Great Sundering shattered Kalimdor ten thousand years ago, the temple honored Elune and held its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the waves and was thought lost forever. Over millennia, the shorelines receded and the ground shifted, leaving the temple partly flooded beneath the cliffs.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackfathom-deeps-980d9c170c19ab315fa3/1-0000.mp3", duration = 36.3363265, start = 0},
+    {file = "Audio/Transport/full_subzone_blackfathom-deeps-1478f7267808b476c230/1-0000.mp3", duration = 53.0546939, start = 0},
   },
 }
 P.transport["subzone:blackrock-mountain"] = {
@@ -134,7 +134,7 @@ P.transport["subzone:blackrock-pass"] = {
   fullHash = "139e6d",
   text = "Blackrock Pass. At Blackrock Pass, a heavy iron gate marks the road from Redridge Mountains into the Burning Steppes. The corridor runs north beneath the cliffs, from human heartlands to the war grounds of Dark Iron dwarves and Blackrock orcs. Travelers on foot cross a harsh frontier. Blackrock Pass cuts through the mountains between Redridge Mountains and the Burning Steppes. A heavy iron gate marks the rocky boundary, beyond the forests and lakes of the southern valleys. South of the gate, Lakeshire's beleaguered militia protects pastoral lands. North of it, fire elementals, dragonkin, and hostile orc warbands fill an open wasteland. Few cross on foot unless bound for the shadow of Blackrock Mountain itself.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackrock-pass-0322144054dcd1db7db6/1-0000.mp3", duration = 43.5983673, start = 0},
+    {file = "Audio/Transport/full_subzone_blackrock-pass-e782ee34e04b25864501/1-0000.mp3", duration = 57.5477551, start = 0},
   },
 }
 P.transport["subzone:blackrock-stronghold"] = {
@@ -230,7 +230,7 @@ P.transport["subzone:boulder-gor"] = {
   fullHash = "fb4313",
   text = "Boulder'gor. Boulder'gor commands western Arathi, north of Stromgarde, where Boulderfist ogres and Witherbark trolls share an encampment. North of Stromgarde Keep’s crumbling ramparts, Boulder'gor rises above the central roads of Arathi. The Boulderfist Outpost mound stands among its shadows, a stronghold of ogre power across the highlands. Boulderfist ogres share fires and fortifications with Witherbark forest trolls. Their shadowy spellcasters add dark magic to the clan’s brute force, and together they endanger travelers on the roads. From Boulder'gor’s slopes, you can look across the open highlands of western Arathi. The hill lies between Stromgarde’s Syndicate-infiltrated ruins and the plains’ wild elemental sites. Heavily guarded and hostile, Boulder'gor remains a tribal stronghold against Alliance and Horde wanderers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_boulder-gor-5c7e0b6a30650903acd7/1-0000.mp3", duration = 50.1812245, start = 0},
+    {file = "Audio/Transport/full_subzone_boulder-gor-ebd11b23266a91f912b3/1-0000.mp3", duration = 65.5673469, start = 0},
   },
 }
 P.transport["subzone:boulderfist-hall"] = {
@@ -334,7 +334,7 @@ P.transport["subzone:camp-wurg"] = {
   fullHash = "6b9073",
   text = "Camp Wurg. Dustbelcher ogres hold Camp Wurg among the Badlands crags. Their camps reach across much of the harsh region. Dustbelcher ogres guard Camp Wurg among the Badlands crags. It is one of their four main camps, with Camp Cagg, Camp Boff, and Camp Kosh. The ogres scavenge across the desert wastes and defend their rugged territory fiercely. Brutes and enforcers gather around crude fires and rough hides. Boss Tho'grun, their chieftain, has no permanent seat at Wurg. He roams the Badlands trails and watches over all four camps.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_camp-wurg-de79fc2b95d0010836ad/1-0000.mp3", duration = 33.8808163, start = 0},
+    {file = "Audio/Transport/full_subzone_camp-wurg-896069bf7d70c59677db/1-0000.mp3", duration = 42.9453061, start = 0},
   },
 }
 P.transport["subzone:cape-of-stranglethorn"] = {
@@ -430,7 +430,7 @@ P.transport["subzone:circle-of-west-binding"] = {
   fullHash = "c4b493",
   text = "Circle of West Binding. Near Thoradin's Wall, Burning Exiles overrun the Circle of West Binding and guard its stone. The ancient ritual site is one of several scattered across the Arathi Highlands. Near Thoradin's Wall, the Stone of West Binding stands at the Circle of West Binding. The site belongs to a wider network of ancient ritual places scattered across the Arathi Highlands. Burning Exiles overrun the grounds and guard the stone. Their fiery presence makes an approach perilous for travelers crossing the western plains.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_circle-of-west-binding-9badd2b87bde619e553f/1-0000.mp3", duration = 28.9436735, start = 0},
+    {file = "Audio/Transport/full_subzone_circle-of-west-binding-a72a6a110b4a7c0c9fc9/1-0000.mp3", duration = 39.6277551, start = 0},
   },
 }
 P.transport["subzone:clockwerk-run"] = {
@@ -518,7 +518,7 @@ P.transport["subzone:dabyrie-s-farmstead"] = {
   fullHash = "6efa03",
   text = "Dabyrie's Farmstead. In northern Arathi, the Dabyries keep their farm against the dangers around them. Kenata Dabyrie holds fast with her sons, loyal to Stromgarde and the Alliance in a realm broken by the Third War. Kenata Dabyrie and her sons hold their farm against the dangers around them. Fardel and Marcel work the fields while a local family militia guards the grounds. Few human homesteads still endure in the broken kingdom of Stromgarde. Aggressive wildlife and bandits threaten the farm, and the Forsaken press from the north. The Dabyries keep their home in a land where few human settlements remain.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dabyrie-s-farmstead-153d5f9c2f4cdec527ba/1-0000.mp3", duration = 34.7689796, start = 0},
+    {file = "Audio/Transport/full_subzone_dabyrie-s-farmstead-5e32744525c711a8789f/1-0000.mp3", duration = 50.7820408, start = 0},
   },
 }
 P.transport["subzone:dalaran"] = {
@@ -542,7 +542,7 @@ P.transport["subzone:dandred-s-fold"] = {
   fullHash = "51c777",
   text = "Dandred's Fold. Syndicate outlaws hold Dandred's Fold on Lordamere Lake's northwestern shore. The farmstead and manor shelter Lord Aliden Perenolde and his co-conspirators. The Horde and Alliance watch the estate for different reasons. On the western edge of the Uplands, Dandred's Fold stands beside Lordamere Lake, apart from the surrounding country. The estate was once tranquil and may have belonged to an Alteraci noble named Dandred. After Alterac fell, the Syndicate turned it into a fortified refuge. Its assassins and enforcers patrol the grounds. They keep Southshore authorities and the Forsaken across the lake from the fallen nobility sheltered within.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dandred-s-fold-be2c56954e7ceb56b018/1-0000.mp3", duration = 40.4897959, start = 0},
+    {file = "Audio/Transport/full_subzone_dandred-s-fold-e13075d86351c4f97585/1-0000.mp3", duration = 48.0130612, start = 0},
   },
 }
 P.transport["subzone:dark-portal"] = {
@@ -574,7 +574,7 @@ P.transport["subzone:darnassus"] = {
   fullHash = "243d0a",
   text = "Darnassus. In Teldrassil’s high boughs, Darnassus shelters the kaldorei as their capital and refuge. Its tranquil groves and waters are the night elves’ spiritual heart and the Alliance’s chief stronghold in northern Kalimdor. High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality. Darnassus took shape after the Third War, honoring the night elves’ survival after they lost the immortality granted by their sacred World Tree, Nordrassil. Unlike the stone cities of Ironforge and Stormwind, this is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges over clear lakes. Vigilant Sentinels, towering ancients of war, and druids who shape trees watch the paths and keep nature’s quiet within the city. Darnassus speaks of kaldorei unity, though its leaders bear different duties. High Priestess Tyrande Whisperwind handles civil and military affairs from the radiant Temple of the Moon, with the Sisters of Elune around her. Archdruid Fandral Staghelm leads the Cenarion Circle’s affairs and championed the planting of Teldrassil to restore the elves’ lost immortality.\n\nMalfurion Stormrage is missing, lost in a mysterious slumber within the Emerald Dream. Staghelm’s aggressive vision for the future often clashes with the more patient priesthood.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_darnassus-3dca4749018b6cc7fec9/1-0000.mp3", duration = 81.5804082, start = 0},
+    {file = "Audio/Transport/full_subzone_darnassus-ac0e095e410b3ea05110/1-0000.mp3", duration = 124.786939, start = 0},
   },
 }
 P.transport["subzone:darrow-hill"] = {
@@ -678,7 +678,7 @@ P.transport["subzone:dreadmaul-rock"] = {
   fullHash = "17c2b5",
   text = "Dreadmaul Rock. Firegut ogres make their home among the caves and earthen mounds of Dreadmaul Rock in the Burning Steppes. Above the scorched plains of the Burning Steppes, Firegut ogres hold the crags and caves of Dreadmaul Rock. The massive stone formation is cut through by a labyrinthine cave system. Though its name suggests a possible tie to the Dreadmaul ogres of the Blasted Lands, the Firegut clan controls the rock.\n\nThey use its high paths, crags, and interior earthen mounds as a defended camp. From there, they dominate the surrounding wasteland and menace anyone crossing the northern slopes toward Blackrock Spire.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dreadmaul-rock-3a41c54798db63ef98bd/1-0000.mp3", duration = 36.3102041, start = 0},
+    {file = "Audio/Transport/full_subzone_dreadmaul-rock-67188ee197ce51ccaa3b/1-0000.mp3", duration = 52.0097959, start = 0},
   },
 }
 P.transport["subzone:dreadmurk-shore"] = {
@@ -742,7 +742,7 @@ P.transport["subzone:dustbowl"] = {
   fullHash = "06eff0",
   text = "Dustbowl. In the Badlands, travelers cross the Dustbowl between Kargath and the Valley of Fangs. Its dry gullies and open ground are roamed by coyotes, buzzards, and rock elementals. Camp Wurg marks the Dustbowl in the northwestern Badlands. Dry gulches cut through cracked clay, and harsh winds sweep grit across the open flatland. Cacti and scattered, gnarled trees cling to the barren soil.\n\nCoyotes prowl, buzzards circle overhead, and living rock elementals wander the rugged earth. Without a guide, crossing this wilderness is perilous. Camp Wurg offers a landmark amid the scrub, between Kargath and the Valley of Fangs.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dustbowl-f50f99168f4be59f7ef9/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_subzone_dustbowl-f3a95993e519821780d5/1-0000.mp3", duration = 53.6555102, start = 0},
   },
 }
 P.transport["subzone:dustfire-valley"] = {
@@ -830,7 +830,7 @@ P.transport["subzone:faldir-s-cove"] = {
   fullHash = "771264",
   text = "Faldir's Cove. Blackwater Raiders now shelter at Faldir's Cove after disaster struck their fleet on the Arathi coast. The harbor also recalls the early settlers who sailed south from here to found Stormwind. South of Stromgarde Keep, Faldir's Cove lies behind the bluffs, reached through a hidden tunnel beneath the ground. The harbor bears the name of Faldir, an ancient Arathor explorer whose expedition sailed across the Great Sea to establish Stormwind. Now Blackwater Raiders from Booty Bay shelter in its waters. Captains Steelgut and O'Breen led them north in search of ancient elven treasures, but their expedition became trapped in the bay. The Blackwater expedition met disaster on the Arathi coast. Unnatural tides, stirred by territorial naga on the offshore Drowned Reef, shattered two of their three ships. Only the Harbinger reached Faldir's Cove intact. With naga prowling the waters and their navigation charts lost beneath the waves, the surviving pirates and gnomish researchers are stranded. They rely on travelers to fight the aquatic horrors and recover salvage from the seabed.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_faldir-s-cove-cc5c70ecb71e67abbba4/1-0000.mp3", duration = 64.8881633, start = 0},
+    {file = "Audio/Transport/full_subzone_faldir-s-cove-2dc63146f8f8d3e1107e/1-0000.mp3", duration = 83.1738776, start = 0},
   },
 }
 P.transport["subzone:fallow-sanctuary"] = {
@@ -902,7 +902,7 @@ P.transport["subzone:flame-crest"] = {
   fullHash = "b53782",
   text = "Flame Crest. Flame Crest watches the volcanic wastes from a rocky ledge in the Burning Steppes. The neutral camp shelters scouts, beast collectors, and strategists, while wind riders carry travelers across the Redridge range and beyond. Flame Crest clings to a stone ledge above the ash and lava plains. You cross a narrow wooden bridge to reach the camp. Its height helps keep prowling beasts and roaming orc warbands at bay. Wind riders carry travelers across the Redridge range to Kargath, Stonard, Thorium Point, and Rog'mar in the Riverglades. Scouts at Flame Crest watch the Blackrock clan entrenched in Blackrock Spire. They gather intelligence and plan how to break the renegade Dark Horde. The camp also trades with eccentric loners, including Kibler, a pet master who lives in a nearby cave.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_flame-crest-359a980a5c68d7251985/1-0000.mp3", duration = 47.9869388, start = 0},
+    {file = "Audio/Transport/full_subzone_flame-crest-f97456c002a9871ee5cf/1-0000.mp3", duration = 63.764898, start = 0},
   },
 }
 P.transport["subzone:foothold-citadel"] = {
@@ -1030,7 +1030,7 @@ P.transport["subzone:garrison-armory"] = {
   fullHash = "14c18a",
   text = "Garrison Armory. Alliance miners work the Garrison Armory southwest of Nethergarde Keep. Their ore supplies the fortress and brings wealth to Stormwind. Nethergarde Keep must hold its watch over the Dark Portal, and long supply trains from Stormwind cannot meet every need. In the Garrison Armory’s underground mine shafts, miners work under foremen with engineers at their side. Ore mined there goes to Nethergarde’s smiths and fortifications, or travels to Stormwind in trade for food, tools, and other provisions the keep needs. The Garrison Armory lies beyond Nethergarde Keep’s main walls, exposed to the red desert’s dangers. Dreadmaul ogres and wild beasts prowl the surrounding crags. Armed guards protect the workers in the tunnels, for any disruption to the mine threatens the keep’s watch over the blasted frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_garrison-armory-7a80ccfdcb86dc18190d/1-0000.mp3", duration = 49.1885714, start = 0},
+    {file = "Audio/Transport/full_subzone_garrison-armory-b7d30b8f5a8fa907207a/1-0000.mp3", duration = 61.4661224, start = 0},
   },
 }
 P.transport["subzone:gelkis-village"] = {
@@ -1054,7 +1054,7 @@ P.transport["subzone:gnomeregan"] = {
   fullHash = "ce40b5",
   text = "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gnomeregan-5e165d0077882124f9b8/1-0000.mp3", duration = 75.6506122, start = 0},
+    {file = "Audio/Transport/full_subzone_gnomeregan-1078c83fc1950bbf434a/1-0000.mp3", duration = 102.269388, start = 0},
   },
 }
 P.transport["subzone:go-shek-farm"] = {
@@ -1062,7 +1062,7 @@ P.transport["subzone:go-shek-farm"] = {
   fullHash = "a46d13",
   text = "Go'Shek Farm. Go'Shek Farm gathers food and livestock for Hammerfall in the Arathi Highlands. Forsaken apothecaries also work there in secret. South of Hammerfall, Go'Shek Farm lies just north of hostile Witherbark troll territory. The Horde holds the farm, and Hammerfall Grunts patrol its fields and stables. Its food and livestock help the orcish settlement keep its foothold in the Arathi Highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_go-shek-farm-9b0d2602603b439a80be/1-0000.mp3", duration = 23.9020408, start = 0},
+    {file = "Audio/Transport/full_subzone_go-shek-farm-1d782134c2a89830918a/1-0000.mp3", duration = 33.9330612, start = 0},
   },
 }
 P.transport["subzone:golakka-hot-springs"] = {
@@ -1142,7 +1142,7 @@ P.transport["subzone:haldarr-encampment"] = {
   fullHash = "5c3501",
   text = "Haldarr Encampment. In western Azshara, Haldarr satyrs hold a corrupted outpost northeast of Shadowsong Shrine and southwest of Valormok. Their camp blights ancient elven ruins, and the injured Night Elf Sentinel Keldara Sunblade lies among them. Broken stones mark the Haldarr satyrs’ camp in western Azshara. These twisted creatures descend from the Highborne and were cursed by demonic corruption during the Sundering. They hunt and harass anyone crossing the autumn forests. Their crowded settlement threatens the Horde forces at nearby Valormok and the dwindling Night Elf sentinels watching the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_haldarr-encampment-9e6743792ad48b21c165/1-0000.mp3", duration = 35.9444898, start = 0},
+    {file = "Audio/Transport/full_subzone_haldarr-encampment-7d53321070583c065bf0/1-0000.mp3", duration = 45.9493878, start = 0},
   },
 }
 P.transport["subzone:hall-of-arms-tyr-s-hand"] = {
@@ -1174,7 +1174,7 @@ P.transport["subzone:hammerfall"] = {
   fullHash = "ba654c",
   text = "Hammerfall. Horde forces hold Hammerfall in the Arathi Highlands, where old losses and a hard-won freedom shape the outpost. Orcs and Forsaken defend it against Boulderfist ogres, Witherbark trolls, and the League of Arathor. Beneath Hammerfall lie the ruins of an Alliance internment camp. After the Second War, the human Alliance built vast camps across Lordaeron for defeated orcs, and this was among the largest. Years later, Thrall and Orgrim Doomhammer struck at the camp to free its lethargic captives.\n\nAs they retreated, an Alliance knight charged and drove a lance through Doomhammer's backplate. The Warchief was mortally wounded. After the Third War, the new Horde reclaimed the ruins and named its outpost Hammerfall in his memory. Hammerfall gives the Horde a foothold in Arathi. Its garrison faces aggressive Boulderfist ogres from Boulder'gor and Boulderfist Hall, as well as the native Witherbark trolls. Forsaken Defilers use the outpost to claim resources in the contested Arathi Basin. There they oppose the Alliance's League of Arathor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hammerfall-7fb5a3f9eb92de2ee64f/1-0000.mp3", duration = 62.5632653, start = 0},
+    {file = "Audio/Transport/full_subzone_hammerfall-f6150a164c28168b9de5/1-0000.mp3", duration = 77.3485714, start = 0},
   },
 }
 P.transport["subzone:harborage"] = {
@@ -1198,7 +1198,7 @@ P.transport["subzone:hetaera-s-clutch"] = {
   fullHash = "c2a0c9",
   text = "Hetaera's Clutch. Hetaera's brood now nests among the drowned ruins beneath Azshara's Bay of Storms. Once, night elves came to this temple to worship Elune. Before the Great Sundering broke ancient Kalimdor apart, night elves came to this temple to worship Elune. The sanctuary sank beneath the Bay of Storms, where its pillars and halls have rested under the sea for ten thousand years. Now the tides cover every sign of worship, and the Kaldorei ruins lie below the waves. Hetaera makes her nest in the drowned sanctuary. The massive hydra has many heads and stalks the nearby coastal waters and rocky isles. Her offspring, the Spawn of Hetaera, prowl the ruined arches and corridors. They attack any surface-dweller bold enough to dive into the bay.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hetaera-s-clutch-7940963b22b64162ac6b/1-0000.mp3", duration = 45.9232653, start = 0},
+    {file = "Audio/Transport/full_subzone_hetaera-s-clutch-2d457fdd59e927df378d/1-0000.mp3", duration = 65.7240816, start = 0},
   },
 }
 P.transport["subzone:hidden-grove"] = {
@@ -1246,7 +1246,7 @@ P.transport["subzone:horizon-scout"] = {
   fullHash = "3d6d60",
   text = "Horizon Scout. Off Azshara’s southern coast, Horizon Scout lies sunk in the Ruined Reaches. Captain Vanessa Beltis is stranded ashore, and part of her crew is trapped below the waves. Horizon Scout lies wrecked among the Ruined Reaches’ shoals off Azshara’s jagged coast. Captain Vanessa Beltis reached a nearby peninsula, but part of her crew went down with the hull. They still live because Roland Geardabbler, a gnome, sustains a spell of water breathing inside the wreck.\n\nHostile aquatic predators and predatory naga patrol the waters. The sailors are trapped in the forward compartments and cannot reach the surface alone. A shard of raw Azsharite lies in Horizon Scout’s forward stairwell. The mineral is mysterious and found only on these shores. Spitelash naga prowl the Ruined Reaches and likely struck the ship to seize artifacts or resources from its expedition.\n\nThe vessel sank, leaving its survivors unable to escape with any secrets or treasures the coast holds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_horizon-scout-ccded2ba5d425ae8c24e/1-0000.mp3", duration = 59.2979592, start = 0},
+    {file = "Audio/Transport/full_subzone_horizon-scout-decc4af8b369de1148eb/1-0000.mp3", duration = 83.8791837, start = 0},
   },
 }
 P.transport["subzone:ice-thistle-hills"] = {
@@ -1270,7 +1270,7 @@ P.transport["subzone:ironforge"] = {
   fullHash = "5f0d74",
   text = "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-f8286ce1e759b34ef4a4/1-0000.mp3", duration = 69.8253061, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-f823ca23fe6c6cf57e7f/1-0000.mp3", duration = 94.0408163, start = 0},
   },
 }
 P.transport["subzone:ironstone-camp"] = {
@@ -1358,7 +1358,7 @@ P.transport["subzone:kargath"] = {
   fullHash = "22a23e",
   text = "Kargath. In the western Badlands, Kargath guards the Horde's foothold. The Kargath Expeditionary Force built the outpost on Warchief Thrall's orders, linking Horde holdings and preparing operations near Uldaman and Blackrock Mountain. Kargath honors the Shattered Hand chieftain Kargath Bladefist. The outpost is the Horde's only settlement in Khaz Modan, surrounded by arid wastes, dangerous wildlife, and hostile dwarven factions. Its garrison gives travelers a refuge midway across the continent. From here, a flight master connects northern holdings such as the Undercity and Hammerfall with southern outposts such as Stonard and Grom'gol Base Camp. Warchief Thrall sent the Kargath Expeditionary Force to pursue two aims. Troops enter Uldaman's ancient titan halls to learn why Ironforge's Prospectors value the dig site so highly. Scouts also seek a route through the Searing Gorge into Blackrock Mountain. There they hope to strike Rend Blackhand's false 'Dark Horde' while facing the entrenched Dark Iron dwarves.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kargath-20427017a300e64ffd7d/1-0000.mp3", duration = 63.2685714, start = 0},
+    {file = "Audio/Transport/full_subzone_kargath-f3ba599a36fac0a968a5/1-0000.mp3", duration = 76.1991837, start = 0},
   },
 }
 P.transport["subzone:kodo-graveyard"] = {
@@ -1406,7 +1406,7 @@ P.transport["subzone:lake-mennar"] = {
   fullHash = "f66cf1",
   text = "Lake Mennar. At Lake Mennar, blue dragonspawn guard the freshwater amid Azshara’s shattered ruins. The shores stay strangely serene, and blue dragons gather here in numbers rarely seen beyond Northrend. Lake Mennar draws the blue dragonflight into Azshara’s ancient, broken landscape. Few places on Kalimdor hold so many blue dragons; Mazthoril in Winterspring is another. Blue dragonspawn patrol the ridges and approaches, guarding the basin’s waters. Beyond their ring of sentries, the lake remains strangely serene, shielded from the arcane turmoil and roaming beast packs found across the peninsula.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lake-mennar-3250956c12bb3e9cb199/1-0000.mp3", duration = 36.2840816, start = 0},
+    {file = "Audio/Transport/full_subzone_lake-mennar-179d762ed54445043a36/1-0000.mp3", duration = 48.4310204, start = 0},
   },
 }
 P.transport["subzone:lake-mereldar"] = {
@@ -1462,7 +1462,7 @@ P.transport["subzone:lethlor-ravine"] = {
   fullHash = "7bf970",
   text = "Lethlor Ravine. Black dragons roost and rear their young in Lethlor Ravine, deep in the eastern Badlands. Scorched plateaus rise around Lethlor Ravine in the eastern Badlands. Craggy walls shelter the black dragonflight’s nests. Fierce whelps crowd beneath the watch of larger drakes that breathe fire. Few travelers dare approach the ravine floor. Overhead, shadows mark winged predators circling among the rocky spires. Crystalline obelisks lie scattered among the crags beside the dragon brood. They are involved in a local chain of tasks, but their origin is not established.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lethlor-ravine-3098f5eb20525a7f90e5/1-0000.mp3", duration = 35.0563265, start = 0},
+    {file = "Audio/Transport/full_subzone_lethlor-ravine-79ccb8e5744702bb1438/1-0000.mp3", duration = 48.0391837, start = 0},
   },
 }
 P.transport["subzone:library-wing-tyr-s-hand"] = {
@@ -1542,7 +1542,7 @@ P.transport["subzone:maker-s-terrace"] = {
   fullHash = "e8b285",
   text = "Maker's Terrace. At the Badlands' northern edge, Dark Iron dwarves hold the Maker's Terrace beside the pass from Loch Modan. Their open-air dig guards the way into Uldaman. From the pass out of Loch Modan, you cross trenches and scaffolds spread across the northern Badlands. The dig fronts Uldaman's entrance, an ancient vault built by the Makers. Travelers cross this exposed ground before reaching the halls below. Rival factions contest the approach as they seek a way into the ruins. Dark Iron dwarves patrol the ditches and perimeter, keeping outsiders from the dig. They seek the Makers' relics and power to dominate what lies beneath the earth. Their crews search the hillside for armaments, records, and other relics left by the ancient Makers. The sentries guard the route into Uldaman, and travelers who try to pass meet a hostile welcome.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maker-s-terrace-8b723a0e860828322530/1-0000.mp3", duration = 51.8269388, start = 0},
+    {file = "Audio/Transport/full_subzone_maker-s-terrace-7c93eeca77267c8c7498/1-0000.mp3", duration = 62.4587755, start = 0},
   },
 }
 P.transport["subzone:mannoroc-coven"] = {
@@ -1798,7 +1798,7 @@ P.transport["subzone:northfold-manor"] = {
   fullHash = "536d1c",
   text = "Northfold Manor. The Syndicate holds Northfold Manor in northwestern Arathi. Once a prosperous human homestead, the estate fell into ruin after Stromgarde collapsed and now shelters criminals and dark practices. Near the passage through Thoradin's Wall, Northfold Manor spreads across the rolling highlands. The estate once supported the kingdom of Stromgarde. After the realm fractured, displaced Alteraci nobles and Syndicate outlaws claimed the manor house, barn, and fields as their base.\n\nMercenaries, highwaymen, and pathstalkers gather there, leaving the crops untended. From the farmstead, they ambush travelers on nearby roads and coordinate the Syndicate's presence across Arathi.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northfold-manor-a78ee96a51c23da0bde0/1-0000.mp3", duration = 43.1281633, start = 0},
+    {file = "Audio/Transport/full_subzone_northfold-manor-ebaf94f678cc783e8e1f/1-0000.mp3", duration = 55.0922449, start = 0},
   },
 }
 P.transport["subzone:northpass-tower"] = {
@@ -1862,7 +1862,7 @@ P.transport["subzone:orgrimmar"] = {
   fullHash = "3591f2",
   text = "Orgrimmar. In northern Durotar, Orgrimmar shelters the New Horde as its warrior capital. Warchief Thrall founded the city in memory of Orgrim Doomhammer. Its red canyons shelter the orcs’ renewal and their struggle to survive on Kalimdor. After the victory at Mount Hyjal, Warchief Thrall led his surviving people south to make a homeland in Durotar. They built Orgrimmar among steep mountain crags, with spiked timber walls, stone watchtowers, and caverns cut deep into the mountains.\n\nDarkspear trolls, tauren stonemasons, and goblin engineers helped raise the fortress. Its defenses turned the wilderness into a stronghold built to withstand a siege. Freed from the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Orcs and Darkspear trolls live in the city. Emissaries from the tauren of Mulgore and the newly allied Forsaken are welcomed there.\n\nShamans teach the next generation ancestral balance. In gladiatorial rings, veterans clash to hone the army that guards Kalimdor’s fragile peace.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_orgrimmar-462d02f707fac0f8eab7/1-0000.mp3", duration = 67.1869388, start = 0},
+    {file = "Audio/Transport/full_subzone_orgrimmar-21729661eaa71d27657f/1-0000.mp3", duration = 95.764898, start = 0},
   },
 }
 P.transport["subzone:ortell-s-hideout"] = {
@@ -1998,7 +1998,7 @@ P.transport["subzone:refuge-pointe"] = {
   fullHash = "f0a1a4",
   text = "Refuge Pointe. Refuge Pointe holds its ground in the Arathi Highlands as Stromgarde's remnant prepares to reclaim its fallen keep. The camp guards the trade road at the highlands' heart while Alliance forces face rivals across the region. Stromgarde's surviving soldiers hold Refuge Pointe. After the Third War and the fall of Stromgarde Keep, most of the kingdom's people fled south for safer lands. Those who stayed formed a vanguard under Captain Nials. Battle-hardened Stromgarde soldiers stand with League of Arathor forces and Alliance specialists. Together, they are the last organized Stromgarde force in its ancestral homeland. Refuge Pointe has no reserves to spare. The Forsaken and Horde hold Hammerfall, while Witherbark trolls, Syndicate rogues, and Boulderfist ogres press the garrison from other sides. When dwarven commanders at battered Thandol Span asked for help against the Dark Iron clan, Captain Nials had to refuse.\n\nEvery soldier and supply at Refuge Pointe must defend the highlands and prepare to retake Stromgarde Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_refuge-pointe-d4a986ba9dc3bc9dc6e9/1-0000.mp3", duration = 63.1640816, start = 0},
+    {file = "Audio/Transport/full_subzone_refuge-pointe-def9f968418d86782281/1-0000.mp3", duration = 88.2938776, start = 0},
   },
 }
 P.transport["subzone:roguefeather-den"] = {
@@ -2030,7 +2030,7 @@ P.transport["subzone:ruins-of-alterac"] = {
   fullHash = "3df961",
   text = "Ruins of Alterac. Snow lies over the Ruins of Alterac, where Crushridge ogres now hold the old mountain capital. After King Aiden Perenolde betrayed the Alliance in the Second War, Alterac was cast out and placed under martial law. Alterac once ruled as an independent human realm, carved from the old Arathor empire and set high on mountain trade routes. During the Second War, King Aiden Perenolde feared the invading Old Horde would destroy his kingdom, so he secretly made a pact with the orcs. After the fighting at Caer Darrow, the betrayal came to light. The Alliance of Lordaeron struck swiftly.\n\nKing Terenas Menethil II placed the city under martial law and deposed Perenolde. The people fled or turned to outlawry, and the grand fortifications, church, and palace fell into disrepair. Surviving Alteraci nobles and rogue soldiers formed the Syndicate. They waged guerrilla campaigns from towns like Strahnbrad, but lost their ancestral capital. Today, Crushridge ogres under Mug'thol dwell among broken ramparts, palace halls, and wrecked ballistae. Neither the Syndicate nor Southshore's human defenders have reclaimed the fallen city.\n\nIts crumbling towers and abandoned vaults remain dangerous ground for treasure hunters and scavengers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-alterac-fa894c1f926773e56dcb/1-0000.mp3", duration = 71.8106122, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-alterac-0a5f0806728ef014bc05/1-0000.mp3", duration = 106.266122, start = 0},
   },
 }
 P.transport["subzone:ruins-of-andorhal"] = {
@@ -2054,7 +2054,7 @@ P.transport["subzone:ruins-of-eldarath"] = {
   fullHash = "989ce0",
   text = "Ruins of Eldarath. Naga overrun the Ruins of Eldarath along Azshara’s rocky bluffs. Once a Highborne city of arcane study, its surviving plazas and temples still draw scholars and adventurers seeking ancient tablets and relics. Before the Great Sundering shattered Kalimdor ten thousand years ago, Eldarath flourished as a night elven city. Highborne mages gathered there and carved their deepest arcane insights and fundamental magical rules into grand stone tablets.\n\nThey left the tablets in public squares for their peers to study. The Sundering sank much of the city into the Bay of Storms. Modern night elves have shunned the surviving ruins along the eastern cliffs for millennia, while salt spray and ivy slowly claim them. Vicious naga have risen from the sea and seized Eldarath’s shattered streets. Warlords command them from nearby sanctuaries, including the Temple of Zin-Malor. Yet danger has not kept outsiders away.\n\nThe Explorers' League sends Alliance adventurers into the broken courtyards to take rubbings of the ancient tablets. Whispers of lost treasures and lingering magic have also drawn the blue dragon Azuregos to the surrounding wilderness. Beneath the cracked flagstones, secrets of immense power may still lie buried.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-eldarath-f22f61001a776fdf5705/1-0000.mp3", duration = 75.8595918, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-eldarath-463b6cff59721064751a/1-0000.mp3", duration = 102.243265, start = 0},
   },
 }
 P.transport["subzone:ruins-of-isildien"] = {
@@ -2102,7 +2102,7 @@ P.transport["subzone:ruins-of-thaurissan"] = {
   fullHash = "12341a",
   text = "Ruins of Thaurissan. Ash lies over the Ruins of Thaurissan in the Burning Steppes. The city once stood in the northern Redridge Mountains as the Dark Iron clan’s surface capital. During the War of the Three Hammers, Sorcerer-Thane Thaurissan called Ragnaros the Firelord, and the eruption reduced the city to cinders. After High King Modimus Anvilmar died, the Dark Iron clan was exiled from Ironforge. Roughly two centuries ago, they traveled south and founded Thaurissan City. During the War of the Three Hammers, the Bronzebeard and Wildhammer clans joined forces and brought the Dark Iron to the edge of defeat.\n\nSorcerer-Thane Thaurissan sought a weapon to turn the tide. He and seven trusted sorcerers worked ancient magic deep beneath the earth. Their ritual did not summon an obedient servant. It tore open a path to the Elemental Plane and brought forth Ragnaros the Firelord. The eruption shattered the surrounding mountains, scorched the land into the Burning Steppes, raised Blackrock Mountain, and incinerated the city.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-thaurissan-8f82dae656c1eedc84fc/1-0000.mp3", duration = 63.3469388, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-thaurissan-e4aca3b47c9c32f06a34/1-0000.mp3", duration = 94.1714286, start = 0},
   },
 }
 P.transport["subzone:ruins-of-uldum"] = {
@@ -2150,7 +2150,7 @@ P.transport["subzone:sanctum-stromgarde-keep"] = {
   fullHash = "c20ac7",
   text = "Sanctum (Stromgarde Keep). Behind the chapel in Stromgarde Keep, the Sanctum remains a sacred refuge. It guards the way to the Trollbane family crypt amid Arathi's ruin. Syndicate infiltrators and Boulderfist ogres have taken much of Stromgarde Keep. Yet defenders still hold the Sanctum and the chapel beside it. Behind the Church of Light, the Sanctum borders the keep's graveyard and marks the way into the royal crypt, where Stromgarde's kings rest. Prince Galen Trollbane's loyalists defend this ground to protect their kingdom's ancestral heritage and faith from the invaders. Stone flags cover the passage into the royal tomb beneath the Sanctum. The ground is consecrated for quiet reflection and worship of the Holy Light. After King Thoras Trollbane's murder and Stromgarde's collapse, the Sanctum became a defensive retreat. Royal guards hold its halls against anyone seeking the inner tomb. At this sacred threshold, an ancient human lineage clings to survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sanctum-stromgarde-keep-e29857b9d8e46a8c3890/1-0000.mp3", duration = 61.4138776, start = 0},
+    {file = "Audio/Transport/full_subzone_sanctum-stromgarde-keep-5c1554898ff70e489e4f/1-0000.mp3", duration = 74.9191837, start = 0},
   },
 }
 P.transport["subzone:sandsorrow-watch"] = {
@@ -2230,7 +2230,7 @@ P.transport["subzone:scarlet-monastery"] = {
   fullHash = "3a183c",
   text = "Scarlet Monastery. Scarlet Monastery now shelters the fanatical Scarlet Crusade in Tirisfal Glades. Once a center of learning and worship for the Church of the Holy Light, it is now a fortified stronghold. Anyone who approaches without red clothing is treated as a carrier of the plague and executed on sight. Before the Third War, Scarlet Monastery was a proud center of Lordaeron's priesthood. Its halls held theological studies and sacred archives, and paladins trained there. When the Scourge brought down the kingdom, defenders who survived held the monastery against the undead. They became the zealous Scarlet Crusade and fortified the cloister. Its libraries, gardens, and cathedral now lie within an armed stronghold. Scarlet Monastery has four wings: a defiled graveyard, an expansive library, an armory, and a grand cathedral. Scarlet Commander Mograine and High Inquisitor Whitemane command its large garrison. To the Crusaders, every outsider is a plague-bearer, living or undead, Alliance or Horde. The Forsaken seek to destroy the garrison threatening their doorstep. Alliance leaders increasingly see the Crusade's violent extremism as a dangerous corruption of the Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-monastery-f00923428ba28be01687/1-0000.mp3", duration = 73.0122449, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-monastery-25ec8cf2ed365cf1ea1d/1-0000.mp3", duration = 95.3208163, start = 0},
   },
 }
 P.transport["subzone:scarlet-monastery-armory"] = {
@@ -2302,7 +2302,7 @@ P.transport["subzone:serpent-s-coil"] = {
   fullHash = "52a5c9",
   text = "Serpent's Coil. Dark cultists shelter in Serpent's Coil, among caves and burnt encampments in the eastern Blasted Lands. Scorched orcish ruins from older wars line the ridges. In the eastern Blasted Lands, Serpent's Coil winds through cliffs and old ruins. Its paths pass ruined orcish huts from the First and Second Wars. Shadowsworn cultists and practitioners of dark arts haunt the tunnels. Demonic energies lingering in the red wastes draw them there, beyond the watchful eyes of Nethergarde Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_serpent-s-coil-32a5cf24dbf477120868/1-0000.mp3", duration = 30.0669388, start = 0},
+    {file = "Audio/Transport/full_subzone_serpent-s-coil-2917e15eaa2196e59787/1-0000.mp3", duration = 39.3665306, start = 0},
   },
 }
 P.transport["subzone:shadow-hold"] = {
@@ -2414,7 +2414,7 @@ P.transport["subzone:slither-rock"] = {
   fullHash = "ef8747",
   text = "Slither Rock. Cyrus Therepentous keeps to Slither Rock in the far northeastern cliffs of the Burning Steppes. Beyond the perilous Terror Wing Path, the cave is his solitary refuge, and his sharp tongue masks an agenda of his own. Beyond the Terror Wing Path, Slither Rock lies among the scorched crags of the Burning Steppes. Far from Blackrock Spire's roaring forges and marching orc warbands, this remote hollow shelters Cyrus Therepentous, a solitary black dragonspawn.\n\nDragonspawn usually serve the Black Dragonflight with fierce loyalty, but Cyrus keeps apart from his kin. He speaks with mortal travelers instead of killing them on sight. Yet every exchange brings an insult.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_slither-rock-7530307e73b880bdddfe/1-0000.mp3", duration = 42.8669388, start = 0},
+    {file = "Audio/Transport/full_subzone_slither-rock-1944ad63bce75e390a71/1-0000.mp3", duration = 58.88, start = 0},
   },
 }
 P.transport["subzone:slithering-scar"] = {
@@ -2702,7 +2702,7 @@ P.transport["subzone:temple-of-arkkoran"] = {
   fullHash = "96601d",
   text = "Temple of Arkkoran. On Azshara’s northeastern cliffs, the Temple of Arkkoran looks out over the Shattered Strand. Elune’s old sanctuary now belongs to Arkkoroc and his aquatic thralls. Elune, the moon goddess, was once honored at the Temple of Arkkoran. The Sundering shattered the ancient night elf empire and left the temple in ruin. Now tidal monstrosities crowd its marble steps and broken colonnades. Arkkoroc rules from the highest level, with loyal makrura and vicious murlocs at his side. Together, they defend the nearby coast from land-dwelling intruders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_temple-of-arkkoran-bcb3231933136d295fc7/1-0000.mp3", duration = 34.7689796, start = 0},
+    {file = "Audio/Transport/full_subzone_temple-of-arkkoran-c3b9e3f865a23ec38a7e/1-0000.mp3", duration = 54.3346939, start = 0},
   },
 }
 P.transport["subzone:temple-of-atal-hakkar"] = {
@@ -2718,7 +2718,7 @@ P.transport["subzone:temple-of-zin-malor"] = {
   fullHash = "9c6aa9",
   text = "Temple of Zin-Malor. Spitelash naga hold the Temple of Zin-Malor in the Ruins of Eldarath. Warlord Krellian commands them from this ancient night elven sanctuary in Azshara. Before the Great Sundering, the Temple of Zin-Malor rang with worship of Elune. Its graceful stonework recalls the nearby Temple of Arkkoran and the Temple of the Moon in Darnassus, both built in the old night elven style. Now the marble lies weathered and broken. Spitelash naga have claimed the holy grounds and made them a stronghold for their forces. The Crystal of Zin-Malor once rested in the temple. Long ago, it was carried away to Kel'Theril in Winterspring.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_temple-of-zin-malor-2766a748c7c053e25479/1-0000.mp3", duration = 39.3142857, start = 0},
+    {file = "Audio/Transport/full_subzone_temple-of-zin-malor-38a3973895a991495b74/1-0000.mp3", duration = 54.5436735, start = 0},
   },
 }
 P.transport["subzone:terrace-of-repose"] = {
@@ -2774,7 +2774,7 @@ P.transport["subzone:thalassian-base-camp"] = {
   fullHash = "481b12",
   text = "Thalassian Base Camp. On a ridge in northern Azshara, the blood elf expedition at Thalassian Base Camp digs through ancient ruins for arcane relics. Their pact with the Horde is broken. East of Ursolan, the blood elf expedition once promised not to threaten travelers from Orgrimmar. Magus Rimtori offered the Horde a share of any magical riches in return for supplies, funding, and an armed escort through Azshara’s wildlands.\n\nOnce the camp was fortified and the first relics were recovered from the elven ruins, Rimtori broke the pact and drove away the Horde emissaries. She now searches deeper reaches with an armed retinue. Magister Hawkhelm guards the ridge and camp against retribution.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thalassian-base-camp-7c745fa668392825df18/1-0000.mp3", duration = 41.0644898, start = 0},
+    {file = "Audio/Transport/full_subzone_thalassian-base-camp-0fbfb21ec0021f33f412/1-0000.mp3", duration = 60.8391837, start = 0},
   },
 }
 P.transport["subzone:thandol-span"] = {
@@ -2782,7 +2782,7 @@ P.transport["subzone:thandol-span"] = {
   fullHash = "c0eeb6",
   text = "Thandol Span. At Thandol Span, the surviving bridge lies under attack. Its stone arches link the Wetlands of Khaz Modan with the Arathi Highlands of southern Lordaeron, but Dark Iron infiltrators have sabotaged one crossing. Ironforge Mountaineers guard the surviving bridge. They fight to hold the roadway and drive back Dark Iron sappers, though the defense costs them dearly. If the bridge falls, northern trade and military movements will rely almost entirely on sea routes. Alliance forces in the Arathi Highlands will lose their immediate reinforcement.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thandol-span-71d7692362a5614115d8/1-0000.mp3", duration = 33.9069388, start = 0},
+    {file = "Audio/Transport/full_subzone_thandol-span-acb9768975af81c720de/1-0000.mp3", duration = 45.8710204, start = 0},
   },
 }
 P.transport["subzone:thelgen-rock"] = {
@@ -2822,7 +2822,7 @@ P.transport["subzone:thoradin-s-wall"] = {
   fullHash = "5cba78",
   text = "Thoradin's Wall. At Thoradin's Wall, broken stone divides the Arathi Highlands from the Hillsbrad Foothills. King Thoradin ordered it built long ago to shield early humanity from Amani troll incursions. Thoradin's Wall once guarded Strom's western frontier. Nearly three thousand years ago, King Thoradin raised it across the valley corridor to shield humanity's young settlements from Amani forest troll raids. Strom stood at the heart of Arathor, the first unified human empire. The wall protected its heartland, giving humanity room to survive and challenge troll supremacy in the north. Thoradin's Wall now lies in severe disrepair. Great breaches split its ramparts, worn down by weather, warfare, and abandonment. Arathor splintered into rival kingdoms, and neighboring Lordaeron later fell to the Scourge. No central realm remains to maintain the masonry. Travelers and roaming bandits pass freely through the broken archways between Hillsbrad and the untamed Arathi Highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thoradin-s-wall-c24b3a576ecdb90e6a98/1-0000.mp3", duration = 58.5665306, start = 0},
+    {file = "Audio/Transport/full_subzone_thoradin-s-wall-5d4ed3f15525b3ad65a8/1-0000.mp3", duration = 76.5126531, start = 0},
   },
 }
 P.transport["subzone:thorium-point"] = {
@@ -2846,7 +2846,7 @@ P.transport["subzone:thunder-bluff"] = {
   fullHash = "daff6f",
   text = "Thunder Bluff. On Mulgore’s high mesas, Thunder Bluff shelters the tauren and gathers their scattered tribes. Cairne Bloodhoof founded the city after the Third War, giving them refuge and a place to keep their traditions. Above Mulgore, rope bridges join Thunder Bluff’s stone mesas, and wooden elevators carry travelers up from the plains. For generations, the tauren wandered central Kalimdor as centaur raiding parties pursued them. During the Third War, Cairne Bloodhoof joined Warchief Thrall and the New Horde.\n\nTogether, they drove back the centaurs and claimed Mulgore’s fertile grasslands. Cairne gathered the scattered tribes and founded the city atop the mesas. The heights offered shelter above the plains, along with a place for the tauren to trade and gather in worship. Cairne Bloodhoof’s followers share Thunder Bluff with tauren who follow other ways. Magatha Grimtotem and her kin dwell on the Elder Rise. Beneath the city, spirit walkers and shaman seek the ancestors’ will at the Pools of Vision. Tribal rivalries persist, yet Thunder Bluff remains a spiritual pillar of Kalimdor’s Horde. Hunters return from the Barrens, artisans travel through, and druids come to commune with the Earth Mother.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunder-bluff-80d5e13cf1b1d73d9f1d/1-0000.mp3", duration = 71.3404082, start = 0},
+    {file = "Audio/Transport/full_subzone_thunder-bluff-ca475b7337e8fc2998da/1-0000.mp3", duration = 89.2342857, start = 0},
   },
 }
 P.transport["subzone:tidefury-cove"] = {
@@ -2886,7 +2886,7 @@ P.transport["subzone:tower-of-arathor"] = {
   fullHash = "70e68f",
   text = "Tower of Arathor. Boulderfist ogres hold the Tower of Arathor among the ruins of Stromgarde Keep. The spire once served Archmage Trelane in the former mage district, southwest in the keep. In Stromgarde Keep's mage district, the spire rises above ruins and bears the name of the ancient Empire of Arathor. It once served the realm's sorcerers, most notably Archmage Trelane. He devised a magical defensive grid keyed to enchanted gemstones to guard the sanctum.\n\nAfter the Third War, the Syndicate and the Boulderfist ogre clan assaulted Stromgarde, and the kingdom fractured. Trelane tried to hold the tower with his arcane wards, but the ogres overwhelmed him. He fled the city for his life and left his most prized arcane artifacts behind. Now the Boulderfist brute Ruul Onestone and his followers hold the spire.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tower-of-arathor-8dcbcb620c06bb61eed9/1-0000.mp3", duration = 52.5583673, start = 0},
+    {file = "Audio/Transport/full_subzone_tower-of-arathor-554b754d1050bcc7d6da/1-0000.mp3", duration = 63.242449, start = 0},
   },
 }
 P.transport["subzone:tower-of-eldara"] = {
@@ -2958,7 +2958,7 @@ P.transport["subzone:uldaman"] = {
   fullHash = "e6399e",
   text = "Uldaman. In Uldaman, rival excavators and troggs now clash within the sealed halls. Beneath the northern Badlands mountains, this ancient titan vault holds the buried origins of the dwarven race, with stone sentinels still on guard. Titan watchers built Uldaman beneath the earth as a refuge and a place of research. Their first attempts to shape living stone made the misshapen troggs. They sealed them in stasis chambers, then tried again and created the stone-skinned earthen.\n\nThe deepest halls hold vital records, including the fabled Discs of Norgannon. Stonekeeper Archaedas and the giantess Ironaya guarded the vault. Dwarven legend says the earthen gave rise to the dwarven race, whose cradle lay buried and forgotten beneath the hills.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_uldaman-c2ceace9ef8c4d112fd4/1-0000.mp3", duration = 47.3077551, start = 0},
+    {file = "Audio/Transport/full_subzone_uldaman-9498e51b3d033ef281b9/1-0000.mp3", duration = 59.2195918, start = 0},
   },
 }
 P.transport["subzone:uldum"] = {
@@ -2974,7 +2974,7 @@ P.transport["subzone:undercity"] = {
   fullHash = "801dfe",
   text = "Undercity. Beneath Capital City, the Forsaken hold their underground stronghold, ruled by Sylvanas Windrunner. Its halls began as Scourge work and now shelter the free-willed undead. Before the Third War, sewers, royal catacombs, and dungeons lay beneath Capital City. As Lordaeron fell, Prince Arthas Menethil ordered the Scourge to enlarge them into an underground seat of power. The Lich King summoned Arthas to Northrend before the work was finished. During the civil war in the Plaguelands, Sylvanas Windrunner rallied undead who had escaped the Lich King's grip. She overthrew the dreadlords and drove out rival forces, and the Forsaken claimed the underground complex. They finished the maze of catacombs the Scourge had begun and fortified it beneath the silent ruins of their former kingdom. Now the Dark Lady rules her people from its poisoned halls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_undercity-f948cbc5d5c122a5b8d0/1-0000.mp3", duration = 51.722449, start = 0},
+    {file = "Audio/Transport/full_subzone_undercity-e5ac77bd00ce7738395d/1-0000.mp3", duration = 71.4710204, start = 0},
   },
 }
 P.transport["subzone:undercroft"] = {
@@ -2990,7 +2990,7 @@ P.transport["subzone:uplands"] = {
   fullHash = "38cfdb",
   text = "Uplands. In the northeastern Alterac Mountains, the Syndicate holds the Uplands and its camps. These hills once fed Alterac's mountain fortresses, but now shelter the band's strongest base. Before the Second War broke Alterac apart, grain and livestock from the Uplands fed its mountain fortresses. When the kingdom fell into ruin, honest folk left their farms behind. Dispossessed nobles and cutthroats formed the Syndicate, set on taking back what they believed was stolen from them by force. Its camps, patrols, and outposts now fill the hills. Dandred's Fold lies along the western borders. The Syndicate keeps its strongest forces in the Uplands. There, high-ranking conspirators oversee its operations, including Baron Vardus, who is aligned with the shadowy leaders guiding Alterac's remaining nobility. From these hills they direct brigands, raid neighboring valleys, and resist both the Alliance and Horde. Travelers on the northeastern ridges meet entrenched highwaymen who claim the range as their sovereign soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_uplands-20876e37ac8f6751ac91/1-0000.mp3", duration = 60.8914286, start = 0},
+    {file = "Audio/Transport/full_subzone_uplands-fd3352be1392eb0e0cf0/1-0000.mp3", duration = 73.9004082, start = 0},
   },
 }
 P.transport["subzone:ursolan"] = {
@@ -2998,7 +2998,7 @@ P.transport["subzone:ursolan"] = {
   fullHash = "78462f",
   text = "Ursolan. In western Azshara, Ursolan shelters the Timbermaw furbolgs east of Timbermaw Hold. Its ravine cuts through a stronghold named for the bear Ancient Ursol, where uncorrupted furbolgs defend their ground. Across a deep ravine in western Azshara, Ursolan climbs both rims. The Timbermaw hold this eastern branch of their territory. Through Timbermaw Hold, it links to Bear's Head in the south.\n\nThe camp takes its name from the bear Ancient Ursol. Here, furbolgs who have resisted the demonic corruption consuming many of their kin across Kalimdor have found a haven. They guard their borders against outsiders, including researchers from the night elven camp of Talrendis.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ursolan-c94f527f5903874c8afa/1-0000.mp3", duration = 41.3779592, start = 0},
+    {file = "Audio/Transport/full_subzone_ursolan-3d1c8ef9f757ce23e8b7/1-0000.mp3", duration = 54.3085714, start = 0},
   },
 }
 P.transport["subzone:uther-s-tomb"] = {
@@ -3022,7 +3022,7 @@ P.transport["subzone:valley-of-fangs"] = {
   fullHash = "2bbee8",
   text = "Valley of Fangs. In the Badlands, a small camp keeps to the Valley of Fangs while predators roam nearby. The Valley of Fangs runs between two great stone formations in the heart of the Badlands. Feral crag coyotes, prowling cougars, and vicious wolves stalk its dusty floor, so lone travelers face danger in the pass.\n\nA handful of wayward figures camp there. Martek the Exiled, a banished orc, keeps company with the goblins Rigglefuzz and Jazzrik. Far from the regional outposts, they tinker in seclusion.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-fangs-ce223f6b661d56605764/1-0000.mp3", duration = 31.2685714, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-fangs-914f89913d29fc877b7f/1-0000.mp3", duration = 45.9755102, start = 0},
   },
 }
 P.transport["subzone:valley-of-spears"] = {
@@ -3054,7 +3054,7 @@ P.transport["subzone:valormok"] = {
   fullHash = "c2b28c",
   text = "Valormok. Valormok keeps a Horde foothold in northwest Azshara. North of the Haldarr Encampment, the outpost sends scouts and travelers toward the cursed ancient ruins along the coast. Autumn-colored trees ring Valormok, where the Horde holds a foothold in a hostile and largely forsaken land. Nearby satyrs, nagas, and prowling beasts threaten the lightly fortified camp. Its warriors hold their ground despite the danger. Wind riders connect Valormok with Orgrimmar and the wilder reaches of northern Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valormok-f69b8729b1b7d392c121/1-0000.mp3", duration = 31.1118367, start = 0},
+    {file = "Audio/Transport/full_subzone_valormok-7d77d3456f37d3d9749f/1-0000.mp3", duration = 40.8555102, start = 0},
   },
 }
 P.transport["subzone:venture-co-base-camp"] = {
@@ -3174,7 +3174,7 @@ P.transport["subzone:witherbark-village"] = {
   fullHash = "f519c9",
   text = "Witherbark Village. In the southeastern Arathi Highlands, Witherbark Village shelters hostile forest trolls beside a secluded lake. The tribe raids Stromgarde's Alliance remnants and the Horde outpost at Hammerfall. Witherbark trolls hold the shore and paths around their mountain lake. Fishers, axe throwers, and witch doctors live in huts along the water. Zalas Witherbark and the tribe's shadow hunters direct their people from a great cavern behind the settlement.\n\nThe Witherbark have joined forces with the Boulderfist ogres to claim more of the highlands. They have also taken a firm foothold in the ruins of Stromgarde Keep. Any outsider who enters their territory risks a fierce attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_witherbark-village-5933fa57ae00cc324ffa/1-0000.mp3", duration = 38.2171429, start = 0},
+    {file = "Audio/Transport/full_subzone_witherbark-village-19da72a986c1b5aff882/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
 P.transport["subzone:woodpaw-den"] = {
@@ -3278,7 +3278,7 @@ P.transport["zone:arathibasin"] = {
   fullHash = "36e29b",
   text = "Arathi Basin. In Arathi Basin, the League of Arathor and the Defilers fight over the valley's wealth. The League seeks to reclaim Arathor's lost lands for Stormwind, while the Forsaken aim to cut the humans off from their dwarven allies to the south. Its farm, stables, lumber mill, blacksmith and gold mine feed the war. Long before the Third War, Arathi Basin's fields, mills and mines fed Stromgarde, heir to ancient Arathor. When Lordaeron fell and Stromgarde crumbled, the valley was left almost undefended, though its farmsteads and workshops still stood.\n\nWhoever holds them now commands grain, timber, iron and gold. Those stores keep an army in the field, and make this quiet valley one of the most fought-over places in the highlands. The League of Arathor is an Alliance company formed from Stromgarde's survivors and their friends. Backed by Stormwind, they work from Refuge Pointe and have sworn to reclaim the lands their forebears built.\n\nThe Defilers are the Forsaken's answer: hardened troops of the Undercity under Varimathras's watchful eye. They fight alongside the Horde at Hammerfall. Their aim is to take the basin's riches and sever the road joining the northern humans to the dwarves of the south. Five strongpoints decide the battle: the farm, the stables, the lumber mill, the blacksmith and the gold mine. Each side races to raise its banner over them and defend what it claims. Every strongpoint held adds to its store of resources.\n\nRaiders slip between the points to seize one while the enemy is busy elsewhere. The side that gathers enough resources first wins the basin, for a time.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_arathibasin-ed6d7575dccb70e178bb/1-0000.mp3", duration = 97.28, start = 0},
+    {file = "Audio/Transport/full_zone_arathibasin-9091b01146526de6ee02/1-0000.mp3", duration = 126.354286, start = 0},
   },
 }
 P.transport["zone:darkspearislands"] = {

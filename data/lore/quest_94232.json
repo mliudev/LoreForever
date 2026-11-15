@@ -1,0 +1,65 @@
+{
+ "key": "quest:94232",
+ "type": "quest",
+ "name": "Craftsman's Writ: Minor Recombobulator",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94232
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded writ requests a Minor Recombobulator and gives details for delivery and payment. It can be transferred to another holder.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A customer\u2019s faded note asks you to provide one Minor Recombobulator. It also gives a delivery location and payment details, and says the writ may be transferred. You need the writ in hand to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what item does it want",
+    "recombobulator writ",
+    "craftsman writ item"
+   ],
+   "answer": "The writ requests one Minor Recombobulator."
+  },
+  {
+   "q": "Can I give this writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "pass the writ on",
+    "transferable writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What do I need to complete the exchange?",
+   "aliases": [
+    "what do i need for delivery",
+    "how to complete the transaction",
+    "writ requirements"
+   ],
+   "answer": "You need the requested Minor Recombobulator and the writ in your possession. The note gives the delivery location and payment details."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "minor recombobulator",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Minor Recombobulator"
+ ]
+}

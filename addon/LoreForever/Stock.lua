@@ -243,6 +243,8 @@ function Stock.Take(char, leaving)
   local read = talents()
   char.stock = { t = now, level = level, xp = xp, xpMax = xpMax, money = money, riding = riding(), skills = skills(),
     rep = reputations(), gear = gear(), talents = #read > 0 and read or type(had) == "table" and had or read, bags = bags() }
+  -- What's live for Willo counts from this save (Own.lua, LOR-1516): taken at login or a /reload, not at the logout.
+  if not leaving and ns.Own then pcall(ns.Own.Baseline, char.stock) end
   local lv = levelNow(level, xp, xpMax)
   char.days = type(char.days) == "table" and char.days or {}
   local days = char.days

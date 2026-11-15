@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A librarian seeks magical works for the Library in Ironforge. Your contribution can help expand its knowledge.",
+ "summary": "A librarian seeks magical works for the library's collection. Your contribution can help expand its knowledge.",
  "sections": [
   {
    "title": "A Growing Collection",
-   "body": "The librarian in Ironforge asks you to bring magical works that may benefit the Library. Its collection grows through your efforts, and the librarian welcomes further discoveries.",
+   "body": "Any magical work you find may earn a place on the library's shelves. Its collection grows through your efforts, and the librarian welcomes further discoveries.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what do they want",
     "library request"
    ],
-   "answer": "The librarian asks you to bring magical works that could benefit the Library in Ironforge."
+   "answer": "The librarian asks you to bring magical works that could benefit the library's collection."
   },
   {
    "q": "Where is this request from?",
@@ -34,7 +34,7 @@
     "where is the library",
     "ironforge library"
    ],
-   "answer": "The request comes from the Library in Ironforge."
+   "answer": "It comes from a librarian: Garion Wendell in Stormwind for the Alliance, or Owen Thadd in the Undercity for the Horde."
   },
   {
    "q": "Why bring magical works?",
@@ -42,21 +42,18 @@
     "why magical books",
     "what are they for"
    ],
-   "answer": "The librarian says the Library's knowledge expands through your efforts."
+   "answer": "The librarian says the library's knowledge expands through your efforts."
   }
  ],
  "angles": [],
  "keywords": [
   "collection",
   "geomancy",
-  "ironforge",
   "library",
   "magical works",
   "stone-cold truth"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Geomancy: The Stone-Cold Truth"

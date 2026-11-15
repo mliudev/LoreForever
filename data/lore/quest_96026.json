@@ -1,0 +1,63 @@
+{
+ "key": "quest:96026",
+ "type": "quest",
+ "name": "Step Two: More Rock",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96026
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hamur in Bolder'ok wants Heavy Weightstones to strengthen a weapon. He says rock makes rock stronger, and asks you to bring more.",
+ "sections": [
+  {
+   "title": "Hamur's Request",
+   "body": "Hamur in Bolder'ok says a weapon needs a finishing touch: more rock. He has seen small folk make Heavy Weightstones, and asks you to bring them so he can strengthen the weapon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Heavy Weightstones?",
+   "aliases": [
+    "who needs weightstones",
+    "hamur request"
+   ],
+   "answer": "Hamur in Bolder'ok asks you to bring Heavy Weightstones."
+  },
+  {
+   "q": "What does Hamur want them for?",
+   "aliases": [
+    "why heavy weightstones",
+    "what are they for"
+   ],
+   "answer": "Hamur says he will use the Heavy Weightstones to strengthen a weapon."
+  },
+  {
+   "q": "What does Hamur say makes rock stronger?",
+   "aliases": [
+    "rock stronger how",
+    "more rock"
+   ],
+   "answer": "Hamur says that only rock can make rock stronger."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "hamur",
+  "heavy weightstones",
+  "more rock",
+  "rock",
+  "weapon",
+  "weightstones"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Step Two: More Rock"
+ ]
+}
