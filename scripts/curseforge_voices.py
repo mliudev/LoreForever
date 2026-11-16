@@ -108,9 +108,11 @@ def language_project(project: dict) -> bool:
 
 
 def project_locale(project: dict) -> str | None:
-    """A translation project's locale (LoreForever_Lang_deDE -> deDE)."""
-    m = re.fullmatch(r"LoreForever_Lang_([a-z]{2}[A-Z]{2})", project["folders"][0]) if project.get("folders") else None
-    return m.group(1) if m else None
+    """A translation project's pack id, its key in the languages manifest (LoreForever_Lang_deDE -> deDE; a second pack
+    of a language, LoreForever_Lang_ruRU_LF -> ruRU-lf, lore.i18n.pack_name), so each listing gets only its own pack."""
+    m = re.fullmatch(r"LoreForever_Lang_([a-z]{2}[A-Z]{2})(?:_([A-Z]{2,8}))?", project["folders"][0]) \
+        if project.get("folders") else None
+    return m and m[1] + (f"-{m[2].lower()}" if m[2] else "")
 
 
 def validate_translation(zip_path: Path, project: dict, version: str) -> None:
@@ -166,7 +168,7 @@ def load_config(path: Path | None = None) -> list[dict]:
             raise Failure(f"{path.name}: {name}'s 'suggests' names other projects' keys")
         folders = p.get("folders")
         if not p["bundle"] and not (isinstance(folders, list) and folders and all(isinstance(f, str) and re.fullmatch(
-                r"LoreForever_(?:Voice_\w+|Lang_[a-z]{2}[A-Z]{2})", f) for f in folders)):
+                r"LoreForever_(?:Voice_\w+|Lang_[a-z]{2}[A-Z]{2}(?:_[A-Z]{2,8})?)", f) for f in folders)):
             raise Failure(f"{path.name}: {name}'s 'folders' are add-on folders, like LoreForever_Voice_Female")
         if p.get("core") not in ("required", "optional"):
             raise Failure(f"{path.name}: {name}'s 'core' is required or optional")
@@ -886,9 +888,6 @@ def upload_languages(args, todo: list[dict], projects: list[dict], token: str) -
             names.discard(newest(names))
         manifest_path = source_dir / (newest(names) or "manifest.json")
         manifest = (whole(manifest_path) or {}) if manifest_path.is_file() else {}
-        tag = os.environ.get("TAG", "")
-        if RELEASE_TAG.match(tag):   # the add-on release's own copy (publish-language-packs-at-release.sh), until PR 1b
-            manifest = {project_locale(p): {"version": tag.removeprefix("v")} for p in todo}
         groups, absent = {}, []
         for p in todo:
             entry = manifest.get(project_locale(p) or "")
