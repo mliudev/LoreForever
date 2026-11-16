@@ -51,7 +51,11 @@ for _, n in ipairs({ "Edwin VanCleef", "Mutanus the Devourer", "Archmage Arugal"
   "Emperor Dagran Thaurissan", "Overlord Wyrmthalak", "General Drakkisath", "Darkmaster Gandling", "Baron Rivendare",
   "High Inquisitor Whitemane", "Herod", "Arcanist Doan", "Bloodmage Thalnos" }) do FINAL[n:lower()] = true end
 local GAP, HOUR_MAX = 180, 6                     -- seconds between two; how many an hour
-local HOLD, LONG_HOLD = 120, 600                 -- seconds one may wait (a level, a rough patch: LONG_HOLD)
+-- Seconds one may wait (a level, a rough patch: LONG_HOLD). Time spent waiting for a narration doesn't count: it
+-- waits for the queue's first gap, up to LONG_HOLD in all (cleanup 11/15, item 7; LOR-1412). With quest voices on and
+-- every note queueing its story, a run of turn-ins narrates for minutes, right when a quest line ends, and the line's
+-- end, a dungeon cleared and the turn-ins themselves were let go at 120 s without a word.
+local HOLD, LONG_HOLD = 120, 600
 local GATHER, LOOK = 2, 0.5                      -- a turn-in that levels you sends the level; how often a wait looks
 local ROUGH_DEATHS, ROUGH_WITHIN = 3, 15 * 60    -- a rough patch: this many deaths this close, solo, in the open world
 local EPIC, RARE = 4, 3
@@ -162,9 +166,13 @@ local function look()
   local p = pending
   if not p then frame:Hide(); return end
   local t = now()
+  -- The time it has waited for a narration (since the last look) is left out of its hold.
+  if p.seen and p.why == "narration" then p.narration = (p.narration or 0) + (t - p.seen) end
+  p.seen, p.why = t, held()
   if t < p.after then return end
   local hold = (p.kind == "level" or p.kind == "rough") and LONG_HOLD or HOLD
-  if t - p.at > hold or not wants(p.kind) then pending = nil; return end
+  local waited = t - p.at
+  if waited - (p.narration or 0) > hold or waited > LONG_HOLD or not wants(p.kind) then pending = nil; return end
   local k, wall = kept(), time()
   local field = SMALL[p.kind] and "small" or "at"
   local big, small = hour(k, "at", wall), hour(k, "small", wall)
@@ -174,7 +182,7 @@ local function look()
   -- last big one; a small one on the last of either.
   local last = big[#big]
   if field == "small" and (small[#small] or 0) > (last or 0) then last = small[#small] end
-  if (last and wall - last < GAP) or held() then return end
+  if (last and wall - last < GAP) or p.why then return end
   pending = nil
   recent[#recent + 1] = wall
   -- Stopped part way (a fight came): not counted, and it goes again when it can.

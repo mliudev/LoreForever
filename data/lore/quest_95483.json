@@ -1,0 +1,109 @@
+{
+ "key": "quest:95483",
+ "type": "quest",
+ "name": "Thrall Needs to Know",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95483
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Thrall needs you to bring him word of Varian Wrynn\u2019s fate in Orgrimmar. The news matters to the Horde\u2019s position across Azeroth.",
+ "sections": [
+  {
+   "title": "Word for Thrall",
+   "body": "A soldier of the Horde asks you to carry news to Thrall in Orgrimmar. The soldier will return there after helping Ulka prepare to travel. You are trusted to tell the Warchief what fate befell Varian Wrynn.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Warchief's Reply",
+   "body": "Thrall hears that most of Folkar's Kor'kron were lost bringing him the information. He says the Horde will use this knowledge to strengthen its positions across Azeroth. He does not celebrate Varian's passing, though he sees advantage for the Horde in anything that weakens the Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Thrall need to know?",
+   "aliases": [
+    "thrall needs to know",
+    "what happened to varian",
+    "varian's fate"
+   ],
+   "answer": "Thrall needs word of Varian Wrynn's fate."
+  },
+  {
+   "q": "Where do I bring the news?",
+   "aliases": [
+    "where is thrall",
+    "bring word to thrall",
+    "orgrimmar thrall"
+   ],
+   "answer": "The news is to be brought to Thrall in Orgrimmar."
+  },
+  {
+   "q": "Who asks me to carry the news?",
+   "aliases": [
+    "who sent me",
+    "who wants the message",
+    "the soldier"
+   ],
+   "answer": "A soldier of the Horde asks you to bring the information to Thrall."
+  },
+  {
+   "q": "Why is the soldier returning to Orgrimmar?",
+   "aliases": [
+    "what about ulka",
+    "why is the soldier delayed",
+    "ulka travel"
+   ],
+   "answer": "The soldier plans to meet Ulka and make sure he is fit to travel before returning to Orgrimmar."
+  },
+  {
+   "q": "What does Thrall say about the Kor'kron?",
+   "aliases": [
+    "folkar's kor'kron",
+    "kor'kron losses",
+    "what happened to the kor'kron"
+   ],
+   "answer": "Thrall says most of Folkar's Kor'kron were lost while bringing him the information."
+  },
+  {
+   "q": "How will the Horde use the information?",
+   "aliases": [
+    "horde plans",
+    "strengthen positions",
+    "what will thrall do"
+   ],
+   "answer": "Thrall says the Horde will use the knowledge to strengthen its positions across Azeroth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry Thrall news that he says can help strengthen the Horde's positions across Azeroth."
+  }
+ ],
+ "keywords": [
+  "folkar",
+  "horde",
+  "kor'kron",
+  "orgrimmar",
+  "thrall",
+  "ulka",
+  "varian wrynn",
+  "warchief"
+ ],
+ "related": [
+  "npc:thrall",
+  "zone:orgrimmar",
+  "topic:varian-wrynn",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Thrall Needs to Know"
+ ]
+}

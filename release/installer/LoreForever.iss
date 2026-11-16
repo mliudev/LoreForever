@@ -148,6 +148,7 @@ Type: filesandordirs; Name: "{#FemaleHordeDir}"; Check: VoiceChosen('female')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePlaces"; Check: VoiceChosen('female-more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MorePeople"; Check: VoiceChosen('female-more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreItems"; Check: VoiceChosen('female-more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests0"; Check: VoiceChosen('female-more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests1"; Check: VoiceChosen('female-more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests2"; Check: VoiceChosen('female-more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_MoreQuests3"; Check: VoiceChosen('female-more')
@@ -159,6 +160,7 @@ Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForeve
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreItems"; Check: VoiceChosen('more')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests0"; Check: VoiceChosen('more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests1"; Check: VoiceChosen('more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests2"; Check: VoiceChosen('more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MoreQuests3"; Check: VoiceChosen('more')
@@ -214,7 +216,7 @@ begin
   VoiceAssets[0] := 'LoreForever_Voice_Female-complete.zip';
   VoiceFolders[0] := 'LoreForever_Voice_Female;LoreForever_Voice_Female_Alliance;LoreForever_Voice_Female_Horde';
   VoiceIds[1] := 'female-more';
-  VoiceNames[1] := 'More from the female narrator: people and bosses, more places, item and quest stories';
+  VoiceNames[1] := 'More from the female narrator: more people and places, item and quest stories';
   VoiceAssets[1] := 'LoreForever_Voice_Female_MorePlaces.zip';
   VoiceFolders[1] := 'LoreForever_Voice_Female_MorePlaces';
   VoiceIds[2] := 'female-quests';
@@ -222,7 +224,7 @@ begin
   VoiceAssets[2] := 'LoreForever_Voice_Female_Quests.zip';
   VoiceFolders[2] := 'LoreForever_Voice_Female_Quests';
   VoiceIds[3] := 'more';
-  VoiceNames[3] := 'More from the male narrator: people and bosses, more places, item and quest stories';
+  VoiceNames[3] := 'More from the male narrator: more people and places, item and quest stories';
   VoiceAssets[3] := 'LoreForever_Voice_Default_MorePlaces.zip';
   VoiceFolders[3] := 'LoreForever_Voice_Default_MorePlaces';
   VoiceIds[4] := 'quests';

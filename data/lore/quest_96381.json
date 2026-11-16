@@ -1,0 +1,87 @@
+{
+ "key": "quest:96381",
+ "type": "quest",
+ "name": "A Bit of Wet Work",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96381
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sully McCleary saw naga charging ashore on Alcaz Island and fears the island is under attack. He asks you to strike at the naga and their leader.",
+ "sections": [
+  {
+   "title": "Naga on Alcaz",
+   "body": "Sully McCleary watched the shore of Alcaz Island while you listened in on Lady Proudmoore. He believes naga are attacking the island after seeing many of them rush ashore. Their spellcaster leader appears to be directing them, so Sully asks you to cut down the naga and bring her head to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who sent me",
+    "who is Sully",
+    "Sully McCleary"
+   ],
+   "answer": "Sully McCleary asks you to attack the naga he saw charging onto Alcaz Island."
+  },
+  {
+   "q": "What is happening on Alcaz?",
+   "aliases": [
+    "Alcaz naga",
+    "naga attack",
+    "what happened here"
+   ],
+   "answer": "Sully believes Alcaz Island may be under attack because he saw many naga rush ashore."
+  },
+  {
+   "q": "Who is the naga leader?",
+   "aliases": [
+    "naga boss",
+    "naga leader",
+    "Tidemistress"
+   ],
+   "answer": "Sully saw a spellcaster leading the naga and identifies her as Tidemistress Ca'zass."
+  },
+  {
+   "q": "Why am I going after the naga?",
+   "aliases": [
+    "why kill naga",
+    "why fight them",
+    "naga reason"
+   ],
+   "answer": "Sully says the naga are no friend to anyone and asks you to help by attacking them."
+  },
+  {
+   "q": "Where are the naga?",
+   "aliases": [
+    "naga location",
+    "where is Alcaz",
+    "Alcaz Prison"
+   ],
+   "answer": "Sully sends you into Alcaz Prison to confront the naga."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alcaz island",
+  "alcaz prison",
+  "lady proudmoore",
+  "naga",
+  "strashaz enchantresses",
+  "strashaz soldiers",
+  "sully mccleary",
+  "tidemistress ca'zass"
+ ],
+ "related": [
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Bit of Wet Work"
+ ]
+}

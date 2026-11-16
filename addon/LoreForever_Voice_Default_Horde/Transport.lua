@@ -70,7 +70,7 @@ P.transport["npc:brine"] = {
   fullHash = "fb99fb",
   text = "Brine. On Blackthorn Ridge, Brine guides shaman initiates toward the spirits of water. She teaches them to commune with the tides and earn their Water Totem. Brine lives on a hill in northern Blackthorn Ridge, far from the Barrens' trading posts. Though dry savannas surround her, she has devoted her life to understanding water. Shaman across the Horde seek her wisdom after mastering earth and fire. She teaches that water calls for patience and perspective, qualities few understand as deeply as she does. In her youth, Brine marched with her orc companions across the Hillsbrad Foothills and fought against human settlements. During the campaign, she came to Tarren Mill and found a humble well fed by fresh spring water. The well stayed in her memory as a sign of life amid devastation. It strengthened a lesson she had learned as a child: even in the darkest sorrow, a small token of hope can still be found.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brine-694691cafe1509e6fa0f/1-0000.mp3", duration = 54.4130612, start = 0},
+    {file = "Audio/Transport/full_npc_brine-8e4d8dd27a201f9373fb/1-0000.mp3", duration = 65.0710204, start = 0},
   },
 }
 P.transport["npc:cairne-bloodhoof"] = {
@@ -150,7 +150,7 @@ P.transport["npc:devrak"] = {
   fullHash = "d4420c",
   text = "Devrak. At the Crossroads, Devrak keeps the Horde’s wind riders ready for flights across Kalimdor. He carries couriers and supplies between Durotar, Mulgore, frontier outposts, and the Horde’s capitals. At the Crossroads, Devrak tends the wind riders that connect the Horde’s distant holdings. The outpost stands where Kalimdor’s major trade routes meet, exposed beneath the sun and vulnerable to quilboar, centaur, and Alliance scouts. Quick flights matter here. Devrak pairs seasoned travelers and new messengers with trained wind riders to cross the savannah and reach Mulgore’s mountains or Durotar’s stone canyons. Devrak helps move supplies from the frontier. Barrens hunters bring in meat and pelts, and he helps send them to Orgrimmar’s cooking fires and Thunder Bluff’s tanners. He introduces new couriers to flight masters across the continents, keeping an aerial route open to the Horde’s heartlands. Devrak tends more than beasts at the Crossroads. When the settlement comes under attack, he calls enraged wyverns to strike intruders with venomous stingers and talons. His roost is a dangerous target for anyone who attacks.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_devrak-fa85f29069b5cffdc3f3/1-0000.mp3", duration = 67.7616327, start = 0},
+    {file = "Audio/Transport/full_npc_devrak-910e8393c03a55fdd0f4/1-0000.mp3", duration = 83.957551, start = 0},
   },
 }
 P.transport["npc:eitrigg"] = {
@@ -190,7 +190,7 @@ P.transport["npc:gann-stonespire"] = {
   fullHash = "45230c",
   text = "Gann Stonespire. Along the southern Barrens road near Bael Modan, Gann Stonespire seeks to answer the loss of his people’s homeland. His tribe hunted there before a dwarven excavation took the land. Gann Stonespire camps beside the southern Barrens road. The dwarven expedition came from Ironforge and built Bael Modan on his tribe’s ancestral land and hunting grounds. Its miners drove the tauren from their soil with pickaxes, firearms, and heavy machinery. They refused peaceful overtures, so Gann calls on travelers to strike back at the excavators rather than surrender his heritage quietly.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gann-stonespire-be4e0eb27ede3f0adadb/1-0000.mp3", duration = 35.7355102, start = 0},
+    {file = "Audio/Transport/full_npc_gann-stonespire-935b75576220baf5f143/1-0000.mp3", duration = 43.2065306, start = 0},
   },
 }
 P.transport["npc:gazrog"] = {
@@ -302,7 +302,7 @@ P.transport["npc:menara-voidrender"] = {
   fullHash = "fa5510",
   text = "Menara Voidrender. In Ratchet, Menara Voidrender teaches warlocks of both factions the dark arts. From this refuge in Kalimdor, the human warlock shares her knowledge of demon-binding artifacts and arcane craft, far from orthodox authorities. Menara Voidrender works from Ratchet, the neutral goblin port in the Barrens. Many warlocks in the Eastern Kingdoms study in cellars or hidden slaughterhouses beneath their cities. Ratchet keeps Menara far from the Kirin Tor, Stormwind's guards, and Orgrimmar's overseers, so she can pursue occult studies in plain sight. She teaches any capable apprentice, whatever their faction, and gives practitioners of the dark arts a rare place to meet. Veteran conjurers know Menara as an authority on orbs that imprison and harness demonic spirits. She works with intricate reagents and guides apprentices through demanding rituals to make enchanted attire and binding implements. Her skill is known as far as Ironforge and the Undercity. Senior warlocks across Azeroth send their most promising students across the sea to seek her counsel.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_menara-voidrender-f64556b2618a8ec5b819/1-0000.mp3", duration = 62.8506122, start = 0},
+    {file = "Audio/Transport/full_npc_menara-voidrender-9ac7f97fed772d86b63d/1-0000.mp3", duration = 84.3493878, start = 0},
   },
 }
 P.transport["npc:morin-cloudstalker"] = {
@@ -366,7 +366,7 @@ P.transport["npc:sputtervalve"] = {
   fullHash = "4ab2d9",
   text = "Sputtervalve. In Ratchet, Sputtervalve races to finish shredder research for the Tinkers' Union. Director Riddlevox sets crushing deadlines, so Sputtervalve hires adventurers to steal designs from the rival Venture Company. In Ratchet, goblin engineer Sputtervalve answers to Director Riddlevox of the Tinkers' Union. He oversees shredder development, and the work has grown brutal. Mechanization moves fast, the Venture Company presses hard, and his own prototypes are few. With the deadline near, Sputtervalve fears admitting failure to the Union. So he turns to a familiar goblin practice: stealing better designs from those who made them first. The Venture Company's drilling operation at the Sludge Fen, to the northwest, is Sputtervalve's chief target. Its latest shredders have interchangeable hands, refined control grips, and advanced inner workings. Among them is the elusive samophlange. Sputtervalve sent his associate Wizzlecrank into the Fen for field research, but Wizzlecrank became trapped. Now Sputtervalve hires wandering mercenaries to recover the stolen technology and rescue his partner. Sputtervalve also helps with strange curiosities found in the Barrens. Adventurers sometimes bring him bizarre artifacts corrupted in the Wailing Caverns, such as a glowing shard. Though machinery is his trade, he knows the local land well. He points those who bring him such things toward the isolated druids encamped above the caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sputtervalve-315bbbe0a2e1bad2274a/1-0000.mp3", duration = 86.5436735, start = 0},
+    {file = "Audio/Transport/full_npc_sputtervalve-1ec6d4489c69e2a412d5/1-0000.mp3", duration = 106.710204, start = 0},
   },
 }
 P.transport["npc:strahad-farsan"] = {
@@ -550,7 +550,7 @@ P.transport["subzone:blackthorn-ridge"] = {
   fullHash = "868e30",
   text = "Blackthorn Ridge. At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, watches from a camp above a pool of unusually pure mountain water. Beside Razorfen Kraul, Blackthorn Ridge rises through thickets of sharp briars. The Razormane quilboar claim these slopes as ancestral ground. They use the thorn barriers to ambush outsiders and skirmish across the southern Barrens. Travelers still seek the ridge despite the danger, drawn by Brine, a hermit orc shaman. His camp overlooks a spring famed across Kalimdor for its clear, spiritually pure water.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackthorn-ridge-afb5bd114d76f0a9f003/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_subzone_blackthorn-ridge-98de9aed075c8e75fe16/1-0000.mp3", duration = 42.9714286, start = 0},
   },
 }
 P.transport["subzone:bladefist-bay"] = {
@@ -790,7 +790,7 @@ P.transport["subzone:dry-hills"] = {
   fullHash = "641241",
   text = "Dry Hills. Witchwing harpies rule the green Dry Hills above the Barrens. The Dry Hills rise along the Barrens’ northwestern edge, beneath the Stonetalon Mountains. Their slopes are greener than the dry plains below, but the bluffs offer travelers little safety. Serena Bloodfeather leads the Witchwing harpies from roosts along the crags. Their raiders swoop on supply caravans traveling the northern Gold Road. Abandoned orcish fortifications and derelict siege engines rot in the brush. Witchwing harpies strike from the hills to bleed trade routes and harass nearby settlements. So the Horde keeps a standing bounty on their feathers. Their nests and roosts are heavily defended in the rocky ravines. Hecklefang hyenas prowl there, while fierce Sunscale raptors hunt across the highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dry-hills-8fed7ad72f0803a89589/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_subzone_dry-hills-866f9e72e7a2eb2c3130/1-0000.mp3", duration = 53.9428571, start = 0},
   },
 }
 P.transport["subzone:drygulch-ravine"] = {
@@ -934,7 +934,7 @@ P.transport["subzone:grol-dom-farm"] = {
   fullHash = "17d68f",
   text = "Grol'dom Farm. Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead under constant harassment from aggressive quilboars. After Durotar was settled, the Horde began farming the dry Barrens at Grol'dom Farm. Kranal Fiss and his children tend the homestead and raise pigs. Razormane quilboar raiders prowl the nearby ridges, making life here lonely and rugged. Still, the farm feeds the emerging orcish nation. Kranal Fiss tends pigs at Grol'dom Farm and knows the elemental rites. He guides young shaman through their trials, so Horde initiates on the spiritual path hold the farm in quiet regard. Seekers traveling west from Orgrimmar are regularly sent here to learn how to commune with the primal spirits of fire.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grol-dom-farm-40217e858fee5538258e/1-0000.mp3", duration = 48.9795918, start = 0},
+    {file = "Audio/Transport/full_subzone_grol-dom-farm-50a39a58b688b39701ab/1-0000.mp3", duration = 62.0146939, start = 0},
   },
 }
 P.transport["subzone:grommash-hold"] = {
@@ -1030,7 +1030,7 @@ P.transport["subzone:lushwater-oasis"] = {
   fullHash = "b8f414",
   text = "Lushwater Oasis. South of the Crossroads, travelers seek water at Lushwater Oasis, one of three life-giving pools in the Barrens. Kolkar centaur threaten those who come, while anglers cast into the tainted waters for Deviate Fish. A short march south of the Crossroads, Lushwater Oasis offers palms and springs beneath the Barrens sun. Thirsty beasts gather there, but Kolkar centaur hold the banks and ambush wildlife and travelers.\n\nThe oasis marks the entrance to the Wailing Caverns. Energies from its underground passages taint the pools, where unnatural creatures and strange mutations take hold.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lushwater-oasis-71e34e0655ec0e4a7ba6/1-0000.mp3", duration = 36.6236735, start = 0},
+    {file = "Audio/Transport/full_subzone_lushwater-oasis-1c85863ac544bf284656/1-0000.mp3", duration = 42.5795918, start = 0},
   },
 }
 P.transport["subzone:magic-quarter"] = {
@@ -1054,7 +1054,7 @@ P.transport["subzone:merchant-coast"] = {
   fullHash = "8a05f8",
   text = "Merchant Coast. Along the Barrens' eastern shore, trade and piracy shape the Merchant Coast. Ratchet handles sea trade, while pirates contest the coast. Ships link central Kalimdor with the Eastern Kingdoms and Theramore along the Merchant Coast. Ratchet, the Steamwheedle Cartel's neutral port, takes cargo from anyone with coin. Southsea Freebooters haunt the sands and nearby waters. They prey on merchant ships and set up illicit operations along the beaches.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_merchant-coast-78ca684a26b644eb5ec0/1-0000.mp3", duration = 28.1077551, start = 0},
+    {file = "Audio/Transport/full_subzone_merchant-coast-76785e77dd2849b4ef77/1-0000.mp3", duration = 32.8097959, start = 0},
   },
 }
 P.transport["subzone:night-web-s-hollow"] = {
@@ -1078,7 +1078,7 @@ P.transport["subzone:nightsong-woods"] = {
   fullHash = "10a81c",
   text = "Nightsong Woods. In eastern Ashenvale, Nightsong Woods is a forest where night elves and the Warsong clan fight over lumber and old corruption lingers. Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through the western forest, dividing Alliance settlements from Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels.\n\nWarsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, and the Kaldorei fight back. Satyr strongholds at Satyrnaar and Xavian taint the eastern forest, along with demonic remnants at Demon Fall Canyon and Felfire Hill.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_nightsong-woods-e9c109dcdfe8ca9e1b56/1-0000.mp3", duration = 39.0791837, start = 0},
+    {file = "Audio/Transport/full_subzone_nightsong-woods-d0299d0e42dea911613a/1-0000.mp3", duration = 49.5804082, start = 0},
   },
 }
 P.transport["subzone:north-coast"] = {
@@ -1138,11 +1138,11 @@ P.transport["subzone:pyrewood-village"] = {
   },
 }
 P.transport["subzone:ragefire-chasm-classic"] = {
-  hash = "b1daa3",
-  fullHash = "b1daa3",
-  text = "Ragefire Chasm (Classic). Beneath Orgrimmar, Ragefire Chasm puts the city at risk as troggs break into its tunnels. Its fiery caverns also shelter a cult with plans beyond Durotar. Ragefire troggs have pushed into the volcanic tunnels beneath Orgrimmar. They rose from deep fissures and now threaten the city's foundations. Magatha Grimtotem, a tauren, tried to make peace with them, but they answered with violence. Their tunnels run beneath stone streets and fortified towers. If the creatures keep digging upward, Orgrimmar itself is at risk.",
+  hash = "ac382f",
+  fullHash = "ac382f",
+  text = "Ragefire Chasm. Beneath Orgrimmar, Ragefire Chasm puts the city at risk as troggs break into its tunnels. Its fiery caverns also shelter a cult with plans beyond Durotar. Ragefire troggs have pushed into the volcanic tunnels beneath Orgrimmar. They rose from deep fissures and now threaten the city's foundations. Magatha Grimtotem, a tauren, tried to make peace with them, but they answered with violence. Their tunnels run beneath stone streets and fortified towers. If the creatures keep digging upward, Orgrimmar itself is at risk.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ragefire-chasm-classic-562c084dc9bacea8d0eb/1-0000.mp3", duration = 32.3657143, start = 0},
+    {file = "Audio/Transport/full_subzone_ragefire-chasm-classic-e5684003648c6c4ddc46/1-0000.mp3", duration = 39.3665306, start = 0},
   },
 }
 P.transport["subzone:raptor-grounds"] = {
@@ -1150,7 +1150,7 @@ P.transport["subzone:raptor-grounds"] = {
   fullHash = "1620f8",
   text = "Raptor Grounds. In the southern Barrens, Sunscale raptors claim the Raptor Grounds, a secluded valley west of Northwatch Hold. Their tool-making cunning and hunger for bright trinkets set them apart from ordinary beasts. West of Northwatch Hold, Sunscale raptors make their home in the Raptor Grounds. They build crude shelters and fashion primitive tools. They hunt together with uncanny skill, far beyond ordinary beasts. Their hunger for shiny or unusual things sends them against passing caravans and Horde encampments. Coins, trinkets, and supplies vanish into their canyon dens.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_raptor-grounds-144a222670f14099ae67/1-0000.mp3", duration = 34.1942857, start = 0},
+    {file = "Audio/Transport/full_subzone_raptor-grounds-150cf10379fe86f5db73/1-0000.mp3", duration = 41.6391837, start = 0},
   },
 }
 P.transport["subzone:ratchet"] = {
@@ -1187,10 +1187,10 @@ P.transport["subzone:razor-hill-watchtower"] = {
 }
 P.transport["subzone:razorfen-downs-classic"] = {
   hash = "b389b9",
-  fullHash = "78f27b",
-  text = "Razorfen Downs (Classic). The Scourge now holds Razorfen Downs, the quilboar's ancestral burial ground and capital in the southern Barrens. Amnennar the Coldbringer leads its agents, who have raised the quilboar dead and threaten to spread their power across central Kalimdor. Razorfen Downs rises among the towering, petrified vines shared with nearby Razorfen Kraul. Here the boar demigod Agamaggan fell in the War of the Ancients. For generations, the thorn labyrinth served as the quilboar's sacred burial ground and seat of power, watched over by mystics of the Death's Head tribe. The quilboar hold its dense briars holy, for their divine progenitor's blood soaked them. The Scourge has broken Razorfen Downs' sanctity. Amnennar the Coldbringer, a powerful lich in the Lich King's service, subdued the Death's Head quilboar and made their ancestral resting ground an undead stronghold. Reanimated quilboar skeletons and corpses prowl the Spiral of Thorns alongside shrieking banshees. The Horde in the nearby Barrens and emissaries from Stormwind's Cathedral of Light both see this Scourge power as a grave threat to Kalimdor.",
+  fullHash = "872531",
+  text = "Razorfen Downs. The Scourge now holds Razorfen Downs, the quilboar's ancestral burial ground and capital in the southern Barrens. Amnennar the Coldbringer leads its agents, who have raised the quilboar dead and threaten to spread their power across central Kalimdor. Razorfen Downs rises among the towering, petrified vines shared with nearby Razorfen Kraul. Here the boar demigod Agamaggan fell in the War of the Ancients. For generations, the thorn labyrinth served as the quilboar's sacred burial ground and seat of power, watched over by mystics of the Death's Head tribe. The quilboar hold its dense briars holy, for their divine progenitor's blood soaked them. The Scourge has broken Razorfen Downs' sanctity. Amnennar the Coldbringer, a powerful lich in the Lich King's service, subdued the Death's Head quilboar and made their ancestral resting ground an undead stronghold. Reanimated quilboar skeletons and corpses prowl the Spiral of Thorns alongside shrieking banshees. The Horde in the nearby Barrens and emissaries from Stormwind's Cathedral of Light both see this Scourge power as a grave threat to Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_razorfen-downs-classic-f4048aa5bf89b3537cb1/1-0000.mp3", duration = 87.1967347, start = 0},
+    {file = "Audio/Transport/full_subzone_razorfen-downs-classic-8c595d1806a4f7e8a202/1-0000.mp3", duration = 73.0644898, start = 0},
   },
 }
 P.transport["subzone:razorfen-kraul-classic"] = {
@@ -1398,7 +1398,7 @@ P.transport["subzone:stagnant-oasis"] = {
   fullHash = "d55a4d",
   text = "Stagnant Oasis. Kolkar centaur guard the Stagnant Oasis, where wildlife gathers around its waters in the dry Barrens. The pool lies between the Gold Road and Merchant Coast. East of the Gold Road and inland from the Merchant Coast, the Stagnant Oasis breaks through the Barrens' dusty scrub. Dense foliage rings the pool, where aggressive snapjaw turtles prowl. Weakened kodos sometimes stray here from the great herds of the Field of Giants. Kolkar centaur keep camps along the banks and fiercely guard the water from anyone entering their territory. The pool looks still, yet strange life stirs beneath its surface. Deviate Fish swim among other unusual creatures. Scholars and shamans watch the Barrens oases closely. They study the strange forces that affect local springheads and the wildlife that drinks from them.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stagnant-oasis-e93965e03aa9bf993a1b/1-0000.mp3", duration = 48.6138776, start = 0},
+    {file = "Audio/Transport/full_subzone_stagnant-oasis-df63396b2c626c1f0aa7/1-0000.mp3", duration = 64.4963265, start = 0},
   },
 }
 P.transport["subzone:stillwater-pond"] = {
@@ -1430,7 +1430,7 @@ P.transport["subzone:thorn-hill"] = {
   fullHash = "9b0774",
   text = "Thorn Hill. At Thorn Hill, Razormane warbands strike Horde supply lines east of the Crossroads. Their fortified camp holds the high ridges between Durotar and the Barrens interior. Thorn Hill commands the roads between Durotar and the Crossroads. Razormane hunters gather here with trained wolves and geomancers who shape the earth. Elder Mystic Razorsnout guides the quilboar, and their attacks on Horde supply caravans grow bolder. So the camp, close to vital routes, is one of the Crossroads guards' most immediate threats in the central savanna.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thorn-hill-be16fb7b798a30203506/1-0000.mp3", duration = 31.9477551, start = 0},
+    {file = "Audio/Transport/full_subzone_thorn-hill-d8f3a3b1a44497bd7401/1-0000.mp3", duration = 44.1991837, start = 0},
   },
 }
 P.transport["subzone:thunder-ridge"] = {
@@ -1454,7 +1454,7 @@ P.transport["subzone:tidus-stair"] = {
   fullHash = "66cdc0",
   text = "Tidus Stair. At Tidus Stair, two tauren shamans seek insight from the coastal water spirits. The broad stone terraces rise above the Merchant Coast southeast of Ratchet, sheltered beside the Great Sea. Waves break below Tidus Stair, where weathered stone terraces climb the coastal bluffs southeast of Ratchet. The Barrens are dry and dusty, and skirmishes trouble the region, but this stretch above the Merchant Coast is quiet. A modest hut shelters Islen Waterseer and Mahren Skyseer, two tauren who live far from the goblin trade docks. They fish, watch the horizon, and seek insight from the coastal water spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tidus-stair-436ed96f6c3f5b47a52f/1-0000.mp3", duration = 38.3216327, start = 0},
+    {file = "Audio/Transport/full_subzone_tidus-stair-8c5182c1c50b2668bcf9/1-0000.mp3", duration = 45.2963265, start = 0},
   },
 }
 P.transport["subzone:tiragarde-keep"] = {

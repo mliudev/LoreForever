@@ -1,0 +1,95 @@
+{
+ "key": "quest:3505",
+ "type": "quest",
+ "name": "Betrayed",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3505
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A survivor of Belgrom\u2019s camp tells you how Rimtori\u2019s promise of riches ended in slaughter. You are sent to the blood elf camp in Azshara and asked to seek the source of her power.",
+ "sections": [
+  {
+   "title": "A Camp in Ruins",
+   "body": "Belgrom sent the camp to guard Rimtori, a mage who promised riches and powerful items in Azshara. Now the warriors who followed that promise are dead, and their survivor blames her for leading them into slaughter. The blood elves are camped along the southern bluffs of the northern peninsula. You are asked to kill those you find there and seek the source of Rimtori\u2019s power.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Marked Page",
+   "body": "A thin strip of black silk marks a page in the tome you find. Its diagram resembles the crystals and circle before you. As you decipher more of the script, you learn that separate seals control the energy of each crystal. The seals may offer a way to disrupt Rimtori\u2019s plans.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Rimtori?",
+   "aliases": [
+    "rimtori",
+    "who's rimtori",
+    "rimtori mage"
+   ],
+   "answer": "Rimtori is a mage who persuaded Belgrom to send warriors to protect her in Azshara. The camp\u2019s survivor says she led them to their deaths."
+  },
+  {
+   "q": "What happened to Belgrom\u2019s camp?",
+   "aliases": [
+    "belgrom camp",
+    "why are they dead",
+    "camp slaughter"
+   ],
+   "answer": "The warriors in Belgrom\u2019s camp were slain after he sent them to protect Rimtori."
+  },
+  {
+   "q": "Why did Belgrom send the warriors?",
+   "aliases": [
+    "belgrom why",
+    "protect rimtori",
+    "why azshara"
+   ],
+   "answer": "Rimtori claimed Azshara held great riches and powerful items, and Belgrom sent the warriors to protect her."
+  },
+  {
+   "q": "Where are the blood elves?",
+   "aliases": [
+    "blood elves location",
+    "blood elf camp",
+    "where are they"
+   ],
+   "answer": "The blood elves are camped along the southern bluffs on Azshara\u2019s northern peninsula."
+  },
+  {
+   "q": "What does the survivor ask me to do?",
+   "aliases": [
+    "betrayed quest",
+    "what do i do",
+    "survivor asks"
+   ],
+   "answer": "The survivor asks you to kill the blood elves you find and seek the source of Rimtori\u2019s power."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "belgrom",
+  "betrayed",
+  "blood elf reclaimers",
+  "blood elf surveyors",
+  "blood elves",
+  "crystals",
+  "rimtori",
+  "seals",
+  "tome"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Betrayed"
+ ]
+}

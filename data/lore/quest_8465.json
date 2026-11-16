@@ -1,0 +1,65 @@
+{
+ "key": "quest:8465",
+ "type": "quest",
+ "name": "Speak to Salfa",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8465
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Salfa keeps watch outside Timbermaw Hold. You are asked to pass through the hold and speak with him in Winterspring.",
+ "sections": [
+  {
+   "title": "At the Hold",
+   "body": "Outside Timbermaw Hold, Salfa waits on guard. You are asked to travel through the hold, emerge into Winterspring, and speak with him there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Salfa?",
+   "aliases": [
+    "salfa who",
+    "who's salfa"
+   ],
+   "answer": "Salfa stands guard outside the entrance to Timbermaw Hold."
+  },
+  {
+   "q": "Where can I find Salfa?",
+   "aliases": [
+    "salfa location",
+    "where salfa"
+   ],
+   "answer": "Salfa stands guard outside the entrance to Timbermaw Hold, in Winterspring."
+  },
+  {
+   "q": "What does Salfa want me to do?",
+   "aliases": [
+    "speak to salfa task",
+    "salfa what do"
+   ],
+   "answer": "You are asked to travel through Timbermaw Hold, exit into Winterspring, and speak with Salfa."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "entrance",
+  "guard",
+  "salfa",
+  "speak",
+  "timbermaw hold",
+  "winterspring"
+ ],
+ "related": [
+  "subzone:timbermaw-hold",
+  "zone:winterspring"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Speak to Salfa"
+ ]
+}

@@ -204,6 +204,19 @@
       "live": true
     },
     {
+      "key": "male-quest-stories-0",
+      "name": "Lore Forever - Male Narrator: Quest Stories 1-10",
+      "about": "the story behind hundreds of quests from level 1 to 10, and of the quests no one knows the level of (male narrator)",
+      "from": "LoreForever_Voice_Default_MoreQuests0.zip",
+      "folders": ["LoreForever_Voice_Default_MoreQuests0"],
+      "file": "Lore Forever quest stories 1-10 (male narrator) {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1809240,
+      "slug": "lore-forever-male-narrator-quest-stories-1-10",
+      "live": false
+    },
+    {
       "key": "male-quest-stories-1",
       "name": "Lore Forever - Male Narrator: Quest Stories 1-19",
       "about": "the story behind hundreds of quests from level 1 to 19 (male narrator)",
@@ -211,7 +224,7 @@
       "folders": ["LoreForever_Voice_Default_MoreQuests1"],
       "file": "Lore Forever quest stories 1-19 (male narrator) {v}",
       "core": "optional",
-      "requires": [],
+      "requires": ["male-quest-stories-0"],
       "id": 1767788,
       "slug": "lore-forever-quest-stories-1-19-male-narrator",
       "live": false
@@ -224,7 +237,7 @@
       "folders": ["LoreForever_Voice_Default_MoreQuests2"],
       "file": "Lore Forever quest stories 20-39 (male narrator) {v}",
       "core": "optional",
-      "requires": [],
+      "requires": ["male-quest-stories-0", "male-quest-stories-1", "male-quest-stories-3"],
       "id": 1767790,
       "slug": "lore-forever-quest-stories-20-39-male-narrator",
       "live": false
@@ -234,13 +247,27 @@
       "name": "Lore Forever - Male Narrator: Item and Quest Stories 40+",
       "about": "the story behind hundreds of quest items, letters, relics and books, and of the quests from level 40 up (male narrator)",
       "from": ["LoreForever_Voice_Default_MoreQuests3.zip", "LoreForever_Voice_Default_MoreItems.zip"],
-      "folders": ["LoreForever_Voice_Default_MoreQuests3", "LoreForever_Voice_Default_MoreItems"],
+      "folders": ["LoreForever_Voice_Default_MoreQuests3"],
+      "handover": {"male-item-stories": ["LoreForever_Voice_Default_MoreItems"]},
       "file": "Lore Forever item stories and quest stories 40+ (male narrator) {v}",
       "core": "optional",
       "requires": [],
       "id": 1767855,
       "slug": "lore-forever-item-stories-and-quest-stories-40",
       "live": false, "paused": true
+    },
+    {
+      "key": "male-item-stories",
+      "name": "Lore Forever - Male Narrator: Item Stories",
+      "about": "the story behind hundreds of quest items, letters and relics (male narrator)",
+      "from": "LoreForever_Voice_Default_MoreItems.zip",
+      "folders": ["LoreForever_Voice_Default_MoreItems"],
+      "file": "Lore Forever item stories (male narrator) {v}",
+      "core": "optional",
+      "requires": [],
+      "id": 1809086,
+      "slug": "lore-forever-male-narrator-item-stories",
+      "live": false
     },
     {
       "key": "female-more-places",
@@ -269,6 +296,19 @@
       "live": true
     },
     {
+      "key": "female-quest-stories-0",
+      "name": "Lore Forever - Female Narrator: Quest Stories 1-10",
+      "about": "the story behind hundreds of quests from level 1 to 10, and of the quests no one knows the level of (female narrator)",
+      "from": "LoreForever_Voice_Female_MoreQuests0.zip",
+      "folders": ["LoreForever_Voice_Female_MoreQuests0"],
+      "file": "Lore Forever quest stories 1-10 (female narrator) {v}",
+      "core": "optional",
+      "requires": ["female-narrator"],
+      "id": 1809242,
+      "slug": "lore-forever-female-narrator-quest-stories-1-10",
+      "live": false
+    },
+    {
       "key": "female-quest-stories-1",
       "name": "Lore Forever - Female Narrator: Quest Stories 1-19",
       "about": "the story behind hundreds of quests from level 1 to 19 (female narrator)",
@@ -276,7 +316,7 @@
       "folders": ["LoreForever_Voice_Female_MoreQuests1"],
       "file": "Lore Forever quest stories 1-19 (female narrator) {v}",
       "core": "optional",
-      "requires": ["female-narrator"],
+      "requires": ["female-narrator", "female-quest-stories-0"],
       "id": 1767789,
       "slug": "lore-forever-quest-stories-1-19-female-narrator",
       "live": false
@@ -289,7 +329,7 @@
       "folders": ["LoreForever_Voice_Female_MoreQuests2"],
       "file": "Lore Forever quest stories 20-39 (female narrator) {v}",
       "core": "optional",
-      "requires": ["female-narrator"],
+      "requires": ["female-narrator", "female-quest-stories-0", "female-quest-stories-1", "female-quest-stories-3"],
       "id": 1767791,
       "slug": "lore-forever-quest-stories-20-39-female-narrator",
       "live": false
@@ -299,13 +339,27 @@
       "name": "Lore Forever - Female Narrator: Item and Quest Stories 40+",
       "about": "the story behind hundreds of quest items, letters, relics and books, and of the quests from level 40 up (female narrator)",
       "from": ["LoreForever_Voice_Female_MoreQuests3.zip", "LoreForever_Voice_Female_MoreItems.zip"],
-      "folders": ["LoreForever_Voice_Female_MoreQuests3", "LoreForever_Voice_Female_MoreItems"],
+      "folders": ["LoreForever_Voice_Female_MoreQuests3"],
+      "handover": {"female-item-stories": ["LoreForever_Voice_Female_MoreItems"]},
       "file": "Lore Forever item stories and quest stories 40+ (female narrator) {v}",
       "core": "optional",
       "requires": ["female-narrator"],
       "id": 1767942,
       "slug": "lore-forever-female-narrator-item-and-quest",
       "live": false, "paused": true
+    },
+    {
+      "key": "female-item-stories",
+      "name": "Lore Forever - Female Narrator: Item Stories",
+      "about": "the story behind hundreds of quest items, letters and relics (female narrator)",
+      "from": "LoreForever_Voice_Female_MoreItems.zip",
+      "folders": ["LoreForever_Voice_Female_MoreItems"],
+      "file": "Lore Forever item stories (female narrator) {v}",
+      "core": "optional",
+      "requires": ["female-narrator"],
+      "id": 1809088,
+      "slug": "lore-forever-female-narrator-item-stories",
+      "live": false
     },
     {
       "key": "original-narrator",
@@ -1115,8 +1169,8 @@
       "folders": ["LoreForever_Complete_Male"],
       "file": "Lore Forever male narrator, complete {v}",
       "core": "optional",
-      "requires": ["male-more-places", "male-more-people", "male-quest-stories-1", "male-quest-stories-2",
-                   "male-quest-stories-3"],
+      "requires": ["male-more-places", "male-more-people", "male-quest-stories-0", "male-quest-stories-1", "male-quest-stories-2",
+                   "male-quest-stories-3", "male-item-stories"],
       "id": 1767949,
       "slug": "lore-forever-male-narrator-complete",
       "live": false
@@ -1130,7 +1184,8 @@
       "file": "Lore Forever female narrator, complete {v}",
       "core": "optional",
       "requires": ["female-narrator", "female-alliance", "female-horde", "female-more-places", "female-more-people",
-                   "female-quest-stories-1", "female-quest-stories-2", "female-quest-stories-3"],
+                   "female-quest-stories-0", "female-quest-stories-1", "female-quest-stories-2", "female-quest-stories-3",
+                   "female-item-stories"],
       "id": 1767957,
       "slug": "lore-forever-female-narrator-complete",
       "live": false

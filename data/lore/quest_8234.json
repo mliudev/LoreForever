@@ -1,0 +1,73 @@
+{
+ "key": "quest:8234",
+ "type": "quest",
+ "name": "Sealed Azure Bag",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8234
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "In Azshara, you are asked to retrieve a sealed bag from a Timbermaw Shaman and take it to Archmage Xylem. The request links the shaman and the mage through the bag.",
+ "sections": [
+  {
+   "title": "A Sealed Bag",
+   "body": "A Timbermaw Shaman in Azshara has the Sealed Azure Bag, and Archmage Xylem is waiting for it in the same land. You are asked to carry the bag from one to the other.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has the Sealed Azure Bag?",
+   "aliases": [
+    "who has the bag",
+    "timbermaw bag"
+   ],
+   "answer": "A Timbermaw Shaman in Azshara has the Sealed Azure Bag."
+  },
+  {
+   "q": "Who wants the bag?",
+   "aliases": [
+    "who gets the bag",
+    "where take bag"
+   ],
+   "answer": "Archmage Xylem in Azshara is to receive the Sealed Azure Bag."
+  },
+  {
+   "q": "Where do I find the bag?",
+   "aliases": [
+    "bag location",
+    "where is sealed azure bag"
+   ],
+   "answer": "The Sealed Azure Bag is with a Timbermaw Shaman in Azshara."
+  },
+  {
+   "q": "Where is Archmage Xylem?",
+   "aliases": [
+    "xylem location",
+    "where is xylem"
+   ],
+   "answer": "Archmage Xylem is in Azshara."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "archmage xylem",
+  "azshara",
+  "bag",
+  "sealed azure bag",
+  "timbermaw shaman"
+ ],
+ "related": [
+  "zone:azshara",
+  "npc:archmage-xylem",
+  "topic:shaman"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Sealed Azure Bag"
+ ]
+}

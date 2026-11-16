@@ -273,7 +273,7 @@ function Companion.ShowGetWillo(question, via)
   if question and question ~= "" then
     willo.text:SetText(string.format(L["%s, Lore Forever's free companion app, can answer \"%s\" for you, out loud, knowing where you are in the game."], name, question))
   else
-    willo.text:SetText(string.format(L["%s is Lore Forever's free companion app for Windows: a little wisp beside your game that answers anything you ask about WoW: Forever, out loud, knowing where you are."], name))
+    willo.text:SetText(string.format(L["%s is Lore Forever's free companion app: a little wisp beside your game who answers anything about WoW: Forever, out loud."], name))
   end
   -- Title bar, the two paragraphs, the link and the note under it.
   willo:SetHeight(100 + (tonumber(willo.text:GetStringHeight()) or 30) + (tonumber(willo.hint:GetStringHeight()) or 24))

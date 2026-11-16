@@ -1,0 +1,66 @@
+{
+ "key": "quest:3451",
+ "type": "quest",
+ "name": "Signal for Pickup",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3451
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Xiggs Fuselighter in Ironforge has a Standard Issue Flare Gun for you. Speak with him to get it.",
+ "sections": [
+  {
+   "title": "A Signal in Ironforge",
+   "body": "In Ironforge, Xiggs Fuselighter is the one to speak with. He has a Standard Issue Flare Gun for you, and the next step depends on getting it from him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has the flare gun?",
+   "aliases": [
+    "xiggs flare gun",
+    "who is Xiggs",
+    "flare gun ironforge"
+   ],
+   "answer": "Xiggs Fuselighter in Ironforge has the Standard Issue Flare Gun."
+  },
+  {
+   "q": "What do I need to get from Xiggs?",
+   "aliases": [
+    "what do I pick up",
+    "standard flare gun",
+    "signal pickup"
+   ],
+   "answer": "You need to get a Standard Issue Flare Gun from Xiggs Fuselighter."
+  },
+  {
+   "q": "Where is Xiggs Fuselighter?",
+   "aliases": [
+    "where is Xiggs",
+    "Xiggs location",
+    "find Xiggs"
+   ],
+   "answer": "Xiggs Fuselighter is in Ironforge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "flare gun",
+  "ironforge",
+  "signal for pickup",
+  "standard issue flare gun",
+  "xiggs fuselighter"
+ ],
+ "related": [
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Signal for Pickup"
+ ]
+}

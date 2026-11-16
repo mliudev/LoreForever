@@ -955,7 +955,7 @@ function Capture.Share(line)
   f.what:SetText(what(line.kind) .. (line.label and (": " .. line.label) or "")
     .. " - " .. preview:sub(1, 80))
   f.hint:SetText(whole
-    and L["Press Ctrl+C to copy this link, then paste it into your browser and press Send there. It carries the text, which quest, NPC or book it's from, and your character's race, class and gender, never your character's name."]
+    and L["Press Ctrl+C to copy this link, then paste it into your browser and press Send. It never has your character's name."]
     or L["This text is too long for a link. It's kept in your LoreForever.lua: type /reload, then share the file at this address."])
   f:Show()
   f.fill()   -- again once shown: the Forever client drops text set on a box that isn't visible yet (see Options)

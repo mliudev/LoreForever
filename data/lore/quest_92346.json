@@ -1,0 +1,102 @@
+{
+ "key": "quest:92346",
+ "type": "quest",
+ "name": "Beneath Nordrassil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92346
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jediga sends you to tell Nara Wildmane about a burrow northeast of her. She suspects it leads beneath the world tree and wants Nara to hear of it.",
+ "sections": [
+  {
+   "title": "Word for Nara",
+   "body": "Nara Wildmane is waiting at Elder Rise in Thunder Bluff. Jediga sends you with news of a burrow northeast of her, where furbolg and satyr are fighting. She suspects the burrow runs beneath the world tree, and asks you to tell Nara what you saw.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent me to Nara Wildmane?",
+   "aliases": [
+    "who sent me",
+    "jediga nara",
+    "who is jediga"
+   ],
+   "answer": "Jediga sent you to speak with Nara Wildmane."
+  },
+  {
+   "q": "Where do I find Nara Wildmane?",
+   "aliases": [
+    "where is nara",
+    "nara location",
+    "elder rise nara"
+   ],
+   "answer": "Nara Wildmane is at Elder Rise in Thunder Bluff."
+  },
+  {
+   "q": "Why does Jediga want Nara to hear about the burrow?",
+   "aliases": [
+    "why tell nara",
+    "burrow tip",
+    "what does jediga want"
+   ],
+   "answer": "Jediga thinks the burrow may lead beneath the world tree and believes Nara may appreciate the information."
+  },
+  {
+   "q": "Who is fighting over the burrow?",
+   "aliases": [
+    "furbolg satyr fight",
+    "who is fighting",
+    "burrow fight"
+   ],
+   "answer": "Furbolg and satyr are fighting over the burrow northeast of Jediga."
+  },
+  {
+   "q": "What is inside the burrow?",
+   "aliases": [
+    "what's in the burrow",
+    "beneath the tree",
+    "burrow contents"
+   ],
+   "answer": "Jediga does not know what is inside; she suspects the burrow leads beneath the world tree."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you bring Nara Wildmane a report about a burrow that may lead beneath the world tree."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, you carry Jediga's tip to Nara Wildmane, a tauren druid in Thunder Bluff."
+  }
+ ],
+ "keywords": [
+  "beneath nordrassil",
+  "burrow",
+  "furbolg",
+  "jediga",
+  "nara wildmane",
+  "satyr",
+  "thunder bluff",
+  "world tree"
+ ],
+ "related": [
+  "quest:1490",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "topic:druid",
+  "topic:satyr",
+  "topic:furbolg",
+  "topic:tauren"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Beneath Nordrassil"
+ ]
+}

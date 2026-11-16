@@ -1160,14 +1160,44 @@ local MODIFIER = { LSHIFT = true, RSHIFT = true, LCTRL = true, RCTRL = true, LAL
 local WILLO_KEYS = { BUTTON3 = true, BUTTON4 = true, BUTTON5 = true, ["`"] = true, CAPSLOCK = true, SCROLLLOCK = true,
   PAUSE = true, INSERT = true, HOME = true, PAGEUP = true, PAGEDOWN = true }
 for n = 5, 24 do WILLO_KEYS["F" .. n] = true end
--- /lore key willo stays on single keys: a combination is set in Willo's own key row (LOR-1505; Mike, 11/14), and an
--- older Willo doesn't hear a combination the add-on saved (the Architect's #4113 review).
+-- /lore key willo stays on single keys, because an older Willo doesn't hear a combination the add-on saved (the
+-- Architect's #4113 review). A combination her Settings take is never refused here: the prompt sends it to Willo's own
+-- key row, which takes Ctrl, Alt and Shift in any mix (LOR-1505; Mike, 11/14: "Never design a 'Willo can't use Ctrl+T'
+-- refusal again"); one they'd refuse too (Shift+T, Ctrl+C, Alt+Tab) gets the line it always had.
 -- The mouse buttons the prompt takes for Willo's key (the side buttons and the middle one), as the game names them.
 local MOUSE_KEYS = { MiddleButton = "BUTTON3", Button4 = "BUTTON4", Button5 = "BUTTON5" }
+-- The main keys Willo's Settings take in a combination (ptt.py WOW_MAIN), as the game names them; those that type into
+-- a chat box (ptt.TYPING) need Ctrl or Alt with them.
+local TYPES = { SPACE = true, ENTER = true, TAB = true, BACKSPACE = true, ["`"] = true }
+for c in ("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-=[]\\;',./"):gmatch(".") do TYPES[c] = true end
+for n = 0, 9 do TYPES["NUMPAD" .. n] = true end
+local MAINS = { UP = true, DOWN = true, LEFT = true, RIGHT = true, DELETE = true, END = true, F1 = true, F2 = true,
+  F3 = true, F4 = true }
+for k in pairs(TYPES) do MAINS[k] = true end
+for k in pairs(WILLO_KEYS) do MAINS[k] = true end
+local MAC_UNHEARD = { SCROLLLOCK = true, PAUSE = true, INSERT = true, F21 = true, F22 = true, F23 = true, F24 = true }
+local MAC_CTRL = { UP = true, DOWN = true, LEFT = true, RIGHT = true, SPACE = true }
+
+-- Whether Willo's Settings would take this combination (ptt.py refusal), so the prompt sends only those there: never a
+-- key that types with only Shift, the PC's own (Alt+Tab, Alt+F4, Alt+Space, Alt+Enter, Ctrl+Alt+Delete) or copy and
+-- paste (Ctrl with A, C, V, X, Z or Y, no Alt); on a Mac never F11, Ctrl with an arrow or Space, or a key it can't hear.
+local function settingsTake(combo, key)
+  if combo == key or not MAINS[key] then return false end
+  local mods = combo:sub(1, #combo - #key)
+  local alt, ctrl, shift = mods:find("ALT-", 1, true), mods:find("CTRL-", 1, true), mods:find("SHIFT-", 1, true)
+  if TYPES[key] and not (alt or ctrl) then return false end
+  if IsMacClient and IsMacClient() then
+    return not (key == "F11" or MAC_UNHEARD[key] or (ctrl and MAC_CTRL[key]))
+  end
+  if alt and not ctrl and not shift and (key == "TAB" or key == "F4" or key == "SPACE" or key == "ENTER") then return false end
+  if alt and ctrl and not shift and key == "DELETE" then return false end
+  return not (ctrl and not alt and #key == 1 and ("ACVXZY"):find(key, 1, true))
+end
 
 -- The bindable actions: open the panel, play the narration for what you hover or where you are, the playlist, a journey
 -- picture, Willo's sky, and the key you hold to talk to Willo (Ask Willo, Strip.Ask; /lore key willo when Willo's own
--- talk key does something else in the game, LOR-528: only a key she can hear, `takes`). Options' Keys section sets them
+-- talk key does something else in the game, LOR-528: a single key she can hear, `takes`; a combination goes to her
+-- Settings, `refused`). Options' Keys section sets them
 -- (LOR-1158). Their texts are looked up when shown, after the language pack has loaded.
 local ACTIONS = {
   toggle = {
@@ -1230,11 +1260,18 @@ local ACTIONS = {
   willo = {
     binding = "LOREFOREVER_ASKWILLO",
     ask = function()
-      return string.format(L["Pick the key you hold to talk to %s: an F key (F5 and up) or a mouse side button."],
-        ns.COMPANION_NAME)
+      return string.format(L["Press the key you'll hold to talk to %s: F5 and up, or a mouse side button. Combinations like Ctrl+T are set in %s's Settings."],
+        ns.COMPANION_NAME, ns.COMPANION_NAME)
     end,
+    press = function() return string.format(L["%sPress an F key (F5 and up) or a mouse side button|r."], GOLD) end,
     takes = function(combo) return WILLO_KEYS[combo] == true end,
-    refused = function()
+    -- combo, key: what was pressed, with and without Shift, Ctrl or Alt.
+    refused = function(combo, key)
+      if settingsTake(combo, key) then   -- a combination her Settings take: hers to set there
+        local shown = GetBindingText and GetBindingText(combo) or ""
+        return string.format(L["To talk on %s, set it in %s's Settings > Talking. Here, press an F key (F5 and up) or a mouse side button."],
+          GOLD .. (shown ~= "" and shown or combo) .. "|r", ns.COMPANION_NAME)
+      end
       return string.format(L["%s can't hear that key from outside the game. Pick an F key (F5 and up) or a mouse side button."],
         ns.COMPANION_NAME)
     end,
@@ -1269,7 +1306,7 @@ local function bind(combo, which)
   if panel and panel.updateKeys then panel.updateKeys() end
   -- Gamepad players can't click chat links: point them at the narration key once the panel key is set (LOR-89).
   if which == "toggle" and not Hooks.CurrentKey("narrate") then
-    say(L["Tip: a second key can play the narration for where you are or what you hover, handy on a controller. Set it with /lore key narrate."])
+    say(L["Tip: a second key can play the narration for where you are. Set it with /lore key narrate."])
   end
   return true
 end
@@ -1299,6 +1336,12 @@ function Hooks.KeyPrompt(which)
   text:SetPoint("TOPRIGHT", -18, -18)
   text:SetJustifyH("LEFT")
   f.text = text
+  -- The box grows to fit its words (Willo's key says where a combination goes, and other languages run longer).
+  local function show(words)
+    text:SetText(words)
+    local tall = text.GetStringHeight and text:GetStringHeight() or 0
+    if f.SetHeight then f:SetHeight(math.max(118, tall + 70)) end
+  end
   local function button(label, least)
     local b = T.Button(f, label)
     b:SetSize(math.max(least, (T.TextWidth(b:GetFontString()) or 0) + 24), 22)
@@ -1315,21 +1358,22 @@ function Hooks.KeyPrompt(which)
     if f.EnableKeyboard then f:EnableKeyboard(false) end
     choose:Show()
     local cur = Hooks.CurrentKey(f.which)
-    text:SetText(GOLD .. "Lore Forever|r\n" .. ACTIONS[f.which].ask()
+    show(GOLD .. "Lore Forever|r\n" .. ACTIONS[f.which].ask()
       .. (cur and ("\n" .. string.format(L["Currently: %s"], GOLD .. cur .. "|r")) or ""))
   end
   f.idle = idle
   choose:SetScript("OnClick", function()
     if InCombatLockdown and InCombatLockdown() then
-      text:SetText(GOLD .. "Lore Forever|r\n" .. L["You're in combat - choose a key once the fight is over."])
+      show(GOLD .. "Lore Forever|r\n" .. L["You're in combat - choose a key once the fight is over."])
       return
     end
     f.capturing = true
     choose:Hide()
     if f.EnableKeyboard then f:EnableKeyboard(true) end
     if f.SetPropagateKeyboardInput then f:SetPropagateKeyboardInput(false) end
-    text:SetText(string.format(L["%sPress a key|r (with Shift/Ctrl/Alt if you like)."], GOLD) .. "\n"
-      .. L["Escape to cancel."])
+    local a = ACTIONS[f.which]
+    show((a.press and a.press() or string.format(L["%sPress a key|r (with Shift/Ctrl/Alt if you like)."], GOLD))
+      .. "\n" .. L["Escape to cancel."])
   end)
   later:SetScript("OnClick", function()
     S().onboarded = true
@@ -1343,14 +1387,14 @@ function Hooks.KeyPrompt(which)
     local a = ACTIONS[self.which]
     if a.takes and not a.takes(combo) then   -- not a key it can use: say why, and keep listening
       self.pending = nil
-      text:SetText(a.refused() .. "\n" .. L["Escape to cancel."])
+      show(a.refused(combo, key) .. "\n" .. L["Escape to cancel."])
       return
     end
     local action = GetBindingAction and GetBindingAction(combo) or ""
     if action ~= "" and action ~= ACTIONS[self.which].binding and self.pending ~= combo then
       self.pending = combo
       local what = _G["BINDING_NAME_" .. action] or action
-      text:SetText(string.format(L["%s is already used for %s."], GOLD .. combo .. "|r", esc(what)) .. "\n"
+      show(string.format(L["%s is already used for %s."], GOLD .. combo .. "|r", esc(what)) .. "\n"
         .. L["Press it again to use it anyway, or press a different key."])
       return
     end

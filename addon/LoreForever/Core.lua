@@ -668,25 +668,6 @@ function ns.MinimapButton()
   ns.SetButtonNew(ns.newPages)
 end
 
--- Names as players read them: the wiki's "(Classic)", "(kingdom)" and "(item)" come off every name the add-on shows
--- (Design Lead, 11/4: "Stormwind (kingdom)"). A suffix that tells two places apart (Library Wing (Northshire)) stays,
--- and so does a quest's own title ("Return to Quinn (Again)"). The old name still finds the entry.
-local WIKI_SUFFIX = { Classic = true, kingdom = true, item = true, ["quest item"] = true, subzone = true }
-local function plainNames(db)
-  local byName = db.index and db.index.name
-  for _, list in ipairs({ db.entries or {}, db.zones or {} }) do
-    for key, e in pairs(list) do
-      local base, tag
-      if type(e.n) == "string" then base, tag = e.n:match("^(.-)%s*%(([^()]+)%)$") end
-      if base and base ~= "" and WIKI_SUFFIX[tag] then
-        e.n = base
-        local low = ns.Engine.lower(base)
-        if byName and list == db.entries and not byName[low] then byName[low] = key end
-      end
-    end
-  end
-end
-
 -- The login lines in chat: how to open the panel, the language pack's notes, and the client's language once.
 local function welcome()
   local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
@@ -738,7 +719,6 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     -- Every login step runs on its own (ns.Guard, Errors.lua): one a patch broke is kept for /lore errors and the rest
     -- still run, so a broken Options page still leaves the panel, the minimap book and the update check.
     local Guard = ns.Guard
-    Guard(plainNames, ns.DB)
     local english = ns.DB.search   -- the index the add-on ships: search's while a language pack's own is built
     Guard(ns.Lang.Init)   -- scans packs; the language pack, if any, goes in before the engine indexes the text
     Guard(setBindingNames)
@@ -933,7 +913,8 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore <question> - ask directly, e.g. /lore why is westfall so poor"])
     say(L["/lore key - choose the key that opens the panel; /lore key narrate - a key that plays narration"])
     if ns.Companion.Installed() then
-      say(string.format(L["/lore key willo - the key you hold to talk to %s"], ns.COMPANION_NAME))
+      say(string.format(L["/lore key willo - an F key or mouse side button to talk to %s (a combination like Ctrl+T: %s's Settings)"],
+        ns.COMPANION_NAME, ns.COMPANION_NAME))
     end
     say(L["/lore found - your chronicle: every page you've found, by chapter (/lore library opens it too)"])
     say(L["/lore journey - what your character has done so far; /lore sync - save it now (reloads)"])
@@ -955,7 +936,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore primer - dungeon primer for where you are"])
     say(L["/lore listen - play the last narrated answer (or where you are); /lore narrate - narrate flights on/off"])
     say(L["/lore stop - stop narration (Play carries on); /lore next - skip to the next one; /lore clear - clear what's waiting (keeps what you added)"])
-    say(L["/lore autoplay - narrations as you arrive on/off"])
+    say(L["/lore autoplay - stories as you find them on/off"])
     say(L["/lore ondemand - narration only when you press Play on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: off)"])
     say(L["/lore report - tell us the last answer was wrong (or click the cross under any answer)"])
@@ -1024,18 +1005,20 @@ SlashCmdList.LOREFOREVER = function(msg)
     toggleSetting("narrateFlights", L["flight narration"])
   elseif cmd == "autoplay" then
     say(string.format(ns.Voice.ToggleAutoplay() and L["%s on"] or L["%s off"],
-      L["narrations as you arrive"]))
+      L["stories as you find them"]))
   elseif cmd == "ondemand" then
     say(ns.Voice.SetOnDemand(not ns.Voice.OnDemand()) and L["Narration plays only when you press Play."]
       or L["Narration plays by itself again, as your options say."])
   elseif cmd == "live" then
     ns.Strip.Choose(not ns.Strip.On())   -- (on from Willo's yes: this turns it off, and the add-on's choice wins)
     if ns.Options.panel and ns.Options.panel.updateWillo then ns.Options.panel.updateWillo() end
-    say(string.format(ns.Strip.On() and L["%s on"] or L["%s off"],
-      string.format(L["live game info for %s"], ns.COMPANION_NAME)))
-    if ns.Strip.On() then   -- a yes under its explanation, as the tick it replaces had (Willo takes it: core._adopt_live_game)
-      say(L["While you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only %s, on this PC, reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME, ns.COMPANION_NAME)
+    -- On: a yes under its explanation, as the tick it replaces had (Willo takes it: core._adopt_live_game), in one short
+    -- line (Mike, 11/15: asks simple and concise).
+    if ns.Strip.On() then
+      say(L["Live game info for %s is on: stars show by your minimap while you hold her talk key."]:format(ns.COMPANION_NAME)
         .. " " .. L["Type /lore live to turn it off."])
+    else
+      say(string.format(L["%s off"], string.format(L["live game info for %s"], ns.COMPANION_NAME)))
     end
   elseif cmd == "move" or cmd == "sky" or cmd == "sky move" or cmd == "subtitles" or cmd == "subtitles move" then
     ns.Move.Toggle()   -- one move mode for the subtitles, the notes and the sky; again (or Done) to finish (LOR-1367)

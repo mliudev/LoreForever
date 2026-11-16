@@ -1,0 +1,84 @@
+{
+ "key": "quest:94316",
+ "type": "quest",
+ "name": "Craftsman's Writ: Potion of Demonslaying",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94316
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks for a Potion of Demonslaying. It also gives information about delivery and payment.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The faded note requests one Potion of Demonslaying and provides information about where to deliver it and how payment is handled. You need the writ with you to complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what potion",
+    "writ request",
+    "demonslaying potion"
+   ],
+   "answer": "The writ requests one Potion of Demonslaying."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery place",
+    "where to take it",
+    "marked location"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "How does payment work?",
+   "aliases": [
+    "payment info",
+    "how much do I get",
+    "customer payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "transfer writ",
+    "is it transferable",
+    "pass it on"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ with me?",
+   "aliases": [
+    "need writ",
+    "must carry it",
+    "writ possession"
+   ],
+   "answer": "Yes. You must have the writ with you to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "potion",
+  "potion of demonslaying",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Potion of Demonslaying"
+ ]
+}

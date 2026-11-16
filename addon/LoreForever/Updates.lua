@@ -122,16 +122,27 @@ local function say(msg)
 end
 
 -- How to update, in a line: Willo does it when she can.
--- maybe: no newer version is known for sure, so it says how to look.
-local function how(maybe)
+-- maybe: no newer version is known for sure, so it says how to look. again: this one is too old to keep working.
+local function how(maybe, again)
   local w = willo()
   if w and w.keeps and not maybe then
     return string.format(L["%s installs it for you the next time you close the game."], ns.COMPANION_NAME)
   end
   if maybe then
-    return L["If the CurseForge app shows an update for Lore Forever, take it. If you installed it yourself, get the newest from loreforeverwow.com (Setup.exe updates it in place)."]
+    return L["Update Lore Forever in the CurseForge app, or get the newest from loreforeverwow.com."]
   end
-  return L["In the CurseForge app, click Update on Lore Forever. If you installed it yourself, download it again from loreforeverwow.com (Setup.exe updates it in place)."]
+  return again and L["Update Lore Forever in the CurseForge app, or download it again from loreforeverwow.com."]
+    or L["Update Lore Forever in the CurseForge app, or download it from loreforeverwow.com."]
+end
+
+-- The too-old line. A pack with only the older wording (which also named the oldest version that works) keeps its own
+-- words until it's translated again (Lang.REWORDED can't: the two take different values).
+local TOO_OLD = "this version (%s) is too old to keep working. %s"
+local TOO_OLD_WAS = "this version (%s) is too old to keep working. Please update it to %s or newer. %s"
+local function tooOld()
+  local was = not rawget(L, TOO_OLD) and rawget(L, TOO_OLD_WAS)
+  if was then return was:format(ns.Log.Version(), U.TooOld(), how(false, true)) end
+  return string.format(L["this version (%s) is too old to keep working. %s"], ns.Log.Version(), how(false, true))
 end
 
 -- The chat line, once, then QUIET_DAYS of nothing. Never in combat: it waits for the fight to end.
@@ -146,8 +157,7 @@ function U.MaybeTell()
   waiting = false
   if kind == "required" then
     state().toldOld = time()
-    say(string.format(L["this version (%s) is too old to keep working. Please update it to %s or newer. %s"],
-      ns.Log.Version(), U.TooOld(), how()))
+    say(tooOld())
     return true
   end
   state().told = time()
@@ -155,7 +165,7 @@ function U.MaybeTell()
   if kind == "newer" then
     say(string.format(L["a new version is out: %s (you have %s). %s"], newest, ns.Log.Version(), how()))
   else
-    say(string.format(L["your version (%s) came out %d days ago, and new versions come out most days, with fixes. %s"],
+    say(string.format(L["your version (%s) is %d days old. %s"],
       ns.Log.Version(), ageDays(), how(true)))
   end
   return true

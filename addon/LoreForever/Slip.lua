@@ -69,8 +69,10 @@ local function create()
       return ns.Book.PageMenu(self, key, "slip", {
         { L["Don't show these notes"], function() Slip.TurnOff() end } })
     end
+    -- Shift-click only adds: the story joins by itself 3 s after the find (every note, Mike 11/12) while the note stays
+    -- up 6 s, so a toggle here took out, or stopped, the story it meant to add. Already in: nothing to do.
     if IsShiftKeyDown and IsShiftKeyDown() then
-      if ns.UI.CanQueue(key) then ns.UI.DoQueueAction(key) end
+      if ns.UI.CanQueue(key) and ns.UI.QueueAction(key) == "add" then ns.UI.DoQueueAction(key) end
       return
     end
     Slip.Hide()

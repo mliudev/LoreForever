@@ -3,16 +3,18 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "1.11.0",
-  released = "2026-11-15",
+  version = "1.12.0",
+  released = "2026-11-16",
   items = {
-    { "", "Corrected lore in 16 entries.", "" },
-    { "Willo knows what's changed in your bags", "with Live game info on and Willo up to date, each time you talk to her she hears what you've looted, used or swapped since logging in, and how long until your Hearthstone is ready. After a big haul she catches up over a few questions.", "Willo knows what's changed in your bags:" },
-    { "", "A page Willo looked up on a site that won't show inside her window (wowpedia, behind its own check) now opens straight in your browser from her \"Looked up\" card, with no wait.", "" },
-    { "", "Willo's character list shows each character's ruleset (\"Normal ruleset\") instead of a server code, and so do your downloaded notes.", "" },
-    { "", "Willo knows your brand-new character's race and class when you ask with the mic in her window, before the game has saved it.", "" },
-    { "", "With both narrators' quest dialogue installed, a quest no longer switches narrator partway through when one of them is missing a page: the narrator who has the whole quest reads all of it, at the quest window and from the quest log.", "" },
-    { "Talking to characters is steadier", "the one you target when you press the key is the one who answers, a dead character no longer answers you, and characters remember you even after Willo learns their name.", "Talking to characters is steadier:" },
-    { "", "Pages Willo looked up: Back to chat returns to where you were reading, and a page that can't load says so instead of staying on \"Opening…\".", "" },
+    { "", "In a busy run of quests, the story of every new place you pass now plays in its turn, not just the last one.", "" },
+    { "", "Stratholme, Scholomance, Ragefire Chasm, the Stockade, Feathermoon Stronghold, Razorfen Downs and the Alterac Mountains each have one story in the Book now, instead of two that read the same.", "" },
+    { "", "Willo no longer misses the end of a quest line, a cleared dungeon or a turn-in when narration is playing: she speaks up once it ends.", "" },
+    { "", "Shift-clicking a new-page note no longer takes its story back out of your playlist, or stops it, once the story has joined by itself.", "" },
+    { "", "Ask Willo for a talk key like Ctrl+Alt+T and she sets it, and the game's own key prompt now points you to her Settings for a combination instead of saying she can't hear it.", "" },
+    { "", "A town's story now carries on after every quest giver you talk to, instead of giving up after the fourth.", "" },
+    { "Remind me next visit", "a reminder for a place now has a Remind me next visit button instead of Snooze 1 hour, and a repeating reminder has just Stop repeating, over the game and in Willo's chat.", "Remind me next visit:" },
+    { "", "With Live game info off, Willo tells which of your characters you're on from her look at your game, and says so when she can't tell, instead of repeating an older save's class and level.", "" },
+    { "Willo learns from players", "once several players' correction is checked against our records, she answers with it plainly; until then she passes it on only as something she's heard.", "Willo learns from players:" },
+    { "", "Willo no longer says her window \"couldn't open again\" when Windows shuts down or restarts, and when her window does stop, she keeps trying to bring it back, and tries again each time you open her.", "" },
   },
 }

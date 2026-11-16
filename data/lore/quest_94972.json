@@ -1,0 +1,64 @@
+{
+ "key": "quest:94972",
+ "type": "quest",
+ "name": "Tome of Twilight",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94972
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Krol'dok Stronghold, you are asked to recover the Tome of Twilight. Its contents may aid the fight against the cultists.",
+ "sections": [
+  {
+   "title": "A Hidden Record",
+   "body": "The stronghold\u2019s secrets may hold useful knowledge about the cultists. You are asked to search Krol'dok Stronghold and recover the Tome of Twilight, so its information can be brought back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "tome of twilight",
+    "what tome",
+    "which book"
+   ],
+   "answer": "You are asked to recover the Tome of Twilight from Krol'dok Stronghold."
+  },
+  {
+   "q": "Why does the tome matter?",
+   "aliases": [
+    "why get tome",
+    "what's it for",
+    "cultist info"
+   ],
+   "answer": "The tome may contain information useful in the fight against the cultists."
+  },
+  {
+   "q": "Where is the Tome of Twilight?",
+   "aliases": [
+    "where tome",
+    "kroldok tome",
+    "stronghold book"
+   ],
+   "answer": "The Tome of Twilight is to be recovered from Krol'dok Stronghold."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cultists",
+  "information",
+  "krol'dok stronghold",
+  "secrets",
+  "tome of twilight"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tome of Twilight"
+ ]
+}

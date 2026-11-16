@@ -1,0 +1,79 @@
+{
+ "key": "quest:96779",
+ "type": "quest",
+ "name": "Syndicate Sabotage",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96779
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Myrokos Silentform sends you to Durnholde Keep to kill Lord Tomas. He expects Tomas's death to unsettle the Syndicate there.",
+ "sections": [
+  {
+   "title": "At Durnholde",
+   "body": "At Durnholde Keep in Hillsbrad Foothills, Lord Tomas is the target Myrokos Silentform names. You are asked to kill him, then return to Myrokos.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Keep's Order",
+   "body": "Myrokos expects Tomas's death to leave the Syndicate thugs at Durnholde Keep without a leader and in disarray. He thanks you and may call on you again.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Myrokos Silentform?",
+   "aliases": [
+    "who's myrokos",
+    "myrokos guy"
+   ],
+   "answer": "Myrokos Silentform asks you to find and kill Lord Tomas at Durnholde Keep, then return to him."
+  },
+  {
+   "q": "Who is Lord Tomas?",
+   "aliases": [
+    "tomas who",
+    "lord tomas"
+   ],
+   "answer": "Lord Tomas is the target Myrokos names at Durnholde Keep."
+  },
+  {
+   "q": "Why does Myrokos want Tomas dead?",
+   "aliases": [
+    "why kill tomas",
+    "syndicate sabotage why"
+   ],
+   "answer": "Myrokos expects the Syndicate thugs at Durnholde Keep to fall into disarray without Tomas as their leader."
+  },
+  {
+   "q": "Where is Lord Tomas?",
+   "aliases": [
+    "tomas location",
+    "where's tomas"
+   ],
+   "answer": "Lord Tomas is inside Durnholde Keep in Hillsbrad Foothills."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "durnholde keep",
+  "hillsbrad foothills",
+  "lord tomas",
+  "myrokos silentform",
+  "syndicate",
+  "syndicate sabotage"
+ ],
+ "related": [
+  "subzone:durnholde-keep",
+  "zone:hillsbrad",
+  "topic:syndicate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Syndicate Sabotage"
+ ]
+}

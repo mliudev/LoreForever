@@ -9,7 +9,7 @@
 #   LoreForever_Voice_<Default|Female>_Quests.zip         optional English quest dialogue, downloaded deliberately
 #   LoreForever_Voice_<Default|Female>_MorePlaces.zip / _MorePeople.zip  more subzone and people stories (complete
 #                                                         stories only), once registered
-#   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests1.zip / _MoreQuests2.zip / _MoreQuests3.zip  item stories and quest
+#   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests0.zip ... _MoreQuests3.zip  item stories and quest
 #                                                         stories (levels 1-19, 20+), the same way
 #   LoreForever_Voice_<Default|Female>_Quests2.zip / _Quests3.zip  the rest of the game's quest dialogue (levels up to
 #                                                         50, 51-60: the quests without a lore entry), once recorded
@@ -27,7 +27,7 @@
 # dist/packs/manifest.tsv lists file, CurseForge display name and version, for the release workflow's additional
 # files. --versioned names the zips <name>-<version>.zip instead (to keep a copy, or upload one by hand).
 # --sizes builds nothing: after the same checks, one line per folder of each zip it would build, "size<TAB>zip<TAB>
-# folder<TAB>bytes" (that folder's share of the zip: its recordings stored, the rest deflated as here, plus zip
+# folder<TAB>bytes" (that folder's share of the zip: its files deflated as here, plus zip
 # headers), and "skipped<TAB>zip<TAB>why" for a bundle over GitHub's limit (scripts/release_sizes.py, LOR-443).
 # --pack NAME (repeatable) limits it to the zips made only of those packs, and hydrates only those from the asset
 # store: `--sizes --pack <a store pack>` works in a pointers worktree (new-worktree.sh --pointers), where no other
@@ -68,7 +68,7 @@ root = Path(sys.argv[1])
 sys.path.insert(0, str(root / "scripts"))
 from transport_assets import TransportError, pause_split_report, validate as validate_transport
 from load_order import LoadError, addon_files
-from pack_zip import AUDIO, write_zip, zip_files   # what a zip holds and its bytes: the zip cache keys on that file
+from pack_zip import AUDIO, deflated, level, write_zip, zip_files   # what a zip holds and its bytes: the zip cache keys on that file
 import build_jobs   # sized by free memory too, so builds started together can't take it all (scripts/build_jobs.py)
 SPLIT_WORKER_MB = 400
 # LORE_PACKS_OUT (an absolute folder) puts the zips elsewhere: the release rehearsal's go beside its zip cache, on
@@ -170,22 +170,17 @@ def to_cache(key, path):
 
 def zip_bytes(folder, src, paths):
     """What these files add to a zip as written below: each entry's local and central headers (30 and 46 bytes plus
-    its name, twice), its recording stored or its text deflated at level 9. The pieces of a pause split hold the same
-    frames as the recording, so the unsplit folder stands in for them."""
-    total = 0
-    for p in paths:
-        if not p.is_file():
-            continue
-        name = len(f"{folder}/{p.relative_to(src).as_posix()}".encode())
-        if p.suffix.lower() in AUDIO:
-            size = p.stat().st_size
-        else:
-            if p not in DEFLATED:
-                c = zlib.compressobj(9, zlib.DEFLATED, -15)
-                DEFLATED[p] = len(c.compress(p.read_bytes()) + c.flush())
-            size = DEFLATED[p]
-        total += 76 + 2 * name + size
-    return total
+    its name, twice) and its deflated bytes (pack_zip: recordings at level 6, the rest at 9). The pieces of a pause
+    split hold the same frames as the recording, so the unsplit folder stands in for them (within a few KB: each
+    piece is deflated on its own). Deflated side by side: zlib lets go of the GIL while it works."""
+    files = [p for p in paths if p.is_file()]
+    todo = [p for p in files if p not in DEFLATED]
+    if todo:
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(min(8, os.cpu_count() or 1)) as pool:
+            for p, size in zip(todo, pool.map(lambda p: deflated(p.read_bytes(), level(p)), todo)):
+                DEFLATED[p] = size
+    return sum(76 + 2 * len(f"{folder}/{p.relative_to(src).as_posix()}".encode()) + DEFLATED[p] for p in files)
 # zip name -> (folders in it, display name with {v} for the version)
 DOWNLOADS = {
     "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue, levels 1-25 {v}"),
@@ -217,6 +212,8 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_MorePeople": (["LoreForever_Voice_Female_MorePeople"], "Female narrator: more people {v}"),
     # Item stories and quest stories (levels 1-19, 20-39, 40+), the same way.
     "LoreForever_Voice_Default_MoreItems": (["LoreForever_Voice_Default_MoreItems"], "Male narrator: item stories {v}"),
+    "LoreForever_Voice_Default_MoreQuests0": (["LoreForever_Voice_Default_MoreQuests0"],
+                                              "Male narrator: quest stories, levels 1-10 {v}"),
     "LoreForever_Voice_Default_MoreQuests1": (["LoreForever_Voice_Default_MoreQuests1"],
                                               "Male narrator: quest stories, levels 1-19 {v}"),
     "LoreForever_Voice_Default_MoreQuests2": (["LoreForever_Voice_Default_MoreQuests2"],
@@ -224,6 +221,8 @@ DOWNLOADS = {
     "LoreForever_Voice_Default_MoreQuests3": (["LoreForever_Voice_Default_MoreQuests3"],
                                               "Male narrator: quest stories, levels 40+ {v}"),
     "LoreForever_Voice_Female_MoreItems": (["LoreForever_Voice_Female_MoreItems"], "Female narrator: item stories {v}"),
+    "LoreForever_Voice_Female_MoreQuests0": (["LoreForever_Voice_Female_MoreQuests0"],
+                                              "Female narrator: quest stories, levels 1-10 {v}"),
     "LoreForever_Voice_Female_MoreQuests1": (["LoreForever_Voice_Female_MoreQuests1"],
                                              "Female narrator: quest stories, levels 1-19 {v}"),
     "LoreForever_Voice_Female_MoreQuests2": (["LoreForever_Voice_Female_MoreQuests2"],

@@ -3,9 +3,9 @@
     "quest:1001": {
       "1": [
         {
-          "duration": 57.312653061224495,
-          "file": "Audio/Transport/full_quest_1001-8b7c86629df5082a671e/1-0000.mp3",
-          "sha256": "4c88e4b3e33dc24fa0e3e49ec5c54f26e985e8593326004abf4b3d8f4f2f04bb",
+          "duration": 66.32489795918367,
+          "file": "Audio/Transport/full_quest_1001-fcb5eb0b76758a62e9bf/1-0000.mp3",
+          "sha256": "3d719036a26c1ad2666d39d433c4812bff7068b44b82918e5e35a44c9640e483",
           "start": 0
         }
       ],
@@ -17,21 +17,21 @@
         ]
       },
       "fullHash": "7f8d04",
-      "generation": "7f8bcfdfc220ca26619d",
+      "generation": "6b90b4e8083c6bba1042",
       "hash": "7f8d04",
       "source": {
-        "duration": 57.338776,
+        "duration": 66.35102,
         "file": null,
-        "sha256": "8b7c86629df5082a671e20aa2a5ff88acd622775a7bba508878ee5508498399e"
+        "sha256": "fcb5eb0b76758a62e9bf3cf9f767c276a0082dba9d07d32eb2e9ffc4810e0e53"
       },
       "text": "Buzzbox 411. Along Darkshore, Buzzbox 411 waits for thresher eyes to bring it back into service. Wizbang Cranktoggle, an eccentric and intoxicated gnome inventor, reaches it through a mechanical relay network. After you repair Buzzbox 827 farther south, Wizbang Cranktoggle's voice crackles through the transmitter again. Hidden from sight, the gnome inventor directs you north along Darkshore's beach to the damaged Buzzbox 411. His words break with hiccups and praise for crawler wine. He says local aquatic predators carry what his coastal apparatus needs to work. Thresher eyes must go into Buzzbox 411's hatch to restore the machine. Darkshore threshers prowl the shallows off Auberdine, and Wizbang says their eyes can recalibrate the device. Feed the eyes to the apparatus, and it jolts back to life. Then the line opens for another assignment, delivered in an even slurrier voice."
     },
     "quest:1002": {
       "1": [
         {
-          "duration": 51.25224489795919,
-          "file": "Audio/Transport/full_quest_1002-9a74aad0d88b4c0a792d/1-0000.mp3",
-          "sha256": "e93aa0f64b4acc4643591aac6503fcb4b43c4d61a593c38d18b122288fa8f9aa",
+          "duration": 55.928163265306125,
+          "file": "Audio/Transport/full_quest_1002-e7a1f4a24bc505729b5e/1-0000.mp3",
+          "sha256": "6827e011e6973cf730876cac27e8068a50a98283cba1e5b90437ee64cdbfe172",
           "start": 0
         }
       ],
@@ -43,21 +43,21 @@
         ]
       },
       "fullHash": "69923c",
-      "generation": "438404457ed7e898528e",
+      "generation": "5c9791b20f9e2e5969ca",
       "hash": "69923c",
       "source": {
-        "duration": 51.278367,
+        "duration": 55.954286,
         "file": null,
-        "sha256": "9a74aad0d88b4c0a792d1dc4dd6fb4e9f22dd0fe37e5b8069d9b79613ca63760"
+        "sha256": "e7a1f4a24bc505729b5e7b16b40b4dc8272cc4efe5ab74d23bdb84683f6ba96b"
       },
       "text": "Buzzbox 323. Wizbang Cranktoggle’s fieldwork now reaches the third Buzzbox along Darkshore’s coast. You gather six Moonstalker fangs and feed them to the machine north of Auberdine. After you operate Buzzbox 411 farther south, Wizbang Cranktoggle’s voice crackles through the speaker. Drink has muddled his directions, but he points you north of Auberdine, to Buzzbox 323 near a road bridge. His research calls for six Moonstalker fangs from the fierce hunters roaming Darkshore’s forests. Before you begin, Buzzbox 323 chatters with static and faint muttering. Place the requested fangs in its intake hopper, and the machine rattles as it grinds the teeth to dust. Then Wizbang’s boozy voice returns through the transceiver, pleased with your delivery. He points you toward the next machine in his scattered network."
     },
     "quest:1003": {
       "1": [
         {
-          "duration": 37.66857142857143,
-          "file": "Audio/Transport/full_quest_1003-87c0852272ee7f97ce23/1-0000.mp3",
-          "sha256": "b741f68ea70f3a481b9748402d2b62849d7fe91823d0ce4b09679676ff01588a",
+          "duration": 46.55020408163266,
+          "file": "Audio/Transport/full_quest_1003-3e677a0560fd11eb5765/1-0000.mp3",
+          "sha256": "0a5e3ec66ffb485feb46a5c643e0814d7389c056c35b1adf81a49b12afbc703b",
           "start": 0
         }
       ],
@@ -69,12 +69,12 @@
         ]
       },
       "fullHash": "138a80",
-      "generation": "1b9a01ef5cd680053249",
+      "generation": "147e620a680d9eeef630",
       "hash": "138a80",
       "source": {
-        "duration": 37.694694,
+        "duration": 46.576327,
         "file": null,
-        "sha256": "87c0852272ee7f97ce23bef332768fe564238e3fd993e337a3a515e238fb4a33"
+        "sha256": "3e677a0560fd11eb5765629b6356728c30f864b34b63d31295b975327af15360"
       },
       "text": "Buzzbox 525. Along Darkshore's coast, Wizbang Cranktoggle's scattered machines await the last of his strange requests. Buzzbox 525 calls for animal remnants and stranger materials. Once Buzzbox 323 is serviced, its rattling speakers carry Wizbang Cranktoggle's garbled instructions. His words slur through drunken chuckles and rambling directions. He sends his helpers far south along Darkshore's main road. There, he asks them to hunt grizzled thistle bears and place four thick scalps in Buzzbox 525's compartment. The machine is concealed behind a fence in the brush beside the road."
     },
@@ -1381,9 +1381,9 @@
     "quest:146": {
       "1": [
         {
-          "duration": 39.60163265306122,
-          "file": "Audio/Transport/full_quest_146-fd42edacd9513d1e2957/1-0000.mp3",
-          "sha256": "66cc9deb5e2d42314079ba422bd48e6d2c3beada71be26a329fcc930484429a6",
+          "duration": 49.2930612244898,
+          "file": "Audio/Transport/full_quest_146-bfd3ea096c679fb63815/1-0000.mp3",
+          "sha256": "fc436329a4797be874c02c506d2ce70cfe1704d4222ddbeba1e76307eb41df74",
           "start": 0
         }
       ],
@@ -1395,12 +1395,12 @@
         ]
       },
       "fullHash": "37a9f2",
-      "generation": "abcf9e186448d7b398f5",
+      "generation": "e0875fa22f2197910c3b",
       "hash": "37a9f2",
       "source": {
-        "duration": 39.627755,
+        "duration": 49.319184,
         "file": null,
-        "sha256": "fd42edacd9513d1e29570feba1d06a5d2d5fa6b63b1cc1c5ba61780e752528f7"
+        "sha256": "bfd3ea096c679fb63815a7070cbf80169de37a9a42a9caaaed238d391e2f1e20"
       },
       "text": "Messenger to Darkshire. In Darkshire, Lord Ello Ebonlocke answers a plea for help from Lakeshire. Blackrock orcs and gnolls press against the town, but the plea cannot be granted. Magistrate Solomon of Redridge asks his old peer in Duskwood for troops. Blackrock orcs and gnolls are closing in on his town. Lord Ello Ebonlocke answers in anger. Darkshire struggles against the living dead, ravenous beasts, and cursed magic on every side. Ebonlocke says the Night Watch exists because Stormwind abandoned Duskwood. Without its defenders, Darkshire would fall before a patrol could cross the forest."
     },
@@ -2135,9 +2135,9 @@
     "quest:1524": {
       "1": [
         {
-          "duration": 60.52571428571429,
-          "file": "Audio/Transport/full_quest_1524-c4147d6b4c173a68a4ae/1-0000.mp3",
-          "sha256": "f11649c026623269e0cfd47eb8665a7099b6defe3486efe395ceb18aa945bdd8",
+          "duration": 75.75510204081633,
+          "file": "Audio/Transport/full_quest_1524-e51d61e4881e38c8eb73/1-0000.mp3",
+          "sha256": "9cab32386ea72fc41b6eb50634527174804e2fb73badea3a76602d27778db2b7",
           "start": 0
         }
       ],
@@ -2149,12 +2149,12 @@
         ]
       },
       "fullHash": "ce0de5",
-      "generation": "815fff98bc65859c7214",
+      "generation": "90f6af17e07b551baae7",
       "hash": "ce0de5",
       "source": {
-        "duration": 60.551837,
+        "duration": 75.781224,
         "file": null,
-        "sha256": "c4147d6b4c173a68a4ae0c47b31233922a6f3ad71b4c02e8a3414e61b59fa991"
+        "sha256": "e51d61e4881e38c8eb73392bc7bafe9d9b5af3062c1c1c30a36bf39572549b80"
       },
       "text": "Call of Fire. In the Barrens, Kranal Fiss sends an aspiring shaman toward the next trial for communion with fire. The initiate crosses the Southfury River to a secluded mountaintop shrine in Durotar, carrying an unlit Torch of the Dormant Flame. Kranal Fiss entrusts you with the Torch of the Dormant Flame. Raw mystical strength cannot meet fire’s demands; the trial calls for temperance, focus, and respect. The torch is both a ritual instrument and proof to the shrine’s keeper that you are judged ready to attempt the trial. The shrine lies across the Southfury River, among Durotar’s southern crags. A weathered stone carved with a fire rune marks an obscure path climbing toward one of the region’s highest peaks. At the summit, Telf Joolam, a troll hermit, watches over the Shrine of the Dormant Flame. He turns away curious travelers and treasure hunters, keeping the sacred brazier from ordinary eyes until a petitioner arrives with the unlit torch."
     },
@@ -2317,9 +2317,9 @@
     "quest:1580": {
       "1": [
         {
-          "duration": 51.46122448979592,
-          "file": "Audio/Transport/full_quest_1580-1531f923fc68f7055200/1-0000.mp3",
-          "sha256": "e6d3cd7933c03eed32ef77af4bade7f71ea16c9b9af654392d55f622cdbb7e1f",
+          "duration": 65.98530612244897,
+          "file": "Audio/Transport/full_quest_1580-e4f7680a499a6856518c/1-0000.mp3",
+          "sha256": "45540fb5cf1d8f928bbbe1ff221b592dab340835d8529c8c9cc30a5488e103fa",
           "start": 0
         }
       ],
@@ -2331,12 +2331,12 @@
         ]
       },
       "fullHash": "0dd6e7",
-      "generation": "bb7d110b36b71e470686",
+      "generation": "9e68871e63e3c092bc76",
       "hash": "0dd6e7",
       "source": {
-        "duration": 51.487347,
+        "duration": 66.011429,
         "file": null,
-        "sha256": "1531f923fc68f70552009cbaa4d4ce32bf1c2906e78417dcad90cf8ebd58901d"
+        "sha256": "e4f7680a499a6856518c50aefad9d4a2d0fa55d05477d82653d19514a9ee9df1"
       },
       "text": "Electropellers. In Darkshore, Wizbang Cranktoggle wants his lost electropellers back. A mishap with an explosive duck decoy scattered the prototype parts in freshwater streams. Wizbang Cranktoggle went inland one evening to find a place to test his latest invention. The gnome tinkerer, based in Auberdine, had built a self-propelled duck decoy that explodes. He drank too much and blacked out. Hours later, he woke in town with singed hair and an empty pack; his bag of electropellers had fallen into one of the coastal rivers. Wizbang asks local fishermen to dredge Darkshore's freshwater streams, for he will not brave the wilds himself. Anglers on the Wildbend River and Cliffspring River can snag the buoyant metal parts along with local fish. Once the components are back, Wizbang can resume his erratic waterfowl experiments."
     },
@@ -4033,9 +4033,9 @@
     "quest:214": {
       "1": [
         {
-          "duration": 54.413061224489795,
-          "file": "Audio/Transport/full_quest_214-3709b08406f4b7efbf06/1-0000.mp3",
-          "sha256": "6276d176729f52713bbe29dc7731fc3ff2c7a71f2caccd56408d3c73bfd07d4b",
+          "duration": 71.88897959183674,
+          "file": "Audio/Transport/full_quest_214-1bb11c69e7ba49a73ffc/1-0000.mp3",
+          "sha256": "9bd35aba18f52947b474e8743580bcf29e2bac269fa214be2aacb5ed3151bfba",
           "start": 0
         }
       ],
@@ -4047,12 +4047,12 @@
         ]
       },
       "fullHash": "cfbc4d",
-      "generation": "346b863752f9e001e915",
+      "generation": "b125af439f4931a590e9",
       "hash": "cfbc4d",
       "source": {
-        "duration": 54.439184,
+        "duration": 71.915102,
         "file": null,
-        "sha256": "3709b08406f4b7efbf06c478c3a09aacdd3c961c444d7440bdaba6d4bb279e14"
+        "sha256": "1bb11c69e7ba49a73ffce60673a309658d71417b39284323e842da30b294d10d"
       },
       "text": "Red Silk Bandanas. In the Deadmines, Scout Riell sends the People's Militia after Red Silk Bandanas. Their fine weave marks the Defias leaders directing the uprising in Westfall. Scout Riell and the People's Militia have learned that cloth marks rank in the Defias Brotherhood. Across Westfall, common cutpurses and highwaymen tie coarse red cloth over their faces. Senior conspirators and inner-circle operatives wear fine red silk. Recovering their bandanas strikes at the experienced officers coordinating Edwin VanCleef's uprising. The senior outlaws gather deep in the Deadmines beneath Moonbrook. Sentinels and scouts outside Sentinel Hill depend on freelance champions to enter the contested tunnels. Each silk bandana recovered means one fewer lieutenant organizing ambushes, guarding weapon caches, or enforcing VanCleef's rule across Westfall."
     },
@@ -4605,9 +4605,9 @@
     "quest:2381": {
       "1": [
         {
-          "duration": 36.23183673469388,
-          "file": "Audio/Transport/full_quest_2381-c36011e2e264ef165791/1-0000.mp3",
-          "sha256": "d98b473873a0c5910f990962ed44f99cba62803238ae2975f1c32e8c22f466fa",
+          "duration": 47.46448979591837,
+          "file": "Audio/Transport/full_quest_2381-a72aeacbeead99d129db/1-0000.mp3",
+          "sha256": "1d0374a3dafc6fdeba213e31a94ce2333ee3592d583617e085a3c0cdd6296a2a",
           "start": 0
         }
       ],
@@ -4619,12 +4619,12 @@
         ]
       },
       "fullHash": "985889",
-      "generation": "4d2329b5f519d55b6ac9",
+      "generation": "0ed8870e12b0379a7335",
       "hash": "985889",
       "source": {
-        "duration": 36.231837,
+        "duration": 47.490612,
         "file": null,
-        "sha256": "c36011e2e264ef165791f19844eacd37e6e4104a4beda6b23008cd21de2971ee"
+        "sha256": "a72aeacbeead99d129db5fddb459e87b8111bc2e5eb74eb1ba00f97191c9f9ca"
       },
       "text": "Plundering the Plunderers. Near Ratchet, Wrenix the Wretched sends new Shattered Hand rogues against the Southsea Freebooters. Aboard the Tide Razor, they face pirates, locked strongboxes, and a dangerous guardian before claiming the Southsea Treasure. Wrenix the Wretched tests aspiring Shattered Hand operatives in Ratchet. He sends rogues south along the Barrens coast to a cove where the Tide Razor lies at anchor. Southsea Freebooters crew the ship. Rogues must board unseen and enter the pirates’ den, where cutpurses train. Then they pick the strongboxes in the hold and bring back the plunder."
     },
@@ -8375,9 +8375,9 @@
     "quest:3922": {
       "1": [
         {
-          "duration": 28.055510204081635,
-          "file": "Audio/Transport/full_quest_3922-19e49d23f8e876b52d30/1-0000.mp3",
-          "sha256": "275d698290fd7565b9d2a09dddd5d87ff9f2c4ad12d99a3756cbfdc98920d99e",
+          "duration": 35.97061224489796,
+          "file": "Audio/Transport/full_quest_3922-004afe2d5e7b8279641c/1-0000.mp3",
+          "sha256": "1dd73c1f8142f41d7b4761f871d5c342e4d17140777209212b580eca3a5d6b22",
           "start": 0
         }
       ],
@@ -8389,12 +8389,12 @@
         ]
       },
       "fullHash": "80afb3",
-      "generation": "b804a400799128455cf7",
+      "generation": "a67db56618d8c5ee0b1a",
       "hash": "80afb3",
       "source": {
-        "duration": 28.081633,
+        "duration": 35.996735,
         "file": null,
-        "sha256": "19e49d23f8e876b52d30afe7334a137066ca83d3897b807a4d96e224a30fad60"
+        "sha256": "004afe2d5e7b8279641c608815e8a23c311619fcb64c4b7dc1a81030dd5ff14c"
       },
       "text": "Nugget Slugs. At the Sludge Fen, Wenikee Boltbucket seeks parts for a samophlange she has recovered. She sends you to the nearby Venture Company crews for spare hardware. Wenikee Boltbucket has recovered a samophlange and wants to learn how its intricate workings fit together. The goblin machine needs exact parts, so she sends you to the Venture Company crews at the Sludge Fen. Their heavy tool buckets hold the seventeen-point-five gauge nugget slugs she needs."
     },
@@ -10221,9 +10221,9 @@
     "quest:4727": {
       "1": [
         {
-          "duration": 52.66285714285714,
-          "file": "Audio/Transport/full_quest_4727-d466fcd29a023ab030e9/1-0000.mp3",
-          "sha256": "1a311c7212eff58d17100532460e0eb75833c1c62d9265fbb53af6605761d12e",
+          "duration": 68.8065306122449,
+          "file": "Audio/Transport/full_quest_4727-9d753619808bb0e9d68e/1-0000.mp3",
+          "sha256": "1d96ce37d1c3689ca7ea5be6077f6fbb7397971b53fd641c00f430df59523d16",
           "start": 0
         }
       ],
@@ -10235,12 +10235,12 @@
         ]
       },
       "fullHash": "86edc5",
-      "generation": "233d7ab5fb8e6b19c9b1",
+      "generation": "19778eb7957f345d5a08",
       "hash": "86edc5",
       "source": {
-        "duration": 52.68898,
+        "duration": 68.806531,
         "file": null,
-        "sha256": "d466fcd29a023ab030e979b5072d48e6a45e927d8a06c34b289f50abd61eae7a"
+        "sha256": "9d753619808bb0e9d68e23094c6cdb64b05b431c1acdfdf28587d0e48493616c"
       },
       "text": "Beached Sea Turtle. Along Darkshore’s northern shore, a Beached Sea Turtle lies untouched by nearby Greymist murlocs. A sample goes to Gwennyth Bly'Leggonde in Auberdine for the Temple of the Moon. Naturalists and priestesses seek to learn why great sea creatures wash ashore and scavengers leave them alone. Greymist murlocs crowd Darkshore’s northern coast and scavenge food washed up from the Veiled Sea. Yet the great turtle’s bones lie mostly untouched. Those who study the shore wonder whether the murlocs missed it or avoid it for some unknown reason. In Auberdine, Gwennyth Bly'Leggonde gathers samples from beached sea turtles for the Temple of the Moon. The night elf priestesses study disturbances in Darkshore’s waters. Skeletal fragments may help them learn whether sickness, magic, or dangerous sea predators are killing the ancient creatures."
     },
@@ -10663,9 +10663,9 @@
     "quest:4812": {
       "1": [
         {
-          "duration": 32.41795918367347,
-          "file": "Audio/Transport/full_quest_4812-f1d5d6514b8673c6af21/1-0000.mp3",
-          "sha256": "1ba74de87ad188f481f2b7c08146a61de6b8e07c0600d09376bf3e287a696414",
+          "duration": 38.582857142857144,
+          "file": "Audio/Transport/full_quest_4812-f2b0c1a62c44c6081485/1-0000.mp3",
+          "sha256": "06f2c68183d1ec18d6441f302597c33afd2e31645c2e4e0880ac5516e921c167",
           "start": 0
         }
       ],
@@ -10677,12 +10677,12 @@
         ]
       },
       "fullHash": "aeff8f",
-      "generation": "e0852cdb32f8615cc08d",
+      "generation": "94e273228b147cc3320e",
       "hash": "aeff8f",
       "source": {
-        "duration": 32.444082,
+        "duration": 38.582857,
         "file": null,
-        "sha256": "f1d5d6514b8673c6af21cab992463ff15a88602905aee9f7dec43eb2c54fd43f"
+        "sha256": "f2b0c1a62c44c6081485de7569f0a963cabd8a9120553c351ddfd8ba267f59ae"
       },
       "text": "As Water Cascades. At Auberdine, Sentinel Glynda Nal'Shea hopes moonwell water will reveal what lies beneath Darkshore's red crystal. Sacred water may pierce its opaque surface. Sentinel Glynda Nal'Shea seeks a safe way to study the red crystal high on Darkshore's eastern cliffs. Moonwell water bears divine, restorative magic, blessed by the night elves' devotion to Elune. Glynda believes water from Auberdine's moonwell may react with the strange stone and pierce its opaque shell without destroying it."
     },
@@ -10923,9 +10923,9 @@
     "quest:5041": {
       "1": [
         {
-          "duration": 46.26285714285714,
-          "file": "Audio/Transport/full_quest_5041-65c1920b060363555ff6/1-0000.mp3",
-          "sha256": "0699ea314b9c3a6573cfce44aef6b033c5983f67ce6a11c22db0eb19f943a030",
+          "duration": 60.13387755102041,
+          "file": "Audio/Transport/full_quest_5041-16aa74adc9ece9f3abd0/1-0000.mp3",
+          "sha256": "1d1d45fb96c1f3a028f8849d15480158adb55f12f69e14876ae9304b05133f6a",
           "start": 0
         }
       ],
@@ -10937,12 +10937,12 @@
         ]
       },
       "fullHash": "f9f40f",
-      "generation": "787b82c17a5c328c0e9d",
+      "generation": "6cbb1b0028ce00e8e5ee",
       "hash": "f9f40f",
       "source": {
-        "duration": 46.262857,
+        "duration": 60.16,
         "file": null,
-        "sha256": "65c1920b060363555ff678e04ed6125513ae5086bad6992210df1f0449579222"
+        "sha256": "16aa74adc9ece9f3abd07ff69ae4e0e69a5eb0baa13a7d034fbcaecaa1c41e07"
       },
       "text": "Supplies for the Crossroads. Thork needs supplies back at the Crossroads after Razormane quilboar raids. The stolen crates carry provisions the outpost needs as conflict spreads across the Barrens. Thork needs provisions returned to the Crossroads after a supply caravan is ambushed. The outpost links Horde travel, trade, and defense across the Barrens. Its cargo comes from Durotar and Mulgore. Without those goods, shortages of provisions, tools, and arms threaten daily life in the harsh wilderness. Razormane quilboar have taken the crates. These swine-beasts contest Horde control across central Kalimdor. They hauled the cargo to their thorn-bush camps and keep it there. Thork sends trusted warriors into Razormane territory to recover supplies for the Horde."
     },
@@ -11833,9 +11833,9 @@
     "quest:5713": {
       "1": [
         {
-          "duration": 44.95673469387755,
-          "file": "Audio/Transport/full_quest_5713-31587a6a1512ad1cdb07/1-0000.mp3",
-          "sha256": "908c019bb8599ea31dc14e63c6f5b42be21ad671c1b7567054016ae710a09221",
+          "duration": 60.78693877551021,
+          "file": "Audio/Transport/full_quest_5713-9eef9cf9fce1f918ebc2/1-0000.mp3",
+          "sha256": "10ca7ddbe8b803906320368a3bddcc84211df5f54ea3770193337679ad46cf12",
           "start": 0
         }
       ],
@@ -11847,12 +11847,12 @@
         ]
       },
       "fullHash": "44229e",
-      "generation": "427ab20aa3ac474c7a7c",
+      "generation": "504e9aba495f41127575",
       "hash": "44229e",
       "source": {
-        "duration": 44.982857,
+        "duration": 60.813061,
         "file": null,
-        "sha256": "31587a6a1512ad1cdb07c6d18bb9539cf9f316eb77ac32408b6b81f933072417"
+        "sha256": "9eef9cf9fce1f918ebc2647d499cf90958506a87e7fb91d771f1ba982850799b"
       },
       "text": "One Shot. One Kill.. On the road to Auberdine, Sentinel Aynasha is ambushed and cannot carry her message onward. Poisoned by Marosh the Devious and his furbolg trackers, she must mix an antidote before she can travel. Sentinel Aynasha carries important communications toward Auberdine when hostile furbolgs intercept her on a trail in northern Kalimdor. Marosh the Devious leads them. Their venom leaves the scout unsteady and unable to continue on foot. Aynasha knows how to make natural remedies, but the antidote takes time to mix and take effect. Marosh's trackers are closing in, so she needs travelers to guard her as she works. Though her strength is failing, she keeps her bow steady and fires into the brush to hold the attackers back."
     },
@@ -14069,9 +14069,9 @@
     "quest:6462": {
       "1": [
         {
-          "duration": 60.23836734693878,
-          "file": "Audio/Transport/full_quest_6462-f4e5373794d265f504c8/1-0000.mp3",
-          "sha256": "31bb708e743721143cd8ee01aa9dd9f636475f480026455397924269badf3f42",
+          "duration": 68.36244897959183,
+          "file": "Audio/Transport/full_quest_6462-cbd4f349cd10a3936f7d/1-0000.mp3",
+          "sha256": "c92154e315979b45f0beabd175da0eec95173310e2b10fdbd0986cbc47a86ecf",
           "start": 0
         }
       ],
@@ -14083,12 +14083,12 @@
         ]
       },
       "fullHash": "33be41",
-      "generation": "a952e68dceb667d59504",
+      "generation": "d020d1c1c664b0397489",
       "hash": "33be41",
       "source": {
-        "duration": 60.26449,
+        "duration": 68.362449,
         "file": null,
-        "sha256": "f4e5373794d265f504c818a624d42c8927ceccf2034d73f53924298e3be590f9"
+        "sha256": "cbd4f349cd10a3936f7d7a13f2677e2ccbc7c036c4322ddce0051c04e191b5c8"
       },
       "text": "Troll Charm. At Zoram'gar Outpost, Mitsuwa mourns kin slain on the road and seeks their stolen sacred charms. The Thistlefur furbolgs took the talismans into their den. You are at Zoram'gar Outpost, a remote Horde refuge on Ashenvale's western coast. Woodland paths make the way dangerous. A party of Darkspear trolls never arrived after the Thistlefur furbolgs ambushed them. Mitsuwa accepts that his kin have died and will meet him in the afterlife. Yet the furbolgs stole their sacred charms, and he cannot abide the insult. Troll charms and talismans mark identity, give spiritual protection, and bind their bearers to the Loa. Mitsuwa sees a troll without her charm as hollow and worthless, like an orc without battle scars. The Thistlefur furbolgs carried the stolen charms to Thistlefur Hold, deep in the caves beyond Thistlefur Village. There they hid the talismans in chests, far from their rightful owners."
     },
@@ -16695,9 +16695,9 @@
     "quest:840": {
       "1": [
         {
-          "duration": 55.51020408163266,
-          "file": "Audio/Transport/full_quest_840-a576f8cf2f83111e51fa/1-0000.mp3",
-          "sha256": "81f5af1a8fe203524bd65e0968567b7077fcf5cf805c9ad846a6ed9f428b3595",
+          "duration": 70.55673469387756,
+          "file": "Audio/Transport/full_quest_840-5c39d85121e9727c287b/1-0000.mp3",
+          "sha256": "32240e97a71dc03c7b0951c09ef08aa6ad152035bdfa75966049d4e47dd0f658",
           "start": 0
         }
       ],
@@ -16709,12 +16709,12 @@
         ]
       },
       "fullHash": "c3360e",
-      "generation": "243a29ca3b058037ec39",
+      "generation": "68b5349683977565675a",
       "hash": "c3360e",
       "source": {
-        "duration": 55.536327,
+        "duration": 70.582857,
         "file": null,
-        "sha256": "a576f8cf2f83111e51fae234135ff5ed5ec8932c70d5bf0e2aacf476552acc7f"
+        "sha256": "5c39d85121e9727c287b44477b343d645061fc7ff3c6b283aef65e72bcd1011b"
       },
       "text": "Conscript of the Horde. Along Durotar’s western road, recruits head toward the Barrens under the name Conscript of the Horde. Takrin Pathseeker watches beyond Razor Hill and gives them a letter for Kargal Battlescar, whose outpost guards the crossing. You have proved your strength around Razor Hill, and now you are called west to serve the wider Horde. Takrin Pathseeker watches the road out of Durotar for his friend, veteran Kargal Battlescar. He gives capable travelers a recruitment letter to carry across the Southfury River. For a recruit, it marks a first formal assignment beyond the orcs’ new homeland. Kargal Battlescar holds the outpost beyond the bridge, between Durotar’s red canyons and the dry Barrens. He gathers recruits to guard the frontier, where centaur, quilboar, and Alliance expeditions test the border. Yet the Horde needs more than guards there. Raw manpower is also bound for the settlement of the Crossroads."
     },
@@ -18385,9 +18385,9 @@
     "quest:903": {
       "1": [
         {
-          "duration": 43.10204081632653,
-          "file": "Audio/Transport/full_quest_903-3c8fd96e1c96b013e321/1-0000.mp3",
-          "sha256": "b064f9c1774e9a468f2e94e3a48095234e50384705740466b130db56535400a3",
+          "duration": 51.98367346938776,
+          "file": "Audio/Transport/full_quest_903-d10e464add06d114b99f/1-0000.mp3",
+          "sha256": "8e7e7862b99a42c2e30698c99aafd4d992137cbdd8a8599c596fee7dff699b7e",
           "start": 0
         }
       ],
@@ -18399,21 +18399,21 @@
         ]
       },
       "fullHash": "5d80c0",
-      "generation": "562c2cc93200e3d45917",
+      "generation": "24f8b9b17e43585450c0",
       "hash": "5d80c0",
       "source": {
-        "duration": 43.128163,
+        "duration": 52.009796,
         "file": null,
-        "sha256": "3c8fd96e1c96b013e3210754d39ec40e4f5286f24d2ff811ca44ae7826fc5994"
+        "sha256": "d10e464add06d114b99f173c5fc8c74674254c320e133a3fcc8d9a238451c9c7"
       },
       "text": "Prowlers of the Barrens. At the Crossroads, Sergra Darkthorn sends you to hunt prowlers of the Barrens. Their claws will show whether you can face the land’s greatest beasts. Hunters who have faced plainstriders and zhevras now face Sergra Darkthorn’s test. Southwest of the Crossroads, savannah prowlers vanish into the scrub of the central Barrens. Unlike the herds, these great cats hunt. They wait in tall grass and ambush their prey, so unwary travelers can fall to them. Sergra warns you that prowlers know how to hunt. Read the grasses and strike before a cat leaps. Bring Sergra seven prowler claws to prove you have the cunning and quick reflexes to survive Kalimdor’s deadliest wildlife."
     },
     "quest:905": {
       "1": [
         {
-          "duration": 70.76571428571428,
-          "file": "Audio/Transport/full_quest_905-55fd5d39d339b98a2285/1-0000.mp3",
-          "sha256": "d5a42cd95bc752c9d1f8a577812c61ebb3511bad3c1026bd6429581bb25967aa",
+          "duration": 79.93469387755103,
+          "file": "Audio/Transport/full_quest_905-204b2b1ef23f81ed09f6/1-0000.mp3",
+          "sha256": "a2d806077f38d8d7d847553a00304c54cdb50f3b152b144c15189c8c6f5a4932",
           "start": 0
         }
       ],
@@ -18425,21 +18425,21 @@
         ]
       },
       "fullHash": "38dfa4",
-      "generation": "a1c88f137fc17bb141d9",
+      "generation": "b4110251fec3ceb48aee",
       "hash": "38dfa4",
       "source": {
-        "duration": 70.791837,
+        "duration": 79.960816,
         "file": null,
-        "sha256": "55fd5d39d339b98a22855493eca216b37c1c9221f6be814ec5217420886b6bdd"
+        "sha256": "204b2b1ef23f81ed09f648c7bf291cc1ec61e3893463e8ab4c3a4d041d9c37f1"
       },
       "text": "The Angry Scytheclaws. South of the Crossroads, Sergra Darkthorn sends hunters against the scytheclaws stalking the Barrens. Carry sunscale raptor feathers to their nests, and show you can face these beasts without fear. Sergra Darkthorn tests hunters against the Barrens' beasts. After lesser trials, she sends you south of the Crossroads to hunt vicious sunscale raptors and gather their feathers. Then you carry them southwest of the Stagnant Oasis, deep into raptor territory. Place the feathers in the nests, and prove you can face the scytheclaws without fear. Southwest of the Stagnant Oasis, three raptor nests lie near the Gold Road. Red, blue, and yellow eggs mark the separate clutches. Scytheclaws fiercely defend their nests from anything that draws near. Place feathers from fallen raptors among the eggs, and the challenge is plain to the beasts. After entering the nests, return to the Crossroads. Sergra can see you faced the danger and lived. Walking out of a raptor den takes raw courage. The Barrens test every hunter; each fight may harden you or leave your bones among the kodo ribs scattered across the dirt."
     },
     "quest:907": {
       "1": [
         {
-          "duration": 47.882448979591835,
-          "file": "Audio/Transport/full_quest_907-2d56c6c08da869c65c4b/1-0000.mp3",
-          "sha256": "da08a6f851c653eb238b43d123bf956e24f4626ed3d1277e32b619e21923520d",
+          "duration": 56.92081632653061,
+          "file": "Audio/Transport/full_quest_907-e91d7e4e7b63e018236a/1-0000.mp3",
+          "sha256": "5edf4eec6bec48896d5689ce6da53eac517b4f8d7ba8456bd901538db608df42",
           "start": 0
         }
       ],
@@ -18451,12 +18451,12 @@
         ]
       },
       "fullHash": "7f235e",
-      "generation": "0c8381f622347861dcce",
+      "generation": "ef2df3742e50a9fe0245",
       "hash": "7f235e",
       "source": {
-        "duration": 47.908571,
+        "duration": 56.946939,
         "file": null,
-        "sha256": "2d56c6c08da869c65c4b0a4c7a682efe4f37a849990c4e82a4011ad7afc3beae"
+        "sha256": "e91d7e4e7b63e018236aed24901433f1e729f0102131c61103c3efd004dbe175"
       },
       "text": "Enraged Thunder Lizards. In the southern Barrens, thunder lizards roam the plains around Camp Taurajo. Jorn Skyseer calls hunters to face the great beasts and bring back their blood for a wider rite of passage. After defeating the raptor Ishamuhale, you return to Camp Taurajo. Jorn Skyseer, the tauren elder, now tests your strength against the land's largest grazers. Stormsnouts and Thunderheads roam the southern Barrens. Their heavy strides can crush an unwary hunter beneath them. Tauren and orc hunters prize poise, position, and strength against a thunder lizard. Jorn asks you to bring back samples of their potent blood. They prove you stood before the rumbling beasts and survived with your bones unbroken. That trophy opens the way to Jorn's final quarry in the skies."
     },
@@ -20283,9 +20283,9 @@
     "quest:947": {
       "1": [
         {
-          "duration": 26.801632653061226,
-          "file": "Audio/Transport/full_quest_947-908e55edc622570b762b/1-0000.mp3",
-          "sha256": "9727e23c3548335c78b30d9020dfb36b043ea9138bb34bc4d395b2572b03f52e",
+          "duration": 32.522448979591836,
+          "file": "Audio/Transport/full_quest_947-7f1256fa137b4200e4e7/1-0000.mp3",
+          "sha256": "8323a4ada31d9e0a819926513b7a6faef2ac5cbfa4036ffb4629f9bcdf3a954a",
           "start": 0
         }
       ],
@@ -20297,12 +20297,12 @@
         ]
       },
       "fullHash": "64fd15",
-      "generation": "9f6c2a550a39a7791b55",
+      "generation": "b6d26e79a18f25b7b332",
       "hash": "64fd15",
       "source": {
-        "duration": 26.827755,
+        "duration": 32.548571,
         "file": null,
-        "sha256": "908e55edc622570b762bf748933e1dd41cba74f78e778a94a248c65e56968941"
+        "sha256": "7f1256fa137b4200e4e7e19d5f3823b33b6ab788ca8a56586cd549b243699fcc"
       },
       "text": "Cave Mushrooms. In Darkshore, Cave Mushrooms are needed for a potion Barithras Moonshade prepares in Auberdine. He asks you to gather rare fungi behind Cliffspring Falls and investigate warnings from the Grove of the Ancients. Barithras Moonshade needs scaber stalks and a death cap for a potent mixture. Both grow in a damp cavern behind Cliffspring Falls in northeastern Darkshore. Gathering them is more dangerous than picking ordinary woodland herbs."
     },
@@ -20335,9 +20335,9 @@
     "quest:949": {
       "1": [
         {
-          "duration": 26.958367346938775,
-          "file": "Audio/Transport/full_quest_949-c1780f3fea458dd8f10f/1-0000.mp3",
-          "sha256": "43c27b06275187c094491cdc05f8b9e5f21412f4c1f3d9b26058e89ff13f1dfa",
+          "duration": 36.96326530612245,
+          "file": "Audio/Transport/full_quest_949-5ff394de7a309a6af0a2/1-0000.mp3",
+          "sha256": "193bf389b7dccb6eff0645c48a8e003e9f70f40352dec616772c4b8d9d03cc01",
           "start": 0
         }
       ],
@@ -20349,21 +20349,21 @@
         ]
       },
       "fullHash": "427e88",
-      "generation": "c68dbd1499eaf29596d7",
+      "generation": "ba09d2b24ceb63a6f8d6",
       "hash": "427e88",
       "source": {
-        "duration": 26.98449,
+        "duration": 36.963265,
         "file": null,
-        "sha256": "c1780f3fea458dd8f10f90527fad751ee64ef1343519719ae81f63075c806a72"
+        "sha256": "5ff394de7a309a6af0a26beace28d3a85bada4bbb335a0a6e2cd49f46a9d0812"
       },
       "text": "The Twilight Camp. At the Master's Glaive in southern Darkshore, cultists gather while Alliance scouts seek their purpose. A scrying bowl has revealed their ritual site. Now you enter the excavation to learn what the Twilight's Hammer seeks beneath the earth. The Twilight's Hammer has made the Master's Glaive a threat. A scrying bowl revealed the cultists' fortifications. You enter their camp to learn their designs before the Alliance can prepare its defenses."
     },
     "quest:950": {
       "1": [
         {
-          "duration": 21.394285714285715,
-          "file": "Audio/Transport/full_quest_950-35a4ea6c48b39db591e8/1-0000.mp3",
-          "sha256": "18c8305cbdd006f7c6758a31d3e8c1012a2d8e49d95b29a058b286423aee87b9",
+          "duration": 30.01469387755102,
+          "file": "Audio/Transport/full_quest_950-82b9b325522055ec3080/1-0000.mp3",
+          "sha256": "1ad7c97c6c18060d13d30e3c0e6b96b64d8f0b56b27149bd5706988a0af6e23d",
           "start": 0
         }
       ],
@@ -20375,12 +20375,12 @@
         ]
       },
       "fullHash": "2e035f",
-      "generation": "b49a24f82c0ab3d8bc43",
+      "generation": "fa6b86bf78581c9644ea",
       "hash": "2e035f",
       "source": {
-        "duration": 21.420408,
+        "duration": 30.040816,
         "file": null,
-        "sha256": "35a4ea6c48b39db591e8ee168fe9e90804542ef45c1d662275317046fdc6cb4d"
+        "sha256": "82b9b325522055ec3080a121b628c43829d9daa8316d02238e9f8f288c0eb367"
       },
       "text": "Return to Onu. You bring a torn page from the Twilight Tome to Onu in Darkshore. The cultists' writing is all you could bear to take from their book. The Twilight Tome overwhelms anyone who tries to read it. Its words swim across the page, and its ornate scrollwork twists into grotesque figures. You tear out a page of scribbles before the strain brings on vertigo."
     },
@@ -20699,9 +20699,9 @@
     "quest:96139": {
       "1": [
         {
-          "duration": 22.75265306122449,
-          "file": "Audio/Transport/full_quest_96139-6f3531cb9b0374c7928f/1-0000.mp3",
-          "sha256": "84d1156cd91e36cba934caa304cda7e5f21562ee6b56da5dd5786baa8bcd6e99",
+          "duration": 33.645714285714284,
+          "file": "Audio/Transport/full_quest_96139-03ab2620e0612b01c698/1-0000.mp3",
+          "sha256": "18856cd79f00a120da4c7dc23c30933dcd2338f9ef3eda8288f61a5c07664111",
           "start": 0
         }
       ],
@@ -20713,12 +20713,12 @@
         ]
       },
       "fullHash": "077908",
-      "generation": "2c6b406b9d0849a721ba",
+      "generation": "1010008bd04bf4a79a03",
       "hash": "077908",
       "source": {
-        "duration": 22.778776,
+        "duration": 33.671837,
         "file": null,
-        "sha256": "6f3531cb9b0374c7928fba4834dfa01195d375204e46b111be26dfce8db5e169"
+        "sha256": "03ab2620e0612b01c69896735b2a10eb4178de3d9d578459e83172f6e81b3d36"
       },
       "text": "The Valor Family. In Darkshire, Sirra Von'Indi seeks records of Raven Hill's lost people. The village remembers their courage, but her library holds little of Raven Hill's history. Sirra Von'Indi says brave people helped Darkshire endure. Lady Althea was among them, as were those who died at Raven Hill. You are asked to search for anything that might preserve their memory."
     },
@@ -21427,9 +21427,9 @@
     "quest:97926": {
       "1": [
         {
-          "duration": 27.088979591836736,
-          "file": "Audio/Transport/full_quest_97926-b7ccc8d27981f6360168/1-0000.mp3",
-          "sha256": "749a1238f0e6d5197532dba3ba8c1baff987e2489f6cf298b14ac3fb12bc0ed0",
+          "duration": 36.93714285714286,
+          "file": "Audio/Transport/full_quest_97926-220027efa07f5c578f84/1-0000.mp3",
+          "sha256": "4b2102ee206ac4aefc33d69aa6b5e929acf98ff4f5137108054be0f19dc0302b",
           "start": 0
         }
       ],
@@ -21441,12 +21441,12 @@
         ]
       },
       "fullHash": "f7a1f0",
-      "generation": "fc4b45e50f135b2f2aa5",
+      "generation": "74df4e753c4cd7e6ddf6",
       "hash": "f7a1f0",
       "source": {
-        "duration": 27.08898,
+        "duration": 36.963265,
         "file": null,
-        "sha256": "b7ccc8d27981f63601681839cb52274802da675544d5504d38317e0feb0f057b"
+        "sha256": "220027efa07f5c578f846c5e5feb59eaca99c1e5ed0c451bdfb22607ad474150"
       },
       "text": "Making Do. Auberdine waits for word from Stormwind, but no aid is coming. Making Do carries Alexston's Reply across the sea to Elder Thundris Windweaver. You carry Alexston's Reply across the sea to Elder Thundris Windweaver in Auberdine. The letter brings no troops or relief. Stormwind's representative explains that the kingdom's treasury is nearly empty. What wealth remains must stretch across its own struggling territories."
     },
@@ -21583,9 +21583,9 @@
     "quest:983": {
       "1": [
         {
-          "duration": 63.52979591836735,
-          "file": "Audio/Transport/full_quest_983-73db1c8bf107a837436b/1-0000.mp3",
-          "sha256": "ed60cc0a813522d1d84dfd045807fd36b96338b1e490ae52182d19efb564b695",
+          "duration": 77.06122448979592,
+          "file": "Audio/Transport/full_quest_983-8506447fb2a055baf4da/1-0000.mp3",
+          "sha256": "f22163d4cccd1ef5ad80cdbb460cfb7d5294dce032cd651688c71e4c917b36fa",
           "start": 0
         }
       ],
@@ -21597,12 +21597,12 @@
         ]
       },
       "fullHash": "fe006a",
-      "generation": "e7b0a013da035ccf5fe5",
+      "generation": "ec46640e48ccb4e77a85",
       "hash": "fe006a",
       "source": {
-        "duration": 63.555918,
+        "duration": 77.087347,
         "file": null,
-        "sha256": "73db1c8bf107a837436b21edf798991cf5a436bb4cd00e39bf96df92a2a56852"
+        "sha256": "8506447fb2a055baf4da5efc271b755b6372a35afd85aed05e9e776c3d306a73"
       },
       "text": "Buzzbox 827. Along Darkshore's coast, repairs are needed at Buzzbox 827. Wizbang Cranktoggle built it as the first link in a chain of voice relays, each made to use parts from local wildlife. Restoring it lets Wizbang test his network from Auberdine. In Auberdine, gnomish engineer Wizbang Cranktoggle is linking Darkshore's wild coast with a chain of voice relays called Buzzboxes. Their levers and gears carry speech across great distances, a sharp contrast with the ancient ruins and somber forests around them. The machines break down often, so each needs constant care to keep working. Buzzbox 827 lies on the shore just south of Auberdine. Wizbang built each relay to use parts from nearby wildlife, so repairs do not depend on carrying refined iron gears and copper pins through the wilderness. This unit takes the sturdy, jointed legs of local tide and reef crawlers. Put the legs in its receiver hopper, and the machine assembles itself and carries Wizbang's voice through its speakers."
     },
@@ -22344,14 +22344,6 @@
       701,
       1055
     ],
-    "0699ea314b9c3a6573cfce44aef6b033c5983f67ce6a11c22db0eb19f943a030": [
-      210,
-      420,
-      613,
-      786,
-      1142,
-      1567
-    ],
     "06c9398cb8f05abc835e2f5387095e9cb13542507d8832a16eef455352103830": [
       172,
       323,
@@ -22361,6 +22353,12 @@
       1166,
       1460,
       1614
+    ],
+    "06f2c68183d1ec18d6441f302597c33afd2e31645c2e4e0880ac5516e921c167": [
+      425,
+      564,
+      879,
+      1029
     ],
     "0716b65f66b6500a08324334a83e7f81a616fedc3b6da719c8df9d6415f247d8": [
       339,
@@ -22564,6 +22562,15 @@
       865,
       1011,
       1266
+    ],
+    "0a5e3ec66ffb485feb46a5c643e0814d7389c056c35b1adf81a49b12afbc703b": [
+      144,
+      541,
+      698,
+      833,
+      1020,
+      1178,
+      1330
     ],
     "0a79468c10284c6a0b6a77c2adcc622d864c05dfa41049d6fcc2b3f7aa10dbe7": [
       218,
@@ -22811,6 +22818,17 @@
       1365,
       1560,
       1912
+    ],
+    "10ca7ddbe8b803906320368a3bddcc84211df5f54ea3770193337679ad46cf12": [
+      214,
+      434,
+      626,
+      793,
+      985,
+      1197,
+      1528,
+      1808,
+      2041
     ],
     "10ea7bc2593875882138c2b6c4f7e015387c77abb749bc7415c70339bf87657b": [
       219,
@@ -23156,6 +23174,13 @@
       1661,
       1813
     ],
+    "18856cd79f00a120da4c7dc23c30933dcd2338f9ef3eda8288f61a5c07664111": [
+      147,
+      354,
+      638,
+      889,
+      1103
+    ],
     "189ed1b99e135fcb97f84fb8cb892747e32bdf4d5af5e2af9f1b4b70aab26b4b": [
       186,
       475,
@@ -23163,11 +23188,6 @@
       1074,
       1232,
       1401
-    ],
-    "18c8305cbdd006f7c6758a31d3e8c1012a2d8e49d95b29a058b286423aee87b9": [
-      157,
-      302,
-      664
     ],
     "18d82f631bb410c5b1bc0d6a8719edd845289b14ed55fe28e29d98465d83c785": [
       298,
@@ -23182,6 +23202,14 @@
     "190d3ea015d681282b2a4e0fe04a1ddb423bf6e50ac8c6745b36a536d3f564e6": [
       539,
       1153
+    ],
+    "193bf389b7dccb6eff0645c48a8e003e9f70f40352dec616772c4b8d9d03cc01": [
+      206,
+      382,
+      533,
+      786,
+      970,
+      1143
     ],
     "19bd28049b3f491dd867086d5fb37836d3fdf77a9974180f4244b7d22265ef17": [
       191,
@@ -23215,15 +23243,6 @@
       2103,
       2297
     ],
-    "1a311c7212eff58d17100532460e0eb75833c1c62d9265fbb53af6605761d12e": [
-      272,
-      453,
-      734,
-      974,
-      1325,
-      1575,
-      1733
-    ],
     "1a6e0daefc5cbc6013e83bd2d8349228a705306b8496d66203afc126d3f32921": [
       279,
       735,
@@ -23239,6 +23258,11 @@
       3135,
       3271,
       3504
+    ],
+    "1ad7c97c6c18060d13d30e3c0e6b96b64d8f0b56b27149bd5706988a0af6e23d": [
+      497,
+      683,
+      963
     ],
     "1add2260010a1a9902987bee64d3676a25fffa4cce6f267beac1dc7a49e744c9": [
       150,
@@ -23279,11 +23303,6 @@
       1528,
       1809
     ],
-    "1ba74de87ad188f481f2b7c08146a61de6b8e07c0600d09376bf3e287a696414": [
-      422,
-      691,
-      939
-    ],
     "1bb48f53a7bd0c8e74526122871032ffcb2020b0babbe415fa3d7a4d618a0ca3": [
       241,
       482,
@@ -23323,10 +23342,28 @@
       610,
       1165
     ],
+    "1d0374a3dafc6fdeba213e31a94ce2333ee3592d583617e085a3c0cdd6296a2a": [
+      403,
+      539,
+      780,
+      1015,
+      1289,
+      1554
+    ],
     "1d1311caa308d87d318a3b9c69507feda0813f7e7227559a29cdfb00ae5421b7": [
       489,
       751,
       1002
+    ],
+    "1d1d45fb96c1f3a028f8849d15480158adb55f12f69e14876ae9304b05133f6a": [
+      330,
+      603,
+      839,
+      1068,
+      1509,
+      1643,
+      1859,
+      2041
     ],
     "1d257d1e8202838ef17a36b234c0771e6302b91c106fdfe04bb3f608d8f3b1cd": [
       244,
@@ -23352,6 +23389,17 @@
       1481,
       1706
     ],
+    "1d96ce37d1c3689ca7ea5be6077f6fbb7397971b53fd641c00f430df59523d16": [
+      191,
+      401,
+      623,
+      953,
+      1281,
+      1449,
+      1737,
+      2075,
+      2287
+    ],
     "1db7f6db1d73d248ae3fe9bab98a7a3625698b4b7351b0595a67b6dc0f1daf6b": [
       232,
       377,
@@ -23365,6 +23413,13 @@
       258,
       550,
       1066
+    ],
+    "1dd73c1f8142f41d7b4761f871d5c342e4d17140777209212b580eca3a5d6b22": [
+      163,
+      376,
+      578,
+      865,
+      1144
     ],
     "1dd78cf09d0a81ae04df3ece1c61647ed742ee05c2ffa5d75214ec360e29702a": [
       161,
@@ -23698,12 +23753,6 @@
       781,
       1021,
       1234
-    ],
-    "275d698290fd7565b9d2a09dddd5d87ff9f2c4ad12d99a3756cbfdc98920d99e": [
-      219,
-      385,
-      634,
-      875
     ],
     "277cb70def40ef923d099748d748515dba22266b001b9e514d52ab1870bb1653": [
       193,
@@ -24079,17 +24128,6 @@
       411,
       976
     ],
-    "31bb708e743721143cd8ee01aa9dd9f636475f480026455397924269badf3f42": [
-      289,
-      449,
-      682,
-      1002,
-      1166,
-      1358,
-      1547,
-      1876,
-      2135
-    ],
     "31f387affe5279d3151c13e9326fd3ab0ce1ed64c8e595c8a0dc9b17d2d9547f": [
       156,
       582,
@@ -24099,6 +24137,18 @@
       1380,
       1597,
       1791
+    ],
+    "32240e97a71dc03c7b0951c09ef08aa6ad152035bdfa75966049d4e47dd0f658": [
+      215,
+      372,
+      827,
+      1097,
+      1348,
+      1568,
+      1795,
+      1947,
+      2115,
+      2409
     ],
     "327d3ef27ed9c9824a32bb3d87bc5239c682f9b104979e046fa1783514009a44": [
       224,
@@ -24503,6 +24553,17 @@
       1153,
       1307
     ],
+    "3d719036a26c1ad2666d39d433c4812bff7068b44b82918e5e35a44c9640e483": [
+      369,
+      674,
+      847,
+      1016,
+      1475,
+      1678,
+      1884,
+      2153,
+      2322
+    ],
     "3ecd712b9b8e748397d5eb00ae54085daca99b743c7c4d6d9b5a7f0940d104e8": [
       187,
       341,
@@ -24723,11 +24784,6 @@
       1413,
       1657
     ],
-    "43c27b06275187c094491cdc05f8b9e5f21412f4c1f3d9b26058e89ff13f1dfa": [
-      254,
-      553,
-      837
-    ],
     "43c5a395cca8fac30930ab91d79ee49f5f88ec199f6ed1131abc5692dcb206e9": [
       170,
       649,
@@ -24774,6 +24830,17 @@
     ],
     "44aa4616958f3f74204ad45b6b4a97144ccb07c61fda23110b2a674a9c0c17e7": [
       535
+    ],
+    "45540fb5cf1d8f928bbbe1ff221b592dab340835d8529c8c9cc30a5488e103fa": [
+      136,
+      307,
+      587,
+      857,
+      1141,
+      1615,
+      1833,
+      2109,
+      2284
     ],
     "460c10fd6925b4e6769375194e4e477426382e6cee84f6a147f81bbd8862f250": [
       341,
@@ -25030,6 +25097,14 @@
       1631,
       1813
     ],
+    "4b2102ee206ac4aefc33d69aa6b5e929acf98ff4f5137108054be0f19dc0302b": [
+      210,
+      579,
+      734,
+      872,
+      1012,
+      1202
+    ],
     "4b2c0a1bb5bfd5613a7ee795979025624d5bba8403e6291d36862eab2444fdec": [
       212,
       391,
@@ -25084,15 +25159,6 @@
       1536,
       1812,
       2037
-    ],
-    "4c88e4b3e33dc24fa0e3e49ec5c54f26e985e8593326004abf4b3d8f4f2f04bb": [
-      239,
-      530,
-      829,
-      1097,
-      1411,
-      1587,
-      1990
     ],
     "4ca2eb8838401dd784d1deac750efa4672143b6168d85ed13ddf3283fd91dd38": [
       226,
@@ -25777,6 +25843,16 @@
       1101,
       1326
     ],
+    "5edf4eec6bec48896d5689ce6da53eac517b4f8d7ba8456bd901538db608df42": [
+      316,
+      621,
+      794,
+      1194,
+      1359,
+      1626,
+      1784,
+      2004
+    ],
     "5f379f287f20cfe6ecbf1e8cca53b8fe694e380f7ba282555ec04e293d62a574": [
       219,
       466,
@@ -25877,16 +25953,6 @@
       1462,
       1628,
       1947
-    ],
-    "6276d176729f52713bbe29dc7731fc3ff2c7a71f2caccd56408d3c73bfd07d4b": [
-      242,
-      456,
-      664,
-      906,
-      1084,
-      1325,
-      1482,
-      1733
     ],
     "62bc743af44a21609e8532873595d3852efc07a856d2125e27e9322bf40cf390": [
       346,
@@ -26037,14 +26103,6 @@
       1263,
       1524
     ],
-    "66cc9deb5e2d42314079ba422bd48e6d2c3beada71be26a329fcc930484429a6": [
-      211,
-      439,
-      642,
-      777,
-      1136,
-      1321
-    ],
     "66d85355c4ffec7b5414b602d0d310715cbf966b23b9438530c86ea0430d2555": [
       228,
       463,
@@ -26105,6 +26163,16 @@
       1462,
       1616,
       1979
+    ],
+    "6827e011e6973cf730876cac27e8068a50a98283cba1e5b90437ee64cdbfe172": [
+      343,
+      552,
+      700,
+      981,
+      1122,
+      1367,
+      1586,
+      1807
     ],
     "688be456c889f299d25d40cfd2f213dadb73241764e015af835c15f9f6c59b2f": [
       264,
@@ -26463,12 +26531,6 @@
       1318,
       1563,
       1737
-    ],
-    "749a1238f0e6d5197532dba3ba8c1baff987e2489f6cf298b14ac3fb12bc0ed0": [
-      180,
-      382,
-      590,
-      868
     ],
     "749bd15ae173e6ec4cb3dccef5ed2045ac1ab103015cda5808f7b8889b4b4f39": [
       225,
@@ -26871,16 +26933,6 @@
       933,
       1298
     ],
-    "81f5af1a8fe203524bd65e0968567b7077fcf5cf805c9ad846a6ed9f428b3595": [
-      244,
-      560,
-      780,
-      1002,
-      1172,
-      1374,
-      1624,
-      1884
-    ],
     "824395f741d8c1019cbce8b6d3a4376bc58c6848338ddea1b7d7758e9e9c0a6b": [
       264,
       413,
@@ -26930,6 +26982,12 @@
       990,
       1203,
       1391
+    ],
+    "8323a4ada31d9e0a819926513b7a6faef2ac5cbfa4036ffb4629f9bcdf3a954a": [
+      328,
+      610,
+      840,
+      1060
     ],
     "8352cf307c35ad0df7d0e8b1933dc02cbdf902474e54fe103bf5ba7972229c04": [
       326,
@@ -27002,11 +27060,6 @@
       463,
       689,
       1050
-    ],
-    "84d1156cd91e36cba934caa304cda7e5f21562ee6b56da5dd5786baa8bcd6e99": [
-      197,
-      410,
-      573
     ],
     "852594600c7e77012474d041ca23d81f0b5499cffdb907e6ad17de5e904c897c": [
       339,
@@ -27246,6 +27299,14 @@
       1713,
       2050
     ],
+    "8e7e7862b99a42c2e30698c99aafd4d992137cbdd8a8599c596fee7dff699b7e": [
+      158,
+      339,
+      546,
+      680,
+      1017,
+      1393
+    ],
     "8e7ef39e0e752dd9477075a7c010616921e05361956889fa787a214acc9ee77a": [
       202,
       423,
@@ -27326,14 +27387,6 @@
       934,
       1525,
       1783
-    ],
-    "908c019bb8599ea31dc14e63c6f5b42be21ad671c1b7567054016ae710a09221": [
-      228,
-      474,
-      800,
-      1056,
-      1270,
-      1470
     ],
     "90962e1e6f30f8add8f6560573a175407340605f865817305698775e4e4b911b": [
       385,
@@ -27570,12 +27623,6 @@
       1107,
       1334
     ],
-    "9727e23c3548335c78b30d9020dfb36b043ea9138bb34bc4d395b2572b03f52e": [
-      240,
-      510,
-      690,
-      873
-    ],
     "973f94023f6d0d1807984c716fcdaa567a97cb11b172dae5ebc25ad7fdeab228": [
       254,
       440,
@@ -27766,6 +27813,18 @@
       1720,
       2038
     ],
+    "9bd35aba18f52947b474e8743580bcf29e2bac269fa214be2aacb5ed3151bfba": [
+      174,
+      423,
+      692,
+      950,
+      1226,
+      1454,
+      1764,
+      1964,
+      2107,
+      2286
+    ],
     "9c10e9726ab7fa016e0c286fc3bbb07a3219318d85f0dfef7f2cc8a0e77eb5d1": [
       277,
       414,
@@ -27781,6 +27840,19 @@
     "9c8a6d253772c45d11fe8904c73cdd912c875762fda0b128739a00b5e3f93d6c": [
       696,
       1114
+    ],
+    "9cab32386ea72fc41b6eb50634527174804e2fb73badea3a76602d27778db2b7": [
+      341,
+      773,
+      969,
+      1153,
+      1335,
+      1522,
+      1663,
+      1901,
+      2218,
+      2363,
+      2635
     ],
     "9cd5bbe159317b9d71cc950e3f1ff176198b9413bcdd30e4fe1e43551551e843": [
       250,
@@ -28057,6 +28129,20 @@
       957,
       1106,
       1264
+    ],
+    "a2d806077f38d8d7d847553a00304c54cdb50f3b152b144c15189c8c6f5a4932": [
+      380,
+      620,
+      791,
+      1091,
+      1300,
+      1512,
+      1753,
+      1924,
+      2106,
+      2337,
+      2482,
+      2621
     ],
     "a318e3af5b79e3a8dcfa8e01e7d5a5205ab5a9b90c760ec7c9a12222ba4efede": [
       192,
@@ -28520,13 +28606,6 @@
       1273,
       1534
     ],
-    "b064f9c1774e9a468f2e94e3a48095234e50384705740466b130db56535400a3": [
-      215,
-      387,
-      807,
-      1133,
-      1360
-    ],
     "b09f2fec8d2dd0afe13f88d3ed35a30e0478e5ea4f31dedb2bacf04d1052dea8": [
       228,
       686,
@@ -28764,13 +28843,6 @@
       1788,
       1999,
       2253
-    ],
-    "b741f68ea70f3a481b9748402d2b62849d7fe91823d0ce4b09679676ff01588a": [
-      267,
-      460,
-      747,
-      889,
-      1030
     ],
     "b7e02b97714e84a6a32682452f48da93d439c458ff0fc221c95de34e37b483ba": [
       187,
@@ -29392,6 +29464,17 @@
     "c8deffac265fa56ba35a8d39f9a2c02105be372daba595f1854af21310f3a492": [
       931
     ],
+    "c92154e315979b45f0beabd175da0eec95173310e2b10fdbd0986cbc47a86ecf": [
+      385,
+      547,
+      813,
+      1144,
+      1332,
+      1548,
+      1756,
+      2036,
+      2425
+    ],
     "c9552b5b6e1924ab576754fa31cb2993f1dae52782b7f7eb6e92c496319bac39": [
       169,
       356,
@@ -29843,18 +29926,6 @@
       1683,
       1864
     ],
-    "d5a42cd95bc752c9d1f8a577812c61ebb3511bad3c1026bd6429581bb25967aa": [
-      244,
-      491,
-      898,
-      1289,
-      1499,
-      1640,
-      1800,
-      2006,
-      2142,
-      2394
-    ],
     "d5b62e7c0d11e705bbb575ecf730fba8fd54a22194bc7cec83544413ef29bc15": [
       472,
       1115
@@ -29978,23 +30049,10 @@
       748,
       1011
     ],
-    "d98b473873a0c5910f990962ed44f99cba62803238ae2975f1c32e8c22f466fa": [
-      317,
-      573
-    ],
     "d9f9bf404187fbb7ea4629511f3713dddf6dbc24d799257823afa1603fdae941": [
       899,
       1169,
       1872
-    ],
-    "da08a6f851c653eb238b43d123bf956e24f4626ed3d1277e32b619e21923520d": [
-      196,
-      457,
-      638,
-      863,
-      1134,
-      1353,
-      1489
     ],
     "da0ffbf7f020869540de9586e1899b0f0dc1dbebb38c5ee1829db651d2822789": [
       168,
@@ -30450,15 +30508,6 @@
       1058,
       1264
     ],
-    "e6d3cd7933c03eed32ef77af4bade7f71ea16c9b9af654392d55f622cdbb7e1f": [
-      204,
-      443,
-      659,
-      887,
-      1124,
-      1276,
-      1764
-    ],
     "e7586e7487ed4d125c974940d359235789e280ee5e12c2e72111b1da132055f8": [
       404,
       717
@@ -30528,16 +30577,6 @@
       1146,
       1377,
       1582
-    ],
-    "e93aa0f64b4acc4643591aac6503fcb4b43c4d61a593c38d18b122288fa8f9aa": [
-      218,
-      410,
-      548,
-      948,
-      1189,
-      1376,
-      1625,
-      1763
     ],
     "e98edcef62710df18cc6f2b74523f1519bd9790f3a3c1f29f42d1f3dbe188d15": [
       401
@@ -30645,15 +30684,6 @@
       2734,
       2985,
       3127
-    ],
-    "ed60cc0a813522d1d84dfd045807fd36b96338b1e490ae52182d19efb564b695": [
-      189,
-      617,
-      981,
-      1291,
-      1482,
-      1656,
-      2009
     ],
     "ed749ec0bec5348dc9b8bce952803127b4e7590e0c6068162c6a0392da012d0d": [
       545
@@ -30785,16 +30815,6 @@
       600,
       1160
     ],
-    "f11649c026623269e0cfd47eb8665a7099b6defe3486efe395ceb18aa945bdd8": [
-      257,
-      586,
-      738,
-      1002,
-      1273,
-      1485,
-      1740,
-      1895
-    ],
     "f119128014d5253e8d6099e72c96debc029fa6d66e3ab8861532e7c38207a2a3": [
       199,
       389,
@@ -30842,6 +30862,17 @@
     "f20bb409f4fa4e7588351702dca6c848e9035a91f71a3a0bce755f124cfbe48d": [
       393,
       848
+    ],
+    "f22163d4cccd1ef5ad80cdbb460cfb7d5294dce032cd651688c71e4c917b36fa": [
+      415,
+      755,
+      943,
+      1331,
+      1651,
+      1859,
+      2070,
+      2485,
+      2678
     ],
     "f22ec4c03451662e4f6547391e9fc1339a0afc7ee53e708cfca9de117ccde37d": [
       293,
@@ -31187,6 +31218,15 @@
       996,
       1248
     ],
+    "fc436329a4797be874c02c506d2ce70cfe1704d4222ddbeba1e76307eb41df74": [
+      164,
+      369,
+      626,
+      864,
+      1028,
+      1449,
+      1665
+    ],
     "fc8540749eb3dd7c3cee6994694c42fe6058b8eb9de7670a21c53e7a86ce8ac7": [
       523,
       1071
@@ -31400,6 +31440,9 @@
       "1166": 2,
       "491": 1
     },
+    "06f2c68183d1ec18d6441f302597c33afd2e31645c2e4e0880ac5516e921c167": {
+      "564": 1
+    },
     "071813edf2c55b1610c37c5d1d647c7bbb5dec338710b048ebc8194907ec4a6c": {
       "1274": 2,
       "2106": 3,
@@ -31475,6 +31518,9 @@
     "0a43abea8ad91023cf35a9313658185d12e4210a39a8ba974535cb6b6040c9fa": {
       "335": 1,
       "865": 2
+    },
+    "0a5e3ec66ffb485feb46a5c643e0814d7389c056c35b1adf81a49b12afbc703b": {
+      "698": 1
     },
     "0a79468c10284c6a0b6a77c2adcc622d864c05dfa41049d6fcc2b3f7aa10dbe7": {
       "644": 1
@@ -31563,6 +31609,10 @@
     "10be799fbf2ca29060ea536572dfaa64dc80da943d64e0d3bbb8b79e68db2cf5": {
       "1365": 2,
       "459": 1
+    },
+    "10ca7ddbe8b803906320368a3bddcc84211df5f54ea3770193337679ad46cf12": {
+      "1528": 2,
+      "793": 1
     },
     "10ea7bc2593875882138c2b6c4f7e015387c77abb749bc7415c70339bf87657b": {
       "1849": 2,
@@ -31676,16 +31726,19 @@
       "1336": 2,
       "689": 1
     },
+    "18856cd79f00a120da4c7dc23c30933dcd2338f9ef3eda8288f61a5c07664111": {
+      "638": 1
+    },
     "189ed1b99e135fcb97f84fb8cb892747e32bdf4d5af5e2af9f1b4b70aab26b4b": {
       "1074": 2,
       "475": 1
     },
-    "18c8305cbdd006f7c6758a31d3e8c1012a2d8e49d95b29a058b286423aee87b9": {
-      "302": 1
-    },
     "18d82f631bb410c5b1bc0d6a8719edd845289b14ed55fe28e29d98465d83c785": {
       "1566": 2,
       "754": 1
+    },
+    "193bf389b7dccb6eff0645c48a8e003e9f70f40352dec616772c4b8d9d03cc01": {
+      "786": 1
     },
     "19bd28049b3f491dd867086d5fb37836d3fdf77a9974180f4244b7d22265ef17": {
       "366": 1
@@ -31700,14 +31753,13 @@
       "1475": 2,
       "547": 1
     },
-    "1a311c7212eff58d17100532460e0eb75833c1c62d9265fbb53af6605761d12e": {
-      "1325": 2,
-      "734": 1
-    },
     "1a6e0daefc5cbc6013e83bd2d8349228a705306b8496d66203afc126d3f32921": {
       "1978": 2,
       "2833": 3,
       "875": 1
+    },
+    "1ad7c97c6c18060d13d30e3c0e6b96b64d8f0b56b27149bd5706988a0af6e23d": {
+      "497": 1
     },
     "1add2260010a1a9902987bee64d3676a25fffa4cce6f267beac1dc7a49e744c9": {
       "1406": 2,
@@ -31721,9 +31773,6 @@
       "1303": 2,
       "485": 1
     },
-    "1ba74de87ad188f481f2b7c08146a61de6b8e07c0600d09376bf3e287a696414": {
-      "422": 1
-    },
     "1bb48f53a7bd0c8e74526122871032ffcb2020b0babbe415fa3d7a4d618a0ca3": {
       "1532": 2,
       "482": 1
@@ -31736,6 +31785,13 @@
       "1323": 2,
       "600": 1
     },
+    "1d0374a3dafc6fdeba213e31a94ce2333ee3592d583617e085a3c0cdd6296a2a": {
+      "780": 1
+    },
+    "1d1d45fb96c1f3a028f8849d15480158adb55f12f69e14876ae9304b05133f6a": {
+      "1509": 2,
+      "603": 1
+    },
     "1d257d1e8202838ef17a36b234c0771e6302b91c106fdfe04bb3f608d8f3b1cd": {
       "538": 1
     },
@@ -31747,9 +31803,16 @@
       "1246": 2,
       "506": 1
     },
+    "1d96ce37d1c3689ca7ea5be6077f6fbb7397971b53fd641c00f430df59523d16": {
+      "1737": 2,
+      "953": 1
+    },
     "1db7f6db1d73d248ae3fe9bab98a7a3625698b4b7351b0595a67b6dc0f1daf6b": {
       "1135": 2,
       "377": 1
+    },
+    "1dd73c1f8142f41d7b4761f871d5c342e4d17140777209212b580eca3a5d6b22": {
+      "578": 1
     },
     "1dd78cf09d0a81ae04df3ece1c61647ed742ee05c2ffa5d75214ec360e29702a": {
       "1841": 2,
@@ -31863,9 +31926,6 @@
     "275a201b73a5c5a4365a6978b938089f65a37e23546508d236c710a3f6494baa": {
       "1021": 2,
       "379": 1
-    },
-    "275d698290fd7565b9d2a09dddd5d87ff9f2c4ad12d99a3756cbfdc98920d99e": {
-      "385": 1
     },
     "277cb70def40ef923d099748d748515dba22266b001b9e514d52ab1870bb1653": {
       "2239": 2,
@@ -31994,13 +32054,13 @@
       "1388": 2,
       "577": 1
     },
-    "31bb708e743721143cd8ee01aa9dd9f636475f480026455397924269badf3f42": {
-      "1358": 2,
-      "449": 1
-    },
     "31f387affe5279d3151c13e9326fd3ab0ce1ed64c8e595c8a0dc9b17d2d9547f": {
       "1164": 2,
       "582": 1
+    },
+    "32240e97a71dc03c7b0951c09ef08aa6ad152035bdfa75966049d4e47dd0f658": {
+      "1795": 2,
+      "827": 1
     },
     "327d3ef27ed9c9824a32bb3d87bc5239c682f9b104979e046fa1783514009a44": {
       "1320": 2,
@@ -32137,6 +32197,10 @@
       "1153": 2,
       "541": 1
     },
+    "3d719036a26c1ad2666d39d433c4812bff7068b44b82918e5e35a44c9640e483": {
+      "1678": 2,
+      "674": 1
+    },
     "3ecd712b9b8e748397d5eb00ae54085daca99b743c7c4d6d9b5a7f0940d104e8": {
       "1518": 2,
       "714": 1
@@ -32201,9 +32265,6 @@
       "1203": 2,
       "433": 1
     },
-    "43c27b06275187c094491cdc05f8b9e5f21412f4c1f3d9b26058e89ff13f1dfa": {
-      "553": 1
-    },
     "43c5a395cca8fac30930ab91d79ee49f5f88ec199f6ed1131abc5692dcb206e9": {
       "1870": 2,
       "883": 1
@@ -32214,6 +32275,10 @@
     },
     "4497a17a5a18e3c48b4f54d29bc815e38a836d95617d6b256c75cd612f51e7b6": {
       "570": 1
+    },
+    "45540fb5cf1d8f928bbbe1ff221b592dab340835d8529c8c9cc30a5488e103fa": {
+      "1615": 2,
+      "587": 1
     },
     "464a85c24e9c3b8975e4b436e0644ddfbf1424319e6234e1d485396a851e91bc": {
       "1226": 2,
@@ -32305,6 +32370,9 @@
       "1448": 2,
       "544": 1
     },
+    "4b2102ee206ac4aefc33d69aa6b5e929acf98ff4f5137108054be0f19dc0302b": {
+      "579": 1
+    },
     "4b2c0a1bb5bfd5613a7ee795979025624d5bba8403e6291d36862eab2444fdec": {
       "1246": 2,
       "593": 1
@@ -32326,10 +32394,6 @@
     "4c7d2e72b1f3a2423f68dfe446ae40b27635211dca34d810631cdb1130fd7bb5": {
       "1160": 2,
       "441": 1
-    },
-    "4c88e4b3e33dc24fa0e3e49ec5c54f26e985e8593326004abf4b3d8f4f2f04bb": {
-      "1411": 2,
-      "530": 1
     },
     "4ca2eb8838401dd784d1deac750efa4672143b6168d85ed13ddf3283fd91dd38": {
       "1007": 2,
@@ -32587,6 +32651,10 @@
       "1101": 2,
       "558": 1
     },
+    "5edf4eec6bec48896d5689ce6da53eac517b4f8d7ba8456bd901538db608df42": {
+      "1359": 2,
+      "621": 1
+    },
     "5f379f287f20cfe6ecbf1e8cca53b8fe694e380f7ba282555ec04e293d62a574": {
       "466": 1
     },
@@ -32620,10 +32688,6 @@
     "62647d5fd780267b5affb19914d73bf8104bdb8a0cf4e16ffe0d78b0efe8155c": {
       "1462": 2,
       "663": 1
-    },
-    "6276d176729f52713bbe29dc7731fc3ff2c7a71f2caccd56408d3c73bfd07d4b": {
-      "1325": 2,
-      "456": 1
     },
     "633da82eb032e30ffa1308b1be14212f7e5146b071053f839fbdab9fb661ea5f": {
       "1203": 2,
@@ -32675,9 +32739,6 @@
       "1049": 2,
       "489": 1
     },
-    "66cc9deb5e2d42314079ba422bd48e6d2c3beada71be26a329fcc930484429a6": {
-      "439": 1
-    },
     "66d85355c4ffec7b5414b602d0d310715cbf966b23b9438530c86ea0430d2555": {
       "1309": 2,
       "463": 1
@@ -32701,6 +32762,10 @@
     "67d56d7d7150c4df218002f8192a3995e617061a702f706e6326bb48f9729772": {
       "1616": 2,
       "743": 1
+    },
+    "6827e011e6973cf730876cac27e8068a50a98283cba1e5b90437ee64cdbfe172": {
+      "1367": 2,
+      "552": 1
     },
     "688be456c889f299d25d40cfd2f213dadb73241764e015af835c15f9f6c59b2f": {
       "1313": 2,
@@ -32837,9 +32902,6 @@
     "744580baaf34f894f4c91183235cbba8dfa5131f58ab08c58ced29145535b938": {
       "1318": 2,
       "438": 1
-    },
-    "749a1238f0e6d5197532dba3ba8c1baff987e2489f6cf298b14ac3fb12bc0ed0": {
-      "382": 1
     },
     "749bd15ae173e6ec4cb3dccef5ed2045ac1ab103015cda5808f7b8889b4b4f39": {
       "1439": 2,
@@ -32983,10 +33045,6 @@
       "1503": 2,
       "488": 1
     },
-    "81f5af1a8fe203524bd65e0968567b7077fcf5cf805c9ad846a6ed9f428b3595": {
-      "1374": 2,
-      "560": 1
-    },
     "824395f741d8c1019cbce8b6d3a4376bc58c6848338ddea1b7d7758e9e9c0a6b": {
       "1369": 2,
       "413": 1
@@ -33002,6 +33060,9 @@
     "8311e7c03ddaafd0150867aa7ed872921b2ab307cd3011560d0e65025e7890b4": {
       "443": 1,
       "990": 2
+    },
+    "8323a4ada31d9e0a819926513b7a6faef2ac5cbfa4036ffb4629f9bcdf3a954a": {
+      "610": 1
     },
     "8352cf307c35ad0df7d0e8b1933dc02cbdf902474e54fe103bf5ba7972229c04": {
       "1229": 2,
@@ -33030,9 +33091,6 @@
     },
     "84c0b220f44bcd70809562c6267f11d8ac7f865191ee29409f75c468d48e06be": {
       "463": 1
-    },
-    "84d1156cd91e36cba934caa304cda7e5f21562ee6b56da5dd5786baa8bcd6e99": {
-      "410": 1
     },
     "852594600c7e77012474d041ca23d81f0b5499cffdb907e6ad17de5e904c897c": {
       "339": 1,
@@ -33115,6 +33173,10 @@
       "1467": 2,
       "590": 1
     },
+    "8e7e7862b99a42c2e30698c99aafd4d992137cbdd8a8599c596fee7dff699b7e": {
+      "1393": 2,
+      "546": 1
+    },
     "8e7ef39e0e752dd9477075a7c010616921e05361956889fa787a214acc9ee77a": {
       "1304": 2,
       "423": 1
@@ -33141,10 +33203,6 @@
     "9077dd7b04befd73dc6fd2c5788360ca046f2709592e9b68fb01b5221d7c6fec": {
       "1525": 2,
       "642": 1
-    },
-    "908c019bb8599ea31dc14e63c6f5b42be21ad671c1b7567054016ae710a09221": {
-      "1056": 2,
-      "474": 1
     },
     "90962e1e6f30f8add8f6560573a175407340605f865817305698775e4e4b911b": {
       "847": 1
@@ -33222,9 +33280,6 @@
       "1107": 2,
       "444": 1
     },
-    "9727e23c3548335c78b30d9020dfb36b043ea9138bb34bc4d395b2572b03f52e": {
-      "510": 1
-    },
     "973f94023f6d0d1807984c716fcdaa567a97cb11b172dae5ebc25ad7fdeab228": {
       "1250": 2,
       "440": 1
@@ -33292,8 +33347,16 @@
       "1483": 2,
       "528": 1
     },
+    "9bd35aba18f52947b474e8743580bcf29e2bac269fa214be2aacb5ed3151bfba": {
+      "1764": 2,
+      "692": 1
+    },
     "9c10e9726ab7fa016e0c286fc3bbb07a3219318d85f0dfef7f2cc8a0e77eb5d1": {
       "562": 1
+    },
+    "9cab32386ea72fc41b6eb50634527174804e2fb73badea3a76602d27778db2b7": {
+      "1663": 2,
+      "773": 1
     },
     "9cd5bbe159317b9d71cc950e3f1ff176198b9413bcdd30e4fe1e43551551e843": {
       "1065": 2,
@@ -33402,6 +33465,11 @@
     "a2b11bcbc1175ca5fa1aaba8aa3e3ef623bc5ba2c1ac356db685703c45abfc35": {
       "351": 1,
       "957": 2
+    },
+    "a2d806077f38d8d7d847553a00304c54cdb50f3b152b144c15189c8c6f5a4932": {
+      "1512": 2,
+      "2337": 3,
+      "620": 1
     },
     "a318e3af5b79e3a8dcfa8e01e7d5a5205ab5a9b90c760ec7c9a12222ba4efede": {
       "1002": 2,
@@ -33558,10 +33626,6 @@
       "1001": 2,
       "371": 1
     },
-    "b064f9c1774e9a468f2e94e3a48095234e50384705740466b130db56535400a3": {
-      "1133": 2,
-      "387": 1
-    },
     "b09f2fec8d2dd0afe13f88d3ed35a30e0478e5ea4f31dedb2bacf04d1052dea8": {
       "1818": 2,
       "686": 1
@@ -33645,9 +33709,6 @@
     "b6f4a88be9e35959c1858b6830fb1f0b537d6a77939dfd6be60386785df8c89f": {
       "1349": 2,
       "671": 1
-    },
-    "b741f68ea70f3a481b9748402d2b62849d7fe91823d0ce4b09679676ff01588a": {
-      "460": 1
     },
     "b7e02b97714e84a6a32682452f48da93d439c458ff0fc221c95de34e37b483ba": {
       "718": 1
@@ -33880,6 +33941,10 @@
       "1370": 2,
       "535": 1
     },
+    "c92154e315979b45f0beabd175da0eec95173310e2b10fdbd0986cbc47a86ecf": {
+      "1548": 2,
+      "547": 1
+    },
     "c9552b5b6e1924ab576754fa31cb2993f1dae52782b7f7eb6e92c496319bac39": {
       "547": 1
     },
@@ -34049,11 +34114,6 @@
       "1198": 2,
       "471": 1
     },
-    "d5a42cd95bc752c9d1f8a577812c61ebb3511bad3c1026bd6429581bb25967aa": {
-      "1289": 2,
-      "2006": 3,
-      "491": 1
-    },
     "d5e5b6d8f53d6c529b57950f25f3b65ea19c8e4aa70cf1f79f1e324c5fca389b": {
       "394": 1,
       "916": 2
@@ -34099,13 +34159,6 @@
     },
     "d975daeb6f70f9c6b930737b8dd135f6d9f68804caab25bd72d5001d0583c8b4": {
       "512": 1
-    },
-    "d98b473873a0c5910f990962ed44f99cba62803238ae2975f1c32e8c22f466fa": {
-      "573": 1
-    },
-    "da08a6f851c653eb238b43d123bf956e24f4626ed3d1277e32b619e21923520d": {
-      "1134": 2,
-      "457": 1
     },
     "da0ffbf7f020869540de9586e1899b0f0dc1dbebb38c5ee1829db651d2822789": {
       "2021": 2,
@@ -34260,10 +34313,6 @@
     "e6a0fa4829f3e87c2c2804655c071dfee04db0b107a6d7a341eddcf2f1b56640": {
       "349": 1
     },
-    "e6d3cd7933c03eed32ef77af4bade7f71ea16c9b9af654392d55f622cdbb7e1f": {
-      "1276": 2,
-      "443": 1
-    },
     "e7a7a74c39170d8871e16991cc39fa1499facfbfe939dd26dbc269038233105a": {
       "535": 1
     },
@@ -34286,10 +34335,6 @@
     "e87a1499847dea46702b2eedfe01ebc4687316d57f652f29091a5e9f8bd52702": {
       "1377": 2,
       "652": 1
-    },
-    "e93aa0f64b4acc4643591aac6503fcb4b43c4d61a593c38d18b122288fa8f9aa": {
-      "1189": 2,
-      "410": 1
     },
     "eb632c4a0da9b0d855db183401c20db7f323bc5e36756f865edeaa83b6510a5f": {
       "1444": 2,
@@ -34325,10 +34370,6 @@
       "1474": 2,
       "2481": 3,
       "677": 1
-    },
-    "ed60cc0a813522d1d84dfd045807fd36b96338b1e490ae52182d19efb564b695": {
-      "1482": 2,
-      "617": 1
     },
     "ee5b83dd9501a9e2506320a3f165f6ea0260eced6d82a000d96d646ff40453d1": {
       "1528": 2,
@@ -34371,10 +34412,6 @@
       "1132": 2,
       "518": 1
     },
-    "f11649c026623269e0cfd47eb8665a7099b6defe3486efe395ceb18aa945bdd8": {
-      "1273": 2,
-      "586": 1
-    },
     "f119128014d5253e8d6099e72c96debc029fa6d66e3ab8861532e7c38207a2a3": {
       "389": 1,
       "992": 2
@@ -34390,6 +34427,10 @@
     "f1c38d51ccda0932debe7295cd4cdb6def6c91ded2fc6d139c510998ffd22cf5": {
       "1122": 2,
       "535": 1
+    },
+    "f22163d4cccd1ef5ad80cdbb460cfb7d5294dce032cd651688c71e4c917b36fa": {
+      "1859": 2,
+      "943": 1
     },
     "f281b96760f7b81ff6da48eafc68c1e1c9faf615ebbde8b23ea7bc41acd339c7": {
       "1250": 2,
@@ -34532,6 +34573,9 @@
     "fb767d9cfe2ea70235bd3112108a0e40c5671c7183ad0d8c366d0bc979dd1309": {
       "524": 1
     },
+    "fc436329a4797be874c02c506d2ce70cfe1704d4222ddbeba1e76307eb41df74": {
+      "626": 1
+    },
     "fc8a3ff69e746ea8fc8e15053e3f5a7399649f557cfdf161afe185e25762d21d": {
       "1908": 2,
       "630": 1
@@ -34582,999 +34626,5 @@
     }
   },
   "pack": "LoreForever_Voice_Female_MoreQuests1",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_quest_422-f19861b1afaaf8663324/1-0000.mp3",
-      "sha256": "e7802d664472eb019aefc1fbc36766c826f5f3d57e8299b7bab7f7a413c682a9"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1503-ddf631e0a6089a1943b0/1-0000.mp3",
-      "sha256": "3b11172f0ecd502c30d36933870822b202a9ababe53f4e996fbc3e9d6189e434"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5041-333f99d95198601e7514/1-0000.mp3",
-      "sha256": "8fa99686913f211839dc0543c1dca98c32b0b213a877103e18d2e2d9ce26f107"
-    },
-    {
-      "file": "Audio/Transport/full_quest_819-ef1324835b4de3b1bb0e/1-0000.mp3",
-      "sha256": "c8933f0b4d330b790bfb6dfeb6e711c7fa0f7df3f7efdfa7ef687e58f56af31f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_871-9c2fca32b9da3251624c/1-0000.mp3",
-      "sha256": "58853d1cc7994ecda7a0a81bd39cec17eb7abff23b5edda942e48777460e9520"
-    },
-    {
-      "file": "Audio/Transport/full_quest_872-6a07c611329e0180db8c/1-0000.mp3",
-      "sha256": "84a9352f88294cb45c741f86b190f83ff3d445c2cab242c6fbfbdbbb1631788d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_11-bc417b0bfb3cf46627db/1-0000.mp3",
-      "sha256": "1f464042e4a4831b077c14dd3974fad7250a9e1c7f9f9da31cbee5651f854d30"
-    },
-    {
-      "file": "Audio/Transport/full_quest_112-5fe5f2312faefec2950a/1-0000.mp3",
-      "sha256": "ec0397d10ccc3e39846c6d3a206639bb561c95a26b9c7ad806e9a13beebd3060"
-    },
-    {
-      "file": "Audio/Transport/full_quest_114-5d91959917b01c318b8a/1-0000.mp3",
-      "sha256": "452b76f3d61436f87d5d3aa93ed27d61ca6719217760edd124dd9ec71e42b6ee"
-    },
-    {
-      "file": "Audio/Transport/full_quest_119-0f4f8bb92b065e7b3686/1-0000.mp3",
-      "sha256": "b8b0ba3e36e29797a933a5e1c636e326bfe75e9a5f6b47ef97fa173d603b85ea"
-    },
-    {
-      "file": "Audio/Transport/full_quest_123-dbb7dbfd65e2a7f102ed/1-0000.mp3",
-      "sha256": "1b13ec8955260e13f1f122079beab81d5533f346f2301aa695578c51e719bf3c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_147-f3c143fe7ccf91f2f96d/1-0000.mp3",
-      "sha256": "b0f1c785fa7b5dc0f9239dbf11e8ce98d33c4b26b329b0b27804b77b4ae53cab"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1470-0877b0779f21080e07e6/1-0000.mp3",
-      "sha256": "496bc38275827ec4bc77cdf82a8b623ecbeda25f3c25dc5095f94500be5196f7"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1485-c2bded8f1e6d8c4b4acf/1-0000.mp3",
-      "sha256": "d378f81b3ba09b23015b0a28772829385a248d228623b38c53f5add3982ab761"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1499-ccb2ea41da5b1a464aca/1-0000.mp3",
-      "sha256": "5fc48b2d80b525b4b0ac936fdd4694f43830b1f29ee745b296b636637caa49f6"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1516-5cafe131d280d5d79a9e/1-0000.mp3",
-      "sha256": "14672979f811e6c49c23c4f7a724ff970b5efe4f9c0e02618da0887b10121a5f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1518-ac13fe06433d2adc359a/1-0000.mp3",
-      "sha256": "18f41918d7031bced399a0ab3bfb276919f55a0d4797c801ffd2e8caa5a073f7"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1521-e8fbfafdb215207e15bd/1-0000.mp3",
-      "sha256": "4758f3670a442aa486b2d08834b8e51f1cfc6822a46fae883432a47334e80bba"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1525-42769afef22ac4b6b0b9/1-0000.mp3",
-      "sha256": "e3bd5cb43d24188e20a668c24772653de26fa5e99a36909a963de9e10794fd9a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1578-6ee1af86f5caef371d38/1-0000.mp3",
-      "sha256": "f75328d37e8d69e7be19b37b7d8c4616488a4c18237f1bcb804caf368fde9bc3"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1581-12138b0d7927260699f7/1-0000.mp3",
-      "sha256": "ef18c5e7bbc47d0123acbcff2247339b27418145b46d7b639af3e9914360ec83"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1598-5849655a6e544d16cb1e/1-0000.mp3",
-      "sha256": "99ba2d77f0bb4f678000cd8d9670a8c15c36c579b6dc6725772e9b1e223d50ad"
-    },
-    {
-      "file": "Audio/Transport/full_quest_16-09299614ace62bb8be1f/1-0000.mp3",
-      "sha256": "8e40c2d929bdd81f5b7861c9ffcb75faa87d5fb83a20a1593bdad445767101bc"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1688-31336c9dcab8f70343ab/1-0000.mp3",
-      "sha256": "96a0d6611a01650053eb66cbc616a43109354ec6cac59e4db46ca56c1810a3e5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_170-fb68066e30e94f44dd5c/1-0000.mp3",
-      "sha256": "8bf96a5ffe281256e080e9d97eac01f59e92f7471583623c6be2f96eb758b2a5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_176-10c19684985e2b597cdc/1-0000.mp3",
-      "sha256": "b528f16fd16fdf8643c0f9422351d11aa83ba3a5112e4e77f84454eb9837fe76"
-    },
-    {
-      "file": "Audio/Transport/full_quest_179-fb436b9b0d194cce593f/1-0000.mp3",
-      "sha256": "cf93b6d9f3a94db4db003fc18a27d67e2a2ed17780058175d6f15f6c808adec0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_18-7fa1ba6257d5f9051fd2/1-0000.mp3",
-      "sha256": "ced0c97095256a492571d5b198c513abebe24faa8b7b104f35e5813b5adf1db6"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1819-128ca50a93a69fb421de/1-0000.mp3",
-      "sha256": "cedfb3b3dae42312f30c9e49ea972937dd1b865c99a9f0b6cb546ee9061c631c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_182-d62d3648a2c2e145d786/1-0000.mp3",
-      "sha256": "78460d1acc3c21892ff499273ec47a162141d7e4a1d29dfaf64e2b0d98951ceb"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1820-3f40e47d2fdfc6fda19a/1-0000.mp3",
-      "sha256": "4062bf0f2de9fcb7b116dd97771e87fbea92daaf9215b5a89c7900e1829d8c73"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1821-f228bd7c414b122eb61f/1-0000.mp3",
-      "sha256": "af0c8275218198736a241a3ba41a94da9d25ddaf612803bfc57a12198e67d2de"
-    },
-    {
-      "file": "Audio/Transport/full_quest_183-7d3e483fdf6792f0cee7/1-0000.mp3",
-      "sha256": "fc35238aefeec7800f103f4fdc3f69b828114d2a03ab35906e3b5ee605ada5c8"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1861-37ef7f81efdb4121d85c/1-0000.mp3",
-      "sha256": "46c8b5b6670454d63b541a4ac8ae7674eeb990a759b5a4c1ffd6032a46e6e077"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1879-6a9f7e4580ac128813db/1-0000.mp3",
-      "sha256": "4adb4747d93bafdaa04f96906ca98aa92cc3926d5e373e85dd8e36be86f4446d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_21-b21a53011fb396c73b9b/1-0000.mp3",
-      "sha256": "92ccb4a9ffb771f3155ff71df158b3aa85d726b61d048da7009ab9c09ad31c36"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2159-9d35a6e8814ed0233d43/1-0000.mp3",
-      "sha256": "ed5578533c63953e7da145d67aeccbf8f8c6ff1389aa8bc89d69edec3e24d2ed"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2161-44b500bf0cc10c96d938/1-0000.mp3",
-      "sha256": "491a762d05451940fdde7cb26ab3b00a542cd6372f51bd4656840c84fbb9fb8b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_233-d3849ecc9271e04f6dae/1-0000.mp3",
-      "sha256": "fa12202a905407673dc67ee9bf692142e69daf3c86ce404c0e487022ba980a48"
-    },
-    {
-      "file": "Audio/Transport/full_quest_239-ff29f09456d8d8fe19bd/1-0000.mp3",
-      "sha256": "c13e267fa01622ba7fd6dcb4d28686728e8ee496f285a38f9241afd920e4db86"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2399-7064c1b5664fee6b6d22/1-0000.mp3",
-      "sha256": "fe093d7a76d93ed235f8771367ec3b8eb5892d997c4db6abb2c04f172e92877a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2459-ab87acda9f88881c10c4/1-0000.mp3",
-      "sha256": "57236bfd13317b7b1a996fc3cfab285919f0ceae8c766203b48c6bd0eec22c13"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2499-92acd40a926cb234521d/1-0000.mp3",
-      "sha256": "fadc43abfbc6b33c9d004041391c7f5f9f4fef1d41a9fc6a52364ec62052c433"
-    },
-    {
-      "file": "Audio/Transport/full_quest_282-ffc9ec61130268530de6/1-0000.mp3",
-      "sha256": "14082a4c7683e201b4b9dc831d8d477cf29356a266bd40493c3a7e001cb839e9"
-    },
-    {
-      "file": "Audio/Transport/full_quest_287-84f5b350ce2eb9439f3e/1-0000.mp3",
-      "sha256": "05fb51e251bf6dbe1361156137a107958b9cc64cdd32ac6bfc2e0f9c8938da38"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3082-f1cd672cf706fcbb041e/1-0000.mp3",
-      "sha256": "b6c537d372419732630a9258a3863664d0e784a5a4c85b83f955e934139749dd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3083-eb4811db9b19ac453788/1-0000.mp3",
-      "sha256": "fa691d5ed7aa7cce8f11a1944ea4bf965908f6d89d7a3599435dd8802179b458"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3084-bf45e00c75fef190ad2b/1-0000.mp3",
-      "sha256": "5db78ceb2bc6fe60016fcfa2a22ea154332571f785d8d946a4bce6a65c65f4b3"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3085-8f2571341fa85584fd74/1-0000.mp3",
-      "sha256": "727f8cca3a29b897b038cf5e443c5d093ed6d8b055e2c0acc437f46efbf56347"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3086-7016c81936e5b625d802/1-0000.mp3",
-      "sha256": "02b412b64a5467351c4631d056380c39ac185c27452cca9c0ffe65a63d19cffe"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3087-ce44bb94a3ced1f82219/1-0000.mp3",
-      "sha256": "2dbcb8e799d994ed6e11cea82c875b7f29034cbe02eab6bf29d0c0530a7ac19f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3088-9d4cecd5d8f3f321ebbb/1-0000.mp3",
-      "sha256": "a678496ae9e2fc765db2a0474e78f37fbffe975d53d7ede471328314440bdc6c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3089-7204d84794a84a16b16a/1-0000.mp3",
-      "sha256": "77ba38662e6bbf7fc73df6b1b05289dab32ce8decc3bb62a24278566e9dc8a0e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3092-d6fe5dac1aab120b5d87/1-0000.mp3",
-      "sha256": "b57203b3f4afeb0d8e6b71897b74444d3910f30d0fbb06b73b68c6b1a363eed2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3094-57cbd9d30c918a791b89/1-0000.mp3",
-      "sha256": "c118da7fe7482a5ec6ab61a6d0e70e2ee220d34111f221d10265f4ab79836fd5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3096-d21019ea9da451a5e287/1-0000.mp3",
-      "sha256": "27600f897298af8ffc31c199998a87d8a9736034f0270519f537b0be85062d2c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3098-838e8795dde1060fb0dc/1-0000.mp3",
-      "sha256": "de86b9ab1f83e6e5953ca0e81753ba7c0b5089d52f68486c1b33cd7ddd95c028"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3103-10ecda72725b6a08eb21/1-0000.mp3",
-      "sha256": "9b10542fece957e9ca0f677cba0c6717c05dd7c07c71281cc431945c73018d0a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3104-a38ca782de38e54798f5/1-0000.mp3",
-      "sha256": "4fe610988ef846831bfa7281ea174daddd5457286eb278db416b43154882e283"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3105-82706fcf0b00011a8807/1-0000.mp3",
-      "sha256": "27c0005640a216a0509b5fd9263d8197eca07e53480a034ba5b3dbf6d08fdbb1"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3106-72779c10d6375061644c/1-0000.mp3",
-      "sha256": "a1e461e0cf4d6c72469731af0fb98b92a37a7c1482aad3b7bc1c09e098d45d97"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3107-c850ae619f02b03d883d/1-0000.mp3",
-      "sha256": "046d70a53db9bda6165d62e331d47296734e5e1f27cc959159f31ad5ee90e84b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3108-1dff11d05c6f7f511c35/1-0000.mp3",
-      "sha256": "a9b8bf0db08bf6d7d82c4fc69262ae37492c222132dd8f163172695855e7f461"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3109-bd92dd8b445f1be1c20b/1-0000.mp3",
-      "sha256": "53c74724c437ea53e8a6936d962e460bea838d1e78f3e9b85521a76c1efcde96"
-    },
-    {
-      "file": "Audio/Transport/full_quest_311-d89c76cd4771250f1200/1-0000.mp3",
-      "sha256": "a66b5fe9ac23da763bd200f3e1baa69016ae89f557fe20b86d455ff3ca17c51d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3110-39942e0efb469543a965/1-0000.mp3",
-      "sha256": "bc8333b6de480e0606c56acee6980c40080ce0f8160e2e8c2a4e502f31b2da02"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3112-436042464ae6afcc3006/1-0000.mp3",
-      "sha256": "dc1574db9120275c1cfcf9a3e5bf8d093e2c602f95ad5909ba774e1acb93b2fe"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3113-3e9b712462e70b41b772/1-0000.mp3",
-      "sha256": "8ca956e629629ac794fdd47dd19d4e55ef426ce9ac3c7436e76233c28c972e90"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3114-77cbbaea25d8ccdbd5fb/1-0000.mp3",
-      "sha256": "4fd8b37c50ddd423d11ecbc2cb04fa096892415f74e7f4be2a056cafafca5115"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3115-7f27e21a6decc3176872/1-0000.mp3",
-      "sha256": "6f2b4c746e2cff192a0c04153696cfc2978c4ef8392537140a16e23c5f308c0b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3116-6e29bdcdeb048602d58b/1-0000.mp3",
-      "sha256": "bf956e02e4b07fbcbf5ffd9b6648ea8aa9c9dd5c919f02ca40fa417b0ed3d029"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3118-3fb527dcc42a9924d837/1-0000.mp3",
-      "sha256": "bb2b2ac78ae6589a4f5bc0f8d2bad4e4e3772825b352f245fc0c21971005c17b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3119-0644e89cdcf43d90eebd/1-0000.mp3",
-      "sha256": "f7480acf57aa61e512caabddf08f41fb507bfb644427a2722a9b971a1a0bcaeb"
-    },
-    {
-      "file": "Audio/Transport/full_quest_312-3e7c5dd9eb4e64770840/1-0000.mp3",
-      "sha256": "dcfd3aad4badb40fc4c47e4aa232bfa71c035908aa2145e64b8019b760afcdcc"
-    },
-    {
-      "file": "Audio/Transport/full_quest_314-51e91de7a04d20bd7ac8/1-0000.mp3",
-      "sha256": "01a3f5910bcc2af9c7d4fe59f9755bf7d76dd6158def2912c2ee8014c1e33c2a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_315-243516095b8d132b25d4/1-0000.mp3",
-      "sha256": "2b5ba890286bf48cd087b8c561c1ee517dcb1afbf211d9eec461e6046b0a5dd8"
-    },
-    {
-      "file": "Audio/Transport/full_quest_318-b6f0431faed74d2a994e/1-0000.mp3",
-      "sha256": "f38556e4949e71866f16c6dc91b21bdadb6a45c4986709dbe3997205dbbeec62"
-    },
-    {
-      "file": "Audio/Transport/full_quest_33-65063ea756751bc09899/1-0000.mp3",
-      "sha256": "9f9d0a2572644f3ac5a9ebde22b980545d05798b9a13f23312ca47fb3841263b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3364-70b7890893eea96582e2/1-0000.mp3",
-      "sha256": "ae6739b3be624cd58cb2051b96bc869ac9074b5be08df12043b51395516a9c89"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3376-c335bcdf516a826ecde6/1-0000.mp3",
-      "sha256": "0ec10c207cc67638d0938240f696f7ac8682dedc029334eac7ab5b409a6d3d6a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3519-ed1a4dacd90771c1fcbd/1-0000.mp3",
-      "sha256": "ec602530ed467506863cddc3c1a1738171cd3c1c92dec1c946a92bb2bf9e8edd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3522-6249b560ad336a7d00ce/1-0000.mp3",
-      "sha256": "e9ab9e9d07ebf432450fc5be89a36406472f2a6b7ec361c41cc56fdda2cfe2dd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_356-4ba3c49a9eb087970bae/1-0000.mp3",
-      "sha256": "2521b15c27b2af6dd976fa1f2f931eea8a7958ea8c4a8e2ac6369e6e5e430d05"
-    },
-    {
-      "file": "Audio/Transport/full_quest_358-4242053955fd05d4ed8e/1-0000.mp3",
-      "sha256": "41ac1655a40ef898adbf2a2f83ef11a2911ee38dbf2defbf91c2e1be1a5dc90e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_361-58b7ccf8d8319f5e4402/1-0000.mp3",
-      "sha256": "857a0dc608acf27235cc25a411cc44c51cd6a1dc6d5c743dcc23a94b5cb73910"
-    },
-    {
-      "file": "Audio/Transport/full_quest_362-6dcb4f4d3317cedd2be5/1-0000.mp3",
-      "sha256": "cbbf15eb710098958ad880878e127a110790bce8dbaf431a5606472ddb37849c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_363-1f01cc2813c335f9d0a8/1-0000.mp3",
-      "sha256": "cd17b77c28e058a5344952daad9753057f6edf7818b80c2ea7a515ae0a91fc0b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_364-b064ad80e3a4b1f36b81/1-0000.mp3",
-      "sha256": "7a20ea2404caeabd6107eec2142746646ee41c4eae9e92f8009a9ffa993c25b7"
-    },
-    {
-      "file": "Audio/Transport/full_quest_365-3e0dc368857faed2941c/1-0000.mp3",
-      "sha256": "3410c0a87ba45d2f4ebd07305e1afb689efd722339d3dedc547d87ebaf89d292"
-    },
-    {
-      "file": "Audio/Transport/full_quest_367-2928b120eb3f1b54f5b9/1-0000.mp3",
-      "sha256": "24c3ea89893d92c7907dea113abe7aca8bdd28992ab14b74e1c58fbb3a7b32aa"
-    },
-    {
-      "file": "Audio/Transport/full_quest_37-411f929a0409eccf9793/1-0000.mp3",
-      "sha256": "625741da135cefbffd6ecf987260625e639844ee8497c132950fdae6c935771e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_372-11c86bf0659579ad0b65/1-0000.mp3",
-      "sha256": "8e26e835e0644298ac80b639c2bf22bbaad3ce8c107ba603d74260011606903c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_374-6ad733cccbcaf713e1c6/1-0000.mp3",
-      "sha256": "950ab0166883acce0d6784ae0fa6eb996cc4ab919f2d0d54de619026fa4c7c6a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_375-46e3321a21c488977041/1-0000.mp3",
-      "sha256": "11f2c42888856e94bb7f130a6856639bf0698daadc3024e19d0e4947ce9f1ccf"
-    },
-    {
-      "file": "Audio/Transport/full_quest_380-28fd6d89bf39358f1248/1-0000.mp3",
-      "sha256": "f3b6cf71ca454112973a9f763de74c9915d89118778b7fedd7009daa2a8c2f26"
-    },
-    {
-      "file": "Audio/Transport/full_quest_381-29e40f1e07e74505c2e6/1-0000.mp3",
-      "sha256": "9989abe851129e2d3e0d97067b2d07866e3da847c95350c694ddac1a4c1b74a8"
-    },
-    {
-      "file": "Audio/Transport/full_quest_39-ae68217fadf448619f24/1-0000.mp3",
-      "sha256": "4fcf35f95d6d4b79c164c60b80f54f618a5d3fc3b4f27e32e4d9fdb7d10b37d6"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3901-7591ffb6f0c84c69df7f/1-0000.mp3",
-      "sha256": "a305eeb45d1e1caaff0c044c46a49e4abde60b85136e837f24a8712973468ea4"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3902-95ec51cc933869d05dce/1-0000.mp3",
-      "sha256": "09a77d8f62d667d7fd8c98d308632c04b1d5b5dc8740f26abaed991f52b6426f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3903-49110d0aea0ce2316879/1-0000.mp3",
-      "sha256": "ffc9ada52ea766998f5a1a7beaa291a7ff96094c9c8c6260ae67c42b9ebf89c0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3904-358dd612e4ce9004cbd6/1-0000.mp3",
-      "sha256": "507d4a116e6349f9d66f4c1171ac40afbaa4baac0ff6d57b80903b35a319c9c9"
-    },
-    {
-      "file": "Audio/Transport/full_quest_3905-d21d8b03e222eaa01ad9/1-0000.mp3",
-      "sha256": "7017a5a7382df72b1555a39683fb25d4bca175b42886fc7698c1db32e7296dbf"
-    },
-    {
-      "file": "Audio/Transport/full_quest_398-06591187b3fcccc952e5/1-0000.mp3",
-      "sha256": "4f4c3e8959c96e56220801864ec4f8c8a9aa9572b5610978e1f2b14b018cb7f2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_40-4317009edfdbfc5041f7/1-0000.mp3",
-      "sha256": "d9da23abb13f049e40b07ebcb811c7e84357837e56eae5826b3f5f9a04c35f67"
-    },
-    {
-      "file": "Audio/Transport/full_quest_400-b5e7900821d1e5120bad/1-0000.mp3",
-      "sha256": "dda95551425f9dbb77276625e403ac04641339b39bfa21e3c5b35f05849a87b2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_403-ea89fdca6c06b0b0c3bc/1-0000.mp3",
-      "sha256": "5807c1dc3f643b3335b373665a6b13a116240a12560ddbf83e7b050c68cd8cdf"
-    },
-    {
-      "file": "Audio/Transport/full_quest_404-87451187d1875c6ee092/1-0000.mp3",
-      "sha256": "f562a8db82a3d5e8558f9a78996e3966eee6df4b050e4a2eee4885a17a9c0a1f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_407-e26e889dffb1f5fde14a/1-0000.mp3",
-      "sha256": "cc43057c7d3c7dc39c8c3dc4307ac865139fdcfbc503be0acb8bc4f4baa7836d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_408-3c0a48e8e091bde19781/1-0000.mp3",
-      "sha256": "562647aa0f0e03a09f40e44895d803f025582ed37433ef8d587f5361529f5b3b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_409-c2e8fd27a22f338e6fb2/1-0000.mp3",
-      "sha256": "131642e5a258667971edcf416aa081927753defd32f342ca003e190dc1f18d53"
-    },
-    {
-      "file": "Audio/Transport/full_quest_410-2efe9ca1669af76e39ef/1-0000.mp3",
-      "sha256": "5d364fa57bed51d42a4641d56e03107de8792e10feaf925bd5bb8cf0a78f891d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_414-b6a29a0f2dbd25bfdd0b/1-0000.mp3",
-      "sha256": "7f8c8e818366978392cee42697c38c026fe4f90f4154fdc4a84fa687dafebf64"
-    },
-    {
-      "file": "Audio/Transport/full_quest_415-1a308ee1037fd2ab7a22/1-0000.mp3",
-      "sha256": "6573ca8c97ab1361e26cd8567a0344f61ba50afc753cf4bfde26cb75cee8b6fd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_420-45debebfe93a9bb8c106/1-0000.mp3",
-      "sha256": "36d4f3bee2d6b9f57bd9cbfdbc4c2f8f8343a9754aec23f49f1a2a6c64521ee3"
-    },
-    {
-      "file": "Audio/Transport/full_quest_426-c9cb66f356846a3d7653/1-0000.mp3",
-      "sha256": "abaf6815b7024ac0be4c39c618ff54c82a6e22461ca98a06b2053d9271b47d37"
-    },
-    {
-      "file": "Audio/Transport/full_quest_431-8d9d4805d4d5cd3121e1/1-0000.mp3",
-      "sha256": "22da373fafd85e0a9432f982052ba2ee130a8df71d25ea097aeba4ba5ddd3ec0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_433-607b3acfb77ab4740b49/1-0000.mp3",
-      "sha256": "927c2e9052c709b0e8680ea17cb5888a55bb5fb20f9ffa7e34818d7cc78681b4"
-    },
-    {
-      "file": "Audio/Transport/full_quest_4495-67a327e6508d457c0b05/1-0000.mp3",
-      "sha256": "d2581f6705490fc376cd25a95987cea78f7785121d988f48e8f0b8078271ea95"
-    },
-    {
-      "file": "Audio/Transport/full_quest_45-4ce37f1575cb8342f7bd/1-0000.mp3",
-      "sha256": "3a5bcd9559e74b72066f872abc8398d283195c3dfef751f375cdbe4f23435783"
-    },
-    {
-      "file": "Audio/Transport/full_quest_456-15c5bcec3b097fd0327b/1-0000.mp3",
-      "sha256": "cc563eb66e4547ef505263f79507d0d986ad46da55d90ad2708e1db6ca622015"
-    },
-    {
-      "file": "Audio/Transport/full_quest_457-cca1821473b561dd8094/1-0000.mp3",
-      "sha256": "12bbb21eaf57aa3303ae67cdaef6e7c68833e7398a3b0a612a3334a51e2da115"
-    },
-    {
-      "file": "Audio/Transport/full_quest_459-0cd0cc8a201afbbb9a11/1-0000.mp3",
-      "sha256": "b6bd5c38bfb6003220d086935a7b871341e2d65bff1060feedd84da7e3ad1954"
-    },
-    {
-      "file": "Audio/Transport/full_quest_47-7708b6fba878cdfc320f/1-0000.mp3",
-      "sha256": "f9303fa3bea2c744fbf455c27ab5b71b6e77cbb103b7538ec7410dfebff3f5ed"
-    },
-    {
-      "file": "Audio/Transport/full_quest_489-87029e745025d40b0f89/1-0000.mp3",
-      "sha256": "b3abec63f3a531aca3bd84afe9de6d6742eafbc4b93074db3a7975b65484a93d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_492-4758b7c23aec9788fc3d/1-0000.mp3",
-      "sha256": "088f806292358171ccfad461fb85ce3a4912144337c027c048a8e838e8ca957e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_52-2ee031a6e73baa31b885/1-0000.mp3",
-      "sha256": "849c7b9ae513496fff376b6ecc791294534114c76fd2e46c3f1a2b57fff49a19"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5481-969f159ac91086d695bb/1-0000.mp3",
-      "sha256": "6ab62cef97054d57a682eeddeff3dc6a4b4b509d79da4f9abb04f379007b0e4f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5541-443a049136c35a6b42bb/1-0000.mp3",
-      "sha256": "24ba28f61146e4d8ccacc68784f89be82389a8446747d45a56da205f948fb5f1"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5545-b3dba8723e94c6d8d679/1-0000.mp3",
-      "sha256": "6839f1b80dcacdae88efac694fc1ed707bd4175f41640cb98ab19881b80bd88c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5621-a29f6772ad19f24a333d/1-0000.mp3",
-      "sha256": "57c3a140e4ed61638bac1c17bb24635abc2c65d799312c8cc839954deba2ae3c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5622-7959409e7bc72ae2dffd/1-0000.mp3",
-      "sha256": "28ce33ead2c12662c8702ca548cd61100269937084bc09e7fb7d83bc5645afbd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5623-e4825d8e1b44703bd10d/1-0000.mp3",
-      "sha256": "aaf6f2ea10e64cd18a61e959a67a61f5769b8014cb52f0c0e673c6c8b2240e77"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5624-f4f993b25eab8918842d/1-0000.mp3",
-      "sha256": "100655b3e01fdc7da18238b9a808d06fd3e9cf00bce37263719a93530559768d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5626-166e9276cb6edb9cf820/1-0000.mp3",
-      "sha256": "b972ab1a663271dde295ade1ed5006610429cb31c9ccea36e41935fba8aab705"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5636-87b1d8bb03ffbf475239/1-0000.mp3",
-      "sha256": "141d60e3747f5d9a89170bafc9637587d8836523c627a17e6d0eafd47a5033bb"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5648-002cc408473a64945ca4/1-0000.mp3",
-      "sha256": "fcdd30df3eb9ef0402734fa6e94abde3b7dcf27bae02aa9ed2ad2429a2e006ed"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5650-daada4abcea2821259b5/1-0000.mp3",
-      "sha256": "a260b74f4622c7b5d0e90ba656b37f239226e134b27b38079f8dc3e6bc5d204b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5651-2b40135078f077461bdf/1-0000.mp3",
-      "sha256": "790bbea15bfc9189341e74656dac87143a720fa86cb44141c9adcebc6717d970"
-    },
-    {
-      "file": "Audio/Transport/full_quest_59-ab08a0ddf33da91f5051/1-0000.mp3",
-      "sha256": "45982c41254b103f09bcc0137fb6d877311a173f6f10e461ddc9d4a4fea0fb11"
-    },
-    {
-      "file": "Audio/Transport/full_quest_590-20f45fa2282d6af22575/1-0000.mp3",
-      "sha256": "a1cf03538c6ebe75f1e5905ba5d75837fdd9cb507196ac5e6f73eef29c0184d4"
-    },
-    {
-      "file": "Audio/Transport/full_quest_60-2da7a09491a74e16da31/1-0000.mp3",
-      "sha256": "dee8de6df7ec4609d4f39ccd1dbfe0a6df10a45c80a5231022dd82b261a96107"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6061-cc577c89bcf45deb39c1/1-0000.mp3",
-      "sha256": "0bd0cdc897e4c13fe89b8efd2b8fd6c36a46f2ab19433e302a59bc25a87d7fb7"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6062-4ee167932db7b624130d/1-0000.mp3",
-      "sha256": "76c5156a60615609b21c692effc4990f3e483dadd692df7e7d7a72a3070c1260"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6064-d5fda590d74b62c0d52d/1-0000.mp3",
-      "sha256": "6ca1282ff552612247d7baf50aedc664e38e28ecbff7983f57cb89cfaaf195c3"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6068-2af5400ae4dc40e1fac8/1-0000.mp3",
-      "sha256": "083d3c2610724b35c7444698e0e825bb0d9b40320d6b8683831205909c4edf30"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6074-f40f51389421452716bc/1-0000.mp3",
-      "sha256": "c9413c69d0888f9be52e130fb9b02f6c2a2ca02e3d23296dd062f6a851478513"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6083-09c8cc8736f9c39e2d0e/1-0000.mp3",
-      "sha256": "a21dc567732b97e7cffde23373c59c0b10d622cca65fa8b9b881f9d9ce0be995"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6084-c3734c40d3f000171b30/1-0000.mp3",
-      "sha256": "f35cef50e60cede2e103129ebc474f52e6ff5df26a60f083c25f95b3fa41525f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6085-fc6ce110977904e73df3/1-0000.mp3",
-      "sha256": "9a603dcd4fa1064212a2a3b2f35357e7532a02d1ba830067785ebcef49142c84"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6086-afd674a62528bd2ab4eb/1-0000.mp3",
-      "sha256": "ef0236d615031c8e1049ddaf2355648dff7ab9e4091b6082a6adb682e6f0c772"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6087-ff5de0b8d218015e8151/1-0000.mp3",
-      "sha256": "14dcfdc63dc27e3d522f44ddd4efaffaa0b45ec3198feb3d95b37bc24c982220"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6089-a6c510bce7dc74beb73f/1-0000.mp3",
-      "sha256": "315d2fb56a5defb68df0bca183ed7c960aa2ccae02c9f2b98b873c4b680e6574"
-    },
-    {
-      "file": "Audio/Transport/full_quest_61-e0d1dfe5617cfed9c59f/1-0000.mp3",
-      "sha256": "613a4686aee084436bde772d6c22b431e7d3d0edca6b072b44db6c89fbecd5dd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6102-b6408fb4da9f59784c04/1-0000.mp3",
-      "sha256": "53d09fa9e1aaf0cc7fa26c0088062c9e90f76b7f31ce3041703a172d5a9473ca"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6103-95824d11326fd4ae53aa/1-0000.mp3",
-      "sha256": "8a03531f9ecb9964e9f695a41325697ea0ff02b8dc6aec0791ab15bc809ad2d0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_62-ffa76af611ac7a794ce0/1-0000.mp3",
-      "sha256": "727b8c505acd1f008f10800d41f3a184619b94f272ca8a28bb6c2115ef1b1f87"
-    },
-    {
-      "file": "Audio/Transport/full_quest_7-704689ca30c74866dac1/1-0000.mp3",
-      "sha256": "9ea11d5f13a94656a3e9cd3777589ebf339f43da7fceb39868830b9e1363ec97"
-    },
-    {
-      "file": "Audio/Transport/full_quest_71-6c389c9718b199fde953/1-0000.mp3",
-      "sha256": "887effa43a99a4898ac245b38eda8ebe01f901ecca08726cb0d5434c650bf3c2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_743-5b173bb9d3a987e3a4ac/1-0000.mp3",
-      "sha256": "8be60bf38b1f660524d31aa4f8b83d078dfabf0075c86cc4fa29a950c2224907"
-    },
-    {
-      "file": "Audio/Transport/full_quest_745-6e2bf7526323c8a585e4/1-0000.mp3",
-      "sha256": "8583f42ca463f05036ff8a3890acb41a721f0bd8aba01fcd9e73d2ce2578aba5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_747-0c5315200a67d24b9e95/1-0000.mp3",
-      "sha256": "54f8cf3f6b632ddf6f5b0ee0ae92e44ef302c48ceb9931c7de6626f7fe4b1637"
-    },
-    {
-      "file": "Audio/Transport/full_quest_748-ead79600b8f7ec3b465e/1-0000.mp3",
-      "sha256": "8465d3553099d169f3132a427ff66a4a0135c88ee0e5ebec7d7722580e641754"
-    },
-    {
-      "file": "Audio/Transport/full_quest_751-54672bb318d32eba67d9/1-0000.mp3",
-      "sha256": "78c00b75741dadc60e4a434ec248be73ddcab742bc59cc2b308430466c0aac26"
-    },
-    {
-      "file": "Audio/Transport/full_quest_753-f1b827fd035d4f86b8b1/1-0000.mp3",
-      "sha256": "e06a832793230fcbb36fadbbf3ce00613e3f89167c57695870aa0f2675ee45e2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_754-0386b2e9e9e20e9554a6/1-0000.mp3",
-      "sha256": "759017a3feb1ee95d7962004d6fa1fce74d767bf957ba0db0423ff5b8168b79d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_756-7483fa4d678d051cc63c/1-0000.mp3",
-      "sha256": "3ada88aa910dfb5b79871bc1275cdf3a97417232f6152b68e79416f481bac01f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_757-fa296155d93c86b1dd9b/1-0000.mp3",
-      "sha256": "0f706c6ddd82df46f919090cf3a7c022254bf94dc428ab396d5fb3cd9d7e9339"
-    },
-    {
-      "file": "Audio/Transport/full_quest_760-33089097acf1d8db2f89/1-0000.mp3",
-      "sha256": "256e431a06a2d39d605396efb5196463bfd575652658a5f4c32a7061eb457a78"
-    },
-    {
-      "file": "Audio/Transport/full_quest_761-e4514029ecd018475275/1-0000.mp3",
-      "sha256": "465cd3678e7f2552ae6211cd81f783912dec45ad96473f7166d4b011b56b1978"
-    },
-    {
-      "file": "Audio/Transport/full_quest_763-ff925e578cf13299f180/1-0000.mp3",
-      "sha256": "e92b158f5fff666559cdbb0d15a51fb2869cd454ed12078bf239c64f944b02a6"
-    },
-    {
-      "file": "Audio/Transport/full_quest_765-818b6dd59bcfd9c27a55/1-0000.mp3",
-      "sha256": "b6774725fbb57bb0caad92476c6a0eeffdaf4a67fba9ecaafeaf3892e7fd01c6"
-    },
-    {
-      "file": "Audio/Transport/full_quest_767-fc5a0efd422af1c7d82c/1-0000.mp3",
-      "sha256": "73816e77472e596160140c4279162cdc21cd62464b6f6cac43f5215d2d7fd7ed"
-    },
-    {
-      "file": "Audio/Transport/full_quest_772-f1edab384ee457d714b8/1-0000.mp3",
-      "sha256": "eb2da780d982bfe63acb81c7b9df9f5b8e794a3dbe2889cc109b5849874b67db"
-    },
-    {
-      "file": "Audio/Transport/full_quest_773-0d3bd19a09be769dfe27/1-0000.mp3",
-      "sha256": "d0878c23ecc54eb88e773304802d1483dd44fbac54d0ecbb7bf87fe8ad091d3d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_775-d965adc99e4bc02bb9a5/1-0000.mp3",
-      "sha256": "45730cd6b8d8450d8066399e455dd2cd052026b06cc3f815a4dc93e4ee409013"
-    },
-    {
-      "file": "Audio/Transport/full_quest_780-0e08ee867b3de239d9ba/1-0000.mp3",
-      "sha256": "3123c28e81cfc7652be8a4f22b88b678adde65d6cc34153d2bffe34ec1d1e264"
-    },
-    {
-      "file": "Audio/Transport/full_quest_781-227645928c09b4d11d84/1-0000.mp3",
-      "sha256": "e952f0be1023a50df5f6131120f8270218fa997bb5530d09acc423ef7d70f6ab"
-    },
-    {
-      "file": "Audio/Transport/full_quest_784-315debf344b3b75d0c49/1-0000.mp3",
-      "sha256": "1a0dabfa438b5e359edbcfa4e453e804952fea3921772262345132afb4b5731e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_786-6d4f9029ecc0e3b838b9/1-0000.mp3",
-      "sha256": "c31c427bd591e914528c786ad9b265a4fca66ea204b61511e91f2818533132f4"
-    },
-    {
-      "file": "Audio/Transport/full_quest_787-3198e325d7900a1c9afb/1-0000.mp3",
-      "sha256": "67feb339aa10648d731179a6d8ec467604cd6b42f7acd97c4ea37d677b442780"
-    },
-    {
-      "file": "Audio/Transport/full_quest_791-c9caf26a4968e4948e73/1-0000.mp3",
-      "sha256": "c004e10abe2b1d3a68b568336b18896807866f2b1d9b1b6bb97cec0ac6197d13"
-    },
-    {
-      "file": "Audio/Transport/full_quest_792-03efa2390d8cfdc4936d/1-0000.mp3",
-      "sha256": "d81c836caaafdb93458e8d80cf4d355591cb6d6d3814e8f36fec9ab48a936b41"
-    },
-    {
-      "file": "Audio/Transport/full_quest_8-17b64508ad53e4e14037/1-0000.mp3",
-      "sha256": "3886e02669375e8f7e6d1bb6debe69b5e9d4939414061226a29fc2e7c072c6ab"
-    },
-    {
-      "file": "Audio/Transport/full_quest_804-33fdd3af54850e6e9244/1-0000.mp3",
-      "sha256": "54ae8a6f333279c83116587191060770a924622e7f4cd36a388b785225b80d4b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_805-de5eb2073518261ba048/1-0000.mp3",
-      "sha256": "0c4f31d5b0642f97b979bb99984934a889b5ede2000f079238542235ad567412"
-    },
-    {
-      "file": "Audio/Transport/full_quest_806-4b56beb52d9dc2385ae4/1-0000.mp3",
-      "sha256": "d1547b9db9847a1b92bfef106895f494965d99bf274e5b5118723c9f1d1fc6e4"
-    },
-    {
-      "file": "Audio/Transport/full_quest_808-f1aec5e7466b64610099/1-0000.mp3",
-      "sha256": "19a014b33b494b4ff9da3ece013de82bad0b227fdd4e2ee0e180a361afb08061"
-    },
-    {
-      "file": "Audio/Transport/full_quest_812-d5701803bec823242874/1-0000.mp3",
-      "sha256": "ecd5c41e12a2593ad61c68b1accf8072b01f9b340114437bbf88b13673d5bb22"
-    },
-    {
-      "file": "Audio/Transport/full_quest_816-eaefc8e78c5082debad1/1-0000.mp3",
-      "sha256": "f4893bb20af2692a9ee5c4279d821b7c28876095ee30f7053f4dfa2d36a3c473"
-    },
-    {
-      "file": "Audio/Transport/full_quest_818-cf103e78453717874c4d/1-0000.mp3",
-      "sha256": "84378458e0e1482113a56fd2a29007cc82701cb8aed33e13d685d7236c267f3b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_823-efae1e305c49ab498467/1-0000.mp3",
-      "sha256": "22735fadc02014b2797921035092ffb544eaa3ac3d781b8b0e22410fedb37f74"
-    },
-    {
-      "file": "Audio/Transport/full_quest_825-305f5f802ed06750a5ac/1-0000.mp3",
-      "sha256": "34cc1d134ea41304979d4bebc0084d9bc4d750f7ae712534f67bbafd0247805f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_826-4ee8536f852f697bed27/1-0000.mp3",
-      "sha256": "4e3c4ae92ce30c4d44fddaebac4e7d572ef68316b54839045edf12753894d925"
-    },
-    {
-      "file": "Audio/Transport/full_quest_827-da02d2719f57573110f2/1-0000.mp3",
-      "sha256": "1cf9e5b76373c5b9cfd04dd87a8686222d536a2f961d1e5f5a8a42e40253eaf5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_828-a72f1fd4c9e82e6e4e15/1-0000.mp3",
-      "sha256": "c67f02bbd9b0cf5ef35fb59e240e2dd54a7fc5182a1617d0303df1d1729e0180"
-    },
-    {
-      "file": "Audio/Transport/full_quest_83-6225e022531e7f8488fe/1-0000.mp3",
-      "sha256": "92510451b7b0b7588f3c5ac9f16e68d796a4764086dd0350e35f865d462dbc6c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_830-6bbce4a1a0a2e5151d93/1-0000.mp3",
-      "sha256": "6a9f4c9377013a7a8a786b4c07dc1604e8c9a7941c63ec864c66a3b6b08455f9"
-    },
-    {
-      "file": "Audio/Transport/full_quest_833-fa1383ec2404c062ff29/1-0000.mp3",
-      "sha256": "fcf7ea7055a09ffe54c858896e644163a899e62440b266c1218f99f43f36fc6c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_834-338a30452a6be36822e9/1-0000.mp3",
-      "sha256": "12589e236d755307ceef75d6ac6d2e3e77e4e0017a8876157de0795f0c3e8d55"
-    },
-    {
-      "file": "Audio/Transport/full_quest_8357-4f02d0df93e6ca2bfd5c/1-0000.mp3",
-      "sha256": "104b3e352a62b1153740b06f4f2e782ee0972cae6092d192fbd76b3433c84818"
-    },
-    {
-      "file": "Audio/Transport/full_quest_84-98e165b9ce2df42f1ec1/1-0000.mp3",
-      "sha256": "c7d3a95f3010f86c2b1c3da6640c74fc1fe44d39f42bebcc54adda2d1650740a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_85-f2d99ef1a8b169cd31f1/1-0000.mp3",
-      "sha256": "73a5699b4a7b7627e5bdd98839fcec7fefe2aa95fffc85b58cb1630d00cd40df"
-    },
-    {
-      "file": "Audio/Transport/full_quest_861-997210198ae8e9843260/1-0000.mp3",
-      "sha256": "eb8172d710103742a05ed9842b99cabb455e408ec3b5da24e888d1160ce23735"
-    },
-    {
-      "file": "Audio/Transport/full_quest_8649-5c996d9df343c61c735b/1-0000.mp3",
-      "sha256": "88c852bc1f670c938f54cb889a83ada4cf3c13103d05d99a1e5b112ed864aaed"
-    },
-    {
-      "file": "Audio/Transport/full_quest_8653-eb6f6a973bb10d4871cb/1-0000.mp3",
-      "sha256": "003d6b891b0972a10c0bfa160dec45721b7b48551db6ef9ca4f5cb1ec7541b67"
-    },
-    {
-      "file": "Audio/Transport/full_quest_8673-aa2d5327aa30c2532bec/1-0000.mp3",
-      "sha256": "bae9c7b67e81ab2be21e626883ab8f6744b7ce12fcc4d3da905abf4eea222e77"
-    },
-    {
-      "file": "Audio/Transport/full_quest_86784-216e014355d497229b82/1-0000.mp3",
-      "sha256": "514de2f0bdf894b04892ae1fd6d4e133587921944bf6e3c7a3e639a16c62424a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_87-f3503da075b6c57d47e7/1-0000.mp3",
-      "sha256": "54fff00070689a06970dc7924bb17285493600380a962758408e884046e1fa67"
-    },
-    {
-      "file": "Audio/Transport/full_quest_88-ebe171fd6d887ce79052/1-0000.mp3",
-      "sha256": "623d4486bbd699fd77937dba778e95edd4a0660d432272b575bdb3d507f29dc5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_90902-ae94bcdda4055178bdb9/1-0000.mp3",
-      "sha256": "da84ba10255789764515d5502d1b508c16e0887cbc50284d5578f9c50cf9fb7b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_91208-42c74526e3ff45bb37a7/1-0000.mp3",
-      "sha256": "d18e1ee8f4ec4346af890945e95f72365765f0cbd3b92ed15df0899adbeb8fcf"
-    },
-    {
-      "file": "Audio/Transport/full_quest_91209-456289c81bd489e34058/1-0000.mp3",
-      "sha256": "32f292c5bea17fe0fe84c3d6c8e9ec73725ba735247d36c302818555d417a0e9"
-    },
-    {
-      "file": "Audio/Transport/full_quest_919-cf0734cffa13e732941c/1-0000.mp3",
-      "sha256": "fed136a1a6d0b223684e77e216f763a4b350200e17d7ab2e487b45b483f50005"
-    },
-    {
-      "file": "Audio/Transport/full_quest_921-d204ba74e9378bd0637b/1-0000.mp3",
-      "sha256": "743d39bd7dd4e19d9bc35da57de10c1c70245522ea15c844422aeae7410060ee"
-    },
-    {
-      "file": "Audio/Transport/full_quest_92124-c5fb292f2bda822121c3/1-0000.mp3",
-      "sha256": "37367031b3bda2e792f97d2a2594a587067224fe6c1f22e85bcd587c73c3c38f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_927-0102ae531c1f017cb9ca/1-0000.mp3",
-      "sha256": "9273a400f18e481f767b6382a5b4cced1b233f578a70bfef2e512df41e18f613"
-    },
-    {
-      "file": "Audio/Transport/full_quest_928-21665f710c8b69bc5435/1-0000.mp3",
-      "sha256": "6e2e39d1fa2cbf9e0a1b1cf6c46b0a1748a245702479a56f79c1d59d285b223d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_929-51c8b5bddfab8fe26d2c/1-0000.mp3",
-      "sha256": "e2f16b442f08c42af6a49e17efeb3aa5ceec3c8f7cbc48fb9aa79ad6da916515"
-    },
-    {
-      "file": "Audio/Transport/full_quest_930-2c21aff5991cfd3885ae/1-0000.mp3",
-      "sha256": "5786fdb5cdad5bd385b0406175410cdd1c1815f0e5b2e664d6ee4d6b882b8fc8"
-    },
-    {
-      "file": "Audio/Transport/full_quest_934-195afb49b9d88b39ed78/1-0000.mp3",
-      "sha256": "a35c6e1f93afd77672395a0049dbbbd99fbe77cc250cb32e3ff08679c9cfb079"
-    },
-    {
-      "file": "Audio/Transport/full_quest_935-4fc517e341d98a618946/1-0000.mp3",
-      "sha256": "380b7229f3a197de4067b14ff90bdee807befe5f29f19f09bb4d2850902646af"
-    },
-    {
-      "file": "Audio/Transport/full_quest_937-c833b151bc272192e75e/1-0000.mp3",
-      "sha256": "3c9a4b02ca3140bc0c0f327f42eb0c64b2020ef6e5e7eb79e41a35e96e53fdc7"
-    },
-    {
-      "file": "Audio/Transport/full_quest_940-8df71050831f6f4eae2a/1-0000.mp3",
-      "sha256": "c1ffa4540b7d62bbc4f008e157e684f5892a99a8eb2f764522ae90b5f27cdaef"
-    },
-    {
-      "file": "Audio/Transport/full_quest_941-7dcc0be618f93583b36c/1-0000.mp3",
-      "sha256": "3e8371709276fa0b00efe123920e331c208caeadca60aa4049b5c52668169535"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95041-ceb845cab97181cbb7f4/1-0000.mp3",
-      "sha256": "1642be4f9186d2fe0aff9bc62d83af0fd6b4751e55ead8231ff657c6627926b1"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95314-d4c75701fefa9d953605/1-0000.mp3",
-      "sha256": "0006e502ffa677401ad99563151d2ca339bb3712941186329244b76ab35b6ac2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96390-4d1bd45478cf319fd0dd/1-0000.mp3",
-      "sha256": "f9d0309fa12433a0b3aeed84c96defc9c550c965ab5bd4fb9bceef0d9aa4c22d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96391-bfca91deda07b3f32dc2/1-0000.mp3",
-      "sha256": "6a9650a7c9aaac7b5d7b29c96ed815ff7a37c2e8df5a060206c97cd7fe7f921c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96392-2f59f98f9e290efea849/1-0000.mp3",
-      "sha256": "32c4ef2f2d508958995663aadc042f99e9e7a22fdf98b4e5b016cfede1f3a68e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96408-1731bdac6c8f1779177b/1-0000.mp3",
-      "sha256": "cee46a6c1e75ae9ab3024416607100bf8bdeccb98bd6b999575803db98ad9beb"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96607-2c8377485568eddb51ba/1-0000.mp3",
-      "sha256": "00491362fa51505d1ea1cfb8342ddc04fc8bf32cf6a32c96dae0d0d32f53c919"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96628-259046f91dea10dad20a/1-0000.mp3",
-      "sha256": "72d73d715bdea2317494b35ef40854887f63f129badfb2031746599e9cd0cbd0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96652-74bc663552982dfeae58/1-0000.mp3",
-      "sha256": "fe79f5bb582f1300a8220e9157105bcfe758fe17ba36b3c9fa7e364f034bf6b8"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96658-7c1a1acd85e8c8db778a/1-0000.mp3",
-      "sha256": "286caa37b09e4c1a4a419a9ca420473cdf6ee036dd4adaaf57de5a4f063f870c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97279-0b86f65ddb4ec7f76ff3/1-0000.mp3",
-      "sha256": "018e6403d9533465425394b6c2b0ea1a75c320c9aeed2eb23fe36ca9aff576ad"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97558-e16acf8253c0416c44f2/1-0000.mp3",
-      "sha256": "31a77107b6fa2ed875be216441bc247fb7113b84d71949dca51598618ddd20f6"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97920-13e7533147118b79a69d/1-0000.mp3",
-      "sha256": "a0eb2ea4627b0fe1537ed732d51fdac710923e140c808e8b24e0952d67b05ebb"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97957-fd072ec77aece1d5e88e/1-0000.mp3",
-      "sha256": "9309e13612836278b03c3ea2f6c38009a3df46c32ff3c6e964aa8ec5f00f4e96"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97960-53fd4da3d4ab85857a14/1-0000.mp3",
-      "sha256": "c9c038f0ea0a7d72b23437098cd73239933cc53e1f6eacbae593b2cdc75e5107"
-    },
-    {
-      "file": "Audio/Transport/full_quest_98389-aa8b013be30e8cae7a0c/1-0000.mp3",
-      "sha256": "a501c0f68253aeaa57db070fc1a041dad9cfa7be115c8f9630f6f06ff3836e44"
-    },
-    {
-      "file": "Audio/Transport/full_quest_98576-33813fa49f843ee13863/1-0000.mp3",
-      "sha256": "23a952cd4d099f585a3cdad8b9ae87bdfc87328fa06d8f74c58d5e60067a5d2a"
-    },
-    {
-      "file": "Audio/Transport/full_quest_99134-89f0654cbdc614e7c878/1-0000.mp3",
-      "sha256": "6562062a2fef3d3e6fe686a8c26bbf300de5458ccd09d5d50081193b019a688d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_99141-0b4a8d3884d9a427d2ea/1-0000.mp3",
-      "sha256": "66047a3a2a617b816e6b664339be1fe2c34d412cf9b1fbf9aec70fa3592a5652"
-    },
-    {
-      "file": "Audio/Transport/full_quest_99156-7a8869e7b4b40c35e52b/1-0000.mp3",
-      "sha256": "d6ac9e09a1c76d1af5d33c05a63873a05b03db07fd774a1455f71f5ec28b1e32"
-    },
-    {
-      "file": "Audio/Transport/full_quest_997-d805a386be1aa43b1d46/1-0000.mp3",
-      "sha256": "7955747e5f0e95b4d615d68eea7f1d2685f4b9685044d726a679f7f5b959e40f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_galgar-s-cactus-apple-surprise-c91b21e018c6fd0598a9/1-0000.mp3",
-      "sha256": "7c414bc74c22ca42cfb5e0e7e61192d80aea5033ea23acf9f75a2a4bde0b8a60"
-    },
-    {
-      "file": "Audio/Transport/full_quest_lazy-peons-42434482c19d298dc27c/1-0000.mp3",
-      "sha256": "6fd2e353add77f06f97ee817db959316dcd42310ecced10e3e675ef1d6253f67"
-    },
-    {
-      "file": "Audio/Transport/full_quest_sarkoth-c0aab6ea207bbdb82dab/1-0000.mp3",
-      "sha256": "c752f7229be7f072cfb530e98c32c77cb6da5f7cea74395daadd3daa599eb04e"
-    }
-  ],
   "version": 1
 }

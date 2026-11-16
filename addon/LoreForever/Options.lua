@@ -342,7 +342,7 @@ function Options.VoiceSection(c, anchor)
   -- Three kinds of voice that never stand in for each other (voice pack layering, option A: Mike, 10/21): the narrator,
   -- the quest givers and Willo. Each has its own part here.
   local narratorHead = heading(c, L["Narrator: stories, places and people"], volume.note, 16)
-  local intro = note(c, L["Each story plays from the first narrator in this list that has it, and the ones below fill only what it hasn't recorded. Use the arrows to change the order; untick one to stop using it. A new voice pack goes to the bottom."], narratorHead, 6)
+  local intro = note(c, L["Each story plays from the first narrator here that has it. Use the arrows to reorder; untick one to stop using it."], narratorHead, 6)
   local box = CreateFrame("Frame", nil, c)
   box:SetPoint("TOPLEFT", intro, "BOTTOMLEFT", 0, -6)
   box:SetPoint("RIGHT", c, "RIGHT", -24, 0)
@@ -396,7 +396,7 @@ function Options.VoiceSection(c, anchor)
   genderText:ClearAllPoints()
   genderText:SetPoint("LEFT", gender, "RIGHT", 4, 0)
   genderText:SetText(L["Match the quest giver's voice"])
-  local genderNote = note(c, L["Quest dialogue in a voice of the quest giver's race and gender. If a quest has a page no such voice recorded, your narrator reads that whole quest, so it never changes voice partway."],
+  local genderNote = note(c, L["Quest dialogue in a voice of the quest giver's race and gender. Your narrator reads any quest that voice hasn't recorded."],
     gender, 2)
   genderNote:SetPoint("TOPLEFT", gender, "BOTTOMLEFT", 30, 4)
   gender:SetScript("OnClick", function(self)
@@ -670,33 +670,34 @@ local function rows()
     { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
     { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
     { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
-    { "storylineChat", L["Storyline hints in chat"], L["When you turn in a quest that's part of a storyline, say in chat who to see next, with links to its recap and to what's new in the story."] },
-    { "recaps", L["Storyline recaps"], L["At a storyline's turning points (before you head in for its last fight, halfway through a long one, and when it ends), the narrator retells what you've done so far. Never during a fight."] },
+    { "storylineChat", L["Storyline hints in chat"], L["When you turn in a storyline quest, chat says who to see next."] },
+    { "recaps", L["Storyline recaps"], L["At a storyline's turning points, the narrator retells what you've done so far. Never during a fight."] },
     { "minimap", L["Minimap button"], L["Also show a book button on the minimap. It glows green while you have new pages."] },
-    { "pageSlip", L["New page notes"], L["When you find a new page of your chronicle, a short note names it at the top of the screen for a few seconds, never in combat. Click it to open the page."] },
-    { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel."] },
+    { "pageSlip", L["New page notes"], L["A short note at the top of the screen names each new page you find. Click it to open the page."] },
+    { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest window opens the quest's story. Shift-drag it to move it."] },
     { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."] },
-    { "subtitles", L["Subtitles"], L["While a narration plays and the panel is closed, show its words at the bottom of the screen, in step with the voice. Shift-drag them to move them; Reset windows puts them back."] },
-    { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong: a name said wrong, the wrong voice, cut off. Right-clicking the player offers it too."] },
+    { "subtitles", L["Subtitles"], L["Shows a narration's words at the bottom of the screen while the panel is closed. Shift-drag to move them."] },
+    { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong. Right-clicking the player offers it too."] },
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
     { "showSpoilers", L["Tell me everything"], L["Story passages and answers that give away what's ahead wait until your quests reach them. Tick this to see and hear the whole story now."] },
-    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive or find something new, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
+    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
-    { "autoZone", L["Play narrations as you arrive"], L["When you reach a place or find a new page with a recorded narration (a person, a topic, an item), its story joins your playlist and plays in its turn. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
+    { "autoZone", L["Play stories as you find them"], L["Stories for the places and pages you find join your playlist and play in turn. Never in combat or on a flight."] },
     -- (a community pack frozen before this wording, Italian and Romanian, still has the line as it was: its own words over English)
-    { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest read aloud as you open it. If another add-on reads your quests, Lore Forever turns this off by itself, so you never hear one twice. With it off, the play button next to Lore still plays a quest when you ask.")
+    { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest read aloud as you open it. If another add-on reads quests, this turns itself off.")
       or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
       or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests. The same switch as in Willo.")
-      or L["Hear each quest read aloud as you open it. If another add-on reads your quests, Lore Forever turns this off by itself, so you never hear one twice. With it off, the play button next to Lore still plays a quest when you ask."] },
-    { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; Found ticks the ones you've heard."] },
+      or L["Hear each quest read aloud as you open it. If another add-on reads quests, this turns itself off."] },
+    { "skipHeard", L["Skip what you've heard"], L["Don't replay a narration by itself once this character has heard it. You can still play it any time."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
-    { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
-    { "capture", L["Keep the quest text you see"], L["Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it."] },
+    { "journey", L["Remember my journey"], L["Keeps track of the places, people, foes and quests of your journey, for your journey page. It stays on your PC."] },
+    { "capture", L["Keep the quest text you see"], L["Keeps the quest and book text you see, so you can share what we're missing at loreforeverwow.com/contribute. It stays on your PC until then."] },
     { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
     { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
-    { "updateNotice", L["Tell me when a new version is out"], L["Once, in chat, when a newer Lore Forever is out (%s tells it, or this version is a few days old), with how to update, then not again for two weeks. The minimap button's tooltip says it too."]:format(ns.COMPANION_NAME) },
-    { "getWillo", L["Suggest %s"]:format(ns.COMPANION_NAME), L["Until you install %s, Lore Forever's free companion app, her small glowing icon sits beside Journey, and one line in the chat says where to get her when Lore Forever has no answer, at most once a session. Untick to hide both."]:format(ns.COMPANION_NAME) },
+    -- (:format: a pack with only the older wording, Lang.REWORDED, names Willo through %s)
+    { "updateNotice", L["Tell me when a new version is out"], L["One chat line when a newer Lore Forever is out, with how to update. At most once every two weeks."]:format(ns.COMPANION_NAME) },
+    { "getWillo", L["Suggest %s"]:format(ns.COMPANION_NAME), L["Until you install %s, shows her icon beside Journey and a chat line about her when Lore Forever has no answer. Untick to hide both."]:format(ns.COMPANION_NAME) },
   }
   -- No Suggest Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.
   if not (ns.Companion and ns.Companion.OFFER_WILLO) then
@@ -711,12 +712,14 @@ end
 -- alone, and journey pictures reach the journey through Willo's picture book.
 local function willoRows()
   local out = {
-    { "talkMark", L["Show who can answer you"], L["When you target someone who can answer you, a small mark beside your target, and a line in their tooltip, says which key to hold to ask them out loud. Never on enemies, animals or other players."] .. " " .. L["Right-click the mark to hide it."] },
-    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys, above. This option hides your interface for a moment, except in combat. Turn on Picture book in %s to keep your journey pictures."]:format(ns.COMPANION_NAME) },
+    { "talkMark", L["Show who can answer you"], L["When you target someone who can answer, a small mark shows which key to hold to ask them. Right-click it to hide it."] },
+    -- (the fourth: the tick box's tooltip, for what the line under it leaves out)
+    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Hides your interface for a moment when a journey picture is taken. Turn on Picture book in %s to keep them."]:format(ns.COMPANION_NAME),
+      L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys. Except in combat."] },
   }
   if ns.Journey and ns.Journey.PictureBookOn() then
     out[#out + 1] = { "automaticPictures", L["Automatic journey pictures"],
-      L["Take a journey picture when you level up, defeat a boss or first reach a zone or dungeon. At most ten a day, never in combat or on a flight. Turn this off to take pictures only yourself."] }
+      L["Takes a journey picture when you level up, beat a boss or reach a new zone. At most ten a day."] }
   end
   return out
 end
@@ -851,7 +854,7 @@ local function subtitleSizeSection(c, anchor)
   move:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Move things on screen..."])
-    T.Tip(L["Drag the subtitles, the new-page note and the pin card where you want them, for example off your character or your action bars, then click Done. They stay where you drop them. Same as /lore move."], "tipText", true)
+    T.Tip(L["Drag the subtitles, the new-page note and the pin card where you want them, then click Done."], "tipText", true)
     GameTooltip:Show()
   end)
   move:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -940,6 +943,15 @@ function Options.Create()
     desc:SetText(tip)
     cb.desc = desc
     cb.tip = tip
+    if row[4] then   -- the detail the short line under it leaves out, on hover
+      cb:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:AddLine(label)
+        T.Tip(row[4], "tipText", true)
+        GameTooltip:Show()
+      end)
+      cb:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    end
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
@@ -997,7 +1009,7 @@ function Options.Create()
       move:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
         GameTooltip:AddLine(L["Move things on screen..."])
-        T.Tip(L["Shows the new-page note, the pin card and the subtitles. Drag each one where you want it, then click Done. They stay where you drop them. Same as /lore move."], "tipText", true)
+        T.Tip(L["Drag the subtitles, the new-page note and the pin card where you want them, then click Done."], "tipText", true)
         GameTooltip:Show()
       end)
       move:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1029,7 +1041,8 @@ function Options.Create()
   sentBtn:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Mark shared text as sent"])
-    T.Tip(L["For optional quest, gossip and book text contributions only. After sharing at loreforeverwow.com/contribute, mark that text as sent so the next upload carries new lines. Your journey syncs automatically in %s and does not use this button."]:format(ns.COMPANION_NAME), "tipText", true)
+    -- (:format: a pack with only the older wording, Lang.REWORDED, names Willo through %s)
+    T.Tip(L["After sharing text at loreforeverwow.com/contribute, mark it as sent so the next upload carries only new lines."]:format(ns.COMPANION_NAME), "tipText", true)
     GameTooltip:Show()
   end)
   sentBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1050,7 +1063,7 @@ function Options.Create()
   windowsBtn:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Reset windows"])
-    T.Tip(L["Put the panel, the floating player, the minimap button and every pop-up back where they started, and show them again. Your journey and settings stay. Same as /lore reset."], "tipText", true)
+    T.Tip(L["Puts the panel, the player, the minimap button and every pop-up back where they started. Your journey and settings stay."], "tipText", true)
     GameTooltip:Show()
   end)
   windowsBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)

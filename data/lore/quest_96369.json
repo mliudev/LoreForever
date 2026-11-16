@@ -1,0 +1,87 @@
+{
+ "key": "quest:96369",
+ "type": "quest",
+ "name": "Bad News for Folkar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96369
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Folkar needs the news gathered after the Naga attack. You carry word of King Wrynn\u2019s death back to him, a report with grave meaning for the Alliance.",
+ "sections": [
+  {
+   "title": "Word for Folkar",
+   "body": "Many Kor'kron died to learn what happened before the Naga attack. You return to Commander Folkar with the news, and the strength of the Alliance may rest on what he learns.",
+   "spoiler": 0
+  },
+  {
+   "title": "Folkar's Reply",
+   "body": "Commander Folkar learns that King Wrynn is dead. He mourns the Kor'kron who died, but believes their deaths brought valuable knowledge. He says Stormwind and the Alliance are vulnerable, thanks you for serving the Horde, and plans to leave and find Sergeant Ulka.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What news do I bring Commander Folkar?",
+   "aliases": [
+    "Folkar news",
+    "what happened to the king"
+   ],
+   "answer": "You tell Commander Folkar that King Wrynn is dead, killed during an escape attempt before the Naga attacked."
+  },
+  {
+   "q": "Who died to learn this?",
+   "aliases": [
+    "Kor'kron deaths",
+    "who died"
+   ],
+   "answer": "Many Kor'kron died to learn that King Wrynn was dead."
+  },
+  {
+   "q": "Why does this news matter to the Alliance?",
+   "aliases": [
+    "Alliance vulnerable",
+    "why bad for Alliance"
+   ],
+   "answer": "Commander Folkar believes knowledge of King Wrynn's death could shake the Alliance, which he says has never been more vulnerable."
+  },
+  {
+   "q": "What does Folkar plan to do?",
+   "aliases": [
+    "Folkar next",
+    "where is Folkar going"
+   ],
+   "answer": "Commander Folkar says he will make his way out and see to Sergeant Ulka on his own."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry Commander Folkar news that he believes gives the Horde valuable knowledge about the Alliance."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "bad news for folkar",
+  "commander folkar",
+  "horde",
+  "king wrynn",
+  "kor'kron",
+  "naga",
+  "sergeant ulka"
+ ],
+ "related": [
+  "topic:naga",
+  "topic:horde",
+  "topic:alliance",
+  "quest:7541"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bad News for Folkar"
+ ]
+}

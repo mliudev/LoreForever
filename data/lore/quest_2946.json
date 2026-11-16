@@ -1,0 +1,70 @@
+{
+ "key": "quest:2946",
+ "type": "quest",
+ "name": "Seeing What Happens",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2946
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The platinum discs may point to a connection between Tanaris and Uldum. You are asked to take them to Uldum\u2019s gates and look for clues.",
+ "sections": [
+  {
+   "title": "At Uldum\u2019s Gates",
+   "body": "The gates of Uldum in Tanaris are where you can search for clues. Bring the miniature platinum discs there and look for a connection between the place and the discs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I looking for at Uldum?",
+   "aliases": [
+    "uldum clues",
+    "what to look for",
+    "discs at the gates"
+   ],
+   "answer": "You are looking for clues to a connection between Tanaris and Uldum, using the miniature platinum discs."
+  },
+  {
+   "q": "Where do I take the platinum discs?",
+   "aliases": [
+    "where are the discs for",
+    "disc location",
+    "take discs where"
+   ],
+   "answer": "Take the miniature platinum discs to the gates of Uldum in Tanaris."
+  },
+  {
+   "q": "What is the connection between Tanaris and Uldum?",
+   "aliases": [
+    "tanaris uldum connection",
+    "why uldum",
+    "what connects them"
+   ],
+   "answer": "The clues you seek at Uldum\u2019s gates may reveal a connection between Tanaris and Uldum."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "clues",
+  "connection",
+  "gates",
+  "miniature platinum discs",
+  "platinum discs",
+  "seeing what happens",
+  "tanaris",
+  "uldum"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:uldum"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Seeing What Happens"
+ ]
+}

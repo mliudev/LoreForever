@@ -1,0 +1,85 @@
+{
+ "key": "quest:95454",
+ "type": "quest",
+ "name": "The Honor of the Kor'kron",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95454
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Folkar\u2019s Kor\u2019kron were sent to Alcaz Prison to extract Varian Wrynn alive. With the commander injured and his elites dead, the search falls to you.",
+ "sections": [
+  {
+   "title": "A King in Alcaz",
+   "body": "The Kor\u2019kron came to Alcaz Prison seeking Varian Wrynn, King of Stormwind. Their Warchief ordered them to bring him alive to Orgrimmar. Now their commander\u2019s axe arm is broken and most of his elites are dead. You take up the search while he waits behind.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Search",
+   "body": "Black dragons complicate the Kor\u2019kron\u2019s effort to find Varian. After you slay a lesser dragon, the commander believes a greater force is pulling the strings. He sends you to tell Commander Folkar what you learned.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Kor\u2019kron at Alcaz Prison?",
+   "aliases": [
+    "kor kron at alcaz",
+    "why are they here"
+   ],
+   "answer": "They were sent to extract Varian Wrynn and bring him alive to Orgrimmar on the Warchief\u2019s orders."
+  },
+  {
+   "q": "Who are the Kor\u2019kron looking for?",
+   "aliases": [
+    "varian search",
+    "who are they after"
+   ],
+   "answer": "They are searching Alcaz Prison for Varian Wrynn, King of Stormwind."
+  },
+  {
+   "q": "Why does the search fall to me?",
+   "aliases": [
+    "commander injured",
+    "kor kron elites"
+   ],
+   "answer": "The commander\u2019s axe arm is broken, and most of his elites are dead, so he asks you to continue the search."
+  },
+  {
+   "q": "What complicates the Kor\u2019kron\u2019s search?",
+   "aliases": [
+    "black dragons alcaz",
+    "dragon problem"
+   ],
+   "answer": "The presence of black dragons complicates their effort to find Varian."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry out the Warchief\u2019s order to bring Varian Wrynn alive to Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "alcaz prison",
+  "black dragons",
+  "commander folkar",
+  "honor",
+  "kor'kron",
+  "orgrimmar",
+  "varian wrynn"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "quest:2380",
+  "topic:varian-wrynn"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Honor of the Kor'kron"
+ ]
+}

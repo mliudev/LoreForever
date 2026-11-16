@@ -1,0 +1,93 @@
+{
+ "key": "quest:91500",
+ "type": "quest",
+ "name": "An Explosive Gambit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91500
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You judge that breaking the Sin'dorei seals could trigger the crystals, giving you a chance to strike Magus Rimtori. Ag'tor Bloodfist in Valormok awaits proof of her death.",
+ "sections": [
+  {
+   "title": "A Calculated Strike",
+   "body": "The crystals' energies answer to the seals, and you see a way to turn that bond against Magus Rimtori. Breaking a seal could release its energy through the crystal in an explosive burst. The blast may catch Rimtori off guard, leaving an opening to attack her.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Valormok",
+   "body": "Ag'tor Bloodfist asks you to break the Sin'dorei seals and bring him Magus Rimtori's head. He calls the blood elves traitors and says Rimtori deserves a painful death. When you return, he says Belgrom will be pleased and that dozens of warriors' spirits can finally be at peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I supposed to do?",
+   "aliases": [
+    "what do i do",
+    "seal and rimtori",
+    "break seals"
+   ],
+   "answer": "You are asked to break the Sin'dorei seals, then bring Magus Rimtori's head to Ag'tor Bloodfist in Valormok."
+  },
+  {
+   "q": "Why break the seals?",
+   "aliases": [
+    "why break seals",
+    "crystal explosion",
+    "what do seals do"
+   ],
+   "answer": "You reason that breaking a seal could release its energy through the crystal in an explosion."
+  },
+  {
+   "q": "Who wants Rimtori dead?",
+   "aliases": [
+    "who sent me",
+    "ag'tor bloodfist",
+    "why kill rimtori"
+   ],
+   "answer": "Ag'tor Bloodfist asks you to bring him Magus Rimtori's head and says she deserves a painful death."
+  },
+  {
+   "q": "Where do I bring Rimtori's head?",
+   "aliases": [
+    "where is ag'tor",
+    "bring head where",
+    "valormok turn in"
+   ],
+   "answer": "Bring Magus Rimtori's head to Ag'tor Bloodfist in Valormok."
+  },
+  {
+   "q": "Why does Ag'tor mention the spirits?",
+   "aliases": [
+    "warriors spirits",
+    "who will be at peace",
+    "why thank me"
+   ],
+   "answer": "Ag'tor says the spirits of dozens of warriors can finally be at peace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ag'tor bloodfist",
+  "an explosive gambit",
+  "crystals",
+  "magus rimtori",
+  "sin'dorei seals",
+  "spirits",
+  "valormok"
+ ],
+ "related": [
+  "quest:91497",
+  "npc:magus-rimtori",
+  "subzone:valormok"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Explosive Gambit"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:92343",
+ "type": "quest",
+ "name": "Get to the Roots of It",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92343
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Nara Wildmane seeks Nordrassil root caps from Blackmaw Hold to study their magical properties. The druids of Thunder Bluff would be in your debt for the samples.",
+ "sections": [
+  {
+   "title": "Roots Below",
+   "body": "Nara Wildmane, a druid in Thunder Bluff, asks you to bring her Nordrassil root caps from Blackmaw Hold. The burrow leads into the hold, which the furbolg have guarded fiercely against outsiders. With the satyr situation, you can now enter. Nara wants samples of the growing roots near Nordrassil for study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Nara need?",
+   "aliases": [
+    "what does Nara want",
+    "Nara roots",
+    "root caps"
+   ],
+   "answer": "Nara Wildmane asks you to bring her Nordrassil root caps from Blackmaw Hold so she can study them."
+  },
+  {
+   "q": "Where are the root caps?",
+   "aliases": [
+    "where find roots",
+    "Blackmaw roots",
+    "Nordrassil caps"
+   ],
+   "answer": "The Nordrassil root caps Nara seeks are inside Blackmaw Hold."
+  },
+  {
+   "q": "Why can I enter Blackmaw Hold?",
+   "aliases": [
+    "Blackmaw access",
+    "why can enter",
+    "furbolg burrow"
+   ],
+   "answer": "The furbolg have guarded the burrow fiercely, but the satyr situation makes it possible for you to get inside."
+  },
+  {
+   "q": "What does Nara want to study?",
+   "aliases": [
+    "root magic",
+    "Nordrassil roots",
+    "why samples"
+   ],
+   "answer": "Nara wants to study the magical properties of actively growing roots near Nordrassil. Little is known about them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackmaw hold",
+  "furbolg",
+  "get to the roots of it",
+  "nara wildmane",
+  "nordrassil root caps",
+  "nordrassil roots",
+  "satyr",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1490",
+  "zone:thunderbluff",
+  "topic:druid",
+  "topic:nordrassil",
+  "topic:satyr",
+  "topic:furbolg"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Get to the Roots of It"
+ ]
+}

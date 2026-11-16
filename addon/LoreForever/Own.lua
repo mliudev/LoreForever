@@ -111,6 +111,20 @@ local function itemLeft(id, slot)
 end
 local function readyPage(id, left) return page(26, id * 4096 + math.min(STEPS_MAX, math.ceil(left / 10))) end
 
+-- Every item they carry or wear whose own cooldown runs now, { [id] = seconds left }: the save keeps when each is ready
+-- (Stock.lua), so a question typed after they quit still has the Hearthstone (the whole-path run, 11/15).
+function Own.Running()
+  local out, gear = {}, worn()
+  for slot = 1, 19 do
+    local id = gear[slot]
+    if id > 0 and not out[id] then out[id] = itemLeft(id, slot) end
+  end
+  for id in pairs(bagCounts()) do
+    if not out[id] then out[id] = itemLeft(id) end
+  end
+  return out
+end
+
 -- A new ask: its pages in order, the header, then cooldowns, slots and bags. None before there's a save to compare to.
 function Own.Start()
   queue, pos = nil, 0

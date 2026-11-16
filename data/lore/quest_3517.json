@@ -1,0 +1,101 @@
+{
+ "key": "quest:3517",
+ "type": "quest",
+ "name": "Stealing Knowledge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3517
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jediga in Valormok asks you to recover four tablets from the Ruins of Eldarath. Each bears the name of a Highborne wizard, and she wants them for her research.",
+ "sections": [
+  {
+   "title": "Jediga's Request",
+   "body": "In Azshara, Jediga of Valormok has been making use of her situation after Belgrom's punishment. She says she did research before leaving and learned that valuable items remain in the area. Now she asks you to bring her four tablets from the Ruins of Eldarath, each named for a Highborne wizard.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the tablets?",
+   "aliases": [
+    "who is Jediga",
+    "tablet request",
+    "jediga tablets"
+   ],
+   "answer": "Jediga in Valormok wants the four tablets."
+  },
+  {
+   "q": "Where are the tablets?",
+   "aliases": [
+    "tablet location",
+    "where find tablets",
+    "eldarath tablets"
+   ],
+   "answer": "The tablets are throughout the Ruins of Eldarath in Azshara."
+  },
+  {
+   "q": "Which tablets does Jediga need?",
+   "aliases": [
+    "tablet names",
+    "four tablets",
+    "bethamara tablet"
+   ],
+   "answer": "She asks for the Tablet of Beth'Amara, the Tablet of Jin'yael, the Tablet of Markri, and the Tablet of Sael'hai."
+  },
+  {
+   "q": "What are the tablets named after?",
+   "aliases": [
+    "tablet namesakes",
+    "highborne wizard tablets",
+    "who were tablets named for"
+   ],
+   "answer": "Each tablet is named after a Highborne wizard."
+  },
+  {
+   "q": "Why does Jediga want them?",
+   "aliases": [
+    "why tablets",
+    "jediga research",
+    "stealing knowledge"
+   ],
+   "answer": "Jediga says she researched the area and needs the tablets for that work."
+  },
+  {
+   "q": "What happened to Jediga?",
+   "aliases": [
+    "belgrom punishment",
+    "jediga situation",
+    "why is Jediga in Azshara"
+   ],
+   "answer": "Jediga says Belgrom's punishment left her in a situation she has made the most of."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "highborne",
+  "jediga",
+  "ruins of eldarath",
+  "stealing knowledge",
+  "tablet of beth'amara",
+  "tablet of jin'yael",
+  "tablet of markri",
+  "tablet of sael'hai",
+  "valormok"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "subzone:valormok",
+  "topic:highborne"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stealing Knowledge"
+ ]
+}

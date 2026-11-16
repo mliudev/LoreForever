@@ -1,0 +1,77 @@
+{
+ "key": "quest:96377",
+ "type": "quest",
+ "name": "State Secrets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96377
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shaw\u2019s right-hand goblin may be able to make sense of documents recovered in Westfall. You bring the box to him for a look.",
+ "sections": [
+  {
+   "title": "The Documents",
+   "body": "In Westfall, you found documents beneath the floorboards of a building and brought them back. Now Shaw\u2019s right-hand goblin examines the box. His reaction suggests the papers matter, though what they contain remains unclear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who looks at the documents?",
+   "aliases": [
+    "who checks the papers",
+    "Shaw goblin",
+    "who is the goblin"
+   ],
+   "answer": "Shaw\u2019s right-hand goblin, Renzik, examines the box of documents."
+  },
+  {
+   "q": "Where did the documents come from?",
+   "aliases": [
+    "where found papers",
+    "documents location",
+    "westfall papers"
+   ],
+   "answer": "You recovered them from beneath floorboards in a building in Westfall."
+  },
+  {
+   "q": "What does Renzik think of the documents?",
+   "aliases": [
+    "Renzik reaction",
+    "does he recognize them",
+    "papers make sense"
+   ],
+   "answer": "Renzik\u2019s eyes widen when you show him the box, but his words do not explain what the documents mean."
+  },
+  {
+   "q": "What does Renzik ask you?",
+   "aliases": [
+    "what does he say",
+    "Renzik question",
+    "what did you tell him"
+   ],
+   "answer": "Renzik asks where you found the documents."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "documents",
+  "goblin",
+  "renzik",
+  "shaw",
+  "state secrets",
+  "westfall"
+ ],
+ "related": [
+  "zone:westfall",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: State Secrets"
+ ]
+}

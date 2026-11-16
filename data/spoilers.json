@@ -6404,8 +6404,6 @@
  "subzone:alexston-farmstead": {},
  "subzone:algaz-station": {},
  "subzone:altar-of-storms-burning-steppes": {},
- "subzone:alterac-mountains": {},
- "subzone:alterac-mountains-classic": {},
  "subzone:alther-s-mill": {},
  "subzone:alturus-sanctum": {},
  "subzone:ambermill": {},
@@ -6740,7 +6738,6 @@
  "subzone:fargodeep-mine": {},
  "subzone:farstrider-lodge": {},
  "subzone:farwatcher-s-glen": {},
- "subzone:feathermoon-stronghold": {},
  "subzone:feathermoon-stronghold-classic": {},
  "subzone:fel-rock": {},
  "subzone:felfire-hill": {},
@@ -7175,11 +7172,6 @@
  "subzone:quagmire": {},
  "subzone:quel-lithien-lodge": {},
  "subzone:rage-scar-hold": {},
- "subzone:ragefire-chasm": {
-  "faq": {
-   "2": 1
-  }
- },
  "subzone:ragefire-chasm-classic": {},
  "subzone:ranazjar-isle": {},
  "subzone:raptor-grounds": {},
@@ -7198,7 +7190,6 @@
  "subzone:raynewood-retreat": {},
  "subzone:razor-hill": {},
  "subzone:razor-hill-watchtower": {},
- "subzone:razorfen-downs": {},
  "subzone:razorfen-downs-classic": {},
  "subzone:razorfen-kraul-classic": {
   "faq": {
@@ -7279,7 +7270,6 @@
  "subzone:scarlet-monastery-library": {},
  "subzone:scarlet-raven-tavern": {},
  "subzone:scarlet-watch-post": {},
- "subzone:scholomance": {},
  "subzone:scholomance-classic": {},
  "subzone:screaming-gully": {},
  "subzone:scuttle-coast": {},
@@ -7416,11 +7406,9 @@
  "subzone:stormwind-harbor": {},
  "subzone:stormwind-keep": {},
  "subzone:stormwind-lake": {},
- "subzone:stormwind-stockade": {},
  "subzone:stormwind-stockade-classic": {},
  "subzone:stoutlager-inn": {},
  "subzone:strahnbrad": {},
- "subzone:stratholme": {},
  "subzone:stratholme-classic": {},
  "subzone:stratholme-main-gate": {},
  "subzone:stratholme-service-entrance": {},

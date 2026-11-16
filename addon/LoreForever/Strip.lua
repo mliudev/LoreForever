@@ -1609,13 +1609,15 @@ local function tellTaken(key, action)
   local L, gold = ns.L, ns.Theme.code.gold
   local shown = try(GetBindingText, key)
   shown = gold .. ((type(shown) == "string" and shown ~= "") and shown or key):gsub("|", "||") .. "|r"
+  -- Her own key row takes any key she hears, Ctrl+T too (LOR-1505); /lore key willo, the in-game route, single keys.
   local link = ns.Hooks and ns.Hooks.Link("/lore key willo", "key", "willo") or "/lore key willo"
+  local name = ns.COMPANION_NAME
   local what = actionName(action)
   local line = what
-    and L["%s listens on %s, but here %s is set to %s. Pick another key in %s, or type %s and press the key you want."]
-      :format(ns.COMPANION_NAME, shown, shown, what:gsub("|", "||"), ns.COMPANION_NAME, link)
-    or L["%s listens on %s, but here %s already does something else. Pick another key in %s, or type %s and press the key you want."]
-      :format(ns.COMPANION_NAME, shown, shown, ns.COMPANION_NAME, link)
+    and L["%s listens on %s, but here %s is set to %s. Pick another key in %s's Settings > Talking, or type %s."]
+      :format(name, shown, shown, (what:gsub("|", "||")), name, link)
+    or L["%s listens on %s, but here %s already does something else. Pick another key in %s's Settings > Talking, or type %s."]
+      :format(name, shown, shown, name, link)
   DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. line)
 end
 

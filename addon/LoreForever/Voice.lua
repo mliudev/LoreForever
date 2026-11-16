@@ -981,13 +981,13 @@ local function adoptNew(quiet)
     local have = Voice.Count(name)
     local title = string.format(have == 1 and L["%s (%d narration)"] or L["%s (%d narrations)"], Voice.PackName(name), have)
     if key == first and s.voiceFillGender then
-      say(string.format(L["new voice: %s. It reads first now, and the default narrator reads the stories it hasn't recorded. To change the order, see Options > Narration voices."], title))
+      say(string.format(L["new voice: %s. It reads first now; the default narrator fills in the rest."], title))
     elseif key == first then
-      say(string.format(L["new voice: %s. It reads first now. Stories it hasn't recorded show as text; to let the default narrator fill those in, or to change the order, see Options > Narration voices."], title))
+      say(string.format(L["new voice: %s. It reads first now; stories it hasn't recorded show as text. Let the default narrator fill in under Options > Narration voices."], title))
     elseif s.voiceFillGender or family(name) then
-      say(string.format(L["new voice: %s. It's at the bottom of your narrator list, so it only reads stories the voices above it haven't recorded. To hear it first, move it up in Options > Narration voices."], title))
+      say(string.format(L["new voice: %s. It's at the bottom of your narrator list. Move it up in Options > Narration voices to hear it first."], title))
     else
-      say(string.format(L["new voice: %s. It's at the bottom of your narrator list and won't read anything until you move it to the top in Options > Narration voices."], title))
+      say(string.format(L["new voice: %s. Move it to the top in Options > Narration voices to hear it."], title))
     end
   end
   return waiting
@@ -2089,7 +2089,7 @@ function Voice.OnTaxiCheck()
   end
 end
 
--- Playing on arrival (Options > Play narrations as you arrive): reaching a zone or a place with a recorded narration
+-- Playing on arrival (Options > Play stories as you find them): reaching a zone or a place with a recorded narration
 -- plays it, once per character (or once a session with "Skip what you've heard" off). Arrivals settle for a moment
 -- first, so a loading screen or hopping back and forth across a zone line plays only where you end up.
 --
@@ -2279,23 +2279,23 @@ local function where()
   return zk, places, sk or own
 end
 
--- The arrival story waiting its turn in the queue, not begun yet (LOR-1388: it waits in the list, not a slot of its own).
-local function waitingArrival()
+-- `key`'s arrival story waiting its turn in the queue, not begun yet (LOR-1388: it waits in the list, not a slot of
+-- its own).
+local function waitingArrival(key)
   local pl = ns.UI and ns.UI.pl
   if not pl then return nil end
   for i = math.max(pl.pos, 1), #pl.items do
     local it = pl.items[i]
-    if it.how == "arrival" and not it.started and not it.kept then return it end   -- (one you keep stays: LineCheck)
+    if it.how == "arrival" and not it.started and it.key == key then return it end
   end
 end
 
--- What to play where you are: the zone's story the first time you're there, then the place's. The one waiting its
--- turn keeps its place in line while you're there.
+-- What to play where you are: the zone's story the first time you're there, then the place's. One waiting its turn
+-- keeps its place in line.
 local function arrivalKey()
   local zk, _, sk = where()
-  local w = waitingArrival()
   for _, key in ipairs({ zk and ("zone:" .. zk) or false, sk or false }) do
-    if key and Voice.HasAudio(key) and ((w and w.key == key) or fresh(key)) then return key end
+    if key and Voice.HasAudio(key) and (waitingArrival(key) or fresh(key)) then return key end
   end
 end
 
@@ -2360,10 +2360,10 @@ function Voice.LineCheck(it)
       return L["already heard"], true   -- (or its dungeon's or a door's story, told already: twinsOf)
     end
     if kept then return nil end   -- (where you are by its turn doesn't matter)
-    -- One that began and was paused (a quest giver, a hold) carries on while you're still in its zone: the few steps to
-    -- the quest giver who paused it aren't leaving (Mike, 11/11: a place's story and the quest giver both went silent
-    -- when he closed the quest). Not yet begun, it's for the place you're in.
-    if not stillThere(it.key) and not (it.started and stillInZone(it.key)) then
+    -- It plays while you're still in its zone, begun or not: the few steps to the quest giver who paused it aren't
+    -- leaving (Mike, 11/11: a place's story and the quest giver both went silent when he closed the quest), and a place
+    -- you passed in a run of hand-ins keeps its turn (Mike, 11/12: "Yes, every note"; cleanup 11/15, item 6).
+    if not stillThere(it.key) and not stillInZone(it.key) then
       -- (quietly: a place you walked on from isn't something to explain; Earlier keeps it with Play. Design Lead, #3882)
       return string.format(L["you left %s"], placeName(it.key)), true
     end
@@ -2399,23 +2399,23 @@ function Voice.OnLineStarted(it, first)
       .. " " .. ns.Hooks.Link(L["Stop"], "listen", it.key)
     if not S().autoZoneTold then
       S().autoZoneTold = true
-      line = line .. " " .. L["(Narrations play as you arrive; Options > Play narrations as you arrive turns this off.)"]
+      line = line .. " " .. L["(Turn this off under Options > Play stories as you find them.)"]
     end
     say(line)
   end
 end
 
--- You've settled somewhere: what's narrated here joins the queue as an arrival story (unless it's already waiting
--- there), and plays in its turn if you're still here (Voice.LineCheck). A newer place's story takes the place of an
--- older one that never began. On a flight nothing does: flight narration has the zones you fly over, and where you land
--- is an arrival of its own (Voice.OnLanded).
+-- You've settled somewhere: what's narrated here joins the queue as an arrival story (unless it's already in it), and
+-- plays in its turn while you're still in its zone (Voice.LineCheck). Every place joins: an older place's story that
+-- hasn't begun keeps its turn (Mike, 11/12: "Yes, every note", places included; cleanup 11/15, item 6: in a run of
+-- hand-ins three place notes came up and only the last place's story played). On a flight nothing does: flight
+-- narration has the zones you fly over, and where you land is an arrival of its own (Voice.OnLanded).
 local function arrive()
-  local UI, key, w = ns.UI, arrivalKey(), waitingArrival()
+  local UI, key = ns.UI, arrivalKey()
   if not key then return end
-  if w and w.key == key then return UI.Kick() end   -- it waits on (what kept it may be over now)
+  if UI.PlaylistIndex(key) then return UI.Kick() end   -- it waits on (what kept it may be over now)
   local target = UI.EntryTarget(key)
   if not target then return end
-  if w then UI.LeaveQueue(w, string.format(L["you moved on to %s"], target.label), true) end
   if not UI.Admit({ id = key, key = key, label = target.label, how = "arrival" }) or not key:match("^zone:") then return end
   -- The place you reached it at, new and recorded too, follows the zone's story while you're still there (its note
   -- shows with the zone's: the plan's E24, Stormwind Stockade at 00:21:11). It used to wait for your next zone change.
@@ -2492,7 +2492,7 @@ end
 -- have the setting", then "Yes, every note", LOR-1388), from the same find that makes the note (Collection.OnFound), so
 -- the two go together: a person met, an item that reached your bags or that you hovered, a topic, a book, a boss. It
 -- joins at the end as a line that came by itself: behind quest givers, never in a fight or a talk, gone after ten
--- minutes (Voice.LineCheck), wherever you are by its turn; once per character, under "Play narrations as you arrive".
+-- minutes (Voice.LineCheck), wherever you are by its turn; once per character, under "Play stories as you find them".
 -- Nothing at login: what you carry and know is filled in before finds count (Collection.Find). Places have their own
 -- way in (arrivals). A quest's note brings its quest giver's page when that's recorded; a quest whose quest giver isn't
 -- recorded in any voice you have but whose own story is brings that story (the plan's P1), with quest voices on: never
@@ -3157,9 +3157,9 @@ local function sayQuestVoicesLine()
   if not line then return end
   s.questDialogueLine = nil
   if line == "updated" then
-    say(L["this update turned quest voices on: they play as you open a quest. Click the square beside Lore to stop this one. To turn them off again, untick Speak quest dialogue in Lore Forever's options."])
+    say(L["this update turned quest voices on. Click the square beside Lore to stop this one, or untick Speak quest dialogue in the options."])
   else
-    say(L["quest voices play as you open a quest. Click the square beside Lore to stop this one. To turn them off, untick Speak quest dialogue in Lore Forever's options."])
+    say(L["quest voices play as you open a quest. Click the square beside Lore to stop this one, or untick Speak quest dialogue in the options."])
   end
 end
 
@@ -3720,7 +3720,7 @@ function Voice.CheckQuestVoices()
       if v.books and s.readBooks ~= false then s.readBooks = false end
       if Voice.QuestDialogue() then
         Voice.SetQuestDialogue(false)
-        say(string.format(L["%s is running, so Lore Forever leaves quest voices to it and you never hear a quest twice. Lore Forever's other narration still plays. To hear ours instead, turn %s off, then tick Speak quest dialogue in Lore Forever's options."], v.title, v.title))
+        say(string.format(L["%s is running, so it reads your quests and Lore Forever doesn't. To hear ours, turn %s off and tick Speak quest dialogue."], v.title, v.title))
       end
     end
   end

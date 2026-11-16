@@ -1,0 +1,83 @@
+{
+ "key": "quest:95198",
+ "type": "quest",
+ "name": "The Return of the King?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95198
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A contact sends you to the Theramore Mage Tower in disguise to listen for news of the man found on the beach. What you learn puts a possible rescue of the king in question.",
+ "sections": [
+  {
+   "title": "At the Mage Tower",
+   "body": "A contact gives you a glamour made by mages at home, meant to disguise you as a Kul Tiras Marine. At the Theramore Mage Tower, you listen to Jaina and her inner circle for mention of the man found on the beach. Jaina can see through the disguise, so keep your distance.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Prison on Alcaz",
+   "body": "The human found on the beach is not the man they seek. Yet word of a prison on Alcaz and Defias involvement gives the contact reason to suspect the king may have been held there. The contact means to act and bring the king back to Stormwind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives me the disguise?",
+   "aliases": [
+    "who gives disguise",
+    "disguise giver"
+   ],
+   "answer": "A contact gives you a glamour prepared by mages at home to make you look like a Kul Tiras Marine."
+  },
+  {
+   "q": "Where am I supposed to listen?",
+   "aliases": [
+    "where listen",
+    "mage tower"
+   ],
+   "answer": "You are sent to the Theramore Mage Tower to listen to Jaina and her inner circle."
+  },
+  {
+   "q": "Who should I avoid getting close to?",
+   "aliases": [
+    "avoid jaina",
+    "jaina disguise"
+   ],
+   "answer": "Keep your distance from Jaina, who can see through the disguise."
+  },
+  {
+   "q": "What is the disguise meant to look like?",
+   "aliases": [
+    "marine disguise",
+    "kul tiras disguise"
+   ],
+   "answer": "The glamour is meant to make you look like a Kul Tiras Marine."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alcaz",
+  "defias",
+  "disguise",
+  "glamour",
+  "jaina",
+  "king",
+  "kul tiras marine",
+  "mage tower",
+  "theramore"
+ ],
+ "related": [
+  "quest:2300",
+  "topic:kul-tiras",
+  "topic:human",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Return of the King?"
+ ]
+}

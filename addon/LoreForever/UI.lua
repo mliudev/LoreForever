@@ -3280,7 +3280,6 @@ local function clock() return GetTime and GetTime() or 0 end
 -- waits in the list, where the player sees it, instead of in a private slot it could be dropped from without a word.
 local EARLIER_MAX = 50      -- Earlier keeps the last 50 of the session
 local QUEST_WAIT = 600      -- a quest line waiting longer than this from its click is out of step: "waited too long"
-local MAX_PAUSES = 3        -- a story a quest giver paused this often gives up (LOR-673's three)
 local MAX_HOLD_RESTARTS = 2 -- a line in one recording a hold restarted this often gives up
 local SKIP_NOTE = 4         -- seconds the player says what left
 local QUEST_LINE = { handin = true, newquest = true }
@@ -3724,7 +3723,9 @@ end
 -- A line that came by itself joins the queue (LOR-1388). A quest giver's goes after what's next and the quest lines
 -- already waiting, ahead of stories and what you added (questSlot); anything else at the end. It never cuts off what
 -- speaks, except a story that came by itself, which a quest giver pauses: the story carries on after the run, from
--- its piece (rule 3; MAX_PAUSES). With nothing playing it starts now, unless a hold is on (UI.Hold). A stopped list
+-- its piece, however many runs come (rule 3; Mike 11/11, the zone story waits through the run and carries on after).
+-- Rule 12's three-pause limit (LOR-673) is gone (cleanup 11/15, item 14; the Design Lead, ledger 30571): only leaving
+-- its zone ends it then. With nothing playing it starts now, unless a hold is on (UI.Hold). A stopped list
 -- stays stopped: a quest giver still speaks, then the list stops again where you stopped it (pl.holdAt; the Design
 -- Lead's answer e, 11/11). Returns true if it joined.
 function UI.Admit(it)
@@ -3764,18 +3765,12 @@ function UI.Admit(it)
   local speakingHere = UI.speaking and pl.state == "playing"
   local cur = pl.items[pl.pos]
   if quest and speakingHere and cur and (cur.byItself or cur.flight) and not questLine(cur) then
-    -- A story that came by itself makes way for the quest giver (it fades: rule 13), and carries on after the run.
-    cur.pauses = (cur.pauses or 0) + 1
+    -- A story that came by itself makes way for the quest giver (it fades: rule 13), and carries on after the run, as
+    -- often as a run comes (no count: cleanup 11/15, item 14).
     UI.RememberProgress()
     ns.Voice.Stop(true)
     UI.speaking, UI.playingId, UI.playToken = false, nil, nil
-    table.remove(pl.items, pl.pos)
-    if cur.pauses > MAX_PAUSES then
-      retire(cur, "skipped", L["interrupted"], true)
-    else
-      cur.paused, cur.resume = true, true
-      table.insert(pl.items, pl.pos, cur)
-    end
+    cur.paused, cur.resume = true, true
     table.insert(pl.items, pl.pos, it)
     goTo(pl.pos)
     if held() then pl.state, pl.heldFrom = "held", "playing" else playCurrent() end
@@ -5488,7 +5483,7 @@ function UI.ResetWindows()
   UI.UpdateNowPlaying()
   local op = ns.Options and ns.Options.panel   -- open on our page: its ticks follow
   if op and op:IsVisible() and op:GetScript("OnShow") then op:GetScript("OnShow")(op) end
-  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the floating player, the minimap button and every pop-up are back where they started. The player shows while the panel is closed and something plays or waits in your playlist."])
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the player, the minimap button and every pop-up are back where they started."])
 end
 
 -- History ----------------------------------------------------------------------------------------------------------
@@ -6557,7 +6552,7 @@ local function createReport()
   hint:SetPoint("TOPLEFT", 16, -288)
   hint:SetWidth(368)
   hint:SetJustifyH("LEFT")
-  hint:SetText(L["Press Ctrl+C to copy this link, then paste it into your browser to send it, or post it on our Discord. It has your question, where you were and the answer you got, but not your character's name."])
+  hint:SetText(L["Press Ctrl+C to copy this link, then paste it into your browser to send it. It never has your character's name."])
   local link = CreateFrame("EditBox", nil, f, "InputBoxTemplate")
   link:SetSize(360, 22)
   link:SetPoint("TOPLEFT", 22, -344)

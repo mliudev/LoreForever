@@ -1,0 +1,81 @@
+{
+ "key": "quest:96337",
+ "type": "quest",
+ "name": "More Valuable Than Gold",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96337
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mason Connery gives you a note after you free him, pointing toward a hidden treasure. He says it may be worth more than gold.",
+ "sections": [
+  {
+   "title": "A Hidden Cache",
+   "body": "After you free Mason Connery, he gives you a note and says it can lead to treasure. He has no gold to offer, but asks you to say he died if anyone asks where the note came from. You use it to find a small chest buried in a shallow hole. Inside are documents, maps, and official-looking seals, though most of it makes little sense to you.",
+   "spoiler": 0
+  },
+  {
+   "title": "Strange Papers",
+   "body": "Among the papers are insignias from Stormwind, Gilneas, Lordaeron, and unfamiliar authorities. A map names a place called Kalidar, while a blurry painting shows what appears to be a female ogre. A partly burned survey report bears the label \u201cA. Crater; Kalimdor.\u201d Mason suggests the papers may be worth something to someone.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Mason give me?",
+   "aliases": [
+    "mason note",
+    "what did connery give me"
+   ],
+   "answer": "Mason Connery gives you a note meant to help you find his hidden treasure."
+  },
+  {
+   "q": "Where is the treasure?",
+   "aliases": [
+    "mason treasure location",
+    "where chest"
+   ],
+   "answer": "You find the treasure chest buried in a shallow hole in the ground."
+  },
+  {
+   "q": "What's in the chest?",
+   "aliases": [
+    "chest contents",
+    "what's in mason's chest"
+   ],
+   "answer": "The chest holds documents, maps, and official-looking seals."
+  },
+  {
+   "q": "Why does Mason say to tell people he died?",
+   "aliases": [
+    "mason died story",
+    "why say he died"
+   ],
+   "answer": "Mason asks you to say the person who gave you the note died, vaporized by dragonfire and blown out to sea."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chest",
+  "documents",
+  "hidden treasure",
+  "kalidar",
+  "kalimdor",
+  "lordaeron",
+  "maps",
+  "mason connery",
+  "note",
+  "survey report"
+ ],
+ "related": [
+  "topic:lordaeron"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: More Valuable Than Gold"
+ ]
+}

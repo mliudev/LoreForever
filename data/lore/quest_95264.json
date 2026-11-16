@@ -1,0 +1,77 @@
+{
+ "key": "quest:95264",
+ "type": "quest",
+ "name": "Shaw Needs To Know",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95264
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Matthias Shaw needs you to bring him urgent news in Stormwind. He warns that its handling could affect the city\u2019s people.",
+ "sections": [
+  {
+   "title": "Back to Shaw",
+   "body": "In Stormwind, Matthias Shaw reads the words you bring and asks you to keep the news to yourself. He says it must be handled carefully for the sake of the city\u2019s people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the news?",
+   "aliases": [
+    "who do I tell",
+    "shaw news",
+    "who is shaw"
+   ],
+   "answer": "Matthias Shaw in Stormwind needs you to bring him the news."
+  },
+  {
+   "q": "Why should I keep it private?",
+   "aliases": [
+    "why secrecy",
+    "keep it quiet",
+    "who can I tell"
+   ],
+   "answer": "Shaw says that if word spreads before they are ready, things will go badly for Stormwind\u2019s people."
+  },
+  {
+   "q": "What does Shaw do with the news?",
+   "aliases": [
+    "what happens to the message",
+    "shaw reads it",
+    "what does he say"
+   ],
+   "answer": "Shaw reads the words on the page and says he will take it from there."
+  },
+  {
+   "q": "What is the news about?",
+   "aliases": [
+    "what news",
+    "what happened",
+    "what's the disaster"
+   ],
+   "answer": "The news is described as potentially disastrous for Stormwind, but its contents are not stated here."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "matthias shaw",
+  "message",
+  "secrecy",
+  "si:7",
+  "stormwind",
+  "urgent news"
+ ],
+ "related": [
+  "quest:2300",
+  "quest:92703"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shaw Needs To Know"
+ ]
+}

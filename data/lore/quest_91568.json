@@ -1,0 +1,95 @@
+{
+ "key": "quest:91568",
+ "type": "quest",
+ "name": "Long Walks on the Beach",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91568
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Izvi Glidfizz in Valormok asks you to search the eastern shore for Highborne treasure fragments. She hopes the scattered finds will bring a profit, even if they are worth more as metal than artifacts.",
+ "sections": [
+  {
+   "title": "A Shoreline Search",
+   "body": "Izvi Glidfizz in Valormok has a shovel of her own making and a plan for the eastern shore. The ruins there have been picked clean, but she believes valuable fragments remain beneath the sand. The naga make a long search impractical, so she sends you with the Treasure Trowel 3000 to gather what you can. She hopes to split the proceeds with you.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Find",
+   "body": "Izvi is pleased with what you bring back. She says the fragments may find no buyers as artifacts, but their metal can still be melted down and sold. The Treasure Trowel 3000 survives the search too, to her relief.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Izvi Glidfizz?",
+   "aliases": [
+    "izvi",
+    "who's the goblin",
+    "izvi glidfizz"
+   ],
+   "answer": "Izvi Glidfizz is the goblin in Valormok who made the Treasure Trowel 3000 and asks you to search the eastern shore."
+  },
+  {
+   "q": "What is the Treasure Trowel 3000?",
+   "aliases": [
+    "treasure trowel",
+    "goblin shovel",
+    "trowel 3000"
+   ],
+   "answer": "The Treasure Trowel 3000 is Izvi Glidfizz's invention, an all-in-one treasure-detecting shovel."
+  },
+  {
+   "q": "What is buried on the eastern shore?",
+   "aliases": [
+    "beach treasure",
+    "what's under sand",
+    "highborne fragments"
+   ],
+   "answer": "Highborne treasure fragments lie beneath the sand on the eastern shore."
+  },
+  {
+   "q": "Why does Izvi want the fragments?",
+   "aliases": [
+    "why dig treasure",
+    "what's it worth",
+    "profit from fragments"
+   ],
+   "answer": "Izvi hopes to split the profits with you. Even if the fragments do not sell as artifacts, she says their metal can be melted down and sold."
+  },
+  {
+   "q": "Why does Izvi say searching is impractical?",
+   "aliases": [
+    "naga beach",
+    "why not search",
+    "naga problem"
+   ],
+   "answer": "Izvi says the naga make a long search along the shore impractical."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beach treasure",
+  "eastern shore",
+  "goblin",
+  "highborne treasure fragments",
+  "izvi glidfizz",
+  "naga",
+  "treasure trowel 3000",
+  "valormok"
+ ],
+ "related": [
+  "subzone:valormok",
+  "topic:highborne",
+  "topic:naga",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Long Walks on the Beach"
+ ]
+}
