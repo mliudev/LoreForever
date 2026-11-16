@@ -40,8 +40,10 @@ class Failure(RuntimeError):
 
 
 def run(*args, binary=None):
+    # gh writes UTF-8; Windows' default (cp1252) can't read a release note's '…' (1.11.0's staging, 11/15).
+    text = {'encoding': 'utf-8', 'errors': 'replace'} if binary is None else {}
     result = subprocess.run(['gh', *map(str, args)], stdout=binary or subprocess.PIPE,
-                            stderr=subprocess.PIPE, text=binary is None)
+                            stderr=subprocess.PIPE, **text)
     if result.returncode:
         error = result.stderr if binary is None else result.stderr.decode(errors='replace')
         raise Failure(error.strip() or 'gh failed')
@@ -137,7 +139,7 @@ def prepare(args):
     if release.get('prerelease'):
         raise Failure('Version tag points to a prerelease')
     message = subprocess.run(['git', 'for-each-ref', 'refs/tags/' + args.tag, '--format=%(contents)'],
-                             capture_output=True, text=True, check=True).stdout
+                             capture_output=True, encoding='utf-8', errors='replace', check=True).stdout
     hashes = re.findall(r'^zip-sha256: *([^\r\n]*)$', message, re.M)
     if any(not re.fullmatch('[0-9a-f]{64}', h) for h in hashes):
         raise Failure('Invalid QA ZIP binding in tag')
