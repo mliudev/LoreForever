@@ -1,0 +1,76 @@
+{
+ "key": "quest:94928",
+ "type": "quest",
+ "name": "A Few Furs for Friz",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94928
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Cornelius asks you to carry lion hides to Friz Frazzlespark at Powderfuse Port. The trade is arranged, and Friz is to receive the bundle.",
+ "sections": [
+  {
+   "title": "A Port Delivery",
+   "body": "At Powderfuse Port, Friz Frazzlespark is waiting for a bundle of lion hides. Cornelius has already arranged the trade. Deliver the hides to Friz and tell her they come from Cornelius.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the hides for?",
+   "aliases": [
+    "who gets the furs",
+    "friz hides",
+    "deliver hides to who"
+   ],
+   "answer": "The bundle of lion hides is for Friz Frazzlespark at Powderfuse Port."
+  },
+  {
+   "q": "Where is Powderfuse Port?",
+   "aliases": [
+    "where's powderfuse",
+    "powderfuse location",
+    "goblin port where"
+   ],
+   "answer": "Powderfuse Port is a goblin-run port to the northeast."
+  },
+  {
+   "q": "Who sent the hides?",
+   "aliases": [
+    "who sent furs",
+    "cornelius hides",
+    "where from"
+   ],
+   "answer": "The hides are from Cornelius."
+  },
+  {
+   "q": "What kind of hides are they?",
+   "aliases": [
+    "what furs",
+    "lion hides",
+    "which hides"
+   ],
+   "answer": "They are lion hides."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a few furs for friz",
+  "cornelius",
+  "friz frazzlespark",
+  "goblin port",
+  "lion hides",
+  "powderfuse port"
+ ],
+ "related": [
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Few Furs for Friz"
+ ]
+}

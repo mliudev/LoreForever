@@ -1,0 +1,78 @@
+{
+ "key": "quest:96776",
+ "type": "quest",
+ "name": "An'she's Radiance",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96776
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A vision calls for An'she's Radiance to be brought from Maraudon to Mulgore. The crystal is held in a chamber guarded by giants.",
+ "sections": [
+  {
+   "title": "A Vision in Mulgore",
+   "body": "A vision sends you toward Maraudon for An'she's Radiance. The crystal rests high in a chamber filled with bright white crystals, beyond the earth song falls. Mighty giants guard that place. You are asked to carry the crystal beneath Mulgore's open skies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is An'she's Radiance?",
+   "aliases": [
+    "anshe radiance",
+    "sun crystal",
+    "what crystal"
+   ],
+   "answer": "An'she's Radiance is a brilliant crystal described as an aspect of An'she, the sun god and the Earthmother's right eye."
+  },
+  {
+   "q": "Where is An'she's Radiance?",
+   "aliases": [
+    "where crystal",
+    "maraudon crystal",
+    "find anshe"
+   ],
+   "answer": "An'she's Radiance is in a chamber deep within Maraudon, high among brilliant white crystals."
+  },
+  {
+   "q": "Who guards the crystal?",
+   "aliases": [
+    "giants guarding crystal",
+    "maraudon guardians",
+    "who guards it"
+   ],
+   "answer": "Mighty giants guard the chamber where An'she's Radiance rests."
+  },
+  {
+   "q": "Why is the crystal sought?",
+   "aliases": [
+    "why get crystal",
+    "vision crystal",
+    "bring it to mulgore"
+   ],
+   "answer": "A vision calls for An'she's Radiance to be brought from Maraudon to Mulgore, beneath the open skies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "an'she",
+  "an'she's radiance",
+  "crystal",
+  "earthmother",
+  "maraudon",
+  "mulgore",
+  "sun god",
+  "vision"
+ ],
+ "related": [
+  "zone:mulgore"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An'she's Radiance"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "quest:91538",
+ "type": "quest",
+ "name": "Sin'dorei Tome of Summoning",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91538
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jediga asks you to bring Rimtori's Sin'dorei Tome of Summoning to Valormok. The powerful artifact still rests in the wilds.",
+ "sections": [
+  {
+   "title": "A Tome in the Wilds",
+   "body": "Rimtori's tome remains on its pedestal, where its pages may hold secrets. Jediga in Valormok asks you to bring the Sin'dorei Tome of Summoning back to her, so the powerful artifact will not be left in the wilds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Jediga want me to bring?",
+   "aliases": [
+    "what tome",
+    "bring what to Jediga",
+    "sin'dorei book"
+   ],
+   "answer": "Jediga asks you to bring her the Sin'dorei Tome of Summoning."
+  },
+  {
+   "q": "Where is the tome now?",
+   "aliases": [
+    "where's the tome",
+    "tome location",
+    "where find book"
+   ],
+   "answer": "Rimtori's tome still sits atop its pedestal in the wilds."
+  },
+  {
+   "q": "Why does Jediga want the tome?",
+   "aliases": [
+    "why bring it back",
+    "why take tome",
+    "what's it for"
+   ],
+   "answer": "Jediga does not want a powerful artifact left in the wilds."
+  },
+  {
+   "q": "Who is Rimtori?",
+   "aliases": [
+    "rimtori tome",
+    "who made the tome",
+    "tome owner"
+   ],
+   "answer": "The tome is identified as Rimtori's, but no further details about Rimtori are given."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "artifact",
+  "belgrom",
+  "jediga",
+  "pedestal",
+  "rimtori",
+  "sin'dorei tome of summoning",
+  "summoning tome",
+  "valormok"
+ ],
+ "related": [
+  "subzone:valormok"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Sin'dorei Tome of Summoning"
+ ]
+}

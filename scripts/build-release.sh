@@ -7,7 +7,7 @@
 #   LoreForever_Voice_Default_Alliance/, _Horde/    the default voice's lands packs (every subzone and NPC narration)
 # A story whose current complete recording (Transport.json, whole-recording-v1) is what the add-on plays leaves its
 # shorter overview recording out of the zip; addon/ keeps both. The pack's sample clip keeps its overview. That keeps
-# the zip under CurseForge's 480 MiB per file, and the build fails if it isn't.
+# the zip under CurseForge's 480 MiB per file, and the build fails if it isn't (the zip's own bytes, recordings deflated).
 # Packs that ship in the main download are listed in PACKS below. Nothing else goes in, so pipeline code,
 # eval data and key helpers can never slip into the zip. Every folder gets the same checks: Interface 16001, no
 # missing files, notes for files left out, audio paths named in the code exist, and a secret scan. Shipped packs
@@ -65,7 +65,7 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # LoreForever_Voice_<Default|Female>_<locale>) and their quest dialogue in those languages (LOR-226,
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and each narrator's more places and
 # more people, item stories and quest stories (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople/_MoreItems/
-# _MoreQuests1/_MoreQuests2/_MoreQuests3, complete stories only) until register_full_stories.py makes them with their first stories, and each narrator's
+# _MoreQuests0 to _MoreQuests3, complete stories only) until register_full_stories.py makes them with their first stories, and each narrator's
 # more quest dialogue (LoreForever_Voice_<Default|Female>_Quests2/_Quests3, the quests of levels 1-60 without a lore entry)
 # until it is recorded. The answers packs (LOR-227) are retired (LOR-561):
 # Willo reads the short answers aloud. The original male narrator's packs (LoreForever_Voice_Original*) hold his
@@ -84,6 +84,7 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_MorePlaces", "LoreForever_Voice_Default_MorePeople",
                  "LoreForever_Voice_Female_MorePlaces", "LoreForever_Voice_Female_MorePeople",
                  "LoreForever_Voice_Default_MoreItems", "LoreForever_Voice_Female_MoreItems",
+                 "LoreForever_Voice_Default_MoreQuests0", "LoreForever_Voice_Female_MoreQuests0",
                  "LoreForever_Voice_Default_MoreQuests1", "LoreForever_Voice_Female_MoreQuests1",
                  "LoreForever_Voice_Default_MoreQuests2", "LoreForever_Voice_Female_MoreQuests2",
                  "LoreForever_Voice_Default_MoreQuests3", "LoreForever_Voice_Female_MoreQuests3",
@@ -345,9 +346,12 @@ with zipfile.ZipFile(out, "w") as z:
     for folder, files in ship.items():
         for path, arc in files:
             info = zipfile.ZipInfo(f"{folder}/{arc}", date_time=(2026, 1, 1, 0, 0, 0))  # stable bytes per version
-            # Audio is already compressed; deflating it again only costs time. Text gets zlib's default level 6: 9
-            # took half again as long (8 s against 5) for 0.2% less.
-            info.compress_type = zipfile.ZIP_STORED if path.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
+            # Everything deflated at zlib's level 6, recordings too (11/15: our MP3s are 24 kHz renders encoded at
+            # 44.1/48 kHz, so deflate still finds 6-10%, lossless; level 9 saved 0.1% more). Unzipping gives the game
+            # the same bytes; every reader (Willo's updater, Windows tar and Expand-Archive, macOS ditto) inflates.
+            # The same zlib makes the same bytes: the rehearsal and the public workflow both build with Ubuntu
+            # 24.04's python3 (zlib 1.3), and the workflow refuses a zip that isn't the candidate's sha256.
+            info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o644 << 16
             z.writestr(info, path.read_bytes(), compresslevel=6)
 

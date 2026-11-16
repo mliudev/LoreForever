@@ -49511,31 +49511,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreQuests2",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_quest_1739-09fa6012d66633d257ff/1-0000.mp3",
-      "sha256": "fabe05e1297f9e8247d1dcce5f6435c90f6d50d60730c10d576dfd2981c42e41"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1842-286d91be2cf3c14cbdcd/1-0000.mp3",
-      "sha256": "0843df43330c1b1d363acc71ac8ad98100c3ba33f3603d4e22b14fea77a37f6c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1843-62d774729d003dc8be79/1-0000.mp3",
-      "sha256": "5ad19984be19beaf164d355452e277938bf9d77008d15f56d2a387a7cf26bc36"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2985-571e8e1a094af11af157/1-0000.mp3",
-      "sha256": "5022ed09a9fc69905ee076c5f5d8453d92d433d64daf3cdde43c96939df48fa0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_683-67a4620704a9deb08043/1-0000.mp3",
-      "sha256": "e9ce14a2cd753304e0b45cf56ddf0a66142dfae34bac632d87561b70fea0dc6f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_94-d8ac7a39e9ffc6f8d723/1-0000.mp3",
-      "sha256": "8dfc5b640df59a24bc4cf60950e6d27d6df0f48833784b2b44fbe9f2733e3f7b"
-    }
-  ],
   "version": 1
 }

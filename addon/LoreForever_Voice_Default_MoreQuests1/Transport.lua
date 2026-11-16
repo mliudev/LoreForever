@@ -6,7 +6,7 @@ P.transport["quest:1001"] = {
   fullHash = "7f8d04",
   text = "Buzzbox 411. Along Darkshore, Buzzbox 411 waits for thresher eyes to bring it back into service. Wizbang Cranktoggle, an eccentric and intoxicated gnome inventor, reaches it through a mechanical relay network. After you repair Buzzbox 827 farther south, Wizbang Cranktoggle's voice crackles through the transmitter again. Hidden from sight, the gnome inventor directs you north along Darkshore's beach to the damaged Buzzbox 411. His words break with hiccups and praise for crawler wine. He says local aquatic predators carry what his coastal apparatus needs to work. Thresher eyes must go into Buzzbox 411's hatch to restore the machine. Darkshore threshers prowl the shallows off Auberdine, and Wizbang says their eyes can recalibrate the device. Feed the eyes to the apparatus, and it jolts back to life. Then the line opens for another assignment, delivered in an even slurrier voice.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1001-0fb1319187317c0763a6/1-0000.mp3", duration = 54.9093878, start = 0},
+    {file = "Audio/Transport/full_quest_1001-966178d0622867b172c4/1-0000.mp3", duration = 63.5559184, start = 0},
   },
 }
 P.transport["quest:1002"] = {
@@ -14,7 +14,7 @@ P.transport["quest:1002"] = {
   fullHash = "69923c",
   text = "Buzzbox 323. Wizbang Cranktoggle’s fieldwork now reaches the third Buzzbox along Darkshore’s coast. You gather six Moonstalker fangs and feed them to the machine north of Auberdine. After you operate Buzzbox 411 farther south, Wizbang Cranktoggle’s voice crackles through the speaker. Drink has muddled his directions, but he points you north of Auberdine, to Buzzbox 323 near a road bridge. His research calls for six Moonstalker fangs from the fierce hunters roaming Darkshore’s forests. Before you begin, Buzzbox 323 chatters with static and faint muttering. Place the requested fangs in its intake hopper, and the machine rattles as it grinds the teeth to dust. Then Wizbang’s boozy voice returns through the transceiver, pleased with your delivery. He points you toward the next machine in his scattered network.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1002-ad1e74500f4734bb7ab8/1-0000.mp3", duration = 48.6138776, start = 0},
+    {file = "Audio/Transport/full_quest_1002-e43ac0db67ee7ddd781d/1-0000.mp3", duration = 56.084898, start = 0},
   },
 }
 P.transport["quest:1003"] = {
@@ -22,7 +22,7 @@ P.transport["quest:1003"] = {
   fullHash = "138a80",
   text = "Buzzbox 525. Along Darkshore's coast, Wizbang Cranktoggle's scattered machines await the last of his strange requests. Buzzbox 525 calls for animal remnants and stranger materials. Once Buzzbox 323 is serviced, its rattling speakers carry Wizbang Cranktoggle's garbled instructions. His words slur through drunken chuckles and rambling directions. He sends his helpers far south along Darkshore's main road. There, he asks them to hunt grizzled thistle bears and place four thick scalps in Buzzbox 525's compartment. The machine is concealed behind a fence in the brush beside the road.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1003-3f7e838388e172311d0c/1-0000.mp3", duration = 36.4408163, start = 0},
+    {file = "Audio/Transport/full_quest_1003-e1ce83652552603536a0/1-0000.mp3", duration = 45.4791837, start = 0},
   },
 }
 P.transport["quest:1008"] = {
@@ -430,7 +430,7 @@ P.transport["quest:146"] = {
   fullHash = "37a9f2",
   text = "Messenger to Darkshire. In Darkshire, Lord Ello Ebonlocke answers a plea for help from Lakeshire. Blackrock orcs and gnolls press against the town, but the plea cannot be granted. Magistrate Solomon of Redridge asks his old peer in Duskwood for troops. Blackrock orcs and gnolls are closing in on his town. Lord Ello Ebonlocke answers in anger. Darkshire struggles against the living dead, ravenous beasts, and cursed magic on every side. Ebonlocke says the Night Watch exists because Stormwind abandoned Duskwood. Without its defenders, Darkshire would fall before a patrol could cross the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_146-b9ce0f8ff9acf9cb8576/1-0000.mp3", duration = 37.3028571, start = 0},
+    {file = "Audio/Transport/full_quest_146-8493f1eb9ae7ab8c5c99/1-0000.mp3", duration = 50.0767347, start = 0},
   },
 }
 P.transport["quest:1462"] = {
@@ -542,7 +542,7 @@ P.transport["quest:1498"] = {
   fullHash = "d3a6c2",
   text = "Path of Defense. At the Far Watch Post, Uzzek teaches young Horde warriors to defend those who cannot defend themselves. He sends them to Thunder Ridge to test their endurance against its electric beasts. At the Far Watch Post, Uzzek teaches young warriors that the Horde has a duty to defend. The post lies on the border between the Barrens and Durotar. He says a warrior’s highest calling is to stand between danger and those unable to defend themselves. They take the blows so the Horde can endure. Uzzek sends the novices to Thunder Ridge, north across the Southfury River in Durotar, to test their stamina and resolve. Thunder lizards and lightning hides roam the canyon. The initiates must endure the beasts’ jolts and gather their singed scales. That trial shows they have the fortitude to hold the front line.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1498-271801540a57943ad04d/1-0000.mp3", duration = 47.1771429, start = 0},
+    {file = "Audio/Transport/full_quest_1498-aa42df16556c4aadd971/1-0000.mp3", duration = 61.2571429, start = 0},
   },
 }
 P.transport["quest:1499"] = {
@@ -710,7 +710,7 @@ P.transport["quest:1579"] = {
   fullHash = "1d2193",
   text = "Gaffer Jacks. Near Auberdine, Wizbang Cranktoggle needs his lost gaffer jacks. He lost a box of hardware overboard on his voyage from Ironforge, and the parts lie somewhere along Darkshore's coast. Wizbang Cranktoggle crossed the Great Sea from Ironforge seeking quiet in Darkshore. The gnome inventor drank too much on the voyage. In a drunken haze, he leaned over the rail and lost a crate of specialized metal parts called gaffer jacks in the water near Auberdine. Wizbang says gaffer jacks are essential precision tools. Without them, he cannot tune his stintle pegs or continue his delicate tinkering. He will not wade into the cold surf himself, so he asks local anglers to cast along Darkshore's shore and fish up the scattered parts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1579-74de2bca9ffafc8555d7/1-0000.mp3", duration = 44.6171429, start = 0},
+    {file = "Audio/Transport/full_quest_1579-6ea23e4c8481e80c08a0/1-0000.mp3", duration = 58.88, start = 0},
   },
 }
 P.transport["quest:1580"] = {
@@ -718,7 +718,7 @@ P.transport["quest:1580"] = {
   fullHash = "0dd6e7",
   text = "Electropellers. In Darkshore, Wizbang Cranktoggle wants his lost electropellers back. A mishap with an explosive duck decoy scattered the prototype parts in freshwater streams. Wizbang Cranktoggle went inland one evening to find a place to test his latest invention. The gnome tinkerer, based in Auberdine, had built a self-propelled duck decoy that explodes. He drank too much and blacked out. Hours later, he woke in town with singed hair and an empty pack; his bag of electropellers had fallen into one of the coastal rivers. Wizbang asks local fishermen to dredge Darkshore's freshwater streams, for he will not brave the wilds himself. Anglers on the Wildbend River and Cliffspring River can snag the buoyant metal parts along with local fish. Once the components are back, Wizbang can resume his erratic waterfowl experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1580-2658420df2a773dddb05/1-0000.mp3", duration = 50.2334694, start = 0},
+    {file = "Audio/Transport/full_quest_1580-e4b06521b496cb67306a/1-0000.mp3", duration = 65.7502041, start = 0},
   },
 }
 P.transport["quest:1581"] = {
@@ -1222,7 +1222,7 @@ P.transport["quest:2118"] = {
   fullHash = "5b6b5a",
   text = "Plagued Lands. Darkshore's wildlife is falling to a creeping sickness, and Tharnariun Treetender seeks a way to save it. He asks you to calm a rabid thistle bear with an enchanted relic and bring it back alive. A creeping sickness twists Darkshore’s beasts into maddened, violent creatures. Thistle bears suffer most, and their frenzy threatens travelers and the coast’s fragile balance. Night elf sentinels answer with steel, while druids seek to understand the sickness and heal its cause. Tharnariun Treetender will not kill the corrupted beasts before trying to save them. He made a trap called Tharnariun’s Hope. Set on the forest floor, its soothing light briefly calms a raging thistle bear. Pacified, the bear follows you back to Tharnariun’s outpost for study.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2118-c2d809cd72e727823773/1-0000.mp3", duration = 46.0538776, start = 0},
+    {file = "Audio/Transport/full_quest_2118-84c1a66ca6bdb065405e/1-0000.mp3", duration = 58.4620408, start = 0},
   },
 }
 P.transport["quest:2138"] = {
@@ -1238,7 +1238,7 @@ P.transport["quest:2139"] = {
   fullHash = "ed69b4",
   text = "Tharnariun's Hope. In Auberdine, Tharnariun Treetender's work against the wildlife sickness reaches a grim turn. Travelers have put down infected beasts across Darkshore, and now he sends an Alliance champion after the rabid Den Mother northeast of town. Since the Third War, an unnatural sickness has made Darkshore's wild creatures rabid. Tharnariun Treetender is stationed in Auberdine, where he has asked travelers to put down infected beasts and ease the forest's suffering. Yet killing rabid thistle bears treats only a symptom. Tharnariun decides the source among the local bears must be removed: their matriarch, the Den Mother. Tharnariun gives profound thanks after the Den Mother's death, though melancholy shadows his words. For the kaldorei, raising weapons against woodland creatures is agony. Dark forces press against their new home, and many despair or seek shelter. Auberdine's defenders accept the heavy burden of protecting their wilderness.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2139-2cc6bf9874dd2effb5c2/1-0000.mp3", duration = 55.7453061, start = 0},
+    {file = "Audio/Transport/full_quest_2139-11c0e77e8e24c26dc24b/1-0000.mp3", duration = 72.6726531, start = 0},
   },
 }
 P.transport["quest:214"] = {
@@ -1286,7 +1286,7 @@ P.transport["quest:2178"] = {
   fullHash = "7b78ff",
   text = "Easy Strider Living. In Auberdine, Alanndarian Nightsong offers hunters her own recipe for strider stew if they bring her foreststrider meat. Auberdine's coastal folk make use of the wildlife around them. Alanndarian Nightsong has her own recipe for hearty strider stew, made from the tall foreststriders that range through Darkshore's woods. She asks you to hunt the birds and bring back their meat before she shares her cooking. Foreststriders range through the woodlands and beaches north and south of Auberdine. Their sharp beaks and quick tempers make them dangerous when provoked, but their meat makes a rich stew. Bring fresh meat to Alanndarian, and she will share her recipe.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2178-8856a620b96794eabb6c/1-0000.mp3", duration = 37.4595918, start = 0},
+    {file = "Audio/Transport/full_quest_2178-1d90e568e6e98ae0c395/1-0000.mp3", duration = 47.9869388, start = 0},
   },
 }
 P.transport["quest:218"] = {
@@ -1342,7 +1342,7 @@ P.transport["quest:2259"] = {
   fullHash = "5959cd",
   text = "Erion Shadewhisper. From the forests of Teldrassil, promising rogues are sent to Darnassus. At the Cenarion Enclave, Erion Shadewhisper points them toward work beyond the forests. Jannok Breezesong sends you from Teldrassil to find Erion Shadewhisper in Darnassus. There is no need to fear a summons to Syurna, the exacting trainer. Erion waits in the Cenarion Enclave, where he handles work that calls for a quieter touch. For rogues in night elf lands, Teldrassil's forests can no longer contain their duties. Erion Shadewhisper sends capable hands into a wider, more dangerous world. Their work lies across the sea.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2259-303a4b1b2551edd06238/1-0000.mp3", duration = 39.915102, start = 0},
+    {file = "Audio/Transport/full_quest_2259-ee7021e534193e899993/1-0000.mp3", duration = 52.5322449, start = 0},
   },
 }
 P.transport["quest:2260"] = {
@@ -1574,7 +1574,7 @@ P.transport["quest:26"] = {
   fullHash = "848f53",
   text = "A Lesson to Learn. In Darnassus, Mathrengyl Bearwalker sends young druids to Moonglade to learn the ways of water. There, an elder of the Cenarion Circle guides their first steps toward aquatic form. Mathrengyl Bearwalker guides young night elf druids as they practice among Darnassus’s boughs. When an initiate shows a firm bond with nature and is ready for greater responsibility, Mathrengyl sends them to master the waters. Cenarius’s gifts demand focus. To cross the depths without drowning, young druids need the guidance of the Cenarion Circle’s elders. You leave Darnassus for Moonglade, an ancient sanctuary beneath Mount Hyjal. In Nighthaven, Dendrite Starblaze waits as an elder mentor of the Cenarion Circle. Starblaze judges whether young shapeshifters are ready for the trials that lead to aquatic form. Mastering water takes physical resilience and mental resolve.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_26-dd378451de221c186955/1-0000.mp3", duration = 53.4465306, start = 0},
+    {file = "Audio/Transport/full_quest_26-9772b9aa77de29d348ca/1-0000.mp3", duration = 58.0702041, start = 0},
   },
 }
 P.transport["quest:263"] = {
@@ -3110,7 +3110,7 @@ P.transport["quest:4681"] = {
   fullHash = "b1f742",
   text = "Washed Ashore. Along Darkshore's coast, dead sea creatures have drawn Gwennyth Bly'Leggonde into a troubling inquiry. She serves the Temple of the Moon in Darnassus and seeks the cause of the strandings and deaths. Dead sea creatures line Darkshore's beaches and shallows, leaving the night elves of Auberdine puzzled. Gwennyth Bly'Leggonde has already examined one stranded creature on the beach. Now she asks you to dive west of the docks, near a sunken vessel, and inspect the bones of a massive sea turtle. Those remains will help her report to the Temple of the Moon.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4681-07816cae9fd50289c137/1-0000.mp3", duration = 33.3061224, start = 0},
+    {file = "Audio/Transport/full_quest_4681-eb32761241ec655e2a10/1-0000.mp3", duration = 41.9004082, start = 0},
   },
 }
 P.transport["quest:47"] = {
@@ -3150,7 +3150,7 @@ P.transport["quest:4727"] = {
   fullHash = "86edc5",
   text = "Beached Sea Turtle. Along Darkshore’s northern shore, a Beached Sea Turtle lies untouched by nearby Greymist murlocs. A sample goes to Gwennyth Bly'Leggonde in Auberdine for the Temple of the Moon. Naturalists and priestesses seek to learn why great sea creatures wash ashore and scavengers leave them alone. Greymist murlocs crowd Darkshore’s northern coast and scavenge food washed up from the Veiled Sea. Yet the great turtle’s bones lie mostly untouched. Those who study the shore wonder whether the murlocs missed it or avoid it for some unknown reason. In Auberdine, Gwennyth Bly'Leggonde gathers samples from beached sea turtles for the Temple of the Moon. The night elf priestesses study disturbances in Darkshore’s waters. Skeletal fragments may help them learn whether sickness, magic, or dangerous sea predators are killing the ancient creatures.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4727-33a93e2169e7a30ca86d/1-0000.mp3", duration = 50.1028571, start = 0},
+    {file = "Audio/Transport/full_quest_4727-7e457696d14fa8938a3a/1-0000.mp3", duration = 62.6416327, start = 0},
   },
 }
 P.transport["quest:4728"] = {
@@ -3166,7 +3166,7 @@ P.transport["quest:4730"] = {
   fullHash = "fd9c57",
   text = "Beached Sea Creature. Along Darkshore, a great sea mammal lies half-devoured on the sand. Murlocs gather around it, and Priestess Gwennyth Bly'Leggonde in Auberdine seeks bone samples to learn why gentle sea beasts are dying on the shore. Far north along Darkshore's lonely beaches, a great sea mammal lies rotting and half-eaten. Murlocs pick over its bones, more vicious than usual. These beasts were gentle in life, and their deaths trouble the coast as much as the blighted forests inland. Priestess Gwennyth Bly'Leggonde says these gentle mammals live in the waters around Teldrassil's base. Unlike aggressive threshers, they have never been known to drive themselves onto the rocks. The Temple of the Moon is gathering bone samples to learn what corruption or threat drives them from the deep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4730-72a67ccd58045b9d51dd/1-0000.mp3", duration = 45.2963265, start = 0},
+    {file = "Audio/Transport/full_quest_4730-8ff1741b33e90e95ae37/1-0000.mp3", duration = 59.6897959, start = 0},
   },
 }
 P.transport["quest:4731"] = {
@@ -3174,7 +3174,7 @@ P.transport["quest:4731"] = {
   fullHash = "726728",
   text = "Beached Sea Turtle. Along Darkshore's coast, a Beached Sea Turtle lies dead beneath the carriage it once hauled. A box marked with strange runes rests in the wreckage. A dead sea turtle lies among the ancient bones along Darkshore's coast. Splintered carriage boards cling to its broad shell. It was driven onto the rocks while hauling cargo, not stranded by sickness or confusion. A container carved with unfamiliar, serpent-like marks lies in the wreckage, where scavengers feed on the remains.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4731-d3d19393429d6d0d7849/1-0000.mp3", duration = 28.4995918, start = 0},
+    {file = "Audio/Transport/full_quest_4731-b4913e66e89764f9f3a7/1-0000.mp3", duration = 35.1346939, start = 0},
   },
 }
 P.transport["quest:4732"] = {
@@ -3230,7 +3230,7 @@ P.transport["quest:4762"] = {
   fullHash = "3242ed",
   text = "The Cliffspring River. Foul water now runs down the Cliffspring River toward Auberdine. Thundris Windweaver sends Alliance investigators to collect a sample from the pool beneath a road bridge waterfall. He suspects the corruption began beyond the riverbanks. From the eastern highlands, the Cliffspring River runs to the coastal shoals of Mist's Edge, just north of Auberdine. Now its waters carry an unnatural rot toward the night elf settlement. Thundris Windweaver fears the foul water will poison the shores and the town's supplies. So he sends scouts upriver to take samples from the waterfall pool beneath the road bridge.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4762-994ae5525d223ddb224c/1-0000.mp3", duration = 35.4220408, start = 0},
+    {file = "Audio/Transport/full_quest_4762-f7247ac0ac561a6076b5/1-0000.mp3", duration = 41.5869388, start = 0},
   },
 }
 P.transport["quest:4763"] = {
@@ -3286,7 +3286,7 @@ P.transport["quest:4812"] = {
   fullHash = "aeff8f",
   text = "As Water Cascades. At Auberdine, Sentinel Glynda Nal'Shea hopes moonwell water will reveal what lies beneath Darkshore's red crystal. Sacred water may pierce its opaque surface. Sentinel Glynda Nal'Shea seeks a safe way to study the red crystal high on Darkshore's eastern cliffs. Moonwell water bears divine, restorative magic, blessed by the night elves' devotion to Elune. Glynda believes water from Auberdine's moonwell may react with the strange stone and pierce its opaque shell without destroying it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4812-08ee077abce74b4f8768/1-0000.mp3", duration = 30.5110204, start = 0},
+    {file = "Audio/Transport/full_quest_4812-176a70ab43862ec267c9/1-0000.mp3", duration = 36.597551, start = 0},
   },
 }
 P.transport["quest:4813"] = {
@@ -4150,7 +4150,7 @@ P.transport["quest:6341"] = {
   fullHash = "0212a2",
   text = "The Bounty of Teldrassil. Nessa Shadowsong is comparing Teldrassil's fish with the mainland catch. She sends samples from Rut'theran Village to Auberdine to learn whether the island fish are larger and more plentiful. Nessa Shadowsong asks you to carry fish bones and scales to Laird in Auberdine. Fishers in Rut'theran Village bring in large, plentiful catches. Nessa wants to learn whether the mainland waters yield the same kind of fish. The samples let Laird compare the island catch with fish from the coast of Darkshore. Nessa Shadowsong sends you to Vesprystus, the hippogryph master in Rut'theran Village, with the collection for Auberdine. Give him the samples, and he arranges your passage across the water to Darkshore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6341-62d8795c2a1ae3155237/1-0000.mp3", duration = 41.195102, start = 0},
+    {file = "Audio/Transport/full_quest_6341-f0948d2e20603bf65719/1-0000.mp3", duration = 51.1477551, start = 0},
   },
 }
 P.transport["quest:6342"] = {
@@ -4214,7 +4214,7 @@ P.transport["quest:6365"] = {
   fullHash = "ead76d",
   text = "Meats to Orgrimmar. At the Crossroads, Zargh sends Barrens meat toward Orgrimmar. He asks young orc and troll adventurers to deliver it to Devrak, the wind rider master, and learn the route to the Horde capital. Wild game runs across the Barrens, from zhevras and plainstriders to kodos and thunder lizards. Zargh has cut meat for Gryshka, the innkeeper in Orgrimmar's Valley of Strength. He sends runners from the Crossroads to the wind rider perch instead of risking the long, dusty trek across the Southfury River into Durotar. Meeting Devrak gives a young Horde warrior a first glimpse of the wind rider routes. Wind rider masters link remote places like the Crossroads to the Horde's fortified seat in Orgrimmar. Devrak prepares you and the cargo for a swift flight over the savannah.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6365-0a8c5c76671138b1bc4d/1-0000.mp3", duration = 46.2628571, start = 0},
+    {file = "Audio/Transport/full_quest_6365-4a6000077c83c0c46814/1-0000.mp3", duration = 64.757551, start = 0},
   },
 }
 P.transport["quest:6384"] = {
@@ -4310,7 +4310,7 @@ P.transport["quest:6441"] = {
   fullHash = "c88ce9",
   text = "Satyr Horns. At Splintertree Post, Satyr Horns offer Pixel a chance to trade in Ratchet. The traveling goblin seeks them for the journey south to the port town. At Splintertree Post, Pixel sees a chance to profit while resting between travels. Satyr horns fetch a high price in Ratchet, and Pixel wants them for the journey back south to the port town. Rather than face the corrupted creatures, Pixel hires passing adventurers to bring back sixteen intact horns. Demonic satyrs haunt scattered, fel-tainted ruins across Ashenvale. They are remnants of a betrayal during the ancient sundering. You can search their strongholds at Night Run, the fortified camp of Satyrnaar, and the shadowed groves of Xavian. Pixel seeks horns from any of these places for Ratchet's merchant wharves.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6441-102fda1b2499e41bbadd/1-0000.mp3", duration = 48.0653061, start = 0},
+    {file = "Audio/Transport/full_quest_6441-16f2640506a48794a4e5/1-0000.mp3", duration = 59.3763265, start = 0},
   },
 }
 P.transport["quest:6442"] = {
@@ -4966,7 +4966,7 @@ P.transport["quest:821"] = {
   fullHash = "a4ae22",
   text = "Chen's Empty Keg. In Ratchet, Brewmaster Drohn hopes to bring Chen Stormstout's potent brew back with wild Barrens ingredients. A marked keg recalls Chen Stormstout to Brewmaster Drohn in Ratchet. Chen entrusted the secrets of his namesake brew to Drohn's mentor, who passed them on to Drohn. The recipe calls for raw, potent parts from the Barrens' fierce wildlife. To those outside the brewing trade, that is an unusual choice.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_821-870e9d5a2429c2c89a62/1-0000.mp3", duration = 26.5404082, start = 0},
+    {file = "Audio/Transport/full_quest_821-442a6dc9d900a513e4b0/1-0000.mp3", duration = 33.3844898, start = 0},
   },
 }
 P.transport["quest:823"] = {
@@ -5142,7 +5142,7 @@ P.transport["quest:840"] = {
   fullHash = "c3360e",
   text = "Conscript of the Horde. Along Durotar’s western road, recruits head toward the Barrens under the name Conscript of the Horde. Takrin Pathseeker watches beyond Razor Hill and gives them a letter for Kargal Battlescar, whose outpost guards the crossing. You have proved your strength around Razor Hill, and now you are called west to serve the wider Horde. Takrin Pathseeker watches the road out of Durotar for his friend, veteran Kargal Battlescar. He gives capable travelers a recruitment letter to carry across the Southfury River. For a recruit, it marks a first formal assignment beyond the orcs’ new homeland. Kargal Battlescar holds the outpost beyond the bridge, between Durotar’s red canyons and the dry Barrens. He gathers recruits to guard the frontier, where centaur, quilboar, and Alliance expeditions test the border. Yet the Horde needs more than guards there. Raw manpower is also bound for the settlement of the Crossroads.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_840-22b207f2bdca6ec78894/1-0000.mp3", duration = 52.8195918, start = 0},
+    {file = "Audio/Transport/full_quest_840-d900b61bc2ca272dd139/1-0000.mp3", duration = 67.4220408, start = 0},
   },
 }
 P.transport["quest:842"] = {
@@ -5166,7 +5166,7 @@ P.transport["quest:845"] = {
   fullHash = "7638c0",
   text = "The Zhevra. At the Crossroads, Sergra Darkthorn sends young Horde warriors to hunt zhevra. Their trial prepares them for the Barrens' more dangerous beasts. After the plainstriders, Sergra Darkthorn sets you after tougher prey. Zhevras run in herds across the northern and southern Barrens. They are swift and stubborn, though not the savanna's fiercest beasts. Their kicks can break bone. Sergra uses the hunt to test your growing skill. She asks for four intact hooves as proof of the kill. A zhevra's rear kick can knock a grown tauren onto their haunches. Pass this trial, and you draw closer to facing the plains' predatory prowlers.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_845-94033505b4a02e6720b2/1-0000.mp3", duration = 39.3404082, start = 0},
+    {file = "Audio/Transport/full_quest_845-061a0725bb52d55cb381/1-0000.mp3", duration = 47.0987755, start = 0},
   },
 }
 P.transport["quest:848"] = {
@@ -5222,7 +5222,7 @@ P.transport["quest:854"] = {
   fullHash = "f80fa9",
   text = "Journey to the Crossroads. At Camp Taurajo, Kirge Sternhorn sends travelers north to aid Thork at the Crossroads. Their road leads from Mulgore into the Barrens, where the Horde’s struggles widen. At Camp Taurajo, many tauren first meet the Barrens beyond Mulgore. Just beyond the mountain pass, mystic Kirge Sternhorn watches travelers descend into the dry grasslands. When Kirge sees one ready to go farther, Kirge points north along the dusty trade route to the Crossroads. The tauren of Thunder Bluff and Thrall’s new Horde now share their fortunes. Kirge says their fates are bound together, and orcs at the Crossroads need reinforcements as they struggle to establish an outpost. At the settlement, Thork welcomes travelers from even the high bluffs. He is ready to test their strength against the dangers of the savanna.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_854-1c686d3796bcf1c3e6f4/1-0000.mp3", duration = 49.9722449, start = 0},
+    {file = "Audio/Transport/full_quest_854-e7bd327fd08abefd994f/1-0000.mp3", duration = 57.9134694, start = 0},
   },
 }
 P.transport["quest:855"] = {
@@ -5342,7 +5342,7 @@ P.transport["quest:867"] = {
   fullHash = "9bbe9c",
   text = "Harpy Raiders. Across the northwestern Barrens, Witchwing harpies prey on supply caravans. Darsok Swiftdagger at the Crossroads sends you after their raiders and roguefeathers, whose talons will prove each kill. Witchwing harpies make the northwestern Barrens dangerous for every caravan. From rocky crags, they swoop on merchant trains and supply wagons. They kill pack animals and seize goods bound for orcish outposts. Darsok Swiftdagger, an orc rogue, has watched the flock's habits and ranks for days. He believes an unfocused attack on their mountain roosts would scatter them. So he means to break the Witchwing from the lowest rank upward, beginning with raiders before turning to their commanders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_867-5f7c12b5919f119e62a2/1-0000.mp3", duration = 41.4040816, start = 0},
+    {file = "Audio/Transport/full_quest_867-f643a7544ea53e4ebfe8/1-0000.mp3", duration = 52.7412245, start = 0},
   },
 }
 P.transport["quest:8670"] = {
@@ -5454,7 +5454,7 @@ P.transport["quest:872"] = {
   fullHash = "0c7210",
   text = "The Disruption Ends. Along the Horde road, Thork orders a strike to end the Razormane raids. Kreenig Snarlsnout leads the attacks from the northern Barrens, and his death is meant to break the warband's hold on the route between Durotar and the Crossroads. The road between Durotar and the Crossroads carries provisions and reinforcements through the northern Barrens. Razormane quilboar ambushes threaten that passage. Scout reports name Kreenig Snarlsnout as their leader. His raiding party organizes the attacks, so Thork orders a strike against him to break the warband's unity and secure the road. Kreenig's war party holds craggy hills northeast of the Crossroads. Hardy Razormane Defenders and geomancers who manipulate the arid earth shield his position. Thork orders a breach through their guard and a strike against Kreenig in his redoubt. His tusk will prove the leader's death and warn the plains that the Horde will not accept attacks on its lifelines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_872-24f8a6794843b39e22f0/1-0000.mp3", duration = 55.6930612, start = 0},
+    {file = "Audio/Transport/full_quest_872-a6ed68a63b8042a1caf6/1-0000.mp3", duration = 68.1273469, start = 0},
   },
 }
 P.transport["quest:8721"] = {
@@ -5478,7 +5478,7 @@ P.transport["quest:875"] = {
   fullHash = "a6440e",
   text = "Harpy Lieutenants. In the northern Barrens, Darsok Swiftdagger sends Horde champions against the Witchwing coven. In the Dry Hills, they target the flock’s officers to break its command. After the first clashes with Witchwing raiders, Darsok Swiftdagger turns the Horde’s attack toward the harpies in the Dry Hills. Scouts seek out the Witchwing Slayers who lead the flock. These officers keep lesser harpies in line and direct raids on Horde supply paths. Their deaths are vital to securing the Barrens’ northern approaches. Witchwing Slayers rule through strength, and the most vicious among them wear ornate rings to mark their authority in the matriarchy. Taking the rings proves the lieutenants are dead and disrupts the roost’s coordination. It also warns the coven that attacks on Horde territory will meet decisive retribution.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_875-50feda7e9e8c29ae14a4/1-0000.mp3", duration = 46.5502041, start = 0},
+    {file = "Audio/Transport/full_quest_875-c3e35b21a016466708d4/1-0000.mp3", duration = 55.6146939, start = 0},
   },
 }
 P.transport["quest:877"] = {
@@ -5486,7 +5486,7 @@ P.transport["quest:877"] = {
   fullHash = "9ad7e7",
   text = "The Stagnant Oasis. From the Crossroads, Tonga Runetotem sends you southeast to search the Stagnant Oasis. He wants to know whether its murky waters hide a fissure like the one beneath the Forgotten Pools. Tonga Runetotem sends you to search the Stagnant Oasis after a strange fissure is found beneath the Forgotten Pools. He suspects the sudden patches of lush growth across the Barrens have a cause beneath the earth. You search the murky shallows for another opening while predators haunt the water.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_877-c59063c1cc3f77f54e56/1-0000.mp3", duration = 27.3502041, start = 0},
+    {file = "Audio/Transport/full_quest_877-f9b4c467ec37b7deaeda/1-0000.mp3", duration = 38.7134694, start = 0},
   },
 }
 P.transport["quest:88"] = {
@@ -5502,7 +5502,7 @@ P.transport["quest:880"] = {
   fullHash = "6c748b",
   text = "Altered Beings. At the Crossroads, Tonga Runetotem investigates strange changes in the Barrens' oasis waters. Fissures beneath the pools may be changing the creatures there, so he asks you to bring him shells from altered snapjaws. Tonga Runetotem seeks the cause of strange changes in the Barrens' oases. Though the savanna is dry, a handful of pools keep fertile ground alive. Beneath the waters, Tonga found peculiar fissures that send out potent energies. He cannot tell whether that force came from outside or rose from deep within the earth.\n\nNow Tonga studies the creatures that drink from and live in the pools. He hopes they will show what the fissures are doing to them. You are sent to the Lushwater Oasis and the Stagnant Oasis to gather altered snapjaw shells. Snapjaws live in the shallows, taking in the strange essence through food and exposure. Their changed carapaces may show Tonga how the fissures affect local wildlife. He hopes the shells will help him understand the disturbance before it spreads farther across Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_880-c566bb7435b973d4bb08/1-0000.mp3", duration = 60.1338776, start = 0},
+    {file = "Audio/Transport/full_quest_880-f4250cca7355fef6c27f/1-0000.mp3", duration = 85.3681633, start = 0},
   },
 }
 P.transport["quest:881"] = {
@@ -5574,7 +5574,7 @@ P.transport["quest:887"] = {
   fullHash = "794764",
   text = "Southsea Freebooters. Along the Merchant Coast south of Ratchet, pirates strike goblin trading vessels. Gazlowe hires adventurers to attack the Southsea Freebooters' camp and curb the raids. Pirates on the Merchant Coast are hurting Ratchet's trade. The port lies in central Kalimdor, along the route merchant vessels take between Kalimdor and the eastern continents. South of town, the Southsea Freebooters hold a fortified beach camp. From there, they attack goblin cargo ships coming and going, cutting profits and disrupting local shipping lanes. Gazlowe blames the pirates and the Steamwheedle Cartel's naval leaders. The Trade Princes have spent immense sums on defensive fleets, yet Vice Admiral Grezzlik has failed to patrol the waters effectively. Frustrated by Undermine's slow response, Gazlowe hires independent mercenaries to thin the pirate brigands and cannoneers.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_887-838558650fb785ea03a2/1-0000.mp3", duration = 51.7746939, start = 0},
+    {file = "Audio/Transport/full_quest_887-a47347c794809532c29c/1-0000.mp3", duration = 64.522449, start = 0},
   },
 }
 P.transport["quest:888"] = {
@@ -5614,7 +5614,7 @@ P.transport["quest:895"] = {
   fullHash = "68e0df",
   text = "WANTED: Baron Longshore. On Ratchet's docks, Chief Engineer Gazlowe posts a bounty for the pirate Baron Longshore. From Gilneas, Longshore commands vessels of the Southsea Freebooters. His raids along the Merchant Coast threaten goblin shipping across the region. South of Ratchet, the Southsea Freebooters keep fortified camps along the Merchant Coast. Their pirates harass merchant vessels and disrupt the sea lanes the Steamwheedle Cartel relies on between Ratchet, Booty Bay, and points beyond. Under captains such as Baron Longshore, the raids drain the local goblin administration and threaten trade along the coast. Baron Longshore comes from Gilneas, the isolated human kingdom across the sea. On Kalimdor, he commands the pirate vessel Heedless and leads crews ashore just north of Northwatch Hold. Chief Engineer Gazlowe answers with a bounty and calls for Longshore's identifiable head.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_895-a9215dfe4b7bf134dc4c/1-0000.mp3", duration = 55.7191837, start = 0},
+    {file = "Audio/Transport/full_quest_895-cb1646db39c57bde9c34/1-0000.mp3", duration = 65.7240816, start = 0},
   },
 }
 P.transport["quest:896"] = {
@@ -5622,7 +5622,7 @@ P.transport["quest:896"] = {
   fullHash = "c83266",
   text = "Miner's Fortune. Wharfmaster Dizzywig has word of a great emerald at Boulder Lode Mine. He wants you to take it from the Venture Company's overseers and share the proceeds. Merchants sailing between Ratchet and Booty Bay bring news to Wharfmaster Dizzywig. Now word has reached him of a huge gem found deep in Boulder Lode Mine. The Venture Company strips the northern Barrens for its own gain, so few are likely to ask questions if its finest recent find vanishes. Northeast of the Sludge Fen, laborers work the rocky shaft of Boulder Lode Mine. The Venture Co. Overseers and Enforcers hold the Cats Eye Emerald, and an ordinary digger cannot claim so rare a prize. Face the armed managers, take the stone, and bring it to Dizzywig. He can weigh its worth against the market in Undermine.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_896-5fc23b279b3bbea2deb2/1-0000.mp3", duration = 45.6620408, start = 0},
+    {file = "Audio/Transport/full_quest_896-a85dedb0e9618dc8ac8e/1-0000.mp3", duration = 56.9730612, start = 0},
   },
 }
 P.transport["quest:9"] = {
@@ -5654,7 +5654,7 @@ P.transport["quest:902"] = {
   fullHash = "317851",
   text = "Samophlange. At the Venture Company console, you uncover the samophlange and bring it to Ratchet. Its controls and defenses are shut down, and Sputtervalve is ready to examine the delicate device. You find strange engineering behind the Venture Company console's faceplate. Wiring and purposeless tubing crowd the space. Deep inside lies the samophlange, a core component that has baffled engineers across the region. With a firm tug, you free it from its housing and carry it back to the goblin who began the recovery effort.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_902-96787888890279bba428/1-0000.mp3", duration = 30.7983673, start = 0},
+    {file = "Audio/Transport/full_quest_902-a25c48569f0c3fc4278b/1-0000.mp3", duration = 41.4302041, start = 0},
   },
 }
 P.transport["quest:903"] = {
@@ -5662,7 +5662,7 @@ P.transport["quest:903"] = {
   fullHash = "5d80c0",
   text = "Prowlers of the Barrens. At the Crossroads, Sergra Darkthorn sends you to hunt prowlers of the Barrens. Their claws will show whether you can face the land’s greatest beasts. Hunters who have faced plainstriders and zhevras now face Sergra Darkthorn’s test. Southwest of the Crossroads, savannah prowlers vanish into the scrub of the central Barrens. Unlike the herds, these great cats hunt. They wait in tall grass and ambush their prey, so unwary travelers can fall to them. Sergra warns you that prowlers know how to hunt. Read the grasses and strike before a cat leaps. Bring Sergra seven prowler claws to prove you have the cunning and quick reflexes to survive Kalimdor’s deadliest wildlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_903-e79d71f2c4824a0ada9a/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_quest_903-5a19ea21cad2d515a64f/1-0000.mp3", duration = 51.9836735, start = 0},
   },
 }
 P.transport["quest:905"] = {
@@ -5670,7 +5670,7 @@ P.transport["quest:905"] = {
   fullHash = "38dfa4",
   text = "The Angry Scytheclaws. South of the Crossroads, Sergra Darkthorn sends hunters against the scytheclaws stalking the Barrens. Carry sunscale raptor feathers to their nests, and show you can face these beasts without fear. Sergra Darkthorn tests hunters against the Barrens' beasts. After lesser trials, she sends you south of the Crossroads to hunt vicious sunscale raptors and gather their feathers. Then you carry them southwest of the Stagnant Oasis, deep into raptor territory. Place the feathers in the nests, and prove you can face the scytheclaws without fear. Southwest of the Stagnant Oasis, three raptor nests lie near the Gold Road. Red, blue, and yellow eggs mark the separate clutches. Scytheclaws fiercely defend their nests from anything that draws near. Place feathers from fallen raptors among the eggs, and the challenge is plain to the beasts. After entering the nests, return to the Crossroads. Sergra can see you faced the danger and lived. Walking out of a raptor den takes raw courage. The Barrens test every hunter; each fight may harden you or leave your bones among the kodo ribs scattered across the dirt.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_905-db9f69efe5b52b6d9fd2/1-0000.mp3", duration = 67.0040816, start = 0},
+    {file = "Audio/Transport/full_quest_905-9fe7fd3ad1d5b7756852/1-0000.mp3", duration = 76.7216327, start = 0},
   },
 }
 P.transport["quest:907"] = {
@@ -5678,7 +5678,7 @@ P.transport["quest:907"] = {
   fullHash = "7f235e",
   text = "Enraged Thunder Lizards. In the southern Barrens, thunder lizards roam the plains around Camp Taurajo. Jorn Skyseer calls hunters to face the great beasts and bring back their blood for a wider rite of passage. After defeating the raptor Ishamuhale, you return to Camp Taurajo. Jorn Skyseer, the tauren elder, now tests your strength against the land's largest grazers. Stormsnouts and Thunderheads roam the southern Barrens. Their heavy strides can crush an unwary hunter beneath them. Tauren and orc hunters prize poise, position, and strength against a thunder lizard. Jorn asks you to bring back samples of their potent blood. They prove you stood before the rumbling beasts and survived with your bones unbroken. That trophy opens the way to Jorn's final quarry in the skies.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_907-7e663c126a87ce5b3654/1-0000.mp3", duration = 46.9942857, start = 0},
+    {file = "Audio/Transport/full_quest_907-89c9fefa8119a68ff9ce/1-0000.mp3", duration = 53.4726531, start = 0},
   },
 }
 P.transport["quest:90902"] = {
@@ -5774,7 +5774,7 @@ P.transport["quest:922"] = {
   fullHash = "11fea2",
   text = "Rellian Greenspyre. At Denalan’s retreat by Lake Al’Ameth, you carry a timberling seed to Rellian Greenspyre in Darnassus. The handoff brings word of trouble spreading through Teldrassil’s boughs. Denalan has studied the plants and elemental life around Lake Al’Ameth. After you gather seeds from nearby timberlings, he sends you to Darnassus with one for his colleague, Rellian Greenspyre. Rellian is a druid who walks the Cenarion Enclave’s terraces. He has taken an interest in Denalan’s research and hopes to grow a timberling of his own.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_922-890fbc9a4f01014038f9/1-0000.mp3", duration = 31.7910204, start = 0},
+    {file = "Audio/Transport/full_quest_922-7c817b84c2489c307280/1-0000.mp3", duration = 43.8857143, start = 0},
   },
 }
 P.transport["quest:923"] = {
@@ -5966,7 +5966,7 @@ P.transport["quest:926"] = {
   fullHash = "9237fe",
   text = "Flawed Power Stone. Across the Barrens, flawed stones sit charged with arcane energy on ritual tables. Their makers left them unstable, and they consume their power soon after they are moved. Across the Barrens, flawed power stones hold arcane essence in compromised structures. Their makers left them unstable, so they decay into inert matter moments after someone handles them. A stone starts consuming its power as soon as it leaves the ritual table where it rests. Its energy burns away too quickly for anyone to carry it far.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_926-29c9d74f5ec0d702cf4a/1-0000.mp3", duration = 31.764898, start = 0},
+    {file = "Audio/Transport/full_quest_926-993ddc2467481cc94b74/1-0000.mp3", duration = 42.8408163, start = 0},
   },
 }
 P.transport["quest:9260"] = {
@@ -6238,7 +6238,7 @@ P.transport["quest:945"] = {
   fullHash = "f1e7d5",
   text = "Therylune's Escape. At the Master's Glaive in southern Darkshore, Therylune needs help reaching safety. She wandered into the dig sites, and her sister Therysil waits at the Shrine of Aessina, worried for her. At the Master's Glaive, Twilight's Hammer cultists have pinned Therylune down. An ancient monstrosity's skull dominates the ravine, pierced by a huge stone blade. Despite the dread around it, Therylune wandered into the valley's heart. She survives by reacting quickly and hiding among the rough terrain. Therysil waits far to the south at the Shrine of Aessina. Her adventurous sister Therylune rarely minds getting dirt on her clothes, but even Therysil was shocked to hear she had ventured into the unwholesome excavations at the Master's Glaive. Tell her Therylune is safe, and her worry will ease. Therysil knows the dark forces digging through Darkshore's ancient earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_945-5cc3944c4c48404c6d3b/1-0000.mp3", duration = 51.5918367, start = 0},
+    {file = "Audio/Transport/full_quest_945-c466b4597a0788f0c373/1-0000.mp3", duration = 71.4971429, start = 0},
   },
 }
 P.transport["quest:947"] = {
@@ -6246,7 +6246,7 @@ P.transport["quest:947"] = {
   fullHash = "64fd15",
   text = "Cave Mushrooms. In Darkshore, Cave Mushrooms are needed for a potion Barithras Moonshade prepares in Auberdine. He asks you to gather rare fungi behind Cliffspring Falls and investigate warnings from the Grove of the Ancients. Barithras Moonshade needs scaber stalks and a death cap for a potent mixture. Both grow in a damp cavern behind Cliffspring Falls in northeastern Darkshore. Gathering them is more dangerous than picking ordinary woodland herbs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_947-6ade4556bbb57c9ea237/1-0000.mp3", duration = 24.9208163, start = 0},
+    {file = "Audio/Transport/full_quest_947-43cd7eba7f98a65ead69/1-0000.mp3", duration = 33.8546939, start = 0},
   },
 }
 P.transport["quest:948"] = {
@@ -6294,7 +6294,7 @@ P.transport["quest:952"] = {
   fullHash = "03055e",
   text = "Grove of the Ancients. An urgent dispatch takes you from Darnassus to Darkshore, where Onu waits in the Grove of the Ancients. Arch Druid Fandral Staghelm sends you across the sea with a message for the Ancient of Lore, who lives south of Auberdine. After you help at the Oracle Glade atop Teldrassil, Arch Druid Fandral Staghelm calls you to another duty. He sends you across the sea to Darkshore with an urgent dispatch for Onu. From Darnassus, you can take a hippogryph flight. South of Auberdine, you reach the Grove of the Ancients and deliver the message to Onu. The towering Ancient of Lore accepts it quietly and remarks on Staghelm's impatience. Onu and the forest's ancient keepers believe all things unfold in their proper time. Shan'do Malfurion Stormrage embodied that patient wisdom, while Staghelm lacks it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_952-684144d43f198c56c0ad/1-0000.mp3", duration = 48.9273469, start = 0},
+    {file = "Audio/Transport/full_quest_952-671a8edf1ced8d4dd189/1-0000.mp3", duration = 66.2465306, start = 0},
   },
 }
 P.transport["quest:953"] = {
@@ -6326,7 +6326,7 @@ P.transport["quest:955"] = {
   fullHash = "ea1404",
   text = "Bashal'Aran. Magic still binds Asterion beneath Bashal'Aran's broken stones. The ancient night elf seeks release from his ghostly form and suspects the grells have touched the seal that holds him. He asks travelers to gather their earrings and trace its lingering magic. For centuries, Asterion has waited among Bashal'Aran's shattered marble. The ancient night elf spirit remains caught between life and true death beneath Darkshore's canopy. Arcane craft binds him to the ruined settlement, and he cannot break free alone. Solitude and despair have worn down his mind. Asterion believes an ancient seal hidden in the ruins may hold the key to his release. He cannot search the brush and fallen stones himself. The feral grells of Bashal'Aran forage there and steal small baubles, so he asks travelers to gather their earrings. He hopes the trinkets' lingering magic will lead him to the seal that torments his soul.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_955-1a30f944e7ee04eb5c5b/1-0000.mp3", duration = 53.7077551, start = 0},
+    {file = "Audio/Transport/full_quest_955-cddd0229f7a92c0aa005/1-0000.mp3", duration = 65.2277551, start = 0},
   },
 }
 P.transport["quest:956"] = {
@@ -6374,7 +6374,7 @@ P.transport["quest:96139"] = {
   fullHash = "077908",
   text = "The Valor Family. In Darkshire, Sirra Von'Indi seeks records of Raven Hill's lost people. The village remembers their courage, but her library holds little of Raven Hill's history. Sirra Von'Indi says brave people helped Darkshire endure. Lady Althea was among them, as were those who died at Raven Hill. You are asked to search for anything that might preserve their memory.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96139-258ccfeedb90f38baf13/1-0000.mp3", duration = 22.1518367, start = 0},
+    {file = "Audio/Transport/full_quest_96139-b5f6285a958595f4bb65/1-0000.mp3", duration = 33.3583673, start = 0},
   },
 }
 P.transport["quest:962"] = {
@@ -6454,7 +6454,7 @@ P.transport["quest:966"] = {
   fullHash = "99d69d",
   text = "The Tower of Althalaxx. Warlocks gather at the Tower of Althalaxx in northern Darkshore, drawing Balthule Shadowstrike's watchful eye. He asks travelers to recover scraps of parchment from the fanatics camped outside the ruins, hoping to learn who they are and what they seek. Balthule Shadowstrike watches the misty shore of northern Darkshore and keeps the ancient Tower of Althalaxx in sight. Auberdine sent him to watch the ruin and warn Delgren the Purifier if danger grows. Yet leaving his post to report might let the dark spellcasters among the stones slip from view. So Balthule asks passing travelers to scout the camps around the tower.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_966-49f68fad9b483559e0c9/1-0000.mp3", duration = 37.1983673, start = 0},
+    {file = "Audio/Transport/full_quest_966-e9cc92a77264c4af98bb/1-0000.mp3", duration = 48.6661224, start = 0},
   },
 }
 P.transport["quest:96607"] = {
@@ -6534,7 +6534,7 @@ P.transport["quest:967"] = {
   fullHash = "073102",
   text = "The Tower of Althalaxx. At the Tower of Althalaxx, Dark Strand cultists gather, and Balthule Shadowstrike needs help. He sends a warning with an Alliance courier to Maestra's Post in Ashenvale for his mentor, Delgren the Purifier. Balthule Shadowstrike sees that one scout cannot face the Dark Strand threat alone. After clashing with cultists near the Tower of Althalaxx, he writes a report for his master, Delgren the Purifier, and gives it to an Alliance messenger. The cult's summoners grow bolder. Balthule needs seasoned leaders to direct a response. Balthule's dispatch sends you south along Darkshore's coastal road, then across the wooded border into Ashenvale. Delgren the Purifier is stationed at Maestra's Post beside the western road. The human paladin works to cleanse demons and undead from the woodland. Night elven customs once seemed strange to him, but he has earned the Sentinels' deep respect as an indispensable ally.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_967-a6fbbd8e132670ec98a3/1-0000.mp3", duration = 57.1820408, start = 0},
+    {file = "Audio/Transport/full_quest_967-ab77f362896ccf8e1061/1-0000.mp3", duration = 67.84, start = 0},
   },
 }
 P.transport["quest:968"] = {
@@ -6686,7 +6686,7 @@ P.transport["quest:985"] = {
   fullHash = "7d9b58",
   text = "How Big a Threat?. In Darkshore, Terenthis sends you against the Blackwood furbolgs south of Auberdine. Their corrupted camp threatens the settlement, and the Sentinels seek to cull its pathfinders and windtalkers. The Sentinels see the Blackwood furbolgs as an immediate danger to Darkshore’s refugees and defenders. After you scout south of Auberdine, Terenthis sends you to strike their camp. Kill Blackwood Pathfinders and Windtalkers to hinder their attack before it reaches the settlement. Night elves have long counted furbolgs as spiritual kin and allies of the wilderness. Fel moss and demonic taint have spread across northern Kalimdor, driving the Blackwood tribe mad. No known remedy can restore their minds. So Auberdine’s defenders face a grim choice: stop the furbolgs before innocent people die.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_985-e4a5ead856fc0ab4d45c/1-0000.mp3", duration = 46.1844898, start = 0},
+    {file = "Audio/Transport/full_quest_985-a201c0ec95bacb32f168/1-0000.mp3", duration = 60.7346939, start = 0},
   },
 }
 P.transport["quest:98576"] = {
@@ -6726,7 +6726,7 @@ P.transport["quest:991"] = {
   fullHash = "593c7d",
   text = "Raene's Cleansing. In Ashenvale, Raene Wolfrunner asks you to find Teronis in Raene's Cleansing. He set out toward Lake Falathim to recover a magic gemstone and find a way to halt the furbolgs' growing aggression. Raene Wolfrunner serves with the Sentinels in Astranaar, defending Ashenvale from mounting threats. Teronis was among her closest companions. He set out to find a strong defense against the furbolg tribes as they grew more violent. Days passed without his return, and Raene feared the worst while duty kept her at her post. Teronis followed rumors of a powerful rod forged by a wicked wizard who had died. He believed its magic could calm the furbolg fury. To restore the rod, he needed an enchanted gem hidden in an elven shrine at Lake Falathim, near the mountains to the west. Yet aggressive murloc tribes had recently taken the lake's once-tranquil waters.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_991-0bd62ece8967788eb19a/1-0000.mp3", duration = 51.1477551, start = 0},
+    {file = "Audio/Transport/full_quest_991-f95121aedba83cf42653/1-0000.mp3", duration = 66.7428571, start = 0},
   },
 }
 P.transport["quest:99134"] = {

@@ -1,0 +1,77 @@
+{
+ "key": "quest:94215",
+ "type": "quest",
+ "name": "Craftsman's Writ: Free Action Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94215
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks you to deliver a Free Action Potion to a marked location. A trapped creature and scattered coins await there.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "A faded note requests a Free Action Potion and gives a delivery place and payment. The writ can pass from hand to hand, but you need it with you to complete the exchange.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Marked Place",
+   "body": "At the marked spot, you find a creature thrashing inside a spider silk cocoon. It does not seem able to take the potion, and a handful of coins lies beside it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "free action potion writ",
+    "what potion do they want"
+   ],
+   "answer": "The writ requests one Free Action Potion, with a delivery location and payment noted."
+  },
+  {
+   "q": "Can I pass the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "can i give away the writ"
+   ],
+   "answer": "Yes. The note says the writ can be transferred."
+  },
+  {
+   "q": "What do I find at the marked location?",
+   "aliases": [
+    "what's at the delivery spot",
+    "where does the writ lead"
+   ],
+   "answer": "A creature trapped in spider silk is at the marked location, with coins scattered beside it."
+  },
+  {
+   "q": "Why do I need the writ with me?",
+   "aliases": [
+    "need writ to deliver",
+    "can i complete without writ"
+   ],
+   "answer": "The writ must be in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cocoon",
+  "coins",
+  "craftsman's writ",
+  "delivery",
+  "free action potion",
+  "potion",
+  "spider silk",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Free Action Potion"
+ ]
+}

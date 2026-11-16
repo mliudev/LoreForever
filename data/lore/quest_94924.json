@@ -1,0 +1,72 @@
+{
+ "key": "quest:94924",
+ "type": "quest",
+ "name": "Hunting the Hunters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94924
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Watcher Cornelius asks you to stop Rog'mar Poachers in the Riverglades. They kill people and animals, threatening all life on the plains.",
+ "sections": [
+  {
+   "title": "Poachers on the Plains",
+   "body": "Rog'mar Poachers roam the Riverglades in packs, and Watcher Cornelius asks you to confront them. They kill men, lions, and horses, making them a threat to all life in the plains. Their hunting leaves no creature safe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to stop the poachers?",
+   "aliases": [
+    "who sent me",
+    "Cornelius request"
+   ],
+   "answer": "Watcher Cornelius asks you to stop the Rog'mar Poachers."
+  },
+  {
+   "q": "Who are the Rog'mar Poachers?",
+   "aliases": [
+    "rogmar",
+    "the poachers"
+   ],
+   "answer": "They are orcish hunters who roam the Riverglades in packs."
+  },
+  {
+   "q": "Why are the poachers a threat?",
+   "aliases": [
+    "why stop poachers",
+    "poacher danger"
+   ],
+   "answer": "They kill men, lions, and horses, threatening all life in the Riverglades."
+  },
+  {
+   "q": "Where do the poachers roam?",
+   "aliases": [
+    "poachers location",
+    "where rogmar"
+   ],
+   "answer": "The Rog'mar Poachers roam the plains of the Riverglades."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hunting the hunters",
+  "orcish poachers",
+  "poachers",
+  "riverglades",
+  "rog'mar poachers",
+  "watcher cornelius"
+ ],
+ "related": [
+  "zone:riverglades"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hunting the Hunters"
+ ]
+}

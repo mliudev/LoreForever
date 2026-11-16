@@ -1,0 +1,78 @@
+{
+ "key": "quest:91685",
+ "type": "quest",
+ "name": "Ley of the Land",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91685
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Izvi Gildfizz believes a rift above Lake Mennar may be an open leyline. She wants you to siphon its magic and bring her the Tear of Mennar.",
+ "sections": [
+  {
+   "title": "A Rift Above the Water",
+   "body": "Izvi Gildfizz asks you to investigate the rift she spotted above Lake Mennar. While surveying for untapped resources, she saw it floating over the water but could not get close. She suspects it is an open leyline. With a Mana-Siphoning Wand, you can draw magic from the rift and bring Izvi the Tear of Mennar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Izvi Gildfizz?",
+   "aliases": [
+    "Izvi",
+    "who's Izvi",
+    "Izvi Gildfizz backstory"
+   ],
+   "answer": "Izvi Gildfizz surveyed the area for untapped resources and spotted a rift above Lake Mennar."
+  },
+  {
+   "q": "What did Izvi find at Lake Mennar?",
+   "aliases": [
+    "Lake Mennar rift",
+    "what's over the lake",
+    "rift at Mennar"
+   ],
+   "answer": "Izvi saw a huge rift floating above the water and thinks it may be an open leyline."
+  },
+  {
+   "q": "What does Izvi want me to do?",
+   "aliases": [
+    "what do I do",
+    "leyline task",
+    "siphon the rift"
+   ],
+   "answer": "Izvi wants you to use a Mana-Siphoning Wand on the Leyline Rift and bring her the Tear of Mennar."
+  },
+  {
+   "q": "Why does Izvi want the leyline's magic?",
+   "aliases": [
+    "why siphon it",
+    "what's the magic for",
+    "Izvi wants magic"
+   ],
+   "answer": "Izvi hopes to bottle the siphoned magic and sell it to the highest bidder."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "izvi gildfizz",
+  "lake mennar",
+  "ley of the land",
+  "leyline rift",
+  "mana-siphoning wand",
+  "open leyline",
+  "siphon magic",
+  "tear of mennar"
+ ],
+ "related": [
+  "subzone:lake-mennar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ley of the Land"
+ ]
+}

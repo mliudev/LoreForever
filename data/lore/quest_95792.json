@@ -1,0 +1,75 @@
+{
+ "key": "quest:95792",
+ "type": "quest",
+ "name": "Clear 'em Out",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95792
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gelinda Coppergleam wants the dragons cleared from a cave rich in mineral deposits. She offers a reward and a share if her mining venture turns a profit.",
+ "sections": [
+  {
+   "title": "A Cave Venture",
+   "body": "Gelinda Coppergleam has found mineral deposits in the cave behind her, but Cinderscale dragons are in the way. She asks you to clear them out so she can bring in a mining crew. In return, she offers a reward and promises you a cut if the venture earns a profit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gelinda Coppergleam?",
+   "aliases": [
+    "gelinda",
+    "who's gelinda",
+    "coppergleam"
+   ],
+   "answer": "Gelinda Coppergleam is planning a mining venture in a cave rich with mineral deposits."
+  },
+  {
+   "q": "What does Gelinda want cleared out?",
+   "aliases": [
+    "clear em out",
+    "what's in the cave",
+    "dragon problem"
+   ],
+   "answer": "Gelinda asks you to clear the Cinderscale whelps and warriors from the cave."
+  },
+  {
+   "q": "What is in the cave?",
+   "aliases": [
+    "cave minerals",
+    "mineral deposits",
+    "what's behind gelinda"
+   ],
+   "answer": "The cave has untapped mineral deposits, along with Cinderscale whelps and warriors."
+  },
+  {
+   "q": "What does Gelinda offer?",
+   "aliases": [
+    "what's the reward",
+    "gelinda's deal",
+    "mining cut"
+   ],
+   "answer": "Gelinda offers a reward and promises you a share once her mining venture turns a profit."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cave",
+  "cinderscale warriors",
+  "cinderscale whelps",
+  "clear 'em out",
+  "gelinda coppergleam",
+  "mineral deposits",
+  "mining"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Clear 'em Out"
+ ]
+}

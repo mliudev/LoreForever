@@ -1,0 +1,65 @@
+{
+ "key": "quest:3341",
+ "type": "quest",
+ "name": "Bring the End",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3341
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Andrew Brownell asks you to kill Amnennar the Coldbringer and bring back his skull. The request rests on that proof of Amnennar\u2019s end.",
+ "sections": [
+  {
+   "title": "A Name to Answer",
+   "body": "Andrew Brownell has named the foe whose skull he seeks: Amnennar the Coldbringer. You are asked to bring back the skull as proof that the Coldbringer is dead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for Amnennar's skull?",
+   "aliases": [
+    "who wants the skull",
+    "Andrew Brownell request",
+    "brownell quest"
+   ],
+   "answer": "Andrew Brownell asks you to kill Amnennar the Coldbringer and return his skull."
+  },
+  {
+   "q": "Who is Amnennar the Coldbringer?",
+   "aliases": [
+    "Amnennar who",
+    "coldbringer",
+    "amnennar"
+   ],
+   "answer": "Amnennar the Coldbringer is the foe Andrew Brownell asks you to kill."
+  },
+  {
+   "q": "What does Andrew Brownell want?",
+   "aliases": [
+    "what does Andrew need",
+    "bring the end quest",
+    "what to bring back"
+   ],
+   "answer": "Andrew Brownell wants Amnennar the Coldbringer killed and his skull returned."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "amnennar",
+  "amnennar the coldbringer",
+  "andrew brownell",
+  "bring the end",
+  "coldbringer",
+  "skull"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bring the End"
+ ]
+}

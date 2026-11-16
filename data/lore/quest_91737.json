@@ -1,0 +1,75 @@
+{
+ "key": "quest:91737",
+ "type": "quest",
+ "name": "Remote Contact",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91737
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Thunder Bluff resident needs news of a delivery from Jediga in Azshara. You are asked to find her camp and ask when it will arrive.",
+ "sections": [
+  {
+   "title": "Word from Azshara",
+   "body": "A resident of Thunder Bluff is waiting on reagents sent by Jediga, an orc in Azshara. Since the resident is needed in Thunder Bluff, you are asked to find Jediga's camp and ask when the delivery is expected.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for the delivery?",
+   "aliases": [
+    "who needs the reagents",
+    "who sent me to Jediga"
+   ],
+   "answer": "A resident of Thunder Bluff is waiting for reagents from Jediga in Azshara."
+  },
+  {
+   "q": "Who is Jediga?",
+   "aliases": [
+    "who's Jediga",
+    "Jediga Azshara"
+   ],
+   "answer": "Jediga is an orc in Azshara who is expected to send reagents to a resident of Thunder Bluff."
+  },
+  {
+   "q": "Where do I find Jediga?",
+   "aliases": [
+    "where is Jediga",
+    "Jediga camp"
+   ],
+   "answer": "Jediga's camp is in Azshara."
+  },
+  {
+   "q": "What am I asked to ask Jediga?",
+   "aliases": [
+    "what do I ask Jediga",
+    "delivery question"
+   ],
+   "answer": "You are asked to inquire when the delivery to Thunder Bluff can be expected."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "delivery",
+  "jediga",
+  "orc",
+  "reagents",
+  "remote contact",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "zone:azshara",
+  "quest:92682"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Remote Contact"
+ ]
+}

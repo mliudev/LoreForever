@@ -13,7 +13,9 @@
 --   gear = { [slot 1-19] = { itemID, name, rune } },   what they wear (rune: the rune engraved on it, where the game has
 --   runes), for "what should I upgrade?" and "am I ready for this dungeon?" (LOR-834)
 --   talents = { { name = tree, points, ranks = { [talent] = rank } } },   each tree's points and the talents taken
---   bags = { [itemID] = { count, name } } }   what's in their bags (BAGS_MAX kinds at most), for "do I have enough?"
+--   bags = { [itemID] = { count, name } },   what's in their bags (BAGS_MAX kinds at most), for "do I have enough?"
+--   ready = { [itemID] = time() it's ready } }   each item they carry or wear whose own cooldown was running (Own.Running):
+--   a cooldown runs on while they're away, so "is my Hearthstone ready?" typed after they quit has its answer
 -- Never their buffs: a buff saved at logout is hours stale by the next question.
 -- char.days = { { d = "2026-10-18", m0, m, l0, l, on }, ... }   the last DAYS days played, oldest first: money and level
 --   (with the bar's fraction, 36.6) at the day's first look and its last, and seconds online that day (a session that
@@ -231,20 +233,72 @@ function Stock.Talents(char)
   if #read > 0 then char.stock.talents = read end
 end
 
+-- What the game showed last while the character was in the world (Mike's QA 11/15, LOR-1516). By PLAYER_LOGOUT on a
+-- real logout the game has already let go of the bags, what they wear, their gold, experience, professions and riding:
+-- every logout save of his seven characters read money 0, xpMax 0 and no skills, gear or bags (a /reload's kept them,
+-- the world still up), so the save Willo reads said they carried nothing, and "What's in my bag?" went to the picture.
+-- Read again a second after any of these changes while they play; the leaving save takes a part from here when the game
+-- no longer gives it.
+local inWorld = nil       -- { money, xp, xpMax, riding, skills, gear, bags, ready }, nil until the first read in the world
+local readDue = false
+local function some(t) return type(t) == "table" and next(t) ~= nil end
+local function readyNow()
+  local out, now = {}, time()
+  local ok, running = pcall(ns.Own and ns.Own.Running or function() return {} end)
+  for id, left in pairs(ok and type(running) == "table" and running or {}) do
+    if tonumber(id) and tonumber(left) then out[id] = now + math.ceil(left) end
+  end
+  return out
+end
+local function partsNow()
+  return { money = number(try(GetMoney)), xp = number(try(UnitXP, "player")), xpMax = number(try(UnitXPMax, "player")),
+    riding = riding(), skills = skills(), gear = gear(), bags = bags(), ready = readyNow() }
+end
+local function readLater()
+  if readDue or not (C_Timer and C_Timer.After) then return end
+  readDue = true
+  C_Timer.After(1, function() readDue = false; local ok, parts = pcall(partsNow); if ok then inWorld = parts end end)
+end
+local watch = CreateFrame and CreateFrame("Frame")
+if watch then
+  for _, e in ipairs({ "BAG_UPDATE_DELAYED", "PLAYER_EQUIPMENT_CHANGED", "PLAYER_MONEY", "PLAYER_XP_UPDATE",
+    "PLAYER_LEVEL_UP", "SKILL_LINES_CHANGED", "BAG_UPDATE_COOLDOWN" }) do pcall(watch.RegisterEvent, watch, e) end
+  watch:SetScript("OnEvent", function() if inWorld then readLater() end end)
+end
+
 -- Take stock of the character (char: Journey's record for it). leaving: the game is about to save (logout or
 -- /reload), so this session's time goes on its day.
 function Stock.Take(char, leaving)
   if type(char) ~= "table" then return end
   local level = number(try(UnitLevel, "player")) or number(char.level)
-  local xp, xpMax, money = number(try(UnitXP, "player")), number(try(UnitXPMax, "player")), number(try(GetMoney))
+  local parts = partsNow()
+  if leaving and inWorld then
+    -- What the logout no longer gives comes from the last read in the world (a /reload's own read wins: it's newer).
+    if not ((parts.xpMax or 0) > 0) then parts.xp, parts.xpMax = inWorld.xp, inWorld.xpMax end
+    if not ((parts.money or 0) > 0) and inWorld.money then parts.money = inWorld.money end
+    if not ((parts.riding or 0) > 0) and inWorld.riding then parts.riding = inWorld.riding end
+    -- Their cooldowns went with their bags: an empty read of both is the logout's, not nothing running.
+    if not some(parts.bags) and inWorld.ready then parts.ready = inWorld.ready end
+    for _, k in ipairs({ "skills", "gear", "bags" }) do
+      if not some(parts[k]) and inWorld[k] then parts[k] = inWorld[k] end
+    end
+  elseif not leaving then
+    inWorld = parts
+  end
+  local xp, xpMax, money = parts.xp, parts.xpMax, parts.money
   local now = time()
   -- The game can have no talents to give yet at login and none left at logout: keep what was last read.
   local had = type(char.stock) == "table" and char.stock.talents
+  -- The save as it reached the disk, which is what Willo holds of this character (none for a new one).
+  local held = char.stock
   local read = talents()
-  char.stock = { t = now, level = level, xp = xp, xpMax = xpMax, money = money, riding = riding(), skills = skills(),
-    rep = reputations(), gear = gear(), talents = #read > 0 and read or type(had) == "table" and had or read, bags = bags() }
-  -- What's live for Willo counts from this save (Own.lua, LOR-1516): taken at login or a /reload, not at the logout.
-  if not leaving and ns.Own then pcall(ns.Own.Baseline, char.stock) end
+  char.stock = { t = now, level = level, xp = xp, xpMax = xpMax, money = money, riding = parts.riding,
+    skills = parts.skills, rep = reputations(), gear = parts.gear,
+    talents = #read > 0 and read or type(had) == "table" and had or read, bags = parts.bags, ready = parts.ready }
+  -- What's live for Willo counts from the save she holds (Own.lua, LOR-1516): at login or a /reload, the one just
+  -- loaded, not this read. Counted from this read, what they've carried since before it never reached her: a new
+  -- character's Hearthstone, or anything at all once a logout had saved empty bags (Mike's QA 11/15).
+  if not leaving and ns.Own then pcall(ns.Own.Baseline, held) end
   local lv = levelNow(level, xp, xpMax)
   char.days = type(char.days) == "table" and char.days or {}
   local days = char.days

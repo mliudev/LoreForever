@@ -1,0 +1,90 @@
+{
+ "key": "quest:91547",
+ "type": "quest",
+ "name": "Sin'dorei Tome of Summoning",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91547
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jediga wants the Sin'dorei Tome of Summoning kept from the blood elves. She sends you to Zevrost in Orgrimmar to have it deciphered.",
+ "sections": [
+  {
+   "title": "A Contact in Orgrimmar",
+   "body": "In Orgrimmar, Jediga points you toward Zevrost, a warlock in the Cleft of Shadow who can try to decipher the Sin'dorei Tome of Summoning. You carry the tome to him, while Jediga fears the blood elves could use it to retaliate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zevrost?",
+   "aliases": [
+    "zevrost",
+    "who's zevrost",
+    "warlock contact"
+   ],
+   "answer": "Zevrost is a warlock in Orgrimmar's Cleft of Shadow who can try to decipher the Sin'dorei Tome of Summoning."
+  },
+  {
+   "q": "Why does Jediga want the tome kept from the blood elves?",
+   "aliases": [
+    "why keep tome",
+    "blood elf tome",
+    "why not give it to blood elves"
+   ],
+   "answer": "Jediga fears the blood elves could use the tome to retaliate."
+  },
+  {
+   "q": "Where do I take the Sin'dorei Tome?",
+   "aliases": [
+    "where tome go",
+    "tome location",
+    "take tome to zevrost"
+   ],
+   "answer": "Jediga sends you to Zevrost in Orgrimmar's Cleft of Shadow."
+  },
+  {
+   "q": "What is the Sin'dorei Tome of Summoning?",
+   "aliases": [
+    "sin'dorei tome",
+    "summoning book",
+    "what's the tome"
+   ],
+   "answer": "It is a tome Jediga wants kept out of the blood elves' hands and brought to Zevrost for deciphering."
+  },
+  {
+   "q": "Who sent me to Zevrost?",
+   "aliases": [
+    "who sent me",
+    "jediga zevrost",
+    "why does zevrost mention jediga"
+   ],
+   "answer": "Jediga sent you to Zevrost with the Sin'dorei Tome of Summoning."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blood elves",
+  "cleft of shadow",
+  "jediga",
+  "orgrimmar",
+  "sin'dorei tome",
+  "sin'dorei tome of summoning",
+  "warlock",
+  "zevrost"
+ ],
+ "related": [
+  "npc:zevrost",
+  "subzone:cleft-of-shadow",
+  "zone:orgrimmar",
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Sin'dorei Tome of Summoning"
+ ]
+}

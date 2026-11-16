@@ -1,0 +1,88 @@
+{
+ "key": "quest:96332",
+ "type": "quest",
+ "name": "A Little Payback",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96332
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sergeant Ulka asks you to strike back at the Naga inside Alcaz Prison. Kor'kron fighters were lost as they fell back, and Ulka wants the Naga to pay.",
+ "sections": [
+  {
+   "title": "Ulka's Demand",
+   "body": "The Kor'kron were falling back when another wave of Naga approached Alcaz Prison. Sergeant Ulka believes the fighting continues within. You are to kill the Naga you encounter, including the sorceress Ulka suspects leads them. The Kor'kron lost many orcs, and Ulka wants them answered in kind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for payback?",
+   "aliases": [
+    "who wants payback",
+    "sergeant ulka",
+    "ulka's request"
+   ],
+   "answer": "Sergeant Ulka, a Kor'kron, asks you to kill Naga inside Alcaz Prison."
+  },
+  {
+   "q": "Why does Ulka want the Naga killed?",
+   "aliases": [
+    "why kill naga",
+    "naga payback",
+    "why ulka wants revenge"
+   ],
+   "answer": "The Kor'kron lost many orcs while falling back from a second wave of Naga, and Ulka wants them to answer in kind."
+  },
+  {
+   "q": "Where is the fighting?",
+   "aliases": [
+    "where are the naga",
+    "alcaz prison fight",
+    "naga in the keep"
+   ],
+   "answer": "Sergeant Ulka suspects the battle is still raging inside Alcaz Prison."
+  },
+  {
+   "q": "Who does Ulka think leads the Naga?",
+   "aliases": [
+    "naga leader",
+    "sorceress leader",
+    "who leads them"
+   ],
+   "answer": "Ulka saw a sorceress among the Naga and suspects she is their leader."
+  },
+  {
+   "q": "What does Ulka ask me to bring back?",
+   "aliases": [
+    "bring back what",
+    "tidemistress head",
+    "ulka's request items"
+   ],
+   "answer": "Ulka asks you to bring back the head of Tidemistress Ca'zass."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a little payback",
+  "alcaz prison",
+  "kor'kron",
+  "naga",
+  "sergeant ulka",
+  "strashasz soldiers",
+  "strashaz enchantresses",
+  "tidemistress ca'zass"
+ ],
+ "related": [
+  "topic:naga",
+  "quest:93740"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Little Payback"
+ ]
+}

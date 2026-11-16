@@ -1,0 +1,71 @@
+{
+ "key": "quest:8228",
+ "type": "quest",
+ "name": "Could I get a Fishing Flier?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8228
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Fishing Contest is announced for Booty Bay this Sunday. The flier gives you the tournament rules if you want to take part.",
+ "sections": [
+  {
+   "title": "Tournament Rules",
+   "body": "The notice gives you the rules for the Fishing Contest in Booty Bay. The tournament is set for this Sunday, and you can use the flier to learn how it works before deciding whether to participate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "When is the Fishing Contest?",
+   "aliases": [
+    "fishing contest when",
+    "what day is it"
+   ],
+   "answer": "The Fishing Contest in Booty Bay is this Sunday."
+  },
+  {
+   "q": "Where is the Fishing Contest?",
+   "aliases": [
+    "fishing contest location",
+    "where contest"
+   ],
+   "answer": "The Fishing Contest is in Booty Bay."
+  },
+  {
+   "q": "What does the fishing flier tell me?",
+   "aliases": [
+    "fishing flier info",
+    "what's on flier"
+   ],
+   "answer": "The flier gives you the rules of the Fishing Contest."
+  },
+  {
+   "q": "Can I participate in the tournament?",
+   "aliases": [
+    "join fishing tournament",
+    "enter contest"
+   ],
+   "answer": "The notice offers the rules if you want to participate in the Fishing Contest."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "fishing contest",
+  "fishing flier",
+  "fishing rules",
+  "tournament"
+ ],
+ "related": [
+  "subzone:booty-bay"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Could I get a Fishing Flier?"
+ ]
+}

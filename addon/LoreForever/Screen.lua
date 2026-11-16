@@ -21,7 +21,10 @@ local PARTS = {
   zone = { "MinimapZoneText", "MinimapCluster.ZoneTextButton", "MinimapCluster.BorderTop" },
   target = { "ElvUF_Target", "TargetFrame" },
   focus = { "ElvUF_Focus", "FocusFrame" },
-  player = { "ElvUF_Player", "PlayerFrame" },
+  -- Another add-on's own frame before the game's, which it hides (TalkMark.lua's list for the target): Willo cuts her
+  -- close-up of who they are from this spot (LOR-1525).
+  player = { "ElvUF_Player", "SUFUnitplayer", "PitBull4_Frames_Player", "XPerl_Player", "LUFUnitplayer", "oUF_Player",
+    "PlayerFrame" },
   tracker = { "ObjectiveTrackerFrame", "QuestWatchFrame", "WatchFrame" },
   chat = { "ChatFrame1" },
 }

@@ -1,0 +1,79 @@
+{
+ "key": "quest:93404",
+ "type": "quest",
+ "name": "Rot and Regret",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93404
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Woodwyrd asks you to quench the flame that burdens an ancient spirit at the Forlorn Gardens. The spirit points you toward sacred water in Maraudon.",
+ "sections": [
+  {
+   "title": "A Spirit's Burden",
+   "body": "The ancient spirit says its final mistake binds it to this place, where it still feels a flame in death. It asks you to seek pristine water from a sacred ravine across Mashan\u2019she. Maraudon is the place named, and Woodwyrd awaits the Vial of Earth Song Water at the Forlorn Gardens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the water?",
+   "aliases": [
+    "who is woodwyrd",
+    "ancient spirit",
+    "rot regret giver"
+   ],
+   "answer": "Woodwyrd at the Forlorn Gardens asks you to bring back a Vial of Earth Song Water for the ancient spirit."
+  },
+  {
+   "q": "Why does the ancient spirit want the flame put out?",
+   "aliases": [
+    "why put out flame",
+    "spirit regret",
+    "what was its mistake"
+   ],
+   "answer": "The spirit says it is burdened by its last mistake and still feels the flame in death."
+  },
+  {
+   "q": "Where can I find the sacred water?",
+   "aliases": [
+    "earth song water location",
+    "maraudon water",
+    "sacred ravine"
+   ],
+   "answer": "The spirit points you to Maraudon, across Mashan\u2019she, for pristine water from a sacred ravine."
+  },
+  {
+   "q": "What water does Woodwyrd need?",
+   "aliases": [
+    "vial water",
+    "what item for woodwyrd",
+    "earth song vial"
+   ],
+   "answer": "Woodwyrd asks you to bring back a Vial of Earth Song Water."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient spirit",
+  "earth song water",
+  "forlorn gardens",
+  "maraudon",
+  "mashan\u2019she",
+  "rot and regret",
+  "sacred ravine",
+  "woodwyrd"
+ ],
+ "related": [
+  "quest:93341",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rot and Regret"
+ ]
+}

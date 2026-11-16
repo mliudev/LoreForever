@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "languages (the packs' own release, manifest.json), or an add-on tag such as v1.9.0 (the zips that release published)"
+        description: "Where the zips are: the languages release (an add-on tag from an older dispatch is ignored)"
         required: false
         default: languages
 
@@ -31,12 +31,7 @@ jobs:
       - name: The add-on players run
         id: live
         # The newest add-on release (vX.Y.Z, not a Willo one), as curseforge_voices.newest_release picks it.
-        env:
-          TAG: ${{ inputs.tag }}
         run: |
-          # An add-on tag: that release's own zips, checked against its own core (the add-on release's copy, until it
-          # stops publishing language packs).
-          if [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then echo "tag=$TAG" >>"$GITHUB_OUTPUT"; exit 0; fi
           tag="$(gh release list --limit 100 --json tagName,name,isDraft --jq '[.[] | select(.isDraft | not)
             | select(.tagName | test("^v[0-9]+[.][0-9]+[.][0-9]+$")) | select(.name | startswith("Willo") | not)
             | .tagName] | sort_by(ltrimstr("v") | split(".") | map(tonumber)) | last')"
@@ -55,8 +50,6 @@ jobs:
             release
             scripts
       - name: Upload the translations
-        env:
-          TAG: ${{ inputs.tag }}
         run: |
           mkdir -p release scripts
           cp config/release/curseforge.json release/curseforge.json

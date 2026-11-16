@@ -1,0 +1,75 @@
+{
+ "key": "quest:96335",
+ "type": "quest",
+ "name": "The Man in the Iron Chains",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96335
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A man in Alcaz Prison asks you to recover the key to his shackles from The Questioner. He offers a reward for his freedom.",
+ "sections": [
+  {
+   "title": "At Alcaz Prison",
+   "body": "A prisoner in Alcaz Prison praises your defeat of a dragon, then asks you to free him from his ball and chain. The Questioner may still hold the key, if he has not fled or been killed. The prisoner's freedom rests on that key.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Shackles",
+   "body": "With the shackles off, the man says he wants an inn, a shower, a shave and a suit. He also considers getting a haircut.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who's chained up",
+    "prisoner in alcaz"
+   ],
+   "answer": "A man held in Alcaz Prison asks you to free him from his shackles."
+  },
+  {
+   "q": "Where is the prisoner?",
+   "aliases": [
+    "where's the chained man",
+    "alcaz prisoner"
+   ],
+   "answer": "The man is held in Alcaz Prison."
+  },
+  {
+   "q": "Who has the key?",
+   "aliases": [
+    "key holder",
+    "who has the shackle key"
+   ],
+   "answer": "The Questioner should have the Alcaz Shackle Key if he has not fled or been killed."
+  },
+  {
+   "q": "What key does he need?",
+   "aliases": [
+    "alcaz key",
+    "shackle key"
+   ],
+   "answer": "He needs the Alcaz Shackle Key to be freed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alcaz prison",
+  "alcaz shackle key",
+  "dragon",
+  "prisoner",
+  "shackles",
+  "the questioner"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Man in the Iron Chains"
+ ]
+}

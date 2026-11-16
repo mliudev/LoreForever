@@ -211,9 +211,9 @@
     "npc:brine": {
       "1": [
         {
-          "duration": 54.413061224489795,
-          "file": "Audio/Transport/full_npc_brine-694691cafe1509e6fa0f/1-0000.mp3",
-          "sha256": "41a86696e01b25d4a28d65c3ef8986d0ca23718f7446a572e0000a765e6652dc",
+          "duration": 65.07102040816326,
+          "file": "Audio/Transport/full_npc_brine-8e4d8dd27a201f9373fb/1-0000.mp3",
+          "sha256": "22be310215fd26605f0e633483dcad53d21097e8dff3147c70de9f76ee06135c",
           "start": 0
         }
       ],
@@ -225,12 +225,12 @@
         ]
       },
       "fullHash": "fb99fb",
-      "generation": "853ad09b17c18b472ecb",
+      "generation": "5a6436ca280ee9821ec2",
       "hash": "c7576d",
       "source": {
-        "duration": 54.439184,
+        "duration": 65.07102,
         "file": null,
-        "sha256": "694691cafe1509e6fa0f6f32a7633ec5d8ef157dc5039587a631fc834ed3cfe6"
+        "sha256": "8e4d8dd27a201f9373fb6cb6d91ce6acc02ef76b899bcd47f9e3fbe69f9736a4"
       },
       "text": "Brine. On Blackthorn Ridge, Brine guides shaman initiates toward the spirits of water. She teaches them to commune with the tides and earn their Water Totem. Brine lives on a hill in northern Blackthorn Ridge, far from the Barrens' trading posts. Though dry savannas surround her, she has devoted her life to understanding water. Shaman across the Horde seek her wisdom after mastering earth and fire. She teaches that water calls for patience and perspective, qualities few understand as deeply as she does. In her youth, Brine marched with her orc companions across the Hillsbrad Foothills and fought against human settlements. During the campaign, she came to Tarren Mill and found a humble well fed by fresh spring water. The well stayed in her memory as a sign of life amid devastation. It strengthened a lesson she had learned as a child: even in the darkest sorrow, a small token of hope can still be found."
     },
@@ -471,9 +471,9 @@
     "npc:devrak": {
       "1": [
         {
-          "duration": 67.76163265306123,
-          "file": "Audio/Transport/full_npc_devrak-fa85f29069b5cffdc3f3/1-0000.mp3",
-          "sha256": "68452fe6c28b267ea96a7e9b993cc8381c0aaee5119a607a0ab85ebf8c71d73c",
+          "duration": 83.95755102040816,
+          "file": "Audio/Transport/full_npc_devrak-910e8393c03a55fdd0f4/1-0000.mp3",
+          "sha256": "569762c501ed836d1b3eacaf2b837d1ef8ab661139fe3c9c1325df6f91b0498a",
           "start": 0
         }
       ],
@@ -485,12 +485,12 @@
         ]
       },
       "fullHash": "d4420c",
-      "generation": "324e243950dc5495cd73",
+      "generation": "e71715152a368888db58",
       "hash": "5e8cff",
       "source": {
-        "duration": 67.761633,
+        "duration": 83.983673,
         "file": null,
-        "sha256": "fa85f29069b5cffdc3f37dde67d9d3bc97f5e2e4a2369b6519380127e0e25865"
+        "sha256": "910e8393c03a55fdd0f4c114f6c6a512c22600c7c614e9e8fa7344fc992903be"
       },
       "text": "Devrak. At the Crossroads, Devrak keeps the Horde’s wind riders ready for flights across Kalimdor. He carries couriers and supplies between Durotar, Mulgore, frontier outposts, and the Horde’s capitals. At the Crossroads, Devrak tends the wind riders that connect the Horde’s distant holdings. The outpost stands where Kalimdor’s major trade routes meet, exposed beneath the sun and vulnerable to quilboar, centaur, and Alliance scouts. Quick flights matter here. Devrak pairs seasoned travelers and new messengers with trained wind riders to cross the savannah and reach Mulgore’s mountains or Durotar’s stone canyons. Devrak helps move supplies from the frontier. Barrens hunters bring in meat and pelts, and he helps send them to Orgrimmar’s cooking fires and Thunder Bluff’s tanners. He introduces new couriers to flight masters across the continents, keeping an aerial route open to the Horde’s heartlands. Devrak tends more than beasts at the Crossroads. When the settlement comes under attack, he calls enraged wyverns to strike intruders with venomous stingers and talons. His roost is a dangerous target for anyone who attacks."
     },
@@ -601,9 +601,9 @@
     "npc:gann-stonespire": {
       "1": [
         {
-          "duration": 35.735510204081635,
-          "file": "Audio/Transport/full_npc_gann-stonespire-be4e0eb27ede3f0adadb/1-0000.mp3",
-          "sha256": "59c1afdd9b5e54590133b530613a680f5104df21d92808901116e63b91c918cc",
+          "duration": 43.2065306122449,
+          "file": "Audio/Transport/full_npc_gann-stonespire-935b75576220baf5f143/1-0000.mp3",
+          "sha256": "8e006af48326ca847e619d06048a4eada3cf0d68ffad938d6d2353b5bfed03d1",
           "start": 0
         }
       ],
@@ -615,12 +615,12 @@
         ]
       },
       "fullHash": "45230c",
-      "generation": "018bb8b614b79923359d",
+      "generation": "ca7612d0aab5b9134518",
       "hash": "45230c",
       "source": {
-        "duration": 35.761633,
+        "duration": 43.206531,
         "file": null,
-        "sha256": "be4e0eb27ede3f0adadbf5b3b998736e1dc0fd2c6263129c1052359704a0e8c6"
+        "sha256": "935b75576220baf5f1437f2b7479def3f40aaed36412ff7ab08bf1667f23ebc7"
       },
       "text": "Gann Stonespire. Along the southern Barrens road near Bael Modan, Gann Stonespire seeks to answer the loss of his people’s homeland. His tribe hunted there before a dwarven excavation took the land. Gann Stonespire camps beside the southern Barrens road. The dwarven expedition came from Ironforge and built Bael Modan on his tribe’s ancestral land and hunting grounds. Its miners drove the tauren from their soil with pickaxes, firearms, and heavy machinery. They refused peaceful overtures, so Gann calls on travelers to strike back at the excavators rather than surrender his heritage quietly."
     },
@@ -965,9 +965,9 @@
     "npc:menara-voidrender": {
       "1": [
         {
-          "duration": 62.85061224489796,
-          "file": "Audio/Transport/full_npc_menara-voidrender-f64556b2618a8ec5b819/1-0000.mp3",
-          "sha256": "451d80d5db0995aef2b8988163aa1b0722981631b7fdef1a0c53c300508ed82d",
+          "duration": 84.34938775510204,
+          "file": "Audio/Transport/full_npc_menara-voidrender-9ac7f97fed772d86b63d/1-0000.mp3",
+          "sha256": "9f77cf6ff5c94568faeb4f467b1bd0bc000e24d567c1545991e208512bf6248a",
           "start": 0
         }
       ],
@@ -979,12 +979,12 @@
         ]
       },
       "fullHash": "fa5510",
-      "generation": "d783c35711d33cd05fc2",
+      "generation": "5215f7a1db39624be787",
       "hash": "c6949f",
       "source": {
-        "duration": 62.876735,
+        "duration": 84.37551,
         "file": null,
-        "sha256": "f64556b2618a8ec5b819a06364dcfeb224947977a1f7566ae53b09cd75ab8336"
+        "sha256": "9ac7f97fed772d86b63d453ef633180f776ca69be1714ed275cd95153b511a7e"
       },
       "text": "Menara Voidrender. In Ratchet, Menara Voidrender teaches warlocks of both factions the dark arts. From this refuge in Kalimdor, the human warlock shares her knowledge of demon-binding artifacts and arcane craft, far from orthodox authorities. Menara Voidrender works from Ratchet, the neutral goblin port in the Barrens. Many warlocks in the Eastern Kingdoms study in cellars or hidden slaughterhouses beneath their cities. Ratchet keeps Menara far from the Kirin Tor, Stormwind's guards, and Orgrimmar's overseers, so she can pursue occult studies in plain sight. She teaches any capable apprentice, whatever their faction, and gives practitioners of the dark arts a rare place to meet. Veteran conjurers know Menara as an authority on orbs that imprison and harness demonic spirits. She works with intricate reagents and guides apprentices through demanding rituals to make enchanted attire and binding implements. Her skill is known as far as Ironforge and the Undercity. Senior warlocks across Azeroth send their most promising students across the sea to seek her counsel."
     },
@@ -1173,9 +1173,9 @@
     "npc:sputtervalve": {
       "1": [
         {
-          "duration": 86.54367346938776,
-          "file": "Audio/Transport/full_npc_sputtervalve-315bbbe0a2e1bad2274a/1-0000.mp3",
-          "sha256": "197ce9bc1a863da1ce81997e139f502463d12b8b34e8041c1d7b16f3e6e700d1",
+          "duration": 106.71020408163265,
+          "file": "Audio/Transport/full_npc_sputtervalve-1ec6d4489c69e2a412d5/1-0000.mp3",
+          "sha256": "0515b92665739543bd1d9dcb797544bc66a7149f39d2453db35a6388c57cf33c",
           "start": 0
         }
       ],
@@ -1187,12 +1187,12 @@
         ]
       },
       "fullHash": "4ab2d9",
-      "generation": "128eebc4780fde55145f",
+      "generation": "bd960d26d768b7dabd0b",
       "hash": "5b5869",
       "source": {
-        "duration": 86.569796,
+        "duration": 106.736327,
         "file": null,
-        "sha256": "315bbbe0a2e1bad2274af9f09b60dcab72862709ac9ad1ba7f14ea1a05129ef4"
+        "sha256": "1ec6d4489c69e2a412d548aff58688105048931a35af5194c7ee5af7facf0a5c"
       },
       "text": "Sputtervalve. In Ratchet, Sputtervalve races to finish shredder research for the Tinkers' Union. Director Riddlevox sets crushing deadlines, so Sputtervalve hires adventurers to steal designs from the rival Venture Company. In Ratchet, goblin engineer Sputtervalve answers to Director Riddlevox of the Tinkers' Union. He oversees shredder development, and the work has grown brutal. Mechanization moves fast, the Venture Company presses hard, and his own prototypes are few. With the deadline near, Sputtervalve fears admitting failure to the Union. So he turns to a familiar goblin practice: stealing better designs from those who made them first. The Venture Company's drilling operation at the Sludge Fen, to the northwest, is Sputtervalve's chief target. Its latest shredders have interchangeable hands, refined control grips, and advanced inner workings. Among them is the elusive samophlange. Sputtervalve sent his associate Wizzlecrank into the Fen for field research, but Wizzlecrank became trapped. Now Sputtervalve hires wandering mercenaries to recover the stolen technology and rescue his partner. Sputtervalve also helps with strange curiosities found in the Barrens. Adventurers sometimes bring him bizarre artifacts corrupted in the Wailing Caverns, such as a glowing shard. Though machinery is his trade, he knows the local land well. He points those who bring him such things toward the isolated druids encamped above the caverns."
     },
@@ -1771,9 +1771,9 @@
     "subzone:blackthorn-ridge": {
       "1": [
         {
-          "duration": 37.06775510204082,
-          "file": "Audio/Transport/full_subzone_blackthorn-ridge-afb5bd114d76f0a9f003/1-0000.mp3",
-          "sha256": "d6691b475a6d9c418b88e6560773c04babfac4a63521e0cebf45be40524458f2",
+          "duration": 42.971428571428575,
+          "file": "Audio/Transport/full_subzone_blackthorn-ridge-98de9aed075c8e75fe16/1-0000.mp3",
+          "sha256": "d8e1bafbbb20687308206442dc93e01612ce036d35ff59f6aa693e1b037b6805",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "868e30",
-      "generation": "e9bc2a5aa8d5d4788b9b",
+      "generation": "da610dac4f4b122e85e6",
       "hash": "868e30",
       "source": {
-        "duration": 37.067755,
+        "duration": 42.997551,
         "file": null,
-        "sha256": "afb5bd114d76f0a9f003cd3179adaf53c7391453521cbd3fc1c7a88ae723cc88"
+        "sha256": "98de9aed075c8e75fe16650653afc0761069a3cb8382f1cde0ef912f7bfa8876"
       },
       "text": "Blackthorn Ridge. At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, watches from a camp above a pool of unusually pure mountain water. Beside Razorfen Kraul, Blackthorn Ridge rises through thickets of sharp briars. The Razormane quilboar claim these slopes as ancestral ground. They use the thorn barriers to ambush outsiders and skirmish across the southern Barrens. Travelers still seek the ridge despite the danger, drawn by Brine, a hermit orc shaman. His camp overlooks a spring famed across Kalimdor for its clear, spiritually pure water."
     },
@@ -2551,9 +2551,9 @@
     "subzone:dry-hills": {
       "1": [
         {
-          "duration": 47.6995918367347,
-          "file": "Audio/Transport/full_subzone_dry-hills-8fed7ad72f0803a89589/1-0000.mp3",
-          "sha256": "af1ac706a921b450ef3cbf71530126dfb25ef1eb628cfddb35a33cea81f3faab",
+          "duration": 53.94285714285714,
+          "file": "Audio/Transport/full_subzone_dry-hills-866f9e72e7a2eb2c3130/1-0000.mp3",
+          "sha256": "c251de9f06a1858de40b2da7542e80a7672895c4f6bd3d4f592b643b1200dddc",
           "start": 0
         }
       ],
@@ -2565,12 +2565,12 @@
         ]
       },
       "fullHash": "641241",
-      "generation": "00caa07b027a033dc3bd",
+      "generation": "1d27d9f2443e49d23af9",
       "hash": "4c27aa",
       "source": {
-        "duration": 47.725714,
+        "duration": 53.96898,
         "file": null,
-        "sha256": "8fed7ad72f0803a8958924f4b561844b424fe7ce47348776e33788a1ef98f91a"
+        "sha256": "866f9e72e7a2eb2c31307e7ed255f936c96b66cefd5b5c67901bb8af3bbb8cf0"
       },
       "text": "Dry Hills. Witchwing harpies rule the green Dry Hills above the Barrens. The Dry Hills rise along the Barrens’ northwestern edge, beneath the Stonetalon Mountains. Their slopes are greener than the dry plains below, but the bluffs offer travelers little safety. Serena Bloodfeather leads the Witchwing harpies from roosts along the crags. Their raiders swoop on supply caravans traveling the northern Gold Road. Abandoned orcish fortifications and derelict siege engines rot in the brush. Witchwing harpies strike from the hills to bleed trade routes and harass nearby settlements. So the Horde keeps a standing bounty on their feathers. Their nests and roosts are heavily defended in the rocky ravines. Hecklefang hyenas prowl there, while fierce Sunscale raptors hunt across the highlands."
     },
@@ -3019,9 +3019,9 @@
     "subzone:grol-dom-farm": {
       "1": [
         {
-          "duration": 48.9795918367347,
-          "file": "Audio/Transport/full_subzone_grol-dom-farm-40217e858fee5538258e/1-0000.mp3",
-          "sha256": "829ea7e8ed05166fa05961631aa935b2e9dd0631e85e42ae7feb48260ab3d07d",
+          "duration": 62.014693877551025,
+          "file": "Audio/Transport/full_subzone_grol-dom-farm-50a39a58b688b39701ab/1-0000.mp3",
+          "sha256": "57fa2f4c1aa6edd31a6085297ddacb0c9aaa6bb034a0026503d4d4c0e10f750f",
           "start": 0
         }
       ],
@@ -3033,12 +3033,12 @@
         ]
       },
       "fullHash": "17d68f",
-      "generation": "425b5bef448810e026d2",
+      "generation": "ac228d85240a2af4cb85",
       "hash": "113550",
       "source": {
-        "duration": 48.979592,
+        "duration": 62.040816,
         "file": null,
-        "sha256": "40217e858fee5538258e652f5731c6cadd64849ca24fb589cb07ce3d81f068de"
+        "sha256": "50a39a58b688b39701abab165e594978843f3b1ddd5ef6ec0a98b1bfbd6c4ccc"
       },
       "text": "Grol'dom Farm. Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead under constant harassment from aggressive quilboars. After Durotar was settled, the Horde began farming the dry Barrens at Grol'dom Farm. Kranal Fiss and his children tend the homestead and raise pigs. Razormane quilboar raiders prowl the nearby ridges, making life here lonely and rugged. Still, the farm feeds the emerging orcish nation. Kranal Fiss tends pigs at Grol'dom Farm and knows the elemental rites. He guides young shaman through their trials, so Horde initiates on the spiritual path hold the farm in quiet regard. Seekers traveling west from Orgrimmar are regularly sent here to learn how to commune with the primal spirits of fire."
     },
@@ -3331,9 +3331,9 @@
     "subzone:lushwater-oasis": {
       "1": [
         {
-          "duration": 36.623673469387754,
-          "file": "Audio/Transport/full_subzone_lushwater-oasis-71e34e0655ec0e4a7ba6/1-0000.mp3",
-          "sha256": "740995446e08172b7d1ce758f7eaa81ec502df2bfff07c0c6f35e7c8067cec7a",
+          "duration": 42.57959183673469,
+          "file": "Audio/Transport/full_subzone_lushwater-oasis-1c85863ac544bf284656/1-0000.mp3",
+          "sha256": "8eef27e4d4f5e616206db1e06fb68b37d046a81076f7c4daea3adf4785081faa",
           "start": 0
         }
       ],
@@ -3345,12 +3345,12 @@
         ]
       },
       "fullHash": "b8f414",
-      "generation": "2c6ed4d0e4792452143e",
+      "generation": "589d2c7738fa0dcd2e20",
       "hash": "b8f414",
       "source": {
-        "duration": 36.649796,
+        "duration": 42.605714,
         "file": null,
-        "sha256": "71e34e0655ec0e4a7ba668b7421232ab8ebc75086114cd5070a676391d56f3e2"
+        "sha256": "1c85863ac544bf28465688edcb5a6539acbc0c706b64e47cf16f4268d3383280"
       },
       "text": "Lushwater Oasis. South of the Crossroads, travelers seek water at Lushwater Oasis, one of three life-giving pools in the Barrens. Kolkar centaur threaten those who come, while anglers cast into the tainted waters for Deviate Fish. A short march south of the Crossroads, Lushwater Oasis offers palms and springs beneath the Barrens sun. Thirsty beasts gather there, but Kolkar centaur hold the banks and ambush wildlife and travelers.\n\nThe oasis marks the entrance to the Wailing Caverns. Energies from its underground passages taint the pools, where unnatural creatures and strange mutations take hold."
     },
@@ -3409,9 +3409,9 @@
     "subzone:merchant-coast": {
       "1": [
         {
-          "duration": 28.107755102040816,
-          "file": "Audio/Transport/full_subzone_merchant-coast-78ca684a26b644eb5ec0/1-0000.mp3",
-          "sha256": "bc065ac794be51115bb84e79d64b746a546548e8aefad14594957bf5ab19aa29",
+          "duration": 32.80979591836735,
+          "file": "Audio/Transport/full_subzone_merchant-coast-76785e77dd2849b4ef77/1-0000.mp3",
+          "sha256": "cc4f124c25dfc238cb5a3a746856a87a855bc534f7791e890a253016c8b38f7c",
           "start": 0
         }
       ],
@@ -3423,12 +3423,12 @@
         ]
       },
       "fullHash": "8a05f8",
-      "generation": "a2efb0bba8979a11ed6b",
+      "generation": "3f07cbcfd247228e5a08",
       "hash": "8a05f8",
       "source": {
-        "duration": 28.133878,
+        "duration": 32.835918,
         "file": null,
-        "sha256": "78ca684a26b644eb5ec04333101dc675aaa0e488ce483c2a80c66778578f5078"
+        "sha256": "76785e77dd2849b4ef776cb9ce09ad73f4341333a9b5aa446e3f71c62ac438f0"
       },
       "text": "Merchant Coast. Along the Barrens' eastern shore, trade and piracy shape the Merchant Coast. Ratchet handles sea trade, while pirates contest the coast. Ships link central Kalimdor with the Eastern Kingdoms and Theramore along the Merchant Coast. Ratchet, the Steamwheedle Cartel's neutral port, takes cargo from anyone with coin. Southsea Freebooters haunt the sands and nearby waters. They prey on merchant ships and set up illicit operations along the beaches."
     },
@@ -3487,9 +3487,9 @@
     "subzone:nightsong-woods": {
       "1": [
         {
-          "duration": 39.07918367346939,
-          "file": "Audio/Transport/full_subzone_nightsong-woods-e9c109dcdfe8ca9e1b56/1-0000.mp3",
-          "sha256": "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a",
+          "duration": 49.58040816326531,
+          "file": "Audio/Transport/full_subzone_nightsong-woods-d0299d0e42dea911613a/1-0000.mp3",
+          "sha256": "0e8766c74f550b1e8e669b63b69ab4589dff444808e77fbdc6de40071515a6d0",
           "start": 0
         }
       ],
@@ -3501,12 +3501,12 @@
         ]
       },
       "fullHash": "10a81c",
-      "generation": "cd5c90a6814e25f5d7a1",
+      "generation": "7afcb35e4a9d522bff0a",
       "hash": "10a81c",
       "source": {
-        "duration": 39.105306,
+        "duration": 49.606531,
         "file": null,
-        "sha256": "e9c109dcdfe8ca9e1b56120f1ed6bb55b43a3f5272423cec28e64e3a42adeceb"
+        "sha256": "d0299d0e42dea911613a0df7ab3deb46264d4261ff1c1dabc8d752a19508b20d"
       },
       "text": "Nightsong Woods. In eastern Ashenvale, Nightsong Woods is a forest where night elves and the Warsong clan fight over lumber and old corruption lingers. Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through the western forest, dividing Alliance settlements from Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels.\n\nWarsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, and the Kaldorei fight back. Satyr strongholds at Satyrnaar and Xavian taint the eastern forest, along with demonic remnants at Demon Fall Canyon and Felfire Hill."
     },
@@ -3695,9 +3695,9 @@
     "subzone:ragefire-chasm-classic": {
       "1": [
         {
-          "duration": 32.36571428571429,
-          "file": "Audio/Transport/full_subzone_ragefire-chasm-classic-562c084dc9bacea8d0eb/1-0000.mp3",
-          "sha256": "864e664ad679a774f6173ff3a8a02b1a63d8be12d2265d0a4b068254ad1eb1a3",
+          "duration": 39.3665306122449,
+          "file": "Audio/Transport/full_subzone_ragefire-chasm-classic-e5684003648c6c4ddc46/1-0000.mp3",
+          "sha256": "f2851dda0c0718367e233973b5b65c8c6f121a722ddbe5532843ac283ba88666",
           "start": 0
         }
       ],
@@ -3708,22 +3708,22 @@
           "1"
         ]
       },
-      "fullHash": "b1daa3",
-      "generation": "68f2e5ee9028b7dacb9f",
-      "hash": "b1daa3",
+      "fullHash": "ac382f",
+      "generation": "f1d643e12480a40fa6ca",
+      "hash": "ac382f",
       "source": {
-        "duration": 32.391837,
+        "duration": 39.392653,
         "file": null,
-        "sha256": "562c084dc9bacea8d0ebef70d2fb7311e982d2d475e19c199c98e923129a40d4"
+        "sha256": "e5684003648c6c4ddc467768f222acaecf9c5d992ce8907e3ad72d7c6eef8a2c"
       },
-      "text": "Ragefire Chasm (Classic). Beneath Orgrimmar, Ragefire Chasm puts the city at risk as troggs break into its tunnels. Its fiery caverns also shelter a cult with plans beyond Durotar. Ragefire troggs have pushed into the volcanic tunnels beneath Orgrimmar. They rose from deep fissures and now threaten the city's foundations. Magatha Grimtotem, a tauren, tried to make peace with them, but they answered with violence. Their tunnels run beneath stone streets and fortified towers. If the creatures keep digging upward, Orgrimmar itself is at risk."
+      "text": "Ragefire Chasm. Beneath Orgrimmar, Ragefire Chasm puts the city at risk as troggs break into its tunnels. Its fiery caverns also shelter a cult with plans beyond Durotar. Ragefire troggs have pushed into the volcanic tunnels beneath Orgrimmar. They rose from deep fissures and now threaten the city's foundations. Magatha Grimtotem, a tauren, tried to make peace with them, but they answered with violence. Their tunnels run beneath stone streets and fortified towers. If the creatures keep digging upward, Orgrimmar itself is at risk."
     },
     "subzone:raptor-grounds": {
       "1": [
         {
-          "duration": 34.19428571428571,
-          "file": "Audio/Transport/full_subzone_raptor-grounds-144a222670f14099ae67/1-0000.mp3",
-          "sha256": "9ec576cda9079693d3b318509f07c2c9099fa400939b3f8c8790aac5735fb808",
+          "duration": 41.63918367346939,
+          "file": "Audio/Transport/full_subzone_raptor-grounds-150cf10379fe86f5db73/1-0000.mp3",
+          "sha256": "1f08522d86873fe1a2114a78cc94f8660f2c36e25a01e32a40b7edbb4cac9f87",
           "start": 0
         }
       ],
@@ -3735,12 +3735,12 @@
         ]
       },
       "fullHash": "1620f8",
-      "generation": "8899bd6ce0aaa2bb931e",
+      "generation": "5668760cc6937a722c84",
       "hash": "1620f8",
       "source": {
-        "duration": 34.220408,
+        "duration": 41.665306,
         "file": null,
-        "sha256": "144a222670f14099ae67fb1343c750b305bac3fbbb4f528ba1c5b34000c91a98"
+        "sha256": "150cf10379fe86f5db73b293b987ce03cd2b5abd4a3223529e4d56a2c4c69984"
       },
       "text": "Raptor Grounds. In the southern Barrens, Sunscale raptors claim the Raptor Grounds, a secluded valley west of Northwatch Hold. Their tool-making cunning and hunger for bright trinkets set them apart from ordinary beasts. West of Northwatch Hold, Sunscale raptors make their home in the Raptor Grounds. They build crude shelters and fashion primitive tools. They hunt together with uncanny skill, far beyond ordinary beasts. Their hunger for shiny or unusual things sends them against passing caravans and Horde encampments. Coins, trinkets, and supplies vanish into their canyon dens."
     },
@@ -3851,9 +3851,9 @@
     "subzone:razorfen-downs-classic": {
       "1": [
         {
-          "duration": 87.19673469387756,
-          "file": "Audio/Transport/full_subzone_razorfen-downs-classic-f4048aa5bf89b3537cb1/1-0000.mp3",
-          "sha256": "1e887b2df623cd664d682fd2176766ab3de4d2f8e268b15584bd027979a3e8c9",
+          "duration": 73.06448979591838,
+          "file": "Audio/Transport/full_subzone_razorfen-downs-classic-8c595d1806a4f7e8a202/1-0000.mp3",
+          "sha256": "1c2a5a1fe02e35b64ebbe7090b51fcdbd4f775512c8e5be2fd58c26ec47f184f",
           "start": 0
         }
       ],
@@ -3864,15 +3864,15 @@
           "1"
         ]
       },
-      "fullHash": "78f27b",
-      "generation": "3272ef14999fd16ce044",
+      "fullHash": "872531",
+      "generation": "d5827f4bf032a8856715",
       "hash": "b389b9",
       "source": {
-        "duration": 87.222857,
+        "duration": 73.090612,
         "file": null,
-        "sha256": "f4048aa5bf89b3537cb12eaf4d637cd68fcc1deec07da2f1f9d76a8ea3ddd38b"
+        "sha256": "8c595d1806a4f7e8a202834cf44385ceaa7874aaed3e7c2c57ddfb8257d8755f"
       },
-      "text": "Razorfen Downs (Classic). The Scourge now holds Razorfen Downs, the quilboar's ancestral burial ground and capital in the southern Barrens. Amnennar the Coldbringer leads its agents, who have raised the quilboar dead and threaten to spread their power across central Kalimdor. Razorfen Downs rises among the towering, petrified vines shared with nearby Razorfen Kraul. Here the boar demigod Agamaggan fell in the War of the Ancients. For generations, the thorn labyrinth served as the quilboar's sacred burial ground and seat of power, watched over by mystics of the Death's Head tribe. The quilboar hold its dense briars holy, for their divine progenitor's blood soaked them. The Scourge has broken Razorfen Downs' sanctity. Amnennar the Coldbringer, a powerful lich in the Lich King's service, subdued the Death's Head quilboar and made their ancestral resting ground an undead stronghold. Reanimated quilboar skeletons and corpses prowl the Spiral of Thorns alongside shrieking banshees. The Horde in the nearby Barrens and emissaries from Stormwind's Cathedral of Light both see this Scourge power as a grave threat to Kalimdor."
+      "text": "Razorfen Downs. The Scourge now holds Razorfen Downs, the quilboar's ancestral burial ground and capital in the southern Barrens. Amnennar the Coldbringer leads its agents, who have raised the quilboar dead and threaten to spread their power across central Kalimdor. Razorfen Downs rises among the towering, petrified vines shared with nearby Razorfen Kraul. Here the boar demigod Agamaggan fell in the War of the Ancients. For generations, the thorn labyrinth served as the quilboar's sacred burial ground and seat of power, watched over by mystics of the Death's Head tribe. The quilboar hold its dense briars holy, for their divine progenitor's blood soaked them. The Scourge has broken Razorfen Downs' sanctity. Amnennar the Coldbringer, a powerful lich in the Lich King's service, subdued the Death's Head quilboar and made their ancestral resting ground an undead stronghold. Reanimated quilboar skeletons and corpses prowl the Spiral of Thorns alongside shrieking banshees. The Horde in the nearby Barrens and emissaries from Stormwind's Cathedral of Light both see this Scourge power as a grave threat to Kalimdor."
     },
     "subzone:razorfen-kraul-classic": {
       "1": [
@@ -4527,9 +4527,9 @@
     "subzone:stagnant-oasis": {
       "1": [
         {
-          "duration": 48.61387755102041,
-          "file": "Audio/Transport/full_subzone_stagnant-oasis-e93965e03aa9bf993a1b/1-0000.mp3",
-          "sha256": "5989485a6e13b44df77a71998bdd3dd119905bb79a40f4b5caf778aa0b42457a",
+          "duration": 64.49632653061225,
+          "file": "Audio/Transport/full_subzone_stagnant-oasis-df63396b2c626c1f0aa7/1-0000.mp3",
+          "sha256": "8a459635a0be79428a8788b626cefdfba82b4a233f3caea4d1b35cf8f683583d",
           "start": 0
         }
       ],
@@ -4541,12 +4541,12 @@
         ]
       },
       "fullHash": "d55a4d",
-      "generation": "8ed213a338b80aab4aed",
+      "generation": "f99cce861c0f3292439b",
       "hash": "efb088",
       "source": {
-        "duration": 48.64,
+        "duration": 64.522449,
         "file": null,
-        "sha256": "e93965e03aa9bf993a1b9cb1c7b6d65bf2c492fc30a7ffad7533e171e584b499"
+        "sha256": "df63396b2c626c1f0aa784f964b2d624787d7c190a86d2ff730a37f094afee10"
       },
       "text": "Stagnant Oasis. Kolkar centaur guard the Stagnant Oasis, where wildlife gathers around its waters in the dry Barrens. The pool lies between the Gold Road and Merchant Coast. East of the Gold Road and inland from the Merchant Coast, the Stagnant Oasis breaks through the Barrens' dusty scrub. Dense foliage rings the pool, where aggressive snapjaw turtles prowl. Weakened kodos sometimes stray here from the great herds of the Field of Giants. Kolkar centaur keep camps along the banks and fiercely guard the water from anyone entering their territory. The pool looks still, yet strange life stirs beneath its surface. Deviate Fish swim among other unusual creatures. Scholars and shamans watch the Barrens oases closely. They study the strange forces that affect local springheads and the wildlife that drinks from them."
     },
@@ -4631,9 +4631,9 @@
     "subzone:thorn-hill": {
       "1": [
         {
-          "duration": 31.94775510204082,
-          "file": "Audio/Transport/full_subzone_thorn-hill-be16fb7b798a30203506/1-0000.mp3",
-          "sha256": "29d9a2e1dea5ce9d1fd10d242123f13a8a3847d2a0da5c9e66a4b38d18457c63",
+          "duration": 44.19918367346939,
+          "file": "Audio/Transport/full_subzone_thorn-hill-d8f3a3b1a44497bd7401/1-0000.mp3",
+          "sha256": "a003e7c4524d254d8fab59f5e34e686f4ca22e4cca5f9eff46a80e2793bb5164",
           "start": 0
         }
       ],
@@ -4645,12 +4645,12 @@
         ]
       },
       "fullHash": "9b0774",
-      "generation": "aa032eb5d2e497837ce3",
+      "generation": "1290245177f7bb66e507",
       "hash": "9b0774",
       "source": {
-        "duration": 31.947755,
+        "duration": 44.225306,
         "file": null,
-        "sha256": "be16fb7b798a30203506936d08d0fb7dfeeccb1666c95b340b56fdf8973950e6"
+        "sha256": "d8f3a3b1a44497bd7401ee2418a45f8df72e1c2306dfadaaf0e46582bec5cb9a"
       },
       "text": "Thorn Hill. At Thorn Hill, Razormane warbands strike Horde supply lines east of the Crossroads. Their fortified camp holds the high ridges between Durotar and the Barrens interior. Thorn Hill commands the roads between Durotar and the Crossroads. Razormane hunters gather here with trained wolves and geomancers who shape the earth. Elder Mystic Razorsnout guides the quilboar, and their attacks on Horde supply caravans grow bolder. So the camp, close to vital routes, is one of the Crossroads guards' most immediate threats in the central savanna."
     },
@@ -4709,9 +4709,9 @@
     "subzone:tidus-stair": {
       "1": [
         {
-          "duration": 38.32163265306123,
-          "file": "Audio/Transport/full_subzone_tidus-stair-436ed96f6c3f5b47a52f/1-0000.mp3",
-          "sha256": "0d8a8996ace6c385e0f4d2a341b25c36d103ba93085cc668fe37705fd36977f2",
+          "duration": 45.29632653061225,
+          "file": "Audio/Transport/full_subzone_tidus-stair-8c5182c1c50b2668bcf9/1-0000.mp3",
+          "sha256": "a27ed66fa230879e57a392a9b784a13d628926df5ceb865ec576fb44222f5a10",
           "start": 0
         }
       ],
@@ -4723,12 +4723,12 @@
         ]
       },
       "fullHash": "66cdc0",
-      "generation": "8365157bde69de959a8e",
+      "generation": "562eb0febad6570fc7c8",
       "hash": "66cdc0",
       "source": {
-        "duration": 38.347755,
+        "duration": 45.322449,
         "file": null,
-        "sha256": "436ed96f6c3f5b47a52f2c9b69b6339bc16fb05d7d78ab8a637bdbd3fe07a63a"
+        "sha256": "8c5182c1c50b2668bcf9490f01c42f356fe281c679204ae4fea54f7aec1986a3"
       },
       "text": "Tidus Stair. At Tidus Stair, two tauren shamans seek insight from the coastal water spirits. The broad stone terraces rise above the Merchant Coast southeast of Ratchet, sheltered beside the Great Sea. Waves break below Tidus Stair, where weathered stone terraces climb the coastal bluffs southeast of Ratchet. The Barrens are dry and dusty, and skirmishes trouble the region, but this stretch above the Merchant Coast is quiet. A modest hut shelters Islen Waterseer and Mahren Skyseer, two tauren who live far from the goblin trade docks. They fish, watch the horizon, and seek insight from the coastal water spirits."
     },
@@ -5186,6 +5186,23 @@
       2534,
       2684
     ],
+    "0515b92665739543bd1d9dcb797544bc66a7149f39d2453db35a6388c57cf33c": [
+      302,
+      664,
+      926,
+      1097,
+      1276,
+      1433,
+      1843,
+      2037,
+      2267,
+      2426,
+      2774,
+      3150,
+      3344,
+      3580,
+      3748
+    ],
     "0661cc4983583d415a0aa820154cd1fb466c03893513fd419a2456d8e5a338b9": [
       219,
       460,
@@ -5236,16 +5253,19 @@
       537,
       1050
     ],
-    "0d8a8996ace6c385e0f4d2a341b25c36d103ba93085cc668fe37705fd36977f2": [
-      197,
-      457,
-      716,
-      975,
-      1264
-    ],
     "0dc06b571eba0613f6f4b2731772cbee8892469d48ece5b542f549505a281fe0": [
       564,
       1123
+    ],
+    "0e8766c74f550b1e8e669b63b69ab4589dff444808e77fbdc6de40071515a6d0": [
+      155,
+      483,
+      659,
+      918,
+      1183,
+      1321,
+      1484,
+      1698
     ],
     "0f54aa7adce30b5617eec1e4cb3683056aa5419df3e5bf856770c6c2f9aeabd9": [
       947,
@@ -5354,22 +5374,6 @@
       886,
       1208
     ],
-    "197ce9bc1a863da1ce81997e139f502463d12b8b34e8041c1d7b16f3e6e700d1": [
-      189,
-      500,
-      727,
-      880,
-      1103,
-      1261,
-      1497,
-      1741,
-      1965,
-      2314,
-      2532,
-      2696,
-      2940,
-      3098
-    ],
     "1a4d928ac62bb0c7316fd75aa5df5e5f3dacb8e366defe7562b68073c567c4e6": [
       253,
       448,
@@ -5386,6 +5390,16 @@
       1317,
       1701,
       1889
+    ],
+    "1c2a5a1fe02e35b64ebbe7090b51fcdbd4f775512c8e5be2fd58c26ec47f184f": [
+      316,
+      673,
+      924,
+      1085,
+      1334,
+      1685,
+      2188,
+      2447
     ],
     "1c3df8ac7b259b19736934dad0f65e909f735a77e97a0799b1ef8ccca5b9af48": [
       243,
@@ -5411,25 +5425,19 @@
       1627,
       1828
     ],
-    "1e887b2df623cd664d682fd2176766ab3de4d2f8e268b15584bd027979a3e8c9": [
-      249,
-      448,
-      801,
-      1076,
-      1265,
-      1533,
-      1673,
-      1930,
-      2068,
-      2296,
-      2595,
-      2917,
-      3149
-    ],
     "1ed995b25d36f46876fe8e5644fa4bcdba8c2eb572bb1cec5471b11aefaa818b": [
       554,
       927,
       1201
+    ],
+    "1f08522d86873fe1a2114a78cc94f8660f2c36e25a01e32a40b7edbb4cac9f87": [
+      147,
+      380,
+      623,
+      834,
+      1056,
+      1246,
+      1389
     ],
     "1f0a45914c06a3e2ccb82fa0167781e7c535c161d6fb66b461e3344865af490f": [
       627,
@@ -5448,6 +5456,18 @@
       1255,
       1410,
       1545
+    ],
+    "22be310215fd26605f0e633483dcad53d21097e8dff3147c70de9f76ee06135c": [
+      300,
+      494,
+      642,
+      831,
+      1068,
+      1300,
+      1445,
+      1753,
+      2014,
+      2183
     ],
     "22ff5ebd021b13a8c218c5e5c0f6d9428d80d127e900e85252e4bc0dbb192381": [
       179,
@@ -5533,10 +5553,6 @@
     "283334193416aead3795596b01294c5447e85f6f93bc3f4957085783f56b110f": [
       646,
       1218
-    ],
-    "29d9a2e1dea5ce9d1fd10d242123f13a8a3847d2a0da5c9e66a4b38d18457c63": [
-      538,
-      959
     ],
     "2efcaea742a509e6be7a0673469abdb7a1aba6e9b942d9789fa4b1a71ad52501": [
       399,
@@ -5730,17 +5746,6 @@
       3015,
       3173
     ],
-    "41a86696e01b25d4a28d65c3ef8986d0ca23718f7446a572e0000a765e6652dc": [
-      206,
-      371,
-      562,
-      734,
-      890,
-      1142,
-      1404,
-      1625,
-      1784
-    ],
     "41f93180ff6c87a628f10cf0ab2f2195f08a44e9f46ead912590a4facea3eea8": [
       657,
       988
@@ -5797,16 +5802,6 @@
       584,
       912,
       1483
-    ],
-    "451d80d5db0995aef2b8988163aa1b0722981631b7fdef1a0c53c300508ed82d": [
-      197,
-      549,
-      733,
-      950,
-      1281,
-      1548,
-      1777,
-      2056
     ],
     "456875e2db9fefb7319ac5d1c7484080bb10feffedc69b508877bb2bae734951": [
       216,
@@ -6023,6 +6018,20 @@
       1938,
       2287
     ],
+    "569762c501ed836d1b3eacaf2b837d1ef8ab661139fe3c9c1325df6f91b0498a": [
+      310,
+      446,
+      635,
+      883,
+      1037,
+      1293,
+      1776,
+      1916,
+      2238,
+      2566,
+      2718,
+      3038
+    ],
     "57556b52c5f3c921953489fa955affb00e276db59ae7475c3963fb231f031a5e": [
       707,
       1155,
@@ -6033,6 +6042,17 @@
       1175,
       1713
     ],
+    "57fa2f4c1aa6edd31a6085297ddacb0c9aaa6bb034a0026503d4d4c0e10f750f": [
+      359,
+      639,
+      896,
+      1077,
+      1323,
+      1496,
+      1637,
+      1846,
+      2063
+    ],
     "58f15dde8e5ce3765e49485c4ddac2b6f3c1e245feef8a1fe0974ca5aa047f2a": [
       266,
       450,
@@ -6041,22 +6061,6 @@
       1185,
       1383,
       1619
-    ],
-    "5989485a6e13b44df77a71998bdd3dd119905bb79a40f4b5caf778aa0b42457a": [
-      244,
-      378,
-      630,
-      807,
-      975,
-      1220,
-      1388,
-      1652
-    ],
-    "59c1afdd9b5e54590133b530613a680f5104df21d92808901116e63b91c918cc": [
-      290,
-      462,
-      838,
-      1048
     ],
     "5b01a03aff824072a0cb23497577591f6864ea004cff64367ee5fee31f998ba9": [
       138,
@@ -6279,13 +6283,6 @@
       1093,
       1243
     ],
-    "68452fe6c28b267ea96a7e9b993cc8381c0aaee5119a607a0ab85ebf8c71d73c": [
-      199,
-      474,
-      1017,
-      1445,
-      2103
-    ],
     "68702d52e1bb65bdd3924215f3a8788a795bfe0426d438d07099973c6834011d": [
       311,
       486,
@@ -6391,12 +6388,6 @@
     "73e07c44e0aa70894fa31a1d2adfced379424199053c670c82d8624dc6d09450": [
       1044,
       1298
-    ],
-    "740995446e08172b7d1ce758f7eaa81ec502df2bfff07c0c6f35e7c8067cec7a": [
-      267,
-      499,
-      762,
-      1018
     ],
     "74df349d1481dc6174656cc6fcf70e3ffa482fb04d55e909c416e737eb1911b8": [
       188,
@@ -6599,16 +6590,6 @@
       1306,
       1672
     ],
-    "829ea7e8ed05166fa05961631aa935b2e9dd0631e85e42ae7feb48260ab3d07d": [
-      240,
-      461,
-      662,
-      811,
-      1023,
-      1169,
-      1350,
-      1637
-    ],
     "82a2c175cf834bc29e586e640e3b1f0ef8a75e7c3af507720f5774de8e96e378": [
       194,
       339,
@@ -6678,14 +6659,6 @@
       1368,
       1614
     ],
-    "864e664ad679a774f6173ff3a8a02b1a63d8be12d2265d0a4b068254ad1eb1a3": [
-      229,
-      425,
-      583,
-      737,
-      877,
-      1085
-    ],
     "89a9c7611c33c0b77365089fc6d9f12f8e8176a7a0b45f5fd63ed1807f4d2c21": [
       861,
       1432
@@ -6706,6 +6679,20 @@
       2928,
       3105,
       3270
+    ],
+    "8a459635a0be79428a8788b626cefdfba82b4a233f3caea4d1b35cf8f683583d": [
+      250,
+      414,
+      582,
+      744,
+      912,
+      1128,
+      1360,
+      1503,
+      1677,
+      1872,
+      2053,
+      2203
     ],
     "8a73ab836ce3f33556ac83fed353160fb2eba48f2bc0e2264031deea205d558a": [
       308,
@@ -6744,6 +6731,22 @@
       642,
       1266,
       1833
+    ],
+    "8e006af48326ca847e619d06048a4eada3cf0d68ffad938d6d2353b5bfed03d1": [
+      241,
+      427,
+      601,
+      755,
+      1064,
+      1202
+    ],
+    "8eef27e4d4f5e616206db1e06fb68b37d046a81076f7c4daea3adf4785081faa": [
+      150,
+      383,
+      635,
+      935,
+      1099,
+      1346
     ],
     "8ef329938a9ece15f0171048b151f6fe44851d8a80086eb3e2e55cd5bc4fe20b": [
       587,
@@ -6865,11 +6868,6 @@
       1827,
       1994
     ],
-    "9ec576cda9079693d3b318509f07c2c9099fa400939b3f8c8790aac5735fb808": [
-      501,
-      687,
-      950
-    ],
     "9f42cde74e796e8032677472f84cb3b5327089bef6c1c8c947eee961d775e810": [
       345,
       643,
@@ -6885,6 +6883,28 @@
       1436,
       1802,
       2122
+    ],
+    "9f77cf6ff5c94568faeb4f467b1bd0bc000e24d567c1545991e208512bf6248a": [
+      166,
+      350,
+      781,
+      1284,
+      1553,
+      1790,
+      2022,
+      2200,
+      2346,
+      2712,
+      2895
+    ],
+    "a003e7c4524d254d8fab59f5e34e686f4ca22e4cca5f9eff46a80e2793bb5164": [
+      152,
+      363,
+      624,
+      831,
+      1065,
+      1205,
+      1377
     ],
     "a00444dd7e33b87712507c3387e1ae5faa3ed1aedd5b8ec514d8b40745cc46e8": [
       591,
@@ -6910,6 +6930,15 @@
       1068,
       1349,
       1605
+    ],
+    "a27ed66fa230879e57a392a9b784a13d628926df5ceb865ec576fb44222f5a10": [
+      152,
+      318,
+      623,
+      932,
+      1108,
+      1392,
+      1530
     ],
     "a3b1e4062021bb5229edb6acfa6675e3e67bc5532990b2348b8f5cb154a1dff8": [
       153,
@@ -6994,15 +7023,6 @@
       1816,
       2013
     ],
-    "af1ac706a921b450ef3cbf71530126dfb25ef1eb628cfddb35a33cea81f3faab": [
-      166,
-      381,
-      606,
-      778,
-      1152,
-      1351,
-      1607
-    ],
     "af3adddec82267f2c93e30f9e8d013a61550e869f03d7d276f771ec7df3e9ea9": [
       789,
       1121,
@@ -7070,13 +7090,6 @@
       685,
       1560
     ],
-    "bc065ac794be51115bb84e79d64b746a546548e8aefad14594957bf5ab19aa29": [
-      183,
-      353,
-      553,
-      772,
-      908
-    ],
     "bd44373b4ac368fb6e4370dc168fb14cee30765a332c051efd7f525479d04476": [
       250,
       548,
@@ -7125,6 +7138,16 @@
       1770,
       2080,
       2363
+    ],
+    "c251de9f06a1858de40b2da7542e80a7672895c4f6bd3d4f592b643b1200dddc": [
+      294,
+      431,
+      631,
+      1089,
+      1301,
+      1553,
+      1687,
+      1836
     ],
     "c308f89a652ad9a27fc212e2c382266b44e6797ca1d553910b05a62244609ef3": [
       214,
@@ -7252,6 +7275,13 @@
       1395,
       1889
     ],
+    "cc4f124c25dfc238cb5a3a746856a87a855bc534f7791e890a253016c8b38f7c": [
+      153,
+      463,
+      692,
+      913,
+      1073
+    ],
     "cd8cde4e90fbb9b8be6e24b5e38798bea378242b21ff98130f078cf328e7b79e": [
       534,
       971,
@@ -7309,12 +7339,6 @@
       848,
       1134
     ],
-    "d6691b475a6d9c418b88e6560773c04babfac4a63521e0cebf45be40524458f2": [
-      233,
-      655,
-      980,
-      1210
-    ],
     "d74ffed67c4259d1f169b267ba1004e575df87667e36901f4aec3049761ead60": [
       250,
       395,
@@ -7331,6 +7355,15 @@
       1214,
       1472,
       1915
+    ],
+    "d8e1bafbbb20687308206442dc93e01612ce036d35ff59f6aa693e1b037b6805": [
+      152,
+      345,
+      605,
+      835,
+      988,
+      1184,
+      1356
     ],
     "d8ff48f7ca3f50c3aff7231bac5a88c93baebc7c0ba2ea12ca371ed6f7390ab7": [
       216,
@@ -7517,6 +7550,14 @@
       910,
       1421
     ],
+    "f2851dda0c0718367e233973b5b65c8c6f121a722ddbe5532843ac283ba88666": [
+      279,
+      511,
+      700,
+      887,
+      1138,
+      1316
+    ],
     "f6d28ecdc7c62d1741593ee2c3abd44d7a9d1df170fd0cc129bfef82f2fdddd4": [
       261,
       864,
@@ -7570,12 +7611,6 @@
       1660,
       1798,
       2020
-    ],
-    "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a": [
-      340,
-      587,
-      935,
-      1176
     ],
     "fd08109e4fddf86359b7df4e1f749ef6600f088d42cc70fbae0c1f7680c55793": [
       165,
@@ -7653,6 +7688,11 @@
       "1831": 2,
       "680": 1
     },
+    "0515b92665739543bd1d9dcb797544bc66a7149f39d2453db35a6388c57cf33c": {
+      "1843": 2,
+      "3150": 3,
+      "664": 1
+    },
     "0661cc4983583d415a0aa820154cd1fb466c03893513fd419a2456d8e5a338b9": {
       "460": 1
     },
@@ -7664,8 +7704,8 @@
       "1511": 2,
       "493": 1
     },
-    "0d8a8996ace6c385e0f4d2a341b25c36d103ba93085cc668fe37705fd36977f2": {
-      "457": 1
+    "0e8766c74f550b1e8e669b63b69ab4589dff444808e77fbdc6de40071515a6d0": {
+      "483": 1
     },
     "10e75a0305a44972541a51cdce80e5c5e1dca5893dd452788192a502092fff79": {
       "466": 1
@@ -7686,16 +7726,15 @@
       "1728": 2,
       "806": 1
     },
-    "197ce9bc1a863da1ce81997e139f502463d12b8b34e8041c1d7b16f3e6e700d1": {
-      "1497": 2,
-      "2532": 3,
-      "500": 1
-    },
     "1a4d928ac62bb0c7316fd75aa5df5e5f3dacb8e366defe7562b68073c567c4e6": {
       "253": 1
     },
     "1bf674cd565324a0aca4b43c875644e9f2601cff4b28b1b0e6a44fd9e7358249": {
       "812": 1
+    },
+    "1c2a5a1fe02e35b64ebbe7090b51fcdbd4f775512c8e5be2fd58c26ec47f184f": {
+      "1685": 2,
+      "673": 1
     },
     "1c3df8ac7b259b19736934dad0f65e909f735a77e97a0799b1ef8ccca5b9af48": {
       "1162": 2,
@@ -7705,13 +7744,16 @@
     "1e227097fd9d2f475e76a9cf54302e0de01b24eba3ffa16f5e9a24af6fb7458c": {
       "594": 1
     },
-    "1e887b2df623cd664d682fd2176766ab3de4d2f8e268b15584bd027979a3e8c9": {
-      "1930": 2,
-      "801": 1
+    "1f08522d86873fe1a2114a78cc94f8660f2c36e25a01e32a40b7edbb4cac9f87": {
+      "623": 1
     },
     "221e01dca251e8f62088453bf07bfac7915c57b61addefce707b9e66ed9d6dea": {
       "1255": 2,
       "488": 1
+    },
+    "22be310215fd26605f0e633483dcad53d21097e8dff3147c70de9f76ee06135c": {
+      "1445": 2,
+      "494": 1
     },
     "22ff5ebd021b13a8c218c5e5c0f6d9428d80d127e900e85252e4bc0dbb192381": {
       "1405": 2,
@@ -7779,10 +7821,6 @@
       "2251": 2,
       "661": 1
     },
-    "41a86696e01b25d4a28d65c3ef8986d0ca23718f7446a572e0000a765e6652dc": {
-      "1142": 2,
-      "371": 1
-    },
     "4226f6158620b956288a5ccd2806a1a13ec3b4f749a6e879581eeab18328cf6a": {
       "428": 1,
       "891": 2
@@ -7797,10 +7835,6 @@
     "4430d4272bb41d430b8e2998107109ad15f3e061c647931b1629504c62066539": {
       "2596": 2,
       "811": 1
-    },
-    "451d80d5db0995aef2b8988163aa1b0722981631b7fdef1a0c53c300508ed82d": {
-      "1548": 2,
-      "549": 1
     },
     "456875e2db9fefb7319ac5d1c7484080bb10feffedc69b508877bb2bae734951": {
       "829": 1
@@ -7853,15 +7887,17 @@
       "1646": 2,
       "566": 1
     },
-    "58f15dde8e5ce3765e49485c4ddac2b6f3c1e245feef8a1fe0974ca5aa047f2a": {
+    "569762c501ed836d1b3eacaf2b837d1ef8ab661139fe3c9c1325df6f91b0498a": {
+      "1776": 2,
+      "2566": 3,
+      "635": 1
+    },
+    "57fa2f4c1aa6edd31a6085297ddacb0c9aaa6bb034a0026503d4d4c0e10f750f": {
+      "1496": 2,
       "639": 1
     },
-    "5989485a6e13b44df77a71998bdd3dd119905bb79a40f4b5caf778aa0b42457a": {
-      "1220": 2,
-      "378": 1
-    },
-    "59c1afdd9b5e54590133b530613a680f5104df21d92808901116e63b91c918cc": {
-      "462": 1
+    "58f15dde8e5ce3765e49485c4ddac2b6f3c1e245feef8a1fe0974ca5aa047f2a": {
+      "639": 1
     },
     "5b01a03aff824072a0cb23497577591f6864ea004cff64367ee5fee31f998ba9": {
       "2459": 2,
@@ -7914,11 +7950,6 @@
     "6725844665dfdd79c78ca1e15f0f1611a31fbd3dfe2ef146c283f9fb4e30fa99": {
       "434": 1
     },
-    "68452fe6c28b267ea96a7e9b993cc8381c0aaee5119a607a0ab85ebf8c71d73c": {
-      "1445": 2,
-      "2103": 3,
-      "474": 1
-    },
     "68702d52e1bb65bdd3924215f3a8788a795bfe0426d438d07099973c6834011d": {
       "729": 1
     },
@@ -7950,9 +7981,6 @@
     "737fc89f1b48608888c0136a7a37b476d509be97dcbc45e61af6d2ea898a237a": {
       "1660": 2,
       "711": 1
-    },
-    "740995446e08172b7d1ce758f7eaa81ec502df2bfff07c0c6f35e7c8067cec7a": {
-      "499": 1
     },
     "74df349d1481dc6174656cc6fcf70e3ffa482fb04d55e909c416e737eb1911b8": {
       "1555": 2,
@@ -8018,19 +8046,26 @@
       "2122": 2,
       "706": 1
     },
-    "864e664ad679a774f6173ff3a8a02b1a63d8be12d2265d0a4b068254ad1eb1a3": {
-      "425": 1
-    },
     "89b8e4accc90121557d42e79881ad1c45c256faf5a4d1920589cd368b49b0bd7": {
       "1665": 2,
       "2654": 3,
       "732": 1
+    },
+    "8a459635a0be79428a8788b626cefdfba82b4a233f3caea4d1b35cf8f683583d": {
+      "1677": 2,
+      "582": 1
     },
     "8c07fd4667c5610db45e6e320f00000dacc8507e54e98f69a4b1c7e708d247e9": {
       "537": 1
     },
     "8d35a3e94409dbeb852ad4fa91620f0bc708588a759c1c2c30c5945ea35bb237": {
       "654": 1
+    },
+    "8e006af48326ca847e619d06048a4eada3cf0d68ffad938d6d2353b5bfed03d1": {
+      "601": 1
+    },
+    "8eef27e4d4f5e616206db1e06fb68b37d046a81076f7c4daea3adf4785081faa": {
+      "635": 1
     },
     "917bf56506276e2d111692f4b03231f6f1c7629f79c6475fe6c13494ee6df1b9": {
       "1364": 2,
@@ -8062,12 +8097,16 @@
     "9e85dd9011f5cd45a4cdebdb247b2519a30e6fe237a740d1eb894d86e807c402": {
       "733": 1
     },
-    "9ec576cda9079693d3b318509f07c2c9099fa400939b3f8c8790aac5735fb808": {
-      "501": 1
-    },
     "9f6f9f7a3c02d6d4259f5fa30b15c277f6c95fce85b0e025621aa2288d9ae016": {
       "1436": 2,
       "423": 1
+    },
+    "9f77cf6ff5c94568faeb4f467b1bd0bc000e24d567c1545991e208512bf6248a": {
+      "2022": 2,
+      "781": 1
+    },
+    "a003e7c4524d254d8fab59f5e34e686f4ca22e4cca5f9eff46a80e2793bb5164": {
+      "624": 1
     },
     "a0e493edb3109b8a73829d55fc7d2e72546d6e6ab66bc910dab230b1721d0403": {
       "1494": 2,
@@ -8076,6 +8115,9 @@
     "a16134297a4c0d78622938a0e6f70f2ebcd4e44d5ef751510b73aa4b996c75ad": {
       "1068": 2,
       "430": 1
+    },
+    "a27ed66fa230879e57a392a9b784a13d628926df5ceb865ec576fb44222f5a10": {
+      "623": 1
     },
     "a3b1e4062021bb5229edb6acfa6675e3e67bc5532990b2348b8f5cb154a1dff8": {
       "489": 1
@@ -8101,10 +8143,6 @@
     "ab7a41b8958414f9e26be48d7b868dd08a226b76a5c4157f99c2cd7476e22629": {
       "623": 1
     },
-    "af1ac706a921b450ef3cbf71530126dfb25ef1eb628cfddb35a33cea81f3faab": {
-      "1152": 2,
-      "166": 1
-    },
     "b00762a9ae49973dbc43a27d57dec6fc00fd7f7d40a353006051d2e6c398af64": {
       "1478": 2,
       "565": 1
@@ -8120,9 +8158,6 @@
     "b8ff9b749873752d2c52dd505f22e7225cccad48bda64fcca6ce7817b7213afa": {
       "682": 1
     },
-    "bc065ac794be51115bb84e79d64b746a546548e8aefad14594957bf5ab19aa29": {
-      "353": 1
-    },
     "bd44373b4ac368fb6e4370dc168fb14cee30765a332c051efd7f525479d04476": {
       "1392": 2,
       "548": 1
@@ -8134,6 +8169,10 @@
     "c1656673791263ce35792dd0eb66b3cfc609b92ba801dde8d442e1b6a4d7d74f": {
       "1770": 2,
       "729": 1
+    },
+    "c251de9f06a1858de40b2da7542e80a7672895c4f6bd3d4f592b643b1200dddc": {
+      "1301": 2,
+      "294": 1
     },
     "c308f89a652ad9a27fc212e2c382266b44e6797ca1d553910b05a62244609ef3": {
       "567": 1
@@ -8167,6 +8206,9 @@
     "ca9bc1ca162781e29335c904d1583b28970aae926cf707c9894e51a0c2b262b0": {
       "2140": 2
     },
+    "cc4f124c25dfc238cb5a3a746856a87a855bc534f7791e890a253016c8b38f7c": {
+      "463": 1
+    },
     "d008270ccc9b374ead35ddabaa8d6bf54c7476058f4ebee3ed61b7852fcb496d": {
       "1946": 2,
       "661": 1
@@ -8185,6 +8227,9 @@
     "d74ffed67c4259d1f169b267ba1004e575df87667e36901f4aec3049761ead60": {
       "1480": 2,
       "635": 1
+    },
+    "d8e1bafbbb20687308206442dc93e01612ce036d35ff59f6aa693e1b037b6805": {
+      "605": 1
     },
     "d8ff48f7ca3f50c3aff7231bac5a88c93baebc7c0ba2ea12ca371ed6f7390ab7": {
       "1676": 3,
@@ -8240,6 +8285,9 @@
     "f206ddb0cceb356ab44262fd3118be0932edd5df71abacf3289d5948eeba85ba": {
       "464": 1
     },
+    "f2851dda0c0718367e233973b5b65c8c6f121a722ddbe5532843ac283ba88666": {
+      "511": 1
+    },
     "f95e3260cc85e1f99c131f666d926f42e00cf6342769bc7874f562bd9cddd31d": {
       "595": 1
     },
@@ -8251,9 +8299,6 @@
     "fb4e74eae65dada61a8aa136f99e8204bc7035e0a4e1140dfe3ebe05c78066d5": {
       "1420": 2,
       "672": 1
-    },
-    "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a": {
-      "340": 1
     },
     "fd08109e4fddf86359b7df4e1f749ef6600f088d42cc70fbae0c1f7680c55793": {
       "687": 1
@@ -8280,579 +8325,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_Horde",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_npc_apothecary-johaan-4908c3185db41ddf65e3/1-0000.mp3",
-      "sha256": "0dc88c827d53ed663aac7788f4bbf0c434c82998768bb7b5a31679a977c4cbfd"
-    },
-    {
-      "file": "Audio/Transport/full_npc_apothecary-renferrel-3c65dd924701c0dafcd8/1-0000.mp3",
-      "sha256": "829f1c26df45e334496ac80d43e4e83eb5116b32119857b358ea3e16cf686b96"
-    },
-    {
-      "file": "Audio/Transport/full_npc_bethor-iceshard-e82914e1aab916630ba4/1-0000.mp3",
-      "sha256": "bab5587eca91c618cbd64c663403af669fa7d4f98096ff2f3ed6cbc566ca0869"
-    },
-    {
-      "file": "Audio/Transport/full_npc_varimathras-936c077d037dd4dc83ab/1-0000.mp3",
-      "sha256": "4a5908bb3c50d2271814d7d3c6743a56679aa55801724df007f51ebe23e7d91e"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_apothecarium-bc23c10046fc607bfeb0/1-0000.mp3",
-      "sha256": "e329da5085b60b4c68c10455014351d71c13490c3d8af5d5498120821989733a"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_balnir-farmstead-605ebac07065f44bec91/1-0000.mp3",
-      "sha256": "7427559cec9a5c0e4978dbf35a517dc3d0cf512acfbc05282ec78ecf49366c18"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brightwater-lake-c11855c6cd28b3df0510/1-0000.mp3",
-      "sha256": "80572f72b558e883b16788fe3bd237cc32871e0e88587dfba5e25c96d6519c6c"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brill-252e3416b13dc8924d57/1-0000.mp3",
-      "sha256": "2332c12046649f98abc7f779bab2bafa7a1c4b4f8d4a1c5f6e54bc8d8c7d2d70"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brill-town-hall-0117ee0e03a40b2d491c/1-0000.mp3",
-      "sha256": "bda873cc81a1b95b30ffe7fa51de1b33a7e6af071e4b8987f89002062c6a834d"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_canals-undercity-04ff44f39f45a37584a8/1-0000.mp3",
-      "sha256": "74c43aa82db51853e60ac019f2b5488ff6c68cb669e6fbd1294c6a942b109011"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_crusader-s-outpost-09b9109d717505230ae3/1-0000.mp3",
-      "sha256": "40dd17eb52b4f5a39d0c02f3cab8e0580e1265c5029dd5ee74baabc3ca8cade1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_deep-elem-mine-948c84080a82520e7991/1-0000.mp3",
-      "sha256": "a7f1e1b0edb50152032f08f8eadaf174f2ad62408f1db6585ae8bf72b30b732e"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_fenris-isle-073a81059c630df4caf7/1-0000.mp3",
-      "sha256": "c6cb84c20c86831225718143155d3716ca1b9504492612accddd2a17e98037f4"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_gunther-s-retreat-2e7189c2ab209625090e/1-0000.mp3",
-      "sha256": "987ef46c21db10d24e2a58d05cf883b25ba15ec33e2f04ffe3857141b89d24fd"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_malden-s-orchard-7283b8051c9f943e72a2/1-0000.mp3",
-      "sha256": "3f7a52ba3238199db89ce5481f570f329eee69a59dfd2080e91c1aafb9385634"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_night-web-s-hollow-7e2eb4293aa04d676b59/1-0000.mp3",
-      "sha256": "c3a6792888852b787cff3bacacae2c091b0d18c2fe85e04158874307c45deed6"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_rogues-quarter-b8e0665749a6389e38d0/1-0000.mp3",
-      "sha256": "1da478aa8c6e70b39635bd7ee0423e376cef5f630106bad3dd889c827edb1c83"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_sepulcher-e991fea0e0cc7d347284/1-0000.mp3",
-      "sha256": "7faaf7413a7b758bad977b9f28a0c8b3cb078a9b077479ee84f49e0a47244e9c"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_sewers-cbb35b2b44b283b98c9f/1-0000.mp3",
-      "sha256": "99a92c1de73d4fedc0b0c2fd8aca406b3a6495edcae9d970dde1d19faa32fd9b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_trade-quarter-bdd84257e3a3df039dc0/1-0000.mp3",
-      "sha256": "f4beddf386ec4bf9f9f3e71e20580055db32fe8669fe35da4c141460ebfada37"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_war-quarter-f40b63f07c76f56b0063/1-0000.mp3",
-      "sha256": "3cfba770623a83851525c2ebd00372ca153a22103874e90c04b198587e9bc77b"
-    },
-    {
-      "file": "Audio/Transport/full_npc_mangletooth-d8f398e8af13facd002f/1-0000.mp3",
-      "sha256": "f534e32da6d956c0bf309f64aa2aae60d3bdc123493419a45185fb401d03b934"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bandarion-keep-c9df574b67a10c0be195/1-0000.mp3",
-      "sha256": "248dcb53f170150a7ac186a531c4ba328716fb41afdcd685a4b8904d4ecd715b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_blackthorn-ridge-bda2bb355a92c2c54c2f/1-0000.mp3",
-      "sha256": "e1dc3c65f69e5cec049cb0bd80eb70a16ea21f05246a391ebccbe1be8e5b35c4"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bramblescar-2ba01fe164583df6a0b6/1-0000.mp3",
-      "sha256": "a7ae793e9784f5a767ef059507cba6a3c57f599420ecf83668d23ddf6c36a3cf"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_grol-dom-farm-0f57a125cce7ad5d7574/1-0000.mp3",
-      "sha256": "1ef1e3804d36fdd2b595c954bed08435e0abf5b10746d12c66d7e236eb28e3b6"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_north-coast-e94de68e1cd17d39c296/1-0000.mp3",
-      "sha256": "2eade596f70e79179d9ce56089cd9c13ece643545c3d0c4628d8825417a462d1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razormane-grounds-cc2f2178ca569d7b59ab/1-0000.mp3",
-      "sha256": "cd975f89c3c17c4afaebe43b661a3287df42061cd3fbec2d6da8305e847de5ed"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_thorn-hill-fc1185b444492df25d85/1-0000.mp3",
-      "sha256": "fa73217e9cbbdef4225deec511c480d987aea07937a03b2cefe222331d0a26ce"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_whispering-forest-d254a0cb67aa78c9b9b1/1-0000.mp3",
-      "sha256": "0e71528c74dd236c92531fda481426756822b4497074ce24a5fff1bf18806f0d"
-    },
-    {
-      "file": "Audio/Transport/full_npc_apothecary-johaan-b355bb9ae150847cb4dc/1-0000.mp3",
-      "sha256": "bac92285313c1ee3eace959818b14f7973d51d447c92e96c54b111c28f346b19"
-    },
-    {
-      "file": "Audio/Transport/full_npc_aramis-hammerhand-05251a5a993cb74bc0c6/1-0000.mp3",
-      "sha256": "810818330fd38e9a0f09c8a32b7510bde65833e5bbbce7d00176adb4d7258240"
-    },
-    {
-      "file": "Audio/Transport/full_npc_executor-arren-a4cb5dc6bf85429d2321/1-0000.mp3",
-      "sha256": "3ffd7bff6ce1a398e899399f8821873d14544c34708d00502064eaea9044a3bd"
-    },
-    {
-      "file": "Audio/Transport/full_npc_executor-zygand-b530d14ef491e9f03ff0/1-0000.mp3",
-      "sha256": "5d53d70d0096fce83e66616b040fb08feadc7df62437a7ae4587cece3a312cd7"
-    },
-    {
-      "file": "Audio/Transport/full_npc_gunther-arcanus-98bc7739dc1359a769f4/1-0000.mp3",
-      "sha256": "80c3574f02d0eeff2a849da2f55322c1c85b514a9844c1a7e8452a91b6e78dad"
-    },
-    {
-      "file": "Audio/Transport/full_npc_magistrate-sevren-aa725a59fa9eb63c90a6/1-0000.mp3",
-      "sha256": "7db6908331521568dec9cb96110c40f0fac8bf019ae7bf941e31fc3071bed8f0"
-    },
-    {
-      "file": "Audio/Transport/full_npc_morin-cloudstalker-c6b2b2fe40416aaff9b8/1-0000.mp3",
-      "sha256": "0898ae60a7b310ea0fff086f9c11a8bff798485ae46e8a8aba2eb5fecd5455f8"
-    },
-    {
-      "file": "Audio/Transport/full_npc_mull-thunderhorn-3ea9d1b3d70807cfd7a0/1-0000.mp3",
-      "sha256": "1dd089efc31cfde72ade5630ec657eb927215fe152610d0e221999b5b5bf5295"
-    },
-    {
-      "file": "Audio/Transport/full_npc_shadow-priest-sarvis-b034d861eeee5cbf01ab/1-0000.mp3",
-      "sha256": "31981ce4e55a20fe857f1c6d13f77561a8ffcf98f3378b8dc4cdfeffd4f3d883"
-    },
-    {
-      "file": "Audio/Transport/full_npc_thotar-d7e94d2dcac7d920687c/1-0000.mp3",
-      "sha256": "68172318044d587754ee877b7143f57567fe32d9feb2eb6eb73250faf0b4ab6d"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_agamand-mills-664f8bdebdde2d44632c/1-0000.mp3",
-      "sha256": "b848eb02003a9eb8f9068d02adedae9551ff3eee4bab708f1b0e15d2f4f69b92"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bael-dun-digsite-902df246080fd7269d29/1-0000.mp3",
-      "sha256": "0826d9ab33c608a79687c8a8c63159a5964d4da0432e10b9a1b451792af54d9c"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_balnir-farmstead-248ce1b027dd95492020/1-0000.mp3",
-      "sha256": "633864a3fa4da8c8854840fe01fab3831ad3ab92bbb131e4b12fa06fbbf036b1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bandarion-keep-6317a5f78f4fa58252d0/1-0000.mp3",
-      "sha256": "332990ebc22bbb64fee52ff0f18b6c898e4cd712a772f91ee22a8cc971280bca"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bladefist-bay-787ec76b8613973619df/1-0000.mp3",
-      "sha256": "c39b99e5bb34a8f347571ad6395797254ddaf36d189cca3fa7414f60075e91d0"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brightwater-lake-2203e83cb8b130473a75/1-0000.mp3",
-      "sha256": "d5d6a245a00e730d1fa29852e7afcbee96d4bb8dab3d28d50d64af3f50b73663"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brill-dae337cedef99a17b42f/1-0000.mp3",
-      "sha256": "8a6b1535b8e1f19c1fdbd8d722d6d0d8a8ff761689d5c6e6286c37d65deb4f0f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brill-town-hall-6c2de4d377994a854e05/1-0000.mp3",
-      "sha256": "5b322d8844eae9e5785a15c8c0e03ea9507b2baba0f836c3ac73913f59cef972"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_crusader-s-outpost-1fa9fb4ac7ac93ae41e1/1-0000.mp3",
-      "sha256": "39d9e25d076fcd6e58db65022b424cb204065b5a0361ab65176a18d9826f842a"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_darkspear-strand-fb4c0b6a344ae9c92a89/1-0000.mp3",
-      "sha256": "24511f134326cf90fc9b768fa33193d8a49f011efc8df59859bb730b96e53b35"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_deadeye-shore-57b3e72f8e67b080f077/1-0000.mp3",
-      "sha256": "258d13cebc852e8dc0ee85fbef48a56a773912d65a317426d3b36c1c85ce6138"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_echo-isles-b019220727e046022002/1-0000.mp3",
-      "sha256": "6dd475b23a9223744402eff3fb9f36d24270462c38f19fd62ff2fc694f163e13"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_garren-s-haunt-da8549055d9e470e9ba8/1-0000.mp3",
-      "sha256": "c02e05a2187a46e65694f487d52d0aa40791be2ff27599eaeff580ac093a9d8e"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_golden-plains-dde8844fa8082677ec02/1-0000.mp3",
-      "sha256": "3079f4e2a8be66b2a45d91f26d007a5f220737db5a691113d7469074176adadd"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_gunther-s-retreat-ef5157ee160786030e69/1-0000.mp3",
-      "sha256": "13a5bf300c38425b128e284d94debe59c2631c1cdcf422fd48e4be2dcf5742fc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_jaggedswine-farm-8b7954a7bb908df42419/1-0000.mp3",
-      "sha256": "41484ecdd80c798719c9c31b2ffb9c2f8f5b1cb94bfbc717025df5ba556c93a6"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_kodo-rock-1c0457d8c83674deba77/1-0000.mp3",
-      "sha256": "46fb50bb7e1afbc36a1c0a4b0e9fbbabe117e60f75503cfb2a278b2ad45a52c2"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_kolkar-crag-0081ecc94a9d535689ec/1-0000.mp3",
-      "sha256": "872ed72fcee7019e705f7a97f25b0d91625d6ee35e4bcbb36fb9c7e18dd7b334"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_night-web-s-hollow-10379c453be89f4e6f10/1-0000.mp3",
-      "sha256": "d5466206a64c08d9909b2d086ddfdf050d4e8d58815ca65b5451eda095f87044"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_nightmare-vale-243b251cebbf3bfaf80a/1-0000.mp3",
-      "sha256": "9709cd4701b457f328de33575ac3b74541fa49f59e712c860568fdd063a5ef39"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_north-coast-7dba38c6113f0d4d5b2b/1-0000.mp3",
-      "sha256": "c8b94f1ee39359c3d4026ab92cd9b1b48bdf3c6cf76891a2a938483a51ad37e2"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ravaged-caravan-4b02e2c669c6072ba380/1-0000.mp3",
-      "sha256": "42e7370265efc25a2506c0c45cc047d599308ba95d6a1495fbdb91ab55f64a70"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razor-hill-watchtower-3d889e4f8cc5dd4da518/1-0000.mp3",
-      "sha256": "83228b867d19aabe91901cd5de4e29123bef7f4135d763e0c01507b106a30ca7"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razormane-grounds-8bb11b01fd155ccfcf78/1-0000.mp3",
-      "sha256": "c2acdf0894b76cdbeaf8c17aae76459659d2d11b90079a476cd17cbe2e59e588"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razorwind-canyon-96cb242286264d3fd06a/1-0000.mp3",
-      "sha256": "9e77c5d6cd415ce6675ce218407c8b8a79245a8913ae1f5744fb62766f8b9db8"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_rocktusk-farm-664e3f67da5b72809b51/1-0000.mp3",
-      "sha256": "3e83966d22e3a61a12584dc36d97a303441942f844270205293b484b32892fa9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_rolling-plains-d4099ab22c1878b67c00/1-0000.mp3",
-      "sha256": "a1f88cbaf0eb0424f8778c6d39d56e69c740a525a91ddac2a96a6d3fde47bbd9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scarlet-watch-post-09e8ccc834ea946dc71d/1-0000.mp3",
-      "sha256": "4dbd8909a648b54e92a66b34eb34d9daec32a9ecd2766eddb9d8dc32bb35787c"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_shadow-grave-db671fb311a954885dc1/1-0000.mp3",
-      "sha256": "32374b9cd1b81018dca6f1d4405f485bdc8e4d0b18acf249fea0c1a130b80736"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_shrine-of-the-dormant-flame-03ea32def68c4f079617/1-0000.mp3",
-      "sha256": "309c763c2dba0b1db28f6e8a655de775c721e7cfe332efbc0b56f5b699632aa8"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_skull-rock-de565247405fb77d8484/1-0000.mp3",
-      "sha256": "26688453f9d35b43ae12bf29e62595f55a3c4e68310b157e4f0f0d58027b0be6"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_spirit-rock-0b85a6ad0acb1dc882a6/1-0000.mp3",
-      "sha256": "0d1b096927f9ab67f539dfca590eacb0f1b6e9e50a669fdd3abac606f9458a7e"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stillwater-pond-7bb05c132924cd95418c/1-0000.mp3",
-      "sha256": "d7cd9d01c01ad6bff121b922cb86c751dd0101c08c892f890af583ee335984ee"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_stonebull-lake-fda90a547b4067c8eefb/1-0000.mp3",
-      "sha256": "5ecc2f0b2e3c06d566b4a9c402bcdcf626e1d5dfad7c45651e7390c21fa5fb32"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_thunder-ridge-b646217fe41b5500d130/1-0000.mp3",
-      "sha256": "0b4042f547a77508e773a486d080a7fad2cf7b719d3488bd01d4bb0aee564e76"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_thunderhorn-water-well-294fcd3ba33d73b8aa84/1-0000.mp3",
-      "sha256": "232d4007698da1f2bd8ef627e0408f69659f06cf48651ff0750694faf0186a78"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_tor-kren-farm-ab6f8f66dc8f08fa4dc9/1-0000.mp3",
-      "sha256": "ee992e031520c08f03bee5672989585702066238eb643598b1969fcb5ce03ba0"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_venomweb-vale-eb4cfb65615150bba32d/1-0000.mp3",
-      "sha256": "f10a71759a415be0dcff3c34a412b24d8faf1a6e8db05d64171ce77206f1aea1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_whispering-forest-602c4136dd5ea131c4bf/1-0000.mp3",
-      "sha256": "d20a93a8fbdcb9d3e82cd777bc7320211438a00154d7d60af8fff284518b86cb"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_whispering-shore-417a4f74dec7f5a88886/1-0000.mp3",
-      "sha256": "f52b6fe0713e8ff8dd83ebaeb05f9d02b1824cad08bf7c36b30380d3b5865820"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_wildmane-water-well-359ae09b2c73d9f15969/1-0000.mp3",
-      "sha256": "bba0cbef971b08cf5d4c5b4ea6ea5ec6306dc44c02fb596f415ac7f2f00c259f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_winterhoof-water-well-fe255bf5532170c8dfe2/1-0000.mp3",
-      "sha256": "bf73cdf5bf45e1af4d104f07d569bd3ec8ad32d83b8e77b252ed0e04b6c8afba"
-    },
-    {
-      "file": "Audio/Transport/full_npc_gazrog-053443f93e7ac3eb3599/1-0000.mp3",
-      "sha256": "b8b96dbd757db88c500cd23200f9100a8c9d5b374424aa551fcaefc97b9b6ff4"
-    },
-    {
-      "file": "Audio/Transport/full_npc_islen-waterseer-3ad3c901965f138f250a/1-0000.mp3",
-      "sha256": "587ec27b8ec0d23c29bd4c9f2248e31342571cbc5ad18a4313d0cbec2d238cf5"
-    },
-    {
-      "file": "Audio/Transport/full_npc_kadrak-22b3bf7b4683d1023340/1-0000.mp3",
-      "sha256": "458299f5b798e80343ede83894dd86b3c6a9fc71dad3bbeec742cb11bc353cc8"
-    },
-    {
-      "file": "Audio/Transport/full_npc_mangletooth-a60e411c78bca55de256/1-0000.mp3",
-      "sha256": "b03d6be9c2ea1da7c38fdb9e9bd11587c531645c9fa5bbd2b8113e1b2df6429c"
-    },
-    {
-      "file": "Audio/Transport/full_npc_shael-dryn-3edfb67bbda399c4b750/1-0000.mp3",
-      "sha256": "d699a978ddd316bdbe63f0af3589fdc15b7e1106bebf90f2ccd8a28cfc3f8bbc"
-    },
-    {
-      "file": "Audio/Transport/full_npc_strahad-farsan-44e62bb255699a405ad6/1-0000.mp3",
-      "sha256": "eb84d6bc52855c9bc8e0f574a18e6e719c3a0a4a418a13b0b207408ae54af507"
-    },
-    {
-      "file": "Audio/Transport/full_npc_thork-2f904ad992db131789b2/1-0000.mp3",
-      "sha256": "0226d31fb80ad3a90273284155413aaed18729ae0e30d881992b1bc4cdaaa0c4"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_agama-gor-fa38233fc55b2f6aafb8/1-0000.mp3",
-      "sha256": "6b769b5007ff98e63a1961be3411326965b66ec4df39f72e46be3e457ff3fcbc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bael-modan-22d6de58b7485d5ec0a9/1-0000.mp3",
-      "sha256": "054bb8850303fa0d69a92eb04a1069baeaed55b83cda0e282d910b68bab018e0"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_boulder-lode-mine-54293d8f8daa5c2854ee/1-0000.mp3",
-      "sha256": "80c03cafd6c8727f67926edfeb2550b293d0349d72a07dcdb82674b2dd641969"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bramblescar-8091e4718a91113440ce/1-0000.mp3",
-      "sha256": "f669678063586ff1d998e0325b54203950533c4db1b99e78ce0acb5d0bb50d87"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_camp-taurajo-d06ea0fb650cc527e09b/1-0000.mp3",
-      "sha256": "3a2a90f0cc0691852d86a454a9a11f1b4fa96aae0627107efb1ef16a555e06a3"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_dreadmist-peak-679f7545700c6431163e/1-0000.mp3",
-      "sha256": "3ec7d5b0e808e75f98e40b028139fb5648f244f73a5a18c8f1169060abc981ed"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_far-watch-post-f2fee9bcbd37362da0c1/1-0000.mp3",
-      "sha256": "83436be31aaa9de29a7598f7ce893822535e458836a1b300e5b41839ec927afb"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_fray-island-a316ac8d76b9b5d408a7/1-0000.mp3",
-      "sha256": "bebc1a4809a653e8023f9d7329030145e1af7c49d8ca98a75280c3f39557a548"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_gold-road-3777b3245aa797db5095/1-0000.mp3",
-      "sha256": "a58071f59b8bf2ca42f463bc5b5f7dd197c5905b7b23822f7706cdb2b063b579"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_ratchet-9e8149a2f297399bf58a/1-0000.mp3",
-      "sha256": "ca1776c5ad217142d94ced6666939b99c1a2a920ec6de85b9b4b769218b972ab"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razorfen-downs-classic-7c630a52fa907a61c00d/1-0000.mp3",
-      "sha256": "ce15d908f066d1cf12d683eee4603e0295bafe0452f3b47e4d562ed34a950c10"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razorfen-kraul-classic-7d2addfd4872d0b1c5b0/1-0000.mp3",
-      "sha256": "fa281d883d619b7f37e3f00b1d8a48978c3cf945eba1a6a5a78a00f9d9981a81"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_shrine-of-the-fallen-warrior-b33800b986dae250d784/1-0000.mp3",
-      "sha256": "f1900c2f61e8a43850ed12a1cd8c40d990a4c2100d937bb7489e349ca9e190bc"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_sludge-fen-f2175b0b371221e4540e/1-0000.mp3",
-      "sha256": "f79ec3befeae410fd824efcb22f5c283afbe93ce34115d6c8b693038447d6411"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_southern-gold-road-ad374c94038df065437c/1-0000.mp3",
-      "sha256": "17532718cad1fd22d9fca2e932414ef5a844d666289a041746307d829e917d30"
-    },
-    {
-      "file": "Audio/Transport/full_npc_darsok-swiftdagger-5349b6d2d3256333bcc4/1-0000.mp3",
-      "sha256": "a045187d5c921c4a3c24f50dd6b42140399559cffc9902be13768af178e77ce5"
-    },
-    {
-      "file": "Audio/Transport/full_npc_mebok-mizzyrix-49d0d90a9f919c844419/1-0000.mp3",
-      "sha256": "d5828eea5a36c8962a7ee4f083024f0bf3020b860f3e271dabb54825d50f67af"
-    },
-    {
-      "file": "Audio/Transport/full_npc_tonga-runetotem-16735e2de9e0980305a8/1-0000.mp3",
-      "sha256": "c67b3a29fd693d96b5917b3faba57fe62e59ae1a5a4078edb2f84ef8dd8922c9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_bael-dun-keep-691f79c491a3c0a3b7d8/1-0000.mp3",
-      "sha256": "0580a59f1f9991ad713231c89408dd55bce8bb3a5f531db97db752352b406514"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_crossroads-16a79cbf09a4deed17d3/1-0000.mp3",
-      "sha256": "bdeee6c5de1462224b28e70ffe6030b1b414441a21eac05d4877708949143201"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_dreadmist-den-98bf512fdb25cb9cc90b/1-0000.mp3",
-      "sha256": "260f1efcdffdbc7d635c187f789e22bdd150c3c30220a49ec2aaa01c2c1a5959"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_field-of-giants-254dc4ec9987354e8f85/1-0000.mp3",
-      "sha256": "fd5d294318c12d91a77969fbee2642aee16f8c5fefecdc327ce43c60ae5a1f80"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_forgotten-pools-83089c52601157958f98/1-0000.mp3",
-      "sha256": "9822c5c3799ad07a4d485f24c2cc65854f0cc4190e406f067d0b515550e5aeb7"
-    },
-    {
-      "file": "Audio/Transport/full_npc_baine-bloodhoof-c3c9ccc5dea3212be843/1-0000.mp3",
-      "sha256": "c52a5e1a6cdd77a8093a7f100d2d8ba91bcd18bb01d56712b7c6ef8124aef2e5"
-    },
-    {
-      "file": "Audio/Transport/full_npc_cairne-bloodhoof-3df0a690bcf6085f81b1/1-0000.mp3",
-      "sha256": "d01a75125f501f691d7c12f2cef835dfeca79edbf065ebc8f063e39c68d513f1"
-    },
-    {
-      "file": "Audio/Transport/full_npc_canaga-earthcaller-d6875116bc2add7db5b7/1-0000.mp3",
-      "sha256": "e77b970c9b01d73e0ae33717f26b06bf5c30db437e2af5396e7857ac505c05d2"
-    },
-    {
-      "file": "Audio/Transport/full_npc_chief-hawkwind-e5cf0ac9023eb61a0fa5/1-0000.mp3",
-      "sha256": "f66b586dd0a419c1859278c575e3639b4d5db4ed09a81823f09ba493e3e0c9c3"
-    },
-    {
-      "file": "Audio/Transport/full_npc_coleman-farthing-e5de737c54b4fd6b7d2c/1-0000.mp3",
-      "sha256": "7df3e876f0da6194fe34137cacb86bab49230d863c410a9b57027dae5439e655"
-    },
-    {
-      "file": "Audio/Transport/full_npc_deathguard-dillinger-4dbe8ed58d8c63708c46/1-0000.mp3",
-      "sha256": "e20f17456fb0397469d2136b2053e64ece77fbfef70ff61baf7fc6aded335e31"
-    },
-    {
-      "file": "Audio/Transport/full_npc_gornek-409a0a2260cb80e308a4/1-0000.mp3",
-      "sha256": "a798a18abd38029f57a06874f47785799a59b48a46e9dd33dfdea16912c6588a"
-    },
-    {
-      "file": "Audio/Transport/full_npc_master-gadrin-f79f24a3673a9670909a/1-0000.mp3",
-      "sha256": "2c7a7b2993daa75bd289de100b2a23acf657a82afafdc1a13b12b3d490279b1e"
-    },
-    {
-      "file": "Audio/Transport/full_npc_orgnil-soulscar-9d5f5b5d00a53296ab8b/1-0000.mp3",
-      "sha256": "62c2de7a0d5fbd1c39ab87c95c616208bc4bc9743f1f6752358c4429e953fdb3"
-    },
-    {
-      "file": "Audio/Transport/full_npc_telf-joolam-fb4b4f8e3f55b772cd7b/1-0000.mp3",
-      "sha256": "22b9942ce93d9e534e085872804b97674f5e4b8083e4642f855faf48b83c92d4"
-    },
-    {
-      "file": "Audio/Transport/full_npc_vol-jin-cb8e3f0c26c79ba38e34/1-0000.mp3",
-      "sha256": "f70fff9d7448dee6f23717deccff1e752db174b24922c71870410dfee9842dea"
-    },
-    {
-      "file": "Audio/Transport/full_npc_yaw-sharpmane-bb1233ffe5785145acd8/1-0000.mp3",
-      "sha256": "6d560ce95cf2808d2f6f3786b34fcedcf0278f024c3af417fd96db1a1f313eda"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_agamand-family-crypt-36d7a420518d68756856/1-0000.mp3",
-      "sha256": "d4ceadaff8c7b1ecc7331a44d949cb17f732d74c8cd38aea8189a6534ed8fa84"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_brambleblade-ravine-a2e9cdf5b733a0b548ae/1-0000.mp3",
-      "sha256": "2439842493e82c04c74ad22639ff7f605e85faff06cf402164392e9b14452eb9"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_burning-blade-coven-017d0a8877c397574964/1-0000.mp3",
-      "sha256": "9066a065066da262c18afe753e2719370a06665d7fe3184aae86aa78bce27792"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_cold-hearth-manor-43916f57642425ec0d8a/1-0000.mp3",
-      "sha256": "2b524ff94de7e1a6c3d588ec369c7f55291d567e1fa75ed7e1596376208e6108"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_crusader-outpost-5ccba8b29087b08bba8b/1-0000.mp3",
-      "sha256": "87aef66a4cbc4826e4166c0dbeed081052b615a8336a3b873d139d09bc9157ee"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_drygulch-ravine-6d7a63ab57705a7f89a8/1-0000.mp3",
-      "sha256": "4bdea75234f6e5ceb759592f2d1fb5e0ab49d53f3b901afa4f5bb6be5a380151"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_dustwind-cave-5d998e72e409fb757509/1-0000.mp3",
-      "sha256": "6a27b0b3dff9ace181cf39a2292e54945211aff4f81df6c88d23aca8d274afee"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_faol-s-rest-3749befad834f0aec715/1-0000.mp3",
-      "sha256": "8a60f0446e241dd87decf4f5e1970cfa1e73c454fc601831008a0aed49d5aea1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_gallows-end-tavern-85e77caf99cab05a4012/1-0000.mp3",
-      "sha256": "ebabe0d83a3786cf009d370b1c300ac139ba87bb7e47dd9d0b826ddba5945e86"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_hidden-path-e0481e7068841ad1062f/1-0000.mp3",
-      "sha256": "1df0a79cb15763cbaca8549f567c835c5378d5d551ddf64ac2ef0f47b179f760"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_palemane-rock-e0a46f8920e3381ececf/1-0000.mp3",
-      "sha256": "f5d58f27223d280c2ce395eee26a3bdb81ee3375105f4c96ed4def61a2561f07"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_razor-hill-21fff1cb75ee3eb8daff/1-0000.mp3",
-      "sha256": "ab02a438becad5411da8571e511f431e13fe42a8f37d7d2a050ee7ed0cfc1355"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_red-rocks-168af489f7ca5e2bec71/1-0000.mp3",
-      "sha256": "87d7c363ebe7704df952313c3c3f56f6b25e8a7d4653d4f42a0cda376b88ac60"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_scuttle-coast-a4d95a7a529a7e02109d/1-0000.mp3",
-      "sha256": "469bef3894fae4fb06e7244e6eebda0a757fc2953edad1e0335fa66f2f3136f5"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_solliden-farmstead-cd975771e3cd1fcbe02d/1-0000.mp3",
-      "sha256": "e2719dde94f2504a3c3d61776e6fc1bf6a5cbea006644041d253fe5aaeae40a1"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_the-den-9b69e536e8d384a55ad8/1-0000.mp3",
-      "sha256": "316c684e55dd98254734ab47ce41d98eb772ee0cada34321190c9f84c790f68f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_tiragarde-keep-6286632ed4068cd9b8cb/1-0000.mp3",
-      "sha256": "30e9e1e0b068aafdd31e8855d8148ea00e22cbb58912c302c09a347befa2eb4b"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_venture-co-mine-54bd47e460c875207169/1-0000.mp3",
-      "sha256": "5053889344475cc5be9b2f90b45a9c85654d6b9c55f9b1c4fc0bb4bbd019860f"
-    },
-    {
-      "file": "Audio/Transport/full_subzone_windfury-ridge-1a29b131f26b3d70546d/1-0000.mp3",
-      "sha256": "f9f0245f4cd05edacfeb718703fcff8013d1d50bb55883b32a77d833092be974"
-    }
-  ],
   "version": 1
 }

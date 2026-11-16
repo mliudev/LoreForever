@@ -1,0 +1,75 @@
+{
+ "key": "quest:97536",
+ "type": "quest",
+ "name": "Gnomish Garbage",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97536
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jhordy Lapforge asks you to remove dangerously charged refuse from near Gadgetzan. The crate must be emptied in Tanaris, away from town and other trash.",
+ "sections": [
+  {
+   "title": "Charged Refuse",
+   "body": "Jhordy Lapforge\u2019s tests with the Matter Transporter have left some materials dangerously charged. The objects give off energy that can burn anyone who stays near too long. He asks you to empty a crate of radioactive refuse in the desert of Tanaris, well away from Gadgetzan and other trash.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the crate?",
+   "aliases": [
+    "crate contents",
+    "radioactive refuse",
+    "gnomish garbage"
+   ],
+   "answer": "The crate holds refuse from experiments with the Matter Transporter. Some tested materials became dangerously charged."
+  },
+  {
+   "q": "Why does the refuse need to be dumped?",
+   "aliases": [
+    "why dump it",
+    "dangerous garbage"
+   ],
+   "answer": "The charged objects give off energy that can burn anyone who stays near them too long."
+  },
+  {
+   "q": "Who is Jhordy Lapforge?",
+   "aliases": [
+    "who is Jhordy",
+    "Jhordy quest"
+   ],
+   "answer": "Jhordy Lapforge asks you to dispose of the radioactive refuse."
+  },
+  {
+   "q": "Where should the refuse be emptied?",
+   "aliases": [
+    "where dump garbage",
+    "Tanaris refuse"
+   ],
+   "answer": "Jhordy asks you to empty it in the desert of Tanaris, a safe distance from Gadgetzan and other trash."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "charged objects",
+  "gadgetzan",
+  "gnomish garbage",
+  "jhordy lapforge",
+  "matter transporter",
+  "radioactive refuse",
+  "tanaris"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gnomish Garbage"
+ ]
+}

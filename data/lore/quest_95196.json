@@ -1,0 +1,81 @@
+{
+ "key": "quest:95196",
+ "type": "quest",
+ "name": "Watch Yer Back",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95196
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sully McCleary asks you to meet him by a graveyard outside town. He wants you to hear more about your mission while avoiding a tail.",
+ "sections": [
+  {
+   "title": "A Quiet Meeting",
+   "body": "Sully McCleary plans to leave through the door behind you. Once he is gone, you are to meet him behind the graveyard outside town and make sure no one follows.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Next Word",
+   "body": "In Dustwallow Marsh, Sully McCleary tells you to investigate a tower and learn what you can. The work now turns on what you find there.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to meet him?",
+   "aliases": [
+    "who is Sully",
+    "Sully McCleary",
+    "meet Sully"
+   ],
+   "answer": "Sully McCleary asks you to meet him behind the graveyard outside town."
+  },
+  {
+   "q": "Where do I meet Sully?",
+   "aliases": [
+    "Sully location",
+    "where meet him",
+    "graveyard meeting"
+   ],
+   "answer": "Meet Sully behind the graveyard outside town after he has left through the door behind you."
+  },
+  {
+   "q": "Why should I make sure no one follows?",
+   "aliases": [
+    "avoid a tail",
+    "why not followed",
+    "watch my back"
+   ],
+   "answer": "Sully tells you to ensure you are not followed before meeting him."
+  },
+  {
+   "q": "What does Sully want me to do next?",
+   "aliases": [
+    "tower job",
+    "what mission",
+    "Sully asks what"
+   ],
+   "answer": "Sully asks you to sneak into a tower and find out what you can."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "graveyard",
+  "mission",
+  "sully mccleary",
+  "tower",
+  "watch yer back"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Watch Yer Back"
+ ]
+}

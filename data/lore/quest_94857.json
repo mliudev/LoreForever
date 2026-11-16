@@ -1,0 +1,66 @@
+{
+ "key": "quest:94857",
+ "type": "quest",
+ "name": "If a Tree Falls, and No One Hears...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94857
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A trapped lumberjack asks you to fetch help from Turner's Logging Camp. He fears bleeding out or being eaten if he remains trapped.",
+ "sections": [
+  {
+   "title": "A Call for Help",
+   "body": "A lumberjack is trapped at the site of an accident. He asks you to go to Turner's Logging Camp and bring help before he bleeds out or wild animals find him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is trapped?",
+   "aliases": [
+    "trapped lumberjack",
+    "who needs help",
+    "injured worker"
+   ],
+   "answer": "A lumberjack from the nearby logging camp is trapped after an accident."
+  },
+  {
+   "q": "What help does he need?",
+   "aliases": [
+    "how to help him",
+    "help trapped man",
+    "what does he need"
+   ],
+   "answer": "He asks you to fetch help from Turner's Logging Camp."
+  },
+  {
+   "q": "Why is he in danger?",
+   "aliases": [
+    "why trapped",
+    "is he hurt",
+    "what happened to lumberjack"
+   ],
+   "answer": "He says he may bleed out or be eaten by wild animals if he stays trapped."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "accident",
+  "help",
+  "if a tree falls",
+  "logging camp",
+  "lumberjack",
+  "trapped",
+  "turner's logging camp"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: If a Tree Falls, and No One Hears..."
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "key": "quest:3661",
+ "type": "quest",
+ "name": "Favored of Elune?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3661
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Erelas Ambersky asks you to bring him Wildkin Feathers from the Hinterlands. He is waiting for them in Rut'theran Village.",
+ "sections": [
+  {
+   "title": "A Request from Erelas",
+   "body": "In Rut'theran Village, Erelas Ambersky is waiting for a collection of Wildkin Feathers. He asks you to gather fifteen from the Hinterlands and bring them to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the feathers?",
+   "aliases": [
+    "who wants feathers",
+    "erelas ambersky request"
+   ],
+   "answer": "Erelas Ambersky in Rut'theran Village asks you to bring him Wildkin Feathers."
+  },
+  {
+   "q": "Where do the Wildkin Feathers come from?",
+   "aliases": [
+    "where feathers",
+    "hinterlands feathers"
+   ],
+   "answer": "The Wildkin Feathers are to be collected from the Hinterlands."
+  },
+  {
+   "q": "How many feathers does Erelas need?",
+   "aliases": [
+    "how many feathers",
+    "feather count"
+   ],
+   "answer": "Erelas asks you to collect fifteen Wildkin Feathers."
+  },
+  {
+   "q": "Where should I bring the feathers?",
+   "aliases": [
+    "where to take feathers",
+    "erelas location"
+   ],
+   "answer": "Bring the Wildkin Feathers to Erelas Ambersky in Rut'theran Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "erelas ambersky",
+  "favored of elune",
+  "feathers",
+  "hinterlands",
+  "rut'theran village",
+  "wildkin feathers"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Favored of Elune?"
+ ]
+}

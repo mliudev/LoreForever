@@ -95,6 +95,108 @@ function Lang.Reworded(new, ...)
   end
 end
 
+-- Lines reworded in English, new = old: a pack with only the old wording keeps its own words for the new one until
+-- it's translated again (as Lang.Reworded, applied once at login). The short-text sweep (Mike, 11/15: settings and
+-- asks simple and concise); the A numbers are the Design Lead's list. Only pairs whose old wording a pack we don't
+-- re-translate still has (itIT, roRO, ruRU, svSE, ukUA), and only where the new line takes the same values.
+Lang.REWORDED = {
+  -- A5 (itIT roRO svSE)
+  ["Each story plays from the first narrator here that has it. Use the arrows to reorder; untick one to stop using it."]
+    = "Each story plays from the first narrator in this list that has it, and the ones below fill only what it hasn't recorded. Use the arrows to change the order; untick one to stop using it. A new voice pack goes to the bottom.",
+  -- A6 (itIT roRO svSE)
+  ["your version (%s) is %d days old. %s"]
+    = "your version (%s) came out %d days ago, and new versions come out most days, with fixes. %s",
+  -- A8 (itIT roRO svSE)
+  ["Until you install %s, shows her icon beside Journey and a chat line about her when Lore Forever has no answer. Untick to hide both."]
+    = "Until you install %s, Lore Forever's free companion app, her small glowing icon sits beside Journey, and one line in the chat says where to get her when Lore Forever has no answer, at most once a session. Untick to hide both.",
+  -- A11 (itIT roRO svSE)
+  ["A Lore button on the quest window opens the quest's story. Shift-drag it to move it."]
+    = "A Lore button on the quest giver's window opens the quest's story. It keeps clear of other add-ons' buttons; Shift-drag it to put it somewhere else. Untick to hide it: the story is still in the Lore Forever panel.",
+  -- A12 (itIT roRO ruRU svSE ukUA)
+  ["Takes a journey picture when you level up, beat a boss or reach a new zone. At most ten a day."]
+    = "Take a journey picture when you level up, defeat a boss or first reach a zone or dungeon. At most ten a day, never in combat or on a flight. Turn this off to take pictures only yourself.",
+  -- A13 (itIT roRO svSE)
+  ["One chat line when a newer Lore Forever is out, with how to update. At most once every two weeks."]
+    = "Once, in chat, when a newer Lore Forever is out (%s tells it, or this version is a few days old), with how to update, then not again for two weeks. The minimap button's tooltip says it too.",
+  -- A14 (itIT roRO ruRU svSE ukUA)
+  ["Press Ctrl+C to copy this link, then paste it into your browser and press Send. It never has your character's name."]
+    = "Press Ctrl+C to copy this link, then paste it into your browser and press Send there. It carries the text, which quest, NPC or book it's from, and your character's race, class and gender, never your character's name.",
+  -- A15 (itIT roRO ruRU svSE ukUA)
+  ["Press Ctrl+C to copy this link, then paste it into your browser to send it. It never has your character's name."]
+    = "Press Ctrl+C to copy this link, then paste it into your browser to send it, or post it on our Discord. It has your question, where you were and the answer you got, but not your character's name.",
+  -- A16 (itIT roRO svSE)
+  ["After sharing text at loreforeverwow.com/contribute, mark it as sent so the next upload carries only new lines."]
+    = "For optional quest, gossip and book text contributions only. After sharing at loreforeverwow.com/contribute, mark that text as sent so the next upload carries new lines. Your journey syncs automatically in %s and does not use this button.",
+  -- A18 (itIT roRO ruRU svSE ukUA)
+  ["Copy your journey record and paste it at loreforeverwow.com/account to make a page you can share. Private until you say so."]
+    = "Copy your journey record, then paste it at loreforeverwow.com/account: your stats, the road you took, the bosses you beat and your story, on a page you can share. It stays private until you make it public.",
+  -- A21 (itIT roRO svSE)
+  ["At a storyline's turning points, the narrator retells what you've done so far. Never during a fight."]
+    = "At a storyline's turning points (before you head in for its last fight, halfway through a long one, and when it ends), the narrator retells what you've done so far. Never during a fight.",
+  -- A22 (itIT roRO svSE)
+  ["Quest dialogue in a voice of the quest giver's race and gender. Your narrator reads any quest that voice hasn't recorded."]
+    = "Quest dialogue in a voice of the quest giver's race and gender. If a quest has a page no such voice recorded, your narrator reads that whole quest, so it never changes voice partway.",
+  -- A25 (itIT roRO svSE)
+  ["new voice: %s. It's at the bottom of your narrator list. Move it up in Options > Narration voices to hear it first."]
+    = "new voice: %s. It's at the bottom of your narrator list, so it only reads stories the voices above it haven't recorded. To hear it first, move it up in Options > Narration voices.",
+  -- A26 (itIT roRO svSE)
+  ["new voice: %s. It reads first now; stories it hasn't recorded show as text. Let the default narrator fill in under Options > Narration voices."]
+    = "new voice: %s. It reads first now. Stories it hasn't recorded show as text; to let the default narrator fill those in, or to change the order, see Options > Narration voices.",
+  -- A27 (itIT roRO svSE)
+  ["new voice: %s. Move it to the top in Options > Narration voices to hear it."]
+    = "new voice: %s. It's at the bottom of your narrator list and won't read anything until you move it to the top in Options > Narration voices.",
+  -- A28 (itIT svSE)
+  ["new voice: %s. It reads first now; the default narrator fills in the rest."]
+    = "new voice: %s. It reads first now, and the default narrator reads the stories it hasn't recorded. To change the order, see Options > Narration voices.",
+  -- A29 (itIT roRO svSE)
+  ["A short note at the top of the screen names each new page you find. Click it to open the page."]
+    = "When you find a new page of your chronicle, a short note names it at the top of the screen for a few seconds, never in combat. Click it to open the page.",
+  -- A30 (itIT roRO svSE)
+  ["Shows a narration's words at the bottom of the screen while the panel is closed. Shift-drag to move them."]
+    = "While a narration plays and the panel is closed, show its words at the bottom of the screen, in step with the voice. Shift-drag them to move them; Reset windows puts them back.",
+  -- A31 (itIT roRO ruRU svSE ukUA)
+  ["Keeps the quest and book text you see, so you can share what we're missing at loreforeverwow.com/contribute. It stays on your PC until then."]
+    = "Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it.",
+  -- A35 (itIT roRO svSE)
+  ["When you turn in a storyline quest, chat says who to see next."]
+    = "When you turn in a quest that's part of a storyline, say in chat who to see next, with links to its recap and to what's new in the story.",
+  -- A37 (itIT roRO ruRU svSE ukUA)
+  ["Press Ctrl+C to copy this link, then open it in your browser and press Send report. No sign-in needed."]
+    = "Press Ctrl+C to copy this link, then open it in your browser and press Send report. No sign-in needed. It says which narration and voice, never your character's name.",
+  -- A39 (itIT roRO ruRU svSE ukUA)
+  ["Keeps track of the places, people, foes and quests of your journey, for your journey page. It stays on your PC."]
+    = "Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC.",
+  -- A40 (itIT roRO svSE)
+  ["%s is Lore Forever's free companion app: a little wisp beside your game who answers anything about WoW: Forever, out loud."]
+    = "%s is Lore Forever's free companion app for Windows: a little wisp beside your game that answers anything you ask about WoW: Forever, out loud, knowing where you are.",
+  -- A41 (itIT roRO ruRU svSE ukUA)
+  ["A small cross on the player to tell us a narration sounds wrong. Right-clicking the player offers it too."]
+    = "A small cross on the player to tell us a narration sounds wrong: a name said wrong, the wrong voice, cut off. Right-clicking the player offers it too.",
+  -- A42 (itIT roRO svSE)
+  ["No Willo app? Copy your journey here and paste it into your Lore Forever account to build your page."]
+    = "No Willo app? Copy your journey here and paste it into your Lore Forever account to build your page. With Willo connected, your page updates by itself.",
+  -- A43 (itIT roRO svSE)
+  ["Don't replay a narration by itself once this character has heard it. You can still play it any time."]
+    = "Don't play a narration by itself again once this character has heard it. You can still play it any time; Found ticks the ones you've heard.",
+  -- A44 (itIT roRO ruRU svSE ukUA)
+  ["Tip: a second key can play the narration for where you are. Set it with /lore key narrate."]
+    = "Tip: a second key can play the narration for where you are or what you hover, handy on a controller. Set it with /lore key narrate.",
+  -- A6h (itIT roRO svSE)
+  ["Update Lore Forever in the CurseForge app, or get the newest from loreforeverwow.com."]
+    = "If the CurseForge app shows an update for Lore Forever, take it. If you installed it yourself, get the newest from loreforeverwow.com (Setup.exe updates it in place).",
+  -- The autoplay switch renamed (Mike, 11/15: it plays every new page's story, not only arrivals; itIT roRO ruRU svSE ukUA)
+  ["Play stories as you find them"] = "Play narrations as you arrive",
+  ["/lore autoplay - stories as you find them on/off"] = "/lore autoplay - narrations as you arrive on/off",
+  ["stories as you find them"] = "narrations as you arrive",
+  ["(Turn this off under Options > Play stories as you find them.)"]
+    = "(Narrations play as you arrive; Options > Play narrations as you arrive turns this off.)",
+  -- A9, A24 (itIT roRO svSE): the update hint's two forms were one
+  ["Update Lore Forever in the CurseForge app, or download it again from loreforeverwow.com."]
+    = "In the CurseForge app, click Update on Lore Forever. If you installed it yourself, download it again from loreforeverwow.com (Setup.exe updates it in place).",
+  ["Update Lore Forever in the CurseForge app, or download it from loreforeverwow.com."]
+    = "In the CurseForge app, click Update on Lore Forever. If you installed it yourself, download it again from loreforeverwow.com (Setup.exe updates it in place).",
+}
+
 local ENGLISH = { enUS = true, enGB = true }
 local ZONE_TYPES = { zone = true, city = true, dungeon = true }
 
@@ -112,8 +214,10 @@ function Lang.SetDot(reading)
 end
 
 -- A pack is apart from its language: two packs can read one language (a community pack and ours, 11/14). Which one
--- reads it: the player's pick (settings().langPacks[locale] = the pack's folder), else the one named for the language
--- alone (LoreForever_Lang_<locale>: the community pack, or the only one), else the first installed.
+-- reads it: the player's pick (settings().langPacks[locale] = the pack's folder), else the one whose name ends in the
+-- locale (LoreForever_Lang_<locale>: the community pack, or the only one), else the first installed. A pack that can't
+-- load (disabled in the AddOns list, withdrawn, a newer format) is passed over at each step, so the other one reads;
+-- with none loadable, the same order names the one whose note says why.
 local function packsOf(locale, kind)
   local out = {}
   for _, rec in ipairs(ns.Packs.List(kind or "lang")) do
@@ -126,13 +230,18 @@ local function packFor(locale, kind)
   local all = packsOf(locale, kind)
   local picks = settings().langPacks
   local pick = type(picks) == "table" and picks[locale]
-  for _, rec in ipairs(all) do
-    if pick and rec.name == pick then return rec end
+  local function choose(ok)
+    for _, rec in ipairs(all) do
+      if pick and rec.name == pick and ok(rec) then return rec end
+    end
+    for _, rec in ipairs(all) do
+      if rec.name:sub(-#locale - 1) == "_" .. locale and ok(rec) then return rec end
+    end
+    for _, rec in ipairs(all) do
+      if ok(rec) then return rec end
+    end
   end
-  for _, rec in ipairs(all) do
-    if rec.name:sub(-#locale - 1) == "_" .. locale then return rec end
-  end
-  return all[1]
+  return choose(function(rec) return rec.loadable ~= false end) or choose(function() return true end)
 end
 
 -- The language packs installed for a language, and the one that reads it (for the settings row that picks one).
@@ -195,7 +304,10 @@ end
 
 function Lang.NeedsReload()
   if ns.lang == nil then return false end
-  local now = ns.lang.pack and not ns.lang.edition and packFor(ns.lang.locale)
+  -- Another pack would read the language now (a pick changed): only when a language pack reads it, not a translator's
+  -- test pack standing in for one that can't load.
+  local cur = ns.lang.pack and not ns.lang.edition and ns.Packs.Get(ns.lang.pack)
+  local now = cur and cur.kind == "lang" and packFor(ns.lang.locale)
   return Lang.Selected() ~= ns.lang.selection or Lang.Resolve() ~= ns.lang.locale
     or ns.lang.editionUnavailable ~= nil or (now and now.name ~= ns.lang.pack) or false
 end
@@ -799,8 +911,16 @@ local function init(lang)
       return nil
     end
     local w, reason = Packs.Load(rec.name)
-    if not w then
+    -- A pack that looked loadable but fails: the language's other pack, if it has one that may load (each failure
+    -- marks one pack, so this ends).
+    while not w do
       rec.loadable, rec.reason = false, reason
+      local other = packFor(locale)
+      if not other or other.loadable == false then break end
+      rec = other
+      w, reason = Packs.Load(rec.name)
+    end
+    if not w then
       if not quiet or locale == want then
         note(L["The %s language pack can't load (%s); using English."], rec.languageName or locale, Lang.Reason(reason))
       end
@@ -836,6 +956,9 @@ local function init(lang)
   for k, v in pairs((tw and tw.ui) or {}) do rawset(L, k, Lang.Keys(Lang.Dotted(v))) end
   for k, v in pairs((ow and ow.ui) or {}) do
     if type(v) == "string" and v ~= "" then rawset(L, k, Lang.Keys(Lang.Dotted(v))) end
+  end
+  for new, old in pairs(Lang.REWORDED) do
+    if rawget(L, new) == nil and rawget(L, old) ~= nil then rawset(L, new, rawget(L, old)) end
   end
   local merged, touched = {}, {}
   lang.merging = touched   -- every entry the merge has changed so far, should it fail partway (Lang.Init)

@@ -62,7 +62,7 @@ P.transport["quest:1013"] = {
   fullHash = "d9c2e9",
   text = "The Book of Ur. Keeper Bel'dugur sends Horde champions into Shadowfang Keep to find Ur's book. In the Undercity's Apothecarium, he seeks the work of Ur, a dead mage of Dalaran, for the Forsaken to use its research into other planes. Before the Third War destroyed Dalaran, the brilliant human wizard Ur devoted his scholarship to realms beyond Azeroth. The Kirin Tor governed conjuration and contact with outer planes closely, but Ur studied beings from other dimensions, including the savage worgen. He hesitated to wield their alien powers, judging them dangerously uncontrollable. So his written work became a prize for those with fewer scruples. Archmage Arugal took Ur's treatise and used its research before settling in Shadowfang Keep. Without Ur's reservations, Arugal summoned bloodthirsty worgen into Silverpine. Their curse consumed Pyrewood and the surrounding valleys. Now the volume lies neglected in the keep's towers, watched by Arugal's feral pets.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1013-159cdaee9440eb3e4ee2/1-0000.mp3", duration = 61.1526531, start = 0},
+    {file = "Audio/Transport/full_quest_1013-80e70dc279e03c10870b/1-0000.mp3", duration = 79.0465306, start = 0},
   },
 }
 P.transport["quest:1014"] = {
@@ -958,7 +958,7 @@ P.transport["quest:1177"] = {
   fullHash = "e578dd",
   text = "Hungry!. Mudcrush Durtfeet is hungry in northern Dustwallow Marsh and wants food from you. Bash the fishy Mirefin and bring back their heads, or Mud will eat you. Mudcrush Durtfeet, an ogre called Mud, makes a plain bargain. Bash the fishy Mirefin and bring him their heads for food. Feed Mud, or he will eat you.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1177-128c59e10914e4897988/1-0000.mp3", duration = 21.4465306, start = 0},
+    {file = "Audio/Transport/full_quest_1177-bf80ac5bfdda6cb61453/1-0000.mp3", duration = 27.6114286, start = 0},
   },
 }
 P.transport["quest:1178"] = {
@@ -2006,7 +2006,7 @@ P.transport["quest:1522"] = {
   fullHash = "16ab73",
   text = "Call of Fire. A shaman sees your strength in earth and sends you north to Kranal Fiss. There, you can learn the ways of fire. Kranal Fiss lives north of the Crossroads. The shaman says he is easy to find, but warns you not to go too far, lest you reach the elves' lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1522-49f79c7bc60145184659/1-0000.mp3", duration = 16.7183673, start = 0},
+    {file = "Audio/Transport/full_quest_1522-c9a6df0692393011c76f/1-0000.mp3", duration = 21.995102, start = 0},
   },
 }
 P.transport["quest:1529"] = {
@@ -2414,7 +2414,7 @@ P.transport["quest:1714"] = {
   fullHash = "1136c4",
   text = "Essence of the Exile. At the cauldron, Essence of the Exile draws travelers with its beckoning vapors. Charms set off a violent reaction that reveals molten rock. A bubbling cauldron sends out vapors that draw travelers to its churning depths. Specific enchanted charms stir an intense reaction within the vessel. The charms sink slowly through the liquid. Then a large bubble rises and bursts, revealing a churning lump of molten rock forged from the combined materials.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1714-28cfdaeea9f4cd8b18f5/1-0000.mp3", duration = 30.0930612, start = 0},
+    {file = "Audio/Transport/full_quest_1714-581d004c01c111539f1b/1-0000.mp3", duration = 40.6726531, start = 0},
   },
 }
 P.transport["quest:1716"] = {
@@ -2710,7 +2710,7 @@ P.transport["quest:1806"] = {
   fullHash = "5c690b",
   text = "The Test of Righteousness. At Jordan Stilwell’s forge outside Ironforge, you bring the materials for a paladin’s warhammer. Gathered across the Eastern Kingdoms and Kalimdor, they help turn an apprentice into a recognized champion of the Light. Jordan Stilwell works at his forge outside Ironforge’s gates. He envies paladins who wander the land, yet takes pride in serving their cause. You bring him rare materials gathered from shadowy crypts, sunken ruins, and dangerous mines. With them, the master smith keeps his promise and forges a weapon worthy of a true defender. Jordan Stilwell names the finished warhammer Verigan's Fist, for Bosch Verigan, an honored dwarven paladin and his dear friend. On behalf of himself and his wife, he places the sacred weapon in a young champion's hands. Through it, his fallen friend's memory and valor endure against the darkness threatening Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1806-405f1d1a6da8ce90c9f4/1-0000.mp3", duration = 80.3526531, start = 0},
+    {file = "Audio/Transport/full_quest_1806-ba78f9fb44f8948498a5/1-0000.mp3", duration = 73.3257143, start = 0},
   },
 }
 P.transport["quest:181"] = {
@@ -2910,7 +2910,7 @@ P.transport["quest:1939"] = {
   fullHash = "622624",
   text = "High Sorcerer Andromath. At Stormwind’s Wizard’s Sanctum, promising Alliance mages are summoned to the tower’s summit. Andromath works among the kingdom’s foremost archmages beyond ruined Dalaran. Jennea Cannon, the apprentice coordinator in Stormwind’s Mage Quarter, sends promising casters to the summit of the Wizard’s Sanctum. High Sorcerer Andromath, one of the southern kingdoms’ most senior active practitioners of the arcane, has asked to meet magi ready for greater responsibilities. Dalaran’s magocracy was ruined in the Third War, and its surviving wizards are busy rebuilding. Without easy access to the Violet Citadel’s libraries, the Alliance relies on senior archmages in Stormwind to study ancient threats and guide research into shadowy, forbidden arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1939-cc352a097dc476836ae0/1-0000.mp3", duration = 46.2889796, start = 0},
+    {file = "Audio/Transport/full_quest_1939-06b36751af90a38930db/1-0000.mp3", duration = 66.4816327, start = 0},
   },
 }
 P.transport["quest:194"] = {
@@ -3006,7 +3006,7 @@ P.transport["quest:1999"] = {
   fullHash = "3911c0",
   text = "Tools of the Trade. In the Undercity, Horde rogues are sent to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and learn Dalaran’s condition from Kirin Tor intelligence. A prisoner’s interrogation leads the Deathstalkers to intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Mennet Carkad, a Deathstalker handler, to guide promising operatives past the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives collect specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill shows an operative can move beyond street brutality and serve the Forsaken as an espionage asset.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1999-122bfe4f0fa30b8aeef2/1-0000.mp3", duration = 55.4579592, start = 0},
+    {file = "Audio/Transport/full_quest_1999-65782f96acb35dfefa79/1-0000.mp3", duration = 72.5681633, start = 0},
   },
 }
 P.transport["quest:2"] = {
@@ -3230,7 +3230,7 @@ P.transport["quest:2383"] = {
   fullHash = "224cec",
   text = "Simple Parchment. A message waits for you in the Valley of Trials, sent while you were away. Frang, your class trainer, is outside the Den. The parchment asks you to read its words and speak with Frang. Your class trainer waits outside the Den in the Valley of Trials.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2383-0470e92b2e6a8335cf1a/1-0000.mp3", duration = 16.5616327, start = 0},
+    {file = "Audio/Transport/full_quest_2383-3abfab1ba84f8931b627/1-0000.mp3", duration = 21.8122449, start = 0},
   },
 }
 P.transport["quest:24"] = {
@@ -4406,7 +4406,7 @@ P.transport["quest:480"] = {
   fullHash = "73a340",
   text = "The Weaver. In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron. After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_480-95f8a259aa3feaef8708/1-0000.mp3", duration = 35.3436735, start = 0},
+    {file = "Audio/Transport/full_quest_480-8662085d9190f1455778/1-0000.mp3", duration = 45.6620408, start = 0},
   },
 }
 P.transport["quest:4821"] = {
@@ -4726,7 +4726,7 @@ P.transport["quest:516"] = {
   fullHash = "0e0d5c",
   text = "Beren's Peril. In southern Silverpine Forest, Shadow Priest Allister moves against Scourge gathering in a hidden cave. The Forsaken hope to strike before the undead begin their offensive. Shadow Priest Allister has heard that servants of the Lich King gather deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. So Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize. South of Ambermill, the Dalaran-aligned settlement, a hidden cave cuts into the hills. Its rough slopes make the cavern easy to miss, and the approach runs around the hills’ southern face. Ravenclaw drudgers and guardians dwell within. Destroying these Scourge remnants helps the Forsaken hold their ground in the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_516-62f4be3f5af25ea7a7c5/1-0000.mp3", duration = 49.397551, start = 0},
+    {file = "Audio/Transport/full_quest_516-6fd4b06860526a2e4636/1-0000.mp3", duration = 64.7836735, start = 0},
   },
 }
 P.transport["quest:517"] = {
@@ -4910,7 +4910,7 @@ P.transport["quest:544"] = {
   fullHash = "9b41a8",
   text = "Prison Break In. Magus Wordeen Voidglare faces a crisis in Tarren Mill while pursuing his research. Four Forsaken fled the Undercity months ago with artifacts stolen from a secure vault, and Sylvanas wants them returned. Magus Wordeen Voidglare came to Tarren Mill to research. Now a crisis calls for his attention. Four Forsaken turned from their brethren and stole from the Dark Lady. They broke into a secure vault and took four artifacts the apothecaries need for certain studies. Sylvanas wants them returned. The thieves fled the Undercity for Dalaran. Its wizards placed them in quarantine at the Lordamere Internment Camp. You are sent to find the traitors, recover the artifacts and report to Voidglare in Tarren Mill. There are four: a Bloodstone Wedge, Marble, Shard and Oval. Dermot holds the wedge, Ricter the marble, Alina the shard and Kegan Darkmar the oval.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_544-a5cdee0629c9bee93dad/1-0000.mp3", duration = 56.9208163, start = 0},
+    {file = "Audio/Transport/full_quest_544-ea0cd08e58577ecbc518/1-0000.mp3", duration = 73.7436735, start = 0},
   },
 }
 P.transport["quest:545"] = {
@@ -4918,7 +4918,7 @@ P.transport["quest:545"] = {
   fullHash = "3b6cf3",
   text = "Dalaran Patrols. In Tarren Mill, Magus Wordeen Voidglare turns his gaze toward Dalaran’s outskirts. Beyond the great dome, ruined streets may hold treasures of magical worth, but wizards and their elemental slaves patrol them. Voidglare wants those patrols thinned. After Prison Break In, Voidglare turns his attention to Dalaran’s wizards. They raised a great dome of magic over the heart of their city. Some say it shields them from the violence of the age. Others say they sought solitude to study and plot. Voidglare cares nothing for their reason.\n\nBeyond the dome, the ruined outskirts may hold treasures of real magical worth. Yet wizards and their elemental slaves patrol those streets. You are sent to hunt six Dalaran Summoners and twelve Elemental Slaves, then return to Voidglare in Tarren Mill.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_545-59300526793384b5c75a/1-0000.mp3", duration = 51.7746939, start = 0},
+    {file = "Audio/Transport/full_quest_545-5a315b890bbdf354ff2e/1-0000.mp3", duration = 69.1722449, start = 0},
   },
 }
 P.transport["quest:546"] = {
@@ -4990,7 +4990,7 @@ P.transport["quest:555"] = {
   fullHash = "78e159",
   text = "Soothing Turtle Bisque. Chef Jessen wants Soothing Turtle Bisque back on Southshore's tavern menu. Unrest has cut off his snapjaw turtle meat, so he asks cooks to brave the northern waters near Dalaran and Lake Lordamere. Southshore is one of Lordaeron's last intact coastal towns held by the Alliance. Civilian life continues there amid growing strife. Chef Jessen says his cooking rivals any tavern north of Stormwind. Patrons supposedly come from Darkshire in Duskwood to taste his bisque. The rich soup calls for fresh meat from snapjaw turtles native to the rivers and lakes of the northern mountains. In calmer years, Jessen gathered turtle meat himself. He traveled past Dalaran to the eastern shore of Lordamere Lake. Now rising tensions, hostile wildlife, the Syndicate, and Forsaken incursions make the lands beyond town deadly for ordinary townsfolk. To keep the bisque on his menu, Jessen relies on armed travelers to gather meat from snapjaws along the riverbanks and northern shores.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_555-a101156d54b1cf4a5872/1-0000.mp3", duration = 63.0595918, start = 0},
+    {file = "Audio/Transport/full_quest_555-6f60d37596d80af0dee5/1-0000.mp3", duration = 82.4685714, start = 0},
   },
 }
 P.transport["quest:556"] = {
@@ -4998,7 +4998,7 @@ P.transport["quest:556"] = {
   fullHash = "742b2c",
   text = "Stone Tokens. At Tarren Mill, Keeper Bel'varil sends you to recover Stone Tokens from Dalaran agents in Alterac. The Forsaken seek to learn how Dalaran's mages bind and command elementals. Magus Voidglare studies those arcane methods for them. Dalaran's magi have long commanded elemental beings with specialized conduits and enchanted foci. They bind creatures from other dimensions and force them into servitude.\n\nThough the city is still rebuilding, its agents and remnant forces patrol the surrounding territory. They use elementals as laborers and defensive shock troops. Magus Voidglare, an arcane researcher in Tarren Mill, works for the Forsaken and seeks to uncover the sorcery that compels these beings to obey.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_556-0f311fdfb507cfef1185/1-0000.mp3", duration = 47.1510204, start = 0},
+    {file = "Audio/Transport/full_quest_556-83b0a95cc8971e18434c/1-0000.mp3", duration = 61.675102, start = 0},
   },
 }
 P.transport["quest:5561"] = {
@@ -5014,7 +5014,7 @@ P.transport["quest:557"] = {
   fullHash = "65aebf",
   text = "Bracers of Binding. In Tarren Mill, Keeper Bel'varil watches for what the Magus may need next. As the Magus studies the stone tokens you gathered, Bel'varil sends you to the ruins of Dalaran for four Bracers of Earth Binding. The Magus studies the stone tokens you gathered, and Keeper Bel'varil expects another need to follow. Bracers of binding are worn on an elemental's wrists, binding the creature to a mage's service. The elementals wear them among the ruins of Dalaran. Bel'varil asks you to bring four Bracers of Earth Binding back to Tarren Mill.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_557-cbcec9a3a3b39ceb5c46/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_quest_557-459a02c5bafb4031bc46/1-0000.mp3", duration = 46.8636735, start = 0},
   },
 }
 P.transport["quest:5581"] = {
@@ -5350,7 +5350,7 @@ P.transport["quest:601"] = {
   fullHash = "73a00a",
   text = "Water Elementals. On the island off the coast, Water Elementals may offer a clue to the Stone of the Tides' curse. Baron Revilgaz wants their bracers examined for a way to counter it. Baron Revilgaz suspects the Water Elementals' magical residue may help fight the Stone of the Tides' curse. The stone is said to make anyone who wields it drift in and out of reality. So he sends you back to the island off the coast to gather bracers for the scholarly mages of Dalaran to examine. Baron Revilgaz admits he lacks the skill to judge whether the bracers can help. He refuses to leave Booty Bay just to speak with tiresome old mages. So he sends you north to have a mage examine them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_601-a15801a31b4fdd93bccf/1-0000.mp3", duration = 41.0383673, start = 0},
+    {file = "Audio/Transport/full_quest_601-900464d2de83d301d043/1-0000.mp3", duration = 57.8873469, start = 0},
   },
 }
 P.transport["quest:602"] = {
@@ -5358,7 +5358,7 @@ P.transport["quest:602"] = {
   fullHash = "9bc467",
   text = "Magical Analysis. From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides. Baron Revilgaz has the bracers in Booty Bay, but their secret lies beyond his reach. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_602-efb6229f7b91bef32608/1-0000.mp3", duration = 37.5379592, start = 0},
+    {file = "Audio/Transport/full_quest_602-753227ba0442c39ab8fd/1-0000.mp3", duration = 49.6065306, start = 0},
   },
 }
 P.transport["quest:6027"] = {
@@ -6422,7 +6422,7 @@ P.transport["quest:79091"] = {
   fullHash = "d6771d",
   text = "Archmage Antonidas: The Unabridged Autobiography. In Ironforge, you seek Archmage Antonidas: The Unabridged Autobiography. The rare volume holds the late Kirin Tor leader's own account and offers insight into Dalaran's history and high arcane scholarship. Archmage Antonidas led the Kirin Tor for decades and ruled Dalaran. One of Azeroth's most brilliant minds, he rose through the ranks of the Violet Citadel and mastered the arcane. His unabridged autobiography records his leadership during the Second and Third Wars. For scholars and practitioners of magic, it offers a firsthand view of Dalaran's inner workings and the arcane arts. Before reaching its new home, the rare manuscript rested in Ironforge's grand library. In the Hall of Explorers, dwarven archivists kept it beside ancient titan relics and dwarven histories. Their vast collections hold texts gathered from ruins and foreign kingdoms across Azeroth. Yet arcane scholars elsewhere seek such works for their own collections, sure the busy archivists will never notice one missing volume.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_79091-fa3b9625c35df11a6af6/1-0000.mp3", duration = 65.6457143, start = 0},
+    {file = "Audio/Transport/full_quest_79091-806062c984a304eec354/1-0000.mp3", duration = 93.3355102, start = 0},
   },
 }
 P.transport["quest:79092"] = {
@@ -7166,7 +7166,7 @@ P.transport["quest:92432"] = {
   fullHash = "b51abc",
   text = "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Jacques was sent by Archmage Modera to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92432-4d28f0f6180e79ba96aa/1-0000.mp3", duration = 46.3673469, start = 0},
+    {file = "Audio/Transport/full_quest_92432-edff8383baff3e2581d3/1-0000.mp3", duration = 60.682449, start = 0},
   },
 }
 P.transport["quest:92434"] = {
@@ -7174,7 +7174,7 @@ P.transport["quest:92434"] = {
   fullHash = "569c34",
   text = "Blood in the Streets. Turmoil grips Dalaran after its barrier comes down. Once the patrols are dealt with, Magus Wordeen Voidglare sees a chance for the Horde to enter and learn the mages' secrets. You carry a key from the internment camp to the sewers on the city's northern edge. With the patrols dealt with, Magus Wordeen Voidglare says turmoil grips Dalaran since its barrier came down. He urges the Horde to enter and learn the mages' secrets while they can. You carry the key from the internment camp to the sewers on Dalaran's northern edge, by Lordamere Lake. Perhaps the mages left that disagreeable entrance unwarded.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92434-009206136ddd9f19a028/1-0000.mp3", duration = 38.1126531, start = 0},
+    {file = "Audio/Transport/full_quest_92434-3e58a6ef95634e8ac0e5/1-0000.mp3", duration = 51.9314286, start = 0},
   },
 }
 P.transport["quest:92456"] = {
@@ -7182,7 +7182,7 @@ P.transport["quest:92456"] = {
   fullHash = "d7c6e2",
   text = "A Green Sample. In Stormwind City, Shylamiir seeks a living plant from Dalaran’s guarded garden. The cutting is wanted for study of mana-fed growth, but it brings back a darker surprise. Shylamiir in Stormwind City seeks a traveler willing to enter restricted lands. The Kirin Tor’s interest in botany has caught Shylamiir’s attention, and a living plant from Dalaran’s central garden is wanted for study. The secluded sorcerers keep their borders closed to outsiders. Reaching the garden calls for someone able to slip past their defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92456-ad7dbd0ea90757b68db4/1-0000.mp3", duration = 33.7763265, start = 0},
+    {file = "Audio/Transport/full_quest_92456-43b386713a06f0244ea2/1-0000.mp3", duration = 45.6097959, start = 0},
   },
 }
 P.transport["quest:92457"] = {
@@ -7190,7 +7190,7 @@ P.transport["quest:92457"] = {
   fullHash = "61322e",
   text = "Starving Arcane. Archmage Modera asks you to clear rogue elementals from the City of Dalaran. A breach has unsettled the city's enchantments and defenses, and the Kirin Tor needs room to tend its wards. The breach has disturbed factotums and enchantments across Dalaran. Some of those enchantments protect the city's defenses. Fragmented arcane energy has drawn Seeking Remnants, Saturated Remnants, and Mana Echoes. They gather to fill themselves with its free-flowing magic. Archmage Modera asks you to thin their numbers while the Kirin Tor tends the wards and other incidents.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92457-22c52a565c3b11784548/1-0000.mp3", duration = 35.7355102, start = 0},
+    {file = "Audio/Transport/full_quest_92457-a24d3e5c56cb0c452080/1-0000.mp3", duration = 48.3004082, start = 0},
   },
 }
 P.transport["quest:92458"] = {
@@ -7198,7 +7198,7 @@ P.transport["quest:92458"] = {
   fullHash = "419efe",
   text = "Heart of Disruption. The Image of Archmage Modera needs help containing an arcane disruption in Dalaran. The Violet Citadel’s wards are under strain, and the Kirin Tor need time to bring the crisis under control. At the top of the Violet Citadel, a thunderous crash sounded from the parlors. The disturbance began there, and rampant arcane power now threatens the wards. The Kirin Tor are occupied inside, so you receive a key and are asked to find a less public way into the city before the disruption worsens. Modera asks you to collect an Arcane Mote. She does not ask what you saw in the citadel. Her concern is containing the mote and ending the disruption. The Kirin Tor must now take up that work while the wards hold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92458-651aee40f0df22472976/1-0000.mp3", duration = 45.6620408, start = 0},
+    {file = "Audio/Transport/full_quest_92458-bc2bad44f51d25e22a8b/1-0000.mp3", duration = 60.7346939, start = 0},
   },
 }
 P.transport["quest:92459"] = {
@@ -7206,7 +7206,7 @@ P.transport["quest:92459"] = {
   fullHash = "000e73",
   text = "Friend of the Kirin Tor. In Dalaran, Modera sends you to carry word that the city is calming and its wards may come down. The Image of Archmage Modera says the council may dislike the subterfuge, but the results are plain. Dalaran is calming, and its wards may now be lowered. She sends you with this good word to Archmage Celindra in the Violet Citadel. For the journey, she gives you an arcane mote.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92459-9174682c1ff4e87b5e58/1-0000.mp3", duration = 25.7306122, start = 0},
+    {file = "Audio/Transport/full_quest_92459-3032573e310d024b9ad9/1-0000.mp3", duration = 35.317551, start = 0},
   },
 }
 P.transport["quest:92466"] = {
@@ -7246,7 +7246,7 @@ P.transport["quest:92489"] = {
   fullHash = "26c1b8",
   text = "Power Overwhelming. High Sorcerer Andromath sends aid from Stormwind to Dalaran, where arcane power has turned dangerous. The Kirin Tor rebuild behind closed borders, and a Mana Elemental threatens their work. After Archimonde destroyed Dalaran in the Third War, the Kirin Tor drew inward. Scholars and sorcerers once came from across the world to its doors. Now the surviving magi keep outsiders away as they rebuild their ruined city behind closed borders. As the Kirin Tor restore Dalaran, arcane energy has grown dangerous. Volatile leaks surge out of control and take shape as beings of pure mana. High Sorcerer Andromath fears internal turmoil could undo the city’s recovery, or that Dalaran could abandon its old ties to the Alliance. So he sends champions from Stormwind to quell the Mana Elemental and remind the Kirin Tor that their allies still stand with them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92489-fbf6657fe0522ee8e085/1-0000.mp3", duration = 57.835102, start = 0},
+    {file = "Audio/Transport/full_quest_92489-ebb28b59e933ee9b0b22/1-0000.mp3", duration = 75.6244898, start = 0},
   },
 }
 P.transport["quest:92514"] = {
@@ -7638,7 +7638,7 @@ P.transport["quest:93089"] = {
   fullHash = "714db2",
   text = "What Comes Next. On Zephras Isle, the High Order seeks your blessing before departing with its Kirin Tor allies. Their expedition depends on finding an arcane answer to the island’s instability. High Elder Shadowsong has blessed the expedition, and its preparations are ready. Ansirem has worked to establish skycutter travel between Dalaran and Zephras Isle. Now the vanguard is preparing to depart. Speak with Elaadrin Evengale when you are ready to leave the island.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93089-c917ae25ecaf0e8906af/1-0000.mp3", duration = 30.3804082, start = 0},
+    {file = "Audio/Transport/full_quest_93089-399b36fb9e342cea1191/1-0000.mp3", duration = 40.0457143, start = 0},
   },
 }
 P.transport["quest:93090"] = {
@@ -7678,7 +7678,7 @@ P.transport["quest:93172"] = {
   fullHash = "2a214d",
   text = "Free the Hollows. In Shadowgale Forest, the wind hollows’ sorrowful song carries through ancient ruins. An old tragedy binds these ghost-like spirits, and travelers seek to give them peace. Elves across the island have long feared Shadowgale Forest as a haunted grove. In its northeastern woods, old stone ruins lie beneath the overgrowth. Ghost-like wind hollows drift there without rest, but they show no malice. Their sorrow points to a disaster that befell the ruins ages ago. On quiet nights, travelers near the ruins hear strange singing on the breeze. No mortal song sounds like it, and its deep melancholy unsettles those who hear it. Compassionate travelers believe the shades suffer in their endless lament. They seek the wind hollows to break their spectral bonds and grant them peace.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93172-8db46d03582a2ca51a6f/1-0000.mp3", duration = 51.0693878, start = 0},
+    {file = "Audio/Transport/full_quest_93172-44db28aae082a04e7b3d/1-0000.mp3", duration = 63.6342857, start = 0},
   },
 }
 P.transport["quest:93317"] = {
@@ -7726,7 +7726,7 @@ P.transport["quest:93680"] = {
   fullHash = "bb9d2c",
   text = "Key to the City. Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep. In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93680-11ebb4cb8a6ac1461885/1-0000.mp3", duration = 40.6987755, start = 0},
+    {file = "Audio/Transport/full_quest_93680-d6f08b99b5a7466b1bf7/1-0000.mp3", duration = 54.3608163, start = 0},
   },
 }
 P.transport["quest:93735"] = {
@@ -8318,7 +8318,7 @@ P.transport["quest:94946"] = {
   fullHash = "e6eaf8",
   text = "The Magical City of Dalaran. A mage in Valanaar sends you from Zephras Isle to Dalaran City, where several mages await your people's arrival. The city offers a place to begin exploring Azeroth, but the lands beyond can be dangerous without preparation and experience. Recent events with the cult keep the speaker in Valanaar for now. Several mages wait in Dalaran for your people, so you are sent to the dock outside the lodge. There, you board a skycutter bound for Dalaran City.\n\nWhen you arrive, speak with Danaaris Stargale. Your people are still making their home in the city, and the country beyond its safety can prove dangerous.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94946-e5441c4c9575e150d580/1-0000.mp3", duration = 40.1240816, start = 0},
+    {file = "Audio/Transport/full_quest_94946-6243f77b217d68cb277d/1-0000.mp3", duration = 53.8906122, start = 0},
   },
 }
 P.transport["quest:94947"] = {
@@ -8670,7 +8670,7 @@ P.transport["quest:95981"] = {
   fullHash = "2b795f",
   text = "Watching the Roads. Shadow Priest Allister sends the Forsaken against Kirin Tor patrols near Ambermill. With Dalaran's barrier down, their wizards and watchers guard the roads into Silverpine Forest while carrying magical goods into Forsaken lands. Near Ambermill, Kirin Tor wizards and sentries watch the roads into Silverpine Forest. Since the barrier around Dalaran fell, they have tightened their hold on travel across the border. From the Sepulcher, the Forsaken see the human magi using these roads to carry dangerous relics and enchanted pendants into contested lands. Shadow Priest Allister wants to stop the flow of Dalaran's magical goods at its source. He sends agents after the Kirin Tor escorts on the roads near Ambermill. By striking Dalaran Wizards and Dalaran Watchers, the Forsaken aim to break the Kirin Tor's hold on regional travel and guard their eastern frontier from outside arcane meddling.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95981-e2d5b159d40dc1c1cb7c/1-0000.mp3", duration = 56.5289796, start = 0},
+    {file = "Audio/Transport/full_quest_95981-6dbbb9bc6779fdbd5cb6/1-0000.mp3", duration = 76.3036735, start = 0},
   },
 }
 P.transport["quest:95998"] = {
@@ -8998,7 +8998,7 @@ P.transport["quest:96986"] = {
   fullHash = "447d2b",
   text = "The Grave Knight. In Tarren Mill, Melisara sends you after Atrexis, who raises the dead beneath Dalaran. She sees his work as an affront to the Forsaken. Melisara calls Atrexis a traitor to the Forsaken. Beneath Dalaran, he raises an undead army. She asks you to defeat him, though she cares little for the mage city's fate. No one is beyond the Dark Lady's reach.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96986-97ae4aca3229655d98dd/1-0000.mp3", duration = 25.7044898, start = 0},
+    {file = "Audio/Transport/full_quest_96986-10531d22a57f2546b7a8/1-0000.mp3", duration = 32.1828571, start = 0},
   },
 }
 P.transport["quest:96988"] = {
@@ -9006,7 +9006,7 @@ P.transport["quest:96988"] = {
   fullHash = "7bb378",
   text = "Source of Power. In Dalaran, rogue constructs have turned on their makers, and Doctor Martin Felben sees a chance for the Forsaken. He wants their arcane cores for his work in Undercity and hopes to catch the Dark Lady’s eye. Dalaran’s rogue arcane constructs are laying siege to the magi, and the Forsaken are eager to exploit the city’s turmoil. Doctor Martin Felben, an apothecary in Undercity, seeks to scavenge the cores that power the sentries rather than aid the besieged sorcerers. Dalaran has long guarded its magical research, but its vulnerable sentries now offer an opening to opportunistic researchers. Doctor Felben wants the cracked sentry cores to advance his standing within the Royal Apothecary Society. He hopes to infuse Forsaken abominations with volatile Dalaran construct magic and raise a devastating army of arcane-powered flesh beasts. Such a breakthrough, he believes, would win Lady Sylvanas Windrunner’s undivided attention and show his alchemical genius. He hopes to rise in the Society, where ruthless cunning and potent results dictate survival and rank.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96988-9d2ecbbe3b214bdabe6f/1-0000.mp3", duration = 68.4408163, start = 0},
+    {file = "Audio/Transport/full_quest_96988-dffaac8e197efb4b3232/1-0000.mp3", duration = 88.1371429, start = 0},
   },
 }
 P.transport["quest:97"] = {
@@ -9238,7 +9238,7 @@ P.transport["quest:97287"] = {
   fullHash = "52b78b",
   text = "Shrewd Negotiations. After your infiltration of the mages' city, Magus Wordeen Voidglare sends you to Dalaran. Carry the arcane mote to Archmage Celindra; Wordeen believes the Kirin Tor will give anything to recover it. Magus Wordeen Voidglare says no order on Azeroth matches the Kirin Tor in arcane knowledge. Even his brilliant work pales beside their ancient wisdom. He believes the Horde should gain access to their exclusive order. So he sends you to Archmage Celindra in Dalaran with the mote you acquired. Wordeen believes the Kirin Tor will give anything to get it back.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97287-0bb4ee793183a4226bd1/1-0000.mp3", duration = 35.2653061, start = 0},
+    {file = "Audio/Transport/full_quest_97287-2ac57e4c086d0e72db11/1-0000.mp3", duration = 51.7746939, start = 0},
   },
 }
 P.transport["quest:97288"] = {
@@ -9566,7 +9566,7 @@ P.transport["quest:97953"] = {
   fullHash = "c51bf3",
   text = "Camping 101: Enchanting. At Brill, Vance Undergloom teaches enchanters to make an Enchanted Lute for camp. First, show proficiency in your skill. At a camp in the wilds, enchanters can learn to make an Enchanted Lute. Bring it along to lend some entertainment to your time away from the trail.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97953-17b14aac46f2e2758813/1-0000.mp3", duration = 18.1028571, start = 0},
+    {file = "Audio/Transport/full_quest_97953-6fbc6046a29b28f9a7d8/1-0000.mp3", duration = 26.1485714, start = 0},
   },
 }
 P.transport["quest:97955"] = {
@@ -9614,7 +9614,7 @@ P.transport["quest:97968"] = {
   fullHash = "a77d6e",
   text = "Camping 101: Herbalism. At camps along the trail, Camping 101: Herbalism points gatherers toward instructors who teach them to make Incense Candles. Herbalists use gathered plants to bring comfort to spellcasters and healers on long journeys. Travelers can put roots and petals to use beyond selling fresh stems or brewing draughts. Gatherers meet instructors who teach them to make Incense Candles from wild aromatic plants. These candles support companions on the trail. Long journeys through hostile country wear down healers and spellcasters. At an active campsite, an Incense Candle gives off a soothing, revitalizing scent that lifts their spirits and helps them recover clarity and strength before danger calls again. Those who wield magic or tend the wounded value that comfort most.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97968-446889108e8a65816b96/1-0000.mp3", duration = 49.8677551, start = 0},
+    {file = "Audio/Transport/full_quest_97968-002130353717bb81b879/1-0000.mp3", duration = 63.6865306, start = 0},
   },
 }
 P.transport["quest:97969"] = {
@@ -9998,7 +9998,7 @@ P.transport["quest:98372"] = {
   fullHash = "4b884a",
   text = "An Unfortunate End. In Duskwood, a Night Watchman lies dead in the gloom. A beast mauled him, and the unlit brand in his hand may help you see what the darkness hides. A Night Watch patrolman lies dead on Duskwood's dark soil. Deep gashes and cuts mark his body. A great beast caught him before he could escape. An unlit torch remains in the fallen guard's rigid hand. Take it, and its light can reveal what hides in Duskwood's gloom and along other dark paths.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98372-2d9014d41d2315c0f7d2/1-0000.mp3", duration = 29.9363265, start = 0},
+    {file = "Audio/Transport/full_quest_98372-02f1294e1a108a3d87a8/1-0000.mp3", duration = 40.6726531, start = 0},
   },
 }
 P.transport["quest:98387"] = {

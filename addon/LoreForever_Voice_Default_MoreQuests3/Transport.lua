@@ -86,7 +86,7 @@ P.transport["quest:1166"] = {
   fullHash = "1260ef",
   text = "Overlord Mok'Morokk's Concern. Overlord Mok'Morokk sends you south from Brackenwall Village to recover what he left at the Stonemaul clan's old home. He wants his grog, snuff and strongbox back. Mok'Morokk says Rexxar made him the mighty leader of the Stonemaul clan. He says he keeps his people safe. When big dragons came to the clan's old home and brought fire, he found them a new home here in Dustwallow. Mok'Morokk left the old home in such a hurry that he forgot his grog, snuff and strongbox. He points you south to the Den of Flame and the Stonemaul Ruins, certain his things are there. He says he is too busy leading the ogres to go himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1166-f569dfbb8eae0eb5125b/1-0000.mp3", duration = 36.9632653, start = 0},
+    {file = "Audio/Transport/full_quest_1166-bc9efdd733bd5aaa9a05/1-0000.mp3", duration = 54.0212245, start = 0},
   },
 }
 P.transport["quest:1168"] = {
@@ -110,7 +110,7 @@ P.transport["quest:1170"] = {
   fullHash = "c04f53",
   text = "The Brood of Onyxia. Draz'Zilb fears Onyxia's brood has come for more than a siege against a few ogres. Draz'Zilb reports that Onyxia's brood has invaded Stonemaul Village. Onyxia is Deathwing's daughter, and her arrival troubles him. He is certain the brood seeks more than a siege against a few ogres. So you carry word to Overlord Mok'Morokk in Brackenwall Village, where he can take action.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1170-a6937e95023d7ebd2e13/1-0000.mp3", duration = 24.2155102, start = 0},
+    {file = "Audio/Transport/full_quest_1170-801fd70da1c4dde2840a/1-0000.mp3", duration = 34.2987755, start = 0},
   },
 }
 P.transport["quest:1171"] = {
@@ -118,7 +118,7 @@ P.transport["quest:1171"] = {
   fullHash = "270d40",
   text = "The Brood of Onyxia. At Brackenwall Village, The Brood of Onyxia meets Overlord Mok'Morokk's denial. He says no black dragons are here and sends you back to Draz'Zilb with word that the ogres will stay. Overlord Mok'Morokk wants to be left alone after Draz'Zilb reports the brood of Onyxia. He says the ogres will stay where they are and denies that any black dragon is here. Carry his answer to Draz'Zilb in Brackenwall Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1171-129062cf0ff5968d9188/1-0000.mp3", duration = 25.9395918, start = 0},
+    {file = "Audio/Transport/full_quest_1171-81134d60536af4f13d33/1-0000.mp3", duration = 40.8293878, start = 0},
   },
 }
 P.transport["quest:1172"] = {
@@ -126,7 +126,7 @@ P.transport["quest:1172"] = {
   fullHash = "f6181a",
   text = "The Brood of Onyxia. In the marsh's south, Draz'Zilb sends you against Onyxia's eggs. No more of her whelps should hatch. Onyxia's brood lies scattered through the Dragonmurk. Draz'Zilb urges you south to the Wyrmbog, where the ogre is sure Onyxia made her lair and scattered her eggs. Dragons nest in the land around Stonemaul Village, keeping the ogres from taking it back. So you are sent to find and destroy the eggs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1172-ffe8b27d60fcbed5beaf/1-0000.mp3", duration = 25.5477551, start = 0},
+    {file = "Audio/Transport/full_quest_1172-950ca6157465f75b1272/1-0000.mp3", duration = 35.9967347, start = 0},
   },
 }
 P.transport["quest:1173"] = {
@@ -134,7 +134,7 @@ P.transport["quest:1173"] = {
   fullHash = "2f7dee",
   text = "Challenge Overlord Mok'Morokk. In Brackenwall Village, Overlord Mok'Morokk laughs at your challenge and vows to crush you. Draz'Zilb expected you to drive him from the village. After The Brood of Onyxia, you face Overlord Mok'Morokk. He laughs at your nerve and promises to crush you. Then he tells you to speak when you are ready for a beating. Draz'Zilb in Brackenwall Village expected you to chase Mok'Morokk from the village. Why have you returned only to talk?",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1173-47487306e36a0955148a/1-0000.mp3", duration = 24.8946939, start = 0},
+    {file = "Audio/Transport/full_quest_1173-6cc6b1f6ae8c680434bc/1-0000.mp3", duration = 42.2922449, start = 0},
   },
 }
 P.transport["quest:1187"] = {
@@ -198,7 +198,7 @@ P.transport["quest:1252"] = {
   fullHash = "4b25b5",
   text = "Lieutenant Paval Reethe. At the Shady Rest Inn, Lieutenant Paval Reethe's badge lies beneath the rubble, marked with Theramore's sign. Bring it to Captain Garran Vimes in Theramore. Ash and debris bury a badge in the Shady Rest Inn ruins. Beneath it, Lieutenant Paval Reethe's name lies below Theramore's sign. Captain Garran Vimes in Theramore asks what you found, and the badge belongs in his hands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1252-924eb442ad0da66adfe9/1-0000.mp3", duration = 24.6857143, start = 0},
+    {file = "Audio/Transport/full_quest_1252-b6bdab355f43db2f9f8c/1-0000.mp3", duration = 35.84, start = 0},
   },
 }
 P.transport["quest:1258"] = {
@@ -214,7 +214,7 @@ P.transport["quest:1259"] = {
   fullHash = "afc216",
   text = "Lieutenant Paval Reethe. In Theramore, Captain Garran Vimes asks you to learn who Lieutenant Paval Reethe is. Captain Garran Vimes does not recognize Lieutenant Paval Reethe's name. So he sends you to Adjutant Tesoran in Theramore, who keeps the guard's records of its people and equipment. Vimes expects those records to reveal who Reethe is.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1259-7c07df1c970bf701bb05/1-0000.mp3", duration = 21.5510204, start = 0},
+    {file = "Audio/Transport/full_quest_1259-70afdea2041ed8a21cc9/1-0000.mp3", duration = 30.3804082, start = 0},
   },
 }
 P.transport["quest:1261"] = {
@@ -222,7 +222,7 @@ P.transport["quest:1261"] = {
   fullHash = "951202",
   text = "Marg Speaks. Near Theramore, Marg's stolen pendant and unfinished duty still weigh on them. Marg asks you to find the muckshell that killed them, recover the jeweled pendant taken from Alliance soldiers, and carry it to Nazeer Bloodpike in Brackenwall Village. Alliance soldiers had made camp on the beach near Theramore. One wore a pendant set with more gems than a soldier could pay for. Marg slipped into the camp that night and stole it. On the way back to base, a muckshell crab-man killed Marg. Now Marg asks you to find the muckshell, recover the pendant, and bring it to Nazeer in Brackenwall Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1261-e9dd2e23a3bdcb0ea215/1-0000.mp3", duration = 33.9069388, start = 0},
+    {file = "Audio/Transport/full_quest_1261-70a3a10f99400f751d11/1-0000.mp3", duration = 48.64, start = 0},
   },
 }
 P.transport["quest:1262"] = {
@@ -230,7 +230,7 @@ P.transport["quest:1262"] = {
   fullHash = "0915b8",
   text = "Report to Zor. Nazeer Bloodpike sends you to Orgrimmar with Marg's jeweled pendant. Strange that common soldiers carried such a fine piece, he asks Zor Lonetree, who knows Alliance politics, to judge its history. Nazeer Bloodpike finds it strange that common soldiers carried a pendant so fine. Perhaps its owner was in disguise, or perhaps the soldiers stole it themselves. Either way, Nazeer judges it a noble's pendant. Its true owner must be found to unravel the mystery. Zor Lonetree in Orgrimmar knows much of Alliance politics and can tell whether Stormwind's nobility once claimed it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1262-b6db7487127ce6add64e/1-0000.mp3", duration = 37.3812245, start = 0},
+    {file = "Audio/Transport/full_quest_1262-53faa06b678fdce1bedd/1-0000.mp3", duration = 48.5355102, start = 0},
   },
 }
 P.transport["quest:1380"] = {
@@ -270,7 +270,7 @@ P.transport["quest:1420"] = {
   fullHash = "dc0230",
   text = "Report to Helgrum. At Kargath, Neeka Bloodscar gives you a fresh report for Helgrum the Swift in Stonard. You have just spoken with her there. Neeka Bloodscar gives you a fresh report for Helgrum in Stonard. She warns that anyone who calls themselves an outrunner must keep the way and avoid falling to an enemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1420-5ad8164e8b72146194f2/1-0000.mp3", duration = 17.6065306, start = 0},
+    {file = "Audio/Transport/full_quest_1420-ba8324b892d0eb46df39/1-0000.mp3", duration = 26.0440816, start = 0},
   },
 }
 P.transport["quest:1422"] = {
@@ -390,7 +390,7 @@ P.transport["quest:1467"] = {
   fullHash = "0be1c2",
   text = "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor sends you to Ironforge with Leftwitch's package. Roetten Stonehammer has your pay, and Kreldig plans to speak well of you when he returns home. Kreldig says Roetten Stonehammer has your pay in Ironforge. Roetten will be glad to receive Leftwitch's package, and handing it over should be enough to collect what you are owed. Kreldig expects to stay in Desolace only a little longer. Once he is home, he still means to speak well of you.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1467-3f9732047c8300c51bc3/1-0000.mp3", duration = 27.2457143, start = 0},
+    {file = "Audio/Transport/full_quest_1467-2f90e00cf9276ddb1f50/1-0000.mp3", duration = 40.1240816, start = 0},
   },
 }
 P.transport["quest:1469"] = {
@@ -638,7 +638,7 @@ P.transport["quest:2766"] = {
   fullHash = "d5b32e",
   text = "Find OOX-22/FE!. A homing robot has crashed in Feralas, and Oglethorpe Obnoticus calls for help through a strange metal egg. Carry its beacon to a cave near Feral Scar Vale. Turn the knob on the metal egg, and it opens into a gnomish contraption. Oglethorpe Obnoticus speaks from within. His homing robot has crashed, and he promises payment if you recover it. He has worked out that the machine lies in a cave near Feral Scar Vale. Carry the beacon there.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2766-2fd12add885fff099af5/1-0000.mp3", duration = 27.8465306, start = 0},
+    {file = "Audio/Transport/full_quest_2766-c8adee989466bb9535f5/1-0000.mp3", duration = 43.755102, start = 0},
   },
 }
 P.transport["quest:2767"] = {
@@ -670,7 +670,7 @@ P.transport["quest:2821"] = {
   fullHash = "129fcc",
   text = "The Mark of Quality. At Feathermoon Stronghold, Pratt McGrubben seeks ten thick yeti hides and offers a choice of leather goods. Pratt McGrubben, a leatherworker at Feathermoon Stronghold, insists on the finest work. In search of fine materials, he found thick yeti hides. Yetis are native to Feralas, and many live around Feral Scar Vale, just inland of the Forgotten Coast. Bring Pratt a stack of ten hides at Feathermoon Stronghold. In return, you may choose one of the leather goods he has crafted.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2821-427c1f14c446297d1375/1-0000.mp3", duration = 30.1191837, start = 0},
+    {file = "Audio/Transport/full_quest_2821-fde5c37ad9514cf4edb8/1-0000.mp3", duration = 46.4457143, start = 0},
   },
 }
 P.transport["quest:2822"] = {
@@ -678,7 +678,7 @@ P.transport["quest:2822"] = {
   fullHash = "d1e55c",
   text = "The Mark of Quality. At Camp Mojache, Jangdor Swiftstrider seeks ten thick yeti hides and will not compromise on quality. Jangdor Swiftstrider takes pride in fine leatherwork. He has found thick yeti hides in Feralas, where the yetis make their home. Many roam west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast. Bring Jangdor a stack of ten hides at Camp Mojache. In return, he will let you choose one of the leather goods he has made.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2822-0648dbf2f093e6953283/1-0000.mp3", duration = 28.2644898, start = 0},
+    {file = "Audio/Transport/full_quest_2822-1b7840102f08f25a3dd9/1-0000.mp3", duration = 43.9118367, start = 0},
   },
 }
 P.transport["quest:2844"] = {
@@ -686,7 +686,7 @@ P.transport["quest:2844"] = {
   fullHash = "da05d2",
   text = "The Giant Guardian. Rockbiter searches for Shay, the night elf girl he was meant to watch over. Worried, he asks you to look for her. Rockbiter last saw Shay while they walked through the ruins just north of where he stands. Then he turned around, and she was gone. Unsure what to do, he asks you to search for his little friend. Your legs can carry you much faster than his.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2844-467fe850a6710a675689/1-0000.mp3", duration = 21.3681633, start = 0},
+    {file = "Audio/Transport/full_quest_2844-ca05b9294cab824bd108/1-0000.mp3", duration = 32.3918367, start = 0},
   },
 }
 P.transport["quest:2845"] = {
@@ -694,7 +694,7 @@ P.transport["quest:2845"] = {
   fullHash = "b0180a",
   text = "Wandering Shay. Shay Leafrunner is distracted by the sights along the way as she tries to return to Rockbiter, her friend. Shay was meant to be watched by Rockbiter. She wants to return to him, but the many things around her catch her eye and lead her astray. A bell in the chest beside Shay always catches her attention, and she treasures its sound. If she wanders off, ring it and she promises to come running back. You can carry the bell to Rockbiter's camp, where Shay hopes to be taken.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2845-50898be13d9f7867b4c5/1-0000.mp3", duration = 29.7273469, start = 0},
+    {file = "Audio/Transport/full_quest_2845-068864315260cd27cdf9/1-0000.mp3", duration = 44.0163265, start = 0},
   },
 }
 P.transport["quest:2862"] = {
@@ -702,7 +702,7 @@ P.transport["quest:2862"] = {
   fullHash = "000b12",
   text = "War on the Woodpaw. At Camp Mojache, Hadoken Swiftstrider asks you to thin the Woodpaw gnolls’ growing numbers. Their attacks have grown more fevered, and ten Woodpaw Gnoll Manes will answer his call. Hadoken Swiftstrider says the camp’s survival matters more than the gnolls’ claim to Feralas. Unless Camp Mojache stands firm, he warns, the gnolls may drive it from the whole region. Their attacks have grown more fevered, so he wants their numbers thinned. For ten Woodpaw gnoll manes, he offers generous pay.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2862-e9b4f5bd092cba369f03/1-0000.mp3", duration = 29.204898, start = 0},
+    {file = "Audio/Transport/full_quest_2862-0225ed5281de4ac38d19/1-0000.mp3", duration = 42.7885714, start = 0},
   },
 }
 P.transport["quest:2863"] = {
@@ -710,7 +710,7 @@ P.transport["quest:2863"] = {
   fullHash = "2091bd",
   text = "Alpha Strike. The Horde's stalemate with the Woodpaw gnolls may be broken by striking their leaders in quick succession. Hadoken Swiftstrider asks you to bring down five Alphas within one hour. Hadoken Swiftstrider believes the Woodpaw ranks will fall into chaos if their Alphas die one after another. The blows may also show the gnolls that the Horde can destroy them. He asks you to carry out the plan. Five Alphas must fall within one hour, or the stalemate continues.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2863-01b12d01a0f07866a66a/1-0000.mp3", duration = 27.7942857, start = 0},
+    {file = "Audio/Transport/full_quest_2863-612d07d9e6f4041ff7c5/1-0000.mp3", duration = 41.195102, start = 0},
   },
 }
 P.transport["quest:2866"] = {
@@ -718,7 +718,7 @@ P.transport["quest:2866"] = {
   fullHash = "49e992",
   text = "The Ruins of Solarsal. South of Shandris Feathermoon, Hatecrest naga crowd the Ruins of Solarsal. She sends you among the old stones to look for anything out of the ordinary. Shandris Feathermoon says explorers searched the ruins long ago and found nothing of note. So the stones were left alone. Now Hatecrest naga have taken them in alarming numbers. Their presence first seemed to herald an attack, and that danger remains. Yet Shandris suspects something else may be happening. She asks you to walk through the ruins and notice anything out of the ordinary.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2866-39b511c2835e3cb63ddc/1-0000.mp3", duration = 32.522449, start = 0},
+    {file = "Audio/Transport/full_quest_2866-cb0e5889966dc6fd48dc/1-0000.mp3", duration = 48.1436735, start = 0},
   },
 }
 P.transport["quest:2867"] = {
@@ -726,7 +726,7 @@ P.transport["quest:2867"] = {
   fullHash = "09efeb",
   text = "Return to Feathermoon Stronghold. You return to Feathermoon Stronghold with news of a strange gazebo at the heart of the Ruins of Solarsal. General Shandris Feathermoon awaits your report. At Feathermoon Stronghold, General Shandris Feathermoon awaits your news of the strange gazebo. You carry your findings back from the heart of the ruins so she can hear what you saw.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2867-5c1bee1c7bd3fd9f997f/1-0000.mp3", duration = 20.4016327, start = 0},
+    {file = "Audio/Transport/full_quest_2867-a9007ff9f52ba0114669/1-0000.mp3", duration = 32.235102, start = 0},
   },
 }
 P.transport["quest:2869"] = {
@@ -734,7 +734,7 @@ P.transport["quest:2869"] = {
   fullHash = "4a1aee",
   text = "Against the Hatecrest. At Feathermoon Stronghold, Latronicus Moonspear means to face the Hatecrest naga before they make their move. He asks you to bring him ten Hatecrest Scales in good condition. Latronicus Moonspear expects the naga to try to claim the island someday. He wants to act before they can, so he asks you to bring ten Hatecrest Scales in good condition. You will have to see for yourself how to get them. He hopes gathering the scales will weaken the naga presence on Sardor Isle and give you your first taste of fighting naga. Latronicus says night elves cherish peace and harmony, not war. Still, he will not leave their interests unguarded. Protecting them is his duty to General Feathermoon and the stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2869-e0e5c4cff1af9babbc08/1-0000.mp3", duration = 44.5126531, start = 0},
+    {file = "Audio/Transport/full_quest_2869-f99fe696ea4802f6693e/1-0000.mp3", duration = 63.9216327, start = 0},
   },
 }
 P.transport["quest:2870"] = {
@@ -742,7 +742,7 @@ P.transport["quest:2870"] = {
   fullHash = "bb3ad7",
   text = "Against Lord Shalzaru. At Feathermoon Stronghold, Latronicus Moonspear asks you to stop Lord Shalzaru and recover the relic he found. Latronicus Moonspear has fresh reports on the naga chain of command. Royals give orders among their ranks. Lord Shalzaru is one of the crueler royals. Scouts say Lord Shalzaru uncovered an odd relic while the naga dug in a cave on the Isle of Dread. The cave lies over the water, south of the main ruins. Latronicus wants you to stop Shalzaru and end the dig. Then bring the Mysterious Relic to Feathermoon Stronghold for study.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2870-8c985f3c36a8ed06bf29/1-0000.mp3", duration = 34.6644898, start = 0},
+    {file = "Audio/Transport/full_quest_2870-98359895b4c5242dc424/1-0000.mp3", duration = 52.8979592, start = 0},
   },
 }
 P.transport["quest:2871"] = {
@@ -750,7 +750,7 @@ P.transport["quest:2871"] = {
   fullHash = "224fb3",
   text = "Delivering the Relic. At Feathermoon Stronghold, Latronicus Moonspear sends you with the Mysterious Relic to his wife Vestia. He cannot make sense of it, and hopes she can tell what it is. Latronicus Moonspear cannot make sense of the device, wager or no wager. He says his wife Vestia is a fine priestess to their community and one of the most learned scholars anywhere. If anyone can work out what the relic is, she can. They need to know. Vestia is only a short walk away, though she is surely busy studying.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2871-35a34c4f5d721a94560b/1-0000.mp3", duration = 29.2832653, start = 0},
+    {file = "Audio/Transport/full_quest_2871-4b2880d3056a208f7c8b/1-0000.mp3", duration = 45.7926531, start = 0},
   },
 }
 P.transport["quest:2872"] = {
@@ -806,7 +806,7 @@ P.transport["quest:2879"] = {
   fullHash = "0fa67c",
   text = "The Stave of Equinex. At the Ruins of Ravenwind, Troyas Moonbreeze tests whether his stave can open the Equinex Monolith. You gather the essences of four flames still burning among the ruins. Troyas Moonbreeze thinks his stave may be the Stave of Equinex, a key to the Equinex Monolith in the Ruins of Ravenwind. Four flames still burn there: Samha, Imbel, Byltan and Lahassa. Each yields an essence. You use all four at the monolith to energize the stave. If it is truly the key, the monolith will open and reveal a sacred artifact.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2879-c3cdf3753e5aede1d59e/1-0000.mp3", duration = 34.4032653, start = 0},
+    {file = "Audio/Transport/full_quest_2879-29c0d434133f58c068e5/1-0000.mp3", duration = 48.5877551, start = 0},
   },
 }
 P.transport["quest:2880"] = {
@@ -830,7 +830,7 @@ P.transport["quest:2902"] = {
   fullHash = "9393d4",
   text = "Woodpaw Investigation. At Camp Mojache, Hadoken Swiftstrider suspects the Woodpaw gnolls are following written plans. He sends you south to search their camps for battle plans. After Alpha Strike, Hadoken Swiftstrider sends you back to the Woodpaw. He doubts the gnolls are clever, yet their recent assaults have been too well coordinated to be chance. He suspects they keep a written record of their strategy. If you find it, he may learn what stirred them up, so he asks you to search the camps and bring back anything that looks like battle plans.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2902-5fd178e561af84edb129/1-0000.mp3", duration = 29.5183673, start = 0},
+    {file = "Audio/Transport/full_quest_2902-0ed806e910a46b00defe/1-0000.mp3", duration = 44.5387755, start = 0},
   },
 }
 P.transport["quest:2903"] = {
@@ -838,7 +838,7 @@ P.transport["quest:2903"] = {
   fullHash = "73ac5e",
   text = "The Battle Plans. You carry the Woodpaw battle plans toward Camp Mojache, where Hadoken Swiftstrider hopes to learn what the gnolls intend. After Woodpaw Investigation, you bring the Woodpaw battle plans back to Hadoken Swiftstrider at Camp Mojache. He needs firm evidence of what the gnolls intend.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2903-d0768ba3dda38fb8c792/1-0000.mp3", duration = 17.5020408, start = 0},
+    {file = "Audio/Transport/full_quest_2903-2ba72ab8af9ab2ba180c/1-0000.mp3", duration = 27.9510204, start = 0},
   },
 }
 P.transport["quest:2932"] = {
@@ -894,7 +894,7 @@ P.transport["quest:2939"] = {
   fullHash = "7e34a8",
   text = "In Search of Knowledge. Troyas Moonbreeze sends you to seek Daryn Lightwind in Rut'theran Village. He found a stave in the rubble of Feralas and wants to learn what it is. Troyas Moonbreeze says the ruins of Feralas are dangerous, yet they have much to tell of what happened there. A few days ago, he searched the rubble to the south and found a stave that seemed ordinary. Still, he feels there is more to it. He and Angelas searched their books, but found no word of the stave. Troyas has a colleague in Darnassus who may know what the stave is. He asks you to speak with Daryn Lightwind in Rut'theran Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2939-45826f3f7366446d07a5/1-0000.mp3", duration = 33.0710204, start = 0},
+    {file = "Audio/Transport/full_quest_2939-36691fa537f6e88ac920/1-0000.mp3", duration = 51.6963265, start = 0},
   },
 }
 P.transport["quest:2940"] = {
@@ -902,7 +902,7 @@ P.transport["quest:2940"] = {
   fullHash = "241a05",
   text = "Feralas: A History. In Feralas, you find Feralas: A History, a book Troyas may need. It looks as if nobody has opened it in ages. The book belongs to Daryn Lightwind, so you need to ask whether you may borrow it. The book's covers are badly worn, and its pages have yellowed. After looking it over, you suspect it may be what Troyas is searching for. You pick it up, then think better of borrowing it without asking. It belongs to Daryn Lightwind, so ask her first.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2940-7fb904945a535081a407/1-0000.mp3", duration = 28.2906122, start = 0},
+    {file = "Audio/Transport/full_quest_2940-b2f710b8132d958a0ec2/1-0000.mp3", duration = 41.6914286, start = 0},
   },
 }
 P.transport["quest:2941"] = {
@@ -910,7 +910,7 @@ P.transport["quest:2941"] = {
   fullHash = "e1b031",
   text = "The Borrower. On the Hinterlands beach, Daryn Lightwind longs to see Gammerita, a giant snapjaw. Her research keeps her away, so she sends you to Tanaris with a letter for Curgle Cranklehop. Daryn Lightwind has studied many subjects. Now the snapjaws along the Hinterlands beach hold her attention, especially Gammerita, a giant snapjaw. Her research keeps her where she is, so she asks you to bring back a picture of Gammerita. Daryn gives you a letter for Curgle Cranklehop in Tanaris. Curgle made an invention that can capture a picture. Daryn believes Curgle calls it a snapshot.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2941-4c71d9a5c85f95db7ee0/1-0000.mp3", duration = 34.6906122, start = 0},
+    {file = "Audio/Transport/full_quest_2941-a351a284b2fbcbb5649e/1-0000.mp3", duration = 54.5697959, start = 0},
   },
 }
 P.transport["quest:2942"] = {
@@ -918,7 +918,7 @@ P.transport["quest:2942"] = {
   fullHash = "13aaaa",
   text = "The Morrow Stone. At the Equinex Monolith, taking the artifact begins to drain the Stave of Equinex. You carry the Sparkling Stone and the stave back to Troyas Moonbreeze at Feathermoon Stronghold. The Stave of Equinex begins to lose energy when you take the artifact from the monolith. Troyas Moonbreeze at Feathermoon Stronghold awaits word of what you found. Bring him the Sparkling Stone and the stave.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2942-aff749b62cb47464b3a2/1-0000.mp3", duration = 23.3534694, start = 0},
+    {file = "Audio/Transport/full_quest_2942-ce2cd048b0cd62b9461a/1-0000.mp3", duration = 34.795102, start = 0},
   },
 }
 P.transport["quest:2943"] = {
@@ -926,7 +926,7 @@ P.transport["quest:2943"] = {
   fullHash = "1106ca",
   text = "Return to Troyas. Daryn Lightwind sends you to Feathermoon Stronghold with her book, Feralas: A History. Troyas Moonbreeze is eager for your return. After the Super Snapper FX, Daryn Lightwind entrusts you with her book, Feralas: A History. She urges you to hurry because Troyas Moonbreeze is eager for your return. The book is bound for Troyas at Feathermoon Stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2943-0980a54fe1e94f774cf3/1-0000.mp3", duration = 22.9093878, start = 0},
+    {file = "Audio/Transport/full_quest_2943-4741095d89d17428e97a/1-0000.mp3", duration = 33.4367347, start = 0},
   },
 }
 P.transport["quest:2944"] = {
@@ -934,7 +934,7 @@ P.transport["quest:2944"] = {
   fullHash = "ae8a0a",
   text = "The Super Snapper FX. Curgle Cranklehop has a new device for you to try: the Super Snapper FX. Aim it at Gammerita, a creature from the Hinterlands, then bring the picture and device to Daryn Lightwind in Rut'theran Village. This follows The Borrower. After The Borrower, Curgle Cranklehop puts a new invention in your hands: the Super Snapper FX. Aim it at what you want pictured, then press the button. Curgle gives it to you to try. Gammerita, a creature from the Hinterlands, is the subject you mentioned to Curgle. He wishes you luck in finding her and expects Daryn Lightwind to be pleased with the snapshot. Once you have the picture, bring it and the device to Daryn in Rut'theran Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2944-af0ae3f1b96078cd6b8a/1-0000.mp3", duration = 42.0310204, start = 0},
+    {file = "Audio/Transport/full_quest_2944-cc047b7c067ceb8c4a5f/1-0000.mp3", duration = 59.8987755, start = 0},
   },
 }
 P.transport["quest:2954"] = {
@@ -950,7 +950,7 @@ P.transport["quest:2969"] = {
   fullHash = "65112d",
   text = "Freedom for All Creatures. At the Grimtotem camp, Kindal Moonweaver asks you to free the captured faerie dragons. Neither Kindal nor Jer'kai knows what the Grimtotem clan intends. Kindal will go with you, while Jer'kai stays behind. Kindal Moonweaver calls the Grimtotem clan filthy for taking faerie dragons. Neither Kindal nor Jer'kai knows what the clan intends, only that it means no good. They are not strong enough to fight into the camp, so Kindal asks you to help free the sprite darters. The Bamboo Cage Key opens their pen, and Kindal wants them to escape alive. Bring strong friends to stand with you. Kindal waits on a ledge behind the Grimtotem Compound, above the water. A path climbs the cliff face to reach him. Kindal fights beside you through the camp. Jer'kai stays behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2969-1a1279063f902f1853e3/1-0000.mp3", duration = 48.3787755, start = 0},
+    {file = "Audio/Transport/full_quest_2969-f44c7fcab4312f89a52f/1-0000.mp3", duration = 68.6236735, start = 0},
   },
 }
 P.transport["quest:2970"] = {
@@ -958,7 +958,7 @@ P.transport["quest:2970"] = {
   fullHash = "23275d",
   text = "Doling Justice. In Feralas, Jer'kai Moonweaver and Kindal are ready to strike back after the sprite darters' rescue. Jer'kai asks you to thin the Grimtotem ranks, then return to him. After the sprite darter rescue, Jer'kai Moonweaver and Kindal are ready to strike at the Grimtotem. They can thin the tauren ranks together without much risk, and welcome your help.\n\nYou have seen the camp below, and more lie to the east. Choose your own tactics against Grimtotem Naturalists, Raiders and Shamans, then return to Jer'kai.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2970-9f396141d6afb661e3c9/1-0000.mp3", duration = 30.7983673, start = 0},
+    {file = "Audio/Transport/full_quest_2970-17cd011c783f02fe0288/1-0000.mp3", duration = 47.8302041, start = 0},
   },
 }
 P.transport["quest:2972"] = {
@@ -966,7 +966,7 @@ P.transport["quest:2972"] = {
   fullHash = "d37409",
   text = "Doling Justice. In Feralas, Jer'kai Moonweaver sends you to Darnassus with a ring for High Priestess Tyrande Whisperwind. It will show that Jer'kai and Kindal are well and support your account. Jer'kai Moonweaver and Kindal have little to offer in Feralas, yet they want you to know they are grateful. Jer'kai gives you a signet ring for High Priestess Tyrande Whisperwind at the Temple of the Moon in Darnassus. The ring shows Tyrande that the pair are well and lends weight to your account.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2972-b0684929a9d28baf9f2d/1-0000.mp3", duration = 27.1934694, start = 0},
+    {file = "Audio/Transport/full_quest_2972-2320b4337b295f81571f/1-0000.mp3", duration = 41.6391837, start = 0},
   },
 }
 P.transport["quest:2973"] = {
@@ -974,7 +974,7 @@ P.transport["quest:2973"] = {
   fullHash = "4dab52",
   text = "A New Cloak's Sheen. At Camp Mojache, Krueg Skullsplitter asks you to gather wings for Korrin’s cloak. He came to Feralas with companions sent by their masters in Orgrimmar. Krueg Skullsplitter came to Feralas with companions sent by their masters in Orgrimmar. His life-mate Korrin loves new clothes, so he plans a cloak adorned with delicate faerie dragon wings. The sprite darters he seeks live west of Camp Mojache. Bring Krueg ten Iridescent Sprite Darter Wings. Krueg warns that provoked sprite darters are dangerous. Nearby night elves tend to hole up in the forests, so take even greater care around them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2973-3b3f5b81b68e8d9ddf8c/1-0000.mp3", duration = 36.4669388, start = 0},
+    {file = "Audio/Transport/full_quest_2973-d6dc6918b927210ff519/1-0000.mp3", duration = 54.6481633, start = 0},
   },
 }
 P.transport["quest:2974"] = {
@@ -982,7 +982,7 @@ P.transport["quest:2974"] = {
   fullHash = "98fdd7",
   text = "A Grim Discovery. In Camp Mojache, Krueg Skullsplitter hears that you met tauren in Feralas and names them the Grimtotem. Belgrom has put a bounty on them, and Krueg asks for twenty horns. You tell Krueg Skullsplitter about the tauren you met in Feralas. He names them as the Grimtotem clan. Belgrom, one of Krueg's masters, has put a bounty on them and takes a keen interest in their kind. Krueg warns you that the Grimtotem are evil and must not be underestimated. He wants twenty horns brought back before they can raze villages or pilfer land.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2974-954d0f5c63f9e3b0a60e/1-0000.mp3", duration = 31.3991837, start = 0},
+    {file = "Audio/Transport/full_quest_2974-7a900e10ca1bd2b5d7b0/1-0000.mp3", duration = 47.4906122, start = 0},
   },
 }
 P.transport["quest:2975"] = {
@@ -998,7 +998,7 @@ P.transport["quest:2976"] = {
   fullHash = "b47161",
   text = "A Grim Discovery. In Orgrimmar, Belgrom Rockmaul awaits the Grimtotem horns and your account of Feralas. Krueg Skullsplitter says you did the work and deserve the best of the bounty. This follows the first A Grim Discovery. Krueg Skullsplitter admits he spoke of a bounty after the first A Grim Discovery. You did the work, so he believes you deserve the best of the payoff. He packs the horns into a crate for you to carry to Belgrom Rockmaul in the Valley of Honor. Belgrom wants to hear what you saw, and Krueg says he will make your hard work worth it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2976-43eace70a2ef04ab94c0/1-0000.mp3", duration = 31.0595918, start = 0},
+    {file = "Audio/Transport/full_quest_2976-701819f83761bbee651a/1-0000.mp3", duration = 50.5730612, start = 0},
   },
 }
 P.transport["quest:2978"] = {
@@ -1006,7 +1006,7 @@ P.transport["quest:2978"] = {
   fullHash = "4e6ffd",
   text = "The Gordunni Scroll. At the Gordunni Outpost, the Gordunni Scroll may reveal a gathering or ceremony. Rok Orhan at Camp Mojache wants to see it and learn what it means for the Gordunni. You find a soiled scroll at the Gordunni Outpost. Its image seems to show a gathering or ceremony. Rok Orhan at Camp Mojache wants to see it and learn what it might mean for the Gordunni.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2978-edfcff135c5ad1f32125/1-0000.mp3", duration = 22.4653061, start = 0},
+    {file = "Audio/Transport/full_quest_2978-f2ef76c0ccaef62d4ee4/1-0000.mp3", duration = 35.317551, start = 0},
   },
 }
 P.transport["quest:2979"] = {
@@ -1014,7 +1014,7 @@ P.transport["quest:2979"] = {
   fullHash = "c1bc9e",
   text = "Dark Ceremony. At Camp Mojache, Rok Orhan studies the Gordunni Scroll and seeks an orb from a Gordunni mage-lord. He hopes it will reveal more about the ceremony and the Gordunni's magic. Rok Orhan reads the Gordunni Scroll as plans for a dark ceremony. He believes the Gordunni mage-lords conduct it. Find one of them and take his orb. A mage's orb holds great power, and Rok hopes it will teach him more about the ceremony and the magic the Gordunni wield.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2979-9806b1b4c8b61c5e2f82/1-0000.mp3", duration = 27.5330612, start = 0},
+    {file = "Audio/Transport/full_quest_2979-3d58178858d46d004d76/1-0000.mp3", duration = 39.8367347, start = 0},
   },
 }
 P.transport["quest:2980"] = {
@@ -1022,7 +1022,7 @@ P.transport["quest:2980"] = {
   fullHash = "040972",
   text = "The Ogres of Feralas. In Feralas, Rok Orhan sends you southwest of Camp Mojache to drive back the Gordunni ogres. You have proved yourself a true fighter, and he trusts you with this work in the High Wilderness. Rok Orhan trusts you with this work because you have proved yourself a true fighter. Southwest of Camp Mojache, the High Wilderness holds abandoned, wrecked structures on ground the night elves once owned.\n\nWithered trees and desecrated ground mark the Gordunni's territory. Rok warns that these ogres are far tougher than the earlier ones. Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers are to fall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2980-81d35e92e9b7ba0489e3/1-0000.mp3", duration = 38.2171429, start = 0},
+    {file = "Audio/Transport/full_quest_2980-f6f57aa89f94732080ad/1-0000.mp3", duration = 58.1485714, start = 0},
   },
 }
 P.transport["quest:2982"] = {
@@ -1030,7 +1030,7 @@ P.transport["quest:2982"] = {
   fullHash = "703c2c",
   text = "The High Wilderness. In Feralas, Angelas Moonbreeze worries as Troyas enters the High Wilderness alone. Gordunni ogres hold that ground, and she hopes you can make the ruins southeast of here safer by culling them. Angelas Moonbreeze and Troyas explore the scattered ruins of Feralas, though the work is dangerous. Lately, Troyas goes to the High Wilderness alone, and Angelas fears for him. Gordunni ogres hold that ground and welcome no one into their territory. So Angelas asks you to make the ruins southeast of here safer for Troyas by culling eight Gordunni Warlocks, eight Gordunni Shamans and eight Gordunni Brutes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2982-41fcea50e653dcc112b1/1-0000.mp3", duration = 36.4408163, start = 0},
+    {file = "Audio/Transport/full_quest_2982-20b0c077469fe3eeaf2c/1-0000.mp3", duration = 54.5697959, start = 0},
   },
 }
 P.transport["quest:2987"] = {
@@ -1038,7 +1038,7 @@ P.transport["quest:2987"] = {
   fullHash = "18cef0",
   text = "Gordunni Cobalt. Orwin Gizzmick has come to Feralas seeking cobalt buried by the Gordunni ogres. He asks you to search the Gordunni Outpost, north of Camp Mojache, for twelve samples. New to Feralas, Orwin Gizzmick has heard that the Gordunni ogres bury interesting minerals. They guard the minerals fiercely, keeping them from folk like Orwin. He does not know what they want them for.\n\nOrwin gives you a shovel and points you north of Camp Mojache to the Gordunni Outpost. Follow the blue glow and dig up twelve samples of Gordunni cobalt.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2987-046570441c8be3a4eafd/1-0000.mp3", duration = 31.764898, start = 0},
+    {file = "Audio/Transport/full_quest_2987-5b48e14729039535e732/1-0000.mp3", duration = 50.7559184, start = 0},
   },
 }
 P.transport["quest:2988"] = {
@@ -1094,7 +1094,7 @@ P.transport["quest:3002"] = {
   fullHash = "6164be",
   text = "The Gordunni Orb. After Dark Ceremony, Rok Orhan sends you to Orgrimmar with the Gordunni Orb. Uthel'nay at Darkbriar Lodge can judge its power. After Dark Ceremony, Rok Orhan holds the Gordunni Orb. He knows the Gordunni well, but a warrior cannot judge the orb's power. So he sends you to Orgrimmar with it. There, Uthel'nay at Darkbriar Lodge can tell you more.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3002-5e3ce24ade06f9295e2e/1-0000.mp3", duration = 23.1444898, start = 0},
+    {file = "Audio/Transport/full_quest_3002-e2f8c3537ff1b32dda45/1-0000.mp3", duration = 34.8212245, start = 0},
   },
 }
 P.transport["quest:3022"] = {
@@ -1110,7 +1110,7 @@ P.transport["quest:3062"] = {
   fullHash = "f48764",
   text = "Dark Heart. At Camp Mojache, Talo Thornhoof seeks Edana Hatetalon’s heart to end the hatred she spreads. Edana Hatetalon rules the Northspring brood in ruins to the west. Talo calls her pure evil and says she feels nothing but hatred for everyone. He has heard her heart is made of crystal. He asks you to face her and bring back her dark heart, so her hatred can be stopped. Talo has heard that harpies carry a horn. Sound it near the Hatetalon stones in the northern part of the ruins, and it is said to draw Edana out. Talo relishes the thought that death, rather than her kin, will answer her call.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3062-23fd19af2ecb6ce4eb11/1-0000.mp3", duration = 36.2057143, start = 0},
+    {file = "Audio/Transport/full_quest_3062-ae7353950e85dd4ab02a/1-0000.mp3", duration = 55.4318367, start = 0},
   },
 }
 P.transport["quest:3063"] = {
@@ -1126,7 +1126,7 @@ P.transport["quest:3121"] = {
   fullHash = "1cd431",
   text = "A Strange Request. In Feralas, Witch Doctor Uzer'i sends you to Orgrimmar for a concoction. Witch Doctor Uzer'i says Neeru Fireblade in Orgrimmar has a concoction needed to begin work in Feralas. Uzer'i will not yet explain what it is for. You carry a shrunken head, promised to Neeru in exchange for the herbs. It belonged to some poor dwarf Uzer'i came across in the forest. Neeru waits in the Cleft of Shadow.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3121-cbd2e474ed64a371d618/1-0000.mp3", duration = 26.1746939, start = 0},
+    {file = "Audio/Transport/full_quest_3121-36f78fbab60188399e11/1-0000.mp3", duration = 37.2767347, start = 0},
   },
 }
 P.transport["quest:3122"] = {
@@ -1134,7 +1134,7 @@ P.transport["quest:3122"] = {
   fullHash = "cbb07f",
   text = "Return to Witch Doctor Uzer'i. Neeru Fireblade sends you to Witch Doctor Uzer'i in Feralas with herbs and word that he is satisfied with the shrunken head. After A Strange Request, Neeru Fireblade gives you herbs for Witch Doctor Uzer'i in Feralas. Take them to Uzer'i and tell him Neeru is satisfied with the shrunken head.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3122-18ec2a623468724ab06b/1-0000.mp3", duration = 17.7893878, start = 0},
+    {file = "Audio/Transport/full_quest_3122-eadf4ad826d40ce50365/1-0000.mp3", duration = 30.8506122, start = 0},
   },
 }
 P.transport["quest:3123"] = {
@@ -1142,7 +1142,7 @@ P.transport["quest:3123"] = {
   fullHash = "48b4dc",
   text = "Testing the Vessel. You return to Witch Doctor Uzer'i, who tests the ritual and your skill. Now you must capture ten wildkin in the Hinterlands and bring them with the vessel back to Feralas. Witch Doctor Uzer'i tests the ritual you just performed and your own skill. The vessel Uzer'i gives you can shrink a creature and trap it inside. You travel to the Hinterlands to find wildkin. Their kind once belonged to Elune, the night elf goddess, as pets. Uzer'i names the vicious, primitive, savage owlbeasts as your quarry. Capture ten before their spirits slip away, then return with them and the vessel to Uzer'i in Feralas.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3123-77010617dce2d45bf346/1-0000.mp3", duration = 36.8587755, start = 0},
+    {file = "Audio/Transport/full_quest_3123-a486a68056cbfb8acab8/1-0000.mp3", duration = 53.4726531, start = 0},
   },
 }
 P.transport["quest:3124"] = {
@@ -1150,7 +1150,7 @@ P.transport["quest:3124"] = {
   fullHash = "5a39b4",
   text = "Hippogryph Muisek. In the High Wilderness, Frayfeather hippogryphs carry spirits Uzer'i wants you to capture. Their muisek can escape unless you act quickly. Witch Doctor Uzer'i trusts you with the vessel and asks you to capture another creature's spirit. Hippogryphs have long been companions to the night elves, and their spirits are loyal and steadfast. You need ten Frayfeather hippogryphs of any kind. Kill each one, then quickly shrink and capture it with the vessel to preserve its muisek. Uzer'i places them in the High Wilderness, south of the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3124-b5bda70a948e220e2283/1-0000.mp3", duration = 31.0334694, start = 0},
+    {file = "Audio/Transport/full_quest_3124-ee3bc3d280717b77ad1f/1-0000.mp3", duration = 46.4718367, start = 0},
   },
 }
 P.transport["quest:3125"] = {
@@ -1158,7 +1158,7 @@ P.transport["quest:3125"] = {
   fullHash = "178bef",
   text = "Faerie Dragon Muisek. West of Witch Doctor Uzer'i, the Horde seeks the spirits of faerie dragons. Sprite darters and sprite dragons bear the strength Uzer'i hopes to capture. Witch Doctor Uzer'i sees strength in faerie dragons, though they look delicate. They have long been allies to the night elves, and Uzer'i wants the Horde to share their power. Uzer'i gives you a Muisek Vessel and sends you west. Slay eight sprite darters or sprite dragons, then use the vessel on each fallen faerie dragon to shrink and capture its spirit.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3125-b6bf55d7da1fb2bc6450/1-0000.mp3", duration = 31.0857143, start = 0},
+    {file = "Audio/Transport/full_quest_3125-211ee99383c66e319b93/1-0000.mp3", duration = 44.6432653, start = 0},
   },
 }
 P.transport["quest:3126"] = {
@@ -1166,7 +1166,7 @@ P.transport["quest:3126"] = {
   fullHash = "65dda2",
   text = "Treant Muisek. In Feralas, Witch Doctor Uzer'i turns your search to the wandering treants. After the faerie dragons, he sends you to find three forest walkers. The night elves have made treants their allies against the Horde. Uzer'i says they move slowly, yet none can deny their strength as protectors. He means to put that strength to work for the Horde. Uzer'i asks you to find and kill three wandering forest walkers. When each treant falls, use the Muisek Vessel to shrink and capture it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3126-285f187aecf8dd3f3c5c/1-0000.mp3", duration = 30.955102, start = 0},
+    {file = "Audio/Transport/full_quest_3126-10ae89844efd137a54fd/1-0000.mp3", duration = 42.997551, start = 0},
   },
 }
 P.transport["quest:3127"] = {
@@ -1182,7 +1182,7 @@ P.transport["quest:3128"] = {
   fullHash = "252c11",
   text = "Natural Materials. In Camp Mojache, Natural Materials are needed by Witch Doctor Uzer'i for an endeavor. The materials come from treants, mountain giants, faerie dragons, owlbeasts and hippogryphs, alongside the other trials. After you return to Witch Doctor Uzer'i, another list of materials awaits alongside the other trials. Bring two splintered logs from a Feralas treant. Mountain giants and faerie dragons westward carry six pieces of encrusted minerals. Owlbeasts in the Hinterlands or hippogryphs in Feralas provide twenty pieces of resilient sinew. Any of these creatures can yield the forty metallic fragments needed.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3128-dee9e959c640328a228a/1-0000.mp3", duration = 37.3812245, start = 0},
+    {file = "Audio/Transport/full_quest_3128-4e076187da56cee2cd2a/1-0000.mp3", duration = 50.964898, start = 0},
   },
 }
 P.transport["quest:3129"] = {
@@ -1190,7 +1190,7 @@ P.transport["quest:3129"] = {
   fullHash = "016cce",
   text = "Weapons of Spirit. Witch Doctor Uzer'i is preparing weapons for you in Feralas. The work takes time, so you wait while the spirits are bound. Witch Doctor Uzer'i has the materials and the spirits you captured. Imbuing weapons with muisek takes hard work, so Uzer'i asks you to wait while the weapons are prepared.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3129-a5829010b17f9dc4ba30/1-0000.mp3", duration = 17.9722449, start = 0},
+    {file = "Audio/Transport/full_quest_3129-7a9a099d866a57f25ceb/1-0000.mp3", duration = 27.5853061, start = 0},
   },
 }
 P.transport["quest:3130"] = {
@@ -1198,7 +1198,7 @@ P.transport["quest:3130"] = {
   fullHash = "d834c7",
   text = "Against the Hatecrest. In Feathermoon Stronghold, Shandris sends you to Latronicus as she weighs the naga threat. General Shandris Feathermoon sends you to Latronicus Moonspear, her second. He has watched the naga forces closely, and Shandris must judge the wider danger they pose.\n\nShe would like to commit a full force against them. But then Feathermoon Stronghold would be open to a direct attack from the Horde, or something worse. Latronicus awaits you in the stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3130-644b48ceda282d0ab474/1-0000.mp3", duration = 28.0555102, start = 0},
+    {file = "Audio/Transport/full_quest_3130-ddf572c9472d6f263bd3/1-0000.mp3", duration = 43.2065306, start = 0},
   },
 }
 P.transport["quest:3161"] = {
@@ -1358,7 +1358,7 @@ P.transport["quest:3445"] = {
   fullHash = "b5e4b1",
   text = "The Sunken Temple. Angelas Moonbreeze points you toward a buried place and a missing scholar. Far below the earth, the Sunken Temple lies beyond any power Angelas has seen. To learn more, seek Marvon Rivetseeker, last known to be in Tanaris. Angelas Moonbreeze tells you that the Sunken Temple was driven deep beneath the earth by forces beyond anything she has seen. She sends you to Marvon Rivetseeker, a goblin who studies ancient sites with her and Troyas.\n\nMarvon left his home in Ratchet to investigate the troll ruins of Tanaris. No word of him has come for some time.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3445-79ff3ec1078dfed79084/1-0000.mp3", duration = 35.9444898, start = 0},
+    {file = "Audio/Transport/full_quest_3445-4bdaf1891c31a11738cb/1-0000.mp3", duration = 53.0808163, start = 0},
   },
 }
 P.transport["quest:3452"] = {
@@ -1486,7 +1486,7 @@ P.transport["quest:3841"] = {
   fullHash = "705024",
   text = "An Orphan Looking For a Home. Kindal Moonweaver has news for you after Darnassus: the nest was saved, but its mother died. The eggs will soon hatch, and Kindal offers you one to care for. Quentin waits by the race tracks in the Shimmering Flats of Thousand Needles. Kindal Moonweaver greets you after your return from Darnassus. The nest was saved, but its mother died before help could reach her. The eggs are close to hatching, and they need a good keeper. Kindal offers you one as a pet. Carry the egg to Quentin at the race tracks in the Shimmering Flats if you want to care for it. Quentin can tell you more. Quentin waits in Thousand Needles, though the races are not why he is there. He studies whether new, fertile soil can restore the land. He hopes to find a water source nearby. The change from Feralas to Thousand Needles seems strange to him. Quentin says strange magic was at work when it happened.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3841-bc02ed83218d64fb2924/1-0000.mp3", duration = 53.2897959, start = 0},
+    {file = "Audio/Transport/full_quest_3841-8b6a87ab3e3248d3206e/1-0000.mp3", duration = 74.475102, start = 0},
   },
 }
 P.transport["quest:3842"] = {
@@ -1494,7 +1494,7 @@ P.transport["quest:3842"] = {
   fullHash = "bd3420",
   text = "A Short Incubation. In Thousand Needles, Quentin waits as the sprite darter egg nears hatching. The Moonweavers gave you the egg, and Quentin asks for two elixirs of fortitude so he can check its health and protect it. Quentin finds it intriguing that the Moonweavers cared for the egg, and he considers them both capable. Since they gave the egg to you, you may take responsibility for it as long as you wish. It looks almost ready to hatch, but Quentin wants to check its health and make sure it is undamaged first.\n\nA small spell will protect the egg. Quentin has every component except two elixirs of fortitude. While he waits, he admits he is growing tempted by the races. Once he knows the egg is healthy, he will return it for you to keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3842-cdada888cefbeca45471/1-0000.mp3", duration = 42.9453061, start = 0},
+    {file = "Audio/Transport/full_quest_3842-c54b68341b0413134b79/1-0000.mp3", duration = 61.7273469, start = 0},
   },
 }
 P.transport["quest:3843"] = {
@@ -1502,7 +1502,7 @@ P.transport["quest:3843"] = {
   fullHash = "2d4b3a",
   text = "The Newest Member of the Family. Only an hour remains to bring the fragile egg to Agnar Beastamer at Aerie Peak, before the hatchling inside dies. Quentin calls the sprite darter egg a magnificent specimen. If it survives, it will make a healthy pet. He sends you to Aerie Peak in the Hinterlands, where Agnar Beastamer can guide the final steps of incubation. The dwarf is a master animal handler, and the egg cannot go long without care. Find Agnar within an hour, or the hatchling inside will die. He lives in Wildhammer Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3843-babb567467e28e77414c/1-0000.mp3", duration = 29.9363265, start = 0},
+    {file = "Audio/Transport/full_quest_3843-b91c115499561f3200a5/1-0000.mp3", duration = 45.9493878, start = 0},
   },
 }
 P.transport["quest:4041"] = {
@@ -1510,7 +1510,7 @@ P.transport["quest:4041"] = {
   fullHash = "e4808e",
   text = "The Videre Elixir. Bring Gregan Brewspewer an Evoroot, and he can brew the Videre Elixir. He boasts of his knowledge of herbs and alchemy. Gregan Brewspewer needs an Evoroot before he can brew your Videre Elixir. He boasts that he knows a great many things about herbs and alchemy, then begins a tale about turning the cheese meant for lunch into gold. When you walk away, he asks where you are going. Ask Gregan where to find an Evoroot.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4041-bd6385f900fda1df2b54/1-0000.mp3", duration = 23.9542857, start = 0},
+    {file = "Audio/Transport/full_quest_4041-e6a4dad0851dca43a2aa/1-0000.mp3", duration = 38.8440816, start = 0},
   },
 }
 P.transport["quest:4062"] = {
@@ -1518,7 +1518,7 @@ P.transport["quest:4062"] = {
   fullHash = "4b2f30",
   text = "The Rise of the Machines. In the Burning Steppes, the machines bore marks that now send you to Lotwil Veriatus. The shards bear G.L.A., with a rank marking beneath. The machines you brought down in the Burning Steppes bore Rank IV, which Theodora takes to be a low rank. So Hierophant Theodora Mulvadania sends you with a sample shard to Lotwil Veriatus, renowned among scholars of elemental sciences. Lotwil is stationed at a camp to the east, where Theodora hopes he can help with the search.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4062-8586a78bb63359b9daf3/1-0000.mp3", duration = 27.2457143, start = 0},
+    {file = "Audio/Transport/full_quest_4062-c1ebc87806682eab7cb8/1-0000.mp3", duration = 36.6759184, start = 0},
   },
 }
 P.transport["quest:4120"] = {
@@ -1526,7 +1526,7 @@ P.transport["quest:4120"] = {
   fullHash = "75ddef",
   text = "The Strength of Corruption. At Camp Mojache, Talo Thornhoof sends you north to Felwood to judge the strength of its tainted beasts. Talo Thornhoof hunts by studying the strengths of his foes. He believes knowing an enemy can turn a battle in your favor. Felwood lies north of Ashenvale, where fel has tainted the creatures. Talo fears its maddened bears and wolves have grown stronger. Face twelve Angerclaw grizzlies and twelve Felpaw ravagers there. Fel-touched creatures glow a strange green. Talo senses that fel is evil, yet very powerful.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4120-1fe932ba70f33e48edd5/1-0000.mp3", duration = 32.7836735, start = 0},
+    {file = "Audio/Transport/full_quest_4120-be2e15ec49a70841ad20/1-0000.mp3", duration = 44.6693878, start = 0},
   },
 }
 P.transport["quest:4124"] = {
@@ -1534,7 +1534,7 @@ P.transport["quest:4124"] = {
   fullHash = "11e86a",
   text = "The Missing Courier. In Feathermoon Stronghold, Latronicus Moonspear seeks help after a courier vanishes. The courier and his parcels have been gone about a week, and the stronghold's searches found nothing. Latronicus has declared him missing in action and sends you to Ginro Hearthkindle. Latronicus Moonspear has exhausted the stronghold's search for a courier and his parcels. Both have been missing for about a week, and Latronicus has declared the courier missing in action.\n\nGinro Hearthkindle, Latronicus's associate, is looking for help in Feathermoon Stronghold, perhaps in his quarters. Latronicus asks you to speak with Ginro if you have time and means to spare.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4124-9d4950225dc6dd6ec854/1-0000.mp3", duration = 39.1314286, start = 0},
+    {file = "Audio/Transport/full_quest_4124-f5c3c3d9c20ee847d46c/1-0000.mp3", duration = 54.3346939, start = 0},
   },
 }
 P.transport["quest:4125"] = {
@@ -1542,7 +1542,7 @@ P.transport["quest:4125"] = {
   fullHash = "909372",
   text = "The Missing Courier. Ginro Hearthkindle searches Feralas's coast for Raschal, missing for about a week. Raschal set out for Thalanaar, planning to row down the coast. Ginro could not find the boat and asks you to search the shore for a clue. Ginro Hearthkindle believes Raschal planned to row down the coast toward Thalanaar. Raschal set out about a week ago and knows Feralas well. Raschal has served with the expeditionary forces since General Feathermoon led them here.\n\nThe route crosses southern Feralas, away from the Horde camp. Ginro could not find the boat, so it may be hidden or sunk. It could hold a clue to Raschal's whereabouts. On the mainland, the Forgotten Coast runs south from the jetty.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4125-70c7846457d7be582e4d/1-0000.mp3", duration = 40.8555102, start = 0},
+    {file = "Audio/Transport/full_quest_4125-f1cb531f05649cf7b6f5/1-0000.mp3", duration = 57.8089796, start = 0},
   },
 }
 P.transport["quest:4127"] = {
@@ -1550,7 +1550,7 @@ P.transport["quest:4127"] = {
   fullHash = "74576a",
   text = "Boat Wreckage. Off the coast, Boat Wreckage holds a clue for Ginro Hearthkindle in Feathermoon Stronghold. A well-cared-for knife lies in the mud, and you sense something else in the water. Near the wrecked boat, you feel through the mud and find a well-cared-for knife. Whoever was aboard may have lost it when the large chunk went missing from the boat. You take the knife to Ginro Hearthkindle in Feathermoon Stronghold. Ginro asked you to bring back any clue you found, yet something else still shares the water.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4127-b5cc013dbd0114002e6a/1-0000.mp3", duration = 27.6636735, start = 0},
+    {file = "Audio/Transport/full_quest_4127-ca5d8f506eceaecd9b41/1-0000.mp3", duration = 40.6465306, start = 0},
   },
 }
 P.transport["quest:4129"] = {
@@ -1558,7 +1558,7 @@ P.transport["quest:4129"] = {
   fullHash = "f4a3f9",
   text = "The Knife Revealed. Ginro Hearthkindle sends you to Quintis Jonespyre with the knife, seeking a reading of its past. Ginro says the reading will settle Quintis's Kalimdor Hold 'Em debt. After Boat Wreckage, Ginro Hearthkindle sends you to Quintis Jonespyre with the knife. Quintis is Feathermoon Stronghold's resident druid, and he lives in a little tree-house there.\n\nBy touching an object, Quintis can learn its past. Ginro calls this psychometry magic he does not understand and chooses not to understand, though he has seen it work. Quintis owes Ginro a Kalimdor Hold 'Em debt, and Ginro says the knife's reading will clear it. Quintis says psychometric readings drain the psyche, much like losses at Kalimdor Hold 'Em. The Stronghold calls him the King of the Bad Beats. He is unlucky at cards, yet lucky with nature's secrets.\n\nQuintis agrees to read the knife. He hopes it will bring the breakthrough needed to uncover Raschal's fate.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4129-4123af1ea3eb635f8d06/1-0000.mp3", duration = 60.3428571, start = 0},
+    {file = "Audio/Transport/full_quest_4129-25cf8d1808bd192b5cb7/1-0000.mp3", duration = 86.4391837, start = 0},
   },
 }
 P.transport["quest:4130"] = {
@@ -1566,7 +1566,7 @@ P.transport["quest:4130"] = {
   fullHash = "a4341f",
   text = "Psychometric Reading. After Psychometric Reading, Quintis Jonespyre is still unsteady. His vision shows Raschal and the Woodpaw gnolls, and Quintis asks you to carry word to Ginro Hearthkindle in Feathermoon Stronghold. Quintis Jonespyre is unsteady, but his vision may help. Raschal pulls two large leather backpacks from the boat, heads inland, then returns to the boat. Gnoll scalps appear, and Quintis believes Raschal met Woodpaw gnolls. Raschal is very worried, almost terrified, and does not notice water elementals forming behind him. Then the images end. Quintis needs rest, so he asks you to tell Ginro, who needs to know.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4130-596febd87588c832842b/1-0000.mp3", duration = 39.6016327, start = 0},
+    {file = "Audio/Transport/full_quest_4130-5966d95eb66634f03365/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
 P.transport["quest:4131"] = {
@@ -1574,7 +1574,7 @@ P.transport["quest:4131"] = {
   fullHash = "4205c4",
   text = "The Woodpaw Gnolls. In southern Feralas, you search Woodpaw camps for Raschal, the courier. After Quintis's vision, Ginro Hearthkindle sends you to find him or his belongings, though Ginro doubts the gnolls were his undoing. Ginro Hearthkindle admits the Woodpaw, whom Ginro calls “friends,” may have done for Raschal after all. Still, Ginro feels the gnolls were not responsible, and their camps are the best place to start. Ginro has no clearer plan than to search them.\n\nGnolls keep what they scavenge and fight over it, so they may have found the backpacks Quintis mentioned. Ginro once avoided open fighting during earlier searches. Now the vision guides you, and Ginro says to rip into them. The camps lie in southern Feralas.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4131-6b69d420d90c6ee517f4/1-0000.mp3", duration = 42.5012245, start = 0},
+    {file = "Audio/Transport/full_quest_4131-8d68a65aefdb3523c183/1-0000.mp3", duration = 60.9436735, start = 0},
   },
 }
 P.transport["quest:4135"] = {
@@ -1582,7 +1582,7 @@ P.transport["quest:4135"] = {
   fullHash = "b5e3d8",
   text = "The Writhing Deep. In the Writhing Deep, Raschal has gone to investigate a grave danger to Feralas. Your search for him leads there. The backpacks hold a parcel for Thalanaar and a hurried note with no recipient named. Raschal of Feathermoon wrote it after finding bug-like creatures in the Writhing Deep, south of the gnoll camps. He feared they threatened all of Feralas, so he went to investigate them himself. His note shows where he went.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4135-62e633d88c814c220cbf/1-0000.mp3", duration = 24.5289796, start = 0},
+    {file = "Audio/Transport/full_quest_4135-bf8ac1b7a006f5eb9788/1-0000.mp3", duration = 38.2955102, start = 0},
   },
 }
 P.transport["quest:4265"] = {
@@ -1590,7 +1590,7 @@ P.transport["quest:4265"] = {
   fullHash = "f97f1f",
   text = "Freed from the Hive. At the Writhing Deep, Raschal lives, but the Zukk'ash hive has left him deeply stunned. He needs word sent to Ginro Hearthkindle in Feathermoon Stronghold. You help a night elf down from the pod, and he begins to stir. He names himself Raschal and says the bugs overwhelmed him, leaving him paralyzed inside. Though he looks healthy, he remains deeply stunned. He asks if the Stronghold sent you. Ginro Hearthkindle waits in Feathermoon Stronghold. Tell him Raschal lives and is well.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4265-a7afad34d6d99dc4c2d0/1-0000.mp3", duration = 30.4326531, start = 0},
+    {file = "Audio/Transport/full_quest_4265-0229d9b3ce6d747f5b22/1-0000.mp3", duration = 43.5722449, start = 0},
   },
 }
 P.transport["quest:4266"] = {
@@ -1598,7 +1598,7 @@ P.transport["quest:4266"] = {
   fullHash = "3e5bb8",
   text = "A Hero's Welcome. General Shandris Feathermoon has asked to see you in person. Ginro Hearthkindle thinks she may thank you for aiding Feathermoon Stronghold and speak about the Zukk'ash insects you and Raschal met in southern Feralas. Ginro Hearthkindle says General Shandris Feathermoon is waiting in Feathermoon Stronghold's main compound. The reports about the Zukk'ash insects frighten him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4266-7bbf6c193c0eee3b508d/1-0000.mp3", duration = 20.715102, start = 0},
+    {file = "Audio/Transport/full_quest_4266-b255b395935251785a31/1-0000.mp3", duration = 33.6979592, start = 0},
   },
 }
 P.transport["quest:4267"] = {
@@ -1606,7 +1606,7 @@ P.transport["quest:4267"] = {
   fullHash = "d0b199",
   text = "Rise of the Silithid. In Darnassus, a copy of Raschal's account is bound for Gracina Spiritmight. General Shandris Feathermoon gives it to you, trusting the priestess's knowledge of such creatures. General Shandris Feathermoon entrusts you with a copy of Raschal's account for Gracina Spiritmight, an associate of the Protectorate. The main report has been filed in Darnassus, where Gracina lives as a priestess in the Temple of the Moon. Shandris believes her broad knowledge of such creatures will benefit everyone who receives the account. She sends you on with good wishes and a prayer that Elune watch over all.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4267-9227729342f108a806ec/1-0000.mp3", duration = 34.2465306, start = 0},
+    {file = "Audio/Transport/full_quest_4267-c9cb56abd88aad75c31b/1-0000.mp3", duration = 47.5689796, start = 0},
   },
 }
 P.transport["quest:4281"] = {
@@ -1614,7 +1614,7 @@ P.transport["quest:4281"] = {
   fullHash = "16c0d8",
   text = "Thalanaar Delivery. At the Woodpaw camps, a parcel for Thalanaar still waits for its recipient. The hand-written name may guide you there. You find goods for Thalanaar in the Woodpaw gnoll camps. The small way-station lies in southeastern Feralas. A hand-written name on the parcel points you toward the person expecting the goods: Falfindel Waywarder.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4281-f671d9f0a73e80b6f85b/1-0000.mp3", duration = 20.0881633, start = 0},
+    {file = "Audio/Transport/full_quest_4281-21af604787d40b72dab9/1-0000.mp3", duration = 30.9812245, start = 0},
   },
 }
 P.transport["quest:4297"] = {
@@ -1622,7 +1622,7 @@ P.transport["quest:4297"] = {
   fullHash = "29b9de",
   text = "Food for Baby. Agnar Beastamer will care for your egg until it hatches. Sprite darters eat meat and vegetation, and their young favor raw, juicy flanks. Agnar wants Silvermane stalker flanks for the hatchling. Agnar Beastamer says sprite darters eat meat and vegetation. Their young favor raw, juicy flanks. Agnar will care for the egg until it hatches and wants Silvermane stalker flanks for the hatchling. Without a good first meal, the newborn might not live through its first week. Agnar never learned why sprite darters eat meat. Agnar knows only that it is tied to Elune’s plan for the elves. Perhaps they were meant to be protectors, Agnar wonders, but cannot say for sure. Agnar also admits to being jealous that you got the egg.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4297-95c9665fc5c1c551c4f7/1-0000.mp3", duration = 44.8261224, start = 0},
+    {file = "Audio/Transport/full_quest_4297-ba2d0feeb54ad0963b12/1-0000.mp3", duration = 62.6677551, start = 0},
   },
 }
 P.transport["quest:4298"] = {
@@ -1630,7 +1630,7 @@ P.transport["quest:4298"] = {
   fullHash = "6747ee",
   text = "Becoming a Parent. In the Hinterlands, Agnar Beastamer has news: the egg is further along than he expected. He wants to speak with you. The egg has advanced further than Agnar Beastamer expected. You have brought food for the hatchling. Now speak with Agnar in the Hinterlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4298-0a3ba3481c9dd099fbb2/1-0000.mp3", duration = 16.64, start = 0},
+    {file = "Audio/Transport/full_quest_4298-30ae31ded8872e33126f/1-0000.mp3", duration = 27.0367347, start = 0},
   },
 }
 P.transport["quest:4449"] = {
@@ -1718,7 +1718,7 @@ P.transport["quest:504"] = {
   fullHash = "783364",
   text = "Crushridge Warmongers. In the Ruins of Alterac, Crushridge Warmongers face a fiercer hunt. Marshal Redpath of Southshore sends you after them to keep the ogres from Alliance lands. Marshal Redpath sends you into the Ruins of Alterac after Crushridge Bounty. He wants you to hunt down many Crushridge Warmongers and strike the Crushridge ogres hard. Redpath believes nothing else will teach the brutes to keep clear of Alliance territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_504-6597faf9b040620a8199/1-0000.mp3", duration = 25.0514286, start = 0},
+    {file = "Audio/Transport/full_quest_504-a5c3052457217f336bb5/1-0000.mp3", duration = 33.0971429, start = 0},
   },
 }
 P.transport["quest:507"] = {
@@ -1766,7 +1766,7 @@ P.transport["quest:523"] = {
   fullHash = "863398",
   text = "Baron's Demise. In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head. After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_523-b0124dd00bff093dd1e5/1-0000.mp3", duration = 41.3779592, start = 0},
+    {file = "Audio/Transport/full_quest_523-afc160d182cfe8ea993d/1-0000.mp3", duration = 51.8269388, start = 0},
   },
 }
 P.transport["quest:537"] = {
@@ -1782,7 +1782,7 @@ P.transport["quest:551"] = {
   fullHash = "14e8cf",
   text = "The Ensorcelled Parchment. At the top of The Ensorcelled Parchment, Nagaz is the only name clear. A spell hides the rest, so you take it to Loremaster Dibbs in Southshore. A spell keeps the parchment's writing from being read. Only Nagaz can be made out at the top. You take it to Loremaster Dibbs in Southshore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_551-ae6c55543554982a8907/1-0000.mp3", duration = 18.155102, start = 0},
+    {file = "Audio/Transport/full_quest_551-e7fb9e522edbf4cf017f/1-0000.mp3", duration = 25.1820408, start = 0},
   },
 }
 P.transport["quest:554"] = {
@@ -1790,7 +1790,7 @@ P.transport["quest:554"] = {
   fullHash = "092257",
   text = "Stormpike's Deciphering. In Ironforge, Loremaster Dibbs sends you to Prospector Stormpike with an ensorcelled parchment. After The Ensorcelled Parchment, Dibbs sends you to Ironforge with the parchment. Prospector Stormpike is studying at the Prospector headquarters. Tell him Dibbs sent you; Dibbs has been bringing Stormpike plenty of business lately.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_554-b67ced1028222ba826fd/1-0000.mp3", duration = 20.6367347, start = 0},
+    {file = "Audio/Transport/full_quest_554-eb4a27a07583f9076013/1-0000.mp3", duration = 26.357551, start = 0},
   },
 }
 P.transport["quest:566"] = {
@@ -2126,7 +2126,7 @@ P.transport["quest:641"] = {
   fullHash = "802730",
   text = "Sigil of Thoradin. Tor'gan has restored the Sigil of Thoradin, and Zengu waits in Hammerfall for its return. The sigil can open the seal on Trollbane's tomb. Tor'gan's reconstruction has worked. The Sigil of Thoradin can open the seal on Trollbane's tomb, so he sends you back to Zengu in Hammerfall. Zengu has more for you to do.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_641-8480022a2ee093cb5fce/1-0000.mp3", duration = 21.002449, start = 0},
+    {file = "Audio/Transport/full_quest_641-c3472d6f9c72009f7388/1-0000.mp3", duration = 26.2008163, start = 0},
   },
 }
 P.transport["quest:643"] = {
@@ -2134,7 +2134,7 @@ P.transport["quest:643"] = {
   fullHash = "6dc383",
   text = "Sigil of Arathor. Zengu sends you from Hammerfall to seek a sigil carried by human cavalry in the Arathi Highlands. Find their leader, Lieutenant Valorcall, and bring the sigil back. Zengu doubts the humans can claim Stromgarde, much less the whole Arathi Highlands. Yet their prince still sends the last of his horsemen through the countryside. Zengu cannot see why. He knows Lieutenant Valorcall leads those riders and carries one of the sigils. Find Valorcall and bring it back to Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_643-16084a2b347e678670ab/1-0000.mp3", duration = 29.3093878, start = 0},
+    {file = "Audio/Transport/full_quest_643-56618b6ac9f4fa0de8f8/1-0000.mp3", duration = 35.0302041, start = 0},
   },
 }
 P.transport["quest:644"] = {
@@ -2142,7 +2142,7 @@ P.transport["quest:644"] = {
   fullHash = "8fc2c0",
   text = "Sigil of Trollbane. In Hammerfall, Zengu sends you deep into Stromgarde for the Sigil of Trollbane. Prince Galen keeps the last sigil, which is needed to claim Trol'kalar. Prince Galen, son of Thoras Trollbane, keeps the last sigil in Stromgarde. He waits in a chapel deep in the districts held by the militia. Zengu warns that Galen is well guarded and a fine fighter. You are to kill the prince and carry the sigil back to Zengu in Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_644-3f40225a5ef8c5cbe7f4/1-0000.mp3", duration = 26.2791837, start = 0},
+    {file = "Audio/Transport/full_quest_644-323b174f53faaa0be26e/1-0000.mp3", duration = 36.2318367, start = 0},
   },
 }
 P.transport["quest:645"] = {
@@ -2158,7 +2158,7 @@ P.transport["quest:646"] = {
   fullHash = "129544",
   text = "Trol'kalar. At Trollbane's Tomb, Trol'kalar slips free of its stone sheath as the light fades. You carry the sword to Zengu in Hammerfall. At Trollbane's Tomb, you find Trol'kalar free of its stone sheath. You carry the sheathed sword to Zengu in Hammerfall, in the Arathi Highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_646-f6d9605d658052cdfa85/1-0000.mp3", duration = 17.5542857, start = 0},
+    {file = "Audio/Transport/full_quest_646-9051e41290b665572a3e/1-0000.mp3", duration = 22.8832653, start = 0},
   },
 }
 P.transport["quest:648"] = {
@@ -2174,7 +2174,7 @@ P.transport["quest:652"] = {
   fullHash = "35ec3a",
   text = "Breaking the Keystone. The voice has more freedom now, though the Keystone still binds it. The Keystone lies among a ring of stones, and Fozruk holds the key the watchers call the Rod of Order. Opening the Stones of Binding eased the voice's confinement, but one lock still holds the Keystone. It lies among the circle of stones around you. Fozruk, a stone watcher and one of its captors, holds the key the watchers call the Rod of Order. Carry the rod to the Keystone and open the lock. The voice promises gratitude that will shake the earth to its roots. Geomantic energy fills the Keystone.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_652-33b5bd102d603bae27dd/1-0000.mp3", duration = 33.8808163, start = 0},
+    {file = "Audio/Transport/full_quest_652-fad924ef1495904a735b/1-0000.mp3", duration = 43.0236735, start = 0},
   },
 }
 P.transport["quest:653"] = {
@@ -2198,7 +2198,7 @@ P.transport["quest:656"] = {
   fullHash = "3bb4bb",
   text = "Summoning the Princess. At the Shards of Myzrael, you summon Myzrael and face her before she grows strong enough to challenge her captors. Theldurin the Lost wants her defeated and her Eldritch Shackles bound to the Shards. Theldurin fears Myzrael will grow strong enough to turn against her captors. Some say she can be controlled. But Theldurin asks why the giants would have chained her if that were true. You take the Scroll of Myzrael to the Shards, where you first spoke with her, and call her forth. Once Myzrael is defeated, you bind her Eldritch Shackles to the Shards and trap her again.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_656-f5a8d50b1a8b5292a787/1-0000.mp3", duration = 35.1869388, start = 0},
+    {file = "Audio/Transport/full_quest_656-dacb15344dcbab8b6bb1/1-0000.mp3", duration = 42.5795918, start = 0},
   },
 }
 P.transport["quest:6568"] = {
@@ -2222,7 +2222,7 @@ P.transport["quest:664"] = {
   fullHash = "c1838a",
   text = "Drowned Sorrows. At Faldir's Cove, Captain Steelgut mourns the Maiden's Folly and asks you to kill the Daggerspine naga who slew the wreck's survivors. At Faldir's Cove, Captain Steelgut sits by the fire and wishes the sea had taken him too. His crew fought hard to save the Maiden's Folly, but water rushed in all at once and the ship sank. O'Breen reached shore safely, while the naga killed the other survivors. Steelgut wants ten Daggerspine raiders and three Daggerspine sorceresses dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_664-44554b838fa9d54cc6e8/1-0000.mp3", duration = 30.2236735, start = 0},
+    {file = "Audio/Transport/full_quest_664-2486146d884908f18ef9/1-0000.mp3", duration = 36.1012245, start = 0},
   },
 }
 P.transport["quest:665"] = {
@@ -2238,7 +2238,7 @@ P.transport["quest:666"] = {
   fullHash = "15462b",
   text = "Sunken Treasure. In Faldir's Cove, Doctor Draxlegauge lends you his goggles to find ten elven gems for Captain O'Breen. He expects them back when you finish. The elven gems have lain on the sea floor so long that thick stone has hardened around them. The Goggles of Gem Hunting hold the power to find them through those stony shells. Proud of the gnomish ingenuity behind the goggles, Doctor Draxlegauge lends them to you. The gems are for Captain O'Breen. Doctor Draxlegauge says scientific work keeps him on safe, dry land, though he could swim down himself. He expects you to return the goggles afterward. Captain O'Breen, he says, will have plenty of use for them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_666-3a3337ad35417c2c7a06/1-0000.mp3", duration = 39.4187755, start = 0},
+    {file = "Audio/Transport/full_quest_666-19dedf058c104774c749/1-0000.mp3", duration = 53.3681633, start = 0},
   },
 }
 P.transport["quest:667"] = {
@@ -2254,7 +2254,7 @@ P.transport["quest:668"] = {
   fullHash = "3ca53f",
   text = "Sunken Treasure. Doctor Draxlegauge sends you to Captain O'Breen, who waits at the bridge for the elven gems. After weeks among pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. Doctor Draxlegauge is eager to bring Captain O'Breen the elven gems. The captain waits at the bridge and wants to see them for himself. After weeks among these pirates, the doctor and the professor have learned that keeping pirate treasure is bad for their health. So Draxlegauge gives you the gems to carry to O'Breen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_668-d83554dec0c77090661e/1-0000.mp3", duration = 29.2310204, start = 0},
+    {file = "Audio/Transport/full_quest_668-54f33ed9558e0bb2c936/1-0000.mp3", duration = 41.0383673, start = 0},
   },
 }
 P.transport["quest:669"] = {
@@ -2286,7 +2286,7 @@ P.transport["quest:679"] = {
   fullHash = "eaf3f4",
   text = "Call to Arms. At Hammerfall, Drum Fel sends you after the Boulderfist leaders in Stromgarde. After your earlier work, he says it is time to strike the head from the beast. Drum Fel says you are ready to help deliver one last great blow. The Boulderfist leaders have made their lair in Stromgarde’s ruins, which he calls a symbol of human frailty. He sends you to hunt down the lords and the shaman who serve them. They lead attacks meant to drive the Horde from these lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_679-cb7b089f50f149bd3900/1-0000.mp3", duration = 27.5330612, start = 0},
+    {file = "Audio/Transport/full_quest_679-bac0c80b99ba1780bdde/1-0000.mp3", duration = 34.8734694, start = 0},
   },
 }
 P.transport["quest:680"] = {
@@ -2302,7 +2302,7 @@ P.transport["quest:687"] = {
   fullHash = "134730",
   text = "Theldurin the Lost. In the Badlands, the Twilight's Hammer hunts for Theldurin the Lost and the scroll of Myzrael he took when he fled. Theldurin once followed the Twilight's Hammer. Then his mind slipped, and he turned from its teachings. He fled with the scroll of Myzrael, and the order could not catch him. Word has reached the Twilight's Hammer that Theldurin hides in the Badlands, raving and mad. The order needs the scroll for the Lady's return. First, you must find the man who took it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_687-6283da3705af888dc03c/1-0000.mp3", duration = 29.3355102, start = 0},
+    {file = "Audio/Transport/full_quest_687-e0aa5fc4b76d1d3662a8/1-0000.mp3", duration = 37.3028571, start = 0},
   },
 }
 P.transport["quest:688"] = {
@@ -2310,7 +2310,7 @@ P.transport["quest:688"] = {
   fullHash = "44f56a",
   text = "Myzrael's Allies. Through the keystone, Myzrael declares herself free, though still hidden from her captors. She sends you to Zaruk in Hammerfall, who knows how to summon her. Myzrael declares that she is free through the keystone. She must gather her strength out of sight. Her captors would overpower and imprison her again if they faced her now. In time, she vows to confront the giants who held her and make them regret keeping her. Myzrael calls you a noble ally and says she will need your aid again in time. When ready, she will have you summon her to the surface. For now, she sends you to Zaruk in Hammerfall, who knows how it can be done.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_688-95b5014b04b47760149e/1-0000.mp3", duration = 36.4930612, start = 0},
+    {file = "Audio/Transport/full_quest_688-94ea3f03aba176074a68/1-0000.mp3", duration = 47.3861224, start = 0},
   },
 }
 P.transport["quest:692"] = {
@@ -2318,7 +2318,7 @@ P.transport["quest:692"] = {
   fullHash = "7481c2",
   text = "The Lost Fragments. Behind Theldurin, furious elementals fight over scraps of the Scroll of Myzrael. You gather the torn pieces while he fears what its magic might do. Theldurin the Lost fears the Scroll of Myzrael could draw Myzrael up to the surface. Then he considers another danger. She may already be free, or gathering strength to strike. If so, the scroll may be what you need to bind her again. Furious elementals took the scroll and tore it apart. Now they fight over its scraps in the hills behind Theldurin. Bring back three pieces: one torn, one crumpled and one singed. Theldurin hopes to mend them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_692-c47d38a2a09775ef8a10/1-0000.mp3", duration = 37.642449, start = 0},
+    {file = "Audio/Transport/full_quest_692-f32e5b3e1cf1aa6fb42c/1-0000.mp3", duration = 47.9085714, start = 0},
   },
 }
 P.transport["quest:698"] = {
@@ -2342,7 +2342,7 @@ P.transport["quest:7003"] = {
   fullHash = "4d7723",
   text = "Zapped Giants. On Feralas's Forgotten Coast, Zorbin Fandazzle tests a shrinking ray on the giants near the docks. He built it from a gnomish design and improved it with goblin know-how, then gives you the Ultra-Shrinker to try on Feralas's giants. Zorbin Fandazzle needs the giants of Feralas dealt with so he can stay and keep his business. His answer is a shrinking ray based on a gnomish design, improved with what he calls superior goblin advances. He would rather you test it than risk his own life.\n\nUse the Ultra-Shrinker on Cliff Giants, Deep Striders, Wave Striders, Shore Striders or Land Walkers. Gather the miniaturization residue left behind when they shrink, then bring it back to the docks. Zorbin calls miniaturization residue valuable in engineering. It helps keep a zapper from exploding on its user. Then he adds that this applies only to other zappers, not the one in your hands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7003-51b305cbd5de2fd16f5a/1-0000.mp3", duration = 54.1518367, start = 0},
+    {file = "Audio/Transport/full_quest_7003-a3a3ffa6960847708e74/1-0000.mp3", duration = 80.4310204, start = 0},
   },
 }
 P.transport["quest:703"] = {
@@ -2382,7 +2382,7 @@ P.transport["quest:716"] = {
   fullHash = "60e68d",
   text = "Stone Is Better than Cloth. In the Badlands, Lucien Tosselwrench has a gift for you, though his work is not finished. The extra stones you gathered are ready, but he still needs patterned bronze bracers. After your work for Lotwil on his third Study of the Elements: Rock request, Lucien Tosselwrench admits Lotwil can be cheap. He means to make it up to you with fine enchanted bracers fashioned from the extra stones you gathered. They may help guard you against the coming atrocity of Lotwil's newest invention. To finish the bracers, Lucien needs patterned bronze bracers of the kind a blacksmith makes. He warns you not to wait long. No one knows what happens next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_716-9da591ac710d3af1022b/1-0000.mp3", duration = 39.6277551, start = 0},
+    {file = "Audio/Transport/full_quest_716-03b57e0e91ad58ec0090/1-0000.mp3", duration = 53.6555102, start = 0},
   },
 }
 P.transport["quest:717"] = {
@@ -2390,7 +2390,7 @@ P.transport["quest:717"] = {
   fullHash = "4f928c",
   text = "Tremors of the Earth. At Lethlor, Garek fears the drakes may break free. Black dragons now dwell there, and ogres have taken the Sign of the Earth. So he sends you to free the drakes and kill them. At Lethlor, Garek fears Blacklash and Hematus may escape their prison. Black dragons now dwell there, and ogres have taken the Sign of the Earth. Garek sees no safer course. The drakes must die. Three runestones hold the drakes, and the Sign of the Earth is needed to release them. You use the Sign at the Pillars of Amethyst, Opal and Diamond, then place the runestones in the Seal of the Earth. Blacklash and Hematus are freed, and you slay them. Garek asks you to bring back Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_717-ef98583080f8510319c5/1-0000.mp3", duration = 45.9493878, start = 0},
+    {file = "Audio/Transport/full_quest_717-5f7faf6b120694baa68f/1-0000.mp3", duration = 55.4579592, start = 0},
   },
 }
 P.transport["quest:723"] = {
@@ -2398,7 +2398,7 @@ P.transport["quest:723"] = {
   fullHash = "2e2cbb",
   text = "Prospect of Faith. In the Badlands, Hammertoe Grez sends you to Prospector Ryedol with his amulet. Ryedol knows Hammertoe sought the origins of their people and wants to keep the scrolls from the Shadowforge clan. Wounded in the Badlands, Hammertoe Grez asks you to carry his amulet to Ryedol. He trusts Ryedol to know what to do. Hammertoe sought the origins of their people and meant to thwart the Shadowforge clan. The clan must not get the scrolls.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_723-8cabf174083af01a7500/1-0000.mp3", duration = 26.1485714, start = 0},
+    {file = "Audio/Transport/full_quest_723-93d6afc3f481fda60eae/1-0000.mp3", duration = 31.0595918, start = 0},
   },
 }
 P.transport["quest:724"] = {
@@ -2406,7 +2406,7 @@ P.transport["quest:724"] = {
   fullHash = "3d2960",
   text = "Prospect of Faith. In the Badlands, Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe sought Uldaman's lost artifacts together. Ryedol suspects the Shadowforge learned they knew more than they let on. Prospector Ryedol sends you to Historian Karnik in Ironforge. Tell Karnik what happened to Hammertoe and place the amulet in his hands. Karnik will decide what to do next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_724-166315d457835f853247/1-0000.mp3", duration = 24.9469388, start = 0},
+    {file = "Audio/Transport/full_quest_724-16c34355bdf684d868eb/1-0000.mp3", duration = 31.242449, start = 0},
   },
 }
 P.transport["quest:725"] = {
@@ -2422,7 +2422,7 @@ P.transport["quest:726"] = {
   fullHash = "1a9a5c",
   text = "Passing Word of a Threat. In the Badlands, Belgrum sends you back to Karnik with the king's command to act swiftly against the Shadowforge. Belgrum reads Karnik's note to the end. His eyes widen at the evil tidings. He sends you back to Karnik with the king's command: act swiftly and decisively on what is known. The Shadowforge's activities in the Badlands must stop.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_726-e0840cfc9b4e9e926feb/1-0000.mp3", duration = 20.715102, start = 0},
+    {file = "Audio/Transport/full_quest_726-194c94ff3f58c37e63d1/1-0000.mp3", duration = 27.3763265, start = 0},
   },
 }
 P.transport["quest:727"] = {
@@ -2454,7 +2454,7 @@ P.transport["quest:733"] = {
   fullHash = "3f8582",
   text = "Scrounging. At Sigrun Ironhew's camp, defenses and supplies wait on scrap metal. She needs seven pieces, and nearby ogres carry plenty. Sigrun Ironhew needs materials for the camp's defenses and other needs. The Prospector worries about the camp's condition, so Sigrun wants to begin work soon. Scrap metal is what she lacks. Nearby ogres carry scrap metal, adding weight to talk of siege engines in the Badlands. Their main camp, Dustbelch Grotto, lies a long trek west of Sigrun's camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_733-0bd61b57a161cabb10fe/1-0000.mp3", duration = 32.3918367, start = 0},
+    {file = "Audio/Transport/full_quest_733-73b976b83f4ff6f2a23c/1-0000.mp3", duration = 38.7395918, start = 0},
   },
 }
 P.transport["quest:734"] = {
@@ -2462,7 +2462,7 @@ P.transport["quest:734"] = {
   fullHash = "eaee35",
   text = "This Is Going to Be Hard. In the Badlands, Lotwil Veriatus sends you to Lucien Tosselwrench for a needed cog #5. Bring it back to Lotwil. Lotwil Veriatus turns his attention to the shackles, then sends you to Lucien Tosselwrench. He needs a cog #5 and asks you to bring it back to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_734-5b30708d3a971cfd7833/1-0000.mp3", duration = 18.0244898, start = 0},
+    {file = "Audio/Transport/full_quest_734-b45111df5b81d1855e6b/1-0000.mp3", duration = 25.2081633, start = 0},
   },
 }
 P.transport["quest:735"] = {
@@ -2478,7 +2478,7 @@ P.transport["quest:737"] = {
   fullHash = "1857e9",
   text = "Forbidden Knowledge. Yagyin's Digest is in your care, bound for Theldurin the Lost and kept from unfriendly hands. Gerrig Bonegrip in Ironforge or Keeper Bel'dugur in the Undercity gives you Yagyin's Digest. Keep it from unfriendly hands as you carry it to Theldurin the Lost. It holds many truths, and truth has a way of burning.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_737-812cb1d23dbd94926bd3/1-0000.mp3", duration = 19.9836735, start = 0},
+    {file = "Audio/Transport/full_quest_737-381203082c23db9bba1d/1-0000.mp3", duration = 27.8726531, start = 0},
   },
 }
 P.transport["quest:739"] = {
@@ -2486,7 +2486,7 @@ P.transport["quest:739"] = {
   fullHash = "343619",
   text = "Murdaloc. Agmond lies dead in the Badlands, with Murdaloc scratched into the sandstone beside his hand. Slay his killer and carry word to Prospector Ironband in Loch Modan. Blood marks Agmond's trail from the west, crossing stone and sand. It shows how far the dwarf crawled before he died. Beside his still hand, one word is scratched into the Badlands sandstone: Murdaloc. Slay Agmond's killer and a number of Stonevault Bonesnappers, then carry the news to Prospector Ironband in Loch Modan.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_739-cbc358628b1a4e0bacaf/1-0000.mp3", duration = 32.4963265, start = 0},
+    {file = "Audio/Transport/full_quest_739-aed6b72e2159c847d01c/1-0000.mp3", duration = 37.1461224, start = 0},
   },
 }
 P.transport["quest:7541"] = {
@@ -2534,7 +2534,7 @@ P.transport["quest:7721"] = {
   fullHash = "6465a9",
   text = "Fuel for the Zapping. On the Forgotten Coast, Zorbin Fandazzle puts his engineering shop to work in a poor place. The elementals trouble him, but their water cores can power the refining of the Ultra-Shrinker. Zorbin Fandazzle curses the unchecked power of elementalism and calls the coast's elementals pests. Yet he sees their water elemental cores as raw power for refining the Ultra-Shrinker. He asks you to fight the Sea Elementals and Sea Sprays along the coast. Keep their cores and bring them to him by the dock.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7721-c9d4ca5ca14c7c3ea668/1-0000.mp3", duration = 28.4734694, start = 0},
+    {file = "Audio/Transport/full_quest_7721-9e2158250a95c8c4765b/1-0000.mp3", duration = 44.3297959, start = 0},
   },
 }
 P.transport["quest:7722"] = {
@@ -2566,7 +2566,7 @@ P.transport["quest:7725"] = {
   fullHash = "ceef25",
   text = "Again With the Zapped Giants. At the Forgotten Coast docks, Zorbin Fandazzle has another offer for you. Bring him more residue from Feralas giants shrunk with the Ultra-Shrinker. He can pay far less this time, but promises to spread word of your service. Zorbin Fandazzle asks you to shrink giants in Feralas again and bring ten miniaturization residues to the Forgotten Coast docks. There is always room for more, even after your first haul.\n\nHe cannot offer nearly as much this time. Instead, he promises to praise your service among his goblin friends, who have quite large ears.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7725-e749ef98bbb384a58e4f/1-0000.mp3", duration = 35.4742857, start = 0},
+    {file = "Audio/Transport/full_quest_7725-45b335c81f120c6fa63a/1-0000.mp3", duration = 48.6138776, start = 0},
   },
 }
 P.transport["quest:7726"] = {
@@ -2574,7 +2574,7 @@ P.transport["quest:7726"] = {
   fullHash = "dfdc4b",
   text = "Refuel for the Zapping. On the Forgotten Coast, Zorbin Fandazzle needs more water elemental cores. The shop is hard to establish, so the pay is small. Still, Zorbin promises to tell nearby folk of your help and says there are friends in the Cartel. Zorbin Fandazzle makes light of the heroic work of gathering goo from elemental beings. Then Zorbin asks if you want more of the same. Beneath the jest, Zorbin needs more water elemental cores.\n\nEstablishing a shop on the Forgotten Coast is a desperate business, so little can be given in return. Zorbin promises to tell everyone nearby how you helped, and says the promise is worth trusting because Zorbin knows people in the Cartel. Bring six cores from Sea Elementals and Sea Sprays on the Forgotten Coast to Zorbin near the dock.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7726-6f463f8b14ef729b363e/1-0000.mp3", duration = 45.2179592, start = 0},
+    {file = "Audio/Transport/full_quest_7726-c618e86a0fe74b9b3415/1-0000.mp3", duration = 67.7616327, start = 0},
   },
 }
 P.transport["quest:7727"] = {
@@ -2606,7 +2606,7 @@ P.transport["quest:7730"] = {
   fullHash = "abfe04",
   text = "Zukk'ash Infestation. At Camp Mojache, Hadoken Swiftstrider suspects the Zukk'ash south of the gnolls are driving them into a frenzy. He sends you to the Writhing Deep to thin their numbers and return with twenty carapaces. Hadoken Swiftstrider believes insect-like creatures live south of the gnolls. Whether they can think matters little to him. If they drive the gnolls into a frenzy against Camp Mojache, they threaten the camp as much as the gnolls do. So you enter their home, the Writhing Deep, to thin their numbers. Bring back twenty Zukk'ash carapaces as proof, and tell Hadoken what you find.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7730-e9628433e9e12626945b/1-0000.mp3", duration = 33.2538776, start = 0},
+    {file = "Audio/Transport/full_quest_7730-8637672ac2be7eec3c67/1-0000.mp3", duration = 50.2857143, start = 0},
   },
 }
 P.transport["quest:7731"] = {
@@ -2614,7 +2614,7 @@ P.transport["quest:7731"] = {
   fullHash = "ae692e",
   text = "Stinglasher. In the Writhing Deep, Hadoken Swiftstrider's scout has found an insect far larger than the others. A scout has found a giant insect wandering the twisted terrain of the Writhing Deep. It seems to give off an aura unlike the others, and Hadoken Swiftstrider has named it Stinglasher. Hadoken wants its secretion glands brought straight to Camp Mojache. By studying the insect's innards, Hadoken hopes to learn how to deal with this new threat.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7731-aa57b7d7dcfad7fc8ca5/1-0000.mp3", duration = 25.9657143, start = 0},
+    {file = "Audio/Transport/full_quest_7731-4befe855a6df83e0fc1c/1-0000.mp3", duration = 38.9746939, start = 0},
   },
 }
 P.transport["quest:7732"] = {
@@ -2622,7 +2622,7 @@ P.transport["quest:7732"] = {
   fullHash = "52a97e",
   text = "Zukk'ash Report. At Camp Mojache, Hadoken Swiftstrider says your work against the Zukk'ash has gone doubly well, though danger remains. He asks you to carry the camp's report to Zilzibin Drumlore in Orgrimmar. Hadoken Swiftstrider has a document about what Camp Mojache has learned of the Zukk'ash insects. Their threat remains, so he asks you to take the report to Orgrimmar. Zilzibin Drumlore lives in the Drag and knows alien creatures like these. Hadoken hopes the camp's findings will prove useful.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7732-b1dddcd11c731725e00b/1-0000.mp3", duration = 28.9959184, start = 0},
+    {file = "Audio/Transport/full_quest_7732-2eaff19b29e7dc1f0d3c/1-0000.mp3", duration = 44.042449, start = 0},
   },
 }
 P.transport["quest:7733"] = {
@@ -2630,7 +2630,7 @@ P.transport["quest:7733"] = {
   fullHash = "a317eb",
   text = "Improved Quality. In northern Feralas, Pratt McGrubben wants tougher yeti hides from Rage Scar Hold. He asks you to bring ten to Feathermoon Stronghold. After The Mark of Quality, Pratt McGrubben has found finer hides. A tougher throng of yetis lives inside Rage Scar Hold in northern Feralas. Bring ten hides to Pratt at Feathermoon Stronghold, and he will pay handsomely. If these hides match the Feral Scar hides, they may prove as resilient as thorium.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7733-50470389b049acfb895f/1-0000.mp3", duration = 28.1077551, start = 0},
+    {file = "Audio/Transport/full_quest_7733-1871df4c801df253d1c1/1-0000.mp3", duration = 40.8293878, start = 0},
   },
 }
 P.transport["quest:7734"] = {
@@ -2638,7 +2638,7 @@ P.transport["quest:7734"] = {
   fullHash = "bce2f0",
   text = "Improved Quality. At Camp Mojache, Jangdor Swiftstrider now seeks finer hides from the tougher yetis in Rage Scar Hold. After The Mark of Quality, Jangdor Swiftstrider has found a better source of hides. Tougher yetis roam inside Rage Scar Hold in northern Feralas. Bring ten hides to Camp Mojache, and Jangdor will pay handsomely. If they match the Feral Scar hides, they may prove as resilient as thorium.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7734-c6dc85533e2cc1479189/1-0000.mp3", duration = 25.3126531, start = 0},
+    {file = "Audio/Transport/full_quest_7734-6cac4a9ffb577517f2ab/1-0000.mp3", duration = 36.8326531, start = 0},
   },
 }
 P.transport["quest:7735"] = {
@@ -2646,7 +2646,7 @@ P.transport["quest:7735"] = {
   fullHash = "c12506",
   text = "Pristine Yeti Hide. In Feralas, a hide from Rage Scar's yetis may catch Pratt McGrubben's eye. It is unusually thick and tough, and Pratt is looking to buy yeti hides. Among the hides from Rage Scar's yetis, this one is unusually thick and sturdy. Pratt McGrubben wants to buy yeti hides at Feathermoon Stronghold in Feralas, so this hide may interest him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7735-5201612e601cc730b446/1-0000.mp3", duration = 21.9428571, start = 0},
+    {file = "Audio/Transport/full_quest_7735-b2bcddeff99a8b46e42e/1-0000.mp3", duration = 31.3730612, start = 0},
   },
 }
 P.transport["quest:7736"] = {
@@ -2670,7 +2670,7 @@ P.transport["quest:777"] = {
   fullHash = "8f96d2",
   text = "This Is Going to Be Hard. Behind cover, Lucien Tosselwrench waits while you carry cog #5 to Lotwil Veriatus. Lucien Tosselwrench gives you the cog for Lotwil Veriatus. Then he waits behind cover and welcomes you to join him. Lotwil is still bent over the shackles when you arrive. Without looking up, he holds out his hand and waggles his fingers for the cog.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_777-008246d37fdd5cacec44/1-0000.mp3", duration = 20.48, start = 0},
+    {file = "Audio/Transport/full_quest_777-2e4c7bc95432481c30e8/1-0000.mp3", duration = 32.3918367, start = 0},
   },
 }
 P.transport["quest:778"] = {

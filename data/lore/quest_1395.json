@@ -1,0 +1,65 @@
+{
+ "key": "quest:1395",
+ "type": "quest",
+ "name": "Supplies for Nethergarde",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1395
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Quartermaster Lungertz needs the Crate of Powerstones before its contents expire. You are asked to bring it to him.",
+ "sections": [
+  {
+   "title": "A Timely Delivery",
+   "body": "The Crate of Powerstones is meant for Quartermaster Lungertz. You are asked to bring it to him before the powerstones expire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I bring to Quartermaster Lungertz?",
+   "aliases": [
+    "what's the supply",
+    "powerstone crate",
+    "lungertz delivery"
+   ],
+   "answer": "You are asked to bring Quartermaster Lungertz the Crate of Powerstones."
+  },
+  {
+   "q": "Why is the delivery time sensitive?",
+   "aliases": [
+    "why hurry",
+    "powerstones expire",
+    "crate deadline"
+   ],
+   "answer": "The powerstones will expire, so the crate needs to reach Quartermaster Lungertz before then."
+  },
+  {
+   "q": "Who receives the crate?",
+   "aliases": [
+    "who gets it",
+    "quartermaster lungertz",
+    "where does the crate go"
+   ],
+   "answer": "Quartermaster Lungertz receives the Crate of Powerstones."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate of powerstones",
+  "expire",
+  "nethergarde",
+  "powerstones",
+  "quartermaster lungertz",
+  "supplies for nethergarde"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Supplies for Nethergarde"
+ ]
+}

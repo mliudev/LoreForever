@@ -1,0 +1,76 @@
+{
+ "key": "quest:97047",
+ "type": "quest",
+ "name": "The Cook in the Cage",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97047
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wendel asks you to free him from a cage in the Kurzen compound. He needs a key and a disguise to slip away.",
+ "sections": [
+  {
+   "title": "Wendel's Plea",
+   "body": "Wendel is trapped in the Kurzen compound after an ambush in the jungle. He fears what his captors may do and asks you to find a key for his cage and a disguise to help him escape.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is trapped in the cage?",
+   "aliases": [
+    "who is Wendel",
+    "caged guy",
+    "who needs help"
+   ],
+   "answer": "Wendel is an explorer who was ambushed in the jungle and taken prisoner."
+  },
+  {
+   "q": "Where is Wendel being held?",
+   "aliases": [
+    "where is the cage",
+    "Wendel location",
+    "where is he"
+   ],
+   "answer": "Wendel is held in a cage within the Kurzen compound."
+  },
+  {
+   "q": "What does Wendel need?",
+   "aliases": [
+    "how to free Wendel",
+    "what does he want",
+    "cage key disguise"
+   ],
+   "answer": "Wendel asks you to find a key for his cage and a disguise so he can sneak out."
+  },
+  {
+   "q": "Why is Wendel afraid?",
+   "aliases": [
+    "what are the Kurzen planning",
+    "tigers and headshrinkers",
+    "why is he scared"
+   ],
+   "answer": "Wendel has heard talk of tigers and headshrinkers, but does not know what his captors plan to do with him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cage",
+  "disguise",
+  "headshrinkers",
+  "jungle",
+  "key",
+  "kurzen compound",
+  "tigers",
+  "wendel"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Cook in the Cage"
+ ]
+}

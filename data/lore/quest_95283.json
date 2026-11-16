@@ -1,0 +1,74 @@
+{
+ "key": "quest:95283",
+ "type": "quest",
+ "name": "The Missing Kor'kron",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95283
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Kor'kron Elite contingent sent to Dustwallow Marsh has missed its check-in. You are sent to Brackenwall Village to ask Nazeer Bloodspike what he knows.",
+ "sections": [
+  {
+   "title": "Word from Dustwallow",
+   "body": "The contingent's silence leaves its mission unreported. In Brackenwall Village, Nazeer Bloodspike knows the state of Dustwallow Marsh better than anyone. You are sent to learn what he can tell you about the missing Kor'kron Elite.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent the Kor'kron Elite to Dustwallow Marsh?",
+   "aliases": [
+    "who dispatched the Kor'kron",
+    "who sent them"
+   ],
+   "answer": "The Kor'kron were dispatched by the speaker who asks you for help."
+  },
+  {
+   "q": "Why are the Kor'kron Elite missing?",
+   "aliases": [
+    "why missing kor'kron",
+    "what happened to them"
+   ],
+   "answer": "Their scheduled check-in has passed, and no word has come from them."
+  },
+  {
+   "q": "Where were the Kor'kron sent?",
+   "aliases": [
+    "where are kor'kron",
+    "kor'kron location"
+   ],
+   "answer": "A contingent of Kor'kron Elite was sent to Dustwallow Marsh on a special mission."
+  },
+  {
+   "q": "Who should I speak with in Brackenwall Village?",
+   "aliases": [
+    "who is Nazeer",
+    "Nazeer Bloodspike"
+   ],
+   "answer": "Speak with Nazeer Bloodspike, an orc who knows the state of Dustwallow Marsh."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "check-in",
+  "dustwallow marsh",
+  "kor'kron elite",
+  "missing kor'kron",
+  "nazeer bloodspike",
+  "special mission"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "subzone:brackenwall-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Missing Kor'kron"
+ ]
+}

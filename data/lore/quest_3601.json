@@ -1,0 +1,69 @@
+{
+ "key": "quest:3601",
+ "type": "quest",
+ "name": "Kim'jael Indeed!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3601
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kim'jael asks you to search Thalassian Base Camp for four belongings. You are to bring them back to him in Azshara.",
+ "sections": [
+  {
+   "title": "At the Camp",
+   "body": "Kim'jael is waiting in Azshara, and his belongings are at Thalassian Base Camp. You are asked to find his compass, scope, stuffed chicken and Wizzlegoober, then return them to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kim'jael want me to find?",
+   "aliases": [
+    "kim'jael items",
+    "what am i looking for",
+    "compass scope chicken"
+   ],
+   "answer": "Kim'jael asks you to find his compass, scope, stuffed chicken and Wizzlegoober at Thalassian Base Camp."
+  },
+  {
+   "q": "Where is Kim'jael?",
+   "aliases": [
+    "kim'jael location",
+    "where do i return these",
+    "kimjael where"
+   ],
+   "answer": "Kim'jael is in Azshara."
+  },
+  {
+   "q": "Where are Kim'jael's belongings?",
+   "aliases": [
+    "thalassian camp items",
+    "where are the things",
+    "items location"
+   ],
+   "answer": "Kim'jael's compass, scope, stuffed chicken and Wizzlegoober are at Thalassian Base Camp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "compass",
+  "kim'jael",
+  "scope",
+  "stuffed chicken",
+  "thalassian base camp",
+  "wizzlegoober"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:thalassian-base-camp"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Kim'jael Indeed!"
+ ]
+}

@@ -24,7 +24,7 @@ GIVER_PACKS = ['LoreForever_Voice_QuestGivers', 'LoreForever_Voice_QuestGivers2'
 # More places and people, item stories and quest stories (complete stories only): a choice of their own per narrator,
 # so the rows match the downloads page's cards (LOR-848: The add-on, Storyteller = + these, Everything = + quest
 # dialogue and the quest givers). One folder per zip, installed once built.
-MORE = ('MorePlaces', 'MorePeople', 'MoreItems', 'MoreQuests1', 'MoreQuests2', 'MoreQuests3')
+MORE = ('MorePlaces', 'MorePeople', 'MoreItems', 'MoreQuests0', 'MoreQuests1', 'MoreQuests2', 'MoreQuests3')
 MORE_PACKS = {'female-more': ['LoreForever_Voice_Female_' + s for s in MORE],
               'more': ['LoreForever_Voice_Default_' + s for s in MORE],
               'original': ['LoreForever_Voice_Original_MorePlaces', 'LoreForever_Voice_Original_MorePeople']}
@@ -188,14 +188,14 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
 # A pack's name while Setup fetches it, as the downloads page names it (site/public/data/packs.json), without the narrator
 # (the player picked one). A zip not listed keeps Setup's older wording.
 LABELS = {'MorePlaces': 'More places', 'MorePeople': 'More people', 'MoreItems': 'Item stories',
-          'MoreQuests1': 'Quest stories, levels 1-19', 'MoreQuests2': 'Quest stories, levels 20-39',
+          'MoreQuests0': 'Quest stories, levels 1-10', 'MoreQuests1': 'Quest stories, levels 1-19', 'MoreQuests2': 'Quest stories, levels 20-39',
           'MoreQuests3': 'Quest stories, levels 40+ and in-world books',
           'Quests': 'Quest dialogue, levels 1-25', 'Quests2': 'Quest dialogue, levels 26-50',
           'Quests3': 'Quest dialogue, levels 51-60', 'QuestGivers': "Quest givers' voices, levels 1-30",
           'QuestGivers2': "Quest givers' voices, levels 31-50", 'QuestGivers3': "Quest givers' voices, levels 51-60"}
 # What a player needs first comes first (PM, ask 14711: "the add-on, then the starting zones' packs, then the rest"):
 # Setup itself carries the add-on; then a narrator's own stories and lands, then the packs for levels 1-30.
-STARTING_ZONES = ('_Quests', '_QuestGivers', '_MoreQuests1')
+STARTING_ZONES = ('_Quests', '_QuestGivers', '_MoreQuests0', '_MoreQuests1')
 
 
 def label(archive):

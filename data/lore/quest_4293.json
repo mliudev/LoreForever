@@ -1,0 +1,74 @@
+{
+ "key": "quest:4293",
+ "type": "quest",
+ "name": "A Sample of Slime...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4293
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Chemist Fuely needs Felwood slime samples tested for corruption. You bring him five of the corrupted samples found with the testing equipment in Undercity.",
+ "sections": [
+  {
+   "title": "The Samples",
+   "body": "At Chemist Fuely's station in Undercity, the testing equipment can show which Felwood slime samples are most corrupted. You gather samples from the slimes in Felwood, then test them there. Fuely needs five corrupted samples brought back to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the slime samples?",
+   "aliases": [
+    "who wants samples",
+    "chemist fuely samples"
+   ],
+   "answer": "Chemist Fuely in Undercity asks you to bring him five corrupted Felwood slime samples."
+  },
+  {
+   "q": "Where do I get Felwood slime samples?",
+   "aliases": [
+    "slime samples where",
+    "felwood slime"
+   ],
+   "answer": "You gather samples from slimes in Felwood."
+  },
+  {
+   "q": "How do I tell which samples are corrupted?",
+   "aliases": [
+    "test slime samples",
+    "testing equipment"
+   ],
+   "answer": "Use the testing equipment beside Chemist Fuely in Undercity to identify the most corrupted samples."
+  },
+  {
+   "q": "How many corrupted samples does Fuely need?",
+   "aliases": [
+    "how many samples",
+    "five samples"
+   ],
+   "answer": "Chemist Fuely asks for five corrupted Felwood samples."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chemist fuely",
+  "corruption",
+  "felwood",
+  "samples",
+  "slime",
+  "testing equipment",
+  "undercity"
+ ],
+ "related": [
+  "zone:felwood",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Sample of Slime..."
+ ]
+}

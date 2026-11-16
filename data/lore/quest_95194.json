@@ -1,0 +1,91 @@
+{
+ "key": "quest:95194",
+ "type": "quest",
+ "name": "Our Man in Theramore",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95194
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "SI:7 seeks your help after a man washed ashore on Theramore Isle claims to be Varian Wrynn. Meet their agent Sully at the inn to learn what comes next.",
+ "sections": [
+  {
+   "title": "A Claim on Theramore",
+   "body": "SI:7 has heard that Jaina Proudmoore\u2019s marines brought a man ashore on Theramore Isle. He says he is Varian Wrynn, the missing king of Stormwind. Their agent Sully is waiting at the inn, and SI:7 wants you to learn what is happening.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does SI:7 want me in Theramore?",
+   "aliases": [
+    "why theramore",
+    "si7 theramore",
+    "what does si7 need"
+   ],
+   "answer": "A man found washed ashore on Theramore Isle claims to be Varian Wrynn. SI:7 wants you to meet its agent Sully and find out what is happening."
+  },
+  {
+   "q": "Who is Sully?",
+   "aliases": [
+    "who's sully",
+    "sully theramore",
+    "dwarf agent"
+   ],
+   "answer": "Sully is a dwarf and an SI:7 agent stationed on Theramore Isle. He is waiting for you at the inn."
+  },
+  {
+   "q": "Who brought the man ashore?",
+   "aliases": [
+    "washed up man",
+    "who found varian",
+    "marines theramore"
+   ],
+   "answer": "Jaina Proudmoore\u2019s marines brought the man to Theramore after finding him washed up on the shore."
+  },
+  {
+   "q": "What does the washed-up man claim?",
+   "aliases": [
+    "man on shore",
+    "varian claim",
+    "is that varian"
+   ],
+   "answer": "He claims to be Varian Wrynn, the king of Stormwind."
+  },
+  {
+   "q": "Where can I find Sully?",
+   "aliases": [
+    "sully location",
+    "where is the agent",
+    "theramore inn"
+   ],
+   "answer": "Sully is waiting at the inn on Theramore Isle."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "jaina proudmoore",
+  "our man in theramore",
+  "si:7",
+  "stormwind king",
+  "sully",
+  "theramore isle",
+  "varian wrynn",
+  "washed ashore"
+ ],
+ "related": [
+  "quest:2300",
+  "subzone:theramore-isle",
+  "npc:jaina-proudmoore",
+  "topic:varian-wrynn",
+  "topic:dwarf"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Our Man in Theramore"
+ ]
+}

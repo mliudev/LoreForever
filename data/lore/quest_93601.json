@@ -1,0 +1,77 @@
+{
+ "key": "quest:93601",
+ "type": "quest",
+ "name": "Passing the Blame",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93601
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A woman says the quilboar stole her gift and blames them for the garden's decline. She sends you north to the Valley of Bones to seek a quilboar of significance at Bristleback Retreat.",
+ "sections": [
+  {
+   "title": "A Garden in Peril",
+   "body": "A woman's garden is doomed to die, and she holds the quilboar responsible. She says they took her gift and sends you north into the Valley of Bones. At Bristleback Retreat, you are to seek out a quilboar of significance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who says the quilboar stole her gift?",
+   "aliases": [
+    "who blames the quilboar",
+    "woman's gift",
+    "quilboar stole it"
+   ],
+   "answer": "A woman says the quilboar took her gift and blames them for her garden's decline."
+  },
+  {
+   "q": "Where do I go?",
+   "aliases": [
+    "where is the valley",
+    "where to go",
+    "bristleback retreat"
+   ],
+   "answer": "The woman sends you north into the Valley of Bones, to Bristleback Retreat."
+  },
+  {
+   "q": "What am I looking for at Bristleback Retreat?",
+   "aliases": [
+    "who to find",
+    "significant quilboar",
+    "what's the target"
+   ],
+   "answer": "You are to seek out a quilboar of significance at Bristleback Retreat."
+  },
+  {
+   "q": "Why does the woman blame the quilboar?",
+   "aliases": [
+    "why quilboar",
+    "why blame them",
+    "garden dying"
+   ],
+   "answer": "She says the quilboar stole her gift and are why her garden is doomed to die."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bristleback retreat",
+  "garden",
+  "passing the blame",
+  "quilboar",
+  "valley of bones",
+  "woman's gift"
+ ],
+ "related": [
+  "subzone:valley-of-bones",
+  "topic:quilboar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Passing the Blame"
+ ]
+}

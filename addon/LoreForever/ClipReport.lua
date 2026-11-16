@@ -183,7 +183,7 @@ local function createClipReport()
     f.why = nil
     f.link = ns.Log.ClipReportLink({ clip = f.r.clip, hash = f.r.hash, voice = f.r.voice, reason = f.r.reason,
       name = f.r.name, sayAs = f.r.sayAs, note = f.r.note })
-    f.hint:SetText(L["Press Ctrl+C to copy this link, then open it in your browser and press Send report. No sign-in needed. It says which narration and voice, never your character's name."])
+    f.hint:SetText(L["Press Ctrl+C to copy this link, then open it in your browser and press Send report. No sign-in needed."])
     f.Layout()
     fill()   -- again once shown: the Forever client drops text set on a box that isn't visible yet (see Options)
     link:SetFocus()

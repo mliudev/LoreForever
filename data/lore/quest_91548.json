@@ -1,0 +1,92 @@
+{
+ "key": "quest:91548",
+ "type": "quest",
+ "name": "Vek'zol",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91548
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Zevrost asks you to use a Sin'dorei tome at the Altar of Storms in the Blasted Lands. He wants Vek'zol's heart as a reagent for greater power.",
+ "sections": [
+  {
+   "title": "Zevrost's Request",
+   "body": "Zevrost studies diagrams in the Sin'dorei Tome of Summoning, though he cannot read Thalassian. He believes the blood elves meant to summon demons and drain their fel magic. He sees a greater use for that power. You are to perform the ritual at the Altar of Storms in the Blasted Lands and bring Vek'zol's heart to him in Orgrimmar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to summon Vek'zol?",
+   "aliases": [
+    "who wants vek'zol",
+    "zevrost summon demon",
+    "who gave this task"
+   ],
+   "answer": "Zevrost asks you to summon Vek'zol and bring its heart to him in Orgrimmar."
+  },
+  {
+   "q": "Where do I summon Vek'zol?",
+   "aliases": [
+    "vek'zol location",
+    "where summon vekzol",
+    "altar location"
+   ],
+   "answer": "The ritual is to be performed at the Altar of Storms in the Blasted Lands."
+  },
+  {
+   "q": "Why does Zevrost want Vek'zol's heart?",
+   "aliases": [
+    "why heart",
+    "heart reagent",
+    "what does zevrost need"
+   ],
+   "answer": "Zevrost says Vek'zol's heart will make a potent reagent."
+  },
+  {
+   "q": "What is in the Sin'dorei Tome of Summoning?",
+   "aliases": [
+    "sin'dorei tome",
+    "blood elf diagrams",
+    "tome of summoning"
+   ],
+   "answer": "It contains diagrams Zevrost recognizes, though he does not speak Thalassian. He believes they describe summoning demons to drain their fel magic."
+  },
+  {
+   "q": "Where do I bring the heart?",
+   "aliases": [
+    "return to zevrost",
+    "heart destination",
+    "where bring heart"
+   ],
+   "answer": "Bring Vek'zol's heart to Zevrost in Orgrimmar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "altar of storms",
+  "blasted lands",
+  "demon",
+  "fel magic",
+  "heart",
+  "reagent",
+  "sin'dorei tome of summoning",
+  "vek'zol",
+  "zevrost"
+ ],
+ "related": [
+  "quest:91538",
+  "npc:zevrost",
+  "zone:blastedlands",
+  "subzone:altar-of-storms-burning-steppes",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vek'zol"
+ ]
+}

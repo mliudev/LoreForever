@@ -1,0 +1,76 @@
+{
+ "key": "quest:91531",
+ "type": "quest",
+ "name": "Revenge Exacted",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91531
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Belgrom Rockmaul in Orgrimmar asks you to bring him Magus Rimtori\u2019s head from Azshara. He wants to see it for himself.",
+ "sections": [
+  {
+   "title": "Belgrom\u2019s Request",
+   "body": "In Orgrimmar, Belgrom Rockmaul fears that Ag'tor and the others are dead after hearing you bring news from Azshara. He asks you to bring Magus Rimtori\u2019s head to him, so he can see it for himself.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Bitter Grievance",
+   "body": "Belgrom looks into the sack and laughs with hatred. He accuses Magus Rimtori of betraying him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for Magus Rimtori\u2019s head?",
+   "aliases": [
+    "who is Belgrom",
+    "Belgrom request",
+    "orc asks for head"
+   ],
+   "answer": "Belgrom Rockmaul in Orgrimmar asks you to bring him Magus Rimtori\u2019s head."
+  },
+  {
+   "q": "Where does Belgrom want you to bring the head?",
+   "aliases": [
+    "where to take head",
+    "head turn in",
+    "Belgrom location"
+   ],
+   "answer": "Belgrom wants you to bring Magus Rimtori\u2019s head to him in Orgrimmar."
+  },
+  {
+   "q": "What does Belgrom fear after hearing from Azshara?",
+   "aliases": [
+    "Ag'tor dead",
+    "what happened in Azshara",
+    "Belgrom worried"
+   ],
+   "answer": "Belgrom fears that Ag'tor and the others are dead."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ag'tor",
+  "azshara",
+  "belgrom rockmaul",
+  "head",
+  "magus rimtori",
+  "orgrimmar",
+  "revenge exacted"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "zone:azshara",
+  "npc:magus-rimtori",
+  "quest:3505"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Revenge Exacted"
+ ]
+}

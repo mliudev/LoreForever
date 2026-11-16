@@ -1,0 +1,79 @@
+{
+ "key": "quest:94255",
+ "type": "quest",
+ "name": "Craftsman's Writ: Spider Silk Slippers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94255
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests a pair of Spider Silk Slippers and gives delivery and payment details. Keep the writ with you to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A customer\u2019s faded-ink writ asks you to obtain Spider Silk Slippers. It includes where to deliver them and how payment is arranged. The writ can pass from one bearer to another, but you need it in hand for the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what slippers",
+    "spider silk request"
+   ],
+   "answer": "The customer requests Spider Silk Slippers."
+  },
+  {
+   "q": "Where do I deliver the slippers?",
+   "aliases": [
+    "delivery place",
+    "where to take them"
+   ],
+   "answer": "The writ gives the delivery location, marked on your map."
+  },
+  {
+   "q": "How is payment handled?",
+   "aliases": [
+    "how much pay",
+    "payment details"
+   ],
+   "answer": "The writ contains information about payment."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "is it transferable",
+    "pass the writ"
+   ],
+   "answer": "Yes. The writ says it is transferable."
+  },
+  {
+   "q": "Do I need to keep the writ?",
+   "aliases": [
+    "need writ",
+    "complete without it"
+   ],
+   "answer": "Yes. You must have the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "slippers",
+  "spider silk slippers",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Spider Silk Slippers"
+ ]
+}

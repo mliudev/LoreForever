@@ -1,0 +1,101 @@
+{
+ "key": "quest:91497",
+ "type": "quest",
+ "name": "Seals of the Sin'dorei",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91497
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Rimtori's officers may carry three seals needed for the Sin'dorei spell. You bring them to the Tome of Summoning, where their marks can be checked against its text.",
+ "sections": [
+  {
+   "title": "Three Marks",
+   "body": "The Tome of Summoning lies open before you, detailing Rimtori's spell. You are asked to bring it the Seal of the Warden, Seal of the Warrior, and Seal of the Ranger. Their marks are said to suit different kinds of skill, and Rimtori's officers may be carrying them. The seals matter to the spell taking shape around the crystals.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tome's Signs",
+   "body": "At the tome, you see that each seal matches the marks described in its pages. The crystals answer with a pulsing power, and the sight puts a reckless idea in your mind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What seals does the tome need?",
+   "aliases": [
+    "three seals",
+    "which seals",
+    "seals of the sin'dorei"
+   ],
+   "answer": "The Tome of Summoning is to receive the Seal of the Warden, Seal of the Warrior, and Seal of the Ranger."
+  },
+  {
+   "q": "What does each seal look like?",
+   "aliases": [
+    "seal marks",
+    "sword glaive talon",
+    "what symbols"
+   ],
+   "answer": "The first crystal's seal bears a sword, the middle crystal's a glaive, and the last crystal's a talon."
+  },
+  {
+   "q": "Who can channel the first seal?",
+   "aliases": [
+    "sword seal",
+    "warrior seal",
+    "first crystal"
+   ],
+   "answer": "The sword-marked seal's energy calls for an expert warrior."
+  },
+  {
+   "q": "Who can channel the middle seal?",
+   "aliases": [
+    "glaive seal",
+    "middle crystal",
+    "second seal"
+   ],
+   "answer": "The glaive-marked seal's energy calls for someone skilled in both martial and magical arts."
+  },
+  {
+   "q": "Who can channel the last seal?",
+   "aliases": [
+    "talon seal",
+    "last crystal",
+    "ranger seal"
+   ],
+   "answer": "The talon-marked seal's energy calls for someone at home in the wilds."
+  },
+  {
+   "q": "Why take the seals from Rimtori's officers?",
+   "aliases": [
+    "rimtori seals",
+    "officers carrying seals",
+    "why steal seals"
+   ],
+   "answer": "The seals may be carried by Rimtori's officers to aid her spell, so taking them would trouble her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crystals",
+  "rimtori",
+  "seal of the ranger",
+  "seal of the warden",
+  "seal of the warrior",
+  "seals of the sin'dorei",
+  "tome of summoning"
+ ],
+ "related": [
+  "quest:91538",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Seals of the Sin'dorei"
+ ]
+}
