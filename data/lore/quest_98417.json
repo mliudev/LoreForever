@@ -1,0 +1,85 @@
+{
+ "key": "quest:98417",
+ "type": "quest",
+ "name": "Vengeful Trail",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98417
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Maseara Autumnmoon asks you to search west of Forest Song for signs of her husband, Kurothel. Satyr attacks have driven the druids into battle, and she fears what has become of him.",
+ "sections": [
+  {
+   "title": "West of Forest Song",
+   "body": "Maseara Autumnmoon seeks news of Kurothel, her husband, among the hills west of Forest Song. Satyrs have defiled the temples and killed villagers, and Kurothel joined the druids taking the fight to them. Maseara feels their bond still, but she needs you to look for signs of him among the Satyrnaar demons.",
+   "spoiler": 0
+  },
+  {
+   "title": "Maseara's Fear",
+   "body": "Maseara hears that Kurothel lives in the wild, more like a beast with each passing night. The news brings her no comfort, and she fears the whispers are true.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Maseara looking for?",
+   "aliases": [
+    "who is her husband",
+    "Kurothel whereabouts",
+    "find Kurothel"
+   ],
+   "answer": "Maseara Autumnmoon is seeking news of her husband, Kurothel, who followed the druids into battle against the satyrs."
+  },
+  {
+   "q": "Where should I look for Kurothel?",
+   "aliases": [
+    "where is Kurothel",
+    "Kurothel location",
+    "search west"
+   ],
+   "answer": "Maseara asks you to search west of Forest Song, among the Satyrnaar demons."
+  },
+  {
+   "q": "Why are the druids fighting satyrs?",
+   "aliases": [
+    "satyr attacks",
+    "why druids fight",
+    "what happened to villages"
+   ],
+   "answer": "Satyrs defiled the temples and killed villagers, so the druids are taking the fight to them."
+  },
+  {
+   "q": "What does Maseara fear?",
+   "aliases": [
+    "Maseara worried",
+    "what are the whispers",
+    "Kurothel fear"
+   ],
+   "answer": "Maseara fears that Kurothel is living in the wild more like a beast with each passing night."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "druids",
+  "forest song",
+  "kurothel",
+  "maseara autumnmoon",
+  "satyrnaar",
+  "satyrs",
+  "vengeful trail"
+ ],
+ "related": [
+  "subzone:forest-song",
+  "subzone:satyrnaar",
+  "topic:druid",
+  "topic:satyr"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vengeful Trail"
+ ]
+}

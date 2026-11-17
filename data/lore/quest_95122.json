@@ -1,0 +1,78 @@
+{
+ "key": "quest:95122",
+ "type": "quest",
+ "name": "Unchecked Expansion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95122
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wharfmaster Whizzbuzz says the Eastsea pirates north of here are a greater threat than those you fought before. Their raid left Windstead burned, and he wants their advance inland stopped.",
+ "sections": [
+  {
+   "title": "Windstead in Ashes",
+   "body": "Windstead lies burned after the Eastsea pirates ransacked it and carried off its plunder. Wharfmaster Whizzbuzz asks you to thin the ranks of the raiders and bombardiers north of here. He fears the pirates may push their turf farther inland.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help against the Eastsea pirates?",
+   "aliases": [
+    "who wants help",
+    "whizzbuzz task",
+    "wharfmaster"
+   ],
+   "answer": "Wharfmaster Whizzbuzz asks you to thin the Eastsea pirates' ranks."
+  },
+  {
+   "q": "What happened to Windstead?",
+   "aliases": [
+    "windstead burned",
+    "what happened here",
+    "why is windstead gone"
+   ],
+   "answer": "The Eastsea pirates ransacked Windstead, took its plunder, and burned it to the ground."
+  },
+  {
+   "q": "Which pirates are the target?",
+   "aliases": [
+    "pirate types",
+    "who do i fight",
+    "eastsea raiders"
+   ],
+   "answer": "Wharfmaster Whizzbuzz names Eastsea Raiders and Eastsea Bombardiers as the pirates to thin."
+  },
+  {
+   "q": "Why does Whizzbuzz want their ranks thinned?",
+   "aliases": [
+    "why stop pirates",
+    "pirates inland",
+    "why fight eastsea"
+   ],
+   "answer": "He wants to stop the pirates from pushing their turf farther inland."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "eastsea bombardiers",
+  "eastsea pirates",
+  "eastsea raiders",
+  "pirate",
+  "unchecked expansion",
+  "wharfmaster whizzbuzz",
+  "windstead"
+ ],
+ "related": [
+  "quest:567",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Unchecked Expansion"
+ ]
+}

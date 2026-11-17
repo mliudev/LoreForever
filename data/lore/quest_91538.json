@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Jediga asks you to bring Rimtori's Sin'dorei Tome of Summoning to Valormok. The powerful artifact still rests in the wilds.",
+ "summary": "The Sin'dorei Tome of Summoning is too powerful to leave in the wilds. You take Rimtori's tome back to Jediga in Valormok.",
  "sections": [
   {
    "title": "A Tome in the Wilds",
-   "body": "Rimtori's tome remains on its pedestal, where its pages may hold secrets. Jediga in Valormok asks you to bring the Sin'dorei Tome of Summoning back to her, so the powerful artifact will not be left in the wilds.",
+   "body": "Rimtori's tome remains on its pedestal, where its pages may hold secrets. Rather than leave such an artifact out here, you carry it back to Jediga in Valormok.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "bring what to Jediga",
     "sin'dorei book"
    ],
-   "answer": "Jediga asks you to bring her the Sin'dorei Tome of Summoning."
+   "answer": "The Sin'dorei Tome of Summoning is the item you bring to Jediga."
   },
   {
    "q": "Where is the tome now?",
@@ -45,7 +45,7 @@
     "why take tome",
     "what's it for"
    ],
-   "answer": "Jediga does not want a powerful artifact left in the wilds."
+   "answer": "Taking the tome is your own choice, since such an artifact is best not left in the wilds. Jediga sees in it a chance that Belgrom's hunt for riches and revenge was not for naught."
   },
   {
    "q": "Who is Rimtori?",

@@ -1,0 +1,64 @@
+{
+ "key": "quest:78823",
+ "type": "quest",
+ "name": "Terror of the Desert Skies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78823
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A rough drawing shows a great bird of prey that inspired fear and awe. Hemet Nesingwary in Stranglethorn Vale may know more about it.",
+ "sections": [
+  {
+   "title": "A Fearful Image",
+   "body": "The Primitive Drawing reaches you with a request to take it to Hemet Nesingwary in Stranglethorn Vale. Its broad strokes show a large bird of prey, and the artist's fear and awe are plain in the image. Hemet is asked to judge what it depicts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the drawing show?",
+   "aliases": [
+    "bird drawing",
+    "what is in the picture"
+   ],
+   "answer": "The Primitive Drawing depicts a large bird of prey."
+  },
+  {
+   "q": "Who can tell me about the bird?",
+   "aliases": [
+    "who knows about it",
+    "bird expert"
+   ],
+   "answer": "Hemet Nesingwary in Stranglethorn Vale may be able to tell you more about the creature."
+  },
+  {
+   "q": "Where do I take the drawing?",
+   "aliases": [
+    "where to bring drawing",
+    "Hemet drawing"
+   ],
+   "answer": "Bring the Primitive Drawing to Hemet Nesingwary in Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bird of prey",
+  "hemet nesingwary",
+  "primitive drawing",
+  "stranglethorn vale",
+  "terror of the desert skies"
+ ],
+ "related": [
+  "quest:5762",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Terror of the Desert Skies"
+ ]
+}

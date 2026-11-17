@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Belgrom Rockmaul in Orgrimmar asks you to bring him Magus Rimtori\u2019s head from Azshara. He wants to see it for himself.",
+ "summary": "You are sent to carry Magus Rimtori\u2019s head from Azshara to Belgrom Rockmaul in Orgrimmar. He will want to see it for himself.",
  "sections": [
   {
    "title": "Belgrom\u2019s Request",
-   "body": "In Orgrimmar, Belgrom Rockmaul fears that Ag'tor and the others are dead after hearing you bring news from Azshara. He asks you to bring Magus Rimtori\u2019s head to him, so he can see it for himself.",
+   "body": "In Orgrimmar, Belgrom Rockmaul fears that Ag'tor and the others are dead after hearing you bring news from Azshara. You are to show him Magus Rimtori\u2019s head, so he can see it for himself.",
    "spoiler": 0
   },
   {
@@ -32,7 +32,7 @@
     "Belgrom request",
     "orc asks for head"
    ],
-   "answer": "Belgrom Rockmaul in Orgrimmar asks you to bring him Magus Rimtori\u2019s head."
+   "answer": "Belgrom Rockmaul in Orgrimmar is the one who will want to see Magus Rimtori\u2019s head. You are sent to deliver it to him."
   },
   {
    "q": "Where does Belgrom want you to bring the head?",

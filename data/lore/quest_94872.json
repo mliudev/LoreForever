@@ -1,0 +1,93 @@
+{
+ "key": "quest:94872",
+ "type": "quest",
+ "name": "Buying Friendship: Magram",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94872
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A concern over Magram strength leads you to offer carved totems at Magram Village. The gift may open a path to the clan as an ally.",
+ "sections": [
+  {
+   "title": "An Offer to Gorhak",
+   "body": "Someone concerned by the Magram's growing strength asks you to present a sack of totems to Gorhak, their quartermaster. The clan's village is growing, and its soldiers are growing bolder. Its strength worries the one who sends you, though the Magram might become allies.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Village",
+   "body": "At Magram Village in Desolace, Gorhak takes the carved totems and sees that your offer has a purpose. He does not know what you seek from him or the clan. For now, he welcomes you as an outsider.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I bringing totems to the Magram?",
+   "aliases": [
+    "why totems",
+    "magram gift",
+    "buying friendship"
+   ],
+   "answer": "Someone worried by the Magram's growing strength hopes the gift may earn their trust and make them potential allies."
+  },
+  {
+   "q": "Who is Gorhak?",
+   "aliases": [
+    "gorhak who",
+    "magram quartermaster",
+    "totem guy"
+   ],
+   "answer": "Gorhak is the Magram quartermaster at Magram Village."
+  },
+  {
+   "q": "Where do I bring the totems?",
+   "aliases": [
+    "where totems",
+    "magram village location"
+   ],
+   "answer": "Bring the sack of carved totems to the Magram Quartermaster at Magram Village in Desolace."
+  },
+  {
+   "q": "What does Gorhak think of the gift?",
+   "aliases": [
+    "gorhak reaction",
+    "does he take totems",
+    "magram welcome"
+   ],
+   "answer": "Gorhak recognizes that the gift comes with a purpose, but welcomes you to Magram Village all the same."
+  },
+  {
+   "q": "Why are people worried about the Magram?",
+   "aliases": [
+    "magram growing",
+    "magram threat",
+    "why worry"
+   ],
+   "answer": "The Magram village is growing and its soldiers are becoming bolder, raising concern about the clan's strength."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "friendship",
+  "gorhak",
+  "magram",
+  "magram village",
+  "quartermaster",
+  "totems"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Buying Friendship: Magram"
+ ]
+}

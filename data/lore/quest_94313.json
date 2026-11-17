@@ -1,0 +1,78 @@
+{
+ "key": "quest:94313",
+ "type": "quest",
+ "name": "Craftsman's Writ: White Bandit Mask",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94313
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded writ requests one White Bandit Mask and gives terms for its delivery and payment. It can be transferred, but you need it to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Delivery",
+   "body": "The customer asks whether you have come with the delivery. The writ names a White Bandit Mask and gives a place for delivery and terms for payment. You need the writ with you to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "white bandit mask writ",
+    "what item is wanted"
+   ],
+   "answer": "The customer requests one White Bandit Mask."
+  },
+  {
+   "q": "Where do I deliver the mask?",
+   "aliases": [
+    "delivery location",
+    "where to take it"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Do I need to carry the writ?",
+   "aliases": [
+    "need writ with me",
+    "can i deliver without it"
+   ],
+   "answer": "Yes. You need the writ in your possession to complete the exchange."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "is the writ transferable",
+    "pass writ to someone"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What does the customer ask when I arrive?",
+   "aliases": [
+    "delivery progress text",
+    "are you here for delivery"
+   ],
+   "answer": "The customer asks whether you are there for the delivery."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "transferable",
+  "white bandit mask",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: White Bandit Mask"
+ ]
+}

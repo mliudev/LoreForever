@@ -1,0 +1,75 @@
+{
+ "key": "quest:4726",
+ "type": "quest",
+ "name": "Broodling Essence",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4726
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tinkee Steamboil at Flame Crest asks you to bring Broodling Essence and the Draco-Incarcinatrix 900. Both are needed for her work in the Burning Steppes.",
+ "sections": [
+  {
+   "title": "Tinkee's Request",
+   "body": "At Flame Crest in the Burning Steppes, Tinkee Steamboil is waiting for you. She needs eight Broodling Essence and the Draco-Incarcinatrix 900 brought to her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Broodling Essence?",
+   "aliases": [
+    "who asked for essence",
+    "tinkee request",
+    "broodling essence giver"
+   ],
+   "answer": "Tinkee Steamboil at Flame Crest in the Burning Steppes asks you to bring it."
+  },
+  {
+   "q": "How many Broodling Essence does Tinkee need?",
+   "aliases": [
+    "how many essence",
+    "essence amount",
+    "broodling count"
+   ],
+   "answer": "Tinkee asks for eight Broodling Essence."
+  },
+  {
+   "q": "What else does Tinkee need?",
+   "aliases": [
+    "what else to bring",
+    "draco device",
+    "900 thing"
+   ],
+   "answer": "She also asks you to bring the Draco-Incarcinatrix 900."
+  },
+  {
+   "q": "Where is Tinkee Steamboil?",
+   "aliases": [
+    "where is tinkee",
+    "flame crest location",
+    "tinkee location"
+   ],
+   "answer": "Tinkee Steamboil is at Flame Crest in the Burning Steppes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broodling essence",
+  "burning steppes",
+  "draco-incarcinatrix 900",
+  "flame crest",
+  "tinkee steamboil"
+ ],
+ "related": [
+  "subzone:flame-crest"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Broodling Essence"
+ ]
+}

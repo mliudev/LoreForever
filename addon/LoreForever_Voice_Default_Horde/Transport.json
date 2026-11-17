@@ -1121,9 +1121,9 @@
     "npc:shael-dryn": {
       "1": [
         {
-          "duration": 37.198367346938774,
-          "file": "Audio/Transport/full_npc_shael-dryn-e90efe2887f5f07e5e74/1-0000.mp3",
-          "sha256": "63d1e6dd07647c49e6f4237bfe0906af2765b4243c2750beb3931499a5676981",
+          "duration": 32.26122448979592,
+          "file": "Audio/Transport/full_npc_shael-dryn-7ede08376023a00ce65d/1-0000.mp3",
+          "sha256": "09960c6436fc5f5862d916cc4af112ba0b4e73656a770c1ed32d44c4493877cb",
           "start": 0
         }
       ],
@@ -1135,12 +1135,12 @@
         ]
       },
       "fullHash": "cf873a",
-      "generation": "9888ad8b4f077b944316",
+      "generation": "d49815701c8691583520",
       "hash": "cf873a",
       "source": {
-        "duration": 37.22449,
+        "duration": 32.287347,
         "file": null,
-        "sha256": "e90efe2887f5f07e5e74232810169e2449dbe440758997da893426bb39d53b5e"
+        "sha256": "7ede08376023a00ce65dea16d0d408313b629d377d468e1abd2a7cf6b6727b23"
       },
       "text": "Shael'dryn. At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences. Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance."
     },
@@ -5225,6 +5225,12 @@
       778,
       1458
     ],
+    "09960c6436fc5f5862d916cc4af112ba0b4e73656a770c1ed32d44c4493877cb": [
+      232,
+      567,
+      783,
+      985
+    ],
     "09f584ac1c051f1c17c3c7aee98bab1cb0cc3e13c053482a9cabdc7a325a96ad": [
       245,
       441,
@@ -5681,10 +5687,6 @@
       2738,
       2982,
       3140
-    ],
-    "396519ba73c55284a738100ded82c5c581d699e4afeeeb5f22d9fbf9b87f0fa4": [
-      911,
-      1378
     ],
     "3b2186cc0fae8a35a8291bdce656a6002d34ef4853dd82162f87b4e5fc3d4b38": [
       541,
@@ -6180,14 +6182,6 @@
       1069,
       1329,
       1520
-    ],
-    "63d1e6dd07647c49e6f4237bfe0906af2765b4243c2750beb3931499a5676981": [
-      147,
-      304,
-      530,
-      683,
-      928,
-      1153
     ],
     "63e23ee93194855a7315afd63d1da5c3822b378408ced5bfd45eae23ff8c9586": [
       337,
@@ -7099,11 +7093,6 @@
       1571,
       1871
     ],
-    "bda56c581cbc0b8e8323f1f47b45b9f0750ba2852b455bf7895e5fc94ce165fe": [
-      783,
-      1275,
-      1779
-    ],
     "bef2d6d30dd70106ece36d1b3f6dec46aefc61088f0f6d10d376cedb9ba2b41f": [
       159,
       357,
@@ -7700,6 +7689,9 @@
       "1623": 2,
       "521": 1
     },
+    "09960c6436fc5f5862d916cc4af112ba0b4e73656a770c1ed32d44c4493877cb": {
+      "567": 1
+    },
     "0b100748dc73d8c2cb6cca966264e9d52b4038d7663707432d4c17d257fd8276": {
       "1511": 2,
       "493": 1
@@ -7928,9 +7920,6 @@
     },
     "63b6c1e03aa4916b4a453fd356b572f3d515a0c32a3e76d25124841dc25c6888": {
       "765": 1
-    },
-    "63d1e6dd07647c49e6f4237bfe0906af2765b4243c2750beb3931499a5676981": {
-      "683": 1
     },
     "6475a7bdb098f89e6cb259a6592fd97bd0b3f0ab1e2dbfda517d8c3b947ef933": {
       "1531": 2,

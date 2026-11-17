@@ -1,0 +1,64 @@
+{
+ "key": "quest:2763",
+ "type": "quest",
+ "name": "The Art of the Imbue",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2763
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Galvan the Ancient asks you to bring him mithril and citrines in Stranglethorn. He needs them for an imbue.",
+ "sections": [
+  {
+   "title": "Materials for Galvan",
+   "body": "The materials Galvan the Ancient requests are specific: forty Mithril Bars and four Citrines. You are to bring them to him in Stranglethorn for the imbue he seeks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Galvan need?",
+   "aliases": [
+    "galvan materials",
+    "what items",
+    "mithril and citrines"
+   ],
+   "answer": "Galvan the Ancient asks you to bring him forty Mithril Bars and four Citrines."
+  },
+  {
+   "q": "Where do I bring the materials?",
+   "aliases": [
+    "where is galvan",
+    "deliver to galvan",
+    "stranglethorn"
+   ],
+   "answer": "Bring the Mithril Bars and Citrines to Galvan the Ancient in Stranglethorn."
+  },
+  {
+   "q": "What are the materials for?",
+   "aliases": [
+    "why mithril bars",
+    "citrines for what",
+    "imbue materials"
+   ],
+   "answer": "Galvan the Ancient needs the materials for an imbue."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "citrines",
+  "galvan the ancient",
+  "imbue",
+  "mithril bars",
+  "stranglethorn"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Art of the Imbue"
+ ]
+}

@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The platinum discs may point to a connection between Tanaris and Uldum. You are asked to take them to Uldum\u2019s gates and look for clues.",
+ "summary": "The miniature platinum discs may hold a connection to Uldum. You are asked to take them to Uldum\u2019s gates and look for clues.",
  "sections": [
   {
    "title": "At Uldum\u2019s Gates",
@@ -27,7 +27,7 @@
     "what to look for",
     "discs at the gates"
    ],
-   "answer": "You are looking for clues to a connection between Tanaris and Uldum, using the miniature platinum discs."
+   "answer": "You are looking for clues to how the miniature platinum discs connect to Uldum."
   },
   {
    "q": "Where do I take the platinum discs?",
@@ -45,7 +45,7 @@
     "why uldum",
     "what connects them"
    ],
-   "answer": "The clues you seek at Uldum\u2019s gates may reveal a connection between Tanaris and Uldum."
+   "answer": "Uldum lies within Tanaris. The real question is how the platinum discs connect to Uldum, and the clues at its gates may reveal that."
   }
  ],
  "angles": [],

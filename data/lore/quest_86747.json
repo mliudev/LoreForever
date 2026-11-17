@@ -1,0 +1,82 @@
+{
+ "key": "quest:86747",
+ "type": "quest",
+ "name": "Legashi Horns",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86747
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A furbolg of Ursolan asks you to bring horns from slain Legashi satyr. Each bundle marks your service to the Blackmaw.",
+ "sections": [
+  {
+   "title": "Among the Blackmaw",
+   "body": "The other furbolg of the Blackmaw are harder to persuade, so your efforts against the Legashi continue. Their slain satyr bear the horns you are asked to bring back. Each bundle gives the tribe a sign of your service, and the furbolg of Ursolan will hear of your deeds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Legashi horns?",
+   "aliases": [
+    "who asks for horns",
+    "horns for who"
+   ],
+   "answer": "A furbolg of the Blackmaw asks you to bring horns from slain Legashi satyr."
+  },
+  {
+   "q": "Why do they want the horns?",
+   "aliases": [
+    "why horns",
+    "what are the horns for"
+   ],
+   "answer": "Each bundle marks your service to the Blackmaw and helps persuade the other members of the tribe."
+  },
+  {
+   "q": "What are the Legashi?",
+   "aliases": [
+    "legashi satyr",
+    "who are legashi"
+   ],
+   "answer": "The Legashi are satyr, and the Blackmaw ask you to bring horns from those you slay."
+  },
+  {
+   "q": "What happened before this?",
+   "aliases": [
+    "what came before",
+    "blackmaw trust"
+   ],
+   "answer": "You have already proven yourself to the furbolg who speaks for the Blackmaw, but the rest of the tribe is harder to persuade."
+  },
+  {
+   "q": "Where will the furbolg hear of my deeds?",
+   "aliases": [
+    "where word spreads",
+    "ursolan furbolg"
+   ],
+   "answer": "The furbolg who speaks for the Blackmaw says word of your deeds will spread among the furbolg of Ursolan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackmaw",
+  "furbolg",
+  "legashi",
+  "legashi horns",
+  "satyr",
+  "ursolan"
+ ],
+ "related": [
+  "subzone:ursolan",
+  "topic:satyr",
+  "topic:furbolg"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Legashi Horns"
+ ]
+}

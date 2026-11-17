@@ -3808,20 +3808,57 @@ function UI.QueuedLine(id)
   if i and i >= UI.pl.pos then return UI.pl.items[i], i end
 end
 
--- A book's next page as you turn it takes the place of its page that plays now. Returns true if it did. (A quest's next
--- page never does: Continue queues it behind the one speaking, LOR-1480.)
-function UI.ReplaceCurrent(it)
+-- A page turned (M12, E6c, E6e-E6h; the Design Lead's call on #4375, 11/16): a turn never cuts off what speaks, the
+-- book's own page either. The open book has at most two rows: the page reading now, which reads to its end, and the
+-- page on screen waiting right after it (or in its turn behind what plays). `it` is the page on screen's row, or nil
+-- when it can't play by itself (no recording, heard, or read since the book opened): then nothing of the book waits.
+-- Stopped partway (you pressed Stop), the page you left leaves and the page on screen reads, then the list stops again.
+-- Mike's stream 11/15, 01:15:45 (add-on 1.11.0, LOR-1542): "every time I turn a page, it overrides the current
+-- playlist": each turn cut the page reading off mid-line, each turn while a story played added a row (so pages he'd
+-- turned past read later, one by one), and a page with nothing to read stopped the whole list. Returns true when it
+-- handled the turn.
+function UI.TurnBookPage(it)
   local pl = UI.pl
   local cur = pl.items[pl.pos]
-  local same = cur and cur.how == "book" and it.how == "book"
-  if not (pl.state == "playing" and UI.speaking and same) then
-    return false
+  if cur and cur.how == "book" and cur.byItself and cur.started and pl.state == "paused" then
+    for j = #pl.items, pl.pos + 1, -1 do   -- (one row: a page waiting behind the stopped one leaves too)
+      local row = pl.items[j]
+      if row.how == "book" and row.byItself and not row.started then
+        ns.Voice.openPages[row.id] = nil
+        table.remove(pl.items, j)
+        if row.replaced then table.insert(pl.items, j, row.replaced) end
+      end
+    end
+    table.remove(pl.items, pl.pos)   -- (the page you left isn't kept as played: it was stopped partway)
+    if cur == pl.holdAt then pl.holdAt = nil end
+    if not pl.items[pl.pos] then UI.PlaylistClear() end
+    UI.UpdateListen()
+    return not it   -- (the page on screen comes in as a book opened on a stopped list: UI.Admit reads it, then stops)
   end
-  it.byItself, it.at = true, clock()
-  retire(cur, "played")
-  pl.items[pl.pos] = it
-  goTo(pl.pos, true)
-  playCurrent()
+  for j = math.max(pl.pos, 1), #pl.items do
+    local row = pl.items[j]
+    if row.how == "book" and row.byItself and not row.started then   -- the book's page waiting its turn
+      ns.Voice.openPages[row.id] = nil   -- (never read: turning back to it reads it)
+      if it then
+        it.byItself, it.at, it.replaced = true, row.at, row.replaced
+        pl.items[j] = it
+        if row == pl.holdAt then pl.holdAt = it end
+        UI.UpdateListen()
+      elseif row.replaced then
+        pl.items[j] = row.replaced   -- (the letter's own story it stood in for comes back: TakePlace)
+        UI.UpdateListen()
+      else
+        UI.LeaveQueue(row, nil, true)
+      end
+      return true
+    end
+  end
+  if not (cur and cur.how == "book" and cur.byItself and pl.state == "playing" and UI.speaking) then return false end
+  if it then   -- the book's page reading now: the page on screen reads right after it
+    it.byItself, it.at = true, clock()
+    table.insert(pl.items, pl.pos + 1, it)
+    UI.UpdateListen()
+  end
   return true
 end
 
@@ -4522,7 +4559,9 @@ function UI.RowTag(it, done, stopped)
   elseif it.how == "newquest" then tag = L["New quest"]
   elseif it.flight then tag = L["Flying over"]
   elseif it.how == "arrival" then tag = L["You arrived"]
-  elseif it.how == "book" then tag = L["Book page"]
+  elseif it.how == "book" then   -- the page it reads: the bar says so when another page is on screen (#4375)
+    local page = tonumber(tostring(it.id):match("#(%d+)$"))
+    tag = page and string.format(L["Page %d"], page) or L["Book page"]
   elseif it.how == "recap" then tag = L["Storyline recap"]
   elseif it.how == "passage" then tag = L["New in the story"]
   elseif it.how == "found" then tag = L["New page"]

@@ -1,0 +1,92 @@
+{
+ "key": "quest:97203",
+ "type": "quest",
+ "name": "Learning to Ride",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97203
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Velma Warnam offers to teach you skeletal riding in exchange for a fee. Her training lets you receive a mount from Zachariah and ride the steeds kept in Brill.",
+ "sections": [
+  {
+   "title": "A New Skill",
+   "body": "Once Velma Warnam has trained you, Zachariah can provide a mount at no cost. Additional mounts are available for purchase. Other creatures require their own riding skills, taught by trainers you will need to find.",
+   "spoiler": 0
+  },
+  {
+   "title": "Brill's Steeds",
+   "body": "After your training, Velma's knowledge of skeletal horses leaves you ready to ride the steeds in Brill. The instruction begins when you have enough coin to pay her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches skeletal riding?",
+   "aliases": [
+    "who trains riding",
+    "skeletal horse trainer",
+    "velma riding"
+   ],
+   "answer": "Velma Warnam offers to teach you how to ride skeletal horses for a fee."
+  },
+  {
+   "q": "Where can I learn to ride skeletal horses?",
+   "aliases": [
+    "where is riding training",
+    "skeletal riding trainer",
+    "riding in brill"
+   ],
+   "answer": "Velma Warnam teaches skeletal riding in Brill."
+  },
+  {
+   "q": "Who gives me a mount after training?",
+   "aliases": [
+    "free mount who",
+    "zachariah mount",
+    "get a mount"
+   ],
+   "answer": "Zachariah provides you with a mount after you train with Velma Warnam."
+  },
+  {
+   "q": "Do other creatures need different riding skills?",
+   "aliases": [
+    "other riding skills",
+    "ride other creatures",
+    "mount training"
+   ],
+   "answer": "Yes. Each kind of creature requires its own riding skill, and you will need to find its trainer."
+  },
+  {
+   "q": "Do I have to pay Velma?",
+   "aliases": [
+    "riding cost",
+    "fee for velma",
+    "how much riding"
+   ],
+   "answer": "Velma teaches you for a fee, and asks you to speak with her when you have enough coin."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brill",
+  "learning to ride",
+  "mount",
+  "riding skill",
+  "skeletal horse",
+  "skeletal riding",
+  "velma warnam",
+  "zachariah"
+ ],
+ "related": [
+  "subzone:brill"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Learning to Ride"
+ ]
+}

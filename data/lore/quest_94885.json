@@ -1,0 +1,89 @@
+{
+ "key": "quest:94885",
+ "type": "quest",
+ "name": "Field Marshal's Log",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94885
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Field Marshal's Log records Twilight's Hammer movements through the Riverglades. Its whereabouts may help those in Farholde understand enemy movements.",
+ "sections": [
+  {
+   "title": "The Log",
+   "body": "Demar Brant in Farholde Keep is waiting for the Field Marshal's Log. Its records track Twilight's Hammer forces moving through the Riverglades, and someone in Farholde wants to see them. The author is nowhere to be found. The notes may help reveal where the enemy has been moving.",
+   "spoiler": 0
+  },
+  {
+   "title": "Farholde's Concern",
+   "body": "Demar Brant says the notes arrived too late. Farholde already knows the dangers within Sunnyglade, and he is troubled that you have found them there too.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the Field Marshal's Log?",
+   "aliases": [
+    "field marshal log",
+    "what does the log say"
+   ],
+   "answer": "The log records the comings and goings of Twilight's Hammer forces throughout the Riverglades."
+  },
+  {
+   "q": "Who wrote the log?",
+   "aliases": [
+    "log author",
+    "who made the notes"
+   ],
+   "answer": "The author of the Field Marshal's Log is nowhere to be found."
+  },
+  {
+   "q": "Who wants to see the log?",
+   "aliases": [
+    "who gets the log",
+    "Demar Brant log"
+   ],
+   "answer": "Someone in Farholde wants to see the log. You are asked to deliver it to Demar Brant in Farholde Keep."
+  },
+  {
+   "q": "Why does the log matter?",
+   "aliases": [
+    "why bring the log",
+    "enemy movements"
+   ],
+   "answer": "Its records of Twilight's Hammer movements may help shed light on enemy movements."
+  },
+  {
+   "q": "Where were the Twilight's Hammer forces moving?",
+   "aliases": [
+    "Twilight Hammer Riverglades",
+    "where were they"
+   ],
+   "answer": "The log records Twilight's Hammer forces throughout the Riverglades."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demar brant",
+  "enemy movements",
+  "farholde",
+  "field marshal log",
+  "field marshal's log",
+  "riverglades",
+  "sunnyglade",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:riverglades",
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Field Marshal's Log"
+ ]
+}

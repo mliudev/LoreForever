@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Jediga sends you to tell Nara Wildmane about a burrow northeast of her. She suspects it leads beneath the world tree and wants Nara to hear of it.",
+ "summary": "Jediga sends you to tell Nara Wildmane about a burrow northeast of Valormok. She suspects it leads beneath the world tree and wants Nara to hear of it.",
  "sections": [
   {
    "title": "Word for Nara",
@@ -87,7 +87,6 @@
   "world tree"
  ],
  "related": [
-  "quest:1490",
   "zone:thunderbluff",
   "subzone:elder-rise",
   "topic:druid",

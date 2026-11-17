@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A guard at Bolder'ok needs relief after the lion hides are gathered and orcish poachers are culled. Dunston Willis has not returned from the ogre settlement, and you are asked to find him.",
+ "summary": "A guard south of Bolder'ok needs relief after the lion hides are gathered and orcish poachers are culled. Dunston Willis has not returned from the ogre settlement, and you are asked to find him.",
  "sections": [
   {
    "title": "A Missing Relief",
-   "body": "At Bolder'ok, the watch remains without its promised relief. Dunston Willis, an explorer, went to investigate the ogre settlement to the north a few days ago and was expected back to take over the post. The guard asks you to find him among the ogres. If Dunston is alive, bring him back; if not, bring proof so Demar can send someone else.",
+   "body": "The watch remains without its promised relief. Dunston Willis, an explorer, went to investigate the ogre settlement to the north a few days ago and was expected back to take over the post. The guard asks you to find him among the ogres. If Dunston is alive, bring him back; if not, bring proof so Demar can send someone else.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "who is Dunston",
     "explorer Willis"
    ],
-   "answer": "Dunston Willis is an explorer who went to investigate the ogre settlement to the north of Bolder'ok."
+   "answer": "Dunston Willis is an explorer who went to investigate Bolder'ok, the ogre settlement to the north."
   },
   {
    "q": "Why is the guard looking for Dunston?",

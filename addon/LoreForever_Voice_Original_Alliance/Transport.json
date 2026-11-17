@@ -1326,32 +1326,6 @@
       },
       "text": "Alexston Farmstead. The Alexston Farmstead is a derelict farm in Westfall, overgrown and prowled by haywire Harvest Watchers. Once the childhood home of Stormwind's city architect, Baros Alexston, it has fallen into ruin like much of the breadbasket around it. Situated amidst the dry plains of Westfall, the Alexston Farmstead stands as another grim testament to the kingdom's neglect. Like neighboring estates, the farm was abandoned by its caretakers when banditry erupted across the countryside. Today, the fields are overgrown, and the mechanical Harvest Watchers left behind to tend the crops have spun out of control, violently attacking anyone who approaches the barren farmhouse. Despite its bleak state, the farm is tied to one of Stormwind's most prominent citizens. Baros Alexston, the skilled architect who helped design parts of the rebuilt capital, spent his youth toiling on these very fields. He left the farmstead long before the unrest began to pursue his trade in masonry and construction, leaving behind a memento of his early life nestled among the ruins."
     },
-    "subzone:alterac-mountains": {
-      "1": [
-        {
-          "duration": 75.78122448979592,
-          "file": "Audio/Transport/full_subzone_alterac-mountains-3a9de48bc4a542f74585/1-0000.mp3",
-          "sha256": "acbc47ffc2825dcbf64cbcb7e4ab0b88d50bd02f33ce7da343cc429b1962f38e",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "98858d",
-      "generation": "8953a9275c5de35b3095",
-      "hash": "98858d",
-      "source": {
-        "duration": 75.755063,
-        "file": null,
-        "sha256": "3a9de48bc4a542f74585d38c47282601b18c9461f11a0a0ac828c48f9bea9abe"
-      },
-      "text": "Alterac Mountains. The Alterac Mountains are a rugged, snow-capped range rising directly above the rolling pastures of Hillsbrad. Once the heart of a proud human kingdom, the slopes now harbor ruined settlements, bandit factions, and dangerous wilderness where travelers rarely walk unguarded. Long before the hills fell into chaos, these highlands formed the sovereign nation of Alterac, one of the seven kingdoms born from ancient Arathor. That legacy shattered during the Second War when King Aiden Perenolde struck a clandestine pact with the Old Horde, allowing orcish forces passage through the peaks in exchange for his kingdom's safety. The Alliance of Lordaeron uncovered the betrayal and deposed Perenolde, leaving the region fractured by martial law and territorial disputes. Following the devastation of the Third War, the mountains collapsed into complete lawlessness. The disinherited nobles of the realm banded together to form the Syndicate, operating out of the ruins of Strahnbrad and plotting to reclaim their lost dominion through sabotage and assassination. Between ruthless Crushridge ogres occupying the shattered capital, marauding gnolls, and the shattered magical ruins around Dalaran, the passes of Alterac remain some of the most perilous pathways in Lordaeron."
-    },
     "subzone:alther-s-mill": {
       "1": [
         {
@@ -5564,13 +5538,6 @@
       968,
       1598,
       2094
-    ],
-    "acbc47ffc2825dcbf64cbcb7e4ab0b88d50bd02f33ce7da343cc429b1962f38e": [
-      271,
-      664,
-      1458,
-      2025,
-      2460
     ],
     "acc24e8ca3356d9ed793af4e54141cac7e8629dde3b8721518e5f5abc1375552": [
       430,

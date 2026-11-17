@@ -1,0 +1,80 @@
+{
+ "key": "quest:95309",
+ "type": "quest",
+ "name": "No Orc Left Behind",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95309
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are sent into Alcaz Prison to find Commander Folkar and learn what is happening below the keep. An army waits in the dungeons, and you are warned not to go alone.",
+ "sections": [
+  {
+   "title": "Below the Keep",
+   "body": "Commander Folkar is somewhere in the dungeons beneath the keep, and you are sent into Alcaz Prison to find him. If he is alive, you are to free him and learn what is happening there. An army waits below, so you are warned that you will need allies to survive.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Search",
+   "body": "Ulka sent you to find Commander Folkar after surviving a deadly encounter. Folkar praises her service to the Kor\u2019kron and says he will see that she receives a field promotion. Yet he says the mission is not complete, and you cannot leave Alcaz Prison.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where am I being sent?",
+   "aliases": [
+    "where go",
+    "alcaz prison location",
+    "under the keep"
+   ],
+   "answer": "You are sent into Alcaz Prison, in the dungeons beneath the keep."
+  },
+  {
+   "q": "Who am I looking for?",
+   "aliases": [
+    "who find",
+    "commander folkar",
+    "folkar whereabouts"
+   ],
+   "answer": "You are looking for Commander Folkar in Alcaz Prison."
+  },
+  {
+   "q": "What am I supposed to learn?",
+   "aliases": [
+    "what's going on",
+    "learn what happened",
+    "prison situation"
+   ],
+   "answer": "You are asked to learn what is happening in the dungeons beneath the keep."
+  },
+  {
+   "q": "Why am I warned to bring allies?",
+   "aliases": [
+    "need allies",
+    "go alone?",
+    "army below"
+   ],
+   "answer": "An army waits in the dungeons, and you are warned that you will not survive there alone."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alcaz prison",
+  "commander folkar",
+  "dungeons",
+  "keep",
+  "kor'kron",
+  "no orc left behind",
+  "ulka"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: No Orc Left Behind"
+ ]
+}

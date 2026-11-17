@@ -1,0 +1,89 @@
+{
+ "key": "quest:95278",
+ "type": "quest",
+ "name": "It Is Time, Brother...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95278
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A missive must reach Krom'rosh at Rog'mar as the danger grows. Da'grosh's warning recalls an old hope for the village and the Horde.",
+ "sections": [
+  {
+   "title": "A Warning for Rog'mar",
+   "body": "The threat has grown beyond what was first thought, and Rog'mar needs warning. You carry a missive to Krom'rosh, with no time to stop for anyone along the way.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Old Hope",
+   "body": "Da'grosh once urged the village's kin to become great warriors of the Horde and protect their people from danger. Krom'rosh now sees a chance for that hope to be tested.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs to be warned?",
+   "aliases": [
+    "who needs warning",
+    "warn who"
+   ],
+   "answer": "Rog'mar must be warned because the threat is greater than first thought."
+  },
+  {
+   "q": "Who receives the missive?",
+   "aliases": [
+    "deliver missive to who",
+    "who gets the letter"
+   ],
+   "answer": "Krom'rosh at Rog'mar receives the missive."
+  },
+  {
+   "q": "Why can't I stop along the way?",
+   "aliases": [
+    "why no stopping",
+    "can't stop"
+   ],
+   "answer": "The missive must reach Krom'rosh, and the warning says not to stop for anyone on the path."
+  },
+  {
+   "q": "What did Da'grosh tell the village as a child?",
+   "aliases": [
+    "dagrosh childhood",
+    "what did dagrosh say"
+   ],
+   "answer": "Da'grosh urged the village's kin to become great warriors of the Horde and save their people from danger."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you hear Da'grosh's childhood hope that the village's kin might become warriors who save their people."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "As a warrior, you are named in Da'grosh's hope for the village's kin to become great warriors of the Horde."
+  }
+ ],
+ "keywords": [
+  "da'grosh",
+  "horde",
+  "krom'rosh",
+  "missive",
+  "rog'mar",
+  "village",
+  "warning",
+  "warriors"
+ ],
+ "related": [
+  "topic:horde",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: It Is Time, Brother..."
+ ]
+}

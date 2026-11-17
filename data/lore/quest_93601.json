@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A woman says the quilboar stole her gift and blames them for the garden's decline. She sends you north to the Valley of Bones to seek a quilboar of significance at Bristleback Retreat.",
+ "summary": "A witness blames the quilboar for stealing the woman's gift and dooming the garden. You are sent north to the Valley of Bones to seek a quilboar of significance at Bristleback Retreat.",
  "sections": [
   {
    "title": "A Garden in Peril",
-   "body": "A woman's garden is doomed to die, and she holds the quilboar responsible. She says they took her gift and sends you north into the Valley of Bones. At Bristleback Retreat, you are to seek out a quilboar of significance.",
+   "body": "The garden is doomed to die, and the one who saw the theft holds the quilboar responsible. To recover the woman's gift, you are sent north into the Valley of Bones. At Bristleback Retreat, you are to seek out a quilboar of significance.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "woman's gift",
     "quilboar stole it"
    ],
-   "answer": "A woman says the quilboar took her gift and blames them for her garden's decline."
+   "answer": "Not the woman herself. A witness who saw the theft with their own eyebulbs blames the quilboar for taking her gift."
   },
   {
    "q": "Where do I go?",
@@ -36,7 +36,7 @@
     "where to go",
     "bristleback retreat"
    ],
-   "answer": "The woman sends you north into the Valley of Bones, to Bristleback Retreat."
+   "answer": "Head north into the Valley of Bones, to Bristleback Retreat."
   },
   {
    "q": "What am I looking for at Bristleback Retreat?",
@@ -54,7 +54,7 @@
     "why blame them",
     "garden dying"
    ],
-   "answer": "She says the quilboar stole her gift and are why her garden is doomed to die."
+   "answer": "The blame comes from a witness, not the woman. The witness says the quilboar stole her gift and are why the garden is doomed to die."
   }
  ],
  "angles": [],

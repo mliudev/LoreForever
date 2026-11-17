@@ -11,16 +11,16 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "At Powderfuse Port, Friz Frazzlespark sends you after Eastsea pirates who took his stolen goods. He calls it your first lesson in dealing with backstabbers.",
+ "summary": "At Powderfuse Port, Friz Frazzlespark sends you after Eastsea pirates who took her stolen goods. She calls it your first lesson in dealing with backstabbers.",
  "sections": [
   {
    "title": "Friz's Lesson",
-   "body": "Friz Frazzlespark at Powderfuse Port wants you to reclaim goods taken by Eastsea pirates. He says he stole them first, and calls taking them back your first lesson as his lackey.",
+   "body": "Friz Frazzlespark at Powderfuse Port wants you to reclaim goods taken by Eastsea pirates. She says she stole them first, and calls taking them back your first lesson as her lackey.",
    "spoiler": 0
   },
   {
    "title": "A First Lesson",
-   "body": "Friz says you have learned your first lesson well. He offers his wisdom without charge, then points you toward another assignment.",
+   "body": "Friz says you have learned your first lesson well. She offers her wisdom without charge, then points you toward another assignment.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "who's Friz",
     "goblin at Powderfuse Port"
    ],
-   "answer": "Friz Frazzlespark is the goblin who asks you to reclaim his stolen goods from Eastsea pirates."
+   "answer": "Friz Frazzlespark is the goblin who asks you to reclaim her stolen goods from Eastsea pirates."
   },
   {
    "q": "What did the Eastsea pirates take?",
@@ -41,7 +41,7 @@
     "what was stolen",
     "smuggled goods"
    ],
-   "answer": "The Eastsea pirates took a shipment of goods that Friz says he had stolen first."
+   "answer": "The Eastsea pirates took a shipment of goods that Friz says she had stolen first."
   },
   {
    "q": "Where does Friz want the goods returned?",
@@ -50,7 +50,7 @@
     "Powderfuse Port",
     "where to take goods"
    ],
-   "answer": "Friz asks you to collect the goods for him at Powderfuse Port."
+   "answer": "Friz asks you to collect the goods for her at Powderfuse Port."
   },
   {
    "q": "Why does Friz want the goods back?",
@@ -59,7 +59,7 @@
     "why does Friz care",
     "backstabber reason"
    ],
-   "answer": "Friz says the pirates took goods he had stolen first, and calls taking them back a lesson in dealing with backstabbers."
+   "answer": "Friz says the pirates took goods she had stolen first, and calls taking them back a lesson in dealing with backstabbers."
   }
  ],
  "angles": [],

@@ -20,7 +20,7 @@
   },
   {
    "title": "The Search",
-   "body": "Black dragons complicate the Kor\u2019kron\u2019s effort to find Varian. After you slay a lesser dragon, the commander believes a greater force is pulling the strings. He sends you to tell Commander Folkar what you learned.",
+   "body": "Black dragons complicate the Kor\u2019kron\u2019s effort to find Varian. After you slay a lesser dragon, it seems a greater force is pulling the strings. It is time to tell Commander Folkar what you learned.",
    "spoiler": 1
   }
  ],
@@ -75,7 +75,6 @@
  ],
  "related": [
   "zone:orgrimmar",
-  "quest:2380",
   "topic:varian-wrynn"
  ],
  "style": 2,

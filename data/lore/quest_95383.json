@@ -1,0 +1,90 @@
+{
+ "key": "quest:95383",
+ "type": "quest",
+ "name": "Shipping and Handling",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95383
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wharfmaster Steamfizzle points you toward Tazzik with Friz\u2019s Secret Stash. The shipment raises questions about its passage through customs.",
+ "sections": [
+  {
+   "title": "At the Dock",
+   "body": "Tazzik is waiting on the dock in Steamwheedle Port for the crate you carry. Wharfmaster Steamfizzle directs you to him, though he claims to know nothing about the delivery. He urges haste and warns you against drawing the wrong attention. The shipment comes from Powderfuse Port, and its passage through customs is in question.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to deliver the crate?",
+   "aliases": [
+    "who sent me",
+    "who gave me the package"
+   ],
+   "answer": "Wharfmaster Steamfizzle directs you to Tazzik with Friz\u2019s Secret Stash."
+  },
+  {
+   "q": "Who am I delivering Friz\u2019s Secret Stash to?",
+   "aliases": [
+    "where does the crate go",
+    "deliver stash to who"
+   ],
+   "answer": "You are to deliver Friz\u2019s Secret Stash to Tazzik in Steamwheedle Port."
+  },
+  {
+   "q": "What is Friz\u2019s Secret Stash?",
+   "aliases": [
+    "what's in the crate",
+    "friz package"
+   ],
+   "answer": "It is a shipment Friz sent for Tazzik. The completion text praises its quality."
+  },
+  {
+   "q": "Where did the shipment come from?",
+   "aliases": [
+    "crate origin",
+    "powderfuse package"
+   ],
+   "answer": "Tazzik says he can smell Powderfuse Port on you."
+  },
+  {
+   "q": "Why does Steamfizzle tell me to hurry?",
+   "aliases": [
+    "why be quick",
+    "wrong idea"
+   ],
+   "answer": "Steamfizzle warns you not to draw the wrong attention."
+  },
+  {
+   "q": "Was the shipment cleared by customs?",
+   "aliases": [
+    "customs cleared",
+    "is this legal"
+   ],
+   "answer": "Tazzik says the shipment has been cleared by customs, but suggests Friz\u2019s money may be a problem."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "customs",
+  "friz",
+  "friz's secret stash",
+  "powderfuse port",
+  "shipping and handling",
+  "steamwheedle port",
+  "tazzik",
+  "wharfmaster steamfizzle"
+ ],
+ "related": [
+  "subzone:steamwheedle-port"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shipping and Handling"
+ ]
+}

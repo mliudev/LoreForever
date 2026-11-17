@@ -1,0 +1,61 @@
+{
+ "key": "quest:95943",
+ "type": "quest",
+ "name": "Foreman's Plight",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95943
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Bertrand Ironbrow in Farholde Keep asks you to find the Foreman's Crate and bring it back. Its return is what he seeks.",
+ "sections": [
+  {
+   "title": "A Missing Crate",
+   "body": "In Farholde Keep, Bertrand Ironbrow is looking for the Foreman's Crate. You are asked to locate it and bring it back to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the crate?",
+   "aliases": [
+    "who asked for it",
+    "Bertrand Ironbrow crate"
+   ],
+   "answer": "Bertrand Ironbrow in Farholde Keep asks you to find the Foreman's Crate and return it to him."
+  },
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "what crate",
+    "foreman crate"
+   ],
+   "answer": "You are looking for the Foreman's Crate."
+  },
+  {
+   "q": "Where do I bring it?",
+   "aliases": [
+    "where return crate",
+    "bring crate"
+   ],
+   "answer": "Bring the Foreman's Crate back to Bertrand Ironbrow in Farholde Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bertrand ironbrow",
+  "crate",
+  "farholde keep",
+  "foreman's crate",
+  "foreman's plight"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Foreman's Plight"
+ ]
+}

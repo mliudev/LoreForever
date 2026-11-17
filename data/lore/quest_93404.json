@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Woodwyrd asks you to quench the flame that burdens an ancient spirit at the Forlorn Gardens. The spirit points you toward sacred water in Maraudon.",
+ "summary": "Woodwyrd, the ghost of an ancient treant at the Forlorn Gardens, asks you to put out the flame that still burns him. He points you toward sacred water in Maraudon.",
  "sections": [
   {
    "title": "A Spirit's Burden",
-   "body": "The ancient spirit says its final mistake binds it to this place, where it still feels a flame in death. It asks you to seek pristine water from a sacred ravine across Mashan\u2019she. Maraudon is the place named, and Woodwyrd awaits the Vial of Earth Song Water at the Forlorn Gardens.",
+   "body": "The ancient spirit says its final mistake binds it to this place, where it still feels a flame in death. It asks you to seek pristine water from a sacred ravine across Mashan\u2019she. Maraudon is the place named, and the spirit is Woodwyrd himself, who awaits the Vial of Earth Song Water at the Forlorn Gardens.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "ancient spirit",
     "rot regret giver"
    ],
-   "answer": "Woodwyrd at the Forlorn Gardens asks you to bring back a Vial of Earth Song Water for the ancient spirit."
+   "answer": "Woodwyrd asks for it himself. He is the ghostly ancient at the Forlorn Gardens, and the water is to put out his flame."
   },
   {
    "q": "Why does the ancient spirit want the flame put out?",

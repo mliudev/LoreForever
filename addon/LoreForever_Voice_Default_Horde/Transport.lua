@@ -350,7 +350,7 @@ P.transport["npc:shael-dryn"] = {
   fullHash = "cf873a",
   text = "Shael'dryn. At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences. Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shael-dryn-e90efe2887f5f07e5e74/1-0000.mp3", duration = 37.1983673, start = 0},
+    {file = "Audio/Transport/full_npc_shael-dryn-7ede08376023a00ce65d/1-0000.mp3", duration = 32.2612245, start = 0},
   },
 }
 P.transport["npc:shenthul"] = {

@@ -3513,7 +3513,7 @@ end
 
 
 -- Books, letters and plaques (LOR-49): a page a voice has recorded (a clip under its page id) plays as the book opens
--- (unless the readBooks setting is off), turning the page plays the next, closing it stops. Like quest dialogue, a page
+-- (unless the readBooks setting is off), turning the page reads it next (never cutting one off), closing it stops. Like quest dialogue, a page
 -- plays once each time the book opens (pageFresh), one this character has heard doesn't play again by itself while
 -- "Skip what you've heard" is on, and nothing cuts off something you started. The book's pill (Hooks.BookFrame) plays
 -- the page on demand (Voice.ReadBookPage(true)) and puts the book in the playlist (UI.QueueBook).
@@ -3591,10 +3591,13 @@ function Voice.ReadBookPage(byHand)
   local id, title, text = bookPage()
   if not id then return end
   if byHand and UI.speaking and (UI.playingId == id or UI.playingKey == id) then return UI.StopAll(true) end   -- (or from the playlist)
-  local ours = UI.speaking and isBookText(UI.playingId)
-  if not byHand and (UI.playingId == id or UI.QueuedLine(id)) then return end
+  if not byHand and (UI.playingId == id or UI.QueuedLine(id)) then
+    if UI.playingId == id then UI.TurnBookPage(nil) end   -- (back to the page reading: what waited for later leaves)
+    return
+  end
   if not Voice.HasAudio(id) or (not byHand and not pageFresh(id)) then
-    if ours then UI.StopAll() end   -- the last page stops all the same
+    -- A page with nothing to read: the page reading finishes, nothing of the book waits (it used to stop the list).
+    UI.TurnBookPage(nil)
     return
   end
   Voice.openPages[id] = true
@@ -3604,12 +3607,12 @@ function Voice.ReadBookPage(byHand)
     if UI.speaking and UI.playingId == id then Voice.MarkHeard(id) end
     return
   end
-  -- By itself it joins the queue (LOR-1388: it used to be dropped when anything played): over this book's page it
-  -- turns with the window; over anything else it waits its turn (a cutscene or Willo holds it like the rest).
+  -- By itself it joins the queue (LOR-1388: it used to be dropped when anything played): after this book's page that
+  -- reads now; over anything else it waits its turn (a cutscene or Willo holds it like the rest). One row for the book.
   local line = { id = id, key = id, label = title, how = "book", target = target }
   if UI.TakePlace(line) then return end   -- (a letter whose item story waits or plays: the reading takes its row)
-  if ours and not UI.ReplaceCurrent(line) then UI.StopSolo() end
-  if not UI.PlaylistIndex(id) then UI.Admit(line) end
+  if UI.PlaylistIndex(id) or UI.TurnBookPage(line) then return end
+  UI.Admit(line)   -- (over a page you played by hand it waits: a turn never cuts a voice)
 end
 
 -- The book closed: stop its page.

@@ -1,0 +1,73 @@
+{
+ "key": "quest:4294",
+ "type": "quest",
+ "name": "... and a Batch of Ooze",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4294
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Chemist Fuely asks you to test slime samples from Un'Goro Crater. He needs five of the pure samples you find.",
+ "sections": [
+  {
+   "title": "Testing the Samples",
+   "body": "The Testing Equipment beside Chemist Fuely in Undercity can show which Un'Goro Slime Samples are pure. You gather samples from slimes in Un'Goro Crater, then use the equipment to test them. Fuely needs five Pure Un'Goro Samples, and their purity is what matters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Chemist Fuely need?",
+   "aliases": [
+    "fuely samples",
+    "what does fuely want"
+   ],
+   "answer": "Chemist Fuely needs five Pure Un'Goro Samples."
+  },
+  {
+   "q": "Where do I get the slime samples?",
+   "aliases": [
+    "slime samples where",
+    "ungoro slime"
+   ],
+   "answer": "You can gather Un'Goro Slime Samples from slimes in Un'Goro Crater."
+  },
+  {
+   "q": "How do I find the pure samples?",
+   "aliases": [
+    "test slime samples",
+    "pure ooze"
+   ],
+   "answer": "Use the Testing Equipment beside Chemist Fuely in Undercity to see which samples are pure."
+  },
+  {
+   "q": "Where is the testing equipment?",
+   "aliases": [
+    "fuely equipment",
+    "testing machine"
+   ],
+   "answer": "The Testing Equipment is beside Chemist Fuely in Undercity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chemist fuely",
+  "pure un'goro samples",
+  "testing equipment",
+  "un'goro crater",
+  "un'goro slime samples",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:ungoro"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: ... and a Batch of Ooze"
+ ]
+}

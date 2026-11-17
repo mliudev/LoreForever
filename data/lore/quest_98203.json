@@ -1,0 +1,96 @@
+{
+ "key": "quest:98203",
+ "type": "quest",
+ "name": "Witch Doctor Ti'ik",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98203
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Revantusk scouts have found the Witherbark witch doctor Ti'ik in a cave west of Hiri'watha. You are sent to stop his foul magic and bring back his head.",
+ "sections": [
+  {
+   "title": "A Cave of Larvae",
+   "body": "Revantusk scouts have found Ti'ik west of Hiri'watha, where he brings his voodoo into a cave. The Witherbark are hiding their plans and hideouts after being hunted for their treachery. You are sent to kill the witch doctor and crush what he is growing. The village fears rot, decay, and larvae brought into its homes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ti'ik?",
+   "aliases": [
+    "ti'ik who",
+    "witch doctor ti'ik",
+    "tiik"
+   ],
+   "answer": "Ti'ik is a Witherbark witch doctor who brings voodoo into a cave west of Hiri'watha."
+  },
+  {
+   "q": "Where is Ti'ik?",
+   "aliases": [
+    "ti'ik cave",
+    "where tiik",
+    "witch doctor location"
+   ],
+   "answer": "Ti'ik is in a cave west of Hiri'watha."
+  },
+  {
+   "q": "Why am I sent after Ti'ik?",
+   "aliases": [
+    "why kill ti'ik",
+    "tiik quest",
+    "what's wrong with ti'ik"
+   ],
+   "answer": "Revantusk fears the rot, decay, and larvae Ti'ik brings into his cave, and sends you to stop him."
+  },
+  {
+   "q": "What are the Witherbark doing?",
+   "aliases": [
+    "witherbark plans",
+    "witherbark hiding",
+    "why are they hiding"
+   ],
+   "answer": "The Witherbark are making plans and hideouts to keep their tribe in the shadows while Revantusk hunts them for treachery."
+  },
+  {
+   "q": "What do I bring back?",
+   "aliases": [
+    "ti'ik head",
+    "bring back what",
+    "kill tiik"
+   ],
+   "answer": "You are asked to return with Ti'ik's head."
+  },
+  {
+   "q": "What is in Ti'ik's cave?",
+   "aliases": [
+    "larvae cave",
+    "spider eggs maggots",
+    "what's growing there"
+   ],
+   "answer": "The cave has spider eggs and maggots, and the Revantusk do not want them in their village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hiri'watha",
+  "larvae",
+  "maggots",
+  "revantusk",
+  "spider eggs",
+  "ti'ik",
+  "tiik",
+  "voodoo",
+  "witch doctor ti'ik",
+  "witherbark"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Witch Doctor Ti'ik"
+ ]
+}

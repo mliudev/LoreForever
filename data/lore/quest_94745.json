@@ -1,0 +1,80 @@
+{
+ "key": "quest:94745",
+ "type": "quest",
+ "name": "Carving a Path",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94745
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Da'grosh asks you to challenge the Twilight's Hammer at the Twilight's Shroud. He believes their reliance on devilry and ancient gods leaves them vulnerable.",
+ "sections": [
+  {
+   "title": "The Shroud",
+   "body": "Da'grosh points you toward the Twilight's Shroud, a fortress west of his position. He calls its Twilight's Hammer occupants cowards and scorns their reliance on devilry and ancient gods. He wants you to show them how vulnerable they are.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Test of Strength",
+   "body": "At the Twilight's Shroud, Da'grosh asks you to defeat Twilight Fanatics, Twilight Corrupters, and Twilight Champions. He insists that true strength rests in one's own hands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Da'grosh asking me to fight?",
+   "aliases": [
+    "who do I fight",
+    "Da'grosh enemies"
+   ],
+   "answer": "Da'grosh asks you to fight Twilight Fanatics, Twilight Corrupters, and Twilight Champions at the Twilight's Shroud."
+  },
+  {
+   "q": "Where is the Twilight's Shroud?",
+   "aliases": [
+    "where's the Shroud",
+    "Twilight fortress location"
+   ],
+   "answer": "Da'grosh describes the Twilight's Shroud as a fortress just west of his position."
+  },
+  {
+   "q": "Why does Da'grosh call the Twilight's Hammer weak?",
+   "aliases": [
+    "why are they weak",
+    "Da'grosh on Twilight"
+   ],
+   "answer": "Da'grosh believes their reliance on devilry and ancient gods makes them weak."
+  },
+  {
+   "q": "What does Da'grosh want me to prove?",
+   "aliases": [
+    "what am I proving",
+    "show them vulnerable"
+   ],
+   "answer": "Da'grosh wants you to show the Twilight's Hammer that they are vulnerable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient gods",
+  "carving a path",
+  "da'grosh",
+  "devilry",
+  "twilight champion",
+  "twilight corrupter",
+  "twilight fanatic",
+  "twilight's hammer",
+  "twilight's shroud"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Carving a Path"
+ ]
+}

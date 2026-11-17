@@ -1,0 +1,68 @@
+{
+ "key": "quest:4491",
+ "type": "quest",
+ "name": "A Little Help From My Friends",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4491
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Spraggle Frock needs you to guide Ringo to him at Marshal's Refuge. If Ringo faints along the way, Spraggle's Canteen can revive him.",
+ "sections": [
+  {
+   "title": "Ringo's Journey",
+   "body": "Ringo is to be brought to Spraggle Frock at Marshal's Refuge. You guide him there, keeping Spraggle's Canteen ready in case Ringo faints. His arrival depends on reaching Spraggle, and the canteen is there to help him continue.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I bring to Spraggle?",
+   "aliases": [
+    "who is Ringo",
+    "Ringo help",
+    "bring Ringo"
+   ],
+   "answer": "You guide Ringo to Spraggle Frock at Marshal's Refuge."
+  },
+  {
+   "q": "Where am I taking Ringo?",
+   "aliases": [
+    "where is Spraggle",
+    "Ringo destination",
+    "Marshal refuge"
+   ],
+   "answer": "Ringo is headed to Spraggle Frock at Marshal's Refuge."
+  },
+  {
+   "q": "What if Ringo faints?",
+   "aliases": [
+    "Ringo faint",
+    "revive Ringo",
+    "canteen help"
+   ],
+   "answer": "Use Spraggle's Canteen to revive Ringo if he faints."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "faint",
+  "marshal's refuge",
+  "revive",
+  "ringo",
+  "spraggle frock",
+  "spraggle's canteen"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge",
+  "npc:ringo"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Little Help From My Friends"
+ ]
+}

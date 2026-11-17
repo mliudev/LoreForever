@@ -1,0 +1,89 @@
+{
+ "key": "quest:95296",
+ "type": "quest",
+ "name": "Shipping and Handling",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95296
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Your employer asks you to carry a crate to Steamwheedle Port. A goblin there is expected to pay his dues.",
+ "sections": [
+  {
+   "title": "A Crate to Deliver",
+   "body": "Your employer is busy negotiating in town, so he gives you a crate for his associate. He expects you to take a ship from the docks to Steamwheedle Port in Tanaris. There, Wharfmaster Steamfizzle is the one to speak with, and a goblin's dues are at stake.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gave me the crate?",
+   "aliases": [
+    "crate delivery",
+    "who sent me",
+    "shipping job"
+   ],
+   "answer": "Your employer gives you the crate while he handles negotiations in town."
+  },
+  {
+   "q": "Where does the crate go?",
+   "aliases": [
+    "crate destination",
+    "where to deliver",
+    "steamwheedle delivery"
+   ],
+   "answer": "The crate is meant for your employer's associate at Steamwheedle Port in Tanaris."
+  },
+  {
+   "q": "Who do I speak with at Steamwheedle Port?",
+   "aliases": [
+    "wharfmaster",
+    "steamfizzle",
+    "port contact"
+   ],
+   "answer": "At Steamwheedle Port, the named contact is Wharfmaster Steamfizzle."
+  },
+  {
+   "q": "Why am I carrying a crate?",
+   "aliases": [
+    "why crate",
+    "what's in the crate",
+    "delivery reason"
+   ],
+   "answer": "Your employer asks you to deliver the crate because he is busy negotiating in town."
+  },
+  {
+   "q": "What is the goblin supposed to do?",
+   "aliases": [
+    "goblin dues",
+    "pay his dues",
+    "why goblin"
+   ],
+   "answer": "Your employer expects a goblin at Steamwheedle Port to pay his dues."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate",
+  "delivery",
+  "dues",
+  "goblin",
+  "shipping and handling",
+  "steamwheedle port",
+  "tanaris",
+  "wharfmaster steamfizzle"
+ ],
+ "related": [
+  "subzone:steamwheedle-port",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shipping and Handling"
+ ]
+}

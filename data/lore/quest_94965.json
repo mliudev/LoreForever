@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "An ogre asks you to prove yourself to his people by facing Snufflesnout in the Bloodmaster's Ring. Her favorite treat will draw her into the fight, though Chub'chob may not take kindly to the result.",
+ "summary": "The goblin Jezap asks you to prove yourself to the ogres by facing Snufflesnout in the Bloodmaster's Ring. Her favorite treat will draw her into the fight, though Chub'chob may not take kindly to the result.",
  "sections": [
   {
    "title": "A Test for You",
-   "body": "The ogre sets out a treat before you enter the Bloodmaster's Ring. Snufflesnout is fond of it, and the sight of it rouses her. Your trial is to face Chub'chob's companion while proving yourself to the ogres.",
+   "body": "Jezap sets out a treat before you enter the Bloodmaster's Ring. Snufflesnout is fond of it, and the sight of it rouses her. Your trial is to face Chub'chob's companion while proving yourself to the ogres.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "what's the treat for",
     "feed snufflesnout"
    ],
-   "answer": "The ogre uses Snufflesnout's favorite treat to draw her into the Bloodmaster's Ring."
+   "answer": "Jezap uses Snufflesnout's favorite treat to draw her into the Bloodmaster's Ring."
   },
   {
    "q": "What is the Bloodmaster's Ring?",
@@ -59,7 +59,7 @@
     "why fight her",
     "prove myself to ogres"
    ],
-   "answer": "The ogres consider proving yourself to them important, and facing Snufflesnout is your trial."
+   "answer": "Jezap says proving yourself to the ogres matters above all, and facing Snufflesnout is your trial."
   }
  ],
  "angles": [],

@@ -2548,32 +2548,6 @@
       },
       "text": "Algaz Station. At Algaz Station, Mountaineers keep watch over the northern road from Loch Modan to the Wetlands. South of Dun Algaz, the outpost guards the mountain pass. Dwarven Mountaineers watch the road north from Loch Modan at Algaz Station. East of North Gate Pass and south of Dun Algaz, the post guards the route between Ironforge and the northern lowlands. Trade and troops travel through the mountain tunnels, though beasts and troggs threaten the hills. The Mountaineers keep the way open and give weary travelers a place to rest, make repairs, and find martial support before entering the pass."
     },
-    "subzone:alterac-mountains": {
-      "1": [
-        {
-          "duration": 81.6065306122449,
-          "file": "Audio/Transport/full_subzone_alterac-mountains-5512b36557eb7514f1b5/1-0000.mp3",
-          "sha256": "b7d9d544c08ad8afb2c514a49198492a66eaff0c23d7019335965599f9048001",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "cd070c",
-      "generation": "d99c38c4e4ade013995f",
-      "hash": "851809",
-      "source": {
-        "duration": 81.606531,
-        "file": null,
-        "sha256": "5512b36557eb7514f1b536c28998f0d8525f0b3b9e94cbabc9532a916fcc1810"
-      },
-      "text": "Alterac Mountains. In the Alterac Mountains, ruined settlements and bandits claim the slopes above Hillsbrad’s pastures. Once the heart of a proud human kingdom, the highlands now offer travelers little safety. The Alterac highlands once held a sovereign human nation, one of seven kingdoms born from ancient Arathor. During the Second War, King Aiden Perenolde secretly made a pact with the Old Horde. He let orcish forces cross the peaks in return for his kingdom’s safety. The Alliance of Lordaeron uncovered the betrayal and deposed him. Martial law and territorial disputes left the region divided. The Third War’s devastation left the mountains lawless. Disinherited nobles formed the Syndicate, which works from Strahnbrad’s ruins and plots to reclaim its lost dominion through sabotage and assassination. Crushridge ogres hold the shattered capital. Gnolls roam the slopes, and the magical ruins around Dalaran lie shattered. Alterac’s passes remain among Lordaeron’s most perilous paths."
-    },
     "subzone:alther-s-mill": {
       "1": [
         {
@@ -7306,32 +7280,6 @@
       },
       "text": "Raynewood Retreat. At Raynewood Retreat, Cenarion guards watch Ashenvale’s northern approaches to Felwood. Keeper Ordanus makes his home in the great tree at the heart of the outpost. Raynewood Retreat stands between Shael'dryn's moonwell and the satyr-infested ruins of Night Run. Cenarion Protectors, faerie dragons, and Laughing Sisters guard the outpost. Their watch turns north, toward the taint spreading from Felwood."
     },
-    "subzone:razorfen-downs": {
-      "1": [
-        {
-          "duration": 53.86448979591837,
-          "file": "Audio/Transport/full_subzone_razorfen-downs-08e7e941942678cd87ed/1-0000.mp3",
-          "sha256": "09d949dc476e2f9ac6ad5299447c9f30d5d494257f983af736c8ff5082831c97",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "bcb9ba",
-      "generation": "fd14eba60c414d6a8df8",
-      "hash": "bcb9ba",
-      "source": {
-        "duration": 53.890612,
-        "file": null,
-        "sha256": "08e7e941942678cd87ed035642ed015f807f6766fb44bd52ce33023fe0272fe7"
-      },
-      "text": "Razorfen Downs. Scourge power now stains Razorfen Downs, the quilboar’s sacred burial maze in southern Kalimdor. Their dead still rest among Agamaggan’s thorns, though necromancy has taken hold. Razorfen Downs holds the quilboar’s ancestral dead among the petrified briars of Agamaggan. The thorn maze rises from the fallen demigod, and legend says its arched entrance was carved from the Great Boar’s own maw. For centuries, high priests of the Death's Head tribe tended its deep, winding burrows and honored the dead. Now a catastrophe darker than any quarrel over water in the Barrens has struck this sacred ground."
-    },
     "subzone:remtravel-s-excavation": {
       "1": [
         {
@@ -8631,32 +8579,6 @@
         "sha256": "6a778c649840793b9d6e77f7e491df982732347238d5f9588f34ce9a81dcf13a"
       },
       "text": "Stormwind Keep. Stormwind Keep holds the royal court above the capital. Rebuilt after its ruin in the First War, it is now home to the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon. Stormwind Keep crowns a plateau above the city, with halls for the crown and the kingdom’s defense. The Old Horde burned the first stronghold after King Llane was assassinated near the end of the First War. After the Alliance reclaimed the kingdom, builders raised the keep again on its old foundations. Its halls include the grand throne room and the War Room, while garden courtyards and the Royal Library offer quieter spaces."
-    },
-    "subzone:stormwind-stockade": {
-      "1": [
-        {
-          "duration": 50.62530612244898,
-          "file": "Audio/Transport/full_subzone_stormwind-stockade-432cd36e000d78ece544/1-0000.mp3",
-          "sha256": "ce83b623d265c694cd1c7a09da12630f73a32fd3b04d3a670696a999b636373f",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "e133a7",
-      "generation": "981ad0f43e3b56797638",
-      "hash": "e133a7",
-      "source": {
-        "duration": 50.651429,
-        "file": null,
-        "sha256": "432cd36e000d78ece544c0fb6bfb904497d0718c6d18dff4bb031543504f51d1"
-      },
-      "text": "Stormwind Stockade. Stormwind Stockade has fallen into chaos beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, and the prison's most dangerous prisoners roam free. Warden Thelwater oversees the Stockade, where Stormwind holds cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. The Defias conspirator Bazil Thredd led the uprising, and now prisoners roam the corridors. Thelwater has secured the entrance, but the revolt still threatens to spill into the canals. He needs adventurers to enter the prison and put it down."
     },
     "subzone:stormwind-stockade-classic": {
       "1": [
@@ -10204,15 +10126,6 @@
       2024,
       2174,
       2332
-    ],
-    "09d949dc476e2f9ac6ad5299447c9f30d5d494257f983af736c8ff5082831c97": [
-      274,
-      473,
-      743,
-      1060,
-      1210,
-      1436,
-      1774
     ],
     "0a55965ea9428772928cfd90a22e5dce398fef29caf7a699249eb6d0ec13bc32": [
       340,
@@ -12975,19 +12888,6 @@
       763,
       947
     ],
-    "b7d9d544c08ad8afb2c514a49198492a66eaff0c23d7019335965599f9048001": [
-      182,
-      405,
-      694,
-      869,
-      1042,
-      1294,
-      1693,
-      1902,
-      2079,
-      2673,
-      2914
-    ],
     "b7ffd378c0e0441f6976382050ff5922705085763e5499bfc34753a3799f929a": [
       314,
       549,
@@ -13346,16 +13246,6 @@
       2214,
       2386,
       2620
-    ],
-    "ce83b623d265c694cd1c7a09da12630f73a32fd3b04d3a670696a999b636373f": [
-      377,
-      549,
-      710,
-      950,
-      1101,
-      1395,
-      1531,
-      1769
     ],
     "cedd33bb337c53fe9e2650d3330e89b69ed45fc8eff6c976bc59f60a8aa110af": [
       199,
@@ -14154,9 +14044,6 @@
     },
     "09cdcbce3e8d1b2cfb2438dc185d3b2805caa2c1f8cd9b6f6123ffe18cd9ce1a": {
       "1120": 1
-    },
-    "09d949dc476e2f9ac6ad5299447c9f30d5d494257f983af736c8ff5082831c97": {
-      "743": 1
     },
     "0a55965ea9428772928cfd90a22e5dce398fef29caf7a699249eb6d0ec13bc32": {
       "913": 1
@@ -15080,10 +14967,6 @@
     "b67d8651f31eb53b73995bb6a792a7853d870a0d07efe1d7c5ab2acb33a8fff9": {
       "470": 1
     },
-    "b7d9d544c08ad8afb2c514a49198492a66eaff0c23d7019335965599f9048001": {
-      "1902": 2,
-      "694": 1
-    },
     "b7ffd378c0e0441f6976382050ff5922705085763e5499bfc34753a3799f929a": {
       "314": 1
     },
@@ -15200,9 +15083,6 @@
     "ce3abf61e57a0a4c9549f9db28f738185e03c8225fc7f21eabd198b82ec77a28": {
       "1776": 2,
       "704": 1
-    },
-    "ce83b623d265c694cd1c7a09da12630f73a32fd3b04d3a670696a999b636373f": {
-      "710": 1
     },
     "cedd33bb337c53fe9e2650d3330e89b69ed45fc8eff6c976bc59f60a8aa110af": {
       "740": 1

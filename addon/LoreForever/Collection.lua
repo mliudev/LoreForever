@@ -19,8 +19,9 @@
 --                                                    it when you found it (slice 6: Found colours its name)
 --   unheard = { [entry key] = found string },        pages fill-in version 3 took back (found only from a story heard,
 --                                                    LOR-1501), kept as they were; nothing reads them
---   undone = { [entry key] = found string } } } }    pages fill-in version 4 took back (another zone's copy of a quest
---                                                    you did, and its people, LOR-1501), kept as they were; unread too
+--   undone = { [entry key] = found string } } } }    pages fill-ins 4 and 5 took back (another zone's copy of a quest
+--                                                    you did, or another choice of a quest you may do only one of, and
+--                                                    its people, LOR-1501), kept as they were; unread too
 --
 -- What counts as finding, by kind (the design's table): entering a zone, city, dungeon or place; targeting or talking
 -- to a person (a boss too: you target it to fight it); taking a quest; an item in your bags (looted, a reward, bought)
@@ -33,13 +34,16 @@ local Collection = {}
 ns.Collection = Collection
 
 local V = 1           -- the saved data's version
-local FILL = 4        -- the fill-in's version: raise it to run it again for every character (it adds, and takes back
+local FILL = 5        -- the fill-in's version: raise it to run it again for every character (it adds, and takes back
                       -- only what unheard and undone say)
                       -- 2: places, people and items by the game's ids and own names, for non-English games (11/13)
                       -- 3: stories heard aren't finds (LOR-1501): 2 had made Elwynn Forest found for a Tirisfal
                       --    character who had only heard of it
                       -- 4: a quest's copies in other zones the server lists as done aren't finds, nor their people
                       --    (LOR-1501): Tirisfal's "The Adventurer" had made Elwynn's and Marshal McBride found
+                      -- 5: nor the other choices of a quest you may do only one of (m.xg), and a group done before the
+                      --    add-on counts the ones in zones you've been to (LOR-1501, 11/16): a Forsaken warrior had the
+                      --    orcs' "Path of Defense" and Uzzek found in The Barrens
 local SLICE = 150     -- fill-in items per frame
 local PLACE_KINDS = { zone = true, city = true, dungeon = true, subzone = true }
 
@@ -144,8 +148,10 @@ function Collection.Find(key, how, t, lv, place, quest)
     quest = questHere(how)
   end
   r.found[key] = pack(t, how, lv, place, quest)
-  -- A page the counts leave out until found (e.nf) joins its chapter now, before the new-page slip reads the counts.
-  if entries()[key].nf and ns.Book and ns.Book.Forget then ns.Book.Forget() end
+  -- A page the counts leave out until found (e.nf; a quest for only some classes or races, m.cl and m.ra) joins its
+  -- chapter now, before the new-page slip reads the counts.
+  local e = entries()[key]
+  if (e.nf or (e.m and (e.m.cl or e.m.ra))) and ns.Book and ns.Book.Forget then ns.Book.Forget() end
   -- New (and the new-page moment) only once the fill-in has run: before it, a page found at login may be one from
   -- before this version that the fill-in hasn't reached yet.
   if live and r.filled == FILL then
@@ -469,14 +475,19 @@ local function fillList()
   end
   local log = {}
   for _, q in ipairs(try(ns.Context.Quests) or {}) do log[#log + 1] = questKey(q.id) end
-  -- The server lists every copy of some quests as done once you've done one: "The Adventurer" is a quest in seven
-  -- starting zones, each its own id, and a character who did Tirisfal's has all seven, Elwynn Forest's too (LOR-1501).
-  -- So among done quests that share a name, when what you really did backs one of them (the saved journey took or
-  -- turned it in, it's in your log, or it was found as you played), only those backed count, with their people. Only
-  -- Forever's own quests (fv) can be copies: an older chain of one name ("The Defias Brotherhood", parts done before
-  -- the add-on and parts after) always counts whole. When nothing backs any (done before the add-on, or the journey
-  -- off), they all count. Names are the English ones (en: a language pack writes its own over n, and names only some
-  -- copies). left: the pages, and their people, the server listed but you didn't do.
+  -- The server lists every quest of a group as done once you've done one of them (LOR-1501):
+  --   * Forever's copies: "The Adventurer" is a quest in seven starting zones, each its own id, and a character who did
+  --     Tirisfal's has all seven, Elwynn Forest's too. Copies are Forever's own quests (fv) of one English name (en: a
+  --     language pack writes its own over n, and names only some copies); an older chain of one name ("The Defias
+  --     Brotherhood") isn't a group and always counts whole.
+  --   * The original game's choices (m.xg, lore.quest_groups): quests of which you may do only one, such as each race's
+  --     version of the warrior's level-10 quest. A Forsaken warrior who did "Ulag the Cleaver" has the orcs' "Path of
+  --     Defense" too, given by Uzzek in The Barrens.
+  -- So in a group, when what you really did backs one of them (the saved journey took or turned it in, it's in your log,
+  -- or it was found as you played), only those backed count, with their people. When nothing backs any (done before
+  -- the add-on, or the journey off), the ones your class and race may take count, and of those the ones in a zone
+  -- you've been to; when nothing tells them apart, they all count. left: the pages, and their people, the server
+  -- listed but you didn't do.
   local r, sure, named, left = Collection.Store(), {}, {}, {}
   for _, e in ipairs(type(jc) == "table" and type(jc.events) == "table" and jc.events or {}) do
     if type(e) == "table" and (e.k == "qa" or e.k == "qt") then
@@ -489,22 +500,70 @@ local function fillList()
     local rec = Collection.Found(key)
     if rec and rec.how ~= "done" and rec.how ~= "past" then sure[key] = true end
   end
-  local function englishName(key) local e = entries()[key]; return lower(e.en or e.n or "") end
+  -- The zones you've been to: the places the journey has (in items so far) and the ones found as you played (an older
+  -- fill-in's "past" may be a story heard before version 3: the journey's own are above).
+  local been = {}
+  local function visit(key)
+    local e = key and entries()[key]
+    if e and PLACE_KINDS[e.t] and e.z then been[e.z] = true end
+  end
+  for _, it in ipairs(items) do visit(it[1]) end
+  for key in pairs(r and r.found or {}) do
+    local rec = Collection.Found(key)
+    if rec and rec.how ~= "past" then visit(key) end
+  end
+  local function groupOf(key)
+    local e = entries()[key]
+    if type(e.m) == "table" and tonumber(e.m.xg) then return "xg" .. e.m.xg end
+    if e.fv then return "n" .. lower(e.en or e.n or "") end
+  end
+  -- Whether your class and race may take a quest (m.cl, m.ra: the game's class and race files, lore.quest_who; as
+  -- Book.lua's totals). Unknown: yes.
+  local _, class = try(UnitClass, "player")
+  local _, race = try(UnitRace, "player")
+  local function listed(list, v)
+    if type(list) ~= "table" or not v then return true end
+    for _, x in ipairs(list) do if x == v then return true end end
+    return false
+  end
+  local function mine(key)
+    local m = entries()[key].m
+    return type(m) ~= "table" or (listed(m.cl, class) and listed(m.ra, race))
+  end
   for _, id in ipairs(done) do
     local key = questKey(id)
-    local n = key and englishName(key)
+    local n = key and groupOf(key)
     if n then
       local g = named[n]
-      if not g then g = { backed = false }; named[n] = g end
+      if not g then g = { zones = {}, nz = 0 }; named[n] = g end
       g[#g + 1] = key
+      local z = entries()[key].z or ""
+      if not g.zones[z] then g.zones[z] = true; g.nz = g.nz + 1 end
       g.backed = g.backed or sure[key] == true
+      g.yours = g.yours or mine(key)
+      g.notYours = g.notYours or not mine(key)
+    end
+  end
+  -- Which of a group's members count when nothing you did backs one: the ones your class and race may take (when the
+  -- group has others too), and of those the ones in a zone you've been to (when there are any).
+  for _, g in pairs(named) do
+    if not g.backed then
+      local mineOnly = g.yours and g.notYours
+      for _, key in ipairs(g) do
+        if (not mineOnly or mine(key)) and been[entries()[key].z] then g.near = true end
+      end
+      g.pick = function(key)
+        return (not mineOnly or mine(key)) and (not g.near or been[entries()[key].z] == true)
+      end
     end
   end
   for _, id in ipairs(done) do
     local key = questKey(id)
     local m = key and entries()[key].m
-    local g = key and named[englishName(key)]
-    local copy = g and #g > 1 and g.backed and not sure[key] and entries()[key].fv
+    local g = key and named[groupOf(key)]
+    -- A group whose members are all in one zone isn't sorted (Darkshore's "Escape Through Force" or "... Stealth"):
+    -- it lights no other zone, and that zone's total counts them all.
+    local copy = g and g.nz > 1 and ((g.backed and not sure[key]) or (not g.backed and not g.pick(key)))
     local function person(name)
       local k = keyOfKind(name, PERSON)
       if copy then left[#left + 1] = k else add(k, "done") end
@@ -552,7 +611,7 @@ local function unheard(r, items)
   if taken and ns.Book and ns.Book.Forget then ns.Book.Forget() end
 end
 
--- Takes back the copies of a quest an older fill-in found from the server's done list though you did another copy
+-- Takes back the quests of a group an older fill-in found from the server's done list though you did another of them
 -- (fillList's left: the quest pages and their people), when the record is exactly what that fill-in wrote ("0;done;;")
 -- and nothing else finds the page: not this fill-in, not the saved journey. Set aside in r.undone, not erased.
 local function undone(r, items, left)
@@ -578,10 +637,11 @@ function Collection.Fill(done)
   local ok, items, left = pcall(fillList)
   if not ok then items, left = {}, {} end
   -- A character an older fill-in already ran for only gains what it missed: a page it has found keeps its record,
-  -- but what only a heard story found goes (before version 3), and so do the quest copies it didn't do (before 4).
+  -- but what only a heard story found goes (before version 3), and so do the quests of a group it didn't do (before
+  -- 4: Forever's copies; before 5: the original game's choices too).
   local refill = r.filled ~= nil
   if refill and ok and (tonumber(r.filled) or 0) < 3 then pcall(unheard, r, items) end
-  if refill and ok and (tonumber(r.filled) or 0) < 4 then pcall(undone, r, items, left) end
+  if refill and ok and (tonumber(r.filled) or 0) < 5 then pcall(undone, r, items, left) end
   local i = 1
   local function step()
     local last = math.min(i + SLICE - 1, #items)

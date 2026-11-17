@@ -1,0 +1,84 @@
+{
+ "key": "quest:92814",
+ "type": "quest",
+ "name": "I Need a Tailor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92814
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Molkar asks you to bring him a White Bandit Mask in Gelkis Village. He hopes to give Halea, his mate, simple clothes to practice her enchanting craft on.",
+ "sections": [
+  {
+   "title": "A gift for Halea",
+   "body": "Molkar keeps the Gelkis supplied and equipped, and Halea sees to the magical energy in their armaments. Though enchanting is beyond his understanding, he knows she often falls behind through no fault of her own. He asks you for a White Bandit Mask so she can practice her craft on simple clothes. Your help also aids the Gelkis in their war effort.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Molkar?",
+   "aliases": [
+    "molkar who",
+    "who asks for mask"
+   ],
+   "answer": "Molkar is a Gelkis centaur responsible for keeping his village supplied and equipped."
+  },
+  {
+   "q": "Who is Halea?",
+   "aliases": [
+    "halea who",
+    "molkar's mate"
+   ],
+   "answer": "Halea is Molkar's mate, and she works to empower the Gelkis armaments with magical energy."
+  },
+  {
+   "q": "Why does Molkar want a White Bandit Mask?",
+   "aliases": [
+    "white mask why",
+    "mask for halea"
+   ],
+   "answer": "Molkar wants to give Halea simple clothes to practice her enchanting craft on."
+  },
+  {
+   "q": "Where do I bring the mask?",
+   "aliases": [
+    "mask location",
+    "where molkar"
+   ],
+   "answer": "Bring the White Bandit Mask to Molkar in Gelkis Village in Desolace."
+  },
+  {
+   "q": "How does this help the Gelkis?",
+   "aliases": [
+    "gelkis help",
+    "why help molkar"
+   ],
+   "answer": "Molkar says your help aids the Gelkis in their war effort and helps Halea improve her skills."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "enchanting",
+  "gelkis",
+  "gelkis village",
+  "halea",
+  "molkar",
+  "white bandit mask"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: I Need a Tailor"
+ ]
+}
