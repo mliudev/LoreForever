@@ -785,14 +785,6 @@ P.transport["subzone:algaz-station"] = {
     {file = "Audio/Transport/full_subzone_algaz-station-99b7ab8779ae7f840fa9/1-0000.mp3", duration = 49.6065306, start = 0},
   },
 }
-P.transport["subzone:alterac-mountains"] = {
-  hash = "851809",
-  fullHash = "cd070c",
-  text = "Alterac Mountains. In the Alterac Mountains, ruined settlements and bandits claim the slopes above Hillsbrad’s pastures. Once the heart of a proud human kingdom, the highlands now offer travelers little safety. The Alterac highlands once held a sovereign human nation, one of seven kingdoms born from ancient Arathor. During the Second War, King Aiden Perenolde secretly made a pact with the Old Horde. He let orcish forces cross the peaks in return for his kingdom’s safety. The Alliance of Lordaeron uncovered the betrayal and deposed him. Martial law and territorial disputes left the region divided. The Third War’s devastation left the mountains lawless. Disinherited nobles formed the Syndicate, which works from Strahnbrad’s ruins and plots to reclaim its lost dominion through sabotage and assassination. Crushridge ogres hold the shattered capital. Gnolls roam the slopes, and the magical ruins around Dalaran lie shattered. Alterac’s passes remain among Lordaeron’s most perilous paths.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_alterac-mountains-5512b36557eb7514f1b5/1-0000.mp3", duration = 81.6065306, start = 0},
-  },
-}
 P.transport["subzone:alther-s-mill"] = {
   hash = "81875d",
   fullHash = "77bf7d",
@@ -2249,14 +2241,6 @@ P.transport["subzone:raynewood-retreat"] = {
     {file = "Audio/Transport/full_subzone_raynewood-retreat-80e3367717a84fc9e332/1-0000.mp3", duration = 32.1567347, start = 0},
   },
 }
-P.transport["subzone:razorfen-downs"] = {
-  hash = "bcb9ba",
-  fullHash = "bcb9ba",
-  text = "Razorfen Downs. Scourge power now stains Razorfen Downs, the quilboar’s sacred burial maze in southern Kalimdor. Their dead still rest among Agamaggan’s thorns, though necromancy has taken hold. Razorfen Downs holds the quilboar’s ancestral dead among the petrified briars of Agamaggan. The thorn maze rises from the fallen demigod, and legend says its arched entrance was carved from the Great Boar’s own maw. For centuries, high priests of the Death's Head tribe tended its deep, winding burrows and honored the dead. Now a catastrophe darker than any quarrel over water in the Barrens has struck this sacred ground.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_razorfen-downs-08e7e941942678cd87ed/1-0000.mp3", duration = 53.8644898, start = 0},
-  },
-}
 P.transport["subzone:remtravel-s-excavation"] = {
   hash = "6e4c18",
   fullHash = "6e4c18",
@@ -2655,14 +2639,6 @@ P.transport["subzone:stormwind-keep"] = {
   text = "Stormwind Keep. Stormwind Keep holds the royal court above the capital. Rebuilt after its ruin in the First War, it is now home to the young boy-king Anduin Wrynn and his regent, Highlord Bolvar Fordragon. Stormwind Keep crowns a plateau above the city, with halls for the crown and the kingdom’s defense. The Old Horde burned the first stronghold after King Llane was assassinated near the end of the First War. After the Alliance reclaimed the kingdom, builders raised the keep again on its old foundations. Its halls include the grand throne room and the War Room, while garden courtyards and the Royal Library offer quieter spaces.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_stormwind-keep-6a778c649840793b9d6e/1-0000.mp3", duration = 54.3085714, start = 0},
-  },
-}
-P.transport["subzone:stormwind-stockade"] = {
-  hash = "e133a7",
-  fullHash = "e133a7",
-  text = "Stormwind Stockade. Stormwind Stockade has fallen into chaos beneath the canals near the Mage Quarter. A coordinated revolt has driven the guards from the lower cells, and the prison's most dangerous prisoners roam free. Warden Thelwater oversees the Stockade, where Stormwind holds cutthroats, Defias operatives, captured Blackrock orcs, and Dark Iron dwarves. The Defias conspirator Bazil Thredd led the uprising, and now prisoners roam the corridors. Thelwater has secured the entrance, but the revolt still threatens to spill into the canals. He needs adventurers to enter the prison and put it down.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-stockade-432cd36e000d78ece544/1-0000.mp3", duration = 50.6253061, start = 0},
   },
 }
 P.transport["subzone:stormwind-stockade-classic"] = {

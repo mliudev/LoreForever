@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Friz Frazzlespark says the Venture Co. has paid for its part in the deal, and she has received her loot. You return to Powderfuse Port as another shipment approaches.",
+ "summary": "Ruzzgot says the Venture Co. has paid for its part in the deal, and Friz has received her loot. You return to Friz Frazzlespark at Powderfuse Port while Ruzzgot awaits another shipment.",
  "sections": [
   {
    "title": "Another Shipment",
-   "body": "A new shipment is on its way to Powderfuse Port, and Friz Frazzlespark is waiting there. You return to her in the Riverglades after the Venture Co. has suffered its comeuppance and Friz has received her loot. She calls the transaction smooth. Now Southsea Pirates are due to bring in the next shipment.",
+   "body": "A new shipment is on its way to Ruzzgot, and Friz Frazzlespark is waiting at Powderfuse Port. You return to her in the Riverglades after the Venture Co. has suffered its comeuppance and Friz has received her loot. Ruzzgot calls the transaction smooth. Now Southsea Pirates are due to bring him the next shipment.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "Venture Co deal",
     "what about Venture Co"
    ],
-   "answer": "Friz says the Venture Co. got its comeuppance."
+   "answer": "Ruzzgot says the Venture Co. got its comeuppance."
   },
   {
    "q": "Did Friz get her loot?",
@@ -42,7 +42,7 @@
     "Friz loot",
     "did she get it"
    ],
-   "answer": "Yes. Friz says she has received her loot."
+   "answer": "Yes. Ruzzgot says Friz gets her loot."
   },
   {
    "q": "What is coming next?",
@@ -50,7 +50,7 @@
     "next shipment",
     "Southsea Pirates"
    ],
-   "answer": "Friz expects another shipment from the Southsea Pirates."
+   "answer": "Ruzzgot expects another shipment from the Southsea Pirates."
   }
  ],
  "angles": [],
@@ -64,7 +64,6 @@
   "venture co."
  ],
  "related": [
-  "quest:764",
   "zone:riverglades",
   "topic:pirate"
  ],

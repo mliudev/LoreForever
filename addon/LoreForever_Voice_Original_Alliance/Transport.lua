@@ -409,14 +409,6 @@ P.transport["subzone:alexston-farmstead"] = {
     {file = "Audio/Transport/full_subzone_alexston-farmstead-ad5dfa492d1607effc78/1-0000.mp3", duration = 60.3167347, start = 0},
   },
 }
-P.transport["subzone:alterac-mountains"] = {
-  hash = "98858d",
-  fullHash = "98858d",
-  text = "Alterac Mountains. The Alterac Mountains are a rugged, snow-capped range rising directly above the rolling pastures of Hillsbrad. Once the heart of a proud human kingdom, the slopes now harbor ruined settlements, bandit factions, and dangerous wilderness where travelers rarely walk unguarded. Long before the hills fell into chaos, these highlands formed the sovereign nation of Alterac, one of the seven kingdoms born from ancient Arathor. That legacy shattered during the Second War when King Aiden Perenolde struck a clandestine pact with the Old Horde, allowing orcish forces passage through the peaks in exchange for his kingdom's safety. The Alliance of Lordaeron uncovered the betrayal and deposed Perenolde, leaving the region fractured by martial law and territorial disputes. Following the devastation of the Third War, the mountains collapsed into complete lawlessness. The disinherited nobles of the realm banded together to form the Syndicate, operating out of the ruins of Strahnbrad and plotting to reclaim their lost dominion through sabotage and assassination. Between ruthless Crushridge ogres occupying the shattered capital, marauding gnolls, and the shattered magical ruins around Dalaran, the passes of Alterac remain some of the most perilous pathways in Lordaeron.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_alterac-mountains-3a9de48bc4a542f74585/1-0000.mp3", duration = 75.7812245, start = 0},
-  },
-}
 P.transport["subzone:alther-s-mill"] = {
   hash = "4b9646",
   fullHash = "4b9646",

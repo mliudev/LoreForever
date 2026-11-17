@@ -1,0 +1,64 @@
+{
+ "key": "quest:6522",
+ "type": "quest",
+ "name": "An Unholy Alliance",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6522
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A small scroll is meant for Varimathras in the Undercity. You are carrying it to him.",
+ "sections": [
+  {
+   "title": "Before Varimathras",
+   "body": "Varimathras waits in the Undercity to hear what business brings you. The small scroll is in your hands, and he expects your matter to be important.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the scroll for?",
+   "aliases": [
+    "scroll for who",
+    "who gets the scroll"
+   ],
+   "answer": "The small scroll is meant for Varimathras in the Undercity."
+  },
+  {
+   "q": "Where do I take the small scroll?",
+   "aliases": [
+    "where scroll go",
+    "take scroll where"
+   ],
+   "answer": "Take the small scroll to Varimathras in the Undercity."
+  },
+  {
+   "q": "What does Varimathras want to hear about?",
+   "aliases": [
+    "what business",
+    "what to tell varimathras"
+   ],
+   "answer": "Varimathras asks what business you wish to speak of."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "an unholy alliance",
+  "business",
+  "small scroll",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "npc:varimathras",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Unholy Alliance"
+ ]
+}

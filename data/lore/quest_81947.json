@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A librarian seeks magical works for the Library in Ironforge. Your contribution adds to its collection and knowledge.",
+ "summary": "A librarian seeks magical works for the library. Your contribution adds to its collection and knowledge.",
  "sections": [
   {
    "title": "A Growing Collection",
-   "body": "In the Library of Ironforge, a librarian asks you to bring something for the collection. Your contribution helps expand the library's knowledge.",
+   "body": "The librarian has asked you to bring something new for the shelves. Your contribution helps expand the library's knowledge.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "ironforge library",
     "library location"
    ],
-   "answer": "The request comes from the Library in Ironforge."
+   "answer": "It comes from the librarian Garion Wendell in Stormwind, or from Owen Thadd in Undercity if you are Horde."
   },
   {
    "q": "Why bring magical works to the library?",
@@ -51,15 +51,12 @@
  "angles": [],
  "keywords": [
   "collection",
-  "ironforge",
   "knowledge",
   "library",
   "magical works",
   "sanguine sorcery"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Sanguine Sorcery"

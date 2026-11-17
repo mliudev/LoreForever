@@ -1,0 +1,89 @@
+{
+ "key": "quest:86746",
+ "type": "quest",
+ "name": "The Legashi Threat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86746
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ekkal asks you to defend the Blackmaw furbolg from Legashi satyr at the Ruins of Eldarath. The satyr have corrupted members of the tribe and driven survivors into makeshift camps.",
+ "sections": [
+  {
+   "title": "A Tribe Under Threat",
+   "body": "Ekkal asks for your aid at the Ruins of Eldarath, where Legashi satyr have invaded the Blackmaw den. Their corruption has taken hold among the furbolg and severed the tribe from its Timbermaw allies. Survivors now gather in makeshift camps, while the corruption spreads across the land. Ekkal hopes each Legashi slain will spare a furbolg life.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is Ekkal",
+    "Ekkal help",
+    "furbolg giver"
+   ],
+   "answer": "Ekkal asks you to help defend the Blackmaw furbolg from the Legashi satyr."
+  },
+  {
+   "q": "What are the Legashi doing to the Blackmaw?",
+   "aliases": [
+    "Legashi threat",
+    "what satyr doing",
+    "Blackmaw attacked"
+   ],
+   "answer": "The Legashi have invaded the Blackmaw den, corrupted many furbolg, and separated the tribe from its Timbermaw allies."
+  },
+  {
+   "q": "Where do the Legashi lurk?",
+   "aliases": [
+    "Legashi location",
+    "where are satyr",
+    "Eldarath ruins"
+   ],
+   "answer": "Ekkal says the Legashi lurk among the ruins northeast of the Blackmaw den."
+  },
+  {
+   "q": "Which Legashi does Ekkal want you to defeat?",
+   "aliases": [
+    "Legashi kinds",
+    "kill which satyr",
+    "Legashi enemies"
+   ],
+   "answer": "Ekkal asks you to defeat Legashi Satyr, Legashi Rogues, and Legashi Hellcallers."
+  },
+  {
+   "q": "Why does Ekkal ask for help?",
+   "aliases": [
+    "why help Ekkal",
+    "furbolg need help",
+    "why kill Legashi"
+   ],
+   "answer": "The Legashi threaten the already vulnerable Blackmaw tribe, and Ekkal believes each one slain may save a furbolg life."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackmaw",
+  "ekkal",
+  "furbolg",
+  "legashi",
+  "ruins of eldarath",
+  "satyr",
+  "timbermaw"
+ ],
+ "related": [
+  "topic:satyr",
+  "topic:furbolg",
+  "subzone:ursolan",
+  "quest:8460"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Legashi Threat"
+ ]
+}

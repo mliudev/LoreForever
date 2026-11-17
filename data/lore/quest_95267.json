@@ -1,0 +1,77 @@
+{
+ "key": "quest:95267",
+ "type": "quest",
+ "name": "The Monster Surfaces",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95267
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Argo Brinewhistle wants you to use a ball of bait to lure a sea monster from the waters near the murloc islands. He asks you to bring its head back for the boat.",
+ "sections": [
+  {
+   "title": "Wreckage in the Water",
+   "body": "Argo Brinewhistle points you toward the murloc islands, where you found a drawing. There, fresh wreckage marks the water where the bait should be thrown. The sea monster is the danger Argo wants drawn out, and its head is meant for the boat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Argo want me to do?",
+   "aliases": [
+    "Argo bait quest",
+    "sea monster bait",
+    "monster surfaces quest"
+   ],
+   "answer": "Argo wants you to use the Big Ball o' Bait near fresh wreckage in the water by the murloc islands, then bring the monster's head to him."
+  },
+  {
+   "q": "Where do I throw the bait?",
+   "aliases": [
+    "where bait",
+    "murloc islands bait",
+    "fresh wreckage"
+   ],
+   "answer": "Argo points you to fresh wreckage in the water near the murloc islands, where you found a drawing."
+  },
+  {
+   "q": "Why does Argo want the monster's head?",
+   "aliases": [
+    "monster head why",
+    "boat decoration",
+    "head for boat"
+   ],
+   "answer": "Argo wants to make a decoration of the creature's head for the boat."
+  },
+  {
+   "q": "What is the bait called?",
+   "aliases": [
+    "big ball bait",
+    "ball o guts",
+    "bait name"
+   ],
+   "answer": "It is called the Big Ball o' Bait."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "argo brinewhistle",
+  "big ball o' bait",
+  "boat decoration",
+  "monster head",
+  "murloc islands",
+  "sea monster",
+  "wreckage"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Monster Surfaces"
+ ]
+}

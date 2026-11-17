@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Jediga in Valormok asks you to recover four tablets from the Ruins of Eldarath. Each bears the name of a Highborne wizard, and she wants them for her research.",
+ "summary": "Jediga in Valormok asks you to recover four tablets from the Ruins of Eldarath. Each bears the name of a Highborne wizard, and she counts them among the valuable items lying around.",
  "sections": [
   {
    "title": "Jediga's Request",
@@ -63,7 +63,7 @@
     "jediga research",
     "stealing knowledge"
    ],
-   "answer": "Jediga says she researched the area and needs the tablets for that work."
+   "answer": "Her research turned up valuable items lying around Azshara, and the tablets are among them. She promises you will talk more once you bring them."
   },
   {
    "q": "What happened to Jediga?",

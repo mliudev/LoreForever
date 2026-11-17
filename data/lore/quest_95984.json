@@ -1,0 +1,71 @@
+{
+ "key": "quest:95984",
+ "type": "quest",
+ "name": "Song of the Strider",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95984
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Watcher Cornelius has found signs of an unusually large lion near Terral\u2019s Watch. He wants a tallstrider beak to make a whistle that can lure the beast out.",
+ "sections": [
+  {
+   "title": "A Lion\u2019s Tracks",
+   "body": "Watcher Cornelius reads the markings as those of a lion, likely the leader of a nearby pride. He fears Demar\u2019s anger if word spreads that a man-eater prowls under his watch. So he plans to draw the lion out with a whistle that sounds like a wounded tallstrider. You are asked to bring him an intact beak for its call.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What did Cornelius find?",
+   "aliases": [
+    "lion tracks",
+    "what markings"
+   ],
+   "answer": "Watcher Cornelius found markings he believes came from an especially large lion, likely the leader of a nearby pride."
+  },
+  {
+   "q": "Why does Cornelius want a tallstrider beak?",
+   "aliases": [
+    "beak for what",
+    "whistle beak"
+   ],
+   "answer": "Cornelius needs a tallstrider beak to make a whistle that mimics the call of a wounded tallstrider."
+  },
+  {
+   "q": "What does Cornelius plan to do with the whistle?",
+   "aliases": [
+    "lure lion",
+    "whistle plan"
+   ],
+   "answer": "Cornelius plans to use the whistle to lure the large lion out."
+  },
+  {
+   "q": "Who might be angry if rumors spread?",
+   "aliases": [
+    "who is Demar",
+    "Demar mad"
+   ],
+   "answer": "Cornelius fears Demar will be furious if rumors spread about a man-eating lion prowling on his watch."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demar",
+  "lion",
+  "song of the strider",
+  "tallstrider beak",
+  "terral's watch",
+  "watcher cornelius",
+  "whistle"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Song of the Strider"
+ ]
+}

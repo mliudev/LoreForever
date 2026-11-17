@@ -1,0 +1,87 @@
+{
+ "key": "quest:95312",
+ "type": "quest",
+ "name": "Coming to Collect",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95312
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Friz\u2019s debtor has gambled her money on Slugjaw in Gadgetzan\u2019s arena and says the winnings are ready to collect. You are sent to speak with Fizbuz Mithril.",
+ "sections": [
+  {
+   "title": "Friz\u2019s Money",
+   "body": "The gambler who owes Friz says he wagered her money on Slugjaw at Fizbuz\u2019s arena in Gadgetzan. He claims the bet won, but says he has not collected the winnings. Since you are already running an errand for Friz, he asks you to speak with Fizbuz Mithril in Gadgetzan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owes Friz money?",
+   "aliases": [
+    "friz money",
+    "friz's debtor",
+    "who owes friz"
+   ],
+   "answer": "A gambler owes Friz money after betting it on Slugjaw in Fizbuz\u2019s arena."
+  },
+  {
+   "q": "Why did he bet Friz\u2019s money?",
+   "aliases": [
+    "why bet her money",
+    "slugjaw bet",
+    "gambler bet"
+   ],
+   "answer": "He says he thought betting on Slugjaw was a sound investment."
+  },
+  {
+   "q": "Who is Slugjaw?",
+   "aliases": [
+    "slugjaw",
+    "slugjaw arena",
+    "who's slugjaw"
+   ],
+   "answer": "Slugjaw is the arena fighter the gambler bet on in Gadgetzan."
+  },
+  {
+   "q": "Where are the winnings?",
+   "aliases": [
+    "friz winnings",
+    "collect money",
+    "where money"
+   ],
+   "answer": "The gambler says he has not collected the winnings and sends you to speak with Fizbuz Mithril in Gadgetzan."
+  },
+  {
+   "q": "Who should I speak to in Gadgetzan?",
+   "aliases": [
+    "fizbuz",
+    "gadgetzan arena",
+    "friz errand"
+   ],
+   "answer": "Speak with Fizbuz Mithril in Gadgetzan about the winnings."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arena",
+  "coming to collect",
+  "fizbuz mithril",
+  "friz",
+  "gadgetzan",
+  "gambling",
+  "slugjaw",
+  "winnings"
+ ],
+ "related": [
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Coming to Collect"
+ ]
+}

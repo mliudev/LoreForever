@@ -78,32 +78,6 @@
       },
       "text": "Altar of Storms (Burning Steppes). Blackrock warlocks perform fel rites at the Altar of Storms in the Burning Steppes. The dark monument draws those seeking demonic power. Blackrock warlocks hold the Altar of Storms, where they perform rites to channel fel magic and seal dark pacts. The monument was built during the earlier wars. Nearby, the hermit Gorzeeki Wildeyes and his master, Mor'zul Bloodbringer, keep an encampment overlooking the altar. Renegade practitioners study its violent energies and devise demanding rites for spellcasters who seek greater dark power."
     },
-    "subzone:alterac-mountains-classic": {
-      "1": [
-        {
-          "duration": 70.76571428571428,
-          "file": "Audio/Transport/full_subzone_alterac-mountains-classic-61413253712e9a9515f1/1-0000.mp3",
-          "sha256": "dc640c4344b4b99b6ccbb0787050a51494e233c3070fc57b9716cc01313480b2",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "79afc8",
-      "generation": "412d67b83c2505419313",
-      "hash": "79afc8",
-      "source": {
-        "duration": 70.791837,
-        "file": null,
-        "sha256": "61413253712e9a9515f1d02e87be1937e4648e19072278867b374016aed9996a"
-      },
-      "text": "Alterac Mountains (Classic). In the Alterac Mountains, ogres, outlaws, and armies fight over the highlands. North of Hillsbrad Foothills, rain darkens the slopes beneath snowbound peaks. Once home to Alterac and Dalaran, the region now lies largely in ruins. Rain falls over the Alterac Mountains, where pine forests climb toward snow at the highest reaches. Three human powers once held these heights: the mountain kingdom of Alterac, the magocracy of Dalaran, and the fortified town of Strahnbrad. Betrayal and war brought them low. Crushridge ogres occupy Alterac's ruined capital, and outlaws hold Strahnbrad. Among Dalaran's shattered remains, surviving wizards labor to restore their ruined sanctuary. Mountain lions and yeti stalk the frostbitten ridges, while desperate factions fight for the uplands. The Syndicate are dispossessed human nobles turned brigands. From old estates and foothill camps, they strike with blades and ambushes. They clash without end with the advancing ogres.\n\nDeep passes into the high crags hold staging camps for the bloody war between the Stormpike Expedition and the Frostwolf Clan. Both fight over the hidden reaches of Alterac Valley."
-    },
     "subzone:andorhal": {
       "1": [
         {
@@ -2729,32 +2703,6 @@
         "sha256": "d4529e7509e52bba9ff026a9f37ea165b0d05854fb5365d8fab746fa9b3f8f29"
       },
       "text": "Fallow Sanctuary. In the Swamp of Sorrows, Fallow Sanctuary shelters a tribe cut off from the world they knew. The Lost Ones are mutated draenei, driven feral by grief and homesickness. Among the sunken trees of the Swamp of Sorrows, the Lost Ones have made Fallow Sanctuary their refuge. Separation from their ancestral world and dark energies deformed them.\n\nSorrow and isolation wore away at the tribe’s sanity. Now they are hostile and feral, attacking outsiders who enter their village. Ongeku and Noboru the Cudgel once guided Fallow Sanctuary. Their absence and deaths left the village without its leaders."
-    },
-    "subzone:feathermoon-stronghold": {
-      "1": [
-        {
-          "duration": 88.13714285714286,
-          "file": "Audio/Transport/full_subzone_feathermoon-stronghold-b48a009e5080dd8ef9f0/1-0000.mp3",
-          "sha256": "b59ecb84c4ed88654ae3f81490ccf9d19bf5056abb0113ce499fb3f9f1188054",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "e7b580",
-      "generation": "ba3b4d74f3009d9cb983",
-      "hash": "e7b580",
-      "source": {
-        "duration": 88.163265,
-        "file": null,
-        "sha256": "b48a009e5080dd8ef9f05e37dfa64a5496bef0ecfd5bd8fac6d30c5503a5c7c8"
-      },
-      "text": "Feathermoon Stronghold. Sentinels watch southern Kalimdor from feathermoon stronghold, on sardor isle off Feralas. General Shandris Feathermoon commands the night elves along the Forgotten Coast. Across the channel from Feralas, feathermoon stronghold guards the Sentinels’ southern base on sardor isle. Ancient elven groves surround the fortress, and a sacred moonwell lies within its grounds. Archers, huntresses, and support staff serve under General Shandris Feathermoon. From the island, the night elves watch Feralas and guard against demonic corruption, dangerous wildlife, and Horde expeditions. Feralas’s mainland holds savage beasts, Gordunni ogres, and the tainted shadows of Dire Maul. Sardor Isle gives the stronghold a defensive buffer. Alliance travelers cross from the Forgotten Coast by ferry to its fortified docks, where they can repair their gear and gather intelligence.\n\nGeneral Shandris Feathermoon leads the Sentinels and is the trusted right hand of High Priestess Tyrande Whisperwind. Under her command, the stronghold holds against the enemies of the kaldorei."
     },
     "subzone:feathermoon-stronghold-classic": {
       "1": [
@@ -6344,32 +6292,6 @@
       },
       "text": "Rage Scar Hold. At Rage Scar Hold, savage yetis guard their cavern in Feralas, not far from Feathermoon Stronghold. Deeper inside, books, symbols, and night elven stonework point to an older purpose. Savage yetis attack anyone who comes near Rage Scar Hold. Alliance sentinels and travelers face danger on the forest trails because of them. Yetis roam Kalimdor’s wild reaches, but these beasts are especially aggressive. They fiercely defend their lair. Deeper in the cave, carved stonework and night elven architecture mark an older presence. Forgotten tomes and mystic symbols lie among dirt and bone. Did the yetis kill scholars here, or does lingering magic draw the beasts?"
     },
-    "subzone:ragefire-chasm": {
-      "1": [
-        {
-          "duration": 29.857959183673472,
-          "file": "Audio/Transport/full_subzone_ragefire-chasm-c6b70e36eb493a4441a5/1-0000.mp3",
-          "sha256": "1b4459330252ae4d7aba009c1242fba0a9988fa9d2c5a23cbcee1e0399218746",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "fd682a",
-      "generation": "64d4fec875e5b5009fa2",
-      "hash": "fd682a",
-      "source": {
-        "duration": 29.884082,
-        "file": null,
-        "sha256": "c6b70e36eb493a4441a540551e397784a50014340da70cb9fc8d105539c14f06"
-      },
-      "text": "Ragefire Chasm. In Orgrimmar, Ragefire Chasm threatens the Horde from below. Magma lights its tunnels, where savage troggs gather. The Cleft of Shadow opens onto the caverns. Ragefire troggs threaten Orgrimmar from below. While Thrall works to secure Durotar above, the troggs infest the chasm’s unstable vents and magma rivers. They rose from unknown depths and violently rejected Magatha Grimtotem’s attempts at diplomacy. Left unchecked, their numbers could undermine the city and overrun it."
-    },
     "subzone:raptor-ridge": {
       "1": [
         {
@@ -7357,32 +7279,6 @@
         "sha256": "a72a5e89f540d1febe65f111c6a6490b9127d6ce5cb11bfc5d704eda95207c9f"
       },
       "text": "Scarlet Monastery Library. In Tirisfal Glades, scholars and mages seek Lordaeron's old religious and arcane records in the Scarlet Monastery Library. Crusade zealots and battle hounds patrol its halls. Before the Third War, Lordaeron's priesthood came to the monastery to study. Its eastern cloisters held religious writings, histories, and arcane treatises. Then the Scarlet Crusade fortified the monastery against the Scourge. They kept the archives and armed the quiet halls.\n\nNow beastmasters send tracking hounds through the courtyards, while battle-mages patrol the shelves. They guard the Compendium of the Fallen and ancient Titan research from outsiders. Houndmaster Loksey guards the Huntsman's Cloister with trained hounds. They sniff out anyone seeking passage to the inner chambers. Beyond the Gallery of Treasures, Arcanist Doan watches over the Athenaeum.\n\nA formidable mage, Doan wields devastating fire and protective sorcery. Doan studies alone and fiercely defends the Crusade's hoarded knowledge from anyone who enters the heart of the complex."
-    },
-    "subzone:scholomance": {
-      "1": [
-        {
-          "duration": 39.183673469387756,
-          "file": "Audio/Transport/full_subzone_scholomance-831ca5bd8c44f801eed1/1-0000.mp3",
-          "sha256": "c2f87c83715506ec79c255c990ae43260c187905e8559d68358bc2ee126767d7",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "825c6f",
-      "generation": "61683e8cc06ac690d3a1",
-      "hash": "825c6f",
-      "source": {
-        "duration": 39.209796,
-        "file": null,
-        "sha256": "831ca5bd8c44f801eed126681e73fcd50fcb56614834db6dcf949fbd8c63d583"
-      },
-      "text": "Scholomance. Beneath Caer Darrow, Scholomance trains mortals and undead in necromancy and the dark arts. Darkmaster Gandling leads the studies, while Ras Frostwhisper watches over the halls. Before the Third War, House Barov ruled from Caer Darrow and held vast lands across Lordaeron. Those lands included Brill, Tarren Mill, and Southshore. Fearing the loss of their wealth and mortal lives, the Barovs accepted Kel'Thuzad's promise of eternal life.\n\nThey deeded their fortress and ancestral catacombs to the Cult of the Damned. The cult repaid them by butchering the nobles and turning the crypts into a hidden place to train necromancers."
     },
     "subzone:scholomance-classic": {
       "1": [
@@ -8423,32 +8319,6 @@
         "sha256": "675dd62fa2d7fad598c1b2c0df82e62ed03153bd09acf7042ce6afca8d268409"
       },
       "text": "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor."
-    },
-    "subzone:stratholme": {
-      "1": [
-        {
-          "duration": 114.83428571428571,
-          "file": "Audio/Transport/full_subzone_stratholme-f6d487c3d693887b2121/1-0000.mp3",
-          "sha256": "8ccf35f8320cbb6c533385e4974b833b13b3082e1d79cf5d3ae4b16ee5436a12",
-          "start": 0
-        }
-      ],
-      "config": {
-        "bitrate": "48k",
-        "mode": "whole-recording-v1",
-        "rates": [
-          "1"
-        ]
-      },
-      "fullHash": "d2ed82",
-      "generation": "272013a454458d3e7fda",
-      "hash": "d2ed82",
-      "source": {
-        "duration": 114.860408,
-        "file": null,
-        "sha256": "f6d487c3d693887b212140dcf402778d70b65f95fc195e6ce4bba3c717724e3a"
-      },
-      "text": "Stratholme. Scourge forces hold Stratholme, and its ruins still burn. Once the jewel of the Eastweald and Lordaeron’s second greatest city, it became the place where Prince Arthas Menethil ordered the culling of citizens who had eaten grain tainted by the Plague of Undeath. Stratholme rose with the Arathi expansion into the Eastweald centuries ago. It became Lordaeron’s second-largest settlement, famed for holy shrines and sacred water that resisted dark sorcery. Before the Second War, Archbishop Alonsus Faol gathered at the city’s chapel and founded the Order of the Knights of the Silver Hand.\n\nAmong its first legends was Uther the Lightbringer. During the Second War, Stratholme served the Alliance of Lordaeron as a vital port, supply hub, and northern oil refinery. The Old Horde assaulted it, but victory brought the city’s rebuilding. The Cult of the Damned carried infected grain from Andorhal into Stratholme’s markets. Unaware of the taint, thousands ate the flour. Prince Arthas arrived with Uther and Jaina Proudmoore, but the infection had spread too far to cure.\n\nHe judged slaughter the only way to deny Mal'Ganis an entire army and ordered every citizen killed. The atrocity drove Uther and Jaina away and began the prince’s descent into madness. His forces set the city ablaze. Then the Scourge took its smoking ruins for their regional capital."
     },
     "subzone:stratholme-classic": {
       "1": [
@@ -11195,12 +11065,6 @@
       1817,
       1994
     ],
-    "1b4459330252ae4d7aba009c1242fba0a9988fa9d2c5a23cbcee1e0399218746": [
-      160,
-      399,
-      763,
-      976
-    ],
     "1b4de90d003426b96375e18c8fcb59375e4e6f0d524773b3c15bfb456db35cc2": [
       419,
       638,
@@ -13056,28 +12920,6 @@
       1065,
       1317
     ],
-    "8ccf35f8320cbb6c533385e4974b833b13b3082e1d79cf5d3ae4b16ee5436a12": [
-      209,
-      513,
-      905,
-      1157,
-      1301,
-      1461,
-      1638,
-      1798,
-      1952,
-      2128,
-      2381,
-      2527,
-      2724,
-      2991,
-      3145,
-      3312,
-      3467,
-      3688,
-      3939,
-      4084
-    ],
     "8d413b5811440bee5adaed05190605d44512d91afc8e29d08d2483b063d436ac": [
       204,
       413,
@@ -13947,23 +13789,6 @@
       1971,
       2271
     ],
-    "b59ecb84c4ed88654ae3f81490ccf9d19bf5056abb0113ce499fb3f9f1188054": [
-      240,
-      444,
-      685,
-      877,
-      1263,
-      1500,
-      1737,
-      1900,
-      2043,
-      2231,
-      2387,
-      2610,
-      2763,
-      2941,
-      3152
-    ],
     "b622045c5a8ba415490f52d43f0cbd491793328feaf4b9968fda2db4d67c9d78": [
       473
     ],
@@ -14179,14 +14004,6 @@
       738,
       974,
       1143
-    ],
-    "c2f87c83715506ec79c255c990ae43260c187905e8559d68358bc2ee126767d7": [
-      244,
-      452,
-      688,
-      836,
-      1075,
-      1250
     ],
     "c3b04c507592cf2cb36f636d57c7d33cc23d74bace3b57996f7efd576d939d7d": [
       176,
@@ -14603,18 +14420,6 @@
       1545,
       1794,
       2092
-    ],
-    "dc640c4344b4b99b6ccbb0787050a51494e233c3070fc57b9716cc01313480b2": [
-      190,
-      372,
-      574,
-      807,
-      1141,
-      1426,
-      1648,
-      1866,
-      2011,
-      2170
     ],
     "dce6e2eb2c323f35b76419c9805c428412a75de1cdae442c0eb2fbdc06ec2c89": [
       685,
@@ -15280,9 +15085,6 @@
       "1436": 2,
       "419": 1
     },
-    "1b4459330252ae4d7aba009c1242fba0a9988fa9d2c5a23cbcee1e0399218746": {
-      "399": 1
-    },
     "1b4de90d003426b96375e18c8fcb59375e4e6f0d524773b3c15bfb456db35cc2": {
       "419": 1
     },
@@ -15848,10 +15650,6 @@
     "8c6373325a25ed64f882945b53e7f31fadf1db75457b89c80491688cc1f3dc19": {
       "623": 1
     },
-    "8ccf35f8320cbb6c533385e4974b833b13b3082e1d79cf5d3ae4b16ee5436a12": {
-      "2724": 2,
-      "905": 1
-    },
     "8d413b5811440bee5adaed05190605d44512d91afc8e29d08d2483b063d436ac": {
       "413": 1
     },
@@ -16106,10 +15904,6 @@
       "1649": 2,
       "560": 1
     },
-    "b59ecb84c4ed88654ae3f81490ccf9d19bf5056abb0113ce499fb3f9f1188054": {
-      "1900": 2,
-      "685": 1
-    },
     "b64301481510f21bf278952d106163272746475d61b15869c4c2d418343bb390": {
       "512": 1
     },
@@ -16183,9 +15977,6 @@
     },
     "c22d240ebfe0a45875d204d350d32d37661cc61dac4091176d8523fb530827c0": {
       "473": 1
-    },
-    "c2f87c83715506ec79c255c990ae43260c187905e8559d68358bc2ee126767d7": {
-      "452": 1
     },
     "c3b04c507592cf2cb36f636d57c7d33cc23d74bace3b57996f7efd576d939d7d": {
       "825": 1
@@ -16324,10 +16115,6 @@
     "dbcb3dc3810352ef463f201790710616e689d8b2af8cd0473c8371b2a7e0237e": {
       "1545": 2,
       "469": 1
-    },
-    "dc640c4344b4b99b6ccbb0787050a51494e233c3070fc57b9716cc01313480b2": {
-      "1648": 2,
-      "574": 1
     },
     "ddf8e00bcf0a9c138bcc4095d7f1bf957a1dec42a1a0d96db45e63fd4dd998e0": {
       "435": 1

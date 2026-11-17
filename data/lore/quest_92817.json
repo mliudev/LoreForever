@@ -1,0 +1,99 @@
+{
+ "key": "quest:92817",
+ "type": "quest",
+ "name": "Leather Technique",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92817
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Talra in Gelkis Village seeks a Barbaric Harness to study its leather technique. The Gelkis have resisted wearing armor, and leather is too scarce to waste.",
+ "sections": [
+  {
+   "title": "Talra\u2019s Request",
+   "body": "Talra of the Gelkis asks you to bring her a Barbaric Harness in Gelkis Village, in Desolace. Her clanmates resist wearing armor despite their losses to blades and bolts. Talra hopes to design a protective vest without the discomfort they complain of, and wants to study the harness before using scarce leather.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the harness?",
+   "aliases": [
+    "who wants the harness",
+    "Talra request",
+    "who is Talra"
+   ],
+   "answer": "Talra, a member of the Gelkis clan, asks you to bring her a Barbaric Harness in Gelkis Village."
+  },
+  {
+   "q": "Why does Talra want a Barbaric Harness?",
+   "aliases": [
+    "why harness",
+    "what does Talra need it for",
+    "Talra leather idea"
+   ],
+   "answer": "Talra wants to study its technique while designing a protective vest for her clanmates."
+  },
+  {
+   "q": "Why is Talra designing a vest?",
+   "aliases": [
+    "why armor",
+    "Gelkis vest",
+    "centaur armor"
+   ],
+   "answer": "Her Gelkis clanmates resist wearing armor despite suffering losses to blades and bolts."
+  },
+  {
+   "q": "What bothers the Gelkis about armor?",
+   "aliases": [
+    "armor itchiness",
+    "why no armor",
+    "Gelkis armor complaints"
+   ],
+   "answer": "They complain that armor is itchy."
+  },
+  {
+   "q": "Where is Talra?",
+   "aliases": [
+    "Talra location",
+    "Gelkis Village Talra",
+    "where bring harness"
+   ],
+   "answer": "Talra is in Gelkis Village in Desolace."
+  },
+  {
+   "q": "Why must the leather be used carefully?",
+   "aliases": [
+    "scarce leather",
+    "why no wasted leather",
+    "leather supplies"
+   ],
+   "answer": "Supplies are scarce, so Talra does not want to waste leather on a poor design."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "armor",
+  "barbaric harness",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "gelkis village",
+  "leather",
+  "talra",
+  "vest"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Leather Technique"
+ ]
+}

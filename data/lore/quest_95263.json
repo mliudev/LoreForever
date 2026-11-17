@@ -1,0 +1,79 @@
+{
+ "key": "quest:95263",
+ "type": "quest",
+ "name": "Somber News",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95263
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sully McCleary awaits you in Dustwallow Marsh for news of the King. His death has shaken Stormwind, and Sully needs to hear what you learned.",
+ "sections": [
+  {
+   "title": "News for Sully",
+   "body": "In Dustwallow Marsh, Sully McCleary is waiting for what you learned. The King is dead, and Stormwind faces devastating news. You bring Sully a note; as he reads it, his expression darkens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for me?",
+   "aliases": [
+    "who wants the news",
+    "sully who",
+    "where do i go"
+   ],
+   "answer": "Sully McCleary is waiting in Dustwallow Marsh to hear what you learned."
+  },
+  {
+   "q": "What happened to the King?",
+   "aliases": [
+    "king dead",
+    "what happened to king",
+    "who killed the king"
+   ],
+   "answer": "The King died during an escape attempt, shortly before the naga attacked."
+  },
+  {
+   "q": "What do I bring Sully?",
+   "aliases": [
+    "sully note",
+    "what am i giving him",
+    "deliver note"
+   ],
+   "answer": "You bring Sully a note with what you learned."
+  },
+  {
+   "q": "How does Sully react?",
+   "aliases": [
+    "sully reaction",
+    "is sully upset",
+    "what does he say"
+   ],
+   "answer": "Sully's expression darkens as he reads the note, and he calls the news terrible."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "escape attempt",
+  "king",
+  "naga",
+  "note",
+  "somber news",
+  "stormwind",
+  "sully mccleary"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Somber News"
+ ]
+}

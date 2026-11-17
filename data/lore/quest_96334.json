@@ -1,0 +1,90 @@
+{
+ "key": "quest:96334",
+ "type": "quest",
+ "name": "Blood Red Bandanas",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96334
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Eitrigg asks you to identify the red masks worn by the human guards at Alcaz Prison. Their markings may connect the prison to the Defias Brotherhood.",
+ "sections": [
+  {
+   "title": "A Question for Eitrigg",
+   "body": "Eitrigg, in Orgrimmar, needs to know whether the human guards at Alcaz Prison wear Defias masks. The Defias Brotherhood is known for its red masks, though Eitrigg does not know why its members are active in Kalimdor. You bring him the bandanas so he can judge their markings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Eitrigg's Finding",
+   "body": "The bandanas leave Eitrigg certain: they are masks of the Defias Brotherhood. He says this confirms their suspicions that the Brotherhood operates the prison, and he will inform Thrall.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to bring the bandanas?",
+   "aliases": [
+    "who wants bandanas",
+    "Eitrigg bandanas"
+   ],
+   "answer": "Eitrigg asks you to bring the red masks to him in Orgrimmar so he can identify them."
+  },
+  {
+   "q": "Where are the red bandanas from?",
+   "aliases": [
+    "bandana location",
+    "where bandanas"
+   ],
+   "answer": "The human guards at Alcaz Prison wear the blood red bandanas."
+  },
+  {
+   "q": "Why does Eitrigg want the masks?",
+   "aliases": [
+    "why masks",
+    "what are bandanas for"
+   ],
+   "answer": "Eitrigg wants to determine whether the red bandanas are masks of the Defias Brotherhood."
+  },
+  {
+   "q": "What is the Defias Brotherhood known for?",
+   "aliases": [
+    "what is defias",
+    "defias masks"
+   ],
+   "answer": "The Defias Brotherhood is known for its red masks."
+  },
+  {
+   "q": "Why are the Defias in Kalimdor?",
+   "aliases": [
+    "defias in kalimdor",
+    "why defias here"
+   ],
+   "answer": "Eitrigg does not know why the Defias Brotherhood is active in Kalimdor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alcaz prison",
+  "blood red bandanas",
+  "defias brotherhood",
+  "eitrigg",
+  "human guards",
+  "orgrimmar",
+  "red masks"
+ ],
+ "related": [
+  "topic:defias-brotherhood",
+  "quest:65",
+  "npc:eitrigg",
+  "npc:thrall",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Blood Red Bandanas"
+ ]
+}

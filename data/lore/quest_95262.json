@@ -1,0 +1,81 @@
+{
+ "key": "quest:95262",
+ "type": "quest",
+ "name": "The Secret Prison",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95262
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sully asks you to enter Alcaz Prison and learn what became of the King of Stormwind. The king\u2019s fate bears heavily on Stormwind.",
+ "sections": [
+  {
+   "title": "A Search at Alcaz",
+   "body": "Sully sends you to Alcaz, an outpost thought to be abandoned since the Third War. No one he knows has spoken of a prison there. Yet there may be a chance the King of Stormwind is inside, and Sully needs you to learn what became of him.",
+   "spoiler": 0
+  },
+  {
+   "title": "What You Find",
+   "body": "At Alcaz Prison, you learn that the King of Stormwind is dead. You also discover that a greater force is pulling the strings behind the lesser dragon you slew. Sully must hear what you have learned.",
+   "spoiler": 2
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Sully send me?",
+   "aliases": [
+    "where do i go",
+    "alcaz prison",
+    "where is the prison"
+   ],
+   "answer": "Sully sends you to Alcaz Prison, at an outpost thought to be abandoned since the Third War."
+  },
+  {
+   "q": "What does Sully want me to learn?",
+   "aliases": [
+    "what am i looking for",
+    "king of stormwind",
+    "find the king"
+   ],
+   "answer": "Sully wants you to learn what became of the King of Stormwind."
+  },
+  {
+   "q": "What is Alcaz believed to be?",
+   "aliases": [
+    "what is alcaz",
+    "alcaz outpost",
+    "abandoned place"
+   ],
+   "answer": "Alcaz is thought to be an abandoned outpost from the Third War."
+  },
+  {
+   "q": "Why does Sully send me to Alcaz?",
+   "aliases": [
+    "why alcaz",
+    "why go there",
+    "sully's reason"
+   ],
+   "answer": "Sully sends you because there may be a chance the King of Stormwind is there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alcaz",
+  "alcaz prison",
+  "king of stormwind",
+  "stormwind",
+  "sully",
+  "the secret prison"
+ ],
+ "related": [
+  "topic:third-war"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Secret Prison"
+ ]
+}

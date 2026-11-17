@@ -25,14 +25,6 @@ P.transport["subzone:altar-of-storms-burning-steppes"] = {
     {file = "Audio/Transport/full_subzone_altar-of-storms-burning-steppes-579e417ecdf69fa54294/1-0000.mp3", duration = 47.4383673, start = 0},
   },
 }
-P.transport["subzone:alterac-mountains-classic"] = {
-  hash = "79afc8",
-  fullHash = "79afc8",
-  text = "Alterac Mountains (Classic). In the Alterac Mountains, ogres, outlaws, and armies fight over the highlands. North of Hillsbrad Foothills, rain darkens the slopes beneath snowbound peaks. Once home to Alterac and Dalaran, the region now lies largely in ruins. Rain falls over the Alterac Mountains, where pine forests climb toward snow at the highest reaches. Three human powers once held these heights: the mountain kingdom of Alterac, the magocracy of Dalaran, and the fortified town of Strahnbrad. Betrayal and war brought them low. Crushridge ogres occupy Alterac's ruined capital, and outlaws hold Strahnbrad. Among Dalaran's shattered remains, surviving wizards labor to restore their ruined sanctuary. Mountain lions and yeti stalk the frostbitten ridges, while desperate factions fight for the uplands. The Syndicate are dispossessed human nobles turned brigands. From old estates and foothill camps, they strike with blades and ambushes. They clash without end with the advancing ogres.\n\nDeep passes into the high crags hold staging camps for the bloody war between the Stormpike Expedition and the Frostwolf Clan. Both fight over the hidden reaches of Alterac Valley.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_alterac-mountains-classic-96e8a3441b3174f5a268/1-0000.mp3", duration = 76.8261224, start = 0},
-  },
-}
 P.transport["subzone:andorhal"] = {
   hash = "41f3f8",
   fullHash = "41f3f8",
@@ -839,14 +831,6 @@ P.transport["subzone:fallow-sanctuary"] = {
   text = "Fallow Sanctuary. In the Swamp of Sorrows, Fallow Sanctuary shelters a tribe cut off from the world they knew. The Lost Ones are mutated draenei, driven feral by grief and homesickness. Among the sunken trees of the Swamp of Sorrows, the Lost Ones have made Fallow Sanctuary their refuge. Separation from their ancestral world and dark energies deformed them.\n\nSorrow and isolation wore away at the tribe’s sanity. Now they are hostile and feral, attacking outsiders who enter their village. Ongeku and Noboru the Cudgel once guided Fallow Sanctuary. Their absence and deaths left the village without its leaders.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_fallow-sanctuary-35d718a74a1c9ddacb82/1-0000.mp3", duration = 57.3910204, start = 0},
-  },
-}
-P.transport["subzone:feathermoon-stronghold"] = {
-  hash = "e7b580",
-  fullHash = "e7b580",
-  text = "Feathermoon Stronghold. Sentinels watch southern Kalimdor from feathermoon stronghold, on sardor isle off Feralas. General Shandris Feathermoon commands the night elves along the Forgotten Coast. Across the channel from Feralas, feathermoon stronghold guards the Sentinels’ southern base on sardor isle. Ancient elven groves surround the fortress, and a sacred moonwell lies within its grounds. Archers, huntresses, and support staff serve under General Shandris Feathermoon. From the island, the night elves watch Feralas and guard against demonic corruption, dangerous wildlife, and Horde expeditions. Feralas’s mainland holds savage beasts, Gordunni ogres, and the tainted shadows of Dire Maul. Sardor Isle gives the stronghold a defensive buffer. Alliance travelers cross from the Forgotten Coast by ferry to its fortified docks, where they can repair their gear and gather intelligence.\n\nGeneral Shandris Feathermoon leads the Sentinels and is the trusted right hand of High Priestess Tyrande Whisperwind. Under her command, the stronghold holds against the enemies of the kaldorei.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_feathermoon-stronghold-6dce18afceb88ad1930a/1-0000.mp3", duration = 90.8016327, start = 0},
   },
 }
 P.transport["subzone:feathermoon-stronghold-classic"] = {
@@ -1953,14 +1937,6 @@ P.transport["subzone:rage-scar-hold"] = {
     {file = "Audio/Transport/full_subzone_rage-scar-hold-ac443aae0b7cd8058536/1-0000.mp3", duration = 60.4212245, start = 0},
   },
 }
-P.transport["subzone:ragefire-chasm"] = {
-  hash = "fd682a",
-  fullHash = "fd682a",
-  text = "Ragefire Chasm. In Orgrimmar, Ragefire Chasm threatens the Horde from below. Magma lights its tunnels, where savage troggs gather. The Cleft of Shadow opens onto the caverns. Ragefire troggs threaten Orgrimmar from below. While Thrall works to secure Durotar above, the troggs infest the chasm’s unstable vents and magma rivers. They rose from unknown depths and violently rejected Magatha Grimtotem’s attempts at diplomacy. Left unchecked, their numbers could undermine the city and overrun it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_ragefire-chasm-6ed403719fea41da7069/1-0000.mp3", duration = 43.8073469, start = 0},
-  },
-}
 P.transport["subzone:raptor-ridge"] = {
   hash = "2daf39",
   fullHash = "2daf39",
@@ -2263,14 +2239,6 @@ P.transport["subzone:scarlet-monastery-library"] = {
   text = "Scarlet Monastery Library. In Tirisfal Glades, scholars and mages seek Lordaeron's old religious and arcane records in the Scarlet Monastery Library. Crusade zealots and battle hounds patrol its halls. Before the Third War, Lordaeron's priesthood came to the monastery to study. Its eastern cloisters held religious writings, histories, and arcane treatises. Then the Scarlet Crusade fortified the monastery against the Scourge. They kept the archives and armed the quiet halls.\n\nNow beastmasters send tracking hounds through the courtyards, while battle-mages patrol the shelves. They guard the Compendium of the Fallen and ancient Titan research from outsiders. Houndmaster Loksey guards the Huntsman's Cloister with trained hounds. They sniff out anyone seeking passage to the inner chambers. Beyond the Gallery of Treasures, Arcanist Doan watches over the Athenaeum.\n\nA formidable mage, Doan wields devastating fire and protective sorcery. Doan studies alone and fiercely defends the Crusade's hoarded knowledge from anyone who enters the heart of the complex.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_scarlet-monastery-library-41f0e6ce58ab53f220bf/1-0000.mp3", duration = 94.3804082, start = 0},
-  },
-}
-P.transport["subzone:scholomance"] = {
-  hash = "825c6f",
-  fullHash = "825c6f",
-  text = "Scholomance. Beneath Caer Darrow, Scholomance trains mortals and undead in necromancy and the dark arts. Darkmaster Gandling leads the studies, while Ras Frostwhisper watches over the halls. Before the Third War, House Barov ruled from Caer Darrow and held vast lands across Lordaeron. Those lands included Brill, Tarren Mill, and Southshore. Fearing the loss of their wealth and mortal lives, the Barovs accepted Kel'Thuzad's promise of eternal life.\n\nThey deeded their fortress and ancestral catacombs to the Cult of the Damned. The cult repaid them by butchering the nobles and turning the crypts into a hidden place to train necromancers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_scholomance-5e635518334a771ac748/1-0000.mp3", duration = 56.32, start = 0},
   },
 }
 P.transport["subzone:scholomance-classic"] = {
@@ -2591,14 +2559,6 @@ P.transport["subzone:stormwind-city"] = {
   text = "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor.",
   ["1"] = {
     {file = "Audio/Transport/full_subzone_stormwind-city-84e4decc5246047ef6b0/1-0000.mp3", duration = 113.92, start = 0},
-  },
-}
-P.transport["subzone:stratholme"] = {
-  hash = "d2ed82",
-  fullHash = "d2ed82",
-  text = "Stratholme. Scourge forces hold Stratholme, and its ruins still burn. Once the jewel of the Eastweald and Lordaeron’s second greatest city, it became the place where Prince Arthas Menethil ordered the culling of citizens who had eaten grain tainted by the Plague of Undeath. Stratholme rose with the Arathi expansion into the Eastweald centuries ago. It became Lordaeron’s second-largest settlement, famed for holy shrines and sacred water that resisted dark sorcery. Before the Second War, Archbishop Alonsus Faol gathered at the city’s chapel and founded the Order of the Knights of the Silver Hand.\n\nAmong its first legends was Uther the Lightbringer. During the Second War, Stratholme served the Alliance of Lordaeron as a vital port, supply hub, and northern oil refinery. The Old Horde assaulted it, but victory brought the city’s rebuilding. The Cult of the Damned carried infected grain from Andorhal into Stratholme’s markets. Unaware of the taint, thousands ate the flour. Prince Arthas arrived with Uther and Jaina Proudmoore, but the infection had spread too far to cure.\n\nHe judged slaughter the only way to deny Mal'Ganis an entire army and ordered every citizen killed. The atrocity drove Uther and Jaina away and began the prince’s descent into madness. His forces set the city ablaze. Then the Scourge took its smoking ruins for their regional capital.",
-  ["1"] = {
-    {file = "Audio/Transport/full_subzone_stratholme-8937b66492b55c8b5df1/1-0000.mp3", duration = 113.867755, start = 0},
   },
 }
 P.transport["subzone:stratholme-classic"] = {

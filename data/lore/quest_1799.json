@@ -1,0 +1,79 @@
+{
+ "key": "quest:1799",
+ "type": "quest",
+ "name": "Fragments of the Orb of Orahil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1799
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Menara\u2019s acolytes offer you paths inside the tower above Ratchet. One leads to an Infernal Orb for Tabetha in Dustwallow Marsh.",
+ "sections": [
+  {
+   "title": "A Choice Above Ratchet",
+   "body": "Inside the tower above Ratchet, Menara\u2019s acolytes ask you to choose one of their paths. What lies along each path is not named here. The choice sets you on the way to an Infernal Orb, which Tabetha awaits in Dustwallow Marsh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I speak to in the tower?",
+   "aliases": [
+    "ratchet tower acolytes",
+    "menara's acolytes",
+    "who in tower"
+   ],
+   "answer": "You speak to Menara\u2019s acolytes inside the tower above Ratchet."
+  },
+  {
+   "q": "What do the acolytes ask me to do?",
+   "aliases": [
+    "pick a path",
+    "which path",
+    "acolyte choice"
+   ],
+   "answer": "Menara\u2019s acolytes ask you to choose one of their paths to follow."
+  },
+  {
+   "q": "What should I bring to Tabetha?",
+   "aliases": [
+    "tabetha item",
+    "infernal orb",
+    "what to bring"
+   ],
+   "answer": "Bring an Infernal Orb to Tabetha in Dustwallow Marsh."
+  },
+  {
+   "q": "Where is Tabetha?",
+   "aliases": [
+    "tabetha location",
+    "dustwallow tabetha",
+    "find tabetha"
+   ],
+   "answer": "Tabetha is in Dustwallow Marsh."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "acolytes",
+  "dustwallow marsh",
+  "fragments of the orb of orahil",
+  "infernal orb",
+  "menara",
+  "ratchet",
+  "tabetha"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "npc:tabetha",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fragments of the Orb of Orahil"
+ ]
+}

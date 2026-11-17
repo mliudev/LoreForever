@@ -1,0 +1,102 @@
+{
+ "key": "quest:1436",
+ "type": "quest",
+ "name": "Alliance Relations",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1436
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Keldran asks you to return from Desolace and report your efforts. He hopes the Horde and Alliance can find peace.",
+ "sections": [
+  {
+   "title": "Keldran's Appeal",
+   "body": "Keldran in Orgrimmar is waiting to hear what you have done in Desolace. He believes your efforts have earned the Warchief's respect for his concerns, and hopes the fight against the demons and their followers may bring his people home sooner. He asks you to bring him word of your work.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea for Peace",
+   "body": "Keldran thanks you for returning from Desolace and says Thrall understands his plea. The Warchief wants peace between the Horde and Alliance. Keldran believes making their appearance acceptable can prevent further threats of needless violence, and he is grateful for your help.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to return?",
+   "aliases": [
+    "who sent me back",
+    "who is Keldran"
+   ],
+   "answer": "Keldran in Orgrimmar asks you to return from Desolace and tell him what you have done."
+  },
+  {
+   "q": "Where do I report back?",
+   "aliases": [
+    "where is Keldran",
+    "report back where"
+   ],
+   "answer": "You are asked to speak with Keldran in Orgrimmar."
+  },
+  {
+   "q": "What was I doing in Desolace?",
+   "aliases": [
+    "Desolace work",
+    "what did I do there"
+   ],
+   "answer": "The work in Desolace involved fighting demons and their followers."
+  },
+  {
+   "q": "What does Keldran hope will happen?",
+   "aliases": [
+    "Keldran's hope",
+    "home before seasons change"
+   ],
+   "answer": "Keldran hopes the Warchief will let them return to their homes before the seasons change if the fight goes well."
+  },
+  {
+   "q": "What does Thrall want?",
+   "aliases": [
+    "Thrall peace",
+    "Horde Alliance peace"
+   ],
+   "answer": "Keldran says Thrall understands his plea and desires peace between the Horde and Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, Keldran's plea concerns peace between your people and the Horde."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, Keldran hopes Thrall's desire for peace will ease tensions with the Alliance."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "alliance relations",
+  "demons",
+  "desolace",
+  "horde",
+  "keldran",
+  "orgrimmar",
+  "peace",
+  "thrall"
+ ],
+ "related": [
+  "npc:keldran",
+  "npc:thrall",
+  "zone:desolace",
+  "zone:orgrimmar",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Alliance Relations"
+ ]
+}

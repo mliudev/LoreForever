@@ -1,0 +1,79 @@
+{
+ "key": "quest:5157",
+ "type": "quest",
+ "name": "Collection of the Corrupt Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5157
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Greta Mosshoof in Felwood asks you to bring an Empty Canteen to Jaedenar\u2019s Moon Well. She needs water collected from the well at the heart of the corrupted place.",
+ "sections": [
+  {
+   "title": "At the Moon Well",
+   "body": "The Empty Canteen is meant for the Moon Well at Jaedenar\u2019s center. You are to fill it there and carry it back to Greta Mosshoof in Felwood, where she awaits the water.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the water?",
+   "aliases": [
+    "who sent me",
+    "Greta water",
+    "who needs it"
+   ],
+   "answer": "Greta Mosshoof in Felwood asks you to bring her water from Jaedenar\u2019s Moon Well."
+  },
+  {
+   "q": "Where is the Moon Well?",
+   "aliases": [
+    "moonwell location",
+    "where to fill canteen",
+    "Jaedenar well"
+   ],
+   "answer": "The Moon Well is in the center of Jaedenar."
+  },
+  {
+   "q": "What do I take to the well?",
+   "aliases": [
+    "what item",
+    "empty canteen",
+    "canteen quest"
+   ],
+   "answer": "Take the Empty Canteen to the Moon Well and fill it there."
+  },
+  {
+   "q": "Where do I bring the filled canteen?",
+   "aliases": [
+    "where return water",
+    "bring it to Greta",
+    "Greta Mosshoof location"
+   ],
+   "answer": "Bring the filled canteen back to Greta Mosshoof in Felwood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection of the corrupt water",
+  "corrupt water",
+  "empty canteen",
+  "felwood",
+  "greta mosshoof",
+  "jaedenar",
+  "moon well"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:jaedenar",
+  "npc:greta-mosshoof"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Collection of the Corrupt Water"
+ ]
+}

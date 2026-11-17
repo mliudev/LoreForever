@@ -1,0 +1,81 @@
+{
+ "key": "quest:96786",
+ "type": "quest",
+ "name": "The Syndicate Sting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96786
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Myrokos Silentform at Ravenholdt Manor sends you to a secret handoff near Thoradin\u2019s Wall. The Syndicate is involved, but the object being traded remains unknown.",
+ "sections": [
+  {
+   "title": "A Secret Handoff",
+   "body": "At Ravenholdt Manor, Myrokos Silentform has word of a handoff arranged by Falconcrest. Some of his men are meeting at the southern part of Thoradin\u2019s Wall, though even those sent to collect the goods may not know what they are taking. You are asked to break up the deal and bring the traded object back to Myrokos.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent men to the handoff?",
+   "aliases": [
+    "who sent them",
+    "falconcrest men",
+    "who arranged the deal"
+   ],
+   "answer": "Falconcrest sent men to make the handoff at the southern part of Thoradin\u2019s Wall."
+  },
+  {
+   "q": "Where is the secret deal?",
+   "aliases": [
+    "handoff location",
+    "where deal",
+    "thoradin wall deal"
+   ],
+   "answer": "The handoff is set for the southern part of Thoradin\u2019s Wall."
+  },
+  {
+   "q": "What is being traded?",
+   "aliases": [
+    "what's the object",
+    "what are they picking up",
+    "secret item"
+   ],
+   "answer": "The object being traded is unknown, and even the men sent to collect it may not know what it is."
+  },
+  {
+   "q": "What does Myrokos want?",
+   "aliases": [
+    "myrokos wants",
+    "what am i doing",
+    "what to bring back"
+   ],
+   "answer": "Myrokos Silentform asks you to break up the deal, take the object being traded to the Syndicate, and return it to him at Ravenholdt Manor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "falconcrest",
+  "myrokos silentform",
+  "ravenholdt manor",
+  "secret handoff",
+  "syndicate",
+  "the syndicate sting",
+  "thoradin's wall",
+  "traded object"
+ ],
+ "related": [
+  "subzone:ravenholdt-manor",
+  "subzone:thoradin-s-wall",
+  "topic:syndicate",
+  "topic:ravenholdt"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Syndicate Sting"
+ ]
+}

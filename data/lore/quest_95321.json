@@ -1,0 +1,79 @@
+{
+ "key": "quest:95321",
+ "type": "quest",
+ "name": "Tazzik's Dues",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95321
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tazzik sends you to collect winnings in Steamwheedle Port, but the arena's champion earned nothing. You need to confront Tazzik about the unpaid debt.",
+ "sections": [
+  {
+   "title": "Back to the Port",
+   "body": "The collector points you back toward Steamwheedle Port in Tanaris. Tazzik's champion lost quickly in the arena, so there are no winnings to collect. Tazzik may be trying to catch a ship out of port while you speak with the collector.",
+   "spoiler": 0
+  },
+  {
+   "title": "Tazzik's Answer",
+   "body": "Tazzik admits he wagered everything he had on the fights to pay Friz, and lost it all. He says he cannot return her belongings and asks you to help him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to Tazzik's winnings?",
+   "aliases": [
+    "tazzik winnings",
+    "where's tazzik's money"
+   ],
+   "answer": "Tazzik's champion lost in the arena, and the collector says the fight earned no copper."
+  },
+  {
+   "q": "Where does Tazzik want me to go?",
+   "aliases": [
+    "where to find tazzik",
+    "tazzik location"
+   ],
+   "answer": "The collector sends you back to Steamwheedle Port in Tanaris to confront Tazzik."
+  },
+  {
+   "q": "Why should I hurry back to the port?",
+   "aliases": [
+    "tazzik escaping",
+    "is tazzik leaving"
+   ],
+   "answer": "The collector thinks Tazzik may be trying to catch the next ship out of Steamwheedle Port."
+  },
+  {
+   "q": "Who is Friz?",
+   "aliases": [
+    "friz tazzik",
+    "tazzik friz"
+   ],
+   "answer": "Tazzik says he wagered everything he had on the fights to pay Friz."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arena",
+  "friz",
+  "steamwheedle port",
+  "tanaris",
+  "tazzik",
+  "tazzik's dues",
+  "winnings"
+ ],
+ "related": [
+  "subzone:steamwheedle-port",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tazzik's Dues"
+ ]
+}

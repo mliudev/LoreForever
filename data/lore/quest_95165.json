@@ -1,0 +1,80 @@
+{
+ "key": "quest:95165",
+ "type": "quest",
+ "name": "See Ya, Scallywags!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95165
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A wharfmaster has a plan for the Eastsea\u2019s three boats. You are to plant timed charges in their hulls, then leave him to set them off.",
+ "sections": [
+  {
+   "title": "Charges Aboard",
+   "body": "The wharfmaster puts the gunpowder you stole to use, making timed charges for the Eastsea\u2019s boats. You are to place one in the hull of each vessel, near its cannons. Once they are set, get clear so he can trigger the explosives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the wharfmaster want me to do?",
+   "aliases": [
+    "what am i supposed to do",
+    "eastsea boats task"
+   ],
+   "answer": "Plant a remote explosive charge in the hull of each of the Eastsea\u2019s three boats, near the cannons."
+  },
+  {
+   "q": "Why use the gunpowder I stole?",
+   "aliases": [
+    "stolen gunpowder",
+    "what is the powder for"
+   ],
+   "answer": "The wharfmaster uses the gunpowder to make timed charges for the boats."
+  },
+  {
+   "q": "Why plant the charges near the cannons?",
+   "aliases": [
+    "charge near cannons",
+    "where do charges go"
+   ],
+   "answer": "The wharfmaster says the gunpowder will make the explosives more powerful near the cannons."
+  },
+  {
+   "q": "How many boats are involved?",
+   "aliases": [
+    "how many ships",
+    "three boats"
+   ],
+   "answer": "You are to place charges on each of the Eastsea\u2019s three boats."
+  },
+  {
+   "q": "What does the wharfmaster know about explosives?",
+   "aliases": [
+    "wharfmaster explosives",
+    "why can he make bombs"
+   ],
+   "answer": "He says he used to make a less honest living."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boats",
+  "cannons",
+  "eastsea",
+  "gunpowder",
+  "remote explosive",
+  "see ya scallywags",
+  "timed charges",
+  "wharfmaster"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: See Ya, Scallywags!"
+ ]
+}

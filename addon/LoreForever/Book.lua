@@ -123,6 +123,17 @@ local function reachable(e, mine)
   f = type(f) == "string" and f:lower() or nil
   return not (mine and (f == "alliance" or f == "horde") and f ~= mine)
 end
+-- So do quests only other classes or races take (m.cl, m.ra: the game's class and race files, lore.quest_who), so a
+-- character can finish every count (LOR-1533: Zephras Isle's class quests). Unknown class or race: no limit.
+local function listed(list, v)
+  if type(list) ~= "table" or not v then return true end
+  for _, x in ipairs(list) do if x == v then return true end end
+  return false
+end
+local function forMe(e, class, race)
+  local m = e.t == "quest" and e.m
+  return not m or (listed(m.cl, class) and listed(m.ra, race))
+end
 
 local index   -- { db, chapters = { [chapter] = { keys } } }, built the first time Found opens
 function Book.Index()
@@ -130,13 +141,17 @@ function Book.Index()
   if index and index.db == db then return index end
   local mine = try(UnitFactionGroup, "player")
   mine = type(mine) == "string" and mine:lower() or nil
+  local _, class = try(UnitClass, "player")
+  local _, race = try(UnitRace, "player")
+  class, race = type(class) == "string" and class or nil, type(race) == "string" and race or nil
   local chapters, zs = {}, zones()
   -- A place page no name the game reports leads to (e.nf: a second page for one place, a place Forever's client
   -- doesn't name) can't be found by travelling, so it stays out of the totals and the zone's places seal until found
   -- some other way (LOR-1482: a zone whose seal can never be finished).
   local have = (ns.Collection and ns.Collection.Store and (ns.Collection.Store() or {}).found) or {}
   for key, e in pairs(db or {}) do
-    if KIND[e.t] and reachable(e, mine) and (not e.nf or have[key]) then
+    -- A page found anyway still counts: a quest our records call another class's, found before this version.
+    if KIND[e.t] and reachable(e, mine) and (not e.nf or have[key]) and (forMe(e, class, race) or have[key]) then
       local ck = (e.t ~= "topic" and e.z and zs[e.z]) and e.z or AZEROTH
       local c = chapters[ck]
       if not c then c = { keys = {} }; chapters[ck] = c end

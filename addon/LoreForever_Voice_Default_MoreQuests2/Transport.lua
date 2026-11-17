@@ -3466,11 +3466,11 @@ P.transport["quest:276"] = {
   },
 }
 P.transport["quest:277"] = {
-  hash = "1a3aa8",
-  fullHash = "1a3aa8",
-  text = "Fire Taboo. In the Wetlands, Rethiel turns concern for the forest into action. The bog beast asks travelers to take the crude flints Mosshide gnolls use to burn living trees, hoping to spare the ancient boughs. Rethiel the Greenwarden feels the Wetlands' trees as kin. Rot and renewal belong to the swamp, yet the Mosshide gnolls cut living timber and feed it to their hearthfires. The groans of those boughs weigh on Rethiel. The Greenwarden can no longer watch the trees suffer in silence. Mosshide gnolls cut green trees for warmth and territory instead of gathering deadwood. Rethiel hopes to curb their spread without a long war, so the bog beast asks you to take the crude flints carried by stronger gnolls. Without those tools, the pack cannot burn the timber it fells.\n\nRethiel smashes each stone and casts its dust into the sea. There, it can never spark the forest again.",
+  hash = "d8beb0",
+  fullHash = "d8beb0",
+  text = "Fire Taboo. In the Wetlands, Rethiel turns concern for the forest into action. The bog beast asks travelers to take the crude flints Mosshide gnolls strike to set living trees alight, hoping to spare the ancient boughs. Rethiel the Greenwarden feels the Wetlands' trees as kin. Rot and renewal belong to the swamp, yet the Mosshide gnolls cut living timber and feed it to their hearthfires. The groans of those boughs weigh on Rethiel. The Greenwarden can no longer watch the trees suffer in silence. Rethiel hopes to curb the Mosshides without a long war, so the bog beast asks you to take the crude flints their stronger gnolls carry. Without those tools, the pack cannot burn the timber it fells.\n\nRethiel means to smash each stone and cast its dust into the sea, where it can never spark the forest again.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_277-6f03b8f95a60ef037de4/1-0000.mp3", duration = 54.2563265, start = 0},
+    {file = "Audio/Transport/full_quest_277-3bc4c9900ceafc37d3bc/1-0000.mp3", duration = 55.3534694, start = 0},
   },
 }
 P.transport["quest:283"] = {
@@ -3738,11 +3738,11 @@ P.transport["quest:299"] = {
   },
 }
 P.transport["quest:2996"] = {
-  hash = "10e0e9",
-  fullHash = "10e0e9",
-  text = "Seeking Strahad. In Orgrimmar, Gan'rul Bloodeye sends warlocks south to Ratchet for harder lessons. A human summoner there teaches arts beyond basic summoning. Gan'rul Bloodeye teaches young warlocks in the Cleft of Shadow. There, they learn to command the Nether. When an apprentice outgrows those lessons, Gan'rul points beyond the city walls. More volatile beings demand a tutor with deeper mastery of dark arcana. Gan'rul sends apprentices to Strahad Farsan, a human sorcerer in a tower above Ratchet's goblin port. Horde and humans may be enemies, yet warlocks look past ordinary faction loyalties. Power, discipline, and ritual knowledge matter more than ancestry. Strahad judges an apprentice by inner hatred and the ability to subjugate, not by skin color.",
+  hash = "5fd34d",
+  fullHash = "5fd34d",
+  text = "Seeking Strahad. In Orgrimmar, Gan'rul Bloodeye sends warlocks south to Ratchet for harder lessons. A human summoner there teaches arts beyond basic summoning. In the Cleft of Shadow, Gan'rul Bloodeye has taught you to command the Nether. Now you have outgrown his lessons. The beings beyond them are more volatile, and they demand a tutor with deeper mastery of dark arcana than any within Orgrimmar's walls. So Gan'rul sends you south to Strahad Farsan, a human sorcerer whose tower stands above Ratchet's goblin port. Horde and humans may be enemies, but warlocks look past such loyalties: power, discipline and ritual knowledge matter more than ancestry. Strahad judges his students by the hatred within them and their will to subjugate, not by the color of their skin.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2996-f73e775c9d892645758c/1-0000.mp3", duration = 48.9012245, start = 0},
+    {file = "Audio/Transport/full_quest_2996-85d3b12d354b584fd3e9/1-0000.mp3", duration = 53.0546939, start = 0},
   },
 }
 P.transport["quest:3001"] = {
@@ -4842,11 +4842,11 @@ P.transport["quest:536"] = {
   },
 }
 P.transport["quest:5361"] = {
-  hash = "ea4a75",
-  fullHash = "ea4a75",
-  text = "Family Tree. Cliffwatcher Longhorn sends you to Ghost Walker Post with news of unusual centaur activity. His brother is there in Desolace. Cliffwatcher Longhorn asks you to carry a report to his brother, Nataka, at Ghost Walker Post in Desolace. A year has passed since his last letter. Now the centaurs are acting unusually, and Nataka needs to hear what is happening. From Thousand Needles, travel to Stonetalon Mountain, north of the Crossroads. Go west into the Charred Vale, then south into Desolace. Follow the road south to Ghost Walker Post.",
+  hash = "80823d",
+  fullHash = "80823d",
+  text = "Family Tree. Cliffwatcher Longhorn sends you to Ghost Walker Post with news of unusual centaur activity. His brother is there in Desolace. A year has passed since Cliffwatcher Longhorn last wrote to his brother. Now the centaurs are acting strangely, and that is news Nataka should not go without. So Cliffwatcher sets it all down in a report and trusts you to carry it to Ghost Walker Post in Desolace. The road is long. It climbs north past the Crossroads into the Stonetalon Mountains, turns west through the Charred Vale, and drops south into the grey wastes of Desolace. At its end, at Ghost Walker Post, Nataka waits, and he does not know what his brother has seen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5361-0f1d720195bfc183840b/1-0000.mp3", duration = 34.3510204, start = 0},
+    {file = "Audio/Transport/full_quest_5361-a5d33f932c560b76abfe/1-0000.mp3", duration = 43.3371429, start = 0},
   },
 }
 P.transport["quest:5381"] = {
@@ -7186,11 +7186,11 @@ P.transport["quest:92456"] = {
   },
 }
 P.transport["quest:92457"] = {
-  hash = "61322e",
-  fullHash = "61322e",
-  text = "Starving Arcane. Archmage Modera asks you to clear rogue elementals from the City of Dalaran. A breach has unsettled the city's enchantments and defenses, and the Kirin Tor needs room to tend its wards. The breach has disturbed factotums and enchantments across Dalaran. Some of those enchantments protect the city's defenses. Fragmented arcane energy has drawn Seeking Remnants, Saturated Remnants, and Mana Echoes. They gather to fill themselves with its free-flowing magic. Archmage Modera asks you to thin their numbers while the Kirin Tor tends the wards and other incidents.",
+  hash = "a3e44c",
+  fullHash = "a3e44c",
+  text = "Starving Arcane. Archmage Modera asks you to clear rogue elementals from the City of Dalaran. A breach has unsettled the city's enchantments and defenses, and the Kirin Tor needs room to tend its wards. Walk Dalaran's streets and the damage shows. The breach has disturbed factotums and enchantments across the city, some of them part of its defenses, and the arcane energy they shed now drifts free. It has drawn Seeking Remnants, Saturated Remnants and Mana Echoes, which gather to fill themselves on the loose magic. Each one you put down leaves less of that magic for the next to feed on.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92457-4223ae4cbe37bdc37903/1-0000.mp3", duration = 35.7355102, start = 0},
+    {file = "Audio/Transport/full_quest_92457-7684ba304ced61f522b4/1-0000.mp3", duration = 38.0081633, start = 0},
   },
 }
 P.transport["quest:92458"] = {

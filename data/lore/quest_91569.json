@@ -1,0 +1,89 @@
+{
+ "key": "quest:91569",
+ "type": "quest",
+ "name": "Blue Gold",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91569
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Valormok, Izvi Gildfizz wants a Mana-Siphoning Wand from the blood elf arcanists. She hopes to profit from the scramble for ancient Highborne magic.",
+ "sections": [
+  {
+   "title": "A Seller's Market",
+   "body": "Izvi Gildfizz at Valormok sees a chance to profit from the search for ancient Highborne magic. Belgrom, the elves, and the naga all want a share, but she asks you to bring her a Mana-Siphoning Wand carried by blood elf arcanists. Their camp lies east of the elves' base camp, along the cliffs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Izvi want?",
+   "aliases": [
+    "izvi wand",
+    "what wand",
+    "blue gold request"
+   ],
+   "answer": "Izvi Gildfizz asks you to bring her a Mana-Siphoning Wand carried by blood elf arcanists."
+  },
+  {
+   "q": "Why does Izvi want the wand?",
+   "aliases": [
+    "why wand",
+    "izvi's plan",
+    "what's in it for izvi"
+   ],
+   "answer": "Izvi believes she can profit from the interest in ancient Highborne magic."
+  },
+  {
+   "q": "Who is looking for Highborne magic?",
+   "aliases": [
+    "who wants the magic",
+    "highborne scramble",
+    "naga and elves"
+   ],
+   "answer": "Belgrom, the elves, and the naga are all seeking a share of ancient Highborne magic."
+  },
+  {
+   "q": "What are the wands used for?",
+   "aliases": [
+    "wand use",
+    "mana siphon wand",
+    "what does the wand do"
+   ],
+   "answer": "Blood elf arcanists use the special wands to draw magical energy from artifacts the elves find."
+  },
+  {
+   "q": "Where are the arcanists?",
+   "aliases": [
+    "arcanist camp",
+    "blood elf camp",
+    "where get wand"
+   ],
+   "answer": "Their camp is east of the elves' base camp, along the cliffs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "belgrom",
+  "blood elf arcanists",
+  "blue gold",
+  "highborne magic",
+  "izvi gildfizz",
+  "mana-siphoning wand",
+  "naga",
+  "valormok"
+ ],
+ "related": [
+  "subzone:valormok",
+  "topic:highborne",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Blue Gold"
+ ]
+}

@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Cedric Dalton at the Southern Watch asks you to bring him Scaldaron\u2019s head. The dragon\u2019s threat is gone, and the sentries should hear what happened.",
+ "summary": "You carry Scaldaron\u2019s head to Cedric Dalton at the Southern Watch. The dragon\u2019s threat is gone, and the sentries should hear what happened.",
  "sections": [
   {
    "title": "Word at the Watch",
@@ -26,7 +26,7 @@
     "who wants the dragon head",
     "Cedric Dalton request"
    ],
-   "answer": "Cedric Dalton at the Southern Watch asks you to bring him the Head of Scaldaron."
+   "answer": "No one sends you for it. Taking the dragon's head starts this errand, and Cedric Dalton is the one who receives it."
   },
   {
    "q": "Where should I take the Head of Scaldaron?",

@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "Word for Thrall",
-   "body": "A soldier of the Horde asks you to carry news to Thrall in Orgrimmar. The soldier will return there after helping Ulka prepare to travel. You are trusted to tell the Warchief what fate befell Varian Wrynn.",
+   "body": "Commander Folkar asks you to carry news to Thrall in Orgrimmar. He will return there after making sure Ulka is fit to travel. You are trusted to tell the Warchief what fate befell Varian Wrynn.",
    "spoiler": 0
   },
   {
@@ -50,7 +50,7 @@
     "who wants the message",
     "the soldier"
    ],
-   "answer": "A soldier of the Horde asks you to bring the information to Thrall."
+   "answer": "Commander Folkar asks you to bring the information to Thrall in his stead. He calls you a soldier of the Horde."
   },
   {
    "q": "Why is the soldier returning to Orgrimmar?",
@@ -59,7 +59,7 @@
     "why is the soldier delayed",
     "ulka travel"
    ],
-   "answer": "The soldier plans to meet Ulka and make sure he is fit to travel before returning to Orgrimmar."
+   "answer": "Folkar will first meet up with Ulka and see that he is fit to travel. Only then will he return to Orgrimmar."
   },
   {
    "q": "What does Thrall say about the Kor'kron?",

@@ -1,0 +1,85 @@
+{
+ "key": "quest:3518",
+ "type": "quest",
+ "name": "Delivery to Magatha Grimtotem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3518
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Magatha Grimtotem, an elder in Thunder Bluff, supports an alliance between the tauren and the Forsaken. You are asked to bring her the Tablet of Beth'Amara, which she believes may help the Forsaken find a path back to being human.",
+ "sections": [
+  {
+   "title": "A tablet for Magatha",
+   "body": "In Thunder Bluff, Magatha Grimtotem is among the tauren elders and favors an alliance with the Forsaken. She believes tauren ways may help the Forsaken find a path back to being human. You carry her the Tablet of Beth'Amara, which she says may be the link she needs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Magatha Grimtotem?",
+   "aliases": [
+    "who's magatha",
+    "magatha grimtotem"
+   ],
+   "answer": "Magatha Grimtotem is one of the elders in Thunder Bluff and supports an alliance between the tauren and the Forsaken."
+  },
+  {
+   "q": "Why does Magatha want the tablet?",
+   "aliases": [
+    "why tablet",
+    "tablet for magatha"
+   ],
+   "answer": "Magatha believes the Tablet of Beth'Amara may help her find a way to help the Forsaken return to being human."
+  },
+  {
+   "q": "What is the Tablet of Beth'Amara?",
+   "aliases": [
+    "beth'amara tablet",
+    "what tablet"
+   ],
+   "answer": "It is a tablet Magatha believes may be a link to helping the Forsaken find a path back to being human."
+  },
+  {
+   "q": "Where do I bring the Tablet of Beth'Amara?",
+   "aliases": [
+    "where to take tablet",
+    "deliver to magatha"
+   ],
+   "answer": "Bring the Tablet of Beth'Amara to Magatha Grimtotem in Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, you bring the Tablet of Beth'Amara to Magatha Grimtotem, an elder who believes tauren ways can help the Forsaken find a path back to being human."
+  },
+  {
+   "target": "race:Undead",
+   "text": "As Forsaken, Magatha believes tauren ways may help your people find a path back to being human."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "forsaken",
+  "human",
+  "magatha grimtotem",
+  "tablet of beth'amara",
+  "tauren",
+  "thunder bluff"
+ ],
+ "related": [
+  "npc:magatha-grimtotem",
+  "zone:thunderbluff",
+  "topic:tauren",
+  "topic:forsaken"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Delivery to Magatha Grimtotem"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "quest:94748",
+ "type": "quest",
+ "name": "Break Their Chains",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94748
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Da\u2019grosh asks you to free Rog\u2019mar Scouts imprisoned in the Twilight\u2019s Shroud. His warriors need to return to Rog\u2019mar before they can fight again.",
+ "sections": [
+  {
+   "title": "Scouts in Captivity",
+   "body": "Da\u2019grosh\u2019s warriors were captured by the Twilight\u2019s Hammer before their attack could begin. The cult\u2019s champions took them to a fortress west of Da\u2019grosh and imprisoned them. He asks you to free his Orc brothers and sisters in the Twilight\u2019s Shroud.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Rescue",
+   "body": "Da\u2019grosh says his warriors are too hurt to fight and have returned to Rog\u2019mar. He tells you that your work together continues.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is dagrosh",
+    "who needs help"
+   ],
+   "answer": "Da\u2019grosh asks you to free his captured warriors."
+  },
+  {
+   "q": "Who was captured?",
+   "aliases": [
+    "captured orcs",
+    "rogmar scouts"
+   ],
+   "answer": "The Twilight\u2019s Hammer captured Da\u2019grosh\u2019s warriors, the Rog\u2019mar Scouts."
+  },
+  {
+   "q": "Where are the scouts imprisoned?",
+   "aliases": [
+    "scouts location",
+    "where are they held"
+   ],
+   "answer": "The Rog\u2019mar Scouts are imprisoned in a fortress west of Da\u2019grosh, within the Twilight\u2019s Shroud."
+  },
+  {
+   "q": "Who captured Da\u2019grosh\u2019s warriors?",
+   "aliases": [
+    "who took the orcs",
+    "twilight hammer captives"
+   ],
+   "answer": "The Twilight\u2019s Hammer\u2019s champions captured Da\u2019grosh\u2019s warriors."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "As an Orc, Da\u2019grosh asks you to free his Orc brothers and sisters from captivity."
+  }
+ ],
+ "keywords": [
+  "break their chains",
+  "captured orcs",
+  "da\u2019grosh",
+  "fortress",
+  "rog\u2019mar scouts",
+  "twilight\u2019s hammer",
+  "twilight\u2019s shroud"
+ ],
+ "related": [
+  "topic:twilight-s-hammer",
+  "quest:4449"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Break Their Chains"
+ ]
+}

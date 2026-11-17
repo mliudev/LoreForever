@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Growing Collection",
-   "body": "The librarian at the Library in Ironforge welcomes works for the collection. Magical writings may add to what the library knows, and your discoveries can help its knowledge grow.",
+   "body": "Every new book is welcome on these shelves. Magical writings may add to what the library knows, and your discoveries can help its knowledge grow.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "ironforge library",
     "where to take magical works"
    ],
-   "answer": "Bring the magical works to the librarian at the Library in Ironforge."
+   "answer": "Bring the magical works to the librarian Garion Wendell in Stormwind, or to Owen Thadd in Undercity if you are Horde."
   },
   {
    "q": "Why collect magical works?",
@@ -52,15 +52,12 @@
  "keywords": [
   "books",
   "collection",
-  "ironforge",
   "knowledge",
   "librarian",
   "library",
   "magical works"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: A Web of Lies: Debunking Myths and Legends"
