@@ -13,7 +13,7 @@
       "requires": [],
       "id": 1767707,
       "slug": "lore-forever-romanian",
-      "live": false
+      "live": true
     },
     {
       "key": "ukrainian",
@@ -78,7 +78,7 @@
       "requires": [],
       "id": 1766729,
       "slug": "lore-forever-more-quest-dialogue-26-50-male",
-      "live": false
+      "live": true
     },
     {
       "key": "male-more-quests-3",
@@ -91,7 +91,7 @@
       "requires": [],
       "id": 1766730,
       "slug": "lore-forever-more-quest-dialogue-51-60-male",
-      "live": false
+      "live": true
     },
     {
       "key": "female-narrator",
@@ -119,7 +119,7 @@
       "suggests": ["female-narrator"],
       "id": 1767708,
       "slug": "lore-forever-female-narrator-alliance-lands",
-      "live": false
+      "live": true
     },
     {
       "key": "female-horde",
@@ -161,7 +161,7 @@
       "suggests": ["female-narrator"],
       "id": 1766731,
       "slug": "lore-forever-more-quest-dialogue-26-50-female",
-      "live": false
+      "live": true
     },
     {
       "key": "female-more-quests-3",
@@ -175,7 +175,7 @@
       "suggests": ["female-narrator"],
       "id": 1766732,
       "slug": "lore-forever-more-quest-dialogue-51-60-female",
-      "live": false
+      "live": true
     },
     {
       "key": "male-more-places",
@@ -227,7 +227,7 @@
       "requires": ["male-quest-stories-0"],
       "id": 1767788,
       "slug": "lore-forever-quest-stories-1-19-male-narrator",
-      "live": false
+      "live": false, "paused": true
     },
     {
       "key": "male-quest-stories-2",
@@ -240,7 +240,7 @@
       "requires": ["male-quest-stories-0", "male-quest-stories-1", "male-quest-stories-3"],
       "id": 1767790,
       "slug": "lore-forever-quest-stories-20-39-male-narrator",
-      "live": false
+      "live": false, "paused": true
     },
     {
       "key": "male-quest-stories-3",
@@ -254,7 +254,7 @@
       "requires": [],
       "id": 1767855,
       "slug": "lore-forever-item-stories-and-quest-stories-40",
-      "live": false, "paused": true
+      "live": true
     },
     {
       "key": "male-item-stories",
@@ -267,7 +267,7 @@
       "requires": [],
       "id": 1809086,
       "slug": "lore-forever-male-narrator-item-stories",
-      "live": false
+      "live": true
     },
     {
       "key": "female-more-places",
@@ -319,7 +319,7 @@
       "requires": ["female-narrator", "female-quest-stories-0"],
       "id": 1767789,
       "slug": "lore-forever-quest-stories-1-19-female-narrator",
-      "live": false
+      "live": false, "paused": true
     },
     {
       "key": "female-quest-stories-2",
@@ -332,7 +332,7 @@
       "requires": ["female-narrator", "female-quest-stories-0", "female-quest-stories-1", "female-quest-stories-3"],
       "id": 1767791,
       "slug": "lore-forever-quest-stories-20-39-female-narrator",
-      "live": false
+      "live": false, "paused": true
     },
     {
       "key": "female-quest-stories-3",
@@ -346,7 +346,7 @@
       "requires": ["female-narrator"],
       "id": 1767942,
       "slug": "lore-forever-female-narrator-item-and-quest",
-      "live": false, "paused": true
+      "live": true
     },
     {
       "key": "female-item-stories",
@@ -359,7 +359,7 @@
       "requires": ["female-narrator"],
       "id": 1809088,
       "slug": "lore-forever-female-narrator-item-stories",
-      "live": false
+      "live": true
     },
     {
       "key": "original-narrator",
@@ -424,7 +424,7 @@
       "requires": ["male-quests"],
       "id": 1767792,
       "slug": "lore-forever-quest-givers-voices-levels-31-50",
-      "live": false
+      "live": true
     },
     {
       "key": "quest-givers-3",
@@ -437,7 +437,7 @@
       "requires": ["male-quests"],
       "id": 1767793,
       "slug": "lore-forever-quest-givers-voices-levels-51-60",
-      "live": false
+      "live": true
     },
     {
       "key": "male-dede",
@@ -632,7 +632,7 @@
       "requires": [],
       "id": 1767780,
       "slug": "lore-forever-spanish-narration-more-people-male",
-      "live": false
+      "live": true
     },
     {
       "key": "female-more-people-eses",
@@ -645,7 +645,7 @@
       "requires": [],
       "id": 1767781,
       "slug": "lore-forever-spanish-narration-more-people-female",
-      "live": false
+      "live": true
     },
     {
       "key": "male-more-people-ptbr",
@@ -671,7 +671,7 @@
       "requires": [],
       "id": 1767782,
       "slug": "lore-forever-portuguese-narration-more-people",
-      "live": false
+      "live": true
     },
     {
       "key": "male-more-people-frfr",
@@ -684,7 +684,7 @@
       "requires": [],
       "id": 1767783,
       "slug": "lore-forever-french-narration-more-people-male",
-      "live": false
+      "live": true
     },
     {
       "key": "female-more-people-frfr",
@@ -697,7 +697,7 @@
       "requires": [],
       "id": 1767784,
       "slug": "lore-forever-french-narration-more-people-female",
-      "live": false
+      "live": true
     },
     {
       "key": "male-quest-stories-1-frfr",
@@ -839,8 +839,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792923,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-male-narrator",
+      "live": true
     },
     {
       "key": "male-more-people-zhcn",
@@ -852,8 +852,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792926,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-more-people-male",
+      "live": true
     },
     {
       "key": "male-quest-stories-1-zhcn",
@@ -865,8 +865,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792927,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-quest-stories-1-19",
+      "live": true
     },
     {
       "key": "male-quest-stories-2-zhcn",
@@ -878,8 +878,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792934,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-quest-stories-20-39",
+      "live": true
     },
     {
       "key": "male-quest-stories-3-zhcn",
@@ -891,8 +891,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792940,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-item-and-quest",
+      "live": true
     },
     {
       "key": "female-zhcn",
@@ -904,8 +904,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792944,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-female-narrator",
+      "live": true
     },
     {
       "key": "female-more-people-zhcn",
@@ -917,8 +917,8 @@
       "core": "optional",
       "requires": [],
       "id": 1792947,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-chinese-narration-more-people-female",
+      "live": true
     },
     {
       "key": "female-quest-stories-1-zhcn",
@@ -930,8 +930,8 @@
       "core": "optional",
       "requires": [],
       "id": 1793013,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-female-chinese-quest-stories-1-19",
+      "live": true
     },
     {
       "key": "female-quest-stories-2-zhcn",
@@ -943,8 +943,8 @@
       "core": "optional",
       "requires": [],
       "id": 1793017,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-female-chinese-quest-stories-20-39",
+      "live": true
     },
     {
       "key": "female-quest-stories-3-zhcn",
@@ -956,8 +956,8 @@
       "core": "optional",
       "requires": [],
       "id": 1793020,
-      "slug": null,
-      "live": false
+      "slug": "lore-forever-female-chinese-item-and-quest-stories",
+      "live": true
     },
     {
       "key": "male-more-people-itit",
@@ -1131,7 +1131,7 @@
       "suggests": ["male-eses"],
       "id": 1767785,
       "slug": "lore-forever-spanish-quest-dialogue-male-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "female-quests-eses",
@@ -1145,7 +1145,7 @@
       "suggests": ["female-eses"],
       "id": 1767786,
       "slug": "lore-forever-spanish-quest-dialogue-female",
-      "live": false
+      "live": true
     },
     {
       "key": "quests-ptbr",
@@ -1159,7 +1159,7 @@
       "suggests": ["portuguese", "female-ptbr"],
       "id": 1767787,
       "slug": "lore-forever-portuguese-quest-dialogue",
-      "live": false
+      "live": true
     },
     {
       "key": "male-complete",
@@ -1173,7 +1173,7 @@
                    "male-quest-stories-3", "male-item-stories"],
       "id": 1767949,
       "slug": "lore-forever-male-narrator-complete",
-      "live": false
+      "live": true
     },
     {
       "key": "female-complete",
@@ -1188,7 +1188,7 @@
                    "female-item-stories"],
       "id": 1767957,
       "slug": "lore-forever-female-narrator-complete",
-      "live": false
+      "live": true
     }
   ]
 }

@@ -6,7 +6,7 @@ P.transport["quest:10"] = {
   fullHash = "1e76b2",
   text = "The Scrimshank Redemption. In Gadgetzan, Fizzledowser seeks news of his missing assistant, Junior Surveyor Scrimshank. Scrimshank went into the Gaping Chasm, southeast of town. Now Fizzledowser asks you to find Scrimshank or the surveying equipment. Senior Surveyor Fizzledowser has heard nothing from Junior Surveyor Scrimshank since he went into the Gaping Chasm. The last report from there spoke of more weird bugs. Fizzledowser wonders whether the bugs now hold two great regions of the desert.\n\nHe asks you to search for Scrimshank or, if Scrimshank is gone, the surveying equipment. Fizzledowser fears it may be all that remains.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_10-f9656803978d27e89e9a/1-0000.mp3", duration = 38.1126531, start = 0},
+    {file = "Audio/Transport/full_quest_10-2a4e002c652a208f8c13/1-0000.mp3", duration = 36.884898, start = 0},
   },
 }
 P.transport["quest:1052"] = {
@@ -14,7 +14,7 @@ P.transport["quest:1052"] = {
   fullHash = "d13edc",
   text = "Down the Scarlet Path. Brother Anton sends you from Desolace to Southshore with a sealed letter for Raleigh the Devout. Your deeds against the undead are only the beginning; Lordaeron holds the plague's true danger. Brother Anton takes pride in the Scarlet Crusade's strongholds in Lordaeron. The Crusade claims cleansing bastions from Hearthglen to Tirisfal Glades. Your work against the undead in Desolace has proven you, Anton says. Yet the plague's true danger lies in Lordaeron. Brother Anton sends you to Southshore, a town in the Eastern Kingdoms, to find Raleigh the Devout, a crusader. Anton seals a letter with his mark. He says Raleigh will give you an escort to a place of honor within the Scarlet Monastery.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1052-4b6ddc7d9d07dfa4dc00/1-0000.mp3", duration = 62.7461224, start = 0},
+    {file = "Audio/Transport/full_quest_1052-e1694d109bec1734044f/1-0000.mp3", duration = 47.9869388, start = 0},
   },
 }
 P.transport["quest:110"] = {
@@ -22,7 +22,7 @@ P.transport["quest:110"] = {
   fullHash = "0898a4",
   text = "Insect Part Analysis. In Gadgetzan, Fizzledowser needs word on the insect parts sent to Alchemist Pestlezugg. With Scrimshank lost, the Senior Surveyor is sorting his surveying gear and personal effects. Senior Surveyor Fizzledowser is putting Scrimshank's surveying gear and personal effects in order. He fears the bugs will claim more lives, so he sends you to Alchemist Pestlezugg in Gadgetzan. Learn whether Pestlezugg has finished processing the insect parts the surveyors sent. If they are ready, bring them back to Fizzledowser.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_110-941d725cb8548bd24240/1-0000.mp3", duration = 30.5893878, start = 0},
+    {file = "Audio/Transport/full_quest_110-0882533c979a13ec9e82/1-0000.mp3", duration = 32.757551, start = 0},
   },
 }
 P.transport["quest:1118"] = {
@@ -30,7 +30,7 @@ P.transport["quest:1118"] = {
   fullHash = "a2ac70",
   text = "Back to Booty Bay. At the Mirage Raceway, Kravel Koalbeard sends you back to Booty Bay with a letter and asks you to keep his scheme quiet. It is risky, but success could bring you both a bundle. This follows Rumors for Kravel. At the Mirage Raceway, Kravel Koalbeard trusts you to finish a job and keep silent. His new scheme is risky, but success could bring you both a bundle. He sends you back to Booty Bay, where his last job took you, to find Crank Fizzlebub and deliver a letter. If Crank needs help, do your best. Kravel says the effort will be worth it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1118-754379c77f4a95d24c82/1-0000.mp3", duration = 34.4032653, start = 0},
+    {file = "Audio/Transport/full_quest_1118-19b9d9af1c2626c5d64b/1-0000.mp3", duration = 42.3706122, start = 0},
   },
 }
 P.transport["quest:1119"] = {
@@ -38,7 +38,7 @@ P.transport["quest:1119"] = {
   fullHash = "cb3193",
   text = "Zanzil's Mixture and a Fool's Stout. At the Mirage Raceway, Kravel Koalbeard awaits a stout blended with Zanzil's Mixture. Crank Fizzlebub calls it Fool's Stout and believes Kravel needs it, so you carry it to him on the Shimmering Flats before it spoils. Crank Fizzlebub has blended Zanzil's Mixture into stout, making a potent drink he calls Fool's Stout. He believes Kravel needs it and wants to hear how it works. So you carry the drink to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats. Crank warns you not to keep the stout long. The mixture drives the yeast into high gear, and the drink will not stay fresh forever.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1119-f25eba380fe895657d7c/1-0000.mp3", duration = 37.4334694, start = 0},
+    {file = "Audio/Transport/full_quest_1119-5bba569cfe1620775ec4/1-0000.mp3", duration = 39.157551, start = 0},
   },
 }
 P.transport["quest:1120"] = {
@@ -46,7 +46,7 @@ P.transport["quest:1120"] = {
   fullHash = "6d6a32",
   text = "Get the Gnomes Drunk. At the Mirage Raceway, Get the Gnomes Drunk begins with a test of Fool's Stout on a pit crew. Kravel Koalbeard gives you the stout for the Gnome Pit Boss nearby and warns that it will go bad eventually. Kravel Koalbeard asks you to test Fool's Stout on one of the pit crews. Choose the gnomes, and he gives you the stout for the Gnome Pit Boss nearby at the Mirage Raceway. That choice tips the races toward the goblins. Kravel warns you not to wait too long, since the stout will go bad eventually.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1120-bb2fed687b938161fcac/1-0000.mp3", duration = 29.0481633, start = 0},
+    {file = "Audio/Transport/full_quest_1120-13270e912d198cd4dbad/1-0000.mp3", duration = 30.955102, start = 0},
   },
 }
 P.transport["quest:1121"] = {
@@ -54,7 +54,7 @@ P.transport["quest:1121"] = {
   fullHash = "837967",
   text = "Get the Goblins Drunk. At the Mirage Raceway, Kravel Koalbeard asks you to test Fool's Stout on a pit crew. Choose the goblins and carry the stout to the nearby Goblin Pit Boss before it goes bad. Kravel Koalbeard gives you Fool's Stout to test on one of the pit crews. If you choose the goblins, take it to the nearby Goblin Pit Boss at the Mirage Raceway. That choice tips the races toward the gnomes. The stout will go bad eventually, so Kravel warns you not to dawdle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1121-0ba72e433157bcefad87/1-0000.mp3", duration = 26.6187755, start = 0},
+    {file = "Audio/Transport/full_quest_1121-fe0e9cf659303f1f5e1f/1-0000.mp3", duration = 29.675102, start = 0},
   },
 }
 P.transport["quest:1122"] = {
@@ -62,7 +62,7 @@ P.transport["quest:1122"] = {
   fullHash = "d7929c",
   text = "Report Back to Fizzlebub. Kravel Koalbeard reports that the Fool's Stout worked and sends you to Booty Bay with news for Crank Fizzlebub. He has bet on the next race and hopes the pit crew you made drunk wrecked their own car. This follows your choice to make one pit crew drunk. Kravel Koalbeard says the Fool's Stout worked well. He's bet on the next race and hopes the pit crew you made drunk wrecked their own car. Take his note about the successful test to Crank Fizzlebub in Booty Bay. Crank will want the news, and Kravel hopes to get more stout for future races.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1122-7fe200a15c5698ac6fa8/1-0000.mp3", duration = 31.5559184, start = 0},
+    {file = "Audio/Transport/full_quest_1122-571daa43a7593dffafa2/1-0000.mp3", duration = 37.1461224, start = 0},
   },
 }
 P.transport["quest:1127"] = {
@@ -70,7 +70,7 @@ P.transport["quest:1127"] = {
   fullHash = "446eaf",
   text = "Fool's Stout. In Booty Bay, travelers seek more Fool's Stout for the Shimmering Flats raceway. Crank Fizzlebub needs twelve flasks of Zanzil's mixture to brew another batch. Travelers bound for the gnomes at the raceway may find their Fool's Stout has expired before they arrive. In Booty Bay, Crank Fizzlebub can brew a replacement. The goblin needs twelve flasks of Zanzil's mixture, and offers compensation for fetching them, with a little extra for discretion.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1127-d5093860b71608d497f0/1-0000.mp3", duration = 26.9583673, start = 0},
+    {file = "Audio/Transport/full_quest_1127-12d72e67bfa1ae49df2d/1-0000.mp3", duration = 30.9289796, start = 0},
   },
 }
 P.transport["quest:113"] = {
@@ -78,7 +78,7 @@ P.transport["quest:113"] = {
   fullHash = "d3b796",
   text = "Insect Part Analysis. From Tanaris, Alchemist Pestlezugg sends an urgent warning to Gadgetzan. The danger threatens both places and may spread across southern Kalimdor. Alchemist Pestlezugg asks you to carry the report to Senior Surveyor Fizzledowser in Gadgetzan. The danger threatens Tanaris and Gadgetzan, and may spread across southern Kalimdor. It could reach all of Azeroth, and nothing suggests it will subside. Pestlezugg wants everyone who can read to know.\n\nFizzledowser is to make a duplicate for you, so you can share it freely with your allegiance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_113-b410c48f6909fc140e51/1-0000.mp3", duration = 32.4963265, start = 0},
+    {file = "Audio/Transport/full_quest_113-12d0f4056f76226dc8f4/1-0000.mp3", duration = 41.717551, start = 0},
   },
 }
 P.transport["quest:1166"] = {
@@ -86,7 +86,7 @@ P.transport["quest:1166"] = {
   fullHash = "1260ef",
   text = "Overlord Mok'Morokk's Concern. Overlord Mok'Morokk sends you south from Brackenwall Village to recover what he left at the Stonemaul clan's old home. He wants his grog, snuff and strongbox back. Mok'Morokk says Rexxar made him the mighty leader of the Stonemaul clan. He says he keeps his people safe. When big dragons came to the clan's old home and brought fire, he found them a new home here in Dustwallow. Mok'Morokk left the old home in such a hurry that he forgot his grog, snuff and strongbox. He points you south to the Den of Flame and the Stonemaul Ruins, certain his things are there. He says he is too busy leading the ogres to go himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1166-bc9efdd733bd5aaa9a05/1-0000.mp3", duration = 54.0212245, start = 0},
+    {file = "Audio/Transport/full_quest_1166-d2a1b1387ff8a7513fe8/1-0000.mp3", duration = 41.3257143, start = 0},
   },
 }
 P.transport["quest:1168"] = {
@@ -94,7 +94,7 @@ P.transport["quest:1168"] = {
   fullHash = "582b95",
   text = "Army of the Black Dragon. In Brackenwall Village, the Army of the Black Dragon has left Tharg grieving and thirsting for vengeance. He blames Overlord Mok'Morokk for ordering the ogres to flee. Black dragons killed Tharg's wife along with many ogres. After Rexxar made Mok'Morokk Overlord, the new leader ordered the survivors to run until they reached Brackenwall Village. Tharg says ogres are poor at running and should fight instead. He believes Mok'Morokk thinks only of himself, though Mok'Morokk now tells all ogres to stay put and keep Brackenwall Village safe. Tharg calls the Stonemaul Ruins his home and likes the south. Brackenwall Village is no home to him. He wants revenge on the black dragon army and a return to the ruins, so he asks you to cut down Firemane Scouts and Firemane Ash Tails among its ranks.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1168-b83121a39b4d316c0e54/1-0000.mp3", duration = 47.0987755, start = 0},
+    {file = "Audio/Transport/full_quest_1168-6d18838f633c9235bd20/1-0000.mp3", duration = 57.8089796, start = 0},
   },
 }
 P.transport["quest:1169"] = {
@@ -102,7 +102,7 @@ P.transport["quest:1169"] = {
   fullHash = "45194b",
   text = "Identifying the Brood. In Brackenwall Village, Draz'Zilb seeks the beast that attacked the clan's old home. Draz'Zilb says Mok'Morokk clings to power while Tharg struggles with sorrow and vengeance, and asks you for fifteen searing tongues and fifteen searing hearts. Draz'Zilb says Mok'Morokk is consumed by power while Tharg wrestles with sorrow and a thirst for vengeance. In Draz'Zilb's view, no one else is trying to learn who attacked the clan's old home. The ogre speaks with care, though you might have expected a brute's words. Draz'Zilb asks you to take fifteen tongues and fifteen hearts from the whelps and hatchlings. The burned young belong to the black dragon army, and Draz'Zilb hopes their remains will reveal which beast sent her young into the ogres' home.\n\nIf the ogres learn what kind of beast they face, they may destroy their enemy for good and reclaim Stonemaul Village from ruin. Draz'Zilb says getting Mok'Morokk to leave the swamp will be a great labor of its own.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1169-f564bd9b4d18cc6dce55/1-0000.mp3", duration = 57.5477551, start = 0},
+    {file = "Audio/Transport/full_quest_1169-257e5f2383b3514bafcd/1-0000.mp3", duration = 61.0481633, start = 0},
   },
 }
 P.transport["quest:1170"] = {
@@ -110,7 +110,7 @@ P.transport["quest:1170"] = {
   fullHash = "c04f53",
   text = "The Brood of Onyxia. Draz'Zilb fears Onyxia's brood has come for more than a siege against a few ogres. Draz'Zilb reports that Onyxia's brood has invaded Stonemaul Village. Onyxia is Deathwing's daughter, and her arrival troubles him. He is certain the brood seeks more than a siege against a few ogres. So you carry word to Overlord Mok'Morokk in Brackenwall Village, where he can take action.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1170-801fd70da1c4dde2840a/1-0000.mp3", duration = 34.2987755, start = 0},
+    {file = "Audio/Transport/full_quest_1170-703844f030d39b7b1602/1-0000.mp3", duration = 26.88, start = 0},
   },
 }
 P.transport["quest:1171"] = {
@@ -118,7 +118,7 @@ P.transport["quest:1171"] = {
   fullHash = "270d40",
   text = "The Brood of Onyxia. At Brackenwall Village, The Brood of Onyxia meets Overlord Mok'Morokk's denial. He says no black dragons are here and sends you back to Draz'Zilb with word that the ogres will stay. Overlord Mok'Morokk wants to be left alone after Draz'Zilb reports the brood of Onyxia. He says the ogres will stay where they are and denies that any black dragon is here. Carry his answer to Draz'Zilb in Brackenwall Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1171-81134d60536af4f13d33/1-0000.mp3", duration = 40.8293878, start = 0},
+    {file = "Audio/Transport/full_quest_1171-8a5031058cd36be157c8/1-0000.mp3", duration = 29.9885714, start = 0},
   },
 }
 P.transport["quest:1172"] = {
@@ -126,7 +126,7 @@ P.transport["quest:1172"] = {
   fullHash = "f6181a",
   text = "The Brood of Onyxia. In the marsh's south, Draz'Zilb sends you against Onyxia's eggs. No more of her whelps should hatch. Onyxia's brood lies scattered through the Dragonmurk. Draz'Zilb urges you south to the Wyrmbog, where the ogre is sure Onyxia made her lair and scattered her eggs. Dragons nest in the land around Stonemaul Village, keeping the ogres from taking it back. So you are sent to find and destroy the eggs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1172-950ca6157465f75b1272/1-0000.mp3", duration = 35.9967347, start = 0},
+    {file = "Audio/Transport/full_quest_1172-4a7a18f60285573dee4e/1-0000.mp3", duration = 26.8277551, start = 0},
   },
 }
 P.transport["quest:1173"] = {
@@ -134,7 +134,7 @@ P.transport["quest:1173"] = {
   fullHash = "2f7dee",
   text = "Challenge Overlord Mok'Morokk. In Brackenwall Village, Overlord Mok'Morokk laughs at your challenge and vows to crush you. Draz'Zilb expected you to drive him from the village. After The Brood of Onyxia, you face Overlord Mok'Morokk. He laughs at your nerve and promises to crush you. Then he tells you to speak when you are ready for a beating. Draz'Zilb in Brackenwall Village expected you to chase Mok'Morokk from the village. Why have you returned only to talk?",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1173-6cc6b1f6ae8c680434bc/1-0000.mp3", duration = 42.2922449, start = 0},
+    {file = "Audio/Transport/full_quest_1173-dcee612a627502d0e4ba/1-0000.mp3", duration = 32.2873469, start = 0},
   },
 }
 P.transport["quest:1187"] = {
@@ -142,7 +142,7 @@ P.transport["quest:1187"] = {
   fullHash = "5404ff",
   text = "Razzeric's Tweaking. On the Shimmering Flats, Razzeric's Tweaking gives racers more power once Pozzik is done with them. A seaforium booster ordered from Shreev in Gadgetzan traveled by zeppelin, which Razzeric says crashed in Dustwallow Marsh. He wants the booster brought back. Pozzik is a fine mechanic, Razzeric says, but too cautious with firepower and too ready to hold back. Once Pozzik finishes with a racer, Razzeric loosens its controls, removes parts of its frame, and adds power. He ordered a seaforium booster from Shreev at the Gizmorium in Gadgetzan. Razzeric says the zeppelin carrying it crashed in Dustwallow Marsh. The booster belongs back on the Shimmering Flats. Facing the track without that extra kick would be a travesty.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1187-de1617f4402341e8e103/1-0000.mp3", duration = 43.9902041, start = 0},
+    {file = "Audio/Transport/full_quest_1187-16a8dfefb50fb76876c0/1-0000.mp3", duration = 50.7297959, start = 0},
   },
 }
 P.transport["quest:1188"] = {
@@ -150,7 +150,7 @@ P.transport["quest:1188"] = {
   fullHash = "d33262",
   text = "Safety First. Razzeric sends you south with a seaforium booster, bound for Shreev in Gadgetzan. Its safety is still on, though Razzeric asked for it to be removed. Razzeric finds the safety still on his seaforium booster. It limits the power the booster can deliver, though he had asked Shreev to remove it. So he gives you the booster and sends you south of the Shimmering Flats, into the Tanaris desert. Shreev can remove the safety at the Gadgetzan Gizmorium.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1188-6d2e4f23b5fb5ba55e42/1-0000.mp3", duration = 27.8726531, start = 0},
+    {file = "Audio/Transport/full_quest_1188-eaba745a88e480ec342d/1-0000.mp3", duration = 31.7126531, start = 0},
   },
 }
 P.transport["quest:1189"] = {
@@ -158,7 +158,7 @@ P.transport["quest:1189"] = {
   fullHash = "72c17e",
   text = "Safety First. On the Shimmering Flats, you carry Shreev’s modified seaforium booster back to Razzeric. Shreev warns that one slip while setting it off could leave Razzeric a scorch mark on the track. Shreev hands you the modified booster, prepared as Razzeric asked. He warns that Razzeric must take care when setting it off. One slip, and Razzeric will be a scorch mark on the track instead of racing ahead. Shreev says that would be a shame. Then he wonders whether the nineteenth driver would have been any good. Back on the Shimmering Flats, Razzeric grumbles that Pozzik loaded a bucket of sand onto his racer. How can he reach top speed with sand beneath the seat?",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1189-aca7ff429ca0b1d348ed/1-0000.mp3", duration = 38.1387755, start = 0},
+    {file = "Audio/Transport/full_quest_1189-65d35ac434e886dabdbd/1-0000.mp3", duration = 40.2808163, start = 0},
   },
 }
 P.transport["quest:1190"] = {
@@ -166,7 +166,7 @@ P.transport["quest:1190"] = {
   fullHash = "b0d8e3",
   text = "Keeping Pace. Pozzik suspects the Brassbolts brothers have found a new material for their cars. Their designs and run data are unchanged, yet the cars go faster. Rizzle Brassbolts keeps close to his plans, and Zamek can distract him so you can take them. This follows News for Fizzle. The Brassbolts brothers' cars have grown faster, and Pozzik can find only one explanation: a new building material. Their designs and the data from their runs remain unchanged. Rizzle Brassbolts has been absorbed in plans for this discovery almost constantly. Zamek can distract Rizzle while you take his plans. Pozzik is waiting for them on the Shimmering Flats.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1190-f322e77a097a7a5e5d4f/1-0000.mp3", duration = 38.7918367, start = 0},
+    {file = "Audio/Transport/full_quest_1190-060a9ea3fcc8bdc0f486/1-0000.mp3", duration = 40.3591837, start = 0},
   },
 }
 P.transport["quest:1191"] = {
@@ -174,7 +174,7 @@ P.transport["quest:1191"] = {
   fullHash = "04afec",
   text = "Zamek's Distraction. In Thousand Needles, Zamek's Distraction can draw Rizzle away while you work through Keeping Pace. You cannot finish Keeping Pace without it. While you work through Keeping Pace, Zamek draws Rizzle from his hut. The Indurium plans remain behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1191-cc71ddec0d0ba3bfea1c/1-0000.mp3", duration = 15.4383673, start = 0},
+    {file = "Audio/Transport/full_quest_1191-a2209c854bbc3af96208/1-0000.mp3", duration = 16.9534694, start = 0},
   },
 }
 P.transport["quest:1192"] = {
@@ -182,7 +182,7 @@ P.transport["quest:1192"] = {
   fullHash = "5fa4a2",
   text = "Indurium Ore. Pozzik needs Indurium Ore to build several parts for the racers. The ore lies at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants to keep pace. Pozzik asks you to bring him four pieces of raw Indurium Ore. You can find it at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants some too. This comes after Rizzle's Schematics.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1192-16bf126d003065d21dc0/1-0000.mp3", duration = 30.1191837, start = 0},
+    {file = "Audio/Transport/full_quest_1192-7c9829483d7a620cfed4/1-0000.mp3", duration = 33.8285714, start = 0},
   },
 }
 P.transport["quest:1194"] = {
@@ -190,7 +190,7 @@ P.transport["quest:1194"] = {
   fullHash = "a74e49",
   text = "Rizzle's Schematics. After Keeping Pace, you carry a raw indurium sample to Pozzik on the Shimmering Flats. Rizzle's plans lie beneath the ore, and his notes trace it to the dwarves' dig at Uldaman in the Badlands. They also describe how well indurium resists heat. Rizzle's plans explain how to refine indurium ore. Scrawled notes trace its source to the dwarves' dig at Uldaman in the Badlands. Other notes describe the ore's resistance to heat. A lump of raw indurium holds the plans down, and you take the sample to Pozzik.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1194-a59e0df688e25f4d43bc/1-0000.mp3", duration = 31.7910204, start = 0},
+    {file = "Audio/Transport/full_quest_1194-02076dfb963aca3f0de9/1-0000.mp3", duration = 33.9069388, start = 0},
   },
 }
 P.transport["quest:1252"] = {

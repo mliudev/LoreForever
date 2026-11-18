@@ -3853,6 +3853,7 @@ local handlers = {
     local id = b or a   -- classic passes (logIndex, questID), newer clients (questID)
     if type(id) ~= "number" then return end
     turnedIn[id] = nil   -- a repeatable quest taken again can be abandoned again
+    if ns.Strip and ns.Strip.QuestPage then ns.Strip.QuestPage(1, id) end   -- a prep list's live tick (LOR-1468)
     later(0.5, function()
       rememberTitles()
       local z, s = here()
@@ -3863,6 +3864,7 @@ local handlers = {
     if type(id) ~= "number" then return end
     turnIn = { id = id, at = try(GetTime) or 0 }
     turnedIn[id] = turnIn.at
+    if ns.Strip and ns.Strip.QuestPage then ns.Strip.QuestPage(2, id) end
     local z, s = here()
     add("qt", { id = id, q = questTitle(id), z = z, s = s, pt = party() })
     -- Whom you handed it to: your patrons (none for a quest finished without one).
@@ -3878,7 +3880,10 @@ local handlers = {
     local title = questTitle(id)
     local z, s = here()
     later(1, function()
-      if not turnedIn[id] then add("qx", { id = id, q = title, z = z, s = s }) end
+      if not turnedIn[id] then
+        add("qx", { id = id, q = title, z = z, s = s })
+        if ns.Strip and ns.Strip.QuestPage then ns.Strip.QuestPage(3, id) end
+      end
     end)
   end,
   QUEST_LOG_UPDATE = function()
@@ -3977,7 +3982,23 @@ local ALWAYS = { GOSSIP_SHOW = onGossip, ITEM_TEXT_BEGIN = true, ITEM_TEXT_READY
     if (success == 1 or success == true) and usable(name) then sayBoss(name, bossKey(name)) end
   end,
   -- And a journey picture is still taken, and the interface comes back (onShot records nothing then).
-  SCREENSHOT_SUCCEEDED = true, SCREENSHOT_FAILED = true, PLAYER_REGEN_DISABLED = true, PLAYER_REGEN_ENABLED = true }
+  SCREENSHOT_SUCCEEDED = true, SCREENSHOT_FAILED = true, PLAYER_REGEN_DISABLED = true, PLAYER_REGEN_ENABLED = true,
+  -- And a prep list still ticks live (Strip.QuestPage, LOR-1468): the quest's page goes, nothing is recorded.
+  QUEST_ACCEPTED = function(a, b)
+    local id = b or a
+    if type(id) ~= "number" then return end
+    turnedIn[id] = nil
+    ns.Strip.QuestPage(1, id)
+  end,
+  QUEST_TURNED_IN = function(id)
+    if type(id) ~= "number" then return end
+    turnedIn[id] = try(GetTime) or 0
+    ns.Strip.QuestPage(2, id)
+  end,
+  QUEST_REMOVED = function(id)
+    if type(id) ~= "number" then return end
+    later(1, function() if not turnedIn[id] then ns.Strip.QuestPage(3, id) end end)
+  end }
 
 local frame = CreateFrame("Frame")
 for event in pairs(handlers) do

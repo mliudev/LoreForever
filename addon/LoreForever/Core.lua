@@ -752,6 +752,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     C_Timer.After(2, arrive)
     pcall(ns.Voice.ArrivalSoon, 2)   -- (Willo hears an arrival story coming from now, not from arrive's settle: LOR-811)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
+    ns.Guard(ns.Strip.DoorCheck)   -- a dungeon's door: its prep list's Carry in things counted (LOR-1468)
     refreshSoon()
   elseif event == "QUEST_LOG_UPDATE" then
     ns.Hooks.RefreshQuests()

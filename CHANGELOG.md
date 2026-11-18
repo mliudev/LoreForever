@@ -7,6 +7,56 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.14.0 (2026-11-18)
+
+- Willo: two people sharing a PC now each keep their own chats. After you sign out, the next person to sign in
+  doesn't see yours.
+
+- **Look-ups she has already made come back at once:** on plans with look-ups, a question she's already looked up
+  comes back without the wait, with its pages and when she found it ("Looked up 3 days ago").
+
+- **Dungeon prep lists tick as you play:** with Live game info on, a quest on your list ticks the moment you take it up
+  or turn it in, and unticks if you abandon it.
+
+- Willo: Retry after a "Tick it off", "Make a prep list" or "Make a plan" press that failed now does the press again,
+  instead of answering the button's words as a question.
+
+- **Tick off your prep list when the run's done:** after a dungeon's last boss, Willo offers to tick off the prep list
+  you made for it, in one press, with Undo.
+
+- **Two asks in one breath:** on Champion and Legend, with "Just do it" chosen in Settings, ask her a question and ask
+  her to do something in the same breath ("where are the kobolds, and put 10 linen cloth on my list"), and she now does
+  it instead of sometimes saying she can't.
+
+- Willo: asked to turn "What I teach her can help other travellers" or "Let her remember on her own" on or off, she says
+  where you'll find the switch in Settings, instead of saying it's done.
+
+- Willo knows more about herself: why her sky sits beside your map when kept up, keeping Discord from hearing you
+  while you talk to her, a remade character's own journey, what PvP the add-on records, and sorting your bags.
+
+- Willo: asked to turn "What I teach her can help other travellers" or "Share where I am with friends" on or off, she opens the right card or asks to change your sharing, instead of flipping a different switch.
+
+- When Willo says to type /reload to see a new pin, the card under her answer says Pinned instead of On your map.
+
+- **Quest plans keep up with you:** steps tick themselves when you turn the quests in (the next time you /reload or log out), a step you
+  untick stays as you left it, "What's next?" gives just the next step and where it is, and "Read me the plan" reads
+  it back. A chain you already have a plan for shows "Show plan" instead of "Make a plan".
+
+- **Pin a plan's steps (Champion and Legend):** each step of a quest plan that has a place shows a pin mark, in her
+  chat and in Notes. Press it and Willo pins that step on your map.
+
+- **Willo makes quest plans (Champion and Legend):** ask how to do a quest chain and she answers in a few words, with
+  every step kept as a plan in your Notes. Asked again, the same plan comes back up to date.
+
+- Willo: asked for a reminder without saying what it's for, she now asks "What should I remind you about?" instead of saving one with made-up words, and your answer sets it for the moment you asked.
+
+- **Lists from what Willo looks up:** on Champion and Legend, ask her for a checklist or a note of something she has to
+  look up first (a class's talent build, say), and she can now write it in your notes. Before, she said she would and
+  then couldn't.
+
+- Typed questions now know where you were and your level the last time Willo saw your game, instead of going by your
+  last save, which could be hours and levels old.
+
 ## 1.13.0 (2026-11-17)
 
 - Found counts only the quests your character can take: each zone now holds its own new quests, and quests for the
