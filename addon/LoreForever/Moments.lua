@@ -43,13 +43,18 @@ local RANK = Moments.RANK
 local SMALL = { turnin = true, blue = true, zone = true }     -- with Chime in "Small ones too" only
 local SETTLE = 180                               -- a first zone: said once they've been there this long, or took a quest
 -- Each dungeon's last boss, by the name its kill is recorded under (the design: "a dungeon finished"). The lore lists a
--- dungeon's bosses in no set order (Cookie comes after VanCleef), so the last one is named.
+-- dungeon's bosses in no set order (Cookie comes after VanCleef), so the last one is named: the one list,
+-- data/end-bosses.json, which the site and Willo read too (LOR-1468).
 local FINAL = {}
-for _, n in ipairs({ "Edwin VanCleef", "Mutanus the Devourer", "Archmage Arugal", "Aku'mai", "Bazil Thredd",
-  "Mekgineer Thermaplugg", "Charlga Razorflank", "Taragaman the Hungerer", "Durgen Dirgehammer", "Rath'mael",
-  "Amnennar the Coldbringer", "Archaedas", "Chief Ukorz Sandscalp", "Princess Theradras", "Shade of Eranikus",
-  "Emperor Dagran Thaurissan", "Overlord Wyrmthalak", "General Drakkisath", "Darkmaster Gandling", "Baron Rivendare",
-  "High Inquisitor Whitemane", "Herod", "Arcanist Doan", "Bloodmage Thalnos" }) do FINAL[n:lower()] = true end
+-- generated: end bosses (scripts/end_bosses.py)
+for _, n in ipairs({ "Archmage Arugal", "Bazil Thredd", "Edwin VanCleef", "Mutanus the Devourer",
+  "Charlga Razorflank", "Aku'mai", "Archaedas", "Mekgineer Thermaplugg", "Shade of Eranikus",
+  "Amnennar the Coldbringer", "High Inquisitor Whitemane", "Herod", "Arcanist Doan", "Bloodmage Thalnos",
+  "Chief Ukorz Sandscalp", "Overlord Wyrmthalak", "General Drakkisath", "Emperor Dagran Thaurissan",
+  "Darkmaster Gandling", "Baron Rivendare", "Balnazzar", "Princess Theradras", "Taragaman the Hungerer",
+  "Alzzin the Wildshaper", "Prince Tortheldrin", "King Gordok", "Shade of the Archmage", "Relic Guardian",
+  "Rath'mael", "Durgen Dirgehammer" }) do FINAL[n:lower()] = true end
+-- end generated
 local GAP, HOUR_MAX = 180, 6                     -- seconds between two; how many an hour
 -- Seconds one may wait (a level, a rough patch: LONG_HOLD). Time spent waiting for a narration doesn't count: it
 -- waits for the queue's first gap, up to LONG_HOLD in all (cleanup 11/15, item 7; LOR-1412). With quest voices on and

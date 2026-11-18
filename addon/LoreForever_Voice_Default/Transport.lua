@@ -6,7 +6,7 @@ P.transport["npc:agathelos-the-raging"] = {
   fullHash = "144ea9",
   text = "Agathelos the Raging. Deep within Razorfen Kraul, Agathelos the Raging is held among the thorned tunnels. The quilboar revere Agamaggan as their god and progenitor, and Agathelos’s great size carries spiritual meaning. His armor and fury make him one of the most dangerous beasts beneath the southern Barrens. Agamaggan, the titanic boar, is god and progenitor to the quilboar. So among the Razorfen tribes, a beast as large as Agathelos carries deep spiritual meaning. He stands roughly twice as tall as a Barrens thunder lizard. The quilboar keep Agathelos from roaming freely through the Kraul. Several guards maintain a field before the short, dead-end tunnel where he is penned. Intruders who break through that barrier face a raging beast, made more fearsome still by his fury.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_agathelos-the-raging-d1f3172cf2f175ecfd8e/1-0000.mp3", duration = 47.6212245, start = 0},
+    {file = "Audio/Transport/full_npc_agathelos-the-raging-a3304db1148728597754/1-0000.mp3", duration = 59.6897959, start = 0},
   },
 }
 P.transport["npc:aggem-thorncurse"] = {
@@ -14,7 +14,7 @@ P.transport["npc:aggem-thorncurse"] = {
   fullHash = "520730",
   text = "Aggem Thorncurse. In Razorfen Kraul, Aggem Thorncurse bears the title Death's Head Prophet. When threatened, he calls a boar spirit to his aid. Aggem guards part of Razorfen Kraul, where the Death's Head tribe dwells. His shamanic power lets him call a boar spirit into battle. The spirit reflects the quilboar's reverence for Agamaggan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_aggem-thorncurse-a62a868b53599cb854fb/1-0000.mp3", duration = 21.6555102, start = 0},
+    {file = "Audio/Transport/full_npc_aggem-thorncurse-82836a1eae02f6c4fc0d/1-0000.mp3", duration = 23.562449, start = 0},
   },
 }
 P.transport["npc:aku-mai"] = {
@@ -22,7 +22,7 @@ P.transport["npc:aku-mai"] = {
   fullHash = "ef0c18",
   text = "Aku'mai. At Blackfathom Deeps, Aku'mai haunts the sunken temple of Elune along the Zoram Strand. An Old God's corruption tainted its sacred Moon Well, and Aku'mai rose from the waters as the Old God's servant. The Twilight's Hammer sacrifices innocents to Aku'mai for power. Blackfathom Deeps was once a great temple of Elune. Then an Old God's corruption tainted its sacred Moon Well, and Aku'mai rose from the waters. The gargantuan hydra serves the Old God. Now Aku'mai lairs in the drowned ruins of the night elves' temple, poisoning the waters along the Zoram Strand with its malice.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_aku-mai-c49b7ed4484885eb93b8/1-0000.mp3", duration = 45.6881633, start = 0},
+    {file = "Audio/Transport/full_npc_aku-mai-df17356542173db3f28d/1-0000.mp3", duration = 46.3412245, start = 0},
   },
 }
 P.transport["npc:arcanist-doan"] = {
@@ -30,7 +30,7 @@ P.transport["npc:arcanist-doan"] = {
   fullHash = "4aad1b",
   text = "Arcanist Doan. Within the Scarlet Monastery, Arcanist Doan guards the Athenaeum and its archives. A master human mage, he brings deadly arcane skill to the Scarlet Crusade. The Scarlet Crusade trusts martial fury and holy fervor. Doan believes arcane power is vital to driving the Scourge from Lordaeron. Deep in the Monastery's library, he keeps its lore and guards the Scarlet Key. That key secures Crusade sanctuaries across the northern kingdoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_arcanist-doan-0b9426e26bd6115ba6ad/1-0000.mp3", duration = 27.637551, start = 0},
+    {file = "Audio/Transport/full_npc_arcanist-doan-6ad7f369a6c15a71131c/1-0000.mp3", duration = 31.1902041, start = 0},
   },
 }
 P.transport["npc:baron-aquanis"] = {
@@ -38,7 +38,7 @@ P.transport["npc:baron-aquanis"] = {
   fullHash = "9f9f9b",
   text = "Baron Aquanis. In the flooded Moonshrine Ruins of Blackfathom Deeps, Baron Aquanis rises from the depths when the Fathom Stone is disturbed. The Twilight's Hammer cultists occupy the ruins, and the Earthen Ring suspects the baron has been corrupted. Beneath the flooded halls of the Moonshrine Ruins lies the Fathom Stone, surrounded by Twilight's Hammer cultists. A fathom core rests within it. Read properly, the device reveals the history of nearby elemental activity. Je'neu Sancrea of the Earthen Ring sends Horde adventurers to recover it. Disturb the stone, and Baron Aquanis rises from the depths.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baron-aquanis-84de23f8ad9b0b7180fb/1-0000.mp3", duration = 53.9428571, start = 0},
+    {file = "Audio/Transport/full_npc_baron-aquanis-87272195650ac467707f/1-0000.mp3", duration = 46.8114286, start = 0},
   },
 }
 P.transport["npc:baron-silverlaine"] = {
@@ -46,7 +46,7 @@ P.transport["npc:baron-silverlaine"] = {
   fullHash = "7404d7",
   text = "Baron Silverlaine. In the Great Hall above Pyrewood Village, Baron Silverlaine's spirit still lingers. He ruled Silverlaine Keep until Archmage Arugal unleashed worgen upon the region, and they slaughtered him. Baron Silverlaine ruled a noble estate in the southern hills of Silverpine. His fortress guarded the lands around it and kept them safe. Then Archmage Arugal summoned worgen to fight the rampaging Scourge and unleashed them upon the region. The feral beasts could not be controlled. They stormed the stronghold, overwhelmed its guards, and butchered the baron. Baron Silverlaine remains bound to the keep's ancient Great Hall. His restless ghost wanders among the wrecked dining tables where he once feasted. The cursed lord attacks intruders who enter his former home.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baron-silverlaine-662071b9289beac5b4e8/1-0000.mp3", duration = 46.3673469, start = 0},
+    {file = "Audio/Transport/full_npc_baron-silverlaine-c8312d522f9a05937ead/1-0000.mp3", duration = 52.7412245, start = 0},
   },
 }
 P.transport["npc:bazil-thredd"] = {
@@ -54,7 +54,7 @@ P.transport["npc:bazil-thredd"] = {
   fullHash = "152fd5",
   text = "Bazil Thredd. In the eastern cell block, Bazil Thredd leads the Defias inmates in revolt. Edwin VanCleef's lieutenant has been held in the Stormwind Stockade since the Stonemasons' riots. Bazil Thredd stood beside Edwin VanCleef when the Stonemasons Guild rose against Stormwind's nobility. The guild had been denied payment for rebuilding the city, and VanCleef rejected the government's attempts to appease them. Open revolt followed.\n\nThredd served as his chief lieutenant and most trusted assistant. The city guard captured Thredd in the clashes that followed. VanCleef and the surviving masons fled to Westfall and formed the Defias Brotherhood. Thredd was sent to the Stormwind Stockade. A prison riot has overwhelmed the guards and opened the cells. Now the Stockade is an armed fortress beneath the Mage Quarter. Thredd commands the imprisoned Defias bandits, insurgents, and allied cutthroats from a post in the eastern wing. An ogre named Hamhock guards him. For years Thredd stayed silent behind bars, seemingly forsaken. Now Warden Thelwater wants him dead, hoping to break the rebellion's leadership before the chaos reaches the city streets.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bazil-thredd-6e2440b718d8dc06fc8b/1-0000.mp3", duration = 69.4595918, start = 0},
+    {file = "Audio/Transport/full_npc_bazil-thredd-4d5fbb0981fd5639006a/1-0000.mp3", duration = 77.6881633, start = 0},
   },
 }
 P.transport["npc:bazzalan"] = {
@@ -62,7 +62,7 @@ P.transport["npc:bazzalan"] = {
   fullHash = "b5a735",
   text = "Bazzalan. Beneath Orgrimmar, Bazzalan directs the Searing Blade cult's work in Ragefire Chasm. He shares its leadership with Jergosh the Invoker. Bazzalan commands the Searing Blade's field forces in the lava caverns beneath Orgrimmar. While Thrall works to establish the Orcs' new home across Durotar, the satyr rogue moves through the winding caverns with twin blades, swift and lethal. From a volcanic ledge above the central chamber, Bazzalan watches over the cultist guards. Below him, Jergosh the Invoker conducts demonic rituals. Like all satyrs, Bazzalan's deepest loyalty belongs to demonic masters. He uses poison, quick strikes, and stealth against Horde scouts who venture near the cult's staging ground.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bazzalan-a34e51a026bf8456a79a/1-0000.mp3", duration = 44.9306122, start = 0},
+    {file = "Audio/Transport/full_npc_bazzalan-162e87819330f2c68a6c/1-0000.mp3", duration = 49.3714286, start = 0},
   },
 }
 P.transport["npc:blind-hunter"] = {
@@ -70,7 +70,7 @@ P.transport["npc:blind-hunter"] = {
   fullHash = "43819d",
   text = "Blind Hunter. In the deepest reaches of Razorfen Kraul, the Blind Hunter roosts beyond the common bats. This pale albino bat prowls the quilboar redoubt, far from the cavern entrances. Razorfen Kraul winds through briars and dark caverns below ground. Common bats roost nearer the surface, where faint light reaches from outside. The Blind Hunter keeps to the furthest, darkest alcoves of the tangle. Its pale hide and milky gaze may come from generations spent apart from natural sunlight. The Blind Hunter is thought to have lost most or all of its ordinary sight. Scholars and scouts believe it tracks prey in the gloom with keen hearing and echolocation. It appears rarely, hunting only now and then among the dense thickets. For cavern explorers, a sighting of this phantom beast is rare.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_blind-hunter-62e67ef3f0a5fac50729/1-0000.mp3", duration = 46.4195918, start = 0},
+    {file = "Audio/Transport/full_npc_blind-hunter-14d736cde5efc6712c3a/1-0000.mp3", duration = 51.4873469, start = 0},
   },
 }
 P.transport["npc:bloodmage-thalnos"] = {
@@ -78,7 +78,7 @@ P.transport["npc:bloodmage-thalnos"] = {
   fullHash = "cc0e01",
   text = "Bloodmage Thalnos. In the Scarlet Monastery's Graveyard, Bloodmage Thalnos haunts the tombs, hungry for vengeance. The plague of undeath claimed him, and he remains deep within the Crusade's holy grounds. No record tells who Thalnos was in life. The plague of undeath claimed him, and he rose as a withered skeleton. Still, he clings to fiery magic and arcane mastery. He cries out for vengeance and more souls. From the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions. He attacks anyone who disturbs his domain. Beneath the Crusade's sacred halls, his presence is a bitter contradiction. He embodies the horror they swore to eradicate.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bloodmage-thalnos-b36b3deddc32a51e8b6d/1-0000.mp3", duration = 43.9118367, start = 0},
+    {file = "Audio/Transport/full_npc_bloodmage-thalnos-3e645cc35c864ea36e0d/1-0000.mp3", duration = 49.3714286, start = 0},
   },
 }
 P.transport["npc:bruegal-ironknuckle"] = {
@@ -86,7 +86,7 @@ P.transport["npc:bruegal-ironknuckle"] = {
   fullHash = "d9e771",
   text = "Bruegal Ironknuckle. In the Stormwind Stockade, Bruegal Ironknuckle prowls the halls during an open revolt. The dangerous dwarf is a powerful brawler, and anyone trying to restore order may face his fists. Bruegal Ironknuckle prowls the Stormwind Stockade during its open revolt. The dwarf is known for his brutal strength in a brawl. Many of the city's most volatile cutthroats have seized the underground cellblocks, and Bruegal is among them. He leaves his cell and roams the halls, ready to bash anyone trying to quell the uprising. Bruegal Ironknuckle is among the rogues and outlaws held deep beneath Stormwind. The Defias Brotherhood and its ringleaders direct much of the revolt, while inmates like Bruegal show that the prison holds criminals from across the eastern realms. No record here tells what crimes brought him there. His fierce resilience makes him elusive and one of the deadliest lone inmates in the corridors.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bruegal-ironknuckle-08177952ca35ed75683a/1-0000.mp3", duration = 52.5844898, start = 0},
+    {file = "Audio/Transport/full_npc_bruegal-ironknuckle-fce56a3188520162a72d/1-0000.mp3", duration = 64.8359184, start = 0},
   },
 }
 P.transport["npc:captain-greenskin"] = {
@@ -94,7 +94,7 @@ P.transport["npc:captain-greenskin"] = {
   fullHash = "3f3e66",
   text = "Captain Greenskin. In the Deadmines cove, Captain Greenskin readies a warship for Edwin VanCleef. The goblin pirate directs its crew and construction for the Defias Brotherhood, preparing the ironclad juggernaut to sail against Stormwind. Captain Greenskin paces the main deck of the juggernaut under construction in the Deadmines cove. A seasoned goblin mariner, he joined Edwin VanCleef's inner circle to turn an underground cavern into a drydock for a warship. Captain Greenskin commands cutthroats, not stonemasons or bandits. His crew includes Mr. Smite, his fearsome tauren first mate, and Cookie, the murloc ship's cook. Together, they hold the gangplanks and upper deck, guarding the way to VanCleef's private cabin atop the bridge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_captain-greenskin-43438b7a3d661b7d0d4c/1-0000.mp3", duration = 57.5477551, start = 0},
+    {file = "Audio/Transport/full_npc_captain-greenskin-6aabb8f414f7eb5a04f8/1-0000.mp3", duration = 50.4685714, start = 0},
   },
 }
 P.transport["npc:charlga-razorflank"] = {
@@ -102,7 +102,7 @@ P.transport["npc:charlga-razorflank"] = {
   fullHash = "94d02e",
   text = "Charlga Razorflank. In Razorfen Kraul, Charlga Razorflank leads the Razorfen quilboar. They drove the tauren from the southern Barrens, claiming to fight for their fallen god, Agamaggan. Charlga Razorflank rules from the tangled brambles of Razorfen Kraul. Her people honor her as a master geomancer, and none among the quilboar can equal her experimental magic. She bound her fractious kin into a deadly force. With primal earth and giant thorns grown from the remains of Agamaggan, the fallen demigod, Charlga shaped the Kraul into a fortress few can enter.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_charlga-razorflank-82478a530f2a2266f1b7/1-0000.mp3", duration = 36.0489796, start = 0},
+    {file = "Audio/Transport/full_npc_charlga-razorflank-a545345cfb089cf92528/1-0000.mp3", duration = 37.2767347, start = 0},
   },
 }
 P.transport["npc:commander-springvale"] = {
@@ -110,7 +110,7 @@ P.transport["npc:commander-springvale"] = {
   fullHash = "085e7a",
   text = "Commander Springvale. At Shadowfang Keep, Commander Springvale's spirit still guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and now haunts the castle. Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep fell into ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he kept watch over the fortress through those troubled days. Archmage Arugal summoned worgen from beyond this world to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short. Death did not release Springvale. His ghost haunts the keep's council room alongside spectral soldiers. He still wields paladin powers against intruders, including Holy Light and Hammer of Justice.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_commander-springvale-971b7aaa6759f94f153f/1-0000.mp3", duration = 61.8057143, start = 0},
+    {file = "Audio/Transport/full_npc_commander-springvale-a87e637ebb29926f5954/1-0000.mp3", duration = 68.1534694, start = 0},
   },
 }
 P.transport["npc:cookie"] = {
@@ -118,7 +118,7 @@ P.transport["npc:cookie"] = {
   fullHash = "9a967c",
   text = "Cookie. Beneath the juggernaut in the Deadmines, Cookie tends the crew's cauldrons. A murloc in the Defias Brotherhood, he cooks under Captain Greenskin and Edwin VanCleef. In the underground dry dock, his post is the only one a visitor may pass by. Cookie cooks beneath the decks of the juggernaut at Ironclad Cove. No human outrider or goblin engineer takes the duty; the solitary murloc does. No one knows how he came to hold the post. The crew may doubt a murloc's cooking, but pirates rarely choose their meals with care. In Moonbrook's underworld, a meal is a meal. Cookie patrols the waterways and shores around the pirate flagship. He fights with cooking utensils and throws acidic brews. Though apart from typical murloc tribes, he defends his cauldron with savage force, hurling caustic mixtures at intruders in the docks. His station lies away from the main gangplanks, so many who storm the cove pass his kitchen by. Cookie is the only overseer aboard the Defias juggernaut who can be bypassed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_cookie-62f9dc1db48e6dd5f7fc/1-0000.mp3", duration = 77.2702041, start = 0},
+    {file = "Audio/Transport/full_npc_cookie-44008ea9df947cbe3f2c/1-0000.mp3", duration = 63.764898, start = 0},
   },
 }
 P.transport["npc:dark-iron-ambassador"] = {
@@ -126,7 +126,7 @@ P.transport["npc:dark-iron-ambassador"] = {
   fullHash = "e11f56",
   text = "Dark Iron Ambassador. Deep in Gnomeregan, the Dark Iron Ambassador moves among the ruined halls as an envoy of his clan. Why the clan has come to the fallen gnome capital remains unclear. In Gnomeregan’s irradiated halls, the Dark Iron Ambassador speaks for his clan. The purpose of his mission is unknown.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dark-iron-ambassador-b3f3f73e2593d4309f35/1-0000.mp3", duration = 19.0432653, start = 0},
+    {file = "Audio/Transport/full_npc_dark-iron-ambassador-92233f5b6b6a7f3d2e36/1-0000.mp3", duration = 23.275102, start = 0},
   },
 }
 P.transport["npc:dextren-ward"] = {
@@ -134,7 +134,7 @@ P.transport["npc:dextren-ward"] = {
   fullHash = "49880a",
   text = "Dextren Ward. In the Stormwind Stockade, Dextren Ward remains a prisoner during a bloody uprising. Before his capture, he dug up bodies at Raven Hill Cemetery in Duskwood and sold them to the necromancer Morbent Fel. Darkshire's town council has marked him for death. Before chains bound him beneath Stormwind, Dextren Ward robbed graves in Duskwood for profit. At Raven Hill Cemetery, he dug up the newly buried dead. He sold the bodies to local practitioners of dark arts. Morbent Fel, a necromancer, was Ward's main customer. His rituals plagued Duskwood and swelled the undead ranks. By supplying him with bodies, Ward helped spread terror through Darkshire.\n\nStormwind authorities eventually captured Ward and brought him to the Stockade. The people of Duskwood demanded justice for his crimes. Councilman Millstipe called for Ward's hand as proof. A rebellion swept through the Stockade, and Ward was freed from his cell in the chaos. Armed and vicious, he seized control of his corner of the prison. Now he uses fear to keep intruders away. Alliance forces seeking to restore order count him among their priority targets.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dextren-ward-57592e6b9adb48c80b47/1-0000.mp3", duration = 71.915102, start = 0},
+    {file = "Audio/Transport/full_npc_dextren-ward-34bf91300f81475b0c8a/1-0000.mp3", duration = 79.7257143, start = 0},
   },
 }
 P.transport["npc:edwin-vancleef"] = {
@@ -142,7 +142,7 @@ P.transport["npc:edwin-vancleef"] = {
   fullHash = "3cf326",
   text = "Edwin VanCleef. In the Deadmines, Edwin VanCleef commands the Defias Brotherhood. He once led the Stonemasons who rebuilt Stormwind City after the Second War. The House of Nobles denied the workers their promised pay, and VanCleef now seeks vengeance against the kingdom he helped restore. Edwin VanCleef led the Stonemasons Guild in rebuilding Stormwind City after the First War. A peerless craftsman and idealist, he mastered architecture and directed the work on the capital's grand ramparts and towering cathedrals. His childhood friend Mathias Shaw taught him stealth, subterfuge, thievery, and bladecraft. VanCleef became a deadly operative as well as a master architect. After years of labor, the Stonemasons finished rebuilding Stormwind. The House of Nobles had run up great debts through military campaigns and refused the guild its promised pay. VanCleef demanded restitution, but the nobles dissolved the guild.\n\nHe led the workers in a riot and out of the city. In the chaos, his lieutenant and most trusted assistant, Bazil Thredd, was captured and left in the Stockade. In Westfall, VanCleef gathered the exiled workers and allied outcasts beneath the Defias Brotherhood's banner.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_edwin-vancleef-a89122cf4555311aec82/1-0000.mp3", duration = 109.035102, start = 0},
+    {file = "Audio/Transport/full_npc_edwin-vancleef-749b43649a78fa4c2a33/1-0000.mp3", duration = 90.4097959, start = 0},
   },
 }
 P.transport["npc:electrocutioner-6000"] = {
@@ -150,7 +150,7 @@ P.transport["npc:electrocutioner-6000"] = {
   fullHash = "beffc7",
   text = "Electrocutioner 6000. In Gnomeregan's Launch Bay, Electrocutioner 6000 guards the upper platform. The spider tank fights for Mekgineer Thermaplugg and the irradiated leper gnomes who follow him. After Gnomeregan fell, Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of the city's war machines. Electrocutioner 6000 guards the Launch Bay's upper platform. It strikes intruders with high-voltage current. Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key gives you a quicker route into the city's depths.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_electrocutioner-6000-6cc791c4c66e1eeac590/1-0000.mp3", duration = 39.9934694, start = 0},
+    {file = "Audio/Transport/full_npc_electrocutioner-6000-626dee5d2d1518990eb6/1-0000.mp3", duration = 40.7510204, start = 0},
   },
 }
 P.transport["npc:fenrus-the-devourer"] = {
@@ -158,7 +158,7 @@ P.transport["npc:fenrus-the-devourer"] = {
   fullHash = "a6d01d",
   text = "Fenrus the Devourer. In Shadowfang Keep, Fenrus the Devourer guards Archmage Arugal's upper sanctum. The enormous worg is the archmage's pet, swollen by unnatural magic. Anyone seeking Arugal's study must face beast and master. Fenrus the Devourer prowls outside Archmage Arugal's private chambers, deep within Shadowfang Keep. The worg is no rampart worgen. Swollen to enormous size, Fenrus stalks among the shelves, scrolls, and arcane tools in Arugal's study. The archmage keeps the beast as both pet and guard against anyone who comes seeking his head. Dark magic has saturated Shadowfang Keep since Baron Silverlaine's downfall, and Fenrus bears its mark. Archmage Arugal or his unleashed worgen warped the native predator through arcane or shadowy experiments. Now Fenrus is a ravenous juggernaut, so feral and bound by magic that no hunter can charm or tame him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_fenrus-the-devourer-cfb901e4951d263960b6/1-0000.mp3", duration = 56.0326531, start = 0},
+    {file = "Audio/Transport/full_npc_fenrus-the-devourer-5a8e8c2584d4d53da405/1-0000.mp3", duration = 61.44, start = 0},
   },
 }
 P.transport["npc:gelihast"] = {
@@ -166,7 +166,7 @@ P.transport["npc:gelihast"] = {
   fullHash = "64ac62",
   text = "Gelihast. Within Blackfathom Deeps, Gelihast guards an altar in the flooded Pool of Ask'ar. His Blindlight murlocs gather around him in the sunken temple. Deep beneath the Zoram Strand, Gelihast has made his lair in Blackfathom Deeps. Most murlocs keep to the coastal shallows, but he strikes intruders with twin swords. He moves too quickly for many to react, and casters who come within his reach rarely survive. Gelihast rules the Pool of Ask'ar with his Blindlight brood. At the first sign of trouble, they swarm to his side. Beyond his lair stands an altar. Those who defeat him and touch it receive the Blessing of Blackfathom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gelihast-dac60117d188898899a7/1-0000.mp3", duration = 53.76, start = 0},
+    {file = "Audio/Transport/full_npc_gelihast-2094f4db2a267db9c9c6/1-0000.mp3", duration = 41.1428571, start = 0},
   },
 }
 P.transport["npc:ghamoo-ra-classic"] = {
@@ -174,7 +174,7 @@ P.transport["npc:ghamoo-ra-classic"] = {
   fullHash = "13f054",
   text = "Ghamoo-ra. In Blackfathom Deeps, Ghamoo-ra guards a small island in the Pool of Ask'ar. The ancient giant turtle tramples anyone who draws near. Blackfathom Deeps was once a night elven temple to Elune. Now flooded, its ruins belong to naga, satyr, and the nihilistic Twilight's Hammer cult. Ghamoo-ra dwells among them, his enormous, thick shell turning aside all but the strongest blows. Lesser turtles gather around Ghamoo-ra on a small island in the Pool of Ask'ar, yet they leave travelers alone. Ghamoo-ra attacks anyone who comes near. Beneath his trampling bulk, they are crushed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ghamoo-ra-classic-e9cb6c393dd11d9677df/1-0000.mp3", duration = 50.155102, start = 0},
+    {file = "Audio/Transport/full_npc_ghamoo-ra-classic-11031b646759b1121ac1/1-0000.mp3", duration = 47.0465306, start = 0},
   },
 }
 P.transport["npc:gilnid"] = {
@@ -182,7 +182,7 @@ P.transport["npc:gilnid"] = {
   fullHash = "9b4adb",
   text = "Gilnid. Deep in the Deadmines, Gilnid directs the Defias Brotherhood's goblin forges. Known as the Smelter, he oversees the work that turns raw ore into refined metal and munitions for Edwin VanCleef's hidden ironclad juggernaut. His foundry produces the heavy cannons the Brotherhood needs to strike Stormwind. Deep in the Deadmines, the Defias Brotherhood relies on the foundry for weapons of war. Gilnid, VanCleef's head smelter, commands goblin laborers, tinkers, and smiths there. Taller than most of his kin, he drives them through smoke and slag, barking orders and allowing no breaks. Their work turns raw iron ore into heavy plating and deadly ordnance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gilnid-141ab0caf855c964992e/1-0000.mp3", duration = 52.6628571, start = 0},
+    {file = "Audio/Transport/full_npc_gilnid-312de844d04d0032aff9/1-0000.mp3", duration = 44.1469388, start = 0},
   },
 }
 P.transport["npc:hamhock"] = {
@@ -190,7 +190,7 @@ P.transport["npc:hamhock"] = {
   fullHash = "e40e55",
   text = "Hamhock. In the Stormwind Stockade, Hamhock remains among the rioting prisoners. The massive two-headed ogre is one of the prison’s most brutal inmates. Hamhock is a towering two-headed ogre held in the Stormwind Stockade. The prison was built for petty thieves, murderers, and political dissidents. So his size makes him a fearsome presence among the cells. When prisoners seized control, Hamhock remained amid the disorder and crushed anyone who entered his cellblock. No record tells how Hamhock was captured or why he was locked among Stormwind’s thieves and dissidents. Whatever brought him to the Stockade, he is now one of its most dangerous inmates.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hamhock-fb2cdadfa01acb5abaeb/1-0000.mp3", duration = 39.1836735, start = 0},
+    {file = "Audio/Transport/full_npc_hamhock-f9c07d8ac92acf5d2812/1-0000.mp3", duration = 45.5053061, start = 0},
   },
 }
 P.transport["npc:herod"] = {
@@ -198,7 +198,7 @@ P.transport["npc:herod"] = {
   fullHash = "742f25",
   text = "Herod. In the Scarlet Monastery's Armory, Herod trains the Crusade's melee fighters. A renowned champion, he commands the Armory and wages the Crusade's holy war with fierce skill and zeal. Alliance dissidents and the Horde's rulers in Undercity seek his death to weaken the order. Herod commands the Armory within the Scarlet Monastery. Unlike the spellcasters and paladins in the Cathedral, he relies on physical strength. Clad in mail and bearing a massive two-handed axe, he trains cohorts of Scarlet Trainees. He teaches them to fight with fury and destroy anyone beyond the Crusade's cause. Herod oversees the weapons and combat training of the Crusade's front-line warriors. Raleigh the Devout, an ex-Crusader disillusioned with the order's madness, lives in Southshore and calls for Herod's death to break its military leadership. In the Undercity, the dreadlord Varimathras also seeks Herod's execution. He wants the dangerous human stronghold cleared from the border of Forsaken territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_herod-2a32f82640b2db850fde/1-0000.mp3", duration = 60.6563265, start = 0},
+    {file = "Audio/Transport/full_npc_herod-a9e02c36afba7314c193/1-0000.mp3", duration = 71.0269388, start = 0},
   },
 }
 P.transport["npc:high-inquisitor-fairbanks"] = {
@@ -206,7 +206,7 @@ P.transport["npc:high-inquisitor-fairbanks"] = {
   fullHash = "f63e74",
   text = "High Inquisitor Fairbanks. In the Scarlet Crusade, High Inquisitor Fairbanks's fate remains bound to the order's dark descent. Before Lordaeron fell, he was a revered priest and a trusted advisor to Highlord Alexandros Mograine. Before Lordaeron fell, Fairbanks was a respected priest of the Knights of the Silver Hand. Highlord Alexandros Mograine trusted him above all others. Mograine bore the Ashbringer. Fairbanks stood beside Mograine, High General Abbendis and Grand Inquisitor Isillien when they founded the Scarlet Crusade, an order sworn to destroy the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-inquisitor-fairbanks-c08a621d52de51b4494a/1-0000.mp3", duration = 34.1159184, start = 0},
+    {file = "Audio/Transport/full_npc_high-inquisitor-fairbanks-d77e9295646dad27d4a8/1-0000.mp3", duration = 37.1722449, start = 0},
   },
 }
 P.transport["npc:houndmaster-loksey"] = {
@@ -214,7 +214,7 @@ P.transport["npc:houndmaster-loksey"] = {
   fullHash = "e31d7a",
   text = "Houndmaster Loksey. In the Scarlet Monastery's Library wing, Houndmaster Loksey keeps the Crusade's war dogs ready. He breeds and trains them to hunt undead, intruders, and those the Crusade judges heretics. His harsh discipline has made the Monastery's beasts feared across Tirisfal Glades. Houndmaster Loksey trains vicious dogs to track and attack. The Scarlet Crusade sends them to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down survivors fleeing the zealots' wrath. Loksey commands the hounds guarding the Library wing. They stand ready to tear intruders limb from limb. Loksey's brother, Huntsman Leopold, serves the Scarlet Crusade as its envoy to the Argent Dawn at Light's Hope Chapel. In private, Leopold thinks Loksey can barely manage his hounds, let alone handle high-stakes diplomacy. Yet Loksey remains a key officer in the Monastery's inner hierarchy.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_houndmaster-loksey-d5bfa65c7ac17df606e2/1-0000.mp3", duration = 55.9804082, start = 0},
+    {file = "Audio/Transport/full_npc_houndmaster-loksey-56279a6ed44efd18e49b/1-0000.mp3", duration = 62.3542857, start = 0},
   },
 }
 P.transport["npc:interrogator-vishas"] = {
@@ -222,7 +222,7 @@ P.transport["npc:interrogator-vishas"] = {
   fullHash = "18ace5",
   text = "Interrogator Vishas. Deep in the Scarlet Monastery, Interrogator Vishas has captives at his mercy. The Scarlet Crusade’s master of torment takes pleasure in breaking prisoners and testing mortal flesh. In the Scarlet Monastery’s crypts and burial grounds, Interrogator Vishas tends the Crusade’s captives. Outside, zealots march in gleaming armor beneath banners of purity. Inside, Vishas reveals the cruelty behind their righteous fury.\n\nInterrogation serves the Crusade’s need for intelligence, and Vishas prizes it as a craft. He revels in the agony of Forsaken captives, captured Scourge, and living travelers branded heretics.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_interrogator-vishas-950bbd074a8eb140d822/1-0000.mp3", duration = 40.3069388, start = 0},
+    {file = "Audio/Transport/full_npc_interrogator-vishas-d7e6c0255597ba542e20/1-0000.mp3", duration = 50.9126531, start = 0},
   },
 }
 P.transport["npc:jergosh-the-invoker"] = {
@@ -230,7 +230,7 @@ P.transport["npc:jergosh-the-invoker"] = {
   fullHash = "0b521c",
   text = "Jergosh the Invoker. Beneath Orgrimmar, Jergosh the Invoker leads a cult against the Horde. In Ragefire Chasm, he turns to demonic arts while Thrall guides the orcs toward honor and shamanism. Jergosh gathers the Searing Blade beneath Orgrimmar. Thrall leads the orcs toward honor and shamanism, but Jergosh turns to demonic power. In Ragefire Chasm, he draws followers into a sect aligned with the remnants of the Shadow Council. From beneath the Horde capital, the cult works against the path the new Horde has chosen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jergosh-the-invoker-3522c57ff776791cb9d6/1-0000.mp3", duration = 30.9289796, start = 0},
+    {file = "Audio/Transport/full_npc_jergosh-the-invoker-c2d35b6d72f6fae8eb22/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["npc:kam-deepfury"] = {
@@ -238,7 +238,7 @@ P.transport["npc:kam-deepfury"] = {
   fullHash = "d085b1",
   text = "Kam Deepfury. In Stormwind's Stockade, Kam Deepfury waits apart from the Defias rebels. Captured after arranging the blast that shattered the Thandol Span far to the north, the Dark Iron dwarf is held far from his kin. Kam Deepfury is a Dark Iron dwarf held deep in the Stormwind Stockade. Most prisoners there are disgruntled Stonemasons or Defias rebels, but he is neither. Captured after an operation crippled vital northern infrastructure, he remains cut off from his kin beneath Blackrock Mountain. Like the rebels sharing the corridors, he is hostile to the Alliance. Alliance intelligence at Dun Modr, near the Wetlands' northern border, named Kam Deepfury as the chief architect of the blast that shattered the Thandol Span. The explosion severed one of the massive stone bridges between the Wetlands and the Arathi Highlands. It crippled a vital trade and military route for Ironforge and the Alliance. It also killed a kin of Longbraid the Grim, the dwarf commander.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kam-deepfury-67f8a64e84615e0fe460/1-0000.mp3", duration = 58.7755102, start = 0},
+    {file = "Audio/Transport/full_npc_kam-deepfury-1e1469306d553cd9adbf/1-0000.mp3", duration = 71.3142857, start = 0},
   },
 }
 P.transport["npc:lady-anacondra"] = {
@@ -246,7 +246,7 @@ P.transport["npc:lady-anacondra"] = {
   fullHash = "34bec2",
   text = "Lady Anacondra. Deep in the Wailing Caverns, Lady Anacondra holds to the Druids of the Fang. She followed Naralex in his effort to heal the Barrens, but his communion with the Emerald Dream became a nightmare. It shattered her mind and turned her devotion toward remaking the land in the dream’s image. Lady Anacondra followed Naralex into the caverns as he sought the Barrens’ subterranean springs through the Emerald Dream. Then dark visions seized his mind, and the nightmare spread from the dreaming realm to his disciples. Her sanity broke. Her hope for the land became a cold, reptilian obsession. Lady Anacondra guards the Wailing Caverns’ first chambers. She and the other Fanglords have cast aside the Cenarion Circle’s teachings and embraced the viper’s vicious ways. She wields lightning and nature magic, and keeps Naralex in his twisted sleep with slumbering trances. Above, the nightmare’s corruption still threatens the Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lady-anacondra-fbf78c9f0b67bf069e71/1-0000.mp3", duration = 55.5363265, start = 0},
+    {file = "Audio/Transport/full_npc_lady-anacondra-768c0ce0d6c5820ade28/1-0000.mp3", duration = 74.24, start = 0},
   },
 }
 P.transport["npc:lady-sarevess"] = {
@@ -254,7 +254,7 @@ P.transport["npc:lady-sarevess"] = {
   fullHash = "04b0f2",
   text = "Lady Sarevess. In Blackfathom Deeps, Lady Sarevess works dark sorceries among the flooded ruins. Lady Sarevess performs rituals in a flooded grotto within the Pool of Ask'ar. The Twilight's Hammer cultists haunt the sunken temple as well. They pursue their own worship deeper in the cavern. Lady Sarevess commands elemental currents and crackling lightning. Loyal naga sentinels and summoned water elementals guard her sanctuary. She fights intruders who threaten her dark work.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lady-sarevess-ac1d7edc15047c8e33f5/1-0000.mp3", duration = 39.1314286, start = 0},
+    {file = "Audio/Transport/full_npc_lady-sarevess-635810bd6e88a5d8c114/1-0000.mp3", duration = 36.9893878, start = 0},
   },
 }
 P.transport["npc:lord-cobrahn"] = {
@@ -262,7 +262,7 @@ P.transport["npc:lord-cobrahn"] = {
   fullHash = "f8a065",
   text = "Lord Cobrahn. Deep in the Wailing Caverns, Lord Cobrahn commands the corrupted Druids of the Fang. He was a night elf druid in Naralex's order, until the nightmare in the cavern springs claimed him. Now he guards the twisted labyrinth in a deadly serpent guise. Lord Cobrahn once served Naralex in his druid order. When Naralex entered the Wailing Caverns beneath the Barrens, he hoped to draw upon the underground springs and restore life to the arid wastes. Cobrahn went with him. But Naralex's communion with the Emerald Dream decayed into a twisting nightmare, and Cobrahn's mind shattered with those of his brothers. The nightmare warped Cobrahn's shapeshifting into a predatory reptilian form unlike the totemic beasts of Cenarion tradition. In battle, he takes the guise of a deadly serpent. Venomous deviate pythons flank him, and a vicious claw marks his right hand. Cobrahn rules his part of the grottos and violently purges anyone who tries to break the nightmare's hold on the caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-cobrahn-995251a9db72a77c6c4c/1-0000.mp3", duration = 59.0367347, start = 0},
+    {file = "Audio/Transport/full_npc_lord-cobrahn-e3d71ff1515941b79780/1-0000.mp3", duration = 73.5346939, start = 0},
   },
 }
 P.transport["npc:lord-pythas"] = {
@@ -270,7 +270,7 @@ P.transport["npc:lord-pythas"] = {
   fullHash = "87d92e",
   text = "Lord Pythas. Deep in the Wailing Caverns, Lord Pythas guards Naralex's slumber. Once a night elf warrior in Naralex's personal guard, he now leads the corrupted Druids of the Fang. His skill in battle and serpent magic bar the way to his master. Pythas joined Naralex's personal guard when the druid's expedition entered the Barrens' dry wastes. A seasoned night elf warrior, he studied druidism to help Naralex restore life to the arid realm. Yet discipline and valor could not shield him from the corruption hidden in the caverns' depths. Dark nightmares seized Naralex's connection to the Emerald Dream. Pythas and his fellow acolytes fell under their sway. He forsook his old loyalty and became a leader of the Druids of the Fang.\n\nSome serpent lords favor spells or beast forms. Pythas wields nature magic alongside deadly combat skill. Now he prowls the winding caverns and guards the nightmare's hold on the spring.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-pythas-3707e16e970df97d49d9/1-0000.mp3", duration = 57.835102, start = 0},
+    {file = "Audio/Transport/full_npc_lord-pythas-7ac10c0ec205ee14077a/1-0000.mp3", duration = 62.5632653, start = 0},
   },
 }
 P.transport["npc:lord-serpentis"] = {
@@ -278,7 +278,7 @@ P.transport["npc:lord-serpentis"] = {
   fullHash = "3c4abc",
   text = "Lord Serpentis. Deep in the Wailing Caverns, Lord Serpentis leads the Druids of the Fang. Once a mighty druid in Naralex's order, he fell to madness when Naralex's dream soured in the cavern springs. Now he helps command the serpent-worshipping sect near the corrupted Naralex, who lies slumbering. Before the cavern springs darkened, Serpentis held great power and prestige as a druid. He belonged to the noble order led by Naralex. Together, they hoped to heal the Barrens with the springs and the Emerald Dream. But Naralex's vision became a corrupting nightmare, and its rising madness took hold of Serpentis and the other druids. Naralex's twisted dreams spread corruption through his followers. Serpentis and the others became the Druids of the Fang, abandoning Cenarion balance and the totem animals of old. Now they seek to remake the Barrens in the image of their twisted dreams instead of healing it. Serpentis shares leadership with Lady Anacondra, Lord Cobrahn and Lord Pythas.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-serpentis-d36369bb7186cf08e70b/1-0000.mp3", duration = 60.7869388, start = 0},
+    {file = "Audio/Transport/full_npc_lord-serpentis-dd01aeb9bfd3fad52e7f/1-0000.mp3", duration = 73.8481633, start = 0},
   },
 }
 P.transport["npc:lorgus-jett"] = {
@@ -286,7 +286,7 @@ P.transport["npc:lorgus-jett"] = {
   fullHash = "6dfe0b",
   text = "Lorgus Jett. In Blackfathom Deeps, Lorgus Jett leads the Twilight's Hammer through flooded ruins. The Horde has marked him as a target. Among the Twilight's Hammer in Blackfathom Deeps, Lorgus Jett is a human. Many cultists there are orcs or tauren, but Jett ranges from the upper Moonshrine Ruins to the tunnels beyond Gelihast, the murloc defiler. He directs the cult's rituals and violent ambitions in the ancient night elf ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lorgus-jett-52e4fe6b57e544eb79d4/1-0000.mp3", duration = 35.1085714, start = 0},
+    {file = "Audio/Transport/full_npc_lorgus-jett-c092ef9fa52b4f6cc2b1/1-0000.mp3", duration = 31.8171429, start = 0},
   },
 }
 P.transport["npc:miner-johnson"] = {
@@ -294,7 +294,7 @@ P.transport["npc:miner-johnson"] = {
   fullHash = "a94424",
   text = "Miner Johnson. Deep in the Deadmines, Miner Johnson oversees the digging as a seasoned miner. He works ahead of the heavy machinery, though he appears only now and then. Miner Johnson digs with the laborers beneath the Deadmines, where they work on Edwin VanCleef's hidden fortress. Before the shredders in the Mast Room, he waits in an alcove to the left. He is stronger and more aggressive than the other miners. Since he wanders the tunnels, he can be hard to find. Beneath Moonbrook, the Defias Brotherhood needs ore for weapons, reinforced shafts, and mechanical contraptions. Johnson and the other miners dig the mineral seams beneath Westfall. Anyone who enters his work area finds that he guards it fiercely.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_miner-johnson-d544cf87a34486fed643/1-0000.mp3", duration = 42.5273469, start = 0},
+    {file = "Audio/Transport/full_npc_miner-johnson-5b6ab8a473c52e37dfbe/1-0000.mp3", duration = 43.7289796, start = 0},
   },
 }
 P.transport["npc:mr-smite"] = {
@@ -302,7 +302,7 @@ P.transport["npc:mr-smite"] = {
   fullHash = "d08b82",
   text = "Mr. Smite. At Ironclad Cove, Mr. Smite guards the Defias ship and its crew. The tauren serves Captain Greenskin as first mate and watches the docks where Edwin VanCleef's dreadnaught is being fitted out. Intruders meet his great strength and a changing array of weapons. At Ironclad Cove, Mr. Smite keeps order on the docks as first mate to the goblin Captain Greenskin. Most of the Defias Brotherhood are disaffected humans and goblin tinkerers, but Smite is a battle-hardened tauren from far beyond Kalimdor's plains. He commands a rowdy pirate crew as they fit out Edwin VanCleef's secret dreadnaught. No one may disrupt their work. Mr. Smite is a showman and a versatile weaponmaster, not just a fighter of brute force. He toys with challengers and draws out the fight, leaving them a false hope of victory. When pressed, he stamps the ground hard enough to stun his foes, then searches a nearby chest for another weapon. First comes a quick dueling blade, then twin cleaving reavers, and at last a huge two-handed warhammer.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mr-smite-8fcb9f5f5ad91b66e2fb/1-0000.mp3", duration = 78.0538776, start = 0},
+    {file = "Audio/Transport/full_npc_mr-smite-79ddbf52841a33c379e8/1-0000.mp3", duration = 68.2057143, start = 0},
   },
 }
 P.transport["npc:mutanus-the-devourer"] = {
@@ -310,7 +310,7 @@ P.transport["npc:mutanus-the-devourer"] = {
   fullHash = "937dbe",
   text = "Mutanus the Devourer. In the Wailing Caverns, Mutanus the Devourer haunts Naralex's sleeping mind as a pale, monstrous murloc. The creature emerged from the Emerald Nightmare, and must fall before Naralex can awaken. Naralex, a night elf druid, sought to restore the Barrens by joining its underground springs to the Emerald Dream. Instead, the Emerald Nightmare entered his thoughts. Trapped in an agonizing vision, Naralex's fears took shape through the corruption as an immense, albino murloc.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mutanus-the-devourer-813d8c2cfc3aa6d42643/1-0000.mp3", duration = 30.4065306, start = 0},
+    {file = "Audio/Transport/full_npc_mutanus-the-devourer-7e43e3e40d1fd8d56fdc/1-0000.mp3", duration = 37.7208163, start = 0},
   },
 }
 P.transport["npc:naralex"] = {
@@ -318,7 +318,7 @@ P.transport["npc:naralex"] = {
   fullHash = "cb9e1d",
   text = "Naralex. Beneath the Barrens, Naralex sleeps while his dream of green turns to nightmare. The night elf druid sought to restore the parched land through the Emerald Dream, but corruption overtook his slumber and twisted his followers into venomous fiends. Naralex came to the Barrens with devoted disciples, hoping to restore the forest that covered the plains before the Great Sundering. Beneath the savannah, he found underground springs and rushing geysers. He named the caverns for the howling wind and steam that moaned through the rock. He believed a deep trance could channel the Emerald Dream into those waters, carrying life to the surface and making the wasteland bloom. Deep in the caverns, Naralex entered meditation and reached toward the Emerald Dream. Corruption ensnared his mind instead of the peaceful wild nature he sought. The Emerald Nightmare seized the sleeping druid and made him a conduit for dark energies to enter the living world. Springs turned foul, fungal blooms mutated, and the caverns' beasts became ravenous horrors.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_naralex-ea62c1781b1afb88a5cd/1-0000.mp3", duration = 59.7942857, start = 0},
+    {file = "Audio/Transport/full_npc_naralex-c041f9397a79d09d4f41/1-0000.mp3", duration = 81.7110204, start = 0},
   },
 }
 P.transport["npc:oggleflint"] = {
@@ -326,7 +326,7 @@ P.transport["npc:oggleflint"] = {
   fullHash = "c876bb",
   text = "Oggleflint. In Ragefire Chasm beneath Orgrimmar, Oggleflint leads his trogg tribe toward the surface. Near the cavern entrance, he commands his pack as they threaten the Horde capital above. Deep beneath Orgrimmar, Oggleflint and his troggs climbed from fiery tunnels into Ragefire Chasm. Among the molten rock, they carved out a primitive domain and defend it with brutal force. The troggs have little advanced civilization. Oggleflint rules his pack through sheer strength. Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs. The troggs turned on them and killed them. Maur Grimtotem, one of the envoys, lies dead in the caverns under Oggleflint’s watch. Near the cavern entrance, Oggleflint waits to strike at outsiders who venture into the dark. Oggleflint’s tribe lives directly beneath Thrall’s capital, a hazard the Horde cannot tolerate. The troggs creep closer to the surface. Their volatile nature threatens to carry them into the Drag and Cleft of Shadow if left undisturbed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_oggleflint-f276256fa8859c8306f8/1-0000.mp3", duration = 62.1453061, start = 0},
+    {file = "Audio/Transport/full_npc_oggleflint-06348a62226b746bc032/1-0000.mp3", duration = 79.1771429, start = 0},
   },
 }
 P.transport["npc:old-serra-kis"] = {
@@ -334,7 +334,7 @@ P.transport["npc:old-serra-kis"] = {
   fullHash = "6a3a65",
   text = "Old Serra'kis. In the flooded depths beneath the Moonshrine Sanctum, Old Serra'kis waits in Blackfathom Deeps. The enormous threshadon hides in a submerged cave, deadly to anyone who seeks him there. The Twilight's Hammer has made its home in the sunken Moonshrine Ruins. Beneath the Moonshrine Sanctum, dark waters hide older and wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool. Few would think to look in that flooded cave beneath the ruins. You must dive beneath the temple floor to reach Old Serra'kis in the flooded cavern. No air pockets break the water, and the cave is as deadly as the beast within. Cornered in the murk, Serra'kis shows an unnatural resilience. He drains life from his attackers with shadow energy and sustains his own vitality in the darkness.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_old-serra-kis-e178f7cc364e192fbdcb/1-0000.mp3", duration = 70.2955102, start = 0},
+    {file = "Audio/Transport/full_npc_old-serra-kis-4012a87e178998fbcfd2/1-0000.mp3", duration = 52.1404082, start = 0},
   },
 }
 P.transport["npc:overlord-ramtusk"] = {
@@ -342,7 +342,7 @@ P.transport["npc:overlord-ramtusk"] = {
   fullHash = "fcf89c",
   text = "Overlord Ramtusk. Deep in Razorfen Kraul, Overlord Ramtusk rallies the quilboar warriors for battle. He calls for victory and for Agamaggan, and his fall breaks the defenders’ martial strength. Overlord Ramtusk commands the quilboar stronghold deep in Razorfen Kraul, in the southern Barrens. He enters battle crying out to Agamaggan, the boar demigod, and rules the Kraul’s fighters with unyielding authority. Ramtusk directs the quilboar warriors through the Kraul’s winding brambles. He keeps tight discipline among the bristled fighters who defend their tribe’s sanctum. Elite marksmen flank him as he fights on the front line, bellowing rallying shouts and unleashing slams that can break opposing battle lines in seconds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_overlord-ramtusk-74dc4741ee428ec65cdd/1-0000.mp3", duration = 43.4938776, start = 0},
+    {file = "Audio/Transport/full_npc_overlord-ramtusk-8f17002e87011026d1c5/1-0000.mp3", duration = 47.5428571, start = 0},
   },
 }
 P.transport["npc:rhahk-zor"] = {
@@ -350,7 +350,7 @@ P.transport["npc:rhahk-zor"] = {
   fullHash = "25eb2c",
   text = "Rhahk'Zor. In the Deadmines, Rhahk'Zor drives the work forward by force. As head foreman, he keeps Defias laborers and miners in line while they build Edwin VanCleef's underground fortress. The Defias Brotherhood has made an underground fortress of Moonbrook's abandoned gold mines. Rhahk'Zor was appointed head foreman to direct the work. He oversees the crews and laborers as they carve tunnels and build VanCleef's secret projects. Rhahk'Zor keeps order with his strength and an immense stone-headed hammer. Defias diggers and goblin engineers know the towering foreman may strike a crushing blow if they defy him or fall behind schedule.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rhahk-zor-ecbbf5a14c6696b06a66/1-0000.mp3", duration = 39.1836735, start = 0},
+    {file = "Audio/Transport/full_npc_rhahk-zor-23c7056fde1209040141/1-0000.mp3", duration = 43.6506122, start = 0},
   },
 }
 P.transport["npc:scarlet-commander-mograine"] = {
@@ -358,7 +358,7 @@ P.transport["npc:scarlet-commander-mograine"] = {
   fullHash = "b6dd99",
   text = "Scarlet Commander Mograine. Within the Scarlet Monastery, Scarlet Commander Mograine guards the Cathedral with the Scarlet Crusade. A zealous paladin, he faces efforts by the Horde and Alliance to disrupt the Crusade's threat to Tirisfal Glades and the lands around it. At the heart of the Scarlet Monastery, Scarlet Commander Mograine leads the Scarlet Crusade garrison in the Crusader's Chapel. A devoted paladin, he strikes with holy power and shields himself. Those the Crusade judges corrupted or unclean meet his stunning blows.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scarlet-commander-mograine-45b6c57b9b518dc25c22/1-0000.mp3", duration = 32.3395918, start = 0},
+    {file = "Audio/Transport/full_npc_scarlet-commander-mograine-c8449cf15694f774877f/1-0000.mp3", duration = 37.4334694, start = 0},
   },
 }
 P.transport["npc:sneed"] = {
@@ -366,7 +366,7 @@ P.transport["npc:sneed"] = {
   fullHash = "ff7fd7",
   text = "Sneed. Deep in the Deadmines, Sneed directs the Defias Brotherhood’s timber work. From the Mast Room, he pilots a heavy shredder of his own design, cutting lumber for Edwin VanCleef’s secret juggernaut. The Defias Brotherhood draws most of its members from human stonemasons and laborers. Yet Edwin VanCleef brought Sneed in for his engineering skill and ruthless efficiency. A warship needs skilled trades, and Sneed directs the timber work in the Mast Room beside the underground rail network. There, wood is felled, cut, and shaped for VanCleef’s colossal dreadnaught. Sneed cares about costs and quotas, whatever the consequences. From a custom shredder fitted with oversized buzz saws, he directs the work. Its blades turn raw trunks into shipbuilding timber in seconds. When intruders corner him, Sneed uses the machine’s armor to grind them down. If the shredder fails, he scrambles from the wreckage and fights barehanded.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sneed-6f61593d5226f083aaa8/1-0000.mp3", duration = 74.3706122, start = 0},
+    {file = "Audio/Transport/full_npc_sneed-07ee6959e894b6524d23/1-0000.mp3", duration = 63.8693878, start = 0},
   },
 }
 P.transport["npc:sneed-s-shredder"] = {
@@ -374,7 +374,7 @@ P.transport["npc:sneed-s-shredder"] = {
   fullHash = "c9d866",
   text = "Sneed's Shredder. Deep in the Deadmines, Sneed pilots a lumber machine for Edwin VanCleef's shipwrights. Its blades cut timber and meet intruders with armored force. In the Deadmines foundry, goblin shredders cut timber for Edwin VanCleef's hidden juggernaut. They also turn their armored force against intruders. Sneed oversees the lumber works and pilots this modified machine himself. Its oversized buzzsaw is a weapon of defense. Sneed rides above the spinning blades in an open cockpit, behind heavy iron plating. The shredder's clatter can scatter his foes. When the machine breaks down in a burst of sparks, Sneed leaps from the wreckage and fights on.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sneed-s-shredder-3d0949f3285f1720359d/1-0000.mp3", duration = 51.4873469, start = 0},
+    {file = "Audio/Transport/full_npc_sneed-s-shredder-1670929d9667ac4f17a1/1-0000.mp3", duration = 42.8669388, start = 0},
   },
 }
 P.transport["npc:taragaman-the-hungerer"] = {
@@ -382,7 +382,7 @@ P.transport["npc:taragaman-the-hungerer"] = {
   fullHash = "36ed05",
   text = "Taragaman the Hungerer. Beneath Orgrimmar, Taragaman the Hungerer prowls Ragefire Chasm and threatens the city above. The Horde seeks his death to end the demonic taint below its capital. Taragaman the Hungerer prowls among Ragefire Chasm's magma pools, threatening Orgrimmar. Scouts and young warriors sent into the dark caverns see the demonic felguard as the Searing Blade cult's leader. With infernal strength, he bends the weak-willed and corrupts the passages beneath Thrall's fortress.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_taragaman-the-hungerer-b3d4d648c40e194680c9/1-0000.mp3", duration = 30.3020408, start = 0},
+    {file = "Audio/Transport/full_npc_taragaman-the-hungerer-f273c202dec43e1e8d4b/1-0000.mp3", duration = 32.6791837, start = 0},
   },
 }
 P.transport["npc:targorr-the-dread"] = {
@@ -390,7 +390,7 @@ P.transport["npc:targorr-the-dread"] = {
   fullHash = "e48dd3",
   text = "Targorr the Dread. In the Stormwind Stockade, Targorr the Dread waits among rioting convicts. Corruption and neglect delayed his execution, and the Defias uprising opened a way out. Before his capture, Targorr the Dread served Warlord Gath'Ilzogg as the Blackrock clan's supreme executioner. From the occupied ruins in Redridge, he tormented Stormwind guards and militiamen defending the borderlands. His cruelty surpassed even the Dark Horde's violence, and few names were more reviled across the kingdom. Alliance forces captured Targorr alive and brought him in chains to the capital. They locked him in the high-security Stockade, but Stormwind's courts stalled over his execution. Graft, endless paperwork, and neglect kept the courts from delivering the death sentence he had earned. So a bloodthirsty war criminal remained in a cell beneath the heart of the city. When the Defias Brotherhood broke prisoners out by force, Targorr seized his chance. He escaped his cell and joined the Defias rioters, turning his cellblock into a slaughterhouse. Warden Thelwater has lost control of the prison. Lakeshire still bears the wounds Targorr dealt its defenders, and seeks adventurers willing to enter the riot and bring back the butcher's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_targorr-the-dread-4932dc80fbe8afe46dfd/1-0000.mp3", duration = 75.2065306, start = 0},
+    {file = "Audio/Transport/full_npc_targorr-the-dread-dc5cae261894396f0fa5/1-0000.mp3", duration = 92.3428571, start = 0},
   },
 }
 P.transport["npc:twilight-lord-kelris"] = {
@@ -398,7 +398,7 @@ P.transport["npc:twilight-lord-kelris"] = {
   fullHash = "d3a33c",
   text = "Twilight Lord Kelris. At Blackfathom Deeps, Twilight Lord Kelris leads the Twilight's Hammer from the sunken ruins. The orc warlock holds high rank in the cult and directs its rites in the Moonshrine Sanctum. There, his followers worship Aku'mai and seek a reign of cosmic chaos. Twilight Lord Kelris directs the cultists who seized the sunken ruins of Blackfathom Deeps. For years, he slipped past watchful eyes in Darnassus and evaded the Argent Dawn. Whenever ancient malice stirred across Kalimdor, Kelris was suspected of being behind it. He pledged himself to the Old Gods, not to warlords or clans. He seeks to unmake mortal civilization and return Azeroth to primordial chaos. In the Moonshrine Sanctum, Kelris oversees the cult's worship of Aku'mai, a vicious three-headed hydra who serves an Old God. Allied with the naga, the Twilight's Hammer occupies the drowned temple. Kelris leads the cult's rites and sacrifices innocents to Aku'mai in exchange for power.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_twilight-lord-kelris-3468fa51641ec215b259/1-0000.mp3", duration = 61.4661224, start = 0},
+    {file = "Audio/Transport/full_npc_twilight-lord-kelris-62cbf05b93bd3963c310/1-0000.mp3", duration = 67.7616327, start = 0},
   },
 }
 P.transport["npc:verdan-the-everliving"] = {
@@ -406,7 +406,7 @@ P.transport["npc:verdan-the-everliving"] = {
   fullHash = "678b3c",
   text = "Verdan the Everliving. In the Wailing Caverns, Verdan the Everliving lurks in deep tunnels and attacks those who enter. He dwells near the sleeping druid Naralex and the Druids of the Fang. Verdan is the largest bog beast in the overgrown depths of the Wailing Caverns. He is an elemental of foliage, silt, and mire, haunting its flooded hollows. Nothing is known of him from before corruption reached the caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_verdan-the-everliving-3dcf02c3d83437d7a7f1/1-0000.mp3", duration = 23.7191837, start = 0},
+    {file = "Audio/Transport/full_npc_verdan-the-everliving-6b3d687273c068d8afe5/1-0000.mp3", duration = 25.3387755, start = 0},
   },
 }
 P.transport["npc:viscous-fallout"] = {
@@ -414,7 +414,7 @@ P.transport["npc:viscous-fallout"] = {
   fullHash = "b9c35e",
   text = "Viscous Fallout. In Gnomeregan's lower passages, Viscous Fallout drifts through the toxic runoff. Radiation flooded Gnomeregan after Mekgineer Thermaplugg advised a treacherous plan to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental, its substance thick with the city's toxic waste. Its origins before the fall are unknown. Viscous Fallout drifts through Gnomeregan's irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin, then lashes out at anything in its path. Those who enter the city to cleanse its tainted depths must destroy the creature.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_viscous-fallout-879b95cc38211c324905/1-0000.mp3", duration = 41.3779592, start = 0},
+    {file = "Audio/Transport/full_npc_viscous-fallout-45bde5fd69f90b6eada7/1-0000.mp3", duration = 44.1991837, start = 0},
   },
 }
 P.transport["subzone:camp-narache"] = {

@@ -14,7 +14,7 @@ P.transport["npc:apothecary-johaan"] = {
   fullHash = "b9e863",
   text = "Apothecary Johaan. In Brill, Apothecary Johaan works on a plague for the Forsaken. The Royal Apothecary Society and Lady Sylvanas have set him to lethal experiments on local plants and animals. In Brill, Apothecary Johaan works openly for the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, he follows direct orders to create biological and alchemical weapons. The Forsaken hope these weapons will secure their fragile future against the living and the Scourge alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-johaan-e50b6bd88ec12c622746/1-0000.mp3", duration = 47.7779592, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-johaan-4d78097157f1681608c9/1-0000.mp3", duration = 35.3959184, start = 0},
   },
 }
 P.transport["npc:apothecary-renferrel"] = {
@@ -22,7 +22,7 @@ P.transport["npc:apothecary-renferrel"] = {
   fullHash = "863d36",
   text = "Apothecary Renferrel. At the Sepulcher, Apothecary Renferrel studies Silverpine’s corrupted wildlife and undead threats. He advances Forsaken alchemy, and travelers bring him volatile reagents and help investigate Scourge remnants. At the Sepulcher, Renferrel leads field research for the Royal Apothecary Society in Silverpine Forest. The society’s grand laboratories and high leadership are in Undercity, while he works in the field. He gathers native biological specimens, refines potent concoctions, and studies the grim ecology along Lordaeron’s western border.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-renferrel-aac1c5f5030001f3f94f/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-renferrel-ca73d59d286d6aba0f8b/1-0000.mp3", duration = 40.0195918, start = 0},
   },
 }
 P.transport["npc:aramis-hammerhand"] = {
@@ -30,7 +30,7 @@ P.transport["npc:aramis-hammerhand"] = {
   fullHash = "b2f95e",
   text = "Aramis Hammerhand. In Deathknell's chapel, Aramis Hammerhand teaches the newly risen Forsaken to fight with the Holy Light. They can call on its power, but it burns their decayed flesh and demands fierce discipline. In Deathknell's chapel, Aramis Hammerhand guides Forsaken who still hold to their former faith. Before the Scourge swept across the north, many people of Lordaeron answered the Silver Hand's call. Aramis survived Lordaeron's fall, then rose into undeath. He kept the martial and spiritual teachings of his former life, and now guides others who will not surrender their devotion. For the Forsaken, channeling the Holy Light takes fierce will. Its power burns necrotic flesh and stirs long-dead nerves into excruciating pain. Aramis teaches new paladins that faith means enduring this torment. He asks them to face the physical and spiritual cost of wielding a force opposed to their undead nature.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_aramis-hammerhand-210d8f43798e5a652d2c/1-0000.mp3", duration = 82.2334694, start = 0},
+    {file = "Audio/Transport/full_npc_aramis-hammerhand-b41567a18616a2ce50da/1-0000.mp3", duration = 65.6457143, start = 0},
   },
 }
 P.transport["npc:arugal"] = {
@@ -38,7 +38,7 @@ P.transport["npc:arugal"] = {
   fullHash = "c9cee9",
   text = "Arugal. In Shadowfang Keep, Arugal commands the worgen he summoned against the Scourge. Madness and grief have made the former Dalaran wizard their self-proclaimed father, and his power threatens Silverpine Forest. Before Lordaeron fell, Arugal served in the Kirin Tor. Some peers, among them Dalar Dawnweaver, called him a charlatan who hid weak spellcraft behind enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon to halt the undead. He drew on research by the late Dalaran mage Ur and pierced the veil between realms to summon the worgen.\n\nThe ravenous beasts tore through the Scourge, but no one could contain their ferocity. Before long, their hunger turned against innocent mortals. The worgen slaughtered the Scourge, then attacked the wizards who had summoned them. They besieged the ancestral seat of Baron Silverlaine and took the keep with claws and fangs. Silverlaine and his retainers died in the massacre. Guilt shattered Arugal's mind, yet he stayed with his creation. He claimed the beasts as his offspring and renamed the fortress Shadowfang Keep.\n\nThere, Arugal holds the ramparts, surrounded by ghostly victims and loyal hound-packs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_arugal-ae3dcb2fda6b8bf66316/1-0000.mp3", duration = 72.9077551, start = 0},
+    {file = "Audio/Transport/full_npc_arugal-de40aec38ceba07b0f7b/1-0000.mp3", duration = 87.7191837, start = 0},
   },
 }
 P.transport["npc:baine-bloodhoof"] = {
@@ -46,7 +46,7 @@ P.transport["npc:baine-bloodhoof"] = {
   fullHash = "1369bd",
   text = "Baine Bloodhoof. In Bloodhoof Village, Baine Bloodhoof guards his people and Mulgore. Cairne leads from Thunder Bluff, while Baine directs the village’s defense against gnolls and outside threats. Baine Bloodhoof grew up traveling with his nomadic people as Cairne’s son. They settled in Mulgore’s grasslands, where centaur clans remained a threat. After the Third War, Khiragg’s warband captured Baine, and grief nearly kept Cairne from leading the new settlements. Rexxar freed Baine, restoring Cairne’s spirit. Then the tauren stood with Thrall’s Horde against the invading Kul Tirans and secured their foothold on the continent. Baine lives among his kin in Bloodhoof Village, not at the capital mesas. As Cairne grows older, Baine carries more responsibility for the people and represents the next generation of tauren leadership. He directs braves and visiting allies against Palemane gnolls troubling the borders. He also watches for outside influences that threaten Mulgore’s natural balance. Baine faces encroachers who give little thought to spiritual balance. In eastern Mulgore, the goblin Venture Company cuts into the sacred landscape. Dwarven prospectors from Bael Modan dig ancestral soil at the Bael'dun Digsite. Baine urges a firm but measured response: warn the miners and destroy their equipment instead of rushing into needless bloodshed. He says their violent digging hurts the spirits of the earth, but the miners refuse to listen.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baine-bloodhoof-480a25afd4601a67f7e8/1-0000.mp3", duration = 110.602449, start = 0},
+    {file = "Audio/Transport/full_npc_baine-bloodhoof-27f6635fdfd61699c3a3/1-0000.mp3", duration = 102.269388, start = 0},
   },
 }
 P.transport["npc:bethor-iceshard"] = {
@@ -54,7 +54,7 @@ P.transport["npc:bethor-iceshard"] = {
   fullHash = "5c0281",
   text = "Bethor Iceshard. In the Undercity, Bethor Iceshard directs the Magic Quarter's arcane and shadow practitioners. He holds authority in Sylvanas's realm, though old friendships still mark his past. From the Temple of the Damned in the Undercity, Bethor Iceshard directs arcane and shadow practitioners. His keen mind and icy resolve earn respect and fear. His political and magical authority reaches magistrates across Lordaeron. He sends Forsaken agents after valuable grimoires and arcane disturbances, and against rival powers that threaten the Undercity's rule.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bethor-iceshard-6c3740d86cec6cb95759/1-0000.mp3", duration = 31.6865306, start = 0},
+    {file = "Audio/Transport/full_npc_bethor-iceshard-6e08299c884c44e0239a/1-0000.mp3", duration = 41.0906122, start = 0},
   },
 }
 P.transport["npc:brewmaster-drohn"] = {
@@ -62,7 +62,7 @@ P.transport["npc:brewmaster-drohn"] = {
   fullHash = "32c763",
   text = "Brewmaster Drohn. On the hill above Ratchet, Brewmaster Drohn tends his brewing craft. The orc lives just uphill from the port, using methods linked to the wandering pandaren Chen Stormstout. Travelers who find discarded kegs across Kalimdor are sent to Drohn's porch. Brewmaster Drohn brews at his home on the hill above Ratchet's goblin docks. The orc chose brewing over combat and lives in the neutral haven Gazlowe's Steamwheedle cartel established. Many orcs favor coarse grog or simple spirits. Drohn instead works with rare ingredients, balanced flavors and methods seldom practiced among his kin. Brewmaster Drohn learned brewing from a mentor who studied under Chen Stormstout. The pandaren wanderer fought beside Rexxar and the Horde during the founding of Durotar. Chen also taught Drohn to make Trogg Ale. When travelers find Chen's discarded kegs in the wilds, Drohn is the local authority who can identify their ingredients and recreate the wanderer's potent brews.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brewmaster-drohn-b741d52cd781d3a081d0/1-0000.mp3", duration = 57.6522449, start = 0},
+    {file = "Audio/Transport/full_npc_brewmaster-drohn-e18f69977f6cb0e743a8/1-0000.mp3", duration = 62.6416327, start = 0},
   },
 }
 P.transport["npc:brine"] = {
@@ -70,7 +70,7 @@ P.transport["npc:brine"] = {
   fullHash = "fb99fb",
   text = "Brine. On Blackthorn Ridge, Brine guides shaman initiates toward the spirits of water. She teaches them to commune with the tides and earn their Water Totem. Brine lives on a hill in northern Blackthorn Ridge, far from the Barrens' trading posts. Though dry savannas surround her, she has devoted her life to understanding water. Shaman across the Horde seek her wisdom after mastering earth and fire. She teaches that water calls for patience and perspective, qualities few understand as deeply as she does. In her youth, Brine marched with her orc companions across the Hillsbrad Foothills and fought against human settlements. During the campaign, she came to Tarren Mill and found a humble well fed by fresh spring water. The well stayed in her memory as a sign of life amid devastation. It strengthened a lesson she had learned as a child: even in the darkest sorrow, a small token of hope can still be found.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brine-8e4d8dd27a201f9373fb/1-0000.mp3", duration = 65.0710204, start = 0},
+    {file = "Audio/Transport/full_npc_brine-7697e0866fa7d41cd04d/1-0000.mp3", duration = 58.2791837, start = 0},
   },
 }
 P.transport["npc:cairne-bloodhoof"] = {
@@ -78,7 +78,7 @@ P.transport["npc:cairne-bloodhoof"] = {
   fullHash = "5a5527",
   text = "Cairne Bloodhoof. In Thunder Bluff, Cairne Bloodhoof leads the united tauren tribes. The High Chieftain joined their fate to Thrall’s Horde after the orcs helped them escape extinction at centaur hands. Cairne Bloodhoof led the tauren from a life of flight to a home in Mulgore. For generations, centaur marauders hunted the tribes across the Barrens and drove them toward extinction. When Thrall and his orcs reached Kalimdor, Cairne saw a rare nobility in them.\n\nThrall offered protection and an escort for Cairne’s desperate caravan across the plains. In return, Cairne guided them to the Oracle at Stonetalon Peak. The tauren settled on Thunder Bluff’s towering mesas, where Cairne united the tribes and gave them a permanent home. Cairne Bloodhoof fought beside Thrall’s Horde and Jaina Proudmoore’s humans against the Burning Legion during the Third War. Grateful to Thrall, Cairne had followed the orcs to Stonetalon Peak. When Admiral Daelin Proudmoore invaded Durotar, Cairne took up arms again beside Rexxar. His captured son, Baine, had been safely recovered. Now one of the Horde’s most respected elders, Cairne remains Thrall’s closest confidant. He offers calm counsel against reckless warmongering.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_cairne-bloodhoof-40a37dbf30611a323147/1-0000.mp3", duration = 95.3730612, start = 0},
+    {file = "Audio/Transport/full_npc_cairne-bloodhoof-5a62d4bcbd0675a85d55/1-0000.mp3", duration = 85.0285714, start = 0},
   },
 }
 P.transport["npc:canaga-earthcaller"] = {
@@ -86,7 +86,7 @@ P.transport["npc:canaga-earthcaller"] = {
   fullHash = "02ed12",
   text = "Canaga Earthcaller. In the Valley of Trials, Canaga Earthcaller guides new Horde shamans toward the land's spirits and their first totems. From the red bluffs of the Valley of Trials, Canaga Earthcaller guides Darkspear trolls and orcs as they begin the shaman’s path. He teaches them to quiet their minds and listen to Kalimdor’s rumblings. Then they prepare earth sapta to commune with the spirits. Canaga sends each novice to gather sacred reagents and travel to the local spirit rock in Durotar. There, they drink earth sapta and see the elemental spirits firsthand. With his guidance, they earn their Earth Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_canaga-earthcaller-9c0171ce3101983d4e17/1-0000.mp3", duration = 49.9722449, start = 0},
+    {file = "Audio/Transport/full_npc_canaga-earthcaller-9fef107955bafa07cc62/1-0000.mp3", duration = 39.4187755, start = 0},
   },
 }
 P.transport["npc:carendin-halgar"] = {
@@ -94,7 +94,7 @@ P.transport["npc:carendin-halgar"] = {
   fullHash = "6ce565",
   text = "Carendin Halgar. In the Undercity's Magic Quarter, Carendin Halgar teaches the Forsaken dark arts. His students learn to bind demons from the Twisting Nether, including Voidwalkers and Succubi. Carendin Halgar trains warlocks in the Undercity's Magic Quarter. He demands focus and obedience, and has little patience for failure, hesitation, or weakness. His students pass beyond simple incantations to summon demons and manipulate souls. Under his direction, they learn how the Forsaken make demons serve.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_carendin-halgar-c479c0869e60031f4266/1-0000.mp3", duration = 31.6865306, start = 0},
+    {file = "Audio/Transport/full_npc_carendin-halgar-a5dc180562aa035f1d37/1-0000.mp3", duration = 38.5044898, start = 0},
   },
 }
 P.transport["npc:chief-hawkwind"] = {
@@ -102,7 +102,7 @@ P.transport["npc:chief-hawkwind"] = {
   fullHash = "faa69c",
   text = "Chief Hawkwind. At Camp Narache, Chief Hawkwind readies young Shu'halo for life beyond Red Cloud Mesa. He guides their traditional rites in Mulgore and teaches humility, respect for the land, and the strength to protect their people. At Camp Narache, Chief Hawkwind prepares young tauren for life beyond Red Cloud Mesa. Fledgling hunters, shamans, druids, and warriors undertake the ancient Rites of the Earthmother on the mesa. Hawkwind oversees their customs and teaches each youth duty and endurance before they leave its safety. Chief Hawkwind begins with humility, not martial glory. He sends initiates to fetch clean spring water and perform simple chores, teaching reverence for nature and their elders. Once they show humility, the braves face tests of martial skill. Their trials test their resolve against aggressive Bristleback quilboar encroaching on the ancestral plains. Danger presses close to Camp Narache. The Bristleback tribe grows bolder along Red Cloud Mesa's perimeter. Hawkwind coordinates the settlement's defense and sends newly proven braves to blunt quilboar assaults and keep the sacred training grounds secure.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_chief-hawkwind-8c4b5e92b5810806d98c/1-0000.mp3", duration = 96.5485714, start = 0},
+    {file = "Audio/Transport/full_npc_chief-hawkwind-3c4d1c96ea410411c0c3/1-0000.mp3", duration = 79.9085714, start = 0},
   },
 }
 P.transport["npc:coleman-farthing"] = {
@@ -110,7 +110,7 @@ P.transport["npc:coleman-farthing"] = {
   fullHash = "2c39f1",
   text = "Coleman Farthing. At Brill's Gallows' End Tavern, Coleman Farthing still nurses a hatred born at the Agamand Mills. He served the wealthy Agamand dynasty in northern Tirisfal. He and the other laborers died defending their employers' estate from the Scourge. Now Forsaken, Coleman seeks vengeance on his former masters. Before the Third War, Coleman Farthing worked at the Agamand Mills, Tirisfal Glades' largest milling and agricultural operation. When the Scourge swept across Lordaeron, the aristocratic Agamand family refused to flee their valuable lands. They urged their household and laborers to take up arms, promising to hold the farmsteads against the undead horde. Coleman and his fellow workers trusted their masters and stayed. Every last one of them died. Raised into undeath, Coleman Farthing broke free into the Forsaken, but his hatred of the Agamands endured. He blames his former employers' greed and pride for luring their staff into an impossible last stand, as much as he blames the Scourge. From a tavern in Brill, he sends Horde champions to the blighted mills to kill the risen Agamand kin and plunder heirloom weapons from their family crypt. He means to strip away the last of their honor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_coleman-farthing-44c7708dc69b3eea37bf/1-0000.mp3", duration = 96.0783673, start = 0},
+    {file = "Audio/Transport/full_npc_coleman-farthing-843d9118523ecba3b63e/1-0000.mp3", duration = 89.7828571, start = 0},
   },
 }
 P.transport["npc:dalar-dawnweaver"] = {
@@ -118,7 +118,7 @@ P.transport["npc:dalar-dawnweaver"] = {
   fullHash = "b547f4",
   text = "Dalar Dawnweaver. At the Sepulcher, Dalar Dawnweaver turns his arcane learning against the Forsaken’s enemies. He was an archmage of Dalaran, slain when the Scourge destroyed the city, then freed from the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end Archmage Arugal’s madness. Dalar Dawnweaver once held high rank among the Kirin Tor. He walked the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. The Scourge sacked the city to prepare for Archimonde’s summoning, and Dalar died there.\n\nRaised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now he keeps an archmage’s keen intellect at the Sepulcher and devotes it to protecting the Forsaken realm. Dalar directs the Sepulcher’s arcane strategy against the many dangers facing Silverpine Forest. To the south, Dalaran wizards occupy Ambermill, pursuing matters he means to uncover and disrupt. Closer by, feral worgen prowl the woods around Shadowfang Keep.\n\nDalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dalar-dawnweaver-bcb564dea2adbb61efbf/1-0000.mp3", duration = 75.6244898, start = 0},
+    {file = "Audio/Transport/full_npc_dalar-dawnweaver-2a79f029cca5e1bcb484/1-0000.mp3", duration = 86.8832653, start = 0},
   },
 }
 P.transport["npc:darsok-swiftdagger"] = {
@@ -126,7 +126,7 @@ P.transport["npc:darsok-swiftdagger"] = {
   fullHash = "937f91",
   text = "Darsok Swiftdagger. At the Crossroads, Darsok Swiftdagger keeps watch over the northern trails. The orc scout sends Horde fighters against Witchwing harpies in the Dry Hills, whose raids threaten travelers and settlements. He is also an old friend of Witch Doctor Jin'Zil in Malaka'jin. From the Crossroads, Darsok Swiftdagger watches the northern scrubland. The roads between Durotar, Mulgore, and the Barrens’ northern reaches face raiders and centaur. Organized hunters also descend from the sky. Darsok’s anger is aimed at the Witchwing harpies. Their roosts lie in the Dry Hills, northwest of the Forgotten Pools, where they threaten caravans traveling north. Far northwest of the Barrens, Darsok has an old friend: Witch Doctor Jin'Zil. Jin'Zil is a troll who lives at Malaka'jin in the Stonetalon Mountains, the land the harpies come from. Darsok sends him a letter with news of the harpy campaign. The two friends have not been in touch for many years.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_darsok-swiftdagger-4250e5e81aeb52c6b7b9/1-0000.mp3", duration = 71.0530612, start = 0},
+    {file = "Audio/Transport/full_npc_darsok-swiftdagger-55ec30854c4352dc2444/1-0000.mp3", duration = 60.3167347, start = 0},
   },
 }
 P.transport["npc:deathguard-dillinger"] = {
@@ -134,7 +134,7 @@ P.transport["npc:deathguard-dillinger"] = {
   fullHash = "0426bc",
   text = "Deathguard Dillinger. At Brill's edge, Deathguard Dillinger watches the town and guides new Forsaken arrivals. He sends recruits to drive Scourge remnants from nearby farms and mills. Deathguard Dillinger guards Brill and guides those arriving from Deathknell. At the town entrance, he points newly awakened undead toward the inn, town hall, and local trainers. Under the Dark Lady's rule, they must learn their way through a changed life. Deathguard Dillinger sends capable recruits to clear mindless Scourge from nearby farms and mills. They cull rotting ghouls and reclaim infested facilities. In doing so, they make Brill's border safer and help the fledgling Forsaken settlements endure the undead threat.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathguard-dillinger-8f2e0632c7db33213e03/1-0000.mp3", duration = 56.5289796, start = 0},
+    {file = "Audio/Transport/full_npc_deathguard-dillinger-a530f07aafaf75b905a5/1-0000.mp3", duration = 40.3591837, start = 0},
   },
 }
 P.transport["npc:dendrite-starblaze"] = {
@@ -142,7 +142,7 @@ P.transport["npc:dendrite-starblaze"] = {
   fullHash = "2fb6f5",
   text = "Dendrite Starblaze. In Nighthaven, Dendrite Starblaze guides druids who come to Moonglade. As a Cenarion Circle mentor, he welcomes night elf and tauren apprentices. Through him they are summoned to the holy grove to master its rites, from cleansing toxins to communing with nature's forms. When novice druids learn Teleport: Moonglade, Dendrite is among the first to greet them in Nighthaven. He follows the Cenarion Circle's calling beyond the Alliance and Horde. Night elf and tauren druids alike find kinship beneath the haven's boughs, where Kaldorei tradition meets the tauren path. Dendrite guides apprentices into nature's deeper ways. He sends them to examine tainted waters and seek herbs that can cure poison and pestilence. Then he oversees the water trials, testing their patience and endurance beneath the surface before he grants them communion with aquatic forms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dendrite-starblaze-dc1574f853bb377c7e07/1-0000.mp3", duration = 51.0171429, start = 0},
+    {file = "Audio/Transport/full_npc_dendrite-starblaze-546eb108719277e29e30/1-0000.mp3", duration = 58.4097959, start = 0},
   },
 }
 P.transport["npc:devrak"] = {
@@ -150,7 +150,7 @@ P.transport["npc:devrak"] = {
   fullHash = "d4420c",
   text = "Devrak. At the Crossroads, Devrak keeps the Horde’s wind riders ready for flights across Kalimdor. He carries couriers and supplies between Durotar, Mulgore, frontier outposts, and the Horde’s capitals. At the Crossroads, Devrak tends the wind riders that connect the Horde’s distant holdings. The outpost stands where Kalimdor’s major trade routes meet, exposed beneath the sun and vulnerable to quilboar, centaur, and Alliance scouts. Quick flights matter here. Devrak pairs seasoned travelers and new messengers with trained wind riders to cross the savannah and reach Mulgore’s mountains or Durotar’s stone canyons. Devrak helps move supplies from the frontier. Barrens hunters bring in meat and pelts, and he helps send them to Orgrimmar’s cooking fires and Thunder Bluff’s tanners. He introduces new couriers to flight masters across the continents, keeping an aerial route open to the Horde’s heartlands. Devrak tends more than beasts at the Crossroads. When the settlement comes under attack, he calls enraged wyverns to strike intruders with venomous stingers and talons. His roost is a dangerous target for anyone who attacks.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_devrak-910e8393c03a55fdd0f4/1-0000.mp3", duration = 83.957551, start = 0},
+    {file = "Audio/Transport/full_npc_devrak-f23bab3cd59be0c33049/1-0000.mp3", duration = 72.437551, start = 0},
   },
 }
 P.transport["npc:eitrigg"] = {
@@ -158,7 +158,7 @@ P.transport["npc:eitrigg"] = {
   fullHash = "aea44b",
   text = "Eitrigg. In Orgrimmar, Eitrigg counsels Warchief Thrall and helps guide the Horde toward honor and shamanism. He fought in the First and Second Wars, then left the defeated Blackrock Horde and lived in exile. Born on Draenor among the Blackrock clan, Eitrigg fought for the Horde in the First and Second Wars. Defeat in the Second War made him see how far his people had fallen into bloodlust and demonic corruption. Sickened by what the Horde had become, he left its scattered remnants and sought solitude in the wilds of Lordaeron. During his exile, Eitrigg sheltered in an abandoned tower near Hearthglen. The human paladin Tirion Fordring found him, and their clash brought the tower’s ruins down around them. Eitrigg pulled the unconscious human to safety instead of finishing him. Moved by this act of martial honor, Tirion swore friendship and kept the hermit’s location secret.\n\nThe local Alliance authorities eventually captured Eitrigg and sentenced him to hang in Stratholme. Tirion cast aside his knighthood, lands, and freedom to attack the city and rescue him. Their bond showed both warriors that honor could cross the hatred between their peoples. In Stratholme, Thrall’s newly united Horde raided the city during Tirion’s attempt to free Eitrigg and carried the aging warrior away. Meeting Thrall convinced Eitrigg that the orcs were casting off demonic corruption and returning to their ancestral shamanic heritage. He crossed the Great Sea with Thrall to Kalimdor and took a revered place in Orgrimmar’s Valley of Wisdom.\n\nNow Eitrigg advises the young Warchief inside Grommash Hold. He helps evaluate new recruits and shares the wisdom he earned, so the New Horde does not repeat the tragedies of the past.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_eitrigg-437c3249d08f18602e49/1-0000.mp3", duration = 102.50449, start = 0},
+    {file = "Audio/Transport/full_npc_eitrigg-71a2ad59b5cffcca1081/1-0000.mp3", duration = 121.39102, start = 0},
   },
 }
 P.transport["npc:executor-arren"] = {
@@ -166,7 +166,7 @@ P.transport["npc:executor-arren"] = {
   fullHash = "8bf13d",
   text = "Executor Arren. At Deathknell, Executor Arren rallies the settlement's defense as undead rise from their graves. He leads the fight against Scourge zombies, wild beasts, and threats to the Forsaken. Executor Arren directs Deathknell's defense from outside the chapel. In the crypts, caretakers guide the newly risen through their confusion. Arren turns their thoughts to surviving beyond the graves. Under Queen Sylvanas Windrunner's banner, he organizes the effort to clear mindless zombies from the village borders. Here, in the shadow of Lordaeron's fall, the Forsaken hold their ground. Beyond the confused newly risen, danger surrounds Deathknell. Under Arren's orders, scouts and initiates strike at vicious spiders in Night Web's Hollow and hunt predators along the woodland edges. He calls every capable hand to act. Their work tests whether new arrivals can defend their second chance and serve the Dark Lady.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_executor-arren-c841f6d79768e8bdcbc7/1-0000.mp3", duration = 70.0342857, start = 0},
+    {file = "Audio/Transport/full_npc_executor-arren-9ee0644c99fb0bec604f/1-0000.mp3", duration = 60.8914286, start = 0},
   },
 }
 P.transport["npc:executor-zygand"] = {
@@ -174,7 +174,7 @@ P.transport["npc:executor-zygand"] = {
   fullHash = "40dcff",
   text = "Executor Zygand. In Brill, Executor Zygand directs the Forsaken defenses across central Tirisfal Glades. He reports to the Undercity's high command and coordinates the fight against Scarlet Crusade forces pressing into Forsaken lands. After the Forsaken awakened in Deathknell, Executor Zygand took charge of regional defenses from Brill. Officers such as Executor Arren and field sentries such as Deathguard Linnea report to him. Zygand gathers scouts' reports and sends able recruits to guard Lordaeron's borders against encroachment. The Scarlet Crusade's presence across Tirisfal Glades keeps Executor Zygand busy. He sends agents against Crusader scouts, encampments, and forward bases. That work keeps the zealots from gathering enough strength to threaten the approaches to the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_executor-zygand-f46dc936cbaf883fad77/1-0000.mp3", duration = 62.0146939, start = 0},
+    {file = "Audio/Transport/full_npc_executor-zygand-ff7fa175e6d2c710acd4/1-0000.mp3", duration = 59.2195918, start = 0},
   },
 }
 P.transport["npc:gan-rul-bloodeye"] = {
@@ -182,7 +182,7 @@ P.transport["npc:gan-rul-bloodeye"] = {
   fullHash = "b5bed3",
   text = "Gan'rul Bloodeye. Beneath Orgrimmar, Gan'rul Bloodeye teaches warlocks the arts of fel magic. In the Cleft of Shadow, Horde initiates learn demonic rites and how to bend voidwalkers and succubi to their will. Warlocks study out of sight in the Cleft of Shadow beneath Orgrimmar. Warchief Thrall allows them in the new Horde, though Durotar's open sunlight is no place for their dark arts. The cavern gives shadow weavers, rogues, and fel casters room to study undisturbed. There, Gan'rul teaches those rising in the practice of fel magic. Ambitious warlocks come to Gan'rul to learn dangerous summoning rites. To bind a greater demon, such as a resilient voidwalker or a seductive succubus, they must gather ritual components and learn the precise incantations. Then the summoned creature must be dominated before it consumes its master.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gan-rul-bloodeye-4fc16209af7f2ae5f16a/1-0000.mp3", duration = 50.8604082, start = 0},
+    {file = "Audio/Transport/full_npc_gan-rul-bloodeye-d2b76d09a365cb2c1ec7/1-0000.mp3", duration = 63.1379592, start = 0},
   },
 }
 P.transport["npc:gann-stonespire"] = {
@@ -190,7 +190,7 @@ P.transport["npc:gann-stonespire"] = {
   fullHash = "45230c",
   text = "Gann Stonespire. Along the southern Barrens road near Bael Modan, Gann Stonespire seeks to answer the loss of his people’s homeland. His tribe hunted there before a dwarven excavation took the land. Gann Stonespire camps beside the southern Barrens road. The dwarven expedition came from Ironforge and built Bael Modan on his tribe’s ancestral land and hunting grounds. Its miners drove the tauren from their soil with pickaxes, firearms, and heavy machinery. They refused peaceful overtures, so Gann calls on travelers to strike back at the excavators rather than surrender his heritage quietly.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gann-stonespire-935b75576220baf5f143/1-0000.mp3", duration = 43.2065306, start = 0},
+    {file = "Audio/Transport/full_npc_gann-stonespire-9167b94f89c94e40031a/1-0000.mp3", duration = 39.6277551, start = 0},
   },
 }
 P.transport["npc:gazrog"] = {
@@ -198,7 +198,7 @@ P.transport["npc:gazrog"] = {
   fullHash = "f79cbd",
   text = "Gazrog. At the Crossroads, Gazrog watches the Horde’s roads and supply lines. He calls on passing Horde travelers to confront threats in the Barrens and seek lost patrols. Gazrog watches the Crossroads and the roads beyond. Marauders and beasts threaten the supplies moving through this isolated settlement, so he works with its defenders to keep cargo, coin, and couriers moving. The wilderness needs constant attention. Gazrog relies on passing travelers to answer trouble beyond the outpost’s stockades. Gazrog’s watch reaches trails where raptors prey on travelers and quilboar clans ambush scouts. He coordinates responses to highway robberies and the recovery of stolen Horde shipments. He also tracks missing soldiers, including the grunt Dogran, who is injured and held by the quilboar.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gazrog-7d2f9e92f774c4f37b35/1-0000.mp3", duration = 63.6604082, start = 0},
+    {file = "Audio/Transport/full_npc_gazrog-c60428ba2f7304b7115e/1-0000.mp3", duration = 51.7746939, start = 0},
   },
 }
 P.transport["npc:gornek"] = {
@@ -206,7 +206,7 @@ P.transport["npc:gornek"] = {
   fullHash = "7a83a7",
   text = "Gornek. In the Valley of Trials, Gornek oversees new orc and Darkspear troll recruits preparing to prove their worth to the New Horde. At the Valley of Trials, Gornek assesses new Horde recruits and gives them their first test of discipline. Warchief Thrall's order is clear: every youth and newcomer must earn a place through grit and perseverance. Gornek reads their introductory orders and directs them to trainers around the compound. Whether they carry an encrypted scrawl, a glyphic parchment, or a simple tablet, he receives their credentials and sends them onto a hard path of survival. The valley's arid canyons test battle skill and teach the New Horde's communal ways. Gornek keeps novices from lingering, pointing them toward nearby scorpid burrows, feral boar dens, and veteran instructors. Those who survive the training grounds and slay the threats in the red rock gullies receive his final acknowledgment. Then he sends them into Durotar's wider, perilous landscape.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gornek-83a61a45a05cb970ca8a/1-0000.mp3", duration = 77.322449, start = 0},
+    {file = "Audio/Transport/full_npc_gornek-b9ee1998832e099ba0cf/1-0000.mp3", duration = 61.4138776, start = 0},
   },
 }
 P.transport["npc:gunther-arcanus"] = {
@@ -214,7 +214,7 @@ P.transport["npc:gunther-arcanus"] = {
   fullHash = "ec1bec",
   text = "Gunther Arcanus. On an island in Brightwater Lake, Gunther Arcanus keeps apart from others after escaping the Lich King's control. He believes every other undead remains a Scourge thrall. During the Third War, the Scourge swept across the north. The Plague of Undeath killed Gunther and raised him to serve. His mastery of the arcane and iron will let him break the Lich King's mental hold alone. He needed neither the Lich King's weakening nor Lady Sylvanas's help, as others did.\n\nBelieving every other walking corpse remained a mindless Scourge thrall, Gunther withdrew to an island in Tirisfal Glades. Shambling guardians surround him. He has cut off all contact with the living and the dead alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gunther-arcanus-db00726ab913aa689870/1-0000.mp3", duration = 55.1967347, start = 0},
+    {file = "Audio/Transport/full_npc_gunther-arcanus-bfb544eb34a75ef4cf5b/1-0000.mp3", duration = 50.8081633, start = 0},
   },
 }
 P.transport["npc:high-executor-hadrec"] = {
@@ -222,7 +222,7 @@ P.transport["npc:high-executor-hadrec"] = {
   fullHash = "d9e1ea",
   text = "High Executor Hadrec. At the Sepulcher, High Executor Hadrec directs the Forsaken garrison across Silverpine Forest. He oversees defense against threats such as the Rot Hide gnolls and investigates scouts missing across the zone. High Executor Hadrec directs Forsaken military operations from the Sepulcher in Silverpine Forest. The Dark Lady’s forces hold Tirisfal Glades, but Silverpine faces hostile Dalaran mages, feral worgen, and encroaching gnolls. Hadrec must strengthen Forsaken control and suppress threats to Undercity authority south of the capital. The Rot Hide gnolls and Fenris Isle occupy much of Hadrec’s attention. Tainted by undeath, the beasts have overrun the Dead Fields and the shores of Lake Lordamere, threatening Forsaken patrols. Hadrec sends agents to search ruined ferries and farmsteads for clues, learn what empowers the gnolls, and prepare a strike against their island stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_high-executor-hadrec-46e779909d5560cd832a/1-0000.mp3", duration = 57.9657143, start = 0},
+    {file = "Audio/Transport/full_npc_high-executor-hadrec-fcec5277caacaea5fd9d/1-0000.mp3", duration = 60.9959184, start = 0},
   },
 }
 P.transport["npc:islen-waterseer"] = {
@@ -230,7 +230,7 @@ P.transport["npc:islen-waterseer"] = {
   fullHash = "fd0d7e",
   text = "Islen Waterseer. At the Tidus Stair, Islen Waterseer guides Horde initiates through the trials of water. The respected tauren shaman lives by a quiet fishing hut and teaches shamans to attune to water spirits as they seek their Water Totem. On the Barrens coast, Islen Waterseer keeps to the craggy Tidus Stair, where the arid plains meet the Great Sea. Water spirits are raw and near along this shore. She chose this quiet outpost over thunderous halls and busy cities, and spends her days listening to the tides. Shamans seeking communion with water come to her for guidance. A shaman needs inner harmony and spiritual sight as well as study to know water. Islen guides seekers in preparing the Water Sapta, a sacred brew that lets mortal senses perceive elemental beings. She teaches that water can be unyielding and deep, yet fluid and restorative. Anyone who calls on its aid must show it great respect. Islen lives quietly on the coast, but her spiritual ties reach across Kalimdor. She shares a close and enduring friendship with Greta Mosshoof, another wise tauren skilled in the restorative arts. Islen's knowledge of water's purifying nature reaches beyond the Barrens, bringing spiritual aid to lands afflicted by deep corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_islen-waterseer-77ff5ebeb1d441d5e5e5/1-0000.mp3", duration = 96.5485714, start = 0},
+    {file = "Audio/Transport/full_npc_islen-waterseer-e945ede8d32c90d11daf/1-0000.mp3", duration = 79.595102, start = 0},
   },
 }
 P.transport["npc:kadrak"] = {
@@ -238,7 +238,7 @@ P.transport["npc:kadrak"] = {
   fullHash = "c9dd72",
   text = "Kadrak. At the Mor'shan Rampart, Kadrak guards the northern road into Ashenvale. He sends reports and reinforcements toward the fighting between the Horde and the night elves. Kadrak watches over the main road from the Barrens into Ashenvale. The Mor'shan Rampart marks a hard border, with Horde-held plains to the south and woods guarded by night elves to the north. Sentinels and hostile woodland creatures threaten the line, so Kadrak keeps watch against incursions. Kadrak receives military reports from the Barrens and the logging camps deeper in Ashenvale. Couriers bring news from the Warsong Outriders, and he directs supplies and reinforcements to outposts such as Splintertree Post. Those who report to him are sent onward into the struggle for the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kadrak-2fc3db918301aab61d56/1-0000.mp3", duration = 67.604898, start = 0},
+    {file = "Audio/Transport/full_npc_kadrak-774b7658ea4d95a35f02/1-0000.mp3", duration = 50.8342857, start = 0},
   },
 }
 P.transport["npc:magatha-grimtotem"] = {
@@ -246,7 +246,7 @@ P.transport["npc:magatha-grimtotem"] = {
   fullHash = "5f1237",
   text = "Magatha Grimtotem. On Elder Rise, Magatha Grimtotem presses her challenge to Cairne Bloodhoof's vision for the tauren. The Grimtotem matriarch and Thunder Bluff's Elder Crone is a formidable shaman and political schemer. Magatha Grimtotem leads the Grimtotem tribe from Elder Rise, with her own retinue and bodyguards. An arranged union brought her authority, then her mate died in a climbing accident. Her reclusive tribe follows her as its political and spiritual leader. Magatha preaches tauren dominance, against Cairne Bloodhoof's vision. She sees other mortal races as intruders on Kalimdor, to be eradicated or swept aside. Though Magatha openly disdains other races, she was among the first to argue that the Forsaken should join the Horde. She says the tauren can teach the undead spiritual balance and help them reclaim their humanity. Beneath Thunder Bluff, she also works directly with the Royal Apothecary Society. There she consults figures such as Apothecary Zamah about practical alchemy and arcane relics.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magatha-grimtotem-32b02e37b293c59b2d65/1-0000.mp3", duration = 61.2571429, start = 0},
+    {file = "Audio/Transport/full_npc_magatha-grimtotem-f9b59af1ffe0218c048e/1-0000.mp3", duration = 78.9942857, start = 0},
   },
 }
 P.transport["npc:magistrate-sevren"] = {
@@ -254,7 +254,7 @@ P.transport["npc:magistrate-sevren"] = {
   fullHash = "8ad99e",
   text = "Magistrate Sevren. In Brill, Magistrate Sevren directs the settlement’s defense and sends newcomers to steady the lands around the Undercity. From Brill’s town hall, Magistrate Sevren directs civil and strategic affairs north of the Undercity. New Forsaken arrive in Tirisfal Glades to find local troubles waiting. Sevren sends them to restore order, secure ruined places, and suppress threats in the surrounding hills. The dead of Tirisfal and their burial grounds are chief concerns for Magistrate Sevren. Scourge-aligned Rot Hide gnolls, graverobbers, and rogue undead threaten the graves and Sylvanas Windrunner’s growing dominion. Sevren seeks to reclaim ancestral tombs such as the Agamand Family Crypt. He also keeps deserters and uncooperative forces from undermining Forsaken authority.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magistrate-sevren-4d61a7081078d4c71165/1-0000.mp3", duration = 64.4963265, start = 0},
+    {file = "Audio/Transport/full_npc_magistrate-sevren-769d63eb0127d79c1539/1-0000.mp3", duration = 57.9134694, start = 0},
   },
 }
 P.transport["npc:mangletooth"] = {
@@ -262,7 +262,7 @@ P.transport["npc:mangletooth"] = {
   fullHash = "f19f94",
   text = "Mangletooth. At Camp Taurajo, Mangletooth bargains from a Horde cage while execution awaits. He offers knowledge of his rivals and the ancient lore of Agamaggan in exchange for help. Tauren hunters and orc sentries hold Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, yet still tries to sway his captors and the Horde visitors who come to him. He urges them to strike his tribe’s enemies, hoping to prove his worth or win his freedom. Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan’s spilled blood gave rise to the Barrens’ massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels their lingering divine power, granting ancient blessings to those who help him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mangletooth-36b5d3afd1e182321d3f/1-0000.mp3", duration = 57.835102, start = 0},
+    {file = "Audio/Transport/full_npc_mangletooth-11f32d06d23ce3704b08/1-0000.mp3", duration = 49.5281633, start = 0},
   },
 }
 P.transport["npc:master-apothecary-faranell"] = {
@@ -270,7 +270,7 @@ P.transport["npc:master-apothecary-faranell"] = {
   fullHash = "a8207f",
   text = "Master Apothecary Faranell. In the Undercity, Faranell directs the Royal Apothecary Society from the depths of the Apothecarium. Once a respected Dalaran scholar, he now leads the Forsaken’s search for a New Plague to destroy the Scourge and the living. Before the Third War, Faranell spent decades studying alchemy beside Dalaran’s learned mages. In life, he sought cures, remedies, and potions to better mortal health. The Scourge plague killed him, but he rose again as a free-willed Forsaken. His curiosity turned cruel, and healing salves gave way to catastrophic reagents. His vast knowledge made him one of Queen Sylvanas Windrunner’s most valued researchers in the depths of Lordaeron’s fallen capital. From the Apothecarium, Faranell directs the Royal Apothecary Society’s far-reaching research. He oversees the making of lumbering abominations and guides apothecaries stationed throughout Lordaeron and beyond. Field researchers gather strange venom, tainted blood, and cursed flora across the continents. Each batch goes into his vats for distillation and refinement.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_master-apothecary-faranell-22c51b18d369a0043f48/1-0000.mp3", duration = 64.5485714, start = 0},
+    {file = "Audio/Transport/full_npc_master-apothecary-faranell-ab3ee38dfa795a94f8ab/1-0000.mp3", duration = 75.7289796, start = 0},
   },
 }
 P.transport["npc:master-gadrin"] = {
@@ -278,7 +278,7 @@ P.transport["npc:master-gadrin"] = {
   fullHash = "caf746",
   text = "Master Gadrin. In Sen'jin Village, Master Gadrin guides the Darkspear through exile and grief. Once a teacher of priests and mages, he now serves his people and seeks to lift the dark curse over their home on the Echo Isles. Before the Darkspear came to Kalimdor, Master Gadrin guided his people across generations in the South Seas. He served as a witch doctor on their island home and taught the tribe its mystical ways. On the Echo Isles, Master Gadrin trained the tribe's priests and mages with the young witch doctor Zalazane. But the dark voodoo Zalazane sought to wield took hold of him, and madness followed. He enslaved his people's minds and drove Vol'jin and the uncorrupted Darkspear to Durotar's mainland.\n\nNow Gadrin lives in Sen'jin Village with the grief of seeing his companion become a tyrant. He works to lay slain tribesfolk to rest and bring Zalazane's rule to an end. Master Gadrin knows more of troll spiritualism and loa lore than almost anyone alive in the Horde. Scholars, shamans, and the Royal Apothecary Society seek his counsel on arcane and alchemical mysteries. When the Burning Blade threatens Durotar or distant researchers need forgotten rites, Gadrin draws on that knowledge.\n\nHe sends adventurers to Zul'Farrak to read the tablet bearing Shadra the spider loa's true name. Then he crafts the binding the rite requires.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_master-gadrin-f312b0f9d5e802d663f9/1-0000.mp3", duration = 118.125714, start = 0},
+    {file = "Audio/Transport/full_npc_master-gadrin-366cc78d4be50296e33a/1-0000.mp3", duration = 94.2236735, start = 0},
   },
 }
 P.transport["npc:mebok-mizzyrix"] = {
@@ -286,7 +286,7 @@ P.transport["npc:mebok-mizzyrix"] = {
   fullHash = "294492",
   text = "Mebok Mizzyrix. In Ratchet, Mebok Mizzyrix hires travelers to gather strange finds across the Barrens and beyond. This goblin entrepreneur hopes to turn unusual plants and creatures into profit. His best-known venture is a drink made with raptor horns, meant to sharpen the mind. Mebok Mizzyrix works from Ratchet, a neutral port where sailors, pirates and merchants meet. He carries the Steamwheedle spirit of seizing every chance for profit. Rather than deal in ore or cloth, he seeks rare creatures and plants from Kalimdor’s wilds. He believes they can be made into valuable brews and goods. Mebok’s chief venture is a drink he hopes will boost the drinker’s intellect. He believes the cunning and ferocity of local raptors come from the horns on their snouts. So he hires hunters to bring him whole horns from across the Barrens. Ethics and taste matter less to him than the chance to sell a brew customers believe works. Mebok also seeks strange specimens beyond raptor horns. He wants volatile Deepmoss spider eggs and rare Blueleaf tubers buried in the brambles of Razorfen Kraul. These commissions send mercenaries into dangerous country. Mebok believes any creature or plant with strange properties can be bottled and sold.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mebok-mizzyrix-1dcd2a8a296bf1b86cc3/1-0000.mp3", duration = 105.299592, start = 0},
+    {file = "Audio/Transport/full_npc_mebok-mizzyrix-4c8a12bf5d38caaca821/1-0000.mp3", duration = 76.9044898, start = 0},
   },
 }
 P.transport["npc:melor-stonehoof"] = {
@@ -294,7 +294,7 @@ P.transport["npc:melor-stonehoof"] = {
   fullHash = "63866b",
   text = "Melor Stonehoof. On Hunter Rise in Thunder Bluff, Melor Stonehoof sends Horde hunters to face dangerous beasts. Their trials across the Barrens and Thousand Needles test tracking and mettle. From Hunter Rise in Thunder Bluff, Melor Stonehoof watches the plains. To the tauren, hunting joins survival with spiritual balance and respect for nature’s greatest predators. He teaches Horde bowmen and bladesmen to honor that balance, sending promising stalkers to test their craft against legendary beasts. Melor sends hunters after elusive beasts that threaten the wilds. In the Barrens, they aid Sergra Darkthorn at the Crossroads. Then they pursue Steelsnap, a cunning and vicious hyena in Thousand Needles. These trials show whether hunters can outsmart and outfight central Kalimdor’s deadliest creatures. Those who prove their skill in the Barrens face beasts in distant lands. Melor sends seasoned hunters after Deadmire, an ancient crocolisk in the swamps of Dustwallow Marsh, and Frostmaw, a savage yeti in the Alterac Mountains. Each hunt tests whether a stalker has mastered the Hunter’s Way.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_melor-stonehoof-e408812b9bcf7adccb65/1-0000.mp3", duration = 67.9183673, start = 0},
+    {file = "Audio/Transport/full_npc_melor-stonehoof-06626753bae31cfc5a20/1-0000.mp3", duration = 73.7436735, start = 0},
   },
 }
 P.transport["npc:menara-voidrender"] = {
@@ -302,7 +302,7 @@ P.transport["npc:menara-voidrender"] = {
   fullHash = "fa5510",
   text = "Menara Voidrender. In Ratchet, Menara Voidrender teaches warlocks of both factions the dark arts. From this refuge in Kalimdor, the human warlock shares her knowledge of demon-binding artifacts and arcane craft, far from orthodox authorities. Menara Voidrender works from Ratchet, the neutral goblin port in the Barrens. Many warlocks in the Eastern Kingdoms study in cellars or hidden slaughterhouses beneath their cities. Ratchet keeps Menara far from the Kirin Tor, Stormwind's guards, and Orgrimmar's overseers, so she can pursue occult studies in plain sight. She teaches any capable apprentice, whatever their faction, and gives practitioners of the dark arts a rare place to meet. Veteran conjurers know Menara as an authority on orbs that imprison and harness demonic spirits. She works with intricate reagents and guides apprentices through demanding rituals to make enchanted attire and binding implements. Her skill is known as far as Ironforge and the Undercity. Senior warlocks across Azeroth send their most promising students across the sea to seek her counsel.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_menara-voidrender-9ac7f97fed772d86b63d/1-0000.mp3", duration = 84.3493878, start = 0},
+    {file = "Audio/Transport/full_npc_menara-voidrender-59c366c9662522afbb12/1-0000.mp3", duration = 75.4677551, start = 0},
   },
 }
 P.transport["npc:morin-cloudstalker"] = {
@@ -310,7 +310,7 @@ P.transport["npc:morin-cloudstalker"] = {
   fullHash = "def469",
   text = "Morin Cloudstalker. Along the eastern road from Bloodhoof Village, Morin Cloudstalker keeps watch over Mulgore. The tauren scout follows trade routes and investigates dangers to travelers. Morin Cloudstalker watches the trail east toward the Barrens. He scouts the road and guards travelers crossing Mulgore. The plains are usually peaceful, but shifting territories and busy trade routes have brought opportunists and bandits near the tauren homeland. Morin's scouts attacked and burned a Venture Co. caravan on Stonebull Lake's northern shore. Goblin salvagers soon appeared by the wagons. So Morin sent adventurers to inspect the surviving supply crates and learn what the Venture Co. had been hauling.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_morin-cloudstalker-4224dddda359f3a663ce/1-0000.mp3", duration = 62.4065306, start = 0},
+    {file = "Audio/Transport/full_npc_morin-cloudstalker-5572075ee0175041ee06/1-0000.mp3", duration = 43.4677551, start = 0},
   },
 }
 P.transport["npc:mull-thunderhorn"] = {
@@ -318,7 +318,7 @@ P.transport["npc:mull-thunderhorn"] = {
   fullHash = "a88e3c",
   text = "Mull Thunderhorn. In Bloodhoof Village, Mull Thunderhorn keeps Mulgore’s sacred wells and the land’s balance. He serves the Earth Mother and guides young tauren as outside exploitation threatens the ancestral springs. From Bloodhoof Village, Mull Thunderhorn watches over Mulgore’s spiritual well-being. The nomadic tribes have gathered under High Chieftain Cairne Bloodhoof to make a permanent home, but greed and reckless expansion already threaten their lands. So Mull guides young braves setting out from Camp Narache and calls on them to guard their ancestors’ vital resources.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mull-thunderhorn-f9b38e936a6c12c23e2b/1-0000.mp3", duration = 49.6587755, start = 0},
+    {file = "Audio/Transport/full_npc_mull-thunderhorn-9c31a48b66d36196691c/1-0000.mp3", duration = 33.6195918, start = 0},
   },
 }
 P.transport["npc:orgnil-soulscar"] = {
@@ -326,7 +326,7 @@ P.transport["npc:orgnil-soulscar"] = {
   fullHash = "ae1db4",
   text = "Orgnil Soulscar. At Razor Hill, Orgnil Soulscar watches for danger among the orcs of Durotar. He gathers reports and helps direct defenses, with the Burning Blade cult in the canyons foremost in his thoughts. Orgnil Soulscar watches for hidden threats across Durotar from Razor Hill. Grunt patrols guard against Alliance forces and centaur raiders, while he searches for danger among the orcs themselves. Scouts bring reports from across the region. Orgnil studies them for signs of corrupt rites and secret gatherings.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_orgnil-soulscar-483d3ea9496585c0095b/1-0000.mp3", duration = 39.5755102, start = 0},
+    {file = "Audio/Transport/full_npc_orgnil-soulscar-a415f1affd3a783fa7be/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["npc:shadow-priest-allister"] = {
@@ -334,7 +334,7 @@ P.transport["npc:shadow-priest-allister"] = {
   fullHash = "87bed3",
   text = "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Allister commands the Forsaken scouts who range out from the Sepulcher, the main settlement on the Silverpine road. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shadow-priest-allister-6f33dd1e22f3035117f2/1-0000.mp3", duration = 66.5077551, start = 0},
+    {file = "Audio/Transport/full_npc_shadow-priest-allister-619fb4b003c69ee25a55/1-0000.mp3", duration = 73.8220408, start = 0},
   },
 }
 P.transport["npc:shadow-priest-sarvis"] = {
@@ -342,7 +342,7 @@ P.transport["npc:shadow-priest-sarvis"] = {
   fullHash = "a437e8",
   text = "Shadow Priest Sarvis. In Deathknell's ruined chapel, Shadow Priest Sarvis gives the newly awakened Forsaken purpose and direction. In Deathknell, Shadow Priest Sarvis guides Forsaken who have just risen from their graves. The awakening can be harsh and frightening. Some lose their minds to frenzy or despair, so Sarvis gives the newly risen a purpose. He sends them to put down the mindless corpses roaming the cemetery and guard Deathknell's borders against the Scourge. Shadow Priest Sarvis directs Deathknell's defenses against threats in Tirisfal Glades. Scourge forces test the town's perimeter, so Sarvis sends novices to gather vital intelligence and face trials of arms. The Forsaken must hold Deathknell against those forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shadow-priest-sarvis-c59cefdb7b2649d4b28e/1-0000.mp3", duration = 63.764898, start = 0},
+    {file = "Audio/Transport/full_npc_shadow-priest-sarvis-9141ee37a20be39624e7/1-0000.mp3", duration = 48.875102, start = 0},
   },
 }
 P.transport["npc:shael-dryn"] = {
@@ -358,7 +358,7 @@ P.transport["npc:shenthul"] = {
   fullHash = "882db3",
   text = "Shenthul. In Orgrimmar's Cleft of Shadow, Shenthul trains rogues for the Shattered Hand. He guides covert work across Kalimdor and brings promising rogues into its ranks. Shenthul teaches rogues in Orgrimmar's Cleft of Shadow. Warriors and shamans march openly across Durotar, but his students learn stealth, ambush, and subterfuge. They train in fieldcraft and lethal arts for work in Kalimdor's harsh wilderness and unforgiving politics. Shenthul speaks for the Shattered Hand, once an orcish clan and now the Horde's intelligence network and secret service. He calls it a watchful presence across Kalimdor, investigating, judging, and carrying out its own sentences. The order follows its own course through shifting politics. It existed before Warchief Thrall took power and will endure after him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shenthul-9094b3589026eb273c29/1-0000.mp3", duration = 49.7632653, start = 0},
+    {file = "Audio/Transport/full_npc_shenthul-48492d6eaf60c49e77f5/1-0000.mp3", duration = 56.8685714, start = 0},
   },
 }
 P.transport["npc:sputtervalve"] = {
@@ -366,7 +366,7 @@ P.transport["npc:sputtervalve"] = {
   fullHash = "4ab2d9",
   text = "Sputtervalve. In Ratchet, Sputtervalve races to finish shredder research for the Tinkers' Union. Director Riddlevox sets crushing deadlines, so Sputtervalve hires adventurers to steal designs from the rival Venture Company. In Ratchet, goblin engineer Sputtervalve answers to Director Riddlevox of the Tinkers' Union. He oversees shredder development, and the work has grown brutal. Mechanization moves fast, the Venture Company presses hard, and his own prototypes are few. With the deadline near, Sputtervalve fears admitting failure to the Union. So he turns to a familiar goblin practice: stealing better designs from those who made them first. The Venture Company's drilling operation at the Sludge Fen, to the northwest, is Sputtervalve's chief target. Its latest shredders have interchangeable hands, refined control grips, and advanced inner workings. Among them is the elusive samophlange. Sputtervalve sent his associate Wizzlecrank into the Fen for field research, but Wizzlecrank became trapped. Now Sputtervalve hires wandering mercenaries to recover the stolen technology and rescue his partner. Sputtervalve also helps with strange curiosities found in the Barrens. Adventurers sometimes bring him bizarre artifacts corrupted in the Wailing Caverns, such as a glowing shard. Though machinery is his trade, he knows the local land well. He points those who bring him such things toward the isolated druids encamped above the caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sputtervalve-1ec6d4489c69e2a412d5/1-0000.mp3", duration = 106.710204, start = 0},
+    {file = "Audio/Transport/full_npc_sputtervalve-3569692d3f6d3fd89074/1-0000.mp3", duration = 88.2938776, start = 0},
   },
 }
 P.transport["npc:strahad-farsan"] = {
@@ -374,7 +374,7 @@ P.transport["npc:strahad-farsan"] = {
   fullHash = "c6221a",
   text = "Strahad Farsan. Above Ratchet, Strahad Farsan teaches warlocks to bind demons. The human warlock lives in a stone tower in the Barrens, beyond the reach of Alliance and Horde politics. Students of fel magic travel from Stormwind, Orgrimmar, and the Undercity to learn from him. Strahad Farsan keeps to a stone tower on the bluffs above Ratchet. The goblin port is neutral ground, far from Alliance magistrates and Horde shamans. There he practices dangerous summonings and studies the Twisting Nether. His acolytes gather around him, while struggles over territory continue below. Strahad learned the danger of demonic binding firsthand. His first attempt to bind a felhunter nearly cost him his life. Since then, he has been cautious and exacting. Though human, he has earned the respect of Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks from either faction seeking to command felhunters or fiery steeds are sent to his tower.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_strahad-farsan-4f95b045f34860e8bfa3/1-0000.mp3", duration = 77.0873469, start = 0},
+    {file = "Audio/Transport/full_npc_strahad-farsan-404808d807b4217913e7/1-0000.mp3", duration = 70.0865306, start = 0},
   },
 }
 P.transport["npc:sylvanas-windrunner"] = {
@@ -382,7 +382,7 @@ P.transport["npc:sylvanas-windrunner"] = {
   fullHash = "c349c3",
   text = "Sylvanas Windrunner. Beneath Lordaeron's ruins, Sylvanas Windrunner rules the Forsaken from the Undercity. Once Silvermoon's Ranger-General, she was slain and raised by Arthas Menethil, then broke free of the Lich King's control. She joined Thrall's Horde to secure her people's future and seeks vengeance on the Scourge. Sylvanas Windrunner commanded Quel'Thalas's defense as Silvermoon's Ranger-General. When Prince Arthas Menethil led the Scourge into the high elven kingdom for the Sunwell, she fought to stop him. Angered by her resistance, Arthas murdered her and denied her a clean death. He tore her soul from her body and made her a vengeful banshee, forcing her to serve the Scourge and help slaughter her own people. After the Third War, the Lich King's weakening grip freed Sylvanas, and she reclaimed her preserved body. She gathered other undead who had regained their free will, then drove the dreadlords from Lordaeron's ruins. She named her people the Forsaken and made the Undercity their realm beneath the ruins.\n\nThe Forsaken faced Scourge remnants, zealous Scarlet crusaders, and wary human realms. They needed allies, so Sylvanas made an uneasy alliance with Warchief Thrall and the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sylvanas-windrunner-613ccdd9ce20ee415ad1/1-0000.mp3", duration = 71.6538776, start = 0},
+    {file = "Audio/Transport/full_npc_sylvanas-windrunner-57d55af2fb8e07e24d81/1-0000.mp3", duration = 79.8302041, start = 0},
   },
 }
 P.transport["npc:telf-joolam"] = {
@@ -390,7 +390,7 @@ P.transport["npc:telf-joolam"] = {
   fullHash = "66741a",
   text = "Telf Joolam. At the Shrine of the Dormant Flame, Telf Joolam guides Horde initiates in the ways of fire. The Darkspear shaman teaches them to commune with and command this volatile element. Among the crags above the borderlands, Telf Joolam tends the Shrine of the Dormant Flame. Fire spirits call for sharp discipline and a steady mind. Earth offers calm certainty, and water asks for patience. Telf prepares young shamans for trials where wild embers can consume the unready. Under Telf's guidance, initiates brew and drink a ritual Fire Sapta. It opens their mortal eyes to the unseen elemental planes. Then he sends them up the rocky summits to face burning spirits. Those who earn the flame must honor its ravenous hunger and master their pride.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_telf-joolam-83dc08c32df3dcd9d025/1-0000.mp3", duration = 61.1787755, start = 0},
+    {file = "Audio/Transport/full_npc_telf-joolam-19c109834dac014a7b22/1-0000.mp3", duration = 52.2187755, start = 0},
   },
 }
 P.transport["npc:thork"] = {
@@ -398,7 +398,7 @@ P.transport["npc:thork"] = {
   fullHash = "c80807",
   text = "Thork. At the Crossroads, Thork watches the defenses and keeps supply routes open. He calls on Horde adventurers when raiders threaten the settlement. Thork commands the Crossroads defenses, where roads link Durotar, Mulgore, and lands beyond. Threats press from every side. Quilboar raids, centaur attacks, and harpies on the prowl stretch his forces thin. So Thork calls on capable travelers to meet dangers his guards cannot handle alone. Thork’s watch reaches beyond the Crossroads walls. He sends scouts and messengers north to the Mor’shan Rampart, where they report to Kadrak. The northern and eastern routes carry supplies through the Barrens. Keeping those roads open sustains the Horde’s presence across the scrublands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thork-b07a1fe9bd505a2a48a4/1-0000.mp3", duration = 55.3273469, start = 0},
+    {file = "Audio/Transport/full_npc_thork-531f54d5ffdafdf765ca/1-0000.mp3", duration = 49.5020408, start = 0},
   },
 }
 P.transport["npc:thotar"] = {
@@ -406,7 +406,7 @@ P.transport["npc:thotar"] = {
   fullHash = "7f83dd",
   text = "Thotar. In Razor Hill, Thotar prepares young Horde hunters for Durotar’s wilds. Orcs and trolls come to him after leaving the Valley of Trials to learn tracking and beast taming. Thotar trains Horde hunters in Razor Hill for the wilderness of Durotar. After learning the basics in the Valley of Trials, new recruits come to him to face more dangerous predators. He teaches marksmanship and the respect needed to live alongside and direct Kalimdor’s deadliest creatures. Orcs have passed these traditions down through generations. Thotar sends young hunters into arid canyons to learn the ancient art of taming beasts. There, they calm and bond with native creatures, from venomous scorpids and armored surf crawlers to cunning boars. His lessons teach Horde trackers to build a bond with nature instead of relying on force.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thotar-508e97e0e2c5d7575cae/1-0000.mp3", duration = 63.5820408, start = 0},
+    {file = "Audio/Transport/full_npc_thotar-68dc5b537c01ecac7d20/1-0000.mp3", duration = 51.7485714, start = 0},
   },
 }
 P.transport["npc:thrall"] = {
@@ -414,7 +414,7 @@ P.transport["npc:thrall"] = {
   fullHash = "43a35b",
   text = "Thrall. In Orgrimmar, Thrall rules as Warchief of the Horde and ruler of Durotar. Once a human slave raised to fight in the arena, he freed his people, restored their shamanic ways, and led them across the Great Sea to a new homeland. Thrall was born Go'el to Durotan, chieftain of the Frostwolf, and Draka. Gul'dan's assassins murdered his parents while he was an infant. Human commander Aedelas Blackmoore found him and named him Thrall, meaning slave. At Durnholde Keep, Blackmoore raised him to fight in the arena and taught him human tactics.\n\nWith help from his foster sister Taretha Foxton, Thrall escaped. Drek'Thar, an exiled Frostwolf, led him away from demonic corruption and taught him to master the elemental spirits. Thrall became the first orcish shaman of a new generation. After the Second War, Thrall joined Orgrim Doomhammer in freeing the orcs held in Alliance internment camps. Doomhammer fell in battle and gave Thrall his black plate armor and mighty warhammer, naming him Warchief. Then the mysterious Prophet Medivh brought prophetic visions. Thrall led his people aboard captured human ships across the Great Sea to Kalimdor, escaping the doom that was falling upon the Eastern Kingdoms. In Kalimdor, Thrall remade the Horde from a force of war into an alliance built on survival and honor. He rescued Vol'jin's Darkspear trolls and joined forces with Cairne Bloodhoof's tauren. Together with human and night elf forces, they defeated the Burning Legion atop Mount Hyjal.\n\nThrall founded Durotar and its capital, Orgrimmar, named for his father and mentor. He keeps an uneasy peace with Jaina Proudmoore's Theramore while defending his fragile nation and weighing controversial alliances, including the Forsaken of Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thrall-12a0f52d5f2f40aec5d5/1-0000.mp3", duration = 110.576327, start = 0},
+    {file = "Audio/Transport/full_npc_thrall-4a3b97764d9c107ec715/1-0000.mp3", duration = 125.361633, start = 0},
   },
 }
 P.transport["npc:tonga-runetotem"] = {
@@ -422,7 +422,7 @@ P.transport["npc:tonga-runetotem"] = {
   fullHash = "68ba10",
   text = "Tonga Runetotem. At the Crossroads, Tonga Runetotem seeks the sickness harming the Barrens' oases. Sent from Thunder Bluff, the tauren druid studies the corruption spreading through the region's wildlife before the fragile ecosystem fails. At the Crossroads, Tonga Runetotem studies the changing land of the Barrens. His elders sent him from Mulgore, and he knows the dry savannah well. Travelers see scrub and predators, but Tonga watches for signs of the land's health. Lately, those signs have grown troubling. He seeks travelers to help investigate the scattered oases, the heart of life across the savannah. Tonga bears the Runetotem clan name and the druidic heritage championed by Archdruid Hamuul Runetotem. Hamuul keeps ties with the Cenarion Circle and studies in Moonglade's sacred groves, while scouts like Tonga serve on the frontier. Tonga draws on Moonglade's botanical wisdom to prepare healing salves and counter poisons. His work puts the young tauren druidic tradition to use within the fledgling Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tonga-runetotem-a3b4826a20a93332a496/1-0000.mp3", duration = 73.6653061, start = 0},
+    {file = "Audio/Transport/full_npc_tonga-runetotem-a6106ce4d7ff677cffe6/1-0000.mp3", duration = 73.8220408, start = 0},
   },
 }
 P.transport["npc:turak-runetotem"] = {
@@ -430,7 +430,7 @@ P.transport["npc:turak-runetotem"] = {
   fullHash = "4972f2",
   text = "Turak Runetotem. In Thunder Bluff, Turak Runetotem guides young tauren toward nature and balance. From the Hall of Elders on Elder Rise, he assists Archdruid Hamuul Runetotem and leads novices through trials to commune with spirits and master animal forms. In the Hall of Elders atop Thunder Bluff’s Elder Rise, Turak Runetotem guides those who seek the druid’s path. He assists Archdruid Hamuul Runetotem in bringing the ancient druidic arts back among the tauren. Turak teaches that a druid honors the Earthmother’s will. Strength of body must rest upon spiritual respect and harmony with nature. When fledgling druids are ready for animal forms, Turak sends them into the wider world. He teaches them to join the Cenarion Circle and travel by teleportation across Kalimdor to Moonglade. Turak remembers his own first communion with the Great Bear Spirit as bewildering and intense. To test his students’ courage, he sends them to face Lunaclaw and win the strength of body and heart required for the Path of the Claw. Turak teaches more than the primal forms of combat. He sends his disciples to Dendrite Starblaze to study poison, and Dendrite sends them to help animals poisoned near the Crossroads. Even Turak is surprised by the rash of poisonings.\n\nTurak also guides novices through arduous rites beneath the tides, where they awaken their aquatic form. These trials shape them into protectors able to heal Azeroth’s deepest wounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_turak-runetotem-a8bb6a2760d409276902/1-0000.mp3", duration = 89.4432653, start = 0},
+    {file = "Audio/Transport/full_npc_turak-runetotem-115601b4ffb78c47bbea/1-0000.mp3", duration = 105.926531, start = 0},
   },
 }
 P.transport["npc:varimathras"] = {
@@ -438,7 +438,7 @@ P.transport["npc:varimathras"] = {
   fullHash = "fd95ea",
   text = "Varimathras. In the Royal Quarter, Varimathras advises Lady Sylvanas Windrunner and commands her forces. After defeat in Lordaeron's civil war, he pledged himself to the Banshee Queen and now serves at her right hand. Before the Third War, Kil'jaeden sent Varimathras and his fellow dreadlords to guard the Lich King. They were to ensure Ner'zhul's spirit served the Legion's plans. With his brothers Detheroc and Balnazzar, Varimathras oversaw the Scourge in Lordaeron while Archimonde invaded Kalimdor.\n\nThe Legion fell at Mount Hyjal, but the three dreadlords stayed entrenched in the Capital City's ruins. They learned of their master's defeat only when Prince Arthas returned and drove them into hiding. As the Lich King's hold over his undead weakened, Varimathras tried to make the newly freed banshee Sylvanas Windrunner serve the dreadlords' new regime. Sylvanas refused and rallied liberated undead to destroy his outpost. Facing execution, Varimathras begged for his life and offered tactical secrets, including knowledge of his brothers' fortifications. Sylvanas spared him and bound him to her service as a weapon against his kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_varimathras-f8b2888425b7a327a4ca/1-0000.mp3", duration = 69.12, start = 0},
+    {file = "Audio/Transport/full_npc_varimathras-145b05aa5448d2c07308/1-0000.mp3", duration = 85.3681633, start = 0},
   },
 }
 P.transport["npc:vol-jin"] = {
@@ -446,7 +446,7 @@ P.transport["npc:vol-jin"] = {
   fullHash = "406764",
   text = "Vol'jin. In Orgrimmar, Vol'jin counsels Warchief Thrall and seeks a lasting home for his people. The Darkspear chieftain is a master shadow hunter. After his father Sen'jin dies on their ancestral island, Vol'jin leads the Darkspear. Sea witch-worshipping murlocs and human forces nearly destroy the isolated tribe. Thrall's orcs intervene, and a deep bond forms between the orcs and trolls. Fleeing the ruined islands, Vol'jin pledges his people to the New Horde and leads them across the Great Sea to Kalimdor. The Darkspear settle in Durotar, but Zalazane betrays them on the Echo Isles. Many refugees flee to the mainland and Sen'jin Village. Vol'jin spends much of his time in Grommash Hold in Orgrimmar, giving Thrall strategic counsel and the benefit of his shadow hunter skill. From the orcish capital, he watches over the young Horde and works to reclaim his people's lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_vol-jin-7e290b40702030772b56/1-0000.mp3", duration = 73.0644898, start = 0},
+    {file = "Audio/Transport/full_npc_vol-jin-de2825fdd1441c6a389e/1-0000.mp3", duration = 60.9697959, start = 0},
   },
 }
 P.transport["npc:yaw-sharpmane"] = {
@@ -454,7 +454,7 @@ P.transport["npc:yaw-sharpmane"] = {
   fullHash = "c0c82e",
   text = "Yaw Sharpmane. Bloodhoof Village is where Yaw Sharpmane teaches young tauren hunters. He shows them how to track, survive, and tame Mulgore's wild beasts. Yaw Sharpmane teaches marksmanship, tracking, and survival in Bloodhoof Village. Young hunters who have proven themselves in Red Cloud Mesa come to him to hone their skills before they venture onto Mulgore's wider plains. Yaw Sharpmane guides new hunters through the ancient rite of taming wild beasts. He asks them to bond with Mulgore's native animals, testing their patience and respect for nature's balance. Then he teaches them to care for and train a lasting companion.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_yaw-sharpmane-ced5884cab922a3a514c/1-0000.mp3", duration = 51.2261224, start = 0},
+    {file = "Audio/Transport/full_npc_yaw-sharpmane-3e7ef3feaca43ee73c53/1-0000.mp3", duration = 34.6644898, start = 0},
   },
 }
 P.transport["subzone:agama-gor"] = {

@@ -3,9 +3,9 @@
     "npc:agathelos-the-raging": {
       "1": [
         {
-          "duration": 47.62122448979592,
-          "file": "Audio/Transport/full_npc_agathelos-the-raging-d1f3172cf2f175ecfd8e/1-0000.mp3",
-          "sha256": "589fbcb7545faa522df4b773528bca64c1397869ffc6b2ee2afa03850e71aa16",
+          "duration": 59.68979591836735,
+          "file": "Audio/Transport/full_npc_agathelos-the-raging-a3304db1148728597754/1-0000.mp3",
+          "sha256": "572f3990dd80158658e1eb6f6902d6e7a67638218aa419d2ba0cf1bbaf31ea16",
           "start": 0
         }
       ],
@@ -17,21 +17,21 @@
         ]
       },
       "fullHash": "144ea9",
-      "generation": "b6d30cd214103206b6be",
+      "generation": "a4ce83b229163c590386",
       "hash": "45101d",
       "source": {
-        "duration": 47.647347,
+        "duration": 59.715918,
         "file": null,
-        "sha256": "d1f3172cf2f175ecfd8e6f143e56282434cc3a4244498540ee60b76995c0662c"
+        "sha256": "a3304db1148728597754528f4992db278e61da03532e6a415e05cce36654ea48"
       },
       "text": "Agathelos the Raging. Deep within Razorfen Kraul, Agathelos the Raging is held among the thorned tunnels. The quilboar revere Agamaggan as their god and progenitor, and Agathelos’s great size carries spiritual meaning. His armor and fury make him one of the most dangerous beasts beneath the southern Barrens. Agamaggan, the titanic boar, is god and progenitor to the quilboar. So among the Razorfen tribes, a beast as large as Agathelos carries deep spiritual meaning. He stands roughly twice as tall as a Barrens thunder lizard. The quilboar keep Agathelos from roaming freely through the Kraul. Several guards maintain a field before the short, dead-end tunnel where he is penned. Intruders who break through that barrier face a raging beast, made more fearsome still by his fury."
     },
     "npc:aggem-thorncurse": {
       "1": [
         {
-          "duration": 21.655510204081633,
-          "file": "Audio/Transport/full_npc_aggem-thorncurse-a62a868b53599cb854fb/1-0000.mp3",
-          "sha256": "5bb3d123c8ce9ace212f2629a9650d5f23b838b75e1933b220609a8878a5b1d9",
+          "duration": 23.56244897959184,
+          "file": "Audio/Transport/full_npc_aggem-thorncurse-82836a1eae02f6c4fc0d/1-0000.mp3",
+          "sha256": "bffea232f9d99eff2c9f446a971853d4b694c38c7f75136b808dc0085ca34801",
           "start": 0
         }
       ],
@@ -43,21 +43,21 @@
         ]
       },
       "fullHash": "520730",
-      "generation": "89879febfe0a43098bd2",
+      "generation": "078d6bbeda294e11588f",
       "hash": "520730",
       "source": {
-        "duration": 21.681633,
+        "duration": 23.588571,
         "file": null,
-        "sha256": "a62a868b53599cb854fbd3ceb78208731dc835f3dc29006026215cfcbfd16cb0"
+        "sha256": "82836a1eae02f6c4fc0d99cbbdbb46dce0a115598357d9e3d53e971ce68b18a6"
       },
       "text": "Aggem Thorncurse. In Razorfen Kraul, Aggem Thorncurse bears the title Death's Head Prophet. When threatened, he calls a boar spirit to his aid. Aggem guards part of Razorfen Kraul, where the Death's Head tribe dwells. His shamanic power lets him call a boar spirit into battle. The spirit reflects the quilboar's reverence for Agamaggan."
     },
     "npc:aku-mai": {
       "1": [
         {
-          "duration": 45.68816326530612,
-          "file": "Audio/Transport/full_npc_aku-mai-c49b7ed4484885eb93b8/1-0000.mp3",
-          "sha256": "29b92284d75db33f23d6298cafca68fcdd89f44be1b8bd8d2cb9b7403120ea70",
+          "duration": 46.34122448979592,
+          "file": "Audio/Transport/full_npc_aku-mai-df17356542173db3f28d/1-0000.mp3",
+          "sha256": "80a72ea7c9f074b3b96ecfb0f9b64d3d2904b65311f0e2706241c8a393afa6c2",
           "start": 0
         }
       ],
@@ -69,21 +69,21 @@
         ]
       },
       "fullHash": "ef0c18",
-      "generation": "12e28f2991fee5923003",
+      "generation": "3e4c286237f410bf92e4",
       "hash": "ef0c18",
       "source": {
-        "duration": 45.714286,
+        "duration": 46.367347,
         "file": null,
-        "sha256": "c49b7ed4484885eb93b8cd063ed73be709aef125ea1f1e80f9ae6767e14720cd"
+        "sha256": "df17356542173db3f28d1114290e34e30fdafa1b82ec106043f45c8e5ce7a66e"
       },
       "text": "Aku'mai. At Blackfathom Deeps, Aku'mai haunts the sunken temple of Elune along the Zoram Strand. An Old God's corruption tainted its sacred Moon Well, and Aku'mai rose from the waters as the Old God's servant. The Twilight's Hammer sacrifices innocents to Aku'mai for power. Blackfathom Deeps was once a great temple of Elune. Then an Old God's corruption tainted its sacred Moon Well, and Aku'mai rose from the waters. The gargantuan hydra serves the Old God. Now Aku'mai lairs in the drowned ruins of the night elves' temple, poisoning the waters along the Zoram Strand with its malice."
     },
     "npc:arcanist-doan": {
       "1": [
         {
-          "duration": 27.637551020408164,
-          "file": "Audio/Transport/full_npc_arcanist-doan-0b9426e26bd6115ba6ad/1-0000.mp3",
-          "sha256": "cbea673be0103cc424e60c735b3355ef41dec8c36f350b8465f65225b328b045",
+          "duration": 31.190204081632654,
+          "file": "Audio/Transport/full_npc_arcanist-doan-6ad7f369a6c15a71131c/1-0000.mp3",
+          "sha256": "4b44dfe753d45a039c03633bf0a140e0a638def001cf262f1bec12cbd21423e6",
           "start": 0
         }
       ],
@@ -95,21 +95,21 @@
         ]
       },
       "fullHash": "4aad1b",
-      "generation": "95a1af0089b0da764d4b",
+      "generation": "4cfb57fa154888c5792a",
       "hash": "4aad1b",
       "source": {
-        "duration": 27.637551,
+        "duration": 31.216327,
         "file": null,
-        "sha256": "0b9426e26bd6115ba6ad447da3c5cd5617bbd885c2fcd5643d21f1c20e5a893b"
+        "sha256": "6ad7f369a6c15a71131c3efe1bd9d15a1217732b4412fd426fb95aeafff4cd95"
       },
       "text": "Arcanist Doan. Within the Scarlet Monastery, Arcanist Doan guards the Athenaeum and its archives. A master human mage, he brings deadly arcane skill to the Scarlet Crusade. The Scarlet Crusade trusts martial fury and holy fervor. Doan believes arcane power is vital to driving the Scourge from Lordaeron. Deep in the Monastery's library, he keeps its lore and guards the Scarlet Key. That key secures Crusade sanctuaries across the northern kingdoms."
     },
     "npc:baron-aquanis": {
       "1": [
         {
-          "duration": 53.94285714285714,
-          "file": "Audio/Transport/full_npc_baron-aquanis-84de23f8ad9b0b7180fb/1-0000.mp3",
-          "sha256": "82cbd452e58790ac61cbef6beabb21cc1c2e0696f1d83f0d607f540479a52d58",
+          "duration": 46.81142857142857,
+          "file": "Audio/Transport/full_npc_baron-aquanis-87272195650ac467707f/1-0000.mp3",
+          "sha256": "60ac589e6510baa6b09a2e5cca21f1f02a120e03f8466138000486fde5941f2c",
           "start": 0
         }
       ],
@@ -121,21 +121,21 @@
         ]
       },
       "fullHash": "9f9f9b",
-      "generation": "0827bb7c12883231881e",
+      "generation": "6f14ae9d6ef1850cefd0",
       "hash": "9f9f9b",
       "source": {
-        "duration": 53.96898,
+        "duration": 46.811429,
         "file": null,
-        "sha256": "84de23f8ad9b0b7180fb792b7d3a2d3d8a84b18505f1e097ca94d63f8fdd2d87"
+        "sha256": "87272195650ac467707fa34b13232f9be314af12fe70ba47fc43aad1edc43edd"
       },
       "text": "Baron Aquanis. In the flooded Moonshrine Ruins of Blackfathom Deeps, Baron Aquanis rises from the depths when the Fathom Stone is disturbed. The Twilight's Hammer cultists occupy the ruins, and the Earthen Ring suspects the baron has been corrupted. Beneath the flooded halls of the Moonshrine Ruins lies the Fathom Stone, surrounded by Twilight's Hammer cultists. A fathom core rests within it. Read properly, the device reveals the history of nearby elemental activity. Je'neu Sancrea of the Earthen Ring sends Horde adventurers to recover it. Disturb the stone, and Baron Aquanis rises from the depths."
     },
     "npc:baron-silverlaine": {
       "1": [
         {
-          "duration": 46.36734693877551,
-          "file": "Audio/Transport/full_npc_baron-silverlaine-662071b9289beac5b4e8/1-0000.mp3",
-          "sha256": "75c4a7988030868ac8a84a88e4df975c39feba804c824767de83a06c71244f95",
+          "duration": 52.74122448979592,
+          "file": "Audio/Transport/full_npc_baron-silverlaine-c8312d522f9a05937ead/1-0000.mp3",
+          "sha256": "854f2bce3a6e4c38cdf16d9f080532e6c923b22f8e878161e518d9d02045af3c",
           "start": 0
         }
       ],
@@ -147,21 +147,21 @@
         ]
       },
       "fullHash": "7404d7",
-      "generation": "a08ea8dde147bf026afe",
+      "generation": "93c582728fa4bb2589f4",
       "hash": "8c96b4",
       "source": {
-        "duration": 46.393469,
+        "duration": 52.767347,
         "file": null,
-        "sha256": "662071b9289beac5b4e81db9db38fe1f9f47417ec8cc16b4c6950b75a4a4aed7"
+        "sha256": "c8312d522f9a05937eadd5c6ca9bbc54139680a81030be70b5ea66deb7babde4"
       },
       "text": "Baron Silverlaine. In the Great Hall above Pyrewood Village, Baron Silverlaine's spirit still lingers. He ruled Silverlaine Keep until Archmage Arugal unleashed worgen upon the region, and they slaughtered him. Baron Silverlaine ruled a noble estate in the southern hills of Silverpine. His fortress guarded the lands around it and kept them safe. Then Archmage Arugal summoned worgen to fight the rampaging Scourge and unleashed them upon the region. The feral beasts could not be controlled. They stormed the stronghold, overwhelmed its guards, and butchered the baron. Baron Silverlaine remains bound to the keep's ancient Great Hall. His restless ghost wanders among the wrecked dining tables where he once feasted. The cursed lord attacks intruders who enter his former home."
     },
     "npc:bazil-thredd": {
       "1": [
         {
-          "duration": 69.4595918367347,
-          "file": "Audio/Transport/full_npc_bazil-thredd-6e2440b718d8dc06fc8b/1-0000.mp3",
-          "sha256": "7a84006d2da25869ae83a96a0e24eee60871e9b2c79906bf8b9684d39354f132",
+          "duration": 77.68816326530613,
+          "file": "Audio/Transport/full_npc_bazil-thredd-4d5fbb0981fd5639006a/1-0000.mp3",
+          "sha256": "ea9e876d90bd00a25fa885c771b54993b6bfac766bc60365ace8161d3536157f",
           "start": 0
         }
       ],
@@ -173,21 +173,21 @@
         ]
       },
       "fullHash": "152fd5",
-      "generation": "2412e1c7f0843e5cb902",
+      "generation": "0cee77187a0485ce6cf6",
       "hash": "2861ed",
       "source": {
-        "duration": 69.485714,
+        "duration": 77.688163,
         "file": null,
-        "sha256": "6e2440b718d8dc06fc8bd2294a39b6e0ae088685952f4b070c5925669932905f"
+        "sha256": "4d5fbb0981fd5639006a4b3233d7cf2b4cb175ac85c57f5071e8617eada15c4d"
       },
       "text": "Bazil Thredd. In the eastern cell block, Bazil Thredd leads the Defias inmates in revolt. Edwin VanCleef's lieutenant has been held in the Stormwind Stockade since the Stonemasons' riots. Bazil Thredd stood beside Edwin VanCleef when the Stonemasons Guild rose against Stormwind's nobility. The guild had been denied payment for rebuilding the city, and VanCleef rejected the government's attempts to appease them. Open revolt followed.\n\nThredd served as his chief lieutenant and most trusted assistant. The city guard captured Thredd in the clashes that followed. VanCleef and the surviving masons fled to Westfall and formed the Defias Brotherhood. Thredd was sent to the Stormwind Stockade. A prison riot has overwhelmed the guards and opened the cells. Now the Stockade is an armed fortress beneath the Mage Quarter. Thredd commands the imprisoned Defias bandits, insurgents, and allied cutthroats from a post in the eastern wing. An ogre named Hamhock guards him. For years Thredd stayed silent behind bars, seemingly forsaken. Now Warden Thelwater wants him dead, hoping to break the rebellion's leadership before the chaos reaches the city streets."
     },
     "npc:bazzalan": {
       "1": [
         {
-          "duration": 44.93061224489796,
-          "file": "Audio/Transport/full_npc_bazzalan-a34e51a026bf8456a79a/1-0000.mp3",
-          "sha256": "af2a987795ea959af3306641bc1b3b25a582ea09f6e4fcfdc497dfb9085efe7d",
+          "duration": 49.371428571428574,
+          "file": "Audio/Transport/full_npc_bazzalan-162e87819330f2c68a6c/1-0000.mp3",
+          "sha256": "02aa0ecd4c77b66564b9b91d6ad45a8fac7fb2c396cbccf8c4536cae492ab3ea",
           "start": 0
         }
       ],
@@ -199,21 +199,21 @@
         ]
       },
       "fullHash": "b5a735",
-      "generation": "c04ed7569a4d846a91a5",
+      "generation": "9c287b82da9fb671889a",
       "hash": "4ba4c4",
       "source": {
-        "duration": 44.956735,
+        "duration": 49.397551,
         "file": null,
-        "sha256": "a34e51a026bf8456a79a9d57d6a1692c27ddcf91e0353f251bcde27d346fdbed"
+        "sha256": "162e87819330f2c68a6c958658c04abf68d48e23dbea90bffa0db8fbab75e5ad"
       },
       "text": "Bazzalan. Beneath Orgrimmar, Bazzalan directs the Searing Blade cult's work in Ragefire Chasm. He shares its leadership with Jergosh the Invoker. Bazzalan commands the Searing Blade's field forces in the lava caverns beneath Orgrimmar. While Thrall works to establish the Orcs' new home across Durotar, the satyr rogue moves through the winding caverns with twin blades, swift and lethal. From a volcanic ledge above the central chamber, Bazzalan watches over the cultist guards. Below him, Jergosh the Invoker conducts demonic rituals. Like all satyrs, Bazzalan's deepest loyalty belongs to demonic masters. He uses poison, quick strikes, and stealth against Horde scouts who venture near the cult's staging ground."
     },
     "npc:blind-hunter": {
       "1": [
         {
-          "duration": 46.419591836734696,
-          "file": "Audio/Transport/full_npc_blind-hunter-62e67ef3f0a5fac50729/1-0000.mp3",
-          "sha256": "70595f4212eb0c2bd75453fd5ce78ff9324ec04fe14e491e8626ba3f5ab96c9d",
+          "duration": 51.48734693877551,
+          "file": "Audio/Transport/full_npc_blind-hunter-14d736cde5efc6712c3a/1-0000.mp3",
+          "sha256": "4a15c7db1648ac06b1ca6f4d09f7fcde3ee42c8620612fdaebe34fb6d5a63923",
           "start": 0
         }
       ],
@@ -225,21 +225,21 @@
         ]
       },
       "fullHash": "43819d",
-      "generation": "718dc4969eb3216feac2",
+      "generation": "2831556526cadb6fd769",
       "hash": "c80801",
       "source": {
-        "duration": 46.445714,
+        "duration": 51.513469,
         "file": null,
-        "sha256": "62e67ef3f0a5fac507297656be23f9ac709da8912715cc3bf286924024d0c4b6"
+        "sha256": "14d736cde5efc6712c3a4b4f9f6746b3cd106058f9f8a80a9c401cb235d07d34"
       },
       "text": "Blind Hunter. In the deepest reaches of Razorfen Kraul, the Blind Hunter roosts beyond the common bats. This pale albino bat prowls the quilboar redoubt, far from the cavern entrances. Razorfen Kraul winds through briars and dark caverns below ground. Common bats roost nearer the surface, where faint light reaches from outside. The Blind Hunter keeps to the furthest, darkest alcoves of the tangle. Its pale hide and milky gaze may come from generations spent apart from natural sunlight. The Blind Hunter is thought to have lost most or all of its ordinary sight. Scholars and scouts believe it tracks prey in the gloom with keen hearing and echolocation. It appears rarely, hunting only now and then among the dense thickets. For cavern explorers, a sighting of this phantom beast is rare."
     },
     "npc:bloodmage-thalnos": {
       "1": [
         {
-          "duration": 43.91183673469388,
-          "file": "Audio/Transport/full_npc_bloodmage-thalnos-b36b3deddc32a51e8b6d/1-0000.mp3",
-          "sha256": "1b0e85d816198d0bea88d291980570d5ec152998bae033be685a603b9e0599a1",
+          "duration": 49.371428571428574,
+          "file": "Audio/Transport/full_npc_bloodmage-thalnos-3e645cc35c864ea36e0d/1-0000.mp3",
+          "sha256": "496a073a09c0e6b838a749af942b30277e44a1add1436f54f6f8621427d2f06c",
           "start": 0
         }
       ],
@@ -251,21 +251,21 @@
         ]
       },
       "fullHash": "cc0e01",
-      "generation": "0cfc2cad72dccfe22a9b",
+      "generation": "778298ccc09d934dba9f",
       "hash": "ac4634",
       "source": {
-        "duration": 43.911837,
+        "duration": 49.397551,
         "file": null,
-        "sha256": "b36b3deddc32a51e8b6d10a141a268c04707ad6b4c3013f8ccc6e2be52076736"
+        "sha256": "3e645cc35c864ea36e0d2f1e03ea1c82896d5d3792f5db74ca189579a4e27895"
       },
       "text": "Bloodmage Thalnos. In the Scarlet Monastery's Graveyard, Bloodmage Thalnos haunts the tombs, hungry for vengeance. The plague of undeath claimed him, and he remains deep within the Crusade's holy grounds. No record tells who Thalnos was in life. The plague of undeath claimed him, and he rose as a withered skeleton. Still, he clings to fiery magic and arcane mastery. He cries out for vengeance and more souls. From the deepest corner of the monastery's courtyard tombs, Thalnos commands apparitions and shambling undead minions. He attacks anyone who disturbs his domain. Beneath the Crusade's sacred halls, his presence is a bitter contradiction. He embodies the horror they swore to eradicate."
     },
     "npc:bruegal-ironknuckle": {
       "1": [
         {
-          "duration": 52.58448979591837,
-          "file": "Audio/Transport/full_npc_bruegal-ironknuckle-08177952ca35ed75683a/1-0000.mp3",
-          "sha256": "7cdcba92195fcb6dee6748859d9c036611d9652e2f3f4145f80d5153418621ec",
+          "duration": 64.83591836734693,
+          "file": "Audio/Transport/full_npc_bruegal-ironknuckle-fce56a3188520162a72d/1-0000.mp3",
+          "sha256": "f80b4dc35c81dcb24834b91a471f763b8cb49526e19771e5b116403375a4e272",
           "start": 0
         }
       ],
@@ -277,21 +277,21 @@
         ]
       },
       "fullHash": "d9e771",
-      "generation": "8feec75a1a6dcbecc8cf",
+      "generation": "a535587f94869e3d7e9f",
       "hash": "300765",
       "source": {
-        "duration": 52.610612,
+        "duration": 64.862041,
         "file": null,
-        "sha256": "08177952ca35ed75683a7ce4683ca0c566d74c7a5b9a2a6af262061c9444fb6f"
+        "sha256": "fce56a3188520162a72d35aaca60965b122d6d1ac26346e398292298d8554b0b"
       },
       "text": "Bruegal Ironknuckle. In the Stormwind Stockade, Bruegal Ironknuckle prowls the halls during an open revolt. The dangerous dwarf is a powerful brawler, and anyone trying to restore order may face his fists. Bruegal Ironknuckle prowls the Stormwind Stockade during its open revolt. The dwarf is known for his brutal strength in a brawl. Many of the city's most volatile cutthroats have seized the underground cellblocks, and Bruegal is among them. He leaves his cell and roams the halls, ready to bash anyone trying to quell the uprising. Bruegal Ironknuckle is among the rogues and outlaws held deep beneath Stormwind. The Defias Brotherhood and its ringleaders direct much of the revolt, while inmates like Bruegal show that the prison holds criminals from across the eastern realms. No record here tells what crimes brought him there. His fierce resilience makes him elusive and one of the deadliest lone inmates in the corridors."
     },
     "npc:captain-greenskin": {
       "1": [
         {
-          "duration": 57.54775510204082,
-          "file": "Audio/Transport/full_npc_captain-greenskin-43438b7a3d661b7d0d4c/1-0000.mp3",
-          "sha256": "2aad7ee9ac9383e5f8d818356ebe36b491cabdbb1ddd232da0245fa90da25986",
+          "duration": 50.46857142857143,
+          "file": "Audio/Transport/full_npc_captain-greenskin-6aabb8f414f7eb5a04f8/1-0000.mp3",
+          "sha256": "5bff123339cd20e22ef467811d2e589c6202931f1d87ca7cf68eec3618cea4c6",
           "start": 0
         }
       ],
@@ -303,21 +303,21 @@
         ]
       },
       "fullHash": "3f3e66",
-      "generation": "eb473e13136302cc78ec",
+      "generation": "11d7cde49a89555b9510",
       "hash": "2cef2b",
       "source": {
-        "duration": 57.573878,
+        "duration": 50.468571,
         "file": null,
-        "sha256": "43438b7a3d661b7d0d4c81a228bd7f293d8a1b0326e4ce6cbdd589f9e3dbb7f1"
+        "sha256": "6aabb8f414f7eb5a04f8bda1cd1c867a46d0e23d84b59ee14dbc5ae1ee82c7a2"
       },
       "text": "Captain Greenskin. In the Deadmines cove, Captain Greenskin readies a warship for Edwin VanCleef. The goblin pirate directs its crew and construction for the Defias Brotherhood, preparing the ironclad juggernaut to sail against Stormwind. Captain Greenskin paces the main deck of the juggernaut under construction in the Deadmines cove. A seasoned goblin mariner, he joined Edwin VanCleef's inner circle to turn an underground cavern into a drydock for a warship. Captain Greenskin commands cutthroats, not stonemasons or bandits. His crew includes Mr. Smite, his fearsome tauren first mate, and Cookie, the murloc ship's cook. Together, they hold the gangplanks and upper deck, guarding the way to VanCleef's private cabin atop the bridge."
     },
     "npc:charlga-razorflank": {
       "1": [
         {
-          "duration": 36.04897959183673,
-          "file": "Audio/Transport/full_npc_charlga-razorflank-82478a530f2a2266f1b7/1-0000.mp3",
-          "sha256": "3b851614944179de1772361eb9a279ad78dd392c87397f6ee4e1dc9ea5679774",
+          "duration": 37.27673469387755,
+          "file": "Audio/Transport/full_npc_charlga-razorflank-a545345cfb089cf92528/1-0000.mp3",
+          "sha256": "cdd38d2a103b1cc61df401aa4644706a627f0a607c6ec542cd6361ef7c80184e",
           "start": 0
         }
       ],
@@ -329,21 +329,21 @@
         ]
       },
       "fullHash": "94d02e",
-      "generation": "50cce3fb9a5b52f85642",
+      "generation": "8c02cc8ee9b3ad7ed18c",
       "hash": "94d02e",
       "source": {
-        "duration": 36.075102,
+        "duration": 37.302857,
         "file": null,
-        "sha256": "82478a530f2a2266f1b7f9add14a2fee34a933d074936e6d3e9d7091577163b2"
+        "sha256": "a545345cfb089cf92528e24a96f7564ac1b1e662ebe46cfe27bcdf28d400ef63"
       },
       "text": "Charlga Razorflank. In Razorfen Kraul, Charlga Razorflank leads the Razorfen quilboar. They drove the tauren from the southern Barrens, claiming to fight for their fallen god, Agamaggan. Charlga Razorflank rules from the tangled brambles of Razorfen Kraul. Her people honor her as a master geomancer, and none among the quilboar can equal her experimental magic. She bound her fractious kin into a deadly force. With primal earth and giant thorns grown from the remains of Agamaggan, the fallen demigod, Charlga shaped the Kraul into a fortress few can enter."
     },
     "npc:commander-springvale": {
       "1": [
         {
-          "duration": 61.80571428571429,
-          "file": "Audio/Transport/full_npc_commander-springvale-971b7aaa6759f94f153f/1-0000.mp3",
-          "sha256": "51a86f2eab3b430fc111640fe1dd0f13484179dc2d70f824d4b56ba2faf461e5",
+          "duration": 68.15346938775511,
+          "file": "Audio/Transport/full_npc_commander-springvale-a87e637ebb29926f5954/1-0000.mp3",
+          "sha256": "bf2b27866923b6cb16ec7b7ddde1320b710bc0adc1ea64221c90508753f26bc9",
           "start": 0
         }
       ],
@@ -355,21 +355,21 @@
         ]
       },
       "fullHash": "085e7a",
-      "generation": "638559b644c607718ef1",
+      "generation": "f155b363c1d6bfd40940",
       "hash": "e44ff4",
       "source": {
-        "duration": 61.831837,
+        "duration": 68.179592,
         "file": null,
-        "sha256": "971b7aaa6759f94f153f6c097bba7c304e3f07216a509baed2cc29016f0a7306"
+        "sha256": "a87e637ebb29926f5954a82aeb6ef2474616b42ab829dc54eac9cb169a9fa662"
       },
       "text": "Commander Springvale. At Shadowfang Keep, Commander Springvale's spirit still guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and now haunts the castle. Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep fell into ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he kept watch over the fortress through those troubled days. Archmage Arugal summoned worgen from beyond this world to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short. Death did not release Springvale. His ghost haunts the keep's council room alongside spectral soldiers. He still wields paladin powers against intruders, including Holy Light and Hammer of Justice."
     },
     "npc:cookie": {
       "1": [
         {
-          "duration": 77.27020408163266,
-          "file": "Audio/Transport/full_npc_cookie-62f9dc1db48e6dd5f7fc/1-0000.mp3",
-          "sha256": "2dac3b3e4af83f361e0b16f38932b5cf13b92ca2d7b33c2dadd153137850d379",
+          "duration": 63.76489795918368,
+          "file": "Audio/Transport/full_npc_cookie-44008ea9df947cbe3f2c/1-0000.mp3",
+          "sha256": "c7045724be934b5c0c481f3c38b7564dfa9e5ca518fdf02b79e5a443692e3172",
           "start": 0
         }
       ],
@@ -381,21 +381,21 @@
         ]
       },
       "fullHash": "9a967c",
-      "generation": "0d71e1c87ae68cba48bd",
+      "generation": "43a9f4cdb9c7e475c4ba",
       "hash": "59d851",
       "source": {
-        "duration": 77.270204,
+        "duration": 63.79102,
         "file": null,
-        "sha256": "62f9dc1db48e6dd5f7fcee00708d7cd71564216e62eb07a30f2a0029558f34bc"
+        "sha256": "44008ea9df947cbe3f2ce34f97a845b536fbb654db40422c6fb818972496e0b1"
       },
       "text": "Cookie. Beneath the juggernaut in the Deadmines, Cookie tends the crew's cauldrons. A murloc in the Defias Brotherhood, he cooks under Captain Greenskin and Edwin VanCleef. In the underground dry dock, his post is the only one a visitor may pass by. Cookie cooks beneath the decks of the juggernaut at Ironclad Cove. No human outrider or goblin engineer takes the duty; the solitary murloc does. No one knows how he came to hold the post. The crew may doubt a murloc's cooking, but pirates rarely choose their meals with care. In Moonbrook's underworld, a meal is a meal. Cookie patrols the waterways and shores around the pirate flagship. He fights with cooking utensils and throws acidic brews. Though apart from typical murloc tribes, he defends his cauldron with savage force, hurling caustic mixtures at intruders in the docks. His station lies away from the main gangplanks, so many who storm the cove pass his kitchen by. Cookie is the only overseer aboard the Defias juggernaut who can be bypassed."
     },
     "npc:dark-iron-ambassador": {
       "1": [
         {
-          "duration": 19.04326530612245,
-          "file": "Audio/Transport/full_npc_dark-iron-ambassador-b3f3f73e2593d4309f35/1-0000.mp3",
-          "sha256": "774299a724c3510a44d55ae88d043568de09b1264951e19435815152b865829f",
+          "duration": 23.27510204081633,
+          "file": "Audio/Transport/full_npc_dark-iron-ambassador-92233f5b6b6a7f3d2e36/1-0000.mp3",
+          "sha256": "d490bf156594e555a453c027fbacd4103d876c9ca3c8b01ecf159e506cea2da3",
           "start": 0
         }
       ],
@@ -407,21 +407,21 @@
         ]
       },
       "fullHash": "e11f56",
-      "generation": "1a76e6b90d50480360fd",
+      "generation": "fffd59184d459a150b67",
       "hash": "e11f56",
       "source": {
-        "duration": 19.069388,
+        "duration": 23.301224,
         "file": null,
-        "sha256": "b3f3f73e2593d4309f356833d7b28d857563a100ec1d8d509144570a63a20e90"
+        "sha256": "92233f5b6b6a7f3d2e368a3eda5bf75b75fd25ec78378701d77a6877156aee66"
       },
       "text": "Dark Iron Ambassador. Deep in Gnomeregan, the Dark Iron Ambassador moves among the ruined halls as an envoy of his clan. Why the clan has come to the fallen gnome capital remains unclear. In Gnomeregan’s irradiated halls, the Dark Iron Ambassador speaks for his clan. The purpose of his mission is unknown."
     },
     "npc:dextren-ward": {
       "1": [
         {
-          "duration": 71.91510204081634,
-          "file": "Audio/Transport/full_npc_dextren-ward-57592e6b9adb48c80b47/1-0000.mp3",
-          "sha256": "05849b99c741782b4aaadd53a2d711d7ce4391f866e7f31945bf7b40a30620e7",
+          "duration": 79.72571428571429,
+          "file": "Audio/Transport/full_npc_dextren-ward-34bf91300f81475b0c8a/1-0000.mp3",
+          "sha256": "0926fa3a0f63f0ae64f2cfc727c8e17a3380f398d91a1679766a04b1e2138156",
           "start": 0
         }
       ],
@@ -433,21 +433,21 @@
         ]
       },
       "fullHash": "49880a",
-      "generation": "fe82e380c46f8da102aa",
+      "generation": "48838cce8293031057cd",
       "hash": "7bb011",
       "source": {
-        "duration": 71.941224,
+        "duration": 79.751837,
         "file": null,
-        "sha256": "57592e6b9adb48c80b47f3b149f41fc9075543a7270587d9bac3a3666e86ec3c"
+        "sha256": "34bf91300f81475b0c8aadc76e0ae905591188c7748a22bbedc2885dec6654d6"
       },
       "text": "Dextren Ward. In the Stormwind Stockade, Dextren Ward remains a prisoner during a bloody uprising. Before his capture, he dug up bodies at Raven Hill Cemetery in Duskwood and sold them to the necromancer Morbent Fel. Darkshire's town council has marked him for death. Before chains bound him beneath Stormwind, Dextren Ward robbed graves in Duskwood for profit. At Raven Hill Cemetery, he dug up the newly buried dead. He sold the bodies to local practitioners of dark arts. Morbent Fel, a necromancer, was Ward's main customer. His rituals plagued Duskwood and swelled the undead ranks. By supplying him with bodies, Ward helped spread terror through Darkshire.\n\nStormwind authorities eventually captured Ward and brought him to the Stockade. The people of Duskwood demanded justice for his crimes. Councilman Millstipe called for Ward's hand as proof. A rebellion swept through the Stockade, and Ward was freed from his cell in the chaos. Armed and vicious, he seized control of his corner of the prison. Now he uses fear to keep intruders away. Alliance forces seeking to restore order count him among their priority targets."
     },
     "npc:edwin-vancleef": {
       "1": [
         {
-          "duration": 109.03510204081633,
-          "file": "Audio/Transport/full_npc_edwin-vancleef-a89122cf4555311aec82/1-0000.mp3",
-          "sha256": "03f1950b28044b080db781907e0b48bb17d58d6fd11de067dcc86db2a5eede9c",
+          "duration": 90.40979591836735,
+          "file": "Audio/Transport/full_npc_edwin-vancleef-749b43649a78fa4c2a33/1-0000.mp3",
+          "sha256": "caa8fde187dddf1e0b1ff17b0be40dd78bd14508722b27df549cc4d1c35ea383",
           "start": 0
         }
       ],
@@ -459,21 +459,21 @@
         ]
       },
       "fullHash": "3cf326",
-      "generation": "857724e7c1c37def3d4e",
+      "generation": "fe65b4cbf5fbf8487b44",
       "hash": "480462",
       "source": {
-        "duration": 109.061224,
+        "duration": 90.435918,
         "file": null,
-        "sha256": "a89122cf4555311aec820c140e8604b26915be149dbbe1e1d8684c47ca12db2d"
+        "sha256": "749b43649a78fa4c2a330a693c3b33ae3feb56d326ae9ab1d1fc07efb7ab09cb"
       },
       "text": "Edwin VanCleef. In the Deadmines, Edwin VanCleef commands the Defias Brotherhood. He once led the Stonemasons who rebuilt Stormwind City after the Second War. The House of Nobles denied the workers their promised pay, and VanCleef now seeks vengeance against the kingdom he helped restore. Edwin VanCleef led the Stonemasons Guild in rebuilding Stormwind City after the First War. A peerless craftsman and idealist, he mastered architecture and directed the work on the capital's grand ramparts and towering cathedrals. His childhood friend Mathias Shaw taught him stealth, subterfuge, thievery, and bladecraft. VanCleef became a deadly operative as well as a master architect. After years of labor, the Stonemasons finished rebuilding Stormwind. The House of Nobles had run up great debts through military campaigns and refused the guild its promised pay. VanCleef demanded restitution, but the nobles dissolved the guild.\n\nHe led the workers in a riot and out of the city. In the chaos, his lieutenant and most trusted assistant, Bazil Thredd, was captured and left in the Stockade. In Westfall, VanCleef gathered the exiled workers and allied outcasts beneath the Defias Brotherhood's banner."
     },
     "npc:electrocutioner-6000": {
       "1": [
         {
-          "duration": 39.993469387755106,
-          "file": "Audio/Transport/full_npc_electrocutioner-6000-6cc791c4c66e1eeac590/1-0000.mp3",
-          "sha256": "24a23dfe1307ac24e66daaa1fc9c9231cac32ef25da4a6068494b5b74c0d52fa",
+          "duration": 40.751020408163264,
+          "file": "Audio/Transport/full_npc_electrocutioner-6000-626dee5d2d1518990eb6/1-0000.mp3",
+          "sha256": "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc",
           "start": 0
         }
       ],
@@ -485,21 +485,21 @@
         ]
       },
       "fullHash": "beffc7",
-      "generation": "b8a190dd4a8af5392312",
+      "generation": "4ebc3f0c84d4083f664c",
       "hash": "c648ee",
       "source": {
-        "duration": 40.019592,
+        "duration": 40.777143,
         "file": null,
-        "sha256": "6cc791c4c66e1eeac590e0524ae067375f938a643e3ed62338a1b97cd714751a"
+        "sha256": "626dee5d2d1518990eb672858beeca23a98cf5576518c7814e1fd3149fceb9af"
       },
       "text": "Electrocutioner 6000. In Gnomeregan's Launch Bay, Electrocutioner 6000 guards the upper platform. The spider tank fights for Mekgineer Thermaplugg and the irradiated leper gnomes who follow him. After Gnomeregan fell, Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of the city's war machines. Electrocutioner 6000 guards the Launch Bay's upper platform. It strikes intruders with high-voltage current. Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key gives you a quicker route into the city's depths."
     },
     "npc:fenrus-the-devourer": {
       "1": [
         {
-          "duration": 56.032653061224494,
-          "file": "Audio/Transport/full_npc_fenrus-the-devourer-cfb901e4951d263960b6/1-0000.mp3",
-          "sha256": "685edf9ea7a60155cc48d8185f190565f95bde8d29df38f954609d8e743602ca",
+          "duration": 61.440000000000005,
+          "file": "Audio/Transport/full_npc_fenrus-the-devourer-5a8e8c2584d4d53da405/1-0000.mp3",
+          "sha256": "4866458885f25fcd661546230d542782dc240f71a880d0f6bff620b54eb295df",
           "start": 0
         }
       ],
@@ -511,21 +511,21 @@
         ]
       },
       "fullHash": "a6d01d",
-      "generation": "4b59cb73c04651d8b522",
+      "generation": "2003dedf59da6ff41ef1",
       "hash": "20a690",
       "source": {
-        "duration": 56.058776,
+        "duration": 61.466122,
         "file": null,
-        "sha256": "cfb901e4951d263960b6b767995954c2ac6a965646bc32618162ccbe6cd4cce8"
+        "sha256": "5a8e8c2584d4d53da405a52c1b8aa5478bda342673b6deaacf3ff67a35dac6c3"
       },
       "text": "Fenrus the Devourer. In Shadowfang Keep, Fenrus the Devourer guards Archmage Arugal's upper sanctum. The enormous worg is the archmage's pet, swollen by unnatural magic. Anyone seeking Arugal's study must face beast and master. Fenrus the Devourer prowls outside Archmage Arugal's private chambers, deep within Shadowfang Keep. The worg is no rampart worgen. Swollen to enormous size, Fenrus stalks among the shelves, scrolls, and arcane tools in Arugal's study. The archmage keeps the beast as both pet and guard against anyone who comes seeking his head. Dark magic has saturated Shadowfang Keep since Baron Silverlaine's downfall, and Fenrus bears its mark. Archmage Arugal or his unleashed worgen warped the native predator through arcane or shadowy experiments. Now Fenrus is a ravenous juggernaut, so feral and bound by magic that no hunter can charm or tame him."
     },
     "npc:gelihast": {
       "1": [
         {
-          "duration": 53.760000000000005,
-          "file": "Audio/Transport/full_npc_gelihast-dac60117d188898899a7/1-0000.mp3",
-          "sha256": "6569858fa80999b438a1f33b50587648992749a869881f98366bf0678dbaadd4",
+          "duration": 41.142857142857146,
+          "file": "Audio/Transport/full_npc_gelihast-2094f4db2a267db9c9c6/1-0000.mp3",
+          "sha256": "d5935a94a16949b08138bf03646ed927e92b1e57a4b9d67b13c2b997cdd9b80a",
           "start": 0
         }
       ],
@@ -537,21 +537,21 @@
         ]
       },
       "fullHash": "64ac62",
-      "generation": "474b7624bc0541522f44",
+      "generation": "8f9bd76a6a397cdfa87e",
       "hash": "b12b85",
       "source": {
-        "duration": 53.76,
+        "duration": 41.16898,
         "file": null,
-        "sha256": "dac60117d188898899a7e4580f4c61c2443dd6fdefc50d31424a90906a6c9ca1"
+        "sha256": "2094f4db2a267db9c9c64e7a3fbe7d49eb7e22dbfe11bbc5567db26035c14237"
       },
       "text": "Gelihast. Within Blackfathom Deeps, Gelihast guards an altar in the flooded Pool of Ask'ar. His Blindlight murlocs gather around him in the sunken temple. Deep beneath the Zoram Strand, Gelihast has made his lair in Blackfathom Deeps. Most murlocs keep to the coastal shallows, but he strikes intruders with twin swords. He moves too quickly for many to react, and casters who come within his reach rarely survive. Gelihast rules the Pool of Ask'ar with his Blindlight brood. At the first sign of trouble, they swarm to his side. Beyond his lair stands an altar. Those who defeat him and touch it receive the Blessing of Blackfathom."
     },
     "npc:ghamoo-ra-classic": {
       "1": [
         {
-          "duration": 50.15510204081633,
-          "file": "Audio/Transport/full_npc_ghamoo-ra-classic-e9cb6c393dd11d9677df/1-0000.mp3",
-          "sha256": "62e286a91b72e09c78ab9134e1d7ac60da7624194f42efe3e4ddac9fa70cb44f",
+          "duration": 47.0465306122449,
+          "file": "Audio/Transport/full_npc_ghamoo-ra-classic-11031b646759b1121ac1/1-0000.mp3",
+          "sha256": "187f3c84fa4c5509a939ca776c762af5ddc0f5caa6ad2b399f4b8c582c84e127",
           "start": 0
         }
       ],
@@ -563,21 +563,21 @@
         ]
       },
       "fullHash": "13f054",
-      "generation": "270e721419c4cff2c3d2",
+      "generation": "056fa3cf14ff4b11f8af",
       "hash": "502e9a",
       "source": {
-        "duration": 50.181224,
+        "duration": 47.072653,
         "file": null,
-        "sha256": "e9cb6c393dd11d9677dfb4eace430603e7e1af82aa3c29ad35f561252f153dad"
+        "sha256": "11031b646759b1121ac1e88c61561111fd66cc3a989a1a968ca1e633d2cd648f"
       },
       "text": "Ghamoo-ra. In Blackfathom Deeps, Ghamoo-ra guards a small island in the Pool of Ask'ar. The ancient giant turtle tramples anyone who draws near. Blackfathom Deeps was once a night elven temple to Elune. Now flooded, its ruins belong to naga, satyr, and the nihilistic Twilight's Hammer cult. Ghamoo-ra dwells among them, his enormous, thick shell turning aside all but the strongest blows. Lesser turtles gather around Ghamoo-ra on a small island in the Pool of Ask'ar, yet they leave travelers alone. Ghamoo-ra attacks anyone who comes near. Beneath his trampling bulk, they are crushed."
     },
     "npc:gilnid": {
       "1": [
         {
-          "duration": 52.66285714285714,
-          "file": "Audio/Transport/full_npc_gilnid-141ab0caf855c964992e/1-0000.mp3",
-          "sha256": "d7cd6da85d2f4393000f15a31046747e4b07b563287e48ca002bd391c0f82730",
+          "duration": 44.14693877551021,
+          "file": "Audio/Transport/full_npc_gilnid-312de844d04d0032aff9/1-0000.mp3",
+          "sha256": "58cbb4771fc1530729d98146d1c3d145d435812bd25446abaebee8ca2f82eaee",
           "start": 0
         }
       ],
@@ -589,21 +589,21 @@
         ]
       },
       "fullHash": "9b4adb",
-      "generation": "07c3ad6878d89b260d39",
+      "generation": "923ec94891d44bc4f440",
       "hash": "9b4adb",
       "source": {
-        "duration": 52.68898,
+        "duration": 44.146939,
         "file": null,
-        "sha256": "141ab0caf855c964992ea9f64785e73269f7b2dfaa93960c5a16e5e80399d7de"
+        "sha256": "312de844d04d0032aff92709b3f3645dc7a44218058385a2bde9098c85aa91b1"
       },
       "text": "Gilnid. Deep in the Deadmines, Gilnid directs the Defias Brotherhood's goblin forges. Known as the Smelter, he oversees the work that turns raw ore into refined metal and munitions for Edwin VanCleef's hidden ironclad juggernaut. His foundry produces the heavy cannons the Brotherhood needs to strike Stormwind. Deep in the Deadmines, the Defias Brotherhood relies on the foundry for weapons of war. Gilnid, VanCleef's head smelter, commands goblin laborers, tinkers, and smiths there. Taller than most of his kin, he drives them through smoke and slag, barking orders and allowing no breaks. Their work turns raw iron ore into heavy plating and deadly ordnance."
     },
     "npc:hamhock": {
       "1": [
         {
-          "duration": 39.183673469387756,
-          "file": "Audio/Transport/full_npc_hamhock-fb2cdadfa01acb5abaeb/1-0000.mp3",
-          "sha256": "46329294ff93a4d75fe9da0294ae40548c988a5fa41971830ea0fe49676fd56e",
+          "duration": 45.50530612244898,
+          "file": "Audio/Transport/full_npc_hamhock-f9c07d8ac92acf5d2812/1-0000.mp3",
+          "sha256": "c4be6f2e4767b4485b007dd5b61776385b580d60d0c790b560a5a72e3bd9b9e0",
           "start": 0
         }
       ],
@@ -615,21 +615,21 @@
         ]
       },
       "fullHash": "e40e55",
-      "generation": "fe55b0b6b9c45b3bf617",
+      "generation": "1669e9f1a82c4b9f4f67",
       "hash": "3cd297",
       "source": {
-        "duration": 39.183673,
+        "duration": 45.531429,
         "file": null,
-        "sha256": "fb2cdadfa01acb5abaeb5f1bbfe5f956c926c5e32727ccce9186b1f87d5ee5b2"
+        "sha256": "f9c07d8ac92acf5d281285aa20c20879aedc5db398f87017fa0ec878914920b3"
       },
       "text": "Hamhock. In the Stormwind Stockade, Hamhock remains among the rioting prisoners. The massive two-headed ogre is one of the prison’s most brutal inmates. Hamhock is a towering two-headed ogre held in the Stormwind Stockade. The prison was built for petty thieves, murderers, and political dissidents. So his size makes him a fearsome presence among the cells. When prisoners seized control, Hamhock remained amid the disorder and crushed anyone who entered his cellblock. No record tells how Hamhock was captured or why he was locked among Stormwind’s thieves and dissidents. Whatever brought him to the Stockade, he is now one of its most dangerous inmates."
     },
     "npc:herod": {
       "1": [
         {
-          "duration": 60.65632653061225,
-          "file": "Audio/Transport/full_npc_herod-2a32f82640b2db850fde/1-0000.mp3",
-          "sha256": "b3c67ec037018804bce6a2d231297f586e36a5fe9a6f63f264b53db5baad9296",
+          "duration": 71.0269387755102,
+          "file": "Audio/Transport/full_npc_herod-a9e02c36afba7314c193/1-0000.mp3",
+          "sha256": "1c06031572997e1c93eff33220eea16fb043f0d5c8c8c87e781f1eab9deed29a",
           "start": 0
         }
       ],
@@ -641,21 +641,21 @@
         ]
       },
       "fullHash": "742f25",
-      "generation": "b2a860d4215b9b8a883b",
+      "generation": "cb1080f83c9a8bbaf003",
       "hash": "645865",
       "source": {
-        "duration": 60.656327,
+        "duration": 71.053061,
         "file": null,
-        "sha256": "2a32f82640b2db850fde85eb640037ed2758f20b889b60e7a691902c38319ff4"
+        "sha256": "a9e02c36afba7314c1938036c65907cbe49d1de2630c3fc20d98600b0d88331d"
       },
       "text": "Herod. In the Scarlet Monastery's Armory, Herod trains the Crusade's melee fighters. A renowned champion, he commands the Armory and wages the Crusade's holy war with fierce skill and zeal. Alliance dissidents and the Horde's rulers in Undercity seek his death to weaken the order. Herod commands the Armory within the Scarlet Monastery. Unlike the spellcasters and paladins in the Cathedral, he relies on physical strength. Clad in mail and bearing a massive two-handed axe, he trains cohorts of Scarlet Trainees. He teaches them to fight with fury and destroy anyone beyond the Crusade's cause. Herod oversees the weapons and combat training of the Crusade's front-line warriors. Raleigh the Devout, an ex-Crusader disillusioned with the order's madness, lives in Southshore and calls for Herod's death to break its military leadership. In the Undercity, the dreadlord Varimathras also seeks Herod's execution. He wants the dangerous human stronghold cleared from the border of Forsaken territory."
     },
     "npc:high-inquisitor-fairbanks": {
       "1": [
         {
-          "duration": 34.11591836734694,
-          "file": "Audio/Transport/full_npc_high-inquisitor-fairbanks-c08a621d52de51b4494a/1-0000.mp3",
-          "sha256": "a8228da308d6dbdb71e11e38e4b944f25a6b4ee14af2e8201a89952e754b9419",
+          "duration": 37.17224489795918,
+          "file": "Audio/Transport/full_npc_high-inquisitor-fairbanks-d77e9295646dad27d4a8/1-0000.mp3",
+          "sha256": "d6d13416ced7853ab138efbe82bbe98f8c250ad38e66760cffd4fdf674fde13e",
           "start": 0
         }
       ],
@@ -667,21 +667,21 @@
         ]
       },
       "fullHash": "f63e74",
-      "generation": "992b3973effd68e55dad",
+      "generation": "3668e3609028b4ecdc44",
       "hash": "f63e74",
       "source": {
-        "duration": 34.142041,
+        "duration": 37.198367,
         "file": null,
-        "sha256": "c08a621d52de51b4494ac795ae0c1976784d164d865dbf15d56f9728d70ba072"
+        "sha256": "d77e9295646dad27d4a8395eba10a1d06873cf6c68f0f75957d29c45b9c365e6"
       },
       "text": "High Inquisitor Fairbanks. In the Scarlet Crusade, High Inquisitor Fairbanks's fate remains bound to the order's dark descent. Before Lordaeron fell, he was a revered priest and a trusted advisor to Highlord Alexandros Mograine. Before Lordaeron fell, Fairbanks was a respected priest of the Knights of the Silver Hand. Highlord Alexandros Mograine trusted him above all others. Mograine bore the Ashbringer. Fairbanks stood beside Mograine, High General Abbendis and Grand Inquisitor Isillien when they founded the Scarlet Crusade, an order sworn to destroy the Scourge."
     },
     "npc:houndmaster-loksey": {
       "1": [
         {
-          "duration": 55.98040816326531,
-          "file": "Audio/Transport/full_npc_houndmaster-loksey-d5bfa65c7ac17df606e2/1-0000.mp3",
-          "sha256": "e6fdf0cd38c90ddfbfeb7040ddb5f2720a1c7cd3e7a510b18d6149ad1b584249",
+          "duration": 62.354285714285716,
+          "file": "Audio/Transport/full_npc_houndmaster-loksey-56279a6ed44efd18e49b/1-0000.mp3",
+          "sha256": "a917fba59bdcc7b4cf1f42e9bd60669f7e587ed5fb7e1fbde11144850ba6af2e",
           "start": 0
         }
       ],
@@ -693,21 +693,21 @@
         ]
       },
       "fullHash": "e31d7a",
-      "generation": "4b0e773ed7261a5f50bf",
+      "generation": "0e8317baeea51a903345",
       "hash": "6ab590",
       "source": {
-        "duration": 56.006531,
+        "duration": 62.380408,
         "file": null,
-        "sha256": "d5bfa65c7ac17df606e2cfce8a21dc4a046298d1f44399923c664f622980f50b"
+        "sha256": "56279a6ed44efd18e49b1f360944e72553872fec401583a148082e9d8fa89813"
       },
       "text": "Houndmaster Loksey. In the Scarlet Monastery's Library wing, Houndmaster Loksey keeps the Crusade's war dogs ready. He breeds and trains them to hunt undead, intruders, and those the Crusade judges heretics. His harsh discipline has made the Monastery's beasts feared across Tirisfal Glades. Houndmaster Loksey trains vicious dogs to track and attack. The Scarlet Crusade sends them to sniff out plague-tainted corpses, uncover hidden infiltrators, and run down survivors fleeing the zealots' wrath. Loksey commands the hounds guarding the Library wing. They stand ready to tear intruders limb from limb. Loksey's brother, Huntsman Leopold, serves the Scarlet Crusade as its envoy to the Argent Dawn at Light's Hope Chapel. In private, Leopold thinks Loksey can barely manage his hounds, let alone handle high-stakes diplomacy. Yet Loksey remains a key officer in the Monastery's inner hierarchy."
     },
     "npc:interrogator-vishas": {
       "1": [
         {
-          "duration": 40.306938775510204,
-          "file": "Audio/Transport/full_npc_interrogator-vishas-950bbd074a8eb140d822/1-0000.mp3",
-          "sha256": "82242c808e99640643f073ae6354361ee2346069965095efadbd2ef83c3c39d2",
+          "duration": 50.91265306122449,
+          "file": "Audio/Transport/full_npc_interrogator-vishas-d7e6c0255597ba542e20/1-0000.mp3",
+          "sha256": "1b3cce51d8f671807c9986bf91c40b0628fde94fca5867dec3d343d4a27f67c6",
           "start": 0
         }
       ],
@@ -719,21 +719,21 @@
         ]
       },
       "fullHash": "18ace5",
-      "generation": "e3418bb5f9ce0e003a6a",
+      "generation": "28a24122e00873071838",
       "hash": "18ace5",
       "source": {
-        "duration": 40.306939,
+        "duration": 50.938776,
         "file": null,
-        "sha256": "950bbd074a8eb140d822bffeae600a80dda0e6c897769d50f8cc54b389c5953b"
+        "sha256": "d7e6c0255597ba542e20a4f255240ee8eeadb8c41835100d0a316fdb9cfd3e2a"
       },
       "text": "Interrogator Vishas. Deep in the Scarlet Monastery, Interrogator Vishas has captives at his mercy. The Scarlet Crusade’s master of torment takes pleasure in breaking prisoners and testing mortal flesh. In the Scarlet Monastery’s crypts and burial grounds, Interrogator Vishas tends the Crusade’s captives. Outside, zealots march in gleaming armor beneath banners of purity. Inside, Vishas reveals the cruelty behind their righteous fury.\n\nInterrogation serves the Crusade’s need for intelligence, and Vishas prizes it as a craft. He revels in the agony of Forsaken captives, captured Scourge, and living travelers branded heretics."
     },
     "npc:jergosh-the-invoker": {
       "1": [
         {
-          "duration": 30.928979591836736,
-          "file": "Audio/Transport/full_npc_jergosh-the-invoker-3522c57ff776791cb9d6/1-0000.mp3",
-          "sha256": "ca88ba91cfa632aab37632d061b22d6565e0769079e737c01bc3de0b55cdfb2c",
+          "duration": 34.89959183673469,
+          "file": "Audio/Transport/full_npc_jergosh-the-invoker-c2d35b6d72f6fae8eb22/1-0000.mp3",
+          "sha256": "fda576ee1fee39d90e4ec5a0220dfb2e15e73630a8cbfd0072df869880b27421",
           "start": 0
         }
       ],
@@ -745,21 +745,21 @@
         ]
       },
       "fullHash": "0b521c",
-      "generation": "cad6dcb8ac8ae5b3f25d",
+      "generation": "d81186ac3688c3b2f728",
       "hash": "0b521c",
       "source": {
-        "duration": 30.955102,
+        "duration": 34.925714,
         "file": null,
-        "sha256": "3522c57ff776791cb9d65c09fc19eb97bc69ba616287d883d86fa28a22d99bc0"
+        "sha256": "c2d35b6d72f6fae8eb2230c0bada72bfdc48b7299e71d08772d752fadc846cc0"
       },
       "text": "Jergosh the Invoker. Beneath Orgrimmar, Jergosh the Invoker leads a cult against the Horde. In Ragefire Chasm, he turns to demonic arts while Thrall guides the orcs toward honor and shamanism. Jergosh gathers the Searing Blade beneath Orgrimmar. Thrall leads the orcs toward honor and shamanism, but Jergosh turns to demonic power. In Ragefire Chasm, he draws followers into a sect aligned with the remnants of the Shadow Council. From beneath the Horde capital, the cult works against the path the new Horde has chosen."
     },
     "npc:kam-deepfury": {
       "1": [
         {
-          "duration": 58.775510204081634,
-          "file": "Audio/Transport/full_npc_kam-deepfury-67f8a64e84615e0fe460/1-0000.mp3",
-          "sha256": "e9727bd5deb811bcf0e1815272ec1895ee9feca227da6ea98846125f5a5f501f",
+          "duration": 71.31428571428572,
+          "file": "Audio/Transport/full_npc_kam-deepfury-1e1469306d553cd9adbf/1-0000.mp3",
+          "sha256": "1069241f2548ce19bbf1b8a01ac25c2cad06c7d10d56ff6bef1de419a00c7d95",
           "start": 0
         }
       ],
@@ -771,21 +771,21 @@
         ]
       },
       "fullHash": "d085b1",
-      "generation": "9dc2be8b8e550d7c2cb1",
+      "generation": "04285bfd42ee41a9aacf",
       "hash": "c934aa",
       "source": {
-        "duration": 58.801633,
+        "duration": 71.340408,
         "file": null,
-        "sha256": "67f8a64e84615e0fe46040ef9dcdd49f4a5913fb57ea68cdf178f81c6e6df7db"
+        "sha256": "1e1469306d553cd9adbf38a0b0d7348f4c43ac95400c897af9b871d072533a78"
       },
       "text": "Kam Deepfury. In Stormwind's Stockade, Kam Deepfury waits apart from the Defias rebels. Captured after arranging the blast that shattered the Thandol Span far to the north, the Dark Iron dwarf is held far from his kin. Kam Deepfury is a Dark Iron dwarf held deep in the Stormwind Stockade. Most prisoners there are disgruntled Stonemasons or Defias rebels, but he is neither. Captured after an operation crippled vital northern infrastructure, he remains cut off from his kin beneath Blackrock Mountain. Like the rebels sharing the corridors, he is hostile to the Alliance. Alliance intelligence at Dun Modr, near the Wetlands' northern border, named Kam Deepfury as the chief architect of the blast that shattered the Thandol Span. The explosion severed one of the massive stone bridges between the Wetlands and the Arathi Highlands. It crippled a vital trade and military route for Ironforge and the Alliance. It also killed a kin of Longbraid the Grim, the dwarf commander."
     },
     "npc:lady-anacondra": {
       "1": [
         {
-          "duration": 55.53632653061225,
-          "file": "Audio/Transport/full_npc_lady-anacondra-fbf78c9f0b67bf069e71/1-0000.mp3",
-          "sha256": "ef341e66d64038a11eafd11956cb1a093f0a7722feb817466bd0ac4e54a272c9",
+          "duration": 74.24000000000001,
+          "file": "Audio/Transport/full_npc_lady-anacondra-768c0ce0d6c5820ade28/1-0000.mp3",
+          "sha256": "8bbce7a695f160d2b6372850ca32bed0e549ca5fe7248335eaa2f0bc7493aad4",
           "start": 0
         }
       ],
@@ -797,21 +797,21 @@
         ]
       },
       "fullHash": "34bec2",
-      "generation": "31c9579784830b590751",
+      "generation": "724f8a8deccea5c0b358",
       "hash": "bce7b5",
       "source": {
-        "duration": 55.536327,
+        "duration": 74.266122,
         "file": null,
-        "sha256": "fbf78c9f0b67bf069e71eacc3444edf8c4b52b7aab2449c2f015c87a4b0c3790"
+        "sha256": "768c0ce0d6c5820ade2839c90a7c880c2dc31924062b032c7f206808d639e246"
       },
       "text": "Lady Anacondra. Deep in the Wailing Caverns, Lady Anacondra holds to the Druids of the Fang. She followed Naralex in his effort to heal the Barrens, but his communion with the Emerald Dream became a nightmare. It shattered her mind and turned her devotion toward remaking the land in the dream’s image. Lady Anacondra followed Naralex into the caverns as he sought the Barrens’ subterranean springs through the Emerald Dream. Then dark visions seized his mind, and the nightmare spread from the dreaming realm to his disciples. Her sanity broke. Her hope for the land became a cold, reptilian obsession. Lady Anacondra guards the Wailing Caverns’ first chambers. She and the other Fanglords have cast aside the Cenarion Circle’s teachings and embraced the viper’s vicious ways. She wields lightning and nature magic, and keeps Naralex in his twisted sleep with slumbering trances. Above, the nightmare’s corruption still threatens the Barrens."
     },
     "npc:lady-sarevess": {
       "1": [
         {
-          "duration": 39.13142857142857,
-          "file": "Audio/Transport/full_npc_lady-sarevess-ac1d7edc15047c8e33f5/1-0000.mp3",
-          "sha256": "d56b8b78f90428e7f3976c93c5d38bf29075932b2903fb5797165c07235c28d2",
+          "duration": 36.989387755102044,
+          "file": "Audio/Transport/full_npc_lady-sarevess-635810bd6e88a5d8c114/1-0000.mp3",
+          "sha256": "caeefa4a9069ec7dc1839425dfbab61ef272ad917d28f1b19b0f34ef8dfbb6f0",
           "start": 0
         }
       ],
@@ -823,21 +823,21 @@
         ]
       },
       "fullHash": "04b0f2",
-      "generation": "12ef30124e87e4969e7b",
+      "generation": "a3fa07b474301184c0ee",
       "hash": "44831b",
       "source": {
-        "duration": 39.157551,
+        "duration": 37.01551,
         "file": null,
-        "sha256": "ac1d7edc15047c8e33f51a4c4af9bf7297b81f6f00a93424d6e0615fc583651e"
+        "sha256": "635810bd6e88a5d8c11460e9ee22e5e5f8ffae5eaa9e281c462938fc1b7d45c6"
       },
       "text": "Lady Sarevess. In Blackfathom Deeps, Lady Sarevess works dark sorceries among the flooded ruins. Lady Sarevess performs rituals in a flooded grotto within the Pool of Ask'ar. The Twilight's Hammer cultists haunt the sunken temple as well. They pursue their own worship deeper in the cavern. Lady Sarevess commands elemental currents and crackling lightning. Loyal naga sentinels and summoned water elementals guard her sanctuary. She fights intruders who threaten her dark work."
     },
     "npc:lord-cobrahn": {
       "1": [
         {
-          "duration": 59.036734693877555,
-          "file": "Audio/Transport/full_npc_lord-cobrahn-995251a9db72a77c6c4c/1-0000.mp3",
-          "sha256": "61eb95a05e1979a18cd6b6fb7df8f896ca026113424100ec706597897a2e6e6e",
+          "duration": 73.53469387755102,
+          "file": "Audio/Transport/full_npc_lord-cobrahn-e3d71ff1515941b79780/1-0000.mp3",
+          "sha256": "4127f62638100ab5e5d5a10ebf2c2123bb0b1570bb32c86db41f81d909bf9d54",
           "start": 0
         }
       ],
@@ -849,21 +849,21 @@
         ]
       },
       "fullHash": "f8a065",
-      "generation": "971f475fa07d9dbf93c2",
+      "generation": "45e42bf2ac4329df336b",
       "hash": "b6cfd1",
       "source": {
-        "duration": 59.062857,
+        "duration": 73.560816,
         "file": null,
-        "sha256": "995251a9db72a77c6c4c9eeac4a36b3634b24d53d9ff31929fc4797e89af0cad"
+        "sha256": "e3d71ff1515941b79780b720b288b44c0810e7affa1728721d996d90ebc86e04"
       },
       "text": "Lord Cobrahn. Deep in the Wailing Caverns, Lord Cobrahn commands the corrupted Druids of the Fang. He was a night elf druid in Naralex's order, until the nightmare in the cavern springs claimed him. Now he guards the twisted labyrinth in a deadly serpent guise. Lord Cobrahn once served Naralex in his druid order. When Naralex entered the Wailing Caverns beneath the Barrens, he hoped to draw upon the underground springs and restore life to the arid wastes. Cobrahn went with him. But Naralex's communion with the Emerald Dream decayed into a twisting nightmare, and Cobrahn's mind shattered with those of his brothers. The nightmare warped Cobrahn's shapeshifting into a predatory reptilian form unlike the totemic beasts of Cenarion tradition. In battle, he takes the guise of a deadly serpent. Venomous deviate pythons flank him, and a vicious claw marks his right hand. Cobrahn rules his part of the grottos and violently purges anyone who tries to break the nightmare's hold on the caverns."
     },
     "npc:lord-pythas": {
       "1": [
         {
-          "duration": 57.83510204081633,
-          "file": "Audio/Transport/full_npc_lord-pythas-3707e16e970df97d49d9/1-0000.mp3",
-          "sha256": "b67b07a0442a25cc330ff2ab0742cb2c4c740f7f8d8bf82da8519fc4be097c82",
+          "duration": 62.56326530612245,
+          "file": "Audio/Transport/full_npc_lord-pythas-7ac10c0ec205ee14077a/1-0000.mp3",
+          "sha256": "230dc5f90867e4d8348ce4ade97b5c1b794f11fc4e11bf058e641ce6049b3b9b",
           "start": 0
         }
       ],
@@ -875,21 +875,21 @@
         ]
       },
       "fullHash": "87d92e",
-      "generation": "2beab241fd8183b1bb0d",
+      "generation": "6a5ba700c170272858b2",
       "hash": "274a76",
       "source": {
-        "duration": 57.861224,
+        "duration": 62.589388,
         "file": null,
-        "sha256": "3707e16e970df97d49d96604da54b1406b31802d161af828c8667b236c89ee16"
+        "sha256": "7ac10c0ec205ee14077a77253d78baa61d3a857548ae073cb17764e475f770ea"
       },
       "text": "Lord Pythas. Deep in the Wailing Caverns, Lord Pythas guards Naralex's slumber. Once a night elf warrior in Naralex's personal guard, he now leads the corrupted Druids of the Fang. His skill in battle and serpent magic bar the way to his master. Pythas joined Naralex's personal guard when the druid's expedition entered the Barrens' dry wastes. A seasoned night elf warrior, he studied druidism to help Naralex restore life to the arid realm. Yet discipline and valor could not shield him from the corruption hidden in the caverns' depths. Dark nightmares seized Naralex's connection to the Emerald Dream. Pythas and his fellow acolytes fell under their sway. He forsook his old loyalty and became a leader of the Druids of the Fang.\n\nSome serpent lords favor spells or beast forms. Pythas wields nature magic alongside deadly combat skill. Now he prowls the winding caverns and guards the nightmare's hold on the spring."
     },
     "npc:lord-serpentis": {
       "1": [
         {
-          "duration": 60.78693877551021,
-          "file": "Audio/Transport/full_npc_lord-serpentis-d36369bb7186cf08e70b/1-0000.mp3",
-          "sha256": "795302abe05be4eb8216c1c671b4338107261a386de4a76cdf34ab2a927a2605",
+          "duration": 73.84816326530613,
+          "file": "Audio/Transport/full_npc_lord-serpentis-dd01aeb9bfd3fad52e7f/1-0000.mp3",
+          "sha256": "c361fbb98dc182a592e6864e39592247fb9d32bb94e1d55f7fd14b7f759f207f",
           "start": 0
         }
       ],
@@ -901,21 +901,21 @@
         ]
       },
       "fullHash": "3c4abc",
-      "generation": "272da0c07d65bdad3fef",
+      "generation": "6bad23fd94d324316a98",
       "hash": "36c6db",
       "source": {
-        "duration": 60.813061,
+        "duration": 73.874286,
         "file": null,
-        "sha256": "d36369bb7186cf08e70b2044c247514953375eae362353639f91875399a14c00"
+        "sha256": "dd01aeb9bfd3fad52e7fe68ff8daae1c8d5953cc80bdad5a7aea33a9b0202647"
       },
       "text": "Lord Serpentis. Deep in the Wailing Caverns, Lord Serpentis leads the Druids of the Fang. Once a mighty druid in Naralex's order, he fell to madness when Naralex's dream soured in the cavern springs. Now he helps command the serpent-worshipping sect near the corrupted Naralex, who lies slumbering. Before the cavern springs darkened, Serpentis held great power and prestige as a druid. He belonged to the noble order led by Naralex. Together, they hoped to heal the Barrens with the springs and the Emerald Dream. But Naralex's vision became a corrupting nightmare, and its rising madness took hold of Serpentis and the other druids. Naralex's twisted dreams spread corruption through his followers. Serpentis and the others became the Druids of the Fang, abandoning Cenarion balance and the totem animals of old. Now they seek to remake the Barrens in the image of their twisted dreams instead of healing it. Serpentis shares leadership with Lady Anacondra, Lord Cobrahn and Lord Pythas."
     },
     "npc:lorgus-jett": {
       "1": [
         {
-          "duration": 35.10857142857143,
-          "file": "Audio/Transport/full_npc_lorgus-jett-52e4fe6b57e544eb79d4/1-0000.mp3",
-          "sha256": "7a9ed75e07f303d43af292bfa0295274460ad63ae5655f3b4fbbb3bba07d4ff2",
+          "duration": 31.81714285714286,
+          "file": "Audio/Transport/full_npc_lorgus-jett-c092ef9fa52b4f6cc2b1/1-0000.mp3",
+          "sha256": "4b5914894dbb192b61a7cbd9bc0a28e419ae2c57ca510becd41b3084a93586d0",
           "start": 0
         }
       ],
@@ -927,21 +927,21 @@
         ]
       },
       "fullHash": "6dfe0b",
-      "generation": "609ea77653e099188c1a",
+      "generation": "0374f6d09b7bd28da894",
       "hash": "6dfe0b",
       "source": {
-        "duration": 35.134694,
+        "duration": 31.843265,
         "file": null,
-        "sha256": "52e4fe6b57e544eb79d414b75efbf315f736449eea1facb88f843dd3a4787f81"
+        "sha256": "c092ef9fa52b4f6cc2b13fd32945f734b0e20fa95ebeba1e906f1ddf34cb663b"
       },
       "text": "Lorgus Jett. In Blackfathom Deeps, Lorgus Jett leads the Twilight's Hammer through flooded ruins. The Horde has marked him as a target. Among the Twilight's Hammer in Blackfathom Deeps, Lorgus Jett is a human. Many cultists there are orcs or tauren, but Jett ranges from the upper Moonshrine Ruins to the tunnels beyond Gelihast, the murloc defiler. He directs the cult's rituals and violent ambitions in the ancient night elf ruins."
     },
     "npc:miner-johnson": {
       "1": [
         {
-          "duration": 42.52734693877551,
-          "file": "Audio/Transport/full_npc_miner-johnson-d544cf87a34486fed643/1-0000.mp3",
-          "sha256": "43c372f4d5997ae099f37aaeb572101b0b53470d85a3eb991f6f7fa654d21b82",
+          "duration": 43.72897959183673,
+          "file": "Audio/Transport/full_npc_miner-johnson-5b6ab8a473c52e37dfbe/1-0000.mp3",
+          "sha256": "f3fbcbd9a0d6858ed9f365d901a8f72d241d2541d32540725711aca008334022",
           "start": 0
         }
       ],
@@ -953,21 +953,21 @@
         ]
       },
       "fullHash": "a94424",
-      "generation": "154bad01b044c8b8d282",
+      "generation": "c5c9833e500fb9d9ea03",
       "hash": "809436",
       "source": {
-        "duration": 42.553469,
+        "duration": 43.755102,
         "file": null,
-        "sha256": "d544cf87a34486fed6437840ba6a431ea544873d834c7a9fdde20b3fa46e5ae6"
+        "sha256": "5b6ab8a473c52e37dfbe0294ee1912158fcd1a018bf353f25ac9295d1782b440"
       },
       "text": "Miner Johnson. Deep in the Deadmines, Miner Johnson oversees the digging as a seasoned miner. He works ahead of the heavy machinery, though he appears only now and then. Miner Johnson digs with the laborers beneath the Deadmines, where they work on Edwin VanCleef's hidden fortress. Before the shredders in the Mast Room, he waits in an alcove to the left. He is stronger and more aggressive than the other miners. Since he wanders the tunnels, he can be hard to find. Beneath Moonbrook, the Defias Brotherhood needs ore for weapons, reinforced shafts, and mechanical contraptions. Johnson and the other miners dig the mineral seams beneath Westfall. Anyone who enters his work area finds that he guards it fiercely."
     },
     "npc:mr-smite": {
       "1": [
         {
-          "duration": 78.0538775510204,
-          "file": "Audio/Transport/full_npc_mr-smite-8fcb9f5f5ad91b66e2fb/1-0000.mp3",
-          "sha256": "b928bd6b74daca4fcc736871daf3372409155c021e03d830645d3918cb3287bb",
+          "duration": 68.2057142857143,
+          "file": "Audio/Transport/full_npc_mr-smite-79ddbf52841a33c379e8/1-0000.mp3",
+          "sha256": "b5edee4cd70ef8d60bc7ba3f67617f44939e8508efc9b0c7ac72938583b3a166",
           "start": 0
         }
       ],
@@ -979,21 +979,21 @@
         ]
       },
       "fullHash": "d08b82",
-      "generation": "ebc4530336e48f883112",
+      "generation": "03923766ecbc0d0600b4",
       "hash": "7b17d5",
       "source": {
-        "duration": 78.08,
+        "duration": 68.231837,
         "file": null,
-        "sha256": "8fcb9f5f5ad91b66e2fb09877c932b6466f77fc827182da971aa21988a926dc9"
+        "sha256": "79ddbf52841a33c379e85cf791740388e564ec2ef5fdd27ad8ad60c54fbd71aa"
       },
       "text": "Mr. Smite. At Ironclad Cove, Mr. Smite guards the Defias ship and its crew. The tauren serves Captain Greenskin as first mate and watches the docks where Edwin VanCleef's dreadnaught is being fitted out. Intruders meet his great strength and a changing array of weapons. At Ironclad Cove, Mr. Smite keeps order on the docks as first mate to the goblin Captain Greenskin. Most of the Defias Brotherhood are disaffected humans and goblin tinkerers, but Smite is a battle-hardened tauren from far beyond Kalimdor's plains. He commands a rowdy pirate crew as they fit out Edwin VanCleef's secret dreadnaught. No one may disrupt their work. Mr. Smite is a showman and a versatile weaponmaster, not just a fighter of brute force. He toys with challengers and draws out the fight, leaving them a false hope of victory. When pressed, he stamps the ground hard enough to stun his foes, then searches a nearby chest for another weapon. First comes a quick dueling blade, then twin cleaving reavers, and at last a huge two-handed warhammer."
     },
     "npc:mutanus-the-devourer": {
       "1": [
         {
-          "duration": 30.4065306122449,
-          "file": "Audio/Transport/full_npc_mutanus-the-devourer-813d8c2cfc3aa6d42643/1-0000.mp3",
-          "sha256": "0b7ae3fef1ada5c554c24beb4d1c5fe835240ed214b58a1ea32a634cd42a7922",
+          "duration": 37.72081632653062,
+          "file": "Audio/Transport/full_npc_mutanus-the-devourer-7e43e3e40d1fd8d56fdc/1-0000.mp3",
+          "sha256": "7ab51d5844b660c84511a103d8eeede615b7938df4f85c0481a6da3000dfa79b",
           "start": 0
         }
       ],
@@ -1005,21 +1005,21 @@
         ]
       },
       "fullHash": "937dbe",
-      "generation": "5db2ec0d44beacb3006b",
+      "generation": "51803d973f831fa752df",
       "hash": "937dbe",
       "source": {
-        "duration": 30.432653,
+        "duration": 37.746939,
         "file": null,
-        "sha256": "813d8c2cfc3aa6d42643654e3a41cdb90af7494112298c942cc9df94ea41709b"
+        "sha256": "7e43e3e40d1fd8d56fdcdcd290c1649a8eb424e6ac5e5eb4d3e3c4f8ac4766a3"
       },
       "text": "Mutanus the Devourer. In the Wailing Caverns, Mutanus the Devourer haunts Naralex's sleeping mind as a pale, monstrous murloc. The creature emerged from the Emerald Nightmare, and must fall before Naralex can awaken. Naralex, a night elf druid, sought to restore the Barrens by joining its underground springs to the Emerald Dream. Instead, the Emerald Nightmare entered his thoughts. Trapped in an agonizing vision, Naralex's fears took shape through the corruption as an immense, albino murloc."
     },
     "npc:naralex": {
       "1": [
         {
-          "duration": 59.794285714285714,
-          "file": "Audio/Transport/full_npc_naralex-ea62c1781b1afb88a5cd/1-0000.mp3",
-          "sha256": "188bb08b0550c9b1943158d94b219b46e344d4b93c799afc7fbcd213c091a6c3",
+          "duration": 81.71102040816326,
+          "file": "Audio/Transport/full_npc_naralex-c041f9397a79d09d4f41/1-0000.mp3",
+          "sha256": "5175a4927de3adf27ee1567a2f230868f6be6acabaf31dfbd000d8c5d00476b8",
           "start": 0
         }
       ],
@@ -1031,21 +1031,21 @@
         ]
       },
       "fullHash": "cb9e1d",
-      "generation": "ca8f2f0f02dafef08ccc",
+      "generation": "b96492671abc254dd854",
       "hash": "526094",
       "source": {
-        "duration": 59.820408,
+        "duration": 81.737143,
         "file": null,
-        "sha256": "ea62c1781b1afb88a5cded728a89ffadf47a478781968ecb9538e85a227fe086"
+        "sha256": "c041f9397a79d09d4f41f4525b45ceb1f37f45958270879c68cba69903b940c2"
       },
       "text": "Naralex. Beneath the Barrens, Naralex sleeps while his dream of green turns to nightmare. The night elf druid sought to restore the parched land through the Emerald Dream, but corruption overtook his slumber and twisted his followers into venomous fiends. Naralex came to the Barrens with devoted disciples, hoping to restore the forest that covered the plains before the Great Sundering. Beneath the savannah, he found underground springs and rushing geysers. He named the caverns for the howling wind and steam that moaned through the rock. He believed a deep trance could channel the Emerald Dream into those waters, carrying life to the surface and making the wasteland bloom. Deep in the caverns, Naralex entered meditation and reached toward the Emerald Dream. Corruption ensnared his mind instead of the peaceful wild nature he sought. The Emerald Nightmare seized the sleeping druid and made him a conduit for dark energies to enter the living world. Springs turned foul, fungal blooms mutated, and the caverns' beasts became ravenous horrors."
     },
     "npc:oggleflint": {
       "1": [
         {
-          "duration": 62.14530612244898,
-          "file": "Audio/Transport/full_npc_oggleflint-f276256fa8859c8306f8/1-0000.mp3",
-          "sha256": "6907d3191d938d8e4e5dbdcb78c025f7fdf800f9fb1d46e8a09489c714abfa43",
+          "duration": 79.17714285714285,
+          "file": "Audio/Transport/full_npc_oggleflint-06348a62226b746bc032/1-0000.mp3",
+          "sha256": "da7d64d72dc0a0e74e9e4d9d65b770a45353c38c319159b4ea75c331db203fe5",
           "start": 0
         }
       ],
@@ -1057,21 +1057,21 @@
         ]
       },
       "fullHash": "c876bb",
-      "generation": "e3a93db84e609804a60e",
+      "generation": "069a4a01e4b7aabef89a",
       "hash": "6e56f3",
       "source": {
-        "duration": 62.171429,
+        "duration": 79.203265,
         "file": null,
-        "sha256": "f276256fa8859c8306f88be8e8ed6006b4e3f01484a5209d4e9c5f01fbb26903"
+        "sha256": "06348a62226b746bc032f84dabc0f2700c7c693d664cd707679e996dae0e30b4"
       },
       "text": "Oggleflint. In Ragefire Chasm beneath Orgrimmar, Oggleflint leads his trogg tribe toward the surface. Near the cavern entrance, he commands his pack as they threaten the Horde capital above. Deep beneath Orgrimmar, Oggleflint and his troggs climbed from fiery tunnels into Ragefire Chasm. Among the molten rock, they carved out a primitive domain and defend it with brutal force. The troggs have little advanced civilization. Oggleflint rules his pack through sheer strength. Elder Crone Magatha Grimtotem sent diplomats into the chasm to make peace with the troggs. The troggs turned on them and killed them. Maur Grimtotem, one of the envoys, lies dead in the caverns under Oggleflint’s watch. Near the cavern entrance, Oggleflint waits to strike at outsiders who venture into the dark. Oggleflint’s tribe lives directly beneath Thrall’s capital, a hazard the Horde cannot tolerate. The troggs creep closer to the surface. Their volatile nature threatens to carry them into the Drag and Cleft of Shadow if left undisturbed."
     },
     "npc:old-serra-kis": {
       "1": [
         {
-          "duration": 70.29551020408164,
-          "file": "Audio/Transport/full_npc_old-serra-kis-e178f7cc364e192fbdcb/1-0000.mp3",
-          "sha256": "8b0d7cd3ac7d6ecc5ba937e4d9040c8a3e116925d3d0771e9d33f424791de586",
+          "duration": 52.140408163265306,
+          "file": "Audio/Transport/full_npc_old-serra-kis-4012a87e178998fbcfd2/1-0000.mp3",
+          "sha256": "f29c68ef39567577e873a5403ba7f4c251de4428cb0053dfd8cac615830dfdc3",
           "start": 0
         }
       ],
@@ -1083,21 +1083,21 @@
         ]
       },
       "fullHash": "6a3a65",
-      "generation": "d1ccb3d3563b701f10e8",
+      "generation": "c3b4b322f6519a94238f",
       "hash": "4722af",
       "source": {
-        "duration": 70.321633,
+        "duration": 52.166531,
         "file": null,
-        "sha256": "e178f7cc364e192fbdcbc1e292f5cf235139b73f1757ab45ebdf3a2db500b8c3"
+        "sha256": "4012a87e178998fbcfd22d1864546e54e5ba53d32290a9263e952e1ef1afd6da"
       },
       "text": "Old Serra'kis. In the flooded depths beneath the Moonshrine Sanctum, Old Serra'kis waits in Blackfathom Deeps. The enormous threshadon hides in a submerged cave, deadly to anyone who seeks him there. The Twilight's Hammer has made its home in the sunken Moonshrine Ruins. Beneath the Moonshrine Sanctum, dark waters hide older and wilder things. Old Serra'kis, the largest threshadon in the sunken temple, lurks in the Forgotten Pool. Few would think to look in that flooded cave beneath the ruins. You must dive beneath the temple floor to reach Old Serra'kis in the flooded cavern. No air pockets break the water, and the cave is as deadly as the beast within. Cornered in the murk, Serra'kis shows an unnatural resilience. He drains life from his attackers with shadow energy and sustains his own vitality in the darkness."
     },
     "npc:overlord-ramtusk": {
       "1": [
         {
-          "duration": 43.49387755102041,
-          "file": "Audio/Transport/full_npc_overlord-ramtusk-74dc4741ee428ec65cdd/1-0000.mp3",
-          "sha256": "3fd3dd123ac6e8cb139384433cd3204bdc258a48e8a408f921cb4e6678cb8b35",
+          "duration": 47.542857142857144,
+          "file": "Audio/Transport/full_npc_overlord-ramtusk-8f17002e87011026d1c5/1-0000.mp3",
+          "sha256": "a2c3e57aae9e60b4262e806d846b3a7fb85fa588bf4d09e39ff8d5a046206054",
           "start": 0
         }
       ],
@@ -1109,21 +1109,21 @@
         ]
       },
       "fullHash": "fcf89c",
-      "generation": "95fc8a709a6e86c0f70a",
+      "generation": "008272b235d10716d99e",
       "hash": "a42068",
       "source": {
-        "duration": 43.52,
+        "duration": 47.56898,
         "file": null,
-        "sha256": "74dc4741ee428ec65cdd136219a78c39b14b1a73df594ea9bc2c344f902434b2"
+        "sha256": "8f17002e87011026d1c5173e740eee1967450a23d43138adba63754d90180a21"
       },
       "text": "Overlord Ramtusk. Deep in Razorfen Kraul, Overlord Ramtusk rallies the quilboar warriors for battle. He calls for victory and for Agamaggan, and his fall breaks the defenders’ martial strength. Overlord Ramtusk commands the quilboar stronghold deep in Razorfen Kraul, in the southern Barrens. He enters battle crying out to Agamaggan, the boar demigod, and rules the Kraul’s fighters with unyielding authority. Ramtusk directs the quilboar warriors through the Kraul’s winding brambles. He keeps tight discipline among the bristled fighters who defend their tribe’s sanctum. Elite marksmen flank him as he fights on the front line, bellowing rallying shouts and unleashing slams that can break opposing battle lines in seconds."
     },
     "npc:rhahk-zor": {
       "1": [
         {
-          "duration": 39.183673469387756,
-          "file": "Audio/Transport/full_npc_rhahk-zor-ecbbf5a14c6696b06a66/1-0000.mp3",
-          "sha256": "7531aee0cfaca168682a629b63ab3116e7593c944871b7b78df307b439f9054d",
+          "duration": 43.650612244897964,
+          "file": "Audio/Transport/full_npc_rhahk-zor-23c7056fde1209040141/1-0000.mp3",
+          "sha256": "6615710322fe783abc6decf9c42316cfb705332dd5f4303c01e6e59c02afbf9b",
           "start": 0
         }
       ],
@@ -1135,21 +1135,21 @@
         ]
       },
       "fullHash": "25eb2c",
-      "generation": "9c7eb8558662a40ac793",
+      "generation": "88c6410453e9a5859daf",
       "hash": "93df5a",
       "source": {
-        "duration": 39.209796,
+        "duration": 43.650612,
         "file": null,
-        "sha256": "ecbbf5a14c6696b06a66d4351b02b42ae327439f709352b16a26d4d163fa86b6"
+        "sha256": "23c7056fde12090401418e271ca9a7877394fcc2cd59945575ce74592aa92dc7"
       },
       "text": "Rhahk'Zor. In the Deadmines, Rhahk'Zor drives the work forward by force. As head foreman, he keeps Defias laborers and miners in line while they build Edwin VanCleef's underground fortress. The Defias Brotherhood has made an underground fortress of Moonbrook's abandoned gold mines. Rhahk'Zor was appointed head foreman to direct the work. He oversees the crews and laborers as they carve tunnels and build VanCleef's secret projects. Rhahk'Zor keeps order with his strength and an immense stone-headed hammer. Defias diggers and goblin engineers know the towering foreman may strike a crushing blow if they defy him or fall behind schedule."
     },
     "npc:scarlet-commander-mograine": {
       "1": [
         {
-          "duration": 32.3395918367347,
-          "file": "Audio/Transport/full_npc_scarlet-commander-mograine-45b6c57b9b518dc25c22/1-0000.mp3",
-          "sha256": "8a95dff5e3985c7f60a5318fc873855193725034b9e8d1497c5538111b151189",
+          "duration": 37.4334693877551,
+          "file": "Audio/Transport/full_npc_scarlet-commander-mograine-c8449cf15694f774877f/1-0000.mp3",
+          "sha256": "e1505a3e5c80327f11016184b88d7d271760de50394a1615aae92614185bb8b5",
           "start": 0
         }
       ],
@@ -1161,21 +1161,21 @@
         ]
       },
       "fullHash": "b6dd99",
-      "generation": "1002a8e54f88b5dd48dc",
+      "generation": "6dc893d52b5570e45d35",
       "hash": "b6dd99",
       "source": {
-        "duration": 32.365714,
+        "duration": 37.433469,
         "file": null,
-        "sha256": "45b6c57b9b518dc25c22a5169e68afa4a4448df936e9581de57a377771a2971d"
+        "sha256": "c8449cf15694f774877feadbc0d4b0a1c398937f59c0df734d0a80ef1a3c6fed"
       },
       "text": "Scarlet Commander Mograine. Within the Scarlet Monastery, Scarlet Commander Mograine guards the Cathedral with the Scarlet Crusade. A zealous paladin, he faces efforts by the Horde and Alliance to disrupt the Crusade's threat to Tirisfal Glades and the lands around it. At the heart of the Scarlet Monastery, Scarlet Commander Mograine leads the Scarlet Crusade garrison in the Crusader's Chapel. A devoted paladin, he strikes with holy power and shields himself. Those the Crusade judges corrupted or unclean meet his stunning blows."
     },
     "npc:sneed": {
       "1": [
         {
-          "duration": 74.37061224489796,
-          "file": "Audio/Transport/full_npc_sneed-6f61593d5226f083aaa8/1-0000.mp3",
-          "sha256": "71d8b362797f7a2d1eddd6db9a19e6f2ca640bc84696edca63fbc1ec4ae05ce3",
+          "duration": 63.869387755102046,
+          "file": "Audio/Transport/full_npc_sneed-07ee6959e894b6524d23/1-0000.mp3",
+          "sha256": "8288b26151c938bca58fff2dfb495b2e5d1ac28590b44067e67fbeed71348fc0",
           "start": 0
         }
       ],
@@ -1187,21 +1187,21 @@
         ]
       },
       "fullHash": "ff7fd7",
-      "generation": "11cd9900f0d8e2c40a56",
+      "generation": "41a8276a4280e0200a13",
       "hash": "c4901b",
       "source": {
-        "duration": 74.396735,
+        "duration": 63.89551,
         "file": null,
-        "sha256": "6f61593d5226f083aaa88a2e970860431ca9ccdda06a2f55c8371c654d45b750"
+        "sha256": "07ee6959e894b6524d23d54db3e517e2bf63700515b8991b731da15cc59725a5"
       },
       "text": "Sneed. Deep in the Deadmines, Sneed directs the Defias Brotherhood’s timber work. From the Mast Room, he pilots a heavy shredder of his own design, cutting lumber for Edwin VanCleef’s secret juggernaut. The Defias Brotherhood draws most of its members from human stonemasons and laborers. Yet Edwin VanCleef brought Sneed in for his engineering skill and ruthless efficiency. A warship needs skilled trades, and Sneed directs the timber work in the Mast Room beside the underground rail network. There, wood is felled, cut, and shaped for VanCleef’s colossal dreadnaught. Sneed cares about costs and quotas, whatever the consequences. From a custom shredder fitted with oversized buzz saws, he directs the work. Its blades turn raw trunks into shipbuilding timber in seconds. When intruders corner him, Sneed uses the machine’s armor to grind them down. If the shredder fails, he scrambles from the wreckage and fights barehanded."
     },
     "npc:sneed-s-shredder": {
       "1": [
         {
-          "duration": 51.48734693877551,
-          "file": "Audio/Transport/full_npc_sneed-s-shredder-3d0949f3285f1720359d/1-0000.mp3",
-          "sha256": "d3db2bfd111138574b4980ecef15d80869867e465f0c97e25bd2d9ab67301f6b",
+          "duration": 42.86693877551021,
+          "file": "Audio/Transport/full_npc_sneed-s-shredder-1670929d9667ac4f17a1/1-0000.mp3",
+          "sha256": "cc97c0fb283eb440375dc888e4133bb111bc34be7b2dfcb0baaf2cd2ca8050f4",
           "start": 0
         }
       ],
@@ -1213,21 +1213,21 @@
         ]
       },
       "fullHash": "c9d866",
-      "generation": "cc22b15f2fd87a0f3a10",
+      "generation": "68efd2374457269ead6c",
       "hash": "a850c3",
       "source": {
-        "duration": 51.513469,
+        "duration": 42.893061,
         "file": null,
-        "sha256": "3d0949f3285f1720359db4b1c5776cc7426b58e451958c1cd25eae42fd890d82"
+        "sha256": "1670929d9667ac4f17a17e3648b6179e19babd052d309f70f674c50783e7bf4d"
       },
       "text": "Sneed's Shredder. Deep in the Deadmines, Sneed pilots a lumber machine for Edwin VanCleef's shipwrights. Its blades cut timber and meet intruders with armored force. In the Deadmines foundry, goblin shredders cut timber for Edwin VanCleef's hidden juggernaut. They also turn their armored force against intruders. Sneed oversees the lumber works and pilots this modified machine himself. Its oversized buzzsaw is a weapon of defense. Sneed rides above the spinning blades in an open cockpit, behind heavy iron plating. The shredder's clatter can scatter his foes. When the machine breaks down in a burst of sparks, Sneed leaps from the wreckage and fights on."
     },
     "npc:taragaman-the-hungerer": {
       "1": [
         {
-          "duration": 30.30204081632653,
-          "file": "Audio/Transport/full_npc_taragaman-the-hungerer-b3d4d648c40e194680c9/1-0000.mp3",
-          "sha256": "44f8948f39126a6a0b3abab612f803fc9306a7ca3c36dc74254c1dea21f14354",
+          "duration": 32.67918367346939,
+          "file": "Audio/Transport/full_npc_taragaman-the-hungerer-f273c202dec43e1e8d4b/1-0000.mp3",
+          "sha256": "ce2bc2719a77f600a77532434133a988b82b3e26f76629fb688c5481ef25e5ae",
           "start": 0
         }
       ],
@@ -1239,21 +1239,21 @@
         ]
       },
       "fullHash": "36ed05",
-      "generation": "91efd177a8c88c159bcf",
+      "generation": "2118e12111a5e89f42c2",
       "hash": "36ed05",
       "source": {
-        "duration": 30.328163,
+        "duration": 32.705306,
         "file": null,
-        "sha256": "b3d4d648c40e194680c96a826293dba4b0b3f0f503fe488b033c83dbebdb8e63"
+        "sha256": "f273c202dec43e1e8d4b9834e2ff614d7b6abe9cf0f2bd470f7234d99675f162"
       },
       "text": "Taragaman the Hungerer. Beneath Orgrimmar, Taragaman the Hungerer prowls Ragefire Chasm and threatens the city above. The Horde seeks his death to end the demonic taint below its capital. Taragaman the Hungerer prowls among Ragefire Chasm's magma pools, threatening Orgrimmar. Scouts and young warriors sent into the dark caverns see the demonic felguard as the Searing Blade cult's leader. With infernal strength, he bends the weak-willed and corrupts the passages beneath Thrall's fortress."
     },
     "npc:targorr-the-dread": {
       "1": [
         {
-          "duration": 75.2065306122449,
-          "file": "Audio/Transport/full_npc_targorr-the-dread-4932dc80fbe8afe46dfd/1-0000.mp3",
-          "sha256": "2003d52460f7e5aec3c2d2498f3bcd23bbe9af63516f29890b08d36d9a3cb096",
+          "duration": 92.34285714285714,
+          "file": "Audio/Transport/full_npc_targorr-the-dread-dc5cae261894396f0fa5/1-0000.mp3",
+          "sha256": "a5719d8d5fb0eb55db871561be62deab5356a614dceef7efd1d981face015d4b",
           "start": 0
         }
       ],
@@ -1265,21 +1265,21 @@
         ]
       },
       "fullHash": "e48dd3",
-      "generation": "d40aac4660d23bb152a5",
+      "generation": "3907519e9151fdb1619b",
       "hash": "042214",
       "source": {
-        "duration": 75.232653,
+        "duration": 92.36898,
         "file": null,
-        "sha256": "4932dc80fbe8afe46dfdcf0101f32752eda70fc43b53b79d2ea80804753b8e02"
+        "sha256": "dc5cae261894396f0fa56b2949120c5c76579a500221a8700c254fa6682418e3"
       },
       "text": "Targorr the Dread. In the Stormwind Stockade, Targorr the Dread waits among rioting convicts. Corruption and neglect delayed his execution, and the Defias uprising opened a way out. Before his capture, Targorr the Dread served Warlord Gath'Ilzogg as the Blackrock clan's supreme executioner. From the occupied ruins in Redridge, he tormented Stormwind guards and militiamen defending the borderlands. His cruelty surpassed even the Dark Horde's violence, and few names were more reviled across the kingdom. Alliance forces captured Targorr alive and brought him in chains to the capital. They locked him in the high-security Stockade, but Stormwind's courts stalled over his execution. Graft, endless paperwork, and neglect kept the courts from delivering the death sentence he had earned. So a bloodthirsty war criminal remained in a cell beneath the heart of the city. When the Defias Brotherhood broke prisoners out by force, Targorr seized his chance. He escaped his cell and joined the Defias rioters, turning his cellblock into a slaughterhouse. Warden Thelwater has lost control of the prison. Lakeshire still bears the wounds Targorr dealt its defenders, and seeks adventurers willing to enter the riot and bring back the butcher's head."
     },
     "npc:twilight-lord-kelris": {
       "1": [
         {
-          "duration": 61.4661224489796,
-          "file": "Audio/Transport/full_npc_twilight-lord-kelris-3468fa51641ec215b259/1-0000.mp3",
-          "sha256": "6e71f3f852102a62c2041d5a0dda2d1e11dfe5fc70bcdfb7b869ab98a0d185fa",
+          "duration": 67.76163265306123,
+          "file": "Audio/Transport/full_npc_twilight-lord-kelris-62cbf05b93bd3963c310/1-0000.mp3",
+          "sha256": "2942b90ef5379fed48123da9e651fe6f69ff814f13df86c0dd4ae27660fb8365",
           "start": 0
         }
       ],
@@ -1291,21 +1291,21 @@
         ]
       },
       "fullHash": "d3a33c",
-      "generation": "c5722a6c71098e5387a2",
+      "generation": "75eb5009b9e6a2511b34",
       "hash": "5235c2",
       "source": {
-        "duration": 61.492245,
+        "duration": 67.787755,
         "file": null,
-        "sha256": "3468fa51641ec215b2598a2b2376a265adbc6968c15095be018bb5c32740acaa"
+        "sha256": "62cbf05b93bd3963c310251792e3cc5266ad16113404f0ef59e09814903dd906"
       },
       "text": "Twilight Lord Kelris. At Blackfathom Deeps, Twilight Lord Kelris leads the Twilight's Hammer from the sunken ruins. The orc warlock holds high rank in the cult and directs its rites in the Moonshrine Sanctum. There, his followers worship Aku'mai and seek a reign of cosmic chaos. Twilight Lord Kelris directs the cultists who seized the sunken ruins of Blackfathom Deeps. For years, he slipped past watchful eyes in Darnassus and evaded the Argent Dawn. Whenever ancient malice stirred across Kalimdor, Kelris was suspected of being behind it. He pledged himself to the Old Gods, not to warlords or clans. He seeks to unmake mortal civilization and return Azeroth to primordial chaos. In the Moonshrine Sanctum, Kelris oversees the cult's worship of Aku'mai, a vicious three-headed hydra who serves an Old God. Allied with the naga, the Twilight's Hammer occupies the drowned temple. Kelris leads the cult's rites and sacrifices innocents to Aku'mai in exchange for power."
     },
     "npc:verdan-the-everliving": {
       "1": [
         {
-          "duration": 23.719183673469388,
-          "file": "Audio/Transport/full_npc_verdan-the-everliving-3dcf02c3d83437d7a7f1/1-0000.mp3",
-          "sha256": "032f8cefff1b25bc455a6df5aea19974c386bdd674067b3accad217d3c37f8dc",
+          "duration": 25.338775510204083,
+          "file": "Audio/Transport/full_npc_verdan-the-everliving-6b3d687273c068d8afe5/1-0000.mp3",
+          "sha256": "6305b69c7cbcd2d9bcb05df75a128a14dc09ecad8e9e115518317ce5900000f8",
           "start": 0
         }
       ],
@@ -1317,21 +1317,21 @@
         ]
       },
       "fullHash": "678b3c",
-      "generation": "69d268a3bfdf549ce343",
+      "generation": "203404c3f64c6e77acbd",
       "hash": "678b3c",
       "source": {
-        "duration": 23.745306,
+        "duration": 25.338776,
         "file": null,
-        "sha256": "3dcf02c3d83437d7a7f1e37c4057a1fa673dc3c8fccf21af09ce3ec798d64679"
+        "sha256": "6b3d687273c068d8afe5381bc933eebeea113419ab813bffb015851dcc085266"
       },
       "text": "Verdan the Everliving. In the Wailing Caverns, Verdan the Everliving lurks in deep tunnels and attacks those who enter. He dwells near the sleeping druid Naralex and the Druids of the Fang. Verdan is the largest bog beast in the overgrown depths of the Wailing Caverns. He is an elemental of foliage, silt, and mire, haunting its flooded hollows. Nothing is known of him from before corruption reached the caverns."
     },
     "npc:viscous-fallout": {
       "1": [
         {
-          "duration": 41.37795918367347,
-          "file": "Audio/Transport/full_npc_viscous-fallout-879b95cc38211c324905/1-0000.mp3",
-          "sha256": "d430b55ef5e5b6a33d803f6928f87510672afb2de9a06da1d4c49965c1c13c6a",
+          "duration": 44.19918367346939,
+          "file": "Audio/Transport/full_npc_viscous-fallout-45bde5fd69f90b6eada7/1-0000.mp3",
+          "sha256": "ae1224e38a4159ebbc9d5bc4c5d262b2134459cd5230004fc8fc3204b96cdf6a",
           "start": 0
         }
       ],
@@ -1343,12 +1343,12 @@
         ]
       },
       "fullHash": "b9c35e",
-      "generation": "a8abe21204afe3a5ecef",
+      "generation": "43e7c6f65b569312fcca",
       "hash": "8e4d32",
       "source": {
-        "duration": 41.377959,
+        "duration": 44.225306,
         "file": null,
-        "sha256": "879b95cc38211c324905e8b499d5e2a90612b6e49e68df4c093b9d0c73e9ded4"
+        "sha256": "45bde5fd69f90b6eada72e3d80b2a3410d987c8f0a8d7b3d4d32cebade3e37da"
       },
       "text": "Viscous Fallout. In Gnomeregan's lower passages, Viscous Fallout drifts through the toxic runoff. Radiation flooded Gnomeregan after Mekgineer Thermaplugg advised a treacherous plan to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental, its substance thick with the city's toxic waste. Its origins before the fall are unknown. Viscous Fallout drifts through Gnomeregan's irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin, then lashes out at anything in its path. Those who enter the city to cleanse its tainted depths must destroy the creature."
     },
@@ -5162,28 +5162,15 @@
       2108,
       2322
     ],
-    "032f8cefff1b25bc455a6df5aea19974c386bdd674067b3accad217d3c37f8dc": [
-      218,
-      391,
-      559
-    ],
-    "03f1950b28044b080db781907e0b48bb17d58d6fd11de067dcc86db2a5eede9c": [
-      190,
-      373,
-      571,
-      818,
-      1047,
-      1395,
-      1852,
-      1996,
-      2153,
-      2424,
-      2698,
-      3061,
-      3308,
-      3476,
-      3649,
-      3841
+    "02aa0ecd4c77b66564b9b91d6ad45a8fac7fb2c396cbccf8c4536cae492ab3ea": [
+      246,
+      396,
+      625,
+      790,
+      1039,
+      1265,
+      1428,
+      1625
     ],
     "04fcde09d6784f5370a71cb93ed3cf6302b2c7c5c4ae4af37c440a2e2cf1217d": [
       215,
@@ -5215,20 +5202,21 @@
       2712,
       2888
     ],
-    "05849b99c741782b4aaadd53a2d711d7ce4391f866e7f31945bf7b40a30620e7": [
-      211,
-      488,
-      631,
-      848,
-      993,
-      1149,
-      1298,
-      1438,
-      1619,
-      1787,
-      2078,
-      2282,
-      2437
+    "0926fa3a0f63f0ae64f2cfc727c8e17a3380f398d91a1679766a04b1e2138156": [
+      237,
+      537,
+      684,
+      950,
+      1119,
+      1271,
+      1448,
+      1601,
+      1798,
+      2001,
+      2149,
+      2305,
+      2531,
+      2699
     ],
     "095978dca4c167d59f60d8d3726883ab076eda90016b34a1bc513e4cebc15d35": [
       135,
@@ -5264,11 +5252,6 @@
       3873,
       4061,
       4283
-    ],
-    "0b7ae3fef1ada5c554c24beb4d1c5fe835240ed214b58a1ea32a634cd42a7922": [
-      280,
-      510,
-      777
     ],
     "0b81a79db1adf57e02f89e119c567fd6be822384918b4a2f9e9debebbd1b9260": [
       220,
@@ -5372,6 +5355,19 @@
       4401,
       4768
     ],
+    "1069241f2548ce19bbf1b8a01ac25c2cad06c7d10d56ff6bef1de419a00c7d95": [
+      263,
+      484,
+      637,
+      870,
+      1057,
+      1284,
+      1440,
+      1636,
+      2093,
+      2348,
+      2543
+    ],
     "1580f827de582fd38ae4e518d666eaae798a9a02a5aed2731e418447b4f6d97a": [
       246,
       474,
@@ -5421,16 +5417,13 @@
       3642,
       3858
     ],
-    "188bb08b0550c9b1943158d94b219b46e344d4b93c799afc7fbcd213c091a6c3": [
-      194,
-      558,
-      834,
-      1006,
-      1173,
-      1479,
-      1658,
-      1823,
-      2047
+    "187f3c84fa4c5509a939ca776c762af5ddc0f5caa6ad2b399f4b8c582c84e127": [
+      260,
+      451,
+      625,
+      913,
+      1213,
+      1440
     ],
     "19846dfa970cea640b3d83f8e766e760c730104c7b077d0a353e365c97f94ee5": [
       185,
@@ -5485,15 +5478,6 @@
       4721,
       4886
     ],
-    "1b0e85d816198d0bea88d291980570d5ec152998bae033be685a603b9e0599a1": [
-      244,
-      462,
-      734,
-      870,
-      1004,
-      1142,
-      1288
-    ],
     "1b154cf509d3e450fcd2ac912447fdf464c7b6a5b03ff27dd027617866eae5bf": [
       361,
       511,
@@ -5509,6 +5493,28 @@
       2435,
       2675,
       3001
+    ],
+    "1b3cce51d8f671807c9986bf91c40b0628fde94fca5867dec3d343d4a27f67c6": [
+      262,
+      564,
+      724,
+      885,
+      1104,
+      1327,
+      1499
+    ],
+    "1c06031572997e1c93eff33220eea16fb043f0d5c8c8c87e781f1eab9deed29a": [
+      231,
+      526,
+      766,
+      912,
+      1150,
+      1425,
+      1671,
+      1887,
+      2095,
+      2292,
+      2510
     ],
     "1c57257e59955cb0355fc771eff77d9b89c1e8cc85ca9bcb8dd05569764d0b4c": [
       145,
@@ -5571,19 +5577,6 @@
       3861,
       3998
     ],
-    "2003d52460f7e5aec3c2d2498f3bcd23bbe9af63516f29890b08d36d9a3cb096": [
-      205,
-      426,
-      705,
-      952,
-      1210,
-      1395,
-      1616,
-      1843,
-      2044,
-      2239,
-      2448
-    ],
     "225b23de2f0746e989580e890f245b220b4bfa8ceb8a3061d87419a925cbeeda": [
       169,
       367,
@@ -5597,6 +5590,18 @@
       2642,
       2802,
       3053
+    ],
+    "230dc5f90867e4d8348ce4ade97b5c1b794f11fc4e11bf058e641ce6049b3b9b": [
+      198,
+      346,
+      646,
+      900,
+      1157,
+      1376,
+      1549,
+      1868,
+      2019,
+      2183
     ],
     "2326118e63bb057fc17e10845a76b0519e46ff33e9ead6419f8eef33b006298e": [
       156,
@@ -5668,13 +5673,6 @@
       4756,
       4932
     ],
-    "24a23dfe1307ac24e66daaa1fc9c9231cac32ef25da4a6068494b5b74c0d52fa": [
-      204,
-      449,
-      679,
-      1080,
-      1345
-    ],
     "28d153c0a470329b8a0274f385cc1acd7f4721445fc96763e0f0b1f9e7fa6276": [
       240,
       449,
@@ -5695,16 +5693,18 @@
       3629,
       3856
     ],
-    "29b92284d75db33f23d6298cafca68fcdd89f44be1b8bd8d2cb9b7403120ea70": [
-      142,
-      341,
-      494,
-      650,
-      842,
-      1010,
-      1176,
-      1401,
-      1575
+    "2942b90ef5379fed48123da9e651fe6f69ff814f13df86c0dd4ae27660fb8365": [
+      254,
+      486,
+      714,
+      965,
+      1190,
+      1407,
+      1585,
+      1825,
+      2025,
+      2175,
+      2365
     ],
     "2a81525b41111ad44d60ef1ee94f8265fd31c1f1316fab1ed9242ab5e5f0f731": [
       209,
@@ -5724,34 +5724,6 @@
       3692,
       4099,
       4339
-    ],
-    "2aad7ee9ac9383e5f8d818356ebe36b491cabdbb1ddd232da0245fa90da25986": [
-      160,
-      333,
-      535,
-      719,
-      988,
-      1354,
-      1584,
-      1787,
-      1936
-    ],
-    "2dac3b3e4af83f361e0b16f38932b5cf13b92ca2d7b33c2dadd153137850d379": [
-      160,
-      366,
-      515,
-      729,
-      905,
-      1069,
-      1277,
-      1504,
-      1647,
-      1824,
-      1984,
-      2124,
-      2413,
-      2561,
-      2709
     ],
     "2fba1cebf4bced726ce81e9cd8b5b9e270f8a3c2644015a3c1d7153db3df79e3": [
       211,
@@ -5913,12 +5885,6 @@
       3336,
       3529
     ],
-    "3b851614944179de1772361eb9a279ad78dd392c87397f6ee4e1dc9ea5679774": [
-      207,
-      460,
-      638,
-      898
-    ],
     "3fcb524f2d528749f388439ad1b7c8ddaa67fd4aa98512d5e765e6af6279c4a0": [
       196,
       374,
@@ -5942,36 +5908,16 @@
       4385,
       4520
     ],
-    "3fd3dd123ac6e8cb139384433cd3204bdc258a48e8a408f921cb4e6678cb8b35": [
-      217,
-      438,
-      678,
-      969,
-      1141,
-      1322
-    ],
-    "43c372f4d5997ae099f37aaeb572101b0b53470d85a3eb991f6f7fa654d21b82": [
-      200,
-      380,
-      628,
-      782,
-      1037,
-      1317,
-      1472
-    ],
-    "44f8948f39126a6a0b3abab612f803fc9306a7ca3c36dc74254c1dea21f14354": [
-      263,
-      441,
-      613,
-      942
-    ],
-    "46329294ff93a4d75fe9da0294ae40548c988a5fa41971830ea0fe49676fd56e": [
-      183,
-      370,
-      531,
-      693,
-      1072,
-      1313
+    "4127f62638100ab5e5d5a10ebf2c2123bb0b1570bb32c86db41f81d909bf9d54": [
+      269,
+      542,
+      753,
+      927,
+      1319,
+      1619,
+      1779,
+      2125,
+      2483
     ],
     "4764eea140d749ee1e4482f7ab15c079023909980b4eea920493035a6fb2cf8b": [
       301,
@@ -6075,6 +6021,38 @@
       3501,
       3744
     ],
+    "4866458885f25fcd661546230d542782dc240f71a880d0f6bff620b54eb295df": [
+      235,
+      432,
+      607,
+      795,
+      981,
+      1271,
+      1505,
+      1715,
+      2070
+    ],
+    "496a073a09c0e6b838a749af942b30277e44a1add1436f54f6f8621427d2f06c": [
+      220,
+      521,
+      658,
+      833,
+      1130,
+      1281,
+      1446,
+      1662
+    ],
+    "4a15c7db1648ac06b1ca6f4d09f7fcde3ee42c8620612fdaebe34fb6d5a63923": [
+      231,
+      462,
+      641,
+      829,
+      1001,
+      1246,
+      1411,
+      1632,
+      1805
+    ],
     "4ae49db97ca5ca439a351857cea562b4140fb2eb79462b4610f6e8b7feaed099": [
       142,
       370,
@@ -6101,6 +6079,18 @@
       4938,
       5093,
       5256
+    ],
+    "4b44dfe753d45a039c03633bf0a140e0a638def001cf262f1bec12cbd21423e6": [
+      235,
+      460,
+      632,
+      817,
+      1018
+    ],
+    "4b5914894dbb192b61a7cbd9bc0a28e419ae2c57ca510becd41b3084a93586d0": [
+      368,
+      516,
+      916
     ],
     "4f4e94cacf80134814a7a0b2f4843ffeb366e759856bc588583f7f18847de8dc": [
       307,
@@ -6168,16 +6158,18 @@
       3147,
       3395
     ],
-    "51a86f2eab3b430fc111640fe1dd0f13484179dc2d70f824d4b56ba2faf461e5": [
-      217,
-      502,
-      690,
-      891,
-      1115,
-      1385,
-      1553,
-      1877,
-      2131
+    "5175a4927de3adf27ee1567a2f230868f6be6acabaf31dfbd000d8c5d00476b8": [
+      284,
+      533,
+      797,
+      954,
+      1160,
+      1378,
+      1583,
+      1978,
+      2252,
+      2475,
+      2806
     ],
     "521560b43df3b61ec7a96c9a3fa4563734944177a41fad4545b7de6a2674713c": [
       157,
@@ -6221,15 +6213,23 @@
       4335,
       4545
     ],
-    "589fbcb7545faa522df4b773528bca64c1397869ffc6b2ee2afa03850e71aa16": [
-      220,
-      491,
-      713,
-      889,
-      1113,
-      1274,
-      1419,
-      1598
+    "572f3990dd80158658e1eb6f6902d6e7a67638218aa419d2ba0cf1bbaf31ea16": [
+      264,
+      599,
+      845,
+      1089,
+      1376,
+      1563,
+      1748,
+      1986
+    ],
+    "58cbb4771fc1530729d98146d1c3d145d435812bd25446abaebee8ca2f82eaee": [
+      222,
+      609,
+      812,
+      1024,
+      1252,
+      1508
     ],
     "5962156133a73985e78106c03816453cb5deda789b17c25076280121711fc45f": [
       225,
@@ -6287,10 +6287,6 @@
       2513,
       2647
     ],
-    "5bb3d123c8ce9ace212f2629a9650d5f23b838b75e1933b220609a8878a5b1d9": [
-      226,
-      373
-    ],
     "5bc20bc5d6f8b71801dc58da950364bf30d476fbb7f03b9edfe9313bfdede05e": [
       192,
       437,
@@ -6305,6 +6301,15 @@
       2594,
       2769,
       2932
+    ],
+    "5bff123339cd20e22ef467811d2e589c6202931f1d87ca7cf68eec3618cea4c6": [
+      228,
+      415,
+      595,
+      822,
+      1177,
+      1384,
+      1655
     ],
     "5ce0147b5891497be8daf72b32abf4144c71fe95aac98f174ab2c762a138a45d": [
       176,
@@ -6365,6 +6370,14 @@
       4666,
       4896
     ],
+    "60ac589e6510baa6b09a2e5cca21f1f02a120e03f8466138000486fde5941f2c": [
+      413,
+      730,
+      865,
+      1070,
+      1398,
+      1602
+    ],
     "60b055f745e1923e300b88dba5692a5cd3318c7f630219ffc03e25ee8744aadb": [
       243,
       671,
@@ -6382,15 +6395,6 @@
       3375,
       3666,
       4094
-    ],
-    "61eb95a05e1979a18cd6b6fb7df8f896ca026113424100ec706597897a2e6e6e": [
-      199,
-      430,
-      609,
-      1048,
-      1424,
-      1704,
-      2014
     ],
     "6244b83f95a932039862397876a0f105a8dc58abc67bc41ac846910310c56c44": [
       149,
@@ -6411,16 +6415,6 @@
       4236,
       4447,
       4643
-    ],
-    "62e286a91b72e09c78ab9134e1d7ac60da7624194f42efe3e4ddac9fa70cb44f": [
-      167,
-      378,
-      552,
-      734,
-      885,
-      1046,
-      1339,
-      1655
     ],
     "62f07bc4d323c221accf3753e973068502994637d8df418cf52d038a6480fc18": [
       157,
@@ -6443,15 +6437,18 @@
       3401,
       3568
     ],
-    "6569858fa80999b438a1f33b50587648992749a869881f98366bf0678dbaadd4": [
-      195,
-      399,
-      594,
-      884,
-      1139,
-      1413,
-      1590,
-      1752
+    "6305b69c7cbcd2d9bcb05df75a128a14dc09ecad8e9e115518317ce5900000f8": [
+      246,
+      434,
+      622
+    ],
+    "6615710322fe783abc6decf9c42316cfb705332dd5f4303c01e6e59c02afbf9b": [
+      180,
+      501,
+      725,
+      867,
+      1129,
+      1324
     ],
     "679dee4e6d2fd845154ebbdb42c2b5572f976832dc54c8b763cd705f757e98f8": [
       189,
@@ -6472,16 +6469,6 @@
       3597,
       3747
     ],
-    "685edf9ea7a60155cc48d8185f190565f95bde8d29df38f954609d8e743602ca": [
-      207,
-      379,
-      537,
-      792,
-      1139,
-      1353,
-      1622,
-      1878
-    ],
     "6884ba31db0bffb14ae187ff15d5b97ec6187003bda63b9bfbf04a96e8af5472": [
       254,
       484,
@@ -6497,17 +6484,6 @@
       3123,
       3333
     ],
-    "6907d3191d938d8e4e5dbdcb78c025f7fdf800f9fb1d46e8a09489c714abfa43": [
-      231,
-      429,
-      681,
-      895,
-      1140,
-      1360,
-      1628,
-      1842,
-      2070
-    ],
     "6c7b4b4a7ba4ff7e0b9af55861d4327f036a2137a95eff229f561976a5bedce0": [
       306,
       537,
@@ -6522,18 +6498,6 @@
       2675,
       2946,
       3302
-    ],
-    "6e71f3f852102a62c2041d5a0dda2d1e11dfe5fc70bcdfb7b869ab98a0d185fa": [
-      230,
-      452,
-      651,
-      866,
-      1073,
-      1279,
-      1443,
-      1673,
-      1973,
-      2145
     ],
     "6eb07f25b6b6120025d0431150f451b96d307200c6e23d73f621c5888b06304c": [
       227,
@@ -6585,15 +6549,6 @@
       4322,
       4687
     ],
-    "70595f4212eb0c2bd75453fd5ce78ff9324ec04fe14e491e8626ba3f5ab96c9d": [
-      209,
-      413,
-      579,
-      912,
-      1120,
-      1465,
-      1616
-    ],
     "706add0cb91cf929c45a55d84b276db87af9839411cb106bb80ff04dac51cd7b": [
       143,
       423,
@@ -6602,18 +6557,13 @@
       1031,
       1200
     ],
-    "71d8b362797f7a2d1eddd6db9a19e6f2ca640bc84696edca63fbc1ec4ae05ce3": [
-      145,
-      304,
-      658,
-      889,
-      1147,
-      1475,
-      1745,
-      1962,
-      2109,
-      2398,
-      2618
+    "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc": [
+      219,
+      457,
+      796,
+      1098,
+      1247,
+      1381
     ],
     "72a6fb1e8c24930a26efa8e0c864bd7bc068ac4e920e0e17a446ba3c18b3cd1e": [
       222,
@@ -6708,27 +6658,6 @@
       3929,
       4124
     ],
-    "7531aee0cfaca168682a629b63ab3116e7593c944871b7b78df307b439f9054d": [
-      161,
-      460,
-      657,
-      1020,
-      1188
-    ],
-    "75c4a7988030868ac8a84a88e4df975c39feba804c824767de83a06c71244f95": [
-      202,
-      460,
-      634,
-      774,
-      1007,
-      1296,
-      1443,
-      1615
-    ],
-    "774299a724c3510a44d55ae88d043568de09b1264951e19435815152b865829f": [
-      253,
-      427
-    ],
     "78690f0a41ef0032adafee111b5190af145ba58da57c57d6c0d749f9e49056bc": [
       184,
       337,
@@ -6750,44 +6679,11 @@
       4507,
       4946
     ],
-    "795302abe05be4eb8216c1c671b4338107261a386de4a76cdf34ab2a927a2605": [
-      202,
-      467,
-      691,
-      913,
-      1208,
-      1509,
-      1663,
-      1927,
-      2127
-    ],
-    "7a84006d2da25869ae83a96a0e24eee60871e9b2c79906bf8b9684d39354f132": [
-      201,
-      428,
-      672,
-      931,
-      1158,
-      1580,
-      1714,
-      1867,
-      2125,
-      2400
-    ],
-    "7a9ed75e07f303d43af292bfa0295274460ad63ae5655f3b4fbbb3bba07d4ff2": [
-      162,
-      456,
-      609,
-      819,
-      1103
-    ],
-    "7cdcba92195fcb6dee6748859d9c036611d9652e2f3f4145f80d5153418621ec": [
-      205,
-      450,
-      619,
-      966,
-      1191,
-      1373,
-      1707
+    "7ab51d5844b660c84511a103d8eeede615b7938df4f85c0481a6da3000dfa79b": [
+      364,
+      624,
+      954,
+      1105
     ],
     "7f32188764af55a043058d59ddd95ae6a9421ea5b745e81d53d8e9cb42035f1e": [
       262,
@@ -6852,13 +6748,15 @@
       3947,
       4100
     ],
-    "82242c808e99640643f073ae6354361ee2346069965095efadbd2ef83c3c39d2": [
-      197,
-      441,
-      698,
-      863,
-      1036,
-      1269
+    "80a72ea7c9f074b3b96ecfb0f9b64d3d2904b65311f0e2706241c8a393afa6c2": [
+      288,
+      445,
+      611,
+      809,
+      982,
+      1160,
+      1411,
+      1594
     ],
     "82868624e71198cecfdf42a43d6764b959ce5cad7c48b032c8bcace35c3bb793": [
       179,
@@ -6880,6 +6778,20 @@
       3452,
       3737,
       3916
+    ],
+    "8288b26151c938bca58fff2dfb495b2e5d1ac28590b44067e67fbeed71348fc0": [
+      208,
+      370,
+      527,
+      744,
+      985,
+      1195,
+      1371,
+      1536,
+      1709,
+      1907,
+      2069,
+      2260
     ],
     "8297122505311a75aca418ca71f1e5922a40a4401e6eb534003f722ed8ff7fed": [
       222,
@@ -6915,17 +6827,6 @@
       3273,
       3447
     ],
-    "82cbd452e58790ac61cbef6beabb21cc1c2e0696f1d83f0d607f540479a52d58": [
-      214,
-      466,
-      710,
-      882,
-      1141,
-      1279,
-      1457,
-      1649,
-      1878
-    ],
     "84ca7e4ff58b21ea77d5917d3753199a4acceb547ddda5a2d79509ac402bde6b": [
       217,
       421,
@@ -6940,6 +6841,16 @@
       2268,
       2624,
       2819
+    ],
+    "854f2bce3a6e4c38cdf16d9f080532e6c923b22f8e878161e518d9d02045af3c": [
+      241,
+      550,
+      745,
+      885,
+      1140,
+      1458,
+      1643,
+      1853
     ],
     "87725a1a1fa70e149d73d34c48aa422d9d19698c72ed9983adae0bd60c18fce3": [
       218,
@@ -7010,12 +6921,6 @@
       4353,
       4541
     ],
-    "8a95dff5e3985c7f60a5318fc873855193725034b9e8d1497c5538111b151189": [
-      245,
-      576,
-      864,
-      1052
-    ],
     "8aba7a5d17bf87c2eb687fb6365dc70cb496a6bb7b0da4fddd91e4fb906c0c1b": [
       150,
       334,
@@ -7038,18 +6943,6 @@
       4290,
       4652
     ],
-    "8b0d7cd3ac7d6ecc5ba937e4d9040c8a3e116925d3d0771e9d33f424791de586": [
-      303,
-      493,
-      795,
-      1122,
-      1289,
-      1583,
-      1751,
-      1988,
-      2213,
-      2410
-    ],
     "8b4d26bd5f545cb891070aa65aef5938b0911674cc0ca9e81fafee6fbecbe2d8": [
       218,
       485,
@@ -7058,6 +6951,17 @@
       1766,
       2157,
       2315
+    ],
+    "8bbce7a695f160d2b6372850ca32bed0e549ca5fe7248335eaa2f0bc7493aad4": [
+      265,
+      574,
+      844,
+      1206,
+      1508,
+      1792,
+      1977,
+      2308,
+      2634
     ],
     "8c902e9e478943752f0ca53af9b7249149be80144835eea9018e59862b2f9fb8": [
       176,
@@ -7293,6 +7197,30 @@
       909,
       1174
     ],
+    "a2c3e57aae9e60b4262e806d846b3a7fb85fa588bf4d09e39ff8d5a046206054": [
+      240,
+      485,
+      692,
+      867,
+      1078,
+      1272,
+      1455
+    ],
+    "a5719d8d5fb0eb55db871561be62deab5356a614dceef7efd1d981face015d4b": [
+      253,
+      390,
+      534,
+      867,
+      1471,
+      1697,
+      1965,
+      2243,
+      2469,
+      2627,
+      2877,
+      3143,
+      3315
+    ],
     "a591c074878e2e67bb80fcbc7e272c1ff512277bd3e7e22106addfdbe3b65b57": [
       153,
       318,
@@ -7321,13 +7249,6 @@
       3462,
       3676
     ],
-    "a8228da308d6dbdb71e11e38e4b944f25a6b4ee14af2e8201a89952e754b9419": [
-      219,
-      472,
-      690,
-      827,
-      1001
-    ],
     "a8bf309592797b45bc0e31eab4a10ad2bc84c6315211375fc139694f59382828": [
       168,
       461,
@@ -7343,6 +7264,16 @@
       2607,
       2787,
       3090
+    ],
+    "a917fba59bdcc7b4cf1f42e9bd60669f7e587ed5fb7e1fbde11144850ba6af2e": [
+      267,
+      414,
+      752,
+      930,
+      1319,
+      1599,
+      1928,
+      2096
     ],
     "a93528d9b59139806c06b7362a8496efbc2e0a394e0fc3ac254fcfcbd75a8aa3": [
       155,
@@ -7449,14 +7380,13 @@
       3960,
       4199
     ],
-    "af2a987795ea959af3306641bc1b3b25a582ea09f6e4fcfdc497dfb9085efe7d": [
-      220,
-      363,
-      558,
-      929,
-      1139,
-      1291,
-      1485
+    "ae1224e38a4159ebbc9d5bc4c5d262b2134459cd5230004fc8fc3204b96cdf6a": [
+      237,
+      512,
+      693,
+      1034,
+      1313,
+      1496
     ],
     "b2db7d9367c595d75cae1626d0bee39aa93b81b84d68441ed85a2e7e28fe882e": [
       185,
@@ -7468,17 +7398,6 @@
       1676,
       1922,
       2148
-    ],
-    "b3c67ec037018804bce6a2d231297f586e36a5fe9a6f63f264b53db5baad9296": [
-      191,
-      438,
-      636,
-      967,
-      1201,
-      1408,
-      1592,
-      1943,
-      2140
     ],
     "b4cd28a5e2d6b777e4bf5a7c1af9feb01388068b96b446d2840b201e39d4b397": [
       215,
@@ -7495,17 +7414,17 @@
       3046,
       3212
     ],
-    "b67b07a0442a25cc330ff2ab0742cb2c4c740f7f8d8bf82da8519fc4be097c82": [
-      179,
-      431,
-      602,
-      831,
-      1073,
-      1281,
-      1437,
-      1750,
-      1886,
-      2034
+    "b5edee4cd70ef8d60bc7ba3f67617f44939e8508efc9b0c7ac72938583b3a166": [
+      211,
+      506,
+      687,
+      940,
+      1120,
+      1318,
+      1629,
+      1770,
+      2062,
+      2223
     ],
     "b68c6b758549ee028660ef27a9c567fced1aa60953bc0ea0e8dc2c8d422ff081": [
       144,
@@ -7525,18 +7444,6 @@
       3189,
       3440,
       3626
-    ],
-    "b928bd6b74daca4fcc736871daf3372409155c021e03d830645d3918cb3287bb": [
-      281,
-      593,
-      789,
-      1078,
-      1287,
-      1501,
-      1849,
-      2023,
-      2248,
-      2651
     ],
     "bc1d8ca8abd27ed4c8308497a44b4a88d45c24a807701bc1e86a6bd5984aee07": [
       142,
@@ -7599,6 +7506,24 @@
       2194,
       2944
     ],
+    "bf2b27866923b6cb16ec7b7ddde1320b710bc0adc1ea64221c90508753f26bc9": [
+      241,
+      539,
+      751,
+      965,
+      1215,
+      1360,
+      1523,
+      1734,
+      2077,
+      2350
+    ],
+    "bffea232f9d99eff2c9f446a971853d4b694c38c7f75136b808dc0085ca34801": [
+      167,
+      385,
+      590,
+      749
+    ],
     "c0b5f54589163e632b6db43fcbfb6a54ff8177b8162255dcd5f3640a075238f4": [
       185,
       392,
@@ -7659,6 +7584,29 @@
       3866,
       4006
     ],
+    "c361fbb98dc182a592e6864e39592247fb9d32bb94e1d55f7fd14b7f759f207f": [
+      223,
+      542,
+      828,
+      1087,
+      1234,
+      1440,
+      1587,
+      1791,
+      1986,
+      2134,
+      2305,
+      2501
+    ],
+    "c4be6f2e4767b4485b007dd5b61776385b580d60d0c790b560a5a72e3bd9b9e0": [
+      203,
+      393,
+      591,
+      791,
+      947,
+      1246,
+      1523
+    ],
     "c5379aecacb900045f769ad794e9d315d78be8ae4a85f622de60234953c5bae8": [
       386,
       789,
@@ -7679,6 +7627,20 @@
       3840,
       4021,
       4193
+    ],
+    "c7045724be934b5c0c481f3c38b7564dfa9e5ca518fdf02b79e5a443692e3172": [
+      191,
+      391,
+      595,
+      749,
+      889,
+      1067,
+      1257,
+      1396,
+      1551,
+      1686,
+      1891,
+      2132
     ],
     "c9cd711525c4fc347298acd6ebda688deb6591583be2fd75eb4a56798d951368": [
       162,
@@ -7704,17 +7666,43 @@
       4563,
       4882
     ],
-    "ca88ba91cfa632aab37632d061b22d6565e0769079e737c01bc3de0b55cdfb2c": [
-      179,
-      443,
-      791,
-      997
+    "caa8fde187dddf1e0b1ff17b0be40dd78bd14508722b27df549cc4d1c35ea383": [
+      217,
+      436,
+      798,
+      1064,
+      1249,
+      1450,
+      1600,
+      1754,
+      1944,
+      2158,
+      2448,
+      2674,
+      2814,
+      2974,
+      3145
     ],
-    "cbea673be0103cc424e60c735b3355ef41dec8c36f350b8465f65225b328b045": [
-      196,
-      401,
-      559,
-      729
+    "caeefa4a9069ec7dc1839425dfbab61ef272ad917d28f1b19b0f34ef8dfbb6f0": [
+      301,
+      537,
+      705,
+      858,
+      1056
+    ],
+    "cc97c0fb283eb440375dc888e4133bb111bc34be7b2dfcb0baaf2cd2ca8050f4": [
+      220,
+      386,
+      619,
+      935,
+      1072,
+      1292
+    ],
+    "cdd38d2a103b1cc61df401aa4644706a627f0a607c6ec542cd6361ef7c80184e": [
+      211,
+      467,
+      645,
+      912
     ],
     "cddb3a4ce1a48d88aa5dfac799762c9e4219460f9eeef51185eb4a9563346cf5": [
       165,
@@ -7731,6 +7719,12 @@
       2821,
       2966,
       3195
+    ],
+    "ce2bc2719a77f600a77532434133a988b82b3e26f76629fb688c5481ef25e5ae": [
+      278,
+      473,
+      725,
+      1001
     ],
     "ce93cf94c4ba1b6182f14c604fb20a70b491c769f9c6985816069c6f779fc818": [
       173,
@@ -7804,30 +7798,24 @@
       3120,
       3343
     ],
-    "d3db2bfd111138574b4980ecef15d80869867e465f0c97e25bd2d9ab67301f6b": [
-      547,
-      807,
-      941,
-      1155,
-      1315,
-      1480,
-      1696
+    "d490bf156594e555a453c027fbacd4103d876c9ca3c8b01ecf159e506cea2da3": [
+      314,
+      531
     ],
-    "d430b55ef5e5b6a33d803f6928f87510672afb2de9a06da1d4c49965c1c13c6a": [
-      224,
-      488,
-      665,
-      978,
-      1233,
-      1410
+    "d5935a94a16949b08138bf03646ed927e92b1e57a4b9d67b13c2b997cdd9b80a": [
+      215,
+      382,
+      582,
+      794,
+      1034,
+      1181,
+      1316
     ],
-    "d56b8b78f90428e7f3976c93c5d38bf29075932b2903fb5797165c07235c28d2": [
-      183,
-      366,
-      625,
-      796,
-      960,
-      1150
+    "d6d13416ced7853ab138efbe82bbe98f8c250ad38e66760cffd4fdf674fde13e": [
+      277,
+      558,
+      785,
+      937
     ],
     "d746f32d9fd362ee6a0ca422ea7a2bbcb22647864fbf90f9dd48580f47bbb8f0": [
       215,
@@ -7840,15 +7828,6 @@
       1930,
       2099,
       2233
-    ],
-    "d7cd6da85d2f4393000f15a31046747e4b07b563287e48ca002bd391c0f82730": [
-      147,
-      326,
-      745,
-      946,
-      1204,
-      1504,
-      1798
     ],
     "d83021e51ccd5d33db83e34738cef1be83a0bbfbc457952cd6f65ffd641c3418": [
       168,
@@ -7913,6 +7892,19 @@
       948,
       1465,
       1655
+    ],
+    "da7d64d72dc0a0e74e9e4d9d65b770a45353c38c319159b4ea75c331db203fe5": [
+      293,
+      547,
+      852,
+      1120,
+      1404,
+      1682,
+      1868,
+      2083,
+      2344,
+      2522,
+      2757
     ],
     "dbf8e9de186dcb6c5c2553ab5c3d71c2d4e13d0d921ea3e6257486965f2092e2": [
       189,
@@ -8002,6 +7994,12 @@
       4256,
       4475
     ],
+    "e1505a3e5c80327f11016184b88d7d271760de50394a1615aae92614185bb8b5": [
+      289,
+      688,
+      1027,
+      1223
+    ],
     "e20fd01289fb1fc313fea8d9b0e2a94593b57700c909ff45120042180d42cbd8": [
       153,
       380,
@@ -8075,16 +8073,6 @@
       3308,
       3474,
       3619
-    ],
-    "e6fdf0cd38c90ddfbfeb7040ddb5f2720a1c7cd3e7a510b18d6149ad1b584249": [
-      228,
-      448,
-      656,
-      806,
-      1162,
-      1439,
-      1723,
-      1977
     ],
     "e72b483899953936e69d347c8a8b555753c595fcfa23a98a48e87a961baef5d1": [
       219,
@@ -8171,16 +8159,18 @@
       3213,
       3627
     ],
-    "e9727bd5deb811bcf0e1815272ec1895ee9feca227da6ea98846125f5a5f501f": [
-      208,
-      501,
-      687,
-      890,
-      1168,
-      1341,
-      1705,
-      1913,
-      2077
+    "ea9e876d90bd00a25fa885c771b54993b6bfac766bc60365ace8161d3536157f": [
+      215,
+      481,
+      760,
+      1019,
+      1273,
+      1415,
+      1767,
+      1931,
+      2089,
+      2386,
+      2665
     ],
     "edd2f2df5aca2952749ad8ba389ea8f8db9bbd90b386eabe871ee28a214a7eef": [
       165,
@@ -8242,16 +8232,6 @@
       5729,
       5914
     ],
-    "ef341e66d64038a11eafd11956cb1a093f0a7722feb817466bd0ac4e54a272c9": [
-      199,
-      438,
-      645,
-      923,
-      1142,
-      1362,
-      1503,
-      1751
-    ],
     "f0b34ec0e35a349f49c8b0c9ad3c624ee1681b4d73ea0835acfe21f36db8636c": [
       261,
       480,
@@ -8262,6 +8242,26 @@
       2024,
       2160,
       2384
+    ],
+    "f29c68ef39567577e873a5403ba7f4c251de4428cb0053dfd8cac615830dfdc3": [
+      267,
+      510,
+      679,
+      867,
+      1091,
+      1238,
+      1429,
+      1611,
+      1765
+    ],
+    "f3fbcbd9a0d6858ed9f365d901a8f72d241d2541d32540725711aca008334022": [
+      190,
+      380,
+      637,
+      803,
+      1069,
+      1355,
+      1515
     ],
     "f4cd4b03fd462dfdb57bb338b3dfd414c7a0a2252ca67bf8ddd0d79ecfb1ff0d": [
       151,
@@ -8290,6 +8290,18 @@
       869,
       1133,
       1293
+    ],
+    "f80b4dc35c81dcb24834b91a471f763b8cb49526e19771e5b116403375a4e272": [
+      271,
+      558,
+      773,
+      927,
+      1196,
+      1449,
+      1667,
+      1838,
+      2079,
+      2224
     ],
     "f83bd5985c2eb929899b4e13b24c5689cd014404754e1858ea3b44c237fd9743": [
       227,
@@ -8339,6 +8351,13 @@
       5091,
       5255
     ],
+    "fda576ee1fee39d90e4ec5a0220dfb2e15e73630a8cbfd0072df869880b27421": [
+      201,
+      483,
+      626,
+      864,
+      1103
+    ],
     "fe66a40ea7c8eefdb6106d110acd10785b6bde0df0669fd33e96d730701236e5": [
       335,
       559,
@@ -8357,12 +8376,9 @@
       "2108": 2,
       "848": 1
     },
-    "032f8cefff1b25bc455a6df5aea19974c386bdd674067b3accad217d3c37f8dc": {
-      "391": 1
-    },
-    "03f1950b28044b080db781907e0b48bb17d58d6fd11de067dcc86db2a5eede9c": {
-      "1047": 1,
-      "2424": 2
+    "02aa0ecd4c77b66564b9b91d6ad45a8fac7fb2c396cbccf8c4536cae492ab3ea": {
+      "1039": 2,
+      "396": 1
     },
     "04fcde09d6784f5370a71cb93ed3cf6302b2c7c5c4ae4af37c440a2e2cf1217d": {
       "1984": 3,
@@ -8373,10 +8389,10 @@
       "1977": 2,
       "525": 1
     },
-    "05849b99c741782b4aaadd53a2d711d7ce4391f866e7f31945bf7b40a30620e7": {
-      "1149": 2,
-      "2078": 3,
-      "631": 1
+    "0926fa3a0f63f0ae64f2cfc727c8e17a3380f398d91a1679766a04b1e2138156": {
+      "1271": 2,
+      "2305": 3,
+      "684": 1
     },
     "095978dca4c167d59f60d8d3726883ab076eda90016b34a1bc513e4cebc15d35": {
       "1220": 2,
@@ -8386,9 +8402,6 @@
       "2071": 2,
       "3327": 3,
       "758": 1
-    },
-    "0b7ae3fef1ada5c554c24beb4d1c5fe835240ed214b58a1ea32a634cd42a7922": {
-      "510": 1
     },
     "0e1ecbd6334591cf733831a4ab8e77ced151717d07f52df0e7ed2fe37bc5028c": {
       "2015": 2,
@@ -8412,6 +8425,10 @@
       "1189": 1,
       "3105": 3
     },
+    "1069241f2548ce19bbf1b8a01ac25c2cad06c7d10d56ff6bef1de419a00c7d95": {
+      "1636": 2,
+      "637": 1
+    },
     "1580f827de582fd38ae4e518d666eaae798a9a02a5aed2731e418447b4f6d97a": {
       "2129": 2,
       "648": 1
@@ -8425,9 +8442,9 @@
       "3227": 3,
       "870": 1
     },
-    "188bb08b0550c9b1943158d94b219b46e344d4b93c799afc7fbcd213c091a6c3": {
-      "1479": 2,
-      "558": 1
+    "187f3c84fa4c5509a939ca776c762af5ddc0f5caa6ad2b399f4b8c582c84e127": {
+      "1213": 2,
+      "451": 1
     },
     "19846dfa970cea640b3d83f8e766e760c730104c7b077d0a353e365c97f94ee5": {
       "1284": 1,
@@ -8439,13 +8456,16 @@
       "3598": 3,
       "828": 1
     },
-    "1b0e85d816198d0bea88d291980570d5ec152998bae033be685a603b9e0599a1": {
-      "1004": 2,
-      "462": 1
-    },
     "1b154cf509d3e450fcd2ac912447fdf464c7b6a5b03ff27dd027617866eae5bf": {
       "1904": 2,
       "668": 1
+    },
+    "1b3cce51d8f671807c9986bf91c40b0628fde94fca5867dec3d343d4a27f67c6": {
+      "564": 1
+    },
+    "1c06031572997e1c93eff33220eea16fb043f0d5c8c8c87e781f1eab9deed29a": {
+      "1671": 2,
+      "766": 1
     },
     "1c57257e59955cb0355fc771eff77d9b89c1e8cc85ca9bcb8dd05569764d0b4c": {
       "2008": 2,
@@ -8463,14 +8483,13 @@
       "2550": 2,
       "849": 1
     },
-    "2003d52460f7e5aec3c2d2498f3bcd23bbe9af63516f29890b08d36d9a3cb096": {
-      "1210": 2,
-      "2044": 3,
-      "426": 1
-    },
     "225b23de2f0746e989580e890f245b220b4bfa8ceb8a3061d87419a925cbeeda": {
       "2050": 3,
       "856": 1
+    },
+    "230dc5f90867e4d8348ce4ade97b5c1b794f11fc4e11bf058e641ce6049b3b9b": {
+      "1376": 2,
+      "646": 1
     },
     "2326118e63bb057fc17e10845a76b0519e46ff33e9ead6419f8eef33b006298e": {
       "2359": 2,
@@ -8487,30 +8506,19 @@
       "3207": 3,
       "894": 1
     },
-    "24a23dfe1307ac24e66daaa1fc9c9231cac32ef25da4a6068494b5b74c0d52fa": {
-      "1080": 2,
-      "449": 1
-    },
     "28d153c0a470329b8a0274f385cc1acd7f4721445fc96763e0f0b1f9e7fa6276": {
       "1843": 2,
       "3064": 3,
       "617": 1
     },
-    "29b92284d75db33f23d6298cafca68fcdd89f44be1b8bd8d2cb9b7403120ea70": {
-      "842": 1
+    "2942b90ef5379fed48123da9e651fe6f69ff814f13df86c0dd4ae27660fb8365": {
+      "1825": 2,
+      "714": 1
     },
     "2a81525b41111ad44d60ef1ee94f8265fd31c1f1316fab1ed9242ab5e5f0f731": {
       "1069": 1,
       "2162": 2,
       "3419": 3
-    },
-    "2aad7ee9ac9383e5f8d818356ebe36b491cabdbb1ddd232da0245fa90da25986": {
-      "1354": 2,
-      "719": 1
-    },
-    "2dac3b3e4af83f361e0b16f38932b5cf13b92ca2d7b33c2dadd153137850d379": {
-      "1647": 2,
-      "729": 1
     },
     "2fba1cebf4bced726ce81e9cd8b5b9e270f8a3c2644015a3c1d7153db3df79e3": {
       "1116": 1,
@@ -8548,28 +8556,14 @@
       "2799": 3,
       "581": 1
     },
-    "3b851614944179de1772361eb9a279ad78dd392c87397f6ee4e1dc9ea5679774": {
-      "460": 1
-    },
     "3fcb524f2d528749f388439ad1b7c8ddaa67fd4aa98512d5e765e6af6279c4a0": {
       "1904": 2,
       "3098": 3,
       "729": 1
     },
-    "3fd3dd123ac6e8cb139384433cd3204bdc258a48e8a408f921cb4e6678cb8b35": {
-      "438": 1,
-      "969": 2
-    },
-    "43c372f4d5997ae099f37aaeb572101b0b53470d85a3eb991f6f7fa654d21b82": {
-      "1037": 2,
-      "380": 1
-    },
-    "44f8948f39126a6a0b3abab612f803fc9306a7ca3c36dc74254c1dea21f14354": {
-      "441": 1
-    },
-    "46329294ff93a4d75fe9da0294ae40548c988a5fa41971830ea0fe49676fd56e": {
-      "1072": 2,
-      "370": 1
+    "4127f62638100ab5e5d5a10ebf2c2123bb0b1570bb32c86db41f81d909bf9d54": {
+      "1779": 2,
+      "753": 1
     },
     "4764eea140d749ee1e4482f7ab15c079023909980b4eea920493035a6fb2cf8b": {
       "2264": 2,
@@ -8589,10 +8583,28 @@
       "3096": 3,
       "765": 1
     },
+    "4866458885f25fcd661546230d542782dc240f71a880d0f6bff620b54eb295df": {
+      "1505": 2,
+      "607": 1
+    },
+    "496a073a09c0e6b838a749af942b30277e44a1add1436f54f6f8621427d2f06c": {
+      "1130": 2,
+      "521": 1
+    },
+    "4a15c7db1648ac06b1ca6f4d09f7fcde3ee42c8620612fdaebe34fb6d5a63923": {
+      "1246": 2,
+      "462": 1
+    },
     "4ae49db97ca5ca439a351857cea562b4140fb2eb79462b4610f6e8b7feaed099": {
       "2634": 2,
       "4287": 3,
       "995": 1
+    },
+    "4b44dfe753d45a039c03633bf0a140e0a638def001cf262f1bec12cbd21423e6": {
+      "460": 1
+    },
+    "4b5914894dbb192b61a7cbd9bc0a28e419ae2c57ca510becd41b3084a93586d0": {
+      "368": 1
     },
     "4f4e94cacf80134814a7a0b2f4843ffeb366e759856bc588583f7f18847de8dc": {
       "1945": 2,
@@ -8613,10 +8625,9 @@
       "2775": 3,
       "810": 1
     },
-    "51a86f2eab3b430fc111640fe1dd0f13484179dc2d70f824d4b56ba2faf461e5": {
-      "1115": 2,
-      "1877": 3,
-      "502": 1
+    "5175a4927de3adf27ee1567a2f230868f6be6acabaf31dfbd000d8c5d00476b8": {
+      "1978": 2,
+      "797": 1
     },
     "521560b43df3b61ec7a96c9a3fa4563734944177a41fad4545b7de6a2674713c": {
       "2294": 2,
@@ -8627,9 +8638,12 @@
       "3726": 3,
       "739": 1
     },
-    "589fbcb7545faa522df4b773528bca64c1397869ffc6b2ee2afa03850e71aa16": {
-      "1274": 2,
-      "713": 1
+    "572f3990dd80158658e1eb6f6902d6e7a67638218aa419d2ba0cf1bbaf31ea16": {
+      "1563": 2,
+      "845": 1
+    },
+    "58cbb4771fc1530729d98146d1c3d145d435812bd25446abaebee8ca2f82eaee": {
+      "812": 1
     },
     "5962156133a73985e78106c03816453cb5deda789b17c25076280121711fc45f": {
       "2634": 2,
@@ -8641,12 +8655,13 @@
       "3572": 4,
       "701": 1
     },
-    "5bb3d123c8ce9ace212f2629a9650d5f23b838b75e1933b220609a8878a5b1d9": {
-      "373": 1
-    },
     "5bc20bc5d6f8b71801dc58da950364bf30d476fbb7f03b9edfe9313bfdede05e": {
       "1789": 2,
       "628": 1
+    },
+    "5bff123339cd20e22ef467811d2e589c6202931f1d87ca7cf68eec3618cea4c6": {
+      "1177": 2,
+      "595": 1
     },
     "5ce0147b5891497be8daf72b32abf4144c71fe95aac98f174ab2c762a138a45d": {
       "1799": 2,
@@ -8661,31 +8676,29 @@
       "3809": 3,
       "982": 1
     },
+    "60ac589e6510baa6b09a2e5cca21f1f02a120e03f8466138000486fde5941f2c": {
+      "730": 1
+    },
     "60b055f745e1923e300b88dba5692a5cd3318c7f630219ffc03e25ee8744aadb": {
       "1685": 2,
       "2782": 4,
       "671": 1
-    },
-    "61eb95a05e1979a18cd6b6fb7df8f896ca026113424100ec706597897a2e6e6e": {
-      "1424": 2,
-      "609": 1
     },
     "6244b83f95a932039862397876a0f105a8dc58abc67bc41ac846910310c56c44": {
       "2509": 2,
       "3992": 3,
       "969": 1
     },
-    "62e286a91b72e09c78ab9134e1d7ac60da7624194f42efe3e4ddac9fa70cb44f": {
-      "1339": 2,
-      "552": 1
-    },
     "62f07bc4d323c221accf3753e973068502994637d8df418cf52d038a6480fc18": {
       "1913": 2,
       "996": 1
     },
-    "6569858fa80999b438a1f33b50587648992749a869881f98366bf0678dbaadd4": {
-      "1413": 2,
-      "594": 1
+    "6305b69c7cbcd2d9bcb05df75a128a14dc09ecad8e9e115518317ce5900000f8": {
+      "434": 1
+    },
+    "6615710322fe783abc6decf9c42316cfb705332dd5f4303c01e6e59c02afbf9b": {
+      "1129": 2,
+      "501": 1
     },
     "679dee4e6d2fd845154ebbdb42c2b5572f976832dc54c8b763cd705f757e98f8": {
       "1850": 2,
@@ -8693,26 +8706,13 @@
       "3597": 4,
       "809": 1
     },
-    "685edf9ea7a60155cc48d8185f190565f95bde8d29df38f954609d8e743602ca": {
-      "1353": 2,
-      "537": 1
-    },
     "6884ba31db0bffb14ae187ff15d5b97ec6187003bda63b9bfbf04a96e8af5472": {
       "2179": 2,
       "839": 1
     },
-    "6907d3191d938d8e4e5dbdcb78c025f7fdf800f9fb1d46e8a09489c714abfa43": {
-      "1140": 2,
-      "1842": 3,
-      "429": 1
-    },
     "6c7b4b4a7ba4ff7e0b9af55861d4327f036a2137a95eff229f561976a5bedce0": {
       "1073": 1,
       "2009": 2
-    },
-    "6e71f3f852102a62c2041d5a0dda2d1e11dfe5fc70bcdfb7b869ab98a0d185fa": {
-      "1673": 2,
-      "651": 1
     },
     "6eb07f25b6b6120025d0431150f451b96d307200c6e23d73f621c5888b06304c": {
       "2545": 2,
@@ -8724,17 +8724,13 @@
       "2291": 2,
       "3826": 3
     },
-    "70595f4212eb0c2bd75453fd5ce78ff9324ec04fe14e491e8626ba3f5ab96c9d": {
-      "1120": 2,
-      "413": 1
-    },
     "706add0cb91cf929c45a55d84b276db87af9839411cb106bb80ff04dac51cd7b": {
       "1031": 2,
       "423": 1
     },
-    "71d8b362797f7a2d1eddd6db9a19e6f2ca640bc84696edca63fbc1ec4ae05ce3": {
-      "1745": 2,
-      "658": 1
+    "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc": {
+      "1098": 2,
+      "457": 1
     },
     "72a6fb1e8c24930a26efa8e0c864bd7bc068ac4e920e0e17a446ba3c18b3cd1e": {
       "1638": 3,
@@ -8760,37 +8756,14 @@
       "3089": 3,
       "903": 1
     },
-    "7531aee0cfaca168682a629b63ab3116e7593c944871b7b78df307b439f9054d": {
-      "1020": 2,
-      "460": 1
-    },
-    "75c4a7988030868ac8a84a88e4df975c39feba804c824767de83a06c71244f95": {
-      "1296": 2,
-      "460": 1
-    },
-    "774299a724c3510a44d55ae88d043568de09b1264951e19435815152b865829f": {
-      "427": 1
-    },
     "78690f0a41ef0032adafee111b5190af145ba58da57c57d6c0d749f9e49056bc": {
       "1690": 2,
       "3041": 3,
       "4225": 4,
       "727": 1
     },
-    "795302abe05be4eb8216c1c671b4338107261a386de4a76cdf34ab2a927a2605": {
-      "1509": 2,
-      "691": 1
-    },
-    "7a84006d2da25869ae83a96a0e24eee60871e9b2c79906bf8b9684d39354f132": {
-      "1580": 2,
-      "428": 1
-    },
-    "7a9ed75e07f303d43af292bfa0295274460ad63ae5655f3b4fbbb3bba07d4ff2": {
-      "456": 1
-    },
-    "7cdcba92195fcb6dee6748859d9c036611d9652e2f3f4145f80d5153418621ec": {
-      "1191": 2,
-      "450": 1
+    "7ab51d5844b660c84511a103d8eeede615b7938df4f85c0481a6da3000dfa79b": {
+      "624": 1
     },
     "7f32188764af55a043058d59ddd95ae6a9421ea5b745e81d53d8e9cb42035f1e": {
       "1075": 1,
@@ -8806,13 +8779,17 @@
       "3034": 3,
       "780": 1
     },
-    "82242c808e99640643f073ae6354361ee2346069965095efadbd2ef83c3c39d2": {
-      "441": 1
+    "80a72ea7c9f074b3b96ecfb0f9b64d3d2904b65311f0e2706241c8a393afa6c2": {
+      "809": 1
     },
     "82868624e71198cecfdf42a43d6764b959ce5cad7c48b032c8bcace35c3bb793": {
       "1976": 2,
       "2593": 3,
       "584": 1
+    },
+    "8288b26151c938bca58fff2dfb495b2e5d1ac28590b44067e67fbeed71348fc0": {
+      "1536": 2,
+      "527": 1
     },
     "8297122505311a75aca418ca71f1e5922a40a4401e6eb534003f722ed8ff7fed": {
       "1704": 2,
@@ -8824,12 +8801,13 @@
       "2750": 3,
       "627": 1
     },
-    "82cbd452e58790ac61cbef6beabb21cc1c2e0696f1d83f0d607f540479a52d58": {
-      "882": 1
-    },
     "84ca7e4ff58b21ea77d5917d3753199a4acceb547ddda5a2d79509ac402bde6b": {
       "1848": 2,
       "777": 1
+    },
+    "854f2bce3a6e4c38cdf16d9f080532e6c923b22f8e878161e518d9d02045af3c": {
+      "1458": 2,
+      "550": 1
     },
     "87725a1a1fa70e149d73d34c48aa422d9d19698c72ed9983adae0bd60c18fce3": {
       "1731": 2,
@@ -8846,20 +8824,17 @@
       "2347": 2,
       "3711": 3
     },
-    "8a95dff5e3985c7f60a5318fc873855193725034b9e8d1497c5538111b151189": {
-      "576": 1
-    },
     "8aba7a5d17bf87c2eb687fb6365dc70cb496a6bb7b0da4fddd91e4fb906c0c1b": {
       "1046": 1,
       "3043": 2
     },
-    "8b0d7cd3ac7d6ecc5ba937e4d9040c8a3e116925d3d0771e9d33f424791de586": {
-      "1751": 2,
-      "795": 1
-    },
     "8b4d26bd5f545cb891070aa65aef5938b0911674cc0ca9e81fafee6fbecbe2d8": {
       "1766": 2,
       "485": 1
+    },
+    "8bbce7a695f160d2b6372850ca32bed0e549ca5fe7248335eaa2f0bc7493aad4": {
+      "1792": 2,
+      "844": 1
     },
     "8c902e9e478943752f0ca53af9b7249149be80144835eea9018e59862b2f9fb8": {
       "1348": 2,
@@ -8917,6 +8892,15 @@
       "1920": 3,
       "428": 1
     },
+    "a2c3e57aae9e60b4262e806d846b3a7fb85fa588bf4d09e39ff8d5a046206054": {
+      "1078": 2,
+      "485": 1
+    },
+    "a5719d8d5fb0eb55db871561be62deab5356a614dceef7efd1d981face015d4b": {
+      "1471": 2,
+      "2469": 3,
+      "534": 1
+    },
     "a591c074878e2e67bb80fcbc7e272c1ff512277bd3e7e22106addfdbe3b65b57": {
       "713": 1
     },
@@ -8925,12 +8909,13 @@
       "2745": 3,
       "461": 1
     },
-    "a8228da308d6dbdb71e11e38e4b944f25a6b4ee14af2e8201a89952e754b9419": {
-      "472": 1
-    },
     "a8bf309592797b45bc0e31eab4a10ad2bc84c6315211375fc139694f59382828": {
       "1859": 2,
       "852": 1
+    },
+    "a917fba59bdcc7b4cf1f42e9bd60669f7e587ed5fb7e1fbde11144850ba6af2e": {
+      "1599": 2,
+      "752": 1
     },
     "a93528d9b59139806c06b7362a8496efbc2e0a394e0fc3ac254fcfcbd75a8aa3": {
       "1048": 1,
@@ -8960,33 +8945,25 @@
       "3182": 4,
       "773": 1
     },
-    "af2a987795ea959af3306641bc1b3b25a582ea09f6e4fcfdc497dfb9085efe7d": {
-      "363": 1,
-      "929": 2
+    "ae1224e38a4159ebbc9d5bc4c5d262b2134459cd5230004fc8fc3204b96cdf6a": {
+      "1034": 2,
+      "237": 1
     },
     "b2db7d9367c595d75cae1626d0bee39aa93b81b84d68441ed85a2e7e28fe882e": {
       "1523": 2,
       "609": 1
     },
-    "b3c67ec037018804bce6a2d231297f586e36a5fe9a6f63f264b53db5baad9296": {
-      "1408": 2,
-      "636": 1
-    },
     "b4cd28a5e2d6b777e4bf5a7c1af9feb01388068b96b446d2840b201e39d4b397": {
       "2195": 3,
       "682": 1
     },
-    "b67b07a0442a25cc330ff2ab0742cb2c4c740f7f8d8bf82da8519fc4be097c82": {
-      "1281": 2,
-      "602": 1
+    "b5edee4cd70ef8d60bc7ba3f67617f44939e8508efc9b0c7ac72938583b3a166": {
+      "1629": 2,
+      "687": 1
     },
     "b68c6b758549ee028660ef27a9c567fced1aa60953bc0ea0e8dc2c8d422ff081": {
       "1030": 1,
       "2271": 2
-    },
-    "b928bd6b74daca4fcc736871daf3372409155c021e03d830645d3918cb3287bb": {
-      "1849": 2,
-      "789": 1
     },
     "bc1d8ca8abd27ed4c8308497a44b4a88d45c24a807701bc1e86a6bd5984aee07": {
       "1016": 1,
@@ -8997,6 +8974,14 @@
       "1771": 2,
       "3732": 3,
       "672": 1
+    },
+    "bf2b27866923b6cb16ec7b7ddde1320b710bc0adc1ea64221c90508753f26bc9": {
+      "1215": 2,
+      "2077": 3,
+      "539": 1
+    },
+    "bffea232f9d99eff2c9f446a971853d4b694c38c7f75136b808dc0085ca34801": {
+      "385": 1
     },
     "c0b5f54589163e632b6db43fcbfb6a54ff8177b8162255dcd5f3640a075238f4": {
       "2190": 2,
@@ -9013,21 +8998,48 @@
       "2150": 2,
       "3365": 3
     },
+    "c361fbb98dc182a592e6864e39592247fb9d32bb94e1d55f7fd14b7f759f207f": {
+      "1791": 2,
+      "828": 1
+    },
+    "c4be6f2e4767b4485b007dd5b61776385b580d60d0c790b560a5a72e3bd9b9e0": {
+      "1246": 2,
+      "393": 1
+    },
     "c5379aecacb900045f769ad794e9d315d78be8ae4a85f622de60234953c5bae8": {
       "1172": 1,
       "2753": 2
+    },
+    "c7045724be934b5c0c481f3c38b7564dfa9e5ca518fdf02b79e5a443692e3172": {
+      "1396": 2,
+      "595": 1
     },
     "c9cd711525c4fc347298acd6ebda688deb6591583be2fd75eb4a56798d951368": {
       "1406": 2,
       "3199": 3,
       "895": 1
     },
-    "ca88ba91cfa632aab37632d061b22d6565e0769079e737c01bc3de0b55cdfb2c": {
-      "443": 1
+    "caa8fde187dddf1e0b1ff17b0be40dd78bd14508722b27df549cc4d1c35ea383": {
+      "1944": 2,
+      "798": 1
+    },
+    "caeefa4a9069ec7dc1839425dfbab61ef272ad917d28f1b19b0f34ef8dfbb6f0": {
+      "301": 1,
+      "858": 2
+    },
+    "cc97c0fb283eb440375dc888e4133bb111bc34be7b2dfcb0baaf2cd2ca8050f4": {
+      "1072": 2,
+      "386": 1
+    },
+    "cdd38d2a103b1cc61df401aa4644706a627f0a607c6ec542cd6361ef7c80184e": {
+      "467": 1
     },
     "cddb3a4ce1a48d88aa5dfac799762c9e4219460f9eeef51185eb4a9563346cf5": {
       "2298": 2,
       "758": 1
+    },
+    "ce2bc2719a77f600a77532434133a988b82b3e26f76629fb688c5481ef25e5ae": {
+      "473": 1
     },
     "ce93cf94c4ba1b6182f14c604fb20a70b491c769f9c6985816069c6f779fc818": {
       "1136": 2,
@@ -9048,20 +9060,15 @@
       "3120": 3,
       "398": 1
     },
-    "d3db2bfd111138574b4980ecef15d80869867e465f0c97e25bd2d9ab67301f6b": {
-      "1315": 2,
-      "547": 1
+    "d490bf156594e555a453c027fbacd4103d876c9ca3c8b01ecf159e506cea2da3": {
+      "531": 1
     },
-    "d430b55ef5e5b6a33d803f6928f87510672afb2de9a06da1d4c49965c1c13c6a": {
-      "224": 1,
-      "978": 2
+    "d5935a94a16949b08138bf03646ed927e92b1e57a4b9d67b13c2b997cdd9b80a": {
+      "1034": 2,
+      "382": 1
     },
-    "d56b8b78f90428e7f3976c93c5d38bf29075932b2903fb5797165c07235c28d2": {
-      "366": 1,
-      "960": 2
-    },
-    "d7cd6da85d2f4393000f15a31046747e4b07b563287e48ca002bd391c0f82730": {
-      "946": 1
+    "d6d13416ced7853ab138efbe82bbe98f8c250ad38e66760cffd4fdf674fde13e": {
+      "558": 1
     },
     "d83021e51ccd5d33db83e34738cef1be83a0bbfbc457952cd6f65ffd641c3418": {
       "1084": 1,
@@ -9076,6 +9083,11 @@
     "d9901d24ae5096ed314f4b63e84ff8a0e92f38d81e4955868677378122fefcac": {
       "2097": 2,
       "816": 1
+    },
+    "da7d64d72dc0a0e74e9e4d9d65b770a45353c38c319159b4ea75c331db203fe5": {
+      "1404": 2,
+      "2344": 3,
+      "547": 1
     },
     "dbf8e9de186dcb6c5c2553ab5c3d71c2d4e13d0d921ea3e6257486965f2092e2": {
       "2097": 2,
@@ -9097,6 +9109,9 @@
       "3609": 4,
       "503": 1
     },
+    "e1505a3e5c80327f11016184b88d7d271760de50394a1615aae92614185bb8b5": {
+      "688": 1
+    },
     "e20fd01289fb1fc313fea8d9b0e2a94593b57700c909ff45120042180d42cbd8": {
       "1127": 1,
       "2974": 2
@@ -9112,10 +9127,6 @@
     "e6223541bb4217b9204c5dc4da85bf7c3e94b26dcebecc1b1a471f9c98ed7dbc": {
       "2359": 2,
       "758": 1
-    },
-    "e6fdf0cd38c90ddfbfeb7040ddb5f2720a1c7cd3e7a510b18d6149ad1b584249": {
-      "1439": 2,
-      "656": 1
     },
     "e72b483899953936e69d347c8a8b555753c595fcfa23a98a48e87a961baef5d1": {
       "2113": 3,
@@ -9134,9 +9145,9 @@
       "2570": 2,
       "931": 1
     },
-    "e9727bd5deb811bcf0e1815272ec1895ee9feca227da6ea98846125f5a5f501f": {
-      "1341": 2,
-      "501": 1
+    "ea9e876d90bd00a25fa885c771b54993b6bfac766bc60365ace8161d3536157f": {
+      "1767": 2,
+      "481": 1
     },
     "edd2f2df5aca2952749ad8ba389ea8f8db9bbd90b386eabe871ee28a214a7eef": {
       "1016": 1,
@@ -9148,13 +9159,17 @@
       "4336": 3,
       "983": 1
     },
-    "ef341e66d64038a11eafd11956cb1a093f0a7722feb817466bd0ac4e54a272c9": {
-      "1362": 2,
-      "645": 1
-    },
     "f0b34ec0e35a349f49c8b0c9ad3c624ee1681b4d73ea0835acfe21f36db8636c": {
       "1787": 2,
       "890": 1
+    },
+    "f29c68ef39567577e873a5403ba7f4c251de4428cb0053dfd8cac615830dfdc3": {
+      "1238": 2,
+      "510": 1
+    },
+    "f3fbcbd9a0d6858ed9f365d901a8f72d241d2541d32540725711aca008334022": {
+      "1069": 2,
+      "380": 1
     },
     "f4cd4b03fd462dfdb57bb338b3dfd414c7a0a2252ca67bf8ddd0d79ecfb1ff0d": {
       "2004": 2,
@@ -9163,6 +9178,10 @@
     },
     "f58905d99c4b3f5ed35a95ca38c614ff2d6d0fb69cbdbf5679a8345300cbca4d": {
       "555": 1
+    },
+    "f80b4dc35c81dcb24834b91a471f763b8cb49526e19771e5b116403375a4e272": {
+      "1449": 2,
+      "558": 1
     },
     "f83bd5985c2eb929899b4e13b24c5689cd014404754e1858ea3b44c237fd9743": {
       "1914": 2,
@@ -9176,6 +9195,9 @@
       "3709": 3,
       "4493": 4,
       "791": 1
+    },
+    "fda576ee1fee39d90e4ec5a0220dfb2e15e73630a8cbfd0072df869880b27421": {
+      "483": 1
     },
     "fe66a40ea7c8eefdb6106d110acd10785b6bde0df0669fd33e96d730701236e5": {
       "1746": 2,

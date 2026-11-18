@@ -29,9 +29,9 @@
     "npc:apothecary-johaan": {
       "1": [
         {
-          "duration": 47.777959183673474,
-          "file": "Audio/Transport/full_npc_apothecary-johaan-e50b6bd88ec12c622746/1-0000.mp3",
-          "sha256": "180da784be95cedbd39d002a39fdb61516b17a208a2b9e8b098fe647927a46a4",
+          "duration": 35.39591836734694,
+          "file": "Audio/Transport/full_npc_apothecary-johaan-4d78097157f1681608c9/1-0000.mp3",
+          "sha256": "910525accb9d4e9d4d14841fff120efb283fe83435b27dc8aaaa6a50ed03f9f5",
           "start": 0
         }
       ],
@@ -43,21 +43,21 @@
         ]
       },
       "fullHash": "b9e863",
-      "generation": "5425b13393e1cbff0df4",
+      "generation": "d04038542b339d0a43fc",
       "hash": "b9e863",
       "source": {
-        "duration": 47.777959,
+        "duration": 35.422041,
         "file": null,
-        "sha256": "e50b6bd88ec12c6227464babb930a98f9e6466b65f05ece9fd3d22ea24d56afb"
+        "sha256": "4d78097157f1681608c901755b01df0ef3fb0d5d7801a1ad9dd6d0b339b13163"
       },
       "text": "Apothecary Johaan. In Brill, Apothecary Johaan works on a plague for the Forsaken. The Royal Apothecary Society and Lady Sylvanas have set him to lethal experiments on local plants and animals. In Brill, Apothecary Johaan works openly for the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, he follows direct orders to create biological and alchemical weapons. The Forsaken hope these weapons will secure their fragile future against the living and the Scourge alike."
     },
     "npc:apothecary-renferrel": {
       "1": [
         {
-          "duration": 32.888163265306126,
-          "file": "Audio/Transport/full_npc_apothecary-renferrel-aac1c5f5030001f3f94f/1-0000.mp3",
-          "sha256": "6e1ca47a7b17ed577209d6df7689d8a4a462158be9e2b35b80633845003e7271",
+          "duration": 40.0195918367347,
+          "file": "Audio/Transport/full_npc_apothecary-renferrel-ca73d59d286d6aba0f8b/1-0000.mp3",
+          "sha256": "9d25be897bebe1eaf1689f4e9487a84f8f86ab28f3346f2af59114a9046b4d6b",
           "start": 0
         }
       ],
@@ -69,21 +69,21 @@
         ]
       },
       "fullHash": "863d36",
-      "generation": "1e75c02b97e48fa1b4a6",
+      "generation": "8f51ea5bd9b5a78db93b",
       "hash": "863d36",
       "source": {
-        "duration": 32.888163,
+        "duration": 40.045714,
         "file": null,
-        "sha256": "aac1c5f5030001f3f94f02097474c0bfae00d27905b439f6b0eda4e166ff7e76"
+        "sha256": "ca73d59d286d6aba0f8b0e5b1bddeb2c75936db43af99c71fe44fa2ec331665d"
       },
       "text": "Apothecary Renferrel. At the Sepulcher, Apothecary Renferrel studies Silverpine’s corrupted wildlife and undead threats. He advances Forsaken alchemy, and travelers bring him volatile reagents and help investigate Scourge remnants. At the Sepulcher, Renferrel leads field research for the Royal Apothecary Society in Silverpine Forest. The society’s grand laboratories and high leadership are in Undercity, while he works in the field. He gathers native biological specimens, refines potent concoctions, and studies the grim ecology along Lordaeron’s western border."
     },
     "npc:aramis-hammerhand": {
       "1": [
         {
-          "duration": 82.23346938775511,
-          "file": "Audio/Transport/full_npc_aramis-hammerhand-210d8f43798e5a652d2c/1-0000.mp3",
-          "sha256": "2fc9b218a2cadb8e304e0610db056e9793b7af94fec1bc424b2cc9025dbcece5",
+          "duration": 65.64571428571429,
+          "file": "Audio/Transport/full_npc_aramis-hammerhand-b41567a18616a2ce50da/1-0000.mp3",
+          "sha256": "5775fe69766f309acc4a542ccf3cc0e3b6079c300f1aa7fbea8ce76c16db84c9",
           "start": 0
         }
       ],
@@ -95,21 +95,21 @@
         ]
       },
       "fullHash": "b2f95e",
-      "generation": "567044955752ad3b0e7e",
+      "generation": "c6b79b382e8962892f35",
       "hash": "0e57d9",
       "source": {
-        "duration": 82.259592,
+        "duration": 65.671837,
         "file": null,
-        "sha256": "210d8f43798e5a652d2c9eff0c7ec84fa7275331cd978fb00a190f5aca3d7822"
+        "sha256": "b41567a18616a2ce50daafb5f3eb80e6fa9977d7f83393af369d8f7aeea090fb"
       },
       "text": "Aramis Hammerhand. In Deathknell's chapel, Aramis Hammerhand teaches the newly risen Forsaken to fight with the Holy Light. They can call on its power, but it burns their decayed flesh and demands fierce discipline. In Deathknell's chapel, Aramis Hammerhand guides Forsaken who still hold to their former faith. Before the Scourge swept across the north, many people of Lordaeron answered the Silver Hand's call. Aramis survived Lordaeron's fall, then rose into undeath. He kept the martial and spiritual teachings of his former life, and now guides others who will not surrender their devotion. For the Forsaken, channeling the Holy Light takes fierce will. Its power burns necrotic flesh and stirs long-dead nerves into excruciating pain. Aramis teaches new paladins that faith means enduring this torment. He asks them to face the physical and spiritual cost of wielding a force opposed to their undead nature."
     },
     "npc:arugal": {
       "1": [
         {
-          "duration": 72.90775510204082,
-          "file": "Audio/Transport/full_npc_arugal-ae3dcb2fda6b8bf66316/1-0000.mp3",
-          "sha256": "2692095eb7d68217c00502791a5dbe5b020ba2d8b204dd4409d7c4f6e31c2c1b",
+          "duration": 87.71918367346939,
+          "file": "Audio/Transport/full_npc_arugal-de40aec38ceba07b0f7b/1-0000.mp3",
+          "sha256": "b2eb532f4154c9ac80df9d8d8056cfcf38ad105d49fca51f6dd9dbca9900e5ad",
           "start": 0
         }
       ],
@@ -121,21 +121,21 @@
         ]
       },
       "fullHash": "c9cee9",
-      "generation": "6c112c1e20a14522f160",
+      "generation": "011e2f063fcaded6dd4a",
       "hash": "b4d729",
       "source": {
-        "duration": 72.933878,
+        "duration": 87.745306,
         "file": null,
-        "sha256": "ae3dcb2fda6b8bf66316598958aa6fe441c6d06cacd46ab4dee2d41c65dd0ab2"
+        "sha256": "de40aec38ceba07b0f7b07c738885a1f8bdb55ff174fb8e3287028a7c8f48804"
       },
       "text": "Arugal. In Shadowfang Keep, Arugal commands the worgen he summoned against the Scourge. Madness and grief have made the former Dalaran wizard their self-proclaimed father, and his power threatens Silverpine Forest. Before Lordaeron fell, Arugal served in the Kirin Tor. Some peers, among them Dalar Dawnweaver, called him a charlatan who hid weak spellcraft behind enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon to halt the undead. He drew on research by the late Dalaran mage Ur and pierced the veil between realms to summon the worgen.\n\nThe ravenous beasts tore through the Scourge, but no one could contain their ferocity. Before long, their hunger turned against innocent mortals. The worgen slaughtered the Scourge, then attacked the wizards who had summoned them. They besieged the ancestral seat of Baron Silverlaine and took the keep with claws and fangs. Silverlaine and his retainers died in the massacre. Guilt shattered Arugal's mind, yet he stayed with his creation. He claimed the beasts as his offspring and renamed the fortress Shadowfang Keep.\n\nThere, Arugal holds the ramparts, surrounded by ghostly victims and loyal hound-packs."
     },
     "npc:baine-bloodhoof": {
       "1": [
         {
-          "duration": 110.60244897959184,
-          "file": "Audio/Transport/full_npc_baine-bloodhoof-480a25afd4601a67f7e8/1-0000.mp3",
-          "sha256": "96180c8c4c4de7f9bed6439f62ee4d99b698fb9ae2cee56fa381f75a2df9234a",
+          "duration": 102.26938775510204,
+          "file": "Audio/Transport/full_npc_baine-bloodhoof-27f6635fdfd61699c3a3/1-0000.mp3",
+          "sha256": "b65216b6d343ca050f6f82d8327479ea91d4f9c445acd6d65fe12e09ca507931",
           "start": 0
         }
       ],
@@ -147,21 +147,21 @@
         ]
       },
       "fullHash": "1369bd",
-      "generation": "7a406702b3f71a125e65",
+      "generation": "3d5c24ef9f4f1a350996",
       "hash": "f3766e",
       "source": {
-        "duration": 110.628571,
+        "duration": 102.29551,
         "file": null,
-        "sha256": "480a25afd4601a67f7e8c9d879c615bbbf352df91b5e5c35a68ee1487b8e1c4c"
+        "sha256": "27f6635fdfd61699c3a390978202022a67ec22401099c19f5b186beba540f143"
       },
       "text": "Baine Bloodhoof. In Bloodhoof Village, Baine Bloodhoof guards his people and Mulgore. Cairne leads from Thunder Bluff, while Baine directs the village’s defense against gnolls and outside threats. Baine Bloodhoof grew up traveling with his nomadic people as Cairne’s son. They settled in Mulgore’s grasslands, where centaur clans remained a threat. After the Third War, Khiragg’s warband captured Baine, and grief nearly kept Cairne from leading the new settlements. Rexxar freed Baine, restoring Cairne’s spirit. Then the tauren stood with Thrall’s Horde against the invading Kul Tirans and secured their foothold on the continent. Baine lives among his kin in Bloodhoof Village, not at the capital mesas. As Cairne grows older, Baine carries more responsibility for the people and represents the next generation of tauren leadership. He directs braves and visiting allies against Palemane gnolls troubling the borders. He also watches for outside influences that threaten Mulgore’s natural balance. Baine faces encroachers who give little thought to spiritual balance. In eastern Mulgore, the goblin Venture Company cuts into the sacred landscape. Dwarven prospectors from Bael Modan dig ancestral soil at the Bael'dun Digsite. Baine urges a firm but measured response: warn the miners and destroy their equipment instead of rushing into needless bloodshed. He says their violent digging hurts the spirits of the earth, but the miners refuse to listen."
     },
     "npc:bethor-iceshard": {
       "1": [
         {
-          "duration": 31.686530612244898,
-          "file": "Audio/Transport/full_npc_bethor-iceshard-6c3740d86cec6cb95759/1-0000.mp3",
-          "sha256": "31677f3272c336cdbd8171d929b922f419066b51d2b2977cd20e69981104b7d4",
+          "duration": 41.09061224489796,
+          "file": "Audio/Transport/full_npc_bethor-iceshard-6e08299c884c44e0239a/1-0000.mp3",
+          "sha256": "efd365c419f15238726c6b9657db439a04704600c4f2e431a093c3c6f39e3334",
           "start": 0
         }
       ],
@@ -173,21 +173,21 @@
         ]
       },
       "fullHash": "5c0281",
-      "generation": "15ae8e98d217cf3dc783",
+      "generation": "7c42983d30796e994d01",
       "hash": "5c0281",
       "source": {
-        "duration": 31.686531,
+        "duration": 41.116735,
         "file": null,
-        "sha256": "6c3740d86cec6cb957597f58cb78ccfb7122c7c203f776f1421655c9599fbeb8"
+        "sha256": "6e08299c884c44e0239af6d543408aa3f5d46f17671cab0d18644ed8ddfe4a88"
       },
       "text": "Bethor Iceshard. In the Undercity, Bethor Iceshard directs the Magic Quarter's arcane and shadow practitioners. He holds authority in Sylvanas's realm, though old friendships still mark his past. From the Temple of the Damned in the Undercity, Bethor Iceshard directs arcane and shadow practitioners. His keen mind and icy resolve earn respect and fear. His political and magical authority reaches magistrates across Lordaeron. He sends Forsaken agents after valuable grimoires and arcane disturbances, and against rival powers that threaten the Undercity's rule."
     },
     "npc:brewmaster-drohn": {
       "1": [
         {
-          "duration": 57.652244897959186,
-          "file": "Audio/Transport/full_npc_brewmaster-drohn-b741d52cd781d3a081d0/1-0000.mp3",
-          "sha256": "4984a185f4f76356885247d2511c6212299bf658eaa7386fbfdeb866f0804058",
+          "duration": 62.64163265306123,
+          "file": "Audio/Transport/full_npc_brewmaster-drohn-e18f69977f6cb0e743a8/1-0000.mp3",
+          "sha256": "8c7d5b6f95ef0c8da655169020e526ad1957f29fc1203e7a34e89f203c75ca59",
           "start": 0
         }
       ],
@@ -199,21 +199,21 @@
         ]
       },
       "fullHash": "32c763",
-      "generation": "c1ce44d72e52315aa467",
+      "generation": "9913c254ef61d8db6c8b",
       "hash": "04d8ab",
       "source": {
-        "duration": 57.652245,
+        "duration": 62.667755,
         "file": null,
-        "sha256": "b741d52cd781d3a081d0e9db40f0303198a5988f107c944061ac40a9b02e213c"
+        "sha256": "e18f69977f6cb0e743a815062157288075bb483c8e7b766616cc89a5178fd774"
       },
       "text": "Brewmaster Drohn. On the hill above Ratchet, Brewmaster Drohn tends his brewing craft. The orc lives just uphill from the port, using methods linked to the wandering pandaren Chen Stormstout. Travelers who find discarded kegs across Kalimdor are sent to Drohn's porch. Brewmaster Drohn brews at his home on the hill above Ratchet's goblin docks. The orc chose brewing over combat and lives in the neutral haven Gazlowe's Steamwheedle cartel established. Many orcs favor coarse grog or simple spirits. Drohn instead works with rare ingredients, balanced flavors and methods seldom practiced among his kin. Brewmaster Drohn learned brewing from a mentor who studied under Chen Stormstout. The pandaren wanderer fought beside Rexxar and the Horde during the founding of Durotar. Chen also taught Drohn to make Trogg Ale. When travelers find Chen's discarded kegs in the wilds, Drohn is the local authority who can identify their ingredients and recreate the wanderer's potent brews."
     },
     "npc:brine": {
       "1": [
         {
-          "duration": 65.07102040816326,
-          "file": "Audio/Transport/full_npc_brine-8e4d8dd27a201f9373fb/1-0000.mp3",
-          "sha256": "22be310215fd26605f0e633483dcad53d21097e8dff3147c70de9f76ee06135c",
+          "duration": 58.27918367346939,
+          "file": "Audio/Transport/full_npc_brine-7697e0866fa7d41cd04d/1-0000.mp3",
+          "sha256": "eb671158a2eeeefbcd3420843ee8f6f78e0da3aa1e4263b888afc8ad53a9e499",
           "start": 0
         }
       ],
@@ -225,21 +225,21 @@
         ]
       },
       "fullHash": "fb99fb",
-      "generation": "5a6436ca280ee9821ec2",
+      "generation": "6e5115f57eda613251c0",
       "hash": "c7576d",
       "source": {
-        "duration": 65.07102,
+        "duration": 58.305306,
         "file": null,
-        "sha256": "8e4d8dd27a201f9373fb6cb6d91ce6acc02ef76b899bcd47f9e3fbe69f9736a4"
+        "sha256": "7697e0866fa7d41cd04d6939f64212479bc400a4c8b89bf37fad3af925f3c48a"
       },
       "text": "Brine. On Blackthorn Ridge, Brine guides shaman initiates toward the spirits of water. She teaches them to commune with the tides and earn their Water Totem. Brine lives on a hill in northern Blackthorn Ridge, far from the Barrens' trading posts. Though dry savannas surround her, she has devoted her life to understanding water. Shaman across the Horde seek her wisdom after mastering earth and fire. She teaches that water calls for patience and perspective, qualities few understand as deeply as she does. In her youth, Brine marched with her orc companions across the Hillsbrad Foothills and fought against human settlements. During the campaign, she came to Tarren Mill and found a humble well fed by fresh spring water. The well stayed in her memory as a sign of life amid devastation. It strengthened a lesson she had learned as a child: even in the darkest sorrow, a small token of hope can still be found."
     },
     "npc:cairne-bloodhoof": {
       "1": [
         {
-          "duration": 95.3730612244898,
-          "file": "Audio/Transport/full_npc_cairne-bloodhoof-40a37dbf30611a323147/1-0000.mp3",
-          "sha256": "82c2b3b995ee83f6efd3abc6d8c1b00a1ab18c9ee016d5d3103704e7448d5053",
+          "duration": 85.02857142857142,
+          "file": "Audio/Transport/full_npc_cairne-bloodhoof-5a62d4bcbd0675a85d55/1-0000.mp3",
+          "sha256": "deacae3016e1eb3b1d1abad8987fdf1891cbbaf851756415ebd737c3c8e240a2",
           "start": 0
         }
       ],
@@ -251,21 +251,21 @@
         ]
       },
       "fullHash": "5a5527",
-      "generation": "5e96370a5ae82b04c4cf",
+      "generation": "f72ff7747096037323c8",
       "hash": "5800f5",
       "source": {
-        "duration": 95.399184,
+        "duration": 85.028571,
         "file": null,
-        "sha256": "40a37dbf30611a32314728432ffce55dfead6e758ae6b01cce997eea89d71d63"
+        "sha256": "5a62d4bcbd0675a85d556cf7b406c9ed969d55445ac0abb9eca4d3e501e05251"
       },
       "text": "Cairne Bloodhoof. In Thunder Bluff, Cairne Bloodhoof leads the united tauren tribes. The High Chieftain joined their fate to Thrall’s Horde after the orcs helped them escape extinction at centaur hands. Cairne Bloodhoof led the tauren from a life of flight to a home in Mulgore. For generations, centaur marauders hunted the tribes across the Barrens and drove them toward extinction. When Thrall and his orcs reached Kalimdor, Cairne saw a rare nobility in them.\n\nThrall offered protection and an escort for Cairne’s desperate caravan across the plains. In return, Cairne guided them to the Oracle at Stonetalon Peak. The tauren settled on Thunder Bluff’s towering mesas, where Cairne united the tribes and gave them a permanent home. Cairne Bloodhoof fought beside Thrall’s Horde and Jaina Proudmoore’s humans against the Burning Legion during the Third War. Grateful to Thrall, Cairne had followed the orcs to Stonetalon Peak. When Admiral Daelin Proudmoore invaded Durotar, Cairne took up arms again beside Rexxar. His captured son, Baine, had been safely recovered. Now one of the Horde’s most respected elders, Cairne remains Thrall’s closest confidant. He offers calm counsel against reckless warmongering."
     },
     "npc:canaga-earthcaller": {
       "1": [
         {
-          "duration": 49.972244897959186,
-          "file": "Audio/Transport/full_npc_canaga-earthcaller-9c0171ce3101983d4e17/1-0000.mp3",
-          "sha256": "221e01dca251e8f62088453bf07bfac7915c57b61addefce707b9e66ed9d6dea",
+          "duration": 39.418775510204085,
+          "file": "Audio/Transport/full_npc_canaga-earthcaller-9fef107955bafa07cc62/1-0000.mp3",
+          "sha256": "226fb1a62cc3b931103ca488640bc054de78569ac3849cd70e9fe814385b1144",
           "start": 0
         }
       ],
@@ -277,21 +277,21 @@
         ]
       },
       "fullHash": "02ed12",
-      "generation": "5ed46feee2b1473eae33",
+      "generation": "b47ed60209322bc948b0",
       "hash": "64c706",
       "source": {
-        "duration": 49.998367,
+        "duration": 39.418776,
         "file": null,
-        "sha256": "9c0171ce3101983d4e1773dafe753b2e0aed280c82426663f9814e405a601cbd"
+        "sha256": "9fef107955bafa07cc626bb2588cdbcdf6c25ba52c7970d1f440960073af25bd"
       },
       "text": "Canaga Earthcaller. In the Valley of Trials, Canaga Earthcaller guides new Horde shamans toward the land's spirits and their first totems. From the red bluffs of the Valley of Trials, Canaga Earthcaller guides Darkspear trolls and orcs as they begin the shaman’s path. He teaches them to quiet their minds and listen to Kalimdor’s rumblings. Then they prepare earth sapta to commune with the spirits. Canaga sends each novice to gather sacred reagents and travel to the local spirit rock in Durotar. There, they drink earth sapta and see the elemental spirits firsthand. With his guidance, they earn their Earth Totem."
     },
     "npc:carendin-halgar": {
       "1": [
         {
-          "duration": 31.686530612244898,
-          "file": "Audio/Transport/full_npc_carendin-halgar-c479c0869e60031f4266/1-0000.mp3",
-          "sha256": "0661cc4983583d415a0aa820154cd1fb466c03893513fd419a2456d8e5a338b9",
+          "duration": 38.50448979591837,
+          "file": "Audio/Transport/full_npc_carendin-halgar-a5dc180562aa035f1d37/1-0000.mp3",
+          "sha256": "f5d1ae39f3c9f7e69516f2f52035fb213a60f2a35aacf9d342a59bc692927264",
           "start": 0
         }
       ],
@@ -303,21 +303,21 @@
         ]
       },
       "fullHash": "6ce565",
-      "generation": "d3a8ad70b2f4f49d4357",
+      "generation": "6c3a812ceeceeb3fae05",
       "hash": "6ce565",
       "source": {
-        "duration": 31.712653,
+        "duration": 38.530612,
         "file": null,
-        "sha256": "c479c0869e60031f426646fade1c879726e5c808da71d1d96085004c4ac2014b"
+        "sha256": "a5dc180562aa035f1d374c7752959dd595f5ac7989657afd5232fa16e9170685"
       },
       "text": "Carendin Halgar. In the Undercity's Magic Quarter, Carendin Halgar teaches the Forsaken dark arts. His students learn to bind demons from the Twisting Nether, including Voidwalkers and Succubi. Carendin Halgar trains warlocks in the Undercity's Magic Quarter. He demands focus and obedience, and has little patience for failure, hesitation, or weakness. His students pass beyond simple incantations to summon demons and manipulate souls. Under his direction, they learn how the Forsaken make demons serve."
     },
     "npc:chief-hawkwind": {
       "1": [
         {
-          "duration": 96.54857142857144,
-          "file": "Audio/Transport/full_npc_chief-hawkwind-8c4b5e92b5810806d98c/1-0000.mp3",
-          "sha256": "55e7aab4c388be8866b642ea6a6186097fed82de5c9a6943a33fcbdd6228f6b8",
+          "duration": 79.90857142857143,
+          "file": "Audio/Transport/full_npc_chief-hawkwind-3c4d1c96ea410411c0c3/1-0000.mp3",
+          "sha256": "4d7deb9102282b636107e89beb8f939d66f8fc369253eb0527d3e14f3c029915",
           "start": 0
         }
       ],
@@ -329,21 +329,21 @@
         ]
       },
       "fullHash": "faa69c",
-      "generation": "0bf0af1cf5a9f656e0ab",
+      "generation": "5f8c69701d5870ccbae4",
       "hash": "9d1df3",
       "source": {
-        "duration": 96.574694,
+        "duration": 79.934694,
         "file": null,
-        "sha256": "8c4b5e92b5810806d98cf735694b2d24bc73c45dbb21105c72ba047feeb0e07e"
+        "sha256": "3c4d1c96ea410411c0c31124caca5dc12c2b5ddd4cb754a9c7d7cdde55407f70"
       },
       "text": "Chief Hawkwind. At Camp Narache, Chief Hawkwind readies young Shu'halo for life beyond Red Cloud Mesa. He guides their traditional rites in Mulgore and teaches humility, respect for the land, and the strength to protect their people. At Camp Narache, Chief Hawkwind prepares young tauren for life beyond Red Cloud Mesa. Fledgling hunters, shamans, druids, and warriors undertake the ancient Rites of the Earthmother on the mesa. Hawkwind oversees their customs and teaches each youth duty and endurance before they leave its safety. Chief Hawkwind begins with humility, not martial glory. He sends initiates to fetch clean spring water and perform simple chores, teaching reverence for nature and their elders. Once they show humility, the braves face tests of martial skill. Their trials test their resolve against aggressive Bristleback quilboar encroaching on the ancestral plains. Danger presses close to Camp Narache. The Bristleback tribe grows bolder along Red Cloud Mesa's perimeter. Hawkwind coordinates the settlement's defense and sends newly proven braves to blunt quilboar assaults and keep the sacred training grounds secure."
     },
     "npc:coleman-farthing": {
       "1": [
         {
-          "duration": 96.07836734693878,
-          "file": "Audio/Transport/full_npc_coleman-farthing-44c7708dc69b3eea37bf/1-0000.mp3",
-          "sha256": "61a4777780706728f76c07c05d1b8ec327c2be0bab1e28f5f287b245442c85e9",
+          "duration": 89.78285714285714,
+          "file": "Audio/Transport/full_npc_coleman-farthing-843d9118523ecba3b63e/1-0000.mp3",
+          "sha256": "c175ac4d66c172a464e2bdc2ec838188e252f4084d2f7d790d102d2b0c875f8a",
           "start": 0
         }
       ],
@@ -355,21 +355,21 @@
         ]
       },
       "fullHash": "2c39f1",
-      "generation": "ff301e9472f1b9fde9c7",
+      "generation": "3aabc8e78d201c71d288",
       "hash": "e6c443",
       "source": {
-        "duration": 96.078367,
+        "duration": 89.80898,
         "file": null,
-        "sha256": "44c7708dc69b3eea37bf7e51daa8c40b48b145e814462a8f8a5f23e0e8ab3840"
+        "sha256": "843d9118523ecba3b63e42f57819861f32a8c3e3f5fe4ecd8eca6b60d202a0a8"
       },
       "text": "Coleman Farthing. At Brill's Gallows' End Tavern, Coleman Farthing still nurses a hatred born at the Agamand Mills. He served the wealthy Agamand dynasty in northern Tirisfal. He and the other laborers died defending their employers' estate from the Scourge. Now Forsaken, Coleman seeks vengeance on his former masters. Before the Third War, Coleman Farthing worked at the Agamand Mills, Tirisfal Glades' largest milling and agricultural operation. When the Scourge swept across Lordaeron, the aristocratic Agamand family refused to flee their valuable lands. They urged their household and laborers to take up arms, promising to hold the farmsteads against the undead horde. Coleman and his fellow workers trusted their masters and stayed. Every last one of them died. Raised into undeath, Coleman Farthing broke free into the Forsaken, but his hatred of the Agamands endured. He blames his former employers' greed and pride for luring their staff into an impossible last stand, as much as he blames the Scourge. From a tavern in Brill, he sends Horde champions to the blighted mills to kill the risen Agamand kin and plunder heirloom weapons from their family crypt. He means to strip away the last of their honor."
     },
     "npc:dalar-dawnweaver": {
       "1": [
         {
-          "duration": 75.62448979591836,
-          "file": "Audio/Transport/full_npc_dalar-dawnweaver-bcb564dea2adbb61efbf/1-0000.mp3",
-          "sha256": "04fa186fc6376c6959b040a32aa0d250a663fdc645cdfa0aaf63ef47dccc8861",
+          "duration": 86.88326530612245,
+          "file": "Audio/Transport/full_npc_dalar-dawnweaver-2a79f029cca5e1bcb484/1-0000.mp3",
+          "sha256": "b3d1303300f6ca2e306051b2d176d34e4f9a9f0659ba5de6a8ab45bf61d34726",
           "start": 0
         }
       ],
@@ -381,21 +381,21 @@
         ]
       },
       "fullHash": "b547f4",
-      "generation": "1756d38396170fddc46a",
+      "generation": "487fe8a2a09448cc8196",
       "hash": "4185b6",
       "source": {
-        "duration": 75.650612,
+        "duration": 86.909388,
         "file": null,
-        "sha256": "bcb564dea2adbb61efbf1c0594a99dda3ed4a923f3187bd28a5c96c5b1ffb6cc"
+        "sha256": "2a79f029cca5e1bcb484a972251edad03ec6a5c0e728cefe641352b7a1e3433e"
       },
       "text": "Dalar Dawnweaver. At the Sepulcher, Dalar Dawnweaver turns his arcane learning against the Forsaken’s enemies. He was an archmage of Dalaran, slain when the Scourge destroyed the city, then freed from the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end Archmage Arugal’s madness. Dalar Dawnweaver once held high rank among the Kirin Tor. He walked the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. The Scourge sacked the city to prepare for Archimonde’s summoning, and Dalar died there.\n\nRaised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now he keeps an archmage’s keen intellect at the Sepulcher and devotes it to protecting the Forsaken realm. Dalar directs the Sepulcher’s arcane strategy against the many dangers facing Silverpine Forest. To the south, Dalaran wizards occupy Ambermill, pursuing matters he means to uncover and disrupt. Closer by, feral worgen prowl the woods around Shadowfang Keep.\n\nDalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region."
     },
     "npc:darsok-swiftdagger": {
       "1": [
         {
-          "duration": 71.0530612244898,
-          "file": "Audio/Transport/full_npc_darsok-swiftdagger-4250e5e81aeb52c6b7b9/1-0000.mp3",
-          "sha256": "c7efb79906378208cf136d908b2e6283a997daee1706026b88932372f50c211a",
+          "duration": 60.31673469387756,
+          "file": "Audio/Transport/full_npc_darsok-swiftdagger-55ec30854c4352dc2444/1-0000.mp3",
+          "sha256": "fb376d45b60470afd6a47528b2f74ee1fde05fabad726f994f1ab1a5d330d91f",
           "start": 0
         }
       ],
@@ -407,21 +407,21 @@
         ]
       },
       "fullHash": "937f91",
-      "generation": "c5bcc9968b5825a388c8",
+      "generation": "1bdecbb5ef8050dbb947",
       "hash": "6cf2c8",
       "source": {
-        "duration": 71.079184,
+        "duration": 60.342857,
         "file": null,
-        "sha256": "4250e5e81aeb52c6b7b9e42ee7a194d8e0c14b4d7f9a03e9230bdf71529a8d68"
+        "sha256": "55ec30854c4352dc24440fc95e5d01cb5c7bc14797ec9f602deac1b06908eca4"
       },
       "text": "Darsok Swiftdagger. At the Crossroads, Darsok Swiftdagger keeps watch over the northern trails. The orc scout sends Horde fighters against Witchwing harpies in the Dry Hills, whose raids threaten travelers and settlements. He is also an old friend of Witch Doctor Jin'Zil in Malaka'jin. From the Crossroads, Darsok Swiftdagger watches the northern scrubland. The roads between Durotar, Mulgore, and the Barrens’ northern reaches face raiders and centaur. Organized hunters also descend from the sky. Darsok’s anger is aimed at the Witchwing harpies. Their roosts lie in the Dry Hills, northwest of the Forgotten Pools, where they threaten caravans traveling north. Far northwest of the Barrens, Darsok has an old friend: Witch Doctor Jin'Zil. Jin'Zil is a troll who lives at Malaka'jin in the Stonetalon Mountains, the land the harpies come from. Darsok sends him a letter with news of the harpy campaign. The two friends have not been in touch for many years."
     },
     "npc:deathguard-dillinger": {
       "1": [
         {
-          "duration": 56.52897959183674,
-          "file": "Audio/Transport/full_npc_deathguard-dillinger-8f2e0632c7db33213e03/1-0000.mp3",
-          "sha256": "d2c585a5953b031bd393c1d4a53cfd2a0feb673da9000f8f1c2f69c50d4f95bf",
+          "duration": 40.35918367346939,
+          "file": "Audio/Transport/full_npc_deathguard-dillinger-a530f07aafaf75b905a5/1-0000.mp3",
+          "sha256": "0428d8d03fd1d20840ffb43920610a730c4c956044258440cee6164bc645237b",
           "start": 0
         }
       ],
@@ -433,21 +433,21 @@
         ]
       },
       "fullHash": "0426bc",
-      "generation": "0beda4fac2434a1b4def",
+      "generation": "d10b30a3bfae3067eeb9",
       "hash": "cf2185",
       "source": {
-        "duration": 56.555102,
+        "duration": 40.385306,
         "file": null,
-        "sha256": "8f2e0632c7db33213e0384f51767ebb378c792d280ec1a7fb882f57c5a5ab94d"
+        "sha256": "a530f07aafaf75b905a538fb7f7d3288c68112c0def867f0e5c24ea83c84ef14"
       },
       "text": "Deathguard Dillinger. At Brill's edge, Deathguard Dillinger watches the town and guides new Forsaken arrivals. He sends recruits to drive Scourge remnants from nearby farms and mills. Deathguard Dillinger guards Brill and guides those arriving from Deathknell. At the town entrance, he points newly awakened undead toward the inn, town hall, and local trainers. Under the Dark Lady's rule, they must learn their way through a changed life. Deathguard Dillinger sends capable recruits to clear mindless Scourge from nearby farms and mills. They cull rotting ghouls and reclaim infested facilities. In doing so, they make Brill's border safer and help the fledgling Forsaken settlements endure the undead threat."
     },
     "npc:dendrite-starblaze": {
       "1": [
         {
-          "duration": 51.01714285714286,
-          "file": "Audio/Transport/full_npc_dendrite-starblaze-dc1574f853bb377c7e07/1-0000.mp3",
-          "sha256": "c9fb59d9e56191ddead47ce01c4097d837d8b1fcfb680a7f8f60890178b7cad6",
+          "duration": 58.40979591836735,
+          "file": "Audio/Transport/full_npc_dendrite-starblaze-546eb108719277e29e30/1-0000.mp3",
+          "sha256": "776857e5244b21338e50706440f3f1a36c67dd391e4b6774200c4ac9adb01261",
           "start": 0
         }
       ],
@@ -459,21 +459,21 @@
         ]
       },
       "fullHash": "2fb6f5",
-      "generation": "5606a86bcd685a5b999a",
+      "generation": "be88b2c3611f64d7fe1f",
       "hash": "e0e709",
       "source": {
-        "duration": 51.043265,
+        "duration": 58.435918,
         "file": null,
-        "sha256": "dc1574f853bb377c7e077059834df226c066b3fa77239446cb64df71cfc52501"
+        "sha256": "546eb108719277e29e30f91332565763012074955bb68e512590fe8db66f096d"
       },
       "text": "Dendrite Starblaze. In Nighthaven, Dendrite Starblaze guides druids who come to Moonglade. As a Cenarion Circle mentor, he welcomes night elf and tauren apprentices. Through him they are summoned to the holy grove to master its rites, from cleansing toxins to communing with nature's forms. When novice druids learn Teleport: Moonglade, Dendrite is among the first to greet them in Nighthaven. He follows the Cenarion Circle's calling beyond the Alliance and Horde. Night elf and tauren druids alike find kinship beneath the haven's boughs, where Kaldorei tradition meets the tauren path. Dendrite guides apprentices into nature's deeper ways. He sends them to examine tainted waters and seek herbs that can cure poison and pestilence. Then he oversees the water trials, testing their patience and endurance beneath the surface before he grants them communion with aquatic forms."
     },
     "npc:devrak": {
       "1": [
         {
-          "duration": 83.95755102040816,
-          "file": "Audio/Transport/full_npc_devrak-910e8393c03a55fdd0f4/1-0000.mp3",
-          "sha256": "569762c501ed836d1b3eacaf2b837d1ef8ab661139fe3c9c1325df6f91b0498a",
+          "duration": 72.43755102040816,
+          "file": "Audio/Transport/full_npc_devrak-f23bab3cd59be0c33049/1-0000.mp3",
+          "sha256": "40494c0ef08c73e3e122db807fe15f646578c4de772663827da1e44347e8f52e",
           "start": 0
         }
       ],
@@ -485,21 +485,21 @@
         ]
       },
       "fullHash": "d4420c",
-      "generation": "e71715152a368888db58",
+      "generation": "65dbd6dc2ed7fc951c38",
       "hash": "5e8cff",
       "source": {
-        "duration": 83.983673,
+        "duration": 72.463673,
         "file": null,
-        "sha256": "910e8393c03a55fdd0f4c114f6c6a512c22600c7c614e9e8fa7344fc992903be"
+        "sha256": "f23bab3cd59be0c33049beb0a786a3e9a20a35fbeb02acd9232f22a8d030b4e6"
       },
       "text": "Devrak. At the Crossroads, Devrak keeps the Horde’s wind riders ready for flights across Kalimdor. He carries couriers and supplies between Durotar, Mulgore, frontier outposts, and the Horde’s capitals. At the Crossroads, Devrak tends the wind riders that connect the Horde’s distant holdings. The outpost stands where Kalimdor’s major trade routes meet, exposed beneath the sun and vulnerable to quilboar, centaur, and Alliance scouts. Quick flights matter here. Devrak pairs seasoned travelers and new messengers with trained wind riders to cross the savannah and reach Mulgore’s mountains or Durotar’s stone canyons. Devrak helps move supplies from the frontier. Barrens hunters bring in meat and pelts, and he helps send them to Orgrimmar’s cooking fires and Thunder Bluff’s tanners. He introduces new couriers to flight masters across the continents, keeping an aerial route open to the Horde’s heartlands. Devrak tends more than beasts at the Crossroads. When the settlement comes under attack, he calls enraged wyverns to strike intruders with venomous stingers and talons. His roost is a dangerous target for anyone who attacks."
     },
     "npc:eitrigg": {
       "1": [
         {
-          "duration": 102.50448979591837,
-          "file": "Audio/Transport/full_npc_eitrigg-437c3249d08f18602e49/1-0000.mp3",
-          "sha256": "0182ff02e8c6102ae87a6652054e7439049d47a03b4d0020870158583f2f9c3a",
+          "duration": 121.39102040816327,
+          "file": "Audio/Transport/full_npc_eitrigg-71a2ad59b5cffcca1081/1-0000.mp3",
+          "sha256": "73fae3dac899f543a59e2cba47fb4394a719e5ce16a28acc3ff1d774a7ced549",
           "start": 0
         }
       ],
@@ -511,21 +511,21 @@
         ]
       },
       "fullHash": "aea44b",
-      "generation": "78432bc0c3087fa9b989",
+      "generation": "59337d36ebfc9ea07736",
       "hash": "bc7729",
       "source": {
-        "duration": 102.530612,
+        "duration": 121.417143,
         "file": null,
-        "sha256": "437c3249d08f18602e49addecac5faeb9c35656f7af1c582651031c82d3d192e"
+        "sha256": "71a2ad59b5cffcca10819367feca635fdf9600e0604106870bf30a19a4ff475b"
       },
       "text": "Eitrigg. In Orgrimmar, Eitrigg counsels Warchief Thrall and helps guide the Horde toward honor and shamanism. He fought in the First and Second Wars, then left the defeated Blackrock Horde and lived in exile. Born on Draenor among the Blackrock clan, Eitrigg fought for the Horde in the First and Second Wars. Defeat in the Second War made him see how far his people had fallen into bloodlust and demonic corruption. Sickened by what the Horde had become, he left its scattered remnants and sought solitude in the wilds of Lordaeron. During his exile, Eitrigg sheltered in an abandoned tower near Hearthglen. The human paladin Tirion Fordring found him, and their clash brought the tower’s ruins down around them. Eitrigg pulled the unconscious human to safety instead of finishing him. Moved by this act of martial honor, Tirion swore friendship and kept the hermit’s location secret.\n\nThe local Alliance authorities eventually captured Eitrigg and sentenced him to hang in Stratholme. Tirion cast aside his knighthood, lands, and freedom to attack the city and rescue him. Their bond showed both warriors that honor could cross the hatred between their peoples. In Stratholme, Thrall’s newly united Horde raided the city during Tirion’s attempt to free Eitrigg and carried the aging warrior away. Meeting Thrall convinced Eitrigg that the orcs were casting off demonic corruption and returning to their ancestral shamanic heritage. He crossed the Great Sea with Thrall to Kalimdor and took a revered place in Orgrimmar’s Valley of Wisdom.\n\nNow Eitrigg advises the young Warchief inside Grommash Hold. He helps evaluate new recruits and shares the wisdom he earned, so the New Horde does not repeat the tragedies of the past."
     },
     "npc:executor-arren": {
       "1": [
         {
-          "duration": 70.03428571428572,
-          "file": "Audio/Transport/full_npc_executor-arren-c841f6d79768e8bdcbc7/1-0000.mp3",
-          "sha256": "504be8b9ab972eab968ece8d1fd4a0d3fa42580d82ca121bf5ee56a0b2d9d35e",
+          "duration": 60.89142857142858,
+          "file": "Audio/Transport/full_npc_executor-arren-9ee0644c99fb0bec604f/1-0000.mp3",
+          "sha256": "2a7f99b0a11bd1b34f56a9f7e61f2b3a28b7c90159266848210fcb5e56b706e6",
           "start": 0
         }
       ],
@@ -537,21 +537,21 @@
         ]
       },
       "fullHash": "8bf13d",
-      "generation": "88fccc7ef16cd4267b15",
+      "generation": "ffbd31cabb3c3054579e",
       "hash": "659b25",
       "source": {
-        "duration": 70.060408,
+        "duration": 60.917551,
         "file": null,
-        "sha256": "c841f6d79768e8bdcbc7f84aee51b7621a84c5e05208f6bb2efc5f4112273e3c"
+        "sha256": "9ee0644c99fb0bec604f69575dd9c61df19264a077344b21966a14700ec2e94e"
       },
       "text": "Executor Arren. At Deathknell, Executor Arren rallies the settlement's defense as undead rise from their graves. He leads the fight against Scourge zombies, wild beasts, and threats to the Forsaken. Executor Arren directs Deathknell's defense from outside the chapel. In the crypts, caretakers guide the newly risen through their confusion. Arren turns their thoughts to surviving beyond the graves. Under Queen Sylvanas Windrunner's banner, he organizes the effort to clear mindless zombies from the village borders. Here, in the shadow of Lordaeron's fall, the Forsaken hold their ground. Beyond the confused newly risen, danger surrounds Deathknell. Under Arren's orders, scouts and initiates strike at vicious spiders in Night Web's Hollow and hunt predators along the woodland edges. He calls every capable hand to act. Their work tests whether new arrivals can defend their second chance and serve the Dark Lady."
     },
     "npc:executor-zygand": {
       "1": [
         {
-          "duration": 62.014693877551025,
-          "file": "Audio/Transport/full_npc_executor-zygand-f46dc936cbaf883fad77/1-0000.mp3",
-          "sha256": "48f8fbb4dd5f95b9039954ab3c6c96bbb9bd95c6e881026556d43593fb470316",
+          "duration": 59.21959183673469,
+          "file": "Audio/Transport/full_npc_executor-zygand-ff7fa175e6d2c710acd4/1-0000.mp3",
+          "sha256": "146f87455101c514112c2b0425cca5eb78648b791348c54eb25d022efdfb276f",
           "start": 0
         }
       ],
@@ -563,21 +563,21 @@
         ]
       },
       "fullHash": "40dcff",
-      "generation": "64aead555b180aedfbb2",
+      "generation": "dce08cd7a449d61708d9",
       "hash": "4fb161",
       "source": {
-        "duration": 62.040816,
+        "duration": 59.245714,
         "file": null,
-        "sha256": "f46dc936cbaf883fad77acb95651ca5979542d804fa534238f6a6bf2eca9098c"
+        "sha256": "ff7fa175e6d2c710acd4a70089a79662e4d6a80a3fea4e5268a4da6b02df8a2a"
       },
       "text": "Executor Zygand. In Brill, Executor Zygand directs the Forsaken defenses across central Tirisfal Glades. He reports to the Undercity's high command and coordinates the fight against Scarlet Crusade forces pressing into Forsaken lands. After the Forsaken awakened in Deathknell, Executor Zygand took charge of regional defenses from Brill. Officers such as Executor Arren and field sentries such as Deathguard Linnea report to him. Zygand gathers scouts' reports and sends able recruits to guard Lordaeron's borders against encroachment. The Scarlet Crusade's presence across Tirisfal Glades keeps Executor Zygand busy. He sends agents against Crusader scouts, encampments, and forward bases. That work keeps the zealots from gathering enough strength to threaten the approaches to the Undercity."
     },
     "npc:gan-rul-bloodeye": {
       "1": [
         {
-          "duration": 50.860408163265305,
-          "file": "Audio/Transport/full_npc_gan-rul-bloodeye-4fc16209af7f2ae5f16a/1-0000.mp3",
-          "sha256": "36d6fca82c54ed3025d45e19d687344eb0475fba607e0e2caa1c9abc070be6b4",
+          "duration": 63.13795918367347,
+          "file": "Audio/Transport/full_npc_gan-rul-bloodeye-d2b76d09a365cb2c1ec7/1-0000.mp3",
+          "sha256": "87bdb1c06bc772607af6bf6a514c8dd15ea5c17a4e1d6f3f3170db9eb776cc94",
           "start": 0
         }
       ],
@@ -589,21 +589,21 @@
         ]
       },
       "fullHash": "b5bed3",
-      "generation": "fb51e97b1768236545e7",
+      "generation": "080321d7c78ebf7eae51",
       "hash": "601fb2",
       "source": {
-        "duration": 50.886531,
+        "duration": 63.164082,
         "file": null,
-        "sha256": "4fc16209af7f2ae5f16a339af7818adf9f758de42b5c0e7f5b77ef06e35242bf"
+        "sha256": "d2b76d09a365cb2c1ec7f8c5a634524aae674b28d28de4d64cb02bb690ae426c"
       },
       "text": "Gan'rul Bloodeye. Beneath Orgrimmar, Gan'rul Bloodeye teaches warlocks the arts of fel magic. In the Cleft of Shadow, Horde initiates learn demonic rites and how to bend voidwalkers and succubi to their will. Warlocks study out of sight in the Cleft of Shadow beneath Orgrimmar. Warchief Thrall allows them in the new Horde, though Durotar's open sunlight is no place for their dark arts. The cavern gives shadow weavers, rogues, and fel casters room to study undisturbed. There, Gan'rul teaches those rising in the practice of fel magic. Ambitious warlocks come to Gan'rul to learn dangerous summoning rites. To bind a greater demon, such as a resilient voidwalker or a seductive succubus, they must gather ritual components and learn the precise incantations. Then the summoned creature must be dominated before it consumes its master."
     },
     "npc:gann-stonespire": {
       "1": [
         {
-          "duration": 43.2065306122449,
-          "file": "Audio/Transport/full_npc_gann-stonespire-935b75576220baf5f143/1-0000.mp3",
-          "sha256": "8e006af48326ca847e619d06048a4eada3cf0d68ffad938d6d2353b5bfed03d1",
+          "duration": 39.627755102040815,
+          "file": "Audio/Transport/full_npc_gann-stonespire-9167b94f89c94e40031a/1-0000.mp3",
+          "sha256": "c5e2752c5b59dee50fa31358f65fb4bfec07ebff81ba47e7041f350ea8bb54b8",
           "start": 0
         }
       ],
@@ -615,21 +615,21 @@
         ]
       },
       "fullHash": "45230c",
-      "generation": "ca7612d0aab5b9134518",
+      "generation": "f5f4ec40025ccde4cf71",
       "hash": "45230c",
       "source": {
-        "duration": 43.206531,
+        "duration": 39.653878,
         "file": null,
-        "sha256": "935b75576220baf5f1437f2b7479def3f40aaed36412ff7ab08bf1667f23ebc7"
+        "sha256": "9167b94f89c94e40031aaa74342540f7e30f79df34164448612290a6ad5adc9a"
       },
       "text": "Gann Stonespire. Along the southern Barrens road near Bael Modan, Gann Stonespire seeks to answer the loss of his people’s homeland. His tribe hunted there before a dwarven excavation took the land. Gann Stonespire camps beside the southern Barrens road. The dwarven expedition came from Ironforge and built Bael Modan on his tribe’s ancestral land and hunting grounds. Its miners drove the tauren from their soil with pickaxes, firearms, and heavy machinery. They refused peaceful overtures, so Gann calls on travelers to strike back at the excavators rather than surrender his heritage quietly."
     },
     "npc:gazrog": {
       "1": [
         {
-          "duration": 63.66040816326531,
-          "file": "Audio/Transport/full_npc_gazrog-7d2f9e92f774c4f37b35/1-0000.mp3",
-          "sha256": "7aab59cf13dce4e85cf749d05e29e7fe6bb4fb7f601205bd9954ab7af8eaaabf",
+          "duration": 51.77469387755102,
+          "file": "Audio/Transport/full_npc_gazrog-c60428ba2f7304b7115e/1-0000.mp3",
+          "sha256": "a9a250b6ab797d0ff503ca89f265cd0c2a09a340844cf99400edc8683a952cb8",
           "start": 0
         }
       ],
@@ -641,21 +641,21 @@
         ]
       },
       "fullHash": "f79cbd",
-      "generation": "7cea6d67b38b1d9931ca",
+      "generation": "293ee8c4b8b6c07aaa24",
       "hash": "7eb672",
       "source": {
-        "duration": 63.686531,
+        "duration": 51.800816,
         "file": null,
-        "sha256": "7d2f9e92f774c4f37b35a39f696b49f064f323c15577101f509254616e765814"
+        "sha256": "c60428ba2f7304b7115eb31f14d04fd2d3b5f09b04df8483dc3808a8e19dac48"
       },
       "text": "Gazrog. At the Crossroads, Gazrog watches the Horde’s roads and supply lines. He calls on passing Horde travelers to confront threats in the Barrens and seek lost patrols. Gazrog watches the Crossroads and the roads beyond. Marauders and beasts threaten the supplies moving through this isolated settlement, so he works with its defenders to keep cargo, coin, and couriers moving. The wilderness needs constant attention. Gazrog relies on passing travelers to answer trouble beyond the outpost’s stockades. Gazrog’s watch reaches trails where raptors prey on travelers and quilboar clans ambush scouts. He coordinates responses to highway robberies and the recovery of stolen Horde shipments. He also tracks missing soldiers, including the grunt Dogran, who is injured and held by the quilboar."
     },
     "npc:gornek": {
       "1": [
         {
-          "duration": 77.32244897959184,
-          "file": "Audio/Transport/full_npc_gornek-83a61a45a05cb970ca8a/1-0000.mp3",
-          "sha256": "7e8182ceaf1496902d2023f53b67708bcbf53e544039380ef82a6b6545efdc92",
+          "duration": 61.41387755102041,
+          "file": "Audio/Transport/full_npc_gornek-b9ee1998832e099ba0cf/1-0000.mp3",
+          "sha256": "cf1d5095efc4d3fa76cdf22261757f309f947f738b4aa0dbc35f95da6b8d0eba",
           "start": 0
         }
       ],
@@ -667,21 +667,21 @@
         ]
       },
       "fullHash": "7a83a7",
-      "generation": "fac187865d51fd28f1cc",
+      "generation": "5676835092a913a75a60",
       "hash": "49e14c",
       "source": {
-        "duration": 77.348571,
+        "duration": 61.44,
         "file": null,
-        "sha256": "83a61a45a05cb970ca8a18e0ff1dde637d97defc118649c73b30966aa82afe60"
+        "sha256": "b9ee1998832e099ba0cff6c481fe93b3fde43ab33463fda127abc7482f2da56b"
       },
       "text": "Gornek. In the Valley of Trials, Gornek oversees new orc and Darkspear troll recruits preparing to prove their worth to the New Horde. At the Valley of Trials, Gornek assesses new Horde recruits and gives them their first test of discipline. Warchief Thrall's order is clear: every youth and newcomer must earn a place through grit and perseverance. Gornek reads their introductory orders and directs them to trainers around the compound. Whether they carry an encrypted scrawl, a glyphic parchment, or a simple tablet, he receives their credentials and sends them onto a hard path of survival. The valley's arid canyons test battle skill and teach the New Horde's communal ways. Gornek keeps novices from lingering, pointing them toward nearby scorpid burrows, feral boar dens, and veteran instructors. Those who survive the training grounds and slay the threats in the red rock gullies receive his final acknowledgment. Then he sends them into Durotar's wider, perilous landscape."
     },
     "npc:gunther-arcanus": {
       "1": [
         {
-          "duration": 55.19673469387755,
-          "file": "Audio/Transport/full_npc_gunther-arcanus-db00726ab913aa689870/1-0000.mp3",
-          "sha256": "f95e3260cc85e1f99c131f666d926f42e00cf6342769bc7874f562bd9cddd31d",
+          "duration": 50.80816326530613,
+          "file": "Audio/Transport/full_npc_gunther-arcanus-bfb544eb34a75ef4cf5b/1-0000.mp3",
+          "sha256": "3599f205ca3af5cfb5c3c01083442ee112208e3d5619b66ad370454cdd642717",
           "start": 0
         }
       ],
@@ -693,21 +693,21 @@
         ]
       },
       "fullHash": "ec1bec",
-      "generation": "fd147a7a349550c4b073",
+      "generation": "85a1fe3f53a3fba35ad0",
       "hash": "ec1bec",
       "source": {
-        "duration": 55.222857,
+        "duration": 50.834286,
         "file": null,
-        "sha256": "db00726ab913aa689870705fb974a886f9c933ba6dfbd1452daa70716f1b93d8"
+        "sha256": "bfb544eb34a75ef4cf5b13badbf91bbe1f458debace37c1e20c2c4faf3b5b134"
       },
       "text": "Gunther Arcanus. On an island in Brightwater Lake, Gunther Arcanus keeps apart from others after escaping the Lich King's control. He believes every other undead remains a Scourge thrall. During the Third War, the Scourge swept across the north. The Plague of Undeath killed Gunther and raised him to serve. His mastery of the arcane and iron will let him break the Lich King's mental hold alone. He needed neither the Lich King's weakening nor Lady Sylvanas's help, as others did.\n\nBelieving every other walking corpse remained a mindless Scourge thrall, Gunther withdrew to an island in Tirisfal Glades. Shambling guardians surround him. He has cut off all contact with the living and the dead alike."
     },
     "npc:high-executor-hadrec": {
       "1": [
         {
-          "duration": 57.965714285714284,
-          "file": "Audio/Transport/full_npc_high-executor-hadrec-46e779909d5560cd832a/1-0000.mp3",
-          "sha256": "bd44373b4ac368fb6e4370dc168fb14cee30765a332c051efd7f525479d04476",
+          "duration": 60.99591836734694,
+          "file": "Audio/Transport/full_npc_high-executor-hadrec-fcec5277caacaea5fd9d/1-0000.mp3",
+          "sha256": "d47a03c20597f3dbb34ff0858bded80dd98e191c2cd330b268b1012dbee5ba85",
           "start": 0
         }
       ],
@@ -719,21 +719,21 @@
         ]
       },
       "fullHash": "d9e1ea",
-      "generation": "3ff587ab037fdc744bc1",
+      "generation": "0f1870edebc13a7f297e",
       "hash": "a2be37",
       "source": {
-        "duration": 57.991837,
+        "duration": 61.022041,
         "file": null,
-        "sha256": "46e779909d5560cd832a36458a535ba7c83415339aa2e0cb35a85bc68aa6d0cc"
+        "sha256": "fcec5277caacaea5fd9d30238227b3c7bc8bde63be8d0d8f17ac76413817ac40"
       },
       "text": "High Executor Hadrec. At the Sepulcher, High Executor Hadrec directs the Forsaken garrison across Silverpine Forest. He oversees defense against threats such as the Rot Hide gnolls and investigates scouts missing across the zone. High Executor Hadrec directs Forsaken military operations from the Sepulcher in Silverpine Forest. The Dark Lady’s forces hold Tirisfal Glades, but Silverpine faces hostile Dalaran mages, feral worgen, and encroaching gnolls. Hadrec must strengthen Forsaken control and suppress threats to Undercity authority south of the capital. The Rot Hide gnolls and Fenris Isle occupy much of Hadrec’s attention. Tainted by undeath, the beasts have overrun the Dead Fields and the shores of Lake Lordamere, threatening Forsaken patrols. Hadrec sends agents to search ruined ferries and farmsteads for clues, learn what empowers the gnolls, and prepare a strike against their island stronghold."
     },
     "npc:islen-waterseer": {
       "1": [
         {
-          "duration": 96.54857142857144,
-          "file": "Audio/Transport/full_npc_islen-waterseer-77ff5ebeb1d441d5e5e5/1-0000.mp3",
-          "sha256": "89b8e4accc90121557d42e79881ad1c45c256faf5a4d1920589cd368b49b0bd7",
+          "duration": 79.59510204081633,
+          "file": "Audio/Transport/full_npc_islen-waterseer-e945ede8d32c90d11daf/1-0000.mp3",
+          "sha256": "c62aa5169def9d3b03bd31a2a6ef9d7055f61880df506d1a1df7082ef25f1a6d",
           "start": 0
         }
       ],
@@ -745,21 +745,21 @@
         ]
       },
       "fullHash": "fd0d7e",
-      "generation": "d30382e6b19690ac6caf",
+      "generation": "702da2fc8021a08ac9cb",
       "hash": "442247",
       "source": {
-        "duration": 96.548571,
+        "duration": 79.621224,
         "file": null,
-        "sha256": "77ff5ebeb1d441d5e5e5709a14712f2007faefb647e0461d944bd26d97aef49d"
+        "sha256": "e945ede8d32c90d11dafc50bd9ab9b49056f8b98c23cf5cb83e707db236910fa"
       },
       "text": "Islen Waterseer. At the Tidus Stair, Islen Waterseer guides Horde initiates through the trials of water. The respected tauren shaman lives by a quiet fishing hut and teaches shamans to attune to water spirits as they seek their Water Totem. On the Barrens coast, Islen Waterseer keeps to the craggy Tidus Stair, where the arid plains meet the Great Sea. Water spirits are raw and near along this shore. She chose this quiet outpost over thunderous halls and busy cities, and spends her days listening to the tides. Shamans seeking communion with water come to her for guidance. A shaman needs inner harmony and spiritual sight as well as study to know water. Islen guides seekers in preparing the Water Sapta, a sacred brew that lets mortal senses perceive elemental beings. She teaches that water can be unyielding and deep, yet fluid and restorative. Anyone who calls on its aid must show it great respect. Islen lives quietly on the coast, but her spiritual ties reach across Kalimdor. She shares a close and enduring friendship with Greta Mosshoof, another wise tauren skilled in the restorative arts. Islen's knowledge of water's purifying nature reaches beyond the Barrens, bringing spiritual aid to lands afflicted by deep corruption."
     },
     "npc:kadrak": {
       "1": [
         {
-          "duration": 67.60489795918367,
-          "file": "Audio/Transport/full_npc_kadrak-2fc3db918301aab61d56/1-0000.mp3",
-          "sha256": "fe3f8b770e91d36390dc07e5a955c36b7139696ad2c93c7453ad7321799dc469",
+          "duration": 50.83428571428571,
+          "file": "Audio/Transport/full_npc_kadrak-774b7658ea4d95a35f02/1-0000.mp3",
+          "sha256": "1d11b85005fdb28ec091818f1f739fe600bb2a58cbdaa87c6eba0f11529e77d2",
           "start": 0
         }
       ],
@@ -771,21 +771,21 @@
         ]
       },
       "fullHash": "c9dd72",
-      "generation": "7fb8fd9851cd006f6da9",
+      "generation": "07380df4103519f05d34",
       "hash": "5a62d3",
       "source": {
-        "duration": 67.63102,
+        "duration": 50.860408,
         "file": null,
-        "sha256": "2fc3db918301aab61d5613700dc266fc580314bee2c5c05a949ba93891f7dd9c"
+        "sha256": "774b7658ea4d95a35f028ef0f26011c9be7446680a26a63dfb0d7ced45f580b2"
       },
       "text": "Kadrak. At the Mor'shan Rampart, Kadrak guards the northern road into Ashenvale. He sends reports and reinforcements toward the fighting between the Horde and the night elves. Kadrak watches over the main road from the Barrens into Ashenvale. The Mor'shan Rampart marks a hard border, with Horde-held plains to the south and woods guarded by night elves to the north. Sentinels and hostile woodland creatures threaten the line, so Kadrak keeps watch against incursions. Kadrak receives military reports from the Barrens and the logging camps deeper in Ashenvale. Couriers bring news from the Warsong Outriders, and he directs supplies and reinforcements to outposts such as Splintertree Post. Those who report to him are sent onward into the struggle for the forest."
     },
     "npc:magatha-grimtotem": {
       "1": [
         {
-          "duration": 61.25714285714286,
-          "file": "Audio/Transport/full_npc_magatha-grimtotem-32b02e37b293c59b2d65/1-0000.mp3",
-          "sha256": "9abe279a2e2bcc4b78508a0d2a32108a248901830d026e9b00c6ef45e003a989",
+          "duration": 78.99428571428572,
+          "file": "Audio/Transport/full_npc_magatha-grimtotem-f9b59af1ffe0218c048e/1-0000.mp3",
+          "sha256": "ace328a605bc14eab7d3cea4cd9c52d1c466f2705150365ec8a94db52d3f949f",
           "start": 0
         }
       ],
@@ -797,21 +797,21 @@
         ]
       },
       "fullHash": "5f1237",
-      "generation": "d3133c67acda1bbbfbea",
+      "generation": "bccc61c7ee0f412c7ab7",
       "hash": "ba7a6a",
       "source": {
-        "duration": 61.283265,
+        "duration": 79.020408,
         "file": null,
-        "sha256": "32b02e37b293c59b2d65b1fd9351467b7d91d6f76438ba186b1bfce2dcfe2124"
+        "sha256": "f9b59af1ffe0218c048e5164f159ebdd317d0291c10d8a08c76dd1542bdadc01"
       },
       "text": "Magatha Grimtotem. On Elder Rise, Magatha Grimtotem presses her challenge to Cairne Bloodhoof's vision for the tauren. The Grimtotem matriarch and Thunder Bluff's Elder Crone is a formidable shaman and political schemer. Magatha Grimtotem leads the Grimtotem tribe from Elder Rise, with her own retinue and bodyguards. An arranged union brought her authority, then her mate died in a climbing accident. Her reclusive tribe follows her as its political and spiritual leader. Magatha preaches tauren dominance, against Cairne Bloodhoof's vision. She sees other mortal races as intruders on Kalimdor, to be eradicated or swept aside. Though Magatha openly disdains other races, she was among the first to argue that the Forsaken should join the Horde. She says the tauren can teach the undead spiritual balance and help them reclaim their humanity. Beneath Thunder Bluff, she also works directly with the Royal Apothecary Society. There she consults figures such as Apothecary Zamah about practical alchemy and arcane relics."
     },
     "npc:magistrate-sevren": {
       "1": [
         {
-          "duration": 64.49632653061225,
-          "file": "Audio/Transport/full_npc_magistrate-sevren-4d61a7081078d4c71165/1-0000.mp3",
-          "sha256": "de17065da3f365e63a463e0e9399617e36b8c5342de3130bcdcea36f3f4244e7",
+          "duration": 57.91346938775511,
+          "file": "Audio/Transport/full_npc_magistrate-sevren-769d63eb0127d79c1539/1-0000.mp3",
+          "sha256": "50d32d3ad74e5f3b632e5689873a348f3ad25027adc1031f2937a7bd84b338c0",
           "start": 0
         }
       ],
@@ -823,21 +823,21 @@
         ]
       },
       "fullHash": "8ad99e",
-      "generation": "94c37381ab5cee9ce4a2",
+      "generation": "c08cd80e5dac0d2fc3f6",
       "hash": "3a159d",
       "source": {
-        "duration": 64.522449,
+        "duration": 57.939592,
         "file": null,
-        "sha256": "4d61a7081078d4c711652b6d086ba0fab5273d3584fd803e93e4f11cd15a0013"
+        "sha256": "769d63eb0127d79c15398634303d9c98914989888f9bb5a400f3adba06da1ec1"
       },
       "text": "Magistrate Sevren. In Brill, Magistrate Sevren directs the settlement’s defense and sends newcomers to steady the lands around the Undercity. From Brill’s town hall, Magistrate Sevren directs civil and strategic affairs north of the Undercity. New Forsaken arrive in Tirisfal Glades to find local troubles waiting. Sevren sends them to restore order, secure ruined places, and suppress threats in the surrounding hills. The dead of Tirisfal and their burial grounds are chief concerns for Magistrate Sevren. Scourge-aligned Rot Hide gnolls, graverobbers, and rogue undead threaten the graves and Sylvanas Windrunner’s growing dominion. Sevren seeks to reclaim ancestral tombs such as the Agamand Family Crypt. He also keeps deserters and uncooperative forces from undermining Forsaken authority."
     },
     "npc:mangletooth": {
       "1": [
         {
-          "duration": 57.83510204081633,
-          "file": "Audio/Transport/full_npc_mangletooth-36b5d3afd1e182321d3f/1-0000.mp3",
-          "sha256": "257e9959de535fba5c4135d4e2f37d464b4f31765c5e3bdd1d1607d8ba1b1420",
+          "duration": 49.52816326530613,
+          "file": "Audio/Transport/full_npc_mangletooth-11f32d06d23ce3704b08/1-0000.mp3",
+          "sha256": "2c70ec6b922da9c3848009857c44a48bb92e6ffe096dc982f01d1ca92a2e9b7f",
           "start": 0
         }
       ],
@@ -849,21 +849,21 @@
         ]
       },
       "fullHash": "f19f94",
-      "generation": "2bb6d3993af217bf4271",
+      "generation": "82ff2e539d1f48c1b0c7",
       "hash": "89fc01",
       "source": {
-        "duration": 57.835102,
+        "duration": 49.554286,
         "file": null,
-        "sha256": "36b5d3afd1e182321d3f30784343f0a0649c236fd6338738cae9c59fc173f872"
+        "sha256": "11f32d06d23ce3704b0873b47454329672337957b68f7afb08f2086dae394995"
       },
       "text": "Mangletooth. At Camp Taurajo, Mangletooth bargains from a Horde cage while execution awaits. He offers knowledge of his rivals and the ancient lore of Agamaggan in exchange for help. Tauren hunters and orc sentries hold Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, yet still tries to sway his captors and the Horde visitors who come to him. He urges them to strike his tribe’s enemies, hoping to prove his worth or win his freedom. Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan’s spilled blood gave rise to the Barrens’ massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels their lingering divine power, granting ancient blessings to those who help him."
     },
     "npc:master-apothecary-faranell": {
       "1": [
         {
-          "duration": 64.54857142857144,
-          "file": "Audio/Transport/full_npc_master-apothecary-faranell-22c51b18d369a0043f48/1-0000.mp3",
-          "sha256": "0717811efe1b0b63f602196edf2561a79563b6ab1b4d9f3ea51c48db8856a6ae",
+          "duration": 75.72897959183673,
+          "file": "Audio/Transport/full_npc_master-apothecary-faranell-ab3ee38dfa795a94f8ab/1-0000.mp3",
+          "sha256": "5845fd31494f557255b02cc388acfc1c945b4820565b8f33f2047b7d4517ae38",
           "start": 0
         }
       ],
@@ -875,21 +875,21 @@
         ]
       },
       "fullHash": "a8207f",
-      "generation": "72260a7ab03936ee7ab6",
+      "generation": "5dbf4c0c15750c4f9cac",
       "hash": "9c1246",
       "source": {
-        "duration": 64.574694,
+        "duration": 75.755102,
         "file": null,
-        "sha256": "22c51b18d369a0043f488da2b95f556776f1f87cc6ffd494b820a0eb57001550"
+        "sha256": "ab3ee38dfa795a94f8ab05fa9b1b1193d8940df9044b9a4cb3060b77d5bcfce3"
       },
       "text": "Master Apothecary Faranell. In the Undercity, Faranell directs the Royal Apothecary Society from the depths of the Apothecarium. Once a respected Dalaran scholar, he now leads the Forsaken’s search for a New Plague to destroy the Scourge and the living. Before the Third War, Faranell spent decades studying alchemy beside Dalaran’s learned mages. In life, he sought cures, remedies, and potions to better mortal health. The Scourge plague killed him, but he rose again as a free-willed Forsaken. His curiosity turned cruel, and healing salves gave way to catastrophic reagents. His vast knowledge made him one of Queen Sylvanas Windrunner’s most valued researchers in the depths of Lordaeron’s fallen capital. From the Apothecarium, Faranell directs the Royal Apothecary Society’s far-reaching research. He oversees the making of lumbering abominations and guides apothecaries stationed throughout Lordaeron and beyond. Field researchers gather strange venom, tainted blood, and cursed flora across the continents. Each batch goes into his vats for distillation and refinement."
     },
     "npc:master-gadrin": {
       "1": [
         {
-          "duration": 118.1257142857143,
-          "file": "Audio/Transport/full_npc_master-gadrin-f312b0f9d5e802d663f9/1-0000.mp3",
-          "sha256": "77a2b5e6f75414e8b66d6d18e4f479514d1c47a3022cba28d89b78ee2c3d8a9f",
+          "duration": 94.22367346938776,
+          "file": "Audio/Transport/full_npc_master-gadrin-366cc78d4be50296e33a/1-0000.mp3",
+          "sha256": "bc3c1466daa50eb7e59ad6bb5560fcaf28fa0a7d89a73564365926f99ec2481a",
           "start": 0
         }
       ],
@@ -901,21 +901,21 @@
         ]
       },
       "fullHash": "caf746",
-      "generation": "1c2ee531ab13436c8acc",
+      "generation": "fcbe256d2c0bab4bcc09",
       "hash": "745add",
       "source": {
-        "duration": 118.151837,
+        "duration": 94.223673,
         "file": null,
-        "sha256": "f312b0f9d5e802d663f97cf3adb6783e8000b66e67c93a911d83eb677b8ad7e2"
+        "sha256": "366cc78d4be50296e33a039659338a609cdb33dd0c79a2f536b2f03433df67f4"
       },
       "text": "Master Gadrin. In Sen'jin Village, Master Gadrin guides the Darkspear through exile and grief. Once a teacher of priests and mages, he now serves his people and seeks to lift the dark curse over their home on the Echo Isles. Before the Darkspear came to Kalimdor, Master Gadrin guided his people across generations in the South Seas. He served as a witch doctor on their island home and taught the tribe its mystical ways. On the Echo Isles, Master Gadrin trained the tribe's priests and mages with the young witch doctor Zalazane. But the dark voodoo Zalazane sought to wield took hold of him, and madness followed. He enslaved his people's minds and drove Vol'jin and the uncorrupted Darkspear to Durotar's mainland.\n\nNow Gadrin lives in Sen'jin Village with the grief of seeing his companion become a tyrant. He works to lay slain tribesfolk to rest and bring Zalazane's rule to an end. Master Gadrin knows more of troll spiritualism and loa lore than almost anyone alive in the Horde. Scholars, shamans, and the Royal Apothecary Society seek his counsel on arcane and alchemical mysteries. When the Burning Blade threatens Durotar or distant researchers need forgotten rites, Gadrin draws on that knowledge.\n\nHe sends adventurers to Zul'Farrak to read the tablet bearing Shadra the spider loa's true name. Then he crafts the binding the rite requires."
     },
     "npc:mebok-mizzyrix": {
       "1": [
         {
-          "duration": 105.29959183673469,
-          "file": "Audio/Transport/full_npc_mebok-mizzyrix-1dcd2a8a296bf1b86cc3/1-0000.mp3",
-          "sha256": "e34c0d6a13905758680983ba7c736ebdb65c32ecf9e6c7543c37f53a7f183896",
+          "duration": 76.90448979591837,
+          "file": "Audio/Transport/full_npc_mebok-mizzyrix-4c8a12bf5d38caaca821/1-0000.mp3",
+          "sha256": "9c9c5ffb7cbf70233291b0b5bd746522fd1b894e0cd2a6e78d586695fbb97439",
           "start": 0
         }
       ],
@@ -927,21 +927,21 @@
         ]
       },
       "fullHash": "294492",
-      "generation": "f848dcc6cacfcd459c4c",
+      "generation": "1c49e01c6bf3324680c7",
       "hash": "b2c0d1",
       "source": {
-        "duration": 105.325714,
+        "duration": 76.930612,
         "file": null,
-        "sha256": "1dcd2a8a296bf1b86cc347def6bee0f5ce9b336a4678fb6309421d00363aa156"
+        "sha256": "4c8a12bf5d38caaca821fdf88ad23017591f49bffbac556fe0966e1b4556d994"
       },
       "text": "Mebok Mizzyrix. In Ratchet, Mebok Mizzyrix hires travelers to gather strange finds across the Barrens and beyond. This goblin entrepreneur hopes to turn unusual plants and creatures into profit. His best-known venture is a drink made with raptor horns, meant to sharpen the mind. Mebok Mizzyrix works from Ratchet, a neutral port where sailors, pirates and merchants meet. He carries the Steamwheedle spirit of seizing every chance for profit. Rather than deal in ore or cloth, he seeks rare creatures and plants from Kalimdor’s wilds. He believes they can be made into valuable brews and goods. Mebok’s chief venture is a drink he hopes will boost the drinker’s intellect. He believes the cunning and ferocity of local raptors come from the horns on their snouts. So he hires hunters to bring him whole horns from across the Barrens. Ethics and taste matter less to him than the chance to sell a brew customers believe works. Mebok also seeks strange specimens beyond raptor horns. He wants volatile Deepmoss spider eggs and rare Blueleaf tubers buried in the brambles of Razorfen Kraul. These commissions send mercenaries into dangerous country. Mebok believes any creature or plant with strange properties can be bottled and sold."
     },
     "npc:melor-stonehoof": {
       "1": [
         {
-          "duration": 67.91836734693878,
-          "file": "Audio/Transport/full_npc_melor-stonehoof-e408812b9bcf7adccb65/1-0000.mp3",
-          "sha256": "1c3df8ac7b259b19736934dad0f65e909f735a77e97a0799b1ef8ccca5b9af48",
+          "duration": 73.74367346938776,
+          "file": "Audio/Transport/full_npc_melor-stonehoof-06626753bae31cfc5a20/1-0000.mp3",
+          "sha256": "a4d45603675df625edc637880a0cc44b64adaa76b6b85323187126f8429d2f73",
           "start": 0
         }
       ],
@@ -953,21 +953,21 @@
         ]
       },
       "fullHash": "63866b",
-      "generation": "98a03d3d617a0176a895",
+      "generation": "72add281b9d6ce755450",
       "hash": "a9a451",
       "source": {
-        "duration": 67.94449,
+        "duration": 73.743673,
         "file": null,
-        "sha256": "e408812b9bcf7adccb65d7ef7dd5e4674cdd825b9b60cb8e0ca5e12702c519f7"
+        "sha256": "06626753bae31cfc5a2037ccdf22c65466cb090cc104597822178cffd9407b66"
       },
       "text": "Melor Stonehoof. On Hunter Rise in Thunder Bluff, Melor Stonehoof sends Horde hunters to face dangerous beasts. Their trials across the Barrens and Thousand Needles test tracking and mettle. From Hunter Rise in Thunder Bluff, Melor Stonehoof watches the plains. To the tauren, hunting joins survival with spiritual balance and respect for nature’s greatest predators. He teaches Horde bowmen and bladesmen to honor that balance, sending promising stalkers to test their craft against legendary beasts. Melor sends hunters after elusive beasts that threaten the wilds. In the Barrens, they aid Sergra Darkthorn at the Crossroads. Then they pursue Steelsnap, a cunning and vicious hyena in Thousand Needles. These trials show whether hunters can outsmart and outfight central Kalimdor’s deadliest creatures. Those who prove their skill in the Barrens face beasts in distant lands. Melor sends seasoned hunters after Deadmire, an ancient crocolisk in the swamps of Dustwallow Marsh, and Frostmaw, a savage yeti in the Alterac Mountains. Each hunt tests whether a stalker has mastered the Hunter’s Way."
     },
     "npc:menara-voidrender": {
       "1": [
         {
-          "duration": 84.34938775510204,
-          "file": "Audio/Transport/full_npc_menara-voidrender-9ac7f97fed772d86b63d/1-0000.mp3",
-          "sha256": "9f77cf6ff5c94568faeb4f467b1bd0bc000e24d567c1545991e208512bf6248a",
+          "duration": 75.46775510204083,
+          "file": "Audio/Transport/full_npc_menara-voidrender-59c366c9662522afbb12/1-0000.mp3",
+          "sha256": "1384b3374f158c002342f29f0e30792a149096c5fad66e99bb086bb09497f076",
           "start": 0
         }
       ],
@@ -979,21 +979,21 @@
         ]
       },
       "fullHash": "fa5510",
-      "generation": "5215f7a1db39624be787",
+      "generation": "68a181e31e796716c432",
       "hash": "c6949f",
       "source": {
-        "duration": 84.37551,
+        "duration": 75.493878,
         "file": null,
-        "sha256": "9ac7f97fed772d86b63d453ef633180f776ca69be1714ed275cd95153b511a7e"
+        "sha256": "59c366c9662522afbb12f85166e6a0a7350e6ebb22760791fe200222b8095894"
       },
       "text": "Menara Voidrender. In Ratchet, Menara Voidrender teaches warlocks of both factions the dark arts. From this refuge in Kalimdor, the human warlock shares her knowledge of demon-binding artifacts and arcane craft, far from orthodox authorities. Menara Voidrender works from Ratchet, the neutral goblin port in the Barrens. Many warlocks in the Eastern Kingdoms study in cellars or hidden slaughterhouses beneath their cities. Ratchet keeps Menara far from the Kirin Tor, Stormwind's guards, and Orgrimmar's overseers, so she can pursue occult studies in plain sight. She teaches any capable apprentice, whatever their faction, and gives practitioners of the dark arts a rare place to meet. Veteran conjurers know Menara as an authority on orbs that imprison and harness demonic spirits. She works with intricate reagents and guides apprentices through demanding rituals to make enchanted attire and binding implements. Her skill is known as far as Ironforge and the Undercity. Senior warlocks across Azeroth send their most promising students across the sea to seek her counsel."
     },
     "npc:morin-cloudstalker": {
       "1": [
         {
-          "duration": 62.4065306122449,
-          "file": "Audio/Transport/full_npc_morin-cloudstalker-4224dddda359f3a663ce/1-0000.mp3",
-          "sha256": "a672f8064f396055116c26502282601cc2ef6b6ede4d9bee476e0a824a99e06d",
+          "duration": 43.46775510204082,
+          "file": "Audio/Transport/full_npc_morin-cloudstalker-5572075ee0175041ee06/1-0000.mp3",
+          "sha256": "2922b97f9915d8b58c765c8476e77ad10f1ddee403026da49cbfc78aa22359fd",
           "start": 0
         }
       ],
@@ -1005,21 +1005,21 @@
         ]
       },
       "fullHash": "def469",
-      "generation": "66d0f2a1d7c9cb9be16e",
+      "generation": "74c97f37018edc075869",
       "hash": "c9dc97",
       "source": {
-        "duration": 62.432653,
+        "duration": 43.493878,
         "file": null,
-        "sha256": "4224dddda359f3a663cee8bddc58850e50a8133c0b8a9dccdbd6b7b1a8313e88"
+        "sha256": "5572075ee0175041ee064eab681c073f98143e8de40314ac2c507086febb24d5"
       },
       "text": "Morin Cloudstalker. Along the eastern road from Bloodhoof Village, Morin Cloudstalker keeps watch over Mulgore. The tauren scout follows trade routes and investigates dangers to travelers. Morin Cloudstalker watches the trail east toward the Barrens. He scouts the road and guards travelers crossing Mulgore. The plains are usually peaceful, but shifting territories and busy trade routes have brought opportunists and bandits near the tauren homeland. Morin's scouts attacked and burned a Venture Co. caravan on Stonebull Lake's northern shore. Goblin salvagers soon appeared by the wagons. So Morin sent adventurers to inspect the surviving supply crates and learn what the Venture Co. had been hauling."
     },
     "npc:mull-thunderhorn": {
       "1": [
         {
-          "duration": 49.65877551020408,
-          "file": "Audio/Transport/full_npc_mull-thunderhorn-f9b38e936a6c12c23e2b/1-0000.mp3",
-          "sha256": "63b6c1e03aa4916b4a453fd356b572f3d515a0c32a3e76d25124841dc25c6888",
+          "duration": 33.61959183673469,
+          "file": "Audio/Transport/full_npc_mull-thunderhorn-9c31a48b66d36196691c/1-0000.mp3",
+          "sha256": "f5797d52c85755903698cb82cee5e53467ffb19f044dd74fc132bef8c3851ee0",
           "start": 0
         }
       ],
@@ -1031,21 +1031,21 @@
         ]
       },
       "fullHash": "a88e3c",
-      "generation": "5d62325411526564df3c",
+      "generation": "c96afba51a3975d5cc7b",
       "hash": "a88e3c",
       "source": {
-        "duration": 49.684898,
+        "duration": 33.645714,
         "file": null,
-        "sha256": "f9b38e936a6c12c23e2b33a4bbee424164ff31db17612584dd9e51c9c3574cda"
+        "sha256": "9c31a48b66d36196691c8b57593aae96f432b40d300cc25091b90254e3a41ec1"
       },
       "text": "Mull Thunderhorn. In Bloodhoof Village, Mull Thunderhorn keeps Mulgore’s sacred wells and the land’s balance. He serves the Earth Mother and guides young tauren as outside exploitation threatens the ancestral springs. From Bloodhoof Village, Mull Thunderhorn watches over Mulgore’s spiritual well-being. The nomadic tribes have gathered under High Chieftain Cairne Bloodhoof to make a permanent home, but greed and reckless expansion already threaten their lands. So Mull guides young braves setting out from Camp Narache and calls on them to guard their ancestors’ vital resources."
     },
     "npc:orgnil-soulscar": {
       "1": [
         {
-          "duration": 39.57551020408163,
-          "file": "Audio/Transport/full_npc_orgnil-soulscar-483d3ea9496585c0095b/1-0000.mp3",
-          "sha256": "ffc82bbf0119358a2a1975fd11ba8e842db6c0b79d5ed0af6375d6b01d5b4afe",
+          "duration": 32.02612244897959,
+          "file": "Audio/Transport/full_npc_orgnil-soulscar-a415f1affd3a783fa7be/1-0000.mp3",
+          "sha256": "851979735c25084eb3d44cd1205fb5c92c01d2c2dbe51a543396362979ff2ce7",
           "start": 0
         }
       ],
@@ -1057,21 +1057,21 @@
         ]
       },
       "fullHash": "ae1db4",
-      "generation": "53b4d6301daf5822a4c8",
+      "generation": "517290289f8c469cd904",
       "hash": "ae1db4",
       "source": {
-        "duration": 39.57551,
+        "duration": 32.052245,
         "file": null,
-        "sha256": "483d3ea9496585c0095b1dbc107ece5fa25931c6741b5834c454628ae3015d03"
+        "sha256": "a415f1affd3a783fa7bee6e13e7bf88fbe2dc50b213f333fdcb844fc67128b72"
       },
       "text": "Orgnil Soulscar. At Razor Hill, Orgnil Soulscar watches for danger among the orcs of Durotar. He gathers reports and helps direct defenses, with the Burning Blade cult in the canyons foremost in his thoughts. Orgnil Soulscar watches for hidden threats across Durotar from Razor Hill. Grunt patrols guard against Alliance forces and centaur raiders, while he searches for danger among the orcs themselves. Scouts bring reports from across the region. Orgnil studies them for signs of corrupt rites and secret gatherings."
     },
     "npc:shadow-priest-allister": {
       "1": [
         {
-          "duration": 66.50775510204082,
-          "file": "Audio/Transport/full_npc_shadow-priest-allister-6f33dd1e22f3035117f2/1-0000.mp3",
-          "sha256": "d8ff48f7ca3f50c3aff7231bac5a88c93baebc7c0ba2ea12ca371ed6f7390ab7",
+          "duration": 73.82204081632653,
+          "file": "Audio/Transport/full_npc_shadow-priest-allister-619fb4b003c69ee25a55/1-0000.mp3",
+          "sha256": "63aee6a1cc9047930b33daa370ab77e6c2556a85352306279926e1213e5f944c",
           "start": 0
         }
       ],
@@ -1083,21 +1083,21 @@
         ]
       },
       "fullHash": "87bed3",
-      "generation": "6d42835ffa57cb8d1096",
+      "generation": "2d31c2e33b856b22ad1d",
       "hash": "2322b9",
       "source": {
-        "duration": 66.507755,
+        "duration": 73.848163,
         "file": null,
-        "sha256": "6f33dd1e22f3035117f237b0669f1539ea0422437856a1c1fb858e61dfb1e688"
+        "sha256": "619fb4b003c69ee25a55ca2ce362d03abb5123d33e2e7d8c76dcd89c4b95a2c9"
       },
       "text": "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Allister commands the Forsaken scouts who range out from the Sepulcher, the main settlement on the Silverpine road. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor."
     },
     "npc:shadow-priest-sarvis": {
       "1": [
         {
-          "duration": 63.76489795918368,
-          "file": "Audio/Transport/full_npc_shadow-priest-sarvis-c59cefdb7b2649d4b28e/1-0000.mp3",
-          "sha256": "5633abb84be3ddd968aa0702143860b71d8608b9acd1fef86816ed2ca67225a8",
+          "duration": 48.87510204081633,
+          "file": "Audio/Transport/full_npc_shadow-priest-sarvis-9141ee37a20be39624e7/1-0000.mp3",
+          "sha256": "da8848dc806c75109f96a45acb132cc09df7a878d1a5bfbf0955933addc4c878",
           "start": 0
         }
       ],
@@ -1109,12 +1109,12 @@
         ]
       },
       "fullHash": "a437e8",
-      "generation": "f0f087550ea48beb3142",
+      "generation": "af056a5663db67701caa",
       "hash": "e2b908",
       "source": {
-        "duration": 63.79102,
+        "duration": 48.901224,
         "file": null,
-        "sha256": "c59cefdb7b2649d4b28ed554cb8c98e990678d7bd88bbe6d77b1f60b8ee0f719"
+        "sha256": "9141ee37a20be39624e7b2446b54f3d1e6f671b28f5dfb0d0856f030cc4b2917"
       },
       "text": "Shadow Priest Sarvis. In Deathknell's ruined chapel, Shadow Priest Sarvis gives the newly awakened Forsaken purpose and direction. In Deathknell, Shadow Priest Sarvis guides Forsaken who have just risen from their graves. The awakening can be harsh and frightening. Some lose their minds to frenzy or despair, so Sarvis gives the newly risen a purpose. He sends them to put down the mindless corpses roaming the cemetery and guard Deathknell's borders against the Scourge. Shadow Priest Sarvis directs Deathknell's defenses against threats in Tirisfal Glades. Scourge forces test the town's perimeter, so Sarvis sends novices to gather vital intelligence and face trials of arms. The Forsaken must hold Deathknell against those forces."
     },
@@ -1147,9 +1147,9 @@
     "npc:shenthul": {
       "1": [
         {
-          "duration": 49.76326530612245,
-          "file": "Audio/Transport/full_npc_shenthul-9094b3589026eb273c29/1-0000.mp3",
-          "sha256": "a16134297a4c0d78622938a0e6f70f2ebcd4e44d5ef751510b73aa4b996c75ad",
+          "duration": 56.86857142857143,
+          "file": "Audio/Transport/full_npc_shenthul-48492d6eaf60c49e77f5/1-0000.mp3",
+          "sha256": "42efa27f9ff14d058d36249c225397a89f0441fc3d382a5272baaab8d7be5488",
           "start": 0
         }
       ],
@@ -1161,21 +1161,21 @@
         ]
       },
       "fullHash": "882db3",
-      "generation": "9a53b8f4bce0c0849b8e",
+      "generation": "65ec9687114c37ab1cb9",
       "hash": "22f6dc",
       "source": {
-        "duration": 49.789388,
+        "duration": 56.894694,
         "file": null,
-        "sha256": "9094b3589026eb273c2962b283c23717b6d24ea1306a3210db93c909fd477e15"
+        "sha256": "48492d6eaf60c49e77f52df6cb1700011c013d64d910082cb7062e889cf9f8df"
       },
       "text": "Shenthul. In Orgrimmar's Cleft of Shadow, Shenthul trains rogues for the Shattered Hand. He guides covert work across Kalimdor and brings promising rogues into its ranks. Shenthul teaches rogues in Orgrimmar's Cleft of Shadow. Warriors and shamans march openly across Durotar, but his students learn stealth, ambush, and subterfuge. They train in fieldcraft and lethal arts for work in Kalimdor's harsh wilderness and unforgiving politics. Shenthul speaks for the Shattered Hand, once an orcish clan and now the Horde's intelligence network and secret service. He calls it a watchful presence across Kalimdor, investigating, judging, and carrying out its own sentences. The order follows its own course through shifting politics. It existed before Warchief Thrall took power and will endure after him."
     },
     "npc:sputtervalve": {
       "1": [
         {
-          "duration": 106.71020408163265,
-          "file": "Audio/Transport/full_npc_sputtervalve-1ec6d4489c69e2a412d5/1-0000.mp3",
-          "sha256": "0515b92665739543bd1d9dcb797544bc66a7149f39d2453db35a6388c57cf33c",
+          "duration": 88.29387755102042,
+          "file": "Audio/Transport/full_npc_sputtervalve-3569692d3f6d3fd89074/1-0000.mp3",
+          "sha256": "9da58b1d803ae5d3191971f0b15fae447c082f291c8d263846f24658c0b69502",
           "start": 0
         }
       ],
@@ -1187,21 +1187,21 @@
         ]
       },
       "fullHash": "4ab2d9",
-      "generation": "bd960d26d768b7dabd0b",
+      "generation": "1dfc15721221d0b456ce",
       "hash": "5b5869",
       "source": {
-        "duration": 106.736327,
+        "duration": 88.32,
         "file": null,
-        "sha256": "1ec6d4489c69e2a412d548aff58688105048931a35af5194c7ee5af7facf0a5c"
+        "sha256": "3569692d3f6d3fd890742346ba8e1647a3a217717a7b235693529d04c8216740"
       },
       "text": "Sputtervalve. In Ratchet, Sputtervalve races to finish shredder research for the Tinkers' Union. Director Riddlevox sets crushing deadlines, so Sputtervalve hires adventurers to steal designs from the rival Venture Company. In Ratchet, goblin engineer Sputtervalve answers to Director Riddlevox of the Tinkers' Union. He oversees shredder development, and the work has grown brutal. Mechanization moves fast, the Venture Company presses hard, and his own prototypes are few. With the deadline near, Sputtervalve fears admitting failure to the Union. So he turns to a familiar goblin practice: stealing better designs from those who made them first. The Venture Company's drilling operation at the Sludge Fen, to the northwest, is Sputtervalve's chief target. Its latest shredders have interchangeable hands, refined control grips, and advanced inner workings. Among them is the elusive samophlange. Sputtervalve sent his associate Wizzlecrank into the Fen for field research, but Wizzlecrank became trapped. Now Sputtervalve hires wandering mercenaries to recover the stolen technology and rescue his partner. Sputtervalve also helps with strange curiosities found in the Barrens. Adventurers sometimes bring him bizarre artifacts corrupted in the Wailing Caverns, such as a glowing shard. Though machinery is his trade, he knows the local land well. He points those who bring him such things toward the isolated druids encamped above the caverns."
     },
     "npc:strahad-farsan": {
       "1": [
         {
-          "duration": 77.08734693877551,
-          "file": "Audio/Transport/full_npc_strahad-farsan-4f95b045f34860e8bfa3/1-0000.mp3",
-          "sha256": "60203879abc6cb4fe93aeee8cbcbab037a4d0576fd4fc6f12fedea873d73ee19",
+          "duration": 70.0865306122449,
+          "file": "Audio/Transport/full_npc_strahad-farsan-404808d807b4217913e7/1-0000.mp3",
+          "sha256": "dadb4f9ecb70ab6121ebe78bc56cb3f5b6b346e664c30bbd35eb97996b0ad179",
           "start": 0
         }
       ],
@@ -1213,21 +1213,21 @@
         ]
       },
       "fullHash": "c6221a",
-      "generation": "2c6c4098fe507280e3ab",
+      "generation": "06e117899a36e508a195",
       "hash": "cb26a9",
       "source": {
-        "duration": 77.113469,
+        "duration": 70.112653,
         "file": null,
-        "sha256": "4f95b045f34860e8bfa3d27e51bf592dac2680b1f6feac18213c3e1743b829e3"
+        "sha256": "404808d807b4217913e71281ed26a7a7a094ec615ae16a6aa80789b28782f966"
       },
       "text": "Strahad Farsan. Above Ratchet, Strahad Farsan teaches warlocks to bind demons. The human warlock lives in a stone tower in the Barrens, beyond the reach of Alliance and Horde politics. Students of fel magic travel from Stormwind, Orgrimmar, and the Undercity to learn from him. Strahad Farsan keeps to a stone tower on the bluffs above Ratchet. The goblin port is neutral ground, far from Alliance magistrates and Horde shamans. There he practices dangerous summonings and studies the Twisting Nether. His acolytes gather around him, while struggles over territory continue below. Strahad learned the danger of demonic binding firsthand. His first attempt to bind a felhunter nearly cost him his life. Since then, he has been cautious and exacting. Though human, he has earned the respect of Gakin the Darkbinder in Stormwind and demonic scholars in the Undercity and Orgrimmar. Warlocks from either faction seeking to command felhunters or fiery steeds are sent to his tower."
     },
     "npc:sylvanas-windrunner": {
       "1": [
         {
-          "duration": 71.65387755102041,
-          "file": "Audio/Transport/full_npc_sylvanas-windrunner-613ccdd9ce20ee415ad1/1-0000.mp3",
-          "sha256": "71bd72c3071ec89fae24f3d3c117485ba97cf952e089445db14145daec9b4790",
+          "duration": 79.83020408163266,
+          "file": "Audio/Transport/full_npc_sylvanas-windrunner-57d55af2fb8e07e24d81/1-0000.mp3",
+          "sha256": "acbea908c9974ee16c52c46e2b16ba8114b735ea0fe9cd13a2efca4f5b2bf5b7",
           "start": 0
         }
       ],
@@ -1239,21 +1239,21 @@
         ]
       },
       "fullHash": "c349c3",
-      "generation": "dea41654914b06461842",
+      "generation": "3a061e6cedd68b8132a6",
       "hash": "c2c158",
       "source": {
-        "duration": 71.68,
+        "duration": 79.856327,
         "file": null,
-        "sha256": "613ccdd9ce20ee415ad13cc6e6260df426d17f3eceaf106b3603e83714ab84bc"
+        "sha256": "57d55af2fb8e07e24d819caa5e9283bfff3c66274bf0ffadf0c91f7ec0bf389d"
       },
       "text": "Sylvanas Windrunner. Beneath Lordaeron's ruins, Sylvanas Windrunner rules the Forsaken from the Undercity. Once Silvermoon's Ranger-General, she was slain and raised by Arthas Menethil, then broke free of the Lich King's control. She joined Thrall's Horde to secure her people's future and seeks vengeance on the Scourge. Sylvanas Windrunner commanded Quel'Thalas's defense as Silvermoon's Ranger-General. When Prince Arthas Menethil led the Scourge into the high elven kingdom for the Sunwell, she fought to stop him. Angered by her resistance, Arthas murdered her and denied her a clean death. He tore her soul from her body and made her a vengeful banshee, forcing her to serve the Scourge and help slaughter her own people. After the Third War, the Lich King's weakening grip freed Sylvanas, and she reclaimed her preserved body. She gathered other undead who had regained their free will, then drove the dreadlords from Lordaeron's ruins. She named her people the Forsaken and made the Undercity their realm beneath the ruins.\n\nThe Forsaken faced Scourge remnants, zealous Scarlet crusaders, and wary human realms. They needed allies, so Sylvanas made an uneasy alliance with Warchief Thrall and the Horde."
     },
     "npc:telf-joolam": {
       "1": [
         {
-          "duration": 61.17877551020408,
-          "file": "Audio/Transport/full_npc_telf-joolam-83dc08c32df3dcd9d025/1-0000.mp3",
-          "sha256": "6475a7bdb098f89e6cb259a6592fd97bd0b3f0ab1e2dbfda517d8c3b947ef933",
+          "duration": 52.21877551020408,
+          "file": "Audio/Transport/full_npc_telf-joolam-19c109834dac014a7b22/1-0000.mp3",
+          "sha256": "592a4c816abc65af81be31a1579094754afba45b2339f026eb26dd510e9a0883",
           "start": 0
         }
       ],
@@ -1265,21 +1265,21 @@
         ]
       },
       "fullHash": "66741a",
-      "generation": "f7c2dd58f6ee9228e094",
+      "generation": "af56bd932f2a366286d5",
       "hash": "5ffcf3",
       "source": {
-        "duration": 61.204898,
+        "duration": 52.244898,
         "file": null,
-        "sha256": "83dc08c32df3dcd9d025c08f81e69eceea475eec12a2db3a6bb0f78d6e47190c"
+        "sha256": "19c109834dac014a7b22f9ef694750538255389c774f0cb7f3ca00b54aeb696d"
       },
       "text": "Telf Joolam. At the Shrine of the Dormant Flame, Telf Joolam guides Horde initiates in the ways of fire. The Darkspear shaman teaches them to commune with and command this volatile element. Among the crags above the borderlands, Telf Joolam tends the Shrine of the Dormant Flame. Fire spirits call for sharp discipline and a steady mind. Earth offers calm certainty, and water asks for patience. Telf prepares young shamans for trials where wild embers can consume the unready. Under Telf's guidance, initiates brew and drink a ritual Fire Sapta. It opens their mortal eyes to the unseen elemental planes. Then he sends them up the rocky summits to face burning spirits. Those who earn the flame must honor its ravenous hunger and master their pride."
     },
     "npc:thork": {
       "1": [
         {
-          "duration": 55.32734693877551,
-          "file": "Audio/Transport/full_npc_thork-b07a1fe9bd505a2a48a4/1-0000.mp3",
-          "sha256": "e9b90be8ea1e7cab9140c2d76ed71b7505d66d2a00eddfdbac4d55c86851572f",
+          "duration": 49.502040816326534,
+          "file": "Audio/Transport/full_npc_thork-531f54d5ffdafdf765ca/1-0000.mp3",
+          "sha256": "b67b9101b348b760ab10069a05bb323210e58074adc500aadd769fa92f005f86",
           "start": 0
         }
       ],
@@ -1291,21 +1291,21 @@
         ]
       },
       "fullHash": "c80807",
-      "generation": "d661ab6b913e5c1eb010",
+      "generation": "76e379f225a57e5f2db3",
       "hash": "b4da80",
       "source": {
-        "duration": 55.353469,
+        "duration": 49.528163,
         "file": null,
-        "sha256": "b07a1fe9bd505a2a48a406e7a0addf3f57d1a28fbd850bd40b659ef727cbdbe4"
+        "sha256": "531f54d5ffdafdf765cada80c97170bc513d0a56bc51636ced48bcc3cc056d04"
       },
       "text": "Thork. At the Crossroads, Thork watches the defenses and keeps supply routes open. He calls on Horde adventurers when raiders threaten the settlement. Thork commands the Crossroads defenses, where roads link Durotar, Mulgore, and lands beyond. Threats press from every side. Quilboar raids, centaur attacks, and harpies on the prowl stretch his forces thin. So Thork calls on capable travelers to meet dangers his guards cannot handle alone. Thork’s watch reaches beyond the Crossroads walls. He sends scouts and messengers north to the Mor’shan Rampart, where they report to Kadrak. The northern and eastern routes carry supplies through the Barrens. Keeping those roads open sustains the Horde’s presence across the scrublands."
     },
     "npc:thotar": {
       "1": [
         {
-          "duration": 63.58204081632653,
-          "file": "Audio/Transport/full_npc_thotar-508e97e0e2c5d7575cae/1-0000.mp3",
-          "sha256": "dbc73ae6b6c5c4b34d43f9f3102db7bf6e882f34ff98755169f32cf8b608aafd",
+          "duration": 51.74857142857143,
+          "file": "Audio/Transport/full_npc_thotar-68dc5b537c01ecac7d20/1-0000.mp3",
+          "sha256": "db705441c5741fffc751ccb8afe9a27f603eeca15a9497f8fc9b82e160cbf866",
           "start": 0
         }
       ],
@@ -1317,21 +1317,21 @@
         ]
       },
       "fullHash": "7f83dd",
-      "generation": "6b712095aeea181da3a3",
+      "generation": "aa07019edf9bd18eaaba",
       "hash": "04d3c4",
       "source": {
-        "duration": 63.608163,
+        "duration": 51.774694,
         "file": null,
-        "sha256": "508e97e0e2c5d7575cae8313ca2fe267f5702703b1f2a34ef55612911b3f8e65"
+        "sha256": "68dc5b537c01ecac7d20ff769f6825a46d074848c4e7420b80751dc7d32b7d22"
       },
       "text": "Thotar. In Razor Hill, Thotar prepares young Horde hunters for Durotar’s wilds. Orcs and trolls come to him after leaving the Valley of Trials to learn tracking and beast taming. Thotar trains Horde hunters in Razor Hill for the wilderness of Durotar. After learning the basics in the Valley of Trials, new recruits come to him to face more dangerous predators. He teaches marksmanship and the respect needed to live alongside and direct Kalimdor’s deadliest creatures. Orcs have passed these traditions down through generations. Thotar sends young hunters into arid canyons to learn the ancient art of taming beasts. There, they calm and bond with native creatures, from venomous scorpids and armored surf crawlers to cunning boars. His lessons teach Horde trackers to build a bond with nature instead of relying on force."
     },
     "npc:thrall": {
       "1": [
         {
-          "duration": 110.57632653061225,
-          "file": "Audio/Transport/full_npc_thrall-12a0f52d5f2f40aec5d5/1-0000.mp3",
-          "sha256": "fb30a87c9451d049c5f9ad679a7b03613300a1621a3b1445606fe4752861b2de",
+          "duration": 125.36163265306124,
+          "file": "Audio/Transport/full_npc_thrall-4a3b97764d9c107ec715/1-0000.mp3",
+          "sha256": "2acce1526b36db8a7ff981fbeefeff87d6800c0db63a5f3417a7ee6b69af9208",
           "start": 0
         }
       ],
@@ -1343,21 +1343,21 @@
         ]
       },
       "fullHash": "43a35b",
-      "generation": "2cfea1caf7e1374814fe",
+      "generation": "a9cedee4687b6d4417dc",
       "hash": "e81f33",
       "source": {
-        "duration": 110.602449,
+        "duration": 125.361633,
         "file": null,
-        "sha256": "12a0f52d5f2f40aec5d51b90facb7f827b14a0d935801d1b707b4c4b45af0712"
+        "sha256": "4a3b97764d9c107ec7158f95f0266474764e209c72b5980744d165fd85271703"
       },
       "text": "Thrall. In Orgrimmar, Thrall rules as Warchief of the Horde and ruler of Durotar. Once a human slave raised to fight in the arena, he freed his people, restored their shamanic ways, and led them across the Great Sea to a new homeland. Thrall was born Go'el to Durotan, chieftain of the Frostwolf, and Draka. Gul'dan's assassins murdered his parents while he was an infant. Human commander Aedelas Blackmoore found him and named him Thrall, meaning slave. At Durnholde Keep, Blackmoore raised him to fight in the arena and taught him human tactics.\n\nWith help from his foster sister Taretha Foxton, Thrall escaped. Drek'Thar, an exiled Frostwolf, led him away from demonic corruption and taught him to master the elemental spirits. Thrall became the first orcish shaman of a new generation. After the Second War, Thrall joined Orgrim Doomhammer in freeing the orcs held in Alliance internment camps. Doomhammer fell in battle and gave Thrall his black plate armor and mighty warhammer, naming him Warchief. Then the mysterious Prophet Medivh brought prophetic visions. Thrall led his people aboard captured human ships across the Great Sea to Kalimdor, escaping the doom that was falling upon the Eastern Kingdoms. In Kalimdor, Thrall remade the Horde from a force of war into an alliance built on survival and honor. He rescued Vol'jin's Darkspear trolls and joined forces with Cairne Bloodhoof's tauren. Together with human and night elf forces, they defeated the Burning Legion atop Mount Hyjal.\n\nThrall founded Durotar and its capital, Orgrimmar, named for his father and mentor. He keeps an uneasy peace with Jaina Proudmoore's Theramore while defending his fragile nation and weighing controversial alliances, including the Forsaken of Lordaeron."
     },
     "npc:tonga-runetotem": {
       "1": [
         {
-          "duration": 73.66530612244898,
-          "file": "Audio/Transport/full_npc_tonga-runetotem-a3b4826a20a93332a496/1-0000.mp3",
-          "sha256": "7816c175b0c06b36583e8eac78be1685a7275c953e8ab4adf858e9fb7c54bb53",
+          "duration": 73.82204081632653,
+          "file": "Audio/Transport/full_npc_tonga-runetotem-a6106ce4d7ff677cffe6/1-0000.mp3",
+          "sha256": "e972bcb10e200ae9086e24c7a10d7c8b07f4bea2bb83a4bc6c68ef1ac84c7fa7",
           "start": 0
         }
       ],
@@ -1369,21 +1369,21 @@
         ]
       },
       "fullHash": "68ba10",
-      "generation": "c11fe810ef46d14ccfd6",
+      "generation": "0f859ca6072619e4c630",
       "hash": "a0d213",
       "source": {
-        "duration": 73.665306,
+        "duration": 73.848163,
         "file": null,
-        "sha256": "a3b4826a20a93332a496193b7f6166fd015c8a72da4dcc50520da5ae3db9cdec"
+        "sha256": "a6106ce4d7ff677cffe6dc45f54c6f7e796810575cf71c2efd8729bb68670123"
       },
       "text": "Tonga Runetotem. At the Crossroads, Tonga Runetotem seeks the sickness harming the Barrens' oases. Sent from Thunder Bluff, the tauren druid studies the corruption spreading through the region's wildlife before the fragile ecosystem fails. At the Crossroads, Tonga Runetotem studies the changing land of the Barrens. His elders sent him from Mulgore, and he knows the dry savannah well. Travelers see scrub and predators, but Tonga watches for signs of the land's health. Lately, those signs have grown troubling. He seeks travelers to help investigate the scattered oases, the heart of life across the savannah. Tonga bears the Runetotem clan name and the druidic heritage championed by Archdruid Hamuul Runetotem. Hamuul keeps ties with the Cenarion Circle and studies in Moonglade's sacred groves, while scouts like Tonga serve on the frontier. Tonga draws on Moonglade's botanical wisdom to prepare healing salves and counter poisons. His work puts the young tauren druidic tradition to use within the fledgling Horde."
     },
     "npc:turak-runetotem": {
       "1": [
         {
-          "duration": 89.44326530612246,
-          "file": "Audio/Transport/full_npc_turak-runetotem-a8bb6a2760d409276902/1-0000.mp3",
-          "sha256": "7b77682c643830385f28943d7db1730de297931d8554ce9cbb3b5955e3d62356",
+          "duration": 105.9265306122449,
+          "file": "Audio/Transport/full_npc_turak-runetotem-115601b4ffb78c47bbea/1-0000.mp3",
+          "sha256": "08482fe7faabb33421f0f8f04aeb21f4b3d56addd224d739089bd87a27bd9c42",
           "start": 0
         }
       ],
@@ -1395,21 +1395,21 @@
         ]
       },
       "fullHash": "4972f2",
-      "generation": "6014e2ed5da41e33b442",
+      "generation": "ed9af645a0e45f6db9a9",
       "hash": "80cfa9",
       "source": {
-        "duration": 89.469388,
+        "duration": 105.952653,
         "file": null,
-        "sha256": "a8bb6a2760d4092769022cf604c1cbcedd9efbe071200daac2cc26700779ff4e"
+        "sha256": "115601b4ffb78c47bbea07daa74e60d779cccec29cd07cb1bebf2ed5ec9ec7be"
       },
       "text": "Turak Runetotem. In Thunder Bluff, Turak Runetotem guides young tauren toward nature and balance. From the Hall of Elders on Elder Rise, he assists Archdruid Hamuul Runetotem and leads novices through trials to commune with spirits and master animal forms. In the Hall of Elders atop Thunder Bluff’s Elder Rise, Turak Runetotem guides those who seek the druid’s path. He assists Archdruid Hamuul Runetotem in bringing the ancient druidic arts back among the tauren. Turak teaches that a druid honors the Earthmother’s will. Strength of body must rest upon spiritual respect and harmony with nature. When fledgling druids are ready for animal forms, Turak sends them into the wider world. He teaches them to join the Cenarion Circle and travel by teleportation across Kalimdor to Moonglade. Turak remembers his own first communion with the Great Bear Spirit as bewildering and intense. To test his students’ courage, he sends them to face Lunaclaw and win the strength of body and heart required for the Path of the Claw. Turak teaches more than the primal forms of combat. He sends his disciples to Dendrite Starblaze to study poison, and Dendrite sends them to help animals poisoned near the Crossroads. Even Turak is surprised by the rash of poisonings.\n\nTurak also guides novices through arduous rites beneath the tides, where they awaken their aquatic form. These trials shape them into protectors able to heal Azeroth’s deepest wounds."
     },
     "npc:varimathras": {
       "1": [
         {
-          "duration": 69.12,
-          "file": "Audio/Transport/full_npc_varimathras-f8b2888425b7a327a4ca/1-0000.mp3",
-          "sha256": "63e23ee93194855a7315afd63d1da5c3822b378408ced5bfd45eae23ff8c9586",
+          "duration": 85.36816326530612,
+          "file": "Audio/Transport/full_npc_varimathras-145b05aa5448d2c07308/1-0000.mp3",
+          "sha256": "f3cb37ad99108438f9b306208412923748d480bf549ccca35d4fc5e8231e7f59",
           "start": 0
         }
       ],
@@ -1421,21 +1421,21 @@
         ]
       },
       "fullHash": "fd95ea",
-      "generation": "0705ae5e2acc27f1f532",
+      "generation": "ecae6a408409fb70b0f4",
       "hash": "be061f",
       "source": {
-        "duration": 69.12,
+        "duration": 85.394286,
         "file": null,
-        "sha256": "f8b2888425b7a327a4ca5c9a36f856a4a380c3b8051851c75b27f3b65b9261b3"
+        "sha256": "145b05aa5448d2c073080dafba9558ba3042b6b7c4158b486ee0784be81dedd0"
       },
       "text": "Varimathras. In the Royal Quarter, Varimathras advises Lady Sylvanas Windrunner and commands her forces. After defeat in Lordaeron's civil war, he pledged himself to the Banshee Queen and now serves at her right hand. Before the Third War, Kil'jaeden sent Varimathras and his fellow dreadlords to guard the Lich King. They were to ensure Ner'zhul's spirit served the Legion's plans. With his brothers Detheroc and Balnazzar, Varimathras oversaw the Scourge in Lordaeron while Archimonde invaded Kalimdor.\n\nThe Legion fell at Mount Hyjal, but the three dreadlords stayed entrenched in the Capital City's ruins. They learned of their master's defeat only when Prince Arthas returned and drove them into hiding. As the Lich King's hold over his undead weakened, Varimathras tried to make the newly freed banshee Sylvanas Windrunner serve the dreadlords' new regime. Sylvanas refused and rallied liberated undead to destroy his outpost. Facing execution, Varimathras begged for his life and offered tactical secrets, including knowledge of his brothers' fortifications. Sylvanas spared him and bound him to her service as a weapon against his kin."
     },
     "npc:vol-jin": {
       "1": [
         {
-          "duration": 73.06448979591838,
-          "file": "Audio/Transport/full_npc_vol-jin-7e290b40702030772b56/1-0000.mp3",
-          "sha256": "4bdfc25da01d5d9a1e3ecd312cc83ac10f499e14bb837689a5c4e44bd2476862",
+          "duration": 60.969795918367346,
+          "file": "Audio/Transport/full_npc_vol-jin-de2825fdd1441c6a389e/1-0000.mp3",
+          "sha256": "878c69aba2186cea79a68e86f3887714351faa655e44f2d9d7584988a0018491",
           "start": 0
         }
       ],
@@ -1447,21 +1447,21 @@
         ]
       },
       "fullHash": "406764",
-      "generation": "b545180090ba1291b1e2",
+      "generation": "991dadd5cbda588cb18d",
       "hash": "d0e9dc",
       "source": {
-        "duration": 73.090612,
+        "duration": 60.995918,
         "file": null,
-        "sha256": "7e290b40702030772b563e0ee125f6bc6764245593310f776495009e41802c84"
+        "sha256": "de2825fdd1441c6a389eadbb04bbc814a7bffde9db35518d22ff26d8d1a9fc05"
       },
       "text": "Vol'jin. In Orgrimmar, Vol'jin counsels Warchief Thrall and seeks a lasting home for his people. The Darkspear chieftain is a master shadow hunter. After his father Sen'jin dies on their ancestral island, Vol'jin leads the Darkspear. Sea witch-worshipping murlocs and human forces nearly destroy the isolated tribe. Thrall's orcs intervene, and a deep bond forms between the orcs and trolls. Fleeing the ruined islands, Vol'jin pledges his people to the New Horde and leads them across the Great Sea to Kalimdor. The Darkspear settle in Durotar, but Zalazane betrays them on the Echo Isles. Many refugees flee to the mainland and Sen'jin Village. Vol'jin spends much of his time in Grommash Hold in Orgrimmar, giving Thrall strategic counsel and the benefit of his shadow hunter skill. From the orcish capital, he watches over the young Horde and works to reclaim his people's lands."
     },
     "npc:yaw-sharpmane": {
       "1": [
         {
-          "duration": 51.226122448979595,
-          "file": "Audio/Transport/full_npc_yaw-sharpmane-ced5884cab922a3a514c/1-0000.mp3",
-          "sha256": "6b04f161282d82f362d2e16a2904852d94d2d83965b90e9e09babc0f6cafeddb",
+          "duration": 34.66448979591837,
+          "file": "Audio/Transport/full_npc_yaw-sharpmane-3e7ef3feaca43ee73c53/1-0000.mp3",
+          "sha256": "bf5f4bbcc5bfe4ae2f3d4de6dcc768a0ef6e2c097d46d0a214176dc2ab993515",
           "start": 0
         }
       ],
@@ -1473,12 +1473,12 @@
         ]
       },
       "fullHash": "c0c82e",
-      "generation": "28b56c189a66ba5a3c87",
+      "generation": "d16fc2a185c1c38687ad",
       "hash": "b315d3",
       "source": {
-        "duration": 51.252245,
+        "duration": 34.690612,
         "file": null,
-        "sha256": "ced5884cab922a3a514c06f910da8426faddd9c0a2521ecb5f55a1de099e24a0"
+        "sha256": "3e7ef3feaca43ee73c53c40b1e27408bee179def8919a14babd23cf21505a374"
       },
       "text": "Yaw Sharpmane. Bloodhoof Village is where Yaw Sharpmane teaches young tauren hunters. He shows them how to track, survive, and tame Mulgore's wild beasts. Yaw Sharpmane teaches marksmanship, tracking, and survival in Bloodhoof Village. Young hunters who have proven themselves in Red Cloud Mesa come to him to hone their skills before they venture onto Mulgore's wider plains. Yaw Sharpmane guides new hunters through the ancient rite of taming wild beasts. He asks them to bond with Mulgore's native animals, testing their patience and respect for nature's balance. Then he teaches them to care for and train a lasting companion."
     },
@@ -5148,82 +5148,40 @@
       1396,
       1558
     ],
-    "0182ff02e8c6102ae87a6652054e7439049d47a03b4d0020870158583f2f9c3a": [
-      264,
-      530,
-      764,
-      987,
-      1252,
-      1422,
-      1657,
-      1820,
-      2075,
-      2308,
-      2516,
-      2717,
-      3024,
-      3268,
-      3488,
-      3649
-    ],
     "02a10bd47e76fdabd8a9e82bbb7c4540f524ad4a9a0e55efb757d9701d148844": [
       265,
       561,
       714,
       917
     ],
-    "04fa186fc6376c6959b040a32aa0d250a663fdc645cdfa0aaf63ef47dccc8861": [
-      207,
-      463,
-      680,
-      828,
-      1029,
-      1251,
-      1576,
-      1831,
-      2071,
-      2335,
-      2534,
-      2684
-    ],
-    "0515b92665739543bd1d9dcb797544bc66a7149f39d2453db35a6388c57cf33c": [
-      302,
-      664,
-      926,
-      1097,
-      1276,
-      1433,
-      1843,
-      2037,
-      2267,
-      2426,
-      2774,
-      3150,
-      3344,
-      3580,
-      3748
-    ],
-    "0661cc4983583d415a0aa820154cd1fb466c03893513fd419a2456d8e5a338b9": [
-      219,
-      460,
-      609,
-      845,
-      1048
-    ],
-    "0717811efe1b0b63f602196edf2561a79563b6ab1b4d9f3ea51c48db8856a6ae": [
-      231,
-      521,
-      780,
-      951,
-      1123,
-      1334,
-      1623,
-      1851,
-      2097
+    "0428d8d03fd1d20840ffb43920610a730c4c956044258440cee6164bc645237b": [
+      206,
+      381,
+      541,
+      762,
+      930,
+      1159
     ],
     "07c5310f2d5e510a46b652058d5874ac487602345ffac8f4a368ed1f039fe288": [
       778,
       1458
+    ],
+    "08482fe7faabb33421f0f8f04aeb21f4b3d56addd224d739089bd87a27bd9c42": [
+      256,
+      742,
+      893,
+      1062,
+      1331,
+      1482,
+      1706,
+      1943,
+      2217,
+      2455,
+      2817,
+      2970,
+      3338,
+      3503,
+      3706
     ],
     "09960c6436fc5f5862d916cc4af112ba0b4e73656a770c1ed32d44c4493877cb": [
       232,
@@ -5311,6 +5269,27 @@
       1411,
       1596
     ],
+    "1384b3374f158c002342f29f0e30792a149096c5fad66e99bb086bb09497f076": [
+      232,
+      641,
+      1113,
+      1377,
+      1516,
+      1840,
+      2111,
+      2454,
+      2620
+    ],
+    "146f87455101c514112c2b0425cca5eb78648b791348c54eb25d022efdfb276f": [
+      297,
+      542,
+      677,
+      963,
+      1227,
+      1525,
+      1776,
+      2009
+    ],
     "149fdc6335319723430fa2efd9c7443a00b55d573e43e72e9f5b1b4b51a51611": [
       336,
       1167,
@@ -5356,13 +5335,6 @@
       1494,
       1731
     ],
-    "180da784be95cedbd39d002a39fdb61516b17a208a2b9e8b098fe647927a46a4": [
-      190,
-      408,
-      846,
-      1146,
-      1481
-    ],
     "1883c63482bac67042dddf121ae928f2c3be3e11c047a10b63fc93af28656a19": [
       184,
       386,
@@ -5407,18 +5379,14 @@
       2188,
       2447
     ],
-    "1c3df8ac7b259b19736934dad0f65e909f735a77e97a0799b1ef8ccca5b9af48": [
-      243,
-      431,
-      614,
-      854,
-      1162,
-      1324,
-      1472,
-      1665,
-      1907,
-      2071,
-      2443
+    "1d11b85005fdb28ec091818f1f739fe600bb2a58cbdaa87c6eba0f11529e77d2": [
+      211,
+      444,
+      611,
+      822,
+      1222,
+      1435,
+      1781
     ],
     "1e227097fd9d2f475e76a9cf54302e0de01b24eba3ffa16f5e9a24af6fb7458c": [
       193,
@@ -5453,27 +5421,12 @@
     "205a3c8d002a00f14506139105b09c2581e40deb1f8e1898bd5b94f63f3c4d61": [
       810
     ],
-    "221e01dca251e8f62088453bf07bfac7915c57b61addefce707b9e66ed9d6dea": [
-      176,
-      488,
-      628,
-      789,
-      1088,
-      1255,
-      1410,
-      1545
-    ],
-    "22be310215fd26605f0e633483dcad53d21097e8dff3147c70de9f76ee06135c": [
-      300,
-      494,
-      642,
-      831,
-      1068,
-      1300,
-      1445,
-      1753,
-      2014,
-      2183
+    "226fb1a62cc3b931103ca488640bc054de78569ac3849cd70e9fe814385b1144": [
+      325,
+      641,
+      802,
+      951,
+      1191
     ],
     "22ff5ebd021b13a8c218c5e5c0f6d9428d80d127e900e85252e4bc0dbb192381": [
       179,
@@ -5510,17 +5463,6 @@
       1251,
       1633
     ],
-    "257e9959de535fba5c4135d4e2f37d464b4f31765c5e3bdd1d1607d8ba1b1420": [
-      298,
-      556,
-      762,
-      898,
-      1113,
-      1370,
-      1597,
-      1788,
-      1981
-    ],
     "25ac6ec3b40475a808699ba4bec84b189466fb06b0bdb88f8bcc11f76b563874": [
       405,
       962,
@@ -5530,20 +5472,6 @@
       332,
       913,
       1283
-    ],
-    "2692095eb7d68217c00502791a5dbe5b020ba2d8b204dd4409d7c4f6e31c2c1b": [
-      193,
-      480,
-      628,
-      897,
-      1104,
-      1359,
-      1571,
-      1734,
-      1906,
-      2117,
-      2379,
-      2573
     ],
     "26ac1a831fc490503371aaad1092b76539888a3beeeaa7bb13da4c363e7837b6": [
       729,
@@ -5560,24 +5488,59 @@
       646,
       1218
     ],
+    "2922b97f9915d8b58c765c8476e77ad10f1ddee403026da49cbfc78aa22359fd": [
+      229,
+      418,
+      567,
+      713,
+      1049,
+      1277
+    ],
+    "2a7f99b0a11bd1b34f56a9f7e61f2b3a28b7c90159266848210fcb5e56b706e6": [
+      265,
+      513,
+      697,
+      883,
+      1026,
+      1296,
+      1509,
+      1671,
+      1997
+    ],
+    "2acce1526b36db8a7ff981fbeefeff87d6800c0db63a5f3417a7ee6b69af9208": [
+      233,
+      650,
+      823,
+      1029,
+      1236,
+      1487,
+      1678,
+      2006,
+      2182,
+      2483,
+      2686,
+      2927,
+      3151,
+      3319,
+      3612,
+      3846,
+      4097,
+      4247
+    ],
+    "2c70ec6b922da9c3848009857c44a48bb92e6ffe096dc982f01d1ca92a2e9b7f": [
+      217,
+      434,
+      632,
+      930,
+      1162,
+      1367,
+      1528
+    ],
     "2efcaea742a509e6be7a0673469abdb7a1aba6e9b942d9789fa4b1a71ad52501": [
       399,
       699,
       1014,
       1331
-    ],
-    "2fc9b218a2cadb8e304e0610db056e9793b7af94fec1bc424b2cc9025dbcece5": [
-      219,
-      523,
-      727,
-      915,
-      1174,
-      1469,
-      1692,
-      2036,
-      2231,
-      2509,
-      2730
     ],
     "30b218e634b9b3958c88fbc844d5315dd177c287d77b6495e7775270a8d1a917": [
       186,
@@ -5587,12 +5550,6 @@
       1124,
       1294,
       1439
-    ],
-    "31677f3272c336cdbd8171d929b922f419066b51d2b2977cd20e69981104b7d4": [
-      387,
-      609,
-      751,
-      908
     ],
     "33b70d430b1f29bc32fd52f1eff18c236db5140d433641905a928c4d9a6c73d6": [
       556,
@@ -5612,6 +5569,16 @@
       1957,
       2155,
       2322
+    ],
+    "3599f205ca3af5cfb5c3c01083442ee112208e3d5619b66ad370454cdd642717": [
+      348,
+      513,
+      680,
+      836,
+      1074,
+      1253,
+      1523,
+      1677
     ],
     "35eb53e6b6a9c851039d7383b4261baff5c0074d397c7d0aa6cd474a0a907b53": [
       197,
@@ -5640,17 +5607,6 @@
       3009,
       3250,
       3477
-    ],
-    "36d6fca82c54ed3025d45e19d687344eb0475fba607e0e2caa1c9abc070be6b4": [
-      201,
-      483,
-      633,
-      877,
-      1088,
-      1256,
-      1413,
-      1615,
-      1782
     ],
     "37d707fcac004b2f62e8b2d99f42440c9533ccf457aef32aff155934e3fc16bb": [
       140,
@@ -5714,6 +5670,17 @@
       1433,
       1693
     ],
+    "40494c0ef08c73e3e122db807fe15f646578c4de772663827da1e44347e8f52e": [
+      222,
+      518,
+      731,
+      881,
+      1103,
+      1544,
+      1922,
+      2075,
+      2210
+    ],
     "40c72ee462b90b7319781a3bde1daa4670435fb1e035be35e7affd936977f3bb": [
       255,
       448,
@@ -5761,6 +5728,18 @@
       585,
       1119,
       1637
+    ],
+    "42efa27f9ff14d058d36249c225397a89f0441fc3d382a5272baaab8d7be5488": [
+      220,
+      469,
+      631,
+      779,
+      949,
+      1220,
+      1391,
+      1538,
+      1714,
+      1977
     ],
     "435950262cbdca9def9c78cd15de97544f7662b9b6ec55cb4b78f22155822263": [
       198,
@@ -5856,25 +5835,6 @@
       1444,
       1938
     ],
-    "48f8fbb4dd5f95b9039954ab3c6c96bbb9bd95c6e881026556d43593fb470316": [
-      394,
-      755,
-      1048,
-      1320,
-      1626,
-      1871,
-      2116
-    ],
-    "4984a185f4f76356885247d2511c6212299bf658eaa7386fbfdeb866f0804058": [
-      167,
-      406,
-      601,
-      772,
-      1140,
-      1393,
-      1563,
-      1861
-    ],
     "49fc7660bdb2abcc7d165150fc1211aee4ba60a465da73674a8ec544c9baf605": [
       268,
       623,
@@ -5906,17 +5866,18 @@
       702,
       1541
     ],
-    "4bdfc25da01d5d9a1e3ecd312cc83ac10f499e14bb837689a5c4e44bd2476862": [
-      258,
-      565,
-      732,
-      1108,
-      1349,
-      1693,
-      1949,
-      2129,
-      2271,
-      2536
+    "4d7deb9102282b636107e89beb8f939d66f8fc369253eb0527d3e14f3c029915": [
+      269,
+      439,
+      605,
+      846,
+      1155,
+      1443,
+      1616,
+      1806,
+      1987,
+      2374,
+      2675
     ],
     "4f0b322c3e101afedc8d95c108336034bd42a0d25cbd9637192a351e93dec452": [
       676,
@@ -5930,19 +5891,15 @@
       755,
       910
     ],
-    "504be8b9ab972eab968ece8d1fd4a0d3fa42580d82ca121bf5ee56a0b2d9d35e": [
-      136,
-      271,
-      481,
-      626,
-      797,
-      993,
-      1141,
-      1433,
-      1645,
-      1836,
-      2092,
-      2366
+    "50d32d3ad74e5f3b632e5689873a348f3ad25027adc1031f2937a7bd84b338c0": [
+      190,
+      364,
+      643,
+      847,
+      1161,
+      1391,
+      1745,
+      1969
     ],
     "519888cd8f5142817c2f0e495fd36a01d1336f143912e6e0ab260451d96c64cd": [
       192,
@@ -5986,53 +5943,11 @@
       895,
       1327
     ],
-    "55e7aab4c388be8866b642ea6a6186097fed82de5c9a6943a33fcbdd6228f6b8": [
-      169,
-      404,
-      668,
-      858,
-      1093,
-      1445,
-      1781,
-      2002,
-      2140,
-      2351,
-      2564,
-      2890,
-      3093,
-      3245
-    ],
     "55f4969d9b9d174aabbd4fb2dea6e85c84a75b17c955630bc121e62b4e771eab": [
       678,
       1103,
       1493,
       1901
-    ],
-    "5633abb84be3ddd968aa0702143860b71d8608b9acd1fef86816ed2ca67225a8": [
-      270,
-      566,
-      705,
-      883,
-      1158,
-      1322,
-      1499,
-      1646,
-      1938,
-      2287
-    ],
-    "569762c501ed836d1b3eacaf2b837d1ef8ab661139fe3c9c1325df6f91b0498a": [
-      310,
-      446,
-      635,
-      883,
-      1037,
-      1293,
-      1776,
-      1916,
-      2238,
-      2566,
-      2718,
-      3038
     ],
     "57556b52c5f3c921953489fa955affb00e276db59ae7475c3963fb231f031a5e": [
       707,
@@ -6043,6 +5958,18 @@
       472,
       1175,
       1713
+    ],
+    "5775fe69766f309acc4a542ccf3cc0e3b6079c300f1aa7fbea8ce76c16db84c9": [
+      305,
+      589,
+      758,
+      970,
+      1113,
+      1289,
+      1607,
+      1787,
+      2045,
+      2234
     ],
     "57fa2f4c1aa6edd31a6085297ddacb0c9aaa6bb034a0026503d4d4c0e10f750f": [
       359,
@@ -6055,6 +5982,16 @@
       1846,
       2063
     ],
+    "5845fd31494f557255b02cc388acfc1c945b4820565b8f33f2047b7d4517ae38": [
+      286,
+      653,
+      919,
+      1119,
+      1875,
+      2145,
+      2443,
+      2607
+    ],
     "58f15dde8e5ce3765e49485c4ddac2b6f3c1e245feef8a1fe0974ca5aa047f2a": [
       266,
       450,
@@ -6063,6 +6000,16 @@
       1185,
       1383,
       1619
+    ],
+    "592a4c816abc65af81be31a1579094754afba45b2339f026eb26dd510e9a0883": [
+      252,
+      478,
+      713,
+      865,
+      1272,
+      1492,
+      1644,
+      1794
     ],
     "5b01a03aff824072a0cb23497577591f6864ea004cff64367ee5fee31f998ba9": [
       138,
@@ -6098,19 +6045,6 @@
       1946,
       2115
     ],
-    "60203879abc6cb4fe93aeee8cbcbab037a4d0576fd4fc6f12fedea873d73ee19": [
-      153,
-      327,
-      610,
-      894,
-      1084,
-      1494,
-      1704,
-      1873,
-      2090,
-      2269,
-      2564
-    ],
     "602f4ffc90a83ab7cd546f83c81328a99604e931ac81775117f241327080c60a": [
       183,
       406,
@@ -6135,23 +6069,6 @@
       1093,
       1363
     ],
-    "61a4777780706728f76c07c05d1b8ec327c2be0bab1e28f5f287b245442c85e9": [
-      196,
-      433,
-      608,
-      821,
-      1046,
-      1247,
-      1432,
-      1773,
-      1912,
-      2071,
-      2350,
-      2584,
-      2841,
-      2994,
-      3175
-    ],
     "62048078a9d12c2ffb5ab48ea6d22eb0dec19b7200ac8465425eef73e22f7477": [
       310,
       527,
@@ -6174,44 +6091,24 @@
       746,
       1282
     ],
-    "63b6c1e03aa4916b4a453fd356b572f3d515a0c32a3e76d25124841dc25c6888": [
-      210,
-      456,
-      765,
-      931,
-      1069,
-      1329,
-      1520
-    ],
-    "63e23ee93194855a7315afd63d1da5c3822b378408ced5bfd45eae23ff8c9586": [
-      337,
-      507,
-      741,
-      877,
-      1162,
-      1397,
-      1609,
-      1949,
-      2128,
-      2471
+    "63aee6a1cc9047930b33daa370ab77e6c2556a85352306279926e1213e5f944c": [
+      259,
+      471,
+      777,
+      1068,
+      1230,
+      1427,
+      1590,
+      1864,
+      2060,
+      2219,
+      2627
     ],
     "6461d9f00358e1fbfa295beb936228972b4324cb779508c9adc900a0dda50b2e": [
       284,
       687,
       1280,
       1595
-    ],
-    "6475a7bdb098f89e6cb259a6592fd97bd0b3f0ab1e2dbfda517d8c3b947ef933": [
-      185,
-      368,
-      638,
-      795,
-      1033,
-      1183,
-      1531,
-      1724,
-      1934,
-      2106
     ],
     "64b5057af8491e69e91150e7f2743114c85618543ebdfca95a2f09c5853eeac8": [
       193,
@@ -6294,22 +6191,6 @@
       1114,
       1329
     ],
-    "6b04f161282d82f362d2e16a2904852d94d2d83965b90e9e09babc0f6cafeddb": [
-      307,
-      559,
-      832,
-      999,
-      1234,
-      1474,
-      1614,
-      1771
-    ],
-    "6e1ca47a7b17ed577209d6df7689d8a4a462158be9e2b35b80633845003e7271": [
-      263,
-      522,
-      750,
-      897
-    ],
     "6fc23762ad800d0fc13aba3d82ae33a235410d1a9f3e31a4ef955e73d472f3f6": [
       447,
       713,
@@ -6347,19 +6228,6 @@
       1060,
       1726
     ],
-    "71bd72c3071ec89fae24f3d3c117485ba97cf952e089445db14145daec9b4790": [
-      205,
-      487,
-      706,
-      893,
-      1133,
-      1295,
-      1567,
-      1833,
-      2075,
-      2277,
-      2520
-    ],
     "725812360d3c1810a27cc5e193729754bac049468a0a854d4b112337d9714e0c": [
       193,
       440,
@@ -6382,6 +6250,26 @@
     "73e07c44e0aa70894fa31a1d2adfced379424199053c670c82d8624dc6d09450": [
       1044,
       1298
+    ],
+    "73fae3dac899f543a59e2cba47fb4394a719e5ce16a28acc3ff1d774a7ced549": [
+      303,
+      578,
+      845,
+      1112,
+      1404,
+      1617,
+      1881,
+      2055,
+      2233,
+      2501,
+      2714,
+      2875,
+      3102,
+      3476,
+      3807,
+      4091,
+      4299,
+      4485
     ],
     "74df349d1481dc6174656cc6fcf70e3ffa482fb04d55e909c416e737eb1911b8": [
       188,
@@ -6413,26 +6301,17 @@
       1570,
       1860
     ],
-    "77a2b5e6f75414e8b66d6d18e4f479514d1c47a3022cba28d89b78ee2c3d8a9f": [
-      152,
-      376,
-      579,
-      825,
-      1173,
-      1450,
-      1761,
-      1952,
-      2129,
-      2281,
-      2544,
-      2716,
-      2862,
-      3022,
-      3337,
-      3523,
-      3695,
-      3937,
-      4165
+    "776857e5244b21338e50706440f3f1a36c67dd391e4b6774200c4ac9adb01261": [
+      199,
+      412,
+      555,
+      724,
+      876,
+      1012,
+      1195,
+      1519,
+      1679,
+      1901
     ],
     "77abae741cdfcae4bdb6c29d49cc38b819f7989f9c806a4be2b8f7fe96e6ff73": [
       219,
@@ -6464,21 +6343,6 @@
       937,
       1440
     ],
-    "7816c175b0c06b36583e8eac78be1685a7275c953e8ab4adf858e9fb7c54bb53": [
-      157,
-      348,
-      600,
-      736,
-      967,
-      1160,
-      1380,
-      1516,
-      1770,
-      2036,
-      2248,
-      2384,
-      2614
-    ],
     "78c2b1e865b5793a4ad9bae3a01df6c7f5c4ecc779ed9e0d0d35987790018273": [
       681,
       1003,
@@ -6503,50 +6367,11 @@
       1592,
       1943
     ],
-    "7aab59cf13dce4e85cf749d05e29e7fe6bb4fb7f601205bd9954ab7af8eaaabf": [
-      138,
-      319,
-      791,
-      1002,
-      1220,
-      1586,
-      1895,
-      2136
-    ],
     "7ab66891e5dbea3cfcbb760e8c41fd64d653b42dbfbabe587a8c7fc3098903b8": [
       363,
       811,
       1184,
       1711
-    ],
-    "7b77682c643830385f28943d7db1730de297931d8554ce9cbb3b5955e3d62356": [
-      207,
-      594,
-      859,
-      1084,
-      1232,
-      1420,
-      1627,
-      1876,
-      2087,
-      2400,
-      2827,
-      2976,
-      3232
-    ],
-    "7e8182ceaf1496902d2023f53b67708bcbf53e544039380ef82a6b6545efdc92": [
-      145,
-      487,
-      795,
-      1132,
-      1360,
-      1599,
-      1813,
-      1952,
-      2189,
-      2323,
-      2462,
-      2772
     ],
     "7f087d2c9bd493a811fe26df9cf1deefda824153f9a102f2e184815da627c131": [
       223,
@@ -6593,25 +6418,6 @@
       1476,
       1654
     ],
-    "82c2b3b995ee83f6efd3abc6d8c1b00a1ab18c9ee016d5d3103704e7448d5053": [
-      163,
-      319,
-      665,
-      824,
-      972,
-      1124,
-      1339,
-      1545,
-      1737,
-      1938,
-      2097,
-      2289,
-      2639,
-      2839,
-      2976,
-      3184,
-      3375
-    ],
     "833c2a5df8043ea4d0dd9897b2cc2994e0641fc00ce37476007b767863cf5dfa": [
       224,
       379,
@@ -6647,32 +6453,43 @@
       2402,
       2621
     ],
+    "851979735c25084eb3d44cd1205fb5c92c01d2c2dbe51a543396362979ff2ce7": [
+      197,
+      470,
+      659,
+      940
+    ],
     "858182fb6564c7b0df40c7b9d06bd1597072db25d868d9ac10a0bf3b6d7a2e75": [
       365,
       976,
       1368,
       1614
     ],
+    "878c69aba2186cea79a68e86f3887714351faa655e44f2d9d7584988a0018491": [
+      247,
+      391,
+      531,
+      845,
+      1066,
+      1381,
+      1596,
+      1740,
+      1901,
+      2088
+    ],
+    "87bdb1c06bc772607af6bf6a514c8dd15ea5c17a4e1d6f3f3170db9eb776cc94": [
+      248,
+      606,
+      785,
+      1090,
+      1356,
+      1563,
+      1762,
+      2205
+    ],
     "89a9c7611c33c0b77365089fc6d9f12f8e8176a7a0b45f5fd63ed1807f4d2c21": [
       861,
       1432
-    ],
-    "89b8e4accc90121557d42e79881ad1c45c256faf5a4d1920589cd368b49b0bd7": [
-      156,
-      349,
-      504,
-      732,
-      938,
-      1191,
-      1493,
-      1665,
-      1903,
-      2212,
-      2361,
-      2654,
-      2928,
-      3105,
-      3270
     ],
     "8a459635a0be79428a8788b626cefdfba82b4a233f3caea4d1b35cf8f683583d": [
       250,
@@ -6710,6 +6527,17 @@
       537,
       735
     ],
+    "8c7d5b6f95ef0c8da655169020e526ad1957f29fc1203e7a34e89f203c75ca59": [
+      189,
+      439,
+      654,
+      834,
+      1094,
+      1490,
+      1680,
+      1875,
+      2138
+    ],
     "8d35a3e94409dbeb852ad4fa91620f0bc708588a759c1c2c30c5945ea35bb237": [
       206,
       359,
@@ -6726,14 +6554,6 @@
       1266,
       1833
     ],
-    "8e006af48326ca847e619d06048a4eada3cf0d68ffad938d6d2353b5bfed03d1": [
-      241,
-      427,
-      601,
-      755,
-      1064,
-      1202
-    ],
     "8eef27e4d4f5e616206db1e06fb68b37d046a81076f7c4daea3adf4785081faa": [
       150,
       383,
@@ -6746,6 +6566,12 @@
       587,
       882,
       1428
+    ],
+    "910525accb9d4e9d4d14841fff120efb283fe83435b27dc8aaaa6a50ed03f9f5": [
+      212,
+      536,
+      801,
+      1080
     ],
     "917bf56506276e2d111692f4b03231f6f1c7629f79c6475fe6c13494ee6df1b9": [
       237,
@@ -6778,27 +6604,6 @@
       863,
       1334
     ],
-    "96180c8c4c4de7f9bed6439f62ee4d99b698fb9ae2cee56fa381f75a2df9234a": [
-      181,
-      335,
-      662,
-      870,
-      1074,
-      1228,
-      1381,
-      1542,
-      1842,
-      1990,
-      2158,
-      2433,
-      2685,
-      2928,
-      3119,
-      3339,
-      3603,
-      3743,
-      3978
-    ],
     "97adbb86e4652ece07b669e95533a7ae635b543c1757ea7c18ac879469154bd5": [
       635,
       1205,
@@ -6824,18 +6629,6 @@
       1576,
       1950
     ],
-    "9abe279a2e2bcc4b78508a0d2a32108a248901830d026e9b00c6ef45e003a989": [
-      213,
-      454,
-      693,
-      884,
-      1040,
-      1204,
-      1453,
-      1710,
-      1918,
-      2108
-    ],
     "9bdbe944e46f7a180c501fbd280f4dd753f01bf94313d3a7ba535b0f8de49287": [
       253,
       472,
@@ -6850,6 +6643,41 @@
       361,
       929,
       1324
+    ],
+    "9c9c5ffb7cbf70233291b0b5bd746522fd1b894e0cd2a6e78d586695fbb97439": [
+      248,
+      438,
+      655,
+      893,
+      1058,
+      1287,
+      1433,
+      1600,
+      1796,
+      2163,
+      2313,
+      2582,
+      2725
+    ],
+    "9d25be897bebe1eaf1689f4e9487a84f8f86ab28f3346f2af59114a9046b4d6b": [
+      295,
+      637,
+      910,
+      1162
+    ],
+    "9da58b1d803ae5d3191971f0b15fae447c082f291c8d263846f24658c0b69502": [
+      196,
+      521,
+      741,
+      1114,
+      1516,
+      1768,
+      1998,
+      2340,
+      2582,
+      2759,
+      3017,
+      3164
     ],
     "9e85dd9011f5cd45a4cdebdb247b2519a30e6fe237a740d1eb894d86e807c402": [
       271,
@@ -6878,19 +6706,6 @@
       1802,
       2122
     ],
-    "9f77cf6ff5c94568faeb4f467b1bd0bc000e24d567c1545991e208512bf6248a": [
-      166,
-      350,
-      781,
-      1284,
-      1553,
-      1790,
-      2022,
-      2200,
-      2346,
-      2712,
-      2895
-    ],
     "a003e7c4524d254d8fab59f5e34e686f4ca22e4cca5f9eff46a80e2793bb5164": [
       152,
       363,
@@ -6915,15 +6730,6 @@
       1494,
       1754,
       1987
-    ],
-    "a16134297a4c0d78622938a0e6f70f2ebcd4e44d5ef751510b73aa4b996c75ad": [
-      202,
-      430,
-      565,
-      704,
-      1068,
-      1349,
-      1605
     ],
     "a27ed66fa230879e57a392a9b784a13d628926df5ceb865ec576fb44222f5a10": [
       152,
@@ -6958,6 +6764,21 @@
       1609,
       1823
     ],
+    "a4d45603675df625edc637880a0cc44b64adaa76b6b85323187126f8429d2f73": [
+      266,
+      466,
+      656,
+      920,
+      1068,
+      1266,
+      1438,
+      1602,
+      1810,
+      2059,
+      2248,
+      2512,
+      2663
+    ],
     "a65b5a0bba15fdf487f8b8d30f51973d91171811ffa81772f6b020868879c7c7": [
       152,
       338,
@@ -6966,16 +6787,6 @@
       876,
       1144,
       1282
-    ],
-    "a672f8064f396055116c26502282601cc2ef6b6ede4d9bee476e0a824a99e06d": [
-      232,
-      420,
-      785,
-      967,
-      1229,
-      1621,
-      1918,
-      2063
     ],
     "a91c9b076903b761ee8d5d786f66283e26ae59e3e46e5ee52f30226a8eff7b96": [
       308,
@@ -6993,6 +6804,15 @@
       2078,
       2227,
       2554
+    ],
+    "a9a250b6ab797d0ff503ca89f265cd0c2a09a340844cf99400edc8683a952cb8": [
+      188,
+      435,
+      744,
+      929,
+      1243,
+      1507,
+      1733
     ],
     "a9a398888a103e33c75b3c44a2307cb19b8adbb82019a7490ed235ea2407a642": [
       172,
@@ -7016,6 +6836,33 @@
       1567,
       1816,
       2013
+    ],
+    "acbea908c9974ee16c52c46e2b16ba8114b735ea0fe9cd13a2efca4f5b2bf5b7": [
+      230,
+      438,
+      779,
+      1006,
+      1200,
+      1467,
+      1621,
+      1800,
+      1991,
+      2332,
+      2549,
+      2806
+    ],
+    "ace328a605bc14eab7d3cea4cd9c52d1c466f2705150365ec8a94db52d3f949f": [
+      320,
+      479,
+      630,
+      820,
+      1064,
+      1381,
+      1589,
+      1874,
+      2202,
+      2488,
+      2734
     ],
     "af3adddec82267f2c93e30f9e8d013a61550e869f03d7d276f771ec7df3e9ea9": [
       789,
@@ -7044,6 +6891,66 @@
       851,
       1305,
       1842
+    ],
+    "b2eb532f4154c9ac80df9d8d8056cfcf38ad105d49fca51f6dd9dbca9900e5ad": [
+      230,
+      577,
+      763,
+      1079,
+      1352,
+      1645,
+      1889,
+      2069,
+      2275,
+      2418,
+      2666,
+      2843,
+      3073
+    ],
+    "b3d1303300f6ca2e306051b2d176d34e4f9a9f0659ba5de6a8ab45bf61d34726": [
+      262,
+      450,
+      669,
+      812,
+      980,
+      1218,
+      1375,
+      1587,
+      1833,
+      2120,
+      2389,
+      2668,
+      2872,
+      3058
+    ],
+    "b65216b6d343ca050f6f82d8327479ea91d4f9c445acd6d65fe12e09ca507931": [
+      214,
+      521,
+      716,
+      926,
+      1239,
+      1385,
+      1683,
+      1902,
+      2100,
+      2242,
+      2472,
+      2696,
+      2881,
+      3110,
+      3333,
+      3670
+    ],
+    "b67b9101b348b760ab10069a05bb323210e58074adc500aadd769fa92f005f86": [
+      219,
+      386,
+      657,
+      800,
+      970,
+      1190,
+      1326,
+      1473,
+      1696
     ],
     "b86f8ca7c55c8253ff3b3bffbd54b40dce99b25deb7843dcb233a808784092f0": [
       238,
@@ -7084,14 +6991,20 @@
       685,
       1560
     ],
-    "bd44373b4ac368fb6e4370dc168fb14cee30765a332c051efd7f525479d04476": [
-      250,
-      548,
-      786,
-      1138,
-      1392,
-      1571,
-      1871
+    "bc3c1466daa50eb7e59ad6bb5560fcaf28fa0a7d89a73564365926f99ec2481a": [
+      231,
+      573,
+      861,
+      1089,
+      1360,
+      1575,
+      1851,
+      2097,
+      2338,
+      2602,
+      2904,
+      3118,
+      3312
     ],
     "bef2d6d30dd70106ece36d1b3f6dec46aefc61088f0f6d10d376cedb9ba2b41f": [
       159,
@@ -7099,6 +7012,13 @@
       718,
       1027,
       1176
+    ],
+    "bf5f4bbcc5bfe4ae2f3d4de6dcc768a0ef6e2c097d46d0a214176dc2ab993515": [
+      148,
+      323,
+      503,
+      805,
+      973
     ],
     "c15eb3e16c5e525775433933bd582c26dc8711da80843573f076e2ebe0b70485": [
       172,
@@ -7128,6 +7048,22 @@
       2080,
       2363
     ],
+    "c175ac4d66c172a464e2bdc2ec838188e252f4084d2f7d790d102d2b0c875f8a": [
+      317,
+      489,
+      702,
+      916,
+      1110,
+      1287,
+      1597,
+      1743,
+      1902,
+      2039,
+      2190,
+      2506,
+      2900,
+      3175
+    ],
     "c251de9f06a1858de40b2da7542e80a7672895c4f6bd3d4f592b643b1200dddc": [
       294,
       431,
@@ -7151,6 +7087,27 @@
       645,
       953,
       1596
+    ],
+    "c5e2752c5b59dee50fa31358f65fb4bfec07ebff81ba47e7041f350ea8bb54b8": [
+      141,
+      311,
+      496,
+      652,
+      928,
+      1157
+    ],
+    "c62aa5169def9d3b03bd31a2a6ef9d7055f61880df506d1a1df7082ef25f1a6d": [
+      231,
+      574,
+      866,
+      1254,
+      1418,
+      1611,
+      1907,
+      2104,
+      2258,
+      2464,
+      2734
     ],
     "c62c70b19786865de5c4e6cc5ab85023cb8e33a8714f0038a457b820f469f2bd": [
       232,
@@ -7176,19 +7133,6 @@
       354,
       999,
       1475
-    ],
-    "c7efb79906378208cf136d908b2e6283a997daee1706026b88932372f50c211a": [
-      167,
-      313,
-      510,
-      812,
-      1020,
-      1211,
-      1420,
-      1856,
-      2132,
-      2313,
-      2477
     ],
     "c8c6b125e95af321efc6da27d869d5ddc47bf82aa0b6b48c2a0f84d01eae6e16": [
       202,
@@ -7225,16 +7169,6 @@
       800,
       1071,
       1378
-    ],
-    "c9fb59d9e56191ddead47ce01c4097d837d8b1fcfb680a7f8f60890178b7cad6": [
-      194,
-      381,
-      641,
-      873,
-      1025,
-      1297,
-      1433,
-      1641
     ],
     "ca9bc1ca162781e29335c904d1583b28970aae926cf707c9894e51a0c2b262b0": [
       261,
@@ -7276,6 +7210,16 @@
       971,
       1318
     ],
+    "cf1d5095efc4d3fa76cdf22261757f309f947f738b4aa0dbc35f95da6b8d0eba": [
+      342,
+      581,
+      833,
+      1016,
+      1395,
+      1603,
+      1920,
+      2190
+    ],
     "d008270ccc9b374ead35ddabaa8d6bf54c7476058f4ebee3ed61b7852fcb496d": [
       329,
       661,
@@ -7297,17 +7241,6 @@
       1659,
       1845
     ],
-    "d2c585a5953b031bd393c1d4a53cfd2a0feb673da9000f8f1c2f69c50d4f95bf": [
-      160,
-      373,
-      595,
-      804,
-      994,
-      1322,
-      1458,
-      1626,
-      1821
-    ],
     "d2c9c345a1586cf59dae55527d5e70e5d0354846d926275b6216523fc7fb621e": [
       172,
       420,
@@ -7322,6 +7255,15 @@
     "d2fa37d2280510d1119782c5ec342c54fc75c923422fe4bc450069b899fa59d4": [
       611,
       1111
+    ],
+    "d47a03c20597f3dbb34ff0858bded80dd98e191c2cd330b268b1012dbee5ba85": [
+      275,
+      570,
+      826,
+      1197,
+      1460,
+      1650,
+      2130
     ],
     "d652c426441d2b30f518d47cf21b90e023303d40f9bb85d1871e13693ab7fcab": [
       680,
@@ -7354,20 +7296,6 @@
       1184,
       1356
     ],
-    "d8ff48f7ca3f50c3aff7231bac5a88c93baebc7c0ba2ea12ca371ed6f7390ab7": [
-      216,
-      408,
-      566,
-      800,
-      956,
-      1092,
-      1265,
-      1419,
-      1676,
-      1851,
-      2093,
-      2383
-    ],
     "d929e9c361c22772a14dd4214aa6862a41eff8da1985d394376e82f5aa62aef5": [
       578,
       876,
@@ -7379,20 +7307,39 @@
       1224,
       1486
     ],
+    "da8848dc806c75109f96a45acb132cc09df7a878d1a5bfbf0955933addc4c878": [
+      304,
+      533,
+      869,
+      1165,
+      1412
+    ],
+    "dadb4f9ecb70ab6121ebe78bc56cb3f5b6b346e664c30bbd35eb97996b0ad179": [
+      216,
+      486,
+      764,
+      962,
+      1211,
+      1398,
+      1636,
+      1807,
+      1974,
+      2414
+    ],
     "daf08b897c36aefa4f39d8446832603bcabbdc5725dc8c0a32a338ff4220b054": [
       317,
       1133,
       1569
     ],
-    "dbc73ae6b6c5c4b34d43f9f3102db7bf6e882f34ff98755169f32cf8b608aafd": [
-      389,
-      626,
-      981,
-      1156,
-      1447,
-      1598,
-      1847,
-      2190
+    "db705441c5741fffc751ccb8afe9a27f603eeca15a9497f8fc9b82e160cbf866": [
+      193,
+      425,
+      598,
+      843,
+      1093,
+      1246,
+      1463,
+      1767
     ],
     "dc65c4f1695d72b9a9a1c0b8ac27da63e1d6ab85b8ee9170e757fdf358e40e93": [
       238,
@@ -7403,32 +7350,20 @@
       1347,
       1531
     ],
-    "de17065da3f365e63a463e0e9399617e36b8c5342de3130bcdcea36f3f4244e7": [
-      182,
-      492,
-      765,
-      1008,
-      1314,
-      1955,
-      2093
-    ],
-    "e34c0d6a13905758680983ba7c736ebdb65c32ecf9e6c7543c37f53a7f183896": [
-      142,
-      464,
-      700,
-      959,
-      1308,
-      1527,
-      1826,
-      2011,
-      2243,
-      2394,
-      2708,
-      2993,
-      3207,
-      3350,
-      3586,
-      3747
+    "deacae3016e1eb3b1d1abad8987fdf1891cbbaf851756415ebd737c3c8e240a2": [
+      216,
+      541,
+      687,
+      1053,
+      1287,
+      1522,
+      1707,
+      1845,
+      2023,
+      2336,
+      2510,
+      2753,
+      2892
     ],
     "e5b83eda760772893f02d6950827d7e72c47a00df344877f0b6907f96a06c9bc": [
       173,
@@ -7477,16 +7412,16 @@
       2883,
       3038
     ],
-    "e9b90be8ea1e7cab9140c2d76ed71b7505d66d2a00eddfdbac4d55c86851572f": [
-      135,
-      287,
-      471,
-      784,
-      1138,
-      1365,
-      1504,
-      1751,
-      1909
+    "e972bcb10e200ae9086e24c7a10d7c8b07f4bea2bb83a4bc6c68ef1ac84c7fa7": [
+      252,
+      650,
+      880,
+      1080,
+      1310,
+      1712,
+      1999,
+      2362,
+      2615
     ],
     "e9fa6c9ac05749e358797f35e5030f6822183b5080a6d5971a254dc8f33ce53d": [
       303,
@@ -7506,6 +7441,17 @@
       754,
       918
     ],
+    "eb671158a2eeeefbcd3420843ee8f6f78e0da3aa1e4263b888afc8ad53a9e499": [
+      218,
+      394,
+      608,
+      805,
+      983,
+      1237,
+      1525,
+      1770,
+      1926
+    ],
     "ecb60c507562fe5ce8144af295e860f157736dca6d5ee81e14b3f1e9ee2caa9a": [
       205,
       617,
@@ -7516,6 +7462,13 @@
     "ed2016c44ad70a30543f8fa99423016e0232360556a54dcb60ec2eb8af5c9b82": [
       951,
       1305
+    ],
+    "efd365c419f15238726c6b9657db439a04704600c4f2e431a093c3c6f39e3334": [
+      287,
+      548,
+      834,
+      1014,
+      1206
     ],
     "f0247d4a8b65dc09520032a045c7ed81b363552539688050ffc9aaa7ddfd1b31": [
       278,
@@ -7547,6 +7500,31 @@
       1138,
       1316
     ],
+    "f3cb37ad99108438f9b306208412923748d480bf549ccca35d4fc5e8231e7f59": [
+      308,
+      650,
+      933,
+      1107,
+      1460,
+      1750,
+      2018,
+      2447,
+      2665,
+      3040
+    ],
+    "f5797d52c85755903698cb82cee5e53467ffb19f044dd74fc132bef8c3851ee0": [
+      228,
+      485,
+      691,
+      1019
+    ],
+    "f5d1ae39f3c9f7e69516f2f52035fb213a60f2a35aacf9d342a59bc692927264": [
+      255,
+      528,
+      729,
+      923,
+      1276
+    ],
     "f6d28ecdc7c62d1741593ee2c3abd44d7a9d1df170fd0cc129bfef82f2fdddd4": [
       261,
       864,
@@ -7555,40 +7533,21 @@
       1668,
       1845
     ],
-    "f95e3260cc85e1f99c131f666d926f42e00cf6342769bc7874f562bd9cddd31d": [
-      207,
-      435,
-      595,
-      770,
-      948,
-      1162,
-      1352,
-      1637,
-      1805
-    ],
     "f9e93a76a86203530d81a9eddfddaf3f185548322e78a0240770c1112a804836": [
       808,
       1227,
       1675
     ],
-    "fb30a87c9451d049c5f9ad679a7b03613300a1621a3b1445606fe4752861b2de": [
-      198,
-      575,
-      786,
-      925,
-      1114,
-      1343,
-      1513,
-      1797,
-      1967,
-      2236,
-      2439,
-      2640,
-      2946,
-      3191,
-      3391,
-      3617,
-      3852
+    "fb376d45b60470afd6a47528b2f74ee1fde05fabad726f994f1ab1a5d330d91f": [
+      200,
+      489,
+      656,
+      824,
+      1061,
+      1287,
+      1576,
+      1728,
+      2052
     ],
     "fb4e74eae65dada61a8aa136f99e8204bc7035e0a4e1140dfe3ebe05c78066d5": [
       192,
@@ -7621,17 +7580,6 @@
       1997,
       2145
     ],
-    "fe3f8b770e91d36390dc07e5a955c36b7139696ad2c93c7453ad7321799dc469": [
-      228,
-      404,
-      688,
-      1065,
-      1343,
-      1519,
-      1672,
-      1937,
-      2357
-    ],
     "fe409e0155410377a182c02877cbed8fc943f34866507874ffcfb7b28b7cae64": [
       289,
       577,
@@ -7646,14 +7594,6 @@
       952,
       1131
     ],
-    "ffc82bbf0119358a2a1975fd11ba8e842db6c0b79d5ed0af6375d6b01d5b4afe": [
-      167,
-      345,
-      658,
-      885,
-      1063,
-      1199
-    ],
     "ffe4608d77a6229ea3a40e99d00fc042c87d702375c1ee8cb4541d4756844656": [
       208,
       393,
@@ -7665,29 +7605,17 @@
     "00b0ced560a77d6f3c3eb3e55c96e4a9d9363d6d84ad51763081dc61fbd739b3": {
       "270": 1
     },
-    "0182ff02e8c6102ae87a6652054e7439049d47a03b4d0020870158583f2f9c3a": {
-      "1252": 2,
-      "2717": 3,
-      "530": 1
-    },
     "02a10bd47e76fdabd8a9e82bbb7c4540f524ad4a9a0e55efb757d9701d148844": {
       "561": 1
     },
-    "04fa186fc6376c6959b040a32aa0d250a663fdc645cdfa0aaf63ef47dccc8861": {
-      "1831": 2,
-      "680": 1
+    "0428d8d03fd1d20840ffb43920610a730c4c956044258440cee6164bc645237b": {
+      "381": 1,
+      "930": 2
     },
-    "0515b92665739543bd1d9dcb797544bc66a7149f39d2453db35a6388c57cf33c": {
-      "1843": 2,
-      "3150": 3,
-      "664": 1
-    },
-    "0661cc4983583d415a0aa820154cd1fb466c03893513fd419a2456d8e5a338b9": {
-      "460": 1
-    },
-    "0717811efe1b0b63f602196edf2561a79563b6ab1b4d9f3ea51c48db8856a6ae": {
-      "1623": 2,
-      "521": 1
+    "08482fe7faabb33421f0f8f04aeb21f4b3d56addd224d739089bd87a27bd9c42": {
+      "1706": 2,
+      "2817": 3,
+      "742": 1
     },
     "09960c6436fc5f5862d916cc4af112ba0b4e73656a770c1ed32d44c4493877cb": {
       "567": 1
@@ -7704,6 +7632,14 @@
     },
     "12b10a4bb47c3701c1b5f5fbc756245e5c61cdb77fe74b9f77c6e94435ae37bf": {
       "815": 1
+    },
+    "1384b3374f158c002342f29f0e30792a149096c5fad66e99bb086bb09497f076": {
+      "1840": 2,
+      "641": 1
+    },
+    "146f87455101c514112c2b0425cca5eb78648b791348c54eb25d022efdfb276f": {
+      "1525": 2,
+      "677": 1
     },
     "15086167e4c1988a6d6ef7252798007e342c37deffa4c755cf7412c0a2d8ea7c": {
       "2047": 2,
@@ -7728,10 +7664,9 @@
       "1685": 2,
       "673": 1
     },
-    "1c3df8ac7b259b19736934dad0f65e909f735a77e97a0799b1ef8ccca5b9af48": {
-      "1162": 2,
-      "1907": 3,
-      "431": 1
+    "1d11b85005fdb28ec091818f1f739fe600bb2a58cbdaa87c6eba0f11529e77d2": {
+      "1222": 2,
+      "444": 1
     },
     "1e227097fd9d2f475e76a9cf54302e0de01b24eba3ffa16f5e9a24af6fb7458c": {
       "594": 1
@@ -7739,13 +7674,9 @@
     "1f08522d86873fe1a2114a78cc94f8660f2c36e25a01e32a40b7edbb4cac9f87": {
       "623": 1
     },
-    "221e01dca251e8f62088453bf07bfac7915c57b61addefce707b9e66ed9d6dea": {
-      "1255": 2,
-      "488": 1
-    },
-    "22be310215fd26605f0e633483dcad53d21097e8dff3147c70de9f76ee06135c": {
-      "1445": 2,
-      "494": 1
+    "226fb1a62cc3b931103ca488640bc054de78569ac3849cd70e9fe814385b1144": {
+      "325": 1,
+      "951": 2
     },
     "22ff5ebd021b13a8c218c5e5c0f6d9428d80d127e900e85252e4bc0dbb192381": {
       "1405": 2,
@@ -7757,16 +7688,22 @@
     "246f0d65dd1a04826c2180bda0cc442fae38fd78643e16e8963ccd797c17986c": {
       "256": 1
     },
-    "257e9959de535fba5c4135d4e2f37d464b4f31765c5e3bdd1d1607d8ba1b1420": {
-      "1370": 3,
-      "556": 1
+    "2922b97f9915d8b58c765c8476e77ad10f1ddee403026da49cbfc78aa22359fd": {
+      "1049": 2,
+      "418": 1
     },
-    "2692095eb7d68217c00502791a5dbe5b020ba2d8b204dd4409d7c4f6e31c2c1b": {
-      "1734": 2,
-      "480": 1
+    "2a7f99b0a11bd1b34f56a9f7e61f2b3a28b7c90159266848210fcb5e56b706e6": {
+      "1509": 2,
+      "513": 1
     },
-    "2fc9b218a2cadb8e304e0610db056e9793b7af94fec1bc424b2cc9025dbcece5": {
-      "2036": 2
+    "2acce1526b36db8a7ff981fbeefeff87d6800c0db63a5f3417a7ee6b69af9208": {
+      "2182": 2,
+      "3319": 3,
+      "650": 1
+    },
+    "2c70ec6b922da9c3848009857c44a48bb92e6ffe096dc982f01d1ca92a2e9b7f": {
+      "1162": 3,
+      "434": 1
     },
     "30b218e634b9b3958c88fbc844d5315dd177c287d77b6495e7775270a8d1a917": {
       "1124": 2,
@@ -7776,6 +7713,9 @@
       "1707": 2,
       "729": 1
     },
+    "3599f205ca3af5cfb5c3c01083442ee112208e3d5619b66ad370454cdd642717": {
+      "513": 1
+    },
     "35eb53e6b6a9c851039d7383b4261baff5c0074d397c7d0aa6cd474a0a907b53": {
       "1430": 2,
       "669": 1
@@ -7783,10 +7723,6 @@
     "365c24a541dfd87a31fc44fe1075dd50f2d37eae8363160aded228fc00998592": {
       "2511": 2,
       "895": 1
-    },
-    "36d6fca82c54ed3025d45e19d687344eb0475fba607e0e2caa1c9abc070be6b4": {
-      "1256": 2,
-      "483": 1
     },
     "37d707fcac004b2f62e8b2d99f42440c9533ccf457aef32aff155934e3fc16bb": {
       "791": 1
@@ -7805,6 +7741,11 @@
       "1216": 2,
       "462": 1
     },
+    "40494c0ef08c73e3e122db807fe15f646578c4de772663827da1e44347e8f52e": {
+      "1544": 2,
+      "2210": 3,
+      "518": 1
+    },
     "40c72ee462b90b7319781a3bde1daa4670435fb1e035be35e7affd936977f3bb": {
       "2229": 2,
       "605": 1
@@ -7816,6 +7757,10 @@
     "4226f6158620b956288a5ccd2806a1a13ec3b4f749a6e879581eeab18328cf6a": {
       "428": 1,
       "891": 2
+    },
+    "42efa27f9ff14d058d36249c225397a89f0441fc3d382a5272baaab8d7be5488": {
+      "1220": 2,
+      "469": 1
     },
     "435950262cbdca9def9c78cd15de97544f7662b9b6ec55cb4b78f22155822263": {
       "1326": 2,
@@ -7840,14 +7785,6 @@
     "47b383f69f2c4ccc4bffae07622381cc81f99081ab56583882d5bc7479edc88a": {
       "556": 1
     },
-    "48f8fbb4dd5f95b9039954ab3c6c96bbb9bd95c6e881026556d43593fb470316": {
-      "1626": 2,
-      "755": 1
-    },
-    "4984a185f4f76356885247d2511c6212299bf658eaa7386fbfdeb866f0804058": {
-      "1393": 2,
-      "601": 1
-    },
     "49fc7660bdb2abcc7d165150fc1211aee4ba60a465da73674a8ec544c9baf605": {
       "1353": 2,
       "623": 1
@@ -7856,40 +7793,40 @@
       "2271": 2,
       "675": 1
     },
-    "4bdfc25da01d5d9a1e3ecd312cc83ac10f499e14bb837689a5c4e44bd2476862": {
-      "1693": 2,
-      "565": 1
+    "4d7deb9102282b636107e89beb8f939d66f8fc369253eb0527d3e14f3c029915": {
+      "1443": 2,
+      "2374": 3,
+      "605": 1
     },
     "4f3cf9bfbdccb4fd3a49ec3c178626e7cabee8c647f9021976e596b29cd43a23": {
       "385": 1
     },
-    "504be8b9ab972eab968ece8d1fd4a0d3fa42580d82ca121bf5ee56a0b2d9d35e": {
-      "1645": 2,
-      "626": 1
+    "50d32d3ad74e5f3b632e5689873a348f3ad25027adc1031f2937a7bd84b338c0": {
+      "1161": 2,
+      "364": 1
     },
     "519888cd8f5142817c2f0e495fd36a01d1336f143912e6e0ab260451d96c64cd": {
       "1423": 2,
       "552": 1
     },
-    "55e7aab4c388be8866b642ea6a6186097fed82de5c9a6943a33fcbdd6228f6b8": {
-      "1781": 2,
-      "2890": 3
-    },
-    "5633abb84be3ddd968aa0702143860b71d8608b9acd1fef86816ed2ca67225a8": {
-      "1646": 2,
-      "566": 1
-    },
-    "569762c501ed836d1b3eacaf2b837d1ef8ab661139fe3c9c1325df6f91b0498a": {
-      "1776": 2,
-      "2566": 3,
-      "635": 1
+    "5775fe69766f309acc4a542ccf3cc0e3b6079c300f1aa7fbea8ce76c16db84c9": {
+      "1607": 2,
+      "589": 1
     },
     "57fa2f4c1aa6edd31a6085297ddacb0c9aaa6bb034a0026503d4d4c0e10f750f": {
       "1496": 2,
       "639": 1
     },
+    "5845fd31494f557255b02cc388acfc1c945b4820565b8f33f2047b7d4517ae38": {
+      "1875": 2,
+      "653": 1
+    },
     "58f15dde8e5ce3765e49485c4ddac2b6f3c1e245feef8a1fe0974ca5aa047f2a": {
       "639": 1
+    },
+    "592a4c816abc65af81be31a1579094754afba45b2339f026eb26dd510e9a0883": {
+      "1272": 2,
+      "478": 1
     },
     "5b01a03aff824072a0cb23497577591f6864ea004cff64367ee5fee31f998ba9": {
       "2459": 2,
@@ -7899,17 +7836,9 @@
       "1379": 2,
       "558": 1
     },
-    "60203879abc6cb4fe93aeee8cbcbab037a4d0576fd4fc6f12fedea873d73ee19": {
-      "1704": 2,
-      "894": 1
-    },
     "602f4ffc90a83ab7cd546f83c81328a99604e931ac81775117f241327080c60a": {
       "1709": 2,
       "638": 1
-    },
-    "61a4777780706728f76c07c05d1b8ec327c2be0bab1e28f5f287b245442c85e9": {
-      "1046": 1,
-      "2350": 2
     },
     "62048078a9d12c2ffb5ab48ea6d22eb0dec19b7200ac8465425eef73e22f7477": {
       "310": 1
@@ -7918,12 +7847,10 @@
       "1688": 2,
       "723": 1
     },
-    "63b6c1e03aa4916b4a453fd356b572f3d515a0c32a3e76d25124841dc25c6888": {
-      "765": 1
-    },
-    "6475a7bdb098f89e6cb259a6592fd97bd0b3f0ab1e2dbfda517d8c3b947ef933": {
-      "1531": 2,
-      "638": 1
+    "63aee6a1cc9047930b33daa370ab77e6c2556a85352306279926e1213e5f944c": {
+      "1068": 2,
+      "1864": 3,
+      "471": 1
     },
     "6665532f4eb5fab3207efaa0cb56900641f6ec44b7bed36a80a0c71f731ca5c7": {
       "1544": 2,
@@ -7945,10 +7872,6 @@
     "690fd849485c4dc90d56a91fc22dd09a74046e59cdb7517f723027d557b1326f": {
       "512": 1
     },
-    "6b04f161282d82f362d2e16a2904852d94d2d83965b90e9e09babc0f6cafeddb": {
-      "1234": 2,
-      "559": 1
-    },
     "6fc23762ad800d0fc13aba3d82ae33a235410d1a9f3e31a4ef955e73d472f3f6": {
       "1124": 2,
       "447": 1
@@ -7960,16 +7883,17 @@
     "7068749eb9eb810a75a29e9211bc794bfd989389feeb616749b0e580eb3dc17d": {
       "567": 1
     },
-    "71bd72c3071ec89fae24f3d3c117485ba97cf952e089445db14145daec9b4790": {
-      "1567": 2,
-      "706": 1
-    },
     "725812360d3c1810a27cc5e193729754bac049468a0a854d4b112337d9714e0c": {
       "440": 1
     },
     "737fc89f1b48608888c0136a7a37b476d509be97dcbc45e61af6d2ea898a237a": {
       "1660": 2,
       "711": 1
+    },
+    "73fae3dac899f543a59e2cba47fb4394a719e5ce16a28acc3ff1d774a7ced549": {
+      "1404": 2,
+      "3102": 3,
+      "578": 1
     },
     "74df349d1481dc6174656cc6fcf70e3ffa482fb04d55e909c416e737eb1911b8": {
       "1555": 2,
@@ -7979,10 +7903,9 @@
       "1478": 2,
       "463": 1
     },
-    "77a2b5e6f75414e8b66d6d18e4f479514d1c47a3022cba28d89b78ee2c3d8a9f": {
-      "1450": 2,
-      "3022": 3,
-      "825": 1
+    "776857e5244b21338e50706440f3f1a36c67dd391e4b6774200c4ac9adb01261": {
+      "1519": 2,
+      "724": 1
     },
     "77abae741cdfcae4bdb6c29d49cc38b819f7989f9c806a4be2b8f7fe96e6ff73": {
       "1979": 2
@@ -7990,24 +7913,8 @@
     "7812c732bf6d76dc95b7229291aa6888de92d203bd7fd398935fc6e94f94a141": {
       "1431": 2
     },
-    "7816c175b0c06b36583e8eac78be1685a7275c953e8ab4adf858e9fb7c54bb53": {
-      "1770": 3,
-      "736": 1
-    },
     "795b207388358988147eb61f822a51754eddce7ab7476fd65a48e3711bf983bd": {
       "822": 1
-    },
-    "7aab59cf13dce4e85cf749d05e29e7fe6bb4fb7f601205bd9954ab7af8eaaabf": {
-      "1586": 2
-    },
-    "7b77682c643830385f28943d7db1730de297931d8554ce9cbb3b5955e3d62356": {
-      "1420": 2,
-      "2400": 3,
-      "594": 1
-    },
-    "7e8182ceaf1496902d2023f53b67708bcbf53e544039380ef82a6b6545efdc92": {
-      "1813": 2,
-      "487": 1
     },
     "7f087d2c9bd493a811fe26df9cf1deefda824153f9a102f2e184815da627c131": {
       "1335": 2,
@@ -8018,10 +7925,6 @@
     },
     "82194d657de46083f9e3cc8fb78f53d0e6f7e0e973277e6ed55ed00027a07718": {
       "689": 1
-    },
-    "82c2b3b995ee83f6efd3abc6d8c1b00a1ab18c9ee016d5d3103704e7448d5053": {
-      "2289": 2,
-      "665": 1
     },
     "833c2a5df8043ea4d0dd9897b2cc2994e0641fc00ce37476007b767863cf5dfa": {
       "1297": 2,
@@ -8035,10 +7938,16 @@
       "2122": 2,
       "706": 1
     },
-    "89b8e4accc90121557d42e79881ad1c45c256faf5a4d1920589cd368b49b0bd7": {
-      "1665": 2,
-      "2654": 3,
-      "732": 1
+    "851979735c25084eb3d44cd1205fb5c92c01d2c2dbe51a543396362979ff2ce7": {
+      "470": 1
+    },
+    "878c69aba2186cea79a68e86f3887714351faa655e44f2d9d7584988a0018491": {
+      "1381": 2,
+      "391": 1
+    },
+    "87bdb1c06bc772607af6bf6a514c8dd15ea5c17a4e1d6f3f3170db9eb776cc94": {
+      "1563": 2,
+      "606": 1
     },
     "8a459635a0be79428a8788b626cefdfba82b4a233f3caea4d1b35cf8f683583d": {
       "1677": 2,
@@ -8047,14 +7956,18 @@
     "8c07fd4667c5610db45e6e320f00000dacc8507e54e98f69a4b1c7e708d247e9": {
       "537": 1
     },
+    "8c7d5b6f95ef0c8da655169020e526ad1957f29fc1203e7a34e89f203c75ca59": {
+      "1490": 2,
+      "654": 1
+    },
     "8d35a3e94409dbeb852ad4fa91620f0bc708588a759c1c2c30c5945ea35bb237": {
       "654": 1
     },
-    "8e006af48326ca847e619d06048a4eada3cf0d68ffad938d6d2353b5bfed03d1": {
-      "601": 1
-    },
     "8eef27e4d4f5e616206db1e06fb68b37d046a81076f7c4daea3adf4785081faa": {
       "635": 1
+    },
+    "910525accb9d4e9d4d14841fff120efb283fe83435b27dc8aaaa6a50ed03f9f5": {
+      "536": 1
     },
     "917bf56506276e2d111692f4b03231f6f1c7629f79c6475fe6c13494ee6df1b9": {
       "1364": 2,
@@ -8064,11 +7977,6 @@
       "1410": 2,
       "460": 1
     },
-    "96180c8c4c4de7f9bed6439f62ee4d99b698fb9ae2cee56fa381f75a2df9234a": {
-      "1842": 2,
-      "2928": 3,
-      "662": 1
-    },
     "97bb12a94627a7832414615cb6291b7b180ba4de9483037de8b80a0a6d9ee513": {
       "654": 1
     },
@@ -8076,12 +7984,21 @@
       "1576": 2,
       "584": 1
     },
-    "9abe279a2e2bcc4b78508a0d2a32108a248901830d026e9b00c6ef45e003a989": {
-      "1453": 2,
-      "454": 1
-    },
     "9bdbe944e46f7a180c501fbd280f4dd753f01bf94313d3a7ba535b0f8de49287": {
       "472": 1
+    },
+    "9c9c5ffb7cbf70233291b0b5bd746522fd1b894e0cd2a6e78d586695fbb97439": {
+      "1433": 2,
+      "2163": 3,
+      "655": 1
+    },
+    "9d25be897bebe1eaf1689f4e9487a84f8f86ab28f3346f2af59114a9046b4d6b": {
+      "637": 1
+    },
+    "9da58b1d803ae5d3191971f0b15fae447c082f291c8d263846f24658c0b69502": {
+      "1516": 2,
+      "2582": 3,
+      "521": 1
     },
     "9e85dd9011f5cd45a4cdebdb247b2519a30e6fe237a740d1eb894d86e807c402": {
       "733": 1
@@ -8090,20 +8007,12 @@
       "1436": 2,
       "423": 1
     },
-    "9f77cf6ff5c94568faeb4f467b1bd0bc000e24d567c1545991e208512bf6248a": {
-      "2022": 2,
-      "781": 1
-    },
     "a003e7c4524d254d8fab59f5e34e686f4ca22e4cca5f9eff46a80e2793bb5164": {
       "624": 1
     },
     "a0e493edb3109b8a73829d55fc7d2e72546d6e6ab66bc910dab230b1721d0403": {
       "1494": 2,
       "395": 1
-    },
-    "a16134297a4c0d78622938a0e6f70f2ebcd4e44d5ef751510b73aa4b996c75ad": {
-      "1068": 2,
-      "430": 1
     },
     "a27ed66fa230879e57a392a9b784a13d628926df5ceb865ec576fb44222f5a10": {
       "623": 1
@@ -8115,16 +8024,21 @@
       "1419": 2,
       "501": 1
     },
+    "a4d45603675df625edc637880a0cc44b64adaa76b6b85323187126f8429d2f73": {
+      "1266": 2,
+      "2059": 3,
+      "466": 1
+    },
     "a65b5a0bba15fdf487f8b8d30f51973d91171811ffa81772f6b020868879c7c7": {
       "483": 1
-    },
-    "a672f8064f396055116c26502282601cc2ef6b6ede4d9bee476e0a824a99e06d": {
-      "1621": 2,
-      "785": 1
     },
     "a98f7280da155ff94bfc17cb9b50cfcd1de74552d9e9679bea3dd9f9fe6b128c": {
       "1731": 2,
       "690": 1
+    },
+    "a9a250b6ab797d0ff503ca89f265cd0c2a09a340844cf99400edc8683a952cb8": {
+      "1243": 2,
+      "435": 1
     },
     "a9a398888a103e33c75b3c44a2307cb19b8adbb82019a7490ed235ea2407a642": {
       "172": 1
@@ -8132,9 +8046,34 @@
     "ab7a41b8958414f9e26be48d7b868dd08a226b76a5c4157f99c2cd7476e22629": {
       "623": 1
     },
+    "acbea908c9974ee16c52c46e2b16ba8114b735ea0fe9cd13a2efca4f5b2bf5b7": {
+      "1800": 2,
+      "779": 1
+    },
+    "ace328a605bc14eab7d3cea4cd9c52d1c466f2705150365ec8a94db52d3f949f": {
+      "1874": 2,
+      "630": 1
+    },
     "b00762a9ae49973dbc43a27d57dec6fc00fd7f7d40a353006051d2e6c398af64": {
       "1478": 2,
       "565": 1
+    },
+    "b2eb532f4154c9ac80df9d8d8056cfcf38ad105d49fca51f6dd9dbca9900e5ad": {
+      "2069": 2,
+      "577": 1
+    },
+    "b3d1303300f6ca2e306051b2d176d34e4f9a9f0659ba5de6a8ab45bf61d34726": {
+      "2120": 2,
+      "812": 1
+    },
+    "b65216b6d343ca050f6f82d8327479ea91d4f9c445acd6d65fe12e09ca507931": {
+      "1683": 2,
+      "2696": 3,
+      "521": 1
+    },
+    "b67b9101b348b760ab10069a05bb323210e58074adc500aadd769fa92f005f86": {
+      "1190": 2,
+      "386": 1
     },
     "b8db30d7f64f184338b0d0481fd60b64e1aaa90575f0dd4a08081ad0f423e95b": {
       "1497": 2,
@@ -8147,9 +8086,14 @@
     "b8ff9b749873752d2c52dd505f22e7225cccad48bda64fcca6ce7817b7213afa": {
       "682": 1
     },
-    "bd44373b4ac368fb6e4370dc168fb14cee30765a332c051efd7f525479d04476": {
-      "1392": 2,
-      "548": 1
+    "bc3c1466daa50eb7e59ad6bb5560fcaf28fa0a7d89a73564365926f99ec2481a": {
+      "1089": 2,
+      "2338": 3,
+      "573": 1
+    },
+    "bf5f4bbcc5bfe4ae2f3d4de6dcc768a0ef6e2c097d46d0a214176dc2ab993515": {
+      "323": 1,
+      "805": 2
     },
     "c15eb3e16c5e525775433933bd582c26dc8711da80843573f076e2ebe0b70485": {
       "1675": 2,
@@ -8159,6 +8103,10 @@
       "1770": 2,
       "729": 1
     },
+    "c175ac4d66c172a464e2bdc2ec838188e252f4084d2f7d790d102d2b0c875f8a": {
+      "2190": 2,
+      "916": 1
+    },
     "c251de9f06a1858de40b2da7542e80a7672895c4f6bd3d4f592b643b1200dddc": {
       "1301": 2,
       "294": 1
@@ -8166,16 +8114,20 @@
     "c308f89a652ad9a27fc212e2c382266b44e6797ca1d553910b05a62244609ef3": {
       "567": 1
     },
+    "c5e2752c5b59dee50fa31358f65fb4bfec07ebff81ba47e7041f350ea8bb54b8": {
+      "496": 1
+    },
+    "c62aa5169def9d3b03bd31a2a6ef9d7055f61880df506d1a1df7082ef25f1a6d": {
+      "1418": 2,
+      "2258": 3,
+      "574": 1
+    },
     "c635694ab40645ffd93424db238bdd5281f6e08ea82346541b74bc78706de999": {
       "545": 1
     },
     "c6b8bcafad7ce421c7cb790e110af63e9d6edd30348828db8c404e9a2a028876": {
       "1010": 2,
       "362": 1
-    },
-    "c7efb79906378208cf136d908b2e6283a997daee1706026b88932372f50c211a": {
-      "1856": 3,
-      "812": 1
     },
     "c8c6b125e95af321efc6da27d869d5ddc47bf82aa0b6b48c2a0f84d01eae6e16": {
       "1343": 2,
@@ -8188,15 +8140,15 @@
     "c9e1084f620e6187a5b30a6036d8a6e36ebd13a7cfbe478c3274536049630446": {
       "412": 1
     },
-    "c9fb59d9e56191ddead47ce01c4097d837d8b1fcfb680a7f8f60890178b7cad6": {
-      "1297": 2,
-      "641": 1
-    },
     "ca9bc1ca162781e29335c904d1583b28970aae926cf707c9894e51a0c2b262b0": {
       "2140": 2
     },
     "cc4f124c25dfc238cb5a3a746856a87a855bc534f7791e890a253016c8b38f7c": {
       "463": 1
+    },
+    "cf1d5095efc4d3fa76cdf22261757f309f947f738b4aa0dbc35f95da6b8d0eba": {
+      "1395": 2,
+      "342": 1
     },
     "d008270ccc9b374ead35ddabaa8d6bf54c7476058f4ebee3ed61b7852fcb496d": {
       "1946": 2,
@@ -8205,13 +8157,13 @@
     "d252d81b7878aee3fe56e7a5308227e2a997dfd50a4f345934e87ddc36fff154": {
       "813": 1
     },
-    "d2c585a5953b031bd393c1d4a53cfd2a0feb673da9000f8f1c2f69c50d4f95bf": {
-      "1322": 2,
-      "595": 1
-    },
     "d2c9c345a1586cf59dae55527d5e70e5d0354846d926275b6216523fc7fb621e": {
       "1378": 2,
       "420": 1
+    },
+    "d47a03c20597f3dbb34ff0858bded80dd98e191c2cd330b268b1012dbee5ba85": {
+      "1460": 2,
+      "570": 1
     },
     "d74ffed67c4259d1f169b267ba1004e575df87667e36901f4aec3049761ead60": {
       "1480": 2,
@@ -8220,26 +8172,24 @@
     "d8e1bafbbb20687308206442dc93e01612ce036d35ff59f6aa693e1b037b6805": {
       "605": 1
     },
-    "d8ff48f7ca3f50c3aff7231bac5a88c93baebc7c0ba2ea12ca371ed6f7390ab7": {
-      "1676": 3,
-      "408": 1,
-      "956": 2
+    "da8848dc806c75109f96a45acb132cc09df7a878d1a5bfbf0955933addc4c878": {
+      "1165": 2,
+      "304": 1
     },
-    "dbc73ae6b6c5c4b34d43f9f3102db7bf6e882f34ff98755169f32cf8b608aafd": {
-      "1598": 2,
-      "626": 1
+    "dadb4f9ecb70ab6121ebe78bc56cb3f5b6b346e664c30bbd35eb97996b0ad179": {
+      "1636": 2,
+      "764": 1
+    },
+    "db705441c5741fffc751ccb8afe9a27f603eeca15a9497f8fc9b82e160cbf866": {
+      "1246": 2,
+      "425": 1
     },
     "dc65c4f1695d72b9a9a1c0b8ac27da63e1d6ab85b8ee9170e757fdf358e40e93": {
       "705": 1
     },
-    "de17065da3f365e63a463e0e9399617e36b8c5342de3130bcdcea36f3f4244e7": {
-      "1314": 2,
-      "492": 1
-    },
-    "e34c0d6a13905758680983ba7c736ebdb65c32ecf9e6c7543c37f53a7f183896": {
-      "2011": 2,
-      "2993": 3,
-      "959": 1
+    "deacae3016e1eb3b1d1abad8987fdf1891cbbaf851756415ebd737c3c8e240a2": {
+      "2023": 2,
+      "541": 1
     },
     "e5b83eda760772893f02d6950827d7e72c47a00df344877f0b6907f96a06c9bc": {
       "1534": 2,
@@ -8256,9 +8206,9 @@
       "1995": 2,
       "827": 1
     },
-    "e9b90be8ea1e7cab9140c2d76ed71b7505d66d2a00eddfdbac4d55c86851572f": {
-      "1365": 2,
-      "471": 1
+    "e972bcb10e200ae9086e24c7a10d7c8b07f4bea2bb83a4bc6c68ef1ac84c7fa7": {
+      "1712": 3,
+      "650": 1
     },
     "e9fa6c9ac05749e358797f35e5030f6822183b5080a6d5971a254dc8f33ce53d": {
       "1331": 2,
@@ -8267,9 +8217,16 @@
     "ea6355ffe6420ef4caddbeffb269a27af1134bd1115b8f696b2fc9b545c98b1d": {
       "406": 1
     },
+    "eb671158a2eeeefbcd3420843ee8f6f78e0da3aa1e4263b888afc8ad53a9e499": {
+      "1237": 2,
+      "394": 1
+    },
     "ecb60c507562fe5ce8144af295e860f157736dca6d5ee81e14b3f1e9ee2caa9a": {
       "1400": 2,
       "617": 1
+    },
+    "efd365c419f15238726c6b9657db439a04704600c4f2e431a093c3c6f39e3334": {
+      "548": 1
     },
     "f206ddb0cceb356ab44262fd3118be0932edd5df71abacf3289d5948eeba85ba": {
       "464": 1
@@ -8277,13 +8234,19 @@
     "f2851dda0c0718367e233973b5b65c8c6f121a722ddbe5532843ac283ba88666": {
       "511": 1
     },
-    "f95e3260cc85e1f99c131f666d926f42e00cf6342769bc7874f562bd9cddd31d": {
-      "595": 1
+    "f3cb37ad99108438f9b306208412923748d480bf549ccca35d4fc5e8231e7f59": {
+      "2018": 2,
+      "650": 1
     },
-    "fb30a87c9451d049c5f9ad679a7b03613300a1621a3b1445606fe4752861b2de": {
-      "1967": 2,
-      "2946": 3,
-      "575": 1
+    "f5797d52c85755903698cb82cee5e53467ffb19f044dd74fc132bef8c3851ee0": {
+      "485": 1
+    },
+    "f5d1ae39f3c9f7e69516f2f52035fb213a60f2a35aacf9d342a59bc692927264": {
+      "528": 1
+    },
+    "fb376d45b60470afd6a47528b2f74ee1fde05fabad726f994f1ab1a5d330d91f": {
+      "1576": 3,
+      "656": 1
     },
     "fb4e74eae65dada61a8aa136f99e8204bc7035e0a4e1140dfe3ebe05c78066d5": {
       "1420": 2,
@@ -8296,18 +8259,11 @@
       "1550": 2,
       "630": 1
     },
-    "fe3f8b770e91d36390dc07e5a955c36b7139696ad2c93c7453ad7321799dc469": {
-      "1672": 2,
-      "688": 1
-    },
     "fe409e0155410377a182c02877cbed8fc943f34866507874ffcfb7b28b7cae64": {
       "577": 1
     },
     "ff50af09e4044f69ca702e19efa4930c9a999228963febf518550639bdfa50f7": {
       "235": 1
-    },
-    "ffc82bbf0119358a2a1975fd11ba8e842db6c0b79d5ed0af6375d6b01d5b4afe": {
-      "658": 1
     },
     "ffe4608d77a6229ea3a40e99d00fc042c87d702375c1ee8cb4541d4756844656": {
       "393": 1

@@ -6,7 +6,7 @@ P.transport["quest:1001"] = {
   fullHash = "7f8d04",
   text = "Buzzbox 411. Along Darkshore, Buzzbox 411 waits for thresher eyes to bring it back into service. Wizbang Cranktoggle, an eccentric and intoxicated gnome inventor, reaches it through a mechanical relay network. After you repair Buzzbox 827 farther south, Wizbang Cranktoggle's voice crackles through the transmitter again. Hidden from sight, the gnome inventor directs you north along Darkshore's beach to the damaged Buzzbox 411. His words break with hiccups and praise for crawler wine. He says local aquatic predators carry what his coastal apparatus needs to work. Thresher eyes must go into Buzzbox 411's hatch to restore the machine. Darkshore threshers prowl the shallows off Auberdine, and Wizbang says their eyes can recalibrate the device. Feed the eyes to the apparatus, and it jolts back to life. Then the line opens for another assignment, delivered in an even slurrier voice.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1001-966178d0622867b172c4/1-0000.mp3", duration = 63.5559184, start = 0},
+    {file = "Audio/Transport/full_quest_1001-0a7c7ca422285622168a/1-0000.mp3", duration = 59.2718367, start = 0},
   },
 }
 P.transport["quest:1002"] = {
@@ -14,7 +14,7 @@ P.transport["quest:1002"] = {
   fullHash = "69923c",
   text = "Buzzbox 323. Wizbang Cranktoggle’s fieldwork now reaches the third Buzzbox along Darkshore’s coast. You gather six Moonstalker fangs and feed them to the machine north of Auberdine. After you operate Buzzbox 411 farther south, Wizbang Cranktoggle’s voice crackles through the speaker. Drink has muddled his directions, but he points you north of Auberdine, to Buzzbox 323 near a road bridge. His research calls for six Moonstalker fangs from the fierce hunters roaming Darkshore’s forests. Before you begin, Buzzbox 323 chatters with static and faint muttering. Place the requested fangs in its intake hopper, and the machine rattles as it grinds the teeth to dust. Then Wizbang’s boozy voice returns through the transceiver, pleased with your delivery. He points you toward the next machine in his scattered network.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1002-e43ac0db67ee7ddd781d/1-0000.mp3", duration = 56.084898, start = 0},
+    {file = "Audio/Transport/full_quest_1002-4e53d0490580c41776a2/1-0000.mp3", duration = 47.1771429, start = 0},
   },
 }
 P.transport["quest:1003"] = {
@@ -22,7 +22,7 @@ P.transport["quest:1003"] = {
   fullHash = "138a80",
   text = "Buzzbox 525. Along Darkshore's coast, Wizbang Cranktoggle's scattered machines await the last of his strange requests. Buzzbox 525 calls for animal remnants and stranger materials. Once Buzzbox 323 is serviced, its rattling speakers carry Wizbang Cranktoggle's garbled instructions. His words slur through drunken chuckles and rambling directions. He sends his helpers far south along Darkshore's main road. There, he asks them to hunt grizzled thistle bears and place four thick scalps in Buzzbox 525's compartment. The machine is concealed behind a fence in the brush beside the road.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1003-e1ce83652552603536a0/1-0000.mp3", duration = 45.4791837, start = 0},
+    {file = "Audio/Transport/full_quest_1003-c58e2ac34a6ee48518ea/1-0000.mp3", duration = 33.6195918, start = 0},
   },
 }
 P.transport["quest:1008"] = {
@@ -30,7 +30,7 @@ P.transport["quest:1008"] = {
   fullHash = "313940",
   text = "The Zoram Strand. Naga now threaten Ashenvale at The Zoram Strand. Shindrell Swiftfire of Astranaar sends Alliance champions to scour the northwestern coast, where an ancient city lies in ruins. Stopping the naga guards the forest against a haunting echo of the night elves’ distant past. At Ashenvale’s northwestern edge, the Zoram Strand meets the Veiled Sea. The shore lies northwest of Astranaar, where forest canopy gives way to coast. For ages, the beach lay quiet, its stones left by a civilization shattered ten millennia ago. Now Wrathtail naga surge from the dark tides. They have made a hostile beachhead on night elven borders and threaten to press inland. The city of Zoram lies shattered beneath the surf, submerged during the Great Sundering. For ages, the kaldorei left it abandoned and nearly forgotten. Now the naga’s arrival among its ruins stirs bitter memories among Astranaar’s defenders. Sentinels such as Shindrell Swiftfire know the invaders as twisted cousins, born of their own ancient catastrophe. They will not let the depths claim the shore again.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1008-8e36d378447e63408e5a/1-0000.mp3", duration = 66.8212245, start = 0},
+    {file = "Audio/Transport/full_quest_1008-3223e62ab46bc9886e00/1-0000.mp3", duration = 79.5167347, start = 0},
   },
 }
 P.transport["quest:102"] = {
@@ -38,7 +38,7 @@ P.transport["quest:102"] = {
   fullHash = "013d3a",
   text = "Patrolling Westfall. Gnoll packs threaten the people still living on Westfall’s grasslands. From Sentinel Hill, Captain Danuvin calls on volunteers to hunt them, fearing they work with thieves in the Deadmines. Sentinel Hill is Westfall’s main defense, held by local volunteers instead of royal troops. With Stormwind sending no soldiers to protect the outer farmlands, the people formed the People’s Militia. Captain Danuvin once farmed in Westfall. Now he leads the militia and refuses to abandon his homeland.\n\nThe militia depends on travelers passing through to help hold its perimeter against dangers gathering across the plains. Gnolls threaten the refugees and squatters struggling to survive in Westfall. Danuvin’s scouts believe the packs work with bandits based in the Deadmines. So he sends hunters to collect gnoll paws. He hopes to curb the packs’ growing patrols and break any cooperation between the beasts and the outlaws.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_102-651c4f2cdcee15e791fc/1-0000.mp3", duration = 54.6742857, start = 0},
+    {file = "Audio/Transport/full_quest_102-3719e3ef6409f12ef4e6/1-0000.mp3", duration = 58.1746939, start = 0},
   },
 }
 P.transport["quest:103"] = {
@@ -46,7 +46,7 @@ P.transport["quest:103"] = {
   fullHash = "b516d8",
   text = "Keeper of the Flame. At Westfall Lighthouse, Captain Grayson keeps watch over the coast. He seeks oil to keep the beacon burning after murlocs killed the living keepers, guiding ships safely past the reefs. Westfall Lighthouse stands on a rocky islet off Westfall’s southwest shore. Its light once guided sailors through the Great Sea’s shallow waters. That duty ended when Old Murk-Eye led a murloc attack and killed the keeper and his family. Captain Grayson died in the waters by these rocks and now watches over the tower as a ghost. He could not stop the slaughter in life, but he will not let the lighthouse go dark. No living keeper remains to tend the flame, so Captain Grayson needs an unusual fuel. Harvest Watchers roam Westfall’s abandoned farmlands, carrying flasks of machinery oil inside their rusted bodies. Grayson sends you ashore to recover the oil from these broken constructs. With it, the beacon can keep burning and guide captains past the reefs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_103-5cad3ef9f82db448c499/1-0000.mp3", duration = 58.6971429, start = 0},
+    {file = "Audio/Transport/full_quest_103-e11423d43aef80b83629/1-0000.mp3", duration = 64.9926531, start = 0},
   },
 }
 P.transport["quest:1061"] = {
@@ -54,7 +54,7 @@ P.transport["quest:1061"] = {
   fullHash = "76a5ea",
   text = "The Spirits of Stonetalon. Unrest stirs among the spirits of Stonetalon, and Zor Lonetree sends Horde champions west to learn why. From Orgrimmar, you pass the Crossroads and report to Seereth Stonebreak near Greatwood Vale. In Grommash Hold, Zor Lonetree listens to the natural world and feels deep distress from the Stonetalon Mountains. The elemental spirits of its rocky peaks rage as logging cuts into their forests. Horde shamans hear their unrest and fear that the devastation in the western highlands will upset Kalimdor's spiritual balance. The Venture Company is an unscrupulous goblin syndicate cutting timber in Greatwood Vale. Its crews use aggressive machinery, saws, and muscle to butcher the ancient woodland instead of harvesting it sustainably. So the Horde sent Seereth Stonebreak, a young shaman, to watch the forest from the frontier and rally defenders against the ravagers.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1061-3141ea209153fffdc4d7/1-0000.mp3", duration = 53.6032653, start = 0},
+    {file = "Audio/Transport/full_quest_1061-69a6be5d02e7a0a054ab/1-0000.mp3", duration = 58.9844898, start = 0},
   },
 }
 P.transport["quest:1062"] = {
@@ -62,7 +62,7 @@ P.transport["quest:1062"] = {
   fullHash = "3f74fe",
   text = "Goblin Invaders. At the Barrens and Stonetalon border, Goblin Invaders strike at the mountains' ancient woodlands. Seereth Stonebreak sends the Horde against Venture Company loggers in Windshear Crag. Venture Company loggers cut deep into the Stonetalon Mountains. They strip the hillsides and burn the underbrush, leaving scorched ground behind. For tauren and their allies, the harm reaches beyond the forests. The primal spirits bound to Stonetalon howl in torment.\n\nSeereth Stonebreak watches from the mountain border. She sees the goblins' assault has left the spirits blind with agony and fury. Profit is all the Venture Company's executives and hirelings heed. Reason will not sway them. So Seereth sends you past Greatwood Vale and into Windshear Crag to kill fifteen loggers.\n\nThe Horde meets the company's greed with force. The blow is meant to halt the deforestation and give tauren elders time to soothe the land's agitated spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1062-5e1e6b7c8ec83d1b0e64/1-0000.mp3", duration = 58.2791837, start = 0},
+    {file = "Audio/Transport/full_quest_1062-c586324a6328fe1d4099/1-0000.mp3", duration = 72.6204082, start = 0},
   },
 }
 P.transport["quest:1063"] = {
@@ -70,7 +70,7 @@ P.transport["quest:1063"] = {
   fullHash = "e9eb10",
   text = "The Elder Crone. Seereth Stonebreak sends word from Stonetalon to Thunder Bluff. Goblin deforestation and mining have enraged the mountain's elements, and Seereth seeks spiritual guidance from Magatha Grimtotem on Elder Rise. In Stonetalon Mountains, goblin deforestation and mining have enraged the elemental spirits. Seereth Stonebreak sees that force alone cannot ease the land's anguish. So Seereth turns to elder shamans for wisdom. Few tribal leaders are known to Seereth by name, but Magatha Grimtotem is known for her wisdom and commanding presence. Magatha Grimtotem holds court atop Elder Rise in Thunder Bluff, where shamanic and spiritual affairs gather. Her tribe's ties with Cairne Bloodhoof's leadership are tense and often confrontational. Even so, Magatha is a formidable elder whose counsel carries great weight across the Horde. You bring her Stonetalon's troubles and seek her guidance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1063-b64c6b90957195e9b500/1-0000.mp3", duration = 53.995102, start = 0},
+    {file = "Audio/Transport/full_quest_1063-f2b2643ca07e06bc6c83/1-0000.mp3", duration = 64.7314286, start = 0},
   },
 }
 P.transport["quest:1064"] = {
@@ -78,7 +78,7 @@ P.transport["quest:1064"] = {
   fullHash = "adc4dd",
   text = "Forsaken Aid. In Thunder Bluff, Magatha Grimtotem seeks Forsaken Aid for the blighted spirits of Stonetalon. She turns to Apothecary Zamah in the Pools of Vision, hoping tauren and undead knowledge can help the suffering land. Magatha Grimtotem sees practical value in the Forsaken alliance. Word reaches Thunder Bluff of corrupted elemental spirits and suffering land in the Stonetalon Mountains, so she turns to the undead for help. She believes those who understand disease may help cure it. Rather than seek traditional druidic remedies, she sends you to the Royal Apothecary Society. Apothecary Zamah represents Undercity interests on Kalimdor from the Pools of Vision beneath Spirit Rise. Tauren shamans, priests, and seers use the cavern as a sacred retreat. Zamah's presence brings Forsaken work into their midst. Magatha sends a serpent messenger ahead of you to alert Zamah, opening a direct line to the Forsaken's alchemical researchers.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1064-c69b06cdb8fd03731fda/1-0000.mp3", duration = 57.4432653, start = 0},
+    {file = "Audio/Transport/full_quest_1064-273ee67a3df237a85bff/1-0000.mp3", duration = 68.6497959, start = 0},
   },
 }
 P.transport["quest:1065"] = {
@@ -86,7 +86,7 @@ P.transport["quest:1065"] = {
   fullHash = "874f6a",
   text = "Journey to Tarren Mill. Apothecary Zamah seeks a way to drive the Venture Company from Stonetalon Mountains without open war. She sends you across the sea to Apothecary Lydon in Tarren Mill, where the Royal Apothecary Society works in Lordaeron. In Thunder Bluff, Apothecary Zamah links the Forsaken with the Earth Mother's children. The Venture Company cuts timber and mines the sacred lands of Stonetalon Mountains, and ordinary means have failed to stop them. So Zamah turns to her peers in the Royal Apothecary Society for a chemical deterrent. She hopes their alchemy can drive the company away without a drawn-out war. You cross the sea from Kalimdor by zeppelin toward Lordaeron and the Undercity. From Tirisfal Glades, the road runs south through Silverpine Forest and into the contested Hillsbrad Foothills. Tarren Mill lies near human farmsteads and ruins. Once a human hamlet, it is now a Forsaken stronghold where the Royal Apothecary Society carries out its research.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1065-1ef802543f055b5dd18b/1-0000.mp3", duration = 57.6783673, start = 0},
+    {file = "Audio/Transport/full_quest_1065-5fddaed5beb49663a167/1-0000.mp3", duration = 74.1877551, start = 0},
   },
 }
 P.transport["quest:109"] = {
@@ -94,7 +94,7 @@ P.transport["quest:109"] = {
   fullHash = "7b2706",
   text = "Report to Gryan Stoutmantle. At Sentinel Hill, Gryan Stoutmantle gathers Westfall's defenders against threats to the farms. Guards along the Elwynn border and farmers driven west both send capable travelers toward Sentinel Hill. Those who answer join a defense built from local volunteers. No royal battalions come to their aid. From the stone tower atop Sentinel Hill, Gryan Stoutmantle organizes farmers, retired veterans, and mercenaries into the People's Militia. You join their bitter guerrilla war to keep Westfall's farmlands from falling into lawlessness.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_109-85089ee8d6b33001d6ff/1-0000.mp3", duration = 34.1942857, start = 0},
+    {file = "Audio/Transport/full_quest_109-334124f39c2068691390/1-0000.mp3", duration = 38.635102, start = 0},
   },
 }
 P.transport["quest:1097"] = {
@@ -102,7 +102,7 @@ P.transport["quest:1097"] = {
   fullHash = "7d4745",
   text = "Elmore's Task. Smith Argus sends you from Goldshire to Stormwind, where Grimand Elmore awaits help with a delivery. The weaponsmith needs it carried to his kin in Khaz Modan, and Argus trusts you with the road ahead. Smith Argus watches for travelers he can trust with work beyond wolves and kobolds. Grimand Elmore has sent word from Stormwind and asks for help carrying a delivery to his kin in Khaz Modan. The city gates open the way to Elmore's call. Stormwind and Ironforge rely on open trade and goodwill to keep both realms supplied and united. Argus says Elwynn Forest needs defenders, yet promises to the dwarves matter too. In northeastern Stormwind, the Dwarven District leads you to Elmore's shop. There, a journey beyond the forest begins.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1097-ec3b5f1752bc4ad921ca/1-0000.mp3", duration = 47.1771429, start = 0},
+    {file = "Audio/Transport/full_quest_1097-6dd05b78fd29695c8d28/1-0000.mp3", duration = 52.7934694, start = 0},
   },
 }
 P.transport["quest:1099"] = {
@@ -110,7 +110,7 @@ P.transport["quest:1099"] = {
   fullHash = "0ddcef",
   text = "Goblins Win!. In Thousand Needles, the goblin race decides who wins a goblin prize box. Goblins Win! names the result for whoever holds the winning ticket. You hold the goblin race ticket while the goblins' side is decided. If they win, the ticket earns you a goblin prize box. The gnome ticket counts for the other side.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1099-73f17e7702ccd3cf9f91/1-0000.mp3", duration = 18.8865306, start = 0},
+    {file = "Audio/Transport/full_quest_1099-75059613d8a0a4e2e232/1-0000.mp3", duration = 20.5844898, start = 0},
   },
 }
 P.transport["quest:11"] = {
@@ -118,7 +118,7 @@ P.transport["quest:11"] = {
   fullHash = "4350b7",
   text = "Riverpaw Gnoll Bounty. In western Elwynn, Riverpaw Gnoll Bounty calls for help against gnolls pressing the border. Deputy Rainer offers a reward at Westbrook Garrison for painted armbands taken from Riverpaw packs in the woods and by the water. Westbrook Garrison guards Elwynn Forest's border with Westfall. Its depleted forces struggle to contain the growing Riverpaw presence. The gnolls camp south of the guard tower and farther east around Stone Cairn Lake. From those camps, they threaten travelers and nearby homesteads. Deputy Rainer cannot spare regular infantry to sweep the woods, so he offers a bounty on the raiders. He requires painted armbands from slain gnolls as proof of each kill. Wandering adventurers and recruits are hired to thin the pack before the Riverpaws overrun the western marches.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_11-eb5ee4b681246c55a1c6/1-0000.mp3", duration = 64.9142857, start = 0},
+    {file = "Audio/Transport/full_quest_11-dd051ca99d96a498c08b/1-0000.mp3", duration = 50.7297959, start = 0},
   },
 }
 P.transport["quest:111"] = {
@@ -126,7 +126,7 @@ P.transport["quest:111"] = {
   fullHash = "63bfce",
   text = "Speak with Gramma. Tommy Joe Stonefield asks Gramma Stonefield for a way to reach Maybell Maclure. Their families keep them apart, and he hopes to meet her without drawing their kin into conflict. Tommy Joe and Maybell hide their love from their families. He turns to Gramma Stonefield, hoping she can find them a chance to meet in secret. Their kin must not discover the romance and turn old hostility into violence. Gramma Stonefield knows the families cannot truly unite while their bad blood remains. Still, she will not let that end the young couple's hopes. She begins seeking small chances to bring Tommy Joe and Maybell together.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_111-a225a7caa30490f5bc56/1-0000.mp3", duration = 60.4995918, start = 0},
+    {file = "Audio/Transport/full_quest_111-544a6a48470465d7244c/1-0000.mp3", duration = 39.4710204, start = 0},
   },
 }
 P.transport["quest:112"] = {
@@ -134,7 +134,7 @@ P.transport["quest:112"] = {
   fullHash = "324ad9",
   text = "Collecting Kelp. In Goldshire, Maybell Maclure seeks to visit Tommy Joe Stonefield unseen. William Pestle needs rare crystal kelp to brew her an invisibility liquor. The feud between the Stonefield and Maclure families keeps Maybell Maclure and Tommy Joe Stonefield from meeting openly. Maybell wants to see the one she loves without bringing their kin into an armed clash. So she seeks a way to cross the valley unseen. William Pestle, an herbalist and apothecary at the Lion's Pride Inn in Goldshire, plans to brew an invisibility liquor, but its rare ingredients are not in the inn's cupboards. William Pestle needs crystal kelp as the catalyst for his brew. Its fronds usually grow far out in saltwater oceans, but tribal murlocs have carried stashes inland to their crude camps along Crystal Lake, just east of Goldshire. Their peculiar instincts draw them to haul the marine plants to the freshwater shore. You need to recover enough fronds from the murlocs before returning to Goldshire with them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_112-86bc1f3289165e877935/1-0000.mp3", duration = 58.3053061, start = 0},
+    {file = "Audio/Transport/full_quest_112-86c855c56718ea7cfd5d/1-0000.mp3", duration = 62.1714286, start = 0},
   },
 }
 P.transport["quest:1138"] = {
@@ -142,7 +142,7 @@ P.transport["quest:1138"] = {
   fullHash = "6cba9f",
   text = "Fruit of the Sea. Along Darkshore, Auberdine fisherman Gubber Blump asks you to gather crab meat. He keeps to the docks and dreams of dishes for his catch. Gubber Blump fishes from Auberdine's long wooden piers, thinking of crab meat. He calls crabs the ocean's true bounty and imagines them baked, barbecued, or boiled. His recipes include whipper root crab and Ironforge surprise crab. Gubber cannot leave his fishing rod, so he asks you to gather ingredients from Darkshore's beaches. Reef crawlers and encrusted tide crawlers move among the breakers, offering meat for a coastal cook. Mind their claws as you gather the fine crab chunks.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1138-caf31c2ecdd39c59c8d1/1-0000.mp3", duration = 38.8179592, start = 0},
+    {file = "Audio/Transport/full_quest_1138-97592da9333403878b5f/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["quest:114"] = {
@@ -150,7 +150,7 @@ P.transport["quest:114"] = {
   fullHash = "292bc5",
   text = "The Escape. Maybell Maclure seeks a way to leave her family and meet Tommy Joe Stonefield. You bring her William Pestle's Invisibility Liquor, brewed with crystal kelp gathered across the region. The Maclures and Stonefields have feuded for generations, leaving no room for courtship. Gramma Stonefield asks William Pestle, an alchemist at the Lion's Pride Inn in Goldshire, for help. Crystal kelp from nearby lakes gives Pestle what he needs to brew Invisibility Liquor. The brew can hide Maybell's escape from the Maclure homestead.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_114-95439788108fd388dfa5/1-0000.mp3", duration = 42.1093878, start = 0},
+    {file = "Audio/Transport/full_quest_114-f1a6c14b05fd89815cad/1-0000.mp3", duration = 34.4816327, start = 0},
   },
 }
 P.transport["quest:1141"] = {
@@ -158,7 +158,7 @@ P.transport["quest:1141"] = {
   fullHash = "bc9447",
   text = "The Family and the Fishing Pole. On Auberdine's docks, Gubber Blump waits with his heirloom Fishing Pole for a catch. Hostile murlocs keep the town's small fishing boats ashore, so he seeks help catching native Darkshore grouper from the coast. Gubber Blump takes pride in his family's skill with a fishing line. Night elves make up most of Auberdine, though dwarves and gnomes have settled around its docks and port. Gubber spends his days gazing over the Veiled Sea instead of digging into stone. He hopes to bring in the local catch. Darkshore grouper thrive along the coast and make versatile food. They put up a lively fight on the line. Local fishermen usually row small boats into deeper waters to catch them, but aggressive murlocs now prowl the coast. The boats stay ashore, and Gubber fears the creatures are eating the local fish. So he asks travelers to fish from shore. Gubber gives a Blump Family Fishing Pole to anyone who brings him a hearty catch. He believes that landing a batch of feisty groupers proves an angler worthy of his family's legendary fishers, including his cousin Graun Blump. For Gubber, handing over a family rod is the highest mark of respect.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1141-44dc6fcada76e918a824/1-0000.mp3", duration = 66.8212245, start = 0},
+    {file = "Audio/Transport/full_quest_1141-1a5fb1c570c1ca814125/1-0000.mp3", duration = 71.7322449, start = 0},
   },
 }
 P.transport["quest:116"] = {
@@ -166,7 +166,7 @@ P.transport["quest:116"] = {
   fullHash = "2969d4",
   text = "Dry Times. Lakeshire's inn is running short of drink as Blackrock orcs keep the town under siege. The roads are unsafe, and the usual supplies have stopped coming. Blackrock orcs descend from Stonewatch Keep and press Lakeshire hard. With supply lines cut and roads unsafe, the inn is running low on drink. Barkeep Daniels turns to travelers who can cross the blocked roads and bring supplies back for frightened villagers and the town guards. Daniels needs drink from across Stormwind's lands. You can find Merlot in the capital and Sweet Rum at the Lion's Pride Inn in Goldshire. Moonshine comes from Darkshire in Duskwood, and Grimbooze Thunderbrew brews Thunderbrew Lager in the hills of Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_116-6c4baedb94edd596a23a/1-0000.mp3", duration = 42.1877551, start = 0},
+    {file = "Audio/Transport/full_quest_116-428a5d25bbdeb4f4ad44/1-0000.mp3", duration = 39.7061224, start = 0},
   },
 }
 P.transport["quest:117"] = {
@@ -174,7 +174,7 @@ P.transport["quest:117"] = {
   fullHash = "28267e",
   text = "Thunderbrew. In Westfall, Grimbooze Thunderbrew gathers fresh hops for his next batch. Without them, his ale may turn thick as stew, so he shares kegs with those who bring what he needs. Far from Dun Morogh, Grimbooze keeps his family's brewing tradition alive. He insists on proper hops for his current brew, or it may turn to thick stew instead of refreshing ale. Grimbooze praises hops, barley, yeast, and malt in cheerful rhymes. Fresh hops let him finish fermentation on the spot. In return, he shares whole kegs of Thunderbrew Lager, known for its forceful taste.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_117-5e04360830e2ccb8fc82/1-0000.mp3", duration = 35.84, start = 0},
+    {file = "Audio/Transport/full_quest_117-608d6be32eb385c8e889/1-0000.mp3", duration = 38.2955102, start = 0},
   },
 }
 P.transport["quest:1174"] = {
@@ -182,7 +182,7 @@ P.transport["quest:1174"] = {
   fullHash = "8f2b13",
   text = "Gnomes Win!. In Thousand Needles, the gnomes' victory decides which ticket pays out. The holder of the winning ticket gets a prize box. When the gnomes win, the holder of the Gnome Race Ticket gets the prize box. The goblin ticket counts for the other side of the race.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1174-621a6407fe1cb28972d5/1-0000.mp3", duration = 15.6995918, start = 0},
+    {file = "Audio/Transport/full_quest_1174-e94cc4843f7ab520ccbe/1-0000.mp3", duration = 18.5991837, start = 0},
   },
 }
 P.transport["quest:118"] = {
@@ -190,7 +190,7 @@ P.transport["quest:118"] = {
   fullHash = "4a804a",
   text = "The Price of Shoes. Verner Osgood has no iron left in Lakeshire, and the guards need constant repairs. He sends you west through Elwynn Forest to ask Smith Argus in Goldshire for horseshoes. Lakeshire faces gnolls, orcs, and murlocs, while Stormwind sends little help. The garrison fights each day to keep the town standing, and battle wears down its gear. Verner Osgood spends nearly every waking hour repairing dented breastplates, reshaping dulled swords, and keeping the guards clad in iron. Now his raw materials are gone. Without iron, even ordinary work in a frontier town can stop. Horses without shoes cannot carry messengers swiftly or haul supplies along Redridge's rocky paths. Verner swallows his pride and sends you west along the Three Corners road to Goldshire. Smith Argus there has regular access to the kingdom's mineral stores.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_118-803f27cb4434d8023b3d/1-0000.mp3", duration = 52.3232653, start = 0},
+    {file = "Audio/Transport/full_quest_118-8e336228ea5197f9b66e/1-0000.mp3", duration = 55.1444898, start = 0},
   },
 }
 P.transport["quest:119"] = {
@@ -198,7 +198,7 @@ P.transport["quest:119"] = {
   fullHash = "ebf555",
   text = "Return to Verner. Smith Argus has finished fifty horseshoes, and you carry them from Goldshire to Verner Osgood in Lakeshire. Redridge needs them for its hard-pressed mounts. You carry the crate east across the border into Redridge. There, supply shortages and gnoll attacks threaten the town. The fifty iron shoes keep horses and draft animals working on rugged mountain roads, which Redridge needs to face those dangers. Verner Osgood is relieved when the horseshoes arrive. Then he finds the bill Smith Argus attached to the crate. Verner is annoyed that the Goldshire smith expects payment. With dangers pressing around Redridge, there is little time to argue over the charge.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_119-099d5fb0efdda5e244d9/1-0000.mp3", duration = 40.437551, start = 0},
+    {file = "Audio/Transport/full_quest_119-a67486ba51f497de311c/1-0000.mp3", duration = 41.5869388, start = 0},
   },
 }
 P.transport["quest:12"] = {
@@ -206,7 +206,7 @@ P.transport["quest:12"] = {
   fullHash = "da5a66",
   text = "The People's Militia. At Sentinel Hill, Gryan Stoutmantle puts the People's Militia to the test against outlaws in Westfall's northern fields and mines. Local volunteers defend the region from the Defias Brotherhood while Stormwind's throne is distracted and its army absent. Gryan Stoutmantle founded the People's Militia, and he does not take just anyone. Anyone seeking its badge must prove they can fight and protect innocent settlers. He calls for decisive action to reclaim Westfall from the outlaws, vagrants, and thieves overrunning the region. Before Gryan Stoutmantle trusts new recruits with deeper operations, he sends them against Defias forces near the northern homesteads. Defias Trappers and Smugglers work openly near Jangolode Mine, Molsen Farm, and Furlbrow's Pumpkin Patch. They pillage stores and ambush travelers. Driving them out disrupts their foraging and shows Stoutmantle's scouts you have the grit for a long fight against crime.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_12-336c5e9cd0e3e347f9e8/1-0000.mp3", duration = 57.4432653, start = 0},
+    {file = "Audio/Transport/full_quest_12-d852cc4cb3a1a16c879c/1-0000.mp3", duration = 62.6416327, start = 0},
   },
 }
 P.transport["quest:120"] = {
@@ -214,7 +214,7 @@ P.transport["quest:120"] = {
   fullHash = "e2c0fe",
   text = "Messenger to Stormwind. In Lakeshire, Magistrate Solomon sends an urgent plea to Stormwind. Gnolls and Blackrock orcs press around the town, and he cannot spare garrison troops for the journey. He entrusts you with The State of Lakeshire for General Marcus Jonathan in Stormwind City. Gnolls contest every road from Lakeshire, while Blackrock orcs raid from the north. The town's guardsmen are stretched thin. Magistrate Solomon cannot spare fighting men for the days-long ride to the capital, so you carry his official plea for regular troops to the city gates. General Marcus Jonathan commands Stormwind's defense. Solomon's report reaches him, and he respects the magistrate's leadership and sees the urgency. Yet army protocol bars him from mobilizing troops without a royal directive. Redridge's defense must wait while he consults the young King Anduin and the regency council.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_120-34107bf8eb0fa6227679/1-0000.mp3", duration = 52.3755102, start = 0},
+    {file = "Audio/Transport/full_quest_120-62be6908c7af6a35b541/1-0000.mp3", duration = 63.6081633, start = 0},
   },
 }
 P.transport["quest:1205"] = {
@@ -222,7 +222,7 @@ P.transport["quest:1205"] = {
   fullHash = "c873e0",
   text = "Deadmire. In Dustwallow Marsh, hunters seek Deadmire in the waterways north of the Stonemaul Ruins. Melor Stonehoof asks you to bring back a tooth from the ancient crocolisk. The hunt teaches tracking and mercy. From Hunter Rise in Thunder Bluff, Melor Stonehoof sends you east to Dustwallow Marsh. He teaches promising trackers the spiritual traditions of the hunt. Tauren hunters seek reverence and a bond with the natural world, not slaughter or trophies. There, you are to find Deadmire, an ancient crocolisk whose long life has become a burden. North of the Stonemaul Ruins, Deadmire prowls the waterways as a massive, pale crocolisk. His strength and fury still flare in sudden bursts, but age has worn down his body. Grinding bones bring unrelenting pain. Melor asks you to grant him a swift, honorable end and bring back one tooth as a token of his release.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1205-45a01bc88cb6c301f463/1-0000.mp3", duration = 52.2710204, start = 0},
+    {file = "Audio/Transport/full_quest_1205-c66c74930397129aeb73/1-0000.mp3", duration = 60.6563265, start = 0},
   },
 }
 P.transport["quest:121"] = {
@@ -230,7 +230,7 @@ P.transport["quest:121"] = {
   fullHash = "32c9f7",
   text = "Messenger to Stormwind. In Stormwind, you carry General Marcus Jonathan's reply to Lakeshire, where Blackrock orcs and gnolls threaten the town. The capital sends no troops while its leaders delay, leaving the settlement exposed. You brought Magistrate Solomon's plea for reinforcements to General Marcus Jonathan in Stormwind. Now you carry his first reply back to Redridge while he waits for the throne's approval. Without royal permission, the General cannot commit the army. Lakeshire's citizens still have no city guards, and each day brings the settlement closer to falling to the Blackrock clan.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_121-f83a1c46fe332e27e547/1-0000.mp3", duration = 34.3771429, start = 0},
+    {file = "Audio/Transport/full_quest_121-d19f6f6ab6043f2d9353/1-0000.mp3", duration = 43.4677551, start = 0},
   },
 }
 P.transport["quest:122"] = {
@@ -238,7 +238,7 @@ P.transport["quest:122"] = {
   fullHash = "fe5c56",
   text = "Underbelly Scales. In Redridge, Verner Osgood needs black dragon whelp scales to pay his debt to Smith Argus of Goldshire. You gather them from young drakes south of Lakeshire, and the scales settle Verner’s account with raw hide left for a piece of gear. Verner Osgood runs a forge outside Lakeshire and trades with craftsmen beyond the Redridge Mountains. Smith Argus of Goldshire sent him horseshoes, but Verner lacks the coin to pay. Argus asks for dragonhide instead: the softer underbelly scales of the black dragon whelps in the region. Without them, collectors may come from Elwynn Forest to claim the debt. Black dragon whelps trouble the defenders of the Redridge Mountains. Gnolls and orcs contest the roads, while the Black Dragonflight nests in the high peaks. Its brood wanders the skies south of Lake Everstill. The young predators’ underbelly scales are tough yet pliable, prized by armorers, smiths, and leatherworkers across the kingdom who dare to harvest them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_122-65f0c4d8b31a0b801b9a/1-0000.mp3", duration = 58.7755102, start = 0},
+    {file = "Audio/Transport/full_quest_122-4568a09e719a75e70de8/1-0000.mp3", duration = 64.0261224, start = 0},
   },
 }
 P.transport["quest:123"] = {
@@ -246,7 +246,7 @@ P.transport["quest:123"] = {
   fullHash = "e119ae",
   text = "The Collector. In Elwynn Forest, gold shipments leave the abandoned mines under cover of gnoll raids. An intercepted dispatch names their overseer as 'The Collector' and points to an organized operation near Stormwind's garrison. Riverpaw gnolls in western Elwynn Forest carry a parchment called the Gold Pickup Schedule. It sets dates and times for gold taken from local mines. The intercepted note directs each shipment to an overseer known only as 'The Collector.' At the Lion's Pride Inn, Marshal Dughan learns that gold is still being mined and moved. Official mines across Elwynn have been closed for months because of gnoll attacks, kobold infestations, and roaming bandits. Gnolls with shipping schedules point to an organized criminal network stealing the kingdom's wealth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_123-e0e2e88f12b094a336b3/1-0000.mp3", duration = 60.6040816, start = 0},
+    {file = "Audio/Transport/full_quest_123-ab8b9a197597a0daa90d/1-0000.mp3", duration = 57.8089796, start = 0},
   },
 }
 P.transport["quest:125"] = {

@@ -678,7 +678,24 @@ end
 local FLASH, FADE, SWAP, PAIR_FLASH = 3, 0.2, 0.6, 4.8
 local moment
 
+-- A quest taken up, turned in or abandoned (LOR-1468, docs/qa/dungeon-prep.md lines 40 to 40h), so Willo ticks it on a
+-- dungeon's prep list at once: kind 3, low bits 28, then the event (1 taken up, 2 turned in, 3 abandoned) in the top 4
+-- bits and the quest id in the low 24. Only to a Willo that says she reads it (LoreForeverJourneyData.skyQuests): an
+-- older one takes an unknown page as the answer gone. And only for a quest on one of this character's prep lists as
+-- Willo last wrote them (LoreForeverJourneyData.prepQuests, {"Name-Realm": {ids}}): with no list the sky is as before
+-- (the Design Lead's hold, Mike's LOR-1126: the sky only when needed). A list made since the add-on loaded ticks at
+-- the next save, or live after a /reload. The sky is hidden until needed: a page
+-- rides a show that's up (a big moment's: after its own pages, QUEST_SHOW each) or one that comes within QUEST_GATHER
+-- (a turn-in's chime-in), else it has one of its own (a moment's length, its pages taking turns). At most QUEST_RUN wait
+-- or ride a show: past that the oldest goes (the save still ticks it), so a burst keeps the sky up a moment's length.
+local QUEST_SHOW, QUEST_RUN, QUEST_GATHER, QUEST_WAIT, QUEST_RETRY = 1.2, 4, 10, 120, 1
+local quests, questTimer = {}, false   -- { { page, at } } waiting for a show; a look at them is due
+
 local function momentPage(m)
+  local tail = m.tail
+  if tail and #tail > 0 and now() >= m.body then
+    return tail[math.min(#tail, math.floor((now() - m.body) / QUEST_SHOW) + 1)]
+  end
   local n = #m.pages
   if n < 2 then return m.pages[1] end
   return m.pages[math.floor((now() - m.from) / SWAP) % n + 1]
@@ -799,7 +816,7 @@ end
 -- once per target per sky-up. A moment or a question going round takes the ring: the pages stop, and start again from
 -- the first once it's free. After every NAME_RUN of them the ring has one SKY_UP_HOLD turn for whatever it would carry
 -- otherwise (the identity, the purse, where you stand, an answer, another kind's page), so nothing waits for the whole
--- name. Kind 3's low 6 bits go to 63: 8-23 are these, 24 on are free for other pages.
+-- name. Kind 3's low 6 bits go to 63: 8-23 are these, 24-27 Own.lua's, 28 a quest's (Strip.QuestPage), 29 on free.
 -- Never a person's name: only a Creature or Vehicle GUID, and only when the game plainly says it's no player and
 -- nothing a player controls (a hunter's pet, a warlock's demon, the charmed, a guardian; a secret answer sends
 -- nothing); never a name the game keeps secret; never a title that names an owner ("<Owner>'s Minion").
@@ -1077,28 +1094,192 @@ function Strip.SetRing(bytes)
   if Strip.Showing() ~= showing then Strip.Update() end   -- the sky comes up to carry them, and goes with them
 end
 
+local questsGo
 local function endMoment(m, cut)
   if moment ~= m then return end
   moment, identityTurn = nil, 7
   ns.Sky.SetFade(1)
   if cut and m.aborted then pcall(m.aborted) end
+  -- Quest pages it carried, stopped before they were all up: they wait again (Willo takes a page once a minute).
+  if cut and m.tail then
+    for i = #m.tail, 1, -1 do table.insert(quests, 1, { page = m.tail[i], at = now() }) end
+    while #quests > QUEST_RUN do table.remove(quests, 1) end
+  end
   Strip.Update()
+  if #quests > 0 then questsGo(true) end
+end
+
+-- The show ends at m.till, which riding quest pages push back.
+local function endLater(m)
+  if not (C_Timer and C_Timer.After) then return end
+  C_Timer.After(math.max(0, m.till - now()) + 0.05, function()
+    if moment == m and now() < m.till then endLater(m) else endMoment(m) end
+  end)
+end
+
+-- How many more quest pages this show can carry (a quest's own show counts its own pages), 0 once it's fading out.
+local function room(m)
+  if now() >= m.till - FADE then return 0 end
+  return QUEST_RUN - (m.quest and #m.pages or 0) - (m.tail and #m.tail or 0)
+end
+
+-- Quest pages waiting ride this show, after its own pages.
+local function ride(m)
+  local n = room(m)
+  if #quests == 0 or n <= 0 then return end
+  m.tail = m.tail or {}
+  while #quests > n do table.remove(quests, 1) end     -- past QUEST_RUN: the oldest go (the save still ticks them)
+  for _, q in ipairs(quests) do m.tail[#m.tail + 1] = q.page end
+  quests = {}
+  m.till = math.max(m.till, m.body + #m.tail * QUEST_SHOW)
 end
 
 -- Send Willo a big moment's pages (Moments.Pages: one, or two in turn). held() says why it must stop now (a fight, a
 -- cutscene: nil while it may go on), checked every frame; stopped, aborted() is called so it can go again later. False
 -- when it can't go now.
-function Strip.Moment(pages, held, aborted)
+function Strip.Moment(pages, held, aborted, quest)
   if moment or not Strip.On() then return false end
   if type(pages) ~= "table" or type(pages[1]) ~= "table" then pages = { pages } end
   local t, own = now(), not Strip.Showing()
   local long = #pages > 1 and PAIR_FLASH or FLASH
-  local m = { pages = pages, from = t, till = t + long, own = own, held = held, aborted = aborted, turn = 0 }
+  local m = { pages = pages, from = t, till = t + long, body = t + long, own = own, held = held, aborted = aborted,
+    quest = quest }
   moment = m
+  if not quest then ride(m) end
   if own then ns.Sky.SetFade(0) end
   Strip.Update()
-  if C_Timer and C_Timer.After then C_Timer.After(long + 0.05, function() endMoment(m) end) end
+  endLater(m)
   return true
+end
+
+-- Whether the Willo on this PC reads quest pages (LoreForeverJourneyData.skyQuests, written by Willo, LOR-1468).
+function Strip.QuestsFromWillo()
+  local data = Strip.FromWilloLately()
+  return type(data) == "table" and data.skyQuests == true
+end
+
+-- Whether this quest is on one of the playing character's prep lists, as Willo last wrote them (prepQuests).
+local function onAList(id)
+  local data = Strip.FromWilloLately()
+  local lists = type(data) == "table" and data.prepQuests
+  local key = type(lists) == "table" and ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()
+  local ids = type(key) == "string" and lists[key]
+  if type(ids) ~= "table" then return false end
+  for _, q in ipairs(ids) do if q == id then return true end end
+  return false
+end
+
+-- Why a quest's own show can't go now: a moment's reasons (Moments.Held), but a narration or Willo's answer, which
+-- hold a moment only for its spoken line, don't hold a page with nothing to say.
+local function questHeld()
+  local why = ns.Moments and ns.Moments.Held and ns.Moments.Held()
+  if why == "narration" or why == "Willo answering" then return nil end
+  return why
+end
+
+local function questLater(delay)
+  if questTimer or not (C_Timer and C_Timer.After) then return end
+  questTimer = true
+  C_Timer.After(delay, function() questTimer = false; questsGo(true) end)
+end
+
+-- The waiting quest pages: onto the show that's up, or (due: QUEST_GATHER has passed) a show of their own.
+function questsGo(due)
+  local t = now()
+  for i = #quests, 1, -1 do if t - quests[i].at > QUEST_WAIT then table.remove(quests, i) end end
+  if #quests == 0 or not (Strip.On() and Strip.QuestsFromWillo()) then quests = {}; return end
+  if moment then
+    if room(moment) > 0 then return ride(moment) end
+    return questLater(QUEST_RETRY)                     -- full or fading out: the next show
+  end
+  if not due or questHeld() then return questLater(due and QUEST_RETRY or QUEST_GATHER) end
+  local pages, was = {}, quests
+  for i = 1, #quests do pages[i] = quests[i].page end
+  quests = {}
+  local function again()
+    for i = #pages, 1, -1 do table.insert(quests, 1, { page = pages[i], at = now() }) end
+    while #quests > QUEST_RUN do table.remove(quests, 1) end
+  end
+  if not Strip.Moment(pages, questHeld, again, true) then
+    quests = was
+    questLater(QUEST_RETRY)
+  end
+end
+
+-- A page of kind 3 low 28 waiting for a show: event << 28 | id. due: a show of its own now, not after QUEST_GATHER.
+local function listPage(event, id, due)
+  local v = event * 268435456 + math.floor(id)
+  local page = { 0xDC, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }
+  local key = table.concat(page, ":")
+  for _, q in ipairs(quests) do if table.concat(q.page, ":") == key then return end end
+  quests[#quests + 1] = { page = page, at = now() }
+  while #quests > QUEST_RUN do table.remove(quests, 1) end
+  questsGo(due)
+end
+
+-- A quest taken up (1), turned in (2) or abandoned (3), from Journey.lua.
+function Strip.QuestPage(event, id)
+  id = tonumber(id)
+  if not (id and id > 0 and id <= 0xFFFFFF and (event == 1 or event == 2 or event == 3)) then return end
+  if not (Strip.On() and Strip.QuestsFromWillo() and onAList(id)) then return end
+  listPage(event, id, false)
+end
+
+-- The door line (LOR-1468 3b-2; docs/qa/dungeon-prep.md lines 43 to 46, 58a): walking into a dungeon this character
+-- has a prep list for, door.wait after the loading screen (inside the sky's own arrival glance, so the pages ride
+-- a sky already up: 3 s missed it, 11/17 sim), each of its "Carry in" things is counted in the bags
+-- (GetItemCount: the bags, not the bank; any of a thing's ids counts), and each one missing goes as a page (event 4,
+-- its first id), one show of its own. Willo says one line for them ("You don't have the Crate With Holes with you.")
+-- and only once a day for each. Never from the save: what's in the bags at the door, counted here (the Architect's
+-- answer 3). The things come from Willo's Data.lua (prepCarry, {"Name-Realm": {[map id] = {{ids of a thing}}}}), only
+-- from a Willo that says she reads quest pages; nothing missing, or nothing to count: nothing sent. Every entry
+-- counts again (walking out and in); Willo keeps it to once a day.
+-- (One table: Strip.lua's main chunk is at Lua's 200 locals.) wait: seconds after the loading screen; at: the instance
+-- (map id) they were last seen in, a new one a door.
+local door = { wait = 1, at = nil }
+
+function door.carry(inst)
+  local data = Strip.FromWilloLately()
+  local all = type(data) == "table" and data.prepCarry
+  local key = type(all) == "table" and ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()
+  local mine = type(key) == "string" and all[key]
+  local things = type(mine) == "table" and mine[inst]
+  return type(things) == "table" and things or nil
+end
+
+function door.count(inst)
+  if not (Strip.On() and Strip.QuestsFromWillo()) then return end
+  local okNow, now2 = pcall(function() return (select(8, GetInstanceInfo())) end)
+  if not okNow or now2 ~= inst then return end                     -- left again before the count
+  local things = door.carry(inst)
+  -- This client has it as C_Item.GetItemCount (the bags, without the bank); older ones as the global. No count back
+  -- for a thing: nothing sent for it (never "missing" on a count the game didn't give).
+  local count = (C_Item and C_Item.GetItemCount) or GetItemCount
+  if not (things and count) then return end
+  for _, ids in ipairs(things) do
+    local have, first, known = 0, nil, true
+    for _, id in ipairs(type(ids) == "table" and ids or {}) do
+      id = tonumber(id)
+      if id and id > 0 and id <= 0xFFFFFF then
+        first = first or id
+        local n = tonumber((try(count, id)))
+        if n then have = have + n else known = false end
+      end
+    end
+    if first and known and have == 0 then listPage(4, first, true) end
+  end
+end
+
+-- Where they are now, at each loading screen and new zone: a dungeon they weren't in a moment ago is a door.
+function Strip.DoorCheck()
+  local okIn, inInst, kind = pcall(IsInInstance)
+  local okInst, inst = pcall(function() return (select(8, GetInstanceInfo())) end)
+  inst = okInst and tonumber(inst) or nil
+  local inside = okIn and inInst and (kind == "party" or kind == "raid") and inst
+  if not inside then door.at = nil; return end
+  if inst == door.at then return end
+  door.at = inst
+  if door.carry(inst) and C_Timer and C_Timer.After then C_Timer.After(door.wait, function() door.count(inst) end) end
 end
 
 -- Every frame of a twinkle: stop it if something came up, else fade it (only one the sky showed for). True when it
@@ -1109,9 +1290,10 @@ local function momentFrame(t)
   local ok, why = pcall(m.held or function() end)
   if not ok or why then endMoment(m, true); return true end
   if t >= m.till then endMoment(m); return true end
-  -- Two pages: repaint at each turn (the sky otherwise repaints only on an event or once a second).
-  local turn = math.floor((t - m.from) / SWAP)
-  if #m.pages > 1 and turn ~= m.turn then m.turn, stale = turn, true end
+  -- Two pages, or quest pages after its own: repaint at each turn (the sky otherwise repaints only on an event or once
+  -- a second).
+  local page = momentPage(m)
+  if page ~= m.shown then m.shown, stale = page, true end
   if m.own then ns.Sky.SetFade(math.min(1, (t - m.from) / FADE, (m.till - t) / FADE)) end
   return false
 end
