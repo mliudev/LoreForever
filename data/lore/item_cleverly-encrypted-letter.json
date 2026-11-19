@@ -1,0 +1,91 @@
+{
+ "key": "item:cleverly-encrypted-letter",
+ "type": "item",
+ "name": "Cleverly Encrypted Letter",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Cleverly Encrypted Letter",
+  "quests": [
+   "quest:511",
+   "quest:514"
+  ]
+ },
+ "summary": "The Cleverly Encrypted Letter is an unreadable note found in Hillsbrad Foothills. Loremaster Dibbs sends it onward to Prospector Stormpike in Ironforge, hoping his expertise can reveal its meaning.",
+ "sections": [
+  {
+   "title": "An Unreadable Note",
+   "body": "On a table in Hillsbrad Foothills, one letter stands apart from the rest. Its writing is encrypted and inscrutable, so you bring it to Loremaster Dibbs in Southshore. He has never seen this form of encryption and doubts his own knowledge is enough. He sends you to his colleague Prospector Stormpike in Ironforge, a specialist in such puzzles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the letter come from?",
+   "aliases": [
+    "letter origin",
+    "where found",
+    "encrypted note"
+   ],
+   "answer": "The letter was found among other letters on a table in Hillsbrad Foothills."
+  },
+  {
+   "q": "Why is the letter encrypted?",
+   "aliases": [
+    "why encrypted",
+    "what's the code",
+    "letter code"
+   ],
+   "answer": "Its writing uses a form of encryption that Loremaster Dibbs has never seen. Its purpose is not known."
+  },
+  {
+   "q": "Who is trying to read the letter?",
+   "aliases": [
+    "who deciphers it",
+    "who can read it",
+    "letter reader"
+   ],
+   "answer": "Loremaster Dibbs in Southshore examines the letter, then sends you to his colleague Prospector Stormpike in Ironforge."
+  },
+  {
+   "q": "Where can I take the letter?",
+   "aliases": [
+    "where take letter",
+    "letter to stormpike",
+    "who do i show"
+   ],
+   "answer": "Take the letter to Prospector Stormpike in the Library of Ironforge's Hall of Explorers. Loremaster Dibbs sent you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you carry the letter from Southshore to Ironforge, linking two settlements where scholars may help uncover its meaning."
+  }
+ ],
+ "keywords": [
+  "cleverly encrypted letter",
+  "encrypted letter",
+  "hall of explorers",
+  "ironforge",
+  "letter",
+  "loremaster dibbs",
+  "prospector stormpike",
+  "southshore"
+ ],
+ "related": [
+  "quest:3102",
+  "quest:514",
+  "npc:prospector-stormpike",
+  "subzone:southshore",
+  "subzone:hall-of-explorers",
+  "zone:hillsbrad",
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Cleverly Encrypted Letter",
+  "Encrypted Letter (Hillsbrad Foothills)",
+  "Letter to Stormpike"
+ ]
+}

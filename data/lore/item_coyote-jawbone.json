@@ -1,0 +1,89 @@
+{
+ "key": "item:coyote-jawbone",
+ "type": "item",
+ "name": "Coyote Jawbone",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Coyote Jawbone",
+  "quests": [
+   "quest:1419"
+  ]
+ },
+ "summary": "A coyote jawbone marks a crag coyote hunted in the Badlands. Neeka Bloodscar seeks them to keep the beasts from raiding Kargath's food supplies.",
+ "sections": [
+  {
+   "title": "A Kargath Keepsake",
+   "body": "Crag coyotes prowl the dusty plains of the Badlands, and some creep into Kargath for food. Neeka Bloodscar asks you to bring her their jawbones. She says the beasts are tough prey, and the hunt may show whether you can survive in this harsh land.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Coyote Jawbone?",
+   "aliases": [
+    "coyote bone",
+    "jawbone item",
+    "coyote jaw"
+   ],
+   "answer": "A Coyote Jawbone comes from a crag coyote in the Badlands. Neeka Bloodscar asks for them in Kargath."
+  },
+  {
+   "q": "Why does Neeka want the jawbones?",
+   "aliases": [
+    "why jawbones",
+    "neeka wants bones",
+    "what for"
+   ],
+   "answer": "Crag coyotes creep into Kargath and steal scraps from the food supplies. Neeka wants their jawbones as proof of the hunt that helps keep the coyotes away."
+  },
+  {
+   "q": "Where can I find the coyotes?",
+   "aliases": [
+    "coyote location",
+    "where coyotes",
+    "badlands coyotes"
+   ],
+   "answer": "Crag coyotes roam the dusty plains of the Badlands."
+  },
+  {
+   "q": "Who is Neeka Bloodscar?",
+   "aliases": [
+    "neeka",
+    "bloodscar",
+    "who wants bones"
+   ],
+   "answer": "Neeka Bloodscar is in Kargath and asks for crag coyote jawbones to protect the outpost's food supplies."
+  },
+  {
+   "q": "Are crag coyotes easy prey?",
+   "aliases": [
+    "hard coyotes",
+    "tough prey",
+    "coyote difficulty"
+   ],
+   "answer": "No. Neeka calls crag coyotes a tough breed and says they are not easy prey."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "coyote jawbone",
+  "coyote thieves",
+  "crag coyote",
+  "food supplies",
+  "kargath",
+  "neeka bloodscar"
+ ],
+ "related": [
+  "quest:1419",
+  "zone:badlands",
+  "subzone:kargath",
+  "quest:1418"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Coyote Jawbone",
+  "Coyote Thieves"
+ ]
+}

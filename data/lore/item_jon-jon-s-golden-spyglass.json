@@ -1,0 +1,103 @@
+{
+ "key": "item:jon-jon-s-golden-spyglass",
+ "type": "item",
+ "name": "Jon-Jon's Golden Spyglass",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Jon-Jon's Golden Spyglass",
+  "quests": [
+   "quest:609"
+  ]
+ },
+ "summary": "Jon-Jon's Golden Spyglass is among the valuables Sea Wolf MacKinley seeks in Booty Bay. He wants it returned with two other debts from the jungle ruins.",
+ "sections": [
+  {
+   "title": "A Debt in Gold",
+   "body": "Sea Wolf MacKinley in Booty Bay wants Jon-Jon's Golden Spyglass returned with two other valuables. Jon-Jon the Crow is one of three debtors MacKinley says vanished into the jungle ruins. Their debts have gone unpaid for months, and MacKinley wants what he is owed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Jon-Jon's spyglass?",
+   "aliases": [
+    "who wants it",
+    "MacKinley spyglass",
+    "spyglass debt"
+   ],
+   "answer": "Sea Wolf MacKinley of Booty Bay wants it back, along with two other valuables owed to him."
+  },
+  {
+   "q": "Who is Jon-Jon the Crow?",
+   "aliases": [
+    "jon jon",
+    "jon-jon backstory",
+    "the crow"
+   ],
+   "answer": "Jon-Jon the Crow is one of three debtors MacKinley says wandered into the jungle ruins after their debts went unpaid."
+  },
+  {
+   "q": "Why does MacKinley want the spyglass?",
+   "aliases": [
+    "why spyglass",
+    "MacKinley debt",
+    "why collect it"
+   ],
+   "answer": "MacKinley says Jon-Jon owes him, and he wants the valuables he is owed returned."
+  },
+  {
+   "q": "Where can Jon-Jon's spyglass be found?",
+   "aliases": [
+    "spyglass location",
+    "where is jon jon",
+    "find golden spyglass"
+   ],
+   "answer": "MacKinley points you toward the Ruins of Aboraz and the Ruins of Jubuwal, northeast of Booty Bay, where the debtors wander."
+  },
+  {
+   "q": "What other valuables does MacKinley want?",
+   "aliases": [
+    "other debts",
+    "Maury and Chucky",
+    "three valuables"
+   ],
+   "answer": "MacKinley also seeks Maury's Clubbed Foot and Chucky's Huge Ring."
+  },
+  {
+   "q": "What does MacKinley say about the debtors?",
+   "aliases": [
+    "why are they in ruins",
+    "debtors cursed",
+    "what happened to them"
+   ],
+   "answer": "MacKinley says he heard the debtors were cursed and bewitched and now wander the jungle ruins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "golden spyglass",
+  "jon-jon",
+  "jon-jon the crow",
+  "ruins of aboraz",
+  "ruins of jubuwal",
+  "sea wolf mackinley",
+  "spyglass",
+  "voodoo dues"
+ ],
+ "related": [
+  "quest:609",
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "subzone:ruins-of-aboraz",
+  "subzone:ruins-of-jubuwal",
+  "item:chucky-s-huge-ring",
+  "item:maury-s-clubbed-foot"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Jon-Jon's Golden Spyglass",
+  "Voodoo Dues"
+ ]
+}

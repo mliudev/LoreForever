@@ -1,0 +1,91 @@
+{
+ "key": "item:goggles-of-gem-hunting",
+ "type": "item",
+ "name": "Goggles of Gem Hunting",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Goggles of Gem Hunting",
+  "quests": [
+   "quest:666"
+  ]
+ },
+ "summary": "The Goggles of Gem Hunting are a gnomish device used to find treasure beneath the waters off Arathi Highlands. Their enchantment reveals gems buried in stone on the sea floor.",
+ "sections": [
+  {
+   "title": "Beneath the Waves",
+   "body": "Off Faldir's Cove, Doctor Draxlegauge lends the Goggles of Gem Hunting to Captain O'Breen's crew. Professor Phizzlethorpe empowers the device with an enchanted stone, giving it the power to locate gems below. The treasure has lain underwater so long that its gems have calcified into thick stone. Draxlegauge asks that the goggles be returned when the search is done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who made the goggles?",
+   "aliases": [
+    "goggles maker",
+    "who built them",
+    "draxlegauge goggles"
+   ],
+   "answer": "Doctor Draxlegauge constructed the Goggles of Gem Hunting, and Professor Phizzlethorpe empowered them with an enchanted stone."
+  },
+  {
+   "q": "What do the goggles do?",
+   "aliases": [
+    "how do goggles work",
+    "find gems",
+    "gem hunting goggles"
+   ],
+   "answer": "The goggles let their wearer locate gems beneath the sea, even when the gems have calcified into thick stone."
+  },
+  {
+   "q": "Where are the goggles used?",
+   "aliases": [
+    "where to use goggles",
+    "goggles location",
+    "faldir cove goggles"
+   ],
+   "answer": "The Goggles of Gem Hunting are used to search the sea floor off Faldir's Cove in Arathi Highlands."
+  },
+  {
+   "q": "Why does Captain O'Breen want the gems?",
+   "aliases": [
+    "captain wants gems",
+    "why collect elven gems",
+    "o'breen treasure"
+   ],
+   "answer": "Doctor Draxlegauge asks you to find the sunken gems for Captain O'Breen. The provided account gives no further reason for the Captain's interest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, you can see Doctor Draxlegauge's ingenuity at work in a device built to find gems beneath the sea."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may admire how Doctor Draxlegauge's goggles join gnomish construction with Professor Phizzlethorpe's enchantment."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "doctor draxlegauge",
+  "elven gems",
+  "faldir's cove",
+  "goggles",
+  "goggles of gem hunting",
+  "professor phizzlethorpe",
+  "sunken treasure"
+ ],
+ "related": [
+  "quest:665",
+  "item:elven-gem",
+  "item:elven-gems",
+  "subzone:faldir-s-cove",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Goggles of Gem Hunting",
+  "Sunken Treasure (2)"
+ ]
+}

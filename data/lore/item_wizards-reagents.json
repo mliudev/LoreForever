@@ -1,0 +1,89 @@
+{
+ "key": "item:wizards-reagents",
+ "type": "item",
+ "name": "Wizards' Reagents",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Wizards' Reagents",
+  "quests": [
+   "quest:1421"
+  ]
+ },
+ "summary": "Wizards' Reagents are valuable supplies carried in a caravan chest lost in the Swamp of Sorrows. They are needed by the wizards of Nethergarde Keep for work tied to the Dark Portal.",
+ "sections": [
+  {
+   "title": "The Lost Chest",
+   "body": "A caravan wagon was dragged to Fallow Sanctuary after an attack by the Lost Ones. Its chest holds reagents vital to the wizards of Nethergarde Keep. Watcher Biggs needs them returned so the wizards can continue their studies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Wizards' Reagents?",
+   "aliases": [
+    "wizard reagents",
+    "what reagents",
+    "reagents item"
+   ],
+   "answer": "They are valuable reagents carried in a caravan chest, needed for the wizards' studies at Nethergarde Keep."
+  },
+  {
+   "q": "Where is the caravan chest?",
+   "aliases": [
+    "chest location",
+    "where chest",
+    "find caravan"
+   ],
+   "answer": "The caravan chest is in Fallow Sanctuary, the Lost Ones' village in the Swamp of Sorrows."
+  },
+  {
+   "q": "Who needs the reagents?",
+   "aliases": [
+    "who wants reagents",
+    "Biggs reagents",
+    "who needs them"
+   ],
+   "answer": "Watcher Biggs asks for the reagents so the wizards of Nethergarde Keep can continue their studies."
+  },
+  {
+   "q": "Why do the wizards need them?",
+   "aliases": [
+    "what are reagents for",
+    "why wizards need",
+    "portal work"
+   ],
+   "answer": "The reagents are vital to the wizards' studies, which are linked to the Dark Portal in the Blasted Lands and the Alliance's security."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, returning the reagents helps Nethergarde Keep continue work tied to the Dark Portal and the security of the Alliance."
+  }
+ ],
+ "keywords": [
+  "caravan chest",
+  "dark portal",
+  "fallow sanctuary",
+  "lost caravan",
+  "nethergarde keep",
+  "swamp of sorrows",
+  "watcher biggs",
+  "wizards' reagents"
+ ],
+ "related": [
+  "quest:1421",
+  "subzone:fallow-sanctuary",
+  "zone:swampofsorrows",
+  "subzone:nethergarde-keep",
+  "subzone:dark-portal",
+  "zone:blastedlands",
+  "topic:alliance"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Wizards' Reagents",
+  "The Lost Caravan"
+ ]
+}

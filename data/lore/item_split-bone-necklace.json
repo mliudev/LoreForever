@@ -1,0 +1,96 @@
+{
+ "key": "item:split-bone-necklace",
+ "type": "item",
+ "name": "Split Bone Necklace",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Split Bone Necklace",
+  "quests": [
+   "quest:598"
+  ]
+ },
+ "summary": "Split Bone Necklaces are trophies taken from the Skullsplitter trolls of Stranglethorn Vale. Kin'weelay asks for them to aid the Darkspears in their long war.",
+ "sections": [
+  {
+   "title": "A Darkspear Tally",
+   "body": "At Grom'gol Base Camp, Kin'weelay sends you southeast toward the Skullsplitter tribe. Their warriors dwell among the troll ruins of Stranglethorn Vale, and the Darkspears have fought them for years. Though the Darkspears no longer live in the Vale, Kin'weelay says they remain bound to this conflict. Bring the necklaces to him, and your deeds will aid his people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Split Bone Necklaces?",
+   "aliases": [
+    "who wants these necklaces",
+    "kinweelay necklace",
+    "necklace for who"
+   ],
+   "answer": "Kin'weelay of the Darkspear tribe asks you to bring the Split Bone Necklaces to him at Grom'gol Base Camp."
+  },
+  {
+   "q": "Who wears these necklaces?",
+   "aliases": [
+    "what are necklaces from",
+    "split bone necklace meaning",
+    "skullsplitter necklace"
+   ],
+   "answer": "The Skullsplitter trolls carry Split Bone Necklaces. Kin'weelay seeks them as trophies in the Darkspears' war against the Skullsplitters."
+  },
+  {
+   "q": "Why does Kin'weelay want them?",
+   "aliases": [
+    "why collect split bones",
+    "why does kinweelay need them",
+    "darkspear war"
+   ],
+   "answer": "Kin'weelay wants the necklaces to aid the Darkspears in their long conflict with the Skullsplitter tribe."
+  },
+  {
+   "q": "Where are the Skullsplitters?",
+   "aliases": [
+    "where to find skullsplitters",
+    "skullsplitter location",
+    "troll ruins"
+   ],
+   "answer": "The Skullsplitters live southeast of Grom'gol Base Camp among the troll ruins of Stranglethorn Vale."
+  },
+  {
+   "q": "How many necklaces does Kin'weelay ask for?",
+   "aliases": [
+    "necklace count",
+    "how many split bones",
+    "25 necklaces"
+   ],
+   "answer": "Kin'weelay asks you to bring him twenty-five Split Bone Necklaces."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you see one tribe's old war carried on by another. The Darkspears no longer dwell in Stranglethorn, yet Kin'weelay says they remain bound to their conflict with the Skullsplitters."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "grom'gol base camp",
+  "kin'weelay",
+  "necklace",
+  "skullsplitter",
+  "split bone necklace",
+  "stranglethorn vale",
+  "troll"
+ ],
+ "related": [
+  "quest:598",
+  "npc:kin-weelay",
+  "topic:darkspear-tribe",
+  "topic:troll",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Split Bone Necklace",
+  "Split Bone Necklace (quest)"
+ ]
+}

@@ -2052,6 +2052,7 @@ function UI.UpdateListen()
   -- The saved queue follows every change, so whatever writes SavedVariables next (a /reload, a logout, a disconnect)
   -- has it as it is (LOR-1475). Not before the saved one came back: that would wipe it.
   if UI.restored then UI.SavePlayback(true) end
+  ns.Voice.NowPlayingCheck()   -- a "now playing" chat line whose story is over says so (LOR-1568)
   UI.UpdateNowPlaying()
   if UI.completion and UI.completion:IsShown() then UI.LayoutCompletion() end
   if ns.Page and ns.Page.UpdateListen then ns.Page.UpdateListen() end

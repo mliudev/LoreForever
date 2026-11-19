@@ -1,0 +1,86 @@
+{
+ "key": "item:violet-tragan",
+ "type": "item",
+ "name": "Violet Tragan",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Violet Tragan",
+  "quests": [
+   "quest:2641"
+  ]
+ },
+ "summary": "A violet mushroom from Valorwind Lake is Sprinkle\u2019s secret ingredient in Gadgetzan. Cooked into a dish, it makes the food taste wonderful; raw, it is poisonous.",
+ "sections": [
+  {
+   "title": "A Taste from the Lake",
+   "body": "Sprinkle in Gadgetzan sends you to the Hinterlands for a violet mushroom found only beneath Valorwind Lake. She says it transformed her sister\u2019s terrible cooking into something she could stomach. Add it to a dish and, if properly cooked, it makes the food taste great. Raw, it poisons whoever eats it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Violet Tragan?",
+   "aliases": [
+    "violet mushroom",
+    "what's violet tragan",
+    "violet tragan item"
+   ],
+   "answer": "Violet Tragan is a mushroom from beneath Valorwind Lake in the Hinterlands. Properly cooked, it makes food taste great."
+  },
+  {
+   "q": "Where can I find Violet Tragan?",
+   "aliases": [
+    "where is violet tragan",
+    "violet tragan location",
+    "mushroom lake"
+   ],
+   "answer": "Violet Tragan grows underwater in Valorwind Lake in the Hinterlands."
+  },
+  {
+   "q": "Why does Sprinkle want it?",
+   "aliases": [
+    "why sprinkle wants mushroom",
+    "sprinkle ingredient",
+    "secret ingredient"
+   ],
+   "answer": "Sprinkle in Gadgetzan uses Violet Tragan as her secret ingredient because, when properly cooked, it makes food taste great."
+  },
+  {
+   "q": "Is Violet Tragan safe to eat raw?",
+   "aliases": [
+    "can i eat it raw",
+    "raw violet tragan",
+    "does it poison you"
+   ],
+   "answer": "No. Raw Violet Tragan is poisonous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can see why Sprinkle prizes Violet Tragan: properly cooked, it makes food taste great."
+  }
+ ],
+ "keywords": [
+  "gadgetzan",
+  "hinterlands",
+  "poisonous",
+  "secret ingredient",
+  "sprinkle",
+  "valorwind lake",
+  "violet mushroom",
+  "violet tragan"
+ ],
+ "related": [
+  "quest:2641",
+  "zone:tanaris",
+  "zone:hinterlands",
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Violet Tragan",
+  "Sprinkle's Secret Ingredient"
+ ]
+}

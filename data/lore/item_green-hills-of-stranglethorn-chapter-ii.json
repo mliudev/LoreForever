@@ -1,0 +1,87 @@
+{
+ "key": "item:green-hills-of-stranglethorn-chapter-ii",
+ "type": "item",
+ "name": "Green Hills of Stranglethorn - Chapter II",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Green Hills of Stranglethorn - Chapter II",
+  "quests": [
+   "quest:338"
+  ]
+ },
+ "summary": "Chapter II is one of four parts of Master Nesingwary\u2019s scattered manuscript, The Green Hills of Stranglethorn. Its pages must be gathered so Barnil can assemble the chapters and return the book to Nesingwary.",
+ "sections": [
+  {
+   "title": "Scattered Pages",
+   "body": "Barnil had gathered most of the manuscript when a gust swept through Master Nesingwary\u2019s camp. The pages of Chapter II were scattered through Stranglethorn with the rest. You can help Barnil put the four chapters in order, then carry them back to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Chapter II?",
+   "aliases": [
+    "chapter 2",
+    "green hills chapter ii"
+   ],
+   "answer": "Chapter II is one part of Master Nesingwary\u2019s manuscript, The Green Hills of Stranglethorn."
+  },
+  {
+   "q": "Who is gathering the chapters?",
+   "aliases": [
+    "who wants the pages",
+    "barnil pages"
+   ],
+   "answer": "Barnil is collecting and organizing the scattered chapters for Master Nesingwary."
+  },
+  {
+   "q": "Why are the pages scattered?",
+   "aliases": [
+    "what happened to the pages",
+    "wind blew pages"
+   ],
+   "answer": "A large gust of wind swept through Master Nesingwary\u2019s camp and scattered the manuscript pages through the jungle."
+  },
+  {
+   "q": "What should I do with the chapters?",
+   "aliases": [
+    "where return chapters",
+    "what does barnil need"
+   ],
+   "answer": "Gather all four chapters and return them to Barnil so he can organize them for Master Nesingwary."
+  },
+  {
+   "q": "Who wrote The Green Hills of Stranglethorn?",
+   "aliases": [
+    "nesingwary book",
+    "master nesingwary novel"
+   ],
+   "answer": "Master Nesingwary is the author of The Green Hills of Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil",
+  "chapter 2",
+  "chapter ii",
+  "green hills of stranglethorn",
+  "manuscript",
+  "nesingwary",
+  "scattered pages",
+  "stranglethorn"
+ ],
+ "related": [
+  "quest:338",
+  "quest:340",
+  "item:green-hills-of-stranglethorn-chapter-i",
+  "item:green-hills-of-stranglethorn-chapter-iii",
+  "item:green-hills-of-stranglethorn-chapter-iv",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Green Hills of Stranglethorn - Chapter II",
+  "The Green Hills of Stranglethorn (Classic)"
+ ]
+}

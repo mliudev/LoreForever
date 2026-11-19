@@ -1,0 +1,95 @@
+{
+ "key": "item:sigil-of-arathor",
+ "type": "item",
+ "name": "Sigil of Arathor",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sigil of Arathor",
+  "quests": [
+   "quest:643"
+  ]
+ },
+ "summary": "The Sigil of Arathor is held by Lieutenant Valorcall, leader of Stromgarde\u2019s cavalry. Zengu in Hammerfall wants it for his search for Trol\u2019kalar.",
+ "sections": [
+  {
+   "title": "A Cavalry Sigil",
+   "body": "Lieutenant Valorcall carries the Sigil of Arathor across the Arathi Highlands. He leads the cavalry that serves the human prince and Stromgarde\u2019s defenders. Zengu in Hammerfall seeks the sigil, and Valorcall\u2019s horse lets him cover the countryside swiftly.",
+   "spoiler": 0
+  },
+  {
+   "title": "Zengu\u2019s Purpose",
+   "body": "Zengu wants the sigil returned to him in Hammerfall. He believes taking it from Valorcall will weaken Stromgarde\u2019s defenders. He also says the sigil brings him one step closer to claiming Trol\u2019kalar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of Arathor?",
+   "aliases": [
+    "sigil of arathor",
+    "arathor sigil"
+   ],
+   "answer": "The Sigil of Arathor is a token carried by Lieutenant Valorcall, the leader of Stromgarde\u2019s cavalry."
+  },
+  {
+   "q": "Who has the sigil?",
+   "aliases": [
+    "valorcall sigil",
+    "who has it"
+   ],
+   "answer": "Lieutenant Valorcall carries the Sigil of Arathor as he rides through the Arathi Highlands."
+  },
+  {
+   "q": "Where is Lieutenant Valorcall?",
+   "aliases": [
+    "where valorcall",
+    "find valorcall"
+   ],
+   "answer": "Lieutenant Valorcall rides through the Arathi Highlands, where his horse lets him travel quickly."
+  },
+  {
+   "q": "Who wants the Sigil of Arathor?",
+   "aliases": [
+    "who wants the sigil",
+    "zengu wants"
+   ],
+   "answer": "Zengu in Hammerfall wants the Sigil of Arathor returned to him."
+  },
+  {
+   "q": "Why does Zengu want the sigil?",
+   "aliases": [
+    "why zengu wants it",
+    "trolkalar sigil"
+   ],
+   "answer": "Zengu believes taking the sigil will weaken Stromgarde\u2019s defenders and bring him closer to claiming Trol\u2019kalar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you may hear Zengu in Hammerfall seek the sigil to weaken Stromgarde\u2019s defenders."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "cavalry",
+  "hammerfall",
+  "lieutenant valorcall",
+  "sigil of arathor",
+  "stromgarde",
+  "trol'kalar",
+  "zengu"
+ ],
+ "related": [
+  "quest:643",
+  "quest:645",
+  "zone:arathi",
+  "subzone:hammerfall"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil of Arathor",
+  "Sigil of Arathor (Classic)"
+ ]
+}

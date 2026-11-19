@@ -1,0 +1,83 @@
+{
+ "key": "item:felhound-brain",
+ "type": "item",
+ "name": "Felhound Brain",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Felhound Brain",
+  "quests": [
+   "quest:1466"
+  ]
+ },
+ "summary": "A Felhound Brain is a demon part sought in Desolace for Reagents for Reclaimers Inc. Kreldig Ungor gathers them with other materials for a mage\u2019s experiments.",
+ "sections": [
+  {
+   "title": "A Mage\u2019s Reagents",
+   "body": "Near Mannoroc Coven, Ley Hunters, Mage Hunters, and Mana Eaters carry the brains Kreldig Ungor seeks. He asks for ten alongside Nether Wings and Doomwarder Blood, the final group of materials for Reagents for Reclaimers Inc. The work brings you against demons in a land where centaur hold much of the country.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Felhound Brain for?",
+   "aliases": [
+    "felhound brain use",
+    "why collect felhound brains"
+   ],
+   "answer": "Kreldig Ungor needs ten Felhound Brains for Reagents for Reclaimers Inc., where they join Nether Wings and Doomwarder Blood as materials for a mage\u2019s experiments."
+  },
+  {
+   "q": "Which demons have Felhound Brains?",
+   "aliases": [
+    "brain from which demon",
+    "felhound brain mobs"
+   ],
+   "answer": "Ley Hunters, Mage Hunters, and Mana Eaters in Desolace carry Felhound Brains."
+  },
+  {
+   "q": "Where can I find the felhounds?",
+   "aliases": [
+    "felhound brain location",
+    "where are ley hunters"
+   ],
+   "answer": "The felhounds are near Mannoroc Coven in southern Desolace, beyond the Kodo Graveyard."
+  },
+  {
+   "q": "Who wants the Felhound Brains?",
+   "aliases": [
+    "who needs the brains",
+    "kreldig ungor brain"
+   ],
+   "answer": "Kreldig Ungor asks for the Felhound Brains as part of the materials for Reagents for Reclaimers Inc."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Kreldig Ungor gathers Felhound Brains and other demon materials for a mage\u2019s experiments."
+  }
+ ],
+ "keywords": [
+  "felhound",
+  "felhound brain",
+  "kreldig ungor",
+  "ley hunter",
+  "mage hunter",
+  "mana eater",
+  "mannoroc coven",
+  "reagents for reclaimers inc"
+ ],
+ "related": [
+  "quest:1458",
+  "item:doomwarder-blood",
+  "item:nether-wing",
+  "subzone:mannoroc-coven",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Felhound Brain",
+  "Reagents for Reclaimers Inc. (3)"
+ ]
+}

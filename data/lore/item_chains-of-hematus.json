@@ -1,0 +1,92 @@
+{
+ "key": "item:chains-of-hematus",
+ "type": "item",
+ "name": "Chains of Hematus",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Chains of Hematus",
+  "quests": [
+   "quest:717",
+   "quest:793"
+  ]
+ },
+ "summary": "The Chains of Hematus are the bindings taken from the black drake Hematus in Lethlor Ravine. They are sought alongside Blacklash\u2019s bindings after the Seal of the Earth is broken.",
+ "sections": [
+  {
+   "title": "A Broken Seal",
+   "body": "In Lethlor Ravine, the Chains of Hematus are returned after Hematus is freed from the Seal of the Earth. Three runestones taken from the ravine\u2019s pillars unlock that seal. Garek or Gorn seeks the chains alongside Blacklash\u2019s bindings, once the two black drakes have been slain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Chains of Hematus?",
+   "aliases": [
+    "hematus chains",
+    "chains item",
+    "hematus bindings"
+   ],
+   "answer": "The Chains of Hematus are bindings taken from the black drake Hematus in Lethlor Ravine."
+  },
+  {
+   "q": "Where do I find the Chains of Hematus?",
+   "aliases": [
+    "where chains",
+    "chains location",
+    "hematus item"
+   ],
+   "answer": "Hematus in Lethlor Ravine, in the Badlands, bears the Chains of Hematus."
+  },
+  {
+   "q": "Why are the chains wanted?",
+   "aliases": [
+    "why chains wanted",
+    "chains for what",
+    "need hematus chains"
+   ],
+   "answer": "Garek or Gorn asks for the Chains of Hematus alongside Blacklash\u2019s bindings after the drakes are slain."
+  },
+  {
+   "q": "How is Hematus freed?",
+   "aliases": [
+    "free hematus",
+    "seal of earth",
+    "runestones"
+   ],
+   "answer": "The runestones from the Pillars of Diamond, Opal, and Amethyst are placed in the Seal of the Earth, freeing Hematus and Blacklash."
+  },
+  {
+   "q": "Who wants the chains?",
+   "aliases": [
+    "who needs chains",
+    "garek chains",
+    "gorn chains"
+   ],
+   "answer": "Garek or Gorn seeks the Chains of Hematus, depending on who sent you to Lethlor Ravine."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "black drake",
+  "chains of hematus",
+  "hematus",
+  "lethlor ravine",
+  "runestones",
+  "seal of the earth"
+ ],
+ "related": [
+  "item:blacklash-s-bindings",
+  "item:sign-of-the-earth",
+  "subzone:lethlor-ravine",
+  "zone:badlands",
+  "quest:717"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Chains of Hematus",
+  "Tremors of the Earth (2)",
+  "Broken Alliances (2)"
+ ]
+}

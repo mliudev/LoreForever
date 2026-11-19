@@ -1,0 +1,82 @@
+{
+ "key": "item:crag-coyote-fang",
+ "type": "item",
+ "name": "Crag Coyote Fang",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Crag Coyote Fang",
+  "quests": [
+   "quest:2258"
+  ]
+ },
+ "summary": "A Crag Coyote Fang comes from coyotes in the Badlands. Jarkal Mossmeld in Kargath needs ten for his alchemical supplies.",
+ "sections": [
+  {
+   "title": "A Badlands Reagent",
+   "body": "Jarkal Mossmeld, an alchemist in Kargath, asks for Crag Coyote Fangs to replenish his stocks. The fangs come from Crag Coyotes, Elder Crag Coyotes, Feral Crag Coyotes, and Rabid Crag Coyotes in the Badlands. He needs ten, along with buzzard gizzards and rock elemental shards.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Crag Coyote Fangs come from?",
+   "aliases": [
+    "crag fang source",
+    "coyote teeth",
+    "where fang"
+   ],
+   "answer": "Crag Coyote Fangs come from Crag Coyotes, Elder Crag Coyotes, Feral Crag Coyotes, and Rabid Crag Coyotes in the Badlands."
+  },
+  {
+   "q": "Who wants Crag Coyote Fangs?",
+   "aliases": [
+    "who needs fangs",
+    "jarkal fangs",
+    "fangs for who"
+   ],
+   "answer": "Jarkal Mossmeld, an alchemist in Kargath, asks for ten Crag Coyote Fangs to replenish his stocks."
+  },
+  {
+   "q": "Why does Jarkal need the fangs?",
+   "aliases": [
+    "why fangs",
+    "jarkal needs what",
+    "alchemist supplies"
+   ],
+   "answer": "Jarkal Mossmeld needs Crag Coyote Fangs as reagents to replenish his alchemical stocks."
+  },
+  {
+   "q": "What else does Jarkal ask for?",
+   "aliases": [
+    "other reagents",
+    "what else jarkal",
+    "badlands ingredients"
+   ],
+   "answer": "Jarkal also asks for five Buzzard Gizzards and five Rock Elemental Shards."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "crag coyote",
+  "crag coyote fang",
+  "elder crag coyote",
+  "feral crag coyote",
+  "jarkal mossmeld",
+  "rabid crag coyote",
+  "reagent"
+ ],
+ "related": [
+  "quest:2258",
+  "zone:badlands",
+  "subzone:kargath",
+  "item:buzzard-gizzard",
+  "item:rock-elemental-shard"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Crag Coyote Fang",
+  "Badlands Reagent Run (Horde)"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "item:stable-ectoplasm",
+ "type": "item",
+ "name": "Stable Ectoplasm",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Stable Ectoplasm",
+  "quests": [
+   "quest:8924"
+  ]
+ },
+ "summary": "Near the ghosts of the Eastern Plaguelands, an Ectoplasmic Distiller can gather Stable Ectoplasm. Mux Manascrambler needs it to reach spirits whose souls have not left this world.",
+ "sections": [
+  {
+   "title": "Among the Ghosts",
+   "body": "Mux Manascrambler asks for Stable Ectoplasm from the ghosts and banshees of the Eastern Plaguelands. He needs it alongside two other kinds of ectoplasm, gathered from Silithus and Winterspring. The distiller draws out the substance from nearby incorporeal undead. Northdale is a good place to find them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Stable Ectoplasm?",
+   "aliases": [
+    "stable ectoplasm",
+    "what's ectoplasm",
+    "ghost stuff"
+   ],
+   "answer": "Stable Ectoplasm is a substance gathered from ghosts and banshees in the Eastern Plaguelands with an Ectoplasmic Distiller."
+  },
+  {
+   "q": "Who needs Stable Ectoplasm?",
+   "aliases": [
+    "who wants stable ectoplasm",
+    "mux ectoplasm",
+    "mux needs what"
+   ],
+   "answer": "Mux Manascrambler in Gadgetzan needs Stable Ectoplasm, along with Scorched and Frozen Ectoplasm, for his work with the Ectoplasmic Distiller."
+  },
+  {
+   "q": "Where can I find Stable Ectoplasm?",
+   "aliases": [
+    "stable ectoplasm location",
+    "where ectoplasm",
+    "northdale ghosts"
+   ],
+   "answer": "Ghosts and banshees in the Eastern Plaguelands yield Stable Ectoplasm. Northdale is a good place to find them."
+  },
+  {
+   "q": "Why does Mux want ectoplasm?",
+   "aliases": [
+    "why ectoplasm",
+    "mux's plan",
+    "reach spirits"
+   ],
+   "answer": "Mux hopes to use the otherworldly energy in the ectoplasm to reach spirits whose souls have not quite left this world."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Mux calls the Ectoplasmic Distiller a fine piece of engineering. His work shows how goblin contraptions can be put to use in studying the spirit world."
+  }
+ ],
+ "keywords": [
+  "banshees",
+  "eastern plaguelands",
+  "ectoplasm",
+  "ectoplasmic distiller",
+  "gadgetzan",
+  "ghosts",
+  "mux manascrambler",
+  "northdale",
+  "stable ectoplasm"
+ ],
+ "related": [
+  "quest:8924",
+  "quest:8921",
+  "item:frozen-ectoplasm",
+  "item:scorched-ectoplasm",
+  "npc:mux-manascrambler",
+  "zone:easternplaguelands",
+  "subzone:northdale"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Stable Ectoplasm",
+  "Hunting for Ectoplasm"
+ ]
+}

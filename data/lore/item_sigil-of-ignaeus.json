@@ -1,0 +1,100 @@
+{
+ "key": "item:sigil-of-ignaeus",
+ "type": "item",
+ "name": "Sigil of Ignaeus",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sigil of Ignaeus",
+  "quests": [
+   "quest:645"
+  ]
+ },
+ "summary": "The Sigil of Ignaeus is formed from four ancient sigils in Hammerfall. Its light can break the wardings on Trollbane's tomb.",
+ "sections": [
+  {
+   "title": "The Joined Sigils",
+   "body": "In Hammerfall, Zengu gives you the Sigil of Ignaeus after the four separate sigils are brought together. Its glowing lines match the etchings on the face of Trollbane's tomb in the Sanctum at Stromgarde. The tomb's wardings bar the way to what lies within.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Trollbane's Tomb",
+   "body": "When you match the sigil's lines to the etchings on Trollbane's tomb, a flash of light consumes it. The stone hands release the legendary sword Trol'kalar.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of Ignaeus?",
+   "aliases": [
+    "sigil of ig",
+    "igneaus sigil",
+    "what's the sigil"
+   ],
+   "answer": "The Sigil of Ignaeus is a single sigil formed when the Sigils of Strom, Thoradin, Arathor, and Trollbane are brought together."
+  },
+  {
+   "q": "Who gives you the Sigil of Ignaeus?",
+   "aliases": [
+    "who has ig sigil",
+    "where get sigil",
+    "zengu sigil"
+   ],
+   "answer": "Zengu gives you the Sigil of Ignaeus in Hammerfall."
+  },
+  {
+   "q": "What does the sigil do?",
+   "aliases": [
+    "sigil use",
+    "why need ig sigil",
+    "break tomb ward"
+   ],
+   "answer": "Its glowing lines match the etchings on Trollbane's tomb and break the wardings that guard it."
+  },
+  {
+   "q": "Where is Trollbane's tomb?",
+   "aliases": [
+    "trollbane tomb location",
+    "where is tomb",
+    "sanctum location"
+   ],
+   "answer": "Trollbane's tomb lies in the Sanctum behind the chapel in Stromgarde."
+  },
+  {
+   "q": "What happens to the sigil at the tomb?",
+   "aliases": [
+    "sigil consumed",
+    "what happens to sigil",
+    "tomb flash"
+   ],
+   "answer": "A flash of light consumes the Sigil of Ignaeus when its lines are matched to the tomb's etchings."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hammerfall",
+  "igneaus",
+  "sanctum",
+  "sigil",
+  "sigil of ignaeus",
+  "stromgarde",
+  "trol'kalar",
+  "trollbane",
+  "zengu"
+ ],
+ "related": [
+  "quest:645",
+  "quest:639",
+  "quest:641",
+  "quest:643",
+  "quest:644",
+  "subzone:sanctum-stromgarde-keep",
+  "subzone:hammerfall",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil of Ignaeus",
+  "Trol'kalar (Classic)"
+ ]
+}

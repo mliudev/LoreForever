@@ -1,0 +1,91 @@
+{
+ "key": "quest:92847",
+ "type": "quest",
+ "name": "Corrupting Tears",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92847
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Orgrul wants wood from the accursed trees and crystals from Warug to make staves. He believes the Gelkis' way of channeling may help the Magram secure the Valley of Bones.",
+ "sections": [
+  {
+   "title": "Orgrul's Design",
+   "body": "The outcast necromancers' weapons have caught Orgrul's interest, and he sees a use for their way of channeling. You return to the valley for petrified bark and ask Warug for imbued tears. Orgrul plans to shape them into staves that may help the Magram claim the Valley of Bones.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Staves",
+   "body": "Orgrul makes three staves from the materials you bring. He keeps one and gives another to the Necrokhan who patrols the chokepoint toward the elven ruins. The third is yours, and Orgrul names you a greater part of the war.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Orgrul want me to bring?",
+   "aliases": [
+    "corrupting tears items",
+    "what does orgrul need"
+   ],
+   "answer": "Orgrul asks you to bring him three pieces of petrified bark and three imbued tears while maintaining your reputation with the Magram."
+  },
+  {
+   "q": "Why does Orgrul want the bark and tears?",
+   "aliases": [
+    "why bark and tears",
+    "what are the materials for"
+   ],
+   "answer": "Orgrul plans to use the bark and Warug's crystals to make staves, drawing on the outcast necromancers' way of channeling."
+  },
+  {
+   "q": "Who is Warug?",
+   "aliases": [
+    "warug crystals",
+    "who has the crystals"
+   ],
+   "answer": "Warug is the one Orgrul asks you to approach for imbued tears."
+  },
+  {
+   "q": "Who gets the staves?",
+   "aliases": [
+    "orgrul staff plan",
+    "who receives the staves"
+   ],
+   "answer": "Orgrul keeps one stave, gives one to the Necrokhan patrolling near the chokepoint toward the elven ruins, and gives the third to you."
+  },
+  {
+   "q": "What are the staves for?",
+   "aliases": [
+    "staff purpose",
+    "why make staves"
+   ],
+   "answer": "Orgrul thinks the staves may help the Magram secure the rest of the Valley of Bones."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "corrupting tears",
+  "gelkis",
+  "imbued tears",
+  "magram",
+  "necrokhan",
+  "orgrul",
+  "outcast necromancers",
+  "petrified bark",
+  "staves",
+  "valley of bones",
+  "warug"
+ ],
+ "related": [
+  "quest:92846",
+  "subzone:valley-of-bones"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Corrupting Tears"
+ ]
+}

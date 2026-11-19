@@ -1,0 +1,79 @@
+{
+ "key": "item:shellfish",
+ "type": "item",
+ "name": "Shellfish",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Shellfish",
+  "quests": [
+   "quest:5421"
+  ]
+ },
+ "summary": "Shellfish are gathered from traps beneath the docks at Shadowprey Village. Jinar'Zillen wants them collected and offers Bloodbelly fish in return.",
+ "sections": [
+  {
+   "title": "Under the Docks",
+   "body": "The waters west of Shadowprey Village hold shellfish traps beneath the docks. Jinar'Zillen asks you to collect five shellfish from them, so he can leave the work to someone else. In return, he offers a fine Bloodbelly fish.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find shellfish?",
+   "aliases": [
+    "shellfish location",
+    "where shellfish",
+    "shellfish traps"
+   ],
+   "answer": "You can gather shellfish from traps in the waters west of Shadowprey Village, beneath its docks."
+  },
+  {
+   "q": "Who wants the shellfish?",
+   "aliases": [
+    "who needs shellfish",
+    "jinar zillen shellfish",
+    "shellfish for who"
+   ],
+   "answer": "Jinar'Zillen at Shadowprey Village asks you to collect shellfish from the traps below the docks."
+  },
+  {
+   "q": "How many shellfish does Jinar'Zillen need?",
+   "aliases": [
+    "shellfish count",
+    "how many shells",
+    "five shellfish"
+   ],
+   "answer": "Jinar'Zillen asks you to collect five shellfish."
+  },
+  {
+   "q": "What does Jinar'Zillen offer for shellfish?",
+   "aliases": [
+    "shellfish reward",
+    "bloodbelly fish",
+    "what for shellfish"
+   ],
+   "answer": "For every five shellfish you bring him, Jinar'Zillen offers a Bloodbelly fish."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodbelly fish",
+  "desolace",
+  "docks",
+  "jinar'zillen",
+  "shadowprey village",
+  "shellfish",
+  "shellfish traps"
+ ],
+ "related": [
+  "quest:5421",
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shellfish",
+  "Fish in a Bucket"
+ ]
+}

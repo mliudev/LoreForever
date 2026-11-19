@@ -1,0 +1,81 @@
+{
+ "key": "item:khan-shaka-s-head",
+ "type": "item",
+ "name": "Khan Shaka's Head",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Khan Shaka's Head",
+  "quests": [
+   "quest:1375"
+  ]
+ },
+ "summary": "Khan Shaka\u2019s Head is the head of the Gelkis khan, sought by Warug of the Magram in Desolace. It marks the Magram\u2019s strength against their rival clan.",
+ "sections": [
+  {
+   "title": "A Khan's Head",
+   "body": "Warug of Magram Village wants Khan Shaka\u2019s head after you have helped the Magram. Shaka leads the Gelkis, and Warug means to keep the head on a pike. He wants Shaka to see the strength of the Magram.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Khan Shaka?",
+   "aliases": [
+    "shaka",
+    "khan shaka identity",
+    "gelkis khan"
+   ],
+   "answer": "Khan Shaka is the khan of the Gelkis centaur in Desolace."
+  },
+  {
+   "q": "Who wants Khan Shaka\u2019s head?",
+   "aliases": [
+    "who wants shaka head",
+    "warug wants head",
+    "magram request"
+   ],
+   "answer": "Warug wants it, in Magram Village, once you have proven yourself to the Magram."
+  },
+  {
+   "q": "Why does Warug want the head?",
+   "aliases": [
+    "why shaka head",
+    "warug reason",
+    "magram strength"
+   ],
+   "answer": "Warug wants to keep Khan Shaka\u2019s head on a pike so Shaka can see the strength of the Magram."
+  },
+  {
+   "q": "Where is Khan Shaka\u2019s head taken?",
+   "aliases": [
+    "where bring head",
+    "head for warug",
+    "magram village head"
+   ],
+   "answer": "You are to bring Khan Shaka\u2019s head to Warug in Magram Village, Desolace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "gelkis",
+  "khan shaka",
+  "magram",
+  "magram village",
+  "shaka's head",
+  "warug"
+ ],
+ "related": [
+  "quest:1375",
+  "subzone:magram-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Khan Shaka's Head",
+  "Khan Shaka (quest)"
+ ]
+}

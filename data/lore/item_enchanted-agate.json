@@ -1,0 +1,80 @@
+{
+ "key": "item:enchanted-agate",
+ "type": "item",
+ "name": "Enchanted Agate",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Enchanted Agate",
+  "quests": [
+   "quest:695"
+  ]
+ },
+ "summary": "The Enchanted Agate activates the Tower of Arathor's defenses. Skuerto gives it to you before you enter to search for Trelane's remaining items.",
+ "sections": [
+  {
+   "title": "At the Tower",
+   "body": "At the camp near the Tower of Arathor, Skuerto gives you the Enchanted Agate. Press it against a pedestal near the tower's base when you are ready to enter. The gem activates the tower's defenses, clearing your way toward Trelane's remaining items.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Enchanted Agate do?",
+   "aliases": [
+    "enchanted agate use",
+    "agate purpose",
+    "what gem do"
+   ],
+   "answer": "The Enchanted Agate activates the defenses of the Tower of Arathor when pressed against a pedestal near its base."
+  },
+  {
+   "q": "Where do I use the Enchanted Agate?",
+   "aliases": [
+    "where use agate",
+    "tower pedestal",
+    "agate location"
+   ],
+   "answer": "Press the Enchanted Agate against one of the pedestals near the base of the Tower of Arathor."
+  },
+  {
+   "q": "Who gives me the Enchanted Agate?",
+   "aliases": [
+    "who gave me agate",
+    "skuerto agate",
+    "agate from who"
+   ],
+   "answer": "Skuerto gives you the Enchanted Agate at the camp near the Tower of Arathor."
+  },
+  {
+   "q": "Why am I taking the Enchanted Agate into the tower?",
+   "aliases": [
+    "why agate tower",
+    "agate for trelane",
+    "what gem for"
+   ],
+   "answer": "The gem activates the tower's defenses before you enter to find Trelane's remaining items."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agate",
+  "defenses",
+  "enchanted agate",
+  "pedestal",
+  "skuerto",
+  "tower of arathor",
+  "trelane"
+ ],
+ "related": [
+  "quest:695",
+  "npc:skuerto",
+  "subzone:tower-of-arathor",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Enchanted Agate",
+  "An Apprentice's Enchantment"
+ ]
+}

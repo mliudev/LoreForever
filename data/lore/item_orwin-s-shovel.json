@@ -1,0 +1,85 @@
+{
+ "key": "item:orwin-s-shovel",
+ "type": "item",
+ "name": "Orwin's Shovel",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Orwin's Shovel",
+  "quests": [
+   "quest:2987"
+  ]
+ },
+ "summary": "Orwin Gizzmick lends his shovel in Camp Mojache for a search for Gordunni cobalt. The blue-glowing mineral is buried at the Gordunni Outpost, where the ogres guard it closely.",
+ "sections": [
+  {
+   "title": "A Prospector's Tool",
+   "body": "Orwin Gizzmick has only just reached Feralas, and the mineral buried by the Gordunni ogres has caught his interest. From Camp Mojache, he sends you north with his shovel to gather cobalt from their outpost. The blue glow marks where to dig. Orwin means to carry the samples onward and find a buyer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Orwin's Shovel?",
+   "aliases": [
+    "orwins shovel",
+    "orwin shovel",
+    "who has the shovel"
+   ],
+   "answer": "Orwin Gizzmick lends you his shovel from Camp Mojache so you can dig for Gordunni cobalt."
+  },
+  {
+   "q": "What is Orwin's Shovel for?",
+   "aliases": [
+    "shovel purpose",
+    "what do i dig with",
+    "cobalt shovel"
+   ],
+   "answer": "Orwin's Shovel is used to dig up Gordunni cobalt at the Gordunni Outpost in Feralas."
+  },
+  {
+   "q": "Where do I use Orwin's Shovel?",
+   "aliases": [
+    "where shovel",
+    "gordunni outpost shovel",
+    "where to dig cobalt"
+   ],
+   "answer": "You use Orwin's Shovel at the Gordunni Outpost north of Camp Mojache, where the cobalt is buried."
+  },
+  {
+   "q": "Why does Orwin want Gordunni cobalt?",
+   "aliases": [
+    "why cobalt",
+    "orwin wants cobalt",
+    "cobalt buyer"
+   ],
+   "answer": "Orwin hopes to find someone who will pay well for the cobalt as he continues his travels."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "As a miner, you know the value of a buried seam. Orwin's shovel points you toward cobalt hidden among the Gordunni ogres."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "gordunni cobalt",
+  "gordunni outpost",
+  "orwin gizzmick",
+  "orwin's shovel",
+  "shovel"
+ ],
+ "related": [
+  "quest:2987",
+  "subzone:camp-mojache",
+  "subzone:gordunni-outpost",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Orwin's Shovel",
+  "Gordunni Cobalt (quest)"
+ ]
+}

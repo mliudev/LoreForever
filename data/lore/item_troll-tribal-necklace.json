@@ -1,0 +1,85 @@
+{
+ "key": "item:troll-tribal-necklace",
+ "type": "item",
+ "name": "Troll Tribal Necklace",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Troll Tribal Necklace",
+  "quests": [
+   "quest:2880"
+  ]
+ },
+ "summary": "Troll Tribal Necklaces are carried by forest trolls in the Hinterlands. The Wildhammers of Aerie Peak value them as proof that outsiders are willing to earn their regard.",
+ "sections": [
+  {
+   "title": "Aerie Peak\u2019s Measure",
+   "body": "Fraggar Thundermantle asks you to bring five Troll Tribal Necklaces to Aerie Peak. The Wildhammers are independent, and they judge those who seek their friendship by deeds. Fraggar counts the necklaces as a step toward winning their good graces.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Troll Tribal Necklaces?",
+   "aliases": [
+    "who wants necklaces",
+    "fraggar necklace",
+    "necklace bounty"
+   ],
+   "answer": "Fraggar Thundermantle at Aerie Peak asks you to bring him five Troll Tribal Necklaces."
+  },
+  {
+   "q": "Why do the Wildhammers want them?",
+   "aliases": [
+    "why necklaces",
+    "what are they for",
+    "wildhammer necklace"
+   ],
+   "answer": "Fraggar treats the necklaces as proof that you are willing to get your hands dirty and earn the Wildhammers\u2019 regard."
+  },
+  {
+   "q": "Where do the necklaces come from?",
+   "aliases": [
+    "where find necklace",
+    "troll necklaces",
+    "necklace source"
+   ],
+   "answer": "Forest trolls in the Hinterlands carry Troll Tribal Necklaces."
+  },
+  {
+   "q": "How many necklaces does Fraggar ask for?",
+   "aliases": [
+    "how many",
+    "five necklaces",
+    "necklace count"
+   ],
+   "answer": "Fraggar asks you to bring five Troll Tribal Necklaces to Aerie Peak."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you can earn the regard of the independent Wildhammer dwarves through deeds."
+  }
+ ],
+ "keywords": [
+  "aerie peak",
+  "forest troll",
+  "fraggar thundermantle",
+  "hinterlands",
+  "troll necklace bounty",
+  "troll tribal necklace",
+  "wildhammer"
+ ],
+ "related": [
+  "quest:2880",
+  "zone:hinterlands",
+  "topic:troll",
+  "quest:421"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Troll Tribal Necklace",
+  "Wowpedia: Troll Necklace Bounty"
+ ]
+}

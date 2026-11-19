@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Crate to Deliver",
-   "body": "Your employer is busy negotiating in town, so he gives you a crate for his associate. He expects you to take a ship from the docks to Steamwheedle Port in Tanaris. There, Wharfmaster Steamfizzle is the one to speak with, and a goblin's dues are at stake.",
+   "body": "Your employer is busy negotiating in town, so she gives you a crate for her associate. She expects you to take a ship from the docks to Steamwheedle Port in Tanaris. There, Wharfmaster Steamfizzle is the one to speak with, and a goblin's dues are at stake.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "who sent me",
     "shipping job"
    ],
-   "answer": "Your employer gives you the crate while he handles negotiations in town."
+   "answer": "Your employer gives you the crate while she handles negotiations in town."
   },
   {
    "q": "Where does the crate go?",
@@ -54,7 +54,7 @@
     "what's in the crate",
     "delivery reason"
    ],
-   "answer": "Your employer asks you to deliver the crate because he is busy negotiating in town."
+   "answer": "Your employer asks you to deliver the crate because she is busy negotiating in town."
   },
   {
    "q": "What is the goblin supposed to do?",

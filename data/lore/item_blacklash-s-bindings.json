@@ -1,0 +1,95 @@
+{
+ "key": "item:blacklash-s-bindings",
+ "type": "item",
+ "name": "Blacklash's Bindings",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Blacklash's Bindings",
+  "quests": [
+   "quest:717",
+   "quest:793"
+  ]
+ },
+ "summary": "Blacklash's Bindings are proof that the black drake Blacklash has been slain. They are sought by those trying to end the threat posed by the drakes of Lethlor Ravine.",
+ "sections": [
+  {
+   "title": "A Drakeslayer's Proof",
+   "body": "In Lethlor Ravine, Blacklash's Bindings mark the end of a black drake's imprisonment and the danger that followed. The seal holding Blacklash and Hematus depends on three runestones taken from nearby pillars with the Sign of the Earth. Once the seal is broken, both drakes are freed. Their bindings are then brought back as proof of Blacklash's death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Blacklash's Bindings?",
+   "aliases": [
+    "blacklash bindings",
+    "what is the binding",
+    "blacklash's stuff"
+   ],
+   "answer": "Blacklash's Bindings are a keepsake taken from the black drake after his death in Lethlor Ravine."
+  },
+  {
+   "q": "Who is Blacklash?",
+   "aliases": [
+    "blacklash backstory",
+    "who's blacklash",
+    "black drake blacklash"
+   ],
+   "answer": "Blacklash is a black drake imprisoned with Hematus beneath the Seal of the Earth in Lethlor Ravine."
+  },
+  {
+   "q": "Where do the bindings come from?",
+   "aliases": [
+    "where bindings from",
+    "blacklash drop",
+    "get bindings"
+   ],
+   "answer": "The bindings come from Blacklash in the Badlands."
+  },
+  {
+   "q": "Why are the bindings wanted?",
+   "aliases": [
+    "why need bindings",
+    "bindings for what",
+    "blacklash quest item"
+   ],
+   "answer": "Those seeking to end the danger from Blacklash and Hematus ask for the bindings as proof that Blacklash is dead."
+  },
+  {
+   "q": "How were Blacklash and Hematus freed?",
+   "aliases": [
+    "free the drakes",
+    "how seal broken",
+    "runestones and seal"
+   ],
+   "answer": "The Sign of the Earth lets its bearer take three runestones from the pillars in Lethlor Ravine. Placing them in the Seal of the Earth frees both drakes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "black drake",
+  "blacklash",
+  "blacklash's bindings",
+  "lethlor ravine",
+  "runestones",
+  "seal of the earth",
+  "sign of the earth"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:lethlor-ravine",
+  "topic:black-dragonflight",
+  "quest:717",
+  "quest:782",
+  "item:chains-of-hematus",
+  "item:sign-of-the-earth"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Blacklash's Bindings",
+  "Tremors of the Earth (2)",
+  "Broken Alliances (2)"
+ ]
+}

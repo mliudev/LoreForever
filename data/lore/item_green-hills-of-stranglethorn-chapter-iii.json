@@ -1,0 +1,79 @@
+{
+ "key": "item:green-hills-of-stranglethorn-chapter-iii",
+ "type": "item",
+ "name": "Green Hills of Stranglethorn - Chapter III",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Green Hills of Stranglethorn - Chapter III",
+  "quests": [
+   "quest:338"
+  ]
+ },
+ "summary": "Chapter III is one of four scattered parts of Master Nesingwary\u2019s manuscript, The Green Hills of Stranglethorn. Barnil is gathering the pages at the camp in Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "Scattered Pages",
+   "body": "A gust swept through Master Nesingwary\u2019s camp in Stranglethorn Vale and scattered the manuscript pages through the jungle. Barnil gathered most of them, but the four chapters remain incomplete. He is collecting the pages so the manuscript can be put back in order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Chapter III?",
+   "aliases": [
+    "chapter three",
+    "green hills chapter 3"
+   ],
+   "answer": "Chapter III is one of the four parts of Master Nesingwary\u2019s scattered manuscript, The Green Hills of Stranglethorn."
+  },
+  {
+   "q": "Who is collecting the pages?",
+   "aliases": [
+    "who wants the pages",
+    "barnil pages"
+   ],
+   "answer": "Barnil is gathering the scattered pages and organizing the chapters for Master Nesingwary."
+  },
+  {
+   "q": "Why are the pages scattered?",
+   "aliases": [
+    "what happened to the pages",
+    "wind blew pages"
+   ],
+   "answer": "A large gust of wind blew through Master Nesingwary\u2019s camp and scattered the manuscript pages across the jungle."
+  },
+  {
+   "q": "What is the manuscript called?",
+   "aliases": [
+    "nesingwary book",
+    "green hills book"
+   ],
+   "answer": "The manuscript is called The Green Hills of Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil",
+  "chapter iii",
+  "chapter three",
+  "green hills of stranglethorn",
+  "manuscript",
+  "nesingwary",
+  "scattered pages",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:338",
+  "quest:341",
+  "item:green-hills-of-stranglethorn-chapter-i",
+  "item:green-hills-of-stranglethorn-chapter-ii",
+  "item:green-hills-of-stranglethorn-chapter-iv",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Green Hills of Stranglethorn - Chapter III",
+  "The Green Hills of Stranglethorn (Classic)"
+ ]
+}

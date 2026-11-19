@@ -1,0 +1,84 @@
+{
+ "key": "item:head-of-bangalash",
+ "type": "item",
+ "name": "Head of Bangalash",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Head of Bangalash",
+  "quests": [
+   "quest:208"
+  ]
+ },
+ "summary": "The Head of Bangalash is the trophy Hemet Nesingwary seeks in Stranglethorn Vale. It marks the final hunt in his pursuit of the great white tiger.",
+ "sections": [
+  {
+   "title": "The Great White Tiger",
+   "body": "Hemet Nesingwary has hunted King Bangalash for a long while. After the hunts for Sin'Dall, Bhag'thera, and Tethis, the great white tiger is the prize he still seeks. The tiger's head proves the hunt is done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Head of Bangalash?",
+   "aliases": [
+    "who wants the tiger head",
+    "Hemet's trophy",
+    "who is it for"
+   ],
+   "answer": "Hemet Nesingwary wants the Head of Bangalash as the prize of his hunt for King Bangalash."
+  },
+  {
+   "q": "What is Bangalash?",
+   "aliases": [
+    "who is Bangalash",
+    "white tiger",
+    "king tiger"
+   ],
+   "answer": "King Bangalash is a great white tiger in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Hemet want the head?",
+   "aliases": [
+    "why Hemet wants it",
+    "Bangalash hunt",
+    "why kill Bangalash"
+   ],
+   "answer": "Hemet has pursued King Bangalash for a long while and calls the tiger the true prize of the hunt."
+  },
+  {
+   "q": "What hunts came before Bangalash?",
+   "aliases": [
+    "previous big game",
+    "Sin'Dall Bhag'thera Tethis",
+    "what did Hemet hunt"
+   ],
+   "answer": "Hemet names Sin'Dall, Bhag'thera, and Tethis among the earlier hunts before King Bangalash."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, Hemet's pursuit of King Bangalash is a measure of skill in hunting and tracking."
+  }
+ ],
+ "keywords": [
+  "big game hunter",
+  "head of bangalash",
+  "hem et nesingwary",
+  "hunting trophy",
+  "king bangalash",
+  "stranglethorn",
+  "white tiger"
+ ],
+ "related": [
+  "quest:208",
+  "quest:5762",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Head of Bangalash",
+  "Big Game Hunter (Classic)"
+ ]
+}

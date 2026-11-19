@@ -1,0 +1,87 @@
+{
+ "key": "item:zanzil-s-mixture",
+ "type": "item",
+ "name": "Zanzil's Mixture",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Zanzil's Mixture",
+  "quests": [
+   "quest:621",
+   "quest:1127"
+  ]
+ },
+ "summary": "Zanzil's Mixture is brewed from jungle plants and used on the Outcast's followers. Crank Fizzlebub in Booty Bay seeks samples for his own purposes.",
+ "sections": [
+  {
+   "title": "Jungle Mixture",
+   "body": "In the ruins northeast of Booty Bay, Zanzil the Outcast and his followers use a mixture made from jungle plants. It suppresses the will and strengthens the body of those who take it. Crank Fizzlebub wants samples, and keeps his reasons close.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Zanzil's Mixture do?",
+   "aliases": [
+    "what is the mixture for",
+    "zanzil potion",
+    "what does it do"
+   ],
+   "answer": "Zanzil's Mixture suppresses the will and strengthens the bodies of his followers."
+  },
+  {
+   "q": "Who is Zanzil the Outcast?",
+   "aliases": [
+    "who's zanzil",
+    "zanzil backstory",
+    "zanzil guy"
+   ],
+   "answer": "Zanzil the Outcast lives with his followers among the Jubuwal and Aboraz ruins northeast of Booty Bay. His own tribe exiled him because its leaders feared his power to bend minds."
+  },
+  {
+   "q": "Why does Crank Fizzlebub want the mixture?",
+   "aliases": [
+    "why crank wants it",
+    "crank fizzlebub mixture",
+    "what's crank up to"
+   ],
+   "answer": "Crank Fizzlebub in Booty Bay wants samples of Zanzil's Mixture and promises an extra payment for discretion."
+  },
+  {
+   "q": "What is Fool's Stout made from?",
+   "aliases": [
+    "fools stout ingredients",
+    "fool's stout",
+    "stout recipe"
+   ],
+   "answer": "Fool's Stout is made with Zanzil's Mixture. Crank Fizzlebub asks for more mixture when he needs to make more stout."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, you may hear of Zanzil's Mixture through Crank Fizzlebub in Booty Bay, who uses it to make Fool's Stout."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "crank fizzlebub",
+  "fool's stout",
+  "jungle plants",
+  "mind control",
+  "zanzil",
+  "zanzil the outcast",
+  "zanzil's mixture"
+ ],
+ "related": [
+  "quest:621",
+  "quest:1127",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Zanzil's Mixture",
+  "Zanzil's Secret (Classic)",
+  "Fool's Stout (quest)"
+ ]
+}

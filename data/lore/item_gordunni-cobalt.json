@@ -1,0 +1,82 @@
+{
+ "key": "item:gordunni-cobalt",
+ "type": "item",
+ "name": "Gordunni Cobalt",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Gordunni Cobalt",
+  "quests": [
+   "quest:2987"
+  ]
+ },
+ "summary": "At Gordunni Outpost, blue glimmers in the dirt draw Orwin Gizzmick\u2019s eye. He hopes the buried cobalt will fetch a fine price.",
+ "sections": [
+  {
+   "title": "Blue in the Dirt",
+   "body": "Orwin Gizzmick has newly arrived in Feralas and wants samples of the mineral the Gordunni ogres bury at their outpost. He lends you his shovel and points you north from Camp Mojache. Look for the blue glow among the dirt mounds; Orwin wants the cobalt for its value to a buyer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Gordunni Cobalt?",
+   "aliases": [
+    "who wants cobalt",
+    "orwin cobalt",
+    "gizzmick's mineral"
+   ],
+   "answer": "Orwin Gizzmick in Camp Mojache wants twelve samples of Gordunni Cobalt."
+  },
+  {
+   "q": "Where can I find Gordunni Cobalt?",
+   "aliases": [
+    "cobalt location",
+    "where cobalt",
+    "blue dirt"
+   ],
+   "answer": "The cobalt lies in dirt mounds at Gordunni Outpost, north of Camp Mojache in Feralas."
+  },
+  {
+   "q": "Why is the cobalt buried?",
+   "aliases": [
+    "why buried",
+    "ogres bury cobalt",
+    "gordunni dirt"
+   ],
+   "answer": "The Gordunni ogres bury the mineral to keep others from getting their hands on it."
+  },
+  {
+   "q": "What does Orwin want the cobalt for?",
+   "aliases": [
+    "why orwin wants it",
+    "cobalt price",
+    "sell cobalt"
+   ],
+   "answer": "Orwin hopes to find someone who will pay a fine price for the cobalt."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "cobalt",
+  "feralas",
+  "gordunni",
+  "gordunni cobalt",
+  "gordunni outpost",
+  "orwin gizzmick",
+  "orwin's shovel"
+ ],
+ "related": [
+  "quest:2987",
+  "item:orwin-s-shovel",
+  "subzone:gordunni-outpost",
+  "subzone:camp-mojache",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gordunni Cobalt",
+  "Gordunni Cobalt (quest)"
+ ]
+}

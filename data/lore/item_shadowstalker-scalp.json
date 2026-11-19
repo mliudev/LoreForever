@@ -1,0 +1,87 @@
+{
+ "key": "item:shadowstalker-scalp",
+ "type": "item",
+ "name": "Shadowstalker Scalp",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Shadowstalker Scalp",
+  "quests": [
+   "quest:1481"
+  ]
+ },
+ "summary": "A Shadowstalker Scalp is a reagent taken from a Hatefury shadowstalker in Desolace. Maurin Bonesplitter needs it to break wards against scrying for a spell aimed at finding a demon lord.",
+ "sections": [
+  {
+   "title": "A Satyr's Scalp",
+   "body": "Among the ancient ruins near Sargeron in northeastern Desolace, Hatefury shadowstalkers guard the scalp Maurin Bonesplitter seeks. He believes it can break a demon lord's wards against scrying. Bring him the right scalp; he warns that the wrong reagent could bring death to those who attempt the spell.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Shadowstalker Scalp for?",
+   "aliases": [
+    "shadowstalker scalp use",
+    "why scalp",
+    "scalp for maurin"
+   ],
+   "answer": "Maurin Bonesplitter needs the scalp to break a demon lord's wards against scrying."
+  },
+  {
+   "q": "Where do I find a Shadowstalker Scalp?",
+   "aliases": [
+    "shadowstalker scalp location",
+    "where scalp",
+    "sargeron scalp"
+   ],
+   "answer": "Hatefury shadowstalkers near the ancient ruins of Sargeron in northeastern Desolace have the scalp Maurin seeks."
+  },
+  {
+   "q": "Who is Maurin Bonesplitter?",
+   "aliases": [
+    "maurin bonesplitter scalp",
+    "who is maurin",
+    "maurin"
+   ],
+   "answer": "Maurin Bonesplitter is seeking reagents for a spell to find a demon lord."
+  },
+  {
+   "q": "Why does Maurin need this particular scalp?",
+   "aliases": [
+    "why hatefury scalp",
+    "specific satyr scalp",
+    "wrong scalp"
+   ],
+   "answer": "Maurin says the scalp must come from a Hatefury shadowstalker so he can break the demon lord's wards against scrying."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Maurin says you act in the Warchief's name as you gather reagents for his search."
+  }
+ ],
+ "keywords": [
+  "demon lord",
+  "desolace",
+  "hatefury",
+  "maurin bonesplitter",
+  "sargeron",
+  "satyr",
+  "scrying",
+  "shadowstalker scalp"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:sargeron",
+  "npc:maurin-bonesplitter",
+  "topic:satyr",
+  "quest:1480"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shadowstalker Scalp",
+  "The Corrupter (2)"
+ ]
+}

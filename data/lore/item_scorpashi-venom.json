@@ -1,0 +1,85 @@
+{
+ "key": "item:scorpashi-venom",
+ "type": "item",
+ "name": "Scorpashi Venom",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Scorpashi Venom",
+  "quests": [
+   "quest:1459"
+  ]
+ },
+ "summary": "Scorpashi venom is a reagent taken from the scorpions roaming Desolace. Kreldig Ungor needs it for a list of materials requested by Reclaimers Inc.",
+ "sections": [
+  {
+   "title": "A Mage\u2019s List",
+   "body": "Kreldig Ungor is gathering materials in Desolace for Reclaimers Inc., following a list prepared by Leftwitch. Scorpashi venom is one of the items the mage requires, alongside hide from aged kodos. Kreldig is eager to finish the list and return to Ironforge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Scorpashi venom used for?",
+   "aliases": [
+    "scorpashi venom use",
+    "why collect venom",
+    "venom reagent"
+   ],
+   "answer": "Leftwitch requires Scorpashi venom for a list of materials gathered by Kreldig Ungor for Reclaimers Inc."
+  },
+  {
+   "q": "Who needs the venom?",
+   "aliases": [
+    "who wants scorpashi venom",
+    "kreldig venom",
+    "who needs it"
+   ],
+   "answer": "Kreldig Ungor is collecting the venom in Desolace for Reclaimers Inc., following Leftwitch\u2019s list."
+  },
+  {
+   "q": "Where does Scorpashi venom come from?",
+   "aliases": [
+    "where find venom",
+    "scorpashi location",
+    "venom source"
+   ],
+   "answer": "Scorpashi venom comes from the scorpions found throughout Desolace."
+  },
+  {
+   "q": "What other material is on Leftwitch\u2019s list?",
+   "aliases": [
+    "other reagent",
+    "what else does kreldig need",
+    "aged kodo hide"
+   ],
+   "answer": "Kreldig also needs hides from aged kodos; Leftwitch\u2019s directions specify aged kodos rather than dying or ancient ones."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Leftwitch\u2019s list calls for Scorpashi venom, one of the stranger reagents a mage may seek."
+  }
+ ],
+ "keywords": [
+  "aged kodo hide",
+  "desolace",
+  "kreldig ungor",
+  "leftwitch",
+  "reclaimers inc",
+  "scorpashi",
+  "scorpashi venom"
+ ],
+ "related": [
+  "quest:1458",
+  "npc:kreldig-ungor",
+  "zone:desolace",
+  "item:aged-kodo-hide"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Scorpashi Venom",
+  "Reagents for Reclaimers Inc. (2)"
+ ]
+}

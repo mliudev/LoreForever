@@ -1,0 +1,106 @@
+{
+ "key": "item:ambassador-infernus-bracer",
+ "type": "item",
+ "name": "Ambassador Infernus' Bracer",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Ambassador Infernus' Bracer",
+  "quests": [
+   "quest:762"
+  ]
+ },
+ "summary": "Ambassador Infernus' Bracer is proof of the ambassador's defeat in the Badlands. Advisor Belgrum asks you to bring it to Ironforge.",
+ "sections": [
+  {
+   "title": "Proof from Angor",
+   "body": "Advisor Belgrum sends you to Angor Fortress in the Badlands to destroy Ambassador Infernus. Ragnaros sent the ambassador to oversee Shadowforge's search for lost artifacts in Uldaman. The excavation has already cost many lives, and Belgrum fears those artifacts could threaten Ironforge. Bring the bracer back as proof, so Belgrum can send aid to the site.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ambassador Infernus' Bracer?",
+   "aliases": [
+    "infernus bracer",
+    "ambassador bracer",
+    "what's the bracer"
+   ],
+   "answer": "Ambassador Infernus' Bracer is proof of the ambassador's defeat, carried back to Advisor Belgrum in Ironforge."
+  },
+  {
+   "q": "Where do I find the bracer?",
+   "aliases": [
+    "bracer location",
+    "where is infernus",
+    "get the bracer"
+   ],
+   "answer": "The bracer comes from Ambassador Infernus at Angor Fortress in the Badlands."
+  },
+  {
+   "q": "Who wants the bracer?",
+   "aliases": [
+    "who needs bracer",
+    "belgrum bracer",
+    "turn in bracer"
+   ],
+   "answer": "Advisor Belgrum in Ironforge asks you to bring the bracer as proof of Ambassador Infernus' defeat."
+  },
+  {
+   "q": "Why is Ambassador Infernus in the Badlands?",
+   "aliases": [
+    "why infernus here",
+    "infernus badlands",
+    "what's he doing"
+   ],
+   "answer": "Ragnaros sent Ambassador Infernus to oversee Shadowforge's search for lost artifacts in Uldaman."
+  },
+  {
+   "q": "Why does Ironforge want the ambassador defeated?",
+   "aliases": [
+    "why kill infernus",
+    "ironforge threat",
+    "what's the danger"
+   ],
+   "answer": "The Shadowforge excavation has caused many casualties, and Advisor Belgrum fears the recovered artifacts could be used against Ironforge."
+  },
+  {
+   "q": "What happens after I bring it to Belgrum?",
+   "aliases": [
+    "after bracer",
+    "belgrum turn in",
+    "what next"
+   ],
+   "answer": "Belgrum thanks you and says he will send word to Historian Karnik and arrange aid for the Badlands excavation site."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you carry proof of a threat to Ironforge: Shadowforge's search in Uldaman has already cost dwarven lives."
+  }
+ ],
+ "keywords": [
+  "advisor belgrum",
+  "ambassador infernus",
+  "angor fortress",
+  "badlands",
+  "bracer",
+  "infernus bracer",
+  "ironforge",
+  "ragnaros",
+  "shadowforge",
+  "uldaman"
+ ],
+ "related": [
+  "quest:762",
+  "quest:725",
+  "subzone:uldaman",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ambassador Infernus' Bracer",
+  "An Ambassador of Evil"
+ ]
+}

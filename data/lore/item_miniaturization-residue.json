@@ -1,0 +1,90 @@
+{
+ "key": "item:miniaturization-residue",
+ "type": "item",
+ "name": "Miniaturization Residue",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Miniaturization Residue",
+  "quests": [
+   "quest:7003",
+   "quest:7725"
+  ]
+ },
+ "summary": "Miniaturization Residue is left on Feralas giants shrunk by Zorbin Fandazzle\u2019s device. He studies it to improve his shrinking ray and asks for more at the Forgotten Coast docks.",
+ "sections": [
+  {
+   "title": "Residue from Giants",
+   "body": "Along the Forgotten Coast, Zorbin Fandazzle seeks residue from giants shrunk with his Ultra-Shrinker. Cliff Giants, Deep Striders, Land Walkers, Shore Striders and Wave Striders all yield it after the device has been used. Zorbin says the residue helps him keep his other zappers from exploding on their users.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Miniaturization Residue?",
+   "aliases": [
+    "miniaturization residue",
+    "what is this residue",
+    "giant residue"
+   ],
+   "answer": "Miniaturization Residue is found on Feralas giants after they have been shrunk with Zorbin\u2019s Ultra-Shrinker."
+  },
+  {
+   "q": "Who wants the residue?",
+   "aliases": [
+    "who wants residue",
+    "zorbin residue",
+    "who do I bring it to"
+   ],
+   "answer": "Zorbin Fandazzle, at the docks of the Forgotten Coast, asks for Miniaturization Residue."
+  },
+  {
+   "q": "Why does Zorbin need it?",
+   "aliases": [
+    "why residue",
+    "what's residue for",
+    "zapper research"
+   ],
+   "answer": "Zorbin studies the residue to help ensure his other shrinking devices do not explode on their users."
+  },
+  {
+   "q": "Which giants have it?",
+   "aliases": [
+    "giants residue drops from",
+    "what giants",
+    "feralas giants"
+   ],
+   "answer": "Cliff Giants, Deep Striders, Land Walkers, Shore Striders and Wave Striders in Feralas can yield residue after being shrunk."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize Zorbin\u2019s interest in residue as a way to improve his shrinking devices."
+  }
+ ],
+ "keywords": [
+  "engineering",
+  "feralas",
+  "forgotten coast",
+  "giants",
+  "miniaturization residue",
+  "steamwheedle cartel",
+  "zorbin fandazzle",
+  "zorpin's ultra-shrinker"
+ ],
+ "related": [
+  "item:zorbin-s-ultra-shrinker",
+  "quest:7003",
+  "quest:7725",
+  "subzone:forgotten-coast",
+  "zone:feralas",
+  "topic:steamwheedle-cartel"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Miniaturization Residue",
+  "Zapped Giants",
+  "Again With the Zapped Giants"
+ ]
+}

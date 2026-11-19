@@ -1,0 +1,95 @@
+{
+ "key": "item:field-testing-kit",
+ "type": "item",
+ "name": "Field Testing Kit",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Field Testing Kit",
+  "quests": [
+   "quest:654",
+   "quest:243"
+  ]
+ },
+ "summary": "The Field Testing Kit is a modified device used to test creature tissue in Tanaris. It needs a goblin power source to hold its data during fieldwork.",
+ "sections": [
+  {
+   "title": "A Kit for Samples",
+   "body": "Apothecary Zinge sends you to Tanaris with the Field Testing Kit to examine basilisks, hyenas, and scorpids. Chief Engineer Bilgewhizzle in Gadgetzan supplies the power source it needs. Once activated, the kit glows and vibrates, and its stored data must be brought back before the power runs out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Field Testing Kit for?",
+   "aliases": [
+    "what does the kit do",
+    "field testing device"
+   ],
+   "answer": "The Field Testing Kit examines the tissue of basilisks, hyenas, and scorpids in Tanaris."
+  },
+  {
+   "q": "Who gives me the kit?",
+   "aliases": [
+    "where get the kit",
+    "zinge kit"
+   ],
+   "answer": "Apothecary Zinge provides the Field Testing Kit for the work in Tanaris."
+  },
+  {
+   "q": "Who powers the kit?",
+   "aliases": [
+    "power source for kit",
+    "bilgewhizzle power"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle in Gadgetzan can provide a power source for the modified kit."
+  },
+  {
+   "q": "Why does the kit glow and vibrate?",
+   "aliases": [
+    "kit glowing",
+    "kit buzzing"
+   ],
+   "answer": "The kit glows and vibrates when its power source is activated, which means it is working as planned."
+  },
+  {
+   "q": "How long does the kit hold its data?",
+   "aliases": [
+    "kit time limit",
+    "power run out"
+   ],
+   "answer": "The power source gives you two hours to collect the needed data. If it runs out, the data inside is ruined."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, the modified kit and its separate power source show Gadgetzan's practical approach to field experiments."
+  }
+ ],
+ "keywords": [
+  "apothecary zinge",
+  "basilisk sample",
+  "bilgewhizzle",
+  "field testing kit",
+  "hyena sample",
+  "power source",
+  "scorpid sample",
+  "tanaris"
+ ],
+ "related": [
+  "quest:243",
+  "quest:654",
+  "npc:apothecary-zinge",
+  "subzone:gadgetzan",
+  "item:acceptable-basilisk-sample",
+  "item:acceptable-hyena-sample",
+  "item:acceptable-scorpid-sample"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Field Testing Kit",
+  "Tanaris Field Sampling",
+  "Into the Field"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "key": "item:mirefin-head",
+ "type": "item",
+ "name": "Mirefin Head",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Mirefin Head",
+  "quests": [
+   "quest:1177"
+  ]
+ },
+ "summary": "A Mirefin Head is a fishy meal sought by Mudcrush Durtfeet in northern Dustwallow Marsh. The ogre asks you to bring him food, and he favors murloc heads.",
+ "sections": [
+  {
+   "title": "Mudcrush's Meal",
+   "body": "Mudcrush Durtfeet in northern Dustwallow Marsh wants Mirefin Heads for food. He calls the murlocs \u201cfishy\u201d and warns you to bring him a meal, or he will eat you. Bring him eight heads, and he is pleased enough to spare you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Mirefin Heads?",
+   "aliases": [
+    "who wants the head",
+    "mudcrush food",
+    "ogre wants what"
+   ],
+   "answer": "Mudcrush Durtfeet, an ogre in northern Dustwallow Marsh, wants Mirefin Heads for food."
+  },
+  {
+   "q": "Why does Mudcrush want them?",
+   "aliases": [
+    "why heads",
+    "what for",
+    "murloc food"
+   ],
+   "answer": "Mudcrush is hungry and wants the heads as a meal. He says he likes the fishy taste."
+  },
+  {
+   "q": "Where do Mirefin Heads come from?",
+   "aliases": [
+    "where get head",
+    "mirefin locations",
+    "fishy heads"
+   ],
+   "answer": "Mirefin Heads come from murlocs in Dustwallow Marsh, including Mirefin Murlocs, Coastrunners, and Warriors."
+  },
+  {
+   "q": "How many heads does Mudcrush need?",
+   "aliases": [
+    "how many",
+    "eight heads",
+    "mudcrush amount"
+   ],
+   "answer": "Mudcrush Durtfeet asks for eight Mirefin Heads."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "fishy head",
+  "hungry",
+  "mirefin",
+  "mirefin head",
+  "mudcrush durtfeet",
+  "murloc"
+ ],
+ "related": [
+  "quest:1177",
+  "zone:dustwallow",
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Mirefin Head",
+  "Hungry!"
+ ]
+}

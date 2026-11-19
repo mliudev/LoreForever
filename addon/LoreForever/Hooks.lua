@@ -969,6 +969,29 @@ local function buttonQuest(b, id)
   return e and e.m and e.m.id
 end
 
+-- Where our controls sit on the book reader: on the row of its page arrows, just left of the game's next-page arrow and
+-- the "Next" beside it, so the arrow players click to turn the page stays theirs (Mike, 11/18: "the default position
+-- for this overlaps the right click"; the pill sat on the arrow). Placed from the game's own arrow, not fixed numbers,
+-- so a window another add-on reskins or moves keeps its arrow clear too. The place stays when the arrow hides (the last
+-- page, a one-page item): nothing jumps as the pages turn.
+local function nextPageEdge()
+  local b = _G.ItemTextNextPageButton
+  if not (b and b.GetRegions) then return nil end
+  for _, r in ipairs({ b:GetRegions() }) do
+    if r.GetObjectType and r:GetObjectType() == "FontString" and (r:GetText() or "") ~= "" then return r end
+  end
+  return b
+end
+
+function Hooks.AtBookRow(x)
+  local edge = nextPageEdge()
+  if edge then
+    x:SetPoint("RIGHT", edge, "LEFT", -6, 0)
+  else
+    x:SetPoint("RIGHT", _G.ItemTextFrame, "TOPRIGHT", -28, -40)
+  end
+end
+
 -- The book reader (books, letters, plaques): the quest window's control, the stone pill. Its play half plays the page's
 -- recording, or stops it (LOR-49); its + puts the whole book in the playlist, in page order, and takes it out again
 -- (UI.DoQueueBook). Mike, 11/9, on a pill with only a play half: books should have the control "we have designed
@@ -979,7 +1002,7 @@ function Hooks.BookFrame()
   if not f or Hooks.bookButton then return end
   local T = ns.Theme
   local p = T.Pill(f, ROW_H, true)
-  p:SetPoint("TOPRIGHT", f, "TOPRIGHT", -28, -30)
+  Hooks.AtBookRow(p)
   p:SetFrameLevel((f:GetFrameLevel() or 1) + 5)
   p.play:SetScript("OnClick", function()
     ns.Voice.ReadBookPage(true)

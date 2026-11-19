@@ -1,0 +1,88 @@
+{
+ "key": "item:pristine-crawler-leg",
+ "type": "item",
+ "name": "Pristine Crawler Leg",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Pristine Crawler Leg",
+  "quests": [
+   "quest:1258"
+  ]
+ },
+ "summary": "Pristine Crawler Legs come from the spiny rock crawlers around Theramore Isle. Morgan Stern needs them for the presentation of a new dish he is researching.",
+ "sections": [
+  {
+   "title": "A Chef\u2019s Request",
+   "body": "Morgan Stern is researching a dish in Theramore Isle, and pristine crawler legs are one of its ingredients. He wants the shells unscarred, since their condition matters to the dish\u2019s presentation. Spiny Rock Crabs prowl the waters east of the isle, where you can find the legs he needs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Pristine Crawler Legs for?",
+   "aliases": [
+    "crawler legs purpose",
+    "why pristine legs",
+    "what morgan needs"
+   ],
+   "answer": "Morgan Stern needs Pristine Crawler Legs as an ingredient for a new recipe he is researching in Theramore."
+  },
+  {
+   "q": "Where can I find Pristine Crawler Legs?",
+   "aliases": [
+    "crawler leg location",
+    "where crab legs",
+    "spiny rock crabs"
+   ],
+   "answer": "Spiny Rock Crabs along the waters east of Theramore Isle have Pristine Crawler Legs."
+  },
+  {
+   "q": "Why do the legs need to be pristine?",
+   "aliases": [
+    "why unscarred shells",
+    "perfect crab legs",
+    "pristine crawler leg"
+   ],
+   "answer": "Morgan wants unscarred shells because they are key to the dish\u2019s presentation."
+  },
+  {
+   "q": "Who wants the crawler legs?",
+   "aliases": [
+    "morgan stern legs",
+    "who needs crab legs",
+    "chef in theramore"
+   ],
+   "answer": "Morgan Stern, a chef in Theramore, wants the legs for his recipe research."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can see why Morgan cares about the shell as well as the meat: both are part of the dish he is researching."
+  }
+ ],
+ "keywords": [
+  "cooking",
+  "crawler leg",
+  "dustwallow marsh",
+  "morgan stern",
+  "pristine crawler leg",
+  "pristine crawler legs",
+  "spiny rock crab",
+  "theramore"
+ ],
+ "related": [
+  "quest:1258",
+  "quest:1204",
+  "quest:1260",
+  "item:crawler-leg",
+  "subzone:theramore-isle",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Pristine Crawler Leg",
+  "... and Bugs"
+ ]
+}

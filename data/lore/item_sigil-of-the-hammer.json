@@ -1,0 +1,90 @@
+{
+ "key": "item:sigil-of-the-hammer",
+ "type": "item",
+ "name": "Sigil of the Hammer",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Sigil of the Hammer",
+  "quests": [
+   "quest:727",
+   "quest:728"
+  ]
+ },
+ "summary": "The Sigil of the Hammer is a sign used to approach scholars who hold Yagyin\u2019s Digest. It opens a path to knowledge sought for protection.",
+ "sections": [
+  {
+   "title": "A Sign of Learning",
+   "body": "A tablet points toward a digest written by Yagyin, and the Sigil of the Hammer is the sign that opens the way to it. In Ironforge, Gerrig Bonegrip keeps a shop in the Forlorn Cavern. In the Undercity, Keeper Bel'dugur tends a collection of books. Show the sigil to either scholar and ask for the digest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of the Hammer for?",
+   "aliases": [
+    "sigil use",
+    "hammer sigil purpose"
+   ],
+   "answer": "The Sigil of the Hammer identifies its bearer to scholars who can be asked for Yagyin's Digest."
+  },
+  {
+   "q": "Who do I show the sigil to?",
+   "aliases": [
+    "who gets the sigil",
+    "sigil recipient"
+   ],
+   "answer": "Show the Sigil of the Hammer to Gerrig Bonegrip in Ironforge or Keeper Bel'dugur in the Undercity."
+  },
+  {
+   "q": "Where is Gerrig Bonegrip?",
+   "aliases": [
+    "gerrig location",
+    "gerrig shop"
+   ],
+   "answer": "Gerrig Bonegrip keeps a shop in the Forlorn Cavern of Ironforge."
+  },
+  {
+   "q": "Where is Keeper Bel'dugur?",
+   "aliases": [
+    "bel'dugur location",
+    "undercity scholar"
+   ],
+   "answer": "Keeper Bel'dugur is in the Undercity, where he tends a collection of books."
+  },
+  {
+   "q": "Why does the digest matter?",
+   "aliases": [
+    "why yagyin digest",
+    "digest importance"
+   ],
+   "answer": "The digest holds knowledge sought to protect those who seek it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "forlorn cavern",
+  "gerrig bonegrip",
+  "hammer sigil",
+  "ironforge",
+  "keeper bel'dugur",
+  "sigil of the hammer",
+  "undercity",
+  "yagyin's digest"
+ ],
+ "related": [
+  "quest:727",
+  "quest:728",
+  "item:yagyin-s-digest",
+  "npc:gerrig-bonegrip",
+  "npc:keeper-bel-dugur",
+  "zone:ironforge",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil of the Hammer",
+  "To Ironforge for Yagyin's Digest",
+  "To the Undercity for Yagyin's Digest"
+ ]
+}

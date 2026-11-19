@@ -1,0 +1,96 @@
+{
+ "key": "item:venom-fern-extract",
+ "type": "item",
+ "name": "Venom Fern Extract",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Venom Fern Extract",
+  "quests": [
+   "quest:204"
+  ]
+ },
+ "summary": "Kurzen's stores in Stranglethorn hold Venom Fern Extract, a poison used against Rebel Camp fighters. Sergeant Yohwa needs a sample to help the camp prepare its own remedies.",
+ "sections": [
+  {
+   "title": "Kurzen's Stores",
+   "body": "Near the bonfire in Kurzen Compound, supply crates hold Venom Fern Extract. Kurzen's Medicine Men use it to poison Rebel Camp fighters, while Jungle Remedies help heal Kurzen's forces. Sergeant Yohwa seeks both kinds of medicine: the remedies to treat the wounded, and an extract sample to study. The camp hopes to make remedies of its own.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Venom Fern Extract?",
+   "aliases": [
+    "venom fern",
+    "fern extract",
+    "what's the extract"
+   ],
+   "answer": "Venom Fern Extract is a poison Kurzen's Medicine Men use against Rebel Camp fighters."
+  },
+  {
+   "q": "Where can I find Venom Fern Extract?",
+   "aliases": [
+    "where is venom fern",
+    "extract location",
+    "kurzen crates"
+   ],
+   "answer": "Kurzen stores Venom Fern Extract in supply crates near the bonfire in the center of Kurzen Compound."
+  },
+  {
+   "q": "Who wants Venom Fern Extract?",
+   "aliases": [
+    "who needs the extract",
+    "sergeant yohwa",
+    "rebel camp medicine"
+   ],
+   "answer": "Sergeant Yohwa at Rebel Camp wants a sample of Venom Fern Extract to study."
+  },
+  {
+   "q": "Why does Sergeant Yohwa need it?",
+   "aliases": [
+    "why bring extract",
+    "what's it for",
+    "study the poison"
+   ],
+   "answer": "Sergeant Yohwa hopes the camp can study the extract and make its own remedies."
+  },
+  {
+   "q": "What are Jungle Remedies for?",
+   "aliases": [
+    "jungle remedy",
+    "kurzen medicine",
+    "remedies for what"
+   ],
+   "answer": "Kurzen's Medicine Men use Jungle Remedies to heal their forces; Rebel Camp also needs them to treat its wounded."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance fighter, Rebel Camp's effort matters to the struggle against Kurzen: its healers need remedies to keep their people alive."
+  }
+ ],
+ "keywords": [
+  "jungle remedy",
+  "kurzen",
+  "kurzen compound",
+  "poison",
+  "rebel camp",
+  "sergeant yohwa",
+  "supply crates",
+  "venom fern",
+  "venom fern extract"
+ ],
+ "related": [
+  "quest:204",
+  "zone:stranglethorn",
+  "subzone:rebel-camp",
+  "item:jungle-remedy"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Venom Fern Extract",
+  "Bad Medicine (Classic)"
+ ]
+}

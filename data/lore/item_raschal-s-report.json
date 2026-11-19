@@ -1,0 +1,103 @@
+{
+ "key": "item:raschal-s-report",
+ "type": "item",
+ "name": "Raschal's Report",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Raschal's Report",
+  "quests": [
+   "quest:4267"
+  ]
+ },
+ "summary": "Raschal's Report carries word of a silithid infestation in southeastern Feralas. Shandris Feathermoon sends a copy to Gracina Spiritmight at the Temple of the Moon.",
+ "sections": [
+  {
+   "title": "A Copy for Darnassus",
+   "body": "At Feathermoon Stronghold, Shandris Feathermoon entrusts you with a copy of Raschal's report on the silithid in southeastern Feralas. The main report is being filed in Darnassus. This copy is for Gracina Spiritmight, a priestess of the Temple of the Moon with knowledge of such creatures.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Temple's Counsel",
+   "body": "Gracina Spiritmight receives you at the Temple of the Moon, where she recognizes the danger described in Raschal's report. She names the insects as silithid and warns that they will consume Feralas rapidly. To her, they are tools of a great threat to both the Horde and the Alliance, and she prays for the resolve to defeat them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Raschal's Report?",
+   "aliases": [
+    "raschal report",
+    "what's in the report"
+   ],
+   "answer": "Raschal's Report describes the silithid infestation in southeastern Feralas."
+  },
+  {
+   "q": "Who is Raschal's Report for?",
+   "aliases": [
+    "who gets the report",
+    "report for gracina"
+   ],
+   "answer": "A copy of Raschal's Report is meant for Gracina Spiritmight, a priestess at the Temple of the Moon in Darnassus."
+  },
+  {
+   "q": "Who asks you to carry the report?",
+   "aliases": [
+    "who sent me",
+    "shandris report"
+   ],
+   "answer": "Shandris Feathermoon entrusts you with a copy of Raschal's Report for Gracina Spiritmight."
+  },
+  {
+   "q": "What are the insects in the report?",
+   "aliases": [
+    "feralas bugs",
+    "what are silithid"
+   ],
+   "answer": "Gracina identifies the insects described in Raschal's Report as silithid."
+  },
+  {
+   "q": "Why does Gracina need the report?",
+   "aliases": [
+    "why bring it to gracina",
+    "temple report"
+   ],
+   "answer": "Gracina has broad knowledge of creatures like the silithid, and Shandris believes receiving the report will benefit them all."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you bring Shandris Feathermoon's report to Gracina Spiritmight at the Temple of the Moon, where she recognizes the silithid threat to Feralas."
+  },
+  {
+   "target": "class:Priest",
+   "text": "As a priest, you carry the report to Gracina Spiritmight, a priestess whose knowledge of such creatures may help the defenders of Feralas."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "feralas",
+  "gracina spiritmight",
+  "raschal",
+  "raschal's report",
+  "shandris feathermoon",
+  "silithid",
+  "southeastern feralas",
+  "temple of the moon"
+ ],
+ "related": [
+  "quest:32",
+  "zone:feralas",
+  "npc:shandris-feathermoon",
+  "zone:darnassus",
+  "subzone:temple-of-the-moon",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Raschal's Report",
+  "Rise of the Silithid (Feralas)"
+ ]
+}

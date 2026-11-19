@@ -1,0 +1,81 @@
+{
+ "key": "item:large-stone-slab",
+ "type": "item",
+ "name": "Large Stone Slab",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Large Stone Slab",
+  "quests": [
+   "quest:711"
+  ]
+ },
+ "summary": "Large Stone Slabs are pieces of rock elementals found in the Badlands. Lotwil Veriatus needs them for tests of his spells.",
+ "sections": [
+  {
+   "title": "Stone for Study",
+   "body": "West of Lotwil Veriatus in the Badlands, rock elementals carry the slabs he seeks. Their larger, stronger bodies yield pieces suited to his tests. Lotwil believes his spells can help him control elementals, and these stones are part of that work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Large Stone Slabs come from?",
+   "aliases": [
+    "where slab from",
+    "stone slab source"
+   ],
+   "answer": "Rock elementals in the Badlands carry Large Stone Slabs. Lotwil Veriatus points to the hills west of him and along the nearby mountain edges."
+  },
+  {
+   "q": "Who wants the slabs?",
+   "aliases": [
+    "who needs slabs",
+    "lotwil stone"
+   ],
+   "answer": "Lotwil Veriatus needs Large Stone Slabs for his tests of spells meant to control elementals."
+  },
+  {
+   "q": "Why does Lotwil want them?",
+   "aliases": [
+    "why slabs",
+    "what are stones for"
+   ],
+   "answer": "Lotwil tests his spells on the slabs, hoping to use them in experiments to control elementals."
+  },
+  {
+   "q": "Which elementals carry them?",
+   "aliases": [
+    "what rock elemental",
+    "which stones"
+   ],
+   "answer": "Rock elementals carry the slabs Lotwil seeks. His directions place them west of him and along the mountain edges."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Lotwil marvels that a single tauren brought him the slabs, saying he expected it would take half a dozen."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "elemental",
+  "large stone slab",
+  "lotwil veriatus",
+  "rock elemental",
+  "stone",
+  "stone slab"
+ ],
+ "related": [
+  "quest:710",
+  "npc:lotwil-veriatus",
+  "zone:badlands",
+  "subzone:mirage-flats"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Large Stone Slab",
+  "Study of the Elements: Rock (2)"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "item:nether-wing",
+ "type": "item",
+ "name": "Nether Wing",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Nether Wing",
+  "quests": [
+   "quest:1466"
+  ]
+ },
+ "summary": "A Nether Wing is a demon\u2019s wing sought by Reclaimers Inc. in Desolace. Kreldig Ungor needs ten for a mage\u2019s experiments, alongside other dangerous reagents.",
+ "sections": [
+  {
+   "title": "A Demon's Wing",
+   "body": "Nether Maidens, Nether Sorceresses, and Nether Sisters in Desolace bear the wings Kreldig Ungor seeks. He asks for ten as part of a collection of reagents for a mage\u2019s experiments. The work also calls for Felhound Brains and vials of Doomwarder Blood, making this a perilous gathering.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Nether Wings?",
+   "aliases": [
+    "who needs nether wing",
+    "nether wings for who"
+   ],
+   "answer": "Kreldig Ungor in Desolace seeks ten Nether Wings for a mage\u2019s experiments."
+  },
+  {
+   "q": "What are Nether Wings from?",
+   "aliases": [
+    "where nether wing come from",
+    "nether wing source"
+   ],
+   "answer": "Nether Wings come from Nether Maidens, Nether Sorceresses, and Nether Sisters in Desolace."
+  },
+  {
+   "q": "Why does Kreldig Ungor need them?",
+   "aliases": [
+    "why nether wings",
+    "what are wings for"
+   ],
+   "answer": "Kreldig Ungor gathers Nether Wings as reagents for a mage\u2019s experiments."
+  },
+  {
+   "q": "What other reagents are needed?",
+   "aliases": [
+    "other reagents",
+    "what else does kreldig need"
+   ],
+   "answer": "The collection also requires Felhound Brains and vials of Doomwarder Blood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "kreldig ungor",
+  "nether maiden",
+  "nether sister",
+  "nether sorceress",
+  "nether wing",
+  "nether wings",
+  "reagents for reclaimers inc"
+ ],
+ "related": [
+  "zone:desolace",
+  "npc:kreldig-ungor",
+  "quest:1458",
+  "item:felhound-brain",
+  "item:doomwarder-blood"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Nether Wing",
+  "Reagents for Reclaimers Inc. (3)"
+ ]
+}

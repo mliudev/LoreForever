@@ -340,6 +340,14 @@ check("contribute", {
       C.EachLine(function() lines = lines + 1 end)
       expect("captured text: bookkeeping", ok, ok and string.format("%d lines kept, %d marked as sent, client %s %s",
         lines, count(cap.sent), tostring(cap.build), tostring(cap.locale)) or "LoreForeverDB.capture is missing or malformed")
+      -- What drops in dungeons (World.lua, LOR-1586): the table, and what its loot windows cost on this client.
+      local w = ns.World and ns.World.Stats and ns.World.Stats()
+      if w then
+        pass("dungeon finds", string.format("%d corpses, %d kills, %d rolls; %d loot windows this session, %.3f ms average, "
+          .. "%.3f ms at most", w.corpses, w.kills, w.rolls, w.windows, w.avg, w.max))
+      else
+        skip("dungeon finds", "nothing kept yet (only inside a dungeon in Forever)")
+      end
     end
     local line = { kind = "quest", id = 99999, part = "detail", text = "Line one\nwith ~ and 100% $N", player = C.PlayerTag(),
       speaker = { kind = "npc", id = 197, name = "Test Npc", sex = 2, ctype = "Humanoid" } }

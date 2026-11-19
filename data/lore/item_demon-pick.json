@@ -1,0 +1,97 @@
+{
+ "key": "item:demon-pick",
+ "type": "item",
+ "name": "Demon Pick",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Demon Pick",
+  "quests": [
+   "quest:5381"
+  ]
+ },
+ "summary": "The Demon Pick opens a red crystal inside Thunder Axe Fortress. Taiga Wisemane needs it to reach the Demon Box held by the Burning Blade.",
+ "sections": [
+  {
+   "title": "The Red Crystal",
+   "body": "Beyond the fortress walls, the red crystal bars the way to the Demon Box. The Demon Pick opens it, granting access to what the Burning Blade keeps within Thunder Axe Fortress. Taiga Wisemane waits in Shadowprey Village for the pick and the box, so the threat at Mannoroc Coven can be faced.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Demon Pick open?",
+   "aliases": [
+    "demon pick use",
+    "pick for red crystal"
+   ],
+   "answer": "The Demon Pick opens a red crystal in Thunder Axe Fortress, giving access to the Demon Box."
+  },
+  {
+   "q": "Where do I use the Demon Pick?",
+   "aliases": [
+    "where use demon pick",
+    "demon pick location"
+   ],
+   "answer": "Use the Demon Pick on the red crystal inside Thunder Axe Fortress."
+  },
+  {
+   "q": "Who needs the Demon Pick?",
+   "aliases": [
+    "who wants the pick",
+    "taiga pick"
+   ],
+   "answer": "Taiga Wisemane in Shadowprey Village asks for the Demon Pick along with the Demon Box."
+  },
+  {
+   "q": "Why does Taiga want the Demon Pick?",
+   "aliases": [
+    "why demon pick",
+    "demon pick reason"
+   ],
+   "answer": "Taiga needs the Demon Pick to reach the Demon Box, which the Burning Blade holds at Thunder Axe Fortress."
+  },
+  {
+   "q": "What is in the Demon Box?",
+   "aliases": [
+    "demon box contents",
+    "what's in the box"
+   ],
+   "answer": "The powerful Hand of Iruxos lies within the Demon Box."
+  },
+  {
+   "q": "Why is the Demon Box dangerous?",
+   "aliases": [
+    "burning blade box",
+    "demon portals"
+   ],
+   "answer": "The Burning Blade uses the Hand of Iruxos inside the box to open demonic portals at Mannoroc Coven."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "demon box",
+  "demon pick",
+  "hand of iruxos",
+  "mannoroc coven",
+  "red crystal",
+  "shadowprey village",
+  "taiga wisemane",
+  "thunder axe fortress"
+ ],
+ "related": [
+  "quest:5381",
+  "item:demon-box",
+  "subzone:thunder-axe-fortress",
+  "npc:taiga-wisemane",
+  "subzone:shadowprey-village",
+  "quest:5581",
+  "subzone:mannoroc-coven"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Demon Pick",
+  "Hand of Iruxos (quest)"
+ ]
+}

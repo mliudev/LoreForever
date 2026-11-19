@@ -1,0 +1,97 @@
+{
+ "key": "item:acceptable-basilisk-sample",
+ "type": "item",
+ "name": "Acceptable Basilisk Sample",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Acceptable Basilisk Sample",
+  "quests": [
+   "quest:654"
+  ]
+ },
+ "summary": "An acceptable basilisk sample is one of the specimens sought for Chief Engineer Bilgewhizzle's field testing in Tanaris. It is collected with a Field Testing Kit while the kit's power lasts.",
+ "sections": [
+  {
+   "title": "Desert Specimen",
+   "body": "The Field Testing Kit needs eight basilisk samples, along with samples from hyenas and scorpids. In Tanaris, an untested basilisk sample may prove acceptable when examined with the kit. The kit glows and vibrates once its power source is active, and Bilgewhizzle allows two hours to gather the data before the power runs out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Acceptable Basilisk Sample?",
+   "aliases": [
+    "basilisk sample",
+    "acceptable sample",
+    "good basilisk specimen"
+   ],
+   "answer": "It is a basilisk specimen accepted by the Field Testing Kit during Bilgewhizzle's field testing in Tanaris."
+  },
+  {
+   "q": "Who needs the basilisk samples?",
+   "aliases": [
+    "who wants samples",
+    "Bilgewhizzle samples",
+    "who needs basilisk"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle in Gadgetzan needs eight acceptable basilisk samples for his field testing."
+  },
+  {
+   "q": "How do I get an acceptable sample?",
+   "aliases": [
+    "get basilisk sample",
+    "sample test",
+    "how sample works"
+   ],
+   "answer": "Use an untested basilisk sample while carrying the Field Testing Kit; the specimen may be judged acceptable."
+  },
+  {
+   "q": "Why does the kit glow and vibrate?",
+   "aliases": [
+    "kit glowing",
+    "vibrating kit",
+    "what is kit doing"
+   ],
+   "answer": "The kit glows and vibrates after its power source is activated, showing that it is working."
+  },
+  {
+   "q": "How long does the kit have power?",
+   "aliases": [
+    "kit timer",
+    "power runs out",
+    "two hours"
+   ],
+   "answer": "Bilgewhizzle says the powered kit gives you two hours to collect the Tanaris data before the samples are lost."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize Bilgewhizzle's powered testing kit as a device built to gather field data in the Tanaris desert."
+  }
+ ],
+ "keywords": [
+  "acceptable basilisk sample",
+  "basilisk",
+  "chief engineer bilgewhizzle",
+  "field testing kit",
+  "gadgetzan",
+  "power source",
+  "tanaris",
+  "tanaris field sampling"
+ ],
+ "related": [
+  "quest:654",
+  "item:field-testing-kit",
+  "item:acceptable-hyena-sample",
+  "item:acceptable-scorpid-sample",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Acceptable Basilisk Sample",
+  "Tanaris Field Sampling"
+ ]
+}

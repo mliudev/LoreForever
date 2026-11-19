@@ -1,0 +1,81 @@
+{
+ "key": "item:hippogryph-muisek",
+ "type": "item",
+ "name": "Hippogryph Muisek",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Hippogryph Muisek",
+  "quests": [
+   "quest:3124"
+  ]
+ },
+ "summary": "Hippogryph Muisek preserves the spirits of the Frayfeather hippogryphs in Feralas. A druid in the High Wilderness asks you to capture them with a Muisek Vessel.",
+ "sections": [
+  {
+   "title": "Spirits Preserved",
+   "body": "Among the Frayfeather hippogryphs of the High Wilderness, you are to capture ten with the Muisek Vessel. The night elves have long kept hippogryphs as loyal companions, and their spirits are steadfast. The vessel preserves each spirit after its creature is slain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is hippogryph muisek?",
+   "aliases": [
+    "hippogryph muisek",
+    "muisek item"
+   ],
+   "answer": "Hippogryph Muisek is the preserved spirit of a Frayfeather hippogryph, captured in a Muisek Vessel."
+  },
+  {
+   "q": "Where do I find Frayfeather hippogryphs?",
+   "aliases": [
+    "hippogryph location",
+    "frayfeathers where"
+   ],
+   "answer": "Frayfeather hippogryphs live in the High Wilderness, south of the druid who asks you to capture them."
+  },
+  {
+   "q": "Why capture the hippogryphs?",
+   "aliases": [
+    "why muisek",
+    "capture hippogryphs"
+   ],
+   "answer": "The druid wants their muisek preserved, since a spirit left free after its creature dies may take the form of a greater creature and threaten those nearby."
+  },
+  {
+   "q": "How many hippogryphs are needed?",
+   "aliases": [
+    "how many hippogryphs",
+    "muisek count"
+   ],
+   "answer": "The druid asks you to capture ten Frayfeather hippogryphs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you know hippogryphs as loyal companions whose spirits are steadfast. The druid's concern is to preserve those spirits safely."
+  }
+ ],
+ "keywords": [
+  "feralas",
+  "frayfeather",
+  "high wilderness",
+  "hippogryph",
+  "hippogryph muisek",
+  "muisek vessel",
+  "spirit"
+ ],
+ "related": [
+  "quest:3124",
+  "item:hippogryph-muisek-vessel",
+  "subzone:high-wilderness",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hippogryph Muisek",
+  "Hippogryph Muisek (Classic)"
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "key": "quest:5243",
+ "type": "quest",
+ "name": "Houses of the Holy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5243
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Leonid Barthalomew asks you to recover holy water from Stratholme for the Argent Dawn. He sees his undeath as both an illness and a blessing against the Scourge.",
+ "sections": [
+  {
+   "title": "Water for the Dawn",
+   "body": "Leonid Barthalomew, revered among his colleagues, asks for your help in Stratholme. He regards his undeath as a malady that needs treatment, yet also as a blessing the Argent Dawn can use against the Scourge. Search the city's supply crates for the holy water the order has in surplus, then bring it back to Leonid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is leonid",
+    "leonid barthalomew",
+    "revered undead man"
+   ],
+   "answer": "Leonid Barthalomew, whom his colleagues revere for his sacrifices, asks for help recovering holy water for the Argent Dawn."
+  },
+  {
+   "q": "Why does Leonid want the holy water?",
+   "aliases": [
+    "why holy water",
+    "what's it for",
+    "argent dawn water"
+   ],
+   "answer": "Leonid asks you to recover the Argent Dawn's surplus holy water from Stratholme."
+  },
+  {
+   "q": "Where is the holy water?",
+   "aliases": [
+    "where find water",
+    "stratholme crates",
+    "holy water location"
+   ],
+   "answer": "The holy water is in supply crates scattered through Stratholme."
+  },
+  {
+   "q": "What does Leonid think of his undeath?",
+   "aliases": [
+    "leonid undeath",
+    "why is he undead",
+    "undeath blessing"
+   ],
+   "answer": "Leonid regards his undeath as an illness that needs treatment, but also as a blessing for the Argent Dawn in its fight against the Scourge."
+  },
+  {
+   "q": "Who does Leonid want to fight?",
+   "aliases": [
+    "who are heathens",
+    "scourge enemies",
+    "kelthuzad minions"
+   ],
+   "answer": "Leonid says the holy water can aid the Argent Dawn against the Scourge, the minions of Kel'Thuzad."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance member, you can assist Leonid Barthalomew and the Argent Dawn by recovering their holy water from Stratholme."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can assist Leonid Barthalomew and the Argent Dawn by recovering their holy water from Stratholme."
+  },
+  {
+   "target": "race:Undead",
+   "text": "As an undead traveler, you may understand Leonid's view of undeath as both a malady and a blessing."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "holy water",
+  "houses of the holy",
+  "kel'thuzad",
+  "leonid barthalomew",
+  "scourge",
+  "stratholme",
+  "supply crates"
+ ],
+ "related": [
+  "subzone:stratholme-classic",
+  "topic:scourge",
+  "topic:argent-dawn"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Houses of the Holy"
+ ]
+}

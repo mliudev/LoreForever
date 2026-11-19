@@ -1,0 +1,96 @@
+{
+ "key": "item:centaur-ear",
+ "type": "item",
+ "name": "Centaur Ear",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Centaur Ear",
+  "quests": [
+   "quest:1366",
+   "quest:1387"
+  ]
+ },
+ "summary": "A centaur ear is taken as proof of a centaur slain in Desolace. Both the Horde and Alliance demand them as a sign of weakening the clans.",
+ "sections": [
+  {
+   "title": "A Grim Tally",
+   "body": "In Desolace, centaur ears are gathered for the Horde and Alliance alike. Felgur Twocuts asks Horde travelers for a great hoard, believing fewer centaur will weaken the clans' resolve. At Nijel's Point, Corporal Melkins demands ears in service of the Alliance and its hope for peace. Both banners turn a grisly token into a measure of their struggle with the centaur.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do they collect centaur ears?",
+   "aliases": [
+    "why ears",
+    "centaur ear purpose",
+    "what are ears for"
+   ],
+   "answer": "Horde and Alliance officers use centaur ears as proof of slain centaur and as a tally meant to weaken the clans."
+  },
+  {
+   "q": "Who wants centaur ears for the Horde?",
+   "aliases": [
+    "horde ear guy",
+    "felgur wants what",
+    "who is felgur"
+   ],
+   "answer": "Felgur Twocuts in Desolace asks Horde travelers to bring him a hoard of centaur ears."
+  },
+  {
+   "q": "Who wants centaur ears for the Alliance?",
+   "aliases": [
+    "alliance ear npc",
+    "melkins ears",
+    "nijel ears"
+   ],
+   "answer": "Corporal Melkins at Nijel's Point asks Alliance travelers to bring him centaur ears."
+  },
+  {
+   "q": "Do the clans matter which ears are taken from?",
+   "aliases": [
+    "which clan",
+    "any centaur ears",
+    "clan ears"
+   ],
+   "answer": "Felgur Twocuts says the Horde may hunt any centaur clan in Desolace."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "For the Horde, bringing ears to Felgur Twocuts is meant to weaken the centaur clans and mark the banner behind the bloodshed."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "At Nijel's Point, Corporal Melkins calls the taking of centaur ears a service to the Alliance and a step toward peace."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "centaur",
+  "centaur bounty",
+  "centaur ear",
+  "corporal melkins",
+  "desolace",
+  "felgur twocuts",
+  "horde",
+  "nijel's point"
+ ],
+ "related": [
+  "topic:centaur",
+  "zone:desolace",
+  "subzone:nijel-s-point",
+  "npc:felgur-twocuts",
+  "topic:horde",
+  "topic:alliance",
+  "quest:1366"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Centaur Ear",
+  "Centaur Bounty (Horde)",
+  "Centaur Bounty (Alliance)"
+ ]
+}

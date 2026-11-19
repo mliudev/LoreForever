@@ -1,0 +1,99 @@
+{
+ "key": "item:ransom-letter",
+ "type": "item",
+ "name": "Ransom Letter",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Ransom Letter",
+  "quests": [
+   "quest:8598"
+  ]
+ },
+ "summary": "The Ransom Letter is a threat from the thieves holding Narain\u2019s book in Tanaris. Its cut-and-pasted words demand money and a meeting alone.",
+ "sections": [
+  {
+   "title": "A Cut-Out Threat",
+   "body": "Narain\u2019s missing book brings a ransom demand to Tanaris. The letter\u2019s words are cut from different typefaces and glued onto parchment. It promises the book will be returned if the demands are met, then sets out detailed instructions across three pages. The message ends with a blunt order: bring the money and come alone.",
+   "spoiler": 0
+  },
+  {
+   "title": "Narain\u2019s Anger",
+   "body": "When Narain reads the ransom letter, his face turns bright red. The gnome vows to teach the kidnappers what it means to meddle with a psychic. His stolen book has become a matter of anger as well as payment.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the ransom letter?",
+   "aliases": [
+    "letter writer",
+    "who sent it",
+    "ransom note author"
+   ],
+   "answer": "The letter does not name its writer. It says that the kidnappers have Narain\u2019s book and demands money in exchange."
+  },
+  {
+   "q": "Whose book was stolen?",
+   "aliases": [
+    "who owns the book",
+    "narain book",
+    "stolen book"
+   ],
+   "answer": "The book belongs to Narain, a gnome in Tanaris."
+  },
+  {
+   "q": "What does the letter demand?",
+   "aliases": [
+    "what do they want",
+    "ransom demand",
+    "bring money"
+   ],
+   "answer": "The kidnappers demand money and order the recipient to come alone."
+  },
+  {
+   "q": "Why is the letter made from cut-out words?",
+   "aliases": [
+    "typeface ransom note",
+    "cut and paste note",
+    "weird letter"
+   ],
+   "answer": "Its text is made from different typefaces glued onto parchment. The letter gives no reason for this method."
+  },
+  {
+   "q": "How does Narain react?",
+   "aliases": [
+    "narain angry",
+    "gnome reaction",
+    "what does narain say"
+   ],
+   "answer": "Narain\u2019s face turns bright red, and he vows to teach the kidnappers a lesson."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, you may recognize Narain\u2019s pride in his psychic abilities. The stolen book and ransom threat leave him furious."
+  }
+ ],
+ "keywords": [
+  "gnome",
+  "narain",
+  "psychic",
+  "ransom",
+  "ransom letter",
+  "ransom note",
+  "stolen book",
+  "tanaris"
+ ],
+ "related": [
+  "quest:8598",
+  "zone:tanaris",
+  "topic:gnome"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ransom Letter",
+  "RAnS0m"
+ ]
+}

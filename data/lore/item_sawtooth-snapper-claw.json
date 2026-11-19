@@ -1,0 +1,82 @@
+{
+ "key": "item:sawtooth-snapper-claw",
+ "type": "item",
+ "name": "Sawtooth Snapper Claw",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Sawtooth Snapper Claw",
+  "quests": [
+   "quest:699"
+  ]
+ },
+ "summary": "Sawtooth Snapper Claws come from the murlocs along the Swamp of Sorrows coast. Tok'Kar prepares them as weapons to help defend Stonard.",
+ "sections": [
+  {
+   "title": "Claws for Stonard",
+   "body": "Along the coast of the Swamp of Sorrows, Tok'Kar asks for Sawtooth Snapper Claws to strengthen Stonard's defenses. The sawtooth snappers are murlocs, and their claws make fine weapons when properly prepared. Tok'Kar is stationed on the coast to watch for threats and warn Stonard if danger grows too great.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Sawtooth Snapper Claws come from?",
+   "aliases": [
+    "snapper claws source",
+    "where claws from"
+   ],
+   "answer": "Sawtooth Snapper Claws come from sawtooth snappers along the Swamp of Sorrows coast."
+  },
+  {
+   "q": "Who wants the claws?",
+   "aliases": [
+    "who wants snapper claws",
+    "Tok'Kar claws"
+   ],
+   "answer": "Tok'Kar wants Sawtooth Snapper Claws to prepare weapons for Stonard's defense."
+  },
+  {
+   "q": "Why does Tok'Kar need the claws?",
+   "aliases": [
+    "why claws",
+    "what are claws for"
+   ],
+   "answer": "Tok'Kar says the claws make fine weapons when properly prepared, giving Stonard more weapons ready for an attack."
+  },
+  {
+   "q": "What is Tok'Kar doing on the coast?",
+   "aliases": [
+    "Tok'Kar job",
+    "why is Tok'Kar there"
+   ],
+   "answer": "Tok'Kar and his force watch the coast to protect Stonard or warn it if a threat grows too large."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Tok'Kar is helping guard Stonard, an orc settlement, from threats along the coast."
+  }
+ ],
+ "keywords": [
+  "coast",
+  "murloc",
+  "sawtooth snapper",
+  "sawtooth snapper claw",
+  "stonard",
+  "swamp of sorrows",
+  "tok'kar",
+  "weapons"
+ ],
+ "related": [
+  "quest:698",
+  "zone:swampofsorrows",
+  "subzone:stonard",
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sawtooth Snapper Claw",
+  "Lack of Surplus (2)"
+ ]
+}

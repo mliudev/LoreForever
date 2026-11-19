@@ -1,0 +1,81 @@
+{
+ "key": "item:oathstone-of-ysera-s-dragonflight",
+ "type": "item",
+ "name": "Oathstone of Ysera's Dragonflight",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Oathstone of Ysera's Dragonflight",
+  "quests": [
+   "quest:3374"
+  ]
+ },
+ "summary": "The Oathstone of Ysera's Dragonflight carries Itharius's charge concerning Eranikus. It brings you to a choice in the Swamp of Sorrows.",
+ "sections": [
+  {
+   "title": "A Charge Given",
+   "body": "In the Swamp of Sorrows, Itharius gives you the Oathstone after speaking with you about Eranikus. Engage the stone, and his voice reaches your mind. He asks you to accept a charge in service of Ysera's Dragonflight.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Choice",
+   "body": "Itharius's charge asks you to help redeem Eranikus's corrupted soul. To begin, you must relinquish the Chained Essence of Eranikus, which holds what remains of Eranikus's free will. Itharius calls this the first of many sacrifices. The choice to aid Ysera's Dragonflight is yours.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Oathstone do?",
+   "aliases": [
+    "what is oathstone for",
+    "oathstone purpose"
+   ],
+   "answer": "When you engage the Oathstone, Itharius speaks to your mind and asks you to aid Ysera's Dragonflight in redeeming Eranikus."
+  },
+  {
+   "q": "Who gives you the Oathstone?",
+   "aliases": [
+    "who gives oathstone",
+    "itharius stone"
+   ],
+   "answer": "Itharius gives you the Oathstone after speaking with you about Eranikus in the Swamp of Sorrows."
+  },
+  {
+   "q": "What choice does the stone offer?",
+   "aliases": [
+    "oathstone choice",
+    "aid ysera or not"
+   ],
+   "answer": "The Oathstone asks you to choose whether to aid Ysera's Dragonflight in redeeming Eranikus."
+  },
+  {
+   "q": "What must you give up?",
+   "aliases": [
+    "what sacrifice",
+    "chained essence"
+   ],
+   "answer": "Itharius asks you to relinquish the Chained Essence of Eranikus, which chains what remains of Eranikus's free will."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chained essence",
+  "dragonflight",
+  "eranikus",
+  "itharius",
+  "oathstone",
+  "redemption",
+  "swamp of sorrows",
+  "ysera"
+ ],
+ "related": [
+  "quest:3374",
+  "quest:3512",
+  "zone:swampofsorrows"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Oathstone of Ysera's Dragonflight",
+  "The Essence of Eranikus (2)"
+ ]
+}

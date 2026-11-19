@@ -1,0 +1,81 @@
+{
+ "key": "item:head-of-lathoric-the-black",
+ "type": "item",
+ "name": "Head of Lathoric the Black",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Head of Lathoric the Black",
+  "quests": [
+   "quest:3566"
+  ]
+ },
+ "summary": "The Head of Lathoric the Black is proof carried from Searing Gorge to Thorius in Ironforge. It is tied to the danger surrounding Obsidion.",
+ "sections": [
+  {
+   "title": "A Grim Token",
+   "body": "Thorius in Ironforge asks you to bring him the Head of Lathoric the Black from Searing Gorge. The head is proof of Lathoric's death, and it is carried alongside the Heart of Obsidion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the head from?",
+   "aliases": [
+    "head of lathoric",
+    "lathoric head"
+   ],
+   "answer": "The head is from Lathoric the Black, who is found in Searing Gorge."
+  },
+  {
+   "q": "Why does Thorius want it?",
+   "aliases": [
+    "why head for thorius",
+    "thorius proof"
+   ],
+   "answer": "Thorius asks you to bring the head to Ironforge as proof connected to the danger around Obsidion."
+  },
+  {
+   "q": "Where do I take the head?",
+   "aliases": [
+    "head turn in",
+    "where take lathoric head"
+   ],
+   "answer": "Bring the Head of Lathoric the Black to Thorius in Ironforge."
+  },
+  {
+   "q": "What goes with the head?",
+   "aliases": [
+    "heart with head",
+    "obsidion items"
+   ],
+   "answer": "The Heart of Obsidion is carried with the head to Thorius."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you carry proof of danger in Searing Gorge back to Thorius in Ironforge."
+  }
+ ],
+ "keywords": [
+  "head of lathoric the black",
+  "heart of obsidion",
+  "ironforge",
+  "lathoric",
+  "obsidion",
+  "searing gorge",
+  "thorius"
+ ],
+ "related": [
+  "quest:3566",
+  "zone:searinggorge",
+  "item:heart-of-obsidion",
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Head of Lathoric the Black",
+  "Rise, Obsidion!"
+ ]
+}

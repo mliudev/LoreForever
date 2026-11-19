@@ -1,0 +1,91 @@
+{
+ "key": "item:thick-yeti-hide",
+ "type": "item",
+ "name": "Thick Yeti Hide",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Thick Yeti Hide",
+  "quests": [
+   "quest:2821",
+   "quest:2822"
+  ]
+ },
+ "summary": "In Feralas, yeti hides draw the attention of leatherworkers who prize fine materials. Pratt McGrubben and Jangdor Swiftstrider seek them for their work.",
+ "sections": [
+  {
+   "title": "A Leatherworker\u2019s Mark",
+   "body": "Feralas yetis are prized by two leatherworkers for their thick hides. Pratt McGrubben at Feathermoon Stronghold and Jangdor Swiftstrider at Camp Mojache each ask for ten. They promise a choice of their leather goods in return. Both believe careful tanning can make these hides remarkably resilient.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do thick yeti hides come from?",
+   "aliases": [
+    "thick hide source",
+    "where yeti hides",
+    "yeti hide feralas"
+   ],
+   "answer": "Thick Yeti Hides come from yetis in Feralas. Many are found in Feral Scar Vale, just inland from the Forgotten Coast."
+  },
+  {
+   "q": "Who wants thick yeti hides?",
+   "aliases": [
+    "who needs hides",
+    "pratt hides",
+    "jangdor hides"
+   ],
+   "answer": "Pratt McGrubben at Feathermoon Stronghold and Jangdor Swiftstrider at Camp Mojache each seek ten Thick Yeti Hides."
+  },
+  {
+   "q": "What are the hides used for?",
+   "aliases": [
+    "yeti hide use",
+    "what for hides",
+    "leatherworking hides"
+   ],
+   "answer": "Pratt McGrubben and Jangdor Swiftstrider want the hides for their leatherworking. They believe skilled tanning can make them exceptionally resilient."
+  },
+  {
+   "q": "What do the leatherworkers offer?",
+   "aliases": [
+    "hide trade",
+    "ten hides reward",
+    "what do i get"
+   ],
+   "answer": "Each leatherworker offers a choice of crafted leather goods for a stack of ten Thick Yeti Hides."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a leatherworker, you may appreciate why Pratt McGrubben and Jangdor Swiftstrider prize hides they believe can be treated to remarkable strength."
+  }
+ ],
+ "keywords": [
+  "feral scar vale",
+  "feralas",
+  "forgotten coast",
+  "jangdor swiftstrider",
+  "leatherworking",
+  "pratt mcgrubben",
+  "tanning",
+  "thick yeti hide",
+  "yeti"
+ ],
+ "related": [
+  "quest:2821",
+  "zone:feralas",
+  "subzone:feral-scar-vale",
+  "subzone:forgotten-coast",
+  "subzone:camp-mojache",
+  "subzone:feathermoon-stronghold-classic"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Thick Yeti Hide",
+  "The Mark of Quality (Classic Alliance)",
+  "The Mark of Quality (Classic Horde)"
+ ]
+}

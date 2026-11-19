@@ -1,0 +1,82 @@
+{
+ "key": "item:malem-pendant",
+ "type": "item",
+ "name": "Malem Pendant",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Malem Pendant",
+  "quests": [
+   "quest:1465"
+  ]
+ },
+ "summary": "The Malem Pendant is found in a wagon in Desolace. Vahlarriel Demonslayer at Nijel\u2019s Point needs it, along with news of tracks leading south.",
+ "sections": [
+  {
+   "title": "A Sign in the Wagon",
+   "body": "Footprints lead south from the wagon where you find the Malem Pendant. Smoke rises from a nearby fort, and its steady fire suggests people are there. Vahlarriel Demonslayer at Nijel\u2019s Point needs to see the pendant and hear what you found.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I take the Malem Pendant?",
+   "aliases": [
+    "where to take pendant",
+    "pendant turn in",
+    "malem pendant where"
+   ],
+   "answer": "Take the Malem Pendant to Vahlarriel Demonslayer at Nijel\u2019s Point in Desolace."
+  },
+  {
+   "q": "Where was the pendant found?",
+   "aliases": [
+    "where is pendant",
+    "pendant location",
+    "find malem pendant"
+   ],
+   "answer": "You find the Malem Pendant in a wagon in Desolace."
+  },
+  {
+   "q": "What clues were near the pendant?",
+   "aliases": [
+    "tracks and smoke",
+    "what clues",
+    "wagon clues"
+   ],
+   "answer": "Footprints lead south from the wagon, and smoke rises from a nearby fort."
+  },
+  {
+   "q": "Why does Vahlarriel need to hear about the fort?",
+   "aliases": [
+    "why tell vahlarriel",
+    "fort news",
+    "what does vahlarriel need"
+   ],
+   "answer": "Vahlarriel is searching for the Malems, and the tracks and smoke suggest they may have been taken toward the fort."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "footprints",
+  "fort",
+  "malem",
+  "malem pendant",
+  "nijel's point",
+  "vahlarriel demonslayer",
+  "wagon"
+ ],
+ "related": [
+  "quest:1437",
+  "zone:desolace",
+  "subzone:nijel-s-point",
+  "quest:1439",
+  "quest:1440"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Malem Pendant",
+  "Vahlarriel's Search (2)"
+ ]
+}

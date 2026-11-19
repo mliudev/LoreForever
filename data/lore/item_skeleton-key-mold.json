@@ -1,0 +1,97 @@
+{
+ "key": "item:skeleton-key-mold",
+ "type": "item",
+ "name": "Skeleton Key Mold",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Skeleton Key Mold",
+  "quests": [
+   "quest:5802"
+  ]
+ },
+ "summary": "The Skeleton Key Mold shapes a thorium-and-bone key stem in Fire Plume Ridge\u2019s lava. Apothecary Dithers needs the unfinished key for the fight against the Scourge in Andorhal.",
+ "sections": [
+  {
+   "title": "A Mold for the Key",
+   "body": "Apothecary Dithers provides the Skeleton Key Mold for work at Fire Plume Ridge in Un'Goro Crater. With two Thorium Bars, its bearer can use the mold beside the lava lake to fuse thorium and bone into an unfinished key stem. Dithers says the lava's heat will do the forging, but the thorium must be supplied separately.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Skeleton Key Mold for?",
+   "aliases": [
+    "skeleton mold purpose",
+    "what mold do"
+   ],
+   "answer": "The Skeleton Key Mold shapes a thorium-and-bone key stem in the lava at Fire Plume Ridge."
+  },
+  {
+   "q": "Who gives me the mold?",
+   "aliases": [
+    "where get skeleton mold",
+    "dithers mold"
+   ],
+   "answer": "Apothecary Dithers provides the Skeleton Key Mold for the work at Fire Plume Ridge."
+  },
+  {
+   "q": "What do I need with the mold?",
+   "aliases": [
+    "mold ingredients",
+    "thorium bars key"
+   ],
+   "answer": "Two Thorium Bars are needed with the Skeleton Key Mold to forge the unfinished key stem."
+  },
+  {
+   "q": "Where is the mold used?",
+   "aliases": [
+    "where use skeleton mold",
+    "fire plume lava"
+   ],
+   "answer": "Use the Skeleton Key Mold beside the lava lake at the top of Fire Plume Ridge in Un'Goro Crater."
+  },
+  {
+   "q": "Why is Dithers making a skeleton key?",
+   "aliases": [
+    "key for andorhal",
+    "why skeleton key"
+   ],
+   "answer": "Dithers is preparing the key as part of the effort to strike at the Scourge in Andorhal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Dithers calls on you to help counter the Scourge, whose power holds Andorhal."
+  },
+  {
+   "target": "profession:Mining",
+   "text": "Thorium is needed to forge the key stem, though Dithers leaves its acquisition to you."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "apothecary dithers",
+  "fire plume ridge",
+  "scourge",
+  "skeleton key",
+  "skeleton key mold",
+  "thorium",
+  "un'goro crater",
+  "unfinished skeleton key"
+ ],
+ "related": [
+  "quest:5801",
+  "item:unfinished-skeleton-key",
+  "zone:ungoro",
+  "subzone:andorhal",
+  "topic:scourge",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Skeleton Key Mold",
+  "Fire Plume Forged (Horde)"
+ ]
+}

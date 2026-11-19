@@ -1,0 +1,91 @@
+{
+ "key": "item:lookout-s-spyglass",
+ "type": "item",
+ "name": "Lookout's Spyglass",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Lookout's Spyglass",
+  "quests": [
+   "quest:7728"
+  ]
+ },
+ "summary": "The Lookout's Spyglass is a stolen instrument prized by the Thorium Brotherhood. Its loss leaves Searing Gorge's lookouts without an excellent tool for watching the area.",
+ "sections": [
+  {
+   "title": "A Stolen Instrument",
+   "body": "Dark Iron dwarves took the Lookout's Spyglass from the Thorium Brotherhood in Searing Gorge. The Brotherhood seeks its return to Taskmaster Scrange, who waits for the stolen goods.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Lookout's Spyglass?",
+   "aliases": [
+    "spyglass",
+    "lookout spyglass",
+    "what's the spyglass"
+   ],
+   "answer": "The Lookout's Spyglass is an excellent monitoring tool used by lookouts."
+  },
+  {
+   "q": "Who stole the spyglass?",
+   "aliases": [
+    "who took it",
+    "dark iron stole spyglass",
+    "spyglass thieves"
+   ],
+   "answer": "The Thorium Brotherhood says Dark Iron dwarves in Searing Gorge stole the Lookout's Spyglass."
+  },
+  {
+   "q": "Who wants the spyglass back?",
+   "aliases": [
+    "who wants it",
+    "return spyglass",
+    "scrange spyglass"
+   ],
+   "answer": "Taskmaster Scrange of the Thorium Brotherhood seeks the return of the stolen Lookout's Spyglass."
+  },
+  {
+   "q": "Where are the Dark Iron Lookouts?",
+   "aliases": [
+    "lookout location",
+    "where are lookouts",
+    "dark iron lookout towers"
+   ],
+   "answer": "Dark Iron Lookouts watch from towers around the Slag Pit in Searing Gorge."
+  },
+  {
+   "q": "Why does the Brotherhood want it?",
+   "aliases": [
+    "why spyglass matters",
+    "spyglass use",
+    "what's it for"
+   ],
+   "answer": "The Lookout's Spyglass is an invaluable monitoring tool for the lookouts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark iron lookouts",
+  "lookout's spyglass",
+  "searing gorge",
+  "slag pit",
+  "spyglass",
+  "stolen instrument",
+  "taskmaster scrange",
+  "thorium brotherhood"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "subzone:slag-pit",
+  "subzone:thorium-point",
+  "quest:3442",
+  "item:smithing-tuyere"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Lookout's Spyglass",
+  "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+ ]
+}

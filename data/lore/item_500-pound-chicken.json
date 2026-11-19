@@ -1,0 +1,89 @@
+{
+ "key": "item:500-pound-chicken",
+ "type": "item",
+ "name": "500 Pound Chicken",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "500 Pound Chicken",
+  "quests": [
+   "quest:8587"
+  ]
+ },
+ "summary": "The 500 Pound Chicken is a goblin\u2019s promised delicacy, brought to Narain Soothfancy in Tanaris. The gnome wastes no time tasting it.",
+ "sections": [
+  {
+   "title": "A Goblin's Promise",
+   "body": "In Tanaris, Dirge gives you the 500 Pound Chicken to carry to Narain Soothfancy. The goblin says he keeps his word, though he cannot imagine why a gnome would want such a meal. Narain soon supplies the answer: he digs into the enormous chicken and calls it the best he has ever tasted.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives you the 500 Pound Chicken?",
+   "aliases": [
+    "who gives chicken",
+    "dirge chicken",
+    "chicken giver"
+   ],
+   "answer": "Dirge, a goblin, gives you the 500 Pound Chicken and says he is a goblin of his word."
+  },
+  {
+   "q": "Who is the chicken for?",
+   "aliases": [
+    "chicken for who",
+    "who wants it",
+    "narain chicken"
+   ],
+   "answer": "The chicken is for Narain Soothfancy, a gnome in Tanaris."
+  },
+  {
+   "q": "Why does Narain want a giant chicken?",
+   "aliases": [
+    "why chicken",
+    "gnome chicken",
+    "500 pound chicken why"
+   ],
+   "answer": "Narain wants to eat it. He calls it the best chicken he has ever tasted."
+  },
+  {
+   "q": "What happens when Narain gets the chicken?",
+   "aliases": [
+    "narain eats chicken",
+    "chicken ending",
+    "what happens to it"
+   ],
+   "answer": "Narain mashes his fists into the huge chicken, stuffs his face, and praises its taste."
+  },
+  {
+   "q": "Where does the 500 Pound Chicken go?",
+   "aliases": [
+    "chicken location",
+    "where to take chicken",
+    "tanaris chicken"
+   ],
+   "answer": "You take the 500 Pound Chicken to Narain Soothfancy in Tanaris."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "500 pound chicken",
+  "chicken",
+  "dirge",
+  "gnome",
+  "goblin",
+  "narain soothfancy",
+  "tanaris"
+ ],
+ "related": [
+  "quest:8587",
+  "npc:narain-soothfancy",
+  "zone:tanaris",
+  "quest:8728"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: 500 Pound Chicken",
+  "Return to Narain"
+ ]
+}

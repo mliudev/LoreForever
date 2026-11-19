@@ -1,0 +1,76 @@
+{
+ "key": "quest:3564",
+ "type": "quest",
+ "name": "Andron's Payment to Jediga",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3564
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Andron asks you to carry his note to Jediga in Azshara. The payment brings an unexpected extra share.",
+ "sections": [
+  {
+   "title": "A Generous Payment",
+   "body": "Jediga reacts with surprise when you bring Andron's note to her in Azshara. She says Andron paid far more than expected and wonders whether you told him the agreement had changed, or whether he was drunk again. She gives you an extra share as well.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Andron ask me to deliver?",
+   "aliases": [
+    "andron note",
+    "deliver note to jediga",
+    "andron's payment"
+   ],
+   "answer": "Andron asks you to deliver his note to Jediga in Azshara."
+  },
+  {
+   "q": "Who is Jediga?",
+   "aliases": [
+    "jediga who",
+    "who is jediga",
+    "jediga"
+   ],
+   "answer": "Jediga is the one who receives Andron's note in Azshara."
+  },
+  {
+   "q": "Why did Andron pay too much?",
+   "aliases": [
+    "andron overpaid",
+    "why extra share",
+    "payment too much"
+   ],
+   "answer": "Jediga wonders whether you told Andron the deal had changed or whether he was drunk again."
+  },
+  {
+   "q": "What does Jediga give me?",
+   "aliases": [
+    "extra share",
+    "jediga payment",
+    "what do i get"
+   ],
+   "answer": "Jediga gives you an extra share after you deliver Andron's note."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "andron",
+  "azshara",
+  "extra share",
+  "jediga",
+  "note",
+  "payment"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Andron's Payment to Jediga"
+ ]
+}

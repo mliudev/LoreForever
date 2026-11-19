@@ -1,0 +1,69 @@
+{
+ "key": "item:solid-crystal-leg-shaft",
+ "type": "item",
+ "name": "Solid Crystal Leg Shaft",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Solid Crystal Leg Shaft",
+  "quests": [
+   "quest:4450"
+  ]
+ },
+ "summary": "A Solid Crystal Leg Shaft is one of the materials Krinkle Goodsteel wants from Searing Gorge. Glassweb Spiders carry them.",
+ "sections": [
+  {
+   "title": "Spider's Haul",
+   "body": "Glassweb Spiders in Searing Gorge carry Solid Crystal Leg Shafts. Krinkle Goodsteel in Gadgetzan seeks twenty of them, along with other goods listed in his ledger. The shafts are part of a broader request reaching across several lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Solid Crystal Leg Shafts?",
+   "aliases": [
+    "crystal leg shaft location",
+    "where shaft",
+    "glassweb spider item"
+   ],
+   "answer": "You get them from the Glassweb Spiders that live in Searing Gorge."
+  },
+  {
+   "q": "Who wants the shafts?",
+   "aliases": [
+    "who wants these",
+    "krinkle's items",
+    "goodsteel request"
+   ],
+   "answer": "Krinkle Goodsteel in Gadgetzan wants twenty Solid Crystal Leg Shafts, listed in his ledger."
+  },
+  {
+   "q": "Why does Krinkle want them?",
+   "aliases": [
+    "why shafts",
+    "what are they for",
+    "ledger from tanaris"
+   ],
+   "answer": "Krinkle Goodsteel requested the shafts among several goods listed in his ledger."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "glassweb spider",
+  "goodsteel ledger",
+  "krinkle goodsteel",
+  "searing gorge",
+  "solid crystal leg shaft"
+ ],
+ "related": [
+  "quest:4450",
+  "item:goodsteel-ledger",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Solid Crystal Leg Shaft",
+  "Ledger from Tanaris"
+ ]
+}

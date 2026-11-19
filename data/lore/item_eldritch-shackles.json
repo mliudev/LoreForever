@@ -1,0 +1,88 @@
+{
+ "key": "item:eldritch-shackles",
+ "type": "item",
+ "name": "Eldritch Shackles",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Eldritch Shackles",
+  "quests": [
+   "quest:656"
+  ]
+ },
+ "summary": "Eldritch Shackles bind Myzrael to the Shards of Myzrael in the Arathi Highlands. They are sought after she is summoned and defeated.",
+ "sections": [
+  {
+   "title": "At the Shards",
+   "body": "At the Circle of Inner Binding, the Eldritch Shackles are used with the Shards of Myzrael. Myzrael must be summoned and defeated before the shackles can bind her again.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Wail Below",
+   "body": "When the shackles are placed around the Shards, an inhuman wail rises from far below, followed by a roar. The stones pulse with menace, and the thing beneath them seems to bear ill will toward the surface.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Eldritch Shackles for?",
+   "aliases": [
+    "what do shackles do",
+    "eldritch shackles purpose"
+   ],
+   "answer": "The Eldritch Shackles are bound around the Shards of Myzrael to trap Myzrael again."
+  },
+  {
+   "q": "Where do I use the Eldritch Shackles?",
+   "aliases": [
+    "where to use shackles",
+    "shackles location"
+   ],
+   "answer": "The Eldritch Shackles are used at the Shards of Myzrael in the Circle of Inner Binding, in the Arathi Highlands."
+  },
+  {
+   "q": "Who is Myzrael?",
+   "aliases": [
+    "myzrael who",
+    "who is the princess"
+   ],
+   "answer": "Myzrael is called the princess, and she is held beneath the Shards of Myzrael."
+  },
+  {
+   "q": "Why must Myzrael be defeated?",
+   "aliases": [
+    "why kill myzrael",
+    "stop myzrael"
+   ],
+   "answer": "Myzrael must be defeated before she gathers enough power to challenge her captors."
+  },
+  {
+   "q": "What happens when the shackles bind Myzrael?",
+   "aliases": [
+    "shackles effect",
+    "what happens at shards"
+   ],
+   "answer": "An inhuman wail rises from far below, followed by a roar, and the Shards pulse with menace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "circle of inner binding",
+  "eldritch shackles",
+  "myzrael",
+  "shards of myzrael",
+  "summoning the princess"
+ ],
+ "related": [
+  "quest:656",
+  "item:scroll-of-myzrael",
+  "subzone:circle-of-inner-binding",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Eldritch Shackles",
+  "Summoning the Princess"
+ ]
+}

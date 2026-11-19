@@ -1,0 +1,92 @@
+{
+ "key": "item:sharpbeak-s-feather",
+ "type": "item",
+ "name": "Sharpbeak's Feather",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Sharpbeak's Feather",
+  "quests": [
+   "quest:2990"
+  ]
+ },
+ "summary": "Sharpbeak's feather carries a trace of the young gryphon sought in the Hinterlands. Thadius Grimshade hopes its link to Sharpbeak will let his divining magic find him.",
+ "sections": [
+  {
+   "title": "A Gryphon's Feather",
+   "body": "At Nethergarde Keep, Thadius Grimshade asks for a feather taken from the nest where Sharpbeak sleeps. The diviner left Aerie Peak years ago to pursue darker knowledge, though he remains Wildhammer in his heart. He believes the feather may help him find the young gryphon.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Sign of Promise",
+   "body": "Thadius recognizes the feather as belonging to a fine gryphon. He believes Sharpbeak is destined for great things, if he survives to adulthood without harm. With the feather in hand, he bids you listen closely as he begins to divine the gryphon's whereabouts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sharpbeak's Feather for?",
+   "aliases": [
+    "sharpbeak feather",
+    "what feather for",
+    "feather use"
+   ],
+   "answer": "Thadius Grimshade uses Sharpbeak's Feather as a link for divining the young gryphon's whereabouts."
+  },
+  {
+   "q": "Where did the feather come from?",
+   "aliases": [
+    "sharpbeak feather source",
+    "where feather from",
+    "gryphon nest feather"
+   ],
+   "answer": "The feather was taken from the nest where the gryphon child Sharpbeak sleeps."
+  },
+  {
+   "q": "Who is Thadius Grimshade?",
+   "aliases": [
+    "thadius backstory",
+    "who is thadius",
+    "grimshade"
+   ],
+   "answer": "Thadius Grimshade is a Wildhammer diviner who left Aerie Peak years ago to pursue darker knowledge. He can be found in Nethergarde Keep's mage tower in the Blasted Lands."
+  },
+  {
+   "q": "What does Thadius think of Sharpbeak?",
+   "aliases": [
+    "sharpbeak destiny",
+    "what thadius thinks",
+    "gryphon child"
+   ],
+   "answer": "Thadius calls Sharpbeak a fine gryphon, destined for great things if he survives to adulthood undamaged."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, Sharpbeak's search touches the Wildhammer: Thadius Grimshade left Aerie Peak, yet still holds to his Wildhammer heart."
+  }
+ ],
+ "keywords": [
+  "aerie peak",
+  "divination",
+  "gryphon",
+  "sharpbeak",
+  "sharpbeak's feather",
+  "thadius grimshade",
+  "wildhammer"
+ ],
+ "related": [
+  "quest:2994",
+  "npc:thadius-grimshade",
+  "zone:hinterlands",
+  "subzone:nethergarde-keep",
+  "quest:2992",
+  "quest:2993"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sharpbeak's Feather",
+  "Thadius Grimshade (quest)"
+ ]
+}

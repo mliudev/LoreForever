@@ -1,0 +1,86 @@
+{
+ "key": "item:shipment-to-nethergarde",
+ "type": "item",
+ "name": "Shipment to Nethergarde",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Shipment to Nethergarde",
+  "quests": [
+   "quest:1425"
+  ]
+ },
+ "summary": "Biggs' caravan sends a shipment of vital supplies from the Swamp of Sorrows to Nethergarde Keep. The keep needs them to watch over the Dark Portal.",
+ "sections": [
+  {
+   "title": "A Needed Delivery",
+   "body": "Biggs asks you to carry supplies saved from ogre attacks to Quartermaster Lungertz at Nethergarde Keep. The keep watches over the Dark Portal from the northern hills of the Blasted Lands. Biggs is repairing his wagon, so the shipment must travel by road without him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the shipment?",
+   "aliases": [
+    "shipment contents",
+    "what's in the package",
+    "azoran crystals"
+   ],
+   "answer": "The shipment holds vital supplies rescued from ogre attacks. Quartermaster Lungertz hopes it includes Azoran Crystals, which Nethergarde's stock is running low on."
+  },
+  {
+   "q": "Who sent the shipment?",
+   "aliases": [
+    "who packed it",
+    "biggs package",
+    "where's the shipment from"
+   ],
+   "answer": "Biggs packed the supplies for Nethergarde Keep after ogre attacks threatened the caravan."
+  },
+  {
+   "q": "Who should receive the shipment?",
+   "aliases": [
+    "who gets the package",
+    "nethergarde delivery",
+    "quartermaster lungertz"
+   ],
+   "answer": "Quartermaster Lungertz at Nethergarde Keep is waiting for the shipment."
+  },
+  {
+   "q": "Why does Nethergarde need it?",
+   "aliases": [
+    "why supplies",
+    "what does the keep need",
+    "nethergarde stock"
+   ],
+   "answer": "Nethergarde Keep needs the supplies, and Quartermaster Lungertz says its stock of Azoran Crystals is running low."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you carry supplies to Nethergarde Keep, which watches over the Dark Portal."
+  }
+ ],
+ "keywords": [
+  "azoran crystals",
+  "biggs",
+  "blasted lands",
+  "dark portal",
+  "nethergarde keep",
+  "ogre attacks",
+  "quartermaster lungertz",
+  "shipment to nethergarde"
+ ],
+ "related": [
+  "quest:1425",
+  "subzone:nethergarde-keep",
+  "zone:blastedlands",
+  "subzone:dark-portal"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shipment to Nethergarde",
+  "Deliver the Shipment"
+ ]
+}

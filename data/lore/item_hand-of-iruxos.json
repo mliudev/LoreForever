@@ -1,0 +1,85 @@
+{
+ "key": "item:hand-of-iruxos",
+ "type": "item",
+ "name": "Hand of Iruxos",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Hand of Iruxos",
+  "quests": [
+   "quest:5581"
+  ]
+ },
+ "summary": "The Hand of Iruxos is a gruesome artifact that can open demonic portals and close those it has opened. Taiga Wisemane needs it to help banish the portals at Mannoroc Coven.",
+ "sections": [
+  {
+   "title": "A Gruesome Sight",
+   "body": "At Shadowprey Village, Taiga Wisemane gives you the Hand of Iruxos and asks you to carry it to Mannoroc Coven. The Burning Blade cultists there have opened portals that bring demons into the world. The hand can close portals it has opened, and Taiga needs its power to stem the growing demon threat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hand of Iruxos?",
+   "aliases": [
+    "hand of iruxos",
+    "iruxos hand"
+   ],
+   "answer": "It is a grisly relic that opens demonic portals, and can close the ones it opened."
+  },
+  {
+   "q": "Who gives me the Hand of Iruxos?",
+   "aliases": [
+    "who has the hand",
+    "taiga hand"
+   ],
+   "answer": "Taiga Wisemane at Shadowprey Village gives you the Hand of Iruxos and asks you to use it against the portals at Mannoroc Coven."
+  },
+  {
+   "q": "Where do I use the Hand of Iruxos?",
+   "aliases": [
+    "hand location",
+    "where use hand"
+   ],
+   "answer": "Taiga Wisemane asks you to use the Hand of Iruxos to banish demonic portals at Mannoroc Coven."
+  },
+  {
+   "q": "Why are there demons at Mannoroc Coven?",
+   "aliases": [
+    "mannoroc demons",
+    "why demons"
+   ],
+   "answer": "Burning Blade cultists at Mannoroc Coven have opened portals that bring demons into the world."
+  },
+  {
+   "q": "Can the Hand of Iruxos close portals?",
+   "aliases": [
+    "close portals",
+    "portal hand"
+   ],
+   "answer": "The Hand of Iruxos can close demonic portals it has opened."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "demonic portals",
+  "hand of iruxos",
+  "iruxos",
+  "mannoroc coven",
+  "shadowprey village",
+  "taiga wisemane"
+ ],
+ "related": [
+  "item:demon-box",
+  "quest:5581",
+  "npc:taiga-wisemane",
+  "subzone:mannoroc-coven",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hand of Iruxos",
+  "Portals of the Legion (Classic)"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "item:margol-s-gigantic-horn",
+ "type": "item",
+ "name": "Margol's Gigantic Horn",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Margol's Gigantic Horn",
+  "quests": [
+   "quest:3181"
+  ]
+ },
+ "summary": "Margol\u2019s Gigantic Horn is a battered trophy from Searing Gorge. Mountaineer Pebblebitty needs it before he will consider opening Stonewrought Pass.",
+ "sections": [
+  {
+   "title": "A Rough Trophy",
+   "body": "In Searing Gorge, Margol\u2019s Gigantic Horn is a curious find for anyone seeking a way through Stonewrought Pass. Scratches and cracks mark its rough surface, and an unusual piece of metal is lodged in it. Mountaineer Pebblebitty is the one who wants to see the horn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Margol\u2019s horn?",
+   "aliases": [
+    "who wants it",
+    "pebblebitty horn",
+    "where take horn"
+   ],
+   "answer": "Mountaineer Pebblebitty wants to see Margol\u2019s Gigantic Horn. He is at the pass between Loch Modan and Searing Gorge."
+  },
+  {
+   "q": "Where can I find the horn?",
+   "aliases": [
+    "horn location",
+    "find margol horn",
+    "where horn"
+   ],
+   "answer": "Margol\u2019s Gigantic Horn comes from Margol the Rager in Searing Gorge."
+  },
+  {
+   "q": "Why does Pebblebitty need the horn?",
+   "aliases": [
+    "why pebblebitty wants it",
+    "horn for what",
+    "why take horn"
+   ],
+   "answer": "Pebblebitty asks to see Margol\u2019s Gigantic Horn before he will consider opening Stonewrought Pass between Loch Modan and Searing Gorge."
+  },
+  {
+   "q": "What is lodged in the horn?",
+   "aliases": [
+    "metal in horn",
+    "what stuck in it",
+    "axe head"
+   ],
+   "answer": "A broken axe head is lodged in the rough surface. Its metal bears the words \u201cProperty of Mountaineer Pebblebitty.\u201d"
+  },
+  {
+   "q": "Why does Pebblebitty call it fake?",
+   "aliases": [
+    "fake horn",
+    "pebblebitty says fake",
+    "is it real"
+   ],
+   "answer": "Pebblebitty insists the horn is too small to be Margol\u2019s, claiming Margol\u2019s horn is at least eight times larger."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broken axe head",
+  "lochmodan",
+  "margol",
+  "margol the rager",
+  "margol's gigantic horn",
+  "mountaineer pebblebitty",
+  "searing gorge",
+  "stonewrought pass"
+ ],
+ "related": [
+  "quest:3181",
+  "zone:searinggorge",
+  "subzone:stonewrought-pass"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Margol's Gigantic Horn",
+  "The Horn of the Beast"
+ ]
+}

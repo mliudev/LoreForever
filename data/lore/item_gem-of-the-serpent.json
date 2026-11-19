@@ -1,0 +1,85 @@
+{
+ "key": "item:gem-of-the-serpent",
+ "type": "item",
+ "name": "Gem of the Serpent",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Gem of the Serpent",
+  "quests": [
+   "quest:6027"
+  ]
+ },
+ "summary": "The Gem of the Serpent is entrusted to you by Azore Aldamort at Ethel Rethor. It is used to seek the Book of the Ancients, which holds secrets of the naga.",
+ "sections": [
+  {
+   "title": "A Serpent's Charge",
+   "body": "Azore Aldamort gives you the Gem of the Serpent at his tower in Ethel Rethor. He bids you place it in the hand of the Serpent Statue on Ranazjar Isle, northwest of the tower. The gem will summon the guardian of the Book of the Ancients, a tome said to hold secrets of the naga.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Gem of the Serpent for?",
+   "aliases": [
+    "gem purpose",
+    "what does serpent gem do"
+   ],
+   "answer": "Azore Aldamort entrusts you with the Gem of the Serpent so you can summon the guardian of the Book of the Ancients."
+  },
+  {
+   "q": "Where do I use the Gem of the Serpent?",
+   "aliases": [
+    "where gem go",
+    "serpent statue location"
+   ],
+   "answer": "Place the Gem of the Serpent in the hand of the Serpent Statue on Ranazjar Isle, a small island northwest of Ethel Rethor."
+  },
+  {
+   "q": "Who gives you the Gem of the Serpent?",
+   "aliases": [
+    "who gives gem",
+    "azore gem"
+   ],
+   "answer": "Azore Aldamort, at the tower in Ethel Rethor, entrusts you with the Gem of the Serpent."
+  },
+  {
+   "q": "What does the gem summon?",
+   "aliases": [
+    "gem summon",
+    "serpent gem guardian"
+   ],
+   "answer": "Placed on the Serpent Statue's hand, the Gem of the Serpent summons the protector of the Book of the Ancients."
+  },
+  {
+   "q": "Why does Azore want the Book of the Ancients?",
+   "aliases": [
+    "why book wanted",
+    "naga secrets book"
+   ],
+   "answer": "Azore Aldamort wants the Book of the Ancients because it contains secrets of the naga, kept for centuries."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azore aldamort",
+  "book of the ancients",
+  "ethel rethor",
+  "gem of the serpent",
+  "naga",
+  "ranazjar isle",
+  "serpent statue"
+ ],
+ "related": [
+  "quest:6027",
+  "subzone:ethel-rethor",
+  "zone:desolace",
+  "quest:5741",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gem of the Serpent",
+  "Book of the Ancients (quest)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:huntsman-malkhor-s-skull",
+ "type": "item",
+ "name": "Huntsman Malkhor's Skull",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Huntsman Malkhor's Skull",
+  "quests": [
+   "quest:7849"
+  ]
+ },
+ "summary": "Huntsman Malkhor's Skull is part of the remains Huntsman Markhor seeks in Jintha'alor. He hopes to give his twin brother a proper burial.",
+ "sections": [
+  {
+   "title": "A Brother's Remains",
+   "body": "Among the skulls in Jintha'alor lies one belonging to Huntsman Malkhor, twin brother of Huntsman Markhor of Revantusk Village. The Vilebranch killed Malkhor and left his remains to the oozes and wolves near the temple's upper reaches. Markhor asks you to recover the skull and bones so his brother's soul may be at peace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does the skull belong to?",
+   "aliases": [
+    "malkhor skull",
+    "whose skull",
+    "huntsman malkhor"
+   ],
+   "answer": "The skull belongs to Huntsman Malkhor, the twin brother of Huntsman Markhor of Revantusk Village."
+  },
+  {
+   "q": "Where is Malkhor's skull?",
+   "aliases": [
+    "skull location",
+    "where skull",
+    "jintha'alor skull"
+   ],
+   "answer": "Malkhor's skull rests in a pile of skulls on the upper tier of Jintha'alor."
+  },
+  {
+   "q": "Who wants Malkhor's remains?",
+   "aliases": [
+    "who wants remains",
+    "markhor brother",
+    "separation anxiety"
+   ],
+   "answer": "Huntsman Markhor wants you to recover his twin brother's skull and bones for a proper burial."
+  },
+  {
+   "q": "How did Malkhor die?",
+   "aliases": [
+    "what happened malkhor",
+    "malkhor death",
+    "vilebranch killed"
+   ],
+   "answer": "The Vilebranch killed Malkhor in a raid and fed his remains to oozes and wolves."
+  },
+  {
+   "q": "Why is Markhor searching for the remains?",
+   "aliases": [
+    "why recover skull",
+    "malkhor burial",
+    "brother remains"
+   ],
+   "answer": "Markhor hopes to have Malkhor's remains prepared for a proper burial and his soul put at peace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "huntsman malkhor",
+  "huntsman markhor",
+  "jintha'alor",
+  "malkhor's skull",
+  "revantusk village",
+  "separation anxiety",
+  "vilebranch"
+ ],
+ "related": [
+  "quest:7849",
+  "item:huntsman-malkhor-s-bones",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Huntsman Malkhor's Skull",
+  "Wowpedia: Separation Anxiety (quest)"
+ ]
+}

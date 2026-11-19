@@ -1,0 +1,80 @@
+{
+ "key": "quest:3784",
+ "type": "quest",
+ "name": "Assisting Arch Druid Runetotem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3784
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Cenarion Circle in Thunder Bluff seeks your aid in a research project led by Arch Druid Hamuul Runetotem. You are asked to speak with him on Elder Rise.",
+ "sections": [
+  {
+   "title": "A Call for Aid",
+   "body": "The Cenarion Circle seeks seasoned adventurers in Thunder Bluff to help with research. Hamuul Runetotem leads the work, though its details are not yet known to you. Speak with the Arch Druid on Elder Rise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who needs help",
+    "who sent me",
+    "cenarion circle request"
+   ],
+   "answer": "The Cenarion Circle in Thunder Bluff seeks your aid with a research project led by Hamuul Runetotem."
+  },
+  {
+   "q": "Who is Hamuul Runetotem?",
+   "aliases": [
+    "who is hamuul",
+    "hamuul runetotem",
+    "arch druid"
+   ],
+   "answer": "Hamuul Runetotem is an Arch Druid leading the Cenarion Circle's research project in Thunder Bluff."
+  },
+  {
+   "q": "Where can I speak with Hamuul?",
+   "aliases": [
+    "where is hamuul",
+    "elder rise",
+    "find runetotem"
+   ],
+   "answer": "Hamuul Runetotem is on Elder Rise in Thunder Bluff."
+  },
+  {
+   "q": "What is the research about?",
+   "aliases": [
+    "what research",
+    "research project",
+    "what is hamuul studying"
+   ],
+   "answer": "The Cenarion Circle has a research project led by Hamuul Runetotem, but its details are not known to you at this step."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arch druid",
+  "cenarion circle",
+  "elder rise",
+  "hamuul runetotem",
+  "research",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1489",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Assisting Arch Druid Runetotem"
+ ]
+}

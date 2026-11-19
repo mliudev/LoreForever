@@ -1,0 +1,80 @@
+{
+ "key": "item:bundle-of-akiris-reeds",
+ "type": "item",
+ "name": "Bundle of Akiris Reeds",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Bundle of Akiris Reeds",
+  "quests": [
+   "quest:623"
+  ]
+ },
+ "summary": "A Bundle of Akiris Reeds is a shipment carried to Privateer Groy in Theramore. He checks it for a client who wants more.",
+ "sections": [
+  {
+   "title": "A Fresh Shipment",
+   "body": "Privateer Groy receives the reeds in Theramore after Bloads sends another shipment his way. Groy looks the bundle over, pleased that it will satisfy his client. Then he pays the courier and sends them off his docks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the bundle for?",
+   "aliases": [
+    "who wants the reeds",
+    "akiris bundle client",
+    "reeds for who"
+   ],
+   "answer": "Privateer Groy receives the Bundle of Akiris Reeds in Theramore for a client who wants more."
+  },
+  {
+   "q": "Where do I take the bundle?",
+   "aliases": [
+    "where to bring reeds",
+    "groy location",
+    "take bundle where"
+   ],
+   "answer": "Bring the Bundle of Akiris Reeds to Privateer Groy in Theramore."
+  },
+  {
+   "q": "Who sends the bundle?",
+   "aliases": [
+    "who gave me reeds",
+    "bloads shipment",
+    "where from"
+   ],
+   "answer": "Bloads asks you to carry the shipment to Privateer Groy in Theramore."
+  },
+  {
+   "q": "What does Groy do with it?",
+   "aliases": [
+    "groy checks bundle",
+    "what's the shipment for",
+    "client wants more"
+   ],
+   "answer": "Groy inspects the reeds and says another bundle will please his client."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "akiris",
+  "akiris reeds",
+  "bloads",
+  "bundle of akiris reeds",
+  "privateer groy",
+  "shipment",
+  "theramore"
+ ],
+ "related": [
+  "quest:617",
+  "item:akiris-reed",
+  "zone:dustwallow",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bundle of Akiris Reeds",
+  "Akiris by the Bundle (2)"
+ ]
+}

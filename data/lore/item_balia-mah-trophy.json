@@ -1,0 +1,85 @@
+{
+ "key": "item:balia-mah-trophy",
+ "type": "item",
+ "name": "Balia'mah Trophy",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Balia'mah Trophy",
+  "quests": [
+   "quest:585"
+  ]
+ },
+ "summary": "The Balia'mah Trophy is a Skullsplitter trophy skull taken from the ruins in Stranglethorn Vale. Nezzliok asks for it alongside two other trophies at the Bubbling Cauldron in Grom'gol Base Camp.",
+ "sections": [
+  {
+   "title": "A Skullsplitter Trophy",
+   "body": "Among the ruins of Balia'mah in Stranglethorn Vale, the Skullsplitters keep trophy skulls in a pile. One skull from that pile is the Balia'mah Trophy, wanted with trophies from Ziata'jai and Zul'Mamwe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Balia'mah Trophy?",
+   "aliases": [
+    "balia'mah trophy",
+    "balia mah skull",
+    "trophy skull"
+   ],
+   "answer": "The Balia'mah Trophy is a skull taken from the Skullsplitter trophy pile at Balia'mah Ruins in Stranglethorn Vale."
+  },
+  {
+   "q": "Who wants the Balia'mah Trophy?",
+   "aliases": [
+    "who wants this skull",
+    "nezzliok trophy",
+    "trophy for nezzliok"
+   ],
+   "answer": "The dead witch doctor Nezzliok asks for the Balia'mah Trophy along with trophies from Ziata'jai and Zul'Mamwe."
+  },
+  {
+   "q": "Where is the Balia'mah Trophy from?",
+   "aliases": [
+    "where find balia'mah",
+    "balia'mah ruins skull",
+    "skullsplitter trophy"
+   ],
+   "answer": "The Balia'mah Trophy comes from the pile of trophy skulls at Balia'mah Ruins in Stranglethorn Vale."
+  },
+  {
+   "q": "Where do the three trophies go?",
+   "aliases": [
+    "where put skulls",
+    "bubbling cauldron trophies",
+    "three skulls"
+   ],
+   "answer": "Nezzliok asks that the Balia'mah, Ziata'jai and Zul'Mamwe trophies be placed at the Bubbling Cauldron in Grom'gol Base Camp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "balia'mah",
+  "balia'mah ruins",
+  "balia'mah trophy",
+  "grom'gol",
+  "nezzliok",
+  "skullsplitter",
+  "trophy skull",
+  "ziata'jai",
+  "zul'mamwe"
+ ],
+ "related": [
+  "subzone:balia-mah-ruins",
+  "quest:585",
+  "item:ziata-jai-trophy",
+  "item:zul-mamwe-trophy",
+  "subzone:grom-gol-base-camp",
+  "topic:darkspear-tribe",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Balia'mah Trophy",
+  "Speaking with Nezzliok (Classic)"
+ ]
+}

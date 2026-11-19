@@ -1,0 +1,80 @@
+{
+ "key": "item:crudely-dried-meat",
+ "type": "item",
+ "name": "Crudely Dried Meat",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Crudely Dried Meat",
+  "quests": [
+   "quest:1370"
+  ]
+ },
+ "summary": "Crudely Dried Meat is stored food taken from the Magram camp in Desolace. The Gelkis use the stolen stores to sustain their fight against the Magram.",
+ "sections": [
+  {
+   "title": "Meat Stores",
+   "body": "Magram hunters preserve extra meat so their people can fight between hunts. Uthek the Wise asks you to take those stores from the Magram camp and bring them to Gelkis Village. He gives the meat to the Gelkis, who mean to fight on full bellies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Crudely Dried Meat?",
+   "aliases": [
+    "dried meat",
+    "crude meat",
+    "what meat is this"
+   ],
+   "answer": "Crudely Dried Meat is preserved food stored by the Magram in Desolace."
+  },
+  {
+   "q": "Who wants the meat?",
+   "aliases": [
+    "who needs this meat",
+    "uthek meat",
+    "meat for gelkis"
+   ],
+   "answer": "Uthek the Wise wants you to bring the Magram's stored meat to him in Gelkis Village."
+  },
+  {
+   "q": "Why do the Gelkis want it?",
+   "aliases": [
+    "why steal the meat",
+    "gelkis hungry",
+    "what do they use it for"
+   ],
+   "answer": "The Gelkis plan to eat the meat so they can fight the Magram for many days without rest."
+  },
+  {
+   "q": "Where does the meat come from?",
+   "aliases": [
+    "where find dried meat",
+    "magram meat",
+    "meat sacks"
+   ],
+   "answer": "The Magram store extra meat at their camp in Desolace, east of Gelkis Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crudely dried meat",
+  "desolace",
+  "dried meat",
+  "gelkis",
+  "magram",
+  "stealing supplies",
+  "uthek the wise"
+ ],
+ "related": [
+  "quest:1370",
+  "subzone:gelkis-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Crudely Dried Meat",
+  "Stealing Supplies"
+ ]
+}

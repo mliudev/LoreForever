@@ -1,0 +1,79 @@
+{
+ "key": "item:vessel-of-tainted-blood",
+ "type": "item",
+ "name": "Vessel of Tainted Blood",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Vessel of Tainted Blood",
+  "quests": [
+   "quest:7850"
+  ]
+ },
+ "summary": "The Vessel of Tainted Blood is a dark vessel found in Jintha'Alor. Its foul magic empowers the Vilebranch and clouds their minds.",
+ "sections": [
+  {
+   "title": "Blood and Shadow",
+   "body": "Primal Torntusk asks you to recover these vessels from Jintha'Alor in the Hinterlands. He says they carry the foul magic of the faceless blood God, empowering the Vilebranch and driving them to madness. He hopes to remove the taint and loosen the God\u2019s grip.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Vessel of Tainted Blood?",
+   "aliases": [
+    "tainted blood vessel",
+    "dark vessel",
+    "blood vessel"
+   ],
+   "answer": "It is a vessel found in Jintha'Alor that radiates foul magic tied to the faceless blood God."
+  },
+  {
+   "q": "Where can I find the vessels?",
+   "aliases": [
+    "where vessel",
+    "jintha alor vessels",
+    "find tainted vessels"
+   ],
+   "answer": "The Vessels of Tainted Blood are found throughout Jintha'Alor in the Hinterlands."
+  },
+  {
+   "q": "What do the vessels do?",
+   "aliases": [
+    "what vessel do",
+    "why are they bad",
+    "vessel magic"
+   ],
+   "answer": "Their foul magic empowers the Vilebranch and clouds their minds, driving them to madness."
+  },
+  {
+   "q": "Who wants the vessels?",
+   "aliases": [
+    "who wants blood vessels",
+    "torntusk vessels",
+    "primal torntusk"
+   ],
+   "answer": "Primal Torntusk at Revantusk Village wants you to bring him the tainted vessels so he can remove their taint."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark vessel",
+  "faceless blood god",
+  "jintha'alor",
+  "primal torntusk",
+  "tainted blood",
+  "vessel of tainted blood",
+  "vilebranch"
+ ],
+ "related": [
+  "quest:7850",
+  "quest:7847",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Vessel of Tainted Blood",
+  "Wowpedia: Dark Vessels (Classic)"
+ ]
+}

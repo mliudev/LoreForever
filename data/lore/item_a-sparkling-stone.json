@@ -1,0 +1,80 @@
+{
+ "key": "item:a-sparkling-stone",
+ "type": "item",
+ "name": "A Sparkling Stone",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "A Sparkling Stone",
+  "quests": [
+   "quest:2942"
+  ]
+ },
+ "summary": "The Sparkling Stone is found within the Equinex Monolith in Feralas. Troyas Moonbreeze identifies it as the Morrow Stone and begins studying its purpose.",
+ "sections": [
+  {
+   "title": "At Feathermoon",
+   "body": "After returning to Feathermoon Stronghold, you bring the Sparkling Stone and the Stave of Equinex to Troyas Moonbreeze. He names the stone the Morrow Stone and says he does not yet know what it is meant to do. Its place inside the Equinex Monolith marks it as something worth studying.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sparkling Stone?",
+   "aliases": [
+    "sparkling stone",
+    "morrow stone",
+    "what stone"
+   ],
+   "answer": "Troyas Moonbreeze identifies the Sparkling Stone as the Morrow Stone, an artifact taken from the Equinex Monolith."
+  },
+  {
+   "q": "Where do you find the Sparkling Stone?",
+   "aliases": [
+    "stone location",
+    "where stone",
+    "find morrow stone"
+   ],
+   "answer": "The Sparkling Stone is found inside the Equinex Monolith in Feralas."
+  },
+  {
+   "q": "Who is Troyas Moonbreeze?",
+   "aliases": [
+    "troyas",
+    "troyas moonbreeze",
+    "who wants the stone"
+   ],
+   "answer": "Troyas Moonbreeze is the scholar at Feathermoon Stronghold who receives the Morrow Stone and the Stave of Equinex for study."
+  },
+  {
+   "q": "What is the stone for?",
+   "aliases": [
+    "stone purpose",
+    "what does it do",
+    "morrow stone use"
+   ],
+   "answer": "Troyas Moonbreeze does not yet know the Morrow Stone's purpose, but believes it is significant."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "equine monolith",
+  "feathermoon stronghold",
+  "feralas",
+  "morrow stone",
+  "sparkling stone",
+  "stave of equinex",
+  "troyas moonbreeze"
+ ],
+ "related": [
+  "quest:2942",
+  "item:stave-of-equinex",
+  "subzone:feathermoon-stronghold-classic",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: A Sparkling Stone",
+  "The Morrow Stone"
+ ]
+}

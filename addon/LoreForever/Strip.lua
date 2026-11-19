@@ -1225,6 +1225,50 @@ function Strip.QuestPage(event, id)
   listPage(event, id, false)
 end
 
+-- The run's done (LOR-1468 3b-3; docs/qa/dungeon-prep.md lines 47, 52, 53): a dungeon's last boss down (Moments.Final),
+-- inside a dungeon this character has a prep list for (Willo's prepEnds, {"Name-Realm": {map ids}}), shows a quest page:
+-- event 5, the boss as CRC-32 of its name in lower case, mod 2^24 (Willo knows the last bosses by name). Whatever
+-- Chime-ins is set to: Willo says the offer as the fight ends, or keeps it for her next answer. Mid-fight it waits, as
+-- every quest page does (questHeld).
+function Strip.FinishedPage(name)
+  if not (type(name) == "string" and ns.Moments and ns.Moments.Final and ns.Moments.Final(name)) then return end
+  if not (Strip.On() and Strip.QuestsFromWillo()) then return end
+  local data = Strip.FromWilloLately()
+  local ends = type(data) == "table" and data.prepEnds
+  local key = type(ends) == "table" and ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()
+  local maps = type(key) == "string" and ends[key]
+  local inst = tonumber((select(9, pcall(GetInstanceInfo))))
+  if type(maps) ~= "table" or not inst then return end
+  for _, m in ipairs(maps) do
+    if m == inst then
+      local id = Strip.CRC32(name:lower()) % 16777216
+      return listPage(5, id == 0 and 1 or id, true)
+    end
+  end
+end
+
+-- Whether the Willo on this PC takes a pin cleared here off her card at once (LoreForeverJourneyData.skyPins).
+function Strip.PinsFromWillo()
+  local data = Strip.FromWilloLately()
+  return type(data) == "table" and data.skyPins == true
+end
+
+-- A pin cleared on a map, told to Willo now (Mike's QA, 11/18: a pin he right-clicked off still showed on her card,
+-- "she needs to know when it's removed somehow"; the clear reached her only in the save, at his next /reload). A quest
+-- page, event 6: the low 24 bits of the CRC-32 of Journey.CharKey, a newline and Journey.PinKey (pins.py cleared_tag),
+-- never 0. Sent once Put it back is no longer offered (PinArrive), and only while it's still cleared; the save still
+-- carries it for a Willo that missed the page (Live game info off, a fight that outlasts the wait).
+function Strip.PinCleared(pin)
+  local J = ns.Journey
+  local p = type(pin) == "table" and pin.line
+  if type(p) ~= "table" or not (J and J.PinKey and J.CharKey and J.PinsCleared) then return end
+  if not (Strip.On() and Strip.QuestsFromWillo() and Strip.PinsFromWillo()) then return end
+  local key = J.PinKey(p)
+  if not J.PinsCleared().keys[key] then return end
+  local tag = Strip.CRC32(J.CharKey() .. "\n" .. key) % 16777216
+  listPage(6, tag == 0 and 1 or tag, true)
+end
+
 -- The door line (LOR-1468 3b-2; docs/qa/dungeon-prep.md lines 43 to 46, 58a): walking into a dungeon this character
 -- has a prep list for, door.wait after the loading screen (inside the sky's own arrival glance, so the pages ride
 -- a sky already up: 3 s missed it, 11/17 sim), each of its "Carry in" things is counted in the bags

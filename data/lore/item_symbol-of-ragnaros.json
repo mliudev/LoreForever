@@ -1,0 +1,79 @@
+{
+ "key": "item:symbol-of-ragnaros",
+ "type": "item",
+ "name": "Symbol of Ragnaros",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Symbol of Ragnaros",
+  "quests": [
+   "quest:3452"
+  ]
+ },
+ "summary": "The Symbol of Ragnaros is a Twilight's Hammer relic found in Searing Gorge. Velarok seeks its foul magic to make a casing for the Torch of Retribution.",
+ "sections": [
+  {
+   "title": "Foul Magic",
+   "body": "Velarok Windblade needs a Symbol of Ragnaros for the Torch of Retribution. He believes the Twilight's Hammer encampment in the mountains northwest of here holds symbols and idols with power enough to form the torch's casing. The symbol's magic suits his purpose.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Symbol of Ragnaros?",
+   "aliases": [
+    "symbol of ragnaros",
+    "ragnaros symbol"
+   ],
+   "answer": "It is a symbol carried by the Twilight's Hammer, and its magic can help form a casing for the Torch of Retribution."
+  },
+  {
+   "q": "Who wants the symbol?",
+   "aliases": [
+    "who wants it",
+    "velarok needs what"
+   ],
+   "answer": "Velarok Windblade needs the Symbol of Ragnaros to make the Torch of Retribution's casing."
+  },
+  {
+   "q": "Why does Velarok need it?",
+   "aliases": [
+    "why need symbol",
+    "torch casing"
+   ],
+   "answer": "Velarok hopes to extract its foul magic and use it to form a casing for the Torch of Retribution."
+  },
+  {
+   "q": "Where can I find one?",
+   "aliases": [
+    "where symbol",
+    "find ragnaros symbol"
+   ],
+   "answer": "The Twilight's Hammer encampment in the mountains northwest of here is rumored to hold symbols and idols."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "flame's casing",
+  "foul magic",
+  "ragnaros",
+  "searing gorge",
+  "symbol of ragnaros",
+  "torch of retribution",
+  "twilight's hammer",
+  "velarok"
+ ],
+ "related": [
+  "quest:3452",
+  "quest:3453",
+  "item:torch-of-retribution",
+  "npc:velarok",
+  "topic:twilight-s-hammer",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Symbol of Ragnaros",
+  "The Flame's Casing"
+ ]
+}

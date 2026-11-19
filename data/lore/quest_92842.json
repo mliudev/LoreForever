@@ -1,0 +1,66 @@
+{
+ "key": "quest:92842",
+ "type": "quest",
+ "name": "A Cousin Abroad",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92842
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A traveler asks you to look for a cousin who went to Mount Hyjal. Mail may take months to reach him there.",
+ "sections": [
+  {
+   "title": "A Faraway Search",
+   "body": "Someone with a cousin on Mount Hyjal asks you to look for him. He planned to visit and see what was happening there, but mail could take months to reach him. His kin hopes you can find him somewhere on the mountain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I looking for?",
+   "aliases": [
+    "missing cousin",
+    "cousin abroad",
+    "who is the cousin"
+   ],
+   "answer": "You are looking for the giver's cousin, who went to Mount Hyjal."
+  },
+  {
+   "q": "Where did the cousin go?",
+   "aliases": [
+    "where is the cousin",
+    "cousin location",
+    "find cousin"
+   ],
+   "answer": "The cousin went to Mount Hyjal."
+  },
+  {
+   "q": "Why am I being asked to look for him?",
+   "aliases": [
+    "why find him",
+    "why look for cousin",
+    "what's the favor"
+   ],
+   "answer": "The giver's cousin planned to visit Mount Hyjal, and mail may take months to reach him there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a cousin abroad",
+  "mail",
+  "missing cousin",
+  "mount hyjal",
+  "search"
+ ],
+ "related": [
+  "zone:hyjal"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Cousin Abroad"
+ ]
+}

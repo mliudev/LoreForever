@@ -1,0 +1,83 @@
+{
+ "key": "item:stoley-s-bottle",
+ "type": "item",
+ "name": "Stoley's Bottle",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Stoley's Bottle",
+  "quests": [
+   "quest:2874"
+  ]
+ },
+ "summary": "Stoley\u2019s Bottle holds Steamwheedle bilge rum, sent to Booty Bay for Sea Wolf MacKinley. Its harsh taste may settle a debt between MacKinley and Stoley.",
+ "sections": [
+  {
+   "title": "A Bitter Bottle",
+   "body": "In Booty Bay, Sea Wolf MacKinley receives a bottle of Steamwheedle bilge rum from Stoley. MacKinley expects the drink to put his doubts about Booty Bay booze to rest. One taste proves the rum is terrible. It is thick as gravel and burns like lava, just as Stoley promised.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in Stoley\u2019s Bottle?",
+   "aliases": [
+    "what's in the bottle",
+    "stoleys bottle contents"
+   ],
+   "answer": "Stoley\u2019s Bottle contains Steamwheedle bilge rum."
+  },
+  {
+   "q": "Who is the bottle for?",
+   "aliases": [
+    "who gets the bottle",
+    "deliver bottle to who"
+   ],
+   "answer": "Sea Wolf MacKinley in Booty Bay is meant to receive Stoley\u2019s Bottle."
+  },
+  {
+   "q": "Why does MacKinley want the bottle?",
+   "aliases": [
+    "why booze for mackinley",
+    "mac kinley bottle"
+   ],
+   "answer": "MacKinley wants to put his doubts about Booty Bay booze to rest by tasting Stoley\u2019s Steamwheedle bilge rum."
+  },
+  {
+   "q": "What does the rum taste like?",
+   "aliases": [
+    "is the rum good",
+    "bilge rum taste"
+   ],
+   "answer": "MacKinley finds the rum terrible, thick as gravel and burning like lava."
+  },
+  {
+   "q": "Does the bottle settle Stoley\u2019s debt?",
+   "aliases": [
+    "stoley debt bottle",
+    "does mac kinley forgive stoley"
+   ],
+   "answer": "After tasting the rum, MacKinley says Stoley can keep the money he owes. The drink is as harsh as Stoley promised."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "sea wolf mackinley",
+  "steamwheedle bilge rum",
+  "stoley",
+  "stoley's bottle",
+  "stoley's debt"
+ ],
+ "related": [
+  "quest:2874",
+  "quest:2872",
+  "quest:2873",
+  "subzone:booty-bay"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Stoley's Bottle",
+  "Deliver to MacKinley"
+ ]
+}

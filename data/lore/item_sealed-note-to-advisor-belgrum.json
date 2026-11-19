@@ -1,0 +1,84 @@
+{
+ "key": "item:sealed-note-to-advisor-belgrum",
+ "type": "item",
+ "name": "Sealed Note to Advisor Belgrum",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Sealed Note to Advisor Belgrum",
+  "quests": [
+   "quest:725"
+  ]
+ },
+ "summary": "Historian Karnik's sealed note carries a warning from the Badlands to Advisor Belgrum. Its contents guide the next step against the Shadowforge dwarves.",
+ "sections": [
+  {
+   "title": "A Warning Carried",
+   "body": "In the Badlands, you carry Historian Karnik's note to Advisor Belgrum. Karnik asks you to tell Belgrum what you witnessed and seek his counsel. Meanwhile, Karnik turns to the spirit of Hammertoe, hoping it may help stop the Shadowforge dwarves' activities.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the sealed note?",
+   "aliases": [
+    "note writer",
+    "who sent the note"
+   ],
+   "answer": "Historian Karnik sent the note to Advisor Belgrum."
+  },
+  {
+   "q": "Who is the note for?",
+   "aliases": [
+    "who gets it",
+    "note for belgrum"
+   ],
+   "answer": "The note is addressed to Advisor Belgrum."
+  },
+  {
+   "q": "What is the note about?",
+   "aliases": [
+    "what does it say",
+    "note contents"
+   ],
+   "answer": "Karnik says the note will explain what you witnessed and asks Belgrum for guidance on how to proceed."
+  },
+  {
+   "q": "Why is Karnik sending the note?",
+   "aliases": [
+    "why carry it",
+    "karnik's message"
+   ],
+   "answer": "Karnik wants Belgrum to hear what you witnessed and decide how they should proceed."
+  },
+  {
+   "q": "What is Karnik doing while you carry it?",
+   "aliases": [
+    "what's karnik doing",
+    "hammertoe spirit"
+   ],
+   "answer": "Karnik plans to speak with Hammertoe's spirit, hoping it can help stop the Shadowforge dwarves' activities in the Badlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "advisor belgrum",
+  "badlands",
+  "hammertoe",
+  "historian karnik",
+  "passing word of a threat",
+  "sealed note",
+  "shadowforge"
+ ],
+ "related": [
+  "quest:725",
+  "quest:720",
+  "quest:723",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sealed Note to Advisor Belgrum",
+  "Passing Word of a Threat"
+ ]
+}

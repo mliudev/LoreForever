@@ -1,0 +1,85 @@
+{
+ "key": "item:lotwil-s-shackles-of-elemental-binding",
+ "type": "item",
+ "name": "Lotwil's Shackles of Elemental Binding",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Lotwil's Shackles of Elemental Binding",
+  "quests": [
+   "quest:778"
+  ]
+ },
+ "summary": "Lotwil Veriatus made these shackles for a bold attempt to summon an elemental in the Badlands. Their recovery matters to his work.",
+ "sections": [
+  {
+   "title": "A Summoning Prepared",
+   "body": "In the Badlands, Lotwil Veriatus has finished the shackles for a remarkable experiment. He calls on Lucien and Servo to witness his blend of alchemy, engineering, and arcane magic. With the binding ready, Lotwil means to summon a powerful elemental.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Outcome",
+   "body": "The Fam'retor Guardian leaves Lotwil's shackles behind. When you bring them back, he thanks you for the trouble and says his magic sent the creature home. Whatever went wrong, the shackles are returned to their maker.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Lotwil's Shackles of Elemental Binding?",
+   "aliases": [
+    "lotwil's shackles",
+    "elemental binding shackles",
+    "what are the shackles"
+   ],
+   "answer": "They are shackles Lotwil Veriatus made for an attempt to bind a powerful elemental."
+  },
+  {
+   "q": "Who made the shackles?",
+   "aliases": [
+    "who made these",
+    "lotwil shackles maker",
+    "who is lotwil"
+   ],
+   "answer": "Lotwil Veriatus made them as part of an experiment blending alchemy, engineering, and arcane magic."
+  },
+  {
+   "q": "Where can I find the shackles?",
+   "aliases": [
+    "where shackles",
+    "shackles location",
+    "fam'retor guardian"
+   ],
+   "answer": "The Fam'retor Guardian in the Badlands leaves Lotwil's shackles behind."
+  },
+  {
+   "q": "Why does Lotwil want the shackles back?",
+   "aliases": [
+    "why return shackles",
+    "what does lotwil need",
+    "shackles for lotwil"
+   ],
+   "answer": "Lotwil needs them returned after his attempt to summon a powerful elemental goes awry."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemy",
+  "badlands",
+  "elemental",
+  "engineering",
+  "fam'retor guardian",
+  "lotwil veriatus",
+  "lotwil's shackles",
+  "shackles of elemental binding"
+ ],
+ "related": [
+  "npc:lotwil-veriatus",
+  "zone:badlands",
+  "quest:734"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Lotwil's Shackles of Elemental Binding",
+  "This Is Going to Be Hard (3)"
+ ]
+}

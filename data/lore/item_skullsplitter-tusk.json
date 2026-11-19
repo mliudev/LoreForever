@@ -1,0 +1,80 @@
+{
+ "key": "item:skullsplitter-tusk",
+ "type": "item",
+ "name": "Skullsplitter Tusk",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Skullsplitter Tusk",
+  "quests": [
+   "quest:209"
+  ]
+ },
+ "summary": "A Skullsplitter Tusk is a troll\u2019s tusk used to forge false tiger fangs for sale in the South Seas. Kebok in Booty Bay wants a large shipment for his trade.",
+ "sections": [
+  {
+   "title": "A False Fang",
+   "body": "Kebok in Booty Bay sends you after the Skullsplitter trolls for their tusks. Their tusks make convincing copies of tiger fangs, which are costly to gather from the beasts themselves. The forgeries go into a shipment bound for the islands of the South Seas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Skullsplitter Tusk?",
+   "aliases": [
+    "skullsplitter tusk",
+    "troll tusk",
+    "what tusk"
+   ],
+   "answer": "A Skullsplitter Tusk is a troll\u2019s tusk that Kebok uses to make false tiger fangs."
+  },
+  {
+   "q": "Who wants Skullsplitter Tusks?",
+   "aliases": [
+    "who wants tusks",
+    "kebok tusks",
+    "tusk buyer"
+   ],
+   "answer": "Kebok in Booty Bay wants Skullsplitter Tusks for his shipment of forged tiger fangs."
+  },
+  {
+   "q": "Why does Kebok need the tusks?",
+   "aliases": [
+    "why tusks",
+    "fake tiger fangs",
+    "tusk purpose"
+   ],
+   "answer": "Kebok uses Skullsplitter Tusks as convincing forgeries of tiger fangs, which are costly to gather."
+  },
+  {
+   "q": "Where do Skullsplitter Tusks come from?",
+   "aliases": [
+    "where tusks from",
+    "skullsplitter location",
+    "troll tusks"
+   ],
+   "answer": "The tusks come from Skullsplitter trolls in Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "kebok",
+  "skullsplitter tusk",
+  "skullsplitter tusks",
+  "south seas",
+  "stranglethorn vale",
+  "tiger fangs"
+ ],
+ "related": [
+  "quest:209",
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "subzone:south-seas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Skullsplitter Tusk",
+  "Skullsplitter Tusks"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "item:miscellaneous-goblin-supplies",
+ "type": "item",
+ "name": "Miscellaneous Goblin Supplies",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Miscellaneous Goblin Supplies",
+  "quests": [
+   "quest:198"
+  ]
+ },
+ "summary": "Miscellaneous Goblin Supplies are regular deliveries meant for Lieutenant Doren\u2019s camp near the Stranglethorn entrance. They contain land mines to defend against Kurzen and his men.",
+ "sections": [
+  {
+   "title": "A Needed Delivery",
+   "body": "Private Thorsen receives the supplies at Lieutenant Doren\u2019s camp, northwest of the road from Duskwood into Stranglethorn Vale. Troll attacks have delayed the regular delivery, and Doren\u2019s followers need it. Thorsen may be at the camp or patrolling south of it. The mines are meant to help defend the camp from Kurzen and his men.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the goblin supplies?",
+   "aliases": [
+    "goblin supplies",
+    "misc supplies",
+    "what's in the package"
+   ],
+   "answer": "They are land mines provided by the goblins for Lieutenant Doren\u2019s camp."
+  },
+  {
+   "q": "Who needs these supplies?",
+   "aliases": [
+    "who gets the supplies",
+    "who wants them",
+    "deliver to who"
+   ],
+   "answer": "Private Thorsen receives the supplies for Lieutenant Doren\u2019s followers at their camp."
+  },
+  {
+   "q": "Where is Doren\u2019s camp?",
+   "aliases": [
+    "doren camp location",
+    "where's the camp",
+    "camp near stranglethorn"
+   ],
+   "answer": "The camp lies northwest of the road at the entrance to Stranglethorn Vale from Duskwood."
+  },
+  {
+   "q": "Why are the mines needed?",
+   "aliases": [
+    "why mines",
+    "what are mines for",
+    "defense against kurzen"
+   ],
+   "answer": "The mines will help defend Doren\u2019s camp from Kurzen and his men."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "duskwood",
+  "goblin supplies",
+  "kurzen",
+  "land mines",
+  "lieutenant doren",
+  "miscellaneous goblin supplies",
+  "private thorsen",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:198",
+  "npc:doren",
+  "zone:stranglethorn",
+  "zone:duskwood",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Miscellaneous Goblin Supplies",
+  "Supplies to Private Thorsen"
+ ]
+}

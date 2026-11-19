@@ -1,0 +1,77 @@
+{
+ "key": "item:jungle-remedy",
+ "type": "item",
+ "name": "Jungle Remedy",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Jungle Remedy",
+  "quests": [
+   "quest:204"
+  ]
+ },
+ "summary": "At the Rebel Camp, Jungle Remedy can help keep the wounded fighting fit against Kurzen\u2019s forces. Sergeant Yohwa needs remedies from the Kurzen Compound to treat the camp\u2019s fighters.",
+ "sections": [
+  {
+   "title": "A Camp\u2019s Need",
+   "body": "Kurzen\u2019s Medicine Men use Jungle Remedies to heal their fighters in the compound. Sergeant Yohwa needs them at the Rebel Camp, where they can help keep his own people alive and ready to fight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Jungle Remedy for?",
+   "aliases": [
+    "jungle remedy use",
+    "what remedy do"
+   ],
+   "answer": "Sergeant Yohwa needs Jungle Remedies to treat the Rebel Camp\u2019s fighters and keep them in fighting shape against Kurzen."
+  },
+  {
+   "q": "Who carries Jungle Remedies?",
+   "aliases": [
+    "where get remedies",
+    "kurzen medicine"
+   ],
+   "answer": "Kurzen Medicine Men, Witch Doctors, and Headshrinkers carry Jungle Remedies. Jungle Fighters have them occasionally."
+  },
+  {
+   "q": "Why does Sergeant Yohwa need them?",
+   "aliases": [
+    "why yohwa wants them",
+    "rebel camp medicine"
+   ],
+   "answer": "The Kurzen forces use the remedies to heal their own fighters, and Sergeant Yohwa needs them to care for the wounded at the Rebel Camp."
+  },
+  {
+   "q": "Where can I find Jungle Remedies?",
+   "aliases": [
+    "remedy location",
+    "where remedies"
+   ],
+   "answer": "Search the Kurzen Compound in Stranglethorn Vale; Kurzen\u2019s healers and other fighters carry the remedies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "headshrinkers",
+  "jungle remedy",
+  "kurzen",
+  "medicine men",
+  "rebel camp",
+  "sergeant yohwa",
+  "stranglethorn vale",
+  "witch doctors"
+ ],
+ "related": [
+  "quest:204",
+  "item:venom-fern-extract",
+  "subzone:rebel-camp",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Jungle Remedy",
+  "Bad Medicine (Classic)"
+ ]
+}

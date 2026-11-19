@@ -1,0 +1,82 @@
+{
+ "key": "item:maury-s-key",
+ "type": "item",
+ "name": "Maury's Key",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Maury's Key",
+  "quests": [
+   "quest:613"
+  ]
+ },
+ "summary": "Maury's Key is sought by Sea Wolf MacKinley in Booty Bay. He needs it to open the lock on Maury's foot and claim what is owed him.",
+ "sections": [
+  {
+   "title": "A Locked Foot",
+   "body": "MacKinley says Maury locked his foot, leaving the loot inside beyond reach. The dead gambler once played against the Mosh'Ogg ogres at their mound northeast of Booty Bay. After winning too much, Maury was chased away, and MacKinley suspects the ogres have his key.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Maury's Key for?",
+   "aliases": [
+    "maury key",
+    "key for maurys foot",
+    "unlock foot"
+   ],
+   "answer": "Sea Wolf MacKinley needs Maury's Key to open the lock on Maury's foot and get the loot inside."
+  },
+  {
+   "q": "Who wants Maury's Key?",
+   "aliases": [
+    "who needs maury key",
+    "mac kinley key",
+    "sea wolf key"
+   ],
+   "answer": "Sea Wolf MacKinley in Booty Bay wants Maury's Key so he can open the lock on Maury's foot."
+  },
+  {
+   "q": "Where did Maury lose the key?",
+   "aliases": [
+    "where key",
+    "mosh ogg key",
+    "maury lost key"
+   ],
+   "answer": "MacKinley thinks the Mosh'Ogg ogres at their mound northeast of Booty Bay may have Maury's Key."
+  },
+  {
+   "q": "Why might the ogres have it?",
+   "aliases": [
+    "why ogres have key",
+    "maury ogres",
+    "gambling key"
+   ],
+   "answer": "Maury gambled with the Mosh'Ogg ogres and was chased away after winning too much. MacKinley suspects they kept the key."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "gambling",
+  "key",
+  "locked foot",
+  "maury",
+  "maury's key",
+  "mosh'ogg",
+  "sea wolf mackinley"
+ ],
+ "related": [
+  "quest:613",
+  "subzone:booty-bay",
+  "quest:607",
+  "quest:606",
+  "quest:609"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Maury's Key",
+  "Cracking Maury's Foot"
+ ]
+}

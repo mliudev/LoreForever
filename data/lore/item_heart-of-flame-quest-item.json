@@ -1,0 +1,90 @@
+{
+ "key": "item:heart-of-flame-quest-item",
+ "type": "item",
+ "name": "Heart of Flame",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Heart of Flame (quest item)",
+  "quests": [
+   "quest:3442"
+  ]
+ },
+ "summary": "A Heart of Flame is one of the materials Velarok Windblade needs in Searing Gorge. It will help him prepare a torch for an attack on the four sentry towers.",
+ "sections": [
+  {
+   "title": "For the Torch",
+   "body": "Velarok Windblade needs four Hearts of Flame and four globes of Golem Oil in Searing Gorge. With these materials, he can craft a torch of flawless flame. He means to set the four sentry towers ablaze and strike before their defenders can react.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Heart of Flame for?",
+   "aliases": [
+    "heart of flame use",
+    "why heart of flame",
+    "flame heart"
+   ],
+   "answer": "Velarok Windblade needs four Hearts of Flame to craft a torch of flawless flame. He plans to use it to set the four sentry towers ablaze."
+  },
+  {
+   "q": "Who wants the Heart of Flame?",
+   "aliases": [
+    "who needs it",
+    "velarok heart of flame",
+    "who wants flame heart"
+   ],
+   "answer": "Velarok Windblade wants four Hearts of Flame, along with four globes of Golem Oil, for the torch he plans to craft."
+  },
+  {
+   "q": "Where do I find Hearts of Flame?",
+   "aliases": [
+    "heart of flame location",
+    "where get flame heart",
+    "hearts of flame searing gorge"
+   ],
+   "answer": "Golems and elementals in Searing Gorge are the creatures Velarok points you toward for Hearts of Flame."
+  },
+  {
+   "q": "How many Hearts of Flame does Velarok need?",
+   "aliases": [
+    "heart of flame count",
+    "how many flame hearts",
+    "need four hearts"
+   ],
+   "answer": "Velarok needs four Hearts of Flame to make the torch of flawless flame."
+  },
+  {
+   "q": "What is the torch of flawless flame for?",
+   "aliases": [
+    "flawless flame torch",
+    "torch purpose",
+    "why four towers"
+   ],
+   "answer": "Velarok plans to use the torch to set four sentry towers ablaze, creating an opening for an offensive."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "golem oil",
+  "heart of flame",
+  "hearts of flame",
+  "searing gorge",
+  "sentry towers",
+  "the flawless flame",
+  "torch of flawless flame",
+  "velarok windblade"
+ ],
+ "related": [
+  "quest:3442",
+  "npc:velarok",
+  "item:golem-oil",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Heart of Flame (quest item)",
+  "The Flawless Flame"
+ ]
+}

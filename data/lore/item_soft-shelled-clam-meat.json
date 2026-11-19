@@ -1,0 +1,79 @@
+{
+ "key": "item:soft-shelled-clam-meat",
+ "type": "item",
+ "name": "Soft-Shelled Clam Meat",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Soft-Shelled Clam Meat",
+  "quests": [
+   "quest:6142"
+  ]
+ },
+ "summary": "Soft-Shelled Clam Meat makes tempting bait for the fish near Shadowprey Village. Mai'Lahii asks you to bring him some from the wrecked ship to the north.",
+ "sections": [
+  {
+   "title": "Bait for Mai'Lahii",
+   "body": "Mai'Lahii at Shadowprey Village favors soft-shelled clam meat for fishing. He says the fish cannot resist it, and asks you to bring him ten pieces from the clams near the wrecked ship north of the village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is soft-shelled clam meat for?",
+   "aliases": [
+    "clam meat use",
+    "soft shell meat",
+    "clam bait"
+   ],
+   "answer": "Mai'Lahii at Shadowprey Village uses soft-shelled clam meat as bait for fishing."
+  },
+  {
+   "q": "Where can I find soft-shelled clams?",
+   "aliases": [
+    "clam location",
+    "where clams",
+    "north ship clams"
+   ],
+   "answer": "Soft-shelled clams lie near the wrecked ship off the coast north of Shadowprey Village."
+  },
+  {
+   "q": "Who wants the clam meat?",
+   "aliases": [
+    "clam meat for who",
+    "Mai'Lahii bait",
+    "who needs clams"
+   ],
+   "answer": "Mai'Lahii at Shadowprey Village asks you to bring him ten pieces of soft-shelled clam meat."
+  },
+  {
+   "q": "Why does Mai'Lahii want to go fishing?",
+   "aliases": [
+    "Mai'Lahii headache",
+    "why fishing",
+    "witch doctor advice"
+   ],
+   "answer": "Mai'Lahii says his witch doctor advised him to go fishing for his headache, and he feels better after you bring the clam meat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "clam bait",
+  "desolace",
+  "fishing",
+  "mai'lahii",
+  "shadowprey village",
+  "soft-shelled clam meat",
+  "wrecked ship"
+ ],
+ "related": [
+  "quest:6142",
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Soft-Shelled Clam Meat",
+  "Clam Bait"
+ ]
+}

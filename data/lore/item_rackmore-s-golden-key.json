@@ -1,0 +1,80 @@
+{
+ "key": "item:rackmore-s-golden-key",
+ "type": "item",
+ "name": "Rackmore's Golden Key",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Rackmore's Golden Key",
+  "quests": [
+   "quest:6161"
+  ]
+ },
+ "summary": "On Ranazjar Isle, Rackmore\u2019s Golden Key helps open the chest where a sailor hid his treasure. The Slitherblade naga hold the key among the scattered remains of his voyage.",
+ "sections": [
+  {
+   "title": "A Sailor\u2019s Cache",
+   "body": "Rackmore\u2019s log tells how his ship was bound for Feathermoon Stronghold when seafaring creatures attacked. To keep his treasure from them, he hid a chest on Ranazjar Isle. It takes two keys to open: one silver and one gold. The Slitherblade naga hold the Golden Key, while Rackmore\u2019s Silver Key must also be found.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Rackmore\u2019s Golden Key open?",
+   "aliases": [
+    "golden key",
+    "rackmore key",
+    "what's the gold key for"
+   ],
+   "answer": "Rackmore\u2019s Golden Key opens the chest hidden on Ranazjar Isle, together with Rackmore\u2019s Silver Key."
+  },
+  {
+   "q": "Where is Rackmore\u2019s treasure chest?",
+   "aliases": [
+    "rackmore chest location",
+    "where's the chest",
+    "ranazjar treasure"
+   ],
+   "answer": "Rackmore hid his chest on Ranazjar Isle after seafaring creatures attacked his ship."
+  },
+  {
+   "q": "Who has the Golden Key?",
+   "aliases": [
+    "who has rackmore's key",
+    "naga key",
+    "slitherblade key"
+   ],
+   "answer": "The Slitherblade naga in Desolace hold Rackmore\u2019s Golden Key."
+  },
+  {
+   "q": "Why did Rackmore hide his treasure?",
+   "aliases": [
+    "why hide the chest",
+    "rackmore treasure story",
+    "why is treasure hidden"
+   ],
+   "answer": "Rackmore hid the chest to keep his treasure from the seafaring creatures that attacked his ship."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "golden key",
+  "rackmore",
+  "rackmore's golden key",
+  "ranazjar isle",
+  "slitherblade naga",
+  "treasure"
+ ],
+ "related": [
+  "quest:6161",
+  "item:rackmore-s-silver-key",
+  "zone:desolace",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Rackmore's Golden Key",
+  "Claim Rackmore's Treasure!"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "item:tumbled-crystal",
+ "type": "item",
+ "name": "Tumbled Crystal",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Tumbled Crystal",
+  "quests": [
+   "quest:213"
+  ]
+ },
+ "summary": "Tumbled Crystals are strange blue stones found by Venture Co. geologists near Lake Nazferiti. Their unusual finish has drawn the company\u2019s interest and Revilgaz\u2019s attention.",
+ "sections": [
+  {
+   "title": "Blue Stone",
+   "body": "Kebok sends you to Booty Bay with a request from Revilgaz, the notorious pirate. The Venture Co. geologists near Lake Nazferiti have been finding blue crystals in their mines, and their samples are wanted. Revilgaz suspects the company plans to use the stones as fuel or a catalyst, though he knows little more. The samples are to be sent to Head Chemist Gigglefont for study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Tumbled Crystal?",
+   "aliases": [
+    "tumbled crystal meaning",
+    "blue crystal",
+    "what stone"
+   ],
+   "answer": "A Tumbled Crystal is a strange blue stone found by Venture Co. geologists near Lake Nazferiti."
+  },
+  {
+   "q": "Where do the crystals come from?",
+   "aliases": [
+    "crystal location",
+    "where crystal",
+    "lake nazferiti crystals"
+   ],
+   "answer": "Venture Co. geologists find Tumbled Crystals in their mines near Lake Nazferiti in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Revilgaz want the crystals?",
+   "aliases": [
+    "revilgaz crystal",
+    "why he wants them",
+    "crystal for pirate"
+   ],
+   "answer": "Revilgaz wants samples because the Venture Co. geologists are interested in the blue stones, and he suspects they may be fuel or a catalyst."
+  },
+  {
+   "q": "Who is Kebok?",
+   "aliases": [
+    "kebok who",
+    "who wants the crystals",
+    "booty bay crystal"
+   ],
+   "answer": "Kebok in Booty Bay asks you to bring him Tumbled Crystals for Revilgaz."
+  },
+  {
+   "q": "Who studies the samples?",
+   "aliases": [
+    "head chemist",
+    "gigglefont crystals",
+    "who gets samples"
+   ],
+   "answer": "Head Chemist Gigglefont is to receive the Tumbled Crystal samples for study."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "As a miner, you can see why the Venture Co. geologists prize unusual stones found in their workings."
+  }
+ ],
+ "keywords": [
+  "crystal",
+  "geologist",
+  "gigglefont",
+  "kebok",
+  "lake nazferiti",
+  "revilgaz",
+  "tumbled crystal",
+  "venture co."
+ ],
+ "related": [
+  "quest:213",
+  "quest:600",
+  "zone:stranglethorn",
+  "subzone:lake-nazferiti",
+  "subzone:booty-bay",
+  "topic:venture-company"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Tumbled Crystal",
+  "Hostile Takeover"
+ ]
+}

@@ -27,6 +27,7 @@
   <Script file="Battle.lua"/>
   <Script file="KnownSpots.lua"/>
   <Script file="Capture.lua"/>
+  <Script file="World.lua"/>
   <Script file="JourneyMap.lua"/>
   <Script file="WorldPins.lua"/>
   <Script file="PinsLive.lua"/>

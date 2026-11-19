@@ -1,0 +1,87 @@
+{
+ "key": "item:elven-gem",
+ "type": "item",
+ "name": "Elven Gem",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Elven Gem",
+  "quests": [
+   "quest:666"
+  ]
+ },
+ "summary": "Elven Gems are calcified stones lying on the sea floor near Faldir\u2019s Cove. Doctor Draxlegauge\u2019s goggles help you find them for Captain O\u2019Breen\u2019s search for lost treasure.",
+ "sections": [
+  {
+   "title": "Stones Below",
+   "body": "The sea has covered the treasure for so long that its gems have hardened inside thick stone. Near Faldir\u2019s Cove, Doctor Draxlegauge lends you his Goggles of Gem Hunting to find them. He asks you to gather ten Elven Gems for Captain O\u2019Breen, then return the goggles.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Elven Gems come from?",
+   "aliases": [
+    "where find elven gems",
+    "elven gem source"
+   ],
+   "answer": "Elven Gems lie on the sea floor near Faldir\u2019s Cove, sealed in calcified stone."
+  },
+  {
+   "q": "Why are the gems calcified?",
+   "aliases": [
+    "why stone gems",
+    "calcified gems why"
+   ],
+   "answer": "The treasure has rested on the sea floor so long that the gems have calcified into thick stone."
+  },
+  {
+   "q": "Who wants the Elven Gems?",
+   "aliases": [
+    "who needs gems",
+    "captain obreen gems"
+   ],
+   "answer": "Doctor Draxlegauge asks you to collect ten Elven Gems for Captain O\u2019Breen\u2019s search for lost treasure."
+  },
+  {
+   "q": "How do you find the gems?",
+   "aliases": [
+    "find gems how",
+    "goggles work"
+   ],
+   "answer": "Doctor Draxlegauge lends you the Goggles of Gem Hunting, which help you locate the calcified gems."
+  },
+  {
+   "q": "Who is Doctor Draxlegauge?",
+   "aliases": [
+    "draxlegauge",
+    "who is the doctor"
+   ],
+   "answer": "Doctor Draxlegauge is a gnome in Faldir\u2019s Cove who lends you his gem-hunting goggles. He prefers to keep to safe, dry land."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "calcified elven gems",
+  "captain o'breen",
+  "doctor draxlegauge",
+  "elven gem",
+  "elven gems",
+  "faldir's cove",
+  "goggles of gem hunting",
+  "sunken treasure"
+ ],
+ "related": [
+  "subzone:faldir-s-cove",
+  "item:elven-gems",
+  "item:goggles-of-gem-hunting",
+  "quest:665",
+  "npc:fleet-master-seahorn",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Elven Gem",
+  "Sunken Treasure (2)"
+ ]
+}

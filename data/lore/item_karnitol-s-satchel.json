@@ -1,0 +1,106 @@
+{
+ "key": "item:karnitol-s-satchel",
+ "type": "item",
+ "name": "Karnitol's Satchel",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Karnitol's Satchel",
+  "quests": [
+   "quest:1456",
+   "quest:1457"
+  ]
+ },
+ "summary": "Karnitol's Satchel holds belongings sought after the Karnitol shipwreck in Desolace. Kreldig Ungor directs the search toward the Slitherblade naga along the coast.",
+ "sections": [
+  {
+   "title": "Among the Slitherblade",
+   "body": "Kreldig Ungor points you toward Ranazjar Isle, where the Slitherblade naga dwell among night elf ruins beneath the sea. He suspects the powerful tidehunters and sea witches may have gathered Karnitol's belongings. The satchel is recovered from them along the Desolace coast.",
+   "spoiler": 0
+  },
+  {
+   "title": "Back to the Reclaimers",
+   "body": "In Desolace, you return the recovered satchel to Kreldig Ungor, who calls it a great service to the Reclaimers. He sends it onward to Roetten Stonehammer in Ironforge. Roetten says the chest was destroyed, but the belongings are present, and leaves Karnitol to judge their condition.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is looking for Karnitol's satchel?",
+   "aliases": [
+    "who wants the satchel",
+    "karnitol belongings",
+    "satchel for who"
+   ],
+   "answer": "Kreldig Ungor directs the search for Karnitol's belongings on behalf of the Reclaimers. The satchel is then taken to Roetten Stonehammer in Ironforge."
+  },
+  {
+   "q": "Where can I find the satchel?",
+   "aliases": [
+    "where satchel",
+    "satchel location",
+    "find karnitol's bag"
+   ],
+   "answer": "The Slitherblade naga along the Desolace coast may have Karnitol's belongings. Kreldig Ungor points you toward their tidehunters and sea witches near Ranazjar Isle."
+  },
+  {
+   "q": "What are the Slitherblade?",
+   "aliases": [
+    "slitherblade naga",
+    "naga in desolace",
+    "who lives at ranazjar"
+   ],
+   "answer": "The Slitherblade are a tribe of naga dwelling among night elf ruins beneath the sea near Ranazjar Isle in Desolace."
+  },
+  {
+   "q": "Who receives the satchel in Ironforge?",
+   "aliases": [
+    "satchel ironforge",
+    "who gets the bag",
+    "roetten's satchel"
+   ],
+   "answer": "Roetten Stonehammer receives the satchel in Ironforge and says Karnitol can judge whether the recovered belongings are satisfactory."
+  },
+  {
+   "q": "Was Karnitol's chest recovered intact?",
+   "aliases": [
+    "what happened to chest",
+    "chest destroyed",
+    "karnitol things damaged"
+   ],
+   "answer": "No. Roetten Stonehammer says the chest was destroyed, though the belongings are there for Karnitol to inspect."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Reclaimers seek Karnitol's belongings, and Kreldig Ungor calls their recovery a great service to them."
+  }
+ ],
+ "keywords": [
+  "desolace",
+  "karnitol",
+  "karnitol's satchel",
+  "kreldig ungor",
+  "naga",
+  "ranazjar isle",
+  "reclaimers",
+  "roetten stonehammer",
+  "satchel",
+  "slitherblade"
+ ],
+ "related": [
+  "quest:1454",
+  "zone:desolace",
+  "npc:kreldig-ungor",
+  "npc:roetten-stonehammer",
+  "topic:naga",
+  "topic:night-elf"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Karnitol's Satchel",
+  "The Karnitol Shipwreck (3)",
+  "The Karnitol Shipwreck (4)"
+ ]
+}

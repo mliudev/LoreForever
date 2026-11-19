@@ -1,0 +1,82 @@
+{
+ "key": "item:crumpled-scroll-fragment",
+ "type": "item",
+ "name": "Crumpled Scroll Fragment",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Crumpled Scroll Fragment",
+  "quests": [
+   "quest:692"
+  ]
+ },
+ "summary": "The Crumpled Scroll Fragment is one piece of the ruined Scroll of Myzrael, sought by Theldurin the Lost in the Badlands. The fragments may be needed to face the danger Myzrael poses.",
+ "sections": [
+  {
+   "title": "A Fragment Found",
+   "body": "Enraged Rock Elementals in the Badlands carry pieces of the destroyed Scroll of Myzrael. Theldurin the Lost seeks the torn, singed, and crumpled fragments, hoping they can be joined again. He fears Myzrael may already be free, and says the scroll could be needed to trap her once more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Crumpled Scroll Fragment?",
+   "aliases": [
+    "crumpled fragment",
+    "scroll piece",
+    "what is this fragment"
+   ],
+   "answer": "The Crumpled Scroll Fragment is one of three pieces of the destroyed Scroll of Myzrael, found among Enraged Rock Elementals in the Badlands."
+  },
+  {
+   "q": "Who wants the fragment?",
+   "aliases": [
+    "who needs this",
+    "give fragment to who",
+    "theldurin fragments"
+   ],
+   "answer": "Theldurin the Lost asks you to bring him the Crumpled Scroll Fragment along with the Torn and Singed Scroll Fragments."
+  },
+  {
+   "q": "Where did the scroll fragments come from?",
+   "aliases": [
+    "fragment origin",
+    "why elementals have scroll",
+    "scroll got torn"
+   ],
+   "answer": "Enraged elementals stole the Scroll of Myzrael and tore it into pieces. They now fight over its fragments."
+  },
+  {
+   "q": "Why does Theldurin want the fragments?",
+   "aliases": [
+    "why collect these",
+    "why does he need scroll",
+    "myzrael scroll purpose"
+   ],
+   "answer": "Theldurin hopes the fragments can be joined again. He believes the Scroll of Myzrael may be needed to trap Myzrael if she is free."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "crumpled scroll fragment",
+  "enraged rock elemental",
+  "myzrael",
+  "scroll fragment",
+  "scroll of myzrael",
+  "theldurin the lost"
+ ],
+ "related": [
+  "quest:692",
+  "item:scroll-of-myzrael",
+  "item:singed-scroll-fragment",
+  "item:torn-scroll-fragment",
+  "npc:theldurin-the-lost",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Crumpled Scroll Fragment",
+  "The Lost Fragments"
+ ]
+}

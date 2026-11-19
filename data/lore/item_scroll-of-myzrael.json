@@ -1,0 +1,79 @@
+{
+ "key": "item:scroll-of-myzrael",
+ "type": "item",
+ "name": "Scroll of Myzrael",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Scroll of Myzrael",
+  "quests": [
+   "quest:656"
+  ]
+ },
+ "summary": "The Scroll of Myzrael is used to summon Myzrael at the Shards of Myzrael in the Arathi Highlands. Its use is tied to the effort to bind her again.",
+ "sections": [
+  {
+   "title": "At the Shards",
+   "body": "At the Shards of Myzrael in the Arathi Highlands, the scroll calls forth the being held beneath them. Myzrael must be defeated, and her Eldritch Shackles bound to the shards. The work is meant to keep her captive as her power grows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Scroll of Myzrael do?",
+   "aliases": [
+    "scroll of myzrael use",
+    "what is this scroll for",
+    "summon myzrael"
+   ],
+   "answer": "The Scroll of Myzrael is used to summon Myzrael at the Shards of Myzrael in the Arathi Highlands."
+  },
+  {
+   "q": "Where do I use the scroll?",
+   "aliases": [
+    "where scroll",
+    "myzrael shards location",
+    "where summon her"
+   ],
+   "answer": "The scroll is used at the Shards of Myzrael in the Arathi Highlands, where Myzrael was first encountered."
+  },
+  {
+   "q": "Why summon Myzrael?",
+   "aliases": [
+    "why summon myzrael",
+    "what is the point",
+    "why call her"
+   ],
+   "answer": "Myzrael must be defeated before her power grows, then bound again at the shards with her Eldritch Shackles."
+  },
+  {
+   "q": "What are the Eldritch Shackles for?",
+   "aliases": [
+    "eldritch shackles purpose",
+    "shackles myzrael",
+    "bind her how"
+   ],
+   "answer": "The Eldritch Shackles are bound to the Shards of Myzrael to trap her again."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "eldritch shackles",
+  "myzrael",
+  "princess",
+  "scroll of myzrael",
+  "shards of myzrael",
+  "summoning"
+ ],
+ "related": [
+  "quest:656",
+  "item:eldritch-shackles",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Scroll of Myzrael",
+  "Summoning the Princess"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:maiden-s-folly-log",
+ "type": "item",
+ "name": "Maiden's Folly Log",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Maiden's Folly Log",
+  "quests": [
+   "quest:662"
+  ]
+ },
+ "summary": "The Maiden's Folly Log is the captain's record from a ship wrecked in Arathi's reef. Its pages and charts hold information Fleet Master Seahorn wants kept from prying eyes.",
+ "sections": [
+  {
+   "title": "A Wreck's Record",
+   "body": "First Mate Nilzlix seeks the log from the Maiden's Folly, wrecked alongside the Spirit of Silverpine. The ships ran aground on a reef temple after the tides began to fall, and sank quickly. Their records matter to the command in Booty Bay, which fears the information could reach enemy hands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Maiden's Folly Log?",
+   "aliases": [
+    "maiden's folly log",
+    "captain log",
+    "ship's log"
+   ],
+   "answer": "It is the captain's log from the Maiden's Folly, one of the ships wrecked in Arathi's reef."
+  },
+  {
+   "q": "Where did the Maiden's Folly sink?",
+   "aliases": [
+    "where's the wreck",
+    "maiden folly location",
+    "ship wreck arathi"
+   ],
+   "answer": "The Maiden's Folly ran aground on a reef temple in Arathi and sank."
+  },
+  {
+   "q": "Why does First Mate Nilzlix want the log?",
+   "aliases": [
+    "why recover the log",
+    "nilzlix wants what",
+    "why get the book"
+   ],
+   "answer": "First Mate Nilzlix wants the Maiden's Folly's log and charts recovered before their information falls into enemy hands."
+  },
+  {
+   "q": "What happened to the Maiden's Folly?",
+   "aliases": [
+    "maiden folly wreck",
+    "how did it sink",
+    "what happened to the ship"
+   ],
+   "answer": "The tides began to fall as the Maiden's Folly approached a cove, and the ship ran aground on a reef temple before sinking."
+  },
+  {
+   "q": "Who wants the records kept safe?",
+   "aliases": [
+    "who wants the charts",
+    "fleet master seahorn",
+    "booty bay records"
+   ],
+   "answer": "Fleet Master Seahorn's command in Booty Bay wants the logs and charts kept from prying eyes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi",
+  "booty bay",
+  "captain's log",
+  "deep sea salvage",
+  "log",
+  "maiden's folly",
+  "nilzlix",
+  "reef",
+  "seahorn",
+  "temple"
+ ],
+ "related": [
+  "item:maiden-s-folly-charts",
+  "quest:662",
+  "item:spirit-of-silverpine-log",
+  "item:spirit-of-silverpine-charts",
+  "npc:fleet-master-seahorn",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Maiden's Folly Log",
+  "Deep Sea Salvage"
+ ]
+}

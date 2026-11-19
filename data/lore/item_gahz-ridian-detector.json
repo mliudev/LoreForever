@@ -1,0 +1,95 @@
+{
+ "key": "item:gahz-ridian-detector",
+ "type": "item",
+ "name": "Gahz'ridian Detector",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Gahz'ridian Detector",
+  "quests": [
+   "quest:3161"
+  ]
+ },
+ "summary": "The Gahz'ridian Detector is a device Marvon Rivetseeker devised to find the ornaments scattered across Tanaris. It helps him gather material for his studies of the troll-made carvings.",
+ "sections": [
+  {
+   "title": "A Desert Search",
+   "body": "Marvon Rivetseeker made the Gahz'ridian Detector to help locate ornaments carved from Gahz'ridian. Trolls fashioned the ornaments long ago in the image of Gahz'rilla, whom they worshipped as a deity. The carvings lie across Tanaris, with many found near Broken Pillar, Eastmoon Ruins and Southmoon Ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who made the Gahz'ridian Detector?",
+   "aliases": [
+    "who made detector",
+    "Marvon's device",
+    "detector inventor"
+   ],
+   "answer": "Marvon Rivetseeker, a scientist and treasure hunter in Tanaris, invented the Gahz'ridian Detector."
+  },
+  {
+   "q": "What does the detector find?",
+   "aliases": [
+    "what does detector find",
+    "find Gahz'ridian",
+    "detector purpose"
+   ],
+   "answer": "The Gahz'ridian Detector helps locate ornaments carved from Gahz'ridian, a material named for Gahz'rilla."
+  },
+  {
+   "q": "Who made the Gahz'ridian ornaments?",
+   "aliases": [
+    "who made ornaments",
+    "troll carvings",
+    "ornament origin"
+   ],
+   "answer": "Trolls who once occupied Tanaris carved the Gahz'ridian ornaments long ago."
+  },
+  {
+   "q": "Why are the ornaments shaped like Gahz'rilla?",
+   "aliases": [
+    "why Gahz'rilla ornaments",
+    "hydra carvings",
+    "Gahz'rilla idol"
+   ],
+   "answer": "The ornaments were modeled after Gahz'rilla, a hydra the trolls worshipped as a deity."
+  },
+  {
+   "q": "Where can I find Gahz'ridian ornaments?",
+   "aliases": [
+    "where ornaments",
+    "Gahz'ridian locations",
+    "ornaments Tanaris"
+   ],
+   "answer": "Gahz'ridian ornaments lie throughout Tanaris, especially around Broken Pillar, Eastmoon Ruins and Southmoon Ruins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broken pillar",
+  "eastmoon ruins",
+  "gahz'ridian",
+  "gahz'ridian detector",
+  "gahz'ridian ornament",
+  "gahz'rilla",
+  "marvon rivetseeker",
+  "southmoon ruins",
+  "tanaris"
+ ],
+ "related": [
+  "quest:3161",
+  "item:gahz-ridian-ornament",
+  "zone:tanaris",
+  "subzone:broken-pillar",
+  "subzone:eastmoon-ruins",
+  "subzone:southmoon-ruins",
+  "quest:2770",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gahz'ridian Detector",
+  "Gahz'ridian (quest)"
+ ]
+}

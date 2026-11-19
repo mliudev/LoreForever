@@ -1,0 +1,62 @@
+{
+ "key": "quest:4341",
+ "type": "quest",
+ "name": "Kharan Mighthammer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4341
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The King says Kharan Mighthammer is held prisoner in Blackrock Depths. You are sent to find him, perhaps in a prison.",
+ "sections": [
+  {
+   "title": "A Prisoner in the Depths",
+   "body": "The way into Blackrock Depths begins with a search for a prison. Kharan Mighthammer is being held somewhere within, and the King has sent you to find him. His whereabouts remain unknown, so the prison is the place to look.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kharan Mighthammer?",
+   "aliases": [
+    "who's Kharan",
+    "Kharan backstory"
+   ],
+   "answer": "Kharan Mighthammer is a prisoner held in Blackrock Depths."
+  },
+  {
+   "q": "Where is Kharan being held?",
+   "aliases": [
+    "where's Kharan",
+    "Kharan location"
+   ],
+   "answer": "Kharan is being held in Blackrock Depths, perhaps in a prison."
+  },
+  {
+   "q": "What does the King want me to do?",
+   "aliases": [
+    "find Kharan",
+    "Kharan quest"
+   ],
+   "answer": "The King wants you to travel to Blackrock Depths and find Kharan Mighthammer."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock depths",
+  "kharan",
+  "kharan mighthammer",
+  "king",
+  "prison",
+  "prisoner"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Kharan Mighthammer"
+ ]
+}

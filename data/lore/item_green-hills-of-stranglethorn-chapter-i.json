@@ -1,0 +1,83 @@
+{
+ "key": "item:green-hills-of-stranglethorn-chapter-i",
+ "type": "item",
+ "name": "Green Hills of Stranglethorn - Chapter I",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Green Hills of Stranglethorn - Chapter I",
+  "quests": [
+   "quest:338"
+  ]
+ },
+ "summary": "Scattered pages from The Green Hills of Stranglethorn have been gathered into Chapter I. Barnil is assembling the chapters for Master Nesingwary\u2019s manuscript.",
+ "sections": [
+  {
+   "title": "Scattered Pages",
+   "body": "A gust swept through Master Nesingwary\u2019s camp and scattered the pages of his manuscript across Stranglethorn. Barnil gathered many, but pages for all four chapters were still missing. This chapter belongs to the book Barnil is piecing together, and he is ready to organize the pages once they are found.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Chapter I?",
+   "aliases": [
+    "green hills chapter one",
+    "chapter i book",
+    "what is this chapter"
+   ],
+   "answer": "Chapter I is one of the four parts of Master Nesingwary\u2019s scattered manuscript, The Green Hills of Stranglethorn."
+  },
+  {
+   "q": "Who is Barnil?",
+   "aliases": [
+    "barnil who",
+    "who wants the pages",
+    "barnil manuscript"
+   ],
+   "answer": "Barnil is helping assemble Master Nesingwary\u2019s manuscript and asks for the chapters once they are complete."
+  },
+  {
+   "q": "Why are the pages scattered?",
+   "aliases": [
+    "pages blew away",
+    "why pages missing",
+    "manuscript pages"
+   ],
+   "answer": "A large gust of wind blew through Master Nesingwary\u2019s camp and scattered pages of the manuscript across the jungle."
+  },
+  {
+   "q": "Who wrote The Green Hills of Stranglethorn?",
+   "aliases": [
+    "nesingwary book",
+    "who wrote green hills",
+    "master nesingwary manuscript"
+   ],
+   "answer": "Master Nesingwary is the author of The Green Hills of Stranglethorn, a novel Barnil is helping assemble."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil",
+  "chapter i",
+  "chapter one",
+  "green hills of stranglethorn",
+  "manuscript",
+  "master nesingwary",
+  "scattered pages",
+  "stranglethorn"
+ ],
+ "related": [
+  "quest:338",
+  "quest:339",
+  "item:green-hills-of-stranglethorn-chapter-ii",
+  "item:green-hills-of-stranglethorn-chapter-iii",
+  "item:green-hills-of-stranglethorn-chapter-iv",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Green Hills of Stranglethorn - Chapter I",
+  "The Green Hills of Stranglethorn (Classic)"
+ ]
+}

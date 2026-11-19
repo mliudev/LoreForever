@@ -1,0 +1,88 @@
+{
+ "key": "item:heart-of-obsidion",
+ "type": "item",
+ "name": "Heart of Obsidion",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Heart of Obsidion",
+  "quests": [
+   "quest:3566"
+  ]
+ },
+ "summary": "The Heart of Obsidion is proof Thorius needs from Searing Gorge. It bears on the danger that still grips these lands.",
+ "sections": [
+  {
+   "title": "A Heart Returned",
+   "body": "Thorius in Ironforge asks for the Heart of Obsidion after a warning from Dorius. The heart, taken from Obsidion in Searing Gorge, is brought back with the Head of Lathoric the Black. Thorius must see both before he can believe what has happened.",
+   "spoiler": 0
+  },
+  {
+   "title": "Thorius's Grief",
+   "body": "When Thorius sees the Heart of Obsidion and Lathoric's head, his face turns white. He learns his own brother set the trap and betrayed Ironforge. Thorius fears the Old Gods' influence remains strong in these lands, and that Ragnaros could turn even the noble and honorable.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Heart of Obsidion?",
+   "aliases": [
+    "heart of obsidion",
+    "obsidion heart"
+   ],
+   "answer": "The Heart of Obsidion is a trophy taken from Obsidion in Searing Gorge."
+  },
+  {
+   "q": "Who needs the Heart of Obsidion?",
+   "aliases": [
+    "who wants obsidion's heart",
+    "thorius heart"
+   ],
+   "answer": "Thorius in Ironforge asks for the Heart of Obsidion alongside the Head of Lathoric the Black."
+  },
+  {
+   "q": "Why does Thorius want the heart?",
+   "aliases": [
+    "why heart",
+    "what proof does thorius need"
+   ],
+   "answer": "Thorius needs the Heart of Obsidion and the Head of Lathoric the Black as proof of the betrayal."
+  },
+  {
+   "q": "What does the heart prove?",
+   "aliases": [
+    "heart proof",
+    "what happened to thorius"
+   ],
+   "answer": "Together with Lathoric's head, the heart shows Thorius that the warning about a trap was true."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, Ironforge's betrayal cuts close: Thorius fears the Old Gods' influence threatens his people."
+  }
+ ],
+ "keywords": [
+  "heart of obsidion",
+  "ironforge",
+  "lathoric the black",
+  "obsidion",
+  "old gods",
+  "ragnaros",
+  "searing gorge",
+  "thorius"
+ ],
+ "related": [
+  "quest:3566",
+  "zone:searinggorge",
+  "zone:ironforge",
+  "topic:old-god",
+  "item:head-of-lathoric-the-black"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Heart of Obsidion",
+  "Rise, Obsidion!"
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "key": "item:book-of-the-ancients",
+ "type": "item",
+ "name": "Book of the Ancients",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Book of the Ancients",
+  "quests": [
+   "quest:6027"
+  ]
+ },
+ "summary": "The Book of the Ancients holds secrets about the naga, kept for centuries. Azore Aldamort seeks it at Ethel Rethor to learn more about these scaled foes.",
+ "sections": [
+  {
+   "title": "A Serpent's Charge",
+   "body": "On Ranazjar Isle in Desolace, the Book of the Ancients lies under the guard of a naga protector. Azore Aldamort gives you the Gem of the Serpent and asks you to place it in the hand of the Serpent Statue. The book holds knowledge of the naga that has been kept for centuries, and Azore means to study it.",
+   "spoiler": 0
+  },
+  {
+   "title": "To the High Council",
+   "body": "When you bring the book back to Azore at the tower in Ethel Rethor, he promises to pass it to the Argent Dawn's high council. He hopes its old secrets will teach them much about their scaled foes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the Book of the Ancients?",
+   "aliases": [
+    "book contents",
+    "what does the book say",
+    "naga book"
+   ],
+   "answer": "The Book of the Ancients contains secrets about the naga that have been kept for centuries."
+  },
+  {
+   "q": "Where is the Book of the Ancients?",
+   "aliases": [
+    "book location",
+    "where is the book",
+    "ranazjar isle book"
+   ],
+   "answer": "The book is guarded on Ranazjar Isle in Desolace."
+  },
+  {
+   "q": "Who wants the book?",
+   "aliases": [
+    "who needs the book",
+    "azore book",
+    "argent dawn book"
+   ],
+   "answer": "Azore Aldamort at the tower in Ethel Rethor seeks the book so its knowledge can help the Argent Dawn."
+  },
+  {
+   "q": "What is the Gem of the Serpent for?",
+   "aliases": [
+    "serpent gem",
+    "gem statue",
+    "how summon guardian"
+   ],
+   "answer": "Azore Aldamort gives you the Gem of the Serpent to place in the hand of the Serpent Statue on Ranazjar Isle, summoning the book's protector."
+  },
+  {
+   "q": "Who receives the book?",
+   "aliases": [
+    "where does azore send it",
+    "high council book",
+    "book destination"
+   ],
+   "answer": "Azore Aldamort says he will pass the book to the Argent Dawn's high council."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, the Book of the Ancients offers the Argent Dawn knowledge of the naga, foes who threaten the coast."
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "azore aldamort",
+  "book of the ancients",
+  "desolace",
+  "ethel rethor",
+  "gem of the serpent",
+  "naga",
+  "ranazjar isle"
+ ],
+ "related": [
+  "quest:6027",
+  "item:gem-of-the-serpent",
+  "subzone:ethel-rethor",
+  "zone:desolace",
+  "quest:5741",
+  "topic:naga",
+  "topic:argent-dawn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Book of the Ancients",
+  "Book of the Ancients (quest)"
+ ]
+}

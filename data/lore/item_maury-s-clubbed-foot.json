@@ -1,0 +1,97 @@
+{
+ "key": "item:maury-s-clubbed-foot",
+ "type": "item",
+ "name": "Maury's Clubbed Foot",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Maury's Clubbed Foot",
+  "quests": [
+   "quest:609"
+  ]
+ },
+ "summary": "Maury \u201cClub Foot\u201d Wilkins carries one of the debts Sea Wolf MacKinley means to collect in Booty Bay. His clubbed foot holds something MacKinley believes is valuable.",
+ "sections": [
+  {
+   "title": "A Debt in the Jungle",
+   "body": "Among the debtors MacKinley names, Maury \u201cClub Foot\u201d Wilkins wanders the jungle ruins with Jon-Jon the Crow and Chucky \u201cTen Thumbs.\u201d Their debts have gone unpaid for months, and MacKinley sends you to find them at the Ruins of Aboraz and the Ruins of Jubuwal. Maury\u2019s clubbed foot is among the valuables he wants returned to Booty Bay.",
+   "spoiler": 0
+  },
+  {
+   "title": "MacKinley\u2019s Price",
+   "body": "When you bring the three valuables back, MacKinley says he can get a good price for them. He speaks of what is inside Maury\u2019s foot, then warns that the three should have been careful who they gambled with.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Maury \u201cClub Foot\u201d Wilkins?",
+   "aliases": [
+    "who is maury",
+    "maury club foot",
+    "maury wilkins"
+   ],
+   "answer": "Maury \u201cClub Foot\u201d Wilkins is a debtor of Sea Wolf MacKinley who wanders the jungle ruins."
+  },
+  {
+   "q": "Why does MacKinley want Maury\u2019s foot?",
+   "aliases": [
+    "why foot",
+    "maury's foot",
+    "what macKinley wants"
+   ],
+   "answer": "MacKinley wants Maury\u2019s Clubbed Foot among the valuables he collects from the debtors."
+  },
+  {
+   "q": "What is inside Maury\u2019s foot?",
+   "aliases": [
+    "inside foot",
+    "maury foot secret",
+    "what's in the foot"
+   ],
+   "answer": "MacKinley says there is something inside Maury\u2019s foot that he can sell for a good price."
+  },
+  {
+   "q": "Where can Maury be found?",
+   "aliases": [
+    "where maury",
+    "maury location",
+    "clubfoot where"
+   ],
+   "answer": "Maury wanders the jungle ruins near the Ruins of Aboraz and the Ruins of Jubuwal."
+  },
+  {
+   "q": "Who else owes MacKinley?",
+   "aliases": [
+    "other debtors",
+    "jon jon and chucky",
+    "who owes sea wolf"
+   ],
+   "answer": "Jon-Jon the Crow and Chucky \u201cTen Thumbs\u201d are also among MacKinley\u2019s debtors."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "club foot",
+  "clubbed foot",
+  "maury",
+  "maury wilkins",
+  "ruins of aboraz",
+  "sea wolf mackinley",
+  "voodoo dues"
+ ],
+ "related": [
+  "quest:609",
+  "quest:613",
+  "item:jon-jon-s-golden-spyglass",
+  "item:chucky-s-huge-ring",
+  "subzone:booty-bay",
+  "subzone:ruins-of-aboraz"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Maury's Clubbed Foot",
+  "Voodoo Dues"
+ ]
+}

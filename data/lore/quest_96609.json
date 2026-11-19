@@ -1,0 +1,88 @@
+{
+ "key": "quest:96609",
+ "type": "quest",
+ "name": "A Taste of Home",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96609
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Arille Azuregaze in Dalaran longs for Silvermoon Shimmerwine from her homeland. She asks you to bring her more bottles from northern Azshara.",
+ "sections": [
+  {
+   "title": "A Familiar Flavor",
+   "body": "Arille Azuregaze misses Silvermoon Shimmerwine, a wine with a delicate flavor found only in the vineyards of Eversong. In Dalaran, she says it is difficult to find beyond the Thalassian Gate. A patron once brought her a bottle taken from blood elves in northern Azshara, and now she asks you to bring her ten more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Arille want?",
+   "aliases": [
+    "arille wants",
+    "what wine",
+    "shimmerwine request"
+   ],
+   "answer": "Arille Azuregaze asks you to bring her ten bottles of Silvermoon Shimmerwine."
+  },
+  {
+   "q": "Where does Silvermoon Shimmerwine come from?",
+   "aliases": [
+    "where is shimmerwine from",
+    "wine origin",
+    "eversong wine"
+   ],
+   "answer": "Silvermoon Shimmerwine comes from the vineyards of Eversong."
+  },
+  {
+   "q": "Why does Arille miss this wine?",
+   "aliases": [
+    "why miss it",
+    "arille's homeland",
+    "homesick for wine"
+   ],
+   "answer": "Arille says Silvermoon Shimmerwine is the one thing she truly misses from her homeland."
+  },
+  {
+   "q": "Where was a bottle found?",
+   "aliases": [
+    "where was it taken",
+    "azshara bottles",
+    "blood elf wine"
+   ],
+   "answer": "A patron brought Arille a bottle he said he had taken from blood elves in northern Azshara."
+  },
+  {
+   "q": "Where should I bring the bottles?",
+   "aliases": [
+    "where to take wine",
+    "turn in wine",
+    "arille location"
+   ],
+   "answer": "Bring the bottles to Arille Azuregaze in Dalaran."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arille azuregaze",
+  "azshara",
+  "blood elves",
+  "dalaran",
+  "eversong",
+  "shimmerwine",
+  "silvermoon shimmerwine",
+  "thaliasian gate"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "zone:azshara"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Taste of Home"
+ ]
+}

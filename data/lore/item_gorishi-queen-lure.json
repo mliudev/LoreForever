@@ -1,0 +1,92 @@
+{
+ "key": "item:gorishi-queen-lure",
+ "type": "item",
+ "name": "Gorishi Queen Lure",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Gorishi Queen Lure",
+  "quests": [
+   "quest:4507"
+  ]
+ },
+ "summary": "The Gorishi Queen Lure is a tool used to draw the Gorishi Hive Queen from her chamber in Un'Goro Crater. Researchers in Gadgetzan need the queen's brain to study the silithid.",
+ "sections": [
+  {
+   "title": "A Hive Stirred",
+   "body": "In the Gorishi Hive of Un'Goro Crater, a crystal is thought to attune the silithid across their hive network. The lure is used on that crystal to draw out the queen. Researchers in Gadgetzan seek her brain for study, fearing a malign intelligence may control the silithid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Gorishi Queen Lure do?",
+   "aliases": [
+    "queen lure use",
+    "gorishi lure purpose",
+    "how lure works"
+   ],
+   "answer": "The Gorishi Queen Lure is used on a crystal in the Gorishi Hive to draw out the Gorishi Hive Queen."
+  },
+  {
+   "q": "Where is the lure used?",
+   "aliases": [
+    "where use queen lure",
+    "lure location",
+    "gorishi hive where"
+   ],
+   "answer": "The lure is used on a crystal in the hatcheries of the Gorishi Hive in Un'Goro Crater."
+  },
+  {
+   "q": "Who provided the lure?",
+   "aliases": [
+    "who gave lure",
+    "where did lure come from",
+    "gadgetzan lure"
+   ],
+   "answer": "Researchers in Gadgetzan provide the Gorishi Queen Lure so the queen can be drawn out for study."
+  },
+  {
+   "q": "Why do researchers want the queen's brain?",
+   "aliases": [
+    "why queen brain",
+    "gorishi brain reason",
+    "what is brain for"
+   ],
+   "answer": "The researchers need the Gorishi Hive Queen's brain to study the silithid and investigate whether a malign intelligence controls them."
+  },
+  {
+   "q": "What is the crystal in the hive?",
+   "aliases": [
+    "hive crystal",
+    "silithid crystal",
+    "what crystal does"
+   ],
+   "answer": "The crystal is believed to attune the silithid across their hive network."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "gorishi",
+  "gorishi hive",
+  "gorishi queen lure",
+  "hive crystal",
+  "queen",
+  "queen brain",
+  "silithid",
+  "un'goro crater"
+ ],
+ "related": [
+  "quest:4507",
+  "item:gorishi-queen-brain",
+  "zone:ungoro",
+  "subzone:gadgetzan",
+  "quest:32"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gorishi Queen Lure",
+  "Pawn Captures Queen"
+ ]
+}

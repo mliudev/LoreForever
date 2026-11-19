@@ -1,0 +1,106 @@
+{
+ "key": "item:defiant-orc-head",
+ "type": "item",
+ "name": "Defiant Orc Head",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Defiant Orc Head",
+  "quests": [
+   "quest:1239",
+   "quest:1240"
+  ]
+ },
+ "summary": "The Defiant Orc Head is found near Swamplight Manor at Witch Hill in Dustwallow Marsh. It is the severed head of an orc whose death Nazeer Bloodpike seeks to understand.",
+ "sections": [
+  {
+   "title": "A grim discovery",
+   "body": "Nazeer Bloodpike in Brackenwall Village recognizes the head as Marg Nighteye's. The ragged wound leaves him unsure whether a weapon or a beast killed the orc. He fears Marg may have fallen to the Alliance, and sends the matter onward for answers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose head is it?",
+   "aliases": [
+    "who is the orc",
+    "marg's head",
+    "defiant head"
+   ],
+   "answer": "The head belongs to Marg Nighteye, an orc agent whose death alarms Nazeer Bloodpike."
+  },
+  {
+   "q": "Where do I find the Defiant Orc Head?",
+   "aliases": [
+    "where is the head",
+    "head location",
+    "witch hill head"
+   ],
+   "answer": "It is found in loose dirt beside Swamplight Manor at Witch Hill in Dustwallow Marsh, after the lost report is recovered."
+  },
+  {
+   "q": "Who wants the head?",
+   "aliases": [
+    "who needs it",
+    "head for nazeer",
+    "bring head where"
+   ],
+   "answer": "Nazeer Bloodpike in Brackenwall Village wants the head so he can investigate Marg Nighteye's death."
+  },
+  {
+   "q": "Why take it to Kin'weelay?",
+   "aliases": [
+    "why troll witchdoctor",
+    "kinweelay head",
+    "speak to marg"
+   ],
+   "answer": "Kin'weelay is a powerful Darkspear witchdoctor whom Nazeer believes may speak with Marg Nighteye's spirit."
+  },
+  {
+   "q": "How did Marg die?",
+   "aliases": [
+    "who killed marg",
+    "what happened to marg",
+    "marg death"
+   ],
+   "answer": "Nazeer sees a ragged cut at Marg's neck and wonders whether a weapon or a beast killed him; he fears the Alliance may be responsible."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "As an orc, Marg Nighteye's death is a grim reminder that his people are caught in dangerous work far from home."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you know Kin'weelay is sought for his witch-magic and his power to speak with spirits."
+  }
+ ],
+ "keywords": [
+  "brackenwall village",
+  "defiant orc head",
+  "dustwallow marsh",
+  "kin'weelay",
+  "marg nighteye",
+  "nazeer bloodpike",
+  "swamplight manor",
+  "troll witchdoctor",
+  "witch hill"
+ ],
+ "related": [
+  "quest:1239",
+  "quest:1240",
+  "quest:1238",
+  "npc:kin-weelay",
+  "subzone:swamplight-manor",
+  "subzone:witch-hill",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Defiant Orc Head",
+  "The Severed Head",
+  "The Troll Witchdoctor"
+ ]
+}

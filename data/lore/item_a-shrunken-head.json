@@ -1,0 +1,83 @@
+{
+ "key": "item:a-shrunken-head",
+ "type": "item",
+ "name": "A Shrunken Head",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "A Shrunken Head",
+  "quests": [
+   "quest:3121"
+  ]
+ },
+ "summary": "A shrunken head from Feralas is promised to Neeru Fireblade in Orgrimmar. It will secure the herbs needed for an experiment.",
+ "sections": [
+  {
+   "title": "A Grim Bargain",
+   "body": "Before the herbs can be put to use, Neeru Fireblade in Orgrimmar is owed a grim payment. The head came from a dwarf found in the forests of Feralas. Its bearer carries it to the Cleft of Shadow, where Neeru has prepared an herb mixture for Uzer'i's experiments.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Whose head is it?",
+   "aliases": [
+    "who is the head from",
+    "dwarf head",
+    "shrunken head owner"
+   ],
+   "answer": "The head belonged to a dwarf found in the forests of Feralas."
+  },
+  {
+   "q": "Who is supposed to receive it?",
+   "aliases": [
+    "who gets the head",
+    "take it to who",
+    "neeru head"
+   ],
+   "answer": "Neeru Fireblade in Orgrimmar is promised the head."
+  },
+  {
+   "q": "Why does Neeru want the head?",
+   "aliases": [
+    "why bring head",
+    "what's it for",
+    "head purpose"
+   ],
+   "answer": "The head is payment for herbs Neeru prepared for Uzer'i's experiments."
+  },
+  {
+   "q": "Where do I take the shrunken head?",
+   "aliases": [
+    "where to bring it",
+    "head destination",
+    "cleft of shadow"
+   ],
+   "answer": "Take the shrunken head to Neeru Fireblade in the Cleft of Shadow in Orgrimmar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cleft of shadow",
+  "dwarf",
+  "experiment",
+  "feralas",
+  "herbs",
+  "neeru fireblade",
+  "orgrimmar",
+  "shrunken head",
+  "uzer'i"
+ ],
+ "related": [
+  "quest:3121",
+  "quest:829",
+  "zone:orgrimmar",
+  "zone:feralas",
+  "subzone:cleft-of-shadow"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: A Shrunken Head",
+  "A Strange Request (Feralas)"
+ ]
+}

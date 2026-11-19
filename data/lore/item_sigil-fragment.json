@@ -1,0 +1,88 @@
+{
+ "key": "item:sigil-fragment",
+ "type": "item",
+ "name": "Sigil Fragment",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sigil Fragment",
+  "quests": [
+   "quest:640"
+  ]
+ },
+ "summary": "The Sigil Fragment is one piece of a protective sigil sought in the Arathi Highlands. Tor\u2019gan in Hammerfall can bind the gathered fragments together.",
+ "sections": [
+  {
+   "title": "Pieces of a Sigil",
+   "body": "Stromgarde defenders hold fragments of the sigil in the ruins of Stromgarde. Galen, son of Thoras Trollbane, divided the Sigil of Thoradin into eleven pieces and scattered them among the defenders. Tor\u2019gan, a troll shaman in Hammerfall, can bind the gathered pieces back into the complete sigil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Sigil Fragment?",
+   "aliases": [
+    "sigil piece",
+    "what's this fragment",
+    "fragment meaning"
+   ],
+   "answer": "A Sigil Fragment is one piece of the Sigil of Thoradin, which Galen divided into eleven parts."
+  },
+  {
+   "q": "Who has the fragments?",
+   "aliases": [
+    "where find fragments",
+    "who holds sigil pieces",
+    "stromgarde fragments"
+   ],
+   "answer": "Stromgarde defenders in the Arathi Highlands hold the fragments."
+  },
+  {
+   "q": "Who can put the sigil back together?",
+   "aliases": [
+    "who fixes sigil",
+    "tor'gan fragments",
+    "rebuild broken sigil"
+   ],
+   "answer": "Tor\u2019gan, the troll shaman in Hammerfall, can bind the fragments into the complete Sigil of Thoradin."
+  },
+  {
+   "q": "Why was the sigil broken apart?",
+   "aliases": [
+    "why split sigil",
+    "who broke it",
+    "galen sigil"
+   ],
+   "answer": "Galen, son of Thoras Trollbane, divided the Sigil of Thoradin into eleven pieces and scattered them among Stromgarde defenders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a shaman, you may recognize Tor\u2019gan\u2019s role: the troll shaman can bind the fragments into a whole sigil."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "broken sigil",
+  "galen",
+  "hammerfall",
+  "sigil fragment",
+  "sigil of thoradin",
+  "stromgarde",
+  "thoras trollbane",
+  "tor'gan"
+ ],
+ "related": [
+  "quest:640",
+  "quest:641",
+  "quest:645",
+  "zone:arathi",
+  "subzone:hammerfall"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil Fragment",
+  "The Broken Sigil"
+ ]
+}

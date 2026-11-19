@@ -1,0 +1,98 @@
+{
+ "key": "item:unfinished-skeleton-key",
+ "type": "item",
+ "name": "Unfinished Skeleton Key",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Unfinished Skeleton Key",
+  "quests": [
+   "quest:5801",
+   "quest:5802"
+  ]
+ },
+ "summary": "The Unfinished Skeleton Key is a thorium-and-bone key stem forged from a Skeleton Key Mold. It is part of preparations against the Scourge in Andorhal.",
+ "sections": [
+  {
+   "title": "Forged in Fire",
+   "body": "At Fire Plume Ridge in Un\u2019Goro Crater, the Skeleton Key Mold and two bars of thorium are brought to the lava lake. Its heat fuses thorium and bone into the Unfinished Skeleton Key. The stem is then carried to Alchemist Arbington at Chillwind Point or Apothecary Dithers at the Bulwark, where work on the key continues.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Unfinished Skeleton Key?",
+   "aliases": [
+    "unfinished key",
+    "skeleton key stem",
+    "what is this key"
+   ],
+   "answer": "The Unfinished Skeleton Key is a stem of thorium and bone forged from the Skeleton Key Mold in Fire Plume Ridge\u2019s lava. It is one part of a key being prepared for an assault on Andorhal."
+  },
+  {
+   "q": "How is the key made?",
+   "aliases": [
+    "how make skeleton key",
+    "forge the key",
+    "where is it made"
+   ],
+   "answer": "The Skeleton Key Mold and two bars of thorium are taken to the lava lake atop Fire Plume Ridge in Un\u2019Goro Crater. The heat fuses thorium and bone into the key stem."
+  },
+  {
+   "q": "Who takes the unfinished key?",
+   "aliases": [
+    "where bring key",
+    "arbington or dithers",
+    "who wants the key"
+   ],
+   "answer": "Alchemist Arbington at Chillwind Point receives it for the Alliance, while Apothecary Dithers at the Bulwark receives it for the Horde."
+  },
+  {
+   "q": "Why is the key being made?",
+   "aliases": [
+    "why make this key",
+    "key for andorhal",
+    "scourge key"
+   ],
+   "answer": "The key is part of preparations for an assault on Andorhal, where the Scourge holds the ruined city."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can bring the forged stem to Alchemist Arbington at Chillwind Point as part of preparations against the Scourge in Andorhal."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a Horde traveler, you can bring the forged stem to Apothecary Dithers at the Bulwark as part of preparations against the Scourge in Andorhal."
+  }
+ ],
+ "keywords": [
+  "andorhal",
+  "araj the summoner",
+  "bone",
+  "fire plume ridge",
+  "lava lake",
+  "scourge",
+  "skeleton key mold",
+  "thorium",
+  "un'goro crater",
+  "unfinished skeleton key"
+ ],
+ "related": [
+  "quest:5801",
+  "item:skeleton-key-mold",
+  "zone:ungoro",
+  "zone:tanaris",
+  "zone:westernplaguelands",
+  "subzone:bulwark",
+  "subzone:chillwind-point",
+  "subzone:andorhal"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Unfinished Skeleton Key",
+  "Fire Plume Forged (Alliance)",
+  "Fire Plume Forged (Horde)"
+ ]
+}

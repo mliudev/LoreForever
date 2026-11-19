@@ -1,0 +1,98 @@
+{
+ "key": "item:the-first-troll-legend",
+ "type": "item",
+ "name": "The First Troll Legend",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "The First Troll Legend",
+  "quests": [
+   "quest:207"
+  ]
+ },
+ "summary": "At Bal\u2019lal Ruins, the First Troll Legend is carved on a tablet called Moon Over the Vale. Brother Nimetz seeks its markings as part of his study of Colonel Kurzen\u2019s fall.",
+ "sections": [
+  {
+   "title": "Moon Over the Vale",
+   "body": "Among the stones of Bal\u2019lal Ruins, the tablet called Moon Over the Vale bears the First Troll Legend. Brother Nimetz at Rebel Camp asks you to transcribe its markings. He hopes the legends may explain what has corrupted Colonel Kurzen, once a noble man.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the First Troll Legend?",
+   "aliases": [
+    "first troll legend location",
+    "where tablet",
+    "moon over vale"
+   ],
+   "answer": "The First Troll Legend is on the Moon Over the Vale tablet in the Bal\u2019lal Ruins of Stranglethorn Vale."
+  },
+  {
+   "q": "What is Moon Over the Vale?",
+   "aliases": [
+    "moon over the vale tablet",
+    "first tablet",
+    "troll tablet"
+   ],
+   "answer": "Moon Over the Vale is the tablet in Bal\u2019lal Ruins that bears the First Troll Legend."
+  },
+  {
+   "q": "Who wants the legend transcribed?",
+   "aliases": [
+    "who wants the tablet",
+    "brother nimetz legend",
+    "nimetz"
+   ],
+   "answer": "Brother Nimetz at Rebel Camp asks you to transcribe the troll legends."
+  },
+  {
+   "q": "Why is Brother Nimetz studying troll legends?",
+   "aliases": [
+    "kurzen's mystery",
+    "why study trolls",
+    "kurzen mystery"
+   ],
+   "answer": "Brother Nimetz hopes the troll legends will reveal what caused Colonel Kurzen\u2019s fall into depravity."
+  },
+  {
+   "q": "Are there other troll legends?",
+   "aliases": [
+    "other troll tablets",
+    "second third fourth legend",
+    "four troll legends"
+   ],
+   "answer": "Brother Nimetz seeks four legends from tablets in Stranglethorn Vale. The first is in Bal\u2019lal Ruins; the second is in Vile Reef, and the third and fourth are in Zul\u2019Kunda."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Brother Nimetz\u2019s search concerns Colonel Kurzen, an Alliance officer whose fall troubles those at Rebel Camp."
+  }
+ ],
+ "keywords": [
+  "bal'lal ruins",
+  "brother nimetz",
+  "colonel kurzen",
+  "first troll legend",
+  "kurzen's mystery",
+  "moon over the vale",
+  "stranglethorn vale",
+  "troll tablet"
+ ],
+ "related": [
+  "quest:207",
+  "subzone:bal-lal-ruins",
+  "zone:stranglethorn",
+  "item:the-second-troll-legend",
+  "item:the-third-troll-legend",
+  "item:the-fourth-troll-legend",
+  "npc:colonel-kurzen"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: The First Troll Legend",
+  "Kurzen's Mystery"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "key": "item:chucky-s-huge-ring",
+ "type": "item",
+ "name": "Chucky's Huge Ring",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Chucky's Huge Ring",
+  "quests": [
+   "quest:609"
+  ]
+ },
+ "summary": "At the Ruins of Aboraz, Chucky \u201cTen Thumbs\u201d has a ring that Sea Wolf MacKinley wants. It is one of three valuables sought for debts left unpaid.",
+ "sections": [
+  {
+   "title": "A Debt in the Jungle",
+   "body": "MacKinley\u2019s list leads you to Chucky \u201cTen Thumbs\u201d among the jungle ruins of Stranglethorn Vale. The pirate says Chucky and two other debtors vanished after their debts went unpaid. He wants their valuables gathered, and Chucky\u2019s huge ring is one of them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chucky?",
+   "aliases": [
+    "chucky ten thumbs",
+    "who's chucky",
+    "ten thumbs"
+   ],
+   "answer": "Chucky \u201cTen Thumbs\u201d is a debtor sought by Sea Wolf MacKinley. He wanders the Ruins of Aboraz in Stranglethorn Vale."
+  },
+  {
+   "q": "Where can I find Chucky's ring?",
+   "aliases": [
+    "chucky ring location",
+    "where ring",
+    "huge ring"
+   ],
+   "answer": "Chucky\u2019s Huge Ring is at the Ruins of Aboraz in Stranglethorn Vale, where Chucky \u201cTen Thumbs\u201d wanders."
+  },
+  {
+   "q": "Why does MacKinley want the ring?",
+   "aliases": [
+    "why mac kinley wants ring",
+    "ring debt",
+    "voodoo dues"
+   ],
+   "answer": "MacKinley wants valuables from three debtors whose payments are months overdue. Chucky\u2019s ring is one of the items he asks you to bring to Booty Bay."
+  },
+  {
+   "q": "What is Chucky's Huge Ring for?",
+   "aliases": [
+    "ring use",
+    "what do with chucky ring",
+    "huge ring purpose"
+   ],
+   "answer": "The ring is one of three valuables Sea Wolf MacKinley requests for the debts owed by Chucky and two other pirates."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chucky",
+  "chucky's huge ring",
+  "ruins of aboraz",
+  "sea wolf mackinley",
+  "stranglethorn vale",
+  "ten thumbs",
+  "voodoo dues"
+ ],
+ "related": [
+  "quest:609",
+  "zone:stranglethorn",
+  "subzone:ruins-of-aboraz"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Chucky's Huge Ring",
+  "Voodoo Dues"
+ ]
+}

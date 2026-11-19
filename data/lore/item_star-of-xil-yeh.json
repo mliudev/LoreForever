@@ -1,0 +1,98 @@
+{
+ "key": "item:star-of-xil-yeh",
+ "type": "item",
+ "name": "Star of Xil'yeh",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Star of Xil'yeh",
+  "quests": [
+   "quest:735"
+  ]
+ },
+ "summary": "The Star of Xil'yeh is a powerful gem said to let its holder speak with beings on other worlds. Gerrig Bonegrip seeks it among three relics in Ironforge.",
+ "sections": [
+  {
+   "title": "A Relic Sought",
+   "body": "In Ironforge, Gerrig Bonegrip asks for the Star of Xil'yeh as one of three relics he needs. He seeks the items to trade for Yagyin's Digest, a book tied to the beginning of a new chapter for his order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Star of Xil'yeh do?",
+   "aliases": [
+    "star of xil'yeh power",
+    "what is the star gem",
+    "xil'yeh gem"
+   ],
+   "answer": "The Star of Xil'yeh is said to let its holder speak with beings on other worlds."
+  },
+  {
+   "q": "Why does Gerrig Bonegrip want the Star?",
+   "aliases": [
+    "why gerrig wants star",
+    "bonegrip star",
+    "gerrig relics"
+   ],
+   "answer": "Gerrig needs the Star of Xil'yeh alongside the Hand of Dagun and the Legacy Heart. He seeks the three relics in exchange for Yagyin's Digest."
+  },
+  {
+   "q": "Where can the Star be found?",
+   "aliases": [
+    "star location",
+    "where is xil'yeh",
+    "find the star"
+   ],
+   "answer": "Grel'borg the Miser in the Alterac Mountains has the Star of Xil'yeh."
+  },
+  {
+   "q": "What is Yagyin's Digest?",
+   "aliases": [
+    "yagyin digest",
+    "why bonegrip wants digest",
+    "bonegrip book"
+   ],
+   "answer": "Yagyin's Digest is a book Gerrig Bonegrip offers in exchange for three relics. He believes it may help begin a new chapter for his order."
+  },
+  {
+   "q": "What are the other relics Gerrig seeks?",
+   "aliases": [
+    "hand and heart",
+    "three relics",
+    "bonegrip items"
+   ],
+   "answer": "Along with the Star of Xil'yeh, Gerrig asks for the Hand of Dagun and the Legacy Heart."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance adventurer, you may carry this relic to Gerrig Bonegrip in Ironforge, where he seeks it for his order."
+  }
+ ],
+ "keywords": [
+  "gem",
+  "gerrig bonegrip",
+  "hand of dagun",
+  "legacy heart",
+  "other worlds",
+  "star of xil'yeh",
+  "xil'yeh",
+  "yagyin's digest"
+ ],
+ "related": [
+  "quest:736",
+  "npc:gerrig-bonegrip",
+  "item:yagyin-s-digest",
+  "item:hand-of-dagun",
+  "item:the-legacy-heart",
+  "zone:alterac",
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Star of Xil'yeh",
+  "The Star, the Hand and the Heart (Alliance)"
+ ]
+}

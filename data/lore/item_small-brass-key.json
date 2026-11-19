@@ -1,0 +1,88 @@
+{
+ "key": "item:small-brass-key",
+ "type": "item",
+ "name": "Small Brass Key",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Small Brass Key",
+  "quests": [
+   "quest:328"
+  ]
+ },
+ "summary": "The Small Brass Key is hidden in one of Bookie Herod\u2019s ledger books at Kurzen\u2019s Compound. It fits a strongbox in the Stockpile, where Herod keeps his valuables.",
+ "sections": [
+  {
+   "title": "A Key in the Ledger",
+   "body": "Herod\u2019s papers point you toward the Stockpile, a cavern behind Kurzen\u2019s Compound in Stranglethorn Vale. The Small Brass Key is tucked inside the binding of one of his ledger books. There, it may open the secure strongbox mentioned in his notes.",
+   "spoiler": 0
+  },
+  {
+   "title": "Inside the Box",
+   "body": "The strongbox holds Herod\u2019s more valuable coins and items. Opening it with the Small Brass Key also reveals a Muddy Note, which carries the search for the traitor onward.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find the Small Brass Key?",
+   "aliases": [
+    "small key location",
+    "where is brass key",
+    "herod key"
+   ],
+   "answer": "The Small Brass Key is hidden in the binding of one of Bookie Herod\u2019s ledger books."
+  },
+  {
+   "q": "What does the Small Brass Key open?",
+   "aliases": [
+    "what key unlocks",
+    "brass key box",
+    "strongbox key"
+   ],
+   "answer": "The Small Brass Key opens Bookie Herod\u2019s secure strongbox in the Stockpile at Kurzen\u2019s Compound."
+  },
+  {
+   "q": "What is in Herod\u2019s strongbox?",
+   "aliases": [
+    "herod strongbox contents",
+    "what's in the box",
+    "bookie herod box"
+   ],
+   "answer": "Herod keeps his more valuable coins and items in the strongbox. A Muddy Note is also found there."
+  },
+  {
+   "q": "What does the Muddy Note mean?",
+   "aliases": [
+    "muddy note clue",
+    "note from the box",
+    "traitor note"
+   ],
+   "answer": "The Muddy Note leads the search further toward discovering the traitor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bookie herod",
+  "herod",
+  "hidden key",
+  "kurzen's compound",
+  "muddy note",
+  "small brass key",
+  "stockpile",
+  "stranglethorn vale",
+  "strongbox"
+ ],
+ "related": [
+  "quest:328",
+  "npc:herod",
+  "item:muddy-note",
+  "subzone:kurzen-s-compound",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Small Brass Key",
+  "The Hidden Key"
+ ]
+}

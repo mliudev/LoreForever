@@ -1,0 +1,78 @@
+{
+ "key": "item:shadra-s-venom",
+ "type": "item",
+ "name": "Shadra's Venom",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Shadra's Venom",
+  "quests": [
+   "quest:2937"
+  ]
+ },
+ "summary": "Shadra's Venom is taken from the spider god in the Hinterlands. Apothecary Lydon in Tarren Mill needs it after Shadra is summoned.",
+ "sections": [
+  {
+   "title": "Venom for Lydon",
+   "body": "At Shadra'Alor in the Hinterlands, the parchment calls Shadra from her lair. Her venom is carried to Apothecary Lydon in Tarren Mill, who waits for it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shadra's Venom?",
+   "aliases": [
+    "shadra venom",
+    "what venom"
+   ],
+   "answer": "Shadra's Venom is taken from Shadra, the spider god of the Hinterlands."
+  },
+  {
+   "q": "Who needs Shadra's Venom?",
+   "aliases": [
+    "who wants the venom",
+    "lydon venom"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill asks you to bring Shadra's Venom to him."
+  },
+  {
+   "q": "Where do you get Shadra's Venom?",
+   "aliases": [
+    "where venom",
+    "get shadra venom"
+   ],
+   "answer": "Shadra's Venom comes from Shadra at the altar of Shadra'Alor in the Hinterlands."
+  },
+  {
+   "q": "How is Shadra summoned?",
+   "aliases": [
+    "summon shadra",
+    "shadra altar"
+   ],
+   "answer": "Read Gadrin's Parchment at the altar of Shadra'Alor, deep within the Witherbark realm in the Hinterlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "gadrin's parchment",
+  "hinterlands",
+  "shadra",
+  "shadra'alor",
+  "shadra's venom",
+  "spider god",
+  "tarren mill"
+ ],
+ "related": [
+  "quest:2937",
+  "quest:2936",
+  "item:gadrin-s-parchment",
+  "zone:hinterlands",
+  "subzone:tarren-mill"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shadra's Venom",
+  "Summoning Shadra (Classic)"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "item:thorium-plated-dagger",
+ "type": "item",
+ "name": "Thorium Plated Dagger",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Thorium Plated Dagger",
+  "quests": [
+   "quest:3443"
+  ]
+ },
+ "summary": "A Thorium Plated Dagger is an enchanted weapon carried by Dark Iron taskmasters and slavers in the Cauldron. Velarok Windblade needs its thorium alloy for a sturdy shaft.",
+ "sections": [
+  {
+   "title": "Enchanted Thorium",
+   "body": "Dark Iron taskmasters and slavers in the Cauldron carry Thorium Plated Daggers made with enchanted thorium. Velarok Windblade seeks the sturdy alloy to reforge a shaft for the flawless flame.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who uses Thorium Plated Daggers?",
+   "aliases": [
+    "who has thorium daggers",
+    "dark iron dagger users"
+   ],
+   "answer": "Dark Iron taskmasters and slavers in the Cauldron carry Thorium Plated Daggers."
+  },
+  {
+   "q": "Why does Velarok want the daggers?",
+   "aliases": [
+    "why velarok needs daggers",
+    "dagger purpose"
+   ],
+   "answer": "Velarok Windblade can break down their enchanted thorium alloy and reforge a shaft."
+  },
+  {
+   "q": "What is the dagger made of?",
+   "aliases": [
+    "thorium dagger material",
+    "what's in the dagger"
+   ],
+   "answer": "The dagger uses enchanted thorium, an extremely sturdy alloy."
+  },
+  {
+   "q": "How many daggers does Velarok need?",
+   "aliases": [
+    "number of daggers",
+    "how many thorium daggers"
+   ],
+   "answer": "Velarok Windblade needs eight Thorium Plated Daggers."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cauldron",
+  "dark iron slaver",
+  "dark iron taskmaster",
+  "enchanted alloy",
+  "thorium",
+  "thorium plated dagger",
+  "velarok windblade"
+ ],
+ "related": [
+  "quest:3443",
+  "zone:searinggorge",
+  "subzone:cauldron",
+  "npc:velarok"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Thorium Plated Dagger",
+  "Forging the Shaft"
+ ]
+}

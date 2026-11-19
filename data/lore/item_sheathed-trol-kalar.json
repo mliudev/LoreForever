@@ -1,0 +1,83 @@
+{
+ "key": "item:sheathed-trol-kalar",
+ "type": "item",
+ "name": "Sheathed Trol'kalar",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sheathed Trol'kalar",
+  "quests": [
+   "quest:646"
+  ]
+ },
+ "summary": "Trol'kalar lies freed within its stone sheath in Arathi Highlands. Zengu at Hammerfall awaits the sword, prized by the Darkspear trolls.",
+ "sections": [
+  {
+   "title": "The Stone Sheath",
+   "body": "From Trollbane's Tomb in Arathi Highlands, you carry Trol'kalar within its stone sheath. The light that held the sword fades, freeing the weapon. Zengu waits at Hammerfall to receive it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Sheathed Trol'kalar?",
+   "aliases": [
+    "sheathed trolkalar",
+    "stone sheath sword"
+   ],
+   "answer": "Sheathed Trol'kalar holds the sword Trol'kalar within a stone sheath. The fading light releases the weapon."
+  },
+  {
+   "q": "Where did I find Trol'kalar?",
+   "aliases": [
+    "trolkalar location",
+    "trollbane tomb"
+   ],
+   "answer": "You find Sheathed Trol'kalar in Trollbane's Tomb in Arathi Highlands."
+  },
+  {
+   "q": "Who wants the sword?",
+   "aliases": [
+    "who gets trolkalar",
+    "zengu sword"
+   ],
+   "answer": "Zengu at Hammerfall awaits Trol'kalar. He says it will be delivered to Nimboya at Grom'gol."
+  },
+  {
+   "q": "Why does Trol'kalar matter to the trolls?",
+   "aliases": [
+    "trolkalar importance",
+    "why trolls want sword"
+   ],
+   "answer": "Trol'kalar is called the greatest weapon of Strom and Arathor. Zengu says the Darkspear trolls are indebted to you for returning it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you carry a weapon Zengu calls the greatest of Strom and Arathor. The Darkspear are indebted to you for returning it."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "hammerfall",
+  "nimboya",
+  "sheathed trol'kalar",
+  "stone sheath",
+  "trol'kalar",
+  "trollbane's tomb",
+  "zengu"
+ ],
+ "related": [
+  "quest:645",
+  "quest:638",
+  "zone:arathi",
+  "subzone:hammerfall",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sheathed Trol'kalar",
+  "Trol'kalar (2)"
+ ]
+}

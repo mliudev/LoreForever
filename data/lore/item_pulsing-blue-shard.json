@@ -1,0 +1,87 @@
+{
+ "key": "item:pulsing-blue-shard",
+ "type": "item",
+ "name": "Pulsing Blue Shard",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Pulsing Blue Shard",
+  "quests": [
+   "quest:589"
+  ]
+ },
+ "summary": "Pulsing Blue Shards are rare crystals taken from Ironjaw Basilisks in Stranglethorn Vale. Kin'weelay needs their magic to control the Mind's Eye.",
+ "sections": [
+  {
+   "title": "A Singing Crystal",
+   "body": "Kin'weelay, a troll at Grom'gol Base Camp, asks you to bring him Pulsing Blue Shards from Ironjaw Basilisks in Crystalvein Mine. He needs their magic for the Mind's Eye, a jewel said to hold great power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Pulsing Blue Shards?",
+   "aliases": [
+    "blue shard",
+    "pulsing crystal"
+   ],
+   "answer": "Pulsing Blue Shards are rare crystals taken from Ironjaw Basilisks in Stranglethorn Vale. Their magic can help Kin'weelay control the Mind's Eye."
+  },
+  {
+   "q": "Who needs the shards?",
+   "aliases": [
+    "who wants blue shards",
+    "kinweelay shards"
+   ],
+   "answer": "Kin'weelay at Grom'gol Base Camp needs Pulsing Blue Shards for his work with the Mind's Eye."
+  },
+  {
+   "q": "Where do the shards come from?",
+   "aliases": [
+    "where get shards",
+    "crystalvein shards"
+   ],
+   "answer": "Ironjaw Basilisks in Crystalvein Mine yield Pulsing Blue Shards."
+  },
+  {
+   "q": "What is the Mind's Eye?",
+   "aliases": [
+    "minds eye",
+    "singing crystals"
+   ],
+   "answer": "The Mind's Eye is a jewel hidden deep in Stranglethorn Vale, said to hold great power. Kin'weelay believes the shards can help him bend its magic to his will."
+  },
+  {
+   "q": "Why does Kin'weelay want them?",
+   "aliases": [
+    "why shards",
+    "what are shards for"
+   ],
+   "answer": "Kin'weelay needs the shards' magic to control the Mind's Eye, which he hopes to use to bring Yenniku back from the darkness."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blue shards",
+  "crystalvein mine",
+  "ironjaw basilisk",
+  "kin'weelay",
+  "mind's eye",
+  "pulsing blue shard",
+  "stranglethorn",
+  "yenniku"
+ ],
+ "related": [
+  "quest:589",
+  "item:mind-s-eye",
+  "npc:kin-weelay",
+  "subzone:crystalvein-mine",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Pulsing Blue Shard",
+  "The Singing Crystals"
+ ]
+}

@@ -142,8 +142,13 @@ function LoreForever_Narrate()
     if UI.speaking then
       local k = ns.Hooks.CurrentKey("narrate")
       local link = ns.Hooks.Link(L["Read along"], "entry", target.key)
-      say(k and string.format(L["now playing: %s. %s (%s again to stop)"], name, link, k)
-        or string.format(L["now playing: %s. %s"], name, link))
+      -- (once it's over the line says so: LOR-1568. On while it plays or waits paused, its pieces included.)
+      local id = target.id
+      local line = k and string.format(L["now playing: %s. %s (%s again to stop)"], name, link, k)
+        or string.format(L["now playing: %s. %s"], name, link)
+      ns.Voice.SayNowPlaying(PREFIX .. line, PREFIX .. string.format(L["played: %s. %s"], name, link), function()
+        return (UI.speaking and UI.playingId == id) or (UI.resumeTarget ~= nil and UI.resumeTarget.id == id)
+      end)
     else
       say(string.format(L["%s isn't narrated yet."], name))
     end

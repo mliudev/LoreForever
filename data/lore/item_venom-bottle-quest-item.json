@@ -1,0 +1,66 @@
+{
+ "key": "item:venom-bottle-quest-item",
+ "type": "item",
+ "name": "Venom Bottle",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Venom Bottle (quest item)",
+  "quests": [
+   "quest:2933"
+  ]
+ },
+ "summary": "A Venom Bottle holds a vile green venom found among the Witherbarks. An apothecary in Tarren Mill wants a sample.",
+ "sections": [
+  {
+   "title": "A Vile Sample",
+   "body": "Among the Witherbarks\u2019 many bottles is one filled with green venom. Its source seems to be an arachnoid creature, and an apothecary in Tarren Mill is eager to examine a sample.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in a Venom Bottle?",
+   "aliases": [
+    "venom bottle contents",
+    "what's in the bottle"
+   ],
+   "answer": "A Venom Bottle holds a vile, green venom. An apothecary in Tarren Mill judges it to come from an arachnoid creature."
+  },
+  {
+   "q": "Who wants the venom?",
+   "aliases": [
+    "who needs venom",
+    "tarren mill apothecary"
+   ],
+   "answer": "An apothecary in Tarren Mill wants a sample of the venom for study."
+  },
+  {
+   "q": "Where did the venom come from?",
+   "aliases": [
+    "venom source",
+    "spider venom"
+   ],
+   "answer": "The apothecary in Tarren Mill judges the venom to come from an arachnoid creature."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary",
+  "arachnoid",
+  "tarren mill",
+  "venom",
+  "venom bottle",
+  "witherbarks"
+ ],
+ "related": [
+  "quest:2933",
+  "subzone:tarren-mill",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Venom Bottle (quest item)",
+  "Venom Bottles"
+ ]
+}

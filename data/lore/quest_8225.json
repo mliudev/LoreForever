@@ -1,0 +1,61 @@
+{
+ "key": "quest:8225",
+ "type": "quest",
+ "name": "Rare Fish - Brownell's Blue Striped Racer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8225
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A fishing record marks Brownell's Blue Striped Racer as identified. The identification is complete.",
+ "sections": [
+  {
+   "title": "The Record",
+   "body": "A brief signal follows the identification of Brownell's Racer. Brownell's Blue Striped Racer is marked complete, and a reward is available.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Brownell's Blue Striped Racer?",
+   "aliases": [
+    "brownell racer",
+    "blue striped fish"
+   ],
+   "answer": "Brownell's Blue Striped Racer is the fish whose identification is marked complete."
+  },
+  {
+   "q": "Is the identification complete?",
+   "aliases": [
+    "fish identification",
+    "racer identified"
+   ],
+   "answer": "Yes. The identification of Brownell's Racer is complete."
+  },
+  {
+   "q": "Is a reward available?",
+   "aliases": [
+    "fish reward",
+    "what do I get"
+   ],
+   "answer": "Yes. A reward is available after the identification is complete."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brownell's blue striped racer",
+  "brownell's racer",
+  "fish identification",
+  "rare fish",
+  "reward"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rare Fish - Brownell's Blue Striped Racer"
+ ]
+}

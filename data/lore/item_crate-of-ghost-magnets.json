@@ -1,0 +1,76 @@
+{
+ "key": "item:crate-of-ghost-magnets",
+ "type": "item",
+ "name": "Crate of Ghost Magnets",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Crate of Ghost Magnets",
+  "quests": [
+   "quest:6134"
+  ]
+ },
+ "summary": "The Crate of Ghost Magnets draws Magram ghosts toward a gathering place in the Valley of Bones. Hornizz Brimbuzzle hopes the captured ghost-o-plasm will fetch a fine price from the centaurs.",
+ "sections": [
+  {
+   "title": "Ghostly Bait",
+   "body": "Hornizz Brimbuzzle gives you the Crate of Ghost Magnets for use in the Valley of Bones. Set between the two Dead Goliaths, it draws Magram ghosts close enough for their ghost-o-plasm to be gathered. Hornizz means to sell the strange substance to the centaurs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the crate do?",
+   "aliases": [
+    "ghost magnet crate",
+    "what are ghost magnets for"
+   ],
+   "answer": "The Crate of Ghost Magnets draws Magram ghosts toward it in the Valley of Bones."
+  },
+  {
+   "q": "Who gives you the Crate of Ghost Magnets?",
+   "aliases": [
+    "where get ghost magnets",
+    "hornizz crate"
+   ],
+   "answer": "Hornizz Brimbuzzle gives you the Crate of Ghost Magnets."
+  },
+  {
+   "q": "Where is the crate used?",
+   "aliases": [
+    "ghost magnets location",
+    "where place crate"
+   ],
+   "answer": "The crate is used in the Valley of Bones, between the two Dead Goliaths."
+  },
+  {
+   "q": "Why does Hornizz want ghost-o-plasm?",
+   "aliases": [
+    "why collect ghost plasma",
+    "what's hornizz doing"
+   ],
+   "answer": "Hornizz hopes to sell ghost-o-plasm to the Magram centaurs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate of ghost magnets",
+  "dead goliaths",
+  "ghost magnets",
+  "ghost-o-plasm",
+  "hornizz brimbuzzle",
+  "magram",
+  "valley of bones"
+ ],
+ "related": [
+  "quest:6134",
+  "item:ghost-o-plasm",
+  "subzone:valley-of-bones",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Crate of Ghost Magnets",
+  "Ghost-o-plasm Round Up"
+ ]
+}

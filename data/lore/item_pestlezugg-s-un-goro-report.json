@@ -1,0 +1,117 @@
+{
+ "key": "item:pestlezugg-s-un-goro-report",
+ "type": "item",
+ "name": "Pestlezugg's Un'Goro Report",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Pestlezugg's Un'Goro Report",
+  "quests": [
+   "quest:4508",
+   "quest:4509"
+  ]
+ },
+ "summary": "Pestlezugg's Un'Goro Report carries his latest findings from Gadgetzan to leaders in Darnassus or Orgrimmar. He hopes they will heed the silithid threat and help confront it.",
+ "sections": [
+  {
+   "title": "A Report from Gadgetzan",
+   "body": "In Gadgetzan, Pestlezugg sends his latest findings about the silithid to someone who can reach the leaders. The report travels to Gracina Spiritmight at the Temple of the Moon in Darnassus, or to Zilzibin Drumlore in Orgrimmar. Pestlezugg believes the danger is too great for Gadgetzan to face alone.",
+   "spoiler": 0
+  },
+  {
+   "title": "Heeding the Warning",
+   "body": "Pestlezugg fears that hatred between the Alliance and Horde blinds both sides to the silithid threat. Gracina says the Alliance dismisses dangers that do not come from the Horde, while the Horde's leaders are divided by conflicting advice. Both recipients urge continued effort against the silithid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the report?",
+   "aliases": [
+    "who is pestlezugg",
+    "pestlezugg report",
+    "report author"
+   ],
+   "answer": "Pestlezugg, who works in Gadgetzan, wrote the report about his latest findings on the silithid."
+  },
+  {
+   "q": "What is in Pestlezugg's report?",
+   "aliases": [
+    "what does report say",
+    "silithid report",
+    "report contents"
+   ],
+   "answer": "The report carries Pestlezugg's latest findings on the silithid threat."
+  },
+  {
+   "q": "Where is the report sent?",
+   "aliases": [
+    "where take report",
+    "report destination",
+    "where does it go"
+   ],
+   "answer": "The report is carried to Gracina Spiritmight at the Temple of the Moon in Darnassus, or to Zilzibin Drumlore in Orgrimmar."
+  },
+  {
+   "q": "Why does Pestlezugg send it?",
+   "aliases": [
+    "why send report",
+    "why does pestlezugg need help",
+    "gadgetzan needs help"
+   ],
+   "answer": "Pestlezugg believes Gadgetzan cannot face the silithid threat alone and hopes leaders can act on his findings."
+  },
+  {
+   "q": "What does Gracina think of the warning?",
+   "aliases": [
+    "gracina on silithids",
+    "alliance response",
+    "why alliance ignores threat"
+   ],
+   "answer": "Gracina says the Alliance overlooks threats that do not come from the Horde, and she urges continued effort against the silithid."
+  },
+  {
+   "q": "How does the Horde respond?",
+   "aliases": [
+    "horde response",
+    "thrall and silithids",
+    "zilzibin report"
+   ],
+   "answer": "Zilzibin says the Horde is distracted by conflicting advice, though he believes Thrall might act if the facts reached him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you carry Pestlezugg's warning to Gracina Spiritmight in Darnassus, where she hopes her leaders will take the silithid threat seriously."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a Horde traveler, you bring Pestlezugg's warning to Zilzibin Drumlore in Orgrimmar, in the hope that Thrall may hear the facts."
+  }
+ ],
+ "keywords": [
+  "calm before the storm",
+  "darnassus",
+  "gadgetzan",
+  "gracina spiritmight",
+  "orgrimmar",
+  "pestlezugg",
+  "silithid",
+  "un'goro report",
+  "zilzibin drumlore"
+ ],
+ "related": [
+  "quest:4508",
+  "zone:tanaris",
+  "zone:darnassus",
+  "zone:orgrimmar",
+  "quest:32"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Pestlezugg's Un'Goro Report",
+  "Calm Before the Storm (Alliance)",
+  "Calm Before the Storm (Horde)"
+ ]
+}

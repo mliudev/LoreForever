@@ -1,0 +1,82 @@
+{
+ "key": "item:witherbark-tusk",
+ "type": "item",
+ "name": "Witherbark Tusk",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Witherbark Tusk",
+  "quests": [
+   "quest:691"
+  ]
+ },
+ "summary": "A Witherbark Tusk is a trophy taken from the trolls of southeastern Arathi. Apprentice Kryten needs ten for Archmage Malin\u2019s research at Refuge Pointe.",
+ "sections": [
+  {
+   "title": "A Troll\u2019s Tusk",
+   "body": "At Refuge Pointe, Apprentice Kryten gathers reagents for Archmage Malin\u2019s research. The tusks come from Witherbark trolls in the southeastern highlands, where the tribe makes its home. Kryten needs ten, alongside medicine pouches and a shadow hunter\u2019s knife.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs Witherbark Tusks?",
+   "aliases": [
+    "who wants the tusks",
+    "Kryten tusks",
+    "tusks for Malin"
+   ],
+   "answer": "Apprentice Kryten at Refuge Pointe needs ten Witherbark Tusks for Archmage Malin\u2019s research."
+  },
+  {
+   "q": "Where do Witherbark Tusks come from?",
+   "aliases": [
+    "where tusks from",
+    "tusk location",
+    "find Witherbark tusks"
+   ],
+   "answer": "Witherbark Tusks come from the Witherbark trolls living southeast of Refuge Pointe in Arathi Highlands."
+  },
+  {
+   "q": "Why does Kryten need the tusks?",
+   "aliases": [
+    "why tusks",
+    "Kryten research",
+    "Malin reagents"
+   ],
+   "answer": "Kryten is collecting reagents for Archmage Malin\u2019s research, and the tusks are among the items he needs."
+  },
+  {
+   "q": "How many tusks does Kryten need?",
+   "aliases": [
+    "tusk count",
+    "how many tusks",
+    "ten tusks"
+   ],
+   "answer": "Kryten needs ten Witherbark Tusks, along with four medicine pouches and a Shadow Hunter Knife."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "archmage malin",
+  "kryten",
+  "reagents",
+  "refuge pointe",
+  "tusk",
+  "witherbark",
+  "witherbark tusk"
+ ],
+ "related": [
+  "quest:691",
+  "item:witherbark-medicine-pouch",
+  "item:shadow-hunter-knife",
+  "zone:arathi",
+  "subzone:witherbark-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Witherbark Tusk",
+  "Worth Its Weight in Gold (Classic)"
+ ]
+}

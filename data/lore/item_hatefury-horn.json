@@ -1,0 +1,88 @@
+{
+ "key": "item:hatefury-horn",
+ "type": "item",
+ "name": "Hatefury Horn",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Hatefury Horn",
+  "quests": [
+   "quest:1458"
+  ]
+ },
+ "summary": "A Hatefury Horn is taken from one of the satyrs in the Sargeron ruins east of Nijel\u2019s Point. Kreldig Ungor gathers horns and claws for a reagent list from Kharanos.",
+ "sections": [
+  {
+   "title": "A Reagent from Sargeron",
+   "body": "East of Nijel\u2019s Point, the Hatefury satyrs haunt the Sargeron ruins. Their horns are among the reagents Kreldig Ungor needs for Leftwitch, a gnome mage in Kharanos. Kreldig asks for ten horns alongside ten Hatefury claws, though he cannot promise their quality.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Hatefury Horns come from?",
+   "aliases": [
+    "hatefury horn source",
+    "where get horns",
+    "satyr horns"
+   ],
+   "answer": "Hatefury satyrs in the Sargeron ruins east of Nijel\u2019s Point carry the horns."
+  },
+  {
+   "q": "Who wants Hatefury Horns?",
+   "aliases": [
+    "who needs hatefury horns",
+    "kreldig horns",
+    "reagents for reclaimers"
+   ],
+   "answer": "Kreldig Ungor collects ten Hatefury Horns for a reagent list sent by Leftwitch, a gnome mage in Kharanos."
+  },
+  {
+   "q": "Why is Kreldig collecting them?",
+   "aliases": [
+    "why horns",
+    "leftwitch reagents",
+    "what are horns for"
+   ],
+   "answer": "Kreldig gathers the horns as reagents for Leftwitch in Kharanos."
+  },
+  {
+   "q": "What else does Kreldig need?",
+   "aliases": [
+    "other reagents",
+    "hatefury claws",
+    "what with the horns"
+   ],
+   "answer": "Kreldig also asks for ten Hatefury Claws."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, you may know Leftwitch by reputation: the mage in Kharanos sent the Reclaimers a list of reagents."
+  }
+ ],
+ "keywords": [
+  "hatefury claw",
+  "hatefury horn",
+  "hatefury satyr",
+  "kreldig ungor",
+  "leftwitch",
+  "nijel's point",
+  "reagents",
+  "sargeron"
+ ],
+ "related": [
+  "quest:1458",
+  "item:hatefury-claw",
+  "subzone:sargeron",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "topic:satyr"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hatefury Horn",
+  "Reagents for Reclaimers Inc. (quest)"
+ ]
+}

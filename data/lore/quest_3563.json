@@ -1,0 +1,74 @@
+{
+ "key": "quest:3563",
+ "type": "quest",
+ "name": "Jes'rimon's Payment to Jediga",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3563
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jes'rimon asks you to carry his note to Jediga in Azshara. He wants her to return to Orgrimmar soon after their beneficial deal.",
+ "sections": [
+  {
+   "title": "A Note for Jediga",
+   "body": "Before Jediga returns, Jes'rimon wants her to hear that he is pleased with her work. His note also asks her to come back to Orgrimmar quickly. You carry his words to her in Azshara, where their deal has proved beneficial to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jes'rimon sending the note to?",
+   "aliases": [
+    "who gets the note",
+    "jesrimon note recipient"
+   ],
+   "answer": "Jes'rimon sends his note to Jediga in Azshara."
+  },
+  {
+   "q": "What does Jes'rimon want Jediga to know?",
+   "aliases": [
+    "what's in the note",
+    "jesrimon's message"
+   ],
+   "answer": "Jes'rimon says their deal has been beneficial and that he is pleased with Jediga's work."
+  },
+  {
+   "q": "Where is Jediga?",
+   "aliases": [
+    "where to find jediga",
+    "jediga location"
+   ],
+   "answer": "The note is meant for Jediga in Azshara."
+  },
+  {
+   "q": "Why should Jediga return to Orgrimmar?",
+   "aliases": [
+    "why come back to orgrimmar",
+    "jediga return"
+   ],
+   "answer": "Jes'rimon asks Jediga to return to Orgrimmar quickly and says he will take good care of her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "deal",
+  "jediga",
+  "jes'rimon",
+  "note",
+  "orgrimmar",
+  "payment"
+ ],
+ "related": [
+  "zone:azshara",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Jes'rimon's Payment to Jediga"
+ ]
+}

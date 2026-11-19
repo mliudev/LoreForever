@@ -1,0 +1,79 @@
+{
+ "key": "item:beast-muisek",
+ "type": "item",
+ "name": "Beast Muisek",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Beast Muisek",
+  "quests": [
+   "quest:3123"
+  ]
+ },
+ "summary": "In Feralas, the Beast Muisek Vessel can shrink a fallen beast and hold its muisek. The captured essence is needed to test the vessel.",
+ "sections": [
+  {
+   "title": "A Captured Essence",
+   "body": "Among Feralas\u2019s beasts, Ironfur Bears and Longtooth Runners can be captured with the Beast Muisek Vessel. When one falls, the vessel shrinks it and holds its muisek before the spirit can escape. The captured muisek is the measure of the vessel\u2019s power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Beast Muisek?",
+   "aliases": [
+    "beast muisek",
+    "muisek",
+    "beast essence"
+   ],
+   "answer": "Beast Muisek is the essence captured from a fallen beast with the Beast Muisek Vessel."
+  },
+  {
+   "q": "How do you get Beast Muisek?",
+   "aliases": [
+    "get beast muisek",
+    "where muisek from",
+    "capture muisek"
+   ],
+   "answer": "Use the Beast Muisek Vessel on a fallen Ironfur Bear or Longtooth Runner in Feralas."
+  },
+  {
+   "q": "What is it used for?",
+   "aliases": [
+    "beast muisek use",
+    "why capture beasts",
+    "testing the vessel"
+   ],
+   "answer": "Beast Muisek is needed to test the Beast Muisek Vessel."
+  },
+  {
+   "q": "Why capture a beast after it dies?",
+   "aliases": [
+    "why dead beasts",
+    "muisek spirits",
+    "spirit escape"
+   ],
+   "answer": "A creature\u2019s muisek may escape after a violent death. The vessel shrinks the fallen beast and captures its muisek before it can flee."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beast muisek",
+  "beast muisek vessel",
+  "feralas",
+  "ironfur bear",
+  "longtooth runner",
+  "muisek",
+  "testing the vessel"
+ ],
+ "related": [
+  "zone:feralas",
+  "item:beast-muisek-vessel",
+  "quest:3123"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Beast Muisek",
+  "Testing the Vessel (Classic)"
+ ]
+}

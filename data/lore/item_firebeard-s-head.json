@@ -1,0 +1,82 @@
+{
+ "key": "item:firebeard-s-head",
+ "type": "item",
+ "name": "Firebeard's Head",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Firebeard's Head",
+  "quests": [
+   "quest:2875"
+  ]
+ },
+ "summary": "Firebeard\u2019s Head is the proof demanded for Andre Firebeard\u2019s warrant at Steamwheedle Port. The port\u2019s law allows his head to stand in for him at trial.",
+ "sections": [
+  {
+   "title": "A Binding Warrant",
+   "body": "Security Chief Bilgewhizzle accepts Andre Firebeard\u2019s head as a proxy for his hearing. The warrant names the pirate for crimes against Steamwheedle and Gadgetzan. Once you bring the head to the port, Bilgewhizzle treats the contract as fulfilled and offers payment for your service.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the warrant ask for his head?",
+   "aliases": [
+    "andre head warrant",
+    "why his head",
+    "firebeard head"
+   ],
+   "answer": "The warrant says Andre Firebeard\u2019s head may serve as his proxy if he is dead or unable to attend his hearing. Security Chief Bilgewhizzle accepts it at Steamwheedle Port."
+  },
+  {
+   "q": "Who is Andre Firebeard?",
+   "aliases": [
+    "andre firebeard",
+    "firebeard pirate",
+    "who is andre"
+   ],
+   "answer": "Andre Firebeard is a pirate wanted for crimes against Steamwheedle and Gadgetzan."
+  },
+  {
+   "q": "Who takes Firebeard\u2019s Head?",
+   "aliases": [
+    "who wants the head",
+    "bilgewhizzle head",
+    "where bring andre head"
+   ],
+   "answer": "Security Chief Bilgewhizzle takes Andre Firebeard\u2019s head at Steamwheedle Port."
+  },
+  {
+   "q": "Where is Steamwheedle Port?",
+   "aliases": [
+    "steamwheedle location",
+    "tanaris port",
+    "where is the port"
+   ],
+   "answer": "Steamwheedle Port lies on the coast of Tanaris. Andre Firebeard\u2019s warrant is posted there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "andre firebeard",
+  "firebeard's head",
+  "gadgetzan",
+  "pirate",
+  "security chief bilgewhizzle",
+  "steamwheedle port",
+  "tanaris",
+  "wanted"
+ ],
+ "related": [
+  "quest:2875",
+  "subzone:steamwheedle-port",
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Firebeard's Head",
+  "WANTED: Andre Firebeard"
+ ]
+}

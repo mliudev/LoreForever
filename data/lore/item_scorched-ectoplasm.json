@@ -1,0 +1,97 @@
+{
+ "key": "item:scorched-ectoplasm",
+ "type": "item",
+ "name": "Scorched Ectoplasm",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Scorched Ectoplasm",
+  "quests": [
+   "quest:8924"
+  ]
+ },
+ "summary": "Scorched Ectoplasm is spectral matter gathered from tortured night elf spirits in Silithus. Mux Manascrambler needs it for his work with the dead.",
+ "sections": [
+  {
+   "title": "A Scorched Trace",
+   "body": "In Silithus, the tortured spirits of druids and Sentinels yield Scorched Ectoplasm. Mux Manascrambler, a goblin engineer in Gadgetzan, seeks it alongside other forms of ectoplasm. He believes their strange energies can reach souls that remain near the living world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Scorched Ectoplasm?",
+   "aliases": [
+    "scorched ectoplasm",
+    "what's scorched ectoplasm",
+    "ectoplasm item"
+   ],
+   "answer": "It is spectral matter taken from the tortured night elf spirits of Silithus."
+  },
+  {
+   "q": "Where does Scorched Ectoplasm come from?",
+   "aliases": [
+    "where scorched ectoplasm",
+    "scorched ectoplasm location",
+    "where get it"
+   ],
+   "answer": "Tortured Druids and Tortured Sentinels in Silithus yield Scorched Ectoplasm."
+  },
+  {
+   "q": "Why does Mux Manascrambler want it?",
+   "aliases": [
+    "why mux wants ectoplasm",
+    "mux ectoplasm",
+    "what's mux doing"
+   ],
+   "answer": "Mux Manascrambler hopes to use the otherworldly energies in ectoplasm to reach souls that remain near the living world."
+  },
+  {
+   "q": "What are the other kinds of ectoplasm?",
+   "aliases": [
+    "other ectoplasms",
+    "frozen and stable ectoplasm",
+    "ectoplasm types"
+   ],
+   "answer": "Frozen Ectoplasm comes from highborne spirits in Winterspring, while Stable Ectoplasm comes from ghosts and banshees in the Eastern Plaguelands."
+  },
+  {
+   "q": "Where can I find Mux Manascrambler?",
+   "aliases": [
+    "where is mux",
+    "mux location",
+    "gadgetzan goblin"
+   ],
+   "answer": "Mux Manascrambler can be found in Gadgetzan, in Tanaris."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize the Ectoplasmic Distiller as Mux Manascrambler's device for gathering spectral matter."
+  }
+ ],
+ "keywords": [
+  "ectoplasm",
+  "ectoplasmic distiller",
+  "gadgetzan",
+  "mux manascrambler",
+  "scorched ectoplasm",
+  "silithus",
+  "tortured druid",
+  "tortured sentinel"
+ ],
+ "related": [
+  "quest:8924",
+  "quest:8921",
+  "item:frozen-ectoplasm",
+  "item:stable-ectoplasm",
+  "zone:silithus",
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Scorched Ectoplasm",
+  "Hunting for Ectoplasm"
+ ]
+}

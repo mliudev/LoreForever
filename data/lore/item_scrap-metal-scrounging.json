@@ -1,0 +1,91 @@
+{
+ "key": "item:scrap-metal-scrounging",
+ "type": "item",
+ "name": "Scrap Metal",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Scrap Metal (Scrounging)",
+  "quests": [
+   "quest:733"
+  ]
+ },
+ "summary": "Scrap Metal is scavenged from the ogres of Dustbelch Grotto in the Badlands. Sigrun needs it to build defenses and supplies for a small camp.",
+ "sections": [
+  {
+   "title": "For the Camp",
+   "body": "Sigrun needs scrap metal for defenses and other necessities at the camp in the Badlands. The ogres at Dustbelch Grotto to the west carry it, and the camp has little to spare. Until word comes from Ironforge or the Explorers' League, every piece helps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is scrap metal for?",
+   "aliases": [
+    "scrap metal use",
+    "why collect scrap",
+    "metal for sigrun"
+   ],
+   "answer": "Sigrun needs scrap metal to construct defenses and other necessities for the camp in the Badlands."
+  },
+  {
+   "q": "Where can I find scrap metal?",
+   "aliases": [
+    "scrap metal location",
+    "where metal",
+    "dustbelch metal"
+   ],
+   "answer": "The ogres at Dustbelch Grotto, west of Sigrun's camp in the Badlands, carry scrap metal."
+  },
+  {
+   "q": "Who wants the scrap metal?",
+   "aliases": [
+    "who needs metal",
+    "sigrun scrap",
+    "metal for who"
+   ],
+   "answer": "Sigrun wants scrap metal to help supply and defend the camp."
+  },
+  {
+   "q": "Why is Sigrun gathering supplies?",
+   "aliases": [
+    "camp needs supplies",
+    "why scrounge",
+    "sigrun defenses"
+   ],
+   "answer": "Sigrun has few materials for the camp's defenses and other necessities, so she is gathering what she can."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you may know the camp is waiting for word from Ironforge while Sigrun makes do with the supplies at hand."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you can see why Sigrun needs scrap metal: the camp lacks materials for defenses and other necessities."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "camp",
+  "dustbelch grotto",
+  "explorers' league",
+  "ironforge",
+  "ogres",
+  "scrap metal",
+  "scrounging",
+  "sigrun"
+ ],
+ "related": [
+  "quest:733",
+  "zone:badlands",
+  "zone:ironforge",
+  "topic:explorers-league"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Scrap Metal (Scrounging)",
+  "Scrounging"
+ ]
+}

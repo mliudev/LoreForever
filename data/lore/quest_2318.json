@@ -1,0 +1,81 @@
+{
+ "key": "quest:2318",
+ "type": "quest",
+ "name": "Translating the Journal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2318
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A stranger in Kargath offers to translate the paladin\u2019s journal. They know you seek their help and propose a deal involving Dran Droffers.",
+ "sections": [
+  {
+   "title": "A Translator in Kargath",
+   "body": "In the Badlands, you look for someone who can translate the paladin\u2019s journal, and Kargath is the nearest place that might hold such a person. There, a stranger knows you seek a translation and the necklace parts from Uldaman. They claim to be the only one who can read the journal, then offer terms that would let you keep your agreement with Dran Droffers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find someone to translate the journal?",
+   "aliases": [
+    "journal translator",
+    "where translate journal",
+    "Kargath translator"
+   ],
+   "answer": "Kargath in the Badlands is the closest place that might have someone able to translate the paladin\u2019s journal."
+  },
+  {
+   "q": "Who says they can translate it?",
+   "aliases": [
+    "who translates journal",
+    "journal translator who",
+    "translator in Kargath"
+   ],
+   "answer": "A stranger in Kargath claims to be the only person you will find who can translate the paladin\u2019s journal."
+  },
+  {
+   "q": "What does the stranger know about me?",
+   "aliases": [
+    "what does he know",
+    "why know about necklace",
+    "Kargath stranger"
+   ],
+   "answer": "The stranger knows you are in the Badlands seeking their help and that you are after the necklace parts found in Uldaman."
+  },
+  {
+   "q": "What does this have to do with Dran Droffers?",
+   "aliases": [
+    "Dran Droffers deal",
+    "journal Dran",
+    "what about Droffers"
+   ],
+   "answer": "The stranger offers terms for translating the journal that they say would still let you complete your deal with Dran Droffers."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "dran droffers",
+  "journal translation",
+  "kargath",
+  "necklace",
+  "paladin's journal",
+  "translating the journal",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:kargath",
+  "zone:badlands",
+  "subzone:uldaman",
+  "topic:paladin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Translating the Journal"
+ ]
+}

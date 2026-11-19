@@ -21,6 +21,7 @@
 --     ["merchant:254081"] = {id, role, name, title, zone, sub, map, x, y, build}: where a merchant or trainer Lore Forever
 --     has no place for stands (Capture.OnSpot, LOR-1175), which Willo sends unless "Send what's new in Forever automatically"
 --     is off (companion/lore_companion/contribute.py); at most MAX_SPOTS }
+--   LoreForeverDB.world                    what drops in Forever's dungeons and their boss kills (World.lua, LOR-1586)
 -- Which game: the add-on also loads in Classic Era, its Anniversary, Season of Discovery and Hardcore realms and retail,
 -- whose text differs from Forever's (Mike, 11/1). Only Forever's text goes into Lore Forever: the site and the nightly
 -- import (lore.contrib) read each line's build, and keep out lines from any other client. A line keeps its own build
@@ -450,6 +451,7 @@ function Capture.Init()
   Capture.Prune()
   Capture.Refresh()
   Capture.Hook()
+  if ns.World then ns.World.Init() end   -- what drops in dungeons (World.lua): this client's build
 end
 
 -- Who saw a line and in which client, and whether Lore Forever lacks it (called as each line is kept).
@@ -773,11 +775,29 @@ function Capture.PlaceLog()
   if b then place(b, ns.Hooks.AtLogRow, ns.Hooks.questLogPlay, ns.Hooks.questLogButton) end
 end
 
+-- The book's page number, where its text is drawn (left and right), while it shows: a long "Next" (Suivant, Siguiente)
+-- brings the pill near it, and the Contribute button left of the pill would cover it.
+local function pageNumber()
+  local n = _G.ItemTextCurrentPage
+  if not (n and n:IsShown()) then return nil end
+  local cx = n:GetCenter()
+  if not cx then return nil end
+  local half = (n:GetStringWidth() or 0) / 2
+  return cx - half, cx + half, half
+end
+
 function Capture.PlaceBook()
   local b = buttons.book
-  if b then
-    place(b, function(x) x:SetPoint("TOPRIGHT", ItemTextFrame, "TOPRIGHT", -30, -32) end, ns.Hooks.bookButton)
+  if not b then return end
+  local pill, left, right, half = ns.Hooks.bookButton, pageNumber()
+  local pillLeft = left and pill and pill:IsShown() and pill:GetLeft()
+  if pillLeft and pillLeft - 4 - b:GetWidth() < right + 4 and pillLeft - 4 > left - 4 then
+    b.placed, b.beside = false, nil   -- (place puts it back beside the pill once the number is clear)
+    b:ClearAllPoints()
+    b:SetPoint("RIGHT", ItemTextCurrentPage, "CENTER", -half - 6, 0)
+    return
   end
+  place(b, ns.Hooks.AtBookRow, pill)
 end
 
 -- The buttons' places follow the Lore and play buttons (Hooks.lua).

@@ -1,0 +1,96 @@
+{
+ "key": "item:draenethyst-shard",
+ "type": "item",
+ "name": "Draenethyst Shard",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Draenethyst Shard",
+  "quests": [
+   "quest:1373"
+  ]
+ },
+ "summary": "A Draenethyst Shard is a red crystal brought from the Swamp of Sorrows to the Gelkis centaur in Desolace. Uthek the Wise seeks its magic to strengthen the Gelkis against their enemies.",
+ "sections": [
+  {
+   "title": "A Red Crystal",
+   "body": "Uthek the Wise speaks of draenethyst as new to the earth, carried from a distant land where demons rule. He asks you to bring him a shard from the Swamp of Sorrows, held by Ongeku, whom the Gelkis call the lost one. Uthek believes its magic can aid his people against their enemies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Draenethyst Shard?",
+   "aliases": [
+    "draenethyst",
+    "red crystal",
+    "what shard is this"
+   ],
+   "answer": "A Draenethyst Shard is a piece of red crystal that Uthek the Wise says came from a distant land ruled by demons."
+  },
+  {
+   "q": "Who wants the shard?",
+   "aliases": [
+    "who needs draenethyst",
+    "uthek shard",
+    "gelkis crystal"
+   ],
+   "answer": "Uthek the Wise of the Gelkis in Desolace wants the shard, believing its magic can strengthen his people."
+  },
+  {
+   "q": "Where do I find a Draenethyst Shard?",
+   "aliases": [
+    "where shard",
+    "ongeku shard",
+    "draenethyst location"
+   ],
+   "answer": "Ongeku holds a Draenethyst Shard in the Swamp of Sorrows."
+  },
+  {
+   "q": "Who is Ongeku?",
+   "aliases": [
+    "ongeku who",
+    "lost one",
+    "who has the crystal"
+   ],
+   "answer": "Ongeku is the lost one who holds the Draenethyst Shard in the Swamp of Sorrows."
+  },
+  {
+   "q": "Why does Uthek want it?",
+   "aliases": [
+    "why crystal",
+    "what does shard do",
+    "gelkis magic"
+   ],
+   "answer": "Uthek believes the shard's magic will strengthen him and help the Gelkis fight their enemies."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Gelkis seek the shard in the Swamp of Sorrows, near Stonard, a Horde town in the southern swamp."
+  }
+ ],
+ "keywords": [
+  "desolace",
+  "draenethyst",
+  "draenethyst shard",
+  "gelkis",
+  "ongeku",
+  "red crystal",
+  "swamp of sorrows",
+  "uthek the wise"
+ ],
+ "related": [
+  "quest:1373",
+  "zone:desolace",
+  "zone:swampofsorrows",
+  "subzone:gelkis-village",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Draenethyst Shard",
+  "Ongeku (quest)"
+ ]
+}

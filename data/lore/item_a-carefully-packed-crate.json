@@ -1,0 +1,98 @@
+{
+ "key": "item:a-carefully-packed-crate",
+ "type": "item",
+ "name": "A Carefully-packed Crate",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "A Carefully-packed Crate",
+  "quests": [
+   "quest:3022"
+  ]
+ },
+ "summary": "A Carefully-packed Crate carries eggs from Tanaris to Erelas Ambersky in Rut\u2019theran Village. The druid tends the eggs until they hatch and trains the young hippogryphs.",
+ "sections": [
+  {
+   "title": "The Shipment",
+   "body": "Erelas Ambersky cares for the eggs in Rut\u2019theran Village, a small village in southern Teldrassil. Once they hatch, he trains the young hippogryphs. He asks you to carry the crate safely from Tanaris, where Curgle provides the shipment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the crate?",
+   "aliases": [
+    "crate contents",
+    "what's inside",
+    "crate eggs"
+   ],
+   "answer": "The Carefully-packed Crate holds eggs for Erelas Ambersky to tend until they hatch."
+  },
+  {
+   "q": "Who is Erelas Ambersky?",
+   "aliases": [
+    "who's Erelas",
+    "Erelas",
+    "hippogryph druid"
+   ],
+   "answer": "Erelas Ambersky is a druid in Rut\u2019theran Village who cares for the eggs and trains the young hippogryphs."
+  },
+  {
+   "q": "Where does the crate go?",
+   "aliases": [
+    "where to take crate",
+    "crate destination",
+    "Rut'theran delivery"
+   ],
+   "answer": "The crate goes to Erelas Ambersky in Rut\u2019theran Village, a small village in southern Teldrassil."
+  },
+  {
+   "q": "Who sends the shipment?",
+   "aliases": [
+    "who packed it",
+    "Curgle crate",
+    "where from"
+   ],
+   "answer": "Curgle provides the shipment of eggs for Erelas Ambersky."
+  },
+  {
+   "q": "Why are the eggs being sent?",
+   "aliases": [
+    "why eggs",
+    "hippogryph eggs",
+    "what's the shipment for"
+   ],
+   "answer": "Erelas tends the eggs until they hatch, then trains the young hippogryphs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you know the work of tending living things. Erelas cares for the eggs and trains the young hippogryphs."
+  }
+ ],
+ "keywords": [
+  "carefully-packed crate",
+  "crate",
+  "curgle",
+  "eggs",
+  "erelas ambersky",
+  "hippogryph",
+  "hippogryph eggs",
+  "rut'theran village",
+  "tanaris"
+ ],
+ "related": [
+  "quest:3022",
+  "zone:tanaris",
+  "zone:feralas",
+  "quest:940",
+  "subzone:rut-theran-village",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: A Carefully-packed Crate",
+  "Handle With Care (Tanaris)"
+ ]
+}

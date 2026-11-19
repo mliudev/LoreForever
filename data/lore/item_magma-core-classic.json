@@ -1,0 +1,84 @@
+{
+ "key": "item:magma-core-classic",
+ "type": "item",
+ "name": "Magma Core",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Magma Core (Classic)",
+  "quests": [
+   "quest:8925"
+  ]
+ },
+ "summary": "The Magma Core is the heart of Magma Lord Bokk, an elemental in the Burning Steppes. Mux Manascrambler needs its steady heat to power an extra-dimensional ghost revealer.",
+ "sections": [
+  {
+   "title": "A Heart of Heat",
+   "body": "Magma Lord Bokk dwells in the Burning Steppes, south of Blackrock Mountain. His Magma Core holds an endless supply of heat. Mux Manascrambler in Gadgetzan seeks it to keep ectoplasm active and power an extra-dimensional ghost revealer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Magma Core?",
+   "aliases": [
+    "magma core",
+    "bokk's heart"
+   ],
+   "answer": "The Magma Core is the heart of Magma Lord Bokk, a mighty elemental in the Burning Steppes. It holds a powerful supply of heat."
+  },
+  {
+   "q": "Who wants the Magma Core?",
+   "aliases": [
+    "who needs magma core",
+    "mux power source"
+   ],
+   "answer": "Mux Manascrambler in Gadgetzan wants the Magma Core to power an extra-dimensional ghost revealer."
+  },
+  {
+   "q": "Where is Magma Lord Bokk?",
+   "aliases": [
+    "where's bokk",
+    "bokk location"
+   ],
+   "answer": "Magma Lord Bokk can be found in the Burning Steppes, south of Blackrock Mountain."
+  },
+  {
+   "q": "Why does Mux need it?",
+   "aliases": [
+    "why magma core",
+    "ghost revealer power"
+   ],
+   "answer": "Mux needs a stable, portable source of energy to keep ectoplasm active and power his extra-dimensional ghost revealer."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize why Mux wants a portable source of power: he means to use the Magma Core to run an extra-dimensional ghost revealer."
+  }
+ ],
+ "keywords": [
+  "bokk",
+  "burning steppes",
+  "ectoplasm",
+  "gadgetzan",
+  "ghost revealer",
+  "magma core",
+  "magma lord bokk",
+  "mux manascrambler",
+  "portable power source"
+ ],
+ "related": [
+  "quest:8925",
+  "subzone:blackrock-mountain",
+  "zone:burningsteppes",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Magma Core (Classic)",
+  "A Portable Power Source"
+ ]
+}

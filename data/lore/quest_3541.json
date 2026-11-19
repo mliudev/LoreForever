@@ -1,0 +1,74 @@
+{
+ "key": "quest:3541",
+ "type": "quest",
+ "name": "Delivery to Jes'rimon",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3541
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jediga sends you with the Tablet of Jin'yael to Jes'rimon in Orgrimmar. He is waiting for the delivery from Azshara.",
+ "sections": [
+  {
+   "title": "Jes'rimon's Delivery",
+   "body": "The tablet reaches Jes'rimon in Orgrimmar from Azshara, sent by Jediga. He says he has been waiting for it and admires Jediga as both a fine woman and a deadly one. The Tablet of Jin'yael is in perfect condition, and Jes'rimon praises you as a good messenger.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent the tablet?",
+   "aliases": [
+    "who sent it",
+    "tablet sender"
+   ],
+   "answer": "Jediga sent the Tablet of Jin'yael from Azshara to Jes'rimon in Orgrimmar."
+  },
+  {
+   "q": "Who is Jes'rimon?",
+   "aliases": [
+    "jesrimon who",
+    "who's jes'rimon"
+   ],
+   "answer": "Jes'rimon is the recipient waiting for Jediga's package in Orgrimmar."
+  },
+  {
+   "q": "What is in the package?",
+   "aliases": [
+    "what package",
+    "tablet delivery"
+   ],
+   "answer": "The package is the Tablet of Jin'yael, which Jes'rimon receives in perfect condition."
+  },
+  {
+   "q": "What does Jes'rimon think of Jediga?",
+   "aliases": [
+    "jediga opinion",
+    "jediga backstory"
+   ],
+   "answer": "Jes'rimon calls Jediga a fine woman and says she is deadly."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "delivery to jes'rimon",
+  "jediga",
+  "jes'rimon",
+  "messenger",
+  "orgrimmar",
+  "tablet of jin'yael"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "zone:azshara"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Delivery to Jes'rimon"
+ ]
+}

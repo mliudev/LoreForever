@@ -1,0 +1,97 @@
+{
+ "key": "item:captain-s-documents",
+ "type": "item",
+ "name": "Captain's Documents",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Captain's Documents",
+  "quests": [
+   "quest:1202"
+  ]
+ },
+ "summary": "The Captain's Documents are papers recovered from beneath Theramore's docks. Nazeer Bloodpike values them for what they may reveal about Theramore and the Alliance.",
+ "sections": [
+  {
+   "title": "Beneath the Docks",
+   "body": "Brackenwall Village spies sought papers aboard a ship at Theramore Isle. When they were discovered, one cast the documents into a footlocker and threw it beneath the docks. Nazeer Bloodpike now sends you to recover the papers, which he believes may bear on the Horde's security.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Captain's Documents?",
+   "aliases": [
+    "captain documents",
+    "those papers",
+    "documents from theramore"
+   ],
+   "answer": "They are papers taken from a ship at Theramore Isle by Brackenwall Village spies. They were thrown into the waters beneath the docks when the spies were discovered."
+  },
+  {
+   "q": "Why does Nazeer want the documents?",
+   "aliases": [
+    "why does nazeer need them",
+    "what are the papers for",
+    "horde documents"
+   ],
+   "answer": "Nazeer Bloodpike believes the papers hold information about Theramore's ties to the Alliance, and that this knowledge matters to the Horde's security."
+  },
+  {
+   "q": "Where were the documents found?",
+   "aliases": [
+    "where are the papers",
+    "captain footlocker",
+    "theramore docks papers"
+   ],
+   "answer": "The documents were sealed in a footlocker beneath the docks of Theramore Isle."
+  },
+  {
+   "q": "Who sent the spies to Theramore?",
+   "aliases": [
+    "who sent them",
+    "brackenwall spies",
+    "theramore spies"
+   ],
+   "answer": "The spies came from Brackenwall Village. Nazeer Bloodpike directs the effort to recover the papers."
+  },
+  {
+   "q": "What do the papers say?",
+   "aliases": [
+    "what's in the documents",
+    "captain's papers contents",
+    "theramore alliance relations"
+   ],
+   "answer": "The papers are written in Common, and Nazeer keeps their contents to himself. Their precise account of Theramore's ties to the Alliance remains unknown."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you are sent to recover papers that Nazeer believes may reveal Theramore's standing with the Alliance and help protect Horde interests."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "brackenwall village",
+  "captain documents",
+  "captain's documents",
+  "common",
+  "footlocker",
+  "nazeer bloodpike",
+  "theramore",
+  "theramore docks"
+ ],
+ "related": [
+  "quest:1202",
+  "quest:1201",
+  "subzone:theramore-isle",
+  "subzone:brackenwall-village",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Captain's Documents",
+  "The Theramore Docks"
+ ]
+}

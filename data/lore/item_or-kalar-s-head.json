@@ -1,0 +1,82 @@
+{
+ "key": "item:or-kalar-s-head",
+ "type": "item",
+ "name": "Or'Kalar's Head",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Or'Kalar's Head",
+  "quests": [
+   "quest:680"
+  ]
+ },
+ "summary": "Or'Kalar's Head is proof that Hammerfall's attacks have a dangerous source. Korin Fel asks you to bring it to her at the outpost.",
+ "sections": [
+  {
+   "title": "A Threat at Hammerfall",
+   "body": "Korin Fel sends you to find Or'Kalar near the Tower of Arathor. The ogre serves Mug'thol in Stromgarde and bears a fierce hatred for Korin's husband, who defeated him years ago. Korin believes Or'Kalar has laid a trap for her husband. She asks you to slay him and bring his head to Hammerfall.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Or'Kalar?",
+   "aliases": [
+    "or kalar",
+    "or'kalar identity"
+   ],
+   "answer": "Or'Kalar is an ogre in Stromgarde who serves Mug'thol and hates Korin Fel's husband for defeating him years ago."
+  },
+  {
+   "q": "Why does Korin Fel want Or'Kalar dead?",
+   "aliases": [
+    "why kill or'kalar",
+    "korin's request"
+   ],
+   "answer": "Korin believes Or'Kalar has laid a trap for her husband and wants the ogre slain to protect him and Hammerfall."
+  },
+  {
+   "q": "Where can I find Or'Kalar?",
+   "aliases": [
+    "or'kalar location",
+    "tower ogre"
+   ],
+   "answer": "Or'Kalar is near the Tower of Arathor in the Arathi Highlands."
+  },
+  {
+   "q": "Who receives Or'Kalar's Head?",
+   "aliases": [
+    "where take head",
+    "korin fel head"
+   ],
+   "answer": "Korin Fel receives Or'Kalar's Head at the Hammerfall outpost."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can help protect Hammerfall and Korin Fel's husband from Or'Kalar's attack."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "hammerfall",
+  "korin fel",
+  "mug'thol",
+  "or'kalar",
+  "or'kalar's head",
+  "stromgarde",
+  "tower of arathor"
+ ],
+ "related": [
+  "quest:680",
+  "subzone:tower-of-arathor",
+  "subzone:hammerfall",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Or'Kalar's Head",
+  "The Real Threat (Classic)"
+ ]
+}

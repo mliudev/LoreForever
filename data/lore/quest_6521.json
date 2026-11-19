@@ -1,0 +1,95 @@
+{
+ "key": "quest:6521",
+ "type": "quest",
+ "name": "An Unholy Alliance",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6521
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Varimathras sends you to confront Ambassador Malcin outside Razorfen Downs. The envoy's presence may explain the strange strength and Plague signs among some quilboar.",
+ "sections": [
+  {
+   "title": "The Envoy",
+   "body": "Varimathras waits in the Undercity with a charge for you. Outside Razorfen Downs, Ambassador Malcin's presence may explain why some quilboar have grown powerful and show signs of the Plague. Varimathras calls the envoy's mission a failure in the Lich King's eyes, and demands his death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to find Malcin?",
+   "aliases": [
+    "who sent me",
+    "varimathras request"
+   ],
+   "answer": "Varimathras in the Undercity asks you to find Ambassador Malcin outside Razorfen Downs."
+  },
+  {
+   "q": "Who is Ambassador Malcin?",
+   "aliases": [
+    "malcin who",
+    "ambassador malcin"
+   ],
+   "answer": "Ambassador Malcin is an envoy outside Razorfen Downs whose presence may explain the strange strength and Plague signs among some quilboar."
+  },
+  {
+   "q": "Why does Varimathras want Malcin dead?",
+   "aliases": [
+    "why kill malcin",
+    "malcin mission"
+   ],
+   "answer": "Varimathras says Malcin's mission is a failure in the Lich King's eyes."
+  },
+  {
+   "q": "What is happening to the quilboar?",
+   "aliases": [
+    "quilboar plague",
+    "why quilboar powerful"
+   ],
+   "answer": "Some quilboar have grown unusually powerful and show signs of the Plague in their own way."
+  },
+  {
+   "q": "Where is Malcin?",
+   "aliases": [
+    "malcin location",
+    "find malcin"
+   ],
+   "answer": "Varimathras says Ambassador Malcin is outside Razorfen Downs."
+  },
+  {
+   "q": "What does Varimathras ask me to bring back?",
+   "aliases": [
+    "malcin head",
+    "what bring varimathras"
+   ],
+   "answer": "Varimathras asks you to bring him Ambassador Malcin's head in the Undercity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ambassador malcin",
+  "an unholy alliance",
+  "lich king",
+  "plague",
+  "quilboar",
+  "razorfen downs",
+  "undercity",
+  "varimathras"
+ ],
+ "related": [
+  "npc:varimathras",
+  "zone:undercity",
+  "subzone:razorfen-downs-classic",
+  "topic:quilboar",
+  "topic:razorfen",
+  "topic:lich-king"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Unholy Alliance"
+ ]
+}

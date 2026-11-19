@@ -1,0 +1,87 @@
+{
+ "key": "item:bonegrip-s-note",
+ "type": "item",
+ "name": "Bonegrip's Note",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Bonegrip's Note",
+  "quests": [
+   "quest:735"
+  ]
+ },
+ "summary": "Gerrig Bonegrip writes down three relics he needs in the Badlands. The note lets him keep their names from unwelcome ears.",
+ "sections": [
+  {
+   "title": "Written Names",
+   "body": "Gerrig Bonegrip asks you to bring three items of power to him in Ironforge. He will not speak their names aloud, for ears may be listening. Instead, he writes them on Bonegrip's Note and gives it to you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Bonegrip's Note?",
+   "aliases": [
+    "bonegrip note",
+    "what's the note",
+    "bonegrip's paper"
+   ],
+   "answer": "Bonegrip's Note is a written list of three items of power Gerrig Bonegrip needs."
+  },
+  {
+   "q": "Who wrote the note?",
+   "aliases": [
+    "who made this note",
+    "gerrig's note",
+    "who's bonegrip"
+   ],
+   "answer": "Gerrig Bonegrip wrote the note so he would not have to speak the relics' names aloud."
+  },
+  {
+   "q": "What does Gerrig need?",
+   "aliases": [
+    "what items are listed",
+    "three relics",
+    "what's on the note"
+   ],
+   "answer": "Gerrig needs the Star of Xil'yeh, the Hand of Dagun, and the Legacy Heart."
+  },
+  {
+   "q": "Why are the names written down?",
+   "aliases": [
+    "why won't he say them",
+    "ears on us",
+    "secret item names"
+   ],
+   "answer": "Gerrig says ears may be listening, so he writes down the relics' names instead of speaking them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can carry Gerrig's written request from the Badlands to him in Ironforge."
+  }
+ ],
+ "keywords": [
+  "bonegrip's note",
+  "gerrig bonegrip",
+  "hand of dagun",
+  "ironforge",
+  "legacy heart",
+  "star of xil'yeh",
+  "three relics"
+ ],
+ "related": [
+  "npc:gerrig-bonegrip",
+  "quest:736",
+  "item:hand-of-dagun",
+  "item:star-of-xil-yeh",
+  "item:the-legacy-heart",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bonegrip's Note",
+  "The Star, the Hand and the Heart (Alliance)"
+ ]
+}

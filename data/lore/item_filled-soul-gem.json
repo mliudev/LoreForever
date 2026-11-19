@@ -1,0 +1,83 @@
+{
+ "key": "item:filled-soul-gem",
+ "type": "item",
+ "name": "Filled Soul Gem",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Filled Soul Gem",
+  "quests": [
+   "quest:592"
+  ]
+ },
+ "summary": "The Filled Soul Gem holds Yenniku's soul after the Soul Gem is used on him. Nimboya asks you to bring it back to Grom'gol.",
+ "sections": [
+  {
+   "title": "A Soul Restored",
+   "body": "At the Ruins of Aboraz on the Cape of Stranglethorn, the Soul Gem is placed upon Yenniku's head to capture his soul. Bring the filled gem to Nimboya in Grom'gol, where his people await his return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Filled Soul Gem?",
+   "aliases": [
+    "filled gem",
+    "soul gem with yenniku",
+    "what's in the gem"
+   ],
+   "answer": "The Filled Soul Gem contains Yenniku's soul, captured with the Soul Gem at the Ruins of Aboraz."
+  },
+  {
+   "q": "Who is Yenniku?",
+   "aliases": [
+    "yenniku story",
+    "who's yenniku",
+    "yenniku"
+   ],
+   "answer": "Yenniku is a member of Nimboya's tribe who is held under Zanzil the Outcast's will."
+  },
+  {
+   "q": "Where do I take the gem?",
+   "aliases": [
+    "where gem go",
+    "bring gem where",
+    "nimboya gem"
+   ],
+   "answer": "Bring the Filled Soul Gem to Nimboya at Grom'gol."
+  },
+  {
+   "q": "How was the Soul Gem made?",
+   "aliases": [
+    "mind's eye gem",
+    "how fill soul gem",
+    "soul gem recipe"
+   ],
+   "answer": "Kin'weelay reshaped the Mind's Eye into a Soul Gem, which captures Yenniku's soul."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "filled soul gem",
+  "grom'gol",
+  "kin'weelay",
+  "mind's eye",
+  "nimboya",
+  "soul gem",
+  "yenniku",
+  "zanzil"
+ ],
+ "related": [
+  "item:mind-s-eye",
+  "quest:592",
+  "quest:593",
+  "npc:kin-weelay",
+  "subzone:ruins-of-aboraz",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Filled Soul Gem",
+  "Saving Yenniku (Classic)"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "item:caliph-scorpidsting-s-head",
+ "type": "item",
+ "name": "Caliph Scorpidsting's Head",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Caliph Scorpidsting's Head",
+  "quests": [
+   "quest:2781"
+  ]
+ },
+ "summary": "Caliph Scorpidsting's Head is proof sought by the Gadgetzan Water Company. Chief Engineer Bilgewhizzle offers a bounty for it in Gadgetzan.",
+ "sections": [
+  {
+   "title": "A Bounty in Gadgetzan",
+   "body": "The Gadgetzan Water Company names Caliph Scorpidsting as leader of the Wastewander outlaws. It accuses his band of murdering its employees, stealing its resources, and seizing its property. The company offers a high bounty for proof of his demise. Chief Engineer Bilgewhizzle receives the head in Gadgetzan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Caliph Scorpidsting's head?",
+   "aliases": [
+    "who wants the head",
+    "who pays for it"
+   ],
+   "answer": "The Gadgetzan Water Company offers a bounty for proof of Caliph Scorpidsting's demise. Chief Engineer Bilgewhizzle receives the head in Gadgetzan."
+  },
+  {
+   "q": "Why is Scorpidsting wanted?",
+   "aliases": [
+    "why wanted",
+    "what did he do"
+   ],
+   "answer": "The Gadgetzan Water Company accuses Caliph Scorpidsting and his Wastewander outlaws of murdering its employees, stealing its resources, and seizing its property."
+  },
+  {
+   "q": "Who is Caliph Scorpidsting?",
+   "aliases": [
+    "scorpidsting",
+    "wastewander leader"
+   ],
+   "answer": "Caliph Scorpidsting leads the Wastewander outlaws in Tanaris."
+  },
+  {
+   "q": "Where do I bring his head?",
+   "aliases": [
+    "where to take head",
+    "bilgewhizzle"
+   ],
+   "answer": "Bring Caliph Scorpidsting's Head to Chief Engineer Bilgewhizzle in Gadgetzan."
+  },
+  {
+   "q": "What is the head proof of?",
+   "aliases": [
+    "proof of demise",
+    "why the head"
+   ],
+   "answer": "The head is proof of Caliph Scorpidsting's demise, which the Gadgetzan Water Company seeks for its bounty."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bilgewhizzle",
+  "bounty",
+  "caliph scorpidsting",
+  "gadgetzan water company",
+  "scorpidsting's head",
+  "tanaris",
+  "wanted",
+  "wastewander"
+ ],
+ "related": [
+  "quest:2781",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Caliph Scorpidsting's Head",
+  "WANTED: Caliph Scorpidsting"
+ ]
+}

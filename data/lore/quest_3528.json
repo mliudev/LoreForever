@@ -1,0 +1,77 @@
+{
+ "key": "quest:3528",
+ "type": "quest",
+ "name": "The God Hakkar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3528
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Yeh'kinya asks you to bring him Hakkar's filled egg in Tanaris. Its stirring life raises a fear about the god's return.",
+ "sections": [
+  {
+   "title": "Yeh'kinya's Concern",
+   "body": "After Hakkar's essence has empowered the egg, Yeh'kinya in Tanaris receives it from you. The egg stirs with life, and he wonders whether the myths of Hakkar are true. He fears what Hakkar might do if born again, so he intends to keep the egg from evil hands.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the egg?",
+   "aliases": [
+    "who wants the egg",
+    "yehkinya egg",
+    "egg guy"
+   ],
+   "answer": "Yeh'kinya asks you to bring him the Filled Egg of Hakkar in Tanaris."
+  },
+  {
+   "q": "What is the Filled Egg of Hakkar?",
+   "aliases": [
+    "hakkar egg",
+    "filled egg",
+    "what egg"
+   ],
+   "answer": "The egg holds Hakkar's essence, and it stirs with life."
+  },
+  {
+   "q": "Why does Yeh'kinya want the egg?",
+   "aliases": [
+    "why egg",
+    "yehkinya wants egg",
+    "what's he doing with it"
+   ],
+   "answer": "Yeh'kinya fears what Hakkar may do if born again, so he plans to keep the egg from evil hands."
+  },
+  {
+   "q": "What happens to Hakkar's essence?",
+   "aliases": [
+    "hakkar essence",
+    "essence egg",
+    "did essence empower it"
+   ],
+   "answer": "Hakkar's essence empowers the egg, which then stirs with life."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "avatar",
+  "filled egg",
+  "hakkar",
+  "hakkar's essence",
+  "tanaris",
+  "yeh'kinya"
+ ],
+ "related": [
+  "zone:tanaris",
+  "npc:yeh-kinya"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The God Hakkar"
+ ]
+}

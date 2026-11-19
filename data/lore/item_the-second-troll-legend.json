@@ -1,0 +1,88 @@
+{
+ "key": "item:the-second-troll-legend",
+ "type": "item",
+ "name": "The Second Troll Legend",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "The Second Troll Legend",
+  "quests": [
+   "quest:207"
+  ]
+ },
+ "summary": "The Second Troll Legend lies on a tablet in the drowned ruins of Vile Reef, off Stranglethorn Vale. Brother Nimetz seeks its markings as part of his inquiry into Colonel Kurzen\u2019s fall.",
+ "sections": [
+  {
+   "title": "Gri\u2019lek the Wanderer",
+   "body": "Far beneath the water at Vile Reef, the Second Troll Legend marks one of the ruins\u2019 stone tablets. Its name is Gri\u2019lek the Wanderer. Brother Nimetz asks for its markings alongside three other troll legends, hoping they may shed light on Colonel Kurzen\u2019s corruption.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Second Troll Legend?",
+   "aliases": [
+    "second troll legend location",
+    "where's gri'lek",
+    "gri'lek tablet"
+   ],
+   "answer": "The Second Troll Legend is on a tablet called Gri\u2019lek the Wanderer in the drowned ruins of Vile Reef, off Stranglethorn Vale."
+  },
+  {
+   "q": "Who wants the legend?",
+   "aliases": [
+    "who needs this legend",
+    "brother nimetz tablet",
+    "nimetz legends"
+   ],
+   "answer": "Brother Nimetz at Rebel Camp seeks the Second Troll Legend and three other tablet inscriptions for his inquiry into Colonel Kurzen."
+  },
+  {
+   "q": "Why is Brother Nimetz collecting troll legends?",
+   "aliases": [
+    "why collect troll tablets",
+    "kurzen mystery why",
+    "kurzen's mystery"
+   ],
+   "answer": "Brother Nimetz hopes the troll legends will help explain what caused Colonel Kurzen\u2019s fall into depravity."
+  },
+  {
+   "q": "What is Gri\u2019lek the Wanderer?",
+   "aliases": [
+    "gri'lek wanderer",
+    "gri'lek tablet",
+    "second tablet name"
+   ],
+   "answer": "Gri\u2019lek the Wanderer is the stone tablet that bears the Second Troll Legend in Vile Reef."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Brother Nimetz, an Alliance scholar at Rebel Camp, seeks these inscriptions to investigate Colonel Kurzen\u2019s corruption."
+  }
+ ],
+ "keywords": [
+  "brother nimetz",
+  "colonel kurzen",
+  "gri'lek the wanderer",
+  "kurzen's mystery",
+  "second troll legend",
+  "stranglethorn",
+  "troll tablet",
+  "vile reef"
+ ],
+ "related": [
+  "item:the-first-troll-legend",
+  "item:the-third-troll-legend",
+  "item:the-fourth-troll-legend",
+  "quest:207",
+  "subzone:vile-reef",
+  "subzone:rebel-camp"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: The Second Troll Legend",
+  "Kurzen's Mystery"
+ ]
+}

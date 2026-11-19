@@ -1,0 +1,85 @@
+{
+ "key": "item:huntsman-malkhor-s-bones",
+ "type": "item",
+ "name": "Huntsman Malkhor's Bones",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Huntsman Malkhor's Bones",
+  "quests": [
+   "quest:7849"
+  ]
+ },
+ "summary": "Huntsman Malkhor's Bones are remains found in a sludge pit at Jintha'alor. Huntsman Markhor seeks them so his twin brother can receive a proper burial.",
+ "sections": [
+  {
+   "title": "A Brother's Remains",
+   "body": "At Jintha'alor in the Hinterlands, Huntsman Malkhor's Bones lie in a refuse pit among the Vilebranch's oozes. Huntsman Markhor asks you to recover them with his brother's skull. He hopes to take the remains to Yayo'jin for a proper burial.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are Malkhor's bones?",
+   "aliases": [
+    "malkhor bones location",
+    "where find the bones"
+   ],
+   "answer": "Huntsman Malkhor's Bones lie in a sludge pit at Jintha'alor, near the top of the temple."
+  },
+  {
+   "q": "Who wants Malkhor's bones?",
+   "aliases": [
+    "who needs the bones",
+    "markhor brother bones"
+   ],
+   "answer": "Huntsman Markhor at Revantusk Village wants his twin brother's remains so he can arrange a proper burial."
+  },
+  {
+   "q": "Who was Malkhor?",
+   "aliases": [
+    "malkhor backstory",
+    "markhor twin"
+   ],
+   "answer": "Huntsman Malkhor was Huntsman Markhor's twin brother. The Vilebranch captured and killed him in a raid."
+  },
+  {
+   "q": "Why recover the bones?",
+   "aliases": [
+    "why bones matter",
+    "malkhor burial"
+   ],
+   "answer": "Markhor hopes to take Malkhor's remains to Yayo'jin for a proper burial."
+  },
+  {
+   "q": "What happened to Malkhor's remains?",
+   "aliases": [
+    "malkhor remains",
+    "what happened to his bones"
+   ],
+   "answer": "The Vilebranch fed Malkhor's remains to the oozes and wolves at Jintha'alor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hinterlands",
+  "huntsman malkhor's bones",
+  "huntsman markhor",
+  "jintha'alor",
+  "malkhor",
+  "separation anxiety",
+  "sludge pit",
+  "twin brother",
+  "vilebranch"
+ ],
+ "related": [
+  "quest:7849",
+  "item:huntsman-malkhor-s-skull",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Huntsman Malkhor's Bones",
+  "Wowpedia: Separation Anxiety (quest)"
+ ]
+}

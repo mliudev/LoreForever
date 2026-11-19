@@ -1,0 +1,83 @@
+{
+ "key": "quest:94312",
+ "type": "quest",
+ "name": "Craftsman's Writ: Orange Martial Shirt",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94312
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A customer's writ requests an Orange Martial Shirt and gives delivery and payment details. The writ can pass from hand to hand.",
+ "sections": [
+  {
+   "title": "The Delivery",
+   "body": "The note gives the delivery place and payment terms. You need the writ with you to complete the exchange, and the requested shirt is an Orange Martial Shirt.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "orange shirt writ",
+    "what shirt",
+    "craftsman writ"
+   ],
+   "answer": "The customer requests one Orange Martial Shirt."
+  },
+  {
+   "q": "Where do I deliver the shirt?",
+   "aliases": [
+    "delivery place",
+    "where to take it",
+    "writ location"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "What do I need for the transaction?",
+   "aliases": [
+    "what to bring",
+    "need the writ",
+    "how to complete"
+   ],
+   "answer": "You need the requested shirt and the writ in your possession."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "payment details",
+    "how much pay",
+    "payment"
+   ],
+   "answer": "The note includes information about payment."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "pass the writ",
+    "transferable writ",
+    "give writ away"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "orange martial shirt",
+  "payment",
+  "shirt",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Orange Martial Shirt"
+ ]
+}

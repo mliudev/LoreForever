@@ -1,0 +1,92 @@
+{
+ "key": "item:water-elemental-bracers",
+ "type": "item",
+ "name": "Water Elemental Bracers",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Water Elemental Bracers",
+  "quests": [
+   "quest:601"
+  ]
+ },
+ "summary": "Water Elemental Bracers are magical remains taken from lesser water elementals on the Haunted Isle. Baron Revilgaz wants specimens examined for a way to counter the Stone of the Tides\u2019 curse.",
+ "sections": [
+  {
+   "title": "Island Specimens",
+   "body": "The Haunted Isle in northern Stranglethorn is home to lesser water elementals, whose bracers hold magical residue. Baron Revilgaz asks you to bring him six specimens from the island. He hopes a mage in Dalaran can study them and find a way to counter the Stone of the Tides\u2019 curse.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Water Elemental Bracers come from?",
+   "aliases": [
+    "where bracers from",
+    "water bracer source"
+   ],
+   "answer": "Lesser water elementals on the Haunted Isle in northern Stranglethorn carry Water Elemental Bracers."
+  },
+  {
+   "q": "Who wants these bracers?",
+   "aliases": [
+    "who needs bracers",
+    "revilgaz bracers"
+   ],
+   "answer": "Baron Revilgaz in Booty Bay wants six Water Elemental Bracers so a mage in Dalaran can examine their magical residue."
+  },
+  {
+   "q": "Why does Revilgaz want the bracers?",
+   "aliases": [
+    "why bracers",
+    "stone tides curse"
+   ],
+   "answer": "Revilgaz hopes a mage in Dalaran can study the bracers\u2019 magical residue and find a way to counter the Stone of the Tides\u2019 curse."
+  },
+  {
+   "q": "What is the Stone of the Tides?",
+   "aliases": [
+    "stone tides",
+    "what stone"
+   ],
+   "answer": "The Stone of the Tides is said to curse its bearer, causing them to fade in and out of existence."
+  },
+  {
+   "q": "How many bracers does Revilgaz need?",
+   "aliases": [
+    "bracers count",
+    "how many"
+   ],
+   "answer": "Baron Revilgaz asks for six Water Elemental Bracers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you may be asked to study the magical residue on these bracers for a way to counter the Stone of the Tides\u2019 curse."
+  }
+ ],
+ "keywords": [
+  "baron revilgaz",
+  "bracers",
+  "dalaran",
+  "haunted isle",
+  "lesser water elementals",
+  "stone of the tides",
+  "stranglethorn",
+  "water elemental bracers"
+ ],
+ "related": [
+  "quest:601",
+  "quest:578",
+  "item:stone-of-the-tides",
+  "subzone:booty-bay",
+  "subzone:dalaran",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Water Elemental Bracers",
+  "Water Elementals (Classic)"
+ ]
+}

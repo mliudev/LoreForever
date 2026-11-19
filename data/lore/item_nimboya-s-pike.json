@@ -1,0 +1,83 @@
+{
+ "key": "item:nimboya-s-pike",
+ "type": "item",
+ "name": "Nimboya's Pike",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Nimboya's Pike",
+  "quests": [
+   "quest:2932"
+  ]
+ },
+ "summary": "Nimboya\u2019s Pike is a weapon Nimboya lends for a grim message to the Witherbark trolls of the Hinterlands. Their betrayal of Thrall has brought the Horde\u2019s anger to their villages.",
+ "sections": [
+  {
+   "title": "A Grim Message",
+   "body": "In Stranglethorn, Nimboya gives you his pike and sends you north to the Hinterlands. The Witherbark trolls once stood with the Horde, but they betrayed Thrall. Nimboya means for them to see that betrayal answered. He names Hiri\u2019watha and Zun\u2019watha as places where his message may be left.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nimboya\u2019s Pike for?",
+   "aliases": [
+    "nimboyas pike",
+    "pike for who"
+   ],
+   "answer": "Nimboya lends the pike so you can carry his message to the Witherbark trolls in the Hinterlands."
+  },
+  {
+   "q": "Why does Nimboya want to punish the Witherbarks?",
+   "aliases": [
+    "why punish witherbark",
+    "withercark betrayal"
+   ],
+   "answer": "The Witherbark trolls were once allies to the Horde, but they betrayed Thrall."
+  },
+  {
+   "q": "Where should I take the pike?",
+   "aliases": [
+    "where pike go",
+    "hinterlands pike"
+   ],
+   "answer": "Nimboya sends you to the Hinterlands, northeast of Tarren Mill, to leave the message at Hiri\u2019watha or Zun\u2019watha."
+  },
+  {
+   "q": "What is Nimboya\u2019s Laden Pike?",
+   "aliases": [
+    "laden pike",
+    "skull pike"
+   ],
+   "answer": "It is Nimboya\u2019s Pike bearing Witherbark skulls, meant to be placed in one of their villages as a grim message."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The pike carries the Horde\u2019s anger toward the Witherbarks for betraying Thrall, once their ally."
+  }
+ ],
+ "keywords": [
+  "grim message",
+  "hinterlands",
+  "horde",
+  "laden pike",
+  "nimboya",
+  "nimboya's pike",
+  "pike",
+  "thrall",
+  "witherbark"
+ ],
+ "related": [
+  "quest:2932",
+  "zone:hinterlands",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Nimboya's Pike",
+  "Wowpedia: Grim Message"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "item:vimes-report",
+ "type": "item",
+ "name": "Vimes' Report",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Vimes' Report",
+  "quests": [
+   "quest:1288"
+  ]
+ },
+ "summary": "Vimes' Report carries an update on a delicate situation to Lady Jaina Proudmoore in Theramore. Vimes entrusts its delivery to someone better placed to answer her questions.",
+ "sections": [
+  {
+   "title": "A Delicate Situation",
+   "body": "Vimes has kept Lady Jaina Proudmoore informed about a delicate situation, though he has not spoken with her for some time. He entrusts his report to you, believing you can answer her questions better than he can.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Vimes' Report?",
+   "aliases": [
+    "vimes report",
+    "report item"
+   ],
+   "answer": "Vimes' Report is an update on a delicate situation, meant for Lady Jaina Proudmoore."
+  },
+  {
+   "q": "Who is the report for?",
+   "aliases": [
+    "who gets the report",
+    "report recipient"
+   ],
+   "answer": "The report is for Lady Jaina Proudmoore in Theramore."
+  },
+  {
+   "q": "Why does Vimes ask me to deliver it?",
+   "aliases": [
+    "why me",
+    "vimes delivery"
+   ],
+   "answer": "Vimes believes you can answer Lady Jaina's questions better than he can."
+  },
+  {
+   "q": "What does the report say?",
+   "aliases": [
+    "report contents",
+    "what's in it"
+   ],
+   "answer": "The report concerns a delicate situation, but its details are not stated here."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "delicate situation",
+  "dustwallow marsh",
+  "jaina",
+  "jaina proudmoore",
+  "theramore",
+  "vimes",
+  "vimes' report"
+ ],
+ "related": [
+  "quest:1288",
+  "npc:jaina-proudmoore",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Vimes' Report",
+  "Wowpedia: Vimes's Report"
+ ]
+}

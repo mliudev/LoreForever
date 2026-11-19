@@ -1,0 +1,79 @@
+{
+ "key": "item:shay-s-bell",
+ "type": "item",
+ "name": "Shay's Bell",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Shay's Bell",
+  "quests": [
+   "quest:2845"
+  ]
+ },
+ "summary": "Shay\u2019s Bell is a cherished bell kept in a chest in Feralas. Shay Leafrunner says its sound can call her back when she wanders.",
+ "sections": [
+  {
+   "title": "A Familiar Sound",
+   "body": "Shay Leafrunner keeps her bell in a chest in Feralas. She loves its sound and says it will bring her running back when she wanders away. Rockbiter is waiting for Shay at his camp, and the bell is meant to help guide her home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Shay\u2019s Bell for?",
+   "aliases": [
+    "shay bell",
+    "bell use",
+    "call shay"
+   ],
+   "answer": "Shay says the bell\u2019s sound will get her attention and bring her back if she wanders off."
+  },
+  {
+   "q": "Where can I find Shay\u2019s Bell?",
+   "aliases": [
+    "bell location",
+    "shay chest",
+    "where bell"
+   ],
+   "answer": "Shay\u2019s Bell is kept in Shay\u2019s Chest in Feralas."
+  },
+  {
+   "q": "Who does the bell belong to?",
+   "aliases": [
+    "whose bell",
+    "shay item",
+    "bell owner"
+   ],
+   "answer": "The bell is precious to Shay Leafrunner, who loves its sound."
+  },
+  {
+   "q": "Who is Shay trying to find?",
+   "aliases": [
+    "where shay going",
+    "shay friend",
+    "rockbiter"
+   ],
+   "answer": "Shay Leafrunner is trying to find her friend Rockbiter, who is at his camp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "rockbiter",
+  "shay",
+  "shay leafrunner",
+  "shay's bell",
+  "shay's chest",
+  "wandering shay"
+ ],
+ "related": [
+  "quest:2845",
+  "zone:feralas",
+  "quest:2844"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shay's Bell",
+  "Wandering Shay"
+ ]
+}

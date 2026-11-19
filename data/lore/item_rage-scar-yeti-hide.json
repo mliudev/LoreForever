@@ -1,0 +1,80 @@
+{
+ "key": "item:rage-scar-yeti-hide",
+ "type": "item",
+ "name": "Rage Scar Yeti Hide",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Rage Scar Yeti Hide",
+  "quests": [
+   "quest:7733",
+   "quest:7734"
+  ]
+ },
+ "summary": "Rage Scar Yeti Hide comes from the yetis of Rage Scar Hold in northern Feralas. Pratt McGrubben and Jangdor Swiftstrider seek the hides for their work with leather.",
+ "sections": [
+  {
+   "title": "A Better Hide",
+   "body": "In northern Feralas, the yetis of Rage Scar Hold yield hides that leatherworkers prize. Pratt McGrubben at Feathermoon Stronghold and Jangdor Swiftstrider at Camp Mojache each seek ten for their work. They hope the hides will prove as resilient as thorium once cured.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Rage Scar Yeti Hides come from?",
+   "aliases": [
+    "where get yeti hide",
+    "rage scar hide source"
+   ],
+   "answer": "Rage Scar Yeti Hides come from the yetis in Rage Scar Hold, in northern Feralas."
+  },
+  {
+   "q": "Who wants these hides?",
+   "aliases": [
+    "who needs the hides",
+    "hide for who"
+   ],
+   "answer": "Pratt McGrubben at Feathermoon Stronghold and Jangdor Swiftstrider at Camp Mojache both seek Rage Scar Yeti Hides."
+  },
+  {
+   "q": "Why are the hides valuable?",
+   "aliases": [
+    "why want yeti hides",
+    "hide quality"
+   ],
+   "answer": "The hide may be exceptionally resilient once cured, which makes it promising for leatherwork."
+  },
+  {
+   "q": "How many hides are needed?",
+   "aliases": [
+    "how many",
+    "ten hides"
+   ],
+   "answer": "Pratt McGrubben and Jangdor Swiftstrider each ask for ten Rage Scar Yeti Hides."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "jangdor swiftstrider",
+  "leather",
+  "pratt mcgrubben",
+  "rage scar hold",
+  "rage scar yeti hide",
+  "rage scar yetis",
+  "yeti hide"
+ ],
+ "related": [
+  "subzone:rage-scar-hold",
+  "zone:feralas",
+  "subzone:camp-mojache",
+  "subzone:feathermoon-stronghold-classic",
+  "quest:7733"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Rage Scar Yeti Hide",
+  "Improved Quality (Classic Alliance)",
+  "Improved Quality (Classic Horde)"
+ ]
+}

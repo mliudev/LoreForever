@@ -1,0 +1,110 @@
+{
+ "key": "item:jeweled-pendant",
+ "type": "item",
+ "name": "Jeweled Pendant",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Jeweled Pendant",
+  "quests": [
+   "quest:1261",
+   "quest:1262"
+  ]
+ },
+ "summary": "The Jeweled Pendant is a finely made noble\u2019s ornament found among Alliance soldiers near Theramore. Its presence in the hands of common troops has drawn the Horde\u2019s attention.",
+ "sections": [
+  {
+   "title": "A Soldier\u2019s Prize",
+   "body": "Near Theramore, Marg saw an Alliance soldier wearing a pendant set with more gems than a common soldier could afford. Marg stole it from the camp, but a muckshell killed him on his way back. The pendant was recovered and brought to Nazeer in Brackenwall Village, where its fine workmanship raised a question about its true owner.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Noble\u2019s Work",
+   "body": "Zor Lonetree, who is well schooled in Alliance politics, now studies the pendant in Orgrimmar. He sees the skill of its craft and believes many humans might covet such a jewel. Its owner remains unknown, while the Horde waits to learn what the ornament may reveal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owned the Jeweled Pendant?",
+   "aliases": [
+    "pendant owner",
+    "who wore it",
+    "whose jewel"
+   ],
+   "answer": "The pendant\u2019s owner is unknown. Marg saw it on an Alliance soldier near Theramore, though its fine workmanship suggests it belonged to a noble."
+  },
+  {
+   "q": "Why did Marg steal the pendant?",
+   "aliases": [
+    "why steal it",
+    "marg pendant",
+    "what did marg take"
+   ],
+   "answer": "Marg saw an Alliance soldier wearing a pendant laden with gems and stole it from the camp near Theramore."
+  },
+  {
+   "q": "What happened to Marg?",
+   "aliases": [
+    "marg fate",
+    "how did marg die",
+    "marg story"
+   ],
+   "answer": "A muckshell killed Marg as he returned to base with the pendant he had stolen from the Alliance camp."
+  },
+  {
+   "q": "Why does the Horde care about the pendant?",
+   "aliases": [
+    "horde pendant",
+    "why report to zor",
+    "pendant mystery"
+   ],
+   "answer": "The pendant appears to be a noble\u2019s work, yet an Alliance soldier wore it near Theramore. Zor Lonetree is studying it for clues to its owner."
+  },
+  {
+   "q": "Where is the pendant now?",
+   "aliases": [
+    "pendant location",
+    "where take jewel",
+    "zor pendant"
+   ],
+   "answer": "Zor Lonetree is studying the Jeweled Pendant in Orgrimmar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The pendant offers the Horde a possible clue to Alliance noble affairs. Zor Lonetree is studying its craftsmanship and history."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "A Stormwind soldier was seen wearing this finely made pendant near Theramore, and its unknown owner may be a noble."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "horde",
+  "jeweled pendant",
+  "marg",
+  "muckshell",
+  "nazeer",
+  "pendant",
+  "stormwind",
+  "theramore",
+  "zor lonetree"
+ ],
+ "related": [
+  "quest:1261",
+  "quest:1262",
+  "npc:zor-lonetree",
+  "subzone:brackenwall-village",
+  "zone:dustwallow",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Jeweled Pendant",
+  "Marg Speaks",
+  "Report to Zor"
+ ]
+}

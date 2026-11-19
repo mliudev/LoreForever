@@ -1,0 +1,91 @@
+{
+ "key": "item:tapped-dowsing-widget",
+ "type": "item",
+ "name": "Tapped Dowsing Widget",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Tapped Dowsing Widget",
+  "quests": [
+   "quest:992"
+  ]
+ },
+ "summary": "A Tapped Dowsing Widget holds a water sample from a pool near Sandsorrow Watch in Tanaris. The Gadgetzan Water Company needs such surveys as the desert's wells grow scarce.",
+ "sections": [
+  {
+   "title": "A Desert Sample",
+   "body": "Senior Surveyor Fizzledowser sends you from Gadgetzan to test the pool near Sandsorrow Watch. The widget taps a sample for the Gadgetzan Water Company, which seeks free sources of water as nomads seize its wells. Yet the pool lies within sight of the trolls, and the survey brings a further danger from the desert.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tapped Dowsing Widget?",
+   "aliases": [
+    "tapped widget",
+    "water sample gadget",
+    "dowsing thing"
+   ],
+   "answer": "It is an Untapped Dowsing Widget that has collected a water sample from the pool near Sandsorrow Watch in Tanaris."
+  },
+  {
+   "q": "Where do I use the dowsing widget?",
+   "aliases": [
+    "where use widget",
+    "pool location",
+    "sandsorrow water"
+   ],
+   "answer": "Use the Untapped Dowsing Widget at the pool near Sandsorrow Watch, west of Gadgetzan and south of Zul'Farrak."
+  },
+  {
+   "q": "Who wants the water sample?",
+   "aliases": [
+    "who needs sample",
+    "fizzledowser",
+    "gadgetzan water company"
+   ],
+   "answer": "Senior Surveyor Fizzledowser in Gadgetzan asks you to bring the Tapped Dowsing Widget back to him for the Gadgetzan Water Company."
+  },
+  {
+   "q": "Why is the company surveying water?",
+   "aliases": [
+    "why survey water",
+    "no wells",
+    "water shortage"
+   ],
+   "answer": "The Gadgetzan Water Company seeks free water sources because nomads are seizing its wells."
+  },
+  {
+   "q": "What danger is near the pool?",
+   "aliases": [
+    "pool danger",
+    "bugs at sandsorrow",
+    "creepy crawly"
+   ],
+   "answer": "Reports speak of strange bug-creatures sucking water from the desert. Surveyors may also be in sight of the trolls around the pool."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fizzledowser",
+  "gadgetzan",
+  "sandsorrow watch",
+  "tanaris",
+  "tapped dowsing widget",
+  "untapped dowsing widget",
+  "water sample",
+  "water survey"
+ ],
+ "related": [
+  "item:untapped-dowsing-widget",
+  "quest:992",
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:sandsorrow-watch",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Tapped Dowsing Widget",
+  "Gadgetzan Water Survey"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "key": "quest:88821",
+ "type": "quest",
+ "name": "Making Contact",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88821
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A sentinel asks you to find a kaldorei woman spotted on the Shattered Strand. Her purpose is unknown, and your expedition hopes to learn whether her interests align with theirs.",
+ "sections": [
+  {
+   "title": "Along the Coast",
+   "body": "A sentinel on the Shattered Strand asks you to seek a kaldorei woman last seen on the north side of the Bay of Storms. She is not part of the expedition, and the sentinel doubts she is a fighter. Find her and learn why she is there, and whether her purpose matches the expedition's.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to find the woman?",
+   "aliases": [
+    "who wants contact",
+    "sentinel request",
+    "who sent me"
+   ],
+   "answer": "A sentinel from the expedition asks you to find the kaldorei woman and learn why she is there."
+  },
+  {
+   "q": "Where was the kaldorei woman last seen?",
+   "aliases": [
+    "where is she",
+    "woman location",
+    "where to find her"
+   ],
+   "answer": "She was last seen along the north side of the Bay of Storms on the Shattered Strand."
+  },
+  {
+   "q": "Why does the expedition want to speak with her?",
+   "aliases": [
+    "why contact her",
+    "what do they want",
+    "why find the elf"
+   ],
+   "answer": "The expedition wants to learn her purpose and whether her interests align with theirs."
+  },
+  {
+   "q": "Is the woman part of the expedition?",
+   "aliases": [
+    "is she with us",
+    "who is the woman",
+    "expedition elf"
+   ],
+   "answer": "No. The sentinel says she is not with the expedition."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bay of storms",
+  "expedition",
+  "kaldorei woman",
+  "making contact",
+  "night elf",
+  "sentinel",
+  "shattered strand"
+ ],
+ "related": [
+  "subzone:shattered-strand",
+  "subzone:bay-of-storms",
+  "topic:sentinels"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Making Contact"
+ ]
+}

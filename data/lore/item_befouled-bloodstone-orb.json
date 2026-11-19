@@ -1,0 +1,92 @@
+{
+ "key": "item:befouled-bloodstone-orb",
+ "type": "item",
+ "name": "Befouled Bloodstone Orb",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Befouled Bloodstone Orb",
+  "quests": [
+   "quest:673"
+  ]
+ },
+ "summary": "The Befouled Bloodstone Orb is a magical relic held by a warlock in Stromgarde Keep. Tor'gan in Hammerfall seeks it to end its power over the land.",
+ "sections": [
+  {
+   "title": "A Tainted Relic",
+   "body": "Tor'gan fears a warlock in Stromgarde Keep is using a magical relic to summon demons. The Befouled Bloodstone Orb is the object he seeks, so its power can be destroyed before it taints Arathi Highlands further.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Befouled Bloodstone Orb?",
+   "aliases": [
+    "bloodstone orb",
+    "befouled orb"
+   ],
+   "answer": "The Befouled Bloodstone Orb is a magical relic held by Marez Cowl, a warlock in Stromgarde Keep."
+  },
+  {
+   "q": "Who has the orb?",
+   "aliases": [
+    "marez orb",
+    "who holds bloodstone"
+   ],
+   "answer": "Marez Cowl, a warlock within Stromgarde Keep, holds the Befouled Bloodstone Orb."
+  },
+  {
+   "q": "Why does Tor'gan want it?",
+   "aliases": [
+    "tor'gan orb",
+    "why retrieve orb"
+   ],
+   "answer": "Tor'gan wants the orb so he can destroy it and keep its power from tainting Arathi Highlands."
+  },
+  {
+   "q": "What is the orb used for?",
+   "aliases": [
+    "orb demons",
+    "bloodstone magic"
+   ],
+   "answer": "Tor'gan believes a warlock has used the orb to summon demons in large numbers."
+  },
+  {
+   "q": "Where is the orb?",
+   "aliases": [
+    "orb location",
+    "stromgarde bloodstone"
+   ],
+   "answer": "Marez Cowl holds the orb inside the walls of Stromgarde Keep in Arathi Highlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "As a warlock, you know the danger of a relic used to summon demons. Tor'gan seeks to destroy the orb before its power can further taint Arathi Highlands."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "befouled bloodstone orb",
+  "bloodstone orb",
+  "demons",
+  "foul magics",
+  "marez cowl",
+  "stromgarde keep",
+  "tor'gan",
+  "warlock"
+ ],
+ "related": [
+  "quest:671",
+  "zone:arathi",
+  "subzone:stromgarde-keep",
+  "subzone:hammerfall",
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Befouled Bloodstone Orb",
+  "Foul Magics (2)"
+ ]
+}

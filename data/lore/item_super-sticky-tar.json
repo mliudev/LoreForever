@@ -1,0 +1,78 @@
+{
+ "key": "item:super-sticky-tar",
+ "type": "item",
+ "name": "Super Sticky Tar",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Super Sticky Tar",
+  "quests": [
+   "quest:4504"
+  ]
+ },
+ "summary": "In northern Un'Goro Crater, tar from the beasts near the pits clings with unusual force. Tran'rek in Gadgetzan wants samples for a profitable glue idea.",
+ "sections": [
+  {
+   "title": "Tar from the Pits",
+   "body": "Tran'rek asks you to gather tar from the beasts near the northern pits of Un'Goro Crater. Their skin holds chlorophyll, which he says makes the tar far stickier than ordinary tar. He hopes to turn the mixture into a useful glue.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does Super Sticky Tar come from?",
+   "aliases": [
+    "where tar from",
+    "super sticky source"
+   ],
+   "answer": "You collect Super Sticky Tar from the tar beasts near the pits in northern Un'Goro Crater."
+  },
+  {
+   "q": "Who wants the tar?",
+   "aliases": [
+    "who needs tar",
+    "tranrek tar"
+   ],
+   "answer": "Tran'rek in Gadgetzan wants samples of Super Sticky Tar for his glue idea."
+  },
+  {
+   "q": "Why is this tar so sticky?",
+   "aliases": [
+    "why sticky",
+    "sticky tar reason"
+   ],
+   "answer": "Tran'rek says the beasts' chlorophyll-rich skin mixes with the tar and makes it unusually sticky."
+  },
+  {
+   "q": "What does Tran'rek plan to do with it?",
+   "aliases": [
+    "tranrek plan",
+    "what glue for"
+   ],
+   "answer": "Tran'rek hopes to make a profitable glue from the tar and the chlorophyll in the beasts' skin."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chlorophyll",
+  "gadgetzan",
+  "glue",
+  "super sticky",
+  "super sticky tar",
+  "tar",
+  "tar beasts",
+  "tran'rek",
+  "un'goro crater"
+ ],
+ "related": [
+  "quest:4504",
+  "zone:ungoro",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Super Sticky Tar",
+  "Super Sticky (Classic)"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "key": "quest:4701",
+ "type": "quest",
+ "name": "Put Her Down",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4701
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Helendis names Halycon as the worg menace's source. You are asked to travel to Blackrock Spire and destroy it.",
+ "sections": [
+  {
+   "title": "Halycon Named",
+   "body": "Helendis sends you toward Blackrock Spire, where the worg menace has its source. As you leave him, he names Halycon, the orcs' name for the worg. You are asked to destroy the source.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Halycon?",
+   "aliases": [
+    "halycon",
+    "what is halycon",
+    "worg name"
+   ],
+   "answer": "Halycon is the name the orcs use for the worg."
+  },
+  {
+   "q": "Where is the source of the worg menace?",
+   "aliases": [
+    "where's the worg source",
+    "blackrock spire worg",
+    "worg menace location"
+   ],
+   "answer": "The source of the worg menace is at Blackrock Spire."
+  },
+  {
+   "q": "What does Helendis ask me to do?",
+   "aliases": [
+    "what am i supposed to do",
+    "put her down quest",
+    "what did helendis ask"
+   ],
+   "answer": "Helendis asks you to travel to Blackrock Spire and destroy the source of the worg menace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock spire",
+  "halycon",
+  "helendis",
+  "put her down",
+  "worg",
+  "worg menace"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Put Her Down"
+ ]
+}

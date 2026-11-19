@@ -1,0 +1,99 @@
+{
+ "key": "item:water-elemental-core",
+ "type": "item",
+ "name": "Water Elemental Core",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Water Elemental Core",
+  "quests": [
+   "quest:7721",
+   "quest:7726"
+  ]
+ },
+ "summary": "A Water Elemental Core is a source of raw power sought by Zorbin Fandazzle on Feralas\u2019s Forgotten Coast. Sea Sprays and Sea Elementals carry them along the shore.",
+ "sections": [
+  {
+   "title": "Cores on the Coast",
+   "body": "Near the dock on Feralas\u2019s Forgotten Coast, Zorbin Fandazzle asks for Water Elemental Cores. Sea Sprays and Sea Elementals along the coast carry them. Zorbin says he needs the cores for his Ultra-Shrinker refinement and to keep his engineering shop running.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Water Elemental Core?",
+   "aliases": [
+    "water core",
+    "elemental core",
+    "what's the core for"
+   ],
+   "answer": "A Water Elemental Core is found within the Sea Sprays and Sea Elementals along Feralas\u2019s Forgotten Coast. Zorbin Fandazzle uses the cores as raw power for his Ultra-Shrinker refinement."
+  },
+  {
+   "q": "Where do Water Elemental Cores come from?",
+   "aliases": [
+    "where get cores",
+    "core location",
+    "sea spray cores"
+   ],
+   "answer": "Sea Sprays and Sea Elementals along the Forgotten Coast of Feralas carry Water Elemental Cores."
+  },
+  {
+   "q": "Who wants Water Elemental Cores?",
+   "aliases": [
+    "who needs cores",
+    "zorbin cores",
+    "who do i bring them to"
+   ],
+   "answer": "Zorbin Fandazzle, near the dock on the Forgotten Coast, wants Water Elemental Cores for his work."
+  },
+  {
+   "q": "Why does Zorbin need the cores?",
+   "aliases": [
+    "why cores",
+    "zapping fuel",
+    "ultra shrinker power"
+   ],
+   "answer": "Zorbin says the cores provide raw power for his Ultra-Shrinker refinement and help him keep his engineering shop running."
+  },
+  {
+   "q": "What is Zorbin Fandazzle doing on the coast?",
+   "aliases": [
+    "zorbin shop",
+    "engineering shop",
+    "what is he building"
+   ],
+   "answer": "Zorbin Fandazzle is trying to set up an engineering shop on the Forgotten Coast of Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize Zorbin Fandazzle\u2019s need for raw power: he seeks Water Elemental Cores for his Ultra-Shrinker refinement."
+  }
+ ],
+ "keywords": [
+  "engineering",
+  "feralas",
+  "forgotten coast",
+  "sea elemental",
+  "sea spray",
+  "ultra-shrinker",
+  "water core",
+  "water elemental core",
+  "zorbin fandazzle"
+ ],
+ "related": [
+  "subzone:forgotten-coast",
+  "quest:7721",
+  "quest:7726",
+  "zone:feralas",
+  "topic:steamwheedle-cartel"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Water Elemental Core",
+  "Fuel for the Zapping",
+  "Refuel for the Zapping"
+ ]
+}

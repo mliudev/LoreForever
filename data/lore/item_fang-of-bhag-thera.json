@@ -1,0 +1,81 @@
+{
+ "key": "item:fang-of-bhag-thera",
+ "type": "item",
+ "name": "Fang of Bhag'thera",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Fang of Bhag'thera",
+  "quests": [
+   "quest:193"
+  ]
+ },
+ "summary": "Bhag'thera's fang is proof of a hunter's skill in Stranglethorn Vale. Sir S. J. Erlgadin asks for it as the final measure of Panther Mastery.",
+ "sections": [
+  {
+   "title": "A Hunter's Proof",
+   "body": "Erlgadin sends you after Bhag'thera, an elusive panther prowling the jungle near Nesingwary's Expedition. His party has failed to catch the great beast, and your hunt will decide whether you have earned Erlgadin's respect. Bring him the fang, and he will hail you as a mighty hunter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Bhag'thera's fang?",
+   "aliases": [
+    "who wants it",
+    "fang for who"
+   ],
+   "answer": "Sir S. J. Erlgadin of Nesingwary's Expedition asks you to bring him Bhag'thera's fang."
+  },
+  {
+   "q": "What is Bhag'thera?",
+   "aliases": [
+    "who's Bhag'thera",
+    "bhagthera"
+   ],
+   "answer": "Bhag'thera is an elusive panther prowling the jungle in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Erlgadin want the fang?",
+   "aliases": [
+    "why fang",
+    "what's it for"
+   ],
+   "answer": "The fang proves that you have hunted Bhag'thera and earned Erlgadin's respect as a panther hunter."
+  },
+  {
+   "q": "Where can I find Bhag'thera?",
+   "aliases": [
+    "where is Bhag'thera",
+    "find bhagthera"
+   ],
+   "answer": "Bhag'thera prowls the jungle in Stranglethorn Vale, near Nesingwary's Expedition."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, Bhag'thera's fang marks the final test in Sir S. J. Erlgadin's Panther Mastery trial."
+  }
+ ],
+ "keywords": [
+  "bhag'thera",
+  "fang of bhag'thera",
+  "nesingwary's expedition",
+  "panther",
+  "panther mastery",
+  "sir s. j. erlgadin",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:190",
+  "zone:stranglethorn",
+  "subzone:nesingwary-s-expedition",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Fang of Bhag'thera",
+  "Panther Mastery (4)"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "item:buzzard-gizzard",
+ "type": "item",
+ "name": "Buzzard Gizzard",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Buzzard Gizzard",
+  "quests": [
+   "quest:2258"
+  ]
+ },
+ "summary": "Buzzard gizzards are reagents gathered from the buzzards of the Badlands. Jarkal Mossmeld in Kargath needs them to replenish his alchemical stocks.",
+ "sections": [
+  {
+   "title": "A Needed Reagent",
+   "body": "Jarkal Mossmeld, an alchemist in Kargath, asks for five buzzard gizzards to replenish his stocks. The Badlands buzzards yield them, alongside the other reagents he seeks. Bring the gizzards to Jarkal with the rest of his requested supplies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants buzzard gizzards?",
+   "aliases": [
+    "who needs gizzards",
+    "Jarkal gizzards"
+   ],
+   "answer": "Jarkal Mossmeld, an alchemist in Kargath, needs five buzzard gizzards to replenish his stocks."
+  },
+  {
+   "q": "Where do buzzard gizzards come from?",
+   "aliases": [
+    "gizzard location",
+    "where gizzards",
+    "buzzard bits"
+   ],
+   "answer": "Buzzards in the Badlands yield gizzards. Giant Buzzards, Buzzards, Starving Buzzards, and Wayward Buzzards are known to have them."
+  },
+  {
+   "q": "What are buzzard gizzards used for?",
+   "aliases": [
+    "gizzard use",
+    "why gizzards",
+    "alchemist reagents"
+   ],
+   "answer": "Jarkal Mossmeld uses buzzard gizzards as alchemical reagents to replenish his stocks."
+  },
+  {
+   "q": "How many gizzards does Jarkal need?",
+   "aliases": [
+    "gizzard count",
+    "how many buzzard bits",
+    "five gizzards"
+   ],
+   "answer": "Jarkal Mossmeld asks for five buzzard gizzards."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can bring the Badlands reagents Jarkal Mossmeld needs to Kargath."
+  }
+ ],
+ "keywords": [
+  "alchemist",
+  "badlands",
+  "buzzard",
+  "buzzard gizzard",
+  "jarkal mossmeld",
+  "kargath",
+  "reagent"
+ ],
+ "related": [
+  "zone:badlands",
+  "subzone:kargath",
+  "quest:2258",
+  "item:crag-coyote-fang",
+  "item:rock-elemental-shard"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Buzzard Gizzard",
+  "Badlands Reagent Run (Horde)"
+ ]
+}

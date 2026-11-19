@@ -1,0 +1,79 @@
+{
+ "key": "item:shackle-key-the-hinterlands",
+ "type": "item",
+ "name": "Shackle Key",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Shackle Key (The Hinterlands)",
+  "quests": [
+   "quest:7846"
+  ]
+ },
+ "summary": "The Shackle Key is held by Hitah'ya the Keeper in a cave near Jintha'alor. Elder Torntusk needs it to loosen his bindings and return home.",
+ "sections": [
+  {
+   "title": "The Bound Elder",
+   "body": "At Jintha'alor in the Hinterlands, Elder Torntusk waits for the key to his bindings. Hitah'ya the Keeper holds it in a nearby cave and is well guarded. Bring the key back to Torntusk so he can be freed and return home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has the Shackle Key?",
+   "aliases": [
+    "who has the key",
+    "key holder",
+    "hitahya key"
+   ],
+   "answer": "Hitah'ya the Keeper holds the Shackle Key in a cave near Jintha'alor."
+  },
+  {
+   "q": "What is the Shackle Key for?",
+   "aliases": [
+    "what key does",
+    "key purpose",
+    "torntusk key"
+   ],
+   "answer": "The Shackle Key loosens Elder Torntusk's bindings so he can return home."
+  },
+  {
+   "q": "Where is the key?",
+   "aliases": [
+    "key location",
+    "where key",
+    "nearby cave"
+   ],
+   "answer": "Hitah'ya the Keeper holds the key in a cave near Jintha'alor in the Hinterlands."
+  },
+  {
+   "q": "Who needs the key?",
+   "aliases": [
+    "who wants key",
+    "who needs it",
+    "elder torntusk"
+   ],
+   "answer": "Elder Torntusk at Jintha'alor needs the key to free himself from his bindings."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bindings",
+  "elder torntusk",
+  "hinterlands",
+  "hitah'ya the keeper",
+  "jintha'alor",
+  "shackle key"
+ ],
+ "related": [
+  "quest:7846",
+  "quest:7845",
+  "quest:7847",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shackle Key (The Hinterlands)",
+  "Wowpedia: Recover the Key!"
+ ]
+}

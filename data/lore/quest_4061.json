@@ -1,0 +1,76 @@
+{
+ "key": "quest:4061",
+ "type": "quest",
+ "name": "The Rise of the Machines",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4061
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hierophant Theodora Mulvadania asks you to recover Fractured Elemental Shards in the Burning Steppes. Golems and elementals there may yield what she needs.",
+ "sections": [
+  {
+   "title": "Theodora's Need",
+   "body": "Theodora mentions the region's golems and elementals as a source of Fractured Elemental Shards. You are to seek those shards in the Burning Steppes and bring them to the Hierophant.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the shards?",
+   "aliases": [
+    "who needs shards",
+    "Theodora shards",
+    "shard giver"
+   ],
+   "answer": "Hierophant Theodora Mulvadania asks you to recover Fractured Elemental Shards for her."
+  },
+  {
+   "q": "Where are the Fractured Elemental Shards?",
+   "aliases": [
+    "where shards",
+    "shard location",
+    "Burning Steppes shards"
+   ],
+   "answer": "The shards are sought in the Burning Steppes, where Theodora recalls golems and elementals as their source."
+  },
+  {
+   "q": "What does Theodora need?",
+   "aliases": [
+    "what shards",
+    "Theodora needs what",
+    "fractured shards"
+   ],
+   "answer": "Theodora needs Fractured Elemental Shards."
+  },
+  {
+   "q": "What creatures are a source of the shards?",
+   "aliases": [
+    "shards from what",
+    "golems elementals",
+    "elemental shards"
+   ],
+   "answer": "Theodora recalls that golems and elementals in the Burning Steppes are a source of the shards."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning steppes",
+  "elementals",
+  "fractured elemental shards",
+  "golems",
+  "the rise of the machines",
+  "theodora mulvadania"
+ ],
+ "related": [
+  "zone:burningsteppes"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Rise of the Machines"
+ ]
+}

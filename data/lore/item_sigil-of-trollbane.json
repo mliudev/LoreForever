@@ -1,0 +1,97 @@
+{
+ "key": "item:sigil-of-trollbane",
+ "type": "item",
+ "name": "Sigil of Trollbane",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sigil of Trollbane",
+  "quests": [
+   "quest:644"
+  ]
+ },
+ "summary": "The Sigil of Trollbane is held by Prince Galen Trollbane in Stromgarde. It is the last sigil needed to open Thoras Trollbane\u2019s tomb and claim Trol\u2019kalar.",
+ "sections": [
+  {
+   "title": "The Last Sigil",
+   "body": "Zengu in Hammerfall seeks the final sigil, which Prince Galen keeps within Stromgarde. Galen lives in a chapel in the militia-held district and is well protected. Bring the sigil to Zengu, and the way to Thoras Trollbane\u2019s tomb can be opened.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of Trollbane for?",
+   "aliases": [
+    "sigil purpose",
+    "why need the sigil",
+    "trollbane sigil"
+   ],
+   "answer": "The Sigil of Trollbane is the final sigil needed to open Thoras Trollbane\u2019s tomb and claim Trol\u2019kalar."
+  },
+  {
+   "q": "Who has the Sigil of Trollbane?",
+   "aliases": [
+    "who has it",
+    "sigil holder",
+    "galen sigil"
+   ],
+   "answer": "Prince Galen Trollbane holds the Sigil of Trollbane in Stromgarde."
+  },
+  {
+   "q": "Where can I find Prince Galen?",
+   "aliases": [
+    "where is galen",
+    "galen location",
+    "find prince trollbane"
+   ],
+   "answer": "Prince Galen resides in a chapel in the militia-held district of Stromgarde."
+  },
+  {
+   "q": "Who wants the sigil?",
+   "aliases": [
+    "who wants it",
+    "sigil for zengu",
+    "hammerfall sigil"
+   ],
+   "answer": "Zengu in Hammerfall seeks the Sigil of Trollbane."
+  },
+  {
+   "q": "What comes after the sigils are gathered?",
+   "aliases": [
+    "what next after sigils",
+    "trolkalar next",
+    "unlock tomb"
+   ],
+   "answer": "With the sigils in hand, Zengu plans to strike against the trolls of Zul\u2019Gurub and take Trol\u2019kalar from Thoras Trollbane\u2019s tomb."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "As a warrior, you may find Prince Galen a fitting guardian for the last sigil; he is himself a seasoned fighter."
+  }
+ ],
+ "keywords": [
+  "galen trollbane",
+  "prince galen",
+  "sigil of trollbane",
+  "stromgarde",
+  "thoras trollbane",
+  "trol'kalar",
+  "trollbane",
+  "zengu"
+ ],
+ "related": [
+  "quest:644",
+  "quest:645",
+  "quest:638",
+  "zone:arathi",
+  "subzone:hammerfall",
+  "subzone:zul-gurub"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil of Trollbane",
+  "Sigil of Trollbane (quest)"
+ ]
+}

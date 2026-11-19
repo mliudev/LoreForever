@@ -1,0 +1,75 @@
+{
+ "key": "item:monstrous-crawler-leg",
+ "type": "item",
+ "name": "Monstrous Crawler Leg",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Monstrous Crawler Leg",
+  "quests": [
+   "quest:1430"
+  ]
+ },
+ "summary": "A Monstrous Crawler Leg comes from the huge crawlers along the Swamp of Sorrows coast. Dar seeks ten for customers in Orgrimmar, who prize the meat.",
+ "sections": [
+  {
+   "title": "Coastal Fare",
+   "body": "Dar in the Swamp of Sorrows wants ten Monstrous Crawler Legs for customers in Orgrimmar. The creatures scurry along the eastern beaches and beneath the sea. Their meat is prized for its succulent taste, and Dar plans to have it sent north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Monstrous Crawler Legs come from?",
+   "aliases": [
+    "crawler legs source",
+    "where find monstrous legs"
+   ],
+   "answer": "Monstrous Crawler Legs come from Monstrous Crawlers along the beaches and beneath the sea on the Swamp of Sorrows coast."
+  },
+  {
+   "q": "Who wants these legs?",
+   "aliases": [
+    "who wants crawler legs",
+    "dar legs"
+   ],
+   "answer": "Dar in the Swamp of Sorrows wants ten Monstrous Crawler Legs to send to customers in Orgrimmar."
+  },
+  {
+   "q": "Why does Dar want them?",
+   "aliases": [
+    "why crawler legs",
+    "what are legs for"
+   ],
+   "answer": "Dar's customers prize the succulent taste of crawler meat, especially meat from the monstrous crawlers."
+  },
+  {
+   "q": "Where is the coast?",
+   "aliases": [
+    "swamp coast direction",
+    "crawler beach"
+   ],
+   "answer": "The coast lies east of Dar in the Swamp of Sorrows. Monstrous Crawlers scurry along its beaches and beneath the sea."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crawler meat",
+  "dar",
+  "monstrous crawler",
+  "monstrous crawler leg",
+  "orgrimmar",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "quest:1430",
+  "zone:swampofsorrows",
+  "item:crawler-leg",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Monstrous Crawler Leg",
+  "Fresh Meat (Swamp of Sorrows)"
+ ]
+}
