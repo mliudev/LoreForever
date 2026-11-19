@@ -1,0 +1,79 @@
+{
+ "key": "item:seahorn-s-sealed-letter",
+ "type": "item",
+ "name": "Seahorn's Sealed Letter",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Seahorn's Sealed Letter",
+  "quests": [
+   "quest:670"
+  ]
+ },
+ "summary": "Seahorn's Sealed Letter carries secret correspondence from Booty Bay to Shakes O'Breen off the Arathi coast. The Blackwater Raiders are counting on its safe delivery.",
+ "sections": [
+  {
+   "title": "A Sealed Message",
+   "body": "From Booty Bay, Seahorn asks you to carry his sealed letter to Shakes O'Breen, whose ship lies off the Arathi coast. Seahorn's fleet is waiting in the bay for supplies, while troubling matters gather nearby and far away. He asks for confidence as well as safe passage. The Blackwater Raiders await word that the message has reached its mark.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent the sealed letter?",
+   "aliases": [
+    "who wrote it",
+    "seahorn letter",
+    "letter from seahorn"
+   ],
+   "answer": "Seahorn sent the sealed letter from Booty Bay. He asks that it reach Shakes O'Breen safely and in confidence."
+  },
+  {
+   "q": "Who is supposed to receive it?",
+   "aliases": [
+    "who gets the letter",
+    "deliver to who",
+    "shakes letter"
+   ],
+   "answer": "Shakes O'Breen, who is tied up off the Arathi coast, is the letter's intended recipient."
+  },
+  {
+   "q": "Why does Seahorn need a courier?",
+   "aliases": [
+    "why deliver it",
+    "what's in the letter",
+    "secret message"
+   ],
+   "answer": "Seahorn needs the sealed correspondence carried to Shakes O'Breen while his fleet is stuck in Booty Bay awaiting supplies."
+  },
+  {
+   "q": "What happens if I deliver it safely?",
+   "aliases": [
+    "what for delivering",
+    "blackwater raiders",
+    "seahorn pleased"
+   ],
+   "answer": "The Blackwater Raiders are grateful for the long and perilous journey, and Seahorn is pleased when the message reaches its recipient."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi coast",
+  "blackwater raiders",
+  "booty bay",
+  "seahorn",
+  "sealed letter",
+  "secret correspondence",
+  "shakes o'breen"
+ ],
+ "related": [
+  "quest:665",
+  "zone:arathi",
+  "subzone:booty-bay"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Seahorn's Sealed Letter",
+  "Sunken Treasure (5)"
+ ]
+}

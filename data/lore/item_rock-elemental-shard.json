@@ -1,0 +1,85 @@
+{
+ "key": "item:rock-elemental-shard",
+ "type": "item",
+ "name": "Rock Elemental Shard",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Rock Elemental Shard",
+  "quests": [
+   "quest:2258"
+  ]
+ },
+ "summary": "Rock Elemental Shards are fragments gathered from rock elementals in the Badlands. Jarkal Mossmeld needs them among several reagents to replenish his alchemical stocks.",
+ "sections": [
+  {
+   "title": "Stone Reagents",
+   "body": "In Kargath, Jarkal Mossmeld asks for five Rock Elemental Shards alongside buzzard gizzards and crag coyote fangs. He is an alchemist seeking to replenish his stocks, and promises coin for the gathered reagents.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Rock Elemental Shards for?",
+   "aliases": [
+    "shard use",
+    "why shards",
+    "what does jarkal need"
+   ],
+   "answer": "Jarkal Mossmeld in Kargath needs five Rock Elemental Shards to replenish his alchemical stocks."
+  },
+  {
+   "q": "Where do Rock Elemental Shards come from?",
+   "aliases": [
+    "shard source",
+    "where shards",
+    "get rock shards"
+   ],
+   "answer": "Rock Elemental Shards come from rock elementals in the Badlands."
+  },
+  {
+   "q": "Who wants the shards?",
+   "aliases": [
+    "who needs shards",
+    "jarkal shards",
+    "who is jarkal"
+   ],
+   "answer": "Jarkal Mossmeld, an alchemist in Kargath, asks for five Rock Elemental Shards."
+  },
+  {
+   "q": "What else does Jarkal need?",
+   "aliases": [
+    "other reagents",
+    "jarkal needs what",
+    "gizzards and fangs"
+   ],
+   "answer": "Jarkal also asks for five buzzard gizzards and ten crag coyote fangs."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can bring the Badlands reagents to Jarkal Mossmeld in Kargath, where he offers coin for them."
+  }
+ ],
+ "keywords": [
+  "alchemical reagents",
+  "badlands",
+  "jarkal mossmeld",
+  "kargath",
+  "rock elemental shard",
+  "rock elementals"
+ ],
+ "related": [
+  "quest:2258",
+  "zone:badlands",
+  "subzone:kargath",
+  "item:buzzard-gizzard",
+  "item:crag-coyote-fang"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Rock Elemental Shard",
+  "Badlands Reagent Run (Horde)"
+ ]
+}

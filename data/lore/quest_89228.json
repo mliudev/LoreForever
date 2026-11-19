@@ -1,0 +1,95 @@
+{
+ "key": "quest:89228",
+ "type": "quest",
+ "name": "Winter Frontier Fishery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   89228
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Berdun Cliffbrew at Talrendis Point wants Winter Squid for the travel lodge\u2019s meals. The squid are in season along Azshara\u2019s coast.",
+ "sections": [
+  {
+   "title": "A Meal for the Lodge",
+   "body": "At Talrendis Point in Azshara, Berdun Cliffbrew wants seafood for the travel lodge. Winter Squid are in season along the coast, and you can bring Berdun ten of them. He admits fishing is not his strength, though cooking is.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for Winter Squid?",
+   "aliases": [
+    "who wants squid",
+    "Berdun Cliffbrew fish",
+    "who is Berdun"
+   ],
+   "answer": "Berdun Cliffbrew at Talrendis Point in Azshara wants Winter Squid for the travel lodge."
+  },
+  {
+   "q": "Why does Berdun want Winter Squid?",
+   "aliases": [
+    "why squid",
+    "what are the squid for",
+    "lodge food"
+   ],
+   "answer": "Berdun wants seafood for the travel lodge, and Winter Squid are in season along Azshara\u2019s coast."
+  },
+  {
+   "q": "Where can I find Winter Squid?",
+   "aliases": [
+    "winter squid location",
+    "where squid",
+    "Azshara squid"
+   ],
+   "answer": "Winter Squid can be fished from the coasts of Azshara."
+  },
+  {
+   "q": "How many Winter Squid does Berdun need?",
+   "aliases": [
+    "squid amount",
+    "how many fish",
+    "ten squid"
+   ],
+   "answer": "Berdun asks for ten Winter Squid."
+  },
+  {
+   "q": "Can I get the squid from someone else?",
+   "aliases": [
+    "buy squid",
+    "ask someone for fish",
+    "not fishing"
+   ],
+   "answer": "If fishing is not for you, Berdun suggests befriending an angler or paying someone for their goods."
+  },
+  {
+   "q": "Is Berdun a fisherman?",
+   "aliases": [
+    "Berdun fishing",
+    "can Berdun fish",
+    "Berdun cook"
+   ],
+   "answer": "Berdun says he is not much of an angler, but he is a cook."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "berdun cliffbrew",
+  "fishing",
+  "seafood",
+  "talrendis point",
+  "travel lodge",
+  "winter squid"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Winter Frontier Fishery"
+ ]
+}

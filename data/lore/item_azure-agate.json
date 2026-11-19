@@ -1,0 +1,82 @@
+{
+ "key": "item:azure-agate",
+ "type": "item",
+ "name": "Azure Agate",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Azure Agate",
+  "quests": [
+   "quest:694"
+  ]
+ },
+ "summary": "Boulderfist shamans near the Tower of Arathor have taken Azure Agates from the tower. Apprentice Kryten needs one at Refuge Pointe to enchant as a key for its defenses.",
+ "sections": [
+  {
+   "title": "A Gem for the Tower",
+   "body": "At Refuge Pointe, Apprentice Kryten needs an Azure Agate from the Boulderfist shamans in Stromgarde. The shamans took the gems from the Tower of Arathor, whose defenses must be activated against the ogres nearby. Bring an agate to Kryten, and he will enchant it so it can serve as a key.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find an Azure Agate?",
+   "aliases": [
+    "azure agate location",
+    "where agate",
+    "find agate"
+   ],
+   "answer": "Boulderfist shamans in Stromgarde Keep, in the Arathi Highlands, have Azure Agates."
+  },
+  {
+   "q": "Who needs the Azure Agate?",
+   "aliases": [
+    "who wants it",
+    "give agate to who",
+    "kryten agate"
+   ],
+   "answer": "Apprentice Kryten at Refuge Pointe needs an Azure Agate."
+  },
+  {
+   "q": "What is the agate for?",
+   "aliases": [
+    "agate purpose",
+    "what's it for",
+    "why agate"
+   ],
+   "answer": "Kryten enchants the Azure Agate so it can serve as a key to the Tower of Arathor's defenses."
+  },
+  {
+   "q": "Why does Kryten need it?",
+   "aliases": [
+    "why kryten needs agate",
+    "tower defenses",
+    "ogres tower"
+   ],
+   "answer": "The Tower of Arathor's defenses must be activated to stand against the ogres around it. Kryten needs an Azure Agate to enchant as a key."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agate",
+  "apprentice kryten",
+  "arathi highlands",
+  "azure agate",
+  "boulderfist shaman",
+  "refuge pointe",
+  "stromgarde",
+  "tower of arathor"
+ ],
+ "related": [
+  "quest:694",
+  "zone:arathi",
+  "subzone:refuge-pointe",
+  "subzone:stromgarde-keep",
+  "subzone:tower-of-arathor"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Azure Agate",
+  "Trelane's Defenses (Classic)"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "item:groddoc-liver",
+ "type": "item",
+ "name": "Groddoc Liver",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Groddoc Liver",
+  "quests": [
+   "quest:1452"
+  ]
+ },
+ "summary": "Groddoc Liver comes from the apes of Feralas. Rhapsody Shindigger needs it for a drink he hopes will loosen his tongue about a frightening flight over a swamp.",
+ "sections": [
+  {
+   "title": "A Bitter Ingredient",
+   "body": "Rhapsody Shindigger asks for Groddoc Liver in the Hinterlands, along with Roc Gizzards and Ironfur Livers. He plans to distill the three ingredients into a Kalimdor Kocktail. The drink, he says, may help him speak of the horrors of a flight over a swamp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Groddoc Livers come from?",
+   "aliases": [
+    "where find groddoc liver",
+    "groddoc liver source"
+   ],
+   "answer": "Groddoc Livers come from Groddoc Apes in Feralas."
+  },
+  {
+   "q": "Who wants Groddoc Liver?",
+   "aliases": [
+    "who needs this liver",
+    "rhapsody liver"
+   ],
+   "answer": "Rhapsody Shindigger in the Hinterlands asks for three Groddoc Livers to make his Kalimdor Kocktail."
+  },
+  {
+   "q": "What is Groddoc Liver used for?",
+   "aliases": [
+    "groddoc liver use",
+    "why need liver"
+   ],
+   "answer": "Rhapsody Shindigger uses Groddoc Liver with Roc Gizzards and Ironfur Livers for a Kalimdor Kocktail."
+  },
+  {
+   "q": "Why is Rhapsody making the drink?",
+   "aliases": [
+    "why cocktail",
+    "rhapsody wants drink"
+   ],
+   "answer": "Rhapsody says he needs a stronger drink before he can tell you about a frightening flight over a swamp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "groddoc ape",
+  "groddoc liver",
+  "ironfur liver",
+  "kalimdor kocktail",
+  "rhapsody shindigger",
+  "roc gizzard"
+ ],
+ "related": [
+  "quest:1452",
+  "quest:1451",
+  "zone:feralas",
+  "zone:hinterlands",
+  "item:ironfur-liver",
+  "item:roc-gizzard"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Groddoc Liver",
+  "Rhapsody's Kalimdor Kocktail"
+ ]
+}

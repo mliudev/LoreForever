@@ -1,0 +1,79 @@
+{
+ "key": "item:gadrin-s-parchment",
+ "type": "item",
+ "name": "Gadrin's Parchment",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Gadrin's Parchment",
+  "quests": [
+   "quest:2937"
+  ]
+ },
+ "summary": "Gadrin's Parchment is read at Shadra'Alor in the Hinterlands. Its words summon Shadra, whose venom Apothecary Lydon seeks in Tarren Mill.",
+ "sections": [
+  {
+   "title": "At Shadra'Alor",
+   "body": "Deep in the Witherbark realm, Gadrin's Parchment is read at the altar of Shadra'Alor. Its words summon Shadra, the spider god. Her venom is sought by Apothecary Lydon in Tarren Mill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Gadrin's Parchment do?",
+   "aliases": [
+    "what is parchment for",
+    "gadrin parchment use"
+   ],
+   "answer": "Gadrin's Parchment is read at Shadra'Alor to summon Shadra, the spider god."
+  },
+  {
+   "q": "Where do I read the parchment?",
+   "aliases": [
+    "where use parchment",
+    "shadra altar location"
+   ],
+   "answer": "Read Gadrin's Parchment at the altar of Shadra'Alor, deep in the Witherbark realm of the Hinterlands."
+  },
+  {
+   "q": "Who is Shadra?",
+   "aliases": [
+    "shadra spider",
+    "spider god"
+   ],
+   "answer": "Shadra is the spider god summoned by reading Gadrin's Parchment at Shadra'Alor."
+  },
+  {
+   "q": "Who wants Shadra's venom?",
+   "aliases": [
+    "venom for who",
+    "lydon venom"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill seeks Shadra's venom."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "gadrin",
+  "gadrin's parchment",
+  "hinterlands",
+  "parchment",
+  "shadra",
+  "shadra'alor",
+  "venom",
+  "witherbark"
+ ],
+ "related": [
+  "quest:2937",
+  "quest:2936",
+  "item:shadra-s-venom",
+  "zone:hinterlands",
+  "subzone:tarren-mill"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gadrin's Parchment",
+  "Summoning Shadra (Classic)"
+ ]
+}

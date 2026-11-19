@@ -2,11 +2,11 @@
 -- once I go to Goldshire... it needs to be removed somehow more easily"; it took two asks of Willo). WorldPins notices
 -- the player reaching a pin they'd been away from and calls Reached: a small card at the top of the screen names it,
 -- with its note, and two buttons. Clear pin takes it off the maps at once (Journey.ClearPin), and Willo takes it out of
--- their notebook after their next save; Keep, Escape or SHOW seconds of nothing leave it be. The floating player's
+-- their notebook at once too, through the sky (Strip.PinCleared; else after their next save); Keep, Escape or SHOW seconds of nothing leave it be. The floating player's
 -- look (Hooks.KeyPrompt): solid, a gold rim, buttons sized to their labels. Never in combat: a fight first, then the card.
 --
 -- A pin cleared by a right-click on a map gets the same card, saying so, with Put it back and Done, for SHOW seconds:
--- until their next save Willo hasn't seen it, so Put it back undoes it whole, on the maps and in their notebook (Mike's
+-- until the card goes Willo hasn't heard of it, so Put it back undoes it whole, on the maps and in their notebook (Mike's
 -- QA 11/11: a right-click on the minimap's rim took the Darkmoon Faire pin with one chat line he never saw, and at his
 -- next /reload Willo took it out of his notebook; he thought his next pin had wiped it). Not after this card's own Clear
 -- pin, which they just read and chose, and not while the game's interface is hidden (the Design Lead, 11/11).
@@ -24,6 +24,14 @@ local GOLD = "|cffffd100"
 local card, waiting
 
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(GOLD .. "Lore Forever:|r " .. msg) end
+
+-- The pin the card offers to put back, no longer offered (Done, its time up, Escape, another card in its place):
+-- Willo hears now that it's cleared (Strip.PinCleared), not at the next save.
+local function letGo()
+  local p = card and card.cleared
+  if card then card.cleared = nil end
+  if p and ns.Strip and ns.Strip.PinCleared then pcall(ns.Strip.PinCleared, p) end
+end
 
 local function build()
   local T = ns.Theme
@@ -71,7 +79,7 @@ local function build()
     self.left = (self.left or SHOW) - (dt or 0)
     if self.left <= 0 then self:Hide() end
   end)
-  f:SetScript("OnHide", function(self) self.pin, self.sample, self.cleared = nil, nil, nil end)
+  f:SetScript("OnHide", function(self) letGo(); self.pin, self.sample = nil, nil end)
   f:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
     T.Tip(L["Drag: move it."], "tipDim")
@@ -104,7 +112,8 @@ function PinArrive.Reached(pin)
   if type(pin) ~= "table" or not pin.key then return false end
   if InCombatLockdown and InCombatLockdown() then waiting = pin; return true end
   card = card or build()
-  card.pin, card.sample, card.cleared = pin, nil, nil
+  letGo()
+  card.pin, card.sample = pin, nil
   buttons(false)
   fill(pin.title or "", pin.note)
   card.left = SHOW
@@ -116,7 +125,8 @@ end
 -- Done.
 function PinArrive.Sample()
   card = card or build()
-  card.pin, card.sample, card.cleared = nil, true, nil
+  letGo()
+  card.pin, card.sample = nil, true
   buttons(false)
   fill(L["Drag this card too"], nil)
   card.left = SHOW
@@ -131,7 +141,7 @@ function PinArrive.HideSample()
   if card and card.sample then card:Hide() end
 end
 
--- Clear pin: off the maps now; Willo takes it out of the notebook after the next save. fromCard: the arrival card's own
+-- Clear pin: off the maps now; Willo takes it out of the notebook once Put it back is no longer offered (letGo). fromCard: the arrival card's own
 -- Clear pin (no receipt card after it).
 function PinArrive.Clear(pin, fromCard)
   if card and card.pin and card.pin.key == pin.key then card:Hide() end
@@ -140,9 +150,14 @@ function PinArrive.Clear(pin, fromCard)
   local J = ns.Journey
   if J.FocusMap and J.focus then pcall(J.FocusMap, J.focus) end
   say(string.format(L["Cleared the pin: %s."], pin.title or ""))
-  -- The card says it too, with Put it back (a fight or not: it answers their own click on a map).
-  if fromCard or (UIParent and UIParent.IsShown and not UIParent:IsShown()) then return true end
+  -- The card says it too, with Put it back (a fight or not: it answers their own click on a map). No card: nothing to
+  -- put it back with, so Willo hears now.
+  if fromCard or (UIParent and UIParent.IsShown and not UIParent:IsShown()) then
+    if ns.Strip and ns.Strip.PinCleared then pcall(ns.Strip.PinCleared, pin) end
+    return true
+  end
   card = card or build()
+  letGo()
   card.pin, card.sample, card.cleared = nil, nil, pin
   buttons(true)
   fill(pin.title or "", nil, string.format(L["Cleared the pin: %s."], pin.title or ""))
@@ -153,7 +168,7 @@ end
 
 -- Put it back: the pin just cleared is on the maps again, and Willo never takes it out.
 function PinArrive.PutBack(pin)
-  if card and card.cleared == pin then card:Hide() end
+  if card and card.cleared == pin then card.cleared = nil; card:Hide() end
   if not (ns.Journey and ns.Journey.UnclearPin and ns.Journey.UnclearPin(pin)) then return false end
   if ns.WorldPins and ns.WorldPins.Update then pcall(ns.WorldPins.Update) end
   local J = ns.Journey

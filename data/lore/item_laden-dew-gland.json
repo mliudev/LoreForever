@@ -1,0 +1,76 @@
+{
+ "key": "item:laden-dew-gland",
+ "type": "item",
+ "name": "Laden Dew Gland",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Laden Dew Gland",
+  "quests": [
+   "quest:2605"
+  ]
+ },
+ "summary": "A Laden Dew Gland holds water gathered by a dew collector in Tanaris. Marin Noggenfogger in Gadgetzan wants one to ease his thirst.",
+ "sections": [
+  {
+   "title": "Water for Marin",
+   "body": "Southwest of Gadgetzan, Thistleshrub Valley is home to dew collectors that store water in special glands. Marin Noggenfogger asks you to bring him a Laden Dew Gland, hoping it will quench his terrible thirst.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Laden Dew Gland?",
+   "aliases": [
+    "dew gland",
+    "laden gland"
+   ],
+   "answer": "A Laden Dew Gland is a water-filled organ carried by dew collectors in Thistleshrub Valley."
+  },
+  {
+   "q": "Who wants the gland?",
+   "aliases": [
+    "who needs dew gland",
+    "marin gland"
+   ],
+   "answer": "Marin Noggenfogger in Gadgetzan wants a Laden Dew Gland to try to quench his thirst."
+  },
+  {
+   "q": "Where do I find a Laden Dew Gland?",
+   "aliases": [
+    "dew gland location",
+    "where gland tanaris"
+   ],
+   "answer": "Thistleshrub Dew Collectors in Thistleshrub Valley, southwest of Gadgetzan, carry Laden Dew Glands."
+  },
+  {
+   "q": "Why does Marin want it?",
+   "aliases": [
+    "marin thirsty",
+    "why dew gland"
+   ],
+   "answer": "Marin hopes the water stored in the gland will make a drink that quenches his terrible thirst."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dew collector",
+  "dew gland",
+  "laden dew gland",
+  "marin noggenfogger",
+  "tanaris",
+  "thistleshrub valley"
+ ],
+ "related": [
+  "quest:2605",
+  "item:thistleshrub-dew",
+  "subzone:thistleshrub-valley",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Laden Dew Gland",
+  "The Thirsty Goblin"
+ ]
+}

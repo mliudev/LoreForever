@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Tazzik sends you to collect winnings in Steamwheedle Port, but the arena's champion earned nothing. You need to confront Tazzik about the unpaid debt.",
+ "summary": "Tazzik sent you to collect his winnings in Gadgetzan, but his arena champion earned nothing. You need to confront Tazzik about the unpaid debt.",
  "sections": [
   {
    "title": "Back to the Port",
@@ -55,7 +55,7 @@
     "friz tazzik",
     "tazzik friz"
    ],
-   "answer": "Tazzik says he wagered everything he had on the fights to pay Friz."
+   "answer": "Friz is the one Tazzik owes. He bet her money on a fight in the Gadgetzan arena, and his champion lost."
   }
  ],
  "angles": [],

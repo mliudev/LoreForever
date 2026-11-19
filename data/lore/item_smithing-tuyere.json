@@ -1,0 +1,87 @@
+{
+ "key": "item:smithing-tuyere",
+ "type": "item",
+ "name": "Smithing Tuyere",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Smithing Tuyere",
+  "quests": [
+   "quest:7728"
+  ]
+ },
+ "summary": "The Smithing Tuyere is a blacksmithing tool stolen by Dark Iron dwarves in Searing Gorge. The Thorium Brotherhood wants it returned to Taskmaster Scrange.",
+ "sections": [
+  {
+   "title": "A Stolen Tool",
+   "body": "The Thorium Brotherhood seeks the Smithing Tuyere in Searing Gorge, where Dark Iron dwarves have stolen it. The tool belongs to a smith's forge. Air blown through its tube makes a furnace burn hotter, helping metal grow soft enough to work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Smithing Tuyere?",
+   "aliases": [
+    "what's a tuyere",
+    "tuyere tool",
+    "smithing tube"
+   ],
+   "answer": "A Smithing Tuyere is a tube that blows air into a furnace, making its fire hotter so metal can be worked."
+  },
+  {
+   "q": "Who stole the tuyere?",
+   "aliases": [
+    "who took it",
+    "dark iron theft",
+    "who stole the tool"
+   ],
+   "answer": "The Thorium Brotherhood believes Dark Iron dwarves in Searing Gorge stole the Smithing Tuyere."
+  },
+  {
+   "q": "Who wants the tuyere back?",
+   "aliases": [
+    "who wants it",
+    "return tuyere",
+    "thorium brotherhood item"
+   ],
+   "answer": "The Thorium Brotherhood wants the Smithing Tuyere returned to Taskmaster Scrange in Searing Gorge."
+  },
+  {
+   "q": "Where was the tuyere stolen?",
+   "aliases": [
+    "where is it missing",
+    "tuyere location",
+    "where to find the tool"
+   ],
+   "answer": "The Smithing Tuyere was stolen by Dark Iron dwarves in Searing Gorge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "As a blacksmith, you know a tuyere feeds air into a furnace, making its fire hot enough to work metal."
+  }
+ ],
+ "keywords": [
+  "blacksmithing tool",
+  "dark iron dwarves",
+  "furnace",
+  "searing gorge",
+  "smithing tuyere",
+  "taskmaster scrange",
+  "thorium brotherhood",
+  "tuyere"
+ ],
+ "related": [
+  "zone:searinggorge",
+  "subzone:thorium-point",
+  "subzone:slag-pit",
+  "quest:3442",
+  "item:lookout-s-spyglass"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Smithing Tuyere",
+  "STOLEN: Smithing Tuyere and Lookout's Spyglass"
+ ]
+}

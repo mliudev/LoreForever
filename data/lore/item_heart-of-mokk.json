@@ -1,0 +1,79 @@
+{
+ "key": "item:heart-of-mokk",
+ "type": "item",
+ "name": "Heart of Mokk",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Heart of Mokk",
+  "quests": [
+   "quest:348"
+  ]
+ },
+ "summary": "The Heart of Mokk is taken from Mokk the Savage in Cape of Stranglethorn. Fin Fizracket seeks it as a cure for Stranglethorn Fever.",
+ "sections": [
+  {
+   "title": "A Fever's Cure",
+   "body": "Fin Fizracket is stricken with a deadly fever in Booty Bay and believes only Mokk the Savage's heart can cure him. Witch Doctor Unbagwa, hidden in a cave on the southern cape, can summon the elusive white beast. The heart is what Fin needs to regain his strength.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Heart of Mokk?",
+   "aliases": [
+    "mokk heart",
+    "heart item",
+    "what's mokk's heart"
+   ],
+   "answer": "The Heart of Mokk is the heart of Mokk the Savage, an elusive white beast in Cape of Stranglethorn."
+  },
+  {
+   "q": "Who needs the Heart of Mokk?",
+   "aliases": [
+    "who wants it",
+    "fin fizracket heart",
+    "who needs mokk"
+   ],
+   "answer": "Fin Fizracket in Booty Bay seeks the Heart of Mokk as a cure for Stranglethorn Fever."
+  },
+  {
+   "q": "Where does the Heart of Mokk come from?",
+   "aliases": [
+    "where heart",
+    "mokk location",
+    "find heart of mokk"
+   ],
+   "answer": "The Heart of Mokk comes from Mokk the Savage in Cape of Stranglethorn."
+  },
+  {
+   "q": "How can Mokk be summoned?",
+   "aliases": [
+    "summon mokk",
+    "unbagwa where",
+    "witch doctor mokk"
+   ],
+   "answer": "Witch Doctor Unbagwa, in a hidden cave on the southern cape, can summon Mokk the Savage."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cape of stranglethorn",
+  "fin fizracket",
+  "heart of mokk",
+  "mokk the savage",
+  "stranglethorn fever",
+  "witch doctor unbagwa"
+ ],
+ "related": [
+  "quest:349",
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "subzone:cape-of-stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Heart of Mokk",
+  "Wowpedia: Stranglethorn Fever"
+ ]
+}

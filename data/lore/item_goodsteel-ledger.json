@@ -1,0 +1,93 @@
+{
+ "key": "item:goodsteel-ledger",
+ "type": "item",
+ "name": "Goodsteel Ledger",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Goodsteel Ledger",
+  "quests": [
+   "quest:4450"
+  ]
+ },
+ "summary": "The Goodsteel Ledger is a copy of a list kept in Searing Gorge. It names goods Krinkle Goodsteel wants brought to him in Gadgetzan.",
+ "sections": [
+  {
+   "title": "The Ledger",
+   "body": "Near an outhouse in Searing Gorge lies the Goodsteel Ledger, a copy meant for Krinkle Goodsteel in Gadgetzan. Its pages list goods he is seeking from several places. Carrying the ledger to him begins the search for what it names.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Goodsteel Ledger?",
+   "aliases": [
+    "goodsteel ledger",
+    "goodsteel's list",
+    "ledger from tanaris"
+   ],
+   "answer": "The Goodsteel Ledger is a copy of Krinkle Goodsteel's list of requested goods, found in Searing Gorge."
+  },
+  {
+   "q": "Where do I find the ledger?",
+   "aliases": [
+    "ledger location",
+    "where is goodsteel's ledger",
+    "ledger searing gorge"
+   ],
+   "answer": "The Goodsteel Ledger lies by an outhouse in Searing Gorge."
+  },
+  {
+   "q": "Who is Krinkle Goodsteel?",
+   "aliases": [
+    "krinkle",
+    "goodsteel guy",
+    "who wants the ledger"
+   ],
+   "answer": "Krinkle Goodsteel is a gnome in Gadgetzan who is looking for goods from Searing Gorge and other places."
+  },
+  {
+   "q": "What does the ledger list?",
+   "aliases": [
+    "what's on the list",
+    "ledger items",
+    "goods goodsteel wants"
+   ],
+   "answer": "The ledger lists Solid Crystal Leg Shafts, an Overdue Package, and Goodsteel's Balanced Flameberge."
+  },
+  {
+   "q": "Where should I take it?",
+   "aliases": [
+    "where to bring ledger",
+    "take ledger to krinkle",
+    "goodsteel gadgetzan"
+   ],
+   "answer": "Take the copy of the ledger to Krinkle Goodsteel in Gadgetzan, then gather the goods listed in it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "balanced flameberge",
+  "gadgetzan",
+  "goodsteel ledger",
+  "krinkle goodsteel",
+  "ledger from tanaris",
+  "overdue package",
+  "searing gorge",
+  "solid crystal leg shaft"
+ ],
+ "related": [
+  "quest:4450",
+  "quest:4449",
+  "zone:searinggorge",
+  "subzone:gadgetzan",
+  "item:solid-crystal-leg-shaft",
+  "item:overdue-package",
+  "item:goodsteel-s-balanced-flameberge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Goodsteel Ledger",
+  "Ledger from Tanaris"
+ ]
+}

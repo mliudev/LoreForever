@@ -1,0 +1,79 @@
+{
+ "key": "item:super-snapper-fx",
+ "type": "item",
+ "name": "Super Snapper FX",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Super Snapper FX",
+  "quests": [
+   "quest:2944"
+  ]
+ },
+ "summary": "The Super Snapper FX is Curgle's camera, lent to you by Daryn Lightwind in Rut'theran Village. She wants a picture of Gammerita, a creature from the Hinterlands.",
+ "sections": [
+  {
+   "title": "A New Invention",
+   "body": "Daryn Lightwind sends you to Curgle for his new invention, the Super Snapper FX. She asks for a snapshot of Gammerita, the creature from the Hinterlands, and expects you to bring the picture back to Rut'theran Village. Curgle says to aim at your subject and press the button.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Super Snapper FX?",
+   "aliases": [
+    "super snapper",
+    "snapper camera"
+   ],
+   "answer": "The Super Snapper FX is a camera made by Curgle. Daryn Lightwind lends it to you to take a picture of Gammerita."
+  },
+  {
+   "q": "Who wants a picture of Gammerita?",
+   "aliases": [
+    "who needs the photo",
+    "daryn picture"
+   ],
+   "answer": "Daryn Lightwind in Rut'theran Village asks you to bring back a snapshot of Gammerita from the Hinterlands."
+  },
+  {
+   "q": "Who made the Super Snapper FX?",
+   "aliases": [
+    "who built snapper",
+    "curgle invention"
+   ],
+   "answer": "Curgle built the Super Snapper FX for Daryn Lightwind."
+  },
+  {
+   "q": "What does the Super Snapper FX do?",
+   "aliases": [
+    "how does the snapper work",
+    "camera button"
+   ],
+   "answer": "Aim the Super Snapper FX at what you want to photograph and press its button."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "c amate",
+  "c camera",
+  "camer",
+  "cargle",
+  "daryn lightwind",
+  "gammerita",
+  "snapshot",
+  "super snapper",
+  "super snapper fx"
+ ],
+ "related": [
+  "quest:2944",
+  "item:snapshot-of-gammerita",
+  "zone:feralas",
+  "zone:hinterlands",
+  "subzone:rut-theran-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Super Snapper FX",
+  "The Super Snapper FX"
+ ]
+}

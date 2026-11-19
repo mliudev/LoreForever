@@ -1,0 +1,81 @@
+{
+ "key": "item:atal-ai-tablet-fragment",
+ "type": "item",
+ "name": "Atal'ai Tablet Fragment",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Atal'ai Tablet Fragment",
+  "quests": [
+   "quest:1469"
+  ]
+ },
+ "summary": "The Atal'ai Tablet Fragment is a troll souvenir Rhapsody Shindigger found near a sunken temple. Brohann Caskbelly values it as an Atal'ai artifact.",
+ "sections": [
+  {
+   "title": "A Troll Souvenir",
+   "body": "Rhapsody Shindigger found the Atal'ai Tablet Fragment after falling into the water near a sunken temple. He says creepy trolls surrounded him there, and he swam away with this fragment. He gives it to you for Brohann Caskbelly in Stormwind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Atal'ai Tablet Fragment?",
+   "aliases": [
+    "atal'ai tablet",
+    "tablet fragment",
+    "troll fragment"
+   ],
+   "answer": "It is a troll keepsake that Rhapsody Shindigger picked up near a sunken temple."
+  },
+  {
+   "q": "Where did Rhapsody find it?",
+   "aliases": [
+    "where's the fragment from",
+    "rhapsody tablet",
+    "temple souvenir"
+   ],
+   "answer": "Rhapsody says he found the fragment in the water near a sunken temple, surrounded by trolls."
+  },
+  {
+   "q": "Who should I give the fragment to?",
+   "aliases": [
+    "who wants this",
+    "brohann tablet",
+    "where deliver fragment"
+   ],
+   "answer": "Bring the Atal'ai Tablet Fragment to Brohann Caskbelly in Stormwind."
+  },
+  {
+   "q": "Why does Brohann want it?",
+   "aliases": [
+    "why brohann wants it",
+    "what's it worth",
+    "atal'ai artifact"
+   ],
+   "answer": "Brohann recognizes the fragment as an Atal'ai artifact and calls it quite a find."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "atal'ai",
+  "atal'ai tablet fragment",
+  "brohann caskbelly",
+  "fragment",
+  "rhapsody shindigger",
+  "sunken temple",
+  "tablet",
+  "troll"
+ ],
+ "related": [
+  "quest:1469",
+  "item:atal-ai-artifact",
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Atal'ai Tablet Fragment",
+  "Wowpedia: Rhapsody's Tale"
+ ]
+}

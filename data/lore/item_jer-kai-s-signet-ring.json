@@ -1,0 +1,94 @@
+{
+ "key": "item:jer-kai-s-signet-ring",
+ "type": "item",
+ "name": "Jer'kai's Signet Ring",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Jer'kai's Signet Ring",
+  "quests": [
+   "quest:2972"
+  ]
+ },
+ "summary": "Jer'kai's Signet Ring carries her message from the wilds of Feralas to Tyrande Whisperwind in Darnassus. It tells the High Priestess that Jer'kai and Kindal are well and gives credit for your help.",
+ "sections": [
+  {
+   "title": "A Message to Darnassus",
+   "body": "In Feralas, Jer'kai Moonweaver entrusts you with her signet ring after you help her and Kindal. She asks you to carry it to Tyrande Whisperwind at the Temple of the Moon in Darnassus. The ring bears word that the two are well and gives Tyrande the truth of your help.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Temple",
+   "body": "Tyrande hears your account of helping dragonkind and one of her priestesses. She promises to return Jer'kai's ring, sending scouts toward Feralas with it. For now, the ring has carried its message to the High Priestess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Jer'kai's Signet Ring for?",
+   "aliases": [
+    "jerkai ring",
+    "signet ring purpose",
+    "ring for tyrande"
+   ],
+   "answer": "Jer'kai asks you to take the ring to Tyrande Whisperwind at the Temple of the Moon in Darnassus. It tells Tyrande that Jer'kai and Kindal are well and gives credit for your help."
+  },
+  {
+   "q": "Who gave me the ring?",
+   "aliases": [
+    "who gave ring",
+    "jerkai ring giver",
+    "where ring from"
+   ],
+   "answer": "Jer'kai Moonweaver gives you her signet ring in Feralas after you help her and Kindal."
+  },
+  {
+   "q": "Who is supposed to receive the ring?",
+   "aliases": [
+    "ring recipient",
+    "who gets jerkais ring",
+    "tyrande ring"
+   ],
+   "answer": "Tyrande Whisperwind, the High Priestess at Darnassus's Temple of the Moon, is to receive the ring."
+  },
+  {
+   "q": "What does Tyrande do with the ring?",
+   "aliases": [
+    "tyrande response",
+    "ring returned",
+    "what happens to ring"
+   ],
+   "answer": "Tyrande promises to return the ring to Jer'kai, sending scouts toward Feralas with it."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you carry Jer'kai's message to Tyrande Whisperwind, High Priestess of Elune, at the Temple of the Moon."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "feralas",
+  "jer'kai moonweaver",
+  "jer'kai's signet ring",
+  "kindal",
+  "message",
+  "signet ring",
+  "temple of the moon",
+  "tyrande whisperwind"
+ ],
+ "related": [
+  "quest:2970",
+  "quest:2969",
+  "zone:feralas",
+  "zone:darnassus",
+  "subzone:temple-of-the-moon",
+  "npc:tyrande-whisperwind"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Jer'kai's Signet Ring",
+  "Doling Justice (2)"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "item:hand-of-dagun",
+ "type": "item",
+ "name": "Hand of Dagun",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Hand of Dagun",
+  "quests": [
+   "quest:735"
+  ]
+ },
+ "summary": "The Hand of Dagun is a relic sought by Gerrig Bonegrip in Ironforge. It is one of three items he requests in exchange for Yagyin's Digest.",
+ "sections": [
+  {
+   "title": "A Relic for Bonegrip",
+   "body": "Gerrig Bonegrip asks for the Hand of Dagun alongside two other relics. He needs all three before he will give you a copy of Yagyin's Digest, a text tied to beginning a new chapter of his order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Hand of Dagun?",
+   "aliases": [
+    "hand of dagun",
+    "dagun hand",
+    "what's the hand"
+   ],
+   "answer": "The Hand of Dagun is a relic Gerrig Bonegrip requests with the Star of Xil'yeh and the Legacy Heart."
+  },
+  {
+   "q": "Who wants the Hand of Dagun?",
+   "aliases": [
+    "who wants dagun's hand",
+    "bonegrip hand",
+    "who needs it"
+   ],
+   "answer": "Gerrig Bonegrip in Ironforge asks you to bring him the Hand of Dagun and two other relics."
+  },
+  {
+   "q": "Why does Gerrig Bonegrip need it?",
+   "aliases": [
+    "why bonegrip wants it",
+    "why need hand",
+    "what's it for"
+   ],
+   "answer": "Gerrig needs the Hand of Dagun as one of three relics he requests before giving you a copy of Yagyin's Digest."
+  },
+  {
+   "q": "What does the Hand of Dagun do?",
+   "aliases": [
+    "dagun hand powers",
+    "what does it do",
+    "poison hand"
+   ],
+   "answer": "The Hand of Dagun is said to carry a poison that mutates its victim into a member of an old race."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, Gerrig Bonegrip's request offers a chance to help begin a new chapter of his order."
+  }
+ ],
+ "keywords": [
+  "dagun",
+  "gerrig bonegrip",
+  "hand of dagun",
+  "legacy heart",
+  "poison",
+  "relic",
+  "star of xil'yeh",
+  "yagyin's digest"
+ ],
+ "related": [
+  "npc:gerrig-bonegrip",
+  "quest:736",
+  "item:bonegrip-s-note",
+  "item:star-of-xil-yeh",
+  "item:the-legacy-heart",
+  "item:yagyin-s-digest",
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hand of Dagun",
+  "The Star, the Hand and the Heart (Alliance)"
+ ]
+}

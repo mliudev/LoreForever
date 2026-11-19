@@ -1,0 +1,98 @@
+{
+ "key": "item:zorbin-s-ultra-shrinker",
+ "type": "item",
+ "name": "Zorbin's Ultra-Shrinker",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Zorbin's Ultra-Shrinker",
+  "quests": [
+   "quest:7725"
+  ]
+ },
+ "summary": "Zorbin\u2019s Ultra-Shrinker is a goblin device used on giants along Feralas\u2019s western coast. Zorbin Fandazzle studies the residue left behind and values the goodwill it earns among his Steamwheedle Cartel friends.",
+ "sections": [
+  {
+   "title": "A Goblin Device",
+   "body": "At the Forgotten Coast docks, Zorbin Fandazzle puts his Ultra-Shrinker to work on Feralas\u2019s giants. The device reduces them to a more manageable form, leaving residue for his research. Zorbin welcomes more of it, and says the service carries word of your work to his goblin friends in the Steamwheedle Cartel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Zorbin\u2019s Ultra-Shrinker do?",
+   "aliases": [
+    "what does the shrinker do",
+    "shrink giant device",
+    "zorbin shrink ray"
+   ],
+   "answer": "Zorbin\u2019s Ultra-Shrinker reduces giants in Feralas to a more manageable form and leaves residue for his research."
+  },
+  {
+   "q": "Who is Zorbin Fandazzle?",
+   "aliases": [
+    "who is zorbin",
+    "zorbin fandazzle",
+    "goblin at the docks"
+   ],
+   "answer": "Zorbin Fandazzle is a goblin at the Forgotten Coast docks in Feralas who studies residue from shrunken giants."
+  },
+  {
+   "q": "Where does Zorbin use the device?",
+   "aliases": [
+    "where is zorbin",
+    "forgotten coast shrinker",
+    "feralas giant device"
+   ],
+   "answer": "Zorbin Fandazzle is at the docks of the Forgotten Coast, and the giants he studies are along Feralas\u2019s western coast."
+  },
+  {
+   "q": "Why does Zorbin want the residue?",
+   "aliases": [
+    "why residue",
+    "what's miniaturization residue for",
+    "zorbin research"
+   ],
+   "answer": "Zorbin studies Miniaturization Residue, which is left by giants reduced with his Ultra-Shrinker."
+  },
+  {
+   "q": "What does Zorbin offer for helping him?",
+   "aliases": [
+    "zorbin compensation",
+    "cartel reputation",
+    "what do i get from zorbin"
+   ],
+   "answer": "Zorbin offers coin and says he will spread word of your service among his goblin friends in the Steamwheedle Cartel."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may appreciate Zorbin\u2019s goblin device, built to shrink Feralas\u2019s giants for study."
+  }
+ ],
+ "keywords": [
+  "feralas",
+  "forgotten coast",
+  "giants",
+  "goblin device",
+  "miniaturization residue",
+  "steamwheedle cartel",
+  "zorbin fandazzle",
+  "zorbin's ultra-shrinker"
+ ],
+ "related": [
+  "quest:7725",
+  "quest:7003",
+  "item:miniaturization-residue",
+  "subzone:forgotten-coast",
+  "zone:feralas",
+  "topic:steamwheedle-cartel",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Zorbin's Ultra-Shrinker",
+  "Again With the Zapped Giants"
+ ]
+}

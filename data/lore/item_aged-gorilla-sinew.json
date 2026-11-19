@@ -1,0 +1,80 @@
+{
+ "key": "item:aged-gorilla-sinew",
+ "type": "item",
+ "name": "Aged Gorilla Sinew",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Aged Gorilla Sinew",
+  "quests": [
+   "quest:571"
+  ]
+ },
+ "summary": "Aged Gorilla Sinew comes from Elder Mistvale Gorillas east of Booty Bay in Stranglethorn Vale. Far Seer Mok'thardin needs one as a magical tether for his work.",
+ "sections": [
+  {
+   "title": "A Magical Tether",
+   "body": "East of Booty Bay, Elder Mistvale Gorillas forage in the jungle. Far Seer Mok'thardin needs an aged sinew from one of them to bind feathers, claws, and a pristine fang in place. The sinew must be perfect, so finding one may take patience.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Aged Gorilla Sinew?",
+   "aliases": [
+    "aged sinew location",
+    "where gorilla sinew",
+    "sinew where"
+   ],
+   "answer": "Elder Mistvale Gorillas forage east of Booty Bay in Stranglethorn Vale, and one may yield an aged sinew."
+  },
+  {
+   "q": "Who needs the sinew?",
+   "aliases": [
+    "who wants sinew",
+    "Mok'thardin sinew",
+    "far seer needs what"
+   ],
+   "answer": "Far Seer Mok'thardin in Grom'gol needs an Aged Gorilla Sinew as a magical tether."
+  },
+  {
+   "q": "What is the sinew used for?",
+   "aliases": [
+    "why sinew",
+    "what for aged gorilla sinew",
+    "magical tether"
+   ],
+   "answer": "Mok'thardin uses the sinew to hold feathers, claws, and a pristine fang in place."
+  },
+  {
+   "q": "Why must the sinew be perfect?",
+   "aliases": [
+    "perfect sinew why",
+    "good sinew",
+    "why aged"
+   ],
+   "answer": "Mok'thardin requires a perfect sinew for his magical tether."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aged gorilla sinew",
+  "booty bay",
+  "elder mistvale gorilla",
+  "far seer mok'thardin",
+  "gorilla sinew",
+  "magical tether",
+  "mistvale valley",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "quest:570"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Aged Gorilla Sinew",
+  "Mok'thardin's Enchantment (2)"
+ ]
+}

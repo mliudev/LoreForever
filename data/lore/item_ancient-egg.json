@@ -1,0 +1,86 @@
+{
+ "key": "item:ancient-egg",
+ "type": "item",
+ "name": "Ancient Egg",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Ancient Egg",
+  "quests": [
+   "quest:4787"
+  ]
+ },
+ "summary": "The Ancient Egg is a troll relic hidden in Jintha'Alor in the Hinterlands. Yeh'kinya seeks it because the Prophecy of Mosh'aru says it can contain Hakkar's essence.",
+ "sections": [
+  {
+   "title": "A Relic in Jintha'Alor",
+   "body": "Deep within the troll city of Jintha'Alor, the Ancient Egg lies in a cave beyond the amphitheater. Yeh'kinya seeks it in Tanaris, where he studies the Prophecy of Mosh'aru. The prophecy names the egg as a vessel for Hakkar's essence. Yeh'kinya fears that the world may depend on it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Ancient Egg?",
+   "aliases": [
+    "ancient egg",
+    "what egg",
+    "troll egg"
+   ],
+   "answer": "The Ancient Egg is a troll relic from the age of vast troll empires. The Prophecy of Mosh'aru says it can hold Hakkar's essence."
+  },
+  {
+   "q": "Where is the Ancient Egg?",
+   "aliases": [
+    "egg location",
+    "where egg",
+    "jintha alor egg"
+   ],
+   "answer": "The Ancient Egg lies in a cave deep within Jintha'Alor, behind the amphitheater at the city's summit in the Hinterlands."
+  },
+  {
+   "q": "Who wants the Ancient Egg?",
+   "aliases": [
+    "yehkinya egg",
+    "who wants it",
+    "bring egg to"
+   ],
+   "answer": "Yeh'kinya in Tanaris seeks the Ancient Egg because of what the Prophecy of Mosh'aru says it can do."
+  },
+  {
+   "q": "Why does Yeh'kinya want it?",
+   "aliases": [
+    "why egg",
+    "hakkar egg",
+    "prophecy egg"
+   ],
+   "answer": "Yeh'kinya believes the Ancient Egg may be the only way to keep the world safe from Hakkar's evil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, the Ancient Egg recalls the vast empires of your people and the power bound to their old relics."
+  }
+ ],
+ "keywords": [
+  "ancient egg",
+  "hakkar",
+  "hinterlands",
+  "jintha'alor",
+  "mosh'aru",
+  "troll relic",
+  "yeh'kinya"
+ ],
+ "related": [
+  "quest:4787",
+  "zone:hinterlands",
+  "npc:yeh-kinya",
+  "quest:3527",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ancient Egg",
+  "The Ancient Egg"
+ ]
+}

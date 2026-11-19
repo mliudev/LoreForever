@@ -1,0 +1,79 @@
+{
+ "key": "item:singed-scroll-fragment",
+ "type": "item",
+ "name": "Singed Scroll Fragment",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Singed Scroll Fragment",
+  "quests": [
+   "quest:692"
+  ]
+ },
+ "summary": "The Singed Scroll Fragment is one of three pieces of a destroyed scroll sought by Theldurin the Lost. Its recovery may help guard against Myzrael.",
+ "sections": [
+  {
+   "title": "A Scorched Piece",
+   "body": "Enraged Rock Elementals in the hills behind Theldurin the Lost carry the Singed Scroll Fragment. He seeks it with two other pieces of the Scroll of Myzrael, hoping the fragments can be joined again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Singed Scroll Fragment?",
+   "aliases": [
+    "singed fragment",
+    "singed scroll piece"
+   ],
+   "answer": "It is one of three fragments from the destroyed Scroll of Myzrael."
+  },
+  {
+   "q": "Where does the fragment come from?",
+   "aliases": [
+    "where find singed fragment",
+    "singed fragment location"
+   ],
+   "answer": "Enraged Rock Elementals in the hills behind Theldurin the Lost carry it."
+  },
+  {
+   "q": "Who wants the fragment?",
+   "aliases": [
+    "who needs singed fragment",
+    "theldurin fragment"
+   ],
+   "answer": "Theldurin the Lost asks for it alongside the Torn Scroll Fragment and the Crumpled Scroll Fragment."
+  },
+  {
+   "q": "Why does Theldurin want the fragments?",
+   "aliases": [
+    "why collect fragments",
+    "myzrael scroll why"
+   ],
+   "answer": "He hopes to reattach them so the Scroll of Myzrael can be used against Myzrael."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "crumpled scroll fragment",
+  "enraged rock elemental",
+  "myzrael",
+  "scroll of myzrael",
+  "singed scroll fragment",
+  "theldurin the lost",
+  "torn scroll fragment"
+ ],
+ "related": [
+  "quest:692",
+  "item:scroll-of-myzrael",
+  "item:crumpled-scroll-fragment",
+  "item:torn-scroll-fragment",
+  "npc:theldurin-the-lost",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Singed Scroll Fragment",
+  "The Lost Fragments"
+ ]
+}

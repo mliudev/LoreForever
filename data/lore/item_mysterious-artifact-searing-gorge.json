@@ -1,0 +1,76 @@
+{
+ "key": "item:mysterious-artifact-searing-gorge",
+ "type": "item",
+ "name": "Mysterious Artifact",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Mysterious Artifact (Searing Gorge)",
+  "quests": [
+   "quest:3372"
+  ]
+ },
+ "summary": "The Mysterious Artifact is a relic guarded by Twilight's Hammer in Searing Gorge. It is sought for the Altar of Suntara in the Slag Pit.",
+ "sections": [
+  {
+   "title": "A Relic in the Hills",
+   "body": "Above a cave in the northwest hills of Searing Gorge, Twilight's Hammer Idolaters guard the Mysterious Artifact. The Altar of Suntara waits empty in the Slag Pit. The dying archaeologist asks you to carry the relic there and set it upon the altar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Mysterious Artifact?",
+   "aliases": [
+    "artifact location",
+    "where's the relic"
+   ],
+   "answer": "Twilight's Hammer Idolaters guard the Mysterious Artifact in the northwest hills of Searing Gorge, above a cave."
+  },
+  {
+   "q": "Who guards the artifact?",
+   "aliases": [
+    "who has it",
+    "twilight hammer relic"
+   ],
+   "answer": "Twilight's Hammer Idolaters guard the Mysterious Artifact in the hills of Searing Gorge."
+  },
+  {
+   "q": "Where does it need to go?",
+   "aliases": [
+    "altar location",
+    "where to take artifact"
+   ],
+   "answer": "The Mysterious Artifact belongs on the Altar of Suntara in the Slag Pit."
+  },
+  {
+   "q": "Why is the artifact sought?",
+   "aliases": [
+    "what is it for",
+    "why find relic"
+   ],
+   "answer": "The dying archaeologist asks you to retrieve the relic and place it on the Altar of Suntara."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "altar of suntara",
+  "idolaters",
+  "mysterious artifact",
+  "searing gorge",
+  "slag pit",
+  "twilight artifact",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:3372",
+  "zone:searinggorge",
+  "subzone:slag-pit",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Mysterious Artifact (Searing Gorge)",
+  "Release Them"
+ ]
+}

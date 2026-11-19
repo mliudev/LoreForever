@@ -1,0 +1,85 @@
+{
+ "key": "item:unprepared-sawtooth-flank",
+ "type": "item",
+ "name": "Unprepared Sawtooth Flank",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Unprepared Sawtooth Flank",
+  "quests": [
+   "quest:698"
+  ]
+ },
+ "summary": "Unprepared Sawtooth Flanks are meat taken from crocolisks and snappers in the Swamp of Sorrows. Dar seeks a shipment for Tok'Kar's outpost, where the soldiers can cook it over their fire.",
+ "sections": [
+  {
+   "title": "Meat for the Outpost",
+   "body": "At the beach outpost in the Swamp of Sorrows, Tok'Kar's soldiers have little time to gather supplies between guard duty and cooking. Dar asks you to bring eight Unprepared Sawtooth Flanks for their fire. The meat comes from full-grown sawtooths; the young ones are not as tasty.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Unprepared Sawtooth Flanks?",
+   "aliases": [
+    "sawtooth flank",
+    "what is sawtooth meat"
+   ],
+   "answer": "They are uncooked meat from Sawtooth Crocolisks and Sawtooth Snappers in the Swamp of Sorrows."
+  },
+  {
+   "q": "Who wants the flanks?",
+   "aliases": [
+    "who needs the meat",
+    "tokkar meat"
+   ],
+   "answer": "Dar asks you to bring the flanks to Tok'Kar, whose soldiers are stationed at an outpost near the beach."
+  },
+  {
+   "q": "Why does Tok'Kar need them?",
+   "aliases": [
+    "why meat for tok'kar",
+    "outpost supplies"
+   ],
+   "answer": "The soldiers have little time to gather supplies while taking guard shifts and cooking. Sawtooth meat gives them fresh food for the fire."
+  },
+  {
+   "q": "Which sawtooths provide the meat?",
+   "aliases": [
+    "where get flanks",
+    "sawtooth croc meat"
+   ],
+   "answer": "Sawtooth Crocolisks and Sawtooth Snappers in the Swamp of Sorrows provide the meat. The young sawtooths are less tasty than those at full size."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Horde soldiers at the Swamp of Sorrows outpost rely on supplies brought from beyond their guard duty. Dar's request helps put fresh meat on their fire."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "The outpost soldiers cook sawtooth meat when they can. Dar seeks full-grown flanks for Tok'Kar's fire."
+  }
+ ],
+ "keywords": [
+  "dar",
+  "lack of surplus",
+  "sawtooth crocolisk",
+  "sawtooth meat",
+  "sawtooth snapper",
+  "swamp of sorrows",
+  "tok'kar",
+  "unprepared sawtooth flank"
+ ],
+ "related": [
+  "quest:698",
+  "zone:swampofsorrows",
+  "quest:1430"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Unprepared Sawtooth Flank",
+  "Lack of Surplus"
+ ]
+}

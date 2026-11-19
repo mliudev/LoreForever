@@ -1,0 +1,88 @@
+{
+ "key": "item:bracers-of-rock-binding",
+ "type": "item",
+ "name": "Bracers of Rock Binding",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Bracers of Rock Binding",
+  "quests": [
+   "quest:712"
+  ]
+ },
+ "summary": "Bracers of Rock Binding are stone bindings taken from greater rock elementals in the Badlands. Lotwil Veriatus needs them to measure the strength of his own shackles.",
+ "sections": [
+  {
+   "title": "Stone Bindings",
+   "body": "Lotwil Veriatus studies the greater rock elementals in the Badlands to learn about the shackles that bind him. He believes their bracers can help him gauge the strength of his own restraints. Five will give him spares for his research, since his assistant Servo is known to misplace reagents and notes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Bracers of Rock Binding?",
+   "aliases": [
+    "rock bracers",
+    "stone bindings",
+    "bracers item"
+   ],
+   "answer": "They are stone bracers taken from greater rock elementals in the Badlands. Lotwil Veriatus studies them to gauge the strength of his own shackles."
+  },
+  {
+   "q": "Who wants these bracers?",
+   "aliases": [
+    "who needs them",
+    "Lotwil bracers",
+    "who wants rock bindings"
+   ],
+   "answer": "Lotwil Veriatus wants five Bracers of Rock Binding for his research into the strength of his shackles."
+  },
+  {
+   "q": "Why does Lotwil need them?",
+   "aliases": [
+    "why bracers",
+    "Lotwil research",
+    "what for"
+   ],
+   "answer": "Lotwil Veriatus believes the greater rock elementals' bracers will help him measure the strength of his own shackles."
+  },
+  {
+   "q": "Where do the bracers come from?",
+   "aliases": [
+    "where get bracers",
+    "rock elemental bracers",
+    "where are they"
+   ],
+   "answer": "Greater rock elementals in the Badlands carry Bracers of Rock Binding."
+  },
+  {
+   "q": "Why does Lotwil ask for five?",
+   "aliases": [
+    "how many bracers",
+    "need five",
+    "why so many"
+   ],
+   "answer": "Lotwil asks for five so he has extras for his research, as his assistant Servo is notorious for misplacing reagents and research."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "bracers of rock binding",
+  "greater rock elemental",
+  "lotwil veriatus",
+  "rock bracers",
+  "servo",
+  "shackles"
+ ],
+ "related": [
+  "quest:710",
+  "npc:lotwil-veriatus",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bracers of Rock Binding",
+  "Study of the Elements: Rock (3)"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:shadowmaw-claw",
+ "type": "item",
+ "name": "Shadowmaw Claw",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Shadowmaw Claw",
+  "quests": [
+   "quest:570"
+  ]
+ },
+ "summary": "A Shadowmaw Claw comes from a panther in Stranglethorn Vale. Far Seer Mok'thardin needs these claws for an enchantment serving the Horde.",
+ "sections": [
+  {
+   "title": "Panther Claws",
+   "body": "Across the river from Mizjah Ruins, Shadowmaw Panthers and their elders hunt in the jungle. Far Seer Mok'thardin at Grom'gol Base Camp seeks their claws, along with a pristine tigress fang, for his enchantment. He believes the jungle's magic can be harnessed for the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Shadowmaw Claws come from?",
+   "aliases": [
+    "shadowmaw claw source",
+    "panther claw",
+    "where claw"
+   ],
+   "answer": "Shadowmaw Panthers and Elder Shadowmaw Panthers in Stranglethorn Vale bear these claws."
+  },
+  {
+   "q": "Who wants Shadowmaw Claws?",
+   "aliases": [
+    "who needs claws",
+    "mokthardin claws",
+    "claws for who"
+   ],
+   "answer": "Far Seer Mok'thardin at Grom'gol Base Camp seeks eight Shadowmaw Claws and a Pristine Tigress Fang."
+  },
+  {
+   "q": "Why does Mok'thardin need the claws?",
+   "aliases": [
+    "why claws",
+    "mokthardin enchantment",
+    "what for"
+   ],
+   "answer": "Mok'thardin needs Shadowmaw Claws and a Pristine Tigress Fang for an enchantment he means to make for the Horde."
+  },
+  {
+   "q": "Where are the panthers?",
+   "aliases": [
+    "shadowmaw location",
+    "panthers near gromgol",
+    "where panthers"
+   ],
+   "answer": "Mok'thardin says Shadowmaw Panthers lurk across the river from Mizjah Ruins, to the southeast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Mok'thardin seeks these claws to harness the jungle's magic for a special enchantment in service of the Horde."
+  }
+ ],
+ "keywords": [
+  "elder shadowmaw panther",
+  "grom'gol base camp",
+  "mok'thardin",
+  "mok'thardin's enchantment",
+  "pristine tigress fang",
+  "shadowmaw claw",
+  "shadowmaw panther",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:570",
+  "item:pristine-tigress-fang",
+  "subzone:mizjah-ruins",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shadowmaw Claw",
+  "Mok'thardin's Enchantment"
+ ]
+}

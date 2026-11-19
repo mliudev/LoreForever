@@ -1,0 +1,70 @@
+{
+ "key": "item:kodo-bone",
+ "type": "item",
+ "name": "Kodo Bone",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Kodo Bone",
+  "quests": [
+   "quest:5501"
+  ]
+ },
+ "summary": "Kodo bones from Desolace\u2019s Kodo Graveyard are valuable to Bibbly F'utzbuckle. He sees many uses for them, from furniture and instruments to blasting powder.",
+ "sections": [
+  {
+   "title": "A Goblin\u2019s Trade",
+   "body": "Bibbly F'utzbuckle at Kormek's Hut seeks kodo bones from the graveyard south of his home. He says customers make furniture, musical instruments, and blasting powder from them. A caravan carries his bones to Shadowprey Village, and Bibbly hopes the trade will make him rich.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants kodo bones?",
+   "aliases": [
+    "kodo bone buyer",
+    "who wants the bones"
+   ],
+   "answer": "Bibbly F'utzbuckle at Kormek's Hut wants kodo bones from the Kodo Graveyard."
+  },
+  {
+   "q": "What are kodo bones used for?",
+   "aliases": [
+    "kodo bone uses",
+    "what do bones make"
+   ],
+   "answer": "Bibbly says his customers make furniture, musical instruments, and blasting powder from kodo bones."
+  },
+  {
+   "q": "Where does the caravan take the bones?",
+   "aliases": [
+    "bone caravan",
+    "where bones go"
+   ],
+   "answer": "Bibbly says a caravan sells his kodo bones at Shadowprey Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bibbly f'utzbuckle",
+  "bone collector",
+  "desolace",
+  "kodo bone",
+  "kodo bones",
+  "kodo graveyard",
+  "kormek's hut",
+  "shadowprey village"
+ ],
+ "related": [
+  "quest:5501",
+  "subzone:kodo-graveyard",
+  "subzone:kormek-s-hut",
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Kodo Bone",
+  "Bone Collector"
+ ]
+}

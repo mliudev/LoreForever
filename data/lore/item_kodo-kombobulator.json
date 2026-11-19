@@ -1,0 +1,80 @@
+{
+ "key": "item:kodo-kombobulator",
+ "type": "item",
+ "name": "Kodo Kombobulator",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Kodo Kombobulator",
+  "quests": [
+   "quest:5561"
+  ]
+ },
+ "summary": "The Kodo Kombobulator lets Smeed Scrabblescrew tame aged kodos in Desolace. He uses it to supply a caravan partnership with beasts for the road.",
+ "sections": [
+  {
+   "title": "A Goblin's Device",
+   "body": "At Scrabblescrew's Camp in Desolace, Smeed Scrabblescrew lends the Kodo Kombobulator to tame ancient or aged kodos. It jolts each beast into following him, giving the local caravan a source of fresh mounts. Smeed hopes the partnership will bring him a handsome profit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Kodo Kombobulator do?",
+   "aliases": [
+    "kodo device",
+    "what's the kombobulator for"
+   ],
+   "answer": "The Kodo Kombobulator tames ancient or aged kodos and makes them follow Smeed Scrabblescrew."
+  },
+  {
+   "q": "Who made the Kodo Kombobulator?",
+   "aliases": [
+    "who owns the kodo thing",
+    "smeed's device"
+   ],
+   "answer": "Smeed Scrabblescrew says he learned to rejuvenate and control aged and dying kodos with his Kodo Kombobulator."
+  },
+  {
+   "q": "Why does Smeed want tamed kodos?",
+   "aliases": [
+    "why tame kodos",
+    "kodos for the caravan"
+   ],
+   "answer": "Smeed, the caravan owner Cork, and Rigger formed a partnership around his ability to tame kodos. The caravan relies on his supply."
+  },
+  {
+   "q": "Where can I find the Kodo Kombobulator?",
+   "aliases": [
+    "kombobulator location",
+    "where is smeed"
+   ],
+   "answer": "Smeed Scrabblescrew at Scrabblescrew's Camp in Desolace provides the Kodo Kombobulator for his work with aged kodos."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize the goblin craft behind Smeed Scrabblescrew's device for controlling aged kodos."
+  }
+ ],
+ "keywords": [
+  "aged kodo",
+  "caravan",
+  "desolace",
+  "kodo",
+  "kodo kombobulator",
+  "smeed scrabblescrew",
+  "taming"
+ ],
+ "related": [
+  "quest:5561",
+  "zone:desolace",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Kodo Kombobulator",
+  "Kodo Roundup"
+ ]
+}

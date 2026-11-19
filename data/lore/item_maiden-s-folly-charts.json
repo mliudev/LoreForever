@@ -1,0 +1,89 @@
+{
+ "key": "item:maiden-s-folly-charts",
+ "type": "item",
+ "name": "Maiden's Folly Charts",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Maiden's Folly Charts",
+  "quests": [
+   "quest:662"
+  ]
+ },
+ "summary": "Maiden's Folly Charts are navigational records recovered from a wreck in the Arathi Highlands. First Mate Nilzlix wants them secured before the ships leave the cove.",
+ "sections": [
+  {
+   "title": "Charts from the Wreck",
+   "body": "In the Arathi Highlands, the Maiden's Folly lies wrecked beside the Spirit of Silverpine. Their charts and logs record information the crew fears could reach enemy hands. First Mate Nilzlix asks you to recover the charts, including those from the Maiden's Folly, and return them to Booty Bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Maiden's Folly Charts?",
+   "aliases": [
+    "maiden's folly charts",
+    "folly charts",
+    "what charts"
+   ],
+   "answer": "They are navigational charts that belonged to the Maiden's Folly, now wrecked in the Arathi Highlands."
+  },
+  {
+   "q": "Where can I find the charts?",
+   "aliases": [
+    "where charts",
+    "find folly charts",
+    "chart location"
+   ],
+   "answer": "The Maiden's Folly lies wrecked in a cove in the Arathi Highlands."
+  },
+  {
+   "q": "Who wants the charts recovered?",
+   "aliases": [
+    "who wants them",
+    "nilzlix charts",
+    "first mate"
+   ],
+   "answer": "First Mate Nilzlix asks you to recover the Maiden's Folly Charts and the ships' other records."
+  },
+  {
+   "q": "Why must the charts be secured?",
+   "aliases": [
+    "why recover charts",
+    "enemy hands",
+    "why charts matter"
+   ],
+   "answer": "The crew fears the charts and logs could fall into enemy hands, and Fleet Master Seahorn would hold them responsible."
+  },
+  {
+   "q": "Where will the charts go?",
+   "aliases": [
+    "where return charts",
+    "booty bay charts",
+    "charts destination"
+   ],
+   "answer": "The recovered charts are bound for the command in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "booty bay",
+  "charts",
+  "deep sea salvage",
+  "first mate nilzlix",
+  "maiden's folly",
+  "maiden's folly charts"
+ ],
+ "related": [
+  "quest:662",
+  "item:maiden-s-folly-log",
+  "zone:arathi",
+  "npc:fleet-master-seahorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Maiden's Folly Charts",
+  "Deep Sea Salvage"
+ ]
+}

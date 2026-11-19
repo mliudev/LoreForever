@@ -1,0 +1,94 @@
+{
+ "key": "item:yeh-kinya-s-bramble",
+ "type": "item",
+ "name": "Yeh'kinya's Bramble",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Yeh'kinya's Bramble",
+  "quests": [
+   "quest:3520"
+  ]
+ },
+ "summary": "Yeh'kinya's Bramble draws out the spirits of vale screechers in Feralas. The troll scholar Yeh'kinya uses it to seek knowledge of an ancient power.",
+ "sections": [
+  {
+   "title": "A Spirit's Essence",
+   "body": "At Steamwheedle Port, Yeh'kinya gives you the bramble for his search in Feralas. He says the vale screechers are kin to an ancient god, and their spirits are bound to him. When you wave the wand over a fallen screecher, its spirit appears. Gather the essence and bring it back to Yeh'kinya, who promises to tell you more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Yeh'kinya's Bramble do?",
+   "aliases": [
+    "bramble wand",
+    "what's the bramble for"
+   ],
+   "answer": "Yeh'kinya's Bramble draws out the spirits of vale screechers in Feralas when waved over their fallen bodies."
+  },
+  {
+   "q": "Who gives you the bramble?",
+   "aliases": [
+    "who is yehkinya",
+    "where get bramble"
+   ],
+   "answer": "Yeh'kinya, a troll scholar at Steamwheedle Port, gives you the bramble for his search into the screecher spirits."
+  },
+  {
+   "q": "Why does Yeh'kinya want screecher spirits?",
+   "aliases": [
+    "why screecher essence",
+    "screecher spirit purpose"
+   ],
+   "answer": "Yeh'kinya says vale screechers are kin to an ancient god and their spirits are linked to him. He seeks their essence to learn more."
+  },
+  {
+   "q": "Where are the vale screechers?",
+   "aliases": [
+    "screechers location",
+    "where find screechers"
+   ],
+   "answer": "Vale screechers dwell in southern and central Feralas."
+  },
+  {
+   "q": "What does Yeh'kinya say about the old god?",
+   "aliases": [
+    "old god prophecy",
+    "hakkar and bramble"
+   ],
+   "answer": "Yeh'kinya speaks of an ancient troll prophecy concerning Hakkar, the Soulflayer, and says the essence of Hakkar holds great power."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Yeh'kinya cites an ancient prophecy among the trolls about Hakkar, the Soulflayer, and the danger his power may bring."
+  }
+ ],
+ "keywords": [
+  "feralas",
+  "hakkar",
+  "screecher spirits",
+  "soulflayer",
+  "steamwheedle port",
+  "troll prophecy",
+  "vale screecher",
+  "yeh'kinya",
+  "yeh'kinya's bramble"
+ ],
+ "related": [
+  "quest:3520",
+  "npc:yeh-kinya",
+  "zone:feralas",
+  "subzone:steamwheedle-port",
+  "topic:troll",
+  "topic:old-god",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Yeh'kinya's Bramble",
+  "Screecher Spirits"
+ ]
+}

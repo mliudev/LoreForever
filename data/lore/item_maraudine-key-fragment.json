@@ -1,0 +1,85 @@
+{
+ "key": "item:maraudine-key-fragment",
+ "type": "item",
+ "name": "Maraudine Key Fragment",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Maraudine Key Fragment",
+  "quests": [
+   "quest:1380",
+   "quest:1381"
+  ]
+ },
+ "summary": "The Maraudine Key Fragment is a piece held by Khan Hratha in Desolace. Both the Gelkis and Magram seek it after Hratha falls.",
+ "sections": [
+  {
+   "title": "A Piece of a Key",
+   "body": "Khan Hratha carries the Maraudine Key Fragment in the Valley of Spears. The Gelkis ask for it after he is slain, and the Magram make the same demand. Each clan seeks the fragment as part of its struggle against the Maraudine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has the Maraudine Key Fragment?",
+   "aliases": [
+    "who has the fragment",
+    "hratha key piece",
+    "maraudine fragment"
+   ],
+   "answer": "Khan Hratha holds the Maraudine Key Fragment in the Valley of Spears."
+  },
+  {
+   "q": "Who wants the fragment?",
+   "aliases": [
+    "who wants the key",
+    "gelkis or magram",
+    "where take fragment"
+   ],
+   "answer": "Uthek the Wise asks for the fragment in Gelkis Village, while Warug asks for it in Magram Village."
+  },
+  {
+   "q": "Why do the Gelkis want it?",
+   "aliases": [
+    "gelkis want fragment",
+    "uthek key piece",
+    "why gelkis need key"
+   ],
+   "answer": "The Gelkis ask you to bring them the fragment after Khan Hratha is slain."
+  },
+  {
+   "q": "Why do the Magram want it?",
+   "aliases": [
+    "magram want fragment",
+    "warug key piece",
+    "why magram need key"
+   ],
+   "answer": "The Magram ask you to bring the fragment after Khan Hratha is slain."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gelkis",
+  "khan hratha",
+  "magram",
+  "maraudine",
+  "maraudine key fragment",
+  "uthek the wise",
+  "valley of spears",
+  "warug"
+ ],
+ "related": [
+  "quest:1380",
+  "zone:desolace",
+  "subzone:gelkis-village",
+  "subzone:magram-village",
+  "subzone:valley-of-spears",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Maraudine Key Fragment",
+  "Khan Hratha (Gelkis)",
+  "Khan Hratha (Magram)"
+ ]
+}

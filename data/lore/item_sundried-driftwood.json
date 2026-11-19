@@ -1,0 +1,96 @@
+{
+ "key": "item:sundried-driftwood",
+ "type": "item",
+ "name": "Sundried Driftwood",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Sundried Driftwood",
+  "quests": [
+   "quest:1398"
+  ]
+ },
+ "summary": "Sundried Driftwood lies along the Swamp of Sorrows coast. Watcher Biggs needs strong, dry wood to repair his wagon.",
+ "sections": [
+  {
+   "title": "Wood from the Coast",
+   "body": "Watcher Biggs needs timber for a wagon repair, but swamp trees are too spongy and tangled. Along the eastern coast, the sun dries driftwood into light, tough pieces that can serve his need.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Sundried Driftwood?",
+   "aliases": [
+    "sundried driftwood location",
+    "where driftwood",
+    "coast wood"
+   ],
+   "answer": "Sundried Driftwood can be found on the coast of the Swamp of Sorrows. Watcher Biggs directs you east to search."
+  },
+  {
+   "q": "Who needs the driftwood?",
+   "aliases": [
+    "who wants driftwood",
+    "biggs wood",
+    "who needs the wood"
+   ],
+   "answer": "Watcher Biggs needs Sundried Driftwood to repair his wagon."
+  },
+  {
+   "q": "Why does Biggs need this wood?",
+   "aliases": [
+    "why biggs needs wood",
+    "wagon repair",
+    "fix biggs wagon"
+   ],
+   "answer": "Watcher Biggs needs strong, dry wood to repair his wagon so he can reach Nethergarde."
+  },
+  {
+   "q": "Why not use the swamp trees?",
+   "aliases": [
+    "swamp trees wood",
+    "why not swamp wood",
+    "spongy wood"
+   ],
+   "answer": "Watcher Biggs says the swamp's trees are spongy and tangled, so he seeks dry driftwood from the coast."
+  },
+  {
+   "q": "What is the driftwood like?",
+   "aliases": [
+    "is driftwood strong",
+    "wood quality",
+    "light tough wood"
+   ],
+   "answer": "Watcher Biggs calls the wood light but tough, and says it will work nicely for his wagon."
+  },
+  {
+   "q": "How many pieces does Biggs need?",
+   "aliases": [
+    "how much driftwood",
+    "number of pieces",
+    "eight driftwood"
+   ],
+   "answer": "Watcher Biggs asks for eight pieces of Sundried Driftwood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "coast",
+  "driftwood",
+  "nethergarde",
+  "sundried driftwood",
+  "swamp of sorrows",
+  "wagon",
+  "watcher biggs"
+ ],
+ "related": [
+  "quest:1398",
+  "zone:swampofsorrows"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sundried Driftwood",
+  "Driftwood (quest)"
+ ]
+}

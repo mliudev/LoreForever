@@ -1,0 +1,82 @@
+{
+ "key": "item:a-short-note",
+ "type": "item",
+ "name": "A Short Note",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "A Short Note",
+  "quests": [
+   "quest:2941"
+  ]
+ },
+ "summary": "A Short Note asks you to carry Daryn\u2019s letter to Curgle Cranklehop in Tanaris. It requests a picture of Gammerita, a giant snapjaw in the Hinterlands.",
+ "sections": [
+  {
+   "title": "A Letter for Curgle",
+   "body": "Daryn\u2019s research keeps her in the Hinterlands, where she studies the snapjaws along the beach. She wants a picture of Gammerita, a giant snapjaw, and sends you to Tanaris with a letter for Curgle Cranklehop. Curgle has made an invention that can capture a picture.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the note?",
+   "aliases": [
+    "who sent the letter",
+    "daryn note",
+    "who is it from"
+   ],
+   "answer": "Daryn wrote the letter. She is a historian studying snapjaws in the Hinterlands."
+  },
+  {
+   "q": "Who is Gammerita?",
+   "aliases": [
+    "giant snapjaw",
+    "who is gammerita",
+    "snapjaw target"
+   ],
+   "answer": "Gammerita is a giant snapjaw on the beach in the Hinterlands. Daryn wants a picture of her."
+  },
+  {
+   "q": "Who is Curgle Cranklehop?",
+   "aliases": [
+    "curgle",
+    "who gets the note",
+    "tanaris inventor"
+   ],
+   "answer": "Curgle Cranklehop is in Tanaris and has made an invention that can capture a picture."
+  },
+  {
+   "q": "Why does Daryn want a picture?",
+   "aliases": [
+    "why photograph gammerita",
+    "why picture snapjaw",
+    "what does daryn want"
+   ],
+   "answer": "Daryn wants a picture of Gammerita because she cannot leave her research in the Hinterlands to see the giant snapjaw herself."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a short note",
+  "curgle cranklehop",
+  "daryn",
+  "gammerita",
+  "hinterlands",
+  "picture",
+  "snapjaw",
+  "tanaris"
+ ],
+ "related": [
+  "quest:2941",
+  "item:super-snapper-fx",
+  "zone:hinterlands",
+  "zone:tanaris",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: A Short Note",
+  "The Borrower"
+ ]
+}

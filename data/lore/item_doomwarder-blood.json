@@ -1,0 +1,92 @@
+{
+ "key": "item:doomwarder-blood",
+ "type": "item",
+ "name": "Doomwarder Blood",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Doomwarder Blood",
+  "quests": [
+   "quest:1466"
+  ]
+ },
+ "summary": "Doomwarder Blood is gathered from powerful demons near Mannoroc Coven in Desolace. Kreldig Ungor needs ten vials for a mage\u2019s experiments.",
+ "sections": [
+  {
+   "title": "A Demon\u2019s Blood",
+   "body": "Kreldig Ungor in Desolace asks for ten vials of Doomwarder Blood as the final part of his request for Reagents for Reclaimers Inc. The blood comes from Doomwarder Captains or lords among the demons near Mannoroc Coven. Kreldig warns that collecting it is harder than gathering the other reagents, and the demons are far from the land\u2019s centaur camps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs Doomwarder Blood?",
+   "aliases": [
+    "who wants the blood",
+    "kreldig's reagents",
+    "blood for kreldig"
+   ],
+   "answer": "Kreldig Ungor needs ten vials of Doomwarder Blood for Reagents for Reclaimers Inc., a set of reagents requested for a mage\u2019s experiments."
+  },
+  {
+   "q": "Where does Doomwarder Blood come from?",
+   "aliases": [
+    "where to find doomwarder blood",
+    "blood location",
+    "doomwarder blood source"
+   ],
+   "answer": "Doomwarder Blood comes from Doomwarder Captains and lords near Mannoroc Coven in southern Desolace."
+  },
+  {
+   "q": "Why does Kreldig want the blood?",
+   "aliases": [
+    "why blood",
+    "what is it for",
+    "mage experiment"
+   ],
+   "answer": "Kreldig gathers the blood as one of three reagents for a mage\u2019s experiments."
+  },
+  {
+   "q": "How many vials are needed?",
+   "aliases": [
+    "how much blood",
+    "number of vials",
+    "how many doomwarder"
+   ],
+   "answer": "Kreldig asks for ten vials of Doomwarder Blood."
+  },
+  {
+   "q": "Is the blood the only reagent Kreldig needs?",
+   "aliases": [
+    "other reagents",
+    "what else does he need",
+    "brain and wings"
+   ],
+   "answer": "No. Kreldig also asks for ten Felhound Brains and ten Nether Wings."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "doomwarder blood",
+  "doomwarder captain",
+  "felhound brain",
+  "kreldig ungor",
+  "mannoroc coven",
+  "nether wing",
+  "reagents for reclaimers inc"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:mannoroc-coven",
+  "npc:kreldig-ungor",
+  "quest:1458",
+  "item:felhound-brain",
+  "item:nether-wing"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Doomwarder Blood",
+  "Reagents for Reclaimers Inc. (3)"
+ ]
+}

@@ -2,13 +2,14 @@
 ## Title: Lore Forever
 ## Notes: Lore companion: the story behind the zones, quests, people and items around you.
 ## Author: Mike
-## Version: 1.14.0
+## Version: 1.15.0
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
 ## SavedVariables: LoreForeverDB
 ## AddonCompartmentFunc: LoreForever_OnAddonCompartmentClick
 ## X-Curse-Project-ID: 1715510
 ## X-LoreForever-WilloFolder: LoreForever_Willo
 ## X-LoreForever-WilloLive: 1
+## X-LoreForever-WilloAnswered: 1
 ## X-LoreForever-KeyForce: 1
 
 # The load order is in LoreForever.xml: add or remove Lua files there, never here, and /reload

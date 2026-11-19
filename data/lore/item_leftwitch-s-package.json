@@ -1,0 +1,75 @@
+{
+ "key": "item:leftwitch-s-package",
+ "type": "item",
+ "name": "Leftwitch's Package",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Leftwitch's Package",
+  "quests": [
+   "quest:1467"
+  ]
+ },
+ "summary": "Leftwitch\u2019s Package carries the last piece of Reclaimers Inc.\u2019s business in Desolace back to Ironforge. Roetten Stonehammer receives it and pays for the work.",
+ "sections": [
+  {
+   "title": "Back to Ironforge",
+   "body": "Roetten Stonehammer waits in Ironforge for Leftwitch\u2019s Package from Desolace. Carry it back to him, and Reclaimers Inc. will pay for this final piece of work. Roetten is glad to have you aboard, even for a small job.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Leftwitch\u2019s Package for?",
+   "aliases": [
+    "who wants the package",
+    "leftwitch package for who"
+   ],
+   "answer": "Roetten Stonehammer in Ironforge receives Leftwitch\u2019s Package on Leftwitch\u2019s behalf."
+  },
+  {
+   "q": "Where does the package go?",
+   "aliases": [
+    "where to take it",
+    "package destination"
+   ],
+   "answer": "Take Leftwitch\u2019s Package from Desolace to Roetten Stonehammer in Ironforge."
+  },
+  {
+   "q": "What is the package connected to?",
+   "aliases": [
+    "why package",
+    "reclaimers package"
+   ],
+   "answer": "Leftwitch\u2019s Package is the final delivery in Reagents for Reclaimers Inc.\u2019s business in Desolace."
+  },
+  {
+   "q": "What does Roetten do when he gets it?",
+   "aliases": [
+    "what happens after delivery",
+    "roetten pays"
+   ],
+   "answer": "Roetten thanks you for the timely work and pays you on behalf of Reclaimers Inc."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "ironforge",
+  "leftwitch",
+  "leftwitch's package",
+  "reclaimers inc",
+  "roetten stonehammer"
+ ],
+ "related": [
+  "quest:1458",
+  "zone:desolace",
+  "zone:ironforge",
+  "npc:roetten-stonehammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Leftwitch's Package",
+  "Reagents for Reclaimers Inc. (4)"
+ ]
+}

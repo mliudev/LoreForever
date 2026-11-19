@@ -1,0 +1,84 @@
+{
+ "key": "item:hinterlands-honey-ripple",
+ "type": "item",
+ "name": "Hinterlands Honey Ripple",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Hinterlands Honey Ripple",
+  "quests": [
+   "quest:77"
+  ]
+ },
+ "summary": "Crates of Hinterlands Honey Ripple sit at an abandoned Horde base near Skulk Rock. Dran Droffers wants the bottles for a packaging scheme.",
+ "sections": [
+  {
+   "title": "Crates at Skulk Rock",
+   "body": "The crates at Skulk Rock hold Hinterlands Honey Ripple, an unusual drink sought by Dran Droffers. The abandoned Horde base lies among slime covered ruins, where the bottles must be gathered with care. Their intact packaging matters to the scheme Dran has in mind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Hinterlands Honey Ripple?",
+   "aliases": [
+    "honey ripple location",
+    "where ripple",
+    "hinterlands bottles"
+   ],
+   "answer": "Hinterlands Honey Ripple is in crates around the abandoned Horde base near Skulk Rock."
+  },
+  {
+   "q": "Who wants the Honey Ripple?",
+   "aliases": [
+    "who wants ripple",
+    "dran droffers ripple",
+    "ripple for who"
+   ],
+   "answer": "Dran Droffers seeks Hinterlands Honey Ripple for a packaging scheme involving Malton\u2019s father."
+  },
+  {
+   "q": "Why does Dran need the bottles intact?",
+   "aliases": [
+    "why bottles unbruised",
+    "don't bruise ripple",
+    "ripple packaging"
+   ],
+   "answer": "Dran says the bottles must not be bruised because jostling spoils the drink\u2019s bouquet. He has empty packaging for the ripple."
+  },
+  {
+   "q": "What is Hinterlands Honey Ripple?",
+   "aliases": [
+    "honey ripple",
+    "what is ripple",
+    "hinterlands drink"
+   ],
+   "answer": "It is a bottled drink kept in crates at the abandoned Horde base near Skulk Rock."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The bottles lie in crates at an abandoned Horde base near Skulk Rock."
+  }
+ ],
+ "keywords": [
+  "dran droffers",
+  "hinterlands honey ripple",
+  "honey ripple",
+  "horde crates",
+  "malton",
+  "ripple",
+  "skulk rock"
+ ],
+ "related": [
+  "quest:77",
+  "zone:hinterlands",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hinterlands Honey Ripple",
+  "Wowpedia: A Sticky Situation"
+ ]
+}

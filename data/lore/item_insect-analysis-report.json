@@ -1,0 +1,110 @@
+{
+ "key": "item:insect-analysis-report",
+ "type": "item",
+ "name": "Insect Analysis Report",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Insect Analysis Report",
+  "quests": [
+   "quest:32",
+   "quest:113",
+   "quest:162"
+  ]
+ },
+ "summary": "The Insect Analysis Report carries urgent findings about a spreading threat in Tanaris. Senior Surveyor Fizzledowser has it copied so the warning can reach others.",
+ "sections": [
+  {
+   "title": "A Warning from Tanaris",
+   "body": "In Gadgetzan, Senior Surveyor Fizzledowser asks that the report be shared widely. Alchemist Pestlezugg believes everyone who can read should know of the danger. Fizzledowser agrees to make a copy for you to carry to your allegiance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scholar in the Drag",
+   "body": "In Orgrimmar, Zilzibin Drumlore studies Azeroth's life forms and history. He recognizes the creatures described in the report as silithid, and warns that they could consume the Tanaris desert rapidly. He calls them tools of a threat facing both Horde and Alliance.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Insect Analysis Report?",
+   "aliases": [
+    "insect report",
+    "analysis report",
+    "what's in the report"
+   ],
+   "answer": "The Insect Analysis Report describes the silithid, a grave threat spreading from Tanaris."
+  },
+  {
+   "q": "Who wrote the report?",
+   "aliases": [
+    "who made report",
+    "Fizzledowser report",
+    "where'd report come from"
+   ],
+   "answer": "Senior Surveyor Fizzledowser sends the report for further study and wider distribution."
+  },
+  {
+   "q": "Why does Fizzledowser make a copy?",
+   "aliases": [
+    "why copy report",
+    "get a duplicate",
+    "share the report"
+   ],
+   "answer": "Alchemist Pestlezugg asks for a copy so the warning can be distributed among your allegiance."
+  },
+  {
+   "q": "Who is Zilzibin Drumlore?",
+   "aliases": [
+    "who's Zil",
+    "Zilzibin backstory",
+    "troll scholar"
+   ],
+   "answer": "Zilzibin Drumlore is a troll scholar in Orgrimmar who studies Azeroth's life forms and history."
+  },
+  {
+   "q": "What creatures does the report describe?",
+   "aliases": [
+    "what insects",
+    "silithid report",
+    "what are the bugs"
+   ],
+   "answer": "Zilzibin identifies the creatures in the report as silithid, which threaten Tanaris and both the Horde and Alliance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The report is meant to warn your allegiance about the silithid, a threat Zilzibin Drumlore says faces both Horde and Alliance."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The report's warning concerns the silithid, which Zilzibin Drumlore identifies as a threat to both Alliance and Horde."
+  }
+ ],
+ "keywords": [
+  "fizzledowser",
+  "gadgetzan",
+  "insect analysis report",
+  "insect part analysis",
+  "pestlezugg",
+  "silithid",
+  "tanaris",
+  "zilzibin drumlore"
+ ],
+ "related": [
+  "quest:110",
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "npc:senior-surveyor-fizzledowser",
+  "zone:orgrimmar",
+  "subzone:drag",
+  "quest:32"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Insect Analysis Report",
+  "Rise of the Silithid (Horde)",
+  "Insect Part Analysis (2)"
+ ]
+}

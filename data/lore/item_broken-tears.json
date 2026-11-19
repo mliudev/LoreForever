@@ -1,0 +1,86 @@
+{
+ "key": "item:broken-tears",
+ "type": "item",
+ "name": "Broken Tears",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Broken Tears",
+  "quests": [
+   "quest:1369"
+  ]
+ },
+ "summary": "Broken Tears are crystal fragments from the cave at Bolgan's Hole in southern Desolace. Warug of the Magram asks for them as proof that the clan can destroy what the Gelkis revere.",
+ "sections": [
+  {
+   "title": "At Bolgan's Hole",
+   "body": "In Bolgan's Hole, the Gelkis keep crystals called the tears of Theradras. Warug of the Magram wants you to break them and carry three fragments to Magram Village. He claims Theradras will not protect the Gelkis, and says the Magram need no protection. Their feud gives the broken crystals their meaning.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Broken Tears?",
+   "aliases": [
+    "broken tears item",
+    "what are the tears"
+   ],
+   "answer": "Broken Tears are pieces of the crystals known as the tears of Theradras, kept in a cave at Bolgan's Hole."
+  },
+  {
+   "q": "Who wants the Broken Tears?",
+   "aliases": [
+    "who needs them",
+    "warug tears"
+   ],
+   "answer": "Warug, a Magram centaur in Magram Village, asks you to bring him three Broken Tears."
+  },
+  {
+   "q": "Why does Warug want them?",
+   "aliases": [
+    "why break crystals",
+    "magram reason"
+   ],
+   "answer": "Warug wants the crystals destroyed to show the Gelkis that Theradras will not protect them."
+  },
+  {
+   "q": "Where do the Broken Tears come from?",
+   "aliases": [
+    "broken tears location",
+    "bolgans hole crystals"
+   ],
+   "answer": "The tears of Theradras are kept in a cave at Bolgan's Hole in southern Desolace."
+  },
+  {
+   "q": "What do the Gelkis believe about Theradras?",
+   "aliases": [
+    "gelkis theradras",
+    "who protects gelkis"
+   ],
+   "answer": "The Gelkis believe that Theradras protects the centaur; Warug calls that belief foolish."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolgan's hole",
+  "broken tears",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "tears of theradras",
+  "warug"
+ ],
+ "related": [
+  "quest:1369",
+  "subzone:bolgan-s-hole",
+  "subzone:magram-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Broken Tears",
+  "Broken Tears (quest)"
+ ]
+}

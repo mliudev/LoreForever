@@ -1,0 +1,99 @@
+{
+ "key": "item:the-legacy-heart",
+ "type": "item",
+ "name": "The Legacy Heart",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "The Legacy Heart",
+  "quests": [
+   "quest:735"
+  ]
+ },
+ "summary": "Dark magic clings to the Legacy Heart, a relic sought alongside two other items of power. Gerrig Bonegrip in Ironforge wants it for a purpose tied to Yagyin's Digest.",
+ "sections": [
+  {
+   "title": "A Relic of Power",
+   "body": "Gerrig Bonegrip asks for the Legacy Heart among three relics he has written on Bonegrip's Note. He will trade the digest for them, but keeps their names from spoken ears. The Heart's dark enchantment has earned it a fearsome reputation.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Legacy Heart?",
+   "aliases": [
+    "legacy heart",
+    "heart relic",
+    "dark magic heart"
+   ],
+   "answer": "The Legacy Heart is a relic of power sought by Gerrig Bonegrip in exchange for Yagyin's Digest."
+  },
+  {
+   "q": "Who wants the Legacy Heart?",
+   "aliases": [
+    "who wants the heart",
+    "gerrig heart",
+    "bonegrip relic"
+   ],
+   "answer": "Gerrig Bonegrip in Ironforge asks for the Legacy Heart and two other relics."
+  },
+  {
+   "q": "Why does Gerrig want it?",
+   "aliases": [
+    "why bonegrip wants it",
+    "heart purpose",
+    "gerrig's reason"
+   ],
+   "answer": "Gerrig needs the Legacy Heart with two other relics before he will give up Yagyin's Digest."
+  },
+  {
+   "q": "What is the Heart said to do?",
+   "aliases": [
+    "heart power",
+    "legacy heart magic",
+    "never die heart"
+   ],
+   "answer": "Dark magic is said to grant the Legacy Heart's holder immortality; its current owner bears the title the Undying."
+  },
+  {
+   "q": "What other relics does Gerrig seek?",
+   "aliases": [
+    "other relics",
+    "star hand heart",
+    "bonegrip's list"
+   ],
+   "answer": "Gerrig asks for the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can bring the Legacy Heart and two other relics to Gerrig Bonegrip in Ironforge in exchange for Yagyin's Digest."
+  }
+ ],
+ "keywords": [
+  "bonegrip's note",
+  "dark magic",
+  "gerrig bonegrip",
+  "hand of dagun",
+  "legacy heart",
+  "star of xil'yeh",
+  "undying",
+  "yagyin's digest"
+ ],
+ "related": [
+  "npc:gerrig-bonegrip",
+  "quest:736",
+  "item:bonegrip-s-note",
+  "item:hand-of-dagun",
+  "item:star-of-xil-yeh",
+  "item:yagyin-s-digest",
+  "zone:badlands",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: The Legacy Heart",
+  "The Star, the Hand and the Heart (Alliance)"
+ ]
+}

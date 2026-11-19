@@ -1,0 +1,82 @@
+{
+ "key": "item:draenethyst-crystal",
+ "type": "item",
+ "name": "Draenethyst Crystal",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Draenethyst Crystal",
+  "quests": [
+   "quest:1389"
+  ]
+ },
+ "summary": "Draenethyst crystals are sacred stones stolen from the orcs at the Harborage. The orcs fear that losing them may leave them lost in a land far from home.",
+ "sections": [
+  {
+   "title": "Stolen from the Lost",
+   "body": "At the Harborage in the Swamp of Sorrows, Magtoor seeks the draenethyst crystals taken by the lost ones. The lost ones live in Fallow Sanctuary to the east, where they catch or kill those who wander near. Once brethren of the orcs, they were driven mad during the journey to Azeroth. The orcs cannot reclaim the crystals by force, and fear losing their way without them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the crystals sacred to the orcs?",
+   "aliases": [
+    "draenethyst meaning",
+    "why crystals matter",
+    "orcs sacred crystals"
+   ],
+   "answer": "The orcs at the Harborage call draenethyst sacred and fear they may lose their way without them."
+  },
+  {
+   "q": "Who took the draenethyst crystals?",
+   "aliases": [
+    "who stole draenethyst",
+    "lost ones crystals",
+    "crystals stolen by who"
+   ],
+   "answer": "The lost ones of Fallow Sanctuary stole the draenethyst crystals from the orcs."
+  },
+  {
+   "q": "Where can I find Magtoor?",
+   "aliases": [
+    "magtoor location",
+    "where is magtoor",
+    "harborage orc"
+   ],
+   "answer": "Magtoor is at the Harborage in the Swamp of Sorrows."
+  },
+  {
+   "q": "Who are the lost ones?",
+   "aliases": [
+    "lost ones backstory",
+    "what are lost ones",
+    "lost ones orcs"
+   ],
+   "answer": "The lost ones were once the orcs' brethren. The rigors of their journey to Azeroth drove them mad, and they now live in Fallow Sanctuary."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "draenethyst",
+  "draenethyst crystal",
+  "draenethyst crystals",
+  "fallow sanctuary",
+  "harborage",
+  "lost ones",
+  "magtoor",
+  "orcs",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "quest:1389",
+  "subzone:fallow-sanctuary",
+  "subzone:harborage",
+  "zone:swampofsorrows"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Draenethyst Crystal",
+  "Draenethyst Crystals (Classic)"
+ ]
+}

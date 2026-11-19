@@ -1,0 +1,89 @@
+{
+ "key": "item:head-of-baron-vardus",
+ "type": "item",
+ "name": "Head of Baron Vardus",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Head of Baron Vardus",
+  "quests": [
+   "quest:523"
+  ]
+ },
+ "summary": "Baron Vardus\u2019s severed head is proof that Southshore\u2019s hunt for the former Alterac noble has reached its end. Magistrate Maleb receives it in answer to the Baron\u2019s brutality.",
+ "sections": [
+  {
+   "title": "A Baron Brought Low",
+   "body": "The contract bearing Baron Vardus\u2019s name leads from Southshore into the Syndicate haunts of Alterac. Vardus is a noble of the former kingdom, known for a cold heart and brutal practices. Magistrate Maleb wants him brought to justice after his thugs were sent against Southshore. The Baron\u2019s head is the proof Maleb demands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Baron Vardus?",
+   "aliases": [
+    "who's vardus",
+    "baron vardus",
+    "vardus backstory"
+   ],
+   "answer": "Baron Vardus was a noble of the former kingdom of Alterac, known for his cold heart and brutal practices."
+  },
+  {
+   "q": "Why does Southshore want his head?",
+   "aliases": [
+    "why kill vardus",
+    "southshore wants vardus",
+    "vardus wanted"
+   ],
+   "answer": "Magistrate Maleb says Vardus sent his thugs against Southshore and wants him brought to justice."
+  },
+  {
+   "q": "Where can Baron Vardus be found?",
+   "aliases": [
+    "where is vardus",
+    "vardus location",
+    "find baron"
+   ],
+   "answer": "Vardus is among the Syndicate haunts in Alterac, perhaps at the ruins of Strahnbrad or in the valley north of them."
+  },
+  {
+   "q": "Who receives the head?",
+   "aliases": [
+    "who wants the head",
+    "head for maleb",
+    "vardus head"
+   ],
+   "answer": "Magistrate Maleb in Southshore receives Baron Vardus\u2019s head as proof that the hunt is done."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can see Southshore seeking justice against a Syndicate noble who sent thugs against the town."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "baron vardus",
+  "head of baron vardus",
+  "magistrate maleb",
+  "southshore",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "quest:523",
+  "quest:522",
+  "quest:566",
+  "topic:syndicate",
+  "subzone:strahnbrad",
+  "subzone:southshore",
+  "zone:alterac",
+  "topic:alterac-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Head of Baron Vardus",
+  "Baron's Demise"
+ ]
+}

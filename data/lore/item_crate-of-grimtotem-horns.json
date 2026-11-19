@@ -1,0 +1,85 @@
+{
+ "key": "item:crate-of-grimtotem-horns",
+ "type": "item",
+ "name": "Crate of Grimtotem Horns",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Crate of Grimtotem Horns",
+  "quests": [
+   "quest:2976"
+  ]
+ },
+ "summary": "The Crate of Grimtotem Horns carries evidence of the Grimtotem Clan in Feralas. Belgrom Rockmaul in Orgrimmar wants to hear what you found.",
+ "sections": [
+  {
+   "title": "News from Feralas",
+   "body": "In Orgrimmar's Valley of Honor, Belgrom Rockmaul receives the Crate of Grimtotem Horns. You found the horns while hunting in Feralas, where the Grimtotem Clan has drawn attention. Belgrom wants to hear what you saw and will pay you for the news.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the crate?",
+   "aliases": [
+    "crate contents",
+    "horn crate"
+   ],
+   "answer": "The crate holds Grimtotem horns taken from Feralas."
+  },
+  {
+   "q": "Who wants the crate?",
+   "aliases": [
+    "who gets horns",
+    "Belgrom crate"
+   ],
+   "answer": "Belgrom Rockmaul in Orgrimmar's Valley of Honor wants the Crate of Grimtotem Horns."
+  },
+  {
+   "q": "Why does Belgrom want the horns?",
+   "aliases": [
+    "why horns",
+    "grimtotem news"
+   ],
+   "answer": "Belgrom wants to hear what you saw of the Grimtotem Clan in Feralas."
+  },
+  {
+   "q": "Where did the horns come from?",
+   "aliases": [
+    "horns from where",
+    "feralas horns"
+   ],
+   "answer": "You found the Grimtotem horns while hunting in Feralas."
+  },
+  {
+   "q": "What does Belgrom offer?",
+   "aliases": [
+    "Belgrom reward",
+    "coin for horns"
+   ],
+   "answer": "Belgrom says he will count out coin while you tell him about the Grimtotem."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "belgrom rockmaul",
+  "crate of grimtotem horns",
+  "feralas",
+  "grimtotem",
+  "grimtotem horns",
+  "orgrimmar",
+  "valley of honor"
+ ],
+ "related": [
+  "quest:2974",
+  "item:grimtotem-horn",
+  "zone:feralas",
+  "zone:orgrimmar",
+  "subzone:valley-of-honor"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Crate of Grimtotem Horns",
+  "A Grim Discovery (2)"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "item:atal-ai-artifact",
+ "type": "item",
+ "name": "Atal'ai Artifact",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Atal'ai Artifact",
+  "quests": [
+   "quest:1424"
+  ]
+ },
+ "summary": "Atal'ai Artifacts lie scattered in the Pool of Tears around the sunken Temple of Atal'Hakkar. Fel'zerul seeks them to learn what magic the Atal'ai practiced there.",
+ "sections": [
+  {
+   "title": "Relics in the Pool",
+   "body": "Dark waters surround the sunken Temple of Atal'Hakkar in the Swamp of Sorrows. Atal'ai Artifacts rest in the Pool of Tears, where Fel'zerul of Stonard seeks them. The Atal'ai were dark casters, and the magic used within their temple was powerful. These relics may help Fel'zerul understand what the trolls sought to accomplish.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Atal'ai Artifacts?",
+   "aliases": [
+    "where find artifacts",
+    "artifact location",
+    "pool of tears artifacts"
+   ],
+   "answer": "Atal'ai Artifacts lie in the Pool of Tears around the sunken Temple of Atal'Hakkar in the Swamp of Sorrows."
+  },
+  {
+   "q": "Who wants the artifacts?",
+   "aliases": [
+    "who needs them",
+    "felzerul artifacts",
+    "who wants artifact"
+   ],
+   "answer": "Fel'zerul in Stonard seeks Atal'ai Artifacts so he can study the magic used by the Atal'ai."
+  },
+  {
+   "q": "What are the artifacts for?",
+   "aliases": [
+    "artifact purpose",
+    "why gather artifacts",
+    "what do they tell"
+   ],
+   "answer": "Fel'zerul hopes the artifacts will help him understand what the Atal'ai trolls were trying to accomplish with their powerful magic."
+  },
+  {
+   "q": "Who were the Atal'ai?",
+   "aliases": [
+    "atalai trolls",
+    "atal'ai tribe",
+    "dark caster trolls"
+   ],
+   "answer": "The Atal'ai were a tribe of trolls known for practicing forbidden magic."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, Fel'zerul asks you to help investigate the sunken temple and study the Atal'ai's powerful magic."
+  }
+ ],
+ "keywords": [
+  "atal'ai",
+  "atal'ai artifact",
+  "fel'zerul",
+  "pool of tears",
+  "stonard",
+  "swamp of sorrows",
+  "temple of atal'hakkar",
+  "troll magic"
+ ],
+ "related": [
+  "subzone:pool-of-tears",
+  "subzone:temple-of-atal-hakkar",
+  "npc:fel-zerul",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Atal'ai Artifact",
+  "Pool of Tears (Horde)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:nezzliok-s-head",
+ "type": "item",
+ "name": "Nezzliok's Head",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Nezzliok's Head",
+  "quests": [
+   "quest:584"
+  ]
+ },
+ "summary": "Nezzliok's Head is taken from the Bloodscalp witchdoctor in Zul'Kunda. Nimboya needs it at Grom'gol Base Camp as he searches for the truth about Yenniku.",
+ "sections": [
+  {
+   "title": "A Bitter Offering",
+   "body": "At Grom'gol Base Camp, Nimboya asks for the heads of Gan'zulah and Nezzliok. The two Bloodscalp leaders may know what became of Yenniku, who was not among the heads already found. Nezzliok's Head is brought with Gan'zulah's to the bubbling cauldron beside Nimboya.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nezzliok?",
+   "aliases": [
+    "nezzliok",
+    "nezzliok the dire",
+    "bloodscalp witchdoctor"
+   ],
+   "answer": "Nezzliok the Dire is a witchdoctor of the Bloodscalp clan, found in Zul'Kunda in northwestern Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Nimboya want Nezzliok's head?",
+   "aliases": [
+    "why head",
+    "nimboya needs head",
+    "nezzliok head"
+   ],
+   "answer": "Nimboya believes Nezzliok and the Bloodscalp chief Gan'zulah may know the truth about Yenniku, so he asks for both their heads."
+  },
+  {
+   "q": "Where do I take Nezzliok's Head?",
+   "aliases": [
+    "where head go",
+    "take it to nimboya",
+    "cauldron"
+   ],
+   "answer": "Bring Nezzliok's Head to the bubbling cauldron at Grom'gol Base Camp, beside Nimboya."
+  },
+  {
+   "q": "What happened to Yenniku?",
+   "aliases": [
+    "yenniku missing",
+    "where is yenniku",
+    "what happened"
+   ],
+   "answer": "Yenniku was not among the heads Nimboya found, and Nimboya fears the Bloodscalp chief and witchdoctor alone know the truth."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can help Nimboya and the Darkspear tribe pursue the truth about Yenniku, their missing kinsman."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you may know the Darkspear and Bloodscalp as rival tribes. Nimboya seeks the truth about Yenniku from the Bloodscalp leaders."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "grom'gol",
+  "nezzliok",
+  "nezzliok the dire",
+  "nezzliok's head",
+  "nimboya",
+  "witchdoctor",
+  "yenniku",
+  "zul'kunda"
+ ],
+ "related": [
+  "quest:584",
+  "item:gan-zulah-s-head",
+  "quest:581",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:darkspear-tribe",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Nezzliok's Head",
+  "Bloodscalp Clan Heads"
+ ]
+}

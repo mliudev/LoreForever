@@ -1,0 +1,75 @@
+{
+ "key": "item:feralas-a-history-quest-item",
+ "type": "item",
+ "name": "Feralas: A History",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Feralas: A History (quest item)",
+  "quests": [
+   "quest:2943"
+  ]
+ },
+ "summary": "Troyas Moonbreeze asks you to carry Feralas: A History back to Feathermoon Stronghold. The book matters because he is eager to have it returned.",
+ "sections": [
+  {
+   "title": "The Return",
+   "body": "Troyas Moonbreeze waits at Feathermoon Stronghold for Feralas: A History. He asks you to take care of the book and hurry back, for he is eager for its return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the book for?",
+   "aliases": [
+    "who wants the book",
+    "deliver book to who"
+   ],
+   "answer": "Troyas Moonbreeze at Feathermoon Stronghold is waiting for Feralas: A History."
+  },
+  {
+   "q": "What is Feralas: A History?",
+   "aliases": [
+    "feralas book",
+    "history book"
+   ],
+   "answer": "It is a book Troyas Moonbreeze asks you to carry back to him at Feathermoon Stronghold."
+  },
+  {
+   "q": "Where do I take the book?",
+   "aliases": [
+    "where to bring book",
+    "book destination"
+   ],
+   "answer": "Take Feralas: A History to Troyas Moonbreeze at Feathermoon Stronghold."
+  },
+  {
+   "q": "Why does Troyas want it back?",
+   "aliases": [
+    "why return book",
+    "why is Troyas waiting"
+   ],
+   "answer": "Troyas says he is eager for your return, but gives no further reason."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "book",
+  "feathermoon stronghold",
+  "feralas",
+  "feralas: a history",
+  "return to troyas",
+  "troyas moonbreeze"
+ ],
+ "related": [
+  "quest:2943",
+  "quest:2940",
+  "zone:feralas",
+  "subzone:feathermoon-stronghold-classic"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Feralas: A History (quest item)",
+  "Return to Troyas"
+ ]
+}

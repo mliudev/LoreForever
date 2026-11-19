@@ -1,0 +1,84 @@
+{
+ "key": "item:stone-circle",
+ "type": "item",
+ "name": "Stone Circle",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Stone Circle",
+  "quests": [
+   "quest:3444"
+  ]
+ },
+ "summary": "The Stone Circle is a serpent-marked stone kept in Marvon Rivetseeker\u2019s workshop in Ratchet. It recalls a circular chamber in the Sunken Temple.",
+ "sections": [
+  {
+   "title": "A Serpent Mark",
+   "body": "Marvon Rivetseeker keeps the Stone Circle in his Ratchet workshop, where he asks you to retrieve it. He remembers finding a matching serpent symbol after escaping the Sunken Temple. The stone may help him recall more of what he saw there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Stone Circle?",
+   "aliases": [
+    "stone circle",
+    "what stone is this"
+   ],
+   "answer": "The Stone Circle is a round stone marked with a serpent symbol, kept in Marvon Rivetseeker\u2019s workshop in Ratchet."
+  },
+  {
+   "q": "Where is the Stone Circle?",
+   "aliases": [
+    "where stone circle",
+    "find the stone"
+   ],
+   "answer": "Marvon Rivetseeker has the Stone Circle in his workshop in Ratchet."
+  },
+  {
+   "q": "Who wants the Stone Circle?",
+   "aliases": [
+    "who wants this stone",
+    "marvon stone"
+   ],
+   "answer": "Marvon Rivetseeker asks you to retrieve the Stone Circle from his workshop in Ratchet."
+  },
+  {
+   "q": "What does the serpent mark mean?",
+   "aliases": [
+    "serpent symbol",
+    "snake mark meaning"
+   ],
+   "answer": "The serpent symbol matches the statues Marvon remembers in a circular chamber of the Sunken Temple."
+  },
+  {
+   "q": "Why does Marvon want it?",
+   "aliases": [
+    "why stone circle",
+    "marvon wants stone"
+   ],
+   "answer": "Marvon hopes the stone will help him remember his escape from the Sunken Temple and tell him more about the place."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "circular chamber",
+  "marvon rivetseeker",
+  "ratchet",
+  "serpent symbol",
+  "stone circle",
+  "sunken temple"
+ ],
+ "related": [
+  "quest:3444",
+  "quest:3445",
+  "subzone:ratchet",
+  "zone:barrens",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Stone Circle",
+  "The Stone Circle"
+ ]
+}

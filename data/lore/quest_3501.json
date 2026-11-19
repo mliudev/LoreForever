@@ -1,0 +1,61 @@
+{
+ "key": "quest:3501",
+ "type": "quest",
+ "name": "Everything Counts In Large Amounts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3501
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kum'isha accepts Imperfect Draenethyst Fragments and gives a reward for each one. You bring him the fragments, though his regard for them is plain.",
+ "sections": [
+  {
+   "title": "Kum'isha's Offer",
+   "body": "Kum'isha offers you a reward for each Imperfect Draenethyst Fragment you bring him. His words make clear what he thinks of the fragments and of anyone who brings them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kum'isha want?",
+   "aliases": [
+    "kumisha wants",
+    "what to bring kumisha"
+   ],
+   "answer": "Kum'isha accepts Imperfect Draenethyst Fragments."
+  },
+  {
+   "q": "What do I get for a fragment?",
+   "aliases": [
+    "fragment reward",
+    "what for draenethyst"
+   ],
+   "answer": "Kum'isha gives you a reward for each Imperfect Draenethyst Fragment you bring him."
+  },
+  {
+   "q": "What does Kum'isha think of the fragments?",
+   "aliases": [
+    "kumisha opinion",
+    "fragments junk"
+   ],
+   "answer": "Kum'isha calls the fragments junk."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "draenethyst",
+  "fragment",
+  "imperfect draenethyst fragment",
+  "kum'isha",
+  "reward"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Everything Counts In Large Amounts"
+ ]
+}

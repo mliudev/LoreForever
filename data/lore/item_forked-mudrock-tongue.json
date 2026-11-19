@@ -1,0 +1,85 @@
+{
+ "key": "item:forked-mudrock-tongue",
+ "type": "item",
+ "name": "Forked Mudrock Tongue",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Forked Mudrock Tongue",
+  "quests": [
+   "quest:1204"
+  ]
+ },
+ "summary": "Forked Mudrock Tongues come from Mudrock turtles along the coast of Dustwallow Marsh. Morgan Stern wants them for a new soup he hopes to serve in Stormwind.",
+ "sections": [
+  {
+   "title": "A Cook\u2019s Request",
+   "body": "Morgan Stern is seeking forked Mudrock Tongues in Theramore. He believes they have a distinct flavor and wants to try them in his Mudrock Soup and Bugs. The turtles live along the coast, mostly around the bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do forked Mudrock Tongues come from?",
+   "aliases": [
+    "mudrock tongue source",
+    "where tongue",
+    "forked tongues where"
+   ],
+   "answer": "They come from Mudrock turtles along the coast of Dustwallow Marsh, mostly around the bay."
+  },
+  {
+   "q": "Why does Morgan Stern want them?",
+   "aliases": [
+    "why morgan wants tongues",
+    "morgan recipe",
+    "soup and bugs"
+   ],
+   "answer": "Morgan Stern wants to test their distinct flavor in his Mudrock Soup and Bugs."
+  },
+  {
+   "q": "Who is Morgan Stern?",
+   "aliases": [
+    "morgan stern who",
+    "who's morgan",
+    "theramore cook"
+   ],
+   "answer": "Morgan Stern is a cook in Theramore working on a dish called Mudrock Soup and Bugs."
+  },
+  {
+   "q": "Where does Morgan hope to serve the dish?",
+   "aliases": [
+    "where serve soup",
+    "blue recluse dish",
+    "stormwind restaurant"
+   ],
+   "answer": "Morgan hopes to serve Mudrock Soup and Bugs at the Blue Recluse in Stormwind."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you may wonder what flavor Morgan hopes to draw from these tongues. He is testing techniques to bring out their distinct taste for his Mudrock Soup and Bugs."
+  }
+ ],
+ "keywords": [
+  "blue recluse",
+  "dustwallow marsh",
+  "forked mudrock tongue",
+  "morgan stern",
+  "mudrock soup and bugs",
+  "mudrock tongue",
+  "mudrock turtle",
+  "theramore"
+ ],
+ "related": [
+  "quest:1204",
+  "zone:dustwallow",
+  "zone:stormwind"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Forked Mudrock Tongue",
+  "Mudrock Soup and Bugs"
+ ]
+}

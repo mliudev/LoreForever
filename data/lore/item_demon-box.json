@@ -1,0 +1,100 @@
+{
+ "key": "item:demon-box",
+ "type": "item",
+ "name": "Demon Box",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Demon Box",
+  "quests": [
+   "quest:5381"
+  ]
+ },
+ "summary": "The Demon Box is held by the Burning Blade at Thunder Axe Fortress in Desolace. Its contents are tied to demonic portals at Mannoroc Coven.",
+ "sections": [
+  {
+   "title": "A Sealed Relic",
+   "body": "At Thunder Axe Fortress in Desolace, the Burning Blade guards the Demon Box. Within it lies the Hand of Iruxos, which the Burning Blade uses to open demonic portals at Mannoroc Coven. Taiga Wisemane in Shadowprey Village seeks the box so the portals can be opposed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Demon Box?",
+   "aliases": [
+    "demon box",
+    "what box",
+    "box contents"
+   ],
+   "answer": "The Demon Box holds the Hand of Iruxos, a powerful artifact used by the Burning Blade to open demonic portals."
+  },
+  {
+   "q": "Where is the Demon Box?",
+   "aliases": [
+    "box location",
+    "where box",
+    "thunder axe box"
+   ],
+   "answer": "The Burning Blade keeps it inside Thunder Axe Fortress, in Desolace."
+  },
+  {
+   "q": "What does the Burning Blade use it for?",
+   "aliases": [
+    "burning blade box",
+    "why do they want it",
+    "demon portals"
+   ],
+   "answer": "The Burning Blade uses the Demon Box's Hand of Iruxos to open demonic portals at Mannoroc Coven."
+  },
+  {
+   "q": "Who wants the Demon Box?",
+   "aliases": [
+    "who wants box",
+    "taiga wisemane box",
+    "shadowprey village"
+   ],
+   "answer": "Taiga Wisemane in Shadowprey Village seeks the Demon Box and the Demon Pick."
+  },
+  {
+   "q": "How do you open the red crystal?",
+   "aliases": [
+    "red crystal",
+    "get demon box",
+    "demon pick crystal"
+   ],
+   "answer": "Use the Demon Pick on the red crystal in Thunder Axe Fortress to gain access to the Demon Box."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can bring the Demon Box to Taiga Wisemane in Shadowprey Village to help oppose the Burning Blade's portals."
+  }
+ ],
+ "keywords": [
+  "burning blade",
+  "demon box",
+  "demon pick",
+  "desolace",
+  "hand of iruxos",
+  "mannoroc coven",
+  "shadowprey village",
+  "taiga wisemane",
+  "thunder axe fortress"
+ ],
+ "related": [
+  "quest:5381",
+  "item:demon-pick",
+  "quest:5581",
+  "subzone:thunder-axe-fortress",
+  "subzone:mannoroc-coven",
+  "npc:taiga-wisemane",
+  "subzone:shadowprey-village",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Demon Box",
+  "Hand of Iruxos (quest)"
+ ]
+}

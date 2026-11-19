@@ -1,0 +1,86 @@
+{
+ "key": "item:golem-oil",
+ "type": "item",
+ "name": "Golem Oil",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Golem Oil",
+  "quests": [
+   "quest:3442"
+  ]
+ },
+ "summary": "Golem Oil is gathered from the golems and elementals of Searing Gorge. Velarok Windblade needs it to prepare a torch for the four sentry towers.",
+ "sections": [
+  {
+   "title": "Oil for the Torch",
+   "body": "Velarok Windblade asks for four globes of Golem Oil in Searing Gorge. He needs them with four Hearts of Flame to craft the Torch of Flawless Flame, meant to set the four sentry towers ablaze. The golems and elementals of these lands are the first place to seek the materials.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Golem Oil for?",
+   "aliases": [
+    "golem oil use",
+    "why collect golem oil"
+   ],
+   "answer": "Velarok Windblade uses four globes of Golem Oil with four Hearts of Flame to craft the Torch of Flawless Flame."
+  },
+  {
+   "q": "Who needs Golem Oil?",
+   "aliases": [
+    "who wants the oil",
+    "velarok oil"
+   ],
+   "answer": "Velarok Windblade asks for Golem Oil in Searing Gorge so he can craft the Torch of Flawless Flame."
+  },
+  {
+   "q": "Where can I find Golem Oil?",
+   "aliases": [
+    "golem oil where",
+    "oil source"
+   ],
+   "answer": "The golems and elementals of Searing Gorge are the first creatures to seek for Golem Oil."
+  },
+  {
+   "q": "How much Golem Oil does Velarok need?",
+   "aliases": [
+    "how many globes",
+    "oil amount"
+   ],
+   "answer": "Velarok Windblade asks for four globes of Golem Oil."
+  },
+  {
+   "q": "What is the Torch of Flawless Flame meant to do?",
+   "aliases": [
+    "flawless flame torch",
+    "torch purpose"
+   ],
+   "answer": "The Torch of Flawless Flame is meant to set the four sentry towers ablaze."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elementals",
+  "flawless flame",
+  "golem oil",
+  "golems",
+  "hearts of flame",
+  "searing gorge",
+  "sentry towers",
+  "torch of flawless flame",
+  "velarok windblade"
+ ],
+ "related": [
+  "quest:3442",
+  "zone:searinggorge",
+  "npc:velarok",
+  "item:heart-of-flame-quest-item"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Golem Oil",
+  "The Flawless Flame"
+ ]
+}

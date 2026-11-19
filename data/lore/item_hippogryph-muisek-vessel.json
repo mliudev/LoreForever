@@ -1,0 +1,80 @@
+{
+ "key": "item:hippogryph-muisek-vessel",
+ "type": "item",
+ "name": "Hippogryph Muisek Vessel",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Hippogryph Muisek Vessel",
+  "quests": [
+   "quest:3124"
+  ]
+ },
+ "summary": "The Hippogryph Muisek Vessel preserves the spirits of hippogryphs in Feralas. It is given to capture their muisek in the High Wilderness.",
+ "sections": [
+  {
+   "title": "A Preserved Spirit",
+   "body": "After you have shown you can use the vessel, Zor Lonetree asks you to capture hippogryph muisek. The Frayfeather hippogryphs live in the High Wilderness, south of him. Their spirits have long been loyal companions to the night elves. Zor fears that a spirit left free after an animal's death may become a greater creature and seek vengeance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Hippogryph Muisek Vessel do?",
+   "aliases": [
+    "what's the vessel for",
+    "hippogryph vessel use"
+   ],
+   "answer": "The vessel captures hippogryph muisek so their spirits may be preserved."
+  },
+  {
+   "q": "Where do I use the vessel?",
+   "aliases": [
+    "where to use muisek vessel",
+    "high wilderness vessel"
+   ],
+   "answer": "The Frayfeather hippogryphs are in the High Wilderness, south of Zor Lonetree."
+  },
+  {
+   "q": "Why capture hippogryph muisek?",
+   "aliases": [
+    "why capture them",
+    "hippogryph spirits"
+   ],
+   "answer": "The vessel preserves the hippogryphs' muisek. Zor Lonetree fears a spirit left free after death may become a greater creature and seek vengeance."
+  },
+  {
+   "q": "Are hippogryphs important to night elves?",
+   "aliases": [
+    "night elf hippogryphs",
+    "hippogryph companions"
+   ],
+   "answer": "Hippogryphs have been loyal companions to the night elves for many years."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Hippogryphs have long been loyal companions to the night elves, and preserving their spirits matters to Zor Lonetree."
+  }
+ ],
+ "keywords": [
+  "frayfeather",
+  "high wilderness",
+  "hippogryph",
+  "hippogryph muisek",
+  "hippogryph muisek vessel",
+  "muisek",
+  "zor lonetree"
+ ],
+ "related": [
+  "quest:3124",
+  "subzone:high-wilderness",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hippogryph Muisek Vessel",
+  "Hippogryph Muisek (Classic)"
+ ]
+}

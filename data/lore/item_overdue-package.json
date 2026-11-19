@@ -1,0 +1,81 @@
+{
+ "key": "item:overdue-package",
+ "type": "item",
+ "name": "Overdue Package",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Overdue Package",
+  "quests": [
+   "quest:4450"
+  ]
+ },
+ "summary": "The Overdue Package is one of the goods Krinkle Goodsteel seeks for his work in Gadgetzan. It is listed in his ledger alongside materials from several distant places.",
+ "sections": [
+  {
+   "title": "Among the Goods",
+   "body": "Krinkle Goodsteel in Gadgetzan is gathering goods from Searing Gorge and beyond. His ledger names the Overdue Package among them, along with a crystal leg shaft and a balanced flameberge. The package lies in a damaged crate at Beezil's Wreck in Dustwallow Marsh.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Overdue Package?",
+   "aliases": [
+    "overdue package",
+    "package for Krinkle",
+    "goodsteel package"
+   ],
+   "answer": "The Overdue Package is one of the goods named in Krinkle Goodsteel's ledger for his work in Gadgetzan."
+  },
+  {
+   "q": "Where is the package?",
+   "aliases": [
+    "where package",
+    "package location",
+    "find overdue package"
+   ],
+   "answer": "The Overdue Package is in a damaged crate at Beezil's Wreck in Dustwallow Marsh."
+  },
+  {
+   "q": "Who wants the package?",
+   "aliases": [
+    "who wants it",
+    "Krinkle's package",
+    "package for who"
+   ],
+   "answer": "Krinkle Goodsteel in Gadgetzan seeks the Overdue Package along with the other goods in his ledger."
+  },
+  {
+   "q": "Why is it overdue?",
+   "aliases": [
+    "why overdue",
+    "package late",
+    "what's overdue"
+   ],
+   "answer": "The name marks it as overdue, but no reason for the delay is given."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beezil's wreck",
+  "damaged crate",
+  "dustwallow marsh",
+  "gadgetzan",
+  "goodsteel ledger",
+  "krinkle goodsteel",
+  "overdue package"
+ ],
+ "related": [
+  "item:goodsteel-ledger",
+  "quest:4450",
+  "subzone:beezil-s-wreck",
+  "zone:dustwallow",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Overdue Package",
+  "Ledger from Tanaris"
+ ]
+}

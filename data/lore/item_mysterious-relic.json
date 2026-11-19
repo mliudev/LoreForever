@@ -1,0 +1,94 @@
+{
+ "key": "item:mysterious-relic",
+ "type": "item",
+ "name": "Mysterious Relic",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Mysterious Relic",
+  "quests": [
+   "quest:2870",
+   "quest:2871"
+  ]
+ },
+ "summary": "The Mysterious Relic is an unfamiliar device found during a naga excavation on the Isle of Dread. Feathermoon Stronghold wants it studied to learn what it is.",
+ "sections": [
+  {
+   "title": "A Strange Find",
+   "body": "Scouts traced Lord Shalzaru\u2019s excavation to a cave south of the main ruins on the Isle of Dread. The naga lord uncovered the Mysterious Relic there, and Latronicus Moonspear asked that it be brought to Feathermoon Stronghold for study.\n\nLatronicus could make little of the device, so he sent it to his wife Vestia, a priestess and scholar. She found it unlike the ruins\u2019 usual objects and unlike naga work. Its nature remains uncertain while she studies it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was the Mysterious Relic found?",
+   "aliases": [
+    "relic location",
+    "where relic",
+    "isle of dread relic"
+   ],
+   "answer": "Lord Shalzaru uncovered the Mysterious Relic in a naga excavation cave south of the main ruins on the Isle of Dread."
+  },
+  {
+   "q": "Who wants the relic?",
+   "aliases": [
+    "who needs relic",
+    "latronicus relic",
+    "relic for who"
+   ],
+   "answer": "Latronicus Moonspear asked for the Mysterious Relic to be brought to Feathermoon Stronghold so it could be studied."
+  },
+  {
+   "q": "Who studies the Mysterious Relic?",
+   "aliases": [
+    "vestia moonspear",
+    "who researches relic",
+    "relic scholar"
+   ],
+   "answer": "Vestia Moonspear, Latronicus\u2019s wife and a priestess and scholar, studies the Mysterious Relic."
+  },
+  {
+   "q": "What is the Mysterious Relic?",
+   "aliases": [
+    "what is relic",
+    "weird device",
+    "relic meaning"
+   ],
+   "answer": "Vestia says the Mysterious Relic is unlike the objects of the Ruins of Solarsal and is not of naga design. She needs time to study it."
+  },
+  {
+   "q": "Did the naga make the relic?",
+   "aliases": [
+    "naga relic",
+    "is it naga made",
+    "who made relic"
+   ],
+   "answer": "Vestia says the Mysterious Relic is not of naga design, though its maker remains unknown."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feathermoon stronghold",
+  "isle of dread",
+  "latronicus moonspear",
+  "lord shalzaru",
+  "mysterious relic",
+  "naga excavation",
+  "relic",
+  "vestia moonspear"
+ ],
+ "related": [
+  "quest:2871",
+  "quest:2870",
+  "npc:lord-shalzaru",
+  "subzone:isle-of-dread",
+  "subzone:feathermoon-stronghold-classic",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Mysterious Relic",
+  "Against Lord Shalzaru",
+  "Delivering the Relic"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "item:smotts-cutlass",
+ "type": "item",
+ "name": "Smotts' Cutlass",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Smotts' Cutlass",
+  "quests": [
+   "quest:618"
+  ]
+ },
+ "summary": "Smotts' Cutlass is Captain Smotts' blade, lost when Negolash took it from him. The captain wants it back in Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "A Captain's Blade",
+   "body": "Captain Smotts asks you to bring wine and Barbecued Buzzard Wings to his old lifeboat on the coast. Negolash, the hungry giant who destroyed the captain's ship, is fond of both. Smotts means to draw the giant close and reclaim his cutlass. The blade is in Negolash's hands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Smotts' Cutlass?",
+   "aliases": [
+    "smotts cutlass owner",
+    "captain's sword",
+    "who is smotts"
+   ],
+   "answer": "Captain Smotts owns the cutlass and asks for its return."
+  },
+  {
+   "q": "How did Negolash get the cutlass?",
+   "aliases": [
+    "negolash cutlass",
+    "how'd giant get it",
+    "cutlass stolen"
+   ],
+   "answer": "Negolash took the cutlass after the giant destroyed Captain Smotts' ship."
+  },
+  {
+   "q": "Why does Smotts want wine and buzzard wings?",
+   "aliases": [
+    "negolash bait",
+    "why wine and wings",
+    "smotts food"
+   ],
+   "answer": "Negolash craves wine and Captain Smotts' Barbecued Buzzard Wings, so Smotts uses them to lure the giant to his old lifeboat."
+  },
+  {
+   "q": "Where is Smotts' Cutlass?",
+   "aliases": [
+    "cutlass location",
+    "where's smotts blade",
+    "negolash item"
+   ],
+   "answer": "Negolash has Smotts' Cutlass in Stranglethorn Vale."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barbecued buzzard wings",
+  "captain smotts",
+  "cutlass",
+  "negolash",
+  "ruined lifeboat",
+  "smotts' cutlass",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:618",
+  "quest:619",
+  "zone:stranglethorn",
+  "quest:8553"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Smotts' Cutlass",
+  "Facing Negolash"
+ ]
+}

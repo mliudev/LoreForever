@@ -1,0 +1,94 @@
+{
+ "key": "item:bloodscalp-tusk",
+ "type": "item",
+ "name": "Bloodscalp Tusk",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Bloodscalp Tusk",
+  "quests": [
+   "quest:581"
+  ]
+ },
+ "summary": "A Bloodscalp Tusk is taken from a Bloodscalp troll in northern Stranglethorn Vale. Nimboya at Grom'gol Base Camp asks for tusks as proof that you can help search for Yenniku.",
+ "sections": [
+  {
+   "title": "A Hunter's Proof",
+   "body": "At Grom'gol Base Camp, Nimboya asks you to bring him nine Bloodscalp Tusks. He needs to know you can hunt the tribe before he trusts you to help find Yenniku, his chief's youngest son. The tusks are proof of your strength.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Bloodscalp Tusk?",
+   "aliases": [
+    "bloodscalp tusk",
+    "what tusks are these"
+   ],
+   "answer": "A Bloodscalp Tusk comes from a troll of the Bloodscalp tribe in Stranglethorn Vale."
+  },
+  {
+   "q": "Who wants Bloodscalp Tusks?",
+   "aliases": [
+    "who wants tusks",
+    "Nimboya tusks"
+   ],
+   "answer": "Nimboya at Grom'gol Base Camp asks you to bring him nine Bloodscalp Tusks."
+  },
+  {
+   "q": "Why does Nimboya need the tusks?",
+   "aliases": [
+    "why tusks",
+    "tusk reason"
+   ],
+   "answer": "Nimboya wants the tusks as proof that you are strong enough to help him search for Yenniku."
+  },
+  {
+   "q": "Who is Yenniku?",
+   "aliases": [
+    "Yenniku who",
+    "Nimboya's chief son"
+   ],
+   "answer": "Yenniku is the youngest son of Nimboya's chief, and Nimboya believes the Bloodscalp tribe has him."
+  },
+  {
+   "q": "Where can I find Bloodscalp trolls?",
+   "aliases": [
+    "Bloodscalp location",
+    "where Bloodscalps"
+   ],
+   "answer": "The Bloodscalp tribe lives in northern Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you may recognize the weight of Yenniku's loss: he is a Darkspear child separated from his people."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can help Nimboya, a Darkspear sent from Orgrimmar to seek his chief's lost son."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "bloodscalp tusk",
+  "grom'gol",
+  "nimboya",
+  "stranglethorn",
+  "troll",
+  "yenniku"
+ ],
+ "related": [
+  "quest:581",
+  "topic:darkspear-tribe",
+  "topic:troll",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bloodscalp Tusk",
+  "Hunt for Yenniku (Classic)"
+ ]
+}

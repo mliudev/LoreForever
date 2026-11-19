@@ -1,0 +1,99 @@
+{
+ "key": "item:meridith-s-love-letter",
+ "type": "item",
+ "name": "Meridith's Love Letter",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Meridith's Love Letter",
+  "quests": [
+   "quest:8599"
+  ]
+ },
+ "summary": "Meridith's Love Letter carries a message from Meridith to Narain Soothfancy in Tanaris. It is a small plea born from a meeting after a flying machine crashed.",
+ "sections": [
+  {
+   "title": "A Message for Narain",
+   "body": "After rescuing Narain Soothfancy from a crashed flying machine, Meridith asks you to carry her letter to him. She has fallen in love with the gnome and hopes he will hear her feelings.",
+   "spoiler": 0
+  },
+  {
+   "title": "Narain's Reply",
+   "body": "Narain recoils when he learns who sent the letter. Meridith is a fish, he protests, and he is a gnome; he sees no way their love could work.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote Meridith's Love Letter?",
+   "aliases": [
+    "who wrote the letter",
+    "meridith letter",
+    "love letter author"
+   ],
+   "answer": "Meridith wrote the letter for Narain Soothfancy, the gnome she rescued from a crashed flying machine."
+  },
+  {
+   "q": "Who is the letter for?",
+   "aliases": [
+    "who gets the letter",
+    "letter for narain",
+    "deliver to who"
+   ],
+   "answer": "The letter is for Narain Soothfancy, a gnome in Tanaris."
+  },
+  {
+   "q": "Why does Meridith send a letter?",
+   "aliases": [
+    "why letter",
+    "meridith loves who",
+    "meridith's message"
+   ],
+   "answer": "Meridith believes she has fallen in love with Narain and wants him to know how she feels."
+  },
+  {
+   "q": "How did Meridith meet Narain?",
+   "aliases": [
+    "where did they meet",
+    "narain wreck",
+    "crashed flying machine"
+   ],
+   "answer": "Meridith rescued Narain from the wreckage of a crashed flying machine."
+  },
+  {
+   "q": "What does Narain say about the letter?",
+   "aliases": [
+    "narain's reaction",
+    "does narain love meridith",
+    "fish and gnome"
+   ],
+   "answer": "Narain says Meridith is a fish and he is a gnome, so he believes they could never be together."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, you carry Meridith's feelings to Narain Soothfancy, a fellow gnome who is startled by her message."
+  }
+ ],
+ "keywords": [
+  "fish",
+  "flying machine",
+  "gnome",
+  "love letter",
+  "meridith",
+  "narain soothfancy",
+  "tanaris"
+ ],
+ "related": [
+  "quest:8599",
+  "npc:narain-soothfancy",
+  "quest:8597",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Meridith's Love Letter",
+  "Love Song for Narain"
+ ]
+}

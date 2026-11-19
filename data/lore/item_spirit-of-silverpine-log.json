@@ -1,0 +1,93 @@
+{
+ "key": "item:spirit-of-silverpine-log",
+ "type": "item",
+ "name": "Spirit of Silverpine Log",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Spirit of Silverpine Log",
+  "quests": [
+   "quest:662"
+  ]
+ },
+ "summary": "The Spirit of Silverpine Log is the captain\u2019s record from a ship wrecked in Arathi\u2019s reef. Its charts and log hold information the crew wants kept from enemy hands.",
+ "sections": [
+  {
+   "title": "The Wrecked Ships",
+   "body": "First Mate Nilzlix wants the ship\u2019s log and charts recovered before the crew leaves the cove. The Spirit of Silverpine and the Maiden\u2019s Folly ran aground when the tide fell, striking what seemed to be a temple in the reef. Both ships sank quickly. Their records now matter to the command in Booty Bay, which fears the information could reach its enemies.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Spirit of Silverpine Log?",
+   "aliases": [
+    "silverpine log",
+    "ship log",
+    "captain log"
+   ],
+   "answer": "It is the captain\u2019s log book from the Spirit of Silverpine, one of the ships wrecked in the Arathi Highlands."
+  },
+  {
+   "q": "Where did the Spirit of Silverpine sink?",
+   "aliases": [
+    "where is silverpine",
+    "silverpine wreck",
+    "ship in arathi"
+   ],
+   "answer": "The Spirit of Silverpine ran aground on what seemed to be a temple in the reef at a cove in the Arathi Highlands."
+  },
+  {
+   "q": "Why does First Mate Nilzlix want the log?",
+   "aliases": [
+    "why get the log",
+    "nilzlix wants what",
+    "retrieve silverpine log"
+   ],
+   "answer": "First Mate Nilzlix wants the Spirit of Silverpine\u2019s log and charts recovered before the crew leaves, so their information does not fall into enemy hands."
+  },
+  {
+   "q": "What happened to the Spirit of Silverpine?",
+   "aliases": [
+    "silverpine wreck",
+    "what happened to ship",
+    "ship sank how"
+   ],
+   "answer": "As the tide lowered, the Spirit of Silverpine ran aground on what seemed to be a temple in the reef and sank quickly."
+  },
+  {
+   "q": "Why are the charts and logs important?",
+   "aliases": [
+    "why recover charts",
+    "enemy hands",
+    "booty bay records"
+   ],
+   "answer": "The crew fears the records could fall into enemy hands, and Fleet Master Seahorn would hold them responsible if that happened."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "booty bay",
+  "captain's log",
+  "deep sea salvage",
+  "first mate nilzlix",
+  "fleet master seahorn",
+  "shipwreck",
+  "spirit of silverpine",
+  "spirit of silverpine log"
+ ],
+ "related": [
+  "quest:662",
+  "item:spirit-of-silverpine-charts",
+  "item:maiden-s-folly-log",
+  "item:maiden-s-folly-charts",
+  "zone:arathi",
+  "npc:fleet-master-seahorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Spirit of Silverpine Log",
+  "Deep Sea Salvage"
+ ]
+}

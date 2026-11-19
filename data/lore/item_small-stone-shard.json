@@ -1,0 +1,86 @@
+{
+ "key": "item:small-stone-shard",
+ "type": "item",
+ "name": "Small Stone Shard",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Small Stone Shard",
+  "quests": [
+   "quest:710"
+  ]
+ },
+ "summary": "Small Stone Shards come from lesser rock elementals in the Badlands. Lotwil Veriatus needs them to test spells and devices for his elemental binding work.",
+ "sections": [
+  {
+   "title": "Stone for Study",
+   "body": "Lesser rock elementals in the hills west of Lotwil Veriatus carry Small Stone Shards. The mage gathers them for tests of his offensive spells and the devices he has assembled. He is working on shackles meant to bind elementals, and these shards are among the materials he needs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Small Stone Shards come from?",
+   "aliases": [
+    "small shard source",
+    "stone shard where",
+    "lesser rock elementals"
+   ],
+   "answer": "You take them from the lesser rock elementals that roam the hills west of Lotwil Veriatus."
+  },
+  {
+   "q": "Who wants the shards?",
+   "aliases": [
+    "who needs shards",
+    "Lotwil shards",
+    "give shards to who"
+   ],
+   "answer": "Lotwil Veriatus needs Small Stone Shards for his work on elemental binding and his tests of spells and devices."
+  },
+  {
+   "q": "What are the shards used for?",
+   "aliases": [
+    "why shards",
+    "shard purpose",
+    "what Lotwil doing"
+   ],
+   "answer": "Lotwil Veriatus uses Small Stone Shards to test offensive spells and devices for his work on shackles of elemental binding."
+  },
+  {
+   "q": "Where is Lotwil Veriatus working?",
+   "aliases": [
+    "Lotwil location",
+    "where is Lotwil",
+    "mage in badlands"
+   ],
+   "answer": "Lotwil Veriatus is working in the Badlands, with lesser rock elementals in the hills immediately to the west."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you can see Lotwil Veriatus testing offensive spells and devices as he works on shackles for binding elementals."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "elemental binding",
+  "lesser rock elemental",
+  "lotwil veriatus",
+  "offensive spells",
+  "shackles",
+  "small stone shard",
+  "small stone shards"
+ ],
+ "related": [
+  "quest:710",
+  "npc:lotwil-veriatus",
+  "zone:badlands",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Small Stone Shard",
+  "Study of the Elements: Rock"
+ ]
+}

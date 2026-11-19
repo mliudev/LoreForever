@@ -1,0 +1,77 @@
+{
+ "key": "item:ironfur-liver",
+ "type": "item",
+ "name": "Ironfur Liver",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Ironfur Liver",
+  "quests": [
+   "quest:1452"
+  ]
+ },
+ "summary": "Ironfur Liver comes from Ironfur bears in Feralas. Rhapsody Shindigger needs it for a drink he hopes will loosen his tongue about a swamp adventure.",
+ "sections": [
+  {
+   "title": "A Stronger Drink",
+   "body": "Rhapsody Shindigger in the Hinterlands asks you to bring three Ironfur Livers for his Kalimdor Kocktail. He pairs them with Groddoc Livers from Feralas and Roc Gizzards from Tanaris. The drink, he says, will help him speak of his flight over the swamp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Ironfur Livers come from?",
+   "aliases": [
+    "ironfur liver source",
+    "where get liver"
+   ],
+   "answer": "Ironfur Livers come from Ironfur bears in Feralas."
+  },
+  {
+   "q": "Who wants Ironfur Liver?",
+   "aliases": [
+    "who needs this",
+    "rhapsody liver"
+   ],
+   "answer": "Rhapsody Shindigger in the Hinterlands wants three Ironfur Livers for his Kalimdor Kocktail."
+  },
+  {
+   "q": "Why does Rhapsody need these livers?",
+   "aliases": [
+    "why liver",
+    "what's the cocktail for"
+   ],
+   "answer": "Rhapsody needs Ironfur Livers, Groddoc Livers, and Roc Gizzards to make a strong Kalimdor Kocktail. He hopes the drink will help him talk about his swamp adventure."
+  },
+  {
+   "q": "What else goes into the Kalimdor Kocktail?",
+   "aliases": [
+    "cocktail ingredients",
+    "other organs"
+   ],
+   "answer": "The Kalimdor Kocktail also calls for Groddoc Livers from Feralas and Roc Gizzards from Tanaris."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "feralas",
+  "groddoc liver",
+  "ironfur bear",
+  "ironfur liver",
+  "kalimdor kocktail",
+  "rhapsody shindigger",
+  "roc gizzard"
+ ],
+ "related": [
+  "quest:1452",
+  "zone:feralas",
+  "quest:1451",
+  "item:groddoc-liver",
+  "item:roc-gizzard"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ironfur Liver",
+  "Rhapsody's Kalimdor Kocktail"
+ ]
+}

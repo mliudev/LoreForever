@@ -1,0 +1,81 @@
+{
+ "key": "item:tor-gan-s-orb",
+ "type": "item",
+ "name": "Tor'gan's Orb",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Tor'gan's Orb",
+  "quests": [
+   "quest:702"
+  ]
+ },
+ "summary": "Tor'gan's Orb carries raptor essence to Gor'mul at Hammerfall. Tor'gan hopes its power will restore the old warrior's purpose.",
+ "sections": [
+  {
+   "title": "Raptor Essence",
+   "body": "At Hammerfall, Tor'gan gives you an orb charged with the power and spirit of raptors. He asks you to bring it to Gor'mul, hoping its energy will restore the warrior's spirit and give him new purpose.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Tor'gan's Orb do?",
+   "aliases": [
+    "what orb do",
+    "orb purpose"
+   ],
+   "answer": "Tor'gan's Orb carries raptor power and spirit, meant to give Gor'mul the essence of the raptor."
+  },
+  {
+   "q": "Who is the orb for?",
+   "aliases": [
+    "orb for who",
+    "who gets tor'gan orb"
+   ],
+   "answer": "Tor'gan asks you to bring the orb to Gor'mul at Hammerfall."
+  },
+  {
+   "q": "Who made Tor'gan's Orb?",
+   "aliases": [
+    "who made orb",
+    "tor'gan orb maker"
+   ],
+   "answer": "Tor'gan provides the orb and charges it with raptor essence."
+  },
+  {
+   "q": "Why does Gor'mul need the orb?",
+   "aliases": [
+    "why gor'mul orb",
+    "gor'mul purpose"
+   ],
+   "answer": "Tor'gan hopes the raptor essence will invigorate Gor'mul's spirit and give him new purpose."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry the orb to Gor'mul so he may learn the Horde's present state and lend his strength to its battles."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "gor'mul",
+  "hammerfall",
+  "raptor essence",
+  "raptor hearts",
+  "tor'gan",
+  "tor'gan's orb"
+ ],
+ "related": [
+  "subzone:hammerfall",
+  "topic:horde",
+  "quest:701",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Tor'gan's Orb",
+  "Guile of the Raptor (2)"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "key": "item:skylord-plume",
+ "type": "item",
+ "name": "Skylord Plume",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Skylord Plume",
+  "quests": [
+   "quest:7830"
+  ]
+ },
+ "summary": "The Skylord Plume is taken from a Razorbeak Skylord in the Hinterlands. Huntsman Markhor at Revantusk Village seeks it as proof that one of these dangerous gryphons has been slain.",
+ "sections": [
+  {
+   "title": "A Hunter's Proof",
+   "body": "At Revantusk Village, Huntsman Markhor asks you to bring him a Skylord Plume. The Razorbeak Skylords are rare gryphons of the Hinterlands, and Markhor says they prey on troll hunters. He wants one slain and its plume returned as proof.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Skylord Plume?",
+   "aliases": [
+    "skylord plume",
+    "what plume",
+    "gryphon feather"
+   ],
+   "answer": "The Skylord Plume comes from a Razorbeak Skylord, a rare gryphon of the Hinterlands."
+  },
+  {
+   "q": "Who wants the Skylord Plume?",
+   "aliases": [
+    "who wants plume",
+    "Markhor plume",
+    "Revantusk hunter"
+   ],
+   "answer": "Huntsman Markhor at Revantusk Village wants a Skylord Plume brought to him."
+  },
+  {
+   "q": "Why does Markhor want it?",
+   "aliases": [
+    "why plume",
+    "Markhor wants feather",
+    "what's it for"
+   ],
+   "answer": "Markhor asks you to slay a Razorbeak Skylord and return with its plume as proof."
+  },
+  {
+   "q": "Where can I find a Razorbeak Skylord?",
+   "aliases": [
+    "where skylord",
+    "find razorbeak",
+    "skylord location"
+   ],
+   "answer": "Razorbeak Skylords are rare gryphons that occupy the wilds of the Hinterlands."
+  },
+  {
+   "q": "Why are the Skylords dangerous to trolls?",
+   "aliases": [
+    "skylords and trolls",
+    "gryphon threat",
+    "why kill skylord"
+   ],
+   "answer": "Markhor says the elder gryphons prey on troll hunters and raise offspring that also kill trolls."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "Markhor says Razorbeak Skylords have devoured troll hunters in the Hinterlands, making their threat close to home."
+  },
+  {
+   "target": "class:Hunter",
+   "text": "Huntsman Markhor calls on you to hunt a rare gryphon that preys on hunters in the Hinterlands."
+  }
+ ],
+ "keywords": [
+  "gryphon",
+  "hinterlands",
+  "markhor",
+  "razorbeak skylord",
+  "revantusk village",
+  "skylord plume",
+  "troll hunters"
+ ],
+ "related": [
+  "quest:7830",
+  "zone:hinterlands",
+  "topic:troll",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Skylord Plume",
+  "Wowpedia: Avenging the Fallen"
+ ]
+}

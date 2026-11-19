@@ -1,0 +1,77 @@
+{
+ "key": "item:crude-charm",
+ "type": "item",
+ "name": "Crude Charm",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Crude Charm",
+  "quests": [
+   "quest:1384"
+  ]
+ },
+ "summary": "A Crude Charm is carried by Kolkar centaurs in Desolace. Uthek the Wise asks for them to help the Gelkis maintain their standing among the clans.",
+ "sections": [
+  {
+   "title": "Charms of the Kolkar",
+   "body": "Uthek the Wise wants the Kolkar's charms brought to Gelkis Village. The Gelkis seek to maintain their standing with their neighbors, and Uthek means to burn the charms as proof that Kolkar magic cannot protect them. His contempt for the Kolkar is plain, and he expects their fear to weaken them further.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Crude Charm?",
+   "aliases": [
+    "crude charm",
+    "kolkar charm"
+   ],
+   "answer": "A Crude Charm is carried by Kolkar centaurs in Desolace and sought by Uthek the Wise in Gelkis Village."
+  },
+  {
+   "q": "Who wants the charms?",
+   "aliases": [
+    "who wants crude charms",
+    "uthek charms"
+   ],
+   "answer": "Uthek the Wise of Gelkis Village wants the Kolkar's Crude Charms."
+  },
+  {
+   "q": "Why does Uthek want Crude Charms?",
+   "aliases": [
+    "why charms",
+    "what are charms for"
+   ],
+   "answer": "Uthek means to burn the Kolkar charms to show that their magic is weak."
+  },
+  {
+   "q": "What do the Gelkis want from the Kolkar?",
+   "aliases": [
+    "gelkis kolkar",
+    "why raid kolkar"
+   ],
+   "answer": "The Gelkis seek to maintain their standing among the clans, and Uthek believes weakening Kolkar confidence will help."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "crude charm",
+  "desolace",
+  "gelkis",
+  "kolkar",
+  "strange alliance",
+  "uthek the wise"
+ ],
+ "related": [
+  "quest:1384",
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur",
+  "quest:1382"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Crude Charm",
+  "Raid on the Kolkar"
+ ]
+}

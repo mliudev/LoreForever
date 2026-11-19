@@ -1,0 +1,91 @@
+{
+ "key": "item:singing-blue-crystal",
+ "type": "item",
+ "name": "Singing Blue Crystal",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Singing Blue Crystal",
+  "quests": [
+   "quest:600"
+  ]
+ },
+ "summary": "Singing Blue Crystals are mined by the Venture Company in the hills around Crystalvein Mine. Crank Fizzlebub in Booty Bay wants them as proof that the goblins are losing ground.",
+ "sections": [
+  {
+   "title": "Crystals in the Hills",
+   "body": "Near Crystalvein Mine, Venture Company crews dig Singing Blue Crystals from the surrounding hills. They had meant to work inside the mine, but its basilisks drove them out. Crank Fizzlebub in Booty Bay asks you to bring him crystals taken from the company's miners. He says their retreat would leave more room for honest trade in Stranglethorn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Singing Blue Crystals?",
+   "aliases": [
+    "singing crystals",
+    "blue crystal",
+    "what are these crystals"
+   ],
+   "answer": "They are crystals mined by the Venture Company in the hills around Crystalvein Mine."
+  },
+  {
+   "q": "Where does the Venture Company mine them?",
+   "aliases": [
+    "where are the crystals",
+    "crystal location",
+    "where venture co mine"
+   ],
+   "answer": "The Venture Company digs Singing Blue Crystals from the hills surrounding Crystalvein Mine in Stranglethorn Vale."
+  },
+  {
+   "q": "Why aren't they mining inside Crystalvein Mine?",
+   "aliases": [
+    "why not in the mine",
+    "basilisk mine",
+    "crystalvein basilisks"
+   ],
+   "answer": "Basilisks in Crystalvein Mine drove the Venture Company out, so its crews mine the surrounding hills instead."
+  },
+  {
+   "q": "Who wants the crystals?",
+   "aliases": [
+    "who needs singing crystals",
+    "crank fizzlebub crystals",
+    "crystals for crank"
+   ],
+   "answer": "Crank Fizzlebub in Booty Bay wants Singing Blue Crystals as proof that the Venture Company is losing ground."
+  },
+  {
+   "q": "What does the Venture Company want with the crystals?",
+   "aliases": [
+    "why mine crystals",
+    "venture co crystals",
+    "what are goblins digging for"
+   ],
+   "answer": "The Venture Company planned to mine Singing Blue Crystals from Crystalvein Mine, then turned to the hills after basilisks drove them out."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "basilisks",
+  "booty bay",
+  "crank fizzlebub",
+  "crystalvein mine",
+  "singing blue crystal",
+  "singing crystals",
+  "stranglethorn vale",
+  "venture company"
+ ],
+ "related": [
+  "quest:600",
+  "subzone:crystalvein-mine",
+  "subzone:booty-bay",
+  "topic:venture-company",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Singing Blue Crystal",
+  "Venture Company Mining (Classic)"
+ ]
+}

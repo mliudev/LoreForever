@@ -4189,9 +4189,9 @@
     "zone:hallofthanes": {
       "1": [
         {
-          "duration": 41.351836734693876,
-          "file": "Audio/Transport/full_zone_hallofthanes-c30ab79e8252d7d38b46/1-0000.mp3",
-          "sha256": "706add0cb91cf929c45a55d84b276db87af9839411cb106bb80ff04dac51cd7b",
+          "duration": 48.61387755102041,
+          "file": "Audio/Transport/full_zone_hallofthanes-3316157de15face774b5/1-0000.mp3",
+          "sha256": "c4f20e6d199e22dfde221b3708f03c1e9b0f7b95775f091dec56a43002bc77c3",
           "start": 0
         }
       ],
@@ -4203,12 +4203,12 @@
         ]
       },
       "fullHash": "270aff",
-      "generation": "b8e9f09d2d2a98358a84",
+      "generation": "7cfbbeb6624570500e8a",
       "hash": "d9aa4b",
       "source": {
-        "duration": 41.377959,
+        "duration": 48.64,
         "file": null,
-        "sha256": "c30ab79e8252d7d38b461264cb6823e0022460abf56451725eacd54c31637b92"
+        "sha256": "3316157de15face774b588ac8cf026559ce42706f0ef3e7c17c1c9ed4af9b9f2"
       },
       "text": "Hall of Thanes. Alliance defenders now seek a way into the Hall of Thanes, deep beneath Ironforge. Its old vaults hold dwarven relics, and danger has reached those depths. Hammers ring in Ironforge's Great Forge, but forgotten halls run deeper beneath the stone. The Hall of Thanes lies in those ancient reaches, tied to dwarven bloodlines and relics of stonecraft. Now Alliance champions must enter its shadowed vaults and guard the depths. The route into the Hall of Thanes is hidden from Ironforge's everyday travelers. Its corridors have been sealed or concealed. To find a way through, recover an Underground Map and use forgotten charts to navigate the deeper tunnels to the entrance."
     },
@@ -6549,14 +6549,6 @@
       4322,
       4687
     ],
-    "706add0cb91cf929c45a55d84b276db87af9839411cb106bb80ff04dac51cd7b": [
-      143,
-      423,
-      627,
-      856,
-      1031,
-      1200
-    ],
     "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc": [
       219,
       457,
@@ -7606,6 +7598,14 @@
       947,
       1246,
       1523
+    ],
+    "c4f20e6d199e22dfde221b3708f03c1e9b0f7b95775f091dec56a43002bc77c3": [
+      167,
+      471,
+      741,
+      1010,
+      1244,
+      1438
     ],
     "c5379aecacb900045f769ad794e9d315d78be8ae4a85f622de60234953c5bae8": [
       386,
@@ -8724,10 +8724,6 @@
       "2291": 2,
       "3826": 3
     },
-    "706add0cb91cf929c45a55d84b276db87af9839411cb106bb80ff04dac51cd7b": {
-      "1031": 2,
-      "423": 1
-    },
     "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc": {
       "1098": 2,
       "457": 1
@@ -9005,6 +9001,10 @@
     "c4be6f2e4767b4485b007dd5b61776385b580d60d0c790b560a5a72e3bd9b9e0": {
       "1246": 2,
       "393": 1
+    },
+    "c4f20e6d199e22dfde221b3708f03c1e9b0f7b95775f091dec56a43002bc77c3": {
+      "1244": 2,
+      "471": 1
     },
     "c5379aecacb900045f769ad794e9d315d78be8ae4a85f622de60234953c5bae8": {
       "1172": 1,

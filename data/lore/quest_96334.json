@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Eitrigg asks you to identify the red masks worn by the human guards at Alcaz Prison. Their markings may connect the prison to the Defias Brotherhood.",
+ "summary": "You are sent to bring the red masks worn by the human guards at Alcaz Prison to Eitrigg, who can identify them. Their markings may connect the prison to the Defias Brotherhood.",
  "sections": [
   {
    "title": "A Question for Eitrigg",
-   "body": "Eitrigg, in Orgrimmar, needs to know whether the human guards at Alcaz Prison wear Defias masks. The Defias Brotherhood is known for its red masks, though Eitrigg does not know why its members are active in Kalimdor. You bring him the bandanas so he can judge their markings.",
+   "body": "Eitrigg, in Orgrimmar, can tell whether the human guards at Alcaz Prison wear Defias masks. The Defias Brotherhood is known for its red masks, though no one knows why its members are active in Kalimdor. You bring him the bandanas so he can judge their markings.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "who wants bandanas",
     "Eitrigg bandanas"
    ],
-   "answer": "Eitrigg asks you to bring the red masks to him in Orgrimmar so he can identify them."
+   "answer": "One of those who fought at Alcaz sends you to bring the red masks to Eitrigg in Orgrimmar, so he can identify them."
   },
   {
    "q": "Where are the red bandanas from?",
@@ -63,7 +63,7 @@
     "defias in kalimdor",
     "why defias here"
    ],
-   "answer": "Eitrigg does not know why the Defias Brotherhood is active in Kalimdor."
+   "answer": "No one knows yet. The one who sends you has only heard of the Defias Brotherhood in the Eastern Kingdoms."
   }
  ],
  "angles": [],
@@ -78,7 +78,6 @@
  ],
  "related": [
   "topic:defias-brotherhood",
-  "quest:65",
   "npc:eitrigg",
   "npc:thrall",
   "zone:orgrimmar"

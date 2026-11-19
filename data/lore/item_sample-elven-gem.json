@@ -1,0 +1,76 @@
+{
+ "key": "item:sample-elven-gem",
+ "type": "item",
+ "name": "Sample Elven Gem",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sample Elven Gem",
+  "quests": [
+   "quest:669"
+  ]
+ },
+ "summary": "The Sample Elven Gem is proof of a treasure found by Shakes O\u2019Breen\u2019s crew. Fleet Master Seahorn in Booty Bay needs it as word of their discovery.",
+ "sections": [
+  {
+   "title": "A Sample for Seahorn",
+   "body": "Shakes O\u2019Breen\u2019s crew has found treasure, but low tide and watchful creatures keep them from leaving. They need you to carry the Sample Elven Gem to Fleet Master Seahorn in Booty Bay. The gem proves their find and tells Seahorn they are working to recover more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sample Elven Gem?",
+   "aliases": [
+    "sample gem",
+    "elven gem sample"
+   ],
+   "answer": "The Sample Elven Gem is proof of the treasure Shakes O\u2019Breen\u2019s crew discovered."
+  },
+  {
+   "q": "Who gave me the Sample Elven Gem?",
+   "aliases": [
+    "who gave me the gem",
+    "shakes gem"
+   ],
+   "answer": "Shakes O\u2019Breen provided the Sample Elven Gem for you to take to Fleet Master Seahorn."
+  },
+  {
+   "q": "Who needs the gem?",
+   "aliases": [
+    "who wants this gem",
+    "gem for seahorn"
+   ],
+   "answer": "Fleet Master Seahorn in Booty Bay needs the Sample Elven Gem as proof of the crew\u2019s discovery."
+  },
+  {
+   "q": "Why can\u2019t Shakes O\u2019Breen\u2019s crew leave?",
+   "aliases": [
+    "why stuck",
+    "why can't they leave"
+   ],
+   "answer": "The tide is too low, and the creatures the crew disturbed are watching their movements."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "elven gem",
+  "fleet master seahorn",
+  "sample elven gem",
+  "shakes o\u2019breen",
+  "sunken treasure",
+  "treasure"
+ ],
+ "related": [
+  "quest:665",
+  "item:elven-gem",
+  "npc:fleet-master-seahorn",
+  "subzone:booty-bay"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sample Elven Gem",
+  "Sunken Treasure (4)"
+ ]
+}

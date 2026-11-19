@@ -2968,6 +2968,7 @@ local function bossKill(name, key)
   if not char.seen.boss[name] then char.seen.boss[name] = now end
   local z, s = here()
   add("boss", { n = name, key = key, z = z, s = s, pt = party() })
+  if ns.Strip and ns.Strip.FinishedPage then ns.Strip.FinishedPage(name) end
 end
 
 local function bossKey(name)
@@ -3979,7 +3980,10 @@ end
 local ALWAYS = { GOSSIP_SHOW = onGossip, ITEM_TEXT_BEGIN = true, ITEM_TEXT_READY = true,
   -- With the journey off, a boss kill still links its story (nothing is recorded).
   ENCOUNTER_END = function(_, name, _, _, success)
-    if (success == 1 or success == true) and usable(name) then sayBoss(name, bossKey(name)) end
+    if (success == 1 or success == true) and usable(name) then
+      sayBoss(name, bossKey(name))
+      if ns.Strip and ns.Strip.FinishedPage then ns.Strip.FinishedPage(name) end   -- a prep list's run done, all the same
+    end
   end,
   -- And a journey picture is still taken, and the interface comes back (onShot records nothing then).
   SCREENSHOT_SUCCEEDED = true, SCREENSHOT_FAILED = true, PLAYER_REGEN_DISABLED = true, PLAYER_REGEN_ENABLED = true,

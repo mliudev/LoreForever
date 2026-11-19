@@ -1,0 +1,65 @@
+{
+ "key": "quest:980",
+ "type": "quest",
+ "name": "The New Springs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   980
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krakle's claim sends you to Winterspring to speak with Donova Snowden. Her answer will confirm whether what he told you is true.",
+ "sections": [
+  {
+   "title": "A Word in Winterspring",
+   "body": "Krakle points you toward Donova Snowden in Winterspring. You go to her to learn whether his claim is true; her answer is still to come.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I speak with?",
+   "aliases": [
+    "who is Donova",
+    "talk to Donova"
+   ],
+   "answer": "You speak with Donova Snowden in Winterspring."
+  },
+  {
+   "q": "Why am I going to Winterspring?",
+   "aliases": [
+    "why Winterspring",
+    "what did Krakle say"
+   ],
+   "answer": "Krakle told you something, and Donova Snowden can confirm whether it is true."
+  },
+  {
+   "q": "What does Donova say?",
+   "aliases": [
+    "Donova answer",
+    "what happens when I talk to her"
+   ],
+   "answer": "She confirms that what Krakle told you is true."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "confirmation",
+  "donova snowden",
+  "krakle",
+  "new springs",
+  "truth",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "npc:donova-snowden"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The New Springs"
+ ]
+}

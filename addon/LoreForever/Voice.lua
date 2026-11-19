@@ -59,6 +59,40 @@ local function readingLocale() return ns.readingLocale or "enUS" end
 local function sameLanguage(a, b) return (a or "enUS"):sub(1, 2) == (b or "enUS"):sub(1, 2) end
 local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. msg) end
 
+-- The chat's "now playing" line stays in chat after its story ends: on stream (11/17, 20:59, LOR-1568) Mike read
+-- "now playing: Corrahn's Dagger" two minutes after its 13 s had played, beside a player saying "Nothing playing", and
+-- took the add-on for blocked; its [Stop] would have started the story over. Once the story is over the line says
+-- so, in place, without Stop. Only the newest such line is followed; a client or chat add-on without the chat box's
+-- TransformMessages leaves it as it was.
+-- The client's TransformMessages (ScrollingMessageFrameMixin) hands both functions each line unpacked (message, r, g,
+-- b, ...: the message a string, not the entry) and builds the new line from what the transform returns, so it returns
+-- the new message and everything after it untouched (the Architect, #4549). The client stamps the rewritten line anew,
+-- so in a faded chat box it shows again for a moment: "played" is worth that look.
+local nowLine
+local function pastNowLine()
+  local n, f = nowLine, DEFAULT_CHAT_FRAME
+  nowLine = nil
+  if not (n and f and f.TransformMessages) then return end
+  pcall(f.TransformMessages, f, function(message)
+    return type(message) == "string" and message:find(n.text, 1, true) ~= nil
+  end, function(message, ...)
+    local s, e = message:find(n.text, 1, true)
+    return message:sub(1, s - 1) .. n.past .. message:sub(e + 1), ...
+  end)
+end
+
+-- Post `text`, a whole "now playing" chat line; it turns into `past` once `on()` is false (Voice.NowPlayingCheck).
+function Voice.SayNowPlaying(text, past, on)
+  pastNowLine()
+  DEFAULT_CHAT_FRAME:AddMessage(text)
+  nowLine = { text = text, past = past, on = on }
+end
+
+-- UI.UpdateListen, after every change to what plays.
+function Voice.NowPlayingCheck()
+  if nowLine and not nowLine.on() then pastNowLine() end
+end
+
 local function cvar(name)
   local get = (_G.C_CVar and C_CVar.GetCVar) or _G.GetCVar
   if not get then return nil end
@@ -860,6 +894,26 @@ function Voice.Refresh(sameClips)
     end
     active[id], servedBy[id] = paths, list[1][1]
     stats[list[1][1]].plays = stats[list[1][1]].plays + 1
+  end
+  -- A letter in its writer's voice (Mike's QA 11/18: Bath'rah's Parchment, "I would have expected Bath'rah's voice to
+  -- read it"): a book page the quest givers' packs recorded in the voice of the NPC who wrote it (its book page id,
+  -- P.speaker, current by ns.DB.clipHash) plays that take, the narrators' after it as before. With "Match the quest
+  -- giver's voice" off the narrators read it. The pack is the one in the language shown, as for quest pages.
+  if s.voiceMatchGender ~= false then
+    local writer = {}   -- (the first of the quest givers' packs with a current take of a page plays it)
+    for _, base in ipairs(QUEST_GIVER_PACKS) do
+      local pack = Voice.InLanguage(base)
+      local data = pack and ensure(pack)
+      local said = data and type(data.speaker) == "table" and data.speaker or {}
+      for id, h in pairs(data and data.clips or {}) do
+        if said[id] and not writer[id] and h == hashes[id] and id:sub(1, 9) == "booktext:" then
+          writer[id] = true
+          local paths = { Voice.ClipPath(pack, id, data.ext) }
+          for _, p in ipairs(active[id] or {}) do paths[#paths + 1] = p end
+          active[id], servedBy[id], provided[id] = paths, pack, true
+        end
+      end
+    end
   end
   -- Quest dialogue (quest:<id>#detail|progress|complete, from the voices' quest packs): each voice with a current
   -- recording, in list order, with the fingerprints of the words it reads ({ voice, path, fingerprint rows, and for a
@@ -2395,13 +2449,21 @@ function Voice.OnLineStarted(it, first)
   elseif it.how == "arrival" then
     Voice.autoSession[it.key] = true   -- it started by itself: never again this session (LOR-285)
     if not first or UI.frame:IsShown() then return end
-    local line = string.format(L["now playing: %s. %s"], it.label, ns.Hooks.Link(L["Read along"], "entry", it.key))
+    local read = ns.Hooks.Link(L["Read along"], "entry", it.key)
+    local line = string.format(L["now playing: %s. %s"], it.label, read)
       .. " " .. ns.Hooks.Link(L["Stop"], "listen", it.key)
+    local past = string.format(L["played: %s. %s"], it.label, read)
     if not S().autoZoneTold then
       S().autoZoneTold = true
-      line = line .. " " .. L["(Turn this off under Options > Play stories as you find them.)"]
+      local hint = " " .. L["(Turn this off under Options > Play stories as you find them.)"]
+      line, past = line .. hint, past .. hint
     end
-    say(line)
+    -- It's on while it's the list's line, or a quest giver paused it and it carries on after (UI.Admit).
+    local prefix = "|cffffd100Lore Forever:|r "
+    Voice.SayNowPlaying(prefix .. line, prefix .. past, function()
+      local pl = UI.pl
+      return pl.items[pl.pos] == it or (it.resume == true and UI.PlaylistIndex(it.id) ~= nil)
+    end)
   end
 end
 
@@ -2424,16 +2486,41 @@ local function arrive()
   if place then UI.Admit({ id = sk, key = sk, label = place.label, how = "arrival" }) end
 end
 
+-- The places you went through since the last settle, in order. Each zone or subzone change starts the settle over and
+-- only where you are when it ends joined, so a place crossed in under AUTO_SETTLE showed its new-page note and its
+-- story never came (Mike's stream 11/18, 21:05: through Shrine of the Fallen Warrior in about 2 s on a speed buff,
+-- "Auto play appears to be broken"). Every place joins (Mike, 11/12: "Yes, every note"): one you crossed joins after
+-- where you are, while you're still in its zone (Voice.LineCheck keeps it then, as for a place passed in a run of
+-- hand-ins).
+local passed = {}
+
+local function admitPassed()
+  local UI, list = ns.UI, passed
+  passed = {}
+  for _, key in ipairs(list) do
+    local target = Voice.HasAudio(key) and fresh(key) and not UI.PlaylistIndex(key) and stillInZone(key)
+      and UI.EntryTarget(key)
+    if target then UI.Admit({ id = key, key = key, label = target.label, how = "arrival" }) end
+  end
+end
+
 local function autoPlay()
-  if arrivalsOff() or onTaxi() then return end
+  if arrivalsOff() or onTaxi() then passed = {} return end
   Voice.flying = nil   -- (landed, if PLAYER_CONTROL_GAINED didn't come)
   arrive()
+  admitPassed()
   Voice.FlushFound()   -- (what was found on the flight, after the landing's own story; also the backstop off the taxi)
 end
 
 -- Called on every zone or subzone change, and at login.
 function Voice.OnArrive()
-  if S().autoZone == false or Voice.OnDemand() then Voice.foundOnFlight = {} return end
+  if S().autoZone == false or Voice.OnDemand() then Voice.foundOnFlight, passed = {}, {} return end
+  local _, _, sk = where()
+  if sk then
+    local known = false
+    for _, k in ipairs(passed) do known = known or k == sk end
+    if not known then passed[#passed + 1] = sk end
+  end
   local token = {}
   Voice.autoToken, Voice.arrivalDue = token, token
   C_Timer.After(settle(), function()

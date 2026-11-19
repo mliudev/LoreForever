@@ -1,0 +1,88 @@
+{
+ "key": "item:bag-of-water-elemental-bracers",
+ "type": "item",
+ "name": "Bag of Water Elemental Bracers",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Bag of Water Elemental Bracers",
+  "quests": [
+   "quest:602"
+  ]
+ },
+ "summary": "A bag of water elemental bracers is brought to Archmage Ansirem Runeweaver for study. Their magical residue may help him examine the Stone of the Tides\u2019 curse.",
+ "sections": [
+  {
+   "title": "A Mage\u2019s Study",
+   "body": "In Dalaran Crater, Archmage Ansirem Runeweaver has been asked to examine the water elemental bracers. At least one bears magical residue, and he believes it may shed light on the Stone of the Tides\u2019 curse. Ansirem knows the legends of the Gurubashi Empire and has written a tome on the subject. Now he turns his attention to the bracers.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the bag?",
+   "aliases": [
+    "bag contents",
+    "bracers bag",
+    "what bracers"
+   ],
+   "answer": "The bag holds water elemental bracers for Archmage Ansirem Runeweaver to examine."
+  },
+  {
+   "q": "Who is supposed to study the bracers?",
+   "aliases": [
+    "who studies them",
+    "ansirem bracers",
+    "mage in dalaran crater"
+   ],
+   "answer": "Archmage Ansirem Runeweaver is asked to study the water elemental bracers in Dalaran Crater."
+  },
+  {
+   "q": "Why does Ansirem want the bracers?",
+   "aliases": [
+    "why bracers",
+    "bracers curse",
+    "stone curse"
+   ],
+   "answer": "At least one bracer bears magical residue that Ansirem can analyze for clues about the Stone of the Tides\u2019 curse."
+  },
+  {
+   "q": "What does Ansirem know about the Stone?",
+   "aliases": [
+    "ansirem stone knowledge",
+    "stone of tides lore",
+    "gurubashi tome"
+   ],
+   "answer": "Ansirem says he knows quite a bit about the Stone of the Tides and has written a tome about legends of the Gurubashi Empire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you bring Ansirem a magical puzzle: residue on a water elemental bracer that may help him study the Stone of the Tides\u2019 curse."
+  }
+ ],
+ "keywords": [
+  "archmage ansirem runeweaver",
+  "bag of water elemental bracers",
+  "curse",
+  "dalaran crater",
+  "gurubashi empire",
+  "magical residue",
+  "stone of the tides",
+  "water elemental bracers"
+ ],
+ "related": [
+  "quest:602",
+  "item:water-elemental-bracers",
+  "item:stone-of-the-tides",
+  "quest:578",
+  "npc:archmage-ansirem-runeweaver",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bag of Water Elemental Bracers",
+  "Magical Analysis"
+ ]
+}

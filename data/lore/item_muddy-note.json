@@ -1,0 +1,80 @@
+{
+ "key": "item:muddy-note",
+ "type": "item",
+ "name": "Muddy Note",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Muddy Note",
+  "quests": [
+   "quest:329"
+  ]
+ },
+ "summary": "A muddy, barely legible note found among a strongbox\u2019s valuables. Its details about Private Thorsen\u2019s patrols may help Lieutenant Doren uncover a traitor at Rebel Camp.",
+ "sections": [
+  {
+   "title": "The Scribbled Note",
+   "body": "Private Thorsen\u2019s patrol routes and habits are set down in a muddy note from a strongbox in Stranglethorn Vale. It also records who he speaks with among the rebels. The writing is hard to read, but Lieutenant Doren needs the note to find the traitor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the muddy note say?",
+   "aliases": [
+    "what's on the note",
+    "muddy note details",
+    "thorsen note"
+   ],
+   "answer": "The note records Private Thorsen\u2019s patrol routes, his conversations, and how he spends his time with the rebels. Its writing is barely legible."
+  },
+  {
+   "q": "Where do I take the note?",
+   "aliases": [
+    "who wants the note",
+    "where to bring it",
+    "doren note"
+   ],
+   "answer": "Take the muddy note to Lieutenant Doren at Rebel Camp."
+  },
+  {
+   "q": "Who wrote the note?",
+   "aliases": [
+    "who signed it",
+    "note author",
+    "who is M"
+   ],
+   "answer": "The note is signed with the single letter M. It does not identify its writer by name."
+  },
+  {
+   "q": "Why is the note important?",
+   "aliases": [
+    "why does doren need it",
+    "traitor clue",
+    "what's the note for"
+   ],
+   "answer": "The note shows that its writer knew Private Thorsen\u2019s routines and dealings. Lieutenant Doren needs it as a clue to find the traitor among the rebels."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "lieutenant doren",
+  "muddy note",
+  "private thorsen",
+  "rebel camp",
+  "stranglethorn vale",
+  "strongbox",
+  "traitor"
+ ],
+ "related": [
+  "quest:329",
+  "npc:doren",
+  "subzone:rebel-camp",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Muddy Note",
+  "The Spy Revealed!"
+ ]
+}

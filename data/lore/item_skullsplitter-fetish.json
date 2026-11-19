@@ -1,0 +1,96 @@
+{
+ "key": "item:skullsplitter-fetish",
+ "type": "item",
+ "name": "Skullsplitter Fetish",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Skullsplitter Fetish",
+  "quests": [
+   "quest:205"
+  ]
+ },
+ "summary": "A Skullsplitter Fetish is an instrument of troll magic gathered for Brother Nimetz at the Rebel Camp. He hopes it may shed light on Colonel Kurzen's corruption.",
+ "sections": [
+  {
+   "title": "Troll Magic",
+   "body": "Brother Nimetz at the Rebel Camp seeks Skullsplitter Fetishes from the Skullsplitter Witch Doctors and Mystics in Stranglethorn Vale. He studies these charms for signs of what has brought Colonel Kurzen to evil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Skullsplitter Fetish?",
+   "aliases": [
+    "skullsplitter fetish meaning",
+    "what's the fetish",
+    "troll charm"
+   ],
+   "answer": "A Skullsplitter Fetish is an instrument of troll magic carried by Skullsplitter Witch Doctors and Mystics."
+  },
+  {
+   "q": "Who wants the fetishes?",
+   "aliases": [
+    "who wants fetish",
+    "where do fetishes go",
+    "brother nimetz"
+   ],
+   "answer": "Brother Nimetz at the Rebel Camp wants Skullsplitter Fetishes so he can study their magic."
+  },
+  {
+   "q": "Why does Brother Nimetz want them?",
+   "aliases": [
+    "why fetishes",
+    "kurzen corruption",
+    "nimetz wants what"
+   ],
+   "answer": "Brother Nimetz hopes the fetishes may reveal the secret behind Colonel Kurzen's corruption."
+  },
+  {
+   "q": "Where are Skullsplitter fetishes found?",
+   "aliases": [
+    "fetish location",
+    "where skullsplitters",
+    "get fetishes"
+   ],
+   "answer": "Skullsplitter Witch Doctors and Mystics in Stranglethorn Vale carry the fetishes."
+  },
+  {
+   "q": "How many fetishes does Nimetz need?",
+   "aliases": [
+    "fetish count",
+    "how many charms",
+    "four fetishes"
+   ],
+   "answer": "Brother Nimetz asks for four Skullsplitter Fetishes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can bring Brother Nimetz these fetishes to aid his study of Colonel Kurzen's corruption."
+  }
+ ],
+ "keywords": [
+  "brother nimetz",
+  "colonel kurzen",
+  "mystic",
+  "skullsplitter",
+  "skullsplitter fetish",
+  "stranglethorn",
+  "troll magic",
+  "witch doctor"
+ ],
+ "related": [
+  "quest:205",
+  "quest:207",
+  "subzone:rebel-camp",
+  "zone:stranglethorn",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Skullsplitter Fetish",
+  "Troll Witchery"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "item:supply-crate-blasted-lands",
+ "type": "item",
+ "name": "Supply Crate",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Supply Crate (Blasted Lands)",
+  "quests": [
+   "quest:718"
+  ]
+ },
+ "summary": "The Supply Crate is abandoned excavation gear sought by Sigrun Ironhew in the Badlands. Its contents could help her hungry company.",
+ "sections": [
+  {
+   "title": "Left Behind",
+   "body": "After leaving the Uldaman excavation site in haste, Sigrun Ironhew's company abandoned wagons and supply crates. Ogres from Camp Kosh seized their equipment, including a cart carrying weapons. The company has been left without food, and Sigrun asks you to recover a Supply Crate.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Supply Crate?",
+   "aliases": [
+    "who needs the crate",
+    "sigrun crate"
+   ],
+   "answer": "Sigrun Ironhew wants you to retrieve the Supply Crate for her company in the Badlands."
+  },
+  {
+   "q": "Where was the Supply Crate left?",
+   "aliases": [
+    "crate location",
+    "where's the crate"
+   ],
+   "answer": "The crate was among the supplies abandoned when Sigrun Ironhew's company fled the Uldaman excavation site."
+  },
+  {
+   "q": "Why does Sigrun need the crate?",
+   "aliases": [
+    "why crate",
+    "they need supplies"
+   ],
+   "answer": "Sigrun's company lost its food supplies after ogres from Camp Kosh seized their equipment. She asks you to recover a Supply Crate."
+  },
+  {
+   "q": "What did the ogres take?",
+   "aliases": [
+    "camp kosh ogres",
+    "what did ogres steal"
+   ],
+   "answer": "Ogres from Camp Kosh seized the company's abandoned equipment, including a cart carrying weapons."
+  },
+  {
+   "q": "What happens when you return?",
+   "aliases": [
+    "crate completion",
+    "sigrun response"
+   ],
+   "answer": "Sigrun thanks you, then says the company will go out to find food that night."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "camp kosh",
+  "excavation",
+  "food",
+  "mirages",
+  "sigrun ironhew",
+  "supply crate",
+  "uldu-man"
+ ],
+ "related": [
+  "quest:718",
+  "zone:badlands",
+  "subzone:camp-kosh",
+  "subzone:uldaman",
+  "quest:733"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Supply Crate (Blasted Lands)",
+  "Mirages"
+ ]
+}

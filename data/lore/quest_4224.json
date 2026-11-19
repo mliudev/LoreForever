@@ -1,0 +1,73 @@
+{
+ "key": "quest:4224",
+ "type": "quest",
+ "name": "The True Masters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4224
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Marshal Maxwell asks you to find Ragged John, who can speak of Marshal Windsor\u2019s fate. What you learn will help Maxwell understand what became of Windsor.",
+ "sections": [
+  {
+   "title": "A Search to the North",
+   "body": "Marshal Maxwell points you toward a cave to the north, where he believes Ragged John can be found. You are to ask John about Marshal Windsor\u2019s fate, then return to Maxwell with what you learn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to find Ragged John?",
+   "aliases": [
+    "who sent me",
+    "marshal maxwell request"
+   ],
+   "answer": "Marshal Maxwell asks you to seek Ragged John and learn of Marshal Windsor\u2019s fate."
+  },
+  {
+   "q": "Where should I look for Ragged John?",
+   "aliases": [
+    "where is ragged john",
+    "ragged john location"
+   ],
+   "answer": "Marshal Maxwell recalls directing you to search for Ragged John in a cave to the north."
+  },
+  {
+   "q": "What does Maxwell want to know?",
+   "aliases": [
+    "what about windsor",
+    "windsor fate"
+   ],
+   "answer": "Maxwell wants you to learn of Marshal Windsor\u2019s fate from Ragged John."
+  },
+  {
+   "q": "What do I do after speaking with Ragged John?",
+   "aliases": [
+    "then what",
+    "where do i go after"
+   ],
+   "answer": "Return to Marshal Maxwell after you have learned what Ragged John can tell you about Windsor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cave",
+  "marshal maxwell",
+  "marshal windsor",
+  "ragged john",
+  "the true masters",
+  "windsor fate"
+ ],
+ "related": [
+  "npc:marshal-maxwell",
+  "quest:4241"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The True Masters"
+ ]
+}

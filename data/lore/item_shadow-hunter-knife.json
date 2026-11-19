@@ -1,0 +1,87 @@
+{
+ "key": "item:shadow-hunter-knife",
+ "type": "item",
+ "name": "Shadow Hunter Knife",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Shadow Hunter Knife",
+  "quests": [
+   "quest:691"
+  ]
+ },
+ "summary": "The Shadow Hunter Knife is a Witherbark troll blade sought by Apprentice Kryten at Refuge Pointe. It is tied to the rites of the tribe\u2019s shadow hunters.",
+ "sections": [
+  {
+   "title": "A Troll's Blade",
+   "body": "Apprentice Kryten seeks the Shadow Hunter Knife at Refuge Pointe for Archmage Malin\u2019s research. He says the strongest Witherbark shadow hunters receive the special blade after completing their rites of passage. Their village lies southeast of Arathi, and Kryten cannot tell which hunter carries one until the struggle is done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Shadow Hunter Knife?",
+   "aliases": [
+    "who needs the knife",
+    "kryten knife",
+    "who wants it"
+   ],
+   "answer": "Apprentice Kryten at Refuge Pointe seeks the Shadow Hunter Knife for Archmage Malin\u2019s research."
+  },
+  {
+   "q": "Who carries the Shadow Hunter Knife?",
+   "aliases": [
+    "who has knife",
+    "which troll has it",
+    "shadow hunter blade"
+   ],
+   "answer": "The strongest Witherbark shadow hunters may carry the special knife given after their rites of passage."
+  },
+  {
+   "q": "Why is the knife special?",
+   "aliases": [
+    "why special knife",
+    "troll knife meaning",
+    "what's special about it"
+   ],
+   "answer": "Kryten says the Witherbark give the knife to their strongest shadow hunters after they complete their rites of passage."
+  },
+  {
+   "q": "Where do the Witherbark live?",
+   "aliases": [
+    "where are witherbark",
+    "troll village location",
+    "withbark where"
+   ],
+   "answer": "The Witherbark live southeast of Arathi, near Witherbark Village."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, Kryten\u2019s work at Refuge Pointe serves Archmage Malin\u2019s research in Arathi."
+  }
+ ],
+ "keywords": [
+  "archmage malin",
+  "kryten",
+  "refuge pointe",
+  "rites of passage",
+  "shadow hunter knife",
+  "troll",
+  "witherbark"
+ ],
+ "related": [
+  "quest:691",
+  "item:witherbark-tusk",
+  "item:witherbark-medicine-pouch",
+  "subzone:witherbark-village",
+  "zone:arathi",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shadow Hunter Knife",
+  "Worth Its Weight in Gold (Classic)"
+ ]
+}

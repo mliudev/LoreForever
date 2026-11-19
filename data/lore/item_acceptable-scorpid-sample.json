@@ -1,0 +1,83 @@
+{
+ "key": "item:acceptable-scorpid-sample",
+ "type": "item",
+ "name": "Acceptable Scorpid Sample",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Acceptable Scorpid Sample",
+  "quests": [
+   "quest:654"
+  ]
+ },
+ "summary": "An acceptable scorpid sample is data gathered with a Field Testing Kit in Tanaris. Chief Engineer Bilgewhizzle needs it with the other samples for his field study.",
+ "sections": [
+  {
+   "title": "Desert Data",
+   "body": "The Field Testing Kit gathers scorpid data in Tanaris for Chief Engineer Bilgewhizzle of Gadgetzan. An acceptable sample is one kind of data he needs alongside basilisk and hyena samples. Once the collection is complete, the kit goes back to Bilgewhizzle so he can remove its power source.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an acceptable scorpid sample?",
+   "aliases": [
+    "scorpid sample",
+    "acceptable scorpid",
+    "scorpion data"
+   ],
+   "answer": "An acceptable scorpid sample is data gathered from a scorpid with the Field Testing Kit in Tanaris."
+  },
+  {
+   "q": "Who needs the scorpid samples?",
+   "aliases": [
+    "who wants samples",
+    "bilgewhizzle samples",
+    "who needs scorpid data"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle in Gadgetzan needs the scorpid samples, along with basilisk and hyena samples."
+  },
+  {
+   "q": "What is the sample used for?",
+   "aliases": [
+    "why sample scorpids",
+    "scorpid testing",
+    "what's the data for"
+   ],
+   "answer": "The sample provides data for Chief Engineer Bilgewhizzle's field study in Tanaris."
+  },
+  {
+   "q": "What happens to the kit after sampling?",
+   "aliases": [
+    "return the kit",
+    "kit power source",
+    "what to do with testing kit"
+   ],
+   "answer": "Bring the Field Testing Kit back to Chief Engineer Bilgewhizzle in Gadgetzan so he can remove its power source."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "acceptable scorpid sample",
+  "bilgewhizzle",
+  "field testing kit",
+  "gadgetzan",
+  "sample",
+  "scorpid",
+  "scorpion",
+  "tanaris"
+ ],
+ "related": [
+  "quest:654",
+  "item:field-testing-kit",
+  "item:acceptable-basilisk-sample",
+  "item:acceptable-hyena-sample",
+  "zone:tanaris",
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Acceptable Scorpid Sample",
+  "Tanaris Field Sampling"
+ ]
+}

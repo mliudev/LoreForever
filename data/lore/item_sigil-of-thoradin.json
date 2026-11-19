@@ -1,0 +1,78 @@
+{
+ "key": "item:sigil-of-thoradin",
+ "type": "item",
+ "name": "Sigil of Thoradin",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sigil of Thoradin",
+  "quests": [
+   "quest:641"
+  ]
+ },
+ "summary": "The Sigil of Thoradin is a restored seal tied to Trollbane's tomb in Arathi Highlands. Zengu at Hammerfall needs it to help open the tomb.",
+ "sections": [
+  {
+   "title": "A Restored Seal",
+   "body": "Zengu in Hammerfall needs the Sigil of Thoradin to help unlock the seal on Trollbane's tomb. Its reconstruction has worked, and the work to reach Trol'kalar can continue. Zengu says the search is only halfway done; the holders of the third sigil move around Arathi.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Sigil of Thoradin open?",
+   "aliases": [
+    "sigil opens what",
+    "tomb seal"
+   ],
+   "answer": "The restored Sigil of Thoradin can help unlock the seal on Trollbane's tomb."
+  },
+  {
+   "q": "Who needs the sigil?",
+   "aliases": [
+    "who wants the sigil",
+    "give sigil to who"
+   ],
+   "answer": "Zengu at Hammerfall needs the restored Sigil of Thoradin."
+  },
+  {
+   "q": "Why is the sigil important?",
+   "aliases": [
+    "why sigil matters",
+    "sigil purpose"
+   ],
+   "answer": "It is needed to help remove Trol'kalar from Trollbane's tomb."
+  },
+  {
+   "q": "Where is the third sigil?",
+   "aliases": [
+    "third sigil location",
+    "where third one"
+   ],
+   "answer": "Zengu does not know where the third sigil is; its holders move around Arathi."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi",
+  "hammerfall",
+  "sigil of thoradin",
+  "thoradin",
+  "tomb",
+  "trol'kalar",
+  "trollbane",
+  "zengu"
+ ],
+ "related": [
+  "quest:641",
+  "quest:645",
+  "quest:638",
+  "subzone:hammerfall",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil of Thoradin",
+  "Sigil of Thoradin (Classic)"
+ ]
+}

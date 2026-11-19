@@ -1,0 +1,104 @@
+{
+ "key": "item:warchief-s-orders-swamp-of-sorrows",
+ "type": "item",
+ "name": "Warchief's Orders",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Warchief's Orders (Swamp of Sorrows)",
+  "quests": [
+   "quest:2623"
+  ]
+ },
+ "summary": "Warchief\u2019s Orders are a dispatch carried by a Horde force bound for the Blasted Lands. Their recovery reveals the cost of an ambush in Stagalbog.",
+ "sections": [
+  {
+   "title": "The Lost Dispatch",
+   "body": "A wounded Horde survivor names the orders as a dispatch from the commander. His force was traveling toward the Blasted Lands when murlocs ambushed them in the Swamp of Sorrows. The murloc called Swamp Talker seized the orders and struck him down. The dispatch now lies in Stagalbog Cave, while the survivor waits for help.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Costly Mistake",
+   "body": "The Fallen Hero of the Horde reads the dispatch and learns that nineteen of his men suffered because he acted rashly. He cannot reach them himself and asks you to help those still in agony. The orders have brought him the truth, but the wounded remain in need.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Warchief\u2019s Orders?",
+   "aliases": [
+    "warchief orders",
+    "orders item",
+    "horde dispatch"
+   ],
+   "answer": "They are a dispatch given to a Horde force traveling toward the Blasted Lands."
+  },
+  {
+   "q": "Who took the orders?",
+   "aliases": [
+    "who stole orders",
+    "swamp talker orders",
+    "murloc took it"
+   ],
+   "answer": "Swamp Talker, a murloc in Stagalbog Cave, seized the orders during an ambush."
+  },
+  {
+   "q": "Where are the orders?",
+   "aliases": [
+    "orders location",
+    "where find dispatch",
+    "stagalbog cave orders"
+   ],
+   "answer": "The orders lie in Stagalbog Cave in the Swamp of Sorrows."
+  },
+  {
+   "q": "Who should receive the orders?",
+   "aliases": [
+    "who wants orders",
+    "orders for fallen hero",
+    "deliver dispatch"
+   ],
+   "answer": "The Fallen Hero of the Horde awaits the orders."
+  },
+  {
+   "q": "What happened to the Horde force?",
+   "aliases": [
+    "horde ambush",
+    "what happened to bengor",
+    "nineteen men"
+   ],
+   "answer": "Murlocs ambushed the force on its way to the Blasted Lands. The Fallen Hero says nineteen men suffered because he acted rashly."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you see what a lost dispatch costs its soldiers: the Fallen Hero learns that nineteen of his men suffered, and asks you to help them."
+  }
+ ],
+ "keywords": [
+  "blasted lands",
+  "dispatch",
+  "fallen hero of the horde",
+  "murlocs",
+  "stagalbog cave",
+  "swamp of sorrows",
+  "swamp talker",
+  "warchief's orders"
+ ],
+ "related": [
+  "quest:2623",
+  "npc:fallen-hero-of-the-horde",
+  "subzone:stagalbog-cave",
+  "subzone:stagalbog",
+  "zone:swampofsorrows",
+  "zone:blastedlands",
+  "topic:horde",
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Warchief's Orders (Swamp of Sorrows)",
+  "The Swamp Talker"
+ ]
+}

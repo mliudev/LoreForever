@@ -1,0 +1,97 @@
+{
+ "key": "item:pristine-tigress-fang",
+ "type": "item",
+ "name": "Pristine Tigress Fang",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Pristine Tigress Fang",
+  "quests": [
+   "quest:570"
+  ]
+ },
+ "summary": "A Pristine Tigress Fang is a specimen Far Seer Mok'thardin seeks at Grom'gol Base Camp. Its condition matters to his enchantments for the Horde.",
+ "sections": [
+  {
+   "title": "A Fine Specimen",
+   "body": "Across the river southeast of Mizjah Ruins, Stranglethorn Tigresses prowl the jungle. Far Seer Mok'thardin asks for a fang kept in pristine condition, along with Shadowmaw Panther claws. He says his rituals have already shown success, and he means to harness the jungle's magic for the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Pristine Tigress Fang?",
+   "aliases": [
+    "who wants the fang",
+    "mok'thardin fang",
+    "fang for who"
+   ],
+   "answer": "Far Seer Mok'thardin at Grom'gol Base Camp wants a Pristine Tigress Fang for his enchantments."
+  },
+  {
+   "q": "Why does the fang have to be pristine?",
+   "aliases": [
+    "why pristine",
+    "perfect fang",
+    "fang condition"
+   ],
+   "answer": "Mok'thardin says only a fang in pristine condition will do for his work with the jungle's magic."
+  },
+  {
+   "q": "Where can I find a Pristine Tigress Fang?",
+   "aliases": [
+    "where fang",
+    "tigress fang location",
+    "fang from tigresses"
+   ],
+   "answer": "Stranglethorn Tigresses in Stranglethorn Vale carry Pristine Tigress Fangs. Mok'thardin points to the jungle southeast of Mizjah Ruins, across the river."
+  },
+  {
+   "q": "What else does Mok'thardin need?",
+   "aliases": [
+    "what else does he need",
+    "claws too",
+    "mok'thardin needs"
+   ],
+   "answer": "Mok'thardin also asks for eight Shadowmaw Claws alongside the Pristine Tigress Fang."
+  },
+  {
+   "q": "What is Mok'thardin trying to do?",
+   "aliases": [
+    "mok'thardin magic",
+    "jungle enchantment",
+    "why does he want it"
+   ],
+   "answer": "Mok'thardin seeks to harness the power of the jungle's magic for the Horde through powerful enchantments."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Mok'thardin seeks the fang and Shadowmaw claws to harness the jungle's magic for the Horde."
+  }
+ ],
+ "keywords": [
+  "enchantment",
+  "fang",
+  "grom'gol",
+  "mizjah ruins",
+  "mok'thardin",
+  "pristine tigress fang",
+  "stranglethorn",
+  "tigress"
+ ],
+ "related": [
+  "quest:570",
+  "subzone:grom-gol-base-camp",
+  "subzone:mizjah-ruins",
+  "zone:stranglethorn",
+  "item:shadowmaw-claw",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Pristine Tigress Fang",
+  "Mok'thardin's Enchantment"
+ ]
+}

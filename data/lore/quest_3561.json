@@ -1,0 +1,93 @@
+{
+ "key": "quest:3561",
+ "type": "quest",
+ "name": "Delivery to Archmage Xylem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3561
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jediga sends you to deliver the Tablet of Sael'hai to Archmage Xylem in Azshara. She trusts him less than the others she has asked you to meet.",
+ "sections": [
+  {
+   "title": "A wary delivery",
+   "body": "Jediga sends you north to meet Sanath, Archmage Xylem's bodyguard, who can help you reach the tower in the hills above Azshara. She describes Xylem as a human who is unlike any she has met or killed. His power makes her wary, and she does not ask what he intends to do with the tablet.",
+   "spoiler": 0
+  },
+  {
+   "title": "The tablet received",
+   "body": "At his tower in Azshara, Archmage Xylem welcomes the Tablet of Sael'hai. He says he has long wanted to study it, then thanks you and asks that Jediga be told she has done well. He says the payment she requested will be worthwhile.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Archmage Xylem?",
+   "aliases": [
+    "xylem",
+    "archmage xylem",
+    "who's xylem"
+   ],
+   "answer": "Archmage Xylem is a human mage with a tower in the hills overlooking Azshara. Jediga says he exudes power and makes her wary."
+  },
+  {
+   "q": "Where is Xylem's tower?",
+   "aliases": [
+    "xylem tower",
+    "where is xylem",
+    "tower in azshara"
+   ],
+   "answer": "Archmage Xylem's tower stands in the hills overlooking Azshara."
+  },
+  {
+   "q": "Who is Sanath?",
+   "aliases": [
+    "sanath",
+    "xylem bodyguard",
+    "bodyguard"
+   ],
+   "answer": "Sanath is Archmage Xylem's bodyguard. Jediga says he can help you reach the tower when you are ready to meet Xylem."
+  },
+  {
+   "q": "What does Jediga want delivered?",
+   "aliases": [
+    "tablet delivery",
+    "sael'hai tablet",
+    "what am i carrying"
+   ],
+   "answer": "Jediga asks you to bring the Tablet of Sael'hai to Archmage Xylem in Azshara."
+  },
+  {
+   "q": "Why is Jediga wary of Xylem?",
+   "aliases": [
+    "jediga distrusts xylem",
+    "why wary",
+    "dangerous xylem"
+   ],
+   "answer": "Jediga says she trusts Xylem less than anyone else she has asked you to meet. She describes him as powerful and unlike any human she has met or killed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "archmage xylem",
+  "azshara",
+  "delivery",
+  "jediga",
+  "sanath",
+  "tablet of sael'hai",
+  "tower"
+ ],
+ "related": [
+  "npc:archmage-xylem",
+  "zone:azshara",
+  "quest:567"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Delivery to Archmage Xylem"
+ ]
+}

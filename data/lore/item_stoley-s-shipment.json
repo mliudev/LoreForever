@@ -1,0 +1,95 @@
+{
+ "key": "item:stoley-s-shipment",
+ "type": "item",
+ "name": "Stoley's Shipment",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Stoley's Shipment",
+  "quests": [
+   "quest:2873"
+  ]
+ },
+ "summary": "Stoley\u2019s Shipment is a stolen cargo of rum held by pirates in Lost Rigger Cove. Stoley wants it back to settle a wager with \u201cSea Wolf\u201d MacKinley.",
+ "sections": [
+  {
+   "title": "Rum for a Wager",
+   "body": "In Lost Rigger Cove, Stoley\u2019s Shipment lies among the pirates\u2019 stolen cargo. Captain Cuergo took Stoley\u2019s last rum and keeps it in the walled pirate town. Stoley needs the shipment returned to Steamwheedle Port so he can settle his wager with \u201cSea Wolf\u201d MacKinley in Booty Bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Stoley\u2019s Shipment?",
+   "aliases": [
+    "stoleys shipment",
+    "stoley rum",
+    "stoley's cargo"
+   ],
+   "answer": "Stoley\u2019s Shipment is a stolen cargo of rum that Captain Cuergo took from Stoley."
+  },
+  {
+   "q": "Who stole the rum?",
+   "aliases": [
+    "who took stoleys rum",
+    "cuergo shipment",
+    "pirate stole rum"
+   ],
+   "answer": "Captain Cuergo stole Stoley\u2019s last shipment of rum."
+  },
+  {
+   "q": "Where is Stoley\u2019s Shipment?",
+   "aliases": [
+    "where is the rum",
+    "lost rigger cargo",
+    "shipment location"
+   ],
+   "answer": "Stoley\u2019s Shipment is kept in the walled pirate town at Lost Rigger Cove in Tanaris."
+  },
+  {
+   "q": "Why does Stoley want the shipment back?",
+   "aliases": [
+    "why return the rum",
+    "stoley wager",
+    "booze bet"
+   ],
+   "answer": "Stoley wants the rum back so he can settle a wager with \u201cSea Wolf\u201d MacKinley in Booty Bay."
+  },
+  {
+   "q": "Who is MacKinley?",
+   "aliases": [
+    "sea wolf",
+    "mackinley wager",
+    "booty bay guy"
+   ],
+   "answer": "\u201cSea Wolf\u201d MacKinley is the Booty Bay sailor with whom Stoley made a wager about Kalimdor\u2019s rum."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "captain cuergo",
+  "lost rigger cove",
+  "rum",
+  "sea wolf mackinley",
+  "steamwheedle port",
+  "stoley",
+  "stoley's shipment",
+  "tanaris",
+  "wager"
+ ],
+ "related": [
+  "quest:2872",
+  "quest:2874",
+  "subzone:lost-rigger-cove",
+  "subzone:steamwheedle-port",
+  "subzone:booty-bay",
+  "zone:tanaris",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Stoley's Shipment",
+  "Stoley's Shipment (quest)"
+ ]
+}

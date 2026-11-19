@@ -1,0 +1,81 @@
+{
+ "key": "item:jungle-stalker-feather",
+ "type": "item",
+ "name": "Jungle Stalker Feather",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Jungle Stalker Feather",
+  "quests": [
+   "quest:572"
+  ]
+ },
+ "summary": "Jungle Stalker Feathers come from raptors in Stranglethorn Vale. Far Seer Mok'thardin needs them for an enchantment meant to aid the Horde.",
+ "sections": [
+  {
+   "title": "Raptor Trinkets",
+   "body": "Far Seer Mok'thardin at Grom'gol Base Camp needs ten Jungle Stalker Feathers for his enchantment. The feathers are worn on the raptors' armbands, and their tribe lives south of the camp, near the great arena.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Jungle Stalker Feathers come from?",
+   "aliases": [
+    "jungle stalker feather source",
+    "where feather",
+    "raptor feathers"
+   ],
+   "answer": "Jungle Stalkers in Stranglethorn Vale wear these feathers on their armbands."
+  },
+  {
+   "q": "Who wants the feathers?",
+   "aliases": [
+    "who needs feather",
+    "mokthardin feathers",
+    "far seer wants"
+   ],
+   "answer": "Far Seer Mok'thardin asks for ten of them at Grom'gol Base Camp, for an enchantment of his."
+  },
+  {
+   "q": "Why does Mok'thardin need them?",
+   "aliases": [
+    "why feathers",
+    "what are they for",
+    "enchantment feathers"
+   ],
+   "answer": "Mok'thardin combines the feathers with a shamanistic ritual to make a useful enchanted tool for aiding the Horde and the Warchief."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Mok'thardin's enchantment is meant to provide a useful tool for aiding the Horde and its Warchief."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Mok'thardin uses a shamanistic ritual to prepare the feathers for his enchantment."
+  }
+ ],
+ "keywords": [
+  "enchantment",
+  "feather",
+  "grom'gol",
+  "jungle stalker",
+  "jungle stalker feather",
+  "mok'thardin",
+  "raptor",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:570",
+  "subzone:grom-gol-base-camp",
+  "topic:horde",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Jungle Stalker Feather",
+  "Mok'thardin's Enchantment (3)"
+ ]
+}

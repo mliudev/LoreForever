@@ -1,0 +1,87 @@
+{
+ "key": "item:bloodsail-orders-classic",
+ "type": "item",
+ "name": "Bloodsail Orders",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Bloodsail Orders (Classic)",
+  "quests": [
+   "quest:604"
+  ]
+ },
+ "summary": "Bloodsail Orders are written instructions held by the Bloodsail Buccaneers on the Wild Shore. Fleet Master Seahorn in Booty Bay seeks them to learn what the buccaneers are planning.",
+ "sections": [
+  {
+   "title": "Orders from the Shore",
+   "body": "On the Wild Shore, the Bloodsail Buccaneers keep written orders at their southern command post. Fleet Master Seahorn in Booty Bay wants those instructions brought back with the Bloodsail Charts. He means to learn what the buccaneers are planning near the cape.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Bloodsail Orders?",
+   "aliases": [
+    "bloodsail orders",
+    "orders item"
+   ],
+   "answer": "They are written instructions kept by the Bloodsail Buccaneers at their Wild Shore encampment."
+  },
+  {
+   "q": "Where are the Bloodsail Orders?",
+   "aliases": [
+    "where orders",
+    "wild shore orders"
+   ],
+   "answer": "The Bloodsail Orders are held at the Bloodsail Buccaneers' encampment on the Wild Shore in Stranglethorn Vale."
+  },
+  {
+   "q": "Who wants the orders?",
+   "aliases": [
+    "who wants orders",
+    "seahorn orders"
+   ],
+   "answer": "Fleet Master Seahorn in Booty Bay wants the Bloodsail Orders brought back to him."
+  },
+  {
+   "q": "Why does Fleet Master Seahorn want them?",
+   "aliases": [
+    "why orders",
+    "what's seahorn after"
+   ],
+   "answer": "Fleet Master Seahorn wants to learn what the Bloodsail Buccaneers are planning by studying their written orders and charts."
+  },
+  {
+   "q": "What should I bring back with the orders?",
+   "aliases": [
+    "orders and charts",
+    "what else bring"
+   ],
+   "answer": "Fleet Master Seahorn also wants the Bloodsail Charts from the Wild Shore encampment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodsail",
+  "bloodsail orders",
+  "booty bay",
+  "buccaneers",
+  "fleet master seahorn",
+  "stranglethorn vale",
+  "wild shore",
+  "written orders"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:wild-shore",
+  "subzone:booty-bay",
+  "npc:fleet-master-seahorn",
+  "item:bloodsail-charts",
+  "quest:595"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bloodsail Orders (Classic)",
+  "The Bloodsail Buccaneers (4)"
+ ]
+}

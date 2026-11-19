@@ -1,0 +1,78 @@
+{
+ "key": "item:elven-gems",
+ "type": "item",
+ "name": "Elven Gems",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Elven Gems",
+  "quests": [
+   "quest:668"
+  ]
+ },
+ "summary": "Elven Gems are treasure recovered from a sunken vessel in Arathi Highlands. Captain O'Breen is waiting to inspect them.",
+ "sections": [
+  {
+   "title": "A Pirate's Treasure",
+   "body": "The professor and the speaker have spent weeks among Captain O'Breen's pirates. Now they fear being caught with the treasure, so they send you to bring the Elven Gems to the captain. O'Breen is waiting on the bridge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Elven Gems?",
+   "aliases": [
+    "elven gems",
+    "what gems",
+    "gem treasure"
+   ],
+   "answer": "They are treasure recovered from a sunken vessel and meant for Captain O'Breen to inspect."
+  },
+  {
+   "q": "Who wants the Elven Gems?",
+   "aliases": [
+    "who wants gems",
+    "captain obreen gems",
+    "take gems where"
+   ],
+   "answer": "Captain O'Breen wants to see the Elven Gems firsthand."
+  },
+  {
+   "q": "Why am I carrying the gems?",
+   "aliases": [
+    "why take gems",
+    "why me",
+    "gems purpose"
+   ],
+   "answer": "The professor and the speaker fear being caught holding the pirates' treasure, so they send you to Captain O'Breen."
+  },
+  {
+   "q": "Where do I take the Elven Gems?",
+   "aliases": [
+    "gems location",
+    "where gems go",
+    "captain bridge"
+   ],
+   "answer": "Take the Elven Gems to Captain O'Breen on the bridge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "captain o'breen",
+  "elven gems",
+  "pirates",
+  "professor",
+  "sunken treasure"
+ ],
+ "related": [
+  "quest:665",
+  "item:elven-gem",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Elven Gems",
+  "Sunken Treasure (3)"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "item:sealed-venom-container",
+ "type": "item",
+ "name": "Sealed Venom Container",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Sealed Venom Container",
+  "quests": [
+   "quest:8922",
+   "quest:8923"
+  ]
+ },
+ "summary": "The Sealed Venom Container holds venom gathered from poisonous creatures in Silithus. In Gadgetzan, an engineer seeks it for work on a device that can speak with the dead.",
+ "sections": [
+  {
+   "title": "Venom for Gadgetzan",
+   "body": "Venom from Silithus is carried in the Sealed Venom Container. The sample is meant for an engineer in Gadgetzan who studies the supernatural. He is building a device to communicate with the dead, and the venom is payment for his work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the Sealed Venom Container?",
+   "aliases": [
+    "what's in the venom container",
+    "venom container contents"
+   ],
+   "answer": "The Sealed Venom Container holds venom collected from poisonous creatures in Silithus."
+  },
+  {
+   "q": "Where does the container go?",
+   "aliases": [
+    "where to take venom",
+    "venom container destination"
+   ],
+   "answer": "The container is meant for an engineer in Gadgetzan who is working on a device to speak with the dead."
+  },
+  {
+   "q": "Who wants the venom?",
+   "aliases": [
+    "who needs the container",
+    "mux venom"
+   ],
+   "answer": "Mux Manascrambler, an engineer in Gadgetzan with an interest in the supernatural, wants the venom."
+  },
+  {
+   "q": "Why does the engineer need venom?",
+   "aliases": [
+    "what's venom for",
+    "why give mux venom"
+   ],
+   "answer": "The venom is payment for Mux Manascrambler's work on a device that can communicate with the dead."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "communicate with the dead",
+  "gadgetzan",
+  "mux manascrambler",
+  "sealed venom container",
+  "silithus",
+  "supernatural device",
+  "venom"
+ ],
+ "related": [
+  "quest:8922",
+  "npc:mux-manascrambler",
+  "zone:silithus",
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sealed Venom Container",
+  "A Supernatural Device (Alliance)",
+  "A Supernatural Device (Horde)"
+ ]
+}

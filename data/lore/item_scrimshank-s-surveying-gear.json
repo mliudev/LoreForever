@@ -1,0 +1,83 @@
+{
+ "key": "item:scrimshank-s-surveying-gear",
+ "type": "item",
+ "name": "Scrimshank's Surveying Gear",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Scrimshank's Surveying Gear",
+  "quests": [
+   "quest:10"
+  ]
+ },
+ "summary": "Scrimshank's Surveying Gear lies beneath the sands of Tanaris, in the Gaping Chasm. Its findings matter to Senior Surveyor Fizzledowser's search for a missing assistant and the strange bugs in the desert.",
+ "sections": [
+  {
+   "title": "Beneath the Sands",
+   "body": "In the Gaping Chasm of Tanaris, Scrimshank's Surveying Gear is all that may be found of the missing Junior Surveyor. His senior, Fizzledowser, sent him into the desert after reports of strange bugs. The machine carries Scrimshank's last records, which may help explain the danger facing Gadgetzan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Scrimshank's Surveying Gear?",
+   "aliases": [
+    "scrimshank's gear",
+    "surveying machine",
+    "what is the gear"
+   ],
+   "answer": "It is the surveying equipment of Junior Surveyor Scrimshank, found beneath Tanaris in the Gaping Chasm."
+  },
+  {
+   "q": "Where is the surveying gear?",
+   "aliases": [
+    "gear location",
+    "where's scrimshank's stuff",
+    "gaping chasm gear"
+   ],
+   "answer": "Scrimshank's Surveying Gear lies in the Gaping Chasm beneath Tanaris."
+  },
+  {
+   "q": "Who was Scrimshank?",
+   "aliases": [
+    "junior surveyor",
+    "scrimshank backstory",
+    "who is scrimshank"
+   ],
+   "answer": "Junior Surveyor Scrimshank was Senior Surveyor Fizzledowser's assistant, sent to investigate strange bugs in the Gaping Chasm."
+  },
+  {
+   "q": "Why does Fizzledowser want the gear?",
+   "aliases": [
+    "why gear matters",
+    "fizzledowser wants it",
+    "what did it record"
+   ],
+   "answer": "Fizzledowser hopes Scrimshank's records will help reveal what is happening with the strange bugs in the desert."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fizzledowser",
+  "gaping chasm",
+  "goblin",
+  "junior surveyor",
+  "scrimshank",
+  "silithid",
+  "surveying gear",
+  "tanaris"
+ ],
+ "related": [
+  "quest:10",
+  "quest:32",
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:gaping-chasm",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Scrimshank's Surveying Gear",
+  "The Scrimshank Redemption"
+ ]
+}

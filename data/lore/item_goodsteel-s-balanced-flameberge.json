@@ -1,0 +1,80 @@
+{
+ "key": "item:goodsteel-s-balanced-flameberge",
+ "type": "item",
+ "name": "Goodsteel's Balanced Flameberge",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Goodsteel's Balanced Flameberge",
+  "quests": [
+   "quest:4450"
+  ]
+ },
+ "summary": "Goodsteel\u2019s Balanced Flameberge is one of the items Krinkle Goodsteel seeks for his work in Tanaris. Its trail leads from Searing Gorge to the Swamp of Sorrows.",
+ "sections": [
+  {
+   "title": "A Place on the List",
+   "body": "In Searing Gorge, Krinkle Goodsteel\u2019s ledger names a balanced flameberge among the goods he wants brought to him in Gadgetzan. Jarquia, a murloc on the eastern coast of the Swamp of Sorrows, carries the weapon. Once found, it can be taken with the other listed goods to Krinkle.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the flameberge?",
+   "aliases": [
+    "who needs it",
+    "krinkle's sword",
+    "who wants this weapon"
+   ],
+   "answer": "Krinkle Goodsteel in Gadgetzan wants the balanced flameberge, which is listed in his ledger."
+  },
+  {
+   "q": "Where can I find Goodsteel\u2019s Balanced Flameberge?",
+   "aliases": [
+    "where is the flameberge",
+    "find goodsteel sword",
+    "where's jarquia"
+   ],
+   "answer": "Jarquia, a murloc on the eastern coast of the Swamp of Sorrows, carries Goodsteel\u2019s Balanced Flameberge."
+  },
+  {
+   "q": "Why is the flameberge wanted?",
+   "aliases": [
+    "why does krinkle need it",
+    "what's it for",
+    "why get this sword"
+   ],
+   "answer": "Krinkle Goodsteel requested the weapon as one of several goods listed in his ledger."
+  },
+  {
+   "q": "Is \u201cflameberge\u201d the right spelling?",
+   "aliases": [
+    "flamberge spelling",
+    "flameberge typo",
+    "is it a flamberge"
+   ],
+   "answer": "The name uses \u201cflameberge,\u201d though the word is usually spelled \u201cflamberge.\u201d"
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "flameberge",
+  "gadgetzan",
+  "goodsteel's balanced flameberge",
+  "jarquia",
+  "krinkle goodsteel",
+  "ledger from tanaris",
+  "swamp of sorrows"
+ ],
+ "related": [
+  "item:goodsteel-ledger",
+  "quest:4450",
+  "zone:swampofsorrows",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Goodsteel's Balanced Flameberge",
+  "Ledger from Tanaris"
+ ]
+}

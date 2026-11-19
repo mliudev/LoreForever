@@ -1,0 +1,81 @@
+{
+ "key": "item:paw-of-sin-dall",
+ "type": "item",
+ "name": "Paw of Sin'Dall",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Paw of Sin'Dall",
+  "quests": [
+   "quest:188"
+  ]
+ },
+ "summary": "The Paw of Sin'Dall is proof of a difficult hunt in Stranglethorn Vale. Ajeck Rouack asks you to bring it to Nesingwary's Expedition.",
+ "sections": [
+  {
+   "title": "Proof of the Hunt",
+   "body": "At Nesingwary's Expedition, Ajeck Rouack sets you after Sin'Dall, an elusive tiger tracked for weeks. He asks you to return with her paw as proof of the hunt. Bring it back, and he will hail you as a true Master Tiger Hunter.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sin'Dall?",
+   "aliases": [
+    "sin'dall tiger",
+    "who's sin'dall"
+   ],
+   "answer": "Sin'Dall is an elusive tiger in Stranglethorn Vale, hunted by Ajeck Rouack and the trackers at Nesingwary's Expedition."
+  },
+  {
+   "q": "Why does Ajeck want Sin'Dall's paw?",
+   "aliases": [
+    "paw proof",
+    "why the paw"
+   ],
+   "answer": "Ajeck Rouack asks you to bring Sin'Dall's paw as proof that you hunted and killed her."
+  },
+  {
+   "q": "Where do I take the Paw of Sin'Dall?",
+   "aliases": [
+    "where paw goes",
+    "ajeck rouack paw"
+   ],
+   "answer": "Bring the Paw of Sin'Dall to Ajeck Rouack at Nesingwary's Expedition."
+  },
+  {
+   "q": "What does the paw prove?",
+   "aliases": [
+    "paw meaning",
+    "sin'dall proof"
+   ],
+   "answer": "The paw proves to Ajeck Rouack that you completed the hunt for Sin'Dall."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a Hunter, Ajeck Rouack's challenge asks you to track and kill Sin'Dall, then bring back proof of the hunt."
+  }
+ ],
+ "keywords": [
+  "ajeck rouack",
+  "nesingwary's expedition",
+  "paw of sin'dall",
+  "sin'dall",
+  "stranglethorn vale",
+  "tiger",
+  "tiger mastery"
+ ],
+ "related": [
+  "quest:185",
+  "subzone:nesingwary-s-expedition",
+  "zone:stranglethorn",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Paw of Sin'Dall",
+  "Tiger Mastery (4)"
+ ]
+}

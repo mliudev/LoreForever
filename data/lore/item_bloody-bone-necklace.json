@@ -1,0 +1,113 @@
+{
+ "key": "item:bloody-bone-necklace",
+ "type": "item",
+ "name": "Bloody Bone Necklace",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Bloody Bone Necklace",
+  "quests": [
+   "quest:596"
+  ]
+ },
+ "summary": "A Bloody Bone Necklace is a Bloodscalp troll trophy taken in Stranglethorn Vale. Kin'weelay at Grom'gol Base Camp uses the necklaces in a ritual against his tribe's enemy.",
+ "sections": [
+  {
+   "title": "A Troll Trophy",
+   "body": "Kin'weelay asks you to bring twenty-five Bloody Bone Necklaces to Grom'gol Base Camp. The Bloodscalp tribe dwells to the north and is Kin'weelay's enemy. He believes taking their trophies will give his own tribe power over them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Kin'weelay's Rite",
+   "body": "At Grom'gol, Kin'weelay boils the necklaces and leeches them, rendering them to paste. He says the rite will weaken the spirits of their owners. For this service, he repays the debt that brought him to the camp.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Bloody Bone Necklace?",
+   "aliases": [
+    "bloody bone necklace",
+    "bone necklace",
+    "bloodscalp trophy"
+   ],
+   "answer": "A Bloody Bone Necklace is a trophy taken from a Bloodscalp troll in Stranglethorn Vale."
+  },
+  {
+   "q": "Who wants the necklaces?",
+   "aliases": [
+    "who wants these",
+    "kin weelay necklace",
+    "necklace npc"
+   ],
+   "answer": "Kin'weelay at Grom'gol Base Camp asks for twenty-five Bloody Bone Necklaces."
+  },
+  {
+   "q": "Where do the necklaces come from?",
+   "aliases": [
+    "where get necklaces",
+    "bloodscalp necklaces",
+    "necklace source"
+   ],
+   "answer": "Bloodscalp trolls in Stranglethorn Vale wear the bloody bone necklaces."
+  },
+  {
+   "q": "Why does Kin'weelay want them?",
+   "aliases": [
+    "why kin wants bones",
+    "why collect necklace",
+    "tribe power"
+   ],
+   "answer": "Kin'weelay says taking trophies from the Bloodscalp tribe gives his own tribe power over its enemy."
+  },
+  {
+   "q": "What does Kin'weelay do with the necklaces?",
+   "aliases": [
+    "what happens to necklaces",
+    "boil necklaces",
+    "necklace ritual"
+   ],
+   "answer": "Kin'weelay boils and leeches the necklaces, then renders them to paste in a rite meant to weaken their owners' spirits."
+  },
+  {
+   "q": "Where is Kin'weelay?",
+   "aliases": [
+    "kin weelay location",
+    "gromgol npc",
+    "kin at gromgol"
+   ],
+   "answer": "Kin'weelay is at Grom'gol Base Camp in Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you can see Kin'weelay turn a trophy of the Bloodscalp tribe into a ritual weapon against its owners."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can help Kin'weelay, a troll at the Horde camp of Grom'gol, oppose the Bloodscalp tribe."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "bloody bone necklace",
+  "bloody bone necklaces",
+  "grom'gol",
+  "kin'weelay",
+  "stranglethorn",
+  "troll trophy"
+ ],
+ "related": [
+  "quest:596",
+  "npc:kin-weelay",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bloody Bone Necklace",
+  "Bloody Bone Necklaces"
+ ]
+}

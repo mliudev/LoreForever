@@ -1,0 +1,97 @@
+{
+ "key": "item:khan-jehn-s-head",
+ "type": "item",
+ "name": "Khan Jehn's Head",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Khan Jehn's Head",
+  "quests": [
+   "quest:1374"
+  ]
+ },
+ "summary": "Khan Jehn's Head is proof that the Magram Khan has been slain. Uthek the Wise of Gelkis Village demands it as a sign of friendship with the Gelkis clan.",
+ "sections": [
+  {
+   "title": "A Sign of Friendship",
+   "body": "In Desolace, Uthek the Wise asks you to bring Khan Jehn's Head to Gelkis Village. Jehn leads the rival Magram centaur, and Uthek says the earth tells him their clan is growing weak. The Gelkis want their enemy's Khan dead, and they look to you to prove you stand with them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Khan's Fall",
+   "body": "When you return with Khan Jehn's Head, Uthek calls Jehn strong but foolish. He believes earth magic is stronger than Jehn's might. With the Magram leader gone, Uthek expects the clan to fall, and says the Gelkis will rule Desolace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Khan Jehn's Head?",
+   "aliases": [
+    "who wants the head",
+    "Uthek head",
+    "Gelkis request"
+   ],
+   "answer": "Uthek the Wise of Gelkis Village asks you to bring Khan Jehn's Head as proof of friendship with the Gelkis."
+  },
+  {
+   "q": "Who was Khan Jehn?",
+   "aliases": [
+    "who is Jehn",
+    "Magram Khan",
+    "Khan Jehn"
+   ],
+   "answer": "Khan Jehn was the leader of the Magram centaur, the rivals of the Gelkis clan."
+  },
+  {
+   "q": "Why do the Gelkis want Jehn dead?",
+   "aliases": [
+    "why kill Jehn",
+    "Gelkis vs Magram",
+    "why Jehn"
+   ],
+   "answer": "Uthek says the Magram are growing weak and asks you to kill their Khan. He believes the Gelkis can rule once Jehn is gone."
+  },
+  {
+   "q": "Where do I bring Khan Jehn's Head?",
+   "aliases": [
+    "where head go",
+    "bring Jehn head",
+    "Uthek location"
+   ],
+   "answer": "Bring Khan Jehn's Head to Uthek the Wise in Gelkis Village, in Desolace."
+  },
+  {
+   "q": "What does Uthek say after Jehn falls?",
+   "aliases": [
+    "Uthek completion",
+    "what happens after Jehn",
+    "Gelkis rule"
+   ],
+   "answer": "Uthek calls Jehn strong but foolish and says the Magram will fall without their leader. He expects the Gelkis to rule."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "earth magic",
+  "gelkis",
+  "jehn",
+  "khan jehn",
+  "khan jehn's head",
+  "magram",
+  "uthek the wise"
+ ],
+ "related": [
+  "quest:1374",
+  "quest:1382",
+  "subzone:gelkis-village",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Khan Jehn's Head",
+  "Khan Jehn (quest)"
+ ]
+}

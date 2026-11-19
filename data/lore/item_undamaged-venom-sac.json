@@ -1,0 +1,75 @@
+{
+ "key": "item:undamaged-venom-sac",
+ "type": "item",
+ "name": "Undamaged Venom Sac",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Undamaged Venom Sac",
+  "quests": [
+   "quest:2934"
+  ]
+ },
+ "summary": "An undamaged venom sac is a fresh spider sample sought by Apothecary Lydon in Tarren Mill. He wants its venom for experiments.",
+ "sections": [
+  {
+   "title": "A Fresh Sample",
+   "body": "Near the troll city of Shadra'Alor in the Hinterlands, spiders carry the venom sac Apothecary Lydon seeks. He needs an undamaged one, still fresh, for his experiments. Bring it to him in Tarren Mill.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the venom sac?",
+   "aliases": [
+    "who needs it",
+    "lydon venom sac"
+   ],
+   "answer": "Apothecary Lydon in Tarren Mill wants a fresh, undamaged venom sac for experiments."
+  },
+  {
+   "q": "Where can I find the spiders?",
+   "aliases": [
+    "where spiders",
+    "venom sac location"
+   ],
+   "answer": "The spiders Lydon seeks dwell in the Hinterlands, near the troll city of Shadra'Alor."
+  },
+  {
+   "q": "What does Lydon want to do with it?",
+   "aliases": [
+    "why does he need it",
+    "venom experiments"
+   ],
+   "answer": "Lydon wants to study the fresh venom in experiments on small animals."
+  },
+  {
+   "q": "Why must the sac be undamaged?",
+   "aliases": [
+    "fresh sac why",
+    "intact venom sac"
+   ],
+   "answer": "Lydon asks for an undamaged sac so its venom remains fresh for his experiments."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary lydon",
+  "hinterlands",
+  "shadra'alor",
+  "spider",
+  "tarren mill",
+  "undamaged venom sac",
+  "venom"
+ ],
+ "related": [
+  "quest:2934",
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Undamaged Venom Sac",
+  "Undamaged Venom Sac (quest)"
+ ]
+}

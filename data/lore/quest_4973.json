@@ -1,0 +1,74 @@
+{
+ "key": "quest:4973",
+ "type": "quest",
+ "name": "Counting Out Time",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4973
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Chromie asks you to recover Andorhal Watches from the rubble of Andorhal. They are to be returned to her at the Andorhal Inn in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "Among the Rubble",
+   "body": "At the Andorhal Inn in the Western Plaguelands, Chromie asks you to search the ruined city for Andorhal Watches. She needs five brought back to her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for Andorhal Watches?",
+   "aliases": [
+    "who wants the watches",
+    "chromie watches"
+   ],
+   "answer": "Chromie asks you to find Andorhal Watches among the rubble of the city."
+  },
+  {
+   "q": "Where do I find the watches?",
+   "aliases": [
+    "watch location",
+    "where watches"
+   ],
+   "answer": "The Andorhal Watches are among the rubble of Andorhal."
+  },
+  {
+   "q": "How many Andorhal Watches does Chromie ask for?",
+   "aliases": [
+    "number of watches",
+    "how many watches"
+   ],
+   "answer": "Chromie asks you to bring back five Andorhal Watches."
+  },
+  {
+   "q": "Where do I return the watches?",
+   "aliases": [
+    "return watches",
+    "where is chromie"
+   ],
+   "answer": "Return the Andorhal Watches to Chromie at the Andorhal Inn in the Western Plaguelands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "andorhal",
+  "andorhal inn",
+  "andorhal watches",
+  "chromie",
+  "counting out time",
+  "rubble",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:andorhal",
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Counting Out Time"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "key": "item:mind-s-eye",
+ "type": "item",
+ "name": "Mind's Eye",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Mind's Eye",
+  "quests": [
+   "quest:206",
+   "quest:591"
+  ]
+ },
+ "summary": "The Mind\u2019s Eye is an artifact held by Mai\u2019Zoth, an ogre mage in Stranglethorn Vale. Its magic is feared for corrupting and strengthening those who wield it.",
+ "sections": [
+  {
+   "title": "The Ogre Mage",
+   "body": "Brother Nimetz believes Mai\u2019Zoth used the Mind\u2019s Eye to corrupt Kurzen. The ogre mage keeps the artifact within the Mosh\u2019Ogg ogre mound in eastern Stranglethorn Vale. Nimetz fears its influence could corrupt others as well.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Choice for the Eye",
+   "body": "Kin\u2019weelay seeks the Mind\u2019s Eye as the only hope of saving Yenniku. After it is recovered, Kin\u2019weelay means to bend its power to the Darkspears\u2019 needs. Brother Nimetz plans to study the artifact and decide whether it can be used for good or must be destroyed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Mind\u2019s Eye?",
+   "aliases": [
+    "minds eye",
+    "what is minds eye",
+    "the eye"
+   ],
+   "answer": "The Mind\u2019s Eye is an artifact held by the ogre mage Mai\u2019Zoth. Its magic is said to make his power stronger and to corrupt others."
+  },
+  {
+   "q": "Who has the Mind\u2019s Eye?",
+   "aliases": [
+    "who has the eye",
+    "mai'zoth eye",
+    "mind eye holder"
+   ],
+   "answer": "Mai\u2019Zoth, an ogre mage, holds the Mind\u2019s Eye deep within the Mosh\u2019Ogg ogre mound in Stranglethorn Vale."
+  },
+  {
+   "q": "What did the Mind\u2019s Eye do to Kurzen?",
+   "aliases": [
+    "kurzen corruption",
+    "why kurzen evil",
+    "mind eye and kurzen"
+   ],
+   "answer": "Brother Nimetz believes Mai\u2019Zoth used the Mind\u2019s Eye to corrupt Kurzen. He fears its influence could corrupt others."
+  },
+  {
+   "q": "Why does Kin\u2019weelay want the Mind\u2019s Eye?",
+   "aliases": [
+    "kinweelay eye",
+    "save yenniku",
+    "why eye"
+   ],
+   "answer": "Kin\u2019weelay seeks the Mind\u2019s Eye as the only hope of saving Yenniku, the Darkspear chief\u2019s son."
+  },
+  {
+   "q": "What will Brother Nimetz do with it?",
+   "aliases": [
+    "nimetz and eye",
+    "destroy minds eye",
+    "study the eye"
+   ],
+   "answer": "Brother Nimetz plans to study the Mind\u2019s Eye and decide whether it can be used for good or must be destroyed."
+  },
+  {
+   "q": "Where is Mai\u2019Zoth?",
+   "aliases": [
+    "mai'zoth location",
+    "mosh'ogg mound",
+    "where is the ogre mage"
+   ],
+   "answer": "Mai\u2019Zoth dwells within the Mosh\u2019Ogg ogre mound in eastern Stranglethorn Vale."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, the Mind\u2019s Eye concerns the Darkspears\u2019 effort to save Yenniku, the chief\u2019s son."
+  }
+ ],
+ "keywords": [
+  "brother nimetz",
+  "kin'weelay",
+  "kurzen",
+  "mai'zoth",
+  "mind's eye",
+  "mosh'ogg",
+  "ogre mage",
+  "stranglethorn",
+  "yenniku"
+ ],
+ "related": [
+  "quest:591",
+  "quest:206",
+  "quest:592",
+  "zone:stranglethorn",
+  "subzone:mosh-ogg-ogre-mound",
+  "npc:kin-weelay",
+  "subzone:rebel-camp",
+  "subzone:grom-gol-base-camp"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Mind's Eye",
+  "Mai'Zoth (quest)",
+  "The Mind's Eye (Classic)"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "item:decrypted-letter",
+ "type": "item",
+ "name": "Decrypted Letter",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Decrypted Letter",
+  "quests": [
+   "quest:525"
+  ]
+ },
+ "summary": "The Decrypted Letter is a cryptic message found among Syndicate thieves in the Alterac foothills. Magistrate Maleb in Southshore sees reason to fear that the thieves answer to another power.",
+ "sections": [
+  {
+   "title": "A Strange Message",
+   "body": "The foothills of Alterac hold more than thieves: the Decrypted Letter found in a Syndicate encampment troubles Magistrate Maleb of Southshore. Its words are cryptic, and Maleb recognizes that neither a thief nor an Alterac noble wrote them. He suspects the Syndicate has ties to another power, though the letter leaves him dreading what that might be.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was the Decrypted Letter found?",
+   "aliases": [
+    "where found",
+    "letter location",
+    "syndicate letter"
+   ],
+   "answer": "The Decrypted Letter was found in a Syndicate encampment in the Alterac foothills."
+  },
+  {
+   "q": "Who should receive the letter?",
+   "aliases": [
+    "who gets it",
+    "take letter where",
+    "magistrate maleb"
+   ],
+   "answer": "Magistrate Maleb in Southshore should receive the Decrypted Letter."
+  },
+  {
+   "q": "What does Maleb make of the letter?",
+   "aliases": [
+    "what does it say",
+    "maleb's reaction",
+    "cryptic letter meaning"
+   ],
+   "answer": "Maleb says the letter was written by neither a thief nor an Alterac noble. He suspects the Syndicate has ties to another power."
+  },
+  {
+   "q": "Who wrote the letter?",
+   "aliases": [
+    "letter author",
+    "who sent it",
+    "not a thief"
+   ],
+   "answer": "Maleb says the letter was written by neither a thief nor an Alterac noble; its author remains unknown."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can bring the message from the Alterac foothills to Magistrate Maleb in Southshore, where he can judge the threat."
+  }
+ ],
+ "keywords": [
+  "alterac foothills",
+  "cryptic message",
+  "decrypted letter",
+  "further mysteries",
+  "magistrate maleb",
+  "southshore",
+  "syndicate"
+ ],
+ "related": [
+  "quest:525",
+  "topic:syndicate",
+  "subzone:southshore",
+  "zone:alterac"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Decrypted Letter",
+  "Further Mysteries"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "item:hatecrest-naga-scale",
+ "type": "item",
+ "name": "Hatecrest Naga Scale",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Hatecrest Naga Scale",
+  "quests": [
+   "quest:2869"
+  ]
+ },
+ "summary": "Hatecrest Naga Scales are taken from the naga threatening Sardor Isle in Feralas. Latronicus Moonspear at Feathermoon Stronghold wants them to weaken the naga presence and study what may be made from them.",
+ "sections": [
+  {
+   "title": "Scales for Feathermoon",
+   "body": "Latronicus Moonspear asks you to bring ten Hatecrest Naga Scales to Feathermoon Stronghold. He fears the naga will try to secure Sardor Isle, so he means to weaken their presence before that threat grows. The scales must be in good condition. Once he has them, he plans to send them to Pratt for study and possible use in crafting.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Hatecrest Naga Scales for?",
+   "aliases": [
+    "why scales",
+    "hatecrest scales use",
+    "scales purpose"
+   ],
+   "answer": "Latronicus Moonspear wants ten good Hatecrest Naga Scales to weaken the naga presence on Sardor Isle. He also plans to send them to Pratt to see whether they can be used in crafting."
+  },
+  {
+   "q": "Who wants the scales?",
+   "aliases": [
+    "who needs scales",
+    "latronicus scales",
+    "scales for who"
+   ],
+   "answer": "Latronicus Moonspear at Feathermoon Stronghold asks for ten Hatecrest Naga Scales."
+  },
+  {
+   "q": "Why does Feathermoon want to weaken the naga?",
+   "aliases": [
+    "why fight hatecrest",
+    "naga threat",
+    "why sardor isle"
+   ],
+   "answer": "Latronicus fears the Hatecrest naga will move to secure Sardor Isle, so he wants their presence weakened before they can do so."
+  },
+  {
+   "q": "What might Pratt do with the scales?",
+   "aliases": [
+    "pratt scales",
+    "craft from scales",
+    "scales crafting"
+   ],
+   "answer": "Latronicus plans to send the scales to Pratt, who may be able to craft something useful from them."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you help Latronicus protect Feathermoon Stronghold's interests on Sardor Isle. He says his people seek peace, yet will act to defend what is theirs."
+  }
+ ],
+ "keywords": [
+  "feathermoon stronghold",
+  "hatecrest naga scale",
+  "hatecrest scales",
+  "latronicus moonspear",
+  "naga",
+  "pratt",
+  "sardor isle"
+ ],
+ "related": [
+  "quest:2869",
+  "zone:feralas",
+  "subzone:sardor-isle",
+  "subzone:feathermoon-stronghold-classic",
+  "topic:naga",
+  "quest:2870",
+  "quest:2871"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hatecrest Naga Scale",
+  "Against the Hatecrest (2)"
+ ]
+}

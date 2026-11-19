@@ -1,0 +1,91 @@
+{
+ "key": "item:head-of-overseer-maltorius",
+ "type": "item",
+ "name": "Head of Overseer Maltorius",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Head of Overseer Maltorius",
+  "quests": [
+   "quest:7701"
+  ]
+ },
+ "summary": "The Head of Overseer Maltorius is proof of a bounty in the Searing Gorge. Lookout Captain Lolo Longstriker asks you to bring it back from the Cauldron.",
+ "sections": [
+  {
+   "title": "A Bounty in the Gorge",
+   "body": "Lookout Captain Lolo Longstriker offers a bounty on Maltorius, a Dark Iron dwarf who commands the Slag Pit crew in the Cauldron. The order names him a rogue Thorium Brotherhood agent. His severed head is the proof Longstriker asks you to bring back from the depths of the Slag Pit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Overseer Maltorius?",
+   "aliases": [
+    "Maltorius who",
+    "who's Maltorius"
+   ],
+   "answer": "Overseer Maltorius was a Dark Iron dwarf and commander of the Slag Pit crew in the Cauldron. The bounty calls him a rogue Thorium Brotherhood agent."
+  },
+  {
+   "q": "Where can I find Maltorius?",
+   "aliases": [
+    "Maltorius location",
+    "where's Maltorius"
+   ],
+   "answer": "Maltorius is deep within the Slag Pit in the Cauldron, in the Searing Gorge."
+  },
+  {
+   "q": "Why is Maltorius wanted?",
+   "aliases": [
+    "why wanted Maltorius",
+    "Maltorius bounty"
+   ],
+   "answer": "The bounty order calls Maltorius a rogue Thorium Brotherhood agent and orders his death."
+  },
+  {
+   "q": "Who wants Maltorius's head?",
+   "aliases": [
+    "who posted bounty",
+    "Lolo Maltorius"
+   ],
+   "answer": "Lookout Captain Lolo Longstriker offers the bounty and asks you to bring back Maltorius's head as proof."
+  },
+  {
+   "q": "What is the Head of Overseer Maltorius?",
+   "aliases": [
+    "Maltorius head",
+    "head item"
+   ],
+   "answer": "It is Maltorius's severed head, taken as proof of the bounty in the Searing Gorge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you face a Dark Iron commander in the Slag Pit, where his crew works in the Cauldron."
+  }
+ ],
+ "keywords": [
+  "cauldron",
+  "head of overseer maltorius",
+  "lolo longstriker",
+  "maltorius",
+  "overseer maltorius",
+  "searing gorge",
+  "slag pit",
+  "thorium brotherhood"
+ ],
+ "related": [
+  "quest:7701",
+  "subzone:slag-pit",
+  "subzone:cauldron",
+  "zone:searinggorge",
+  "topic:dark-iron-dwarf"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Head of Overseer Maltorius",
+  "WANTED: Overseer Maltorius"
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "key": "item:gan-zulah-s-head",
+ "type": "item",
+ "name": "Gan'zulah's Head",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Gan'zulah's Head",
+  "quests": [
+   "quest:584"
+  ]
+ },
+ "summary": "Gan'zulah's Head is taken from the Bloodscalp chief at Zul'Kunda. At Grom'gol, it is brought to a bubbling cauldron as part of the search for Yenniku.",
+ "sections": [
+  {
+   "title": "A Chief's Head",
+   "body": "At Zul'Kunda in northwestern Stranglethorn, Gan'zulah's Head is sought alongside the head of Nezzliok the Dire. Nimboya asks you to bring both to the bubbling cauldron at Grom'gol Base Camp. The Darkspear hope the dead leaders can reveal the truth about Yenniku.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Gan'zulah?",
+   "aliases": [
+    "gan zulah",
+    "bloodscalp chief",
+    "gan'zulah backstory"
+   ],
+   "answer": "Gan'zulah was the chief of the Bloodscalp trolls at Zul'Kunda, an enemy of the Darkspear tribe."
+  },
+  {
+   "q": "Where does Gan'zulah's Head come from?",
+   "aliases": [
+    "where head from",
+    "gan zulah head location",
+    "find gan'zulah"
+   ],
+   "answer": "Gan'zulah's Head is taken from Gan'zulah at the ruins of Zul'Kunda in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Nimboya want the head?",
+   "aliases": [
+    "why head",
+    "what nimboya wants",
+    "head for nimboya"
+   ],
+   "answer": "Nimboya wants Gan'zulah's Head and Nezzliok's Head placed in the bubbling cauldron at Grom'gol Base Camp, hoping to learn the truth about Yenniku."
+  },
+  {
+   "q": "What is the cauldron for?",
+   "aliases": [
+    "bubbling cauldron",
+    "cauldron at gromgol",
+    "what cauldron do"
+   ],
+   "answer": "The Darkspear place the heads of Gan'zulah and Nezzliok in the cauldron, hoping to make the dead leaders speak about Yenniku."
+  },
+  {
+   "q": "Who is Yenniku?",
+   "aliases": [
+    "yenniku",
+    "where is yenniku",
+    "hunt for yenniku"
+   ],
+   "answer": "Yenniku is a Darkspear troll whose fate remains unknown to Nimboya and his people."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you stand amid the conflict between the Darkspear and the Bloodscalp clan, whose chief's head Nimboya seeks."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you help the Darkspear at Grom'gol seek the truth about Yenniku from their Bloodscalp enemies."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "cauldron",
+  "darkspear",
+  "gan'zulah",
+  "gan'zulah's head",
+  "grom'gol",
+  "nimboya",
+  "yenniku",
+  "zul'kunda"
+ ],
+ "related": [
+  "quest:584",
+  "item:nezzliok-s-head",
+  "quest:581",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "topic:darkspear-tribe"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gan'zulah's Head",
+  "Bloodscalp Clan Heads"
+ ]
+}

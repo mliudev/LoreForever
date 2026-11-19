@@ -1,0 +1,81 @@
+{
+ "key": "quest:94293",
+ "type": "quest",
+ "name": "Craftsman's Writ: Guardian Cloak",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94293
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A customer at Ethel Rethor requests a Guardian Cloak through a transferable writ. The cloak will help keep artifacts safe from the naga and centaur.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A faded writ asks you to bring a Guardian Cloak to the marked location. It also gives details for delivery and payment, and the writ can be transferred to another bearer.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Ethel Rethor",
+   "body": "The customer is studying the mysteries of Ethel Rethor. With the cloak in hand, they plan to wrap artifacts found there and hide them from the naga and centaur.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "guardian cloak writ",
+    "what item do they want"
+   ],
+   "answer": "The customer requests one Guardian Cloak, with delivery and payment details written on the faded note."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "pass on the writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Why does the customer want a Guardian Cloak?",
+   "aliases": [
+    "cloak for what",
+    "why guardian cloak"
+   ],
+   "answer": "The customer intends to use it to wrap artifacts for safekeeping."
+  },
+  {
+   "q": "Who does the customer want to hide artifacts from?",
+   "aliases": [
+    "hide artifacts from who",
+    "naga and centaur"
+   ],
+   "answer": "The customer wants to keep artifacts from the naga and centaur at Ethel Rethor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "artifacts",
+  "centaur",
+  "cloak",
+  "craftsman's writ",
+  "ethel rethor",
+  "guardian cloak",
+  "naga",
+  "transferable writ"
+ ],
+ "related": [
+  "subzone:ethel-rethor",
+  "topic:naga",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Guardian Cloak"
+ ]
+}

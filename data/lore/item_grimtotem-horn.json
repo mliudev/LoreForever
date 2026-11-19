@@ -1,0 +1,84 @@
+{
+ "key": "item:grimtotem-horn",
+ "type": "item",
+ "name": "Grimtotem Horn",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Grimtotem Horn",
+  "quests": [
+   "quest:2974"
+  ]
+ },
+ "summary": "Grimtotem Horns are taken from Grimtotem tauren west of Camp Mojache in Feralas. Krueg Skullsplitter asks for them after learning the tribe is nearby.",
+ "sections": [
+  {
+   "title": "Taken in Feralas",
+   "body": "West of Camp Mojache, Grimtotem tauren carry these horns. Krueg Skullsplitter asks you to bring him a collection after learning the clan is in Feralas. He says Belgrom has placed a bounty on the Grimtotem and warns that they are dangerous.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Grimtotem Horns come from?",
+   "aliases": [
+    "where horns from",
+    "grimtotem horn source"
+   ],
+   "answer": "Grimtotem tauren west of Camp Mojache in Feralas carry the horns."
+  },
+  {
+   "q": "Who wants the horns?",
+   "aliases": [
+    "who needs horns",
+    "krueg horns"
+   ],
+   "answer": "Krueg Skullsplitter in Camp Mojache asks you to bring him Grimtotem Horns."
+  },
+  {
+   "q": "Why does Krueg want them?",
+   "aliases": [
+    "why collect horns",
+    "horns for what"
+   ],
+   "answer": "Krueg asks for the horns after learning that Grimtotem tauren are nearby. He says Belgrom has an interest in the tribe and has placed a bounty on them."
+  },
+  {
+   "q": "Who are the Grimtotem?",
+   "aliases": [
+    "grimtotem who",
+    "grimtotem tauren"
+   ],
+   "answer": "The Grimtotem are a tauren clan found west of Camp Mojache in Feralas."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a Horde traveler, Krueg's warning frames the Grimtotem as a danger to Horde lands and villages."
+  }
+ ],
+ "keywords": [
+  "belgrom",
+  "camp mojache",
+  "feralas",
+  "grimtotem",
+  "grimtotem horn",
+  "grimtotem horns",
+  "krueg skullsplitter",
+  "tauren"
+ ],
+ "related": [
+  "quest:2974",
+  "quest:2973",
+  "subzone:camp-mojache",
+  "topic:grimtotem-tribe",
+  "zone:feralas",
+  "topic:tauren"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Grimtotem Horn",
+  "A Grim Discovery (Classic)"
+ ]
+}

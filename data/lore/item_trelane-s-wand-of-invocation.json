@@ -1,0 +1,83 @@
+{
+ "key": "item:trelane-s-wand-of-invocation",
+ "type": "item",
+ "name": "Trelane's Wand of Invocation",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Trelane's Wand of Invocation",
+  "quests": [
+   "quest:693"
+  ]
+ },
+ "summary": "Trelane's Wand of Invocation is held by Kor'gresh in Boulderfist Hall. Skuerto at Refuge Pointe wants it recovered before the ogre masters its powers.",
+ "sections": [
+  {
+   "title": "The Wand's Trail",
+   "body": "Skuerto has traced Trelane's Wand of Invocation to Boulderfist Hall in the Arathi Highlands. Kor'gresh keeps it there and uses blasts of ice to control the other ogres. The wand is the first item on Skuerto's list, and its recovery is part of his plan concerning Stromgarde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who has Trelane's wand?",
+   "aliases": [
+    "who has the wand",
+    "kor'gresh wand",
+    "wand location"
+   ],
+   "answer": "Kor'gresh has Trelane's Wand of Invocation in Boulderfist Hall, east of Thandol Span."
+  },
+  {
+   "q": "Where do I take the wand?",
+   "aliases": [
+    "where return wand",
+    "skuerto wand",
+    "wand over fist"
+   ],
+   "answer": "Take Trelane's Wand of Invocation to Skuerto at Refuge Pointe."
+  },
+  {
+   "q": "What is Kor'gresh doing with it?",
+   "aliases": [
+    "ogre ice blasts",
+    "kor'gresh powers",
+    "what's the ogre doing"
+   ],
+   "answer": "Kor'gresh uses blasts of ice to keep the other ogres in line, suggesting he is learning the wand's powers."
+  },
+  {
+   "q": "Why does Skuerto want the wand?",
+   "aliases": [
+    "why get wand",
+    "skuerto's plan",
+    "stromgarde plan"
+   ],
+   "answer": "The wand is the first of four items on Skuerto's list. He is working on a plan concerning Stromgarde."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boulderfist hall",
+  "kor'gresh",
+  "refuge pointe",
+  "skuerto",
+  "stromgarde",
+  "trelane's wand",
+  "wand of invocation",
+  "wand over fist"
+ ],
+ "related": [
+  "quest:693",
+  "npc:skuerto",
+  "subzone:boulderfist-hall",
+  "subzone:refuge-pointe",
+  "zone:arathi",
+  "subzone:thandol-span"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Trelane's Wand of Invocation",
+  "Wand over Fist (Classic)"
+ ]
+}

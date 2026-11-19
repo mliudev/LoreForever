@@ -1,0 +1,81 @@
+{
+ "key": "item:broken-armor-of-ana-thek",
+ "type": "item",
+ "name": "Broken Armor of Ana'thek",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Broken Armor of Ana'thek",
+  "quests": [
+   "quest:586"
+  ]
+ },
+ "summary": "The Broken Armor of Ana'thek is a shattered trophy tied to the Skullsplitters of Stranglethorn Vale. Gan'zulah demands it as proof of Ana'thek's defeat.",
+ "sections": [
+  {
+   "title": "A Chieftain's Demand",
+   "body": "At Grom'gol Base Camp, Gan'zulah's head commands you to face the Skullsplitters in the eastern mountains. He demands the broken armor of their chief, Ana'thek the Cruel, if you survive the fight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ana'thek?",
+   "aliases": [
+    "ana'thek who",
+    "who is anathekh",
+    "ana'thek backstory"
+   ],
+   "answer": "Ana'thek the Cruel was the chief of the Skullsplitters in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Gan'zulah want the armor?",
+   "aliases": [
+    "why armor",
+    "gan'zula armor",
+    "what does gan'zulah want"
+   ],
+   "answer": "Gan'zulah demands Ana'thek's shattered armor as proof that you defeated the Skullsplitter chief."
+  },
+  {
+   "q": "Where did the armor come from?",
+   "aliases": [
+    "armor source",
+    "where armor from",
+    "ana'thek armor"
+   ],
+   "answer": "The Broken Armor of Ana'thek comes from Ana'thek the Cruel in Stranglethorn Vale."
+  },
+  {
+   "q": "Where do I bring the armor?",
+   "aliases": [
+    "armor turn in",
+    "where take armor",
+    "bubbling cauldron"
+   ],
+   "answer": "Bring the Broken Armor of Ana'thek to the Bubbling Cauldron at Grom'gol Base Camp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ana'thek",
+  "ana'thek the cruel",
+  "broken armor",
+  "bubbling cauldron",
+  "gan'zulah",
+  "grom'gol base camp",
+  "skullsplitters",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:586",
+  "subzone:grom-gol-base-camp",
+  "subzone:ruins-of-zul-mamwe",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Broken Armor of Ana'thek",
+  "Speaking with Gan'zulah"
+ ]
+}

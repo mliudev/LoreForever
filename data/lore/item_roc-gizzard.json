@@ -1,0 +1,82 @@
+{
+ "key": "item:roc-gizzard",
+ "type": "item",
+ "name": "Roc Gizzard",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Roc Gizzard",
+  "quests": [
+   "quest:1452"
+  ]
+ },
+ "summary": "A Roc Gizzard is a part of the rocs found in Tanaris. Rhapsody Shindigger needs three for a strong drink he hopes will loosen his tongue.",
+ "sections": [
+  {
+   "title": "A Stronger Drink",
+   "body": "Rhapsody Shindigger in the Hinterlands asks you to bring him three Roc Gizzards from Tanaris. He needs them for a Kalimdor Kocktail, along with livers from Feralas. Rhapsody says the drink will help him speak of a frightening flight over a swamp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Roc Gizzards come from?",
+   "aliases": [
+    "roc gizzard location",
+    "where find gizzards",
+    "tanaris roc parts"
+   ],
+   "answer": "Rocs, Fire Rocs, and Searing Rocs in Tanaris yield Roc Gizzards."
+  },
+  {
+   "q": "Who needs Roc Gizzards?",
+   "aliases": [
+    "who wants roc gizzards",
+    "rhapsody gizzard",
+    "gizzards for who"
+   ],
+   "answer": "Rhapsody Shindigger in the Hinterlands needs three Roc Gizzards for his Kalimdor Kocktail."
+  },
+  {
+   "q": "What is a Kalimdor Kocktail?",
+   "aliases": [
+    "rhapsody drink",
+    "what drink needs gizzards",
+    "kalimdor cocktail"
+   ],
+   "answer": "It is a strong drink Rhapsody Shindigger means to make with Roc Gizzards and livers from Feralas."
+  },
+  {
+   "q": "Why does Rhapsody want the drink?",
+   "aliases": [
+    "why rhapsody needs drink",
+    "what makes him talk",
+    "rhapsody swamp story"
+   ],
+   "answer": "Rhapsody says he needs something strong before he can speak of a frightening flight over a swamp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fire roc",
+  "kalimdor kocktail",
+  "rhapsody shindigger",
+  "roc",
+  "roc gizzard",
+  "searing roc",
+  "tanaris"
+ ],
+ "related": [
+  "quest:1452",
+  "quest:1451",
+  "zone:tanaris",
+  "zone:hinterlands",
+  "item:groddoc-liver",
+  "item:ironfur-liver"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Roc Gizzard",
+  "Rhapsody's Kalimdor Kocktail"
+ ]
+}

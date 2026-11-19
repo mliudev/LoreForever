@@ -1,0 +1,93 @@
+{
+ "key": "item:sigil-of-strom",
+ "type": "item",
+ "name": "Sigil of Strom",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sigil of Strom",
+  "quests": [
+   "quest:639"
+  ]
+ },
+ "summary": "The Sigil of Strom is one of the seals protecting Trol'kalar in Trollbane's tomb. Zengu of Hammerfall seeks it among the Syndicate in Stromgarde.",
+ "sections": [
+  {
+   "title": "A Stromgarde Sigil",
+   "body": "The Syndicate took one of the sigils that guard Trol'kalar, the ancient troll-slaying sword. Zengu of Hammerfall needs it as the first step in gathering the seals protecting the blade in Trollbane's tomb.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sigil of Strom?",
+   "aliases": [
+    "sigil of strom meaning",
+    "strom sigil",
+    "what's the sigil"
+   ],
+   "answer": "The Sigil of Strom is one of several seals protecting Trol'kalar in Trollbane's tomb."
+  },
+  {
+   "q": "Who wants the Sigil of Strom?",
+   "aliases": [
+    "who needs sigil",
+    "zengu sigil",
+    "who wants it"
+   ],
+   "answer": "Zengu in Hammerfall seeks the Sigil of Strom to begin gathering the seals that protect Trol'kalar."
+  },
+  {
+   "q": "Where can I find the Sigil of Strom?",
+   "aliases": [
+    "sigil location",
+    "where is the strom sigil",
+    "find sigil"
+   ],
+   "answer": "The Syndicate took the Sigil of Strom, and one of its agents in Stromgarde carries it."
+  },
+  {
+   "q": "Why does Zengu need the sigil?",
+   "aliases": [
+    "why get sigil",
+    "why zengu wants it",
+    "trolkalar seals"
+   ],
+   "answer": "The sigil is one of several seals Zengu needs to remove Trol'kalar from Trollbane's tomb."
+  },
+  {
+   "q": "What is Trol'kalar?",
+   "aliases": [
+    "trolkalar sword",
+    "troll slayer",
+    "trolkalar meaning"
+   ],
+   "answer": "Trol'kalar is an ancient sword whose name means troll-slayer in the trolls' tongue. Lord Ignaeus of Strom, called Trollbane, wielded it in battle."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hammerfall",
+  "sigil of strom",
+  "stromgarde",
+  "syndicate",
+  "trol'kalar",
+  "troll-slayer",
+  "trollbane",
+  "zengu"
+ ],
+ "related": [
+  "quest:639",
+  "quest:645",
+  "quest:638",
+  "zone:arathi",
+  "subzone:hammerfall",
+  "topic:syndicate",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sigil of Strom",
+  "Sigil of Strom (Classic)"
+ ]
+}

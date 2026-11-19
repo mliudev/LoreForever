@@ -1,0 +1,94 @@
+{
+ "key": "item:spirit-of-silverpine-charts",
+ "type": "item",
+ "name": "Spirit of Silverpine Charts",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Spirit of Silverpine Charts",
+  "quests": [
+   "quest:662"
+  ]
+ },
+ "summary": "The Spirit of Silverpine Charts are the ship\u2019s maps, now sought from its wreck in the Arathi Highlands. First Mate Nilzlix wants them secured before the information reaches prying eyes.",
+ "sections": [
+  {
+   "title": "Aground in the Cove",
+   "body": "The wreck\u2019s charts are wanted alongside the ship\u2019s log, so First Mate Nilzlix asks you to recover both. The crew says the Spirit of Silverpine ran aground on a temple in the reef when the tides fell. Its charts hold information the crew fears could reach enemy hands, and Fleet Master Seahorn expects them brought back to Booty Bay.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Spirit of Silverpine Charts?",
+   "aliases": [
+    "silverpine charts",
+    "spirit charts"
+   ],
+   "answer": "They are map charts belonging to the Spirit of Silverpine, a ship wrecked in the Arathi Highlands."
+  },
+  {
+   "q": "Where can I find the charts?",
+   "aliases": [
+    "where charts",
+    "silverpine map location"
+   ],
+   "answer": "The Spirit of Silverpine Charts are sought from the wreck of the Spirit of Silverpine in the Arathi Highlands."
+  },
+  {
+   "q": "Who wants the charts?",
+   "aliases": [
+    "who needs charts",
+    "nilzlix charts"
+   ],
+   "answer": "First Mate Nilzlix wants the charts and logs from the Spirit of Silverpine and the Maiden's Folly recovered."
+  },
+  {
+   "q": "Why are the charts wanted?",
+   "aliases": [
+    "why charts matter",
+    "what's in the charts"
+   ],
+   "answer": "The crew fears the charts could expose information to prying eyes if left behind."
+  },
+  {
+   "q": "How did the Spirit of Silverpine sink?",
+   "aliases": [
+    "silverpine wreck",
+    "why ship sank"
+   ],
+   "answer": "The crew says the Spirit of Silverpine ran aground on a temple in the reef when the tides began to lower."
+  },
+  {
+   "q": "Where are the charts being taken?",
+   "aliases": [
+    "charts to booty bay",
+    "who gets the charts"
+   ],
+   "answer": "The recovered charts are meant to be secured for Fleet Master Seahorn and the command in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "charts",
+  "deep sea salvage",
+  "first mate nilzlix",
+  "fleet master seahorn",
+  "spirit of silverpine",
+  "spirit of silverpine charts"
+ ],
+ "related": [
+  "quest:662",
+  "item:spirit-of-silverpine-log",
+  "item:maiden-s-folly-charts",
+  "item:maiden-s-folly-log",
+  "npc:fleet-master-seahorn",
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Spirit of Silverpine Charts",
+  "Deep Sea Salvage"
+ ]
+}

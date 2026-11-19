@@ -1,10 +1,18 @@
 {
+ "item:500-pound-chicken": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "summary": "Dirge, a goblin in Tanaris, sends you with a promised delicacy for Narain Soothfancy. The gnome is eager to receive it."
+ },
  "item:99-year-old-port": {},
  "item:a-bloodstained-journal-page": {
   "faq": {
    "4": 1
   }
  },
+ "item:a-carefully-packed-crate": {},
  "item:a-clue-to-sanders-treasure": {},
  "item:a-dusty-unsent-letter": {},
  "item:a-faded-journal-page": {},
@@ -15,7 +23,10 @@
    "4": 1
   }
  },
+ "item:a-short-note": {},
+ "item:a-shrunken-head": {},
  "item:a-simple-compass": {},
+ "item:a-sparkling-stone": {},
  "item:a-stack-of-letters": {},
  "item:a-torn-journal-page": {},
  "item:abercrombie-s-crate": {
@@ -24,6 +35,9 @@
    "4": 1
   }
  },
+ "item:acceptable-basilisk-sample": {},
+ "item:acceptable-hyena-sample": {},
+ "item:acceptable-scorpid-sample": {},
  "item:admiral-proudmoore-s-orders": {},
  "item:ados-fragment": {
   "faq": {
@@ -34,7 +48,10 @@
  "item:agamand-family-dagger": {},
  "item:agamand-family-mace": {},
  "item:agamand-family-sword": {},
+ "item:aged-gorilla-sinew": {},
+ "item:aged-kodo-hide": {},
  "item:ahanu-s-leather-goods": {},
+ "item:akiris-reed": {},
  "item:alaric-s-remains": {},
  "item:alien-egg": {
   "faq": {
@@ -46,7 +63,14 @@
   ]
  },
  "item:alterac-granite": {},
+ "item:alterac-signet-ring": {},
  "item:altered-snapjaw-shell": {},
+ "item:ambassador-infernus-bracer": {
+  "faq": {
+   "6": 1
+  },
+  "summary": "In the Badlands, Advisor Belgrum asks you to bring back a sign of Ambassador Infernus' defeat. He hopes to send aid to the troubled excavation at Uldaman."
+ },
  "item:ambercorn": {},
  "item:amethyst-phial": {},
  "item:an-undelivered-letter": {},
@@ -55,6 +79,7 @@
    "4": 1
   }
  },
+ "item:ancient-egg": {},
  "item:ancient-moonstone-seal": {
   "faq": {
    "4": 1
@@ -76,13 +101,22 @@
    "3": 1
   }
  },
+ "item:atal-ai-artifact": {},
+ "item:atal-ai-tablet-fragment": {},
  "item:athrikus-narassin-s-head": {
   "faq": {
    "1": 1,
    "3": 1
   }
  },
+ "item:azure-agate": {},
  "item:bag-of-empty-ooze-containers": {},
+ "item:bag-of-water-elemental-bracers": {},
+ "item:balia-mah-trophy": {
+  "faq": {
+   "2": 1
+  }
+ },
  "item:balnir-snapdragons": {},
  "item:baron-longshore-s-head": {},
  "item:barrel-of-barleybrew-scalder": {},
@@ -94,6 +128,9 @@
  "item:battleboar-flank": {},
  "item:battleboar-snout": {},
  "item:battleworn-axe": {},
+ "item:beast-muisek": {},
+ "item:beast-muisek-vessel": {},
+ "item:befouled-bloodstone-orb": {},
  "item:berard-s-journal": {},
  "item:bernice-s-necklace": {},
  "item:besseleth-s-fang": {},
@@ -107,12 +144,27 @@
    "4": 1
   }
  },
+ "item:black-drake-s-heart": {},
  "item:black-feather-quill": {},
  "item:blackened-skull": {},
+ "item:blacklash-s-bindings": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1
+  },
+  "summary": "Blacklash's Bindings are sought by those trying to end the danger posed by the drakes of Lethlor Ravine."
+ },
  "item:bloodfeather-belt": {},
  "item:bloodfury-ripper-s-remains": {},
+ "item:bloodsail-charts": {},
+ "item:bloodsail-orders-classic": {},
+ "item:bloodscalp-tusk": {},
  "item:bloodstone-choker": {},
+ "item:bloody-bone-necklace": {},
  "item:blueleaf-tuber": {},
+ "item:bonegrip-s-note": {},
  "item:book-from-sven-s-farm": {
   "faq": {
    "2": 1,
@@ -120,11 +172,13 @@
    "5": 1
   }
  },
+ "item:book-of-the-ancients": {},
  "item:book-stresses-of-iron": {},
  "item:bottle-of-disease": {},
  "item:bottle-of-moonshine": {},
  "item:bottle-of-zombie-juice": {},
  "item:bottom-of-gelkak-s-key": {},
+ "item:bracers-of-rock-binding": {},
  "item:branch-of-cenarius": {
   "faq": {
    "3": 1
@@ -140,37 +194,76 @@
  "item:bristleback-quilboar-tusk": {},
  "item:brock-s-list": {},
  "item:broken-and-battered-samophlange": {},
+ "item:broken-armor-of-ana-thek": {},
  "item:broken-samophlange": {},
+ "item:broken-tears": {},
  "item:broken-tools": {},
+ "item:bundle-of-akiris-reeds": {},
+ "item:bundle-of-atal-ai-artifacts": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "5": 1
+  },
+  "summary": "A bundle of Atal\u2019ai artifacts is carried from the Pool of Tears to an exiled priest in the Hinterlands, where its purpose can be learned."
+ },
  "item:bundle-of-crocolisk-skins": {},
  "item:bundle-of-hides": {},
  "item:bundle-of-wood": {},
  "item:burning-blade-medallion": {},
  "item:burning-blood-quest-item": {},
  "item:burning-rock": {},
+ "item:buzzard-gizzard": {},
  "item:cache-of-zanzil-s-altered-mixture": {},
  "item:cactus-apple": {},
+ "item:caliph-scorpidsting-s-head": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  },
+  "summary": "The Gadgetzan Water Company seeks proof against Caliph Scorpidsting and offers a bounty through Chief Engineer Bilgewhizzle in Gadgetzan."
+ },
  "item:calor-s-note": {},
+ "item:camp-mojache-zukk-ash-report": {},
  "item:candle-of-beckoning": {},
  "item:cantation-of-manifestation": {},
  "item:canvas-scraps": {},
+ "item:captain-s-documents": {},
  "item:cask-of-merlot": {},
  "item:cask-of-scalder": {},
  "item:cask-of-shimmer-stout": {},
+ "item:catelyn-s-blade": {
+  "faq": {
+   "4": 1,
+   "6": 1
+  },
+  "summary": "Near Booty Bay, Catelyn's Blade is a knife with a history among Stranglethorn's trolls. Catelyn needs it back from the Bloodsail Buccaneers."
+ },
  "item:cats-eye-emerald": {},
  "item:cenarion-lunardust": {},
  "item:cenarion-moondust": {},
  "item:centaur-bracers": {},
+ "item:centaur-ear": {},
+ "item:centipaar-insect-parts": {},
+ "item:chains-of-hematus": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "summary": "The Chains of Hematus are bindings found in Lethlor Ravine. Garek or Gorn seeks them alongside Blacklash\u2019s bindings in the Badlands."
+ },
  "item:charred-horn": {},
  "item:chest-of-containment-coffers": {},
  "item:chief-sharptusk-thornmantle-s-head": {},
  "item:chok-sul-s-head": {},
+ "item:chucky-s-huge-ring": {},
  "item:clarice-s-pendant": {
   "faq": {
    "4": 1
   }
  },
  "item:claw-key": {},
+ "item:cleverly-encrypted-letter": {},
  "item:cliffspring-river-sample": {},
  "item:cloth-request": {},
  "item:cloven-hoof": {},
@@ -190,7 +283,11 @@
   }
  },
  "item:covert-ops-pack": {},
+ "item:coyote-jawbone": {},
+ "item:crag-coyote-fang": {},
  "item:crate-of-crash-helmets": {},
+ "item:crate-of-ghost-magnets": {},
+ "item:crate-of-grimtotem-horns": {},
  "item:crate-of-horseshoes": {},
  "item:crate-of-inn-supplies": {},
  "item:crate-of-lightforge-ingots": {},
@@ -200,12 +297,15 @@
  "item:crocolisk-skin-classic": {},
  "item:crocolisk-tear-classic": {},
  "item:crossroads-supply-crate": {},
+ "item:crude-charm": {},
  "item:crude-flint": {
   "faq": {
    "1": 1,
    "3": 1
   }
  },
+ "item:crudely-dried-meat": {},
+ "item:crumpled-scroll-fragment": {},
  "item:crystal-kelp-frond": {
   "faq": {
    "3": 1
@@ -234,8 +334,15 @@
  "item:deadmire-s-tooth": {},
  "item:death-cap": {},
  "item:deathstalker-report": {},
+ "item:decrypted-letter": {},
  "item:deepfury-s-orders": {},
  "item:deepmoss-egg": {},
+ "item:defiant-orc-head": {
+  "faq": {
+   "1": 1,
+   "4": 1
+  }
+ },
  "item:defias-docket": {},
  "item:defias-tower-key": {
   "faq": {
@@ -248,6 +355,19 @@
    "4": 1
   }
  },
+ "item:demon-box": {
+  "faq": {
+   "1": 1,
+   "3": 1
+  },
+  "summary": "The Burning Blade holds the Demon Box at Thunder Axe Fortress in Desolace. Taiga Wisemane in Shadowprey Village wants it to help oppose the demonic threat."
+ },
+ "item:demon-pick": {
+  "faq": {
+   "5": 1,
+   "6": 1
+  }
+ },
  "item:deviate-hide": {},
  "item:devlin-s-remains": {},
  "item:dim-necrotic-stone": {},
@@ -257,8 +377,10 @@
    "4": 1
   }
  },
+ "item:dirty-knucklebones": {},
  "item:disarming-colloid": {},
  "item:disarming-mixture": {},
+ "item:discarded-knife": {},
  "item:divined-scroll": {},
  "item:divining-scroll": {
   "faq": {
@@ -266,6 +388,9 @@
   }
  },
  "item:dolanaar-delivery": {},
+ "item:doomwarder-blood": {},
+ "item:draenethyst-crystal": {},
+ "item:draenethyst-shard": {},
  "item:dragonmaw-war-banner": {},
  "item:dried-seeds": {
   "faq": {
@@ -286,7 +411,17 @@
  },
  "item:echeyakee-s-hide": {},
  "item:egalin-s-grimoire": {},
+ "item:eldritch-shackles": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1
+  },
+  "summary": "The Eldritch Shackles are used with the Shards of Myzrael at the Circle of Inner Binding in the Arathi Highlands. The stones hold a power that stirs when the shackles are placed."
+ },
  "item:electropeller": {},
+ "item:elemental-shard-sample": {},
  "item:elixir-of-pain": {
   "faq": {
    "3": 1
@@ -298,6 +433,8 @@
   }
  },
  "item:elune-s-tear": {},
+ "item:elven-gem": {},
+ "item:elven-gems": {},
  "item:embalming-ichor": {},
  "item:emerald-dreamcatcher": {},
  "item:empty-blue-waterskin": {},
@@ -318,6 +455,7 @@
   }
  },
  "item:empty-water-tube": {},
+ "item:enchanted-agate": {},
  "item:enchanted-gaea-seeds": {},
  "item:enchanted-resonite-crystal": {
   "faq": {
@@ -341,8 +479,10 @@
  "item:faded-shadowhide-pendant": {},
  "item:fallen-moonstone": {},
  "item:fandral-s-message": {},
+ "item:fang-of-bhag-thera": {},
  "item:fang-of-vagash": {},
  "item:fangore-s-paw": {},
+ "item:faranell-s-parcel": {},
  "item:farren-s-report": {
   "faq": {
    "4": 1
@@ -357,16 +497,19 @@
   }
  },
  "item:fel-moss": {},
+ "item:felhound-brain": {},
  "item:felix-s-box": {},
  "item:felix-s-bucket-of-bolts": {},
  "item:felix-s-chest": {},
  "item:felstalker-hoof": {},
  "item:fenwick-s-head": {},
+ "item:feralas-a-history-quest-item": {},
  "item:fey-dragon-scale": {
   "faq": {
    "3": 1
   }
  },
+ "item:field-testing-kit": {},
  "item:filled-amethyst-phial": {},
  "item:filled-blue-waterskin": {},
  "item:filled-brown-waterskin": {},
@@ -383,31 +526,50 @@
  "item:filled-jade-phial": {},
  "item:filled-pure-sample-jar": {},
  "item:filled-red-waterskin": {},
+ "item:filled-soul-gem": {
+  "faq": {
+   "1": 1,
+   "4": 1
+  },
+  "summary": "Nimboya asks you to bring the Soul Gem to Grom'gol, where his people await Yenniku's return."
+ },
  "item:filled-tainted-ooze-jar": {},
  "item:filled-tourmaline-phial": {},
  "item:filled-vessel": {},
  "item:final-clue-to-sanders-treasure": {},
+ "item:final-message-to-the-wildhammer": {},
  "item:fine-crab-chunks": {},
  "item:fine-moonstalker-pelt": {},
  "item:fire-tar": {},
+ "item:firebeard-s-head": {},
  "item:fizzle-s-claw": {},
  "item:flagongut-s-fossil": {},
  "item:flatland-cougar-femur": {},
  "item:flatland-prowler-claw": {},
  "item:foreman-s-blackjack": {},
  "item:forged-steel-bars": {},
+ "item:forked-mudrock-tongue": {},
  "item:fragments-of-rok-alim": {},
  "item:frostwolf-banner": {},
+ "item:frozen-ectoplasm": {},
  "item:full-leaden-collection-phial": {},
  "item:fungal-spores": {},
  "item:furen-s-instructions": {},
  "item:furen-s-notes": {},
  "item:furlbrow-s-deed": {},
  "item:furlbrow-s-pocket-watch": {},
+ "item:gadrin-s-parchment": {},
  "item:gaea-seed": {},
  "item:gaffer-jack": {},
+ "item:gahz-ridian-detector": {},
+ "item:gahz-ridian-ornament": {},
  "item:gallywix-s-head": {},
  "item:galvanized-horn": {},
+ "item:gan-zulah-s-head": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:gargantuan-tumor": {},
  "item:garrick-s-head": {},
  "item:gazlowe-s-ledger": {
@@ -419,9 +581,11 @@
  "item:gem-of-cobrahn": {},
  "item:gem-of-pythas": {},
  "item:gem-of-serpentis": {},
+ "item:gem-of-the-serpent": {},
  "item:gerenzo-s-mechanical-arm": {},
  "item:ghost-hair-comb": {},
  "item:ghost-hair-thread": {},
+ "item:ghost-o-plasm": {},
  "item:ghoul-fang": {},
  "item:ghoul-rib": {},
  "item:giant-crocolisk-skin": {},
@@ -449,15 +613,27 @@
  },
  "item:gnomeregan-gumdrop": {},
  "item:gnomish-tools": {},
+ "item:goggles-of-gem-hunting": {},
  "item:gold-dust": {},
+ "item:golem-oil": {},
  "item:golm-fragment": {
   "faq": {
    "3": 1
   }
  },
+ "item:goodsteel-ledger": {},
+ "item:goodsteel-s-balanced-flameberge": {},
  "item:gordon-s-crate": {},
+ "item:gordunni-cobalt": {},
+ "item:gordunni-orb": {},
+ "item:gorishi-queen-brain": {},
+ "item:gorishi-queen-lure": {},
  "item:grape-manifest": {},
  "item:gray-bear-tongue": {},
+ "item:green-hills-of-stranglethorn-chapter-i": {},
+ "item:green-hills-of-stranglethorn-chapter-ii": {},
+ "item:green-hills-of-stranglethorn-chapter-iii": {},
+ "item:green-hills-of-stranglethorn-chapter-iv": {},
  "item:gregor-s-remains": {},
  "item:grelin-s-report": {},
  "item:grelin-whitebeard-s-journal": {
@@ -467,6 +643,7 @@
  },
  "item:grell-earring": {},
  "item:grenka-s-claw": {},
+ "item:grimtotem-horn": {},
  "item:grimtotem-satchel": {},
  "item:grizzled-bear-heart": {},
  "item:grizzled-scalp": {
@@ -475,6 +652,7 @@
    "4": 1
   }
  },
+ "item:groddoc-liver": {},
  "item:gryshka-s-letter": {},
  "item:gunther-s-spellbook": {
   "faq": {
@@ -488,25 +666,55 @@
  "item:hallowed-scroll": {},
  "item:hallowed-sigil": {},
  "item:hallowed-tablet": {},
+ "item:hammertoe-s-amulet": {},
+ "item:hand-of-dagun": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:hand-of-dextren-ward": {},
+ "item:hand-of-iruxos": {},
  "item:handful-of-oats-classic": {},
  "item:handful-of-stardust": {},
  "item:hardened-tortoise-shell": {},
  "item:hardened-tumor": {},
  "item:harpy-lieutenant-ring": {},
+ "item:hatecrest-naga-scale": {},
+ "item:hatefury-claw": {},
+ "item:hatefury-horn": {},
  "item:head-of-arugal": {
   "faq": {
    "4": 1
   }
+ },
+ "item:head-of-bangalash": {
+  "summary": "Hemet Nesingwary seeks the Head of Bangalash in Stranglethorn Vale. The great white tiger is the latest quarry in his hunt."
+ },
+ "item:head-of-baron-vardus": {
+  "faq": {
+   "4": 1
+  },
+  "summary": "Baron Vardus\u2019s severed head is proof of Southshore\u2019s hunt for the former Alterac noble. Magistrate Maleb seeks justice for the brutality visited upon the town."
  },
  "item:head-of-bazil-thredd": {},
  "item:head-of-deepfury": {},
  "item:head-of-gath-ilzogg": {},
  "item:head-of-grimson": {},
  "item:head-of-kelris": {},
+ "item:head-of-lathoric-the-black": {},
+ "item:head-of-nagaz": {},
+ "item:head-of-overseer-maltorius": {},
  "item:head-of-targorr": {},
  "item:head-of-vancleef": {},
+ "item:heart-of-flame-quest-item": {},
  "item:heart-of-isha-awak": {},
+ "item:heart-of-mokk": {},
+ "item:heart-of-obsidion": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
  "item:heartswood": {},
  "item:heartswood-core": {},
  "item:heavy-leaden-collection-phial": {},
@@ -518,6 +726,18 @@
  "item:hildelve-s-journal": {},
  "item:hillsbrad-human-skull": {},
  "item:hillsbrad-town-registry": {},
+ "item:hinterlands-honey-ripple": {
+  "faq": {
+   "2": 1
+  },
+  "summary": "Crates of Hinterlands Honey Ripple sit at an abandoned Horde base near Skulk Rock. Dran Droffers wants the bottles for a packaging scheme."
+ },
+ "item:hippogryph-muisek": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:hippogryph-muisek-vessel": {},
  "item:hollow-vulture-bone": {},
  "item:honorary-picks": {},
  "item:horn-of-arra-chea": {},
@@ -525,6 +745,17 @@
  "item:horn-of-echeyakee": {},
  "item:huge-gnoll-claw": {},
  "item:humbert-s-sword": {},
+ "item:huntsman-malkhor-s-bones": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  }
+ },
+ "item:huntsman-malkhor-s-skull": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:hyacinth-mushroom": {},
  "item:hypercapacitor-gizmo": {},
  "item:icoke-prize-voucher": {},
@@ -543,6 +774,7 @@
    "3": 1
   }
  },
+ "item:insect-analysis-report": {},
  "item:intact-raptor-horn": {},
  "item:intrepid-strongbox-key": {},
  "item:invisibility-liquor": {},
@@ -552,11 +784,22 @@
  "item:iron-shaft": {},
  "item:ironband-s-progress-report": {},
  "item:ironforge-mint": {},
+ "item:ironfur-liver": {},
  "item:ishamuhale-s-fang": {},
  "item:ivar-s-head": {},
  "item:iverron-s-antidote-item": {},
  "item:jade-phial": {},
  "item:jennea-s-flask": {},
+ "item:jer-kai-s-signet-ring": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:jeweled-pendant": {
+  "faq": {
+   "3": 1
+  }
+ },
  "item:jitters-completed-journal": {
   "faq": {
    "2": 1,
@@ -570,15 +813,37 @@
    "3": 1
   }
  },
+ "item:jon-jon-s-golden-spyglass": {},
  "item:jordan-s-ore-shipment": {},
  "item:jordan-s-refined-ore-shipment": {},
  "item:jordan-s-smithing-hammer": {},
+ "item:jungle-remedy": {},
+ "item:jungle-stalker-feather": {},
  "item:kadrak-s-flag": {},
+ "item:karnitol-s-satchel": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
  "item:keg-of-shindigger-stout": {},
  "item:ken-zigla-s-draught": {},
+ "item:khan-dez-hepah-s-head": {},
+ "item:khan-jehn-s-head": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "item:khan-shaka-s-head": {
+  "faq": {
+   "3": 1
+  }
+ },
  "item:khazgorm-s-journal": {},
  "item:klaven-mortwake-s-journal": {},
+ "item:kodo-bone": {},
  "item:kodo-horn": {},
+ "item:kodo-kombobulator": {},
  "item:kodo-liver": {},
  "item:kodobane-s-head": {},
  "item:kravel-s-crate": {},
@@ -588,7 +853,12 @@
    "2": 1,
    "3": 1
   },
-  "summary": "Along the Southfury River, Kron’s amulet recalls a young orc hunter who went missing."
+  "summary": "Along the Southfury River, Kron\u2019s amulet recalls a young orc hunter who went missing."
+ },
+ "item:kurzen-s-head": {
+  "faq": {
+   "5": 1
+  }
  },
  "item:kuz-s-skull": {},
  "item:laced-pumpkin": {
@@ -596,13 +866,21 @@
    "3": 1
   }
  },
+ "item:laden-dew-gland": {},
  "item:laird-s-response": {},
  "item:lake-creeper-moss": {},
  "item:lake-skulker-moss": {},
  "item:large-candle": {},
  "item:large-soran-ruk-fragment": {},
+ "item:large-stone-slab": {},
  "item:laughing-sister-s-hair": {},
+ "item:leftwitch-s-package": {},
  "item:legacy-of-the-aspects": {},
+ "item:letter-of-commendation": {
+  "faq": {
+   "3": 1
+  }
+ },
  "item:letter-to-delgren": {},
  "item:letter-to-ello": {
   "faq": {
@@ -633,7 +911,14 @@
    "4": 1
   }
  },
+ "item:lookout-s-spyglass": {},
  "item:lorgalis-manuscript": {},
+ "item:lotwil-s-shackles-of-elemental-binding": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
  "item:lunar-fungus": {},
  "item:lurker-venom": {},
  "item:lydon-s-toxin": {},
@@ -641,27 +926,65 @@
  "item:mackreel-s-moonshine": {},
  "item:maggot-eye-s-paw": {},
  "item:maggran-s-reserve-letter": {},
+ "item:magma-core-classic": {},
+ "item:maiden-s-folly-charts": {},
+ "item:maiden-s-folly-log": {},
+ "item:malem-pendant": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:mangy-claw": {},
+ "item:maraudine-key-fragment": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "summary": "The Maraudine Key Fragment is held by Khan Hratha in Desolace. The Gelkis and Magram seek it in their struggle against the Maraudine."
+ },
+ "item:margol-s-gigantic-horn": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
  "item:marshal-haggard-s-badge": {},
  "item:mary-s-looking-glass": {},
  "item:mathystra-relic": {},
+ "item:maury-s-clubbed-foot": {
+  "faq": {
+   "3": 1
+  }
+ },
+ "item:maury-s-key": {},
  "item:melenas-head": {},
  "item:menethil-statuette": {
   "faq": {
    "4": 1
   }
  },
+ "item:meridith-s-love-letter": {
+  "faq": {
+   "5": 1
+  }
+ },
  "item:merrin-s-letter": {},
  "item:middle-of-gelkak-s-key": {},
  "item:milly-s-harvest": {},
+ "item:mind-s-eye": {},
  "item:miners-gear": {},
  "item:miners-union-card": {},
+ "item:miniaturization-residue": {},
  "item:minshina-s-skull": {
   "faq": {
    "4": 1
   }
  },
+ "item:mirefin-head": {
+  "summary": "In northern Dustwallow Marsh, Mudcrush Durtfeet asks you to bring him food. He favors murloc heads for their fishy taste."
+ },
  "item:mirror-lake-water-sample": {},
+ "item:miscellaneous-goblin-supplies": {},
  "item:mist-veil-s-lockbox": {},
  "item:mo-grosh-crystal": {},
  "item:modr-fragment": {
@@ -670,6 +993,7 @@
   }
  },
  "item:moldy-tome": {},
+ "item:monstrous-crawler-leg": {},
  "item:moonpetal-lily": {},
  "item:moonstalker-fang": {},
  "item:moonwell-water-tube": {},
@@ -685,12 +1009,15 @@
   ],
   "summary": "Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation."
  },
+ "item:muddy-note": {},
  "item:mudsnout-blossom": {},
  "item:mudsnout-composite": {},
  "item:mudsnout-mixture": {},
  "item:murloc-head": {},
  "item:musquash-root": {},
+ "item:mysterious-artifact-searing-gorge": {},
  "item:mysterious-fossil": {},
+ "item:mysterious-relic": {},
  "item:nak-s-skull": {},
  "item:nek-rosh-s-head": {},
  "item:neru-fragment": {
@@ -705,6 +1032,8 @@
    "3": 1
   }
  },
+ "item:nether-wing": {},
+ "item:nezzliok-s-head": {},
  "item:ng-5": {},
  "item:nida-s-necklace": {},
  "item:nightmare-shard": {
@@ -717,6 +1046,11 @@
    "3": 1
   }
  },
+ "item:nimboya-s-pike": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:nissa-s-remains": {},
  "item:nitroglycerin": {},
  "item:nondescript-letter": {},
@@ -727,8 +1061,18 @@
    "4": 1
   }
  },
+ "item:oathstone-of-ysera-s-dragonflight": {
+  "faq": {
+   "1": 1,
+   "3": 1,
+   "4": 1
+  },
+  "summary": "The Oathstone of Ysera's Dragonflight carries Itharius's words about Eranikus. It calls you to a choice in the Swamp of Sorrows."
+ },
  "item:ogre-s-monocle": {},
  "item:okra": {},
+ "item:or-kalar-s-head": {},
+ "item:oracle-crystal": {},
  "item:ordanus-head": {
   "faq": {
    "4": 1
@@ -739,8 +1083,10 @@
    "4": 1
   }
  },
+ "item:orwin-s-shovel": {},
  "item:oslow-s-toolbox": {},
  "item:osric-s-crate": {},
+ "item:overdue-package": {},
  "item:package-of-empty-ooze-containers": {},
  "item:painted-gnoll-armband": {},
  "item:panther-cage-key": {},
@@ -750,6 +1096,13 @@
   }
  },
  "item:partially-filled-vessel": {},
+ "item:paw-of-sin-dall": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  },
+  "summary": "Ajeck Rouack asks you to track Sin'Dall, an elusive tiger in Stranglethorn Vale, and bring back proof of the hunt."
+ },
  "item:pendant-of-shadow": {
   "faq": {
    "3": 1,
@@ -758,6 +1111,7 @@
  },
  "item:pendant-of-the-sea-lion": {},
  "item:perenolde-tiara": {},
+ "item:pestlezugg-s-un-goro-report": {},
  "item:phial-of-scrying": {},
  "item:piece-of-krom-zar-s-banner": {},
  "item:plainstrider-beak": {},
@@ -773,6 +1127,7 @@
  "item:prairie-alpha-tooth": {},
  "item:prairie-wolf-heart": {},
  "item:prairie-wolf-paw": {},
+ "item:prayer-to-elune": {},
  "item:pridewing-venom-sac": {},
  "item:prismatic-punch-card": {
   "faq": {
@@ -782,8 +1137,16 @@
    "laundry"
   ]
  },
+ "item:pristine-crawler-leg": {},
  "item:pristine-spider-silk": {},
+ "item:pristine-tigress-fang": {},
  "item:prowler-claws": {},
+ "item:pulsing-blue-shard": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "item:pupellyverbos-port": {},
  "item:pure-hearts": {},
  "item:purified-kor-gem": {},
  "item:putrid-claw": {},
@@ -794,9 +1157,20 @@
   }
  },
  "item:quinn-s-potion": {},
+ "item:rackmore-s-golden-key": {},
+ "item:rackmore-s-silver-key": {
+  "summary": "Rackmore\u2019s Silver Key is lost among the makrura of Desolace. It is sought by those looking for Rackmore\u2019s hidden treasure."
+ },
+ "item:rage-scar-yeti-hide": {},
  "item:ran-bloodtooth-s-skull": {},
+ "item:ransom-letter": {
+  "faq": {
+   "5": 1
+  }
+ },
  "item:raptor-head": {},
  "item:rare-earth": {},
+ "item:raschal-s-report": {},
  "item:rattlecage-skull": {},
  "item:raven-claw-talisman": {},
  "item:razorflank-s-medallion": {},
@@ -823,10 +1197,23 @@
  },
  "item:resonite-crystal": {},
  "item:restabilization-cog": {},
+ "item:rin-ji-s-secret-quest-item": {},
  "item:ring-of-zoram": {},
  "item:robo-mechanical-guts": {},
+ "item:roc-gizzard": {
+  "summary": "Roc Gizzards come from the rocs of Tanaris. In the Hinterlands, Rhapsody Shindigger needs three for a strong drink."
+ },
+ "item:rock-elemental-shard": {},
  "item:rocket-car-parts": {},
  "item:rod-of-channeling": {},
+ "item:rokaro-s-letter": {
+  "faq": {
+   "4": 1,
+   "5": 1,
+   "6": 1
+  },
+  "summary": "Rokaro\u2019s Letter carries a request from Shadowprey Village to Myranda the Hag in the Western Plaguelands. Rokaro hopes her skill with disguise can help against the Black Dragonflight."
+ },
  "item:rolf-and-malakai-s-medallions": {
   "faq": {
    "1": 1,
@@ -834,6 +1221,7 @@
   },
   "summary": "In eastern Elwynn, Rolf and Malakai's Medallions bear the realm's insignia, though their owners vanished on patrol. Guard Thomas seeks the tokens to learn what became of his men."
  },
+ "item:roon-s-kodo-horn": {},
  "item:rot-blossom": {},
  "item:rot-hide-ichor": {},
  "item:rough-quartz": {},
@@ -843,6 +1231,7 @@
  "item:rune-inscribed-tablet": {},
  "item:rune-of-nesting": {},
  "item:runes-of-summoning": {},
+ "item:ryedol-s-lucky-pick": {},
  "item:sack-of-murloc-heads": {},
  "item:sack-of-supplies": {},
  "item:salty-scorpid-venom": {},
@@ -852,6 +1241,7 @@
   }
  },
  "item:samophlange-manual": {},
+ "item:sample-elven-gem": {},
  "item:sample-ichor": {},
  "item:sample-of-zanzil-s-altered-mixture": {},
  "item:sample-snapjaw-shell": {},
@@ -878,6 +1268,7 @@
  },
  "item:satyr-horns": {},
  "item:savannah-lion-tusk": {},
+ "item:sawtooth-snapper-claw": {},
  "item:scaber-stalk": {},
  "item:scale-of-old-murk-eye": {},
  "item:scarlet-armband": {},
@@ -885,10 +1276,29 @@
  "item:scarlet-insignia-ring": {},
  "item:scavenged-goods": {},
  "item:scavenger-paw": {},
+ "item:sceptre-of-light": {},
+ "item:scorched-ectoplasm": {},
  "item:scorched-spider-fang": {},
+ "item:scorpashi-venom": {},
+ "item:scrap-metal-scrounging": {},
+ "item:scrimshank-s-surveying-gear": {
+  "summary": "Scrimshank's Surveying Gear lies beneath the sands of Tanaris, in the Gaping Chasm. Senior Surveyor Fizzledowser needs its findings to investigate the strange bugs in the desert."
+ },
  "item:scroll-of-messaging": {},
+ "item:scroll-of-myzrael": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  },
+  "summary": "The Scroll of Myzrael is used at the Shards of Myzrael in the Arathi Highlands to call her forth again."
+ },
  "item:sea-creature-bones": {},
  "item:sea-turtle-remains": {},
+ "item:seahorn-s-sealed-letter": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:sealed-description-of-thredd-s-visitor": {
   "faq": {
    "2": 2,
@@ -900,8 +1310,17 @@
   ]
  },
  "item:sealed-envelope": {},
+ "item:sealed-letter-to-archmage-malin": {
+  "faq": {
+   "2": 1,
+   "3": 1
+  },
+  "summary": "The sealed letter carries word from Arathi Highlands to Archmage Malin in Stormwind. Malin receives news from companions there."
+ },
+ "item:sealed-note-to-advisor-belgrum": {},
  "item:sealed-note-to-elling": {},
  "item:sealed-note-to-watcher-backus": {},
+ "item:sealed-venom-container": {},
  "item:searing-collar": {},
  "item:searing-coral": {},
  "item:secure-crate": {},
@@ -918,17 +1337,67 @@
  "item:serpentbloom": {},
  "item:sethir-s-journal": {},
  "item:sevren-s-orders": {},
+ "item:shackle-key-stranglethorn-vale": {},
+ "item:shackle-key-the-hinterlands": {},
+ "item:shadow-hunter-knife": {},
  "item:shadowhide-pendant": {},
+ "item:shadowmaw-claw": {},
+ "item:shadowstalker-scalp": {},
+ "item:shadra-s-venom": {},
  "item:shaman-voodoo-charm": {},
  "item:shard-of-water": {},
+ "item:sharpbeak-s-feather": {},
  "item:shaw-s-report": {},
+ "item:shay-s-bell": {},
+ "item:sheathed-trol-kalar": {},
+ "item:shellfish": {},
  "item:shimmering-frond": {},
  "item:shimmerweed": {},
  "item:shindrell-s-note": {},
  "item:shipment-of-boots": {},
  "item:shipment-of-iron": {},
+ "item:shipment-to-nethergarde": {},
  "item:shipping-schedule": {},
+ "item:shrunken-head": {},
  "item:sida-s-bag": {},
+ "item:sigil-fragment": {
+  "faq": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "item:sigil-of-arathor": {},
+ "item:sigil-of-ignaeus": {
+  "faq": {
+   "3": 1,
+   "5": 1
+  },
+  "summary": "The Sigil of Ignaeus is formed from four ancient sigils in Hammerfall. Its light can open the way through the wardings on Trollbane's tomb."
+ },
+ "item:sigil-of-strom": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:sigil-of-the-hammer": {},
+ "item:sigil-of-thoradin": {
+  "faq": {
+   "3": 1
+  },
+  "summary": "The Sigil of Thoradin is a restored seal tied to Trollbane's tomb in Arathi Highlands. Zengu at Hammerfall needs it to help open the tomb."
+ },
+ "item:sigil-of-trollbane": {
+  "faq": {
+   "1": 2,
+   "5": 1
+  },
+  "summary": "Prince Galen Trollbane keeps the Sigil of Trollbane within Stromgarde. Zengu in Hammerfall seeks it, and you must face the prince to claim it."
+ },
+ "item:sign-of-the-earth": {
+  "faq": {
+   "3": 1
+  }
+ },
  "item:signed-recruitment-letter": {},
  "item:silithid-egg-the-barrens": {},
  "item:silixiz-s-tower-key": {
@@ -937,22 +1406,59 @@
   }
  },
  "item:silver-dawning-s-lockbox": {},
+ "item:silvermane-stalker-flank": {},
  "item:silvery-spinnerets": {},
  "item:simple-memorandum": {},
  "item:simple-rune": {},
  "item:simple-sigil": {},
  "item:simple-tablet": {},
  "item:singed-scale": {},
+ "item:singed-scroll-fragment": {},
+ "item:singing-blue-crystal": {},
+ "item:singing-crystal-shard": {},
  "item:skeleton-finger": {},
+ "item:skeleton-key-mold": {},
  "item:skin-of-sweet-rum": {},
  "item:skittering-blood": {},
+ "item:skullsplitter-fetish": {},
+ "item:skullsplitter-tusk": {},
+ "item:skylord-plume": {},
+ "item:slagtree-s-lost-tools": {
+  "faq": {
+   "2": 1,
+   "5": 1
+  },
+  "summary": "Slagtree\u2019s Lost Tools are a stolen set of smithing tools sought by Smith Slagtree in Revantusk Village. He asks you to search for them after Vilebranch trolls invade the village."
+ },
  "item:sleepers-key": {},
+ "item:small-brass-key": {
+  "faq": {
+   "4": 1
+  },
+  "summary": "The Small Brass Key is hidden in a ledger book at Kurzen\u2019s Compound. It may fit a strongbox in the Stockpile."
+ },
+ "item:small-stone-shard": {},
+ "item:smithing-tuyere": {},
  "item:smoky-iron-ingot": {},
  "item:smoldering-embers": {},
+ "item:smotts-cutlass": {
+  "faq": {
+   "2": 1,
+   "4": 1
+  },
+  "summary": "Captain Smotts wants his cutlass back in Stranglethorn Vale. He asks you to bring wine and Barbecued Buzzard Wings to his old lifeboat on the coast."
+ },
+ "item:snapshot-of-gammerita": {},
  "item:snellig-s-snuffbox": {},
  "item:snufflenose-command-stick": {},
  "item:snufflenose-owner-s-manual": {},
  "item:sodium-nitrate": {},
+ "item:soft-shelled-clam-meat": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:solid-crystal-leg-shaft": {},
  "item:solomon-s-plea-to-darkshire": {
   "faq": {
    "4": 1
@@ -967,12 +1473,40 @@
  },
  "item:spectral-comb": {},
  "item:spells-of-shadow": {},
+ "item:spirit-of-silverpine-charts": {},
+ "item:spirit-of-silverpine-log": {},
+ "item:split-bone-necklace": {},
  "item:spotted-sunfish": {},
+ "item:spy-s-report": {},
+ "item:stable-ectoplasm": {},
  "item:stalker-claws": {},
+ "item:star-of-xil-yeh": {},
+ "item:stave-of-equinex": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  },
+  "summary": "The Stave of Equinex is an energized staff tied to the Equinex Monolith in Feralas. Its power is needed to open the ancient stone."
+ },
  "item:steelgrill-s-tools": {},
  "item:steelsnap-s-rib": {},
  "item:stolen-silver": {},
+ "item:stoley-s-bottle": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  },
+  "summary": "Stoley\u2019s Bottle holds Steamwheedle bilge rum, sent to Booty Bay for Sea Wolf MacKinley. MacKinley is meant to taste the rum and judge its harshness."
+ },
+ "item:stoley-s-shipment": {},
+ "item:stone-circle": {},
  "item:stone-of-relu": {},
+ "item:stone-of-the-tides": {
+  "faq": {
+   "3": 1
+  },
+  "summary": "The Stone of the Tides is an ancient Gurubashi relic coveted by Baron Revilgaz for his collection. It commands water and can summon water elementals."
+ },
  "item:stonetalon-sap": {
   "faq": {
    "2": 1
@@ -995,12 +1529,22 @@
    "4": 1
   }
  },
+ "item:sundried-driftwood": {},
  "item:sunscorched-shell": {},
  "item:super-reaper-6000-blueprints": {},
+ "item:super-snapper-fx": {},
+ "item:super-sticky-tar": {},
  "item:supplies-for-sven": {},
+ "item:supply-crate-blasted-lands": {
+  "faq": {
+   "5": 1
+  }
+ },
  "item:surena-s-choker": {},
  "item:swoop-gizzard": {},
+ "item:symbol-of-ragnaros": {},
  "item:tablet-of-verga": {},
+ "item:tablet-shard": {},
  "item:tainted-heart": {
   "faq": {
    "3": 1
@@ -1015,7 +1559,13 @@
  "item:tainted-memorandum": {},
  "item:talisman-of-corruption": {},
  "item:tallonkai-s-jewel": {},
+ "item:talon-of-tethis": {},
  "item:taming-rod": {},
+ "item:tapped-dowsing-widget": {
+  "faq": {
+   "5": 1
+  }
+ },
  "item:taragaman-the-hungerer-s-heart": {
   "faq": {
    "4": 1
@@ -1052,17 +1602,37 @@
  "item:the-book-of-ur": {},
  "item:the-collector-s-schedule": {},
  "item:the-embalmer-s-heart": {},
+ "item:the-first-troll-legend": {
+  "faq": {
+   "4": 1
+  },
+  "summary": "At Bal\u2019lal Ruins, the tablet called Moon Over the Vale bears the First Troll Legend. Brother Nimetz seeks its markings for his studies of the troll legends."
+ },
+ "item:the-fourth-troll-legend": {},
  "item:the-general-s-response": {},
+ "item:the-legacy-heart": {
+  "faq": {
+   "4": 2
+  },
+  "remove_keywords": [
+   "undying"
+  ]
+ },
  "item:the-lich-s-spellbook": {
   "faq": {
    "2": 1,
    "5": 1
   }
  },
+ "item:the-second-troll-legend": {},
  "item:the-state-of-lakeshire": {},
+ "item:the-third-troll-legend": {},
  "item:theramore-medal": {},
  "item:thick-bear-fur": {},
+ "item:thick-yeti-hide": {},
  "item:thistlenettle-s-badge": {},
+ "item:thistleshrub-dew": {},
+ "item:thorium-plated-dagger": {},
  "item:thresher-eye": {},
  "item:thule-s-head": {
   "faq": {
@@ -1090,9 +1660,12 @@
  "item:token-of-thievery": {},
  "item:tome-of-the-cabal-quest-item": {},
  "item:top-of-gelkak-s-key": {},
+ "item:tor-gan-s-orb": {},
+ "item:torch-of-retribution": {},
  "item:torch-of-the-dormant-flame": {},
  "item:torn-fin-eye": {},
  "item:torn-murloc-fin": {},
+ "item:torn-scroll-fragment": {},
  "item:totem-of-hawkwind": {},
  "item:tough-wolf-meat": {},
  "item:tourmaline-phial": {},
@@ -1109,10 +1682,21 @@
   ],
   "summary": "In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message sheds light on the hermit's dealings with the town."
  },
+ "item:trelane-s-ember-agate": {},
+ "item:trelane-s-orb": {},
+ "item:trelane-s-phylactery": {},
+ "item:trelane-s-wand-of-invocation": {},
  "item:treshala-s-pendant": {},
  "item:trogg-stone-tooth": {},
  "item:troll-charm": {},
+ "item:troll-tribal-necklace": {},
  "item:trophy-swoop-quill": {},
+ "item:troyas-stave": {
+  "faq": {
+   "5": 1
+  }
+ },
+ "item:tumbled-crystal": {},
  "item:twilight-pendant": {},
  "item:twilight-whisker": {
   "faq": {
@@ -1120,11 +1704,16 @@
   }
  },
  "item:twitching-antenna": {},
+ "item:tyranis-pendant": {},
  "item:ukor-s-burden": {},
  "item:uncloven-satyr-hoof": {},
+ "item:undamaged-venom-sac": {},
  "item:underbelly-whelp-scale": {},
+ "item:unfinished-skeleton-key": {},
  "item:unidentified-ore": {},
+ "item:unprepared-sawtooth-flank": {},
  "item:unrefined-ore-sample": {},
+ "item:untapped-dowsing-widget": {},
  "item:ur-s-treatise-on-shadow-magic": {
   "faq": {
    "4": 1
@@ -1138,6 +1727,8 @@
  },
  "item:velinde-s-journal": {},
  "item:velinde-s-key": {},
+ "item:venom-bottle-quest-item": {},
+ "item:venom-fern-extract": {},
  "item:venomtail-antidote": {},
  "item:venomtail-poison-sac": {},
  "item:venture-co-documents": {},
@@ -1148,6 +1739,7 @@
  "item:verna-s-westfall-stew-recipe": {},
  "item:verner-s-note": {},
  "item:verog-s-head": {},
+ "item:vessel-of-tainted-blood": {},
  "item:vial-of-innocent-blood": {},
  "item:vial-of-phlogiston": {},
  "item:vial-of-purest-water": {},
@@ -1155,18 +1747,30 @@
  "item:vicious-night-web-spider-venom": {},
  "item:vile-familiar-head": {},
  "item:vile-fin-scale": {},
+ "item:vimes-report": {},
+ "item:violet-powder": {},
+ "item:violet-tragan": {},
+ "item:volcanic-ash": {},
  "item:voodoo-charm": {
   "faq": {
    "4": 1
   }
  },
  "item:wailing-essence": {},
+ "item:warchief-s-orders-swamp-of-sorrows": {
+  "faq": {
+   "5": 1
+  },
+  "summary": "Warchief\u2019s Orders are a dispatch carried by a Horde force bound for the Blasted Lands. You can find them in Stagalbog Cave after murlocs ambush the force."
+ },
  "item:warsong-axe-shipment": {},
  "item:warsong-oil": {},
  "item:warsong-outrider-update": {},
  "item:warsong-runner-update": {},
  "item:warsong-saw-blades": {},
  "item:warsong-scout-update": {},
+ "item:water-elemental-bracers": {},
+ "item:water-elemental-core": {},
  "item:water-of-the-seers": {},
  "item:water-pitcher": {},
  "item:webwood-egg": {},
@@ -1190,6 +1794,9 @@
  "item:wine-ticket": {},
  "item:winterhoof-cleansing-totem": {},
  "item:witchwing-talon": {},
+ "item:witherbark-medicine-pouch": {},
+ "item:witherbark-tusk": {},
+ "item:wizards-reagents": {},
  "item:wolf-heart-sample": {},
  "item:wolf-heart-samples": {},
  "item:wood-pulp": {},
@@ -1203,12 +1810,28 @@
   }
  },
  "item:xavian-water-sample": {},
+ "item:xerash-s-herb-pouch": {},
+ "item:yagyin-s-digest": {},
+ "item:yeh-kinya-s-bramble": {},
  "item:young-crocolisk-skin": {},
  "item:yowler-s-paw": {},
  "item:zalazane-s-head": {},
  "item:zamah-s-note": {},
+ "item:zanzil-s-mixture": {
+  "faq": {
+   "4": 1
+  }
+ },
  "item:zargh-s-meats": {},
  "item:zhevra-hooves": {},
+ "item:ziata-jai-trophy": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "item:zorbin-s-ultra-shrinker": {},
+ "item:zukk-ash-carapace": {},
+ "item:zul-mamwe-trophy": {},
  "npc:abercrombie": {
   "faq": {
    "1": 2,
@@ -2101,7 +2724,7 @@
   "remove_keywords": [
    "katrana prestor"
   ],
-  "summary": "In Dustwallow Marsh, Onyxia tends her brood and schemes to bring the mortal realms under black dragonflight rule. She is Deathwing’s daughter, while her brother Nefarian gathers armies in Blackrock Spire."
+  "summary": "In Dustwallow Marsh, Onyxia tends her brood and schemes to bring the mortal realms under black dragonflight rule. She is Deathwing\u2019s daughter, while her brother Nefarian gathers armies in Blackrock Spire."
  },
  "npc:orendil-broadleaf": {},
  "npc:orenthil-whisperwind": {},

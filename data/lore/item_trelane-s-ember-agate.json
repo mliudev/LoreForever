@@ -1,0 +1,82 @@
+{
+ "key": "item:trelane-s-ember-agate",
+ "type": "item",
+ "name": "Trelane's Ember Agate",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Trelane's Ember Agate",
+  "quests": [
+   "quest:696"
+  ]
+ },
+ "summary": "Trelane's Ember Agate is kept in a chest within a tower in Arathi Highlands. Skuerto at Refuge Pointe seeks it alongside two other relics belonging to Trelane.",
+ "sections": [
+  {
+   "title": "The Agate",
+   "body": "Within the tower in Arathi Highlands, Trelane's Ember Agate rests in a chest. Skuerto at Refuge Pointe asks you to recover it with Trelane's Orb and Trelane's Phylactery. Ogres guard the tower, so the search is not without danger.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Trelane's Ember Agate?",
+   "aliases": [
+    "ember agate location",
+    "where agate",
+    "trelane agate"
+   ],
+   "answer": "Trelane's Ember Agate is in a chest within a tower in Arathi Highlands."
+  },
+  {
+   "q": "Who wants the Ember Agate?",
+   "aliases": [
+    "who wants agate",
+    "skuerto agate",
+    "return agate to who"
+   ],
+   "answer": "Skuerto at Refuge Pointe asks you to bring back Trelane's Ember Agate, along with Trelane's Orb and Trelane's Phylactery."
+  },
+  {
+   "q": "What else is in the tower?",
+   "aliases": [
+    "other items tower",
+    "trelane relics",
+    "orb and phylactery"
+   ],
+   "answer": "Trelane's Orb and Trelane's Phylactery are also sought from chests in the tower."
+  },
+  {
+   "q": "What guards the tower?",
+   "aliases": [
+    "tower guards",
+    "ogres in tower",
+    "trelane tower danger"
+   ],
+   "answer": "Ogres guard the tower where Trelane's Ember Agate is kept."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "attack on the tower",
+  "ember agate",
+  "refuge pointe",
+  "skuerto",
+  "trelane",
+  "trelane's ember agate"
+ ],
+ "related": [
+  "quest:696",
+  "item:trelane-s-orb",
+  "item:trelane-s-phylactery",
+  "npc:skuerto",
+  "zone:arathi",
+  "subzone:refuge-pointe"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Trelane's Ember Agate",
+  "Attack on the Tower (Classic)"
+ ]
+}

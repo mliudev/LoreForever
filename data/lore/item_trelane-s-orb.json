@@ -1,0 +1,83 @@
+{
+ "key": "item:trelane-s-orb",
+ "type": "item",
+ "name": "Trelane's Orb",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Trelane's Orb",
+  "quests": [
+   "quest:696"
+  ]
+ },
+ "summary": "In the ogre-held tower in Arathi Highlands, Trelane\u2019s Orb is one of three objects Skuerto asks you to recover. It is kept in a chest alongside Trelane\u2019s Phylactery and Trelane\u2019s Ember Agate.",
+ "sections": [
+  {
+   "title": "The Tower Chest",
+   "body": "Skuerto at Refuge Pointe sends you to the tower in Arathi Highlands for Trelane\u2019s Orb and two other objects. The orb is kept in a chest within the tower. Ogres guard the place, so Skuerto warns you to be ready if they discover you among their chests.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Trelane\u2019s Orb?",
+   "aliases": [
+    "orb location",
+    "where orb",
+    "trelane orb chest"
+   ],
+   "answer": "Trelane\u2019s Orb is in a chest inside the tower in Arathi Highlands."
+  },
+  {
+   "q": "Who wants Trelane\u2019s Orb?",
+   "aliases": [
+    "who wants orb",
+    "skuerto orb",
+    "who do i take it to"
+   ],
+   "answer": "Skuerto at Refuge Pointe asks you to recover Trelane\u2019s Orb and bring it back."
+  },
+  {
+   "q": "What else is in the tower?",
+   "aliases": [
+    "other tower items",
+    "trelane items",
+    "what else to find"
+   ],
+   "answer": "Trelane\u2019s Phylactery and Trelane\u2019s Ember Agate are also kept in chests within the tower."
+  },
+  {
+   "q": "Who guards the tower?",
+   "aliases": [
+    "tower guards",
+    "ogres there",
+    "what's in the tower"
+   ],
+   "answer": "Ogres guard the tower in Arathi Highlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "ogres",
+  "orb",
+  "refuge pointe",
+  "skuerto",
+  "tower",
+  "trelane",
+  "trelane's orb"
+ ],
+ "related": [
+  "quest:696",
+  "item:trelane-s-phylactery",
+  "item:trelane-s-ember-agate",
+  "npc:skuerto",
+  "zone:arathi",
+  "subzone:refuge-pointe"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Trelane's Orb",
+  "Attack on the Tower (Classic)"
+ ]
+}

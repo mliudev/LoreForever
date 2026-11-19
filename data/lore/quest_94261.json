@@ -1,0 +1,96 @@
+{
+ "key": "quest:94261",
+ "type": "quest",
+ "name": "Craftsman's Writ: Great Rage Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94261
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ in Moonglade requests one Great Rage Potion. Its customer says the potion is needed for secluded rituals among experienced druids in Nighthaven.",
+ "sections": [
+  {
+   "title": "A Writ in Moonglade",
+   "body": "A customer in Moonglade asks you to bring a Great Rage Potion to the marked location. The writ can be transferred, and it must be with you to complete the exchange. The customer offers no delivery place or payment in the note itself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rituals in Nighthaven",
+   "body": "The customer says some experienced druids in Nighthaven take part in violent rituals apart from the rest of the grove. A Great Rage Potion helps them overcome the tranquility they have worked to master. In this grove, the customer sees rage as part of keeping balance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "great rage potion writ",
+    "what potion is wanted"
+   ],
+   "answer": "The writ asks for one Great Rage Potion and refers to delivery and payment information."
+  },
+  {
+   "q": "Where do I take the potion?",
+   "aliases": [
+    "writ delivery place",
+    "where to deliver it"
+   ],
+   "answer": "The writ directs you to the location marked on your map."
+  },
+  {
+   "q": "Why is a Great Rage Potion wanted?",
+   "aliases": [
+    "why rage potion",
+    "what is it for"
+   ],
+   "answer": "The customer says some experienced druids in Nighthaven use it to overcome their tranquility during secluded violent rituals."
+  },
+  {
+   "q": "Who uses the potion?",
+   "aliases": [
+    "who wants rage potion",
+    "druids potion"
+   ],
+   "answer": "The customer says some experienced druids in Nighthaven use a Great Rage Potion as part of their secluded rituals."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "transferable writ",
+    "can i give writ away"
+   ],
+   "answer": "Yes. The writ says it is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need writ in inventory",
+    "writ required"
+   ],
+   "answer": "Yes. The writ must be in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "druids",
+  "great rage potion",
+  "moonglade",
+  "nighthaven",
+  "rage",
+  "rituals"
+ ],
+ "related": [
+  "quest:5921",
+  "subzone:nighthaven",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Great Rage Potion"
+ ]
+}

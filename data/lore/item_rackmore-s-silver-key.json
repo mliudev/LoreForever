@@ -1,0 +1,91 @@
+{
+ "key": "item:rackmore-s-silver-key",
+ "type": "item",
+ "name": "Rackmore's Silver Key",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Rackmore's Silver Key",
+  "quests": [
+   "quest:6161"
+  ]
+ },
+ "summary": "Rackmore\u2019s Silver Key is one of two keys needed to open a hidden chest on Ranazjar Isle. It is lost among the makrura of Desolace.",
+ "sections": [
+  {
+   "title": "The Lost Key",
+   "body": "Rackmore\u2019s log tells how his ship was bound for Feathermoon Stronghold when seafaring creatures attacked. To keep his treasure from enemy hands, he hid the chest on Ranazjar Isle. The silver key was lost, and the chest remains locked until it is found with its golden counterpart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Rackmore\u2019s Silver Key open?",
+   "aliases": [
+    "silver key purpose",
+    "what key open",
+    "rackmore key"
+   ],
+   "answer": "Rackmore\u2019s Silver Key is one of two keys needed to open Rackmore\u2019s Chest on Ranazjar Isle. The golden key is the other."
+  },
+  {
+   "q": "Where can I find Rackmore\u2019s Silver Key?",
+   "aliases": [
+    "silver key location",
+    "where key",
+    "find rackmore silver key"
+   ],
+   "answer": "Drysnap Pincers and Drysnap Crawlers in Desolace carry Rackmore\u2019s Silver Key."
+  },
+  {
+   "q": "Who was Rackmore?",
+   "aliases": [
+    "rackmore backstory",
+    "who rackmore",
+    "rackmore"
+   ],
+   "answer": "Rackmore was the owner of a treasure chest hidden on Ranazjar Isle after his ship was attacked."
+  },
+  {
+   "q": "Why is Rackmore\u2019s treasure hidden?",
+   "aliases": [
+    "why chest hidden",
+    "rackmore treasure why",
+    "hidden treasure"
+   ],
+   "answer": "Rackmore hid his chest on Ranazjar Isle to keep its treasure from falling into the hands of the creatures that attacked his ship."
+  },
+  {
+   "q": "What happened to Rackmore\u2019s ship?",
+   "aliases": [
+    "ship attacked",
+    "rackmore ship",
+    "what happened ship"
+   ],
+   "answer": "Rackmore\u2019s log says seafaring creatures attacked his ship while it was sailing for Feathermoon Stronghold."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "drysnap crawler",
+  "drysnap pincer",
+  "golden key",
+  "rackmore",
+  "rackmore's chest",
+  "rackmore's silver key",
+  "ranazjar isle",
+  "silver key"
+ ],
+ "related": [
+  "quest:6161",
+  "item:rackmore-s-golden-key",
+  "zone:desolace",
+  "subzone:feathermoon-stronghold-classic"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Rackmore's Silver Key",
+  "Claim Rackmore's Treasure!"
+ ]
+}

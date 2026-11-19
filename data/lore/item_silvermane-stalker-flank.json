@@ -1,0 +1,90 @@
+{
+ "key": "item:silvermane-stalker-flank",
+ "type": "item",
+ "name": "Silvermane Stalker Flank",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Silvermane Stalker Flank",
+  "quests": [
+   "quest:4297"
+  ]
+ },
+ "summary": "Silvermane Stalker Flanks are raw meat Agnar Beastamer seeks in the Hinterlands. He needs them to feed a Sprite Darter hatchling.",
+ "sections": [
+  {
+   "title": "A First Meal",
+   "body": "Agnar Beastamer is preparing for the egg to hatch, and worries the young Sprite Darter may not survive without a good first meal. He asks you to bring five Silvermane Stalker Flanks. The meat is meant for the hatchling when it emerges.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Silvermane Stalker Flanks?",
+   "aliases": [
+    "who needs the flanks",
+    "agnar's meat",
+    "who wants this meat"
+   ],
+   "answer": "Agnar Beastamer in the Hinterlands wants five Silvermane Stalker Flanks to feed a Sprite Darter hatchling."
+  },
+  {
+   "q": "What are the flanks for?",
+   "aliases": [
+    "why the meat",
+    "baby sprite food",
+    "what's this flank for"
+   ],
+   "answer": "Agnar plans to feed the raw meat to a Sprite Darter when its egg hatches."
+  },
+  {
+   "q": "How many flanks does Agnar need?",
+   "aliases": [
+    "how many pieces",
+    "five flanks",
+    "amount of meat"
+   ],
+   "answer": "Agnar Beastamer asks you to bring five Silvermane Stalker Flanks."
+  },
+  {
+   "q": "Where do Silvermane Stalker Flanks come from?",
+   "aliases": [
+    "where to find flanks",
+    "stalker meat",
+    "silvermane flank source"
+   ],
+   "answer": "Silvermane Stalker Flanks come from Silvermane Stalkers in the Hinterlands."
+  },
+  {
+   "q": "What does a Sprite Darter eat?",
+   "aliases": [
+    "sprite darter diet",
+    "what do darters eat",
+    "baby dragon food"
+   ],
+   "answer": "Sprite Darters eat both meat and vegetation. Agnar asks for raw Silvermane Stalker Flanks as a first meal for the hatchling."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agn ar beastamer",
+  "agnarbeastamer",
+  "food for baby",
+  "hinterlands",
+  "raw meat",
+  "silvermane stalker",
+  "silvermane stalker flank",
+  "sprite darter"
+ ],
+ "related": [
+  "quest:4297",
+  "quest:2969",
+  "zone:hinterlands",
+  "npc:sprite-darter"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Silvermane Stalker Flank",
+  "Food for Baby"
+ ]
+}

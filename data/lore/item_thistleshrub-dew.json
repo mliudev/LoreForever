@@ -1,0 +1,81 @@
+{
+ "key": "item:thistleshrub-dew",
+ "type": "item",
+ "name": "Thistleshrub Dew",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Thistleshrub Dew",
+  "quests": [
+   "quest:2606"
+  ]
+ },
+ "summary": "In Gadgetzan, Thistleshrub Dew leaves Marin Noggenfogger with a bitter taste and a new idea. He sends it to Sprinkle, hoping she can make the concoction easier to drink.",
+ "sections": [
+  {
+   "title": "A Bitter Taste",
+   "body": "Marin Noggenfogger has tried the Thistleshrub Dew, and it tastes terrible. Rather than abandon the idea, he asks you to take it to Sprinkle, his friend in Gadgetzan. She is an excellent chef, and Marin hopes she can give the drink some kick.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Thistleshrub Dew for?",
+   "aliases": [
+    "thistleshrub dew use",
+    "what's the dew for"
+   ],
+   "answer": "Marin Noggenfogger wants Sprinkle to use the dew to make his unpleasant concoction easier to drink."
+  },
+  {
+   "q": "Why does Marin want Sprinkle's help?",
+   "aliases": [
+    "why sprinkle",
+    "marin needs help"
+   ],
+   "answer": "Marin finds the concoction tastes terrible and thinks Sprinkle, an excellent chef, can improve it."
+  },
+  {
+   "q": "Who is Sprinkle?",
+   "aliases": [
+    "sprinkle gadgetzan",
+    "who's sprinkle"
+   ],
+   "answer": "Sprinkle is a chef in Gadgetzan and a friend of Marin Noggenfogger."
+  },
+  {
+   "q": "Where does Thistleshrub Dew go?",
+   "aliases": [
+    "dew delivery",
+    "where to take dew"
+   ],
+   "answer": "Marin asks you to take the Thistleshrub Dew to Sprinkle in Gadgetzan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can see why Marin turns to Sprinkle: he hopes her skill will make the bitter concoction easier to drink."
+  }
+ ],
+ "keywords": [
+  "bitter concoction",
+  "cooking",
+  "gadgetzan",
+  "marin noggenfogger",
+  "sprinkle",
+  "thistleshrub dew"
+ ],
+ "related": [
+  "quest:2606",
+  "quest:2605",
+  "quest:2641",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Thistleshrub Dew",
+  "In Good Taste"
+ ]
+}

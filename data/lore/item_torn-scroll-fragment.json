@@ -1,0 +1,91 @@
+{
+ "key": "item:torn-scroll-fragment",
+ "type": "item",
+ "name": "Torn Scroll Fragment",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Torn Scroll Fragment",
+  "quests": [
+   "quest:692"
+  ]
+ },
+ "summary": "A Torn Scroll Fragment is one piece of the Scroll of Myzrael, sought by Theldurin the Lost in the Badlands. He fears Myzrael may be free, and believes the scroll could help contain her.",
+ "sections": [
+  {
+   "title": "A Lost Piece",
+   "body": "Theldurin the Lost needs the Torn Scroll Fragment along with two other pieces to mend the Scroll of Myzrael. Enraged Rock Elementals in the hills behind him carry the fragments, which they tore from the destroyed scroll and now fight over. Theldurin hopes the repaired scroll can help contain Myzrael.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Torn Scroll Fragment?",
+   "aliases": [
+    "torn fragment",
+    "scroll piece",
+    "torn scroll bit"
+   ],
+   "answer": "The Torn Scroll Fragment is one of three pieces of the destroyed Scroll of Myzrael. Theldurin the Lost is trying to gather them so he can mend the scroll."
+  },
+  {
+   "q": "Who wants this fragment?",
+   "aliases": [
+    "who needs torn fragment",
+    "theldurin fragment",
+    "give fragment to who"
+   ],
+   "answer": "Theldurin the Lost wants the Torn Scroll Fragment, along with the Crumpled Scroll Fragment and Singed Scroll Fragment."
+  },
+  {
+   "q": "Where did the scroll fragments come from?",
+   "aliases": [
+    "why fragments",
+    "who tore scroll",
+    "scroll destroyed"
+   ],
+   "answer": "Enraged elementals stole the Scroll of Myzrael and tore it into pieces. They now fight over the fragments."
+  },
+  {
+   "q": "Why does Theldurin need the Scroll of Myzrael?",
+   "aliases": [
+    "why theldurin wants scroll",
+    "myzrael scroll purpose",
+    "trap myzrael"
+   ],
+   "answer": "Theldurin fears Myzrael may be free and gathering strength. He believes the Scroll of Myzrael may be needed to trap her again."
+  },
+  {
+   "q": "Which elementals carry the fragments?",
+   "aliases": [
+    "where torn fragment",
+    "what elemental drops it",
+    "badlands scroll pieces"
+   ],
+   "answer": "Enraged Rock Elementals in the hills behind Theldurin carry the scroll fragments."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "enraged rock elemental",
+  "myzrael",
+  "scroll fragments",
+  "scroll of myzrael",
+  "theldurin the lost",
+  "torn scroll fragment"
+ ],
+ "related": [
+  "quest:692",
+  "item:scroll-of-myzrael",
+  "npc:theldurin-the-lost",
+  "item:crumpled-scroll-fragment",
+  "item:singed-scroll-fragment",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Torn Scroll Fragment",
+  "The Lost Fragments"
+ ]
+}

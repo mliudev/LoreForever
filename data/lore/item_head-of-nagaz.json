@@ -1,0 +1,95 @@
+{
+ "key": "item:head-of-nagaz",
+ "type": "item",
+ "name": "Head of Nagaz",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Head of Nagaz",
+  "quests": [
+   "quest:537"
+  ]
+ },
+ "summary": "Nagaz\u2019s head is proof that Magistrate Maleb\u2019s search in the Alterac Mountains reached the Argus Wake. Maleb fears the group may threaten the Syndicate.",
+ "sections": [
+  {
+   "title": "Proof for Maleb",
+   "body": "In the Uplands north of Strahnbrad, Nagaz leads the Argus Shadow Mages named in a letter brought to Magistrate Maleb. Maleb suspects the Argus Wake has joined forces with the Syndicate. Nagaz\u2019s head gives Southshore proof that the envoys have been found.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Nagaz?",
+   "aliases": [
+    "who is nagaz",
+    "nagaz guy"
+   ],
+   "answer": "Nagaz was a member of the Argus Wake and led Argus Shadow Mages in the Uplands."
+  },
+  {
+   "q": "Where can I find Nagaz?",
+   "aliases": [
+    "nagaz location",
+    "where nagaz"
+   ],
+   "answer": "Nagaz is in the Uplands of the Alterac Mountains, north of Strahnbrad."
+  },
+  {
+   "q": "Why does Magistrate Maleb want Nagaz\u2019s head?",
+   "aliases": [
+    "why head of nagaz",
+    "maleb wants head"
+   ],
+   "answer": "Magistrate Maleb wants proof that Nagaz and the Argus Shadow Mages are in the Uplands, where he fears the Argus Wake may threaten the Syndicate."
+  },
+  {
+   "q": "What is the Argus Wake?",
+   "aliases": [
+    "argus wake meaning",
+    "who are argus wake"
+   ],
+   "answer": "The Argus Wake is a group whose member Nagaz wrote to the Syndicate. Maleb fears its alliance with the Syndicate may pose a threat."
+  },
+  {
+   "q": "What are the Argus Shadow Mages doing?",
+   "aliases": [
+    "argus mages",
+    "shadow mages"
+   ],
+   "answer": "The Argus Shadow Mages are envoys of the Argus Wake found alongside Nagaz in the Uplands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you carry Magistrate Maleb\u2019s concern from Southshore into the Uplands, where the Syndicate is strongest."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "argus shadow mages",
+  "argus wake",
+  "dark council",
+  "head of nagaz",
+  "nagaz",
+  "southshore",
+  "strahnbrad",
+  "syndicate",
+  "uplands"
+ ],
+ "related": [
+  "quest:537",
+  "topic:syndicate",
+  "zone:alterac",
+  "subzone:uplands",
+  "subzone:strahnbrad",
+  "subzone:southshore",
+  "topic:alliance"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Head of Nagaz",
+  "Dark Council"
+ ]
+}

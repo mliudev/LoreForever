@@ -1,0 +1,78 @@
+{
+ "key": "quest:4971",
+ "type": "quest",
+ "name": "A Matter of Time",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4971
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Chromie asks you to use a Temporal Displacer near a silo in Andorhal. Temporal Parasites appear, and she needs the device returned at the Andorhal Inn.",
+ "sections": [
+  {
+   "title": "At Andorhal",
+   "body": "Chromie asks for your help in Andorhal, in the Western Plaguelands. A Temporal Displacer near one of the silos can uncover Temporal Parasites. You are asked to slay them and bring the device back to Chromie at the inn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Chromie ask me to do?",
+   "aliases": [
+    "chromie request",
+    "what does chromie need",
+    "time device quest"
+   ],
+   "answer": "Chromie asks you to use a Temporal Displacer near one of Andorhal's silos to uncover Temporal Parasites, then return the device to her at the Andorhal Inn."
+  },
+  {
+   "q": "Where is the Temporal Displacer?",
+   "aliases": [
+    "where's the displacer",
+    "time thing location",
+    "displacer silo"
+   ],
+   "answer": "The Temporal Displacer is near one of the silos in Andorhal."
+  },
+  {
+   "q": "What are the creatures called?",
+   "aliases": [
+    "parasite name",
+    "time parasites",
+    "what appears"
+   ],
+   "answer": "They are called Temporal Parasites."
+  },
+  {
+   "q": "Where do I return the device?",
+   "aliases": [
+    "return displacer",
+    "chromie inn",
+    "where is chromie"
+   ],
+   "answer": "Return the Temporal Displacer to Chromie in the Andorhal Inn, in the Western Plaguelands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a matter of time",
+  "andorhal",
+  "chromie",
+  "silo",
+  "temporal displacer",
+  "temporal parasites",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:andorhal",
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Matter of Time"
+ ]
+}

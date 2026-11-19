@@ -1,0 +1,91 @@
+{
+ "key": "item:kurzen-s-head",
+ "type": "item",
+ "name": "Kurzen's Head",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Kurzen's Head",
+  "quests": [
+   "quest:202"
+  ]
+ },
+ "summary": "Kurzen\u2019s Head is proof sought by the rebels at their camp in Stranglethorn Vale. Lieutenant Doren needs it to learn whether Colonel Kurzen\u2019s command has been broken.",
+ "sections": [
+  {
+   "title": "Proof for Doren",
+   "body": "Lieutenant Doren waits at Rebel Camp for word from the Stockpile, where Colonel Kurzen commands his men. The rebels face Kurzen\u2019s Elite and Subchiefs as well as the Colonel himself. Doren asks for Kurzen\u2019s Head as proof that the enemy leaders have been defeated. His band\u2019s safety rests on the answer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Kurzen\u2019s Head?",
+   "aliases": [
+    "who wants the head",
+    "doren head",
+    "where bring kurzen head"
+   ],
+   "answer": "Lieutenant Doren at Rebel Camp asks for Kurzen\u2019s Head as proof that Colonel Kurzen and his leaders are defeated."
+  },
+  {
+   "q": "Where is Colonel Kurzen?",
+   "aliases": [
+    "kurzen location",
+    "where kurzen",
+    "stockpile guy"
+   ],
+   "answer": "Colonel Kurzen commands his men from deep within the Stockpile in Stranglethorn Vale."
+  },
+  {
+   "q": "Why do the rebels need Kurzen\u2019s Head?",
+   "aliases": [
+    "why head",
+    "kurzen head purpose",
+    "proof for doren"
+   ],
+   "answer": "The rebels need Kurzen\u2019s Head as proof that Colonel Kurzen and his leaders have been defeated."
+  },
+  {
+   "q": "What threat does Kurzen pose?",
+   "aliases": [
+    "kurzen threat",
+    "why fight kurzen",
+    "kurzen backstory"
+   ],
+   "answer": "Lieutenant Doren calls Kurzen a cruel and formidable commander whose men threaten the rebel band."
+  },
+  {
+   "q": "What happens when Kurzen is defeated?",
+   "aliases": [
+    "kurzen defeated",
+    "what happens to rebels",
+    "kurzen ending"
+   ],
+   "answer": "Lieutenant Doren says Kurzen\u2019s defeat saves the rebel band and lets them breathe easier."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "colonel kurzen",
+  "kurzen",
+  "kurzen elite",
+  "kurzen subchief",
+  "kurzen's head",
+  "lieutenant doren",
+  "rebel camp",
+  "stockpile",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "npc:colonel-kurzen",
+  "npc:doren",
+  "subzone:rebel-camp",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Kurzen's Head",
+  "Colonel Kurzen (quest)"
+ ]
+}

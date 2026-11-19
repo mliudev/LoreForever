@@ -1,0 +1,101 @@
+{
+ "key": "item:slagtree-s-lost-tools",
+ "type": "item",
+ "name": "Slagtree's Lost Tools",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Slagtree's Lost Tools",
+  "quests": [
+   "quest:7839"
+  ]
+ },
+ "summary": "Slagtree\u2019s Lost Tools are a stolen set of smithing tools sought by Smith Slagtree in Revantusk Village. Their value to him comes from the gnome who gave them to him long ago.",
+ "sections": [
+  {
+   "title": "A Stolen Gift",
+   "body": "At Revantusk Village, Smith Slagtree asks you to search for the tools taken when Vilebranch trolls invaded. He keeps a backup set, but these tools were given to him by a kind-hearted gnome who saved his life when he was young. They may lie near the Agol'watha or Shaol'watha temples, or at Skulk Rock. Slagtree wants this old gift returned.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Slagtree's Lost Tools?",
+   "aliases": [
+    "who wants the tools",
+    "slagtree tools",
+    "smith slagtree"
+   ],
+   "answer": "Smith Slagtree of Revantusk Village wants his stolen tools returned."
+  },
+  {
+   "q": "Why do the tools matter to Slagtree?",
+   "aliases": [
+    "why are tools important",
+    "tools meaning",
+    "why does he want them"
+   ],
+   "answer": "A kind-hearted gnome gave the tools to Slagtree after saving his life when he was a young orc."
+  },
+  {
+   "q": "Who stole the tools?",
+   "aliases": [
+    "who took slagtree tools",
+    "vilebranch stole tools",
+    "stolen tools"
+   ],
+   "answer": "Vilebranch trolls stole Slagtree's tools when they invaded Revantusk Village."
+  },
+  {
+   "q": "Where might the tools be?",
+   "aliases": [
+    "where are the tools",
+    "tool location",
+    "find slagtree tools"
+   ],
+   "answer": "The tools were spotted near the Agol'watha and Shaol'watha temples in the northeastern Hinterlands. Slagtree also suggests checking Skulk Rock."
+  },
+  {
+   "q": "Does Slagtree have other tools?",
+   "aliases": [
+    "backup tools",
+    "does he have spares",
+    "other smith tools"
+   ],
+   "answer": "Slagtree has a backup set, but the stolen tools are precious because they came from the gnome who saved his life."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "A gnome gave Slagtree the tools after saving his life when he was a young orc. Their gift remains precious to the smith."
+  },
+  {
+   "target": "race:Orc",
+   "text": "Slagtree remembers the tools as a gift from the gnome who saved his life when he was a young orc."
+  }
+ ],
+ "keywords": [
+  "agol'watha",
+  "gnome",
+  "lost tools",
+  "revantusk village",
+  "shaol'watha",
+  "skulk rock",
+  "slagtree",
+  "smith slagtree",
+  "vilebranch",
+  "vilebranch hooligans"
+ ],
+ "related": [
+  "quest:7839",
+  "zone:hinterlands",
+  "topic:gnome",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Slagtree's Lost Tools",
+  "Wowpedia: Vilebranch Hooligans"
+ ]
+}

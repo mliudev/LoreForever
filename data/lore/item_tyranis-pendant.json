@@ -1,0 +1,81 @@
+{
+ "key": "item:tyranis-pendant",
+ "type": "item",
+ "name": "Tyranis' Pendant",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Tyranis' Pendant",
+  "quests": [
+   "quest:1439"
+  ]
+ },
+ "summary": "Tyranis' Pendant is found at Thunder Axe Fortress in Desolace. It helps Vahlarriel learn what became of her brother, Tyranis Malem.",
+ "sections": [
+  {
+   "title": "A Brother's Trail",
+   "body": "Vahlarriel waits at Thunder Axe Fortress, unable to leave before she knows what happened to Tyranis. The pendant is tied to that search. She fears her brother may be drawn to the Burning Blade's arcane secrets, a danger he has long been tempted by.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Tyranis' Pendant?",
+   "aliases": [
+    "pendant location",
+    "where pendant",
+    "find tyranis pendant"
+   ],
+   "answer": "Tyranis' Pendant is found in the left building at Thunder Axe Fortress in northern Desolace."
+  },
+  {
+   "q": "Who is Tyranis Malem?",
+   "aliases": [
+    "tyranis who",
+    "tyranis backstory",
+    "who's tyranis"
+   ],
+   "answer": "Tyranis Malem is Vahlarriel's brother, held at Thunder Axe Fortress in Desolace."
+  },
+  {
+   "q": "Why does Vahlarriel want the pendant?",
+   "aliases": [
+    "vahlarriel pendant",
+    "why pendant",
+    "what's it for"
+   ],
+   "answer": "The pendant helps Vahlarriel learn what became of her brother, Tyranis."
+  },
+  {
+   "q": "What does Vahlarriel fear about Tyranis?",
+   "aliases": [
+    "tyranis burning blade",
+    "why worried",
+    "tyranis danger"
+   ],
+   "answer": "Vahlarriel fears Tyranis will try to learn the Burning Blade's secrets and be seduced by their magic."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "desolace",
+  "pendant",
+  "thunder axe fortress",
+  "tyranis malem",
+  "tyranis' pendant",
+  "vahlarriel"
+ ],
+ "related": [
+  "quest:1439",
+  "quest:1440",
+  "quest:1437",
+  "subzone:thunder-axe-fortress",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Tyranis' Pendant",
+  "Search for Tyranis"
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "key": "item:centipaar-insect-parts",
+ "type": "item",
+ "name": "Centipaar Insect Parts",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Centipaar Insect Parts",
+  "quests": [
+   "quest:82"
+  ]
+ },
+ "summary": "Centipaar Insect Parts are gathered from silithid in Tanaris's Noxious Lair. Alchemist Pestlezugg in Gadgetzan studies them to learn more about the creatures draining the area's water pools.",
+ "sections": [
+  {
+   "title": "Parts from the Lair",
+   "body": "The Centipaar silithid in Noxious Lair yield parts for Alchemist Pestlezugg's investigation. He studies them in Gadgetzan, seeking to learn what these creatures are.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Centipaar Insect Parts?",
+   "aliases": [
+    "centipaar parts",
+    "insect parts",
+    "bug parts"
+   ],
+   "answer": "Centipaar Insect Parts are pieces gathered from silithid in Tanaris's Noxious Lair for Alchemist Pestlezugg to study."
+  },
+  {
+   "q": "Where do I get Centipaar Insect Parts?",
+   "aliases": [
+    "where parts",
+    "get centipaar parts",
+    "noxious lair parts"
+   ],
+   "answer": "The Centipaar silithid in Noxious Lair yield the parts Alchemist Pestlezugg seeks."
+  },
+  {
+   "q": "Who wants these insect parts?",
+   "aliases": [
+    "who needs parts",
+    "pestlezugg parts",
+    "alchemist wants"
+   ],
+   "answer": "Alchemist Pestlezugg in Gadgetzan wants Centipaar Insect Parts so he can study the creatures from Noxious Lair."
+  },
+  {
+   "q": "Why are the bugs being investigated?",
+   "aliases": [
+    "why bugs",
+    "water pools",
+    "silithid investigation"
+   ],
+   "answer": "The silithid are draining the water pools that once lay where Noxious Lair now stands, and Pestlezugg wants to learn what they are."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemist pestlezugg",
+  "centipaar",
+  "gadgetzan",
+  "insect parts",
+  "noxious lair",
+  "silithid",
+  "tanaris",
+  "water pools"
+ ],
+ "related": [
+  "quest:82",
+  "quest:32",
+  "subzone:noxious-lair",
+  "subzone:gadgetzan",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Centipaar Insect Parts",
+  "Noxious Lair Investigation"
+ ]
+}

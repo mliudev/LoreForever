@@ -1,0 +1,75 @@
+{
+ "key": "item:violet-powder",
+ "type": "item",
+ "name": "Violet Powder",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Violet Powder",
+  "quests": [
+   "quest:2661"
+  ]
+ },
+ "summary": "Sprinkle sends Violet Powder to Marin Noggenfogger in Gadgetzan, asking him to repay a favor. Marin is willing to try it.",
+ "sections": [
+  {
+   "title": "A Favor for Sprinkle",
+   "body": "In Gadgetzan, Marin Noggenfogger receives Violet Powder from Sprinkle. Sprinkle asks you to deliver it and tell Marin that he owes a favor. Marin accepts the powder and says it could hardly make things worse.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Violet Powder for?",
+   "aliases": [
+    "violet powder use",
+    "what's the powder for"
+   ],
+   "answer": "Sprinkle sends Violet Powder to Marin Noggenfogger in Gadgetzan, who agrees to try it."
+  },
+  {
+   "q": "Who gives you the Violet Powder?",
+   "aliases": [
+    "who gave me powder",
+    "sprinkle powder"
+   ],
+   "answer": "Sprinkle gives you Violet Powder and asks you to take it to Marin Noggenfogger."
+  },
+  {
+   "q": "Who is supposed to get the powder?",
+   "aliases": [
+    "powder delivery",
+    "where take violet powder"
+   ],
+   "answer": "Marin Noggenfogger in Gadgetzan is the one meant to receive Violet Powder."
+  },
+  {
+   "q": "Why does Sprinkle say Marin owes him?",
+   "aliases": [
+    "marin favor",
+    "sprinkle's favor"
+   ],
+   "answer": "Sprinkle asks you to tell Marin that he owes him a favor; no further details are given."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "delivery",
+  "favor",
+  "gadgetzan",
+  "marin noggenfogger",
+  "sprinkle",
+  "violet powder"
+ ],
+ "related": [
+  "quest:2661",
+  "subzone:gadgetzan",
+  "quest:2662",
+  "quest:2641"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Violet Powder",
+  "Delivery for Marin"
+ ]
+}

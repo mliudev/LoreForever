@@ -1294,7 +1294,7 @@ P.transport["zone:hallofthanes"] = {
   fullHash = "270aff",
   text = "Hall of Thanes. Alliance defenders now seek a way into the Hall of Thanes, deep beneath Ironforge. Its old vaults hold dwarven relics, and danger has reached those depths. Hammers ring in Ironforge's Great Forge, but forgotten halls run deeper beneath the stone. The Hall of Thanes lies in those ancient reaches, tied to dwarven bloodlines and relics of stonecraft. Now Alliance champions must enter its shadowed vaults and guard the depths. The route into the Hall of Thanes is hidden from Ironforge's everyday travelers. Its corridors have been sealed or concealed. To find a way through, recover an Underground Map and use forgotten charts to navigate the deeper tunnels to the entrance.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_hallofthanes-c30ab79e8252d7d38b46/1-0000.mp3", duration = 41.3518367, start = 0},
+    {file = "Audio/Transport/full_zone_hallofthanes-3316157de15face774b5/1-0000.mp3", duration = 48.6138776, start = 0},
   },
 }
 P.transport["zone:hillsbrad"] = {

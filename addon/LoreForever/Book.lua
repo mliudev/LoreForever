@@ -217,6 +217,24 @@ function Book.ChapterOf(key)
 end
 function Book.TileKind(t) return TILE_KIND[KIND[t]] end
 
+-- A chapter of its own pages: a zone's, or Of Azeroth. Not Everywhere, New pages, a search or a storyline.
+local function chapterOwn(ck)
+  return ck == AZEROTH or (ck ~= nil and not Book.extra[ck] and zones()[ck] ~= nil)
+end
+
+-- What Play what's new plays on chapter `ck`: that chapter's new pages, every new page elsewhere (Mike's stream
+-- 11/17, 21:00, on Alterac Mountains: "I said play what's new, but I was on the Alterac Mountains page. So I just
+-- wanted to play the Alterac Mountains.").
+function Book.NewHere(ck)
+  local all = ns.Collection.NewKeys()
+  if not chapterOwn(ck) then return all end
+  local out = {}
+  for _, k in ipairs(all) do
+    if Book.ChapterOf(k) == ck then out[#out + 1] = k end
+  end
+  return out
+end
+
 -- "Westfall · People 9 of 20": where a page sits in your chronicle, for the new-page slip. nil for a page Found doesn't list.
 function Book.Standing(key)
   local e = entries()[key]
@@ -591,8 +609,8 @@ function Book.Create(f)
   Book.sortLabel:SetPoint("TOPRIGHT", -8, -14)   -- (the title ends at it: placed before the first layout, and in Storylines)
 
   -- Play these: the found pages listed (as filtered) join the playlist and it plays from the first of them. Play
-  -- what's new: the same for every New page. Shown when there's something to play, after the filters (made with
-  -- them, below).
+  -- what's new: the same for the chapter's New pages, or every New page on Everywhere (Book.NewHere). Shown when
+  -- there's something to play, after the filters (made with them, below). `tip` is its tooltip, or a function for it.
   local function playButton(label, tip, keysOf)
     local b = T.Button(Book.chips, label, "paper")
     b:SetHeight(22)
@@ -618,7 +636,7 @@ function Book.Create(f)
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
       GameTooltip:AddLine(label)
-      T.Tip(tip, "tipDim", true)
+      T.Tip(type(tip) == "function" and tip() or tip, "tipDim", true)
       GameTooltip:Show()
     end)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -651,8 +669,14 @@ function Book.Create(f)
   end
   Book.playThese = playButton(L["Play these"], L["Adds the found pages listed here to your playlist and plays them."],
     function() return Book.ListedKeys(), Book.ChapterName(Book.chapter) end)
-  Book.playNew = playButton(L["Play what's new"], L["Adds every new page to your playlist and plays them."],
-    function() return ns.Collection.NewKeys(), L["New pages"] end)
+  Book.playNew = playButton(L["Play what's new"], function()
+      return chapterOwn(Book.chapter) and L["Adds this chapter's new pages to your playlist and plays them."]
+        or L["Adds every new page to your playlist and plays them."]
+    end,
+    function()
+      local ck = Book.chapter
+      return Book.NewHere(ck), chapterOwn(ck) and Book.ChapterName(ck) or L["New pages"]
+    end)
   Book.playStory = playButton(L["Listen to the story so far"],
     L["Adds the quests of it you've taken to your playlist, in the order you took them, and plays them."],
     function() return Book.StoryKeys(true), Book.ChapterName(Book.chapter) end)
@@ -1137,7 +1161,7 @@ function Book.RefreshPage()
     if t.found and ns.UI.CanQueue(t.key) then playable = true; break end
   end
   Book.playThese:SetShown(playable)
-  local newOnes = ck ~= NEW and ns.Collection.NewCount() > 0
+  local newOnes = ck ~= NEW and #Book.NewHere(ck) > 0
   Book.playNew:SetShown(newOnes)
   -- Counts: the chapter's here, and per kind above each row of cards (a search, New pages or a storyline: what's
   -- listed, since a storyline never says how many pages it has).

@@ -1,0 +1,78 @@
+{
+ "key": "item:acceptable-hyena-sample",
+ "type": "item",
+ "name": "Acceptable Hyena Sample",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Acceptable Hyena Sample",
+  "quests": [
+   "quest:654"
+  ]
+ },
+ "summary": "An acceptable hyena sample is data gathered with Chief Engineer Bilgewhizzle\u2019s field testing kit in Tanaris. It is one part of his survey of the desert\u2019s wildlife.",
+ "sections": [
+  {
+   "title": "Desert Samples",
+   "body": "In Tanaris, the field testing kit can yield an acceptable hyena sample from an untested one. Chief Engineer Bilgewhizzle needs eight hyena samples, alongside samples from basilisks and scorpions, for his survey. The kit\u2019s power source gives you two hours to gather the data before it is lost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an acceptable hyena sample?",
+   "aliases": [
+    "hyena sample",
+    "acceptable sample hyena"
+   ],
+   "answer": "An acceptable hyena sample is data gathered from an untested hyena sample with Bilgewhizzle\u2019s field testing kit."
+  },
+  {
+   "q": "Who needs hyena samples?",
+   "aliases": [
+    "who wants hyena samples",
+    "Bilgewhizzle sample"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle in Gadgetzan needs eight acceptable hyena samples for his Tanaris field survey."
+  },
+  {
+   "q": "How many hyena samples does Bilgewhizzle need?",
+   "aliases": [
+    "hyena sample count",
+    "how many samples"
+   ],
+   "answer": "Bilgewhizzle needs eight acceptable hyena samples, as well as eight each from basilisks and scorpions."
+  },
+  {
+   "q": "Why is there a time limit?",
+   "aliases": [
+    "kit power limit",
+    "data lost"
+   ],
+   "answer": "The field testing kit\u2019s power source gives you two hours to collect the data. If it runs out, the data inside is lost."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "acceptable hyena sample",
+  "chief engineer bilgewhizzle",
+  "field sampling",
+  "field testing kit",
+  "gadgetzan",
+  "hyena",
+  "tanaris"
+ ],
+ "related": [
+  "quest:654",
+  "zone:tanaris",
+  "subzone:gadgetzan",
+  "item:field-testing-kit",
+  "item:acceptable-basilisk-sample",
+  "item:acceptable-scorpid-sample"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Acceptable Hyena Sample",
+  "Tanaris Field Sampling"
+ ]
+}

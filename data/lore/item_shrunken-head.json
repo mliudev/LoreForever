@@ -1,0 +1,82 @@
+{
+ "key": "item:shrunken-head",
+ "type": "item",
+ "name": "Shrunken Head",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Shrunken Head",
+  "quests": [
+   "quest:582"
+  ]
+ },
+ "summary": "A Shrunken Head is taken from Bloodscalp headhunters in northern Stranglethorn. Nimboya at Grom'gol Base Camp examines them while seeking word of Yenniku.",
+ "sections": [
+  {
+   "title": "Nimboya's Search",
+   "body": "At Grom'gol Base Camp, Nimboya asks you to bring him Shrunken Heads from Bloodscalp Headhunters. He searches each one for signs of Yenniku, the chief's son, whose fate is unknown to him. The ruins of Zuuldaia and Zul'Kunda lie along the northern coast, where many Headhunters can be found.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Shrunken Head for?",
+   "aliases": [
+    "shrunken head use",
+    "why collect heads"
+   ],
+   "answer": "Nimboya examines Shrunken Heads to learn whether Yenniku is among the dead."
+  },
+  {
+   "q": "Who is looking for Yenniku?",
+   "aliases": [
+    "who wants yenniku",
+    "nimboya search"
+   ],
+   "answer": "Nimboya at Grom'gol Base Camp fears for Yenniku, the chief's son, and seeks signs of his fate."
+  },
+  {
+   "q": "Where do Shrunken Heads come from?",
+   "aliases": [
+    "where get heads",
+    "bloodscalp heads"
+   ],
+   "answer": "Bloodscalp Headhunters in northern Stranglethorn carry the heads Nimboya seeks."
+  },
+  {
+   "q": "Where can I find Bloodscalp Headhunters?",
+   "aliases": [
+    "headhunter location",
+    "where are headhunters"
+   ],
+   "answer": "Nimboya points to the ruins of Zuuldaia and Zul'Kunda along the northern coast."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can bring Nimboya the heads he needs to search for Yenniku, the chief's son."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "grom'gol",
+  "headhunter",
+  "nimboya",
+  "shrunken head",
+  "yenniku",
+  "zul'kunda",
+  "zuuldaia"
+ ],
+ "related": [
+  "quest:582",
+  "subzone:grom-gol-base-camp",
+  "topic:troll",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shrunken Head",
+  "Headhunting (Classic)"
+ ]
+}

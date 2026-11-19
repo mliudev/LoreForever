@@ -1,0 +1,85 @@
+{
+ "key": "item:talon-of-tethis",
+ "type": "item",
+ "name": "Talon of Tethis",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Talon of Tethis",
+  "quests": [
+   "quest:197"
+  ]
+ },
+ "summary": "The Talon of Tethis is proof of a hunt in Stranglethorn Vale. Hemet Nesingwary asks you to bring it back after defeating the elusive raptor.",
+ "sections": [
+  {
+   "title": "A Hunter\u2019s Proof",
+   "body": "Hemet Nesingwary names Tethis as a raptor few hunters can claim to have slain. Bring him the talon, and he calls you a master raptor slayer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Talon of Tethis?",
+   "aliases": [
+    "tethis talon",
+    "talon item",
+    "what's the talon for"
+   ],
+   "answer": "The Talon of Tethis is proof that you defeated the raptor Tethis for Hemet Nesingwary."
+  },
+  {
+   "q": "Who wants Tethis's talon?",
+   "aliases": [
+    "who wants talon",
+    "hemet talon",
+    "where take tethis talon"
+   ],
+   "answer": "Hemet Nesingwary wants Tethis's talon as proof of the hunt."
+  },
+  {
+   "q": "Where can I find Tethis?",
+   "aliases": [
+    "where tethis",
+    "tethis location",
+    "find the raptor"
+   ],
+   "answer": "Tethis wanders around the Gurubashi Arena, mainly to its north."
+  },
+  {
+   "q": "Why does Hemet want the talon?",
+   "aliases": [
+    "why talon",
+    "tethis hunt reason",
+    "hemet wants what"
+   ],
+   "answer": "Hemet asks for the talon as proof that you killed Tethis, a raptor he has failed to bring down himself."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, Hemet's challenge tests your skill against Tethis, a raptor he has failed to kill."
+  }
+ ],
+ "keywords": [
+  "gurubashi arena",
+  "hemet nesingwary",
+  "raptor",
+  "raptor mastery",
+  "stranglethorn",
+  "talon of tethis",
+  "tethis"
+ ],
+ "related": [
+  "quest:194",
+  "zone:stranglethorn",
+  "subzone:gurubashi-arena",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Talon of Tethis",
+  "Raptor Mastery (4)"
+ ]
+}

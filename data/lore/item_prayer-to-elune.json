@@ -1,0 +1,88 @@
+{
+ "key": "item:prayer-to-elune",
+ "type": "item",
+ "name": "Prayer to Elune",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Prayer to Elune",
+  "quests": [
+   "quest:3378"
+  ]
+ },
+ "summary": "The Prayer to Elune is etched on a golden tablet and lies among the Twilight\u2019s Hammer\u2019s belongings. It carries a plea meant for Astarii Starseeker at the Temple of the Moon.",
+ "sections": [
+  {
+   "title": "A Golden Tablet",
+   "body": "Among the Twilight\u2019s Hammer\u2019s belongings in Searing Gorge lies a golden tablet bearing a prayer to Elune. Astarii Starseeker at Darnassus\u2019s Temple of the Moon asks that it be brought to her, so the prayer can reach its goddess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Prayer to Elune?",
+   "aliases": [
+    "prayer tablet",
+    "elune prayer",
+    "what prayer"
+   ],
+   "answer": "The Prayer to Elune is a prayer etched onto a golden tablet."
+  },
+  {
+   "q": "Where is the prayer?",
+   "aliases": [
+    "where tablet",
+    "find prayer",
+    "prayer location"
+   ],
+   "answer": "The golden tablet is among the Twilight\u2019s Hammer\u2019s belongings in Searing Gorge."
+  },
+  {
+   "q": "Who wants the tablet?",
+   "aliases": [
+    "who wants it",
+    "astarii prayer",
+    "take it to who"
+   ],
+   "answer": "Astarii Starseeker at the Temple of the Moon in Darnassus asks for the prayer."
+  },
+  {
+   "q": "Why does Astarii want it?",
+   "aliases": [
+    "why tablet",
+    "why elune prayer",
+    "what for"
+   ],
+   "answer": "Astarii wants the prayer returned so it can be heard by Elune."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you know Elune as your people\u2019s goddess; this tablet carries a prayer meant to reach her."
+  }
+ ],
+ "keywords": [
+  "astarii starseeker",
+  "darnassus",
+  "elune",
+  "golden tablet",
+  "prayer to elune",
+  "searing gorge",
+  "temple of the moon",
+  "twilight's hammer"
+ ],
+ "related": [
+  "quest:3377",
+  "topic:elune",
+  "topic:twilight-s-hammer",
+  "subzone:temple-of-the-moon",
+  "zone:darnassus",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Prayer to Elune",
+  "Prayer to Elune (2)"
+ ]
+}

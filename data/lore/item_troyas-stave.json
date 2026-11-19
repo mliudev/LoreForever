@@ -1,0 +1,93 @@
+{
+ "key": "item:troyas-stave",
+ "type": "item",
+ "name": "Troyas' Stave",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Troyas' Stave",
+  "quests": [
+   "quest:2879"
+  ]
+ },
+ "summary": "Troyas' Stave may be the key to the Equinex Monolith in the Ruins of Ravenwind. Four lingering flames hold the power needed to test it.",
+ "sections": [
+  {
+   "title": "The Four Flames",
+   "body": "Among the Ruins of Ravenwind in Feralas, Troyas' Stave is meant for the Equinex Monolith. The four flames Samha, Imbel, Byltan, and Lahassa still burn nearby, each holding an essence. Gather them, then use their power beside the monolith to energize the stave.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Monolith",
+   "body": "When the energized stave touches the cold face of the Equinex Monolith, a small door opens. Within lies a sacred artifact, and beams of light fill the ruins around the stone.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Troyas' Stave for?",
+   "aliases": [
+    "troyas stave",
+    "what does the stave do"
+   ],
+   "answer": "Troyas' Stave is meant to unlock the Equinex Monolith in the Ruins of Ravenwind."
+  },
+  {
+   "q": "Where is the Equinex Monolith?",
+   "aliases": [
+    "equinex monolith location",
+    "where is monolith"
+   ],
+   "answer": "The Equinex Monolith stands in the Ruins of Ravenwind, in Feralas west of the Dream Bough."
+  },
+  {
+   "q": "How do I energize Troyas' Stave?",
+   "aliases": [
+    "energize stave",
+    "four flames"
+   ],
+   "answer": "Recover the essences of Samha, Imbel, Byltan, and Lahassa, then use them beside the Equinex Monolith."
+  },
+  {
+   "q": "What are the four flames called?",
+   "aliases": [
+    "flame names",
+    "samha imbel byltan lahassa"
+   ],
+   "answer": "The four flames are Samha, Imbel, Byltan, and Lahassa."
+  },
+  {
+   "q": "What is inside the Equinex Monolith?",
+   "aliases": [
+    "monolith artifact",
+    "what's in the monolith"
+   ],
+   "answer": "A sacred artifact rests inside the Equinex Monolith."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "byltan",
+  "dream bough",
+  "equinex monolith",
+  "feralas",
+  "imbel",
+  "lahassa",
+  "ruins of ravenwind",
+  "samha",
+  "stave of equinex",
+  "troyas' stave"
+ ],
+ "related": [
+  "quest:2879",
+  "item:stave-of-equinex",
+  "subzone:ruins-of-ravenwind",
+  "subzone:dream-bough",
+  "zone:feralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Troyas' Stave",
+  "The Stave of Equinex"
+ ]
+}

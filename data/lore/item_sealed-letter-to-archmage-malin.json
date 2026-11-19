@@ -1,0 +1,87 @@
+{
+ "key": "item:sealed-letter-to-archmage-malin",
+ "type": "item",
+ "name": "Sealed Letter to Archmage Malin",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Sealed Letter to Archmage Malin",
+  "quests": [
+   "quest:697"
+  ]
+ },
+ "summary": "The sealed letter carries word from Arathi Highlands to Archmage Malin in Stormwind. Its arrival brings news of companions preparing to return home.",
+ "sections": [
+  {
+   "title": "Word from Arathi",
+   "body": "In Stormwind's Mage Quarter, Archmage Malin opens the letter and recognizes the news it bears. Trelane will be pleased, and Kryten and Skuerto are eager to make their way back to Stormwind. Malin thanks the courier and offers help for the road ahead.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the letter for?",
+   "aliases": [
+    "letter for malin",
+    "malin's letter"
+   ],
+   "answer": "The sealed letter is addressed to Archmage Malin in Stormwind's Mage Quarter."
+  },
+  {
+   "q": "Where does the letter come from?",
+   "aliases": [
+    "letter from arathi",
+    "where's the letter from"
+   ],
+   "answer": "The letter comes from Arathi Highlands, where Kryten and Skuerto say they will soon be home."
+  },
+  {
+   "q": "What does the letter say?",
+   "aliases": [
+    "letter contents",
+    "what's in the letter"
+   ],
+   "answer": "It tells Archmage Malin that Kryten and Skuerto will soon be home."
+  },
+  {
+   "q": "Who is Kryten?",
+   "aliases": [
+    "kryten letter",
+    "who's kryten"
+   ],
+   "answer": "Kryten is one of the companions expected to return to Stormwind with Skuerto."
+  },
+  {
+   "q": "Who is Skuerto?",
+   "aliases": [
+    "skuerto letter",
+    "who's skuerto"
+   ],
+   "answer": "Skuerto is one of the companions expected to return to Stormwind with Kryten."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "archmage malin",
+  "kryten",
+  "mage quarter",
+  "malin",
+  "sealed letter",
+  "skuerto",
+  "stormwind",
+  "trelane"
+ ],
+ "related": [
+  "quest:690",
+  "npc:archmage-malin",
+  "npc:skuerto",
+  "zone:arathi",
+  "subzone:mage-quarter"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sealed Letter to Archmage Malin",
+  "Malin's Request (2)"
+ ]
+}

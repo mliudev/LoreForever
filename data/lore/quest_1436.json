@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Keldran asks you to return from Desolace and report your efforts. He hopes the Horde and Alliance can find peace.",
+ "summary": "Takata Steelblade in Desolace sends you back to Keldran in Orgrimmar to report your efforts. Keldran hopes the Horde and Alliance can find peace.",
  "sections": [
   {
    "title": "Keldran's Appeal",
-   "body": "Keldran in Orgrimmar is waiting to hear what you have done in Desolace. He believes your efforts have earned the Warchief's respect for his concerns, and hopes the fight against the demons and their followers may bring his people home sooner. He asks you to bring him word of your work.",
+   "body": "Takata Steelblade hopes the fight against the demons and their followers may let them go home before the seasons change. He says Keldran will take pride in knowing the Warchief respects his concerns.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "who sent me back",
     "who is Keldran"
    ],
-   "answer": "Keldran in Orgrimmar asks you to return from Desolace and tell him what you have done."
+   "answer": "Takata Steelblade in Desolace sends you back to tell Keldran in Orgrimmar what you have done."
   },
   {
    "q": "Where do I report back?",
@@ -55,7 +55,7 @@
     "Keldran's hope",
     "home before seasons change"
    ],
-   "answer": "Keldran hopes the Warchief will let them return to their homes before the seasons change if the fight goes well."
+   "answer": "Keldran hopes the Horde and Alliance can find peace. It is Takata Steelblade who hopes the Warchief will let them go home before the seasons change."
   },
   {
    "q": "What does Thrall want?",

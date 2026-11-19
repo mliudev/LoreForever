@@ -1,0 +1,93 @@
+{
+ "key": "quest:2968",
+ "type": "quest",
+ "name": "A Future Task",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2968
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The researchers studying the Plates of Uldum have reached an impasse, and Sage Truthseeker needs to hear the news. You are sent to him in Thunder Bluff as they pause their search.",
+ "sections": [
+  {
+   "title": "A pause in the search",
+   "body": "The researchers have no idea where the Plates of Uldum lie, so they mean to study the matter before forming a plan. They ask you to inform Sage Truthseeker in Thunder Bluff, who also wishes to thank you for heeding the call. For now, their effort rests while they seek places to begin.",
+   "spoiler": 0
+  },
+  {
+   "title": "The work ahead",
+   "body": "Sage Truthseeker and the researchers agree to wait until they can narrow the places where the plates may be hidden. They hope you will return to the field when they are ready to face Uldum's secrets. Until then, the search remains paused.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the researchers looking for?",
+   "aliases": [
+    "plates of uldum",
+    "what plates",
+    "uldum plates"
+   ],
+   "answer": "They are looking for the Plates of Uldum, but do not know where the plates might be."
+  },
+  {
+   "q": "Why am I going to Thunder Bluff?",
+   "aliases": [
+    "sage truthseeker",
+    "tell sage",
+    "thunder bluff"
+   ],
+   "answer": "The researchers ask you to tell Sage Truthseeker that they have reached an impasse."
+  },
+  {
+   "q": "What happens to the search now?",
+   "aliases": [
+    "search stopped",
+    "what now",
+    "wait for uldum"
+   ],
+   "answer": "The researchers agree to wait until they can narrow down where the plates may be hidden."
+  },
+  {
+   "q": "Will I return to the field?",
+   "aliases": [
+    "back to the field",
+    "return to uldum",
+    "more plates"
+   ],
+   "answer": "The researchers hope you will return to the field when they are ready to confront Uldum's secrets."
+  },
+  {
+   "q": "Who wants to thank me?",
+   "aliases": [
+    "who thanks me",
+    "thank you",
+    "heeding the call"
+   ],
+   "answer": "Sage Truthseeker wants to thank you for once again heeding the call."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a future task",
+  "plates of uldum",
+  "researchers",
+  "sage truthseeker",
+  "search",
+  "thunder bluff",
+  "uldum"
+ ],
+ "related": [
+  "quest:5923",
+  "zone:thunderbluff",
+  "subzone:uldum"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Future Task"
+ ]
+}

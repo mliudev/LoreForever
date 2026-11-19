@@ -1,0 +1,83 @@
+{
+ "key": "item:green-hills-of-stranglethorn-chapter-iv",
+ "type": "item",
+ "name": "Green Hills of Stranglethorn - Chapter IV",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Green Hills of Stranglethorn - Chapter IV",
+  "quests": [
+   "quest:338"
+  ]
+ },
+ "summary": "In Stranglethorn Vale, Barnil needs the scattered chapters of Master Nesingwary\u2019s manuscript gathered and put back in order. Chapter IV is one of the four pieces needed to complete the book.",
+ "sections": [
+  {
+   "title": "Scattered Pages",
+   "body": "A gust tore through Master Nesingwary\u2019s camp and scattered pages from his novel across the jungle. Barnil gathered most of them, but the missing pages still need to be collected and arranged into four chapters. Chapter IV belongs with the other three before the manuscript can be returned to Barnil.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Chapter IV?",
+   "aliases": [
+    "chapter four",
+    "green hills chapter iv",
+    "chapter 4 book"
+   ],
+   "answer": "Chapter IV is one of the four chapters of Master Nesingwary\u2019s novel, The Green Hills of Stranglethorn."
+  },
+  {
+   "q": "Who needs this chapter?",
+   "aliases": [
+    "who wants chapter iv",
+    "give chapter four to who",
+    "barnil pages"
+   ],
+   "answer": "Barnil is gathering the chapters of Master Nesingwary\u2019s manuscript and asks for them once all four are complete."
+  },
+  {
+   "q": "Why are the pages scattered?",
+   "aliases": [
+    "why pages everywhere",
+    "what happened to the book",
+    "wind blew pages"
+   ],
+   "answer": "A large gust of wind blew through Master Nesingwary\u2019s camp and scattered pages from his manuscript around the jungle."
+  },
+  {
+   "q": "What is The Green Hills of Stranglethorn about?",
+   "aliases": [
+    "nesingwary novel",
+    "green hills book",
+    "what's the manuscript"
+   ],
+   "answer": "It is a novel by Master Nesingwary. The gathered chapters are meant to complete its manuscript."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barnil",
+  "chapter four",
+  "chapter iv",
+  "green hills of stranglethorn",
+  "manuscript",
+  "master nesingwary",
+  "scattered pages",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:342",
+  "quest:338",
+  "item:green-hills-of-stranglethorn-chapter-i",
+  "item:green-hills-of-stranglethorn-chapter-ii",
+  "item:green-hills-of-stranglethorn-chapter-iii",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Green Hills of Stranglethorn - Chapter IV",
+  "The Green Hills of Stranglethorn (Classic)"
+ ]
+}

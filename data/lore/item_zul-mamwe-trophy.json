@@ -1,0 +1,92 @@
+{
+ "key": "item:zul-mamwe-trophy",
+ "type": "item",
+ "name": "Zul'Mamwe Trophy",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Zul'Mamwe Trophy",
+  "quests": [
+   "quest:585"
+  ]
+ },
+ "summary": "The Zul'Mamwe Trophy is a skull taken from a Skullsplitter trophy pile in the Ruins of Zul'Mamwe. Nezzliok demands it as part of an appeasement tied to the search for Yenniku.",
+ "sections": [
+  {
+   "title": "A Skullsplitter Trophy",
+   "body": "Among the Skullsplitter trophies in the Ruins of Zul'Mamwe, one skull is meant for the Bubbling Cauldron at Grom'gol Base Camp. Nezzliok, a dead witch doctor, demands it along with skulls from Balia'mah and Ziata'jai. He promises knowledge of Yenniku's whereabouts in return for appeasement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Zul'Mamwe Trophy?",
+   "aliases": [
+    "zul'mamwe skull",
+    "zul mamwe trophy",
+    "trophy skull"
+   ],
+   "answer": "The Zul'Mamwe Trophy is a skull taken from the Skullsplitter trophy pile in the Ruins of Zul'Mamwe."
+  },
+  {
+   "q": "Who wants the trophy?",
+   "aliases": [
+    "who needs this skull",
+    "nezzliok trophy",
+    "who wants zul'mamwe"
+   ],
+   "answer": "Nezzliok, a dead witch doctor, demands the Zul'Mamwe Trophy as part of an appeasement."
+  },
+  {
+   "q": "Where does the trophy come from?",
+   "aliases": [
+    "where is zul'mamwe",
+    "zul'mamwe location",
+    "find the skull"
+   ],
+   "answer": "The trophy comes from a pile of Skullsplitter trophy skulls in the Ruins of Zul'Mamwe in northern Stranglethorn."
+  },
+  {
+   "q": "Where must the skulls be brought?",
+   "aliases": [
+    "where to take trophies",
+    "bubbling cauldron",
+    "trophy destination"
+   ],
+   "answer": "The Balia'mah, Ziata'jai and Zul'Mamwe trophies are to be placed at the Bubbling Cauldron in Grom'gol Base Camp."
+  },
+  {
+   "q": "Why does Nezzliok ask for it?",
+   "aliases": [
+    "why skulls",
+    "nezzliok wants trophies",
+    "what does he promise"
+   ],
+   "answer": "Nezzliok says the Skullsplitter skulls will appease his spirit, and promises to reveal where Yenniku was taken."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bubbling cauldron",
+  "nezzliok",
+  "ruins of zul'mamwe",
+  "skullsplitter",
+  "trophy skull",
+  "yenniku",
+  "zul'mamwe",
+  "zul'mamwe trophy"
+ ],
+ "related": [
+  "subzone:ruins-of-zul-mamwe",
+  "quest:585",
+  "subzone:grom-gol-base-camp",
+  "zone:stranglethorn",
+  "item:balia-mah-trophy",
+  "item:ziata-jai-trophy"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Zul'Mamwe Trophy",
+  "Speaking with Nezzliok (Classic)"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "item:singing-crystal-shard",
+ "type": "item",
+ "name": "Singing Crystal Shard",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Singing Crystal Shard",
+  "quests": [
+   "quest:605"
+  ]
+ },
+ "summary": "Singing Crystal Shards are valuable blue crystals found in Stranglethorn Vale. Basilisks there eat the crystals, hardening their skin.",
+ "sections": [
+  {
+   "title": "Crystal and Scale",
+   "body": "In Stranglethorn Vale, basilisks eat Singing Crystals, and the crystals harden their skin. A shard can sometimes be harvested from them. Crank Fizzlebub says the crystals are unique to Stranglethorn and valuable to certain parties. The Venture Company makes it difficult for him to gather them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are Singing Crystal Shards?",
+   "aliases": [
+    "singing shards",
+    "blue crystal shards"
+   ],
+   "answer": "Singing Crystal Shards are pieces of crystals found in Stranglethorn Vale. Basilisks eat the crystals, which harden their skin."
+  },
+  {
+   "q": "Why do basilisks have hardened skin?",
+   "aliases": [
+    "basilisk hard skin",
+    "why are basilisks tough"
+   ],
+   "answer": "Basilisks in Stranglethorn Vale eat Singing Crystals, and the crystals harden their skin."
+  },
+  {
+   "q": "Where can I find the shards?",
+   "aliases": [
+    "shards location",
+    "where are singing crystals"
+   ],
+   "answer": "Singing Crystal Shards can be harvested from basilisks in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Crank Fizzlebub want them?",
+   "aliases": [
+    "crank wants shards",
+    "what does crank need"
+   ],
+   "answer": "Crank Fizzlebub says the crystals are valuable to certain parties, and he can move them for a profit."
+  },
+  {
+   "q": "What does the Venture Company have to do with the crystals?",
+   "aliases": [
+    "venture company crystals",
+    "why venture company"
+   ],
+   "answer": "The Venture Company makes it difficult for Crank Fizzlebub to gather the crystals."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "basilisk",
+  "blue shards",
+  "crank fizzlebub",
+  "singing crystal shard",
+  "singing crystals",
+  "stranglethorn vale",
+  "venture company"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "quest:605",
+  "quest:589",
+  "topic:venture-company"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Singing Crystal Shard",
+  "Singing Blue Shards"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "key": "item:ghost-o-plasm",
+ "type": "item",
+ "name": "Ghost-o-Plasm",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Ghost-o-Plasm",
+  "quests": [
+   "quest:6134"
+  ]
+ },
+ "summary": "Ghost-o-Plasm is ghostly energy gathered from Magrami Spectres in Desolace. Hornizz Brimbuzzle hopes to sell it to the Magram centaurs.",
+ "sections": [
+  {
+   "title": "Gathered in the Valley",
+   "body": "Between the two great skeletons called the Dead Goliaths, a crate of ghost magnets draws Magrami Spectres from the Valley of Bones. Their ghost-o-plasm is what Hornizz Brimbuzzle wants. He hopes the Magram centaurs will pay well for it, though he still has to convince them what the strange substance is.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ghost-o-Plasm?",
+   "aliases": [
+    "ghost o plasm",
+    "ghost stuff",
+    "what is this slime"
+   ],
+   "answer": "Ghost-o-Plasm is ghostly energy taken from Magrami Spectres in Desolace."
+  },
+  {
+   "q": "Where do I find Ghost-o-Plasm?",
+   "aliases": [
+    "where ghost plasm",
+    "get ghost-o-plasm",
+    "ghost stuff location"
+   ],
+   "answer": "Magrami Spectres in the Valley of Bones yield Ghost-o-Plasm when drawn to a crate of ghost magnets."
+  },
+  {
+   "q": "Who wants Ghost-o-Plasm?",
+   "aliases": [
+    "who needs ghost plasm",
+    "hornizz stuff",
+    "sell ghost energy"
+   ],
+   "answer": "Hornizz Brimbuzzle wants Ghost-o-Plasm, hoping to sell it to the Magram centaurs."
+  },
+  {
+   "q": "Why does Hornizz want it?",
+   "aliases": [
+    "why hornizz wants it",
+    "why collect ghost stuff",
+    "centaur ghost energy"
+   ],
+   "answer": "Hornizz believes the Magram centaurs will pay well for captured ghost energy."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, you may recognize Hornizz's ghost magnets as clever devices, though his plan depends on what the Magram centaurs will pay."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you are helping Hornizz bargain with the Magram centaurs through a strange trade in ghost energy."
+  }
+ ],
+ "keywords": [
+  "ghost energy",
+  "ghost-o-plasm",
+  "ghostoplasm",
+  "hornizz brimbuzzle",
+  "magnet",
+  "magram centaurs",
+  "magrumi spectres",
+  "valley of bones"
+ ],
+ "related": [
+  "quest:6134",
+  "item:crate-of-ghost-magnets",
+  "subzone:valley-of-bones",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ghost-o-Plasm",
+  "Ghost-o-plasm Round Up"
+ ]
+}

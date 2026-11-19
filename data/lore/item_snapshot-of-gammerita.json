@@ -1,0 +1,82 @@
+{
+ "key": "item:snapshot-of-gammerita",
+ "type": "item",
+ "name": "Snapshot of Gammerita",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Snapshot of Gammerita",
+  "quests": [
+   "quest:2944"
+  ]
+ },
+ "summary": "In the Hinterlands, Gammerita\u2019s image is captured with Curgle\u2019s Super Snapper FX. Daryn Lightwind in Rut\u2019theran Village wants the snapshot for her studies.",
+ "sections": [
+  {
+   "title": "A Picture for Daryn",
+   "body": "Curgle lends the Super Snapper FX for a picture of Gammerita in the Hinterlands. Daryn Lightwind waits in Rut\u2019theran Village to receive the snapshot and says Curgle\u2019s invention has met her expectations.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gammerita?",
+   "aliases": [
+    "gammerita",
+    "who's gammerita"
+   ],
+   "answer": "Gammerita is a creature in the Hinterlands, and Daryn Lightwind asks for her picture."
+  },
+  {
+   "q": "Who wants this snapshot?",
+   "aliases": [
+    "who wants gammerita pic",
+    "snapshot for who"
+   ],
+   "answer": "Daryn Lightwind wants it for her studies; she waits in Rut\u2019theran Village."
+  },
+  {
+   "q": "How was the snapshot taken?",
+   "aliases": [
+    "how take gammerita photo",
+    "super snapper picture"
+   ],
+   "answer": "Curgle\u2019s Super Snapper FX takes the snapshot when aimed at Gammerita."
+  },
+  {
+   "q": "What is the Super Snapper FX?",
+   "aliases": [
+    "super snapper",
+    "curgle invention"
+   ],
+   "answer": "The Super Snapper FX is Curgle\u2019s invention, lent out so a picture of Gammerita can be made."
+  },
+  {
+   "q": "Where can I find Gammerita?",
+   "aliases": [
+    "gammerita location",
+    "where gammerita"
+   ],
+   "answer": "Gammerita is in the Hinterlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "daryn lightwind",
+  "gammerita",
+  "hinterlands",
+  "rut\u2019theran village",
+  "snapshot of gammerita",
+  "super snapper fx"
+ ],
+ "related": [
+  "quest:2944",
+  "item:super-snapper-fx",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Snapshot of Gammerita",
+  "The Super Snapper FX"
+ ]
+}

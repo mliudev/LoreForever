@@ -1,0 +1,108 @@
+{
+ "key": "item:gordunni-orb",
+ "type": "item",
+ "name": "Gordunni Orb",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Gordunni Orb",
+  "quests": [
+   "quest:2979",
+   "quest:3002"
+  ]
+ },
+ "summary": "A Gordunni Orb is a powerful magical object taken from the Gordunni in Feralas. Its magic may help reveal the purpose of their dark ceremony.",
+ "sections": [
+  {
+   "title": "A Mage's Orb",
+   "body": "Rok Orhan in Camp Mojache seeks a Gordunni Orb to learn more about the Gordunni and their magic. The orb is gathered from one of the Gordunni mage-lords. Its power may help uncover what their dark ceremony is for.",
+   "spoiler": 0
+  },
+  {
+   "title": "In Orgrimmar",
+   "body": "Rok Orhan sends the Gordunni Orb to Uthel'nay at Darkbriar Lodge in Orgrimmar. Uthel'nay recognizes its great power and warns that it is dangerous.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Gordunni Orb?",
+   "aliases": [
+    "gordunni orb",
+    "what orb",
+    "mage orb"
+   ],
+   "answer": "The Gordunni Orb is a powerful magical object held by Gordunni mage-lords in Feralas."
+  },
+  {
+   "q": "Who wants the orb?",
+   "aliases": [
+    "who wants orb",
+    "Rok Orhan orb",
+    "camp mojache orb"
+   ],
+   "answer": "Rok Orhan in Camp Mojache seeks the orb to learn more about the Gordunni and their magic."
+  },
+  {
+   "q": "What is the orb used for?",
+   "aliases": [
+    "orb purpose",
+    "why need orb",
+    "what does it do"
+   ],
+   "answer": "Rok Orhan hopes the orb's power will help reveal more about the Gordunni's dark ceremony."
+  },
+  {
+   "q": "Who can examine the orb?",
+   "aliases": [
+    "who examines orb",
+    "Uthel'nay",
+    "orb mage"
+   ],
+   "answer": "Uthel'nay at Darkbriar Lodge in Orgrimmar can tell more about the orb."
+  },
+  {
+   "q": "Why is the orb dangerous?",
+   "aliases": [
+    "orb danger",
+    "dangerous orb",
+    "is it powerful"
+   ],
+   "answer": "Uthel'nay says the Gordunni Orb is very powerful and dangerous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you may recognize why Rok Orhan seeks the orb: its magic could help reveal more about the Gordunni's ceremony."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can help Rok Orhan of Camp Mojache learn more about the Gordunni and plan their downfall."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "dark ceremony",
+  "darkbriar lodge",
+  "feralas",
+  "gordunni",
+  "gordunni orb",
+  "mage-lord",
+  "rok orhan",
+  "uthel'nay"
+ ],
+ "related": [
+  "quest:2979",
+  "quest:3002",
+  "zone:feralas",
+  "subzone:camp-mojache",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gordunni Orb",
+  "Dark Ceremony",
+  "The Gordunni Orb (Classic)"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "item:alterac-signet-ring",
+ "type": "item",
+ "name": "Alterac Signet Ring",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Alterac Signet Ring",
+  "quests": [
+   "quest:512"
+  ]
+ },
+ "summary": "An Alterac Signet Ring marks a Syndicate member as one of the former nobles behind the gang. Magistrate Maleb in Southshore seeks these rings to weaken the Syndicate's leadership.",
+ "sections": [
+  {
+   "title": "A Noble's Mark",
+   "body": "In the ruins of Strahnbrad, Alterac Signet Rings mark Syndicate agents who once belonged to Alterac's nobility. Magistrate Maleb in Southshore wants them gathered. He fears the Syndicate's leaders mean to ruin the town, and believes stripping them of their rings will leave the gang unable to act with purpose.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Alterac Signet Ring?",
+   "aliases": [
+    "alterac ring",
+    "syndicate signet",
+    "what's the ring"
+   ],
+   "answer": "An Alterac Signet Ring is worn by a Syndicate agent who is one of the gang's former nobles."
+  },
+  {
+   "q": "Who wants these rings?",
+   "aliases": [
+    "who wants ring",
+    "maleb rings",
+    "where bring signets"
+   ],
+   "answer": "Magistrate Maleb in Southshore wants the rings to weaken the Syndicate's leadership."
+  },
+  {
+   "q": "Where can I find the rings?",
+   "aliases": [
+    "ring location",
+    "where signet rings",
+    "get alterac ring"
+   ],
+   "answer": "Syndicate members in Alterac Mountains carry Alterac Signet Rings, and the ruins of Strahnbrad are thought to be the gang's headquarters."
+  },
+  {
+   "q": "Why does Maleb want the rings?",
+   "aliases": [
+    "why rings",
+    "maleb's plan",
+    "why collect signets"
+   ],
+   "answer": "Magistrate Maleb believes removing the Syndicate's former nobles will leave the gang unable to act decisively."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, Maleb asks you to help protect Southshore by weakening the Syndicate's leadership."
+  }
+ ],
+ "keywords": [
+  "alterac",
+  "alterac signet ring",
+  "magistrate maleb",
+  "nobility",
+  "noble",
+  "southshore",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "quest:512",
+  "zone:alterac"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Alterac Signet Ring",
+  "Noble Deaths"
+ ]
+}

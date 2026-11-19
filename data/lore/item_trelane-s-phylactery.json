@@ -1,0 +1,80 @@
+{
+ "key": "item:trelane-s-phylactery",
+ "type": "item",
+ "name": "Trelane's Phylactery",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Trelane's Phylactery",
+  "quests": [
+   "quest:696"
+  ]
+ },
+ "summary": "Trelane\u2019s Phylactery is one of three objects sought from the tower in Arathi Highlands. Skuerto at Refuge Pointe asks you to bring it back with Trelane\u2019s Orb and Trelane\u2019s Ember Agate.",
+ "sections": [
+  {
+   "title": "The Tower\u2019s Chests",
+   "body": "Skuerto at Refuge Pointe sends you to find Trelane\u2019s Phylactery in the tower. Trelane\u2019s Orb and Trelane\u2019s Ember Agate are there as well, kept in chests among the ogres. Bring all three objects back, and Malin will hear of your success.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Trelane\u2019s Phylactery?",
+   "aliases": [
+    "phylactery location",
+    "where is trelane's phylactery"
+   ],
+   "answer": "Trelane\u2019s Phylactery is in a chest inside the tower in Arathi Highlands."
+  },
+  {
+   "q": "Who wants the phylactery?",
+   "aliases": [
+    "who wants it",
+    "skuerto phylactery"
+   ],
+   "answer": "Skuerto at Refuge Pointe asks you to bring Trelane\u2019s Phylactery back with Trelane\u2019s Orb and Trelane\u2019s Ember Agate."
+  },
+  {
+   "q": "What else is in the tower\u2019s chests?",
+   "aliases": [
+    "other tower items",
+    "trelane items"
+   ],
+   "answer": "Trelane\u2019s Orb and Trelane\u2019s Ember Agate are also kept in chests inside the tower."
+  },
+  {
+   "q": "Why does Skuerto want these objects?",
+   "aliases": [
+    "why collect them",
+    "what does malin want"
+   ],
+   "answer": "Skuerto says Malin will be pleased when you return with Trelane\u2019s Phylactery, Trelane\u2019s Orb and Trelane\u2019s Ember Agate."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "ember agate",
+  "phylactery",
+  "refuge pointe",
+  "skuerto",
+  "tower",
+  "trelane",
+  "trelane's orb",
+  "trelane's phylactery"
+ ],
+ "related": [
+  "quest:696",
+  "item:trelane-s-orb",
+  "item:trelane-s-ember-agate",
+  "npc:skuerto",
+  "zone:arathi",
+  "subzone:refuge-pointe"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Trelane's Phylactery",
+  "Attack on the Tower (Classic)"
+ ]
+}

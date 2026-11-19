@@ -1,0 +1,91 @@
+{
+ "key": "item:sceptre-of-light",
+ "type": "item",
+ "name": "Sceptre of Light",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Sceptre of Light",
+  "quests": [
+   "quest:5741"
+  ]
+ },
+ "summary": "The Sceptre of Light is a relic said to sink cities beneath the sea. A Burning Blade seer holds it at Thunder Axe Fortress in Desolace.",
+ "sections": [
+  {
+   "title": "A Seer\u2019s Prize",
+   "body": "From a watchtower in Thunder Axe Fortress, a Burning Blade seer studies the Sceptre of Light. The Burning Blade is rumored to have taken it from the naga. Legends claim its power can sink entire cities beneath the sea, so Azore Aldamort at Ethel Rethor seeks its return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Sceptre of Light do?",
+   "aliases": [
+    "sceptre power",
+    "what can it do",
+    "light sceptre"
+   ],
+   "answer": "Legend says the Sceptre of Light can sink entire cities beneath the sea."
+  },
+  {
+   "q": "Who has the Sceptre of Light?",
+   "aliases": [
+    "who holds it",
+    "sceptre holder",
+    "burning blade sceptre"
+   ],
+   "answer": "A Burning Blade seer studies the Sceptre of Light from a watchtower at Thunder Axe Fortress."
+  },
+  {
+   "q": "Where is the Sceptre of Light?",
+   "aliases": [
+    "where's the sceptre",
+    "sceptre location",
+    "thunder axe sceptre"
+   ],
+   "answer": "The Sceptre of Light is held at Thunder Axe Fortress in Desolace."
+  },
+  {
+   "q": "Who wants the sceptre returned?",
+   "aliases": [
+    "who wants it",
+    "azore sceptre",
+    "ethel rethor"
+   ],
+   "answer": "Azore Aldamort at the tower in Ethel Rethor wants the Sceptre of Light returned."
+  },
+  {
+   "q": "Where did the Burning Blade get it?",
+   "aliases": [
+    "naga sceptre",
+    "where from",
+    "sceptre origin"
+   ],
+   "answer": "The Burning Blade is rumored to have acquired the Sceptre of Light from the naga."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azore aldamort",
+  "burning blade",
+  "desolace",
+  "ethel rethor",
+  "naga",
+  "sceptre of light",
+  "seer",
+  "thunder axe fortress"
+ ],
+ "related": [
+  "quest:5741",
+  "subzone:thunder-axe-fortress",
+  "subzone:ethel-rethor",
+  "zone:desolace",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sceptre of Light",
+  "Sceptre of Light (quest)"
+ ]
+}

@@ -49,14 +49,6 @@ P.transport["quest:1011"] = {
     {file = "Audio/Transport/full_quest_1011-29ee2006fedd127b37c5/1-0000.mp3", duration = 58.122449, start = 0},
   },
 }
-P.transport["quest:1012"] = {
-  hash = "9c30fc",
-  fullHash = "9c30fc",
-  text = "Insane Druids. In eastern Ashenvale, Kayneth Stillwind learns of a slaughter through a vision. The night elf sentinel is battling Forsaken toxins when the spirits of Dor'Danil Barrow Den's druids cry out in torment. While fighting the effects of Forsaken toxins in eastern Ashenvale, Kayneth Stillwind sees a massacre in a waking vision. Beneath the mounds of Dor'Danil Barrow Den, undead infiltrators poisoned the druids in their sleep and slaughtered them. The venom tore their souls from their bodies, leaving wild spirits shrieking in torment. Kayneth Stillwind asks you to quiet the suffering beneath Dor'Danil Barrow Den. The druids' phantoms were driven mad by their deaths and cannot find release in the underground chambers. Three leaders of their circle remain among the restless dead: Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak. Lay them to rest, and the den may begin to heal from its defilement.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1012-40224f727ce14058cc74/1-0000.mp3", duration = 57.0253061, start = 0},
-  },
-}
 P.transport["quest:1013"] = {
   hash = "d9c2e9",
   fullHash = "d9c2e9",
@@ -95,14 +87,6 @@ P.transport["quest:1020"] = {
   text = "Orendil's Cure. In Ashenvale, a child in Astranaar waits for Orendil's Cure. Orendil Broadleaf sends you with a remedy made from rare flora. Pelturas Whitemoon watches his daughter Relara waste away in Astranaar. A severe sickness has baffled those nearby. So he sought help from herbalists across Ashenvale before hope began to fade. Orendil Broadleaf brews a draught to halt Relara's affliction. It calls for several components, including Bathran's hair. He entrusts the cure to you and sends you south and east along the forest highway to Astranaar, where Relara waits.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1020-00ff600491606315cd0a/1-0000.mp3", duration = 37.7991837, start = 0},
-  },
-}
-P.transport["quest:1021"] = {
-  hash = "93e329",
-  fullHash = "93e329",
-  text = "Vile Satyr! Dryads in Danger!. In Ashenvale, Illiyana waits for word of her sisters, missing after setting out to recover a stolen relic. She asks passing Alliance travelers to find them in Xavian’s corrupted ruins. Dryad Illiyana waits in Ashenvale, fearing for her sisters. They went into the corrupted northern reaches of the forest to recover the Branch of Cenarius, a holy relic stolen by satyrs. They promised to return swiftly, but two days have passed without word. So Illiyana asks passing Alliance travelers to find them before it is too late.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1021-31575b9025f3eaf49f0b/1-0000.mp3", duration = 34.1420408, start = 0},
   },
 }
 P.transport["quest:1022"] = {
@@ -175,22 +159,6 @@ P.transport["quest:1030"] = {
   text = "Raene's Cleansing. In Ashenvale, Raene Wolfrunner seeks a way to speak with an uncorrupted furbolg. Southeast of Mystral Lake, Krolg reveals the resentment some surviving furbolgs hold toward the night elves. Raene Wolfrunner believes the late night elf meant to approach the furbolgs using Dartol’s restored Rod of Transformation. Ashenvale’s woods have grown perilous, and madness spreads through the tribes. There is no path to direct diplomacy. The rod gives you a furbolg’s shape, so you can try to pass their territorial rage and find someone willing to speak.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1030-8619081bdf316b487a0b/1-0000.mp3", duration = 34.5861224, start = 0},
-  },
-}
-P.transport["quest:1031"] = {
-  hash = "1a4b7d",
-  fullHash = "1a4b7d",
-  text = "The Branch of Cenarius. In eastern Ashenvale, Anilia's final plea sends you to recover the Branch of Cenarius. Geltharis has taken the sacred relic, and Illiyana awaits its return. Near death, Anilia lies where you search eastern Ashenvale for missing dryads. Cenarius's wounded daughter points north toward the satyr ruins. With her last breaths, she names Geltharis as the one who took the Branch of Cenarius. She begs you to bring it back. Geltharis hides among the ancient elven ruins of Xavian. The satyrs are ancient servants of the Burning Legion. They prize relics tied to Cenarius as trophies, to defile and mock. Taking the branch from Geltharis answers Anilia's plea and helps defend Ashenvale's sacred plants from the corruption these servants spread.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1031-aac9b40da3be9190f556/1-0000.mp3", duration = 46.7591837, start = 0},
-  },
-}
-P.transport["quest:1032"] = {
-  hash = "69fc39",
-  fullHash = "69fc39",
-  text = "Satyr Slaying!. At the Shrine of Aessina, Illiyana calls Alliance champions against Ashenvale's satyrs. She grieves for her sister Anilia and asks you to bring back satyr horns as proof. Anilia's death has left Illiyana grieving at the Shrine of Aessina. Dryads are forest spirits bound to nature, often playful and serene, yet elusive to mortals. Anilia's brutal slaying shattered that calm. Now Illiyana calls on Alliance travelers to strike down the demonic beasts responsible. Once night elves, the satyrs were corrupted by demonic energy during the War of the Ancients. They lurk in defiled groves across Ashenvale and prey on the woods' inhabitants as servants of the Burning Legion. Their horns prove vengeance to Illiyana and mark a strike against the fel presence encroaching on eastern Ashenvale.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1032-e53ce31ecf3abb62dd53/1-0000.mp3", duration = 50.6514286, start = 0},
   },
 }
 P.transport["quest:1033"] = {
@@ -305,14 +273,6 @@ P.transport["quest:1046"] = {
     {file = "Audio/Transport/full_quest_1046-c9d8cd78cca924c3c8c6/1-0000.mp3", duration = 22.9877551, start = 0},
   },
 }
-P.transport["quest:1050"] = {
-  hash = "a604c0",
-  fullHash = "a604c0",
-  text = "Mythology of the Titans. In Ironforge, Librarian Mae Paledust seeks Mythology of the Titans, a book said to have rested in Tirisfal's old Monastery. Its study may show what the past can teach about the unknown ahead. Before trouble came to Lordaeron, the old Monastery in Tirisfal Glades kept a library of knowledge. Mae asks you to bring her a book called Mythology of the Titans. It is said to be there, and she hopes its study will uncover secrets of the past.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1050-460dfadddecba501d3de/1-0000.mp3", duration = 29.675102, start = 0},
-  },
-}
 P.transport["quest:1054"] = {
   hash = "23a08f",
   fullHash = "23a08f",
@@ -353,14 +313,6 @@ P.transport["quest:1059"] = {
     {file = "Audio/Transport/full_quest_1059-5d7453bf2f99cbc2c8b9/1-0000.mp3", duration = 56.2155102, start = 0},
   },
 }
-P.transport["quest:106"] = {
-  hash = "71637f",
-  fullHash = "71637f",
-  text = "Young Lovers. Maybell Maclure loves Tommy Joe Stonefield, though their families are bitter rivals. She asks you to carry her letter to him by the river. The Stonefields and the Maclures have held their grudge for years in southern Elwynn's farm country. Maybell cannot visit Tommy Joe without stirring her family's anger. So she trusts travelers to carry her letters across the line between the two farms. Tommy Joe stays beyond his relatives' sight on the quiet riverbank just west of Stonefield Farm. A letter from Maybell brings relief and fresh longing. Being apart grows more than he can bear, and the pair begin seeking ways to meet in secret.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_106-caf8dc626e8f15c67ca2/1-0000.mp3", duration = 39.5755102, start = 0},
-  },
-}
 P.transport["quest:1060"] = {
   hash = "179ab4",
   fullHash = "179ab4",
@@ -399,14 +351,6 @@ P.transport["quest:1069"] = {
   text = "Deepmoss Spider Eggs. In Ratchet, Mebok Mizzyrix sees a chance to sell Deepmoss Spider Eggs to Booty Bay. Spider egg omelettes have become a craze there, so he sends travelers into the Stonetalon Mountains to gather fresh clutches for trade across the sea. Wealthy patrons and eccentric pirates in Booty Bay have taken to spider egg omelettes. Their taste has driven demand for rare ingredients across the Great Sea. Ratchet merchant Mebok Mizzyrix sees a chance to make a fortune by supplying the southern port. The Eastern Kingdoms have no spiders that provide these eggs, so Mebok looks to Kalimdor’s wilderness. Deepmoss spider eggs lie in the Stonetalon Mountains, where the Venture Company has cut timber. Find clutches beneath the trees still standing at Windshear Crag, or farther in, among the web-covered depths of Sishir Canyon. Gathering them means facing venomous bites and thick infestations. Even seasoned scavengers may find the swarms hard to stomach. Fresh eggs must cross the sea before they spoil or hatch. Mebok works with Ratchet’s Wharfmaster Dizzywig to book freight aboard goblin merchant ships bound for the docks of Stranglethorn Vale. Once the eggs are packed into crates, Mebok earns a tidy profit from the high seas trade in fine food.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1069-32f15ad693947e0152ae/1-0000.mp3", duration = 76.6955102, start = 0},
-  },
-}
-P.transport["quest:107"] = {
-  hash = "d5b704",
-  fullHash = "d5b704",
-  text = "Note to William. In southern Elwynn, Mildred asks William Pestle to help two young lovers. Her note travels to the apothecary in Goldshire, where she hopes he can help Maybell and Tommy Joe unite despite their families’ feud. Tommy Joe Stonefield and Maybell Maclure hide their love from their feuding families. The Stonefields and Maclures have lived as neighbors in southern Elwynn Forest for years. Yet their bitter rivalry makes even ordinary relations difficult. Gramma Mildred Stonefield pities the young lovers and seeks another way to bring them together. Mildred sends a courier north to the Lion's Pride Inn in Goldshire, where William Pestle works as an alchemist and apothecary. She has known him for many years, and believes persuasion alone cannot sway the feuding families. Her message asks for his help. When William receives it, Maybell and Tommy Joe's plight moves him, and he resolves to use his alchemical knowledge on their behalf.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_107-4d33841e6f7f843f9182/1-0000.mp3", duration = 55.9542857, start = 0},
   },
 }
 P.transport["quest:1070"] = {
@@ -673,84 +617,12 @@ P.transport["quest:1105"] = {
     {file = "Audio/Transport/full_quest_1105-8cf8b95a07ae27b4fe19/1-0000.mp3", duration = 49.5804082, start = 0},
   },
 }
-P.transport["quest:1106"] = {
-  hash = "06fca3",
-  fullHash = "06fca3",
-  text = "Martek the Exiled. At the Mirage Raceway, Fizzle Brassbolts seeks pistons strong enough for the engine he hopes will carry his car into the air. He sends you with a letter to Martek the Exiled, camped in the Badlands. After Salt Flat Venom, Fizzle tells you his new engine should make his car so fast it could fly. His trials have failed because he cannot forge pistons strong enough for the strain. He knows one smith who may help: Martek the Exiled, who knows more about metal than anyone. Martek camps far away in the Badlands with a goblin, and you carry Fizzle's letter to him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1106-3e4e5d7baf7a3b72c616/1-0000.mp3", duration = 34.324898, start = 0},
-  },
-}
-P.transport["quest:1107"] = {
-  hash = "68f372",
-  fullHash = "68f372",
-  text = "Encrusted Tail Fins. At the Mirage Raceway, Wizzle Brassbolts fears the rocket car’s speed will tear it apart. Saltscale murloc tail fins from the Vile Reef off Stranglethorn Vale may protect it. Wizzle calls the rocket car the fastest thing on the Shimmering Flats. Yet friction may tear it apart. Its moving parts need a coating that is hard without being brittle and can resist salt corrosion. Otherwise, the flats will eat away at the car. The key ingredient is ten tail fins from the Saltscale murlocs at the Vile Reef off Stranglethorn Vale.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1107-0f8ca974244bdc9be0c8/1-0000.mp3", duration = 34.6906122, start = 0},
-  },
-}
-P.transport["quest:1108"] = {
-  hash = "d22532",
-  fullHash = "d22532",
-  text = "Indurium. In the Badlands, Martek the Exiled seeks metal samples for Fizzle's car. Indurium is said to endure heat and stress, and Stonevault troggs sometimes carry flakes. Martek the Exiled stays in the Badlands for more than solitude. He thinks indurium might suit Fizzle's car because it is said to endure heat and stress. He wants samples for a test, with the forge ready. True indurium ore lies deep in Uldaman, but Stonevault troggs in the Badlands sometimes carry flakes. Martek asks for ten. The troggs roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1108-592c63c9d00b202a0815/1-0000.mp3", duration = 40.6987755, start = 0},
-  },
-}
 P.transport["quest:1110"] = {
   hash = "31f8b8",
   fullHash = "31f8b8",
   text = "Rocket Car Parts. At the Mirage Raceway, Rocket Car Parts lie scattered across the Shimmering Flats after racers crash. Kravel Koalbeard pays travelers to gather the wreckage and sell it back to rival crews. Goblin and gnomish engineers race to outdo one another across the Shimmering Flats. Their experimental rocket cars often fail at speed. Twisted gears, cylinders, and jagged metal scatter over the white desert. As pit crews build and tune their next machines, the salt flats gather what the racers leave behind. Kravel Koalbeard makes his profit as a middleman at the Mirage Raceway instead of competing on the track. Gnome and goblin mechanics use parts quickly and are always short of spare mechanisms for their vehicles. So Koalbeard pays travelers to gather thirty bundles of shattered debris. He turns each crash into stock he can sell back to the crews.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1110-d3a23da8cb371c40a23b/1-0000.mp3", duration = 54.1257143, start = 0},
-  },
-}
-P.transport["quest:1111"] = {
-  hash = "51dabd",
-  fullHash = "51dabd",
-  text = "Wharfmaster Dizzywig. At the Mirage Raceway, Kravel Koalbeard sends you to Ratchet for parts the gnomes are waiting on. Kravel Koalbeard tends to the needs of the Mirage Raceway. A batch of parts reached Ratchet a week ago, and the gnomes are waiting. Since Kravel cannot make the journey himself, he asks you to carry his order. If you do, he promises more work with serious profit potential. Ratchet lies in the Barrens, where Kravel expects Wharfmaster Dizzywig to be at the docks. The goblin is the one you need to see. You carry Kravel's Parts Order there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1111-28209347d0d1e11bbdff/1-0000.mp3", duration = 35.9183673, start = 0},
-  },
-}
-P.transport["quest:1112"] = {
-  hash = "42259a",
-  fullHash = "42259a",
-  text = "Parts for Kravel. At the Mirage Raceway, Kravel Koalbeard awaits the package you carry from Wharfmaster Dizzywig. Dizzywig sends a warning with it: Kravel must pay his tab before he can receive more special orders. Wharfmaster Dizzywig gives you a package for Kravel Koalbeard at the Mirage Raceway. The Raceway lies in the Shimmering Flats of Thousand Needles. Dizzywig asks you to carry a warning with the package: Kravel must pay what he owes before he can receive more special orders.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1112-e3fd5104847c867d48a6/1-0000.mp3", duration = 30.5110204, start = 0},
-  },
-}
-P.transport["quest:1114"] = {
-  hash = "a0d40a",
-  fullHash = "a0d40a",
-  text = "Delivery to the Gnomes. Kravel Koalbeard sends Delicate Car Parts from the Mirage Raceway to Fizzle Brassbolts in the Shimmering Flats. Fizzle has waited a long time for them, and Kravel asks you to keep quiet about one small piece he removed. Kravel Koalbeard sends the parts to Fizzle Brassbolts, who has waited a long time for them. Kravel admits he removed one little piece from Fizzle's order. He says it is small and worthless, and that Fizzle will not miss it. Then he asks you to trust him and leave it unmentioned.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1114-71e003f8b2485a71b3a2/1-0000.mp3", duration = 29.2571429, start = 0},
-  },
-}
-P.transport["quest:1115"] = {
-  hash = "e5c3e1",
-  fullHash = "e5c3e1",
-  text = "The Rumormonger. At the Mirage Raceway, Kravel Koalbeard now has a question about Nazz Steamboil. The goblin racer pilot once used another name, and Kravel wonders whether the secret could bring profit. He sends you to Krazek in Booty Bay, who may know. Kravel Koalbeard says the goblins are next in line for a favor. He has heard that Nazz Steamboil, the goblin racer pilot, once used another name. Why did it change? Might Nazz be keeping a secret? Kravel believes Krazek knows the truth. You can find Krazek at the Salty Sailor Tavern in Booty Bay, at Stranglethorn's southern tip. Useful information might turn a profit.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1115-b17eb5efbadc0575c3ac/1-0000.mp3", duration = 38.7657143, start = 0},
-  },
-}
-P.transport["quest:1116"] = {
-  hash = "53b276",
-  fullHash = "53b276",
-  text = "Dream Dust in the Swamp. In the Swamp of Sorrows, Krazek asks you to gather ten specks of dream dust from dragon whelps. He contacts sources about Nazz while seeking dust for his snuff pouch. Bring it back to him for the information you seek. Krazek says that learning about Nazz is a considerable favor, and you have traveled a long way from the Shimmering Flats to ask. While he contacts sources, he asks you to gather ten specks of dream dust from dragon whelps in the Swamp of Sorrows. The dust is for his snuff pouch. Bring it back, and Krazek will give you the information you seek. Green dragons in the Swamp of Sorrows carry dream dust. Adolescent whelps and dreaming whelps can be found in the swamp’s south-western corner.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1116-1768d9cc837b38597734/1-0000.mp3", duration = 43.5461224, start = 0},
-  },
-}
-P.transport["quest:1117"] = {
-  hash = "88d885",
-  fullHash = "88d885",
-  text = "Rumors for Kravel. At last, Krazek has a letter about Nazz Steamboil for you to carry to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats. Keep its origin secret. Krazek spent favors, a rare bottle of elven wine, and hours of deducing to learn about Nazz Steamboil. His letter holds very interesting bits about the goblin racer pilot. Krazek considers the letter too dangerous to use and leaves it to you, provided nobody learns where it came from. Carry it to Kravel Koalbeard on the Shimmering Flats.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1117-949d36358a2fc5ded93e/1-0000.mp3", duration = 31.5036735, start = 0},
   },
 }
 P.transport["quest:1130"] = {
@@ -801,22 +673,6 @@ P.transport["quest:1135"] = {
     {file = "Audio/Transport/full_quest_1135-cdc20e62d87d39e4a835/1-0000.mp3", duration = 50.9910204, start = 0},
   },
 }
-P.transport["quest:1136"] = {
-  hash = "d355c4",
-  fullHash = "d355c4",
-  text = "Frostmaw. In the Alterac Mountains, a rare yeti hunt calls you far from home. Melor Stonehoof sends you after Frostmaw and awaits his mane in Thunder Bluff. Melor Stonehoof sends you far from home to hunt Frostmaw in the Alterac Mountains. The yeti’s white coat blends with the mountain snow, and he rarely shows himself. Melor gives you a scroll explaining how to lure him. Bring Frostmaw’s mane back to Melor in Thunder Bluff, and your journey will be complete.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1136-e1f5fef32688cd7f1f4d/1-0000.mp3", duration = 27.8204082, start = 0},
-  },
-}
-P.transport["quest:1137"] = {
-  hash = "787b5c",
-  fullHash = "787b5c",
-  text = "News for Fizzle. In the Badlands, Martek the Exiled has news for Fizzle Brassbolts about indurium. You carry his message to the Mirage Raceway on the Shimmering Flats in Thousand Needles. Martek says indurium withstands heat remarkably well, so it may suit Fizzle's pistons. Flakes will not do; Fizzle needs real indurium ore, dug from deep within Uldaman at the Badlands' northern edge. Martek names Uldaman as indurium's true source. He sends his regards and asks you to repeat all he has told you to Fizzle Brassbolts.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1137-b968fac1d4d4c0fd8bd9/1-0000.mp3", duration = 33.0187755, start = 0},
-  },
-}
 P.transport["quest:1140"] = {
   hash = "0942c8",
   fullHash = "0942c8",
@@ -839,22 +695,6 @@ P.transport["quest:1143"] = {
   text = "The Tower of Althalaxx. Dark rites at the Tower of Althalaxx threaten northern Darkshore. Balthule Shadowstrike leads an Alliance assault on Athrikus Narassin, the ancient sorcerer who commands the cult from the tower’s peak. In northern Darkshore, the ruined Tower of Althalaxx shelters demonic rites. Balthule Shadowstrike watches from nearby and sees the danger must be faced now. Athrikus Narassin, an ancient night elf warlock, dwells at the summit. Beneath the shattered roof, he directs the dark rituals.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1143-3a1bdb4f8a51731405ce/1-0000.mp3", duration = 32.8359184, start = 0},
-  },
-}
-P.transport["quest:1147"] = {
-  hash = "9e52f8",
-  fullHash = "9e52f8",
-  text = "The Swarm Grows. At Ironstone Camp, Moktar Krin says Belgrom wants the silithid driven back underground. His war party is too weakened to fight, so you are sent to the dig site south of camp to face them. Moktar Krin says Belgrom considers the silithid a threat and wants them driven back into the depths they came from. Moktar's war party has already killed the dwarves sent by the Explorers' League, but the fighters are in no state for another battle.\n\nThe dig site lies south of Ironstone Camp, and Moktar expects no more dwarves there. You are to kill the silithid Searchers, hive drones and invaders. Moktar's party cannot leave until the work is done.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1147-01f43890e0573317a816/1-0000.mp3", duration = 40.437551, start = 0},
-  },
-}
-P.transport["quest:1148"] = {
-  hash = "3f0010",
-  fullHash = "3f0010",
-  text = "Parts of the Swarm. In Thousand Needles, you find a cracked silithid carapace and see how tightly its plating is woven. Korran at the Crossroads wants to study more of these creatures. You find silithid chitin woven tighter than anything you have seen. The creature's body shows great strength and advanced development. Korran at the Crossroads wants to learn more about the creatures and their origins. He asks for one silithid heart, five silithid talons and three intact silithid carapaces.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1148-308314a6f29fefe7d950/1-0000.mp3", duration = 30.3542857, start = 0},
   },
 }
 P.transport["quest:1149"] = {
@@ -921,28 +761,12 @@ P.transport["quest:1159"] = {
     {file = "Audio/Transport/full_quest_1159-0e4fa0a61f99535e22dc/1-0000.mp3", duration = 61.1526531, start = 0},
   },
 }
-P.transport["quest:1164"] = {
-  hash = "e27851",
-  fullHash = "e27851",
-  text = "To Steal From Thieves. Genavie Callow in Undercity asks you to confront the Dabyrie family at their farmstead in Arathi. Her grievance turns a dispute over stolen belongings into a demand for vengeance. Genavie Callow says the plague took her family and the war left her estate looted and burned. She accuses Kenata and her children of taking the few belongings she still treasured. Now she asks you to bring her the heads of Kenata, Fardel, and Marcel Dabyrie from the Dabyrie Farmstead in Arathi.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1164-e20ebd8ad4740b1cbd1a/1-0000.mp3", duration = 29.7012245, start = 0},
-  },
-}
 P.transport["quest:1167"] = {
   hash = "1530d7",
   fullHash = "1530d7",
   text = "The Tower of Althalaxx. Before you face Athrikus Narassin, Delgren sends you north to speak with Balthule Shadowstrike. The scout has watched the Tower of Althalaxx and can tell you what has changed there. Delgren the Purifier sends you north to meet Balthule Shadowstrike, his sentinel partner. You have purified corrupted relics and weakened the cult's hold along Darkshore's border. Before you confront Athrikus, Delgren wants fresh intelligence from Balthule. The sentinel has kept watch from the ruins overlooking the tower.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1167-a5e38ef5a561065ad73b/1-0000.mp3", duration = 31.0595918, start = 0},
-  },
-}
-P.transport["quest:1175"] = {
-  hash = "512182",
-  fullHash = "512182",
-  text = "A Bump in the Road. At the Mirage Raceway, Trackmaster Zherin needs the growing beasts kept from the track. You are asked to thin the Saltstone Basilisks, Crystalhides and Gazers before they wander onto it. A basilisk once struck the goblins' racer, the Red Thunder. After the crash, Kronkrider hired Zherin to watch over the Mirage Raceway track. Zherin does not know what the beasts on the Shimmering Flats are eating. He knows only that they have grown too big.\n\nTheir numbers must be kept down before one strays onto the course during a race. Clearing wreckage is bad enough. Zherin would rather not pick burnt animal parts out of it as well.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1175-cafa89068ac462f83fab/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["quest:1176"] = {
@@ -953,76 +777,12 @@ P.transport["quest:1176"] = {
     {file = "Audio/Transport/full_quest_1176-580fd88637a164914360/1-0000.mp3", duration = 53.4726531, start = 0},
   },
 }
-P.transport["quest:1177"] = {
-  hash = "e578dd",
-  fullHash = "e578dd",
-  text = "Hungry!. Mudcrush Durtfeet is hungry in northern Dustwallow Marsh and wants food from you. Bash the fishy Mirefin and bring back their heads, or Mud will eat you. Mudcrush Durtfeet, an ogre called Mud, makes a plain bargain. Bash the fishy Mirefin and bring him their heads for food. Feed Mud, or he will eat you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1177-bf80ac5bfdda6cb61453/1-0000.mp3", duration = 27.6114286, start = 0},
-  },
-}
-P.transport["quest:1178"] = {
-  hash = "90fdac",
-  fullHash = "90fdac",
-  text = "Goblin Sponsorship. The goblin racers are waiting on a promised part as the gnomes gain ground. Pozzik sends you to Ratchet to ask Gazlowe what happened. Pozzik calls the racing team the pride of goblins. Many people help it in one way or another. Gazlowe searches the world for parts and once came to work on one of its rigs.\n\nWeeks ago, Gazlowe promised a new prototype fuel regulator, but it has not arrived. He is usually prompt, so Pozzik asks you to go to Ratchet and learn what happened. The gnomes are gaining.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1178-567400f24136b37ec6db/1-0000.mp3", duration = 32.5746939, start = 0},
-  },
-}
 P.transport["quest:1179"] = {
   hash = "96cb62",
   fullHash = "96cb62",
   text = "The Brassbolts Brothers. Pilot Longbeard in Ironforge needs a traveler to carry helmets to the Brassbolts Brothers. Their test drivers keep crashing rocket cars at the Shimmering Flats, so the gnomes need head protection. Pilot Longbeard, a dwarven aviator in Ironforge, has an urgent request from the Shimmering Flats in southern Kalimdor. His friends, the inventive gnome Brassbolts brothers, have settled on its vast salt pans to race experimental machines. Longbeard's military and piloting duties keep him busy, so he cannot carry their supplies himself. The Brassbolts' rocket car races across the salt beds at extraordinary speed. Yet its test drivers keep crashing and suffering severe concussions. Longbeard has gathered a crate of heavy-duty dwarven Siege Engine helmets to protect them. You carry the crate across the sea to Kalimdor, giving the gnomes the protection they need to bring reluctant pilots back behind the wheel.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1179-0e193b277ad6cf7ce9b4/1-0000.mp3", duration = 56.3461224, start = 0},
-  },
-}
-P.transport["quest:1180"] = {
-  hash = "50aaff",
-  fullHash = "50aaff",
-  text = "Goblin Sponsorship. Gazlowe in Ratchet still waits for the fuel regulator he promised Pozzik. Revilgaz in Booty Bay said he would ship it, but it has not arrived. So Gazlowe sends you to Wharfmaster Lozgil at the far northwestern end of the Booty Bay docks to check the cargo records. Gazlowe promised Pozzik a new fuel regulator, but it has not reached Ratchet. Revilgaz in Booty Bay said he would ship it over. Perhaps the part slipped through the cracks. If it never left, there may be little to do. Still, you can find out whether it departed Booty Bay. Wharfmaster Lozgil, at the far northwestern end of the docks, can search the cargo records.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1180-e9bbc468d983951d8bdc/1-0000.mp3", duration = 39.0791837, start = 0},
-  },
-}
-P.transport["quest:1181"] = {
-  hash = "20af35",
-  fullHash = "20af35",
-  text = "Goblin Sponsorship. At the Mirage Raceway, the goblin racers still need their missing fuel regulator. Wharfmaster Lozgil sends you to Baron Revilgaz in Booty Bay for help. Wharfmaster Lozgil can do little more to trace the missing shipment bound for Ratchet. He sends you to Baron Revilgaz, since the Baron knows his own business best. You will find him on the top floor of the tavern across the harbor in Booty Bay.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1181-0718e3ece3cd57a1dcfe/1-0000.mp3", duration = 25.077551, start = 0},
-  },
-}
-P.transport["quest:1182"] = {
-  hash = "ff1ec4",
-  fullHash = "ff1ec4",
-  text = "Goblin Sponsorship. Baron Revilgaz is seeking the Venture Company’s new fuel regulator plans for Pozzik at Lake Nazferiti. Foreman Cozzle has outsmarted him, so the Baron sends you after the blueprints. Baron Revilgaz says the Venture Company’s shredders at Lake Nazferiti in northern Stranglethorn carry a new model of fuel regulator. Pozzik could use its details, but Foreman Cozzle has proved cleverer than the Baron expected. So Revilgaz believes you may have better luck finding the plans.\n\nThe blueprints are kept in Cozzle’s house, almost certainly under lock and key. The Venture Company’s base lies around Lake Nazferiti, in the vale’s north-eastern corner. Cozzle keeps the key in his cabin atop the oil tower. The box of blueprints is in the small house near the tower’s base. Revilgaz admits the gnome team there is good, and his team needs every advantage it can find.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1182-0ab65ff257b0df17196c/1-0000.mp3", duration = 55.1444898, start = 0},
-  },
-}
-P.transport["quest:1183"] = {
-  hash = "22a312",
-  fullHash = "22a312",
-  text = "Goblin Sponsorship. At the Shimmering Flats, Baron Revilgaz's regards reach Pozzik with the Fuel Regulator Blueprints. The Baron invites Pozzik to ask for anything he needs. Baron Revilgaz sends you to the Shimmering Flats with the Fuel Regulator Blueprints and his regards for Pozzik. The Baron says Pozzik should ask if he ever needs anything. Revilgaz waits to hear that Pozzik breaks the track record.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1183-1f5a4d11001574dd8319/1-0000.mp3", duration = 23.6146939, start = 0},
-  },
-}
-P.transport["quest:1184"] = {
-  hash = "bcbfdb",
-  fullHash = "bcbfdb",
-  text = "Parts of the Swarm. From Thousand Needles, Korran sends word to Orgrimmar about Moktar and his studies. Korran sends you to Belgrom Rockmaul in Orgrimmar with word from Thousand Needles. The cracked carapaces came from silithid at the Rustmaul Digsite. Tell Belgrom that Moktar is doing his bidding well and that Korran's studies are progressing. Korran hopes to learn more soon.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1184-e8f16db754a6d8e17daa/1-0000.mp3", duration = 23.0138776, start = 0},
-  },
-}
-P.transport["quest:1186"] = {
-  hash = "c11a89",
-  fullHash = "c11a89",
-  text = "The Eighteenth Pilot. On the Shimmering Flats, Pozzik sends you to find Razzeric while he works on the racers. Razzeric is the team's eighteenth pilot, and he enjoys modifying the racers. Pozzik is fitting a new fuel regulator into the racer designs. He sends you to Razzeric on the Shimmering Flats, the team's eighteenth pilot. Razzeric likes to modify the racers. Pozzik says he is a little off his rocker, so try not to look too surprised.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1186-e1509b242abf79a8821e/1-0000.mp3", duration = 26.0179592, start = 0},
   },
 }
 P.transport["quest:1195"] = {
@@ -1073,70 +833,6 @@ P.transport["quest:1200"] = {
     {file = "Audio/Transport/full_quest_1200-b1e610af9672e28732cc/1-0000.mp3", duration = 64.5485714, start = 0},
   },
 }
-P.transport["quest:1201"] = {
-  hash = "75073a",
-  fullHash = "75073a",
-  text = "Theramore Spies. In Dustwallow, Horde and Alliance keep an uneasy truce, though skirmishes and covert deeds continue. Nazeer Bloodpike wants Alliance infiltrators east of Brackenwall Village hunted down and slain. Alliance spies watch Brackenwall Village from the islands to its east. They send word of Horde movements back to Theramore.\n\nNazeer Bloodpike, the village spymaster, sends you to find and kill them. Their superiors must know such spies are unwelcome.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1201-39b606ed0f17efd40ae3/1-0000.mp3", duration = 30.197551, start = 0},
-  },
-}
-P.transport["quest:1202"] = {
-  hash = "b8eb18",
-  fullHash = "b8eb18",
-  text = "The Theramore Docks. At Theramore Docks, papers taken from a ship lie beneath the water. Nazeer Bloodpike sends you to recover them after two spies were discovered and cast them into the sea. After dealing with the Theramore spies, you hear from Nazeer Bloodpike again. Two spies went to a ship by the Theramore docks and took its papers. They were discovered and threw the papers into the sea. One spy escaped and reported the failure, unable to retrieve what they had cast away. The Captain's Documents lie in a footlocker beneath the water by the Theramore docks. You are sent to recover them and bring them to Nazeer Bloodpike in Brackenwall Village. He says the papers matter greatly to the Alliance's stability. That makes them important to the Horde's security, too.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1202-4984e0d0bb167c49f7ae/1-0000.mp3", duration = 45.0089796, start = 0},
-  },
-}
-P.transport["quest:1203"] = {
-  hash = "8349fa",
-  fullHash = "8349fa",
-  text = "Jarl Needs a Blade. In Dustwallow Marsh, Jarl needs a blade for urgent cutting. “Swamp Eye” Jarl wants a moonsteel broadsword and warns you not to dawdle. “Swamp Eye” Jarl has cutting to do, but keeps its purpose to himself. He asks for a particular blade, called a moonsteel broadsword by some and a swing blade by Jarl. You might find one in town, or ask a blacksmith to make one special. Jarl warns you not to sleep on it; whatever needs cutting will not keep forever.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1203-93d4bb4f0f33f2476688/1-0000.mp3", duration = 31.2163265, start = 0},
-  },
-}
-P.transport["quest:1204"] = {
-  hash = "9045cf",
-  fullHash = "9045cf",
-  text = "Mudrock Soup and Bugs. In Theramore, Morgan Stern hopes to win Stormwind City over with a new dish. The trek through Dustwallow Marsh is too much for Morgan Stern, so you gather Mudrock tongues for Mudrock Soup and Bugs. Morgan Stern is gathering ingredients for a new dish in Theramore. A long trek through Dustwallow Marsh is more than Morgan Stern expects to survive, so you hunt Mudrock turtles. Their tongues are needed first. Mudrock turtles roam the coast of Dustwallow Marsh, mostly around the bay. Morgan Stern wants forked tongues in particular, having heard they bring a distinct flavor to the dish.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1204-cbe01116fb35aeebfaa2/1-0000.mp3", duration = 38.0342857, start = 0},
-  },
-}
-P.transport["quest:1206"] = {
-  hash = "be2f78",
-  fullHash = "be2f78",
-  text = "Jarl Needs Eyes. At Swamplight Manor, Jarl seeks forty unpopped Darkmist eyes for their smooth, salty juice. The spiders live in Darkmist Cavern, west of the manor. After Soothing Spices, Jarl turns to eye juice, a drink they enjoy. Most creatures have only two eyes, but spiders have many. Jarl likes the taste of Darkmist eye juice. The Darkmist spiders live in Darkmist Cavern, west of the manor. Jarl wonders whether the cave took its name from the spiders, or the spiders from the cave.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1206-688a867c0fa67c4e59c5/1-0000.mp3", duration = 32.3918367, start = 0},
-  },
-}
-P.transport["quest:1218"] = {
-  hash = "7f8be9",
-  fullHash = "7f8be9",
-  text = "Soothing Spices. In Dustwallow Marsh, \"Swamp Eye\" Jarl needs three Soothing Spices for a stew. \"Swamp Eye\" Jarl loves swamp cooking, including fried green frog legs. Now Jarl plans a stew and needs soothing spice for the pot. Bring three Soothing Spices, and Jarl will share the stew with you. Does stew suit your taste?",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1218-6d3b8690190bd3dcaaca/1-0000.mp3", duration = 21.8383673, start = 0},
-  },
-}
-P.transport["quest:1219"] = {
-  hash = "e0c3e0",
-  fullHash = "e0c3e0",
-  text = "The Orc Report. In Dustwallow Marsh, you find a severed orc hand gripping a bone tube. Inside lies a dirt-stained parchment in Orcish, meant for a Theramore Lieutenant. In the loose dirt, you find a severed orc hand gripping a tube carved from bone. Inside is a dirt-stained parchment written in Orcish. It seems significant, and a Theramore Lieutenant is the one to show it to.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1219-06bca3624b94dcd1d557/1-0000.mp3", duration = 24.32, start = 0},
-  },
-}
-P.transport["quest:1220"] = {
-  hash = "3f5080",
-  fullHash = "3f5080",
-  text = "Captain Vimes. Near Theramore, Lieutenant Aden sends you to Captain Garran Vimes with an orc report and word of Horde spies. Lieutenant Aden sends you to Captain Garran Vimes with the orc report you found. Vimes reads orcish better than most, so Aden wants him to know that Horde spies are close to Theramore. You’ll find Vimes at the barracks on the northeastern side of Theramore Isle.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1220-092bb427bfd6e830931c/1-0000.mp3", duration = 23.797551, start = 0},
-  },
-}
 P.transport["quest:1221"] = {
   hash = "13fa84",
   fullHash = "13fa84",
@@ -1145,44 +841,12 @@ P.transport["quest:1221"] = {
     {file = "Audio/Transport/full_quest_1221-64b8c121a0e588c428e9/1-0000.mp3", duration = 59.924898, start = 0},
   },
 }
-P.transport["quest:1222"] = {
-  hash = "435bfc",
-  fullHash = "435bfc",
-  text = "Stinky's Escape. In the swamp, \"Stinky\" Ignatz is searching for bogbean leaves for a cook in Theramore. Critters have surrounded him, and he asks you to guard him while he looks for a plant. When he is done, Morgan Stern is waiting in Theramore. \"Stinky\" Ignatz is glad to find someone who does not see him as a meal. Morgan Stern, a cook in Theramore, sent him to gather bogbean leaves for a new recipe. Ignatz guesses Stern finds them tasty. Now critters have surrounded him, and he asks you to guard his back while he searches for a bogbean plant. Morgan Stern, a cook in Theramore, is anxious. Ignatz went into the swamp a while ago and has not returned.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1222-e917dad49db2eb16b117/1-0000.mp3", duration = 40.0979592, start = 0},
-  },
-}
-P.transport["quest:1238"] = {
-  hash = "94027f",
-  fullHash = "94027f",
-  text = "The Lost Report. In Dustwallow Marsh, you uncover a spy's report bound for Brackenwall Village. An orc's severed hand grips a bone tube holding a dirt-stained account of weeks spent watching Theramore. You find an orc's severed hand in loose dirt, its fingers closed around a tube carved from bone. Inside lies a dirt-stained parchment. It reports on Theramore after weeks of spying and is meant for Nazeer Bloodpike, the orcs' spymaster at Brackenwall Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1238-424ad4967a4359ea0199/1-0000.mp3", duration = 30.0930612, start = 0},
-  },
-}
-P.transport["quest:1239"] = {
-  hash = "e32724",
-  fullHash = "e32724",
-  text = "The Severed Head. In Dustwallow Marsh, you uncover a male orc's severed head. Bring it to Nazeer Bloodpike in Brackenwall Village. Your digging turns up a male orc's head, ragged where it was cut from the neck. Its lips curl in a snarl, and dark eyes glare defiantly. Bring the head to Nazeer Bloodpike in Brackenwall Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1239-a7874959039cc17a158e/1-0000.mp3", duration = 21.0546939, start = 0},
-  },
-}
 P.transport["quest:124"] = {
   hash = "2ff75d",
   fullHash = "2ff75d",
   text = "A Baying of Gnolls. Gnolls have reached Verner Osgood’s stable in Lakeshire, where Blackrock orcs already threaten the region. Verner asks you to drive away the brutes and mystics that endanger his horses. Verner Osgood’s stable in Lakeshire has grown dangerous to tend. Blackrock orcs hold the heights, while gnoll packs roam the ridges around town. Now gnoll raiders have reached the northern edge of Verner’s paddocks. They prey on horses that stray too close to the bluffs.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_124-6d5794dbc9566ff7cf2a/1-0000.mp3", duration = 29.5706122, start = 0},
-  },
-}
-P.transport["quest:1240"] = {
-  hash = "274ec1",
-  fullHash = "274ec1",
-  text = "The Troll Witchdoctor. Nazeer Bloodpike seeks the truth about Marg Nighteye's death through troll witch-magic. You carry Marg's head to Kin'weelay at Grom'gol Base Camp in Stranglethorn Vale. Nazeer Bloodpike insists the truth about Marg's death must come to light. He says only troll witch-magic can reveal what happened. So you carry Marg's head to Kin'weelay at Grom'gol Base Camp in Stranglethorn Vale. No Darkspear witchdoctor is mightier than Kin'weelay, and Nazeer believes Kin'weelay can reach Marg's spirit.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1240-a82d4e415f6c7f0780ec/1-0000.mp3", duration = 30.8767347, start = 0},
   },
 }
 P.transport["quest:1241"] = {
@@ -1241,46 +905,6 @@ P.transport["quest:1247"] = {
     {file = "Audio/Transport/full_quest_1247-b623df957e6a1916acb1/1-0000.mp3", duration = 33.2538776, start = 0},
   },
 }
-P.transport["quest:1248"] = {
-  hash = "ceb668",
-  fullHash = "ceb668",
-  text = "The Missing Diplomat. You follow the trail of a kidnapped Stormwind diplomat to Menethil Harbor. An intercepted docket confirms the abduction but leaves the diplomat's identity and the conspirators' destination unknown. You have a docket that confirms a diplomat was taken from Stormwind. It names neither the diplomat nor the conspirators' destination. So the trail leads beyond Stormwind's gates to Menethil Harbor in the Wetlands, where you can search among the harbor crowds and their secret dealings.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1248-bd76431630611570da25/1-0000.mp3", duration = 28.2906122, start = 0},
-  },
-}
-P.transport["quest:1249"] = {
-  hash = "66b1f6",
-  fullHash = "66b1f6",
-  text = "The Missing Diplomat. Stormwind's envoy is missing, and you follow the trail from the capital to Menethil Harbor. There, the inquiry crosses paths with underworld figures and operatives tied to Stormwind's intelligence network. You follow the missing Stormwind envoy's trail north to Menethil Harbor in the Wetlands. Its docks and taverns hide shady dealers and covert runners, all working under the local guard's nose. To follow the leads through this port, you must deal with people who know the darker side of Alliance territory.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1249-f8f6803478e27f7c11d1/1-0000.mp3", duration = 30.6416327, start = 0},
-  },
-}
-P.transport["quest:1250"] = {
-  hash = "b9c153",
-  fullHash = "b9c153",
-  text = "The Missing Diplomat. Jahn says the Defias took the king from his ship while it lay moored. You are sent to Mikhail in the Wetlands as the search for Hendel continues. Jahn says the Defias put a man named Hendel aboard the king's ship while it was moored. The king was bound for Theramore to meet Jaina Proudmoore. Jahn believes the Defias worked with someone else, so you are asked to speak with Mikhail in the Wetlands as the search for Hendel begins.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1250-4c297cfbc8f9fd75a350/1-0000.mp3", duration = 26.3836735, start = 0},
-  },
-}
-P.transport["quest:1251"] = {
-  hash = "bcf0de",
-  fullHash = "bcf0de",
-  text = "The Black Shield. At the burned Shady Rest Inn, a black shield clings to the crumbling chimney. Krog at Brackenwall Village waits to see it. Fire swept through the Shady Rest Inn and left little behind. An iron shield, charred black, is fixed to the crumbling chimney. You can work it free of the brick and bring it to Krog at Brackenwall Village. He will ask whether it counts as evidence from the inn’s remains.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1251-04fe5c757d77dd759f79/1-0000.mp3", duration = 26.2269388, start = 0},
-  },
-}
-P.transport["quest:1253"] = {
-  hash = "3ea98b",
-  fullHash = "3ea98b",
-  text = "The Black Shield. At the burned Shady Rest Inn, a fire-blackened shield hangs from the crumbling chimney. Captain Garran Vimes in Theramore awaits evidence from the ruins. Few parts of the burned Shady Rest Inn remain beyond a crumbling chimney. A fire-blackened iron shield is still fixed to its brick, and can be removed. Captain Garran Vimes in Theramore awaits evidence from the inn site.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1253-010460f9cdae9cf043bc/1-0000.mp3", duration = 25.3910204, start = 0},
-  },
-}
 P.transport["quest:126"] = {
   hash = "f97b05",
   fullHash = "f97b05",
@@ -1289,76 +913,12 @@ P.transport["quest:126"] = {
     {file = "Audio/Transport/full_quest_126-66546b828d7d84bd3ef7/1-0000.mp3", duration = 60.682449, start = 0},
   },
 }
-P.transport["quest:1260"] = {
-  hash = "c22913",
-  fullHash = "c22913",
-  text = "Morgan Stern. In Theramore, Angus Stern waits for word from Morgan Stern, who is gathering recipes for a new menu. Angus Stern wants customers at the Blue Recluse to taste rural dishes in the bayou style. He sent his nephew Morgan to Theramore, the city beside Dustwallow Marsh, to gather recipes from the locals. The journey is too long for Angus, so he asks you, a young traveler, to speak with Morgan.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1260-28b3c626cdc1f0d8df8c/1-0000.mp3", duration = 26.3314286, start = 0},
-  },
-}
-P.transport["quest:1264"] = {
-  hash = "e0959a",
-  fullHash = "e0959a",
-  text = "The Missing Diplomat. A tavern keeper sends you to Commander Samaul in Theramore, where Hendel may still be stationed. The tavern keeper believes Hendel is among the Kul Tiras Marines who visit regularly. They are paid at the beginning of each month and usually leave Theramore afterward. Commander Samaul may know if Hendel is still stationed there. Mention Elling's name, and Samaul may help discreetly. Commander Samaul is the officer in charge of Miss Proudmoore's forces in Theramore. He is busy, but offers to answer your questions. The marsh beyond the city holds ogres, orcs and murlocs. Black dragons dwell in its southern reaches.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1264-c84c0fc057312ed08b2b/1-0000.mp3", duration = 39.2620408, start = 0},
-  },
-}
-P.transport["quest:1265"] = {
-  hash = "0efff2",
-  fullHash = "0efff2",
-  text = "The Missing Diplomat. Elling sends you to find Private Hendel, and a local officer fears the reason may be troubling. Hendel was stationed at Sentry Point, the first tower outside Theramore, where you are asked to seek signs of him. A local officer knows Private Hendel and says he was stationed at Sentry Point, the first tower outside Theramore. The officer fears Elling sent you there first because your business may be troubling. Tell the officer what you can share. The watch must protect these lands, so any disturbance matters.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1265-ec0c4bb6fa9f8ad3eeed/1-0000.mp3", duration = 32.2873469, start = 0},
-  },
-}
-P.transport["quest:1268"] = {
-  hash = "6444da",
-  fullHash = "6444da",
-  text = "Suspicious Hoofprints. At the Shady Rest Inn, hoofprints lead into the marsh. Its bare frame still smokes, and the tracks fade across the soft ground. Krog at Brackenwall Village should hear of them. The Shady Rest Inn is a smoking frame, with hoofprints stretching away into the marsh. Some impressions show clearly, while others are nearly lost in the soft ground. You carry word of the tracks to Krog at Brackenwall Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1268-ab6d64825ce587437c9c/1-0000.mp3", duration = 26.0702041, start = 0},
-  },
-}
-P.transport["quest:1269"] = {
-  hash = "2b8da1",
-  fullHash = "2b8da1",
-  text = "Lieutenant Paval Reethe. At Brackenwall Village, Krog awaits Lieutenant Paval Reethe's badge and news of the Shady Rest Inn. Beneath rubble and brush, you find a badge marked with Theramore's sign. Ash and debris cover it, but Lieutenant Paval Reethe's name is embossed below the golden anchor. Krog waits at Brackenwall Village. He asks whether you have learned what befell the Shady Rest Inn.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1269-8c04bcda86b7ea0af624/1-0000.mp3", duration = 24.7118367, start = 0},
-  },
-}
 P.transport["quest:127"] = {
   hash = "bfac08",
   fullHash = "bfac08",
   text = "Selling Fish. Dockmaster Baren needs spotted sunfish from Lake Everstill. The fish feed Lakeshire, but murlocs along the shore make them dangerous to gather. Spotted sunfish are prized around Lake Everstill, and townspeople and passing merchants keep demand high. Yet Lakeshire's supplies often run thin, though the fish swim below the surface. Local threats stretch the town's strength, so even basic trade depends on travelers. Anglers nearby could once fill Dockmaster Baren's orders with ease. Now aggressive murloc tribes haunt the shallows and banks, keeping ordinary townsfolk from the water. You can fish while watching for danger, or take sunfish from the foraging murlocs that trouble the shore.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_127-b2b4a7eaf9550d2533f0/1-0000.mp3", duration = 43.3632653, start = 0},
-  },
-}
-P.transport["quest:1270"] = {
-  hash = "f87d93",
-  fullHash = "f87d93",
-  text = "Stinky's Escape. In the swamp, “Stinky” Ignatz is trapped by critters before he finds bogbean. Mebok Mizzyrix of Ratchet needs the leaves for a potion, so Ignatz asks you to free and guard him as he searches. Then find Mebok in Ratchet. “Stinky” Ignatz is glad to meet someone who will not eat him. Mebok Mizzyrix, a goblin from Ratchet, needs bogbean leaves for a potion. Ignatz says the reason does not matter; the pay was good, and he knows the swamp. But before he found the plant, critters surrounded him. He asks you to help him escape and guard him while he searches.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1270-8019b8503415a3746207/1-0000.mp3", duration = 36.9371429, start = 0},
-  },
-}
-P.transport["quest:1271"] = {
-  hash = "8bc2eb",
-  fullHash = "8bc2eb",
-  text = "Feast at the Blue Recluse. In Dustwallow Marsh, you finish your work for Morgan Stern with ... and Bugs, then return to Angus Stern at the Blue Recluse. Angus Stern is Morgan Stern's uncle. You return to Angus at the Blue Recluse after helping Morgan research recipes in Dustwallow Marsh.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1271-cba3237a8317a88a3488/1-0000.mp3", duration = 17.7893878, start = 0},
-  },
-}
-P.transport["quest:1273"] = {
-  hash = "1a3a21",
-  fullHash = "1a3a21",
-  text = "Questioning Reethe. Ogron has found Reethe at last and asks you to help question him. He says Reethe hid well for a human, though the days in the swamp may have driven him mad. Afterward, you return to Krog at Brackenwall Village. Ogron has found Reethe after a long search. By Ogron's reckoning, Reethe hid well for a human. Yet Ogron fears the days in the swamp may have left Reethe mad, and wants you beside him for answers. Once you have spoken with Reethe, you return to Krog at Brackenwall Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1273-6d42a8fd4d0422edbd01/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["quest:1274"] = {
@@ -1377,124 +937,12 @@ P.transport["quest:1275"] = {
     {file = "Audio/Transport/full_quest_1275-597af478c4261287fadd/1-0000.mp3", duration = 54.2563265, start = 0},
   },
 }
-P.transport["quest:1276"] = {
-  hash = "254617",
-  fullHash = "254617",
-  text = "The Black Shield. In Thunder Bluff, Krog brings a blackened iron shield to a smith for answers. Reethe gave him nothing useful, leaving Mosarn as his only lead. Krog remembers Mosarn as a highly regarded blacksmith in Thunder Bluff. The Earthen Ring once thanked Krog with armor Mosarn had crafted, and Krog speaks well of that work. He believes Mosarn made the shield too and may know more. It is a slim lead. Reethe yielded nothing useful, so Krog brings the blackened iron shield to Mosarn in Thunder Bluff.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1276-8cc26650f0f66da33898/1-0000.mp3", duration = 32.0522449, start = 0},
-  },
-}
 P.transport["quest:128"] = {
   hash = "a08be4",
   fullHash = "a08be4",
   text = "Blackrock Bounty. In Lakeshire, Blackrock Bounty draws fighters as Blackrock forces gather in northern Redridge. Stormwind sends no royal soldiers, so Magistrate Solomon and Guard Howe offer payment to independent fighters who strike at Blackrock Champions and disrupt the clan’s assault. Redridge belongs to the Kingdom of Stormwind, yet the Blackrock clan ignores human borders. Orcs pour through mountain passes from the Burning Steppes and fortify camps across northern Redridge. King Varian Wrynn is missing, and Stormwind’s regency withholds royal soldiers. As Lakeshire’s coffers dwindle, Magistrate Solomon and other local leaders offer bounties to protect the town. Guard Howe names the Blackrock Champions as the backbone of the invading vanguard. These squad leaders are battle-hardened veterans who coordinate their warbands and drive lesser grunts forward. Lakeshire’s defenders hope a bounty on the Champions will break the clan’s tactical leadership and stall a full-scale push south. The town’s outer defenses may soon collapse.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_128-c8d9cafa041692c65b02/1-0000.mp3", duration = 66.0114286, start = 0},
-  },
-}
-P.transport["quest:1282"] = {
-  hash = "0e9086",
-  fullHash = "0e9086",
-  text = "They Call Him Smiling Jim. Guard Byron sends you to Theramore for the story of They Call Him Smiling Jim. He hints that Jim's life was not always this way. Guard Byron remembers the fine inn Smiling Jim once kept in the marsh. He pities Jim, but would rather not speak of what changed. For the full story, ask Captain Garran Vimes in Theramore.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1282-8e9ac9992e097ec9308e/1-0000.mp3", duration = 20.6889796, start = 0},
-  },
-}
-P.transport["quest:1284"] = {
-  hash = "867d03",
-  fullHash = "867d03",
-  text = "Suspicious Hoofprints. Smoke rises from the Shady Rest Inn, and Suspicious Hoofprints cross the marsh. Some prints are clear; others fade in the soft mud. Captain Garran Vimes in Theramore needs the report. Hoofprints lead from the smoking ruin of the Shady Rest Inn into the marsh. Some are easy to see, while others nearly vanish in the soft mud. Captain Garran Vimes in Theramore needs to hear about them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1284-e071b7005256aa3e801e/1-0000.mp3", duration = 25.1559184, start = 0},
-  },
-}
-P.transport["quest:1285"] = {
-  hash = "6b2265",
-  fullHash = "6b2265",
-  text = "Daelin's Men. Adjutant Tesoran has found Lieutenant Paval Reethe in the guard's records. They trace Reethe's service from enlistment in the Kul Tiras marines at sixteen, through promotions for distinguished service, to the Theramore guard with Lady Proudmoore's recruits. The final entry marks Reethe missing, and Captain Garran Vimes is to hear the news. Captain Garran Vimes sent you to Adjutant Tesoran, who searched the books and found Lieutenant Paval Reethe. Reethe enlisted in the Kul Tiras marines at sixteen, and distinguished service brought him promotions. Later, he joined the Theramore guard with most of the recruits who sailed over with Lady Proudmoore. The record ends by listing him as missing. Vimes, in Theramore, is to hear the news.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1285-72e010d5d1040a6619bf/1-0000.mp3", duration = 45.2440816, start = 0},
-  },
-}
-P.transport["quest:1286"] = {
-  hash = "fc5667",
-  fullHash = "fc5667",
-  text = "The Deserters. At Lost Point, Captain Garran Vimes questions deserters who took Theramore’s abandoned tower. Captain Garran Vimes struggles to hold the marsh, yet his people keep several watchtowers standing. Scouts have found deserters in an abandoned tower at Lost Point, southeast of the inn. A man named Jacken leads them. Vimes asks you to learn what Jacken knows about Reethe, though the man may not give up the information easily.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1286-9b407c17eed7d37ab599/1-0000.mp3", duration = 27.4285714, start = 0},
-  },
-}
-P.transport["quest:1287"] = {
-  hash = "d9d8b3",
-  fullHash = "d9d8b3",
-  text = "The Deserters. Reethe has been driven from the deserter band, and Balos Jacken calls him a coward. Jacken asks you to forget the meeting. Captain Garran Vimes in Theramore is waiting to hear about Reethe. Balos Jacken says the deserters drove Reethe out for repeatedly plundering the ogres’ stores at Brackenwall Village. The band is too small to face those ogres, he says, and Reethe crossed the line once too often. They left Reethe to manage alone. In return for the answer, Jacken asks you to forget the meeting.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1287-50994d692549979d1f0b/1-0000.mp3", duration = 30.197551, start = 0},
-  },
-}
-P.transport["quest:1288"] = {
-  hash = "6201aa",
-  fullHash = "6201aa",
-  text = "Vimes's Report. Captain Garran Vimes praises your work as the finest he has seen from an amateur. Now you carry his report to Theramore for Lady Jaina Proudmoore. Lady Jaina Proudmoore asked Captain Vimes to keep her informed about a delicate situation. He has not spoken with her for some time. He planned to deliver the report later, but now sends you in his place. You may have better answers to her questions than he does.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1288-b824884e8acc6f243874/1-0000.mp3", duration = 25.3387755, start = 0},
-  },
-}
-P.transport["quest:1289"] = {
-  hash = "991440",
-  fullHash = "991440",
-  text = "Vimes's Report. Lady Jaina Proudmoore has read Vimes's Report and thanks you for aiding Captain Garran Vimes's investigation. She sends you back to Vimes in Theramore to help uncover the mystery. Lady Jaina Proudmoore thanks you for helping Captain Vimes's investigation. His report eases her mind because the matter is in capable hands. She sends you back to him in Theramore to help uncover the mystery.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1289-f52a2d6df2bc2eab390c/1-0000.mp3", duration = 23.8759184, start = 0},
-  },
-}
-P.transport["quest:1302"] = {
-  hash = "308907",
-  fullHash = "308907",
-  text = "James Hyal. Across the Great Sea, James Hyal's family waits for word from Kalimdor. He sailed there with Lady Jaina Proudmoore's expedition and set out to open an inn on the frontier. Now his family looks to Theramore's records for news. During the Third War, many left their homes in the Eastern Kingdoms to follow Lady Jaina Proudmoore across the Great Sea. James Hyal went with them, known at home for his gift in the kitchen. After the fighting ended and Theramore Isle was founded, he sought a living on Kalimdor. He planned to open an inn for travelers and fellow settlers. Back in the Eastern Kingdoms, James's brother grows worried. No letters have come from across the sea, though he hopes James is busy running a roadside taproom. He asks travelers to seek his brother out. The search begins in Theramore, where Clerk Lendry keeps records of expedition members who have ventured into the wilderness.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1302-5e3be5db17b05d224652/1-0000.mp3", duration = 57.4693878, start = 0},
-  },
-}
-P.transport["quest:1319"] = {
-  hash = "c6d476",
-  fullHash = "c6d476",
-  text = "The Black Shield. At Theramore's smithy, Captain Garran Vimes sends a shield to a smith who may know its maker. Captain Garran Vimes knows little about the shield. So he sends you to Caz Twosprocket, one of the best blacksmiths around. Caz tends the forge in Theramore's smithy and may be able to tell you more.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1319-786dbeedb3e67809fb19/1-0000.mp3", duration = 20.48, start = 0},
-  },
-}
-P.transport["quest:1320"] = {
-  hash = "85a282",
-  fullHash = "85a282",
-  text = "The Black Shield. Caz Twosprocket studies the black shield tied to the Shady Rest Inn mystery. One detail nearly escapes notice, and Caz sends you to Captain Garran Vimes in Theramore with what was found. A last detail nearly escapes Caz Twosprocket while looking over the black shield. The leather strap on its back has burned away, yet it seems to have been made for a large person. Caz guesses a tauren. That is all Caz can tell, so you are sent to Captain Garran Vimes in Theramore with the word and Caz's apology for not being more help.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1320-eb52e48e251c5b50fe08/1-0000.mp3", duration = 32.8620408, start = 0},
-  },
-}
-P.transport["quest:1321"] = {
-  hash = "9b3c36",
-  fullHash = "9b3c36",
-  text = "The Black Shield. Krog sends you to Brackenwall Village to ask Do'gol about the Blackened Iron Shield. Krog finds nothing unusual about the Blackened Iron Shield. Still, he thinks Do'gol, the blacksmith in Brackenwall Village, may see something more. He urges you not to expect much.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1321-a074a7cf66ba4069287f/1-0000.mp3", duration = 18.2857143, start = 0},
-  },
-}
-P.transport["quest:1322"] = {
-  hash = "3ae070",
-  fullHash = "3ae070",
-  text = "The Black Shield. In Brackenwall Village, Do'gol seeks venom for a shield whose writing is hidden by burned residue. Six sacs from the marsh's Darkfang spiders hold acid that can clear its rim. At Brackenwall Village, Do'gol studies the lettering around a shield's rim. Burned grime makes it hard to read, but acid can clear the residue. Darkfang spiders in the marsh carry venom fit for the work, so Do'gol asks you for six of their venom sacs.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1322-387d3cf51357d465dde8/1-0000.mp3", duration = 28.7085714, start = 0},
-  },
-}
-P.transport["quest:1323"] = {
-  hash = "77f324",
-  fullHash = "77f324",
-  text = "The Black Shield. In Brackenwall Village, Do'gol sends you to Krog to learn a name on the shield. The writing seems to say Mosarn, but Do'gol does not know the name. Do'gol has rubbed the shield with too much acid, yet its writing remains hard to read. The name seems to be Mosarn, but Do'gol does not know it. Krog knows many people in Brackenwall Village, so Do'gol sends you to speak with Krog.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1323-3a3b27f836d74ef56df4/1-0000.mp3", duration = 24.9730612, start = 0},
   },
 }
 P.transport["quest:133"] = {
@@ -1513,30 +961,6 @@ P.transport["quest:134"] = {
     {file = "Audio/Transport/full_quest_134-41fbca2870fce64a63e4/1-0000.mp3", duration = 41.2734694, start = 0},
   },
 }
-P.transport["quest:1361"] = {
-  hash = "0c44e3",
-  fullHash = "0c44e3",
-  text = "Regthar Deathgate. In the Barrens, Regthar Deathgate calls seasoned Horde fighters west. He is gathering volunteers for a campaign across the mountains into Desolace, where centaur clans terrorize the frontier. Horde leaders watch their borders for threats. In the Barrens, Regthar Deathgate has raised a defensive post to guard the western passes. So Horde officers send proven fighters west of the Crossroads to answer his call. Regthar Deathgate waits in a fortified redoubt along the ridges west of the Crossroads. From there, he watches the mountain trails into Desolace. He is gathering a vanguard to cross hostile ground and strike the Kolkar and other warring centaur clans before their expansion threatens Horde territory.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1361-95e3328a3382cae6cf02/1-0000.mp3", duration = 45.0873469, start = 0},
-  },
-}
-P.transport["quest:1362"] = {
-  hash = "dc3e96",
-  fullHash = "dc3e96",
-  text = "The Kolkar of Desolace. Regthar Deathgate sends Horde champions west into Desolace to reinforce scout Felgur Twocuts at Ghost Walker Post. The Kolkar threaten Horde lands from their stronghold there. Centaur raiders keep pressing into the Barrens. Regthar Deathgate knows the fighting will not end there while the Kolkar draw strength from their ancestral lands on Kalimdor's western coast. Their stronghold remains beyond Horde control, and raiders keep pouring through the mountain passes. The Horde must strike at their home. Ghost Walker Post gives the Horde a foothold deep in Desolace. Scout Felgur Twocuts watches the rival centaur clans from the outpost. Regthar sends seasoned fighters from the Barrens to serve under Felgur. From this camp, the Horde carries its campaign west, from defense to direct action.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1362-237ddc9696d676ccd688/1-0000.mp3", duration = 49.7110204, start = 0},
-  },
-}
-P.transport["quest:1365"] = {
-  hash = "a4527c",
-  fullHash = "a4527c",
-  text = "Khan Dez'hepah. After The Kolkar of Desolace, Felgur Twocuts turns against Khan Dez'hepah. Many centaur clans fight across Desolace, and Felgur wants the Kolkar weakened before they unite. Across Desolace, centaur clans fight one another. The Kolkar are one of many, roaming the dry plains and killing their own. Felgur Twocuts does not mourn their losses. Centaur are strong and brutal, and united they would be a fierce foe for the Horde. Felgur wants the Kolkar weakened before that can happen. Felgur Twocuts begins by disrupting the Kolkar. Their village lies northeast of where Felgur stands. Felgur wants Khan Dez'hepah's head brought back.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1365-2009ce45167eddbaa43e/1-0000.mp3", duration = 41.7959184, start = 0},
-  },
-}
 P.transport["quest:1366"] = {
   hash = "94e7f0",
   fullHash = "94e7f0",
@@ -1545,164 +969,12 @@ P.transport["quest:1366"] = {
     {file = "Audio/Transport/full_quest_1366-87146a8ac8e40aaa6dc2/1-0000.mp3", duration = 26.644898, start = 0},
   },
 }
-P.transport["quest:1367"] = {
-  hash = "12c752",
-  fullHash = "12c752",
-  text = "Magram Alliance. In Desolace, Gurda Wildmane urges you to turn the centaur clans' hatred against them. Befriend one clan to learn how all can be beaten. If you side with the Magram, slay the Gelkis, then speak with Warug at the edge of Magram Village in southeast Desolace. Gurda Wildmane urges you to turn the centaur clans' hatred against them. Choose one clan as an ally and learn from it how all can be beaten. If you side with the Magram, slaying their foes, the Gelkis, earns their respect. Warug, the Magram spokesman, waits on the outskirts of Magram Village in southeast Desolace once you have earned enough respect. Before then, he has nothing to say to you. The Magram have no words for the weak. They kill them instead. To prove your strength, Warug sends you to face many Gelkis.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1367-94d22a7d4f3519af126f/1-0000.mp3", duration = 50.8081633, start = 0},
-  },
-}
-P.transport["quest:1368"] = {
-  hash = "947886",
-  fullHash = "947886",
-  text = "Gelkis Alliance. In southwest Desolace, Gurda Wildmane turns the centaur clans' hatred toward their defeat. Befriend one clan to learn how the others may be beaten. The Gelkis demand that you kill their hated enemies, the Magram, before you meet Uthek the Wise at Gelkis Village. Gurda Wildmane means to turn the centaur clans' hatred against them. Befriend one clan, and what you learn may show how to defeat them all. Choose the Gelkis. To earn their respect, kill the Magram, the clan they hate most. Once the Gelkis respect you, meet Uthek the Wise, their shaman, on the outskirts of Gelkis Village in southwest Desolace. Until then, you are not welcome there. Uthek says you tread on Gelkis earth. Prove your friendship by killing Magram centaur, then return when their blood has soaked the ground.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1368-a6a1bf39838d545c9343/1-0000.mp3", duration = 50.6253061, start = 0},
-  },
-}
-P.transport["quest:1369"] = {
-  hash = "19ba89",
-  fullHash = "19ba89",
-  text = "Broken Tears. In the Gelkis village cave, Warug wants you to break the crystals they call the tears of Theradras. He asks for three broken pieces, claiming the centaur mother cannot protect them. Warug mocks the Gelkis for trusting Theradras, mother of the centaur, to protect them. He says no one protects the centaur, while the Magram are strongest and need no protection. In a cave in the Gelkis village, the Gelkis hoard crystals called the tears of Theradras. Warug sends you to smash them and bring him three broken pieces. He trusts you with this only if you are no enemy of the Magram.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1369-57b8b6a30d7f455bc36e/1-0000.mp3", duration = 35.7093878, start = 0},
-  },
-}
-P.transport["quest:1370"] = {
-  hash = "5a22d0",
-  fullHash = "5a22d0",
-  text = "Stealing Supplies. In Desolace, Uthek the Wise sends you east after the Magram’s stores. The Gelkis believe meat gives them strength, while the Magram keep supplies for the days between hunts. Uthek the Wise says the Gelkis draw strength from meat. A full belly fights harder than an empty one. The Magram keep extra stores for the days between hunts. So you are sent to their village to the east for six bags of crudely dried meat, to bring back to Uthek at the Gelkis Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1370-a1c759a651b4803e6b22/1-0000.mp3", duration = 28.4995918, start = 0},
-  },
-}
-P.transport["quest:1371"] = {
-  hash = "e63be7",
-  fullHash = "e63be7",
-  text = "Gizmo for Warug. In Magram Village, Warug now wants a new target dummy to replace the wooden human he broke. Warug remembers a gnome who came to Desolace long ago with horses and a cart. Inside were curious things: some burned in different colors, while others moved though they were not alive. Warug killed the gnome, but not before the gnome made him laugh.\n\nWarug kept his favorite thing from the cart, a wooden human that waved at him. He hit it and broke it. Now he wants an advanced target dummy to take its place, and expects one from anyone who is no enemy of the Magram.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1371-c39e46aeac4a013e3287/1-0000.mp3", duration = 37.3028571, start = 0},
-  },
-}
-P.transport["quest:1373"] = {
-  hash = "b3b3b4",
-  fullHash = "b3b3b4",
-  text = "Ongeku. Uthek sends you from Desolace to find a shard of draenethyst. The earth has whispered of the red crystal to him, and Ongeku holds a shard in the Swamp of Sorrows. After Stealing Supplies, Uthek the Wise sends you far from Desolace for a red crystal called draenethyst. He says the earth shares its secrets with those who listen. The crystal has only recently come to this land, carried from a place of flying mountains ruled by demons.\n\nUthek says a shard will make the magic strong. Ongeku, the lost one, holds one in the Swamp of Sorrows in the Eastern Kingdoms. When you return, Uthek will seek proof that the Gelkis can still call you friend.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1373-86da7aaa135f766bd46a/1-0000.mp3", duration = 41.4302041, start = 0},
-  },
-}
-P.transport["quest:1374"] = {
-  hash = "dba7f3",
-  fullHash = "dba7f3",
-  text = "Khan Jehn. At Gelkis Village, Uthek the Wise says Khan Jehn must fall as the Magram grow weak. He asks you to bring the Khan's head back. At Gelkis Village, Uthek the Wise listens to what the earth tells him. The Magram are growing weak, and their Khan, Jehn, is the one to strike down. Uthek asks you to bring back the Magram Khan's head. He expects you to return as a friend of the Gelkis.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1374-edd88ea548ddbf358ff3/1-0000.mp3", duration = 24.4767347, start = 0},
-  },
-}
-P.transport["quest:1375"] = {
-  hash = "bd81a4",
-  fullHash = "bd81a4",
-  text = "Khan Shaka. Warug of the Magram now sends you after Khan Shaka, the Gelkis Khan. Bring him Shaka’s head so he can stare at it and laugh at his enemy. In Magram Village, Warug says your help has pleased him and served the Magram well. Now he wants Khan Shaka, the Gelkis Khan, killed, and his head brought back. Warug means to stare at it and laugh at his enemy. He expects you to stay on good terms with the Magram.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1375-f18bd5734338202a1c52/1-0000.mp3", duration = 26.3836735, start = 0},
-  },
-}
-P.transport["quest:1382"] = {
-  hash = "0b74cc",
-  fullHash = "0b74cc",
-  text = "Strange Alliance. Captain Pentigast seeks an alliance with the Gelkis in Desolace. They are at war with the Magram, and he sends you southwest to Uthek the Wise. Captain Pentigast sees a chance in the centaur clans’ quarrels. Joined together, they could not be stopped. He hopes their division will serve the Alliance. The Gelkis and Magram are locked in a brutal war, so striking at the Magram might persuade the Gelkis to join the Alliance. Uthek the Wise is where the Gelkis camps begin in southwestern Desolace. Pentigast hopes she can help secure an alliance. At first, she sends you away. She tells you to return after killing many Magram.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1382-90befeb1a3e3e4d5024b/1-0000.mp3", duration = 40.2808163, start = 0},
-  },
-}
-P.transport["quest:1384"] = {
-  hash = "27b251",
-  fullHash = "27b251",
-  text = "Raid on the Kolkar. In Desolace, Uthek the Wise sends you northeast against the Kolkar centaurs. After Strange Alliance, he wants ten of their charms brought back. Uthek scorns the Kolkar centaurs for trusting in their magic. To him, they know nothing of such things. So you head northeast, kill Kolkar, and take their charms. Uthek wants ten Crude Charms to cast into the fire and laugh as they burn.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1384-1c8abb3e2b5e5bc29f22/1-0000.mp3", duration = 25.5738776, start = 0},
-  },
-}
-P.transport["quest:1385"] = {
-  hash = "5795d1",
-  fullHash = "5795d1",
-  text = "Brutal Politics. Captain Pentigast fears Desolace’s victorious centaur clan will threaten Alliance strongholds. He seeks a clan’s friendship so the Alliance can learn how to defeat the centaurs. Centaur clans wage war across Desolace. Captain Pentigast fears the victor will turn against Alliance strongholds, so he seeks a way to prevent that danger. The Alliance needs a centaur clan as a friend to learn how to defeat the others. The Magram fight the Gelkis, so attacking the Gelkis may win the Magram’s favor. Earn that favor, then find Warug in the Magram village in southeastern Desolace. Warug says killing Gelkis is how you become a friend to the Magram.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1385-1c5b908762d087cbdfec/1-0000.mp3", duration = 42.3183673, start = 0},
-  },
-}
-P.transport["quest:1386"] = {
-  hash = "16d7b5",
-  fullHash = "16d7b5",
-  text = "Assault on the Kolkar. In Magram Village, Warug wants you to prove you can kill Kolkar as the Magram do. After Brutal Politics, you head north to face Kolkar centaurs, scouts and maulers. Warug mocks the Kolkar and their belief that they are strong. The Magram laugh as they kill them, and Warug wants you to prove you can do the same. Head north and slay twelve Kolkar centaurs, twelve scouts and six maulers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1386-6084a33792f5fb8a967b/1-0000.mp3", duration = 26.2269388, start = 0},
-  },
-}
 P.transport["quest:1387"] = {
   hash = "4f7da5",
   fullHash = "4f7da5",
   text = "Centaur Bounty. At Nijel's Point, Corporal Melkins sends you after Desolace's centaur clans. He asks for fifteen ears, believing peace cannot come while they remain. At Nijel's Point, Corporal Melkins speaks of Desolace's centaur clans. Each has its own leader and plans. Yet all share the same cruelty. Melkins says peace can come only when the centaur are gone. As you wander Desolace, you hunt centaur and take their ears. Melkins asks you to bring fifteen. He calls this service to the Alliance, bringing the war's end nearer.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1387-38fd9427131d72cad978/1-0000.mp3", duration = 35.9706122, start = 0},
-  },
-}
-P.transport["quest:1389"] = {
-  hash = "09214b",
-  fullHash = "09214b",
-  text = "Draenethyst Crystals. At the Harborage, Magtoor asks you to recover six draenethyst crystals stolen from the Fallow Sanctuary. Sacred to his people, the crystals are bound to their fear of losing their way. The lost ones of the Fallow Sanctuary resemble Magtoor's people. The journey to Azeroth drove them mad. Once brethren, they now dwell in the Sanctuary to the east, where they seize or kill anyone who strays close. They have also stolen draenethyst crystals, sacred to Magtoor's people. Magtoor's people lack the strength to enter the Fallow Sanctuary and reclaim the draenethyst among its huts and campfires. Without the crystals, they fear they too may lose their way. So Magtoor asks you to bring back six.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1389-9b26428e00a79e702037/1-0000.mp3", duration = 43.6506122, start = 0},
-  },
-}
-P.transport["quest:1392"] = {
-  hash = "f23718",
-  fullHash = "f23718",
-  text = "Noboru the Cudgel. At the Harborage, the Draenei have endured Noboru the Cudgel’s torment for months. You carry his cudgel to their leader, a token of the cruelty the lost ones have dealt them. For months, Noboru has tormented the Draenei who live at the Harborage. His cudgel recalls the cruelty the lost ones have dealt them. You carry it to their leader.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1392-4eee471429c248ed6238/1-0000.mp3", duration = 20.8718367, start = 0},
-  },
-}
-P.transport["quest:1393"] = {
-  hash = "37f20e",
-  fullHash = "37f20e",
-  text = "Galen's Escape. In the Fallow Sanctuary, Galen Goodward calls for help as creatures close around him. He offers a great treasure from his camp north of Stonard. Galen Goodward calls out from the Fallow Sanctuary, afraid the creatures around him will eat him. He promises a great treasure to anyone who gets him out. It lies in a strongbox at his camp in the swamp north of Stonard. Only Galen knows the trick to open it, and he will teach it to whoever rescues him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1393-ddee43c04c3abf1698ef/1-0000.mp3", duration = 27.4808163, start = 0},
-  },
-}
-P.transport["quest:1394"] = {
-  hash = "4265d3",
-  fullHash = "4265d3",
-  text = "Final Passage. You have passed Parqual Fintallas's test and all that came before it. Now he sends you to Dorn Plainstalker in Thousand Needles, who will judge whether your mind, body and spirit have grown strong enough to earn honour. Dorn Plainstalker began the Test of Faith, and its trials now reach their final step. He waits in the Weathered Nook, in a cave reached by a ramp north of Freewind Post. Parqual Fintallas urges you to keep the balance you have shown through the trials.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1394-ad0a66fca2a023fc5f01/1-0000.mp3", duration = 27.1412245, start = 0},
-  },
-}
-P.transport["quest:1396"] = {
-  hash = "df6476",
-  fullHash = "df6476",
-  text = "Encroaching Wildlife. After Lost Ones wreck Watcher Biggs's caravan, wild creatures prowl near his camp. Biggs alone survives and asks you to help defend the supplies that remain. This follows Help Watcher Biggs. Watcher Biggs's caravan set out for the eastern coast, but never arrived. Lost Ones attacked, killing the guards and smashing the supplies. Biggs alone survived, and he has sworn to protect what remains. Now wild creatures skulk near the camp, and Biggs asks you to help defend it. Young sawtooth crocolisks, sorrow spinners and swamp jaguars press close to the camp. Biggs names eight crocolisks, ten spinners and ten jaguars to be slain.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1396-93fbc2eac53a484ca823/1-0000.mp3", duration = 43.1542857, start = 0},
-  },
-}
-P.transport["quest:1418"] = {
-  hash = "b5dfe0",
-  fullHash = "b5dfe0",
-  text = "Neeka Bloodscar. In Stonard, Helgrum the Swift sends you to Kargath, where his messages often fail to arrive. In the Badlands, harsh country near Alliance-held Loch Modan, messages between Stonard and Kargath often fail. Helgrum asks you to prove yourself by traveling to Kargath and speaking with Neeka Bloodscar, its head scout. Then you carry Neeka's report back to Helgrum.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1418-446bf1b053a3d9caa463/1-0000.mp3", duration = 24.5289796, start = 0},
-  },
-}
-P.transport["quest:1421"] = {
-  hash = "8147ac",
-  fullHash = "8147ac",
-  text = "The Lost Caravan. Watcher Biggs needs the caravan's reagents recovered after the Lost Ones carry a wagon north to the Fallow Sanctuary. The chest holds supplies for the wizards of Nethergarde Keep. Watcher Biggs was knocked senseless when the Lost Ones attacked the caravan. Before he fell, he saw them drag one of its wagons north to the Fallow Sanctuary, their village. A chest of reagents was aboard, prized by the wizards of Nethergarde Keep for their studies. Biggs asks you to find the chest and carry its contents back.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1421-abda14ff2e9900c65f8e/1-0000.mp3", duration = 32.0783673, start = 0},
   },
 }
 P.transport["quest:1431"] = {
@@ -1721,38 +993,6 @@ P.transport["quest:1432"] = {
     {file = "Audio/Transport/full_quest_1432-0bebc48cbcd07f1e1772/1-0000.mp3", duration = 56.1632653, start = 0},
   },
 }
-P.transport["quest:1437"] = {
-  hash = "e5b20a",
-  fullHash = "e5b20a",
-  text = "Vahlarriel's Search. In Desolace, Vahlarriel Demonslayer searches for two missing nobles of House Malem. Their father fears the worst, and the siblings were last reported crossing the Stonetalon Mountains some weeks ago. Vahlarriel asks you to find their wagon. Vahlarriel Demonslayer seeks Tyranis and Dalinda Malem. Their father has charged Vahlarriel with doing everything possible to find them. The search has only begun, and Vahlarriel hopes it will not keep them in Desolace long. The siblings were last reported crossing the Stonetalon Mountains some weeks ago. You are asked to find their wagon in Desolace and return at once. Its charred remains lie there, with a chest among them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1437-7d5ce3bcc885cd258125/1-0000.mp3", duration = 39.0530612, start = 0},
-  },
-}
-P.transport["quest:1438"] = {
-  hash = "30211d",
-  fullHash = "30211d",
-  text = "Vahlarriel's Search. At the fortress, Vahlarriel Demonslayer sends you to find Dalinda and Tyranis Malem. Their search begins there as Vahlarriel alerts superiors in Darnassus. They put Dalinda’s safe return first and question Tyranis’s motives. Vahlarriel Demonslayer asks you to seek Dalinda and Tyranis at the fortress and bring back what you learn. Vahlarriel will contact superiors in Darnassus at once. In private, they share their concern about why Tyranis came to Desolace. Above all, they want Dalinda brought home safe. Tyranis’s return can wait until they know more about him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1438-54a6292ea8532872a579/1-0000.mp3", duration = 36.1012245, start = 0},
-  },
-}
-P.transport["quest:1439"] = {
-  hash = "82feb5",
-  fullHash = "82feb5",
-  text = "Search for Tyranis. At Thunder Axe Fortress, Dalinda Malem waits to learn what became of Tyranis. Orcs killed their guards and servants before bringing the siblings there. Tyranis tried to speak with his captors, and Dalinda asks you to find him and return once you know his fate. Orcs killed every guard and servant before dragging Dalinda and Tyranis to Thunder Axe Fortress. She expected them to die at once, but their captors had other designs. Tyranis tried speaking with the orcs, perhaps hoping his arcane learning would impress them. Dalinda cannot say why. She will not escape until she knows his fate, so she asks you to find him and return. He is in the building left of the fortress entrance. Dalinda fears Tyranis will seek the Burning Blade's secrets and join them if he can. Power has always drawn him, as magic draws those it seduces. To Dalinda's people, even studying such things is a grave crime. She doubts she could face her family knowing her brother had toyed with that danger.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1439-866380ba5b70b874e48e/1-0000.mp3", duration = 62.7983673, start = 0},
-  },
-}
-P.transport["quest:1440"] = {
-  hash = "a5d38a",
-  fullHash = "a5d38a",
-  text = "Return to Vahlarriel. At Thunder Axe Fortress, Dalinda Malem is ready to leave when you choose. She thanks you for helping her and her family. Escort her out, then find Vahlarriel Demonslayer. Dalinda Malem is ready to leave Thunder Axe Fortress when you judge the moment right. She thanks you for all you have done for her and her family, in case things do not go as hoped. Nothing else keeps her there. She will leave when you choose the time. Escort her out of the fortress, then find Vahlarriel Demonslayer in Desolace.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1440-1e19b9110348440458ea/1-0000.mp3", duration = 31.5820408, start = 0},
-  },
-}
 P.transport["quest:1442"] = {
   hash = "ef8ff9",
   fullHash = "ef8ff9",
@@ -1767,62 +1007,6 @@ P.transport["quest:1447"] = {
   text = "The Missing Diplomat. In Stormwind, you seek the missing diplomat and find Dashel Stonefist in Old Town. You need answers from a man who would rather keep them to himself. In Old Town, your search leads through cutpurses and shady brokers, beyond the Cathedral’s watchful eye. Dashel Stonefist is a local contact with ties to Stormwind’s criminal factions. He knows about the abduction, but has no wish to share what he knows with investigators asking sensitive questions.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1447-8fa5b0fe893f5810a5c7/1-0000.mp3", duration = 28.9436735, start = 0},
-  },
-}
-P.transport["quest:1454"] = {
-  hash = "1f5a6d",
-  fullHash = "1f5a6d",
-  text = "The Karnitol Shipwreck. After sea giants strike his ship in Desolace, Karnitol flees with his servants by teleporting away. Kreldig Ungor sends you to find the noble's chest. After Reclaimers' Business in Desolace, Kreldig Ungor sends you to find Karnitol's lost chest. Karnitol is a mage and some kind of noble in Stormwind. Sea giants struck his ship in the northwest waters of Desolace.\n\nHe and his servants tried to bring one of his costlier chests ashore, but the giants swarmed them. Karnitol left the chest behind and teleported away with his servants. Find the chest and its contents, then return them to Karnitol in Stormwind. It lies along the northern coastline, in the Ethel Rethor stretch.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1454-5e8dd9a7d8fe0952050c/1-0000.mp3", duration = 44.3559184, start = 0},
-  },
-}
-P.transport["quest:1455"] = {
-  hash = "40fc37",
-  fullHash = "40fc37",
-  text = "The Karnitol Shipwreck. At Karnitol's wreck, you find the chest open and empty. Deep scratches score its sides and top, so you return to Kreldig Ungor at Nijel's Point. The chest lies empty, its sides and top scored with long, deep scratches. The marks suggest neither man nor giant forced it open. They look unlike cuts from a dagger or sword. With nothing more to learn, you close the chest and prepare to leave. Kreldig Ungor will be disappointed.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1455-3813c6115cec2c9c7f08/1-0000.mp3", duration = 28.9959184, start = 0},
-  },
-}
-P.transport["quest:1456"] = {
-  hash = "3be068",
-  fullHash = "3be068",
-  text = "The Karnitol Shipwreck. Near Ranazjar Isle, Kreldig Ungor still hopes Karnitol's belongings can be found. The Slitherblade naga live among night elf ruins beneath the sea, where Kreldig thinks the satchel is most likely to be. Kreldig Ungor says there is still hope of finding Karnitol's belongings. Farther north along the coast, sunken night elf ruins lie on the ocean floor near Ranazjar Isle. The Slitherblade naga live there, and Kreldig believes it is the likeliest place to find Karnitol's satchel. He gives you a Recovery Diver's Potion. Kreldig believes the scouting party that traveled so far south must have been strong. He would search the mightier naga first: the tidehunters and sea witches.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1456-75ece4d64393ab1d3ed3/1-0000.mp3", duration = 44.0946939, start = 0},
-  },
-}
-P.transport["quest:1457"] = {
-  hash = "f41c46",
-  fullHash = "f41c46",
-  text = "The Karnitol Shipwreck. Karnitol's satchel waits in Ironforge for Roetten Stonehammer, who will pay you to carry it there. Kreldig Ungor sends you to take Karnitol's things to Roetten Stonehammer in Ironforge. Roetten will pay you for the work. With a laugh, Kreldig says Roetten may be so pleased that he asks you to join the Reclaimers full time. Travel carefully and without delay. Karnitol has little patience, though he is generous.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1457-b1574219f7db0500a4fe/1-0000.mp3", duration = 25.4955102, start = 0},
-  },
-}
-P.transport["quest:1458"] = {
-  hash = "d1f7b6",
-  fullHash = "d1f7b6",
-  text = "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor gathers reagents for Leftwitch, a gnome mage in Kharanos. The Reclaimers are short-handed, so he begins with claws and horns from the Hatefury satyrs to the east. After Reclaimers' Business in Desolace, Kreldig Ungor takes on another job. He gathers reagents for Leftwitch, a gnome mage who lives in Kharanos. Roetten calls it easy coin because the Reclaimers are already in Desolace. The crew is short-handed, but Kreldig says he does not care. Kreldig begins with ten claws and ten horns from the Hatefury satyrs to the east. They dwell in the Sargeron ruins, due east of Nijel's Point. Once you have the claws and horns, the rest of Leftwitch's list can begin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1458-fa64678a10c4e5a84bcd/1-0000.mp3", duration = 46.1061224, start = 0},
-  },
-}
-P.transport["quest:1459"] = {
-  hash = "095ff3",
-  fullHash = "095ff3",
-  text = "Reagents for Reclaimers Inc.. In Desolace, Leftwitch's list sends Kreldig Ungor after scorpashi venom and aged kodo hides. He barely knows the land and cannot point you toward either creature. Kreldig Ungor reaches the next items on Leftwitch's list. She asks for seven vials of venom from any scorpashi and three hides from aged kodo. Dying and ancient kodo will not do. The instructions are plain, though Kreldig muses that mages ask for odd things. Kreldig cannot tell you where the kodo or scorpashi roam. He barely knows Desolace and has had no time to explore it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1459-5b9789eb933e45497279/1-0000.mp3", duration = 36.8065306, start = 0},
-  },
-}
-P.transport["quest:1465"] = {
-  hash = "e3544e",
-  fullHash = "e3544e",
-  text = "Vahlarriel's Search. In Desolace, Vahlarriel's Search follows a trail south from the Malems' wagon. A pendant lies there, and smoke rises from a large fort in the distance. At Nijel's Point, Vahlarriel Demonslayer needs the pendant and word that the Malems may still be alive. You find a pendant in the Malems' wagon and footprints leading south. Smoke rises from a large fort in the distance. A tended fire feeds it, rather than burning buildings. If the Malems are alive, the tracks suggest they were taken toward the fort. At Nijel's Point, Vahlarriel Demonslayer needs to see the Malem Pendant. Tell her about the footprints leading south.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1465-260b90e1ddc362bf87ab/1-0000.mp3", duration = 39.3665306, start = 0},
   },
 }
 P.transport["quest:1472"] = {
@@ -1857,44 +1041,12 @@ P.transport["quest:148"] = {
     {file = "Audio/Transport/full_quest_148-4df469aec820c1c8cf00/1-0000.mp3", duration = 30.7983673, start = 0},
   },
 }
-P.transport["quest:1480"] = {
-  hash = "c75c49",
-  fullHash = "c75c49",
-  text = "The Corrupter. At Thunder Axe Fortress, a flayed strip from the Burning Blade bears red markings and a signature-like symbol. It smells rotten, yet bends easily. Maurin Bonesplitter at Ghost Walker Post may know more. The flayed skin smells of rot, yet bends easily despite its dry, fragile feel. Unrolled, it shows red markings on one side, written in some kind of language. A plain symbol at the bottom looks like a signature. Maurin Bonesplitter at Ghost Walker Post may know more about the skin. Maurin believes the Burning Blade are coming to see how weak they are. Their magic is poor and their strength slight. Whatever power they hold comes from those they serve, not from any grasp of true power or knowledge.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1480-aa4411a3bd3e002697f5/1-0000.mp3", duration = 46.1322449, start = 0},
-  },
-}
-P.transport["quest:1481"] = {
-  hash = "9a56fa",
-  fullHash = "9a56fa",
-  text = "The Corrupter. Maurin Bonesplitter searches for a way to find The Corrupter, though its wards may foil scrying. He needs a Hatefury shadowstalker scalp from the old ruins in northeast Desolace, near Sargeron. Maurin Bonesplitter believes the right reagents can reveal the demon lord. If Maurin is right about its power, those reagents must come from deadly creatures. He trusts you to face that danger in the Warchief's name.\n\nFirst, the demon lord's wards against scrying must be broken. Maurin asks you for a satyr's scalp, and only a Hatefury shadowstalker's will serve. Search the old ruins in northeast Desolace, near Sargeron. Maurin warns you to bring back the right scalp. Wrong reagents could get people killed, for the demon lord may have contingency spells meant to slay anyone who tries to scry on him. Fate has already dealt out enough pain, he says.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1481-f21d3833a3e8a3abd828/1-0000.mp3", duration = 54.3608163, start = 0},
-  },
-}
-P.transport["quest:1482"] = {
-  hash = "ae4fd7",
-  fullHash = "ae4fd7",
-  text = "The Corrupter. Maurin Bonesplitter seeks an oracle crystal to find the demon lord Azrethoc. Northwest along the coast, the Slitherblade naga dwell in a vast coral reef, and they will take your intrusion badly. Maurin Bonesplitter needs an oracle crystal to find the demon lord Azrethoc. The skin you brought him bore Azrethoc's signature. Naga craft these crystals for their oracles, who dwell in a vast coral reef northwest along the coast. The Slitherblade naga live there near the shore. They are deadly and will take your intrusion badly, so Maurin urges you to move carefully and quickly. Maurin says finding and destroying Lord Azrethoc would earn you both much favor with the Warchief. Working together and moving swiftly serves each of your aims.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1482-510c1fd1518bb6a737d1/1-0000.mp3", duration = 45.8710204, start = 0},
-  },
-}
 P.transport["quest:1483"] = {
   hash = "684f21",
   fullHash = "684f21",
   text = "Ziz Fizziks. On Windshear Crag’s western ridge, Ziz Fizziks has left the Venture Company for the Tinkers' Union. A gnome engineer’s arrival drove him away, though his new superior works him just as hard. The Venture Company hired Gerenzo Wrenchwhistle, a gnome engineer, and Ziz Fizziks took it as an insult. He could not bear to work beside a gnomish rival, so he sought a way out. Ziz contacted Sputtervalve, a representative of the Tinkers' Union, and begged for a transfer away from Gerenzo’s oversight. The Tinkers' Union gave Ziz Fizziks a new position, but the easy life he expected never came. On Windshear Crag’s western edge, he found that Sputtervalve drove him as hard as any Venture Company foreman. Still, Ziz would rather labor under a demanding goblin superior than share an engineering workshop with a gnome.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1483-991de78db1547c7c1723/1-0000.mp3", duration = 52.6106122, start = 0},
-  },
-}
-P.transport["quest:1484"] = {
-  hash = "ac3d0e",
-  fullHash = "ac3d0e",
-  text = "The Corrupter. Near Maurin Bonesplitter, the demon lord has proved more dangerous than he expected. Maurin believes Takata Steelblade doubts his skill, and that withholding what happened would dishonor Takata. So he sends you to speak with the swordsman nearby. The demon lord has proved more dangerous than Maurin Bonesplitter expected. Maurin believes Takata Steelblade doubts he can handle the creature, and keeping Takata uninformed would insult the swordsman's honor.\n\nMaurin asks you to speak with Takata and offer to slay the demon, if Takata allows it. He cautions you not to press too hard, for he thinks Takata should believe the idea is his own. Takata Steelblade is nearby, across the path from Maurin. He stands on a cliff overlooking the Kodo Graveyard.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1484-6b2cdc0cc00b71dbcbd0/1-0000.mp3", duration = 46.9681633, start = 0},
   },
 }
 P.transport["quest:1487"] = {
@@ -1919,14 +1071,6 @@ P.transport["quest:150"] = {
   text = "Murloc Poachers. Along Lake Everstill, murlocs are stripping Lakeshire's waters of fish. Dockmaster Baren asks you to thin their ranks before the town loses its main food supply. Dockmaster Baren asks you to protect the fish that feed Lakeshire. Lake Everstill supplies the mountain town and its market with fresh catches. Large murloc tribes now crowd the shallows and scour the water for food. Left unchecked, they could wipe out the local fish and leave Lakeshire without its main food supply. Murlocs usually scavenge along the coast, so their numbers high in the Redridge Mountains are hard to explain. Dockmaster Baren wonders why they have come so far from the open ocean. They may be fleeing predators at sea, losing territorial fights, or drawn by Lake Everstill's plentiful waters. Whatever brought them inland, their presence points to trouble elsewhere in the region.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_150-7aa34953f8597bfa699d/1-0000.mp3", duration = 53.1069388, start = 0},
-  },
-}
-P.transport["quest:1505"] = {
-  hash = "e57655",
-  fullHash = "e57655",
-  text = "Veteran Uzzek. Just south of Far Watch Post, recruits turn to Veteran Uzzek for lessons in combat. His years of experience teach young Horde warriors that strength calls for discipline and study. Strength alone cannot make a Horde warrior a champion. The finest fighters stay humble students of their craft. Through discipline and study, they sharpen their instincts. Young warriors ready to pass beyond basic training seek veterans who have survived the trials of war. Between Durotar and the Barrens, young fighters seek deeper guidance in combat. Far Watch Post watches the eastern frontier. Just south of the orc garrison, Veteran Uzzek teaches promising recruits combat and survival tactics. He has endured countless bloody conflicts and now guides the next generation.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1505-20887147dee3a782348a/1-0000.mp3", duration = 46.8636735, start = 0},
   },
 }
 P.transport["quest:1507"] = {
@@ -1991,22 +1135,6 @@ P.transport["quest:1515"] = {
   text = "Dogran's Captivity. At Camp Taurajo, a warlock faces a vital trial in Horde training: rescue a captured orc warrior. With Ken'zigla's Draught, you must find battered Grunt Dogran and give him strength to escape. Grunt Logmar at Camp Taurajo will not risk Horde soldiers in a costly attack on the entrenched quilboar. So Grunt Dogran's fate rests with you, an aspiring warlock armed only with Ken'zigla's Draught. Travel north through the brambles and hostile camps to find where the quilboar hold him captive.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1515-0a9c0c3c9d49ee8006a8/1-0000.mp3", duration = 31.0595918, start = 0},
-  },
-}
-P.transport["quest:1519"] = {
-  hash = "903900",
-  fullHash = "903900",
-  text = "Call of Earth. The earth calls a shaman to begin a patient trial of communion. By accepting an earthen sapta, the seeker steps onto a path of spiritual rebirth and learns to hear the foundation of life. A shaman learns to commune with the primal force of earth through a formative rite. Earth is the most stubborn and wise of the elements, the steady bedrock beneath existence. It moves through slow cycles of erosion and rebirth. Mountains wear into deserts, and rivers carve canyons over ages. To hear the earth's voice, an initiate needs that same patience. Answering the call changes a seeker beyond return to former ignorance. When the initiate proves readiness and respect for the laws of the Earth Mother, they receive an earthen sapta. The elixir opens a new way of seeing, and the shaman begins to grasp earth's secrets of strength, stamina, and elemental protection.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1519-0ed1e63b98e425c25a60/1-0000.mp3", duration = 54.4914286, start = 0},
-  },
-}
-P.transport["quest:1522"] = {
-  hash = "16ab73",
-  fullHash = "16ab73",
-  text = "Call of Fire. A shaman sees your strength in earth and sends you north to Kranal Fiss. There, you can learn the ways of fire. Kranal Fiss lives north of the Crossroads. The shaman says he is easy to find, but warns you not to go too far, lest you reach the elves' lands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1522-c9a6df0692393011c76f/1-0000.mp3", duration = 21.995102, start = 0},
   },
 }
 P.transport["quest:1529"] = {
@@ -2129,54 +1257,6 @@ P.transport["quest:164"] = {
     {file = "Audio/Transport/full_quest_164-c1fb821fa55d4fcfad5b/1-0000.mp3", duration = 49.7893878, start = 0},
   },
 }
-P.transport["quest:1642"] = {
-  hash = "0cebc8",
-  fullHash = "0cebc8",
-  text = "The Tome of Divinity. In Stormwind, The Tome of Divinity guides the first steps of paladin training. Its teachings call champions of the Holy Light to humility, compassion, and patience, not godhood or strength alone. The Tome of Divinity’s sacred texts teach paladin initiates what it means to serve the Light. Divinity means neither seeking godhood nor claiming rule over others. Instead, champions reflect the Light’s grace through pure intent and goodness in every deed. Paladins take up arms against evil, but strength without moral purpose means little. Their true distinction lies in how they treat ordinary people across Azeroth, keeping power bound to righteousness and humility. Scripture is only the beginning of a paladin’s service. After an initiate studies the Tome of Divinity, Duthorian Rall in Stormwind tests whether its lessons have taken root in the candidate’s heart and mind. The Light asks for more than the slaying of beasts. It calls for patience, bravery, and understanding.\n\nIn the city and the surrounding lands, people suffer and humble tasks go without glory. By aiding the less fortunate and comforting those in despair, an initiate proves they have the sound mind and selfless spirit to bear the Light’s blessings responsibly.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1642-859bb2baff6b32ae122e/1-0000.mp3", duration = 78.1844898, start = 0},
-  },
-}
-P.transport["quest:1643"] = {
-  hash = "9a8b05",
-  fullHash = "9a8b05",
-  text = "The Tome of Divinity. In Stormwind, initiates of the Light are sent to help someone in need. They seek a citizen of pure heart and noble motive, and find Stephanie Turner in the Trade District. Initiates of the Light begin this sacred trial by walking Stormwind’s streets. They seek someone of noble intent and pure motive who depends on the kindness of strangers. Before deeper instruction in holy duties, they learn that service to the vulnerable matters more than glorious combat. In Stormwind’s Trade District, Stephanie Turner makes clothing for children in the city’s orphanage with her husband. More tradesmen have come to the city, and competition for cloth and leather has made donations harder to find. Her husband has gone to Ironforge to seek support. Stephanie remains in Stormwind, carrying on their work.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1643-3d687e9b5ada64c6d804/1-0000.mp3", duration = 48.9012245, start = 0},
-  },
-}
-P.transport["quest:1644"] = {
-  hash = "72e0cb",
-  fullHash = "72e0cb",
-  text = "The Tome of Divinity. Stephanie Turner in Stormwind needs help clothing children orphaned by the Scourge. Her husband John is gathering supplies as an aspiring paladin brings linen cloth to her home. Stephanie Turner cares for children whose families were lost to the Scourge in the northern lands over the last decade. Her husband John is away gathering supplies. So Stephanie must keep the children fed, warm, and sheltered while finding time to make them clothes. An aspiring paladin proves compassion by bringing linen cloth to Stephanie. With the cloth, she can sew shirts and pants for the children while tending to their food and shelter. Such humble aid shows how the Light's protectors guard the weak. Stephanie says this year has grown harsher. John must make long, difficult journeys as far as Ironforge to gather supplies. Even within Stormwind's high stone walls, the pain of recent tragedies in the north is still felt.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1644-f38408d5a832479d8331/1-0000.mp3", duration = 55.7453061, start = 0},
-  },
-}
-P.transport["quest:1646"] = {
-  hash = "b1f407",
-  fullHash = "b1f407",
-  text = "The Tome of Divinity. In Ironforge, Tiza Battleforge teaches young paladins what the Light asks of them. The Tome of Divinity says devotion calls for patience, compassion, and humble service to the needy, alongside martial strength. For a paladin, strength in battle must serve a higher purpose. Tiza Battleforge in Ironforge gives initiates the Tome of Divinity to teach them why they wield their arms. It turns their thoughts from dominion and godhood toward moral goodness. A paladin's calling is to serve as a steady instrument of the Light. The tome teaches that smiting evil is not enough to make a paladin. Compassion, patience, and humility set these warriors apart from common combatants. After studying its words, initiates undertake trials in Ironforge and nearby lands. Through charity and service, they show sound judgment and unwavering devotion.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1646-0149c061b107ea74425f/1-0000.mp3", duration = 53.5510204, start = 0},
-  },
-}
-P.transport["quest:1647"] = {
-  hash = "e274f0",
-  fullHash = "e274f0",
-  text = "The Tome of Divinity. At Ironforge's temple, an initiate seeks a lesson in the Light through service. Sent by a mentor into the outer ring, you search for someone with pure intent and a genuine need. There, John Turner shows how compassion and selfless work belong on the path of the Light. Initiates of the Light stationed in Ironforge face a trial of compassion. Their mentor sends them into the dwarven city to find someone truly in need of aid. The search calls for discernment: you must recognize a pure heart, noble intent, and a real need for kindness. Humble service lies at the heart of this calling. In Ironforge's outer ring, a humble worker named John Turner plies his trade. Startled by your approach, he calls out about the Orphanage of Stormwind, then tells you why he works so hard. Separated from his beloved wife by long hours of toil, Turner labors so orphaned children can have clothes and food. Help him, then return to the temple to continue your journey in the Light.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1647-31e104551531ffcd492f/1-0000.mp3", duration = 62.3020408, start = 0},
-  },
-}
-P.transport["quest:1648"] = {
-  hash = "f4f320",
-  fullHash = "f4f320",
-  text = "The Tome of Divinity. In Ironforge, The Tome of Divinity calls servants of the Light to show compassion. John Turner seeks aid for the Stormwind orphanage he runs with his wife, caring for children left parentless by the Scourge. The trial asks an initiate to choose charity over martial glory. For an initiate walking the path of the Light, the trial in Ironforge calls for charity rather than arms. John Turner has come to the dwarven halls seeking help. He and his wife oversee an orphanage in Stormwind, where they care for children left without parents by the Scourge's rampages over the past decade. His journey to Ironforge speaks to the hardships shared by the Alliance's common folk. Provisions are hard to gather across borders. More tradesmen have come to work across Azeroth, and local supplies have grown scarce. John Turner has spent weeks in Ironforge appealing to civic groups and citizens, with little to show for it. His wife needs linen cloth to make clothes for the children. Giving it freely shows the selfless devotion at the heart of a servant of the Light.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1648-8d701e90bfc79a5acac3/1-0000.mp3", duration = 63.8432653, start = 0},
-  },
-}
 P.transport["quest:1649"] = {
   hash = "942ba3",
   fullHash = "942ba3",
@@ -2241,14 +1321,6 @@ P.transport["quest:1655"] = {
     {file = "Audio/Transport/full_quest_1655-ed9dacaf3fd72f1afe62/1-0000.mp3", duration = 50.2334694, start = 0},
   },
 }
-P.transport["quest:1656"] = {
-  hash = "b9b64e",
-  fullHash = "b9b64e",
-  text = "A Task Unfinished. On Red Cloud Mesa, a young tauren cannot finish a family chore alone. Their coming-of-age trials and their father's request leave them too exhausted to carry furs to Innkeeper Kauth in Bloodhoof Village. Young tauren on Red Cloud Mesa face rites that prove they are ready for the wider world. The trials demand strength, while tribal chores still need doing. One youth must finish the Rite of Strength and answer an urgent request from their father. Too tired to carry a bundle of furs down the mesa, they ask you for help. Bloodhoof Village lies in the open plains below, where Innkeeper Kauth receives the furs. He intends to make them into warm blankets for weary wanderers. The plains tauren welcome travelers, and their support helps those facing solitary trials of strength.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1656-79966b5ce0578d426e5b/1-0000.mp3", duration = 49.2930612, start = 0},
-  },
-}
 P.transport["quest:166"] = {
   hash = "851a7d",
   fullHash = "851a7d",
@@ -2263,22 +1335,6 @@ P.transport["quest:167"] = {
   text = "Oh Brother. . .. In Stormwind, Wilder Thistlenettle waits after escaping a cave-in beneath Moonbrook. His brother, Foreman Thistlenettle, and the rest of the crew remain behind the rubble, and Wilder asks you to find his brother or recover the dwarf's Explorers' League Badge. Wilder Thistlenettle and his brother worked for a mining company in the tunnels beneath Moonbrook. Then thieves swarmed the mines, and a cave-in sealed the lower passages. Wilder escaped to Stormwind. His brother and the rest of the crew remained trapped behind the rubble.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_167-a001afe5006eb0fa2fe1/1-0000.mp3", duration = 33.2277551, start = 0},
-  },
-}
-P.transport["quest:1678"] = {
-  hash = "3504f6",
-  fullHash = "3504f6",
-  text = "Vejrek. In the foothills south of Frostmane Hold, you face Vejrek to prove your mettle. Muren Stormpike wants proof you can handle real foes. Your success begins a lesson in strong defense. Muren Stormpike says you need toughness before he can teach you new moves. Vejrek is the toughest troll in these parts, and his hut lies in the foothills south of Frostmane Hold. Muren asks you to bring back Vejrek’s head as proof you can handle real foes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1678-c003fffe48a458e67c7b/1-0000.mp3", duration = 27.924898, start = 0},
-  },
-}
-P.transport["quest:1680"] = {
-  hash = "f51b40",
-  fullHash = "f51b40",
-  text = "Tormus Deepforge. In Ironforge, Tormus Deepforge waits for fighters sent by Muren Stormpike. Before he forges a weapon for them, he asks them to face a perilous trial. Tormus Deepforge is a master dwarven weaponsmith in Ironforge. Warriors who show their growing skill to Muren Stormpike are sent across the city to consult him. Tormus is known for sturdy, potent arms, but he does not give fine blades or bludgeons to every passerby. A warrior must earn his work through action. Before Tormus agrees to forge a weapon, he asks the adventurer to promise him a favor. He speaks plainly about the danger ahead and warns that it could cost a life. To him, peril is no reason to turn back. It is the proper test of a warrior's mettle.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1680-da0242b8bd1d4e64ef14/1-0000.mp3", duration = 47.2816327, start = 0},
   },
 }
 P.transport["quest:169"] = {
@@ -2393,30 +1449,6 @@ P.transport["quest:1711"] = {
     {file = "Audio/Transport/full_quest_1711-91ef6057b32174e8190d/1-0000.mp3", duration = 48.6922449, start = 0},
   },
 }
-P.transport["quest:1712"] = {
-  hash = "1b8af2",
-  fullHash = "1b8af2",
-  text = "Cyclonian. At the summoning site, Cyclonian waits for a champion bold enough to face him. A special parchment names the rare materials needed to call forth the wind lord, whose whirlwind heart can strengthen a formidable weapon. A watcher has kept vigil at the summoning site for ages. The raging elemental wind lord awaits a combatant with the raw martial prowess to challenge and destroy him. A special parchment names the rare materials needed to summon Cyclonian. Once the wind lord is called forth, you face him in direct combat. You may defeat him, or fall to his howling gale.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1712-4ee4cc8becf7a2f87b01/1-0000.mp3", duration = 35.5526531, start = 0},
-  },
-}
-P.transport["quest:1713"] = {
-  hash = "cf8d2e",
-  fullHash = "cf8d2e",
-  text = "The Summoning. At Bath'rah Windwatcher's camp, a warrior faces a trial against Cyclonian, the wind lord. Slay the elemental and claim the Whirlwind Heart, whose storm force can be bound into a weapon. Bath'rah Windwatcher has prepared an ancient ritual to summon Cyclonian into the mortal realm. The fearsome elemental is known as the wind lord. There will be no bargain with the tempest. An able champion must strike it down as soon as it takes form. Cyclonian's Whirlwind Heart sustains his physical form. When the wind lord falls, Bath'rah wrenches the heart free and harnesses the gale within. Its volatile power can imbue a weapon with the force of the storm.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1713-d45969ce1ffbf079cc86/1-0000.mp3", duration = 44.5910204, start = 0},
-  },
-}
-P.transport["quest:1714"] = {
-  hash = "1136c4",
-  fullHash = "1136c4",
-  text = "Essence of the Exile. At the cauldron, Essence of the Exile draws travelers with its beckoning vapors. Charms set off a violent reaction that reveals molten rock. A bubbling cauldron sends out vapors that draw travelers to its churning depths. Specific enchanted charms stir an intense reaction within the vessel. The charms sink slowly through the liquid. Then a large bubble rises and bursts, revealing a churning lump of molten rock forged from the combined materials.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1714-581d004c01c111539f1b/1-0000.mp3", duration = 40.6726531, start = 0},
-  },
-}
 P.transport["quest:1716"] = {
   hash = "85592e",
   fullHash = "85592e",
@@ -2513,44 +1545,12 @@ P.transport["quest:177"] = {
     {file = "Audio/Transport/full_quest_177-681ac8c67910f6f5cce4/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
-P.transport["quest:1778"] = {
-  hash = "5e3f16",
-  fullHash = "5e3f16",
-  text = "The Tome of Divinity. In Ironforge, Tiza Battleforge teaches initiates what service to the Holy Light demands. They aid someone in need, then return to tell her how they served. Paladins begin their trials by learning humility, duty, and charity. Tiza Battleforge does not ask for feats of arms. A servant of the Holy Light must understand the troubles ordinary people face and offer help without seeking praise or gain. After helping someone in Ironforge, an aspiring paladin returns to Tiza Battleforge. The initiate tells her how they spent their time away and whose burdens they helped bear. When she is satisfied that they acted with charity and duty, Tiza commends them. Such selfless service is what it means to follow the Light.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1778-489572ec459bf0f0ffbb/1-0000.mp3", duration = 46.4457143, start = 0},
-  },
-}
-P.transport["quest:1779"] = {
-  hash = "462f6c",
-  fullHash = "462f6c",
-  text = "The Tome of Divinity. In Ironforge, The Tome of Divinity tests paladin initiates in holy power and martial devotion. Entrusted with the Symbol of Life, an initiate is sent to aid Muiredon Battleforge, wounded after a deadly encounter with Dark Iron dwarves. In Ironforge, paladin initiates face a trial of martial skill and holy power. They have already shown humility, patience, and charity. Now they are entrusted with the Symbol of Life and sent into the city to help those suffering from conflicts beyond its gates. Muiredon Battleforge lies badly wounded after a clash with Dark Iron dwarves. A priest tends his immediate injuries as he prepares to tell what became of his expedition and his companion Narm. The initiate must answer that need with the Light’s gift of renewal.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1779-3bf6986888d928fd1258/1-0000.mp3", duration = 50.3118367, start = 0},
-  },
-}
 P.transport["quest:178"] = {
   hash = "4eb61e",
   fullHash = "4eb61e",
   text = "Theocritus' Retrieval. In Redridge, a strange voice reaches across the mountains through a Shadowhide Pendant. The speaker is Theocritus, High Mage of Tower of Azora, who has intercepted the gnolls' mystical network and urgently asks for the pendant to study. Travelers who fight the savage Shadowhide gnolls in the Redridge Mountains sometimes find a Shadowhide Pendant. Touch the enchanted trinket, and a calm, distant voice answers instead of barking or curses. The speaker is Theocritus, a human mage at Tower of Azora, across the border in Elwynn Forest. His message comes from long study of ways to break the dark sorceries that direct the gnoll packs.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_178-d2e7b586aab97458ada0/1-0000.mp3", duration = 39.4710204, start = 0},
-  },
-}
-P.transport["quest:1780"] = {
-  hash = "56469e",
-  fullHash = "56469e",
-  text = "The Tome of Divinity. In Stormwind's Cathedral of Light, Duthorian Rall guides paladins through a trial of devotion to the Holy Light. They prove their worth through charity, selflessness, and a duty to protect those in need. Paladins in the service of the Holy Light face a defining trial in Stormwind City. At the Cathedral of Light, Duthorian Rall sends initiates to prove their devotion through moral conduct and selfless deeds for the kingdom's citizens. Martial glory alone will not suffice. After aiding the vulnerable, initiates return to Duthorian Rall. They have brought needed relief to children and earned their heartfelt gratitude. Their mentor sees the value in putting others first. He teaches that charity, compassion, and duty to the people of Azeroth mark the path of the Light.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1780-4ab126bdc26f7e0fc2d2/1-0000.mp3", duration = 49.1363265, start = 0},
-  },
-}
-P.transport["quest:1781"] = {
-  hash = "95920e",
-  fullHash = "95920e",
-  text = "The Tome of Divinity. At Stormwind's Cathedral of Light, a trial awaits paladin initiates: they must focus the holy Symbol of Life. Those who prove their virtue are sent to aid Gazin Tenorm, who barely escaped a Defias ambush near Heroes' Vigil in Elwynn Forest. In Stormwind's Cathedral of Light, patient and charitable paladin initiates receive the Symbol of Life. Duthorian Rall entrusts them with this holy vessel to test their devotion to the Light. Only a worthy champion can focus one of the Light's greatest gifts, the power to restore life to the fallen. Gazin Tenorm shows why the Symbol is needed. He crawled back to Stormwind after Defias bandits attacked him near Heroes' Vigil in Elwynn Forest. Priests tend his severe wounds at the cathedral altar. His companion Henze remains in danger where the outlaws struck.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1781-5d4d5eba5ef1c0d2487d/1-0000.mp3", duration = 54.2040816, start = 0},
   },
 }
 P.transport["quest:1782"] = {
@@ -2561,68 +1561,12 @@ P.transport["quest:1782"] = {
     {file = "Audio/Transport/full_quest_1782-86c609f91a30b972cb09/1-0000.mp3", duration = 54.804898, start = 0},
   },
 }
-P.transport["quest:1783"] = {
-  hash = "e5b16c",
-  fullHash = "e5b16c",
-  text = "The Tome of Divinity. A paladin initiate carries the Symbol of Life to the frigid shores south of Helm's Bed Lake in Dun Morogh. There, the initiate must find Narm Faulk, a brave scout who fell holding off Dark Iron dwarves, and call him back with the Light. South of Helm's Bed Lake, dwarven scouts Muiredon and Narm Faulk watched Dark Iron dwarves entrench themselves. When they saw an enemy commander issuing orders, they struck at several foes and tried to secure a script. The Dark Irons overwhelmed them with unexpected ferocity. Muiredon fled for reinforcements while Narm held the line.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1783-4e4bb4fae4bf98013888/1-0000.mp3", duration = 38.2693878, start = 0},
-  },
-}
-P.transport["quest:1784"] = {
-  hash = "887308",
-  fullHash = "887308",
-  text = "The Tome of Divinity. In Dun Morogh, injured scouts need help exposing Dark Iron spies near Helm's Bed Lake. Their orders may persuade Ironforge's skeptical council to heed the danger. Young dwarven paladins answer the call to defend Dun Morogh when an expedition near Helm's Bed Lake goes wrong. Narm Faulk and Muiredon Battleforge set out to ambush Dark Iron scouts. Narm fell wounded, while Muiredon returned to Ironforge to recover. Rumors of Dark Iron infiltrators have reached Ironforge, yet some council members refuse to believe they have entered Dun Morogh. Near Helm's Bed, the paladin can track down the spies and recover a Dark Iron Script from their captain. The orders offer proof of enemy movements and plots near the capital's gates.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1784-fe6fe2a48881f48f9101/1-0000.mp3", duration = 46.8636735, start = 0},
-  },
-}
-P.transport["quest:1785"] = {
-  hash = "8e1ef9",
-  fullHash = "8e1ef9",
-  text = "The Tome of Divinity. In Ironforge, holy champions face a final trial before Tiza Battleforge. The Tome of Divinity shows whether they are ready to wield the Symbol of Life and call fallen allies back to life. You have crossed the kingdom's trials, and now you come to Tiza Battleforge in Ironforge. She is a revered teacher of the holy arts. Her husband watches with pride as you approach, eager to see the dwarven people acknowledge your readiness before the Holy Light. Tiza Battleforge's final blessing tests whether your heart is ready to wield the Symbol of Life. The relic answers only to one prepared to channel the Light's greatest gifts. Prove your worth, and Tiza grants you a sacred scroll that lets you call fallen comrades back from death. Ironforge needs this power against the Scourge and the Dark Iron clan.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1785-7774a321ade32b4d4e57/1-0000.mp3", duration = 49.9722449, start = 0},
-  },
-}
-P.transport["quest:1786"] = {
-  hash = "c01918",
-  fullHash = "c01918",
-  text = "The Tome of Divinity. In Elwynn, faith and sacrifice are tested when a Defias ambush leaves Henze Faulk dead at Heroes' Vigil. With the Symbol of Life, you are sent to restore him and hinder the brotherhood's schemes. Henze Faulk and Gazin traveled to Heroes' Vigil after hearing that Defias Brotherhood agents had crossed into northeastern Elwynn Forest. The island lies in the middle of Stone Cairn Lake. The scouts sought proof to present to the king's royal advisors, so they tried to ambush two conspirators reviewing plans.\n\nDefias spellcasters soon joined the fight, and the scouts were overwhelmed. Henze stood his ground against the mages, sacrificing himself to give Gazin time to escape with his life.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1786-088b80ec6bb4f2ed124e/1-0000.mp3", duration = 43.6244898, start = 0},
-  },
-}
-P.transport["quest:1787"] = {
-  hash = "4bdc3c",
-  fullHash = "4bdc3c",
-  text = "The Tome of Divinity. You are proving your devotion to the Light through a trial for Alliance paladins. After helping an injured scout in Elwynn Forest, you face Defias Rogue Wizards and seek papers that threaten the realm. As a paladin in training, you are being tested in Elwynn Forest. Henze was injured while watching illicit activity on an island. Help him learn how far the Defias have spread there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1787-4d8a302a5654e80456a3/1-0000.mp3", duration = 24.9730612, start = 0},
-  },
-}
-P.transport["quest:1788"] = {
-  hash = "3870a5",
-  fullHash = "3870a5",
-  text = "The Tome of Divinity. In Stormwind, paladins face a trial of faith in The Tome of Divinity. An initiate proves mastery of the Symbol of Life by restoring a fallen ally, then earns Duthorian Rall's blessing to wield resurrection. After restoring the fallen Henze with the Symbol of Life in the field, an aspiring paladin returns to the Cathedral of Light in Stormwind. The Defias papers recovered from the island are to go to the King's advisors through Gazin Tenorm. First, Duthorian Rall awaits word of the initiate's success. Calling on the Light to restore the dead is no small gift. Duthorian Rall sees mastery of the Symbol of Life as proof that an initiate has the faith and spiritual strength for one of the paladin order's highest callings: resurrection. With this rite mastered, the paladin can safeguard allies on battlefields across the kingdom.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1788-5c65466d0fc0ca47488a/1-0000.mp3", duration = 52.5322449, start = 0},
-  },
-}
 P.transport["quest:1791"] = {
   hash = "f00ffc",
   fullHash = "f00ffc",
   text = "The Windwatcher. Northward, warriors who master the berserker stance seek The Windwatcher. After the affray on Fray Island, klannoc macleod sends them to find a weapon worthy of their fury. You survived the affray on Fray Island and learned the berserker stance from klannoc macleod. Now he sends you across continents, far from the Barrens coast, to find a solitary craftsman who can forge an exceptional weapon. Bath'rah the Windwatcher lives beside the river that runs north past Tarren Mill. His camp lies among stone ruins in contested land between the Alterac Mountains and the blighted Western Plaguelands. The troll hermit crafts weapons and commands potent elemental shamanism. He waits for warriors set on forging a weapon of great power.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1791-eff387bdef0b6e3026c3/1-0000.mp3", duration = 46.2889796, start = 0},
-  },
-}
-P.transport["quest:1792"] = {
-  hash = "bc6767",
-  fullHash = "bc6767",
-  text = "Whirlwind Weapon. A warrior's chosen weapon awaits the storm Cyclonian left behind. The whirlwind heart can bind the elemental's fury into a forged vessel. After Cyclonian falls and the warrior claims its heart, a craftsperson prepares a weapon to hold the storm's power. The heart is fused into the chosen arm, turning forged metal into a channel for elemental fury. Cyclonian's heart holds the violence of howling winds and tempestuous gales. Bound into a forged weapon, it lends the wielder the living might of the storm alongside their own martial skill. Each strike carries the force of the defeated elemental, whose storm now rages in the hands of its vanquisher.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1792-f69a3938fcece5d4906f/1-0000.mp3", duration = 42.8146939, start = 0},
   },
 }
 P.transport["quest:1793"] = {
@@ -2825,46 +1769,6 @@ P.transport["quest:185"] = {
     {file = "Audio/Transport/full_quest_185-96b5e1901777550414fe/1-0000.mp3", duration = 38.8963265, start = 0},
   },
 }
-P.transport["quest:186"] = {
-  hash = "f57b13",
-  fullHash = "f57b13",
-  text = "Tiger Mastery. At Nesingwary's Expedition in northern Stranglethorn Vale, Ajeck Rouack sends you to hunt mature tigers. After you defeat young stalkers, she sets you against ten mature Stranglethorn Tigers. Ajeck Rouack sends you to hunt ten mature Stranglethorn Tigers. Your success against younger predators has brought you to a harder test in the wilds of Stranglethorn Vale. Greater challenges lie beyond this hunt.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_186-ded69a1f03f81244bbe4/1-0000.mp3", duration = 26.122449, start = 0},
-  },
-}
-P.transport["quest:187"] = {
-  hash = "4abb4e",
-  fullHash = "4abb4e",
-  text = "Tiger Mastery. At Nesingwary's Expedition, Ajeck Rouack sends you after ten elder Stranglethorn tigers. Their deaths will prove your skill before the final test. Ajeck Rouack sends you into the wilds to hunt ten elder Stranglethorn tigers. He says they are the hardest cats to track and the fiercest to overcome. Their deaths prepare you for a final trial. After it, he promises to proclaim you a master tiger hunter before Master Nesingwary.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_187-2fdf6cb621234cb5e7b6/1-0000.mp3", duration = 28.5779592, start = 0},
-  },
-}
-P.transport["quest:188"] = {
-  hash = "f38c27",
-  fullHash = "f38c27",
-  text = "Tiger Mastery. At Nesingwary's Expedition, Ajeck Rouack sends you after a tiger his hunters have tracked for weeks. Sin'Dall waits in northern Stranglethorn Vale, and her paw will prove the hunt is done. At Nesingwary's Expedition, Ajeck Rouack sends you on one last hunt after your earlier trials against Stranglethorn's tigers. His hunters have tracked Sin'Dall through the jungle for weeks. Find the elusive tiger, kill her, and bring back her paw as proof.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_188-0751c4cf8b08716b588a/1-0000.mp3", duration = 27.7942857, start = 0},
-  },
-}
-P.transport["quest:1884"] = {
-  hash = "c4f942",
-  fullHash = "c4f942",
-  text = "Ju-Ju Heaps. On the Echo Isles, Un'thuwa asks you to destroy Zalazane's ju-ju heaps. Their corruption threatens Durotar's flow of magic. From Sen'jin Village, Un'thuwa asks you to destroy the heaps Zalazane placed among his huts on the main Echo Isle. The tainted fetishes corrupt wildlife and strengthen warlocks and infernal creatures. Left alone, they may change Durotar's flow of magic forever.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1884-0fd5851c5fc9145878c0/1-0000.mp3", duration = 26.3836735, start = 0},
-  },
-}
-P.transport["quest:189"] = {
-  hash = "1fa456",
-  fullHash = "1fa456",
-  text = "Bloodscalp Ears. In Booty Bay, Bloodscalp Ears bring Kebok a way to answer for mounting losses. He pays for proof of a kill after clashes with the Bloodscalp tribe have cost him guards and agents. In Stranglethorn Vale, Bloodscalp trolls are killing Kebok's agents and guards. Many of his best guards have fallen in jungle skirmishes. The mounting costs leave him anxious about explaining them to Baron Revilgaz. Kebok offers coin to travelers who hunt Bloodscalp trolls in the jungle. He asks you to bring back fifteen severed ears as proof of the kills.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_189-294072226ab50b0fb40c/1-0000.mp3", duration = 33.7763265, start = 0},
-  },
-}
 P.transport["quest:19"] = {
   hash = "3c137c",
   fullHash = "3c137c",
@@ -2881,22 +1785,6 @@ P.transport["quest:190"] = {
     {file = "Audio/Transport/full_quest_190-772428cf788b2255cb41/1-0000.mp3", duration = 33.6979592, start = 0},
   },
 }
-P.transport["quest:191"] = {
-  hash = "1f59c4",
-  fullHash = "1f59c4",
-  text = "Panther Mastery. At Nesingwary's Expedition, Sir S. J. Erlgadin asks you to prove your worth among the seasoned hunters. After your hunt for young panthers, he sends you into Stranglethorn Vale for ten fully grown beasts. Your hunt for young panthers is done, and Sir S. J. Erlgadin sets a higher standard. He asks you to prove you can keep company with the expedition's seasoned big game hunters. So you set out to track and slay ten mature panthers, stronger and more dangerous than their young kin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_191-7fafc477248ac412df91/1-0000.mp3", duration = 31.3469388, start = 0},
-  },
-}
-P.transport["quest:192"] = {
-  hash = "3da7a8",
-  fullHash = "3da7a8",
-  text = "Panther Mastery. In Stranglethorn Vale, Panther Mastery sends you after the deadliest panthers. After your earlier trials, ten Shadowmaw Panthers are your quarry. Sir S. J. Erlgadin calls Shadowmaw Panthers the most dangerous cats in Stranglethorn's jungles. To prove yourself as a stalker, you crawl through dense underbrush and track ten elusive beasts. Their ferocity makes them harder to kill than to find.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_192-3202500ec8b6a08b827e/1-0000.mp3", duration = 25.7567347, start = 0},
-  },
-}
 P.transport["quest:1938"] = {
   hash = "9bcfcb",
   fullHash = "9bcfcb",
@@ -2911,14 +1799,6 @@ P.transport["quest:1939"] = {
   text = "High Sorcerer Andromath. At Stormwind’s Wizard’s Sanctum, promising Alliance mages are summoned to the tower’s summit. Andromath works among the kingdom’s foremost archmages beyond ruined Dalaran. Jennea Cannon, the apprentice coordinator in Stormwind’s Mage Quarter, sends promising casters to the summit of the Wizard’s Sanctum. High Sorcerer Andromath, one of the southern kingdoms’ most senior active practitioners of the arcane, has asked to meet magi ready for greater responsibilities. Dalaran’s magocracy was ruined in the Third War, and its surviving wizards are busy rebuilding. Without easy access to the Violet Citadel’s libraries, the Alliance relies on senior archmages in Stormwind to study ancient threats and guide research into shadowy, forbidden arts.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1939-06b36751af90a38930db/1-0000.mp3", duration = 66.4816327, start = 0},
-  },
-}
-P.transport["quest:194"] = {
-  hash = "021d3d",
-  fullHash = "021d3d",
-  text = "Raptor Mastery. At his northern Stranglethorn camp, Hemet Nesingwary tests your hunting skill. He asks you to find and slay ten Stranglethorn Raptors. After Welcome to the Jungle, Hemet Nesingwary tests your skill at tracking and hunting in the jungle. He gives you no map or directions. Finding the Stranglethorn Raptors is part of the trial, and you need to bring down ten of the fierce beasts.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_194-5a81de081f068ba1f9b6/1-0000.mp3", duration = 23.9281633, start = 0},
   },
 }
 P.transport["quest:1940"] = {
@@ -2969,36 +1849,12 @@ P.transport["quest:1946"] = {
     {file = "Audio/Transport/full_quest_1946-e2cccd8b61536ba2c60f/1-0000.mp3", duration = 42.9453061, start = 0},
   },
 }
-P.transport["quest:1947"] = {
-  hash = "a13542",
-  fullHash = "a13542",
-  text = "Journey to the Marsh. Your class sends you to Dustwallow Marsh, where Tabetha’s knowledge can help you earn your wand. West of Theramore and just north of the Stonemaul Ruins, Tabetha lives in a cottage. Your class asks you to speak with the hermit and learn from her vast knowledge.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_1947-05299daf38cbd09f0361/1-0000.mp3", duration = 16.4571429, start = 0},
-  },
-}
-P.transport["quest:195"] = {
-  hash = "bee2c0",
-  fullHash = "bee2c0",
-  text = "Raptor Mastery. In Stranglethorn Vale, Hemet Nesingwary sends hunters after deadlier quarry. After their first raptor hunt, he asks them to track and kill ten Lashtail Raptors. North of Grom'gol Base Camp, Hemet Nesingwary sends hunters into dense jungle brush. After their first raptor hunt, he expects them to prove their focus and skill with deadlier quarry. Ten fierce Lashtail Raptors must be tracked and killed.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_195-08ca53edea1ddb289002/1-0000.mp3", duration = 27.3240816, start = 0},
-  },
-}
 P.transport["quest:1950"] = {
   hash = "197c57",
   fullHash = "197c57",
   text = "Get the Scoop. Near the Mirage Raceway, Magus Tirth has forgotten the words to open his sealed strongbox. His apprentice, Johnson, is missing somewhere around the track, and Tirth needs the spellbook inside. Magus Tirth lives on the cracked salt bed of the Shimmering Flats in Thousand Needles. He is an eccentric spellcaster whose arcane knowledge and books draw mages seeking to advance. Patience helps when dealing with him. Tirth relies on an assistant for everyday details, even the spoken passwords guarding his arcane stores. Now a book of power is locked away, and the magic words have slipped from his mind entirely.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_1950-671d7130ab53588e58b7/1-0000.mp3", duration = 38.4783673, start = 0},
-  },
-}
-P.transport["quest:198"] = {
-  hash = "496c55",
-  fullHash = "496c55",
-  text = "Supplies to Private Thorsen. Krazek needs a courier in Booty Bay to carry supplies north to Private Thorsen. Troll attacks have stopped the regular shipments to Lieutenant Doren's camp near the northern border. Lieutenant Doren's men guard the border between Stranglethorn Vale and Duskwood. Krazek arranges regular shipments for them, but local trolls keep attacking. The usual deliveries have become dangerous, so the goblin merchant hires you to carry a package north along the jungle road. Private Thorsen can receive it at the camp northwest of the road or along his patrol route to the south.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_198-c587a3bd04d3e2b99f2b/1-0000.mp3", duration = 32.1306122, start = 0},
   },
 }
 P.transport["quest:1999"] = {
@@ -3025,52 +1881,12 @@ P.transport["quest:20"] = {
     {file = "Audio/Transport/full_quest_20-926ec2fb6d1b1e11787a/1-0000.mp3", duration = 53.1853061, start = 0},
   },
 }
-P.transport["quest:200"] = {
-  hash = "4d59b2",
-  fullHash = "4d59b2",
-  text = "Bookie Herod. A leak has Lieutenant Doren searching his ranks for a traitor. Kurzen has learned Thorsen's secret, and Doren wants the records of Bookie Herod, Kurzen's logistics officer, from Kurzen's Compound. Lieutenant Doren suspects a traitor among his men. Kurzen learned Thorsen's secret, and the leak threatens their operations. So Doren needs to find its source. Thorsen kept a line into Kurzen's Compound through Bookie Herod, the colonel's logistics officer. Herod's written records may show how the operation was exposed. Bookie Herod's papers are inside Kurzen's Compound. When Doren served under Kurzen, Herod's office was on the top floor of the compound's only two-story house. Supply requisitions and messages from Colonel Kurzen may reveal how Thorsen's secret was betrayed.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_200-2a0b926a1db3e22b685a/1-0000.mp3", duration = 50.7297959, start = 0},
-  },
-}
-P.transport["quest:201"] = {
-  hash = "c978ac",
-  fullHash = "c978ac",
-  text = "Investigate the Camp. Krazek has heard Hemet Nesingwary may be in Stranglethorn Vale. He asks you to find the hunters' camp near Lake Nazferiti and confirm the report. Booty Bay reports place a hunters' camp in northern Stranglethorn Vale. Krazek has heard it lies along the river, just beyond the Venture Company's mining claim near Lake Nazferiti. The jungle is lawless, with dangers and competing interests. An armed camp draws notice. Hemet Nesingwary may be among the hunters at the camp. The renowned dwarven marksman is known across the lands as an elite explorer with influential ties. Krazek sends you upriver to learn whether the legendary hunter has arrived.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_201-0bf08ce78bbb14fbbe2e/1-0000.mp3", duration = 40.1763265, start = 0},
-  },
-}
-P.transport["quest:203"] = {
-  hash = "51a756",
-  fullHash = "51a756",
-  text = "The Second Rebellion. At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa calls for aid against Colonel Kurzen's overwhelming force. Outnumbered ten to one, the rebels cannot fight a long, open war. They strike swiftly and in secret, hoping to thin Kurzen's ranks and ease the pressure on their refuge. At the Rebel Camp, the rebels face Colonel Kurzen's force with at least ten foes for every one of their own. Sergeant Yohwa knows the Colonel is a brilliant military tactician. An open war of attrition would leave the rebels with no chance.\n\nSo they turn Kurzen's covert methods against him. They strike quickly at his encampment, then flee before heavy reinforcements can answer. Sergeant Yohwa asks you to head east into Kurzen's stronghold and eliminate a sizable contingent of his jungle fighters. Their numbers press hard on the Rebel Camp. Thin their ranks, and the refuge can breathe easier.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_203-a6255e4f6db6ed520454/1-0000.mp3", duration = 58.4097959, start = 0},
-  },
-}
-P.transport["quest:204"] = {
-  hash = "2dc6d3",
-  fullHash = "2dc6d3",
-  text = "Bad Medicine. At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa seeks a way to weaken Colonel Kurzen's force. His medicine men heal his soldiers and poison Yohwa's fighters, and the resistance needs their remedies and toxins. Colonel Kurzen's medicine men heal his soldiers and poison Yohwa's fighters with venom fern extract. Sergeant Yohwa asks you to gather their supplies from the Kurzen Compound. The remedies can treat wounded fighters at the Rebel Camp. A sample of venom fern extract will let the resistance study the toxin and make cures of its own.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_204-b7735e8b0bc999256989/1-0000.mp3", duration = 34.324898, start = 0},
-  },
-}
 P.transport["quest:2040"] = {
   hash = "4ef13b",
   fullHash = "4ef13b",
   text = "Underground Assault. Shoni the Shilent sends Alliance adventurers into the Deadmines to seize a power core. The exiled gnomes need it to drive drills through the rock around Gnomeregan and reclaim their home. Gnomish tinkerers fled across Khaz Modan and Stormwind after primitive troggs brought Gnomeregan down. Shoni the Shilent is already planning how to break through the rock around their lost home. Her gyrodrillmatic excavationators need great power to bore through the underground stone. Human lands have no local power grids, so the gnomes have turned to heavy goblin machinery in the criminal underworld. In the Deadmines shafts in Westfall, Edwin VanCleef's Defias Brotherhood employs goblin engineers to build war machines. One machine is a working goblin shredder, a lumbering automaton. Shoni sends Alliance operatives to destroy or dismantle it and recover its specialized heart, the Gnoam Sprecklesprocket. The exiled gnomes need that goblin power supply to drive their drills through the underground rock and begin their counteroffensive to reclaim Gnomeregan.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_2040-3ebde35bc648b8e58714/1-0000.mp3", duration = 66.0114286, start = 0},
-  },
-}
-P.transport["quest:207"] = {
-  hash = "934e44",
-  fullHash = "934e44",
-  text = "Kurzen's Mystery. At the Rebel Camp, Brother Nimetz seeks the reason for Colonel Kurzen’s fall. He suspects troll magic and sends you to copy legends from four tablets in Stranglethorn’s troll ruins. Brother Nimetz at the Rebel Camp seeks the cause of Colonel Kurzen’s fall from greatness into depravity. He suspects troll magic has taken hold of the colonel. Legends carved on four old tablets may test that suspicion. You are asked to copy each tablet’s markings and carry them back to camp. One tablet stands in the Bal'lal Ruins. Another lies deep underwater in the Vile Reef, off the coast near a sunken city held by Saltscale murlocs. The last two tablets are in the Ruins of Zul'Kunda.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_207-bd519cbcd4d5d4ac590a/1-0000.mp3", duration = 43.8334694, start = 0},
   },
 }
 P.transport["quest:2078"] = {
@@ -3087,38 +1903,6 @@ P.transport["quest:2098"] = {
   text = "Gyromast's Retrieval. Gelkak Gyromast needs your help on Darkshore's coast. His mechanical first mate cannot work without a winding key, shattered on the rocks. Wildlife and murlocs carried off its three pieces. On Darkshore, Gelkak Gyromast is a gnome pirate stranded far from the South Seas. He says aggressive threshadons attacked and sank his vessel just off the coast. The wreck cast him ashore among the flotsam, marooned and parted from his crew. Gelkak's first concern is his first mate, not provisions or gold. His companion needs a special key to operate, but the key broke into three pieces when Gelkak crashed on the rocky shoals. Reef crawlers on the beach, foreststriders near the woods, and Greymist murloc scavengers carried the shiny pieces away.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_2098-a85a11db85c353352326/1-0000.mp3", duration = 48.2220408, start = 0},
-  },
-}
-P.transport["quest:210"] = {
-  hash = "110030",
-  fullHash = "110030",
-  text = "Krazek's Cookery. In Booty Bay, Corporal Kaleb has a broken pot to get mended. He asks you to carry the mechanical cooker he bought from a goblin trader to Krazek. Corporal Kaleb handles most of the camp's cooking. Before he bought a mechanical pot from a goblin trader in Booty Bay, cooking took hours. The pot spared him that work until it broke. Now he asks you to carry Krazek's Crock Pot to Krazek, the goblin who can repair it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_210-3fe9a7cd077f99382540/1-0000.mp3", duration = 26.5142857, start = 0},
-  },
-}
-P.transport["quest:213"] = {
-  hash = "67acb1",
-  fullHash = "67acb1",
-  text = "Hostile Takeover. In Booty Bay, Gelriz's latest move draws Baron Revilgaz's wrath in Hostile Takeover. Gelriz has pushed aside moguls appointed by the trade princes and now moves against the most notorious pirate of all. Kebok sends you to steal strange blue crystals Venture Company geologists have found near Lake Nazferiti. Baron Revilgaz gives Kebok leave to answer the insult as he sees fit. Kebok chooses theft, targeting the strange blue stones Venture Company mining crews have been unearthing. Venture Company geologists working around Lake Nazferiti have taken a keen interest in the unusual crystals. Kebok wants you to bring eight samples back to Booty Bay. How you get them matters little to him, so long as they end up in his hands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_213-ba800083f64422992708/1-0000.mp3", duration = 46.1322449, start = 0},
-  },
-}
-P.transport["quest:215"] = {
-  hash = "f30257",
-  fullHash = "f30257",
-  text = "Jungle Secrets. In northern Stranglethorn Vale, Private Thorsen explains why he rejoined Kurzen's men after you rescued him from an ambush. He sends you to the Rebel Camp to have his commander confirm the reason. Private Thorsen says the scene looks grim and asks you to hear him out. Lieutenant Doren ordered him to re-enlist with Colonel Kurzen's men and gather desperately needed intelligence for the rebellion. Thorsen hoped this would let him enter Kurzen's Compound, but the effort soon went badly. He sends you to Doren at the Rebel Camp for confirmation and begs you to keep the matter secret.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_215-97781f40b3d507a717fd/1-0000.mp3", duration = 33.4367347, start = 0},
-  },
-}
-P.transport["quest:2158"] = {
-  hash = "b82c4b",
-  fullHash = "b82c4b",
-  text = "Rest and Relaxation. From Northshire, new Alliance adventurers follow the road south to Goldshire for rest and welcome. At the Lion's Pride Inn, Innkeeper Farley offers food, drink, and a place by the hearth. Weary travelers leave Northshire and follow the road south to Goldshire. It leads straight to the Lion's Pride Inn, where Innkeeper Farley welcomes those setting out into Elwynn Forest. For new adventurers, the inn is the first major outpost beyond the Abbey, with shelter and hot meals. Innkeeper Farley welcomes those who are tired and cold. Mention your referral, and you can settle by the open fire for a warm meal, sturdy ale, and a rest before continuing through Elwynn.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2158-7d9578e91734b08e12e6/1-0000.mp3", duration = 44.1208163, start = 0},
   },
 }
 P.transport["quest:219"] = {
@@ -3159,14 +1943,6 @@ P.transport["quest:223"] = {
   text = "Worgen in the Woods. In Worgen in the Woods, Calor sends you to Darkshire with a letter for Jonathan Carevin. Your hunts against the worgen in Duskwood have earned his trust, and he believes your skill can aid Carevin. You drove the Nightbane pack from Roland's Doom and the shadowed glades, earning Calor's respect. He serves on the dark frontier of the woods and rarely offers praise or formal introductions. Now he gives you a faded scrap of parchment for Jonathan Carevin in Darkshire. Calor believes more fighters like you could help his small company outshine the town's beleaguered Night Watch. Jonathan Carevin works in Darkshire under heavy strain. Worgen, restless undead, demonic forces, and cultists who aid the corruption from within all threaten the town. Wary of outsiders and short on time, Carevin trusts Calor's recommendation. He sees you as a dependable fighter who can help preserve the Light against Duskwood's terrors.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_223-b2035c11bb7efadc4ad5/1-0000.mp3", duration = 58.4881633, start = 0},
-  },
-}
-P.transport["quest:2258"] = {
-  hash = "df3561",
-  fullHash = "df3561",
-  text = "Badlands Reagent Run. In Kargath, Jarkal Mossmeld needs Badlands reagents to refill his stocks. He offers coin when you bring them to him. Jarkal Mossmeld needs gizzards from five buzzards, fangs from ten crag coyotes, and shards from five rock elementals. Take each from the creatures themselves. If you do not fight, find friends who do. Jarkal pays in coin when you bring him the reagents.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2258-4941817e0bab3035e90f/1-0000.mp3", duration = 25.4171429, start = 0},
   },
 }
 P.transport["quest:226"] = {
@@ -3215,22 +1991,6 @@ P.transport["quest:2359"] = {
   text = "Klaven's Tower. From a camp in Westfall, Agent Kearnen watches Klaven's Tower. Strange shipments and altered guards point to danger within the Defias Brotherhood. At Westfall's southeastern edge, the river runs below Klaven's Tower, north of the Dagger Hills. The Defias Brotherhood holds the stone spire, though its human thieves and brigands are common across the plains. Agent Kearnen has watched the tower alone for weeks. Lately, she has seen strange things: a bizarre shipment came straight from Duskwood's shadowed woods, escorted by monstrous, deformed sentries unlike ordinary highwaymen.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_2359-ca632fb8271315887f9c/1-0000.mp3", duration = 36.7804082, start = 0},
-  },
-}
-P.transport["quest:2360"] = {
-  hash = "33351c",
-  fullHash = "33351c",
-  text = "Mathias and the Defias. In Westfall, SI:7 has found the Defias unusually active. You are sent to Agent Kearnen near an abandoned Alliance watch tower for a debriefing. The Defias have seized an abandoned Alliance watch tower southeast of Sentinel Hill. SI:7 reports they use it as a base to smuggle goods from the Redridge supply route. You are sent to Westfall to find Agent Kearnen, hidden near the tower, and hear her debriefing.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2360-7c662b9262406032d860/1-0000.mp3", duration = 25.9657143, start = 0},
-  },
-}
-P.transport["quest:2383"] = {
-  hash = "224cec",
-  fullHash = "224cec",
-  text = "Simple Parchment. A message waits for you in the Valley of Trials, sent while you were away. Frang, your class trainer, is outside the Den. The parchment asks you to read its words and speak with Frang. Your class trainer waits outside the Den in the Valley of Trials.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2383-3abfab1ba84f8931b627/1-0000.mp3", duration = 21.8122449, start = 0},
   },
 }
 P.transport["quest:24"] = {
@@ -3369,14 +2129,6 @@ P.transport["quest:256"] = {
     {file = "Audio/Transport/full_quest_256-6f25d71fd69b1b4c4797/1-0000.mp3", duration = 48.0914286, start = 0},
   },
 }
-P.transport["quest:261"] = {
-  hash = "2a4ec7",
-  fullHash = "2a4ec7",
-  text = "Down the Scarlet Path. At Nijel's Point, Brother Anton calls on you to prove your allegiance to the Scarlet Crusade. Brother Anton says the Scourge must be stopped before it swallows the land and casts the world into darkness. The Scarlet Crusade has pledged itself to that fight. To prove your courage and allegiance, destroy thirty undead ravagers in the Valley of Bones, south of Anton. Succeed, and the Crusade will welcome you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_261-db17e8369a057b0bbe92/1-0000.mp3", duration = 25.8089796, start = 0},
-  },
-}
 P.transport["quest:262"] = {
   hash = "1b45d3",
   fullHash = "1b45d3",
@@ -3423,14 +2175,6 @@ P.transport["quest:270"] = {
   text = "The Doomed Fleet. Bishop Farthing sends you north from Stormwind to find a way through Morbent Fel's wards. Your trail crosses Khaz Modan and ends at the wreck of Kul Tiras's Third Fleet off the Wetlands. Morbent Fel's wards turn ordinary steel aside at his retreat on the Forlorn Rowe. Bishop Farthing sends you to seek a weapon bound to the Holy Light. Its key is Lightforge Iron, a rare consecrated metal whose strikes carry holy truth and pierce sorcerous protections. Duskwood has no Lightforge Iron to hand. Bishop Farthing recalls that Kul Tiras's Third Fleet sank years ago along the dangerous Wetlands coast, north of Ironforge. One galleon carried a shipment of the precious ore. You travel to Menethil Harbor to meet Glorin Steelbrow, a dwarven contact who knows the marshes and their wrecks.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_270-1eed7968cfc11e7fd594/1-0000.mp3", duration = 50.7036735, start = 0},
-  },
-}
-P.transport["quest:272"] = {
-  hash = "5ffefd",
-  fullHash = "5ffefd",
-  text = "Trial of the Sea Lion. Druids in Moonglade seek the sea lion’s spirit through a sacred rite. They recover two scattered pendant halves for agility and endurance, then unite them at the Shrine of Remulos to prepare for Aquatic Form. Druid initiates in Moonglade undergo trials of attunement as they prepare to navigate Azeroth’s deep waters. The Trial of the Sea Lion follows earlier preparations in their spiritual training. Dendrite Starblaze oversees it in Nighthaven, where initiates learn to balance the sea lion’s graceful speed with its resilient stamina. Both are needed to take its form and withstand the ocean depths. The trial centers on reuniting the two halves of the Pendant of the Sea Lion. One represents the sea lion’s agility as it glides through turbulent currents. The other represents its endurance, the fortitude to dive long into freezing water without faltering. Initiates seek guidance from Moonglade’s inhabitants as they search across the world for the scattered relics. Once both halves are found, the initiate brings them near the Shrine of Remulos, where they can be joined into one talisman. The shrine’s energies bind agility and endurance in harmony. The initiate then presents the restored pendant to Dendrite Starblaze in Nighthaven. With the pendant, the druid shows readiness to embrace the sea lion aspect and awaken Aquatic Form.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_272-bd43841162a287408ef3/1-0000.mp3", duration = 84.8195918, start = 0},
   },
 }
 P.transport["quest:2745"] = {
@@ -3481,30 +2225,6 @@ P.transport["quest:283"] = {
     {file = "Audio/Transport/full_quest_283-31eea05c41192e47d5c3/1-0000.mp3", duration = 33.7502041, start = 0},
   },
 }
-P.transport["quest:284"] = {
-  hash = "32b735",
-  fullHash = "32b735",
-  text = "The Search Continues. The search for the Menethil Statuette continues among nearby Murloc hovels. These shelters hold no sign of it, so you turn to two more. You search this cluster of Murloc hovels, but find no trace of the Menethil Statuette. Two nearby shelters to the north and northeast may hold clues.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_284-c298c3e4a5963d6d8680/1-0000.mp3", duration = 19.1216327, start = 0},
-  },
-}
-P.transport["quest:285"] = {
-  hash = "205b07",
-  fullHash = "205b07",
-  text = "Search More Hovels. Among the Murloc hovels, you have found no sign of the Menethil Statuette. So you press farther north, seeking the next clue. You believe the Menethil Statuette lies in one of the hovels to the north. So you continue your search among the Murloc dwellings.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_285-b3188ac6b04687ffe26c/1-0000.mp3", duration = 17.0579592, start = 0},
-  },
-}
-P.transport["quest:286"] = {
-  hash = "4ec4ac",
-  fullHash = "4ec4ac",
-  text = "Return the Statuette. Karl Boran in Menethil Harbor needs the Menethil Statuette brought back. It was found inside a barrel pulled from the muck, and its return will ease the Blind Princess's captain. The statuette lay packed in fine straw inside the barrel. It shows a young, long-haired Paladin raising a hammer. Karl Boran in Menethil Harbor is waiting for it. The Blind Princess's captain will be relieved to know the cargo is safe.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_286-bd0c6924603a2bb9a331/1-0000.mp3", duration = 25.6522449, start = 0},
-  },
-}
 P.transport["quest:288"] = {
   hash = "d95e62",
   fullHash = "d95e62",
@@ -3519,14 +2239,6 @@ P.transport["quest:289"] = {
   text = "The Cursed Crew. Off the Wetlands coast, The Cursed Crew haunts the ships where the Third Fleet of Kul Tiras sank. First Mate Fitzsimmons, the fleet's sole survivor, asks travelers to free his lost brethren. A dark relic aboard one wreck binds the drowned sailors and marines to their ships as restless undead. The Third Fleet of Kul Tiras wrecked along the jagged shores north of Menethil Harbor. First Mate Fitzsimmons alone reached land alive. His fellow sailors found no peace beneath the waves. As they died, sorcery from a mysterious treasure hidden deep in one hull bound their souls to the battered timbers and denied them rest.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_289-5775229e71d221c2cf91/1-0000.mp3", duration = 40.6726531, start = 0},
-  },
-}
-P.transport["quest:29"] = {
-  hash = "f19a83",
-  fullHash = "f19a83",
-  text = "Trial of the Lake. In Moonglade, an initiate faces the Trial of the Lake, a timed test of speed and dexterity. You dive into Lake Elune'ara for an unstable Shrine Bauble, then hurry to the Shrine of Remulos before it decays. Success earns Tajarri's recognition and honors the Cenarion Circle's devotion to balance. Moonglade's guardians oversee this rite for initiates. You dive into Lake Elune'ara to find a delicate Shrine Bauble resting along the sunken lakebed. It begins to decay as soon as you disturb it, so you need a sure touch, keen senses, and swift movement to carry it overland before its magic fades. Once you have the bauble, you must hurry to the Shrine of Remulos in northwestern Moonglade. The monument honors Keeper Remulos, who guides the Cenarion Circle in preserving nature and world balance. Activating the bauble there marks its importance to the Circle. Warden Tajarri greets initiates who beat the time limit and the competition.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_29-d97b7cc19d9ea1575922/1-0000.mp3", duration = 60.1338776, start = 0},
   },
 }
 P.transport["quest:290"] = {
@@ -3641,30 +2353,6 @@ P.transport["quest:294"] = {
     {file = "Audio/Transport/full_quest_294-2acaa1d64f133f39fc45/1-0000.mp3", duration = 59.637551, start = 0},
   },
 }
-P.transport["quest:2945"] = {
-  hash = "97883d",
-  fullHash = "97883d",
-  text = "Grime-Encrusted Ring. A Dark Iron dwarf in Gnomeregan carries a ring caked in toxic filth and hardened muck. The Sparklematic 5200 in the Clean Zone dormitory can scour it clean and reveal its markings. Fighting leaves Gnomeregan's corridors coated in toxic sludge, oil, and radioactive fallout. Dark Iron dwarves who infiltrate the city carry trinkets fouled by that filth. One ring bears a crust that ordinary washing cannot remove. Beneath it, the metal may be copper, gold, or junk.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2945-f46509a3dbeb5e3c85d9/1-0000.mp3", duration = 33.5934694, start = 0},
-  },
-}
-P.transport["quest:2947"] = {
-  hash = "0a8c92",
-  fullHash = "0a8c92",
-  text = "Return of the Ring. In Gnomeregan, a golden ring bears a maker’s mark that leads you to Ironforge. You place a grime-caked bauble in Gnomeregan’s Sparklematic 5200. The machine strips away years of irradiated grime, revealing a polished Brilliant Gold Ring that still hums with arcane power. Inside the band, three initials, “TdK,” sit beside Ironforge’s hallmark seal.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2947-5bff0f7872f669f8cd6b/1-0000.mp3", duration = 26.2791837, start = 0},
-  },
-}
-P.transport["quest:2949"] = {
-  hash = "821052",
-  fullHash = "821052",
-  text = "Return of the Ring. A ring from Gnomeregan bears Orgrimmar's seal and the letters NOG. Its trail leads to Nogg, a goblin engineer with a theory about the ruins. You clean a ring from Gnomeregan in the Sparklematic 5200. The machine strips away the filth and reveals Orgrimmar's official seal, a surge of magical power, and the partly legible letters NOG. Gnomeregan lies deep in Khaz Modan, an Alliance city far from the Horde capital. The ring may have been made in Kalimdor or carried there on a doomed expedition, but its seal points back to Orgrimmar.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_2949-e99969e76460ad770273/1-0000.mp3", duration = 37.7991837, start = 0},
-  },
-}
 P.transport["quest:295"] = {
   hash = "ded781",
   fullHash = "ded781",
@@ -3711,14 +2399,6 @@ P.transport["quest:2962"] = {
   text = "The Only Cure is More Green Glow. In Kharanos, Ozzie Togglevolt seeks a cure for the leper gnomes. He needs a pure sample of fallout from deep inside Gnomeregan. Ozzie Togglevolt's first tests outside Gnomeregan gave him no answers. The troggs in Dun Morogh carried too little residue, and what they bore was impure. Now, from his lab in Kharanos, Ozzie seeks a fresh, concentrated sample from deep inside the city. He hopes it will help him find a remedy for the leper gnomes. You need to gather potent fallout from inside Gnomeregan. Irradiated horrors, lurkers, and slimes fill the lower depths around the Hall of Gears and Clean Zone. Their unstable ooze must be carried in a heavy leaden phial, and the work is dangerous. The fallout quickly loses its potency, so you need to get it to Ozzie's lab in Kharanos in time.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_2962-cd3c95ec3303346eb42c/1-0000.mp3", duration = 51.3567347, start = 0},
-  },
-}
-P.transport["quest:297"] = {
-  hash = "06adf1",
-  fullHash = "06adf1",
-  text = "Gathering Idols. At an excavation site, troggs clutch the carved idols Magmar Fellhew seeks. The relics have driven them into a violent frenzy. Researchers uncovered a large cache of strange, carved stone idols shortly before savage troggs surfaced and overran the excavation site. The attack drove the expedition from the ruins before any formal study could begin. Now the troggs clutch the relics and prowl the site, barring a peaceful return. The troggs seem deeply affected by the idols, beyond merely taking them. Their strange carvings exert an unsettling power that drives the creatures into an uncontrollable rage. Magmar Fellhew wants to study the idols safely and quell the frenzy gripping the area, so he seeks to take them from trogg hands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_297-f1635350a161ab8b272a/1-0000.mp3", duration = 48.9534694, start = 0},
   },
 }
 P.transport["quest:2985"] = {
@@ -3785,70 +2465,6 @@ P.transport["quest:306"] = {
     {file = "Audio/Transport/full_quest_306-4378d10a098078d5de0b/1-0000.mp3", duration = 48.117551, start = 0},
   },
 }
-P.transport["quest:3090"] = {
-  hash = "e3bfb6",
-  fullHash = "e3bfb6",
-  text = "Tainted Parchment. A tainted parchment waits for you after your absence, and your teacher Nartok asks to speak with you. Its words challenge Thrall’s rule and warn of the dangers warlocks face. The tainted parchment is believed to come from Nartok, your new teacher. Read it, then speak with him in the Den in the Valley of Trials. He calls the orcs a proud people and says Thrall turns away from power that could make the land theirs.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3090-f6ef42dc1532339c74cc/1-0000.mp3", duration = 27.6114286, start = 0},
-  },
-}
-P.transport["quest:3091"] = {
-  hash = "5842bd",
-  fullHash = "5842bd",
-  text = "Simple Note. At Camp Narache, Harutt Thunderhorn calls young tauren warriors to defend their people. His summons reminds them that warriors stand beside druids and shamans in guarding the tribal borders from centaur. At Camp Narache, a messenger brings young warriors a summons from Harutt Thunderhorn. The veteran trainer calls each fighter to report and begin training to defend the tribe. The Shu'halo revere their spiritual leaders, yet Harutt teaches that warriors bear an equal burden. They patrol tribal borders and hunt predatory centaur packs to protect their peaceful kin from attack. Battle may bring glory, but warriors remain humble and complete the same traditional rites as shamans and druids.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3091-d6bf6740ed16ce69063f/1-0000.mp3", duration = 43.0497959, start = 0},
-  },
-}
-P.transport["quest:3095"] = {
-  hash = "768f95",
-  fullHash = "768f95",
-  text = "Simple Scroll. A sealed scroll bearing Dannal Stern’s mark finds you while you deal with the Scourge. It calls you to Deathknell, where Dannal speaks of your freedom and offers to teach you. While you were away dealing with the mindless Scourge, a scroll arrived for you. Its seal bears Dannal Stern’s mark. He is the warrior trainer in Deathknell, and the message asks you to read it and speak with him before setting out again. Dannal says others escaped death and fled to town. He sees promise in their resilience. He credits Sylvanas with freeing you in body and spirit, though the plague still afflicts you. He offers to teach you as you gain experience. Sylvanas will need people of your class to help save the Forsaken.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3095-1b7088dfc0bc2611a940/1-0000.mp3", duration = 43.2326531, start = 0},
-  },
-}
-P.transport["quest:3099"] = {
-  hash = "cb0482",
-  fullHash = "cb0482",
-  text = "Tainted Scroll. In Deathknell, newly awakened Forsaken warlocks receive a summons bearing Maximillion's name. It calls them back to the ruined settlement to weigh freedom, power, and servitude. Newly risen Forsaken are clearing mindless Scourge remnants around Deathknell when a sealed scroll arrives. It bears the mark of Maximillion, the local warlock trainer. The message asks its recipient to consider servitude and freedom, then return to the ruined settlement and speak with him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3099-603d0cbd1eee746b4a3c/1-0000.mp3", duration = 30.1453061, start = 0},
-  },
-}
-P.transport["quest:3100"] = {
-  hash = "4b10ca",
-  fullHash = "4b10ca",
-  text = "Simple Letter. At Northshire Abbey, new warriors are sent to Llane Beshere for training. Their letter calls them to aid the valley's troubled residents. New warriors arriving in Northshire Valley are directed by letter to Llane Beshere, the trainer at Northshire Abbey. They are to meet their instructor and learn the lay of the surrounding land. Then they can prepare for the demands of martial life. The Knights of the Silver Hand guard Northshire Abbey, yet trouble reaches people beyond its protection. Llane Beshere tells new warriors that valley residents need able protectors. He urges them to master their weapons and defend those who live there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3100-60ac12a85fca7a6822f7/1-0000.mp3", duration = 38.2432653, start = 0},
-  },
-}
-P.transport["quest:3101"] = {
-  hash = "f6f015",
-  fullHash = "f6f015",
-  text = "Consecrated Letter. At Northshire Abbey, the Consecrated Letter calls new initiates of the Holy Light to training. It sends each bearer to a class trainer and reminds them that their conduct reflects their faith. In Northshire Valley, the Consecrated Letter begins an initiate’s journey in the Holy Light. It calls those newly arrived to find their trainer at Northshire Abbey. There, they can formalize their instruction and take up their duties in the Kingdom of Stormwind. The letter reminds each initiate of the weight of their calling. Those who channel the Holy Light shine before all, symbols of hope to allies and clear targets to adversaries. Their trainer teaches that such power demands discipline. Others will judge the faith by their conduct. The letter begins a lasting bond between student and mentor. As the initiate tests their mettle against threats around Northshire, they are expected to return often to the abbey grounds. There, their trainer guides them toward deeper understanding of combat and divine grace.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3101-95c0c71bad33399c49a0/1-0000.mp3", duration = 60.9697959, start = 0},
-  },
-}
-P.transport["quest:3102"] = {
-  hash = "9a40b9",
-  fullHash = "9a40b9",
-  text = "Encrypted Letter. At Northshire Abbey, Jorik Kerridan summons promising rogues to meet him in secret. His letter points them toward a quiet stable and counsel for the dangers ahead. Northshire Abbey looks peaceful, yet covert talents are recruited within its walls. After dealing with the kobolds, promising novices receive a letter bearing Jorik Kerridan's seal. It is addressed discreetly, away from the priests and paladins. The bearer is sent to a secluded meeting in the stables behind the Abbey. Jorik Kerridan keeps to the stables because they are quiet and draw little notice. When newcomers arrive unseen, he speaks plainly about the wider world. Stormwind's SI:7 and the Defias Brotherhood both seek stealthy operatives. Jorik urges each novice to keep their freedom and resist powerful groups that would push them around. A clever rogue holds the cards.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3102-b568f41036e819dcff28/1-0000.mp3", duration = 54.0473469, start = 0},
-  },
-}
-P.transport["quest:320"] = {
-  hash = "04a0d7",
-  fullHash = "04a0d7",
-  text = "Return to Bellowfiz. You bring Evershine to Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh. After the local hunting, the thirsty driver awaits a fresh drink. After helping with local hunting, you receive a fresh cask of Evershine for Pilot Bellowfiz. Carry it through snowy Dun Morogh to Steelgrill's Depot. Such favors help people on the cold frontier look after one another. Steelgrill's Depot lies just outside Kharanos. Gnomes test machinery, tend vehicles, and practice their craft there. The pilots face freezing winds and welcome a strong local drink. When you arrive with the cask, Pilot Bellowfiz is eager to uncork a bottle and taste the brew made by locals.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_320-5c2c0ad4fe823da3760e/1-0000.mp3", duration = 41.9004082, start = 0},
-  },
-}
 P.transport["quest:321"] = {
   hash = "57613b",
   fullHash = "57613b",
@@ -3887,38 +2503,6 @@ P.transport["quest:325"] = {
   text = "Armed and Ready. You carry Morbent's Bane back to Sven Yorgen, a weapon made to break Morbent Fel's unholy defenses. Ordinary steel cannot break Morbent Fel's hold over Raven Hill cemetery. Blades shatter or glance from the dark wards around him. Grimand Elmore shaped the metal in Stormwind's Dwarven District, and sacred power consecrated it. Now Morbent's Bane can sever Fel's tie to unlife.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_325-3b1c05074c9ce3d5d480/1-0000.mp3", duration = 27.0628571, start = 0},
-  },
-}
-P.transport["quest:328"] = {
-  hash = "41d1d8",
-  fullHash = "41d1d8",
-  text = "The Hidden Key. Bookie Herod's papers lead you to a strongbox in the Stockpile. Its contents may reveal how Private Thorsen's cover was blown. Bookie Herod's ledgers never name Private Thorsen. But one book hides a small brass key in its binding. Scraps among the papers point to a strongbox in the Stockpile, the cavern complex behind Kurzen's Compound. Inside may lie the reason Thorsen's cover was blown. Deep in the cave system behind Kurzen's Compound, the strongbox waits among stacked crates. The sturdy chest is heavy and bound in bronze.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_328-e44a3edfa12446ce07ab/1-0000.mp3", duration = 36.1795918, start = 0},
-  },
-}
-P.transport["quest:329"] = {
-  hash = "5a2bc9",
-  fullHash = "5a2bc9",
-  text = "The Spy Revealed!. You have found a muddy note in Bookie Herod's strongbox. Its account of Private Thorsen's daily routines points to an informant among the rebels in northern Stranglethorn Vale, and it is meant for Lieutenant Doren. At the Rebel Camp, the note traces Private Thorsen's patrols, companions, and daily activities. Someone has watched him closely. The signature is only -M, and the detail points to a traitor living beside him in the camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_329-3fdebbfb58f6cb730f50/1-0000.mp3", duration = 26.6710204, start = 0},
-  },
-}
-P.transport["quest:330"] = {
-  hash = "0f9bbd",
-  fullHash = "0f9bbd",
-  text = "Patrol Schedules. At the Rebel Camp, Lieutenant Doren searches for the writer behind a note signed only with an initial. The writer says they shared patrol routes with Private Thorsen the previous week, and the duty records may reveal their name. A note found at the Rebel Camp bears the initial M. Its writer says they walked regular routes with Private Thorsen during the previous week. That may point to the one aiding the Kurzen forces. Lieutenant Doren sends you to Corporal Sethman, who keeps the duty logs. His records may show who patrolled beside Thorsen.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_330-2b3c79492a37b35c73da/1-0000.mp3", duration = 31.7387755, start = 0},
-  },
-}
-P.transport["quest:331"] = {
-  hash = "4ddc0c",
-  fullHash = "4ddc0c",
-  text = "Report to Doren. Corporal Sethman sends you to report the patrol findings to Lieutenant Doren. The rebels' commander receives them at Rebel Camp in northern Stranglethorn Vale. Corporal Sethman wants you to give Lieutenant Doren a direct account of the patrol information. Bring back what you learned.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_331-da50785286c2c6e5701e/1-0000.mp3", duration = 17.5281633, start = 0},
   },
 }
 P.transport["quest:335"] = {
@@ -4009,14 +2593,6 @@ P.transport["quest:347"] = {
     {file = "Audio/Transport/full_quest_347-f3afd712fa01dc749267/1-0000.mp3", duration = 64, start = 0},
   },
 }
-P.transport["quest:349"] = {
-  hash = "de2d1e",
-  fullHash = "de2d1e",
-  text = "Stranglethorn Fever. In Stranglethorn Vale, Witch Doctor Unbagwa prepares a chant to draw Mokk the Savage from the jungle. He needs ten Gorilla Fangs to begin. As he communes with the spirits, nearby gorillas come to threaten him. Witch Doctor Unbagwa knows a ritual that can draw Mokk the Savage from the jungle. He asks for ten Gorilla Fangs before beginning the chant. As he communes with the spirits, the chant draws nearby gorillas. They threaten the witch doctor while he tries to finish the ritual.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_349-d7be701542f75d6b4833/1-0000.mp3", duration = 29.1265306, start = 0},
-  },
-}
 P.transport["quest:350"] = {
   hash = "ce24e3",
   fullHash = "ce24e3",
@@ -4047,22 +2623,6 @@ P.transport["quest:3567"] = {
   text = "To the Top. Marli Wishrunner offers you a view from one of Feralas's twin colossals, with one warning: the way up is one way. Marli Wishrunner can send you to the top of one of Feralas's twin colossals for a view. She warns you to think about how you will get down. The journey goes only one way.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_3567-2bb1e7a57c281f3f1717/1-0000.mp3", duration = 19.2783673, start = 0},
-  },
-}
-P.transport["quest:359"] = {
-  hash = "14ef0f",
-  fullHash = "14ef0f",
-  text = "Forsaken Duties. Magistrate Sevren needs word from Tirisfal Glades' eastern border. He fears Scourge may slip past The Bulwark and threaten nearby settlements. Magistrate Sevren watches over Brill and the countryside, keeping wary eyes on Tirisfal Glades' eastern border. The Scourge swarm across the Western Plaguelands, so sentries must report what they see. Sevren sends you south along the main road, then east, to bring back Deathguard Linnea's assessment. Deathguard Linnea watches the frontier from an outpost beside the eastern road. Her report confirms Sevren's fears. The Bulwark holds the main Scourge host, but small groups sometimes slip past its defenses. Those strays gather around nearby Balnir Farmstead, threatening Tirisfal Glades.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_359-b66c6879a163e71b7c30/1-0000.mp3", duration = 49.0840816, start = 0},
-  },
-}
-P.transport["quest:3633"] = {
-  hash = "fe39c1",
-  fullHash = "fe39c1",
-  text = "Goblin Engineering. Among master inventors, Goblin Engineering offers a path to command explosive power and volatile concussive ordnance. Its craft relies on high-yield blasting powders and relentless firepower, making it a destructive choice beside intricate tinkering. Azeroth's engineers follow two distinct philosophies. Goblin tinkerers favor violent combustion, while other inventors make delicate clockwork and subtle devices. Goblins harness blasting powder to build tools of great devastation, turning fire, shrapnel, and concussive force toward practical problems. Goblin engineers make no secret of the hazards. Recruits work with volatile compounds, heavy incendiaries, and prototypes that may singe their creator's eyebrows or level an opposing barricade. They prize maximum yield and destructive power, and welcome engineers who choose decisive firepower over fragile safety rules.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_3633-e38b6188b96965edd6a5/1-0000.mp3", duration = 57.8873469, start = 0},
   },
 }
 P.transport["quest:373"] = {
@@ -4199,14 +2759,6 @@ P.transport["quest:4021"] = {
   text = "Counterattack!. At Regthar Deathgate’s outpost west of the Crossroads, Kolkar warriors strike back for their fallen leaders. Reinforcements have crossed from Desolace under Warlord Krom'zar. The Kolkar have been humiliated in the Barrens. Barak Kodobane, Verog the Dervish, and Hezrul Bloodmark are dead, leaving the remaining centaur shattered and without direction. News of their defeat crosses the mountains to Desolace, their ancestral homeland. There, hardened Kolkar warriors rally instead of scattering into the scrubland. Burning for blood and retribution, they enter the Barrens and march against the young Horde encampments.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_4021-1129d721e92f840f9dc2/1-0000.mp3", duration = 38.5828571, start = 0},
-  },
-}
-P.transport["quest:416"] = {
-  hash = "9f14a2",
-  fullHash = "9f14a2",
-  text = "Rat Catching. In the western foothills, tunnel rat kobolds trouble the roads into Thelsamar. Mountaineer Kadrell calls on travelers to drive them back and bring proof of the cull for a bounty. West of Thelsamar, tunnel rat kobolds have made dens in the foothills of Loch Modan. They foul the surrounding ground and trouble the roads leading into town. Their warrens threaten the safety and cleanliness of those roads. Mountaineer Kadrell has set a bounty on the tunnel rat kobolds. He asks passing travelers to bring their severed ears as proof of the cull. Then he pays coin and compensation, though the trophies are foul to inspect.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_416-29def194468af762959d/1-0000.mp3", duration = 37.877551, start = 0},
   },
 }
 P.transport["quest:434"] = {
@@ -4449,14 +3001,6 @@ P.transport["quest:4881"] = {
     {file = "Audio/Transport/full_quest_4881-3ad0f7a4a17d9b2301a4/1-0000.mp3", duration = 30.7461224, start = 0},
   },
 }
-P.transport["quest:490"] = {
-  hash = "f5d482",
-  fullHash = "f5d482",
-  text = "Bounty: Gnarlpine Furbolg. Outside Darnassus, the Alliance bounty on Gnarlpine furbolg remains in force. Corruption spreads through Teldrassil, and Shayla Nightbreeze asks hunters to bring back the beasts’ fangs. Outside Darnassus, Shayla Nightbreeze carries the Sentinels’ orders to place a bounty on the Gnarlpine furbolg. They once lived peacefully in the ancient forests. Now corruption has stripped away their reason and made them vicious threats to travelers and Teldrassil’s natural sanctity. Hunters cull the Gnarlpine across the boughs of the World Tree and collect their fangs as proof. Ban'ethil Hollow lies south of the road west of Dolanaar, and it is one of their two major strongholds. The other is the ruined Starbreeze Village to the east.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_490-14f55600768c3ddeeee1/1-0000.mp3", duration = 47.6212245, start = 0},
-  },
-}
 P.transport["quest:4904"] = {
   hash = "037a41",
   fullHash = "037a41",
@@ -4529,14 +3073,6 @@ P.transport["quest:5"] = {
     {file = "Audio/Transport/full_quest_5-75dab8ec16582b6233b8/1-0000.mp3", duration = 47.3338776, start = 0},
   },
 }
-P.transport["quest:500"] = {
-  hash = "08476b",
-  fullHash = "08476b",
-  text = "Crushridge Bounty. From Southshore, Marshal Redpath warns that Crushridge ogres have settled near Alterac's ruins. He offers a bounty to anyone who hunts them in the Alterac Mountains. Marshal Redpath sends you north after reports that Crushridge ogres have dug a mound in the Alterac Mountains near Alterac's ruined city. They have taken the ruins too. Redpath fears they may grow comfortable there, then move down into the foothills and reach Southshore's door. He offers a bounty for hunting them and bringing back the Dirty Knucklebones they carry.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_500-9f15241b55d631c26ffb/1-0000.mp3", duration = 32.6269388, start = 0},
-  },
-}
 P.transport["quest:501"] = {
   hash = "b31bdd",
   fullHash = "b31bdd",
@@ -4551,14 +3087,6 @@ P.transport["quest:502"] = {
   text = "Elixir of Pain. In Tarren Mill, the Elixir of Pain is ready for a trial on Farmer Ray’s dog, Stanley. Apothecary Lydon prepares the draught for the Royal Apothecary Society. Apothecary Lydon serves the Royal Apothecary Society and Lady Sylvanas Windrunner from Tarren Mill. He gathers fresh blood from local wildlife and brews it into the volatile Elixir of Pain. The Society seeks proof in the field of how its experimental poisons and mutagens affect living bodies. Lydon sends his agents to the northern farm in Hillsbrad Fields, beyond the human defenders. Farmer Ray keeps his dog Stanley there. An agent pours the draught into an open hand and offers it as an ordinary treat. Stanley does not know what he is being given.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_502-12914ec83fd04815ec06/1-0000.mp3", duration = 48.9534694, start = 0},
-  },
-}
-P.transport["quest:503"] = {
-  hash = "20b1dd",
-  fullHash = "20b1dd",
-  text = "Gol'dir. In Tarren Mill, Krusk has found where Gol'dir is held. The documents point north to a large Syndicate base, perhaps in the Alterac Mountains, and Gol'dir has been captive too long. In Tarren Mill, Krusk studies the documents you brought back after Infiltration. They point to a large Syndicate base up north, perhaps in the Alterac Mountains. Gol'dir has been held too long, and Krusk wants him freed. Syndicate fill the inn at Strahnbrad, where Gol'dir is held in the top room. A Rusted Iron Key opens the lock. Jailor Borhuin carries it and may be in any building in town.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_503-79528587d0911dd44a5c/1-0000.mp3", duration = 39.1314286, start = 0},
   },
 }
 P.transport["quest:5042"] = {
@@ -4601,28 +3129,12 @@ P.transport["quest:5046"] = {
     {file = "Audio/Transport/full_quest_5046-8e310c28f4ef1c0c9b7b/1-0000.mp3", duration = 53.6816327, start = 0},
   },
 }
-P.transport["quest:505"] = {
-  hash = "e53a38",
-  fullHash = "e53a38",
-  text = "Syndicate Assassins. Southshore’s new magistrate suspects the Syndicate Assassins killed his predecessor. His clues point north of Tarren Mill, where he wants the gang slain. Magistrate Henry Maleb now holds office in Southshore. The previous magistrate was assassinated, and the killers were never found. Maleb is almost certain the Syndicate hired them.\n\nThieves make up the gang, led by villainous nobles from the fallen kingdom of Alterac. Maleb’s last clues point north of Tarren Mill, which the Horde occupies. He asks you to slay the Syndicate members at the camp there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_505-a455d30d5ece6bcccadc/1-0000.mp3", duration = 37.7730612, start = 0},
-  },
-}
 P.transport["quest:5052"] = {
   hash = "a6db06",
   fullHash = "a6db06",
   text = "Blood Shards of Agamaggan. Across the Barrens, the Blood Shards of Agamaggan still hold the power of a fallen boar god. Quilboar say his blood sank into the earth and hardened into red stones. At Camp Taurajo, captive Mangletooth trades that power to the Horde for his own reasons. Quilboar lore tells how Agamaggan fell ten thousand years ago in the War of the Ancients. His blood raised giant thorn mazes across the plains, then sank into the soil and seeped into minerals. In time, it hardened into blood-red stones.\n\nThe quilboar honor the shards as sacred remnants of their creator. They gather them from mineral seams and holy grounds, then use them as totems in battle and sorcery. The tauren hold Mangletooth in a cage at Camp Taurajo. He bears a bitter grudge against his own kind, saying his tribe betrayed him and cast him out.\n\nWithout freedom or his people's magic, he bargains with you for blood shards. Their power lets him reach Agamaggan's magic despite his captivity, then channel it to Horde champions. He takes pleasure in turning that power against the quilboar who rejected him. Mangletooth speaks with reverence of Razorfen, the quilboar's holiest sanctuary to the south. The tribes say the vast briars of Razorfen Kraul and Razorfen Downs grew from Agamaggan's colossal skeleton and tusks.\n\nThey believe Razorfen Downs lies within the demigod's gaping maw. It is a holy threshold that devours and crushes any who enter without the Boar God's favor.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_5052-973cd9327342c6e3fe0a/1-0000.mp3", duration = 97.5934694, start = 0},
-  },
-}
-P.transport["quest:506"] = {
-  hash = "8902a3",
-  fullHash = "8902a3",
-  text = "Blackmoore's Legacy. Gol'dir is already free and carries word to Krusk in Tarren Mill. Aliden Perenolde, leader of the Syndicate, visited him and spoke of enslaving orcs who resist. Perenolde brought Elysa, who wears the pendant the Warchief desires. Gol'dir has word for Krusk after a visit from Aliden Perenolde, leader of the Syndicate. Perenolde called himself lord of the land and spoke of enslaving orcs who resist him. His father and mentor, the despised Blackmoore, had planned the same.\n\nGol'dir sends you to carry this news to Krusk in Tarren Mill. He will follow once he has settled his own business where he is. Perenolde also brought his mistress, a slight girl named Elysa. Around her neck hung the pendant the Warchief desires.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_506-f70f891300f996dc0e19/1-0000.mp3", duration = 50.2073469, start = 0},
   },
 }
 P.transport["quest:5062"] = {
@@ -4657,44 +3169,12 @@ P.transport["quest:509"] = {
     {file = "Audio/Transport/full_quest_509-02d0b522143a92832c09/1-0000.mp3", duration = 62.7983673, start = 0},
   },
 }
-P.transport["quest:510"] = {
-  hash = "8b2c2e",
-  fullHash = "8b2c2e",
-  text = "Foreboding Plans. The Syndicate's papers call for supplies to reach Southshore soon, where Magistrate Henry Maleb awaits them. The Syndicate papers list food, weapons and clothing. They also call for masks, oil and poison. The supplies are needed soon for an important undertaking against Southshore. Magistrate Henry Maleb is to receive them there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_510-633af87846984a09d656/1-0000.mp3", duration = 22.4130612, start = 0},
-  },
-}
-P.transport["quest:511"] = {
-  hash = "acf00e",
-  fullHash = "acf00e",
-  text = "Encrypted Letter. Among the Syndicate papers, one letter cannot be read. You take it to Loremaster Dibbs in Southshore. Among the Syndicate documents, one letter is written in a cipher no one can read. You bring it to Loremaster Dibbs in Southshore.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_511-02c2c844b1004396473c/1-0000.mp3", duration = 15.5167347, start = 0},
-  },
-}
-P.transport["quest:512"] = {
-  hash = "074abc",
-  fullHash = "074abc",
-  text = "Noble Deaths. In Southshore, Magistrate Henry Maleb fears the Syndicate means ruin for the town. He sends you north to Strahnbrad's ruins in the Alterac Mountains, where he believes its leaders have their headquarters. After Foreboding Plans, Magistrate Henry Maleb wants the Syndicate's leaders struck down before their plans come to pass. Its cutthroats answer to former Alterac nobles, who may hide among ordinary agents. Their signet rings mark them out. Maleb asks you to bring him seven Alterac signet rings in Southshore.\n\nHe believes the Syndicate has made its headquarters among Strahnbrad's ruins, north in the Alterac Mountains.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_512-21b62c67f47b34d0e0a3/1-0000.mp3", duration = 40.5681633, start = 0},
-  },
-}
 P.transport["quest:513"] = {
   hash = "3b99a6",
   fullHash = "3b99a6",
   text = "Elixir of Agony. In the Undercity, the Elixir of Agony awaits its final treatment. Apothecary Lydon sends his freshly mashed Mudsnout Composite from Tarren Mill to Master Apothecary Faranell, who must add a colloid of decay. The Royal Apothecary Society is developing a new plague for the Forsaken. The Royal Apothecary Society sends discoveries from regional researchers to the Undercity for refinement. In Tarren Mill, Apothecary Lydon has mashed local Mudsnout Blossoms into a composite. Only the capital's laboratory has the advanced reagents needed to make his work lethal. Master Apothecary Faranell works under pressure in the Apothecarium. The Scourge threatens from the north, while aggressive human populations press from the south. Lady Sylvanas Windrunner has demanded a potent new plague to defend the Forsaken. Lydon's composite may give Faranell the toxic breakthrough the Dark Lady expects.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_513-d846e456fd83a38acc1d/1-0000.mp3", duration = 58.6710204, start = 0},
-  },
-}
-P.transport["quest:514"] = {
-  hash = "dc46cf",
-  fullHash = "dc46cf",
-  text = "Letter to Stormpike. In Southshore, Loremaster Dibbs entrusts you with an encrypted letter for Ironforge. He hopes Prospector Stormpike can read it. Dibbs sends you to Ironforge to find Prospector Stormpike. He is in the Library, inside the Hall of Explorers. Tell him Dibbs sent you and show him the letter. Dibbs believes no one north of Blackrock Spire can read it better than Stormpike.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_514-153775e88009e6662282/1-0000.mp3", duration = 25.2342857, start = 0},
   },
 }
 P.transport["quest:5147"] = {
@@ -4737,36 +3217,12 @@ P.transport["quest:517"] = {
     {file = "Audio/Transport/full_quest_517-e6ad57d66a72192c52ae/1-0000.mp3", duration = 49.5020408, start = 0},
   },
 }
-P.transport["quest:518"] = {
-  hash = "1ea23e",
-  fullHash = "1ea23e",
-  text = "The Crown of Will. In Tarren Mill, Melisara seeks to weaken Mug'Thol's ogres before striking their hold in the Ruins of Alterac. She sends you to hunt the Crushridge maulers. Mug'Thol and the Crushridge ogres hold the Ruins of Alterac. Melisara sees little chance of punishing Mug'Thol while so many ogres remain around him. Their numbers must fall before she can make her next move. You are sent after the Crushridge maulers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_518-aad28071ab048d42d499/1-0000.mp3", duration = 27.3502041, start = 0},
-  },
-}
-P.transport["quest:522"] = {
-  hash = "ff1349",
-  fullHash = "ff1349",
-  text = "Assassin's Contract. In Hillsbrad Foothills, a Shadowy Assassin bears a contract naming Magistrate Henry Maleb for death. You are to carry it to Maleb in Southshore, where red wax bears a distinctive signet ring's mark. A Shadowy Assassin carries a contract in Hillsbrad Foothills. It names Magistrate Henry Maleb for death, and a distinctive signet ring has marked the red wax. Bring the paper to Maleb in Southshore.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_522-d440e3fb0fd758865b1a/1-0000.mp3", duration = 27.3502041, start = 0},
-  },
-}
 P.transport["quest:524"] = {
   hash = "5be774",
   fullHash = "5be774",
   text = "Elixir of Agony. In Tarren Mill, Apothecary Lydon prepares a deadly poison for a cruel test. He plans to disguise it as stolen dwarven ale and use it on human prisoners. Apothecary Lydon gathers foul ingredients across the Hillsbrad Foothills and steals dwarven ale from Dun Garok. The Royal Apothecary Society has charged him with making a deadly brew called Elixir of Agony. Once mixed, the poison waits inside a keg that appears to hold ordinary mountain stout.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_524-b6ded48b887181286802/1-0000.mp3", duration = 31.1118367, start = 0},
-  },
-}
-P.transport["quest:525"] = {
-  hash = "3567b9",
-  fullHash = "3567b9",
-  text = "Further Mysteries. In the Alterac foothills, a decrypted letter leaves Prospector Stormpike searching for meaning. He sends you to Southshore's magistrate with the message. Prospector Stormpike has decrypted the letter you found among thieves in the Alterac foothills. Yet its meaning escapes him, and he wonders why thieves had it at all. Southshore lies nearest to Alterac. If a threat is brewing, its magistrate should hear of it, so you carry the message to Magistrate Henry Maleb.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_525-39e057226fd085d73b13/1-0000.mp3", duration = 29.0742857, start = 0},
   },
 }
 P.transport["quest:527"] = {
@@ -4817,22 +3273,6 @@ P.transport["quest:5321"] = {
     {file = "Audio/Transport/full_quest_5321-2a9e4d98dc13b48ca66c/1-0000.mp3", duration = 68.7542857, start = 0},
   },
 }
-P.transport["quest:533"] = {
-  hash = "64999a",
-  fullHash = "64999a",
-  text = "Infiltration. In Tarren Mill, Krusk seeks word of Gol'dir, the orc prisoner the Syndicate keeps moving. He sends you to its large camp just north of town for any information you can bring back. Krusk has heard word and rumor of Gol'dir, an orc prisoner held by the Syndicate. Its human captors keep moving him, but the search has narrowed to their large camp just north of Tarren Mill. Krusk sends you there to find what you can and carry it back. Each day, he fears Gol'dir's prospects grow darker.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_533-b9cc8fa019d8bbf18b93/1-0000.mp3", duration = 31.0334694, start = 0},
-  },
-}
-P.transport["quest:535"] = {
-  hash = "6cd111",
-  fullHash = "6cd111",
-  text = "Valik. In a Syndicate camp, Valik lies dying with an enemy before them. Valik expects you to kill them, but offers answers for a mug of Southshore Stout. Henchman Valik lies wounded in the Syndicate camp, with you standing before them as an enemy. They expect you to kill them all the same. Yet Valik offers answers to your questions if you bring a mug of Southshore Stout to the camp. They even wonder aloud whether your kind drinks at all.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_535-d2218b2500f0f065aced/1-0000.mp3", duration = 27.2979592, start = 0},
-  },
-}
 P.transport["quest:536"] = {
   hash = "179183",
   fullHash = "179183",
@@ -4841,44 +3281,12 @@ P.transport["quest:536"] = {
     {file = "Audio/Transport/full_quest_536-e7f14f4f23647a8595a9/1-0000.mp3", duration = 60.3167347, start = 0},
   },
 }
-P.transport["quest:5361"] = {
-  hash = "80823d",
-  fullHash = "80823d",
-  text = "Family Tree. Cliffwatcher Longhorn sends you to Ghost Walker Post with news of unusual centaur activity. His brother is there in Desolace. A year has passed since Cliffwatcher Longhorn last wrote to his brother. Now the centaurs are acting strangely, and that is news Nataka should not go without. So Cliffwatcher sets it all down in a report and trusts you to carry it to Ghost Walker Post in Desolace. The road is long. It climbs north past the Crossroads into the Stonetalon Mountains, turns west through the Charred Vale, and drops south into the grey wastes of Desolace. At its end, at Ghost Walker Post, Nataka waits, and he does not know what his brother has seen.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5361-9558a8243f51b7d6c39d/1-0000.mp3", duration = 45.2440816, start = 0},
-  },
-}
-P.transport["quest:5381"] = {
-  hash = "13fc9d",
-  fullHash = "13fc9d",
-  text = "Hand of Iruxos. At Shadowprey Village, Taiga Wisemane sends you to Thunder Axe Fortress for a Demon Box. The Burning Blade uses the Hand of Iruxos inside it to open portals for demons at Mannoroc Coven. Taiga Wisemane wants the demons' passage into our world stopped. She gives you a demon pick for the red crystal inside Thunder Axe Fortress. Use it to reach the Demon Box, then bring the box and pick back to Taiga in Shadowprey Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5381-837e86edc271703d9f05/1-0000.mp3", duration = 28.3689796, start = 0},
-  },
-}
-P.transport["quest:5386"] = {
-  hash = "767746",
-  fullHash = "767746",
-  text = "Catch of the Day. At Ghost Walker Post, Nataka Longhorn is longing for cooked fish. She praises the trolls of Shadowprey Village as the finest fish-catchers, but centaur activity keeps her from making the journey. She asks you to bring her two Bloodbelly fish. At Ghost Walker Post, Nataka Longhorn has gone a long while without cooked fish. She trusts the trolls of Shadowprey Village to catch the finest fish, but centaur activity leaves her little time to travel. So she asks you to speak with Jinar'Zillen, the village's local fisherman, and bring back two Bloodbelly fish. They are Nataka's favorite. The road south of the post bends west toward the troll village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5386-7923a52b6b619c36355c/1-0000.mp3", duration = 40.0457143, start = 0},
-  },
-}
 P.transport["quest:539"] = {
   hash = "eb7b11",
   fullHash = "eb7b11",
   text = "Battle of Hillsbrad. At Azurelode Mine, Horde forces strike to cut iron shipments to Alliance armories. High Executor Darthalia has ordered Foreman Bonds and his crew killed. High Executor Darthalia marked Azurelode Mine as vital to human strength after the Horde seized the Hillsbrad Town Registry in earlier raids. The mine lies just south of Hillsbrad Fields. There, workers keep drawing rich iron ore for Alliance weaponsmiths and armories. If the mine stays open, Southshore can rearm and strengthen its garrisons, undoing Tarren Mill’s earlier victories. Darthalia orders Horde forces to kill Foreman Bonds, the human overseer, and a large part of his workforce. The attack reaches into the mine’s dark shafts to halt production. Southshore receives a clear warning: the Forsaken can strike its supply lines and isolated labor camps.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_539-1b7671fcd1c921fcad31/1-0000.mp3", duration = 54.517551, start = 0},
-  },
-}
-P.transport["quest:54"] = {
-  hash = "0a3244",
-  fullHash = "0a3244",
-  text = "Report to Goldshire. Marshal McBride sends you south to Goldshire with dispatches for Marshal Dughan. Beyond Northshire's sheltered valley, Stormwind's nobles give Elwynn Forest less and less thought. You've proved yourself against Northshire's troubles, and McBride releases you from the valley's guard. His transfer papers send you past the border gates and down the road to Goldshire. From there, your duty reaches across the wider forest. Marshal Dughan waits in Goldshire to receive McBride's dispatches and make you an Acting Deputy of the Stormwind Marshals. His welcome carries a grim warning: beside the dangers roaming Elwynn, Northshire is a peaceful garden. Stormwind's royal army is bound up in distant nobles' politics, instead of guarding home ground.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_54-c9fca6c267bd7168c9fb/1-0000.mp3", duration = 48.5616327, start = 0},
   },
 }
 P.transport["quest:540"] = {
@@ -4905,22 +3313,6 @@ P.transport["quest:5421"] = {
     {file = "Audio/Transport/full_quest_5421-5f80a933d82f22ee505d/1-0000.mp3", duration = 24.0587755, start = 0},
   },
 }
-P.transport["quest:544"] = {
-  hash = "9b41a8",
-  fullHash = "9b41a8",
-  text = "Prison Break In. Magus Wordeen Voidglare faces a crisis in Tarren Mill while pursuing his research. Four Forsaken fled the Undercity months ago with artifacts stolen from a secure vault, and Sylvanas wants them returned. Magus Wordeen Voidglare came to Tarren Mill to research. Now a crisis calls for his attention. Four Forsaken turned from their brethren and stole from the Dark Lady. They broke into a secure vault and took four artifacts the apothecaries need for certain studies. Sylvanas wants them returned. The thieves fled the Undercity for Dalaran. Its wizards placed them in quarantine at the Lordamere Internment Camp. You are sent to find the traitors, recover the artifacts and report to Voidglare in Tarren Mill. There are four: a Bloodstone Wedge, Marble, Shard and Oval. Dermot holds the wedge, Ricter the marble, Alina the shard and Kegan Darkmar the oval.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_544-ea0cd08e58577ecbc518/1-0000.mp3", duration = 73.7436735, start = 0},
-  },
-}
-P.transport["quest:545"] = {
-  hash = "3b6cf3",
-  fullHash = "3b6cf3",
-  text = "Dalaran Patrols. In Tarren Mill, Magus Wordeen Voidglare turns his gaze toward Dalaran’s outskirts. Beyond the great dome, ruined streets may hold treasures of magical worth, but wizards and their elemental slaves patrol them. Voidglare wants those patrols thinned. After Prison Break In, Voidglare turns his attention to Dalaran’s wizards. They raised a great dome of magic over the heart of their city. Some say it shields them from the violence of the age. Others say they sought solitude to study and plot. Voidglare cares nothing for their reason.\n\nBeyond the dome, the ruined outskirts may hold treasures of real magical worth. Yet wizards and their elemental slaves patrol those streets. You are sent to hunt six Dalaran Summoners and twelve Elemental Slaves, then return to Voidglare in Tarren Mill.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_545-5a315b890bbdf354ff2e/1-0000.mp3", duration = 69.1722449, start = 0},
-  },
-}
 P.transport["quest:546"] = {
   hash = "e68128",
   fullHash = "e68128",
@@ -4945,46 +3337,6 @@ P.transport["quest:549"] = {
     {file = "Audio/Transport/full_quest_549-304f564ee8244a0db5de/1-0000.mp3", duration = 52.5844898, start = 0},
   },
 }
-P.transport["quest:55"] = {
-  hash = "203fa6",
-  fullHash = "203fa6",
-  text = "Morbent Fel. Above Raven Hill Cemetery, Morbent Fel's wards keep ordinary steel from reaching him. Sven Yorgen sends you with Morbent's Bane to break them and end the necromancer's terror in western Duskwood. Morbent Fel haunts an abandoned house atop a rocky ridge just east of Sven's camp. The house looks over the sprawl of Raven Hill Cemetery. From there, the necromancer sends undead through the surrounding forest and defiles Duskwood's graves. Dark magic and loyal undead thralls keep ordinary steel from reaching him. Morbent Fel's wards turn a direct assault into suicide and deflect conventional attacks. Sven entrusts you with Morbent's Bane, an enchanted artifact made to unravel that magical shielding. Invoke the relic and the barrier collapses. Then Fel is open to a mortal strike.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_55-f8cf11bc5ef992cd8a8e/1-0000.mp3", duration = 51.6179592, start = 0},
-  },
-}
-P.transport["quest:550"] = {
-  hash = "54034b",
-  fullHash = "54034b",
-  text = "Battle of Hillsbrad. At Hillsbrad, the Forsaken have broken the township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. Fierce fighting in Hillsbrad Foothills has decided the struggle for southern Lordaeron. From Tarren Mill, Horde champions struck the township's farmers, militia, blacksmiths, and civic leaders. Alliance forces are crippled, and the territory is secured for the Forsaken. Now High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat. Yet surviving human enclaves still endanger the Forsaken's southern borders.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_550-cdd06dd7825379a5327b/1-0000.mp3", duration = 58.1485714, start = 0},
-  },
-}
-P.transport["quest:5501"] = {
-  hash = "623683",
-  fullHash = "623683",
-  text = "Bone Collector. At Kormek's Hut in Desolace, Bibbly F'utzbuckle is waiting on ten more kodo bones. A caravan is due any moment, and the goblin expects the bones to change the world. Bibbly F'utzbuckle sees a fortune in the kodo bones around the hut. Customers turn them into furniture, musical instruments, and even blasting powder. So Bibbly sends you south to the Kodo Graveyard for ten bones, promising something in return. A caravan comes by Kormek's Hut to collect Bibbly's kodo bones. It sells them at Shadowprey Village, and it is due any moment. Bibbly is ten bones short of a career high.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5501-ff660d31159a7e12d268/1-0000.mp3", duration = 39.8367347, start = 0},
-  },
-}
-P.transport["quest:552"] = {
-  hash = "c92de0",
-  fullHash = "c92de0",
-  text = "Helcular's Revenge. In Tarren Mill, Helcular's Revenge turns on Thaivand's vow of vengeance. Master Helcular, a great wizard near becoming a lich, was killed by a human lynching crowd after it found his ritual lair in the hills. Before vengeance falls on Southshore, Thaivand needs Helcular's Rod, which he believes one of the yeti holds. Master Helcular was near becoming a lich when a human lynching crowd found his ritual lair in the hills and killed him. They buried his body in the Southshore cemetery. Thaivand, his apprentice, finds this treatment of a great wizard unacceptable. He vows that Southshore will face vengeance. Thaivand says Helcular's Rod must be found first. Yeti have taken over the ritual lair, and Thaivand is sure one of them has the rod. So many yeti roam the region that the search will be difficult. You can find them at Growless Cave and Darrow Hill.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_552-3b6170699aa2e14b4cec/1-0000.mp3", duration = 55.6930612, start = 0},
-  },
-}
-P.transport["quest:553"] = {
-  hash = "56a1fe",
-  fullHash = "56a1fe",
-  text = "Helcular's Revenge. In Hillsbrad, Helcular's Revenge begins with a rod and three flames. Novice Thaivand gives you the Rod of Helcular. Helcular fashioned three ceremonial pyres for his most powerful spell, and each flame must charge the rod before it is driven into Helcular's grave in Southshore. Helcular fashioned three ceremonial pyres for his most powerful spell, and each flame must charge the rod. The Flames of Azel and Veraz burn in the yeti cave at Darrow Hill, within the Foothill Caverns. The Flame of Uzel lies in a small cave above the caverns, farther north in the mountains near Growless Cave. After all three flames charge the rod, it is to be driven into Helcular's grave at Southshore, a heavily guarded human town. The graveyard lies in the town's northeast corner by the river. Helcular's grave is at the graveyard's southeastern corner.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_553-1b2ea1ca59e7aa0d57b4/1-0000.mp3", duration = 52.5322449, start = 0},
-  },
-}
 P.transport["quest:555"] = {
   hash = "78e159",
   fullHash = "78e159",
@@ -4993,92 +3345,12 @@ P.transport["quest:555"] = {
     {file = "Audio/Transport/full_quest_555-6f60d37596d80af0dee5/1-0000.mp3", duration = 82.4685714, start = 0},
   },
 }
-P.transport["quest:556"] = {
-  hash = "742b2c",
-  fullHash = "742b2c",
-  text = "Stone Tokens. At Tarren Mill, Keeper Bel'varil sends you to recover Stone Tokens from Dalaran agents in Alterac. The Forsaken seek to learn how Dalaran's mages bind and command elementals. Magus Voidglare studies those arcane methods for them. Dalaran's magi have long commanded elemental beings with specialized conduits and enchanted foci. They bind creatures from other dimensions and force them into servitude.\n\nThough the city is still rebuilding, its agents and remnant forces patrol the surrounding territory. They use elementals as laborers and defensive shock troops. Magus Voidglare, an arcane researcher in Tarren Mill, works for the Forsaken and seeks to uncover the sorcery that compels these beings to obey.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_556-83b0a95cc8971e18434c/1-0000.mp3", duration = 61.675102, start = 0},
-  },
-}
-P.transport["quest:5561"] = {
-  hash = "8258d2",
-  fullHash = "8258d2",
-  text = "Kodo Roundup. At Scrabblescrew's Camp, five tamed kodos are needed for a caravan due soon. You take Smeed Scrabblescrew's kodo kombobulator among Desolace's ancient, aged and dying kodos, then lead each tamed beast back to camp. A caravan is due at Scrabblescrew's Camp shortly, and Smeed Scrabblescrew says it depends on him. Bibbly thinks no other goblin in Desolace knows how to make a profit. Smeed disagrees. He has formed a partnership with Cork and Rigger, and the caravan is willing to brave this land. Smeed built the kodo kombobulator to revive aged and dying kodos and bring them under control. Aim it at an ancient, aged or dying kodo, and the device jolts the beast into a tamed kodo that follows you. Bring five kodos and the device back to Scrabblescrew's Camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5561-0aa682cc12af88472df0/1-0000.mp3", duration = 50.6514286, start = 0},
-  },
-}
-P.transport["quest:557"] = {
-  hash = "65aebf",
-  fullHash = "65aebf",
-  text = "Bracers of Binding. In Tarren Mill, Keeper Bel'varil watches for what the Magus may need next. As the Magus studies the stone tokens you gathered, Bel'varil sends you to the ruins of Dalaran for four Bracers of Earth Binding. The Magus studies the stone tokens you gathered, and Keeper Bel'varil expects another need to follow. Bracers of binding are worn on an elemental's wrists, binding the creature to a mage's service. The elementals wear them among the ruins of Dalaran. Bel'varil asks you to bring four Bracers of Earth Binding back to Tarren Mill.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_557-459a02c5bafb4031bc46/1-0000.mp3", duration = 46.8636735, start = 0},
-  },
-}
-P.transport["quest:5581"] = {
-  hash = "1a6512",
-  fullHash = "1a6512",
-  text = "Portals of the Legion. At Mannoroc Coven, six demon portals threaten to widen the flow of demons into this world. Taiga Wisemane asks you to close them from Shadowprey Village. From Shadowprey Village, Taiga Wisemane gives you the Hand of Iruxos. She says you need to carry it to Mannoroc Coven and banish the portals there. The demon threat is growing, and each portal you close limits how many demons cross into this world. She wants all six banished. Beware their guardians.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5581-ba4af6bd681e1be738ce/1-0000.mp3", duration = 29.7012245, start = 0},
-  },
-}
-P.transport["quest:559"] = {
-  hash = "60deb5",
-  fullHash = "60deb5",
-  text = "Farren's Proof. Along Southshore’s coast, Farren Orinelle sends Alliance recruits to prove his patrol’s work. Marshal Redpath wants evidence that the murlocs are gone from the Western Strand. After the first coastal sweeps in Down the Coast, Lieutenant Farren Orinelle faces questions from Marshal Redpath and Southshore’s leaders. Farren says the local murlocs are gone, but his superiors want proof. So he sends wandering Alliance adventurers back to the shore to bring evidence of the kills, leaving the grim work to them. West of Southshore, coastal murlocs live along the shallows of the Western Strand. Farren asks you for ten severed murloc heads to satisfy the garrison’s officers. He detests the creatures, whose repulsive sight and smell have spoiled his appetite for Southshore’s chief export and staple food.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_559-f963545e0258082b1bb2/1-0000.mp3", duration = 50.442449, start = 0},
-  },
-}
 P.transport["quest:56"] = {
   hash = "77c347",
   fullHash = "77c347",
   text = "The Night Watch. In Darkshire, The Night Watch holds the line against the dead rising nearby. Stormwind has withdrawn its garrison, leaving the town’s local militia to rely on travelers at Tranquil Gardens Cemetery. Stormwind once guarded Duskwood, but its royal resources dwindled as political discord took hold in the capital. Then the crown withdrew its commissioned soldiers, leaving Darkshire with little defense against the forest’s encroaching shadows. The people formed a local militia called the Night Watch, led by Commander Althea Ebonlocke. It stands between the cursed forest and the town’s remaining residents. South of Darkshire, Tranquil Gardens Cemetery was once a peaceful resting place. Now restless skeletons and reanimated spellcasters roam its graves. The Night Watch is stretched thin along Duskwood’s borders, so Commander Ebonlocke sends arriving travelers to strike down Skeletal Warriors and Skeletal Mages before the dead reach the roads.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_56-8465da251a571580b850/1-0000.mp3", duration = 60.5518367, start = 0},
-  },
-}
-P.transport["quest:560"] = {
-  hash = "c5fab5",
-  fullHash = "c5fab5",
-  text = "Farren's Proof. At Southshore, Lieutenant Farren Orinelle sends you to carry his report to Marshal Redpath. The murloc heads are proof of your work, but Farren will not carry them himself. Lieutenant Farren Orinelle patrols and secures the southern coast of Hillsbrad Foothills. Yet the harsh work of frontier warfare turns his stomach. After you cull the murlocs along the beaches, he cannot bring himself to touch the severed heads you bring back as proof. So he sends you across Southshore to deliver them to the town's command. Marshal Redpath oversees Southshore's defenses and military readiness as threats rise from Tarren Mill and wild beasts. He receives the sack of murloc heads from you, rather than directly from Farren. Redpath knows you have become Farren's errand runner, but accepts your help. Southshore needs every willing hand to keep its borders safe.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_560-57b210c139552924592d/1-0000.mp3", duration = 51.8791837, start = 0},
-  },
-}
-P.transport["quest:561"] = {
-  hash = "3ce3e2",
-  fullHash = "3ce3e2",
-  text = "Farren's Proof. In Southshore, Marshal Redpath sends Lieutenant Farren Orinelle orders to turn toward the naga on the Eastern Strand. He wants Orinelle to drive them back and report in person. Marshal Redpath sends word across Southshore to Lieutenant Farren Orinelle. Reports tell of naga incursions on the Eastern Strand, and Redpath wants Orinelle focused on that threat. The lieutenant must set aside other concerns, drive back the naga, and report his progress to the Marshal in person.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_561-67be1b6cbc15c0c05b4c/1-0000.mp3", duration = 32.3657143, start = 0},
-  },
-}
-P.transport["quest:562"] = {
-  hash = "cd7efc",
-  fullHash = "cd7efc",
-  text = "Stormwind Ho!. Alliance High Command fears the naga threat, and Stormwind Ho! gives Farren Orinelle a way south. He hopes to claim their defeat and win a return to Stormwind City. Lieutenant Farren Orinelle finds his post in Southshore miserable. The town lies on Lordaeron’s edge, hemmed in by Forsaken forces, syndicate brigands, and sea fiends. Farren once served as a city guardsman in Stormwind, where his days meant drunks and petty brawls. Now he longs to return south.\n\nHis former mentor tells him Alliance High Command grows anxious about naga encroaching on the coasts. Farren sees a chance to leave the north behind. Farren admits he lacks the courage and skill to face Daggerspine sirens and shorehunters in open combat. So he sends you to scour the beaches southeast of Southshore and thin the naga ranks.\n\nHe needs your deeds for an impressive dispatch to Major Samuelson in Stormwind. With that credit, Farren hopes to secure a reassignment.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_562-55a2fa4e6751ba68ff2c/1-0000.mp3", duration = 64.7836735, start = 0},
-  },
-}
-P.transport["quest:563"] = {
-  hash = "2f476e",
-  fullHash = "2f476e",
-  text = "Reassignment. In Southshore, Lieutenant Farren Orinelle seeks a way back to Stormwind. He sends an adventurer to Stormwind Keep with an exaggerated account of his deeds against the coastal naga, meant for his former mentor, Major Samuelson. Lieutenant Farren Orinelle resents his posting in the Hillsbrad Foothills. Southshore lies far from the capital, and Marshal Redpath keeps a stern watch over the town. So Farren spends his days plotting a transfer south. He claims credit for clearing out the nearby Daggerspine naga, hoping to look like an indispensable, battle-hardened officer ready for promotion. Farren wants a transfer without arousing Marshal Redpath's suspicion, so he goes around the local chain of command. He turns to Major Samuelson, a senior officer in Stormwind Keep who mentored him in the past. A report sent straight to Samuelson puts Farren's claimed deeds before an officer with authority over garrison assignments.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_563-e79efb18243fc89b7f10/1-0000.mp3", duration = 57.077551, start = 0},
-  },
-}
-P.transport["quest:564"] = {
-  hash = "6f94ae",
-  fullHash = "6f94ae",
-  text = "Costly Menace. In Southshore, Darren Malvew fears the mountain lions descending from Alterac. Undead, the Syndicate gang, and other scoundrels have cost the town horses, but the lions trouble him most. Darren Malvew lives in Southshore and hates seeing the town lose its beautiful horses. Undead, the Syndicate gang, and other scoundrels in the region have already taken quite a few. Yet Darren fears the mountain lions of Alterac most. They keep coming down from the hills. Darren wants eight Mountain Lions and ten Hulking Mountain Lions dealt with. The Mountain Lions roam the lower hills of the Alterac Mountains.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_564-14a06fe50e00f19978c2/1-0000.mp3", duration = 39.2620408, start = 0},
   },
 }
 P.transport["quest:5643"] = {
@@ -5111,14 +3383,6 @@ P.transport["quest:5646"] = {
   text = "Devouring Plague. In Orgrimmar, Ur'kyo sends Forsaken priests home to learn Devouring Plague. They came to Kalimdor to learn from the Darkspear, but Aelthalyste waits in Undercity to teach them their people's shadow arts. Ur'kyo guides those drawn to spiritual power in Orgrimmar. Darkspear trolls and Forsaken share a curious bond in matters of faith, while orcs and tauren show little desire for priestly worship. Ur'kyo knows Forsaken initiates must master the shadow arts tied to their own condition. Out of respect between their peoples, he sends wandering Forsaken back to Lordaeron to finish their training. Beneath Lordaeron's ruins, Priestess Aelthalyste tends her flock in Undercity's War Quarter. Forsaken priests follow a solitary, grueling path shaped by their turn to shadow. They endure the painful touch of the Holy Light and learn to wield the devastating affliction of Shadow magic.\n\nWhen an initiate gains enough skill, Aelthalyste gathers them close. There, she teaches the affliction her kind calls Devouring Plague.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_5646-c0766746a6c9f2763080/1-0000.mp3", duration = 66.0114286, start = 0},
-  },
-}
-P.transport["quest:565"] = {
-  hash = "79fe2b",
-  fullHash = "79fe2b",
-  text = "Bartolo's Yeti Fur Cloak. In Southshore, Bartolo Ginsetti gathers materials for Bartolo's Yeti Fur Cloak. The eccentric artisan claims his mantle is renowned throughout the Alliance and calls for tailoring supplies, a leatherworker's cloak, and raw yeti fur. Travelers in coastal Southshore can commission a Yeti Fur Cloak from Bartolo Ginsetti. The artisan boasts that no finer garment exists anywhere on the planet. His work draws on materials gathered from the local wilderness and the skill of allied trades. Bartolo needs more than a pelt and needle to make his cloak. Bring him a Bolt of Wool, Fine Thread, a Hillman's Cloak, and ten clumps of Yeti Fur from beasts roaming the foothills. With those goods in hand, he works the raw materials into his cold-weather mantle.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_565-a1725d067f92397ea6ca/1-0000.mp3", duration = 47.3861224, start = 0},
   },
 }
 P.transport["quest:567"] = {
@@ -5177,52 +3441,12 @@ P.transport["quest:5679"] = {
     {file = "Audio/Transport/full_quest_5679-a435a15c6bb909a73e94/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
-P.transport["quest:568"] = {
-  hash = "c77146",
-  fullHash = "c77146",
-  text = "The Defense of Grom'gol. At Grom'gol, Commander Aggro'gosh guards the Horde's foothold in Stranglethorn Vale. He works to keep supplies moving safely to Stonard by thinning the Lashtail Raptors outside the base camp. Commander Aggro'gosh guards the Horde at Grom'gol Base Camp. The camp is vital to a safe supply line to Stonard, but local inhabitants stand in the way. Lashtail Raptors outside Grom'gol threaten the supply line. Aggro'gosh calls on loyal fighters to thin their numbers, then report back for new orders.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_568-af9d0e4b10c0e1cc1051/1-0000.mp3", duration = 32.4440816, start = 0},
-  },
-}
-P.transport["quest:569"] = {
-  hash = "a24467",
-  fullHash = "a24467",
-  text = "The Defense of Grom'gol. At Grom'gol, Commander Aggro'gosh moves to guard the supply road to Stonard. After the raptor hunt outside camp, Mosh'Ogg ogres at Mizjah Ruins keep attacking the caravans. Commander Aggro'gosh must keep supplies moving from Grom'gol through Stranglethorn Vale to Stonard, an outpost vital to the Horde. He did not come to fight every people of the Vale. Yet the Mosh'Ogg ogres have taken Mizjah Ruins southeast of camp, and warnings have not stopped their repeated attacks on Horde caravans. So Aggro'gosh orders a strike against the ogres and witch doctors holding the ruins.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_569-1da982db6187cc4bd535/1-0000.mp3", duration = 36.1012245, start = 0},
-  },
-}
 P.transport["quest:57"] = {
   hash = "feec8e",
   fullHash = "feec8e",
   text = "The Night Watch. Across Duskwood, restless dead rise from their graves, and The Night Watch struggles to hold them back. Commander Althea Ebonlocke sends travelers into the haunted barrows to defend Darkshire. Their fight may keep the town from falling to darkness. Duskwood’s graveyards stir beneath the forest’s twilight. Commander Althea Ebonlocke leads Darkshire’s volunteer militia, The Night Watch, against the rising dead. Stormwind sends no aid, and her forces are stretched thin. Skeletons and other horrors threaten the eastern settlements, so the militia calls on able travelers to enter the deadlands. Two places hold the militia’s attention: Tranquil Gardens Cemetery, just south of town, and Raven Hill Graveyard, far to the west. Skeletons rise from forgotten tombs and shallow graves beside the roads, stirred by dark magic in the forest’s shadows. Cutting them down gives Darkshire’s beleaguered citizens room to breathe. Yet the battle against this entrenched evil never ends.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_57-58dd3cbe0e0da0e2bf62/1-0000.mp3", duration = 64.1306122, start = 0},
-  },
-}
-P.transport["quest:570"] = {
-  hash = "363a27",
-  fullHash = "363a27",
-  text = "Mok'thardin's Enchantment. At Grom'gol Base Camp, Far Seer Mok'thardin gathers the jungle's power for the Horde. His earlier rites have succeeded, and he seeks sharp claws and a pristine feline fang for an enchantment. At Grom'gol Base Camp, Far Seer Mok'thardin studies the wild's feral power. He seeks to bend it for the Horde. His first rites have succeeded, and he offers to shape an enchanted relic. Those willing must enter the thick underbrush and hunt the deadly predators nearby. Mok'thardin's rite calls for eight claws from shadowmaw panthers and a pristine fang from a tigress. The fierce cats roam across Stranglethorn Vale. Many prowl southeast of the Mizjah Ruins, just beyond the river.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_570-983d7b672efa76411da7/1-0000.mp3", duration = 45.322449, start = 0},
-  },
-}
-P.transport["quest:574"] = {
-  hash = "25b9ca",
-  fullHash = "25b9ca",
-  text = "Special Forces. At the Kurzen Compound, Sergeant Yohwa sets her sights on the colonel's elite troops. You enter the Stockpile cave to face the commandos and headshrinkers, then report to Lieutenant Doren. Sergeant Yohwa now targets the elite specialists at the Kurzen Compound. The Second Rebellion has weakened Kurzen's regular soldiers, and Yohwa knows many of his troops personally. She calls them skilled, loyal and cruel.\n\nWhen they are not in the wilderness slaughtering rebel soldiers, the commandos and headshrinkers gather in the Stockpile cave at the back of the compound. To weaken Kurzen further, you enter and kill ten Kurzen Commandos and six Kurzen Headshrinkers. After the fight, Sergeant Yohwa sends you to her commanding officer, Lieutenant Doren, at the Rebel Camp. He will want to hear your account firsthand.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_574-5f82ebdd001ade976a13/1-0000.mp3", duration = 49.7893878, start = 0},
-  },
-}
-P.transport["quest:5741"] = {
-  hash = "9f1a50",
-  fullHash = "9f1a50",
-  text = "Sceptre of Light. At Thunder Axe Fortress, the Burning Blade has the Sceptre of Light, said to have come from the naga. Azore Aldamort fears it can sink whole cities beneath the great seas, so he asks you to bring it to Ethel Rethor. Word has spread that the Burning Blade at Thunder Axe Fortress holds the naga's Sceptre of Light. Legend says the sceptre can sink whole cities beneath the great seas. Azore Aldamort will not let the Burning Blade keep such power. A Burning Blade seer keeps the sceptre in a watchtower atop the fortress and studies it there. Azore asks you to take the sceptre from the seer and carry it back to the tower at Ethel Rethor.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5741-7e36c5e751b2457ef1fc/1-0000.mp3", duration = 39.2881633, start = 0},
   },
 }
 P.transport["quest:575"] = {
@@ -5249,52 +3473,12 @@ P.transport["quest:5763"] = {
     {file = "Audio/Transport/full_quest_5763-accfd676f4d6cf1c9211/1-0000.mp3", duration = 40.6204082, start = 0},
   },
 }
-P.transport["quest:577"] = {
-  hash = "d7fb77",
-  fullHash = "d7fb77",
-  text = "Some Assembly Required. In Booty Bay, Drizzlik says the Excelsior boots are coming along, but the skins you brought will not cover their insides. He plans to use cheaper, thicker hides from crocolisks near Lake Nazferiti for those hidden layers. Drizzlik says the Excelsior boots are coming along nicely. The skins from Supply and Demand will not cover their insides. Since no one will see those layers, he plans to use thicker, cheaper hides from the crocolisks near Lake Nazferiti.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_577-a877a17b84bc7d3cea69/1-0000.mp3", duration = 27.4808163, start = 0},
-  },
-}
-P.transport["quest:578"] = {
-  hash = "6fd784",
-  fullHash = "6fd784",
-  text = "The Stone of the Tides. Off Stranglethorn Vale, strange reports from an island reach Baron Revilgaz. He suspects an ancient troll relic has resurfaced and sends you to scout the shore, with a pass to study it in Stormwind's archives. Strange apparitions and water elementals haunt an island off Stranglethorn Vale. Baron Revilgaz rules Booty Bay and suspects Gazban, a goblin mage, has found the fabled Stone of the Tides. He sends you to find the island and learn whether the rumors are true. To aid your search, he gives you a library scrip for Stormwind's scholars.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_578-48ca98e47872c566da6f/1-0000.mp3", duration = 33.6457143, start = 0},
-  },
-}
 P.transport["quest:58"] = {
   hash = "7ea91a",
   fullHash = "7ea91a",
   text = "The Night Watch. In eastern Raven Hill, The Night Watch sends for help as Darkshire faces the undead. Commander Althea Ebonlocke calls on travelers to enter the crypts and destroy the plague spreaders while her guards defend the town. This is the last chapter in the guard’s direct fight against the undead overrun. Darkshire stands nearly alone, with no soldiers from Stormwind to rely on. Its civilian militia, The Night Watch, must hold the town. Commander Althea Ebonlocke has few guards to spare, and she uses them to protect the crossroads, the town’s edge, and the supply lines. As the restless dead multiply across Duskwood, she calls on wandering champions to carry the fight into Raven Hill’s depths. The eastern mausoleum in Raven Hill Cemetery holds one of the region’s largest concentrations of undead. Unlike the open barrows, its stone crypts teem with plague spreaders. These ghouls carry afflictions that can sicken the living. Destroying twenty gives The Night Watch room to breathe and helps keep Darkshire from facing a united undead surge from the west.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_58-05a3e0d0c67b31c0e923/1-0000.mp3", duration = 67.2391837, start = 0},
-  },
-}
-P.transport["quest:581"] = {
-  hash = "1a6941",
-  fullHash = "1a6941",
-  text = "Hunt for Yenniku. At Grom'gol Base Camp, Nimboya searches for Yenniku, the youngest son of his chieftain. He suspects the Bloodscalp tribe holds the boy and asks you to prove your strength by hunting their warriors and bringing back their tusks. At Grom'gol Base Camp, Nimboya fears a grim fate for Yenniku, the youngest son of the Darkspear chieftain. An old tribal custom placed the boy among the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe left their homeland with the orc warchief Thrall, Yenniku was left behind and lost. Nimboya has returned from Orgrimmar to Stranglethorn Vale to find the chieftain's son and bring him to safety. Nimboya suspects the Bloodscalp tribe holds Yenniku. To prove you are strong enough to hunt them, he sends you north to gather nine tusks from Bloodscalp trolls. Bring the trophies back to Grom'gol Base Camp as proof of your strength in battle. Then the search for the chieftain's boy can continue with Headhunting.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_581-10a2c0f9babf39191975/1-0000.mp3", duration = 60.2383673, start = 0},
-  },
-}
-P.transport["quest:582"] = {
-  hash = "abc611",
-  fullHash = "abc611",
-  text = "Headhunting. At Grom'gol Base Camp, Nimboya seeks news of Yenniku, the Darkspear chieftain's son. He sends you to hunt Bloodscalp headhunters and bring back their shrunken heads, hoping to learn whether Yenniku is dead. Nimboya fears the Bloodscalp tribe may have killed Yenniku, the Darkspear chieftain's son. The search began with Hunt for Yenniku, and now he sends you after Bloodscalp Headhunters at the ruins of Zuuldaia and Zul'Kunda along Stranglethorn Vale's northern coast.\n\nBring back twenty shrunken heads. Nimboya will inspect them for signs that Yenniku met a violent end. If the youth is dead, Nimboya curses Gan'zulah, chief of the Bloodscalp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_582-cde7aaa03fae3ee74905/1-0000.mp3", duration = 43.8073469, start = 0},
-  },
-}
-P.transport["quest:5821"] = {
-  hash = "c3ac9e",
-  fullHash = "c3ac9e",
-  text = "Bodyguard for Hire. In Desolace, Cork Gizelton and Rigger stop their kodo caravan at the sound of centaur war drums. Cork asks you to guard it past the Kolkar village, with payment waiting down the road. Cork Gizelton and Rigger lead their kodo caravan past the Kolkar centaur. Then the war drums sound, and the caravan stops. Dead traders bring no profit, so Cork asks you to guard it a short distance past the Kolkar village and keep it safe. The caravan waits north of the Kolkar Village and southeast of Thunder Axe Fortress. Smeed Scrabblescrew waits with payment at Scrabblescrew's Camp, a little way down the road. Smeed does a little business with the Gizelton caravan.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5821-96338d82ff75e77b2b80/1-0000.mp3", duration = 43.2587755, start = 0},
   },
 }
 P.transport["quest:583"] = {
@@ -5311,166 +3495,6 @@ P.transport["quest:5881"] = {
   text = "Calling in the Reserves. At Sun Rock Retreat, Maggran Earthbinder sends you south to relieve a weary sentry at the Great Lift. He gives you a letter for Grish Longrunner, who has stood watch far from home. Maggran Earthbinder keeps troop welfare and supplies in hand at Sun Rock Retreat in the Stonetalon Mountains. Across Kalimdor, the Horde strains to keep its garrisons staffed, even after the Third War. Maggran knows that endless watch duty wears seasoned soldiers down. So he sends a reassignment letter south to the Great Lift, where Grish Longrunner has stood guard far from home. The Great Lift joins the southern Barrens to the canyons of Thousand Needles. With Maggran's letter in hand, Grish can leave his lonely watch over the lift mechanisms and return to his family. Fresh reserves can take his place.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_5881-55158c9997175660cb89/1-0000.mp3", duration = 47.5428571, start = 0},
-  },
-}
-P.transport["quest:5925"] = {
-  hash = "6a7ed4",
-  fullHash = "6a7ed4",
-  text = "Heeding the Call. Mathrengyl Bearwalker calls a young night elf druid to Darnassus to continue their training. As Archdruid Fandral Staghelm's direct assistant, he prepares the initiate for the trials of the bear. As your basic instruction among Teldrassil's boughs comes to an end, word arrives that Mathrengyl Bearwalker wishes to speak with you. He is the direct assistant to Archdruid Fandral Staghelm and one of the Cenarion Enclave's wisest elders. His summons calls you beyond basic wardenship and toward the deeper arts of nature. You travel to the Cenarion Enclave in Darnassus and climb to the second floor of Archdruid Staghelm's great tree. Bearwalker welcomes you and reminds you that those who answer Cenarius' call must honor plants and beasts as companions and charges. To preserve nature's balance, you need more than quiet reflection. You must learn the ways of the wild bear and master strength of body and heart.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5925-1d41faef8cacd0ba5b0e/1-0000.mp3", duration = 57.7567347, start = 0},
-  },
-}
-P.transport["quest:5929"] = {
-  hash = "f793d0",
-  fullHash = "f793d0",
-  text = "Great Bear Spirit. In Moonglade, druids are sent north to seek the Great Bear Spirit. Communion with this ancient guide teaches the bear’s nature and strength, a vital part of a druid’s spiritual and martial training. In northwestern Moonglade, the Great Bear Spirit dwells apart from Nighthaven’s quiet paths. This ancient and noble mentor teaches every initiate who seeks to understand the bear’s nature. Druids have long sought its blessing and wisdom as part of the path of the wild. Dendrite Starblaze guides young druids from Nighthaven into the hills to meet the spirit. Communion brings primal wisdom and an awareness of natural strength. When the druids return, Dendrite tests their focus. The encounter gives them raw strength and knowing intent, but they must learn to direct that power in their daily work.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5929-1fa80ea591d89fb647f9/1-0000.mp3", duration = 51.5134694, start = 0},
-  },
-}
-P.transport["quest:5943"] = {
-  hash = "2d06fc",
-  fullHash = "2d06fc",
-  text = "Gizelton Caravan. At Mannoroc Coven, Rigger Gizelton asks you to guard his caravan. He and Cork set out to make a fortune, but trade has proved more dangerous than they expected. Rigger Gizelton and Cork began their caravan hoping to make a fortune. They did not know how risky turning a profit could be. Mannoroc Coven lies ahead, where demons usually leave the caravan alone. This time, the kodos are spooked. Rigger offers payment if you guard the caravan past the coven. Once it is safely through, Smeed will pay you at Scrabblescrew's Camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_5943-ffa7bfbc5f2fa0247986/1-0000.mp3", duration = 33.0710204, start = 0},
-  },
-}
-P.transport["quest:596"] = {
-  hash = "af48ce",
-  fullHash = "af48ce",
-  text = "Bloody Bone Necklaces. At Grom'gol Base Camp, Kin'weelay turns the Bloodscalp conflict into a private struggle. Kin'weelay came to Grom'gol Base Camp to help Nimboya, yet he has purposes of his own. The Bloodscalp trolls to the north are enemies of the Darkspears. Kin'weelay believes trophies taken from fallen foes grant spiritual power over them. So he asks travelers to hunt Bloodscalp warriors and take the bloody bone necklaces they wear.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_596-0d1d391267e70586c57d/1-0000.mp3", duration = 26.1485714, start = 0},
-  },
-}
-P.transport["quest:601"] = {
-  hash = "73a00a",
-  fullHash = "73a00a",
-  text = "Water Elementals. On the island off the coast, Water Elementals may offer a clue to the Stone of the Tides' curse. Baron Revilgaz wants their bracers examined for a way to counter it. Baron Revilgaz suspects the Water Elementals' magical residue may help fight the Stone of the Tides' curse. The stone is said to make anyone who wields it drift in and out of reality. So he sends you back to the island off the coast to gather bracers for the scholarly mages of Dalaran to examine. Baron Revilgaz admits he lacks the skill to judge whether the bracers can help. He refuses to leave Booty Bay just to speak with tiresome old mages. So he sends you north to have a mage examine them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_601-900464d2de83d301d043/1-0000.mp3", duration = 57.8873469, start = 0},
-  },
-}
-P.transport["quest:602"] = {
-  hash = "9bc467",
-  fullHash = "9bc467",
-  text = "Magical Analysis. From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides. Baron Revilgaz has the bracers in Booty Bay, but their secret lies beyond his reach. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_602-753227ba0442c39ab8fd/1-0000.mp3", duration = 49.6065306, start = 0},
-  },
-}
-P.transport["quest:6027"] = {
-  hash = "cfcef4",
-  fullHash = "cfcef4",
-  text = "Book of the Ancients. At the Ethel Rethor tower, Azore Aldamort entrusts you with the Gem of the Serpent. Set it on the Serpent Statue on Ranazjar Isle, northwest of the tower, and the guardian of the Book of the Ancients will appear. After Sceptre of Light, Azore Aldamort gives you the Gem of the Serpent. Ranazjar Isle lies northwest of the Ethel Rethor tower, and there the Serpent Statue waits. Set the gem on its hand to call forth the Book of the Ancients’ guardian. The naga have kept the book’s secrets for centuries, and Azore hopes it will teach much about their scaled foes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6027-681b5ddd0764ec27afca/1-0000.mp3", duration = 34.324898, start = 0},
-  },
-}
-P.transport["quest:603"] = {
-  hash = "bfc558",
-  fullHash = "bfc558",
-  text = "Ansirem's Key. An ancient troll dagger may weaken the magic empowering the Stone of the Tides. Archmage Ansirem Runeweaver found the blade in Stranglethorn, then gave it to his daughter Catelyn, who left home for the pirates of Booty Bay. Archmage Ansirem Runeweaver has found that an altar, or focal point, amplifies the Stone of the Tides. To overpower that magic, he needs an ancient troll dagger he uncovered while researching in Stranglethorn. He gave the blade to his daughter Catelyn long ago. Headstrong, she left home for the pirates of Booty Bay.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_603-e538626b4949a8c4ab63/1-0000.mp3", duration = 34.9518367, start = 0},
-  },
-}
-P.transport["quest:605"] = {
-  hash = "0aadaa",
-  fullHash = "0aadaa",
-  text = "Singing Blue Shards. In Stranglethorn Vale, buyers seek Singing Blue Shards. The Venture Company makes it hard for Crank Fizzlebub to gather raw Singing Crystals, so he offers you a cut of the profits for ten shards taken from basilisk hides. Crank Fizzlebub has buyers for Singing Crystals, found only in Stranglethorn Vale. The Venture Company makes gathering raw crystals hard for him. So he seeks another way to get them. Basilisks eat the crystals, and the mineral becomes part of their hardened hides. You can recover usable shards there. Basilisks across the jungle may yield crystal fragments. Fizzlebub points you to the gentler ones along the northern shores south of Zul'Kunda. Bring him ten shards so he can move ahead with his buyers. Then his attention turns to the Venture Company's operations.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_605-5dae8aaae1ab5d557c76/1-0000.mp3", duration = 48.9273469, start = 0},
-  },
-}
-P.transport["quest:610"] = {
-  hash = "1e9fca",
-  fullHash = "1e9fca",
-  text = "\"Pretty Boy\" Duncan. Catelyn the Blade has lost the dagger her father asked her to return. She wants it back from Pretty Boy Duncan before she helps you further. Catelyn the Blade has left the mages and their dusty tomes behind. Ansirem's Key led you to her, but she cannot give you the dagger her father asked her to return. A Bloodsail Buccaneer took it. Until her blade is recovered, Catelyn will hand over nothing else. Pretty Boy Duncan struck Catelyn unconscious and took the knife she carried in a fight. She relies on that weapon. Now she insists on getting that very blade back from the buccaneer before she helps you further.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_610-69cedb337a232b203df0/1-0000.mp3", duration = 38.8702041, start = 0},
-  },
-}
-P.transport["quest:6132"] = {
-  hash = "a60aca",
-  fullHash = "a60aca",
-  text = "Get Me Out of Here!. In the Valley of Spears, Melizza Brimbuzzle fears the Maraudines mean to eat her. She asks you to get her out, and her brother Hornizz promises good pay. Melizza Brimbuzzle came to the Valley of Spears hoping to strike a deal with the Maraudines. They would not talk, and now she fears they mean to eat her. Minutes ago, she overheard centaurs discussing wood for their cookpot. She wants to leave quickly. Hornizz Brimbuzzle waits at the family camp east of Melizza's present position. It lies beside the kodo graveyard. Melizza promises her brother will pay you well if you bring her out of the valley.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6132-8e520458cd8785ad1ad7/1-0000.mp3", duration = 38.6612245, start = 0},
-  },
-}
-P.transport["quest:6134"] = {
-  hash = "f85682",
-  fullHash = "f85682",
-  text = "Ghost-o-plasm Round Up. Hornizz Brimbuzzle sends you into the Valley of Bones for ghost energy, hoping the Magram will pay well for it. Hornizz Brimbuzzle sends you southeast to the Valley of Bones, where Magram ghosts walk. The valley sounds frightening to him. Yet he thinks the spirits must frighten the Magram even more, and he is sure the centaurs would pay well for ghost energy captured there. Hornizz Brimbuzzle gives you a crate of ghost magnets. Set one between the two huge skeletons called the Dead Goliaths, and it draws the ghosts toward it. The spirits yield ghost-o-plasm, which Hornizz plans to sell to the Magram. He asks you to bring him eight ghost-o-plasms and the crate.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6134-45d103376e21758c79f4/1-0000.mp3", duration = 41.5608163, start = 0},
-  },
-}
-P.transport["quest:6141"] = {
-  hash = "d6900e",
-  fullHash = "d6900e",
-  text = "Brother Anton. In Nijel's Point, Brother Anton seeks help against the undead in Desolace. He came from distant lands after hearing of the threat. Rumors of undead in Desolace reached Brother Anton in far-off Kalimdor. He booked passage at once to seek them out and destroy them. Now he looks for people with courage and resolve. If your heart is true, Brother Crowley sends you to find him in Nijel's Point, the Alliance town in Desolace.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6141-4dd3b2e3edfe4dbd5f7d/1-0000.mp3", duration = 27.2979592, start = 0},
-  },
-}
-P.transport["quest:6142"] = {
-  hash = "cd5f78",
-  fullHash = "cd5f78",
-  text = "Clam Bait. At Shadowprey Village, Mai'Lahii trusts one bait above all others. He asks for ten pieces of soft-shelled clam meat from the wrecked ship north along the coast. Mai'Lahii asks you for bait fish cannot resist. He has fished all his life and trusts soft-shelled clam meat above all else. North of Shadowprey Village, a wrecked ship lies off the coast, and soft-shelled clams are scattered throughout the area. He wants ten pieces of the meat.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6142-7ae2072a5957cdd98e1a/1-0000.mp3", duration = 29.9102041, start = 0},
-  },
-}
-P.transport["quest:6143"] = {
-  hash = "4be773",
-  fullHash = "4be773",
-  text = "Other Fish to Fry. At Shadowprey Village, Drulzegar Skraghook asks you to strike back at the Slitherblade. Naga took the fishing crew near Ranazjar Isle, and Drulzegar alone returned. Drulzegar Skraghook and the crew often fished near Ranazjar Isle. The isle lies north of a wreck on the coast. One morning, the naga attacked and killed everyone but Drulzegar. Now revenge fills Drulzegar's thoughts, and guilt is too much to bear. Drulzegar asks you to slay seven Slitherblade Myrmidons, seven Slitherblade Naga and five Slitherblade Sorceresses. A bad knee keeps Drulzegar from joining you. The naga usually lurk far down among coral reefs beneath the waves, Drulzegar says. Your effort will be rewarded.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6143-faeebf922d75c954a017/1-0000.mp3", duration = 48.117551, start = 0},
-  },
-}
-P.transport["quest:616"] = {
-  hash = "06159c",
-  fullHash = "06159c",
-  text = "The Haunted Isle. In Booty Bay, Krazek hears a tale of an isle haunted by a goblin ghost. He gathers unusual rumors for Baron Revilgaz, and this one recalls an old troll legend. Krazek gathers reports of strange happenings throughout Stranglethorn Vale for Baron Revilgaz. In a Booty Bay tavern, sailors tell him of an isle off the coast where water elementals dwell. They say the ghost of a raving goblin haunts it. Krazek gives little heed to spectral gossip, but this tale catches his attention. He asks you to carry it to the baron. Baron Revilgaz remembers an old troll legend from a book when he hears Krazek's report. The water elementals and goblin apparition make him suspect that the Stone of the Tides may be within his grasp. He hopes to add the ancient relic to his personal collection of artifacts.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_616-91038227af6de3ec460a/1-0000.mp3", duration = 51.435102, start = 0},
-  },
-}
-P.transport["quest:6161"] = {
-  hash = "722194",
-  fullHash = "722194",
-  text = "Claim Rackmore's Treasure!. During Claim Rackmore's Treasure!, Rackmore's log tells of a ship attacked on its way to Feathermoon Stronghold. He hid his treasure chest on Ranazjar Isle to keep it from his enemies, but both keys to open it were lost. Rackmore's log tells of seafaring creatures attacking his ship on its way to Feathermoon Stronghold. He hid his treasure chest on Ranazjar Isle to keep it from his enemies. Both keys needed to open it were lost, one silver and one gold. Whoever finds the keys and the chest will find a treasure.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6161-99400729a8cc8897ae06/1-0000.mp3", duration = 31.242449, start = 0},
-  },
-}
-P.transport["quest:622"] = {
-  hash = "59cbe4",
-  fullHash = "59cbe4",
-  text = "Return to Corporal Kaleb. At the Rebel Camp, Corporal Kaleb waits for the pot Krazek repaired in Booty Bay. It has a second steam whistle and a chopper built into its base. Krazek has finished repairing the pot you brought him. He added another steam whistle and fitted a chopper to its base, sharp enough to cut through leg bones. He calls it a sure way to please the cook and expects its owner to be glad of the changes. Now it is ready to return to Corporal Kaleb at the Rebel Camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_622-d71fe5097acd9b8cbc4b/1-0000.mp3", duration = 27.9771429, start = 0},
-  },
-}
-P.transport["quest:627"] = {
-  hash = "6d1e3b",
-  fullHash = "6d1e3b",
-  text = "Favor for Krazek. In Booty Bay, Krazek pauses his work on a broken crock pot to ask you for four loads of lesser bloodstone ore from the northern hills. He will return the cookware when you bring them. Krazek pauses his repair of the broken cookware in Booty Bay to offer a trade. He sends you far north to the Arathi Highlands. There, a cave in Drywhisker Gorge holds lesser bloodstone ore. The mineral is low grade, yet those who know its uses prize it. Krazek keeps working on the pot while you travel north. He expects four loads of bloodstone and promises payment if you bring back enough. The ore must be mined. If you lack the skill, you need someone who can extract it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_627-acdb4b7f254cd27d40f2/1-0000.mp3", duration = 39.7583673, start = 0},
-  },
-}
-P.transport["quest:628"] = {
-  hash = "3594df",
-  fullHash = "3594df",
-  text = "Excelsior. In Booty Bay, Drizzlik is ready for the last piece of the Excelsior boots. He needs an elder saltwater crocolisk skin for their outer layer. Drizzlik has finished the boots’ inner layer. For the outside, he uses the finest elder crocolisk skins. They are tougher and give the Excelsior designs and accents a better surface. Only an elder saltwater crocolisk skin fits his plan.\n\nFinding one is difficult. Elders come out only to guard other saltwater crocolisks. Drizzlik has also read that saltwater crocolisk numbers are dwindling, which worries him for his business.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_628-533897ae14d16ee6a403/1-0000.mp3", duration = 36.4669388, start = 0},
   },
 }
 P.transport["quest:6282"] = {
@@ -5495,14 +3519,6 @@ P.transport["quest:6284"] = {
   text = "Arachnophobia. A Horde bounty sends you west of Windshear Crag after Besseleth, the ancient spider haunting southern Stonetalon Mountains. Bring her fang to Maggran Earthbinder at Sun Rock Retreat, and travelers may find the mountain roads safer after dark. A weathered wanted poster warns travelers on the main road south of Windshear Crag to beware the lands west of it. Sishir Canyon and Webwinder Path swarm with spiders. Besseleth, an unusually large orange spider, commands her brood. After sunset, she ambushes anyone who strays from the path. Maggran Earthbinder, a tauren at Sun Rock Retreat, has posted the bounty on Besseleth. In an earlier encounter, her massive two-foot fang struck him and nearly killed him. Maggran fought her off and limped to safety, but the wound still reminds him of the danger in the canyon shadows. He hopes you will bring him Besseleth's Fang and secure the passes, so trade and travel to Sun Rock Retreat can continue without fear.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_6284-b48075b82c93bb7bcc61/1-0000.mp3", duration = 60.5257143, start = 0},
-  },
-}
-P.transport["quest:629"] = {
-  hash = "e738fe",
-  fullHash = "e738fe",
-  text = "The Vile Reef. Beneath the Savage Coast, Kin'weelay seeks a shard from the sunken troll city. He hopes to carry Gri'lek's story to Orgrimmar, where the Darkspear can preserve it. Northwest of Grom'gol Base Camp, the Savage Coast hides an ancient troll city beneath the water. A violent earthquake shattered the land long ago and sank the city. Now called the Vile Reef, its flooded ruins are home to hostile murlocs who attack anyone who ventures near.\n\nOn the sea floor rests a massive stone tablet carved with the story of Gri'lek. He was a legendary troll hero, and the Darkspear still hold his memory sacred. The monument is too massive to carry from the depths, so Kin'weelay asks you to break off a shard. He plans to take the fragment to Orgrimmar and enshrine it in a sacred place. There, the Darkspear can keep Gri'lek's strength and honor in their memory.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_629-a5d410f435db291621cd/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
 P.transport["quest:63"] = {
@@ -5553,28 +3569,12 @@ P.transport["quest:634"] = {
     {file = "Audio/Transport/full_quest_634-03941cc4736e3c686b3d/1-0000.mp3", duration = 67.84, start = 0},
   },
 }
-P.transport["quest:635"] = {
-  hash = "7f4ef0",
-  fullHash = "7f4ef0",
-  text = "Crystal in the Mountains. In Arathi's northern mountains, a vision draws you toward a gleaming crystal. The Pendant of Myzrael pulses in your hand as a plea for help reaches you. The Pendant of Myzrael pulses in your hand, carrying a plea from someone in need of help. Then a vision shows a gleaming crystal thrusting from the ground in the mountains north of Arathi. You feel drawn there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_635-ba8a41c5076f754fb115/1-0000.mp3", duration = 22.6742857, start = 0},
-  },
-}
 P.transport["quest:637"] = {
   hash = "1d6a42",
   fullHash = "1d6a42",
   text = "Sully Balloo's Letter. At the Thandol Span, Sully Balloo's Letter carries a dwarf's last words to his wife in Ironforge. Found beneath the bridge, it tells where he died. Beneath the stone pilings of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands, a drowned skeleton still clutches an envelope. Its water-damaged pages begin, “My dear Sara,” and preserve the tenderness of Sully Balloo's careful writing. Alliance forces and their enemies have fought fiercely for the Thandol Span. Dark Iron saboteurs and warbands contesting the borderlands have threatened the crossing. Sully Balloo was among the dwarven soldiers sent north to defend it. His family in the mountains knew nothing of his fate until a diver brought his farewell letter up from beneath the waves.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_637-9ca4abb5d7528574a465/1-0000.mp3", duration = 64.7314286, start = 0},
-  },
-}
-P.transport["quest:638"] = {
-  hash = "ae3626",
-  fullHash = "ae3626",
-  text = "Trollbane. At Hammerfall, the Darkspear prepare for battles against Zul'Gurub's jungle trolls. Vol'jin has sent them to recover Trol'kalar from ruined Stromgarde, where the blade rested in human hands. After King Thoras Trollbane fell, Stromgarde became a ruin. Chieftain Vol'jin then ordered the Darkspear to spirit Trol'kalar away. The storied sword had long rested in human hands. Now the tribe seeks it for the battles ahead against Zul'Gurub's jungle trolls. Vol'jin sent Zengu, a seasoned hunter, to Hammerfall in the northeastern Arathi Highlands. From Stranglethorn Vale, Nimboya directs travelers to find Zengu and help secure the legendary sword.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_638-86c57ca80b6c66ddec45/1-0000.mp3", duration = 43.2326531, start = 0},
   },
 }
 P.transport["quest:6381"] = {
@@ -5601,36 +3601,12 @@ P.transport["quest:6383"] = {
     {file = "Audio/Transport/full_quest_6383-cf23a9d8d5bdf79c11d7/1-0000.mp3", duration = 50.5991837, start = 0},
   },
 }
-P.transport["quest:639"] = {
-  hash = "9fc26a",
-  fullHash = "9fc26a",
-  text = "Sigil of Strom. At Hammerfall, Zengu seeks the sigils that guard Trol'kalar, Lord Ignaeus Trollbane's sword. The Syndicate took the Sigil of Strom, and one of its agents in Stromgarde likely carries it. Long ago, Lord Ignaeus of Strom, called Trollbane, was the Arathorian Empire's ablest foe in its war against the trolls. He wielded Trol'kalar in battle. In the trolls' old tongue, its name means troll slayer. Now Trollbane's sons are weakened, and their stronghold lies in ruins. Several sigils guard Trol'kalar, and Stromgarde's survivors each took some. Zengu says they must all be recovered. The Syndicate seized the first, the Sigil of Strom. Zengu believes one of its agents in Stromgarde holds it. Bring the sigil back to Zengu at Hammerfall.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_639-07e242527f9ada0d92b1/1-0000.mp3", duration = 51.5395918, start = 0},
-  },
-}
 P.transport["quest:6393"] = {
   hash = "0769e1",
   fullHash = "0769e1",
   text = "Elemental War. In Stonetalon Mountains, Tsunaman sends you against fire elementals in Neptulon’s name. The water envoy at Sun Rock Retreat asks you to enter the Charred Vale and gather Incendrite cores from the blazing elementals you destroy. Their struggle reaches beyond mortal borders, bound to the ancient rivalry between elemental forces. At Sun Rock Retreat in Stonetalon Mountains, Tsunaman speaks for the Tribunal of the Tides. You carry out Neptulon the Tidehunter’s will against the fiery kin of his water elementals. Their enmity reaches far beyond mortal borders. It is an ancient struggle between the primal forces of Azeroth. Southern Stonetalon Mountains hold the Charred Vale, where ash and smoke mark the land. Fire elementals gather there and threaten the surrounding regions. Tsunaman sends you to destroy them and gather the Incendrites they leave behind. These blazing cores prove to the Tribunal that the elementals are gone.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_6393-578eb81dfd1cb2a936e2/1-0000.mp3", duration = 60.3428571, start = 0},
-  },
-}
-P.transport["quest:6394"] = {
-  hash = "86b0f4",
-  fullHash = "86b0f4",
-  text = "Thazz'ril's Pick. Foreman Thazz'ril needs his enchanted pick back from the northern cavern. Beasts now prowl the Burning Blade Coven, where the glowing tool lies. Foreman Thazz'ril directs work in the Valley of Trials. He entered the northern cavern to search for mineral veins and left his favorite pick behind. When he returned, vicious beasts and hostile inhabitants had taken over. Now he seeks capable hands to bring back the tool. Thazz'ril enchanted his favorite pick to glow in the dark, making it easier to use in dim caverns. Its light marks the tool in a waterfall chamber inside the Burning Blade Coven. Dangerous creatures prowl the shadows. Thazz'ril hopes to put the pick back to work and find new mining prospects across the valley.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6394-d37bcb66226ffb1364e3/1-0000.mp3", duration = 45.4008163, start = 0},
-  },
-}
-P.transport["quest:642"] = {
-  hash = "1a125a",
-  fullHash = "1a125a",
-  text = "The Princess Trapped. Across the Arathi Highlands, an iridescent shard carries Myzrael’s plea from deep underground. She calls herself a princess of the earth, imprisoned by giants, and asks travelers to strengthen a crystal cluster in Drywhisker Gorge. Strange shards lie scattered across the Arathi Highlands, humming with distant power. Near them, Myzrael’s voice rises from deep beneath the ground. She calls herself a princess of the earth, cast down and bound underground by ancient giants. Cut off from the lands above, she uses the crystals to carry her plea to anyone willing to listen. Myzrael directs you east to Drywhisker Gorge, where she asks you to strengthen your contact with her. Drywhisker kobolds infest the gorge, and she calls them allies of the giants who hold her captive. They carry Motes of Myzrael and guard a cluster of iridescent shards. Take the motes from the kobolds and use their energy on the formation. That will strengthen the crystal cluster and deepen your communication with the trapped princess.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_642-9adab50ead5a74300964/1-0000.mp3", duration = 66.2465306, start = 0},
   },
 }
 P.transport["quest:647"] = {
@@ -5665,14 +3641,6 @@ P.transport["quest:6504"] = {
     {file = "Audio/Transport/full_quest_6504-4f8dc2d5a266b7fff82e/1-0000.mp3", duration = 48.2220408, start = 0},
   },
 }
-P.transport["quest:651"] = {
-  hash = "cb7066",
-  fullHash = "cb7066",
-  text = "Stones of Binding. In Arathi, four Stones of Binding hold Myzrael beneath the ground. A voice from the iridescent shards says the strongest stone needs keys from the other three. Across Arathi, four stones keep Myzrael beneath the ground, a voice says. The Stone of Inner Binding is strongest, and keys from the Stones of West, East and Outer Binding can unlock it. Gather the Burning Key, the Cresting Key and the Thundering Key. Guardians watch the stones, though someone clever or lucky may find a way to banish them. Carry the keys to the Stone of Inner Binding.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_651-3f1195856f8dcfe9080a/1-0000.mp3", duration = 35.9444898, start = 0},
-  },
-}
 P.transport["quest:6546"] = {
   hash = "54740a",
   fullHash = "54740a",
@@ -5689,36 +3657,12 @@ P.transport["quest:6547"] = {
     {file = "Audio/Transport/full_quest_6547-e9ce79b400d6f96e2ae6/1-0000.mp3", duration = 47.7779592, start = 0},
   },
 }
-P.transport["quest:655"] = {
-  hash = "d4e350",
-  fullHash = "d4e350",
-  text = "Hammerfall. At Hammerfall, the Horde holds a camp won at the cost of Warchief Orgrim Doomhammer's life. Gor'mul remembers the captives' escape and why the stronghold bears its name. In the Arathi Highlands, the Alliance once held orcs captive behind wood and steel. Young Thrall and Warchief Orgrim Doomhammer led an assault on the camp's enclosures and freed their kin. Many captives escaped as the defenses fell. Then a mounted lance struck Doomhammer from behind. He died where Hammerfall now stands. Gor'mul was among those who did not find freedom that day. In the battle's chaos and the earth's tremors, he watched the Warchief fall and lost the will to fight. His brethren fled, leaving him behind. For years, Gor'mul wandered the highlands in grief. The Horde has reclaimed the site as a fortified base, yet survivors still carry the memory of Doomhammer's death.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_655-d4cb4bb025313a518cb6/1-0000.mp3", duration = 55.9804082, start = 0},
-  },
-}
-P.transport["quest:65601"] = {
-  hash = "da33e9",
-  fullHash = "da33e9",
-  text = "Love Hurts. Gan'rul sends you along Orgrimmar's main drag to find Magar. His longing for Krilge may reveal the object Gan'rul needs to lure an incubus into the world. East of the Cleft of Shadow, Magar longs for Krilge to return. He asks you to search for something precious. Bring that object to Gan'rul, who needs a token of love and devotion to summon an incubus.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_65601-0b87fc20141ccbd707b7/1-0000.mp3", duration = 23.3273469, start = 0},
-  },
-}
 P.transport["quest:6561"] = {
   hash = "24b995",
   fullHash = "24b995",
   text = "Blackfathom Villainy. In Blackfathom Deeps, a wounded scout calls for help against the cult serving Aku'mai. Argent Dawn scout Thaelrid asks passing Horde champions to end Twilight Lord Kelris's blood sacrifices in the sunken ruins. Argent Dawn scout Thaelrid lies wounded in the underground temple along the Ashenvale coast. His reconnaissance uncovered horrors beyond the naga incursions, but he has spent his strength and cannot finish his mission alone. So he calls on passing Horde champions to strike at the cult's leaders in the sunken halls. Twilight Lord Kelris leads the Twilight's Hammer cultists in the ruined Temple of the Moon. Alongside the local naga, he performs dark rites over the defiled Moon Well. Captives are fed alive to Aku'mai, a ravenous hydra and beast of the Old Gods. Kelris seeks cosmic power and primordial chaos.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_6561-4ec567853c5db4dde030/1-0000.mp3", duration = 53.8383673, start = 0},
-  },
-}
-P.transport["quest:65610"] = {
-  hash = "daaa0e",
-  fullHash = "daaa0e",
-  text = "Wish You Were Here. A mooncloth maker in Ashenvale asks you to find Krilge, who vanished while guarding civilians. His comrades call him a deserter, but the maker believes he held his post. A mooncloth maker met Krilge while making mooncloth in Ashenvale. Krilge was stationed there to protect civilians, then disappeared. They often met at Fallen Sky Lake, until aggressive bog beasts overran it. The maker still hopes to learn what became of him. You are asked to search Fallen Sky Lake and report your findings to Gan'rul Bloodeye in Orgrimmar. Krilge's comrades have stopped looking for him. Perhaps the lake still holds a sign of what became of him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_65610-51bfacd0ed8bce41fa8e/1-0000.mp3", duration = 40.5681633, start = 0},
   },
 }
 P.transport["quest:6562"] = {
@@ -5753,28 +3697,12 @@ P.transport["quest:6565"] = {
     {file = "Audio/Transport/full_quest_6565-5b09ae3f2bd9d8429c30/1-0000.mp3", duration = 68.597551, start = 0},
   },
 }
-P.transport["quest:657"] = {
-  hash = "1acbad",
-  fullHash = "1acbad",
-  text = "Hints of a New Plague?. Kinelory is bound for Go'Shek Farm, where Apothecary Jorell's deadly experiments continue. Quae has learned of them from a folder, but she is too hurt from a clash with orcs to go along. The folder shows that Jorell is conducting deadly experiments at Go'Shek Farm. Quae does not know what they mean for Hillsbrad. But Phin would not want them to continue. Some of Jorell's research has already reached Tarren Mill. Quae fought some orcs while you were away, and now she cannot help Kinelory. Kinelory plans to go to the farm and take the research Jorell has not yet sent to Tarren Mill. She needs your protection on the way.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_657-13a2e8e5c984afd96b30/1-0000.mp3", duration = 39.7583673, start = 0},
-  },
-}
 P.transport["quest:6571"] = {
   hash = "e4b659",
   fullHash = "e4b659",
   text = "Warsong Supplies. At Splintertree Post, Locke Okarr needs Warsong Supplies to keep the lumber camp working. Some wait in town, some in Booty Bay, and others lie in enemy hands across Ashenvale. From Splintertree Post, Locke Okarr works to keep the Warsong Lumber Camp supplied. The Warsong Clan needs a steady flow of heavy tools to harvest Ashenvale's ancient timber. Furbolg and satyr raids have scattered or seized local supplies, leaving the camp short of vital gear. You gather equipment from across Kalimdor and beyond. Pixel, the goblin courier at Splintertree Post, has circular saw blades. In Booty Bay, Wharfmaster Lozgil holds a crate of heavy axes. Foulweald and Thistlefur furbolgs have taken logging ropes, while satyrs at Night Run, Satyrnaar, and Xavian stole barrels of Warsong machinery oil for their profane rites.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_6571-5abb384aec7e3aeb6aa8/1-0000.mp3", duration = 53.6816327, start = 0},
-  },
-}
-P.transport["quest:658"] = {
-  hash = "f6b520",
-  fullHash = "f6b520",
-  text = "Hints of a New Plague?. At Go'Shek Farm, Quae and Kin have watched for days, and Kin saw a courier leave a small house to the south. They suspect she carries notes to Tarren Mill, so Quae asks you to track her and bring back the documents. Quae expected Phin Odelic to send you. He worries too much, in Quae's view. Quae and Kin have watched the farm for days, and Kin recently saw a courier leave a small house to the south. Kin talks often, but Quae trusts Kin's senses in dangerous places. Quae asks if you are a skilled tracker. The courier may carry notes bound for Tarren Mill, and the documents could shed light on what is happening in Hillsbrad. Find the Forsaken Courier and bring her Sealed Folder to Quae near Go'Shek Farm.\n\nWhile you search, Kin spots an apothecary leaving that same house. Quae suspects the apothecary is up to no good, but needs proof before anyone acts rashly.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_658-365606100bd4bd4f9f7b/1-0000.mp3", duration = 56.6334694, start = 0},
   },
 }
 P.transport["quest:6581"] = {
@@ -5785,36 +3713,12 @@ P.transport["quest:6581"] = {
     {file = "Audio/Transport/full_quest_6581-34e1f94a95b2d34fa52a/1-0000.mp3", duration = 51.3828571, start = 0},
   },
 }
-P.transport["quest:659"] = {
-  hash = "27b8b0",
-  fullHash = "27b8b0",
-  text = "Hints of a New Plague?. In Hillsbrad, Phin Odelic's band searches for signs of trouble. Quae and Kinelory have been missing for days after traveling to Go'Shek Farm in the Arathi Highlands. Phin Odelic's cousin in Hillsbrad had to put down his dog, Stanley. The beast had mystically grown huge and attacked anyone who came near. Phin suspects the undead are behind these strange happenings. So his band searches for signs to prove it. Quae and Kinelory traveled to Go'Shek Farm in the Arathi Highlands. They have not checked in for days, and Phin fears for them. He asks you to find them near the farm.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_659-c35290913eb34b323400/1-0000.mp3", duration = 35.8922449, start = 0},
-  },
-}
 P.transport["quest:66"] = {
   hash = "8a05b8",
   fullHash = "8a05b8",
   text = "The Legend of Stalvan. Madame Eva's vision in Darkshire names Stalvan and warns of death for her granddaughter, Alyssa. She sends you to the Darkshire Town Hall to search the records. In Darkshire, Madame Eva reads cards and portents for troubled locals. A terrible disturbance jolts her awake, and she draws the Death card for her young granddaughter, Alyssa. Eva enters a deep trance to learn what the omen means. One clue comes to her: the name Stalvan. Fearing for her family and the town, she asks you to follow that name before tragedy strikes. Madame Eva sends you across the square to the Darkshire Town Hall. Search its records for Stalvan, and speak with Clerk Daltry, who keeps the town's ledgers and public archives. He can help determine whether Stalvan once lived in Darkshire, passed through as a traveler, or belongs to Duskwood's past.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_66-bd9869606f95ab78c158/1-0000.mp3", duration = 53.0546939, start = 0},
-  },
-}
-P.transport["quest:660"] = {
-  hash = "a77c2b",
-  fullHash = "a77c2b",
-  text = "Hints of a New Plague?. Kinelory is ready to go down to the farm, and asks you to come with her. She fears the undead may harm Hillsbrad while they wait. You are needed to see her safely back. Kinelory is ready to act after the earlier steps of the investigation. She asks you to go with her down to the farm, then return safely to Quae. The people of Hillsbrad need her protected.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_660-fa309e95385721e9bc11/1-0000.mp3", duration = 21.76, start = 0},
-  },
-}
-P.transport["quest:661"] = {
-  hash = "26d732",
-  fullHash = "26d732",
-  text = "Hints of a New Plague?. In Arathi, Quae and Kinelory remain near the farm while you carry news to Southshore. Quae has the farm items, and Kinelory has returned safely. Quae is pleased with how you cared for Kinelory. She says Kinelory is in better shape than after a night at the tavern. The items from the farm should help Phin Odelic understand what is happening in Arathi.\n\nSince the farm was attacked, Quae and Kinelory plan to stay there a little longer in case anyone retaliates. They ask you to return to Southshore and speak with Phin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_661-59fe60431dd32dbfdbe5/1-0000.mp3", duration = 32.2612245, start = 0},
   },
 }
 P.transport["quest:6621"] = {
@@ -5841,92 +3745,12 @@ P.transport["quest:6628"] = {
     {file = "Audio/Transport/full_quest_6628-f7deebe222e5aa1acaa3/1-0000.mp3", duration = 31.8432653, start = 0},
   },
 }
-P.transport["quest:663"] = {
-  hash = "5b8bd5",
-  fullHash = "5b8bd5",
-  text = "Land Ho!. At Faldir's Cove, Lolo warns you that Captain O'Breen's brief stop may last far longer than planned. The Spirit of Silverpine and the Maiden's Folly are lost, and Lolo directs you to the captain. Lolo greets you at Faldir's Cove and tells you what has gone wrong. Captain O'Breen promised the crew only a few hours ashore to gather treasure before sailing back to Booty Bay. Lolo doubts they will be away so briefly.\n\nThe Spirit of Silverpine and the Maiden's Folly, two ships in the formation, now lie on the sea floor. If you mean to stay, Lolo says to speak with the captain.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_663-b3716ca580d18a410b8a/1-0000.mp3", duration = 37.5640816, start = 0},
-  },
-}
-P.transport["quest:6661"] = {
-  hash = "a585c7",
-  fullHash = "a585c7",
-  text = "Deeprun Rat Roundup. At the Deeprun Tram, Monty asks passing travelers to round up the rats. His flute’s charming melody draws the living Deeprun rats along. Monty keeps pests from overrunning the Deeprun Tram. He speaks in salty sea slang and treats the tramway like a ship’s deck. Vermin scurry through the underground station. So Monty asks travelers passing along the line to help gather them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6661-d40bebb2adb8bab83b0d/1-0000.mp3", duration = 25.1036735, start = 0},
-  },
-}
-P.transport["quest:6662"] = {
-  hash = "90c4dd",
-  fullHash = "90c4dd",
-  text = "Me Brother, Nipsy. On the Deeprun Tram, Monty sends live rats to his brother Nipsy in Stormwind. Nipsy runs a rat kabob stall at the far terminal, while Monty's odd manner hints at Gnomeregan's tragedy. At the Ironforge station, Monty asks you to carry live rats through the Deeprun Tram to his brother Nipsy at the Stormwind depot. The short trip links the dwarven and human capitals beneath the mountains. Curious trades carry on along the way. The crate is labeled Carton of Mystery Meat, but inside are live Deeprun rats. Nipsy runs a rat kabob stall at the Stormwind terminal and needs the rats before they spoil. When the crate arrives intact and twitching, he is relieved to have food for travelers passing through the station.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_6662-146c79afe1971877f94f/1-0000.mp3", duration = 45.6097959, start = 0},
-  },
-}
 P.transport["quest:67"] = {
   hash = "1e2afc",
   fullHash = "1e2afc",
   text = "The Legend of Stalvan. In Darkshire, Clerk Daltry searches the town records for Stalvan Mistmantle. An old address points west to Moonbrook in Westfall, where the search for Stalvan’s past begins. After your inquiries in Darkshire, Clerk Daltry searches the town registry for Stalvan Mistmantle. The ledger has gone years without an update, and lists Stalvan’s last known home as the schoolhouse in Moonbrook, far to the west. Daltry takes the old address as routine record keeping. He asks you to investigate and bring back any records that could bring Darkshire’s archives up to date. The trail runs from Duskwood into Westfall, where the Defias Brotherhood holds Moonbrook. Once a thriving farming settlement, the town is now under outlaw control. Near its center stands the abandoned schoolhouse. Inside, an old footlocker holds the first clear clues to Stalvan’s former life as an educator. A sorrow still lingers around the chest.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_67-32bcd731730f86248081/1-0000.mp3", duration = 59.4808163, start = 0},
-  },
-}
-P.transport["quest:671"] = {
-  hash = "4633de",
-  fullHash = "4633de",
-  text = "Foul Magics. In the Arathi Highlands, Tor'gan follows a demonic presence to Northfold Manor. From Hammerfall, he seeks help recovering bloodstone amulets from the summoners. Demonic energy stirs in the Arathi Highlands, and Tor'gan feels it from his post at Hammerfall. The pull draws the orc west toward Northfold Manor. There, he finds signs of demonic summoning, but the lingering corruption makes his blood boil and stirs an involuntary rage tied to the blood curse's history. He retreats before the influence overwhelms his senses, then seeks help from others. At Northfold Manor, Tor'gan found a bloodstone amulet on the ground. It showed that dark rituals were being performed there. Such charms help channel and steady demonic summonings, but the amulet he recovered had lost its magic. It held too little power for a thorough study. Tor'gan asks Horde travelers to retrieve ten intact amulets from the manor's practitioners, so he can examine the rituals and learn what entities were summoned.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_671-1f76b5076e0e529c1786/1-0000.mp3", duration = 63.0857143, start = 0},
-  },
-}
-P.transport["quest:672"] = {
-  hash = "0d8250",
-  fullHash = "0d8250",
-  text = "Raising Spirits. Tor'gan seeks a way to lift Gor'mul's spirits at Hammerfall in the Arathi Highlands. Tales of Orgrimmar and Warchief Thrall have brought no comfort, so Tor'gan turns to the Horde's newly rediscovered shamanic traditions. At Hammerfall in the Arathi Highlands, Gor'mul has fallen into deep melancholy. His companions have told him of Kalimdor, the mighty city of Orgrimmar, and Warchief Thrall's leadership. Yet none of these tales has eased his gloom or given him hope. Tor'gan turns to the Horde's revived spiritual traditions to help Gor'mul. He gathers the eyes of highland raptors roaming Arathi and makes an amulet blessed with their spirits. Through this rite, he hopes the predators' vital force will awaken Gor'mul's will to live.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_672-76887854979749cc88c9/1-0000.mp3", duration = 46.7591837, start = 0},
-  },
-}
-P.transport["quest:674"] = {
-  hash = "6655c7",
-  fullHash = "6655c7",
-  text = "Raising Spirits. A Horde emissary hopes Raising Spirits will help Gor'mul find his fighting spirit again. The Raptor Talon Amulet is meant to rekindle it, but Gor'mul remains bitter and doubts any trinket can restore the Horde's former glory. An emissary brings Gor'mul a Raptor Talon Amulet, hoping its power will reach him. The talisman channels the wild strength and ferocity of raptors. It is meant to rekindle the flame that once burned fiercely within the orc warrior.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_674-c8bfdc66a3efbacc191b/1-0000.mp3", duration = 30.1714286, start = 0},
-  },
-}
-P.transport["quest:675"] = {
-  hash = "eb9d00",
-  fullHash = "eb9d00",
-  text = "Raising Spirits. Tor'gan hopes ancestral magic can restore Gor'mul's pride and will to live. The shaman seeks to lift an old orc veteran from despair. Gor'mul grieves that he survived when his fallen Warchief did not. Many orc veterans bear the weight of past wars, but Gor'mul believes fate denied him an honorable death beside his leader. Tor'gan, a shaman, hopes to ease that sorrow by recalling his people's spiritual strength. He prepares an enchanted amulet and trusts ancestral power to rekindle the old warrior's pride.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_675-818182248e36101f6c72/1-0000.mp3", duration = 33.5673469, start = 0},
-  },
-}
-P.transport["quest:676"] = {
-  hash = "02e496",
-  fullHash = "02e496",
-  text = "The Hammer May Fall. Tallow sends fighters from Tarren Mill through the mountains to relieve Hammerfall in the Arathi Highlands. Before reporting to Drum Fel, you prove your strength against Boulderfist ogres near the ruins of Stromgarde. In Tarren Mill, Tallow has little patience for fighters who have not proved themselves. While recruits stand idle, allies face attack far away. He sends capable fighters east through Thoradin's Wall into the Arathi Highlands, where Hammerfall is besieged from several sides. First, they must prove their worth against a strong foe. Only then will Tallow send them to the outpost. Tallow demands a show of strength at the ogre mound northeast of the ruins of Stromgarde. Boulderfist ogres and their enforcers hold much of Arathi and threaten travelers on the highland trails. Fighting them thins the hostile forces flanking the road. It also proves you can face the danger before reaching Hammerfall.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_676-a127898da7517410b62e/1-0000.mp3", duration = 58.4359184, start = 0},
-  },
-}
-P.transport["quest:677"] = {
-  hash = "2fb61d",
-  fullHash = "2fb61d",
-  text = "Call to Arms. Drum Fel calls the Horde to strike from Hammerfall in the Arathi Highlands. The Witherbark have joined the Boulderfist ogres, and the Horde means to hold its foothold there. At Hammerfall, Drum Fel rallies the Horde from its fortified outpost in the Arathi Highlands. Old human ruins and hostile powers surround the settlement. The Witherbark forest trolls and Boulderfist ogres have made a pact, putting the Horde's foothold at risk. Drum Fel calls on champions to strike first and keep their enemies from deciding the struggle's course. South of Hammerfall, the Horde's first strikes reach Witherbark territory. The forest trolls have rejected diplomacy and joined the Boulderfist ogres in trying to drive the Horde from the highlands. Hammerfall targets their axe throwers, headhunters and witch doctors to weaken their leaders and show that the Horde intends to stay.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_677-7594b85fae091092b449/1-0000.mp3", duration = 52.2187755, start = 0},
-  },
-}
-P.transport["quest:678"] = {
-  hash = "283987",
-  fullHash = "283987",
-  text = "Call to Arms. At Hammerfall, Drum Fel sends proven warriors against the Boulderfist ogres. Their attacks threaten the Horde's foothold in Arathi. At Hammerfall, Drum Fel calls on travelers who have aided the outpost to face a real threat. Boulderfist ogres have harassed the Horde expedition and tested its defenders. Fel sends warriors against these foes, not minor skirmishers. He expects them to return alive or with honor, and promises praise for their tenacity in battle. Southwest of Hammerfall, the Boulderfist clan has dug in near the dwarven bridge between Arathi and the Wetlands. Brutes fight alongside cunning magi, bringing crushing strength and deadly magic. Their aggression threatens Horde supply lines and control of the region. Drum Fel orders warriors to defeat ten Boulderfist brutes and four magi. Their defeat will weaken the clan and show that Hammerfall will not yield ground or tolerate rivals in Arathi.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_678-40d688cdee384027b454/1-0000.mp3", duration = 58.4097959, start = 0},
   },
 }
 P.transport["quest:68"] = {
@@ -5945,36 +3769,12 @@ P.transport["quest:681"] = {
     {file = "Audio/Transport/full_quest_681-9c0c24c92537e70ba439/1-0000.mp3", duration = 40.9077551, start = 0},
   },
 }
-P.transport["quest:682"] = {
-  hash = "52d7d2",
-  fullHash = "52d7d2",
-  text = "Stromgarde Badges. In Stromgarde, the Syndicate pays for militia badges taken from the fallen. At Refuge Pointe, Captain Nials wants them brought back. The Syndicate fights a contingent of militia in Stromgarde. Its leaders offer gold for every badge taken from a slain militiaman, hoping to turn their followers against the better-trained soldiers. Captain Nials calls the Syndicate cutthroats and refuses to let them keep trophies from the brave fallen. You enter the part of Stromgarde they hold and bring the badges back to Refuge Pointe. Nials wants them to learn they cannot profit from the dead.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_682-c5bf8dc6b5b549134407/1-0000.mp3", duration = 36.2057143, start = 0},
-  },
-}
 P.transport["quest:683"] = {
   hash = "ec0716",
   fullHash = "ec0716",
   text = "Sara Balloo's Plea. In Ironforge, Sara Balloo grieves for Sully and asks you to carry her plea to King Magni Bronzebeard. Sara has received Sully’s final letter, recovered from the waters of the Thandol Span. She wants the king to remember his sacrifice, so she writes him a plea. Grief keeps her from appearing before the throne herself. She entrusts the sealed letter to you, a champion of the Alliance, to carry to King Magni Bronzebeard.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_683-863de8e813905499dab7/1-0000.mp3", duration = 34.7428571, start = 0},
-  },
-}
-P.transport["quest:684"] = {
-  hash = "55de56",
-  fullHash = "55de56",
-  text = "WANTED: Marez Cowl. At Stromgarde, Marez Cowl advises Syndicate leaders and traffics with demons. Her influence threatens Alliance forces in the Arathi Highlands. At Refuge Pointe, Alliance commanders offer a bounty on a high-ranking Syndicate leader. Marez Cowl advises the Syndicate and directs its work in Stromgarde’s ruins as a field operative. The bounty aims to break the group’s local command. Marez Cowl is a warlock among the Syndicate’s brigands and dispossessed nobles. She deals openly with demonic powers to enforce her will and defend Syndicate territory. To reach her lair in Stromgarde, you must face armed criminals and the demons she commands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_684-528901cecc204b9eda91/1-0000.mp3", duration = 42.9453061, start = 0},
-  },
-}
-P.transport["quest:685"] = {
-  hash = "05368a",
-  fullHash = "05368a",
-  text = "WANTED: Otto and Falconcrest. In the Arathi Highlands, the Stromgarde Militia has marked Lord Falconcrest and Otto for death. Falconcrest leads the local Syndicate forces, and Otto guards him with deadly skill. Their deaths would weaken the Syndicate's hold in the region. Proof must reach Captain Nials at Refuge Pointe. From Refuge Pointe, Stromgarde's defenders seek to break the Syndicate's hold over their ancestral lands. The militia has placed a bounty on Lord Falconcrest and Otto, his bodyguard. Bring both targets' heads to Captain Nials to claim the reward. Lord Falconcrest directs the Syndicate's push into the Arathi Highlands. His death would disrupt the criminal network's work in the region. Otto is a brutally effective bodyguard. His blades have killed dozens of Stromgarde's remaining militia soldiers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_685-21205d7ea9f794fb8338/1-0000.mp3", duration = 51.4089796, start = 0},
   },
 }
 P.transport["quest:686"] = {
@@ -6001,22 +3801,6 @@ P.transport["quest:69"] = {
     {file = "Audio/Transport/full_quest_69-1838531ad8be92d725ae/1-0000.mp3", duration = 42.6579592, start = 0},
   },
 }
-P.transport["quest:690"] = {
-  hash = "c0406e",
-  fullHash = "c0406e",
-  text = "Malin's Request. In Stormwind, Archmage Malin asks for help recovering relics from fallen Stromgarde. He sends seasoned Alliance adventurers north to Refuge Pointe in the Arathi Highlands, where an expedition seeks the magical relics left behind when Stromgarde fell. Archmage Malin serves in Stormwind's Wizard's Sanctum and acts for his former mentor, Archmage Trelane. When Stromgarde fell into chaos, Trelane made a desperate stand at the Tower of Arathor. As hostile forces took the city, he had to abandon his post and leave powerful enchanted possessions behind. Malin fears those relics may fall into hostile hands. He sends capable mercenaries north to strengthen his agents in the field and reclaim Trelane's lost belongings. Refuge Pointe lies on the road to Trelane's relics, in the central Arathi Highlands. The outpost is a hard-pressed refuge for Stromgarde loyalists, and Malin's chief contact there is the dwarf Skuerto. Syndicate outlaws, Witherbark trolls, and Boulderfist ogres press the outpost from every side. When you arrive, Skuerto and the garrison are stretched too thin to welcome you warmly without immediate help.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_690-1f4b0de6cf442c9e2aa8/1-0000.mp3", duration = 70.4, start = 0},
-  },
-}
-P.transport["quest:691"] = {
-  hash = "1917bf",
-  fullHash = "1917bf",
-  text = "Worth Its Weight in Gold. At Refuge Pointe, Apprentice Kryten needs reagents for Archmage Malin. He asks you to gather tusks, medicine pouches and a shadow hunter's knife from the Witherbark trolls of southeastern Arathi. Archmage Malin sent Kryten and Skuerto to Arathi for reagents. Kryten was unsure how to gather them until you arrived. He needs ten Witherbark tusks, four medicine pouches and one shadow hunter knife. The Witherbark trolls live in southeastern Arathi. Kryten's research says every Witherbark troll should have tusks. The witch doctors carry medicine pouches. The knife belongs to the mightiest shadow hunters, who receive it after completing their rites of passage. Only battle will show which one carries it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_691-f3d7ae94d551d905e719/1-0000.mp3", duration = 44.8522449, start = 0},
-  },
-}
 P.transport["quest:6921"] = {
   hash = "7986a1",
   fullHash = "7986a1",
@@ -6031,46 +3815,6 @@ P.transport["quest:6922"] = {
   text = "Baron Aquanis. Beneath Ashenvale, Baron Aquanis leaves a strange globe filled with tainted fluid. Je'neu Sancrea of the Earthen Ring suspects the Twilight's Hammer cultists in the submerged ruins and hopes the globe will reveal what corrupted the elemental. In Blackfathom Deeps, foul sorcery has twisted Baron Aquanis into a water spirit. When the elemental is destroyed, a Strange Water Globe remains. The impervious orb holds putrid fluid that seems to have sustained and warped Aquanis's natural essence. Physical force cannot harm it. Its energies unsettle those attuned to the balance of the elements.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_6922-36e8948c078af8bbd128/1-0000.mp3", duration = 39.7583673, start = 0},
-  },
-}
-P.transport["quest:693"] = {
-  hash = "de8aa4",
-  fullHash = "de8aa4",
-  text = "Wand over Fist. At Refuge Pointe, Skuerto has found where Trelane's first item went. Kor'gresh holds Trelane's Wand of Invocation in Boulderfist Hall, and Skuerto wants it back. After your work for Apprentice Kryten, Skuerto has traced Trelane's first item to Kor'gresh. The ogre holds the wand in Boulderfist Hall and uses blasts of ice to keep his kin in line. Skuerto fears Kor'gresh is close to discovering all its powers. Boulderfist Hall lies south of Refuge Pointe, then east of Thandol Span.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_693-2299eca8a7bc3a76ef80/1-0000.mp3", duration = 32.3918367, start = 0},
-  },
-}
-P.transport["quest:694"] = {
-  hash = "828dab",
-  fullHash = "828dab",
-  text = "Trelane's Defenses. Ogres now ring the Tower of Arathor, and Skuerto needs its defenses working. An azure agate from the Boulderfist shaman can become a key after Apprentice Kryten at Refuge Pointe enchants it. In Stromgarde, ogres ring the Tower of Arathor. Skuerto says you need to activate its defenses to have a chance against them. Only then can you reach the items alive. The Boulderfist shaman took certain gems from the tower and have grown fond of them. Skuerto says they will not keep the gems for long. Bring an azure agate to Apprentice Kryten at Refuge Pointe. Kryten knows the spell that will enchant it to work as a key.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_694-1596b1944d777caa0a32/1-0000.mp3", duration = 40.0195918, start = 0},
-  },
-}
-P.transport["quest:695"] = {
-  hash = "16fef7",
-  fullHash = "16fef7",
-  text = "An Apprentice's Enchantment. At the camp, Apprentice Kryten enchants the agate you brought from the Boulderfist shaman. It can wake the tower's defenses, and Kryten sends you to Skuerto before you leave. Apprentice Kryten gives you the enchanted gem and explains its power. Touch it to a pedestal at the tower's foot, and its defenses will wake. When you are ready to enter and search for the rest of Trelane's items, use the gem. Kryten will wait for you at the camp. Before you go, speak with Skuerto, who can answer any other questions.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_695-f7a2ebbcdbdebb780c30/1-0000.mp3", duration = 31.9216327, start = 0},
-  },
-}
-P.transport["quest:696"] = {
-  hash = "844f2c",
-  fullHash = "844f2c",
-  text = "Attack on the Tower. At Refuge Pointe, Skuerto sends you to search the ogre-held tower for three items tied to Trelane. The phylactery, orb and ember agate should be in chests inside, and Skuerto says Malin will be pleased when you return with them. After Kryten enchants the gem, Skuerto sends you to find Trelane's phylactery, orb and ember agate. The three items should be in chests inside the tower, ready for you to open. But the ogres are dangerous. The tower's defenses will not deal with them, and the ogres will hurt you if they catch you stealing.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_696-5bfb8b3fca78a1cfe563/1-0000.mp3", duration = 32.8881633, start = 0},
-  },
-}
-P.transport["quest:697"] = {
-  hash = "dc8f23",
-  fullHash = "dc8f23",
-  text = "Malin's Request. In Stormwind, Skuerto's letter carries news from Arathi to Archmage Malin. You are sent to the Mage Quarter with word that Kryten and Skuerto will soon be home. After your work in Arathi, Skuerto gives you a sealed letter for Archmage Malin in Stormwind's Mage Quarter. It says Kryten and Skuerto will be home soon. Skuerto trusts Malin will repay you well for helping them and wishes you a safe journey.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_697-08d963d66e9e19185757/1-0000.mp3", duration = 25.8089796, start = 0},
   },
 }
 P.transport["quest:6981"] = {
@@ -6097,100 +3841,12 @@ P.transport["quest:700"] = {
     {file = "Audio/Transport/full_quest_700-4721f0cd46dcfbaa9f2a/1-0000.mp3", duration = 45.7665306, start = 0},
   },
 }
-P.transport["quest:701"] = {
-  hash = "20a765",
-  fullHash = "20a765",
-  text = "Guile of the Raptor. Tor'gan seeks to awaken Gor'mul's dormant warrior spirit through the guile of the raptor. He gathers Highland Fleshstalker hearts to make an enchanted charm and restore Gor'mul's fighting resolve. Tor'gan wants to draw Gor'mul out of his listlessness and restore the warrior spirit that lies dormant. He turns to primal magic instead of persuasion, hoping a charm filled with wild predators' essence will stir Gor'mul to action. Through the charm, he seeks to renew Gor'mul's martial resolve and show him the strength of this power. Tor'gan needs Highland Fleshstalker hearts to call on the instincts of a cunning hunter. In shamanic and primal traditions, a predator's heart carries its ferocity and guile. Tor'gan uses these trophies to make a physical token and weave a spell. He hopes they will give Gor'mul a predator's cunning and help him rediscover his calling.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_701-6faedfa6dba7da35edb9/1-0000.mp3", duration = 50.677551, start = 0},
-  },
-}
-P.transport["quest:702"] = {
-  hash = "15435c",
-  fullHash = "15435c",
-  text = "Guile of the Raptor. At Hammerfall, Tor'gan sends you to Gor'mul with an orb to rouse the warrior's spirit. Its energy bears the raptor's essence and may give Gor'mul fresh purpose. Tor'gan gives you an orb meant to fill Gor'mul with the raptor's essence. He hopes it will rouse the warrior's spirit and set him on a fresh course in life.\n\nOnce Gor'mul is himself again, Tor'gan plans to explain the Horde's present state. He hopes to win the help of a great warrior in its unceasing battles. Gor'mul greets your return with bitterness. He says all he wants is more of Tor'gan's pity, then mocks you with talk of brightly colored string.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_702-8d5ee3a796da2c0ba83c/1-0000.mp3", duration = 39.5232653, start = 0},
-  },
-}
-P.transport["quest:705"] = {
-  hash = "78b42a",
-  fullHash = "78b42a",
-  text = "Pearl Diving. In the Badlands, Rigglefuzz is running low on powder for his flash bombs. He sends you to the Vile Reef in Stranglethorn to gather more. Rigglefuzz admits the Badlands frighten him. A short little goblin, he faces predators and scavengers all around. He knows how to make flash bombs, and uses them to drive the wildlife away. Now he is running low on crushed blue pearl powder. Clams at the Vile Reef in Stranglethorn hold blue pearls. Rigglefuzz jokes that you had better wear good boots, then waits in the Badlands for nine pearls. He promises to make your effort worthwhile.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_705-4b67e6049c8ca2f0e068/1-0000.mp3", duration = 36.884898, start = 0},
-  },
-}
-P.transport["quest:710"] = {
-  hash = "0dbaa2",
-  fullHash = "0dbaa2",
-  text = "Study of the Elements: Rock. In the Badlands, Lotwil Veriatus needs stone shards to test his work on elemental shackles. Lesser rock elementals roam the hills just west of him. In the Badlands, Lotwil Veriatus is making shackles of elemental binding. When finished, they will let mages summon stronger elementals for greater uses. To test his offensive spells and a few pieced-together gizmos, he needs ten small stone shards. Lesser rock elementals roam the hills immediately west.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_710-3ba5c1785abc1134b530/1-0000.mp3", duration = 30.5893878, start = 0},
-  },
-}
-P.transport["quest:711"] = {
-  hash = "dd7c08",
-  fullHash = "dd7c08",
-  text = "Study of the Elements: Rock. Lotwil Veriatus is ready to test larger pieces after the small shards behaved as he expected. He needs three large stone slabs from rock elementals. Lotwil Veriatus needs sturdier pieces for his next tests. Rock elementals have larger bodies, so their remains may yield slabs big enough.\n\nHe points you farther west or southeast along the mountain edges to gather three large stone slabs. For now, Lotwil needs time to test the smaller pieces you brought. Lotwil's spells acted on the smaller pieces as he predicted. If the next experiment goes as he expects, the elementals he controls will outshine anything he has summoned before.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_711-3111ea6dc832977ef36b/1-0000.mp3", duration = 41.6130612, start = 0},
-  },
-}
-P.transport["quest:713"] = {
-  hash = "726df2",
-  fullHash = "726df2",
-  text = "Coolant Heads Prevail. Lotwil Veriatus needs Frost Oil for the shackles holding his summoned friend. Bro'kin, Lotwil's goblin friend in Alterac, can teach you to make it. Lotwil Veriatus says Frost Oil keeps engines and gears from overheating. He calls it an unmatched lubricant. It also helps magical items hold their enchantments. The oil could strengthen Lotwil's shackles enough to stop his summoned friend from killing everyone. Bro'kin, Lotwil's goblin friend, can teach you to make Frost Oil. He sells from a spot on the old city's wall in the Ruins of Alterac.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_713-afb48282cc6d650d3525/1-0000.mp3", duration = 35.6571429, start = 0},
-  },
-}
-P.transport["quest:714"] = {
-  hash = "61545a",
-  fullHash = "61545a",
-  text = "Gyro... What?. In the Badlands, Lotwil Veriatus is still at work on his contraption. You have brought him the Frost Oil from Coolant Heads Prevail, but one small part is missing: a gyrochronatom. Lotwil Veriatus is so caught up in his work that he praises you for doing the job beyond all standards. Then he says you may apply for work if you meet him in Kharanos.\n\nA hurried scramble follows as Lotwil tries to catch hold of something. Then he asks for a gyrochronatom. The part is small but crucial, and with it the project should be ready to complete.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_714-74b17731a9bc3213338a/1-0000.mp3", duration = 35.9706122, start = 0},
-  },
-}
-P.transport["quest:7162"] = {
-  hash = "99f323",
-  fullHash = "99f323",
-  text = "Proving Grounds. In Alterac, recruits face a trial before they may join the Stormpike Guard. Lieutenant Haggerdin sends them into Icewing Caverns for a planted battle standard. Success earns an official Stormpike Insignia and opens the way through the expedition’s ranks. The Stormpike Guard fights the Frostwolf Clan in Alterac Valley. Lieutenant Haggerdin directs Alliance forces from their encampment in the Alterac Mountains. Before recruits reach the battlefield, he tests their skill and nerve in Icewing Caverns southwest of Dun Baldar. Deep in Icewing Caverns, a Stormpike banner waits among the frozen tunnels. Frost harpies nest in the icy recesses and attack unwary trespassers. A recruit who brings the banner back intact has crossed dangerous ground, faced its predators, and kept discipline under pressure. Return from the caverns with the standard, and you earn a Stormpike initiate’s insignia and a place in the expeditionary force. Haggerdin says the insignia can improve as you earn greater honor on the battlefield. The Eye of Command is one distant aim.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7162-cba559486e5d183132c9/1-0000.mp3", duration = 66.6122449, start = 0},
-  },
-}
-P.transport["quest:718"] = {
-  hash = "0e22a7",
-  fullHash = "0e22a7",
-  text = "Mirages. In the Badlands, Sigrun Ironhew's party has fled the Uldaman excavation and gone hungry. Sigrun's party fled the Uldaman dig in such haste that they took little with them. They left wagons and supply crates behind, and ogres from Camp Kosh have been picking through them. The ogres took the cart with all the party's weapons. Since then, the party has had no food. Sigrun admits the trouble is embarrassing and asks you to retrieve the supply crate.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_718-827df491a8da02f2bdc4/1-0000.mp3", duration = 28.4995918, start = 0},
-  },
-}
-P.transport["quest:719"] = {
-  hash = "e0608d",
-  fullHash = "e0608d",
-  text = "A Dwarf and His Tools. Prospector Ryedol escaped an attack on his dig site and now seeks his lucky pick. Dark Iron dwarves resembling the Shadowforge clan are all around. Dark Iron dwarves resembling the Shadowforge clan attacked the excavation site where Ryedol worked. Nearly everyone died, including his boss, Hammertoe. Ryedol barely escaped with his life. The site lies north of where he waits. Prospector Ryedol is trying to recover supplies lost in the attack, especially his lucky pick. One of the Dark Iron dwarves has it, though Ryedol does not know which one. He hopes you will help and waits south of Hammertoe's Dig Site.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_719-dd45e375d1a9eed230f9/1-0000.mp3", duration = 40.5942857, start = 0},
-  },
-}
 P.transport["quest:72"] = {
   hash = "6eb548",
   fullHash = "6eb548",
   text = "The Legend of Stalvan. In Stormwind, you search for Stalvan Mistmantle among the Flintridge belongings. By the canals, sealed crates hold what remains of the household, watched over by restless spirits tied to the massacre. You follow Stalvan’s path from Duskwood to Stormwind. Beside the city canals, Caretaker Folsom guards what remains of the Flintridge household. His father served the estate before him and had to mop up blood after a massacre claimed the household. Somehow, Stalvan’s name is tied to that slaughter. The Flintridge trust funds are gone, and royal tax collectors press the estate. Surviving heirlooms and packed belongings wait inside sealed shipping crates along the canal embankment, awaiting auction. You search them for Stalvan’s trail before the family’s remaining goods scatter to collectors across the kingdom.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_72-976c382074f8d13b0589/1-0000.mp3", duration = 52.0359184, start = 0},
-  },
-}
-P.transport["quest:720"] = {
-  hash = "083332",
-  fullHash = "083332",
-  text = "A Sign of Hope. Hammertoe Grez lives, and a chalk plea on a crumpled map calls Prospector Ryedol to help. The note says they are taking Hammertoe to Uldaman. Hammertoe leaves a brief plea for Ryedol in chalk on a crumpled map. The note says they are taking Hammertoe to Uldaman and asks for help. Tell Prospector Ryedol that Hammertoe Grez lives.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_720-b09eec70339bc1738883/1-0000.mp3", duration = 22.7265306, start = 0},
   },
 }
 P.transport["quest:729"] = {
@@ -6217,22 +3873,6 @@ P.transport["quest:7321"] = {
     {file = "Audio/Transport/full_quest_7321-48acfb8e4db7d92288a2/1-0000.mp3", duration = 51.2261224, start = 0},
   },
 }
-P.transport["quest:736"] = {
-  hash = "e8adca",
-  fullHash = "e8adca",
-  text = "The Star, the Hand and the Heart. In the Undercity, Keeper Bel'dugur tests those who seek to lead their own circle. To found a new chapter, they need Yagyin's Digest, but he asks for three unnamed items of power. Practitioners who hope to lead their own circle come to Keeper Bel'dugur in the Undercity. To found a chapter and gather followers, they need Yagyin's Digest, a work of ritual lore in his keeping. Bel'dugur will aid a brother, but first he asks for proof of worthiness before entrusting him with such knowledge. Keeper Bel'dugur asks for three items of power in exchange for Yagyin's Digest. Their names carry peril or sacred weight, so he will not speak them aloud. Instead, he writes them on a private note. Finding all three proves a practitioner worthy of founding a chapter of their own.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_736-8d60ec2f700454cffe57/1-0000.mp3", duration = 49.684898, start = 0},
-  },
-}
-P.transport["quest:738"] = {
-  hash = "7af582",
-  fullHash = "7af582",
-  text = "Find Agmond. Weeks have passed without word from Prospector Agmond at the Badlands digs. Prospector Ironband now needs you to find Agmond and bring back his report. Prospector Agmond oversaw the Badlands excavations southwest of Ironband. Ironband calls him a prospector no longer, for weeks have passed without word. He needs you to find Agmond and recover the report. Agmond was last heard from at the southernmost dig, a small outfit beyond Angor Fortress. Begin there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_738-8509b7306e7ccdcf03fc/1-0000.mp3", duration = 29.44, start = 0},
-  },
-}
 P.transport["quest:74"] = {
   hash = "8c4289",
   fullHash = "8c4289",
@@ -6257,44 +3897,12 @@ P.transport["quest:742"] = {
     {file = "Audio/Transport/full_quest_742-125d729acfcd6f3371c5/1-0000.mp3", duration = 52.4016327, start = 0},
   },
 }
-P.transport["quest:744"] = {
-  hash = "4dbbd5",
-  fullHash = "4dbbd5",
-  text = "Preparation for Ceremony. Eyahn Eagletalon is making a headdress for his brother, who soon stands before Chief Cairne Bloodhoof. He asks you to gather the vibrant feathers from harpies beyond Thunder Bluff while he tans the leather bands. Among the tauren, standing before Chief Cairne Bloodhoof brings pride and reverence. Families honor the occasion by preparing proper attire. The traditional headdress is made from treated leather and symbolic plumage, with each part chosen to show dignity and respect before the leader of the united tribes. A ceremonial headdress needs a leather band and feathers for its crown. While the leather straps are tanned, long, pristine feathers must be gathered. Harpies roost in the craggy hills north and northwest of Thunder Bluff, so you must venture into their hostile nests to find feathers of the needed size and color.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_744-8dc94ee9980b92f6bfb9/1-0000.mp3", duration = 49.7893878, start = 0},
-  },
-}
 P.transport["quest:75"] = {
   hash = "edc04e",
   fullHash = "edc04e",
   text = "The Legend of Stalvan. In Elwynn, your search for The Legend of Stalvan leads you to Marshal Haggard's home. The veteran's failing eyesight left an upstairs chest of papers unread. Marshal Haggard lives near Elwynn Forest's southeastern edge, close to Duskwood and Redridge. Upstairs, an old chest holds parchments he found when he moved into his secluded home. His failing eyesight kept him from reading them, and they have remained untouched until you ask about Stalvan.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_75-85e7940ab52a4aad038b/1-0000.mp3", duration = 28.0816327, start = 0},
-  },
-}
-P.transport["quest:750"] = {
-  hash = "5d8fc5",
-  fullHash = "5d8fc5",
-  text = "The Hunt Continues. Grull Hawkwind sends young hunters into the southern hills of Red Cloud Mesa for mountain cougar pelts. The hides will clothe the tribe's children and help mend its tents. At Camp Narache, Grull Hawkwind sends young hunters south into the hills of Red Cloud Mesa to hunt mountain cougars. This is no search for trophies. The hunt teaches young hunters to provide for their community. Camp Narache needs the pelts to make clothing for the tribe's children and mend worn hide tents. When you bring them back, the elders will be grateful for your contribution. Grull promises to tell his father, Chief Hawkwind, what you have done.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_750-1cb036201902e1eab41d/1-0000.mp3", duration = 39.8889796, start = 0},
-  },
-}
-P.transport["quest:755"] = {
-  hash = "935bfa",
-  fullHash = "935bfa",
-  text = "Rites of the Earthmother. On Red Cloud Mesa, young tauren begin their spiritual journey under Chief Hawkwind's care. He sends them south of Camp Narache to Seer Graytongue, who guides their first steps toward the trials. On Red Cloud Mesa, Chief Hawkwind sends young tauren to Seer Graytongue in the hills south of Camp Narache. The seer guides the youth as their spiritual path begins. This journey carries them beyond everyday camp life and toward the duties their tribal customs demand. The Earthmother shapes tauren beliefs about creation and daily life. Her rites test maturity, resilience, and spiritual depth. Seer Graytongue warns those who reach his sanctuary that the trials call for full devotion to the traditions of the mesa.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_755-e991c99c61741dea58f0/1-0000.mp3", duration = 45.322449, start = 0},
-  },
-}
-P.transport["quest:7792"] = {
-  hash = "f26c51",
-  fullHash = "f26c51",
-  text = "A Donation of Wool. In Darnassus, wool cloth is gathered to support the city's stores. Your sixty pieces earn recognition for your generosity. Darnassus needs sixty pieces of wool cloth from you. Others across the realm are expected to provide the rest of its stores. Your donation earns full recognition for your generosity.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7792-95be35d7116897a78347/1-0000.mp3", duration = 19.5657143, start = 0},
   },
 }
 P.transport["quest:78"] = {
@@ -6305,22 +3913,6 @@ P.transport["quest:78"] = {
     {file = "Audio/Transport/full_quest_78-3bf187501bc5c3de157d/1-0000.mp3", duration = 31.6081633, start = 0},
   },
 }
-P.transport["quest:7802"] = {
-  hash = "a09841",
-  fullHash = "a09841",
-  text = "A Donation of Wool. At Ironforge, wool donations help support its stores. Sixty pieces bring full recognition for your generosity. Ironforge asks you for sixty pieces of wool cloth. Its stores need only that much from you. Others are expected to give enough to support the drive.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7802-734a72ce370908612320/1-0000.mp3", duration = 17.8155102, start = 0},
-  },
-}
-P.transport["quest:7807"] = {
-  hash = "6a142a",
-  fullHash = "6a142a",
-  text = "A Donation of Wool. Across the realm, A Donation of Wool calls for aid to the Gnomeregan Exiles. Driven from Gnomeregan, they need wool cloth to sustain their displaced people. Sixty pieces earn formal recognition among the gnomes. Gnomeregan's fall to trogg invaders and radioactive contamination drove its surviving gnomes from their high-tech city. They now live as refugees, hosted chiefly by their dwarven cousins in Ironforge.\n\nOutside their ancestral halls, the Gnomeregan Exiles face severe strain in supplying their people. Regular drives for cloth and other basics help keep them clothed, supplied, and organized. The drive asks each volunteer for exactly sixty pieces of wool cloth. By gathering modest contributions from across the realm, the exiles can collect the textiles they need for bedding, bandages, and clothing without overburdening any one supplier. Those who aid their recovery receive formal recognition among their people.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7807-4cc66a8b731812beba47/1-0000.mp3", duration = 61.962449, start = 0},
-  },
-}
 P.transport["quest:78124"] = {
   hash = "c51a65",
   fullHash = "c51a65",
@@ -6329,68 +3921,12 @@ P.transport["quest:78124"] = {
     {file = "Audio/Transport/full_quest_78124-dc2149f11c4c69ab1bea/1-0000.mp3", duration = 57.077551, start = 0},
   },
 }
-P.transport["quest:78127"] = {
-  hash = "faa798",
-  fullHash = "faa798",
-  text = "The Dalaran Digest. The librarian asks you to bring magical works for the collection. Each book adds knowledge to the library. The librarian welcomes magical works that may benefit the library. You bring a book to join the collection, helping its knowledge grow.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_78127-4ba7f0a57e4e236b23de/1-0000.mp3", duration = 15.9869388, start = 0},
-  },
-}
-P.transport["quest:78142"] = {
-  hash = "ec0606",
-  fullHash = "ec0606",
-  text = "Bewitchments and Glamours. In Ironforge, the library is seeking magical works for its shelves. You can help its keepers widen their knowledge by bringing in books that may benefit the collection. Bring magical works to the library in Ironforge, where each addition can broaden what its keepers know.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_78142-17c9bdd85066ccb3e452/1-0000.mp3", duration = 17.6065306, start = 0},
-  },
-}
 P.transport["quest:78143"] = {
   hash = "346c8c",
   fullHash = "346c8c",
   text = "Secrets of the Dreamers. A library's scholars seek writings tied to the Dreamers and other magical lore. Travelers bring forgotten works from across the realm, where they can be studied and kept in the archives. Scholars across the realm depend on travelers to recover rare magical texts and historical treatises. These works lie in ancient ruins or private hoards, far from the archives. So adventurers carry them safely to those who study Azeroth's arcane mysteries and preserve its lore. When travelers bring in treatises, archivists add them to the library's permanent collection. Researchers seek obscure writings on the Emerald Dream and arcane theory. Their work continues, and they welcome further magical texts found in the field.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_78143-5654d16d11734b55afcd/1-0000.mp3", duration = 45.4269388, start = 0},
-  },
-}
-P.transport["quest:78146"] = {
-  hash = "db5a79",
-  fullHash = "db5a79",
-  text = "Goaz Scrolls. The librarian asks you to bring Goaz Scrolls for the collection. Your contribution adds to the library’s knowledge. The librarian thanks you for contributing Goaz Scrolls. More magical works could help the library too, and the librarian welcomes them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_78146-c9228636c749d7e28948/1-0000.mp3", duration = 16.117551, start = 0},
-  },
-}
-P.transport["quest:7820"] = {
-  hash = "4cbef8",
-  fullHash = "4cbef8",
-  text = "A Donation of Wool. Thunder Bluff seeks wool cloth, and you can earn its full recognition by giving sixty pieces. Other donors are expected to bring enough supplies to support the drive. Thunder Bluff is gathering wool cloth. Give sixty pieces to earn full recognition for your generosity. Other donors in the realm are expected to bring enough to support the drive.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7820-9bf3a9cf2b1e7aa4dcd6/1-0000.mp3", duration = 21.8906122, start = 0},
-  },
-}
-P.transport["quest:7826"] = {
-  hash = "3bc418",
-  fullHash = "3bc418",
-  text = "A Donation of Wool. In Orgrimmar, A Donation of Wool asks for help gathering cloth. The city has wool in its stores and expects more donors to bring in enough for the drive. Orgrimmar asks you to give sixty pieces of wool cloth. In return, the city promises recognition. Its stores already hold some wool, and other donors are expected to help support the drive.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7826-f4e24f583eda7754a01f/1-0000.mp3", duration = 22.1779592, start = 0},
-  },
-}
-P.transport["quest:7833"] = {
-  hash = "d2dbe4",
-  fullHash = "d2dbe4",
-  text = "A Donation of Wool. A Darkspear troll gathers wool donations, and your sixty pieces of Wool Cloth join a larger collection. The Darkspear trolls are gathering Wool Cloth to replenish their stores. The collector can take your sixty pieces now, while help from others is expected to complete the collection.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_7833-ea7c1b8bad52efc6bfa6/1-0000.mp3", duration = 17.92, start = 0},
-  },
-}
-P.transport["quest:789"] = {
-  hash = "1fcd23",
-  fullHash = "1fcd23",
-  text = "Sting of the Scorpid. At the Den in the Valley of Trials, Gornek sends new Horde recruits after scorpids northwest of camp. Ten tails will prove they can face danger in battle. Gornek tests novice Horde recruits against the Valley of Trials' wildlife. Scorpid workers roam the rocks northwest of the Den. Their venom has humbled seasoned warriors and clumsy initiates alike. Recruits must face them and bring back ten tails as proof of their skill. Scorpids are dangerous, yet their venom also helps save injured initiates. The Den keeps antivenom brewed from extracted scorpid venom to treat fallen novices. Gornek teaches recruits to stay watchful in battle. Even a small foe can wield enough venom to fell a mighty warrior.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_789-0791f1632dd5860ebc14/1-0000.mp3", duration = 43.9640816, start = 0},
   },
 }
 P.transport["quest:79"] = {
@@ -6449,14 +3985,6 @@ P.transport["quest:79095"] = {
     {file = "Audio/Transport/full_quest_79095-c263633d6a19fe6027f7/1-0000.mp3", duration = 40.2546939, start = 0},
   },
 }
-P.transport["quest:79096"] = {
-  hash = "0057fc",
-  fullHash = "0057fc",
-  text = "Ataeric: On Arcane Curiosities. Ataeric seeks rare magical writings to enlarge a library's collection. Scholars hope these works will deepen their study of the arcane and keep its lore safe. Across Azeroth, scholars rely on travelers to recover rare tomes and treatises from dangerous ground. Ataeric seeks magical writings to broaden an institution's study of the arcane. Each volume can help scholars piece together practices that might otherwise be scattered or lost. The curator adds each curiosity to the archive. The library remains eager for further magical writings found across the world, so its collection can grow with ongoing scholarship.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_79096-f29b36acb6bf5b632e4e/1-0000.mp3", duration = 39.4971429, start = 0},
-  },
-}
 P.transport["quest:79097"] = {
   hash = "cc5cd2",
   fullHash = "cc5cd2",
@@ -6471,38 +3999,6 @@ P.transport["quest:79192"] = {
   text = "Stepping Stones. At a backcountry camp in the Barrens, a weathered note points toward Stepping Stones, a mountain refuge near Desolace. It says two couriers made deliveries for the New Plague, and calls their sudden ends simple apothecary accidents. A torn message hangs from a wooden plank at a backcountry camp in the Barrens. Mercenaries, cutthroats, and drifters stop at such camps for brief shelter, far from the eyes of the Crossroads or Ratchet. Among the ordinary signs of the wilds, the note gives you reason to look beyond the camp toward the mountains.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_79192-a1422f09fd5e4a1f65aa/1-0000.mp3", duration = 33.4628571, start = 0},
-  },
-}
-P.transport["quest:79236"] = {
-  hash = "f25a27",
-  fullHash = "f25a27",
-  text = "Cherry for Your Thoughts?. In Booty Bay, Tokal offers a drink for the truth about attacks on human and dwarven outposts. Rumors blame the Horde, but her band served a private mercenary contract. Tokal keeps out of sight in Booty Bay and watches for law enforcement. Recent raids devastated human and dwarven camps, and rumors blame the Horde. When travelers come who clearly do not work for the marshal asking questions, Tokal gives another account. She offers to tell it in exchange for a drink.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_79236-28145989bbf51221bc32/1-0000.mp3", duration = 30.1191837, start = 0},
-  },
-}
-P.transport["quest:79974"] = {
-  hash = "f1c694",
-  fullHash = "f1c694",
-  text = "Wet Job. On a mountainside, Wet Job sends you to recover an emergency reserve stash. Someone prepared it for a hasty escape and hid it near a high cliffside perch. In dangerous country, a reserve can make a quick escape possible. You search the rugged heights for a stash someone left there in case plans went wrong. Its supplies are waiting to be recovered. The directions lead to a high mountain perch, described as carved from the waterfalls of time. There, at the eagle's nest, a weathered messenger bag lies partly buried in the earth. Inside, provisions and parchment have endured beneath the soil, protected by dwarven craft.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_79974-1a80c23111222899dd7b/1-0000.mp3", duration = 39.4187755, start = 0},
-  },
-}
-P.transport["quest:79975"] = {
-  hash = "9cd7f6",
-  fullHash = "9cd7f6",
-  text = "Eagle's Fist. At a misty overlook, Eagle's Fist keeps a lonely watch over a weathered barricade. A letter speaks of loyalty to the Old Kingdoms and the Eagle and Fist, though its writer has left in haste. A folded letter lies inside a toolbox at a high overlook. From here, its writer says, one can call the shots or launch a parachute glider across the land. Misty spray dampens this lonely post, but the view reaches across historic lands. The letter's writer pledges lasting loyalty to the Eagle and Fist. To serve that cause well, the writer says, one must keep a measured distance. The nearby barricade has fallen into disrepair, like the Old Kingdoms it once shielded from danger. Still, the watcher vows never to abandon the post.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_79975-9386ecb9b04569969e57/1-0000.mp3", duration = 47.4906122, start = 0},
-  },
-}
-P.transport["quest:79976"] = {
-  hash = "585308",
-  fullHash = "585308",
-  text = "This Must Be The Place. At This Must Be The Place, a camper has vanished moments before anyone could catch up. A torn note says the writer has taken their work underground to keep it from the wrong hands. Someone broke camp at this secluded spot only moments ago. An inadequately secured sleeping bag unrolls underfoot, while heavy canvas lies bundled over assorted gear. A small scrap of paper holds a hurried parting message, but whoever camped here has vanished before anyone could catch up.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_79976-35f631d6b56831270c85/1-0000.mp3", duration = 28.8391837, start = 0},
   },
 }
 P.transport["quest:79980"] = {
@@ -6521,14 +4017,6 @@ P.transport["quest:80"] = {
     {file = "Audio/Transport/full_quest_80-e3f916579a118efbcc21/1-0000.mp3", duration = 36.362449, start = 0},
   },
 }
-P.transport["quest:815"] = {
-  hash = "21ff2e",
-  fullHash = "21ff2e",
-  text = "Break a Few Eggs. Cook Torka is waiting on fresh eggs from the Echo Isles before the next meal. You carry them back unbroken so the kitchen can keep to its schedule. At Razor Hill in Durotar, Cook Torka prepares meals from morning through evening. Breakfast gives way to lunch, then dinner, with little time to leave the stove for provisions. So Torka sends you to the Echo Isles for Taillasher eggs before the next meal service falls behind. Bring them back whole, and the cook can keep the kitchen working on time. Cook Torka has little time for praise while meals wait to be made. Eggs need a gentle touch, since a cracked shell spoils an ingredient the kitchen needs. When you bring the eggs back unbroken, Torka sends you on your way and returns to work over the fire.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_815-a1e9d32d33eaa482232c/1-0000.mp3", duration = 47.0465306, start = 0},
-  },
-}
 P.transport["quest:822"] = {
   hash = "d9b731",
   fullHash = "d9b731",
@@ -6545,38 +4033,6 @@ P.transport["quest:824"] = {
     {file = "Audio/Transport/full_quest_824-b177bad75561914b3013/1-0000.mp3", duration = 76.1469388, start = 0},
   },
 }
-P.transport["quest:8249"] = {
-  hash = "f040de",
-  fullHash = "f040de",
-  text = "Junkboxes Needed. Fahrad keeps Ravenholdt supplied with locked boxes for rogue training. He trades specialized throwing knives for authentic heavy junkboxes, and his demand never ends. Ravenholdt Manor hides in the mountains above Hillsbrad Foothills, where training never ceases. Master thief Fahrad oversees the guild's operatives and prizes skill at picking locks. Zan supplies practice contraptions for new recruits. Fahrad finds them too crude for experienced thieves who must open stubborn mechanisms in the field. Fahrad pays for heavy junkboxes stolen from dangerous targets across Azeroth, and accepts them in batches. Only skilled thieves can lift the boxes from their marks in the wild, but anyone may bring them to the manor. Even boxes stripped of major valuables earn his favor and finely balanced throwing knives from the manor. A token coin must remain inside, to motivate the initiates.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_8249-a035e96f4d0c5deca188/1-0000.mp3", duration = 55.9020408, start = 0},
-  },
-}
-P.transport["quest:8312"] = {
-  hash = "9c907b",
-  fullHash = "9c907b",
-  text = "Hallow's End Treats for Spoops!. For Hallow's End Treats for Spoops!, an ailing child asks travelers to gather holiday sweets. Innkeepers in the cities and Kali Remik in Sen'jin Village share treats, and Spoops offers magical candy in return. Spoops is too ill to join Hallow's End outdoors. While others celebrate, Spoops asks travelers to gather holiday treats. In return, Spoops offers candy that changes whoever eats it into strange shapes. Travelers can find holiday treats in settlements across the realm. Innkeepers in major cities ask visitors to perform tricks before sharing their sweets. Kali Remik also gives out treats in Sen'jin Village on the coast of Durotar.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_8312-95c6b6b52244015f7b82/1-0000.mp3", duration = 41.0122449, start = 0},
-  },
-}
-P.transport["quest:837"] = {
-  hash = "492c21",
-  fullHash = "492c21",
-  text = "Encroachment. At Razor Hill in central Durotar, Gar'Thok sends you west against Razormane camps. Their fortified dens still threaten the young orc homeland. When Thrall brought the orcs to Kalimdor and founded Durotar, the Razormane already ranged across much of the harsh, arid land. These aggressive, boar-like quilboar became a constant danger to the new settlement. The Horde drove most of them back through sustained military efforts. Yet fortified pockets remain in thorned redoubts west of Razor Hill. Gar'Thok, an officer at Razor Hill, leads the effort to remove the remaining Razormane. He sends seasoned defenders into the western bramble camps to kill their scouts, warriors, and dustrunners. Gar'Thok and the Horde leadership fear any quilboar foothold near Razor Hill could bring disaster. They see this strike as the first step toward securing Kalimdor. Once the quilboar defenders are gone, Horde forces can burn the bramble dens and keep the Razormane from reclaiming the western foothills. The fire destroys an enduring menace and secures Durotar's western perimeter. It also protects the vital supply roads between Razor Hill and the wider realm.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_837-3c756f8b1c351ee3e705/1-0000.mp3", duration = 71.6016327, start = 0},
-  },
-}
-P.transport["quest:8373"] = {
-  hash = "d34e27",
-  fullHash = "d34e27",
-  text = "The Power of Pine. During Hallow’s End, Sergeant Hartman asks you to clear Forsaken stink bombs from Southshore. A pine-scented cleaner helps keep the village clean. During Hallow’s End, the Forsaken foul Southshore with stink bombs. The bombs mar the celebration of liberation. Sergeant Hartman asks you to remove any that have landed in the village with a Stink Bomb Cleaner.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_8373-6b2377da1a6e57247689/1-0000.mp3", duration = 22.4130612, start = 0},
-  },
-}
 P.transport["quest:843"] = {
   hash = "165224",
   fullHash = "165224",
@@ -6591,14 +4047,6 @@ P.transport["quest:846"] = {
   text = "Revenge of Gann. In the southern Barrens, Gann Stonespire prepares to strike back at the Bael Modan dwarves. After Prospector Khazgorm's death, he sends Horde allies into the fortress to seize volatile munitions for his attack. Gann Stonespire knows Prospector Khazgorm's death has only slowed the Bael Modan dig site. The dwarves will return to work, and another foreman will soon direct the machines cutting through Gann's ancestral land. He will not watch the earth suffer more excavation. So Gann means to turn the invaders' demolitions gear against them and rupture their stronghold from within. Bael Modan's fortress guards an excavation base and a garrison of soldiers, riflemen, and officers who protect dwarven interests in the Barrens. Its defenders carry nitroglycerin, wood pulp, and sodium nitrate for industrial demolition. Gann sends Horde allies past the perimeter to take these volatile supplies. With enough in hand, he can assemble a powerful satchel charge.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_846-d2739ffc3bb179ea2575/1-0000.mp3", duration = 60.2906122, start = 0},
-  },
-}
-P.transport["quest:847"] = {
-  hash = "3487f8",
-  fullHash = "3487f8",
-  text = "Guile of the Raptor. Tor'gan's orb has filled Gor'mul with a raptor's essence. The power makes him wonder about shaman magic, and he will hear Tor'gan out for now. Power runs through Gor'mul, and he wonders if it is the shamans' power Tor'gan tried to show him. The thought interests him. So he asks you to tell Tor'gan he is convinced for now and will hear what Tor'gan has to say.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_847-1fa02662f4af230c6dc4/1-0000.mp3", duration = 21.9167347, start = 0},
   },
 }
 P.transport["quest:849"] = {
@@ -6625,36 +4073,12 @@ P.transport["quest:862"] = {
     {file = "Audio/Transport/full_quest_862-681d27fa04ea4e767fcf/1-0000.mp3", duration = 55.3273469, start = 0},
   },
 }
-P.transport["quest:86576"] = {
-  hash = "baa357",
-  fullHash = "baa357",
-  text = "Bloodfury Trinkets. Mor'rogal asks you to bring him sunstones from the Bloodfury harpies in the Charred Vale. He says they are bound to the lights of the skies. The Bloodfury harpies gather shiny things, among them golden-yellow sunstones. Mor'rogal is up on the hills above you and has mentioned using them. He asks you to bring him any Glittering Sunstones you find. Mor'rogal says sunstones reflect the sun's majesty. They can adorn shrines and homes with small motes of light. At night, the moon lends them its silver beauty. To him, they recall a bond with the lights of the skies.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_86576-b099326d3b11e35295e5/1-0000.mp3", duration = 35.9444898, start = 0},
-  },
-}
-P.transport["quest:86585"] = {
-  hash = "77e8f0",
-  fullHash = "77e8f0",
-  text = "Banner of the Fallen. In trogg territory, Mountaineer Ylva’s search for missing comrades ended beneath the trampled standard of Ironforge. Raising it again draws out the trogg that struck her down. Mountaineer Ylva’s trampled Ironforge standard marks where the Alliance scout met her end. She entered trogg territory to find comrades who had vanished on patrol, carrying the city’s banner as a sign of defiance. A powerful trogg struck with enough force to shatter her defenses. The standard was left in the dirt.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_86585-5c37b32a2e2774394e8a/1-0000.mp3", duration = 31.1379592, start = 0},
-  },
-}
 P.transport["quest:86614"] = {
   hash = "5ab21d",
   fullHash = "5ab21d",
   text = "Silver of the Waves. A lost silver hair clip waits among fishing debris, and its owner is caught up in daily chores. Its return brings relief and restores a keepsake thought lost to the water. Among discarded fishing debris, you find an ornate silver hair clip marked with the initials K.D. Rusted hooks and broken wire spools lie nearby. Moisture has tarnished the clip, but its fine work still shows beneath the corrosion. The clip belongs to a hardworking local, busy with daily chores. You return the keepsake, which its owner had thought lost to the water for good. A little polishing will restore its shine, and the grateful owner welcomes its return.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_86614-1fca0a99453f1d46ef3c/1-0000.mp3", duration = 41.2995918, start = 0},
-  },
-}
-P.transport["quest:86667"] = {
-  hash = "74b1c3",
-  fullHash = "74b1c3",
-  text = "Snowbound. In Loch Modan, Grenhild studies the local elementals while Norric Lochthane asks for snow from South Gate Pass. His request carries a deeper hope: the aging shaman longs to see his former student again. Grenhild is studying Loch Modan's local elementals when a minor elemental arrives with a message from Norric Lochthane, her former mentor. He urgently needs fresh, unmelted snow for his shamanic workings. Grenhild asks a traveler to fetch it so she can stay with her studies. The snow comes from South Gate Pass, where cold drafts preserve the drifts year-round, and must be sealed in a specially crafted ceramic jar to keep the valley heat at bay. Norric Lochthane lives in a quiet cottage on the Loch's northwest coast, away from the settlements. When the jar arrives, he is pleased to have the cold reagent for his mystical research. Yet he laments that Grenhild did not come herself. His request was for more than a magical ingredient: the aging shaman hoped to reconnect with his former student, now following her own path.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_86667-a2ccbf8658471fb55a58/1-0000.mp3", duration = 64.3918367, start = 0},
   },
 }
 P.transport["quest:86776"] = {
@@ -6673,30 +4097,6 @@ P.transport["quest:868"] = {
     {file = "Audio/Transport/full_quest_868-f9976ff541b2ec2aded3/1-0000.mp3", duration = 46.8897959, start = 0},
   },
 }
-P.transport["quest:8682"] = {
-  hash = "7c166d",
-  fullHash = "7c166d",
-  text = "Skyseer the Elder. During the Lunar Festival, Skyseer the Elder waits atop Freewind Post in Thousand Needles. Travelers come to honor the ancestors and receive his blessing. Wooden bluffs tower over Freewind Post. Elder Skyseer rests among them in a shaft of celestial light, near the bridges leading to the great mechanical lifts. Winds sweep across the mesas of Thousand Needles around his ghostly form. During the Lunar Festival, Elder Skyseer welcomes travelers who come to honor the past. He can guide them to his kin across Kalimdor, including Elder Morningdew and Elder Runetotem.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_8682-4792a99027cc45a581c3/1-0000.mp3", duration = 36.7804082, start = 0},
-  },
-}
-P.transport["quest:8724"] = {
-  hash = "b5c4be",
-  fullHash = "b5c4be",
-  text = "Morningdew the Elder. In Thousand Needles, pilgrims seek Morningdew the Elder beneath a beam of starlight during the Lunar Festival. She offers wisdom and directions to elders across Kalimdor. During the Lunar Festival, ancient ancestor spirits appear across Azeroth to bless travelers. In Thousand Needles, Morningdew the Elder stands beneath a shaft of lunar light, amid red stone and industrial noise. She urges mortal travelers to turn from earthly concerns and look to the stars. Morningdew points seekers toward the countless stars for answers to earthly mysteries. She also guides festival pilgrims to other honored spirits across the lands: Elder High Mountain, Elder Grimtotem, Elder Mistwalker, Elder Moonwarden, and Elder Windtotem.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_8724-a00193caa69c9b330909/1-0000.mp3", duration = 48.6922449, start = 0},
-  },
-}
-P.transport["quest:87288"] = {
-  hash = "d73afd",
-  fullHash = "d73afd",
-  text = "Soft Saber Pelts. Across Azeroth, Soft Saber Pelts come from cats that threaten travelers on the roads. Their thick coats make warm blankets and shawls. Saber cats prowl the roads used by couriers, merchants, and lone travelers across Azeroth. People may admire their grace, yet growing numbers near trade routes bring sudden attacks. Hunters keep those roads safe for everyone who depends on them. The hunt yields more than pelts. Frontier camps value saber cats’ dense coats for their warmth and strength. Skilled hands make the pelts into shawls and heavy blankets, giving shelter from harsh weather.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_87288-f152eee98ba4b318af1c/1-0000.mp3", duration = 37.5902041, start = 0},
-  },
-}
 P.transport["quest:873"] = {
   hash = "3a830f",
   fullHash = "3a830f",
@@ -6711,14 +4111,6 @@ P.transport["quest:874"] = {
   text = "Mahren Skyseer. At Camp Taurajo, proven hunters are sent east to Mahren Skyseer. Jorn Skyseer sends them to his sister to learn how to track along the Barrens shore. At Camp Taurajo, Jorn Skyseer tests hunters against the dangerous beasts of the southern Barrens. Once they prove themselves on the red plains, he sends them beyond dry earth and open savanna. A tracker must learn to follow prey through swamps, over sheer crags, and beside the crashing waves of the Great Sea. Mahren Skyseer keeps a camp far east along the coast. Jorn studies thunderhawks and plains stalkers, while his sister follows creatures that live in the salt spray. Reaching her means crossing dangerous ground. Kul Tiras marines and Theramore expedition forces hold fortified outposts and watchtowers across the coastal lowlands.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_874-05414ce35f89cd08ea49/1-0000.mp3", duration = 50.8081633, start = 0},
-  },
-}
-P.transport["quest:87491"] = {
-  hash = "28f0db",
-  fullHash = "28f0db",
-  text = "Spark of Freedom. The fire elemental has spent its strength in a blazing display. The Dark Irons held its attention, and the rest of the group is relieved it never turned on them. The fire elemental's display leaves the onlooker amazed, then relieved when the creature runs out of strength. The Dark Irons had drawn its attention. Had it turned on the rest of the group, they too could have been in danger.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_87491-5095a7afbcd143fabf6c/1-0000.mp3", duration = 22.7004082, start = 0},
   },
 }
 P.transport["quest:876"] = {
@@ -6775,14 +4167,6 @@ P.transport["quest:8852"] = {
   text = "Ten Signets for War Supplies. Warlord Gorchuk trades Horde Commendation Signets for war supplies in Orgrimmar. Champions exchange formal recognition for equipment to help keep soldiers supplied at the front. Warlord Gorchuk oversees the Horde's supplies in the Valley of Spirits. As the Horde gathers its legions, weapons, rations, and armor must reach the front. Champions who have proved their dedication can trade commendation signets for useful equipment from the army's reserves. Horde Commendation Signets prove a soldier's service and bring prestige with the leadership. Trading them for gear gives up that recognition for a better chance to survive the fighting. Gorchuk knows a satchel of supplies or a sturdy weapon can mean the difference between life and death when armies clash.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_8852-c7bdbeb1b54bd974aee2/1-0000.mp3", duration = 48.4832653, start = 0},
-  },
-}
-P.transport["quest:88756"] = {
-  hash = "44d80b",
-  fullHash = "44d80b",
-  text = "Bring Back a Bang. A construction site has lost blasting powder to Dark Iron dwarves camped east on Direforge Hill. Their marked barrels could bring danger to the surrounding lands. Dark Iron dwarves camp east on Direforge Hill. They raided a nearby construction site and carried its vital blasting powder back to their tents. Blasting powder in malicious Dark Iron hands threatens the surrounding lands. The stolen barrels bear red markings that set them apart from common supplies. Recover them before the dwarves put the powder to destructive use.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_88756-ad122d0e9b2f2da3ae40/1-0000.mp3", duration = 33.7240816, start = 0},
   },
 }
 P.transport["quest:889"] = {
@@ -6865,52 +4249,12 @@ P.transport["quest:91"] = {
     {file = "Audio/Transport/full_quest_91-a0340c6e070b096732b1/1-0000.mp3", duration = 56.555102, start = 0},
   },
 }
-P.transport["quest:91282"] = {
-  hash = "b64b3f",
-  fullHash = "b64b3f",
-  text = "A Second Home. Newly risen Forsaken are being invited to join an order in Tirisfal Glades. They are directed to Bandarion Keep, a monastery on the bluffs northwest of the Solliden Farmstead near the Whispering Woods. The order offers community, shared faith, and mutual support as they make a place in their new unlife. Newly risen Forsaken in Tirisfal Glades are urged to find fellowship among their peers. Together, they can face unlife through mutual faith and community, and discover their full potential. Travelers are directed to Bandarion Keep, a monastery on the bluffs northwest of the Solliden Farmstead. Beside the Whispering Woods, it offers the new order a refuge to study, practice, and establish roots in Tirisfal.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91282-ef18286dea009d8cde65/1-0000.mp3", duration = 43.6767347, start = 0},
-  },
-}
-P.transport["quest:91285"] = {
-  hash = "77b1ed",
-  fullHash = "77b1ed",
-  text = "Murlocs at the Gates. Breton Samuels asks you to drive back murlocs troubling the keep. Their attacks make rebuilding harder. Murlocs still trouble the keep after you and the others drove them from their spawning grounds. Their attacks are growing harder to manage, so Breton Samuels asks you to drive back some of them. They lurk in the bluffs along the eastern road and in camps around the lake to the west. Breton Samuels expects the attacks to continue. He hopes pushing back the Vile Fin attackers and seers will slow them down. The keep is already hard to rebuild while murlocs strike at its people.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91285-47748b06ca40d9acc654/1-0000.mp3", duration = 35.7093878, start = 0},
-  },
-}
-P.transport["quest:91294"] = {
-  hash = "0b4e28",
-  fullHash = "0b4e28",
-  text = "Touring the Grounds. Breton asks you to walk Bandarion Keep after the murloc attacks come under control. Meeting Danitha Morr is your first step toward settling among the residents. Breton asks you to meet Bandarion Keep’s residents and look around the stronghold. Once you have finished, Danitha Morr can help you settle in. The keep is still small, but its people call it home. Danitha Morr introduces herself as the closest thing Bandarion Keep has to a commander. She welcomes those seeking fellowship with people still loyal to the Light. The keep needs help before it can be fully established.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91294-90e41c7c2c01353743a8/1-0000.mp3", duration = 36.4146939, start = 0},
-  },
-}
 P.transport["quest:913"] = {
   hash = "acf822",
   fullHash = "acf822",
   text = "Cry of the Thunderhawk. In the southern Barrens, Cry of the Thunderhawk brings a hunter to the final trial. Entrusted by Camp Taurajo's elders, you seek a winged serpent in the scrublands and return with its wings to prove mastery of the savanna's fiercest beasts. After hunters prove themselves against prowling plainstriders, prowlers, and agitated thunder lizards, Jorn Skyseer directs them toward their final challenge. The thunderhawk is one of the fiercest aerial predators around Camp Taurajo. Slaying one takes patience, sharp aim, and an awareness of the sky that few landbound predators possess. Bringing back the thunderhawk's wings ends a novice's tutelage under Camp Taurajo's watch. To the tauren, hunting is no mere slaughter. It is a spiritual walk in harmony with the Earthmother and the wild's natural order. Besting this proud creature shows strength, courage, and honor, virtues needed before entering the harsher wilderness beyond the central plains.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_913-3ca809a54a95fd17f61b/1-0000.mp3", duration = 57.7828571, start = 0},
-  },
-}
-P.transport["quest:91316"] = {
-  hash = "0123ec",
-  fullHash = "0123ec",
-  text = "Making Repairs. At the fortress, a shortage of building materials has made restoration difficult. You are sent to Shadowvale to search for lumber. Shadowvale is a ruined village in the Whispering Forest, southwest of the fortress. Search an old root cellar in one of its buildings for usable materials. The fortress lies far from settled lands, so bringing in supplies is difficult. Its repairs depend on what can be found there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91316-beff35cb566bfaca6078/1-0000.mp3", duration = 25.2342857, start = 0},
-  },
-}
-P.transport["quest:91317"] = {
-  hash = "542b02",
-  fullHash = "542b02",
-  text = "The Tarnished. At Shadowvale in Tirisfal Glades, the Tarnished threaten a fledgling order's place among the Forsaken. Their attacks deepen mistrust and put the order's future at risk. Some risen still bear prejudices from their former lives, and now attack their fellow Forsaken. The Tarnished have gathered at Shadowvale, southwest of here. Their violence must end, and Commander Rudolph Gelhardt’s head must be brought back. The Tarnished’s attacks give those who distrust the order more reason to turn against it. Stopping them may help the order earn a place among the Forsaken. Acceptance could still take years or decades.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91317-b93df11a26b1272a1048/1-0000.mp3", duration = 40.6465306, start = 0},
   },
 }
 P.transport["quest:914"] = {
@@ -6921,212 +4265,12 @@ P.transport["quest:914"] = {
     {file = "Audio/Transport/full_quest_914-b7ab8b74eb7a27de8137/1-0000.mp3", duration = 59.4546939, start = 0},
   },
 }
-P.transport["quest:91723"] = {
-  hash = "bd8736",
-  fullHash = "bd8736",
-  text = "Delicate Instruments. Hamish Bergwort's instruments at the Tower of Azora falter as surges of magic rise from the north. Their source is Jasperlode Mine, where kobold geomancers stir the earth. At the Tower of Azora, Hamish Bergwort's arcane apparatus needs careful calibration. Uncontrolled surges keep unsettling his measurements. He cannot make precise adjustments while the interference continues. The magical pulses lead north to Jasperlode Mine. Kobolds have taken its tunnels, where their geomancers work crude earth magic. Their frequent rituals send ripples through the stone. Those tremors unsettle the Tower of Azora's sensitive instruments.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91723-598b4e2c70e53fc71fd2/1-0000.mp3", duration = 41.4563265, start = 0},
-  },
-}
-P.transport["quest:91724"] = {
-  hash = "131ed8",
-  fullHash = "131ed8",
-  text = "Delicate Instruments. At the Tower of Azora, Defias magic troubles Delicate Instruments. Hamish Bergwort's equipment suffers from erratic spellcasting near Stone Cairn Lake. The disturbance must end before his instruments can work properly. Hamish Bergwort studies arcane questions in the Tower of Azora. His work depends on precise readings, and even a slight change in local magic can ruin hours of careful study. He suspects crude spells nearby are causing the interruptions. Defias rogue wizards practice magic near Stone Cairn Lake, and their casting causes the interference. Their unchecked spellcraft brings unstable magic into Elwynn. End their casting, and the disturbance will cease, allowing Bergwort's instruments to give clean readings.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91724-ce3965976881acaf68e7/1-0000.mp3", duration = 47.0204082, start = 0},
-  },
-}
-P.transport["quest:91725"] = {
-  hash = "2ce533",
-  fullHash = "2ce533",
-  text = "Stolen Enchanting Supplies. Near the Tower of Azora, Blixie Fitzwink has lost the supplies she was carrying after a gnoll ambush. The enchanting reagents are scattered among camps around Stone Cairn Lake. Their return could spare her weeks of chore duty and keep Master Theocritus's arcane studies supplied. Blixie Fitzwink was carrying supplies from a trading post to the Tower of Azora when gnolls ambushed her on the road. She fled, leaving the cargo scattered among their camps along Stone Cairn Lake. The valuable reagents were meant for Master Theocritus, whom Blixie assists. Now she asks travelers to recover them, fearing weeks of cleanup duty after her arcane polymorph experiments. Master Theocritus conducts sensitive magical research at the Tower of Azora in eastern Elwynn Forest. His work depends on delicate reagents brought from local trading posts. Gnoll packs around Stone Cairn Lake have grown bolder, making the route dangerous. The lost supplies could interrupt his studies, while their return may spare his beleaguered assistant further trouble.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91725-c84575950cebe06dce9c/1-0000.mp3", duration = 63.1640816, start = 0},
-  },
-}
-P.transport["quest:91732"] = {
-  hash = "1d31a6",
-  fullHash = "1d31a6",
-  text = "Good Steel. At Eastvale Logging Camp, Hagar Lowe seeks good steel for the tools worn by its woodcutters. With fine metal scarce after the wars, he sends adventurers to Jasperlode Mine for picks whose steel can be reused. After the wars that battered the human kingdoms, good steel grows scarce in Elwynn Forest. At Eastvale Logging Camp, woodcutters rely on sturdy axes, saws, and other tools. Constant use and poor metal have worn them down. Without steady shipments from Stormwind's foundries, craftsman Hagar Lowe must keep the camp working with what he can find. North of Eastvale Logging Camp, Jasperlode Mine lies abandoned after its fall. Miners once worked its rich veins with finely made picks, forged when steel was plentiful and expertly tempered. Hagar sends adventurers into the infested tunnels to bring those picks back to Eastvale. Their sound metal can be melted down and made into tools for the camp's lumberjacks.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91732-966f0c3334574953f719/1-0000.mp3", duration = 58.3836735, start = 0},
-  },
-}
-P.transport["quest:91733"] = {
-  hash = "9746f1",
-  fullHash = "9746f1",
-  text = "Downstream. Near Eastvale Logging Camp, Ormin Pelford's wagon has overturned, and the river has carried his woodworking tools downstream. Murlocs and wolves guard the banks where they lie. Laborer Ormin Pelford was bringing a shipment back from a local trading post when his wagon tipped near Eastvale Logging Camp. Its gear spilled into the river, and the current swept it downstream before he could secure it. Without the woodworking tools, the loggers face delays in their timber work. Ormin Pelford's lost cargo lies along banks where murlocs and wolves roam. Aggressive murlocs claim the muddy shoals downstream, while predatory wolves prowl the surrounding woods. Ormin cannot face those dangers alone. He needs hardy travelers to search the riverbanks, recover the submerged saw, axe, and toolbox, and bring them back safely.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91733-281f8d45c77aa487b17d/1-0000.mp3", duration = 51.0171429, start = 0},
-  },
-}
-P.transport["quest:91736"] = {
-  hash = "7028cb",
-  fullHash = "7028cb",
-  text = "Applejack Still. At the Applejack Still, cider becomes a clear, potent spirit. Apple vapor rises as the coils turn it into liquor. Fermented cider passes through the still and emerges as strong spirit. Near the apparatus, apple vapor stings the nostrils. Pipes and coils draw the fruit's essence and condense it into liquor. Alcohol vapor condenses inside the still and becomes a clear spirit. Applejack flows from the outlet into a waiting bottle, ready to drink or store. Even in rough field conditions, the apparatus produces a clear, potent brew.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91736-61f2e4e4e43bf3dd4e28/1-0000.mp3", duration = 37.1983673, start = 0},
-  },
-}
-P.transport["quest:91740"] = {
-  hash = "9c73aa",
-  fullHash = "9c73aa",
-  text = "Croaky's Head. At Ridgepoint Tower, Croaky's death brings grim relief to a grieving Stormwind garrison. The murloc leader terrorized eastern Elwynn's roads. Proof of his death gives the guards hope as they struggle to secure the waterways. Murlocs along Elwynn Forest's rivers and streams have grown bolder. They ambush travelers and threaten trade routes. Croaky was a particularly aggressive chieftain who rallied other murlocs to attack near local roads. Merchants, farmers, and travelers between Elwynn and Redridge now face deadly roads. Croaky's death ends his ambushes and removes a threat to Stormwind's hold on the eastern woodland outskirts. Ridgepoint Tower guards Elwynn Forest's eastern edge and the strategic crossing into the Redridge Mountains. Officer Merell Ross leads the guards, though dangers around the outpost have stretched them thin. Murloc attacks recently killed two watchmen on patrol.\n\nThe deaths shook the garrison and exposed the vulnerable border. Bringing Croaky's severed head to Ross proves the chieftain is dead. Now the guards have reason to hope they can drive the raiders back from Elwynn's borders.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91740-5f2bbaab75a4af91db79/1-0000.mp3", duration = 72.8032653, start = 0},
-  },
-}
-P.transport["quest:91741"] = {
-  hash = "aee6fb",
-  fullHash = "aee6fb",
-  text = "Nibbled-On Book. In Northshire Valley, Nibbled-On Book has been chewed by kobolds. Brother Paxton hopes to see it returned to Northshire Abbey's modest collection. Kobolds in Northshire Valley scavenge what they find left unguarded. You recover a chewed tome from a slain kobold, its cover torn and its parchment marked by teeth. The book came from the library shelves of nearby Northshire Abbey. Valley kobolds have been taking volumes from there. Brother Paxton tends the small library inside Northshire Abbey, where the Brotherhood of Northshire reads and studies. Kobolds from the valley slip inside and snatch books from the shelves. Paxton is grateful to have this nibbled volume back. Yet he worries about the rest of his collection still missing in kobold hands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91741-a53578d90fe373841bf3/1-0000.mp3", duration = 46.9942857, start = 0},
-  },
-}
-P.transport["quest:91743"] = {
-  hash = "45a0db",
-  fullHash = "45a0db",
-  text = "Rascally Rodents. Kobolds are carrying books away from Brother Paxton’s library in Northshire Valley. He fears they are devouring the abbey’s collection. Brother Paxton fears the kobolds that have spread from the hills and mines into Northshire Valley’s sacred grounds. He believes they are devouring books from his collection. With the library at risk, he asks young adventurers to hunt the kobolds and recover whatever volumes they can.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91743-737f43b038d355a2e72b/1-0000.mp3", duration = 25.077551, start = 0},
-  },
-}
-P.transport["quest:91745"] = {
-  hash = "fe8eb5",
-  fullHash = "fe8eb5",
-  text = "Mining Consultant. At Echo Ridge Mine, Kelsey Fargo watches the kobolds from her post outside the entrance. Their strange movements have drawn local attention. Kobold trouble at Echo Ridge Mine has taken an odd turn. The creatures defend their underground claims and gather candles, but now their coordinated disturbances have caught the authorities’ attention. You are sent to Kelsey Fargo, a mining apprentice stationed near the entrance. From her post outside the tunnels, she has watched the kobolds closely.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91745-1e7ef5987ffa0232cec0/1-0000.mp3", duration = 30.0146939, start = 0},
-  },
-}
-P.transport["quest:91746"] = {
-  hash = "2776b6",
-  fullHash = "2776b6",
-  text = "Elmpaw's Head. At Elmpaw's Head, the hunt is over, and a wealthy collector awaits its prize. The beast’s head goes to a handler who prepares and mounts trophies for affluent patrons. Elmpaw has fallen, and hunters prize the beast’s head as proof of victory. Trackers regard the hunt as an impressive feat, a hard-won end to the chase. A handler rewards you for Elmpaw’s severed head. Then the handler prepares and mounts it for wealthy patrons who want fierce wild trophies on their mantles.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91746-5f6c95389d9e68c197d0/1-0000.mp3", duration = 31.3991837, start = 0},
-  },
-}
-P.transport["quest:91751"] = {
-  hash = "d3cba3",
-  fullHash = "d3cba3",
-  text = "Rough Wolf Pelts. Near Goldshire, Rough Wolf Pelts are needed for Helene Peltskinner's leather orders. Her husband is occupied near Northshire Abbey, so she asks for help skinning local wolves. Just outside Goldshire, Helene Peltskinner supplies travelers and residents with cured leather and furs. Her husband usually hunts Elwynn Forest's timber wolves for her. Now his duties near Northshire Abbey keep him away, while customer orders wait. So Helene asks passing apprentices to skin the local wolves. Timber wolves prowl Elwynn Forest's woodlands, farmlands, and roads. Skinning them gives novice skinners practice harvesting hides. Their pelts help Helene continue her leatherwork and keep trade moving through Goldshire. Hunters, too, sharpen their woodcraft.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91751-4398f32ea01c0deced4b/1-0000.mp3", duration = 49.0318367, start = 0},
-  },
-}
-P.transport["quest:91752"] = {
-  hash = "d0986b",
-  fullHash = "d0986b",
-  text = "The Big Picture. In Northshire Valley, kobolds carry stolen illustrated books into the mine for Shinyfinder Narf. The volumes are to be returned to Marshal McBride at Northshire Abbey. Kobolds in Northshire Valley have been seen fleeing with books and crying, “Picture for Narf!” Most gather candles and shiny trinkets, but Shinyfinder Narf seeks illustrated tomes. He has collected a sack of them in his hideout beneath the mine.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91752-60af47cef1f44064da8a/1-0000.mp3", duration = 27.3240816, start = 0},
-  },
-}
-P.transport["quest:91753"] = {
-  hash = "1bc84b",
-  fullHash = "1bc84b",
-  text = "An Enchanting Lesson. At the Tower of Azora in Elwynn Forest, Kitta Firewind gives An Enchanting Lesson to apprentice enchanters. Kobold geomancers bind simple magic into crude wax effigies, showing why practice matters alongside arcane theory. Kitta Firewind, an enchanter at the Tower of Azora, challenges apprentice enchanters to look beyond polished libraries. She asks them to examine magic where it appears naturally. Even the uneducated kobolds beneath Elwynn Forest channel cantrips into everyday talismans, proof that magical instinct can thrive without formal schooling. Kobold geomancers shape Crude Wax Effigies with simple folk enchantments. Students obtain the effigies and carefully unravel their bound magic through disenchantment, extracting Luminous Residue. By taking these primitive charms apart, they learn how raw magic behaves in the field. Enchantment's fundamental threads are found through observation as well as in grimoires.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91753-08792c7370ff42b42a70/1-0000.mp3", duration = 59.924898, start = 0},
-  },
-}
-P.transport["quest:91758"] = {
-  hash = "314479",
-  fullHash = "314479",
-  text = "Follow That Kobold!. A kobold has fled Northshire's mines with Brother Paxton's books, and the abbey calls on Tordrin Sternblade to track it. Follow That Kobold! begins with a theft from the local mines. Kelsey saw a kobold flee the Northshire Abbey mine tunnels with a heavy sack of books. The workers and clerics thought the vermin in the mines were under control. The books belong to Brother Paxton, who needs them back in the abbey's collection. The kobold is a nimble scavenger from below ground. Tracking it through Northshire Abbey's wooded grounds calls for special skill. You are sent behind the abbey to the stables, where Tordrin Sternblade can be found. The dwarven Hunter trainer has newly arrived from Ironforge, and his wilderness knowledge can help pick up the kobold's scent.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91758-91fb4a170e459417e751/1-0000.mp3", duration = 46.6285714, start = 0},
-  },
-}
-P.transport["quest:91772"] = {
-  hash = "f0be77",
-  fullHash = "f0be77",
-  text = "Shhh! We're Hunting Kobolds. Kobolds are moving from Northshire Valley toward Elwynn Forest. You follow their trail with a tracking kit and report what you find to Marshal Dughan in Goldshire. Kobolds have spread beyond Northshire Valley and the abbey grounds. With a tracking kit, you follow their trail to learn where they gather. Your report will help Goldshire prepare for threats across Elwynn Forest.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91772-06ccac54353ace893138/1-0000.mp3", duration = 23.9804082, start = 0},
-  },
-}
-P.transport["quest:91775"] = {
-  hash = "32fcae",
-  fullHash = "32fcae",
-  text = "Book Return. In Elwynn, Marshal Dughan sends you to Fargodeep Mine for Brother Paxton’s lost books. One volume, “Fun with Elementals,” could place dangerous instructions in kobold hands. Marshal Dughan sends you into Fargodeep Mine for books belonging to Brother Paxton of Northshire Abbey. Kobolds have overrun the mine, and Paxton fears they might read “Fun with Elementals.” Its simple instructions could teach them to summon an elemental in the tunnels. Fargodeep Mine once brought gold to the kingdom of Stormwind. Now kobolds overrun its lower levels, while Elwynn’s defenders are stretched thin. The damp, dangerous caverns threaten the books. You carry the recovered volumes in a protective book bag, keeping Paxton’s records safe and arcane lessons beyond the kobolds’ reach.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91775-84bd5d117ebaacfb75c9/1-0000.mp3", duration = 49.9722449, start = 0},
-  },
-}
-P.transport["quest:91777"] = {
-  hash = "5da919",
-  fullHash = "5da919",
-  text = "Rare Books. In Northshire Valley, Rare Books sends you after two primers taken by kobolds. Brother Paxton needs them back at Northshire Abbey. Brother Paxton has lost two books from the library at Northshire Abbey. Kobolds carrying books and other things have taken them into Jasperlode Mine. The missing volumes are Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words. Both are primers on magic.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91777-b4f08b1c45f5eb4012d8/1-0000.mp3", duration = 26.7755102, start = 0},
-  },
-}
 P.transport["quest:91859"] = {
   hash = "7595ff",
   fullHash = "7595ff",
   text = "A Curious Pair. In the Sepulcher, Trevan Rol watches a rare pair travel through Silverpine Forest. The tauren and high elf carry the Earthen Ring's banner, and their presence draws the Forsaken's suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring on the road by the Sepulcher. The outpost is a grim waystation where strangers receive close scrutiny, especially when they come on diplomatic business. A tauren beneath the shamanic order's banner draws little surprise. His cloaked companion is another matter. The scout recognizes an unmistakable high elf, a sight the Forsaken find exceedingly strange. A high elf openly traveling beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring attends to the balance of the elements, and high elves are rarely seen in Lordaeron, much less beside tauren envoys. To learn where the pair went and what brought them to the forest, you are directed to Deathguard Baldren at the edge of town.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_91859-ad61177a3fe8ada46605/1-0000.mp3", duration = 62.6155102, start = 0},
-  },
-}
-P.transport["quest:91899"] = {
-  hash = "5820fb",
-  fullHash = "5820fb",
-  text = "A Sealed Crate. Trade handlers seek lost cargo as bandits disrupt the roads. You can recover sealed crates from the wilderness and outlaw camps to help keep supplies moving. Highway crime has risen of late. Organized bandits and rogue thieves prey on trade routes, ambushing wagons, pack trains, and lone couriers. Their cargo is scattered across wilderness roads or carried off to outlaw camps. These raids threaten the supply lines between settlements. Traders and cargo handlers rely on independent adventurers to recover lost freight and keep supplies moving. Sealed crates rescued from bandits or found abandoned in the brush can be brought to trade handlers. There, the goods help secure supplies, curb illicit trade, and restore safety to regional commerce.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91899-28c52abc3db93584f18c/1-0000.mp3", duration = 47.5428571, start = 0},
-  },
-}
-P.transport["quest:91900"] = {
-  hash = "b1784a",
-  fullHash = "b1784a",
-  text = "A Sealed Crate. Bandits and thieves are raiding the roads, and lost shipments lie scattered across the wilds. Local merchants will pay you to bring a sealed crate back. Caravans and couriers now face ambushes along the old trade highways. Many leave wagons and crates behind when they flee, and the goods sit in the brush until someone finds them. Merchants and depot keepers depend on travelers to bring that cargo home. Carry a sealed crate to a receiving depot and you earn a bounty on the spot. Handlers sort the freight and send it on its way, so commerce keeps moving despite the brigands. While the roads stay contested, lost cargo remains steady work for any traveler passing through.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91900-2b96a0e07963a98b925f/1-0000.mp3", duration = 40.1763265, start = 0},
-  },
-}
-P.transport["quest:91904"] = {
-  hash = "1e8252",
-  fullHash = "1e8252",
-  text = "A Sealed Crate. Trade caravans lose sealed crates to thieves along the roads. Merchants seek the missing goods and pay to have them returned, restoring regional supplies. Bandits and thieves strike trade caravans on roads and shipping lanes. Haulers and couriers can lose their shipments in an ambush, leaving sealed crates beside wild roads and paths until someone finds them. Merchants and supply coordinators pay for merchandise returned safely. Bring recovered crates to regional collection points, and the goods can flow through disrupted supply lines again. You are paid for protecting trade.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91904-f7cc7d2292977361f23a/1-0000.mp3", duration = 35.6832653, start = 0},
-  },
-}
-P.transport["quest:91905"] = {
-  hash = "57f500",
-  fullHash = "57f500",
-  text = "A Sealed Crate. Trade recipients seek A Sealed Crate after bandits disrupt the roads. Recovered cargo helps keep local stores supplied and out of outlaw hands. Bandits and thieves have struck established trade routes, leaving merchant cargo scattered. Their ambushes put caravans and supply lines at risk. Across contested lands, lost shipments are a common sight. Recovering the crates helps local trade endure the lawlessness. Merchants and handlers rely on couriers to bring lost goods back to storage depots. Each returned crate adds to local stores and denies outlaws the gains of highway robbery. In return, salvage workers receive fair pay for facing dangerous roads.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91905-0ec1f9af4ceecdbda4e4/1-0000.mp3", duration = 42.0571429, start = 0},
-  },
-}
-P.transport["quest:91920"] = {
-  hash = "bf177f",
-  fullHash = "bf177f",
-  text = "Wild Eyes. In Silverpine Forest, Wild Eyes brings an ailing Forsaken scout to a desperate choice. Apothecary Renferrel's heart-based draughts have failed, and the scout seeks another way to stave off a second death. In Silverpine Forest, a Forsaken Deathstalker feels their body failing and faces a second death. Apothecary Renferrel's draughts have brought no relief. So the scout risks Renferrel's wrath and seeks another cure along the creature-ridden shores of Lake Lordamere.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91920-093466d6300d2873cb9a/1-0000.mp3", duration = 32.0261224, start = 0},
-  },
-}
-P.transport["quest:91921"] = {
-  hash = "65e115",
-  fullHash = "65e115",
-  text = "Return to Quinn (Again). At the Ivar Patch, Quinn Yorick needs a remedy before his affliction claims his mind and body. A courier brings him a mixture brewed from six hearts, restoring his strength for the travels ahead. North of the Sepulcher, Quinn Yorick rests at the Ivar Patch in Silverpine Forest. His affliction threatens both mind and body, so a special alchemical mixture brewed from six hearts is sent to his camp. For the Forsaken and their allies, bringing remedies to wandering kin can hold back rot and madness.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_91921-273b06b4d4e8ef71425e/1-0000.mp3", duration = 32.8359184, start = 0},
-  },
-}
-P.transport["quest:92110"] = {
-  hash = "36ee96",
-  fullHash = "36ee96",
-  text = "My First Real Potion. A child asks you to bring murloc eyes for My First Real Potion. She is eager to mix it herself. The child is glad to see the murloc eyes. While you were away, she gathered more herbs and found empty vials downstairs. Now she asks you to mix the ingredients as she watches. The potion turns sickly orange when the eyes go in.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92110-e021e58d5e91f71f9083/1-0000.mp3", duration = 21.8906122, start = 0},
   },
 }
 P.transport["quest:92401"] = {
@@ -7161,452 +4305,12 @@ P.transport["quest:92422"] = {
     {file = "Audio/Transport/full_quest_92422-e98e19eff7f349e22b11/1-0000.mp3", duration = 52.8979592, start = 0},
   },
 }
-P.transport["quest:92432"] = {
-  hash = "b51abc",
-  fullHash = "b51abc",
-  text = "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Jacques was sent by Archmage Modera to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92432-edff8383baff3e2581d3/1-0000.mp3", duration = 60.682449, start = 0},
-  },
-}
-P.transport["quest:92434"] = {
-  hash = "569c34",
-  fullHash = "569c34",
-  text = "Blood in the Streets. Turmoil grips Dalaran after its barrier comes down. Once the patrols are dealt with, Magus Wordeen Voidglare sees a chance for the Horde to enter and learn the mages' secrets. You carry a key from the internment camp to the sewers on the city's northern edge. With the patrols dealt with, Magus Wordeen Voidglare says turmoil grips Dalaran since its barrier came down. He urges the Horde to enter and learn the mages' secrets while they can. You carry the key from the internment camp to the sewers on Dalaran's northern edge, by Lordamere Lake. Perhaps the mages left that disagreeable entrance unwarded.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92434-3e58a6ef95634e8ac0e5/1-0000.mp3", duration = 51.9314286, start = 0},
-  },
-}
-P.transport["quest:92456"] = {
-  hash = "d7c6e2",
-  fullHash = "d7c6e2",
-  text = "A Green Sample. In Stormwind City, Shylamiir seeks a living plant from Dalaran’s guarded garden. The cutting is wanted for study of mana-fed growth, but it brings back a darker surprise. Shylamiir in Stormwind City seeks a traveler willing to enter restricted lands. The Kirin Tor’s interest in botany has caught Shylamiir’s attention, and a living plant from Dalaran’s central garden is wanted for study. The secluded sorcerers keep their borders closed to outsiders. Reaching the garden calls for someone able to slip past their defenses.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92456-43b386713a06f0244ea2/1-0000.mp3", duration = 45.6097959, start = 0},
-  },
-}
-P.transport["quest:92457"] = {
-  hash = "a3e44c",
-  fullHash = "a3e44c",
-  text = "Starving Arcane. Archmage Modera asks you to clear rogue elementals from the City of Dalaran. A breach has unsettled the city's enchantments and defenses, and the Kirin Tor needs room to tend its wards. Walk Dalaran's streets and the damage shows. The breach has disturbed factotums and enchantments across the city, some of them part of its defenses, and the arcane energy they shed now drifts free. It has drawn Seeking Remnants, Saturated Remnants and Mana Echoes, which gather to fill themselves on the loose magic. Each one you put down leaves less of that magic for the next to feed on.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92457-7a6427c3871bf7cefb2b/1-0000.mp3", duration = 41.5085714, start = 0},
-  },
-}
-P.transport["quest:92458"] = {
-  hash = "419efe",
-  fullHash = "419efe",
-  text = "Heart of Disruption. The Image of Archmage Modera needs help containing an arcane disruption in Dalaran. The Violet Citadel’s wards are under strain, and the Kirin Tor need time to bring the crisis under control. At the top of the Violet Citadel, a thunderous crash sounded from the parlors. The disturbance began there, and rampant arcane power now threatens the wards. The Kirin Tor are occupied inside, so you receive a key and are asked to find a less public way into the city before the disruption worsens. Modera asks you to collect an Arcane Mote. She does not ask what you saw in the citadel. Her concern is containing the mote and ending the disruption. The Kirin Tor must now take up that work while the wards hold.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92458-bc2bad44f51d25e22a8b/1-0000.mp3", duration = 60.7346939, start = 0},
-  },
-}
-P.transport["quest:92459"] = {
-  hash = "000e73",
-  fullHash = "000e73",
-  text = "Friend of the Kirin Tor. In Dalaran, Modera sends you to carry word that the city is calming and its wards may come down. The Image of Archmage Modera says the council may dislike the subterfuge, but the results are plain. Dalaran is calming, and its wards may now be lowered. She sends you with this good word to Archmage Celindra in the Violet Citadel. For the journey, she gives you an arcane mote.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92459-3032573e310d024b9ad9/1-0000.mp3", duration = 35.317551, start = 0},
-  },
-}
-P.transport["quest:92466"] = {
-  hash = "4866e7",
-  fullHash = "4866e7",
-  text = "Call of Earth. Initiates gather what their instructor asks of them in Call of Earth. Their effort shows whether they are ready to continue their training. An initiate faces a test of resolve when the instructor asks for particular materials. The gathering tests patience and endurance. By meeting the earth’s demands, the student shows the strength needed to commune with its enduring power. When the initiate returns with the requested offerings, the instructor sees their grit. The student has held firm through the trial and is ready for the next step in spiritual training.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92466-738da6944e1d748b4495/1-0000.mp3", duration = 32.5485714, start = 0},
-  },
-}
-P.transport["quest:92467"] = {
-  hash = "3c3e3e",
-  fullHash = "3c3e3e",
-  text = "Call of Earth. At the Rise of Spirits, you drink an Earth Sapta and meet an elemental guide. The earth's strength may help you seek the winds again. Shamans drink saptas to open their sight to the elemental world. Each brew attunes a mortal spirit to one realm and reveals spirits usually hidden from view. Only those with enough resolve can bear their power. Select practitioners guard the knowledge of these brews. You travel northeast through a pass to the Rise of Spirits, where initiates commune with the earth. Saptas are drunk only at sacred sites. On consecrated ground, the draught lets you pierce the veil and see what the spirits choose to reveal.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92467-aabc10cf20ec60f2dbd7/1-0000.mp3", duration = 39.3665306, start = 0},
-  },
-}
-P.transport["quest:92468"] = {
-  hash = "5a7f55",
-  fullHash = "5a7f55",
-  text = "Call of Earth. An earth spirit sends you to Windshaper Boros in Thendal Grove with a shard of Rough Quartz. There, the shard becomes the heart of your first Earth Totem and begins your study of the elemental forces. An earth spirit gives you a shard of Rough Quartz as proof of your communion. It sends you to Windshaper Boros in Thendal Grove with the shard. Even the smallest fragment can endure. The spirits grant favor and respect to those who show patience, resilience, and wisdom. Windshaper Boros sets the Rough Quartz at the heart of your Earth Totem. He reminds you that the elemental path has four parts. You may long to hear and sing the songs of the wind. Yet mastery begins with understanding all four forces, starting with the unyielding ground beneath your feet.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92468-7d1c00a154dbb0ce33b3/1-0000.mp3", duration = 46.5763265, start = 0},
-  },
-}
-P.transport["quest:92479"] = {
-  hash = "f65a6b",
-  fullHash = "f65a6b",
-  text = "A Scribbled Letter. At Northshire Abbey, adventurers receive a summons from Tordrin Stemblade after clashes with nearby kobolds. It calls promising recruits to seek his training as Stormwind faces growing dangers. After clashes with kobold camps in the valley, adventurers at Northshire Abbey receive a hasty letter sealed by Tordrin Stemblade. It asks them to give it prompt attention before taking up other business. The summons brings budding champions to formal mentorship within the abbey’s protective grounds. Tordrin Stemblade says times have changed. Unfamiliar folk now take up weapons to defend the realm. As the wilderness around Northshire grows more dangerous by the day, he offers travelers counsel day or night. He guides them as they master their skills and help Stormwind’s beleaguered people.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92479-409bf4dc9dda6f6e8579/1-0000.mp3", duration = 47.6995918, start = 0},
-  },
-}
-P.transport["quest:92489"] = {
-  hash = "26c1b8",
-  fullHash = "26c1b8",
-  text = "Power Overwhelming. High Sorcerer Andromath sends aid from Stormwind to Dalaran, where arcane power has turned dangerous. The Kirin Tor rebuild behind closed borders, and a Mana Elemental threatens their work. After Archimonde destroyed Dalaran in the Third War, the Kirin Tor drew inward. Scholars and sorcerers once came from across the world to its doors. Now the surviving magi keep outsiders away as they rebuild their ruined city behind closed borders. As the Kirin Tor restore Dalaran, arcane energy has grown dangerous. Volatile leaks surge out of control and take shape as beings of pure mana. High Sorcerer Andromath fears internal turmoil could undo the city’s recovery, or that Dalaran could abandon its old ties to the Alliance. So he sends champions from Stormwind to quell the Mana Elemental and remind the Kirin Tor that their allies still stand with them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92489-ebb28b59e933ee9b0b22/1-0000.mp3", duration = 75.6244898, start = 0},
-  },
-}
-P.transport["quest:92514"] = {
-  hash = "a0430b",
-  fullHash = "a0430b",
-  text = "Welcome to Shen'dar Village. At Shen'dar Village, newcomers are sent to meet its elder and innkeeper. Local tensions share the frontier with a growing bandit threat. Newcomers in Shen'dar Village first meet the people who guide daily life there. Those touched by the spirits are directed to Elder Illaya Amberwind near the village square. Coriella Calmbreeze welcomes visitors at the village inn, where lodging and supplies are available. These introductions help travelers learn the village's customs before they take up arms. Disputes in Shen'dar Village stay civil, though the Windshapers and the High Order disagree. Their ideological friction runs through the region, but both groups know survival comes first. Bandits are pressing into the area. That danger gives the village reason to set smaller quarrels aside.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92514-01fb6490ea9afb710c53/1-0000.mp3", duration = 49.2146939, start = 0},
-  },
-}
-P.transport["quest:92515"] = {
-  hash = "7ae039",
-  fullHash = "7ae039",
-  text = "The Problem With Prideclaws. The Shen'dar Highlands village faces danger from prideclaws, bandits, and cultists. The beasts press toward the settlement, and culling them guards the people while providing useful pelts. Prideclaws are pressing toward the village in the Shen'dar Highlands. Bandits roam the hills, and unhinged cultists trouble the region. Villagers face danger from several sides. As the beasts grow bolder and their territory spreads, the settlement draws nearer to their reach. Villagers have organized a culling before the wandering predators can snatch pets or children. Driving prideclaws back from the borders helps guard the settlement. Their sturdy pelts also give village craftsmen material for useful goods.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92515-1ace8e7e020234f3d18a/1-0000.mp3", duration = 43.5983673, start = 0},
-  },
-}
-P.transport["quest:92516"] = {
-  hash = "39fabf",
-  fullHash = "39fabf",
-  text = "Hippogryph Harassment. Near Shen'dar Village, Hippogryph Harassment puts travelers in danger. A wild flock nests southeast of the village in the Shen'dar Highlands and attacks those on the nearby road. You are asked to cull its young, protectors, and matriarch so travelers can pass safely. Travelers near Shen'dar Village face danger from the skies. A wild flock nests southeast of the settlement, in the Shen'dar Highlands. Across Kalimdor, hippogryphs are known as noble beasts, and some are bonded to elven riders. Untamed flocks, though, fiercely guard their territory.\n\nWagons and lone travelers on the paths below have become targets of aerial ambushes. The attacks disrupt passage and could leave the village isolated if the creatures go unchecked. The flock's nesting grounds in the Shen'dar Highlands must be confronted to end the danger. To make the high roads safe, kill the young before they reach maturity and overcome the vigilant protectors guarding the perimeter.\n\nThe matriarch directs attacks on passersby. Travelers can use the roads safely again only when the nest is struck and she is felled.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92516-c4ea66a6b7f5f9a314d7/1-0000.mp3", duration = 69.0416327, start = 0},
-  },
-}
-P.transport["quest:92517"] = {
-  hash = "be2349",
-  fullHash = "be2349",
-  text = "The Criminal Element. The Highlands Bandits terrorize the Shen'dar Highlands from a cave behind a waterfall. A new cult has arrived, and local defenders are stretched thin. So outside help is needed against the gang's leader, \"Badwind\" Bennic. The Highlands Bandits have made their den in a hidden cave behind a northern waterfall in the Shen'dar Highlands. Their leader, \"Badwind\" Bennic, commands cutthroats who troubled the locals long before an enigmatic cult arrived. Since then, their lawlessness has grown into terror. Local defenders are stretched thin and cannot spare forces, so you are sent to break the gang and bring Bennic down.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92517-90dd02f45f5d03f20012/1-0000.mp3", duration = 37.877551, start = 0},
-  },
-}
-P.transport["quest:92519"] = {
-  hash = "d0ac62",
-  fullHash = "d0ac62",
-  text = "Ward Restocking. At Hammerfall, Doctor Gregory Victor is short of remedies, antidotes, and elixirs for the infirmary. The missing tonics are at Go'Shek Farm. Doctor Gregory Victor tends Hammerfall’s wounded and ailing in the medical ward. The nearby Forsaken apothecary usually supplies the infirmary with remedies, antidotes, and elixirs. When those deliveries stop, Victor turns to capable travelers to keep the clinic stocked. Apothecary Jorell works in a cramped shack at Go'Shek Farm, south and west of Hammerfall. Doctor Victor says Jorell is often absent. The eccentric Forsaken chemist may neglect his duties or succumb to his own noxious concoctions. Couriers sent for the packaged tonics should find the medicine waiting, whether Jorell is there or not.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92519-e333746db3ade4b122ed/1-0000.mp3", duration = 46.2628571, start = 0},
-  },
-}
-P.transport["quest:92528"] = {
-  hash = "2fdf6e",
-  fullHash = "2fdf6e",
-  text = "Among the Faithful. At Falaath Village, you pass among the Faithful of Al'Akir in the Shen'dar Highlands. Their growing ranks and storm magic draw close scrutiny, while their leaders gather with plans that threaten nearby settlements and outposts. You enter Falaath Village in the Shen'dar Highlands as an eager recruit among the Faithful of Al'Akir. The cultists boast that their ranks are growing. They claim their devotion gives the storm its shape and fury. New arrivals are usually sent to Skypriest Aanders for scrutiny, but an unexpected meeting at the village inn interrupts that routine.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92528-7c4476a11dc93ea6e888/1-0000.mp3", duration = 34.1942857, start = 0},
-  },
-}
-P.transport["quest:92529"] = {
-  hash = "d867b6",
-  fullHash = "d867b6",
-  text = "Falaath Village. At Falaath Village, marked recruits gather to seek the Windlord's favor. They come from Shen'dar Village to report to Missionary Jasaan and join the faithful. In Shen'dar Village, Sania Silverstream says her people grew prideful and took the bounty of the air for granted. The wind spirits abandoned them, and stagnation followed. Now penitent recruits receive the Mark of Akir and travel to Falaath Village. There, they join others who hope their acts of contrition will restore the wind's favor. At Falaath Village, Missionary Jasaan welcomes initiates bearing the Mark of Akir. Jasaan sees each new acolyte as a blessing from the four winds. Those who arrive may seek the elemental grace of Al'Akir.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92529-c01f89743d76f1798325/1-0000.mp3", duration = 46.1583673, start = 0},
-  },
-}
-P.transport["quest:92550"] = {
-  hash = "a1fbe2",
-  fullHash = "a1fbe2",
-  text = "Havoc in the Highlands. In the highlands, Shen'dar Village moves against Al'Aketh forces at Falaath Village. Its defenders mean to stop an assault before it begins and protect their home. Zealous cultists are preparing to assault Shen'dar Village. So its leaders send you into the ruins of Falaath Village to strike first, before the Al'Aketh forces can begin their attack. Al'Aketh zealots gather at Falaath Village and wield chaotic elemental power. You break their ranks by defeating Al'Aketh Stormcallers and shattering Living Lightning. Then you find Commander Cyclas and behead him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92550-9b4ff670902730d81755/1-0000.mp3", duration = 36.4930612, start = 0},
-  },
-}
-P.transport["quest:92551"] = {
-  hash = "1a0f9e",
-  fullHash = "1a0f9e",
-  text = "Stolen Supplies. Caravans bound for the Shen'dar Highlands are under attack, and their stolen goods gather in Falaath Village. Food and windstones grow scarce in the highland settlements, leaving some skyborne close to starvation. For months, raiders have attacked caravans on the road between the lowlands and the Shen'dar Highlands. Their wagons carry food and windstones that highland settlements depend on. As fewer deliveries arrive, townsfolk struggle to get by, and some draw close to starvation. The Al'Aketh blame common bandits for the attacks. Yet the missing supplies keep turning up in Falaath Village, where the Al'Aketh store the stolen packs. The recovered goods go to the local authorities and constable, who send them straight to the skyborne in greatest need.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92551-fca1eb35ef14f6efa417/1-0000.mp3", duration = 47.4122449, start = 0},
-  },
-}
-P.transport["quest:92553"] = {
-  hash = "a1ebbf",
-  fullHash = "a1ebbf",
-  text = "Restocking the Larders. In the Shen'dar Highlands of Zephras, a village cook needs help keeping the food stores full. Danger keeps the villagers from foraging, so the cook turns to you for eggs and strider meat. Rising dangers make life harder in the Shen'dar Highlands. Villagers can no longer safely enter the wilderness to forage or hunt, and the communal stores are nearly empty. So local cooks rely on travelers willing to brave the wild trails and help keep the settlement fed. The cook asks you to find strider meat and fresh small eggs among the highlands' wildlife. In return, the cook shares knowledge of local game and its recipes. Small eggs fried in ursera tallow offer comfort, with dried peacebloom for a quiet pipe.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92553-4b153fbb46183bef8bfb/1-0000.mp3", duration = 44.4342857, start = 0},
-  },
-}
-P.transport["quest:92579"] = {
-  hash = "b8b23d",
-  fullHash = "b8b23d",
-  text = "To Valanaar. Aonda sends an urgent report across the island to Valanaar, where the peacekeepers prepare for a growing threat. Their leader, Valennia Stormfist, must ready her people as conflict with the cult draws near. After you help defend Shen'dar and its pylon, Aonda entrusts you with urgent word for Valennia Stormfist. Valanaar lies at the island's southeastern edge, where the peacekeepers keep their headquarters under Valennia's command. Aonda warns that the peaceful days are ending. Valennia must prepare her people for an inevitable clash with the aggressive, expanding cult.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92579-a30b04c15f4614b84825/1-0000.mp3", duration = 36.4146939, start = 0},
-  },
-}
-P.transport["quest:92595"] = {
-  hash = "b15db5",
-  fullHash = "b15db5",
-  text = "The Windshapers. Among the wind spirits, The Windshapers seek a way to keep Zephras and the Shen'dorei alive. Illaya Amberwind welcomes new recruits to their work, as dangers gather in Skywall. Illaya Amberwind welcomes new recruits into the Windshapers, who commune with the wind spirits and protect the Shen'dorei. The order seeks those born with spiritual perception. They hope to mend the growing rift between their people and the elemental forces that sustain their aerial realm. Every Windshaper bears that burden. The Al'Aketh bring turmoil within Skywall, and the elemental plane holds dangers of its own. The Windshapers believe Zephras can endure and the Shen'dorei can weather the storm only if they restore their bond with the spirits of the winds.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92595-6dba535143b85ae793dd/1-0000.mp3", duration = 47.595102, start = 0},
-  },
-}
-P.transport["quest:92596"] = {
-  hash = "8e1910",
-  fullHash = "8e1910",
-  text = "The High Order. On Zephras, Rathiril Sunlance tells newcomers why the shen'dorei must now stand alone. Their elemental benefactors are gone, so these Highborne descendants of Eldre'Thalas turn to ancient arcane magic to protect their people. The shen'dorei on Zephras are working to reclaim their strength and choose their own path. For a long time, elemental benefactors protected them. Now those patrons are gone, leaving the people exposed to strife within and dangers around them. Rathiril Sunlance seeks those gifted in arcane magic to help preserve their people and build their strength on their own. The shen'dorei carry the legacy of Eldre'Thalas and an innate wellspring of arcane energy. Even those never formally trained in wizardry share that power. The High Order sees it as the destiny of Highborne descendants to wield these ancient gifts. With them, the shen'dorei hope to resist the Al'Aketh within and face the many threats to their home on Zephras.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92596-e38000b8d12c44745836/1-0000.mp3", duration = 59.7942857, start = 0},
-  },
-}
-P.transport["quest:92640"] = {
-  hash = "fe4fa0",
-  fullHash = "fe4fa0",
-  text = "Desperate Times. Valennia Stormfist waits in Valanaar with a plan to strike the cult at its shrine. Lorthuna must be stopped there, but the Windshapers and the High Order must first set aside their deep tensions. The cult cannot be safely faced in the open, so the defenders need a bolder plan. They will strike at the cult's shrine instead of fighting a long battle on unfavorable ground. If they eliminate Lorthuna before she completes her part in the cult's grand scheme, they can cripple the threat at its source. In Valanaar, Valennia Stormfist has spent time planning an assault on the shrine. The attack needs substantial reinforcements and strength united across the factions. Yet the Windshapers and the High Order remain divided by severe political tensions, putting their alliance at risk.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92640-5bdeaed8cbe6a2a516f8/1-0000.mp3", duration = 48.1959184, start = 0},
-  },
-}
-P.transport["quest:92642"] = {
-  hash = "f43b7c",
-  fullHash = "f43b7c",
-  text = "Disrupting Logistics. At the Gustberry Lowlands, Al'Aketh cultists are pressing a full-scale assault. Their healers keep the brawlers fighting, and the defenders need help before their lines give way. A fierce assault is bearing down on the defenders above the Gustberry Lowlands. Enemy forces are gathering, and the local lines are near breaking. The commanders expected substantial reinforcements from Valennia, but they must rely on whatever capable hands arrive. Strikes against the enemy's support may be the only way to hold the defense together. Al'Aketh brawlers press forward in ranks, sustained by healers who mend their wounds. In the Gustberry Lowlands, taking out those healers can break the cultists' push. That gives the defenders a chance to rally and drive back the invasion.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92642-f1f00b0f3cd5d057097d/1-0000.mp3", duration = 47.8040816, start = 0},
-  },
-}
-P.transport["quest:92643"] = {
-  hash = "0526f6",
-  fullHash = "0526f6",
-  text = "The Turncoat. A cultist of the Al'Aketh offers to defect and reveal what the cult intends for the island. You are sent to bring him from a secluded highland retreat northwest of Valanaar, where the meeting may be a trap. A cultist within the Al'Aketh ranks claims to know the cult's true intentions for the island. He offers to defect, but demands firm assurances of protection. The cult guards its plans closely, so reaching out may be worth the danger. The defector waits alone in a secluded residence in the highlands northwest of Valanaar. You must reach him with care. The meeting may be an Al'Aketh ambush meant to draw out those who pry into the cult's affairs.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92643-332e6bb292b2416a8a16/1-0000.mp3", duration = 41.0906122, start = 0},
-  },
-}
-P.transport["quest:92644"] = {
-  hash = "b5a57d",
-  fullHash = "b5a57d",
-  text = "Unfortunate News. You find the turncoat dead before they can speak. A damaged blue crystal remains beneath the body, and you carry it to High Elder Talanaanis Shadowsong in Valanaar. You reach the rendezvous and find the defecting cultist already slain. Their body is still warm. Beneath it lies a small, glowing blue crystal, damaged but still humming. You carry it to High Elder Talanaanis Shadowsong in Valanaar.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92644-0e029d2071277d38b69d/1-0000.mp3", duration = 26.5404082, start = 0},
-  },
-}
-P.transport["quest:92645"] = {
-  hash = "e084b2",
-  fullHash = "e084b2",
-  text = "Breaking the Breaker. In the Gustberry Lowlands, cultists press the defenders hard. Commander Belguilos leads the assault from her hillside villa, and striking her there may be the defenders’ only chance to survive. Cultists assault the Gustberry Lowlands, driving the local defenders to the brink. Repelling them seems nearly impossible while Commander Belguilos directs the attack. All fear her as “the Breaker.”\n\nHer villa is the operation’s base. Slaying her there is perilous, near-suicidal, yet passivity leaves the defenders doomed. Before she commanded the cultists, Belguilos kept order as a peacekeeper. Even then, those around her found something deeply unsettling in her manner. When the cult’s influence spread beyond control, she embraced its extremism. Now she commands the cultists and is a terror.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92645-f711131c9d0ee770a3a6/1-0000.mp3", duration = 52.7673469, start = 0},
-  },
-}
-P.transport["quest:92646"] = {
-  hash = "a3ffb7",
-  fullHash = "a3ffb7",
-  text = "Confront Lorthuna. Elaadrin Evengale and Ayessa Dawnsinger pursue High Priestess Lorthuna through a portal into the Rohashi Spires above Zephras. They call for your aid before she can escape justice or strengthen her power. High Priestess Lorthuna flees through a mystic gateway into the Rohashi Spires above Zephras. An injured ally remains behind at the portal's threshold. Elaadrin Evengale and Ayessa Dawnsinger follow her into the heights and call for your help before she escapes justice or strengthens her power.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92646-353c14a793c60b051c23/1-0000.mp3", duration = 32.6008163, start = 0},
-  },
-}
-P.transport["quest:92679"] = {
-  hash = "3cf3f8",
-  fullHash = "3cf3f8",
-  text = "Blood Tithe. In Valanaar, Alvarion Windfield seeks aid for the orchard that sustains his family. Pain keeps the Skyborne farmer from his work, so he sends travelers west to his wife, Aamelia, who tends their lowland farm. Alvarion Windfield has come from his homestead to Valanaar in search of capable fighters. Pain leaves him visibly injured, and he fears for the livelihood his farm provides. He asks you to travel west into the lowlands, where his wife Aamelia tends their family orchard. The Windfield Orchard lies in the lowlands west of Valanaar. Alvarion is too ill to tend the farm, so Aamelia Windfield bears its burdens alone. Reach the western valley, learn what threatens the orchard, and lend the family your strength.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92679-6fe32d54d85d8e524394/1-0000.mp3", duration = 46.0277551, start = 0},
-  },
-}
-P.transport["quest:92682"] = {
-  hash = "b69fea",
-  fullHash = "b69fea",
-  text = "Make Yourself Useful. At Windfield Orchard, Ferauu's bandits are taking stormapples before their share is due. Some hungry outlaws have broken ranks to pick the trees early. Drive them off, and the orchard keeper will respect you. Windfield Orchard gives Ferauu's bandits a regular share of its fruit harvest. Ferauu leads the crew, but some outlaws cannot wait for his scheduled visit. They slip into the orchard early to pick stormapples for themselves. The orchard caretaker puts ambitious newcomers to work before Ferauu arrives. The keeper asks you to secure the ripe stormapples and drive off hungry bandits trespassing among the trees. They have gone behind Ferauu's back to take his share. The keeper says Ferauu would likely execute them for it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92682-70efff0513375a6cd3f9/1-0000.mp3", duration = 44.4865306, start = 0},
-  },
-}
-P.transport["quest:92683"] = {
-  hash = "cfc33d",
-  fullHash = "cfc33d",
-  text = "Flutterfly Dust. In the Gustberry Lowlands, Flutterfly Dust draws a homesteader's interest. Travelers gather it from giant flutterflies while bandits threaten anyone who ventures alone into the fields. Giant flutterflies drift through the outer fields and orchards of the Gustberry Lowlands. Their wings shed fine dust, and you can gather it in bulk. Nearby homesteaders want the powder for practical household needs. Yet the insects remain wild. A Flutterfly Swatter brings dust down with a blunt strike. Most flutterflies panic, take to the air, and shake loose piles of powder. Some turn and strike back when provoked. Usually, they are docile. The dust is messy to gather and clings to clothing and gear for weeks. The homesteader eagerly awaits its delivery, since bandits make solo trips into the fields too dangerous. Ask what the powder is for, and the resident offers only vague words about general stuff and things.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92683-e4d11b29498dc4a039c7/1-0000.mp3", duration = 59.1934694, start = 0},
-  },
-}
-P.transport["quest:92684"] = {
-  hash = "2cf7a6",
-  fullHash = "2cf7a6",
-  text = "Ornery Ornery Galestriders. In the Gustberry Lowlands, an orchard farmer's poor harvest is under threat from galestriders raiding the stormapples. Drive off the boldest birds to save the remaining fruit and bring home tenderloins for dinner. A poor harvest has left Gustberry Lowlands farmers with little to spare. Now wild galestriders strip ripe stormapples from orchard branches and threaten what fruit remains. The farmer needs the boldest birds driven off or culled before the crop is gone. Lowlands galestriders are larger and more bad-tempered than their highland kin. Take care near these towering birds, traveler; one powerful kick can badly hurt or kill a fighter. Their tenderloins give hungry locals a rare, substantial meal.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92684-0f777d11c9dd7eb58b12/1-0000.mp3", duration = 44.8783673, start = 0},
-  },
-}
-P.transport["quest:92685"] = {
-  hash = "87647b",
-  fullHash = "87647b",
-  text = "The Hills Have Eyes. Aamelia faces a bandit assault in the Gustberry Lowlands, and Ferauu’s raid draws near. She sends travelers to strike a camp in the northern hills before the bandits gather. Aamelia faces an approaching attack in the Gustberry Lowlands. Ferauu leads the outlaws threatening her farm. She asks you to strike their camp in the hills to the north. Thin the highwaymen’s ranks before they gather, and Aamelia hopes to weaken their attack and gain time before they arrive.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92685-41825954cdf09a7b739f/1-0000.mp3", duration = 27.924898, start = 0},
-  },
-}
-P.transport["quest:92693"] = {
-  hash = "5d4d38",
-  fullHash = "5d4d38",
-  text = "Standing Our Ground. Aamelia Windfield gives you one last chance to retreat to Valanaar before the bandits close in. You have helped the local defenders prepare, yet the coming fight still seems doomed. Aamelia Windfield gives you one last chance to return safely to Valanaar. You have helped the local defenders prepare for the bandits, but the fight ahead looks grim. Will you stand with them, or leave before the clash?",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92693-ed1bc5b8af211059469a/1-0000.mp3", duration = 24.8685714, start = 0},
-  },
-}
-P.transport["quest:92698"] = {
-  hash = "3beb5b",
-  fullHash = "3beb5b",
-  text = "What Is My Purpose?. In the orchard fields, a Malfunctioning Cyclone Construct wanders without purpose. Its broken speech has repeated for decades, since the wind elementals departed. Aamelia Windfield knows what locals remember of its past. A Malfunctioning Cyclone Construct paces through the fields, caught in a broken loop. Muffled fragments come from beneath its armor, repeating errors and questions about its purpose. Decades alone have left its old instructions corrupted or forgotten. It looks imposing, but threatens no one who passes. Its broken voice carries over the soil as it wanders without purpose. Aamelia Windfield says the construct has roamed the fields for decades, apparently since the wind elementals departed. Alvarion guessed it once hauled harvests to distant markets or tended livestock, centuries ago, before the land became an orchard. The Windshapers built and maintained cyclone constructs in earlier ages. Orchard workers have talked of asking them to repair the machine, but the matter has never seemed urgent. So it continues to roam, largely ignored.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92698-0307222b8e993dabd096/1-0000.mp3", duration = 65.5412245, start = 0},
-  },
-}
-P.transport["quest:92699"] = {
-  hash = "40082e",
-  fullHash = "40082e",
-  text = "The Supreme Magister. In Valanaar, Elaadrin Evengale draws new arrivals toward the High Order. From a lodge in the settlement’s southeast, the order seeks allies as it faces hostile Windshapers and a nearby cult. New arrivals of promise in Valanaar are directed to the High Order. Supreme Magister Elaadrin Evengale leads it from a lodge in the settlement’s far southeast. He watches newcomers closely, seeking the strength, resolve, and arcane aura to face the dangers threatening their home. Peace in Valanaar is fragile. The High Order and the Windshapers are bitter enemies, so newcomers are warned to keep their distance from the Windshapers lest violence break out in the streets. A dangerous cult lurks nearby. With threats outside the town, its leaders cannot afford bloodshed within.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92699-3936232e2cfa85ca1a3b/1-0000.mp3", duration = 49.5542857, start = 0},
-  },
-}
-P.transport["quest:92700"] = {
-  hash = "450db2",
-  fullHash = "450db2",
-  text = "The Grand Skyseer. In Valanaar, the Windshapers seek travelers gifted with spiritual sight. They send you to Ayessa Dawnsinger at their lodge, while rivalries and a threatening cult strain the settlement. You arrive in Valanaar and are sent to the central lodge. There, the Windshapers gather beneath Grand Skyseer Ayessa Dawnsinger. Elder Amberwind has heard of your deeds in Shen'dar Village and welcomes you among those attuned to the spirits. Dangers press from beyond the town and within it, so tread carefully through its fragile politics. Peace in Valanaar hangs by a thread. The Windshapers and the High Order openly oppose one another, and street skirmishes threaten the settlement. A shadowy cult also menaces the region. Local leaders have ordered both factions to keep their distance and face this shared danger instead of fighting over territory. Grand Skyseer Ayessa Dawnsinger says skysight is growing rare among the people of Zephras. Those who arrive with a strong aura and harmony with the spirits are vital allies. The Windshapers need them as they guide their land through hard times.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92700-fc76b51c36f741aa20b1/1-0000.mp3", duration = 68.8326531, start = 0},
-  },
-}
-P.transport["quest:92701"] = {
-  hash = "ec4278",
-  fullHash = "ec4278",
-  text = "To Valanaar. At Valanaar, Valennia Stormfist must face the cult's growing threat. Aonda sends urgent news from Shen'dar, where the village and its pylon were defended. After Shen'dar and its pylon were defended, Aonda sends a trusted messenger across the island. The message is bound for Valanaar on the island's southeastern edge. There, the commander of the peacekeepers must hear how quickly the cult is advancing. Valennia Stormfist and her peacekeepers have long tried to avoid open conflict with the cult spreading across the island. Yet the events at Shen'dar mark a change. The cult's influence is growing, and Valennia can no longer hold back from a clash. Her dwindling force must ready Valanaar for an assault.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92701-e94e9e81d217047cf314/1-0000.mp3", duration = 45.5314286, start = 0},
-  },
-}
-P.transport["quest:92703"] = {
-  hash = "dce4f6",
-  fullHash = "dce4f6",
-  text = "Deliver the News. At the Windfield orchard, Aamelia sends word that her family is safe. Alvarion waits in Valanaar, where he went to seek help. Aamelia thanks you for saving the Windfield family orchard. Her home is safe, but Alvarion Windfield has gone to Valanaar to plead for help. He needs to know his family and home are out of danger. Alvarion Windfield is overcome with emotion when you tell him his family and home are safe. He went to Valanaar believing his search for help was a desperate, nearly vain hope. Your success recalls the legendary heroes his people remembered from before they arrived in Skywall. The Windfield family welcomes you into their home for good.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92703-c26abc00fd6a6109812f/1-0000.mp3", duration = 40.1240816, start = 0},
-  },
-}
 P.transport["quest:92706"] = {
   hash = "c481db",
   fullHash = "c481db",
   text = "WANTED: Bruuz. Bruuz threatens the ships that keep Ratchet busy. Gazlowe has posted a bounty for the huge shark prowling the docks and disrupting coastal trade. Ratchet is Kalimdor's main neutral gateway to the Eastern Kingdoms. Its trade depends on merchant ships. Lately, a huge shark named Bruuz has prowled the bay. Dockworkers gave it that name after it began attacking small skiffs, sailors, and cargo unloaded near the docks. The shark disrupts the port and puts the ships that supply Ratchet at risk. Gazlowe has posted a public bounty so ships will not avoid his port for fear of the shark. The notice calls on anglers and promises a hefty reward. To claim it, you need to slay Bruuz and bring back the shark's dorsal fin as proof.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_92706-ce0c58587f16b752d052/1-0000.mp3", duration = 44.8261224, start = 0},
-  },
-}
-P.transport["quest:92708"] = {
-  hash = "f2e922",
-  fullHash = "f2e922",
-  text = "A Grand Adventure. On Zephras Isle, Ayessa Dawnsinger and the Windshapers seek a way to save their home. The isle lies in Skywall, where wind spirits have vanished without explanation. Wind spirits have vanished from Zephras Isle, and the trouble keeps growing. The Windshapers have investigated the disturbances and uncovered truths about their missing kin and the fate of their elemental home. Ayessa Dawnsinger asks you to heed what they have learned and prepare for an undertaking unlike any before.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92708-22a6958b7c9e367eaa1c/1-0000.mp3", duration = 29.7795918, start = 0},
-  },
-}
-P.transport["quest:92709"] = {
-  hash = "0f2ac5",
-  fullHash = "0f2ac5",
-  text = "A Grand Adventure. In Valanaar, Elaadrin Evengale asks you to hear the High Order’s plans. Their search for ancient magic may shape Zephras Isle’s future. Elaadrin speaks of your Highborne lineage and the young people who may help save their home. The High Order seeks the ancient magic of its forebears, and what has been lost over many millennia.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92709-68105f35b845e3b5f869/1-0000.mp3", duration = 22.0212245, start = 0},
-  },
-}
-P.transport["quest:92727"] = {
-  hash = "bfbb78",
-  fullHash = "bfbb78",
-  text = "The Missing Scholar. Fillion Flamebreeze is missing after setting out to study atmospheric magic on Zephras. The High Order sent the scholar toward the Shen'dar Highlands, and concern grows as the road from Valanaar yields no word of his return. The High Order gathers and preserves knowledge across Zephras. Yet field research on the island has grown perilous. Fillion Flamebreeze set out for the Shen'dar Highlands to study atmospheric arcane phenomena, but never reported back. His peers now fear the dangers along the frontier roads have claimed him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92727-6b4ef20f638aedef448f/1-0000.mp3", duration = 32.757551, start = 0},
-  },
-}
-P.transport["quest:92741"] = {
-  hash = "6a75aa",
-  fullHash = "6a75aa",
-  text = "Unwelcome Visitors. In Shadowgale Forest, shrieklings are pressing toward the woods' edge. Iaadaria Bitterwind in Valanaar asks travelers to gather their talons for the High Order. Shadowgale Forest is a dangerous woodland that ordinary adventurers are forbidden to enter. Now its shrieklings have multiplied in numbers never seen before. They are pressing toward the forest's edge and extending their hunting grounds beyond the canopy. If they keep spreading, settled lands and travel routes will face a growing danger. In Valanaar, Iaadaria Bitterwind of the High Order sees both danger and opportunity in the shrieklings' growing numbers. The Order usually leaves pest control and trapping to others. Yet shriekling talons have rare alchemical properties, making an exception worthwhile. Travelers are asked to enter Shadowgale Forest and bring back eight talons. The High Order can then help protect the region and study the reagents.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92741-536918aa8bb06ffc21bc/1-0000.mp3", duration = 56.4506122, start = 0},
-  },
-}
-P.transport["quest:92834"] = {
-  hash = "a050af",
-  fullHash = "a050af",
-  text = "Avenged Tenfold. Elaadrin turns from diplomacy to retribution after the Al'Aketh cult answers his appeal with violence. The High Order scholar had sent his dear friend Belathaan Brightwish to seek peace at the Shrine of Akir, north of Valanaar. The Al'Aketh cult's violence brought armed posturing from factions like the Peacekeepers and Windshapers. Elaadrin spoke for the High Order and saw such displays as a foolish escalation. His order prizes pragmatism and avoids conflict, so he still believed reasoned dialogue could work. He sent his close friend, Belathaan Brightwish, to the Shrine of Akir to negotiate peace. The High Order puts logic before sentiment and holds that avoiding bloodshed is usually the prudent path. Yet Elaadrin shows how cold logic cuts both ways when foes mistake restraint for helplessness. Crackling arcane energy gathers around him. The High Order favors peace, but those who butcher its emissaries face overwhelming retribution.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92834-41116bd8c6dbbb967e16/1-0000.mp3", duration = 61.5183673, start = 0},
-  },
-}
-P.transport["quest:92840"] = {
-  hash = "010811",
-  fullHash = "010811",
-  text = "Catching Wind. At the Overlook Standing Stones, the High Order seeks readings that may help save Zephras. Its expedition faces fierce opposition from the Windshapers in the Shen'dar Highlands. The High Order studies the wild elemental flows of the Shen'dar Highlands in hopes of saving Zephras. At the Overlook Standing Stones, its researchers use an Index Esoteria, a tool made to draw data from the great windstone formations. The Windshapers see these probes as profane trespass against the wind. The High Order's expedition and the Windshapers soon clash at the stones. The Windshapers call the study and taking of elemental energy a desecration of their sacred ways. The High Order sees them as narrow in their beliefs, much like the violent Al'Aketh. It will not let their resistance halt its work to save the realm.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92840-420f26320ebadc704325/1-0000.mp3", duration = 50.0244898, start = 0},
-  },
-}
-P.transport["quest:92849"] = {
-  hash = "bd0053",
-  fullHash = "bd0053",
-  text = "The Missing Scholar. You follow the trail of Fillion Flamebreeze, missing after an assignment at the Overlook Standing Stones. The search leads north to a cave, where he was dragged by a winged beast. You find signs of trouble along the trail Fillion Flamebreeze took on his travels. They point to foul play. Following them leads north to a dark cave. The missing scholar may still be alive inside, waiting for help.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92849-9ca40f01f9131ddffcf7/1-0000.mp3", duration = 26.0440816, start = 0},
-  },
-}
-P.transport["quest:92850"] = {
-  hash = "1e3f3d",
-  fullHash = "1e3f3d",
-  text = "The Missing Scholar. Fillion Flamebreeze is stranded near a dangerous den, and Valanaar needs the threat ended. Once he can travel, he asks you to slay the Shriekling Matriarch nearby. After his ordeal, Fillion Flamebreeze can travel back toward the safety of Valanaar. Yet a brood of shrieklings has nested close to the settlement. Fillion asks you to enter the Shriekling Den and slay the Shriekling Matriarch before the beasts threaten the town.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92850-e93e7025930e02b47d99/1-0000.mp3", duration = 27.2195918, start = 0},
-  },
-}
-P.transport["quest:92860"] = {
-  hash = "cfc115",
-  fullHash = "cfc115",
-  text = "In Service of Zephras. The High Order now offers Valanaar its full military and diplomatic support against the Al'Aketh cult. Hostile movements across the island have ended its policy of avoiding direct confrontation. The High Order once tried to avoid open conflict with the secretive Al'Aketh cult. Reports of large troop movements and clear hostility have ended that effort. The cultists are mobilizing, and every settlement on the island faces a threat to its peace and safety. So the High Order has chosen to act. It sends an emissary to join with local defenders before the Al'Aketh strike.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92860-14c3de86e4e9e4679bf8/1-0000.mp3", duration = 35.8138776, start = 0},
-  },
-}
-P.transport["quest:92871"] = {
-  hash = "150845",
-  fullHash = "150845",
-  text = "In Service of Zephras. Across Zephras, the Al'Aketh cult is gathering for a wider conflict. The Windshapers send an emissary to assure Valennia Stormfist that they will aid her peacekeepers. Reports of Al'Aketh activity are spreading across Zephras. Valennia Stormfist's peacekeepers have guarded the island for a long while, but the cult now seems to be preparing for a larger conflict. So the Windshapers pledge to stand with Valanaar's forces if open fighting begins. You are sent to Valennia Stormfist to assure her that the Windshapers are ready to aid her peacekeepers. Valennia welcomes their swift pledge. She is ready to speak with you about the cult's worsening threat.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92871-3625062983fb0aaa51b0/1-0000.mp3", duration = 43.2587755, start = 0},
-  },
-}
-P.transport["quest:92880"] = {
-  hash = "eeec85",
-  fullHash = "eeec85",
-  text = "Return to Valanaar. Yorna's report brings word to Valanaar that the eastern watchtower has held. Its perimeter is stable, and the remaining attackers are being cleared away. After the attack on the outpost, Yorna sends word to Valanaar. The attackers have been broken, and the defenders are clearing away those who remain. You carry Yorna's Report to ease the leaders waiting in town for news. You bring the eastern watchtower's report to Valennia Stormfist in Valanaar. The tower has held, and its perimeter is stable. Valennia gives thanks to the winds, relieved that the frontier remains secure.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92880-515d1c4b73d96f60e6c2/1-0000.mp3", duration = 36.2840816, start = 0},
-  },
-}
-P.transport["quest:92881"] = {
-  hash = "0350bd",
-  fullHash = "0350bd",
-  text = "The High Elder's Request. In Valanaar, High Elder Talaanis Shadowsong calls for help after coordinated assaults strike the region's watchtowers. Reports from the western watchtower point to a hostile cult targeting the local anchor pylons. Coordinated assaults on the western and eastern watchtowers reveal a troubling pattern. What seemed like scattered skirmishes now points to a planned attack on the local anchor pylons. A report from the western watchtower tells how a skypriest revealed the cult's interest in these structures. Now the towers' defense is an urgent concern. The threat to the anchor pylons is growing, so leaders send you to speak with High Elder Talaanis Shadowsong in Valanaar. He has a promising lead on the cult's movements and seeks experienced allies to track the enemy. The cult may be preparing a ritual or sabotage.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92881-76a91a9da4e0d60c9bc8/1-0000.mp3", duration = 51.9314286, start = 0},
-  },
-}
-P.transport["quest:92909"] = {
-  hash = "909323",
-  fullHash = "909323",
-  text = "Harvesting the Harvesters. At Saldean's Farm in Westfall, Ozwin Ironsprocket is trapped by haywire harvest golems. The visiting gnome tinkerer needs salvaged parts to build a way out. Ozwin Ironsprocket came south from Ironforge when its workshops heard of haywire harvesters in Westfall. The gnomish engineer believed he could diagnose and recalibrate the farm machines. He hoped to bring peace to the region's farmlands, already troubled by outlaws and now overrun by rampaging harvesters. Near Saldean's Farm, Ozwin found the harvest golems far more violent than his schematics suggested. Their sharp blades and erratic swings drove him into a nearby stable. Trapped there, he cannot safely return to the fields. He needs daring travelers to salvage isosprings and gyrostabilizers from the machines so he can build a device to escape.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92909-1129fb8c69e390ea4063/1-0000.mp3", duration = 52.1926531, start = 0},
-  },
-}
-P.transport["quest:92947"] = {
-  hash = "152ce4",
-  fullHash = "152ce4",
-  text = "Making Our Move. At the Shrine of Akir, a strike force moves against the Al'Aketh and their High Priestess. A frontal charge will draw the defenders while the main force approaches from the flank. At the Shrine of Akir, the assault depends on timing and divided forces. A small band of elite fighters charges the front gates to raise the alarm and draw out the defenders. Meanwhile, the commander leads the main strike team in from the flank. Their push divides the defenders' attention and opens a path toward the shrine's leadership. The Al'Aketh defend the Shrine of Akir with armored Guardians, mystical Spiritcallers and martial Blademasters. The strike force must break through their front lines to reach the inner sanctum, where the High Priestess directs her followers. Once the outer defenders are beaten, you meet the force's second-in-command, Hyusaa Quickbreeze, at the shrine steps.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_92947-0c07cbdc9b0b2e1d01cb/1-0000.mp3", duration = 54.4391837, start = 0},
   },
 }
 P.transport["quest:93"] = {
@@ -7617,284 +4321,12 @@ P.transport["quest:93"] = {
     {file = "Audio/Transport/full_quest_93-b444e713f286884b0371/1-0000.mp3", duration = 50.442449, start = 0},
   },
 }
-P.transport["quest:93036"] = {
-  hash = "431998",
-  fullHash = "431998",
-  text = "Infiltrating the Cult. In Shen'dar Village, Sania Silverstream draws followers as its uneasy peace begins to fray. The village asks a newcomer to approach her and learn what the Order of the Al'Aketh intends for the settlement. In Shen'dar Village, an uneasy truce with the Order of the Al'Aketh is starting to unravel. Local authorities have long tolerated Sania Silverstream, a self-proclaimed missionary living among them. The Order claims to be a peaceful religious movement and sends gentle recruiters to draw in unsuspecting followers. Village leaders let Sania recruit to keep the cult from open conflict. Now that fragile peace is wearing thin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93036-58689754f8dd17b19cf0/1-0000.mp3", duration = 40.1240816, start = 0},
-  },
-}
-P.transport["quest:93065"] = {
-  hash = "427329",
-  fullHash = "427329",
-  text = "Prepare for Battle. The Peacekeepers are gathering in town to march into the surrounding territory. You are called to make your final preparations and meet Valennia Stormfist in the Gustberry Lowlands before the company departs. The Peacekeepers, the local defense forces, have called their troops and volunteers to arms as tensions rise. Secure your equipment, ready your weapons, and join the company as it forms for an organized march into the surrounding territory. The company gathers along the eastern road leading north out of town into the Gustberry Lowlands. There, organizer Valennia Stormfist inspects the fighters and calls the roll. Then the company marches into danger.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93065-d58ed38c4465e2be5d10/1-0000.mp3", duration = 41.5346939, start = 0},
-  },
-}
-P.transport["quest:93089"] = {
-  hash = "714db2",
-  fullHash = "714db2",
-  text = "What Comes Next. On Zephras Isle, the High Order seeks your blessing before departing with its Kirin Tor allies. Their expedition depends on finding an arcane answer to the island’s instability. High Elder Shadowsong has blessed the expedition, and its preparations are ready. Ansirem has worked to establish skycutter travel between Dalaran and Zephras Isle. Now the vanguard is preparing to depart. Speak with Elaadrin Evengale when you are ready to leave the island.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93089-399b36fb9e342cea1191/1-0000.mp3", duration = 40.0457143, start = 0},
-  },
-}
-P.transport["quest:93090"] = {
-  hash = "6ec4dc",
-  fullHash = "6ec4dc",
-  text = "What Comes Next. On Zephras Isle, the expedition prepares to cross the skies for Kalimdor. The local cult is defeated, and High Elder Shadowsong has given his blessing. Skycutters now carry travelers between the island and Mulgore. High Elder Shadowsong has blessed the expedition's onward journey from Zephras Isle, where the local cult has been defeated and safety restored. The expedition now looks beyond the island, with its focus set on travel across the open skies toward Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave. Muln worked to secure steady skycutter travel between Zephras Isle and Mulgore. Test voyages succeeded, and an advance party has already crossed over. They wait on the other side to make contact with the shaman of the Earthen Ring.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93090-47d5838f1817cd11ea7c/1-0000.mp3", duration = 49.1363265, start = 0},
-  },
-}
-P.transport["quest:93159"] = {
-  hash = "688853",
-  fullHash = "688853",
-  text = "The Strange Hermit. In Shadowgale Forest, a hooded hermit keeps to himself beneath the trees. Though years alone have made him shy, he shares something of his handmade life and the forest spirits who sing to him. Deep beneath Shadowgale Forest's canopy, you find a hooded recluse far from towns and trade routes. He is known simply as the Strange Hermit. Years without ordinary company have left him nervous and awkward in conversation. Even a greeting seems strange to him. The hermit says he has the company and provisions he needs. He once lived elsewhere, then chose a life here among handmade trinkets and the local forest spirits. They often sing to him, though their songs cannot answer him as another person can.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93159-4fcf493bf186631c55f9/1-0000.mp3", duration = 44.9567347, start = 0},
-  },
-}
-P.transport["quest:93160"] = {
-  hash = "227b3c",
-  fullHash = "227b3c",
-  text = "The Forest's Bounty. In Shadowgale Forest, a forager needs help gathering fallen acorns. Raptor-like predators prowl the deeper woods, and the harvest can be roasted into a forest meal. A cautious forager in Shadowgale Forest has gathered the acorns near safety. Fierce, raptor-like creatures prowl among the trees and keep the forager from reaching the wilder groves. So passing travelers are needed to gather what lies deeper in the woods, and help ensure neither goes hungry. Shadowgale Acorns make hearty food when prepared with care. Raw, they can be bitter or tough, but roasting them over a fire turns the wild harvest into a rich treat. To gather them, you must brave the timber where predatory birds prowl.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93160-5d7e2e16e044c5a7e6ac/1-0000.mp3", duration = 46.8636735, start = 0},
-  },
-}
-P.transport["quest:93165"] = {
-  hash = "a71193",
-  fullHash = "a71193",
-  text = "Mercy Falls on Deaf Ears. In the wilds around Shadowgale Forest, the Nightclaw survivors seek vengeance against the Al'Aketh. After a terrible tragedy at the cultists' hands, they offer coin and a promise of access to their hidden lore for trophies taken from slain enemies. Their feud now reaches across Shadowgale Forest and the surrounding territories. The Nightclaw enclave and the Al'Aketh cultists are locked in a bitter feud. A terrible tragedy has left the survivors with no hope of peace. They seek vengeance for their fallen kin and turn to wandering adventurers and mercenaries for help. The enclave offers coin and the promise of deeper trust to those who kill cultists and bring back their ears as proof. The Al'Aketh spread their influence through the Gustberry Lowlands, Shadowgale Forest, and the ancient Shrine of Akir. Their dark practices and fanatical ways have earned the hatred of local inhabitants. Striking the cult's camps across these lands can weaken its reach and earn favor with the secretive Nightclaw. The enclave keeps its mysteries close until an outsider proves their loyalty.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93165-60504b6449eefbe67ae9/1-0000.mp3", duration = 64.2612245, start = 0},
-  },
-}
-P.transport["quest:93172"] = {
-  hash = "2a214d",
-  fullHash = "2a214d",
-  text = "Free the Hollows. In Shadowgale Forest, the wind hollows’ sorrowful song carries through ancient ruins. An old tragedy binds these ghost-like spirits, and travelers seek to give them peace. Elves across the island have long feared Shadowgale Forest as a haunted grove. In its northeastern woods, old stone ruins lie beneath the overgrowth. Ghost-like wind hollows drift there without rest, but they show no malice. Their sorrow points to a disaster that befell the ruins ages ago. On quiet nights, travelers near the ruins hear strange singing on the breeze. No mortal song sounds like it, and its deep melancholy unsettles those who hear it. Compassionate travelers believe the shades suffer in their endless lament. They seek the wind hollows to break their spectral bonds and grant them peace.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93172-44db28aae082a04e7b3d/1-0000.mp3", duration = 63.6342857, start = 0},
-  },
-}
-P.transport["quest:93317"] = {
-  hash = "c268e4",
-  fullHash = "c268e4",
-  text = "Crab Season. On Zephras, foragers hurry to gather Windsong crawlers before the brief season ends. Cultists have made the shores perilous, so locals call for help. For a few weeks each year, Windsong crawlers appear along Windsong Lake’s freshwater shores and the rivers that feed it. Their meat is a rare harvest, but the season soon passes. Cultists patrol the wilderness around Zephras, putting local foragers in danger. The journey to Windsong Lake is too hazardous for gatherers alone. Unless you brave the shores and the ill-tempered crabs, this brief harvest may be lost.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93317-05ccb3011679e282a405/1-0000.mp3", duration = 36.7281633, start = 0},
-  },
-}
-P.transport["quest:93318"] = {
-  hash = "1e3ef0",
-  fullHash = "1e3ef0",
-  text = "WANTED: Vulgara the Insatiable. In the Shen'dar Highlands, Vulgara the Insatiable terrorizes travelers and nearby settlements. Constable Aonda has called for a Peacekeeper bounty, with Vulgara's head to be brought to Danarii Bellowveil. Constable Aonda has named Vulgara the Insatiable an immediate danger to the highlands. The massive winged vuldren roosts southwest of Shen'dar Village, where she terrorizes travelers and local settlements. The Peacekeepers call on bounty hunters to end the threat. Bandits and a shadowy cult trouble the Peacekeepers across the region. Slaying Vulgara would ease the danger to local people and keep the skies over Shen'dar safe. Then the defenders could focus on civil defense.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93318-fb89e9baf62ff2188074/1-0000.mp3", duration = 44.042449, start = 0},
-  },
-}
-P.transport["quest:93319"] = {
-  hash = "9c3eb7",
-  fullHash = "9c3eb7",
-  text = "Pilfered Windstones. On Zephras, stolen windstones have left emergency stores short. The Highlands Bandits took them while Aonda's few peacekeepers guard against growing cultist numbers at Falaath Village. Windstones keep daily life moving on Zephras. Each settlement keeps emergency stores for times of crisis, but village supplies began to run short. Then captured bandits from the northern Shen'dar Highlands were found carrying the stones. For months, the Highlands Bandits had slipped into local stockpiles, taking what they could while security was thin. Aonda is responsible for village defense, and has refused to approve a raid on the northern cave. The settlement has too few peacekeepers to spare. To the south, cultists are multiplying at Falaath Village, so the guards must hold their posts against that threat. With the peacekeepers pinned down, independent adventurers must face the bandits and recover the stolen windstones.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93319-8748f0c3ad89bfe8f1c1/1-0000.mp3", duration = 54.1779592, start = 0},
-  },
-}
-P.transport["quest:93320"] = {
-  hash = "5a1675",
-  fullHash = "5a1675",
-  text = "Tower Defense. At the fortified position, Tower Defense holds against overwhelming numbers. The defenders have kept the line for now, but exhaustion threatens to break it. The garrison holds back the first assault at a fortified position. Yet the attackers outnumber them and keep pressing forward. The surviving fighters are growing tired, and the line between survival and defeat grows thin. The garrison keeps its perimeter, but time favors the attackers. Prolonged skirmishes against superior numbers drain the defenders’ strength. They need a decisive move to break the stalemate before their lines buckle.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93320-2c0bc9ce4a5d3f345cca/1-0000.mp3", duration = 36.3363265, start = 0},
-  },
-}
-P.transport["quest:93461"] = {
-  hash = "ffea63",
-  fullHash = "ffea63",
-  text = "Welcome to Shen'dar Village. In Shen'dar Village, newcomers with Highborne blood are welcomed under a fragile truce. The High Order and Windshapers keep peace within the settlement, while old rivalries simmer beyond its borders. Newcomers with traces of Highborne blood go to the main lodge to pay respects to Rathiril Sunlance, elder of the High Order. They also seek a room from Coriella Calmbreeze, the local innkeeper. Different elven factions share this haven, but their truce remains tense. Daily life brings rooms and odd jobs, yet friction persists between the High Order and the Windshapers. In the village square, both groups observe civility. Beyond the settlement, away from prying eyes, old rivalries go unchecked.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93461-ba595c763d65ba687ab2/1-0000.mp3", duration = 45.6359184, start = 0},
-  },
-}
-P.transport["quest:93680"] = {
-  hash = "bb9d2c",
-  fullHash = "bb9d2c",
-  text = "Key to the City. Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep. In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93680-d6f08b99b5a7466b1bf7/1-0000.mp3", duration = 54.3608163, start = 0},
-  },
-}
-P.transport["quest:93735"] = {
-  hash = "7df5a6",
-  fullHash = "7df5a6",
-  text = "The Broken Construct. In Valanaar, a damaged construct threatens one of the island’s last working relics. Riaani Nightwind has gone to the city’s western edge to examine it. The old machines carry a history reaching back to the spirits of the wind. Long ago, the spirits of the wind gave the island’s people magical instruments, devices, and animated constructs. Across generations, the Windshapers cared for these gifts. Then the spirits departed, and their patronage ended. Most creations fell into disrepair. Only a handful still work. One of Valanaar’s last working constructs has been damaged. Its loss would further diminish the island’s dwindling heritage. Artisan Riaani Nightwind was sent to the city’s western edge to examine the machine and try to repair it. These ancient devices are fragile, and she needs aid.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93735-70271f7a649b89e382b7/1-0000.mp3", duration = 53.1330612, start = 0},
-  },
-}
-P.transport["quest:93736"] = {
-  hash = "76432e",
-  fullHash = "76432e",
-  text = "Unwelcome Spirits. The Windshapers seek the spirits of the wind, gone from their reach. Now hollows appear in Shadowgale Forest, and the order gathers their essences to learn what drove the true spirits away. The Windshapers have lost communion with the spirits of the wind. They seek to learn why the spirits left and what might bring them back. Their departure has left a void in the local elemental atmosphere. After the wind spirits departed, strange sprites called hollows appeared in Shadowgale Forest to the north. The Windshapers had not known of them before the spirits vanished. The hollows seem tied to the spirits’ absence, and their essences may help reveal what they are.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93736-959469c7aba168daa1c8/1-0000.mp3", duration = 41.3779592, start = 0},
-  },
-}
-P.transport["quest:93737"] = {
-  hash = "1db9e5",
-  fullHash = "1db9e5",
-  text = "The Broken Construct. Ayessa has sent you to help Riaani Nightwind with a disabled construct. Hear his plans and learn what he needs done to set the machine right. Ayessa sends you to help Riaani Nightwind with a damaged construct. He is deep among its inner parts, searching for the cause of the trouble. Surprised by your arrival, Riaani doubts an untrained traveler can manage delicate mechanical work. Once he climbs out, he agrees to explain what needs doing. A construct depends on precise assembly and careful calibration. When it breaks down, its engineer faces serious work. Riaani Nightwind is shoulder-deep in mechanical parts and needs another pair of hands to gather materials or test the machine in the field. Listen to his briefing to learn how you can help bring the inert construct back to working order.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93737-9cee7273cd302ed00cd1/1-0000.mp3", duration = 48.2481633, start = 0},
-  },
-}
-P.transport["quest:93738"] = {
-  hash = "8ba0c8",
-  fullHash = "8ba0c8",
-  text = "The Broken Construct. A Windshaper asks you to tell Ayessa Dawnsinger what you learned about the broken construct. The High Order’s work with wind spirit magic has drawn concern. Take what you learned to Ayessa Dawnsinger in Valanaar. The High Order has tested the Windshapers’ patience with its experiments in wind spirit magic. It has also touched knowledge under Windshaper purview. Ayessa can decide what should happen next.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93738-4ee1ce98ec5b1f33a892/1-0000.mp3", duration = 24.7118367, start = 0},
-  },
-}
-P.transport["quest:93739"] = {
-  hash = "9e7552",
-  fullHash = "9e7552",
-  text = "Exploring the Horde. From Grommash Hold, you travel to meet the leaders who guide the Horde. The journey carries you from Orgrimmar to the Darkspear trolls, the tauren and the Forsaken. Nazgrel sends you from Grommash Hold into the wider Horde lands. The fortress stands at the heart of Orgrimmar, where Nazgrel and the Warchief's council oversee military affairs. You leave Durotar's red canyons behind to learn how far the peoples beneath the red banner are joined. You meet the leaders of the Horde's allied peoples: Shadow Hunter Vol'jin of the Darkspear trolls, High Chieftain Cairne Bloodhoof of the tauren, and Lady Sylvanas Windrunner, queen of the Forsaken. Speaking with each in person lets you see the ties between Kalimdor and Lordaeron, across the Great Sea, where plague has scarred the land.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93739-a8a6850b2bf6f9eaee02/1-0000.mp3", duration = 50.2334694, start = 0},
-  },
-}
-P.transport["quest:93740"] = {
-  hash = "76a86a",
-  fullHash = "76a86a",
-  text = "Blood for Blood. Several Windshaper novices lie dead in the Highlands, and the Windshapers suspect the Al'Aketh. Ayessa sends you north to the Gustberry Lowlands to answer the killings and bring back the fallen cultists' windstone prayer charms. Several Windshaper novices have been found slain in the Highlands. Proof is scarce, yet the Windshapers suspect the Al'Aketh cultists. Their zealotry makes them the chief suspects. The Windshapers' creed demands an eye for an eye, so they will not let the killings go unanswered. Ayessa calls for you to strike at any Al'Aketh you find north in the Gustberry Lowlands. She asks you to bring back the windstone prayer charms carried by the fallen cultists, as proof of their deaths. The Windshapers see this strike as an answer to the cultists' long fanaticism.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93740-2538f9be3f3e444b767d/1-0000.mp3", duration = 49.7371429, start = 0},
-  },
-}
-P.transport["quest:93791"] = {
-  hash = "3f407b",
-  fullHash = "3f407b",
-  text = "Speak with Belann. In Valanaar, aspiring spellcasters are sent to meet Belann Windwood. The High Order honors the making of a personal spell focus as a long-held tradition. As students grow in command of magic, the High Order turns to an ancient custom to test and strengthen their talents. Making a spell focus of their own, whether a wand or staff, is one of the order’s most enduring traditions. It is for students who wish to bind their growing power to an implement they have made themselves. In Valanaar, initiates seek Belann Windwood for help with this craft. He has spent more than a century forging staves and wands for the High Order. A trusted mentor, Belann welcomes dedicated students and guides them through the craft and history of their magical tools.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93791-f09d642e506f84ad0513/1-0000.mp3", duration = 46.3412245, start = 0},
-  },
-}
-P.transport["quest:93797"] = {
-  hash = "f80d56",
-  fullHash = "f80d56",
-  text = "Boughs in the Wind. In Valanaar, Belann Windwood guides apprentices through the old rite of shaping a spell focus. They seek a wind-touched branch near Falaath Village, as fewer people in Zephras are born with a gift for magic. Young spellcasters in Zephras begin this old rite when they show a gift for magic. In Valanaar, Belann Windwood guides apprentices as they gather a fallen branch from the region’s oldest trees. The boughs keep traces of wind, making them fit to channel spells. The strongest boughs lie near the wind shrine just south of Falaath Village, where elemental currents gather. Tradition says a branch may choose its spellcaster, and some say it sings softly to those able to wield its power. For elders like Belann, each apprentice who completes the rite helps carry their culture forward. Fewer people in Zephras are born with a gift for magic each passing year.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93797-8a403f4329ba2efd160a/1-0000.mp3", duration = 53.4987755, start = 0},
-  },
-}
-P.transport["quest:93835"] = {
-  hash = "0b24c1",
-  fullHash = "0b24c1",
-  text = "Confront Lorthuna. An injured mage needs you to follow Ayessa Dawnsinger and Elaadrin Evengale through a portal to the Rohashi Spires. There, they face High Priestess Lorthuna and need your help. Lorthuna fled through a portal to the spires above. Ayessa Dawnsinger and Elaadrin Evengale followed moments ago, but their companion is too badly hurt to go with them. Join the two mages through the portal as they face the High Priestess.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93835-25218b93866ddd4f32fa/1-0000.mp3", duration = 26.0440816, start = 0},
-  },
-}
-P.transport["quest:93836"] = {
-  hash = "d9fdb0",
-  fullHash = "d9fdb0",
-  text = "The Fate of Zephras. After Lorthuna falls, word of danger reaches Valanaar. Zephras Isle's wards have failed, and Ayessa proposes a journey to Azeroth. High Elder Talaanis Shadowsong must hear what has happened. Lorthuna has fallen after the battle above the Shrine of Akir. Yet Zephras Isle has paid dearly for the victory. Its ancient wards, which hid it from Al'Akir, have collapsed. The floating sanctuary now lies exposed in the Windlord's domain. A messenger crosses the isle with word for Valanaar.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93836-5433e412de6885eba992/1-0000.mp3", duration = 33.5412245, start = 0},
-  },
-}
-P.transport["quest:93926"] = {
-  hash = "e3b7c1",
-  fullHash = "e3b7c1",
-  text = "The Western Watch. At the outpost southwest of the settlement, cultists press the defenders, and local leaders call them back. They judge the tower too costly to hold and turn to protecting the village. The western watchtower guards the frontier southwest of the settlement. Cultists have renewed their assault, and local leaders decide the isolated post costs too many lives to defend. So they prepare orders recalling the peacekeepers. They hope to spare more lives and gather every defender to protect the village and its people.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93926-27bb7e941965754375d9/1-0000.mp3", duration = 31.2685714, start = 0},
-  },
-}
-P.transport["quest:93927"] = {
-  hash = "3047f5",
-  fullHash = "3047f5",
-  text = "A Last Request. On Zephras, a fallen peacekeeper carries a message that may reveal his final moments. His bloodstained note points to the duty he left unfinished. You find a dead peacekeeper in the field with a bloodstained note in his hands. When you examine him, the note slips free. On Zephras, peacekeepers risk their lives to keep order. His last words may tell what happened to him. The bloodied parchment holds the peacekeeper's final plea or instructions. Whoever killed him left his duty unfinished. Read the clues and complete his final mission. The note points the way to answer his dying call.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93927-6d5e8019c355f6923b72/1-0000.mp3", duration = 36.6236735, start = 0},
-  },
-}
-P.transport["quest:93948"] = {
-  hash = "d4b1ff",
-  fullHash = "d4b1ff",
-  text = "Deliver the Signet. A traveler carries the recovered Shadowsong Family Signet to High Elder Talaanis Shadowsong in Valanaar. Its return confirms his nephew's death on Zephras Isle, and Talaanis points the traveler toward the local peacekeepers. A traveler carries the Shadowsong Family Signet to Valanaar, recovered from an isolated tower. The grim token is meant for Talaanis Shadowsong, the High Elder of Zephras Isle. His people love him, though hardship weighs on the settlement. The ring confirms his nephew has perished, and Talaanis receives the heirloom with condolences. In Valanaar, High Elder Talaanis thanks the traveler for returning the signet, though grief shadows him. He recognizes the traveler's skill and points them to Captain Valennia Stormfist, who leads the Valanaar peacekeepers. The settlement faces strained circumstances and mounting pressures. Its protectors welcome capable hands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93948-c6a3325106e830b1ab30/1-0000.mp3", duration = 56.6334694, start = 0},
-  },
-}
-P.transport["quest:93949"] = {
-  hash = "aa5c85",
-  fullHash = "aa5c85",
-  text = "Bugged. In Valanaar, seasonal skyhopper swarms now threaten the settlement. High Order mages found listening enchantments on slain insects, and local cultists are suspected of spying through them. When skyhopper season comes, lowland insects swarm around Valanaar. High Order mages inspected several slain skyhoppers and found listening enchantments on them. Local cultists are suspected of using the seasonal pests to eavesdrop on the city. The enchanted skyhoppers look like ordinary insects, so Valanaar's protectors must cull the whole swarm. Clearing them out denies the hostile cult intelligence and ends its magical surveillance of the city.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93949-d7c197f753ecee89e0c6/1-0000.mp3", duration = 42.8669388, start = 0},
-  },
-}
-P.transport["quest:93951"] = {
-  hash = "f0888e",
-  fullHash = "f0888e",
-  text = "A Little Beauty. In the Shen'dar Highlands, the Skyborne gather hippogryph down near Zephras. Its bright plumes bring beauty and small joys to the village through hard times. Wild hippogryphs nest on Zephras Isle, southwest of the village in the Shen'dar Highlands. They are territorial and can trouble travelers nearby. Yet they shed vibrant, silky soft down, which the Skyborne gather to weave into hair ornaments. For Zephras's artisan, gathering feathers for hair is more than vanity. Even in hard times, small joys shared with others help keep the community's spirit alive. Beauty gives each day in the village something to celebrate.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93951-bce15396a5d889891307/1-0000.mp3", duration = 40.437551, start = 0},
-  },
-}
-P.transport["quest:93958"] = {
-  hash = "dcb084",
-  fullHash = "dcb084",
-  text = "The Inner Sanctum. At the Shrine of Akir, Valennia Stormfist's assault has gone silent. Her force breached the deepest chamber amid fierce fighting, and now allies outside fear for those within. Valennia Stormfist led her detachment into the inner sanctum of the Shrine of Akir after a hard assault. Fighting sounded from deep within the chambers, fierce and desperate. Then the noise stopped without warning. Allies waiting outside can only fear the worst.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_93958-9b2e2584df99cf25b3d9/1-0000.mp3", duration = 30.0146939, start = 0},
-  },
-}
 P.transport["quest:94"] = {
   hash = "17e7ca",
   fullHash = "17e7ca",
   text = "A Watchful Eye. At the Tower of Azora, Theocritus watches Morganth from afar. He sends travelers east into Redridge Mountains to place an enchanted glyph at an old lion statue near the Tower of Ilgalar. From his tower in eastern Elwynn Forest, Theocritus watches the hills. His rival, Morganth, is a powerful sorcerer who has claimed the Tower of Ilgalar in Redridge Mountains. Fearing Morganth's dark magic may cross the border, Theocritus made the Eye of Azora to watch the rogue wizard from afar. A distant view cannot show Theocritus what Morganth plans. So he gives travelers the Glyph of Azora and sends them to the Old Lion Statue near the Tower of Ilgalar. The statue has kept watch there for decades.\n\nSet the glyph into the worn hollow at its base. An arcane link then reaches back to Azora, letting Theocritus look into his rival's mind.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_94-a162d71ee4afaead5b9a/1-0000.mp3", duration = 72.6204082, start = 0},
-  },
-}
-P.transport["quest:94003"] = {
-  hash = "fbaac5",
-  fullHash = "fbaac5",
-  text = "The Skybreaker Bulwark. At the Shrine of Akir, Zaal Stormshield holds the Skybreaker Bulwark. The last of the Skybreakers seeks its return from the cultist who took it. On Zephras Isle, the Al'Aketh have slain the Skybreakers, leaving one survivor. The last of the family bears deep sorrow and bitter shame over the loss of their greatest heirloom. The cultist Zaal Stormshield took the Skybreaker Bulwark and now lurks at the Shrine of Akir. By family tradition, the Skybreaker Bulwark protects anyone truly worthy to wield it. The last Skybreaker believes Zaal unworthy of its divine favor. So the survivor seeks an adventurer to strike down the thief at the Shrine of Akir and reclaim the ancestral shield. In return, the Skybreaker offers training in the Skybreaker Defense technique.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94003-a4c33fef97a565bf22c0/1-0000.mp3", duration = 50.964898, start = 0},
-  },
-}
-P.transport["quest:94007"] = {
-  hash = "d1c38c",
-  fullHash = "d1c38c",
-  text = "Taming the Beast. In Valanaar, Quel'ana Quickgale can teach you to tame a beast. Your time in the highlands has prepared you to seek an animal companion. Your host believes you are ready to seek an animal companion after your time in the highlands. Go to Valanaar and speak with Quel'ana Quickgale. He will teach you the art of beast taming.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94007-0d3224ec3ffd1c2d85dc/1-0000.mp3", duration = 19.9053061, start = 0},
-  },
-}
-P.transport["quest:94013"] = {
-  hash = "83f8a2",
-  fullHash = "83f8a2",
-  text = "Taming the Beast. Quel'ana Quickgale gives you one last trial in taming a Vuldren Alpha. Mastering it prepares you for the deeper teachings of your class. Quel'ana gives you a Taming Rod and sends you to the Gustberry Lowlands. There, you are to tame a Vuldren Alpha. Then return the rod to him in Valanaar. This trial proves your mastery and prepares you for deeper class teachings.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94013-618ee5b4ea8cd9c2f3d4/1-0000.mp3", duration = 23.4579592, start = 0},
-  },
-}
-P.transport["quest:94050"] = {
-  hash = "7cd87d",
-  fullHash = "7cd87d",
-  text = "Training the Beast. In Valanaar, you meet Quel'dora Quickgale to learn how to train your pet. Her teaching helps you care for and guide it. Your fellow hunter sends you to his sister, Quel'dora Quickgale, in Valanaar. You already know how to tame a pet. Now Quel'dora can teach you to train your companion. Quel'dora teaches you to guide your pet, teach it new abilities, feed it, and revive it if it falls in battle. She urges you to respect the balance and remain in awe of the nature around you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94050-97d352fcd5e497731c53/1-0000.mp3", duration = 30.9812245, start = 0},
   },
 }
 P.transport["quest:942"] = {
@@ -7905,252 +4337,12 @@ P.transport["quest:942"] = {
     {file = "Audio/Transport/full_quest_942-a64795117729c851ec97/1-0000.mp3", duration = 55.8759184, start = 0},
   },
 }
-P.transport["quest:94222"] = {
-  hash = "331a9a",
-  fullHash = "331a9a",
-  text = "Craftsman's Writ: Iridescent Hammer. A customer awaits one Iridescent Hammer, with delivery and payment details set down in a writ. Its transferable mark lets the holder complete the exchange. The customer asks for one Iridescent Hammer. Bring the writ to complete the exchange at the marked location.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94222-d42090af74d998252912/1-0000.mp3", duration = 17.4497959, start = 0},
-  },
-}
-P.transport["quest:94243"] = {
-  hash = "6f7ac4",
-  fullHash = "6f7ac4",
-  text = "Craftsman's Writ: Heavy Quiver. A faded Craftsman's Writ: Heavy Quiver asks you to bring one Heavy Quiver to a marked location and gives payment details. The note asks you to acquire one Heavy Quiver and bring it to the place marked on your map. Keep the writ with you to complete the exchange.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94243-6364f143231a0eae001c/1-0000.mp3", duration = 17.2408163, start = 0},
-  },
-}
-P.transport["quest:94253"] = {
-  hash = "9cf24b",
-  fullHash = "9cf24b",
-  text = "Craftsman's Writ: Colorful Kilt. A customer seeks a disguise for slipping into Zul'Gurub, and Craftsman's Writ: Colorful Kilt names the garment they want. The transferable writ asks you to bring one Colorful Kilt to the marked location. The customer plans to pass through Zul'Gurub's gates dressed as one of its ritualists, and says the kilt suits the disguise.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94253-af0b031f1c26b1bd8c04/1-0000.mp3", duration = 21.4465306, start = 0},
-  },
-}
 P.transport["quest:943"] = {
   hash = "adba58",
   fullHash = "adba58",
   text = "The Absent Minded Prospector. In Darkshore, Remtravel's dig sends his search across the Great Sea. In Menethil Harbor, Archaeologist Flagongut hopes to join Remtravel's finds with his own fossil and the lost Stone of Relu, revealing the relics' hidden powers. You once helped the distracted Prospector Remtravel during an escort through northern Darkshore. Now the search crosses the Great Sea to the Wetlands marshes. Prospector Whelgar keeps Flagongut's original fossil at his excavation site. After reviewing the finds, Archaeologist Flagongut believes the Stone of Relu can unlock the mysterious powers within the fossils.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_943-bcd664566ef8fb5326cf/1-0000.mp3", duration = 37.9297959, start = 0},
-  },
-}
-P.transport["quest:94369"] = {
-  hash = "34d3f9",
-  fullHash = "34d3f9",
-  text = "The Fate of Zephras. In Valanaar, you bring Talaanis Shadowsong word of the danger facing Zephras. The fallen wards leave the isle exposed to Al'Akir, and its people must decide how to protect their home. You tell Talaanis what happened above the Shrine of Akir. You share Elaadrin's plan to leave Zephras Isle. High Elder Shadowsong needs to understand the danger and why you were sent to Azeroth. The people of Zephras must find a way to save their home.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94369-856ff8c0e69cf7b9b1b9/1-0000.mp3", duration = 28.5257143, start = 0},
-  },
-}
-P.transport["quest:94373"] = {
-  hash = "e8684a",
-  fullHash = "e8684a",
-  text = "Call of Earth. At Anvilmar, Teo Hammerstorm tests initiates who seek the earth's favor. They face Frostmane trolls to the south and claim bear pendants before receiving an earthen sapta. In Coldridge Valley, Teo Hammerstorm guides initiates at Anvilmar along the earth's rugged path. He teaches young wanderers to heed the mountains and see the land as firm ground. Stone can shield those who respect it. The earth shares its wisdom only with those who show grit and patience. To prove they are ready, initiates face Frostmane trolls in a cave south of Anvilmar. The trolls make coarse pendants from Iceclaw bears that roam the frozen heights. Recovering two bear pendants from the den proves the stubborn resolve and strength the elemental spirits expect.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94373-3febeb18922df3277b75/1-0000.mp3", duration = 44.7216327, start = 0},
-  },
-}
-P.transport["quest:94374"] = {
-  hash = "8ab0a2",
-  fullHash = "8ab0a2",
-  text = "Call of Earth. At a mountain Spirit Stone, an initiate drinks Earth Sapta and binds spirit to the world's enduring foundations. The draught opens the way to elemental awareness, teaching humility and patience amid snow and rock. At an isolated mountain shrine, you drink Earth Sapta, an enchanted brew. Ancient elemental magic gives it power to show mortal eyes elemental spirits and subtle currents beyond ordinary sight. Its strength makes the shrine the only safe place to drink it, where spirit and stone can form their bond. High on a snow-swept mountain, the Spirit Stone waits at the end of a secluded path. You travel through bitter cold to stand humbly before the ancient rock. The living earth welcomes those who come without pride. Mountains give lasting physical strength, while the vast, steady plains teach patience. Communion with stone is a foundational rite for spiritual pathfinders. Wind, fire, and crashing water carry restless fury, while earth teaches discipline and quiet resilience. You absorb earth's still essence, preparing mind and body for the conflicting, chaotic dualities of the more volatile elements that roar across the world.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94374-727123a8f78586cc4299/1-0000.mp3", duration = 75.755102, start = 0},
-  },
-}
-P.transport["quest:94375"] = {
-  hash = "a8581e",
-  fullHash = "a8581e",
-  text = "Call of Earth. Young shaman in Dun Morogh seek the earth spirits’ favor through Call of Earth. They carry rough quartz to Teo Hammerstorm in Anvilmar, where he shapes it into the heart of an Earth Totem. In Dun Morogh, young shaman begin their spiritual path by seeking the earth spirit and listening to its teachings. The spirit gives them rough quartz, a humble stone meant to become the heart of an Earth Totem. The rite calls for humility, patience, strength, and resolve. An initiate learns from the earth and does not measure worth by size. Teo Hammerstorm waits in Anvilmar for the initiate to bring back the rough quartz. He judges whether the mountain spirits have acknowledged them, and sends away anyone who arrives without the stone. Bring him the quartz, and he shapes it into an Earth Totem. The totem binds the young shaman to the strength of the world's roots.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94375-891acc79df7abbeed4ca/1-0000.mp3", duration = 52.4016327, start = 0},
-  },
-}
-P.transport["quest:94411"] = {
-  hash = "3b04eb",
-  fullHash = "3b04eb",
-  text = "Meddlesome Mages. In the Shen'dar Highlands, High Order apprentices gather at sacred stones and meddle with magic. Their spells threaten the fragile forces that hold the island together. North of the village, High Order apprentices gather around ancient standing stones. Repeated warnings have not turned them from the sacred sites. They press on with their arcane studies, while local leaders hesitate to shed the blood of their shen'dorei kin. So they call for outside help to drive the apprentices away before lasting harm is done. Delicate mystical forces bind the island's land together and keep it safe. The defenders fear the High Order gives little thought to the danger in its spellcraft. One careless spell could break those bindings. Then ruin would come to everyone who lives there.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94411-a4fe21747bdf3446a32f/1-0000.mp3", duration = 46.6546939, start = 0},
-  },
-}
-P.transport["quest:94413"] = {
-  hash = "9f2ef6",
-  fullHash = "9f2ef6",
-  text = "A Magical Affront. On Zephras, A Magical Affront sets the local order against the Windshapers. The order seeks to harness and study the surfaced leylines, while the Windshapers see them as scars to heal. Their conflict has reached the southwestern forest. Ancient conduits of raw magic have recently broken through the earth on Zephras. For scholars and practitioners of the local order, this is a rare boon. Direct contact with the leylines gives them new insight into the arcane currents across the region and deepens their mastery of magic. The Windshapers see the exposed energies as open wounds and scars across Zephras. They gather at the rupture sites to suppress or mend the leylines and heal the earth.\n\nThe order depends on that raw power, so it sees their efforts as a threat. It sends you southwest into the forest to drive the Windshapers back.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94413-74bb73fd95ba066b7d6f/1-0000.mp3", duration = 51.7746939, start = 0},
-  },
-}
-P.transport["quest:94427"] = {
-  hash = "78e3cd",
-  fullHash = "78e3cd",
-  text = "A Lesson in Divinity. Your order sends you to Tanis Alderwood in Undercity’s Trade Quarter. There, a chance to show grace comes through good deeds. Your order teaches that divinity means doing good for its own sake, not seeking godhood. It says tragedy brought you here. Now it asks you to find Tanis Alderwood in Undercity’s Trade Quarter. Tanis is in need and may benefit from your grace.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94427-650d29c3405fa295d4ae/1-0000.mp3", duration = 23.8236735, start = 0},
-  },
-}
-P.transport["quest:94434"] = {
-  hash = "0319ea",
-  fullHash = "0319ea",
-  text = "A Lesson in Divinity. In the Undercity, Tanis Alderwood asks you for fresh cloth. His wife is falling apart, and he hopes to wrap her until an apothecary is free. The apothecaries are occupied with the Dark Lady's business. So Tanis asks you to bring linen for his wife. He hopes the cloth will hold her together while they wait for help.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94434-3df9d7ee059611983fb3/1-0000.mp3", duration = 20.48, start = 0},
-  },
-}
-P.transport["quest:94435"] = {
-  hash = "45401f",
-  fullHash = "45401f",
-  text = "A Lesson in Divinity. Tanis Alderwood thanks you for your help and calls you a friend. Danitha Morr sees this small act of service as a way to strengthen the Forsaken’s connection to the Light. Danitha Morr says your help may strengthen the Forsaken’s connection to the Light. Mistrust and conspiracies linger among the Dark Lady’s followers. The Forsaken must meet that fear with courage and righteousness. Danitha gives you a symbol for what comes next.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94435-667bcca4395f19cd8978/1-0000.mp3", duration = 26.9844898, start = 0},
-  },
-}
-P.transport["quest:94436"] = {
-  hash = "f924f3",
-  fullHash = "f924f3",
-  text = "A Lesson in Divinity. In A Lesson in Divinity, Danitha Morr asks you to show what a priest can do with the Symbol of Life. Deathguard Billmuth at Bandarion Keep has come seeking aid for a friend. Billmuth says the priests turned him away, and his friend may have no one else to turn to. He is not proud to ask you, but he needs aid for the Forsaken. The Symbol of Life is meant to show your ability to channel the Light. Handling it may cause discomfort. Its power can still be your ally and guide, even to the Forsaken, whose creation is tied to a force opposed to the Light.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94436-b075f4e6c6b2469def17/1-0000.mp3", duration = 37.3028571, start = 0},
-  },
-}
-P.transport["quest:94438"] = {
-  hash = "1a0738",
-  fullHash = "1a0738",
-  text = "A Lesson in Divinity. Danitha Morr sends you to Venomweb Vale to find Deathguard Falgan. He and his companion were separated after learning the Scarlet Crusade plans an attack on Brill. Deathguard Falgan went with Billmuth to scout Scarlet activity in Venomweb Vale. They learned the Scarlet Crusade plans some kind of attack. Now Falgan asks whether you will help the Forsaken further.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94438-ac3915ff8e1a67ac14e9/1-0000.mp3", duration = 22.7787755, start = 0},
-  },
-}
-P.transport["quest:94440"] = {
-  hash = "116238",
-  fullHash = "116238",
-  text = "A Lesson in Divinity. Deathguard Billmuth needs you to recover Scarlet Crusade attack plans from Venomweb Vale. The Deathguard expects an assault and hopes the plans will help prepare an ambush. Scarlet Crusaders carry deployment orders in their satchels, and the Deathguard expects an attack. Bring a copy of the plans to Deathguard Billmuth at Bandarion Keep. Then the Deathguard can prepare an ambush.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94440-cde9b1cd3a2072ebdcfa/1-0000.mp3", duration = 23.6408163, start = 0},
-  },
-}
-P.transport["quest:94441"] = {
-  hash = "245369",
-  fullHash = "245369",
-  text = "A Lesson in Divinity. A fellow Forsaken asks you to thank Danitha Morr for the paladins’ service at Bandarion Keep. Your work has earned the Deathguard’s gratitude and brings a gift of redemption. A fellow Forsaken asks you to carry their thanks to Danitha Morr at Bandarion Keep. The rest of the Deathguard will hear of the service you and the other paladins performed. They are proud to count you among the Forsaken and trust the Dark Lady watches over you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94441-3f020dd28902c4310c3d/1-0000.mp3", duration = 27.7159184, start = 0},
-  },
-}
-P.transport["quest:94449"] = {
-  hash = "475c44",
-  fullHash = "475c44",
-  text = "Call of Fire. In Dun Morogh, an elder sends shaman initiates to Bruegs Kindleborn to test their readiness for the fire sapta. They have already learned patience and grounding through earth. After proving patience and grounding through earth, shamans face a more volatile force: the fire elemental spirit. Stone holds steady, but fire promises chaos, ruin, and fierce energy. So an elder sends the initiate across Dun Morogh’s snow-laden peaks to seek guidance before trying to harness its wild heat. Bruegs Kindleborn keeps watch in a secluded cave high in the mountains above South Gate Outpost. When an initiate arrives with an elder’s recommendation, Bruegs prepares them for the sapta of fire. He warns that flame’s hunger to burn and consume is easily stirred. To master it, a shaman must know when to hold back.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94449-422dcc79b9d45583b8d9/1-0000.mp3", duration = 50.7820408, start = 0},
-  },
-}
-P.transport["quest:94465"] = {
-  hash = "345fa9",
-  fullHash = "345fa9",
-  text = "Call of Fire. You carry the Torch of the Dormant Flame through Loch Modan to seek Braldir Ashmantle. The trial tests whether an initiate is ready to wield elemental flame. To earn the totem of fire, you carry the unlit Torch of the Dormant Flame into the crags of Loch Modan. Beyond the stone carvings of the Valley of Kings, a steep path climbs to an isolated mountain summit. There the elements hold sway, far from the roads travelers know. Braldir Ashmantle watches over the Shrine of the Dormant Flame on a high, windswept peak. Unprepared wanderers and fortune hunters find only silence and bare stone. But when you arrive as a true initiate bearing the sacred torch, Braldir reveals the elemental power sleeping within the shrine's brazier, waiting to be rekindled.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94465-8ecf98529776160c6c24/1-0000.mp3", duration = 49.7110204, start = 0},
-  },
-}
-P.transport["quest:94466"] = {
-  hash = "f31d36",
-  fullHash = "f31d36",
-  text = "Call of Fire. In Loch Modan, initiates seek the Eternal Flame and the fire totem it grants. Braldir Ashmantle guides them through a trial that calls for reagents from kobolds and troggs. They prepare a fire sapta and learn that flame can forge and give life as well as destroy. In Loch Modan, Braldir Ashmantle guides initiates who seek the power of flame. Before they can commune with fire spirits, they must attune their mortal spirits with a sacred draught called a fire sapta. Without it, the Eternal Flame would consume them instead of enlightening them. Braldir asks each petitioner to gather two reagents from hostile valley dwellers and prove their resolve. A fire sapta needs substances rich in elemental power. In the north, Tunnel Rat Geomancers gather sticky fire tar in their warrens to fuel their subterranean magic. In the south, Stonesplinter Seers carry reagent pouches filled with primitive elemental charms across the hills. Claiming these items means facing two of Loch Modan’s most entrenched pests, and gaining what is needed to bind an initiate’s soul to flame. Once the reagents are gathered, Braldir Ashmantle teaches patience alongside the power to destroy. To him, fire means more than fury and ash. It is life, the craft of the forge, and the breath of creation. Mastery calls for balance: shadow gives meaning to light, and flame keeps stone from being only a cold memory. To master fire, an initiate must learn when to blend rather than burn.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94466-534acd7991300b99990d/1-0000.mp3", duration = 95.3991837, start = 0},
-  },
-}
-P.transport["quest:94467"] = {
-  hash = "ad0989",
-  fullHash = "ad0989",
-  text = "Call of Fire. At the shrine, an initiate drinks fire sapta to face the trial called Call of Fire. The rite asks them to subdue a spirit and offer its embers to the sacred brazier. An initiate receives prepared fire sapta, guided by elemental lore. The draught awakens their senses to the unseen world. After drinking at the shrine, they climb toward the peak, where mortal sight gives way to primal forces. There, a dormant manifestation of fire awaits their challenge. The Minor Manifestation of Fire tests an initiate's resolve and endurance. It does not attack until challenged, then grows fiercer with each passing moment. When subdued, it yields glowing embers. Carry them to the brazier atop the Shrine of Eternal Flame to kindle the torch and win the spirit's lasting favor.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94467-dce06ddd43fcf09b15f3/1-0000.mp3", duration = 50.4163265, start = 0},
-  },
-}
-P.transport["quest:94468"] = {
-  hash = "c70cbf",
-  fullHash = "c70cbf",
-  text = "Call of Fire. Above Loch Modan, an initiate kindles the flame that must reach Dun Morogh. Bruegs Kindleborn awaits its return and judges the traveler's command of the elements. An initiate lights the Torch of Eternal Flame on a mountain ridge above Loch Modan. The flame marks the beginning of a deeper bond with the elements. From there, the initiate carries it down the trails and into the snowy vales of Dun Morogh. In Dun Morogh, Bruegs Kindleborn awaits the traveler. He is an elemental mentor who judges whether the traveler's inner fire has taken hold. The blazing torch proves the initiate's will and reverence for fire. Bruegs then grants the Fire Totem, welcoming the flameborn into a lineage of elemental guidance for their kin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94468-59f31728002fe4c3ec97/1-0000.mp3", duration = 46.3934694, start = 0},
-  },
-}
-P.transport["quest:94484"] = {
-  hash = "aaad5f",
-  fullHash = "aaad5f",
-  text = "Unnerving Silence. In northeastern Shadowgale Forest, a druid enclave has gone silent. Since Ban'aethall fell into ruin, unrest has spread through the territory. After Ban'aethall fell into ruin, unrest stirred through the territory. Regular messages from the druid conclave in a cave in northeastern Shadowgale Forest have now stopped. Their allies have heard nothing, and worry grows as the forest grows more unsettled. You are sent into northeastern Shadowgale Forest to find Elegael Thornpaw, a prominent druid of the enclave. Has the conclave withdrawn deeper into communion with nature, or have the dangers that tore through Ban'aethall reached the cave? No one knows the enclave's fate.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94484-0fa51f1d958fcb001edf/1-0000.mp3", duration = 43.3110204, start = 0},
-  },
-}
-P.transport["quest:94485"] = {
-  hash = "ee6b6d",
-  fullHash = "ee6b6d",
-  text = "Tears of the Lady. In Shadowgale, Lady's Tear moss may keep Elegael's wounded companions alive. They are trapped in Nightclaw Den, and Elegael needs medicine from nearby trees. Elegael needs your help in Shadowgale. Wounded companions are trapped inside Nightclaw Den, critically injured and waiting for aid. Ordinary supplies are scarce, so you gather medicine from the surrounding woods. Their wounds cannot wait. Elegael needs Lady's Tear, a spindly moss clinging to tree bases across Shadowgale. Its secretion is viscous and sticky, with natural antiseptic properties. It seals open gashes and shields traumatic wounds from worsening in the damp wild. With enough moss, Elegael can prepare dressings to stabilize the fallen.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94485-fb8acdc82b8790194926/1-0000.mp3", duration = 46.7069388, start = 0},
-  },
-}
-P.transport["quest:94486"] = {
-  hash = "4300a9",
-  fullHash = "4300a9",
-  text = "Feathers for Binding. In Shadowgale Forest, healers need young shrieklings’ feathers to bind a healing poultice. The usually docile birds now attack travelers, making the plumage dangerous to gather. Field healers in Shadowgale Forest treat grave injuries with moss and antiseptic tree sap. Harsh weather can dry the sap or rob it of its strength. So they bind the poultice with young Shadowgale shrieklings’ feathers, which shield the wound and hold the medicine in place. Gathering the soft feathers has grown dangerous. Young Shadowgale shrieklings are usually docile woodland dwellers, but lately they have turned inexplicably aggressive. Their strong talons can inflict lethal wounds. Now the fledglings strike at passersby. Local caretakers mourn the need to cull young beasts. Yet emergencies threaten the region, and the shrieklings grow more dangerous. Thinning their numbers gathers vital curative materials and curbs a rising threat along forest paths. Each feather is treated with respect, so the beasts’ sacrifice is not wasted.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94486-6a2c3fe1ab43d82d9d43/1-0000.mp3", duration = 64.4702041, start = 0},
-  },
-}
-P.transport["quest:94487"] = {
-  hash = "61b435",
-  fullHash = "61b435",
-  text = "Unwanted and Unworthy. On Zephras, bloodshed in Shadowgale Forest drives Elegael to seek vengeance and recover stolen heirlooms for the High Elder. The Al'Aketh Cultists ambush the local druids in Shadowgale Forest. Elegael had thought these zealots harmless dreamers, with clouds between their ears. Now druid blood stains the forest floor, and Elegael demands swift retribution against the Footsoldiers and Stormchasers responsible. Elegael believes the cultists' betrayal has cost them their heritage. They no longer deserve the name shen'dorei, nor do their remains deserve the winds of their homeland. Many were young, their promising futures cut short by fanaticism.\n\nTheir bloodied heirlooms must return to the High Elder. There, the sacred items await a wiser and more worthy generation.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94487-f0b369c445f4f5a7512a/1-0000.mp3", duration = 52.2187755, start = 0},
-  },
-}
-P.transport["quest:94488"] = {
-  hash = "ef1d11",
-  fullHash = "ef1d11",
-  text = "The Ties That Bind. Elegael Thornpaw faces a traitor among Shadowgale Forest’s druids. Haalien vanished months ago, then joined the attacking cultists and rose to command them. Now Elegael orders his execution. Druids face a vicious cultist attack in Shadowgale Forest. Elegael Thornpaw finds Haalien’s scent over the slaughter. Haalien was a druid of the circle who vanished months ago, but he did not perish in the wilds. He joined the invading cultists and now commands their violent campaign against his former kin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94488-8fc39424dcf1cf95546a/1-0000.mp3", duration = 32.235102, start = 0},
-  },
-}
-P.transport["quest:94489"] = {
-  hash = "9415f6",
-  fullHash = "9415f6",
-  text = "The Wounds of Betrayal. In Shadowgale Forest, Elegael cares for the shen'dorei druids wounded in a terrible assault. Poultices are ready for Nightfang Den, north across the clearing, while her mate Jorel Windsinger is missing. Elegael tends the shen'dorei druids hurt in the assault on Shadowgale Forest. She has prepared poultices for her brethren sheltering in Nightfang Den, just north across the clearing. Few shen'dorei druids remain, and every survivor matters to their fragile enclave.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94489-633378121c119e19b63c/1-0000.mp3", duration = 29.5706122, start = 0},
-  },
-}
-P.transport["quest:94490"] = {
-  hash = "e79b96",
-  fullHash = "e79b96",
-  text = "Ripped Missive. Haalien bears a bloodied letter after an attack on a druid den in Shadowgale Forest. Its words reveal what the cultists sought and point toward danger within Valanaar. Haalien's missive gives a glimpse of the violence in Shadowgale Forest. Found after a fierce skirmish, the torn scrap bears grim news of cultists who attacked a local druid den. Its words offer clues to those seeking justice for the fallen.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94490-d2e8079f5213943bd5d1/1-0000.mp3", duration = 26.2008163, start = 0},
-  },
-}
-P.transport["quest:94491"] = {
-  hash = "6206c0",
-  fullHash = "6206c0",
-  text = "The Fate of the Den. At the druid den, survivors mourn their fallen after the cultist assault. The Fate of the Den reaches Lotheluum in Valanaar with a recovered missive and word of heavy losses. The dispatch reveals that someone in Valanaar has been feeding vital information to the enemy. Cultists struck the druid den and left its defenders battered and grieving for fallen comrades. Outside aid brought the immediate danger under control, but the physical and emotional devastation remains immense. The dead cannot be brought back, and the wounded survivors are too weak for the long trek. Lingering cultists still roam nearby.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94491-2692ccfccf30992ccd20/1-0000.mp3", duration = 37.0155102, start = 0},
-  },
-}
-P.transport["quest:94493"] = {
-  hash = "abe5a7",
-  fullHash = "abe5a7",
-  text = "A Sacrifice in Vain. Elegael Thornpaw fears the Al'Aketh Cultists will overwhelm the wounded in her den. A message meant for Valanaar has not reached them, leaving her to ask for help. The Al'Aketh Cultists fell upon Elegael Thornpaw's fellows with almost no warning. Many in her den are wounded or dying, and she does not know how long they can survive the attack. She had tried to send word to Valanaar, but the message did not get through. With no reinforcements in sight, Elegael asks you to help.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94493-0e9f8f089f8907beb15e/1-0000.mp3", duration = 29.5967347, start = 0},
   },
 }
 P.transport["quest:94494"] = {
@@ -8225,124 +4417,12 @@ P.transport["quest:94505"] = {
     {file = "Audio/Transport/full_quest_94505-c9b77e7da27766a315a2/1-0000.mp3", duration = 45.4791837, start = 0},
   },
 }
-P.transport["quest:94568"] = {
-  hash = "c33634",
-  fullHash = "c33634",
-  text = "The Cult's True Plans. The cult's informant has died before sharing what he knew. Talaanis Shadowsong must help investigators find another way to oppose the cult. A frightened insider left the cult and hoped to seek help beyond it. Before he could reveal what he knew, he was killed. His warnings remain, but the cult's plans do not.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94568-2265be87e8edbc030722/1-0000.mp3", duration = 20.2710204, start = 0},
-  },
-}
 P.transport["quest:94616"] = {
   hash = "6206dd",
   fullHash = "6206dd",
   text = "Water Sapta. In Westfall, you take the Water Sapta to seek a troubled pond. The ceremonial draught sharpens your sight to water spirits and hidden corruption, so you can investigate the imbalance. Shamans prepare a sapta to let them see beyond the physical world. The Water Sapta attunes your senses to water, revealing disturbances and spirits hidden from ordinary travelers. Without that changed sight, an elemental presence might seem like no more than ripples. The Water Sapta leads you to Westfall, an arid Alliance realm troubled by unrest and neglect. A pond there holds spiritually polluted water. With the sapta's sight, you seek the corrupted water, uncover the disturbance, and restore harmony to the local water spirits.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_94616-1b888696ab050c957f96/1-0000.mp3", duration = 45.5314286, start = 0},
-  },
-}
-P.transport["quest:94792"] = {
-  hash = "9c096e",
-  fullHash = "9c096e",
-  text = "Taming the Beast. Josephine Carson is teaching aspiring hunters in Taming the Beast how to care for a wild companion. The trial uses a Rockhide Boar and a Taming Rod, with nature’s balance in mind. Traveling alone in the wild can be dangerous. An animal companion offers protection in battle and company on long journeys. For aspiring hunters and trackers, forming that bond is a vital step. Josephine Carson guides novices through a trial with a Rockhide Boar and a Taming Rod. To calm and direct the beast, they must stay composed and focused without giving in to fear or causing needless bloodshed. Josephine Carson warns her pupils not to exploit beasts recklessly. Taming calls for patience and discipline, never cruelty or dominance, and nature’s balance must be kept. The enchanted rod lets novices practice handling a formidable Rockhide Boar without permanently depleting local wildlife. Once they learn to command and soothe the beast, they return the rod. Respect for nature comes before pride.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94792-a7d344b1b9c9ad972dc3/1-0000.mp3", duration = 61.5706122, start = 0},
-  },
-}
-P.transport["quest:94793"] = {
-  hash = "614178",
-  fullHash = "614178",
-  text = "Training the Beast. In Goldshire, Training the Beast shows young hunters how to care for a tamed companion. Isaac Chan teaches them to feed and revive their beasts, then train them for life at their side. You seek Isaac Chan, an experienced woodsman in Goldshire, to learn how to train your beast. A tamed creature needs care and discipline before it can become a steady ally. Without Chan's guidance, your companion may remain unruly in the wilderness. Isaac Chan teaches you to care for your animal companion. You learn to feed it and revive it if it falls in battle. He also teaches commands that help it fight, and reminds you that power over wildlife calls for respect. Honor nature's balance and live in awe of the world around you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94793-11699cba90211c5d0000/1-0000.mp3", duration = 45.2440816, start = 0},
-  },
-}
-P.transport["quest:94863"] = {
-  hash = "f71587",
-  fullHash = "f71587",
-  text = "Taming the Beast. Josephine Carson guides you through Taming the Beast as you learn to handle a boar before facing a Gray Forest Wolf. With a Taming Rod, you seek the fiercer creature's trust. Josephine Carson watches as you take another step in learning to handle beasts. You have practiced with simple boars; now you enter the forest to tame a Gray Forest Wolf. The enchanted rod she gives you helps calm the predator. Patience and respect matter as much as tracking and marksmanship when you seek a wild creature's trust. Josephine Carson gives you a specialized Taming Rod to calm dangerous wildlife. Approach the wolf with patience and precision, and overcome its aggression without lethal force. After practicing your bond with the beast, return the rod to Josephine as proof of your growing skill.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94863-f275d3af7455b1da479b/1-0000.mp3", duration = 48.0130612, start = 0},
-  },
-}
-P.transport["quest:94864"] = {
-  hash = "43b21c",
-  fullHash = "43b21c",
-  text = "Taming the Beast. In Elwynn Forest, hunters face Taming the Beast, the final trial Josephine Carson oversees. After taming a boar and a wolf, each hunter uses a Taming Rod to earn a Young Forest Bear’s trust. The test deepens the hunter’s bond with beasts and teaches respect for the woodland’s balance. Hunters in Elwynn Forest learn to live among the wild creatures around them. After taming a wolf and a boar, they face one last test of courage and patience. Josephine Carson sends each hunter to a Young Forest Bear, the strongest of the forest’s common predators. The hunter must endure the bear’s strength and earn its trust, rather than force it to submit. Taming wildlife in Elwynn calls for respect, not dominion. Forest bears embody the woodland’s strength and vitality, and help keep its natural order. With a Taming Rod, hunters learn to calm a bear’s aggression and form a bond through understanding. Earning the trust of such a powerful animal deepens a hunter’s bond with the wild and completes the first lessons Josephine Carson oversees.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94864-aff421057ff672a533f3/1-0000.mp3", duration = 64.9926531, start = 0},
-  },
-}
-P.transport["quest:94896"] = {
-  hash = "7d83b8",
-  fullHash = "7d83b8",
-  text = "Aid For The Refugees. After Ban'aethal fell, its survivors have little left to call their own. The settlement deep in Shadowgale Forest began to fall into the sky in the middle of the night, and danger keeps the refugees from retrieving what they left behind. Ealaane and the other refugees fled their homes deep in Shadowgale Forest. With almost nothing gathered around them, they ask travelers to brave the dangers they left behind. Ban'aethal began to fall into the sky in the dead of night. Its inhabitants had only moments to escape, leaving their personal possessions behind. The surrounding woods grew hostile and dangerous.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94896-6f693f0bacb2c70a8734/1-0000.mp3", duration = 39.2620408, start = 0},
-  },
-}
-P.transport["quest:94897"] = {
-  hash = "d82c0f",
-  fullHash = "d82c0f",
-  text = "The Fate of a Loved One. Resaan has been gone from the Ruins of Ban'aethal for more than a week, and his partner waits for news. Travelers bound there are asked to bring him home or return his cherished heirloom. Resaan's partner pleads with him to stay as he prepares to return to the Ruins of Ban'aethal. Yet he feels compelled to brave the ruins for supplies. His partner is left waiting for word. More than a week has passed since Resaan set out, far longer than a swift return should take. His partner asks travelers bound for Ban'aethal to search the ruins. If Resaan lives, bring him home. If tragedy has taken him, recover his family heirloom.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94897-b3397f223f3dc1f86d71/1-0000.mp3", duration = 40.202449, start = 0},
-  },
-}
-P.transport["quest:94911"] = {
-  hash = "b92daa",
-  fullHash = "b92daa",
-  text = "Child of Nature. A fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem in Thunder Bluff. He can teach you how to reach the Cenarion Circle’s stronghold in Moonglade. Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94911-2937bcaebe068cbc2978/1-0000.mp3", duration = 23.4057143, start = 0},
-  },
-}
-P.transport["quest:94912"] = {
-  hash = "aa5aee",
-  fullHash = "aa5aee",
-  text = "Child of Nature. In Stormwind, Sheldras Moontree can show you the way to Moonglade. There, the Cenarion Circle’s druids have wisdom to share with a child of nature. Sheldras Moontree, a night elf in Stormwind, can show you how to reach Moonglade on Kalimdor. The Cenarion Circle keeps its stronghold there. It is an ancient order of naturalists and druids, with much to teach you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94912-3e42262a6a43205a9468/1-0000.mp3", duration = 24.842449, start = 0},
-  },
-}
-P.transport["quest:94914"] = {
-  hash = "a90e98",
-  fullHash = "a90e98",
-  text = "Moonglade. Your teacher opens a way to Moonglade, where Dendrite Starblaze awaits. There, you can speak with him about the path you have begun. Your teacher welcomes druids to Moonglade. Keeper Remulos watches over those who rest there. You receive Teleport: Moonglade, a spell that carries you there when you seek knowledge or solace. Your first lesson is to speak with Dendrite Starblaze in Nighthaven about the path you now follow.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94914-16e66c50f0fa66cff492/1-0000.mp3", duration = 26.2269388, start = 0},
-  },
-}
-P.transport["quest:94946"] = {
-  hash = "e6eaf8",
-  fullHash = "e6eaf8",
-  text = "The Magical City of Dalaran. A mage in Valanaar sends you from Zephras Isle to Dalaran City, where several mages await your people's arrival. The city offers a place to begin exploring Azeroth, but the lands beyond can be dangerous without preparation and experience. Recent events with the cult keep the speaker in Valanaar for now. Several mages wait in Dalaran for your people, so you are sent to the dock outside the lodge. There, you board a skycutter bound for Dalaran City.\n\nWhen you arrive, speak with Danaaris Stargale. Your people are still making their home in the city, and the country beyond its safety can prove dangerous.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94946-6243f77b217d68cb277d/1-0000.mp3", duration = 53.8906122, start = 0},
-  },
-}
-P.transport["quest:94947"] = {
-  hash = "463bdd",
-  fullHash = "463bdd",
-  text = "Welcome to Azeroth. You arrive in Stormwind through the Skyborne Portal and are welcomed by its regent. Highlord Bolvar Fordragon grants you leave to travel across Alliance lands. You step through the Skyborne Portal into Stormwind, the human capital. From there, you make your way along the city's grand thoroughfares to Stormwind Keep, where the regency awaits your arrival. Highlord Bolvar Fordragon receives the arriving members of the High Order in the throne room. A Kirin Tor courier had warned him they were coming. It has been some time since high elves walked the halls of Stormwind Keep, yet Bolvar welcomes them as guests and grants them free passage across Alliance territories on behalf of the King.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94947-fd1460c931b9d41ad5ed/1-0000.mp3", duration = 42.3183673, start = 0},
-  },
-}
-P.transport["quest:94978"] = {
-  hash = "1a6b28",
-  fullHash = "1a6b28",
-  text = "Taming the Beast. Quel'ana Quickgale teaches you the bond between beast and master. You begin by taming a Windsong Crawler near the waters of Zephras. You have the Taming Rod and a Windsong Crawler to tame. Find one near a body of water and practice your skills. Then return the rod to Quel'ana Quickgale in Valanaar. This creature is your first step toward mastery.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94978-c2f7467969451a26d7d3/1-0000.mp3", duration = 22.2040816, start = 0},
-  },
-}
-P.transport["quest:94979"] = {
-  hash = "00f20b",
-  fullHash = "00f20b",
-  text = "Taming the Beast. In the Gustberry Lowlands, Quel'ana Quickgale asks you to tame a galestrider. Your skill on open ground will prepare you for trials ahead. You've already shown you can tame the river's crawler. Now Quel'ana Quickgale gives you a Taming Rod and sends you to the lowlands of Zephras. There, a proud, winged galestrider runs swiftly across the plains. Earn its trust and practice your skill. Then bring the rod back to Quel'ana in Valanaar.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_94979-93013a2aa328e529b387/1-0000.mp3", duration = 27.2979592, start = 0},
   },
 }
 P.transport["quest:95"] = {
@@ -8361,52 +4441,12 @@ P.transport["quest:95036"] = {
     {file = "Audio/Transport/full_quest_95036-934cedeeb06903d1ad72/1-0000.mp3", duration = 25.5738776, start = 0},
   },
 }
-P.transport["quest:95042"] = {
-  hash = "315969",
-  fullHash = "315969",
-  text = "Seeking the Kor Gem. In Ashenvale, Ulric Frostveil sees your search for a Kor Gem as familiar work for Alliance spellcasters. He points you north to Blackfathom Deeps, where naga still use the gems. Ulric asks you to bring him a Kor Gem from the ruins of Blackfathom Deeps, north of Ashenvale. The naga below still use the gems. They can empower magical weapons and implements, but Ulric warns you not to go alone.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95042-1ae3feeba799c1c50876/1-0000.mp3", duration = 25.7044898, start = 0},
-  },
-}
 P.transport["quest:951"] = {
   hash = "d285e0",
   fullHash = "d285e0",
   text = "Mathystra Relics. Along Darkshore's northeastern coast, Mathystra Relics may reveal how the Twilight's Hammer bends ancient elven magic. Onu, an Ancient of Lore in the Grove of the Ancients, seeks them to learn what the cult intends. Onu sends you to the Ruins of Mathystra on Darkshore's northeastern shore. Before the Sundering, Mathystra was a shining bastion of highborne civilization. The city fell to rubble, weeds and naga, yet its old enchantments endure in shattered urns and relics scattered among the stone foundations.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_951-17b6e02c98f766d164db/1-0000.mp3", duration = 33.8546939, start = 0},
-  },
-}
-P.transport["quest:95111"] = {
-  hash = "d66adb",
-  fullHash = "d66adb",
-  text = "An Underrated Talent. In Silverpine Forest, Trevan Rol gives Ott a chance to make a blade to your design. Ott’s simple weapons have earned praise from smiths in the Undercity. Trevan Rol asks you to carry materials to Ott in Tarren Mill and offer him a commission. Ott sells simple blades to travelers. Trevan bought one and later took it to the Undercity for maintenance. There, local smiths praised its quality and mistook it for the work of a famous master. Now Ott has the chance to forge a blade to your specifications.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95111-a1798190bfb7119e5a79/1-0000.mp3", duration = 32.3395918, start = 0},
-  },
-}
-P.transport["quest:95125"] = {
-  hash = "c7b702",
-  fullHash = "c7b702",
-  text = "Ott's Masterwork. Ott is ready to forge a blade for you from fine materials. You may watch him at work. Ott values the fine materials and hopes his work will meet your expectations. He forges a blade for you, then offers it for your travels.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95125-bc0673115011edc8b871/1-0000.mp3", duration = 15.5428571, start = 0},
-  },
-}
-P.transport["quest:95126"] = {
-  hash = "002e60",
-  fullHash = "002e60",
-  text = "The Moonsilver Blade. In Silverpine Forest, Trevan Rol awaits the blade that will complete his work before he faces a beast. Ott thanks you for the chance to help and asks you to carry his gratitude to Trevan. You bring Ott's Masterwork back to Trevan Rol in Silverpine Forest.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95126-d352669c13b02fa066cd/1-0000.mp3", duration = 16.3526531, start = 0},
-  },
-}
-P.transport["quest:95140"] = {
-  hash = "64773b",
-  fullHash = "64773b",
-  text = "Old Fire-Eye. Lumina Windsinger sends you after Old Fire-Eye in Silverpine Forest with the Moonsilver Blade. The Windshapers await his death, and Lumina hopes the blade will guide you well. The Windshapers have given you the Moonsilver Blade. Locals say Old Fire-Eye hunts across a wide stretch south of here, usually near the gates to Gilneas. Lumina asks you to find him and use the blade to end him. The Windshapers' gratitude depends on his death.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95140-b8a264007df6a81a8b22/1-0000.mp3", duration = 27.8726531, start = 0},
   },
 }
 P.transport["quest:95161"] = {
@@ -8441,44 +4481,12 @@ P.transport["quest:95204"] = {
     {file = "Audio/Transport/full_quest_95204-81ef0e988bd73a4f7a59/1-0000.mp3", duration = 47.0204082, start = 0},
   },
 }
-P.transport["quest:95212"] = {
-  hash = "30dd3a",
-  fullHash = "30dd3a",
-  text = "Never Saddle on Quality. At Amberstill Ranch, handlers prepare rams for the Alliance expedition in Alterac. They need pristine mountain leopard pelts to make warm saddles for the beasts, so mounts and riders can face the northern mountains' biting frost. The handlers of Amberstill Ranch in Dun Morogh are readying sturdy mountain rams for Alterac. But the work has stalled: they lack the material needed to make durable, cold-weather saddles for the rams. The expedition's mounts need thick insulation to endure the freeze of the Alterac mountains. Hunters are sent to the eastern crags to track the largest, fiercest mountain leopards in Dun Morogh and bring back pristine pelts. The Alliance forces need gear that can withstand the high passes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95212-ecaedebcbb752998b295/1-0000.mp3", duration = 44.9044898, start = 0},
-  },
-}
-P.transport["quest:95213"] = {
-  hash = "c49a3e",
-  fullHash = "c49a3e",
-  text = "Stolen Blasting Powder. Near Gol'Bolar Quarry, an empty keg of hazardous blasting powder has turned up among troggs. Its return to Quarrymaster Thesten reveals a breach in the quarry's security and explosive stores. At Gol'Bolar Quarry, a warning stamped on an empty keg shows that hazardous blasting powder has slipped out of authorized hands. The explosives are reserved for controlled quarrying, with the quarrymaster's direct approval. The keg was found among hostile troggs, and that points to a threat beyond ordinary trouble for the miners.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95213-a7f1c90b1a78ba85d0c4/1-0000.mp3", duration = 32.3134694, start = 0},
-  },
-}
-P.transport["quest:95214"] = {
-  hash = "2e3548",
-  fullHash = "2e3548",
-  text = "Stolen Blasting Powder. At Gol'Bolar Quarry, Stolen Blasting Powder has gone east with the troggs. Quarrymaster Thesten needs help recovering the missing munitions before the brutes set them off by accident. At Gol'Bolar Quarry in Dun Morogh, dwarves use heavy blasting charges to break stone and open deep veins. But primitive troggs from the nearby crags stole a bulk shipment of high-grade powder. Quarrymaster Thesten needs capable hands before the pack causes an accidental detonation. The missing keg holds enough force to reduce King Magni Bronzebeard's grand throne room to an open-air courtyard. The troggs carried the powder east to their rough foothill camps. Left alone, they may soon discover fire or strike stone against spark.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95214-7f2b8ab017a53a3b4f0e/1-0000.mp3", duration = 46.9942857, start = 0},
-  },
-}
 P.transport["quest:95216"] = {
   hash = "56d855",
   fullHash = "56d855",
   text = "The New Plague. In the Undercity, Theodore Griffs studies reports of a lethal creature in the ruins above. Its venom consumes even undead flesh, and he seeks to learn how its toxins work. The Royal Apothecary Society gathers dangerous substances from across Azeroth. Theodore Griffs is one of its researchers. He tracks strange beasts and deadly contaminants to advance Forsaken alchemy. Now rumors tell of a venomous creature in the shattered stone above, so Griffs sends you to bring back a sample before the chance is lost. Witherfang is the venomous arthropod stalking the surface ruins of Lordaeron. Its venom breaks down living tissue and dead, preserved flesh alike. Griffs wants to learn how it overcomes the resistance of dead flesh, knowledge that could help refine biological weapons and protect the Forsaken kingdom.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_95216-579ddce3c03588432b82/1-0000.mp3", duration = 51.3306122, start = 0},
-  },
-}
-P.transport["quest:95217"] = {
-  hash = "9b4d22",
-  fullHash = "9b4d22",
-  text = "The Quarry's Smith. At the quarry, The Quarry's Smith, Frast Dokner, needs metal and leather for camp repairs. With a supply shipment late, he asks travelers to bring the materials. In return, Dokner offers practical smithing techniques. An excavation needs steady care. Pickaxes must be sharpened, worn brackets replaced, and camp gear reinforced. When a vital shipment misses its schedule, work begins to grind to a halt. Without fresh stock from the major trade routes, the craftsmen must improvise and look to passing travelers for help.\n\nFrast Dokner works the forge through these delays. He asks anyone willing to gather basic metals and hides to help keep the camp running, rather than wait for transport wagons that may be far behind. Dwarven blacksmithing guilds prize discipline and guard their methods, rarely sharing trade secrets with casual wanderers. Dokner weighs that custom against the camp's immediate needs. He lacks workable copper and durable leather for patching tools and camp gear.\n\nBring the raw materials to his anvil, and he will teach you his personal smithing techniques. The bargain trades useful craft knowledge for materials the camp needs to endure and keep its gear in repair.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95217-696eafc3706c79de180b/1-0000.mp3", duration = 75.6767347, start = 0},
   },
 }
 P.transport["quest:95250"] = {
@@ -8489,86 +4497,6 @@ P.transport["quest:95250"] = {
     {file = "Audio/Transport/full_quest_95250-2badfd84701636789b24/1-0000.mp3", duration = 86.9093878, start = 0},
   },
 }
-P.transport["quest:95328"] = {
-  hash = "261939",
-  fullHash = "261939",
-  text = "Whispering Horror Residue. Beneath the Whispering Forest, Whispering Horror Residue is carried to Undercity for study. Father Lankester awaits it in the War Quarter. Beneath the Whispering Forest, you recover a strange beast’s twitching remains. The unsettling material is carried to Undercity, where researchers may study it. In Undercity’s War Quarter, Father Lankester receives the remains. He says the Whispering Forest has long been touched by the void. Its physical traces may help him study the mysteries of shadow.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95328-1096fa01fc8c6add0db4/1-0000.mp3", duration = 32.9142857, start = 0},
-  },
-}
-P.transport["quest:95349"] = {
-  hash = "7a7c0f",
-  fullHash = "7a7c0f",
-  text = "The Earthen Ring. From Zephras, the Windshapers of The Earthen Ring reach Azeroth as an advance vanguard. After cult activity delays the rest in Valanaar, they board a skycutter outside the lodge and make landfall in Mulgore to meet Alaana Stormwalker and adjust to a vast, dangerous world. Cult activity in Valanaar has disrupted the Windshapers’ plans to travel to Azeroth. Their senior leaders stay behind at the lodge to finish urgent business and quell the threat, while a small vanguard sets out ahead. At the docks just outside the lodge, the pioneers board a skycutter bound across the skies.\n\nTheir commanders promise to join them soon. Until then, the advance group must establish a presence before the rest can follow. In Mulgore, Alaana Stormwalker welcomes the arriving adventurers from Zephras. Establishing a foothold in Azeroth will take time, so newcomers are encouraged to scout the surrounding territory and grow accustomed to it.\n\nThe winds favor the expedition, but Azeroth is unfamiliar and perilous. Travelers should learn the local terrain, wildlife, and neighboring inhabitants before those still in Valanaar arrive to join them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95349-8a95fd3d30320c8d4856/1-0000.mp3", duration = 70.2171429, start = 0},
-  },
-}
-P.transport["quest:95350"] = {
-  hash = "f0aa0a",
-  fullHash = "f0aa0a",
-  text = "Welcome to Azeroth. In Kalimdor, the Windshapers reach beyond their isolated home to seek allies. Guided by their ties to the Earthen Ring, an emissary travels from Thunder Bluff to meet Warchief Thrall in Orgrimmar. The Windshapers look beyond their isolated origins to the peoples of Kalimdor. They know isolation cannot shield them from Azeroth’s threats, so they seek companions to face the wilderness together. Their search reaches the neighboring tauren city of Thunder Bluff and the orcish bastions to the east. The envoys travel first to the soaring towers of Thunder Bluff, then across the barrens to Orgrimmar, the Horde’s capital. Warchief Thrall waits in the tranquil Valley of Wisdom. An audience with him draws the Windshapers into Kalimdor’s political and spiritual life, joining them to the Horde through shared purpose and respect for the elements.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95350-299ed47d867a9a7682e4/1-0000.mp3", duration = 51.9314286, start = 0},
-  },
-}
-P.transport["quest:95494"] = {
-  hash = "9b3b34",
-  fullHash = "9b3b34",
-  text = "Bruised Pride and Lion Hides. An injury leaves a hunter or tradesperson unable to gather lion hides for a local tanner. They turn to you to keep their trade agreement and their professional record intact. A hunter or tradesperson has been hurt and cannot safely track wild beasts. Their agreement with a neighborhood craftsman is still due, so they hire you to hunt wild lions and gather their pelts. The raw hides go to a local tanner, who exchanges them for finished leather goods the giver needs for their livelihood. The giver’s pride is stung by needing help, but honoring the bargain keeps their professional reputation unbroken.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95494-0d1eab3ea8de430512b1/1-0000.mp3", duration = 37.1461224, start = 0},
-  },
-}
-P.transport["quest:95495"] = {
-  hash = "b987b7",
-  fullHash = "b987b7",
-  text = "The Hermit Tanner. You carry raw hides across the Barrens to The Hermit Tanner, who lives above the Dry Hills. Vrang cannot make the climb, so he sends you to his secluded trading partner. Across the Barrens, Vrang trades with a tanner who lives on a ridge above the Dry Hills. The steep, rocky climb is too hard for Vrang, so he asks passing travelers to carry raw hides to his partner's homestead. Vrang warns you that the solitary tanner's unusual appearance may startle you, but says he is no danger to visitors. When you bring the hides to the ridge, the hermit welcomes you warmly. He regrets that Vrang could not come himself, for there is something he hoped to discuss with the trader.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95495-71e9604cdb59af513c8c/1-0000.mp3", duration = 41.5346939, start = 0},
-  },
-}
-P.transport["quest:95507"] = {
-  hash = "0ff5b2",
-  fullHash = "0ff5b2",
-  text = "Vrang's Game. Vrang sends you across a valley in the Barrens to check his traps. The small game they catch can help him, though other wildlife makes the area dangerous. Vrang has traps scattered across the valley, and he wants you to bring back any small game they have caught. Keep your attention on the wildlife too, for it can make the area dangerous.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95507-658115fe59168335f8e0/1-0000.mp3", duration = 20.3493878, start = 0},
-  },
-}
-P.transport["quest:95508"] = {
-  hash = "f328bb",
-  fullHash = "f328bb",
-  text = "Unwelcome Guests. You helped someone survive an encounter with unwelcome guests, and they are grateful. What brought you together remains unclear.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95508-f1f4220e9c9dba5e4d4b/1-0000.mp3", duration = 8.22857143, start = 0},
-  },
-}
-P.transport["quest:95621"] = {
-  hash = "af1f49",
-  fullHash = "af1f49",
-  text = "Trouble in the Valley. A squad of Kul Tiran soldiers is searching the valley, and their purpose is unknown. They have camped near a wrecked caravan to the south, drawing the attention of local scouts. A rifleman watching the lowlands spotted human soldiers searching the valley floor. Through his scope, he recognized the heraldry and livery of Kul Tiras. Armed foreigners rarely work so openly here, and their presence has raised alarm. The soldiers have camped near a ruined caravan to the south. What they seek among the wreckage remains unknown. Local observers consider their armed presence an immediate concern, so investigators are sent to eliminate them and uncover the purpose of their search.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95621-ef841a44a9fa317854d7/1-0000.mp3", duration = 42.4228571, start = 0},
-  },
-}
-P.transport["quest:95646"] = {
-  hash = "4d5ff2",
-  fullHash = "4d5ff2",
-  text = "Horrors in the Highland. Rethiel the Greenwarden senses corruption flowing through a mountain gully into the Wetlands' freshwater. He sends you to the highland excavation sites for a Highland Horror's root core, then warns that digging stirs an ancient energy and endangers the whole region. Rethiel the Greenwarden senses the land changing deep in the Wetlands. Through a mountain gully, foul taint reaches the highlands and infects their freshwater creatures. Lowland life has been shaped by brackish water, but these creatures have never known the sea's protective salt. Rethiel fears they cannot withstand the spreading evil. He asks you to climb to the excavation sites, slay a Highland Horror, and bring back its root core.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95646-fe5c1a1ef4fb395d66c8/1-0000.mp3", duration = 42.7363265, start = 0},
-  },
-}
-P.transport["quest:95647"] = {
-  hash = "2ce422",
-  fullHash = "2ce422",
-  text = "Lost in the Thicket Things. Ardin Grassman is missing near an excavation site after following word of towering grasses. His alchemist wife asks travelers to find him, as dangerous wildlife has attacked the crew. Ardin Grassman's alchemist wife asks you to find her missing husband. He has a keen sense for nature and often braves cliffs and distant wilds to gather herbs and plants for her work. When an excavation crew spoke of towering grasses unlike any they had seen, Ardin's curiosity drew him toward the site.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95647-2e5ce394b910cba79360/1-0000.mp3", duration = 30.72, start = 0},
-  },
-}
 P.transport["quest:95697"] = {
   hash = "3230a9",
   fullHash = "3230a9",
@@ -8577,52 +4505,12 @@ P.transport["quest:95697"] = {
     {file = "Audio/Transport/full_quest_95697-2825d2649c6f0c73d8dc/1-0000.mp3", duration = 53.9167347, start = 0},
   },
 }
-P.transport["quest:95737"] = {
-  hash = "fbe866",
-  fullHash = "fbe866",
-  text = "Seeking Caitlin. An alchemist waits for word about a rare grass. She asks you to find Caitlin Grassman in Menethil Harbor, whose husband has not reported back from an excavation. The alchemist heard from Caitlin that her husband's excavation team found signs of a primordial grass. Caitlin does not know how much they found or whether it can be reached.\n\nNow the alchemist asks you to speak with Caitlin in Menethil Harbor. Both women are waiting to learn what happened to the promised seeds.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95737-7112b297e4f8db9b3bcb/1-0000.mp3", duration = 29.0481633, start = 0},
-  },
-}
-P.transport["quest:95772"] = {
-  hash = "d09854",
-  fullHash = "d09854",
-  text = "Songblade Search. Dorin Songblade waits for word from his brother Daewyn in the Wetlands. Daewyn joined an archaeological crew from Loch Modan to dig in unexplored hills, but his silence is unlike him. Dorin Songblade tends his workshop, buried in orders to refit girdles. His brother Daewyn has gone north with a dwarven excavation crew from Loch Modan. The hills they seek in the Wetlands have never felt a dwarven pickaxe. Daewyn usually writes as soon as he arrives, but no word has reached Dorin, and the silence unsettles him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95772-b5ade57dc249d15547cb/1-0000.mp3", duration = 32.3918367, start = 0},
-  },
-}
-P.transport["quest:95774"] = {
-  hash = "3b1f57",
-  fullHash = "3b1f57",
-  text = "Her Name Is Olgra. Mankrik mourns Olgra and prepares a monument to keep her name alive. He asks you to seek her missing bone adornments among the nearby Razormane raiders. A healer saved Mankrik, but Olgra died from her wounds on the battlefield. Grieving, Mankrik prepares a lasting tribute so her name and sacrifice will be remembered. Olgra wore cherished ornaments made of polished bone, but they are missing from her resting place. Mankrik asks you to recover them from the nearby Razormane raiders, so they can rest beside the monument he is raising for her.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95774-c3bb682b40c70cfad712/1-0000.mp3", duration = 35.2391837, start = 0},
-  },
-}
 P.transport["quest:95795"] = {
   hash = "e42cf2",
   fullHash = "e42cf2",
   text = "Fallen in the Fen. At the excavation, a fallen dwarf leaves grim news for his brother in Lakeshire. Dorin Songblade learns what became of his kin and faces the gifts he could not finish in time. At the excavation sites, an adventurous dwarf lies dead. You cover his remains with his own cloak, then carry the grim news to Lakeshire and seek out his kin.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_95795-84e840a16fd790c25017/1-0000.mp3", duration = 23.0138776, start = 0},
-  },
-}
-P.transport["quest:95803"] = {
-  hash = "f6f20f",
-  fullHash = "f6f20f",
-  text = "A Token of Good Faith. Danitha sends you to carry Rudolph Gelhardt’s head to Sylvanas Windrunner in the Undercity. The delivery is meant to show the Forsaken that your people are devoted to their prosperity. Danitha says Sylvanas distrusts your people and openly disparages them. She asks you to bring Rudolph Gelhardt’s head as proof that you tend to your own house and stand with the Forsaken.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95803-4a653a4f0aa00a8068c2/1-0000.mp3", duration = 22.2563265, start = 0},
-  },
-}
-P.transport["quest:95805"] = {
-  hash = "5e430e",
-  fullHash = "5e430e",
-  text = "Grace of An'she and Mu'sha. On Red Cloud Mesa, An'she and Mu'sha receive honor as the Earthmother's eyes. You carry smoldering incense to a shrine in the southeastern hills, where its smoke rises toward the sun and moon that bring warmth, life, and direction to the plains. Tauren honor An'she and Mu'sha as the sun and moon, the Earthmother's twin eyes. Elemental spirits dwell in Azeroth's stones, winds, and waters, while the celestial twins watch from the heights of heaven. As they cross the sky, they mark day and night and bring warmth, guidance, and hope to living creatures. For tauren, honoring them is a spiritual duty. Balance calls for reverence toward the land beneath your feet and the light above. Carry smoldering incense into the southeastern hills overlooking Red Cloud Mesa, just south of the prickly quilboar grounds. Make the journey with speed and care. Keep the embers dry and reach the shrine before they burn to cold ash. At the elevated shrine, cast them into the sacred fire. Their fragrant smoke carries your respect skyward, toward the sun and moon.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95805-ea0b86a315fb18365bbe/1-0000.mp3", duration = 65.9330612, start = 0},
   },
 }
 P.transport["quest:95809"] = {
@@ -8673,14 +4561,6 @@ P.transport["quest:95981"] = {
     {file = "Audio/Transport/full_quest_95981-6dbbb9bc6779fdbd5cb6/1-0000.mp3", duration = 76.3036735, start = 0},
   },
 }
-P.transport["quest:95998"] = {
-  hash = "594e32",
-  fullHash = "594e32",
-  text = "The Great Outdoors. At Sam’s fire, travelers learn to rest and endure the road. Then they can turn to tradeskills and work in the wild. Sam welcomes restless travelers who cross Azeroth in search of fortune, danger, and renown. Ambition alone cannot keep a newcomer warm or ease the miles. By his fire, you learn when to rest, how to build a fire, and how to gather strength for the open road. A campfire offers warmth against the night chill and a chance for boosted rest. Those who know the wild understand that endurance comes from resting between journeys. Once you have learned these basics, you can turn to tradeskills. Craftsmen and gatherers can learn to make camp fixtures suited to their work in the field.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_95998-5220981b2327add91154/1-0000.mp3", duration = 43.7812245, start = 0},
-  },
-}
 P.transport["quest:95999"] = {
   hash = "d562db",
   fullHash = "d562db",
@@ -8695,318 +4575,6 @@ P.transport["quest:96"] = {
   text = "Call of Water. You bring the Shard of Water to Islen Waterseer on the Barrens coast. This return shows your harmony with restorative energies and earns you a Water Totem. You carry a gift from the Minor Manifestation of Water back across the sea. To earn it, you crossed continents to the tainted shores of Silverpine Forest and faced the corruption there. Water gives life, adapts, and heals, yet its pliant nature leaves it open to blight and dark magic.\n\nBefore the Minor Manifestation, you witnessed pure elemental will and received the Shard of Water. Now you return to the sun-scorched Barrens, where the shard reminds you that water joins distant corners of the world. When you give Islen Waterseer the shard, she weighs more than proof of your journey. She tests whether you have learned the balance between preservation and renewal. Lordaeron's spreading rot can hide small victories, yet cleansing even one wellspring matters to the spirits. Islen accepts your offering and gives you a Water Totem. Through it, you can channel cleansing, healing, and mana-restoring streams into the mortal realm, binding you to the tide.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_96-e383e3680726c46fbe11/1-0000.mp3", duration = 72.6987755, start = 0},
-  },
-}
-P.transport["quest:96031"] = {
-  hash = "724b6a",
-  fullHash = "724b6a",
-  text = "Camping 101: Leatherworking. At a camp in the wilderness, leatherworkers put cured hides to use and make shelter of their own. A sound campsite needs a pitched tent and a fire, whose kindling is taught by cooking trainers. For tradespeople who work with hides and leather, making a shelter of their own is an essential milestone. A sturdy leather tent shields travelers from harsh weather, wind and the chill of night on open ground. Townsfolk frown on tents pitched in crowded streets or market squares, so you need to pass beyond the city gates and into the wilderness to make camp. A pitched tent is only half a campsite. A proper fire keeps back darkness and cold winds, and gives you a hearth in dangerous lands. Since cooking in the field begins with building and tending a fire, seek instruction from culinary masters and cooking trainers. They teach you to kindle a campfire before you establish camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96031-fd5b1e08eb9c8096b1b3/1-0000.mp3", duration = 54.4653061, start = 0},
-  },
-}
-P.transport["quest:96044"] = {
-  hash = "105d2e",
-  fullHash = "105d2e",
-  text = "Camping 101: Blacksmithing. Smiths bound for the wilderness are sent to Kharanos to learn from Tognus Flintfire. He teaches them to make a portable sharpening wheel for keeping weapons keen at camp. You are sent to Kharanos to learn how a smith can serve far from a town forge. There, skilled hands turn raw metal into tools for camp. A blade kept keen is ready for the long road. In Kharanos, Tognus Flintfire teaches capable smiths to make a sharpening wheel. Set one beside your campsite and warriors and rogues can grind nicks from their weapons and hone dull edges before the next march.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96044-39a2c64a488ff03f315e/1-0000.mp3", duration = 35.4220408, start = 0},
-  },
-}
-P.transport["quest:96045"] = {
-  hash = "fe1039",
-  fullHash = "fe1039",
-  text = "Camping 101: Alchemy. In Ironforge, Vosur Brakthel shows alchemists how to prepare for the road. With a Mana Well, they can give spellcasters and healers a place to recover while traveling. Vosur Brakthel trains alchemists in Ironforge to carry their craft beyond the city. Brewing vials in a quiet laboratory is only part of the work. Out in Azeroth's wild places, alchemists can use what they know to make a Mana Well for a camp, helping companions endure the journey. A Mana Well can refresh healers and spellcasters, but it belongs at a wilderness camp, not on an Ironforge street. City folk frown on tents pitched within their walls. A proper camp also needs a fire, so seek a cooking trainer's guidance before heading into the wild.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96045-23a0dc71a3a377c3050b/1-0000.mp3", duration = 47.2555102, start = 0},
-  },
-}
-P.transport["quest:96046"] = {
-  hash = "3d3b7c",
-  fullHash = "3d3b7c",
-  text = "Camping 101: Mining. Out beyond the guarded roads, miners learn to make a lodestone for a wilderness camp. The work pairs knowledge of stone with the firecraft needed to live outdoors. Beyond guarded roads, a miner must rely on fieldcraft. Mineral knowledge gives you the means to shape a lodestone, the anchor for a campsite in the wild. A campsite belongs beyond town limits, where travelers can pitch their shelters without troubling settled folk. Choose a place in the open wilds. A camp also needs a fire to ward off the night chill. Learning to build one is part of the same fieldcraft as working stone.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96046-59c6cad6c9879b8b0ad6/1-0000.mp3", duration = 37.9559184, start = 0},
-  },
-}
-P.transport["quest:96050"] = {
-  hash = "689ab9",
-  fullHash = "689ab9",
-  text = "Camping 101: Fishing. You’re preparing for wilderness fishing with a Fish Bowl and a campfire. Learn where to set up and what makes a resting place comfortable. Travel through Azeroth calls for a little knowledge of the wild. When you need a place to rest, keep your tent and gear beyond town borders. Townsfolk and guards dislike travelers spreading their belongings through settlements. Take your supplies into the open wilderness instead. A proper campsite needs a few comforts. Start with a warm campfire; a cooking trainer can teach you how to make one. Once the fire is ready, set out a handcrafted Fish Bowl. Then your stop is fit for an angler.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96050-f02bcfd1f0836cbaa91b/1-0000.mp3", duration = 37.3289796, start = 0},
-  },
-}
-P.transport["quest:96055"] = {
-  hash = "782e1a",
-  fullHash = "782e1a",
-  text = "Camping 101: Herbalism. In Ironforge, herbalists can learn to make Incense Candles for life in camp. Reyna Stonebranch teaches the craft to gatherers ready to put wild herbs to practical use. Gathering wild herbs can serve a camp as well as a traveling party. With skill, herbalists turn what they gather into useful aids for life outdoors. In Ironforge, proficient herbalists can seek instruction from Reyna Stonebranch. Once they prove their skill, she teaches them to make an Incense Candle. Its soothing aroma lifts the spirits at camp and brings calm to spellcasters and healers on long expeditions.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96055-abacbbb194cae8fdc186/1-0000.mp3", duration = 38.7657143, start = 0},
-  },
-}
-P.transport["quest:96056"] = {
-  hash = "6186c5",
-  fullHash = "6186c5",
-  text = "Camping 101: Skinning. In Ironforge, skilled skinners learn to make a Camp Chair from animal hides. Balthus Stoneflayer teaches the craft after they prove their skill. Skinning fallen beasts gives armorers and crafters leather to work with. Hides from cats, bears, and other beasts have uses in the field, too. You are sent to turn those materials into something useful at camp instead of selling them. Balthus Stoneflayer teaches skinners in Ironforge to make a Camp Chair from prepared pelts. First, you need to show him you know how to skin beasts. Only then will he share his crafting methods. A Camp Chair gives you a place to sit by the fire and unwind while traveling. Rest there, and you can meet the next danger with your senses sharp and your strength restored.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96056-092cf007d193c64b8e1f/1-0000.mp3", duration = 46.5763265, start = 0},
-  },
-}
-P.transport["quest:96101"] = {
-  hash = "7223f2",
-  fullHash = "7223f2",
-  text = "The Great Outdoors. Raan welcomes new wanderers and shows them how to endure the wild. Rest by his basic campfire to gain Boosted Rest, then visit nearby trade trainers to learn practical professions. Raan has traveled the wilds and teaches others how to survive beyond settlement walls. Ambition and steel alone will not carry you through harsh weather; practical campcraft matters. He welcomes those seeking fortune and glory, and offers guidance to anyone willing to learn. Raan asks you to sit beside his basic campfire and rest until you gain Boosted Rest. Across Azeroth's wild places, knowing when to pause, make camp, and recover can mean the difference between life and death.\n\nAfter the lesson, Raan directs you to nearby village trainers. There you can learn a trade and craft specialized fixtures for your campsite.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96101-f6f5038d9aeaeb560b69/1-0000.mp3", duration = 50.7297959, start = 0},
-  },
-}
-P.transport["quest:96102"] = {
-  hash = "7b6457",
-  fullHash = "7b6457",
-  text = "Camping 101: Tailoring. Tailoring training teaches you to make a Rallying Banner. Its test belongs in the wilderness, where a camp needs a campfire. You can now craft a Rallying Banner, and its completion note calls for a wilderness test. A camp needs a campfire before you set it up. Most cooks can teach you to make one, so ask a cooking trainer for the basics if you have not learned them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96102-94c407ac9180703d338b/1-0000.mp3", duration = 22.3085714, start = 0},
-  },
-}
-P.transport["quest:96130"] = {
-  hash = "055ef3",
-  fullHash = "055ef3",
-  text = "Chakuyak. Near the tree stands west of Stonebull Lake, Chakuyak threatens travelers crossing Mulgore. Local tribesfolk have marked the fierce wolf for hunting, and her pelt will be honored. Chakuyak prowls the tree stands west of Stonebull Lake, where prairie wolves roam Mulgore’s grassy plateaus and rolling hills. This fierce alpha female has become a danger to travelers arriving from abroad, so local hunters have marked her for removal before more wanderers are harmed. For the local tribes, killing Chakuyak calls for solemn respect, not boasting. They see it as necessary to protect travelers and villagers. Her thick pelt is cured and put to use, honoring the wolf and ensuring her sacrifice is not wasted.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96130-9a4fca9efcd037d92fb2/1-0000.mp3", duration = 44.6171429, start = 0},
-  },
-}
-P.transport["quest:96243"] = {
-  hash = "7ec030",
-  fullHash = "7ec030",
-  text = "Call of Earth. In Coldridge Valley, the Call of Earth sends an initiate to seek Teo Hammerstorm at Anvilmar. There begins a shaman’s communion with the spirits of stone. An initiate’s first communion with the elements begins when the earth calls. Other elemental energies may already stir, but speaking with stone brings balance. The earth teaches the initiate to find strength that will not yield. Firm footing comes beneath their boots and within their spirit. In Dun Morogh’s snowy reaches, initiates find shelter and instruction at Anvilmar. The holdfast lies in Coldridge Valley, forged by hammer, fire, and will. Teo Hammerstorm waits within, teaching fledgling shamans to heed the rumbling earth and begin their elemental duties.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96243-8b7f525117a569c52351/1-0000.mp3", duration = 45.5053061, start = 0},
-  },
-}
-P.transport["quest:96339"] = {
-  hash = "3306cc",
-  fullHash = "3306cc",
-  text = "Legacy Reward: Replica Ironforge Air Rifle. A parcel addressed to you waited in a caretaker’s hands until you came to claim it. Inside was a Replica Ironforge Air Rifle, left by a courier whose name is unknown. The caretaker kept nothing in storage and had no wish to hold the parcel. The courier insisted you would come for it, then hurried away before the caretaker could refuse. You arrived just before the box was cast into the ocean with the evening’s refuse. Inside the parcel is a Replica Ironforge Air Rifle, a tribute to the firearm craft of the dwarven capital. Dwarven mountaineers and marksmen carry deadly weapons through Dun Morogh. Replicas like this recall the intricate barrelwork and pneumatic mechanisms perfected by Ironforge craftsmen.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96339-822466131badd7dea0e9/1-0000.mp3", duration = 46.4979592, start = 0},
-  },
-}
-P.transport["quest:96394"] = {
-  hash = "dcee72",
-  fullHash = "dcee72",
-  text = "The Restless Dead. Beneath the Hall of Thanes, restless spirits trouble the crypts where generations of dwarven dead lie at rest. The caretakers fear to enter the vaults, and the disturbance has reached the spirit of Anvilmar. Generations of honored dwarves rest in the ancestral crypts beneath the Hall of Thanes. Their spirits usually sleep in peace, but something unseen has stirred them violently. Strange noises rise from the lower vaults and frighten the caretakers. They will not enter those chambers or perform their duties until order returns. Now adventurers are called to quiet the agitated souls.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96394-89b37784c49325180d49/1-0000.mp3", duration = 35.9706122, start = 0},
-  },
-}
-P.transport["quest:96403"] = {
-  hash = "b12057",
-  fullHash = "b12057",
-  text = "Important Heirlooms. In the Hall of Thanes, Dark Iron dwarves break into the vaults while Thom is caught inside. The nervous gnome asks you to gather the scattered dwarven relics before the invaders reach them. Thom is a gnome caught in the Hall of Thanes when Dark Iron dwarves tunnel up in mole machines. He cannot secure the vaults alone, so he asks passing adventurers to enter the hostile dig site. The dwarven relics lie scattered through the chambers. The invaders may seize or destroy them.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96403-9daab66a263dba289473/1-0000.mp3", duration = 28.8391837, start = 0},
-  },
-}
-P.transport["quest:96604"] = {
-  hash = "8ad290",
-  fullHash = "8ad290",
-  text = "The Great Outdoors. Brakk welcomes travelers beside his Basic Campfire and teaches them to rest in the wild. From there, they turn to practical crafts. Brakk greets aspiring adventurers with a hearty “Lok-tar” and welcomes those seeking fortune and glory. The road through Azeroth’s wilds asks for more than skill at arms; travelers must also endure the elements. Learning to make camp and regain strength is a first step toward surviving out there. Rest beside Brakk’s Basic Campfire brings a restorative pause in the open air and teaches travelers how to recover. Once they know these basics, novice adventurers can visit craftsmen in a nearby village. There, they can study tradeskills and learn to build camp fixtures suited to their chosen craft.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96604-e9d5f6b68052e448a39f/1-0000.mp3", duration = 45.6359184, start = 0},
-  },
-}
-P.transport["quest:96605"] = {
-  hash = "61fb70",
-  fullHash = "61fb70",
-  text = "The Great Outdoors. At Kaga's wilderness camp, newcomers learn how to rest and recover. From the campfire, they go on to nearby artisans to learn tradeskills and craft camp fixtures. Kaga shows newcomers how to endure the wilderness beyond civilization. Courage alone cannot keep you safe there. You also need to know how to make camp and withstand the open elements. Kaga's campfire gives weary travelers a place to rest. Sit beside it to gain the Boosted Rest buff. Once you know how to rest in the wilds, Kaga urges you to visit artisans in a nearby settlement. They can teach you tradeskills and how to craft camp fixtures.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96605-0dffe74b9c43b7d80959/1-0000.mp3", duration = 37.9820408, start = 0},
-  },
-}
-P.transport["quest:96606"] = {
-  hash = "e5f6a3",
-  fullHash = "e5f6a3",
-  text = "The Great Outdoors. At Lyreena's campfire, hunters learn how to rest before traveling through the wilds. They can gain the Boosted Rest buff there. Lyreena is an experienced scout who guides hunters beyond civilization's borders. She welcomes you to rest beside her campfire between hunts. In Azeroth's wilds, knowing how to make camp and regain your strength matters as much as tracking quarry. A campfire offers warmth and a quiet rest from travel. Sit near the flames to gain Boosted Rest and recover energy for the journey ahead. Rest helps you survive in the wilderness.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96606-4d539ff29824523dfbdf/1-0000.mp3", duration = 36.1012245, start = 0},
-  },
-}
-P.transport["quest:96608"] = {
-  hash = "78a509",
-  fullHash = "78a509",
-  text = "The Great Outdoors. Eric waits by his campfire to teach travelers how to rest in the wild. Beyond settled places, ambition and a weapon or holy symbol are not enough. You need to know how to rest amid the elements. Eric has traveled far, and he welcomes you beside his campfire. There, he teaches why proper rest matters before you face the wilds. A campfire begins a useful campsite for a long journey. Once you have learned how to recover in the wild, visit tradeskill trainers in nearby settlements. They can teach you to make camp fixtures for your trade. Then your craft can support your travels wherever the road leads.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96608-cdcf9088e03e84e2d4e0/1-0000.mp3", duration = 37.7469388, start = 0},
-  },
-}
-P.transport["quest:96626"] = {
-  hash = "612cfa",
-  fullHash = "612cfa",
-  text = "Camping 101: Cooking. In Goldshire, Cook Tomas shows new travelers how cooking kindles a campfire. With that fire, they can make a simple camp in the wild. A campfire gives you a place to prepare food and begin a camp in Azeroth's wilds. Learn to cook, and you learn to build that fire. Then an open stretch of wilderness can become a place to camp. In Elwynn Forest, new travelers find Cook Tomas in Goldshire and learn the craft. His instruction gives you the skill to make a basic camp in the wild. At first, your camp holds few furnishings. Greater cooking skill lets you build larger fires, while other crafting trades give you more ways to furnish and shape your campsite.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96626-b8f128ada6a6950b8a03/1-0000.mp3", duration = 41.7959184, start = 0},
-  },
-}
-P.transport["quest:96629"] = {
-  hash = "458b5e",
-  fullHash = "458b5e",
-  text = "Camping 101: Cooking. In Dun Morogh, travelers learn to cook and make a fire for the wilds. Gremlock Pilsnor teaches novice adventurers in Kharanos. Cooking keeps food ready for the road and helps travelers light campfires at wilderness campsites. Your first camp in Dun Morogh begins with a fire. In Kharanos, Gremlock Pilsnor teaches novice adventurers to cook. The skill keeps food ready for the road. A sturdy campfire gives an outdoor camp its center. Once you can build a campfire, you can pitch a humble camp in the open wilderness. A simple fire holds only a few furnishings, but greater cooking skill lets you build larger blazes. Artisans trained in other crafts can make furnishings, turning a basic rest stop into a fully outfitted encampment.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96629-e712d859619e0b16dd1a/1-0000.mp3", duration = 46.7330612, start = 0},
-  },
-}
-P.transport["quest:96634"] = {
-  hash = "6597b0",
-  fullHash = "6597b0",
-  text = "Camping 101: Cooking. In the wild, you begin with cooking and a fire, and trainers such as Zarrin in Dolanaar can teach you the trade. A campfire anchors your camp and opens the way to outdoor survival. When you travel through the wild, a campfire gives you a place to begin. Seek cooking training first. Cooking lets you prepare meals from wild game and teaches you to light a basic campfire. That fire anchors an outdoor camp. Without it to ward off the chill and keep darkness at bay, you cannot make a reliable campsite in the wild. A basic campfire lets you make a modest camp in the wild. It holds only a few simple furnishings, but you can expand your camp as your skills grow. More cooking training teaches you to kindle larger, sturdier fires. Trainers in other trades can teach you to make furnishings and improve your camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96634-35742fb385dc2aa7e1a1/1-0000.mp3", duration = 51.0955102, start = 0},
-  },
-}
-P.transport["quest:96646"] = {
-  hash = "b3782c",
-  fullHash = "b3782c",
-  text = "Camping 101: Cooking. At Shen'dar Village, Zerril Softbreeze shows you how to kindle a campfire. Camping 101: Cooking teaches you to make a fire and establish a campsite in the wilderness. A campfire gives you a place to rest in untamed lands. Learning to cook begins with making that fire. It is the first step toward establishing a safe campsite. Speak with Zerril Softbreeze in Shen'dar Village to learn the fundamentals of cooking. Once you know how to kindle a campfire, you can establish a small campsite in the wilderness. A basic camp has only a few furnishings. As your cooking skill improves, you can kindle larger fires. Other tradeskills help furnish the site.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96646-fa87e6568d645db97b6f/1-0000.mp3", duration = 40.2546939, start = 0},
-  },
-}
-P.transport["quest:96655"] = {
-  hash = "2abef2",
-  fullHash = "2abef2",
-  text = "Camping 101: Cooking. In Razor Hill, Cook Torka shows travelers how to cook and make a campfire. With those skills, they can establish camps in the wild. Beyond a settlement's gates, surviving in the wild takes more than sharp steel and sturdy armor. In Razor Hill, Cook Torka teaches budding adventurers to cook. Across Durotar and beyond, cooking means more than preparing a hot meal. It also teaches travelers to light a reliable campfire, the heart of any campsite. Once travelers know the basics, they can pitch a modest camp almost anywhere on the frontier. A novice campfire supports only a few essential furnishings. Greater cooking skill lets travelers build larger blazes. Other trades teach them to craft what they need to furnish and improve a camp into a reliable shelter from the wild.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96655-d6a909f7066a96c9fe81/1-0000.mp3", duration = 48.3265306, start = 0},
-  },
-}
-P.transport["quest:96661"] = {
-  hash = "4aa810",
-  fullHash = "4aa810",
-  text = "Camping 101: Cooking. In Bloodhoof Village, Pyall Silentstride begins your lessons in cooking and campfires. Across Kalimdor, those skills help you make a campsite and prepare meals from hunted game. When night falls, a campfire gives you a place to return to. Across Kalimdor, basic cooking teaches you to build a fire in the wild. It also shows you how to prepare nourishing meals from hunted game, making cooking part of surviving outdoors. In Bloodhoof Village, Mulgore, Pyall Silentstride teaches you the basics of cooking. With that training, you can kindle a campfire and pitch a simple camp in the wilderness. As your cooking skill grows, you learn to build larger fires. Other crafts can furnish your outpost.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96661-333a4e87159bd8e3fb58/1-0000.mp3", duration = 44.5910204, start = 0},
-  },
-}
-P.transport["quest:96800"] = {
-  hash = "430856",
-  fullHash = "430856",
-  text = "Past Due. A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters. The old Dalaran library’s ledgers show that Arcanist Doan borrowed the tome before the Third War and never returned it.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96800-2b21f6b4d4110d795cf2/1-0000.mp3", duration = 15.4644898, start = 0},
-  },
-}
-P.transport["quest:96821"] = {
-  hash = "736f78",
-  fullHash = "736f78",
-  text = "Legging It. The peons have halted their southward travel because dangers line the road. Their work waits until the way is safe again. Peons have left their assigned work undone and stopped traveling south. Perils along the road have made the journey too dangerous. Once the threats are pushed back, overseers can send their crews to work again. Peons do much of the Horde’s hard labor, from harvesting timber and quarrying to building outposts. They have little skill in battle, so roadside predators or hostile scouts can halt the movement of supplies. Clear routes keep settlements supplied and let the work continue.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96821-5e3edfe81d6d826e8a34/1-0000.mp3", duration = 38.1387755, start = 0},
-  },
-}
-P.transport["quest:96822"] = {
-  hash = "98784a",
-  fullHash = "98784a",
-  text = "For Honor. Fallen warriors live on in memory through For Honor. Their sacrifices endure in the minds of those who remember them. Those who outlive fallen warriors carry their memory forward. Remembering those who gave everything is a duty. Your efforts keep the fallen fighters alive in memory. Those who remember them continue to honor their sacrifices.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96822-3bcb5a4ef43183556457/1-0000.mp3", duration = 22.7526531, start = 0},
-  },
-}
-P.transport["quest:96825"] = {
-  hash = "84b233",
-  fullHash = "84b233",
-  text = "This Fruit Could Bite Back. In Durotar, prickly pears feed Orgrimmar and promise more food ahead. Gathered with care, these hardy fruits can nourish the Horde capital and provide seeds for future crops. Durotar is rugged and sun-baked, where traditional farming is nearly impossible. Its hardy prickly pears thrive in the arid soil, so inhabitants gather them to help feed Orgrimmar. Their protective spines call for care, and their fruit brings needed nourishment. Prickly pears feed people now and can help supply food in the years ahead. Their flesh is prepared for dishes, while their seeds are carefully preserved for planting. The aim is to grow this resilient crop around Orgrimmar, creating a lasting food source close outside the fortress walls.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96825-bc3f33fba2dd806be83a/1-0000.mp3", duration = 46.4979592, start = 0},
-  },
-}
-P.transport["quest:96874"] = {
-  hash = "afffd2",
-  fullHash = "afffd2",
-  text = "This Is Spinal Axe. Ug’thok in Orgrimmar asks you to gather spines from the huge beasts of Thunder Ridge. He hopes to shape them into an axe head for your smithing lessons. Ug’thok asks you to bring five Weathered Spines and five Rough Grinding Stones. He believes the spines could make a fine axe head, though Saru laughed at the idea.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96874-85071d3e9030e04430b4/1-0000.mp3", duration = 20.0097959, start = 0},
-  },
-}
-P.transport["quest:96875"] = {
-  hash = "31570b",
-  fullHash = "31570b",
-  text = "Beasts of Thunder Ridge. Across Durotar, Orgrimmar's builders need hides to keep the growing capital strong. Kamari sends you to Thunder Ridge for lizard hides and cured light hides. Orgrimmar keeps growing as the Horde makes a home in Durotar. New homes, workshops, and defenses need lumber, stone, and animal skins. Timber comes from farther away, but Durotar's beasts provide sturdy hides for the peons and builders. The lizards of Thunder Ridge have tough hides, too thick and stiff for wearable armor. Properly harvested, their pelts line the walls and ceilings of Orgrimmar's timber and stone buildings. There, they shield the interiors from the harsh sun and sudden canyon winds.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96875-a7e188e2cf685d8cbfd6/1-0000.mp3", duration = 43.8073469, start = 0},
-  },
-}
-P.transport["quest:96876"] = {
-  hash = "ae855b",
-  fullHash = "ae855b",
-  text = "Ukor's Lost Pack. In southern Durotar, Ukor's Lost Pack lies abandoned in the wilds. Its owner fled a huge spider and left his supplies behind. In southern Durotar, you find a traveling bag with Ukor's name crudely stitched across its flap. In these harsh lands, discarded gear may point to trouble nearby. Ukor receives his pack in southern Durotar and tells how he lost it. A huge spider ambushed him, and he fled in panic, certain his supplies were gone. Finding the bag intact earns you Ukor's heartfelt gratitude and praise.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96876-2915a8308e6e741a1431/1-0000.mp3", duration = 35.082449, start = 0},
-  },
-}
-P.transport["quest:96877"] = {
-  hash = "b56453",
-  fullHash = "b56453",
-  text = "Halikor's Hoof. In the wilds, Halikor's Hoof is carried to Orgrimmar as proof of a hunter's triumph. The enormous severed hoof honors the hunter's victory over the formidable lizard. Halikor's vast size is plain in the hoof taken from its remains. Hunters and warriors in the wilds have long claimed a piece of a formidable beast to prove the kill. The hoof leaves no doubt of the lizard's great size and strength. The heavy hoof is carried to Orgrimmar to announce the beast's defeat to the Horde. Strength and survival against the land's harsh predators matter in this warrior society. Presenting the trophy honors the hunter and assures the capital that a dangerous creature has been slain.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96877-200a0cd13a37fedd6523/1-0000.mp3", duration = 41.1689796, start = 0},
-  },
-}
-P.transport["quest:96895"] = {
-  hash = "30acaf",
-  fullHash = "30acaf",
-  text = "The Argent Emissary. In Tirisfal Glades, two Argent Dawn emissaries hunt Scourge cultists near the Undercity. Both are Forsaken, yet local authorities distrust an armed neutral order in their territory. Two Forsaken emissaries of the Argent Dawn have recently reached Tirisfal Glades. Their arrival puts local authorities on edge. The Argent Dawn fights the Scourge, but the Forsaken distrust an armed neutral order acting without oversight in their territory. Even their shared heritage does little to ease that wariness. The emissaries pursue Scourge cultists southeast of the Undercity, near its outskirts. They mean to root out the Lich King's agents before the cultists gain a foothold. One emissary watches their movements from near the city gates.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96895-67a98162b19ce8e16ca7/1-0000.mp3", duration = 47.7257143, start = 0},
-  },
-}
-P.transport["quest:96896"] = {
-  hash = "b562d4",
-  fullHash = "b562d4",
-  text = "A Righteous Cause. Leonid Barthalomew the Revered and Danitha Morr meet again to remember the Undercity's defense against Naxxramas. They speak of Garek Bandarion, a fallen undead hero who found the Holy Light again as a paladin, and of the Forsaken who carry his path onward. Leonid Barthalomew the Revered and Danitha Morr meet again after defending Lordaeron together. They survived Naxxramas's assault on the Undercity, though many comrades fell. Now they remember the dead and the hard road faced by Forsaken who still honor the Holy Light. Leonid and Danitha remember Garek Bandarion, the fallen hero whose name was given to the keep. Leonid believes Garek may have been the first Forsaken to wield the Holy Light again as a true paladin. Most Forsaken have turned from the Light. Danitha and her cohort keep Garek's legacy alive and explore what holy unlife may allow. After speaking with Danitha, Leonid prepares to leave the keep and return to the fight against the Scourge in the ravaged east. He is stationed at Light's Hope Chapel in the Eastern Plaguelands. There, he welcomes able-bodied adventurers ready to take up arms.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96896-5eba89e6a8449548bdb2/1-0000.mp3", duration = 71.6277551, start = 0},
-  },
-}
-P.transport["quest:96897"] = {
-  hash = "1bfdc0",
-  fullHash = "1bfdc0",
-  text = "The Cult of the Damned. In Tirisfal Glades, living servants of the Scourge threaten the people once more. By culling Dark Neophytes and Dark Enforcers, you help keep the Lich King's agents from repeating the betrayals that shattered Lordaeron. The Scourge has living servants who swear fealty to the Lich King. They serve where the mindless dead cannot. In Tirisfal Glades, people already face roaming undead and the relentless zealots of the Scarlet Crusade. Now, newly discovered cells of Dark Neophytes and Dark Enforcers show the Scourge seeking a foothold again. The marching dead were not the only cause of Lordaeron's fall. Neighbors betrayed neighbors as the Cult of the Damned infiltrated villages and poisoned granaries. From the shadows, they helped bring the kingdom down. Fresh Cult activity in Tirisfal threatens to repeat that history in the scarred lands of the north.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96897-6af879ed177d2e404807/1-0000.mp3", duration = 53.5510204, start = 0},
-  },
-}
-P.transport["quest:96898"] = {
-  hash = "77fa1b",
-  fullHash = "77fa1b",
-  text = "Remnants of War. Across Tirisfal Glades, remnants of war lie scattered beneath the soil. Naxxramas was driven from the Undercity at great cost to the Forsaken and the Argent Dawn. Its shattered necrotic focusing crystal remains a danger, and Scourge cultists seek its fragments for the dark magic within. Naxxramas once loomed over Tirisfal Glades, seeking to wipe out the Undercity and the Forsaken. The Forsaken and the Argent Dawn fought off the floating fortress in a desperate defense. Both sides suffered heavy losses. During the battle, the immense necrotic focusing crystal atop Naxxramas was destroyed, scattering fragments across the glades. Naxxramas was driven away, but pieces of its crystal remain in the soil. Scourge cultists search for the fragments, hoping to use the dark magic still within them. Gathering the shards keeps that power from the Scourge. Yet clearing every fragment from Tirisfal will take years.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96898-7c15127ae00d7d5aaebd/1-0000.mp3", duration = 59.8465306, start = 0},
-  },
-}
-P.transport["quest:96899"] = {
-  hash = "f5acef",
-  fullHash = "f5acef",
-  text = "Bandarion Keep. At Bandarion Keep, Commander Leonid Barthalomew waits for travelers in western Tirisfal Glades. The Argent Dawn once held the secluded fortress against the Scourge, and Danitha and her paladins now guard its walls. After you aid the Argent Dawn against Cult of the Damned activity, you are sent northwest across Tirisfal Glades. Commander Leonid Barthalomew waits at the fortress to speak with you about the order's ongoing crusade against darkness. The Argent Dawn once used the stronghold as a staging post against Scourge incursions across Tirisfal Glades. Then the order turned its focus to the Eastern and Western Plaguelands. The fort was left behind and began to decay, until Paladin Danitha and her companions took stewardship of its walls.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96899-f247df1c26e71e7366bc/1-0000.mp3", duration = 45.1395918, start = 0},
-  },
-}
-P.transport["quest:96986"] = {
-  hash = "447d2b",
-  fullHash = "447d2b",
-  text = "The Grave Knight. In Tarren Mill, Melisara sends you after Atrexis, who raises the dead beneath Dalaran. She sees his work as an affront to the Forsaken. Melisara calls Atrexis a traitor to the Forsaken. Beneath Dalaran, he raises an undead army. She asks you to defeat him, though she cares little for the mage city's fate. No one is beyond the Dark Lady's reach.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96986-10531d22a57f2546b7a8/1-0000.mp3", duration = 32.1828571, start = 0},
-  },
-}
-P.transport["quest:96988"] = {
-  hash = "7bb378",
-  fullHash = "7bb378",
-  text = "Source of Power. In Dalaran, rogue constructs have turned on their makers, and Doctor Martin Felben sees a chance for the Forsaken. He wants their arcane cores for his work in Undercity and hopes to catch the Dark Lady’s eye. Dalaran’s rogue arcane constructs are laying siege to the magi, and the Forsaken are eager to exploit the city’s turmoil. Doctor Martin Felben, an apothecary in Undercity, seeks to scavenge the cores that power the sentries rather than aid the besieged sorcerers. Dalaran has long guarded its magical research, but its vulnerable sentries now offer an opening to opportunistic researchers. Doctor Felben wants the cracked sentry cores to advance his standing within the Royal Apothecary Society. He hopes to infuse Forsaken abominations with volatile Dalaran construct magic and raise a devastating army of arcane-powered flesh beasts. Such a breakthrough, he believes, would win Lady Sylvanas Windrunner’s undivided attention and show his alchemical genius. He hopes to rise in the Society, where ruthless cunning and potent results dictate survival and rank.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_96988-dffaac8e197efb4b3232/1-0000.mp3", duration = 88.1371429, start = 0},
   },
 }
 P.transport["quest:97"] = {
@@ -9057,188 +4625,12 @@ P.transport["quest:972"] = {
     {file = "Audio/Transport/full_quest_972-bac2948ba0ee60487dc8/1-0000.mp3", duration = 51.6440816, start = 0},
   },
 }
-P.transport["quest:97220"] = {
-  hash = "a82e5c",
-  fullHash = "a82e5c",
-  text = "Philmor's Favor. A delicate shipment is bound for the Gatehouse in Stormwind under Philmor's Favor. With dockhands scarce, travelers carry it to a stockroom entrance above Trias' Cheese in the Trade District. Stormwind's freight handlers are short of dockhands, and ordinary cargo schedules are strained. They rely on trustworthy travelers to carry sensitive crates into the city's commercial quarter and keep deliveries moving. The Gatehouse shipment is bound for an unusual destination. Carry the crate to the second floor of Trias' Cheese in the Trade District, where a concealed entrance opens onto a stockroom. Supplies and ceremonial gifts for the guard's officers pass through there, beyond prying eyes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97220-bfab457d102dd965641f/1-0000.mp3", duration = 42.5012245, start = 0},
-  },
-}
-P.transport["quest:97222"] = {
-  hash = "60e34f",
-  fullHash = "60e34f",
-  text = "Gatehouse Goods. In Stormwind, Gatehouse Goods moves from Trias' Cheese to the neighboring gatehouse. The route takes the shipment up the shop's stairs to a landing on the same floor, where guards can collect it outside the stockroom. Shared quarters link the city's shops and defenses. Couriers carry a gatehouse shipment up the stairs inside Trias' Cheese. The cheese shop is a separate business with its own inventory, yet its building shares a floor with the neighboring gatehouse. From the upper landing, couriers can move supplies between the two quarters without using the front avenues. The crate is left outside the stockroom door rather than carried inside. Gatehouse guards watch for deliveries and arrange for someone to collect each package when returning to their posts. The door opens inward, so a crate outside will not block the entry or hinder anyone inside.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97222-34f8820c013633b47a6c/1-0000.mp3", duration = 52.715102, start = 0},
-  },
-}
-P.transport["quest:97223"] = {
-  hash = "4ebef6",
-  fullHash = "4ebef6",
-  text = "Bloodtalon Matriarch. Near Sen'jin Village, handlers face a threat from the Bloodtalon Matriarch as they seek her young. Her pack is prized for speed and cunning, but adults resist taming. The Darkspear seek to secure her clutch and raise loyal companions from the egg. Along Durotar's coast, Bloodtalon raptors are prized for speed and cunning. Handlers in Sen'jin Village value those traits in dependable mounts and companions for the Darkspear tribe. Yet full-grown raptors have stubborn, violent instincts. Once grown, wild adults are scarcely tamed. Repeated attempts to capture and train the Matriarch have only made her more aggressive. Now she threatens the surrounding territory. The trolls seek to protect their tribe and preserve her bloodline. They must quell the dangerous mother and save her clutch, so the next generation can be raised from the egg as loyal allies.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97223-ba981c437ca1efb8fb16/1-0000.mp3", duration = 52.0359184, start = 0},
-  },
-}
-P.transport["quest:97225"] = {
-  hash = "bf895e",
-  fullHash = "bf895e",
-  text = "Forgotten Loa Idols. The Darkspear seek the Forgotten Loa Idols so their sacred rites can continue. The relics preserve the tribe’s bond with its patron spirits. The Darkspear honor the loa through sacred rites. These primal animal spirits and wild gods belong to the trolls’ ancestral heritage. The lost idols are needed for ceremonies in their honor. Without them, spiritual leaders cannot perform the rites that keep the tribe in harmony with its divine guardians. The Darkspear approach the loa with respect and humble reverence. Other hostile troll factions across Azeroth practice blood sacrifice or try to command spirits by force. Losing their patrons’ favor would be a grave catastrophe for the Darkspear. So restoring the idols is vital to preserving the tribe.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97225-55f270ef7439cbaff76a/1-0000.mp3", duration = 49.6065306, start = 0},
-  },
-}
-P.transport["quest:97234"] = {
-  hash = "511dd7",
-  fullHash = "511dd7",
-  text = "Reading Room. At Roy's Book Club, members trade older literature for newer works from the Stormwind library. Wrapped books carry the exchange between the club and the librarian. Roy's Book Club gathers readers in Stormwind to discuss classical legends and provocative writings. To keep those talks fresh, members rotate their reading. They trade older or less popular works for newer volumes from the city's library. Roy's Book Club keeps an established lending arrangement with the Stormwind library. Roy wraps the club's returned books in a distinctive way, and you carry them to the librarian. In return, the club receives a new list of modern tomes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97234-f66a3abd4d2d60852c1f/1-0000.mp3", duration = 40.5681633, start = 0},
-  },
-}
-P.transport["quest:97236"] = {
-  hash = "1e00c8",
-  fullHash = "1e00c8",
-  text = "Fang of Githyiss. Near Aldrassil, Githyiss’s hunt brings a rare specimen to the sanctuary. Scholars can study the giant spider’s fang and watch for predators in Shadowglen. Githyiss threatens travelers in Shadowglen’s wilds. The giant spider’s fang matters both as a danger and as a specimen worth studying. Scouts carry it through the underbrush to the sanctuary beneath the great tree. In Aldrassil, night elf naturalists and scholars watch the wildlife on the forest floor. A fresh, intact fang from a spider as large as Githyiss can teach them about arachnids beneath Teldrassil’s canopy. Researchers welcome the find as they study the glade’s aggressive creatures.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97236-2a3efa21dca6f970918a/1-0000.mp3", duration = 41.6653061, start = 0},
-  },
-}
-P.transport["quest:97237"] = {
-  hash = "c1383c",
-  fullHash = "c1383c",
-  text = "Shelf Picked. In Stormwind, Roy Lewells sends a runner to gather books for a reading group in the Park. Roy Lewells has sent a note asking for several books from the Stormwind library. The librarian checks the list and confirms every title is in stock. The books are there for you to find and pull from the shelves. The librarian stays at the desk to keep the inventory records. Roy Lewells's note makes you an official courier, so you are not responsible for returning the borrowed books. That duty belongs to Lewells's establishment. Once you bring the volumes to the Park, Roy prepares them for lively after-hours discussions in a cellar. The books have an exotic smell.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97237-d62a42df04427f98dbcd/1-0000.mp3", duration = 40.0979592, start = 0},
-  },
-}
-P.transport["quest:97242"] = {
-  hash = "b7fdd8",
-  fullHash = "b7fdd8",
-  text = "Yelmak's Medley. Tensions rise in Yelmak's Alchemy and Potions, in Orgrimmar's Valley of Honor. Master alchemist Yelmak hopes a calming mixture made with local water plants will quiet his apprentice Whuut's clumsy frustration and stubborn pride. At Yelmak's Alchemy and Potions, young apprentice Whuut's pride is making trouble. Rather than ask for help when he is out of his depth, he breaks the shop's equipment in frustration. Master alchemist Yelmak seeks to calm the youth without bruising his fragile ego, so he devises a soothing concoction. The recipe calls for fresh cattails and speargrass from the watercourses winding through the Valley of Honor. Kor'geld cannot leave the shop without alerting the suspicious apprentice, so someone discreet must gather the plants. The botanical mixture is meant to temper Whuut's attitude and restore peace to the alchemy shop.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97242-49ddc70de399f6f61c47/1-0000.mp3", duration = 51.957551, start = 0},
-  },
-}
-P.transport["quest:97243"] = {
-  hash = "31f277",
-  fullHash = "31f277",
-  text = "Call of Fire. In Skywall, initiates carry the Torch of Dormant Flame to Olariaan Swiftburn for teaching. The shrine lies in the Gustberry Lowlands. Skywall belongs to the air elementals, though its currents reach the wider Elemental Plane. Spirits of earth, water, and fire still speak to those who can hear them. Some Windshapers are especially open to these other forces. Olariaan Swiftburn, a shen'dorei among them, is deeply attuned to fire. Initiates take the Torch of Dormant Flame to the Gustberry Lowlands. Far along the island rim, west of Valanaar, stands the Shrine of Flames, Olariaan Swiftburn's home. Olariaan receives the dormant flame and offers to teach aspiring students to heed fire's demanding call amid the air realm's churning currents.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97243-c5f406e5a7d1b1462644/1-0000.mp3", duration = 51.6179592, start = 0},
-  },
-}
-P.transport["quest:97244"] = {
-  hash = "0425ab",
-  fullHash = "0425ab",
-  text = "Call of Fire. The Windshapers send you after a traitor who chose power over his order. Skypriest Faladiel has fled to the Gustberry Lowlands, and they need his heart for a ritual. The Windshapers send you after Skypriest Faladiel, once one of their own. He left the order to join the Al'Aketh and traded his calling as a flame-caller for power. He betrayed his former brothers and sisters, and their blood stains his hands. Now the Windshapers send you to carry out their judgment. Faladiel hides at a farm in the Gustberry Lowlands, northeast past Valanaar and just south of the Shrine of Akir. The Windshapers seek more than vengeance. They need his heart for an upcoming ritual. They believe a betrayer's heart will lend their sacred flames unmatched intensity.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97244-ee0f13b0464eec8440cc/1-0000.mp3", duration = 47.882449, start = 0},
-  },
-}
-P.transport["quest:97245"] = {
-  hash = "b67e20",
-  fullHash = "b67e20",
-  text = "Call of Fire. In the Shen'dar Highlands, Olariaan Swiftburn sends you to face Kuramaa, an ancient forest sprite. Flame can pierce its defenses, and its wooden mask is needed in the Gustberry Lowlands to kindle an eternal flame and commune with fire spirits. People in the Shen'dar Highlands speak of Kuramaa, an ancient forest sprite that dwells in a twisted tree stump. The stump stands atop a hill near the regional Anchor Pylon. Strike the bark with a bare fist, and Kuramaa comes forth to meet you in combat. Kuramaa's natural wards turn aside most arcane and divine magic. Only searing flame pierces its ancient bark and brings it low. Defeat the sprite, and its wooden mask is yours, an artifact of great power. Yet Kuramaa is eternal. When called again, it reforms.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97245-3b20a518589c1a6ce7d2/1-0000.mp3", duration = 50.9910204, start = 0},
-  },
-}
-P.transport["quest:97246"] = {
-  hash = "dfa648",
-  fullHash = "dfa648",
-  text = "Meal Appeal. In Orgrimmar, Thatog worries his young son Migi is skipping meals to play. He asks you to fetch lunch from Borstan's Firepit and find Migi behind Grommash Hold. Thatog's daily duties keep him at his post in Orgrimmar. He has little time to watch Migi, his energetic young son. From morning until dusk, Migi races through the city with his friends. He often ignores his hunger until he comes home famished. Thatog arranges a hot lunch for Migi at Borstan's Firepit and asks you to carry it. Migi would rather keep playing than stop to eat. So you take the meal to the yard behind Grommash Hold, where Migi and the neighborhood children play.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97246-367456ba18b7b615a44b/1-0000.mp3", duration = 41.6653061, start = 0},
-  },
-}
-P.transport["quest:97249"] = {
-  hash = "17baa3",
-  fullHash = "17baa3",
-  text = "Favorite Food. In Orgrimmar, Migi's parents worry that play keeps him from eating enough. Borstan of Borstan's Meats prepares varied lunches with a taste Migi loves, so he and his friends stop to eat. Behind Grommash Hold, young Migi and his friends spend their afternoons playing along Orgrimmar's dusty paths. His parents worry that he often neglects his meals and does not eat enough. So they ask Borstan's Meats to prepare daily packed lunches. They insist that Borstan vary the meals, hoping Migi will learn to enjoy more than one favorite dish. Migi loves sweetglazed hog belly sandwiches and comes for lunch when the smokehouse fills with their sweet aroma. Borstan finds a way to honor his parents' request while keeping Migi fed. He crumbles the leftover crispy glazed cracklings into a savory seasoning that can be sprinkled over any dish. Behind Grommash Hold, the topping persuades Migi and his companions to pause their play and share lunch.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97249-a8e59ca23e2bb0a44f73/1-0000.mp3", duration = 59.4285714, start = 0},
-  },
-}
 P.transport["quest:97250"] = {
   hash = "232a30",
   fullHash = "232a30",
   text = "Wrongly Blamed, Justly Corrected. Along the eastern coast, Wrongly Blamed, Justly Corrected follows rising Horde and Alliance tensions after a roadside tavern is destroyed. The incident warns Alliance forces, while the question of who threatened a vital civilian trade route remains open. Along the eastern coast, Horde and Alliance skirmishes are reaching contested ground. Then a tavern on a major thoroughfare is destroyed. Ordinary travelers now face danger, and the region's stability is at risk. The affair ends in victory for Horde forces in the area, though questions about the tavern remain. The result warns the Alliance that any move into Horde territory along the coast will meet immediate resistance.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_97250-c5a220ad7283774f0bd5/1-0000.mp3", duration = 44.564898, start = 0},
-  },
-}
-P.transport["quest:97253"] = {
-  hash = "1c0124",
-  fullHash = "1c0124",
-  text = "Parts and Pieces. In Ratchet, Wrenix's machine lies in pieces after the pirates dismantled it. He sent it to face the raiders after five or six mercenaries failed to return alive. Now its scattered parts lie in the pirates' upper camp. Pirates along the coast south of Ratchet trouble the town's residents and tradesfolk. Wrenix the Wretched wanted to stop them without risking more coin on hired hands. Five or six mercenaries had already gone after the pirates and failed to return alive.\n\nSo Wrenix sent an automated machine to deal with the encampment on its own. He hoped the contraption could face the marauders without putting another living soul at risk. The pirates south of Ratchet proved resourceful. They used their curved scimitars as makeshift screwdrivers and pried Wrenix's machine apart before he could send instructions to retreat toward town.\n\nIts delicate components now lie scattered in their upper camp. Wrenix needs someone to slip inside and gather five handfuls of the complicated parts from the dirt.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97253-011eca50301f841eb871/1-0000.mp3", duration = 60.9959184, start = 0},
-  },
-}
-P.transport["quest:97257"] = {
-  hash = "edeea8",
-  fullHash = "edeea8",
-  text = "Call of Fire. At Skywall, initiates face the Windshapers’ trial and seek a Fire Totem. They summon spirits of flame, bear the Eternal Flame to Valanaar, and kindle its brazier. Olariaan of the Windshapers guides initiates through a sacred trial at Skywall. They gather at the Brazier of Offering and call to spirits of flame from the Firelands. If their offerings are worthy, the spirits kindle the altar with the Eternal Flame. A worthy initiate may then take up that flame. The Eternal Flame must be caught on a torch and carried across Skywall to Valanaar. In this elemental realm, its power from the Firelands fades in the swirling air. The initiate must reach the Brazier of Eternal Flames before the torch goes dark. When an initiate rekindles the brazier at Valanaar, the Windshapers grant them a Fire Totem. It honors their discipline and respect for the elements. The elders teach that elemental power serves those who respect it, but consumes those who do not.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97257-00a93297e568bd085b79/1-0000.mp3", duration = 63.477551, start = 0},
-  },
-}
-P.transport["quest:97263"] = {
-  hash = "fe9b6b",
-  fullHash = "fe9b6b",
-  text = "Your Package Has Arrived. A parcel from Aerie Peak lies beside a city mailbox, bound for Ironforge. Marked urgent for Eldrun Stormbreaker, it still waits to be delivered. Several parcels lie abandoned beside a city mailbox. They were left there instead of being carried to their destinations. One urgent parcel came from Aerie Peak, the Wildhammer dwarves’ mountain redoubt in the Hinterlands. Deliveries between distant outposts across Khaz Modan and Lordaeron can go awry. An alert passerby can carry a mislaid package onward. The parcel is addressed to Eldrun Stormbreaker in Ironforge. Its urgent notice marks the shipment as important enough to travel from the Hinterlands to the dwarven capital without delay. The crate still needs to reach Eldrun before it is stolen or forgotten.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97263-80ed409a3da8ac9f0be8/1-0000.mp3", duration = 49.0579592, start = 0},
-  },
-}
-P.transport["quest:97275"] = {
-  hash = "226e94",
-  fullHash = "226e94",
-  text = "Whuut's the Rush. Yelmak sends you to carry a tonic to Whuut, whose eagerness has outrun his care. His apprentice reaches for rare herbs before learning what common plants can do. Whuut has a gift for alchemy, and the stirring rod comes naturally to him. Yet impatience leads him to spend the shop’s rarest reagents before he has mastered the basics. He reaches for legendary plants before learning how common herbs must be balanced, treating alchemy as a race. Yelmak answers his apprentice’s haste with a lesson in a vial. He brews a refined tonic from common speargrass and cattail using a quick method. Whuut is daydreaming about Black Lotus and Mountain Silversage when the tonic reaches his hands. Its simple ingredients show how much skill, patience, and respect for everyday plants can matter.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97275-6514ebeee17695e278ff/1-0000.mp3", duration = 47.3861224, start = 0},
-  },
-}
-P.transport["quest:97277"] = {
-  hash = "c860b4",
-  fullHash = "c860b4",
-  text = "Grund and Gozwin. At their camp in the northwestern hills, Grund and Gozwin face a snow leopard’s attack. Grund drives it off with his shotgun, but Gozwin loses his Mechanic's Log in the scramble. You camp with Grund and Gozwin in the snowy hills for the evening. As Grund turns to prepare a boar over the fire, a snow leopard springs from the brush and seizes Gozwin in its jaws. Grund snatches up his shotgun and fires over the beast’s head. Startled, the leopard lets Gozwin go and flees into the cold crags. Gozwin escapes with deep scratches, but the attack scatters the camp. In the scramble, he loses his prized Mechanic's Log, which holds schematics for his mecha-walker. The battered gnome fears someone may find his engineering secrets. He cannot rest until you search the hills northwest of camp for the log and the prowling leopard.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97277-d022cb40953e2223625d/1-0000.mp3", duration = 52.6106122, start = 0},
-  },
-}
-P.transport["quest:97281"] = {
-  hash = "2e8005",
-  fullHash = "2e8005",
-  text = "A Simmering Storm. In Durotar, the Dull Stormy Orb has caught Rezlak's attention. The goblin tinker sees reason to study the relic, recovered from the Dustwind harpies of Drygulch Ravine. Travelers who contend with the Dustwind harpies of Drygulch Ravine may find the Dull Stormy Orb among their strange trinkets. Its worn surface gives off a steady electrical vibration. Dark mist churns within, split now and then by sharp sparks. The relic shows the harpies have handled storm magic. Rezlak waits at the entrance to Drygulch Ravine, where the orb has caught his eye. Its discovery brings to mind advice from his employer, Chief Engineer Gazlowe of Ratchet. What the harpies meant to do with the miniature storm remains unknown. Now the orb is in goblin hands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97281-d64cc5cfdffe569e8fdd/1-0000.mp3", duration = 49.4236735, start = 0},
-  },
-}
-P.transport["quest:97282"] = {
-  hash = "ad69da",
-  fullHash = "ad69da",
-  text = "Stormy Potential. Near Drygulch Ravine, Rezlak looks for a way to protect his caravan from harpies. He hopes to charge a drained orb with the electrical organs of Durotar's thunder lizards. Near Drygulch Ravine in Durotar, harpies threaten Rezlak's caravan, and a sound magical orb has lost its power. Gazlowe, Ratchet's chief engineer, once advised Rezlak to seize opportunity when it knocks. Now the goblin plans to charge the dormant orb and answer both troubles at once. Rezlak needs strong electricity to restore his drained orb. Thunder lizards live in the gorge west of Drygulch Ravine, and their organs generate and conduct deadly lightning. He asks you to bring him those charged organs. Rezlak hopes to channel their volatile current into the orb and defend his supply wagons from harpy ambushes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97282-39516cf2084de763cd09/1-0000.mp3", duration = 49.9461224, start = 0},
-  },
-}
-P.transport["quest:97286"] = {
-  hash = "093b12",
-  fullHash = "093b12",
-  text = "Research Access. Your actions have earned you a place in the library. Its doors are open for your study. You have earned access to the library for your studies. Its doors are open to you.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97286-3b27ae1b6401e65d62e4/1-0000.mp3", duration = 11.2065306, start = 0},
-  },
-}
-P.transport["quest:97287"] = {
-  hash = "52b78b",
-  fullHash = "52b78b",
-  text = "Shrewd Negotiations. After your infiltration of the mages' city, Magus Wordeen Voidglare sends you to Dalaran. Carry the arcane mote to Archmage Celindra; Wordeen believes the Kirin Tor will give anything to recover it. Magus Wordeen Voidglare says no order on Azeroth matches the Kirin Tor in arcane knowledge. Even his brilliant work pales beside their ancient wisdom. He believes the Horde should gain access to their exclusive order. So he sends you to Archmage Celindra in Dalaran with the mote you acquired. Wordeen believes the Kirin Tor will give anything to get it back.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97287-2ac57e4c086d0e72db11/1-0000.mp3", duration = 51.7746939, start = 0},
   },
 }
 P.transport["quest:97288"] = {
@@ -9289,36 +4681,12 @@ P.transport["quest:973"] = {
     {file = "Audio/Transport/full_quest_973-68a683d730445f01aefd/1-0000.mp3", duration = 36.4408163, start = 0},
   },
 }
-P.transport["quest:97326"] = {
-  hash = "5707ab",
-  fullHash = "5707ab",
-  text = "Rocks to Rests. Behind Grommash Hold, Thra and friends make room for games in Orgrimmar. They need smooth boulders to use as chairs and tables. Young orcs gather in a dirt clearing behind Grommash Hold in Orgrimmar. There they can play away from the fortress guards. The open ground suits their miniature figures, but with no furniture, they sit in the dust. Thra spots you passing and asks you to carry eight medium-sized, smooth boulders to the clearing. Their flat sides will make sturdy chairs and low tables. Then the youths can arrange their games without sitting in the dirt.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97326-ff97d20cfb5430f8bb4e/1-0000.mp3", duration = 35.9706122, start = 0},
-  },
-}
 P.transport["quest:97538"] = {
   hash = "f7c470",
   fullHash = "f7c470",
   text = "Pigments for Paints. Tah Winterhoof needs red pigment for his paints, and you can help him replenish it. The color comes from mirkweed pods gathered in Mirkfallon Lake in the Stonetalon Mountains. Tah Winterhoof has run out of red pigment and cannot continue his work. He lives in Thunder Bluff, and his traveling days are behind him. So he asks you to make the long journey north into the Stonetalon Mountains and gather more coloring. Mirkfallon Lake lies in a mountain pass in the Stonetalon Mountains. Mirkweed grows beneath its waters, and its seed pods turn red when harvested and dried. Gather thirty pods, and Tah will have the raw material he needs to return to his work.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_97538-1c6533dfab4841856a59/1-0000.mp3", duration = 40.724898, start = 0},
-  },
-}
-P.transport["quest:97539"] = {
-  hash = "1946dc",
-  fullHash = "1946dc",
-  text = "Silky Sutures. At Hammerfall, Doctor Gregory Victor is turning to spider silk as infirmary supplies dwindle. Siege damage remains unrepaired, and the outpost's guards and laborers still need care. Hammerfall endures in the Arathi Highlands, though siege damage still mars its defenses. Doctor Gregory Victor, the outpost's physician, sees the neglect as official policy. With little support and crumbling fortifications around him, he keeps the infirmary running. Its care helps laborers and sentinel guards stay on their feet and ready for conflict. Medical supplies are running low at Hammerfall, so Doctor Victor seeks another way to stitch wounds. Tough highland spider silk can be twisted into resilient sutures when bandages and ordinary thread are scarce. Victor jokes that infection is the least of a wounded soldier's worries. The silk gives the infirmary thread to patch up defenders in hostile territory. Doctor Gregory Victor greets travelers with dry jokes about grave prognoses and stitches made from spider silk. His humor masks the hard truth of running a frontline clinic while Hammerfall remains isolated. Regular aid is rare in the highlands, and travelers can help keep the clinic supplied. Victor relies on improvised remedies and determination to care for the wounded as the outpost decays around him.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97539-3b8b4895f618417023eb/1-0000.mp3", duration = 81.6587755, start = 0},
-  },
-}
-P.transport["quest:97583"] = {
-  hash = "13aed1",
-  fullHash = "13aed1",
-  text = "WRIGGLE.. In Undercity, WRIGGLE. dances with travelers, then tires and needs special sludge to recover. After feeding, it follows a new friend. In Undercity, WRIGGLE. joins the dances of friendly travelers. The little slime starts full of energy, but soon tires and needs food to regain its strength. You can buy Nutritious Slime Sludge in Undercity's rancid canals. WRIGGLE. absorbs the foul treat and regains its energy. Then it bonds with the one who fed it and is ready to follow its new friend.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97583-52a0a652806f47187ae5/1-0000.mp3", duration = 32.8881633, start = 0},
   },
 }
 P.transport["quest:976"] = {
@@ -9329,342 +4697,6 @@ P.transport["quest:976"] = {
     {file = "Audio/Transport/full_quest_976-53864c4128f53d383421/1-0000.mp3", duration = 35.604898, start = 0},
   },
 }
-P.transport["quest:97891"] = {
-  hash = "c10e61",
-  fullHash = "c10e61",
-  text = "Prompt Potion Runner. In Undercity, a runner carries Alessandro’s brew across the slime canal before it spoils. The delivery must reach the Apothecarium in time. Alessandro needs a swift courier in Undercity’s underground corridors. The Forsaken alchemist has made a volatile brew that will soon spoil. His undead joints are too frail for him to cross the toxic slime canal, so you carry it intact before it turns to useless sludge. Doctor Martin Felben waits at the Apothecarium for the brew, which he needs for his ongoing research. He says the six potions Alessandro sent before this one destabilized in transit. A timely delivery lets the doctor continue his shadowy experiments without interruption. The unstable brew and Alessandro’s frail joints show the hazards of Forsaken alchemy and undeath.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97891-c0e33fc8d2564acfb737/1-0000.mp3", duration = 51.6179592, start = 0},
-  },
-}
-P.transport["quest:97900"] = {
-  hash = "03ee71",
-  fullHash = "03ee71",
-  text = "Camping 101: Blacksmithing. In Razor Hill, Dwukk can teach you a camp craft suited to your blacksmithing skill. A Sharpening Wheel gives nearby fighters a way to hone their weapons. Dwukk teaches you to craft a Sharpening Wheel once you show skill in blacksmithing. Set it up at a wilderness camp, where nearby fighters and rogues can hone their weapons.\n\nYou need a campfire to start your camp. Cooks can teach you how to make one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97900-61479d2f48abdc9ee804/1-0000.mp3", duration = 24.5028571, start = 0},
-  },
-}
-P.transport["quest:97901"] = {
-  hash = "f53803",
-  fullHash = "f53803",
-  text = "Camping 101: Enchanting. You can make an Enchanted Lute, but townsfolk dislike camps in town centers. To set up camp in the wilderness, you need a fire. A campfire gives you the basis for your camp. Most cooks can show you how to make one, so seek a cooking trainer if you have not learned the basics.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97901-832afe893f0a4e3ce16f/1-0000.mp3", duration = 17.92, start = 0},
-  },
-}
-P.transport["quest:97903"] = {
-  hash = "728f95",
-  fullHash = "728f95",
-  text = "Camping 101: First Aid. At Rawrk's camp in Razor Hill, capable travelers learn to make a First Aid Kit for the wilderness. The lesson covers where to camp and why a fire matters. Rawrk in Razor Hill teaches capable travelers to make a First Aid Kit. With one, you can tend wounds far from an apothecary or infirmary, where help may be hard to find. Rawrk warns you against pitching a tent in the middle of Razor Hill or another settlement. Find an open place in the wild instead. A camp also needs a fire to see you through the night. Learn basic firemaking from a cooking instructor before you set out.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97903-ec95d74123b11f2e13e5/1-0000.mp3", duration = 36.597551, start = 0},
-  },
-}
-P.transport["quest:97904"] = {
-  hash = "fa8bf3",
-  fullHash = "fa8bf3",
-  text = "Camping 101: Fishing. At your camp, fishing can bring comfort to you and your companions. Near Sen'jin Village, Lau'Tiki can teach you to make a Fish Bowl. Once you have shown skill in fishing, speak with Lau'Tiki near Sen'jin Village. Lau'Tiki can teach you to make a Fish Bowl, a fixture for camp meant to bring joy to you and your fellow adventurers. A happier camp, the giver hopes, makes for stronger fighters.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97904-b4335515eac2a3df0058/1-0000.mp3", duration = 25.7044898, start = 0},
-  },
-}
-P.transport["quest:97905"] = {
-  hash = "a41f99",
-  fullHash = "a41f99",
-  text = "Camping 101: Herbalism. You learn to make incense candles from wild plants in Camping 101: Herbalism. First, though, a proper camp needs a fire, and your campsite belongs in the wilderness beyond town. Herbalism lets you turn gathered plants into incense candles for comfort on the trail. Townsfolk frown on tents pitched in city streets, so these candles are meant for camps beyond guarded settlements. A campfire belongs at the heart of every campsite. Set one before you use an incense candle. Herbalists provide the aromatic burn, while cooking trainers across the land teach travelers the basics of starting a fire.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97905-e97b2d94eb2f8f8e1838/1-0000.mp3", duration = 37.6163265, start = 0},
-  },
-}
-P.transport["quest:97907"] = {
-  hash = "aa02de",
-  fullHash = "aa02de",
-  text = "Camping 101: Mining. In Durotar, skilled miners can learn to forge a Lodestone for camps in the wild. Krunn in Razor Hill teaches the craft. Mining yields materials for travel and survival in the wild. With skill in pick and ore, you can learn to make gear for a campsite. In Durotar, Krunn in Razor Hill teaches skilled miners to forge a Lodestone for their travels. At a wilderness camp, a Lodestone gives the gathered fighters greater strength in battle. Set it beside the campfire, and martial fighters around the flames gain an edge. Townsfolk frown on tents pitched in city squares, so you need the open wild to put your craft to use. A sturdy Lodestone needs a fire at the heart of camp. You need a basic campfire before setting up a resting place. If you do not know how to build one, seek a cooking instructor. Cooking teaches the basics for warmth and sustenance on expeditions beyond town walls.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97907-d84dcad965b3870500ea/1-0000.mp3", duration = 57.3387755, start = 0},
-  },
-}
-P.transport["quest:97908"] = {
-  hash = "9b3a08",
-  fullHash = "9b3a08",
-  text = "Camping 101: Skinning. In Orgrimmar, new skinners are sent to Thuwd to learn the craft of camping. You make a Camp Chair from hides and pelts, then carry it beyond the city to open country. In Orgrimmar, Thuwd teaches capable skinners to make a Camp Chair from cured hides. The pelts and hides of fallen beasts can serve beyond armorcraft. A skinner can put them to use in the wild. Thuwd warns that guards and townsfolk frown on camps along busy city streets. A chair belongs in open country, away from settlement walls. A proper campsite needs a warm campfire, too. Cooks across Kalimdor teach the basics of making one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97908-32edcb0c95a2f696c99a/1-0000.mp3", duration = 39.3404082, start = 0},
-  },
-}
-P.transport["quest:97916"] = {
-  hash = "aa1eb5",
-  fullHash = "aa1eb5",
-  text = "Camping 101: Blacksmithing. In Goldshire, Smith Argus teaches skilled metalworkers to prepare for work in the wild. They learn to forge a portable Sharpening Wheel and to make camp in open country with a proper fire. Smith Argus of Goldshire shows skilled metalworkers how to carry their craft beyond the town anvils. Those ready for the work can learn to forge a Sharpening Wheel, keeping blades keen on long travels. Field gear alone does not make a proper camp. Goldshire townsfolk frown on camps within settlements, so crafters must head into the open frontier to use their equipment. A wilderness camp also needs a warm fire. Visit a local cook to learn the basics of making one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97916-14bedad7ff814b467af5/1-0000.mp3", duration = 41.4302041, start = 0},
-  },
-}
-P.transport["quest:97917"] = {
-  hash = "f177b7",
-  fullHash = "f177b7",
-  text = "Camping 101: Enchanting. In Stormwind, Betty Quin teaches enchanters to bring a little magic to the campfire. With an Enchanted Lute, they can lift spirits and help travelers rest along the trail. Long roads across Azeroth call for more than steel and rations. Comfort and good spirits matter in the wild, too. Enchanters put their craft to work at camp, turning quiet hours into music and rest before the next stretch of trail. Betty Quin in Stormwind teaches enchanters to make special items for the campsite. Once they have shown skill in enchanting, she can teach them to craft an Enchanted Lute. Its charms lift spirits around the campfire.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97917-6e07e103a23e06e59a75/1-0000.mp3", duration = 39.3665306, start = 0},
-  },
-}
-P.transport["quest:97921"] = {
-  hash = "d6fb39",
-  fullHash = "d6fb39",
-  text = "Camping 101: Herbalism. In Elwynn Forest, Herbalist Pomeroy teaches skilled gatherers a new comfort for camp. They learn to make Incense Candles, whose fragrance lifts the spirits of spellcasters resting in the wild. A herbalist's craft can help a traveling party in more ways than brewing restorative draughts or selling flowers. With skill in gathering, you can help your companions endure the wilds. A camp needs more than a fire and dry bedroll. Weary travelers also need comforts that keep their minds keen. Some plants give off aromas that refresh tired minds, so herbalists can support a party far from civilization. In Elwynn Forest, Herbalist Pomeroy teaches skilled gatherers to make campsite supplies from local plants. She shows them how to shape an Incense Candle, putting herbs to use beyond alchemy flasks. Burned at camp, its fragrance soothes tired travelers and lifts the spirits of companions who rely on mana. With Pomeroy's teaching, herbalists can bring comfort to parties traveling in the wild.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97921-bbb7d768bac1038384a8/1-0000.mp3", duration = 62.3281633, start = 0},
-  },
-}
-P.transport["quest:97922"] = {
-  hash = "a9a6e6",
-  fullHash = "a9a6e6",
-  text = "Camping 101: Leatherworking. In Goldshire, Adele Fielder teaches leatherworkers to make a tent for journeys beyond town. It shelters travelers from harsh weather and gives them a place to rest while camping in the wilderness. Beyond the gates of Goldshire, shelter matters as much as armor. In Elwynn Forest, leatherworkers can visit Adele Fielder to learn more than simple belts and tunics. After they show skill with hide and needle, Adele teaches them to make a durable tent for long journeys overland. It is built to withstand harsh weather. A finished tent covers a campsite and guards against the elements. It keeps travelers cool under scorching suns, dry in driving rain, and rested between dangerous encounters.\n\nGoldshire locals and city guards will not allow campsites in the town streets, so you need to head into the open wilderness to camp. Adele also reminds wanderers that a proper camp needs a campfire. A culinary trainer can teach you to make one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97922-cd0117db4501eece9d0c/1-0000.mp3", duration = 58.122449, start = 0},
-  },
-}
-P.transport["quest:97923"] = {
-  hash = "c9c47c",
-  fullHash = "c9c47c",
-  text = "Camping 101: Mining. In Stormwind, Gelman Stonehand teaches miners to shape a lodestone for camps in the wild. Set by a campfire, it strengthens the fighters gathered there. Miners in Stormwind can shape the earth’s natural magnetism into a lodestone. At an expedition’s campsite, it bolsters the fighting strength of those gathered there. Gelman Stonehand, Stormwind’s mining instructor, teaches the craft to prospectors who prove their skill with a pickaxe. A lodestone belongs in the wild, far from Cathedral Square and the Trade District. Townsfolk disapprove of travelers camping within city limits, so pioneers must head into the wild to make camp. The stone also needs a campfire. Cooks across the realm teach this basic wilderness skill.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97923-f29151311add96d66f7d/1-0000.mp3", duration = 45.9755102, start = 0},
-  },
-}
-P.transport["quest:97924"] = {
-  hash = "39eec6",
-  fullHash = "39eec6",
-  text = "Camping 101: Skinning. In Elwynn Forest, skinners learn Camping 101: Skinning from Helene Peltskinner in Goldshire. She teaches them to shape harvested hides into a Camp Chair for rests beyond settled towns. You can shape hides taken from beasts into a Camp Chair for rest in the wild. In Goldshire, Helene Peltskinner teaches proficient skinners to make this seat for travelers on long journeys through dangerous lands. Take your gear into the wilderness before making camp, for townspeople often object to camps in the town square. A field camp also needs a campfire. Many skinners learn basic culinary arts to master fire-building.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97924-317c6c0d1305796127f3/1-0000.mp3", duration = 40.2546939, start = 0},
-  },
-}
-P.transport["quest:97925"] = {
-  hash = "43cf6d",
-  fullHash = "43cf6d",
-  text = "Camping 101: Tailoring. In Elwynn Forest, skilled clothworkers are sent to Eldrin at the Eastvale Logging Camp. He teaches them to weave a Faction Banner that inspires travelers and raises morale at wilderness camps. Eldrin, an artisan at the Eastvale Logging Camp in eastern Elwynn Forest, guides skilled needleworkers. Tailoring makes garments and bags, but it can also sustain a journey. Those who have proven their skill with thread and loom can learn to make camp accessories for travel through the wilderness. The Faction Banner is the chief craft Eldrin teaches. It stands beside a traveler's fire, where its emblem can hearten those on dangerous journeys and in battle. A banner at camp gives weary travelers a familiar sign of resolve and helps them press on through hostile lands.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97925-efade8f2d9e28922e042/1-0000.mp3", duration = 46.8636735, start = 0},
-  },
-}
-P.transport["quest:97928"] = {
-  hash = "2ba8d0",
-  fullHash = "2ba8d0",
-  text = "Camping 101: Blacksmithing. You’re ready to make a Sharpening Wheel and try it in the wilderness. First, you’ll need a campfire to set up camp. You can now craft a Sharpening Wheel. Take it into the wilderness to try it out, where you can set up camp away from the center of town. Bring a campfire along. A cook can teach you how to make one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97928-a1becc2ed35bccb3fb53/1-0000.mp3", duration = 18.964898, start = 0},
-  },
-}
-P.transport["quest:97931"] = {
-  hash = "204236",
-  fullHash = "204236",
-  text = "Camping 101: First Aid. You are ready to make a First Aid Kit, and now you need a place to try it. You can make the kit, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97931-860d6787d085a6ce8266/1-0000.mp3", duration = 17.397551, start = 0},
-  },
-}
-P.transport["quest:97932"] = {
-  hash = "e1f46c",
-  fullHash = "e1f46c",
-  text = "Camping 101: Fishing. In Mulgore, anglers can turn fishing into a comfort for camps in the wild. Show Uthan Stillwater in Bloodhoof Village your skill with rod and reel, and he teaches you to make a Fish Bowl for travelers resting outdoors. Anglers passing through Mulgore can put their quiet pastime to use around camp. If you have proved your skill with rod and reel, seek out Uthan Stillwater in Bloodhoof Village. He teaches skilled fishermen to make a Fish Bowl, a homely touch for a campsite. A Fish Bowl brings a little cheer to a hard journey. Its calm presence makes a resting place in the wild more pleasant and lifts the spirits of those gathered there. Better spirits mean sharper instincts and greater resilience in battle. A campsite belongs in the open country, not in a settlement like Bloodhoof Village. The Fish Bowl can only be tried in the wilderness. A camp also needs a proper fire, so seek out a culinary trainer to learn basic fire-making before you set one up.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97932-05f9be2f456d27c86fb3/1-0000.mp3", duration = 60.7346939, start = 0},
-  },
-}
-P.transport["quest:97934"] = {
-  hash = "8f019d",
-  fullHash = "8f019d",
-  text = "Camping 101: Leatherworking. In Bloodhoof Village, leatherworkers can learn to make a tent for shelter on the road. Chaw Stronghide teaches the craft to those ready to handle heavier hides and rugged stitching. Across Kalimdor, leatherworkers who know how to stitch a sturdy tent can shelter from the midday sun and prairie rain. A tent also gives weary travelers a place to rest and recover before crossing the open plains again. At Bloodhoof Village in Mulgore, Chaw Stronghide teaches leatherworkers who can handle heavier hides and rugged stitching. Once they prove their skill, he shows them how to make a durable tent for journeys far from civilization. Choose a camp with care and respect for local settlements. Village folk frown on travelers setting up along central paths and thoroughfares, so take your tent into the wild frontier. A proper camp also needs a fire. Ask a skilled cook how to kindle one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97934-be1c76473050fc953809/1-0000.mp3", duration = 54.6481633, start = 0},
-  },
-}
-P.transport["quest:97935"] = {
-  hash = "cee4b0",
-  fullHash = "cee4b0",
-  text = "Camping 101: Mining. In Thunder Bluff, miners can learn to carry their craft into the wild. Brek Stonehoof teaches them to shape a lodestone that gives strength to those resting by a campfire. Mining may lack the glamour of high arcana, but it is honest work found across Azeroth. Miners draw useful minerals and dense stone from deep rock faces. Those materials make weapons and armor, and now they serve a purpose in the field. A miner can shape stone into sturdy tools for a wilderness camp. Brek Stonehoof in Thunder Bluff teaches miners to put their trade to use in the wild. Once they show skill with a pick, he teaches them to shape a camp lodestone. Set beside an open blaze, the stone lends vigor and an edge in battle to those preparing to wield a blade.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97935-76ec4a8b212a3e2b549f/1-0000.mp3", duration = 46.8897959, start = 0},
-  },
-}
-P.transport["quest:97936"] = {
-  hash = "471fc8",
-  fullHash = "471fc8",
-  text = "Camping 101: Skinning. In Mulgore, skinners learn to make a Camp Chair for wilderness rest. Yonn Deepcut teaches the craft in Bloodhoof Village, where skilled hide-gatherers prepare for camps beyond the settlements. Fallen beasts yield hides and pelts that skinners can turn into useful gear. Leather becomes armor, and animal skins can also make comforts for the wild. After long weeks crossing untamed lands, travelers can rest on gear made from those hides and stay sharp in combat. In Mulgore, skinners visit Bloodhoof Village to speak with Yonn Deepcut. Once they show they can harvest beast hides, Yonn teaches them to stitch together a Camp Chair. Towns and villages do not welcome travelers pitching tents in their streets, so the chairs are for wilderness use. A campfire completes the camp, and local cooks teach how to make one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97936-625dc0d432e3bc777014/1-0000.mp3", duration = 51.8269388, start = 0},
-  },
-}
-P.transport["quest:97938"] = {
-  hash = "9f819a",
-  fullHash = "9f819a",
-  text = "Camping 101: Alchemy. In Dolanaar, Cyndra Kindwhisper teaches alchemists how to tend a campsite. Her lesson joins potion craft with wilderness survival and shows how to make a Mana Well for traveling healers and casters. Alchemists learn to carry their craft beyond the workbench. Cyndra Kindwhisper shows them how to make useful camp fittings that can sustain a traveling party on long journeys through the wild. In Dolanaar, alchemists who know the basics can seek Cyndra Kindwhisper. She teaches them to set up a Mana Well at camp. Its refreshing magic helps healers and spellcasters replenish their mana far from taverns and settlements.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97938-7d46a59463c0d7977444/1-0000.mp3", duration = 39.4187755, start = 0},
-  },
-}
-P.transport["quest:97942"] = {
-  hash = "d3f50c",
-  fullHash = "d3f50c",
-  text = "Camping 101: First Aid. In Dolanaar, travelers learn to prepare a First Aid Kit for camp. Byancie teaches how to tend wounds far from town healers and find a place to camp. Wild country brings bites from beasts and cuts from jagged ground. Rangers and other travelers may be far from town and its medical supplies. A First Aid Kit lets them tend minor wounds at a roadside camp before they grow grave beneath the open sky. In Dolanaar, Byancie teaches travelers skilled in triage to pack medical supplies for rough trails. Townsfolk do not allow tents and scattered supplies in the center of a settlement. Campers need to head into the forest before making camp. An open flame begins a working camp. Set a campfire before laying out medical kits or bedding; it brings warmth and protection. Building and tending a fire is basic to surviving in the wild. Trainers recommend asking a cook to teach you to kindle one before tending a wilderness camp.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97942-d1dd963f94f4b916d085/1-0000.mp3", duration = 58.4881633, start = 0},
-  },
-}
-P.transport["quest:97943"] = {
-  hash = "ec4c09",
-  fullHash = "ec4c09",
-  text = "Camping 101: Fishing. In Darnassus, anglers are directed to Astaia to learn how a Fish Bowl can brighten a wilderness camp. The craft rewards skilled fishermen with a touch of comfort for life outdoors. Anglers crossing Kalimdor can put quiet hours by the water to use. In Darnassus, Astaia teaches experienced fishermen to turn their catches and skill into campsite comforts. One of these is a Fish Bowl, made to display at camp and bring cheer to weary travelers. A wilderness camp needs more than fishing gear. You cannot pitch one in a crowded city center or urban district, so you must find open ground. Every camp also needs a warm fire. Visit a local cooking trainer to learn basic fire-making before settling down for the night.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97943-46c025c356fbeb5a6610/1-0000.mp3", duration = 45.4530612, start = 0},
-  },
-}
-P.transport["quest:97944"] = {
-  hash = "128baa",
-  fullHash = "128baa",
-  text = "Camping 101: Herbalism. In Dolanaar, herbalists learn to make camp goods from the plants they gather. Malorne Bladeleaf teaches skilled gatherers to craft Incense Candles, which bolster healers and spellcasters by the campfire. Herbalism can serve a traveler beyond gathering flowers for sale or for alchemists. In the wilderness, harvested plants can become useful camp equipment. Preparing them for survival lets your gathered plants support longer journeys in the field. At Dolanaar, Malorne Bladeleaf teaches skilled herbalists to make an Incense Candle. Its soothing flame creates a focused, high-spirited refuge around the campfire. Healers and spellcasters value its revitalizing presence as they restore their magical energies between perils.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97944-1a894d8ea873f9744301/1-0000.mp3", duration = 45.5053061, start = 0},
-  },
-}
-P.transport["quest:97946"] = {
-  hash = "82f3b0",
-  fullHash = "82f3b0",
-  text = "Camping 101: Leatherworking. On Teldrassil, leatherworkers can learn to make a shelter for the trail. Find Nadyia Maneweaver on the road between Dolanaar and Darnassus, where she teaches the craft of tents that keep travelers dry and cool. Across Kalimdor, an open sky can bring hard weather. Skilled leatherworkers learn to shape hides and pelts into sturdy shelters, giving travelers a safe place to rest wherever the road leads. A tent lets wanderers find the rest they need far from the inns. Nadyia Maneweaver teaches proficient leatherworkers along the forest road between Dolanaar and Darnassus. She shows them how to stitch a sturdy tent for the trail. A tent needs a campfire to make a proper camp, and cooks teach that craft. Set the shelter in the open wilds, away from town streets.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97946-1b6009f6f47925aab36c/1-0000.mp3", duration = 47.7257143, start = 0},
-  },
-}
-P.transport["quest:97948"] = {
-  hash = "1e47e9",
-  fullHash = "1e47e9",
-  text = "Camping 101: Mining. You’re sent to Auberdine to learn a new use for mining. There, Kurdram Stonehammer teaches skilled miners to craft a lodestone that strengthens allies gathered around a campfire. Mining has uses beyond smelting ingots and hammering armor. Experienced prospectors shape raw earth and magnetic ore into camping gear, so travelers can make well-fortified hearths in the wilderness. This introduction shows miners a practical use for their craft. In Auberdine, the coastal town of Darkshore, promising miners seek out Kurdram Stonehammer. Once a miner proves dedication and skill, Kurdram teaches the method for making a camp lodestone. Set beside a fire, the stone strengthens the martial companions gathered nearby.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97948-108702e6eaa5c67553ff/1-0000.mp3", duration = 46.1844898, start = 0},
-  },
-}
-P.transport["quest:97949"] = {
-  hash = "58a125",
-  fullHash = "58a125",
-  text = "Camping 101: Skinning. Out in the wilds, you learn to make a Camp Chair and prepare a campsite. You need hides, open ground away from town, and a campfire. Hides gathered on the road can be put to use. With the materials at hand, you learn to make a portable Camp Chair for journeys through Azeroth. Townsfolk object when travelers pitch camp in city centers, so take this craft into the open wilds. A campfire is the first need at a campsite in the wild. Its flames bring warmth and shelter from the elements. If you have not learned basic cooking, visit a cooking trainer to learn how to kindle a fire in the field.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97949-444951f91cf0c5bdc451/1-0000.mp3", duration = 36.2318367, start = 0},
-  },
-}
-P.transport["quest:97951"] = {
-  hash = "6e4e6a",
-  fullHash = "6e4e6a",
-  text = "Camping 101: Alchemy. At your camp, alchemists can learn to craft a Mana Well. Carolai Anise in Brill teaches the craft once you have shown skill in alchemy. Carolai Anise in Brill teaches alchemists to craft a Mana Well for their camp. Once you know the craft, you can make camp in the wilderness. First, you need a campfire, which cooks can teach you to make.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97951-ea609b0eaeac5f035cb2/1-0000.mp3", duration = 22.7265306, start = 0},
-  },
-}
-P.transport["quest:97953"] = {
-  hash = "c51bf3",
-  fullHash = "c51bf3",
-  text = "Camping 101: Enchanting. At Brill, Vance Undergloom teaches enchanters to make an Enchanted Lute for camp. First, show proficiency in your skill. At a camp in the wilds, enchanters can learn to make an Enchanted Lute. Bring it along to lend some entertainment to your time away from the trail.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97953-6fbc6046a29b28f9a7d8/1-0000.mp3", duration = 26.1485714, start = 0},
-  },
-}
-P.transport["quest:97955"] = {
-  hash = "e371bb",
-  fullHash = "e371bb",
-  text = "Camping 101: First Aid. At wilderness camps, Camping 101: First Aid helps healers prepare for injuries. In Brill, Nurse Neela teaches skilled practitioners to make a First Aid Kit for treating wounds far from settled lands. Beyond guarded settlements, beasts and rival factions put travelers in danger. A healer trained in First Aid can learn to assemble a First Aid Kit for a wilderness camp. With it, travelers can tend wounds far from settled lands. In Brill, Nurse Neela teaches travelers to put their medical skill to work at camp. Those skilled in bandaging and treatment can learn to make a portable First Aid Kit. First, travelers need a wilderness site and a basic campfire. Cooking instructors can teach them how to build one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97955-af53e05fbe43506f57d1/1-0000.mp3", duration = 45.2963265, start = 0},
-  },
-}
-P.transport["quest:97956"] = {
-  hash = "7b02d2",
-  fullHash = "7b02d2",
-  text = "Camping 101: Fishing. In Brill, someone hopes your fishing skill will bring cheer to camp. Clyde Kellen can teach you to make a fishbowl for it. Your fishing may brighten the camp. Once you've proved your skill, speak with Clyde Kellen in Brill. He can teach you to make a fishbowl for the camp.\n\nThe giver believes cheerful adventurers fight more strongly. They hope the fishbowl will bring joy to you and the others.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97956-7ef4ddc6be75eb46840c/1-0000.mp3", duration = 24.0587755, start = 0},
-  },
-}
-P.transport["quest:97959"] = {
-  hash = "cb28fa",
-  fullHash = "cb28fa",
-  text = "Camping 101: Mining. You can now make a Lodestone and prepare to camp in the wilderness. You can now craft your own Lodestone. Try it in the wilderness, where folk are less likely to mind a camp. Before you start, you will also need a campfire. A cook can teach you how to make one.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97959-64516172ff6eb4f3636e/1-0000.mp3", duration = 16.4571429, start = 0},
-  },
-}
-P.transport["quest:97965"] = {
-  hash = "e89792",
-  fullHash = "e89792",
-  text = "Camping 101: First Aid. At Shen'dar Village, you seek care for injuries far from civilization. Naleeia Tattermend teaches skilled practitioners to prepare medical kits for a wilderness camp. A journey across Azeroth can bring violence, wild beasts, and hazards of the land. First Aid lets you bind cuts and broken bones without relying only on spellcraft. A First Aid Kit at a wilderness camp gives you a place to tend injuries and help companions recover. Then you can prepare to travel on. In Shen'dar Village, Naleeia Tattermend teaches practitioners to make durable medical supplies for a campsite. She shares her techniques after you show that you know basic medical care.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97965-7d44ceadf2b5086c025d/1-0000.mp3", duration = 41.4302041, start = 0},
-  },
-}
-P.transport["quest:97967"] = {
-  hash = "7e9a73",
-  fullHash = "7e9a73",
-  text = "Camping 101: Fishing. You are learning how fishing can make wilderness camps more welcoming. In Shen'dar Village, skilled anglers can ask Fenn Fairweather to teach them the Fish Bowl craft. A camp in the wild needs comfort along with sharp blades and sturdy armor. Good spirits help companions bear the strain of life in the field. Fishing brings provisions, and skilled anglers can put their craft to work improving a campsite. With live fish and a proper fixture, a traveler can make camp more welcoming. In Shen'dar Village, Fenn Fairweather shares fishing secrets with seasoned anglers who know the patience of rod and reel. Anglers with enough skill can learn to make a Fish Bowl, a simple fixture that brings cheer and rest to weary companions. Good spirits in the wild help a group stay focused and resolute when danger draws near.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97967-6fcf8db29283d7969e7f/1-0000.mp3", duration = 49.7893878, start = 0},
-  },
-}
-P.transport["quest:97968"] = {
-  hash = "a77d6e",
-  fullHash = "a77d6e",
-  text = "Camping 101: Herbalism. At camps along the trail, Camping 101: Herbalism points gatherers toward instructors who teach them to make Incense Candles. Herbalists use gathered plants to bring comfort to spellcasters and healers on long journeys. Travelers can put roots and petals to use beyond selling fresh stems or brewing draughts. Gatherers meet instructors who teach them to make Incense Candles from wild aromatic plants. These candles support companions on the trail. Long journeys through hostile country wear down healers and spellcasters. At an active campsite, an Incense Candle gives off a soothing, revitalizing scent that lifts their spirits and helps them recover clarity and strength before danger calls again. Those who wield magic or tend the wounded value that comfort most.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97968-002130353717bb81b879/1-0000.mp3", duration = 63.6865306, start = 0},
-  },
-}
-P.transport["quest:97969"] = {
-  hash = "9585b3",
-  fullHash = "9585b3",
-  text = "Camping 101: Leatherworking. A leatherworker’s travels lead to lessons in making a shelter for the wilds. In Shen'dar Village, Indari Sunseam teaches skilled craftsmen to stitch tents that protect travelers and give them rest on long journeys. Traveling leatherworkers need sturdy gear made from hide and pelt. Once they learn the craft, they are sent to Indari Sunseam in Shen'dar Village. There, she teaches them to make a proper camping tent. It keeps travelers dry in heavy rain and cool beneath a blazing sun, helping them rest on long journeys. Townsfolk object when rough camps clutter their streets, so you pitch your tent in the wild. A campsite needs more than shelter; it also needs a warming campfire. Visit a local cook to learn basic firemaking before you set out.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97969-2ea4a7e6e5dd727bdb6a/1-0000.mp3", duration = 47.4644898, start = 0},
-  },
-}
-P.transport["quest:97971"] = {
-  hash = "b70b49",
-  fullHash = "b70b49",
-  text = "Camping 101: Skinning. In Shen'dar Village, Mendalass Tattermend shows skinners how to prepare for rest in the wilds. The lesson joins skinning with survival and a place to sit at camp. You can shape hides from fallen beasts into more than armor. Mendalass Tattermend shows you how to make a portable Camp Chair, so you can rest in the wilds and regain your strength before battle. In Shen'dar Village, Mendalass Tattermend teaches proven skinners to make sturdy seats from collected pelts. Towns forbid camps within their limits. A campsite also needs a campfire, a skill local culinary instructors have traditionally taught.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97971-29253ce21d30cd125a1a/1-0000.mp3", duration = 39.1314286, start = 0},
-  },
-}
-P.transport["quest:97973"] = {
-  hash = "0171cc",
-  fullHash = "0171cc",
-  text = "Camping 101: Tailoring. At Shen'dar Village, tailors can learn to make a Faction Banner for wilderness camps. The banner lifts spirits and helps sustain morale. A campsite in the wild calls for more than warm clothes. A well-made banner can give a camp a shared purpose, so clothworkers are urged to carry their craft beyond garments and bags. With further instruction, bolts of woven fabric become a sign of unity and fortitude. In Shen'dar Village, Taleen Shimmerthread teaches camping crafts to tailors with enough skill. She shows them how to fashion a Faction Banner. Stitched with care and planted at camp, it rallies allies and helps keep their spirits up through the trials ahead.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97973-d07182680d713516de13/1-0000.mp3", duration = 42.1093878, start = 0},
-  },
-}
-P.transport["quest:97977"] = {
-  hash = "845a9c",
-  fullHash = "845a9c",
-  text = "Nature's Call. In Shadowglen, Tarindrella seeks the cause of the Gnarlpine's sudden hostility. Their carved totems may tell why they turned against their longtime night elf allies. The dryad Tarindrella asks you to search camps along Shadowglen's western border. The Gnarlpine furbolgs left them in haste, and she cannot believe they would cast aside centuries of friendship with the night elves without cause. Bring back intact engraved totems. Their carvings may tell what changed.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97977-a99b9d88826a42d8acd8/1-0000.mp3", duration = 29.0481633, start = 0},
-  },
-}
-P.transport["quest:97979"] = {
-  hash = "6ad77c",
-  fullHash = "6ad77c",
-  text = "The Goddess Provides. Beneath Teldrassil, young night elves begin a rite that teaches them to know Elune’s gifts. After the Long Vigil, they seek guidance in her radiance and shelter in her shadow. For millennia after the Sundering, the kaldorei kept apart from other peoples. During the Long Vigil, they watched over Kalimdor and guarded the sacred peaks of Mount Hyjal. The Third War brought devastation, and the defense of the World Tree ended their ancient seclusion.\n\nNow the night elves dwell beneath Teldrassil’s boughs and face an unfamiliar world. They reach across the ocean to make allies and take their place among Azeroth’s peoples. Elune, the Mother Moon, remains at the heart of kaldorei faith, though the night elves now dwell in a new home and form new ties. From their earliest days, they learn to call on her gifts. Her radiance guides their strikes and clarifies their purpose. Her shadow hides them from enemy sight.\n\nThese inherited blessings bind the kaldorei to their goddess and prepare them for dangers beyond the Great Tree.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97979-00743b7b16ce909aada6/1-0000.mp3", duration = 66.9257143, start = 0},
-  },
-}
-P.transport["quest:97985"] = {
-  hash = "718dce",
-  fullHash = "718dce",
-  text = "Thundering Hearts. In Thousand Needles, the researcher seeks Stormheart’s massive heart for work on an abomination. A researcher studying abomination creation believes the work calls for a massive heart. Stormheart, a thunder lizard said to patrol the canyon edge in Thousand Needles, seems large enough. But Stormheart is not docile.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_97985-0c7c58faae959f77bbbc/1-0000.mp3", duration = 20.244898, start = 0},
-  },
-}
 P.transport["quest:98013"] = {
   hash = "4a162a",
   fullHash = "4a162a",
@@ -9673,108 +4705,12 @@ P.transport["quest:98013"] = {
     {file = "Audio/Transport/full_quest_98013-ec7d0f9f2c88074ddd55/1-0000.mp3", duration = 34.5338776, start = 0},
   },
 }
-P.transport["quest:98021"] = {
-  hash = "733a27",
-  fullHash = "733a27",
-  text = "Journey to Sentinel Hill. At Sentinel Hill, Journey to Sentinel Hill brings Alliance travelers into Westfall’s troubled farmlands. The local commanders have pleaded with Stormwind for months without answer, and now put any willing traveler to work. In Westfall, you arrive at Sentinel Hill, the outpost guarding the surrounding farmlands. Its garrison is short of soldiers and overlooked by the royal court. When travelers offer help, the local commander asks little about their standing. Any willing hands are welcome. For months, Sentinel Hill’s leaders have asked Stormwind for soldiers to defend Westfall from threats drawing near. With no reinforcements, local commanders accept whoever arrives. One commander expected an army and got a skinny elf instead. In Westfall, beggars cannot be choosers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98021-a2401f866c364f7cb276/1-0000.mp3", duration = 48.0914286, start = 0},
-  },
-}
-P.transport["quest:98024"] = {
-  hash = "a0960d",
-  fullHash = "a0960d",
-  text = "Journey to the Crossroads. A newly arrived traveler from the elemental plane is sent to the Crossroads in the Barrens. There, Thork calls for aid as the Horde faces the dangers of Kalimdor's frontier. You have come to Azeroth from the elemental plane. Mortal conflicts may seem small beside what you have known, but the Horde faces dangers of its own. Service on the frontier gives you a chance to grow formidable while aiding the realm. The Barrens lie southwest, and the Crossroads stands among its broad, sun-baked plains. This Horde outpost is a vital junction, though dangers press its defenders from every side. Report to Thork and join the settlement's defense.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98024-ecd73a6977c4db5a0221/1-0000.mp3", duration = 40.4114286, start = 0},
-  },
-}
-P.transport["quest:98025"] = {
-  hash = "9a71e0",
-  fullHash = "9a71e0",
-  text = "WANTED: Jai'vhanel. Near Auberdine, Jai'vhanel ambushes travelers on the coastal roads. The Auberdine Village Council has set a bounty for her death near the ruins of Ameth'Aran, with proof to be brought to Sentinel Glynda Nal'Shea. On Darkshore's coastal roads near Auberdine, travelers face danger from a mad owl. Jai'vhanel, known locally as Swordfeather, has turned on those who pass. She ambushes travelers and couriers near the settlement, leaving the roads unsafe. The Auberdine Village Council offers a bounty to make the roads safer. Jai'vhanel hunts north of the ruins of Ameth'Aran, along the mountain base. Bring one of her black feathers to Sentinel Glynda Nal'Shea in Auberdine as proof of the kill and to claim the reward.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98025-038c2a7faf5c7069d87a/1-0000.mp3", duration = 46.7330612, start = 0},
-  },
-}
-P.transport["quest:98042"] = {
-  hash = "c0c1ec",
-  fullHash = "c0c1ec",
-  text = "It's All Fun and Games Until.... Thundris hears a troubled report and examines the discovery brought before him. Its mark sends the relic to Darnassus for study. You bring a troubling discovery to Thundris and seek his counsel. He listens to your report and examines what you have brought. Then he falls quiet, for the signs before him are too dark to dismiss.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98042-64968e020d53d326fc9b/1-0000.mp3", duration = 21.237551, start = 0},
-  },
-}
-P.transport["quest:98046"] = {
-  hash = "94f765",
-  fullHash = "94f765",
-  text = "Crown of the Earth. In Darnassus, Fandral Staghelm turns from a failed rite and sends its vessel away. He asks you to carry it to Priestess Lariia at the Temple of the Moon for disposal. Arch Druid Fandral Staghelm guides the night elves while Malfurion Stormrage is absent. Seeking answers, he performs an incantation with sacred water held in a phial. The rite brings no answer, and Fandral's temper rises. Certain the water is useless, he dismisses you with sharp words and sends you south to the Temple of the Moon, where the priestesses can dispose of the vessel.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98046-22d87df99aa16de53943/1-0000.mp3", duration = 35.7877551, start = 0},
-  },
-}
-P.transport["quest:98065"] = {
-  hash = "4dc2cc",
-  fullHash = "4dc2cc",
-  text = "Crown of the Earth. Within Darnassus, purified Moonwell Remnants are brought to High Priestess Tyrande Whisperwind. The meeting takes place in the Temple of the Moon, where the waters’ sacred meaning meets the strain between Tyrande and Arch Druid Fandral Staghelm. Once the sacred Moonwell Remnants are collected, you pour the blessed water into a ceremonial vessel and carry it to Tyrande Whisperwind. The High Priestess of Elune keeps audience high within the Temple of the Moon in Darnassus. She watches over the city and offers her goddess’s light to all who enter. To place sacred water in her care is an honor and an act of devotion to Elune.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98065-42fb82bfc867208d37a8/1-0000.mp3", duration = 39.8889796, start = 0},
-  },
-}
-P.transport["quest:98067"] = {
-  hash = "8cd0c5",
-  fullHash = "8cd0c5",
-  text = "Eyes of the Sentinels. In Darnassus, Sentinel Dalia Sunblade sets owls to watch as unease grows across Teldrassil. Their posts guard the city and leave the Sentinels time to pray to Elune. At the Temple of the Moon, Sentinel Dalia Sunblade watches over Darnassus. General Shandris Feathermoon has decreed that every warrior must balance skill in battle with devotion to Elune. So Dalia arranges for sentinel owls to watch key places in the city. Their daily duties leave the Sentinels time for prayer and reflection before the Moon Goddess, while Darnassus remains guarded. Unease spreads across Teldrassil, and the Sentinels grow more watchful. Sentinel owls take posts at the northern entrance to the depths beneath Cenarion Hold, the bank in the town square, the inn in Craftsman's Terrace, and the main city gates. Local city guards help place them. From these posts, the owls watch over those who walk the streets of the Great Tree.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98067-cae3fc033177edf2cacb/1-0000.mp3", duration = 59.5853061, start = 0},
-  },
-}
-P.transport["quest:98069"] = {
-  hash = "7edaba",
-  fullHash = "7edaba",
-  text = "Stolen Freewind Supplies. At Freewind Post, Jandia needs the harpies' stolen supplies back. The post has enough for now, but it will soon run short without another shipment. The harpies struck the last caravan bound for Freewind Post. Jandia says the post can manage for now, though its stores will not last without more supplies. The harpies' lair lies west of the post, along the cliff base and in a cave above.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98069-21d5d73e5fddf1b753c4/1-0000.mp3", duration = 25.835102, start = 0},
-  },
-}
-P.transport["quest:98070"] = {
-  hash = "320237",
-  fullHash = "320237",
-  text = "Stop the Screeching. In Screeching Canyon, harpies ambush supply caravans bound for Freewind Post. Their attacks may keep those caravans from traveling there. A supplier fears the harpy attacks will stop caravans from traveling to Freewind Post. You are asked to slay Screeching Harpies, Screeching Roguefeather Harpies, and Screeching Windcallers. Until then, caravans that brave the canyon remain in danger.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98070-9e34249457558ba5025b/1-0000.mp3", duration = 25.7044898, start = 0},
-  },
-}
 P.transport["quest:98071"] = {
   hash = "2129b7",
   fullHash = "2129b7",
   text = "Brewer's Trade. In Hillsbrad, you carry Fallrook Varietal to Dun Garok, where the brew-kin trade for Homebrew Hops. They miss the Fallrook family's vineyards, and cases of wine remain in the cellars. Fallrook wine still waits in the cellars, though most of the family's best bottled years are long gone. The brew-kin at Dun Garok miss those vineyards, so a trade has been arranged. You carry a case southeast to Dun Garok. The brew-kin gather beside the fireplace at the base of their fort. In return, you bring back a sack of their Homebrew Hops.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98071-29239d5b96eeffde6db6/1-0000.mp3", duration = 33.8546939, start = 0},
-  },
-}
-P.transport["quest:98072"] = {
-  hash = "104b0b",
-  fullHash = "104b0b",
-  text = "Crocs of the Sky. James asks if you have the scales, then praises your skill. He offers you work if you leave adventuring behind. James calls you a natural talent and invites you back if you take a break from adventuring. He jokes that you may be older by then.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98072-7e172bda00281c00f870/1-0000.mp3", duration = 16.0653061, start = 0},
-  },
-}
-P.transport["quest:98094"] = {
-  hash = "a2a469",
-  fullHash = "a2a469",
-  text = "Scout Support. South of Tarren Mill, you carry new orders from High Executor Darthalia to Deathstalker Masoj. The Forsaken press on with their plan to take control of these lands. High Executor Darthalia trusts you with word for the forward spies. She gives you updated orders for Deathstalker Masoj, who waits on high ground north of Nethander Stead and outside Dun Garok. The Forsaken plan to take control of these lands continues, and Masoj is waiting for your delivery.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98094-524cbfbc874b28e7dee3/1-0000.mp3", duration = 30.5371429, start = 0},
-  },
-}
-P.transport["quest:98095"] = {
-  hash = "282d59",
-  fullHash = "282d59",
-  text = "Valuable Vantages. Around Hillsbrad Foothills, Deathstalker Masoj needs you to restore three signaling marks. Bat riders use those points to guide strategic troops to their drop-off sites. You carry Apothecary Vials to three high places: the hills beside Dun Garok, the plateau above Dunholde Keep, and the Headland ridge above Hillsbrad. Their vapors draw bats back to the marks. Then Masoj's high command can guide its troops through the foothills. Masoj asks you to search for crushed, empty vials and renew the marks at all three places. He says this work serves plans advancing under the Deathstalkers' banner.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98095-2d9601d82bb02ce89002/1-0000.mp3", duration = 40.4897959, start = 0},
   },
 }
 P.transport["quest:981"] = {
@@ -9791,14 +4727,6 @@ P.transport["quest:98155"] = {
   text = "Pristine Pesterhide Pelts. In Thousand Needles, Kristy Grant hopes to send Pesterhide pelts to her sisters in Stormwind. They can make the hides into garments and goods, while Kristy relies on travelers to gather them. As Kristy Grant crosses the canyon floor of Thousand Needles, the Pesterhide hyenas catch her eye. Their pelts are little known in the Eastern Kingdoms, and she hopes to send some home to her sisters in Stormwind. Skilled hands in her family can turn the hides into fine garments and goods. Kristy Grant knows craft and trade, but she has no combat experience. Pesterhide hyenas roam beneath the mesas in vicious packs, so gathering their hides alone is dangerous. She relies on seasoned travelers to bring her five undamaged pelts for her sisters to work with back home.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98155-34a0bf725d726771f58e/1-0000.mp3", duration = 46.837551, start = 0},
-  },
-}
-P.transport["quest:98189"] = {
-  hash = "669ede",
-  fullHash = "669ede",
-  text = "Return the Statuette. A statuette's delivery to Menethil Harbor was interrupted by tragedy. You are asked to bring it to Captain Stoutfist at Menethil Keep. The statuette was meant for Menethil Harbor, where Captain Stoutfist at Menethil Keep was expected to sign for it. Now you are asked to finish the delivery.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98189-b015504183a38369e9ea/1-0000.mp3", duration = 18.155102, start = 0},
   },
 }
 P.transport["quest:98190"] = {
@@ -9857,28 +4785,12 @@ P.transport["quest:98246"] = {
     {file = "Audio/Transport/full_quest_98246-67d4dc206e6e434272c6/1-0000.mp3", duration = 44.4604082, start = 0},
   },
 }
-P.transport["quest:98248"] = {
-  hash = "106e41",
-  fullHash = "106e41",
-  text = "Shipping Label. A torn manifest points couriers toward Durotar Supply and Logistics in the Barrens. The company depends on travelers to recover lost crates and return paperwork to its post west of the Crossroads, keeping supplies and trade moving across central Kalimdor. A torn manifest is fixed to a freshly restocked cargo crate. Its recipient's name has worn away, but the heading names Durotar Supply and Logistics, a freight company in Horde territory. Beside the writing, a rough map points couriers toward the company's staging grounds in the central plains. The notice welcomes travelers bringing stray containers, damaged goods, or proof of salvage to the trade outpost west of the Crossroads. Durotar Supply and Logistics depends on independent haulers to recover scattered freight across the Barrens. Those who help keep regional supplies moving receive compensation.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98248-d9c856b9b681f0a18ab8/1-0000.mp3", duration = 54.3085714, start = 0},
-  },
-}
 P.transport["quest:98283"] = {
   hash = "0f6110",
   fullHash = "0f6110",
   text = "Carnage. In the Wetlands, Rethiel the Greenwarden asks you to draw Carnage from its lair. The Razormaw alpha's plague-driven frenzy has thrown the marshes out of balance. The Razormaw raptors once kept wild growth in check across the Wetlands. Now a bloodthirsty alpha named Carnage rules the pack. It slaughters without restraint and terrorizes its own kind. The marshes are in turmoil. Rethiel the Greenwarden watches over the Green Belt and believes corruption has taken hold of Carnage. Diseased Rotclaw bears came down from Loch Modan. You gather their malignant entrails and place the foul meat in Carnage's cave below Raptor Ridge. The frenzied alpha attacks, and its suffering can end.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98283-1c2606015eab2cc1550a/1-0000.mp3", duration = 44.3297959, start = 0},
-  },
-}
-P.transport["quest:98286"] = {
-  hash = "2f40eb",
-  fullHash = "2f40eb",
-  text = "Camping 101: Enchanting. At Shen'dar Village, skilled enchanters can learn to make an Enchanted Lute for the campfire. Nasalanna Windsinger teaches them how it entertains and bolsters companions. On the open road, sharpened blades and rations are not enough. Travelers need rest and good spirits to endure long expeditions. Enchanters bring magical comforts to camps across Azeroth, helping weary travelers recover their strength and spirits before they return to perilous trails. Aspiring enchanters seeking to learn campsite magic travel to Shen'dar Village. There, Nasalanna Windsinger teaches capable spell-weavers to make an Enchanted Lute. First, they must prove their dedication and skill in enchanting. Then Nasalanna shares how to fashion an instrument whose melodies restore spirits beneath the stars.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98286-a6ad2aa96087bc3fde93/1-0000.mp3", duration = 50.4946939, start = 0},
   },
 }
 P.transport["quest:98291"] = {
@@ -9897,22 +4809,6 @@ P.transport["quest:98293"] = {
     {file = "Audio/Transport/full_quest_98293-022a3355c9b31e5da873/1-0000.mp3", duration = 57.5477551, start = 0},
   },
 }
-P.transport["quest:98297"] = {
-  hash = "e99774",
-  fullHash = "e99774",
-  text = "Stopping the Cycle. At the Dragonmaw Gates, warlocks are trying to enslave a red dragonspawn. Howin Kindfeather returns from a test flight with troubling news, and the Wildhammer will not let it happen again. Howin Kindfeather asks you to face the subdued dragonspawn at the Dragonmaw Gates. First, kill the warlocks holding it down. That should free it. Then put the dragonspawn out of its misery. Howin expects you to bring friends, for the Wildhammer will not let the Dragonmaw stand in their way.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98297-e35ef2d0eef5c5c40887/1-0000.mp3", duration = 30.6155102, start = 0},
-  },
-}
-P.transport["quest:98298"] = {
-  hash = "7bc3ff",
-  fullHash = "7bc3ff",
-  text = "Arugal's Folly. At the Sepulcher, Dalar Dawnweaver seeks the truth behind the worgen near the Greymane Wall. He hopes their remains will prove that Archmage Arugal bound the beasts but did not bring their curse into being. At the Sepulcher in Silverpine Forest, Forsaken mage Dalar Dawnweaver means to strip away the mystery around his rival, Archmage Arugal. Enchanted shackles show that Arugal lacked the power to summon or create the worgen packs terrorizing the region. His magic could only hold the beasts for a time. How the affliction began remains unknown. Dalar sends you south to the Greymane Wall for proof. Feral worgen attack and infect nearby human populations in the wilderness around its imposing fortifications. You can bring Dalar physical evidence by killing the beasts and gathering pieces of their bodies. He needs those samples to study the affliction's nature.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98298-d024c8a20de650e3ac39/1-0000.mp3", duration = 55.4579592, start = 0},
-  },
-}
 P.transport["quest:98299"] = {
   hash = "f01caa",
   fullHash = "f01caa",
@@ -9927,54 +4823,6 @@ P.transport["quest:98310"] = {
   text = "Gleaning Our Future. Prospector Whelgar sees a way to learn more from the Goaz Stone. Four larger golems bear names that match its missing pieces. You've found missing pieces of the Goaz Stone. Prospector Whelgar points to four larger golems named Ados, Modr, Golm, and Neru. He asks you to use the stone near each one, then bring their hearts back. He hopes they will reveal more of its markings.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98310-761a0050c664c4de2638/1-0000.mp3", duration = 25.0253061, start = 0},
-  },
-}
-P.transport["quest:98313"] = {
-  hash = "4c508b",
-  fullHash = "4c508b",
-  text = "For Further Study. Historian Karnik awaits a package in Ironforge, tied to something epic. What has been seen so far makes further study worthwhile. You are carrying the Whelgar Relic Package to Historian Karnik in the Hall of Explorers. He is usually in the library, reading at the back.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98313-b992d3511d4e43055ab8/1-0000.mp3", duration = 17.8155102, start = 0},
-  },
-}
-P.transport["quest:98319"] = {
-  hash = "d6a706",
-  fullHash = "d6a706",
-  text = "Secure the Mountain. You face a growing danger in Dun Morogh: wendigos have overrun the Grizzled Den, and Whitebeard's report is missing. Cornelius entered the cavern while his partner waited outside. Wendigos are multiplying across the cold mountain slopes and crowding into the Grizzled Den to the north. Dwarven scouts already contend with Frostmane trolls. Now savage beasts make the crags perilous for patrols and couriers. Cornelius charged into the Grizzled Den to secure Whitebeard's vital report. His partner waits outside, seeking help to find the scout and thin the ferocious wendigos in the cave.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98319-62fabb50646f3b2f8323/1-0000.mp3", duration = 37.1983673, start = 0},
-  },
-}
-P.transport["quest:98321"] = {
-  hash = "06133b",
-  fullHash = "06133b",
-  text = "Flintfire's Shipment. Kharanos forges need ore from the Grizzled Den, where savage wendigos have driven miners out. The miners left crates behind, and Tognus Flintfire needs the ore to keep local forges supplied. Tognus Flintfire's forge in Kharanos is short of ore. Savage wendigos invaded the Grizzled Den, the region's most productive and dependable source. The miners fled for their lives, leaving their posts and freshly packed crates scattered across the cavern floor. The Grizzled Den lies west of Kharanos. Tognus is grateful that every miner escaped the wendigos in one piece, yet the work stoppage threatens to halt local blacksmithing. Rather than wait for an armed expedition to clear the cave, he seeks daring travelers to slip into the wendigo lair, gather the stranded crates, and bring the ore back to his forge.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98321-a37610f5e453d884b341/1-0000.mp3", duration = 50.8081633, start = 0},
-  },
-}
-P.transport["quest:98322"] = {
-  hash = "e81a09",
-  fullHash = "e81a09",
-  text = "Secure the Mountain. Senir Whitebeard needs news from Mountaineer Gretchen, west of Kharanos. The scouts he sent to investigate aggressive wendigos have not reported back. Senir Whitebeard gathers military reports for Ironforge. A team of mountaineers went to study the wendigos nearby, but they have not returned with news. Whitebeard will not enter the icy caves himself. So he asks you to travel just west of town and learn what became of the scouts.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98322-cb6487ebf958b3366aa0/1-0000.mp3", duration = 27.3240816, start = 0},
-  },
-}
-P.transport["quest:98323"] = {
-  hash = "9c6519",
-  fullHash = "9c6519",
-  text = "Secure the Mountain. Mountaineer Gretchen sends a grim report from Dun Morogh to Senir Whitebeard in Kharanos. Scouts have found a nearby cave overrun, and she will risk no more lives in its tunnels. Ironforge must still guard the mountain frontier from rising threats. Mountaineer Gretchen watches Dun Morogh's high passes from her post in the freezing peaks. A recent venture into a nearby cavern showed her how dangerous the wilderness remains. Hostile mongrels overrun its tunnels, and she judges the cave a death trap. Gretchen will risk no more lives there. She holds the line on the slopes and sends an emissary with her written assessment. From Kharanos, Senir Whitebeard tracks dangers to the dwarven heartland. Gretchen's report brings little surprise: the cavern is overrun. He adds her letter to his growing stack of field reports. Each account helps Ironforge record and manage the dangers along its frontier.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98323-2991eae1dab23dcd9e64/1-0000.mp3", duration = 56.4506122, start = 0},
-  },
-}
-P.transport["quest:98326"] = {
-  hash = "ee31a1",
-  fullHash = "ee31a1",
-  text = "Frosthowl. In Dun Morogh, Frosthowl's attack leaves a dwarven fisher without her catch. The wendigo fled into the Grizzled Den with the sack of fish. A dwarven fisher and her husband, Paxton, spent days fishing on Dun Morogh’s frozen lake. Through biting winds, they gathered a single sack of fish to bring home. Then Frosthowl ambushed their camp and carried off the catch into the snowy wilderness. Frosthowl’s booming roars rattle the ice and frighten the lake’s sparse fish. After stealing the fisher’s sack, the beast fled deep into the Grizzled Den, southeast of the lake. Now the fishers are stranded without their catch. They need someone to confront Frosthowl and recover the stolen fish.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98326-bba7014465b21498b95f/1-0000.mp3", duration = 43.1281633, start = 0},
   },
 }
 P.transport["quest:98341"] = {
@@ -9993,36 +4841,12 @@ P.transport["quest:98362"] = {
     {file = "Audio/Transport/full_quest_98362-26f5defa390b6f2950d5/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
-P.transport["quest:98372"] = {
-  hash = "4b884a",
-  fullHash = "4b884a",
-  text = "An Unfortunate End. In Duskwood, a Night Watchman lies dead in the gloom. A beast mauled him, and the unlit brand in his hand may help you see what the darkness hides. A Night Watch patrolman lies dead on Duskwood's dark soil. Deep gashes and cuts mark his body. A great beast caught him before he could escape. An unlit torch remains in the fallen guard's rigid hand. Take it, and its light can reveal what hides in Duskwood's gloom and along other dark paths.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98372-02f1294e1a108a3d87a8/1-0000.mp3", duration = 40.6726531, start = 0},
-  },
-}
 P.transport["quest:98387"] = {
   hash = "5c6038",
   fullHash = "5c6038",
   text = "Blackrock Blockade. Marshal Marris presses the Blackrock Blockade east of Lake Everstill. Lakeshire's guard means to starve out the Blackrock orcs and seize their weapons. Blackrock raiders in Redridge have driven the Alliance forces to their limits. Their forward parties are cut off from regular supply trains and live off the hills. Marshal Marris knows even fierce orcs cannot fight for long without food and steel. South of Stonewatch Keep, Blackrock camps mark the clan's advance. Lakeshire's defenders strike those camps for supplies and stolen weapons. Each seizure weakens the orcs' strength and morale.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98387-7d7ed398539edead5e3e/1-0000.mp3", duration = 38.8440816, start = 0},
-  },
-}
-P.transport["quest:98391"] = {
-  hash = "b9ee1f",
-  fullHash = "b9ee1f",
-  text = "The Sisterhood of Elune. In Darnassus, the Sisterhood of Elune needs help with urgent troubles in night elf lands. Sister Aquinne receives those who come to aid the priestesses. You are sent to Darnassus to meet Sister Aquinne. When urgent matters threaten their people and sacred lands, the priestesses of Elune call on trusted champions for aid. Sister Aquinne welcomes you in Darnassus, relieved by your prompt arrival. The priestesses face growing demands, so they seek help beyond their cloistered ranks.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98391-a407eb7351e5559fb1b4/1-0000.mp3", duration = 31.477551, start = 0},
-  },
-}
-P.transport["quest:98392"] = {
-  hash = "ef6dac",
-  fullHash = "ef6dac",
-  text = "Darkness in the Glade. Sentinel Arynia Cloudsbreak investigates tainted harpy belts in the Oracle Glade. Their amulets may show what is spreading through Teldrassil. Sentinel Arynia Cloudsbreak finds something wrong among the harpies of the Oracle Glade. Their leather belts carry an unnatural taint woven through the fibers. She suspects demonic corruption, not ordinary aggression. Before she warns Darnassus, she needs proof.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98392-4c7cde1b27363a913ea0/1-0000.mp3", duration = 26.1485714, start = 0},
   },
 }
 P.transport["quest:98393"] = {
@@ -10041,68 +4865,12 @@ P.transport["quest:98397"] = {
     {file = "Audio/Transport/full_quest_98397-e2b6e774da80ba4248aa/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
-P.transport["quest:98398"] = {
-  hash = "4b00b9",
-  fullHash = "4b00b9",
-  text = "The Oracle Tree. A fallen piece of bark draws travelers to the Oracle Tree, where an ancient voice reaches the mind. Its message calls those who have finished their first duties toward greater work. The Oracle Tree watches its surroundings and guides travelers who have proved their mettle. When it needs an agent in the world, it deliberately sheds a piece of bark nearby. Those who notice are called to step forward, for their first duties are finished and greater responsibilities await. The Oracle Tree reaches the mind through its fallen bark rather than speaking aloud. Examine the piece, and its calm presence washes over you. Its thoughts and desires come like a soft breeze through a canopy of leaves.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98398-d4b3c3e1c04a3b5ccb55/1-0000.mp3", duration = 43.9118367, start = 0},
-  },
-}
-P.transport["quest:98403"] = {
-  hash = "0a57b2",
-  fullHash = "0a57b2",
-  text = "Twisted Hatred. In Teldrassil, Xethorr the Wicked’s schemes draw you to the Cleft northwest of Dolanaar. There you face the satyr and cull his corrupted spiders before their venom serves his demonic plots. Lord Melenas had a master in Xethorr the Wicked. The satyr held an entrenched presence in Teldrassil’s wilderness, pulling strings from the forest shadows to trouble the World Tree’s quiet boughs.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98403-8a65910e02142bf2b624/1-0000.mp3", duration = 25.3387755, start = 0},
-  },
-}
 P.transport["quest:98404"] = {
   hash = "715728",
   fullHash = "715728",
   text = "The Great Windborne Cat Spirit. At the Avatar of Saeyleenan, young druids face a trial of cunning and stealth. They enter the nearby Stormrage Barrow Den to recover three relics while avoiding enraged spirits. Passing the rite earns them the blessing to wield cat form. A seeker must show the nature of a predator before drawing upon the Great Windborne Cat Spirit. The cat calls for cunning and patience, then fierce action when cornered. The spirit tests those who seek its power, asking them to think, move, and strike like wild feline hunters. Only then may an initiate earn the right to take the cat's shape. The trial leads into the Stormrage Barrow Den, just east of the spirit's avatar. Three sacred tokens lie in its halls: the Relic of the Fang, the Relic of the Claw, and the Relic of the Silent Shadow.\n\nEnraged spirits have overrun the den and attack intruders on sight. A seeker cannot rely on brute force alone, but must tread carefully through the darkness to reach the relics. The Avatar of Saeyleenan is the physical manifestation through which the Great Windborne Cat Spirit speaks to young initiates. Untutored seekers lack a seasoned predator's stealth, so a statue at the barrow den's entrance grants them temporary concealment.\n\nThose who slip past the frenzied spirits and return all three relics show they have learned the predator's ways. The Avatar recognizes their worthiness and grants the blessing to wield cat form.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98404-9fd21524a4943a0d0510/1-0000.mp3", duration = 94.0146939, start = 0},
-  },
-}
-P.transport["quest:98423"] = {
-  hash = "e846b6",
-  fullHash = "e846b6",
-  text = "The Treaty of Understanding. After the War of the Three Hammers, The Treaty of Understanding marks a peace between two dwarf clans. Its ancient words record the Bronzebeard and Wildhammer agreement, while the Dark Iron clan remains apart. You find a stone tablet deep in an ancient vault. Its words record a formal end to hostilities between dwarf clans. The treaty belongs to the troubled years after the War of the Three Hammers, when the Bronzebeards secured control of Ironforge mountain. Then came peace between the Bronzebeard and Wildhammer clans. King Magni Bronzebeard knows the tablet as the work of his ancestor, Madoran Bronzebeard, the first Bronzebeard king of Ironforge. The Bronzebeard and Wildhammer leaders signed the document. The Dark Iron clan left no mark, and their absence tells of the lasting rift between them and their mountain kin.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98423-4ff726ba670fe2b39e7d/1-0000.mp3", duration = 51.6440816, start = 0},
-  },
-}
-P.transport["quest:98424"] = {
-  hash = "8f0116",
-  fullHash = "8f0116",
-  text = "Fizsprocket's Notes. In the Venture Co. mine, Morin Cloudstalker seeks the notebook pages still missing. They hold important information about the company's schemes in the region. Morin Cloudstalker waits at Bloodhoof Village for the pages still missing from Fizsprocket’s notebook. You have found folded pages in Fizsprocket’s pocket, and the remaining notes lie in the Venture Co. mine. Their information can guide what comes next.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98424-e7e0c641119c268b34fe/1-0000.mp3", duration = 25.4693878, start = 0},
-  },
-}
-P.transport["quest:98427"] = {
-  hash = "e26edd",
-  fullHash = "e26edd",
-  text = "Ceasing Operations. Morin Cloudstalker calls on you to stop the shredder before it fells another tree. He asks you to gather allies, return to the mine in the northeast, and stop it from cutting more trees. One of Fizsprocket's pages speaks of a shredder, and Morin has seen such machines on his travels. They can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. Morin will not let that happen so close to where the young ones take their first steps. Bring the Clearcutter Key back to him outside Bloodhoof Village.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98427-9092cd4a7e0892ab0d45/1-0000.mp3", duration = 34.1942857, start = 0},
-  },
-}
-P.transport["quest:98430"] = {
-  hash = "6c7784",
-  fullHash = "6c7784",
-  text = "The Longwalkers. At Palemane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people. Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Longwalkers, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Palemane Rock and report his safety to Cairne in Thunder Bluff.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98430-5f21976945d608871367/1-0000.mp3", duration = 32.4440816, start = 0},
-  },
-}
-P.transport["quest:98435"] = {
-  hash = "c515fc",
-  fullHash = "c515fc",
-  text = "Thunderhorn's Report. Mull Thunderhorn sends you to carry his report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. Mull Thunderhorn’s report concerns the springs of Mulgore. Archdruid Hamuul Runetotem is on the Elder Rise in eastern Thunder Bluff, where those waters sustain the tauren and the animals they rely on for food, clothing, and companionship.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98435-37cb28e6ad7ce1c116e3/1-0000.mp3", duration = 24.7379592, start = 0},
   },
 }
 P.transport["quest:98459"] = {
@@ -10129,46 +4897,6 @@ P.transport["quest:98463"] = {
     {file = "Audio/Transport/full_quest_98463-37a42ebbff8b0a8d968b/1-0000.mp3", duration = 33.8546939, start = 0},
   },
 }
-P.transport["quest:98512"] = {
-  hash = "623180",
-  fullHash = "623180",
-  text = "Al'Aketh Assassins. A scout asks you to end the Al'Aketh Assassins' deadly threat. Your survival and aid will be recorded for Valanaar. Scouts in the field call the Al'Aketh assassins stone-cold killers. They move together with ruthless purpose, putting nearby scouts and travelers in grave danger. You face a perilous fight before they can strike their targets. After the Al'Aketh force is defeated, the scout is relieved to find you alive. Your timely aid will go into an official report for Valanaar.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98512-02458a2d14002c122aa6/1-0000.mp3", duration = 32.1306122, start = 0},
-  },
-}
-P.transport["quest:98545"] = {
-  hash = "d85f0b",
-  fullHash = "d85f0b",
-  text = "Leonid's Letter. In Undercity, a sealed message from Leonid's Letter awaits delivery to Glix Xizzix. Leonid keeps away because of his strained past with Lady Sylvanas Windrunner, and entrusts the message to a neutral traveler bound for his old goblin acquaintance in the Trade Quarter. Leonid asks you to carry a sealed letter to an acquaintance in Undercity. Past friction with Lady Sylvanas Windrunner keeps him from entering the Forsaken capital himself. So he trusts a neutral traveler to pass the city's guards without raising alarm. Glix Xizzix does business in Undercity's Trade Quarter. The message recalls the time he and Leonid survived together beneath the Scourge citadel Naxxramas. Leonid promised compensation, to Glix's surprise and annoyance. So the goblin reluctantly pays with lost-and-found items left behind by careless undead customers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98545-8d1817d42027f585e2fb/1-0000.mp3", duration = 54.7787755, start = 0},
-  },
-}
-P.transport["quest:98574"] = {
-  hash = "3fe57d",
-  fullHash = "3fe57d",
-  text = "Hallowed Memorandum. At Anvilmar, young gnome priests are summoned to study the Holy Light through the Hallowed Memorandum. It sends them to Branstock Khalder in Coldridge Valley, where curiosity and intellect meet a faith to ponder. While you aid allies in Coldridge Valley, promising gnome novices receive the Hallowed Memorandum. It directs them to Branstock Khalder inside Anvilmar, where their formal spiritual study begins in Dun Morogh. Branstock Khalder welcomes each novice who brings the memorandum. He teaches that the Holy Light is a deep riddle, not a rigid craft. It calls for curiosity, keen thought, and harmony between intellect and feeling. Through contemplation and practice, students learn to channel its mysteries into healing and holy retribution.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98574-14d6e827b9c6ad08b9a3/1-0000.mp3", duration = 48.0391837, start = 0},
-  },
-}
-P.transport["quest:98575"] = {
-  hash = "064e25",
-  fullHash = "064e25",
-  text = "Tainted Tablet. In the Valley of Trials, Tainted Tablet calls new practitioners to Nartok inside the Den. He teaches warlocks to command the Nether and shape their own fate, though its powers must be kept guarded. A stone message passes through uneasy camp caretakers to newly arrived practitioners in the Valley of Trials. Nartok, a warlock trainer who makes his home inside the Den, calls them to him. He invites you to leave ordinary tribal duties and study deeper, forbidden magic. Nartok speaks plainly about the troubled history between orcs and the Nether. He says the strong should command these volatile powers instead of rejecting them from shame or fear. Where ordinary chieftains falter, he believes those who cunningly master Nether entities can rise to prominence. Yet fearful minds strike at what they cannot understand, so these powers must be guarded closely.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98575-55e054d419f4a330fdc6/1-0000.mp3", duration = 52.5061224, start = 0},
-  },
-}
-P.transport["quest:98581"] = {
-  hash = "349d50",
-  fullHash = "349d50",
-  text = "Archaic Rune. In Coldridge Valley, young dwarf Shamans begin learning the elements through an ancient rune. It leads them to Teo Hammerstorm in Anvilmar for instruction in earth, air, fire, and water. Near Anvilmar, you find the Archaic Rune after aiding local allies in Coldridge Valley. Its markings follow the Wildhammer style, and elemental power courses through the stone. The inscription tests whether you can sense the primordial spirits. Read it, and the rune directs you to proper instruction at the nearby dwarven outpost. In Anvilmar’s great hall, Teo Hammerstorm receives the inscribed stone. For generations, the Wildhammer kept the spiritual arts of the elements largely within their clan among the windswept peaks. Now these traditions are taking root among the Bronzebeard dwarves of Ironforge and Dun Morogh. Teo bridges the two dwarven cultures, welcoming young initiates called to commune with the elements and teaching them earth, air, fire, and water.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98581-307df0f8109d69889216/1-0000.mp3", duration = 60.8914286, start = 0},
-  },
-}
 P.transport["quest:986"] = {
   hash = "92ca2f",
   fullHash = "92ca2f",
@@ -10185,300 +4913,12 @@ P.transport["quest:98738"] = {
     {file = "Audio/Transport/full_quest_98738-d9103fcbccc0baa536bc/1-0000.mp3", duration = 41.9526531, start = 0},
   },
 }
-P.transport["quest:98815"] = {
-  hash = "55c2f8",
-  fullHash = "55c2f8",
-  text = "Highland Hides. In the Highlands, Thicket Raptors offer tough hides for James Halloran’s leatherwork. The tanner in Menethil Harbor trades crafted goods for their skins. From his workshop in Menethil Harbor, James Halloran seeks rare materials for his craft. Word reaches him of an expedition exploring forgotten ruins in the Highlands. He turns his attention to the beasts roaming the mountain marshes. Their hides suit his work, so he hires travelers to bring back fine pelts from the misty peaks. Thicket Raptors prowl the rugged marshes of the Highlands. Their tough, textured skins suit specialized leatherwork. Halloran asks travelers to hunt these predators and return with four intact hides. He uses them for fine details and decorative trim in his workshop’s creations.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98815-4664f402ddf2e80d2a0f/1-0000.mp3", duration = 47.6734694, start = 0},
-  },
-}
 P.transport["quest:98824"] = {
   hash = "3272a3",
   fullHash = "3272a3",
   text = "Prehistoric Prism. In the Wetlands, Prospector Whelgar has found a relic marked by the keepers. He sends you to Ironforge so the Explorers' League can study the titans' legacy. Prospector Whelgar finds a remarkable artifact while surveying the Wetlands. Keeper inscriptions cover its many facets, and he authenticates the titan-like markings. He asks you to carry it to Ironforge, where scholars can study it. Whelgar hopes the discovery enters the official catalogue, with credit given to you for recovering it and to him for authenticating it. High Explorer Magellas receives the relic for the Explorers' League in Ironforge's Hall of Explorers. The maker marks confirm its authenticity. Magellas says light through its polished facets recalls wonders from his first excavation in Uldaman. Your donation preserves the artifact for study and adds to the League's records of the titans' legacy.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98824-722db4d6baa9eac7f165/1-0000.mp3", duration = 55.04, start = 0},
-  },
-}
-P.transport["quest:98895"] = {
-  hash = "699096",
-  fullHash = "699096",
-  text = "Darkspear Islands Clash. Across the Darkspear Islands, Alliance forces are hard pressed. Without help at the front, they risk losing the whole archipelago to the fierce Darkspear Raiders. Open war now rages across the Darkspear Islands between the Alliance and the aggressive Darkspear Raiders. Alliance commanders fear their foothold in the archipelago will be overwhelmed without urgent reinforcements. So they call capable champions to the front to stem the attack. Alliance commanders need proven fighters willing to serve on the front lines. Warriors bring back Darkspear Islands Marks of Honor as proof of their service. The marks uphold discipline and honor those whose courage turns the battle.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98895-9fcfd065e67d6992252e/1-0000.mp3", duration = 44.3559184, start = 0},
-  },
-}
-P.transport["quest:98896"] = {
-  hash = "264223",
-  fullHash = "264223",
-  text = "Darkspear Islands Clash. Fighting rages across the Darkspear Islands Clash as Darkspear Raiders contest the archipelago. Fighters are called to rally their companions and stop enemy incursions across the islands. Darkspear Raiders skirmish across the beaches and interior of the islands. Forces sent there are urged to hold their ground as the campaign to secure a foothold in the archipelago continues. Commanders on the front line call for fighters to gather against the resilient raiders. Survival and victory depend on rallying nearby allies into a force that can withstand counterattacks. Together, they can rout fortified raiding bands and break their hold on the disputed island strongholds.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_98896-8a455edc38e7dcdcce9a/1-0000.mp3", duration = 41.8220408, start = 0},
-  },
-}
-P.transport["quest:99046"] = {
-  hash = "8f1bc0",
-  fullHash = "8f1bc0",
-  text = "The Lost Runner. In Teldrassil, a courier from the Oracle Tree is overdue on the road to Darnassus. The elders rely on its messages for guidance. The Council of the Forest keeps Sentinels at the Oracle Tree in Teldrassil. The ancient tree sends sacred messages to the night elf elders, and runners carry them along the forest roads to Darnassus. Their safe arrival guides the kaldorei and helps govern them. Silence from the Oracle Tree has lasted unusually long, and a courier has not arrived. Sentinel Eralya Leafshadow, an initiate still in training, was the latest runner sent out. Her superiors fear she has met misfortune on the trail, so they direct travelers west toward the Oracle Glade to search for her.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99046-beafb01628d1216472df/1-0000.mp3", duration = 46.1583673, start = 0},
-  },
-}
-P.transport["quest:99047"] = {
-  hash = "9803af",
-  fullHash = "9803af",
-  text = "Not Dead Yet. In Teldrassil, Eralya needs word carried to Dolanaar. Mortally wounded after a patrol toward the Oracle Tree was overwhelmed by harpies, she asks travelers to tell Byancie what became of her sisters. Eralya lies wounded in the wilderness of Teldrassil. Her patrol was ambushed while she and her sisters traveled toward the Oracle Tree. Harpies attacked and cut down the patrol. With her strength fading and no help coming, she entrusts passing travelers with carrying word back to safety. Eralya asks you to bring her report to Byancie in Dolanaar. Harpies in Teldrassil's great boughs have grown bolder and more aggressive. They threaten lone messengers and sentinels on the forest paths. Byancie's village needs to hear of the ambush at the Oracle Tree before more lives are lost.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99047-981dafdd67cb43fbbfff/1-0000.mp3", duration = 51.3828571, start = 0},
-  },
-}
-P.transport["quest:99048"] = {
-  hash = "a92c6b",
-  fullHash = "a92c6b",
-  text = "A Missing Hand. In Durotar, reports from Tiragarde Keep have fallen silent around Heglan Shadeeye. The Shattered Hand scout watched the human garrison occupying the keep, and now an investigator seeks her post. Heglan Shadeeye's reports from Tiragarde Keep have stopped. A Shattered Hand scout, she watched the hostile human garrison occupying the keep from a post in Durotar. Her superiors doubt the soldiers detected and captured her. They fear something more dangerous may have intervened, and send you north of the keep to find her post and learn what happened.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99048-3a9c98fb8b8852bfa545/1-0000.mp3", duration = 33.4889796, start = 0},
-  },
-}
-P.transport["quest:99049"] = {
-  hash = "11a99d",
-  fullHash = "11a99d",
-  text = "Threat from Below. Along Durotar’s eastern shore, Threat from Below begins with an ambush on scout Heglan Shadeeye. The Horde searches her ruined post for clues to the attackers and what they find puts Razor Hill’s defenses at risk. Heglan Shadeeye’s post on the Durotar coast lies shattered after a fierce skirmish. A Shattered Hand scout, she was keeping watch when an unseen enemy ambushed her. The wreckage shows she fought back and wounded her attackers. With hostile forces moving along the eastern shore, the Horde needs to learn who struck her. You search the campsite and nearby ground for clues.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99049-26963393a8ae2de66049/1-0000.mp3", duration = 36.7020408, start = 0},
-  },
-}
-P.transport["quest:99050"] = {
-  hash = "224191",
-  fullHash = "224191",
-  text = "The Great Tree Provides. Byancie works in Dolanaar to save Eralya from a dangerous affliction. Dewy lasher fronds from Teldrassil's lakes and a few simple supplies can make a salve to keep the illness at bay. Byancie tends to the night elves of Dolanaar. When she learns that Eralya has fallen ill in the wilds of Teldrassil, she begins preparing an urgent treatment. Without a salve to slow the affliction, Eralya may not survive the journey back to Dolanaar for proper care. Byancie seeks a remedy in Teldrassil's living bounty. Dewy lasher fronds grow near Lake Al'Ameth to the south and Wellspring Lake to the northwest. Blended with clean spring water in a glass vial, the leaves make medicine that can hold the affliction at bay.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99050-803f4c08ebf9d2d5bf93/1-0000.mp3", duration = 44.4342857, start = 0},
-  },
-}
-P.transport["quest:99051"] = {
-  hash = "b592e9",
-  fullHash = "b592e9",
-  text = "Threat from Below. Naga scouts are raising camps nearby, and Threat from Below sends you against them. Horde defenders hope to drive the invaders north and keep the area safe. Naga raiders have begun raising camps nearby. Local defenders send you to strike before the intruders gain a foothold. You are to slay the scouts and bring back naga spinefins as proof that their camp has been crushed. The serpentfolk have troubled the area before, and local command will not abide their presence. After you strike the scout camps, surviving naga are expected to flee north. Horde grunts will watch for stragglers and sudden ambushes.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99051-1e04e35c2b90cf3dcb63/1-0000.mp3", duration = 36.6759184, start = 0},
-  },
-}
-P.transport["quest:99052"] = {
-  hash = "b429c8",
-  fullHash = "b429c8",
-  text = "Threat from Below. Along Durotar's northern coast, Threat from Below puts travelers and the nearby waters in danger. A sea giant prowls the shore, and defeating it earns the respect of Durotar's warriors. A sea giant prowls Durotar's northern coast, where the Great Sea meets jagged sand and rocky shores. Scavengers and crabs usually roam there. Now the giant moves through the shallows, threatening coastal travelers and those who secure the waters beside the Horde's new homeland. Sea giants can shatter longboats and crush warriors beneath their fists. Bringing one down is a hard fight for young adventurers. Those who succeed earn deep respect among the orcs. Their cry of “blood and thunder” rings across Durotar's dry red bluffs.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99052-537d43a35f8171a83fe1/1-0000.mp3", duration = 45.557551, start = 0},
-  },
-}
-P.transport["quest:99053"] = {
-  hash = "5227e9",
-  fullHash = "5227e9",
-  text = "Escaping Ban'ethil. Beneath Teldrassil, Sentinel Lynessa Duskblossom is trapped in Ban'ethil Barrow Den. Gnarlpine furbolg seized her while she carried a message to the slumbering druids. She needs to reach the surface so Dolanaar can hear she is safe. Sentinel Lynessa Duskblossom entered Ban'ethil Barrow Den on the Oracle Tree's orders. She carried a message to the druids resting there. But aggressive Gnarlpine furbolg had overrun the tunnels and ambushed her before she could retreat. They took her prisoner, and Lynessa feared the tribe would kill her. Now you can fight your way with her back to the surface. For the kaldorei Sentinels, the gloom of a barrow den is hard to endure. It leaves them far from Elune's starlight and Teldrassil's open air. After her rescue, Lynessa makes her way back toward civilization, while word of her survival reaches Dolanaar. Sentinel Kyra Starsong, Lynessa's friend, receives the news with relief. Those who help Lynessa defend the kaldorei people earn Kyra's thanks.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99053-39360280906e8c0d43a0/1-0000.mp3", duration = 62.0930612, start = 0},
-  },
-}
-P.transport["quest:99073"] = {
-  hash = "889824",
-  fullHash = "889824",
-  text = "Easing Suffering. Near the Oracle Tree, Sentinel Eralya Leafshadow lies stricken by a spreading rot. You carry Lashwater Salve to ease her pain and calm her failing breath. Sentinel Eralya Leafshadow lies on the road to the Oracle Tree, stricken by a rot spreading fast. To ease her agony, you bring her freshly made Lashwater Salve before the affliction takes firmer hold.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99073-ec23ff256a7d8f361dfb/1-0000.mp3", duration = 24.4767347, start = 0},
-  },
-}
-P.transport["quest:99079"] = {
-  hash = "bb1efe",
-  fullHash = "bb1efe",
-  text = "Longwalker Malah. In Mulgore, Bloodhoof Village awaits Longwalker Malah’s return from the eastern borderlands. Sent to survey the frontier, she has been missing for three days, and the village needs to know she is safe. Across the plains, the Longwalkers serve as the shu'halo's eyes and ears. Pledged to High Chieftain Cairne Bloodhoof, these elite scouts travel vast territories to gather intelligence and carry vital messages. Their loyalty belongs to the High Chieftain alone. Young Baine Bloodhoof sometimes asks for their help protecting Bloodhoof Village and its surrounding pastures. Longwalker Malah Longwind was sent to watch Mulgore's eastern border on a three-day reconnaissance. She has not returned to Bloodhoof Village on schedule, and the village leadership is concerned. Longwalkers carry vital intelligence, while dangers line Mulgore's frontier cliffs. Scouts and willing travelers are called to follow Malah's trail and make sure she is safe. Her ceremonial headband and feathered staff mark her as one of the Longwalkers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99079-057121553828e5ca16fa/1-0000.mp3", duration = 62.5110204, start = 0},
-  },
-}
-P.transport["quest:99080"] = {
-  hash = "7ccabd",
-  fullHash = "7ccabd",
-  text = "Drive Them Out. Baine Bloodhoof asks you to clear the Galak centaurs from the village’s path. Their defeat could give the children a measure of safety. Six Galak centaurs and four Galak outrunners must fall, and Herak the Pillager’s head must come back to Baine. The village’s safety is at stake.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99080-4fbc817c4c916a6c43bc/1-0000.mp3", duration = 18.2334694, start = 0},
-  },
-}
-P.transport["quest:99081"] = {
-  hash = "811f5f",
-  fullHash = "811f5f",
-  text = "Grim Tidings. Malah’s report carries word of a new centaur camp in Mulgore. Brave Wildrunner needs to know what happened to her, who killed her, and why the camp points to a small raiding party entering the land. You bring Malah’s report to Brave Wildrunner in Bloodhoof Village. He needs to know what happened to Malah and who killed her. Her report brings troubling news, and Baine must hear it at once.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99081-9a53ba5c243a1b1952cf/1-0000.mp3", duration = 24.1893878, start = 0},
-  },
-}
-P.transport["quest:99082"] = {
-  hash = "5dd933",
-  fullHash = "5dd933",
-  text = "The High Chieftain. Cairne Bloodhoof’s son sends you to Thunder Bluff to seek his father’s audience. Your defense of your people has earned recognition. Cairne Bloodhoof and the young Warchief Thrall led the effort to reclaim these plains from the centaurs. As High Chieftain, Cairne can recognize your part in defending your people.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99082-0d2ac2ad001abf2ab4d5/1-0000.mp3", duration = 19.6179592, start = 0},
-  },
-}
-P.transport["quest:99101"] = {
-  hash = "8ec2dd",
-  fullHash = "8ec2dd",
-  text = "Our Ancient Enemy. Malah's report has reached Baine Bloodhoof, and his answer is grim. The matter will not go unanswered.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99101-71a4454340490bfa8804/1-0000.mp3", duration = 7.34040816, start = 0},
-  },
-}
-P.transport["quest:99108"] = {
-  hash = "ebe088",
-  fullHash = "ebe088",
-  text = "Sparring Match. At Tang Stonehoof's arena, newcomers face a trial of strength. Whatever their class or background, they can meet three novices or willing duelists and show their skill in combat. Tang Stonehoof welcomes travelers of every path into his sparring ring. He takes special notice of those who follow a tradition beyond the warrior's, yet believes martial discipline and direct combat teach lessons to all who travel through a dangerous world. In Tang Stonehoof's arena, lineage and weapon matter little. You may wield a sword, bow, or magic, but you must defeat three willing opponents. They may be Novice Warriors in training or fellow adventurers who agree to duel. Victory earns Tang's respect and bandages for wounds suffered in honest combat.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99108-eb40d65737f75cc2f6d8/1-0000.mp3", duration = 45.7926531, start = 0},
-  },
-}
-P.transport["quest:99123"] = {
-  hash = "f75d9d",
-  fullHash = "f75d9d",
-  text = "Lost in the Shadows. Pal'juh is lost in dangerous country after setting out alone. Her rescue shows why a hunter needs courage and patience. Pal'juh went into hostile territory alone because she would not wait for help. A talented hunter, she soon found herself in over her head. Someone had to bring her safely back. After Pal'juh is rescued, her overseers see promise in her as a scout and tracker. Yet she charges like a raptor instead of stalking with a tiger's patience. The wilderness offers little mercy.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99123-e7fa1eb31e12a11b02d8/1-0000.mp3", duration = 30.5110204, start = 0},
-  },
-}
-P.transport["quest:99127"] = {
-  hash = "3e50ea",
-  fullHash = "3e50ea",
-  text = "A Net Disaster. At Crystal Lake, A Net Disaster starts with fishermen finding no fish on their hooks and no minnows in the shallows. They set traps overnight to protect their stock. Fishermen at Crystal Lake in Elwynn Forest come up empty. Hooks bring in no fish, and even the minnows have vanished from the shallows. So they set traps overnight, hoping to catch enough to keep their stock.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99127-97d99e781f7a2c3f0cdb/1-0000.mp3", duration = 22.9616327, start = 0},
-  },
-}
-P.transport["quest:99128"] = {
-  hash = "0d4b5d",
-  fullHash = "0d4b5d",
-  text = "Slimy Menace. At Crystal Lake in Elwynn Forest, murlocs threaten the fish and people along the shore. Their growing numbers endanger the lake's supply and nearby locals. Aggressive murlocs have settled along Crystal Lake's eastern shore. Sharp teeth and fierce tempers make the water dangerous for anyone who fishes or comes near. Local residents depend on the lake for their livelihoods, and the murlocs threaten them at the water's edge. If their numbers grow unchecked, murlocs may devour every fish in the lake. Thinning them gives the waters respite, though their eerie, echoing warbles warn that they persist. Even when scattered, they replenish their ranks swiftly, so the shoreline needs constant watch.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99128-72c3cdefbc1f14cba458/1-0000.mp3", duration = 43.2065306, start = 0},
-  },
-}
-P.transport["quest:99129"] = {
-  hash = "05fe6f",
-  fullHash = "05fe6f",
-  text = "A Man About a Murloc. Jason's fishing is in danger, and he turns to Remy \"Two Times\" for help. Remy shares his hatred of murlocs and has plans of his own. Jason is a local fisherman, and murlocs keep raiding his catches. He knows Remy \"Two Times\" hates them as much as he does. So Jason sends you to ask whether Remy has found a way to drive the creatures from the waters. Remy says the local guards have ignored his repeated warnings about the murloc threat. He will not wait for their help. Instead, he prepares to strike back and asks you to aid his plans.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99129-e75fedec2144eafa5bf9/1-0000.mp3", duration = 32.4179592, start = 0},
-  },
-}
-P.transport["quest:99130"] = {
-  hash = "1e0873",
-  fullHash = "1e0873",
-  text = "An Enticing Offer. Remy asks you to gather duskweed for bait against nearby murlocs. Clearing it may also help local farmers. Remy has a plan for two local troubles. You gather duskweed from nearby fields, where it troubles the growers, then use it to make bait meant to keep murlocs from settled lands. The plan is to teach the murlocs to avoid the weed. Duskweed is both the heart of the bait and a persistent weed in nearby farm plots. Its petals harm most beasts when gathered in substantial quantities. Gathering it from troubled farmers clears an aggressive plant from their fields and supplies the base for bait meant to steer murloc packs away. Duskweed makes the bait hazardous to handle because its toxins harm other creatures too. Keep domestic animals and pets away from the mixture. Remy also warns you to make sure Jason does not mistake the pungent bait for a meal.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99130-8322498f7c5e3e2077a0/1-0000.mp3", duration = 51.8791837, start = 0},
-  },
-}
-P.transport["quest:99131"] = {
-  hash = "eae792",
-  fullHash = "eae792",
-  text = "Baited for Success. Jason Mathers asks Remy for help as murlocs disrupt his fishing waters. He hopes poisoned bait will drive them off without harming the fish he sells. Aggressive murlocs disrupt the waters where Jason Mathers fishes. He asks how to clear them so he can sell his catch again. Remy prepares poisoned bait meant to target the murlocs and let ordinary fishing resume.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99131-1f5000e3ef3b63192ea3/1-0000.mp3", duration = 23.9281633, start = 0},
-  },
-}
-P.transport["quest:99143"] = {
-  hash = "5230fb",
-  fullHash = "5230fb",
-  text = "Bottles and Baubles. An angler wants to try a curious theory with murloc trinkets. Their shine may draw fish to the hook. An eccentric angler has a theory about murlocs and fish. Murlocs look like fish, so the angler reasons that their minds work alike. Whatever catches a murloc's eye may tempt a hungry fish on a hook. You search a nearby murloc camp, sifting through its hoards for shiny discarded junk to test the idea. Along coasts and riverbanks, murlocs gather bright stones, shells, polished glass, and metal scraps in messy piles around their huts. Sifting through the muddy heaps turns up glittering refuse that an angler can shape into crude lures and flashers. The finds satisfy the angler enough to earn you starter fishing supplies.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99143-d66a209e4d63275e1315/1-0000.mp3", duration = 47.0204082, start = 0},
-  },
-}
-P.transport["quest:99144"] = {
-  hash = "90af6d",
-  fullHash = "90af6d",
-  text = "Seeking Refuge. At Crusader's Outpost, Bareth Dawnstone waits far from the meeting in Brill he was sent to reach. His safe return matters to the young order at Bandarion Keep, where followers of the Holy Light face prejudice from local zealots. Bareth Dawnstone left Bandarion Keep to speak with Shari Stilwell in Brill. Zealous warriors seized him at Crusader's Outpost before he could reach her. They despise him for being undead, yet Bareth remains devoted to the Light. He seeks a way out of their hands and a chance to deliver his message. At Crusader's Outpost, zealots wield the Holy Light with rigid conviction and vengeance. They see Bareth's existence as an offense. He meditates on the Light as a source of protection and inner purity. His captors' cruelty grieves him, for it twists the sacred teachings he cherishes. In Brill, Shari Stilwell learns that Bareth has escaped and is safe. Their monastic order is still taking root on the bluffs northwest of Solliden Farmstead. Losing a promising practitioner like Bareth would have hurt the young fellowship. Its doors are open to travelers seeking sincere guidance in the Light.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99144-5b4420098da3e3a448c5/1-0000.mp3", duration = 70.635102, start = 0},
-  },
-}
-P.transport["quest:99152"] = {
-  hash = "445d76",
-  fullHash = "445d76",
-  text = "As Above, So Below. At Bandarion Keep, Hilda the Breaker sends you to investigate the hidden Scourge beneath Shadowvale. Bones still humming with reanimation magic may reveal how the undead gathered beneath the town unseen. Hilda the Breaker prepares defenders at Bandarion Keep for the dangers around them. To the southwest, Shadowvale faces regular unrest from the Tarnished, a hostile faction. Yet beneath the town, the Scourge gathers strength in hidden cellars. If left unchecked, it may erupt in a sudden assault on the keep.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99152-e78f2b90d24cf23e0867/1-0000.mp3", duration = 32.4179592, start = 0},
-  },
-}
-P.transport["quest:99153"] = {
-  hash = "af130f",
-  fullHash = "af130f",
-  text = "The One That Got Away. Near Naxxramas's remnants, Ephram Barbaro seeks the cultist who escaped with a dangerous crystal fragment. The fugitive fled beneath Shadowvale, and its power may raise or strengthen the dead. After the clash with cultists near the Naxxramas battle remnants, word spreads among the ranks. Ephram Barbaro hears that one cultist slipped past the perimeter with an active piece of a Scourge focusing crystal. He seeks capable adventurers to find the fugitive. The escaped cultist fled into passages beneath Shadowvale. The fragment still holds necromantic power, and may raise the dead or strengthen hostile forces underground. Ephram Barbaro sends you to track it down and secure it before that power brings greater harm.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99153-dac6c6d45c750bf71f13/1-0000.mp3", duration = 46.6546939, start = 0},
-  },
-}
-P.transport["quest:99158"] = {
-  hash = "89ede3",
-  fullHash = "89ede3",
-  text = "Dawn in the Mountains. At Misty Pine Refuge, Father Gavin tends travelers with the Light's healing and comfort. He needs holy candles to keep his mountain sanctuary supplied. Father Gavin follows the Light's gentler calling within the Argent Dawn. Many in the order take up arms against unholy horrors across Azeroth, but he heals the afflicted and tends the weary. He restored an abandoned structure in the rugged mountain wilderness and made it Misty Pine Refuge, a safe stop for travelers facing the high passes. An isolated mountain refuge needs steady care. Father Gavin depends on charity from distant allies to sustain his ministry and keep the lamps and altars burning. A delivery of consecrated candles replenishes the sanctuary's supply, keeping it a beacon of light, warmth, and hope in the wilderness.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99158-779707f1f47de40f4f3d/1-0000.mp3", duration = 48.9795918, start = 0},
-  },
-}
-P.transport["quest:99159"] = {
-  hash = "8c362c",
-  fullHash = "8c362c",
-  text = "Finding Warmth. A hearth waits for firewood, while its keeper tends to other duties. Gathered logs keep the fire ready to warm anyone who seeks comfort. The hearth welcomes travelers who seek warmth. Its keeper has other duties and cannot gather fuel. Bring firewood to keep the flames alive for those who need shelter and comfort. Some gathered wood is too damp to burn at once. The keeper sets wet pieces aside to dry and feeds seasoned wood to the fire. With the hearth tended, the keeper turns to other pressing matters.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99159-6cbf802bcf0127d9d83d/1-0000.mp3", duration = 33.5934694, start = 0},
-  },
-}
-P.transport["quest:99160"] = {
-  hash = "f72633",
-  fullHash = "f72633",
-  text = "Rime's Wrath. Minor ice elementals roam the area, and no peaceful way to calm them is known. You are asked to destroy them before they can harm anyone. Minor ice elementals have gathered nearby, and their biting cold puts passersby at risk. You are asked to contain the danger before the spirits can harm anyone. Those who hoped to calm the frost spirits do not know how. As the elementals grow more dangerous, you are asked to destroy them and protect the surrounding territory.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99160-0ad3c1cc8945965afb12/1-0000.mp3", duration = 29.2832653, start = 0},
-  },
-}
-P.transport["quest:99161"] = {
-  hash = "6516aa",
-  fullHash = "6516aa",
-  text = "Rime's Wrath. After a rockslide, Avala makes the mountain pass dangerous. An observer asks you to hunt the great elemental and bring back its core, so the slopes may grow safer for travelers. A rockslide has unsettled the mountain pass, and elementals have appeared. One is far larger and stronger than the others. The observer watching the pass named it Avala. Its power brings sudden weather shifts and shakes the cliffs. Loose stone and bitter winter chills now make the pass perilous for travelers. Avala's influence makes the pass more dangerous. The observer calls on you to stop it before more collapses claim lives. You face the elemental amid the harsh conditions it stirs, then bring back its core as proof of its death. With Avala gone, the violent weather shifts ease, and the mountain passes grow safer for travelers.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99161-9518e1bcf56233e0b40c/1-0000.mp3", duration = 51.9053061, start = 0},
-  },
-}
-P.transport["quest:99162"] = {
-  hash = "071f86",
-  fullHash = "071f86",
-  text = "Treacherous Cold. In Dun Morogh, snow and ice slides bury Ironforge mountaineers in the high passes. You search for their inscribed rifles so their families can learn who fell. In Dun Morogh, sudden avalanches and falling ice threaten travelers and soldiers. Even Ironforge's hardened mountaineers can be overwhelmed. When winter strikes without warning, novice recruits may pay with their lives. Mountain slides can bury patrols, and each search through the hazardous terrain races against time. Elemental activity across the region has grown more intense, making rescue parties perilous to send out. Scouts ask you to search the drifts for fallen mountaineers and recover their inscribed rifles before snow hides them forever. Ironforge mountaineers carve their names into their rifle stocks. Recovering those weapons from the drifts helps identify the fallen, so their families in Ironforge can learn of their service.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99162-cb2f84302de54644f6ce/1-0000.mp3", duration = 57.3910204, start = 0},
-  },
-}
-P.transport["quest:99191"] = {
-  hash = "e0524f",
-  fullHash = "e0524f",
-  text = "A Donation of Wool. The High Order is taking wool cloth from those who seek its full recognition. Sixty pieces meet its current need. The High Order is accepting wool cloth, and sixty pieces meet its current needs. The giver can take your donation now. In return, the order grants you full recognition.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99191-28b39b920f29662ed8bf/1-0000.mp3", duration = 18.4163265, start = 0},
-  },
-}
-P.transport["quest:99196"] = {
-  hash = "67dc4a",
-  fullHash = "67dc4a",
-  text = "A Donation of Wool. The Windshapers are taking wool cloth donations, and sixty pieces will earn their full recognition. The Windshapers accept wool cloth from you. When you are ready to give, their representative can take sixty pieces.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99196-8f89e246e5763115fccc/1-0000.mp3", duration = 14.5763265, start = 0},
-  },
-}
-P.transport["quest:99260"] = {
-  hash = "d5b72b",
-  fullHash = "d5b72b",
-  text = "Fillion's Mission. Fillion lies wounded after his survey at the Overlook Standing Stones. The readings meant to guide skycutters between Skywall and Azeroth are presumed lost. Fillion went to the Overlook Standing Stones to measure elemental currents. Those readings are needed to calculate safe courses for skycutter vessels between Skywall and Azeroth. After an ordeal that required his rescue, he is too wounded to finish the work. The vital data is presumed lost, so he sends his rescuer to report to the Supreme Magister.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99260-d0376983076bac41877e/1-0000.mp3", duration = 31.3469388, start = 0},
   },
 }
 P.transport["quest:993"] = {
@@ -10495,14 +4935,6 @@ P.transport["quest:994"] = {
   text = "Escape Through Force. In Darkshore, Volcor fights through the wild to reach safety. He finds Grimclaw by the road, and you bring word of his escape to Terenthis in Auberdine. Volcor is stranded in Darkshore’s perilous wilderness, with danger closing around him. He chooses to fight the hostile creatures instead of slipping away unseen. His skill clears a path to the main road and safety.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_994-d7fa22e92a8ea12715eb/1-0000.mp3", duration = 23.0661224, start = 0},
-  },
-}
-P.transport["quest:99411"] = {
-  hash = "7921de",
-  fullHash = "7921de",
-  text = "Kyle's Gone Missing!. In Bloodhoof Village, Ahab Wheathoof asks you to find his missing dog, Kyle the Frenzied. A cut of tender strider meat calms the hungry pup and guides him safely home. Ahab Wheathoof is an elder in Bloodhoof Village, and he worries over his wayward pet, Kyle the Frenzied. To outsiders, Kyle's name sounds alarming, but to Ahab he is a prized puppy. He has slipped away onto Mulgore's grassy plains.\n\nAhab asks travelers passing through the settlement to track down his unruly companion. A hearty meal may calm Kyle's wild spirits. Kyle needs a cut of tender strider meat from the swift plainstriders roaming Mulgore. The treat satisfies the hungry pup and soothes his frenzied mood. Then it nudges him back toward Bloodhoof Village and his grateful owner.",
-  ["1"] = {
-    {file = "Audio/Transport/full_quest_99411-072a90ec2a137d951e4e/1-0000.mp3", duration = 50.8604082, start = 0},
   },
 }
 P.transport["quest:995"] = {

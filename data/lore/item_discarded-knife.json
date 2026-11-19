@@ -1,0 +1,105 @@
+{
+ "key": "item:discarded-knife",
+ "type": "item",
+ "name": "Discarded Knife",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Discarded Knife",
+  "quests": [
+   "quest:4127",
+   "quest:4129"
+  ]
+ },
+ "summary": "The Discarded Knife is a well-kept blade found beneath the water near a missing boat in Feralas. Ginro Hearthkindle hopes it may offer a clue to Raschal\u2019s fate.",
+ "sections": [
+  {
+   "title": "Beneath the Water",
+   "body": "At the bottom of the water in Feralas, the Discarded Knife lies near a large piece of a missing boat. Its handle is easy to find in the mud, and the blade appears well cared for. You bring it to Ginro Hearthkindle at Feathermoon Stronghold, who is searching for clues to Raschal\u2019s fate.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Clue in Hand",
+   "body": "Ginro believes the knife may have belonged to Raschal, though finding it near the boat is not enough to settle the matter. He sends you to Quintis Jonespyre, the Stronghold\u2019s resident druid, for a reading by touch. Quintis calls this art psychometry and hopes it will offer a glimpse of what happened.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the knife come from?",
+   "aliases": [
+    "knife location",
+    "where found",
+    "knife in water"
+   ],
+   "answer": "The Discarded Knife was found in the mud beneath the water in Feralas, near a large piece of a missing boat."
+  },
+  {
+   "q": "Who might the knife belong to?",
+   "aliases": [
+    "whose knife",
+    "raschal knife",
+    "knife owner"
+   ],
+   "answer": "Ginro Hearthkindle believes the Discarded Knife may have belonged to Raschal, whose fate remains uncertain."
+  },
+  {
+   "q": "Why does Ginro want the knife?",
+   "aliases": [
+    "ginro knife",
+    "why bring knife",
+    "what clue"
+   ],
+   "answer": "Ginro is searching for clues to Raschal\u2019s fate, and hopes the knife may help reveal what happened."
+  },
+  {
+   "q": "Who can read the knife\u2019s history?",
+   "aliases": [
+    "knife reading",
+    "psychometry",
+    "quintis knife"
+   ],
+   "answer": "Quintis Jonespyre, Feathermoon Stronghold\u2019s resident druid, uses psychometry to seek an item\u2019s history by touching it."
+  },
+  {
+   "q": "What is psychometry?",
+   "aliases": [
+    "what is psychometry",
+    "item reading",
+    "read object"
+   ],
+   "answer": "Psychometry is Quintis Jonespyre\u2019s art of seeking insight into an item\u2019s history through touch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you may recognize Quintis Jonespyre\u2019s psychometry as an unusual art that draws on nature\u2019s secrets."
+  }
+ ],
+ "keywords": [
+  "boat wreckage",
+  "discarded knife",
+  "feathermoon stronghold",
+  "feralas",
+  "ginro hearthkindle",
+  "knife",
+  "psychometry",
+  "quintis jonespyre",
+  "raschal"
+ ],
+ "related": [
+  "quest:4127",
+  "quest:4129",
+  "quest:4130",
+  "subzone:feathermoon-stronghold-classic",
+  "zone:feralas",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Discarded Knife",
+  "Boat Wreckage",
+  "The Knife Revealed"
+ ]
+}

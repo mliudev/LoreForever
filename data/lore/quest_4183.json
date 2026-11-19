@@ -1,0 +1,64 @@
+{
+ "key": "quest:4183",
+ "type": "quest",
+ "name": "The True Masters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4183
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Helendis Riverhorn asks you to carry his letter to Magistrate Solomon in Lakeshire. The message links these two men, though its contents are not given here.",
+ "sections": [
+  {
+   "title": "A Letter for Lakeshire",
+   "body": "The road now leads you to Lakeshire, where Magistrate Solomon is to receive Helendis Riverhorn's letter. Carrying it brings the two men into contact; what it says remains for Solomon to learn.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the letter for?",
+   "aliases": [
+    "letter for Solomon",
+    "who gets Helendis letter"
+   ],
+   "answer": "Helendis Riverhorn's letter is addressed to Magistrate Solomon in Lakeshire."
+  },
+  {
+   "q": "Where do I take Helendis Riverhorn's letter?",
+   "aliases": [
+    "where to deliver letter",
+    "letter to Lakeshire"
+   ],
+   "answer": "Take Helendis Riverhorn's letter to Magistrate Solomon in Lakeshire."
+  },
+  {
+   "q": "Who sent the letter?",
+   "aliases": [
+    "Helendis letter",
+    "who wrote the letter"
+   ],
+   "answer": "Helendis Riverhorn is the one whose letter you carry to Magistrate Solomon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "helendis riverhorn",
+  "lakeshire",
+  "letter",
+  "magistrate solomon",
+  "true masters"
+ ],
+ "related": [
+  "subzone:lakeshire",
+  "npc:magistrate-solomon"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The True Masters"
+ ]
+}

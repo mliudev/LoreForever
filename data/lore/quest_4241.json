@@ -1,0 +1,64 @@
+{
+ "key": "quest:4241",
+ "type": "quest",
+ "name": "Marshal Windsor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4241
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are sent to Blackrock Depths to learn what became of Marshal Windsor. Ragged John recalls that Windsor was dragged off to a prison.",
+ "sections": [
+  {
+   "title": "A Marshal Missing",
+   "body": "Ragged John remembers Marshal Windsor being taken away to a prison. From Blackrock Mountain, you are sent into Blackrock Depths to discover what became of him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marshal Windsor?",
+   "aliases": [
+    "Windsor",
+    "marshal windsor"
+   ],
+   "answer": "Marshal Windsor is the missing man you are sent to find in Blackrock Depths."
+  },
+  {
+   "q": "Where was Windsor taken?",
+   "aliases": [
+    "where's windsor",
+    "Windsor prison"
+   ],
+   "answer": "Ragged John recalls that Marshal Windsor was dragged off to a prison."
+  },
+  {
+   "q": "Where do I look for Marshal Windsor?",
+   "aliases": [
+    "find Windsor",
+    "Windsor location"
+   ],
+   "answer": "You are sent to Blackrock Depths, inside Blackrock Mountain, to find out what became of him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock depths",
+  "blackrock mountain",
+  "marshal windsor",
+  "prison",
+  "ragged john",
+  "windsor"
+ ],
+ "related": [
+  "subzone:blackrock-mountain"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Marshal Windsor"
+ ]
+}

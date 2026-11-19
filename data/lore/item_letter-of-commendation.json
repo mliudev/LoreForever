@@ -1,0 +1,97 @@
+{
+ "key": "item:letter-of-commendation",
+ "type": "item",
+ "name": "Letter of Commendation",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Letter of Commendation",
+  "quests": [
+   "quest:1052"
+  ]
+ },
+ "summary": "Brother Anton's Letter of Commendation bears his seal and carries the Scarlet Crusade's regard. It directs its bearer from Desolace to Raleigh the Devout in Southshore.",
+ "sections": [
+  {
+   "title": "A Sealed Letter",
+   "body": "Raleigh the Devout waits in Southshore for the bearer of Brother Anton's letter. The sealed message praises the Scarlet Crusade's strongholds, from Hearthglen to Tirisfal Glades. It declares that the plague's true threat lies in Lordaeron and asks Raleigh to receive the bearer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gave me the letter?",
+   "aliases": [
+    "letter from Anton",
+    "Anton letter",
+    "who sealed it"
+   ],
+   "answer": "Brother Anton gave the Letter of Commendation and sealed it with his mark."
+  },
+  {
+   "q": "Who should receive it?",
+   "aliases": [
+    "where take letter",
+    "Raleigh letter",
+    "who gets this"
+   ],
+   "answer": "Raleigh the Devout in Southshore is named as the recipient."
+  },
+  {
+   "q": "What is the letter for?",
+   "aliases": [
+    "why this letter",
+    "what does it do",
+    "letter purpose"
+   ],
+   "answer": "The letter commends its bearer to Raleigh and asks him to escort them to a place of honor in the Scarlet Monastery."
+  },
+  {
+   "q": "What does Brother Anton say about the plague?",
+   "aliases": [
+    "plague threat",
+    "Anton on Lordaeron",
+    "where is plague worst"
+   ],
+   "answer": "Brother Anton says the plague's true threat lies in Lordaeron."
+  },
+  {
+   "q": "What does the letter say about the Scarlet Crusade?",
+   "aliases": [
+    "crusade strongholds",
+    "scarlet bastions",
+    "where crusade claims land"
+   ],
+   "answer": "The Scarlet Crusade claims strongholds from Hearthglen to Tirisfal Glades and calls them bastions of cleansing."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, Southshore is a familiar town where Raleigh the Devout receives Brother Anton's sealed commendation."
+  }
+ ],
+ "keywords": [
+  "brother anton",
+  "desolace",
+  "letter of commendation",
+  "lordaeron",
+  "raleigh the devout",
+  "scarlet crusade",
+  "scarlet monastery",
+  "southshore"
+ ],
+ "related": [
+  "quest:261",
+  "quest:1053",
+  "quest:6141",
+  "topic:scarlet-crusade",
+  "zone:desolace",
+  "subzone:southshore"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Letter of Commendation",
+  "Down the Scarlet Path (2)"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "item:ziata-jai-trophy",
+ "type": "item",
+ "name": "Ziata'jai Trophy",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Ziata'jai Trophy",
+  "quests": [
+   "quest:585"
+  ]
+ },
+ "summary": "The Ziata'jai Trophy is a Skullsplitter trophy skull taken from the ruins in Northern Stranglethorn. Nezzliok demands it as part of a tribute tied to the search for Yenniku.",
+ "sections": [
+  {
+   "title": "A Skullsplitter Trophy",
+   "body": "Among the Skullsplitters' trophies at Ziata'jai Ruins in Northern Stranglethorn lies a skull Nezzliok demands. The dead witch doctor seeks three skulls from his people's rivals, the Skullsplitters, and this one is taken from their pile at Ziata'jai. It is brought to the Bubbling Cauldron at Grom'gol Base Camp with trophies from Balia'mah and Zul'Mamwe. Nezzliok promises knowledge of Yenniku's whereabouts in return for appeasement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do you find the Ziata'jai Trophy?",
+   "aliases": [
+    "ziata jai trophy location",
+    "where skull",
+    "ziata'jai skull"
+   ],
+   "answer": "The Ziata'jai Trophy is found in the Skullsplitter trophy pile at Ziata'jai Ruins in Northern Stranglethorn."
+  },
+  {
+   "q": "Who wants the Ziata'jai Trophy?",
+   "aliases": [
+    "who wants it",
+    "nezzliok trophy",
+    "witch doctor skull"
+   ],
+   "answer": "The dead witch doctor Nezzliok demands the Ziata'jai Trophy as one of three Skullsplitter skulls."
+  },
+  {
+   "q": "Where do you take the Ziata'jai Trophy?",
+   "aliases": [
+    "where to bring skull",
+    "bubbling cauldron",
+    "gromgol trophy"
+   ],
+   "answer": "Bring the Ziata'jai Trophy to the Bubbling Cauldron at Grom'gol Base Camp with trophies from Balia'mah and Zul'Mamwe."
+  },
+  {
+   "q": "Why does Nezzliok want the trophy skulls?",
+   "aliases": [
+    "why skulls",
+    "nezzliok tribute",
+    "what does he want"
+   ],
+   "answer": "Nezzliok demands three Skullsplitter trophy skulls to appease his spirit. He promises to reveal where Yenniku was taken."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "grom'gol",
+  "nezzliok",
+  "northern stranglethorn",
+  "skullsplitter",
+  "trophy skull",
+  "yenniku",
+  "ziata'jai",
+  "ziata'jai trophy"
+ ],
+ "related": [
+  "quest:585",
+  "item:balia-mah-trophy",
+  "item:zul-mamwe-trophy",
+  "subzone:grom-gol-base-camp",
+  "topic:darkspear-tribe",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ziata'jai Trophy",
+  "Speaking with Nezzliok (Classic)"
+ ]
+}

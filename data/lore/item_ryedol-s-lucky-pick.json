@@ -1,0 +1,81 @@
+{
+ "key": "item:ryedol-s-lucky-pick",
+ "type": "item",
+ "name": "Ryedol's Lucky Pick",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Ryedol's Lucky Pick",
+  "quests": [
+   "quest:719"
+  ]
+ },
+ "summary": "Ryedol\u2019s Lucky Pick is a mining tool lost when Shadowforge dwarves attacked Hammertoe\u2019s Digsite in the Badlands. Prospector Ryedol hopes to get it back.",
+ "sections": [
+  {
+   "title": "A Prospector\u2019s Tool",
+   "body": "Prospector Ryedol works south of Hammertoe\u2019s Digsite in the Badlands. The Shadowforge clan attacked the excavation site and killed nearly everyone there, including Ryedol\u2019s boss, Hammertoe. Ryedol escaped, but his lucky pick was left behind. He asks you to search among the Dark Iron dwarves for the tool.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Ryedol\u2019s Lucky Pick?",
+   "aliases": [
+    "ryedol pick",
+    "lucky pick owner"
+   ],
+   "answer": "Prospector Ryedol owns the pick and wants it returned."
+  },
+  {
+   "q": "Where was the pick lost?",
+   "aliases": [
+    "where pick lost",
+    "pick location"
+   ],
+   "answer": "The pick was left at Hammertoe\u2019s Digsite in the Badlands after the Shadowforge clan attacked."
+  },
+  {
+   "q": "Who has Ryedol\u2019s Lucky Pick?",
+   "aliases": [
+    "who has pick",
+    "shadowforge pick"
+   ],
+   "answer": "One of the Shadowforge dwarves at Hammertoe\u2019s Digsite has the pick."
+  },
+  {
+   "q": "Why does Ryedol want the pick back?",
+   "aliases": [
+    "why lucky pick",
+    "ryedol needs pick"
+   ],
+   "answer": "It is Ryedol\u2019s lucky pick, and he asks you to recover it from the Shadowforge dwarves."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you can help Prospector Ryedol recover his tool after the Shadowforge attack on Hammertoe\u2019s Digsite."
+  }
+ ],
+ "keywords": [
+  "badlands",
+  "dark iron",
+  "hammertoe's digsite",
+  "lucky pick",
+  "prospector ryedol",
+  "ryedol's lucky pick",
+  "shadowforge"
+ ],
+ "related": [
+  "quest:719",
+  "npc:prospector-ryedol",
+  "zone:badlands",
+  "topic:dwarf"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Ryedol's Lucky Pick",
+  "A Dwarf and His Tools"
+ ]
+}

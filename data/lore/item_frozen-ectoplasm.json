@@ -1,0 +1,98 @@
+{
+ "key": "item:frozen-ectoplasm",
+ "type": "item",
+ "name": "Frozen Ectoplasm",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Frozen Ectoplasm",
+  "quests": [
+   "quest:8924"
+  ]
+ },
+ "summary": "Mux Manascrambler needs Frozen Ectoplasm from Winterspring\u2019s restless Highborne spirits. It is one of three spectral substances he seeks for his work with the dead.",
+ "sections": [
+  {
+   "title": "Winter Spirits",
+   "body": "Near Winterspring\u2019s lake, Anguished and Suffering Highborne leave Frozen Ectoplasm behind. Mux Manascrambler asks you to gather it with an Ectoplasmic Distiller, alongside Scorched Ectoplasm from Silithus and Stable Ectoplasm from the Eastern Plaguelands. He hopes the three substances will let him reach souls that have not wholly left this world.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Frozen Ectoplasm?",
+   "aliases": [
+    "frozen ectoplasm location",
+    "where frozen ectoplasm",
+    "ectoplasm winterspring"
+   ],
+   "answer": "Anguished and Suffering Highborne near the lake in Winterspring leave Frozen Ectoplasm behind."
+  },
+  {
+   "q": "What is Frozen Ectoplasm for?",
+   "aliases": [
+    "frozen ectoplasm use",
+    "what's it for",
+    "ectoplasm purpose"
+   ],
+   "answer": "Mux Manascrambler needs it for Hunting for Ectoplasm, which calls for three kinds of ectoplasm gathered with an Ectoplasmic Distiller."
+  },
+  {
+   "q": "Who wants Frozen Ectoplasm?",
+   "aliases": [
+    "mux ectoplasm",
+    "who needs it",
+    "mux manascrambler"
+   ],
+   "answer": "Mux Manascrambler in Gadgetzan wants Frozen Ectoplasm, along with Scorched and Stable Ectoplasm."
+  },
+  {
+   "q": "Why does Mux want ectoplasm?",
+   "aliases": [
+    "why ectoplasm",
+    "mux's plan",
+    "reach souls"
+   ],
+   "answer": "Mux hopes to use the otherworldly energies in the ectoplasm to reach souls that have not wholly left this world."
+  },
+  {
+   "q": "What spirits leave Frozen Ectoplasm?",
+   "aliases": [
+    "ectoplasm from what",
+    "highborne ectoplasm",
+    "frozen spirit drops"
+   ],
+   "answer": "The Anguished and Suffering Highborne spirits of Winterspring leave Frozen Ectoplasm."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you may recognize Mux\u2019s Ectoplasmic Distiller as his device for gathering spectral substances."
+  }
+ ],
+ "keywords": [
+  "anguished highborne",
+  "ectoplasm",
+  "ectoplasmic distiller",
+  "frozen ectoplasm",
+  "hunting for ectoplasm",
+  "mux manascrambler",
+  "suffering highborne",
+  "winterspring"
+ ],
+ "related": [
+  "quest:8924",
+  "npc:mux-manascrambler",
+  "quest:8921",
+  "item:scorched-ectoplasm",
+  "item:stable-ectoplasm",
+  "zone:winterspring",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Frozen Ectoplasm",
+  "Hunting for Ectoplasm"
+ ]
+}

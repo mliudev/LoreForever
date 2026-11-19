@@ -1,0 +1,96 @@
+{
+ "key": "item:the-fourth-troll-legend",
+ "type": "item",
+ "name": "The Fourth Troll Legend",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "The Fourth Troll Legend",
+  "quests": [
+   "quest:207"
+  ]
+ },
+ "summary": "At the Ruins of Zul'Kunda, the Fourth Troll Legend draws Brother Nimetz's search into the old stones of Stranglethorn. Its markings may help explain Colonel Kurzen's corruption.",
+ "sections": [
+  {
+   "title": "A Tablet in Zul'Kunda",
+   "body": "Among the northern ruins of Zul'Kunda, the Emperor's Tomb bears the Fourth Troll Legend. Brother Nimetz seeks its markings alongside three other troll legends. He hopes the old words will shed light on Colonel Kurzen's fall, and has sent you to bring them back for study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Fourth Troll Legend?",
+   "aliases": [
+    "fourth troll legend",
+    "fourth tablet",
+    "troll legend four"
+   ],
+   "answer": "The Fourth Troll Legend is a set of markings on a stone tablet called the Emperor's Tomb in the Ruins of Zul'Kunda."
+  },
+  {
+   "q": "Where can I find the Fourth Troll Legend?",
+   "aliases": [
+    "fourth legend location",
+    "where is emperor's tomb",
+    "zul'kunda tablet"
+   ],
+   "answer": "The Emperor's Tomb stands among the Ruins of Zul'Kunda in northwestern Stranglethorn Vale."
+  },
+  {
+   "q": "Who wants the Fourth Troll Legend?",
+   "aliases": [
+    "who needs fourth legend",
+    "brother nimetz tablet",
+    "nimetz legends"
+   ],
+   "answer": "Brother Nimetz at the Rebel Camp wants the markings from the Fourth Troll Legend so he can study them."
+  },
+  {
+   "q": "Why is Brother Nimetz studying troll legends?",
+   "aliases": [
+    "kurzen mystery",
+    "why troll legends",
+    "kurzen corruption"
+   ],
+   "answer": "Brother Nimetz hopes the troll legends may reveal what caused Colonel Kurzen's corruption."
+  },
+  {
+   "q": "What are the other troll legends?",
+   "aliases": [
+    "first second third legends",
+    "other tablets",
+    "all four legends"
+   ],
+   "answer": "The other tablets bear the First, Second, and Third Troll Legends. They are found in Stranglethorn's Bal'lal Ruins, Vile Reef, and Ruins of Zul'Kunda."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you can help Brother Nimetz investigate Colonel Kurzen's fall by bringing him the markings from Zul'Kunda."
+  }
+ ],
+ "keywords": [
+  "brother nimetz",
+  "colonel kurzen",
+  "emperor's tomb",
+  "fourth troll legend",
+  "stranglethorn",
+  "troll tablet",
+  "zul'kunda"
+ ],
+ "related": [
+  "item:the-first-troll-legend",
+  "item:the-second-troll-legend",
+  "item:the-third-troll-legend",
+  "quest:207",
+  "subzone:rebel-camp",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: The Fourth Troll Legend",
+  "Kurzen's Mystery"
+ ]
+}

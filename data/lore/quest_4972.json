@@ -1,0 +1,68 @@
+{
+ "key": "quest:4972",
+ "type": "quest",
+ "name": "Counting Out Time",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4972
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Chromie asks you to find five Andorhal Watches in the rubble of Andorhal. They lie in lockboxes scattered through the city.",
+ "sections": [
+  {
+   "title": "Timepieces in Ruin",
+   "body": "In Andorhal, Chromie waits at the inn for five watches recovered from lockboxes among the city's rubble. You are to bring them back to her in the Western Plaguelands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Chromie need?",
+   "aliases": [
+    "what watches",
+    "chromie needs what",
+    "andorhal watches"
+   ],
+   "answer": "Chromie asks you to bring her five Andorhal Watches from lockboxes among Andorhal's rubble."
+  },
+  {
+   "q": "Where are the Andorhal Watches?",
+   "aliases": [
+    "watch locations",
+    "where watches",
+    "lockboxes where"
+   ],
+   "answer": "The watches are in lockboxes among the rubble of Andorhal."
+  },
+  {
+   "q": "Where do I bring the watches?",
+   "aliases": [
+    "return watches",
+    "bring them where",
+    "chromie inn"
+   ],
+   "answer": "Bring the five watches to Chromie at the Andorhal Inn in the Western Plaguelands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "andorhal",
+  "andorhal watches",
+  "chromie",
+  "counting out time",
+  "lockboxes",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:andorhal",
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Counting Out Time"
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "key": "item:bundle-of-atal-ai-artifacts",
+ "type": "item",
+ "name": "Bundle of Atal'ai Artifacts",
+ "era": "classic",
+ "zone": "swampofsorrows",
+ "meta": {
+  "wiki": "Bundle of Atal'ai Artifacts",
+  "quests": [
+   "quest:1429"
+  ]
+ },
+ "summary": "A bundle of Atal\u2019ai artifacts is carried from the Pool of Tears to an exiled priest in the Hinterlands. Its purpose is tied to the tribe\u2019s rites.",
+ "sections": [
+  {
+   "title": "A Blood-Written Sentence",
+   "body": "A blood-written sentence found near the Pool of Tears condemns an Atal\u2019ai priest to exile. The artifacts gathered there are meant for the priest, who has taken refuge among the Witherbark trolls in the Hinterlands. He is asked to reveal their true use.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Artifacts\u2019 Purpose",
+   "body": "The exile identifies the bundle as summoning artifacts. Jammal\u2019an the Prophet leads disciples of the Chamber of Blood toward their chosen fate, and the question remains whether Hakkar has returned to the Temple.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Atal\u2019ai artifacts for?",
+   "aliases": [
+    "artifact purpose",
+    "what do artifacts do",
+    "atalai bundle"
+   ],
+   "answer": "The exiled priest identifies the Atal\u2019ai artifacts as summoning artifacts."
+  },
+  {
+   "q": "Who is supposed to receive the bundle?",
+   "aliases": [
+    "who gets the artifacts",
+    "atalai exile guy",
+    "bundle recipient"
+   ],
+   "answer": "The bundle is meant for an exiled Atal\u2019ai priest living among the Witherbark trolls in the Hinterlands."
+  },
+  {
+   "q": "Why was the priest exiled?",
+   "aliases": [
+    "why exile",
+    "atalai priest sentence",
+    "what did priest do"
+   ],
+   "answer": "The priest was sentenced to exile by the Atal\u2019ai tribe. The sentence does not give a reason."
+  },
+  {
+   "q": "Who leads the Chamber of Blood disciples?",
+   "aliases": [
+    "chamber of blood leader",
+    "jammalan",
+    "who leads disciples"
+   ],
+   "answer": "Jammal\u2019an the Prophet leads the disciples of the Chamber of Blood."
+  },
+  {
+   "q": "Has Hakkar returned to the Temple?",
+   "aliases": [
+    "hakkar back",
+    "hakkar temple",
+    "is hakkar there"
+   ],
+   "answer": "The priest wonders whether Hakkar has returned to the Temple; his return is not confirmed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "The bundle concerns Atal\u2019ai rites and an exile living among the Witherbark trolls in the Hinterlands."
+  }
+ ],
+ "keywords": [
+  "artifacts",
+  "atal'ai",
+  "bundle",
+  "chamber of blood",
+  "exile",
+  "hakkar",
+  "jammal'an",
+  "pool of tears",
+  "summoning",
+  "witherbark"
+ ],
+ "related": [
+  "quest:1429",
+  "item:atal-ai-artifact",
+  "subzone:pool-of-tears",
+  "zone:swampofsorrows",
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bundle of Atal'ai Artifacts",
+  "The Atal'ai Exile"
+ ]
+}

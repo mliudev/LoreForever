@@ -1,0 +1,114 @@
+{
+ "key": "item:hammertoe-s-amulet",
+ "type": "item",
+ "name": "Hammertoe's Amulet",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Hammertoe's Amulet",
+  "quests": [
+   "quest:723",
+   "quest:724"
+  ]
+ },
+ "summary": "Hammertoe\u2019s Amulet is a dwarf\u2019s keepsake from his search into Uldaman\u2019s past. In the Badlands, it carries his work onward to those who knew him.",
+ "sections": [
+  {
+   "title": "A Dwarf\u2019s Charge",
+   "body": "Wounded in the Badlands, Hammertoe asks you to carry his amulet to Prospector Ryedol. Hammertoe had been searching for the origins of his people and trying to stop the Shadowforge clan from finding the scrolls. Ryedol knows of that work, and Hammertoe trusts him to decide what must be done.",
+   "spoiler": 0
+  },
+  {
+   "title": "In Ironforge",
+   "body": "After hearing what happened to Hammertoe, Ryedol sends you to Historian Karnik in Ironforge. Karnik and Hammertoe had worked together to find lost artifacts in Uldaman. The amulet carries their work into Karnik\u2019s hands, and he sees that it bears on more than grief for his companion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Hammertoe?",
+   "aliases": [
+    "hammertoe dwarf",
+    "who's hammertoe",
+    "hammertoe story"
+   ],
+   "answer": "Hammertoe was a dwarf searching for the origins of his people in Uldaman. He also worked to keep the Shadowforge clan from finding the scrolls."
+  },
+  {
+   "q": "Why does Hammertoe give me his amulet?",
+   "aliases": [
+    "why amulet",
+    "hammertoe's amulet why",
+    "what do i do with amulet"
+   ],
+   "answer": "Hammertoe asks you to take the amulet to Prospector Ryedol in the Badlands. Ryedol knows about Hammertoe\u2019s search and can decide what to do next."
+  },
+  {
+   "q": "Who is Prospector Ryedol?",
+   "aliases": [
+    "ryedol who",
+    "prospector guy",
+    "who's ryedol"
+   ],
+   "answer": "Prospector Ryedol is the dwarf Hammertoe trusts with his amulet and his work in Uldaman."
+  },
+  {
+   "q": "Why is the amulet important?",
+   "aliases": [
+    "amulet importance",
+    "what's special about it",
+    "amulet matter"
+   ],
+   "answer": "The amulet belonged to Hammertoe and represents his work searching Uldaman for the origins of his people. Ryedol and Historian Karnik know that work."
+  },
+  {
+   "q": "Who is Historian Karnik?",
+   "aliases": [
+    "karnik who",
+    "historian guy",
+    "who's karnik"
+   ],
+   "answer": "Historian Karnik is in Ironforge and worked with Hammertoe to find lost artifacts in Uldaman. Ryedol directs you to him with the amulet."
+  },
+  {
+   "q": "What was Hammertoe trying to stop?",
+   "aliases": [
+    "shadowforge goal",
+    "why stop shadowforge",
+    "scrolls in uldaman"
+   ],
+   "answer": "Hammertoe sought to stop the Shadowforge clan from finding the scrolls in Uldaman."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, Hammertoe\u2019s search for the origins of his people touches your own heritage. His amulet carries that work to the scholars who knew him."
+  }
+ ],
+ "keywords": [
+  "amulet",
+  "badlands",
+  "dwarves",
+  "hammertoe",
+  "historian karnik",
+  "prospector ryedol",
+  "scrolls",
+  "shadowforge clan",
+  "uldaman"
+ ],
+ "related": [
+  "quest:723",
+  "zone:badlands",
+  "subzone:uldaman",
+  "npc:prospector-ryedol",
+  "quest:720",
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hammertoe's Amulet",
+  "Prospect of Faith",
+  "Prospect of Faith (2)"
+ ]
+}

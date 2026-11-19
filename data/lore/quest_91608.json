@@ -1,0 +1,77 @@
+{
+ "key": "quest:91608",
+ "type": "quest",
+ "name": "Gettin' Buzzed",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91608
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A frontier camp wants wild honey for a barrel of drink. Kurll asks you to bring it from the wasp nests to the west.",
+ "sections": [
+  {
+   "title": "Honey for the Camp",
+   "body": "Kurll is looking to lift the camp's spirits with a barrel of good drink. He has a recipe taken from a slain dwarf and needs honey to make the brew. The wasp nests to the west hold what he needs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kurll need?",
+   "aliases": [
+    "what does Kurll want",
+    "Kurll honey",
+    "what to get for Kurll"
+   ],
+   "answer": "Kurll needs wild honey for a brew made from a recipe he took from a dwarf."
+  },
+  {
+   "q": "Where is the honey?",
+   "aliases": [
+    "where honey",
+    "honey location",
+    "wasp nest honey"
+   ],
+   "answer": "The wild honey is in wasp nests to the west."
+  },
+  {
+   "q": "Why does Kurll want honey?",
+   "aliases": [
+    "why honey",
+    "what's the honey for",
+    "Kurll's brew"
+   ],
+   "answer": "Kurll wants honey for a brew that he hopes will lift the camp's spirits."
+  },
+  {
+   "q": "What is Kurll's recipe?",
+   "aliases": [
+    "Kurll recipe",
+    "dwarf brew",
+    "what drink recipe"
+   ],
+   "answer": "Kurll says he took a recipe for a delicious brew from a dwarf he killed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brew",
+  "frontier camp",
+  "gettin' buzzed",
+  "kurll",
+  "pellet gun",
+  "wasp nests",
+  "wild honey"
+ ],
+ "related": [
+  "topic:dwarf"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gettin' Buzzed"
+ ]
+}

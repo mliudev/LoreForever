@@ -1,0 +1,92 @@
+{
+ "key": "quest:5343",
+ "type": "quest",
+ "name": "Barov Family Fortune",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5343
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Weldon Barov asks you to recover the Barov family fortune from Scholomance. Four deeds make up the fortune, naming lands from Caer Darrow to Southshore.",
+ "sections": [
+  {
+   "title": "The Four Deeds",
+   "body": "The fortune is made up of four deeds: Caer Darrow, Brill, Tarren Mill, and Southshore. Weldon Barov asks you to recover them from Scholomance and return to him when you have gathered the fortune.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Barov family fortune?",
+   "aliases": [
+    "barov fortune",
+    "what's the fortune",
+    "barov deeds"
+   ],
+   "answer": "The Barov family fortune consists of deeds to Caer Darrow, Brill, Tarren Mill, and Southshore."
+  },
+  {
+   "q": "Who wants the fortune recovered?",
+   "aliases": [
+    "who sent me",
+    "who is Weldon",
+    "barov quest giver"
+   ],
+   "answer": "Weldon Barov asks you to recover the Barov family fortune."
+  },
+  {
+   "q": "Where is the fortune?",
+   "aliases": [
+    "where are the deeds",
+    "scholomance fortune",
+    "find barov deeds"
+   ],
+   "answer": "The deeds are to be recovered from Scholomance."
+  },
+  {
+   "q": "Which deeds make up the fortune?",
+   "aliases": [
+    "name the deeds",
+    "four barov deeds",
+    "what deeds"
+   ],
+   "answer": "The fortune includes deeds to Caer Darrow, Brill, Tarren Mill, and Southshore."
+  },
+  {
+   "q": "Where do I take the deeds?",
+   "aliases": [
+    "return to who",
+    "where to bring deeds",
+    "barov turn in"
+   ],
+   "answer": "Return the recovered fortune to Weldon Barov."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barov family fortune",
+  "brill",
+  "caer darrow",
+  "deed",
+  "scholomance",
+  "southshore",
+  "tarren mill",
+  "weldon barov"
+ ],
+ "related": [
+  "quest:5341",
+  "subzone:scholomance-classic",
+  "subzone:caer-darrow",
+  "subzone:brill",
+  "subzone:tarren-mill",
+  "subzone:southshore"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Barov Family Fortune"
+ ]
+}

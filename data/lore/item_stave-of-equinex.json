@@ -1,0 +1,97 @@
+{
+ "key": "item:stave-of-equinex",
+ "type": "item",
+ "name": "Stave of Equinex",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Stave of Equinex",
+  "quests": [
+   "quest:2879",
+   "quest:2942"
+  ]
+ },
+ "summary": "The Stave of Equinex is an energized staff tied to the Equinex Monolith in Feralas. It opens a way to an artifact hidden within the ruins.",
+ "sections": [
+  {
+   "title": "The Silent Monolith",
+   "body": "At the Ruins of Ravenwind in Feralas, Troyas' Stave can be made into the Stave of Equinex. Four flames still burn nearby: Samha, Imbel, Byltan, and Lahassa. Their essences rouse the stave beside the Equinex Monolith. The staff is a key, and the stone monument holds something within.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fading Power",
+   "body": "When the energized Stave of Equinex touches the monolith, a small door opens in its cold surface. Beams of light fill the ruins as the hidden artifact is taken. The stave's power then begins to fade, and Troyas Moonbreeze at Feathermoon Stronghold can study what was found.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Stave of Equinex do?",
+   "aliases": [
+    "stave purpose",
+    "what is equinex stave"
+   ],
+   "answer": "The Stave of Equinex is a key that opens the Equinex Monolith in the Ruins of Ravenwind."
+  },
+  {
+   "q": "How is Troyas' Stave changed?",
+   "aliases": [
+    "energize troyas stave",
+    "make equinex stave"
+   ],
+   "answer": "The essences of the four flames Samha, Imbel, Byltan, and Lahassa energize Troyas' Stave beside the Equinex Monolith."
+  },
+  {
+   "q": "Where is the Equinex Monolith?",
+   "aliases": [
+    "monolith location",
+    "where is equinex"
+   ],
+   "answer": "The Equinex Monolith stands among the Ruins of Ravenwind in Feralas, west of the Dream Bough."
+  },
+  {
+   "q": "What is inside the monolith?",
+   "aliases": [
+    "monolith artifact",
+    "what's in equinex"
+   ],
+   "answer": "A small door in the monolith opens to reveal an artifact. Troyas Moonbreeze identifies the stone taken from it as the Morrow Stone."
+  },
+  {
+   "q": "Why does the stave lose power?",
+   "aliases": [
+    "stave fading",
+    "why stave weak"
+   ],
+   "answer": "The Stave of Equinex begins to lose its energy as soon as the artifact is removed from the monolith."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "byltan",
+  "equinex monolith",
+  "feralas",
+  "imbel",
+  "lahassa",
+  "morrow stone",
+  "ruins of ravenwind",
+  "samha",
+  "stave of equinex",
+  "troyas' stave"
+ ],
+ "related": [
+  "quest:2879",
+  "quest:2942",
+  "item:a-sparkling-stone",
+  "item:troyas-stave",
+  "zone:feralas",
+  "subzone:ruins-of-ravenwind",
+  "subzone:dream-bough"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Stave of Equinex",
+  "The Stave of Equinex",
+  "The Morrow Stone"
+ ]
+}

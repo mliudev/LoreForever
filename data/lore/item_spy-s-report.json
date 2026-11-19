@@ -1,0 +1,91 @@
+{
+ "key": "item:spy-s-report",
+ "type": "item",
+ "name": "Spy's Report",
+ "era": "classic",
+ "zone": "dustwallow",
+ "meta": {
+  "wiki": "Spy's Report",
+  "quests": [
+   "quest:1220"
+  ]
+ },
+ "summary": "Marg Nighteye\u2019s Spy\u2019s Report is an orc spy\u2019s writing found near Swamplight Manor in Dustwallow Marsh. Captain Garran Vimes at Theramore is asked to read it because he knows Orcish.",
+ "sections": [
+  {
+   "title": "A Buried Report",
+   "body": "Near Witch Hill, loose dirt beside Swamplight Manor hides a report written by Marg Nighteye. The writing is tied to orc spies near Theramore, and Captain Garran Vimes is asked to examine it. He knows Orcish better than most in Theramore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wrote the Spy\u2019s Report?",
+   "aliases": [
+    "who wrote report",
+    "report author",
+    "marg nighteye report"
+   ],
+   "answer": "Marg Nighteye wrote the Spy\u2019s Report."
+  },
+  {
+   "q": "Where was the report found?",
+   "aliases": [
+    "where report found",
+    "spy report location",
+    "loose dirt report"
+   ],
+   "answer": "The Spy\u2019s Report was buried in loose dirt beside Swamplight Manor at Witch Hill in Dustwallow Marsh."
+  },
+  {
+   "q": "Who should read the report?",
+   "aliases": [
+    "who gets report",
+    "captain vimes report",
+    "report for vimes"
+   ],
+   "answer": "Captain Garran Vimes at Theramore Isle should read the report because he knows Orcish better than most."
+  },
+  {
+   "q": "What does the report concern?",
+   "aliases": [
+    "what's in report",
+    "orc spy report",
+    "horde spies theramore"
+   ],
+   "answer": "The report is an orc spy\u2019s writing and may tell Captain Garran Vimes about Horde spies near Theramore."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The report warns of Horde spies near Theramore, an Alliance settlement on Dustwallow Marsh\u2019s coast."
+  }
+ ],
+ "keywords": [
+  "captain vimes",
+  "dustwallow marsh",
+  "horde spies",
+  "marg nighteye",
+  "orc spy",
+  "spy's report",
+  "swamplight manor",
+  "theramore",
+  "witch hill"
+ ],
+ "related": [
+  "quest:1220",
+  "quest:1219",
+  "quest:1238",
+  "subzone:swamplight-manor",
+  "subzone:witch-hill",
+  "subzone:theramore-isle",
+  "zone:dustwallow",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Spy's Report",
+  "Captain Vimes"
+ ]
+}

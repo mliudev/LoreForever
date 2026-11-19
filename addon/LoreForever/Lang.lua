@@ -156,7 +156,7 @@ Lang.REWORDED = {
     = "While a narration plays and the panel is closed, show its words at the bottom of the screen, in step with the voice. Shift-drag them to move them; Reset windows puts them back.",
   -- A31 (itIT roRO ruRU svSE ukUA)
   ["Keeps the quest and book text you see, so you can share what we're missing at loreforeverwow.com/contribute. It stays on your PC until then."]
-    = "Keep the quest, gossip and book text Forever shows you, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it.",
+    = "Keep the quest, gossip and book text Forever shows you, and what drops in dungeons, so you can share what Lore Forever doesn't have yet at loreforeverwow.com/contribute. It stays on your PC unless you share it.",
   -- A35 (itIT roRO svSE)
   ["When you turn in a storyline quest, chat says who to see next."]
     = "When you turn in a quest that's part of a storyline, say in chat who to see next, with links to its recap and to what's new in the story.",

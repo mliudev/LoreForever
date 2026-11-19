@@ -1,0 +1,82 @@
+{
+ "key": "item:untapped-dowsing-widget",
+ "type": "item",
+ "name": "Untapped Dowsing Widget",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Untapped Dowsing Widget",
+  "quests": [
+   "quest:992"
+  ]
+ },
+ "summary": "The Untapped Dowsing Widget is a survey tool issued by the Gadgetzan Water Company. It is meant to test a desert pool near Sandsorrow Watch.",
+ "sections": [
+  {
+   "title": "A Water Sample",
+   "body": "Senior Surveyor Fizzledowser gives you the Untapped Dowsing Widget in Gadgetzan. Take it to the pool near Sandsorrow Watch and use it to test the water. Bring the tapped widget back to Fizzledowser.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Desert Stirs",
+   "body": "When you use the Untapped Dowsing Widget, Centipaar Tunnelers emerge nearby. Fizzledowser says these creatures have been seen sucking water from the desert, a troubling sign for the Gadgetzan Water Company.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Untapped Dowsing Widget do?",
+   "aliases": [
+    "what's the widget for",
+    "dowsing tool purpose"
+   ],
+   "answer": "The Untapped Dowsing Widget tests the pool near Sandsorrow Watch for water. Using it also draws out Centipaar Tunnelers."
+  },
+  {
+   "q": "Where should I use the widget?",
+   "aliases": [
+    "where is the water pool",
+    "widget location"
+   ],
+   "answer": "Use the Untapped Dowsing Widget at the pool near Sandsorrow Watch, west of Gadgetzan and south of Zul'Farrak."
+  },
+  {
+   "q": "Who gave me the widget?",
+   "aliases": [
+    "who wants the water sample",
+    "Fizzledowser widget"
+   ],
+   "answer": "Senior Surveyor Fizzledowser gives you the Untapped Dowsing Widget for the Gadgetzan Water Company survey."
+  },
+  {
+   "q": "Why do Centipaar Tunnelers appear?",
+   "aliases": [
+    "why bugs attack",
+    "centipaar from widget"
+   ],
+   "answer": "The Centipaar Tunnelers emerge when you use the widget. Fizzledowser says creatures like them have been sucking water from the desert."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centipaar tunneler",
+  "dowsing widget",
+  "fizzledowser",
+  "gadgetzan water company",
+  "sandsorrow watch",
+  "untapped dowsing widget",
+  "water survey"
+ ],
+ "related": [
+  "quest:992",
+  "item:tapped-dowsing-widget",
+  "npc:senior-surveyor-fizzledowser",
+  "subzone:sandsorrow-watch",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Untapped Dowsing Widget",
+  "Gadgetzan Water Survey"
+ ]
+}

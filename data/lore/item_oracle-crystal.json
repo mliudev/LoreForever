@@ -1,0 +1,80 @@
+{
+ "key": "item:oracle-crystal",
+ "type": "item",
+ "name": "Oracle Crystal",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Oracle Crystal",
+  "quests": [
+   "quest:1482"
+  ]
+ },
+ "summary": "The Oracle Crystal is a crafted naga object used by their oracles along Desolace\u2019s coast. Maurin Bonesplitter seeks one as he turns his attention to a demon lord.",
+ "sections": [
+  {
+   "title": "Naga Craft",
+   "body": "Maurin Bonesplitter wants an Oracle Crystal from the Slitherblade naga along Desolace\u2019s northwest coast. The naga craft these crystals for their oracles, who dwell among the vast coral reef offshore. Maurin prizes the crystal and means to use it as he searches for the demon lord Azrethoc.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is an Oracle Crystal?",
+   "aliases": [
+    "oracle crystal",
+    "what's the crystal",
+    "naga crystal"
+   ],
+   "answer": "An Oracle Crystal is a crafted object the naga make for their oracles to use."
+  },
+  {
+   "q": "Who wants the Oracle Crystal?",
+   "aliases": [
+    "who needs the crystal",
+    "Maurin crystal",
+    "bonesplitter wants"
+   ],
+   "answer": "Maurin Bonesplitter asks for an Oracle Crystal as he pursues the demon lord Azrethoc."
+  },
+  {
+   "q": "Where can I find an Oracle Crystal?",
+   "aliases": [
+    "where crystal",
+    "oracle crystal location",
+    "find the naga crystal"
+   ],
+   "answer": "Slitherblade oracles dwell along the northwest coast of Desolace, out in the sea."
+  },
+  {
+   "q": "Who uses Oracle Crystals?",
+   "aliases": [
+    "who uses it",
+    "naga oracles",
+    "crystal purpose"
+   ],
+   "answer": "The naga craft Oracle Crystals for their oracles to use."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azrethoc",
+  "desolace",
+  "maurin bonesplitter",
+  "naga",
+  "oracle",
+  "oracle crystal",
+  "slitherblade"
+ ],
+ "related": [
+  "zone:desolace",
+  "npc:maurin-bonesplitter",
+  "topic:naga",
+  "quest:1480"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Oracle Crystal",
+  "The Corrupter (3)"
+ ]
+}

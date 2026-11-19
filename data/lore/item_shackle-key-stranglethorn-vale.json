@@ -1,0 +1,74 @@
+{
+ "key": "item:shackle-key-stranglethorn-vale",
+ "type": "item",
+ "name": "Shackle Key",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Shackle Key (Stranglethorn Vale)",
+  "quests": [
+   "quest:630"
+  ]
+ },
+ "summary": "The Shackle Key is held by King Mukla on Jaguero Isle. Princess Poobah needs it to escape her captivity.",
+ "sections": [
+  {
+   "title": "A Captive Princess",
+   "body": "Princess Poobah is chained on Jaguero Isle, where King Mukla keeps her against her will. The key to her shackle is tied to her freedom, and she asks for aid from anyone willing to face the great Skymane king.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Shackle Key open?",
+   "aliases": [
+    "what's the key for",
+    "key opens what"
+   ],
+   "answer": "The Shackle Key opens the shackle holding Princess Poobah captive on Jaguero Isle."
+  },
+  {
+   "q": "Who has the Shackle Key?",
+   "aliases": [
+    "who has the key",
+    "mukla key"
+   ],
+   "answer": "King Mukla has the Shackle Key on Jaguero Isle."
+  },
+  {
+   "q": "Where is Princess Poobah held?",
+   "aliases": [
+    "where's poobah",
+    "poobah captive"
+   ],
+   "answer": "Princess Poobah is held on Jaguero Isle in Stranglethorn Vale."
+  },
+  {
+   "q": "Why does Princess Poobah need the key?",
+   "aliases": [
+    "why key needed",
+    "free poobah"
+   ],
+   "answer": "Princess Poobah needs the Shackle Key to free herself from the chain holding her captive."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captivity",
+  "jaguero isle",
+  "king mukla",
+  "princess poobah",
+  "shackle",
+  "shackle key",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "quest:594",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Shackle Key (Stranglethorn Vale)",
+  "Message in a Bottle (2)"
+ ]
+}

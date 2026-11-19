@@ -1,0 +1,80 @@
+{
+ "key": "item:akiris-reed",
+ "type": "item",
+ "name": "Akiris Reed",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Akiris Reed",
+  "quests": [
+   "quest:617"
+  ]
+ },
+ "summary": "Along the beaches of the Cape of Stranglethorn, naga gather Akiris Reed, a valuable ocean plant. Privateer Bloads in Booty Bay offers good pay for bundles of it.",
+ "sections": [
+  {
+   "title": "Reed from the Shore",
+   "body": "Privateer Bloads in Booty Bay pays for bundles of Akiris Reed gathered along the northern beach. The naga call the ocean reed akiris, and Bloads says his friend Groy makes a good living selling it. What Groy uses the reed for, Bloads does not know; for him, ten stalks are enough to begin a profitable trade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Akiris Reed?",
+   "aliases": [
+    "akir is reed",
+    "akiris plant",
+    "ocean reed"
+   ],
+   "answer": "Akiris Reed is a valuable ocean reed gathered by naga along the Cape of Stranglethorn's beaches."
+  },
+  {
+   "q": "Who wants Akiris Reed?",
+   "aliases": [
+    "who buys akiris",
+    "akir reed buyer",
+    "bloads reed"
+   ],
+   "answer": "Privateer Bloads in Booty Bay pays for bundles of Akiris Reed on behalf of his friend Groy."
+  },
+  {
+   "q": "What does Groy use the reed for?",
+   "aliases": [
+    "what is akiris for",
+    "groy akiris use",
+    "reed uses"
+   ],
+   "answer": "Privateer Bloads says he does not know what Groy uses Akiris Reed for; he only knows Groy sells it at a profit."
+  },
+  {
+   "q": "Where can I find Akiris Reed?",
+   "aliases": [
+    "akiris location",
+    "where reed",
+    "naga beach"
+   ],
+   "answer": "Naga gather Akiris Reed along the beaches north of Booty Bay in the Cape of Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "akiris",
+  "akiris reed",
+  "booty bay",
+  "cape of stranglethorn",
+  "groy",
+  "naga",
+  "privateer bloads"
+ ],
+ "related": [
+  "quest:617",
+  "subzone:booty-bay",
+  "subzone:cape-of-stranglethorn",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Akiris Reed",
+  "Akiris by the Bundle (Classic)"
+ ]
+}

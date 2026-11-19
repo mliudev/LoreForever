@@ -1,0 +1,87 @@
+{
+ "key": "item:aged-kodo-hide",
+ "type": "item",
+ "name": "Aged Kodo Hide",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Aged Kodo Hide",
+  "quests": [
+   "quest:1459"
+  ]
+ },
+ "summary": "Aged Kodo Hide comes from aged kodos in Desolace. Kreldig Ungor needs three hides for Reclaimers Inc., alongside Scorpashi venom.",
+ "sections": [
+  {
+   "title": "A Kodo Reagent",
+   "body": "Kreldig Ungor needs three Aged Kodo Hides in Desolace, as well as seven vials of Scorpashi venom. The hide must come from an aged kodo; dying and ancient kodos do not provide the reagent.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do Aged Kodo Hides come from?",
+   "aliases": [
+    "aged kodo hide source",
+    "where hide",
+    "kodo hide"
+   ],
+   "answer": "Aged Kodo Hides come from aged kodos in Desolace."
+  },
+  {
+   "q": "Who needs Aged Kodo Hide?",
+   "aliases": [
+    "who wants the hide",
+    "kreldig's reagents",
+    "reclaimers inc hide"
+   ],
+   "answer": "Kreldig Ungor needs three Aged Kodo Hides for Reagents for Reclaimers Inc."
+  },
+  {
+   "q": "Will any kodo provide the hide?",
+   "aliases": [
+    "which kodo",
+    "dying kodo hide",
+    "ancient kodo hide"
+   ],
+   "answer": "No. The hide must come from an aged kodo, not a dying or ancient kodo."
+  },
+  {
+   "q": "What else does Kreldig need?",
+   "aliases": [
+    "other reagents",
+    "scorpashi venom",
+    "what else for kreldig"
+   ],
+   "answer": "Kreldig also needs seven vials of Scorpashi Venom."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you may recognize Aged Kodo Hide as one of the reagents on Leftwitch's list for Reclaimers Inc."
+  }
+ ],
+ "keywords": [
+  "aged kodo",
+  "aged kodo hide",
+  "desolace",
+  "kodo graveyard",
+  "kreldig ungor",
+  "leftwitch",
+  "reclaimers inc",
+  "scorpashi venom"
+ ],
+ "related": [
+  "quest:1458",
+  "item:scorpashi-venom",
+  "npc:kreldig-ungor",
+  "zone:desolace",
+  "subzone:kodo-graveyard"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Aged Kodo Hide",
+  "Reagents for Reclaimers Inc. (2)"
+ ]
+}

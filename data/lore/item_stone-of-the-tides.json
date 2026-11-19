@@ -1,0 +1,96 @@
+{
+ "key": "item:stone-of-the-tides",
+ "type": "item",
+ "name": "Stone of the Tides",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Stone of the Tides",
+  "quests": [
+   "quest:611"
+  ]
+ },
+ "summary": "The Stone of the Tides is a powerful artifact of the Gurubashi Empire, coveted by Baron Revilgaz for his collection. Its command over water carries a grave cost.",
+ "sections": [
+  {
+   "title": "A Sunken Relic",
+   "body": "Baron Revilgaz seeks the Stone of the Tides for his collection of ancient troll artifacts. The relic once belonged to the mighty Gurubashi Empire and can command water and summon water elementals. Yet its power bears a curse: its user slowly fades from existence.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Stone of the Tides?",
+   "aliases": [
+    "stone of tides",
+    "what's the tide stone"
+   ],
+   "answer": "The Stone of the Tides is a powerful magical artifact once used by the Gurubashi Empire. It commands water and summons water elementals."
+  },
+  {
+   "q": "What does the Stone of the Tides do?",
+   "aliases": [
+    "stone powers",
+    "what can the tide stone do"
+   ],
+   "answer": "The Stone of the Tides lets its user control water and summon water elementals."
+  },
+  {
+   "q": "What is the curse of the Stone of the Tides?",
+   "aliases": [
+    "tide stone curse",
+    "why does it fade you"
+   ],
+   "answer": "The Stone of the Tides slowly makes its user fade from existence."
+  },
+  {
+   "q": "Why does Baron Revilgaz want the Stone?",
+   "aliases": [
+    "revilgaz wants stone",
+    "why does baron want it"
+   ],
+   "answer": "Baron Revilgaz wants the Stone of the Tides for his collection of ancient troll artifacts."
+  },
+  {
+   "q": "Where did the Stone come from?",
+   "aliases": [
+    "stone origin",
+    "gurubashi tide stone"
+   ],
+   "answer": "The Stone of the Tides was once used by the Gurubashi Empire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler in Stranglethorn Vale, you may help Baron Revilgaz recover the Stone for his collection of ancient troll artifacts."
+  },
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you can recognize the Stone of the Tides as an artifact once used by the Gurubashi Empire."
+  }
+ ],
+ "keywords": [
+  "baron revilgaz",
+  "curse",
+  "gurubashi",
+  "stone of the tides",
+  "troll artifact",
+  "water",
+  "water elementals"
+ ],
+ "related": [
+  "quest:611",
+  "quest:578",
+  "npc:baron-revilgaz",
+  "item:catelyn-s-blade",
+  "zone:stranglethorn",
+  "topic:troll",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "Stone of the Tides",
+  "The Curse of the Tides"
+ ]
+}

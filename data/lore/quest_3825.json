@@ -1,0 +1,67 @@
+{
+ "key": "quest:3825",
+ "type": "quest",
+ "name": "Ogre Head On A Stick = Party",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3825
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Dreadmaul Rock, you are asked to set Gor'tesh's severed head atop a pike. A soft mound of earth marks where it can be planted.",
+ "sections": [
+  {
+   "title": "At Dreadmaul Rock",
+   "body": "Gor'tesh's severed head is meant to be set at the summit of Dreadmaul Rock. You are asked to place it there on a pike, planted in soft earth.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I supposed to place at Dreadmaul Rock?",
+   "aliases": [
+    "gor'tesh head",
+    "head on a stick",
+    "ogre head quest"
+   ],
+   "answer": "You are asked to place Gor'tesh's severed head atop a pike at Dreadmaul Rock."
+  },
+  {
+   "q": "Where do I plant the pike?",
+   "aliases": [
+    "soft dirt mound",
+    "where to put pike",
+    "plant the head"
+   ],
+   "answer": "Look for a soft mound of dirt at Dreadmaul Rock and plant the pike there."
+  },
+  {
+   "q": "Whose head is it?",
+   "aliases": [
+    "gor'tesh head",
+    "ogre head",
+    "who is gor'tesh"
+   ],
+   "answer": "The head is Gor'tesh's."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dreadmaul rock",
+  "gor'tesh",
+  "head",
+  "ogre head",
+  "pike",
+  "soft dirt"
+ ],
+ "related": [
+  "subzone:dreadmaul-rock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ogre Head On A Stick = Party"
+ ]
+}

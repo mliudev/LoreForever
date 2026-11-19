@@ -1,0 +1,82 @@
+{
+ "key": "item:bloodsail-charts",
+ "type": "item",
+ "name": "Bloodsail Charts",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Bloodsail Charts",
+  "quests": [
+   "quest:604"
+  ]
+ },
+ "summary": "Bloodsail Charts are taken from the Buccaneer camp on the Wild Shore. Fleet Master Seahorn wants them brought to Booty Bay with the Bloodsail Orders so he can learn what the pirates are planning.",
+ "sections": [
+  {
+   "title": "Charts from the Shore",
+   "body": "Fleet Master Seahorn sends you to the Bloodsail Buccaneers\u2019 camp on the Wild Shore. He wants their charts and written orders carried back to Booty Bay. With both in hand, he says the fleet can learn the Bloodsails\u2019 plan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where are the Bloodsail Charts?",
+   "aliases": [
+    "bloodsail charts location",
+    "where charts",
+    "charts wild shore"
+   ],
+   "answer": "The Bloodsail Charts are in the Bloodsail Buccaneer camp on the Wild Shore in the Cape of Stranglethorn."
+  },
+  {
+   "q": "Who wants the charts?",
+   "aliases": [
+    "who needs charts",
+    "seahorn charts",
+    "fleet master charts"
+   ],
+   "answer": "Fleet Master Seahorn in Booty Bay wants the Bloodsail Charts and Bloodsail Orders."
+  },
+  {
+   "q": "Why does Seahorn need them?",
+   "aliases": [
+    "why charts",
+    "what are charts for",
+    "bloodsail plan"
+   ],
+   "answer": "Seahorn wants the charts and written orders to learn what the Bloodsail Buccaneers are planning."
+  },
+  {
+   "q": "What should I bring back with the charts?",
+   "aliases": [
+    "charts and what",
+    "bloodsail orders too",
+    "bring back orders"
+   ],
+   "answer": "Bring the Bloodsail Orders with the Bloodsail Charts to Fleet Master Seahorn in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodsail buccaneers",
+  "bloodsail charts",
+  "bloodsail orders",
+  "booty bay",
+  "cape of stranglethorn",
+  "fleet master seahorn",
+  "wild shore"
+ ],
+ "related": [
+  "quest:595",
+  "item:bloodsail-orders-classic",
+  "npc:fleet-master-seahorn",
+  "subzone:wild-shore",
+  "subzone:booty-bay",
+  "subzone:cape-of-stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Bloodsail Charts",
+  "The Bloodsail Buccaneers (4)"
+ ]
+}

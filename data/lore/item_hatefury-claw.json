@@ -1,0 +1,87 @@
+{
+ "key": "item:hatefury-claw",
+ "type": "item",
+ "name": "Hatefury Claw",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Hatefury Claw",
+  "quests": [
+   "quest:1458"
+  ]
+ },
+ "summary": "A Hatefury Claw is taken from the satyrs east of Nijel\u2019s Point in Desolace. Kreldig Ungor gathers claws and horns for a gnome mage in Kharanos.",
+ "sections": [
+  {
+   "title": "A Reclaimer\u2019s List",
+   "body": "Kreldig Ungor has come to Desolace with a list of reagents from Leftwitch, a gnome mage in Kharanos. The Hatefury satyrs among Sargeron\u2019s ruins, east of Nijel\u2019s Point, carry the claws and horns he needs. Bring the gathered materials to Kreldig, and he will set about the next item on the list.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Hatefury Claws?",
+   "aliases": [
+    "who needs the claws",
+    "claw buyer"
+   ],
+   "answer": "Kreldig Ungor gathers Hatefury Claws and horns for Leftwitch, a gnome mage in Kharanos."
+  },
+  {
+   "q": "Where do Hatefury Claws come from?",
+   "aliases": [
+    "where claws from",
+    "claw location"
+   ],
+   "answer": "Hatefury satyrs in the Sargeron ruins, east of Nijel\u2019s Point in Desolace, carry the claws."
+  },
+  {
+   "q": "Why is Kreldig collecting claws?",
+   "aliases": [
+    "why claws",
+    "reagents for reclaimers"
+   ],
+   "answer": "Kreldig is gathering reagents from a list sent by Leftwitch, a gnome mage in Kharanos."
+  },
+  {
+   "q": "What else does Kreldig need?",
+   "aliases": [
+    "what other reagents",
+    "horns too"
+   ],
+   "answer": "Kreldig needs Hatefury Horns as well as Hatefury Claws for Leftwitch\u2019s list."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, Leftwitch\u2019s request reaches you through Kreldig Ungor, who gathers reagents in Desolace for the mage in Kharanos."
+  },
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you may recognize the practical need behind Leftwitch\u2019s list: Kreldig is gathering claws and horns as reagents."
+  }
+ ],
+ "keywords": [
+  "hatefury claw",
+  "hatefury horn",
+  "hatefury satyr",
+  "kreldig ungor",
+  "leftwitch",
+  "nijel's point",
+  "reagents",
+  "sargeron"
+ ],
+ "related": [
+  "quest:1458",
+  "item:hatefury-horn",
+  "subzone:sargeron",
+  "subzone:nijel-s-point",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Hatefury Claw",
+  "Reagents for Reclaimers Inc. (quest)"
+ ]
+}

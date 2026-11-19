@@ -1,0 +1,76 @@
+{
+ "key": "item:dirty-knucklebones",
+ "type": "item",
+ "name": "Dirty Knucklebones",
+ "era": "classic",
+ "zone": "alterac",
+ "meta": {
+  "wiki": "Dirty Knucklebones",
+  "quests": [
+   "quest:500"
+  ]
+ },
+ "summary": "Dirty Knucklebones are carried by Crushridge ogres in the Alterac Mountains. Marshal Redpath in Southshore pays a bounty for them to keep the ogres from threatening the foothills.",
+ "sections": [
+  {
+   "title": "A Marshal\u2019s Bounty",
+   "body": "Marshal Redpath asks for Dirty Knucklebones from the Crushridge ogres near the ruined city of Alterac. He fears the ogres may press down into the foothills if they feel secure in the ruins. The bones he gathers are meant to keep them away from Southshore, at least for a while.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who carries Dirty Knucklebones?",
+   "aliases": [
+    "who has knucklebones",
+    "which ogres carry them"
+   ],
+   "answer": "Crushridge ogres in the Alterac Mountains carry Dirty Knucklebones."
+  },
+  {
+   "q": "Why does Marshal Redpath want them?",
+   "aliases": [
+    "why knucklebones",
+    "what are they for"
+   ],
+   "answer": "Marshal Redpath pays a bounty for the bones to discourage the Crushridge ogres from moving down into the foothills."
+  },
+  {
+   "q": "Where do I bring Dirty Knucklebones?",
+   "aliases": [
+    "where to take bones",
+    "redpath knucklebones"
+   ],
+   "answer": "Bring Dirty Knucklebones to Marshal Redpath in Southshore."
+  },
+  {
+   "q": "Where are the Crushridge ogres?",
+   "aliases": [
+    "crushridge location",
+    "ogres in alterac"
+   ],
+   "answer": "The Crushridge ogres have an ogre mound in the Alterac Mountains near the ruined city of Alterac."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "bounty",
+  "crushridge",
+  "dirty knucklebones",
+  "marshal redpath",
+  "ogres",
+  "southshore"
+ ],
+ "related": [
+  "quest:500",
+  "zone:alterac",
+  "subzone:southshore",
+  "quest:504"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Dirty Knucklebones",
+  "Crushridge Bounty"
+ ]
+}

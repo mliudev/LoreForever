@@ -1,0 +1,112 @@
+{
+ "key": "item:sign-of-the-earth",
+ "type": "item",
+ "name": "Sign of the Earth",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Sign of the Earth",
+  "quests": [
+   "quest:732",
+   "quest:782",
+   "quest:717",
+   "quest:793"
+  ]
+ },
+ "summary": "The Sign of the Earth is a Dark Iron-made seal sought in the Badlands. It holds the key to a prison in Lethlor Ravine.",
+ "sections": [
+  {
+   "title": "A Stolen Seal",
+   "body": "Garek, sent to the Badlands by Krasus of the Kirin Tor, asks you to recover the Sign of the Earth. Wandering ogres took it and pass near Camp Boff. The mark was made by Dark Iron dwarves at Angor Fortress, and it binds two prisoners in Lethlor Ravine.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Prison's Key",
+   "body": "In Kargath, Gorn tells you that the Horde once allied with Deathwing during the Second War. Tho'grun and his ogres were hired to obtain the Sign, but Tho'grun betrayed the Horde and kept it. With the seal returned, Gorn means to open the drakes' prison and free them to their doom.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Sign of the Earth?",
+   "aliases": [
+    "sign of earth",
+    "earth sign",
+    "what's the sign"
+   ],
+   "answer": "The Sign of the Earth is a seal made by the Dark Iron dwarves at Angor Fortress. It binds Blacklash and Hematus in Lethlor Ravine."
+  },
+  {
+   "q": "Who wants the Sign of the Earth?",
+   "aliases": [
+    "who needs the sign",
+    "garek sign",
+    "gorn sign"
+   ],
+   "answer": "Garek, sent by Krasus of the Kirin Tor, asks you to retrieve the Sign. Gorn in Kargath also seeks it for the Horde."
+  },
+  {
+   "q": "Who stole the Sign?",
+   "aliases": [
+    "who has the sign",
+    "tho grun sign",
+    "ogres stole it"
+   ],
+   "answer": "A band of wandering ogres took the Sign of the Earth. Their leader, Tho'grun, kept it after betraying the Horde."
+  },
+  {
+   "q": "What does the Sign unlock?",
+   "aliases": [
+    "sign prison key",
+    "unlock what",
+    "black drakes prison"
+   ],
+   "answer": "The Sign of the Earth is the key to the prison holding the black drakes Blacklash and Hematus in Lethlor Ravine."
+  },
+  {
+   "q": "Where can I find the Sign?",
+   "aliases": [
+    "sign location",
+    "where sign earth",
+    "camp boff sign"
+   ],
+   "answer": "The wandering ogres sometimes travel through Camp Boff in the Badlands, where Tho'grun may be found."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, the Sign recalls the old alliance with Deathwing during the Second War. Gorn seeks it to free Blacklash and Hematus, though he means their doom."
+  },
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you may recognize Krasus as a master of the Kirin Tor. He sent Garek to the Badlands to stop trouble brewing in Lethlor Ravine."
+  }
+ ],
+ "keywords": [
+  "angor fortress",
+  "badlands",
+  "blacklash",
+  "deathwing",
+  "garek",
+  "gorn",
+  "hematus",
+  "lethlor ravine",
+  "sign of the earth",
+  "tho'grun"
+ ],
+ "related": [
+  "quest:717",
+  "quest:782",
+  "zone:badlands",
+  "subzone:kargath",
+  "npc:deathwing",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Sign of the Earth",
+  "Tremors of the Earth",
+  "Broken Alliances (1)"
+ ]
+}

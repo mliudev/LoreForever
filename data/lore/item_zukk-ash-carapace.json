@@ -1,0 +1,82 @@
+{
+ "key": "item:zukk-ash-carapace",
+ "type": "item",
+ "name": "Zukk'ash Carapace",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Zukk'ash Carapace",
+  "quests": [
+   "quest:7730"
+  ]
+ },
+ "summary": "A Zukk'ash Carapace is evidence taken from the insect-like Zukk'ash in Feralas. Hadoken Swiftstrider at Camp Mojache wants them while the Horde investigates the threat near the Writhing Deep.",
+ "sections": [
+  {
+   "title": "Carapace Evidence",
+   "body": "South of the gnolls in Feralas, the Zukk'ash dwell in the Writhing Deep. Hadoken Swiftstrider at Camp Mojache seeks their carapaces as evidence while the Horde scouts the insects and their effect on the gnolls. Their presence is troubling enough to demand study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a Zukk'ash Carapace?",
+   "aliases": [
+    "zukkash shell",
+    "what is this carapace"
+   ],
+   "answer": "A Zukk'ash Carapace is the hard covering of one of the insect-like Zukk'ash in Feralas."
+  },
+  {
+   "q": "Where do Zukk'ash Carapaces come from?",
+   "aliases": [
+    "where find carapaces",
+    "zukkash shell location"
+   ],
+   "answer": "The Zukk'ash in Feralas yield carapaces. They dwell in the Writhing Deep, south of the gnolls."
+  },
+  {
+   "q": "Who wants the carapaces?",
+   "aliases": [
+    "who needs zukkash shells",
+    "Hadoken carapaces"
+   ],
+   "answer": "Hadoken Swiftstrider at Camp Mojache wants Zukk'ash Carapaces as evidence of the hunt."
+  },
+  {
+   "q": "Why are the carapaces being collected?",
+   "aliases": [
+    "why collect shells",
+    "what are carapaces for"
+   ],
+   "answer": "Hadoken Swiftstrider wants the carapaces as evidence and intends to have them analyzed. The Horde hopes to learn more about the Zukk'ash threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you can help Camp Mojache investigate the Zukk'ash threat by bringing Hadoken Swiftstrider their carapaces as evidence."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "carapace",
+  "feralas",
+  "hadoken swiftstrider",
+  "writhing deep",
+  "zukk'ash",
+  "zukk'ash carapace",
+  "zukk'ash infestation"
+ ],
+ "related": [
+  "quest:7730",
+  "zone:feralas",
+  "subzone:writhing-deep",
+  "subzone:camp-mojache"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Zukk'ash Carapace",
+  "Zukk'ash Infestation (Classic)"
+ ]
+}

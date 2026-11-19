@@ -1,0 +1,80 @@
+{
+ "key": "item:pupellyverbos-port",
+ "type": "item",
+ "name": "Pupellyverbos Port",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Pupellyverbos Port",
+  "quests": [
+   "quest:580"
+  ]
+ },
+ "summary": "A crate of Pupellyverbos Port went overboard near the Hinterlands during a storm. Whiskey Slim in Booty Bay needs the bottles back before the captain discovers they are missing.",
+ "sections": [
+  {
+   "title": "Lost at Sea",
+   "body": "Off the Overlook Cliffs, a storm struck the ship carrying Pupellyverbos Port toward Stormwind. The captain had taken the crate from a privateer, and Whiskey Slim broke into it for courage as the waves rose. A great wave swept the bottles overboard. Now the grog lies scattered along the shore, and Slim fears the captain's anger.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Pupellyverbos Port?",
+   "aliases": [
+    "pupellyverbos",
+    "what port is this",
+    "pupellyverbos booze"
+   ],
+   "answer": "Pupellyverbos Port is a grog carried in a crate aboard a ship bound for Stormwind."
+  },
+  {
+   "q": "How did the bottles get lost?",
+   "aliases": [
+    "where'd the bottles go",
+    "how lost port",
+    "what happened to the grog"
+   ],
+   "answer": "A storm near the Overlook Cliffs sent a great wave over the ship and swept the bottles into the sea."
+  },
+  {
+   "q": "Who is looking for the port?",
+   "aliases": [
+    "who wants the booze",
+    "whiskey slim bottles",
+    "slim's grog"
+   ],
+   "answer": "Whiskey Slim in Booty Bay wants the lost bottles returned before the captain learns they are missing."
+  },
+  {
+   "q": "Where did the crate come from?",
+   "aliases": [
+    "who had the crate",
+    "port origin",
+    "privateer booze"
+   ],
+   "answer": "The captain's crew commandeered the crate from a privateer traveling toward Stormwind."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "hinterlands",
+  "lost grog",
+  "overlook cliffs",
+  "privateer",
+  "pupellyverbos port",
+  "storm",
+  "whiskey slim"
+ ],
+ "related": [
+  "quest:580",
+  "subzone:booty-bay",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Pupellyverbos Port",
+  "Whiskey Slim's Lost Grog"
+ ]
+}

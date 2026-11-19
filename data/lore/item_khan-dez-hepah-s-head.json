@@ -1,0 +1,77 @@
+{
+ "key": "item:khan-dez-hepah-s-head",
+ "type": "item",
+ "name": "Khan Dez'hepah's Head",
+ "era": "classic",
+ "zone": "desolace",
+ "meta": {
+  "wiki": "Khan Dez'hepah's Head",
+  "quests": [
+   "quest:1365"
+  ]
+ },
+ "summary": "Khan Dez'hepah's Head is proof that the Kolkar leader has been defeated. Felgur Twocuts wants it as a show of strength against the centaur clans.",
+ "sections": [
+  {
+   "title": "Proof of Strength",
+   "body": "Across Desolace, the centaur clans fight among themselves. Felgur Twocuts fears they would be a fierce foe if they united, so he sends you to disrupt the Kolkar by defeating their leader, Khan Dez'hepah. His head is the proof Felgur asks you to bring back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants Khan Dez'hepah's Head?",
+   "aliases": [
+    "who wants it",
+    "felgur's head request"
+   ],
+   "answer": "Felgur Twocuts asks you to bring Khan Dez'hepah's Head to him in Desolace."
+  },
+  {
+   "q": "Why does Felgur want the head?",
+   "aliases": [
+    "why take the head",
+    "what's it for"
+   ],
+   "answer": "Felgur wants to disrupt the Kolkar clan and show strength to the centaur clans of Desolace."
+  },
+  {
+   "q": "Who was Khan Dez'hepah?",
+   "aliases": [
+    "dez'hepah who",
+    "kolkar leader"
+   ],
+   "answer": "Khan Dez'hepah was the leader of the Kolkar clan in Desolace."
+  },
+  {
+   "q": "Where can I find Khan Dez'hepah?",
+   "aliases": [
+    "where is dez'hepah",
+    "kolkar village location"
+   ],
+   "answer": "Khan Dez'hepah is at Kolkar Village, northeast of Felgur Twocuts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "dez'hepah's head",
+  "felgur twocuts",
+  "khan dez'hepah",
+  "kolkar",
+  "kolkar village"
+ ],
+ "related": [
+  "quest:1365",
+  "npc:felgur-twocuts",
+  "topic:kolkar-clan",
+  "topic:centaur",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Khan Dez'hepah's Head",
+  "Khan Dez'hepah (quest)"
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "key": "item:camp-mojache-zukk-ash-report",
+ "type": "item",
+ "name": "Camp Mojache Zukk'ash Report",
+ "era": "classic",
+ "zone": "feralas",
+ "meta": {
+  "wiki": "Camp Mojache Zukk'ash Report",
+  "quests": [
+   "quest:7732"
+  ]
+ },
+ "summary": "The Camp Mojache Zukk'ash Report carries gathered knowledge about the insect threat in Feralas. It brings that warning to an expert in Orgrimmar.",
+ "sections": [
+  {
+   "title": "A Warning Carried",
+   "body": "Hadoken entrusts the report to you after the Zukk'ash threat at Camp Mojache has been addressed. The document gathers what is known about the insects, whose danger remains. You are to take it to Zilzibin Drumlore in Orgrimmar's Drag, where his knowledge of strange creatures may help the Horde understand the threat.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Old Threat",
+   "body": "Zilzibin Drumlore recognizes the creatures described in the Camp Mojache report as silithid. He calls them an ancient danger the Horde has chosen to ignore, far worse in his view than anything the Alliance could muster. He asks for aid in bringing the threat to light.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Camp Mojache Zukk'ash Report?",
+   "aliases": [
+    "zukkash report",
+    "camp mojache report",
+    "insect report"
+   ],
+   "answer": "It is a document of what has been learned about the Zukk'ash insects threatening Camp Mojache."
+  },
+  {
+   "q": "Who should receive the report?",
+   "aliases": [
+    "who gets the report",
+    "zilzibin report",
+    "where take report"
+   ],
+   "answer": "Zilzibin Drumlore in the Drag of Orgrimmar is waiting for the report."
+  },
+  {
+   "q": "Why does the Horde want this report delivered?",
+   "aliases": [
+    "why deliver report",
+    "what is it for",
+    "horde insect report"
+   ],
+   "answer": "Zilzibin Drumlore is an expert on strange creatures, and the Horde hopes he can make use of what has been learned about the Zukk'ash."
+  },
+  {
+   "q": "What are the Zukk'ash?",
+   "aliases": [
+    "zukkash insects",
+    "what are zukkash",
+    "silithid"
+   ],
+   "answer": "Zilzibin identifies the Zukk'ash as silithid, an ancient threat."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, this report carries a warning from Camp Mojache to an expert in Orgrimmar, who calls the silithid an ancient danger."
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "drag",
+  "feralas",
+  "horde",
+  "report",
+  "silithid",
+  "zilzibin drumlore",
+  "zukk'ash",
+  "zukkash"
+ ],
+ "related": [
+  "quest:7732",
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "subzone:drag",
+  "zone:orgrimmar",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Camp Mojache Zukk'ash Report",
+  "Zukk'ash Report"
+ ]
+}

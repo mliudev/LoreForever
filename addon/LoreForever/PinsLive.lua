@@ -17,6 +17,15 @@
 -- journey data says so (pinLook). An older Willo doesn't: for hers the add-on keeps 1.7.0's way for the newest talk, a
 -- look at LAND with the map up (not at WAIT once one has run) and then at the next opening until EXPECT.
 --
+-- LOR-1553 (Mike's stream, 11/16: a pin he asked for by voice needed a /reload, another came "a little bit" late). The
+-- look at WAIT was a guess at when her write lands: a pin written at 4 s waited for 12 s, and one written after 12 s
+-- (an 8 s answer for a trainer by name) missed it, so she said /reload. A Willo that writes pinLook 3 stamps every talk
+-- from the game she has finished into her slots, a pin or not (`answered`: the key times of her last few; addon_writer
+-- stamp_answered). With hers a talk's first look comes at her ladder's first step (pinLadder, beside pinLook; LADDER
+-- without one), with the map up or as it opens; a look that finds the talk answered settles it, and else the next comes
+-- at the ladder's next step (with the map up, or at the next opening), the last at its end. She says /reload only for a
+-- write after that (core.PIN_LOOK_LAST_S, from the same ladder she writes).
+--
 -- 11/10: a look after each talk (two with the map up) used every slot, so Mike's pin 6 h into a session waited for a
 -- /reload. 1.7.0 looked at 6 s and 25 s and again at the next opening: two or three looks a talk, the slots gone at
 -- talk 4 with the map up. Now one a talk, two for a map opened after it and still up 12 s after it. Her pin reaches
@@ -42,6 +51,10 @@ ns.PinsLive = PinsLive
 -- later; a look only at 25 s never ran and he /reloaded. LAND and EXPECT: 1.7.0's second look and how long it kept a
 -- talk open, for a Willo without pinLook.
 local SOON, WAIT, LAND, EXPECT, GAP, QUIET = 6, 12, 25, 40, 3, 3600
+-- LADDER: a talk's looks, in seconds from its key, with a Willo that stamps the talks she has answered (pinLook 3) and
+-- doesn't write her own (pinLadder, addon_writer.PIN_LADDER: hers wins). A talk waits until a look settles it, however
+-- long the map stays shut (the Architect's hold on #4543: one forgotten after 5 minutes lost a pin she'd made).
+local LADDER = { 9, 16, 30 }
 local MAX_TALKS = 8
 
 local used = {}             -- slots loaded this session
@@ -64,6 +77,73 @@ end
 local function marked()
   local d = _G.LoreForeverJourneyData
   return type(d) == "table" and (tonumber(d.pinLook) or 0) >= 2
+end
+-- This Willo stamps every talk she has finished into her slots (addon_writer PIN_LOOK_ANSWERED, LOR-1553): her journey
+-- data says so from the game's load, a slot she wrote says so from the look that loaded it (a Willo updated mid-session).
+local slotLook, slotLadder = 0, nil
+local function stamped()
+  local d = _G.LoreForeverJourneyData
+  return slotLook >= 3 or type(d) == "table" and (tonumber(d.pinLook) or 0) >= 3
+end
+-- Her ladder, if it's a sane one (1 to 4 rising steps, each 1 to 120 s), else LADDER.
+local function sane(l)
+  if type(l) ~= "table" or #l < 1 or #l > 4 then return nil end
+  local last = 0
+  for i = 1, #l do
+    local s = tonumber(l[i])
+    if not s or s <= last or s > 120 then return nil end
+    last = s
+  end
+  return l
+end
+local function ladder()
+  local d = _G.LoreForeverJourneyData
+  return slotLadder or sane(type(d) == "table" and d.pinLadder) or LADDER
+end
+local function first() return tonumber(ladder()[1]) end
+-- With a stamp: the waiting talks her stamps (the key times of her last few finished talks) settle. A stamp settles the
+-- talk nearest it within 1 s (her whole second can fall a second either side of the game's), so a later talk's stamp
+-- never settles an earlier one (a tap or a second question while she's still answering the first). Each stamp settles
+-- one talk: of two talks in one second (a tap 0.3 s after a pin question) it settles the older, and the other waits
+-- for its next step (her stamps hold a second once). spent counts the stamps that have settled a talk, by value, while
+-- they're among hers.
+local spent = {}
+local function settle(waiting, stamps)
+  local have, done = {}, {}
+  for _, s in ipairs(stamps) do
+    s = tonumber(s)
+    if s then have[s] = (have[s] or 0) + 1 end
+  end
+  for s, n in pairs(spent) do
+    if have[s] then have[s] = have[s] - n else spent[s] = nil end
+  end
+  local order = {}
+  for s in pairs(have) do order[#order + 1] = s end
+  table.sort(order)
+  for _, s in ipairs(order) do
+    for _ = 1, have[s] do
+      local best, gap = nil, nil
+      for _, t in ipairs(waiting) do
+        local d = math.abs(s - t.wall)
+        if d <= 1 and (gap == nil or d < gap) then best, gap = t, d end
+      end
+      if best and done[best] then     -- its nearest talk is settled: a later talk's stamp never settles an earlier one
+        best = nil
+        for _, t in ipairs(waiting) do
+          if not done[t] and math.abs(s - t.wall) == gap then best = t; break end
+        end
+      end
+      if not best then break end
+      done[best], spent[s] = true, (spent[s] or 0) + 1
+    end
+  end
+  return done
+end
+-- With a stamp: the next look a talk unanswered at t0 gets, or nil when its last has run.
+local function nextStep(t, t0)
+  for _, s in ipairs(ladder()) do
+    if t.at + tonumber(s) > t0 + 0.5 then return t.at + tonumber(s) end
+  end
 end
 
 -- The slots Willo said she writes, by name.
@@ -157,6 +237,8 @@ function PinsLive.Look()
   local live = _G.LoreForeverWilloLive
   _G.LoreForeverWilloLive = nil
   local at = type(live) == "table" and tonumber(live.generated) or 0
+  if type(live) == "table" and (tonumber(live.pinLook) or 0) > slotLook then slotLook = tonumber(live.pinLook) end
+  if type(live) == "table" and sane(live.pinLadder) then slotLadder = live.pinLadder end
   local took = PinsLive.Take(live)
   -- A talk is answered by what she wrote after it (the Architect's review of #3732); an older write (her files written
   -- again since the game read them, a pin from her window) still goes on the maps. Unanswered, a look at WAIT settles
@@ -166,6 +248,21 @@ function PinsLive.Look()
   -- as 1.7.0 did, and a look from its own SOON goes straight to LAND: no more looks a talk than 1.7.0 took. A look
   -- that ran for an earlier talk before this one's SOON leaves it its look at WAIT (the Architect, 11/12).
   local keep, mark = {}, marked()
+  -- With a stamp (LOR-1553): a talk she has answered (its own key time among her stamps) is settled, a pin or not; one
+  -- she hasn't gets its next step, or none after the ladder's last. A newer write alone settles nothing: her pin's write
+  -- carries its own talk's stamp. (Her clock and the game's are this PC's.)
+  if stamped() then
+    local stamps = type(live) == "table" and type(live.answered) == "table" and live.answered or {}
+    local done = settle(talks, stamps)
+    for _, t in ipairs(talks) do
+      if not done[t] then
+        t.onOpen, t.next = nil, nextStep(t, t0)
+        if t.next then keep[#keep + 1] = t end
+      end
+    end
+    talks = keep
+    return took
+  end
   for i, t in ipairs(talks) do
     local old = not mark and i == #talks
     if not (took and at >= t.wall) and t0 < t.at + (old and EXPECT or WAIT) - 0.5 then
@@ -205,7 +302,7 @@ plan = function(opening)
   if not due then return end
   -- One look serves every waiting talk, so a map just opened doesn't look before the newest talk's SOON (an earlier
   -- talk's look long due would otherwise run before her write; the Architect, 11/12).
-  if opening then due = math.max(due, talks[#talks].at + SOON) end
+  if opening then due = math.max(due, talks[#talks].at + (stamped() and first() or SOON)) end
   if lastLook then due = math.max(due, lastLook + GAP) end
   if due > now() + 0.01 then return scheduleAt(due) end
   PinsLive.Look()
@@ -217,7 +314,8 @@ end
 function PinsLive.Talked()
   if #PinsLive.Slots() == 0 then return end
   local t = now()
-  talks[#talks + 1] = { at = t, wall = (time and time()) or 0, next = t + (mapOpen() and WAIT or SOON) }
+  talks[#talks + 1] = { at = t, wall = (time and time()) or 0,
+    next = t + (stamped() and first() or (mapOpen() and WAIT or SOON)) }
   if #talks > MAX_TALKS then table.remove(talks, 1) end
   if mapOpen() then plan(false) end
 end

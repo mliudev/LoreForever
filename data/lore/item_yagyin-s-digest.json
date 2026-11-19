@@ -1,0 +1,79 @@
+{
+ "key": "item:yagyin-s-digest",
+ "type": "item",
+ "name": "Yagyin's Digest",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Yagyin's Digest",
+  "quests": [
+   "quest:737"
+  ]
+ },
+ "summary": "Yagyin\u2019s Digest is a book entrusted to you in the Badlands. Theldurin believes its truths may help save those threatened by what lies beneath the earth.",
+ "sections": [
+  {
+   "title": "A Dangerous Book",
+   "body": "Theldurin gives you Yagyin\u2019s Digest to carry through the Badlands. He warns that its truths can burn and asks you to keep it from unfriendly hands. The book matters to those who fear what may rise from below.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Yagyin\u2019s Digest?",
+   "aliases": [
+    "yagyin digest",
+    "what's the digest",
+    "the book"
+   ],
+   "answer": "Yagyin\u2019s Digest is a book Theldurin entrusts to you. He says it holds many truths and warns that the truth can burn."
+  },
+  {
+   "q": "Who is Theldurin?",
+   "aliases": [
+    "who wants the book",
+    "theldurin guy",
+    "who do I bring it to"
+   ],
+   "answer": "Theldurin is the one who gives you Yagyin\u2019s Digest and asks you to keep it from unfriendly hands."
+  },
+  {
+   "q": "Why is the digest dangerous?",
+   "aliases": [
+    "why dangerous",
+    "truth can burn",
+    "what's in the book"
+   ],
+   "answer": "Theldurin warns that the truths in Yagyin\u2019s Digest can burn. He does not want it to reach unfriendly hands."
+  },
+  {
+   "q": "What might the book help prevent?",
+   "aliases": [
+    "what are they afraid of",
+    "worm food",
+    "what's under the ground"
+   ],
+   "answer": "Theldurin hopes your efforts may help save those threatened if the beings below are freed and rise to the surface."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "book",
+  "digest",
+  "forbidden knowledge",
+  "theldurin",
+  "truth",
+  "yagyin",
+  "yagyin's digest"
+ ],
+ "related": [
+  "quest:737",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Yagyin's Digest",
+  "Forbidden Knowledge (Classic)"
+ ]
+}

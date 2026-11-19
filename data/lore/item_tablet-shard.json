@@ -1,0 +1,92 @@
+{
+ "key": "item:tablet-shard",
+ "type": "item",
+ "name": "Tablet Shard",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Tablet Shard",
+  "quests": [
+   "quest:629"
+  ]
+ },
+ "summary": "The Tablet Shard comes from an ancient troll tablet beneath the Vile Reef. Kin'weelay seeks it for a sacred place in Orgrimmar, where it can honor the Darkspear hero Gri'lek.",
+ "sections": [
+  {
+   "title": "A Fragment of Gri'lek",
+   "body": "Beneath the waters of the Savage Coast, the Tablet Shard is taken from a tablet bearing the tale of Gri'lek the Wanderer. Kin'weelay wants a fragment for the Darkspear tribe's new home in Orgrimmar. There, it will remind the tribe of Gri'lek's might and honor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Tablet Shard?",
+   "aliases": [
+    "tablet shard",
+    "what shard",
+    "troll tablet piece"
+   ],
+   "answer": "The Tablet Shard is a fragment of an ancient troll tablet beneath the Vile Reef. It bears the tale of Gri'lek the Wanderer."
+  },
+  {
+   "q": "Who wants the Tablet Shard?",
+   "aliases": [
+    "who wants shard",
+    "Kin'weelay shard",
+    "who do I give it to"
+   ],
+   "answer": "Kin'weelay at Grom'gol Base Camp wants the Tablet Shard for a sacred place in Orgrimmar."
+  },
+  {
+   "q": "Why does the Darkspear tribe want it?",
+   "aliases": [
+    "why shard",
+    "darkspear tablet",
+    "what's it for"
+   ],
+   "answer": "The shard will honor Gri'lek the Wanderer and remind the Darkspear tribe of his might and honor."
+  },
+  {
+   "q": "Where is the tablet?",
+   "aliases": [
+    "tablet location",
+    "where shard from",
+    "vile reef tablet"
+   ],
+   "answer": "The tablet lies beneath the waters of the Savage Coast, in the ruins known as the Vile Reef."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, the Tablet Shard carries the sacred tale of Gri'lek, a hero of troll legends, and is meant to honor him among the Darkspear."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "The Darkspear tribe seeks the Tablet Shard for a sacred place in its new home in Orgrimmar."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "gri'lek",
+  "gri'lek the wanderer",
+  "kin'weelay",
+  "savage coast",
+  "tablet shard",
+  "troll tablet",
+  "vile reef"
+ ],
+ "related": [
+  "quest:629",
+  "zone:stranglethorn",
+  "subzone:savage-coast",
+  "subzone:grom-gol-base-camp",
+  "topic:troll",
+  "topic:darkspear-tribe"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Tablet Shard",
+  "The Vile Reef (quest)"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "item:gorishi-queen-brain",
+ "type": "item",
+ "name": "Gorishi Queen Brain",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Gorishi Queen Brain",
+  "quests": [
+   "quest:4507"
+  ]
+ },
+ "summary": "The Gorishi Queen Brain is a specimen taken from the queen in the Slithering Scar. Researchers in Gadgetzan want it to study the silithid and the force that may control them.",
+ "sections": [
+  {
+   "title": "A Mind to Study",
+   "body": "Researchers in Gadgetzan seek the Gorishi Queen Brain after the Gorishi Hive Queen is summoned from her chamber in southern Un'Goro Crater. They suspect the silithid may answer to a malign intelligence, and hope the queen's brain will help them understand it. Their findings may reveal more about the hive than its queen alone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Gorishi Queen Brain?",
+   "aliases": [
+    "queen brain",
+    "gorishi brain",
+    "what is this brain"
+   ],
+   "answer": "The Gorishi Queen Brain is a specimen taken from the Gorishi Hive Queen for study by researchers in Gadgetzan."
+  },
+  {
+   "q": "Where does the Gorishi Queen Brain come from?",
+   "aliases": [
+    "where brain from",
+    "queen brain location",
+    "gorishi queen"
+   ],
+   "answer": "It comes from the Gorishi Hive Queen in the Slithering Scar, in southern Un'Goro Crater."
+  },
+  {
+   "q": "Why do researchers want the queen's brain?",
+   "aliases": [
+    "why need brain",
+    "what for brain",
+    "study the queen"
+   ],
+   "answer": "Researchers in Gadgetzan hope the brain will help them understand the silithid and the malign intelligence they suspect may control them."
+  },
+  {
+   "q": "How is the Gorishi Hive Queen summoned?",
+   "aliases": [
+    "summon queen",
+    "gorishi lure",
+    "how get queen out"
+   ],
+   "answer": "A Gorishi Queen Lure used on a crystal in the hive's hatcheries is meant to draw out the queen."
+  },
+  {
+   "q": "Is the queen the only silithid presence?",
+   "aliases": [
+    "more silithid",
+    "silithid still here",
+    "is this all"
+   ],
+   "answer": "The researchers doubt that the Gorishi Hive Queen marks the full extent of the silithid presence."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gadgetzan",
+  "gorishi",
+  "gorishi hive queen",
+  "gorishi queen brain",
+  "hive crystal",
+  "malign intelligence",
+  "silithid",
+  "slithering scar",
+  "un'goro crater"
+ ],
+ "related": [
+  "quest:4507",
+  "item:gorishi-queen-lure",
+  "subzone:slithering-scar",
+  "zone:ungoro",
+  "zone:tanaris",
+  "quest:32"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Gorishi Queen Brain",
+  "Pawn Captures Queen"
+ ]
+}

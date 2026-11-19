@@ -1,0 +1,74 @@
+{
+ "key": "item:torch-of-retribution",
+ "type": "item",
+ "name": "Torch of Retribution",
+ "era": "classic",
+ "zone": "searinggorge",
+ "meta": {
+  "wiki": "Torch of Retribution",
+  "quests": [
+   "quest:3463"
+  ]
+ },
+ "summary": "The Torch of Retribution is used to set the Dark Iron watchtowers in Searing Gorge ablaze. Its fire keeps guards from occupying the towers for a long time.",
+ "sections": [
+  {
+   "title": "Fire in the Towers",
+   "body": "The four Sentry Towers in Searing Gorge still stand, but the Torch of Retribution can set each one alight for a very long time. No element or force can quench its fire. While the towers burn, Dark Iron guards cannot hold those watch posts, leaving their first line of defense undone.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Torch of Retribution do?",
+   "aliases": [
+    "torch purpose",
+    "what's the torch for"
+   ],
+   "answer": "The Torch of Retribution sets the four Sentry Towers in Searing Gorge ablaze. Its fire lasts a very long time and cannot be subdued."
+  },
+  {
+   "q": "Where do I use the Torch of Retribution?",
+   "aliases": [
+    "torch locations",
+    "where use torch"
+   ],
+   "answer": "You use the Torch of Retribution inside the North, South, East, and West Sentry Towers in Searing Gorge."
+  },
+  {
+   "q": "Why set the towers on fire?",
+   "aliases": [
+    "why burn towers",
+    "dark iron towers"
+   ],
+   "answer": "The fire keeps guards and sentries from occupying the towers, nullifying the Dark Irons' first line of defense."
+  },
+  {
+   "q": "Can the Torch of Retribution destroy the towers?",
+   "aliases": [
+    "destroy towers",
+    "can torch wreck towers"
+   ],
+   "answer": "No. The four towers cannot be destroyed, but the Torch of Retribution can keep them burning for a very long time."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark iron",
+  "searing gorge",
+  "sentry towers",
+  "set them ablaze",
+  "torch of retribution",
+  "watchtowers"
+ ],
+ "related": [
+  "quest:3463",
+  "quest:3453",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Torch of Retribution",
+  "Set Them Ablaze! (Classic)"
+ ]
+}

@@ -55,6 +55,8 @@ for _, n in ipairs({ "Archmage Arugal", "Bazil Thredd", "Edwin VanCleef", "Mutan
   "Alzzin the Wildshaper", "Prince Tortheldrin", "King Gordok", "Shade of the Archmage", "Relic Guardian",
   "Rath'mael", "Durgen Dirgehammer" }) do FINAL[n:lower()] = true end
 -- end generated
+-- Whether this boss is a dungeon's last (Strip.FinishedPage: the run's-done offer, LOR-1468).
+function Moments.Final(name) return type(name) == "string" and FINAL[name:lower()] == true end
 local GAP, HOUR_MAX = 180, 6                     -- seconds between two; how many an hour
 -- Seconds one may wait (a level, a rough patch: LONG_HOLD). Time spent waiting for a narration doesn't count: it
 -- waits for the queue's first gap, up to LONG_HOLD in all (cleanup 11/15, item 7; LOR-1412). With quest voices on and

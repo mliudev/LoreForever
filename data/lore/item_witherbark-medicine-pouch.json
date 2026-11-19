@@ -1,0 +1,79 @@
+{
+ "key": "item:witherbark-medicine-pouch",
+ "type": "item",
+ "name": "Witherbark Medicine Pouch",
+ "era": "classic",
+ "zone": "arathi",
+ "meta": {
+  "wiki": "Witherbark Medicine Pouch",
+  "quests": [
+   "quest:691"
+  ]
+ },
+ "summary": "A Witherbark Medicine Pouch is carried by the witch doctors of Witherbark Village in the Arathi Highlands. Apprentice Kryten seeks several for Archmage Malin\u2019s research.",
+ "sections": [
+  {
+   "title": "A Witch Doctor\u2019s Pouch",
+   "body": "At Witherbark Village in the Arathi Highlands, the witch doctors carry medicine pouches. Apprentice Kryten needs four of them, along with Witherbark tusks and a Shadow Hunter Knife, for Archmage Malin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the medicine pouches?",
+   "aliases": [
+    "who wants the pouch",
+    "medicine pouch for who"
+   ],
+   "answer": "Apprentice Kryten at Refuge Pointe needs four Witherbark Medicine Pouches for Archmage Malin\u2019s research."
+  },
+  {
+   "q": "Where do the pouches come from?",
+   "aliases": [
+    "where pouch from",
+    "witherbark pouch location"
+   ],
+   "answer": "Witherbark Witch Doctors at Witherbark Village in the Arathi Highlands carry the medicine pouches."
+  },
+  {
+   "q": "How many pouches does Kryten need?",
+   "aliases": [
+    "how many pouches",
+    "number of medicine pouches"
+   ],
+   "answer": "Kryten needs four Witherbark Medicine Pouches."
+  },
+  {
+   "q": "What else is Kryten collecting?",
+   "aliases": [
+    "what else does kryten need",
+    "other items for malin"
+   ],
+   "answer": "Kryten also seeks ten Witherbark Tusks and a Shadow Hunter Knife for Archmage Malin."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi highlands",
+  "archmage malin",
+  "kryten",
+  "medicine pouch",
+  "refuge pointe",
+  "witch doctor",
+  "witherbark",
+  "witherbark medicine pouch"
+ ],
+ "related": [
+  "quest:691",
+  "zone:arathi",
+  "subzone:witherbark-village",
+  "subzone:refuge-pointe",
+  "item:witherbark-tusk",
+  "item:shadow-hunter-knife"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Witherbark Medicine Pouch",
+  "Worth Its Weight in Gold (Classic)"
+ ]
+}

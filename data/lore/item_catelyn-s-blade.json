@@ -1,0 +1,107 @@
+{
+ "key": "item:catelyn-s-blade",
+ "type": "item",
+ "name": "Catelyn's Blade",
+ "era": "classic",
+ "zone": "stranglethorn",
+ "meta": {
+  "wiki": "Catelyn's Blade",
+  "quests": [
+   "quest:610",
+   "quest:611"
+  ]
+ },
+ "summary": "Near Booty Bay, Catelyn's Blade is a knife with a history among Stranglethorn's trolls. Its owner needs it back before it can be put to use at a sunken altar.",
+ "sections": [
+  {
+   "title": "A Daughter's Knife",
+   "body": "Catelyn's Blade is missing from its owner, Catelyn the Blade, in Stranglethorn Vale. She says \"Pretty Boy\" Duncan of the Bloodsail Buccaneers took it after knocking her unconscious. Her father, Ansirem Runeweaver, sent word after her, and she asks you to recover the knife from Duncan.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Sunken Altar",
+   "body": "The knife is a troll relic found in Stranglethorn Vale by Ansirem Runeweaver, who gave it to his daughter. Once Catelyn has it back, she lends it to you for the altar in the Vile Reef. There, the blade can destroy the Altar of the Tides, drawing out Gazban and the Stone of the Tides. Baron Revilgaz wants the stone for his collection, and Catelyn expects her knife returned.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns Catelyn's Blade?",
+   "aliases": [
+    "catelyn blade owner",
+    "whose knife is it"
+   ],
+   "answer": "Catelyn the Blade owns the knife. Her father, Ansirem Runeweaver, gave it to her."
+  },
+  {
+   "q": "How did Duncan get the knife?",
+   "aliases": [
+    "duncan stole blade",
+    "how'd catelyn lose it"
+   ],
+   "answer": "Catelyn says \"Pretty Boy\" Duncan knocked her unconscious and took the knife."
+  },
+  {
+   "q": "Who is Catelyn?",
+   "aliases": [
+    "catelyn backstory",
+    "who's the blade girl"
+   ],
+   "answer": "Catelyn the Blade is Ansirem Runeweaver's daughter. She left her father's scholarly life to become a pirate."
+  },
+  {
+   "q": "What is the blade used for?",
+   "aliases": [
+    "knife altar",
+    "blade purpose"
+   ],
+   "answer": "Catelyn lends the knife so you can destroy the Altar of the Tides in the Vile Reef."
+  },
+  {
+   "q": "Where is the altar?",
+   "aliases": [
+    "vile reef altar",
+    "sunken altar location"
+   ],
+   "answer": "The Altar of the Tides lies in the ruins of a sunken troll city at the Vile Reef, off Stranglethorn Vale's coast."
+  },
+  {
+   "q": "Why does Baron Revilgaz want the Stone of the Tides?",
+   "aliases": [
+    "revilgaz stone",
+    "why collect stone"
+   ],
+   "answer": "Baron Revilgaz wants the Stone of the Tides for his collection of ancient troll artifacts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "Ansirem Runeweaver is a mage, and Catelyn fled the life of books and stiff-backed mages he expected her to lead."
+  }
+ ],
+ "keywords": [
+  "altar of the tides",
+  "ansirem runeweaver",
+  "bloodsail buccaneers",
+  "catelyn the blade",
+  "catelyn's blade",
+  "pretty boy duncan",
+  "stone of the tides",
+  "troll relic"
+ ],
+ "related": [
+  "quest:610",
+  "quest:611",
+  "item:stone-of-the-tides",
+  "subzone:vile-reef",
+  "npc:baron-revilgaz",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Catelyn's Blade",
+  "\"Pretty Boy\" Duncan (quest)",
+  "The Curse of the Tides"
+ ]
+}

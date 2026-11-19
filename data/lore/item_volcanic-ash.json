@@ -1,0 +1,79 @@
+{
+ "key": "item:volcanic-ash",
+ "type": "item",
+ "name": "Volcanic Ash",
+ "era": "classic",
+ "zone": "tanaris",
+ "meta": {
+  "wiki": "Volcanic Ash",
+  "quests": [
+   "quest:8921"
+  ]
+ },
+ "summary": "Volcanic Ash gathers near lava in the Burning Steppes. Mux Manascrambler needs it to build a filter for his ectoplasmic distiller.",
+ "sections": [
+  {
+   "title": "Ash by the Lava",
+   "body": "Lava pools and dried channels in the Burning Steppes leave Volcanic Ash on the ground. Mux Manascrambler in Gadgetzan needs twenty-five handfuls for a filter in his ectoplasmic distiller. He is gathering several costly materials for the device, which he hopes will harvest the fabric of death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where can I find Volcanic Ash?",
+   "aliases": [
+    "volcanic ash location",
+    "where ash",
+    "ash burning steppes"
+   ],
+   "answer": "Volcanic Ash lies near lava pools and dried lava channels in the Burning Steppes, mostly between Blackrock Mountain and Flame Crest."
+  },
+  {
+   "q": "What is Volcanic Ash used for?",
+   "aliases": [
+    "ash use",
+    "why volcanic ash",
+    "what's ash for"
+   ],
+   "answer": "Mux Manascrambler needs Volcanic Ash to build a filter for his ectoplasmic distiller."
+  },
+  {
+   "q": "Who needs Volcanic Ash?",
+   "aliases": [
+    "who wants ash",
+    "mux ash",
+    "ash for mux"
+   ],
+   "answer": "Mux Manascrambler in Gadgetzan needs twenty-five Volcanic Ash for his ectoplasmic distiller."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Mux Manascrambler is building an ectoplasmic distiller and needs Volcanic Ash for its filter, alongside a Delicate Arcanite Converter."
+  }
+ ],
+ "keywords": [
+  "blackrock mountain",
+  "burning steppes",
+  "ectoplasmic distiller",
+  "filter",
+  "flame crest",
+  "lava",
+  "mux manascrambler",
+  "volcanic ash"
+ ],
+ "related": [
+  "quest:8921",
+  "zone:burningsteppes",
+  "subzone:blackrock-mountain",
+  "subzone:flame-crest",
+  "npc:mux-manascrambler",
+  "zone:tanaris"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Volcanic Ash",
+  "The Ectoplasmic Distiller"
+ ]
+}

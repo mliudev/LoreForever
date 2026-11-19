@@ -1,0 +1,102 @@
+{
+ "key": "item:faranell-s-parcel",
+ "type": "item",
+ "name": "Faranell's Parcel",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Faranell's Parcel",
+  "quests": [
+   "quest:2938"
+  ]
+ },
+ "summary": "Faranell's Parcel carries a potent sample of Witherbark spider venom from the Hinterlands to the Undercity. Master Apothecary Faranell receives it for study and possible new uses.",
+ "sections": [
+  {
+   "title": "A Sample Sent South",
+   "body": "In the Hinterlands, Apothecary Lydon sends Faranell's Parcel to his superior, Master Apothecary Faranell, in the Undercity. The parcel holds venom taken from the Witherbark's spider god. Lydon has tested its strength on rabbits and believes Faranell will want to examine the poison himself.",
+   "spoiler": 0
+  },
+  {
+   "title": "Faranell's Work",
+   "body": "At the Apothecarium, Master Apothecary Faranell receives the parcel and hears that Lydon considers its poison exceptionally potent. He is already working on new applications for it. The Royal Apothecary Society hopes the sample will yield further uses.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in Faranell's Parcel?",
+   "aliases": [
+    "what's in the parcel",
+    "faranell parcel contents"
+   ],
+   "answer": "Faranell's Parcel contains a sample of venom taken from the Witherbark's spider god."
+  },
+  {
+   "q": "Who sent the parcel?",
+   "aliases": [
+    "who gave me the parcel",
+    "lydon parcel"
+   ],
+   "answer": "Apothecary Lydon provides Faranell's Parcel for delivery to his superior, Master Apothecary Faranell."
+  },
+  {
+   "q": "Who is the parcel for?",
+   "aliases": [
+    "who gets it",
+    "faranell delivery"
+   ],
+   "answer": "Master Apothecary Faranell receives the parcel at the Apothecarium in the Undercity."
+  },
+  {
+   "q": "Why does Faranell want the venom?",
+   "aliases": [
+    "why send venom",
+    "what does faranell want"
+   ],
+   "answer": "Lydon believes Faranell will want to test the potent poison himself, and Faranell is working on new applications for it."
+  },
+  {
+   "q": "How strong is the venom?",
+   "aliases": [
+    "venom strength",
+    "is the spider poison powerful"
+   ],
+   "answer": "Lydon says a drop killed nearly two dozen rabbits, though he notes some were very young and small."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry Lydon's venom sample to the Undercity for the Royal Apothecary Society."
+  },
+  {
+   "target": "race:Undead",
+   "text": "As Forsaken, you serve a society whose apothecaries study poisons such as the Witherbark venom in this parcel."
+  }
+ ],
+ "keywords": [
+  "apothecarium",
+  "apothecary lydon",
+  "faranell",
+  "faranell's parcel",
+  "master apothecary faranell",
+  "royal apothecary society",
+  "spider venom",
+  "undercity",
+  "witherbark"
+ ],
+ "related": [
+  "quest:2938",
+  "npc:master-apothecary-faranell",
+  "subzone:apothecarium",
+  "topic:royal-apothecary-society",
+  "zone:undercity",
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Faranell's Parcel",
+  "Venom to the Undercity"
+ ]
+}

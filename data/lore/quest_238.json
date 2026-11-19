@@ -1,0 +1,77 @@
+{
+ "key": "quest:238",
+ "type": "quest",
+ "name": "Errand for Apothecary Zinge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   238
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A courier asks you to carry a Field Sampling Kit to Apothecary Zinge in the Undercity. The kit\u2019s cost goes on the Society\u2019s tab.",
+ "sections": [
+  {
+   "title": "A Ready Kit",
+   "body": "The kit is prepared, and the courier has a message for Apothecary Zinge. You carry it to her in the Undercity, along with the sender\u2019s greetings. Its cost will be added to the Society\u2019s tab.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I carrying to Apothecary Zinge?",
+   "aliases": [
+    "field kit for zinge",
+    "zinge's kit",
+    "what kit"
+   ],
+   "answer": "You are carrying a Field Sampling Kit to Apothecary Zinge in the Undercity."
+  },
+  {
+   "q": "Who is the kit for?",
+   "aliases": [
+    "who gets the kit",
+    "zinge delivery",
+    "apothecary zinge errand"
+   ],
+   "answer": "The Field Sampling Kit is for Apothecary Zinge."
+  },
+  {
+   "q": "Who pays for the kit?",
+   "aliases": [
+    "kit cost",
+    "who pays",
+    "society tab"
+   ],
+   "answer": "The courier says the kit\u2019s cost will be added to the Society\u2019s tab."
+  },
+  {
+   "q": "What message goes with the kit?",
+   "aliases": [
+    "greetings for zinge",
+    "what do i tell her",
+    "message for zinge"
+   ],
+   "answer": "You are asked to give Apothecary Zinge the sender\u2019s warm greetings."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecary zinge",
+  "courier",
+  "field sampling kit",
+  "kit delivery",
+  "society",
+  "undercity"
+ ],
+ "related": [
+  "npc:apothecary-zinge",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Errand for Apothecary Zinge"
+ ]
+}

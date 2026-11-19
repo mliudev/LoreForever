@@ -1,0 +1,83 @@
+{
+ "key": "quest:95285",
+ "type": "quest",
+ "name": "Right Place, Wrong Time",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95285
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sergeant Ulka asks you to hear about the situation on Alcaz Isle. The rest of the mission details are reserved for those who need to know.",
+ "sections": [
+  {
+   "title": "Ulka's Briefing",
+   "body": "Sergeant Ulka struggles to sit up when she speaks with you on Alcaz Isle. You offer her a hand, but she swats it away. She says she will bring you up to date, while keeping the rest of the mission details close. Your duty to the Warchief awaits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to catch up?",
+   "aliases": [
+    "who is ulka",
+    "sergeant ulka"
+   ],
+   "answer": "Sergeant Ulka struggles to sit up as she speaks with you."
+  },
+  {
+   "q": "What is happening on Alcaz Isle?",
+   "aliases": [
+    "alcaz situation",
+    "what's going on here"
+   ],
+   "answer": "Sergeant Ulka says she will catch you up on the situation on Alcaz Isle."
+  },
+  {
+   "q": "Why won't Ulka share all the mission details?",
+   "aliases": [
+    "need to know why",
+    "what are the details"
+   ],
+   "answer": "Sergeant Ulka says the remaining mission details are need to know."
+  },
+  {
+   "q": "What does Ulka ask of me?",
+   "aliases": [
+    "what do i do",
+    "talk to ulka"
+   ],
+   "answer": "Speak with Sergeant Ulka to learn more about the situation on Alcaz Isle."
+  },
+  {
+   "q": "What does Ulka ask about my duty?",
+   "aliases": [
+    "ready for warchief",
+    "duty question"
+   ],
+   "answer": "Sergeant Ulka asks whether you are ready to do your duty to the Warchief."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, Sergeant Ulka asks whether you are ready to do your duty to the Warchief."
+  }
+ ],
+ "keywords": [
+  "alcaz isle",
+  "briefing",
+  "mission",
+  "right place wrong time",
+  "sergeant ulka",
+  "warchief"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Right Place, Wrong Time"
+ ]
+}

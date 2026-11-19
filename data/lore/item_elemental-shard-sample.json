@@ -1,0 +1,91 @@
+{
+ "key": "item:elemental-shard-sample",
+ "type": "item",
+ "name": "Elemental Shard Sample",
+ "era": "classic",
+ "zone": "badlands",
+ "meta": {
+  "wiki": "Elemental Shard Sample",
+  "quests": [
+   "quest:4062"
+  ]
+ },
+ "summary": "The Elemental Shard Sample bears markings that may help Lotwil Veriatus investigate the machines in the Burning Steppes. It carries a clue from the Badlands to a scholar's camp east of you.",
+ "sections": [
+  {
+   "title": "A Marked Shard",
+   "body": "The initials G.L.A. and a rank mark distinguish the shard from the machines found in the Burning Steppes. The Elemental Shard Sample reaches Lotwil Veriatus at his camp to the east, where the scholar studies elemental sciences. The mark may aid the search for whoever made the machines.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Elemental Shard Sample?",
+   "aliases": [
+    "elemental shard",
+    "shard sample"
+   ],
+   "answer": "It is a shard bearing the initials G.L.A. and a rank marking, taken from a machine in the Burning Steppes."
+  },
+  {
+   "q": "What does G.L.A. mean?",
+   "aliases": [
+    "gla meaning",
+    "shard initials"
+   ],
+   "answer": "G.L.A. is imprinted on the elemental shards, but its meaning is not known here."
+  },
+  {
+   "q": "What rank are the machines?",
+   "aliases": [
+    "rank iv",
+    "machine rank"
+   ],
+   "answer": "The machines destroyed in the Burning Steppes bear Rank IV markings, thought to be a low rank."
+  },
+  {
+   "q": "Who should receive the sample?",
+   "aliases": [
+    "who wants the shard",
+    "lotwil shard"
+   ],
+   "answer": "Lotwil Veriatus, a scholar of some renown in elemental sciences, is meant to examine the sample."
+  },
+  {
+   "q": "Where is Lotwil Veriatus?",
+   "aliases": [
+    "lotwil location",
+    "camp to the east"
+   ],
+   "answer": "Lotwil Veriatus is stationed at a camp east of you."
+  },
+  {
+   "q": "Why does the sample matter?",
+   "aliases": [
+    "why shard matters",
+    "machine clue"
+   ],
+   "answer": "The shard's markings may help Lotwil assist in the search concerning the machines in the Burning Steppes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning steppes",
+  "elemental sciences",
+  "elemental shard",
+  "elemental shard sample",
+  "g.l.a.",
+  "lotwil veriatus",
+  "rank iv"
+ ],
+ "related": [
+  "quest:4062",
+  "npc:lotwil-veriatus",
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Elemental Shard Sample",
+  "The Rise of the Machines (2)"
+ ]
+}

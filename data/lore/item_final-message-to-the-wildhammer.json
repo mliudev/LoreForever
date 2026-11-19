@@ -1,0 +1,101 @@
+{
+ "key": "item:final-message-to-the-wildhammer",
+ "type": "item",
+ "name": "Final Message to the Wildhammer",
+ "era": "classic",
+ "zone": "hinterlands",
+ "meta": {
+  "wiki": "Final Message to the Wildhammer",
+  "quests": [
+   "quest:7843"
+  ]
+ },
+ "summary": "The Final Message to the Wildhammer is a spear Otho Moji'ko sends from Revantusk Village to Aerie Peak. Its grisly display is meant to show the Wildhammer dwarves that the trolls mean business.",
+ "sections": [
+  {
+   "title": "A Spear for Aerie Peak",
+   "body": "At Revantusk Village in the Hinterlands, Otho Moji'ko gives you a blood-drenched spear wrapped in gryphon feathers. He wants you to plant it by the well in the center of Aerie Peak, where the Wildhammer dwarves will see it. The message is blunt, and Otho hopes you return alive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Final Message to the Wildhammer?",
+   "aliases": [
+    "final message",
+    "wildhammer spear",
+    "otho's message"
+   ],
+   "answer": "It is a blood-drenched spear wrapped in gryphon feathers, sent by Otho Moji'ko to Aerie Peak."
+  },
+  {
+   "q": "Who gives you the spear?",
+   "aliases": [
+    "who is otho",
+    "who hands it over",
+    "troll who gives spear"
+   ],
+   "answer": "Otho Moji'ko gives you the spear at Revantusk Village in the Hinterlands."
+  },
+  {
+   "q": "Where does the spear go?",
+   "aliases": [
+    "where to plant it",
+    "aerie peak well",
+    "where's the message"
+   ],
+   "answer": "Otho wants you to plant it by the well in the center of Aerie Peak."
+  },
+  {
+   "q": "Why send a bloody spear?",
+   "aliases": [
+    "why the spear",
+    "what does it mean",
+    "trolls mean business"
+   ],
+   "answer": "Otho wants the Wildhammer dwarves to see that the trolls mean business."
+  },
+  {
+   "q": "What happens when you place it?",
+   "aliases": [
+    "falstad yell",
+    "placing the message",
+    "wildhammer reaction"
+   ],
+   "answer": "Falstad Wildhammer yells when you place the spear, and you are marked for PvP."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you carry Otho Moji'ko's threat into Aerie Peak, where he hopes the Wildhammer dwarves will see the strength of Revantusk."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "For the Alliance, the spear is a direct threat planted in the heart of Aerie Peak, among the Wildhammer dwarves."
+  }
+ ],
+ "keywords": [
+  "aerie peak",
+  "final message",
+  "gryphon feathers",
+  "otho moji'ko",
+  "revantusk village",
+  "spear",
+  "well",
+  "wildhammer"
+ ],
+ "related": [
+  "quest:7843",
+  "quest:7842",
+  "quest:7841",
+  "zone:hinterlands",
+  "topic:troll",
+  "topic:alliance"
+ ],
+ "style": 2,
+ "attribution": [
+  "Wowpedia: Final Message to the Wildhammer",
+  "Wowpedia: The Final Message to the Wildhammer"
+ ]
+}
