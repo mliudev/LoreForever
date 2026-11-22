@@ -1,0 +1,91 @@
+{
+ "key": "quest:92858",
+ "type": "quest",
+ "name": "WANTED: Ohk'zi",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92858
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Latronicus Moonspear posts a bounty for the ogre Ohk'zi at Gordunni Outpost. His Gordunni kin threaten Feralas, though the naga pose the greater danger.",
+ "sections": [
+  {
+   "title": "The Bounty",
+   "body": "General Feathermoon offers payment for Ohk'zi's death, and Latronicus Moonspear posts the notice at Feathermoon Stronghold. The Gordunni ogres trouble Feralas, though they pose less danger than the naga. Ohk'zi was last seen at the outpost east of the stronghold. You are asked to bring his staff to Latronicus as proof of his death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ohk'zi?",
+   "aliases": [
+    "ohkzi",
+    "ohk'zi ogre",
+    "who is ohkzi"
+   ],
+   "answer": "Ohk'zi is an ogre of the Gordunni, last seen at their outpost east of Feathermoon Stronghold."
+  },
+  {
+   "q": "Why is there a bounty on Ohk'zi?",
+   "aliases": [
+    "ohkzi bounty",
+    "why kill ohkzi",
+    "wanted ohkzi"
+   ],
+   "answer": "General Feathermoon offers a bounty for Ohk'zi's death because the Gordunni ogres threaten Feralas."
+  },
+  {
+   "q": "Where was Ohk'zi last seen?",
+   "aliases": [
+    "ohkzi location",
+    "where ohkzi",
+    "gordunni outpost"
+   ],
+   "answer": "Ohk'zi was last seen at the Gordunni outpost east of Feathermoon Stronghold."
+  },
+  {
+   "q": "What proof does Latronicus want?",
+   "aliases": [
+    "ohkzi proof",
+    "bring what to latronicus",
+    "staff of ohkzi"
+   ],
+   "answer": "Latronicus Moonspear asks you to bring the Staff of Ohk'zi to Feathermoon Stronghold as proof of his death."
+  },
+  {
+   "q": "Are the Gordunni the greatest threat in Feralas?",
+   "aliases": [
+    "gordunni threat",
+    "naga or ogres",
+    "feralas danger"
+   ],
+   "answer": "The Gordunni are a menace to Feralas, but the naga pose a greater threat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bounty",
+  "feathermoon stronghold",
+  "feralas",
+  "gordunni",
+  "latronicus moonspear",
+  "naga",
+  "ohk'zi",
+  "ohkzi",
+  "staff of ohk'zi"
+ ],
+ "related": [
+  "zone:feralas",
+  "subzone:feathermoon-stronghold-classic",
+  "subzone:gordunni-outpost",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Ohk'zi"
+ ]
+}

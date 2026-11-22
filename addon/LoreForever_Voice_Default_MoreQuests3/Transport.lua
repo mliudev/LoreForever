@@ -1102,7 +1102,7 @@ P.transport["quest:1455"] = {
   fullHash = "40fc37",
   text = "The Karnitol Shipwreck. At Karnitol's wreck, you find the chest open and empty. Deep scratches score its sides and top, so you return to Kreldig Ungor at Nijel's Point. The chest lies empty, its sides and top scored with long, deep scratches. The marks suggest neither man nor giant forced it open. They look unlike cuts from a dagger or sword. With nothing more to learn, you close the chest and prepare to leave. Kreldig Ungor will be disappointed.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1455-d64563c803696c3736c6/1-0000.mp3", duration = 28.0293878, start = 0},
+    {file = "Audio/Transport/full_quest_1455-67654f1088f7595bdcaf/1-0000.mp3", duration = 29.5967347, start = 0},
   },
 }
 P.transport["quest:1456"] = {
@@ -1126,7 +1126,7 @@ P.transport["quest:1458"] = {
   fullHash = "d1f7b6",
   text = "Reagents for Reclaimers Inc.. In Desolace, Kreldig Ungor gathers reagents for Leftwitch, a gnome mage in Kharanos. The Reclaimers are short-handed, so he begins with claws and horns from the Hatefury satyrs to the east. After Reclaimers' Business in Desolace, Kreldig Ungor takes on another job. He gathers reagents for Leftwitch, a gnome mage who lives in Kharanos. Roetten calls it easy coin because the Reclaimers are already in Desolace. The crew is short-handed, but Kreldig says he does not care. Kreldig begins with ten claws and ten horns from the Hatefury satyrs to the east. They dwell in the Sargeron ruins, due east of Nijel's Point. Once you have the claws and horns, the rest of Leftwitch's list can begin.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1458-2025136ba7da0151949e/1-0000.mp3", duration = 46.315102, start = 0},
+    {file = "Audio/Transport/full_quest_1458-d3f70c44733ab1637382/1-0000.mp3", duration = 45.2179592, start = 0},
   },
 }
 P.transport["quest:1459"] = {
@@ -1142,7 +1142,7 @@ P.transport["quest:1465"] = {
   fullHash = "e3544e",
   text = "Vahlarriel's Search. In Desolace, Vahlarriel's Search follows a trail south from the Malems' wagon. A pendant lies there, and smoke rises from a large fort in the distance. At Nijel's Point, Vahlarriel Demonslayer needs the pendant and word that the Malems may still be alive. You find a pendant in the Malems' wagon and footprints leading south. Smoke rises from a large fort in the distance. A tended fire feeds it, rather than burning buildings. If the Malems are alive, the tracks suggest they were taken toward the fort. At Nijel's Point, Vahlarriel Demonslayer needs to see the Malem Pendant. Tell her about the footprints leading south.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1465-51a6a75f783a9e25d42c/1-0000.mp3", duration = 44.8261224, start = 0},
+    {file = "Audio/Transport/full_quest_1465-1c12ef44aafc255be6ec/1-0000.mp3", duration = 44.7477551, start = 0},
   },
 }
 P.transport["quest:1466"] = {
@@ -1526,7 +1526,7 @@ P.transport["quest:261"] = {
   fullHash = "2a4ec7",
   text = "Down the Scarlet Path. At Nijel's Point, Brother Anton calls on you to prove your allegiance to the Scarlet Crusade. Brother Anton says the Scourge must be stopped before it swallows the land and casts the world into darkness. The Scarlet Crusade has pledged itself to that fight. To prove your courage and allegiance, destroy thirty undead ravagers in the Valley of Bones, south of Anton. Succeed, and the Crusade will welcome you.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_261-abfbf0030cc77b6e4c8d/1-0000.mp3", duration = 28.5257143, start = 0},
+    {file = "Audio/Transport/full_quest_261-6745a79e3b8bea601f61/1-0000.mp3", duration = 27.8987755, start = 0},
   },
 }
 P.transport["quest:2622"] = {
@@ -3534,7 +3534,7 @@ P.transport["quest:6141"] = {
   fullHash = "d6900e",
   text = "Brother Anton. In Nijel's Point, Brother Anton seeks help against the undead in Desolace. He came from distant lands after hearing of the threat. Rumors of undead in Desolace reached Brother Anton in far-off Kalimdor. He booked passage at once to seek them out and destroy them. Now he looks for people with courage and resolve. If your heart is true, Brother Crowley sends you to find him in Nijel's Point, the Alliance town in Desolace.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6141-218acec4afb3c3cb72b5/1-0000.mp3", duration = 29.4661224, start = 0},
+    {file = "Audio/Transport/full_quest_6141-9a6db1eb820830b34882/1-0000.mp3", duration = 28.5257143, start = 0},
   },
 }
 P.transport["quest:6142"] = {
@@ -4958,7 +4958,7 @@ P.transport["quest:8724"] = {
   fullHash = "b5c4be",
   text = "Morningdew the Elder. In Thousand Needles, pilgrims seek Morningdew the Elder beneath a beam of starlight during the Lunar Festival. She offers wisdom and directions to elders across Kalimdor. During the Lunar Festival, ancient ancestor spirits appear across Azeroth to bless travelers. In Thousand Needles, Morningdew the Elder stands beneath a shaft of lunar light, amid red stone and industrial noise. She urges mortal travelers to turn from earthly concerns and look to the stars. Morningdew points seekers toward the countless stars for answers to earthly mysteries. She also guides festival pilgrims to other honored spirits across the lands: Elder High Mountain, Elder Grimtotem, Elder Mistwalker, Elder Moonwarden, and Elder Windtotem.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8724-d2e5871ae6d5b1b666ad/1-0000.mp3", duration = 46.7069388, start = 0},
+    {file = "Audio/Transport/full_quest_8724-e3754e7dfcf55c6d7535/1-0000.mp3", duration = 48.9273469, start = 0},
   },
 }
 P.transport["quest:8728"] = {
@@ -4966,7 +4966,7 @@ P.transport["quest:8728"] = {
   fullHash = "13eb62",
   text = "The Good News and The Bad News. Narain Soothfancy has read the ledger and found good news and bad. He is nearly certain he can build the arcanite buoy you specified, but needs arcanite, elementium ore, and fine gems. The chicken, the goggles, and the second Draconic For Dummies book must all be done first. Narain Soothfancy studies the ledger and murmurs under his breath. He is ninety-nine percent sure he can build the arcanite buoy to your specifications. The materials are the bad news. He asks for twenty arcanite bars, ten elementium ore, ten Azerothian diamonds, and ten blue sapphires. Bring them, and he will craft the buoy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8728-26128a8f691723046ac8/1-0000.mp3", duration = 37.4334694, start = 0},
+    {file = "Audio/Transport/full_quest_8728-26fbf48a594bc67e823a/1-0000.mp3", duration = 41.0383673, start = 0},
   },
 }
 P.transport["quest:8742"] = {
@@ -4974,7 +4974,7 @@ P.transport["quest:8742"] = {
   fullHash = "282dae",
   text = "The Might of Kalimdor. In Tanaris, Anachronos greets you in The Might of Kalimdor as the champion fate has awaited for a thousand years. He sees you leading your people into a new age. The Blue, Green and Red Scepter Shard forks are complete, bringing the Scepter of the Shifting Sands to its end. Anachronos speaks of a fate a thousand years in the making. The Old God trembles at your coming and fears your faith. Anachronos urges you to break C'Thun's prophecy, and you bring Kalimdor's strength with you. When you are ready, tell Anachronos, and he will place the Scepter of the Shifting Sands in your hands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8742-bb0c8e4981f5cc1c8236/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_quest_8742-f442e5010ee67092a132/1-0000.mp3", duration = 44.4865306, start = 0},
   },
 }
 P.transport["quest:88756"] = {
@@ -4982,7 +4982,7 @@ P.transport["quest:88756"] = {
   fullHash = "44d80b",
   text = "Bring Back a Bang. A construction site has lost blasting powder to Dark Iron dwarves camped east on Direforge Hill. Their marked barrels could bring danger to the surrounding lands. Dark Iron dwarves camp east on Direforge Hill. They raided a nearby construction site and carried its vital blasting powder back to their tents. Blasting powder in malicious Dark Iron hands threatens the surrounding lands. The stolen barrels bear red markings that set them apart from common supplies. Recover them before the dwarves put the powder to destructive use.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_88756-0b501ad7dcafe8c2c3f1/1-0000.mp3", duration = 32.2612245, start = 0},
+    {file = "Audio/Transport/full_quest_88756-8c776ef6fffc4d5e012b/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["quest:8921"] = {
@@ -4990,7 +4990,7 @@ P.transport["quest:8921"] = {
   fullHash = "51db39",
   text = "The Ectoplasmic Distiller. In Gadgetzan, Mux Manascrambler lacks the funds and help to finish his extra-dimensional ghost revealer. He asks you for costly materials and forty gold to build its first piece, an ectoplasmic distiller. Mux Manascrambler welcomes your help with his ghost revealer, a machine meant to reach across dimensions. First, he needs a distiller to gather the fabric of death itself. Building it will be difficult. Mux asks for one delicate arcanite converter, four greater eternal essences, ten stonescale oil, twenty-five volcanic ash, and forty gold.\n\nThe volcanic ash must come from the lava pools of the Burning Steppes. It will make the distiller's filter. The materials are costly, but Mux says he needs every one.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8921-54525d956344014b03c8/1-0000.mp3", duration = 46.9159184, start = 0},
+    {file = "Audio/Transport/full_quest_8921-e5f919a3b886ceae8aaa/1-0000.mp3", duration = 47.0987755, start = 0},
   },
 }
 P.transport["quest:8922"] = {
@@ -4998,7 +4998,7 @@ P.transport["quest:8922"] = {
   fullHash = "275427",
   text = "A Supernatural Device. Deliana needs a way to speak with Anthion Harmon's ghost. You carry the collected blood to an engineer in Gadgetzan as payment for a device that speaks with the dead. Deliana seeks a way to reach Anthion Harmon, or rather his ghost. She has Mux Manascrambler in mind, an engineer who claims to have a machine for speaking with the dead. The blood you collected was meant for him all along. Carry it to Mux in Gadgetzan, in Tanaris, and give it to him for his services.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8922-ac613da2ceca52531909/1-0000.mp3", duration = 27.7159184, start = 0},
+    {file = "Audio/Transport/full_quest_8922-726670d3a6a21f1fb917/1-0000.mp3", duration = 36.2318367, start = 0},
   },
 }
 P.transport["quest:8923"] = {
@@ -5006,7 +5006,7 @@ P.transport["quest:8923"] = {
   fullHash = "944846",
   text = "A Supernatural Device. In Gadgetzan, Mokvar sends you with venom for an engineer studying the dead. Mux Manascrambler is building a device to speak with them, and Mokvar hopes it can reach Anthion. Mokvar says you have shown courage by staying on, and more armor awaits those still willing to help. The venom you gathered is for Mux Manascrambler, an engineer who studies the supernatural and knows Mokvar. Mux is building a device to speak with the dead. Mokvar hopes it can reach Anthion and reveal more about his own situation. Carry the sealed container to Mux in Gadgetzan, in Tanaris.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8923-e6b678fbe0ff4976c62f/1-0000.mp3", duration = 34.0636735, start = 0},
+    {file = "Audio/Transport/full_quest_8923-17736b41809661168326/1-0000.mp3", duration = 43.9902041, start = 0},
   },
 }
 P.transport["quest:8924"] = {
@@ -5014,7 +5014,7 @@ P.transport["quest:8924"] = {
   fullHash = "3fd299",
   text = "Hunting for Ectoplasm. Mux Manascrambler in Gadgetzan has his distiller ready, and now needs ectoplasm. You carry it to Silithus, Winterspring and the Eastern Plaguelands, gathering twelve of each kind from the incorporeal dead. This follows The Ectoplasmic Distiller. Mux Manascrambler is proud of his distiller, but the incorporeal dead are far from Gadgetzan. He believes climate changes the spectral fabric of the dead. In Silithus, tortured night elves yield scorched ectoplasm. In Winterspring, spirits of the highborne yield frozen ectoplasm.\n\nGhosts and banshees in the Eastern Plaguelands yield stable ectoplasm. Gather twelve of each kind. Mux says to set the distiller down nearby before harvesting, then bring it and the ectoplasm back to Gadgetzan.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8924-0352f5d99217173071ca/1-0000.mp3", duration = 48.0914286, start = 0},
+    {file = "Audio/Transport/full_quest_8924-ab3ac7c254ba6db5fae2/1-0000.mp3", duration = 61.6228571, start = 0},
   },
 }
 P.transport["quest:8925"] = {
@@ -5022,7 +5022,7 @@ P.transport["quest:8925"] = {
   fullHash = "52720f",
   text = "A Portable Power Source. Mux Manascrambler needs steady power for his ectoplasm. Rumour points to Magma Lord Bokk in the Burning Steppes, whose heart is a Magma Core, and Mux asks you to bring it to Gadgetzan. Mux Manascrambler needs power he can carry to keep the ectoplasm active. Rumour says Magma Lord Bokk, a mighty elemental, has a Magma Core for a heart. Its heat never ends. Bokk is said to dwell in the Burning Steppes, south of Blackrock Mountain and west of the Pillar of Ash. Mux wants you to bring the core to Gadgetzan to run his extra-dimensional ghost revealer.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8925-808168064c09597e7874/1-0000.mp3", duration = 34.6122449, start = 0},
+    {file = "Audio/Transport/full_quest_8925-d6d8dd6f71c8777a5bb1/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["quest:8928"] = {
@@ -5030,7 +5030,7 @@ P.transport["quest:8928"] = {
   fullHash = "a6341b",
   text = "A Shifty Merchant. In Gadgetzan, Mux Manascrambler has a core for his device but still needs a rod to carry its force without melting. He remembers an imp in Winterspring who offered an elemental rod, and regrets not buying it. You find the imp in a cave at Darkwhisper Gorge’s entrance and buy the Fel Elemental Rod. Mux Manascrambler has the core for his device, but still needs a rod that can carry its force without melting. After A Portable Power Source, he recalls an elemental rod an imp was selling in Winterspring. Mux regrets not buying it then.\n\nThe imp is in a cave at the entrance to Darkwhisper Gorge in southern Winterspring. You buy the Fel Elemental Rod and bring it to Mux in Gadgetzan. He says the imp quoted him forty gold and insists you pay no more.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8928-3b66915d61ddac6ff9b0/1-0000.mp3", duration = 46.8114286, start = 0},
+    {file = "Audio/Transport/full_quest_8928-f2ce9b732ec6d88816c0/1-0000.mp3", duration = 48.5877551, start = 0},
   },
 }
 P.transport["quest:92432"] = {
@@ -5038,7 +5038,7 @@ P.transport["quest:92432"] = {
   fullHash = "b51abc",
   text = "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Jacques was sent by Archmage Modera to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92432-e1649e1e556a03a129af/1-0000.mp3", duration = 44.2253061, start = 0},
+    {file = "Audio/Transport/full_quest_92432-341f27620b947d1db73f/1-0000.mp3", duration = 53.1330612, start = 0},
   },
 }
 P.transport["quest:92434"] = {
@@ -5046,7 +5046,7 @@ P.transport["quest:92434"] = {
   fullHash = "569c34",
   text = "Blood in the Streets. Turmoil grips Dalaran after its barrier comes down. Once the patrols are dealt with, Magus Wordeen Voidglare sees a chance for the Horde to enter and learn the mages' secrets. You carry a key from the internment camp to the sewers on the city's northern edge. With the patrols dealt with, Magus Wordeen Voidglare says turmoil grips Dalaran since its barrier came down. He urges the Horde to enter and learn the mages' secrets while they can. You carry the key from the internment camp to the sewers on Dalaran's northern edge, by Lordamere Lake. Perhaps the mages left that disagreeable entrance unwarded.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92434-19ae699c23d11d5fb245/1-0000.mp3", duration = 36.5714286, start = 0},
+    {file = "Audio/Transport/full_quest_92434-b388e0b68c8d4d9a6389/1-0000.mp3", duration = 41.2473469, start = 0},
   },
 }
 P.transport["quest:92456"] = {
@@ -5054,7 +5054,7 @@ P.transport["quest:92456"] = {
   fullHash = "d7c6e2",
   text = "A Green Sample. In Stormwind City, Shylamiir seeks a living plant from Dalaran’s guarded garden. The cutting is wanted for study of mana-fed growth, but it brings back a darker surprise. Shylamiir in Stormwind City seeks a traveler willing to enter restricted lands. The Kirin Tor’s interest in botany has caught Shylamiir’s attention, and a living plant from Dalaran’s central garden is wanted for study. The secluded sorcerers keep their borders closed to outsiders. Reaching the garden calls for someone able to slip past their defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92456-d26be87352d803ebe0e1/1-0000.mp3", duration = 32.3134694, start = 0},
+    {file = "Audio/Transport/full_quest_92456-ff7454bb0e67c5c6f7ff/1-0000.mp3", duration = 39.0530612, start = 0},
   },
 }
 P.transport["quest:92459"] = {
@@ -5062,7 +5062,7 @@ P.transport["quest:92459"] = {
   fullHash = "000e73",
   text = "Friend of the Kirin Tor. In Dalaran, Modera sends you to carry word that the city is calming and its wards may come down. The Image of Archmage Modera says the council may dislike the subterfuge, but the results are plain. Dalaran is calming, and its wards may now be lowered. She sends you with this good word to Archmage Celindra in the Violet Citadel. For the journey, she gives you an arcane mote.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92459-50ee26ad6e68dc97e52b/1-0000.mp3", duration = 23.8497959, start = 0},
+    {file = "Audio/Transport/full_quest_92459-5c212ea7930ca896a1ed/1-0000.mp3", duration = 27.8204082, start = 0},
   },
 }
 P.transport["quest:92519"] = {
@@ -5070,7 +5070,7 @@ P.transport["quest:92519"] = {
   fullHash = "d0ac62",
   text = "Ward Restocking. At Hammerfall, Doctor Gregory Victor is short of remedies, antidotes, and elixirs for the infirmary. The missing tonics are at Go'Shek Farm. Doctor Gregory Victor tends Hammerfall’s wounded and ailing in the medical ward. The nearby Forsaken apothecary usually supplies the infirmary with remedies, antidotes, and elixirs. When those deliveries stop, Victor turns to capable travelers to keep the clinic stocked. Apothecary Jorell works in a cramped shack at Go'Shek Farm, south and west of Hammerfall. Doctor Victor says Jorell is often absent. The eccentric Forsaken chemist may neglect his duties or succumb to his own noxious concoctions. Couriers sent for the packaged tonics should find the medicine waiting, whether Jorell is there or not.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92519-867b1425531d41e103e1/1-0000.mp3", duration = 45.2963265, start = 0},
+    {file = "Audio/Transport/full_quest_92519-5c4e6a879621c29847f9/1-0000.mp3", duration = 54.0473469, start = 0},
   },
 }
 P.transport["quest:93680"] = {
@@ -5078,7 +5078,7 @@ P.transport["quest:93680"] = {
   fullHash = "bb9d2c",
   text = "Key to the City. Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep. In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93680-68b33e3b7eddfa7306c1/1-0000.mp3", duration = 37.1722449, start = 0},
+    {file = "Audio/Transport/full_quest_93680-2e08ad08f40c60f5772f/1-0000.mp3", duration = 47.5167347, start = 0},
   },
 }
 P.transport["quest:96988"] = {
@@ -5086,7 +5086,7 @@ P.transport["quest:96988"] = {
   fullHash = "7bb378",
   text = "Source of Power. In Dalaran, rogue constructs have turned on their makers, and Doctor Martin Felben sees a chance for the Forsaken. He wants their arcane cores for his work in Undercity and hopes to catch the Dark Lady’s eye. Dalaran’s rogue arcane constructs are laying siege to the magi, and the Forsaken are eager to exploit the city’s turmoil. Doctor Martin Felben, an apothecary in Undercity, seeks to scavenge the cores that power the sentries rather than aid the besieged sorcerers. Dalaran has long guarded its magical research, but its vulnerable sentries now offer an opening to opportunistic researchers. Doctor Felben wants the cracked sentry cores to advance his standing within the Royal Apothecary Society. He hopes to infuse Forsaken abominations with volatile Dalaran construct magic and raise a devastating army of arcane-powered flesh beasts. Such a breakthrough, he believes, would win Lady Sylvanas Windrunner’s undivided attention and show his alchemical genius. He hopes to rise in the Society, where ruthless cunning and potent results dictate survival and rank.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96988-850aa151022ec4085295/1-0000.mp3", duration = 66.1681633, start = 0},
+    {file = "Audio/Transport/full_quest_96988-b3005a79737bed83145b/1-0000.mp3", duration = 76.6693878, start = 0},
   },
 }
 P.transport["quest:97287"] = {
@@ -5094,7 +5094,7 @@ P.transport["quest:97287"] = {
   fullHash = "52b78b",
   text = "Shrewd Negotiations. After your infiltration of the mages' city, Magus Wordeen Voidglare sends you to Dalaran. Carry the arcane mote to Archmage Celindra; Wordeen believes the Kirin Tor will give anything to recover it. Magus Wordeen Voidglare says no order on Azeroth matches the Kirin Tor in arcane knowledge. Even his brilliant work pales beside their ancient wisdom. He believes the Horde should gain access to their exclusive order. So he sends you to Archmage Celindra in Dalaran with the mote you acquired. Wordeen believes the Kirin Tor will give anything to get it back.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97287-d86841f7f788521220df/1-0000.mp3", duration = 34.8995918, start = 0},
+    {file = "Audio/Transport/full_quest_97287-456e2b562563fbbe4f84/1-0000.mp3", duration = 43.1804082, start = 0},
   },
 }
 P.transport["quest:97539"] = {
@@ -5102,7 +5102,7 @@ P.transport["quest:97539"] = {
   fullHash = "1946dc",
   text = "Silky Sutures. At Hammerfall, Doctor Gregory Victor is turning to spider silk as infirmary supplies dwindle. Siege damage remains unrepaired, and the outpost's guards and laborers still need care. Hammerfall endures in the Arathi Highlands, though siege damage still mars its defenses. Doctor Gregory Victor, the outpost's physician, sees the neglect as official policy. With little support and crumbling fortifications around him, he keeps the infirmary running. Its care helps laborers and sentinel guards stay on their feet and ready for conflict. Medical supplies are running low at Hammerfall, so Doctor Victor seeks another way to stitch wounds. Tough highland spider silk can be twisted into resilient sutures when bandages and ordinary thread are scarce. Victor jokes that infection is the least of a wounded soldier's worries. The silk gives the infirmary thread to patch up defenders in hostile territory. Doctor Gregory Victor greets travelers with dry jokes about grave prognoses and stitches made from spider silk. His humor masks the hard truth of running a frontline clinic while Hammerfall remains isolated. Regular aid is rare in the highlands, and travelers can help keep the clinic supplied. Victor relies on improvised remedies and determination to care for the wounded as the outpost decays around him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97539-93efd8e4b02fab59968e/1-0000.mp3", duration = 79.595102, start = 0},
+    {file = "Audio/Transport/full_quest_97539-5a253e376aca124bddd2/1-0000.mp3", duration = 93.7012245, start = 0},
   },
 }
 P.transport["quest:98248"] = {
@@ -5110,7 +5110,7 @@ P.transport["quest:98248"] = {
   fullHash = "106e41",
   text = "Shipping Label. A torn manifest points couriers toward Durotar Supply and Logistics in the Barrens. The company depends on travelers to recover lost crates and return paperwork to its post west of the Crossroads, keeping supplies and trade moving across central Kalimdor. A torn manifest is fixed to a freshly restocked cargo crate. Its recipient's name has worn away, but the heading names Durotar Supply and Logistics, a freight company in Horde territory. Beside the writing, a rough map points couriers toward the company's staging grounds in the central plains. The notice welcomes travelers bringing stray containers, damaged goods, or proof of salvage to the trade outpost west of the Crossroads. Durotar Supply and Logistics depends on independent haulers to recover scattered freight across the Barrens. Those who help keep regional supplies moving receive compensation.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98248-0573c883bfc2da11b1df/1-0000.mp3", duration = 51.0955102, start = 0},
+    {file = "Audio/Transport/full_quest_98248-278c031519eea426f234/1-0000.mp3", duration = 56.3461224, start = 0},
   },
 }
 P.transport["quest:98297"] = {
@@ -5118,7 +5118,7 @@ P.transport["quest:98297"] = {
   fullHash = "e99774",
   text = "Stopping the Cycle. At the Dragonmaw Gates, warlocks are trying to enslave a red dragonspawn. Howin Kindfeather returns from a test flight with troubling news, and the Wildhammer will not let it happen again. Howin Kindfeather asks you to face the subdued dragonspawn at the Dragonmaw Gates. First, kill the warlocks holding it down. That should free it. Then put the dragonspawn out of its misery. Howin expects you to bring friends, for the Wildhammer will not let the Dragonmaw stand in their way.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98297-0399e177aa343a8f0937/1-0000.mp3", duration = 29.2571429, start = 0},
+    {file = "Audio/Transport/full_quest_98297-d883b5040813c1eb6d98/1-0000.mp3", duration = 32.8359184, start = 0},
   },
 }
 P.transport["quest:98895"] = {
@@ -5126,7 +5126,7 @@ P.transport["quest:98895"] = {
   fullHash = "699096",
   text = "Darkspear Islands Clash. Across the Darkspear Islands, Alliance forces are hard pressed. Without help at the front, they risk losing the whole archipelago to the fierce Darkspear Raiders. Open war now rages across the Darkspear Islands between the Alliance and the aggressive Darkspear Raiders. Alliance commanders fear their foothold in the archipelago will be overwhelmed without urgent reinforcements. So they call capable champions to the front to stem the attack. Alliance commanders need proven fighters willing to serve on the front lines. Warriors bring back Darkspear Islands Marks of Honor as proof of their service. The marks uphold discipline and honor those whose courage turns the battle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98895-13596f592615422bea3d/1-0000.mp3", duration = 41.1167347, start = 0},
+    {file = "Audio/Transport/full_quest_98895-a49bf60e1f6de5474ec3/1-0000.mp3", duration = 46.9159184, start = 0},
   },
 }
 P.transport["quest:98896"] = {
@@ -5134,7 +5134,7 @@ P.transport["quest:98896"] = {
   fullHash = "264223",
   text = "Darkspear Islands Clash. Fighting rages across the Darkspear Islands Clash as Darkspear Raiders contest the archipelago. Fighters are called to rally their companions and stop enemy incursions across the islands. Darkspear Raiders skirmish across the beaches and interior of the islands. Forces sent there are urged to hold their ground as the campaign to secure a foothold in the archipelago continues. Commanders on the front line call for fighters to gather against the resilient raiders. Survival and victory depend on rallying nearby allies into a force that can withstand counterattacks. Together, they can rout fortified raiding bands and break their hold on the disputed island strongholds.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98896-637a48fa1c789b3f86eb/1-0000.mp3", duration = 40.6987755, start = 0},
+    {file = "Audio/Transport/full_quest_98896-4b315a6780cb0ae8c564/1-0000.mp3", duration = 49.5804082, start = 0},
   },
 }
 P.transport["quest:992"] = {
@@ -5142,6 +5142,6 @@ P.transport["quest:992"] = {
   fullHash = "b29eb3",
   text = "Gadgetzan Water Survey. Gadgetzan needs water, and Senior Surveyor Fizzledowser is searching the desert for a new source. The Gadgetzan Water Company has lost every well to the nomads, so Fizzledowser hires you to sample a pool near Sandsorrow Watch. The Gadgetzan Water Company has lost every well to the nomads. Now Senior Surveyor Fizzledowser hopes to find other free sources in the desert, but the search calls for a survey. The company needs a temporary junior-grade surveyor to help. Fizzledowser gives you an untapped dowsing widget and sends you to the pool near Sandsorrow Watch. It lies due west of Gadgetzan and south of Zul'Farrak, within view of nearby trolls. Use the widget to tap a water sample, then return it to Fizzledowser.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_992-d983888accc7a0c75ac2/1-0000.mp3", duration = 43.0236735, start = 0},
+    {file = "Audio/Transport/full_quest_992-9ebae2543e3b688c3970/1-0000.mp3", duration = 46.8897959, start = 0},
   },
 }

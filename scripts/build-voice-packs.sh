@@ -13,7 +13,7 @@
 #                                                         stories (levels 1-19, 20+), the same way
 #   LoreForever_Voice_<Default|Female>_Quests2.zip / _Quests3.zip  the rest of the game's quest dialogue (levels up to
 #                                                         50, 51-60: the quests without a lore entry), once recorded
-#   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip  the same for quest levels 31-50 and 51-60, once recorded
+#   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip  the same for quest levels 26-50 and 51-60, once recorded
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
 #   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR, itIT or zhCN (LOR-177),
@@ -201,8 +201,8 @@ DOWNLOADS = {
                                            "LoreForever_Voice_Female_Horde"],
                                           "Female narrator: stories and lands {v}"),
     "LoreForever_Voice_QuestGivers": (["LoreForever_Voice_QuestGivers"], "Quest givers' voices {v}"),
-    # The quest givers' voices for levels 31-50 and 51-60 (voicepack.QUEST_GIVER_PARTS), once recorded.
-    "LoreForever_Voice_QuestGivers2": (["LoreForever_Voice_QuestGivers2"], "Quest givers' voices, levels 31-50 {v}"),
+    # The quest givers' voices for levels 26-50 and 51-60 (voicepack.QUEST_GIVER_PARTS), once recorded.
+    "LoreForever_Voice_QuestGivers2": (["LoreForever_Voice_QuestGivers2"], "Quest givers' voices, levels 26-50 {v}"),
     "LoreForever_Voice_QuestGivers3": (["LoreForever_Voice_QuestGivers3"], "Quest givers' voices, levels 51-60 {v}"),
     # More places and people (complete stories only, voicepack.MORE_PACKS): one zip each, never in the main zip. Skipped
     # until register_full_stories.py makes the folder.

@@ -50,6 +50,9 @@ PLAN_NAMES = ("Adventurer", "Hero", "Champion", "Legend")
 NOT_FOR_ADDON = (re.compile(r"\b(?:" + "|".join(PLAN_NAMES) + r")\b"),
                  re.compile(r"\$\d|\bprices?\b|\bsubscri|\bplans?\b|\bper month\b|\bfree (?:answers|months?|trial)\b"
                             r"|\bbonus answers\b|\b(?:your|an?|Willo's) accounts?\b|\bsign(?:ed|s)? in\b|\binvit(?:e|es|ed)\b|\breferr", re.I))
+# Lore Forever's notes are the add-on's alone (Mike, 11/18, of the site's What's new: "also has Willo. It's kinda
+# weird... Need to move it to Willo"). Her changes wait in changelog.d/willo/ for her own release (release-willo.sh).
+WILLO = re.compile(r"\bWillo\b")
 MAX_ITEMS, MAX_CHARS = 8, 220   # a few lines, one per theme, none technical (Mike, 2026-10-22). 0.26.0's notes were
                                 # fine but for the 290-character line naming a setting
 
@@ -218,7 +221,10 @@ def highlights(body: str) -> list[tuple[str, str]]:
 
 def newbar(version: str, body: str) -> list[str]:
     """The home page's "New in" strip: the newest version's headline changes, each a link to its notes. The inline
-    script shows it before the page paints unless you've already caught up (lf-seen, see header.js)."""
+    script shows it before the page paints unless you've already caught up (lf-seen, see header.js). A version with no
+    headline change (small fixes alone) has no strip: it would announce nothing."""
+    if not highlights(body):
+        return []
     links, sep = [], '<span class="newbar-sep" aria-hidden="true">&middot;</span>'
     for i, (lead, _) in enumerate(highlights(body)):
         cls = ' class="newbar-more"' if i else ""
@@ -248,10 +254,12 @@ def whats_new_block(released: list[tuple[str, str]]) -> list[str]:
         out.append(f'<article class="wn-ver" id="{_anchor(version)}" data-version="{version}">')
         if i == 0:
             out.append(f'  <div class="wn-head"><h2>{version}</h2>{when}</div>')
-            out.append('  <div class="wn-hl">')
-            for lead, rest in highlights(body):
-                out.append(f'    <section class="wn-card"><h3>{_inline(lead)}</h3><p>{_inline(_first_sentence(rest))}</p></section>')
-            out.append("  </div>")
+            cards = highlights(body)
+            if cards:   # a version of small fixes alone has none, and no empty row of cards
+                out.append('  <div class="wn-hl">')
+                for lead, rest in cards:
+                    out.append(f'    <section class="wn-card"><h3>{_inline(lead)}</h3><p>{_inline(_first_sentence(rest))}</p></section>')
+                out.append("  </div>")
             out.append(f'  <details class="wn-all" open><summary>All {count} in {version}</summary>')
         else:
             out.append(f'  <details class="wn-all"><summary><h2>{version}</h2>{when}'
@@ -266,7 +274,7 @@ def whats_new_block(released: list[tuple[str, str]]) -> list[str]:
 
 def lint(version: str) -> list[str]:
     """What breaks changelog.d/README.md's rules in VERSION's notes: too many lines, a long one, a quoted settings
-    name, a theme twice. A short plain line (\"Corrected lore in 22 entries.\") is fine. Empty when they read fine."""
+    name, a theme twice, a line about Willo (hers go on her own page). A short plain line (\"Corrected lore in 22 entries.\") is fine. Empty when they read fine."""
     items, problems, leads = _bullets(notes(version)), [], set()
     if len(items) > MAX_ITEMS:
         problems.append(f"{len(items)} lines; keep at most {MAX_ITEMS}, one per theme (merge or drop the rest)")
@@ -278,6 +286,8 @@ def lint(version: str) -> list[str]:
             problems.append(f"{len(plain)} characters; keep it under {MAX_CHARS}: {short}")
         if re.search(r"[\"“”]", plain):
             problems.append(f"a quoted name (settings names are internals): {short}")
+        if WILLO.search(plain):
+            problems.append(f"names Willo: a change to her goes in changelog.d/willo/, her own What's new: {short}")
         if lead and lead.lower() in leads:
             problems.append(f"the same lead-in twice; one line per theme: {lead}")
         leads.add(lead.lower())

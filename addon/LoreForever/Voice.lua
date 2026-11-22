@@ -45,7 +45,7 @@ local QUEST_GIVER_PACKS = { QUEST_GIVERS .. "_Start", QUEST_GIVERS, QUEST_GIVERS
 Voice.DOWNLOADS = "loreforeverwow.com/downloads"
 local AUTO = "auto"
 local NATIVE_NAMES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
-  esMX = "Español (Latinoamérica)", ptBR = "Português", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
+  esMX = "Español (Latinoamérica)", ptBR = "Português (Brasil)", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
   zhCN = "简体中文", zhTW = "繁體中文", ukUA = "Українська",
   roRO = "Română", svSE = "Svenska" }
 
@@ -68,13 +68,17 @@ local function say(msg) DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r
 -- b, ...: the message a string, not the entry) and builds the new line from what the transform returns, so it returns
 -- the new message and everything after it untouched (the Architect, #4549). The client stamps the rewritten line anew,
 -- so in a faded chat box it shows again for a moment: "played" is worth that look.
+-- The client asks about every line in the chat's history, other players' too, and some it keeps secret (chat in an
+-- instance or in combat): their type says "string" but reading one raises, and the client shows that error to the
+-- player through its own handler, past our pcall, once a line each time (LOR-1603: 46 in 7 hours). Ours is never
+-- secret, so a secret line is simply not it.
 local nowLine
 local function pastNowLine()
   local n, f = nowLine, DEFAULT_CHAT_FRAME
   nowLine = nil
   if not (n and f and f.TransformMessages) then return end
   pcall(f.TransformMessages, f, function(message)
-    return type(message) == "string" and message:find(n.text, 1, true) ~= nil
+    return ns.Context.Usable(message) and type(message) == "string" and message:find(n.text, 1, true) ~= nil
   end, function(message, ...)
     local s, e = message:find(n.text, 1, true)
     return message:sub(1, s - 1) .. n.past .. message:sub(e + 1), ...
@@ -547,6 +551,33 @@ function Voice.Count(name)
   return have, stale
 end
 
+-- The other loaded packs of the voice a pack belongs to (its base pack and the base's extensions), once per count: a
+-- current take there is the one that plays.
+local function siblingsOf(pack)
+  local rec = ns.Packs.Get(pack)
+  local base = rec and (rec.extends or Voice.KeyOf(rec.name))
+  local out = {}
+  if not base then return out end
+  local all = Voice.Extensions(base)
+  table.insert(all, 1, base)
+  for _, other in ipairs(all) do
+    if other ~= pack and ns.Packs.data[other] then out[#out + 1] = other end
+  end
+  return out
+end
+-- A pack's old copy of a story or quest page isn't outdated for the player when a sibling holds the current take: that
+-- one plays. A contested place's story is in both lands packs and a re-record lands in the first, so the Horde lands pack
+-- showed 99 "outdated" that all played their new take from the Alliance one, and a player hunted for an update that
+-- doesn't exist (LOR-1617).
+local function currentIn(siblings, id, expected, quest)
+  for _, other in ipairs(siblings) do
+    if Voice.ClipCurrent(id, other, expected) or (not quest and Voice.Transport and Voice.Transport(id, other, true)) then
+      return true
+    end
+  end
+  return false
+end
+
 -- LOR-350: every installed pack, separately from narrator priority. Reading voice tables only registers metadata;
 -- language tables are never loaded or applied here. Counts describe recording IDs, not verified audio files. Not the
 -- retired answers packs (below, Voice.Refresh): they play nothing, so they'd only be a puzzle on the list (LOR-787).
@@ -614,6 +645,7 @@ function Voice.InstalledPacks()
     elseif rec.kind == "voice" and data then
       it.counts = { lore = 0, quest = 0, answer = 0, unknown = 0 }
       it.stale, it.recorded = 0, 0
+      local siblings = siblingsOf(rec.name)
       for id, hash in pairs(data.clips or {}) do
         local category, expected
         local entry, n = id:match("^(.-)#faq(%d+)$")
@@ -636,7 +668,7 @@ function Voice.InstalledPacks()
         elseif Voice.ClipCurrent(id, rec.name, expected) or (category == "lore" and expected and Voice.Transport and Voice.Transport(id, rec.name, true)) then
           it.counts[category] = it.counts[category] + 1
         elseif expected and expected ~= "" then
-          it.stale = it.stale + 1
+          if not currentIn(siblings, id, expected, category == "quest") then it.stale = it.stale + 1 end
         else
           it.counts.unknown = it.counts.unknown + 1
         end
@@ -1207,7 +1239,7 @@ local function versionOf(name)
 end
 -- A pack's recorded stories and quest pages whose words have changed since (as Options > Installed packs counts them).
 local function outdatedIn(name, data)
-  local n = 0
+  local n, siblings = 0, siblingsOf(name)
   for id in pairs(data.clips or {}) do
     if not id:find("#faq", 1, true) then
       local quest = isQuestClip(id)
@@ -1218,7 +1250,8 @@ local function outdatedIn(name, data)
         expected = ns.DB.clipHash and ns.DB.clipHash[id]
       end
       if expected and expected ~= "" and not Voice.ClipCurrent(id, name, expected)
-          and not (not quest and Voice.Transport and Voice.Transport(id, name, true)) then
+          and not (not quest and Voice.Transport and Voice.Transport(id, name, true))
+          and not currentIn(siblings, id, expected, quest) then
         n = n + 1
       end
     end
@@ -3294,6 +3327,23 @@ local function keepWaiting(waiting, kept)
   admitPage(waiting.qid, waiting.kind, waiting.target, waiting, kept)
 end
 
+-- A page that would have played by itself opened in silence because its level's quest voices are a download the
+-- player hasn't got (LOR-1606, a player 11/21: ticked quest auto-play and never heard a quest; the core download has
+-- the starting zones' only). The Lore tooltip's own line (Voice.QuestPackHint), said in chat once a session per
+-- download, under "Narration pack hints" as the lands packs' is (Voice.OnZone). Only when that download would voice
+-- this page (Voice.QuestDownload): never for a quest no pack recorded or a page Forever rewrote (the Architect, #4865).
+local function sayQuestPackHint(qid, kind)
+  if S().packHints == false then return end
+  local Hooks = ns.Hooks
+  local ok, line = pcall(function()
+    local level = Hooks and Hooks.QuestLevel and Hooks.QuestLevel(qid)
+    return Voice.QuestDownload(qid, kind, level) and Voice.QuestPackHint(level) or nil
+  end)
+  if not (ok and line) or Voice.hinted["quest:" .. line] then return end
+  Voice.hinted["quest:" .. line] = true
+  say(line)
+end
+
 -- A quest giver's window shows a page (QUEST_DETAIL, QUEST_PROGRESS, QUEST_COMPLETE). Voice.questKind remembers which,
 -- for the play button and UI.QuestPageClip.
 function Voice.OnQuestFrame(kind, recorded, again)
@@ -3323,7 +3373,10 @@ function Voice.OnQuestFrame(kind, recorded, again)
   local fresh = not Voice.openPages[id] and not Voice.GameTalking()
   -- Only a quest the voices have whole starts by itself: a partly recorded one keeps its play button (LOR-1408).
   local target = fresh and Voice.QuestWhole(qid) and questTarget(qid, kind, recorded) or nil
-  if not target then return end
+  if not target then
+    if fresh then sayQuestPackHint(qid, kind) end
+    return
+  end
   -- Nothing of a quest giver's plays yet: the NPC may still be greeting you. This page waits for that, then plays or
   -- queues, if it's still up. A quest giver already speaking: it queues behind (the greeting is over by its turn).
   local questSpeaking = UI.speaking and isQuestText(UI.playingId)

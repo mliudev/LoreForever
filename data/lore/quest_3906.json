@@ -1,0 +1,68 @@
+{
+ "key": "quest:3906",
+ "type": "quest",
+ "name": "Disharmony of Flame",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3906
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Thunderheart sends you to the quarry in Blackrock Mountain to slay Overmaster Pyron. Return to Thunderheart when the assignment is complete.",
+ "sections": [
+  {
+   "title": "At the Quarry",
+   "body": "The quarry in Blackrock Mountain is where Thunderheart sends you. Overmaster Pyron is your target, and Thunderheart awaits your return after the assignment is complete.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Thunderheart asking me to kill?",
+   "aliases": [
+    "who do I slay",
+    "pyron assignment",
+    "overmaster pyron"
+   ],
+   "answer": "Thunderheart sends you to slay Overmaster Pyron at the quarry in Blackrock Mountain."
+  },
+  {
+   "q": "Where is Overmaster Pyron?",
+   "aliases": [
+    "where's pyron",
+    "quarry location",
+    "blackrock mountain target"
+   ],
+   "answer": "Overmaster Pyron is at the quarry in Blackrock Mountain."
+  },
+  {
+   "q": "Who do I return to afterward?",
+   "aliases": [
+    "where do I go back",
+    "return to thunderheart",
+    "who waits for me"
+   ],
+   "answer": "Return to Thunderheart when you have completed the assignment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock mountain",
+  "disharmony of flame",
+  "flame",
+  "overmaster pyron",
+  "quarry",
+  "thunderheart"
+ ],
+ "related": [
+  "subzone:blackrock-mountain",
+  "quest:4262"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Disharmony of Flame"
+ ]
+}

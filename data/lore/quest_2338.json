@@ -1,0 +1,75 @@
+{
+ "key": "quest:2338",
+ "type": "quest",
+ "name": "Translating the Journal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2338
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jarkal offers to translate the journal if you let him borrow the necklace. He expects the bargain to benefit you both while Droffers and Son Salvage get what they want.",
+ "sections": [
+  {
+   "title": "A Bargain",
+   "body": "Jarkal wants to borrow the necklace in exchange for translating the journal. He believes you and he will each gain what you seek, while Droffers and Son Salvage will also think they have gained their wishes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Jarkal want?",
+   "aliases": [
+    "jarkal necklace",
+    "what does he want",
+    "journal translation"
+   ],
+   "answer": "Jarkal asks to borrow the necklace and offers to translate the journal in exchange."
+  },
+  {
+   "q": "What is the deal?",
+   "aliases": [
+    "what's the bargain",
+    "necklace for translation",
+    "translate journal quest"
+   ],
+   "answer": "You let Jarkal borrow the necklace, and he translates the journal for you."
+  },
+  {
+   "q": "Who is Droffers and Son Salvage?",
+   "aliases": [
+    "droffers and son",
+    "droffers salvage",
+    "who are droffers"
+   ],
+   "answer": "Droffers and Son Salvage are named in Jarkal's description of the bargain; he says they will think they are getting what they want."
+  },
+  {
+   "q": "What does Jarkal think will happen?",
+   "aliases": [
+    "what does jarkal think",
+    "who gets what",
+    "deal outcome"
+   ],
+   "answer": "Jarkal thinks you and he will each get what you want, and Droffers and Son Salvage will think the same."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bargain",
+  "droffers",
+  "jarkal",
+  "journal",
+  "necklace",
+  "son salvage",
+  "translation"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Translating the Journal"
+ ]
+}

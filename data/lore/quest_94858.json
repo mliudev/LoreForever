@@ -1,0 +1,86 @@
+{
+ "key": "quest:94858",
+ "type": "quest",
+ "name": "All That's Left",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94858
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Farmer Elbrim asks you to search the nearby barn for what remains of his family after the Twilight's Hammer attack. He hopes to bring them home to rest beside him.",
+ "sections": [
+  {
+   "title": "A Family's Keepsakes",
+   "body": "Elbrim cannot bring himself to look in the barn, where he hid those unable to defend themselves during the attack. He asks you to find his family's possessions there and bring them back. He needs to know what remains, and hopes they can be buried at home with him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to search the barn?",
+   "aliases": [
+    "who wants me at the barn",
+    "farmer elbrim",
+    "who gave this"
+   ],
+   "answer": "Farmer Elbrim asks you to search the nearby barn for his family's possessions."
+  },
+  {
+   "q": "What happened to Elbrim's family?",
+   "aliases": [
+    "elbrim family",
+    "what happened at the barn",
+    "family attack"
+   ],
+   "answer": "Elbrim hid those who could not defend themselves in the barn during the Twilight's Hammer attack. He asks you to find their possessions, but does not know what remains."
+  },
+  {
+   "q": "Why did Elbrim hide them in the barn?",
+   "aliases": [
+    "why the barn",
+    "where did he hide them",
+    "elbrim hiding"
+   ],
+   "answer": "Elbrim put those unable to defend themselves in the barn because he thought they would be safe."
+  },
+  {
+   "q": "What does Elbrim want me to find?",
+   "aliases": [
+    "what am i looking for",
+    "barn things",
+    "find family stuff"
+   ],
+   "answer": "Elbrim asks you to find his family's possessions in the nearby barn and return them to him."
+  },
+  {
+   "q": "Where does Elbrim want his family buried?",
+   "aliases": [
+    "bury the family where",
+    "family burial",
+    "rest together"
+   ],
+   "answer": "Elbrim hopes his family can be buried at home with him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "all that's left",
+  "barn",
+  "burial",
+  "family",
+  "farmer elbrim",
+  "possessions",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: All That's Left"
+ ]
+}

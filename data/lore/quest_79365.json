@@ -1,0 +1,65 @@
+{
+ "key": "quest:79365",
+ "type": "quest",
+ "name": "With Wind Beneath Your Wings",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79365
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Squall-breakers Potion offers brief protection from the storm\u2019s elements. You are sent back to Rau Cliffrunner at Freewind Post in Thousand Needles.",
+ "sections": [
+  {
+   "title": "Back to Freewind",
+   "body": "A storm still threatens your friends, and the potion\u2019s protection lasts only a short while. Return to Rau Cliffrunner at Freewind Post in Thousand Needles, where your friends are waiting in need.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the potion do?",
+   "aliases": [
+    "potion protection",
+    "squall-breakers potion"
+   ],
+   "answer": "The Squall-breakers Potion protects you against the elements of the storm for a short while."
+  },
+  {
+   "q": "Who should I return to?",
+   "aliases": [
+    "where to go",
+    "rau cliffrunner"
+   ],
+   "answer": "Return to Rau Cliffrunner at Freewind Post in Thousand Needles."
+  },
+  {
+   "q": "Why am I going back?",
+   "aliases": [
+    "friends in need",
+    "return to friends"
+   ],
+   "answer": "You are being sent back to your friends in need."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "freewind post",
+  "rau cliffrunner",
+  "squall-breakers potion",
+  "storm",
+  "thousand needles"
+ ],
+ "related": [
+  "npc:rau-cliffrunner",
+  "subzone:freewind-post",
+  "zone:thousandneedles"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: With Wind Beneath Your Wings"
+ ]
+}

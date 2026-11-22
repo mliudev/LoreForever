@@ -139,7 +139,7 @@ local function questText(target, kind)
     local cur = ns.UI.pl.items[ns.UI.pl.pos]
     qid = cur and cur.pages and tonumber(cur.quest)
   end
-  local saved = qid and LoreForeverDB and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests[qid]
+  local saved = qid and ns.Log.KeptQuest(qid)
   local text = type(saved) == "table" and saved[QUEST_FIELD[kind]]
   -- (kept text says $N where the game said the player's name, LOR-1127)
   if type(text) == "string" and text:find("%S") then return ns.Capture.Personal(text) end

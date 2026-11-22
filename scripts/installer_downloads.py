@@ -191,8 +191,8 @@ LABELS = {'MorePlaces': 'More places', 'MorePeople': 'More people', 'MoreItems':
           'MoreQuests0': 'Quest stories, levels 1-10', 'MoreQuests1': 'Quest stories, levels 1-19', 'MoreQuests2': 'Quest stories, levels 20-39',
           'MoreQuests3': 'Quest stories, levels 40+ and in-world books',
           'Quests': 'Quest dialogue, levels 1-25', 'Quests2': 'Quest dialogue, levels 26-50',
-          'Quests3': 'Quest dialogue, levels 51-60', 'QuestGivers': "Quest givers' voices, levels 1-30",
-          'QuestGivers2': "Quest givers' voices, levels 31-50", 'QuestGivers3': "Quest givers' voices, levels 51-60"}
+          'Quests3': 'Quest dialogue, levels 51-60', 'QuestGivers': "Quest givers' voices, levels 1-25",
+          'QuestGivers2': "Quest givers' voices, levels 26-50", 'QuestGivers3': "Quest givers' voices, levels 51-60"}
 # What a player needs first comes first (PM, ask 14711: "the add-on, then the starting zones' packs, then the rest"):
 # Setup itself carries the add-on; then a narrator's own stories and lands, then the packs for levels 1-30.
 STARTING_ZONES = ('_Quests', '_QuestGivers', '_MoreQuests0', '_MoreQuests1')

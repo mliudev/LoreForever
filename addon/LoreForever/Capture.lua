@@ -442,6 +442,7 @@ function Capture.Init()
   c.build = (type(version) == "string" and version or "") .. (build and ("." .. tostring(build)) or "")
   c.game, c.toc, c.project = Capture.Game(version), tonumber(toc), tonumber(_G.WOW_PROJECT_ID)
   c.season = _G.C_Seasons and tonumber(call(_G.C_Seasons.GetActiveSeason)) or nil
+  if ns.Log.PlaceQuestLanguages then pcall(ns.Log.PlaceQuestLanguages, c.locale) end   -- older kept text (LOR-1607)
   c.locale = call(_G.GetLocale) or c.locale or "enUS"
   c.version = ns.Log.Version()
   if type(c.install) ~= "string" or not c.install:match("^%x+$") then c.install = randomId() end
@@ -698,7 +699,7 @@ function Capture.QuestLogLine(questID)
   local idx = QL and QL.GetLogIndexForQuestID and call(QL.GetLogIndexForQuestID, questID)
   local raw = call(GetQuestLogQuestText, idx)
   if not usable(raw) or Capture.Ships("quest", questID, "detail", raw) then return nil end
-  local rec = LoreForeverDB.quests and LoreForeverDB.quests[questID]
+  local rec = ns.Log.KeptQuest(questID)
   return shareable({ kind = "quest", id = questID, part = "detail", text = Capture.Placeholders(raw),
     speaker = rec and rec.starter, player = Capture.PlayerTag(), key = "quest:" .. questID .. "#detail",
     label = rec and rec.title })

@@ -1,0 +1,71 @@
+{
+ "key": "quest:2418",
+ "type": "quest",
+ "name": "Power Stones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2418
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Rigglefuzz in the Badlands asks you to bring him Dentrium and An'Alleum Power Stones. You are to gather eight of each.",
+ "sections": [
+  {
+   "title": "Rigglefuzz's Request",
+   "body": "Rigglefuzz asks you for two kinds of power stone in the Badlands. He needs eight Dentrium Power Stones and eight An'Alleum Power Stones. Both kinds are needed for his request.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the power stones?",
+   "aliases": [
+    "who asks for stones",
+    "Rigglefuzz stones"
+   ],
+   "answer": "Rigglefuzz in the Badlands asks you to bring him the power stones."
+  },
+  {
+   "q": "Which power stones does Rigglefuzz need?",
+   "aliases": [
+    "what stones",
+    "stone types"
+   ],
+   "answer": "He needs Dentrium Power Stones and An'Alleum Power Stones."
+  },
+  {
+   "q": "How many Dentrium Power Stones are needed?",
+   "aliases": [
+    "Dentrium amount",
+    "how many Dentrium"
+   ],
+   "answer": "Rigglefuzz asks for eight Dentrium Power Stones."
+  },
+  {
+   "q": "How many An'Alleum Power Stones are needed?",
+   "aliases": [
+    "An'Alleum amount",
+    "how many An'Alleum"
+   ],
+   "answer": "Rigglefuzz asks for eight An'Alleum Power Stones."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "an'alleum power stones",
+  "badlands",
+  "dentrium power stones",
+  "power stones",
+  "rigglefuzz"
+ ],
+ "related": [
+  "zone:badlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Power Stones"
+ ]
+}

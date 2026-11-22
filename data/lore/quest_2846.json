@@ -1,0 +1,80 @@
+{
+ "key": "quest:2846",
+ "type": "quest",
+ "name": "Tiara of the Deep",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2846
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tabetha asks you to bring her the Tiara of the Deep in Dustwallow Marsh. Velratha has taken it, and Tabetha wants it returned.",
+ "sections": [
+  {
+   "title": "Tabetha's Request",
+   "body": "Tabetha in Dustwallow Marsh wants the Tiara of the Deep back from Velratha. You are to bring the tiara to her, and she asks whether Velratha has paid for crossing her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Tiara of the Deep?",
+   "aliases": [
+    "who wants the tiara",
+    "tabetha tiara"
+   ],
+   "answer": "Tabetha wants you to bring her the Tiara of the Deep in Dustwallow Marsh."
+  },
+  {
+   "q": "Where do I take the Tiara of the Deep?",
+   "aliases": [
+    "where to take tiara",
+    "tiara destination"
+   ],
+   "answer": "Bring the Tiara of the Deep to Tabetha in Dustwallow Marsh."
+  },
+  {
+   "q": "Who has the tiara?",
+   "aliases": [
+    "who took tiara",
+    "velratha tiara"
+   ],
+   "answer": "Tabetha says Velratha has the Tiara of the Deep."
+  },
+  {
+   "q": "Why is Tabetha angry with Velratha?",
+   "aliases": [
+    "tabetha mad why",
+    "velratha crossed tabetha"
+   ],
+   "answer": "Tabetha says Velratha crossed her and took the tiara."
+  },
+  {
+   "q": "What does Tabetha ask when I return?",
+   "aliases": [
+    "tabetha return",
+    "what tabetha asks"
+   ],
+   "answer": "Tabetha asks whether you have the tiara and whether Velratha has learned the price of crossing her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "tabetha",
+  "tiara",
+  "tiara of the deep",
+  "velratha"
+ ],
+ "related": [
+  "npc:tabetha",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tiara of the Deep"
+ ]
+}

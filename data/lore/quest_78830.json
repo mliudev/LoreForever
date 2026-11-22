@@ -1,0 +1,88 @@
+{
+ "key": "quest:78830",
+ "type": "quest",
+ "name": "Terror of the Desert Skies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78830
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hemet Nesingwary has heard of Gharrik, a great bird that hunts in the Badlands. He lends you a cage for live bait and seeks one of her quills.",
+ "sections": [
+  {
+   "title": "A Desert Hunter",
+   "body": "A drawing brings Gharrik to mind for Hemet Nesingwary, who has heard of her on another expedition. The great bird is said to rule the Badlands as an apex predator. You are asked to seek her northeast of Camp Cagg, where she was last spotted, and use live bait to draw her out. Small wildlife is scarce in the Badlands, so Hemet lends you a cage to catch bait elsewhere. He hopes for one of Gharrik's quills.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gharrik?",
+   "aliases": [
+    "gharrik bird",
+    "desert bird",
+    "who is gharrik"
+   ],
+   "answer": "Gharrik is a great bird said to be an apex predator in the Badlands."
+  },
+  {
+   "q": "Where was Gharrik last seen?",
+   "aliases": [
+    "gharrik location",
+    "where gharrik",
+    "northeast camp cagg"
+   ],
+   "answer": "Gharrik was last spotted northeast of Camp Cagg in the Badlands."
+  },
+  {
+   "q": "Why does Hemet want a quill?",
+   "aliases": [
+    "gharrik feather",
+    "quill prize",
+    "why quill"
+   ],
+   "answer": "Hemet says a quill from Gharrik would make a fine prize and make you the talk of the camp."
+  },
+  {
+   "q": "Where can you find bait?",
+   "aliases": [
+    "live bait",
+    "bait for gharrik",
+    "cage bait"
+   ],
+   "answer": "Small wildlife is scarce in the Badlands, so Hemet says to find live bait elsewhere and lends you a cage to catch some."
+  },
+  {
+   "q": "Who sent me after Gharrik?",
+   "aliases": [
+    "gharrik quest giver",
+    "hemet gharrik",
+    "who wants the quill"
+   ],
+   "answer": "Hemet Nesingwary asks you to seek Gharrik and bring back one of her quills."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "camp cagg",
+  "crimson trophy quill",
+  "gharrik",
+  "great bird",
+  "hemet nesingwary",
+  "live bait"
+ ],
+ "related": [
+  "quest:5762",
+  "zone:badlands",
+  "zone:stranglethorn"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Terror of the Desert Skies"
+ ]
+}

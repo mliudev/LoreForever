@@ -6711,9 +6711,9 @@
     "npc:kreldig-ungor": {
       "1": [
         {
-          "duration": 67.55265306122449,
-          "file": "Audio/Transport/full_npc_kreldig-ungor-1c920013f18d0b369e41/1-0000.mp3",
-          "sha256": "121bd5601b5d24910f210841bf7ce2d14e4ab3d43a97409aa0b0d8074ac187e0",
+          "duration": 68.4669387755102,
+          "file": "Audio/Transport/full_npc_kreldig-ungor-d7d0c52a710b81ca84ca/1-0000.mp3",
+          "sha256": "9675b4c0d9d14c403b44816c77c00159a9df578113afb1e793378fa9390e7a8d",
           "start": 0
         }
       ],
@@ -6725,12 +6725,12 @@
         ]
       },
       "fullHash": "07f2ee",
-      "generation": "242aed263f42c01b9815",
+      "generation": "a3a8b5d71d6fb471a6ce",
       "hash": "07f2ee",
       "source": {
-        "duration": 67.578776,
+        "duration": 68.493061,
         "file": null,
-        "sha256": "1c920013f18d0b369e41123d62b6b7a269d66e9f26fb1f8721c2badf0f71b9d9"
+        "sha256": "d7d0c52a710b81ca84ca7d416c9ac3eb63751e8c15bb413df62a1c1c612611dc"
       },
       "text": "Kreldig Ungor. At Nijel's Point, Kreldig Ungor directs Reclaimers Inc.'s work in dangerous Desolace. He hires Alliance adventurers to recover lost cargo and gather local reagents. Kreldig works from Nijel's Point, an Alliance refuge among Desolace's blighted canyons. He represents Reclaimers Inc., far from Khaz Modan, where centaur clans, demons, and the Horde contest the wilderness. Others see ruin and ash. Kreldig sees lost goods and assets that can still be reclaimed for profit. Kreldig seeks the lost vessel of Karnitol, wrecked along Desolace's treacherous western coast. Its shipment held prized goods. He directs the search for the wreck and the scattered cargo, before scavengers or coastal sea giants claim it. Kreldig also oversees the gathering of Desolace's unusual biological and mineral resources for Reclaimers Inc. The harsh land breeds distinctive fauna and flora, whose parts bring high prices from alchemists and engineers in the Eastern Kingdoms. Adventurers who face the wasteland's predators can earn steady pay through his contracts."
     },
@@ -10507,9 +10507,9 @@
     "npc:royal-historian-archesonus": {
       "1": [
         {
-          "duration": 73.79591836734694,
-          "file": "Audio/Transport/full_npc_royal-historian-archesonus-dd6738983137cd4a4808/1-0000.mp3",
-          "sha256": "7d6eb4a31da289ca1952507451b89f253251d431b547f08806d1b93f018d85e2",
+          "duration": 74.78857142857143,
+          "file": "Audio/Transport/full_npc_royal-historian-archesonus-3dfc65339feb12f75d54/1-0000.mp3",
+          "sha256": "dbc6d5abcdd78747aa0b9e57419ebdc4c4f20847f6ba52eeb4dc94d94019fa50",
           "start": 0
         }
       ],
@@ -10520,15 +10520,15 @@
           "1"
         ]
       },
-      "fullHash": "c4ba19",
-      "generation": "cfe1d877342c607fdd1f",
-      "hash": "c4ba19",
+      "fullHash": "8fc6ab",
+      "generation": "ba7bdf7219b788e415bc",
+      "hash": "8fc6ab",
       "source": {
-        "duration": 73.822041,
+        "duration": 74.814694,
         "file": null,
-        "sha256": "dd6738983137cd4a48086e9137d7c956a7994fed52fa1105357de1f6ada8bce2"
+        "sha256": "3dfc65339feb12f75d54a2817ccb14052843973c9be65d88cb122f8cd236d2e3"
       },
-      "text": "Royal Historian Archesonus. At the High Seat, Royal Historian Archesonus records calamities for the Ironforge crown. A dwarven scholar in King Magni Bronzebeard’s service, she writes of disasters in the northern human kingdoms and oversees study of ancient dwarven tragedies, including the Dark Iron kingdom’s scorched remains. Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' In them, she traces the Scourge’s ruin of humanity’s northern realm. She records the truth of ruinous magic and political collapse with care. Royal Historian Archesonus oversees research into the War of the Three Hammers and Thaurissan’s destruction. She seeks relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord."
+      "text": "Royal Historian Archesonus. At the High Seat, Royal Historian Archesonus records calamities for the Ironforge crown. A dwarven scholar in King Magni Bronzebeard’s service, she writes of disasters in the northern human kingdoms and oversees study of ancient dwarven tragedies, including the Dark Iron kingdom’s scorched remains. Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' In them, she traces the Scourge’s ruin of humanity’s northern realm. She records the truth of ruinous magic and political collapse with care. Royal Historian Archesonus oversees research into the War of the Three Hammers and Thaurissan’s destruction. She seeks relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the disaster that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord."
     },
     "npc:ruga-ragetotem": {
       "1": [
@@ -14173,9 +14173,9 @@
     "topic:agamaggan": {
       "1": [
         {
-          "duration": 111.17714285714285,
-          "file": "Audio/Transport/full_topic_agamaggan-ff3070d1ad27e5723364/1-0000.mp3",
-          "sha256": "9999131b7afe533e6b70edfb0d010ad5cd25166b2c4dbda22dabdb3683da4bce",
+          "duration": 99.26530612244899,
+          "file": "Audio/Transport/full_topic_agamaggan-ca20b0cd8daef7154509/1-0000.mp3",
+          "sha256": "cb3d3cf9a96754ead0c9d76efa5914a5edf927adba0fc4d77b8423e3b2775562",
           "start": 0
         }
       ],
@@ -14187,21 +14187,21 @@
         ]
       },
       "fullHash": "0f8ef7",
-      "generation": "2173c47991cce43b4f6e",
+      "generation": "9d66ee3427556d77815e",
       "hash": "0f8ef7",
       "source": {
-        "duration": 111.203265,
+        "duration": 99.291429,
         "file": null,
-        "sha256": "ff3070d1ad27e5723364c14240eff5426b4726c858245dec9bee92dfd2e1b90b"
+        "sha256": "ca20b0cd8daef715450956fcda6bee22e40d84d2ef8027068cedec61d992dcad"
       },
       "text": "Agamaggan. In the War of the Ancients, Agamaggan gave his life against the Burning Legion. His blood and fallen body gave rise to the Razorfen, now home to the quilboar. Ten thousand years ago, Agamaggan joined the fight against the Burning Legion. The mighty demigod charged with terrifying force, yet fell in the War of the Ancients. His sacrifice helped save Azeroth from ruin. Agamaggan fell in the southern Barrens, and his body changed the land. His blood soaked the soil, and thorny vines rose from the dry earth to form the Razorfen. The quilboar hold this ground sacred. They see Razorfen Kraul as his resting body and Razorfen Downs as his gaping skull.\n\nAcross the Barrens, crystallized Blood Shards are believed to be remnants of his spilled blood. Quilboar geomancers and shamans draw power from the lingering primal energy within them. The quilboar revere Agamaggan as their divine forefather. To them, the surrounding brambles are the living armor their creator left to shelter them from hostile neighbors. They believe his spirit watches over them, lending vigor to their warriors and earth magic to their geomancers.\n\nThey defend the thorns against tauren, orcs, and centaur. They believe it is their sacred duty to guard the fallen body of the boar god who birthed them."
     },
     "topic:alliance": {
       "1": [
         {
-          "duration": 177.0579591836735,
-          "file": "Audio/Transport/full_topic_alliance-dcd75dda68b2558a547d/1-0000.mp3",
-          "sha256": "d819ae3ffa3cc79a43d1f8363a940608b02768f6cdf422958225145bfabd840f",
+          "duration": 142.00163265306122,
+          "file": "Audio/Transport/full_topic_alliance-046e21dde6a008a14c68/1-0000.mp3",
+          "sha256": "a60fbb45a73c15ea5be318f6485c196b72c50f18bc39c022a0428fe6c4ce382f",
           "start": 0
         }
       ],
@@ -14213,21 +14213,21 @@
         ]
       },
       "fullHash": "8185db",
-      "generation": "a4ce497015bdf10762b0",
+      "generation": "c3169a1a7ed86fe47ad3",
       "hash": "8185db",
       "source": {
-        "duration": 177.084082,
+        "duration": 142.027755,
         "file": null,
-        "sha256": "dcd75dda68b2558a547db0c90ee4af6c1396df8f2dad8d9f8d6cf909f392dfe1"
+        "sha256": "046e21dde6a008a14c68fe68ce2acf8561f6470280910e97417f446019cbe01a"
       },
       "text": "Alliance. Across Azeroth, the Alliance now gathers its peoples around Stormwind. Its roots lie in Lordaeron's ruin, and its heart is Stormwind City, beside Ironforge's dwarves, the exiled gnomes, and Kalimdor's night elves. The modern Alliance descends from the Alliance of Lordaeron. During the Second War, Sir Anduin Lothar led Stormwind refugees north and united the Seven Kingdoms, dwarves, and high elves against the Old Horde.\n\nThe Scourge and the Third War ravaged the north. Lordaeron lay in ruins, and survivors were driven into scattered resistance. The restored Kingdom of Stormwind filled the void. Today it is the foremost seat of human leadership, carrying honor and faith into a fractured world. In the Eastern Kingdoms, the Alliance rests on the steadfast bond between humans and the dwarves of Ironforge, ruled by King Magni Bronzebeard. Gnomes also live among the dwarves, driven from Gnomeregan by a devastating trogg uprising.\n\nHigh Tinker Gelbin Mekkatorque guides the exiled gnomes. They bring their brilliant engineering to the Alliance war effort, believing the coalition must survive if they are ever to reclaim their irradiated home. Across the Great Sea, the reclusive night elves left millennia of isolation after the Battle of Mount Hyjal. They lost their immortality and now clash bitterly with the Horde over logging in Ashenvale. So the kaldorei allied with their newfound mortal companions.\n\nCultural friction remains. Some traditionalists condemn the presence of humans and dwarves in ancient forests. The Alliance offers vital military and diplomatic help to guard Kalimdor from demonic remnants and Horde expansion. The Alliance faces strains within its own ranks. King Varian Wrynn vanished under mysterious circumstances while traveling to a diplomatic summit. His young son Anduin took the throne under Highlord Bolvar Fordragon's regency.\n\nRelations with former human allies have also frayed. The maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken hold the ruins of Lordaeron."
     },
     "topic:brotherhood-of-northshire": {
       "1": [
         {
-          "duration": 141.8187755102041,
-          "file": "Audio/Transport/full_topic_brotherhood-of-northshire-bfc287b9b40fcfd165c9/1-0000.mp3",
-          "sha256": "b878e978d273e4d4d43ebf115b91a9008e35690278ed4195ad330d4742e3824a",
+          "duration": 110.4195918367347,
+          "file": "Audio/Transport/full_topic_brotherhood-of-northshire-d08b2e0bc47da14da228/1-0000.mp3",
+          "sha256": "e54d1718790143718d3cef4aece39f8266609d5bb0b7bf54a05e5b98b463690f",
           "start": 0
         }
       ],
@@ -14239,21 +14239,21 @@
         ]
       },
       "fullHash": "97104b",
-      "generation": "d42b8f9f5db130b6c75c",
+      "generation": "00eb84c9e45f6ce6703d",
       "hash": "97104b",
       "source": {
-        "duration": 141.844898,
+        "duration": 110.419592,
         "file": null,
-        "sha256": "bfc287b9b40fcfd165c9363a57b8b5b8e8a84cb2989a86baa7f21b4a801ece26"
+        "sha256": "d08b2e0bc47da14da228e008a0a9ab3723bea0e19b43ee5a4c9f0f7b3bd75acf"
       },
       "text": "Brotherhood of Northshire. At Northshire Abbey in Elwynn Forest, the Brotherhood of Northshire guides the faithful and trains new defenders. Once called the Clerics of Northshire, the order was rebuilt after its losses in the First War. Centuries ago, missionaries from Lordaeron traveled south and founded Northshire Abbey in Stormwind. They served its people through the Holy Light and sought to soothe the realm. First called the Holy Order of Northshire Clerics, they showed compassion even to injured gnolls and jungle trolls during past border wars.\n\nWhen the Orcish Horde crossed the Dark Portal, the clerics went unarmed and without armor to heal fallen soldiers. Their healing sustained the Stormwind Army, so the orcs made them targets. The order was decimated, and the abbey was ransacked and burned. The surviving clerics fled north across the sea to Southshore with Sir Anduin Lothar. The slaughter of Northshire’s clerics shook the human kingdoms. Archbishop Alonsus Faol saw that faith alone could not withstand an axe without armor and martial discipline. He joined surviving clerics with devout knights to form the Knights of the Silver Hand. These warriors bore the Light’s sacred power and a knight’s skill in battle. Northshire’s fallen healers laid the foundation for the holy warriors who broke the Horde in the Second War. After Stormwind was reclaimed and the Dark Portal destroyed, Archbishop Faol rebuilt Northshire Abbey and reorganized the order as the Brotherhood of Northshire. Today, the abbey is a quiet place where new recruits begin their service to the realm. Priestess Anetta, Brother Sammuel, and Brother Paxton help tend the valley’s spiritual needs, preserve ancient texts in the library, and train defenders against brigands, wolves, and the gathering shadows across Elwynn Forest."
     },
     "topic:centaur": {
       "1": [
         {
-          "duration": 147.4612244897959,
-          "file": "Audio/Transport/full_topic_centaur-f8a7060e54f0e58cec4a/1-0000.mp3",
-          "sha256": "6237185bfeba9a8bf75469254470441b94ca8d1011365f5b628432fac21628e8",
+          "duration": 143.28163265306122,
+          "file": "Audio/Transport/full_topic_centaur-523504722356fccccf9f/1-0000.mp3",
+          "sha256": "c8ab64eaf44262d3c47d7e0a18c29ee13012c7137ee9cd70140a0cc4c8715c7e",
           "start": 0
         }
       ],
@@ -14265,21 +14265,21 @@
         ]
       },
       "fullHash": "39156f",
-      "generation": "2aef4becf48b023d7cd7",
+      "generation": "0cdfb6588a962448808c",
       "hash": "39156f",
       "source": {
-        "duration": 147.487347,
+        "duration": 143.307755,
         "file": null,
-        "sha256": "f8a7060e54f0e58cec4a4e06a47314a318563f1b801387e26f0258991aab0ffb"
+        "sha256": "523504722356fccccf9f7532daa2f0c9feafa5f8f23e40cf9ba9053de19d9499"
       },
       "text": "Centaur. Centaur clans still roam central Kalimdor, where they once drove the tauren close to extinction. Their line began with Zaetar and Theradras, and the Horde's arrival changed the course of their war with the tauren. Centaur legend begins in Maraudon, beneath Desolace. Zaetar was an immortal son of the demigod Cenarius. Princess Theradras was daughter of Therazane, the elemental lord. Together they sired the first centaur. Soon after they emerged, the barbaric offspring turned on Zaetar and killed him. Grief-stricken, Theradras trapped his spirit in Maraudon's winding caverns. She shielded her vicious children as they multiplied across Kalimdor. From Desolace, centaur spread across Kalimdor and waged brutal war against its native peoples. The nomadic tauren suffered most. Driven from their fertile ancestral home in Mulgore, they fled across the Barrens as centaur warbands burned their settlements and hunted them for sport. By the Third War, centuries of pursuit had brought the tauren near extinction. They fled the endless marauders across the savannah. The balance shifted when Warchief Thrall and the newly arrived orcish Horde landed on Kalimdor. Thrall made a pact with Cairne Bloodhoof. Orcish steel joined with tauren might, and together they crushed the aggressive Kolkar warbands and broke their hold on the plains. The tauren could safely establish Thunder Bluff and reclaim Mulgore. Their exile ended, and a debt of blood and honor bound them to the Horde. Centaur remain a threat across central Kalimdor despite their defeats. Their society is divided among warring clans, chiefly the Kolkar, Gelkis, Magram, and Maraudine. Each follows a khan, and the clans feud over territory and water. Their infighting keeps them from uniting. Yet raiding parties still strike trade caravans and settlements across Durotar, the Barrens, Thousand Needles, and the borders of Mulgore."
     },
     "topic:defias-brotherhood": {
       "1": [
         {
-          "duration": 22.517551020408163,
-          "file": "Audio/Transport/full_topic_defias-brotherhood-4b8b69ab03021b129946/1-0000.mp3",
-          "sha256": "4e31f740c24946d98b159b39241d473f457c20ce34bdedcbbf0b31cf090134f5",
+          "duration": 17.423673469387754,
+          "file": "Audio/Transport/full_topic_defias-brotherhood-afaa374f9084a4d83baa/1-0000.mp3",
+          "sha256": "352a824878317aafca60a239d557e63aa286aa7cfddc92e6f13e51c1f42f3fb6",
           "start": 0
         }
       ],
@@ -14291,21 +14291,21 @@
         ]
       },
       "fullHash": "7998f3",
-      "generation": "b542ddb32725f208ecf9",
+      "generation": "fe2c8c77129c6ef39892",
       "hash": "7998f3",
       "source": {
-        "duration": 22.543673,
+        "duration": 17.423673,
         "file": null,
-        "sha256": "4b8b69ab03021b129946f37225bbd4f222aabe7d12e7f85c55470c92cd132636"
+        "sha256": "afaa374f9084a4d83baaed7ee1cf865a1f195db27ac16aca86d99950ec6806fb"
       },
       "text": "Defias Brotherhood. Across Stormwind’s southern lands, the Defias Brotherhood wages war on the kingdom. Bandits, brigands, and assassins terrorize the farmlands. From a hidden redoubt, they seek to overthrow the corrupt House of Nobles and lay waste to Stormwind."
     },
     "topic:druid": {
       "1": [
         {
-          "duration": 148.11428571428573,
-          "file": "Audio/Transport/full_topic_druid-544e72e537c2fa42c5c3/1-0000.mp3",
-          "sha256": "55a72afa311454e00cd649879e014913dc9bf22d338af213d736236658d2364c",
+          "duration": 123.48081632653061,
+          "file": "Audio/Transport/full_topic_druid-4b5bc4a7b0b376006ee7/1-0000.mp3",
+          "sha256": "03b6b58d6bc826b8f2dc0ae703190d7c4b7a54fbb0559143b91885b8fe40b999",
           "start": 0
         }
       ],
@@ -14317,21 +14317,21 @@
         ]
       },
       "fullHash": "49b2d1",
-      "generation": "a804d5158e18aaedb8a8",
+      "generation": "c30906e3aeb173df91d1",
       "hash": "49b2d1",
       "source": {
-        "duration": 148.140408,
+        "duration": 123.506939,
         "file": null,
-        "sha256": "544e72e537c2fa42c5c3fe9c3a9292686eb9734165e64cc4a2b525a7e8267580"
+        "sha256": "4b5bc4a7b0b376006ee76f2e05941f636449c01c13b83fbb6ddbe7728a5c3ab8"
       },
       "text": "Druid. Across Kalimdor, Druid protect the wild and heal the wounded with nature’s power. They draw on wild spirits, the celestial bodies, and the Emerald Dream, and take beast forms to defend the land. Night elves have followed this path for ages, tauren have renewed it, and the Skyborne keep their own traditions. Druidism binds its followers to nature and to the demigod Cenarius. Druids call up roots to hold their foes, draw power from the moon and stars, and use healing plants to mend bone and flesh. Their charge is to preserve the world’s balance and guard the wild from corruption and exploitation. Shapeshifting is the druid’s mark. Through spiritual devotion, druids channel the primal nature of Azeroth’s beasts. They take a bear’s thick hide to endure attacks, become lithe feline hunters to strike from shadow, or assume aquatic and avian forms to cross sea and sky. In animal form, their mouths rarely shape mortal words, yet their strength rivals the wild’s fiercest predators. Cenarius taught Malfurion Stormrage the druidic arts ten thousand years ago. Later, the Cenarion Circle gave mortal druidism its order. From sacred Moonglade, it watches over druids across Kalimdor, apart from mortal factions and political disputes. For ages, only night elf men belonged, spending centuries in the Emerald Dream. After the Third War, night elf women and tauren joined them. The Skyborne learned druidism long ago. When common folk joined the Shal'nan's rebellion against Prince Tortheldrin in Eldre'Thalas, they took up nature magic, influenced by the Cenarion Circle to the north. Tortheldrin scorned the practice as beneath the Highborne. Their descendants still follow that path: the Nightclaw Druids of Shadowgale Forest on Zephras Isle remain largely apart from other Skyborne factions."
     },
     "topic:druids-of-the-fang": {
       "1": [
         {
-          "duration": 56.11102040816327,
-          "file": "Audio/Transport/full_topic_druids-of-the-fang-7a80351f07a173552af1/1-0000.mp3",
-          "sha256": "8fa9467cbfee56d2041814bfabf91c11494ef049f617da56ffdccbcf722b337f",
+          "duration": 49.55428571428572,
+          "file": "Audio/Transport/full_topic_druids-of-the-fang-63187498f01c6bf6c4f2/1-0000.mp3",
+          "sha256": "116c3352d04888f69074a0b9e3059db1ffb5740696e3a69dffcb8a409a28efb8",
           "start": 0
         }
       ],
@@ -14343,21 +14343,21 @@
         ]
       },
       "fullHash": "de457f",
-      "generation": "6f2b457bfde92e45d4f9",
+      "generation": "48878f8a6df85bc0440e",
       "hash": "de457f",
       "source": {
-        "duration": 56.137143,
+        "duration": 49.580408,
         "file": null,
-        "sha256": "7a80351f07a173552af17280dbba22ebd76400c3dc3ff47fdcaf48e30c5a311f"
+        "sha256": "63187498f01c6bf6c4f2a7038e550c83f85acaf18dcfd1051f7275de989ac412"
       },
       "text": "Druids of the Fang. In the Wailing Caverns, the Druids of the Fang pursue their design. These rogue night elves severed ties with the Cenarion Circle and took serpent forms under Lord Serpentis. Their true origin remains a mystery to outsiders. They seek to seize the underground waters and remake the Barrens as their own paradise. Naralex led young druids into the Wailing Caverns to restore the Barrens. The land had once been a lush sanctuary, and he hoped to bring it back. Beneath the caverns, they reached natural fissures and springs. Naralex entered an induced slumber to channel the living energies of the Emerald Dream into those waters. He hoped to revive the scorched savannah above."
     },
     "topic:dwarf": {
       "1": [
         {
-          "duration": 170.42285714285714,
-          "file": "Audio/Transport/full_topic_dwarf-c778b86aa59da49a7a6c/1-0000.mp3",
-          "sha256": "688b6a20ec4c0333b24a4fbea31bc70096990893ea393a4d8f33ccd3ad6368f5",
+          "duration": 140.69551020408164,
+          "file": "Audio/Transport/full_topic_dwarf-9d2cdb03edd8c272af8f/1-0000.mp3",
+          "sha256": "7e58b23a8bb6e8423db4fbeb7b9196ffaa5a1c54bc7d2f60fad88d64b4360355",
           "start": 0
         }
       ],
@@ -14369,21 +14369,21 @@
         ]
       },
       "fullHash": "6813ae",
-      "generation": "f1bc129567d2d3f78844",
+      "generation": "7d30cf657fd94a7639ba",
       "hash": "6813ae",
       "source": {
-        "duration": 170.44898,
+        "duration": 140.721633,
         "file": null,
-        "sha256": "c778b86aa59da49a7a6c6be2e1ded2191d0b2580322ae9617562a7248e6c47e1"
+        "sha256": "9d2cdb03edd8c272af8f92ef19a6d944163915639a08fb6ae6ffacefefde6f29"
       },
       "text": "Dwarf. In Khaz Modan, dwarves keep to the mountain homes they carved from stone. Once earthen, they changed under the Curse of Flesh and now live across Khaz Modan and beyond. King Magni Bronzebeard rules from Ironforge, beneath the peaks of Dun Morogh, a steadfast heart of the Alliance. Dwarves began as earthen, beings forged by the titans who slept for ages in Uldaman's vaults. The Curse of Flesh changed them into creatures of blood and bone. They took the name dwarves and made their home in Khaz Modan, named for the titan Khaz'goroth. Beneath Dun Morogh's peaks, they carved the stronghold of Ironforge.\n\nTheir bodies endure hardship, and their keen eyes find stone and ore. They bring fierce resolve to the forge and to battle. Their halls ring with roaring hearths, and ale is a favored drink. After High King Modimus Anvilmar died, the dwarves fought over Ironforge. The Bronzebeard, Wildhammer, and Dark Iron clans each sought power, and their struggle became a civil war. The Bronzebeards took the mountain and drove the other clans out.\n\nSorcerer-Thane Thaurissan of the Dark Irons then waged war against both rivals. His forces were driven beneath the Redridge Mountains, where Thaurissan accidentally summoned Ragnaros the Firelord. Flames consumed the Dark Iron realm, leaving the volcanic wastes of Searing Gorge and the Burning Steppes. The survivors became slaves beneath Blackrock Mountain. The Wildhammers, their home devastated, migrated north to Aerie Peak in the Hinterlands. When the Horde swept across the continent in the Second War, King Magni Bronzebeard shut Ironforge's gates against its sieges. Dwarven forces fought beside the Alliance of Lordaeron in heavy plate armor and with muskets, while gryphon riders took to the sky. Their courage helped break the Horde.\n\nIronforge remains one of the Alliance's steadfast defenders. The dwarves have also welcomed their displaced gnome cousins into their halls. Across Khaz Modan, they uncover titan ruins in search of answers about their ancient origins."
     },
     "topic:earth-mother": {
       "1": [
         {
-          "duration": 148.24489795918367,
-          "file": "Audio/Transport/full_topic_earth-mother-77b13cfc9526830bfbf8/1-0000.mp3",
-          "sha256": "b9cf3036a5307ac305999f3287033ce313980fda02ae346971ea9a87ba856518",
+          "duration": 135.4448979591837,
+          "file": "Audio/Transport/full_topic_earth-mother-ba95c669caf8f1e16bba/1-0000.mp3",
+          "sha256": "d323e4aed7f88843a42fcac328de2d7255650c0d148414e4802939767c0008b2",
           "start": 0
         }
       ],
@@ -14395,21 +14395,21 @@
         ]
       },
       "fullHash": "ad93b3",
-      "generation": "5d03990ea9fd4df62868",
+      "generation": "b04251a481def8ac2923",
       "hash": "ad93b3",
       "source": {
-        "duration": 148.27102,
+        "duration": 135.47102,
         "file": null,
-        "sha256": "77b13cfc9526830bfbf8fe8a2ee6b2d0b28ee01db6dceb4947e8c04a984c600f"
+        "sha256": "ba95c669caf8f1e16bba5cb12e95e34478c9cc6e76d42c8ee1904758d91c7f2e"
       },
       "text": "Earth Mother. Across Azeroth, the Earth Mother’s presence lives in the land and its elements. Tauren say she shaped the world, raised the sun and moon, and guides their lives and hopes for what follows death. Tauren creation myths say the Earth Mother shaped Azeroth before day and night, making it a haven for her coming children. She scraped her nails across the new mountains, and the first fires sparked. Her hands carved rivers and ocean beds, while her laughter gave breath to the wind. Then she lifted the primordial fogs into the sky. The first rains coaxed grass, forests, and grain from the soil. With help from the friendly elements, the Earth Mother brought forth twins: An'she, the sun, and Mu'sha, the moon. She placed the radiant twins in her eyes, so she could rest while keeping them safe. As she opened and closed each lid, day, night, and the seasons began.\n\nLater, she pressed her heart against the fertile earth and breathed the song of life into the land. There she created the shu'halo, the first tauren. She charged the twins and the elements to teach these young mortals to hunt, build, dance, and live in harmony with the wilds. In time, the Earth Mother set An'she and Mu'sha in the sky to watch over the land by day and night. Tauren say her spirit now dwells in the world's rivers, trees, plains, and mountains. Every lesser nature spirit springs from her and returns to her in the end. Tauren believe the Earth Mother's spirit still cradles Azeroth. Her ear listens to the winds for her children's prayers, and her heart beats within the deep stone. Tauren hunters, shamans, and druids give thanks to her for every kill and harvest. They believe all life begins in her embrace, and every tauren spirit returns to her soil upon death."
     },
     "topic:elemental-plane": {
       "1": [
         {
-          "duration": 118.75265306122449,
-          "file": "Audio/Transport/full_topic_elemental-plane-8e4966f650db534cdb0d/1-0000.mp3",
-          "sha256": "ff4d5ea6b34e64961f7158c9e315ec7a873bbd9fcc9b862159fc0b671a07322a",
+          "duration": 123.24571428571429,
+          "file": "Audio/Transport/full_topic_elemental-plane-6667a63539c8f0f3434a/1-0000.mp3",
+          "sha256": "e699f2fc9ac7bb1ba31a2b490c87bd90299025cc950241dcff02ef3b1a271cb7",
           "start": 0
         }
       ],
@@ -14421,21 +14421,21 @@
         ]
       },
       "fullHash": "5aa4ab",
-      "generation": "f69c8f6df43eff3c2c5f",
+      "generation": "7845b1291b8f7a7c9527",
       "hash": "5aa4ab",
       "source": {
-        "duration": 118.778776,
+        "duration": 123.245714,
         "file": null,
-        "sha256": "8e4966f650db534cdb0d88c1eab5d744bd3030d9aee693db113247690f3cd3a8"
+        "sha256": "6667a63539c8f0f3434a11a1708520b2c0b73ab4e77cbca60393a3d76c4756c3"
       },
       "text": "Elemental Plane. Across the Elemental Plane, its wards still hold the elementals—though cracks now let them reach Azeroth. The titans made this realm to imprison Azeroth’s chaotic elementals, dividing it into Skywall, Deepholm, the Abyssal Maw, and the Firelands. Breaches have brought violent incursions and catastrophic summonings into Azeroth. Long ago, the elementals served as lieutenants to the Old Gods. The titans defeated the Old Gods, then banished the elemental lords and their many servants to the Elemental Plane. They divided the realm into four domains: Skywall for air, Deepholm for earth, the Abyssal Maw for water, and the Firelands for fire. With the elementals gone, nature calmed and peace returned to Azeroth’s surface. Captivity did not still the elementals’ fury. Across their divided domains, the primordial powers wage endless war against one another. Strong wards bar the way between Azeroth and the Elemental Plane, but they can break. Two centuries ago, near the desperate end of the War of the Three Hammers, Sorcerer-Thane Thaurissan pierced the veil and summoned Ragnaros the Firelord from the Firelands. His arrival ruptured the Redridge Mountains and forged Blackrock Mountain.\n\nNow, volatile cracks have opened across Kalimdor. Dimensional rifts keep appearing in Silithus, Un'Goro Crater, Azshara, and Winterspring. Hostile elementals pour through and test the mortal world's defenses."
     },
     "topic:furbolg": {
       "1": [
         {
-          "duration": 138.78857142857143,
-          "file": "Audio/Transport/full_topic_furbolg-bdb1aac652fb0b045d40/1-0000.mp3",
-          "sha256": "430546a62f8188a503301409aac9e2324f6f8b0ec4a020f8e6e5d8bdea206862",
+          "duration": 116.95020408163266,
+          "file": "Audio/Transport/full_topic_furbolg-f73824d38a2f0b205982/1-0000.mp3",
+          "sha256": "a6c3149941f2a02cfaa278f2041e495291c6506b74f84fdb26ed4fe43bb9b1e6",
           "start": 0
         }
       ],
@@ -14447,21 +14447,21 @@
         ]
       },
       "fullHash": "76c89a",
-      "generation": "65613ea02a26aeb0e3b0",
+      "generation": "60b33f87926478224b77",
       "hash": "76c89a",
       "source": {
-        "duration": 138.814694,
+        "duration": 116.976327,
         "file": null,
-        "sha256": "bdb1aac652fb0b045d402d09f8445dc6e70853819520a4a129ea0c2ad6914118"
+        "sha256": "f73824d38a2f0b205982565b564b1271ab041517903af4f595b01f7471aa1fb0"
       },
       "text": "Furbolg. Across northern Kalimdor, Furbolg tribes turn on their old allies as madness takes hold. For millennia, they lived in harmony with nature and the night elves. Now demonic corruption and lingering fel magic leave only a few tribes sane. Furbolg packs once fought beside night elves and tauren against the Burning Legion. During the War of the Ancients, ten thousand years ago, chieftain Unng Ak united the tribes. They had long revered the wild god Ursoc. After the Great Sundering, they withdrew into the northern woodlands. There, they kept peaceful ties with night elf druids and forest wardens, living simply among the wild. The Third War shattered the furbolgs’ quiet life. As the Burning Legion crossed Kalimdor, fel taint spread through the soil and canopy of Ashenvale and Felwood. Deeply attuned to the land, the bear-men took the corruption into themselves, and madness seized their tribes.\n\nWizened shamans were overthrown or silenced by bloodthirsty firebrands. These new leaders channeled fel moss, dark talismans, and corrupt alchemy. Peaceful gatherers became raiders who attack travelers and night elf settlements on sight. Across northern Kalimdor, nearly every major tribe has fallen. The Gnarlpine dwell across Teldrassil, the Blackwood in Darkshore, and the Thistlefur and Foulweald in Ashenvale. The Deadwood and Winterfall live in the northern highlands. Yet a few still hold to their old ways.\n\nDeep in fortified tunnels linking Felwood, Winterspring, and Moonglade, the Timbermaw guard their sanity. Wary and isolated, they defend their hold against their crazed northern kin. They fight to preserve what remains of their uncorrupted culture."
     },
     "topic:house-of-nobles": {
       "1": [
         {
-          "duration": 52.114285714285714,
-          "file": "Audio/Transport/full_topic_house-of-nobles-c4aa0049d04a93415856/1-0000.mp3",
-          "sha256": "6ab67c2f919e68a6ce81614abf3756972da1cec185cc572ae2ef71a3f6da4722",
+          "duration": 43.10204081632653,
+          "file": "Audio/Transport/full_topic_house-of-nobles-04157ffb80f371bc3276/1-0000.mp3",
+          "sha256": "1cb599fe35b785cd984da00db6418ae9896c14f8fec59e2043b1039f08c06fcc",
           "start": 0
         }
       ],
@@ -14473,21 +14473,21 @@
         ]
       },
       "fullHash": "da4f72",
-      "generation": "3d074fb4b0b6ace1159c",
+      "generation": "c92a27a64bc457155ea7",
       "hash": "da4f72",
       "source": {
-        "duration": 52.140408,
+        "duration": 43.128163,
         "file": null,
-        "sha256": "c4aa0049d04a93415856017ef8d36fd5cb83c4ef6b05ec4243dc05b734440cbd"
+        "sha256": "04157ffb80f371bc3276d08dd42ff2ce960b21fb1648adb4d79c84f516a15f32"
       },
       "text": "House of Nobles. In Stormwind Keep, the House of Nobles holds the kingdom’s lands, taxes, and trade. Their refusal to pay the laborers who rebuilt the city set off bloody riots that shook the realm. Stormwind’s greatest patrician families form the House of Nobles, the Crown’s chief council. They own most arable land in Elwynn, Westfall, and Duskwood, and so hold great sway over trade, regional magistrates, and royal decrees. Boy-king Anduin Wrynn and Highlord Bolvar Fordragon rule Stormwind in name. Yet the council can bind the throne in red tape, stall trials, block executions, and meddle in provincial affairs."
     },
     "topic:human": {
       "1": [
         {
-          "duration": 142.52408163265306,
-          "file": "Audio/Transport/full_topic_human-4a199efcb51ae2bb95a0/1-0000.mp3",
-          "sha256": "6709c2989eeaf18e57cbd6155dbafcb097649b0454b3a190cd9aebfc0f396f01",
+          "duration": 165.04163265306124,
+          "file": "Audio/Transport/full_topic_human-1317700d72cc45745264/1-0000.mp3",
+          "sha256": "433377a8f0bb3b363dc07d807d79bfb2d9d256ca001dfe06765d694f6f3541dd",
           "start": 0
         }
       ],
@@ -14499,21 +14499,21 @@
         ]
       },
       "fullHash": "928bda",
-      "generation": "5a489c934aaade6b40da",
+      "generation": "84534b65c21eee50d214",
       "hash": "928bda",
       "source": {
-        "duration": 142.524082,
+        "duration": 165.067755,
         "file": null,
-        "sha256": "4a199efcb51ae2bb95a0721fcabe0ea10d0186f00e2606dc6c1b43b18fa9af7b"
+        "sha256": "1317700d72cc45745264df0da6fe27937b763f242a4af19d4291847ef540ea96"
       },
       "text": "Human. Across the Eastern Kingdoms, humans still defend their place among the mortal realms. Their old empire broke into seven kingdoms. Now Stormwind is their strongest realm and the Alliance’s chief human power. Long ago, human tribes wandered apart beneath the threat of the Amani forest trolls. Warlord Thoradin of the Arathi saw that division would bring their end. Through diplomacy and conquest, he united the clans and founded the Empire of Arathor, with its fortress capital at Strom.\n\nDuring the Troll Wars, the beleaguered high elves of Quel'Thalas allied with Arathor. They taught one hundred humans the arts of arcane magic. Together, humans and high elves broke the troll armies. Arathor secured human rule over the central continents, and the alliance laid the ground for future ties among mortal peoples. As Arathor grew secure and prosperous, its distant settlements became powerful city-states, able to stand alone. In time, the empire split into seven realms: Gilneas, Alterac, Dalaran, Lordaeron, Kul Tiras, Stormwind, and Stromgarde, whose first home was Strom.\n\nThese kingdoms traded with dwarves, gnomes, and elves, yet peace remained fragile. Border clashes and claims over land stirred rivalries, including old mountain feuds between Alterac and Stromgarde. Court intrigue added to the strain. The kingdoms stayed divided until disasters beyond their borders forced them to act together. The orcish Horde came through the Dark Portal, forcing humanity’s kingdoms to face a common enemy. Stormwind fell in the First War, and its refugees fled north to warn the other realms. King Terenas Menethil II helped forge the Alliance of Lordaeron, joining humans, dwarves, gnomes, and high elves against the Horde in the Second War.\n\nStormwind was rebuilt with great effort. Then the Scourge plague ravaged Lordaeron, and Dalaran fell during the Third War. The northern human realms lay in smoking ruin. Stormwind is the strongest human kingdom left and the heart of the grand Alliance. King Varian Wrynn vanished while traveling to a diplomatic summit. His ten-year-old son, Anduin Wrynn, was crowned king, with Highlord Bolvar Fordragon as regent.\n\nNorthward, Lordaeron’s survivors are scattered or dead. Gilneas remains behind its colossal Greymane Wall, leaving Stormwind to carry the burden of humanity’s defense."
     },
     "topic:hunter": {
       "1": [
         {
-          "duration": 138.05714285714285,
-          "file": "Audio/Transport/full_topic_hunter-06e692696a5bbaa40cc8/1-0000.mp3",
-          "sha256": "7c917337e116da101aee4522dc2dce3248babed87fa067cfad65cfd6e8fe8eb7",
+          "duration": 107.88571428571429,
+          "file": "Audio/Transport/full_topic_hunter-d5b740811b536b3ee8dc/1-0000.mp3",
+          "sha256": "518622ab0d8c9f2a47cb08b045a1d105135959fb66ab6995ae3e1e08cc42c724",
           "start": 0
         }
       ],
@@ -14525,21 +14525,21 @@
         ]
       },
       "fullHash": "7dbe05",
-      "generation": "46431ad5d56f02b80069",
+      "generation": "401ab20348e46ca0f9f7",
       "hash": "7dbe05",
       "source": {
-        "duration": 138.083265,
+        "duration": 107.911837,
         "file": null,
-        "sha256": "06e692696a5bbaa40cc8fa832189e60405302a06767a6d42581384d8e71de590"
+        "sha256": "d5b740811b536b3ee8dccb38bebd18d374b62ee7e564629b2b1094387c3a47ed"
       },
       "text": "Hunter. Across Azeroth, hunters follow wild trails with loyal beasts at their sides. Bows, rifles, and crossbows let them strike from afar, while traps and primal aspects help control a fight. They track quarry through forests and over snowbound peaks, relying on their wits and bond with nature. Hunters make their lives among Azeroth’s wild places. They study how beasts move, hunt, and defend themselves, earning respect instead of breaking spirits. With patience, they can tame dangerous creatures, from prowling cats to mountain bears and sharp-eyed raptors. These animals become steadfast allies, ready to defend their companions to the death. Hunters fight from a distance with bows, heavy crossbows, and rifles. Their volleys can pierce heavy armor before an attacker draws near. Keen senses lead them along faint footsteps, scents, and other signs left by their quarry. When enemies close in, frost and flame traps, disorienting ambushes, and quick evasive movements keep foes at bay. The hunter’s path takes many forms across Azeroth. Night elf Sentinels use bows and shadowcraft beneath Ashenvale’s canopy, moving in quiet accord with the wilderness. Dwarven riflemen brave Dun Morogh’s freezing crags with hardy bears and master the craft of gunpowder. Across Kalimdor, Tauren and Orc trackers follow ancient nomadic customs. They pursue prey with sacred respect and call on bestial spirits to guide their shots.\n\nIn Elwynn Forest, young humans learn from seasoned trackers such as the dwarf Tordrin Sternblade in Northshire Valley and Josephine Carson in Goldshire. The Skyborne learn to track and tame the beasts of Zephras Isle."
     },
     "topic:leper-gnome": {
       "1": [
         {
-          "duration": 119.95428571428572,
-          "file": "Audio/Transport/full_topic_leper-gnome-70fee4a96ce6ea4006e3/1-0000.mp3",
-          "sha256": "796bf803d316f0a5e4d070e0ecc740179ba7ce0b602b638e7da57885d28091c5",
+          "duration": 101.90367346938775,
+          "file": "Audio/Transport/full_topic_leper-gnome-66cb478f57d77cd995f9/1-0000.mp3",
+          "sha256": "4a22cb875a868d34e77479bee422766d5c81c3b57ca0d70ad44402e2a96f44dc",
           "start": 0
         }
       ],
@@ -14551,21 +14551,21 @@
         ]
       },
       "fullHash": "998741",
-      "generation": "e31f323d89fd841739f8",
+      "generation": "9d2e7872c7d62c74dfd1",
       "hash": "998741",
       "source": {
-        "duration": 119.980408,
+        "duration": 101.929796,
         "file": null,
-        "sha256": "70fee4a96ce6ea4006e36a6f9d10ede0728e360b6b84ae5a6072f12c62085f37"
+        "sha256": "66cb478f57d77cd995f9f7c2e8fdceb869aaa7374a833348f3b409a1ae10316f"
       },
       "text": "Leper gnome. Across Azeroth, leper gnomes endure the ruin of Gnomeregan. Most still dwell in the city, changed by its toxic fallout and loyal to Mekgineer Thermaplugg. Troggs broke into Gnomeregan during the Third War. Mekgineer Thermaplugg urged High Tinker Gelbin Mekkatorque to flood the city with radioactive toxins. He claimed they would kill the troggs and spare the gnomes. Instead, eighty percent of the city's inhabitants died. Survivors sealed in the lower levels were warped in mind and body by the fallout. Their pale, pustulant forms became known as leper gnomes. Mekgineer Thermaplugg also succumbed to the poisonous fallout. His complexion changed, and his sanity failed. He named himself techno-overlord and King of Gnomeregan, then gathered the crazed survivors in the Tinkers' Court. Many now mistake surface dwellers for trogg intruders. They attack returning rescue parties with frantic savagery.\n\nThe survivors pilot salvaged mechanical constructs and build volatile ordnance. With fanatical devotion, they guard Thermaplugg's kingdom. Most leper gnomes remain trapped in Gnomeregan's contaminated corridors, though a handful have reached the wider world. Some, driven by desperation or dark ambition, have joined the Dark Iron dwarves in Blackrock Depths. Others operate machinery for the Venture Company in Stonetalon. A few serve as lab assistants to the Forsaken's Royal Apothecary Society in the depths of the Undercity."
     },
     "topic:lich-king": {
       "1": [
         {
-          "duration": 167.3665306122449,
-          "file": "Audio/Transport/full_topic_lich-king-60a60242749ef5d58a51/1-0000.mp3",
-          "sha256": "c465db4f83bc3984aa0938330a0f79384c8b16c333947684cfbc6c389ccbad5b",
+          "duration": 156.2383673469388,
+          "file": "Audio/Transport/full_topic_lich-king-217e36754a47eb0b8733/1-0000.mp3",
+          "sha256": "6b087f7c0ddd23a6d5f8f7faee71972514a6465c0e9c455ffd38c63fbf850b9d",
           "start": 0
         }
       ],
@@ -14577,21 +14577,21 @@
         ]
       },
       "fullHash": "dc68e8",
-      "generation": "405c374c87ec7d07d0cb",
+      "generation": "b4967d2638a0009784b7",
       "hash": "dc68e8",
       "source": {
-        "duration": 167.392653,
+        "duration": 156.26449,
         "file": null,
-        "sha256": "60a60242749ef5d58a512666369c8db8f8d63370077b022b94b743d5c967d3f6"
+        "sha256": "217e36754a47eb0b873363da49626cce8f3552715342055a269f430ce3181297"
       },
       "text": "Lich King. In Icecrown, the Lich King commands the undead Scourge from the frozen throne. Kil'jaeden made him from the spirit of the orc shaman ner'zhul. His power drew Prince Arthas Menethil toward corruption, until the two joined atop Northrend's icy peaks. Ner'zhul fled dying Draenor, but Kil'jaeden seized him. The demon lord tore away his body and bound his tormented soul in diamond-hard ice from the Twisting Nether. That glacial prison struck Northrend's northern wastes and formed the frozen throne.\n\nKil'jaeden meant the Lich King to forge an unstoppable undead vanguard. It would break the mortal kingdoms without the infighting that had ruined the Orcish Horde. Yet Ner'zhul wielded immense telepathic power, and began at once to plot his freedom. Watching dreadlords guarded Ner'zhul closely, so he acted in secret. Through his mind, he ensnared Kel'Thuzad, an exiled Kirin Tor archmage. Kel'Thuzad founded the Cult of the Damned in Lordaeron, where cauldrons of tainted grain spread the Plague of Undeath through the northern kingdoms.\n\nPrince Arthas Menethil rushed to save his people, but desperation drove him to ruthless acts, including the infamous slaughter of Stratholme. Seeking vengeance against the dreadlord Mal'Ganis, Arthas pursued him to Northrend. There Frostmourne waited to steal his soul and make him the Scourge's foremost death knight. For a time, the Lich King summoned Archimonde and yielded command to the Burning Legion. He expected the demons' hubris. Arthas turned the demon hunter Illidan Stormrage toward the Skull of Gul'dan and Tichondrius's death. That helped bring about Archimonde's ruin at Mount Hyjal.\n\nAfterward, a desperate Kil'jaeden ordered Illidan to destroy the frozen throne. Cracks in the icy spire weakened Ner'zhul's power, and Sylvanas Windrunner and her Forsaken broke free. The Lich King summoned his champion back. Arthas returned to Northrend, defeated Illidan at icecrown's foot, climbed the spire, and shattered the ice. He joined with Ner'zhul as one terrible consciousness."
     },
     "topic:light": {
       "1": [
         {
-          "duration": 101.4857142857143,
-          "file": "Audio/Transport/full_topic_light-37e6dbc76c7702aab27a/1-0000.mp3",
-          "sha256": "bcdd4528d690746a7b9cf45b8b4769fe8978691ea3ed57500367812e804065a3",
+          "duration": 88.37224489795919,
+          "file": "Audio/Transport/full_topic_light-024abd495cf1c9cca265/1-0000.mp3",
+          "sha256": "076b2809d81db029ea220c305a43aadf39e1e3bc066fcccca1fc7a6c063a9fa3",
           "start": 0
         }
       ],
@@ -14603,21 +14603,21 @@
         ]
       },
       "fullHash": "ae00b9",
-      "generation": "d7e914307981c5a59fcf",
+      "generation": "44d857b414f0a395dcfb",
       "hash": "ae00b9",
       "source": {
-        "duration": 101.511837,
+        "duration": 88.398367,
         "file": null,
-        "sha256": "37e6dbc76c7702aab27a955f15ecc091c725b5f5ab5c0173a226aa2b13d90f6c"
+        "sha256": "024abd495cf1c9cca265bd33739b4e0d4df08edf3f606e96e5a827fe0194e4fe"
       },
       "text": "Light. Across creation, Light flows through living things, and its power is called upon in Azeroth as Holy magic. Faith and will can turn it to healing, shelter, or a strike against darkness. Across creation, Light flows as living energy. In Azeroth, it takes the form of Holy magic, moving through living souls and binding mortal hearts. Mortals may picture it as a conscious protector. Yet Light answers the absolute conviction of the soul that calls upon it. Channeling Light calls for self-abnegation, disciplined meditation, and unshakable will. Priests of the Church of the Holy Light and holy paladins train for years to become clear vessels for its radiance. Through devotion, Light can mend wounds with restorative warmth and shelter the innocent with brilliant wards. It can also strike demons and the risen undead with searing fire. Humans and dwarves revere Light through formal scripture, while other peoples follow their own spiritual traditions. Night elves devote themselves to Elune and channel sacred moonlight, weaving holy magic to cleanse and protect. Tauren honor the sun deity An'she through their own spiritual traditions."
     },
     "topic:llane-wrynn-i": {
       "1": [
         {
-          "duration": 63.45142857142857,
-          "file": "Audio/Transport/full_topic_llane-wrynn-i-0ebe49aff198adafbfc9/1-0000.mp3",
-          "sha256": "faa0676988351b336f5627225f504665151ebfdbe11389b6a01542bcccb12a5c",
+          "duration": 69.72081632653061,
+          "file": "Audio/Transport/full_topic_llane-wrynn-i-a792bf6f7944ff4ad3e0/1-0000.mp3",
+          "sha256": "3bf162d92b95027d8ef77af6dc593f6aa32a85815cba5cf933c25f59c7af0c7e",
           "start": 0
         }
       ],
@@ -14629,21 +14629,21 @@
         ]
       },
       "fullHash": "05eaf6",
-      "generation": "afd6185bbf926761db3e",
+      "generation": "07e95fc168566c081651",
       "hash": "05eaf6",
       "source": {
-        "duration": 63.477551,
+        "duration": 69.746939,
         "file": null,
-        "sha256": "0ebe49aff198adafbfc9efc50fb903d4d01d50c0f1f524b59c9ad1516488c448"
+        "sha256": "a792bf6f7944ff4ad3e079cede684059c1f0b89f6e8747e590a5f0758f760e63"
       },
       "text": "Llane Wrynn I. Stormwind's defense falters as the First War turns against King Llane Wrynn I and his kingdom. Beloved and proud, Llane cannot accept that his friend Medivh has betrayed humanity, and that refusal dooms the capital. Born to King Barathen Wrynn, Prince Llane grew up with Anduin Lothar and Medivh. As youths, the three friends ventured into Stranglethorn Vale's jungles and clashed with the Gurubashi trolls. In time, Llane took the throne as Stormwind's king. When green-skinned strangers came from the southern swamps, King Llane sent Lothar to investigate the Black Morass. Minor skirmishes became the First War as the Horde overran the forests of Duskwood, Westfall, and Redridge. Messengers seeking aid from Lordaeron and the northern human kingdoms were turned away. Stormwind's long isolation and aristocratic intrigue weakened their pleas.\n\nEven so, Llane and Lothar led a daring counterattack. They broke the Horde's first siege of Stormwind and dealt the invaders their first major defeat."
     },
     "topic:mage": {
       "1": [
         {
-          "duration": 147.30448979591839,
-          "file": "Audio/Transport/full_topic_mage-28dac91ac0d8879dfcfd/1-0000.mp3",
-          "sha256": "1f6863aa4aa192985c6646d1adba57947389b9ea8cec2db9b587fb8e7b2b8555",
+          "duration": 164.28408163265306,
+          "file": "Audio/Transport/full_topic_mage-c2186e062c5e4825a20e/1-0000.mp3",
+          "sha256": "24fd15eb7b003a577e9341c550fe52dfb2abba5be6a86b1a04edb66a99bebe4a",
           "start": 0
         }
       ],
@@ -14655,21 +14655,21 @@
         ]
       },
       "fullHash": "12295d",
-      "generation": "d5fac77e9a587bd92733",
+      "generation": "2dbdfcee4ad6888de52e",
       "hash": "12295d",
       "source": {
-        "duration": 147.330612,
+        "duration": 164.310204,
         "file": null,
-        "sha256": "28dac91ac0d8879dfcfdccb5ac4f9b425138abe68c6df4399ebf70e8bd449e4b"
+        "sha256": "c2186e062c5e4825a20ec8c8026c2595dd39bd7a503dac172785505a5bce6362"
       },
       "text": "Mage. For a mage, arcane power answers to study, while the body remains frail beneath cloth armor. Fire, frost, and raw arcane force make mages formidable allies and dangerous foes. They conjure, teleport, and control the field of battle, but their discipline demands deep focus. Misused arcane power has left a perilous legacy. A mage’s path asks for intellect, focus, and years of study. Magi neither commune with spirits nor rely on divine faith; they approach magic as a precise cosmic science. Drawing on arcane energies, they unleash raw destruction, summon searing flame, or chill air into solid ice and howling blizzards. Heavy armor hinders the delicate gestures and concentration their incantations require, so they wear light cloth. Wards, mana barriers, and evasive spells help keep them safe. Human magical tradition began nearly three millennia ago during the Troll Wars. High elven sorcerers taught one hundred humans of the Empire of Arathor to help turn the tide against the Amani. As more humans took up magic, citizens without such skill grew fearful, driving many magi to found the magocracy of Dalaran.\n\nGoverned by the Kirin Tor, Dalaran became the northern kingdoms’ central archive of magical study. There, combat magic took shape in traditions that served the Alliance of Lordaeron through the First and Second Wars. Arcane practitioners have never won easy trust. The ancient cataclysm wrought by the Highborne and Dalaran’s fall during the Third War left many wary of magic’s volatile nature. The Church of the Holy Light has long viewed wizardry with suspicion.\n\nConservative knights have regarded arcane spellcasters as damned souls or a necessary evil in battle. Yet civil and military leaders know a capable magus can bring battlefield supremacy, swift mass transport, and vital defenses against supernatural threats. The arcane belongs to more than the Alliance. Troll and Forsaken mages serve the Horde, and orcs who study the art begin under Mai'ah, a Darkspear mage in the Valley of Trials. Mai'ah teaches that patience and careful judgment matter more than raw power.\n\nAmong the Skyborne, the High Order descends from the Highborne of Eldre'Thalas. Their time in Skywall cost them much of their ancestors’ arcane knowledge. With the wind spirits gone from Zephras Isle, they seek to recover it. Skyborne mages fight for the Alliance."
     },
     "topic:muradin-bronzebeard": {
       "1": [
         {
-          "duration": 72.59428571428572,
-          "file": "Audio/Transport/full_topic_muradin-bronzebeard-0b1f4b1a893a35833bfa/1-0000.mp3",
-          "sha256": "9a976ea8d78c3f47c9e5370b21f22feccb1b0a7371dbbc6d37d2e4cba680923c",
+          "duration": 94.27591836734695,
+          "file": "Audio/Transport/full_topic_muradin-bronzebeard-6035adf70373d915ab14/1-0000.mp3",
+          "sha256": "f2b4575c93de2a9b1f96b91d783316a81fff9c066afed9e3ffcccddd2475a70b",
           "start": 0
         }
       ],
@@ -14681,21 +14681,21 @@
         ]
       },
       "fullHash": "03d53a",
-      "generation": "1ede40a94821c4777787",
+      "generation": "21dc9f1fb3c022b9b5ee",
       "hash": "03d53a",
       "source": {
-        "duration": 72.620408,
+        "duration": 94.302041,
         "file": null,
-        "sha256": "0b1f4b1a893a35833bfa92150c55d63b4f2941b65e0ff3d5b84e892829f4d167"
+        "sha256": "6035adf70373d915ab1486dd0f9ea19201c46676521907eca4b39ad573967412"
       },
       "text": "Muradin Bronzebeard. Across Khaz Modan and Lordaeron, Muradin Bronzebeard is honored for his skill in war and diplomacy. Brother to King Magni Bronzebeard and Brann Bronzebeard, he helped found the Explorers' League. In Northrend, he is believed to have died when Prince Arthas Menethil claimed Frostmourne. In the Second War, Muradin carried messages between Khaz Modan's mountain halls and the Alliance of Lordaeron. He helped defend Ironforge during the Horde's siege, then marched with Alliance forces through Blackrock Spire to the Dark Portal.\n\nAfter peace came, Muradin settled in Capital City as Ironforge's official ambassador. Jovial yet formidable, he became a familiar face in the palace and grew close to King Terenas Menethil. He also taught young Prince Arthas the arts of swordplay and combat. Muradin's curiosity ranged beyond politics and war. With his brothers, he helped found the dwarven Explorers' League, devoted to finding lost titan relics and recording the world's farthest corners. He loved Northrend and often traveled north to sketch ancient buildings and document its fierce inhabitants.\n\nThe continent's rugged mysteries drew Muradin on his final expedition. He sought lore and relics there, and followed whispers of a forgotten runeblade."
     },
     "topic:old-god": {
       "1": [
         {
-          "duration": 88.73795918367347,
-          "file": "Audio/Transport/full_topic_old-god-1591b40bc0884d86efb5/1-0000.mp3",
-          "sha256": "b276bdd51fc57103fe7f225414b198ad373a754ae145834870f98eca1531cb74",
+          "duration": 81.76326530612245,
+          "file": "Audio/Transport/full_topic_old-god-bfcd7192e58c7e33acdf/1-0000.mp3",
+          "sha256": "b622133d3708e26d0855310c2d51e4e74900c058bd0e52d7dcdce9e01e6436c9",
           "start": 0
         }
       ],
@@ -14707,21 +14707,21 @@
         ]
       },
       "fullHash": "919c88",
-      "generation": "beda88f2503cc6be2ac7",
+      "generation": "344c20d1e78e706aac73",
       "hash": "919c88",
       "source": {
-        "duration": 88.764082,
+        "duration": 81.789388,
         "file": null,
-        "sha256": "1591b40bc0884d86efb561f7074ec44068fcd0c6bad74f0a7bed65e901423716"
+        "sha256": "bfcd7192e58c7e33acdf01d06c6df2a59423cf10697d38f2ae00e5d655947701"
       },
       "text": "Old God. Across Azeroth, the Old Gods’ whispers still poison mortal minds and twist the world. Once they ruled the primordial world, until the Titans bound them beneath the earth. Their influence endures. In Azeroth’s first age, the Old Gods ruled through vast bodies of chaotic flesh, among them C'Thun. They took root in the planet’s crust and commanded elemental armies and insectoid swarms. When the Titans arrived, their armies waged an apocalyptic war against the Old Gods. Rather than destroy them, the Titans bound them in vast prisons beneath the earth. The Old Gods have never truly slept beneath their chains, miles of stone and enchanted wards. Their psychic malice seeps into the world and corrupts the vulnerable. During the War of the Ancients, that malice slowly drove Neltharion the Earth-Warder mad and twisted the noble dragon into Deathwing.\n\nAs the Great Sundering’s raging waters swallowed Queen Azshara and her Highborne, an Old God answered their desperation. The Old God transformed them into the serpentine naga."
     },
     "topic:paladin": {
       "1": [
         {
-          "duration": 162.69061224489798,
-          "file": "Audio/Transport/full_topic_paladin-2445a4aa9a2f7e68f31b/1-0000.mp3",
-          "sha256": "da6f655cd2190380c8e5a5195d6bfbf862c3c08c6a232b7596a7ebb42b9eb9f1",
+          "duration": 142.52408163265306,
+          "file": "Audio/Transport/full_topic_paladin-36b2c4413e0f8e72fd71/1-0000.mp3",
+          "sha256": "1ec1fb5f8f099baa485a5b8b96a6537ae3cb062caeac902945c4b2a498852994",
           "start": 0
         }
       ],
@@ -14733,21 +14733,21 @@
         ]
       },
       "fullHash": "ac4861",
-      "generation": "fb41c7c9a6cdb8a3b010",
+      "generation": "d8ad2234fffaad075174",
       "hash": "ac4861",
       "source": {
-        "duration": 162.716735,
+        "duration": 142.550204,
         "file": null,
-        "sha256": "2445a4aa9a2f7e68f31b9e9197442018c367f1403556236929162e33f38a94dd"
+        "sha256": "36b2c4413e0f8e72fd717eee3365ce05dffc97eec27c02cfd68486fd5ee10bf0"
       },
       "text": "Paladin. Paladins stand between the innocent and those who would harm them. They wear heavy plate, mend the wounded and strike down the wicked with arms and the Holy Light. Humans and dwarves bear the Silver Hand's legacy in the Alliance. In the Horde, Forsaken who served the Light in life still answer its call, though it burns them. Archbishop Alonsus Faol formed the paladins during the Second War. After the First War left the pious Clerics of Northshire devastated, he saw that healers alone could not stand against orcish warfare. He gathered virtuous knights of Lordaeron and taught surviving clerics to fight with weapons and divine magic. Under Uther the Lightbringer, the Knights of the Silver Hand defended bodies and renewed spirits across humanity's kingdoms. Priests speak for the Holy Light, preaching faith and tending to common folk's spirits. Paladins take up arms in its name. Their conviction lets them strengthen allies with auras, seal blessings upon them and mend fatal wounds. Against unholy horrors, the Light courses through their blows and burns undead and demonic foes with righteous fury. The fall of Lordaeron in the Third War scattered the original order, but its ideals endure. Humans in the south and dwarves of Ironforge have taken up its mantle. In sanctuaries such as the Cathedral of Light and the Hall of Mysteries, they train and pledge sword and shield to justice. They defend the Alliance against gathering shadows. Some knights of Lordaeron returned from the grave as Forsaken. Those who served the Light in life still keep their vows, and it still answers them, though each prayer sears their dead flesh. Aramis Hammerhand trains the risen paladins in the chapel at Deathknell, while Shari Stilwell continues their instruction in Brill.\n\nTyr's Watch, an order of Forsaken paladins, holds Bandarion Keep in western Tirisfal. Their path is lonely. They wield the power that burned their people, and Sylvanas Windrunner tolerates the order while watching it closely."
     },
     "topic:priest": {
       "1": [
         {
-          "duration": 134.58285714285714,
-          "file": "Audio/Transport/full_topic_priest-299b3ab09c33911bf4cc/1-0000.mp3",
-          "sha256": "17a669b4dcb56b16e6da23c198fa22d7b5f9e3eb885558a477e8448eeed029ec",
+          "duration": 109.21795918367347,
+          "file": "Audio/Transport/full_topic_priest-b2f8ccb174014d16a74b/1-0000.mp3",
+          "sha256": "5cf3f40f5faa9b1941b3fdf79011f002b8cb4a1632a2dcbe161ed47c645b83b5",
           "start": 0
         }
       ],
@@ -14759,21 +14759,21 @@
         ]
       },
       "fullHash": "9e12c7",
-      "generation": "baf8c3929f6560db7d49",
+      "generation": "33cfa9796175d93fa710",
       "hash": "9e12c7",
       "source": {
-        "duration": 134.60898,
+        "duration": 109.244082,
         "file": null,
-        "sha256": "299b3ab09c33911bf4ccfc9cf1c15c765a2b813ac46f8b5897dae8c4394d86fd"
+        "sha256": "b2f8ccb174014d16a74b1425462b405dae40523ef985ee44e53e24af2b45a6d4"
       },
       "text": "Priest. Across Azeroth, Priest traditions shape belief, mend flesh, and guard souls. Some draw on the radiant power of faith, while others reach into the terrifying depths of the Void. Their paths range from the Church of the Holy Light to the Sisterhood of the Moon Goddess and shadowy Forsaken cults. Priests guide the spiritual lives of their communities. While warriors test their strength with steel, priests draw power from conviction. Their divine connection can soothe grievous wounds, lift fallen companions from death's threshold, and weave mystic barriers against harm. On the field, their presence can mean the difference between survival and annihilation. The priesthood does not serve only benevolent ends. Life holds both light and darkness, and priests walk a perilous line between healing and devastation of the mind. Those who master the holy arts call down searing righteous vengeance upon their enemies. Practitioners of Shadow magic delve into the Void to dominate minds, twist willpower, and inflict agonizing pain from afar. No single faith guides every priest in Azeroth. Among humans, dwarves and gnomes, the Church of the Holy Light teaches a philosophy of virtue. After the First War, it shaped its fragile Clerics of Northshire into a hardened order.\n\nIn Kalimdor, the night elven Sisterhood of Elune honors the Mother Moon with starlight and grace, while troll witch doctors beseech the primal Loa. Among the newly risen Forsaken, many have turned from former dogmas to the Cult of the Forgotten Shadow. Its followers preach that darkness and light must exist in delicate equilibrium."
     },
     "topic:rogue": {
       "1": [
         {
-          "duration": 103.44489795918368,
-          "file": "Audio/Transport/full_topic_rogue-67089a2bfae0e9169940/1-0000.mp3",
-          "sha256": "9334dc1324308221b1b81d56e63d5969d03e1dd183090dd91b935b21286c765d",
+          "duration": 84.48,
+          "file": "Audio/Transport/full_topic_rogue-c087f76914dae6f7c14f/1-0000.mp3",
+          "sha256": "a6cb008f74399e544ff1e14af927ad59d4d6e6fc89713b52bba7c666feffc384",
           "start": 0
         }
       ],
@@ -14785,21 +14785,21 @@
         ]
       },
       "fullHash": "a09242",
-      "generation": "c6efc744e873df2cf002",
+      "generation": "61e99e21105348215cd2",
       "hash": "a09242",
       "source": {
-        "duration": 103.47102,
+        "duration": 84.506122,
         "file": null,
-        "sha256": "67089a2bfae0e916994050b64e097a088db691f6f2a0826fa46e06581f2d0091"
+        "sha256": "c087f76914dae6f7c14f3f2319d17908301612d14beb05c9bff5b058cab216a1"
       },
       "text": "Rogue. Across Azeroth, Rogues choose when to face danger and when to slip away unseen. Light leather, paired blades, and brewed toxins let them strike before foes can react. They serve as scouts, assassins, pickpockets, and agents of factions and hidden syndicates. Rogues favor quiet, quick attacks over the open clashes of frontline warriors. In light leather, they stalk their quarry unseen. When an opening comes, they strike with precision at vital organs or exposed joints. A swift chain of blows weakens an enemy, and a finishing strike can end the fight. A blade alone rarely serves a cutpurse or killer. Rogues brew venoms to numb limbs, slow an escape, or drain a target's strength. Lockpicks, thrown weapons, and tricks that draw attention elsewhere help them slip past guarded walls, disarm traps, and enter vaults that would confound a company of soldiers. Many rogues work alone as highwaymen or street thugs. The finest join intelligence networks and assassin guilds. Stormwind relies on SI:7, while the Forsaken rely on the relentless Deathstalkers. In Orgrimmar, remnants of the Shattered Hand serve the Warchief. The neutral League of Assassins answers to Lord Jorach Ravenholdt."
     },
     "topic:scarlet-crusade": {
       "1": [
         {
-          "duration": 122.9322448979592,
-          "file": "Audio/Transport/full_topic_scarlet-crusade-159e9864038550f03a84/1-0000.mp3",
-          "sha256": "837ba37a9dbe403d47192a986d726f427d6c07f30a7bb5856c4e363a30d3d26e",
+          "duration": 99.31755102040816,
+          "file": "Audio/Transport/full_topic_scarlet-crusade-6bfba9f581f7fe933702/1-0000.mp3",
+          "sha256": "5dcd3dcbb84757800c1e7d19ed58fa39ef352328add82bd3d1bbae0556442095",
           "start": 0
         }
       ],
@@ -14811,21 +14811,21 @@
         ]
       },
       "fullHash": "611c9a",
-      "generation": "a748961bbdc073e2eeb9",
+      "generation": "cf76136f9178b8eda34b",
       "hash": "611c9a",
       "source": {
-        "duration": 122.958367,
+        "duration": 99.343673,
         "file": null,
-        "sha256": "159e9864038550f03a844eaf2a5f50d4eaab3c48b52b529d9e928a99d866a87d"
+        "sha256": "6bfba9f581f7fe933702259d6473c5ebe76b5fd88f4097d4c4ccb79d99e6f0d3"
       },
       "text": "Scarlet Crusade. Across Tirisfal Glades and the Plaguelands, crimson banners mark the Scarlet Crusade's war on the undead. The crusaders rose from the broken Knights of the Silver Hand to reclaim Lordaeron. Paranoia blinds them to anyone beyond their ranks, whom they brand plague carriers and shoot on sight. After Prince Arthas betrayed Lordaeron and murdered King Terenas Menethil II, the Order of the Silver Hand broke apart. Surviving paladins and priests rallied around leaders such as Alexandros Mograine, saidan dathrohan, and General Abbendis.\n\nThey gathered at Hearthglen and Tyr's Hand to reclaim their ruined homeland, then swore to burn away the undead scourge with holy fire. As the war dragged on, tragedy and suspicion took hold. Their desperate resistance hardened into an unyielding, xenophobic crusade. As the Crusade's teachings hardened into madness, moderate commanders recoiled. Lord Maxwell Tyrosus and his followers argued that reclaiming the north required allies across Azeroth, and sought aid from dwarves, gnomes, and night elves. The zealots refused, so Tyrosus and other disillusioned knights left to form the Argent Dawn, devoted to the Holy Light's pure and inclusive tenets.\n\nThe Scarlet Crusade made the Scarlet Monastery in Tirisfal Glades its center of power. There, they slaughter travelers and refugees, convinced that all who walk the Plaguelands carry the Scourge's contagion."
     },
     "topic:shadow-council": {
       "1": [
         {
-          "duration": 54.88326530612245,
-          "file": "Audio/Transport/full_topic_shadow-council-ddd8fe56c9454a3481ec/1-0000.mp3",
-          "sha256": "be14289e45cabdfb1e25b04f60b396d400beeeb0672693a3ffee5ed414e43c1a",
+          "duration": 66.5861224489796,
+          "file": "Audio/Transport/full_topic_shadow-council-2f7937501ffab20bfb54/1-0000.mp3",
+          "sha256": "0e105e67bf3c5c883aa0fde89accff684e966cb3ad504a8e065733a97cdc645e",
           "start": 0
         }
       ],
@@ -14837,21 +14837,21 @@
         ]
       },
       "fullHash": "e00c7e",
-      "generation": "8cd703bd0d461b96452c",
+      "generation": "a4ea30435a49556e98e2",
       "hash": "e00c7e",
       "source": {
-        "duration": 54.909388,
+        "duration": 66.612245,
         "file": null,
-        "sha256": "ddd8fe56c9454a3481ec9c991fa55bca24a8f41f45dc17af8cff6978f553d0a2"
+        "sha256": "2f7937501ffab20bfb545ac562e14aaf414e4fd966174faaa0e81fd8cc64b4c6"
       },
       "text": "Shadow Council. Across Draenor and Azeroth, the Shadow Council served Gul'dan's designs. At the Burning Legion's direction, the secret cabal of warlocks and necrolytes manipulated the clans and drove the Old Horde's invasion. Orgrim Doomhammer later purged its stronghold in Blackrock Mountain. Before the Horde crossed into Azeroth, Gul'dan gathered warlocks, necrolytes, and chieftains who sought their own advantage. The Shadow Council ruled the orcish clans from the shadows and raised Blackhand the Destroyer as a figurehead. Across Draenor, its members spread fel magic. They gave the clans the blood of the demon Mannoroth and bound the orcs to the Burning Legion. The Shadow Council struck a pact with Medivh, the Guardian possessed by Sargeras, to break the barrier between worlds. Through the Dark Portal, its members guided the Horde into the Kingdom of Stormwind. The warlocks watched over the war from their sanctum in Blackrock Spire."
     },
     "topic:shaman": {
       "1": [
         {
-          "duration": 179.20000000000002,
-          "file": "Audio/Transport/full_topic_shaman-3c10690180a656aad6f9/1-0000.mp3",
-          "sha256": "379ac47449a8a30a0147c2606f618a3c4e14c34a24241e5a688f648cdb6974e0",
+          "duration": 139.52,
+          "file": "Audio/Transport/full_topic_shaman-d2bd8373f305928a5e4e/1-0000.mp3",
+          "sha256": "04a25ec1aa6ded8e8e5e26d4e5ce9deb434a1e457e701822bf7b8b87be6fadb3",
           "start": 0
         }
       ],
@@ -14863,21 +14863,21 @@
         ]
       },
       "fullHash": "98f4a3",
-      "generation": "8b074f765c6c2e03f082",
+      "generation": "2020fa245e9cda837d0e",
       "hash": "98f4a3",
       "source": {
-        "duration": 179.226122,
+        "duration": 139.546122,
         "file": null,
-        "sha256": "3c10690180a656aad6f9e758b041dc7b4d8e032aeb0d31bce8a84da31ac46616"
+        "sha256": "d2bd8373f305928a5e4e72563d20fb178bf9997aacd9ed500c53d1b82921e96e"
       },
       "text": "Shaman. Among the Horde and the dwarves, Shaman seek aid from earth, air, fire and water. Totems help them wield lightning and ancestral healing as they guide their people. Dwarves follow the path too, as the Wildhammer have long done, and the Skyborne Windshapers seek to restore their people's bond with the winds. Shaman petition the primal forces of nature. Earth, air, fire and water are chaotic, locked in constant conflict. Shaman do not enslave them; they ask for aid and try to keep the elements' fury in balance with the mortal world. Wooden and stone totems planted in the soil help them channel these bargains. Through the totems, shaman protect allies, hinder foes and use cleansing water to mend the wounded. Shamanism once formed the ancient foundation of orcish clan life on Draenor. Kil'jaeden and the Shadow Council deceived the shamans into war against the draenei, and the elemental spirits withdrew their favor. Stripped of their gifts, many shamans fell to demonic corruption and became warlocks. The tradition came close to extinction.\n\nAfter the Second War, Thrall rediscovered the ancient rites under the guidance of Drek'Thar of the Frostwolf clan. As Warchief, Thrall revived shamanism and made it the moral compass of the New Horde. Across Kalimdor, the Horde's allied peoples keep different shamanic traditions. Tauren mystics hold communion with the earth and spirits, a sacred anchor of their culture. Darkspear trolls honor the loa and ancestral wild spirits, blending voodoo with nature rites. Across tribal lines, shaman serve as community elders and advisers. They also defend their people on the front lines. The shaman's path reaches beyond the Horde. Wildhammer dwarves of Aerie Peak have long called on storm and stone. Earthseer Farsen brings their far-seeing craft to Dun Morogh, while dwarves of Ironforge also take up the totem and fight for the Alliance.\n\nHigh above the world, the Windshapers lead the Skyborne in spiritual matters. The wind spirits of Zephras Isle have fallen silent, so the Windshapers train new shaman in hope of restoring that lost bond. Skyborne who join the Horde follow their path."
     },
     "topic:shan-do": {
       "1": [
         {
-          "duration": 87.09224489795919,
-          "file": "Audio/Transport/full_topic_shan-do-519247e06226907d1605/1-0000.mp3",
-          "sha256": "1a14b9b0239701817c437403dee7db0fa278a8628c4c17d35cd61fc6041b5c45",
+          "duration": 64.36571428571429,
+          "file": "Audio/Transport/full_topic_shan-do-e60a58179781863e0971/1-0000.mp3",
+          "sha256": "8c8926b29ff6e61a8dd09a500ed49d139de355e33a281bb3c7a7991ecb675a64",
           "start": 0
         }
       ],
@@ -14889,21 +14889,21 @@
         ]
       },
       "fullHash": "589423",
-      "generation": "46a45fac0bbd2481e284",
+      "generation": "a787e4a235603b8a0a68",
       "hash": "589423",
       "source": {
-        "duration": 87.118367,
+        "duration": 64.391837,
         "file": null,
-        "sha256": "519247e06226907d16051f0f9afe23f844f60333ffbe4bacc844eea1c422e2f2"
+        "sha256": "e60a58179781863e0971a20fd64b4cbe010d19814564b804d45a6d5f7affc130"
       },
       "text": "Shan'do. Among the night elves, Shan'do is spoken with deep respect for a mentor and guide. The Darnassian title means “honored teacher” or “honored instructor,” while thero'shan honors a student. In Darnassian, shan'do means “honored teacher” or “honored instructor.” Calling an elder or mentor shan'do shows humility, filial devotion, and lasting respect for their guidance. The Cenarion Circle's history is bound to the title. Before the War of the Ancients, the demigod Cenarius taught Malfurion Stormrage the ways of nature as his shan'do. Malfurion then guided generations of mortal druids. Across Kalimdor, night elves, forest keepers, and reverent allies commonly address him as Shan'do Stormrage. Cenarion druids often use the title for mentors such as Naralex or the slumbering Malfurion. Yet shan'do belongs to the Darnassian language and reaches beyond religious life. It marks the bond between master and pupil, whatever their school of thought."
     },
     "topic:stonemasons-guild": {
       "1": [
         {
-          "duration": 80.66612244897959,
-          "file": "Audio/Transport/full_topic_stonemasons-guild-e89c2b1ac3f070facad5/1-0000.mp3",
-          "sha256": "6278c75cab7d578824abb1c8d7e07f317dc253e0bf46972440565d1a715049c9",
+          "duration": 76.87836734693877,
+          "file": "Audio/Transport/full_topic_stonemasons-guild-25576ee9abcaebefaa68/1-0000.mp3",
+          "sha256": "5c4f1cf46b7bbe36bae3ecf65c89d09468a5f1d26be12425f0b773b6c4957f0f",
           "start": 0
         }
       ],
@@ -14915,21 +14915,21 @@
         ]
       },
       "fullHash": "2391ee",
-      "generation": "109333159ebffc34ee62",
+      "generation": "09f21e7971ea3ae038c9",
       "hash": "2391ee",
       "source": {
-        "duration": 80.692245,
+        "duration": 76.90449,
         "file": null,
-        "sha256": "e89c2b1ac3f070facad51009e84a3f4ffca83ed55b9c1395918b12b98469b62e"
+        "sha256": "25576ee9abcaebefaa680280b6e7fac45785bd17a438266d1937d1aaa28e258c"
       },
       "text": "Stonemasons Guild. Stormwind's rebuilding ended in a bitter dispute between the Stonemasons Guild and the House of Nobles. Deadly riots followed, and the guild was dissolved. Its members went into exile, and the scattered artisans' fate remains a mystery. Edwin VanCleef led the Stonemasons Guild as its elected Guildmaster. Its masons matched the skill of the dwarven Royal Stonecutters Union. After the First and Second Wars left Stormwind in ruins, the House of Nobles hired them to rebuild the city and restore the capital to its ancient grandeur. For years, VanCleef and his craftsmen worked across Elwynn. They raised Stormwind Keep's soaring spires and the Cathedral of Light's great arches. Then royal finances collapsed under debts from military campaigns in the south. Guided by aristocratic politics, the House of Nobles refused to pay the agreed salaries and fees. When VanCleef sought restitution, the nobles disbanded the guild without its consent. Fury spread among the laborers who had bled to rebuild the city."
     },
     "topic:stormwind-kingdom": {
       "1": [
         {
-          "duration": 105.35183673469388,
-          "file": "Audio/Transport/full_topic_stormwind-kingdom-4c3d66203607748223ff/1-0000.mp3",
-          "sha256": "df46c1aa301f48d8ef5dde8bfa3189a6c9a527b73184154c9cb98ab37f72d0eb",
+          "duration": 86.23020408163265,
+          "file": "Audio/Transport/full_topic_stormwind-kingdom-40b833ce74879d9982cb/1-0000.mp3",
+          "sha256": "8f2573023c2605ad150d858b6d4171a3033647cedd64e80f8b931a39f3b04561",
           "start": 0
         }
       ],
@@ -14940,15 +14940,15 @@
           "1"
         ]
       },
-      "fullHash": "7ad5be",
-      "generation": "b23846185cee363740bb",
-      "hash": "7ad5be",
+      "fullHash": "67249d",
+      "generation": "65e8125025714202a5af",
+      "hash": "67249d",
       "source": {
-        "duration": 105.377959,
+        "duration": 86.256327,
         "file": null,
-        "sha256": "4c3d66203607748223ffc366e0c868ae07267be5492fcc68e663769b514c4165"
+        "sha256": "40b833ce74879d9982cb23467b019ea09819bca9b1d66411ada233cb3b102bff"
       },
-      "text": "Stormwind (kingdom). In the years after Lordaeron fell, Stormwind is the Alliance's foremost power and humanity's greatest remaining bastion. Its southern lands include Elwynn Forest, Westfall, Duskwood, and the Redridge Mountains. Sacked in the First War and rebuilt after the Second, the kingdom now has a ten-year-old king, Anduin Wrynn, while Highlord Bolvar Fordragon guides its affairs amid troubles at home and beyond its borders. Stormwind began more than a thousand years ago, founded by descendants of the ancient Arathi empire. They traveled south beyond the crags of Khaz Modan into fertile, forested valleys. Far from the northern kingdoms, Stormwind grew proud of its self-reliance and its faith in the Light. The Orcish Horde came through the Dark Portal, and Stormwind's independence neared its end. In the First War, Stormwind City burned to ash and King Llane was slain. Sir Anduin Lothar led the survivors north across the Great Sea, where he rallied the northern realms into the Alliance of Lordaeron.\n\nAfter the Orcish threat was crushed in the Second War, refugees returned. They hired the Stonemasons Guild to rebuild their capital with white stone and blue banners. Then the Scourge wiped out Lordaeron during the Third War, leaving Stormwind humanity's greatest remaining bastion."
+      "text": "Kingdom of Stormwind. In the years after Lordaeron fell, Stormwind is the Alliance's foremost power and humanity's greatest remaining bastion. Its southern lands include Elwynn Forest, Westfall, Duskwood, and the Redridge Mountains. Sacked in the First War and rebuilt after the Second, the kingdom now has a ten-year-old king, Anduin Wrynn, while Highlord Bolvar Fordragon guides its affairs amid troubles at home and beyond its borders. Stormwind began more than a thousand years ago, founded by descendants of the ancient Arathi empire. They traveled south beyond the crags of Khaz Modan into fertile, forested valleys. Far from the northern kingdoms, Stormwind grew proud of its self-reliance and its faith in the Light. The Orcish Horde came through the Dark Portal, and Stormwind's independence neared its end. In the First War, Stormwind City burned to ash and King Llane was slain. Sir Anduin Lothar led the survivors north across the Great Sea, where he rallied the northern realms into the Alliance of Lordaeron.\n\nAfter the Orcish threat was crushed in the Second War, refugees returned. They hired the Stonemasons Guild to rebuild their capital with white stone and blue banners. Then the Scourge wiped out Lordaeron during the Third War, leaving Stormwind humanity's greatest remaining bastion."
     },
     "topic:syndicate": {
       "1": [
@@ -14979,9 +14979,9 @@
     "topic:varian-wrynn": {
       "1": [
         {
-          "duration": 73.6130612244898,
-          "file": "Audio/Transport/full_topic_varian-wrynn-a683cb930d9d4b5f3367/1-0000.mp3",
-          "sha256": "541ae81da7db86a639d6f4cb63abb71c300c7672f43568813827aa03f660aba2",
+          "duration": 82.54693877551021,
+          "file": "Audio/Transport/full_topic_varian-wrynn-b50331bf504f67df6522/1-0000.mp3",
+          "sha256": "435b7acd31374ed62db111fd242f4f7ae268161e1786add9925cf6638876ca55",
           "start": 0
         }
       ],
@@ -14993,21 +14993,21 @@
         ]
       },
       "fullHash": "0ed4c4",
-      "generation": "8f52f57ba52c6c5f81c5",
+      "generation": "35471ace7e94eb3a0a0f",
       "hash": "0ed4c4",
       "source": {
-        "duration": 73.613061,
+        "duration": 82.573061,
         "file": null,
-        "sha256": "a683cb930d9d4b5f33674aac6ad708599bca762a63160d817db87a25bd41f107"
+        "sha256": "b50331bf504f67df6522f666fa375c1fb81f58d1c586ff42d967bf79ad4398b2"
       },
       "text": "Varian Wrynn. Across the Great Sea, Varian Wrynn has vanished on the voyage to Theramore. His ten-year-old son Anduin wears Stormwind's crown under the guidance of Highlord Bolvar Fordragon and Lady Katrana Prestor. Varian's boyhood ended when the First War shattered his life. He watched Garona Halforcen, the assassin, kill King Llane Wrynn as the Old Horde stormed the capital. Anduin Lothar rescued the orphaned prince and fled north with the kingdom's survivors to Southshore.\n\nIn Capital City, King Terenas Menethil II took Varian in like a second son. The young prince grew up in exile beside Prince Arthas Menethil, carrying the memory of his burned home. Then the Alliance of Lordaeron broke the Horde and reclaimed Stormwind. At eighteen, Varian took the crown and faced the immense task of rebuilding his ruined kingdom. He hired Edwin VanCleef and the Stonemasons Guild to restore the capital. When the great work was done, the corrupt House of Nobles refused to pay the promised wages.\n\nThe stonemasons would not back down, and Varian could not settle the dispute between the entrenched nobility and the furious artisans. Soon, violence filled Stormwind's streets."
     },
     "topic:war-of-the-ancients": {
       "1": [
         {
-          "duration": 146.59918367346938,
-          "file": "Audio/Transport/full_topic_war-of-the-ancients-f8299b7d3a643f5e0f4f/1-0000.mp3",
-          "sha256": "ed1471f5f58b3981547bdf15f6a14a161f3612952cf2340b57e7a3c74de09db6",
+          "duration": 135.0530612244898,
+          "file": "Audio/Transport/full_topic_war-of-the-ancients-0e0606057ec6379d18b7/1-0000.mp3",
+          "sha256": "1a6339e749c3966b4b9905a102f855354b61b62f57e5627b45ba3c1067019975",
           "start": 0
         }
       ],
@@ -15019,21 +15019,21 @@
         ]
       },
       "fullHash": "8f55c6",
-      "generation": "16b397d70ed7748bd604",
+      "generation": "fa387f592e2c8ae99343",
       "hash": "8f55c6",
       "source": {
-        "duration": 146.599184,
+        "duration": 135.079184,
         "file": null,
-        "sha256": "f8299b7d3a643f5e0f4ff996b716caf7383409764546d67f68d50bf0283ecd10"
+        "sha256": "0e0606057ec6379d18b731aeb33fc699d64e4aae59dd41e4fb36796e330c8150"
       },
       "text": "War of the Ancients. As Queen Azshara and her Highborne opened the Well of Eternity, the Burning Legion entered Azeroth. Malfurion Stormrage, Illidan, and Tyrande Whisperwind led the resistance that drove the demons back. The Well's destruction brought the Great Sundering, breaking ancient Kalimdor and changing the world. At the height of the ancient Kaldorei Empire, Queen Azshara and her Highborne sorcerers drew deeply on the Well of Eternity's arcane power. Their spells reached into the Great Dark Beyond and caught the notice of Sargeras, master of the Burning Legion. He promised power and perfection. Then Azshara and her advisor Xavius opened a rift within the Well.\n\nFelHounds, felguard, doomguard, and monstrous commanders poured into Zin-Azshari. They slaughtered those who were not Highborne and began a crusade to purge the world of life. Night elves beyond the Highborne caste rose against the slaughter. Three remarkable leaders gathered the resistance: Malfurion Stormrage, the first mortal druid; Tyrande Whisperwind, a devoted priestess of Elune; and Illidan, Malfurion's gifted brother. Together, they brought common night elves to a desperate frontline against the Legion's onslaught. The war grew to world-shattering proportions when Cenarius rallied the ancient Wild Gods and dragonflights to the fight. To keep Sargeras from setting foot on Azeroth, Malfurion and the resistance tried to collapse the portal over the Well of Eternity. Their desperate gambit cast the demonic host back into the Twisting Nether, but the strain proved too great.\n\nThe Well violently imploded and triggered the Great Sundering. Kalimdor broke into separate continents, the world's center flooded to form the Great Sea, and Kaldorei culture changed forever."
     },
     "topic:warlock": {
       "1": [
         {
-          "duration": 173.06122448979593,
-          "file": "Audio/Transport/full_topic_warlock-1ed325357b45d81186b1/1-0000.mp3",
-          "sha256": "4e82fc96f56ff9229d93fab2cd34f91070632903d6dc6a4c25266bd4edc9a026",
+          "duration": 141.29632653061225,
+          "file": "Audio/Transport/full_topic_warlock-d9e3f3fb8b19c19397a5/1-0000.mp3",
+          "sha256": "d19d3820dd41cdb12b3debe79a4b5e4cb44ce49e3ac58e5e838d2e213a7d3ea9",
           "start": 0
         }
       ],
@@ -15045,21 +15045,21 @@
         ]
       },
       "fullHash": "feb11f",
-      "generation": "f9cfe40ad6b3f724da5f",
+      "generation": "0e26cc1c98c3987d7515",
       "hash": "feb11f",
       "source": {
-        "duration": 173.061224,
+        "duration": 141.322449,
         "file": null,
-        "sha256": "1ed325357b45d81186b1cbc1c095f4944d969a3b46bf05614299f52db9ab605a"
+        "sha256": "d9e3f3fb8b19c19397a583611c99902e087ae7cc5f9d4aa28deb48f06d85af3e"
       },
       "text": "Warlock. Across Azeroth, Warlocks wield forbidden powers that bring fear and distrust. They command demons and cast curses, fire, and shadow magic. Some turn these arts against the Burning Legion and its servants. Where ordinary spellcasters see ruin, warlocks see a path to victory. They strike from afar with shadow and fire, and drain the vital essence and souls of their enemies to fuel their fiercest rites. Brimstone falls from the sky, and agonizing curses break the mind.\n\nWarlocks wear simple cloth and have little strength to withstand a blow. They call horrors to meet danger and sacrifice demonic thralls to preserve their own lives. A warlock's hold over the Twisting Nether begins with small bargains and grows into iron dominion. Novices command mischievous imps to hurl flame. With deeper knowledge of fel magic, they bind voidwalkers from shadowy depths to bear physical punishment, succubi who beguile enemy minds, and ravenous felhunters that devour magical energy.\n\nEach summon demands dangerous focus. The Nether's denizens are ever testing their masters for weakness. Orcish demonology began on Draenor, where Kil'jaeden, a demon lord, tempted Gul'dan with the promise of supreme power. Gul'dan founded the secretive Shadow Council and turned many shaman into masters of fel magic. Demonic magic withered Draenor's fertile plains into a barren red wasteland, and the Old Horde invaded through the Dark Portal.\n\nAmong humans, the Kirin Tor forbade demonology and hunted illicit summonings. Yet ambitious mages still fell to the lure of untamed sorcery. Warlocks now walk a narrow path between usefulness and execution. In Stormwind, they meet in hidden, gloomy tavern basements, away from the Cathedral of Light's watchful eyes. In Orgrimmar, they gather in the shadowed chasms of the Cleft of Shadow, watched by Thrall's shamanistic regime.\n\nTheir methods inspire revulsion, yet neither the Alliance nor the Horde can dismiss the edge warlock magic brings to a hostile battlefield."
     },
     "topic:warrior": {
       "1": [
         {
-          "duration": 108.35591836734694,
-          "file": "Audio/Transport/full_topic_warrior-8a149964a0556850a883/1-0000.mp3",
-          "sha256": "845df5ea5647f372e885e9966d78b064358f37ab5a6a994b0fd82c1076f9aa70",
+          "duration": 88.9730612244898,
+          "file": "Audio/Transport/full_topic_warrior-35c73399c1f5a4166dcc/1-0000.mp3",
+          "sha256": "73c8a24bd34aea9a03cbef482b14361f7018d4a5f4ca7e0c022b1278b3f4bf26",
           "start": 0
         }
       ],
@@ -15071,21 +15071,21 @@
         ]
       },
       "fullHash": "b24ef9",
-      "generation": "121b8d98e85defc6c6d3",
+      "generation": "1e7797e4f74769abc9b5",
       "hash": "b24ef9",
       "source": {
-        "duration": 108.382041,
+        "duration": 88.999184,
         "file": null,
-        "sha256": "8a149964a0556850a8839bad484bdff07a0facf4954e0557d2407e66b64d7619"
+        "sha256": "35c73399c1f5a4166dcc0a8e581111913cf3a206bd1aa298aa26703c279c5e94"
       },
       "text": "Warrior. Across Azeroth, Warriors take their place at the front with steel, discipline, and battle rage. They wear heavy plate and wield many weapons, shielding allies or breaking enemy ranks. Every race and civilization has its Warriors, from city guards and royal champions to wandering mercenaries. Warriors rely on strength, discipline, and skill with weapons, not prayers or spells. Heavy plate helps them hold the front. Some brace behind tall shields, enduring blows and drawing danger away from spellcasters and archers. Others carry two-handed polearms, axes, or greatswords. Some fight with a blade in each hand and cut through enemy ranks. In battle, pain and blood kindle a Warrior's rage. It grows as Warriors strike foes and endure their attacks. Skilled fighters shape that force into crushing blows and sweeping weapon strikes. Their battle cries hearten nearby allies and break enemy morale. Every race on Azeroth has its Warriors. Stormwind fields disciplined knights and footmen, while Ironforge calls on its stout mountain guard. The Horde rallies around orcish blademasters, tauren braves, and Forsaken Deathguards.\n\nHonor, defense of their lands, or the promise of coin can lead Warriors to arms. They form the backbone of every standing army."
     },
     "topic:warsong-clan": {
       "1": [
         {
-          "duration": 126.04081632653062,
-          "file": "Audio/Transport/full_topic_warsong-clan-22674c41325895b35919/1-0000.mp3",
-          "sha256": "2028adff6a30c3aedfe009be7b3c83af1701866f0b2739293885bb93ef2f7319",
+          "duration": 106.68408163265306,
+          "file": "Audio/Transport/full_topic_warsong-clan-e15210f56be3c8b7abb8/1-0000.mp3",
+          "sha256": "505e912833f9dbbdfdac6a13dbc92c132f254922960a8bb12f36dcce861eb22a",
           "start": 0
         }
       ],
@@ -15097,21 +15097,21 @@
         ]
       },
       "fullHash": "d792be",
-      "generation": "25f250e6c5eed3dab149",
+      "generation": "d648635fdfd4177f8920",
       "hash": "d792be",
       "source": {
-        "duration": 126.066939,
+        "duration": 106.710204,
         "file": null,
-        "sha256": "22674c41325895b35919719b2e26058d5241c1a09d2cc494354af0142f1bb0c3"
+        "sha256": "e15210f56be3c8b7abb8aeb31b2c55e849434008aa91522a71c3faefd28048cc"
       },
       "text": "Warsong clan. Across Kalimdor, the Warsong clan cuts timber for the young Horde. Once led by the revered chieftain Grommash Hellscream, the clan endured exile, internment camps, and demonic corruption. Now its Outriders work chiefly in Ashenvale, where they clash ceaselessly with the night elves. On Draenor's open plains, the Warsong earned their name through swift attacks by wolf riders. After the Horde fell, the clan evaded capture while other orcs languished in Alliance internment camps. The Warsong wandered the wilderness and kept to their warlike ways. At last, Thrall united with Hellscream, and together they forged the New Horde. During the Third War, the Warsong reached Kalimdor. Thrall sent Hellscream and his clan into Ashenvale to cut timber and build an outpost. Their intrusion enraged the night elves and the forest demigod Cenarius. Facing slaughter, the Warsong drank once more from Mannoroth's demonic blood and killed Cenarius in a frenzy of fel corruption.\n\nThrall and his allies purged Hellscream of the curse. Grom then gave his life in a fateful fight that destroyed Mannoroth. His sacrifice broke the demon blood curse forever and secured the Warsong's place in Horde history. Today, the Warsong Outriders carry on Grommash's mission in Ashenvale. From Splintertree Post and logging camps, they cut timber for the young Horde in Durotar's arid wastes. Their presence has brought them into bitter conflict with the night elven Silverwing Sentinels. The Warsong hold Warsong Gulch and keep cutting into the ancient forest despite the endless ambushes."
     },
     "topic:wildhammer-clan": {
       "1": [
         {
-          "duration": 175.6995918367347,
-          "file": "Audio/Transport/full_topic_wildhammer-clan-d5d56d47caf6c2bbb6e9/1-0000.mp3",
-          "sha256": "50588b350e2e8db28ceddc1c8555eed5018cd5ee4bb87b8d397a7bdda67d0886",
+          "duration": 143.90857142857143,
+          "file": "Audio/Transport/full_topic_wildhammer-clan-69b39b1651165178f73f/1-0000.mp3",
+          "sha256": "77ae7ec71651841e1ed10c1abbd645ebc78e4a1eef1b44193fcb71f5f3a42e09",
           "start": 0
         }
       ],
@@ -15123,21 +15123,21 @@
         ]
       },
       "fullHash": "5e8640",
-      "generation": "cf4b6cb95a752c6ea60d",
+      "generation": "29d40c098bc983eda1fa",
       "hash": "5e8640",
       "source": {
-        "duration": 175.725714,
+        "duration": 143.934694,
         "file": null,
-        "sha256": "d5d56d47caf6c2bbb6e918455a8da2aa58d1ead3c424a44bd313df3c93ef6317"
+        "sha256": "69b39b1651165178f73f7ce86fa473a447a7bd5161b4fb4a0b9ff8306af82789"
       },
       "text": "Wildhammer clan. In the Hinterlands, the Wildhammer clan holds to its freedom among the wooded peaks. Driven from Grim Batol centuries ago, the dwarves made Aerie Peak their home and learned to ride wild gryphons. They remain friends of the Alliance and stand ready to defend its skies. Before the War of the Three Hammers, the Wildhammers lived near Ironforge. When High King Modimus Anvilmar died, civil war followed, and the victorious Bronzebeards claimed the city. Thane Khardros led his clan north and built a hold within Grim Batol. Soon, the defeated Dark Irons laid siege to it.\n\nKhardros slew the sorceress Modgud, but her dying curse blighted the mountain and left its halls uninhabitable. The Wildhammers refused an invitation to return under Bronzebeard rule. They chose their freedom and traveled north to the forests and rocky crags of the Hinterlands. The Wildhammers built Aerie Peak in the highlands of their new home. Unlike their kin beneath the earth, they embraced open skies and living rock, and formed a deep spiritual bond with the native gryphons. In secluded aviaries, they forged enchanted stormhammers and became Azeroth's finest aerial cavalry.\n\nDuring the Second War, Warchief Orgrim Doomhammer marched toward Quel'Thalas and attacked Aerie Peak. Supreme Commander Anduin Lothar and the Alliance came to the clan's aid. In gratitude, High Thane Kurdran Wildhammer pledged his gryphon riders to the coalition. They fought the Horde's enslaved red dragons above Lordaeron and the Great Sea. When the Dark Portal reopened, Kurdran Wildhammer led his riders into Draenor with the Alliance Expedition. He gave up his return to seal the rift, and a colossal statue in Stormwind's Valley of Heroes honors his deed. In Aerie Peak, High Thane Falstad took command.\n\nThe human kingdoms later quarreled and fractured, but the Wildhammers remained loyal partners of King Terenas Menethil II. During the Third War, the Scourge swept across Lordaeron. Wildhammer flyers took to the skies again, fighting to defend allied lands and innocent refugees from the walking dead."
     },
     "topic:world-of-warcraft-forever": {
       "1": [
         {
-          "duration": 203.8857142857143,
-          "file": "Audio/Transport/full_topic_world-of-warcraft-forever-327accf239331cfc8d1b/1-0000.mp3",
-          "sha256": "1731440a2720bf21465b7aaa17620112feb202922d0598255a1dc3c231a8ca1c",
+          "duration": 226.69061224489798,
+          "file": "Audio/Transport/full_topic_world-of-warcraft-forever-c211ba6aa1904b1d6cc7/1-0000.mp3",
+          "sha256": "4bbeef9b8f82cd85bcc067037970750e585b28926530e26f1930d6ac13b5ea61",
           "start": 0
         }
       ],
@@ -15149,12 +15149,12 @@
         ]
       },
       "fullHash": "40a090",
-      "generation": "98c0430dbed14010121a",
+      "generation": "d137a4b1c5aaeed7361c",
       "hash": "40a090",
       "source": {
-        "duration": 203.911837,
+        "duration": 226.716735,
         "file": null,
-        "sha256": "327accf239331cfc8d1b8bc61a9fc71014dfda725bc8610a0c4ec9e4b190a53b"
+        "sha256": "c211ba6aa1904b1d6cc7bd7964b006ba62fc1d6b16fcfd4a093d444d95275c7e"
       },
       "text": "World of Warcraft: Forever. World of Warcraft: Forever takes place in the year after the Third War. Thrall's Horde has settled Durotar, and a regent rules Stormwind for its boy-king. The Forsaken hold the Undercity. The world reaches from the Skyborne of Zephras Isle to the contested Riverglades and Shen'dralas, sacred Mount Hyjal and the city of Dalaran rising from its ruins in the Alterac Mountains. The Burning Legion has been driven back at Mount Hyjal, yet the world bears the hurt it left behind. Thrall's Horde of orcs, trolls and tauren has made its home in Durotar and Mulgore. The Forsaken under Sylvanas Windrunner have joined the Horde from the ruins of Lordaeron.\n\nIn Stormwind, Highlord Bolvar Fordragon rules as regent for the boy-king Anduin Wrynn while King Varian is missing. The dwarves of Ironforge, the exiled gnomes and the night elves of Teldrassil stand with the Alliance. The Scourge still holds the Plaguelands. The Skyborne, or shen'dorei, descend from night elves who rebelled against Prince Tortheldrin of Eldre'Thalas. Wind spirits carried their island, Zephras Isle, into Skywall, the Elemental Plane of Air, and the Skyborne escaped with it. Ages there made them high elves, and more are now born blue-skinned.\n\nThe spirits vanished centuries ago, and Zephras Isle is slowly breaking apart. The Skyborne look back toward Azeroth. Their airships reach the Alterac Mountains near Dalaran and Mulgore's Skywatcher Plateau. They fight for both the Alliance and the Horde. Zephras Isle floats in Skywall as the Skyborne's homeland. East of the Burning Steppes, the Riverglades is an old Stormwind frontier lost in the First War. Loyalists at Farholde Keep hold out against the wilds, Horde outposts and the Twilight's Hammer at Sunnyglade.\n\nShen'dralas is a rugged borderland between Desolace, Feralas and Mulgore, contested by centaur, quilboar and outcasts. Mount Hyjal, sacred to the night elves, still bears the scars of Archimonde's defeat. In the Alterac Mountains, the Kirin Tor have lowered Dalaran's shield and are rebuilding their city. Off Kalimdor's coast, the Horde and the Alliance battle over the Darkspear Islands. Danger waits beneath cities and in the world's far corners. There is the Hall of Thanes deep under Ironforge and the haunted Ruins of Lordaeron above the Undercity. An excavation site lies in the Wetlands, alongside the City of Dalaran itself.\n\nFarther afield are the Drowned City in Stranglethorn Vale, Krol'dok Stronghold in the Riverglades, Alcaz Prison in Dustwallow Marsh, Blackmaw Hold in Azshara and the Shaper's Terrace in Un'Goro Crater. On Mount Hyjal, the Barrow Deeps and Hyjal Summit test the mightiest war bands. Warriors come from every race. Paladins are human, dwarf or Forsaken, while shaman are orc, tauren, troll, dwarf or Horde Skyborne. Priests are human, dwarf, gnome, night elf, troll or Forsaken. Mages are human, gnome, orc, troll, Forsaken or Alliance Skyborne.\n\nWarlocks are human, gnome, orc, troll or Forsaken. Hunters are human, dwarf, night elf, orc, tauren, troll or Skyborne. Rogues come from every race but the tauren. Druids are night elf, tauren or Skyborne."
     }
@@ -15228,8 +15228,51 @@
       891,
       1097
     ],
+    "03b6b58d6bc826b8f2dc0ae703190d7c4b7a54fbb0559143b91885b8fe40b999": [
+      230,
+      521,
+      799,
+      992,
+      1211,
+      1602,
+      1773,
+      1908,
+      2330,
+      2656,
+      2864,
+      3027,
+      3195,
+      3333,
+      3550,
+      3716,
+      4027,
+      4212,
+      4346
+    ],
     "041f0e5afaa25784a326b8bcab9ed997ae61f98ac184b5e8b3986e42fc7ac944": [
       566
+    ],
+    "04a25ec1aa6ded8e8e5e26d4e5ce9deb434a1e457e701822bf7b8b87be6fadb3": [
+      241,
+      410,
+      569,
+      766,
+      1091,
+      1346,
+      1528,
+      1799,
+      2002,
+      2291,
+      2512,
+      2684,
+      2893,
+      3124,
+      3317,
+      3524,
+      3776,
+      4081,
+      4710,
+      4904
     ],
     "05525cec1090e4309714dc1a3f7881fb11f4629ea71345d91f658ae71d4a08f7": [
       255,
@@ -15277,6 +15320,21 @@
     ],
     "075c1aa97d52fb6be4177ee379cbb0dd4a4649138e020ccc05f14fad9c356c52": [
       519
+    ],
+    "076b2809d81db029ea220c305a43aadf39e1e3bc066fcccca1fc7a6c063a9fa3": [
+      177,
+      342,
+      594,
+      1061,
+      1393,
+      1671,
+      1969,
+      2268,
+      2463,
+      2655,
+      2800,
+      2997,
+      3133
     ],
     "07b7406b59d5c51a7273eb315bca7cfc0f083fd77860aad47137b93b288f4e43": [
       258
@@ -15399,6 +15457,18 @@
       1162,
       1426
     ],
+    "0e105e67bf3c5c883aa0fde89accff684e966cb3ad504a8e065733a97cdc645e": [
+      227,
+      596,
+      791,
+      974,
+      1123,
+      1285,
+      1566,
+      1817,
+      2145,
+      2358
+    ],
     "0ec9980a0b9e9af33122591a920909f8edc8b87600be2d0baaec761ab8fad13b": [
       262,
       470,
@@ -15464,6 +15534,14 @@
     "114f3c81abd35e8f27bf46a3edbdb2ef4d2f95ba56b422f33e2fa0baf2b242cd": [
       267
     ],
+    "116c3352d04888f69074a0b9e3059db1ffb5740696e3a69dffcb8a409a28efb8": [
+      202,
+      506,
+      911,
+      1118,
+      1318,
+      1488
+    ],
     "11942c464032c53e6572444bc44831417f700b62028f2e419ca8e941530d9f79": [
       325,
       577
@@ -15471,18 +15549,6 @@
     "11c8351667edec8a6e98b94cc7232e7bf95b07181490055d60d6d6f727160f34": [
       397,
       760
-    ],
-    "121bd5601b5d24910f210841bf7ce2d14e4ab3d43a97409aa0b0d8074ac187e0": [
-      230,
-      441,
-      665,
-      1052,
-      1232,
-      1466,
-      1682,
-      1822,
-      2084,
-      2383
     ],
     "124d3ab9951b2d43bfe4fefef23806e24f12646fe1729f51ce19b71a3db0e3ee": [
       207,
@@ -15583,71 +15649,11 @@
       1718,
       1903
     ],
-    "1731440a2720bf21465b7aaa17620112feb202922d0598255a1dc3c231a8ca1c": [
-      187,
-      394,
-      932,
-      1167,
-      1354,
-      1553,
-      1835,
-      2179,
-      2429,
-      2732,
-      2907,
-      3111,
-      3574,
-      3727,
-      3959,
-      4225,
-      4538,
-      4745,
-      4996,
-      5205,
-      5341,
-      5549,
-      5760,
-      5899,
-      6086,
-      6261,
-      6469,
-      6837,
-      7000,
-      7214,
-      7373,
-      7575
-    ],
     "175325e9f721d8bf54866014e44317249dedc681d440133920558dd73dc2984a": [
       227,
       369,
       594,
       846
-    ],
-    "17a669b4dcb56b16e6da23c198fa22d7b5f9e3eb885558a477e8448eeed029ec": [
-      139,
-      283,
-      489,
-      649,
-      983,
-      1163,
-      1414,
-      1580,
-      1855,
-      2121,
-      2274,
-      2557,
-      2887,
-      3098,
-      3296,
-      3472,
-      3624,
-      3813,
-      4097,
-      4267,
-      4404,
-      4566,
-      4775,
-      4951
     ],
     "17e984363a962894db0c3e09acc612f60c519f595c319a1d341ed08ebfddf124": [
       307,
@@ -15712,21 +15718,24 @@
       770,
       958
     ],
-    "1a14b9b0239701817c437403dee7db0fa278a8628c4c17d35cd61fc6041b5c45": [
-      141,
-      334,
-      495,
-      739,
-      967,
-      1219,
-      1427,
-      1589,
-      1835,
-      2130,
-      2347,
-      2482,
-      2827,
-      2980
+    "1a6339e749c3966b4b9905a102f855354b61b62f57e5627b45ba3c1067019975": [
+      185,
+      632,
+      923,
+      1301,
+      1551,
+      1763,
+      1910,
+      2315,
+      2587,
+      2767,
+      3057,
+      3216,
+      3623,
+      3950,
+      4293,
+      4588,
+      4771
     ],
     "1a694ee651f9581b52a6e084ad47832dacc55259cbfd7fa1ef88683042d1db6f": [
       546
@@ -15792,6 +15801,14 @@
       832,
       1006
     ],
+    "1cb599fe35b785cd984da00db6418ae9896c14f8fec59e2043b1039f08c06fcc": [
+      248,
+      510,
+      734,
+      903,
+      1124,
+      1346
+    ],
     "1df13a5f2fa5eac24b9f6283458c0796167f0805d810d7d4657e83dc3a05b816": [
       210,
       419,
@@ -15839,6 +15856,31 @@
       763,
       1130
     ],
+    "1ec1fb5f8f099baa485a5b8b96a6537ae3cb062caeac902945c4b2a498852994": [
+      173,
+      425,
+      608,
+      909,
+      1099,
+      1275,
+      1435,
+      1707,
+      2036,
+      2290,
+      2681,
+      3020,
+      3197,
+      3478,
+      3805,
+      3955,
+      4118,
+      4263,
+      4449,
+      4635,
+      4802,
+      5081,
+      5259
+    ],
     "1f26f97d9ad8398d5e92b1feec42caf544c2db9d988c66673cdfcd296c34b188": [
       188,
       449,
@@ -15860,30 +15902,6 @@
       949,
       1230
     ],
-    "1f6863aa4aa192985c6646d1adba57947389b9ea8cec2db9b587fb8e7b2b8555": [
-      254,
-      472,
-      711,
-      866,
-      1039,
-      1303,
-      1600,
-      1835,
-      2007,
-      2191,
-      2413,
-      2725,
-      2952,
-      3228,
-      3664,
-      3826,
-      4060,
-      4425,
-      4847,
-      5026,
-      5203,
-      5381
-    ],
     "1f6c8600063ea431d190cc1d21a2a17dfe3d9d743ca93b985dcc12c2a7552675": [
       340,
       594
@@ -15894,27 +15912,6 @@
       642,
       914,
       1136
-    ],
-    "2028adff6a30c3aedfe009be7b3c83af1701866f0b2739293885bb93ef2f7319": [
-      158,
-      306,
-      564,
-      959,
-      1246,
-      1396,
-      1571,
-      1742,
-      2002,
-      2430,
-      2644,
-      3060,
-      3238,
-      3439,
-      3580,
-      3746,
-      3980,
-      4279,
-      4513
     ],
     "2050b0f6c741e73c3ed94253b265ca77b633d4d76b8655a7980f5d0826226a95": [
       234,
@@ -16055,6 +16052,32 @@
       1065,
       1269,
       1404
+    ],
+    "24fd15eb7b003a577e9341c550fe52dfb2abba5be6a86b1a04edb66a99bebe4a": [
+      145,
+      511,
+      758,
+      916,
+      1089,
+      1247,
+      1534,
+      1924,
+      2186,
+      2391,
+      2676,
+      3040,
+      3307,
+      3599,
+      3738,
+      4070,
+      4248,
+      4529,
+      4939,
+      5177,
+      5411,
+      5626,
+      5833,
+      6003
     ],
     "2545ea4d204226a28a41f1f4305c7614844c4871476bfb394ef694379414da1d": [
       228,
@@ -16415,6 +16438,10 @@
       786,
       1019
     ],
+    "352a824878317aafca60a239d557e63aa286aa7cfddc92e6f13e51c1f42f3fb6": [
+      237,
+      395
+    ],
     "3551c7a3d13dc947409e9f1709f3974d11102c75326583f8e545a55c20c29e76": [
       591
     ],
@@ -16446,40 +16473,6 @@
     ],
     "3700a780db8185cb82128a73de28d97cff964710c26f3ca0221fe479feef35e4": [
       392
-    ],
-    "379ac47449a8a30a0147c2606f618a3c4e14c34a24241e5a688f648cdb6974e0": [
-      179,
-      334,
-      630,
-      824,
-      1061,
-      1208,
-      1378,
-      1577,
-      1783,
-      1925,
-      2149,
-      2335,
-      2604,
-      2838,
-      2980,
-      3177,
-      3378,
-      3585,
-      3751,
-      3896,
-      4041,
-      4274,
-      4534,
-      4834,
-      5052,
-      5189,
-      5350,
-      5592,
-      6044,
-      6298,
-      6458,
-      6696
     ],
     "37b68a217d5c40eee67757e891ff9ab20d86327c39431fc92a7805d564e9cef5": [
       768
@@ -16556,6 +16549,19 @@
       1084,
       1320,
       1490
+    ],
+    "3bf162d92b95027d8ef77af6dc593f6aa32a85815cba5cf933c25f59c7af0c7e": [
+      281,
+      617,
+      846,
+      1125,
+      1288,
+      1428,
+      1572,
+      1782,
+      2067,
+      2266,
+      2433
     ],
     "3c3b4f1fc541ad82cdcae0b2cadcefa395646dcbf42962df389f09a2582740ca": [
       267,
@@ -16659,30 +16665,44 @@
       557,
       819
     ],
-    "430546a62f8188a503301409aac9e2324f6f8b0ec4a020f8e6e5d8bdea206862": [
-      164,
-      375,
-      577,
-      860,
-      1106,
-      1271,
-      1533,
-      1707,
-      2020,
-      2193,
-      2503,
-      2715,
-      2948,
-      3096,
-      3275,
-      3602,
-      3830,
-      4168,
-      4313,
-      4458,
-      4614,
-      4848,
-      5109
+    "433377a8f0bb3b363dc07d807d79bfb2d9d256ca001dfe06765d694f6f3541dd": [
+      227,
+      571,
+      822,
+      1004,
+      1232,
+      1544,
+      1831,
+      2141,
+      2457,
+      2593,
+      2749,
+      2976,
+      3136,
+      3499,
+      3832,
+      4081,
+      4311,
+      4726,
+      5052,
+      5201,
+      5426,
+      5583,
+      5863,
+      6017
+    ],
+    "435b7acd31374ed62db111fd242f4f7ae268161e1786add9925cf6638876ca55": [
+      217,
+      565,
+      734,
+      1026,
+      1284,
+      1516,
+      1677,
+      1981,
+      2234,
+      2434,
+      2671
     ],
     "43ac2e49da0d5c1ecd818907c8e0625011267ca20dca466d3f87f21fafb18d04": [
       748
@@ -16781,6 +16801,24 @@
       1469,
       1630
     ],
+    "4a22cb875a868d34e77479bee422766d5c81c3b57ca0d70ad44402e2a96f44dc": [
+      190,
+      469,
+      607,
+      902,
+      1042,
+      1203,
+      1412,
+      1598,
+      1758,
+      2296,
+      2466,
+      2684,
+      2871,
+      3055,
+      3444,
+      3605
+    ],
     "4a5b6a350ccccb89b450ea2e11d5dcf7c30d800319f9886375818a168c797084": [
       235,
       488,
@@ -16804,6 +16842,40 @@
       481,
       677,
       818
+    ],
+    "4bbeef9b8f82cd85bcc067037970750e585b28926530e26f1930d6ac13b5ea61": [
+      212,
+      428,
+      985,
+      1238,
+      1712,
+      1951,
+      2424,
+      2706,
+      2903,
+      3063,
+      3253,
+      3477,
+      3944,
+      4122,
+      4376,
+      4662,
+      5006,
+      5226,
+      5469,
+      5688,
+      5849,
+      6103,
+      6331,
+      6478,
+      6860,
+      7096,
+      7302,
+      7510,
+      7726,
+      7974,
+      8158,
+      8421
     ],
     "4c034a16250c2812a7c0bf29f4e73f446a5abad09813c64048a302d0212e2995": [
       198,
@@ -16887,47 +16959,12 @@
       1565,
       1784
     ],
-    "4e31f740c24946d98b159b39241d473f457c20ce34bdedcbbf0b31cf090134f5": [
-      209,
-      361,
-      552
-    ],
     "4e418d9442b0a5b3bc79d2eed78b6a77bde06d81ea5fc38b93b4c932d2b7cca8": [
       288,
       441,
       725,
       881,
       1139
-    ],
-    "4e82fc96f56ff9229d93fab2cd34f91070632903d6dc6a4c25266bd4edc9a026": [
-      140,
-      335,
-      493,
-      754,
-      1026,
-      1169,
-      1450,
-      1701,
-      1952,
-      2284,
-      2589,
-      2770,
-      3066,
-      3355,
-      3520,
-      3727,
-      3908,
-      4096,
-      4371,
-      4739,
-      5021,
-      5245,
-      5452,
-      5658,
-      5818,
-      6022,
-      6162,
-      6359
     ],
     "4ec9d30ebba135ef6bc80f62421d3f088baa2816a16b0a82ce67bea8faf220ac": [
       283,
@@ -16979,34 +17016,25 @@
       965,
       1251
     ],
-    "50588b350e2e8db28ceddc1c8555eed5018cd5ee4bb87b8d397a7bdda67d0886": [
-      172,
-      378,
-      742,
-      948,
-      1187,
-      1329,
-      1562,
-      1802,
-      2000,
-      2151,
-      2405,
-      2633,
-      2933,
-      3131,
-      3530,
-      3884,
-      4058,
-      4235,
-      4460,
-      4703,
-      4944,
-      5176,
-      5596,
-      5781,
-      5930,
-      6160,
-      6343
+    "505e912833f9dbbdfdac6a13dbc92c132f254922960a8bb12f36dcce861eb22a": [
+      194,
+      342,
+      529,
+      773,
+      1012,
+      1263,
+      1429,
+      1655,
+      1809,
+      2010,
+      2187,
+      2520,
+      2672,
+      2856,
+      3135,
+      3337,
+      3610,
+      3818
     ],
     "505f4148d9f6dd9e9e77c034edb0a8aeafa41ce796aa1fcc50a807af2e4c567e": [
       273,
@@ -17026,6 +17054,25 @@
       541,
       824,
       992
+    ],
+    "518622ab0d8c9f2a47cb08b045a1d105135959fb66ab6995ae3e1e08cc42c724": [
+      215,
+      359,
+      494,
+      754,
+      892,
+      1141,
+      1400,
+      1625,
+      1811,
+      1955,
+      2175,
+      2508,
+      2805,
+      3139,
+      3325,
+      3564,
+      3964
     ],
     "5241e61c2cf009dab3e6d62fbfb42ea9ee645a6c0f93172ed80d34e27a2e2c60": [
       183,
@@ -17077,19 +17124,6 @@
       409,
       667
     ],
-    "541ae81da7db86a639d6f4cb63abb71c300c7672f43568813827aa03f660aba2": [
-      185,
-      499,
-      647,
-      908,
-      1148,
-      1359,
-      1595,
-      1764,
-      2001,
-      2175,
-      2395
-    ],
     "5480a1c44a90780eb23778a18c2ef93d1e3392587b711ed4df4d8efc4ab6570b": [
       284,
       488,
@@ -17111,34 +17145,6 @@
       260,
       503,
       739
-    ],
-    "55a72afa311454e00cd649879e014913dc9bf22d338af213d736236658d2364c": [
-      209,
-      436,
-      574,
-      830,
-      1033,
-      1272,
-      1410,
-      1672,
-      1970,
-      2172,
-      2344,
-      2493,
-      2648,
-      2834,
-      3018,
-      3206,
-      3405,
-      3694,
-      3884,
-      4038,
-      4298,
-      4489,
-      4631,
-      4863,
-      5077,
-      5229
     ],
     "560dba73e82be024f8ea93da0085c86652951d195b7a5caf7b09fae54c2c44ce": [
       202,
@@ -17284,6 +17290,21 @@
       1102,
       1279
     ],
+    "5c4f1cf46b7bbe36bae3ecf65c89d09468a5f1d26be12425f0b773b6c4957f0f": [
+      232,
+      477,
+      735,
+      950,
+      1150,
+      1317,
+      1452,
+      1595,
+      1789,
+      2025,
+      2240,
+      2533,
+      2769
+    ],
     "5c7c406f743bd65b38afe5092b9c93bde555136880cdcf91cfd295e9cff4526b": [
       222,
       516,
@@ -17314,6 +17335,23 @@
       1160,
       1408
     ],
+    "5cf3f40f5faa9b1941b3fdf79011f002b8cb4a1632a2dcbe161ed47c645b83b5": [
+      261,
+      498,
+      798,
+      935,
+      1134,
+      1483,
+      1701,
+      1839,
+      2119,
+      2337,
+      2693,
+      3084,
+      3338,
+      3583,
+      3964
+    ],
     "5d682898f93df41e9829192b001a83addf96efd1a938f46db8d4f6aab4ba2718": [
       298,
       471,
@@ -17322,6 +17360,25 @@
       1143,
       1371,
       1649
+    ],
+    "5dcd3dcbb84757800c1e7d19ed58fa39ef352328add82bd3d1bbae0556442095": [
+      144,
+      300,
+      503,
+      783,
+      992,
+      1327,
+      1477,
+      1660,
+      1823,
+      1984,
+      2203,
+      2423,
+      2698,
+      2850,
+      3106,
+      3271,
+      3496
     ],
     "5dd0bab6296108439a9b77db9dbdf9851e63795326db166cf5df5714ea622caa": [
       400
@@ -17404,47 +17461,6 @@
       2400,
       2552,
       2738
-    ],
-    "6237185bfeba9a8bf75469254470441b94ca8d1011365f5b628432fac21628e8": [
-      234,
-      387,
-      522,
-      711,
-      917,
-      1089,
-      1230,
-      1409,
-      1627,
-      1847,
-      2054,
-      2354,
-      2618,
-      2894,
-      3125,
-      3266,
-      3551,
-      3781,
-      4013,
-      4202,
-      4409,
-      4545,
-      4831,
-      5151
-    ],
-    "6278c75cab7d578824abb1c8d7e07f317dc253e0bf46972440565d1a715049c9": [
-      337,
-      499,
-      679,
-      846,
-      1079,
-      1277,
-      1446,
-      1731,
-      1924,
-      2060,
-      2386,
-      2671,
-      2911
     ],
     "6396c8ddd026e8c03ea7465c75f27c58b82ea42b4c7eb6893a9d64104c3530d2": [
       194,
@@ -17531,27 +17547,6 @@
       453,
       799
     ],
-    "6709c2989eeaf18e57cbd6155dbafcb097649b0454b3a190cd9aebfc0f396f01": [
-      204,
-      510,
-      863,
-      1151,
-      1366,
-      1503,
-      1650,
-      1941,
-      2190,
-      2795,
-      3056,
-      3329,
-      3556,
-      3765,
-      3918,
-      4121,
-      4390,
-      4698,
-      5078
-    ],
     "675c6b7d3d3d4a960745e86025ba7ce9afe1f2e75c220beb43f0c45204b3607f": [
       629,
       980
@@ -17568,36 +17563,6 @@
       526,
       805,
       964
-    ],
-    "688b6a20ec4c0333b24a4fbea31bc70096990893ea393a4d8f33ccd3ad6368f5": [
-      291,
-      591,
-      731,
-      940,
-      1260,
-      1460,
-      1625,
-      1825,
-      1961,
-      2212,
-      2362,
-      2606,
-      2775,
-      3003,
-      3138,
-      3465,
-      3648,
-      3910,
-      4080,
-      4397,
-      4552,
-      4852,
-      5048,
-      5272,
-      5554,
-      5783,
-      5988,
-      6215
     ],
     "68a5cab957a49a5ff767a6d064a98044bb39277378c90013965cfac9d38db97c": [
       412,
@@ -17676,16 +17641,30 @@
       1388,
       1603
     ],
-    "6ab67c2f919e68a6ce81614abf3756972da1cec185cc572ae2ef71a3f6da4722": [
-      183,
-      393,
-      684,
-      866,
-      1130,
-      1310,
-      1466,
-      1643,
-      1777
+    "6b087f7c0ddd23a6d5f8f7faee71972514a6465c0e9c455ffd38c63fbf850b9d": [
+      258,
+      443,
+      765,
+      950,
+      1283,
+      1561,
+      1774,
+      2007,
+      2274,
+      2412,
+      2733,
+      3131,
+      3276,
+      3517,
+      3661,
+      4026,
+      4298,
+      4697,
+      4872,
+      5101,
+      5393,
+      5681,
+      5815
     ],
     "6bf3b6c8c8203fefb60eccb4d06e0855d0161ee8843a65c1375f574ac7b19c48": [
       759
@@ -17921,6 +17900,22 @@
       453,
       696
     ],
+    "73c8a24bd34aea9a03cbef482b14361f7018d4a5f4ca7e0c022b1278b3f4bf26": [
+      176,
+      484,
+      783,
+      1036,
+      1398,
+      1563,
+      1727,
+      1887,
+      2045,
+      2246,
+      2426,
+      2661,
+      2796,
+      2971
+    ],
     "742a9d1908c6d2a602b88651268c102aa129b386c85402bb55bf0e7bb9c1c7ef": [
       219,
       467,
@@ -18003,6 +17998,31 @@
       1709,
       1960
     ],
+    "77ae7ec71651841e1ed10c1abbd645ebc78e4a1eef1b44193fcb71f5f3a42e09": [
+      224,
+      529,
+      715,
+      899,
+      1171,
+      1367,
+      1526,
+      1850,
+      2032,
+      2268,
+      2454,
+      2663,
+      2822,
+      3118,
+      3410,
+      3599,
+      3829,
+      4037,
+      4299,
+      4590,
+      4755,
+      5069,
+      5220
+    ],
     "77ec1a1be7279a9c97936d3f0a7247a898b436bba0c813a54233ed0ce9d755b5": [
       242,
       458,
@@ -18022,29 +18042,6 @@
     ],
     "79550df0fa9b67f31694676616fdc88b32058b28c7f2494c97bf8f3eb2d2b4ed": [
       596
-    ],
-    "796bf803d316f0a5e4d070e0ecc740179ba7ce0b602b638e7da57885d28091c5": [
-      161,
-      310,
-      642,
-      789,
-      1099,
-      1267,
-      1431,
-      1664,
-      1872,
-      2079,
-      2242,
-      2457,
-      2597,
-      2765,
-      2937,
-      3229,
-      3443,
-      3663,
-      3837,
-      4108,
-      4285
     ],
     "79a377f367df23a8f7187e7341ac31550fb325ca37fa7b0e1ff8f3ca89503d31": [
       243,
@@ -18088,33 +18085,6 @@
       327,
       605
     ],
-    "7c917337e116da101aee4522dc2dce3248babed87fa067cfad65cfd6e8fe8eb7": [
-      137,
-      324,
-      530,
-      699,
-      871,
-      1019,
-      1196,
-      1392,
-      1555,
-      1862,
-      2113,
-      2332,
-      2510,
-      2646,
-      2803,
-      2967,
-      3203,
-      3364,
-      3608,
-      3836,
-      4057,
-      4198,
-      4565,
-      4767,
-      4950
-    ],
     "7cdb06f55a20ce2935550c8931568d4fceabab3dc8a90a0786688f4305d57688": [
       174,
       313,
@@ -18131,16 +18101,6 @@
     ],
     "7d133a7c171dafce3191dcd91081b640ec001f534e5a923ee2a83f1166ca2714": [
       760
-    ],
-    "7d6eb4a31da289ca1952507451b89f253251d431b547f08806d1b93f018d85e2": [
-      256,
-      394,
-      794,
-      1071,
-      1639,
-      1835,
-      2075,
-      2420
     ],
     "7d9e96131e0a77472403a646ddaf671ce35f9f98cf105eaf7fd9f6c79e6d0b00": [
       486,
@@ -18165,6 +18125,29 @@
       311,
       576,
       751
+    ],
+    "7e58b23a8bb6e8423db4fbeb7b9196ffaa5a1c54bc7d2f60fad88d64b4360355": [
+      213,
+      351,
+      606,
+      795,
+      1060,
+      1205,
+      1352,
+      1642,
+      1834,
+      2146,
+      2370,
+      2592,
+      2891,
+      3119,
+      3380,
+      3641,
+      4020,
+      4332,
+      4676,
+      4940,
+      5119
     ],
     "7e7e57e1a0a28b39d0bbbf4595ddfcc8d48fa2db23750fe47a83eec1c7b2dc23": [
       263,
@@ -18269,26 +18252,6 @@
       1885,
       2235
     ],
-    "837ba37a9dbe403d47192a986d726f427d6c07f30a7bb5856c4e363a30d3d26e": [
-      257,
-      446,
-      615,
-      839,
-      992,
-      1280,
-      1627,
-      1798,
-      2132,
-      2321,
-      2536,
-      2797,
-      2948,
-      3541,
-      3837,
-      4021,
-      4311,
-      4457
-    ],
     "8389232e2854c68e250b890fffef139f8649956a33358080bf25a6c2d68495e5": [
       420,
       912
@@ -18301,26 +18264,6 @@
       1583,
       2089,
       2394
-    ],
-    "845df5ea5647f372e885e9966d78b064358f37ab5a6a994b0fd82c1076f9aa70": [
-      264,
-      630,
-      771,
-      985,
-      1203,
-      1420,
-      1725,
-      1924,
-      2125,
-      2323,
-      2529,
-      2765,
-      2986,
-      3122,
-      3271,
-      3432,
-      3623,
-      3761
     ],
     "854f476b3643efb3bd3176dc74fddaae4b77967766dc3885bc056b8a2733fc24": [
       238,
@@ -18440,6 +18383,17 @@
       1627,
       1944
     ],
+    "8c8926b29ff6e61a8dd09a500ed49d139de355e33a281bb3c7a7991ecb675a64": [
+      209,
+      493,
+      712,
+      999,
+      1199,
+      1412,
+      1837,
+      2080,
+      2285
+    ],
     "8d621cf4146f9077de1011cd51cc4bc640b87c07fcee999420da6494ccf6fece": [
       211,
       499,
@@ -18482,6 +18436,21 @@
       1373,
       1835
     ],
+    "8f2573023c2605ad150d858b6d4171a3033647cedd64e80f8b931a39f3b04561": [
+      308,
+      455,
+      691,
+      1107,
+      1362,
+      1575,
+      1829,
+      2069,
+      2286,
+      2450,
+      2613,
+      2813,
+      3023
+    ],
     "8f3652fb37bd146be0e6985b3c6b55e488c0a2642eae160e51e065851d7f924b": [
       348,
       636,
@@ -18496,16 +18465,6 @@
       1277,
       1527,
       1671
-    ],
-    "8fa9467cbfee56d2041814bfabf91c11494ef049f617da56ffdccbcf722b337f": [
-      202,
-      344,
-      676,
-      814,
-      1092,
-      1309,
-      1507,
-      1702
     ],
     "900baab80fd811cb404001375db81064e7742fcc29027e226c2ce784637f6a47": [
       328,
@@ -18561,25 +18520,6 @@
       798,
       1010
     ],
-    "9334dc1324308221b1b81d56e63d5969d03e1dd183090dd91b935b21286c765d": [
-      241,
-      402,
-      622,
-      935,
-      1181,
-      1342,
-      1731,
-      1872,
-      2046,
-      2229,
-      2418,
-      2627,
-      2855,
-      3053,
-      3237,
-      3563,
-      3761
-    ],
     "93a475fc942686732bf13da92d0e255170f50b5190e236d059450ced7000c782": [
       411
     ],
@@ -18628,6 +18568,18 @@
     ],
     "95b150f39c1258096c8d42cc1f3934de23b767309874e98c4a2a3113fbd2ee49": [
       733
+    ],
+    "9675b4c0d9d14c403b44816c77c00159a9df578113afb1e793378fa9390e7a8d": [
+      223,
+      444,
+      672,
+      966,
+      1234,
+      1472,
+      1682,
+      1823,
+      2089,
+      2400
     ],
     "96dc622120e1f972c3f98e9b68bcc150f28f1147ec0e7764078e2d4b81218568": [
       326,
@@ -18703,28 +18655,6 @@
       773,
       919
     ],
-    "9999131b7afe533e6b70edfb0d010ad5cd25166b2c4dbda22dabdb3683da4bce": [
-      178,
-      331,
-      615,
-      1043,
-      1303,
-      1439,
-      1647,
-      1867,
-      2124,
-      2262,
-      2420,
-      2559,
-      2711,
-      2848,
-      3062,
-      3281,
-      3522,
-      3730,
-      3894,
-      4075
-    ],
     "99afba9252d0777962dac83d00c821c18e4c7c24fe8564e5fc9365dc1d11291b": [
       228,
       409,
@@ -18739,16 +18669,6 @@
     "9a4f4dd5cea0a54865f0c8c443ac5ca5c79dbb4bdcc98e766532cdea5aadaf9f": [
       275,
       514
-    ],
-    "9a976ea8d78c3f47c9e5370b21f22feccb1b0a7371dbbc6d37d2e4cba680923c": [
-      258,
-      462,
-      658,
-      1186,
-      1599,
-      1874,
-      2207,
-      2448
     ],
     "9afae1e04e02ecb042f1bae5d91a54b194412e37c33aea3fb906ccd2da6fe026": [
       213,
@@ -18937,6 +18857,33 @@
       648,
       1010
     ],
+    "a60fbb45a73c15ea5be318f6485c196b72c50f18bc39c022a0428fe6c4ce382f": [
+      193,
+      459,
+      611,
+      767,
+      1048,
+      1188,
+      1506,
+      1758,
+      1895,
+      2175,
+      2373,
+      2536,
+      2715,
+      2855,
+      3078,
+      3350,
+      3568,
+      3738,
+      4020,
+      4330,
+      4467,
+      4704,
+      4943,
+      5095,
+      5238
+    ],
     "a67e76c7b85a1d95b21c26bc6fb0639c9dd41170717bbd6935d9043587a5ac69": [
       275,
       485,
@@ -18950,6 +18897,40 @@
       1131,
       1322,
       1478
+    ],
+    "a6c3149941f2a02cfaa278f2041e495291c6506b74f84fdb26ed4fe43bb9b1e6": [
+      246,
+      422,
+      650,
+      865,
+      1135,
+      1699,
+      1839,
+      2110,
+      2404,
+      2618,
+      2847,
+      3090,
+      3272,
+      3442,
+      3691,
+      4019,
+      4319
+    ],
+    "a6cb008f74399e544ff1e14af927ad59d4d6e6fc89713b52bba7c666feffc384": [
+      240,
+      480,
+      763,
+      971,
+      1105,
+      1313,
+      1536,
+      1894,
+      2366,
+      2511,
+      2662,
+      2896,
+      3073
     ],
     "a6dcf8da8c673f567bad3b6e4ea26af1a1cdf617c53c06d2f9b57f3aa355a85e": [
       272,
@@ -19261,22 +19242,6 @@
       805,
       1072
     ],
-    "b276bdd51fc57103fe7f225414b198ad373a754ae145834870f98eca1531cb74": [
-      155,
-      370,
-      712,
-      986,
-      1172,
-      1355,
-      1607,
-      1856,
-      2036,
-      2194,
-      2399,
-      2813,
-      3005,
-      3210
-    ],
     "b28ee3c3fb4ec77dd04c7f2270f4faa414b869b56eaa215e87279067d337c61b": [
       347,
       567,
@@ -19363,6 +19328,19 @@
       1349,
       1544
     ],
+    "b622133d3708e26d0855310c2d51e4e74900c058bd0e52d7dcdce9e01e6436c9": [
+      307,
+      656,
+      908,
+      1258,
+      1505,
+      1741,
+      1908,
+      2222,
+      2611,
+      2827,
+      2962
+    ],
     "b6514e8100d349096a165a8afb9bb7edb815db5d19a36ea272aaee5959c77b3d": [
       175,
       344,
@@ -19410,30 +19388,6 @@
       425,
       712
     ],
-    "b878e978d273e4d4d43ebf115b91a9008e35690278ed4195ad330d4742e3824a": [
-      249,
-      478,
-      771,
-      960,
-      1110,
-      1332,
-      1485,
-      1686,
-      1913,
-      2105,
-      2317,
-      2503,
-      2773,
-      2954,
-      3280,
-      3530,
-      3751,
-      4069,
-      4239,
-      4533,
-      4765,
-      5043
-    ],
     "b8efd83eff67aa681d969008462da7cd7902ad5d3333d9e00453f7a376f73ad8": [
       263,
       499,
@@ -19448,35 +19402,6 @@
     ],
     "b9ce578da1a7002eee0b467c47ba2e6ce53ddd270426a49e1642d1b871643efd": [
       423
-    ],
-    "b9cf3036a5307ac305999f3287033ce313980fda02ae346971ea9a87ba856518": [
-      141,
-      310,
-      509,
-      716,
-      954,
-      1208,
-      1548,
-      1696,
-      1923,
-      2132,
-      2301,
-      2545,
-      2685,
-      2866,
-      3131,
-      3309,
-      3504,
-      3713,
-      3917,
-      4056,
-      4242,
-      4609,
-      4794,
-      4944,
-      5117,
-      5335,
-      5477
     ],
     "b9d82b7ca2135b3d9a252ff7a4740938f41690d2240d0a13662f219267b16334": [
       214,
@@ -19530,25 +19455,6 @@
     "bc42d5ff32bade6e3651719b1e0e5d740b7ae55faa776a3fbf90337b5f418c3f": [
       319
     ],
-    "bcdd4528d690746a7b9cf45b8b4769fe8978691ea3ed57500367812e804065a3": [
-      156,
-      463,
-      735,
-      1078,
-      1264,
-      1399,
-      1659,
-      1812,
-      1974,
-      2308,
-      2490,
-      2831,
-      3032,
-      3191,
-      3422,
-      3559,
-      3708
-    ],
     "bdbd835efc564b8bc23b3b38a797e1164f937b1ab5fdca195a7660089dedc95b": [
       269,
       456,
@@ -19574,16 +19480,6 @@
       2005,
       2174,
       2520
-    ],
-    "be14289e45cabdfb1e25b04f60b396d400beeeb0672693a3ffee5ed414e43c1a": [
-      192,
-      491,
-      675,
-      974,
-      1184,
-      1514,
-      1779,
-      1947
     ],
     "bf2003091a70057affa2c4bec279d3e5769a94645d706e27b9e91e43ac7dff4f": [
       222,
@@ -19730,38 +19626,6 @@
       772,
       1004
     ],
-    "c465db4f83bc3984aa0938330a0f79384c8b16c333947684cfbc6c389ccbad5b": [
-      313,
-      491,
-      648,
-      826,
-      1045,
-      1318,
-      1557,
-      1917,
-      2162,
-      2317,
-      2453,
-      2595,
-      2827,
-      3117,
-      3293,
-      3543,
-      3813,
-      3958,
-      4212,
-      4356,
-      4520,
-      4759,
-      4929,
-      5100,
-      5268,
-      5516,
-      5660,
-      5808,
-      6011,
-      6172
-    ],
     "c4736718ba63900fb67f6f344e8bde552e3c7a9c4540bfaf57334d67e4afa1fe": [
       225,
       572,
@@ -19853,6 +19717,34 @@
       1525,
       1701
     ],
+    "c8ab64eaf44262d3c47d7e0a18c29ee13012c7137ee9cd70140a0cc4c8715c7e": [
+      155,
+      305,
+      448,
+      636,
+      822,
+      973,
+      1110,
+      1274,
+      1482,
+      1693,
+      1899,
+      2188,
+      2448,
+      2708,
+      2938,
+      3086,
+      3354,
+      3588,
+      3834,
+      4036,
+      4257,
+      4454,
+      4596,
+      4779,
+      4971,
+      5305
+    ],
     "c8c2307161ec546a5c5ebe30a88891d0a702956a787b9a75d581ec4cff1ad29b": [
       393,
       666
@@ -19896,6 +19788,22 @@
       520,
       841,
       1092
+    ],
+    "cb3d3cf9a96754ead0c9d76efa5914a5edf927adba0fc4d77b8423e3b2775562": [
+      225,
+      490,
+      733,
+      895,
+      1155,
+      1370,
+      1742,
+      2014,
+      2283,
+      2556,
+      2739,
+      3036,
+      3338,
+      3540
     ],
     "cb49264b1e2a107e36d33df952c58be81d4c8d462d96959dff9c5a2ce91189ce": [
       285,
@@ -20061,6 +19969,31 @@
       694,
       891
     ],
+    "d19d3820dd41cdb12b3debe79a4b5e4cb44ce49e3ac58e5e838d2e213a7d3ea9": [
+      242,
+      437,
+      608,
+      822,
+      1149,
+      1355,
+      1544,
+      1797,
+      2047,
+      2190,
+      2445,
+      2695,
+      2995,
+      3313,
+      3554,
+      3740,
+      3929,
+      4110,
+      4296,
+      4483,
+      4752,
+      4929,
+      5153
+    ],
     "d287e0c7781a7a3384cca11fd365d1ec4ac279c815c8e482eb9e9fadb1f43bee": [
       234,
       517,
@@ -20076,6 +20009,30 @@
       919,
       1086,
       1246
+    ],
+    "d323e4aed7f88843a42fcac328de2d7255650c0d148414e4802939767c0008b2": [
+      253,
+      435,
+      620,
+      825,
+      1146,
+      1376,
+      1519,
+      1730,
+      1925,
+      2081,
+      2314,
+      2477,
+      2844,
+      3009,
+      3219,
+      3405,
+      3596,
+      3979,
+      4205,
+      4378,
+      4643,
+      4885
     ],
     "d39bc44543b4cefbbae53a344934593fe9fb19ee2566dec467711209cd3b4d64": [
       488
@@ -20212,36 +20169,6 @@
       1291,
       1588
     ],
-    "d819ae3ffa3cc79a43d1f8363a940608b02768f6cdf422958225145bfabd840f": [
-      150,
-      308,
-      518,
-      803,
-      1006,
-      1244,
-      1507,
-      1680,
-      1910,
-      2047,
-      2377,
-      2737,
-      2893,
-      3192,
-      3442,
-      3602,
-      3867,
-      4115,
-      4403,
-      4679,
-      5049,
-      5199,
-      5403,
-      5571,
-      5886,
-      6163,
-      6343,
-      6529
-    ],
     "d84e536fe5a8a2a81f1e57694ffc356c21484e5650539125b34b4bba73797be1": [
       271,
       507,
@@ -20277,37 +20204,6 @@
       1071,
       1280,
       1547
-    ],
-    "da6f655cd2190380c8e5a5195d6bfbf862c3c08c6a232b7596a7ebb42b9eb9f1": [
-      192,
-      352,
-      519,
-      665,
-      799,
-      1125,
-      1521,
-      1702,
-      1974,
-      2174,
-      2336,
-      2613,
-      2890,
-      3061,
-      3434,
-      3652,
-      3829,
-      3975,
-      4178,
-      4359,
-      4510,
-      4693,
-      4869,
-      5101,
-      5295,
-      5491,
-      5660,
-      5815,
-      6016
     ],
     "da7e78e23ea14fde6816514aeb7df9a1b518f0122431137fa1aff3151e9f71f8": [
       486
@@ -20360,6 +20256,19 @@
       937,
       1265
     ],
+    "dbc6d5abcdd78747aa0b9e57419ebdc4c4f20847f6ba52eeb4dc94d94019fa50": [
+      257,
+      799,
+      1078,
+      1250,
+      1384,
+      1520,
+      1694,
+      1889,
+      2118,
+      2391,
+      2561
+    ],
     "dc2554bebc31b6b543b0e52b82748aae0ddee2a8397818e394c63e366b8524b4": [
       522,
       853
@@ -20408,24 +20317,6 @@
       785,
       977,
       1272
-    ],
-    "df46c1aa301f48d8ef5dde8bfa3189a6c9a527b73184154c9cb98ab37f72d0eb": [
-      219,
-      467,
-      1129,
-      1322,
-      1504,
-      1665,
-      1947,
-      2249,
-      2386,
-      2527,
-      2692,
-      2989,
-      3190,
-      3344,
-      3710,
-      3868
     ],
     "df94a012e441afbc1398a6dd8f6bbee2356e7d5bb0b8c984b0f32edbbcb5df3f": [
       144,
@@ -20565,6 +20456,24 @@
     "e419dc4f02d22ad185f14af1b0e77cb67b7f23e2c42129194356ba1a54a06949": [
       516
     ],
+    "e54d1718790143718d3cef4aece39f8266609d5bb0b7bf54a05e5b98b463690f": [
+      283,
+      533,
+      787,
+      951,
+      1287,
+      1555,
+      1738,
+      2117,
+      2265,
+      2517,
+      2708,
+      2888,
+      3137,
+      3277,
+      3507,
+      3697
+    ],
     "e55f0ff24c634cf0db5caf4236e02fa19537937dbfe10a1996f83d505aea573a": [
       574,
       1021
@@ -20620,6 +20529,28 @@
       365,
       572,
       725
+    ],
+    "e699f2fc9ac7bb1ba31a2b490c87bd90299025cc950241dcff02ef3b1a271cb7": [
+      238,
+      566,
+      725,
+      863,
+      1107,
+      1326,
+      1663,
+      1880,
+      2152,
+      2415,
+      2579,
+      2891,
+      3101,
+      3238,
+      3385,
+      3713,
+      3946,
+      4146,
+      4298,
+      4479
     ],
     "e6a3352410be8cc6dfac198ef6af842ab567118d07ef9c75e7418c60eb8147d3": [
       455
@@ -20712,32 +20643,6 @@
     ],
     "ec6e0ae77d00c7c3290a4bdd840e91ce761123730e2a85712bf9df8700aeca9f": [
       436
-    ],
-    "ed1471f5f58b3981547bdf15f6a14a161f3612952cf2340b57e7a3c74de09db6": [
-      298,
-      502,
-      736,
-      1033,
-      1176,
-      1311,
-      1466,
-      1605,
-      1810,
-      1976,
-      2258,
-      2593,
-      2879,
-      3067,
-      3214,
-      3380,
-      3536,
-      3682,
-      3936,
-      4075,
-      4317,
-      4688,
-      4887,
-      5215
     ],
     "ed2624ea9c78db69514927f136cbcf9b57c0f17f0e5b5ead6af3700a6503f704": [
       210,
@@ -20834,6 +20739,20 @@
     ],
     "f18e20a0457d670898ce849b0a1f14a4a77dd7937fe60f22f3accff1a67283cc": [
       572
+    ],
+    "f2b4575c93de2a9b1f96b91d783316a81fff9c066afed9e3ffcccddd2475a70b": [
+      305,
+      554,
+      817,
+      1059,
+      1547,
+      1819,
+      2108,
+      2305,
+      2473,
+      2752,
+      3163,
+      3372
     ],
     "f2b64f7011b3f028b12ffddc89d297010b499d32f957b4fef9795bad1e0c62b4": [
       307,
@@ -21065,17 +20984,6 @@
     "fa994e8b23db8ba3fcbc04e0d5bea21c65a65fa73b25882028f605153070ae17": [
       233
     ],
-    "faa0676988351b336f5627225f504665151ebfdbe11389b6a01542bcccb12a5c": [
-      251,
-      564,
-      1039,
-      1202,
-      1469,
-      1722,
-      1885,
-      2062,
-      2207
-    ],
     "fadbf681edac2b01768d4535b8da6d44c41a726de0ddf3c88d23e3961d8326d6": [
       581,
       996
@@ -21115,28 +21023,6 @@
     ],
     "ff361f345a1cbe59c9d38de10afa8310d290d555a8896b4c869367bd38aa1238": [
       465
-    ],
-    "ff4d5ea6b34e64961f7158c9e315ec7a873bbd9fcc9b862159fc0b671a07322a": [
-      288,
-      673,
-      835,
-      1069,
-      1272,
-      1477,
-      1716,
-      1861,
-      2018,
-      2272,
-      2461,
-      2775,
-      2986,
-      3125,
-      3260,
-      3572,
-      3806,
-      3992,
-      4145,
-      4315
     ],
     "ff5af2723c6a1a2bd6dd56c2c27d8e006f617544e93a5937f5e4079b1454367d": [
       177,
@@ -21196,6 +21082,18 @@
     "02f3c317dc826860600d2bbefd5c975a57a1e54cc526fba5288b3c11b2288e95": {
       "523": 1
     },
+    "03b6b58d6bc826b8f2dc0ae703190d7c4b7a54fbb0559143b91885b8fe40b999": {
+      "1602": 2,
+      "2656": 3,
+      "3716": 4,
+      "799": 1
+    },
+    "04a25ec1aa6ded8e8e5e26d4e5ce9deb434a1e457e701822bf7b8b87be6fadb3": {
+      "1799": 2,
+      "3124": 3,
+      "4081": 4,
+      "766": 1
+    },
     "05525cec1090e4309714dc1a3f7881fb11f4629ea71345d91f658ae71d4a08f7": {
       "555": 1
     },
@@ -21210,6 +21108,11 @@
     },
     "07038b1a87b51922c47cad7a6f54fb1e798f7fac7928bc366843b92bba4e4a60": {
       "403": 1
+    },
+    "076b2809d81db029ea220c305a43aadf39e1e3bc066fcccca1fc7a6c063a9fa3": {
+      "1393": 2,
+      "2463": 3,
+      "594": 1
     },
     "084a3ddff13c2e1b3cc6f8cee06352cc1985f94e17beb29c225ad2897695facf": {
       "512": 1
@@ -21259,6 +21162,10 @@
       "1162": 2,
       "600": 1
     },
+    "0e105e67bf3c5c883aa0fde89accff684e966cb3ad504a8e065733a97cdc645e": {
+      "1817": 2,
+      "791": 1
+    },
     "0ec9980a0b9e9af33122591a920909f8edc8b87600be2d0baaec761ab8fad13b": {
       "470": 1
     },
@@ -21285,10 +21192,8 @@
     "114f3c81abd35e8f27bf46a3edbdb2ef4d2f95ba56b422f33e2fa0baf2b242cd": {
       "267": 1
     },
-    "121bd5601b5d24910f210841bf7ce2d14e4ab3d43a97409aa0b0d8074ac187e0": {
-      "1232": 2,
-      "1822": 3,
-      "441": 1
+    "116c3352d04888f69074a0b9e3059db1ffb5740696e3a69dffcb8a409a28efb8": {
+      "911": 1
     },
     "124d3ab9951b2d43bfe4fefef23806e24f12646fe1729f51ce19b71a3db0e3ee": {
       "1310": 2,
@@ -21317,20 +21222,8 @@
     "16f1bd787110e655d4dd8c8bb7f3d13921b4a5454f02af7d253e8bce9e145a3c": {
       "856": 1
     },
-    "1731440a2720bf21465b7aaa17620112feb202922d0598255a1dc3c231a8ca1c": {
-      "2179": 2,
-      "3574": 3,
-      "5205": 4,
-      "6469": 5,
-      "932": 1
-    },
     "175325e9f721d8bf54866014e44317249dedc681d440133920558dd73dc2984a": {
       "594": 1
-    },
-    "17a669b4dcb56b16e6da23c198fa22d7b5f9e3eb885558a477e8448eeed029ec": {
-      "2121": 2,
-      "3296": 3,
-      "983": 1
     },
     "17e984363a962894db0c3e09acc612f60c519f595c319a1d341ed08ebfddf124": {
       "1180": 2,
@@ -21358,10 +21251,10 @@
     "19e3947554fdb1e6401854edb8b5e1ff52cb79bfa017358715e26baaf96ffee6": {
       "399": 1
     },
-    "1a14b9b0239701817c437403dee7db0fa278a8628c4c17d35cd61fc6041b5c45": {
-      "1427": 2,
-      "2482": 3,
-      "739": 1
+    "1a6339e749c3966b4b9905a102f855354b61b62f57e5627b45ba3c1067019975": {
+      "2587": 2,
+      "3623": 3,
+      "923": 1
     },
     "1a6c530f81b9c31003f009098c41d26e589e91b876125bf8ed95c5cd70219e90": {
       "501": 1
@@ -21382,6 +21275,9 @@
     "1c91d5a34e0c763abcdb4d9028a594da2149420e46ecf1d96fad5f0cf6d03042": {
       "425": 1
     },
+    "1cb599fe35b785cd984da00db6418ae9896c14f8fec59e2043b1039f08c06fcc": {
+      "510": 1
+    },
     "1df13a5f2fa5eac24b9f6283458c0796167f0805d810d7d4657e83dc3a05b816": {
       "419": 1
     },
@@ -21399,6 +21295,12 @@
     "1e8be59e6163571903b06f2ab1988aebc013a0714905e983343040f13b0af0a1": {
       "437": 1
     },
+    "1ec1fb5f8f099baa485a5b8b96a6537ae3cb062caeac902945c4b2a498852994": {
+      "2036": 2,
+      "3020": 3,
+      "3955": 4,
+      "909": 1
+    },
     "1f26f97d9ad8398d5e92b1feec42caf544c2db9d988c66673cdfcd296c34b188": {
       "1313": 2,
       "633": 1
@@ -21406,19 +21308,8 @@
     "1f57aed52ed166752e4440e000cdc75f3b6ea7df8680575b5a1af6a79a26fecb": {
       "449": 1
     },
-    "1f6863aa4aa192985c6646d1adba57947389b9ea8cec2db9b587fb8e7b2b8555": {
-      "2007": 2,
-      "3228": 3,
-      "4425": 4,
-      "866": 1
-    },
     "1f970767c98922cf86ed2a8a2463be9825500c28c0684c294912869c803d2d6d": {
       "426": 1
-    },
-    "2028adff6a30c3aedfe009be7b3c83af1701866f0b2739293885bb93ef2f7319": {
-      "2002": 2,
-      "3746": 3,
-      "959": 1
     },
     "2050b0f6c741e73c3ed94253b265ca77b633d4d76b8655a7980f5d0826226a95": {
       "551": 1
@@ -21469,6 +21360,12 @@
     },
     "248f024a7f57b8da212103e6d9bd3e0241249f32872dadecb2be0accf900eaab": {
       "444": 1
+    },
+    "24fd15eb7b003a577e9341c550fe52dfb2abba5be6a86b1a04edb66a99bebe4a": {
+      "2186": 2,
+      "3599": 3,
+      "4939": 4,
+      "916": 1
     },
     "2545ea4d204226a28a41f1f4305c7614844c4871476bfb394ef694379414da1d": {
       "507": 1
@@ -21614,12 +21511,6 @@
     "36cf381802136e1afd14db456957d217328a95360e0b105e62f8c91c6a31a8ca": {
       "565": 1
     },
-    "379ac47449a8a30a0147c2606f618a3c4e14c34a24241e5a688f648cdb6974e0": {
-      "1061": 1,
-      "2335": 2,
-      "4041": 3,
-      "5189": 4
-    },
     "3864e2cc2ef8e0408c774da98007eaecda2d1b6576050fb601299af96ec90fc4": {
       "494": 1
     },
@@ -21647,6 +21538,10 @@
     },
     "3bc882b7a5fc716c4f79d2f93e87bdff87ee95b70272c1acbc450a365f660fa7": {
       "592": 1
+    },
+    "3bf162d92b95027d8ef77af6dc593f6aa32a85815cba5cf933c25f59c7af0c7e": {
+      "1288": 2,
+      "617": 1
     },
     "3c3b4f1fc541ad82cdcae0b2cadcefa395646dcbf42962df389f09a2582740ca": {
       "1358": 2,
@@ -21689,10 +21584,15 @@
       "1212": 2,
       "428": 1
     },
-    "430546a62f8188a503301409aac9e2324f6f8b0ec4a020f8e6e5d8bdea206862": {
-      "2020": 2,
-      "3602": 3,
-      "860": 1
+    "433377a8f0bb3b363dc07d807d79bfb2d9d256ca001dfe06765d694f6f3541dd": {
+      "2141": 2,
+      "3832": 3,
+      "5201": 4,
+      "571": 1
+    },
+    "435b7acd31374ed62db111fd242f4f7ae268161e1786add9925cf6638876ca55": {
+      "1981": 2,
+      "565": 1
     },
     "43d341e0ec96211608fcdab1375de1ff4767629e6f209b40e9498f938fc9426c": {
       "417": 1
@@ -21721,6 +21621,11 @@
     "49bc4876d4f0a955eae1d36ef2a1a260523724eb3b93483cabe72ffd3ddb9fc3": {
       "607": 1
     },
+    "4a22cb875a868d34e77479bee422766d5c81c3b57ca0d70ad44402e2a96f44dc": {
+      "1598": 2,
+      "2871": 3,
+      "469": 1
+    },
     "4a5b6a350ccccb89b450ea2e11d5dcf7c30d800319f9886375818a168c797084": {
       "488": 1,
       "888": 2
@@ -21731,6 +21636,13 @@
     },
     "4b12274a94f7b7830b0b4d54e011c651e8d46c1f4fb918ca8dc2723b02a8726a": {
       "481": 1
+    },
+    "4bbeef9b8f82cd85bcc067037970750e585b28926530e26f1930d6ac13b5ea61": {
+      "2424": 2,
+      "3944": 3,
+      "5688": 4,
+      "7096": 5,
+      "985": 1
     },
     "4c034a16250c2812a7c0bf29f4e73f446a5abad09813c64048a302d0212e2995": {
       "1243": 2,
@@ -21766,12 +21678,6 @@
     "4e418d9442b0a5b3bc79d2eed78b6a77bde06d81ea5fc38b93b4c932d2b7cca8": {
       "441": 1
     },
-    "4e82fc96f56ff9229d93fab2cd34f91070632903d6dc6a4c25266bd4edc9a026": {
-      "2284": 2,
-      "3727": 3,
-      "5245": 4,
-      "754": 1
-    },
     "4ec9d30ebba135ef6bc80f62421d3f088baa2816a16b0a82ce67bea8faf220ac": {
       "624": 1
     },
@@ -21788,10 +21694,10 @@
     "4fd7af40b43355407e06ec0eb10fddc1e494125ad6b3762ab098833d6c20d4b0": {
       "372": 1
     },
-    "50588b350e2e8db28ceddc1c8555eed5018cd5ee4bb87b8d397a7bdda67d0886": {
-      "2933": 2,
-      "4944": 3,
-      "948": 1
+    "505e912833f9dbbdfdac6a13dbc92c132f254922960a8bb12f36dcce861eb22a": {
+      "1655": 2,
+      "3135": 3,
+      "773": 1
     },
     "505f4148d9f6dd9e9e77c034edb0a8aeafa41ce796aa1fcc50a807af2e4c567e": {
       "578": 1
@@ -21801,6 +21707,11 @@
     },
     "50b26eff77c31b3a62642b73bb2ba63141f1f832d8bcbba81fea247189c3c555": {
       "541": 1
+    },
+    "518622ab0d8c9f2a47cb08b045a1d105135959fb66ab6995ae3e1e08cc42c724": {
+      "1625": 2,
+      "2508": 3,
+      "754": 1
     },
     "5241e61c2cf009dab3e6d62fbfb42ea9ee645a6c0f93172ed80d34e27a2e2c60": {
       "336": 1
@@ -21812,10 +21723,6 @@
     "538dd3cbab516889b00daa3084ca8bbe15fd8b9452187f0adcb3cda6b1a131fe": {
       "402": 1
     },
-    "541ae81da7db86a639d6f4cb63abb71c300c7672f43568813827aa03f660aba2": {
-      "1764": 2,
-      "499": 1
-    },
     "5480a1c44a90780eb23778a18c2ef93d1e3392587b711ed4df4d8efc4ab6570b": {
       "1645": 2,
       "2676": 3,
@@ -21823,12 +21730,6 @@
     },
     "551f6c33860edc1ccc1542fd102d1b104e84e2416c7ea8028e84bec6c4da749e": {
       "260": 1
-    },
-    "55a72afa311454e00cd649879e014913dc9bf22d338af213d736236658d2364c": {
-      "1033": 1,
-      "1970": 2,
-      "3206": 3,
-      "4489": 4
     },
     "560dba73e82be024f8ea93da0085c86652951d195b7a5caf7b09fae54c2c44ce": {
       "477": 1
@@ -21875,6 +21776,10 @@
     "5c0a7a6eeb11f86346632bc4f70511386242de802d99817487662ec7ca7019c5": {
       "420": 1
     },
+    "5c4f1cf46b7bbe36bae3ecf65c89d09468a5f1d26be12425f0b773b6c4957f0f": {
+      "1595": 2,
+      "735": 1
+    },
     "5c7c406f743bd65b38afe5092b9c93bde555136880cdcf91cfd295e9cff4526b": {
       "516": 1
     },
@@ -21887,9 +21792,18 @@
     "5ca81298e503cfb30054d43dd257ad5b87bb3bbef6fa33bc88ae9ab8919897bb": {
       "525": 1
     },
+    "5cf3f40f5faa9b1941b3fdf79011f002b8cb4a1632a2dcbe161ed47c645b83b5": {
+      "1701": 2,
+      "2693": 3,
+      "798": 1
+    },
     "5d682898f93df41e9829192b001a83addf96efd1a938f46db8d4f6aab4ba2718": {
       "1371": 2,
       "471": 1
+    },
+    "5dcd3dcbb84757800c1e7d19ed58fa39ef352328add82bd3d1bbae0556442095": {
+      "2203": 2,
+      "783": 1
     },
     "5e7a3894ef261c394eb5f0bc83923fa86820050fb0939b1d9068dd6624e20b3f": {
       "917": 1
@@ -21920,16 +21834,6 @@
       "1452": 2,
       "2400": 3,
       "571": 1
-    },
-    "6237185bfeba9a8bf75469254470441b94ca8d1011365f5b628432fac21628e8": {
-      "2054": 2,
-      "3266": 3,
-      "4409": 4,
-      "711": 1
-    },
-    "6278c75cab7d578824abb1c8d7e07f317dc253e0bf46972440565d1a715049c9": {
-      "1731": 2,
-      "846": 1
     },
     "6396c8ddd026e8c03ea7465c75f27c58b82ea42b4c7eb6893a9d64104c3530d2": {
       "931": 1
@@ -21971,11 +21875,6 @@
       "288": 1,
       "805": 2
     },
-    "688b6a20ec4c0333b24a4fbea31bc70096990893ea393a4d8f33ccd3ad6368f5": {
-      "2606": 2,
-      "4852": 3,
-      "940": 1
-    },
     "690ca4cd51006c29d4795de5f80799170f8269b083f67a6b923d1b46d453e253": {
       "461": 1
     },
@@ -22005,8 +21904,10 @@
       "1164": 2,
       "408": 1
     },
-    "6ab67c2f919e68a6ce81614abf3756972da1cec185cc572ae2ef71a3f6da4722": {
-      "684": 1
+    "6b087f7c0ddd23a6d5f8f7faee71972514a6465c0e9c455ffd38c63fbf850b9d": {
+      "2274": 2,
+      "4026": 3,
+      "765": 1
     },
     "6c17c0c89401f0c625c82a4d9c80649e608050a383cd045533b831d85f175c50": {
       "418": 1
@@ -22086,6 +21987,11 @@
     "73a57e449c681462880a7499223cea245591aa358c9c655172c1494ee3eac0f1": {
       "453": 1
     },
+    "73c8a24bd34aea9a03cbef482b14361f7018d4a5f4ca7e0c022b1278b3f4bf26": {
+      "1727": 2,
+      "2426": 3,
+      "783": 1
+    },
     "742a9d1908c6d2a602b88651268c102aa129b386c85402bb55bf0e7bb9c1c7ef": {
       "467": 1,
       "990": 2
@@ -22116,17 +22022,17 @@
       "1709": 2,
       "505": 1
     },
+    "77ae7ec71651841e1ed10c1abbd645ebc78e4a1eef1b44193fcb71f5f3a42e09": {
+      "2268": 2,
+      "4037": 3,
+      "715": 1
+    },
     "77ec1a1be7279a9c97936d3f0a7247a898b436bba0c813a54233ed0ce9d755b5": {
       "1049": 2,
       "458": 1
     },
     "792b634ebf7e31aa41c43ed363392b2d092fd526d6cbe5bc4e6c16fa58c57267": {
       "707": 1
-    },
-    "796bf803d316f0a5e4d070e0ecc740179ba7ce0b602b638e7da57885d28091c5": {
-      "1872": 2,
-      "3443": 3,
-      "642": 1
     },
     "79a377f367df23a8f7187e7341ac31550fb325ca37fa7b0e1ff8f3ca89503d31": {
       "475": 1
@@ -22141,26 +22047,22 @@
     "7aa5d765900d6504ee1c090ed02bcafdceeaf717e0ef6adb2269e14f1fca3398": {
       "422": 1
     },
-    "7c917337e116da101aee4522dc2dce3248babed87fa067cfad65cfd6e8fe8eb7": {
-      "1019": 1,
-      "2113": 2,
-      "3203": 3
-    },
     "7cdb06f55a20ce2935550c8931568d4fceabab3dc8a90a0786688f4305d57688": {
       "313": 1
     },
     "7cdee8a331a34861dde2c2fd0b458c8c40e8f758901169a178e0ed84f6efc38b": {
       "508": 1
     },
-    "7d6eb4a31da289ca1952507451b89f253251d431b547f08806d1b93f018d85e2": {
-      "1835": 2,
-      "794": 1
-    },
     "7db2581853174bfb2982e7cde07b80f82641f5c880d96b995ddf6df923221a14": {
       "570": 1
     },
     "7e150ba93575f3acc22f21d79c94abf1bd674f5a977ab3ac42531fa217074d25": {
       "311": 1
+    },
+    "7e58b23a8bb6e8423db4fbeb7b9196ffaa5a1c54bc7d2f60fad88d64b4360355": {
+      "2146": 2,
+      "4020": 3,
+      "795": 1
     },
     "7e7e57e1a0a28b39d0bbbf4595ddfcc8d48fa2db23750fe47a83eec1c7b2dc23": {
       "1157": 2,
@@ -22199,18 +22101,9 @@
       "1477": 2,
       "543": 1
     },
-    "837ba37a9dbe403d47192a986d726f427d6c07f30a7bb5856c4e363a30d3d26e": {
-      "2797": 2,
-      "992": 1
-    },
     "8454483e321a01ee845907ee9077febe66c5ff4d7b415befa89fb999e0ab9ba2": {
       "1583": 2,
       "454": 1
-    },
-    "845df5ea5647f372e885e9966d78b064358f37ab5a6a994b0fd82c1076f9aa70": {
-      "2125": 2,
-      "2986": 3,
-      "985": 1
     },
     "854f476b3643efb3bd3176dc74fddaae4b77967766dc3885bc056b8a2733fc24": {
       "474": 1
@@ -22252,6 +22145,11 @@
       "1460": 2,
       "493": 1
     },
+    "8c8926b29ff6e61a8dd09a500ed49d139de355e33a281bb3c7a7991ecb675a64": {
+      "1837": 3,
+      "493": 1,
+      "999": 2
+    },
     "8d621cf4146f9077de1011cd51cc4bc640b87c07fcee999420da6494ccf6fece": {
       "499": 1
     },
@@ -22266,15 +22164,16 @@
       "1373": 2,
       "524": 1
     },
+    "8f2573023c2605ad150d858b6d4171a3033647cedd64e80f8b931a39f3b04561": {
+      "1107": 1,
+      "1829": 2
+    },
     "8f3652fb37bd146be0e6985b3c6b55e488c0a2642eae160e51e065851d7f924b": {
       "348": 1
     },
     "8f4b93d1b5655f80ee3de7b90a5d0d3c45f877b13601be0496055d30a9fc1604": {
       "1277": 2,
       "457": 1
-    },
-    "8fa9467cbfee56d2041814bfabf91c11494ef049f617da56ffdccbcf722b337f": {
-      "1092": 1
     },
     "900baab80fd811cb404001375db81064e7742fcc29027e226c2ce784637f6a47": {
       "584": 1
@@ -22292,11 +22191,6 @@
     "92f86c00e8e2f0cff49fffb42eff8841265b83931447e1cc9258e96478413e36": {
       "509": 1
     },
-    "9334dc1324308221b1b81d56e63d5969d03e1dd183090dd91b935b21286c765d": {
-      "1872": 2,
-      "2855": 3,
-      "935": 1
-    },
     "9423ea4ee68aadcfdf40d3abea7247a317419c78bd1cc01e067c93a6a8aa73bb": {
       "1360": 2,
       "703": 1
@@ -22309,6 +22203,11 @@
     "94f0bbd678fdb112b739dd28ee4b521ba964af6426fe3964d13ec79e1b441e42": {
       "1102": 2,
       "403": 1
+    },
+    "9675b4c0d9d14c403b44816c77c00159a9df578113afb1e793378fa9390e7a8d": {
+      "1234": 2,
+      "1823": 3,
+      "444": 1
     },
     "96dc622120e1f972c3f98e9b68bcc150f28f1147ec0e7764078e2d4b81218568": {
       "576": 1
@@ -22339,11 +22238,6 @@
     },
     "99756e45ad521b5f7791530d5c700b1641131f92a0cf262a0d22016d92f0d9e9": {
       "439": 1
-    },
-    "9999131b7afe533e6b70edfb0d010ad5cd25166b2c4dbda22dabdb3683da4bce": {
-      "1303": 2,
-      "2848": 3,
-      "615": 1
     },
     "99afba9252d0777962dac83d00c821c18e4c7c24fe8564e5fc9365dc1d11291b": {
       "409": 1
@@ -22418,11 +22312,27 @@
     "a5966798dc6b076532b32d55e647623741bc7f787528de219c74739fd20dbb92": {
       "500": 1
     },
+    "a60fbb45a73c15ea5be318f6485c196b72c50f18bc39c022a0428fe6c4ce382f": {
+      "1895": 2,
+      "3078": 3,
+      "4330": 4,
+      "611": 1
+    },
     "a67e76c7b85a1d95b21c26bc6fb0639c9dd41170717bbd6935d9043587a5ac69": {
       "485": 1
     },
     "a6b0d0232f57967d997de494ab00ee504d75d542897a822e6a183e6d7b4c9066": {
       "624": 1
+    },
+    "a6c3149941f2a02cfaa278f2041e495291c6506b74f84fdb26ed4fe43bb9b1e6": {
+      "1699": 2,
+      "3090": 3,
+      "650": 1
+    },
+    "a6cb008f74399e544ff1e14af927ad59d4d6e6fc89713b52bba7c666feffc384": {
+      "1536": 2,
+      "2366": 3,
+      "763": 1
     },
     "a6dcf8da8c673f567bad3b6e4ea26af1a1cdf617c53c06d2f9b57f3aa355a85e": {
       "1588": 2,
@@ -22531,10 +22441,6 @@
     "b2588c31afb6861ac94aea97fba45abbf7ca044bc6071aa4403171f1853b1045": {
       "394": 1
     },
-    "b276bdd51fc57103fe7f225414b198ad373a754ae145834870f98eca1531cb74": {
-      "1856": 2,
-      "712": 1
-    },
     "b28ee3c3fb4ec77dd04c7f2270f4faa414b869b56eaa215e87279067d337c61b": {
       "347": 1
     },
@@ -22566,6 +22472,10 @@
     "b5fee469a413a4bbe675305cafd1491666746b616638c2f58ebe143a788c126b": {
       "874": 1
     },
+    "b622133d3708e26d0855310c2d51e4e74900c058bd0e52d7dcdce9e01e6436c9": {
+      "1741": 2,
+      "656": 1
+    },
     "b6514e8100d349096a165a8afb9bb7edb815db5d19a36ea272aaee5959c77b3d": {
       "344": 1
     },
@@ -22580,20 +22490,9 @@
     "b8303ae2e172afe78d840c54a512158a1aaf51810cb4ea07b4088dad695501a1": {
       "449": 1
     },
-    "b878e978d273e4d4d43ebf115b91a9008e35690278ed4195ad330d4742e3824a": {
-      "2773": 2,
-      "4069": 3,
-      "771": 1
-    },
     "b8efd83eff67aa681d969008462da7cd7902ad5d3333d9e00453f7a376f73ad8": {
       "1192": 2,
       "499": 1
-    },
-    "b9cf3036a5307ac305999f3287033ce313980fda02ae346971ea9a87ba856518": {
-      "1923": 2,
-      "3713": 3,
-      "4609": 4,
-      "716": 1
     },
     "b9d82b7ca2135b3d9a252ff7a4740938f41690d2240d0a13662f219267b16334": {
       "1399": 2,
@@ -22614,11 +22513,6 @@
     "bbf7ea2cf98a0131964cddfc31178c534efe58c0b28c5de99b12d7458d97cf2e": {
       "456": 1
     },
-    "bcdd4528d690746a7b9cf45b8b4769fe8978691ea3ed57500367812e804065a3": {
-      "1659": 2,
-      "2831": 3,
-      "735": 1
-    },
     "bdbd835efc564b8bc23b3b38a797e1164f937b1ab5fdca195a7660089dedc95b": {
       "456": 1
     },
@@ -22628,10 +22522,6 @@
     "bdc960207a657ff3e76c8e56a65bff554c4e6d1f353ac768d5266bf66a97e876": {
       "2005": 2,
       "561": 1
-    },
-    "be14289e45cabdfb1e25b04f60b396d400beeeb0672693a3ffee5ed414e43c1a": {
-      "1514": 2,
-      "675": 1
     },
     "bf2003091a70057affa2c4bec279d3e5769a94645d706e27b9e91e43ac7dff4f": {
       "386": 1
@@ -22687,11 +22577,6 @@
     "c437c4dada3b782d43014889760fa11f01068efd0c45a7e46e6d04f0d21991b5": {
       "510": 1
     },
-    "c465db4f83bc3984aa0938330a0f79384c8b16c333947684cfbc6c389ccbad5b": {
-      "2453": 2,
-      "4356": 3,
-      "826": 1
-    },
     "c4736718ba63900fb67f6f344e8bde552e3c7a9c4540bfaf57334d67e4afa1fe": {
       "572": 1
     },
@@ -22727,6 +22612,12 @@
       "1286": 2,
       "383": 1
     },
+    "c8ab64eaf44262d3c47d7e0a18c29ee13012c7137ee9cd70140a0cc4c8715c7e": {
+      "1899": 2,
+      "3086": 3,
+      "4257": 4,
+      "636": 1
+    },
     "c967abda6941b8907aa312b54af15e0e9b221918035971bb3cebcd30c20a7b57": {
       "499": 1
     },
@@ -22741,6 +22632,11 @@
     },
     "ca5b574efcca4bf6a95488b03198ae719c68b86d2cbd0a4470e6f3a62b15551c": {
       "384": 1
+    },
+    "cb3d3cf9a96754ead0c9d76efa5914a5edf927adba0fc4d77b8423e3b2775562": {
+      "1155": 2,
+      "2556": 3,
+      "490": 1
     },
     "cb53df7f5161a4920a28d7770fd19861a0bd3d9c8414a1525c706f5aa6b80b6c": {
       "432": 1
@@ -22806,12 +22702,24 @@
     "d1435fa87ba9ce38f86715b35c7bb5ae908434fe697e1eaeab5086fecd78aa81": {
       "399": 1
     },
+    "d19d3820dd41cdb12b3debe79a4b5e4cb44ce49e3ac58e5e838d2e213a7d3ea9": {
+      "1797": 2,
+      "2995": 3,
+      "4296": 4,
+      "608": 1
+    },
     "d287e0c7781a7a3384cca11fd365d1ec4ac279c815c8e482eb9e9fadb1f43bee": {
       "517": 1
     },
     "d2e36f67cf336f00a21bf01c8d301a040da00ba7157cc3caea35adb31a011362": {
       "1086": 2,
       "432": 1
+    },
+    "d323e4aed7f88843a42fcac328de2d7255650c0d148414e4802939767c0008b2": {
+      "1730": 2,
+      "3405": 3,
+      "4205": 4,
+      "620": 1
     },
     "d3a2d83d88d1b1ed2c1eeddc0415f78d8fda15602c77e41b3eaa868498c27e9d": {
       "512": 1
@@ -22862,12 +22770,6 @@
       "1156": 2,
       "387": 1
     },
-    "d819ae3ffa3cc79a43d1f8363a940608b02768f6cdf422958225145bfabd840f": {
-      "2377": 2,
-      "3867": 3,
-      "5403": 4,
-      "803": 1
-    },
     "d84e536fe5a8a2a81f1e57694ffc356c21484e5650539125b34b4bba73797be1": {
       "507": 1
     },
@@ -22879,12 +22781,6 @@
     },
     "d9e321a8d329fd629e8528d2a34b4ba4c21c9184d88b4136c76d85d8897e0619": {
       "540": 1
-    },
-    "da6f655cd2190380c8e5a5195d6bfbf862c3c08c6a232b7596a7ebb42b9eb9f1": {
-      "1125": 1,
-      "2336": 2,
-      "3434": 3,
-      "4510": 4
     },
     "dad72fb265c702377b86ab015e60b5c016a84a920e0e746f804e9410c179e6e3": {
       "736": 1
@@ -22909,6 +22805,10 @@
     "db9ef0664043f663b121d92f1b8e68198db95e716b3d68cd39390cd58f2d148b": {
       "596": 1
     },
+    "dbc6d5abcdd78747aa0b9e57419ebdc4c4f20847f6ba52eeb4dc94d94019fa50": {
+      "1889": 2,
+      "799": 1
+    },
     "dd804cff59aff836e569cb0cde5cff37f4556f2168fbf2d71f03bde4a842059c": {
       "800": 1
     },
@@ -22923,10 +22823,6 @@
     },
     "ded4240908aae5f6c5f32715cfeb356c85720aff7e0cb4eac793714851c368d4": {
       "543": 1
-    },
-    "df46c1aa301f48d8ef5dde8bfa3189a6c9a527b73184154c9cb98ab37f72d0eb": {
-      "1322": 1,
-      "2249": 2
     },
     "df94a012e441afbc1398a6dd8f6bbee2356e7d5bb0b8c984b0f32edbbcb5df3f": {
       "613": 1
@@ -22975,6 +22871,11 @@
       "1129": 2,
       "452": 1
     },
+    "e54d1718790143718d3cef4aece39f8266609d5bb0b7bf54a05e5b98b463690f": {
+      "2117": 2,
+      "3137": 3,
+      "533": 1
+    },
     "e5781a28bdf4289c05c31b4674f2ae43488b2eb1068ab74e12744ea7396b91b2": {
       "610": 1
     },
@@ -22991,6 +22892,11 @@
     },
     "e64a648096408db4680cfce816cf4fab1e1d5c566017c84ed2ce1476bed0e88c": {
       "365": 1
+    },
+    "e699f2fc9ac7bb1ba31a2b490c87bd90299025cc950241dcff02ef3b1a271cb7": {
+      "1107": 1,
+      "2415": 2,
+      "2891": 3
     },
     "e6af23c19225386976ade549f56d5746bb53b85903f76744246852c87554f5aa": {
       "517": 1
@@ -23019,11 +22925,6 @@
     },
     "ec0b7f1da8692b16af5042383175a9c34b6e5b789fd782af8059b547cf325077": {
       "400": 1
-    },
-    "ed1471f5f58b3981547bdf15f6a14a161f3612952cf2340b57e7a3c74de09db6": {
-      "1033": 1,
-      "2879": 2,
-      "3936": 3
     },
     "ed2624ea9c78db69514927f136cbcf9b57c0f17f0e5b5ead6af3700a6503f704": {
       "448": 1
@@ -23056,6 +22957,10 @@
     },
     "f080e46ff0ace93ddc3d63a1522e1076898755198df9b962faf8034f79337805": {
       "431": 1
+    },
+    "f2b4575c93de2a9b1f96b91d783316a81fff9c066afed9e3ffcccddd2475a70b": {
+      "2305": 2,
+      "817": 1
     },
     "f2b64f7011b3f028b12ffddc89d297010b499d32f957b4fef9795bad1e0c62b4": {
       "1667": 2,
@@ -23142,10 +23047,6 @@
     "fa74f815714b505796b052e455d27a94c7f24541244ef22b614b67c20c022216": {
       "512": 1
     },
-    "faa0676988351b336f5627225f504665151ebfdbe11389b6a01542bcccb12a5c": {
-      "1202": 2,
-      "564": 1
-    },
     "fb062ca213b757cb190a82f65b713fd93de9a997a3b4ba27655560f67e7e5213": {
       "499": 1
     },
@@ -23157,11 +23058,6 @@
     },
     "fc79da3c589ddcf6989136a8886e0a01a6d496f86fec46b340808e028191ad43": {
       "372": 1
-    },
-    "ff4d5ea6b34e64961f7158c9e315ec7a873bbd9fcc9b862159fc0b671a07322a": {
-      "1069": 1,
-      "2272": 2,
-      "2775": 3
     },
     "ff5af2723c6a1a2bd6dd56c2c27d8e006f617544e93a5937f5e4079b1454367d": {
       "415": 1

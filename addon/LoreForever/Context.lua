@@ -101,9 +101,9 @@ function Context.Quests()
   end
   -- Who offered each one, as the quest window showed it (Log.QuestText's starter): the engine counts them as its giver
   -- when the data names none (LOR-112).
-  local saved = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests or {}
   for _, q in ipairs(quests) do
-    local starter = type(saved[q.id]) == "table" and saved[q.id].starter
+    local kept = ns.Log.KeptQuest(q.id)
+    local starter = kept and kept.starter
     q.giver = type(starter) == "table" and starter.kind == "npc" and starter.name or nil
   end
   return quests

@@ -45,7 +45,8 @@
 -- inst is GetInstanceInfo's 8th value, the instance's map id (36: the Deadmines).
 --
 -- Nothing about another player, ever: a GUID counts only when it is a Creature, Vehicle or GameObject (players, pets and
--- items are left out), and nothing reads chat, the group or who rolled. No time and no character on
+-- items are left out), and nothing here reads chat, the group or who rolled (World.Listen hands CHAT_MSG_LOOT to the
+-- Dungeon Guide's kill pages, which read only the player's own loot line; World keeps nothing from it). No time and no character on
 -- any fact. Names only from an English client (as the spots), ids from every client.
 -- Cost: no work on nameplates, mouseover or vendor windows; a loot window is a few calls per slot and a lookup in one
 -- session cache of corpse hashes; nothing scans the table per event.
@@ -102,9 +103,9 @@ local function keptName(name)
   return name
 end
 
--- What a row takes in the saved file as WoW writes it (two tabs, the key in brackets and quotes, " = ", the value, ","),
--- with its line in its order list for the ordered ones ("key", -- [n]).
-local LINES = { corpse = 30, kill = 28, roll = 28, inst = 11 }
+-- What a row takes in the saved file as WoW writes it (three tabs: the rows sit in LoreForeverDB.world's lists; the key
+-- in brackets and quotes, " = ", the value, ","), with its line in its order list for the ordered ones ("key", -- [n]).
+local LINES = { corpse = 32, kill = 30, roll = 30, inst = 12 }
 local TWICE = { corpse = true, kill = true, roll = true }   -- the key is written again in the order list
 local function size(kind, k, v)
   k, v = tostring(k), tostring(v)
@@ -116,8 +117,9 @@ end
 local function ordered(list, t)
   if type(list) == "table" and #list == count(t) then
     local once, ok = {}, true
-    for _, k in ipairs(list) do
-      if t[k] == nil or once[k] then ok = false break end
+    for i = 1, #list do   -- (not ipairs: a hole written by hand would hide what's past it)
+      local k = list[i]
+      if k == nil or t[k] == nil or once[k] then ok = false break end
       once[k] = true
     end
     if ok then return list end
@@ -486,7 +488,7 @@ function World.OnLoot()
   local d
   for guid, c in pairs(acc) do
     local kind, id = source(guid)
-    if kind and not alive(guid) then
+    if kind and not (kind == "n" and alive(guid)) then   -- a chest under soft-interact is never "dead"
       local h = ns.Capture.Hash(guid)
       local old = db()
       if not seen[h] and not (old and old.corpses and old.corpses[h]) then
@@ -563,14 +565,33 @@ local handlers = {
 local frame = CreateFrame("Frame")
 World.frame = frame
 for event in pairs(handlers) do
-  -- Your own casts only (the client filters them), where it can.
+  -- Your own casts only (the client filters them), where it can; else every unit's, and onCast keeps yours. A client
+  -- whose RegisterUnitEvent is missing, throws or doesn't say it registered gets the plain one.
+  local unitOnly = false
   if event == "UNIT_SPELLCAST_SUCCEEDED" and frame.RegisterUnitEvent then
-    pcall(frame.RegisterUnitEvent, frame, event, "player")
-  else
-    pcall(frame.RegisterEvent, frame, event)
+    local ok, registered = pcall(frame.RegisterUnitEvent, frame, event, "player")
+    unitOnly = ok and registered == true
   end
+  if not unitOnly then pcall(frame.RegisterEvent, frame, event) end
+end
+-- One listener for the game's kill and loot events (the Architect, 11/19): other parts of the add-on that act on them
+-- (the Dungeon Guide's kill pages, Strip.lua) add theirs here rather than a frame of their own. Each is called after
+-- login, after this file's own handler, whatever this file keeps (Capture.On), and decides for itself whether to act.
+local listeners = {}
+function World.Listen(event, fn)
+  if type(event) ~= "string" or type(fn) ~= "function" then return end
+  if not listeners[event] then
+    listeners[event] = {}
+    if not handlers[event] then pcall(frame.RegisterEvent, frame, event) end
+  end
+  local l = listeners[event]
+  l[#l + 1] = fn
 end
 frame:SetScript("OnEvent", function(_, event, ...)
   if not (type(LoreForeverDB) == "table" and LoreForeverDB.capture) then return end   -- before login (Capture.Init)
-  ns.Guard(handlers[event], ...)
+  if handlers[event] then ns.Guard(handlers[event], ...) end
+  local l = listeners[event]
+  if l then
+    for i = 1, #l do ns.Guard(l[i], ...) end
+  end
 end)

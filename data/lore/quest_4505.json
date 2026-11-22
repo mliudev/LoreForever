@@ -1,0 +1,71 @@
+{
+ "key": "quest:4505",
+ "type": "quest",
+ "name": "Well of Corruption",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4505
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Winna Hazzard at Bloodvenom Post asks you to collect corrupted water from the Jadefire Satyrs' moonwell. She needs a sample brought back to her.",
+ "sections": [
+  {
+   "title": "Corrupted Water",
+   "body": "At Bloodvenom Post, Winna Hazzard asks you to bring her a sample of corrupted water. It comes from the Jadefire Satyrs' moonwell, and Winna is waiting for it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Winna Hazzard need?",
+   "aliases": [
+    "what does Winna want",
+    "winna sample",
+    "corrupted water"
+   ],
+   "answer": "Winna Hazzard asks you to bring her a sample of corrupted water from the Jadefire Satyrs' moonwell."
+  },
+  {
+   "q": "Where do I get the water sample?",
+   "aliases": [
+    "where sample",
+    "moonwell water",
+    "jadefire water"
+   ],
+   "answer": "The sample comes from the Jadefire Satyrs' moonwell."
+  },
+  {
+   "q": "Who should I bring the sample to?",
+   "aliases": [
+    "who wants the sample",
+    "bring water to who",
+    "winna location"
+   ],
+   "answer": "Bring the sample to Winna Hazzard at Bloodvenom Post."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodvenom post",
+  "corrupted water",
+  "jadefire satyrs",
+  "moonwell",
+  "water sample",
+  "well of corruption",
+  "winna hazzard"
+ ],
+ "related": [
+  "subzone:moonwell-ashenvale",
+  "subzone:bloodvenom-post",
+  "npc:winna-hazzard",
+  "topic:satyr"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Well of Corruption"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:92841",
+ "type": "quest",
+ "name": "Valley of Bones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92841
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Warug sends you toward Orgrul, a centaur near the Valley of Bones south of Magram Village. The Magram\u2019s discovery is at stake, and Warug says Orgrul will decide whether you learn of it.",
+ "sections": [
+  {
+   "title": "Warug\u2019s Direction",
+   "body": "Warug sends you to the far end of Magram Village, where you are to seek Orgrul. He describes Orgrul as a large, foul-smelling centaur near the Valley of Bones, south of the village. You need the Magram to trust you before you can learn of their discovery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to find Orgrul?",
+   "aliases": [
+    "who sent me",
+    "warug request"
+   ],
+   "answer": "Warug asks you to seek Orgrul, a centaur near the Valley of Bones south of Magram Village."
+  },
+  {
+   "q": "Where is Orgrul?",
+   "aliases": [
+    "orgrul location",
+    "where find orgrul"
+   ],
+   "answer": "Orgrul is near the Valley of Bones south of Magram Village."
+  },
+  {
+   "q": "What does Warug want me to learn?",
+   "aliases": [
+    "magram discovery",
+    "what did they find"
+   ],
+   "answer": "Warug says the Magram have made a great discovery, but Orgrul will decide whether you learn what it is."
+  },
+  {
+   "q": "Why do I need the Magram to trust me?",
+   "aliases": [
+    "improve magram reputation",
+    "magram trust"
+   ],
+   "answer": "Warug says you need to earn the Magram\u2019s regard before you can learn about their discovery."
+  },
+  {
+   "q": "What happens if Orgrul refuses to tell me?",
+   "aliases": [
+    "warug crown",
+    "if orgrul says no"
+   ],
+   "answer": "Warug says you can take comfort in knowing he has a new crown."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "discovery",
+  "magram",
+  "magram village",
+  "orgrul",
+  "valley of bones",
+  "warug"
+ ],
+ "related": [
+  "subzone:valley-of-bones",
+  "subzone:magram-village",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Valley of Bones"
+ ]
+}

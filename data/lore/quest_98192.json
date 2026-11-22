@@ -1,0 +1,78 @@
+{
+ "key": "quest:98192",
+ "type": "quest",
+ "name": "Skin Careful, Skin Sharp",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98192
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krak in Brackenwall Village needs intact raptor hides for scale hide. He sends you to Dragonmurk, where the red raptors are quick and dangerous.",
+ "sections": [
+  {
+   "title": "Krak's Need",
+   "body": "Krak has trouble cutting hides with his large hands, and the ones he prepares end up full of holes. In Brackenwall Village, he asks you to bring him intact raptor hides from the red raptors in Dragonmurk. They are fast and mean, and Krak warns you could be eaten there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krak?",
+   "aliases": [
+    "krak",
+    "who's krak",
+    "brackenwall krak"
+   ],
+   "answer": "Krak is in Brackenwall Village and needs intact raptor hides for scale hide."
+  },
+  {
+   "q": "Why does Krak need hides?",
+   "aliases": [
+    "why hides",
+    "krak hides",
+    "scale hide"
+   ],
+   "answer": "Krak is trying to make scale hide, but his large hands leave the hides he cuts full of holes."
+  },
+  {
+   "q": "Where do I find the red raptors?",
+   "aliases": [
+    "red bities",
+    "raptors where",
+    "dragonmurk raptors"
+   ],
+   "answer": "Krak points you to Dragonmurk in the south, where the red raptors are fast and mean."
+  },
+  {
+   "q": "What does Krak ask me to bring?",
+   "aliases": [
+    "what hides",
+    "intact raptor hides",
+    "krak request"
+   ],
+   "answer": "Krak asks you to bring him eight intact raptor hides."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brackenwall village",
+  "dragonmurk",
+  "intact hides",
+  "krak",
+  "raptor hides",
+  "red raptors",
+  "scale hide"
+ ],
+ "related": [
+  "subzone:brackenwall-village",
+  "subzone:dragonmurk"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Skin Careful, Skin Sharp"
+ ]
+}

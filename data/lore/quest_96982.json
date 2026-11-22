@@ -1,0 +1,79 @@
+{
+ "key": "quest:96982",
+ "type": "quest",
+ "name": "Your First Riding Kodo",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96982
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A kodo awaits your choice. Your decision begins a journey with a dependable companion.",
+ "sections": [
+  {
+   "title": "Choosing a Kodo",
+   "body": "A kodo is offered to you as a companion for travel. Examine the riding kodos and choose the one that feels right to you.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Companion",
+   "body": "Once you have chosen, the kodo is provided to you. The hope is that you will care for one another, with the Earthmother guiding you both.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I being asked to do?",
+   "aliases": [
+    "kodo choice",
+    "first riding kodo",
+    "pick a kodo"
+   ],
+   "answer": "Examine the riding kodos and choose one as your first mount."
+  },
+  {
+   "q": "Why choose a kodo?",
+   "aliases": [
+    "why kodo",
+    "kodo companion",
+    "what's good about kodos"
+   ],
+   "answer": "Kodos are described as dependable companions that are slow to anger."
+  },
+  {
+   "q": "Can I choose whichever kodo I like?",
+   "aliases": [
+    "which kodo",
+    "choose my kodo",
+    "kodo selection"
+   ],
+   "answer": "You are encouraged to choose the kodo that speaks to you."
+  },
+  {
+   "q": "What happens after I choose?",
+   "aliases": [
+    "after choosing",
+    "get my kodo",
+    "kodo choice done"
+   ],
+   "answer": "The chosen kodo is provided to you as your companion."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "companion",
+  "earthmother",
+  "first mount",
+  "kodo",
+  "mount",
+  "riding kodo"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Your First Riding Kodo"
+ ]
+}

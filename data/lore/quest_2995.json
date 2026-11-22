@@ -1,0 +1,67 @@
+{
+ "key": "quest:2995",
+ "type": "quest",
+ "name": "Lines of Communication",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2995
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Oran Snakewrithe in Undercity asks you to burn three Highvale documents in the Hinterlands. The request centers on the Highvale Records, Report, and Notes.",
+ "sections": [
+  {
+   "title": "A Request from Oran",
+   "body": "In Undercity, Oran Snakewrithe sends you to the Hinterlands with a request concerning three Highvale documents. The Highvale Records, Highvale Report, and Highvale Notes are the papers named. Their destruction is the work Oran asks of you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to burn the Highvale papers?",
+   "aliases": [
+    "who sent me",
+    "oran snakewrithe request"
+   ],
+   "answer": "Oran Snakewrithe in Undercity asks you to burn the Highvale Records, Highvale Report, and Highvale Notes."
+  },
+  {
+   "q": "Where are the Highvale documents?",
+   "aliases": [
+    "where are the papers",
+    "highvale records location"
+   ],
+   "answer": "Oran sends you to the Hinterlands to burn the Highvale Records, Highvale Report, and Highvale Notes."
+  },
+  {
+   "q": "Which documents does Oran name?",
+   "aliases": [
+    "what papers",
+    "highvale documents"
+   ],
+   "answer": "Oran names the Highvale Records, Highvale Report, and Highvale Notes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burn documents",
+  "highvale notes",
+  "highvale records",
+  "highvale report",
+  "hinterlands",
+  "oran snakewrithe",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:hinterlands",
+  "quest:1449"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lines of Communication"
+ ]
+}

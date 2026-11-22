@@ -652,6 +652,8 @@ local function gameQuestLevel(id)
   end
 end
 
+Hooks.QuestLevel = gameQuestLevel   -- (Voice: the chat line for a quest page that opened silent, LOR-1606)
+
 -- The line a quest's Lore button tooltip ends with when its voices are a download the player hasn't got
 -- (Voice.QuestPackHint). Always a hint, never an action: it only shows when the player hovers.
 local function packHint(id)

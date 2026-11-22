@@ -1,0 +1,81 @@
+{
+ "key": "quest:95986",
+ "type": "quest",
+ "name": "King of the Wild Plains",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95986
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Watcher Cornelius asks you to face the leader of the lion pride near Terral's Watch. He wants its hide, and the matter kept from Demar.",
+ "sections": [
+  {
+   "title": "A Call for the Pride",
+   "body": "Watcher Cornelius at Terral's Watch has made a Tallstrider Call for you. He sends you to the hill just north, where the lions gather. Blow the whistle there to draw out the pride's leader, then bring its hide back to Cornelius.",
+   "spoiler": 0
+  },
+  {
+   "title": "Cornelius's Concern",
+   "body": "Cornelius is satisfied that the lion is slain. He asks you to keep the matter from Demar, saying Demar has already sent him out here and he wants no more attention from him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to hunt the lion?",
+   "aliases": [
+    "cornelius lion quest",
+    "who wants the hide",
+    "watcher cornelius"
+   ],
+   "answer": "Watcher Cornelius at Terral's Watch asks you to bring him the hide of the lion pride's leader."
+  },
+  {
+   "q": "Where is the lion's hill?",
+   "aliases": [
+    "lion hill where",
+    "where are the lions",
+    "hill north of here"
+   ],
+   "answer": "The hill where the lions gather is just north of Cornelius at Terral's Watch."
+  },
+  {
+   "q": "What does the whistle do?",
+   "aliases": [
+    "tallstrider call",
+    "whistle lion",
+    "call the pride leader"
+   ],
+   "answer": "The Tallstrider Call draws out the leader of the lion pride when blown at the hill."
+  },
+  {
+   "q": "What does Cornelius want from the lion?",
+   "aliases": [
+    "lion hide",
+    "what do i bring back",
+    "pride leader hide"
+   ],
+   "answer": "Cornelius asks you to retrieve the leader's hide."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demar",
+  "king of the wild plains",
+  "lion hide",
+  "lion pride",
+  "pride leader",
+  "tallstrider call",
+  "terral's watch",
+  "watcher cornelius"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: King of the Wild Plains"
+ ]
+}

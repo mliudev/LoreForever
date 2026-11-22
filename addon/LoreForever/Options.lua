@@ -40,7 +40,7 @@ Options.DEFAULTS = {
   -- add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
   readBooks = true,
   skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
-  packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
+  packHints = true,        -- say (once a session per zone, or per quest download) when its narration is in a pack you lack
   voiceOffers = true,      -- the dimmed play button where a free download has that voice (VoiceOffer.lua)
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
   updateNotice = true,     -- say once when a newer Lore Forever is out, and on the minimap button (Updates.lua)

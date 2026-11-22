@@ -7,6 +7,44 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.16.0 (2026-11-22)
+
+- The add-on now says Português (Brasil), not just Português, where it names its Brazilian Portuguese recordings.
+
+- A quest that opens in silence because its voices are a separate download now says which download, once.
+
+- **Quest givers know their quests:** talk to someone whose quest you carry and they know it's theirs, thank you for
+  ones you've finished, and let on when they have more work.
+
+- **Your pet and your demon:** ask your own pet and Willo answers for it. Your imp or succubus answers you itself, as
+  your demon.
+
+- **Quest givers' voices are now split by level at 25 and 50:** if you added packs one at a time on CurseForge and have
+  only the first quest givers' pack, add the other two to keep hearing quest givers past level 25.
+
+Willo can find a quest item from a corrected short name and the dungeon you were discussing, without asking you to name it again when the record is clear.
+
+Willo can set her voice to the exact whole-number percentage you ask for, from 5% to 100%. Older versions keep their supported presets and point to the volume slider for other amounts.
+
+Willo distinguishes a known dungeon drop from an unknown drop rate, including items missing from her general item catalog.
+
+- **Clearer Live game info controls:** Willo explains that its stars carry the game data, so hiding every light and keeping that live data are linked. Turning off the between-question sky now says what still appears; moving it remains an option.
+
+- **Pop out a goal:** a goal now pops out over the game like a note, with its bar moving as you level and Done to
+  tick when you get there (Windows).
+
+- **Quest plans, choose-one steps:** a step where you pick one of two or three quests is one row naming each, and
+  once you've done one, the plan moves on to the next step.
+
+- **Quest plans, pointed out:** on Adventurer and Hero, asking Willo how to do a quest chain shows a small line under
+  her answer: Champion and Legend can make this a plan.
+
+- **After a misunderstood request:** a rejected suggestion no longer grants permission for a different app change on the next try. Willo checks the replacement against what you actually asked and can still answer the question when no change is authorized.
+
+Willo retains short lookup receipts with the conversation so a follow-up can name the sources she actually used, and can distinguish a recorded lookup with no saved links from one she did not need.
+
+- **Typed replies out loud:** choosing “You type, she answers out loud” now reads new replies in your chosen voice. Existing settings keep typed replies quiet until you choose it; Play still works.
+
 ## 1.15.0 (2026-11-19)
 
 - Corrected lore in 13 entries.
@@ -19,30 +57,12 @@ wrap long bullets with an indented continuation line.
 
 - Game text you share on the website is now accepted after a day instead of two, so it reaches Lore Forever sooner.
 
-- **Willo's pop-up over the game is slimmer:** its two top rows are thinner and Chat's extra row is gone, so about four
-  more lines of her answers fit. The Characters button and the three dots now sit at the ends of the talk's time line.
-
-- **The add-on notes what drops in dungeons:** share it through Willo and it helps her learn a new dungeon's loot for
-  everyone.
-
 - The play button on books and letters no longer covers the game's next-page arrow.
-
-- **Willo stops at "I don't know" far less often:** when she comes up short, she tells you the nearest thing she does
-  know and a next step.
 
 - The "now playing" line in chat changes to "played" once its story is over, so it no longer looks like a story is
   still playing (or stuck) minutes later, and its Stop link no longer starts the story over.
 
 - A new place you ride through quickly now plays its story too, instead of only showing its "New page" note.
-
-- **"Open the guide" opens it:** when Willo looks something up online and you asked her to open, show or pull up a
-  guide or map, the page opens for you: in her window when you type, and on Windows in her pop-up over the game when you
-  ask out loud, without taking your keyboard.
-
-- A pin you clear on the map now leaves Willo's card and your notes right away, not at your next /reload.
-
-- **Pin it in one press:** when Willo knows the spot for something you asked about, a "Pin on map" button sits under
-  her answer in place of a yes-or-no question. Something in two places gets "Pin both on map".
 
 - **More item stories:** quest items in Stranglethorn Vale, Tanaris, Feralas, Desolace and the other level 30-45 zones
   now have their own stories, as the earlier zones do.
@@ -50,89 +70,9 @@ wrap long bullets with an indented continuation line.
 - **Letters in their writer's voice:** a letter or note from someone who gives you quests, like Bath'rah's Parchment, is
   read in their own voice.
 
-- **Your question answered too:** with "Just do it" chosen in Settings, ask her a question and ask her to do something
-  in the same breath ("where are the kobolds, and turn on Start with my computer"), and she now answers the question as
-  well as doing it. That's when typed on every plan, and out loud on Champion and Legend so far.
-
-- **Willo's message box shows above her:** her lines appear above her instead of beside her. Drag the box anywhere
-  around her and it stays there as she moves and next time you play; drop it back above her and it snaps into place.
-
-- Willo: a list you ask her to make goes in a note of its own, not in among your to-dos.
-
-- Notes: after you remove a note, its Undo now sits in a small notice you can close with ×, and it no longer stays
-  behind when you move on. Leaving a note you're editing now asks in Willo's own card instead of a browser box.
-
-- **Hide your popped-out notes in one click:** while notes are popped out over the game, a small mark beside Willo
-  says how many. Click it to hide them all, and again to bring the same ones back. Notes also lists them at the top, with
-  Hide all and a ✕ to put one back.
-
-- **Smooth dragging:** popped-out notes and Willo's pinned window now stay under your pointer while you drag them.
-  Popped-out notes no longer jump to another monitor by themselves, and one you drag to your second screen stays there.
-
-- Willo: a quest plan's step you already have in your quest log now says so, and who you hand it in to, instead of sending you to pick it up.
-- Willo: after you remove a quest plan in Notes, the "Show plan" buttons under her earlier answers go away.
-
-- Willo: when you ask what's next in a quest plan, a "Pin on map" button under her answer pins that step on your map.
-
-- Willo: ask her to split a note and she moves those lines into a new one, instead of saying she can't.
-
-- **Willo's window switches at once:** picking a character or someone you've met in her chat list shows their talk
-  straight away, even with a long history; older lines appear as you scroll up.
-
-- Willo: she now knows every quest in your log from your last save, not only the ones the game tracks, so she can tell which ones you already have.
-
-- **More room to read Willo's answers:** her window's tabs now share one slim row with her light and Settings, and the
-  chat's heading and character list take less space, so more of your talk fits on screen.
-
 ## 1.14.0 (2026-11-18)
 
-- Willo: two people sharing a PC now each keep their own chats. After you sign out, the next person to sign in
-  doesn't see yours.
-
-- **Look-ups she has already made come back at once:** on plans with look-ups, a question she's already looked up
-  comes back without the wait, with its pages and when she found it ("Looked up 3 days ago").
-
-- **Dungeon prep lists tick as you play:** with Live game info on, a quest on your list ticks the moment you take it up
-  or turn it in, and unticks if you abandon it.
-
-- Willo: Retry after a "Tick it off", "Make a prep list" or "Make a plan" press that failed now does the press again,
-  instead of answering the button's words as a question.
-
-- **Tick off your prep list when the run's done:** after a dungeon's last boss, Willo offers to tick off the prep list
-  you made for it, in one press, with Undo.
-
-- **Two asks in one breath:** on Champion and Legend, with "Just do it" chosen in Settings, ask her a question and ask
-  her to do something in the same breath ("where are the kobolds, and put 10 linen cloth on my list"), and she now does
-  it instead of sometimes saying she can't.
-
-- Willo: asked to turn "What I teach her can help other travellers" or "Let her remember on her own" on or off, she says
-  where you'll find the switch in Settings, instead of saying it's done.
-
-- Willo knows more about herself: why her sky sits beside your map when kept up, keeping Discord from hearing you
-  while you talk to her, a remade character's own journey, what PvP the add-on records, and sorting your bags.
-
-- Willo: asked to turn "What I teach her can help other travellers" or "Share where I am with friends" on or off, she opens the right card or asks to change your sharing, instead of flipping a different switch.
-
-- When Willo says to type /reload to see a new pin, the card under her answer says Pinned instead of On your map.
-
-- **Quest plans keep up with you:** steps tick themselves when you turn the quests in (the next time you /reload or log out), a step you
-  untick stays as you left it, "What's next?" gives just the next step and where it is, and "Read me the plan" reads
-  it back. A chain you already have a plan for shows "Show plan" instead of "Make a plan".
-
-- **Pin a plan's steps (Champion and Legend):** each step of a quest plan that has a place shows a pin mark, in her
-  chat and in Notes. Press it and Willo pins that step on your map.
-
-- **Willo makes quest plans (Champion and Legend):** ask how to do a quest chain and she answers in a few words, with
-  every step kept as a plan in your Notes. Asked again, the same plan comes back up to date.
-
-- Willo: asked for a reminder without saying what it's for, she now asks "What should I remind you about?" instead of saving one with made-up words, and your answer sets it for the moment you asked.
-
-- **Lists from what Willo looks up:** on Champion and Legend, ask her for a checklist or a note of something she has to
-  look up first (a class's talent build, say), and she can now write it in your notes. Before, she said she would and
-  then couldn't.
-
-- Typed questions now know where you were and your level the last time Willo saw your game, instead of going by your
-  last save, which could be hours and levels old.
+- Smaller fixes and improvements.
 
 ## 1.13.0 (2026-11-17)
 
@@ -142,59 +82,7 @@ wrap long bullets with an indented continuation line.
 - Found no longer lights up zones you've never been to: a quest counts where you pick it up and a person where you
   meet them, and other races' versions of your class quests no longer show as found.
 
-- **Willo knows where dungeon quest chains begin:** asked for a dungeon's quests, she now says where the first step
-  starts, like the journal at the Great Lift that opens a Razorfen Kraul quest.
-
 - Corrected lore in 37 quest entries.
-
-- **"Sent to" by name:** when Willo sends a friend a message for you, she says and shows just their name ("Sent to
-  Tessa."), adding their handle only when two of your friends share that name.
-
-- **Messages Willo sends for you, in her chat:** when she sends a friend a message for you, it shows under her answer
-  with who it went to and the exact words, and Open in Friends takes you to that conversation. Take it back by asking
-  her and it says so.
-
-- **Goals in Willo's chat:** when she sets, changes, drops or finishes a goal, or you ask for your goals, the goal shows
-  under her answer with how far along you are, and Undo or Remove right there. A reminder that comes due with her pop-up open now shows with its own buttons too, every time it comes due.
-
-- **Willo's screenshots stay in her chat:** ask her for one and the picture sits under her answer, with Open in Pictures,
-  even after a restart. Click any picture in her chat to see it large.
-- Willo: her chat no longer says a screenshot is gone right after she takes it, and Send is back when she names a friend.
-
-- **Pins in Willo's chat:** a place she pins shows under her answer with its map spot, Undo and Open in Notes, and
-  "what pins do I have?" lists them there with Remove.
-
-- **See a list right in Willo's chat:** ask "what's on my shopping list?" and the list shows under her answer, ready to
-  tick off.
-
-- Willo: "clear my chat history" now offers to erase your chats, and only your chats, instead of forgetting just the last thing you said.
-
-- Willo: ask her for two or three pins in one line and she pins each one, then says which went in and which didn't.
-
-- Willo: "forget that" now says what she forgot ("I forgot the last thing you said and my answer."), and says there's nothing to forget when nothing came before.
-
-- Willo: after she reads your friends' messages out, her halo and the unread count catch up right away.
-
-- Willo answers more questions about the game and herself: moving the loot roll pop-up, turning weather up, whether
-  her chime-ins use your free answers, how many pins you can keep, and why the add-on's story pop-ups went quiet.
-
-- Willo for Windows: opening a page she looked up no longer plays the Windows "ding".
-
-- Keep a note or list in view while you play: press **Pop out** on it (under Willo's answer, or beside Edit in Notes)
-  and it opens in its own small window over the game. Pop out as many as you like, tick rows as you go, drag them where
-  you want and size them from the corner. **Put back** (or the ✕) closes one; the note stays in Notes. They come back
-  where you left them the next time you start Willo. Windows only for now.
-
-- Willo: "take that back" just after she sends a message to a friend now takes it back, out loud too.
-
-- Willo: on an older Willo, asking for a talk key like Ctrl+Alt+T no longer sets some other key; she says an update brings key combinations and asks which single key you'd like.
-
-- When you correct Willo about the game, it can now help other players too: once several players have taught her the
-  same thing, she can pass it on to others. Only the fact goes, never your name. It's on
-  when you first see it; untick "What I teach her can help other travellers" in Settings › What she remembers to keep
-  yours to yourself.
-- An answer that uses what other travellers told her says "From other travellers" under it, and an answer that uses
-  what you taught her says "You taught her this" again.
 
 ## 1.12.0 (2026-11-16)
 
@@ -203,88 +91,24 @@ wrap long bullets with an indented continuation line.
 - Stratholme, Scholomance, Ragefire Chasm, the Stockade, Feathermoon Stronghold, Razorfen Downs and the Alterac
   Mountains each have one story in the Book now, instead of two that read the same.
 
-- Willo no longer misses the end of a quest line, a cleared dungeon or a turn-in when narration is playing: she
-  speaks up once it ends.
-
 - Shift-clicking a new-page note no longer takes its story back out of your playlist, or stops it, once the story has
   joined by itself.
 
-- Ask Willo for a talk key like Ctrl+Alt+T and she sets it, and the game's own key prompt now points you to her
-  Settings for a combination instead of saying she can't hear it.
-
 - A town's story now carries on after every quest giver you talk to, instead of giving up after the fourth.
-
-- **Plans say what they give:** the plan pages, the Terms and Willo for iPhone now match what each plan does. Features
-  that need the game mark "On your PC", and "New features first" is off Legend.
-
-- **When your first days end:** Willo says so plainly over the game, and her window shows once what you used in them
-  and which plan keeps it.
-
-- **Remind me next visit:** a reminder for a place now has a Remind me next visit button instead of Snooze 1 hour,
-  and a repeating reminder has just Stop repeating, over the game and in Willo's chat.
-
-- With Live game info off, Willo tells which of your characters you're on from her look at your game, and says so when
-  she can't tell, instead of repeating an older save's class and level.
-
-- **Willo learns from players:** once several players' correction is checked against our records, she answers with it
-  plainly; until then she passes it on only as something she's heard.
-
-- Willo no longer says her window "couldn't open again" when Windows shuts down or restarts, and when her window does
-  stop, she keeps trying to bring it back, and tries again each time you open her.
 
 ## 1.11.0 (2026-11-15)
 
 - Corrected lore in 16 entries.
 
-- **Willo knows what's changed in your bags:** with Live game info on and Willo up to date, each time you talk to her
-  she hears what you've looted, used or swapped since logging in, and how long until your Hearthstone is ready. After
-  a big haul she catches up over a few questions.
-
-- A page Willo looked up on a site that won't show inside her window (wowpedia, behind its own check) now opens straight in your browser from her "Looked up" card, with no wait.
-
-- Willo's character list shows each character's ruleset ("Normal ruleset") instead of a server code, and so do your
-  downloaded notes.
-
-- Willo knows your brand-new character's race and class when you ask with the mic in her window, before the game has
-  saved it.
-
 - With both narrators' quest dialogue installed, a quest no longer switches narrator partway through when one of them
   is missing a page: the narrator who has the whole quest reads all of it, at the quest window and from the quest log.
-
-- **Talking to characters is steadier:** the one you target when you press the key is the one who answers, a dead
-  character no longer answers you, and characters remember you even after Willo learns their name.
-
-- Pages Willo looked up: Back to chat returns to where you were reading, and a page that can't load says so instead of
-  staying on "Opening…".
 
 ## 1.10.0 (2026-11-14)
 
 - Corrected lore in 11 entries.
 
-- **Willo's keys can be combinations:** Ctrl, Alt or Shift with a key, like Ctrl+T, for talking to her or to the one
-  you're targeting. A key the game already uses can be hers while Lore Forever is on, and still does its old job without it.
-
 - Narration now always matches the words on screen: with Lore Forever in another language, a story your narrator
   hasn't recorded shows as text instead of playing in English.
-
-- When Willo looks something up online for Legend players, she now searches far more thoroughly and brings back a
-  right answer more often.
-
-- **Willo's chats are one ongoing talk:** no chats to start or pick. Her window shows everything you've asked, by day
-  and by character, with older days folded to what you did in the game; click a character to see only theirs.
-- **Forget anything you said, or clear the screen:** every line has a ⋯ (or right-click it) with Forget this, and each
-  day has Forget this day, with Undo; Willo stops using it. "New chat" now clears the screen instead, and Willo still
-  remembers what came before.
-- **People you've met in game:** everyone who's answered you in person has a row in Willo's window, with their talk with
-  each of your characters kept apart; they only remember what passed between them and the character you're playing.
-
-- **Willo knows every Legacy talent:** all 21, with the game's own numbers, from Frequent Flier to Bartering and
-  Luremaster, and how to get each one.
-
-- **Characters know their own trade:** ask a gryphon master how to fly faster and they tell you about Frequent Flier;
-  trainers know their ranks, innkeepers rested experience, bankers the slot prices.
-
-- Willo no longer starts a reminder or a big-moment line just as a place's story is about to play.
 
 - A dungeon's story and the story of the place at its door are told once between them, not once outside and again
   inside.
@@ -292,34 +116,13 @@ wrap long bullets with an indented continuation line.
 - In a dungeon, a story a pull cuts off no longer starts over at every lull; it waits under Earlier for you to play
   it.
 
-- **"Open What Willo keeps" opens it:** ask Willo for the page, typed or out loud, and its button is in her window;
-  before, she sometimes opened your Privacy settings instead while saying she had opened the page.
-
 - **Community voices in other languages tell you what they need:** a community voice from /voices that can't play
   because its language pack isn't installed now says so in chat once, with where to get it, and Options shows it on
   the voice's row. Before, the English narrator read instead, with no word.
 - **Read along shows what the voice says:** while a community voice reads a story from an older version of its text,
   Read along and the story's page in Found show the words you're hearing, then today's text once it stops.
 
-- Ask Willo to look something up online and she now tells you what really happened: that she looked and found
-  nothing sure, or that she couldn't search just now. On plans without web look-ups she says she can't search the web,
-  instead of saying she couldn't find it.
-
-- **Willo and add-ons:** asked for an add-on she doesn't know by name, she says so more often instead of offering one,
-  and the ones she knows come with what they do and any catch.
-
 - Chinese: typing a story's older common name (第三次战争, 安度因·洛萨, 元素位面, 黑暗骑手) opens its story again.
-
-- Willo misses fewer of your spoken questions: when her hearing is slow on one, she now tries again and answers
-  instead of saying she didn't catch you.
-
-- After you talk to a character in person, Willo no longer mixes their words into what you were doing.
-- Ask Willo "what did I do last time?" in any chat, even a new one, and she tells you from your character's journey.
-
-- With Live game info on, Willo knows a new character's race, class and side from its first minutes, before the game
-  tells her its name.
-
-- Typed questions on a brand-new character no longer get answered as the character you played before.
 
 - Found no longer lists places, people or items you only heard stories about. Ones the last update added that way are
   removed, so some Found counts go down.
@@ -335,28 +138,13 @@ wrap long bullets with an indented continuation line.
 
 - Asking "what's here" now tells you about the place you're standing in, not a nearby place's side story.
 
-- When your microphone is muted or blocked, Willo now says so and where to fix it, instead of asking you to hold the key
-  while you speak.
-
 - A community edition that's missing a piece, disabled or out of step no longer leaves Lore Forever empty: it says so
   and carries on in your usual language until both pieces are back.
 - A /reload during a fight no longer switches Lore Forever to English for the rest of the session.
 - The Ukrainian narrator now says it needs the Ukrainian language pack when that is missing or disabled, instead of
   saying Lore Forever is missing.
 
-- Where Willo can't look at your game, a question about your screen now gets her answer, and she says she can't see
-  your screen right now, instead of "My thoughts got tangled".
-
 - A renamed character keeps its journey, Found pages and heard stories instead of starting over.
-
-- Ask Willo "what is that?" about something in the world, like the bones washed up on Darkshore's beaches, and she
-  now looks at what's around you to work out what it is.
-
-- Asked about her update and then told to go ahead, Willo restarts into it instead of asking you a second time.
-
-- Asked why she's capturing your screen as you go in and out of towns, Willo now says it's her Live game info reading the stars over your minimap, that she keeps no picture, and offers to turn it off.
-
-- Tell Willo you've done something on your list in your own words, or say yes when she checks which line you mean, and she ticks it off instead of asking again.
 
 - Places seals can be finished in more zones: a few pages for places the game never names no longer count, and some
   places that shared a name with a quest, plus two dungeons, are found again when you walk in.
@@ -367,50 +155,12 @@ wrap long bullets with an indented continuation line.
 - Two Horde quests that had nothing to read now have their story: The Admiral's Orders, carrying Proudmoore's plans to
   Nazgrel, and the warrior's Speak with Ruga.
 
-- Asked what reminders you have, Willo answers in her own voice ("Just one on Hurin: send money to your bank alt next
-  time you're in a city.") instead of reading out a list.
-
 - Shaw's Report and Champions' Hall no longer retell what you just heard: both are narrated again with their new words.
 
 - **More quest givers speak their own lines:** Bart Tidewater in Menethil Harbor, Gnoarn's The Day After and about 15
   other Forever quests now play in the quest giver's voice instead of the narrator's.
 
-- **Adding a friend is easier to find:** Things to try in Willo's chat now offers Play with a friend with an Add friend
-  button, and the Add a friend box opens in the middle of her window.
-
-- **Reminders show right in Willo's chat:** when she sets, changes or lists your reminders, or one comes due while her
-  pop-up is open, the reminder itself appears under her answer, with Edit, Undo, Remove, Stop and Snooze there.
-
-- **Connect my game spots an old Lore Forever:** if your add-on is too old to connect, Willo now says to update it,
-  and does once the game closes, instead of saying you're connected. With the game open she asks for the /reload at once.
-
-- **See what Willo looked up, without leaving the game:** under an answer she looked online for, the pages she read
-  are listed, and on Windows they open right inside her window, over your game.
-
-- **Signing in to Willo always gets you through:** if your browser doesn't open after Continue with Google, copy the
-  sign-in link from Willo's window into any browser and sign in there. Email me a code now takes you to the address box
-  if it's still empty, instead of doing nothing.
-
-- **Set both of Willo's keys by pressing them:** in Settings › Talking, click a key and press the one you want, Ctrl, Alt
-  and Shift combinations too. If the game already uses it, she says what for. One /reload in the game and it works.
-
-- Willo: "Check your microphone" is the first row of her Settings. Hold one button, say anything, and she tells you in
-  one line what's wrong and how to fix it: your microphone, a faint voice, your talk key, or trouble on her side. Her
-  "I can't hear you" lines now have a "Check my microphone" button.
-
-- **Willo waits for Lore Forever's update:** asked to restart for her own update while Lore Forever is still updating
-  in your game, she no longer cuts it off half-way; she says her update can start as soon as that's done.
-
-- **Willo tells you when you're signed out:** if your sign-in goes away, her chat now says so, with a Sign in again
-  button that brings back her answers, Notes and Friends.
-
-- **Willo's voice follows your PC's sound:** with no speakers picked for her, she plays where Windows plays her right
-  now (a headset you switch to, or the output you set for her in Windows), and stays there after an update.
-
 ## 1.9.0 (2026-11-13)
-
-- Willo no longer leaves "Done" standing when a change you asked for out loud takes a while and then doesn't go
-  through: she says it didn't, and Try again shows under her line.
 
 - Found now collects the places, people and items you meet in every game language, with or without a language
   pack, not only your quests.
@@ -427,92 +177,27 @@ wrap long bullets with an indented continuation line.
 - Character-specific key bindings with nothing on Move Forward (moving with the mouse, or W cleared) no longer get
   swapped for your account's keys every time you log in.
 
-- Willo no longer goes quiet partway through a spoken answer when her voice is slow for a moment: she pauses briefly
-  and says the rest.
-
-- **Willo says plainly when she's down on our side:** if she can't answer at all for a while (a problem with the
-  service behind her), she tells you it's on her side and nothing you did, and to try again in a little while,
-  instead of asking you to repeat the question.
-
-- Willo's long spoken answers get to the point sooner: the answer first, then only what you need, so you're back to
-  the game faster. Ask her to tell you more any time.
-
-- A reminder for the next city now comes as you land there by flight, and Willo no longer says one was already said
-  before she's said it.
-
 - With your playlist paused, a story that comes by itself (a new place, a new page) now joins the end of your list and
   waits for Play, instead of starting on its own.
 - Your playlist, stories that came by themselves included, now comes back after a /reload, logging out or a disconnect,
   paused or playing as you left it. After a game crash it comes back as it was the last time you reloaded or logged out.
-
-- Willo for Mac: Settings' Hold to try now says macOS is about to ask for your microphone before it does, and shows
-  whether the microphone is on once you answer.
-
-- **Repeating reminders, fewer surprises:** a second town keeps the first, "for all my characters" moves a repeat
-  to every character, and "undo" right after Willo stops one brings it back.
-
-- **Hide the talk mark from the mark itself:** point at the mark by your target to see what it means, and
-  right-click it to stop showing it on every character. You can bring it back in Options.
 
 - Clicking Continue on a quest giver's page no longer cuts them off: the next page waits its turn, and a page you
   clicked through quickly still gets read.
 
 - Corrected lore in 28 entries
 
-- **See what Willo is doing while she looks something up:** "Looking up Hogger" shows beside her dots, and asked out
-  loud she says a short line with the name in it before her answer. You can turn her lines off in her Settings, or just
-  ask her.
-
-- When Willo hears you talking but can't make out the words, she now says "I didn't catch that. Try again?" out loud,
-  so you know she's there.
-
 - A quest with its own recorded story but a silent quest giver now plays that story when you take it. A story from a
   new page waits until you land, and until a fight that starts right away is over.
-
-- **Willo is all about World of Warcraft again:** her Azeroth Survivors card picks were a fun experiment and are now
-  retired. Everything else she does works as before.
 
 - Elling Trias, Stormwind's cheesemonger, is re-recorded in one take per page, to fix parts that sounded muffled or too close to the mic.
 
 - **More stories in your narrator's voice:** 20 Spanish and Portuguese stories, and two quest lines, now play in the
   narrator you picked instead of the other one or none.
 
-- **Willo knows the game's own interface better:** she can tell you about the built-in cooldown icons, cast bars
-  and spell effects.
-
-- **Willo says your name your way:** tell her how your name is said and she keeps it, in every voice, from then on.
-  It's a line in her book that you can change or forget.
-
-- One click on Willo's wisp opens her chat, even right after clicking in the game; a small wobble of the mouse no
-  longer drags her instead.
-
-- **Resize Willo's pop-up:** drag its top edge, its sides or the small mark in its corner to make it the size you
-  want; it opens at that size from then on, on every tab. Wide enough, your chats show as a list beside the chat, as in
-  her window. Double-click the mark or an edge to go back to the usual size.
-
-- **Willo's pop-up takes over from her line:** when you click her line or her wisp, the line beside her goes as her
-  pop-up opens, and while it's open what she'd have written lands in it, with its buttons and her replies to them. "Ask about this" works there too.
-
 ## 1.8.0 (2026-11-12)
 
-- **See who you can ask out loud:** target a friendly character who can answer you and a small mark by your target
-  shows which key to hold to ask them with Willo. Their tooltip says it too. You can turn it off in Options.
-
-- **Willo cheers three new moments:** finishing a dungeon, the last quest of a storyline, and (with Small ones too)
-  your first time in a new zone, once you've settled in. Needs this add-on and the newest Willo.
-
-- In Willo's Notes, the right-click menu closes when you scroll, Escape puts you back on the row, and Escape in the panel over the game closes only the menu.
-
-- **Pins in long sessions:** talking to Willo with the map open uses fewer of the game's chances to show her new
-  pins, so they reach your map without a /reload about twice as far into a session.
-
-- **Willo knows why your game slows while you type to her:** ask her, and she tells you it's the game's own limit for
-  windows in the background, and where in the game's options to raise it.
-
 - Hovering an item a quest of yours needs or handed you no longer throws an error; its Lore Forever lines show again.
-
-- **Repeating reminders:** ask Willo to remind you every 15 minutes, every level, or every time you reach a town or
-  any major city. Each one has a Stop repeating button, and Notes lists them in their own group.
 
 - **A quest done the moment you take it still speaks:** a quest whose item comes with it, one whose item you already carry, or a talk-to no longer has its quest giver's words skipped as "already done" when its turn comes.
 
@@ -526,89 +211,43 @@ wrap long bullets with an indented continuation line.
   greeting you used to stay silent; it now speaks once the greeting is over, and the little player shows it. A quest
   you abandon and take again speaks again too.
 
-- Ask Willo to pin a person or creature by name ("pin Hogger", "pin where Lord Kazzak is") and the dot lands where they're usually found, not on you.
-
 - **The little player shows a quest giver's line playing:** its bar moves through each line from the list and starts
   again with the next; "2 of 3" shows where you are in the list.
 
-- **Characters by both names:** your profile and Willo show each character by first and last name, so two
-  characters with the same first name no longer read as one, and each keeps its own page.
+- **Characters by both names:** your profile shows each character by first and last name, so two characters with the
+  same first name no longer read as one, and each keeps its own page.
 - **Plain ruleset names:** a Forever server shows as its ruleset ("PvP ruleset"), never the server code.
 
-- **Willo hears what your quests need:** ask out loud about an item or creature a quest of yours names and she hears
-  it right more often.
-
-- **Turn off Willo's sky from Options:** a Turn off the sky button sits beside Move things on screen, so the sky
-  goes with one click, even after uninstalling Willo.
-
-- Willo and the narrators now say Magistrate Henry Maleb the same way every time: "MAL-eb".
+- The narrators now say Magistrate Henry Maleb the same way every time: "MAL-eb".
 
 - The narrators now say "King Llane Wrynn the First", and "Stonemasons" right in the Stormwind City story.
-
-- **Ask characters yourself:** when you ask Willo about someone you've targeted, a line under her answer shows the
-  key to ask them directly, a few times until you've tried it.
-
-- **Willo hears your recipe's reagents:** with the latest add-on, ask out loud about something the recipe you last
-  opened in a profession window needs, and she hears its name right.
-
-- Willo no longer changes her own settings, or opens them, when your question was about the game. Ask how to keep the
-  game's sound playing while you type to her, and she tells you where that is in the game.
-
-- Restart to update under Willo's answer works again when you tap it.
-
-- Tell Willo to restart for her update, out loud or typed, and she does, checking once first if she hadn't just offered; when she can't right then, she says so.
-
-- Legend and Champion: asking Willo what's on your screen while "Let her see your screen" is off now gets her card to
-  turn it on, instead of a question back.
-
-- Willo no longer pins a place you didn't ask her to: she offers, and a yes pins it.
-
-- **Willo stays ready while you play:** she gets her voice ready once when you start the game, not again every time
-  you alt-tab back in.
 
 ## 1.7.0 (2026-11-11)
 
 - **Quest givers speak by default:** in the starting zones they voice their lines out of the box, and their voices now come in the main download.
 - **One voice at a time:** quest givers take turns in the order you click them, and arrival stories, book pages and recaps wait their turn instead of talking over each other.
-- **Pins that stay out of the way:** Willo's pins take a map slot only while your map is open.
 - Up to date with Forever's latest patch.
 - Corrected lore in 14 entries.
 
-- Right-click a note, reminder or pin in Willo's Notes to get a small Remove menu where you clicked; the note no longer opens.
-
-- **Pins show up where you look:** Willo's pins now show on a zone's own map, reach your map without a /reload when you
-  open it soon after asking, and a pin by map numbers ("pin 84.5, 65.2") lands on the map.
-- **Clearing a pin can be undone:** right-click one on a map and it now says so, with Put it back.
-
 ## 1.6.0 (2026-11-10)
 
-- **One way to move things:** Move things on screen... in Options (or /lore move) shows the subtitles, the new-page note, the pin card and Willo's sky in gold to drag together. Put them back resets them.
+- **One way to move things:** Move things on screen... in Options (or /lore move) shows the subtitles, the new-page note and the other pop-ups in gold to drag together. Put them back resets them.
 - **More stories in Italian:** about 4,500 stories that showed only in English or not at all now read in Italian. Translations the Italian community wrote stay exactly as they wrote them.
 - **See where a free voice would play:** a dimmed play button with a small gold arrow links the free download that voices that quest or story. Right-click hides them all.
 - **Options say what's waiting:** with narration set to play only when you press Play, the boxes it holds back are greyed and keep their ticks.
-- **Fewer update nags:** while Willo keeps Lore Forever up to date, the add-on no longer says a new version is out.
 - Corrected lore in 13 entries.
-
-- **Willo doesn't guess your talents:** until the game has saved them (your next /reload or logout), she says so
-  instead of naming talents or ranks you may not have.
 
 ## 1.5.0 (2026-11-09)
 
 - **Every pop-up can be moved:** drag any Lore Forever pop-up and it opens in that spot from then on. Options has a button to place the new-page note and the pin card, and Reset windows puts everything back.
-- **Willo's pins reach every map:** they now show on the whole-world map too, right-click one on any map to remove it, and a new pin no longer stays hidden until a /reload.
-- **Your map stays clear:** if you keep Willo's sky up all the time, it now sits under your buffs instead of over your minimap, and she still sees your game. Drag it anywhere with Move the sky in Options.
-- **Willo knows the talents you've taken:** she can now see the points you've spent and work from your actual build.
 - A place that shares its name with a room in a starting area, like Ironforge's Hall of Arms, no longer pops up a new page for that far-off area.
-- Willo waits when one quest narration is about to follow another, so her big-moment lines no longer talk over the story.
 - More stories have fresh recordings, and Forever quest characters with no voice on file now get a narrator of their own gender in Match Character Gender.
 - Corrected lore in 4 entries.
 
 ## 1.4.0 (2026-11-08)
 
-- **Willo's pins reach your map as you play:** a pin you ask Willo for shows on the world map and minimap within moments, no /reload, and when you reach one, a small card offers Clear pin.
 - **More storylines:** the orc and troll starting valley shows its storyline from the first quest, Razor Hill gains one, the camping intro is now a storyline, and more of Forever's own quest chains show.
 - **Quest givers finish their hello first:** a quest page waits a moment for the NPC's own spoken greeting before it reads aloud, instead of talking over it.
-- **Willo knows your new character right away:** on a character you just made, she knows its race and class from your first question instead of asking.
 - Two characters with the same first name on one realm now keep their own journeys instead of sharing one.
 - The new-page note shows when a page is in your playlist, and books have the same small Listen control as the quest window.
 - More stories have fresh recordings, and community translations were added.
@@ -616,16 +255,12 @@ wrap long bullets with an indented continuation line.
 
 ## 1.3.0 (2026-11-07)
 
-- **Willo's pins on your maps:** a place you pin with Willo now shows on the journey map, the game's world map and your minimap after a /reload. Dungeon pins mark their entrance.
-- **Town reminders speak up as you arrive:** with Live game info on, Willo notices when you reach a town, a city or a new zone, so a reminder for it comes the moment you get there.
 - **Bookmarks show pictures:** the four bookmarks down the book's edge are a map pin, an open book, a winding road and stacked tomes. Hover one to see its name.
 - The narrators say Dun Morogh and Uldaman the same way every time, and more stories have fresh recordings.
 - Corrected lore in 6 entries.
 
 ## 1.2.0 (2026-11-06)
 
-- **Willo learns where vendors and trainers stand:** when you speak to one Lore Forever has no place for, it notes
-  where you stood, so she can send others there. Nothing about you goes with it; it turns off in her Settings.
 - **German names leave English stories:** a few Mulgore and starter quests now use the game's names, like the Clearcutter
   Key and Palemane Rock.
 - **More stories narrated:** English stories and quest lines that were missing a recording now have one, and the male
@@ -646,8 +281,6 @@ wrap long bullets with an indented continuation line.
   pack to download, and the quest window and log have the play-and-add pill.
 - **A tidier book:** smaller Play and playlist buttons, tabs that match their page, and journey rings that say what
   they mean. New journey pictures are sharper.
-- **Willo's sky stays hidden** until she needs it, so it no longer covers your minimap. To keep it up, Ctrl-right-click
-  the Lore Forever button by your minimap.
 - Subtitles show your name, class and race instead of a code like $N, changing your narrators no longer freezes the
   game, and Lua errors at some quest windows and on Storylines are fixed.
 
@@ -682,12 +315,6 @@ wrap long bullets with an indented continuation line.
 
 - **Dwarf quest givers have a new voice:** a hearty mountaineer reads over 1,000 dwarf quest lines, and quest givers say your race and class again.
 
-- **Willo knows WoW Forever at launch:** its spells, talents, items, quests and racials, like Ruthless for humans.
-
-- **Willo's ways, free on every plan:** choose her manner, how vividly she tells things and how much she says, or just ask her to keep it short.
-
-- **Willo sounds better:** she reads every answer all the way through, her voice holds up when a voice service is slow, and on a Mac it no longer crackles.
-
 - **Translations stay whole:** no English mixed in, in German, French, Portuguese, Swedish, Italian, Russian, Ukrainian or Romanian. A Russian, Ukrainian or Romanian story shows once it's translated.
 
 - **Fixes:** 13 lore entries corrected, reports and shared text say which version of WoW they came from, and the website and lore page read better on phones.
@@ -695,18 +322,6 @@ wrap long bullets with an indented continuation line.
 ## 0.35.0 (2026-11-01)
 
 - **The lore, retold:** the stories of the starting lands and the zones after them are rewritten and read anew in both narrators' voices, and a story no longer opens by repeating its summary. More zones follow.
-
-- **Willo cheers your big moments:** a new level, a quest you carried a long time, an epic or your first mount gets one short, cheery line from her, never in a fight. Ask her to chime in more, less or not at all.
-
-- **Willo is quieter while you play:** she no longer drops lore remarks on her own; ask her to chime in more to bring them back.
-
-- **Willo for Mac:** Willo now comes for Mac as well as Windows.
-
-- **Willo works without the add-on:** she finds your game by herself, answers from the first second, typed or out loud, and fixes the add-on in one click when it isn't loading.
-
-- **Willo changes things your way:** ask her to change her color, size, voice or keys and she does it with Undo, or have her ask first. Her talk key works anywhere, and she answers out loud sooner.
-
-- **Azeroth Survivors picks:** Willo picks your cards by the numbers, weighs your whole build, plans ahead and tells you when to reroll or banish.
 
 - **Translations and fixes:** French, German, Spanish and Portuguese lore uses your game's own names in more places, and 28 lore entries are corrected.
 
@@ -716,15 +331,11 @@ wrap long bullets with an indented continuation line.
 
 - **Quest givers pause between sentences:** the quest-giver voices no longer rush, with a natural breath at the end of each sentence.
 
-- **Willo knows your Azeroth Survivors build:** she reads your save (talents, gear, perks, zones won) so her picks fit the build you have.
-
-- **Willo on stream:** her chat popup over the game now shows in your OBS Browser Source, and closing it removes it from the stream.
-
 - **Playlist opens from every page,** even while a story page, History or the Road is open.
 
 - **Pack names you can read:** Ukrainian and Russian packs show their English names in Options unless your game font can draw the native ones.
 
-- **Downloads page, smoother:** voice cards Setup can't install yet go straight to CurseForge, and Willo's card turns dark in dark mode.
+- **Downloads page, smoother:** voice cards Setup can't install yet go straight to CurseForge.
 
 - Corrected lore in 33 entries.
 
@@ -734,8 +345,6 @@ wrap long bullets with an indented continuation line.
   to hear it again. They come with the More quests (levels 40+) voice pack.
 - **Rewritten lore, read aloud:** the rewritten places, people, items and quests tell their new stories in both
   narrators' voices, hidden passages too.
-- **Willo remembers you:** tell her to remember that you main a hunter and she keeps it in mind, with Undo under her answer.
-  Settings › Privacy & sharing lists everything she remembers, each with Forget.
 - **Romanian and Swedish:** Lore Forever in Română (translated by Indurin) and Svenska, as language packs.
 - **A simpler downloads page:** your language and narrator are picked for you. Choose The add-on, Storyteller or
   Everything, and Setup comes ticked for what you picked.
@@ -750,10 +359,6 @@ wrap long bullets with an indented continuation line.
 
 - **The Chronicle, reworked:** Here stays a conversation that links to pages, Found is your collection with filters and sorting, and the Road and Storylines lead into it, quests in the order you took them.
 - **Rewritten lore, read aloud:** Elwynn, Westfall and the starting area tell their new stories in both narrators' voices.
-- **Sign in with your email:** no Google account needed. Type your address and the code we email you.
-- **Willo knows your character:** your gear, talents and professions from your last /reload, in any game language, for upgrades, dungeon readiness and talent builds.
-- **Willo plans your leveling:** where to level next, the best quest towns, and where to gather herbs and ores at your skill.
-- **Willo helps with dungeons and damage:** levels, bosses and quests to pick up first, plus the stat and damage advice players trade, never a made-up number.
 - **Lighter saved data:** your questions stay in Here and History instead of being copied onto every page.
 
 ## 0.28.0 (2026-10-25)
@@ -765,18 +370,12 @@ wrap long bullets with an indented continuation line.
 - **Questions on pages:** what you ask about a person, place, item or quest is written on its page, with the recorded questions to play there.
 - **More to hear:** more quest givers in their own people's voices, more quests and quest stories read aloud, and German, Spanish and Portuguese quest dialogue downloads.
 - **The website reads like the book:** lore pages on loreforeverwow.com in your language, and your profile shows your Chronicle zone by zone.
-- **Willo:** on Legend she thinks hard questions through (gear, rotations, talents), and her wisp stays smooth while she talks.
 
 ## 0.27.0 (2026-10-23)
 
 - **Your own chronicle:** every place, person, item and quest with a story is kept as you find it, in a new Found tab,
   and each story opens on a page of its own. Nothing you haven't reached is spoiled.
-- **Ready for launch day:** the installer and Willo find WoW Forever's launch client, so the add-on is ready on
-  November 4.
-- **A calmer Willo:** she says each answer once, stays quiet while you talk to her, and tells you once when her answers
-  run out for the day.
-- **Reminders you can remove:** see them all in Notes, remove any, or snooze one for an hour.
-- **The whole story with Willo too:** if you've chosen to hear everything in the add-on, Willo tells it all as well.
+- **Ready for launch day:** the installer finds WoW Forever's launch client, so the add-on is ready on November 4.
 - **More story, fewer spoiler warnings:** long storylines end with a recap, more answers open once your quests reach
   them, and corrected lore.
 - **More quests voiced:** thousands more quest lines are read aloud in both narrators' voices, and the female
@@ -784,58 +383,29 @@ wrap long bullets with an indented continuation line.
 
 ## 0.26.0 (2026-10-22)
 
-- **One Willo everywhere:** a new glass panel over the game, her window, the chat by the wisp and the talk key always
-  show the same chat, draft and answer, and with WoW closed her wisp waits by the clock.
-- **Willo says her whole answer:** once, in one bubble, and a play button on every answer says it again. With quest
-  dialogue on, she also reads quest pages nobody recorded.
-- **Free answers last through busy days:** when Willo's light runs low she keeps answering in her own voice, a few a
-  day, before resting.
 - **Story as you play, without spoilers:** stories hold back what your quests haven't shown you yet, chat points you to
   the next part as you uncover it, and short recaps retell a storyline at its turning points.
 - **More quests tell their lore, out loud:** Stranglethorn Vale, Desolace, Arathi Highlands, Thousand Needles and
   Hillsbrad Foothills, in both narrators' voices, and the silent first-hour quests speak again.
 - **More French narration:** the female narrator covers more places, people and lore.
-- **Update reminders:** Willo and Lore Forever say plainly when a version is too old to keep working, and where to
-  get the new one.
-
-- **Willo rests by your clock when the game is closed:** with "Willo outside the game" on, her wisp floats down to a
-  quiet spot above the clock. Click her to open her panel, right-click to hide her until the game starts. Off until you
-  turn it on, and she stays out of the way of full-screen apps.
+- **Update reminders:** Lore Forever says plainly when a version is too old to keep working, and where to get the new
+  one.
 
 - Corrected lore in 22 entries.
 
-- **Willo beside you in game:** click her wisp to open her chat, notes and friends right over the game, no alt-tab.
-
 ## 0.25.0 (2026-10-21)
 
-- **Willo's new window:** a slimmer top bar, three tabs (Chat, Notes and Friends), simpler settings with a search box,
-  and with the game closed a Tonight card with what happened last time and a few picks for tonight.
-- **Talk to Willo outside the game (off until you turn it on):** with WoW closed, hold Ctrl+Alt+W to talk or tap it to
-  type, and she answers from where you last were, on PC or phone.
-- **Chatting feels instant:** Willo's answers and your messages to friends appear right away, and friends' messages
-  arrive within a second or two, on PC and iPhone.
-- **Your narrator reads the short answers:** on Hero and up, Willo's short answers are read in your narrator's voice,
-  and Legend hears her whole answer. The old recorded answer packs no longer play.
 - **More native voices:** the Brazilian Portuguese female narrator is back, German, Castilian and French narration
   cover many more places, people and lore topics, and quest givers read 87 more quests in their own voices.
 - **Your narrator stays your narrator:** a new voice pack joins the bottom of your list, a quest keeps one voice from
   start to finish, and Hear the lore plays the pack you pick.
-- **Fixes:** saved characters no longer disappear after a restart on some Windows PCs, notes belong to the character
-  you're playing, Willo asks when she isn't sure you said "wand," and 14 lore entries are corrected.
+- Corrected lore in 14 entries.
 
 ## 0.24.2 (2026-10-21)
 
-- **Fixes:** on Windows, Willo saves your journal and syncs your character information reliably again.
+- Smaller fixes and improvements.
 
 ## 0.24.0 (2026-10-20)
-
-- **Easier updates:** the new Windows Willo app downloads updates in the background and installs them when she next
-  starts. She also updates Lore Forever and your installed packs while the game is closed. The add-on tells you
-  when you're falling behind.
-
-- **Willo's notebook and chat:** ask her to clear finished items, combine notes, move a note to all your
-  characters, or undo a recent note edit. Her chat over the game now scrolls with the wheel, dragging, or Page Up
-  and Page Down.
 
 - **More voices and quest dialogue:** optional downloads bring more Castilian Spanish places, a new native
   Brazilian Portuguese male narrator, and more English quest lines. French quest voices, subtitles and titles now
@@ -844,27 +414,11 @@ wrap long bullets with an indented continuation line.
 - **Closing the player now sticks:** X forgets the current story and keeps the player closed after /reload, while
   keeping your playlist. A paused story outside the playlist appears at its top, where Clear all removes it too.
 
-- **Try more of Willo:** during their first seven days, new players get limited tries of her extra voices,
-  characters speaking in their own voices, looking things up and seeing the game. Her window shows how many tries
-  remain.
-
-- **Everyday requests work more naturally:** "remember to check the auction house in five minutes" sets a reminder,
-  "mark this as a lookout spot" makes a pin, and you can share a place with a friend by name. Timed reminders still
-  reach you when the game is out of view.
-
 - **More lore and fixes:** more community quest text and lore, corrected stories, and updated German, Spanish,
   French and Brazilian Portuguese translations. Outdated language packs no longer stop the add-on loading, and the
   small wisp is easier to click.
 
 ## 0.23.0 (2026-10-19)
-
-- **Willo's journey and notebook grow up:** pins show on your journey map with their name and note, and keep the exact
-  spot where you stood. She remembers rares you only saw and mounts you bought, keeps goals on a page of their own,
-  and is straight about her notebook, including what she can and can't clear. Empty headings tidy themselves away.
-
-- **Willo knows more about where you are:** ask how much gold you have and she tells you, to the copper. Asked out
-  loud without Live game info, she gives the way from where the game last saved you. Battlegrounds no longer count as
-  where you last were.
 
 - **More native voices:** German people stories (777 characters, bosses and lore topics) arrive in the male narrator's
   new voice as an optional download. Spanish zone stories get new native Castilian narrators, male and female. Quest
@@ -873,37 +427,17 @@ wrap long bullets with an indented continuation line.
 - **Move the story subtitles:** Options has a new Move the subtitles... button (or type /lore subtitles). Drag them
   anywhere, for example off your action bars, and Put them back returns them to the bottom.
 
-- **The people you target answer under their own names:** a guard captain is "Melris Malagan", not "Human", and each
-  person you talk to gets a chat of their own.
-
-- **Friends and Willo's window:** the Friends tab shows who has Willo connected, and "Willo, send this to Aelric"
-  sends your place, quest or target with Undo. Willo's window reads clearer, with older chats marked "Saved chat".
-
-- **Opt-in error reports:** when the add-on hits a problem, Willo asks once whether to send what it noted. No names or
-  account, and it stays off until you say yes.
-
-- **Fixes:** moving Willo's sky works again, and a story with no recording yet now says so beside its title.
+- **Fixes:** a story with no recording yet now says so beside its title.
 
 - Corrected lore in 40 entries.
 
 ## 0.22.0 (2026-10-18)
-
-- **Willo keeps a second brain:** ask her to remember something, add it to your list, remind you at a town, level or
-  time, pin a spot or keep a goal like "my mount at 40", and she writes it down in the new Notebook tab and speaks up
-  right when it matters. See everything she keeps about you in one place, change it or erase any of it.
 
 - **Subtitles:** while a story or a quest giver's words play with the panel closed, the words show at the bottom of
   the screen in step with the voice, in your language.
 
 - **More voices to choose from:** the first male narrator is back as an optional download, German stories get new native
   narrators, and Italian narration arrives with two narrators.
-
-- **Talking to Willo is easier:** your talk key always reaches her, a second key asks whoever you're targeting, she
-  finishes long answers in her own voice, keeps the same conversation for follow-ups, and tells you kindly when an
-  answer can't come. Friends you invite can earn you bonus answers and free months.
-
-- **Willo knows more:** she answers from your own journey, and knows the towns and zones, your riding trainer, items,
-  and who gives the quest where you stand.
 
 - **Stories play the way you'd hope:** they pick up after a quest giver interrupts, quest givers finish their lines,
   a + queues all of a place's stories into your Playlist, and the Narrate key plays your target's story. They also step
@@ -912,82 +446,28 @@ wrap long bullets with an indented continuation line.
 - **Fixes:** controller play no longer throws a blocked-action popup, stories wait out dungeon pulls, a broken install
   tells you to reinstall, lore links point to the right places, and a few lore corrections.
 
-- **Tell Willo when she's wrong, in one tap:** a thumbs up or "Not right" under her answers, in her window and her
-  chat over the game, with quick reasons if you like. Tick "Tell me when it's fixed" and she'll let you know once
-  she's learned it.
-
-- **Willo says the short version and writes the rest:** asked out loud, she answers in a few sentences, as quickly as
-  before, and writes the full answer, with the steps, places and names, in her window and the chat over the game.
-- On the iPhone, a long spoken answer no longer stops partway: she says the start and tells you the rest is written.
-- Telling Willo out loud to stop or start checking in on your goals now sticks.
-
-- When your last save is a few days old, Willo tells you your goal progress as of that save instead of as if it were now.
-
 ## 0.21.0 (2026-10-17)
 
 - **A new male narrator:** the Chronicler tells the first 587 stories, deeper and steadier, and stories no longer
   read their own titles.
 
-- **Pick Willo's voice:** on Champion and Legend, a man's voice to pair with each of hers, plus Voices of Azeroth: a
-  man and a woman for 11 peoples, from dwarf to troll.
-
-- **Pick Willo's color:** your class color, a lore light like fel green, or any color you like, over the game, in her
-  window and on stream.
-
-- **Your friends' week:** see your friends' guild and what they did this week, and add friends from your link in one
-  click.
-
-- **Willo knows more:** what's in front of you, what Forever changed for classes, and herself; she asks again instead
-  of guessing and keeps to this age in follow-up questions.
-
 - **My contributions:** see everything you sent and what became of it, credited under the name you choose.
 
-- **Fixes:** Willo hears the first question after a quiet spell, her voice stays clean through loading screens, and
-  fresher narration for about 180 stories per narrator plus 5 lore fixes.
+- **Fixes:** fresher narration for about 180 stories per narrator, plus 5 lore fixes.
 
 ## 0.20.0 (2026-10-16)
 
 - **Quest givers have their own voices:** over 3,000 quest lines read in 22 voices of Azeroth's peoples, in the
   Quest givers download.
 
-- **Friends in Willo:** add friends by their profile name, write to each other in Willo's window and, if you both
-  choose to share it, see where each other's adventures have led. Your own Share Willo link earns her extra answers
-  for each friend who joins.
-
-- **Willo knows WoW Forever better:** where every new Forever quest is and who gives it, the new dungeons from the
-  inside, where to buy things, and each town's services and the roads between them. She finds the right lore faster
-  too.
-
-- **New players hear Willo at her best:** your first 20 answers come in her finest voice, with three little wisps
-  under her light while the Moonwell chorus sings with her.
-
-- **Willo on your stream:** add her to OBS as a Browser source (the link is in her Settings) and she shows over your
-  game, see-through, voice included.
-
 - **More stories read aloud:** about 35 lore topics, such as the Alliance, the Defias Brotherhood and Elune, as whole
   stories in both narrators' voices, and Browniee's voice, our first community narrator, reading Teldrassil.
 
-- **A steadier Willo:** she keeps one voice through an answer, quietly asks again when an answer stumbles, waits while
-  you're talking, and answers the book's questions in her bubble. She now keeps your questions and her answers for 14
-  days, anonymized, to fix her mistakes; untick it in her Settings anytime.
-
 - **Fixes and polish:** a small X closes the floating player, +10s always skips ahead and right-click can clear the
-  story that's playing, no more Lua error on some quest turn-ins, Willo's add-on shows as "Lore Forever: Willo", and
-  corrected lore in over 20 entries, including how the narrators say Incendicite.
+  story that's playing, no more Lua error on some quest turn-ins, and corrected lore in over 20 entries, including how
+  the narrators say Incendicite.
 
 ## 0.19.0 (2026-10-15)
-
-- **Willo's sky is a star map:** a see-through chart of orbits and constellations over your minimap, and `/lore sky`
-  lets you drag it anywhere when another add-on covers your minimap.
-
-- **Willo lends a hand:** ask her anything, from your PC to a question the book can't answer (one click sends it). She
-  checks her own setup, names the real fix, and offers to do it with one tap, with Undo.
-
-- **Willo reads the short answers aloud** in her own voice, so the separate answer packs are retired and downloads are
-  smaller. The narrators keep the big stories.
-
-- **Willo and the game, in step:** one switch for Live game info, a talk key that tells you when it clashes with
-  your own keys (F6 by default now), and a new "Willo and the game" card in her Settings that fixes whatever isn't set.
 
 - **More places and people read aloud:** the whole stories of about 400 places, and a new More people download with
   over 500 characters, in both narrators' voices.
@@ -995,26 +475,12 @@ wrap long bullets with an indented continuation line.
 - **The right story in the right place:** Stormwind's canals story no longer plays in Undercity, and places like The
   Crossroads and The Great Forge now play their story when you arrive.
 
-- **Fixes and polish:** quieter answer ratings (a faint wax seal and quill), Willo starts after a PC restart and takes
-  "no thanks" kindly, narration waits while she answers, names match your language, and 9 lore entries are corrected.
+- **Fixes and polish:** names match your language, and 9 lore entries are corrected.
 
 - **Brazilian Portuguese narration is paused:** it's being re-recorded in Brazilian voices. Until then Portuguese
   shows as text, even if you installed the old narration.
 
 ## 0.18.0 (2026-10-14)
-
-- **Meet Willo:** Willo, Lore Forever's free companion app, now installs on her own. Ask her anything out loud or in
-  her chat while you play. She knows your race and class, and her tips come in the same voice as her answers.
-
-- **Talk to anyone:** target a character, from King Magni to a guard or an innkeeper, and they answer you themselves.
-  Willo glows in their colors while they speak, and each remembers only what you said to them.
-
-- **Chat with Willo in game:** click Willo to chat right there, scroll back through it, and start a new chat from her
-  bubble.
-
-- **Willo's sky:** live game info now shows as rings of stars over your minimap instead of colored squares.
-
-- **Willo's settings in one place:** they sit together in Options, greyed out until Willo is installed.
 
 - **Fewer wrong answers:** when Lore Forever only half-understands a question, it offers its closest matches, and
   "thanks" or "that's not right" get a friendly reply instead of a random story.
@@ -1054,17 +520,11 @@ wrap long bullets with an indented continuation line.
 - **Native accents only:** German and French narration uses native voices. Spanish and Portuguese are text until
   their native recordings arrive.
 
-- **Willo:** a cleaner chat layout, typing in its window works again, and it knows WoW Forever's boats, flights and
-  changes.
-
 - **Live game info stays out of your way:** it shows only while the Lore Forever window is open.
 
 - **Fixed:** the quest window's Lore button no longer covers Chronicle's or Spoken's.
 
 ## 0.15.0 (2026-10-11)
-
-- **Meet Willo:** the companion's Sam the Squire is now Willo, a little wisp of light. When today's live answers run
-  out, Willo answers from the lore library instead of leaving you at a dead end.
 
 - **Your profile tells your journey:** your story first, then a chapter for each day you played, with the map beside
   you following the chapter you're reading.
@@ -1086,9 +546,6 @@ wrap long bullets with an indented continuation line.
 
 - **Smaller fixes:** "why are they attacking me?" answers about the creature you've targeted, and `/lore errors` shows
   a Lua error ready to copy into Discord.
-
-- **Anonymous usage counts:** Willo's daily check-in tells us how often each feature gets used, never what you ask,
-  hear or write. Willo's settings turn it off.
 
 ## 0.14.0 (2026-10-10)
 

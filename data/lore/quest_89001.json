@@ -1,0 +1,78 @@
+{
+ "key": "quest:89001",
+ "type": "quest",
+ "name": "Home on the Range",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   89001
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Talrendis Point, Berdun Cliffbrew offers you free lodging if you bring hides to repair his travel lodge tent. He needs Mosshoof Hides from Azshara.",
+ "sections": [
+  {
+   "title": "A Place to Stay",
+   "body": "Berdun Cliffbrew\u2019s travel lodge at Talrendis Point needs repairs. He offers you a free stay if you bring him Mosshoof Hides for the tent. The easiest Mosshooves to hunt are north of the lodge, though hides from any Mosshoof will do.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Berdun need?",
+   "aliases": [
+    "what hides does Berdun need",
+    "Berdun tent repair",
+    "mosshoof hides"
+   ],
+   "answer": "Berdun Cliffbrew needs Mosshoof Hides to repair his travel lodge tent at Talrendis Point."
+  },
+  {
+   "q": "What does Berdun offer?",
+   "aliases": [
+    "free stay at Berdun's",
+    "where can I stay",
+    "Berdun lodging"
+   ],
+   "answer": "Berdun offers you free lodging at his travel lodge if you bring him the hides he needs to repair the tent."
+  },
+  {
+   "q": "Where can I find Mosshoof Hides?",
+   "aliases": [
+    "where are mosshooves",
+    "mosshoof location",
+    "hunt mosshooves"
+   ],
+   "answer": "Berdun says the easiest Mosshooves to hunt are just north of Talrendis Point, but hides from any Mosshoof will do."
+  },
+  {
+   "q": "How many hides does Berdun need?",
+   "aliases": [
+    "number of hides",
+    "how many mosshoof hides",
+    "hide count"
+   ],
+   "answer": "Berdun needs five Mosshoof Hides."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "berdun cliffbrew",
+  "free lodging",
+  "mosshoof hides",
+  "mosshooves",
+  "talrendis point",
+  "tent repair",
+  "travel lodge"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Home on the Range"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "key": "quest:9051",
+ "type": "quest",
+ "name": "Toxic Test",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   9051
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Torwa Pathfinder in Un'Goro Crater asks you to test the Devilsaur Barb on a devilsaur. Return to him once you have done so.",
+ "sections": [
+  {
+   "title": "The Barb",
+   "body": "With the Devilsaur Barb in hand, you have a way to test it. Torwa Pathfinder in Un'Goro Crater awaits your return after you stab a devilsaur; the test rests on that strike.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Torwa want me to do?",
+   "aliases": [
+    "devilsaur barb task",
+    "toxic test",
+    "stab devilsaur"
+   ],
+   "answer": "Torwa Pathfinder asks you to stab a devilsaur with the Devilsaur Barb, then return to him in Un'Goro Crater."
+  },
+  {
+   "q": "Where do I return?",
+   "aliases": [
+    "where is torwa",
+    "return to torwa",
+    "torwa location"
+   ],
+   "answer": "Return to Torwa Pathfinder in Un'Goro Crater after stabbing a devilsaur with the Devilsaur Barb."
+  },
+  {
+   "q": "What do I use on the devilsaur?",
+   "aliases": [
+    "what is devilsaur barb for",
+    "barb test",
+    "toxic test item"
+   ],
+   "answer": "Use the Devilsaur Barb to stab a devilsaur."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "devilsaur",
+  "devilsaur barb",
+  "torwa pathfinder",
+  "toxic test",
+  "un'goro crater"
+ ],
+ "related": [
+  "npc:torwa-pathfinder",
+  "zone:ungoro"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Toxic Test"
+ ]
+}

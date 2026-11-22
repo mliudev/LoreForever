@@ -1,0 +1,70 @@
+{
+ "key": "quest:3802",
+ "type": "quest",
+ "name": "Dark Iron Legacy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3802
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are sent after Fineous Darkvire and the great hammer Ironfel. The hammer is to be placed at the Shrine of Thaurissan.",
+ "sections": [
+  {
+   "title": "Ironfel and the Shrine",
+   "body": "At the Shrine of Thaurissan, you are to place Ironfel on the statue of Franclorn Forgewright. First, Fineous Darkvire must be slain so you can recover the great hammer. Its return to the shrine is the purpose of the task.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I asked to do?",
+   "aliases": [
+    "dark iron legacy steps",
+    "what do I do here"
+   ],
+   "answer": "You are asked to slay Fineous Darkvire, recover Ironfel, and place it on Franclorn Forgewright\u2019s statue at the Shrine of Thaurissan."
+  },
+  {
+   "q": "Who is Fineous Darkvire?",
+   "aliases": [
+    "fineous who",
+    "darkvire"
+   ],
+   "answer": "Fineous Darkvire is the one you are asked to slay to recover Ironfel."
+  },
+  {
+   "q": "What is Ironfel?",
+   "aliases": [
+    "great hammer",
+    "ironfel hammer"
+   ],
+   "answer": "Ironfel is the great hammer you are asked to recover from Fineous Darkvire."
+  },
+  {
+   "q": "Where does Ironfel go?",
+   "aliases": [
+    "where to take ironfel",
+    "shrine statue"
+   ],
+   "answer": "Ironfel is to be placed on the statue of Franclorn Forgewright at the Shrine of Thaurissan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark iron legacy",
+  "fineous darkvire",
+  "franclorn forgewright",
+  "great hammer",
+  "ironfel",
+  "shrine of thaurissan"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dark Iron Legacy"
+ ]
+}
