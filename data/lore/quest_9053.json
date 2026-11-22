@@ -1,0 +1,67 @@
+{
+ "key": "quest:9053",
+ "type": "quest",
+ "name": "A Better Ingredient",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   9053
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Torwa Pathfinder seeks a Putrid Vine from the guardian at the bottom of the Sunken Temple. You are asked to bring it back to him.",
+ "sections": [
+  {
+   "title": "The Sunken Temple",
+   "body": "The guardian at the Sunken Temple's bottom holds a Putrid Vine that Torwa Pathfinder wants. You are to retrieve it and return to Torwa with the vine.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Putrid Vine?",
+   "aliases": [
+    "who needs the vine",
+    "Torwa ingredient",
+    "who asked for Putrid Vine"
+   ],
+   "answer": "Torwa Pathfinder asks you to bring him a Putrid Vine."
+  },
+  {
+   "q": "Where is the Putrid Vine?",
+   "aliases": [
+    "where vine",
+    "vine location",
+    "find Putrid Vine"
+   ],
+   "answer": "The Putrid Vine is with the guardian at the bottom of the Sunken Temple."
+  },
+  {
+   "q": "What do I bring back to Torwa?",
+   "aliases": [
+    "what ingredient",
+    "bring Torwa what",
+    "Torwa vine"
+   ],
+   "answer": "Bring Torwa Pathfinder a Putrid Vine from the guardian at the bottom of the Sunken Temple."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a better ingredient",
+  "guardian",
+  "putrid vine",
+  "sunken temple",
+  "torwa pathfinder"
+ ],
+ "related": [
+  "npc:torwa-pathfinder",
+  "quest:3445"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Better Ingredient"
+ ]
+}

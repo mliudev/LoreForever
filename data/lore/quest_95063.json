@@ -1,0 +1,82 @@
+{
+ "key": "quest:95063",
+ "type": "quest",
+ "name": "Bloodmaster's Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95063
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You have angered Chub'chob in Bolder'ok's Bloodmaster's Ring. The arena's fee offers no protection from death, and you are left to face him alone.",
+ "sections": [
+  {
+   "title": "The Arena's Challenge",
+   "body": "The warning comes after your bouts in Bolder'ok's Bloodmaster's Ring, where you have already drawn Chub'chob's ire. The attendant reminds you that the entry fee will not cover an accidental death. From here, you face Chub'chob, Bloodmaster of Bolder'ok, alone.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Standing",
+   "body": "When you return to Clugfist, you bring word that you have become champion of the Bloodmaster's Ring. Your victory earns you a new friend among the clan. You can now fight and feast with the ogres.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Chub'chob?",
+   "aliases": [
+    "chubchob",
+    "bloodmaster",
+    "who is chub'chob"
+   ],
+   "answer": "Chub'chob is the Bloodmaster of Bolder'ok, and you have angered him in the ring."
+  },
+  {
+   "q": "Where is the Bloodmaster's Ring?",
+   "aliases": [
+    "bloodmaster ring location",
+    "bolder'ok arena",
+    "where do i fight"
+   ],
+   "answer": "The Bloodmaster's Ring is at Bolder'ok."
+  },
+  {
+   "q": "Who do I tell about becoming champion?",
+   "aliases": [
+    "champion news",
+    "tell clugfist",
+    "who gets the news"
+   ],
+   "answer": "You share the news that you have become champion of the Bloodmaster's Ring with Clugfist at Bolder'ok."
+  },
+  {
+   "q": "Does the entry fee cover accidental death?",
+   "aliases": [
+    "death fee",
+    "arena fee",
+    "does fee protect me"
+   ],
+   "answer": "No. The attendant warns that the entry fee does not cover accidental death."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arena",
+  "bloodmaster",
+  "bloodmaster's ring",
+  "bolder'ok",
+  "chub'chob",
+  "clugfist",
+  "ogres"
+ ],
+ "related": [
+  "quest:94668"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodmaster's Ring"
+ ]
+}

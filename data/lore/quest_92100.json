@@ -1,0 +1,78 @@
+{
+ "key": "quest:92100",
+ "type": "quest",
+ "name": "Anywhere But Here",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92100
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A veteran spirit asks you to find his scabbard near Elderwild. The craters around him recall the Third War.",
+ "sections": [
+  {
+   "title": "A Veteran's Request",
+   "body": "Near Elderwild, the Veteran of the Third War asks you to find the scabbard he left at an overlook west of his position. He remembers the view there vividly, though he has forgotten much of what he once was. The craters around him have seen few visitors in years.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to find the scabbard?",
+   "aliases": [
+    "who is this spirit",
+    "veteran spirit",
+    "third war veteran"
+   ],
+   "answer": "The Veteran of the Third War, a spirit who appears near Elderwild, asks you to find his scabbard."
+  },
+  {
+   "q": "Where is the scabbard?",
+   "aliases": [
+    "scabbard location",
+    "where's his sword sheath",
+    "find scabbard"
+   ],
+   "answer": "The Veteran says he left his scabbard at an overlook west of where he stands, near Elderwild."
+  },
+  {
+   "q": "Why does the veteran mention Archimonde?",
+   "aliases": [
+    "archimonde question",
+    "did we repel archimonde",
+    "what happened to archimonde"
+   ],
+   "answer": "The veteran wonders whether Archimonde was repelled, then remarks that it has been a long time."
+  },
+  {
+   "q": "What does the veteran remember?",
+   "aliases": [
+    "what does he remember",
+    "overlook memory",
+    "veteran memory"
+   ],
+   "answer": "The Veteran of the Third War remembers the view from the overlook where he left his scabbard."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "anywhere but here",
+  "archimonde",
+  "craters",
+  "elderwild",
+  "overlook",
+  "scabbard",
+  "spirit",
+  "veteran of the third war"
+ ],
+ "related": [
+  "topic:third-war"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Anywhere But Here"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "key": "quest:94737",
+ "type": "quest",
+ "name": "A Treat for a Friend",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94737
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A goblin asks you to bring a treat to Jezap Jinglesprocket in Bolder'ok. Snufflesnout's happiness matters most to him.",
+ "sections": [
+  {
+   "title": "A Goblin's Request",
+   "body": "A goblin in Bolder'ok sends you with a bundle of goods for Jezap Jinglesprocket. He says Snufflesnout will be pleased to receive it. He also asks you to tell Jezap to talk less.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the treat for?",
+   "aliases": [
+    "who gets the treat",
+    "snufflesnout treat"
+   ],
+   "answer": "The goblin says the treat is for Snufflesnout."
+  },
+  {
+   "q": "Who should I deliver the goods to?",
+   "aliases": [
+    "where deliver bundle",
+    "jezap delivery"
+   ],
+   "answer": "The bundle of goods is for Jezap Jinglesprocket in Bolder'ok."
+  },
+  {
+   "q": "What message should I pass along?",
+   "aliases": [
+    "what tell jezap",
+    "goblin message"
+   ],
+   "answer": "The goblin asks you to tell Jezap to stop talking so much."
+  },
+  {
+   "q": "Who is Snufflesnout?",
+   "aliases": [
+    "snufflesnout who",
+    "snufflesnout"
+   ],
+   "answer": "The goblin calls Snufflesnout the one whose happiness matters most, then identifies Snufflesnout as Chub'chob."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a treat for a friend",
+  "bolder'ok",
+  "bundle of goods",
+  "chub'chob",
+  "je zap jinglesprocket",
+  "snufflesnout"
+ ],
+ "related": [
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Treat for a Friend"
+ ]
+}

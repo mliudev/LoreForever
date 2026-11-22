@@ -1,0 +1,89 @@
+{
+ "key": "quest:95472",
+ "type": "quest",
+ "name": "Consolation Prize",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95472
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tazzik asks you to bring his sweaty shirt to Friz Frazzlespark in Powderfuse Port. Friz has not been paid back, and the shirt is all Tazzik has left.",
+ "sections": [
+  {
+   "title": "A Shirt for Friz",
+   "body": "Tazzik's promise has left him with nothing but his shirt. In Powderfuse Port, Friz Frazzlespark is waiting for you to bring it to him. Tazzik cannot pay Friz back, so this is all he can offer.",
+   "spoiler": 0
+  },
+  {
+   "title": "Friz's Share",
+   "body": "Friz reacts with anger when you give him the shirt. He stamps it into the ground, then offers you a share of the profits and insists you keep it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Tazzik give up his shirt?",
+   "aliases": [
+    "tazzik shirt",
+    "why shirt",
+    "sweaty shirt"
+   ],
+   "answer": "Tazzik says he cannot pay Friz back and has nothing left but his shirt."
+  },
+  {
+   "q": "Who is Friz Frazzlespark?",
+   "aliases": [
+    "who's friz",
+    "friz",
+    "friz guy"
+   ],
+   "answer": "Friz Frazzlespark is the one Tazzik owes money to."
+  },
+  {
+   "q": "Where do I take Tazzik's shirt?",
+   "aliases": [
+    "shirt where",
+    "take it to friz",
+    "powderfuse shirt"
+   ],
+   "answer": "Bring Tazzik's Sweaty Shirt to Friz Frazzlespark in Powderfuse Port."
+  },
+  {
+   "q": "What does Friz say about the shirt?",
+   "aliases": [
+    "friz reaction",
+    "what friz say",
+    "shirt response"
+   ],
+   "answer": "Friz reacts with disbelief when he learns what happened."
+  },
+  {
+   "q": "What does Friz offer me?",
+   "aliases": [
+    "friz payment",
+    "my share",
+    "profits"
+   ],
+   "answer": "Friz offers you a share of the profits and says it is yours."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "consolation prize",
+  "friz frazzlespark",
+  "payment",
+  "powderfuse port",
+  "profits",
+  "sweaty shirt",
+  "tazzik"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Consolation Prize"
+ ]
+}

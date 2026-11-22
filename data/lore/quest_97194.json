@@ -1,0 +1,98 @@
+{
+ "key": "quest:97194",
+ "type": "quest",
+ "name": "Learning to Ride",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97194
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kildar offers to teach you wolf riding for a fee. Training opens the way to a free mount from Ogunaro and later purchases of additional mounts.",
+ "sections": [
+  {
+   "title": "Wolf Riding",
+   "body": "Ogunaro will provide you with a free mount after Kildar trains you. You can then purchase additional mounts. Other creatures need their own riding skills, taught by trainers you must find.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bond and Skill",
+   "body": "Kildar teaches you to ride one of the orcs' wolves for a fee. Learning the bond between wolf and rider is part of his training, and riding these creatures takes resolve.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches wolf riding?",
+   "aliases": [
+    "who is Kildar",
+    "wolf trainer",
+    "learn riding"
+   ],
+   "answer": "Kildar teaches you wolf riding."
+  },
+  {
+   "q": "What does wolf riding training cost?",
+   "aliases": [
+    "how much riding training",
+    "riding fee",
+    "cost to ride"
+   ],
+   "answer": "Kildar offers the training for a fee; no amount is stated here."
+  },
+  {
+   "q": "Who gives me a mount after training?",
+   "aliases": [
+    "free mount",
+    "Ogunaro mount",
+    "who gives mount"
+   ],
+   "answer": "Ogunaro provides you with a free mount once you have trained with Kildar."
+  },
+  {
+   "q": "Can I buy more mounts?",
+   "aliases": [
+    "additional mounts",
+    "buy mounts",
+    "more riding animals"
+   ],
+   "answer": "After training, you can purchase additional mounts."
+  },
+  {
+   "q": "Do other creatures need different riding skills?",
+   "aliases": [
+    "other riding skills",
+    "ride other creatures",
+    "different mounts"
+   ],
+   "answer": "Each creature requires its own riding skill, and you will need to find trainers for them."
+  },
+  {
+   "q": "What is part of riding a wolf?",
+   "aliases": [
+    "wolf rider bond",
+    "bond with wolf",
+    "wolf riding training"
+   ],
+   "answer": "Kildar's training helps you learn the bond between wolf and rider."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice riding",
+  "kildar",
+  "mount",
+  "ogunaro",
+  "riding skill",
+  "training",
+  "wolf riding"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Learning to Ride"
+ ]
+}

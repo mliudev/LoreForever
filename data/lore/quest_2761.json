@@ -1,0 +1,74 @@
+{
+ "key": "quest:2761",
+ "type": "quest",
+ "name": "Smelt On, Smelt Off",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2761
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Galvan the Ancient in Stranglethorn asks you to bring him Mithril Bars and Iron Bars. The request calls for forty of each.",
+ "sections": [
+  {
+   "title": "Bars for Galvan",
+   "body": "Galvan the Ancient is waiting in Stranglethorn. You are to bring him forty Mithril Bars and forty Iron Bars, with both kinds of metal needed for his request.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Galvan need?",
+   "aliases": [
+    "what bars does Galvan want",
+    "galvan materials",
+    "smelt bars"
+   ],
+   "answer": "Galvan the Ancient asks you for forty Mithril Bars and forty Iron Bars."
+  },
+  {
+   "q": "Where do I bring the bars?",
+   "aliases": [
+    "where is Galvan",
+    "Galvan location",
+    "where to take bars"
+   ],
+   "answer": "Bring the bars to Galvan the Ancient in Stranglethorn."
+  },
+  {
+   "q": "How many Mithril Bars does Galvan need?",
+   "aliases": [
+    "mithril amount",
+    "how much mithril",
+    "40 mithril"
+   ],
+   "answer": "Galvan asks for forty Mithril Bars."
+  },
+  {
+   "q": "How many Iron Bars does Galvan need?",
+   "aliases": [
+    "iron amount",
+    "how much iron",
+    "40 iron"
+   ],
+   "answer": "Galvan asks for forty Iron Bars."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "galvan the ancient",
+  "iron bars",
+  "mithril bars",
+  "smelt on smelt off",
+  "smelting",
+  "stranglethorn"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Smelt On, Smelt Off"
+ ]
+}

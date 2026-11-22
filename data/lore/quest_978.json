@@ -1,0 +1,72 @@
+{
+ "key": "quest:978",
+ "type": "quest",
+ "name": "Moontouched Wildkin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   978
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Erelas Ambersky asks you to gather Moontouched Feathers in Winterspring. You are to bring them back to Rut'theran Village.",
+ "sections": [
+  {
+   "title": "A Return to Erelas",
+   "body": "Erelas Ambersky waits in Rut'theran Village for what you bring back from Winterspring. Gather ten Moontouched Feathers there, then return to him with them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Moontouched Feathers?",
+   "aliases": [
+    "who sent me",
+    "who needs feathers"
+   ],
+   "answer": "Erelas Ambersky in Rut'theran Village asks you to gather Moontouched Feathers."
+  },
+  {
+   "q": "Where do I find Moontouched Feathers?",
+   "aliases": [
+    "feather location",
+    "where feathers"
+   ],
+   "answer": "The Moontouched Feathers are to be collected from Winterspring."
+  },
+  {
+   "q": "How many feathers does Erelas want?",
+   "aliases": [
+    "number of feathers",
+    "how many"
+   ],
+   "answer": "Erelas asks you to collect ten Moontouched Feathers."
+  },
+  {
+   "q": "Where do I take the feathers?",
+   "aliases": [
+    "return location",
+    "where to bring feathers"
+   ],
+   "answer": "Bring the Moontouched Feathers back to Erelas Ambersky in Rut'theran Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "erelas ambersky",
+  "moontouched feathers",
+  "moontouched wildkin",
+  "rut'theran village",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:rut-theran-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Moontouched Wildkin"
+ ]
+}

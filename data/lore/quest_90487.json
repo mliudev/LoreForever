@@ -1,0 +1,74 @@
+{
+ "key": "quest:90487",
+ "type": "quest",
+ "name": "Ancient Allies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   90487
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A hermit points you toward an outpost of ancients and dryads on Mount Hyjal\u2019s lower slopes. Fraxinus and his companions may help with the climb ahead.",
+ "sections": [
+  {
+   "title": "The Mountain's Keepers",
+   "body": "The hermit has little more to offer as you prepare for the long climb up Mount Hyjal. He directs you west from his cave, then north toward the mountain\u2019s foot. There, an outpost remains from the guardians who once roamed these slopes. Fraxinus, an ancient, and his friends may assist you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fraxinus?",
+   "aliases": [
+    "fraxinus",
+    "ancient fraxinus"
+   ],
+   "answer": "Fraxinus is an ancient at an outpost on Mount Hyjal\u2019s lower slopes."
+  },
+  {
+   "q": "Where is the outpost?",
+   "aliases": [
+    "ancient outpost",
+    "where are the ancients"
+   ],
+   "answer": "The outpost lies west of the hermit\u2019s cave, near the foot of Mount Hyjal."
+  },
+  {
+   "q": "Who lives at the outpost?",
+   "aliases": [
+    "dryads and ancients",
+    "hyjal caretakers"
+   ],
+   "answer": "Ancients and dryads are at the outpost, remnants of the guardians who once roamed Mount Hyjal\u2019s slopes."
+  },
+  {
+   "q": "Why speak with the ancients?",
+   "aliases": [
+    "ancients help",
+    "help with hyjal climb"
+   ],
+   "answer": "The hermit says Fraxinus and his companions may assist you on the long trek up Mount Hyjal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient allies",
+  "ancients",
+  "dryads",
+  "fraxinus",
+  "hermit",
+  "mount hyjal",
+  "outpost"
+ ],
+ "related": [
+  "quest:165",
+  "zone:hyjal"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ancient Allies"
+ ]
+}

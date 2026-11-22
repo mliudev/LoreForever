@@ -1162,7 +1162,7 @@ do
       local id = tonumber(e.id)
       local key = id and ns.DB and ns.DB.index and ns.DB.index.quest and ns.DB.index.quest[id]
       local page = key and ns.DB.entries[key]
-      local kept = id and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests[id]
+      local kept = id and ns.Log.KeptQuest(id)
       local name = e.q or (page and page.n) or (type(kept) == "table" and kept.title ~= "" and kept.title) or nil
       local label = e.k == "qt" and L["Quest done"] or e.k == "qa" and L["Quest accepted"] or L["Quest abandoned"]
       local place = e.k == "qt" and (with or where) or where
@@ -1459,9 +1459,8 @@ do
   -- nil when none of it was kept (a quest done before the add-on, or with Keep the quest text you see off). The one
   -- reader of kept text, for the Road's "quest text" rows (Journey.History) and the quest's page (Page.lua).
   function Journey.KeptText(id)
-    local quests = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests
-    local rec = quests and quests[id]
-    if type(rec) ~= "table" then return nil end
+    local rec = ns.Log.KeptQuest(id)   -- in the game's language now (LOR-1607)
+    if not rec then return nil end
     local out = {}
     for _, p in ipairs(QUEST_PARTS) do
       if usable(rec[p]) then out[#out + 1] = { part = p, label = partLabel(p), text = personal(rec[p]) } end
@@ -1474,8 +1473,7 @@ do
     local db = ns.DB
     local key = db and db.index and db.index.quest[q.id]
     local entry = key and db.entries[key]
-    local quests = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests or {}
-    local rec = type(quests[q.id]) == "table" and quests[q.id] or nil
+    local rec = ns.Log.KeptQuest(q.id)
     local zone = entry and entry.z and db.entries["zone:" .. entry.z]
     q.key, q.text = key, Journey.KeptText(q.id)
     q.title = q.title or (rec and usable(rec.title) and rec.title) or (entry and entry.n) or questTitle(q.id)

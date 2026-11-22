@@ -1,0 +1,79 @@
+{
+ "key": "quest:94274",
+ "type": "quest",
+ "name": "Craftsman's Writ: Golden Scale Coif",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94274
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded, transferable writ requests a Golden Scale Coif. It records where the customer wants delivery and how payment will be made.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "A customer\u2019s faded note asks you for one Golden Scale Coif. It also gives a delivery location and payment details. The writ can pass from hand to hand, but you need to hold it when you complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "golden scale coif writ",
+    "what item is wanted"
+   ],
+   "answer": "The customer requests one Golden Scale Coif."
+  },
+  {
+   "q": "Where do I deliver the coif?",
+   "aliases": [
+    "delivery location",
+    "where to take it"
+   ],
+   "answer": "The writ points to the delivery location on your map."
+  },
+  {
+   "q": "How will I be paid?",
+   "aliases": [
+    "payment details",
+    "what's the payment"
+   ],
+   "answer": "The writ contains information about payment."
+  },
+  {
+   "q": "Can I pass the writ to someone else?",
+   "aliases": [
+    "transferable writ",
+    "can I give it away"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the transaction?",
+   "aliases": [
+    "need writ to finish",
+    "must I carry the note"
+   ],
+   "answer": "Yes. You need to have the writ with you to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "coif",
+  "craftsman's writ",
+  "delivery",
+  "golden scale coif",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Golden Scale Coif"
+ ]
+}

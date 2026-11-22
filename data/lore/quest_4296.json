@@ -1,0 +1,63 @@
+{
+ "key": "quest:4296",
+ "type": "quest",
+ "name": "Tablet of the Seven",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4296
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Maxwort Uberglint asks you to bring a tablet transcript to him in the Burning Steppes. The inscription calls for careful transcription.",
+ "sections": [
+  {
+   "title": "A tablet transcript",
+   "body": "Maxwort Uberglint is waiting in the Burning Steppes for the Tablet Transcript. You have found the tablet and made a transcription, and he praises your work. The transcript is what he asked you to bring.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for the Tablet Transcript?",
+   "aliases": [
+    "who wants the transcript",
+    "tablet transcript giver"
+   ],
+   "answer": "Maxwort Uberglint is waiting for the Tablet Transcript in the Burning Steppes."
+  },
+  {
+   "q": "What does Maxwort ask me to bring?",
+   "aliases": [
+    "what do i bring",
+    "tablet thing"
+   ],
+   "answer": "Maxwort asks you to bring the Tablet Transcript."
+  },
+  {
+   "q": "Where do I bring the Tablet Transcript?",
+   "aliases": [
+    "where is maxwort",
+    "transcript destination"
+   ],
+   "answer": "Bring the Tablet Transcript to Maxwort Uberglint in the Burning Steppes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning steppes",
+  "maxwort uberglint",
+  "tablet of the seven",
+  "tablet transcript",
+  "transcription"
+ ],
+ "related": [
+  "zone:burningsteppes"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tablet of the Seven"
+ ]
+}

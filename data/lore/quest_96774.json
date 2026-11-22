@@ -1,0 +1,88 @@
+{
+ "key": "quest:96774",
+ "type": "quest",
+ "name": "Ancient Gurubashi Idol",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96774
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mazu'kon seeks an Ancient Gurubashi Idol from the Drowned City. He wants it for academic study of the Gurubashi's blood magic.",
+ "sections": [
+  {
+   "title": "Mazu'kon's Request",
+   "body": "Mazu'kon wants you to search the Drowned City, which lies off the coast of Stranglethorn. The Gurubashi once used pure truesilver idols to channel their blood magic. He hopes to obtain one for his studies, and believes an impressive priest there may have it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the idol?",
+   "aliases": [
+    "who sent me",
+    "mazu'kon idol",
+    "who wants it"
+   ],
+   "answer": "Mazu'kon wants an Ancient Gurubashi Idol for academic study."
+  },
+  {
+   "q": "What is the Drowned City?",
+   "aliases": [
+    "drowned city",
+    "where is the city",
+    "city off stranglethorn"
+   ],
+   "answer": "The Drowned City lies in the ocean off the coast of Stranglethorn."
+  },
+  {
+   "q": "What did the Gurubashi use the idols for?",
+   "aliases": [
+    "gurubashi idol use",
+    "blood magic idol",
+    "what does the idol do"
+   ],
+   "answer": "The Gurubashi used pure truesilver idols to channel blood magic."
+  },
+  {
+   "q": "Why is Mazu'kon seeking an idol?",
+   "aliases": [
+    "mazu'kon reason",
+    "idol for academics",
+    "why find idol"
+   ],
+   "answer": "Mazu'kon wants an idol for academic study."
+  },
+  {
+   "q": "Where might the idol be found?",
+   "aliases": [
+    "who has idol",
+    "priest idol",
+    "idol location"
+   ],
+   "answer": "Mazu'kon believes an impressive-looking priest in the Drowned City may have the idol."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient gurubashi idol",
+  "blood magic",
+  "drowned city",
+  "gurubashi",
+  "mazu'kon",
+  "priest",
+  "stranglethorn",
+  "truesilver"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "quest:95775"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ancient Gurubashi Idol"
+ ]
+}

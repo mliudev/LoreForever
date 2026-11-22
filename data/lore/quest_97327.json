@@ -1,0 +1,82 @@
+{
+ "key": "quest:97327",
+ "type": "quest",
+ "name": "Blackmaw Pouches",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97327
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ekkal asks you to recover personal belongings from Blackmaw Hold for the families of those inside. The pouches will give their families something to remember them by.",
+ "sections": [
+  {
+   "title": "A Keepsake for Families",
+   "body": "At the Ruins of Eldarath in Azshara, Ekkal asks you to bring back Blackmaw Pouches from Blackmaw Hold. Ekkal says those within the hold are beyond saving, and hopes their belongings can give their families something to remember them by.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the pouches?",
+   "aliases": [
+    "who wants pouches",
+    "Ekkal pouches"
+   ],
+   "answer": "Ekkal asks you to recover Blackmaw Pouches for the families of those inside Blackmaw Hold."
+  },
+  {
+   "q": "Where do I bring the pouches?",
+   "aliases": [
+    "where to take pouches",
+    "pouches for Ekkal"
+   ],
+   "answer": "Bring the Blackmaw Pouches to Ekkal at the Ruins of Eldarath in Azshara."
+  },
+  {
+   "q": "Where are the Blackmaw Pouches?",
+   "aliases": [
+    "pouch location",
+    "where find pouches"
+   ],
+   "answer": "The pouches are inside Blackmaw Hold."
+  },
+  {
+   "q": "Why does Ekkal want the belongings?",
+   "aliases": [
+    "why pouches",
+    "what are pouches for"
+   ],
+   "answer": "Ekkal hopes the belongings will give the families something to remember their loved ones by."
+  },
+  {
+   "q": "Who is inside Blackmaw Hold?",
+   "aliases": [
+    "blackmaw hold people",
+    "who are Ekkal's kin"
+   ],
+   "answer": "Ekkal calls those inside Blackmaw Hold his brothers and sisters, and says they are irreparably corrupted."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "belongings",
+  "blackmaw hold",
+  "blackmaw pouches",
+  "ekkal",
+  "families",
+  "ruins of eldarath"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Blackmaw Pouches"
+ ]
+}

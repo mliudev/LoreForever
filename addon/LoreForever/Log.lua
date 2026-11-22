@@ -489,11 +489,118 @@ local function keeping() return not ns.Capture or ns.Capture.On() end
 local PARTS = { detail = { "title", "detail", "objectives" }, progress = { "title", "progress" },
   complete = { "title", "complete" } }
 
+-- Kept quest text is in the game's language when it was read: q.locale (LOR-1607). A player who switches the game
+-- from French to English sees only what was kept in English; the French words wait under q.was.frFR (never deleted)
+-- and come back if they switch back. Reading the quest again keeps it in the new language, all of its parts.
+local QUEST_WORDS = { "title", "text", "objectives", "progress", "completion", "zone" }
+
+function Log.ClientLocale()
+  local ok, l = pcall(function() return GetLocale and GetLocale() end)
+  l = ok and type(l) == "string" and l ~= "" and l or "enUS"
+  return l == "enGB" and "enUS" or l
+end
+
+-- Quest id's kept record when it's in the game's language now, or in no known one (kept before LOR-1607 and not
+-- placed, Log.PlaceQuestLanguages); its words set aside in this language when it's in another (a player back from
+-- English to French reads their French again); else nil. What every screen reads of kept quest text. Read only.
+function Log.KeptQuest(id)
+  local quests = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests
+  local q = quests and quests[id]
+  if type(q) ~= "table" then return nil end
+  local cur = Log.ClientLocale()
+  if q.locale == nil or q.locale == cur then return q end
+  local back = type(q.was) == "table" and type(q.was[cur]) == "table" and q.was[cur]
+  if not back then return nil end
+  local view = {}
+  for k, v in pairs(q) do view[k] = v end
+  for _, f in ipairs(QUEST_WORDS) do view[f] = back[f] end
+  view.was, view.locale = nil, cur
+  return view
+end
+
+-- The record to keep quest id's words in now: another language's words set aside, this language's back.
+local function inLanguage(id)
+  local q = LoreForeverDB.quests[id] or { id = id }
+  local cur = Log.ClientLocale()
+  if q.locale ~= nil and q.locale ~= cur then
+    local was = type(q.was) == "table" and q.was or {}
+    local away, back = {}, type(was[cur]) == "table" and was[cur] or {}
+    for _, f in ipairs(QUEST_WORDS) do away[f], q[f] = q[f], back[f] end
+    was[q.locale], was[cur] = away, nil
+    q.was = was
+  end
+  q.locale = cur
+  return q
+end
+
+local function lower(s) return ns.Engine and ns.Engine.lower(s) or s:lower() end
+-- A title with case, spaces and punctuation (straight or curly quotes and apostrophes) left out.
+local function plain(s)
+  return (lower(s):gsub("\226\128[\152-\159]", ""):gsub("[%s%p]", ""))
+end
+
+-- Whether kept record q was read in the game's language now: its title against the game's own for the quest, else,
+-- while the game and the lore are in English (a language pack renames the lore's), its title matching the lore's,
+-- else its zone against the lore's zone names (the game names zones in its language: "Marche de l'Ouest" is
+-- Westfall). nil with nothing to go by.
+local function inLanguageNow(id, q, cur)
+  local QL = _G.C_QuestLog
+  if type(q.title) == "string" and QL and QL.GetTitleForQuestID then
+    local ok, t = pcall(QL.GetTitleForQuestID, id)
+    if ok and type(t) == "string" and t ~= "" then return t == q.title end
+  end
+  if cur ~= "enUS" or (ns.readingLocale and ns.readingLocale ~= "enUS") then return nil end
+  local db = ns.DB
+  local idx = db and db.index
+  if not idx then return nil end
+  local key = idx.quest and idx.quest[id]
+  local e = key and db.entries[key]
+  -- The lore names some quests a little differently (`Wanted: "Hogger"` for the game's `WANTED: "Hogger"`): a title
+  -- that differs only in case, spaces or punctuation is the same. One that still differs is another language: the
+  -- zone can't say, since many are spelled the same in French (Durotar, Mulgore, Orgrimmar).
+  if type(q.title) == "string" and e and type(e.n) == "string" and plain(e.n) ~= "" then
+    return plain(e.n) == plain(q.title)
+  end
+  if type(q.zone) == "string" and q.zone ~= "" and idx.zone then   -- no lore page: the zone is all there is
+    local n = lower(q.zone)
+    return (idx.zone[n] or idx.zone[(n:gsub("^the ", ""))]) ~= nil
+  end
+  return nil
+end
+
+-- Quest text kept before LOR-1607 has no language. At login (Capture.Init, before it notes this one), when the game
+-- ran in another language here (prev: the one it last ran in; else any in the last 30 days' usage), place each such
+-- record by its title or zone (inLanguageNow). With nothing to go by, one kept in the language the game just left
+-- belongs to it; else it stays unplaced and shows as before.
+function Log.PlaceQuestLanguages(prev)
+  local quests = type(LoreForeverDB) == "table" and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests
+  if not quests then return end
+  local cur = Log.ClientLocale()
+  if prev == "enGB" then prev = "enUS" end
+  local left = type(prev) == "string" and prev ~= cur and prev or nil
+  local other = left
+  if not other then
+    for _, d in pairs(type(LoreForeverDB.usage) == "table" and LoreForeverDB.usage or {}) do
+      for l in pairs(type(d) == "table" and type(d.client) == "table" and d.client or {}) do
+        if l ~= cur and (other == nil or other == "other") then other = l end
+      end
+    end
+  end
+  if not other then return end
+  for id, q in pairs(quests) do
+    if type(q) == "table" and q.locale == nil then
+      local same = inLanguageNow(id, q, cur)
+      if same ~= nil then q.locale = same and cur or other
+      elseif left then q.locale = left end
+    end
+  end
+end
+
 function Log.QuestText(kind)
   if not keeping() then return end
   local id = GetQuestID and GetQuestID()
   if not id or id == 0 then return end
-  local q = LoreForeverDB.quests[id] or { id = id }
+  local q = inLanguage(id)
   q.title = (GetTitleText and GetTitleText()) or q.title
   if kind == "detail" then
     q.text = scrub(GetQuestText and GetQuestText()) or q.text
@@ -520,7 +627,7 @@ end
 -- Quest text read from the quest log (the panel shows it for quests without lore); keeps what QuestText missed.
 function Log.QuestFromLog(q, text, objectives)
   if not (q and q.id) or not keeping() then return end
-  local rec = LoreForeverDB.quests[q.id] or { id = q.id }
+  local rec = inLanguage(q.id)
   local had = { title = rec.title, detail = rec.text, objectives = rec.objectives }
   rec.title = rec.title or q.title
   rec.text = rec.text or scrub(text)

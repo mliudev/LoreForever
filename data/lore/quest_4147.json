@@ -1,0 +1,69 @@
+{
+ "key": "quest:4147",
+ "type": "quest",
+ "name": "Marvon's Workshop",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4147
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Marvon Rivetseeker's workshop is in Ratchet, but he has been away for a long time. He went to Tanaris to study ancient troll ruins.",
+ "sections": [
+  {
+   "title": "At the Workshop",
+   "body": "In Ratchet, Marvon Rivetseeker's workshop is where you are asked to go. Marvon has been gone for a long time, having traveled to Tanaris to study ancient troll ruins.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Marvon's workshop?",
+   "aliases": [
+    "marvon workshop location",
+    "where marvon work",
+    "ratchet workshop"
+   ],
+   "answer": "Marvon Rivetseeker's workshop is in Ratchet."
+  },
+  {
+   "q": "Where did Marvon go?",
+   "aliases": [
+    "marvon went where",
+    "where is marvon",
+    "marvon missing"
+   ],
+   "answer": "Marvon went to Tanaris to study ancient troll ruins."
+  },
+  {
+   "q": "What was Marvon studying?",
+   "aliases": [
+    "marvon studies what",
+    "troll ruins",
+    "ancient ruins"
+   ],
+   "answer": "Marvon went to Tanaris to study ancient troll ruins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient ruins",
+  "marvon rivetseeker",
+  "marvon's workshop",
+  "ratchet",
+  "tanaris",
+  "troll ruins"
+ ],
+ "related": [
+  "subzone:ratchet",
+  "zone:tanaris",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Marvon's Workshop"
+ ]
+}

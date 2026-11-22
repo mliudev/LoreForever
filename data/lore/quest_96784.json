@@ -1,0 +1,78 @@
+{
+ "key": "quest:96784",
+ "type": "quest",
+ "name": "Master of Disguise",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96784
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Myrokos sends you to Stromgarde Keep to learn about a secret Syndicate deal. A disguise may let you speak with the Syndicate members there.",
+ "sections": [
+  {
+   "title": "A Secret Deal",
+   "body": "Myrokos wants you to learn who among the Syndicate knows of an important deal at Stromgarde Keep. Disguised as one of their members, you can speak with them somewhat freely. The deal remains secret, and Myrokos needs someone inside the keep to uncover what is known.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Myrokos want me to find out?",
+   "aliases": [
+    "myrokos deal",
+    "what deal",
+    "syndicate deal"
+   ],
+   "answer": "Myrokos wants you to find someone in Stromgarde Keep who knows about an important secret deal involving the Syndicate."
+  },
+  {
+   "q": "Why am I wearing a disguise?",
+   "aliases": [
+    "why disguise",
+    "syndicate disguise",
+    "disguise quest"
+   ],
+   "answer": "Your disguise lets you speak with Syndicate members somewhat freely inside Stromgarde Keep."
+  },
+  {
+   "q": "Where do I look for someone who knows about the deal?",
+   "aliases": [
+    "where deal",
+    "stromgarde keep",
+    "find syndicate member"
+   ],
+   "answer": "You are looking for someone inside Stromgarde Keep who knows about the Syndicate's secret deal."
+  },
+  {
+   "q": "Who is Anastasia?",
+   "aliases": [
+    "anastasia",
+    "anastasia deal",
+    "who asks about deal"
+   ],
+   "answer": "Anastasia is the one who responds with suspicion when you mention the deal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "anastasia",
+  "disguise",
+  "master of disguise",
+  "myrokos",
+  "secret deal",
+  "stromgarde keep",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:stromgarde-keep",
+  "topic:syndicate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Master of Disguise"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "key": "quest:5527",
+ "type": "quest",
+ "name": "A Reliquary of Purity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5527
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Rabine Saturna in Nighthaven asks you to seek a Reliquary of Purity in Southwind Village. Bring it back to her if you find it.",
+ "sections": [
+  {
+   "title": "A Search in Silithus",
+   "body": "From Nighthaven in Moonglade, Rabine Saturna sends you to Silithus. Search the ruins of Southwind Village for a Reliquary of Purity, then bring it back to her if you find it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent me to find the reliquary?",
+   "aliases": [
+    "who sent me",
+    "rabine task",
+    "who wants it"
+   ],
+   "answer": "Rabine Saturna in Nighthaven asks you to search for the Reliquary of Purity."
+  },
+  {
+   "q": "Where should I look for the Reliquary of Purity?",
+   "aliases": [
+    "where reliquary",
+    "find purity thing",
+    "southwind reliquary"
+   ],
+   "answer": "Search for the Reliquary of Purity among the ruins of Southwind Village in Silithus."
+  },
+  {
+   "q": "Where do I take the reliquary?",
+   "aliases": [
+    "where bring it",
+    "return reliquary",
+    "take it to rabine"
+   ],
+   "answer": "If you find the Reliquary of Purity, bring it to Rabine Saturna in Nighthaven, Moonglade."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "moonglade",
+  "nighthaven",
+  "rabine saturna",
+  "reliquary of purity",
+  "search",
+  "silithus",
+  "southwind village"
+ ],
+ "related": [
+  "zone:silithus",
+  "subzone:southwind-village",
+  "subzone:nighthaven",
+  "quest:1123",
+  "quest:5921"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Reliquary of Purity"
+ ]
+}

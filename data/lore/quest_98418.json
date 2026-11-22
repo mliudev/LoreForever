@@ -1,0 +1,87 @@
+{
+ "key": "quest:98418",
+ "type": "quest",
+ "name": "Shared Fury",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98418
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Maseara Autumnmoon asks you to answer a growing demon threat in the forest. She believes quelling it may help an anguished soul.",
+ "sections": [
+  {
+   "title": "A Written Plea",
+   "body": "Kurothel's words reach Maseara Autumnmoon in Forest Song, where sightings of wolf-men have grown more common. Druids had been trying to speak with those who showed control over their animal instincts. Yet Kurothel's writing points to a struggle tied to demons and a burning transformation. Maseara asks you to confront the Xavian and its demonic forces, hoping that may help him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who wants help",
+    "who gave this",
+    "maseara autumnmoon"
+   ],
+   "answer": "Maseara Autumnmoon in Forest Song asks you to confront the Xavian and its demonic forces."
+  },
+  {
+   "q": "What are the wolf-men?",
+   "aliases": [
+    "wolf men",
+    "who are the wolf-men",
+    "wolf sightings"
+   ],
+   "answer": "They are described as members of a pack now seen in greater numbers in the forest."
+  },
+  {
+   "q": "What were the druids trying to do?",
+   "aliases": [
+    "druid communication",
+    "what were druids doing"
+   ],
+   "answer": "The druids were pursuing communication with those of the beast heart who showed measured control of their animal instincts."
+  },
+  {
+   "q": "Why does Maseara want the demons confronted?",
+   "aliases": [
+    "why fight demons",
+    "help him",
+    "what is the demon threat"
+   ],
+   "answer": "Maseara believes quelling the demon threat driving a burning transformation may help an anguished soul."
+  },
+  {
+   "q": "Where does Maseara wait?",
+   "aliases": [
+    "where is maseara",
+    "forest song"
+   ],
+   "answer": "Maseara Autumnmoon is in Forest Song."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demons",
+  "druids",
+  "forest song",
+  "kurothel",
+  "maseara autumnmoon",
+  "shared fury",
+  "wolf-men",
+  "xavian"
+ ],
+ "related": [
+  "subzone:forest-song",
+  "subzone:xavian",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shared Fury"
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "key": "quest:4521",
+ "type": "quest",
+ "name": "Wild Guardians",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4521
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Trull Failbane in Felwood asks you to deal with Raging and Ragged Owlbeasts. He wants fifteen of each killed.",
+ "sections": [
+  {
+   "title": "Owlbeasts in Felwood",
+   "body": "Trull Failbane asks for your help in Felwood. Raging Owlbeasts and Ragged Owlbeasts are the trouble he names, and he wants fifteen of each killed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who needs help",
+    "trull failbane"
+   ],
+   "answer": "Trull Failbane in Felwood asks you to kill Raging and Ragged Owlbeasts."
+  },
+  {
+   "q": "What does Trull want killed?",
+   "aliases": [
+    "which owlbeasts",
+    "owlbeast targets"
+   ],
+   "answer": "Trull wants fifteen Raging Owlbeasts and fifteen Ragged Owlbeasts killed."
+  },
+  {
+   "q": "Where does Trull Failbane want this done?",
+   "aliases": [
+    "where is wild guardians",
+    "where"
+   ],
+   "answer": "Trull Failbane is in Felwood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "felwood",
+  "owlbeasts",
+  "ragged owlbeasts",
+  "raging owlbeasts",
+  "trull failbane",
+  "wild guardians"
+ ],
+ "related": [
+  "zone:felwood"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wild Guardians"
+ ]
+}

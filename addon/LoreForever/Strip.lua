@@ -967,10 +967,11 @@ local function idlePage(payload)
   return spotPage(payload) or Strip.Purse()
 end
 
--- An ask's own pages are owed (Own.lua, LOR-1516): this ask started them and the sky is still up for it.
+-- An ask's own pages are owed (Own.lua, LOR-1516), or its bosses down (Down.lua, LOR-1468 P4c): this ask started them
+-- and the sky is still up for it.
 local ownTurn = 0
 local function owing()
-  return ns.Own and ns.Own.Pending() and Strip.Asking and Strip.Asking()
+  return ((ns.Own and ns.Own.Pending()) or (ns.Down and ns.Down.Pending())) and Strip.Asking and Strip.Asking()
 end
 
 local function ringPage(payload)
@@ -1036,7 +1037,9 @@ local function ringPage(payload)
   -- get read for a question about them.
   if ring == nil and owing() then
     ownTurn = (ownTurn + 1) % 3
-    local p = ownTurn ~= 0 and ns.Own.Next() or idlePage(payload)
+    -- The bosses down first (at most 9 pages): behind a deep bag's own pages they missed the sky (the hold on #4824).
+    local p = ownTurn ~= 0 and ((ns.Down and ns.Down.Pending() and ns.Down.Next()) or (ns.Own and ns.Own.Pending() and ns.Own.Next()))
+      or idlePage(payload)
     if p then return p end
   end
   if ring == nil then return idlePage(payload) end
@@ -1056,7 +1059,8 @@ local function ringFor(payload)
   local t = now()
   if heldPage and t < heldUntil then return heldPage end
   local page = ringPage(payload)
-  local own = page and page[1] >= 0xD8 and page[1] <= 0xDB   -- kind 3, low bits 24-27: an own page (the last too)
+  -- kind 3, low bits 24-27: an own page (the last too); 29, a boss down (Down.lua)
+  local own = page and ((page[1] >= 0xD8 and page[1] <= 0xDB) or page[1] == 0xDD)
   if owing() or own then
     heldPage, heldUntil, ownAt = page, t + OWN_HOLD, t + OWN_HOLD
   else
@@ -1095,6 +1099,23 @@ function Strip.SetRing(bytes)
 end
 
 local questsGo
+
+-- Past QUEST_RUN pages waiting: a plan step's page goes first (it only rides, so it never pushes out a page that shows
+-- on its own), then the oldest that isn't a boss's kill page (a burst of rolls while a fight goes on mustn't drop the
+-- kill it belongs to: the Architect's review of #4684). One rule for a new page, a cut show and its retry (#4731).
+local function trimQuests()
+  while #quests > QUEST_RUN do
+    local drop
+    for i, q in ipairs(quests) do if q.ride then drop = i; break end end
+    if not drop then
+      drop = 1
+      for i, q in ipairs(quests) do
+        if not (q.page[2] >= 0x70 and q.page[2] < 0x80) then drop = i; break end
+      end
+    end
+    table.remove(quests, drop)
+  end
+end
 local function endMoment(m, cut)
   if moment ~= m then return end
   moment, identityTurn = nil, 7
@@ -1102,8 +1123,11 @@ local function endMoment(m, cut)
   if cut and m.aborted then pcall(m.aborted) end
   -- Quest pages it carried, stopped before they were all up: they wait again (Willo takes a page once a minute).
   if cut and m.tail then
-    for i = #m.tail, 1, -1 do table.insert(quests, 1, { page = m.tail[i], at = now() }) end
-    while #quests > QUEST_RUN do table.remove(quests, 1) end
+    -- A plan step's page keeps its ride mark: it never brings a hidden sky up on its own (QA line 42b).
+    for i = #m.tail, 1, -1 do
+      table.insert(quests, 1, { page = m.tail[i], at = now(), ride = m.rides and m.rides[i] or nil })
+    end
+    trimQuests()
   end
   Strip.Update()
   if #quests > 0 then questsGo(true) end
@@ -1127,9 +1151,9 @@ end
 local function ride(m)
   local n = room(m)
   if #quests == 0 or n <= 0 then return end
-  m.tail = m.tail or {}
+  m.tail, m.rides = m.tail or {}, m.rides or {}
   while #quests > n do table.remove(quests, 1) end     -- past QUEST_RUN: the oldest go (the save still ticks them)
-  for _, q in ipairs(quests) do m.tail[#m.tail + 1] = q.page end
+  for _, q in ipairs(quests) do m.tail[#m.tail + 1] = q.page; m.rides[#m.tail] = q.ride end
   quests = {}
   m.till = math.max(m.till, m.body + #m.tail * QUEST_SHOW)
 end
@@ -1158,15 +1182,19 @@ function Strip.QuestsFromWillo()
   return type(data) == "table" and data.skyQuests == true
 end
 
--- Whether this quest is on one of the playing character's prep lists, as Willo last wrote them (prepQuests).
+-- Whether this quest is on one of the playing character's prep lists ("prep"), or only a step of one of their quest
+-- plans ("plan", LOR-1546 piece 4), as Willo last wrote them (prepQuests, planQuests); nil for neither.
 local function onAList(id)
   local data = Strip.FromWilloLately()
-  local lists = type(data) == "table" and data.prepQuests
-  local key = type(lists) == "table" and ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()
-  local ids = type(key) == "string" and lists[key]
-  if type(ids) ~= "table" then return false end
-  for _, q in ipairs(ids) do if q == id then return true end end
-  return false
+  local key = type(data) == "table" and ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()
+  if type(key) ~= "string" then return nil end
+  for _, k in ipairs({ { "prepQuests", "prep" }, { "planQuests", "plan" } }) do
+    local ids = type(data[k[1]]) == "table" and data[k[1]][key]
+    if type(ids) == "table" then
+      for _, q in ipairs(ids) do if q == id then return k[2] end end
+    end
+  end
+  return nil
 end
 
 -- Why a quest's own show can't go now: a moment's reasons (Moments.Held), but a narration or Willo's answer, which
@@ -1188,6 +1216,13 @@ function questsGo(due)
   local t = now()
   for i = #quests, 1, -1 do if t - quests[i].at > QUEST_WAIT then table.remove(quests, i) end end
   if #quests == 0 or not (Strip.On() and Strip.QuestsFromWillo()) then quests = {}; return end
+  -- A plan step's page (ride) never brings the sky up for a player who keeps it hidden until needed: alone, with the sky
+  -- down, it goes, and the step ticks at the next save (the Design Lead, LOR-1546 piece 4). With a prep page it rides.
+  if not Strip.Showing() then
+    local own = false
+    for _, q in ipairs(quests) do if not q.ride then own = true; break end end
+    if not own then quests = {}; return end
+  end
   if moment then
     if room(moment) > 0 then return ride(moment) end
     return questLater(QUEST_RETRY)                     -- full or fading out: the next show
@@ -1197,8 +1232,8 @@ function questsGo(due)
   for i = 1, #quests do pages[i] = quests[i].page end
   quests = {}
   local function again()
-    for i = #pages, 1, -1 do table.insert(quests, 1, { page = pages[i], at = now() }) end
-    while #quests > QUEST_RUN do table.remove(quests, 1) end
+    for i = #was, 1, -1 do table.insert(quests, 1, { page = was[i].page, at = now(), ride = was[i].ride }) end
+    trimQuests()
   end
   if not Strip.Moment(pages, questHeld, again, true) then
     quests = was
@@ -1207,13 +1242,16 @@ function questsGo(due)
 end
 
 -- A page of kind 3 low 28 waiting for a show: event << 28 | id. due: a show of its own now, not after QUEST_GATHER.
-local function listPage(event, id, due)
+-- ride: only on a sky that's up (questsGo).
+local function listPage(event, id, due, ride)
   local v = event * 268435456 + math.floor(id)
   local page = { 0xDC, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }
   local key = table.concat(page, ":")
   for _, q in ipairs(quests) do if table.concat(q.page, ":") == key then return end end
-  quests[#quests + 1] = { page = page, at = now() }
-  while #quests > QUEST_RUN do table.remove(quests, 1) end
+  quests[#quests + 1] = { page = page, at = now(), ride = ride or nil }
+  -- Past QUEST_RUN the oldest goes, but a boss's kill page (event 7) outlasts the loot and rolls after it: a burst of
+  -- rolls while a fight goes on mustn't drop the kill it belongs to (the Architect's review of #4684).
+  trimQuests()
   questsGo(due)
 end
 
@@ -1221,8 +1259,9 @@ end
 function Strip.QuestPage(event, id)
   id = tonumber(id)
   if not (id and id > 0 and id <= 0xFFFFFF and (event == 1 or event == 2 or event == 3)) then return end
-  if not (Strip.On() and Strip.QuestsFromWillo() and onAList(id)) then return end
-  listPage(event, id, false)
+  local list = onAList(id)
+  if not (Strip.On() and Strip.QuestsFromWillo() and list) then return end
+  listPage(event, id, false, list == "plan")
 end
 
 -- The run's done (LOR-1468 3b-3; docs/qa/dungeon-prep.md lines 47, 52, 53): a dungeon's last boss down (Moments.Final),
@@ -1245,6 +1284,113 @@ function Strip.FinishedPage(name)
       return listPage(5, id == 0 and 1 or id, true)
     end
   end
+end
+
+-- After a boss (LOR-1468 P4; docs/qa/dungeon-guide.md lines 70-79; ~/handoffs/dungeon-guide-p4-build-plan-2026-11-19.md):
+-- inside a dungeon or raid, from a Willo that reads these pages (skyKills), the add-on tells her what happened at a
+-- boss this character has a reminder for, as quest pages. Only for those (the Architect's review: the sky only when
+-- needed, LOR-1126): Willo writes each character's boss reminders as skyBosses = {["Name-Realm"] = {kills = {encounter
+-- ids}, items = {item ids wanted}}}, read as quest pages read prepQuests (a reminder set since the add-on loaded counts
+-- from the next save or a /reload). Event 7, a listed boss killed (a successful ENCOUNTER_END's encounter id,
+-- DungeonEncounter's, the same in every language: a name hashes differently on a German client); then for
+-- kills.WINDOW seconds in that dungeon, event 8, a wanted item they looted, and event 9, a wanted item that dropped for
+-- the group (START_LOOT_ROLL; never who rolled or won). Mid-fight they wait, as every quest page does. The events come through World.lua's one listener (World.Listen). (In a block of its
+-- own: Strip.lua's main chunk is at Lua's 200 locals.)
+do
+-- untilT: the loot window's end, kills.WINDOW after the kill, after the fight's end when one went on past it, and past
+-- a wanted item's roll (its own time and a beat), so a roll won late still sends its loot (the Architect's hold on #4699).
+local kills = { WINDOW = 120, ROLL_BEAT = 15, untilT = nil, inst = nil, patterns = nil }
+
+function Strip.KillsFromWillo()
+  local data = Strip.FromWilloLately()
+  return type(data) == "table" and data.skyKills == true
+end
+
+-- This character's boss reminders as Willo last wrote them: {kills = {encounter ids}, items = {item ids}}, else nil.
+function kills.watch()
+  local data = Strip.FromWilloLately()
+  local all = type(data) == "table" and data.skyBosses
+  local key = type(all) == "table" and ns.Journey and ns.Journey.CharKey and ns.Journey.CharKey()
+  local w = type(key) == "string" and all[key]
+  return type(w) == "table" and type(w.kills) == "table" and type(w.items) == "table" and w or nil
+end
+
+function kills.listed(list, id)
+  for _, v in ipairs(list) do if v == id then return true end end
+  return false
+end
+
+-- The dungeon or raid they're in (its map id), else nil.
+function kills.here()
+  if not (Strip.On() and Strip.KillsFromWillo()) then return nil end
+  local okIn, inInst, kind = pcall(IsInInstance)
+  if not (okIn and inInst and (kind == "party" or kind == "raid")) then return nil end
+  return tonumber((select(9, pcall(GetInstanceInfo))))
+end
+
+-- An item link's id (the first link in a loot line), when this character wants it; else nil.
+function kills.item(link)
+  local id = type(link) == "string" and tonumber(link:match("|Hitem:(%d+)"))
+  local w = id and kills.watch()
+  return w and kills.listed(w.items, id) and id or nil
+end
+
+function kills.open()
+  return kills.untilT ~= nil and now() <= kills.untilT and kills.inst ~= nil and kills.inst == kills.here()
+end
+
+function kills.extend(to)
+  if kills.untilT and to > kills.untilT then kills.untilT = to end
+end
+
+-- "You receive loot: %s." in the client's own words (LOOT_ITEM_SELF and its multiple form), never another's loot.
+function kills.mine(msg)
+  if not kills.patterns then
+    kills.patterns = {}
+    for _, g in ipairs({ "LOOT_ITEM_SELF_MULTIPLE", "LOOT_ITEM_SELF" }) do
+      local fmt = _G[g]
+      if type(fmt) == "string" then
+        fmt = fmt:gsub("%%%d%$", "%%"):gsub("%%s", "\1"):gsub("%%d", "\2"):gsub("%p", "%%%0")
+        kills.patterns[#kills.patterns + 1] = "^" .. fmt:gsub("\1", ".+"):gsub("\2", "%%d+")
+      end
+    end
+  end
+  for _, p in ipairs(kills.patterns) do
+    if msg:match(p) then return true end
+  end
+  return false
+end
+
+kills.handlers = {
+  ENCOUNTER_END = function(encounter, _, _, _, success)
+    local id = ns.Context.Usable(encounter) and tonumber(encounter)
+    if not ((success == 1 or success == true) and id and id > 0 and id <= 0xFFFFFF) then return end
+    local inst = kills.here()
+    local w = inst and kills.watch()
+    if not (w and kills.listed(w.kills, id)) then return end
+    kills.untilT, kills.inst = now() + kills.WINDOW, inst
+    listPage(7, id, true)
+  end,
+  PLAYER_REGEN_ENABLED = function()
+    if kills.open() then kills.extend(now() + kills.WINDOW) end
+  end,
+  CHAT_MSG_LOOT = function(msg)
+    if not (type(msg) == "string" and ns.Context.Usable(msg) and kills.open() and kills.mine(msg)) then return end
+    local id = kills.item(msg)
+    if id then listPage(8, id, true) end
+  end,
+  START_LOOT_ROLL = function(rollID, rollTime)
+    if not kills.open() then return end
+    local id = kills.item(try(GetLootRollItemLink, rollID))
+    if not id then return end
+    local secs = tonumber(rollTime)
+    kills.extend(now() + (secs and secs > 0 and math.min(secs / 1000, 300) or 60) + kills.ROLL_BEAT)
+    listPage(9, id, true)
+  end,
+}
+if ns.World and ns.World.Listen then
+  for e, fn in pairs(kills.handlers) do ns.World.Listen(e, fn) end
+end
 end
 
 -- Whether the Willo on this PC takes a pin cleared here off her card at once (LoreForeverJourneyData.skyPins).
@@ -1651,6 +1797,8 @@ function Strip.Ask(down, talkKey)
   if ns.Voice and ns.Voice.OnWilloAsked then pcall(ns.Voice.OnWilloAsked, down, keep) end
   -- This ask's own pages (Own.lua, LOR-1516), for a Willo that reads them.
   if down and ns.Own and ns.Own.FromWillo() then pcall(ns.Own.Start) end
+  -- And the bosses down this run, inside a dungeon or raid (Down.lua, LOR-1468 P4c).
+  if down and ns.Down then pcall(ns.Down.Start) end
   -- Talked to her: a pin she makes reaches the maps without a /reload (PinsLive, LOR-1292).
   if not down and ns.PinsLive then pcall(ns.PinsLive.Talked) end
   if C_Timer and C_Timer.After then C_Timer.After((keep or (down and ASK_MAX or ASK_AFTER)) + 0.05, Strip.Update) end

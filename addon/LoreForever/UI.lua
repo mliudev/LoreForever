@@ -3646,7 +3646,7 @@ end
 local function questName(qid, key)
   local e = key and UI.engine.db.entries[key]
   if e then return e.n end
-  local kept = LoreForeverDB and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests[qid]
+  local kept = ns.Log.KeptQuest(qid)
   if type(kept) == "table" and type(kept.title) == "string" and kept.title ~= "" then return kept.title end
   local QL = _G.C_QuestLog
   local ok, t = false, nil
@@ -6438,7 +6438,7 @@ function UI.QuestPageText(qid, kind)
     local desc, obj, sure = logText(qid)
     if sure and type(desc) == "string" and desc ~= "" then return desc .. " " .. (obj or "") end
   end
-  local q = LoreForeverDB and LoreForeverDB.quests and LoreForeverDB.quests[qid]
+  local q = ns.Log.KeptQuest(qid)
   local field = ({ detail = "text", progress = "progress", complete = "completion" })[kind]
   local text = q and field and q[field]
   if type(text) == "string" and ns.Voice.QuestClip(qid, kind, text, false, true) then return text end
@@ -6474,7 +6474,7 @@ end
 -- The quest log's own text for a quest (and remember it for the harvest, so it can become lore later).
 local function questLogText(q)
   local desc, obj = logText(q.id)
-  local saved = LoreForeverDB and LoreForeverDB.quests and LoreForeverDB.quests[q.id]
+  local saved = ns.Log.KeptQuest(q.id)
   desc = (desc and desc ~= "" and desc) or (saved and saved.text)
   obj = (obj and obj ~= "" and obj) or (saved and saved.objectives) or table.concat(q.objectives or {}, "\n")
   if desc and ns.Log.QuestFromLog then ns.Log.QuestFromLog(q, desc, obj) end

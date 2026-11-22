@@ -1,0 +1,77 @@
+{
+ "key": "quest:93604",
+ "type": "quest",
+ "name": "Agamaggan's Blood",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93604
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kog'thug the Brave wants a particular blood sample from Razorfen Downs. The blood he seeks is distinct from the kind found in Razorfen Kraul.",
+ "sections": [
+  {
+   "title": "A Different Sample",
+   "body": "At Bristleback Retreat in Desolace, Kog'thug the Brave asks you to bring him Virulent Blood of Agamaggan from Razorfen Downs. The blood in Razorfen Kraul will not do; he needs the sample from the Downs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kog'thug want?",
+   "aliases": [
+    "kogthug wants",
+    "what blood does he need"
+   ],
+   "answer": "Kog'thug the Brave asks you to obtain Virulent Blood of Agamaggan from Razorfen Downs."
+  },
+  {
+   "q": "Where do I find the blood?",
+   "aliases": [
+    "where blood",
+    "agamaggan blood location"
+   ],
+   "answer": "The requested Virulent Blood of Agamaggan is in Razorfen Downs."
+  },
+  {
+   "q": "Will the blood from Razorfen Kraul work?",
+   "aliases": [
+    "razorfen kraul blood",
+    "wrong agamaggan blood"
+   ],
+   "answer": "No. Kog'thug says the Blood of Agamaggan in Razorfen Kraul is not sufficient."
+  },
+  {
+   "q": "Who is asking for the blood?",
+   "aliases": [
+    "who wants it",
+    "kogthug quest"
+   ],
+   "answer": "Kog'thug the Brave at Bristleback Retreat in Desolace asks for the blood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agamaggan",
+  "agamaggan's blood",
+  "bristleback retreat",
+  "desolace",
+  "kog'thug",
+  "razorfen downs",
+  "razorfen kraul",
+  "virulent blood"
+ ],
+ "related": [
+  "topic:agamaggan",
+  "zone:desolace",
+  "subzone:razorfen-downs-classic",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Agamaggan's Blood"
+ ]
+}
