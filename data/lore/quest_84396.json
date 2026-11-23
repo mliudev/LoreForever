@@ -1,0 +1,69 @@
+{
+ "key": "quest:84396",
+ "type": "quest",
+ "name": "Magma or Lava?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   84396
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "magma or lava library",
+    "where to bring magical works",
+    "stormwind library book"
+   ],
+   "answer": "Jennea Cannon in Stormwind's Mage Quarter gathers magical works to expand the library's collection.",
+   "q": "Who wants magical works in the library?"
+  },
+  {
+   "aliases": [
+    "what does the library need",
+    "what do they collect"
+   ],
+   "answer": "The collection grows whenever travelers deliver magical writings and records to the library.",
+   "q": "What is being gathered for the collection?"
+  },
+  {
+   "aliases": [
+    "why bring books to library",
+    "magma or lava purpose"
+   ],
+   "answer": "Jennea Cannon welcomes magical writings from travelers so the sanctum's knowledge continues to grow.",
+   "q": "Why does the Library seek these writings?"
+  }
+ ],
+ "keywords": [
+  "arcane",
+  "collection",
+  "jennea cannon",
+  "library",
+  "mage quarter",
+  "magical works",
+  "magma or lava",
+  "stormwind"
+ ],
+ "related": [
+  "npc:jennea-cannon",
+  "subzone:mage-quarter",
+  "zone:stormwind"
+ ],
+ "sections": [
+  {
+   "body": "At the Wizard's Sanctum in Stormwind's Mage Quarter, Jennea Cannon builds a growing archive of arcane study. When your travels turn up magical works, she asks you to bring those writings to her for the library. Every new text adds to what the sanctum's scholars know of the world.",
+   "spoiler": 0,
+   "title": "Pages for the Shelves"
+  }
+ ],
+ "summary": "Jennea Cannon seeks magical works to expand the library in Stormwind's Mage Quarter. Bringing new writings to her collection enriches the city's store of arcane knowledge.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Magma or Lava?"
+ ]
+}

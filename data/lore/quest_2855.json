@@ -1,0 +1,66 @@
+{
+ "key": "quest:2855",
+ "type": "quest",
+ "name": "Wild Leather Shoulders",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2855
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives wild leather shoulders",
+    "jangdor swiftstrider quest",
+    "who needs thick armor kits camp mojache"
+   ],
+   "answer": "Jangdor Swiftstrider seeks the materials in Camp Mojache.",
+   "q": "Who wants the Wild Leather Shoulders supplies?"
+  },
+  {
+   "aliases": [
+    "jangdor swiftstrider location",
+    "where is jangdor",
+    "camp mojache leatherworker"
+   ],
+   "answer": "Jangdor Swiftstrider stays in Camp Mojache.",
+   "q": "Where is Jangdor Swiftstrider?"
+  },
+  {
+   "aliases": [
+    "wild leather shoulders materials",
+    "thick armor kits needed",
+    "what does jangdor need"
+   ],
+   "answer": "He needs six thick armor kits and one wildvine.",
+   "q": "What items does Jangdor Swiftstrider need?"
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "jangdor swiftstrider",
+  "thick armor kit",
+  "wild leather shoulders",
+  "wildvine"
+ ],
+ "related": [
+  "subzone:camp-mojache"
+ ],
+ "sections": [
+  {
+   "body": "Jangdor Swiftstrider makes his camp among the Horde in Camp Mojache. To craft Wild Leather Shoulders, he requires six thick armor kits and a single wildvine brought directly to him.",
+   "spoiler": 0,
+   "title": "Supplies for Jangdor"
+  }
+ ],
+ "summary": "In Camp Mojache, Jangdor Swiftstrider seeks supplies to craft Wild Leather Shoulders. He needs six thick armor kits and a wildvine brought to his workshop.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wild Leather Shoulders"
+ ]
+}

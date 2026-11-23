@@ -1,0 +1,93 @@
+{
+ "key": "quest:93188",
+ "type": "quest",
+ "name": "Return to Orgrul",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93188
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Magram front no longer needs you on its lines, and Orgrul awaits your report. The clan's next move depends on the fighters still to come.",
+ "sections": [
+  {
+   "title": "Back to Orgrul",
+   "body": "The Magram front says it can manage without you and sends you back to Orgrul near the northern entrance to the Valley of Bones. The front has grown stronger and looks toward a new settlement, with more fighters expected to join.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Opening",
+   "body": "During your absence, an act of war struck Magram Village, and Orgrul names it an outsider's work beneath the Gelkis banner. He says the Magram might once have demanded your execution, but sees an opportunity in what has happened\u2014for you, the clan, and the war.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I going back to Orgrul?",
+   "aliases": [
+    "return to orgrul",
+    "orgrul report",
+    "why back to orgrul"
+   ],
+   "answer": "The Magram front says it can manage without you and asks you to report to Orgrul near the northern entrance to the Valley of Bones."
+  },
+  {
+   "q": "Where is Orgrul waiting?",
+   "aliases": [
+    "orgrul location",
+    "where orgrul",
+    "orgrul valley bones"
+   ],
+   "answer": "Orgrul is near the northern entrance to the Valley of Bones."
+  },
+  {
+   "q": "What is the Magram front planning?",
+   "aliases": [
+    "magram next settlement",
+    "magram front plans",
+    "where magram going"
+   ],
+   "answer": "The Magram have their sights on the outcast encampment as their next settlement, once another fleet of fighters joins them."
+  },
+  {
+   "q": "What happened in Magram Village?",
+   "aliases": [
+    "magram village incident",
+    "what happened village",
+    "gelkis act of war"
+   ],
+   "answer": "During your absence, an outsider fighting under the Gelkis banner carried out an act of war in Magram Village."
+  },
+  {
+   "q": "Why does Orgrul call it an opportunity?",
+   "aliases": [
+    "orgrul opportunity",
+    "what opportunity",
+    "why opportunity"
+   ],
+   "answer": "Orgrul sees what happened as an opening for you, the Magram, and the war."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gelkis",
+  "magram",
+  "magram front",
+  "magram village",
+  "orgrul",
+  "outcast encampment",
+  "outsider",
+  "valley of bones"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "subzone:valley-of-bones"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Return to Orgrul"
+ ]
+}

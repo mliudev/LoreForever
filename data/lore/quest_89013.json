@@ -1,0 +1,81 @@
+{
+ "key": "quest:89013",
+ "type": "quest",
+ "name": "Gettin' Buzzed",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   89013
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Berdun needs wild honey for the mead at the travel lodge, and asks you to gather it from wasp nests. He lends you a pellet gun to bring down the hives.",
+ "sections": [
+  {
+   "title": "Honey for Mead",
+   "body": "Berdun brews mead for the travel lodge, but he is too old to gather honey himself. You can find wasp nests in trees north of the Haldaar camp and west of Valormok. Hippogryphs mark the right place. Berdun lends you a pellet gun to knock down the hives and collect their honey.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the honey?",
+   "aliases": [
+    "who wants honey",
+    "Berdun honey"
+   ],
+   "answer": "Berdun needs wild honey for the mead he brews at the travel lodge."
+  },
+  {
+   "q": "Where are the wasp nests?",
+   "aliases": [
+    "where hives",
+    "honey location"
+   ],
+   "answer": "The wasp nests are in trees north of the Haldaar camp and west of Valormok. If you see hippogryphs, you are in the right place."
+  },
+  {
+   "q": "Why does Berdun need help gathering honey?",
+   "aliases": [
+    "why help Berdun",
+    "Berdun too old"
+   ],
+   "answer": "Berdun says he is getting on in years and cannot gather the honey himself."
+  },
+  {
+   "q": "What does Berdun lend me?",
+   "aliases": [
+    "pellet gun",
+    "how knock down hives"
+   ],
+   "answer": "Berdun lends you a pellet gun to knock down the hives."
+  },
+  {
+   "q": "What is the honey for?",
+   "aliases": [
+    "wild honey purpose",
+    "mead honey"
+   ],
+   "answer": "Berdun uses honey to brew mead for the travel lodge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "berdun",
+  "gettin' buzzed",
+  "mead",
+  "pellet gun",
+  "valormok",
+  "wasp nests",
+  "wild honey"
+ ],
+ "related": [
+  "subzone:valormok"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gettin' Buzzed"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "quest:93196",
+ "type": "quest",
+ "name": "Khan Jehn",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93196
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Orgrul asks you to help restore Khan Jehn, the Magram Clan's slain leader. Your standing with the clan and a ritual at Magram Village's central lake are at stake.",
+ "sections": [
+  {
+   "title": "A Clan's Leader",
+   "body": "Khan Jehn, leader of the Magram Clan, was slain by outsiders acting for the Gelkis Clan. Orgrul says the attack came while the Magram were occupied, a strategy he expects from the Gelkis. He gives you a familiar weapon, now imbued with greater power, and asks you to keep the Magram's trust while performing a necromancy ritual at a tent by the village's central lake.",
+   "spoiler": 0
+  },
+  {
+   "title": "Among the Magram",
+   "body": "At Magram Village, you carry out the ritual and maintain your standing with the clan. Orgrul recognizes your loyalty and potential, despite your status as an outsider. The Magram accept you as one of their own.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Khan Jehn?",
+   "aliases": [
+    "khan jehn",
+    "magram leader",
+    "who is jehn"
+   ],
+   "answer": "Khan Jehn was the leader of the Magram Clan before outsiders acting for the Gelkis Clan slew him."
+  },
+  {
+   "q": "Who asks me to help Khan Jehn?",
+   "aliases": [
+    "who gives khan jehn",
+    "orgrul quest",
+    "magram asks"
+   ],
+   "answer": "Orgrul asks you to help restore Khan Jehn."
+  },
+  {
+   "q": "Why was Khan Jehn slain?",
+   "aliases": [
+    "why jehn killed",
+    "gelkis attack",
+    "who killed khan jehn"
+   ],
+   "answer": "Outsiders acting on behalf of the Gelkis Clan slew Khan Jehn while the Magram were occupied."
+  },
+  {
+   "q": "Where is the ritual site?",
+   "aliases": [
+    "ritual location",
+    "where resurrect jehn",
+    "magram lake tent"
+   ],
+   "answer": "The ritual site is in a tent at the central lake of Magram Village."
+  },
+  {
+   "q": "What does Orgrul give me?",
+   "aliases": [
+    "weapon from orgrul",
+    "familiar weapon",
+    "powered weapon"
+   ],
+   "answer": "Orgrul gives you a familiar weapon imbued with greater power than before."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "central lake",
+  "gelkis clan",
+  "khan jehn",
+  "magram clan",
+  "magram village",
+  "necromancy",
+  "orgrul",
+  "resurrection"
+ ],
+ "related": [
+  "quest:1374",
+  "subzone:magram-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Khan Jehn"
+ ]
+}

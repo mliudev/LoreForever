@@ -1,0 +1,88 @@
+{
+ "key": "quest:92743",
+ "type": "quest",
+ "name": "A Conqueror's Crown",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92743
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Warug wants a Conqueror\u2019s Crown from a crypt in the Badlands for the Magram. In return, he promises to reveal the clan\u2019s greatest strength.",
+ "sections": [
+  {
+   "title": "Warug\u2019s Demand",
+   "body": "Warug seeks a crown for the Magram in Magram Village. He says the strongest centaur clan deserves armaments equal to its might, and names the Badlands as the place to search. You are to bring the crown back while keeping your standing with the Magram; Warug has promised a revelation in return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Conqueror\u2019s Crown?",
+   "aliases": [
+    "who wants crown",
+    "Warug crown",
+    "crown for Magram"
+   ],
+   "answer": "Warug in Magram Village wants the Conqueror\u2019s Crown for the Magram."
+  },
+  {
+   "q": "Where is the crown said to be?",
+   "aliases": [
+    "crown location",
+    "where crown",
+    "Badlands crypt"
+   ],
+   "answer": "Warug says to search a crypt in the Badlands."
+  },
+  {
+   "q": "Why does Warug want a crown?",
+   "aliases": [
+    "why crown",
+    "Magram armaments",
+    "what Warug wants"
+   ],
+   "answer": "Warug says the strongest centaur clan deserves armaments as fierce as its strength, and that he needs the crown most of all."
+  },
+  {
+   "q": "What does Warug promise in return?",
+   "aliases": [
+    "Warug promise",
+    "Magram strength",
+    "what will he reveal"
+   ],
+   "answer": "Warug promises to reveal the Magram\u2019s greatest strength."
+  },
+  {
+   "q": "What must I maintain while seeking the crown?",
+   "aliases": [
+    "keep reputation",
+    "Magram standing",
+    "reputation crown"
+   ],
+   "answer": "You need to maintain your reputation with the Magram while seeking the crown."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badlands",
+  "centaur",
+  "conqueror\u2019s crown",
+  "crypt",
+  "magram",
+  "magram village",
+  "reputation",
+  "warug"
+ ],
+ "related": [
+  "zone:badlands",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Conqueror's Crown"
+ ]
+}

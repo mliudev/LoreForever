@@ -1,0 +1,64 @@
+{
+ "key": "quest:94259",
+ "type": "quest",
+ "name": "Craftsman's Writ: Nature Protection Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94259
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what does the writ ask for",
+    "nature protection potion order",
+    "what item is needed"
+   ],
+   "answer": "The note requests a single Nature Protection Potion alongside delivery details and payment terms.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "can anyone turn this in",
+    "who can fulfill the writ",
+    "is the order transferable"
+   ],
+   "answer": "The text marks the agreement as transferable, allowing anyone holding the document to deliver the potion and collect the payment.",
+   "q": "Can someone else fulfill this writ?"
+  },
+  {
+   "aliases": [
+    "what is needed for the exchange",
+    "do i need to keep the note"
+   ],
+   "answer": "You must carry the document with you to verify the transaction when handing over the requested potion.",
+   "q": "Why must the writ be kept?"
+  }
+ ],
+ "keywords": [
+  "craftsman writ",
+  "delivery",
+  "nature protection potion",
+  "order",
+  "potion",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A faded note places an order for a single Nature Protection Potion, outlining where the draught must travel and what the buyer will pay. The parchment marks the agreement as transferable to whoever holds it, so long as the paper accompanies the delivery.",
+   "spoiler": 0,
+   "title": "An Open Order"
+  }
+ ],
+ "summary": "A transferable work order calls for a single Nature Protection Potion to be brought to a marked destination. You hold the customer's terms in hand, promising payment once the draught arrives alongside the parchment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Nature Protection Potion"
+ ]
+}

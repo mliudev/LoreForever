@@ -10,11 +10,11 @@
    "quest:6142"
   ]
  },
- "summary": "Soft-Shelled Clam Meat makes tempting bait for the fish near Shadowprey Village. Mai'Lahii asks you to bring him some from the wrecked ship to the north.",
+ "summary": "Soft-Shelled Clam Meat makes tempting bait for the fish near Shadowprey Village. Mai'Lahii asks you to bring her some from the wrecked ship to the north.",
  "sections": [
   {
    "title": "Bait for Mai'Lahii",
-   "body": "Mai'Lahii at Shadowprey Village favors soft-shelled clam meat for fishing. He says the fish cannot resist it, and asks you to bring him ten pieces from the clams near the wrecked ship north of the village.",
+   "body": "Mai'Lahii at Shadowprey Village favors soft-shelled clam meat for fishing. She says the fish cannot resist it, and asks you to bring her ten pieces from the clams near the wrecked ship north of the village.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "Mai'Lahii bait",
     "who needs clams"
    ],
-   "answer": "Mai'Lahii at Shadowprey Village asks you to bring him ten pieces of soft-shelled clam meat."
+   "answer": "Mai'Lahii at Shadowprey Village asks you to bring her ten pieces of soft-shelled clam meat."
   },
   {
    "q": "Why does Mai'Lahii want to go fishing?",
@@ -53,7 +53,7 @@
     "why fishing",
     "witch doctor advice"
    ],
-   "answer": "Mai'Lahii says his witch doctor advised him to go fishing for his headache, and he feels better after you bring the clam meat."
+   "answer": "Mai'Lahii says her witch doctor advised her to go fishing for her headache, and she feels better after you bring the clam meat."
   }
  ],
  "angles": [],

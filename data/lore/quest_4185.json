@@ -1,0 +1,66 @@
+{
+ "key": "quest:4185",
+ "type": "quest",
+ "name": "The True Masters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4185
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Highlord Bolvar Fordragon asks you to speak with him after Lady Katrana Prestor. His watchful attention marks the next step in your dealings with Stormwind's court.",
+ "sections": [
+  {
+   "title": "Before Bolvar",
+   "body": "You have spoken with Lady Katrana Prestor, and now Highlord Bolvar Fordragon watches you closely. Speak with him to continue your dealings with Stormwind's court.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I speak with?",
+   "aliases": [
+    "who's next",
+    "bolvar?",
+    "talk to who"
+   ],
+   "answer": "You speak with Highlord Bolvar Fordragon after speaking with Lady Katrana Prestor."
+  },
+  {
+   "q": "What happened before this?",
+   "aliases": [
+    "what came before",
+    "previous step",
+    "before bolvar"
+   ],
+   "answer": "You spoke with Lady Katrana Prestor before approaching Highlord Bolvar Fordragon."
+  },
+  {
+   "q": "What is Bolvar doing?",
+   "aliases": [
+    "bolvar doing what",
+    "why is bolvar staring",
+    "bolvar watches"
+   ],
+   "answer": "Highlord Bolvar Fordragon watches you intently."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolvar fordragon",
+  "lady katrana prestor",
+  "speak with bolvar",
+  "stormwind",
+  "the true masters"
+ ],
+ "related": [
+  "npc:bolvar-fordragon"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The True Masters"
+ ]
+}

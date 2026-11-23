@@ -1,0 +1,83 @@
+{
+ "key": "quest:94614",
+ "type": "quest",
+ "name": "Freshwater Fiends",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94614
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A farmer near Wheeler's Grange asks you to drive Mudfin murlocs from the river. They threaten his animals and wildlife, and have taken over his favorite fishing spot.",
+ "sections": [
+  {
+   "title": "By the River",
+   "body": "The farmer's animals and the local wildlife suffer while Mudfin murlocs remain along the river near Wheeler's Grange. Their presence has also cost him his favorite fishing spot. You are asked to kill some of the murlocs, and the Riverglades folk would welcome the help.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the farmer want the murlocs gone?",
+   "aliases": [
+    "why kill murlocs",
+    "murlocs by the river"
+   ],
+   "answer": "The farmer says the Mudfin murlocs are bad for his animals and the wildlife, and have settled on his favorite fishing spot."
+  },
+  {
+   "q": "Where are the Mudfin murlocs?",
+   "aliases": [
+    "mudfin location",
+    "where are murlocs"
+   ],
+   "answer": "They are along the river near Wheeler's Grange."
+  },
+  {
+   "q": "Which murlocs are involved?",
+   "aliases": [
+    "mudfin types",
+    "what murlocs"
+   ],
+   "answer": "The farmer names Mudfin Oracles and Mudfin Warriors."
+  },
+  {
+   "q": "What does the farmer ask me to do?",
+   "aliases": [
+    "freshwater fiends task",
+    "kill how many murlocs"
+   ],
+   "answer": "He asks you to kill eight Mudfin Oracles and eight Mudfin Warriors along the river near Wheeler's Grange."
+  },
+  {
+   "q": "Who would appreciate the help?",
+   "aliases": [
+    "who wants murlocs gone",
+    "riverglades people"
+   ],
+   "answer": "The farmer says the Riverglades folk would appreciate having some of the murlocs removed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fishing spot",
+  "freshwater fiends",
+  "mudfin",
+  "murloc",
+  "oracle",
+  "riverglades",
+  "warrior",
+  "wheeler's grange"
+ ],
+ "related": [
+  "zone:riverglades",
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Freshwater Fiends"
+ ]
+}

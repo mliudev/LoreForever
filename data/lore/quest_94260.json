@@ -1,0 +1,78 @@
+{
+ "key": "quest:94260",
+ "type": "quest",
+ "name": "Craftsman's Writ: Catseye Draught",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94260
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Catseye Draught and gives details for delivery and payment. You need the writ in hand to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Written Request",
+   "body": "The faded note bears a customer's request for one Catseye Draught. It also gives a delivery place and payment details, and the writ can pass from one bearer to another. The exchange depends on the writ being with you when you deliver the requested item.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "catseye draught writ",
+    "what item is requested"
+   ],
+   "answer": "The customer requests one Catseye Draught."
+  },
+  {
+   "q": "Where do I deliver the draught?",
+   "aliases": [
+    "delivery place",
+    "where to take it"
+   ],
+   "answer": "The note provides a delivery location, marked on your map."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need the writ",
+    "writ required"
+   ],
+   "answer": "Yes. The writ must be in your possession to complete the transaction."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "transferable writ",
+    "can someone else carry it"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the note say how payment works?",
+   "aliases": [
+    "payment details",
+    "how much is payment"
+   ],
+   "answer": "The note includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "catseye draught",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Catseye Draught"
+ ]
+}

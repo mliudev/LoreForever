@@ -1,0 +1,72 @@
+{
+ "key": "quest:94971",
+ "type": "quest",
+ "name": "A Paladin's Steed",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94971
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A paladin\u2019s warhorse bears its rider and arms into battle. Danitha Morr can teach you to summon one of your own.",
+ "sections": [
+  {
+   "title": "A Warhorse for Battle",
+   "body": "Paladins have long ridden specially consecrated warhorses into battle, carrying their riders and arms. Danitha Morr can teach you to summon a steed of your own, so you can ride into battle with one at your side.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a paladin\u2019s steed?",
+   "aliases": [
+    "paladin horse",
+    "warhorse",
+    "paladin mount"
+   ],
+   "answer": "It is a specially consecrated warhorse that carries a paladin and their arms into battle."
+  },
+  {
+   "q": "Who teaches me to summon a warhorse?",
+   "aliases": [
+    "danitha morr",
+    "summon warhorse",
+    "get paladin steed"
+   ],
+   "answer": "Danitha Morr teaches you to summon your warhorse."
+  },
+  {
+   "q": "Why do paladins need a warhorse?",
+   "aliases": [
+    "why paladin horse",
+    "what's the steed for"
+   ],
+   "answer": "A warhorse bears a paladin and their arms into battle."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "As a paladin, you can call upon a specially consecrated warhorse to carry you and your arms into battle."
+  }
+ ],
+ "keywords": [
+  "consecrated",
+  "danitha morr",
+  "mount",
+  "paladin",
+  "steed",
+  "summon",
+  "warhorse"
+ ],
+ "related": [
+  "topic:paladin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Paladin's Steed"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "quest:8436",
+ "type": "quest",
+ "name": "Conquering Arathi Basin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8436
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Horde Warbringer asks you for three Arathi Basin Marks of Honor. Bring them from the battleground to the warbringer outside it.",
+ "sections": [
+  {
+   "title": "A Warbringer's Request",
+   "body": "The warbringer waits outside the battlegrounds, where you can bring the marks. You are asked to bring three Arathi Basin Marks of Honor to the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Horde Warbringer want?",
+   "aliases": [
+    "warbringer wants",
+    "what to bring",
+    "arathi basin marks"
+   ],
+   "answer": "The Horde Warbringer asks you to bring three Arathi Basin Marks of Honor."
+  },
+  {
+   "q": "Where do I bring the marks?",
+   "aliases": [
+    "where to bring marks",
+    "warbringer location",
+    "outside battleground"
+   ],
+   "answer": "Bring the marks to a Horde Warbringer outside the battlegrounds."
+  },
+  {
+   "q": "How many Marks of Honor are needed?",
+   "aliases": [
+    "how many marks",
+    "three marks",
+    "mark count"
+   ],
+   "answer": "You are asked to bring three Arathi Basin Marks of Honor."
+  },
+  {
+   "q": "Which marks does the warbringer ask for?",
+   "aliases": [
+    "which marks",
+    "arathi basin mark",
+    "marks of honor"
+   ],
+   "answer": "The request is for Arathi Basin Marks of Honor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arathi basin",
+  "battleground",
+  "horde warbringer",
+  "mark of honor",
+  "marks of honor"
+ ],
+ "related": [
+  "zone:arathibasin",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Conquering Arathi Basin"
+ ]
+}

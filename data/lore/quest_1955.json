@@ -1,0 +1,71 @@
+{
+ "key": "quest:1955",
+ "type": "quest",
+ "name": "The Exorcism",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1955
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives the exorcism",
+    "the exorcism quest giver",
+    "who sends you against the demon"
+   ],
+   "answer": "Tabetha directs you to banish the Demon of the Orb and report back to her once the creature is slain.",
+   "q": "Who asks you to face the demon?"
+  },
+  {
+   "aliases": [
+    "who is the demon of the orb",
+    "exorcism target",
+    "what do you kill in the exorcism"
+   ],
+   "answer": "You are sent to destroy the Demon of the Orb before it can threaten the surrounding lands.",
+   "q": "What creature must be slain?"
+  },
+  {
+   "aliases": [
+    "why kill the demon of the orb",
+    "purpose of the exorcism",
+    "why exorcise the orb"
+   ],
+   "answer": "The fiend poses an immediate danger if left unchecked, requiring a swift strike to cast it back out of this world.",
+   "q": "Why does the demon need to be destroyed?"
+  }
+ ],
+ "keywords": [
+  "demon",
+  "demon of the orb",
+  "exorcism",
+  "tabetha",
+  "the exorcism"
+ ],
+ "related": [
+  "npc:tabetha"
+ ],
+ "sections": [
+  {
+   "body": "A sinister presence stirs within the relic, threatening to break free into the world. You must face the Demon of the Orb directly and strike it down before speaking again with Tabetha.",
+   "spoiler": 0,
+   "title": "A Fiend in the Orb"
+  },
+  {
+   "body": "The Demon of the Orb falls to your assault, banished from this realm. Tabetha commends your swift victory, though she warns that such creatures hold long grudges. Defeated demons have a habit of returning with vengeful kin.",
+   "spoiler": 1,
+   "title": "Tabetha's Warning"
+  }
+ ],
+ "summary": "Tabetha needs an uninvited fiend purged before it can work any harm. A creature known as the Demon of the Orb has intruded into the world, and you are called upon to destroy it.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Exorcism"
+ ]
+}

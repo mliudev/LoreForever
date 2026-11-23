@@ -10,7 +10,7 @@
    "quest:3124"
   ]
  },
- "summary": "Hippogryph Muisek preserves the spirits of the Frayfeather hippogryphs in Feralas. A druid in the High Wilderness asks you to capture them with a Muisek Vessel.",
+ "summary": "Hippogryph Muisek preserves the spirits of the Frayfeather hippogryphs in Feralas. Witch Doctor Uzer'i asks you to capture them with a Muisek Vessel.",
  "sections": [
   {
    "title": "Spirits Preserved",
@@ -33,7 +33,7 @@
     "hippogryph location",
     "frayfeathers where"
    ],
-   "answer": "Frayfeather hippogryphs live in the High Wilderness, south of the druid who asks you to capture them."
+   "answer": "Frayfeather hippogryphs live in the High Wilderness, south of Witch Doctor Uzer'i, who asks you to capture them."
   },
   {
    "q": "Why capture the hippogryphs?",
@@ -41,7 +41,7 @@
     "why muisek",
     "capture hippogryphs"
    ],
-   "answer": "The druid wants their muisek preserved, since a spirit left free after its creature dies may take the form of a greater creature and threaten those nearby."
+   "answer": "Uzer'i wants their muisek preserved, since a spirit left free after its creature dies may take the form of a greater creature and threaten those nearby."
   },
   {
    "q": "How many hippogryphs are needed?",
@@ -49,13 +49,13 @@
     "how many hippogryphs",
     "muisek count"
    ],
-   "answer": "The druid asks you to capture ten Frayfeather hippogryphs."
+   "answer": "Uzer'i asks you to capture ten Frayfeather hippogryphs."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know hippogryphs as loyal companions whose spirits are steadfast. The druid's concern is to preserve those spirits safely."
+   "text": "As a night elf, you know hippogryphs as loyal companions whose spirits are steadfast. Uzer'i's concern is to preserve those spirits safely."
   }
  ],
  "keywords": [

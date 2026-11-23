@@ -1,0 +1,70 @@
+{
+ "key": "quest:8400",
+ "type": "quest",
+ "name": "Fight for Warsong Gulch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8400
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance soldier, bringing your battle marks to the Brigadier General proves your service in the ongoing struggle against the Horde in Warsong Gulch."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who wants marks of honor",
+    "brigadier general marks"
+   ],
+   "answer": "An Alliance Brigadier General stationed outside the battleground gathers the marks to track the war effort.",
+   "q": "Who takes the Warsong Gulch Marks of Honor?"
+  },
+  {
+   "aliases": [
+    "how many marks wsg",
+    "marks needed warsong"
+   ],
+   "answer": "Three Warsong Gulch Marks of Honor are needed to prove your deeds on the battlefield.",
+   "q": "How many marks do you need to bring?"
+  },
+  {
+   "aliases": [
+    "where is brigadier general",
+    "alliance general location"
+   ],
+   "answer": "The Brigadier General waits outside the battlegrounds where the Alliance coordinates its troops.",
+   "q": "Where is the Alliance Brigadier General?"
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "ashenvale",
+  "battlegrounds",
+  "brigadier general",
+  "marks of honor",
+  "warsong gulch"
+ ],
+ "related": [
+  "zone:warsonggulch",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "An Alliance Brigadier General stationed near the field of battle calls on soldiers returning from the front. If you have fought in Warsong Gulch, three Marks of Honor prove your standing and your deeds against the Horde. Bearing these tokens back to high command shows that the Alliance holds its ground in the disputed canyon.",
+   "spoiler": 0,
+   "title": "The General's Call"
+  }
+ ],
+ "summary": "The Alliance seeks proof of your valor on the front lines in Warsong Gulch. An Alliance Brigadier General stationed outside the battlegrounds calls for three Marks of Honor earned against the Horde.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fight for Warsong Gulch"
+ ]
+}

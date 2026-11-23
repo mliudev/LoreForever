@@ -1,0 +1,69 @@
+{
+ "key": "quest:92960",
+ "type": "quest",
+ "name": "Siphoned Ephemeral Essence",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92960
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants the ephemeral essences",
+    "who gives siphoned ephemeral essence"
+   ],
+   "answer": "Elaena Moonwhisper asks for them to study how the demons drain power from her kin.",
+   "q": "Who is asking for the essences?"
+  },
+  {
+   "aliases": [
+    "where are the hellish beasts",
+    "where is the demon camp"
+   ],
+   "answer": "A demon camp sits to the east, where the beasts linger after attacking Elaena Moonwhisper's people.",
+   "q": "Where are the demons located?"
+  },
+  {
+   "aliases": [
+    "why collect ephemeral essence",
+    "what will elaena do with ephemeral essence"
+   ],
+   "answer": "Elaena Moonwhisper hopes examining the stolen power will reveal how the beasts siphon strength from her allies.",
+   "q": "Why does Elaena need the essence samples?"
+  },
+  {
+   "aliases": [
+    "what beasts are these",
+    "what are the demons doing"
+   ],
+   "answer": "They are demonic beasts that ravaged Elaena Moonwhisper's kin, stealing their strength to turn against their allies.",
+   "q": "What have these demons done?"
+  }
+ ],
+ "keywords": [
+  "demon camp",
+  "elaena moonwhisper",
+  "ephemeral essences",
+  "hellish beasts",
+  "siphoned ephemeral essence"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "To the east, demonic beasts harbor strength stolen directly from fallen kin. Elaena Moonwhisper needs you to pierce their encampment, put an end to the monsters, and secure remnant samples before that drained power can be turned against her allies. By examining the stolen essence, she hopes to uncover how the fiends siphon such vital force.",
+   "spoiler": 0,
+   "title": "Stolen Power"
+  }
+ ],
+ "summary": "Elaena Moonwhisper seeks to stop a band of demons lingering in an eastern encampment. These hellish beasts have ravaged her kin and stolen their vital strength, and recovering samples of the drained essence may reveal how to counter their magic.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Siphoned Ephemeral Essence"
+ ]
+}

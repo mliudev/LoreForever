@@ -1,0 +1,66 @@
+{
+ "key": "quest:2856",
+ "type": "quest",
+ "name": "Wild Leather Vest",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2856
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "wild leather vest items",
+    "what do i bring jangdor",
+    "jangdor swiftstrider materials"
+   ],
+   "answer": "He asks for two Turtle Scale Breastplates, two Turtle Scale Gloves, and a Wildvine.",
+   "q": "What materials does Jangdor Swiftstrider require?"
+  },
+  {
+   "aliases": [
+    "where is jangdor swiftstrider",
+    "jangdor swiftstrider location",
+    "who gives wild leather vest"
+   ],
+   "answer": "Jangdor Swiftstrider makes his camp at Camp Mojache.",
+   "q": "Where is Jangdor Swiftstrider found?"
+  },
+  {
+   "aliases": [
+    "what is camp mojache",
+    "where is camp mojache"
+   ],
+   "answer": "Camp Mojache is the Horde settlement where Jangdor Swiftstrider waits for his leatherwork supplies.",
+   "q": "What is Camp Mojache?"
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "jangdor swiftstrider",
+  "turtle scale breastplate",
+  "turtle scale gloves",
+  "wild leather vest",
+  "wildvine"
+ ],
+ "related": [
+  "subzone:camp-mojache"
+ ],
+ "sections": [
+  {
+   "body": "Turtle scale armor and rare wildvine must be gathered across the wilds. Carrying the finished breastplates, gloves, and vine to Camp Mojache fulfills Jangdor Swiftstrider's request.",
+   "spoiler": 0,
+   "title": "Supplies for Camp Mojache"
+  }
+ ],
+ "summary": "Jangdor Swiftstrider at Camp Mojache requires specialized goods from skilled crafters. You are asked to supply turtle scale armor pieces along with a rare wildvine.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wild Leather Vest"
+ ]
+}

@@ -8115,9 +8115,9 @@
     "item:head-of-arugal": {
       "1": [
         {
-          "duration": 37.1461224489796,
-          "file": "Audio/Transport/full_item_head-of-arugal-fdbd90d901c58b5575af/1-0000.mp3",
-          "sha256": "5d67e9b0a844aa97864597932ff1b384d5c10622aaac7eea5362644672f3357e",
+          "duration": 38.11265306122449,
+          "file": "Audio/Transport/full_item_head-of-arugal-d648013cd7514eb39bbb/1-0000.mp3",
+          "sha256": "544649fe26d88e17ef8b3dbf01c37360152f1f9b50c765b264fd80b2c2ffb996",
           "start": 0
         }
       ],
@@ -8129,12 +8129,12 @@
         ]
       },
       "fullHash": "150ea7",
-      "generation": "a71df87d3fd65fd85fd0",
+      "generation": "1ad2cbd2153e72da848b",
       "hash": "150ea7",
       "source": {
-        "duration": 37.172245,
+        "duration": 38.138776,
         "file": null,
-        "sha256": "fdbd90d901c58b5575af0014c1168196b7d9a8a4fd0b6dbdf651dc5ed357f505"
+        "sha256": "d648013cd7514eb39bbb38cd2e03406fa9082cd73c401c002e215630c4841c82"
       },
       "text": "Head of Arugal. At Shadowfang Keep, Head of Arugal is claimed from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof of his fall. Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. At the Sepulcher, Dalar Dawnweaver orders his severed head claimed. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bring the head to Dawnweaver, and it proves Arugal's sorcery has been cut from the land."
     },
@@ -17683,9 +17683,9 @@
     "item:unidentified-ore": {
       "1": [
         {
-          "duration": 47.6995918367347,
-          "file": "Audio/Transport/full_item_unidentified-ore-039d09156cd7e29df0cc/1-0000.mp3",
-          "sha256": "3d51e8eb7073543d00930a918414e26770414d798eb92da301f017403cc4c37c",
+          "duration": 47.438367346938776,
+          "file": "Audio/Transport/full_item_unidentified-ore-cd7a1905e96284991397/1-0000.mp3",
+          "sha256": "229f746ef348da442410313d25c34b985c80104ac49b7288fa58de599ec3e74f",
           "start": 0
         }
       ],
@@ -17697,12 +17697,12 @@
         ]
       },
       "fullHash": "85190d",
-      "generation": "7613aa0a3215f9ae9534",
+      "generation": "91f23f40fa8c6b55cb64",
       "hash": "85190d",
       "source": {
-        "duration": 47.725714,
+        "duration": 47.46449,
         "file": null,
-        "sha256": "039d09156cd7e29df0cc1ffa6cbe2c7f471c2a7d5765ca708834559ab9b82c40"
+        "sha256": "cd7a1905e96284991397e99719fe9e63b87f0e6daf041c0f5f50cbbb9f0d0083"
       },
       "text": "Unidentified Ore. At Windshear Crag, Unidentified Ore has drawn the Venture Company's attention. Piznik recovered a sample and gave it to Ziz Fizziks for study in Undermine. The Venture Company has exposed unusual mineral strata in the Stonetalon Mountains through clear-cutting and strip mining at Windshear Crag. Its new boss, Gerenzo Wrenchwhistle, ordered large amounts of strange gold-green ore mined.\n\nDemoted goblin worker Piznik stayed loyal to his fired former boss, Ziz Fizziks. He secured a sample while planning his escape from the outfit, then gave it to a traveler bound for the crag's western ridge. Ziz plans to send most of the ore to Undermine for study and keep a small cut for himself."
     },
@@ -18723,9 +18723,9 @@
     "item:whitestone-oak-lumber": {
       "1": [
         {
-          "duration": 10.605714285714287,
-          "file": "Audio/Transport/full_item_whitestone-oak-lumber-f5982e7154b61d26f6dc/1-0000.mp3",
-          "sha256": "90ed13f820639c7757d40e24cacd1ea167aa97671b7b43dbbada99e1752e32e6",
+          "duration": 10.65795918367347,
+          "file": "Audio/Transport/full_item_whitestone-oak-lumber-2ad50e2ca6ff9e367552/1-0000.mp3",
+          "sha256": "0598ab5696acff9ee4a0a786a907ad86cf5b99fd3c294f7121f62b85f1db6617",
           "start": 0
         }
       ],
@@ -18737,12 +18737,12 @@
         ]
       },
       "fullHash": "5c0361",
-      "generation": "5edd40d7386bd9c0d1c2",
+      "generation": "c454a8ea5457bf3c3dd6",
       "hash": "5c0361",
       "source": {
-        "duration": 10.605714,
+        "duration": 10.684082,
         "file": null,
-        "sha256": "f5982e7154b61d26f6dc4b15bd8d63dfa3171732d98b9cf8625beb9275b69276"
+        "sha256": "2ad50e2ca6ff9e367552473f01c9b81514c9d3ceae043f441b97c55ade201ac3"
       },
       "text": "Whitestone Oak Lumber. Beneath Moonbrook, the Defias shape Whitestone Oak Lumber for their fleet. Its strength also draws Alliance smiths seeking a haft for a sacred weapon."
     },
@@ -19371,6 +19371,9 @@
     ],
     "0586146c323034cb617deca6b1dadd5846734bb2ba63f320802bf2191e4862b6": [
       379
+    ],
+    "0598ab5696acff9ee4a0a786a907ad86cf5b99fd3c294f7121f62b85f1db6617": [
+      210
     ],
     "05e39894a71dd03256e5c63a17e1a8aa9ef76a63ed0861990da7552cf17e06c6": [
       520
@@ -20022,6 +20025,15 @@
       1466,
       1694
     ],
+    "229f746ef348da442410313d25c34b985c80104ac49b7288fa58de599ec3e74f": [
+      233,
+      443,
+      789,
+      1064,
+      1297,
+      1437,
+      1585
+    ],
     "22aefdf276e972454932aa1b70316ee9509da6d3ed2d476d092c34bdbbfdcf57": [
       221,
       439,
@@ -20646,14 +20658,6 @@
     ],
     "3d3a651086e6d4a377cd703d462dcf7a1bd183f6d6b0da8f20cf8479e7b6b5be": [
       504
-    ],
-    "3d51e8eb7073543d00930a918414e26770414d798eb92da301f017403cc4c37c": [
-      228,
-      441,
-      798,
-      1079,
-      1316,
-      1602
     ],
     "3d8f977922b47920ee75ed8b160008924fd4128222f42f2334a18834a57bf91b": [
       213,
@@ -21288,6 +21292,13 @@
       975,
       1125
     ],
+    "544649fe26d88e17ef8b3dbf01c37360152f1f9b50c765b264fd80b2c2ffb996": [
+      294,
+      483,
+      745,
+      942,
+      1246
+    ],
     "545c5a4d0c7f8b478694d03bfca19b3136e833756898b2effe4f927069b461bb": [
       179,
       453,
@@ -21548,13 +21559,6 @@
       1338,
       1574,
       1803
-    ],
-    "5d67e9b0a844aa97864597932ff1b384d5c10622aaac7eea5362644672f3357e": [
-      276,
-      438,
-      693,
-      892,
-      1195
     ],
     "5da883f053b6676d1bcb9bd184d67fd586413124de657cee5b180d0902775c1f": [
       587
@@ -22735,9 +22739,6 @@
       943,
       1083,
       1339
-    ],
-    "90ed13f820639c7757d40e24cacd1ea167aa97671b7b43dbbada99e1752e32e6": [
-      218
     ],
     "90eeb4b5d9e0c47ded9074b652e4c804a58cf2695c94e76d512fe1d24bf0f010": [
       425
@@ -25955,6 +25956,9 @@
       "1147": 2,
       "406": 1
     },
+    "229f746ef348da442410313d25c34b985c80104ac49b7288fa58de599ec3e74f": {
+      "443": 1
+    },
     "22aefdf276e972454932aa1b70316ee9509da6d3ed2d476d092c34bdbbfdcf57": {
       "439": 1
     },
@@ -26178,9 +26182,6 @@
     "3cf830eed858ed2c14a26407779862acbb3042ee8e5f8fbb662cff9c51c265a8": {
       "1056": 2,
       "473": 1
-    },
-    "3d51e8eb7073543d00930a918414e26770414d798eb92da301f017403cc4c37c": {
-      "441": 1
     },
     "3d8f977922b47920ee75ed8b160008924fd4128222f42f2334a18834a57bf91b": {
       "634": 1
@@ -26406,6 +26407,9 @@
     "53cdd61d672f08b54e95893a7083071b81166b6a6ede2cd8ff4ae6afb0edc96a": {
       "589": 1
     },
+    "544649fe26d88e17ef8b3dbf01c37360152f1f9b50c765b264fd80b2c2ffb996": {
+      "483": 1
+    },
     "545c5a4d0c7f8b478694d03bfca19b3136e833756898b2effe4f927069b461bb": {
       "453": 1
     },
@@ -26495,9 +26499,6 @@
     "5cb72d7fe1e9a0c7022c0139fad1daac210abe1253aa32b98ede029689c08442": {
       "1338": 2,
       "459": 1
-    },
-    "5d67e9b0a844aa97864597932ff1b384d5c10622aaac7eea5362644672f3357e": {
-      "438": 1
     },
     "5ddf856f742aeecbaba5959d4f33307f7c0d6cb34911a214894c911b380bb4c2": {
       "243": 1

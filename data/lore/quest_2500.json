@@ -1,0 +1,66 @@
+{
+ "key": "quest:2500",
+ "type": "quest",
+ "name": "Badlands Reagent Run",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2500
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is ghak",
+    "ghak healtouch",
+    "who gives the quest"
+   ],
+   "answer": "Ghak Healtouch is an alchemist living in the dwarven settlement of Thelsamar within Loch Modan.",
+   "q": "Who is Ghak Healtouch?"
+  },
+  {
+   "aliases": [
+    "where is thelsamar",
+    "thelsamar location"
+   ],
+   "answer": "Thelsamar is a dwarf town located in the hills of Loch Modan, along the main road east of Ironforge.",
+   "q": "Where is Thelsamar?"
+  },
+  {
+   "aliases": [
+    "where are the badlands",
+    "how to reach badlands"
+   ],
+   "answer": "The Badlands lie south of Loch Modan, reached through a rugged mountain pass.",
+   "q": "Where are the Badlands?"
+  }
+ ],
+ "keywords": [
+  "alchemist",
+  "badlands",
+  "ghak healtouch",
+  "loch modan",
+  "reagents",
+  "thelsamar"
+ ],
+ "related": [
+  "subzone:thelsamar",
+  "zone:badlands"
+ ],
+ "sections": [
+  {
+   "body": "In the town of Thelsamar, Ghak Healtouch prepares his mixtures and finds his supplies running short. He needs raw reagents that can only be gathered from the harsh wastes of the Badlands to the south. You travel down through the mountain passes into the dry barrens to collect what he requires, then make the climb back to Loch Modan before his work comes to a halt.",
+   "spoiler": 0,
+   "title": "Supplies for Thelsamar"
+  }
+ ],
+ "summary": "Ghak Healtouch of Thelsamar needs rare reagents gathered from the arid wastes of the Badlands to continue his craft. Venturing south into the dry wilderness brings back the materials he requires before his concoctions can be finished.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Badlands Reagent Run"
+ ]
+}

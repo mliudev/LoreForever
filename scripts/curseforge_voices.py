@@ -133,8 +133,8 @@ def validate_translation(zip_path: Path, project: dict, version: str) -> None:
 
 def quest_dialogue(folder: str) -> bool:
     """Quest dialogue folders that players install deliberately, including language and quest giver packs."""
-    return bool(re.fullmatch(r"LoreForever_Voice_QuestGivers[23]?", folder)) or bool(re.fullmatch(
-        r"LoreForever_Voice_(Default|Female)_Quests(?:[23]|_[a-z]{2}[A-Z]{2})?", folder))
+    return bool(re.fullmatch(r"LoreForever_Voice_QuestGivers[234]?", folder)) or bool(re.fullmatch(
+        r"LoreForever_Voice_(Default|Female)_Quests(?:[234]|_[a-z]{2}[A-Z]{2})?", folder))
 
 
 def load_config(path: Path | None = None) -> list[dict]:
@@ -576,15 +576,35 @@ def held_until(project: dict, last: dict | None) -> datetime | None:
     return datetime.fromisoformat(last["at"]) + timedelta(days=project["min_days"])
 
 
-def plan(steps: list[dict], state: dict, now: datetime | None = None) -> list[dict]:
-    """Marks each prepared file upload, or unchanged (with its last upload) when its narration is what was sent, or
-    held when it changed but its min_days since the last upload haven't passed."""
+def parse_version(version: str | None) -> tuple[int, ...] | None:
+    """Parse a dotted numeric version like '1.16.0.1' into a tuple of ints, or None."""
+    if not isinstance(version, str):
+        return None
+    s = version.strip().removeprefix("v")
+    if not re.fullmatch(r"\d+(?:\.\d+)*", s):
+        return None
+    return tuple(int(x) for x in s.split("."))
+
+
+def is_older_version(candidate: str | None, last: dict | None) -> bool:
+    """True when `last` already records a strictly newer numeric version than `candidate`."""
+    cand_ver, last_ver = parse_version(candidate), parse_version((last or {}).get("version"))
+    return cand_ver is not None and last_ver is not None and last_ver > cand_ver
+
+
+def plan(steps: list[dict], state: dict, now: datetime | None = None, version: str | None = None) -> list[dict]:
+    """Marks each prepared file upload, or older when CurseForge already holds a newer version, or unchanged
+    (with its last upload) when its narration is what was sent, or held when it changed but its min_days since
+    the last upload haven't passed."""
     now = now or datetime.now(timezone.utc)
     for s in steps:
         if "zip" not in s:
             s["action"] = "absent" if "absent" in s else "missing"
             continue
         s["fingerprint"], s["last"] = fingerprint(s["zip"]), state.get(str(s["project"]["id"]))
+        if is_older_version(version, s["last"]):
+            s["action"] = "older"
+            continue
         same = bool(s["last"]) and s["last"].get("fingerprint") == s["fingerprint"]
         until = None if same else held_until(s["project"], s["last"])
         s["action"] = "unchanged" if same else "held" if until and now < until else "upload"
@@ -792,7 +812,7 @@ def cmd_upload(args) -> int:
             source_dir.mkdir(parents=True, exist_ok=True)
             if todo:
                 fetch({s for p in todo for s in sources(p, version)}, tag, source_dir)
-        steps = unchanged + (plan(prepare(todo, source_dir, Path(tmp, "files"), version, projects), state)
+        steps = unchanged + (plan(prepare(todo, source_dir, Path(tmp, "files"), version, projects), state, version=version)
                              if todo else [])
         return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir))
 
@@ -852,7 +872,8 @@ def upload_narration(args, todo: list[dict], projects: list[dict], token: str) -
                 (source_dir / file).replace(source_dir / base)
         failed = send(absent, projects, state, "", token, args.dry_run, source=NARRATION_TAG)
         for version, group in sorted(groups.items(), key=lambda kv: tuple(int(x) for x in kv[0].split("."))):
-            steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state)
+            steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state,
+                         version=version)
             failed |= send(steps, projects, state, version, token, args.dry_run, source=NARRATION_TAG)
         return failed
 
@@ -899,7 +920,8 @@ def upload_languages(args, todo: list[dict], projects: list[dict], token: str) -
             fetch({s for v, ps in groups.items() for p in ps for s in sources(p, v)}, LANGUAGES_TAG, source_dir)
         failed = send(absent, projects, state, "", token, args.dry_run, source=LANGUAGES_TAG, state_file="languages.json")
         for version, group in sorted(groups.items()):
-            steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state)
+            steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state,
+                         version=version)
             failed |= send(steps, projects, state, version, token, args.dry_run, source=LANGUAGES_TAG,
                            state_file="languages.json")
         return failed
@@ -910,11 +932,16 @@ def send(steps: list[dict], projects: list[dict], state: dict, version: str, tok
     failed = 0
     for s in steps:
         p = s["project"]
+        if s["action"] == "upload" and is_older_version(version, s.get("last") or state.get(str(p["id"]))):
+            s["last"] = s.get("last") or state.get(str(p["id"]))
+            s["action"] = "older"
         if s["action"] == "absent":
             print(f"::warning::{p['key']}: {source}: {s['absent']}, so nothing went to CurseForge project {p['id']}")
         elif s["action"] == "missing":
             print(f"::error::{p['key']}: {source}: {s['error']}, so nothing went to CurseForge project {p['id']}")
             failed += 1
+        elif s["action"] == "older":
+            summary(f"{p['key']}: older than CurseForge {s['last'].get('version')} ({version}), not uploaded")
         elif s["action"] == "unchanged":
             summary(f"{p['key']}: unchanged since {s['last'].get('version')} (CurseForge file "
                     f"{s['last'].get('file')}), not uploaded")

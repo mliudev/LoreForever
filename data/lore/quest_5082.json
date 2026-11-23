@@ -1,0 +1,69 @@
+{
+ "key": "quest:5082",
+ "type": "quest",
+ "name": "Threat of the Winterfall",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5082
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who asks for threat of the winterfall",
+    "who is donova snowden",
+    "donova snowden winterspring"
+   ],
+   "answer": "Donova Snowden is an investigator camped in the snowy wilds of Winterspring. She seeks to curb the furbolg presence across the valley.",
+   "q": "Who is Donova Snowden?"
+  },
+  {
+   "aliases": [
+    "winterfall furbolgs winterspring",
+    "who are the winterfall",
+    "winterfall tribe"
+   ],
+   "answer": "The Winterfall are a tribe of furbolgs dwelling in the cold reaches of Winterspring. Donova Snowden considers their pathfinders, den watchers, and totemics an active danger.",
+   "q": "What are the Winterfall?"
+  },
+  {
+   "aliases": [
+    "where are the winterfall furbolgs",
+    "where to find winterfall pathfinders",
+    "threat of the winterfall location"
+   ],
+   "answer": "The Winterfall furbolgs inhabit the frozen valleys and camps across Winterspring. Donova Snowden monitors them from her post in the region.",
+   "q": "Where can the Winterfall be found?"
+  }
+ ],
+ "keywords": [
+  "donova snowden",
+  "threat of the winterfall",
+  "winterfall den watcher",
+  "winterfall furbolg",
+  "winterfall pathfinder",
+  "winterfall totemic",
+  "winterspring"
+ ],
+ "related": [
+  "npc:donova-snowden",
+  "zone:winterspring"
+ ],
+ "sections": [
+  {
+   "body": "In the frozen reaches of Winterspring, Donova Snowden watches the local furbolg packs closely. She sees the Winterfall tribe as an encroaching peril across the snows. To keep their numbers in check, she asks you to cull their pathfinders, den watchers, and totemics.",
+   "spoiler": 0,
+   "title": "Peril in the Snow"
+  }
+ ],
+ "summary": "Donova Snowden in Winterspring sees the local Winterfall furbolg tribe as a rising menace. She calls upon you to thin their ranks by hunting down their pathfinders, den watchers, and totemics.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Threat of the Winterfall"
+ ]
+}

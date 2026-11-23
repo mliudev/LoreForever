@@ -1,0 +1,65 @@
+{
+ "key": "quest:1448",
+ "type": "quest",
+ "name": "In Search of The Temple",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1448
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives in search of the temple",
+    "who sends you to find the temple",
+    "brohann caskbelly location"
+   ],
+   "answer": "Brohann Caskbelly gives this request from within the city of Stormwind.",
+   "q": "Who asks you to find the temple?"
+  },
+  {
+   "aliases": [
+    "what place are you looking for",
+    "which temple is brohann seeking",
+    "where is the temple of atalhakkar"
+   ],
+   "answer": "Brohann Caskbelly asks you to search for the Temple of Atal'Hakkar.",
+   "q": "What temple are you searching for?"
+  },
+  {
+   "aliases": [
+    "where is brohann caskbelly",
+    "where does brohann wait"
+   ],
+   "answer": "Brohann Caskbelly is stationed in the human capital of Stormwind.",
+   "q": "Where is Brohann Caskbelly?"
+  }
+ ],
+ "keywords": [
+  "atal'hakkar",
+  "brohann caskbelly",
+  "in search of the temple",
+  "stormwind",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "subzone:temple-of-atal-hakkar"
+ ],
+ "sections": [
+  {
+   "body": "Brohann Caskbelly waits in the city of Stormwind with an inquiry concerning distant lands. He needs a traveler willing to seek out the elusive Temple of Atal'Hakkar. Whether the ancient site still stands or what dangers linger around it remains unknown.",
+   "spoiler": 0,
+   "title": "A Search from Stormwind"
+  }
+ ],
+ "summary": "In Stormwind, Brohann Caskbelly seeks someone to scout for the Temple of Atal'Hakkar. Finding the ancient structure means venturing far beyond the city walls to discover what remains of it.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: In Search of The Temple"
+ ]
+}

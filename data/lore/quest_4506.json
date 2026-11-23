@@ -1,0 +1,64 @@
+{
+ "key": "quest:4506",
+ "type": "quest",
+ "name": "Corrupted Sabers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4506
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is winna",
+    "winna lore"
+   ],
+   "answer": "Winna is the caretaker asking you to carry her young feline companion to the blighted waters and see it safely returned.",
+   "q": "Who is Winna?"
+  },
+  {
+   "aliases": [
+    "corrupted waters",
+    "which moon well",
+    "tainted moon well"
+   ],
+   "answer": "The waters of a moon well have succumbed to foul corruption, drawing Winna's attention toward what effect the blight might have on local wildlife.",
+   "q": "What is the corrupted moon well?"
+  },
+  {
+   "aliases": [
+    "why the kitten",
+    "cat at moon well",
+    "winna cat purpose"
+   ],
+   "answer": "Winna intends for the young saber to be exposed directly to the tainted moon well before being brought straight back to her care.",
+   "q": "Why must Winna's kitten be brought to the tainted waters?"
+  }
+ ],
+ "keywords": [
+  "corrupted moon well",
+  "corrupted sabers",
+  "kitten",
+  "moon well",
+  "saber",
+  "winna"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Winna entrusts her feline companion to your care for a perilous journey. The waters of a once-sacred basin have turned foul, and she needs to observe how the young saber fares when exposed to the blighted spring. Returning the creature unharmed to her side will reveal what the dark magic has wrought.",
+   "spoiler": 0,
+   "title": "A Tainted Spring"
+  }
+ ],
+ "summary": "Winna has placed her young kitten in your care to visit a corrupted moon well. By letting the creature near the foul waters, she hopes to study the blight before bringing the beast back.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Corrupted Sabers"
+ ]
+}

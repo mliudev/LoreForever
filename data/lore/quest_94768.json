@@ -1,0 +1,105 @@
+{
+ "key": "quest:94768",
+ "type": "quest",
+ "name": "Bring Me His Head",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94768
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "Da'grosh draws strength from his liberated warriors, calling on fellow armsmen to shatter the cult's stronghold and avenge their capture."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is kilgar",
+    "overlord kilgar lore",
+    "who commands twilights shroud"
+   ],
+   "answer": "Overlord Kilgar commands the Twilight's Hammer cultists inside their stronghold at Twilight's Shroud. Tran'gul's notes singled him out as the leader orchestrating their presence there.",
+   "q": "Who is Overlord Kilgar?"
+  },
+  {
+   "aliases": [
+    "who is dagrosh",
+    "quest giver dagrosh",
+    "da grosh"
+   ],
+   "answer": "Da'grosh is a captive warrior whose fighters have regained their freedom from the cult. He seeks vengeance against Overlord Kilgar to crush the Twilight's Hammer stronghold.",
+   "q": "Who is Da'grosh?"
+  },
+  {
+   "aliases": [
+    "what is twilights shroud",
+    "twilight shroud location",
+    "where is the cult fortress"
+   ],
+   "answer": "Twilight's Shroud is the fortress where the Twilight's Hammer cultists have established their stronghold and held prisoners.",
+   "q": "What is the Twilight's Shroud?"
+  },
+  {
+   "aliases": [
+    "who is trangul",
+    "tranguls notes",
+    "notes about kilgar"
+   ],
+   "answer": "Tran'gul was an earlier quarry whose recovered notes revealed Overlord Kilgar's leadership within the fortress.",
+   "q": "Who is Tran'gul?"
+  },
+  {
+   "aliases": [
+    "why kill kilgar",
+    "why does dagrosh want his head",
+    "why defeat overlord kilgar"
+   ],
+   "answer": "With his warriors rescued and the cultists in disarray, Da'grosh wants to strike at the heart of the cult's power and avenge their captivity.",
+   "q": "Why does Da'grosh want Kilgar defeated?"
+  },
+  {
+   "aliases": [
+    "where is kilgar hiding",
+    "where to find kilgar",
+    "kilgar location"
+   ],
+   "answer": "Overlord Kilgar resides deep within the stronghold at Twilight's Shroud, behind the cult's fortified defenses.",
+   "q": "Where can Overlord Kilgar be found?"
+  }
+ ],
+ "keywords": [
+  "bring me his head",
+  "da'grosh",
+  "overlord kilgar",
+  "stronghold",
+  "tran'gul",
+  "twilight's hammer",
+  "twilight's shroud"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "sections": [
+  {
+   "body": "Recovered notes left by Tran'gul revealed that Overlord Kilgar commands the Twilight's Hammer inside Twilight's Shroud. Now that his captive warriors have broken free and thrown the cult into disorder, Da'grosh intends to strike their fortress before they can recover. He calls on you to venture into the stronghold, bring down Kilgar, and sever the head of their leadership.",
+   "spoiler": 0,
+   "title": "Strike at the Stronghold"
+  },
+  {
+   "body": "Deep within Twilight's Shroud, Overlord Kilgar falls to your assault. Returning with the warlord's severed head, you find Da'grosh satisfied that their captor is dead. He casts the trophy into the dirt, marking the end of Kilgar's command over the stronghold.",
+   "spoiler": 1,
+   "title": "A Grievance Settled"
+  }
+ ],
+ "summary": "Da'grosh rallies his freed warriors to shatter the Twilight's Hammer presence at Twilight's Shroud. With the cult thrown into disarray, you are called to breach their stronghold and take the head of Overlord Kilgar.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bring Me His Head"
+ ]
+}

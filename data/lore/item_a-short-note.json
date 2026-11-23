@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Letter for Curgle",
-   "body": "Daryn\u2019s research keeps her in the Hinterlands, where she studies the snapjaws along the beach. She wants a picture of Gammerita, a giant snapjaw, and sends you to Tanaris with a letter for Curgle Cranklehop. Curgle has made an invention that can capture a picture.",
+   "body": "Daryn\u2019s research keeps her in Rut’theran Village, though her latest fascination is the snapjaws on the Hinterlands beach. She wants a picture of Gammerita, a giant snapjaw, and sends you to Tanaris with a letter for Curgle Cranklehop. Curgle has made an invention that can capture a picture.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "daryn note",
     "who is it from"
    ],
-   "answer": "Daryn wrote the letter. She is a historian studying snapjaws in the Hinterlands."
+   "answer": "Daryn wrote the letter. She is a historian in Rut’theran Village whose latest fascination is the snapjaws of the Hinterlands."
   },
   {
    "q": "Who is Gammerita?",
@@ -53,7 +53,7 @@
     "why picture snapjaw",
     "what does daryn want"
    ],
-   "answer": "Daryn wants a picture of Gammerita because she cannot leave her research in the Hinterlands to see the giant snapjaw herself."
+   "answer": "Daryn wants a picture of Gammerita because she cannot leave her research in Rut’theran Village to see the giant snapjaw herself."
   }
  ],
  "angles": [],

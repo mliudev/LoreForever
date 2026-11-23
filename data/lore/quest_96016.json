@@ -1,0 +1,74 @@
+{
+ "key": "quest:96016",
+ "type": "quest",
+ "name": "The Tempest's Weapons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96016
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "bath'rah windwatcher",
+    "who is bathrah",
+    "bath'rah location"
+   ],
+   "answer": "Bath'rah is a troll hermit and craftsman living in the Alterac Mountains who works with elemental forces.",
+   "q": "Who is Bath'rah the Windwatcher?"
+  },
+  {
+   "aliases": [
+    "eye of the tempest turn in",
+    "eye of the tempest deliver",
+    "where to bring eye of the tempest"
+   ],
+   "answer": "The Eye of the Tempest must be brought to Bath'rah the Windwatcher in the Alterac Mountains.",
+   "q": "Where do I deliver the Eye of the Tempest?"
+  },
+  {
+   "aliases": [
+    "eye of the tempest lore",
+    "what does eye of the tempest do",
+    "eye of the tempest"
+   ],
+   "answer": "The Eye of the Tempest is a powerful elemental artifact won through battle against the elements.",
+   "q": "What is the Eye of the Tempest?"
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "bath'rah",
+  "elements",
+  "eye of the tempest",
+  "tempest",
+  "windwatcher"
+ ],
+ "related": [
+  "npc:bath-rah-the-windwatcher",
+  "zone:alterac",
+  "quest:1791"
+ ],
+ "sections": [
+  {
+   "body": "A fierce clash against the elements leaves you holding the Eye of the Tempest. The storm has settled, and Bath'rah the Windwatcher awaits you among the heights of the Alterac Mountains. The hermit knows the ways of such forces and watches for what you bring.",
+   "spoiler": 0,
+   "title": "A Relic for the Windwatcher"
+  },
+  {
+   "body": "Bath'rah recognizes the Eye as an artifact of deep and ancient strength. It has been a long time since the Windwatcher worked such power into shape. He bids you guard what cost so much to claim.",
+   "spoiler": 1,
+   "title": "Craft of the Storm"
+  }
+ ],
+ "summary": "You hold the Eye of the Tempest, drawn from a trial against the primal elements. Now you bring the potent relic into the Alterac Mountains to find Bath'rah the Windwatcher.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Tempest's Weapons"
+ ]
+}

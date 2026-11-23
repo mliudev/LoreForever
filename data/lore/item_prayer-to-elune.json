@@ -10,11 +10,11 @@
    "quest:3378"
   ]
  },
- "summary": "The Prayer to Elune is etched on a golden tablet and lies among the Twilight\u2019s Hammer\u2019s belongings. It carries a plea meant for Astarii Starseeker at the Temple of the Moon.",
+ "summary": "The Prayer to Elune is etched on a golden tablet and lies among the Twilight\u2019s Hammer\u2019s belongings. Zamael Lunthistle asks that it be taken to Astarii Starseeker at the Temple of the Moon.",
  "sections": [
   {
    "title": "A Golden Tablet",
-   "body": "Among the Twilight\u2019s Hammer\u2019s belongings in Searing Gorge lies a golden tablet bearing a prayer to Elune. Astarii Starseeker at Darnassus\u2019s Temple of the Moon asks that it be brought to her, so the prayer can reach its goddess.",
+   "body": "Among the Twilight\u2019s Hammer\u2019s belongings in Searing Gorge lies a golden tablet bearing a prayer to Elune. It is Zamael Lunthistle\u2019s prayer, and he asks that it be brought to Astarii Starseeker at Darnassus\u2019s Temple of the Moon, so the prayer can be heard.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "astarii prayer",
     "take it to who"
    ],
-   "answer": "Astarii Starseeker at the Temple of the Moon in Darnassus asks for the prayer."
+   "answer": "Zamael Lunthistle wants his prayer recovered and taken to Astarii Starseeker at the Temple of the Moon in Darnassus."
   },
   {
    "q": "Why does Astarii want it?",
@@ -53,7 +53,7 @@
     "why elune prayer",
     "what for"
    ],
-   "answer": "Astarii wants the prayer returned so it can be heard by Elune."
+   "answer": "The prayer is Zamael's. He says his faith has been rekindled and his prayer must be heard, though he expects no absolution. Astarii thanks you for returning a lost soul to Elune."
   }
  ],
  "angles": [

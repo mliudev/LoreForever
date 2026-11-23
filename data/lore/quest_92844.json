@@ -1,0 +1,96 @@
+{
+ "key": "quest:92844",
+ "type": "quest",
+ "name": "Mountain of Bones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92844
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Orgrul in Desolace sends you into the Valley of Bones for gently cursed bones. The Magram now use the necromantic magic found there, though its cause remains unknown.",
+ "sections": [
+  {
+   "title": "Bones for Orgrul",
+   "body": "Orgrul waits south of Magram Village in Desolace, where the Magram have taken up a new kind of magic. Some necromantic force has spread through the Valley of Bones, and its cause remains unknown. Orgrul asks you to bring him gently cursed bones while keeping your standing with the Magram.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Rough Count",
+   "body": "Orgrul begins counting the bones you bring, but loses track as the numbers grow. He decides the pile looks sufficient and says he will keep it, though he warns you not to deceive him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the bones?",
+   "aliases": [
+    "who is Orgrul",
+    "bone giver"
+   ],
+   "answer": "Orgrul, south of Magram Village in Desolace, asks you to bring gently cursed bones."
+  },
+  {
+   "q": "Where are the bones?",
+   "aliases": [
+    "bones location",
+    "valley bones where"
+   ],
+   "answer": "The bones are in the Valley of Bones in Desolace."
+  },
+  {
+   "q": "Why does Orgrul want the bones?",
+   "aliases": [
+    "why bones",
+    "Orgrul bones"
+   ],
+   "answer": "Orgrul asks you to bring him gently cursed bones, but gives no reason for wanting them."
+  },
+  {
+   "q": "What magic is in the Valley of Bones?",
+   "aliases": [
+    "necromantic magic",
+    "cursed valley"
+   ],
+   "answer": "Some sort of necromantic energy has spread through the Valley of Bones, and its cause is unknown."
+  },
+  {
+   "q": "What do the Magram do with the magic?",
+   "aliases": [
+    "Magram magic",
+    "new magic"
+   ],
+   "answer": "The Magram train those who do not fight with blade or mallet in the new magic."
+  },
+  {
+   "q": "What does Orgrul say if I am short on bones?",
+   "aliases": [
+    "missing bones",
+    "bones short"
+   ],
+   "answer": "Orgrul threatens to take one of your bones for every bone you lack."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "gently cursed bones",
+  "magram",
+  "magram village",
+  "necromantic energy",
+  "orgrul",
+  "valley of bones"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:magram-village",
+  "subzone:valley-of-bones"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mountain of Bones"
+ ]
+}

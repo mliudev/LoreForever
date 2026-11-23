@@ -1,0 +1,90 @@
+{
+ "key": "quest:96959",
+ "type": "quest",
+ "name": "Blademaster's Bonfires",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96959
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Yashiro asks you to light two bonfires in Dae'gun. Their flames will draw out the demons troubling the graves.",
+ "sections": [
+  {
+   "title": "A Test of Strength",
+   "body": "Yashiro speaks of a battle that ended before he answered his clans' call. Now he seeks a path up the mountain to a fallen stronghold. Demons profane the graves there, and he wants proof of your strength before fighting beside you. Light the two bonfires in Dae'gun and return to Yashiro; their flames will draw the enemy out.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Flames",
+   "body": "The bonfires will draw the demon commanders out. Yashiro sees this as a chance to end their reign.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to light the bonfires?",
+   "aliases": [
+    "who is Yashiro",
+    "bonfire giver",
+    "Yashiro quest"
+   ],
+   "answer": "Yashiro asks you to light the two bonfires in Dae'gun."
+  },
+  {
+   "q": "Why does Yashiro want the bonfires lit?",
+   "aliases": [
+    "why light bonfires",
+    "bonfires purpose",
+    "what do flames do"
+   ],
+   "answer": "The flames draw the demons out, and Yashiro says they will bring the demon commanders out."
+  },
+  {
+   "q": "Where are the bonfires?",
+   "aliases": [
+    "bonfires location",
+    "where is Dae'gun",
+    "Dae'gun fires"
+   ],
+   "answer": "The two bonfires are in Dae'gun."
+  },
+  {
+   "q": "Why does Yashiro test my strength?",
+   "aliases": [
+    "Yashiro test",
+    "prove strength",
+    "why prove myself"
+   ],
+   "answer": "Yashiro wants to know you are capable before he fights at your side."
+  },
+  {
+   "q": "What is Yashiro seeking on the mountain?",
+   "aliases": [
+    "fallen stronghold",
+    "mountain goal",
+    "Yashiro mountain"
+   ],
+   "answer": "Yashiro seeks a path up the mountain to a fallen stronghold near the summit."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bonfires",
+  "dae'gun",
+  "demon commanders",
+  "demons",
+  "fallen stronghold",
+  "graves",
+  "mountain",
+  "yashiro"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Blademaster's Bonfires"
+ ]
+}

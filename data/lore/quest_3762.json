@@ -1,0 +1,79 @@
+{
+ "key": "quest:3762",
+ "type": "quest",
+ "name": "Assisting Arch Druid Runetotem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3762
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, receiving a summons to confer with Arch Druid Hamuul Runetotem carries special weight, as he leads your order in Thunder Bluff."
+  },
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, stepping up to assist the arch druid on the Elder Rise honors one of your people's most respected elders."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who needs help",
+    "who wants aid",
+    "thunder bluff druid quest"
+   ],
+   "answer": "Arch Druid Hamuul Runetotem and the Cenarion Circle are seeking seasoned adventurers for an important inquiry.",
+   "q": "Who is looking for help in Thunder Bluff?"
+  },
+  {
+   "aliases": [
+    "hamuul runetotem location",
+    "where is hamuul",
+    "find hamuul runetotem"
+   ],
+   "answer": "He can be found on the Elder Rise within Thunder Bluff proper.",
+   "q": "Where is Hamuul Runetotem located?"
+  },
+  {
+   "aliases": [
+    "hamuul research",
+    "what is hamuul studying",
+    "cenarion circle research"
+   ],
+   "answer": "The Cenarion Circle is conducting a vital research project, though the details are disclosed only to those who meet Hamuul directly.",
+   "q": "What kind of work is Hamuul Runetotem conducting?"
+  }
+ ],
+ "keywords": [
+  "arch druid",
+  "cenarion circle",
+  "elder rise",
+  "hamuul runetotem",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1489",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "Word has spread across the city that the Cenarion Circle requires outside aid. If you choose to answer the call, you will find Hamuul Runetotem gathered with his fellow druids on the Elder Rise in Thunder Bluff. The arch druid keeps the exact nature of his study quiet until you present yourself in person.",
+   "spoiler": 0,
+   "title": "A Summons to the Mesa"
+  }
+ ],
+ "summary": "The Cenarion Circle in Thunder Bluff is seeking seasoned adventurers for an urgent inquiry. Arch Druid Hamuul Runetotem leads the effort from atop the mesa, though the details of his work remain closely held.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Assisting Arch Druid Runetotem"
+ ]
+}

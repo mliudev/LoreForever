@@ -1,7 +1,7 @@
 {
  "key": "item:xerash-s-herb-pouch",
  "type": "item",
- "name": "Xerash's Herb Pouch",
+ "name": "Neeru's Herb Pouch",
  "era": "classic",
  "zone": "feralas",
  "meta": {
@@ -10,22 +10,22 @@
    "quest:3122"
   ]
  },
- "summary": "Xerash's Herb Pouch carries herbs for Witch Doctor Uzer'i in Feralas. He needs them to prepare a muisek vessel.",
+ "summary": "Neeru's Herb Pouch carries herbs for Witch Doctor Uzer'i in Feralas. He needs them to prepare a muisek vessel.",
  "sections": [
   {
    "title": "Herbs for Uzer'i",
-   "body": "Witch Doctor Uzer'i needs Xerash's herbs for a ritual in Feralas. Xerash is satisfied with the shrunken head, and sends the pouch along with word of that approval. Uzer'i applies the herbs as he prepares the muisek vessel, hoping his latest incantations will prove powerful.",
+   "body": "Witch Doctor Uzer'i needs Neeru Fireblade's herbs for a ritual in Feralas. Neeru is satisfied with the shrunken head, and sends the pouch along with word of that approval. Uzer'i applies the herbs as he prepares the muisek vessel, hoping his latest incantations will prove powerful.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "Who needs Xerash's Herb Pouch?",
+   "q": "Who needs Neeru's Herb Pouch?",
    "aliases": [
     "who needs the pouch",
     "herb pouch for who"
    ],
-   "answer": "Witch Doctor Uzer'i needs Xerash's Herb Pouch to prepare a muisek vessel."
+   "answer": "Witch Doctor Uzer'i needs Neeru's Herb Pouch to prepare a muisek vessel."
   },
   {
    "q": "What is in the pouch?",
@@ -33,7 +33,7 @@
     "what herbs",
     "pouch contents"
    ],
-   "answer": "The pouch holds herbs Xerash gathered for Witch Doctor Uzer'i."
+   "answer": "The pouch holds herbs Neeru Fireblade gathered for Witch Doctor Uzer'i."
   },
   {
    "q": "Why does Uzer'i want the herbs?",
@@ -44,12 +44,12 @@
    "answer": "Witch Doctor Uzer'i applies the herbs while preparing a muisek vessel for a ritual."
   },
   {
-   "q": "What does Xerash say about the shrunken head?",
+   "q": "What does Neeru say about the shrunken head?",
    "aliases": [
-    "xerash shrunken head",
-    "is xerash satisfied"
+    "neeru shrunken head",
+    "is neeru satisfied"
    ],
-   "answer": "Xerash is satisfied with the shrunken head and asks that Witch Doctor Uzer'i be told."
+   "answer": "Neeru is satisfied with the shrunken head and asks that Witch Doctor Uzer'i be told."
   },
   {
    "q": "What is a muisek vessel?",
@@ -65,15 +65,14 @@
   "feralas",
   "herbs",
   "muisek vessel",
+  "neeru fireblade",
+  "neeru's herb pouch",
   "shrunken head",
-  "witch doctor uzer'i",
-  "xerash",
-  "xerash's herb pouch"
+  "witch doctor uzer'i"
  ],
  "related": [
   "quest:3122",
   "npc:witch-doctor-uzer-i",
-  "item:shrunken-head",
   "zone:feralas"
  ],
  "style": 2,

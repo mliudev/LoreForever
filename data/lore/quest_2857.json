@@ -1,0 +1,67 @@
+{
+ "key": "quest:2857",
+ "type": "quest",
+ "name": "Wild Leather Helmet",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2857
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is jangdor swiftstrider",
+    "where is jangdor",
+    "jangdor swiftstrider location"
+   ],
+   "answer": "Jangdor Swiftstrider makes his camp at Camp Mojache, where he trades with travelers and works leather.",
+   "q": "Who is Jangdor Swiftstrider?"
+  },
+  {
+   "aliases": [
+    "where is camp mojache",
+    "camp mojache location"
+   ],
+   "answer": "Camp Mojache is a Horde outpost in the forests of Feralas.",
+   "q": "Where is Camp Mojache?"
+  },
+  {
+   "aliases": [
+    "what materials does jangdor need",
+    "wild leather helmet materials",
+    "items needed for wild leather helmet"
+   ],
+   "answer": "Jangdor Swiftstrider requires two Nightscape Tunics, two Nightscape Headbands, and a stem of Wildvine.",
+   "q": "What items does Jangdor Swiftstrider ask for?"
+  }
+ ],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "jangdor swiftstrider",
+  "nightscape headband",
+  "nightscape tunic",
+  "wild leather helmet",
+  "wildvine"
+ ],
+ "related": [
+  "subzone:camp-mojache"
+ ],
+ "sections": [
+  {
+   "body": "At Camp Mojache, Jangdor Swiftstrider works his craft among the Horde travelers of Feralas. To fashion a Wild Leather Helmet, he requires two Nightscape Tunics, two Nightscape Headbands, and a single stem of Wildvine. If you bring him these tailored pieces and rare jungle vines, he can finish the headpiece.",
+   "spoiler": 0,
+   "title": "The Crafter at Camp Mojache"
+  }
+ ],
+ "summary": "Jangdor Swiftstrider at Camp Mojache seeks skilled materials to shape a Wild Leather Helmet. Bringing him Nightscape armor and Wildvine allows the tauren artisan to ply his craft in Feralas.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wild Leather Helmet"
+ ]
+}

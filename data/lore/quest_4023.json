@@ -1,0 +1,63 @@
+{
+ "key": "quest:4023",
+ "type": "quest",
+ "name": "A Taste of Flame",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4023
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Cyrus Therepentous asks you to prove your worth. He already seems to doubt you.",
+ "sections": [
+  {
+   "title": "Cyrus's Test",
+   "body": "Cyrus Therepentous watches you with eyes that blaze like two spheres. He asks you to show proof of your worth, though you sense he believes you are unworthy.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Cyrus want?",
+   "aliases": [
+    "cyrus wants what",
+    "prove worth"
+   ],
+   "answer": "Cyrus Therepentous asks you to show proof of your worth."
+  },
+  {
+   "q": "Does Cyrus think I'm worthy?",
+   "aliases": [
+    "cyrus thinks im unworthy",
+    "am i worthy"
+   ],
+   "answer": "You sense that Cyrus already believes you are unworthy."
+  },
+  {
+   "q": "What happens when Cyrus watches me?",
+   "aliases": [
+    "cyrus eyes",
+    "blazing eyes"
+   ],
+   "answer": "Cyrus's eyes form two blazing spheres."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a taste of flame",
+  "blazing eyes",
+  "cyrus therepentous",
+  "prove worth",
+  "unworthy"
+ ],
+ "related": [
+  "npc:cyrus-therepentous"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Taste of Flame"
+ ]
+}

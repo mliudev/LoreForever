@@ -534,7 +534,7 @@ P.transport["subzone:bandarion-keep"] = {
   fullHash = "0a01e3",
   text = "Bandarion Keep. At Bandarion Keep, defenders watch the coast and the woodland for danger. Near the Whispering Forest, the outpost bears Garek Bandarion’s name and is bound to Tyr's Watch. Bandarion Keep guards western Tirisfal Glades near the Whispering Forest. Named for Garek Bandarion, the stronghold is closely bound to Tyr's Watch. Quartermaster Jorin Croge works to keep the garrison supplied. Yet the keep lies far from the courtyards of the Undercity. Threats press Bandarion Keep from several directions. Vile Fin murlocs raid the nearby waters, while the Scarlet Crusade tests the defenders in skirmishes. Mindless Scourge thralls wander through the gloom. Some paladins have struggled to accept their unlife as Forsaken and have fallen to madness. They turn their weapons against their own kindred.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bandarion-keep-6b2a20d894fd282dac47/1-0000.mp3", duration = 55.7453061, start = 0},
+    {file = "Audio/Transport/full_subzone_bandarion-keep-620c2025574b6026c602/1-0000.mp3", duration = 52.4277551, start = 0},
   },
 }
 P.transport["subzone:beren-s-peril"] = {
@@ -1542,7 +1542,7 @@ P.transport["subzone:whispering-forest"] = {
   fullHash = "20ef26",
   text = "Whispering Forest. Behind Deathknell, the Whispering Forest lies quiet beneath western Tirisfal’s cliffs. Its lake, giant mushroom ring, and uncanny wildlife break the stillness, while corruption stirs beneath the soil. Beyond Northface Rock and Bandarion Keep, the Whispering Forest feels far from plague-touched Tirisfal. Afflicted deer and roaming predators share its woods with a tranquil lake. Nearby, giant mushrooms form a ring beneath a hovering cloud of mist, glowing with uncanny energy. The ghostly Knight of Mourning wanders among them, bound by oath. Natural magic lingers here in land scarred by the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_whispering-forest-f60c785093784c3d56ef/1-0000.mp3", duration = 47.0204082, start = 0},
+    {file = "Audio/Transport/full_subzone_whispering-forest-f58a4c35ab84df097d99/1-0000.mp3", duration = 41.8220408, start = 0},
   },
 }
 P.transport["subzone:whispering-shore"] = {

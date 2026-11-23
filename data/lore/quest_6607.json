@@ -1,0 +1,97 @@
+{
+ "key": "quest:6607",
+ "type": "quest",
+ "name": "Nat Pagle, Angler Extreme",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6607
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Nat Pagle asks you to bring him four kinds of fish from distant shores and rivers. The catch spans the Swamp of Sorrows, Desolace, Feralas, and Stranglethorn Vale.",
+ "sections": [
+  {
+   "title": "Four Waters",
+   "body": "Nat Pagle in Dustwallow Marsh is waiting for four fish from across Azeroth. You are asked to bring him a Misty Reed Mahi Mahi, a Sar'theris Striker, a Feralas Ahi, and a Savage Coast Blue Sailfin. Each comes from a named shore or river, and Nat awaits your return with the full catch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Which fish does Nat Pagle want?",
+   "aliases": [
+    "nat pagle fish",
+    "angler extreme fish list"
+   ],
+   "answer": "Nat Pagle asks for a Misty Reed Mahi Mahi, a Sar'theris Striker, a Feralas Ahi, and a Savage Coast Blue Sailfin."
+  },
+  {
+   "q": "Where can I find the Misty Reed Mahi Mahi?",
+   "aliases": [
+    "misty reed mahi location",
+    "swamp fish"
+   ],
+   "answer": "The Misty Reed Mahi Mahi comes from the Misty Reed Strand in the Swamp of Sorrows."
+  },
+  {
+   "q": "Where is the Sar'theris Striker from?",
+   "aliases": [
+    "sartheris striker location",
+    "desolace fish"
+   ],
+   "answer": "The Sar'theris Striker comes from Sar'theris Strand in Desolace."
+  },
+  {
+   "q": "Where can I find Feralas Ahi?",
+   "aliases": [
+    "feralas ahi location",
+    "feralas fish"
+   ],
+   "answer": "Feralas Ahi comes from the Verdantis River in Feralas."
+  },
+  {
+   "q": "Where is Savage Coast Blue Sailfin found?",
+   "aliases": [
+    "blue sailfin location",
+    "savage coast fish"
+   ],
+   "answer": "Savage Coast Blue Sailfin comes from the Savage Coast of Stranglethorn Vale."
+  },
+  {
+   "q": "What should I do after catching the fish?",
+   "aliases": [
+    "where to take fish",
+    "nat pagle turn in"
+   ],
+   "answer": "Return to Nat Pagle with all four fish."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angler extreme",
+  "feralas ahi",
+  "fishing",
+  "misty reed mahi mahi",
+  "nat pagle",
+  "sar'theris striker",
+  "savage coast blue sailfin"
+ ],
+ "related": [
+  "npc:nat-pagle",
+  "zone:dustwallow",
+  "zone:swampofsorrows",
+  "zone:desolace",
+  "zone:feralas",
+  "zone:stranglethorn",
+  "subzone:misty-reed-strand",
+  "subzone:sar-theris-strand",
+  "subzone:savage-coast"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Nat Pagle, Angler Extreme"
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "key": "quest:1102",
+ "type": "quest",
+ "name": "A Vengeful Fate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1102
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "Auld Stonespire seeks retribution for an offense against sacred ground, calling on you to avenge the driven tauren."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "From Thunder Bluff, an elder asks you to carry the wrath of his people straight into the thorned halls of Razorfen Kraul."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives a vengeful fate",
+    "where is auld stonespire"
+   ],
+   "answer": "Auld Stonespire waits on the high bluffs of Thunder Bluff, seeking vengeance against the quillboar of Razorfen Kraul.",
+   "q": "Who gives this quest?"
+  },
+  {
+   "aliases": [
+    "what does auld want",
+    "target of a vengeful fate",
+    "who to kill in kraul"
+   ],
+   "answer": "He demands the heart of Razorflank, striking at the heart of the quillboar tribe inside Razorfen Kraul.",
+   "q": "What does Auld Stonespire ask for?"
+  },
+  {
+   "aliases": [
+    "why fight razorflank",
+    "why attack razorfen kraul"
+   ],
+   "answer": "The tribe drove his people from sacred soil, an outrage he believes demands total and bitter revenge.",
+   "q": "Why does Auld Stonespire want Razorflank dead?"
+  },
+  {
+   "aliases": [
+    "where is razorflank",
+    "where to bring the heart"
+   ],
+   "answer": "Razorflank dwells deep within Razorfen Kraul, and the trophy must be delivered to Auld Stonespire in Thunder Bluff.",
+   "q": "Where must you go to find Razorflank?"
+  }
+ ],
+ "keywords": [
+  "auld stonespire",
+  "holy land",
+  "quillboar",
+  "razorfen kraul",
+  "razorflank",
+  "razorflank's heart",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "zone:razorfenkraul",
+  "topic:razorfen"
+ ],
+ "sections": [
+  {
+   "body": "Auld Stonespire nurses an enduring bitterness atop Thunder Bluff. The quillboar drove his kin away from their sacred soil, a desecration he cannot forgive. Now he looks to you to journey south into the tangled thorns of Razorfen Kraul and claim the heart of Razorflank.",
+   "spoiler": 0,
+   "title": "Reckoning for Holy Ground"
+  },
+  {
+   "body": "When you return with the bloody heart to Thunder Bluff, Auld Stonespire welcomes the grim proof. Seeing Razorflank brought low reassures him that the beasts finally share in his people's grief, answering the violation of holy ground with severe retribution.",
+   "spoiler": 1,
+   "title": "A Plight Avenged"
+  }
+ ],
+ "summary": "Auld Stonespire sits high in Thunder Bluff with an old grievance against the foul tribe of Razorfen Kraul. His people were driven from their holy ground, and he wants you to claim the heart of Razorflank to balance the debt in blood.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Vengeful Fate"
+ ]
+}

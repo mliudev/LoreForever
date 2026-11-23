@@ -10,7 +10,7 @@
    "quest:348"
   ]
  },
- "summary": "The Heart of Mokk is taken from Mokk the Savage in Cape of Stranglethorn. Fin Fizracket seeks it as a cure for Stranglethorn Fever.",
+ "summary": "The Heart of Mokk is taken from Mokk the Savage in Stranglethorn Vale. Fin Fizracket seeks it as a cure for Stranglethorn Fever.",
  "sections": [
   {
    "title": "A Fever's Cure",
@@ -26,7 +26,7 @@
     "heart item",
     "what's mokk's heart"
    ],
-   "answer": "The Heart of Mokk is the heart of Mokk the Savage, an elusive white beast in Cape of Stranglethorn."
+   "answer": "The Heart of Mokk is the heart of Mokk the Savage, an elusive white beast in Stranglethorn Vale."
   },
   {
    "q": "Who needs the Heart of Mokk?",
@@ -44,7 +44,7 @@
     "mokk location",
     "find heart of mokk"
    ],
-   "answer": "The Heart of Mokk comes from Mokk the Savage in Cape of Stranglethorn."
+   "answer": "The Heart of Mokk comes from Mokk the Savage, summoned near the southern cape of Stranglethorn Vale."
   },
   {
    "q": "How can Mokk be summoned?",
@@ -58,7 +58,6 @@
  ],
  "angles": [],
  "keywords": [
-  "cape of stranglethorn",
   "fin fizracket",
   "heart of mokk",
   "mokk the savage",
@@ -68,8 +67,7 @@
  "related": [
   "quest:349",
   "zone:stranglethorn",
-  "subzone:booty-bay",
-  "subzone:cape-of-stranglethorn"
+  "subzone:booty-bay"
  ],
  "style": 2,
  "attribution": [

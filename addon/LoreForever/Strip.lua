@@ -596,11 +596,12 @@ local purseTurn, purseDue = 0, true
 
 -- The character in the world now (LOR-711), independent of the last disk save: kind 3, low bits 3, then the
 -- CRC-32 of Journey.CharKey's UTF-8 bytes. Willo resolves it only against a unique saved gameKey; equal names
--- across accounts or hash collisions stay unknown. Never send Journey.CharKey's fallback "?" as an identity.
+-- across accounts or hash collisions stay unknown. Never send a missing player name ("?"), but allow a fallback
+-- realm ("?") when the client returns no realm name because Journey.CharKey saves under that same Name-? gameKey.
 function Strip.Identity()
   if not (ns.Journey and ns.Journey.CharKey) then return nil end
-  local key, name, realm = ns.Journey.CharKey()
-  if type(key) ~= "string" or not name or not realm or name == "?" or realm == "?" then return nil end
+  local key, name = ns.Journey.CharKey()
+  if type(key) ~= "string" or not name or name == "?" then return nil end
   local out = { 0xC3 }
   put(out, Strip.CRC32(key), 4)
   return out
@@ -625,8 +626,8 @@ local CLASS_IDS = { WARRIOR = 1, PALADIN = 2, HUNTER = 3, ROGUE = 4, PRIEST = 5,
   DRUID = 11 }
 function Strip.Sheet()
   if not (ns.Journey and ns.Journey.CharKey) then return nil end
-  local key, name, realm = ns.Journey.CharKey()
-  if type(key) ~= "string" or not name or not realm or name == "?" or realm == "?" then return nil end
+  local key, name = ns.Journey.CharKey()
+  if type(key) ~= "string" or not name or name == "?" then return nil end
   local _, raceFile, raceID = try(UnitRace, "player")
   local _, classFile, classID = try(UnitClass, "player")
   raceID = tonumber(raceID) or RACE_IDS[raceFile or ""] or 0
@@ -1673,7 +1674,10 @@ end
 -- told her.
 local firstLook = false
 local function firstLoginLook()
-  if firstLook or not (ns.Journey and ns.Journey.FirstLogin and ns.Journey.FirstLogin()) then return end
+  if firstLook then return end
+  local needed = ns.Journey and ((ns.Journey.FirstLogin and ns.Journey.FirstLogin())
+    or (ns.Journey.SwitchedLogin and ns.Journey.SwitchedLogin()))
+  if not needed then return end
   if yes(try(InCinematic)) then return end   -- CINEMATIC_STOP looks again
   firstLook = true
   if lastGlance > -math.huge then return end
@@ -1681,7 +1685,8 @@ local function firstLoginLook()
 end
 local firstLogin = CreateFrame("Frame")
 for _, e in ipairs({ "PLAYER_ENTERING_WORLD", "CINEMATIC_STOP" }) do pcall(firstLogin.RegisterEvent, firstLogin, e) end
-firstLogin:SetScript("OnEvent", function()
+firstLogin:SetScript("OnEvent", function(_, event, _, isReload)
+  if event == "PLAYER_ENTERING_WORLD" and isReload then return end
   if C_Timer and C_Timer.After then C_Timer.After(2, function() ns.Guard(firstLoginLook) end) end
 end)
 
@@ -2079,7 +2084,7 @@ function Strip.Update()
   end
   if not showing then   -- the first visible pages must reach a short talk-key capture
     identityTurn, recipeOwed = 7, 1
-    skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = Strip.RecipePage() and 1 or 0, nil, nil, nil
+    skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = (identityFromWillo() or Strip.RecipePage()) and 1 or 0, nil, nil, nil
     dropNames()
     names.sent = {}   -- each sky-up sends the target's name again
   end

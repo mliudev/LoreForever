@@ -1,0 +1,81 @@
+{
+ "key": "quest:4962",
+ "type": "quest",
+ "name": "Shard of a Felhound",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4962
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Binding the essence of a felhound into a ruby demands direct command over demonic spirits."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "felhas ruby use",
+    "how to trap felhound"
+   ],
+   "answer": "The ruby draws out and imprisons the spirit of a felhound in Desolace when turned upon the beast.",
+   "q": "What is the Felhas Ruby used for?"
+  },
+  {
+   "aliases": [
+    "menara voidrender location",
+    "where is menara"
+   ],
+   "answer": "Menara Voidrender waits in the Barrens.",
+   "q": "Where is Menara Voidrender?"
+  },
+  {
+   "aliases": [
+    "where are felhounds",
+    "desolace demons"
+   ],
+   "answer": "Prowling felhounds roam the wastes of Desolace.",
+   "q": "Where can felhounds be found?"
+  },
+  {
+   "aliases": [
+    "who gets the felhound spirit",
+    "where to bring ruby"
+   ],
+   "answer": "Return both the ruby and the imprisoned demonic essence to Menara Voidrender in the Barrens.",
+   "q": "Who seeks the imprisoned felhound spirit?"
+  }
+ ],
+ "keywords": [
+  "barrens",
+  "demon",
+  "desolace",
+  "felhas ruby",
+  "felhound",
+  "menara voidrender",
+  "shard of a felhound",
+  "warlock"
+ ],
+ "related": [
+  "npc:menara-voidrender",
+  "zone:desolace",
+  "zone:barrens"
+ ],
+ "sections": [
+  {
+   "body": "Menara Voidrender sends you west into the wastes of Desolace to trap a demon. Armed with a Felhas Ruby, you must bind the spirit of a living felhound before it tears free. Bringing the captive essence back to the Barrens will place its feral strength in the warlock's hands.",
+   "spoiler": 0,
+   "title": "Trapping the Beast"
+  }
+ ],
+ "summary": "Menara Voidrender in the Barrens requires the imprisoned essence of a living demon. You carry the Felhas Ruby westward to Desolace to bind the spirit of a roaming felhound.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shard of a Felhound"
+ ]
+}

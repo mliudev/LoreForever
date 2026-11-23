@@ -1,0 +1,84 @@
+{
+ "key": "quest:94218",
+ "type": "quest",
+ "name": "Craftsman's Writ: Elixir of Defense",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94218
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Elixir of Defense and gives a delivery location and payment details. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Written Request",
+   "body": "The note is penned in faded ink, and the writ can pass from hand to hand. It asks for one Elixir of Defense and gives details for delivery and payment. To complete the exchange, you need the writ in your possession and must bring the requested item to the marked location.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what item",
+    "elixir writ",
+    "defense elixir"
+   ],
+   "answer": "The writ requests one Elixir of Defense."
+  },
+  {
+   "q": "Where do I deliver the elixir?",
+   "aliases": [
+    "delivery place",
+    "where deliver",
+    "writ location"
+   ],
+   "answer": "The writ's marked location gives the delivery destination."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need writ",
+    "writ required",
+    "can I deliver without it"
+   ],
+   "answer": "Yes. You must have the writ in your possession to complete the exchange."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "transferable writ",
+    "can I pass it on",
+    "give writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "payment details",
+    "how much payment",
+    "writ payment"
+   ],
+   "answer": "The writ includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "elixir",
+  "elixir of defense",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Elixir of Defense"
+ ]
+}

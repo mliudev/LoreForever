@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Grim Token",
-   "body": "Thorius in Ironforge asks you to bring him the Head of Lathoric the Black from Searing Gorge. The head is proof of Lathoric's death, and it is carried alongside the Heart of Obsidion.",
+   "body": "A dying archaeologist in Searing Gorge begs you to kill Lathoric the Black for Thorius. Curator Thorius in Ironforge will not believe what happened without proof, so the head of Lathoric goes to him alongside the Heart of Obsidion.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "why head for thorius",
     "thorius proof"
    ],
-   "answer": "Thorius asks you to bring the head to Ironforge as proof connected to the danger around Obsidion."
+   "answer": "Thorius will not believe what happened in Searing Gorge until you show him proof, so the head goes to him in Ironforge."
   },
   {
    "q": "Where do I take the head?",

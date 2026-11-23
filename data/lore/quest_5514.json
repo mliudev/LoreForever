@@ -1,0 +1,65 @@
+{
+ "key": "quest:5514",
+ "type": "quest",
+ "name": "Mold Rhymes With...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5514
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is krinkle goodsteel",
+    "krinkle goodsteel location",
+    "where is krinkle goodsteel"
+   ],
+   "answer": "Krinkle Goodsteel is an artisan residing in the desert town of Gadgetzan.",
+   "q": "Who is Krinkle Goodsteel?"
+  },
+  {
+   "aliases": [
+    "gadgetzan location",
+    "where is gadgetzan"
+   ],
+   "answer": "Gadgetzan is a goblin settlement in the desert of Tanaris.",
+   "q": "Where is Gadgetzan?"
+  },
+  {
+   "aliases": [
+    "what to bring to krinkle goodsteel",
+    "krinkle goodsteel delivery"
+   ],
+   "answer": "You carry imbued skeletal fragments along with fifteen gold coins across the dunes to Krinkle Goodsteel.",
+   "q": "What does Krinkle Goodsteel need?"
+  }
+ ],
+ "keywords": [
+  "gadgetzan",
+  "gold coins",
+  "imbued skeletal fragments",
+  "krinkle goodsteel",
+  "skeletal fragments",
+  "tanaris"
+ ],
+ "related": [
+  "subzone:gadgetzan"
+ ],
+ "sections": [
+  {
+   "body": "A specialized undertaking sends you across the dunes toward Gadgetzan. Krinkle Goodsteel awaits delivery of imbued skeletal fragments and fifteen gold coins to assist in his craft.",
+   "spoiler": 0,
+   "title": "Delivery to Gadgetzan"
+  }
+ ],
+ "summary": "You carry imbued skeletal fragments and fifteen gold coins across the sands to Krinkle Goodsteel in Gadgetzan. The smith awaits the payment and materials to assist in his specialized work.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mold Rhymes With..."
+ ]
+}

@@ -7,6 +7,15 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.17.0 (2026-11-23)
+
+- Corrected lore in 14 entries.
+
+- Corrected lore in 83 entries.
+
+- **Settings are easier to find.** Five tabs group narration, on-screen controls, keybinds, companion controls,
+  and general preferences.
+
 ## 1.16.0 (2026-11-22)
 
 - The add-on now says Português (Brasil), not just Português, where it names its Brazilian Portuguese recordings.

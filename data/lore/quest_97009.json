@@ -1,0 +1,93 @@
+{
+ "key": "quest:97009",
+ "type": "quest",
+ "name": "Maerion's Misery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97009
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Maerion sees the return of Horde forces to the desecrated mountain as a sign that war stirs once more."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "Maerion watches the Alliance march back to the mountain, welcoming the conflict they bring against the demons."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is maerion",
+    "who gives maerions misery"
+   ],
+   "answer": "Maerion Thaelemaches is an abandoned survivor in Dae'gun who was left behind to die while an army retreated.",
+   "q": "Who is Maerion Thaelemaches?"
+  },
+  {
+   "aliases": [
+    "where is maerion thaelemaches",
+    "where is daegun"
+   ],
+   "answer": "Maerion Thaelemaches dwells in Dae'gun, amidst a desecrated mountain where demons roam.",
+   "q": "Where is Dae'gun?"
+  },
+  {
+   "aliases": [
+    "why collect felhound spikes",
+    "why does maerion want spikes"
+   ],
+   "answer": "Maerion wants to test your shared fury against the demons, demanding spikes taken from defiling hounds.",
+   "q": "Why does Maerion want felhound spikes?"
+  },
+  {
+   "aliases": [
+    "who left maerion behind",
+    "how did maerion get cursed"
+   ],
+   "answer": "An army threw Maerion aside to buy time for their own retreat, leaving him to endure the burning demons.",
+   "q": "Why was Maerion left to die?"
+  }
+ ],
+ "keywords": [
+  "daegun",
+  "defiling hounds",
+  "demons",
+  "desecrated mountain",
+  "felhound spikes",
+  "legion",
+  "maerion thaelemaches"
+ ],
+ "related": [
+  "topic:horde",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "In Dae'gun, Maerion Thaelemaches nurses an ancient, burning grievance. An army abandoned him here to buy time for their own retreat, leaving him cursed to survive under the blades of demonic invaders. Now, as Horde and Alliance forces return to the desecrated mountain, war stirs anew, and Maerion looks for allies who share his wrath.",
+   "spoiler": 0,
+   "title": "Wrath on the Mountain"
+  },
+  {
+   "body": "To prove that your purpose matches his, Maerion asks you to harvest sharp spikes from the defiling hounds roaming the slopes. He views these cruel implements as the proper tools to hasten the end of the demonic host.",
+   "spoiler": 0,
+   "title": "Implements of Spite"
+  },
+  {
+   "body": "Upon receiving the harvested spikes, Maerion plans to bind them with his own runic fire. By turning the weapons of the Legion back against them, he intends to make the demons feel the very terror and pain they inflict on mortal races.",
+   "spoiler": 1,
+   "title": "Turned Weapons"
+  }
+ ],
+ "summary": "In Dae'gun, Maerion Thaelemaches was abandoned by a fleeing army and cursed to endure among ever-burning demons. As the Horde and Alliance stir war upon the mountain once more, Maerion seeks to align your fury with his by gathering spikes from defiling hounds.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Maerion's Misery"
+ ]
+}

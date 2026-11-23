@@ -1,0 +1,75 @@
+{
+ "key": "quest:95431",
+ "type": "quest",
+ "name": "Rumblings of Discontent",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95431
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A scout asks you to find a Bolder'ok warrior in a cave west of here. Ogre dissidents seek the freedom their Bolder'ok kin have found.",
+ "sections": [
+  {
+   "title": "A Scout's Request",
+   "body": "A scout has found dissidents among the ogres who seek the freedom of their Bolder'ok kin. Word of your deeds has reached the scout, who asks you to find a Bolder'ok warrior in a cave west of here and join his effort to rally his people.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Familiar Name",
+   "body": "In the cave, the Bolder'ok warrior Crag'rog recognizes you as a fighter for Clugfist.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I looking for?",
+   "aliases": [
+    "bolder'ok warrior",
+    "ogre in cave"
+   ],
+   "answer": "A Bolder'ok warrior is in a nearby cave west of the scout."
+  },
+  {
+   "q": "Why am I being sent to find him?",
+   "aliases": [
+    "why find bolder'ok",
+    "what does scout want"
+   ],
+   "answer": "The scout asks you to join the warrior's effort to rally the ogres seeking freedom."
+  },
+  {
+   "q": "Who is Crag'rog?",
+   "aliases": [
+    "cragrog",
+    "who's crag'rog"
+   ],
+   "answer": "Crag'rog is the Bolder'ok warrior in the cave."
+  },
+  {
+   "q": "What do the ogre dissidents want?",
+   "aliases": [
+    "ogre rebels",
+    "bolder'ok freedom"
+   ],
+   "answer": "The dissidents seek the same freedom as their Bolder'ok kin."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "clugfist",
+  "crag'rog",
+  "freedom",
+  "ogre dissidents",
+  "rumblings of discontent"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rumblings of Discontent"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "key": "quest:2865",
+ "type": "quest",
+ "name": "Scarab Shells",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2865
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives scarab shells",
+    "who needs scarab shells",
+    "gadgetzan tranrek"
+   ],
+   "answer": "Tran'rek is waiting in Gadgetzan for whole scarab carapaces.",
+   "q": "Who is asking for scarab shells?"
+  },
+  {
+   "aliases": [
+    "where is tranrek",
+    "tranrek location",
+    "where to turn in scarab shells"
+   ],
+   "answer": "Tran'rek stays in the desert town of Gadgetzan.",
+   "q": "Where can Tran'rek be found?"
+  },
+  {
+   "aliases": [
+    "what shells does tranrek want",
+    "uncracked scarab shells"
+   ],
+   "answer": "Tran'rek needs five uncracked scarab shells brought to him in Gadgetzan.",
+   "q": "What kind of shells does Tran'rek need?"
+  }
+ ],
+ "keywords": [
+  "gadgetzan",
+  "scarab shells",
+  "tanaris",
+  "tran'rek",
+  "uncracked scarab shells"
+ ],
+ "related": [
+  "subzone:gadgetzan"
+ ],
+ "sections": [
+  {
+   "body": "Whole carapaces are hard to come by in Tanaris. Tran'rek is counting on you to bring five undamaged specimens safely back to the desert post.",
+   "spoiler": 0,
+   "title": "Carapaces for Gadgetzan"
+  }
+ ],
+ "summary": "Tran'rek is looking for uncracked scarab shells in Gadgetzan. Finding intact carapaces in the sands will spare him a great deal of trouble.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Scarab Shells"
+ ]
+}

@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Writ in Moonglade",
-   "body": "A customer in Moonglade asks you to bring a Great Rage Potion to the marked location. The writ can be transferred, and it must be with you to complete the exchange. The customer offers no delivery place or payment in the note itself.",
+   "body": "A customer in Moonglade asks you to bring a Great Rage Potion to the marked location. The writ can be transferred, and it must be with you to complete the exchange. The note also carries the delivery and payment details.",
    "spoiler": 0
   },
   {
@@ -85,7 +85,6 @@
   "rituals"
  ],
  "related": [
-  "quest:5921",
   "subzone:nighthaven",
   "topic:druid"
  ],

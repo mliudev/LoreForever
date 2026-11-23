@@ -1,0 +1,84 @@
+{
+ "key": "quest:94283",
+ "type": "quest",
+ "name": "Craftsman's Writ: Goblin Land Mine",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94283
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, constructing a Goblin Land Mine calls on your workshop skills to meet a patron's custom order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is asked for",
+    "writ item",
+    "what item is needed"
+   ],
+   "answer": "The note asks for a single Goblin Land Mine to be crafted or acquired and brought to the customer.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "who can do this writ",
+    "can someone else use the writ",
+    "trade writ"
+   ],
+   "answer": "Anyone who holds the writ can fulfill the order and collect payment, as the document is marked as transferable.",
+   "q": "Can anyone fulfill the writ?"
+  },
+  {
+   "aliases": [
+    "where to deliver mine",
+    "delivery spot"
+   ],
+   "answer": "The writ includes details pointing to the delivery location and the payment waiting for you upon arrival.",
+   "q": "Where does the delivery go?"
+  },
+  {
+   "aliases": [
+    "keep writ",
+    "do i need the paper"
+   ],
+   "answer": "You must keep the written document in your possession when delivering the mine to complete the transaction.",
+   "q": "Why must you hold onto the document?"
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "engineering",
+  "goblin",
+  "goblin land mine",
+  "writ"
+ ],
+ "related": [
+  "topic:goblin"
+ ],
+ "sections": [
+  {
+   "body": "Someone has put out a commercial order for volatile ordnance, penned in faded ink with clear terms for delivery and coin. Any craftsman holding the transferable note can assemble the device and claim the promised bounty.",
+   "spoiler": 0,
+   "title": "A Buyer for Explosives"
+  },
+  {
+   "body": "The marked delivery point awaits the completed explosive, provided you carry the document along to prove the agreement. Once the mine changes hands at the designated spot, the transaction closes and your payment is settled.",
+   "spoiler": 0,
+   "title": "Fulfilling the Order"
+  }
+ ],
+ "summary": "A commercial order penned in faded ink calls for a single Goblin Land Mine. Anyone holding the transferable paper can deliver the explosive to the agreed location and claim the payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Goblin Land Mine"
+ ]
+}

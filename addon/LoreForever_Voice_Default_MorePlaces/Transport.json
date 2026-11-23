@@ -705,9 +705,9 @@
     "subzone:boulder-gor": {
       "1": [
         {
-          "duration": 58.17469387755102,
-          "file": "Audio/Transport/full_subzone_boulder-gor-6f47dd9bdd62e8044f8b/1-0000.mp3",
-          "sha256": "ef6819a693e3d8dea122d2c0e5e5e9c9c105d26fb709418d2ad24e4c4031186f",
+          "duration": 56.52897959183674,
+          "file": "Audio/Transport/full_subzone_boulder-gor-e668aff92ea850c65e98/1-0000.mp3",
+          "sha256": "09ab90737c5dd4fe064c0990db7903ca64dc50667d7e58d89c36dccd27a0f700",
           "start": 0
         }
       ],
@@ -719,12 +719,12 @@
         ]
       },
       "fullHash": "fb4313",
-      "generation": "5176111b3f2f17055365",
+      "generation": "656e70143de1c0cafa36",
       "hash": "fb4313",
       "source": {
-        "duration": 58.200816,
+        "duration": 56.555102,
         "file": null,
-        "sha256": "6f47dd9bdd62e8044f8b37aab50bfde74cb270c623eb9ea2a4798d82b49ee3ab"
+        "sha256": "e668aff92ea850c65e988f32577389e500e6ff365dce55b20a760602bb57c3c0"
       },
       "text": "Boulder'gor. Boulder'gor commands western Arathi, north of Stromgarde, where Boulderfist ogres and Witherbark trolls share an encampment. North of Stromgarde Keep’s crumbling ramparts, Boulder'gor rises above the central roads of Arathi. The Boulderfist Outpost mound stands among its shadows, a stronghold of ogre power across the highlands. Boulderfist ogres share fires and fortifications with Witherbark forest trolls. Their shadowy spellcasters add dark magic to the clan’s brute force, and together they endanger travelers on the roads. From Boulder'gor’s slopes, you can look across the open highlands of western Arathi. The hill lies between Stromgarde’s Syndicate-infiltrated ruins and the plains’ wild elemental sites. Heavily guarded and hostile, Boulder'gor remains a tribal stronghold against Alliance and Horde wanderers."
     },
@@ -10762,6 +10762,16 @@
       431,
       881
     ],
+    "09ab90737c5dd4fe064c0990db7903ca64dc50667d7e58d89c36dccd27a0f700": [
+      169,
+      353,
+      627,
+      886,
+      1095,
+      1396,
+      1605,
+      1880
+    ],
     "09b6cc15bcba9d395ae68f0210665ead1b14aa5c3450546862fe62af4d286446": [
       283,
       511,
@@ -14476,17 +14486,6 @@
       733,
       1140
     ],
-    "ef6819a693e3d8dea122d2c0e5e5e9c9c105d26fb709418d2ad24e4c4031186f": [
-      184,
-      373,
-      630,
-      905,
-      1117,
-      1286,
-      1429,
-      1642,
-      1936
-    ],
     "efc725ea46d4a9c21d251d77b7b7471369f88e4f94c27826c870adfc194bd67b": [
       193,
       377,
@@ -14798,6 +14797,10 @@
     "08a7e3f308e5db37f98b992f74f300b806903b462607f5b68b045198e102a7a1": {
       "1437": 2,
       "484": 1
+    },
+    "09ab90737c5dd4fe064c0990db7903ca64dc50667d7e58d89c36dccd27a0f700": {
+      "1396": 2,
+      "353": 1
     },
     "09b6cc15bcba9d395ae68f0210665ead1b14aa5c3450546862fe62af4d286446": {
       "789": 1
@@ -16070,10 +16073,6 @@
     },
     "ef471785def1085796f8279cdcc0cc7e90975415532136e62631bdb3c992964b": {
       "391": 1
-    },
-    "ef6819a693e3d8dea122d2c0e5e5e9c9c105d26fb709418d2ad24e4c4031186f": {
-      "1429": 2,
-      "373": 1
     },
     "efc725ea46d4a9c21d251d77b7b7471369f88e4f94c27826c870adfc194bd67b": {
       "1337": 2,

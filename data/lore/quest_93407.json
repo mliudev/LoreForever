@@ -1,0 +1,85 @@
+{
+ "key": "quest:93407",
+ "type": "quest",
+ "name": "A Thorn in the Paw",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93407
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, shaping wild brambles into living ramparts is second nature, calling upon the forest itself to guard sacred ground."
+  },
+  {
+   "target": "profession:Herbalism",
+   "text": "As an herbalist, you know how to harvest seeds from wild brambles so they can take root and thrive as protective hedges."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives thorn in the paw",
+    "who wants the thorn seeds",
+    "tiala whitemane hyjal"
+   ],
+   "answer": "Tiala Whitemane asks for the seeds at the summit of Mount Hyjal.",
+   "q": "Who asks for the thorn seeds?"
+  },
+  {
+   "aliases": [
+    "why gather thorn seeds",
+    "what are the seeds for",
+    "why thorn bushes"
+   ],
+   "answer": "The encampment lacks the supplies needed for stone walls or timber barricades. Growing thick thorn bushes provides a natural defense instead.",
+   "q": "Why does Tiala Whitemane want thorn seeds?"
+  },
+  {
+   "aliases": [
+    "where are the thorn bushes",
+    "thorn seeds location",
+    "where to find seeds hyjal"
+   ],
+   "answer": "You can gather thorn seeds from the wild bushes scattered through the high forests of Mount Hyjal.",
+   "q": "Where do the thorn seeds come from?"
+  },
+  {
+   "aliases": [
+    "hyjal defenses",
+    "why build defenses hyjal"
+   ],
+   "answer": "Tiala Whitemane intends to harness the power of nature to grow living barricades around their position on the mountain.",
+   "q": "How will the defenders protect themselves?"
+  }
+ ],
+ "keywords": [
+  "bounty of nature",
+  "hyjal defenses",
+  "mount hyjal",
+  "thorn bushes",
+  "thorn in the paw",
+  "thorn seeds",
+  "tiala whitemane"
+ ],
+ "related": [
+  "zone:hyjal"
+ ],
+ "sections": [
+  {
+   "body": "Tiala Whitemane needs to fortify her outpost on the summit of Mount Hyjal, but she has neither stone nor timber to raise proper barricades. Instead, she looks to the ancient forest to provide living ramparts. She asks you to comb the woodlands for wild thorn bushes and gather their seeds. With the natural magic of the heights, she hopes to cultivate dense briars that will deter any who approach.",
+   "spoiler": 0,
+   "title": "Living Defenses"
+  }
+ ],
+ "summary": "At the summit of Mount Hyjal, Tiala Whitemane needs to secure her camp without stone or timber. She asks you to gather thorn seeds from the woods so nature itself can grow into a protective wall.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Thorn in the Paw"
+ ]
+}

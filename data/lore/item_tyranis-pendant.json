@@ -10,11 +10,11 @@
    "quest:1439"
   ]
  },
- "summary": "Tyranis' Pendant is found at Thunder Axe Fortress in Desolace. It helps Vahlarriel learn what became of her brother, Tyranis Malem.",
+ "summary": "Tyranis' Pendant is found at Thunder Axe Fortress in Desolace. It helps Dalinda Malem learn what became of her brother, Tyranis Malem.",
  "sections": [
   {
    "title": "A Brother's Trail",
-   "body": "Vahlarriel waits at Thunder Axe Fortress, unable to leave before she knows what happened to Tyranis. The pendant is tied to that search. She fears her brother may be drawn to the Burning Blade's arcane secrets, a danger he has long been tempted by.",
+   "body": "Dalinda Malem is held at Thunder Axe Fortress, unable to leave before she knows what happened to Tyranis. The pendant is tied to that search. She fears her brother may be drawn to the Burning Blade's arcane secrets, a danger he has long been tempted by.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "tyranis backstory",
     "who's tyranis"
    ],
-   "answer": "Tyranis Malem is Vahlarriel's brother, held at Thunder Axe Fortress in Desolace."
+   "answer": "Tyranis Malem is Dalinda Malem's brother, held at Thunder Axe Fortress in Desolace."
   },
   {
    "q": "Why does Vahlarriel want the pendant?",
@@ -44,7 +44,7 @@
     "why pendant",
     "what's it for"
    ],
-   "answer": "The pendant helps Vahlarriel learn what became of her brother, Tyranis."
+   "answer": "Vahlarriel Demonslayer was sent to find Tyranis and his sister Dalinda. The pendant tells what became of Tyranis, and Dalinda won't leave until she knows."
   },
   {
    "q": "What does Vahlarriel fear about Tyranis?",
@@ -53,7 +53,7 @@
     "why worried",
     "tyranis danger"
    ],
-   "answer": "Vahlarriel fears Tyranis will try to learn the Burning Blade's secrets and be seduced by their magic."
+   "answer": "Vahlarriel says her superiors doubt Tyranis's motives. His sister Dalinda fears he will try to learn the Burning Blade's secrets and be seduced by their magic."
   }
  ],
  "angles": [],

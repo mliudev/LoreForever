@@ -14,6 +14,9 @@
 --   runes), for "what should I upgrade?" and "am I ready for this dungeon?" (LOR-834)
 --   talents = { { name = tree, points, ranks = { [talent] = rank } } },   each tree's points and the talents taken
 --   bags = { [itemID] = { count, name } },   what's in their bags (BAGS_MAX kinds at most), for "do I have enough?"
+--   bars = { [action slot] = { kind, id, name, rank } },   what each action button holds ("spell", "item", "macro", ...),
+--   by name, rank where the game gives a spell's: an icon carries no words, so "what's on my action bar?" was out of
+--   her reach (LOR-1516)
 --   ready = { [itemID] = time() it's ready } }   each item they carry or wear whose own cooldown was running (Own.Running):
 --   a cooldown runs on while they're away, so "is my Hearthstone ready?" typed after they quit has its answer
 -- Never their buffs: a buff saved at logout is hours stale by the next question.
@@ -214,6 +217,34 @@ local function bags()
   return out
 end
 
+-- Each filled action slot (1 to ACTION_SLOTS: the modern client's 180, Classic's 120) by name: a spell's and its rank,
+-- an item's, a macro's (the name on its button), anything else by the name the game puts on its button. One whose name
+-- the game doesn't give keeps its kind and id, with "" for the name.
+local ACTION_SLOTS = 180
+local function slotName(slot, kind, id)
+  if kind == "spell" then
+    local S = _G.C_Spell
+    local rank = (S and try(S.GetSpellSubtext, id)) or try(GetSpellSubtext, id)
+    return spellName(id), type(rank) == "string" and rank ~= "" and ns.Context.Usable(rank) and rank or nil
+  end
+  if kind == "item" then return itemName(id) end
+  local name = try(GetActionText, slot)
+  if not (type(name) == "string" and name ~= "" and ns.Context.Usable(name)) and kind == "macro" then name = try(GetMacroInfo, id) end
+  return type(name) == "string" and name ~= "" and ns.Context.Usable(name) and name or nil
+end
+local function actionBars()
+  local out = {}
+  if type(GetActionInfo) ~= "function" then return out end
+  for slot = 1, ACTION_SLOTS do
+    local kind, id = try(GetActionInfo, slot)
+    if type(kind) == "string" and (type(id) == "number" or type(id) == "string") then
+      local name, rank = slotName(slot, kind, id)
+      out[slot] = { kind, id, name or "", rank }
+    end
+  end
+  return out
+end
+
 -- The level with the bar's fraction: 36.6 at 60% of the way to 37 (the cap's bar means nothing).
 local function levelNow(level, xp, xpMax)
   if level and xp and xpMax and xpMax > 0 and level < 60 then return level + math.min(0.99, xp / xpMax) end
@@ -239,7 +270,7 @@ end
 -- the world still up), so the save Willo reads said they carried nothing, and "What's in my bag?" went to the picture.
 -- Read again a second after any of these changes while they play; the leaving save takes a part from here when the game
 -- no longer gives it.
-local inWorld = nil       -- { money, xp, xpMax, riding, skills, gear, bags, ready }, nil until the first read in the world
+local inWorld = nil       -- { money, xp, xpMax, riding, skills, gear, bags, ready, bars }, nil until the first read in the world
 local readDue = false
 local function some(t) return type(t) == "table" and next(t) ~= nil end
 local function readyNow()
@@ -252,7 +283,7 @@ local function readyNow()
 end
 local function partsNow()
   return { money = number(try(GetMoney)), xp = number(try(UnitXP, "player")), xpMax = number(try(UnitXPMax, "player")),
-    riding = riding(), skills = skills(), gear = gear(), bags = bags(), ready = readyNow() }
+    riding = riding(), skills = skills(), gear = gear(), bags = bags(), ready = readyNow(), bars = actionBars() }
 end
 local function readLater()
   if readDue or not (C_Timer and C_Timer.After) then return end
@@ -262,7 +293,7 @@ end
 local watch = CreateFrame and CreateFrame("Frame")
 if watch then
   for _, e in ipairs({ "BAG_UPDATE_DELAYED", "PLAYER_EQUIPMENT_CHANGED", "PLAYER_MONEY", "PLAYER_XP_UPDATE",
-    "PLAYER_LEVEL_UP", "SKILL_LINES_CHANGED", "BAG_UPDATE_COOLDOWN" }) do pcall(watch.RegisterEvent, watch, e) end
+    "PLAYER_LEVEL_UP", "SKILL_LINES_CHANGED", "BAG_UPDATE_COOLDOWN", "ACTIONBAR_SLOT_CHANGED" }) do pcall(watch.RegisterEvent, watch, e) end
   watch:SetScript("OnEvent", function() if inWorld then readLater() end end)
 end
 
@@ -279,7 +310,7 @@ function Stock.Take(char, leaving)
     if not ((parts.riding or 0) > 0) and inWorld.riding then parts.riding = inWorld.riding end
     -- Their cooldowns went with their bags: an empty read of both is the logout's, not nothing running.
     if not some(parts.bags) and inWorld.ready then parts.ready = inWorld.ready end
-    for _, k in ipairs({ "skills", "gear", "bags" }) do
+    for _, k in ipairs({ "skills", "gear", "bags", "bars" }) do
       if not some(parts[k]) and inWorld[k] then parts[k] = inWorld[k] end
     end
   elseif not leaving then
@@ -294,7 +325,8 @@ function Stock.Take(char, leaving)
   local read = talents()
   char.stock = { t = now, level = level, xp = xp, xpMax = xpMax, money = money, riding = parts.riding,
     skills = parts.skills, rep = reputations(), gear = parts.gear,
-    talents = #read > 0 and read or type(had) == "table" and had or read, bags = parts.bags, ready = parts.ready }
+    talents = #read > 0 and read or type(had) == "table" and had or read, bags = parts.bags, ready = parts.ready,
+    bars = parts.bars }
   -- What's live for Willo counts from the save she holds (Own.lua, LOR-1516): at login or a /reload, the one just
   -- loaded, not this read. Counted from this read, what they've carried since before it never reached her: a new
   -- character's Hearthstone, or anything at all once a logout had saved empty bags (Mike's QA 11/15).

@@ -10,11 +10,11 @@
    "quest:5763"
   ]
  },
- "summary": "Roon\u2019s Kodo Horn is a gift from a Tauren hunter in Desolace. It carries an invitation to Hemet Nesingwary Jr. in Stranglethorn, recalling the friendship between Roon and his father.",
+ "summary": "Roon\u2019s Kodo Horn is a gift from a Tauren hunter in Desolace. It carries an invitation to Hemet Nesingwary in Stranglethorn, recalling the days the two hunted together.",
  "sections": [
   {
    "title": "A Hunter's Gift",
-   "body": "Hemet Nesingwary Jr. hunts in Stranglethorn, north of Grom'gol Base Camp. His father once hunted beside Roon Wildmane in Desolace, and the two set aside the enmity between their peoples. Roon gives you his kodo horn to carry to the younger Nesingwary. The gift bears a welcome from an old hunting companion.",
+   "body": "Hemet Nesingwary hunts in Stranglethorn, north of Grom'gol Base Camp. Long ago he hunted beside Roon Wildmane in Desolace, and the two set aside the enmity between their peoples. Roon gives you his kodo horn to carry to the dwarf, so they may one day hunt again. The gift bears a welcome from an old hunting companion.",
    "spoiler": 0
   }
  ],
@@ -29,22 +29,22 @@
    "answer": "Roon Wildmane is a Tauren hunter from Desolace who once hunted alongside Hemet Nesingwary."
   },
   {
-   "q": "Why give Hemet Jr. the horn?",
+   "q": "Why give Hemet the horn?",
    "aliases": [
     "why horn",
     "roon's gift",
     "horn for hemet"
    ],
-   "answer": "Roon sends the horn as a gift and a welcome to Hemet Nesingwary Jr., his old companion's son."
+   "answer": "Roon sends the horn as a gift and a welcome back to Hemet Nesingwary, his old hunting companion."
   },
   {
-   "q": "Where can I find Hemet Jr.?",
+   "q": "Where can I find Hemet?",
    "aliases": [
     "where's hemet",
     "hemet location",
     "hemet in stranglethorn"
    ],
-   "answer": "Hemet Nesingwary Jr. is in Stranglethorn, north of Grom'gol Base Camp."
+   "answer": "Hemet Nesingwary is in Stranglethorn, north of Grom'gol Base Camp."
   },
   {
    "q": "Who was Hemet's father?",
@@ -53,7 +53,7 @@
     "hemet sr",
     "old hemet"
    ],
-   "answer": "Hemet was the dwarf who hunted great beasts with Roon Wildmane in Desolace."
+   "answer": "Roon never mentions a father. The dwarf who hunted great beasts with him in Desolace is Hemet Nesingwary himself, now camped in Stranglethorn."
   },
   {
    "q": "What does the horn mean to Roon?",
@@ -62,7 +62,7 @@
     "why kodo horn",
     "roon's kodo horn"
    ],
-   "answer": "The horn is Roon's gift to Hemet Nesingwary Jr. and carries Roon's welcome."
+   "answer": "The horn is Roon's gift to Hemet Nesingwary and carries Roon's welcome."
   },
   {
    "q": "Did Roon and Hemet get along?",
@@ -81,14 +81,13 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a Tauren, you may know the horn as Roon Wildmane's gift and welcome to Hemet Nesingwary Jr."
+   "text": "As a Tauren, you may know the horn as Roon Wildmane's gift and welcome to Hemet Nesingwary."
   }
  ],
  "keywords": [
   "desolace",
   "grom'gol base camp",
   "hemet nesingwary",
-  "hemet nesingwary jr",
   "kodo horn",
   "roon",
   "roon wildmane",

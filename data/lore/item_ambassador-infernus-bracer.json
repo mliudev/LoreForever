@@ -10,11 +10,11 @@
    "quest:762"
   ]
  },
- "summary": "Ambassador Infernus' Bracer is proof of the ambassador's defeat in the Badlands. Advisor Belgrum asks you to bring it to Ironforge.",
+ "summary": "Ambassador Infernus' Bracer is proof of the ambassador's defeat in the Badlands. Historian Karnik asks you to bring it to Advisor Belgrum in Ironforge.",
  "sections": [
   {
    "title": "Proof from Angor",
-   "body": "Advisor Belgrum sends you to Angor Fortress in the Badlands to destroy Ambassador Infernus. Ragnaros sent the ambassador to oversee Shadowforge's search for lost artifacts in Uldaman. The excavation has already cost many lives, and Belgrum fears those artifacts could threaten Ironforge. Bring the bracer back as proof, so Belgrum can send aid to the site.",
+   "body": "Historian Karnik sends you to Angor Fortress in the Badlands to destroy Ambassador Infernus. Ragnaros sent the ambassador to oversee Shadowforge's search for lost artifacts in Uldaman. The excavation has already cost many lives, and Karnik fears those artifacts could threaten Ironforge. Bring the bracer back to Advisor Belgrum as proof, so Belgrum can send aid to the site.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "belgrum bracer",
     "turn in bracer"
    ],
-   "answer": "Advisor Belgrum in Ironforge asks you to bring the bracer as proof of Ambassador Infernus' defeat."
+   "answer": "Historian Karnik asks you to bring the bracer to Advisor Belgrum in Ironforge as proof of Ambassador Infernus' defeat."
   },
   {
    "q": "Why is Ambassador Infernus in the Badlands?",
@@ -62,7 +62,7 @@
     "ironforge threat",
     "what's the danger"
    ],
-   "answer": "The Shadowforge excavation has caused many casualties, and Advisor Belgrum fears the recovered artifacts could be used against Ironforge."
+   "answer": "The Shadowforge excavation has caused many casualties, and Historian Karnik fears the recovered artifacts could be used against Ironforge."
   },
   {
    "q": "What happens after I bring it to Belgrum?",

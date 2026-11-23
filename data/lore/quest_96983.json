@@ -1,0 +1,76 @@
+{
+ "key": "quest:96983",
+ "type": "quest",
+ "name": "Yashiro's Windwalk",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96983
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Yashiro asks you to fight beside him through Dae'gun. Fire is meant to draw demons and their warlords from hiding, giving vengeance a chance to strike.",
+ "sections": [
+  {
+   "title": "A Path Through Dae'gun",
+   "body": "Yashiro calls on you to join him in Dae'gun, where he means to cut through the demons with his blade. Fire will draw them and their warlords from hiding, and he says the mountain's will speaks through those who answer.",
+   "spoiler": 0
+  },
+  {
+   "title": "What Remains",
+   "body": "A commander has fallen, and Yashiro says the Legion's nerve is weakened. He regards your resolve and gives you a weapon as part of his rite, urging you to value the life still within it. Then he bids you farewell; your paths may cross again, but they part here.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Yashiro?",
+   "aliases": [
+    "yashiro",
+    "who's yashiro"
+   ],
+   "answer": "Yashiro fights beside you in Dae'gun and speaks of the mountain's will and spirits."
+  },
+  {
+   "q": "Where does Yashiro ask me to fight?",
+   "aliases": [
+    "where fight with yashiro",
+    "dae'gun"
+   ],
+   "answer": "Yashiro asks you to fight through Dae'gun beside him."
+  },
+  {
+   "q": "Why does Yashiro want to use fire?",
+   "aliases": [
+    "fire and demons",
+    "draw out demons"
+   ],
+   "answer": "Yashiro says fire will draw demons and their warlords from hiding."
+  },
+  {
+   "q": "What does Yashiro say about the mountain?",
+   "aliases": [
+    "mountain's will",
+    "mountain spirits"
+   ],
+   "answer": "Yashiro says the mountain's will speaks through those fighting with him, and its spirits will judge you worthy."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dae'gun",
+  "demons",
+  "mountain spirits",
+  "warlord",
+  "weapon",
+  "windwalk",
+  "yashiro"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Yashiro's Windwalk"
+ ]
+}

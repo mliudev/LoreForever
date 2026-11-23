@@ -1,0 +1,67 @@
+{
+ "key": "quest:3801",
+ "type": "quest",
+ "name": "Dark Iron Legacy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3801
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is franclorn forgewright",
+    "franclorn forgewright",
+    "who gives dark iron legacy"
+   ],
+   "answer": "Franclorn Forgewright holds the knowledge needed to secure passage into the city. Seek him out if you hope to claim the key.",
+   "q": "Who is Franclorn Forgewright?"
+  },
+  {
+   "aliases": [
+    "what key is this",
+    "what does the key open",
+    "city major key"
+   ],
+   "answer": "The key grants entry through the major gates of the city, opening doors that remain shut to common travelers.",
+   "q": "What is the key to the city?"
+  },
+  {
+   "aliases": [
+    "why speak to franclorn",
+    "what do i need to do",
+    "dark iron legacy objective"
+   ],
+   "answer": "You are directed to speak with Franclorn Forgewright if you seek the key that unlocks the city.",
+   "q": "Why do you need to find Franclorn Forgewright?"
+  }
+ ],
+ "keywords": [
+  "blackrock depths",
+  "dark iron",
+  "dark iron legacy",
+  "franclorn forgewright",
+  "key to the city",
+  "shadowforge"
+ ],
+ "related": [
+  "quest:93680"
+ ],
+ "sections": [
+  {
+   "body": "Franclorn Forgewright holds the secret to unlocking the grand gates of the underground city. Those who wish to navigate beyond its heavy portals must first seek out the ancient architect and earn his favor. Without his aid, the depths remain barred to outsiders.",
+   "spoiler": 0,
+   "title": "The Architect of the Depths"
+  }
+ ],
+ "summary": "A key to the city major awaits anyone willing to seek out Franclorn Forgewright. Securing his guidance offers a way through the locked passages of the subterranean stronghold.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dark Iron Legacy"
+ ]
+}

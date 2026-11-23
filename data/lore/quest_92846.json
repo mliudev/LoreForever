@@ -1,0 +1,92 @@
+{
+ "key": "quest:92846",
+ "type": "quest",
+ "name": "Outcast Necromancers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92846
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Magram in the Valley of Bones wants you to kill Gelkis outcasts who meddle with forbidden powers. Their exile has brought them into conflict with the Magram.",
+ "sections": [
+  {
+   "title": "Outcasts in the Canyon",
+   "body": "A Magram asks you to deal with Gelkis outcasts in the Valley of Bones. The Magram have made a foothold deeper in the canyon, and some Gelkis followed them there. Their clan has sentenced them to exile, while the Magram do not know whether they mean to join or overthrow them. The Magram call them lone wolves who meddle with powers that do not belong to them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Magram's Grievance",
+   "body": "The Magram want the outcasts dead and say the Gelkis should have dealt with their own kin. They see the exiles as a burden left by an inferior clan, and warn that any more should be killed. Their demand rests on the feud between the clans and the outcasts' forbidden dealings.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Outcast Necromancers?",
+   "aliases": [
+    "outcast necromancers",
+    "gelkis necromancers",
+    "who are these outcasts"
+   ],
+   "answer": "They are Gelkis exiles meddling with powers the Magram say do not belong to them."
+  },
+  {
+   "q": "Why are the Gelkis exiled?",
+   "aliases": [
+    "why exiled",
+    "gelkis exile reason",
+    "why did clan exile them"
+   ],
+   "answer": "Their Gelkis clan sentenced them all to exile after some followed the Magram into the canyon."
+  },
+  {
+   "q": "What does the Magram want from me?",
+   "aliases": [
+    "what does magram want",
+    "kill outcasts",
+    "magram request"
+   ],
+   "answer": "The Magram wants you to kill the Outcast Necromancers in the Valley of Bones."
+  },
+  {
+   "q": "Why does the Magram want them dead?",
+   "aliases": [
+    "why kill them",
+    "magram hates outcasts",
+    "why are they enemies"
+   ],
+   "answer": "The Magram calls them lone wolves meddling with powers that do not belong to them."
+  },
+  {
+   "q": "Do the outcasts want to join the Magram?",
+   "aliases": [
+    "join magram",
+    "outcasts joining",
+    "what do gelkis want"
+   ],
+   "answer": "The Magram does not know whether the exiles want to join or overthrow them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "exiles",
+  "gelkis",
+  "magram",
+  "necromancers",
+  "outcast necromancers",
+  "valley of bones"
+ ],
+ "related": [
+  "subzone:valley-of-bones",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Outcast Necromancers"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "quest:93227",
+ "type": "quest",
+ "name": "Buying Friendship: Gelkis",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93227
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gets the totems",
+    "gelkis delivery target",
+    "who accepts the tote"
+   ],
+   "answer": "You carry the tote of totems to the quartermaster inside Gelkis Village. Even among primitive centaur, a clan treasurer manages such offerings.",
+   "q": "Who receives the totems in Gelkis Village?"
+  },
+  {
+   "aliases": [
+    "gelkis vs magram",
+    "are gelkis weak",
+    "gelkis population"
+   ],
+   "answer": "Scouts report far fewer Gelkis than Magram roaming across the wastes. Yet despite smaller numbers, the clan endures as one of the dominant centaur forces in Desolace.",
+   "q": "How do the Gelkis compare to the Magram clan?"
+  },
+  {
+   "aliases": [
+    "totem tote purpose",
+    "why give totems",
+    "peace with gelkis"
+   ],
+   "answer": "Delivering the tote of totems earns goodwill with the Gelkis clan. Offering valuable totems helps secure peace with their chieftains.",
+   "q": "Why deliver a tote of totems to the Gelkis?"
+  },
+  {
+   "aliases": [
+    "where are gelkis",
+    "gelkis village location",
+    "find gelkis"
+   ],
+   "answer": "Gelkis Village lies far to the southwest within the wastes of Desolace.",
+   "q": "Where is Gelkis Village located?"
+  },
+  {
+   "aliases": [
+    "can anyone turn this in",
+    "gelkis standing required",
+    "reputation check"
+   ],
+   "answer": "The clan will not deal with sworn enemies. You need at least neutral standing with the Gelkis centaur before approaching their village with the offering.",
+   "q": "Who can offer the totems to the Gelkis?"
+  }
+ ],
+ "keywords": [
+  "buying friendship gelkis",
+  "centaur peace",
+  "desolace",
+  "gelkis centaur",
+  "gelkis village",
+  "magram",
+  "totem tote"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "sections": [
+  {
+   "body": "The Gelkis clan holds ground far to the southwest in Desolace, despite being outnumbered by their Magram rivals. Scouts hear little from their camps, yet the centaur endure as a dominant force in the dry wastes. Carrying a tote of totems to the quartermaster in Gelkis Village offers a direct path to win their favor. The clan demands at least neutral standing before accepting any peaceful overture.",
+   "spoiler": 0,
+   "title": "Offerings in the Southwest"
+  }
+ ],
+ "summary": "Securing peace with the Gelkis centaur requires proving your goodwill with valuable offerings. You carry a tote of totems to Gelkis Village far to the southwest in Desolace, seeking their quartermaster to cement an alliance.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Buying Friendship: Gelkis"
+ ]
+}

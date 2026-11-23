@@ -1,0 +1,98 @@
+{
+ "key": "quest:81924",
+ "type": "quest",
+ "name": "Wisdom of the Guardians",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   81924
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "The ancient lore of the Kaldorei survives not in stone, but in the enduring spirits of the wild shrines."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is tyrisius",
+    "where is tyrisius"
+   ],
+   "answer": "Tyrisius watches over ancient Kaldorei ruins in Feralas and guides seekers toward surviving ancient knowledge.",
+   "q": "Who is Tyrisius?"
+  },
+  {
+   "aliases": [
+    "where are the spirits",
+    "guardian spirit locations",
+    "which zones to visit"
+   ],
+   "answer": "The guardian spirits watch over shrines in Feralas, Azshara, and the Hinterlands.",
+   "q": "Where can the guardian spirits be found?"
+  },
+  {
+   "aliases": [
+    "why visit shrines",
+    "what is the goal"
+   ],
+   "answer": "Tyrisius seeks to preserve ancient Kaldorei wisdom through living memory before it fades from the world forever.",
+   "q": "Why must the guardian spirits be sought?"
+  },
+  {
+   "aliases": [
+    "how to recognize spirits",
+    "finding the shrines"
+   ],
+   "answer": "Each guardian spirit rests at its own shrine across the ancient lands.",
+   "q": "How do you find the guardian spirits?"
+  },
+  {
+   "aliases": [
+    "what ruins are these",
+    "feralas ruins"
+   ],
+   "answer": "Tyrisius stands among fallen Kaldorei ruins where the physical records of ancient elven knowledge have crumbled away.",
+   "q": "What ruins does Tyrisius watch over?"
+  },
+  {
+   "aliases": [
+    "where to go after shrines",
+    "who to return to"
+   ],
+   "answer": "Once you have proven yourself to each spirit, Tyrisius awaits your return in Feralas.",
+   "q": "Where do you return after speaking with the spirits?"
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "feralas",
+  "guardian spirits",
+  "hinterlands",
+  "kaldorei",
+  "shrines",
+  "tyrisius",
+  "wisdom of the guardians"
+ ],
+ "related": [
+  "zone:feralas",
+  "zone:azshara",
+  "zone:hinterlands"
+ ],
+ "sections": [
+  {
+   "body": "Tyrisius warns that physical records of Kaldorei knowledge have vanished from the stones of Feralas. While stone crumbles, the spiritual legacy of the ancient night elves endures in older sacred sites across Kalimdor and the Eastern Kingdoms.\n\nTo recover what was thought forgotten, you must journey to sacred shrines scattered throughout Feralas, Azshara, and the Hinterlands. Tyrisius asks you to stand before the guardian spirits watching these places, prove your worth, and receive the ancient teachings before they fade forever.",
+   "spoiler": 0,
+   "title": "Echoes of Ancient Wisdom"
+  }
+ ],
+ "summary": "Among the broken ruins of Feralas, Tyrisius seeks to recover ancient Kaldorei teachings before they disappear. Though the old stones lie shattered, the spiritual essence of that lost wisdom endures within distant shrines.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wisdom of the Guardians"
+ ]
+}

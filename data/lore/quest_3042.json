@@ -1,0 +1,84 @@
+{
+ "key": "quest:3042",
+ "type": "quest",
+ "name": "Troll Temper",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3042
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Trenton Lighthammer needs a steady supply of temper to treat his metalwork at the forge. Delivering these vials keeps his hammer ringing for days."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who wants troll temper",
+    "troll temper quest giver",
+    "who is trenton lighthammer"
+   ],
+   "answer": "Trenton Lighthammer seeks the temper in Gadgetzan. The smith intends to use it at his anvil for his metalworking.",
+   "q": "Who needs the Troll Temper?"
+  },
+  {
+   "aliases": [
+    "where is trenton lighthammer",
+    "trenton lighthammer location"
+   ],
+   "answer": "Trenton Lighthammer is located in the desert goblin settlement of Gadgetzan. You can find him working his craft there.",
+   "q": "Where is Trenton Lighthammer?"
+  },
+  {
+   "aliases": [
+    "what is trenton doing with temper",
+    "why does trenton want temper"
+   ],
+   "answer": "Trenton Lighthammer uses the temper for his metalwork, noting that twenty vials will keep him busy at the forge for days.",
+   "q": "What will Trenton Lighthammer do with the temper?"
+  },
+  {
+   "aliases": [
+    "how many vials of troll temper",
+    "troll temper amount"
+   ],
+   "answer": "Trenton Lighthammer requires twenty vials of troll temper to keep his forge supplied.",
+   "q": "How many vials of temper does Trenton need?"
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "gadgetzan",
+  "tanaris",
+  "trenton lighthammer",
+  "troll temper",
+  "vials of troll temper"
+ ],
+ "related": [
+  "subzone:gadgetzan",
+  "topic:troll"
+ ],
+ "sections": [
+  {
+   "body": "Trenton Lighthammer needs materials to treat his metalwork in Gadgetzan. Gathering twenty vials of troll temper ensures his anvil stays busy for days to come.",
+   "spoiler": 0,
+   "title": "The Smith in Gadgetzan"
+  },
+  {
+   "body": "Delivering the twenty vials brings great relief to the smith. Trenton marvels at the quality and sheer quantity of the temper, paying you for your trouble before returning to days of work at his anvil.",
+   "spoiler": 1,
+   "title": "Supplying the Anvil"
+  }
+ ],
+ "summary": "In Gadgetzan, the smith Trenton Lighthammer requires twenty vials of troll temper for his metalwork. Providing these supplies ensures he has enough material to keep his anvil working for days.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Troll Temper"
+ ]
+}

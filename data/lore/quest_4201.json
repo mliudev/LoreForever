@@ -1,0 +1,65 @@
+{
+ "key": "quest:4201",
+ "type": "quest",
+ "name": "The Love Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4201
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is nagmara",
+    "where is mistres nagmara",
+    "love potion giver"
+   ],
+   "answer": "Mistress Nagmara waits within the halls of Blackrock Depths.",
+   "q": "Who is Mistress Nagmara?"
+  },
+  {
+   "aliases": [
+    "what do you need for the love potion",
+    "love potion items",
+    "love potion ingredients"
+   ],
+   "answer": "She requires four sprigs of Gromsblood, ten Giant Silver Veins, and her own filled vial brought into the depths.",
+   "q": "What ingredients are needed for the potion?"
+  },
+  {
+   "aliases": [
+    "where does the love potion quest happen",
+    "where is nagmara located"
+   ],
+   "answer": "The brew must be delivered to Mistress Nagmara inside the fiery dwarven city of Blackrock Depths.",
+   "q": "Where does this take place?"
+  }
+ ],
+ "keywords": [
+  "blackrock depths",
+  "giant silver veins",
+  "gromsblood",
+  "love potion",
+  "mistress nagmara",
+  "nagmara",
+  "the love potion"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Mistress Nagmara waits in the gloom of Blackrock Depths for the components of a potent draught. She seeks Gromsblood, Giant Silver Veins, and her filled vial delivered straight to her hands beneath the mountain. Bringing these strange reagents together will finish her brewing.",
+   "spoiler": 0,
+   "title": "Reagents for Mistress Nagmara"
+  }
+ ],
+ "summary": "Deep within Blackrock Depths, Mistress Nagmara seeks rare ingredients to brew a draught of passion. Gathering Gromsblood, Giant Silver Veins, and her filled vial will see the potion finished.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Love Potion"
+ ]
+}

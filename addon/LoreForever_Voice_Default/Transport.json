@@ -1459,9 +1459,9 @@
     "subzone:sen-jin-village": {
       "1": [
         {
-          "duration": 85.70775510204082,
-          "file": "Audio/Transport/full_subzone_sen-jin-village-2be1dc7b3dc28ea6ede2/1-0000.mp3",
-          "sha256": "5ceb58c4aae3f4a6a1b738524b6dd7ff47f6601d867fd8a822cdccc8713df84c",
+          "duration": 85.31591836734694,
+          "file": "Audio/Transport/full_subzone_sen-jin-village-aa54de3d75d5b3bd14fa/1-0000.mp3",
+          "sha256": "6fcec65620c421b0bc4f15d1f6719a9e0e0fcb86660eb00e4d8f6482bb1f4bfc",
           "start": 0
         }
       ],
@@ -1473,12 +1473,12 @@
         ]
       },
       "fullHash": "f2cc0f",
-      "generation": "659bbf8ecea9a12992fe",
+      "generation": "f719fe35220b6ba5de0c",
       "hash": "940fe4",
       "source": {
-        "duration": 85.733878,
+        "duration": 85.342041,
         "file": null,
-        "sha256": "2be1dc7b3dc28ea6ede2426b7a00a99384ae4bc0699888ca20e3de00c17542e0"
+        "sha256": "aa54de3d75d5b3bd14fa3c7de0058bc12db0a71fc3ebeb379bc4f676ffca482f"
       },
       "text": "Sen'jin Village. Sen'jin Village shelters the Darkspear on Durotar's southern shore. Vol'jin led them there after Zalazane seized the Echo Isles, and gave the refuge his fallen father's name. Across the shallows, their lost home waits. The Darkspear survivors have made their refuge on Durotar's shore. After Zalazane betrayed the tribe and seized the Echo Isles, Chieftain Vol'jin led them across the strait to the mainland. They raised crude huts beneath coastal cliffs, with the water and their lost home in view.\n\nThe village bears the name of Sen'jin, Vol'jin's father. Murlocs captured and sacrificed him during the Third War. Though the Darkspear are closely allied with Thrall's Horde, exile remains their burden. The lost isles lie just across the shallows. Preparation and defense shape life in Sen'jin Village. Quilboar raids, aggressive sea beasts, and Zalazane's hexes from across the sea threaten the villagers. Herbal remedies and potent alchemical spirits help sustain them.\n\nVol'jin coordinates the tribe's wider defense from the Horde capital. Meanwhile, local shamans, hunters, and scouts gather recruits arriving from the Valley of Trials. The Darkspear seek resources, guard Durotar's southern flank, and plan Zalazane's downfall."
     },
@@ -6287,23 +6287,6 @@
       2204,
       2484
     ],
-    "5ceb58c4aae3f4a6a1b738524b6dd7ff47f6601d867fd8a822cdccc8713df84c": [
-      188,
-      337,
-      614,
-      786,
-      938,
-      1298,
-      1444,
-      1591,
-      1809,
-      1943,
-      2096,
-      2385,
-      2570,
-      2753,
-      3016
-    ],
     "5f8deed5d40d63ee89f061522e413c5adb7019d8e1b242f67c3aef670ea1645c": [
       216,
       594,
@@ -6490,6 +6473,23 @@
       3040,
       3326,
       3559
+    ],
+    "6fcec65620c421b0bc4f15d1f6719a9e0e0fcb86660eb00e4d8f6482bb1f4bfc": [
+      189,
+      459,
+      600,
+      773,
+      919,
+      1058,
+      1298,
+      1459,
+      1615,
+      1961,
+      2109,
+      2380,
+      2558,
+      2733,
+      2987
     ],
     "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc": [
       219,
@@ -8438,10 +8438,6 @@
       "1726": 2,
       "639": 1
     },
-    "5ceb58c4aae3f4a6a1b738524b6dd7ff47f6601d867fd8a822cdccc8713df84c": {
-      "1943": 2,
-      "614": 1
-    },
     "5f8deed5d40d63ee89f061522e413c5adb7019d8e1b242f67c3aef670ea1645c": {
       "2352": 2,
       "594": 1
@@ -8501,6 +8497,10 @@
       "1531": 2,
       "2570": 3,
       "561": 1
+    },
+    "6fcec65620c421b0bc4f15d1f6719a9e0e0fcb86660eb00e4d8f6482bb1f4bfc": {
+      "1961": 2,
+      "600": 1
     },
     "71beef1b0a132cca7568f65c431a8d8d75032bef10380d7611f272e61062b6fc": {
       "1098": 2,

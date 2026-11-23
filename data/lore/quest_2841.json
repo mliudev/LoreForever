@@ -1,0 +1,86 @@
+{
+ "key": "quest:2841",
+ "type": "quest",
+ "name": "Rig Wars",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2841
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "Orgrimmar looks across the sea to Gnomeregan for gnomish schematics, eager to seize mechanical secrets from deep inside Alliance territory."
+  },
+  {
+   "target": "profession:Engineering",
+   "text": "Thermaplugg's safe holds schematics and designs that any tinkerer would value, making the subterranean depths of Gnomeregan worth the venture."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives rig wars",
+    "who wants the blueprints",
+    "where to bring safe combination"
+   ],
+   "answer": "Nogg, an engineer located in the Valley of Honor in Orgrimmar, seeks the blueprints and the combination.",
+   "q": "Who asks for the blueprints and combination?"
+  },
+  {
+   "aliases": [
+    "where is thermaplugg safe",
+    "where are rig blueprints",
+    "rig wars location"
+   ],
+   "answer": "Both items are inside the irradiated techno-city of Gnomeregan in Khaz Modan.",
+   "q": "Where are the items located?"
+  },
+  {
+   "aliases": [
+    "what is thermaplugg",
+    "who is thermaplugg"
+   ],
+   "answer": "Thermaplugg rules over the fallen subterranean city of Gnomeregan, locking his prized blueprints and designs away in a personal safe.",
+   "q": "Who is Thermaplugg?"
+  },
+  {
+   "aliases": [
+    "what does nogg want",
+    "rig wars items"
+   ],
+   "answer": "Nogg needs the Rig Blueprints along with the combination to Thermaplugg's safe from Gnomeregan.",
+   "q": "What items are required?"
+  }
+ ],
+ "keywords": [
+  "gnomeregan",
+  "nogg",
+  "orgrimmar",
+  "rig blueprints",
+  "rig wars",
+  "safe combination",
+  "thermaplugg"
+ ],
+ "related": [
+  "npc:nogg",
+  "zone:gnomeregan",
+  "zone:orgrimmar"
+ ],
+ "sections": [
+  {
+   "body": "In Orgrimmar, the goblin engineer Nogg sets his sights on the technological secrets of Gnomeregan. Deep within the fallen mechanical city, Thermaplugg guards the blueprints to his rigs alongside his personal safe. Securing both the plans and the safe's combination offers the Horde a rare prize from deep within enemy territory.",
+   "spoiler": 0,
+   "title": "Secrets of Gnomeregan"
+  }
+ ],
+ "summary": "In Orgrimmar, the goblin engineer Nogg seeks the Rig Blueprints and Thermaplugg's Safe Combination from the fallen city of Gnomeregan. Venturing deep into the irradiated mechanical stronghold offers the Horde a chance to claim valuable dwarven and gnomish engineering secrets.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rig Wars"
+ ]
+}

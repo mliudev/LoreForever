@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Mold for the Key",
-   "body": "Apothecary Dithers provides the Skeleton Key Mold for work at Fire Plume Ridge in Un'Goro Crater. With two Thorium Bars, its bearer can use the mold beside the lava lake to fuse thorium and bone into an unfinished key stem. Dithers says the lava's heat will do the forging, but the thorium must be supplied separately.",
+   "body": "Krinkle Goodsteel in Gadgetzan sells you the Skeleton Key Mold for work at Fire Plume Ridge in Un'Goro Crater. With two Thorium Bars, its bearer can use the mold beside the lava lake to fuse thorium and bone into an unfinished key stem. Krinkle says the lava's heat will do the forging, but the thorium must be supplied separately.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where get skeleton mold",
     "dithers mold"
    ],
-   "answer": "Apothecary Dithers provides the Skeleton Key Mold for the work at Fire Plume Ridge."
+   "answer": "Krinkle Goodsteel in Gadgetzan sells you the Skeleton Key Mold for the work at Fire Plume Ridge. Apothecary Dithers is sorry you had to bear its fee."
   },
   {
    "q": "What do I need with the mold?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "Thorium is needed to forge the key stem, though Dithers leaves its acquisition to you."
+   "text": "Thorium is needed to forge the key stem, though Krinkle Goodsteel leaves its acquisition to you."
   }
  ],
  "keywords": [

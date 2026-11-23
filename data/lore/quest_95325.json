@@ -1,0 +1,71 @@
+{
+ "key": "quest:95325",
+ "type": "quest",
+ "name": "We've Been Robbed!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95325
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "venture co camp location",
+    "where is the venture co ledger",
+    "where is lake nezferiti"
+   ],
+   "answer": "The camp lies near Lake Nezferiti in northern Stranglethorn Vale, where the Venture Company oversees its local operations.",
+   "q": "Where is the Venture Company camp?"
+  },
+  {
+   "aliases": [
+    "what is the venture co ledger",
+    "what does the ledger contain"
+   ],
+   "answer": "It is a grease-covered book recording business transactions between the Venture Company and its trading partners.",
+   "q": "What is the Venture Company ledger?"
+  },
+  {
+   "aliases": [
+    "why get the ledger",
+    "who took the shipment"
+   ],
+   "answer": "A paid crate was taken, and tracking down the operation's written records is the only way to uncover who ordered the theft.",
+   "q": "Why is the ledger being sought?"
+  }
+ ],
+ "keywords": [
+  "lake nezferiti",
+  "shipment",
+  "stranglethorn vale",
+  "venture co.",
+  "venture co. ledger",
+  "venture company",
+  "we've been robbed!"
+ ],
+ "related": [
+  "quest:764"
+ ],
+ "sections": [
+  {
+   "body": "A paid crate has gone missing in Stranglethorn Vale, and the thieves will not be allowed to keep it. The Venture Company runs a camp near Lake Nezferiti to the north, and their records hold the names behind the betrayal. You need to search their grounds and secure their business ledger before the trail goes cold.",
+   "spoiler": 0,
+   "title": "Missing Shipments"
+  },
+  {
+   "body": "Inside the camp lies the Venture Company ledger, a grease-stained volume cataloging shady deals and trade contacts throughout the jungle. The records prove the Company took the cargo and show how far their crooked business stretches.",
+   "spoiler": 1,
+   "title": "The Stolen Cargo"
+  }
+ ],
+ "summary": "A paid shipment has been stolen in Stranglethorn Vale, and the thieves have taken refuge in a Venture Company camp near Lake Nezferiti. Recovering their business ledger is the only way to discover who ordered the theft and settle the score.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: We've Been Robbed!"
+ ]
+}

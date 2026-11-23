@@ -10,11 +10,11 @@
    "quest:737"
   ]
  },
- "summary": "Yagyin\u2019s Digest is a book entrusted to you in the Badlands. Theldurin believes its truths may help save those threatened by what lies beneath the earth.",
+ "summary": "Yagyin\u2019s Digest is a book you carry back to Theldurin in the Badlands. He believes its truths may help save those threatened by what lies beneath the earth.",
  "sections": [
   {
    "title": "A Dangerous Book",
-   "body": "Theldurin gives you Yagyin\u2019s Digest to carry through the Badlands. He warns that its truths can burn and asks you to keep it from unfriendly hands. The book matters to those who fear what may rise from below.",
+   "body": "Gerrig Bonegrip hands over Yagyin\u2019s Digest for you to take to Theldurin. Gerrig warns that its truths can burn and asks you to keep it from unfriendly hands. The book matters to those who fear what may rise from below.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what's the digest",
     "the book"
    ],
-   "answer": "Yagyin\u2019s Digest is a book Theldurin entrusts to you. He says it holds many truths and warns that the truth can burn."
+   "answer": "Yagyin\u2019s Digest is a book Gerrig Bonegrip entrusts to you for Theldurin. Gerrig says it holds many truths and warns that the truth can burn."
   },
   {
    "q": "Who is Theldurin?",
@@ -35,7 +35,7 @@
     "theldurin guy",
     "who do I bring it to"
    ],
-   "answer": "Theldurin is the one who gives you Yagyin\u2019s Digest and asks you to keep it from unfriendly hands."
+   "answer": "Theldurin the Lost is the dwarf in the Badlands who sends you after Yagyin\u2019s Digest and waits for you to bring it back."
   },
   {
    "q": "Why is the digest dangerous?",
@@ -44,7 +44,7 @@
     "truth can burn",
     "what's in the book"
    ],
-   "answer": "Theldurin warns that the truths in Yagyin\u2019s Digest can burn. He does not want it to reach unfriendly hands."
+   "answer": "Gerrig Bonegrip warns that the truths in Yagyin\u2019s Digest can burn. He does not want it to reach unfriendly hands."
   },
   {
    "q": "What might the book help prevent?",

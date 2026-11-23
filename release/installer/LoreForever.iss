@@ -156,6 +156,7 @@ Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForeve
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests"; Check: VoiceChosen('female-quests')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests2"; Check: VoiceChosen('female-quests')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests3"; Check: VoiceChosen('female-quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Female_Quests4"; Check: VoiceChosen('female-quests')
 
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePlaces"; Check: VoiceChosen('more')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_MorePeople"; Check: VoiceChosen('more')
@@ -168,10 +169,12 @@ Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForeve
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests2"; Check: VoiceChosen('quests')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests3"; Check: VoiceChosen('quests')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default_Quests4"; Check: VoiceChosen('quests')
 
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers"; Check: VoiceChosen('givers')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers2"; Check: VoiceChosen('givers')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers3"; Check: VoiceChosen('givers')
+Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_QuestGivers4"; Check: VoiceChosen('givers')
 
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original"; Check: VoiceChosen('original')
 Type: filesandordirs; Name: "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Original_Alliance"; Check: VoiceChosen('original')

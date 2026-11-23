@@ -1,0 +1,62 @@
+{
+ "key": "quest:8427",
+ "type": "quest",
+ "name": "Battle of Warsong Gulch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8427
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Horde Warbringer outside Warsong Gulch asks you to bring three Warsong Gulch Marks of Honor. The marks are required for this exchange.",
+ "sections": [],
+ "faq": [
+  {
+   "q": "What does the Warbringer ask for?",
+   "aliases": [
+    "warsong gulch marks",
+    "marks of honor",
+    "what to bring"
+   ],
+   "answer": "The Horde Warbringer asks you to bring three Warsong Gulch Marks of Honor."
+  },
+  {
+   "q": "Where do I bring the marks?",
+   "aliases": [
+    "where is warbringer",
+    "turn in marks",
+    "warsong gulch warbringer"
+   ],
+   "answer": "Bring the marks to a Horde Warbringer outside the battlegrounds."
+  },
+  {
+   "q": "How many marks are needed?",
+   "aliases": [
+    "how many marks",
+    "three marks",
+    "mark amount"
+   ],
+   "answer": "The Warbringer asks for three Warsong Gulch Marks of Honor."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "battle",
+  "battleground",
+  "horde",
+  "marks of honor",
+  "warbringer",
+  "warsong gulch"
+ ],
+ "related": [
+  "zone:warsonggulch",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Battle of Warsong Gulch"
+ ]
+}

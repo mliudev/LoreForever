@@ -1,0 +1,70 @@
+{
+ "key": "quest:94304",
+ "type": "quest",
+ "name": "Craftsman's Writ: Mageweave Bag",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94304
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you possess the skill to weave bolt after bolt of mageweave into the sturdy pack this customer needs."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what item is needed",
+    "writ order item",
+    "what does the writ ask for"
+   ],
+   "answer": "The order calls for a single mageweave bag.",
+   "q": "What item does the writ request?"
+  },
+  {
+   "aliases": [
+    "who can fulfill writ",
+    "can anyone turn in writ",
+    "transferable writ"
+   ],
+   "answer": "Yes. The note explicitly marks the trade agreement as transferable, allowing whoever carries the parchment to fulfill the delivery and claim the coin.",
+   "q": "Can another tradesman fulfill this writ?"
+  },
+  {
+   "aliases": [
+    "where deliver mageweave bag",
+    "drop off location writ",
+    "where to take the bag"
+   ],
+   "answer": "The writ includes specific delivery instructions directing you to a drop-off point marked upon your map.",
+   "q": "Where does the customer want the delivery made?"
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "mageweave bag",
+  "tailoring",
+  "trade order",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has set down a trade order in faded ink, asking for a mageweave bag. The paper details where the goods must go and what payment waits for the carrier. Since the agreement is transferable, anyone holding the writ can supply the finished pack, bring it to the appointed spot, and collect the coin.",
+   "spoiler": 0,
+   "title": "An Open Trade Order"
+  }
+ ],
+ "summary": "A faded order calls for a tailor to supply a sturdy mageweave bag. The parchment sets out delivery instructions and promised payment, and anyone holding the transferable writ can complete the trade.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Mageweave Bag"
+ ]
+}

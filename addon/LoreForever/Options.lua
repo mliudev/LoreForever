@@ -88,11 +88,115 @@ local T = ns.Theme
 local VOICES_URL = "loreforeverwow.com/downloads"
 local LANGUAGES_URL = "loreforeverwow.com/translate"
 
+-- Session-only tab memory: Audio opens on first entry; reopening Settings in the same play session returns to the
+-- last tab. Never stored in LoreForeverDB so opening/switching tabs causes zero SavedVariables mutation.
+Options.TABS = { "audio", "screen", "keys", "willo", "general" }
+Options.activeTab = Options.activeTab or "audio"
+
+local PALETTE = {
+  headerTop = { 0.161, 0.125, 0.086, 0.96 },
+  headerBot = { 0.098, 0.078, 0.067, 0.96 },
+  tabBar = { 0.110, 0.086, 0.067, 0.96 },
+  tabActive = { 0.941, 0.804, 0.502, 0.08 },
+  tabHover = { 1, 1, 1, 0.05 },
+  rule = { 0.286, 0.231, 0.176, 1 },
+  ruleSoft = { 0.212, 0.173, 0.141, 1 },
+  bookBg = { 0.208, 0.153, 0.086, 1 },
+  bookRim = { 0.459, 0.341, 0.192, 1 },
+  kbdBg = { 0.063, 0.055, 0.047, 1 },
+  kbdRim = { 0.365, 0.294, 0.227, 1 },
+  text = { 0.980, 0.941, 0.875, 1 },
+  sub = { 0.831, 0.776, 0.710, 1 },
+  tones = {
+    teal = { bg = { 0.141, 0.176, 0.153, 1 }, rim = { 0.282, 0.341, 0.290, 1 }, accent = { 0.569, 0.780, 0.702, 1 } },
+    warm = { bg = { 0.196, 0.153, 0.106, 1 }, rim = { 0.475, 0.369, 0.235, 1 }, accent = { 0.941, 0.804, 0.502, 1 } },
+    neutral = { bg = { 0.125, 0.102, 0.082, 1 }, rim = { 0.286, 0.231, 0.176, 1 }, accent = { 0.286, 0.231, 0.176, 1 } },
+  },
+}
+
+local function fillColor(tex, c)
+  if tex.SetColorTexture then tex:SetColorTexture(c[1], c[2], c[3], c[4] or 1)
+  else tex:SetTexture(c[1], c[2], c[3], c[4] or 1) end
+  return tex
+end
+
+local function makeBorder(frame, c, thick)
+  thick = thick or 1
+  local lines = {}
+  for i = 1, 4 do lines[i] = fillColor(frame:CreateTexture(nil, "BORDER"), c) end
+  local top, bot, left, right = lines[1], lines[2], lines[3], lines[4]
+  top:SetPoint("TOPLEFT"); top:SetPoint("TOPRIGHT"); top:SetHeight(thick)
+  bot:SetPoint("BOTTOMLEFT"); bot:SetPoint("BOTTOMRIGHT"); bot:SetHeight(thick)
+  left:SetPoint("TOPLEFT"); left:SetPoint("BOTTOMLEFT"); left:SetWidth(thick)
+  right:SetPoint("TOPRIGHT"); right:SetPoint("BOTTOMRIGHT"); right:SetWidth(thick)
+  return lines
+end
+
+local function setBorderColor(lines, c)
+  for _, t in ipairs(lines or {}) do fillColor(t, c) end
+end
+
+local function strHeight(fs, fallback)
+  local h = fs and fs.GetStringHeight and tonumber(fs:GetStringHeight())
+  if h and h > 0 then return h end
+  return fallback or 14
+end
+
+local function strWidth(fs, fallback)
+  local w = T.TextWidth and T.TextWidth(fs) or (fs and fs.GetStringWidth and tonumber(fs:GetStringWidth()))
+  if w and w > 0 then return w end
+  return fallback or 80
+end
+
+local function wrapRegion(fs)
+  if fs and fs.SetJustifyH then fs:SetJustifyH("LEFT") end
+  if fs and fs.SetWordWrap then fs:SetWordWrap(true) end
+  return fs
+end
+
 -- Size a button to its label (German and other languages run longer than the English the sizes were picked for).
 local function fit(btn, min)
   local fs = btn.GetFontString and btn:GetFontString()
-  local w = fs and fs.GetStringWidth and fs:GetStringWidth()
-  if type(w) == "number" and w > 0 then btn:SetWidth(math.max(min or 0, w + 32)) end
+  local w = fs and (T.TextWidth and T.TextWidth(fs) or (fs.GetStringWidth and fs:GetStringWidth()))
+  if type(w) == "number" and w > 0 then btn:SetWidth(math.max(min or 0, w + 28)) end
+end
+
+local function themedButton(parent, label, kind)
+  if T and T.Button then return T.Button(parent, label, kind) end
+  local b = CreateFrame("Button", nil, parent, "UIPanelButtonTemplate")
+  if label then b:SetText(label) end
+  return b
+end
+
+local function setTip(widget, title, body)
+  if not (widget and body and body ~= "") then return end
+  widget:HookScript("OnEnter", function(self)
+    if not _G.GameTooltip then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(title)
+    T.Tip(body, "tipText", true)
+    GameTooltip:Show()
+  end)
+  widget:HookScript("OnLeave", function()
+    if _G.GameTooltip then GameTooltip:Hide() end
+  end)
+end
+
+-- Localize reworded UI strings safely: packs that haven't translated the concise wording keep their existing
+-- translated string instead of mixing English.
+local function tr(new, ...)
+  if ns.Lang and ns.Lang.Reworded then
+    local old = ns.Lang.Reworded(new, ...)
+    if old then return old end
+  end
+  return L[new]
+end
+
+local function englishOf(label)
+  for en, val in pairs(L) do
+    if val == label then return en end
+  end
+  return label
 end
 
 -- A drop-down: a button showing the current choice with an arrow, and a list that opens under it. Built from plain
@@ -100,9 +204,17 @@ end
 -- inside the scroll frame, so the scroll frame can't clip it. Open it with items {value, label, note, why}; items
 -- with a `why` can't be chosen and show it greyed.
 local ROW = 22
+local openLists = {}
+local function closeAllLists(except)
+  for _, list in ipairs(openLists) do
+    if list ~= except and list.IsShown and list:IsShown() then list:Hide() end
+  end
+end
+
 local function dropDown(name, parent, width)
   local btn = CreateFrame("Button", name, parent, "UIPanelButtonTemplate")
   btn:SetSize(width, 24)
+  if T and T.SkinButton then T.SkinButton(btn) end
   local fs = btn.GetFontString and btn:GetFontString()
   if fs then
     fs:ClearAllPoints()
@@ -119,18 +231,20 @@ local function dropDown(name, parent, width)
   list:SetPoint("TOPLEFT", btn, "BOTTOMLEFT", 0, -2)
   list:SetFrameStrata("FULLSCREEN_DIALOG")
   list:SetClampedToScreen(true)
-  -- An opaque background of its own: backdrops aren't available on every client.
   local bg = list:CreateTexture(nil, "BACKGROUND")
   bg:SetAllPoints()
   if bg.SetColorTexture then bg:SetColorTexture(T.rgba(T.color.popup)) else bg:SetTexture(T.rgba(T.color.popup)) end
   if list.SetBackdrop then
     list:SetBackdrop({ edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 12,
       insets = { left = 3, right = 3, top = 3, bottom = 3 } })
+    if list.SetBackdropBorderColor then list:SetBackdropBorderColor(T.rgba(T.color.rim)) end
   end
   list:EnableMouse(true)
   list:Hide()
   list.rows = {}
+  openLists[#openLists + 1] = list
   function list.Open(items, current, onChoose)
+    closeAllLists(list)
     for i, ch in ipairs(items) do
       local r = list.rows[i]
       if not r then
@@ -156,7 +270,7 @@ local function dropDown(name, parent, width)
     end
     for i = #items + 1, #list.rows do list.rows[i]:Hide() end
     list.onChoose = onChoose
-    list:SetSize(math.max(width, 260), #items * ROW + 12)
+    list:SetSize(math.max(btn:GetWidth() or width, 240), #items * ROW + 12)
     list:Show()
   end
   function list.Toggle(items, current, onChoose)
@@ -166,39 +280,100 @@ local function dropDown(name, parent, width)
   return btn, list
 end
 
-local function heading(c, text, anchor, gap)
-  local h = c:CreateFontString(nil, "ARTWORK", "GameFontNormal")
-  h:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -(gap or 20))
+local function makeHeading(parent, text)
+  local h = parent:CreateFontString(nil, "ARTWORK", T and T.font and T.font.heading or "GameFontNormal")
+  h:SetTextColor(T.rgba(T.color.gold))
+  wrapRegion(h)
   h:SetText(text)
   return h
 end
 
-local function note(c, text, anchor, gap, font)
-  local n = c:CreateFontString(nil, "ARTWORK", font or "GameFontHighlightSmall")
-  if not font then n:SetTextColor(T.rgba(T.color.muted)) end   -- the game's disabled grey is too dim to read here
-  n:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -(gap or 6))
-  n:SetPoint("RIGHT", c, "RIGHT", -24, 0)
-  n:SetJustifyH("LEFT")
-  n:SetText(text)
+local function makeNote(parent, text, font, color)
+  local n = parent:CreateFontString(nil, "ARTWORK", font or "GameFontHighlightSmall")
+  n:SetTextColor(T.rgba(color or T.color.muted))
+  wrapRegion(n)
+  n:SetText(text or "")
   return n
 end
 
--- "Get more …:" and a read-only, selectable web address next to it, under `anchor` (`gap` below it). Add-ons can't
--- open a browser, so players copy the address. Returns the label (to anchor what comes next), the box and its refill.
-local function urlRow(c, label, address, anchor, gap)
-  local text = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-  text:SetTextColor(T.rgba(T.color.muted))
-  text:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -gap)
+local function makeStatusCard(parent)
+  local card = CreateFrame("Frame", nil, parent)
+  card.bg = fillColor(card:CreateTexture(nil, "BACKGROUND"), PALETTE.tones.neutral.bg)
+  card.bg:SetAllPoints()
+  card.border = makeBorder(card, PALETTE.tones.neutral.rim, 1)
+  card.accent = fillColor(card:CreateTexture(nil, "ARTWORK"), PALETTE.tones.neutral.accent)
+  card.accent:SetPoint("TOPLEFT", 1, -1)
+  card.accent:SetPoint("BOTTOMLEFT", 1, 1)
+  card.accent:SetWidth(3)
+  card.title = card:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+  card.title:SetTextColor(T.rgba(PALETTE.text))
+  wrapRegion(card.title)
+  card.title:SetPoint("TOPLEFT", 12, -9)
+  card.title:SetPoint("RIGHT", card, "RIGHT", -10, 0)
+  card.copy = card:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  card.copy:SetTextColor(T.rgba(PALETTE.sub))
+  wrapRegion(card.copy)
+  card.copy:SetPoint("TOPLEFT", card.title, "BOTTOMLEFT", 0, -4)
+  card.copy:SetPoint("RIGHT", card, "RIGHT", -10, 0)
+  function card.SetState(tone, titleText, copyText)
+    local t = PALETTE.tones[tone] or PALETTE.tones.neutral
+    fillColor(card.bg, t.bg)
+    setBorderColor(card.border, t.rim)
+    fillColor(card.accent, t.accent)
+    card.title:SetText(titleText or "")
+    card.copy:SetText(copyText or "")
+    card.copy:SetShown(copyText ~= nil and copyText ~= "")
+  end
+  function card.Layout(w)
+    local inner = math.max(120, w - 22)
+    card.title:SetWidth(inner)
+    local th = strHeight(card.title, 16)
+    local ch = 0
+    if card.copy:IsShown() then
+      card.copy:SetWidth(inner)
+      ch = strHeight(card.copy, 14) + 4
+    end
+    local h = math.max(36, 18 + th + ch)
+    card:SetSize(w, h)
+    return h
+  end
+  return card
+end
+
+-- Native WoW radio button built on CheckButton + UI-RadioButton so it works across 1.12, Classic, and Modern.
+local function makeRadio(parent, label)
+  local rb = CreateFrame("CheckButton", nil, parent)
+  rb:SetSize(20, 20)
+  rb:SetNormalTexture("Interface\\Buttons\\UI-RadioButton")
+  local norm = rb.GetNormalTexture and rb:GetNormalTexture()
+  if norm and norm.SetTexCoord then norm:SetTexCoord(0, 0.25, 0, 1) end
+  rb:SetCheckedTexture("Interface\\Buttons\\UI-RadioButton")
+  local chk = rb.GetCheckedTexture and rb:GetCheckedTexture()
+  if chk and chk.SetTexCoord then chk:SetTexCoord(0.25, 0.5, 0, 1) end
+  rb:SetHighlightTexture("Interface\\Buttons\\UI-RadioButton", "ADD")
+  local hi = rb.GetHighlightTexture and rb:GetHighlightTexture()
+  if hi and hi.SetTexCoord then hi:SetTexCoord(0.5, 0.75, 0, 1) end
+  local text = rb:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  wrapRegion(text)
+  text:SetPoint("LEFT", rb, "RIGHT", 4, 0)
   text:SetText(label)
-  local url = CreateFrame("EditBox", nil, c, "InputBoxTemplate")
-  url:SetSize(220, 20)
-  url:SetPoint("LEFT", text, "RIGHT", 12, 0)
+  rb.label = text
+  return rb
+end
+
+-- Selectable read-only URL row; refills on show for Forever client EditBox quirks.
+local function urlRow(parent, label, address)
+  local row = CreateFrame("Frame", nil, parent)
+  local text = row:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  text:SetTextColor(T.rgba(T.color.muted))
+  wrapRegion(text)
+  text:SetPoint("TOPLEFT", 0, -3)
+  text:SetText(label)
+  local url = CreateFrame("EditBox", nil, row, "InputBoxTemplate")
+  url:SetSize(210, 20)
   url:SetAutoFocus(false)
   if url.SetFontObject and _G.ChatFontNormal then url:SetFontObject(ChatFontNormal) end
   url:SetTextColor(T.rgba(T.color.url))
-  -- On the Forever client, text set on this box before the settings page is first shown rendered as an empty box
-  -- (it's dropped or scrolled out of view). So the address is filled again, with the cursor at the start, every time
-  -- the box or the page shows.
   local function fill()
     url:SetText(address)
     url:SetCursorPosition(0)
@@ -209,44 +384,117 @@ local function urlRow(c, label, address, anchor, gap)
   url:SetScript("OnEscapePressed", function(self) self:ClearFocus() end)
   url:HookScript("OnShow", fill)
   url:HookScript("OnEditFocusLost", function(self) self:HighlightText(0, 0); fill() end)
-  return text, url, fill
+  row.label, row.url, row.fill = text, url, fill
+  function row.Layout(w)
+    local lw = strWidth(text, 100)
+    url:ClearAllPoints()
+    if lw + 12 + 190 <= w then
+      text:SetWidth(lw + 4)
+      url:SetPoint("LEFT", text, "RIGHT", 10, 0)
+      url:SetWidth(math.max(150, math.min(230, w - lw - 14)))
+      row:SetSize(w, math.max(24, strHeight(text, 14) + 6))
+      return math.max(24, strHeight(text, 14) + 6)
+    else
+      text:SetWidth(w)
+      local th = strHeight(text, 14)
+      url:SetPoint("TOPLEFT", text, "BOTTOMLEFT", 4, -4)
+      url:SetWidth(math.max(150, math.min(240, w - 8)))
+      local h = th + 28
+      row:SetSize(w, h)
+      return h
+    end
+  end
+  return row
 end
 
--- At the top of Narration voices: which of the game's sound channels the narrators and quest dialogue play on (Play
--- voices on, LOR-315: Dialog unless the player picks Effects, Music, Ambience or Master Volume, named as the game's
--- Sound settings name them), then how loud they are (Voice volume, LOR-295). The slider is the chosen channel's own
--- volume (Voice.Volume), never a copy of it: it shows what the game has whenever the page opens, the game says a
--- setting changed (Options.OnCVarUpdate) or another channel is picked, and moving it sets the game's setting there and
--- then, as that channel's slider in System > Sound does. So whatever else the game plays on that channel follows it
--- too (the note under it says what), nothing changes while something plays, and only the channel choice is saved. A
--- new channel applies from the next recording: the one playing carries on where it is. Moved with nothing playing,
--- the slider plays the first voice's sample to hear the level by (the sample follows the slider while it plays). With
--- the chosen channel switched off in the game our recordings play on Master, which this leaves alone: the note says
--- so, and no sample plays. Under `anchor`; returns the rows.
-local function volumeRow(c, anchor)
-  local row = {}
-  local pick = c:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
-  pick:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", 0, -10)
-  pick:SetText(L["Play voices on"])
-  local channel, channelList = dropDown("LoreForeverVoiceChannel", c, 220)
-  channel:SetPoint("TOPLEFT", pick, "BOTTOMLEFT", 2, -4)
-  channel:HookScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Play voices on"])
-    T.Tip(L["Which of the game's sound channels the narrators and quest dialogue play on. Narration and game voices below is that channel's volume."],
-      "tipText", true)
-    GameTooltip:Show()
+-- Checkbutton row with label, optional inline blocked/help reason (only shown when set), and hover/focus tooltip.
+local function makeCheckRow(parent, key, label, tip, english, onClick)
+  local row = CreateFrame("Frame", nil, parent)
+  local cb = CreateFrame("CheckButton", nil, row, "UICheckButtonTemplate")
+  cb:SetPoint("TOPLEFT", -4, 0)
+  local text = type(cb.Text) == "table" and cb.Text or nil
+  if not text then
+    text = cb:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
+  else
+    text:ClearAllPoints()
+    text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
+  end
+  wrapRegion(text)
+  text:SetText(label)
+  cb.label = text
+  cb.color = { text:GetTextColor() }
+  cb.newTag = ns.WhatsNew and ns.WhatsNew.Tag and ns.WhatsNew.Tag(row, text, "LEFT", "RIGHT", 6, 0) or nil
+  cb.english = english or englishOf(label)
+  cb.key = key
+  cb.tip = tip
+
+  local desc = row:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  desc:SetTextColor(T.rgba(T.color.muted))
+  wrapRegion(desc)
+  desc:SetPoint("TOPLEFT", cb, "BOTTOMLEFT", 30, 2)
+  desc:Hide()
+  cb.desc = desc
+  cb.row = row
+
+  setTip(cb, label, tip)
+  cb:SetScript("OnClick", function(self)
+    if self.IsEnabled and not self:IsEnabled() then
+      self:SetChecked(LoreForeverDB.settings[key] and true or false)
+      return
+    end
+    LoreForeverDB.settings[key] = self:GetChecked() and true or false
+    if onClick then onClick(self) end
   end)
-  channel:HookScript("OnLeave", function() GameTooltip:Hide() end)
-  local label = c:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
-  label:SetPoint("TOPLEFT", channel, "BOTTOMLEFT", -2, -12)
-  label:SetText(L["Narration and game voices"])
-  local slider = CreateFrame("Slider", "LoreForeverVoiceVolume", c, T.BACKDROP_TEMPLATE)
+
+  function row.SetBlocked(why, persistNote)
+    local disabled = why ~= nil and why ~= ""
+    cb:SetEnabled(not disabled)
+    if disabled then
+      cb.label:SetTextColor(T.rgba(T.color.faint))
+    else
+      cb.label:SetTextColor(unpack(cb.color))
+    end
+    local shownText = (disabled and why) or persistNote
+    if shownText and shownText ~= "" then
+      desc:SetText(shownText)
+      desc:Show()
+    else
+      desc:SetText("")
+      desc:Hide()
+    end
+  end
+
+  function row.Layout(w)
+    local tagW = (cb.newTag and cb.newTag:IsShown()) and 34 or 0
+    local textW = math.max(100, w - 32 - tagW)
+    text:SetWidth(textW)
+    local topH = math.max(26, strHeight(text, 16) + 6)
+    local descH = 0
+    if desc:IsShown() then
+      local dw = math.max(100, w - 30)
+      desc:SetWidth(dw)
+      descH = strHeight(desc, 13) + 4
+    end
+    local h = topH + descH
+    row:SetSize(w, h)
+    return h
+  end
+
+  return row, cb
+end
+
+-- Volume + sound channel block (shared API surface kept intact for SelfTest and OnCVarUpdate/OnPreviewChanged).
+local function buildVolumeControls(parent, onPreviewMsg)
+  local row = {}
+  local head = makeHeading(parent, L["Volume"])
+  local sliderRow = CreateFrame("Frame", nil, parent)
+  local slider = CreateFrame("Slider", "LoreForeverVoiceVolume", sliderRow, T.BACKDROP_TEMPLATE)
   slider:SetOrientation("HORIZONTAL")
-  slider:SetSize(220, 17)
-  slider:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 2, -8)
+  slider:SetSize(160, 17)
+  slider:SetPoint("LEFT", 0, 0)
   slider:SetHitRectInsets(0, 0, -4, -4)
-  if slider.SetBackdrop then   -- the game's own slider look, without its template
+  if slider.SetBackdrop then
     slider:SetBackdrop({ bgFile = "Interface\\Buttons\\UI-SliderBar-Background",
       edgeFile = "Interface\\Buttons\\UI-SliderBar-Border", tile = true, tileSize = 8, edgeSize = 8,
       insets = { left = 3, right = 3, top = 6, bottom = 6 } })
@@ -257,12 +505,32 @@ local function volumeRow(c, anchor)
   slider:SetMinMaxValues(0, 100)
   slider:SetValueStep(1)
   if slider.SetObeyStepOnDrag then slider:SetObeyStepOnDrag(true) end
-  local value = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-  value:SetPoint("LEFT", slider, "RIGHT", 10, 0)
-  local text = note(c, "", slider, 8)
-  text:SetPoint("TOPLEFT", slider, "BOTTOMLEFT", -2, -8)   -- under the label, not the slider's inset
 
-  -- What else the game plays on the chosen channel; or that the game has it switched off, so our voices play on Master.
+  local sampleBtn = themedButton(sliderRow, L["Sample"])
+  sampleBtn:SetSize(74, 24)
+  fit(sampleBtn, 70)
+  sampleBtn:SetPoint("RIGHT", 0, 0)
+
+  local value = sliderRow:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  value:SetPoint("RIGHT", sampleBtn, "LEFT", -10, 0)
+  value:SetJustifyH("RIGHT")
+
+  local label = parent:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+  label:SetText(L["Narration and game voices"])
+  label:Hide()   -- (kept for WhatsNew / SelfTest references)
+
+  local chanRow = CreateFrame("Frame", nil, parent)
+  local pick = chanRow:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  wrapRegion(pick)
+  pick:SetPoint("LEFT", 0, 0)
+  pick:SetText(tr("Sound channel", "Play voices on"))
+  local channel, channelList = dropDown("LoreForeverVoiceChannel", chanRow, 150)
+  channel:SetPoint("RIGHT", 0, 0)
+  setTip(channel, L["Play voices on"],
+    L["Which of the game's sound channels the narrators and quest dialogue play on. Narration and game voices below is that channel's volume."])
+
+  local noteFs = makeNote(parent, "")
+
   local function about()
     local V = ns.Voice
     local key = V.ChannelChoice()
@@ -280,7 +548,7 @@ local function volumeRow(c, anchor)
     end
     return L["How loud the narrators and quest dialogue are. It's the game's own Dialog volume, so NPC voices follow it too."]
   end
-  -- The chosen channel by its game name, and its volume on the slider; nothing is written back.
+
   local syncing = false
   function row.Sync()
     local V = ns.Voice
@@ -290,29 +558,40 @@ local function volumeRow(c, anchor)
     slider:SetValue(pct)
     syncing = false
     value:SetText(string.format("%d%%", pct))
-    text:SetText(about())
+    local off = V.SoundOff() == "channel"
+    if off then
+      noteFs:SetText(about())
+      noteFs:Show()
+    else
+      noteFs:SetText("")
+      noteFs:Hide()
+    end
+    sampleBtn:SetText(V.previewing and L["Stop"] or L["Sample"])
+    fit(sampleBtn, 70)
   end
-  -- Another channel: from the next recording on (the one playing carries on), with its own volume on the slider.
+
   channel:SetScript("OnClick", function()
     local items = {}
     for _, key in ipairs(ns.Voice.CHANNELS) do items[#items + 1] = { value = key, label = ns.Voice.ChannelName(key) } end
     channelList.Toggle(items, ns.Voice.ChannelChoice(), function(ch)
       LoreForeverDB.settings.voiceChannel = ch.value
       row.Sync()
+      if row.onLayout then row.onLayout() end
     end)
   end)
-  -- With nothing playing, the first voice's sample (which plays on as the slider moves).
+
   local function hear()
     local V, UI = ns.Voice, ns.UI
     if V.previewing or V.SoundOff() then return end
     if UI and ((UI.IsBusy and UI.IsBusy()) or (UI.pl and UI.pl.state == "waiting")) then return end
     V.Preview(V.Current())
   end
+
   slider:SetScript("OnValueChanged", function(_, v)
     local pct = math.max(0, math.min(100, math.floor((tonumber(v) or 0) + 0.5)))
     value:SetText(string.format("%d%%", pct))
     if syncing or pct == ns.Voice.Volume() then return end
-    if not ns.Voice.SetVolume(pct) then return row.Sync() end   -- the game didn't take it: show what it has
+    if not ns.Voice.SetVolume(pct) then return row.Sync() end
     hear()
   end)
   slider:SetScript("OnEnter", function(self)
@@ -322,124 +601,149 @@ local function volumeRow(c, anchor)
     GameTooltip:Show()
   end)
   slider:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  -- "New" after an update whose notes name Options > ... Voice volume or Play voices on (WhatsNew.lua; ShowNew).
-  row.new = ns.WhatsNew.Tag(c, label, "LEFT", "RIGHT", 8, 0)
-  row.channelNew = ns.WhatsNew.Tag(c, pick, "LEFT", "RIGHT", 8, 0)
-  row.label, row.slider, row.value, row.note = label, slider, value, text
+
+  sampleBtn:SetScript("OnClick", function()
+    if ns.Voice.previewing then
+      ns.Voice.StopPreview()
+      return
+    end
+    local ok, why = ns.Voice.Preview(ns.Voice.Current())
+    if not ok and onPreviewMsg then onPreviewMsg(why) end
+  end)
+
+  function row.Layout(w)
+    local sw = math.max(80, w - (sampleBtn:GetWidth() or 74) - 52)
+    slider:SetWidth(sw)
+    sliderRow:SetSize(w, 28)
+
+    local cw = math.max(120, math.min(165, math.floor(w * 0.48)))
+    channel:SetWidth(cw)
+    pick:ClearAllPoints()
+    channel:ClearAllPoints()
+    local pw = strWidth(pick, 90)
+    local chanH
+    if pw + 12 + cw <= w then
+      pick:SetPoint("LEFT", 0, 0)
+      pick:SetWidth(w - cw - 10)
+      channel:SetPoint("RIGHT", 0, 0)
+      chanH = math.max(28, strHeight(pick, 14) + 8)
+    else
+      pick:SetPoint("TOPLEFT", 0, 0)
+      pick:SetWidth(w)
+      channel:SetPoint("TOPLEFT", pick, "BOTTOMLEFT", 0, -4)
+      chanH = strHeight(pick, 14) + 32
+    end
+    chanRow:SetSize(w, chanH)
+    row.chanHeight = chanH
+    if noteFs:IsShown() then noteFs:SetWidth(w) end
+  end
+
+  row.new = ns.WhatsNew.Tag(sliderRow, head, "LEFT", "RIGHT", 8, 0)
+  row.channelNew = ns.WhatsNew.Tag(chanRow, pick, "LEFT", "RIGHT", 8, 0)
+  row.head, row.sliderRow, row.chanRow = head, sliderRow, chanRow
+  row.label, row.slider, row.value, row.note, row.sampleBtn = label, slider, value, noteFs, sampleBtn
   row.pick, row.channel, row.channelList = pick, channel, channelList
   return row
 end
 
--- The Narration voices section: the channel the voices play on and its volume, then the player's voices in order,
--- each with a tick box, its counts, Sample, and arrows to move it (plain clicks only); a voice that isn't installed any
--- more can be forgotten. Then how voices share a story, a status line and where to get more voices. Placed under
--- `anchor`; returns the section and its last line.
+-- Narrator and voice packs details block (lives inside the collapsible disclosure on Audio).
 local VROW = 38
 local MODES = { "story", "line", "zone" }
-function Options.VoiceSection(c, anchor)
-  local head = heading(c, L["Narration voices"], anchor, 24)
-  local volume = volumeRow(c, head)
-  -- Three kinds of voice that never stand in for each other (voice pack layering, option A: Mike, 10/21): the narrator,
-  -- the quest givers and Willo. Each has its own part here.
-  local narratorHead = heading(c, L["Narrator: stories, places and people"], volume.note, 16)
-  local intro = note(c, L["Each story plays from the first narrator here that has it. Use the arrows to reorder; untick one to stop using it."], narratorHead, 6)
-  local box = CreateFrame("Frame", nil, c)
-  box:SetPoint("TOPLEFT", intro, "BOTTOMLEFT", 0, -6)
-  box:SetPoint("RIGHT", c, "RIGHT", -24, 0)
+function Options.VoiceSection(parent, onLayout, onPreviewError)
+  local section, rows = {}, {}
+  local container = CreateFrame("Frame", nil, parent)
+
+  local narratorHead = makeHeading(container, L["Narrator: stories, places and people"])
+  local intro = makeNote(container, L["Each story plays from the first narrator here that has it. Use the arrows to reorder; untick one to stop using it."])
+  local box = CreateFrame("Frame", nil, container)
   box:SetHeight(VROW)
-  -- A tick box with its note under it (indented), saved as settings[key]; returns the box, its label and the note.
-  local function tick(label, words, anchorTo, gap, key, onClick)
-    local b = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-    b:SetPoint("TOPLEFT", anchorTo, "BOTTOMLEFT", -4, -(gap or 6))
-    local text = type(b.Text) == "table" and b.Text or b:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
-    text:ClearAllPoints()
-    text:SetPoint("LEFT", b, "RIGHT", 4, 0)
-    text:SetText(label)
-    local n = note(c, words, b, 2)
-    n:SetPoint("TOPLEFT", b, "BOTTOMLEFT", 30, 4)
-    b:SetScript("OnClick", function(self)
-      LoreForeverDB.settings[key] = self:GetChecked() and true or false
-      if onClick then onClick(self) end
-    end)
-    return b, text, n
-  end
+
   local function revoice()
     ns.Voice.Refresh(true)
     if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
   end
-  local fillGender, _, fillGenderNote = tick(L["Let a man's and a woman's narrator fill in for each other"],
+
+  local function voiceCheck(label, words, key, onClick)
+    local r = CreateFrame("Frame", nil, container)
+    local b = CreateFrame("CheckButton", nil, r, "UICheckButtonTemplate")
+    b:SetPoint("TOPLEFT", -4, 0)
+    local text = type(b.Text) == "table" and b.Text or b:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    text:ClearAllPoints()
+    text:SetPoint("LEFT", b, "RIGHT", 4, 0)
+    wrapRegion(text)
+    text:SetText(label)
+    b.label = text
+    setTip(b, label, words)
+    b:SetScript("OnClick", function(self)
+      LoreForeverDB.settings[key] = self:GetChecked() and true or false
+      if onClick then onClick(self) end
+    end)
+    r.cb, r.text = b, text
+    function r.Layout(w)
+      text:SetWidth(math.max(100, w - 32))
+      local h = math.max(26, strHeight(text, 16) + 6)
+      r:SetSize(w, h)
+      return h
+    end
+    return r, b, text
+  end
+
+  local fillGenderRow, fillGender = voiceCheck(L["Let a man's and a woman's narrator fill in for each other"],
     L["Off: a story your top narrator hasn't recorded shows as text, rather than switching to a narrator of the other gender."],
-    box, 4, "voiceFillGender", revoice)
-  local modeLabel = note(c, L["When several voices have a narration:"], fillGenderNote, 10, "GameFontNormalSmall")
-  modeLabel:SetPoint("TOPLEFT", fillGenderNote, "BOTTOMLEFT", -26, -10)
-  local mode, modeList = dropDown("LoreForeverVoiceMode", c, 300)
-  mode:SetPoint("TOPLEFT", modeLabel, "BOTTOMLEFT", 2, -4)
-  local race = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-  race:SetPoint("TOPLEFT", mode, "BOTTOMLEFT", -4, -6)
-  local raceText = type(race.Text) == "table" and race.Text or race:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
-  raceText:ClearAllPoints()
-  raceText:SetPoint("LEFT", race, "RIGHT", 4, 0)
-  raceText:SetText(L["Prefer voices that suit the race"])
-  local raceNote = note(c, L["Orc lore in an orc voice: a voice that says which races it suits goes first for their stories."],
-    race, 2)
-  raceNote:SetPoint("TOPLEFT", race, "BOTTOMLEFT", 30, 4)
-  race:SetScript("OnClick", function(self)
-    LoreForeverDB.settings.voiceMatchRace = self:GetChecked() and true or false
-    revoice()
-  end)
-  local giversHead = heading(c, L["Quest givers"], raceNote, 16)
-  giversHead:SetPoint("TOPLEFT", raceNote, "BOTTOMLEFT", -28, -16)
-  local gender = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-  gender:SetPoint("TOPLEFT", giversHead, "BOTTOMLEFT", -4, -4)
-  local genderText = type(gender.Text) == "table" and gender.Text
-    or gender:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
-  genderText:ClearAllPoints()
-  genderText:SetPoint("LEFT", gender, "RIGHT", 4, 0)
-  genderText:SetText(L["Match the quest giver's voice"])
-  local genderNote = note(c, L["Quest dialogue in a voice of the quest giver's race and gender. Your narrator reads any quest that voice hasn't recorded."],
-    gender, 2)
-  genderNote:SetPoint("TOPLEFT", gender, "BOTTOMLEFT", 30, 4)
-  gender:SetScript("OnClick", function(self)
-    LoreForeverDB.settings.voiceMatchGender = self:GetChecked() and true or false
-  end)
-  local willoHead = heading(c, L["Willo's voice"], genderNote, 16)
-  willoHead:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -16)
-  local willoNote = note(c, L["Willo speaks in her own voice, picked in Willo."], willoHead, 6)
-  -- "New" after an update, when this version's notes name one of the two (WhatsNew.lua; section.ShowNew).
-  local raceNew = ns.WhatsNew.Tag(c, raceText, "LEFT", "RIGHT", 8, 0)
-  local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
-  local status = note(c, "", willoNote, 12, "GameFontHighlightSmall")
-  local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
-  -- The quiet voice buttons (VoiceOffer.lua): right-clicking one turns them all off, and this brings them back.
-  local offers = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-  offers:SetPoint("LEFT", url, "RIGHT", 10, 0)
+    "voiceFillGender", revoice)
+
+  local modeLabel = makeNote(container, L["When several voices have a narration:"], "GameFontNormalSmall", T.color.gold)
+  local mode, modeList = dropDown("LoreForeverVoiceMode", container, 260)
+
+  local raceRow, race, raceText = voiceCheck(L["Prefer voices that suit the race"],
+    L["Orc lore in an orc voice: a voice that says which races it suits goes first for their stories."],
+    "voiceMatchRace", revoice)
+  local genderRow, gender, genderText = voiceCheck(L["Match the quest giver's voice"],
+    L["Quest dialogue in a voice of the quest giver's race and gender. Your narrator reads any quest that voice hasn't recorded."],
+    "voiceMatchGender")
+
+  local raceNew = ns.WhatsNew.Tag(raceRow, raceText, "LEFT", "RIGHT", 8, 0)
+  local genderNew = ns.WhatsNew.Tag(genderRow, genderText, "LEFT", "RIGHT", 8, 0)
+
+  local willoHead = makeHeading(container, L["Willo's voice"])
+  local willoNote = makeNote(container, L["Willo speaks in her own voice, picked in Willo."])
+  local status = makeNote(container, "", "GameFontHighlightSmall")
+  local moreUrl = urlRow(container, L["Get more voices:"], VOICES_URL)
+
+  local offersRow = CreateFrame("Frame", nil, container)
+  local offers = CreateFrame("CheckButton", nil, offersRow, "UICheckButtonTemplate")
+  offers:SetPoint("TOPLEFT", -4, 0)
   local offersText = type(offers.Text) == "table" and offers.Text
     or offers:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
   offersText:ClearAllPoints()
   offersText:SetPoint("LEFT", offers, "RIGHT", 4, 0)
+  wrapRegion(offersText)
   offersText:SetText(L["Show download buttons"])
-  offers:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Show download buttons"])
-    T.Tip(L["A dimmed play button where a free download has the voice for that quest or story."], "tipText", true)
-    GameTooltip:Show()
-  end)
-  offers:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  setTip(offers, L["Show download buttons"], L["A dimmed play button where a free download has the voice for that quest or story."])
   offers:SetScript("OnClick", function(self) ns.VoiceOffer.SetEnabled(self:GetChecked()) end)
   offers:HookScript("OnShow", function(self) self:SetChecked(ns.VoiceOffer.Enabled()) end)
-  local hint = note(c, L["Installed a voice? Type /reload; it's added at the bottom of the narrator list."],
-    moreLabel, 10)
-  local packsHead = heading(c, L["Installed packs"], hint, 18)
-  local packsHelp = note(c, L["Several packs add recordings to the same narrator above. Language packs are chosen in Options > Language; reload to change language."], packsHead, 6)
-  local packsList = note(c, "", packsHelp, 10)
 
-  local section, rows = {}, {}
-  function section.ShowNew()
-    volume.new:SetShown(ns.WhatsNew.OptionIsNew("Narration and game voices"))
-    volume.channelNew:SetShown(ns.WhatsNew.OptionIsNew("Play voices on"))
-    raceNew:SetShown(ns.WhatsNew.OptionIsNew("Prefer voices that suit the race"))
-    genderNew:SetShown(ns.WhatsNew.OptionIsNew("Match the quest giver's voice"))
-  end
+  local packHintsRow, packHintsCb = makeCheckRow(container, "packHints", L["Narration pack hints"],
+    L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."])
+
+  local hint = makeNote(container, L["Installed a voice? Type /reload; it's added at the bottom of the narrator list."])
+  local packsHead = makeHeading(container, L["Installed packs"])
+  local packsHelp = makeNote(container, L["Several packs add recordings to the same narrator above. Language packs are chosen in Options > Language; reload to change language."])
+  local packsList = makeNote(container, "")
+
+  local resetBtn = themedButton(container, L["Reset heard narrations"])
+  resetBtn:SetSize(200, 24)
+  fit(resetBtn, 200)
+  setTip(resetBtn, L["Reset heard narrations"],
+    L["Skip what you've heard"] .. ": " .. L["Don't replay a narration by itself once this character has heard it. You can still play it any time."])
+  resetBtn:SetScript("OnClick", function()
+    local n = ns.Voice.ResetHeard()
+    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
+      and L["forgot %d narration this character heard; it plays by itself again."]
+      or L["forgot %d narrations this character heard; they play by themselves again."], n))
+    if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
+  end)
+
   local modeNames = { story = L["Keep one voice per story"], line = L["Use the first voice for each narration"],
     zone = L["Keep one voice per zone"] }
 
@@ -452,24 +756,10 @@ function Options.VoiceSection(c, anchor)
     if t and t.SetDesaturated then t:SetDesaturated(true) end
     b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
     b:SetScript("OnClick", function() onClick(r.item) end)
-    b:SetScript("OnEnter", function(self)
-      GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      GameTooltip:AddLine(tip)
-      GameTooltip:Show()
-    end)
-    b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    setTip(b, tip, tip)
     return b
   end
 
-  -- The panel's themed button (Theme.lua), or the game's own where the theme isn't loaded.
-  local function button(parent, label)
-    if ns.Theme and ns.Theme.Button then return ns.Theme.Button(parent, label) end
-    local b = CreateFrame("Button", nil, parent, "UIPanelButtonTemplate")
-    b:SetText(label)
-    return b
-  end
-
-  -- (Rows are VROW tall, and taller by their downloads line: section.Update stacks them.)
   local function row(i)
     if rows[i] then return rows[i] end
     local r = CreateFrame("Frame", nil, box)
@@ -482,44 +772,46 @@ function Options.VoiceSection(c, anchor)
     r.check:SetScript("OnClick", function(self)
       ns.Voice.SetOn(r.item.key, self:GetChecked() and true or false)
       section.Update()
+      if onLayout then onLayout() end
     end)
     r.down = small(r, "Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up", L["Move down"], function(it)
       ns.Voice.Move(it.key, 1)
       section.Update()
+      if onLayout then onLayout() end
     end)
     r.down:SetPoint("TOPRIGHT", 0, -(VROW - 20) / 2)
     r.up = small(r, "Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up", L["Move up"], function(it)
       ns.Voice.Move(it.key, -1)
       section.Update()
+      if onLayout then onLayout() end
     end)
     r.up:SetPoint("RIGHT", r.down, "LEFT", -2, 0)
-    r.sample = button(r, L["Sample"])
+    r.sample = themedButton(r, L["Sample"])
     r.sample:SetSize(70, 22)
     r.sample:SetPoint("RIGHT", r.up, "LEFT", -6, 0)
     fit(r.sample, 70)
-    -- Sample plays the voice's sample (stopping whatever played, another sample included); while it plays the
-    -- button reads Stop and stops it (Voice.previewing, kept up to date through Options.OnPreviewChanged).
     r.sample:SetScript("OnClick", function()
       if ns.Voice.previewing == r.item.key then return ns.Voice.StopPreview() end
       local ok, why = ns.Voice.Preview(r.item.key)
-      if not ok then   -- say why (LOR-136), unless the status line already does
-        local st = ns.Voice.Status()
+      if not ok then
+        local st = ns.Voice.Status(true)
         if why and st:find(why, 1, true) then
           status:SetText(st)
         else
           status:SetText(st .. " " .. T.code.warn .. (why or L["(Nothing to preview.)"]) .. "|r")
         end
+        if onPreviewError then onPreviewError(why) end
       end
     end)
-    r.forget = button(r, L["Forget"])
+    r.forget = themedButton(r, L["Forget"])
     r.forget:SetSize(70, 22)
     r.forget:SetPoint("RIGHT", r.up, "LEFT", -6, 0)
     fit(r.forget, 70)
     r.forget:SetScript("OnClick", function()
       ns.Voice.Forget(r.item.key)
       section.Update()
+      if onLayout then onLayout() end
     end)
-    -- One width for both (only one shows), so a longer translation of either can't run over the name.
     local w1, w2 = r.sample:GetWidth(), r.forget:GetWidth()
     if type(w1) == "number" and type(w2) == "number" then
       r.sample:SetWidth(math.max(w1, w2))
@@ -528,23 +820,48 @@ function Options.VoiceSection(c, anchor)
     r.name = r:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
     r.name:SetPoint("TOPLEFT", r.check, "TOPRIGHT", 2, 3)
     r.name:SetPoint("RIGHT", r.sample, "LEFT", -8, 0)
-    r.name:SetJustifyH("LEFT")
+    wrapRegion(r.name)
     r.stats = r:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     r.stats:SetPoint("TOPLEFT", r.name, "BOTTOMLEFT", 0, -2)
     r.stats:SetPoint("RIGHT", r.sample, "LEFT", -8, 0)
-    r.stats:SetJustifyH("LEFT")
-    -- Our narrators' downloads: Complete, or the CurseForge projects of their stories that aren't installed. Under the
-    -- tick box and the buttons, so the long names get the row's whole width.
+    wrapRegion(r.stats)
     r.packs = r:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     r.packs:SetPoint("TOPLEFT", r.check, "BOTTOMRIGHT", 2, 0)
     r.packs:SetPoint("TOPRIGHT", r, "TOPRIGHT", 0, -(VROW - 26) / 2 - 26)
-    r.packs:SetJustifyH("LEFT")
+    wrapRegion(r.packs)
+    function r.Layout(w)
+      w = (type(w) == "number" and w > 0) and w or (tonumber(box:GetWidth()) or 260)
+      r:SetWidth(w)
+      local hasBtn = (r.sample and r.sample:IsShown()) or (r.forget and r.forget:IsShown())
+      local rightAnchor = hasBtn and r.sample or r.up
+      r.name:ClearAllPoints()
+      r.name:SetPoint("TOPLEFT", r.check, "TOPRIGHT", 2, 3)
+      r.name:SetPoint("RIGHT", rightAnchor, "LEFT", -8, 0)
+      r.stats:ClearAllPoints()
+      r.stats:SetPoint("TOPLEFT", r.name, "BOTTOMLEFT", 0, -2)
+      r.stats:SetPoint("RIGHT", rightAnchor, "LEFT", -8, 0)
+      local btnW = hasBtn and ((tonumber(r.sample:GetWidth()) or 70) + 6) or 0
+      local textW = math.max(80, w - 24 - (42 + btnW + 8))
+      r.name:SetWidth(textW)
+      r.stats:SetWidth(textW)
+      local textBot = 3 + strHeight(r.name, 14) + 2 + strHeight(r.stats, 12) + 4
+      local topH = math.max(VROW, textBot)
+      local height = topH
+      if r.packs:IsShown() then
+        r.packs:ClearAllPoints()
+        r.packs:SetPoint("TOPLEFT", r, "TOPLEFT", 24, -topH)
+        r.packs:SetPoint("TOPRIGHT", r, "TOPRIGHT", 0, -topH)
+        r.packs:SetWidth(math.max(80, w - 24))
+        height = topH + strHeight(r.packs, 12) + 4
+      end
+      r.height = height
+      r:SetSize(w, height)
+      return height
+    end
     rows[i] = r
     return r
   end
 
-  -- A narrator's downloads line (Voice.PackGaps): Complete, or what's missing by its CurseForge project's name and,
-  -- when the narrator has one, the Complete project that brings them all. nil for a voice we don't list.
   local function downloads(it)
     if not it.lacking then return nil end
     if #it.lacking == 0 then return T.code.green .. L["Complete"] .. "|r" end
@@ -553,14 +870,11 @@ function Options.VoiceSection(c, anchor)
     return line
   end
 
-  -- One row: greyed when unticked or unusable (with why in red), counts otherwise, then its downloads line. A voice
-  -- that can't be used can still be unticked, so it doesn't count as chosen. Returns the row's height.
   local function fill(r, it, i, n)
     r.item = it
     local usable = not it.why
     r.check:SetChecked(it.on)
-    local title = it.label
-    r.name:SetText(((it.on and usable) and "" or T.code.faint) .. title .. ((it.on and usable) and "" or "|r"))
+    r.name:SetText(((it.on and usable) and "" or T.code.faint) .. it.label .. ((it.on and usable) and "" or "|r"))
     local stats
     if it.why then
       stats = T.code.warn .. it.why .. "|r"
@@ -581,14 +895,12 @@ function Options.VoiceSection(c, anchor)
     r.packs:SetText(line or "")
     r.packs:SetTextColor(T.rgba(T.color.muted))
     r.packs:SetShown(line ~= nil)
-    local height = VROW + (line and (tonumber(r.packs:GetStringHeight()) or 12) + 4 or 0)
-    r:SetHeight(height)
     r:Show()
-    return height
+    return r.Layout(tonumber(box:GetWidth()) or 260)
   end
 
   function section.Update()
-    volume.Sync()
+    if section.SyncVolume then section.SyncVolume() end
     local items = ns.Voice.List()
     local y = 0
     for i, it in ipairs(items) do
@@ -621,15 +933,16 @@ function Options.VoiceSection(c, anchor)
       text[#text + 1] = T.code.gold .. it.title .. (it.narrator and (ns.Lang.Dotted(" · ") .. it.narrator) or "") .. "|r\n" .. detail
     end
     packsList:SetText(table.concat(text, "\n\n"))
-    section.packs, section.packsList, section.packsHead = installed, packsList, packsHead
+    section.packs = installed
 
     local cur = (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story"
     mode:SetText(modeNames[cur] or modeNames.story)
     race:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceMatchRace and true or false)
     fillGender:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceFillGender and true or false)
     gender:SetChecked(not (LoreForeverDB and LoreForeverDB.settings.voiceMatchGender == false))
+    offers:SetChecked(ns.VoiceOffer.Enabled())
     status:SetText(ns.Voice.Status(true))
-    fillUrl()
+    moreUrl.fill()
     section.items = items
   end
 
@@ -637,11 +950,78 @@ function Options.VoiceSection(c, anchor)
     for i = 1, n do row(i):Hide() end
   end
 
-  -- A sample started or stopped (Voice.Preview, Voice.Stop, or it ended): relabel the Sample buttons.
   function section.UpdateSamples()
+    if section.SyncVolume then section.SyncVolume() end
     for _, r in ipairs(rows) do
       if r.item then r.sample:SetText(ns.Voice.previewing == r.item.key and L["Stop"] or L["Sample"]) end
     end
+  end
+
+  function section.ShowNew()
+    if section.volumeNew then section.volumeNew:SetShown(ns.WhatsNew.OptionIsNew("Narration and game voices")) end
+    if section.channelNew then section.channelNew:SetShown(ns.WhatsNew.OptionIsNew("Play voices on")) end
+    raceNew:SetShown(ns.WhatsNew.OptionIsNew("Prefer voices that suit the race"))
+    genderNew:SetShown(ns.WhatsNew.OptionIsNew("Match the quest giver's voice"))
+  end
+
+  function section.Layout(w)
+    local y = 0
+    local function placeFS(fs, gap)
+      fs:ClearAllPoints()
+      fs:SetPoint("TOPLEFT", 0, -y)
+      fs:SetWidth(w)
+      y = y + strHeight(fs, 14) + (gap or 8)
+    end
+    local function placeFrame(f, h, gap)
+      f:ClearAllPoints()
+      f:SetPoint("TOPLEFT", 0, -y)
+      f:SetWidth(w)
+      y = y + h + (gap or 6)
+    end
+    placeFS(narratorHead, 4)
+    placeFS(intro, 8)
+    box:ClearAllPoints()
+    box:SetPoint("TOPLEFT", 0, -y)
+    box:SetWidth(w)
+    local listH = 0
+    for _, r in ipairs(rows) do
+      if r:IsShown() then
+        r:ClearAllPoints()
+        r:SetPoint("TOPLEFT", 0, -listH)
+        listH = listH + r.Layout(w)
+      end
+    end
+    local boxH = math.max(listH, VROW)
+    box:SetHeight(boxH)
+    y = y + boxH + 8
+
+    placeFrame(fillGenderRow, fillGenderRow.Layout(w), 6)
+    placeFS(modeLabel, 4)
+    mode:ClearAllPoints()
+    mode:SetPoint("TOPLEFT", 0, -y)
+    mode:SetWidth(math.min(w, 280))
+    y = y + 30
+    placeFrame(raceRow, raceRow.Layout(w), 4)
+    placeFrame(genderRow, genderRow.Layout(w), 12)
+    placeFS(willoHead, 4)
+    placeFS(willoNote, 10)
+    placeFS(status, 10)
+    local uh = moreUrl.Layout(w)
+    placeFrame(moreUrl, uh, 6)
+    offersText:SetWidth(math.max(100, w - 32))
+    local oh = math.max(26, strHeight(offersText, 16) + 6)
+    offersRow:SetSize(w, oh)
+    placeFrame(offersRow, oh, 4)
+    placeFrame(packHintsRow, packHintsRow.Layout(w), 6)
+    placeFS(hint, 12)
+    placeFS(packsHead, 4)
+    placeFS(packsHelp, 8)
+    placeFS(packsList, 14)
+    resetBtn:ClearAllPoints()
+    resetBtn:SetPoint("TOPLEFT", 0, -y)
+    y = y + 28
+    container:SetSize(w, y)
+    return y
   end
 
   mode:SetScript("OnClick", function()
@@ -650,534 +1030,873 @@ function Options.VoiceSection(c, anchor)
     modeList.Toggle(items, (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story", function(ch)
       ns.Voice.SetGroup(ch.value)
       section.Update()
+      if onLayout then onLayout() end
     end)
   end)
+
+  section.container = container
   section.rows, section.box, section.mode, section.modeList = rows, box, mode, modeList
-  section.status, section.url, section.race = status, url, race
+  section.status, section.url, section.race = status, moreUrl.url, race
   section.fillGender, section.gender = fillGender, gender
-  section.volume, section.volumeValue, section.volumeNote = volume.slider, volume.value, volume.note
-  section.volumeLabel, section.volumeNew, section.SyncVolume = volume.label, volume.new, volume.Sync
-  section.channel, section.channelList, section.channelLabel = volume.channel, volume.channelList, volume.pick
-  section.channelNew = volume.channelNew
-  return section, packsList
+  section.packsList, section.packsHead = packsList, packsHead
+  section.packHintsCb = packHintsCb
+  section.resetHeard = resetBtn
+  return section, container
 end
 
--- Built when the panel is, after the language pack has loaded.
-local function rows()
-  local out = {
-    { "zoneNudge", L["Zone hints"], L["When you enter a zone, suggest a question about it in chat."] },
-    { "dungeonPrimer", L["Dungeon primer prompt"], L["When you enter a dungeon, link its primer in chat, and each boss's story once you beat them."] },
-    { "unitTooltips", L["Lore on NPC tooltips"], L["Add a one-line story to the tooltip of NPCs and mobs."] },
-    { "itemTooltips", L["Notes on item tooltips"], L["Say when an item is wanted for a quest or starts one."] },
-    { "storylines", L["Show storylines on quests"], L["When a quest is part of a storyline, say so under its title and at the top of its story."] },
-    { "storylineChat", L["Storyline hints in chat"], L["When you turn in a storyline quest, chat says who to see next."] },
-    { "recaps", L["Storyline recaps"], L["At a storyline's turning points, the narrator retells what you've done so far. Never during a fight."] },
-    { "minimap", L["Minimap button"], L["Also show a book button on the minimap. It glows green while you have new pages."] },
-    { "pageSlip", L["New page notes"], L["A short note at the top of the screen names each new page you find. Click it to open the page."] },
-    { "questButton", L["Lore button on the quest window"], L["A Lore button on the quest window opens the quest's story. Shift-drag it to move it."] },
-    { "floatPlayer", L["Floating player"], L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."] },
-    { "subtitles", L["Subtitles"], L["Shows a narration's words at the bottom of the screen while the panel is closed. Shift-drag to move them."] },
-    { "reportCross", L["Show the report button on the narration player"], L["A small cross on the player to tell us a narration sounds wrong. Right-clicking the player offers it too."] },
-    { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
-    { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
-    { "showSpoilers", L["Tell me everything"], L["Story passages and answers that give away what's ahead wait until your quests reach them. Tick this to see and hear the whole story now."] },
-    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself. Play buttons, the Narrate key and your playlist still work."] },
-    { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
-    { "autoZone", L["Play stories as you find them"], L["Stories for the places and pages you find join your playlist and play in turn. Never in combat or on a flight."] },
-    -- (a community pack frozen before this wording, Italian and Romanian, still has the line as it was: its own words over English)
-    { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest read aloud as you open it. If another add-on reads quests, this turns itself off.")
-      or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
-      or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests. The same switch as in Willo.")
-      or L["Hear each quest read aloud as you open it. If another add-on reads quests, this turns itself off."] },
-    { "skipHeard", L["Skip what you've heard"], L["Don't replay a narration by itself once this character has heard it. You can still play it any time."] },
-    { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
-    { "journey", L["Remember my journey"], L["Keeps track of the places, people, foes and quests of your journey, for your journey page. It stays on your PC."] },
-    { "capture", L["Keep the quest text you see"], L["Keeps the quest and book text you see, so you can share what we're missing at loreforeverwow.com/contribute. It stays on your PC until then."] },
-    { "contributeButtons", L["Contribute buttons"], L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."] },
-    { "tips", L["Tips at login"], L["Now and then at login, a tip in chat about something Lore Forever can do."] },
-    -- (:format: a pack with only the older wording, Lang.REWORDED, names Willo through %s)
-    { "updateNotice", L["Tell me when a new version is out"], L["One chat line when a newer Lore Forever is out, with how to update. At most once every two weeks."]:format(ns.COMPANION_NAME) },
-    { "getWillo", L["Suggest %s"]:format(ns.COMPANION_NAME), L["Until you install %s, shows her icon beside Journey and a chat line about her when Lore Forever has no answer. Untick to hide both."]:format(ns.COMPANION_NAME) },
-  }
-  -- No Suggest Willo checkbox until Willo launches (Companion.OFFER_WILLO); the saved setting is kept as it is.
-  if not (ns.Companion and ns.Companion.OFFER_WILLO) then
-    for i, row in ipairs(out) do
-      if row[1] == "getWillo" then table.remove(out, i) break end
-    end
-  end
-  return out
-end
+function Options.Create()
+  if Options.panel then return Options.panel end
 
--- The settings that only do something with Willo, the companion app (willoSection): live game info is read by Willo
--- alone, and journey pictures reach the journey through Willo's picture book.
-local function willoRows()
-  local out = {
-    { "talkMark", L["Show who can answer you"], L["When you target someone who can answer, a small mark shows which key to hold to ask them. Right-click it to hide it."] },
-    -- (the fourth: the tick box's tooltip, for what the line under it leaves out)
-    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Hides your interface for a moment when a journey picture is taken. Turn on Picture book in %s to keep them."]:format(ns.COMPANION_NAME),
-      L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys. Except in combat."] },
-  }
-  if ns.Journey and ns.Journey.PictureBookOn() then
-    out[#out + 1] = { "automaticPictures", L["Automatic journey pictures"],
-      L["Takes a journey picture when you level up, beat a boss or reach a new zone. At most ten a day."] }
-  end
-  return out
-end
+  local p = CreateFrame("Frame", "LoreForeverOptions")
+  p:Hide()
+  p.name = "Lore Forever"
+  p.checks = {}
+  p.willoChecks = {}
 
--- Language: a drop-down of Automatic, English and the installed language packs, under `anchor`. Packs load at login,
--- so a new choice takes a reload. Add-ons can't call ReloadUI (it's protected: "Interface action failed"), so the
--- Reload now button is a secure button that runs /reload as a macro.
-local function languageSection(c, p, anchor)
-  local head = heading(c, L["Language"], anchor, 18)
-  local btn, list = dropDown("LoreForeverLanguagePick", c, 260)
-  btn:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 2, -6)
-  -- A protected frame can't be anchored to anything positioned by text ("Cannot anchor protected frames to
-  -- regions"), so it sits in the page header, anchored to the panel itself (and stays put when the page scrolls).
+  -- Header ----------------------------------------------------------------------------------------------------------
+  local header = CreateFrame("Frame", nil, p)
+  header:SetPoint("TOPLEFT", 0, 0)
+  header:SetPoint("TOPRIGHT", 0, 0)
+  header:SetHeight(56)
+  local headerBg = header:CreateTexture(nil, "BACKGROUND")
+  headerBg:SetAllPoints()
+  if T and T.Gradient then T.Gradient(headerBg, "VERTICAL", PALETTE.headerBot, PALETTE.headerTop)
+  else fillColor(headerBg, PALETTE.headerTop) end
+  local headerRule = fillColor(header:CreateTexture(nil, "BORDER"), PALETTE.rule)
+  headerRule:SetPoint("BOTTOMLEFT"); headerRule:SetPoint("BOTTOMRIGHT"); headerRule:SetHeight(1)
+
+  local badge = CreateFrame("Frame", nil, header)
+  badge:SetSize(34, 34)
+  badge:SetPoint("LEFT", 16, 0)
+  fillColor(badge:CreateTexture(nil, "BACKGROUND"), PALETTE.bookBg):SetAllPoints()
+  makeBorder(badge, PALETTE.bookRim, 1)
+  local bookIcon = badge:CreateTexture(nil, "ARTWORK")
+  bookIcon:SetTexture((T and T.KindIcon and T.KindIcon("storyline")) or "Interface\\Icons\\INV_Misc_Book_09")
+  bookIcon:SetTexCoord(0.08, 0.92, 0.08, 0.92)
+  bookIcon:SetSize(22, 22)
+  bookIcon:SetPoint("CENTER")
+
+  local brand = header:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
+  brand:SetPoint("TOPLEFT", badge, "TOPRIGHT", 10, -2)
+  brand:SetTextColor(T.rgba(T.color.gold))
+  brand:SetText("LORE FOREVER")
+
+  local headerTitle = header:CreateFontString(nil, "ARTWORK", (T and T.font and T.font.place) or "GameFontNormalLarge")
+  headerTitle:SetPoint("TOPLEFT", brand, "BOTTOMLEFT", 0, -1)
+  headerTitle:SetTextColor(T.rgba(PALETTE.text))
+  headerTitle:SetText(L["Settings"])
+
+  -- Protected frame anchored directly to p (never to text regions).
   local reload = CreateFrame("Button", "LoreForeverReloadButton", p, "SecureActionButtonTemplate, UIPanelButtonTemplate")
   reload:SetSize(120, 24)
-  reload:SetPoint("TOPRIGHT", p, "TOPRIGHT", -36, -10)
+  reload:SetPoint("TOPRIGHT", p, "TOPRIGHT", -16, -16)
   reload:SetText(L["Reload now"])
   fit(reload, 120)
   if reload.SetAttribute then
     reload:SetAttribute("type", "macro")
     reload:SetAttribute("macrotext", "/reload")
   end
-  reload:RegisterForClicks("AnyUp", "AnyDown")   -- secure buttons act on key-down or key-up depending on a CVar
+  reload:RegisterForClicks("AnyUp", "AnyDown")
   reload:Hide()
-  local hint = note(c, L["Automatic follows your WoW client's language. A contributor edition switches its text and narration together. Reload to apply your selection."], btn, 6)
-  local moreLabel, _, fillUrl = urlRow(c, L["Get more languages:"], LANGUAGES_URL, hint, 10)
-  local function items()
-    local out, id = {}, ns.Lang.Selected()
-    local label
-    for _, ch in ipairs(ns.Lang.Choices()) do
-      out[#out + 1] = { value = ch.id, label = ch.label, why = ch.reason }
-      if ch.id == id then label = ch.label end
-    end
-    return out, id, label or out[1].label
-  end
-  local function update()
-    local _, _, label = items()
-    btn:SetText(label)
-    if ns.lang and ns.lang.editionUnavailable then
-      hint:SetText(L["Edition unavailable. Install or enable both matching components, then reload, or select another edition or stock language here."])
-    end
-    fillUrl()
-    -- A secure button can't be shown or hidden in combat.
-    if InCombatLockdown and InCombatLockdown() then return end
-    local pending = ns.Lang.NeedsReload()
-    if pending then
-      -- Labelled in the language it switches to.
-      local ui = ns.Lang.StringsFor(ns.Lang.Resolve())
-      reload:SetText(ui and (ui["Reload now"] or "Reload now") or L["Reload now"])
-      fit(reload, 120)
-    end
-    reload:SetShown(pending)
-  end
-  btn:SetScript("OnClick", function()
-    local all, id = items()
-    list.Toggle(all, id, function(ch) ns.Lang.Set(ch.value); update() end)
-  end)
-  p.language, p.languageList, p.reload, p.updateLanguage = btn, list, reload, update
-  update()
-  return moreLabel
-end
+  p.reload = reload
 
--- Panel size: scales the whole Lore Forever panel (text, buttons and all), for bigger text. Under `anchor`; returns
--- the drop-down button (with .Update), for whatever comes next.
-local function sizeSection(c, anchor)
-  local head = heading(c, L["Panel size"], anchor, 24)
-  local btn, list = dropDown("LoreForeverSizePick", c, 200)
-  btn:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 2, -6)
-  local names = { L["Small"], L["Normal"], L["Large"], L["Larger"] }
-  local function items()
+  -- 5-Tab Bar -------------------------------------------------------------------------------------------------------
+  local tabBar = CreateFrame("Frame", nil, p)
+  tabBar:SetPoint("TOPLEFT", header, "BOTTOMLEFT", 0, 0)
+  tabBar:SetPoint("TOPRIGHT", header, "BOTTOMRIGHT", 0, 0)
+  tabBar:SetHeight(34)
+  fillColor(tabBar:CreateTexture(nil, "BACKGROUND"), PALETTE.tabBar):SetAllPoints()
+  local tabBarRule = fillColor(tabBar:CreateTexture(nil, "BORDER"), PALETTE.rule)
+  tabBarRule:SetPoint("BOTTOMLEFT"); tabBarRule:SetPoint("BOTTOMRIGHT"); tabBarRule:SetHeight(1)
+
+  local tabSpecs = {
+    { key = "audio", label = L["Audio"], scrollName = "LoreForeverOptionsScroll" },
+    { key = "screen", label = L["On Screen"], scrollName = "LoreForeverOptionsScrollScreen" },
+    { key = "keys", label = L["Keys"], scrollName = "LoreForeverOptionsScrollKeys" },
+    { key = "willo", label = ns.COMPANION_NAME, scrollName = "LoreForeverOptionsScrollWillo" },
+    { key = "general", label = L["General"], scrollName = "LoreForeverOptionsScrollGeneral" },
+  }
+
+  p.tabs, p.tabList, p.tabFrames = {}, {}, {}
+
+  local function layoutTabs(barW)
+    local w = (type(barW) == "number" and barW > 0) and barW or (tabBar.GetWidth and tonumber(tabBar:GetWidth())) or 600
+    if not w or w <= 0 then w = 600 end
+    local n = #p.tabList
+    local each = math.max(56, math.floor((w - 16) / n))
+    for i, btn in ipairs(p.tabList) do
+      btn:ClearAllPoints()
+      btn:SetPoint("TOPLEFT", tabBar, "TOPLEFT", 8 + (i - 1) * each, 0)
+      btn:SetSize(each, 33)
+      if btn.label then btn.label:SetWidth(math.max(44, each - 8)) end
+    end
+  end
+
+  local function makeTabScroll(scrollName)
+    local sf = CreateFrame("ScrollFrame", scrollName, p, "UIPanelScrollFrameTemplate")
+    sf:SetPoint("TOPLEFT", tabBar, "BOTTOMLEFT", 0, -4)
+    sf:SetPoint("BOTTOMRIGHT", p, "BOTTOMRIGHT", -28, 6)
+    sf:Hide()
+    local child = CreateFrame("Frame", nil, sf)
+    child:SetSize(580, 500)
+    sf:SetScrollChild(child)
+    local leftCol = CreateFrame("Frame", nil, child)
+    local rightCol = CreateFrame("Frame", nil, child)
+    local divider = fillColor(child:CreateTexture(nil, "BORDER"), PALETTE.ruleSoft)
+    divider:SetWidth(1)
+    return { sf = sf, child = child, leftCol = leftCol, rightCol = rightCol, divider = divider }
+  end
+
+  local function layoutColumns(tab, w, leftFn, rightFn)
+    w = math.max(260, (type(w) == "number" and w > 0) and w or 580)
+    tab.child:SetWidth(w)
+    local twoCol = w >= 540
+    local pad = 16
+    local gutter = 28
+    local colW = twoCol and math.floor((w - pad * 2 - gutter) / 2) or (w - pad * 2)
+    colW = math.max(180, colW)
+
+    local lh = leftFn(colW)
+    local rh = rightFn(colW)
+
+    tab.leftCol:ClearAllPoints()
+    tab.leftCol:SetPoint("TOPLEFT", tab.child, "TOPLEFT", pad, -14)
+    tab.leftCol:SetSize(colW, math.max(lh, 20))
+
+    tab.rightCol:ClearAllPoints()
+    if twoCol then
+      local divX = pad + colW + math.floor(gutter / 2)
+      tab.divider:Show()
+      tab.divider:ClearAllPoints()
+      tab.divider:SetPoint("TOPLEFT", tab.child, "TOPLEFT", divX, -14)
+      tab.divider:SetHeight(math.max(lh, rh, 120))
+      tab.rightCol:SetPoint("TOPLEFT", tab.child, "TOPLEFT", pad + colW + gutter, -14)
+      tab.rightCol:SetSize(colW, math.max(rh, 20))
+      tab.child:SetHeight(math.max(lh, rh) + 32)
+    else
+      tab.divider:Hide()
+      tab.rightCol:SetPoint("TOPLEFT", tab.leftCol, "BOTTOMLEFT", 0, -18)
+      tab.rightCol:SetSize(colW, math.max(rh, 20))
+      tab.child:SetHeight(lh + rh + 50)
+    end
+  end
+
+  local function addCheck(parent, key, label, tip, english, onClick)
+    local r, cb = makeCheckRow(parent, key, label, tip, english, onClick)
+    p.checks[#p.checks + 1] = cb
+    return r, cb
+  end
+
+  local function layoutStack(col, entries, w)
+    local y = 0
+    for _, e in ipairs(entries) do
+      if not e.shown or e.shown() then
+        if e.gapBefore and y > 0 then y = y + e.gapBefore end
+        local h = e.place(y, w)
+        y = y + h + (e.gapAfter or 0)
+      else
+        if e.frame then e.frame:Hide() end
+      end
+    end
+    return y
+  end
+
+  local function headingEntry(fs, gapBefore)
+    return {
+      gapBefore = gapBefore or 16,
+      gapAfter = 6,
+      place = function(y, w)
+        fs:Show()
+        fs:ClearAllPoints()
+        fs:SetPoint("TOPLEFT", 0, -y)
+        fs:SetWidth(w)
+        return strHeight(fs, 16)
+      end,
+    }
+  end
+
+  local function noteEntry(fs, gapBefore, gapAfter, shownFn)
+    return {
+      frame = fs,
+      gapBefore = gapBefore or 0,
+      gapAfter = gapAfter or 6,
+      shown = function() return (not shownFn or shownFn()) and fs:GetText() ~= nil and fs:GetText() ~= "" end,
+      place = function(y, w)
+        fs:Show()
+        fs:ClearAllPoints()
+        fs:SetPoint("TOPLEFT", 0, -y)
+        fs:SetWidth(w)
+        return strHeight(fs, 14)
+      end,
+    }
+  end
+
+  local function rowEntry(r, shownFn, gapBefore, gapAfter)
+    return {
+      frame = r,
+      gapBefore = gapBefore or 0,
+      gapAfter = gapAfter or 4,
+      shown = shownFn,
+      place = function(y, w)
+        r:Show()
+        r:ClearAllPoints()
+        r:SetPoint("TOPLEFT", 0, -y)
+        return r.Layout(w)
+      end,
+    }
+  end
+
+  local function buttonsRow(parent, btns)
+    local wrap = CreateFrame("Frame", nil, parent)
+    for _, b in ipairs(btns) do b:SetParent(wrap) end
+    function wrap.Layout(w)
+      local x, y, rowH = 0, 0, 24
+      for _, b in ipairs(btns) do
+        if b:IsShown() then
+          local bw = tonumber(b:GetWidth()) or 120
+          if x > 0 and x + bw > w then
+            x = 0
+            y = y + rowH + 6
+          end
+          b:ClearAllPoints()
+          b:SetPoint("TOPLEFT", x, -y)
+          x = x + bw + 8
+        end
+      end
+      local h = (x > 0 or y > 0) and (y + rowH) or 0
+      wrap:SetSize(w, math.max(1, h))
+      return h
+    end
+    return wrap
+  end
+
+  -- Forward declaration for layout trigger
+  local function relayout(key)
+    local tab = p.tabFrames[key]
+    if not tab or not tab.layout then return end
+    local w = tab.sf.GetWidth and tonumber(tab.sf:GetWidth())
+    if not w or w <= 0 then w = 580 end
+    tab.layout(w)
+  end
+
+  -- =================================================================================================================
+  -- TAB 1: AUDIO
+  -- =================================================================================================================
+  local audioTab = makeTabScroll("LoreForeverOptionsScroll")
+  p.tabFrames.audio = audioTab
+  local aL, aR = audioTab.leftCol, audioTab.rightCol
+
+  local previewWarn = makeNote(aL, "")
+  previewWarn:Hide()
+  local vol = buildVolumeControls(aL, function(why)
+    previewWarn:SetText(T.code.warn .. (why or L["(Nothing to preview.)"]) .. "|r")
+    previewWarn:Show()
+    relayout("audio")
+  end)
+  vol.onLayout = function() relayout("audio") end
+
+  local playbackHead = makeHeading(aL, L["Playback"])
+  local radioWrap = CreateFrame("Frame", nil, aL)
+  local radioAuto = makeRadio(radioWrap, L["Automatic"])
+  local radioManual = makeRadio(radioWrap, tr("Only when I press Play", "Narration: only when I press Play"))
+  radioManual.key = "onDemand"
+  radioManual.labelRef = radioManual.label
+  radioManual.english = "Narration: only when I press Play"
+  radioManual.color = { radioManual.label:GetTextColor() }
+  radioManual.newTag = ns.WhatsNew.Tag(radioWrap, radioManual.label, "LEFT", "RIGHT", 6, 0)
+  local baseManualChecked = radioManual.SetChecked
+  radioManual.SetChecked = function(self, v)
+    baseManualChecked(self, v)
+    radioAuto:SetChecked(not (v and true or false))
+  end
+  p.checks[#p.checks + 1] = radioManual
+  setTip(radioAuto, L["Automatic"], L["Stories, flights and quest dialogue follow your choices below."])
+  setTip(radioManual, L["Only when I press Play"],
+    L["Nothing plays by itself. Play buttons, the Narrate key and your playlist still work."])
+
+  local autoZoneRow, autoZoneCb = addCheck(aL, "autoZone", L["Play stories as you find them"],
+    L["Stories for the places and pages you find join your playlist and play in turn. Never in combat or on a flight."])
+  local flightsRow, flightsCb = addCheck(aL, "narrateFlights", L["Narrate flights"],
+    L["Read the story of each zone aloud while on a flight path."])
+  local skipHeardRow = addCheck(aL, "skipHeard", L["Skip what you've heard"],
+    L["Don't replay a narration by itself once this character has heard it. You can still play it any time."])
+  local recapsRow = addCheck(aL, "recaps", L["Storyline recaps"],
+    L["At a storyline's turning points, the narrator retells what you've done so far. Never during a fight."])
+  local manualNote = makeNote(aL, L["You can still press Play or use your playlist."])
+  p.manualNote = manualNote
+
+  local questHead = makeHeading(aR, L["Quest dialogue"])
+  local spokenCard = makeStatusCard(aR)
+  local questVoicesLabel = tr("Lore Forever quest voices", "Speak quest dialogue")
+  local questVoicesTip = rawget(L, "Hear each quest read aloud as you open it. If another add-on reads quests, this turns itself off.")
+    or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
+    or L["Hear each quest read aloud as you open it. If another add-on reads quests, this turns itself off."]
+  local questVoicesRow, questVoicesCb = addCheck(aR, "questDialogue", questVoicesLabel, questVoicesTip,
+    "Speak quest dialogue", function(self)
+      LoreForeverDB.settings.questDialogueTouched = true
+      ns.Voice.SetQuestDialogue(self:GetChecked())
+      p.Waiting()
+      relayout("audio")
+    end)
+
+  -- Collapsible disclosure: Narrator and voice packs
+  local voiceToggle = CreateFrame("Button", nil, aR)
+  voiceToggle:SetHeight(26)
+  local vtTopRule = fillColor(voiceToggle:CreateTexture(nil, "BORDER"), PALETTE.ruleSoft)
+  vtTopRule:SetPoint("TOPLEFT"); vtTopRule:SetPoint("TOPRIGHT"); vtTopRule:SetHeight(1)
+  local vtIcon = voiceToggle:CreateTexture(nil, "ARTWORK")
+  vtIcon:SetSize(14, 14)
+  vtIcon:SetPoint("LEFT", 2, -2)
+  local vtText = voiceToggle:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+  vtText:SetTextColor(T.rgba(T.color.gold))
+  vtText:SetPoint("LEFT", vtIcon, "RIGHT", 6, 0)
+  wrapRegion(vtText)
+  voiceToggle:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight", "ADD")
+  voiceToggle.icon = vtIcon
+  voiceToggle.text = vtText
+
+  local voiceSection, voiceContainer = Options.VoiceSection(aR, function() relayout("audio") end, function() relayout("audio") end)
+  voiceSection.volume, voiceSection.volumeValue, voiceSection.volumeNote = vol.slider, vol.value, vol.note
+  voiceSection.volumeLabel, voiceSection.volumeNew, voiceSection.SyncVolume = vol.label, vol.new, vol.Sync
+  voiceSection.channel, voiceSection.channelList, voiceSection.channelLabel = vol.channel, vol.channelList, vol.pick
+  voiceSection.channelNew = vol.channelNew
+  voiceSection.toggle = voiceToggle
+  voiceSection.details = voiceSection.container
+  voiceSection.spokenCard = spokenCard
+  voiceSection.expanded = false
+  -- Move packHints checkbox from voiceSection into p.checks so SelfTest/OnShow keeps all DEFAULTS synced.
+  if voiceSection.packHintsCb then
+    voiceSection.packHintsCb.english = "Narration pack hints"
+    voiceSection.packHintsCb.newTag = ns.WhatsNew.Tag(voiceSection.packHintsCb.row, voiceSection.packHintsCb.label, "LEFT", "RIGHT", 6, 0)
+    p.checks[#p.checks + 1] = voiceSection.packHintsCb
+  end
+  p.voice = voiceSection
+  p.resetHeard = voiceSection.resetHeard
+
+  function voiceSection.SetExpanded(on)
+    voiceSection.expanded = on and true or false
+    vtIcon:SetTexture(voiceSection.expanded
+      and "Interface\\ChatFrame\\UI-ChatIcon-ScrollDown-Up"
+      or (T and T.ARROW or "Interface\\ChatFrame\\ChatFrameExpandArrow"))
+    vtText:SetText(L["Narrator and voice packs"])
+    voiceContainer:SetShown(voiceSection.expanded)
+    if voiceSection.expanded then voiceSection.Update() end
+    relayout("audio")
+  end
+  voiceToggle:SetScript("OnClick", function() voiceSection.SetExpanded(not voiceSection.expanded) end)
+  voiceSection.SetExpanded(false)
+
+  local function syncPlaybackRadios()
+    local manual = LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.onDemand == true
+    radioAuto:SetChecked(not manual)
+    radioManual:SetChecked(manual)
+    manualNote:SetShown(manual)
+  end
+
+  radioAuto:SetScript("OnClick", function()
+    ns.Voice.SetOnDemand(false)
+    syncPlaybackRadios()
+    p.Waiting()
+    relayout("audio")
+  end)
+  radioManual:SetScript("OnClick", function()
+    ns.Voice.SetOnDemand(true)
+    syncPlaybackRadios()
+    p.Waiting()
+    relayout("audio")
+  end)
+
+  -- Re-hook autoZone/narrateFlights OnClick? Standard addCheck already writes LoreForeverDB.settings[key].
+  -- Hook OnClick on autoZone/narrateFlights so nothing extra is needed; hook Waiting on audio refresh.
+  local audioLeftEntries = {
+    headingEntry(vol.head, 0),
+    { frame = vol.sliderRow, gapAfter = 4, place = function(y, w) vol.Layout(w); vol.sliderRow:Show(); vol.sliderRow:ClearAllPoints(); vol.sliderRow:SetPoint("TOPLEFT", 0, -y); return 28 end },
+    { frame = vol.chanRow, gapAfter = 4, place = function(y, w) vol.chanRow:Show(); vol.chanRow:ClearAllPoints(); vol.chanRow:SetPoint("TOPLEFT", 0, -y); return vol.chanHeight or 28 end },
+    noteEntry(vol.note, 2, 6),
+    noteEntry(previewWarn, 2, 6),
+    headingEntry(playbackHead, 14),
+    {
+      frame = radioWrap,
+      gapAfter = 6,
+      place = function(y, w)
+        radioWrap:Show()
+        radioWrap:ClearAllPoints()
+        radioWrap:SetPoint("TOPLEFT", 0, -y)
+        local aw = strWidth(radioAuto.label, 70)
+        local mw = strWidth(radioManual.label, 140)
+        radioAuto:ClearAllPoints()
+        radioManual:ClearAllPoints()
+        if 24 + aw + 14 + 24 + mw <= w then
+          radioAuto:SetPoint("TOPLEFT", 0, 0)
+          radioAuto.label:SetWidth(aw + 4)
+          radioManual:SetPoint("LEFT", radioAuto.label, "RIGHT", 14, 0)
+          radioManual.label:SetWidth(mw + 4)
+          local h = math.max(24, strHeight(radioAuto.label, 14), strHeight(radioManual.label, 14))
+          radioWrap:SetSize(w, h)
+          return h
+        else
+          radioAuto:SetPoint("TOPLEFT", 0, 0)
+          radioAuto.label:SetWidth(w - 28)
+          local h1 = math.max(24, strHeight(radioAuto.label, 14) + 4)
+          radioManual:SetPoint("TOPLEFT", 0, -h1)
+          radioManual.label:SetWidth(w - 28)
+          local h2 = math.max(24, strHeight(radioManual.label, 14) + 4)
+          radioWrap:SetSize(w, h1 + h2)
+          return h1 + h2
+        end
+      end,
+    },
+    rowEntry(autoZoneRow),
+    rowEntry(flightsRow),
+    rowEntry(skipHeardRow),
+    rowEntry(recapsRow),
+    noteEntry(manualNote, 4, 6, function()
+      return LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.onDemand == true
+    end),
+  }
+  local audioRightEntries = {
+    headingEntry(questHead, 0),
+    {
+      frame = spokenCard,
+      gapAfter = 8,
+      place = function(y, w)
+        spokenCard:Show()
+        spokenCard:ClearAllPoints()
+        spokenCard:SetPoint("TOPLEFT", 0, -y)
+        return spokenCard.Layout(w)
+      end,
+    },
+    rowEntry(questVoicesRow, nil, 0, 10),
+    {
+      frame = voiceToggle,
+      gapBefore = 6,
+      gapAfter = 8,
+      place = function(y, w)
+        voiceToggle:Show()
+        voiceToggle:ClearAllPoints()
+        voiceToggle:SetPoint("TOPLEFT", 0, -y)
+        vtText:SetWidth(math.max(120, w - 24))
+        local h = math.max(28, strHeight(vtText, 16) + 12)
+        voiceToggle:SetSize(w, h)
+        return h
+      end,
+    },
+    {
+      frame = voiceContainer,
+      shown = function() return voiceSection.expanded end,
+      place = function(y, w)
+        voiceContainer:Show()
+        voiceContainer:ClearAllPoints()
+        voiceContainer:SetPoint("TOPLEFT", 0, -y)
+        return voiceSection.Layout(w)
+      end,
+    },
+  }
+  audioTab.layout = function(w)
+    layoutColumns(audioTab, w,
+      function(cw) return layoutStack(aL, audioLeftEntries, cw) end,
+      function(cw) return layoutStack(aR, audioRightEntries, cw) end)
+  end
+
+  -- =================================================================================================================
+  -- TAB 2: ON SCREEN
+  -- =================================================================================================================
+  local screenTab = makeTabScroll("LoreForeverOptionsScrollScreen")
+  p.tabFrames.screen = screenTab
+  local sL, sR = screenTab.leftCol, screenTab.rightCol
+
+  local readingHead = makeHeading(sL, L["Reading"])
+  local sizeRow = CreateFrame("Frame", nil, sL)
+  local sizeLabel = sizeRow:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  wrapRegion(sizeLabel)
+  sizeLabel:SetText(L["Panel size"])
+  local sizeBtn, sizeList = dropDown("LoreForeverSizePick", sizeRow, 155)
+  local sizeNames = { L["Small"], L["Normal"], L["Large"], L["Larger"] }
+  local function sizeItems()
     local out, label = {}, nil
     local cur = tonumber(LoreForeverDB.settings.panelScale) or 1
     for i, v in ipairs(ns.UI.SCALES) do
-      out[i] = { value = v, label = string.format("%s (%d%%)", names[i] or "", math.floor(v * 100 + 0.5)) }
+      out[i] = { value = v, label = string.format("%s (%d%%)", sizeNames[i] or "", math.floor(v * 100 + 0.5)) }
       if v == cur then label = out[i].label end
     end
     return out, cur, label or out[2].label
   end
-  function btn.Update()
-    local _, _, label = items()
-    btn:SetText(label)
+  function sizeBtn.Update()
+    local _, _, label = sizeItems()
+    sizeBtn:SetText(label)
   end
-  btn:SetScript("OnClick", function()
-    local all, cur = items()
-    list.Toggle(all, cur, function(ch)
+  sizeBtn:SetScript("OnClick", function()
+    local all, cur = sizeItems()
+    sizeList.Toggle(all, cur, function(ch)
       LoreForeverDB.settings.panelScale = ch.value
       ns.UI.ApplyScale(ch.value)
-      btn.Update()
+      sizeBtn.Update()
     end)
   end)
-  btn.Update()
-  return btn
-end
+  sizeBtn.Update()
 
--- Subtitle size, beside Panel size: how big the subtitles' words are. A pick shows a sample for a few seconds, over
--- the settings window, so you see the size and where they go.
-local function subtitleSizeSection(c, anchor)
-  local head = heading(c, L["Subtitle size"], anchor, 18)
-  head:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", -2, -18)   -- level with Panel size's heading, not its button
-  local btn, list = dropDown("LoreForeverSubtitleSizePick", c, 200)
-  btn:SetPoint("TOPLEFT", head, "BOTTOMLEFT", 2, -6)
-  local names = { L["Small"], L["Normal"], L["Large"], L["Larger"] }
-  local function items()
+  local subtitlesRow = addCheck(sL, "subtitles", L["Subtitles"],
+    L["Shows a narration's words at the bottom of the screen while the panel is closed. Shift-drag to move them."],
+    nil, function(self) if ns.Subtitles then ns.Subtitles.Set(self:GetChecked()) end end)
+
+  local subSizeRow = CreateFrame("Frame", nil, sL)
+  local subSizeLabel = subSizeRow:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  wrapRegion(subSizeLabel)
+  subSizeLabel:SetText(L["Subtitle size"])
+  local subSizeBtn, subSizeList = dropDown("LoreForeverSubtitleSizePick", subSizeRow, 155)
+  local function subSizeItems()
     local out, label = {}, nil
     local cur = ns.Subtitles.Scale()
     for i, v in ipairs(ns.Subtitles.SCALES) do
-      out[i] = { value = v, label = string.format("%s (%d%%)", names[i] or "", math.floor(v * 100 + 0.5)) }
+      out[i] = { value = v, label = string.format("%s (%d%%)", sizeNames[i] or "", math.floor(v * 100 + 0.5)) }
       if v == cur then label = out[i].label end
     end
     return out, cur, label or out[2].label
   end
-  function btn.Update()
-    local _, _, label = items()
-    btn:SetText(label)
+  function subSizeBtn.Update()
+    local _, _, label = subSizeItems()
+    subSizeBtn:SetText(label)
   end
-  btn:SetScript("OnClick", function()
-    local all, cur = items()
-    list.Toggle(all, cur, function(ch)
+  subSizeBtn:SetScript("OnClick", function()
+    local all, cur = subSizeItems()
+    subSizeList.Toggle(all, cur, function(ch)
       ns.Subtitles.SetScale(ch.value)
       ns.Subtitles.Sample()
-      btn.Update()
+      subSizeBtn.Update()
     end)
   end)
-  btn.Update()
-  -- Move things on screen... / Put them back, beside it (LOR-679): drag them off your character or your bars, in move
-  -- mode until Done (Move.lua). Made here with the page at login, not when the window opens (LOR-481).
-  local move = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  move:SetSize(190, 24)
-  move:SetPoint("LEFT", btn, "RIGHT", 10, 0)
-  move:SetText(L["Move things on screen..."])
-  fit(move, 190)
-  move:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Move things on screen..."])
-    T.Tip(L["Drag the subtitles, the new-page note and the pin card where you want them, then click Done."], "tipText", true)
-    GameTooltip:Show()
-  end)
-  move:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  move:SetScript("OnClick", function() ns.Move.Toggle() end)
-  local back = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  back:SetSize(140, 24)
-  back:SetPoint("LEFT", move, "RIGHT", 10, 0)
-  back:SetText(L["Put them back"])
-  fit(back, 140)
-  back:SetScript("OnClick", function() ns.Subtitles.PutBack() end)
-  btn.move, btn.back = move, back
-  -- What the next section hangs from: the pick, or the two buttons once they've gone under it.
-  local rowEnd = CreateFrame("Frame", nil, c)
-  rowEnd:SetSize(1, 1)
-  rowEnd:SetPoint("BOTTOMLEFT", btn, "BOTTOMLEFT", 0, 0)
-  btn.rowEnd = rowEnd
-  -- Once the page is laid out (OnShow): beside the pick when the row fits the page's width, else under it, so a
-  -- long (translated) label never runs off the page (LOR-763).
-  function btn.Place()
-    local left, right = btn:GetLeft(), c:GetRight()
-    if type(left) ~= "number" or type(right) ~= "number" then return end
-    local wide = btn:GetWidth() + move:GetWidth() + back:GetWidth() + 20 > right - left - 8
-    move:ClearAllPoints()
-    rowEnd:ClearAllPoints()
-    if wide then
-      move:SetPoint("TOPLEFT", btn, "BOTTOMLEFT", 0, -8)
-      rowEnd:SetPoint("BOTTOMLEFT", move, "BOTTOMLEFT", 0, 0)
-    else
-      move:SetPoint("LEFT", btn, "RIGHT", 10, 0)
-      rowEnd:SetPoint("BOTTOMLEFT", btn, "BOTTOMLEFT", 0, 0)
-    end
-  end
-  return btn
-end
+  subSizeBtn.Update()
 
-function Options.Create()
-  if Options.panel then return Options.panel end
-  local p = CreateFrame("Frame", "LoreForeverOptions")
-  p:Hide()   -- the settings window shows it when it displays our page
-  p.name = "Lore Forever"
-  -- Everything sits in a scroll frame: the settings page is shorter than the list of options. The content is as wide
-  -- as the frame, and each line hangs off the one above it, so longer (translated) text pushes the rest down.
-  local sf = CreateFrame("ScrollFrame", "LoreForeverOptionsScroll", p, "UIPanelScrollFrameTemplate")
-  sf:SetPoint("TOPLEFT", 0, -4)
-  sf:SetPoint("BOTTOMRIGHT", -28, 4)
-  local c = CreateFrame("Frame", nil, sf)
-  c:SetSize(600, 900)
-  sf:SetScrollChild(c)
-  sf:SetScript("OnSizeChanged", function(_, w) if type(w) == "number" and w > 0 then c:SetWidth(w) end end)
-  local title = c:CreateFontString(nil, "ARTWORK", "GameFontNormalLarge")
-  title:SetPoint("TOPLEFT", 16, -12)
-  title:SetText("Lore Forever")
-  local sub = note(c, L["Offline lore for the zones, quests and people around you."], title, 6, "GameFontHighlightSmall")
-  local last = heading(c, L["General"], languageSection(c, p, sub), 22)
-  p.checks = {}
-  -- The English label of a translated one, to look for in the notes (WhatsNew.OptionIsNew): ns.L maps English to
-  -- the language in use.
-  local function english(label)
-    for en, tr in pairs(L) do
-      if tr == label then return en end
-    end
-    return label
-  end
-  -- A tick box under `anchor` (a heading or note when `first`, else the description above it), with its description
-  -- under it; returns the description, for the next one.
-  local function check(row, anchor, first)
-    local key, label, tip = row[1], row[2], row[3]
-    local cb = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
-    if first then cb:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", -2, -4) else cb:SetPoint("TOPLEFT", anchor, "BOTTOMLEFT", -30, -4) end
-    local text = type(cb.Text) == "table" and cb.Text or nil
-    if not text then
-      text = cb:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
-      text:SetPoint("LEFT", cb, "RIGHT", 4, 0)
-    end
-    text:SetText(label)
-    cb.label = text
-    cb.color = { text:GetTextColor() }      -- what un-greying puts back
-    -- "New" after an update, for an option this version's notes mention (WhatsNew.lua), until Options is next opened.
-    cb.newTag = ns.WhatsNew.Tag(c, text, "LEFT", "RIGHT", 8, 0)
-    cb.english = english(label)
-    local desc = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-    desc:SetTextColor(T.rgba(T.color.muted))
-    desc:SetPoint("TOPLEFT", cb, "BOTTOMLEFT", 30, 4)
-    desc:SetPoint("RIGHT", c, "RIGHT", -24, 0)
-    desc:SetJustifyH("LEFT")
-    desc:SetText(tip)
-    cb.desc = desc
-    cb.tip = tip
-    if row[4] then   -- the detail the short line under it leaves out, on hover
-      cb:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:AddLine(label)
-        T.Tip(row[4], "tipText", true)
-        GameTooltip:Show()
-      end)
-      cb:SetScript("OnLeave", function() GameTooltip:Hide() end)
-    end
-    cb:SetScript("OnClick", function(self)
-      LoreForeverDB.settings[key] = self:GetChecked() and true or false
-      if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
-      if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
-      if key == "questButton" and ns.Hooks then
+  local moveSubsBtn = themedButton(sL, L["Move subtitles"])
+  moveSubsBtn:SetSize(130, 24)
+  fit(moveSubsBtn, 120)
+  setTip(moveSubsBtn, L["Move subtitles"], L["Drag the subtitles, the new-page note and the pin card where you want them, then click Done."])
+  moveSubsBtn:SetScript("OnClick", function() ns.Move.Toggle() end)
+
+  local resetSubsBtn = themedButton(sL, tr("Reset position", "Put them back"))
+  resetSubsBtn:SetSize(130, 24)
+  fit(resetSubsBtn, 120)
+  resetSubsBtn:SetScript("OnClick", function() ns.Subtitles.PutBack() end)
+  local subActionsRow = buttonsRow(sL, { moveSubsBtn, resetSubsBtn })
+  p.moveSubtitles, p.putSubtitlesBack = moveSubsBtn, resetSubsBtn
+  p.updateSize = function() sizeBtn.Update(); subSizeBtn.Update() end
+
+  local playerHead = makeHeading(sL, L["Player"])
+  local floatRow = addCheck(sL, "floatPlayer", L["Floating player"],
+    L["While the panel is closed, show the narration player on screen when something plays or waits in your playlist. Drag it to move it."],
+    nil, function() if ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end end)
+  local reportRow = addCheck(sL, "reportCross", tr("Report button on the player", "Show the report button on the narration player"),
+    L["A small cross on the player to tell us a narration sounds wrong. Right-clicking the player offers it too."],
+    "Show the report button on the narration player",
+    function() if ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end end)
+
+  local inGameHead = makeHeading(sR, L["In the game"])
+  local minimapRow = addCheck(sR, "minimap", L["Minimap button"],
+    L["Also show a book button on the minimap. It glows green while you have new pages."],
+    nil, function() if ns.MinimapButton then ns.MinimapButton() end end)
+  local questBtnRow = addCheck(sR, "questButton", L["Lore button on the quest window"],
+    L["A Lore button on the quest window opens the quest's story. Shift-drag it to move it."],
+    nil, function()
+      if ns.Hooks then
         ns.Hooks.UpdateQuestDialogButton()
         ns.Hooks.UpdateQuestPlayButton()
       end
-      if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
-      if key == "subtitles" and ns.Subtitles then ns.Subtitles.Set(self:GetChecked()) end
-      if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()); p.Waiting() end
-      if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
-      if key == "talkMark" and ns.TalkMark then ns.TalkMark.Update() end
-      if key == "questDialogue" then   -- the player's own choice from now on (a later release can tell it from a default)
-        LoreForeverDB.settings.questDialogueTouched = true
-        ns.Voice.SetQuestDialogue(self:GetChecked())
-      end
-      if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
-      if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
-      if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
-      if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
     end)
-    cb.key = key
-    p.checks[#p.checks + 1] = cb
-    return desc, cb
-  end
-  -- A box that can't do anything now is grey with why, and keeps its tick for later (the settings that fight, Mike 11/9):
-  -- what "only when I press Play" holds back, and the update notice while Willo keeps Lore Forever up to date.
-  local WAITS_FOR_PLAY = { narrateFlights = true, autoZone = true, questDialogue = true }
-  local function grey(cb, why)
-    cb:SetEnabled(not why)
-    if why then cb.label:SetTextColor(T.rgba(T.color.muted)) else cb.label:SetTextColor(unpack(cb.color)) end
-    cb.desc:SetText(why or cb.tip)
-  end
-  function p.Waiting()
-    for _, cb in ipairs(p.checks) do
-      if WAITS_FOR_PLAY[cb.key] then
-        grey(cb, LoreForeverDB.settings.onDemand == true and L["Waits until narration plays by itself."] or nil)
-      elseif cb.key == "updateNotice" then
-        grey(cb, ns.Updates.WilloKeeps() and L["%s keeps this up to date."]:format(ns.COMPANION_NAME) or nil)
-      end
-    end
-  end
-  for i, row in ipairs(rows()) do
-    local cb
-    last, cb = check(row, last, i == 1)
-    -- Move things on screen..., beside New page notes (LOR-1367): windows open when asked, but the two notes only come
-    -- when something happens, so move mode (Move.lua) shows a sample of each to place.
-    if row[1] == "pageSlip" then
-      local move = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-      move:SetSize(190, 22)
-      move:SetPoint("LEFT", cb.label, "RIGHT", 60, 0)
-      move:SetText(L["Move things on screen..."])
-      fit(move, 190)
-      move:SetScript("OnEnter", function(self)
-        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:AddLine(L["Move things on screen..."])
-        T.Tip(L["Drag the subtitles, the new-page note and the pin card where you want them, then click Done."], "tipText", true)
-        GameTooltip:Show()
-      end)
-      move:SetScript("OnLeave", function() GameTooltip:Hide() end)
-      move:SetScript("OnClick", function() ns.Move.Toggle() end)
-      cb.move = move
-    end
-  end
-  -- Forget what this character has heard, so narrations and quest text play by themselves again.
-  local resetBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  resetBtn:SetSize(200, 24)
-  resetBtn:SetPoint("TOPLEFT", last, "BOTTOMLEFT", -26, -16)
-  resetBtn:SetText(L["Reset heard narrations"])
-  fit(resetBtn, 200)
-  resetBtn:SetScript("OnClick", function()
-    local n = ns.Voice.ResetHeard()
-    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
-      and L["forgot %d narration this character heard; it plays by itself again."]
-      or L["forgot %d narrations this character heard; they play by themselves again."], n))
-    if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
-  end)
-  p.resetHeard = resetBtn
-  -- After sharing your LoreForever.lua at loreforeverwow.com/contribute: what's kept so far counts as shared, so the
-  -- next upload only carries new lines (Capture.MarkAllSent). The text itself stays.
-  local sentBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  sentBtn:SetSize(160, 24)
-  sentBtn:SetPoint("LEFT", resetBtn, "RIGHT", 10, 0)
-  sentBtn:SetText(L["Mark shared text as sent"])
-  fit(sentBtn, 160)
-  sentBtn:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Mark shared text as sent"])
-    -- (:format: a pack with only the older wording, Lang.REWORDED, names Willo through %s)
-    T.Tip(L["After sharing text at loreforeverwow.com/contribute, mark it as sent so the next upload carries only new lines."]:format(ns.COMPANION_NAME), "tipText", true)
-    GameTooltip:Show()
-  end)
-  sentBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  sentBtn:SetScript("OnClick", function()
-    local n = ns.Capture and ns.Capture.MarkAllSent() or 0
-    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
-      and L["%d line marked as sent; your next upload only carries what's new."]
-      or L["%d lines marked as sent; your next upload only carries what's new."], n))
-  end)
-  p.markSent = sentBtn
-  -- Every window back where it starts, the floating player and the minimap button shown again (UI.ResetWindows,
-  -- LOR-241). Same as /lore reset.
-  local windowsBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  windowsBtn:SetSize(160, 24)
-  windowsBtn:SetPoint("TOPLEFT", resetBtn, "BOTTOMLEFT", 0, -8)
-  windowsBtn:SetText(L["Reset windows"])
-  fit(windowsBtn, 160)
-  windowsBtn:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Reset windows"])
-    T.Tip(L["Puts the panel, the player, the minimap button and every pop-up back where they started. Your journey and settings stay."], "tipText", true)
-    GameTooltip:Show()
-  end)
-  windowsBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  local pageSlipRow = addCheck(sR, "pageSlip", L["New page notes"],
+    L["A short note at the top of the screen names each new page you find. Click it to open the page."])
+  local moveAllBtn = themedButton(sR, L["Move things on screen..."])
+  moveAllBtn:SetSize(190, 24)
+  fit(moveAllBtn, 170)
+  setTip(moveAllBtn, L["Move things on screen..."],
+    L["Drag the subtitles, the new-page note and the pin card where you want them, then click Done."])
+  moveAllBtn:SetScript("OnClick", function() ns.Move.Toggle() end)
+  local moveAllRow = buttonsRow(sR, { moveAllBtn })
+
+  local restoreHead = makeHeading(sR, L["Restore layout"])
+  local windowsBtn = themedButton(sR, L["Reset windows"])
+  windowsBtn:SetSize(140, 24)
+  fit(windowsBtn, 120)
+  setTip(windowsBtn, L["Reset windows"],
+    L["Puts the panel, the player, the minimap button and every pop-up back where they started. Your journey and settings stay."])
   windowsBtn:SetScript("OnClick", function() ns.UI.ResetWindows() end)
   p.resetWindows = windowsBtn
-  -- The quest window's Lore button back in its own place, if it was Shift-dragged somewhere (Hooks.ResetQuestButton).
-  local questBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  questBtn:SetSize(160, 24)
-  questBtn:SetPoint("LEFT", windowsBtn, "RIGHT", 10, 0)
-  questBtn:SetText(L["Reset quest button"])
-  fit(questBtn, 160)
-  questBtn:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Reset quest button"])
-    T.Tip(L["Put the quest window's Lore button back in its own place, clear of other add-ons' buttons, after you Shift-dragged it somewhere else."], "tipText", true)
-    GameTooltip:Show()
-  end)
-  questBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  questBtn:SetScript("OnClick", function() ns.Hooks.ResetQuestButton() end)
-  p.resetQuestButton = questBtn
-  -- Every key in one place (LOR-1158; Mike: "Sometimes it lets you set keys and sometimes you have to go to keybindings
-  -- and then addons."): what it is now or None, and Set... through the prompt, with its warning and combat refusal.
-  -- Willo's two are set in her window (LOR-1116), so they only say so; those and her sky's show with Willo installed.
-  local keysHead = heading(c, L["Keys"], windowsBtn, 24)
-  local keyRows, lastKey = {}, keysHead
-  local function keyRow(label, binding, which, willoOnly)
-    local name = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-    name:SetPoint("TOPLEFT", lastKey, "BOTTOMLEFT", 0, lastKey == keysHead and -12 or -14)
-    name:SetWidth(240)
-    name:SetJustifyH("LEFT")
-    name:SetWordWrap(true)   -- a long (translated) name takes a second line rather than being cut (LOR-763)
-    name:SetText(label)
-    local shown = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-    shown:SetPoint("LEFT", name, "LEFT", 250, 0)
-    shown:SetWidth(130)
-    shown:SetJustifyH("LEFT")
-    shown:SetWordWrap(false)
-    local set
-    if which then
-      set = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-      set:SetSize(70, 22)
-      set:SetText(L["Set..."])
-      fit(set, 70)
-      set:SetScript("OnClick", function() ns.Hooks.KeyPrompt(which):Show() end)
+
+  local questResetBtn = themedButton(sR, L["Reset quest button"])
+  questResetBtn:SetSize(150, 24)
+  fit(questResetBtn, 130)
+  setTip(questResetBtn, L["Reset quest button"],
+    L["Put the quest window's Lore button back in its own place, clear of other add-ons' buttons, after you Shift-dragged it somewhere else."])
+  questResetBtn:SetScript("OnClick", function() ns.Hooks.ResetQuestButton() end)
+  p.resetQuestButton = questResetBtn
+  local restoreRow = buttonsRow(sR, { windowsBtn, questResetBtn })
+
+  local function dropRowLayout(row, lbl, dd, w)
+    local cw = math.max(120, math.min(165, math.floor(w * 0.48)))
+    dd:SetWidth(cw)
+    lbl:ClearAllPoints()
+    dd:ClearAllPoints()
+    local lw = strWidth(lbl, 90)
+    if lw + 12 + cw <= w then
+      lbl:SetPoint("LEFT", 0, 0)
+      lbl:SetWidth(w - cw - 10)
+      dd:SetPoint("RIGHT", 0, 0)
+      local h = math.max(28, strHeight(lbl, 14) + 8)
+      row:SetSize(w, h)
+      return h
     else
-      set = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-      set:SetTextColor(T.rgba(T.color.muted))
-      set:SetText(L["Set in %s"]:format(ns.COMPANION_NAME))
+      lbl:SetPoint("TOPLEFT", 0, 0)
+      lbl:SetWidth(w)
+      dd:SetPoint("TOPLEFT", lbl, "BOTTOMLEFT", 0, -4)
+      local h = strHeight(lbl, 14) + 32
+      row:SetSize(w, h)
+      return h
     end
-    set:SetPoint("LEFT", shown, "LEFT", 140, 0)
-    keyRows[#keyRows + 1] = { name = name, shown = shown, set = set, binding = binding, willoOnly = willoOnly }
-    lastKey = name
   end
-  keyRow(L["Toggle Lore Forever panel"], "LOREFOREVER_TOGGLE", "toggle")
-  keyRow(L["Play narration"], "LOREFOREVER_NARRATE", "narrate")
-  keyRow(L["Play/pause narration playlist"], "LOREFOREVER_PLAYLIST", "playlist")
-  keyRow(L["Next narration"], "LOREFOREVER_PLAYLIST_NEXT", "playlistNext")
-  keyRow(L["Stop narration"], "LOREFOREVER_STOP", "stop")
-  keyRow(L["Clear waiting narration (keeps what you added)"], "LOREFOREVER_CLEARWAITING", "clearWaiting")
-  keyRow(L["Take a journey picture"], "LOREFOREVER_PICTURE", "picture")
-  keyRow(L["Show %s's sky"]:format(ns.COMPANION_NAME), "LOREFOREVER_SKY", "sky", true)
-  keyRow(L["Talk to %s"]:format(ns.COMPANION_NAME), "LOREFOREVER_ASKWILLO", nil, true)
-  keyRow(L["Their key"], "LOREFOREVER_ASKTARGET", nil, true)
-  -- Willo's settings (willoRows), together under their own heading. Without Willo they're greyed out and can't be
-  -- changed, under a note saying where to get it (LOR-459); with it they work as the others do. Installed is
-  -- Companion.Installed: Willo's LoreForever_Willo add-on, loaded at login, so a new install shows after a /reload.
-  -- Until Willo launches (Companion.OFFER_WILLO off) the section shows only to players who have Willo already.
-  local willoHead = heading(c, ns.COMPANION_NAME, lastKey, 24)
+
+  local screenLeftEntries = {
+    headingEntry(readingHead, 0),
+    { frame = sizeRow, gapAfter = 4, place = function(y, w) sizeRow:Show(); sizeRow:ClearAllPoints(); sizeRow:SetPoint("TOPLEFT", 0, -y); return dropRowLayout(sizeRow, sizeLabel, sizeBtn, w) end },
+    rowEntry(subtitlesRow),
+    { frame = subSizeRow, gapAfter = 6, place = function(y, w) subSizeRow:Show(); subSizeRow:ClearAllPoints(); subSizeRow:SetPoint("TOPLEFT", 0, -y); return dropRowLayout(subSizeRow, subSizeLabel, subSizeBtn, w) end },
+    { frame = subActionsRow, gapAfter = 10, place = function(y, w) subActionsRow:Show(); subActionsRow:ClearAllPoints(); subActionsRow:SetPoint("TOPLEFT", 0, -y); return subActionsRow.Layout(w) end },
+    headingEntry(playerHead, 10),
+    rowEntry(floatRow),
+    rowEntry(reportRow),
+  }
+  local screenRightEntries = {
+    headingEntry(inGameHead, 0),
+    rowEntry(minimapRow),
+    rowEntry(questBtnRow),
+    rowEntry(pageSlipRow, nil, 0, 6),
+    { frame = moveAllRow, gapAfter = 10, place = function(y, w) moveAllRow:Show(); moveAllRow:ClearAllPoints(); moveAllRow:SetPoint("TOPLEFT", 0, -y); return moveAllRow.Layout(w) end },
+    headingEntry(restoreHead, 10),
+    { frame = restoreRow, gapAfter = 6, place = function(y, w) restoreRow:Show(); restoreRow:ClearAllPoints(); restoreRow:SetPoint("TOPLEFT", 0, -y); return restoreRow.Layout(w) end },
+  }
+  screenTab.layout = function(w)
+    layoutColumns(screenTab, w,
+      function(cw) return layoutStack(sL, screenLeftEntries, cw) end,
+      function(cw) return layoutStack(sR, screenRightEntries, cw) end)
+  end
+
+  -- =================================================================================================================
+  -- TAB 3: KEYS
+  -- =================================================================================================================
+  local keysTab = makeTabScroll("LoreForeverOptionsScrollKeys")
+  p.tabFrames.keys = keysTab
+  local kL, kR = keysTab.leftCol, keysTab.rightCol
+
+  local keyPanelHead = makeHeading(kL, L["Panel"])
+  local keyNarrationHead = makeHeading(kL, L["Narration"])
+  local keyJourneyHead = makeHeading(kR, L["Journey"])
+  local keyWilloHead = makeHeading(kR, ns.COMPANION_NAME)
+
+  local keyRows = {}
+  local function makeKeyRow(parent, label, binding, which, willoOnly, subtext)
+    local row = CreateFrame("Frame", nil, parent)
+    local actionCol
+    if which then
+      actionCol = themedButton(row, L["Set..."])
+      actionCol:SetSize(66, 22)
+      fit(actionCol, 64)
+      actionCol:SetScript("OnClick", function() ns.Hooks.KeyPrompt(which):Show() end)
+    else
+      actionCol = row:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+      actionCol:SetTextColor(T.rgba(T.color.muted))
+      actionCol:SetText(L["Set in %s"]:format(ns.COMPANION_NAME))
+      actionCol:SetJustifyH("RIGHT")
+    end
+    actionCol:SetPoint("TOPRIGHT", 0, -2)
+
+    local badge = CreateFrame("Frame", nil, row)
+    fillColor(badge:CreateTexture(nil, "BACKGROUND"), PALETTE.kbdBg):SetAllPoints()
+    makeBorder(badge, PALETTE.kbdRim, 1)
+    local shown = badge:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    shown:SetPoint("CENTER", 0, 0)
+    shown:SetJustifyH("CENTER")
+    badge:SetSize(64, 22)
+    badge:SetPoint("RIGHT", actionCol, "LEFT", -8, 0)
+
+    local name = row:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+    wrapRegion(name)
+    name:SetPoint("TOPLEFT", 0, -3)
+    name:SetText(label)
+
+    local sub
+    if subtext and subtext ~= "" then
+      sub = row:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+      sub:SetTextColor(T.rgba(T.color.muted))
+      wrapRegion(sub)
+      sub:SetPoint("TOPLEFT", name, "BOTTOMLEFT", 0, -2)
+      sub:SetText(subtext)
+    end
+
+    local entry = {
+      frame = row,
+      name = name,
+      sub = sub,
+      badge = badge,
+      shown = shown,
+      set = actionCol,
+      binding = binding,
+      willoOnly = willoOnly,
+    }
+    function entry.Layout(w)
+      local aw = which and (tonumber(actionCol:GetWidth()) or 66) or math.min(math.max(60, w - 70), strWidth(actionCol, 76))
+      local kw = math.max(54, math.min(115, strWidth(shown, 42) + 16))
+      badge:SetSize(kw, 22)
+      local sideLw = w - aw - kw - 18
+      if name.SetNonSpaceWrap then name:SetNonSpaceWrap(false) end
+      if sub and sub.SetNonSpaceWrap then sub:SetNonSpaceWrap(false) end
+
+      local sideFits = sideLw >= 100
+      if sideFits then
+        name:SetWidth(sideLw)
+        if name.IsTruncated and name:IsTruncated() then sideFits = false end
+        if sideFits and sub then
+          sub:SetWidth(sideLw)
+          if sub.IsTruncated and sub:IsTruncated() then sideFits = false end
+        end
+      end
+
+      if sideFits then
+        name:ClearAllPoints()
+        name:SetPoint("TOPLEFT", 0, -3)
+        name:SetWidth(sideLw)
+        actionCol:ClearAllPoints()
+        actionCol:SetPoint("TOPRIGHT", row, "TOPRIGHT", 0, which and -2 or -6)
+        badge:ClearAllPoints()
+        badge:SetPoint("TOPRIGHT", row, "TOPRIGHT", -(aw + 8), -2)
+        local h = strHeight(name, 14) + 6
+        if sub then
+          sub:SetWidth(sideLw)
+          h = h + strHeight(sub, 12) + 3
+        end
+        h = math.max(28, h)
+        row:SetSize(w, h)
+        return h
+      else
+        name:ClearAllPoints()
+        name:SetPoint("TOPLEFT", 0, -3)
+        name:SetWidth(w)
+        if name.IsTruncated and name:IsTruncated() and name.SetNonSpaceWrap then
+          name:SetNonSpaceWrap(true)
+        end
+        local textH = strHeight(name, 14) + 4
+        if sub then
+          sub:SetWidth(w)
+          if sub.IsTruncated and sub:IsTruncated() and sub.SetNonSpaceWrap then
+            sub:SetNonSpaceWrap(true)
+          end
+          textH = textH + strHeight(sub, 12) + 3
+        end
+        local ctrlY = textH + 2
+        actionCol:ClearAllPoints()
+        actionCol:SetPoint("TOPRIGHT", row, "TOPRIGHT", 0, which and -ctrlY or -(ctrlY + 4))
+        badge:ClearAllPoints()
+        badge:SetPoint("TOPRIGHT", row, "TOPRIGHT", -(aw + 8), -ctrlY)
+        local h = ctrlY + 24
+        row:SetSize(w, h)
+        return h
+      end
+    end
+    keyRows[#keyRows + 1] = entry
+    return entry
+  end
+
+  local rToggle = makeKeyRow(kL, L["Toggle Lore Forever panel"], "LOREFOREVER_TOGGLE", "toggle")
+  local rNarrate = makeKeyRow(kL, L["Play narration"], "LOREFOREVER_NARRATE", "narrate")
+  local rPlaylist = makeKeyRow(kL, tr("Play or pause playlist", "Play/pause narration playlist"), "LOREFOREVER_PLAYLIST", "playlist")
+  local rNext = makeKeyRow(kL, L["Next narration"], "LOREFOREVER_PLAYLIST_NEXT", "playlistNext")
+  local rStop = makeKeyRow(kL, L["Stop narration"], "LOREFOREVER_STOP", "stop")
+  local rClear = makeKeyRow(kL, tr("Clear waiting narration", "Clear waiting narration (keeps what you added)"),
+    "LOREFOREVER_CLEARWAITING", "clearWaiting", false, L["Keeps what you added"])
+  local rPicture = makeKeyRow(kR, L["Take a journey picture"], "LOREFOREVER_PICTURE", "picture")
+  local rSky = makeKeyRow(kR, L["Show %s's sky"]:format(ns.COMPANION_NAME), "LOREFOREVER_SKY", "sky", true)
+  local rTalk = makeKeyRow(kR, L["Talk to %s"]:format(ns.COMPANION_NAME), "LOREFOREVER_ASKWILLO", nil, true)
+  local rTarget = makeKeyRow(kR, L["Their key"], "LOREFOREVER_ASKTARGET", nil, true)
+
+  local function keyEntry(kr)
+    return {
+      frame = kr.frame,
+      gapAfter = 4,
+      shown = function() return ns.Companion.Installed() or not kr.willoOnly end,
+      place = function(y, w)
+        kr.frame:Show()
+        kr.frame:ClearAllPoints()
+        kr.frame:SetPoint("TOPLEFT", 0, -y)
+        return kr.Layout(w)
+      end,
+    }
+  end
+
+  local keysLeftEntries = {
+    headingEntry(keyPanelHead, 0),
+    keyEntry(rToggle),
+    headingEntry(keyNarrationHead, 14),
+    keyEntry(rNarrate),
+    keyEntry(rPlaylist),
+    keyEntry(rNext),
+    keyEntry(rStop),
+    keyEntry(rClear),
+  }
+  local keysRightEntries = {
+    headingEntry(keyJourneyHead, 0),
+    keyEntry(rPicture),
+    {
+      frame = keyWilloHead,
+      gapBefore = 14,
+      gapAfter = 6,
+      shown = function() return ns.Companion.Installed() end,
+      place = function(y, w)
+        keyWilloHead:Show()
+        keyWilloHead:ClearAllPoints()
+        keyWilloHead:SetPoint("TOPLEFT", 0, -y)
+        keyWilloHead:SetWidth(w)
+        return strHeight(keyWilloHead, 16)
+      end,
+    },
+    keyEntry(rSky),
+    keyEntry(rTalk),
+    keyEntry(rTarget),
+  }
+  keysTab.layout = function(w)
+    layoutColumns(keysTab, w,
+      function(cw) return layoutStack(kL, keysLeftEntries, cw) end,
+      function(cw) return layoutStack(kR, keysRightEntries, cw) end)
+  end
+
   function p.updateKeys()
-    local installed, lowest = ns.Companion.Installed(), keysHead
-    for _, row in ipairs(keyRows) do
-      local on = installed or not row.willoOnly
-      row.name:SetShown(on)
-      row.shown:SetShown(on)
-      row.set:SetShown(on)
-      if on then lowest = row.name end
-      local key = GetBindingKey and GetBindingKey(row.binding, true)   -- Willo's "Use anyway" override too (LOR-1505)
+    local installed = ns.Companion.Installed()
+    for _, kr in ipairs(keyRows) do
+      local on = installed or not kr.willoOnly
+      kr.frame:SetShown(on)
+      kr.name:SetShown(on)
+      kr.shown:SetShown(on)
+      kr.set:SetShown(on)
+      local key = GetBindingKey and GetBindingKey(kr.binding, true)
       local text = key and GetBindingText and GetBindingText(key) or key
-      row.shown:SetText(text and text:gsub("|", "||") or L["None"])
-      row.shown:SetTextColor(T.rgba(key and T.color.tipText or T.color.muted))
+      kr.shown:SetText(text and text:gsub("|", "||") or L["None"])
+      kr.shown:SetTextColor(T.rgba(key and T.color.tipText or T.color.muted))
     end
-    willoHead:ClearAllPoints()   -- straight under the last row showing
-    willoHead:SetPoint("TOPLEFT", lowest, "BOTTOMLEFT", 0, -24)
+    relayout("keys")
   end
-  local willoNote = note(c, "", willoHead, 6)
-  p.willoChecks = {}
-  -- Live game info as it is (Strip.On) and where it's set: one home, Willo's Settings (LOR-1116). /lore live still
-  -- works, and a choice made here stands until they say yes in Willo (Strip.SyncWillo).
-  local liveLine = note(c, "", willoNote, 10, "GameFontHighlight")
-  local liveWhere = note(c, "", liveLine, 3)
-  p.liveLine = liveLine
-  last = liveWhere
-  for i, row in ipairs(willoRows()) do
-    local cb
-    last, cb = check(row, last, i == 1)
-    p.willoChecks[#p.willoChecks + 1] = cb
-    local click = cb:GetScript("OnClick")
-    cb:SetScript("OnClick", function(self, ...)
-      click(self, ...)
-      p.updateWillo()   -- (unticked without Willo: greyed out again)
-    end)
-  end
-  -- Move things on screen... / Put it back (Sky.OptionsRow, LOR-530), under Willo's settings; shown and greyed with them.
-  local skyRow, updateSkyRow = ns.Sky.OptionsRow(c, last)
-  skyRow:SetScript("OnShow", function()
-    local on = ns.Companion.Installed()
-    updateSkyRow(on or ns.Companion.OFFER_WILLO and true or false, on)
-  end)
-  -- Her sky on or off with a click, beside moving it (LOR-1429: a player who uninstalled Willo found only "move the
-  -- sky" here). Uninstalling her leaves her LoreForever_Willo add-on in the game (Willo.iss), so the add-on can't tell
-  -- she's gone and her Settings may be out of reach: the way off is here for everyone, as /lore live. Turning it back
-  -- on here is offered only after it was turned off here with her yes standing, under the explanation she gave.
-  local liveBtn = ns.Theme.Button(c, L["Turn off the sky"])
-  liveBtn:SetSize(150, 24)   -- (placed in updateWillo)
+
+  -- =================================================================================================================
+  -- TAB 4: WILLO
+  -- =================================================================================================================
+  local willoTab = makeTabScroll("LoreForeverOptionsScrollWillo")
+  p.tabFrames.willo = willoTab
+  local wL, wR = willoTab.leftCol, willoTab.rightCol
+
+  local willoIntroNote = makeNote(wL, "")
+  local liveHead = makeHeading(wL, L["Live game info"])
+  local liveCard = makeStatusCard(wL)
+  -- SelfTest checks p.liveLine:GetText() against the Live game info status string.
+  p.liveLine = liveCard.title
+  p.liveWhere = liveCard.copy
+
+  local liveBtn = themedButton(wL, L["Turn off live game info"])
+  liveBtn:SetSize(160, 24)
   fit(liveBtn, 150)
   liveBtn:SetScript("OnClick", function()
     ns.Strip.Choose(not ns.Strip.On())
@@ -1193,87 +1912,420 @@ function Options.Create()
   end)
   liveBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
   p.liveButton = liveBtn
-  local willoLast = skyRow
-  -- What follows lines up with the Willo heading again, not with the indented description above it (or, with no
-  -- section, with the buttons above).
-  local willoEnd = CreateFrame("Frame", nil, c)
-  willoEnd:SetSize(1, 1)
+  local liveBtnRow = buttonsRow(wL, { liveBtn })
+
+  local skyHead = makeHeading(wL, L["%s's sky"]:format(ns.COMPANION_NAME))
+  local skyRow, updateSkyRow = ns.Sky.OptionsRow(wL, skyHead)
+  skyRow:ClearAllPoints()
+  if skyRow.move then skyRow.move:SetParent(skyRow) end
+  if skyRow.back then skyRow.back:SetParent(skyRow) end
+  local talkMarkRow, talkMarkCb = addCheck(wL, "talkMark", L["Show who can answer you"],
+    L["When you target someone who can answer, a small mark shows which key to hold to ask them. Right-click it to hide it."],
+    nil, function() if ns.TalkMark then ns.TalkMark.Update() end end)
+  p.willoChecks[#p.willoChecks + 1] = talkMarkCb
+
+  local picsHead = makeHeading(wR, L["Journey pictures"])
+  local hideUIRow, hideUICb = addCheck(wR, "pictureHideUI",
+    tr("Hide the interface for journey pictures", "Hide the interface when taking a journey picture"),
+    L["Hides your interface for a moment when a journey picture is taken. Turn on Picture book in %s to keep them."]:format(ns.COMPANION_NAME)
+      .. " " .. L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys. Except in combat."],
+    "Hide the interface when taking a journey picture")
+  p.willoChecks[#p.willoChecks + 1] = hideUICb
+
+  local autoPicsRow, autoPicsCb = addCheck(wR, "automaticPictures", L["Automatic journey pictures"],
+    L["Takes a journey picture when you level up, beat a boss or reach a new zone. At most ten a day."])
+  p.willoChecks[#p.willoChecks + 1] = autoPicsCb
+
+  local picsHelp = makeNote(wR, L["Picture book in Willo keeps your journey pictures."])
+
+  local getWilloRow, getWilloCb
+  if ns.Companion and ns.Companion.OFFER_WILLO then
+    getWilloRow, getWilloCb = addCheck(wR, "getWillo", L["Suggest %s"]:format(ns.COMPANION_NAME),
+      L["Until you install %s, shows her icon beside Journey and a chat line about her when Lore Forever has no answer. Untick to hide both."]:format(ns.COMPANION_NAME),
+      nil, function() if ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end end)
+  end
+
+  local willoLeftEntries = {
+    noteEntry(willoIntroNote, 0, 10),
+    headingEntry(liveHead, 4),
+    {
+      frame = liveCard,
+      gapAfter = 8,
+      shown = function() return ns.Companion.Installed() or ns.Companion.OFFER_WILLO end,
+      place = function(y, w)
+        liveCard:Show()
+        liveCard:ClearAllPoints()
+        liveCard:SetPoint("TOPLEFT", 0, -y)
+        return liveCard.Layout(w)
+      end,
+    },
+    {
+      frame = liveBtnRow,
+      gapAfter = 10,
+      shown = function() return liveBtn:IsShown() end,
+      place = function(y, w)
+        liveBtnRow:Show()
+        liveBtnRow:ClearAllPoints()
+        liveBtnRow:SetPoint("TOPLEFT", 0, -y)
+        return liveBtnRow.Layout(w)
+      end,
+    },
+    headingEntry(skyHead, 10),
+    {
+      frame = skyRow,
+      gapAfter = 6,
+      shown = function() return ns.Companion.Installed() or ns.Companion.OFFER_WILLO end,
+      place = function(y, w)
+        skyRow:Show()
+        skyRow:ClearAllPoints()
+        skyRow:SetPoint("TOPLEFT", 0, -y)
+        local sh = 28
+        if skyRow.move and skyRow.back then
+          local mw = tonumber(skyRow.move.GetWidth and skyRow.move:GetWidth()) or 190
+          local bw = tonumber(skyRow.back.GetWidth and skyRow.back:GetWidth()) or 130
+          skyRow.move:ClearAllPoints()
+          skyRow.move:SetPoint("TOPLEFT", skyRow, "TOPLEFT", 0, 0)
+          skyRow.back:ClearAllPoints()
+          if mw + 10 + bw <= w then
+            skyRow.back:SetPoint("LEFT", skyRow.move, "RIGHT", 10, 0)
+          else
+            skyRow.back:SetPoint("TOPLEFT", skyRow.move, "BOTTOMLEFT", 0, -6)
+            sh = 58
+          end
+        end
+        skyRow:SetSize(w, sh)
+        return sh
+      end,
+    },
+    rowEntry(talkMarkRow, function() return ns.Companion.Installed() or ns.Companion.OFFER_WILLO end),
+  }
+  local willoRightEntries = {
+    headingEntry(picsHead, 0),
+    rowEntry(hideUIRow, function() return ns.Companion.Installed() or ns.Companion.OFFER_WILLO end),
+    rowEntry(autoPicsRow, function()
+      return (ns.Companion.Installed() or ns.Companion.OFFER_WILLO) and ns.Journey and ns.Journey.PictureBookOn and ns.Journey.PictureBookOn()
+    end),
+    noteEntry(picsHelp, 2, 10),
+  }
+  if getWilloRow then
+    willoRightEntries[#willoRightEntries + 1] = rowEntry(getWilloRow, function() return ns.Companion.OFFER_WILLO and true or false end, 8, 4)
+  end
+  willoTab.layout = function(w)
+    layoutColumns(willoTab, w,
+      function(cw) return layoutStack(wL, willoLeftEntries, cw) end,
+      function(cw) return layoutStack(wR, willoRightEntries, cw) end)
+  end
+
   function p.updateWillo()
     local on = ns.Companion.Installed()
-    local shown = on or ns.Companion.OFFER_WILLO and true or false
-    willoHead:SetShown(shown)
-    willoNote:SetShown(shown)
-    willoNote:SetText(on and string.format(L["These work with %s, Lore Forever's companion app on this PC."], ns.COMPANION_NAME)
-      or string.format(L["Needs %s, Lore Forever's free companion app (%s). Installed it? Type /reload."],
+    local shown = on or (ns.Companion.OFFER_WILLO and true or false)
+    if on then
+      willoIntroNote:SetText(string.format(L["These work with %s, Lore Forever's companion app on this PC."], ns.COMPANION_NAME))
+    elseif ns.Companion.OFFER_WILLO then
+      willoIntroNote:SetText(string.format(L["Needs %s, Lore Forever's free companion app (%s). Installed it? Type /reload."],
         ns.COMPANION_NAME, ns.Companion.WILLO_URL))
+    else
+      willoIntroNote:SetText(string.format(L["%s is not installed on this PC."], ns.COMPANION_NAME))
+    end
+
     local live = ns.Strip.On()
-    liveLine:SetText(not live and L["Live game info: off"]
+    local liveText = not live and L["Live game info: off"]
       or ns.Strip.Always() and L["Live game info: on, sky kept up"]
-      or L["Live game info: on, sky hidden until you talk to %s"]:format(ns.COMPANION_NAME))
-    -- On with no yes from Willo (no Willo, or /lore live or an old tick, and her switch off): the sky still paints and
-    -- her switch wouldn't stop it, so the way off is the button here (LOR-541, LOR-1429). Turned off here with her yes
-    -- standing: her switch shows on, so her Settings wouldn't help; the button turns it back on.
+      or L["Live game info: on, sky hidden until you talk to %s"]:format(ns.COMPANION_NAME)
     local here = live and (not on or not ns.Strip.OnFromWillo()) or not live and ns.Strip.OnFromWillo()
-    liveWhere:SetText(live and here and ""
+    local whereText = live and here and ""
       or not live and here and L["You turned it off in the game."]
-      or L["You set this in %s: Settings › What she can see."]:format(ns.COMPANION_NAME))
-    liveLine:SetShown(shown)
-    liveWhere:SetShown(shown)
-    liveBtn:SetText(live and L["Turn off the sky"] or L["Turn on the sky"])
+      or L["You set this in %s: Settings › What she can see."]:format(ns.COMPANION_NAME)
+
+    liveCard.SetState(live and "teal" or "neutral", liveText, whereText)
+    liveCard:SetShown(shown)
+    liveBtn:SetText(live and L["Turn off live game info"] or L["Turn live game info back on"])
     fit(liveBtn, 150)
     liveBtn:SetShown(shown and (live or here) and true or false)
-    -- Beside Put it back while it fits; a longer translation goes on the line below, so it never runs off the page.
-    local right, backRight = c:GetRight(), skyRow.back:GetRight()
-    local below = right and backRight and backRight + 28 + liveBtn:GetWidth() > right - 24 or false
-    liveBtn:ClearAllPoints()
-    if below then liveBtn:SetPoint("TOPLEFT", skyRow, "BOTTOMLEFT", 0, -8)
-    else liveBtn:SetPoint("LEFT", skyRow.back, "RIGHT", 28, 0) end   -- apart: Put it back isn't "put the sky back"
-    willoLast = below and liveBtn:IsShown() and liveBtn or skyRow
-    willoEnd:ClearAllPoints()
-    if shown then willoEnd:SetPoint("TOPLEFT", willoLast, "BOTTOMLEFT", -28, 0)
-    else willoEnd:SetPoint("TOPLEFT", windowsBtn, "BOTTOMLEFT", 0, 0) end
-    for _, cb in ipairs(p.willoChecks) do
-      cb:SetShown(shown)
-      cb.desc:SetShown(shown)
-      if on then cb:Enable() else cb:Disable() end
-      cb.label:SetTextColor(T.rgba(on and T.color.tipText or T.color.faint))
-      cb.desc:SetTextColor(T.rgba(on and T.color.muted or T.color.faint))
+
+    updateSkyRow(shown, on)
+    local blockedByWillo = not on and string.format(L["Needs %s."], ns.COMPANION_NAME) or nil
+    talkMarkRow.SetBlocked(blockedByWillo)
+    hideUIRow.SetBlocked(blockedByWillo)
+    autoPicsRow.SetBlocked(blockedByWillo)
+    local showAutoPics = shown and ns.Journey and ns.Journey.PictureBookOn and ns.Journey.PictureBookOn()
+    autoPicsRow:SetShown(showAutoPics and true or false)
+    picsHelp:SetShown(shown)
+    if getWilloRow then getWilloRow.SetBlocked(nil) end
+    relayout("willo")
+  end
+  p.willoNote = willoIntroNote
+
+  -- =================================================================================================================
+  -- TAB 5: GENERAL
+  -- =================================================================================================================
+  local generalTab = makeTabScroll("LoreForeverOptionsScrollGeneral")
+  p.tabFrames.general = generalTab
+  local gL, gR = generalTab.leftCol, generalTab.rightCol
+
+  local langHead = makeHeading(gL, L["Language"])
+  local langPickRow = CreateFrame("Frame", nil, gL)
+  local langLabel = langPickRow:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  wrapRegion(langLabel)
+  langLabel:SetText(L["Add-on language"])
+  local langBtn, langList = dropDown("LoreForeverLanguagePick", langPickRow, 175)
+  local langHint = makeNote(gL, L["Automatic follows your WoW client's language. A contributor edition switches its text and narration together. Reload to apply your selection."])
+  local langUrl = urlRow(gL, L["Get more languages:"], LANGUAGES_URL)
+
+  local function langItems()
+    local out, id = {}, ns.Lang.Selected()
+    local label
+    for _, ch in ipairs(ns.Lang.Choices()) do
+      out[#out + 1] = { value = ch.id, label = ch.label, why = ch.reason }
+      if ch.id == id then label = ch.label end
+    end
+    return out, id, label or (out[1] and out[1].label) or ""
+  end
+  function p.updateLanguage()
+    local _, _, label = langItems()
+    langBtn:SetText(label)
+    if ns.lang and ns.lang.editionUnavailable then
+      langHint:SetText(L["Edition unavailable. Install or enable both matching components, then reload, or select another edition or stock language here."])
+    end
+    langUrl.fill()
+    if InCombatLockdown and InCombatLockdown() then return end
+    local pending = ns.Lang.NeedsReload()
+    if pending then
+      local ui = ns.Lang.StringsFor(ns.Lang.Resolve())
+      reload:SetText(ui and (ui["Reload now"] or "Reload now") or L["Reload now"])
+      fit(reload, 120)
+    end
+    reload:SetShown(pending)
+  end
+  langBtn:SetScript("OnClick", function()
+    local all, id = langItems()
+    langList.Toggle(all, id, function(ch)
+      ns.Lang.Set(ch.value)
+      p.updateLanguage()
+    end)
+  end)
+  p.language, p.languageList = langBtn, langList
+
+  local storiesHead = makeHeading(gL, L["Stories and hints"])
+  local storylinesRow = addCheck(gL, "storylines", L["Show storylines on quests"],
+    L["When a quest is part of a storyline, say so under its title and at the top of its story."],
+    nil, function()
+      if ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
+      if ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
+    end)
+  local storylineChatRow = addCheck(gL, "storylineChat", L["Storyline hints in chat"],
+    L["When you turn in a storyline quest, chat says who to see next."])
+  local zoneNudgeRow = addCheck(gL, "zoneNudge", L["Zone hints"],
+    L["When you enter a zone, suggest a question about it in chat."])
+  local dungeonRow = addCheck(gL, "dungeonPrimer", L["Dungeon primer prompt"],
+    L["When you enter a dungeon, link its primer in chat, and each boss's story once you beat them."])
+  local spoilersRow = addCheck(gL, "showSpoilers", L["Tell me everything"],
+    L["Story passages and answers that give away what's ahead wait until your quests reach them. Tick this to see and hear the whole story now."],
+    nil, function() if ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end end)
+  local npcTipRow = addCheck(gL, "unitTooltips", L["Lore on NPC tooltips"],
+    L["Add a one-line story to the tooltip of NPCs and mobs."])
+  local itemTipRow = addCheck(gL, "itemTooltips", L["Notes on item tooltips"],
+    L["Say when an item is wanted for a quest or starts one."])
+
+  local journeyHead = makeHeading(gR, L["Journey and contributions"])
+  local journeyRow = addCheck(gR, "journey", L["Remember my journey"],
+    L["Keeps track of the places, people, foes and quests of your journey, for your journey page. It stays on your PC."],
+    nil, function() if ns.Journey then ns.Journey.OnToggle() end end)
+  local captureRow = addCheck(gR, "capture", L["Keep the quest text you see"],
+    L["Keeps the quest and book text you see, so you can share what we're missing at loreforeverwow.com/contribute. It stays on your PC until then."])
+  local contribRow = addCheck(gR, "contributeButtons", L["Contribute buttons"],
+    L["A small button on quest, gossip and book windows whose text Lore Forever doesn't have yet. Click it for a link to share that text."],
+    nil, function() if ns.Capture then ns.Capture.UpdateAll() end end)
+  local captureNote = makeNote(gR, L["Saved text stays on your computer until you share it."])
+  local sentBtn = themedButton(gR, L["Mark shared text as sent"])
+  sentBtn:SetSize(180, 24)
+  fit(sentBtn, 160)
+  setTip(sentBtn, L["Mark shared text as sent"],
+    L["After sharing text at loreforeverwow.com/contribute, mark it as sent so the next upload carries only new lines."]:format(ns.COMPANION_NAME))
+  sentBtn:SetScript("OnClick", function()
+    local n = ns.Capture and ns.Capture.MarkAllSent() or 0
+    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
+      and L["%d line marked as sent; your next upload only carries what's new."]
+      or L["%d lines marked as sent; your next upload only carries what's new."], n))
+  end)
+  p.markSent = sentBtn
+  local sentRow = buttonsRow(gR, { sentBtn })
+
+  local noticesHead = makeHeading(gR, L["Answers and notices"])
+  local typingRow = addCheck(gR, "typing", L["Typing animation"],
+    L["Answers type in quickly. Click an answer to show it all at once."])
+  local chatLinksRow = addCheck(gR, "chatLinks", L["Clickable names in answers"],
+    L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."])
+  local tipsRow = addCheck(gR, "tips", L["Tips at login"],
+    L["Now and then at login, a tip in chat about something Lore Forever can do."])
+  local updateRow = addCheck(gR, "updateNotice", L["Tell me when a new version is out"],
+    L["One chat line when a newer Lore Forever is out, with how to update. At most once every two weeks."]:format(ns.COMPANION_NAME))
+
+  local generalLeftEntries = {
+    headingEntry(langHead, 0),
+    { frame = langPickRow, gapAfter = 4, place = function(y, w) langPickRow:Show(); langPickRow:ClearAllPoints(); langPickRow:SetPoint("TOPLEFT", 0, -y); return dropRowLayout(langPickRow, langLabel, langBtn, w) end },
+    noteEntry(langHint, 2, 6),
+    { frame = langUrl, gapAfter = 10, place = function(y, w) langUrl:Show(); langUrl:ClearAllPoints(); langUrl:SetPoint("TOPLEFT", 0, -y); return langUrl.Layout(w) end },
+    headingEntry(storiesHead, 10),
+    rowEntry(storylinesRow),
+    rowEntry(storylineChatRow),
+    rowEntry(zoneNudgeRow),
+    rowEntry(dungeonRow),
+    rowEntry(spoilersRow),
+    rowEntry(npcTipRow),
+    rowEntry(itemTipRow),
+  }
+  local generalRightEntries = {
+    headingEntry(journeyHead, 0),
+    rowEntry(journeyRow),
+    rowEntry(captureRow),
+    rowEntry(contribRow),
+    noteEntry(captureNote, 2, 6),
+    { frame = sentRow, gapAfter = 10, place = function(y, w) sentRow:Show(); sentRow:ClearAllPoints(); sentRow:SetPoint("TOPLEFT", 0, -y); return sentRow.Layout(w) end },
+    headingEntry(noticesHead, 10),
+    rowEntry(typingRow),
+    rowEntry(chatLinksRow),
+    rowEntry(tipsRow),
+    rowEntry(updateRow),
+  }
+  generalTab.layout = function(w)
+    layoutColumns(generalTab, w,
+      function(cw) return layoutStack(gL, generalLeftEntries, cw) end,
+      function(cw) return layoutStack(gR, generalRightEntries, cw) end)
+  end
+
+  -- =================================================================================================================
+  -- WAITING / SPOKEN STATUS / TAB SELECTION
+  -- =================================================================================================================
+  function p.Waiting()
+    local manual = LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.onDemand == true
+    local autoReason = manual and L["Available with Automatic playback."] or nil
+    autoZoneRow.SetBlocked(autoReason)
+    flightsRow.SetBlocked(autoReason)
+
+    local qStatus = ns.Voice and ns.Voice.QuestDialogueStatus and ns.Voice.QuestDialogueStatus()
+    if qStatus then
+      spokenCard.SetState(qStatus.tone, qStatus.title, qStatus.copy)
+      questVoicesRow.SetBlocked(qStatus.blockedReason)
+    else
+      questVoicesRow.SetBlocked(autoReason)
+    end
+
+    local willoKeeps = ns.Updates and ns.Updates.WilloKeeps and ns.Updates.WilloKeeps()
+    updateRow.SetBlocked(willoKeeps and L["%s keeps this up to date."]:format(ns.COMPANION_NAME) or nil)
+    syncPlaybackRadios()
+  end
+
+  local function styleTab(btn, selected)
+    if btn.bg then btn.bg:SetShown(selected) end
+    if btn.bar then btn.bar:SetShown(selected) end
+    if btn.label then
+      btn.label:SetTextColor(T.rgba(selected and T.color.gold or PALETTE.sub))
+    end
+    btn.selected = selected and true or false
+  end
+
+  function p.SelectTab(key)
+    local valid = false
+    for _, spec in ipairs(tabSpecs) do
+      if spec.key == key then valid = true break end
+    end
+    if not valid then key = "audio" end
+
+    local prev = Options.activeTab
+    if prev == "audio" and key ~= "audio" and ns.Voice and ns.Voice.StopPreview then
+      ns.Voice.StopPreview()
+    end
+    closeAllLists()
+    Options.activeTab = key
+
+    for _, spec in ipairs(tabSpecs) do
+      local active = spec.key == key
+      local btn = p.tabs[spec.key]
+      local tf = p.tabFrames[spec.key]
+      styleTab(btn, active)
+      tf.sf:SetShown(active)
+      if active then
+        if spec.key == "audio" then
+          vol.Sync()
+          p.Waiting()
+          if voiceSection.expanded then voiceSection.Update() end
+        elseif spec.key == "screen" then
+          p.updateSize()
+        elseif spec.key == "keys" then
+          p.updateKeys()
+        elseif spec.key == "willo" then
+          p.updateWillo()
+        elseif spec.key == "general" then
+          p.updateLanguage()
+          p.Waiting()
+        end
+        relayout(spec.key)
+      end
     end
   end
-  p.willoNote = willoNote
-  p.updateWillo()
-  local sizeBtn = sizeSection(c, willoEnd)
-  local subtitleBtn = subtitleSizeSection(c, sizeBtn)
-  p.moveSubtitles, p.putSubtitlesBack = subtitleBtn.move, subtitleBtn.back
-  p.updateSize = function() sizeBtn.Update(); subtitleBtn.Update() end
-  local bottom
-  p.voice, bottom = Options.VoiceSection(c, subtitleBtn.rowEnd)
-  -- The voice rows are made now, hidden, not as the settings window first shows the page: a frame made on an open game
-  -- window taints the controller interface (LOR-481, Context.GamepadUI). One per voice installed, and "auto"; filling
-  -- them waits for the page, since that loads packs.
+  Options.SelectTab = function(key)
+    if Options.panel then Options.panel.SelectTab(key) else Options.activeTab = key end
+  end
+  Options.CurrentTab = function() return Options.activeTab or "audio" end
+
+  for i, spec in ipairs(tabSpecs) do
+    local btn = CreateFrame("Button", nil, tabBar)
+    btn.key = spec.key
+    btn.bg = fillColor(btn:CreateTexture(nil, "BACKGROUND"), PALETTE.tabActive)
+    btn.bg:SetAllPoints()
+    btn.bg:Hide()
+    btn.bar = fillColor(btn:CreateTexture(nil, "OVERLAY"), T.color.gold)
+    btn.bar:SetPoint("BOTTOMLEFT"); btn.bar:SetPoint("BOTTOMRIGHT"); btn.bar:SetHeight(2)
+    btn.bar:Hide()
+    local hi = fillColor(btn:CreateTexture(nil, "HIGHLIGHT"), PALETTE.tabHover)
+    hi:SetAllPoints()
+    local lbl = btn:CreateFontString(nil, "ARTWORK", "GameFontNormal")
+    lbl:SetPoint("CENTER", 0, 0)
+    lbl:SetJustifyH("CENTER")
+    lbl:SetText(spec.label)
+    btn.label = lbl
+    btn:SetScript("OnClick", function() p.SelectTab(spec.key) end)
+    p.tabs[spec.key] = btn
+    p.tabList[i] = btn
+
+    local tf = p.tabFrames[spec.key]
+    tf.sf:SetScript("OnSizeChanged", function(_, w)
+      if tf.sf:IsShown() and type(w) == "number" and w > 0 then relayout(spec.key) end
+    end)
+  end
+  layoutTabs(600)
+
+  p:SetScript("OnSizeChanged", function(_, w)
+    layoutTabs(w)
+    relayout(Options.CurrentTab())
+  end)
+
+  -- Pre-make voice rows at login (never on an open window: LOR-481 gamepad taint).
   p.voice.MakeRows(#ns.Packs.List("voice") + 1)
+  p.updateWillo()
+
   p:SetScript("OnShow", function(self)
     for _, cb in ipairs(self.checks) do
       cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false)
-      cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english))
+      if cb.newTag then cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english)) end
     end
     self.Waiting()
     self.updateWillo()
     self.updateKeys()
     self.voice.ShowNew()
-    ns.WhatsNew.Seen("options")   -- shown this once; gone the next time Options opens
+    ns.WhatsNew.Seen("options")
     self.updateLanguage()
     self.updateSize()
     self.voice.Update()
-    -- Scroll height: from the top of the content to its last line, once the game has laid the text out.
-    local w = sf.GetWidth and sf:GetWidth()
-    if type(w) == "number" and w > 0 then c:SetWidth(w) end
-    subtitleBtn.Place()
-    local top, low = c.GetTop and c:GetTop(), bottom.GetBottom and bottom:GetBottom()
-    if type(top) == "number" and type(low) == "number" and top > low then c:SetHeight(top - low + 24) end
+    layoutTabs(tonumber(self.GetWidth and self:GetWidth()) or 600)
+    self.SelectTab(Options.activeTab or "audio")
   end)
-  -- Leaving the page (closing the settings window, or another add-on's page) stops a voice sample still playing.
-  p:SetScript("OnHide", function() ns.Voice.StopPreview() end)
+
+  p:SetScript("OnHide", function()
+    closeAllLists()
+    if ns.Voice and ns.Voice.StopPreview then ns.Voice.StopPreview() end
+  end)
 
   if _G.Settings and Settings.RegisterCanvasLayoutCategory then
     local cat = Settings.RegisterCanvasLayoutCategory(p, "Lore Forever")
@@ -1319,8 +2371,6 @@ end
 -- safe either way, as the game opens the window itself (SETTINGS_PANEL_OPEN).
 function Options.Toggle()
   local p, win = Options.panel, _G.SettingsPanel or _G.InterfaceOptionsFrame
-  -- The window itself must be showing: until it first displays our page, the page has no parent and counts as
-  -- visible on its own, which made the first right-click try to close a window that wasn't open.
   if p and win and win:IsShown() and p:IsVisible() and _G.HideUIPanel and not ns.Context.GamepadUI() then
     return HideUIPanel(win)
   end

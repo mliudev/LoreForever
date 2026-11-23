@@ -1,0 +1,61 @@
+{
+ "key": "quest:95793",
+ "type": "quest",
+ "name": "Stemming the Demon Tide",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95793
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are asked to stem the demon tide in Dae'gun by slaying Felguard Sentinels. The work may let regrowth begin anew.",
+ "sections": [
+  {
+   "title": "A New Beginning",
+   "body": "Dae'gun's Felguard Sentinels are the foes before you. Their number must be diminished before regrowth can begin anew.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I need to do in Dae'gun?",
+   "aliases": [
+    "dae'gun task",
+    "felguard sentinels"
+   ],
+   "answer": "You are asked to slay Felguard Sentinels in Dae'gun."
+  },
+  {
+   "q": "How many Felguard Sentinels?",
+   "aliases": [
+    "sentinel number",
+    "how many sentinels"
+   ],
+   "answer": "You are asked to slay twelve Felguard Sentinels."
+  },
+  {
+   "q": "What might happen after this?",
+   "aliases": [
+    "what comes next",
+    "regrowth"
+   ],
+   "answer": "The completion text suggests that regrowth may begin anew."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dae'gun",
+  "demons",
+  "felguard sentinels",
+  "regrowth",
+  "stemming the demon tide"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stemming the Demon Tide"
+ ]
+}

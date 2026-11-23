@@ -1,0 +1,70 @@
+{
+ "key": "quest:96025",
+ "type": "quest",
+ "name": "As the Crow Flies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96025
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Elaena asks you to meet a dear friend at the summit in Hyjal. The meeting awaits up the eastern road.",
+ "sections": [
+  {
+   "title": "A Meeting Above",
+   "body": "Elaena\u2019s friend waits at the summit in Hyjal, and you are asked to meet her there. The road east leads toward the meeting.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Summit",
+   "body": "At the summit, Elaena\u2019s friend greets you and says you have earned a reputation there. She is pleased to meet you at last.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I supposed to meet?",
+   "aliases": [
+    "who is waiting",
+    "elaena friend",
+    "meet her friend"
+   ],
+   "answer": "You are asked to meet a dear friend of Elaena at the summit in Hyjal."
+  },
+  {
+   "q": "Where is the summit?",
+   "aliases": [
+    "where do i go",
+    "summit location",
+    "hyjal summit"
+   ],
+   "answer": "The meeting is at the summit in Hyjal, up the road to the east."
+  },
+  {
+   "q": "What does Elaena ask me to do?",
+   "aliases": [
+    "what am i doing",
+    "as the crow flies quest",
+    "elaena request"
+   ],
+   "answer": "Elaena asks you to meet her friend at the summit in Hyjal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "as the crow flies",
+  "elaena",
+  "friend",
+  "hyjal",
+  "meeting",
+  "summit"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: As the Crow Flies"
+ ]
+}

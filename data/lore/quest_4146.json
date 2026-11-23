@@ -1,0 +1,74 @@
+{
+ "key": "quest:4146",
+ "type": "quest",
+ "name": "Zapper Fuel",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4146
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gets the zapper fuel",
+    "where is larion",
+    "larion location"
+   ],
+   "answer": "Larion awaits the delivery at Marshal's Refuge.",
+   "q": "Who needs the zapper fuel delivered?"
+  },
+  {
+   "aliases": [
+    "fuel ingredients",
+    "what fuel is needed",
+    "what goes in the zapper"
+   ],
+   "answer": "The device requires five samples of Atal'ai Haze alongside the Unloaded Zapper.",
+   "q": "What is needed for the zapper fuel?"
+  },
+  {
+   "aliases": [
+    "what is the unloaded zapper",
+    "zapper device"
+   ],
+   "answer": "The Unloaded Zapper is the unpowered mechanical device brought to Larion along with fuel.",
+   "q": "What is the Unloaded Zapper?"
+  },
+  {
+   "aliases": [
+    "where to find larion",
+    "marshals refuge larion"
+   ],
+   "answer": "Marshal's Refuge is the encampment where Larion takes delivery of the Unloaded Zapper and its fuel.",
+   "q": "Where is Marshal's Refuge?"
+  }
+ ],
+ "keywords": [
+  "atalai haze",
+  "larion",
+  "liv rizzlefix",
+  "marshals refuge",
+  "unloaded zapper",
+  "zapper fuel"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge"
+ ],
+ "sections": [
+  {
+   "body": "While Marvon is away, Liv Rizzlefix gives you one of her zapper prototypes, though its fuel must be gathered from the Temple of Atal'Hakkar. Once you collect five samples of Atal'ai Haze, you carry both the Unloaded Zapper and its charge to Larion at Marshal's Refuge.",
+   "spoiler": 0,
+   "title": "Supplying the Device"
+  }
+ ],
+ "summary": "Liv Rizzlefix asks you to carry her Unloaded Zapper to Larion at Marshal's Refuge. Five samples of Atal'ai Haze from the Temple of Atal'Hakkar are needed to charge it.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Zapper Fuel"
+ ]
+}

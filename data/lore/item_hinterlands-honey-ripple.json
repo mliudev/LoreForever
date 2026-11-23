@@ -10,11 +10,11 @@
    "quest:77"
   ]
  },
- "summary": "Crates of Hinterlands Honey Ripple sit at an abandoned Horde base near Skulk Rock. Dran Droffers wants the bottles for a packaging scheme.",
+ "summary": "Crates of Hinterlands Honey Ripple sit at an abandoned Horde base near Skulk Rock. Gilveradin Sunchaser wants the bottles to package for Dran Droffers.",
  "sections": [
   {
    "title": "Crates at Skulk Rock",
-   "body": "The crates at Skulk Rock hold Hinterlands Honey Ripple, an unusual drink sought by Dran Droffers. The abandoned Horde base lies among slime covered ruins, where the bottles must be gathered with care. Their intact packaging matters to the scheme Dran has in mind.",
+   "body": "The crates at Skulk Rock hold Hinterlands Honey Ripple, an unusual drink sought by Dran Droffers. The abandoned Horde base lies among slime covered ruins, where the bottles must be gathered with care. Gilveradin Sunchaser has the original packaging and will wrap the bottles for Dran.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "dran droffers ripple",
     "ripple for who"
    ],
-   "answer": "Dran Droffers seeks Hinterlands Honey Ripple for a packaging scheme involving Malton\u2019s father."
+   "answer": "Dran Droffers, Malton\u2019s father, seeks Hinterlands Honey Ripple. Gilveradin Sunchaser asks you to gather the bottles so he can package them for Dran."
   },
   {
    "q": "Why does Dran need the bottles intact?",
@@ -44,7 +44,7 @@
     "don't bruise ripple",
     "ripple packaging"
    ],
-   "answer": "Dran says the bottles must not be bruised because jostling spoils the drink\u2019s bouquet. He has empty packaging for the ripple."
+   "answer": "Gilveradin Sunchaser, who packages the ripple for Dran, says the bottles must not be bruised because jostling spoils the drink\u2019s bouquet. He has the empty packaging for the ripple."
   },
   {
    "q": "What is Hinterlands Honey Ripple?",

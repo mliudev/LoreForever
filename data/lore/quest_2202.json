@@ -1,0 +1,87 @@
+{
+ "key": "quest:2202",
+ "type": "quest",
+ "name": "Uldaman Reagent Run",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2202
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is jarkal mossmeld",
+    "who wants the fungus caps",
+    "jarkal in kargath"
+   ],
+   "answer": "Jarkal Mossmeld is an alchemist stationed in Kargath who wants to study newly discovered flora.",
+   "q": "Who is asking for the fungus caps?"
+  },
+  {
+   "aliases": [
+    "where do magenta fungus caps grow",
+    "magenta cap location",
+    "where to find fungus in uldaman"
+   ],
+   "answer": "They grow in clusters deep inside the ancient dig site of Uldaman.",
+   "q": "Where are the magenta fungus caps found?"
+  },
+  {
+   "aliases": [
+    "why does jarkal want magenta fungus",
+    "what are magenta caps used for",
+    "magenta fungus purpose"
+   ],
+   "answer": "He wants to examine their properties and investigate how they might serve in alchemy.",
+   "q": "Why does Jarkal want the fungus?"
+  },
+  {
+   "aliases": [
+    "is picking magenta caps dangerous",
+    "poison spores magenta caps",
+    "spore danger uldaman"
+   ],
+   "answer": "The clusters can release poisonous spores when disturbed or jostled.",
+   "q": "Is collecting the fungus dangerous?"
+  },
+  {
+   "aliases": [
+    "what is the reward for jarkal",
+    "greater menders potion",
+    "jarkal mossmeld potion"
+   ],
+   "answer": "He promises a batch of his greater mender's potion once you bring him a dozen caps.",
+   "q": "What does Jarkal offer in return?"
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "jarkal mossmeld",
+  "kargath",
+  "magenta fungus caps",
+  "poison spores",
+  "reagent run",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:kargath",
+  "subzone:uldaman"
+ ],
+ "sections": [
+  {
+   "body": "Gathering the specimens carries real danger, for disturbing the clusters can trigger a burst of venomous spores. Once gathered, Jarkal Mossmeld expects a dozen caps brought back to Kargath, where he plans to test their alchemical value and brew restorative draughts.",
+   "spoiler": 0,
+   "title": "Spores in the Deep"
+  }
+ ],
+ "summary": "In Kargath, Jarkal Mossmeld seeks freshly discovered magenta fungus caps that sprout deep within Uldaman. He hopes to unravel their alchemical uses, though harvesting them means braving hazardous spores.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Uldaman Reagent Run"
+ ]
+}

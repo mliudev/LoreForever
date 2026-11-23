@@ -1,0 +1,75 @@
+{
+ "key": "quest:92707",
+ "type": "quest",
+ "name": "The Giant in the Den",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92707
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a warrior of the Horde, carrying proof of slain monsters to Drum Fel in Hammerfall shows you share his watchful eye over the highlands."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is drum fel",
+    "drum fel hammerfall"
+   ],
+   "answer": "Drum Fel is an orc officer stationed at the Horde outpost of Hammerfall, watchful of all threats lurking across the surrounding lands.",
+   "q": "Who is Drum Fel?"
+  },
+  {
+   "aliases": [
+    "what are goliaths",
+    "witherbark trolls goliath"
+   ],
+   "answer": "They are hulking brutes fighting for the Witherbark troll tribe, so massive that a grown traveler can slip an entire arm through one of their wristguards.",
+   "q": "What is a Witherbark goliath?"
+  },
+  {
+   "aliases": [
+    "why hammerfall",
+    "take bracers to hammerfall"
+   ],
+   "answer": "Drum Fel must stay informed of every danger prowling the highlands, and the wristguards warn the outpost of the sheer size of the brutes out in the wilds.",
+   "q": "Why must the wristguards go to Hammerfall?"
+  }
+ ],
+ "keywords": [
+  "bracers",
+  "drum fel",
+  "goliath",
+  "hammerfall",
+  "witherbark",
+  "wristguards"
+ ],
+ "related": [
+  "npc:drum-fel",
+  "subzone:hammerfall"
+ ],
+ "sections": [
+  {
+   "body": "You carry the enormous wristguards of a fallen goliath, wrenched straight from the brute's remains. They are wide enough that your entire arm fits through without touching metal. Drum Fel watches over Hammerfall and cannot afford blind spots, so proof of such hulking enemies belongs before him.",
+   "spoiler": 0,
+   "title": "Trophy of the Wilds"
+  },
+  {
+   "body": "Drum Fel is neither shocked nor shaken by the immense wristguards. The outpost has clashed with Witherbark goliaths before and expects to trade blows with them again. Even so, he commends your instinct to bring word of the threat straight to Hammerfall's defenders.",
+   "spoiler": 1,
+   "title": "Words from Hammerfall"
+  }
+ ],
+ "summary": "You carry the colossal wristguards wrenched from the corpse of a fallen goliath. Drum Fel at Hammerfall must see the size of the brutes prowling the wilds to prepare his soldiers for the danger ahead.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Giant in the Den"
+ ]
+}

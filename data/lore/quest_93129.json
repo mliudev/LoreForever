@@ -1,0 +1,86 @@
+{
+ "key": "quest:93129",
+ "type": "quest",
+ "name": "Threat of Starvation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93129
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hagiak asks you to bring stolen supplies from Outcast Hideaway to the Magram Front. He intends to use them to weaken the exiles and advance the Magram clan\u2019s plans.",
+ "sections": [
+  {
+   "title": "The Magram's Aim",
+   "body": "Hagiak sends you toward Outcast Hideaway for supplies, while asking you to keep your standing with the Magram. He sees the exiles as foes and expects their defeat to bring the hideaway under Magram control. He also hopes to raise an army against the other clans.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Front",
+   "body": "At the Magram Front, Hagiak inspects the crates you bring back. Some contain food, and he believes that will shorten the exiles\u2019 time there. He sees the Magram\u2019s victory as nearer.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for supplies?",
+   "aliases": [
+    "who wants supplies",
+    "Hagiak supplies"
+   ],
+   "answer": "Hagiak asks you to bring supplies to him at the Magram Front."
+  },
+  {
+   "q": "Where do the supplies come from?",
+   "aliases": [
+    "where supplies from",
+    "outcast hideaway supplies"
+   ],
+   "answer": "Hagiak sends you to Outcast Hideaway to fetch supplies."
+  },
+  {
+   "q": "What supplies does Hagiak want?",
+   "aliases": [
+    "what to bring",
+    "stolen supplies"
+   ],
+   "answer": "Hagiak asks you to bring six stolen supplies back to the Magram Front."
+  },
+  {
+   "q": "Why does Hagiak want the supplies?",
+   "aliases": [
+    "why supplies",
+    "starve exiles"
+   ],
+   "answer": "Hagiak believes the supplies will shorten the exiles\u2019 time at the hideaway."
+  },
+  {
+   "q": "What does Hagiak want for the Magram?",
+   "aliases": [
+    "magram plans",
+    "other clans"
+   ],
+   "answer": "Hagiak wants the Magram to secure the hideaway and raise an army against the other clans."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "exiles",
+  "hagiak",
+  "magram",
+  "magram front",
+  "outcast hideaway",
+  "starvation",
+  "stolen supplies"
+ ],
+ "related": [
+  "quest:92551"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Threat of Starvation"
+ ]
+}

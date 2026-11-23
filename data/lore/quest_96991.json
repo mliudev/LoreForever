@@ -1,0 +1,77 @@
+{
+ "key": "quest:96991",
+ "type": "quest",
+ "name": "Trail Assist",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96991
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Galvinquam asks you to carry his excess gear to Marn Euhron at the Summit near Nordrassil. The climb is steep, and the help will let Galvinquam join Marn's work when he arrives.",
+ "sections": [
+  {
+   "title": "A Lighter Climb",
+   "body": "Marn Euhron is helping restore a foothold near Nordrassil, and Galvinquam means to join him. For now, Galvinquam's ceremonies keep him here. You carry his belongings ahead to the Summit, where Marn can keep them until Galvinquam arrives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to carry the gear?",
+   "aliases": [
+    "who wants the gear moved",
+    "galvinquam belongings",
+    "who is galvinquam"
+   ],
+   "answer": "Galvinquam asks you to take his excess gear to Marn Euhron at the Summit."
+  },
+  {
+   "q": "Where do I take Galvinquam's belongings?",
+   "aliases": [
+    "where is the summit",
+    "deliver belongings",
+    "marn location"
+   ],
+   "answer": "Take Galvinquam's belongings to Marn Euhron at the Summit."
+  },
+  {
+   "q": "Why is Galvinquam sending his gear ahead?",
+   "aliases": [
+    "why carry gear",
+    "why does he need help",
+    "what's the point"
+   ],
+   "answer": "The climb is steep, and Galvinquam says even an empty pack weighs on tired legs. He plans to join Marn's work after his ceremonies are complete."
+  },
+  {
+   "q": "What is Marn Euhron doing?",
+   "aliases": [
+    "marn euhron",
+    "what is marn doing",
+    "nordrassil foothold"
+   ],
+   "answer": "Marn Euhron is helping restore a foothold near Nordrassil."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "belongings",
+  "foothold",
+  "galvinquam",
+  "marn euhron",
+  "nordrassil",
+  "summit",
+  "trail assist"
+ ],
+ "related": [
+  "topic:nordrassil"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Trail Assist"
+ ]
+}

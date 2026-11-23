@@ -1,0 +1,85 @@
+{
+ "key": "quest:5214",
+ "type": "quest",
+ "name": "The Great Ezra Grimm",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5214
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Smokey LaRue asks you to search Ezra Grimm\u2019s smoke shop in Stratholme. He hopes a box of Grimm\u2019s Premium Tobacco survived the town\u2019s sack.",
+ "sections": [
+  {
+   "title": "Smokey\u2019s Request",
+   "body": "Smokey LaRue remembers Ezra Grimm refusing to abandon his goods when Stratholme was sacked. Ezra said he would burn every leaf rather than let the attackers take them. Smokey left the shop, and fears Ezra died in the flames. Now he asks you to search the smoke shop for a box of Grimm\u2019s Premium Tobacco.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to search the shop?",
+   "aliases": [
+    "who sent me",
+    "smokey's tobacco",
+    "who is smokey"
+   ],
+   "answer": "Smokey LaRue asks you to look for a box of Grimm\u2019s Premium Tobacco in Ezra Grimm\u2019s smoke shop."
+  },
+  {
+   "q": "Who was Ezra Grimm?",
+   "aliases": [
+    "who is ezra",
+    "ezra grimm backstory",
+    "ezra"
+   ],
+   "answer": "Ezra Grimm owned a smoke shop in Stratholme and prized the goods he kept there."
+  },
+  {
+   "q": "What happened to Ezra\u2019s shop?",
+   "aliases": [
+    "smoke shop stratholme",
+    "what happened to the shop",
+    "ezra's store"
+   ],
+   "answer": "Stratholme was sacked while Ezra was still unwilling to leave his goods behind."
+  },
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "find tobacco",
+    "grimm tobacco",
+    "smokey's box"
+   ],
+   "answer": "Smokey asks you to find a box of Grimm\u2019s Premium Tobacco in Ezra\u2019s smoke shop."
+  },
+  {
+   "q": "Why does Smokey want the tobacco?",
+   "aliases": [
+    "why tobacco",
+    "why does he want it",
+    "smokey wants tobacco"
+   ],
+   "answer": "Smokey loves a good stogie and hopes at least one box of Ezra\u2019s famous tobacco survived."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ezra grimm",
+  "grimm's premium tobacco",
+  "smoke shop",
+  "smokey larue",
+  "stratholme",
+  "tobacco"
+ ],
+ "related": [
+  "subzone:stratholme-classic"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Ezra Grimm"
+ ]
+}

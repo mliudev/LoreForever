@@ -26,7 +26,7 @@
     "where charts",
     "charts wild shore"
    ],
-   "answer": "The Bloodsail Charts are in the Bloodsail Buccaneer camp on the Wild Shore in the Cape of Stranglethorn."
+   "answer": "The Bloodsail Charts are in the Bloodsail Buccaneer camp on the Wild Shore in Stranglethorn Vale."
   },
   {
    "q": "Who wants the charts?",
@@ -62,7 +62,6 @@
   "bloodsail charts",
   "bloodsail orders",
   "booty bay",
-  "cape of stranglethorn",
   "fleet master seahorn",
   "wild shore"
  ],
@@ -71,8 +70,7 @@
   "item:bloodsail-orders-classic",
   "npc:fleet-master-seahorn",
   "subzone:wild-shore",
-  "subzone:booty-bay",
-  "subzone:cape-of-stranglethorn"
+  "subzone:booty-bay"
  ],
  "style": 2,
  "attribution": [

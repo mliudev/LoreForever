@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Goblin's Device",
-   "body": "At Scrabblescrew's Camp in Desolace, Smeed Scrabblescrew lends the Kodo Kombobulator to tame ancient or aged kodos. It jolts each beast into following him, giving the local caravan a source of fresh mounts. Smeed hopes the partnership will bring him a handsome profit.",
+   "body": "At Scrabblescrew's Camp in Desolace, Smeed Scrabblescrew lends the Kodo Kombobulator to tame ancient or aged kodos. It jolts each beast into a tamed kodo that follows its user, giving the local caravan a source of fresh mounts. Smeed hopes the partnership will bring him a handsome profit.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "kodo device",
     "what's the kombobulator for"
    ],
-   "answer": "The Kodo Kombobulator tames ancient or aged kodos and makes them follow Smeed Scrabblescrew."
+   "answer": "The Kodo Kombobulator tames ancient or aged kodos and makes them follow you back to Smeed Scrabblescrew."
   },
   {
    "q": "Who made the Kodo Kombobulator?",

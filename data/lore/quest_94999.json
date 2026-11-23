@@ -1,0 +1,78 @@
+{
+ "key": "quest:94999",
+ "type": "quest",
+ "name": "Eyes for the Watchman",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94999
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Eleanor asks you to carry a care package to Watcher Fredericks at Southern Watch. Her ranch duties keep her from delivering it herself.",
+ "sections": [
+  {
+   "title": "A Gift for Fredericks",
+   "body": "Watcher Fredericks patrols past Eleanor's ranch, and she has prepared a small gift for him. With her brother to watch and the ranch to tend, she asks you to carry it to Southern Watch, west of her home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the package for?",
+   "aliases": [
+    "who gets it",
+    "package for who"
+   ],
+   "answer": "Eleanor's care package is for Watcher Fredericks, who is stationed at Southern Watch."
+  },
+  {
+   "q": "Why can't Eleanor deliver it herself?",
+   "aliases": [
+    "why not Eleanor",
+    "why can't she go"
+   ],
+   "answer": "Eleanor needs to watch her little brother and tend to the ranch."
+  },
+  {
+   "q": "Where is Watcher Fredericks?",
+   "aliases": [
+    "where's Fredericks",
+    "Southern Watch location"
+   ],
+   "answer": "Watcher Fredericks is stationed at Southern Watch, west of Eleanor's ranch."
+  },
+  {
+   "q": "Why did Eleanor prepare a gift?",
+   "aliases": [
+    "why the package",
+    "what's it for"
+   ],
+   "answer": "Fredericks sometimes patrols past the ranch, and Eleanor wants to show her appreciation."
+  },
+  {
+   "q": "How does Fredericks react to the package?",
+   "aliases": [
+    "Fredericks reaction",
+    "did he like it"
+   ],
+   "answer": "Fredericks thanks you for delivering Eleanor's gift and says he will return the favor sometime."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "care package",
+  "eleanor",
+  "patrol",
+  "ranch",
+  "southern watch",
+  "watcher fredericks"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Eyes for the Watchman"
+ ]
+}

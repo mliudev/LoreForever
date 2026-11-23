@@ -1,0 +1,86 @@
+{
+ "key": "quest:3562",
+ "type": "quest",
+ "name": "Magatha's Payment to Jediga",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3562
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is magatha",
+    "magatha grimtotem",
+    "who gives this"
+   ],
+   "answer": "Elder Crone Magatha Grimtotem leads the Grimtotem tribe and holds an uneasy place on the high rises of Thunder Bluff.",
+   "q": "Who is Magatha?"
+  },
+  {
+   "aliases": [
+    "who is jediga",
+    "jediga azshara",
+    "where is jediga"
+   ],
+   "answer": "Jediga is a follower of Magatha currently operating along the cliffs of Azshara.",
+   "q": "Who is Jediga?"
+  },
+  {
+   "aliases": [
+    "what does note say",
+    "magathas note contents",
+    "note to jediga"
+   ],
+   "answer": "The note promises that payment waits in Thunder Bluff and conveys Magatha's approval of Jediga's work.",
+   "q": "What is written in Magatha's note?"
+  },
+  {
+   "aliases": [
+    "where do i bring note",
+    "deliver note to jediga",
+    "where is jediga located"
+   ],
+   "answer": "Jediga awaits delivery across the sea cliffs and ruins of Azshara.",
+   "q": "Where must the message be taken?"
+  },
+  {
+   "aliases": [
+    "why payment",
+    "what work did jediga do",
+    "magatha payment reason"
+   ],
+   "answer": "Magatha acknowledges that Jediga has carried out important work on her behalf, though she keeps the exact nature of their dealings quiet.",
+   "q": "Why is Magatha paying Jediga?"
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "grimtotem",
+  "jediga",
+  "magatha",
+  "note",
+  "payment",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "sections": [
+  {
+   "body": "Across the shattered coasts of Azshara, Jediga labors far from the high mesas of Mulgore. Magatha bids you cross the wilderness to hand over her written word and summon her agent home. The journey asks speed, bearing promise of reward once the work in the coastal ruins concludes.",
+   "spoiler": 0,
+   "title": "A Message Across the Wilds"
+  }
+ ],
+ "summary": "Elder Crone Magatha Grimtotem requires a trusted courier to carry word to Azshara. Her follower Jediga has earned praise and coin for service in the field, and Magatha expects her return once the note arrives.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Magatha's Payment to Jediga"
+ ]
+}

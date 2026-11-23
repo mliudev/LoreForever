@@ -1,0 +1,84 @@
+{
+ "key": "quest:95326",
+ "type": "quest",
+ "name": "The Big Payback",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95326
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is ruzzgot",
+    "ruzzgot boot bay",
+    "what does ruzzgot do"
+   ],
+   "answer": "Ruzzgot is a caravaneer working out of Booty Bay whose business depends on reliably delivering goods across the region.",
+   "q": "Who is Ruzzgot?"
+  },
+  {
+   "aliases": [
+    "who stole ruzzgots goods",
+    "venture co heist ruzzgot",
+    "who took the cargo"
+   ],
+   "answer": "A nearby Venture Co. agent stole Ruzzgot's valuables, as recorded in a recovered delivery ledger noting the heist.",
+   "q": "Who stole Ruzzgot's shipment?"
+  },
+  {
+   "aliases": [
+    "why does ruzzgot care about his shipment",
+    "why does the cargo matter",
+    "what happens if ruzzgot loses his delivery"
+   ],
+   "answer": "A caravaneer lives and dies by trust and reliability, and losing his cargo threatens his standing in Booty Bay.",
+   "q": "Why does recovering the shipment matter to Ruzzgot?"
+  },
+  {
+   "aliases": [
+    "where was ruzzgots shipment going",
+    "powderfuse port delivery",
+    "destination of the cargo"
+   ],
+   "answer": "Ruzzgot offers to help arrange shipping for the recovered valuables onward to Powderfuse Port.",
+   "q": "Where was the shipment destined to go?"
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "caravaneer",
+  "ledger",
+  "powderfuse port",
+  "ruzzgot",
+  "shipment",
+  "the big payback",
+  "venture co"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "quest:764"
+ ],
+ "sections": [
+  {
+   "body": "A recovered ledger details each run made by the caravaneer Ruzzgot, ending on a bitter record of theft. A nearby Venture Co. agent seized his shipment, and the stolen valuables remain in the operative's hands. Ruzzgot waits in Booty Bay for someone to settle the score and return what was taken before his livelihood is ruined.",
+   "spoiler": 0,
+   "title": "A Stolen Shipment"
+  },
+  {
+   "body": "Reclaiming the cargo restores Ruzzgot's faith in his standing as a trader. With his goods back in hand, he turns right back to business, offering to help arrange transit onward to Powderfuse Port.",
+   "spoiler": 1,
+   "title": "Back in Business"
+  }
+ ],
+ "summary": "A stolen ledger reveals that a Venture Co. agent took the caravaneer Ruzzgot's valuables. The goods remain in the thief's hands, and Ruzzgot needs his cargo returned to protect his trade in Booty Bay.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Big Payback"
+ ]
+}

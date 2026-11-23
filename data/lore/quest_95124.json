@@ -1,0 +1,84 @@
+{
+ "key": "quest:95124",
+ "type": "quest",
+ "name": "Admiral Lamora",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95124
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wharfmaster Whizzbuzz sends you after Admiral Lamora, who sails on an Eastsea boat northeast of his position. Lamora\u2019s loot could help Whizzbuzz recover some of what the plundering cost him.",
+ "sections": [
+  {
+   "title": "Whizzbuzz's Losses",
+   "body": "Wharfmaster Whizzbuzz wants Admiral Lamora dead and his loot returned. Lamora is aboard one of the Eastsea\u2019s boats northeast of Whizzbuzz. You are to find which boat he uses and where he keeps his plunder. If it is locked away, Whizzbuzz suspects Lamora carries the key.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending me after Admiral Lamora?",
+   "aliases": [
+    "who wants Lamora dead",
+    "Whizzbuzz's request",
+    "admiral Lamora quest"
+   ],
+   "answer": "Wharfmaster Whizzbuzz sends you after Admiral Lamora and asks you to bring back Lamora\u2019s loot."
+  },
+  {
+   "q": "Where is Admiral Lamora?",
+   "aliases": [
+    "where's Lamora",
+    "Lamora location",
+    "which Eastsea boat"
+   ],
+   "answer": "Lamora is aboard one of the Eastsea\u2019s boats northeast of Wharfmaster Whizzbuzz."
+  },
+  {
+   "q": "Why does Whizzbuzz want Lamora dead?",
+   "aliases": [
+    "why kill Lamora",
+    "Whizzbuzz revenge",
+    "Lamora and Whizzbuzz"
+   ],
+   "answer": "Whizzbuzz says Lamora\u2019s plundering has cost him a fortune, and he wants to recover some of his losses."
+  },
+  {
+   "q": "What does Whizzbuzz want from Lamora?",
+   "aliases": [
+    "what to get from Lamora",
+    "Lamora's loot",
+    "what's the stash"
+   ],
+   "answer": "Whizzbuzz wants Lamora dead and his loot brought back. He suspects Lamora carries the key if the stash is locked."
+  },
+  {
+   "q": "What happens after I return?",
+   "aliases": [
+    "what does Whizzbuzz say",
+    "return to Whizzbuzz",
+    "Whizzbuzz thanks"
+   ],
+   "answer": "Whizzbuzz says he was unsure you would survive meeting Lamora, then offers to do you a favor and says he may call on you again."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "admiral lamora",
+  "eastsea",
+  "key",
+  "loot",
+  "plundering",
+  "stash",
+  "wharfmaster whizzbuzz"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Admiral Lamora"
+ ]
+}
