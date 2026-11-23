@@ -34,12 +34,33 @@ end
 
 -- What goes to the companion: the question, the place, the character and their quests (the keys
 -- companion/lore_companion/core.py and answer.py read).
+-- Trim and cap live quest objectives so clipboard payloads stay small and single-line.
+local function compactObjectives(list)
+  if type(list) ~= "table" then return nil end
+  local out = {}
+  for _, text in ipairs(list) do
+    if #out >= 6 then break end
+    if type(text) == "string" then
+      local clean = text:gsub("%s+", " "):gsub("^%s+", ""):gsub("%s+$", "")
+      if clean ~= "" then
+        if #clean > 120 then clean = clean:sub(1, 120) end
+        out[#out + 1] = clean
+      end
+    end
+  end
+  return #out > 0 and out or nil
+end
+
 function Companion.Payload(question, ctx)
   ctx = ctx or ns.Context.Snapshot()
   local quests = {}
   for i, q in ipairs(ctx.quests or {}) do
     if i > 8 then break end
-    quests[#quests + 1] = { id = q.id, title = q.title }
+    local entry = { id = q.id, title = q.title }
+    if type(q.complete) == "boolean" then entry.complete = q.complete end
+    local objs = compactObjectives(q.objectives)
+    if objs then entry.objectives = objs end
+    quests[#quests + 1] = entry
   end
   return PREFIX .. json({
     q = question, zone = ctx.zone, sub = ctx.subzone, target = ctx.targetName, race = ctx.raceName,

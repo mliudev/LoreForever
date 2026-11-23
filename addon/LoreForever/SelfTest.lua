@@ -660,6 +660,8 @@ check("Options", {
       fail("Options opens", "the page wasn't made (Options.Create)")
       return false
     end
+    c.prevTab = ns.Options.CurrentTab and ns.Options.CurrentTab() or "audio"
+    c.prevExpanded = p.voice and p.voice.expanded
     local win = _G.SettingsPanel or _G.InterfaceOptionsFrame
     c.optionsOpen = win and win:IsShown() or false
     ns.Options.Open()
@@ -669,6 +671,17 @@ check("Options", {
     local why = problem(p, rect(UIParent))
     expect("Options opens", not why, why or "shown in the settings window")
     if why then return false end
+    if p.SelectTab then
+      local missingTabs = {}
+      for _, tabKey in ipairs(ns.Options.TABS or { "audio", "screen", "keys", "willo", "general" }) do
+        p.SelectTab(tabKey)
+        local tf = p.tabFrames and p.tabFrames[tabKey]
+        if not (tf and tf.sf and tf.sf:IsShown()) then missingTabs[#missingTabs + 1] = tabKey end
+      end
+      expect("Options: 5 tabs switch cleanly", #missingTabs == 0,
+        #missingTabs == 0 and "Audio, On Screen, Keys, Willo, General" or ("not shown: " .. table.concat(missingTabs, ", ")))
+      p.SelectTab("audio")
+    end
     local wrong, unknown = {}, {}
     for _, cb in ipairs(p.checks or {}) do
       if ns.Options.DEFAULTS[cb.key] == nil then unknown[#unknown + 1] = cb.key end
@@ -685,6 +698,7 @@ check("Options", {
         or ns.L["Live game info: on, sky hidden until you talk to %s"]:format(ns.COMPANION_NAME)), p.liveLine:GetText())
     end
     local v = p.voice
+    if v and v.SetExpanded and not v.expanded then v.SetExpanded(true) end
     local row = v and v.rows and v.rows[1]
     widgets("Options: narration voices", { { "first voice", row }, { "its name", row and row.name, true },
       { "Play voices on", v and v.channel, true }, { "Narration and game voices", v and v.volume } }, nil,
@@ -704,6 +718,9 @@ check("Options", {
         or ("the game doesn't say its " .. key .. " volume"))
   end,
 }, function(c)
+  local p = ns.Options.panel
+  if p and p.voice and p.voice.SetExpanded then p.voice.SetExpanded(c.prevExpanded and true or false) end
+  if p and p.SelectTab and c.prevTab then p.SelectTab(c.prevTab) end
   local win = _G.SettingsPanel or _G.InterfaceOptionsFrame
   if win and win:IsShown() and not c.optionsOpen then
     if _G.HideUIPanel then HideUIPanel(win) else win:Hide() end

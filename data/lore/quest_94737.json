@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A goblin asks you to bring a treat to Jezap Jinglesprocket in Bolder'ok. Snufflesnout's happiness matters most to him.",
+ "summary": "Gobam asks you to bring a treat to Jezap Jinglesprocket in Bolder'ok. Jezap says keeping Snufflesnout happy, by which he means Chub'chob, matters most.",
  "sections": [
   {
-   "title": "A Goblin's Request",
-   "body": "A goblin in Bolder'ok sends you with a bundle of goods for Jezap Jinglesprocket. He says Snufflesnout will be pleased to receive it. He also asks you to tell Jezap to talk less.",
+   "title": "Gobam's Request",
+   "body": "The bundle of goods Gobam hands you is a treat for Snufflesnout, Chub'chob's pet boar, and he says she will snort with happiness when she sees it. He also asks you to tell the goblin Jezap to talk less.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who gets the treat",
     "snufflesnout treat"
    ],
-   "answer": "The goblin says the treat is for Snufflesnout."
+   "answer": "Gobam says the treat is for Snufflesnout, Chub'chob's pet boar."
   },
   {
    "q": "Who should I deliver the goods to?",
@@ -42,7 +42,7 @@
     "what tell jezap",
     "goblin message"
    ],
-   "answer": "The goblin asks you to tell Jezap to stop talking so much."
+   "answer": "Gobam asks you to tell Jezap to stop talking so much."
   },
   {
    "q": "Who is Snufflesnout?",
@@ -50,7 +50,7 @@
     "snufflesnout who",
     "snufflesnout"
    ],
-   "answer": "The goblin calls Snufflesnout the one whose happiness matters most, then identifies Snufflesnout as Chub'chob."
+   "answer": "Snufflesnout is Chub'chob's pet boar, which Jezap promised to look after. Jezap jokes that keeping Snufflesnout happy really means keeping Chub'chob happy."
   }
  ],
  "angles": [],
@@ -59,7 +59,7 @@
   "bolder'ok",
   "bundle of goods",
   "chub'chob",
-  "je zap jinglesprocket",
+  "jezap jinglesprocket",
   "snufflesnout"
  ],
  "related": [

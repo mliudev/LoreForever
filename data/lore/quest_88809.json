@@ -1,0 +1,101 @@
+{
+ "key": "quest:88809",
+ "type": "quest",
+ "name": "Preserving Eldarath",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88809
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Truesong asks you to recover relics from Eldarath and drive out the Spitelash. The ruins hold Kaldorei history that she believes is worth preserving.",
+ "sections": [
+  {
+   "title": "A Ruin Worth Saving",
+   "body": "The Kaldorei once made Eldarath a place of glory and might. Commander Truesong asks you to help preserve what remains of that history. The Spitelash are ransacking the ruins, and she wants them driven out before more is lost.",
+   "spoiler": 0
+  },
+  {
+   "title": "Truesong's Resolve",
+   "body": "Truesong believes Eldarath's history is worth fighting for, though some Kaldorei would leave the ruins to the naga. You bring back relics and the head of Lord Sarthiss, but Truesong says the work there continues. The fight to preserve Eldarath remains unfinished.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Eldarath matter?",
+   "aliases": [
+    "why save Eldarath",
+    "Eldarath history",
+    "what is Eldarath worth"
+   ],
+   "answer": "Eldarath was once a place of Kaldorei glory and might. Commander Truesong believes its remaining relics are worth saving."
+  },
+  {
+   "q": "Who is ransacking the ruins?",
+   "aliases": [
+    "who is in Eldarath",
+    "Spitelash in ruins",
+    "naga ransacking Eldarath"
+   ],
+   "answer": "The Spitelash are ransacking Eldarath, and Commander Truesong wants them driven out."
+  },
+  {
+   "q": "Who is Commander Truesong?",
+   "aliases": [
+    "Truesong who",
+    "who asks about Eldarath",
+    "commander in Azshara"
+   ],
+   "answer": "Commander Truesong asks you to recover relics from Eldarath and believes the Kaldorei history there is worth fighting for."
+  },
+  {
+   "q": "What does Truesong ask you to recover?",
+   "aliases": [
+    "Eldarath relics",
+    "what to collect",
+    "Sarthiss head"
+   ],
+   "answer": "Truesong asks you to bring back Eldarath relics and Lord Sarthiss' head."
+  },
+  {
+   "q": "Where are the Eldarath ruins?",
+   "aliases": [
+    "Eldarath location",
+    "where is Eldarath",
+    "road to Eldarath"
+   ],
+   "answer": "Eldarath is in Azshara. The road north east leads into the heart of the ruins."
+  },
+  {
+   "q": "Is the work in Eldarath finished?",
+   "aliases": [
+    "Eldarath done",
+    "what happens after",
+    "is Truesong finished"
+   ],
+   "answer": "No. Truesong says the work in Eldarath is far from over and that the effort must continue."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "commander truesong",
+  "eldarath",
+  "kaldorei relics",
+  "lord sarthiss",
+  "naga",
+  "spitelash"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Preserving Eldarath"
+ ]
+}

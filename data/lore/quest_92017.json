@@ -1,0 +1,72 @@
+{
+ "key": "quest:92017",
+ "type": "quest",
+ "name": "Cleansing Winds",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92017
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Marn asks you to gather feathers and chimaera hair from the Summit. He needs these remnants to strengthen incense for a cleansing ritual.",
+ "sections": [
+  {
+   "title": "Remnants in the Wind",
+   "body": "At the Summit, Marn seeks feathers from Grand Hippogryphs and hair from chimaeras. The highest currents still carry creatures whose breath has escaped the corruption. Their drifting remnants hold traces of an unspoiled land, and Marn needs them to strengthen his purifying incense before the ritual.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Marn need?",
+   "aliases": [
+    "what items for Marn",
+    "Marn's materials"
+   ],
+   "answer": "Marn needs Grand Hippogryph Feathers and Oily Chimaera Hair to strengthen his purifying incense."
+  },
+  {
+   "q": "Why does Marn want feathers and chimaera hair?",
+   "aliases": [
+    "why feathers",
+    "why chimaera hair"
+   ],
+   "answer": "The feathers and hair absorb what the air remembers of an unspoiled land, and Marn uses them to anchor and strengthen his incense."
+  },
+  {
+   "q": "Where do the creatures draw breath?",
+   "aliases": [
+    "where are the highest currents",
+    "Summit creatures"
+   ],
+   "answer": "The flying creatures of the Summit draw breath from the highest currents, where corruption has not fully taken hold."
+  },
+  {
+   "q": "What is the incense for?",
+   "aliases": [
+    "Marn incense",
+    "what is the cleansing smoke for"
+   ],
+   "answer": "Marn plans to concentrate the wind's knowledge into cleansing smoke before the ritual."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cleansing smoke",
+  "cleansing winds",
+  "grand hippogryph feathers",
+  "marn",
+  "oily chimaera hair",
+  "purifying incense",
+  "ritual",
+  "summit"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Cleansing Winds"
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "key": "quest:93584",
+ "type": "quest",
+ "name": "Cult Closure",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93584
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A druid asks you to thin the Wild King's followers near the Well of Eternity. Their zeal is hindering efforts to tend Nordrassil and guard the Well.",
+ "sections": [
+  {
+   "title": "A Divided Oath",
+   "body": "A druid near the Well of Eternity sends you against Blackthorne Adepts and Wild-branded Cultists. They once shared oaths with the druids who tend Nordrassil, but now their zeal obstructs that work and threatens the Well. The land's defenders fear they may also strike when a greater incursion begins.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hard Duty",
+   "body": "The fighting leaves the druid troubled. Druids have been forced to fight their own kind, and the hope is that the conflict can be settled soon.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are the Wild King's followers?",
+   "aliases": [
+    "wild king cultists",
+    "who are wild king's followers"
+   ],
+   "answer": "They are followers of the Wild King who hinder efforts to tend Nordrassil and protect the Well of Eternity."
+  },
+  {
+   "q": "Why are the druids fighting each other?",
+   "aliases": [
+    "druids fighting druids",
+    "why fight own kind"
+   ],
+   "answer": "The Wild King's followers were once bound by the same oaths as the druids tending Nordrassil, but their zeal now hinders that work and threatens the Well."
+  },
+  {
+   "q": "What is happening near the Well of Eternity?",
+   "aliases": [
+    "well of eternity cult",
+    "what's going on at the well"
+   ],
+   "answer": "Followers of the Wild King are hindering efforts to tend Nordrassil and protect the Well."
+  },
+  {
+   "q": "Who are the Blackthorne Adepts?",
+   "aliases": [
+    "blackthorne adepts",
+    "blackthorn cultists"
+   ],
+   "answer": "They are among the Wild King's followers near the Well of Eternity."
+  },
+  {
+   "q": "Who are the Wild-branded Cultists?",
+   "aliases": [
+    "wild branded",
+    "wild cultists"
+   ],
+   "answer": "They are among the Wild King's followers near the Well of Eternity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you face followers who were once bound by the same oaths as those tending Nordrassil."
+  }
+ ],
+ "keywords": [
+  "blackthorne adepts",
+  "cult closure",
+  "druids",
+  "nordrassil",
+  "well of eternity",
+  "wild king",
+  "wild-branded cultists"
+ ],
+ "related": [
+  "topic:druid",
+  "topic:nordrassil",
+  "topic:elune"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Cult Closure"
+ ]
+}

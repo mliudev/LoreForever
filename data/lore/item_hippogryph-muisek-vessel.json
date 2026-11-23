@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Preserved Spirit",
-   "body": "After you have shown you can use the vessel, Zor Lonetree asks you to capture hippogryph muisek. The Frayfeather hippogryphs live in the High Wilderness, south of him. Their spirits have long been loyal companions to the night elves. Zor fears that a spirit left free after an animal's death may become a greater creature and seek vengeance.",
+   "body": "After you have shown you can use the vessel, Witch Doctor Uzer'i asks you to capture hippogryph muisek. The Frayfeather hippogryphs live in the High Wilderness, south of him. Their spirits have long been loyal companions to the night elves. Uzer'i warns that a spirit left free after an animal's death may become a greater creature and seek vengeance.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where to use muisek vessel",
     "high wilderness vessel"
    ],
-   "answer": "The Frayfeather hippogryphs are in the High Wilderness, south of Zor Lonetree."
+   "answer": "The Frayfeather hippogryphs are in the High Wilderness, south of Witch Doctor Uzer'i."
   },
   {
    "q": "Why capture hippogryph muisek?",
@@ -41,7 +41,7 @@
     "why capture them",
     "hippogryph spirits"
    ],
-   "answer": "The vessel preserves the hippogryphs' muisek. Zor Lonetree fears a spirit left free after death may become a greater creature and seek vengeance."
+   "answer": "The vessel preserves the hippogryphs' muisek. Witch Doctor Uzer'i warns a spirit left free after death may become a greater creature and seek vengeance."
   },
   {
    "q": "Are hippogryphs important to night elves?",
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Hippogryphs have long been loyal companions to the night elves, and preserving their spirits matters to Zor Lonetree."
+   "text": "Hippogryphs have long been loyal companions to the night elves, and preserving their spirits matters to Witch Doctor Uzer'i."
   }
  ],
  "keywords": [
@@ -65,7 +65,7 @@
   "hippogryph muisek",
   "hippogryph muisek vessel",
   "muisek",
-  "zor lonetree"
+  "witch doctor uzer'i"
  ],
  "related": [
   "quest:3124",

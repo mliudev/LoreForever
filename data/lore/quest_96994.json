@@ -1,0 +1,85 @@
+{
+ "key": "quest:96994",
+ "type": "quest",
+ "name": "Your First Riding Wolf",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96994
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ogunaro asks you to choose a riding wolf and find the one that answers your bond. To the orcs, a wolf is a lifelong companion and friend.",
+ "sections": [
+  {
+   "title": "A Wolf to Choose",
+   "body": "Ogunaro welcomes you and asks you to find the riding wolf that speaks to you. Orcs see the bond between an orc and a wolf as friendship, not vanity. Each chooses the other, and the bond lasts a lifetime.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Companion",
+   "body": "After you choose, Ogunaro is glad the wolf has found its rider. He wishes you both well and reminds you to care for your companion, who will care for you in return.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Ogunaro want me to do?",
+   "aliases": [
+    "ogunaro wolf",
+    "choose riding wolf",
+    "first wolf"
+   ],
+   "answer": "Ogunaro asks you to find the riding wolf that speaks to you and return once you have chosen."
+  },
+  {
+   "q": "Why do orcs bond with wolves?",
+   "aliases": [
+    "orc wolf bond",
+    "why wolves",
+    "wolf friendship"
+   ],
+   "answer": "Orcs regard a wolf as a lifelong companion and friend, not merely a mount."
+  },
+  {
+   "q": "How do I choose a wolf?",
+   "aliases": [
+    "pick my wolf",
+    "which wolf",
+    "choose mount"
+   ],
+   "answer": "Find the riding wolf that speaks to you; Ogunaro says the bond is a choice made by both rider and wolf."
+  },
+  {
+   "q": "What does Ogunaro say after I choose?",
+   "aliases": [
+    "after choosing wolf",
+    "ogunaro response",
+    "wolf companion"
+   ],
+   "answer": "Ogunaro is glad the wolf has found its rider and wishes you both well."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "As an orc, your bond with a wolf is a lifelong friendship, and each of you chooses the other."
+  }
+ ],
+ "keywords": [
+  "companion",
+  "friendship",
+  "mount",
+  "ogunaro",
+  "orc",
+  "riding wolf",
+  "wolf bond"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Your First Riding Wolf"
+ ]
+}

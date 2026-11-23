@@ -1,0 +1,61 @@
+{
+ "key": "quest:94297",
+ "type": "quest",
+ "name": "Craftsman's Writ: Quickdraw Quiver",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94297
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "quickdraw quiver writ",
+    "craftsmans writ quickdraw quiver"
+   ],
+   "answer": "The writ is an order penned in faded ink requesting one Quickdraw Quiver for a customer. Whoever holds the document can fulfill the order and deliver the goods for payment.",
+   "q": "What is this craftsman's writ?"
+  },
+  {
+   "aliases": [
+    "who placed order",
+    "writ customer"
+   ],
+   "answer": "The note does not identify the patron by name, only detailing the delivery location, the payment, and that the order is transferable to whoever carries the parchment.",
+   "q": "Who requested the quiver?"
+  },
+  {
+   "aliases": [
+    "can another player complete writ",
+    "trading craftsman writ"
+   ],
+   "answer": "The text at the bottom marks the writ as transferable. As long as you carry the document with you to the delivery site, the transaction can be completed.",
+   "q": "Can anyone fulfill this order?"
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "craftsmans writ",
+  "quickdraw quiver",
+  "quiver",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer needs a Quickdraw Quiver made and brought to a designated delivery spot. The order is open to anyone willing to supply the leatherwork, so long as the original paper remains in hand when collecting payment.",
+   "spoiler": 0,
+   "title": "A Transferable Order"
+  }
+ ],
+ "summary": "A craftsman's writ calls for a single Quickdraw Quiver to be delivered to a marked customer. Written in faded ink, the parchment guarantees payment to whoever brings the goods with the order in hand.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Quickdraw Quiver"
+ ]
+}

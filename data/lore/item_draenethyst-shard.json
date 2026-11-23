@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Red Crystal",
-   "body": "Uthek the Wise speaks of draenethyst as new to the earth, carried from a distant land where demons rule. He asks you to bring him a shard from the Swamp of Sorrows, held by Ongeku, whom the Gelkis call the lost one. Uthek believes its magic can aid his people against their enemies.",
+   "body": "Uthek the Wise speaks of draenethyst as new to the earth, carried from a distant land where demons rule. She asks you to bring her a shard from the Swamp of Sorrows, held by Ongeku, whom the Gelkis call the lost one. Uthek believes its magic can aid her people against their enemies.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "uthek shard",
     "gelkis crystal"
    ],
-   "answer": "Uthek the Wise of the Gelkis in Desolace wants the shard, believing its magic can strengthen his people."
+   "answer": "Uthek the Wise of the Gelkis in Desolace wants the shard, believing its magic can strengthen her people."
   },
   {
    "q": "Where do I find a Draenethyst Shard?",
@@ -62,7 +62,7 @@
     "what does shard do",
     "gelkis magic"
    ],
-   "answer": "Uthek believes the shard's magic will strengthen him and help the Gelkis fight their enemies."
+   "answer": "Uthek believes the shard's magic will strengthen her and help the Gelkis fight their enemies."
   }
  ],
  "angles": [

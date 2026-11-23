@@ -1,0 +1,79 @@
+{
+ "key": "quest:94228",
+ "type": "quest",
+ "name": "Craftsman's Writ: Green Iron Boots",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94228
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Forging a pair of sturdy green iron boots satisfies the customer and fulfills the order on the parchment."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is needed",
+    "boots order",
+    "what item"
+   ],
+   "answer": "The writ calls for one pair of green iron boots to satisfy the customer's request.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "where do boots go",
+    "delivery spot",
+    "delivery place"
+   ],
+   "answer": "The parchment directs you to deliver the completed footwear to the destination marked on your map.",
+   "q": "Where must the boots be delivered?"
+  },
+  {
+   "aliases": [
+    "can i give writ away",
+    "is writ transferable",
+    "trade writ"
+   ],
+   "answer": "A line at the bottom of the parchment notes that the document is transferable to another hand.",
+   "q": "Can someone else fulfill this writ?"
+  },
+  {
+   "aliases": [
+    "need writ to finish",
+    "bring writ",
+    "carry writ"
+   ],
+   "answer": "You must hold the writ itself in hand to conclude the transaction and receive payment.",
+   "q": "Why keep the writ on hand?"
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "craftsman's writ",
+  "customer order",
+  "delivery",
+  "green iron boots",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer needs sturdy footwear and has committed the request to parchment in faded ink. You must take the finished boots to the appointed destination to settle the account. Keep the trade slip in hand, as payment depends on presenting the document upon arrival.",
+   "spoiler": 0,
+   "title": "An Order on Parchment"
+  }
+ ],
+ "summary": "A transferable craftsman's writ calls for a pair of green iron boots. Delivery details and payment await whoever brings the footwear to the appointed place.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Green Iron Boots"
+ ]
+}

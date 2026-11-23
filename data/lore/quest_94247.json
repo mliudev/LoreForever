@@ -1,0 +1,76 @@
+{
+ "key": "quest:94247",
+ "type": "quest",
+ "name": "Craftsman's Writ: Lesser Wizard's Robe",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94247
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, your needlework supplies the Lesser Wizard's Robe demanded by this transferable contract."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who wrote the writ",
+    "who ordered the robe",
+    "customer for the robe"
+   ],
+   "answer": "The contract does not name the buyer, giving only delivery directions to a mountainside overlooking Dalaran.",
+   "q": "Who placed the order for the Lesser Wizard's Robe?"
+  },
+  {
+   "aliases": [
+    "where is delivery",
+    "where do i take the writ",
+    "where is alan"
+   ],
+   "answer": "The writ directs delivery to a mountainside overlooking Dalaran, where a contact in dark leathers awaits.",
+   "q": "Where does the writ direct you to go?"
+  },
+  {
+   "aliases": [
+    "can i trade the writ",
+    "transferable contract"
+   ],
+   "answer": "Yes. Faded script across the bottom marks the writ as fully transferable, allowing anyone holding it to deliver the robe and collect payment.",
+   "q": "Can the craftsman's writ be traded to another crafter?"
+  }
+ ],
+ "keywords": [
+  "alan",
+  "craftsman's writ",
+  "dalaran",
+  "kirin tor",
+  "lesser wizard's robe",
+  "tailoring"
+ ],
+ "related": [
+  "subzone:dalaran"
+ ],
+ "sections": [
+  {
+   "body": "A faded slip of parchment calls for a single Lesser Wizard's Robe, promising coin upon delivery. The contract can change hands freely, leaving whoever carries the document and the finished garment to settle the business. Directions on the parchment point up into the mountains overlooking Dalaran.",
+   "spoiler": 0,
+   "title": "A Mountain Delivery"
+  },
+  {
+   "body": "High on the mountainside stands Alan, clad in dark leathers and watching the city below. Though his clandestine appearance seems out of place for receiving delicate magical garments, he insists he acts on behalf of the Kirin Tor. He takes the tailored robe in a quiet whisper before handing over the promised payment.",
+   "spoiler": 1,
+   "title": "Meeting on the Heights"
+  }
+ ],
+ "summary": "A craftsman's writ calls for a single Lesser Wizard's Robe to be delivered to a contact overlooking Dalaran. The faded document is transferable, allowing any traveler holding both the parchment and the garment to collect the promised payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Lesser Wizard's Robe"
+ ]
+}

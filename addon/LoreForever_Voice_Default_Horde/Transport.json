@@ -1719,9 +1719,9 @@
     "subzone:bandarion-keep": {
       "1": [
         {
-          "duration": 55.74530612244898,
-          "file": "Audio/Transport/full_subzone_bandarion-keep-6b2a20d894fd282dac47/1-0000.mp3",
-          "sha256": "53e321019d9fd86ed92b0245799b90ca9e9ef848a1350784a00a8408fb50d142",
+          "duration": 52.42775510204082,
+          "file": "Audio/Transport/full_subzone_bandarion-keep-620c2025574b6026c602/1-0000.mp3",
+          "sha256": "2e58c0a7cb3cff03a6fd9366d11a9097ad69b8a84ed1a537703a2dd484dd9a61",
           "start": 0
         }
       ],
@@ -1733,12 +1733,12 @@
         ]
       },
       "fullHash": "0a01e3",
-      "generation": "93cb79c6de885a0dc42e",
+      "generation": "313378a0cb91baebf80a",
       "hash": "99d14c",
       "source": {
-        "duration": 55.771429,
+        "duration": 52.453878,
         "file": null,
-        "sha256": "6b2a20d894fd282dac4708fe554abe508f6222a620e30ad6ea0bf6e2142f8ebf"
+        "sha256": "620c2025574b6026c60282e987bf16d6be3cb20cf86a3f17fc87c99cc35c8e72"
       },
       "text": "Bandarion Keep. At Bandarion Keep, defenders watch the coast and the woodland for danger. Near the Whispering Forest, the outpost bears Garek Bandarion’s name and is bound to Tyr's Watch. Bandarion Keep guards western Tirisfal Glades near the Whispering Forest. Named for Garek Bandarion, the stronghold is closely bound to Tyr's Watch. Quartermaster Jorin Croge works to keep the garrison supplied. Yet the keep lies far from the courtyards of the Undercity. Threats press Bandarion Keep from several directions. Vile Fin murlocs raid the nearby waters, while the Scarlet Crusade tests the defenders in skirmishes. Mindless Scourge thralls wander through the gloom. Some paladins have struggled to accept their unlife as Forsaken and have fallen to madness. They turn their weapons against their own kindred."
     },
@@ -4995,9 +4995,9 @@
     "subzone:whispering-forest": {
       "1": [
         {
-          "duration": 47.02040816326531,
-          "file": "Audio/Transport/full_subzone_whispering-forest-f60c785093784c3d56ef/1-0000.mp3",
-          "sha256": "3774395fdedb02aeb17f954a9898e40e08c0af0f620f4c20dd8d05d3bd907835",
+          "duration": 41.822040816326535,
+          "file": "Audio/Transport/full_subzone_whispering-forest-f58a4c35ab84df097d99/1-0000.mp3",
+          "sha256": "06e57479cfb469d045a7064ee28ab019b51c67b3655cc5a24d816fb5f43770ed",
           "start": 0
         }
       ],
@@ -5009,12 +5009,12 @@
         ]
       },
       "fullHash": "20ef26",
-      "generation": "9bc54468991eec786138",
+      "generation": "13298fa9349efce42089",
       "hash": "20ef26",
       "source": {
-        "duration": 47.046531,
+        "duration": 41.848163,
         "file": null,
-        "sha256": "f60c785093784c3d56ef4a29df1c9b98ad04c84a82ed37997041df4517f3ce44"
+        "sha256": "f58a4c35ab84df097d993bd350785964daf5800adee62395ddeedbf4e014bcfb"
       },
       "text": "Whispering Forest. Behind Deathknell, the Whispering Forest lies quiet beneath western Tirisfal’s cliffs. Its lake, giant mushroom ring, and uncanny wildlife break the stillness, while corruption stirs beneath the soil. Beyond Northface Rock and Bandarion Keep, the Whispering Forest feels far from plague-touched Tirisfal. Afflicted deer and roaming predators share its woods with a tranquil lake. Nearby, giant mushrooms form a ring beneath a hovering cloud of mist, glowing with uncanny energy. The ghostly Knight of Mourning wanders among them, bound by oath. Natural magic lingers here in land scarred by the Scourge."
     },
@@ -5183,6 +5183,14 @@
       746,
       993,
       1170
+    ],
+    "06e57479cfb469d045a7064ee28ab019b51c67b3655cc5a24d816fb5f43770ed": [
+      232,
+      555,
+      832,
+      1005,
+      1274,
+      1440
     ],
     "07531f3cfd03a999379aa5a48d04d19ee32f458e7120c56e3880d712bd0c670b": [
       206,
@@ -5599,6 +5607,16 @@
       1888,
       2032
     ],
+    "2e58c0a7cb3cff03a6fd9366d11a9097ad69b8a84ed1a537703a2dd484dd9a61": [
+      190,
+      452,
+      593,
+      870,
+      1034,
+      1185,
+      1334,
+      1574
+    ],
     "2ec064c89bea4f0b9ebd6497a16364696567d785f940c780fe0b8135a722bed4": [
       183,
       476,
@@ -5683,15 +5701,6 @@
       1253,
       1523,
       1677
-    ],
-    "3774395fdedb02aeb17f954a9898e40e08c0af0f620f4c20dd8d05d3bd907835": [
-      267,
-      627,
-      772,
-      952,
-      1153,
-      1356,
-      1559
     ],
     "3831b6defc27c40068db8f8501424124005b9294cf93a82404050191df5f4664": [
       249,
@@ -5923,16 +5932,6 @@
     "524f1a1f4ad2c4b889c17d2e210f876ba169154c7a953283efa996ed35817dc6": [
       884,
       1496
-    ],
-    "53e321019d9fd86ed92b0245799b90ca9e9ef848a1350784a00a8408fb50d142": [
-      205,
-      491,
-      651,
-      924,
-      1075,
-      1231,
-      1390,
-      1667
     ],
     "5421afd3ed47deb926c0a5b9d04584dac7ddf7f5347d8a495689801412bc3cfe": [
       313,
@@ -7469,6 +7468,9 @@
     "05f654d8fb9f5a9a71a3a6cef306e338b7fbb26c6339e374f80bc6c8f0733a76": {
       "422": 1
     },
+    "06e57479cfb469d045a7064ee28ab019b51c67b3655cc5a24d816fb5f43770ed": {
+      "555": 1
+    },
     "07531f3cfd03a999379aa5a48d04d19ee32f458e7120c56e3880d712bd0c670b": {
       "373": 1
     },
@@ -7595,6 +7597,10 @@
       "1403": 2,
       "457": 1
     },
+    "2e58c0a7cb3cff03a6fd9366d11a9097ad69b8a84ed1a537703a2dd484dd9a61": {
+      "1185": 2,
+      "452": 1
+    },
     "2ec064c89bea4f0b9ebd6497a16364696567d785f940c780fe0b8135a722bed4": {
       "476": 1
     },
@@ -7622,9 +7628,6 @@
     },
     "3599f205ca3af5cfb5c3c01083442ee112208e3d5619b66ad370454cdd642717": {
       "513": 1
-    },
-    "3774395fdedb02aeb17f954a9898e40e08c0af0f620f4c20dd8d05d3bd907835": {
-      "627": 1
     },
     "3831b6defc27c40068db8f8501424124005b9294cf93a82404050191df5f4664": {
       "1759": 2,
@@ -7700,10 +7703,6 @@
     "52439b70b4ccde2d4dca381f51153e3ce2363c6e902b66678dac7b61417baf39": {
       "1631": 2,
       "529": 1
-    },
-    "53e321019d9fd86ed92b0245799b90ca9e9ef848a1350784a00a8408fb50d142": {
-      "1231": 2,
-      "491": 1
     },
     "548e7b1a7e35c497051f5f464e01be6a72bd4ad3d11989f20628a5d199443c42": {
       "511": 1

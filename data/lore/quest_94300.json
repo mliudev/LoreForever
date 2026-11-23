@@ -1,0 +1,71 @@
+{
+ "key": "quest:94300",
+ "type": "quest",
+ "name": "Craftsman's Writ: Big Voodoo Mask",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94300
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks for one Big Voodoo Mask and gives delivery and payment details. You need the writ to complete the transaction.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The faded note requests one Big Voodoo Mask and gives information about where to deliver it and how payment is arranged. Its final lines say the writ can pass from one bearer to another. You need to hold it when you make the delivery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what item is wanted",
+    "big voodoo mask writ"
+   ],
+   "answer": "The customer requests one Big Voodoo Mask."
+  },
+  {
+   "q": "Can I pass the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "can someone else carry it"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What do I need to complete the transaction?",
+   "aliases": [
+    "what do I bring",
+    "writ requirement"
+   ],
+   "answer": "You need the writ in your possession when completing the transaction."
+  },
+  {
+   "q": "Does the writ give delivery and payment details?",
+   "aliases": [
+    "where to deliver",
+    "how is payment arranged"
+   ],
+   "answer": "Yes. The note contains information about the delivery location and payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "big voodoo mask",
+  "craftsman's writ",
+  "delivery",
+  "mask",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Big Voodoo Mask"
+ ]
+}

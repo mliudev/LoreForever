@@ -1,0 +1,72 @@
+{
+ "key": "quest:97018",
+ "type": "quest",
+ "name": "Learning to Ride",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97018
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives ram riding lessons",
+    "who teaches ram riding",
+    "ram riding trainer"
+   ],
+   "answer": "Ultham Ironhorn offers instruction in ram riding to seasoned adventurers who can pay his fee.",
+   "q": "Who teaches you how to ride a ram?"
+  },
+  {
+   "aliases": [
+    "where do i get a free ram",
+    "who gives free mount",
+    "who is veron"
+   ],
+   "answer": "Veron provides you with a free mount once you have finished your training with Ultham Ironhorn.",
+   "q": "Who provides your first mount?"
+  },
+  {
+   "aliases": [
+    "can i buy more rams",
+    "where to get additional mounts"
+   ],
+   "answer": "After completing your training with Ultham Ironhorn and meeting Veron, you can purchase additional mounts.",
+   "q": "Can you purchase more mounts later?"
+  },
+  {
+   "aliases": [
+    "does one riding skill work for all mounts",
+    "riding other mounts"
+   ],
+   "answer": "Different creatures across the world each require their own distinct riding skill, taught by different trainers.",
+   "q": "Does ram riding allow you to ride every creature?"
+  }
+ ],
+ "keywords": [
+  "apprentice riding",
+  "learning to ride",
+  "mounts",
+  "ram riding",
+  "ultham ironhorn",
+  "veron"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Ultham Ironhorn judges that your travels have seasoned you enough to learn how to ride a sturdy ram. For a fee, he is willing to share all his knowledge of ram handling, preparing you to journey across the wider world. Once your training with Ultham is complete, Veron stands ready to provide your first mount at no charge, opening the way for you to acquire others.",
+   "spoiler": 0,
+   "title": "Taking the Reins"
+  }
+ ],
+ "summary": "Ultham Ironhorn considers you seasoned enough to master ram riding, offering his training for a fee. Once you learn the craft, Veron provides your first mount without charge, giving you a faster way to travel the world.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Learning to Ride"
+ ]
+}

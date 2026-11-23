@@ -1,0 +1,81 @@
+{
+ "key": "quest:2440",
+ "type": "quest",
+ "name": "The Platinum Discs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2440
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sage Truthseeker studies the Platinum Discs and sends you to Bena Winterhoof in Thunder Bluff with a reward voucher. He believes the find may lead to more work together.",
+ "sections": [
+  {
+   "title": "A Voucher for Bena",
+   "body": "Sage Truthseeker turns his attention to the Platinum Discs, hoping to learn how they work. For now, he sends you to Bena Winterhoof, Thunder Bluff's alchemy trainer, with a voucher. She is to give you a special item and let you choose potions from his stock.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Sage Truthseeker want me to do?",
+   "aliases": [
+    "platinum discs task",
+    "where take the voucher"
+   ],
+   "answer": "Take Sage Truthseeker's reward voucher to Bena Winterhoof, the alchemy trainer in Thunder Bluff."
+  },
+  {
+   "q": "Who is Bena Winterhoof?",
+   "aliases": [
+    "who is Bena",
+    "Bena trainer"
+   ],
+   "answer": "Bena Winterhoof is the alchemy trainer in Thunder Bluff."
+  },
+  {
+   "q": "What is Sage doing with the discs?",
+   "aliases": [
+    "what about the discs",
+    "Sage studying discs"
+   ],
+   "answer": "Sage Truthseeker is focusing his energies on the Platinum Discs to learn how they work."
+  },
+  {
+   "q": "What can I choose from Sage's potions?",
+   "aliases": [
+    "potion choice",
+    "healing or mana"
+   ],
+   "answer": "You may choose five superior healing potions or five greater mana potions."
+  },
+  {
+   "q": "Is there more to do with Sage?",
+   "aliases": [
+    "Sage next step",
+    "more with Truthseeker"
+   ],
+   "answer": "Sage senses there is more to do with you regarding the find."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemy",
+  "bena winterhoof",
+  "platinum discs",
+  "potions",
+  "sage truthseeker",
+  "thunder bluff",
+  "voucher"
+ ],
+ "related": [
+  "zone:thunderbluff"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Platinum Discs"
+ ]
+}

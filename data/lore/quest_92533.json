@@ -1,0 +1,81 @@
+{
+ "key": "quest:92533",
+ "type": "quest",
+ "name": "Twisted Tools",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92533
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A smith asks you to study weapons carried by Blackthorne cultists. Their marks may reveal how the cult\u2019s corruption spreads.",
+ "sections": [
+  {
+   "title": "The Smith\u2019s Concern",
+   "body": "A smith who has worked iron all his life sees Blackthorne cultists turning weapons toward harm of the land and flesh. He asks you to bring back a ritual dagger and a staff so their corrupting marks can be studied.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Dark Burden",
+   "body": "The weapons carry a darkness that clings to you while you bear them. The smith takes them from you and hopes, with the Earthmother\u2019s blessing, to find a way to reverse their corruption.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the smith want?",
+   "aliases": [
+    "what does he need",
+    "twisted tools ask",
+    "what weapons"
+   ],
+   "answer": "The smith asks you to bring back a ritual dagger and a staff carried by Blackthorne cultists."
+  },
+  {
+   "q": "Why study the weapons?",
+   "aliases": [
+    "why take the tools",
+    "what can the marks show",
+    "blackthorne weapons"
+   ],
+   "answer": "The smith hopes the marks on the weapons will show how the cult\u2019s corruption spreads and how it might be stopped or reversed."
+  },
+  {
+   "q": "What weapons are needed?",
+   "aliases": [
+    "dagger and staff",
+    "which tools",
+    "ritual dagger"
+   ],
+   "answer": "The weapons named are a Wicked Ritualist\u2019s Kris and a Recoiling Gnarlybark Staff."
+  },
+  {
+   "q": "What happens while carrying them?",
+   "aliases": [
+    "cursed weapons effect",
+    "darkness on me",
+    "weapon affliction"
+   ],
+   "answer": "The smith senses a darkness about you while you carry the weapons and warns that their effects from handling are not yet known."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackthorne",
+  "corruption",
+  "cultists",
+  "recoiling gnarlybark staff",
+  "ritual dagger",
+  "smith",
+  "twisted tools",
+  "wicked ritualist's kris"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Twisted Tools"
+ ]
+}

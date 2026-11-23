@@ -46,7 +46,7 @@
     "why heart",
     "what proof does thorius need"
    ],
-   "answer": "Thorius needs the Heart of Obsidion and the Head of Lathoric the Black as proof of the betrayal."
+   "answer": "Thorius refuses to believe what he hears until he sees proof: the Heart of Obsidion and the Head of Lathoric the Black."
   },
   {
    "q": "What does the heart prove?",
@@ -60,7 +60,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, Ironforge's betrayal cuts close: Thorius fears the Old Gods' influence threatens his people."
+   "text": "As a dwarf, Thorius's errand cuts close: a dying dwarven archaeologist in Searing Gorge begs you to strike back for Thorius."
   }
  ],
  "keywords": [

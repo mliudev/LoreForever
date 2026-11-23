@@ -1,0 +1,65 @@
+{
+ "key": "quest:93430",
+ "type": "quest",
+ "name": "Taking the Bait Back",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93430
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who stole the lure",
+    "who took pelluks bait",
+    "pelluk thief"
+   ],
+   "answer": "A Lost One fisherman emerged from the muck, severed Pelluk's fishing line, and fled with the lure to use along the eastern banks.",
+   "q": "Who stole Pelluk's lucky lure?"
+  },
+  {
+   "aliases": [
+    "where is the lure",
+    "where are the lost ones",
+    "lost one fisherman location"
+   ],
+   "answer": "The Lost Ones fish along the water banks directly east of Pelluk's camp.",
+   "q": "Where can the thief be found?"
+  },
+  {
+   "aliases": [
+    "why does pelluk need the lure",
+    "pelluk starving",
+    "lucky lure importance"
+   ],
+   "answer": "Pelluk relies on the lure to catch fish, and he fears his camp will starve without their regular catch.",
+   "q": "Why does Pelluk need his lucky lure returned?"
+  }
+ ],
+ "keywords": [
+  "fishing lure",
+  "lost one fisherman",
+  "lost ones",
+  "lucky lure",
+  "pelluk",
+  "taking the bait back"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Pelluk was fishing in the marsh when a creature rose from the muck, severed his line, and fled with his prized lure. He suspects a Lost One fisherman took it to work the water banks to the east. Without that tackle, he cannot land another catch, and his camp risks running out of food.",
+   "spoiler": 0,
+   "title": "A Cut Line"
+  }
+ ],
+ "summary": "A thief has stolen Pelluk's prized fishing lure right off his line. He relies on that tackle to feed his camp, and he wants you to track down the creature along the eastern waters.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Taking the Bait Back"
+ ]
+}

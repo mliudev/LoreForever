@@ -1,0 +1,87 @@
+{
+ "key": "quest:93066",
+ "type": "quest",
+ "name": "Bristleback Retreat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93066
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Magram commander sends you to Bristleback Retreat to confront quilboar carrying an artifact from a nearby temple. Their foothold has hindered the Magram camp\u2019s work.",
+ "sections": [
+  {
+   "title": "The Magram Foothold",
+   "body": "Across Valley of Bones in Desolace, the Magram have made a small camp before marching into a nearby forest. A Bristleback intrusion blocks their way. The quilboar arrived around the same time as the Magram and took an artifact from a nearby temple. You are sent to Bristleback Retreat to slay quilboar, then report to Hagiak at the Magram Front.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Change of Purpose",
+   "body": "At the Magram Front, Hagiak says your presence has delayed the camp\u2019s work and that you are not needed there. He then reconsiders and has another use for you as a soldier.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the Magram want quilboar slain?",
+   "aliases": [
+    "why kill the bristlebacks",
+    "quilboar at retreat",
+    "bristleback problem"
+   ],
+   "answer": "The Bristlebacks have taken an artifact from a nearby temple, and their intrusion is hindering the Magram camp."
+  },
+  {
+   "q": "Where is Bristleback Retreat?",
+   "aliases": [
+    "bristleback location",
+    "where are the pigs",
+    "retreat location"
+   ],
+   "answer": "Bristleback Retreat is across Valley of Bones in Desolace."
+  },
+  {
+   "q": "Who should I report to?",
+   "aliases": [
+    "report to hagiak",
+    "who at magram front",
+    "hagiak location"
+   ],
+   "answer": "Report to Hagiak at the Magram Front, across Valley of Bones in Desolace."
+  },
+  {
+   "q": "What is the Magram preparing to do?",
+   "aliases": [
+    "magram plans",
+    "why establish a foothold",
+    "forest march"
+   ],
+   "answer": "The Magram have established a small foothold to prepare for a march into a nearby forest."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "artifact",
+  "bristleback retreat",
+  "bristlebacks",
+  "desolace",
+  "hagiak",
+  "magram",
+  "quilboar",
+  "temple",
+  "valley of bones"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:valley-of-bones",
+  "topic:quilboar",
+  "quest:93188"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bristleback Retreat"
+ ]
+}

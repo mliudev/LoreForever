@@ -112,6 +112,7 @@ local char           -- this character's record in LoreForeverDB.journey.chars
 local loginAt        -- time() of this load's login event (none while Remember my journey is off)
 local placeless      -- this load's login event while the game didn't know the zone yet (a real login, LOR-770)
 local firstLogin     -- no saved record of this character before this load: its first login with Lore Forever
+local switchedLogin  -- logged in on a different saved character than the last logout save on this account
 local needCompleted  -- the server's completed-quest list was empty at login: tries left to fetch it again
 local resetRoute     -- forget where the player was (Recording, below)
 local startTrail     -- start the map trail's timer (The map trail, below)
@@ -127,6 +128,9 @@ function Journey.Realm()
   local realm = try(GetNormalizedRealmName)
   if type(realm) == "string" and realm ~= "" then return realm end
   realm = try(GetRealmName)
+  if type(realm) == "string" and realm ~= "" then return (realm:gsub("[%s%-]", "")) end
+  local getCvar = (_G.C_CVar and _G.C_CVar.GetCVar) or _G.GetCVar
+  realm = getCvar and try(getCvar, "realmName")
   return type(realm) == "string" and realm ~= "" and (realm:gsub("[%s%-]", "")) or "?"
 end
 
@@ -357,6 +361,11 @@ function Journey.Char() return char end
 -- Whether this character had no saved record before this load: Willo has no save to know it by yet (Strip.lua's
 -- first-login glance, LOR-1498). A /reload after it is no first login: the reload saved the record.
 function Journey.FirstLogin() return firstLogin == true end
+
+-- Whether this load switched from a different saved character on this account (e.g. swapping back from a bank
+-- alt): the newest save on disk names the character just left, so Strip.lua glances once to broadcast who is
+-- logged in now. Same-character logins and /reload stay dark.
+function Journey.SwitchedLogin() return switchedLogin == true end
 
 -- "Remember my journey" (Options): off records nothing new; what's there stays.
 function Journey.On() return settings().journey ~= false end
@@ -803,8 +812,25 @@ end
 local function open()
   local j = LoreForeverDB.journey
   local key, name, realm = Journey.CharKey()
+  local prevLast = type(j.lastChar) == "string" and j.lastChar or nil
+  if not prevLast then
+    local bestT, bestK = 0, nil
+    for k, rec in pairs(j.chars) do
+      if type(rec) == "table" then
+        local t = tonumber(rec.lastSync) or 0
+        local evs = type(rec.events) == "table" and rec.events
+        local lastEv = evs and evs[#evs]
+        local et = type(lastEv) == "table" and tonumber(lastEv.t) or 0
+        if et > t then t = et end
+        if t > bestT then bestT, bestK = t, k end
+      end
+    end
+    prevLast = bestK
+  end
   local new = not j.chars[key]
   firstLogin = new
+  switchedLogin = (not new) and (prevLast ~= nil) and (prevLast ~= key)
+  j.lastChar = key
   local c = j.chars[key] or { first = time(), events = {} }
   if new and not playerId() then madeBeforeGuid = c end
   j.chars[key] = c
@@ -875,6 +901,7 @@ function Journey.Init()
   else
     char = db.journey.chars[(Journey.CharKey())]
     firstLogin = false   -- nothing is recorded with it off, so every load would look like a first: the sky stays dark
+    switchedLogin = false
   end
   startTrail()
   if _G.TakeTaxiNode and hooksecurefunc then pcall(hooksecurefunc, "TakeTaxiNode", Journey.OnTakeTaxi) end
@@ -3933,10 +3960,14 @@ local handlers = {
   PLAYER_LOGOUT = function()
     -- Only on this character's own record: with no GUID at login, open() may have picked another's plain-key record,
     -- and a GUID stamped there would let the next login's carry-over take it (CharKey).
-    if char and LoreForeverDB.journey.chars[(Journey.CharKey())] == char then noteIdentity(char) end
+    local logoutKey = Journey.CharKey()
+    if type(LoreForeverDB) == "table" and type(LoreForeverDB.journey) == "table" and type(logoutKey) == "string" then
+      LoreForeverDB.journey.lastChar = logoutKey
+    end
+    if char and LoreForeverDB.journey.chars[logoutKey] == char then noteIdentity(char) end
     noteGuild(char)
     if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
-    if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit, what the bars hold (Screen.lua, LOR-802)
+    if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit (Screen.lua, LOR-802)
     add("logout")
     -- Where they stand as the game saves, for Willo's place reminders (core._where_now, LOR-1094). Beside the events, not
     -- one of them: back in a place they know, nothing else says they're there, and an event would be read as a moment.

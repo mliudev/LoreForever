@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Charts from the Wreck",
-   "body": "In the Arathi Highlands, the Maiden's Folly lies wrecked beside the Spirit of Silverpine. Their charts and logs record information the crew fears could reach enemy hands. First Mate Nilzlix asks you to recover the charts, including those from the Maiden's Folly, and return them to Booty Bay.",
+   "body": "In the Arathi Highlands, the Maiden's Folly lies wrecked beside the Spirit of Silverpine. Their charts and logs record information the crew fears could reach enemy hands. First Mate Nilzlix asks you to recover the charts, including those from the Maiden's Folly, and bring them back to him before the ships leave the cove.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
     "booty bay charts",
     "charts destination"
    ],
-   "answer": "The recovered charts are bound for the command in Booty Bay."
+   "answer": "The recovered charts go back to First Mate Nilzlix in the cove; knowing they are secure eases the command in Booty Bay."
   }
  ],
  "angles": [],

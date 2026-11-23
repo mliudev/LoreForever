@@ -1,0 +1,63 @@
+{
+ "key": "quest:8467",
+ "type": "quest",
+ "name": "Feathers for Nafien",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8467
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is nafien",
+    "nafien identity"
+   ],
+   "answer": "Nafien is a creature who promises to speak well of your deeds among his kin in exchange for feathers.",
+   "q": "Who is Nafien?"
+  },
+  {
+   "aliases": [
+    "why gather feathers",
+    "feathers purpose",
+    "what are feathers for"
+   ],
+   "answer": "Nafien seeks feathers and pledges to spread word of your assistance among his people for every bundle brought to him.",
+   "q": "Why does Nafien want feathers?"
+  },
+  {
+   "aliases": [
+    "more feathers",
+    "can i bring more feathers",
+    "repeat feathers"
+   ],
+   "answer": "Nafien will take as many feathers as you can gather for as long as his people need them.",
+   "q": "Will Nafien accept additional feathers?"
+  }
+ ],
+ "keywords": [
+  "deeds",
+  "feathers",
+  "nafien",
+  "offerings",
+  "reputation"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Nafien seeks feathers from the wilds and offers good standing among his kin in return. Whenever you come across these feathers, he welcomes them, promising that word of your aid will travel quickly through his community.",
+   "spoiler": 0,
+   "title": "Offerings of Plumage"
+  }
+ ],
+ "summary": "Nafien is gathering feathers and welcomes every quill you manage to recover. In return for your assistance, he promises that your helpful deeds will be made known among his kin.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Feathers for Nafien"
+ ]
+}

@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Stolen Gift",
-   "body": "At Revantusk Village, Smith Slagtree asks you to search for the tools taken when Vilebranch trolls invaded. He keeps a backup set, but these tools were given to him by a kind-hearted gnome who saved his life when he was young. They may lie near the Agol'watha or Shaol'watha temples, or at Skulk Rock. Slagtree wants this old gift returned.",
+   "body": "At Revantusk Village, Smith Slagtree asks you to search for the tools taken when Vilebranch trolls invaded. He keeps a backup set, but these tools were given to him by a kind-hearted gnome who saved his life when he was young. Markhor reported them near the Agol'watha and Shaol'watha temples. Slagtree wants this old gift returned.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "tool location",
     "find slagtree tools"
    ],
-   "answer": "The tools were spotted near the Agol'watha and Shaol'watha temples in the northeastern Hinterlands. Slagtree also suggests checking Skulk Rock."
+   "answer": "The tools were spotted near the Agol'watha and Shaol'watha temples in the northeastern Hinterlands."
   },
   {
    "q": "Does Slagtree have other tools?",

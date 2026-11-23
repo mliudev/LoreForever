@@ -1,0 +1,79 @@
+{
+ "key": "quest:96772",
+ "type": "quest",
+ "name": "The Dragon's Journal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96772
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you know the rarity of ancient draconic script. Uncovering how another spellcaster bends such magic can offer rare insight into forces few mortals understand."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "where is the dragon journal",
+    "zarla journal location",
+    "where is the book"
+   ],
+   "answer": "The journal lies within the hidden prison beneath Alcaz Island off the coast of Kalimdor.",
+   "q": "Where is the journal located?"
+  },
+  {
+   "aliases": [
+    "what is zarla journal",
+    "what kind of book is on alcaz"
+   ],
+   "answer": "It is a personal journal recorded in ancient draconic script, kept by a powerful magic user stationed in Alcaz Island's hidden prison.",
+   "q": "What is the book?"
+  },
+  {
+   "aliases": [
+    "who found the book",
+    "who scried alcaz island"
+   ],
+   "answer": "Timear and an allied spellcaster discovered the book by scrying Alcaz Island before their magical probes were dispelled.",
+   "q": "Who discovered the journal's existence?"
+  },
+  {
+   "aliases": [
+    "why alcaz island",
+    "who is on alcaz island"
+   ],
+   "answer": "Magical scrying confirmed the presence of a formidable magic user there who commands enough power to dispel arcane surveillance.",
+   "q": "Why are spellcasters investigating Alcaz Island?"
+  }
+ ],
+ "keywords": [
+  "alcaz island",
+  "alcaz prison",
+  "draconic script",
+  "kalimdor",
+  "the dragon's journal",
+  "timear",
+  "zarla's journal"
+ ],
+ "related": [
+  "topic:mage"
+ ],
+ "sections": [
+  {
+   "body": "Magical scrying across the sea has pierced the defenses around Alcaz Island off Kalimdor. Before their arcane probes were unraveled by a rival spellcaster, Timear and his companion caught sight of a mysterious book. It is a journal written in ancient draconic script, kept by the powerful magic user dwelling within the island's underground prison. Now you are asked to descend into the island's depths and bring the volume back for study.",
+   "spoiler": 0,
+   "title": "Eyes on Alcaz"
+  }
+ ],
+ "summary": "Arcane scrying has uncovered a powerful magic user hiding in the sunken prison of Alcaz Island. A fleeting vision revealed a journal penned in ancient draconic script, and you are called to delve into the depths to retrieve it.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Dragon's Journal"
+ ]
+}

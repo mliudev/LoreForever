@@ -1,0 +1,80 @@
+{
+ "key": "quest:1684",
+ "type": "quest",
+ "name": "Elanaria",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1684
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A teacher in Darnassus can guide you as your skill as a warrior grows. Elanaria waits at the Warrior's Terrace.",
+ "sections": [
+  {
+   "title": "A Teacher in Darnassus",
+   "body": "Your growing skill brings you to Elanaria at Darnassus's Warrior's Terrace. She can teach you more of the warrior's profession, and your name has reached her ears. Elanaria sees promise in you, though your strength of will remains to be tested.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Elanaria?",
+   "aliases": [
+    "elanaria",
+    "who's elanaria"
+   ],
+   "answer": "Elanaria is a warrior who dwells at the Warrior's Terrace in Darnassus and can instruct you."
+  },
+  {
+   "q": "Where can I find Elanaria?",
+   "aliases": [
+    "elanaria location",
+    "where's elanaria"
+   ],
+   "answer": "Elanaria dwells at the Warrior's Terrace in Darnassus."
+  },
+  {
+   "q": "Why should I speak with Elanaria?",
+   "aliases": [
+    "elanaria why",
+    "warrior teacher"
+   ],
+   "answer": "Elanaria can instruct you as you progress in the warrior's profession."
+  },
+  {
+   "q": "What does Elanaria think of me?",
+   "aliases": [
+    "elanaria opinion",
+    "does elanaria know me"
+   ],
+   "answer": "Elanaria says your name is known in Darnassus and that you show promise."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "As a warrior, you can seek Elanaria's instruction at the Warrior's Terrace in Darnassus."
+  }
+ ],
+ "keywords": [
+  "darnassus",
+  "elanaria",
+  "instruction",
+  "teacher",
+  "warrior",
+  "warrior's terrace"
+ ],
+ "related": [
+  "npc:elanaria",
+  "zone:darnassus",
+  "subzone:warrior-s-terrace",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Elanaria"
+ ]
+}

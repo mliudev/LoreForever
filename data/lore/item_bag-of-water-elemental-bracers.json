@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Mage\u2019s Study",
-   "body": "In Dalaran Crater, Archmage Ansirem Runeweaver has been asked to examine the water elemental bracers. At least one bears magical residue, and he believes it may shed light on the Stone of the Tides\u2019 curse. Ansirem knows the legends of the Gurubashi Empire and has written a tome on the subject. Now he turns his attention to the bracers.",
+   "body": "In Dalaran, Archmage Ansirem Runeweaver has been asked to examine the water elemental bracers. At least one bears magical residue, and he believes it may shed light on the Stone of the Tides\u2019 curse. Ansirem knows the legends of the Gurubashi Empire and has written a tome on the subject. Now he turns his attention to the bracers.",
    "spoiler": 0
   }
  ],
@@ -33,9 +33,9 @@
    "aliases": [
     "who studies them",
     "ansirem bracers",
-    "mage in dalaran crater"
+    "mage in dalaran"
    ],
-   "answer": "Archmage Ansirem Runeweaver is asked to study the water elemental bracers in Dalaran Crater."
+   "answer": "Archmage Ansirem Runeweaver is asked to study the water elemental bracers in Dalaran."
   },
   {
    "q": "Why does Ansirem want the bracers?",
@@ -66,7 +66,7 @@
   "archmage ansirem runeweaver",
   "bag of water elemental bracers",
   "curse",
-  "dalaran crater",
+  "dalaran",
   "gurubashi empire",
   "magical residue",
   "stone of the tides",

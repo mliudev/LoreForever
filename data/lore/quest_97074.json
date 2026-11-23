@@ -1,0 +1,81 @@
+{
+ "key": "quest:97074",
+ "type": "quest",
+ "name": "Learning to Ride",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97074
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, mastering the ways of the saber is a proud rite of passage, letting you bond with the great cats of Kalimdor."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who teaches saber riding",
+    "who is jartsam",
+    "riding trainer"
+   ],
+   "answer": "Jartsam trains seasoned adventurers in the Apprentice Riding skill required to mount a saber.",
+   "q": "Who teaches you how to ride a saber?"
+  },
+  {
+   "aliases": [
+    "where do i get a saber",
+    "who gives the mount",
+    "free mount"
+   ],
+   "answer": "Lelanai provides a free mount once you have trained with Jartsam, and she offers additional mounts for sale afterward.",
+   "q": "Who gives you a mount once you finish training?"
+  },
+  {
+   "aliases": [
+    "can you ride other mounts",
+    "riding other beasts",
+    "other riding skills"
+   ],
+   "answer": "Different beasts across the world require their own distinct riding skills, each taught by their own trainers.",
+   "q": "Can you ride other creatures with this skill?"
+  },
+  {
+   "aliases": [
+    "why ride a mount",
+    "benefits of riding",
+    "saber travel"
+   ],
+   "answer": "Riding a saber allows you to journey across the world far faster than traveling on foot.",
+   "q": "Why is saber riding useful?"
+  }
+ ],
+ "keywords": [
+  "apprentice riding",
+  "jartsam",
+  "learning to ride",
+  "lelanai",
+  "mount",
+  "saber"
+ ],
+ "related": [
+  "npc:lelanai"
+ ],
+ "sections": [
+  {
+   "body": "Jartsam considers you experienced enough to learn how to ride a saber, provided you can pay his training fee. Once you master the skill, Lelanai will grant you a mount without charge, opening the way to purchase others. Diverse beasts throughout the world demand their own training, but this instruction prepares you for long journeys across the wild lands.",
+   "spoiler": 0,
+   "title": "Taking the Reins"
+  }
+ ],
+ "summary": "Jartsam offers to teach you saber riding once you have gathered enough coin for his instruction. With this training complete, Lelanai will grant your first mount to carry you across distant lands.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Learning to Ride"
+ ]
+}

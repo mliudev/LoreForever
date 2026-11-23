@@ -1,0 +1,64 @@
+{
+ "key": "quest:1049",
+ "type": "quest",
+ "name": "Compendium of the Fallen",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1049
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sage Truthseeker asks you to recover the Compendium of the Fallen from the Monastery in Tirisfal Glades. It is sought in Thunder Bluff.",
+ "sections": [
+  {
+   "title": "A Sage's Request",
+   "body": "The Monastery in Tirisfal Glades is where Sage Truthseeker's requested volume lies. You are to bring the Compendium of the Fallen back to him in Thunder Bluff.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Compendium of the Fallen?",
+   "aliases": [
+    "who wants the compendium",
+    "sage truthseeker book"
+   ],
+   "answer": "Sage Truthseeker in Thunder Bluff asks you to retrieve the Compendium of the Fallen."
+  },
+  {
+   "q": "Where is the Compendium of the Fallen?",
+   "aliases": [
+    "where book",
+    "compendium location"
+   ],
+   "answer": "The Compendium of the Fallen is in the Monastery in Tirisfal Glades."
+  },
+  {
+   "q": "Where do I bring the compendium?",
+   "aliases": [
+    "where to take book",
+    "return compendium"
+   ],
+   "answer": "Bring the Compendium of the Fallen to Sage Truthseeker in Thunder Bluff."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "compendium of the fallen",
+  "monastery",
+  "sage truthseeker",
+  "thunder bluff",
+  "tirisfal glades"
+ ],
+ "related": [
+  "zone:tirisfal",
+  "zone:thunderbluff"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Compendium of the Fallen"
+ ]
+}

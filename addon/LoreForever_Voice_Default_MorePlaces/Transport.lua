@@ -222,7 +222,7 @@ P.transport["subzone:boulder-gor"] = {
   fullHash = "fb4313",
   text = "Boulder'gor. Boulder'gor commands western Arathi, north of Stromgarde, where Boulderfist ogres and Witherbark trolls share an encampment. North of Stromgarde Keep’s crumbling ramparts, Boulder'gor rises above the central roads of Arathi. The Boulderfist Outpost mound stands among its shadows, a stronghold of ogre power across the highlands. Boulderfist ogres share fires and fortifications with Witherbark forest trolls. Their shadowy spellcasters add dark magic to the clan’s brute force, and together they endanger travelers on the roads. From Boulder'gor’s slopes, you can look across the open highlands of western Arathi. The hill lies between Stromgarde’s Syndicate-infiltrated ruins and the plains’ wild elemental sites. Heavily guarded and hostile, Boulder'gor remains a tribal stronghold against Alliance and Horde wanderers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_boulder-gor-6f47dd9bdd62e8044f8b/1-0000.mp3", duration = 58.1746939, start = 0},
+    {file = "Audio/Transport/full_subzone_boulder-gor-e668aff92ea850c65e98/1-0000.mp3", duration = 56.5289796, start = 0},
   },
 }
 P.transport["subzone:boulderfist-hall"] = {

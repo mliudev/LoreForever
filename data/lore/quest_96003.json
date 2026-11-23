@@ -1,0 +1,81 @@
+{
+ "key": "quest:96003",
+ "type": "quest",
+ "name": "Drawing Down the Malevolent",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96003
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A field test puts a fused fel crystal against two of the demons guarding a camp. Its power may help reclaim the area.",
+ "sections": [
+  {
+   "title": "A Field Test",
+   "body": "The vessels have fused into a new and powerful crystal, and you are asked to test it against Bethra'zel and Mazzogore. Their presence has kept the camp well protected. Use the Eye of Endless Influence to siphon their power before delivering the killing blow.",
+   "spoiler": 0
+  },
+  {
+   "title": "Findings Shared",
+   "body": "The test astonishes the one who sent you. The findings will be shared with others, and reclaiming the area now seems possible.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Eye of Endless Influence?",
+   "aliases": [
+    "eye of endless influence",
+    "what's the crystal",
+    "fel crystal"
+   ],
+   "answer": "The Eye of Endless Influence is a crystal formed when the vessels fused together. It can siphon power from Bethra'zel and Mazzogore."
+  },
+  {
+   "q": "Who are Bethra'zel and Mazzogore?",
+   "aliases": [
+    "bethrazel who",
+    "mazzogore demon",
+    "the two demons"
+   ],
+   "answer": "Bethra'zel and Mazzogore are two of the camp's most powerful demons. Their presence has kept the camp well protected."
+  },
+  {
+   "q": "Why use the crystal on the demons?",
+   "aliases": [
+    "why crystal demons",
+    "siphon their power",
+    "what's the test"
+   ],
+   "answer": "The field test is meant to see whether the Eye of Endless Influence can siphon the demons' power."
+  },
+  {
+   "q": "What happened to the vessels?",
+   "aliases": [
+    "fused vessels",
+    "vessels what happened",
+    "crystal origin"
+   ],
+   "answer": "The vessels fused into something new and powerful: the Eye of Endless Influence."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bethra'zel",
+  "camp",
+  "demons",
+  "drawing down the malevolent",
+  "eye of endless influence",
+  "fel crystal",
+  "mazzogore",
+  "vessels"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Drawing Down the Malevolent"
+ ]
+}

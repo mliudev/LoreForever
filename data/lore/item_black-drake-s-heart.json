@@ -10,11 +10,11 @@
    "quest:706"
   ]
  },
- "summary": "In Lethlor Ravine, a black drake's heart carries the heat Sigrun Ironhew needs for her fiery weapon enchantments. She asks you to bring one from the ravine's drakes.",
+ "summary": "In Lethlor Ravine, a black drake's heart carries the heat Sigrun Ironhew needs for his fiery weapon enchantments. He asks you to bring one from the ravine's drakes.",
  "sections": [
   {
    "title": "A Smith's Request",
-   "body": "Sigrun Ironhew learned a fiery enchantment from her former teacher, Feranor Steeltoe. To use the technique, she needs blood from a rare black drake whelp's still-beating heart. Bring her one from Lethlor Ravine, and she will show you the enchantment.",
+   "body": "Sigrun Ironhew learned a fiery enchantment from his former teacher, Feranor Steeltoe. To use the technique, he needs blood from a rare black drake whelp's still-beating heart. Bring him one from Lethlor Ravine, and he will show you the enchantment.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "ironhew who",
     "sigrun backstory"
    ],
-   "answer": "Sigrun Ironhew is an apprentice of Feranor Steeltoe, who taught her a special technique for imbuing weapons with fiery enchantments."
+   "answer": "Sigrun Ironhew is an apprentice of Feranor Steeltoe, who taught him a special technique for imbuing weapons with fiery enchantments."
   },
   {
    "q": "What does the enchantment do?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Sigrun Ironhew offers to teach you her fiery weapon enchantment if you bring her a black drake's heart from Lethlor Ravine."
+   "text": "Sigrun Ironhew offers to teach you his fiery weapon enchantment if you bring him a black drake's heart from Lethlor Ravine."
   }
  ],
  "keywords": [

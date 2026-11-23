@@ -1,0 +1,83 @@
+{
+ "key": "quest:95248",
+ "type": "quest",
+ "name": "To the Summit of Eternity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95248
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, the survivors look to you to explain why your order at the summit never reached out to them during their five years of isolation."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why go to summit",
+    "summit of eternity druids",
+    "why speak to druids"
+   ],
+   "answer": "The survivors in the village want to know why the druids guarding the summit never offered aid or sent word that their people were still alive.",
+   "q": "Why are you sent to the Summit of Eternity?"
+  },
+  {
+   "aliases": [
+    "how long village trapped",
+    "survivor village time",
+    "how long survivors survived"
+   ],
+   "answer": "The villagers have endured five years in their settlement surrounded by the Scourge.",
+   "q": "How long have the survivors been stranded here?"
+  },
+  {
+   "aliases": [
+    "what do druids guard",
+    "druids at summit",
+    "who is at summit"
+   ],
+   "answer": "Druids dwell at the summit, where they watch over the great tree and the well.",
+   "q": "Who resides at the Summit of Eternity?"
+  },
+  {
+   "aliases": [
+    "did druids send help",
+    "druid silence",
+    "why no druid help"
+   ],
+   "answer": "The druids never sent a message or contacted anyone on behalf of the survivors during their five years of isolation.",
+   "q": "Did the druids ever contact the survivor village?"
+  }
+ ],
+ "keywords": [
+  "druids",
+  "great tree",
+  "scourge",
+  "summit of eternity",
+  "survivors",
+  "village",
+  "well"
+ ],
+ "related": [
+  "topic:druid",
+  "topic:scourge"
+ ],
+ "sections": [
+  {
+   "body": "Having cleared away enough of the Scourge to make the settlement safe, you find the villagers turning their gaze toward the high peak. They know that druids dwell atop the Summit of Eternity, watching over the great tree and the well.\n\nYet five years of isolation have left them bitter and bewildered. They want you to climb the heights and ask why those guardians never sent help or let the world know they had survived.",
+   "spoiler": 0,
+   "title": "Questions for the Summit"
+  }
+ ],
+ "summary": "Having secured the survivor village from the Scourge, you are asked to journey up to the Summit of Eternity. The villagers want answers from the druids who guard the great tree and the well, wondering why no help or message ever came for five years.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: To the Summit of Eternity"
+ ]
+}

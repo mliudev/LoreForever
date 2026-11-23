@@ -1,0 +1,64 @@
+{
+ "key": "quest:3373",
+ "type": "quest",
+ "name": "The Essence of Eranikus",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3373
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "where is the font",
+    "essence font location"
+   ],
+   "answer": "The font rests inside the dragon's lair within the Sunken Temple.",
+   "q": "Where is the Essence Font?"
+  },
+  {
+   "aliases": [
+    "what item is needed",
+    "what do i bring"
+   ],
+   "answer": "You carry the Essence of Eranikus, recovered from within the temple depths.",
+   "q": "What is placed into the font?"
+  },
+  {
+   "aliases": [
+    "who is eranikus",
+    "eranikus lore"
+   ],
+   "answer": "Eranikus is the green dragon whose corrupted shade haunts the deepest sanctuary of the Sunken Temple.",
+   "q": "Who is Eranikus?"
+  }
+ ],
+ "keywords": [
+  "eranikus",
+  "essence font",
+  "essence of eranikus",
+  "sunken temple",
+  "temple of atal'hakkar"
+ ],
+ "related": [
+  "quest:3374",
+  "quest:3445"
+ ],
+ "sections": [
+  {
+   "body": "Deep within the Sunken Temple, the corrupted shade of the green dragon has fallen. In the dragon's shadowy chamber stands an Essence Font waiting to receive what remains of his troubled spirit. Offering the essence to the font may finally quiet the dragon's torment.",
+   "spoiler": 0,
+   "title": "The Font in the Temple"
+  }
+ ],
+ "summary": "The lingering essence of the green dragon Eranikus calls for release inside the Sunken Temple. You hold the fallen shade's spirit and must deposit it into the font resting within his sunken sanctuary.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Essence of Eranikus"
+ ]
+}

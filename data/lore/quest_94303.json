@@ -1,0 +1,65 @@
+{
+ "key": "quest:94303",
+ "type": "quest",
+ "name": "Craftsman's Writ: Thick Leather Ammo Pouch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94303
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what does the writ ask for",
+    "items needed",
+    "writ requirements"
+   ],
+   "answer": "The document calls for a single thick leather ammo pouch to be delivered along with the writ itself.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "who can turn this in",
+    "can someone else deliver it",
+    "is the writ bound"
+   ],
+   "answer": "The note marks itself as transferable, so anyone who holds the paper can fill the order and collect payment.",
+   "q": "Can anyone fulfill this order?"
+  },
+  {
+   "aliases": [
+    "where do i take the pouch",
+    "delivery spot",
+    "where to deliver"
+   ],
+   "answer": "The writ specifies a delivery location and payment terms for whoever brings the requested goods.",
+   "q": "Where is the delivery made?"
+  }
+ ],
+ "keywords": [
+  "ammo pouch",
+  "craftsman's writ",
+  "leatherworking",
+  "thick leather ammo pouch",
+  "trade order",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A faded note sets out a trade order for a thick leather ammo pouch. Whoever holds the transferable paper can carry the crafted pouch to the marked destination and claim the agreed payment.",
+   "spoiler": 0,
+   "title": "A Commercial Order"
+  }
+ ],
+ "summary": "A transferable craftsman's writ calls for a thick leather ammo pouch to be brought to a designated buyer. Fulfilling the order yields the payment promised on the parchment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Thick Leather Ammo Pouch"
+ ]
+}

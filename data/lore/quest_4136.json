@@ -1,0 +1,71 @@
+{
+ "key": "quest:4136",
+ "type": "quest",
+ "name": "Ribbly Screwspigot",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4136
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants ribbly screwspigot",
+    "who gives ribbly screwspigot quest",
+    "who is yuka screwspigot"
+   ],
+   "answer": "Yuka Screwspigot waits in the Burning Steppes, seeking her brother Ribbly to settle a family matter.",
+   "q": "Who is looking for Ribbly Screwspigot?"
+  },
+  {
+   "aliases": [
+    "why kill ribbly screwspigot",
+    "why does yuka want ribbly dead",
+    "why want ribbly head"
+   ],
+   "answer": "Yuka Screwspigot wants Ribbly found and brought in, demanding his head as proof.",
+   "q": "Why does Yuka want Ribbly Screwspigot?"
+  },
+  {
+   "aliases": [
+    "where is yuka screwspigot",
+    "yuka location",
+    "yuka screwspigot zone"
+   ],
+   "answer": "Yuka Screwspigot stays in the arid wastes of the Burning Steppes.",
+   "q": "Where is Yuka Screwspigot?"
+  }
+ ],
+ "keywords": [
+  "burning steppes",
+  "revilgaz",
+  "ribbly screwspigot",
+  "screwspigot",
+  "yuka screwspigot"
+ ],
+ "related": [
+  "zone:burningsteppes"
+ ],
+ "sections": [
+  {
+   "body": "Yuka Screwspigot waits in the scorched wastes of the Burning Steppes with a grim bounty on her own kin. She wants you to track down her wayward brother, Ribbly Screwspigot, and return with his severed head. Whatever bitter dispute tore their family apart, Yuka intends to see it settled for good.",
+   "spoiler": 0,
+   "title": "A Family Grudge"
+  },
+  {
+   "body": "When you return Ribbly Screwspigot's head to Yuka, she expresses mild regret that her younger brother refused to surrender peacefully. Her original scheme had been to capture Ribbly alive and hand him over to Baron Revilgaz, savoring his reaction upon learning his fate. Even so, she considers the bloody outcome a relief, declaring her household satisfied now that Ribbly is permanently silenced.",
+   "spoiler": 1,
+   "title": "An Unforgiving Settlement"
+  }
+ ],
+ "summary": "Yuka Screwspigot waits in the Burning Steppes, looking to settle an old score with her brother Ribbly. She asks you to find the rogue goblin and bring back his head.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ribbly Screwspigot"
+ ]
+}

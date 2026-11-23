@@ -1,0 +1,61 @@
+{
+ "key": "quest:7881",
+ "type": "quest",
+ "name": "Carnival Boots",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7881
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "carnival boots purpose",
+    "why boots darkmoon faire"
+   ],
+   "answer": "The Darkmoon Faire accepts sturdy, well-crafted footwear to support its workers and carnival grounds, offering prize tickets in trade.",
+   "q": "Why does the Darkmoon Faire need boots?"
+  },
+  {
+   "aliases": [
+    "what do darkmoon faire tickets buy",
+    "faire tickets purpose"
+   ],
+   "answer": "Tickets earned from the carnival can be gathered and traded for various Darkmoon Faire prizes and curiosities.",
+   "q": "What are Darkmoon Faire tickets used for?"
+  },
+  {
+   "aliases": [
+    "darkmoon faire boots trade",
+    "carnival boots requirements"
+   ],
+   "answer": "Carnival workers inspect the boots for top notch craftsmanship and durability before handing over tickets.",
+   "q": "What kind of boots does the carnival accept?"
+  }
+ ],
+ "keywords": [
+  "carnival",
+  "carnival boots",
+  "craftsmanship",
+  "darkmoon faire",
+  "darkmoon faire ticket"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Gatherers and craftspeople bring sturdy carnival boots to the Darkmoon Faire, where carnival workers trade prized tickets for top notch work. Every pair helps keep the traveling carnival on its feet.",
+   "spoiler": 0,
+   "title": "Footwear for the Faire"
+  }
+ ],
+ "summary": "Workers at the Darkmoon Faire seek sturdy footwear from skilled crafters. In exchange for top notch boots, carnival hands hand over prized faire tickets.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Carnival Boots"
+ ]
+}

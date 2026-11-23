@@ -1,0 +1,97 @@
+{
+ "key": "quest:92894",
+ "type": "quest",
+ "name": "Bone Raising",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92894
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Warlocks will find familiar ground in Orgrul's cold curiosity toward dark rites and the binding of undead thralls to serve a greater power."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives bone raising",
+    "bone raising questgiver",
+    "who is orgrul"
+   ],
+   "answer": "Orgrul of the Magram clan directs you to test your necromantic abilities and bolster their ranks with raised undead.",
+   "q": "Who gives you this assignment?"
+  },
+  {
+   "aliases": [
+    "where is valley of bones",
+    "where do i go for bone raising",
+    "valley of bones location"
+   ],
+   "answer": "The Valley of Bones lies in Desolace, where failed undead claw at the earth amidst ancient skeletal remains.",
+   "q": "Where must you go?"
+  },
+  {
+   "aliases": [
+    "gelkis necromancy",
+    "who raised the skeletons",
+    "why are skeletons in the dirt"
+   ],
+   "answer": "The rival Gelkis centaur attempted to raise the dead there, but their crude magic left the corpses trapped and struggling in the dirt.",
+   "q": "Why are there half-buried skeletons in the valley?"
+  },
+  {
+   "aliases": [
+    "what does the staff do",
+    "enhanced necromancy staff",
+    "how to raise undead"
+   ],
+   "answer": "Orgrul imbued your staff with greater necromantic power so you can fully raise the trapped corpses into an undead fighting force.",
+   "q": "What is the purpose of the Enhanced Necromancy Staff?"
+  },
+  {
+   "aliases": [
+    "why raise undead desolace",
+    "magram necromancy plan",
+    "why build undead army"
+   ],
+   "answer": "Orgrul seeks to swell the Magram clan's numbers with an undead host while proving their necromantic prowess far exceeds that of the Gelkis.",
+   "q": "Why is Orgrul building an undead army?"
+  }
+ ],
+ "keywords": [
+  "bone raising",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "necromancy staff",
+  "orgrul",
+  "valley of bones"
+ ],
+ "related": [
+  "subzone:valley-of-bones"
+ ],
+ "sections": [
+  {
+   "body": "Orgrul of the Magram clan wants to test your command over dark arts in the Valley of Bones. The rival Gelkis attempted their own crude necromancy there, leaving half-formed corpses struggling to pull themselves from the dust. With an imbued staff in hand, you must finish raising those buried dead to swell the Magram fighting force and put down any that resist.",
+   "spoiler": 0,
+   "title": "An Army from the Dirt"
+  },
+  {
+   "body": "Many of the brittle skeletons crumble or turn hostile rather than bowing to your will. Yet Orgrul counts the trial as a triumph, taking back the staff satisfied that the Gelkis brand of necromancy remains brittle and weak compared to his own.",
+   "spoiler": 1,
+   "title": "Lessons in the Dust"
+  }
+ ],
+ "summary": "Orgrul of the Magram clan sends you into the Valley of Bones to test an empowered staff against crude Gelkis necromancy. By raising half-buried dead into an obedient fighting force, you help bolster the clan against their bitter rivals.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bone Raising"
+ ]
+}

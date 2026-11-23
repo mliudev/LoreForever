@@ -10,11 +10,11 @@
    "quest:2944"
   ]
  },
- "summary": "The Super Snapper FX is Curgle's camera, lent to you by Daryn Lightwind in Rut'theran Village. She wants a picture of Gammerita, a creature from the Hinterlands.",
+ "summary": "The Super Snapper FX is Curgle's camera, lent to you for Daryn Lightwind in Rut'theran Village. Daryn wants a picture of Gammerita, a creature from the Hinterlands.",
  "sections": [
   {
    "title": "A New Invention",
-   "body": "Daryn Lightwind sends you to Curgle for his new invention, the Super Snapper FX. She asks for a snapshot of Gammerita, the creature from the Hinterlands, and expects you to bring the picture back to Rut'theran Village. Curgle says to aim at your subject and press the button.",
+   "body": "Daryn Lightwind sends you to Curgle for her new invention, the Super Snapper FX. She asks for a snapshot of Gammerita, the creature from the Hinterlands, and expects you to bring the picture back to Rut'theran Village. Curgle says to aim at your subject and press the button.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "super snapper",
     "snapper camera"
    ],
-   "answer": "The Super Snapper FX is a camera made by Curgle. Daryn Lightwind lends it to you to take a picture of Gammerita."
+   "answer": "The Super Snapper FX is a camera made by Curgle. Curgle lends it to you to take a picture of Gammerita for Daryn Lightwind."
   },
   {
    "q": "Who wants a picture of Gammerita?",

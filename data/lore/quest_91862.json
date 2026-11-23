@@ -1,0 +1,115 @@
+{
+ "key": "quest:91862",
+ "type": "quest",
+ "name": "Lumina Windsinger",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91862
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "Lumina Windsinger is one of your own people, a shen'dorei of the Windshapers, trapped far from home among the Rot Hide gnolls."
+  },
+  {
+   "target": "class:Shaman",
+   "text": "Lumina and her companion traveled as guests of the Earthen Ring to examine elemental convergences in Arathi before being captured."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is lumina",
+    "lumina windsinger identity",
+    "is lumina an elf"
+   ],
+   "answer": "Lumina Windsinger is a shen'dorei, one of the Windshaper Skyborne, who came to these lands as a guest of the Earthen Ring.",
+   "q": "Who is Lumina Windsinger?"
+  },
+  {
+   "aliases": [
+    "why is lumina in a cage",
+    "who trapped lumina",
+    "how did lumina get caught"
+   ],
+   "answer": "The Rot Hide gnolls on Fenris Isle captured her while she and her companion were traveling through Silverpine Forest toward the Arathi Highlands.",
+   "q": "Why is Lumina imprisoned on Fenris Isle?"
+  },
+  {
+   "aliases": [
+    "lumina banon arathi",
+    "why go to arathi",
+    "elemental convergences arathi"
+   ],
+   "answer": "Lumina and Banon set out to study elemental convergences in the Arathi Highlands before the Rot Hide gnolls cut their journey short.",
+   "q": "What was Lumina doing in Silverpine?"
+  },
+  {
+   "aliases": [
+    "who is banon",
+    "lumina companion"
+   ],
+   "answer": "Banon is the companion traveling alongside Lumina Windsinger on their journey to the Arathi Highlands.",
+   "q": "Who is Banon?"
+  },
+  {
+   "aliases": [
+    "how to open lumina cage",
+    "fenris isle key",
+    "where is fenris isle key"
+   ],
+   "answer": "The Rot Hide gnolls prowling Fenris Isle hold the Fenris Isle Key needed to open her cage.",
+   "q": "Where is the key to Lumina's cage?"
+  },
+  {
+   "aliases": [
+    "what are shendorei",
+    "is lumina queldorei",
+    "skyborne queldorei difference"
+   ],
+   "answer": "She rejects the name of quel'dorei, identifying herself instead as shen'dorei, one of the Windshaper Skyborne.",
+   "q": "Is Lumina Windsinger a high elf?"
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "earthen ring",
+  "fenris isle",
+  "fenris isle key",
+  "lumina windsinger",
+  "rot hide gnolls",
+  "shendorei",
+  "silverpine",
+  "skyborne",
+  "windshaper"
+ ],
+ "related": [
+  "subzone:fenris-isle",
+  "topic:skyborne",
+  "topic:gnoll",
+  "zone:arathi",
+  "quest:95349"
+ ],
+ "sections": [
+  {
+   "body": "Lumina Windsinger sits locked in a cage on Fenris Isle, surrounded by the rotting gnolls of Silverpine. She and her companion Banon were crossing the forest toward the Arathi Highlands to study elemental convergences for the Earthen Ring, but the pack captured her before they could pass through. Now she needs you to wrest the Fenris Isle Key from the Rot Hide gnolls and throw open her lock.",
+   "spoiler": 0,
+   "title": "A Captive on the Isle"
+  },
+  {
+   "body": "Unlocking the cage frees Lumina Windsinger from the gnolls, but she warns that danger still lingers across the island. The journey cannot continue until both of you make your way safely clear of the Rot Hide pack.",
+   "spoiler": 1,
+   "title": "Out of the Cage"
+  }
+ ],
+ "summary": "On Fenris Isle, an unfamiliar captive named Lumina Windsinger sits trapped in a cage by the Rot Hide gnolls. She traveled to Silverpine as an invited guest of the Earthen Ring, and she needs you to take the key from the gnoll pack and set her free.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lumina Windsinger"
+ ]
+}

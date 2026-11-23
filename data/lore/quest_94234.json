@@ -1,0 +1,67 @@
+{
+ "key": "quest:94234",
+ "type": "quest",
+ "name": "Craftsman's Writ: Shadow Goggles",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94234
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Shadow Goggles require engineering skill to craft, though any traveler holding the order can fulfill the delivery if they obtain a pair."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what does the writ ask for",
+    "shadow goggles order"
+   ],
+   "answer": "The document requests a single pair of Shadow Goggles along with instructions for delivery and payment.",
+   "q": "What is requested in this writ?"
+  },
+  {
+   "aliases": [
+    "can anyone deliver this",
+    "transferable writ"
+   ],
+   "answer": "The text at the bottom notes that the order is transferable, so whoever carries the writ may complete the exchange.",
+   "q": "Can another person fulfill this order?"
+  },
+  {
+   "aliases": [
+    "how to complete the writ",
+    "writ requirements"
+   ],
+   "answer": "You must carry the writ with you to hand over the goggles and receive payment at the designated destination.",
+   "q": "What is needed to finish the transaction?"
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "engineering",
+  "shadow goggles",
+  "trade order",
+  "work order",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has placed an order for engineering handiwork, leaving directions and payment terms in faded handwriting. To claim the promised pay, you must bring the spectacles to the marked destination with the paper still in hand. Because the document is transferable, anyone holding it can step in to deliver the goods.",
+   "spoiler": 0,
+   "title": "An Order for Eyewear"
+  }
+ ],
+ "summary": "A trade order penned in faded ink calls for a pair of Shadow Goggles to be delivered to a marked location. Carrying this transferable document lets you complete the exchange and collect the customer's payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Shadow Goggles"
+ ]
+}

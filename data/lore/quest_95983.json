@@ -1,0 +1,76 @@
+{
+ "key": "quest:95983",
+ "type": "quest",
+ "name": "A Feast for Buzzards",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95983
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is cornelius",
+    "watcher cornelius",
+    "terrals watch watchman"
+   ],
+   "answer": "Watcher Cornelius is a watchman stationed at Terral's Watch.",
+   "q": "Who is Watcher Cornelius?"
+  },
+  {
+   "aliases": [
+    "what is terrals watch",
+    "terral watch"
+   ],
+   "answer": "Terral's Watch is a post manned by Watcher Cornelius near the remains.",
+   "q": "What is Terral's Watch?"
+  },
+  {
+   "aliases": [
+    "who died here",
+    "whose bones are these",
+    "skeleton identity"
+   ],
+   "answer": "The remains are too heavily weathered by the sun and chewed by teeth and claws to tell who died.",
+   "q": "Whose skeleton is this?"
+  },
+  {
+   "aliases": [
+    "what killed the victim",
+    "who attacked the body"
+   ],
+   "answer": "The deep markings gouged into the bones match the claw and tooth patterns of beasts.",
+   "q": "What attacked the skeleton?"
+  }
+ ],
+ "keywords": [
+  "a feast for buzzards",
+  "gnawed skull",
+  "skeleton",
+  "terral's watch",
+  "watcher cornelius"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Out under the blazing sun lie the brittle, mangled bones of an unknown traveler. Deep gouges from teeth and claws score the limbs, leaving no clue who the person once was. Taking the gnawed skull to Watcher Cornelius at nearby Terral's Watch might uncover what brought them down.",
+   "spoiler": 0,
+   "title": "Bones in the Sun"
+  },
+  {
+   "body": "Watcher Cornelius traces the claw marks carved across the bone with growing dread. The grim discovery brings him trouble he wanted to avoid, dragging his post into whatever violence struck down the traveler.",
+   "spoiler": 1,
+   "title": "A Grim Burden"
+  }
+ ],
+ "summary": "A sun-bleached skeleton lies mangled by teeth and claws under the open sky. Taking the victim's gnawed skull to Watcher Cornelius at Terral's Watch is the only way to learn who died here.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Feast for Buzzards"
+ ]
+}

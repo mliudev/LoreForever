@@ -1,0 +1,77 @@
+{
+ "key": "quest:95322",
+ "type": "quest",
+ "name": "Get the Goods",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95322
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives get the goods",
+    "who is friz",
+    "who wants the shipment"
+   ],
+   "answer": "Friz is the buyer willing to pay for the goods Caravaneer Ruzzgot collects from the Bloodsail Buccaneers in Booty Bay.",
+   "q": "Who is Friz?"
+  },
+  {
+   "aliases": [
+    "bloodsail trunk location",
+    "where is the shipment",
+    "where is the chest"
+   ],
+   "answer": "The pirates stashed the shipment in a chest on the hill just outside Booty Bay.",
+   "q": "Where did the Buccaneers leave the goods?"
+  },
+  {
+   "aliases": [
+    "why pirates trusted",
+    "are the pirates friendly to friz"
+   ],
+   "answer": "It is Caravaneer Ruzzgot who deals with the Bloodsail Buccaneers for goods Friz will pay for, claiming the pirates are good friends while still wanting muscle along.",
+   "q": "Why does Friz deal with the Bloodsail Buccaneers?"
+  },
+  {
+   "aliases": [
+    "why need muscle",
+    "why does friz want a liaison"
+   ],
+   "answer": "Caravaneer Ruzzgot, not Friz, asks you to serve as his liaison and show of force in case the pirates go back on the deal.",
+   "q": "Why does Friz ask you to go?"
+  }
+ ],
+ "keywords": [
+  "bloodsail buccaneers",
+  "bloodsail trunk",
+  "booty bay",
+  "friz",
+  "ruzzgot",
+  "shipment",
+  "stranglethorn vale"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "quest:595"
+ ],
+ "sections": [
+  {
+   "body": "Ruzzgot expects a shipment in Stranglethorn Vale, bought from the Bloodsail Buccaneers for whatever Friz is willing to pay. The pirates claim they stashed the trunk on the hill outside Booty Bay for safekeeping. Ruzzgot insists they are trusted friends, yet he wants an armed companion along as a deterrent. You head out past town to inspect the pirate trunk.",
+   "spoiler": 0,
+   "title": "A Deal with Pirates"
+  }
+ ],
+ "summary": "In Booty Bay, Caravaneer Ruzzgot has arranged to collect a shipment from the Bloodsail Buccaneers for Friz. Though he claims the pirates are friends, he wants you along as muscle while you check the trunk stashed on the hill outside town.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Get the Goods"
+ ]
+}

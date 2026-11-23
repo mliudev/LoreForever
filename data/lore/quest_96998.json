@@ -1,0 +1,89 @@
+{
+ "key": "quest:96998",
+ "type": "quest",
+ "name": "Tribal Colors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96998
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A skeleton\u2019s war paint wrap may hold meaning for the Darkspear tribe. You take it to someone who can read its signs.",
+ "sections": [
+  {
+   "title": "The Marked Wrap",
+   "body": "A skeleton still grips a throwing spear, and its remains bear the signs of a troll headhunter. Beside it lies a leather wrap marked with troll writing and Darkspear face tints. You carry the wrap to someone who may know its meaning.",
+   "spoiler": 0
+  },
+  {
+   "title": "Old Colors",
+   "body": "The Darkspear battle wrap was kept tightly rolled so its colors would not run together. Darkspear warriors paint themselves before battle, following an old custom meant to stir their spirits and keep their strength flowing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the War Paint Wrap?",
+   "aliases": [
+    "war paint wrap",
+    "troll paint pouch",
+    "what is this wrap"
+   ],
+   "answer": "It is a leather wrap marked with troll writing and smudges of Darkspear face tints, used to apply war paint."
+  },
+  {
+   "q": "Who might recognize the writing?",
+   "aliases": [
+    "who can read it",
+    "read troll writing",
+    "darkspear writing"
+   ],
+   "answer": "A member of the Darkspear tribe may recognize the writing on the wrap."
+  },
+  {
+   "q": "Why do Darkspear paint themselves?",
+   "aliases": [
+    "why war paint",
+    "troll battle paint",
+    "darkspear colors"
+   ],
+   "answer": "Darkspear warriors paint themselves before battle to stir their spirits and keep their strength flowing."
+  },
+  {
+   "q": "Why is the wrap rolled tight?",
+   "aliases": [
+    "rolled wrap",
+    "colors bleeding",
+    "keep paint separate"
+   ],
+   "answer": "It is rolled tightly to keep the colors from running together."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you can bring the marked wrap to someone who may recognize the Darkspear writing."
+  }
+ ],
+ "keywords": [
+  "battle wrap",
+  "darkspear",
+  "face tints",
+  "head-hunter",
+  "throwing spear",
+  "tribal colors",
+  "troll",
+  "war paint wrap"
+ ],
+ "related": [
+  "topic:troll",
+  "topic:darkspear-tribe"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tribal Colors"
+ ]
+}

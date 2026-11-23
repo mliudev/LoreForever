@@ -10,7 +10,7 @@
    "quest:718"
   ]
  },
- "summary": "The Supply Crate is abandoned excavation gear sought by Sigrun Ironhew in the Badlands. Its contents could help her hungry company.",
+ "summary": "The Supply Crate is abandoned excavation gear sought by Sigrun Ironhew in the Badlands. Its contents could help his hungry company.",
  "sections": [
   {
    "title": "Left Behind",
@@ -25,7 +25,7 @@
     "who needs the crate",
     "sigrun crate"
    ],
-   "answer": "Sigrun Ironhew wants you to retrieve the Supply Crate for her company in the Badlands."
+   "answer": "Sigrun Ironhew wants you to retrieve the Supply Crate for his company in the Badlands."
   },
   {
    "q": "Where was the Supply Crate left?",
@@ -41,7 +41,7 @@
     "why crate",
     "they need supplies"
    ],
-   "answer": "Sigrun's company lost its food supplies after ogres from Camp Kosh seized their equipment. She asks you to recover a Supply Crate."
+   "answer": "Sigrun's company lost its food supplies after ogres from Camp Kosh seized their equipment. He asks you to recover a Supply Crate."
   },
   {
    "q": "What did the ogres take?",

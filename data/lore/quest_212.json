@@ -1,0 +1,74 @@
+{
+ "key": "quest:212",
+ "type": "quest",
+ "name": "A Meal Served Cold",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   212
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives a meal served cold",
+    "who wants the chilled basilisk haunch",
+    "who is angus stern"
+   ],
+   "answer": "Angus Stern seeks the chilled meat. He works inside the Blue Recluse tavern in Stormwind's Mage Quarter.",
+   "q": "Who needs the basilisk meat?"
+  },
+  {
+   "aliases": [
+    "where is angus stern",
+    "blue recluse location",
+    "angus stern spot"
+   ],
+   "answer": "He stays inside the Blue Recluse, a popular inn and tavern located in the Mage Quarter of Stormwind.",
+   "q": "Where is Angus Stern found?"
+  },
+  {
+   "aliases": [
+    "which basilisk has the haunch",
+    "chilled haunch source",
+    "what beast to hunt"
+   ],
+   "answer": "You hunt a Cold Eye Basilisk to cut a chilled haunch from the creature.",
+   "q": "What beast must be hunted?"
+  },
+  {
+   "aliases": [
+    "why not release spirit",
+    "death rule meal served cold"
+   ],
+   "answer": "You must survive the hunt and bring the chilled cut straight back without releasing your spirit.",
+   "q": "What happens if you fall during the hunt?"
+  }
+ ],
+ "keywords": [
+  "a meal served cold",
+  "angus stern",
+  "blue recluse",
+  "chilled basilisk haunch",
+  "cold eye basilisk",
+  "mage quarter",
+  "stormwind"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Angus Stern stays by the hearth of the Blue Recluse in Stormwind's Mage Quarter. He needs a cold eye basilisk hunted down and a chilled basilisk haunch brought directly to his kitchen. The beast will not yield the cut easily, and the venture demands you return alive without falling in the wild.",
+   "spoiler": 0,
+   "title": "The Cook's Request"
+  }
+ ],
+ "summary": "Angus Stern in the Blue Recluse has sent you into the wilds for an unusual culinary prize. You must track down a cold eye basilisk and carve out a chilled haunch for the Stormwind cook. One slip in the field could ruin everything, for the kitchen waits on your safe return.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Meal Served Cold"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "quest:92893",
+ "type": "quest",
+ "name": "No Mercy for the Weak",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92893
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who are the captives",
+    "gelkis prisoners",
+    "who are the prisoners in the valley of bones"
+   ],
+   "answer": "They are Gelkis centaur wanderers who strayed into Magram territory and were taken alive.",
+   "q": "Who are the Gelkis captives?"
+  },
+  {
+   "aliases": [
+    "why feed bone worms",
+    "why were captives kept alive"
+   ],
+   "answer": "The Magram originally spared them to serve as living food for the burrowing bone worms, but the creatures showed no interest in living prey.",
+   "q": "Why did the Magram keep the Gelkis captives alive at first?"
+  },
+  {
+   "aliases": [
+    "where are the prisoners",
+    "valley of bones captives location"
+   ],
+   "answer": "The captives are held across the Valley of Bones, deep within Magram lands.",
+   "q": "Where are the Gelkis captives held?"
+  },
+  {
+   "aliases": [
+    "who sends you to kill the captives",
+    "who gives this quest"
+   ],
+   "answer": "Orgrul of the Magram centaur directs you to eliminate the Gelkis prisoners.",
+   "q": "Who orders the execution of the prisoners?"
+  }
+ ],
+ "keywords": [
+  "bone worms",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "magram",
+  "orgrul",
+  "valley of bones"
+ ],
+ "related": [
+  "subzone:valley-of-bones",
+  "quest:93188"
+ ],
+ "sections": [
+  {
+   "body": "In the dusty expanse of the Valley of Bones, the Magram hold several Gelkis wanderers captive. Orgrul originally spared these intruders to feed the local bone worms, but the burrowing beasts refuse to feed on living prey. Rather than granting the captives any hope of release, Orgrul wants you to end their lives where they sit.",
+   "spoiler": 0,
+   "title": "Prisoners in the Dust"
+  },
+  {
+   "body": "Orgrul leaves the slain Gelkis in the valley rather than taking their skulls as trophies. The bone worms strip the bodies bare overnight, leaving clean skeletons behind for the Magram to raise into their growing army.",
+   "spoiler": 1,
+   "title": "Flesh for the Worms"
+  }
+ ],
+ "summary": "In the Valley of Bones, Orgrul and the Magram clan hold Gelkis wanderers who ventured into their territory. The burrowing bone worms refuse to eat living prey, so Orgrul directs you to finish the prisoners off rather than grant them any hope of escape.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: No Mercy for the Weak"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "key": "quest:1383",
+ "type": "quest",
+ "name": "Nothing But The Truth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1383
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "faustin location",
+    "where is faustin",
+    "beggars haunt apothecary"
+   ],
+   "answer": "Apothecary Faustin waits at Beggar's Haunt, an isolated outpost in Duskwood.",
+   "q": "Where is Apothecary Faustin?"
+  },
+  {
+   "aliases": [
+    "what ingredients does faustin need",
+    "nothing but the truth items",
+    "reagents for faustin"
+   ],
+   "answer": "Apothecary Faustin requires five shadow panther hearts, Mire Lord fungus, and a deep strider tumor.",
+   "q": "What reagents does Apothecary Faustin require?"
+  },
+  {
+   "aliases": [
+    "who is faustin",
+    "faustin duskwood"
+   ],
+   "answer": "Apothecary Faustin is a Forsaken alchemist stationed at Beggar's Haunt in Duskwood.",
+   "q": "Who is Apothecary Faustin?"
+  }
+ ],
+ "keywords": [
+  "apothecary faustin",
+  "beggar's haunt",
+  "deep strider",
+  "duskwood",
+  "mire lord",
+  "shadow panther"
+ ],
+ "related": [
+  "subzone:beggar-s-haunt"
+ ],
+ "sections": [
+  {
+   "body": "At Beggar's Haunt, Apothecary Faustin prepares a brew that demands rare reagents from the wild. He sends you into the wilderness to collect hearts from shadow panthers, along with Mire Lord fungus and a tumor taken from a deep strider.",
+   "spoiler": 0,
+   "title": "Reagents for the Apothecary"
+  }
+ ],
+ "summary": "Apothecary Faustin at Beggar's Haunt requires harvested reagents from across the wilderness. Gathering shadow panther hearts, Mire Lord fungus, and a deep strider tumor will supply his work in Duskwood.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Nothing But The Truth"
+ ]
+}

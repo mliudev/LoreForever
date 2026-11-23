@@ -1,0 +1,90 @@
+{
+ "key": "quest:93072",
+ "type": "quest",
+ "name": "Long-Term Solutions",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93072
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At the Magram Front, Hagiak sends you against the Gelkis clan\u2019s Outcast scouts, marauders and necromancers. The Magram seek to claim Desolace for centaur of their own blood.",
+ "sections": [
+  {
+   "title": "Magram's Demand",
+   "body": "Hagiak at the Magram Front sends you toward the Gelkis village to the southwest. He expects you to prove your allegiance to the Magram by striking at the Gelkis Outcasts. The clan wants the land for centaur of Magram blood, and Hagiak's call leaves little room for doubt.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Claim to Desolace",
+   "body": "Hagiak's scouts report your success, and he says the Magram can continue their training in peace. He calls for any stragglers to be killed so they fear leaving their village. The Magram still mean to claim the Gelkis home and Desolace for themselves.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this task?",
+   "aliases": [
+    "who is hagiak",
+    "hagiak task"
+   ],
+   "answer": "Hagiak, at the Magram Front, sends you against the Gelkis Outcasts."
+  },
+  {
+   "q": "Where are the Gelkis?",
+   "aliases": [
+    "gelkis village where",
+    "second centaur village"
+   ],
+   "answer": "Their village lies to the southwest of the Magram Front."
+  },
+  {
+   "q": "Who are the Outcasts?",
+   "aliases": [
+    "outcasts who",
+    "gelkis outcasts"
+   ],
+   "answer": "They are Gelkis scouts, marauders and necromancers."
+  },
+  {
+   "q": "Why does Hagiak send me after them?",
+   "aliases": [
+    "why kill outcasts",
+    "magram allegiance"
+   ],
+   "answer": "Hagiak expects you to prove your allegiance to the Magram by attacking the Gelkis Outcasts."
+  },
+  {
+   "q": "What do the Magram want?",
+   "aliases": [
+    "magram goal",
+    "who owns desolace"
+   ],
+   "answer": "The Magram claim the Gelkis home and Desolace for centaur born of Magram blood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desolace",
+  "gelkis",
+  "hagiak",
+  "long-term solutions",
+  "magram",
+  "marauders",
+  "necromancers",
+  "outcasts",
+  "scouts"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur",
+  "quest:92846"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Long-Term Solutions"
+ ]
+}

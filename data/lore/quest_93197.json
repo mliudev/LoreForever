@@ -1,0 +1,84 @@
+{
+ "key": "quest:93197",
+ "type": "quest",
+ "name": "Mending Communications",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93197
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "sebelia location",
+    "who is sebelia",
+    "who gives mending communications"
+   ],
+   "answer": "Sebelia stays at the summit camp on Mount Hyjal, tending to mail and supplies for those stationed high on the mountain.",
+   "q": "Who is Sebelia?"
+  },
+  {
+   "aliases": [
+    "where to deliver the mail",
+    "innkeeper vizzie location",
+    "who receives hyjal mail"
+   ],
+   "answer": "Innkeeper Vizzie manages the inn down in the goblin town of Everlook, where she sorts and distributes letters from the highlands.",
+   "q": "Who takes the parcels in Everlook?"
+  },
+  {
+   "aliases": [
+    "why deliver mail everlook",
+    "why does hyjal need mail moved"
+   ],
+   "answer": "Fighting on the heights and a retreat from Nordrassil Lodge left the camp shorthanded, cutting off normal travel and regular post between the peaks and Winterspring.",
+   "q": "Why are communications disrupted on Mount Hyjal?"
+  },
+  {
+   "aliases": [
+    "what happened to nordrassil lodge",
+    "nordrassil lodge retreat"
+   ],
+   "answer": "Heavy fighting on the mountain forced defenders to fall back from Nordrassil Lodge, stretching supplies and personnel thin.",
+   "q": "What happened at Nordrassil Lodge?"
+  }
+ ],
+ "keywords": [
+  "everlook",
+  "innkeeper vizzie",
+  "mail",
+  "mending communications",
+  "mount hyjal",
+  "nordrassil lodge",
+  "parcels",
+  "sebelia",
+  "winterspring"
+ ],
+ "related": [
+  "zone:hyjal",
+  "subzone:everlook",
+  "topic:nordrassil"
+ ],
+ "sections": [
+  {
+   "body": "Fighting across Mount Hyjal and a forced retreat from Nordrassil Lodge have left the defenders shorthanded at the summit camp. Sebelia needs someone traveling down the mountain path to carry a bundle of mail parcels into Everlook, so word from the heights reaches the lowlands.",
+   "spoiler": 0,
+   "title": "Letters from the Summit"
+  },
+  {
+   "body": "At the inn in Everlook, Innkeeper Vizzie receives the mountain dispatch to sort into the town post. Carrying these dispatches keeps the beleaguered camp above tied to Winterspring while defenders hold the heights.",
+   "spoiler": 1,
+   "title": "Word to Everlook"
+  }
+ ],
+ "summary": "Sebelia needs mail parcels carried down from the summit camp on Mount Hyjal to Innkeeper Vizzie in Everlook. Heavy fighting and a retreat from Nordrassil Lodge have left the mountain outpost shorthanded, threatening contact with the settlements below.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mending Communications"
+ ]
+}

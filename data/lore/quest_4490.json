@@ -1,0 +1,72 @@
+{
+ "key": "quest:4490",
+ "type": "quest",
+ "name": "Summon Felsteed",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4490
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Strahad Farsan in Ratchet can teach you to summon a Felsteed. You are sent to him to learn the ability.",
+ "sections": [
+  {
+   "title": "A Visit to Ratchet",
+   "body": "You are sent to Ratchet to speak with Strahad Farsan. He can teach you the ability to summon a Felsteed, and you leave with his good wishes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to summon a Felsteed?",
+   "aliases": [
+    "felsteed trainer",
+    "summon horse",
+    "who is Strahad"
+   ],
+   "answer": "Strahad Farsan in Ratchet can teach you the ability to summon a Felsteed."
+  },
+  {
+   "q": "Where do I learn to summon a Felsteed?",
+   "aliases": [
+    "felsteed location",
+    "where Strahad",
+    "Ratchet felsteed"
+   ],
+   "answer": "You are directed to speak with Strahad Farsan in Ratchet."
+  },
+  {
+   "q": "What does Strahad teach?",
+   "aliases": [
+    "felsteed ability",
+    "summon felsteed",
+    "learn felsteed"
+   ],
+   "answer": "Strahad Farsan teaches the ability to summon a Felsteed."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "As a warlock, you are sent to Strahad Farsan in Ratchet to learn the ability to summon a Felsteed."
+  }
+ ],
+ "keywords": [
+  "felsteed",
+  "ratchet",
+  "strahad farsan",
+  "summon felsteed",
+  "summoning"
+ ],
+ "related": [
+  "npc:strahad-farsan",
+  "subzone:ratchet"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Summon Felsteed"
+ ]
+}

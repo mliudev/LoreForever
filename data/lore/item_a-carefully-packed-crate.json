@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "The Shipment",
-   "body": "Erelas Ambersky cares for the eggs in Rut\u2019theran Village, a small village in southern Teldrassil. Once they hatch, he trains the young hippogryphs. He asks you to carry the crate safely from Tanaris, where Curgle provides the shipment.",
+   "body": "Erelas Ambersky cares for the eggs in Rut\u2019theran Village, a small village in southern Teldrassil. Once they hatch, he trains the young hippogryphs. In Tanaris, Curgle provides the shipment and asks you to carry the crate safely to him.",
    "spoiler": 0
   }
  ],
@@ -86,7 +86,6 @@
   "quest:3022",
   "zone:tanaris",
   "zone:feralas",
-  "quest:940",
   "subzone:rut-theran-village",
   "topic:druid"
  ],

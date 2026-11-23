@@ -1,0 +1,71 @@
+{
+ "key": "quest:5095",
+ "type": "quest",
+ "name": "A Call to Arms: The Plaguelands!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5095
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "High Executor Derrington asks you to seek him at the Bulwark. His camp lies east of Tirisfal Glades and the Undercity.",
+ "sections": [
+  {
+   "title": "At the Bulwark",
+   "body": "At the Bulwark, High Executor Derrington is waiting for you. His base camp lies east of Tirisfal Glades and the Undercity, where you are asked to find him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is High Executor Derrington?",
+   "aliases": [
+    "derrington location",
+    "where is derrington",
+    "find high executor"
+   ],
+   "answer": "High Executor Derrington's base camp is at the Bulwark, east of Tirisfal Glades and the Undercity."
+  },
+  {
+   "q": "Who am I looking for?",
+   "aliases": [
+    "who to find",
+    "who is derrington",
+    "call to arms npc"
+   ],
+   "answer": "You are asked to seek out High Executor Derrington."
+  },
+  {
+   "q": "Where is the Bulwark?",
+   "aliases": [
+    "bulwark location",
+    "where is bulwark",
+    "bulwark east of what"
+   ],
+   "answer": "The Bulwark is east of Tirisfal Glades and the Undercity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bulwark",
+  "call to arms",
+  "derrington",
+  "high executor derrington",
+  "plaguelands",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "npc:high-executor-derrington",
+  "subzone:bulwark",
+  "zone:tirisfal",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Call to Arms: The Plaguelands!"
+ ]
+}

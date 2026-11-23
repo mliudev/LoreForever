@@ -1,0 +1,94 @@
+{
+ "key": "quest:93585",
+ "type": "quest",
+ "name": "This Light of Mine",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93585
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "The Alliance holds no presence in these lands, and Father Tuttle hopes bringing the Church of the Holy Light to the Harborage will grant Stormwind a welcome foothold."
+  },
+  {
+   "target": "class:Priest",
+   "text": "Father Tuttle shares your devotion to the Holy Light, but his patronizing assumptions about the draenei threaten the very bridge he hopes to build."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is father tuttle",
+    "who asks for help",
+    "father tuttle"
+   ],
+   "answer": "Father Tuttle is a human priest sent on behalf of the Church of the Holy Light to make peaceful contact with the draenei at the Harborage.",
+   "q": "Who is Father Tuttle?"
+  },
+  {
+   "aliases": [
+    "why go to the harborage",
+    "church mission",
+    "father tuttle purpose"
+   ],
+   "answer": "Father Tuttle hopes to introduce the draenei to the Church of the Holy Light and win goodwill for the Alliance, which currently lacks any foothold in the region.",
+   "q": "Why is Father Tuttle seeking the Harborage?"
+  },
+  {
+   "aliases": [
+    "why does tuttle need protection",
+    "danger on the road",
+    "what threatens tuttle"
+   ],
+   "answer": "The road past the bridge is filled with hostile, savage draenei kin who threaten anyone trying to reach the sanctuary.",
+   "q": "Why does the priest need an escort?"
+  },
+  {
+   "aliases": [
+    "what is the harborage",
+    "harborage lore"
+   ],
+   "answer": "The Harborage is a settlement of draenei survivors who have endured violent separation from their past and the Light.",
+   "q": "What is the Harborage?"
+  }
+ ],
+ "keywords": [
+  "alliance foothold",
+  "church of the holy light",
+  "draenei",
+  "father tuttle",
+  "harborage",
+  "holy light"
+ ],
+ "related": [
+  "subzone:harborage",
+  "topic:church-of-the-holy-light",
+  "topic:light",
+  "topic:alliance",
+  "topic:priest",
+  "topic:human"
+ ],
+ "sections": [
+  {
+   "body": "Father Tuttle stands near a bridge, hoping to carry the faith of the Church of the Holy Light to the draenei of the Harborage. The Alliance holds no sway in these marshes, and he believes bringing their beliefs to the locals can open the door for his people. Yet savage kin stalk the road ahead, and he needs your escort to reach the settlement alive.",
+   "spoiler": 0,
+   "title": "An Envoy of Faith"
+  },
+  {
+   "body": "The reception at the Harborage is far colder than the priest anticipated. The draenei survivors view Father Tuttle as an arrogant fool who treats their tragic history as mere ignorance. They were severed from the Light by violence, and while they turn the priest away in disgust, they allow you to remain so long as you show respect.",
+   "spoiler": 1,
+   "title": "A Bitter Welcome"
+  }
+ ],
+ "summary": "Father Tuttle seeks safe passage across a dangerous road to make contact with the draenei of the Harborage. The human priest hopes to win an Alliance foothold through the teachings of the Church of the Holy Light.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: This Light of Mine"
+ ]
+}

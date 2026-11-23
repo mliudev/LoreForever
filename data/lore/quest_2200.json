@@ -1,0 +1,68 @@
+{
+ "key": "quest:2200",
+ "type": "quest",
+ "name": "Back to Uldaman",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2200
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Talvash's necklace is missing within Uldaman. You search for clues to its whereabouts, following the trail of a slain paladin who had it last.",
+ "sections": [
+  {
+   "title": "A Lost Necklace",
+   "body": "Within Uldaman, you search for clues to the whereabouts of Talvash's necklace. The last known bearer was a paladin, now slain, and the necklace's current disposition remains unknown.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I looking for in Uldaman?",
+   "aliases": [
+    "uldaman necklace",
+    "talvash necklace",
+    "find the necklace"
+   ],
+   "answer": "You are searching for clues to the current whereabouts of Talvash's necklace."
+  },
+  {
+   "q": "Who had Talvash's necklace last?",
+   "aliases": [
+    "last necklace holder",
+    "slain paladin",
+    "who had it"
+   ],
+   "answer": "A paladin who has since been slain had Talvash's necklace last."
+  },
+  {
+   "q": "Where is the necklace now?",
+   "aliases": [
+    "necklace location",
+    "where is talvash's necklace",
+    "necklace whereabouts"
+   ],
+   "answer": "Its current whereabouts are unknown; you search within Uldaman for clues."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "clues",
+  "necklace",
+  "paladin",
+  "slain paladin",
+  "talvash",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "topic:paladin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Back to Uldaman"
+ ]
+}

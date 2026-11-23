@@ -154,19 +154,84 @@ def prepare(args):
     print(json.dumps(outputs))
 
 
+def load_holds(holds_path=None):
+    """Load release/pack-holds.json fail-closed; missing default file means no holds."""
+    explicit = holds_path is not None
+    path = Path(holds_path) if explicit else Path('release/pack-holds.json')
+    if not path.exists() and not path.is_symlink():
+        if explicit:
+            raise Failure(f'Missing pack holds file: {path}')
+        return set()
+    try:
+        doc = read(path)
+    except (OSError, ValueError) as error:
+        raise Failure(f'Invalid pack holds file {path}: {error}') from error
+    if not isinstance(doc, dict) or not isinstance(doc.get('holds'), dict):
+        raise Failure(f'Invalid pack holds schema in {path}: expected object with dict "holds"')
+    for pack, reason in doc['holds'].items():
+        if not isinstance(pack, str) or not pack or not isinstance(reason, str):
+            raise Failure(f'Invalid pack holds entry in {path}: expected string pack name and reason')
+    return set(doc['holds'].keys())
+
+
+def matches_held(name_or_stem, held):
+    """Whether an archive name, stem, bundle stem, or transport shard matches a held pack."""
+    stem = name_or_stem.removesuffix('.zip')
+    return (stem in held
+            or stem.removesuffix('-complete') in held
+            or any(stem.startswith(h + '_Transport_') for h in held))
+
+
+def check_downloads_not_held(downloads, held):
+    """Fail closed if the download contract includes any pack in release/pack-holds.json."""
+    if not held:
+        return
+    for item in downloads.get('downloads', []):
+        arc = item.get('archive', '')
+        folders = item.get('folders', [])
+        if (isinstance(arc, str) and matches_held(arc, held)) or any(isinstance(f, str) and matches_held(f, held) for f in folders):
+            raise Failure(f'Held pack download {arc or folders} is barred by release/pack-holds.json')
+    for selection, folders in (downloads.get('selections') or {}).items():
+        if isinstance(folders, list):
+            blocked = [f for f in folders if isinstance(f, str) and matches_held(f, held)]
+            if blocked:
+                raise Failure(f'Held pack(s) {", ".join(blocked)} in selection {selection} barred by release/pack-holds.json')
+    for source in (downloads.get('packs') or {}):
+        if isinstance(source, str) and matches_held(source, held):
+            raise Failure(f'Held pack transport {source} is barred by release/pack-holds.json')
+
+
+def check_archive_not_held(zip_path, held):
+    """Fail closed if an archive's stem or top-level ZIP folders match any held pack."""
+    if not held:
+        return
+    if matches_held(zip_path.name, held):
+        raise Failure(f'Held pack archive {zip_path.name} is barred by release/pack-holds.json')
+    if zip_path.is_file() and zip_path.suffix == '.zip':
+        with zipfile.ZipFile(zip_path) as archive:
+            folders = {member.split('/', 1)[0] for member in archive.namelist() if member}
+        blocked = sorted(f for f in folders if matches_held(f, held))
+        if blocked:
+            raise Failure(f'Archive {zip_path.name} contains held pack(s) ({", ".join(blocked)}) barred by release/pack-holds.json')
+
+
 def installer_inputs(args, candidate):
     """The Windows job's inputs: the QA-tested zip, the download controls and every archive the three install checks
     fetch, each matching the frozen download contract, which must be this tag's, source's and zip's."""
+    held = load_holds(getattr(args, 'holds', None))
     downloads = read(args.extras / CONTROLS[0])
     if (downloads.get('releaseVersion'), downloads.get('sourceCommit'), downloads.get('candidateZipSha256')) != (
             args.tag.removeprefix('v'), args.commit, candidate['sha256']):
         raise Failure('Installer downloads differ from this tag/source/QA ZIP')
     selected = selected_archives(downloads)
+    check_downloads_not_held(downloads, held)
     inputs = [candidate | {'name': 'LoreForever.zip'}]
     for n in sorted(set(CONTROLS) | selected.keys()):
         info = row(args.extras / n)
-        if n in selected and info['sha256'] != selected[n]:
-            raise Failure('Selected installer archive differs: ' + n)
+        if n in selected:
+            if info['sha256'] != selected[n]:
+                raise Failure('Selected installer archive differs: ' + n)
+            check_archive_not_held(args.extras / n, held)
         inputs.append(info | {'name': 'extra/' + n})
     return downloads, inputs
 
@@ -207,6 +272,9 @@ def linux_manifest(args):
         raise Failure('Duplicate release archive')
     if set(archives) != {p.name for p in args.extras.glob('*.zip')}:
         raise Failure('Release extras inventory differs from the built archives')
+    held = load_holds(getattr(args, 'holds', None))
+    for n in archives:
+        check_archive_not_held(args.extras / n, held)
     files = {'LoreForever.zip': args.core, **{n: args.extras / n for n in archives},
              'transport-downloads.json': args.extras / CONTROLS[0]}
     projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
@@ -1105,9 +1173,11 @@ def main():
     linux.add_argument('--extras', type=Path, required=True)
     linux.add_argument('--output', type=Path, required=True)
     linux.add_argument('--handover', type=Path, help="the inputs.json handover wrote: the full build must agree")
+    linux.add_argument('--holds', type=Path, help="optional pack-holds.json path (defaults to release/pack-holds.json if present)")
     p = sub.add_parser('handover')
     for key in ('core', 'extras', 'output'):
         p.add_argument('--' + key, type=Path, required=True)
+    p.add_argument('--holds', type=Path, help="optional pack-holds.json path (defaults to release/pack-holds.json if present)")
     for command in ('bundle', 'stage'):
         p = sub.add_parser(command)
         p.add_argument('--manifest', type=Path, required=True)

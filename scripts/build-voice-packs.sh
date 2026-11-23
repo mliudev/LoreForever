@@ -11,9 +11,9 @@
 #                                                         stories only), once registered
 #   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests0.zip ... _MoreQuests3.zip  item stories and quest
 #                                                         stories (levels 1-19, 20+), the same way
-#   LoreForever_Voice_<Default|Female>_Quests2.zip / _Quests3.zip  the rest of the game's quest dialogue (levels up to
-#                                                         50, 51-60: the quests without a lore entry), once recorded
-#   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip  the same for quest levels 26-50 and 51-60, once recorded
+#   LoreForever_Voice_<Default|Female>_Quests2.zip / _Quests3.zip / _Quests4.zip  the rest of the game's quest dialogue
+#                                                         (levels 26-45, 46-59, 60 and unknown), once recorded
+#   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip / QuestGivers4.zip  the same for quest levels 21-40, 41-55 and 56+, once recorded
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
 #   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR, itIT or zhCN (LOR-177),
@@ -60,7 +60,7 @@ if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; 
     || { echo "build-voice-packs.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
 fi
 exec python3 - "$ROOT" "$@" <<'PY'
-import atexit, functools, multiprocessing, os, re, shutil, sys, tempfile, zipfile, zlib, subprocess
+import atexit, functools, json, multiprocessing, os, re, shutil, sys, tempfile, zipfile, zlib, subprocess
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
@@ -188,22 +188,27 @@ DOWNLOADS = {
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),
     "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue, levels 1-25 {v}"),
-    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels 26-50, and 51-60 (_Quests holds 1-25).
+    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels 26-45, 46-59, and 60 (_Quests holds 1-25).
     "LoreForever_Voice_Default_Quests2": (["LoreForever_Voice_Default_Quests2"],
-                                          "Male narrator: more quest dialogue, levels 26-50 {v}"),
+                                          "Male narrator: more quest dialogue, levels 26-45 {v}"),
     "LoreForever_Voice_Default_Quests3": (["LoreForever_Voice_Default_Quests3"],
-                                          "Male narrator: more quest dialogue, levels 51-60 {v}"),
+                                          "Male narrator: more quest dialogue, levels 46-59 {v}"),
+    "LoreForever_Voice_Default_Quests4": (["LoreForever_Voice_Default_Quests4"],
+                                          "Male narrator: more quest dialogue, level 60 {v}"),
     "LoreForever_Voice_Female_Quests2": (["LoreForever_Voice_Female_Quests2"],
-                                         "Female narrator: more quest dialogue, levels 26-50 {v}"),
+                                         "Female narrator: more quest dialogue, levels 26-45 {v}"),
     "LoreForever_Voice_Female_Quests3": (["LoreForever_Voice_Female_Quests3"],
-                                         "Female narrator: more quest dialogue, levels 51-60 {v}"),
+                                         "Female narrator: more quest dialogue, levels 46-59 {v}"),
+    "LoreForever_Voice_Female_Quests4": (["LoreForever_Voice_Female_Quests4"],
+                                         "Female narrator: more quest dialogue, level 60 {v}"),
     "LoreForever_Voice_Female-complete": (["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance",
                                            "LoreForever_Voice_Female_Horde"],
                                           "Female narrator: stories and lands {v}"),
-    "LoreForever_Voice_QuestGivers": (["LoreForever_Voice_QuestGivers"], "Quest givers' voices {v}"),
-    # The quest givers' voices for levels 26-50 and 51-60 (voicepack.QUEST_GIVER_PARTS), once recorded.
-    "LoreForever_Voice_QuestGivers2": (["LoreForever_Voice_QuestGivers2"], "Quest givers' voices, levels 26-50 {v}"),
-    "LoreForever_Voice_QuestGivers3": (["LoreForever_Voice_QuestGivers3"], "Quest givers' voices, levels 51-60 {v}"),
+    "LoreForever_Voice_QuestGivers": (["LoreForever_Voice_QuestGivers"], "Quest givers' voices, levels 1-20 {v}"),
+    # The quest givers' voices for levels 21-40, 41-55 and 56+ (voicepack.QUEST_GIVER_PARTS), once recorded.
+    "LoreForever_Voice_QuestGivers2": (["LoreForever_Voice_QuestGivers2"], "Quest givers' voices, levels 21-40 {v}"),
+    "LoreForever_Voice_QuestGivers3": (["LoreForever_Voice_QuestGivers3"], "Quest givers' voices, levels 41-55 {v}"),
+    "LoreForever_Voice_QuestGivers4": (["LoreForever_Voice_QuestGivers4"], "Quest givers' voices, levels 56+ {v}"),
     # More places and people (complete stories only, voicepack.MORE_PACKS): one zip each, never in the main zip. Skipped
     # until register_full_stories.py makes the folder.
     "LoreForever_Voice_Default_MorePlaces": (["LoreForever_Voice_Default_MorePlaces"], "Male narrator: more places {v}"),
@@ -362,12 +367,48 @@ DOWNLOADS.update(FULL_BUNDLES)
 _paused = re.search(r"^PAUSED_PACKS = \[(.*?)\]", (root / "scripts" / "build-release.sh").read_text(encoding="utf-8"),
                     re.M | re.S)
 PAUSED = set(re.findall(r'"([^"]+)"', _paused.group(1))) if _paused else set()
+
+def load_holds(path):
+    """Load release/pack-holds.json fail-closed: invalid JSON or schema aborts the build."""
+    if not path.exists() and not path.is_symlink():
+        return set()
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        sys.exit(f"build-voice-packs: invalid release/pack-holds.json: {e}")
+    if not isinstance(doc, dict) or not isinstance(doc.get("holds"), dict):
+        sys.exit("build-voice-packs: release/pack-holds.json must be a JSON object with a dict 'holds'")
+    for pack, reason in doc["holds"].items():
+        if not isinstance(pack, str) or not pack or not isinstance(reason, str):
+            sys.exit("build-voice-packs: release/pack-holds.json 'holds' must map string pack names to string reasons")
+    return set(doc["holds"].keys())
+
+HELD = load_holds(root / "release" / "pack-holds.json")
+def is_held(name, folders):
+    return name in HELD or name.removesuffix("-complete") in HELD or bool(HELD & set(folders))
+
+if ONLY:
+    requested_held = sorted(p for p in ONLY if p in HELD or p.removesuffix("-complete") in HELD
+                            or any(name == p and is_held(name, entry[0]) for name, entry in DOWNLOADS.items())
+                            or any((name in HELD or name.removesuffix("-complete") in HELD)
+                                   and p in entry[0] and set(entry[0]) <= ONLY
+                                   for name, entry in DOWNLOADS.items()))
+    if requested_held:
+        sys.exit(f"build-voice-packs: requested pack is held on release/pack-holds.json: {', '.join(requested_held)}")
+
+held_downloads = [name for name, entry in DOWNLOADS.items() if is_held(name, entry[0])]
+if held_downloads:
+    print(f"held on release/pack-holds.json, left alone: {', '.join(held_downloads)}",
+          file=sys.stderr if SIZES else sys.stdout)
+
 DOWNLOADS = {name: entry for name, entry in DOWNLOADS.items()
-             if name not in PAUSED and name.removesuffix("-complete") not in PAUSED and not PAUSED & set(entry[0])}
+             if name not in PAUSED and name.removesuffix("-complete") not in PAUSED and not PAUSED & set(entry[0])
+             and not is_held(name, entry[0])}
 FULL_BUNDLES = {name: entry for name, entry in FULL_BUNDLES.items() if name in DOWNLOADS}
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
 CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_QuestGivers2", "LoreForever_Voice_QuestGivers3",
+                  "LoreForever_Voice_QuestGivers4",
                   "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female_Quests",
                   "LoreForever_Voice_Original-complete", "LoreForever_Voice_Original_Quests"} | {
     n for n in DOWNLOADS if re.fullmatch(

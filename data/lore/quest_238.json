@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A courier asks you to carry a Field Sampling Kit to Apothecary Zinge in the Undercity. The kit\u2019s cost goes on the Society\u2019s tab.",
+ "summary": "Alessandro Luca asks you to carry a Field Sampling Kit to Apothecary Zinge in the Undercity. The kit\u2019s cost goes on the Society\u2019s tab.",
  "sections": [
   {
    "title": "A Ready Kit",
-   "body": "The kit is prepared, and the courier has a message for Apothecary Zinge. You carry it to her in the Undercity, along with the sender\u2019s greetings. Its cost will be added to the Society\u2019s tab.",
+   "body": "The kit is prepared, and Luca has a message for Apothecary Zinge. You carry it to her in the Undercity, along with the sender\u2019s greetings. Its cost will be added to the Society\u2019s tab.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who pays",
     "society tab"
    ],
-   "answer": "The courier says the kit\u2019s cost will be added to the Society\u2019s tab."
+   "answer": "Alessandro Luca says the kit\u2019s cost will be added to the Society\u2019s tab."
   },
   {
    "q": "What message goes with the kit?",

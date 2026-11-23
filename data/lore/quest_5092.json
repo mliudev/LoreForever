@@ -1,0 +1,88 @@
+{
+ "key": "quest:5092",
+ "type": "quest",
+ "name": "Clear the Way",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5092
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Ashlam Valorfist asks you to clear Skeletal Flayers and Slavering Ghouls from Sorrow Hill. He waits at Chillwind Camp in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "At Sorrow Hill",
+   "body": "Commander Ashlam Valorfist at Chillwind Camp asks you to thin the undead at Sorrow Hill. Skeletal Flayers and Slavering Ghouls are the creatures named, and their numbers are the obstacle there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives Clear the Way?",
+   "aliases": [
+    "who asks me",
+    "Ashlam task",
+    "who sent me"
+   ],
+   "answer": "Commander Ashlam Valorfist at Chillwind Camp gives the task."
+  },
+  {
+   "q": "Where do I clear the way?",
+   "aliases": [
+    "where is Sorrow Hill",
+    "clear way location",
+    "where to go"
+   ],
+   "answer": "You are asked to kill Skeletal Flayers and Slavering Ghouls in Sorrow Hill."
+  },
+  {
+   "q": "Which creatures does Ashlam ask me to kill?",
+   "aliases": [
+    "what enemies",
+    "skeletal flayers ghouls",
+    "what to kill"
+   ],
+   "answer": "Commander Ashlam Valorfist names Skeletal Flayers and Slavering Ghouls."
+  },
+  {
+   "q": "How many Skeletal Flayers and Slavering Ghouls?",
+   "aliases": [
+    "how many undead",
+    "kill count",
+    "numbers to kill"
+   ],
+   "answer": "The request names ten Skeletal Flayers and ten Slavering Ghouls."
+  },
+  {
+   "q": "Where do I return to Ashlam?",
+   "aliases": [
+    "where is commander ash ash",
+    "return location",
+    "where to report"
+   ],
+   "answer": "Return to Commander Ashlam Valorfist at Chillwind Camp in the Western Plaguelands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashlam valorfist",
+  "chillwind camp",
+  "clear the way",
+  "skeletal flayers",
+  "slavering ghouls",
+  "sorrow hill",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:sorrow-hill",
+  "subzone:chillwind-camp",
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Clear the Way"
+ ]
+}

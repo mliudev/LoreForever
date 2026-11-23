@@ -1,0 +1,70 @@
+{
+ "key": "quest:84399",
+ "type": "quest",
+ "name": "Ka-Boom!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   84399
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what does the library want",
+    "what to bring to the library",
+    "what works does the library collect"
+   ],
+   "answer": "Jennea Cannon seeks magical works to expand the library's collection of knowledge.",
+   "q": "What is the library looking for?"
+  },
+  {
+   "aliases": [
+    "who wants magical works",
+    "where do magical works go",
+    "who collects knowledge in stormwind"
+   ],
+   "answer": "Jennea Cannon in Stormwind's Mage Quarter welcomes additions to the library, asking travelers to deliver magical writings they discover.",
+   "q": "Who asks for these magical works?"
+  },
+  {
+   "aliases": [
+    "should i keep magical books",
+    "can i bring more books",
+    "what to do with found magical works"
+   ],
+   "answer": "Jennea invites you to bring any further magical works you discover back to her in the Mage Quarter to keep building the library's collection.",
+   "q": "Can you bring more magical works later?"
+  }
+ ],
+ "keywords": [
+  "collection",
+  "jennea cannon",
+  "ka-boom!",
+  "library",
+  "mage quarter",
+  "magical works",
+  "stormwind"
+ ],
+ "related": [
+  "npc:jennea-cannon",
+  "subzone:mage-quarter",
+  "zone:stormwind"
+ ],
+ "sections": [
+  {
+   "body": "Inside the Wizard's Sanctum in Stormwind, Jennea Cannon works to build the library's stores of arcane knowledge. When you uncover magical works in your travels, she asks you to bring those writings to her so the collection can grow.",
+   "spoiler": 0,
+   "title": "Expanding the Collection"
+  }
+ ],
+ "summary": "Jennea Cannon asks you to bring her magical works discovered during your travels. Each contribution helps expand the library's collection in Stormwind's Mage Quarter.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ka-Boom!"
+ ]
+}

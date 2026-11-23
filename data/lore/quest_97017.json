@@ -1,0 +1,68 @@
+{
+ "key": "quest:97017",
+ "type": "quest",
+ "name": "Your First Riding Ram",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97017
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "why riding ram",
+    "ram mount traits",
+    "what makes rams good mounts"
+   ],
+   "answer": "Riding rams are sturdy, steadfast beasts that fiercely protect their riders across long journeys.",
+   "q": "What makes a riding ram a good mount?"
+  },
+  {
+   "aliases": [
+    "choosing a ram",
+    "how to pick a riding ram"
+   ],
+   "answer": "You look over the available rams, make your choice of companion, and report back to the breeder.",
+   "q": "How do you pick your first riding ram?"
+  },
+  {
+   "aliases": [
+    "care for ram",
+    "ram companion bond"
+   ],
+   "answer": "The breeder expects riders to take good care of their rams and form a lasting bond with them on the road.",
+   "q": "What does the ram breeder expect from a new rider?"
+  }
+ ],
+ "keywords": [
+  "azeroth journeys",
+  "first mount",
+  "mount choice",
+  "ram breeder",
+  "riding ram",
+  "steadfast companion"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "The breeder urges you to inspect the available riding rams and select the beast that will carry you through Azeroth. These mounts are known throughout the land as sturdy and steadfast companions that fiercely defend their riders. Whichever creature catches your eye, the choice marks the start of your travels together.",
+   "spoiler": 0,
+   "title": "A Stalwart Mount"
+  },
+  {
+   "body": "Once you settle on a ram, the breeder sends you on your way with high hopes for both of you. The beast quickly takes a liking to its new master, ready to brave the open roads by your side.",
+   "spoiler": 1,
+   "title": "Partners on the Road"
+  }
+ ],
+ "summary": "A breeder invites you to choose your first riding ram from the herd. These beasts are known across Azeroth for their sturdy frames and fierce loyalty on the road.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Your First Riding Ram"
+ ]
+}

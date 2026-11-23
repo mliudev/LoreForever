@@ -1,0 +1,86 @@
+{
+ "key": "quest:93406",
+ "type": "quest",
+ "name": "Unfrozen Deliveries",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93406
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who stole the mail",
+    "who ransacked the mail",
+    "who took the letters"
+   ],
+   "answer": "A thief ransacked the outgoing mail just days ago, likely searching for coin, before fleeing into the northern hills.",
+   "q": "Who stole the outgoing mail?"
+  },
+  {
+   "aliases": [
+    "where is the mail",
+    "where did the thief go",
+    "where to find missing mail"
+   ],
+   "answer": "The thief ran into the hills north of Everlook, where yetis prowl the snowy slopes.",
+   "q": "Where was the missing mail taken?"
+  },
+  {
+   "aliases": [
+    "who needs the mail",
+    "who wants the missing mail",
+    "who takes the mail in everlook"
+   ],
+   "answer": "Innkeeper Vizzie in Everlook needs the missing letters recovered before any return mail can depart for Mount Hyjal.",
+   "q": "Who wants the missing mail returned?"
+  },
+  {
+   "aliases": [
+    "why is the mail going to hyjal",
+    "where does the return mail go",
+    "mount hyjal delivery"
+   ],
+   "answer": "The recovered letters are return mail meant to be carried to Mount Hyjal once gathered.",
+   "q": "Where is the mail meant to go?"
+  },
+  {
+   "aliases": [
+    "what happened to the thief",
+    "did yetis kill the thief",
+    "where is the thief now"
+   ],
+   "answer": "The thief never returned from the hills, and Innkeeper Vizzie suspects yetis tore the robber apart.",
+   "q": "What happened to the thief in the hills?"
+  }
+ ],
+ "keywords": [
+  "everlook",
+  "innkeeper vizzie",
+  "missing mail",
+  "mount hyjal",
+  "unfrozen deliveries",
+  "winterspring yetis"
+ ],
+ "related": [
+  "subzone:everlook",
+  "zone:hyjal"
+ ],
+ "sections": [
+  {
+   "body": "Innkeeper Vizzie has run into trouble with the return mail bound for Mount Hyjal. A few days ago, a thief rifled through the outgoing post in search of coin and fled into the hills north of Everlook. The letters lie scattered across the snowy slopes where yetis prowl. Until those lost parcels are gathered from the wilds, no deliveries will reach the mountain.",
+   "spoiler": 0,
+   "title": "Scattered in the Snow"
+  }
+ ],
+ "summary": "Innkeeper Vizzie needs the return mail destined for Mount Hyjal, but a thief ransacked the post and fled north of Everlook. With the bandit likely slain by yetis, the missing letters lie scattered in the cold hills.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Unfrozen Deliveries"
+ ]
+}

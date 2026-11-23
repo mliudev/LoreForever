@@ -454,7 +454,7 @@ P.transport["subzone:sen-jin-village"] = {
   fullHash = "f2cc0f",
   text = "Sen'jin Village. Sen'jin Village shelters the Darkspear on Durotar's southern shore. Vol'jin led them there after Zalazane seized the Echo Isles, and gave the refuge his fallen father's name. Across the shallows, their lost home waits. The Darkspear survivors have made their refuge on Durotar's shore. After Zalazane betrayed the tribe and seized the Echo Isles, Chieftain Vol'jin led them across the strait to the mainland. They raised crude huts beneath coastal cliffs, with the water and their lost home in view.\n\nThe village bears the name of Sen'jin, Vol'jin's father. Murlocs captured and sacrificed him during the Third War. Though the Darkspear are closely allied with Thrall's Horde, exile remains their burden. The lost isles lie just across the shallows. Preparation and defense shape life in Sen'jin Village. Quilboar raids, aggressive sea beasts, and Zalazane's hexes from across the sea threaten the villagers. Herbal remedies and potent alchemical spirits help sustain them.\n\nVol'jin coordinates the tribe's wider defense from the Horde capital. Meanwhile, local shamans, hunters, and scouts gather recruits arriving from the Valley of Trials. The Darkspear seek resources, guard Durotar's southern flank, and plan Zalazane's downfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sen-jin-village-2be1dc7b3dc28ea6ede2/1-0000.mp3", duration = 85.7077551, start = 0},
+    {file = "Audio/Transport/full_subzone_sen-jin-village-aa54de3d75d5b3bd14fa/1-0000.mp3", duration = 85.3159184, start = 0},
   },
 }
 P.transport["subzone:shadowglen"] = {

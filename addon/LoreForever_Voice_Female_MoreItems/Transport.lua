@@ -2502,7 +2502,7 @@ P.transport["item:head-of-arugal"] = {
   fullHash = "150ea7",
   text = "Head of Arugal. At Shadowfang Keep, Head of Arugal is claimed from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof of his fall. Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. At the Sepulcher, Dalar Dawnweaver orders his severed head claimed. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bring the head to Dawnweaver, and it proves Arugal's sorcery has been cut from the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-arugal-fdbd90d901c58b5575af/1-0000.mp3", duration = 37.1461224, start = 0},
+    {file = "Audio/Transport/full_item_head-of-arugal-d648013cd7514eb39bbb/1-0000.mp3", duration = 38.1126531, start = 0},
   },
 }
 P.transport["item:head-of-bazil-thredd"] = {
@@ -5446,7 +5446,7 @@ P.transport["item:unidentified-ore"] = {
   fullHash = "85190d",
   text = "Unidentified Ore. At Windshear Crag, Unidentified Ore has drawn the Venture Company's attention. Piznik recovered a sample and gave it to Ziz Fizziks for study in Undermine. The Venture Company has exposed unusual mineral strata in the Stonetalon Mountains through clear-cutting and strip mining at Windshear Crag. Its new boss, Gerenzo Wrenchwhistle, ordered large amounts of strange gold-green ore mined.\n\nDemoted goblin worker Piznik stayed loyal to his fired former boss, Ziz Fizziks. He secured a sample while planning his escape from the outfit, then gave it to a traveler bound for the crag's western ridge. Ziz plans to send most of the ore to Undermine for study and keep a small cut for himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_unidentified-ore-039d09156cd7e29df0cc/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_item_unidentified-ore-cd7a1905e96284991397/1-0000.mp3", duration = 47.4383673, start = 0},
   },
 }
 P.transport["item:unrefined-ore-sample"] = {
@@ -5766,7 +5766,7 @@ P.transport["item:whitestone-oak-lumber"] = {
   fullHash = "5c0361",
   text = "Whitestone Oak Lumber. Beneath Moonbrook, the Defias shape Whitestone Oak Lumber for their fleet. Its strength also draws Alliance smiths seeking a haft for a sacred weapon.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_whitestone-oak-lumber-f5982e7154b61d26f6dc/1-0000.mp3", duration = 10.6057143, start = 0},
+    {file = "Audio/Transport/full_item_whitestone-oak-lumber-2ad50e2ca6ff9e367552/1-0000.mp3", duration = 10.6579592, start = 0},
   },
 }
 P.transport["item:wildmane-cleansing-totem"] = {

@@ -1,0 +1,66 @@
+{
+ "key": "quest:91735",
+ "type": "quest",
+ "name": "Remote Contact",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91735
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives remote contact",
+    "who sends me to jediga",
+    "jesrimon favor"
+   ],
+   "answer": "Jes'rimon asks you to find an associate in Azshara on his behalf, promising he will owe you in return.",
+   "q": "Who sends you on this journey?"
+  },
+  {
+   "aliases": [
+    "who is jediga",
+    "where is jediga",
+    "jediga camp azshara"
+   ],
+   "answer": "Jediga stays at a camp alongside several orcs out in Azshara, holding a delivery intended for Jes'rimon.",
+   "q": "Who is Jediga?"
+  },
+  {
+   "aliases": [
+    "why go to azshara",
+    "what does jesrimon want",
+    "remote contact purpose"
+   ],
+   "answer": "Jes'rimon expects an arrival from Jediga in Azshara and needs a courier to reach her camp with his name.",
+   "q": "Why does Jes'rimon send you to Azshara?"
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "jediga",
+  "jes'rimon",
+  "orcs",
+  "remote contact"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "sections": [
+  {
+   "body": "Jes'rimon is watching for word out of Azshara, where Jediga keeps camp among a band of orcs. He has no desire to linger in the open, but he expects an arrival from her hands and needs someone to carry his name across the wilds. If you track her down in Azshara, Jes'rimon promises to remember the favor.",
+   "spoiler": 0,
+   "title": "Word for Jediga"
+  }
+ ],
+ "summary": "Jes'rimon has business out in Azshara and cannot attend to it in person. He asks you to find Jediga at an orcish camp there and carry his name to her.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Remote Contact"
+ ]
+}

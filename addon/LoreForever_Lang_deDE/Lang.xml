@@ -22,6 +22,7 @@
   <Script file="Entries_18.lua"/>
   <Script file="Entries_19.lua"/>
   <Script file="Entries_20.lua"/>
+  <Script file="Entries_21.lua"/>
   <Script file="Clips.lua"/>
   <Script file="Search_1.lua"/>
   <Script file="Search_2.lua"/>
@@ -45,4 +46,5 @@
   <Script file="Search_20.lua"/>
   <Script file="Search_21.lua"/>
   <Script file="Search_22.lua"/>
+  <Script file="Search_23.lua"/>
 </Ui>

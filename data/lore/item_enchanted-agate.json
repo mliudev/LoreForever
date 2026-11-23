@@ -10,11 +10,11 @@
    "quest:695"
   ]
  },
- "summary": "The Enchanted Agate activates the Tower of Arathor's defenses. Skuerto gives it to you before you enter to search for Trelane's remaining items.",
+ "summary": "The Enchanted Agate activates the Tower of Arathor's defenses. Apprentice Kryten gives it to you before you enter to search for Trelane's remaining items.",
  "sections": [
   {
    "title": "At the Tower",
-   "body": "At the camp near the Tower of Arathor, Skuerto gives you the Enchanted Agate. Press it against a pedestal near the tower's base when you are ready to enter. The gem activates the tower's defenses, clearing your way toward Trelane's remaining items.",
+   "body": "At Refuge Pointe, Kryten hands over the Enchanted Agate and sends you on to Skuerto for the rest of the details. Press it against a pedestal near the tower's base when you are ready to enter. The gem activates the tower's defenses, clearing your way toward Trelane's remaining items.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "skuerto agate",
     "agate from who"
    ],
-   "answer": "Skuerto gives you the Enchanted Agate at the camp near the Tower of Arathor."
+   "answer": "Apprentice Kryten gives you the Enchanted Agate at Refuge Pointe, then sends you to Skuerto."
   },
   {
    "q": "Why am I taking the Enchanted Agate into the tower?",

@@ -128,8 +128,6 @@
  "item:battleboar-flank": {},
  "item:battleboar-snout": {},
  "item:battleworn-axe": {},
- "item:beast-muisek": {},
- "item:beast-muisek-vessel": {},
  "item:befouled-bloodstone-orb": {},
  "item:berard-s-journal": {},
  "item:bernice-s-necklace": {},
@@ -1206,14 +1204,6 @@
  "item:rock-elemental-shard": {},
  "item:rocket-car-parts": {},
  "item:rod-of-channeling": {},
- "item:rokaro-s-letter": {
-  "faq": {
-   "4": 1,
-   "5": 1,
-   "6": 1
-  },
-  "summary": "Rokaro\u2019s Letter carries a request from Shadowprey Village to Myranda the Hag in the Western Plaguelands. Rokaro hopes her skill with disguise can help against the Black Dragonflight."
- },
  "item:rolf-and-malakai-s-medallions": {
   "faq": {
    "1": 1,
@@ -6761,6 +6751,11 @@
   }
  },
  "quest:931": {
+  "faq": {
+   "4": 1
+  }
+ },
+ "quest:93188": {
   "faq": {
    "4": 1
   }

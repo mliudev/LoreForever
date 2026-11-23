@@ -1,0 +1,80 @@
+{
+ "key": "quest:3527",
+ "type": "quest",
+ "name": "The Prophecy of Mosh'aru",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3527
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants the mosharu tablets",
+    "yehkinya tablets",
+    "who gave this quest"
+   ],
+   "answer": "Yeh'kinya, a troll scholar in the sands of Tanaris, asks for them.",
+   "q": "Who is asking for the tablets?"
+  },
+  {
+   "aliases": [
+    "why does yehkinya want the tablets",
+    "mosharu tablets purpose",
+    "contain hakkar"
+   ],
+   "answer": "Yeh'kinya intends to study the ancient writings to learn how to contain the essence of Hakkar.",
+   "q": "Why does Yeh'kinya want the tablets?"
+  },
+  {
+   "aliases": [
+    "which tablets are needed",
+    "what tablets does yehkinya want"
+   ],
+   "answer": "He requires the First and Second Mosh'aru Tablets, which hold the ancient prophecy.",
+   "q": "Which tablets are needed?"
+  },
+  {
+   "aliases": [
+    "where is yehkinya",
+    "yehkinya location"
+   ],
+   "answer": "Yeh'kinya is stationed in the desert land of Tanaris.",
+   "q": "Where can Yeh'kinya be found?"
+  }
+ ],
+ "keywords": [
+  "hakkar",
+  "mosh'aru",
+  "prophecy",
+  "tablets",
+  "tanaris",
+  "yeh'kinya"
+ ],
+ "related": [
+  "npc:yeh-kinya",
+  "zone:tanaris"
+ ],
+ "sections": [
+  {
+   "body": "Yeh'kinya waits among the dunes of Tanaris for two pieces of the ancient prophecy. He believes the writings on the First and Second Mosh'aru Tablets hold hidden truths that can be unlocked once brought together. With them in hand, the troll scholar hopes to uncover a way to contain the essence of the Blood God Hakkar.",
+   "spoiler": 0,
+   "title": "Secrets in the Stone"
+  },
+  {
+   "body": "Bringing the ancient stone slabs together allows Yeh'kinya to mend them into a single tablet. Once joined, he can delve into their forgotten knowledge and prepare for the dangers surrounding Hakkar's return.",
+   "spoiler": 1,
+   "title": "Mending the Prophecy"
+  }
+ ],
+ "summary": "In Tanaris, the troll scholar Yeh'kinya seeks the First and Second Mosh'aru Tablets. He needs their ancient writings to learn how to contain the essence of Hakkar before the Blood God can rise.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Prophecy of Mosh'aru"
+ ]
+}

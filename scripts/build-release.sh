@@ -66,7 +66,7 @@ PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "Lor
 # LoreForever_Voice_<Default|Female>_Quests_<locale>) until they're recorded, and each narrator's more places and
 # more people, item stories and quest stories (LoreForever_Voice_<Default|Female>_MorePlaces/_MorePeople/_MoreItems/
 # _MoreQuests0 to _MoreQuests3, complete stories only) until register_full_stories.py makes them with their first stories, and each narrator's
-# more quest dialogue (LoreForever_Voice_<Default|Female>_Quests2/_Quests3, the quests of levels 1-60 without a lore entry)
+# more quest dialogue (LoreForever_Voice_<Default|Female>_Quests2/_Quests3/_Quests4, the quests of levels 1-60 without a lore entry)
 # until it is recorded. The answers packs (LOR-227) are retired (LOR-561):
 # Willo reads the short answers aloud. The original male narrator's packs (LoreForever_Voice_Original*) hold his
 # complete stories from before the Chronicler took over the default packs (Mike, 10/17: "the old male narrator a
@@ -78,9 +78,9 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",
-                 "LoreForever_Voice_QuestGivers2", "LoreForever_Voice_QuestGivers3",
-                 "LoreForever_Voice_Default_Quests2", "LoreForever_Voice_Default_Quests3",
-                 "LoreForever_Voice_Female_Quests2", "LoreForever_Voice_Female_Quests3",
+                 "LoreForever_Voice_QuestGivers2", "LoreForever_Voice_QuestGivers3", "LoreForever_Voice_QuestGivers4",
+                 "LoreForever_Voice_Default_Quests2", "LoreForever_Voice_Default_Quests3", "LoreForever_Voice_Default_Quests4",
+                 "LoreForever_Voice_Female_Quests2", "LoreForever_Voice_Female_Quests3", "LoreForever_Voice_Female_Quests4",
                  "LoreForever_Voice_Default_MorePlaces", "LoreForever_Voice_Default_MorePeople",
                  "LoreForever_Voice_Female_MorePlaces", "LoreForever_Voice_Female_MorePeople",
                  "LoreForever_Voice_Default_MoreItems", "LoreForever_Voice_Female_MoreItems",

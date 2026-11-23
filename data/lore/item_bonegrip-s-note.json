@@ -10,7 +10,7 @@
    "quest:735"
   ]
  },
- "summary": "Gerrig Bonegrip writes down three relics he needs in the Badlands. The note lets him keep their names from unwelcome ears.",
+ "summary": "In Ironforge, Gerrig Bonegrip writes down the three relics he needs. The note lets him keep their names from unwelcome ears.",
  "sections": [
   {
    "title": "Written Names",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can carry Gerrig's written request from the Badlands to him in Ironforge."
+   "text": "As an Alliance traveler, you can gather the relics on Gerrig's note and bring them to him in Ironforge."
   }
  ],
  "keywords": [

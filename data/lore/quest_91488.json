@@ -1,0 +1,83 @@
+{
+ "key": "quest:91488",
+ "type": "quest",
+ "name": "Home on the Range",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91488
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Valormok in Azshara, Kurll needs Mosshoof Hides to repair his tent. He has been exposed to the weather since it was damaged in a skirmish with blood elves.",
+ "sections": [
+  {
+   "title": "A Roof Again",
+   "body": "Kurll's tent at Valormok was damaged in a skirmish with the blood elves. For three nights, he has been left without shelter from the elements. He needs Mosshoof Hides to mend it, but lack of sleep keeps him from hunting. Bring him five hides, and he can sleep beneath a cover again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kurll?",
+   "aliases": [
+    "kurll",
+    "kurll valormok"
+   ],
+   "answer": "Kurll is at Valormok in Azshara, where his tent needs repair."
+  },
+  {
+   "q": "Why does Kurll need Mosshoof Hides?",
+   "aliases": [
+    "why hides",
+    "mosshoof hides kurll"
+   ],
+   "answer": "Kurll needs Mosshoof Hides to repair his tent, which was damaged in a skirmish with blood elves."
+  },
+  {
+   "q": "How many hides does Kurll need?",
+   "aliases": [
+    "how many hides",
+    "5 hides"
+   ],
+   "answer": "Kurll asks you to bring him five Mosshoof Hides."
+  },
+  {
+   "q": "Where can I find mosshooves?",
+   "aliases": [
+    "mosshooves",
+    "where mosshoof"
+   ],
+   "answer": "Kurll says the easiest mosshooves to hunt are west and south of Valormok. The hide of any mosshoof will do."
+  },
+  {
+   "q": "How long has Kurll been without shelter?",
+   "aliases": [
+    "kurll no tent",
+    "three nights"
+   ],
+   "answer": "Kurll says he has been at the mercy of the elements for three nights."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "blood elves",
+  "home on the range",
+  "kurll",
+  "mosshoof",
+  "mosshoof hides",
+  "tent",
+  "valormok"
+ ],
+ "related": [
+  "subzone:valormok",
+  "zone:azshara"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Home on the Range"
+ ]
+}

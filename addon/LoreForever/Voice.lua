@@ -36,11 +36,11 @@ end
 -- recorded from and always play with them (Voice.ScopedClip). Packs are partial: most cover only some clips.
 local DEFAULT_PACK = "LoreForever_Voice_Default"
 local QUEST_GIVERS = "LoreForever_Voice_QuestGivers"   -- the quest givers' voices (LOR-225, see giverClip)
--- The rest of them, for the quests of levels 31-50 and 51-60 (one pack would be too big for CurseForge): the same voices,
--- a clip is in exactly one of the three. Only the first has a pack in another language. Before them, the starting
+-- The rest of them, for the quests of levels 21-40, 41-55 and 56+ (one pack would be too big for CurseForge): the same voices,
+-- a clip is in exactly one of the four. Only the first has a pack in another language. Before them, the starting
 -- zones' share of the first, inside the main download (LOR-1408): a copy of its recordings, so a player with only the
 -- add-on hears the givers there, and one clip plays whichever of the two packs has it.
-local QUEST_GIVER_PACKS = { QUEST_GIVERS .. "_Start", QUEST_GIVERS, QUEST_GIVERS .. "2", QUEST_GIVERS .. "3" }
+local QUEST_GIVER_PACKS = { QUEST_GIVERS .. "_Start", QUEST_GIVERS, QUEST_GIVERS .. "2", QUEST_GIVERS .. "3", QUEST_GIVERS .. "4" }
 -- Where players get voice packs (the site's Downloads page). Players type it, so keep it short.
 Voice.DOWNLOADS = "loreforeverwow.com/downloads"
 local AUTO = "auto"
@@ -2894,7 +2894,7 @@ local function voiced(data, race)
   return set[race] == true
 end
 
--- The first of the quest givers' packs (levels 1-30, 31-50, 51-60) that has a current recording of the clip.
+-- The first of the quest givers' packs (levels 1-20, 21-40, 41-55, 56+) that has a current recording of the clip.
 local function giverClip(id, want, window)
   for _, base in ipairs(QUEST_GIVER_PACKS) do
     local pack = want and Voice.InLanguage(base)
@@ -2942,11 +2942,13 @@ local function gameInEnglish()
   return sameLanguage(ok and loc or "enUS", "enUS")
 end
 
--- Who speaks a whole quest (option A, Mike 10/21: "never switches voice mid-quest"): "giver" when the quest givers'
--- voices have every page some voice recorded, else "narrator", who then reads all of it. The data decides (each page's
--- recording, current, with a known speaker of the data's gender for it); a quest whose giver didn't fit the NPC at its
--- window once stays with the narrator (S().questNarrated, kept), so its later pages don't switch back. And of the
--- narrators, only one that has all of its pages reads it (questReaders: Mike 11/15, "A, one narrator").
+-- Who speaks a quest page: "giver" when the quest givers' voices have a current recording of it (known speaker of
+-- the data's gender, or either gender when the data doesn't say), else "narrator". A quest mixes pages cleanly when
+-- only some pages have a giver clip (an object offer with an NPC turn-in, or a partly recorded quest); a page whose
+-- giver didn't fit the NPC at its window stays with the narrator (S().questNarrated[qid:kind]), without forcing the
+-- quest's other pages away from their quest givers. When `kind` is left out, returns "giver" if any page has a giver
+-- recording, else "narrator". Of the narrators, only one that has all of its pages reads it (questReaders: Mike
+-- 11/15, "A, one narrator").
 local function questPages(qid, rec)
   local out = {}
   for kind, part in pairs(QUEST_PART) do
@@ -2957,33 +2959,38 @@ local function questPages(qid, rec)
   return out
 end
 
--- A narrator has a page when a voice's recording of it was made from the current words: an English one is in
--- questRanked only then (its hash), one in another language when its own rows have the page (P.questVoice).
-local function narratorHas(qid, id, part)
-  for _, v in ipairs(Voice.questRanked and Voice.questRanked[id] or {}) do
-    local row = type(v[3]) == "table" and v[3][qid]
-    if type(row) == "table" and type(row[part]) == "string" and row[part] ~= "" then return true end
+local function pageGiver(qid, rec, kind)
+  local part = QUEST_PART[kind]
+  if not (part and type(rec[part]) == "string" and rec[part] ~= "") then return nil end
+  local id = "quest:" .. tostring(rec[1] or qid) .. "#" .. kind
+  local i = part - 1
+  local seen = type(S().questSex) == "table" and S().questSex[tostring(qid)]
+  local code = type(seen) == "string" and seen:sub(i, i) or ""
+  if not GENDER_CODE[code] then
+    code = type(rec[5]) == "string" and rec[5]:sub(i, i) or ""
   end
-  return false
+  local speaker = GENDER_CODE[code]
+  if speaker then return giverClip(id, speaker, false) end
+  -- the data doesn't say: the giver pack's own speaker, either gender
+  return giverClip(id, "male", false) or giverClip(id, "female", false)
 end
 
-function Voice.QuestSpeaker(qid, rec)
+function Voice.QuestSpeaker(qid, rec, kind)
+  if type(rec) == "string" and kind == nil then rec, kind = nil, rec end
   rec = rec or (ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid])
   if not rec then return nil end
+  if S().voiceMatchGender == false then return "narrator" end
   local narrated = S().questNarrated
-  if S().voiceMatchGender == false or (type(narrated) == "table" and narrated[tostring(qid)]) then return "narrator" end
-  local any = false
-  for kind, id in pairs(questPages(qid, rec)) do
-    local code = type(rec[5]) == "string" and rec[5]:sub(QUEST_PART[kind] - 1, QUEST_PART[kind] - 1) or ""
-    local speaker = GENDER_CODE[code]
-    local giver = speaker and giverClip(id, speaker, false)
-    if not speaker then   -- the data doesn't say: the giver pack's own speaker, either gender
-      giver = giverClip(id, "male", false) or giverClip(id, "female", false)
-    end
-    if not giver and narratorHas(qid, id, QUEST_PART[kind]) then return "narrator" end
-    any = any or giver ~= nil
+  if kind then
+    if type(narrated) == "table" and narrated[tostring(qid) .. ":" .. kind] then return "narrator" end
+    return pageGiver(qid, rec, kind) and "giver" or "narrator"
   end
-  return any and "giver" or "narrator"
+  for k in pairs(questPages(qid, rec)) do
+    if not (type(narrated) == "table" and narrated[tostring(qid) .. ":" .. k]) and pageGiver(qid, rec, k) then
+      return "giver"
+    end
+  end
+  return "narrator"
 end
 
 -- What the quest window saw of who says a page (UnitSex("npc")), kept where the data says otherwise or doesn't know:
@@ -3081,9 +3088,8 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   rec = rec or (list[1] and list[1][3] and list[1][3][qid])
   if not rec then return nil end
   local window = text == nil and not unchecked   -- the quest window's own page, read from the window below
-  local speaker = Voice.QuestSpeaker(qid, rec)
   -- Who speaks the page, a man or a woman: it picks the quest givers' recording, or, when the narrator reads the
-  -- quest, a ticked narrator of that gender (Mike's 0.25.0 questing video: Faruza, with no giver recording, was read
+  -- page, a ticked narrator of that gender (Mike's 0.25.0 questing video: Faruza, with no giver recording, was read
   -- by the male narrator at the top of his list though he had the female one ticked).
   local want
   if S().voiceMatchGender ~= false then
@@ -3096,6 +3102,7 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     if window and not peek then rememberSex(qid, rec, part, sex) end
     want = (sex == 2 and "male") or (sex == 3 and "female") or pageWant(qid, rec, kind, id)
   end
+  local speaker = Voice.QuestSpeaker(qid, rec, kind)
   local giver, giverRows, giverPack = giverClip(id, want, window)
   if not list[1] and not giver then return nil end
   local shown   -- the fingerprints of the words on screen (none to check: unchecked)
@@ -3150,12 +3157,12 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     for _, v in ipairs(fits) do if readers[v[1]] then kept[#kept + 1] = v end end
     fits = kept
   end
-  -- The quest givers' role and the narrator's never fill for each other page by page: a giver quest plays the
-  -- giver's recording alone; a page whose giver doesn't fit the NPC in front of you goes to the narrator, and so
-  -- does the rest of the quest from then on (questNarrated).
+  -- The quest givers' role and the narrator's never fill for each other on the same page: a giver page plays the
+  -- giver's recording alone; a page whose giver doesn't fit the NPC in front of you goes to the narrator, and keeps
+  -- that page with the narrator (questNarrated[qid:kind]) without suppressing the quest's other pages.
   if speaker == "giver" and not giver and window and fits[1] and not peek then
     S().questNarrated = type(S().questNarrated) == "table" and S().questNarrated or {}
-    S().questNarrated[tostring(qid)] = true
+    S().questNarrated[tostring(qid) .. ":" .. kind] = true
   end
   if speaker == "narrator" then giver = nil end
   if not fits[1] and not giver then return nil end
@@ -3341,7 +3348,7 @@ local function sayQuestPackHint(qid, kind)
   end)
   if not (ok and line) or Voice.hinted["quest:" .. line] then return end
   Voice.hinted["quest:" .. line] = true
-  say(line)
+  for part in line:gmatch("[^\n]+") do say(part) end
 end
 
 -- A quest giver's window shows a page (QUEST_DETAIL, QUEST_PROGRESS, QUEST_COMPLETE). Voice.questKind remembers which,
@@ -3502,7 +3509,29 @@ end
 -- recorded, and whether "Speak quest dialogue" is on makes no difference. A tooltip line: no popup, no chat message. The
 -- pack's title is quoted: it has a colon of its own.
 local DASH = "\226\128\147"   -- an en dash
-function Voice.QuestPackHint(level)
+local QUEST_GIVER_BANDS = {
+  { from = 1, to = 20, pack = QUEST_GIVERS, title = "Lore Forever: quest givers' voices, levels 1-20" },
+  { from = 21, to = 40, pack = QUEST_GIVERS .. "2", title = "Lore Forever: quest givers' voices, levels 21-40" },
+  { from = 41, to = 55, pack = QUEST_GIVERS .. "3", title = "Lore Forever: quest givers' voices, levels 41-55" },
+  { from = 56, to = 60, pack = QUEST_GIVERS .. "4", title = "Lore Forever: quest givers' voices, levels 56+" },
+}
+local function giverPackHint(level)
+  level = tonumber(level)
+  if not level or (ns.lang and ns.lang.edition) or not sameLanguage(readingLocale(), "enUS")
+      or Voice.Current() == "none" or S().voiceMatchGender == false then
+    return nil
+  end
+  for _, band in ipairs(QUEST_GIVER_BANDS) do
+    local out = type(ns.DB) ~= "table" or type(ns.DB.livePacks) ~= "table" or ns.DB.livePacks[band.pack]
+    if level >= band.from and level <= band.to and out and not ns.Packs.Get(band.pack) then
+      local span = band.from == band.to and tostring(band.from) or (band.from .. DASH .. band.to)
+      return string.format(L["Quest voices for levels %s are their own download: \"%s\", from wherever you got Lore Forever."],
+        span, band.title)
+    end
+  end
+end
+
+local function narratorPackHint(level)
   local bands = ns.DB and ns.DB.questBands
   level = tonumber(level)
   if not (type(bands) == "table" and level) or (ns.lang and ns.lang.edition) or not sameLanguage(readingLocale(), "enUS") then
@@ -3519,8 +3548,9 @@ function Voice.QuestPackHint(level)
     if level >= band.from and level <= band.to and out and not ns.Packs.Get(pack.pack) then needed = { band, pack } end
   end
   if not needed then return nil end
+  local span = needed[1].from == needed[1].to and tostring(needed[1].from) or (needed[1].from .. DASH .. needed[1].to)
   return string.format(L["Quest voices for levels %s are their own download: \"%s\", from wherever you got Lore Forever."],
-    needed[1].from .. DASH .. needed[1].to, needed[2].title)
+    span, needed[2].title)
 end
 
 -- What a free download really has, for the quiet voice button (VoiceOffer.lua, LOR-1348). The English narrator in use,
@@ -3578,6 +3608,12 @@ function Voice.QuestDownload(qid, kind, level, text)
     if (" " .. fps .. " "):find(" " .. fp .. " ", 1, true) then return true end
   end
   return false
+end
+
+function Voice.QuestPackHint(level)
+  local narrator, giver = narratorPackHint(level), giverPackHint(level)
+  if narrator and giver then return narrator .. "\n" .. giver end
+  return narrator or giver
 end
 
 -- The quest window closed (accepted, turned in or closed): its page plays on to its end (LOR-667: three players asked;
@@ -3793,6 +3829,19 @@ local function addOnLoaded(match)
   return false
 end
 
+local function addOnEnableState(name)
+  local C = _G.C_AddOns
+  if C and C.GetAddOnEnableState then
+    local ok, st = pcall(C.GetAddOnEnableState, name)
+    if ok and type(st) == "number" then return st > 0 end
+  elseif _G.GetAddOnEnableState then
+    local who = _G.UnitName and _G.UnitName("player") or nil
+    local ok, st = pcall(_G.GetAddOnEnableState, who, name)
+    if ok and type(st) == "number" then return st > 0 end
+  end
+  return nil
+end
+
 -- Spoken's modules cover different text. Only its zone module competes with arrival lore; quest-only Spoken
 -- must leave Lore Forever's own stories playing. Books are left to its book module quietly.
 -- Its folders by both names: SpokenZones/SpokenBooks/SpokenQuest before its split, Spoken_Places/Spoken_Readables/
@@ -3800,6 +3849,46 @@ end
 local function spokenZones(name) return name:find("^spokenzone") or name:find("^spoken_?places") end
 local function spokenBooks(name) return name:find("^spokenbook") or name:find("^spoken_?readables") end
 local function spokenQuests(name) return name:find("^spoken_?quest") end
+
+-- Read-only per-module Spoken detection (quests, places, readables, and monolithic core). Uses IsAddOnLoaded and
+-- GetAddOnEnableState / GetAddOnInfo so quest-only or places-only installs are reported honestly without mutating DB.
+function Voice.SpokenModules()
+  local mod = {
+    quests = { installed = false, enabled = false, loaded = false },
+    places = { installed = false, enabled = false, loaded = false },
+    readables = { installed = false, enabled = false, loaded = false },
+    core = { installed = false, enabled = false, loaded = false },
+  }
+  local C = _G.C_AddOns
+  local count = (C and C.GetNumAddOns) or _G.GetNumAddOns
+  local info = (C and C.GetAddOnInfo) or _G.GetAddOnInfo
+  local loaded = (C and C.IsAddOnLoaded) or _G.IsAddOnLoaded
+  if not (count and info and loaded) then return mod end
+  local okN, n = pcall(count)
+  for i = 1, (okN and n) or 0 do
+    local ok, name, _, _, loadable, reason = pcall(info, i)
+    if ok and type(name) == "string" then
+      local low = name:lower()
+      local slot
+      if spokenQuests(low) then slot = mod.quests
+      elseif spokenZones(low) then slot = mod.places
+      elseif spokenBooks(low) then slot = mod.readables
+      elseif low == "spoken" then slot = mod.core
+      end
+      if slot then
+        local okL, isLoaded = pcall(loaded, name)
+        local isL = (okL and isLoaded) and true or false
+        local en = addOnEnableState(name)
+        if en == nil then en = (reason ~= "DISABLED") and (loadable == true or isL) end
+        slot.installed = true
+        slot.loaded = slot.loaded or isL
+        slot.enabled = slot.enabled or en or isL
+        slot.name = slot.name or name
+      end
+    end
+  end
+  return mod
+end
 
 function Voice.CheckSpoken()
   local s = S()
@@ -3840,6 +3929,140 @@ function Voice.FindOtherVoice()
   end
   if addOnLoaded(function(name) return name:find("^spoken") end) then return "Spoken" end
 end
+
+-- Honest, read-only UI helper for Settings > Audio > Quest dialogue (called only by Options.lua). Reports Spoken
+-- quest/place/readable modules separately and shows the real effective quest-dialogue state without altering gameplay
+-- routing or faking LOR-1549 live playback timing.
+function Voice.QuestDialogueStatus()
+  local mod = Voice.SpokenModules()
+  local other = Voice.otherVoice or Voice.FindOtherVoice()
+  local manual = Voice.OnDemand()
+  local qd = Voice.QuestDialogue()
+  local spokenQuest = mod.quests.loaded or (mod.core.loaded and not mod.places.loaded and not mod.readables.loaded)
+  local timing = type(Voice.SpokenTimingAvailable) == "function" and Voice.SpokenTimingAvailable() and true or false
+  local waiting = timing and not manual and type(Voice.SpokenWaiting) == "function" and Voice.SpokenWaiting() and true or false
+  local extraModules = {}
+  if mod.places.loaded then extraModules[#extraModules + 1] = L["Spoken Places"] end
+  if mod.readables.loaded then extraModules[#extraModules + 1] = L["Spoken Readables"] end
+
+  local effective = (not manual) and (not other) and qd
+  local blockedReason
+  if other then
+    blockedReason = string.format(L["Off while %s is in use."], other)
+  elseif manual then
+    blockedReason = L["Available with Automatic playback."]
+  end
+
+  if waiting then
+    return {
+      state = "waiting",
+      tone = "warm",
+      title = L["Waiting for Spoken"],
+      copy = L["One Lore Forever story is queued to play when Spoken finishes."],
+      blockedReason = blockedReason,
+      effective = false,
+      spokenQuest = spokenQuest,
+      other = other,
+      modules = mod,
+    }
+  elseif spokenQuest and timing then
+    return {
+      state = "detected",
+      tone = "teal",
+      title = mod.quests.loaded and L["Spoken Quests reads quests"] or L["Spoken reads quests"],
+      copy = manual and L["Lore Forever stories play when you press Play."]
+        or L["Lore Forever stories follow your Playback setting."],
+      blockedReason = blockedReason,
+      effective = false,
+      spokenQuest = true,
+      other = other,
+      modules = mod,
+    }
+  elseif spokenQuest then
+    local parts = { L["Automatic Lore Forever quest voices yield to Spoken; live playback timing is unavailable."] }
+    if mod.places.loaded then
+      parts[#parts + 1] = L["Spoken Places is also active for zone stories."]
+    elseif manual then
+      parts[#parts + 1] = L["Lore Forever stories play when you press Play."]
+    else
+      parts[#parts + 1] = L["Lore Forever stories follow your Playback setting."]
+    end
+    return {
+      state = "unknown",
+      tone = "warm",
+      title = mod.quests.loaded and L["Spoken Quests detected"] or L["Spoken detected"],
+      copy = table.concat(parts, " "),
+      blockedReason = blockedReason,
+      effective = false,
+      spokenQuest = true,
+      other = other,
+      modules = mod,
+    }
+  elseif #extraModules > 0 then
+    local modsText = table.concat(extraModules, ", ")
+    local copy
+    if other then
+      copy = manual
+        and string.format(L["Spoken Quests is not detected (%s active). Lore Forever stories play when you press Play."], modsText)
+        or string.format(L["Spoken Quests is not detected (%s active). Quest dialogue currently yields while %s is active."], modsText, other)
+    else
+      copy = effective
+        and string.format(L["%s is active, and Lore Forever reads quest dialogue."], modsText)
+        or manual and string.format(L["%s is active. Quest dialogue uses your setting when Automatic playback is on."], modsText)
+        or string.format(L["%s is active, and Lore Forever quest dialogue is off."], modsText)
+    end
+    return {
+      state = "module",
+      tone = "neutral",
+      title = string.format(L["%s detected"], modsText),
+      copy = copy,
+      blockedReason = blockedReason,
+      effective = effective,
+      spokenQuest = false,
+      other = other,
+      modules = mod,
+    }
+  elseif other then
+    return {
+      state = "other",
+      tone = "teal",
+      title = string.format(L["%s reads quests"], other),
+      copy = manual and L["Lore Forever stories play when you press Play."]
+        or L["Automatic Lore Forever quest voices yield while it is running. Lore Forever stories follow your Playback setting."],
+      blockedReason = blockedReason,
+      effective = false,
+      spokenQuest = false,
+      other = other,
+      modules = mod,
+    }
+  end
+
+  local copy
+  if mod.quests.installed and not mod.quests.loaded and not mod.quests.enabled then
+    copy = effective and L["Spoken Quests is disabled in AddOns; Lore Forever reads quest dialogue automatically."]
+      or manual and L["Spoken Quests is disabled in AddOns; quest dialogue uses your setting when Automatic playback is on."]
+      or L["Spoken Quests is disabled in AddOns, and Lore Forever quest dialogue is off."]
+  elseif manual then
+    copy = qd and L["Lore Forever quest voices wait until Automatic playback is on. Press Play on a quest window to hear it."]
+      or L["Quest dialogue is off. Press Play on a quest window to hear it."]
+  elseif qd then
+    copy = L["Lore Forever reads quest dialogue automatically."]
+  else
+    copy = L["Lore Forever quest dialogue is off. Press Play on a quest window to hear it."]
+  end
+  return {
+    state = "off",
+    tone = "neutral",
+    title = L["Spoken Quests not detected"],
+    copy = copy,
+    blockedReason = blockedReason,
+    effective = effective,
+    spokenQuest = false,
+    other = nil,
+    modules = mod,
+  }
+end
+Voice.SpokenUiState = Voice.QuestDialogueStatus
 
 -- A quest giver's or a gossip window opened while another add-on reads them aloud (Voice.otherVoice), whatever
 -- Lore Forever's own switch says (LOR-1408): what started by itself makes way, as for the game's own talking, and an arrival

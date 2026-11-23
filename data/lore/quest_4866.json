@@ -1,0 +1,84 @@
+{
+ "key": "quest:4866",
+ "type": "quest",
+ "name": "Mother's Milk",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4866
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ragged John seeks a live sample of Mother's Milk, the poison of Mother Smolderweb. He wants you poisoned so he can draw the sample from your veins.",
+ "sections": [
+  {
+   "title": "Ragged John's Request",
+   "body": "In Blackrock Spire, Ragged John wants a sample of the poison called Mother's Milk. The Blackrock speak of its lethality, and the poison takes its name from Mother Smolderweb, the spider in Skitterweb cave. A gland alone will not satisfy him; he asks you to return while the poison flows through your veins.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Living Sample",
+   "body": "Mother Smolderweb is deep within Blackrock Spire. Ragged John asks you to let her poison you, then return to him while you are poisoned. He expects to draw the Milk from your veins himself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Mother's Milk?",
+   "aliases": [
+    "mother's milk poison",
+    "what is the milk"
+   ],
+   "answer": "Mother's Milk is a potent poison associated with Mother Smolderweb, the spider in Skitterweb cave."
+  },
+  {
+   "q": "Who wants a sample of Mother's Milk?",
+   "aliases": [
+    "who asks for it",
+    "ragged john milk"
+   ],
+   "answer": "Ragged John wants a live sample of Mother's Milk drawn from your veins."
+  },
+  {
+   "q": "Where is Mother Smolderweb?",
+   "aliases": [
+    "smolderweb location",
+    "where is the spider"
+   ],
+   "answer": "Mother Smolderweb is in the heart of Blackrock Spire, in Skitterweb cave."
+  },
+  {
+   "q": "Why won't Ragged John take the gland?",
+   "aliases": [
+    "why not the gland",
+    "gland enough"
+   ],
+   "answer": "Ragged John asks for the poison flowing through your veins; he says a gland alone will not be enough."
+  },
+  {
+   "q": "What does Ragged John want you to bring back?",
+   "aliases": [
+    "what do i bring back",
+    "milk sample"
+   ],
+   "answer": "He wants you to return while Mother Smolderweb's poison is in your veins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock spire",
+  "live sample",
+  "mother smolderweb",
+  "mother's milk",
+  "poison",
+  "ragged john",
+  "skitterweb cave"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mother's Milk"
+ ]
+}

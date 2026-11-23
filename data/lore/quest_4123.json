@@ -1,0 +1,70 @@
+{
+ "key": "quest:4123",
+ "type": "quest",
+ "name": "The Heart of the Mountain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4123
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is maxwort",
+    "maxwort burning steppes",
+    "uberglint"
+   ],
+   "answer": "Maxwort Uberglint is a goblin stationed in the scorched wastes of the Burning Steppes who seeks rare treasures.",
+   "q": "Who is Maxwort Uberglint?"
+  },
+  {
+   "aliases": [
+    "heart of the mountain purpose",
+    "what is heart of the mountain",
+    "heart of the mountain lore"
+   ],
+   "answer": "It is a prize of striking beauty that Maxwort Uberglint covets enough to offer payment for its delivery.",
+   "q": "What is the Heart of the Mountain?"
+  },
+  {
+   "aliases": [
+    "where is maxwort",
+    "where to find maxwort uberglint"
+   ],
+   "answer": "Maxwort Uberglint waits in the Burning Steppes, north of the Redridge Mountains.",
+   "q": "Where is Maxwort Uberglint located?"
+  }
+ ],
+ "keywords": [
+  "burning steppes",
+  "heart of the mountain",
+  "maxwort uberglint",
+  "the heart of the mountain",
+  "uberglint"
+ ],
+ "related": [
+  "zone:burningsteppes"
+ ],
+ "sections": [
+  {
+   "body": "Maxwort Uberglint has set his sights on a prize he considers magnificent beyond reckoning. He waits in the ash of the Burning Steppes for someone daring enough to carry the stone into his hands, promising good coin in return.",
+   "spoiler": 0,
+   "title": "A Goblin's Desire"
+  },
+  {
+   "body": "Maxwort Uberglint marvels at the stone, finding it even more wondrous than he envisioned, and pays handsomely for your trouble.",
+   "spoiler": 1,
+   "title": "A Prized Delivery"
+  }
+ ],
+ "summary": "Maxwort Uberglint seeks the Heart of the Mountain from the fiery depths of Blackrock. Delivering the rare gem to him in the Burning Steppes earns a goblin's grateful payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Heart of the Mountain"
+ ]
+}
