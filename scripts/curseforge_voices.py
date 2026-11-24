@@ -233,6 +233,20 @@ def load_config(path: Path | None = None) -> list[dict]:
     return projects
 
 
+def unsynced_paused_projects(local_projects: list[dict], public_projects: list[dict]) -> list[str]:
+    """Return keys (in local order) of locally paused projects that are still unpaused in public_projects."""
+    public_by_key = {p["key"]: p for p in public_projects if isinstance(p, dict) and p.get("key")}
+    return [
+        p["key"]
+        for p in local_projects
+        if isinstance(p, dict)
+        and p.get("key")
+        and bool(p.get("paused")) is True
+        and p["key"] in public_by_key
+        and not public_by_key[p["key"]].get("paused")
+    ]
+
+
 # --- zips ----------------------------------------------------------------------------------------------------------
 
 def tops(zip_path: Path) -> list[str]:
