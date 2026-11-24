@@ -52,7 +52,7 @@
       "requires": [],
       "id": 1822132,
       "slug": "lore-forever-flyingorca-chinese-narrator",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-alliance",
@@ -66,7 +66,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822138,
       "slug": "lore-forever-flyingorca-chinese-alliance-lands",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-horde",
@@ -80,7 +80,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822142,
       "slug": "lore-forever-flyingorca-chinese-horde-lands",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-more-places",
@@ -94,7 +94,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822143,
       "slug": "lore-forever-flyingorca-chinese-more-places",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-more-people",
@@ -108,7 +108,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822144,
       "slug": "lore-forever-flyingorca-chinese-more-people",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-item-stories",
@@ -122,7 +122,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822147,
       "slug": "lore-forever-flyingorca-chinese-item-stories",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-quest-stories-3",
@@ -136,7 +136,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822148,
       "slug": "lore-forever-flyingorca-chinese-quest-stories-40",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-quests",
@@ -150,7 +150,7 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822149,
       "slug": "lore-forever-flyingorca-chinese-dialogue-1-25",
-      "live": false
+      "live": true
     },
     {
       "key": "flyingorca-chinese-quests-2",
@@ -241,8 +241,8 @@
       "file": "Lore Forever more quest dialogue 60 (male narrator) {v}",
       "core": "optional",
       "requires": [],
-      "id": null,
-      "slug": null,
+      "id": 1826757,
+      "slug": "lore-forever-more-quest-dialogue-60-male-narrator",
       "live": false
     },
     {
@@ -339,8 +339,8 @@
       "core": "optional",
       "requires": [],
       "suggests": ["female-narrator"],
-      "id": null,
-      "slug": null,
+      "id": 1826776,
+      "slug": "lore-forever-more-quest-dialogue-60-female",
       "live": false
     },
     {
@@ -614,8 +614,8 @@
       "file": "Lore Forever quest givers' voices 56+ {v}",
       "core": "optional",
       "requires": ["male-quests"],
-      "id": null,
-      "slug": null,
+      "id": 1826783,
+      "slug": "lore-forever-quest-givers-voices-levels-56",
       "live": false
     },
     {
