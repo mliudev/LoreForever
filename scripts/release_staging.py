@@ -22,7 +22,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from installer_inputs import CONTROLS, SELECTIONS, selected_archives
-import curseforge_voices as cv
 
 STAGE_WORKERS = 5      # side-by-side uploads to the draft release (stage --workers)
 ARTIFACT_WORKERS = 6   # artifact entries fetched side by side, each straight from storage (receive)
@@ -174,9 +173,12 @@ def load_holds(holds_path=None):
     return set(doc['holds'].keys())
 
 
+VERSION_SUFFIX = re.compile(r'-\d+\.\d+\.\d+(?:\.\d+)?$')
+
+
 def matches_held(name_or_stem, held):
     """Whether an archive name, stem, bundle stem, or transport shard matches a held pack."""
-    stem = name_or_stem.removesuffix('.zip')
+    stem = VERSION_SUFFIX.sub('', name_or_stem.removesuffix('.zip'))
     return (stem in held
             or stem.removesuffix('-complete') in held
             or any(stem.startswith(h + '_Transport_') for h in held))
@@ -256,19 +258,44 @@ def _check_candidate_sha(candidate, expected_sha):
 
 
 def core_manifest(args):
-    """Freeze source-bound core ZIP digest and CurseForge fingerprints without waiting on optional narration packs."""
+    """Freeze source-bound core ZIP (+ decoupled transport contract when provided) without building optional packs."""
     bound = binding(args)
     version = args.tag.removeprefix('v')
     candidate = row(args.core, 'LoreForever.zip')
     _check_candidate_sha(candidate, getattr(args, 'zip_sha256', None))
     if not 0 < candidate['bytes'] < GITHUB_ASSET_LIMIT:
         raise Failure('LoreForever.zip is over GitHub\'s release asset limit')
+    import curseforge_voices as cv
     projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
     fingerprints = cv.source_fingerprints(projects, {'LoreForever.zip': args.core}, version)
-    proof = {'version': 1, 'producer': 'core', 'binding': bound, 'assets': [candidate],
-             'candidateZipSha256': candidate['sha256'], 'curseforge': fingerprints}
+    proof_assets = [candidate]
+    extra_fields = {}
+    report = {'releaseFiles': 1, 'releaseBytes': candidate['bytes']}
+    if getattr(args, 'extras', None) is not None:
+        downloads, inputs = installer_inputs(args, candidate)
+        if getattr(args, 'handover', None) is not None:
+            early = read(args.handover)
+            if (early.get('version'), early.get('binding'), early.get('files'), early.get('candidateZipSha256')) != (
+                    1, bound, inputs, candidate['sha256']):
+                raise Failure('The installer inputs handed to Windows differ from the full build')
+        transport_row = row(args.extras / CONTROLS[0], 'transport-downloads.json')
+        if not 0 < transport_row['bytes'] < GITHUB_ASSET_LIMIT:
+            raise Failure('transport-downloads.json is over GitHub\'s release asset limit')
+        proof_assets = sorted([candidate, transport_row], key=lambda r: r['name'])
+        extra_fields = {
+            'installerInputs': inputs,
+            'smokeSelections': {s: s == 'base' or bool(downloads['selections'].get(s)) for s in SELECTIONS},
+        }
+        report = {
+            'releaseFiles': len(proof_assets),
+            'releaseBytes': sum(r['bytes'] for r in proof_assets),
+            'windowsFiles': len(inputs),
+            'windowsBytes': sum(r['bytes'] for r in inputs),
+        }
+    proof = {'version': 1, 'producer': 'core', 'binding': bound, 'assets': proof_assets,
+             'candidateZipSha256': candidate['sha256'], 'curseforge': fingerprints, **extra_fields}
     write(args.output, proof)
-    print(json.dumps({'releaseFiles': 1, 'releaseBytes': candidate['bytes']}))
+    print(json.dumps(report))
 
 
 def _validate_extras(args):
@@ -309,6 +336,7 @@ def linux_manifest(args):
     bound, version, candidate, downloads, inputs, archives = _validate_extras(args)
     files = {'LoreForever.zip': args.core, **{n: args.extras / n for n in archives},
              'transport-downloads.json': args.extras / CONTROLS[0]}
+    import curseforge_voices as cv
     projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
     fingerprints = cv.source_fingerprints(projects, files, version)
     proof = {'version': 1, 'producer': 'linux', 'binding': bound, 'assets': [row(p, n) for n, p in sorted(files.items())],
@@ -327,6 +355,7 @@ def packs_manifest(args):
     for r in rows:
         if r['bytes'] >= GITHUB_ASSET_LIMIT:
             raise Failure(r['name'] + ' is over GitHub\'s release asset limit')
+    import curseforge_voices as cv
     projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
     fingerprints = cv.source_fingerprints(projects, {'LoreForever.zip': args.core, **pack_files}, version)
     proof = {'version': 1, 'producer': 'packs', 'binding': bound, 'assets': rows,
@@ -806,12 +835,23 @@ def check_installer(linux, installer, bound, signed, packs=None, holds_path=None
         if installer['smoke'] != expected or expected.get('base') != 'passed':
             raise Failure('Installer smoke evidence is incomplete')
     elif linux.get('producer') == 'core':
+        ref = None
         if packs is not None:
             if packs.get('version') != 1 or packs.get('producer') != 'packs' or not same_binding(packs['binding'], bound):
                 raise Failure('Invalid packs proof')
-            if packs['candidateZipSha256'] != linux['candidateZipSha256'] or packs['installerInputs'] != installer['installerInputs']:
+            if packs['candidateZipSha256'] != linux['candidateZipSha256']:
                 raise Failure('Installer did not use the exact Linux inputs')
-            expected = {s: 'passed' if available else 'unavailable' for s, available in packs['smokeSelections'].items()}
+            ref = packs
+        elif 'installerInputs' in linux and 'smokeSelections' in linux:
+            held = load_holds(holds_path)
+            for item in installer['installerInputs']:
+                if matches_held(item.get('name', '').split('/')[-1], held):
+                    raise Failure('Held pack in installer inputs: ' + item.get('name', ''))
+            ref = linux
+        if ref is not None:
+            if ref['installerInputs'] != installer['installerInputs']:
+                raise Failure('Installer did not use the exact Linux inputs')
+            expected = {s: 'passed' if available else 'unavailable' for s, available in ref['smokeSelections'].items()}
             if installer['smoke'] != expected or expected.get('base') != 'passed':
                 raise Failure('Installer smoke evidence is incomplete')
         else:
@@ -1452,6 +1492,9 @@ def main():
     core = sub.add_parser('core-manifest')
     core.add_argument('--core', type=Path, required=True)
     core.add_argument('--output', type=Path, required=True)
+    core.add_argument('--extras', type=Path)
+    core.add_argument('--handover', type=Path)
+    core.add_argument('--holds', type=Path)
     core.add_argument('--zip-sha256', help='expected candidate ZIP SHA256 (from prepare)')
     for cmd_name in ('linux-manifest', 'packs-manifest'):
         manifest_cmd = sub.add_parser(cmd_name)
