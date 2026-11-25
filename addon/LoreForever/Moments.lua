@@ -94,12 +94,13 @@ local function hour(k, field, wall)
   return recent
 end
 
--- Whose: the character's tag (nil when the game doesn't say who: no page).
+-- Whose: the character's tag (nil when the game doesn't say who: no page). Allow a fallback realm ("?") when the
+-- client returns no realm name, matching Strip.Identity / Strip.Sheet and Journey.CharKey's Name-? key.
 local function whose()
   local J = ns.Journey
   if not (J and J.CharKey) then return nil end
   local key, name, realm = J.CharKey()
-  if type(key) ~= "string" or not name or not realm or name == "?" or realm == "?" then return nil end
+  if type(key) ~= "string" or not name or name == "" or name == "?" or not realm or realm == "" then return nil end
   return ns.Strip.CRC32(key) % 4096
 end
 
@@ -124,11 +125,14 @@ end
 
 local function pairsOk() return ns.Strip.PairsFromWillo() end
 
--- What a moment goes as (a list of pages): two for a new kind (wants: only to a Willo that reads them), else the one
--- page as before. (Not for a quest or item past 16 bits: the site takes a whole number only for the new kinds, and
--- names those through CUT and the journal's full id, the Architect's #3769 hold.)
+-- What a moment goes as (a list of pages): two for a new kind (wants: only to a Willo that reads them) or for a
+-- Forever custom item past 16 bits (blue, epic, mount) when Willo reads pairs; else the one page as before (leaving
+-- quest/turnin on Page so quest_id stays intact, and falling back to CUT when PairsFromWillo is false).
+local ITEM_PAIR = { blue = true, epic = true, mount = true }
 function Moments.Pages(kind, tag, id)
-  if NEW[kind] then return Moments.Pair(kind, tag, id) end
+  if NEW[kind] or (ITEM_PAIR[kind] and type(id) == "number" and id >= 65536 and pairsOk()) then
+    return Moments.Pair(kind, tag, id)
+  end
   return { Moments.Page(kind, tag, id) }
 end
 

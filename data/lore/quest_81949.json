@@ -1,0 +1,68 @@
+{
+ "key": "quest:81949",
+ "type": "quest",
+ "name": "Legends of the Tidesages",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   81949
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what is legends of the tidesages",
+    "what is this book",
+    "tidesages book"
+   ],
+   "answer": "It is a magical tome delivered to expand the archives of the Library in Ironforge.",
+   "q": "What is Legends of the Tidesages?"
+  },
+  {
+   "aliases": [
+    "who wants legends of the tidesages",
+    "where to take legends of the tidesages",
+    "who takes the book"
+   ],
+   "answer": "Scholars at the Library in Ironforge accept the work to preserve its knowledge and add to their collection.",
+   "q": "Who wants the book?"
+  },
+  {
+   "aliases": [
+    "what happens after legends of the tidesages",
+    "more books library",
+    "can i bring more books"
+   ],
+   "answer": "The scholars ask that you bring them any further magical writings you recover that could aid the library.",
+   "q": "Can more books be brought to the library?"
+  }
+ ],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "legends of the tidesages",
+  "library",
+  "magical works",
+  "tidesages",
+  "tome"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "sections": [
+  {
+   "body": "Scholars in Ironforge seek to broaden their understanding of arcane and historical lore. Each volume retrieved from the wider world preserves lore that might otherwise vanish into obscurity.",
+   "spoiler": 0,
+   "title": "Gathering Knowledge"
+  }
+ ],
+ "summary": "A tome of obscure lore has made its way to the Library in Ironforge. Scholars there welcome such additions, eager to deepen their collection of arcane knowledge.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Legends of the Tidesages"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "quest:94285",
+ "type": "quest",
+ "name": "Craftsman's Writ: Unstable Trigger",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94285
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you possess the skill to assemble delicate contraptions like the Unstable Trigger required to satisfy this commercial order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what does writ need",
+    "writ unstable trigger item",
+    "unstable trigger turn in"
+   ],
+   "answer": "The contract calls for one Unstable Trigger to be brought to the specified buyer.",
+   "q": "What item is requested by the craftsman's writ?"
+  },
+  {
+   "aliases": [
+    "is craftsman writ transferable",
+    "who can do writ",
+    "can anyone turn in writ"
+   ],
+   "answer": "Yes. The order is fully transferable, allowing anyone in possession of the document to deliver the trigger and claim the payment.",
+   "q": "Can anyone fulfill this trade contract?"
+  },
+  {
+   "aliases": [
+    "do i need writ with me",
+    "holding the writ",
+    "keep the writ"
+   ],
+   "answer": "The customer requires physical proof of the contract to complete the transaction, meaning the document itself must be carried to the destination.",
+   "q": "Why must the writ be kept during delivery?"
+  }
+ ],
+ "keywords": [
+  "contract",
+  "craftsman's writ",
+  "delivery",
+  "engineering",
+  "order",
+  "transferable",
+  "unstable trigger"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has placed an order for an Unstable Trigger, setting down the delivery post and the payment in faded ink. Because the craftsman's writ is fully transferable, the agreement binds whoever carries the parchment rather than a single maker. You need only secure the volatile mechanical component and present the paper at the appointed location to settle the trade.",
+   "spoiler": 0,
+   "title": "A Transferable Order"
+  }
+ ],
+ "summary": "A faded trade order calls for a single Unstable Trigger to be crafted and delivered to an awaiting buyer. Anyone holding the transferable document can fulfill the contract and collect the promised pay.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Unstable Trigger"
+ ]
+}

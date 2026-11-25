@@ -2,15 +2,15 @@
 ## Title: Lore Forever - Italiano
 ## Notes: Italian language pack for Lore Forever.
 ## Author: Lore Forever translators
-## Version: 1.17.0
+## Version: 1.18.0
 ## Dependencies: LoreForever
 ## LoadOnDemand: 1
 ## X-LoreForever-Pack: lang
 ## X-LoreForever-Locale: itIT
 ## X-LoreForever-Format: 1
-## X-LoreForever-DataVersion: 2026-11-23 22:57 UTC
+## X-LoreForever-DataVersion: 2026-11-25 03:06 UTC
 ## X-LoreForever-LanguageName: Italiano
-## X-LoreForever-Sources: 84d60f3328ea9fe5
+## X-LoreForever-Sources: 94f4b13b83c3999e
 
 # The files load through Lang.xml, which lists them.
 Lang.xml

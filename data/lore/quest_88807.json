@@ -1,0 +1,94 @@
+{
+ "key": "quest:88807",
+ "type": "quest",
+ "name": "Slay the Spitelash",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88807
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "truesong",
+    "who gives this quest",
+    "commander truesong azshara"
+   ],
+   "answer": "Commander Truesong is a commander stationed in Azshara who rallies defenders against the horrors emerging from the sea.",
+   "q": "Who is Commander Truesong?"
+  },
+  {
+   "aliases": [
+    "why are naga here",
+    "spitelash naga azshara",
+    "spitelash motives"
+   ],
+   "answer": "The Spitelash naga have surfaced from the waters and occupied the Ruins of Eldarath, fortifying the ancient city against the land.",
+   "q": "Why are the Spitelash naga in Azshara?"
+  },
+  {
+   "aliases": [
+    "ruins of eldarath location",
+    "where is eldarath",
+    "find eldarath"
+   ],
+   "answer": "The ruins lie to the northeast of Commander Truesong's post in Azshara.",
+   "q": "Where are the Ruins of Eldarath?"
+  },
+  {
+   "aliases": [
+    "why outskirts",
+    "why not attack the center",
+    "spitelash strategy"
+   ],
+   "answer": "The naga inside the ruins are heavily fortified, so Commander Truesong directs fighters to thin out the patrols on the edges before pushing deeper.",
+   "q": "Why attack the outskirts of the ruins first?"
+  },
+  {
+   "aliases": [
+    "which naga",
+    "spitelash targets",
+    "who to kill"
+   ],
+   "answer": "Commander Truesong targets the Spitelash warriors and screamers patrolling the perimeter around the ruins.",
+   "q": "Which naga need to be slain?"
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "commander truesong",
+  "eldarath",
+  "naga",
+  "ruins of eldarath",
+  "screamers",
+  "spitelash",
+  "truesong"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "topic:naga"
+ ],
+ "sections": [
+  {
+   "body": "Commander Truesong stands guard along the cliffs of Azshara, warning travelers that beneath the beauty of this land lies a bitter curse. Terrors stir beneath the waves, waiting for the hour to rise and tear the world apart. For now, the defenders can only meet the threats that have already crawled onto dry land.",
+   "spoiler": 0,
+   "title": "Horrors of the Coast"
+  },
+  {
+   "body": "To the northeast, the Spitelash naga hold the ancient Ruins of Eldarath. Those entrenched within the broken heart of the city are strongly fortified, making a direct strike costly. Truesong needs you to strike their outskirts instead, cutting down the warriors and screamers patrolling the perimeter.",
+   "spoiler": 0,
+   "title": "The Ruins of Eldarath"
+  }
+ ],
+ "summary": "Commander Truesong watches the cursed coast of Azshara, where horrors rise from the depths. The Spitelash naga have taken the Ruins of Eldarath, and holding them back begins along the outer edges of the ancient stone.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Slay the Spitelash"
+ ]
+}

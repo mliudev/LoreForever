@@ -1,0 +1,82 @@
+{
+ "key": "quest:99258",
+ "type": "quest",
+ "name": "Mana Mania",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99258
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "biraxas",
+    "historian biraxas role",
+    "who gives mana mania"
+   ],
+   "answer": "Historian Biraxas is a scholar residing in the temple of Shen'dralas who studies methods to restore and maintain defenses for his people.",
+   "q": "Who is Historian Biraxas?"
+  },
+  {
+   "aliases": [
+    "crystal heart",
+    "depleted heart",
+    "what is the heart for"
+   ],
+   "answer": "It is a specialized gem vessel designed to absorb ambient magical energy from an unstable mana rift and conjure a defensive elemental.",
+   "q": "What is the Depleted Crystal Heart?"
+  },
+  {
+   "aliases": [
+    "why test rifts",
+    "loose mana shendralas",
+    "purpose of rift test"
+   ],
+   "answer": "Historian Biraxas needs to know whether enough loose mana remains in the temple before committing time and research to conjuring guardian elementals.",
+   "q": "Why test the unstable mana rifts in Shen'dralas?"
+  },
+  {
+   "aliases": [
+    "shendralas elementals",
+    "shendralas defenses",
+    "why conjuring elementals"
+   ],
+   "answer": "They seek to conjure elementals to serve as defenders for their temple, provided enough ambient magical energy remains.",
+   "q": "What are the Shen'dralas seeking to build?"
+  }
+ ],
+ "keywords": [
+  "crystal heart",
+  "eldre'thalas",
+  "elementals",
+  "historian biraxas",
+  "mana mania",
+  "shen'dralas",
+  "unstable mana rift"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "sections": [
+  {
+   "body": "Within the temple of Shen'dralas, Historian Biraxas worries that the ancient stronghold lacks the loose mana required to conjure new guardian elementals. Finding the proper gems is difficult enough, yet determining whether any usable magical energy lingers is the true test. Biraxas hands you a depleted crystal heart to cast into an unstable rift. If energy surges forth to animate the stone, the historians will know their sanctuary can still defend itself.",
+   "spoiler": 0,
+   "title": "Testing the Rifts"
+  },
+  {
+   "body": "Hurl the stone into the unstable rift and an elemental stirs, confirming that workable mana still lingers in the sanctuary. Historian Biraxas is stunned by the success after decades of doubt, greeting the breakthrough as an unlife-changing discovery for the Shen'dralas.",
+   "spoiler": 1,
+   "title": "A Surge of Energy"
+  }
+ ],
+ "summary": "Historian Biraxas in the temple of Shen'dralas seeks to learn if enough loose magic remains to conjure protective elementals. By casting a depleted crystal heart into an unstable rift, you can test if the ancient sanctuary still holds the power to craft its own defenses.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mana Mania"
+ ]
+}

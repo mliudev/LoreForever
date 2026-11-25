@@ -1,0 +1,81 @@
+{
+ "key": "quest:2768",
+ "type": "quest",
+ "name": "Divino-matic Rod",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2768
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants the rod",
+    "who gives this",
+    "divino-matic rod recipient"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle seeks the Divino-matic Rod and waits for its delivery in Gadgetzan.",
+   "q": "Who is looking for the Divino-matic Rod?"
+  },
+  {
+   "aliases": [
+    "bilgewhizzle location",
+    "where is bilgewhizzle",
+    "where is the chief engineer"
+   ],
+   "answer": "Chief Engineer Bilgewhizzle stays in the goblin settlement of Gadgetzan.",
+   "q": "Where does Chief Engineer Bilgewhizzle stay?"
+  },
+  {
+   "aliases": [
+    "who has the rod",
+    "where to get divino-matic rod",
+    "who has it"
+   ],
+   "answer": "Sergeant Bly and his band have the rod in their possession.",
+   "q": "Who holds the Divino-matic Rod?"
+  },
+  {
+   "aliases": [
+    "bilgewhizzle bly grudge",
+    "why does bilgewhizzle hate bly",
+    "bilgewhizzle and bly"
+   ],
+   "answer": "Sergeant Bly and his band took the rod, leaving Chief Engineer Bilgewhizzle hoping to see them thoroughly trounced for taking it.",
+   "q": "Why does Chief Engineer Bilgewhizzle hold a grudge against Bly?"
+  }
+ ],
+ "keywords": [
+  "bilgewhizzle",
+  "bly",
+  "chief engineer bilgewhizzle",
+  "divino-matic rod",
+  "gadgetzan",
+  "sergeant bly"
+ ],
+ "related": [
+  "subzone:gadgetzan"
+ ],
+ "sections": [
+  {
+   "body": "In the desert outpost of Gadgetzan, Chief Engineer Bilgewhizzle waits for his lost device. Sergeant Bly and a band of outlaws carry the rod, and retrieving it requires facing them down in the sands. The chief engineer expects Bly's crew to put up a fight before surrendering what they took.",
+   "spoiler": 0,
+   "title": "A Matter in Gadgetzan"
+  },
+  {
+   "body": "Returning the rod to Gadgetzan delights Chief Engineer Bilgewhizzle. The goblin hopes you gave Sergeant Bly and his companions a thorough beating when you prised the device away.",
+   "spoiler": 1,
+   "title": "Settling with Bly"
+  }
+ ],
+ "summary": "Chief Engineer Bilgewhizzle needs the Divino-matic Rod returned to him in Gadgetzan. Recovering the device means tracking down Bly and taking it back from his band.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Divino-matic Rod"
+ ]
+}

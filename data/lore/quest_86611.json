@@ -1,0 +1,88 @@
+{
+ "key": "quest:86611",
+ "type": "quest",
+ "name": "Stag Lord's Bauble",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86611
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Malorne is revered across your ancient lands. Seeing a relic of the Stag Lord touched by demonic rot calls for swift action to keep the taint from spreading."
+  },
+  {
+   "target": "class:Druid",
+   "text": "The Great Stag is sacred to the Cenarion Circle. Finding even a piece of Malorne's monument defiled by green magic demands answers from the elders of the glade."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "where is statue",
+    "stag statue lake"
+   ],
+   "answer": "The eroded stag monument rests beneath foul slime at the bottom of a lake.",
+   "q": "Where was the stag statue found?"
+  },
+  {
+   "aliases": [
+    "what is bauble",
+    "stag crystal"
+   ],
+   "answer": "It is a medallion set with a single crystal stone that shines with an unwholesome green light.",
+   "q": "What is the Stag Lord's Bauble?"
+  },
+  {
+   "aliases": [
+    "who knows history",
+    "where take bauble"
+   ],
+   "answer": "The people of Talonbranch Glade may remember the origin of the sunken monument and its tainted stone.",
+   "q": "Where should the medallion be taken?"
+  },
+  {
+   "aliases": [
+    "who is stag lord",
+    "stag lord name"
+   ],
+   "answer": "The Stag Lord is Malorne, the ancient white stag honored throughout the northern forests.",
+   "q": "Who is the Stag Lord?"
+  }
+ ],
+ "keywords": [
+  "bauble",
+  "crystal",
+  "fel energy",
+  "malorne",
+  "medallion",
+  "stag lord",
+  "talonbranch glade"
+ ],
+ "related": [
+  "subzone:talonbranch-glade",
+  "quest:86612"
+ ],
+ "sections": [
+  {
+   "body": "Deep in a pool of foul slime, a stone stag lies worn away by the muck. No one knows how the carving reached the lake floor, yet a medallion hangs still about its neck. The single crystal set into the stone glows with an unwholesome green shine. Bringing the piece to Talonbranch Glade might uncover where the monument once stood.",
+   "spoiler": 0,
+   "title": "A Sunken Monument"
+  },
+  {
+   "body": "The medallion once adorned a statue at the shrine of Malorne. During the war, demons cast the monument down the mountain slopes. Over the years, the stone drank in fel magic until dark power settled deep inside it, forcing the keepers in Talonbranch Glade to shatter the crystal for good.",
+   "spoiler": 1,
+   "title": "Tainted by the Legion"
+  }
+ ],
+ "summary": "At the bottom of a fouled lake rests the worn statue of a stag, bearing a medallion with a sickly green stone. Its history is lost to the slime, but the night elves of Talonbranch Glade may recognize the ancient carving.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stag Lord's Bauble"
+ ]
+}

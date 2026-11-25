@@ -1,0 +1,70 @@
+{
+ "key": "quest:95766",
+ "type": "quest",
+ "name": "Fine Feathered Friend",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95766
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, aiding the renewal of the natural world and seeking out ancient spirits of nature lies at the heart of your calling."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who am i looking for",
+    "what is the feathered friend",
+    "where is the bird"
+   ],
+   "answer": "You seek a powerful entity who appears as a small bird, resting among corrupted grounds upon the southwestern slope.",
+   "q": "Who are you sent to find?"
+  },
+  {
+   "aliases": [
+    "where to go",
+    "where is the ashen land",
+    "which direction"
+   ],
+   "answer": "Journey west toward the ashen, corrupted lands that spread across the southwestern slope.",
+   "q": "Where must you travel?"
+  },
+  {
+   "aliases": [
+    "why find the bird",
+    "what does the bird do"
+   ],
+   "answer": "With nature beginning to stir anew, her great strength is needed to confront a far more dire threat.",
+   "q": "Why is this strange bird needed?"
+  }
+ ],
+ "keywords": [
+  "ancients",
+  "ashen land",
+  "corrupted lands",
+  "fine feathered friend",
+  "renewal",
+  "southwestern slope",
+  "strange bird"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Nature stirs with fresh life as the ancients begin to rise once more. Your aid has tipped the balance toward renewal, yet a far darker blight looms in the west. Across the ashen ground of the southwestern slope rests a small bird, a creature whose modest shape hides immense strength. Turning to her aid may offer the strength needed to heal a wounded world.",
+   "spoiler": 0,
+   "title": "A Beacon in the Ash"
+  }
+ ],
+ "summary": "The cycle of renewal begins to stir, and the ancients prepare to rise again. To aid a troubled land, you are sent west to the ashen slopes to find an unlikely ally disguised as a small bird.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fine Feathered Friend"
+ ]
+}

@@ -1039,7 +1039,7 @@ end
 -- Whether this book's page plays now, from the pill, by itself or from the playlist.
 function Hooks.ReadingBook()
   local UI, clip = ns.UI, ns.Voice.BookPageClip()
-  return (UI and UI.speaking and (ns.Voice.IsBookText(UI.playingId) or (clip ~= nil and UI.playingKey == clip))) and true or false
+  return (UI and UI.speaking and clip ~= nil and (UI.playingId == clip or UI.playingKey == clip)) and true or false
 end
 
 function Hooks.UpdateBookButton()

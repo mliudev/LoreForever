@@ -1,0 +1,76 @@
+{
+ "key": "quest:4145",
+ "type": "quest",
+ "name": "Larion and Muigin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4145
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "larion",
+    "who is larion",
+    "larion marshal's refuge"
+   ],
+   "answer": "Larion is an expeditioner camped at Marshal's Refuge who wants the dangerous Bloodpetal plants hunted down.",
+   "q": "Who is Larion?"
+  },
+  {
+   "aliases": [
+    "marshal's refuge location",
+    "where is marshal's refuge"
+   ],
+   "answer": "Marshal's Refuge is an expedition camp in the northern heights of Un'Goro Crater.",
+   "q": "Where is Marshal's Refuge?"
+  },
+  {
+   "aliases": [
+    "bloodpetals un'goro",
+    "what are bloodpetals"
+   ],
+   "answer": "Bloodpetals are carnivorous plants that grow across Un'Goro Crater, including lashers, threshers, flayers, and trappers.",
+   "q": "What are Bloodpetals?"
+  },
+  {
+   "aliases": [
+    "bloodpetal varieties",
+    "which bloodpetals"
+   ],
+   "answer": "Larion directs hunters after lashers, threshers, flayers, and trappers.",
+   "q": "Which types of Bloodpetals does Larion target?"
+  }
+ ],
+ "keywords": [
+  "bloodpetal",
+  "flayer",
+  "larion",
+  "lasher",
+  "marshal's refuge",
+  "muigin",
+  "thresher",
+  "trapper",
+  "un'goro"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge"
+ ],
+ "sections": [
+  {
+   "body": "Larion makes his camp at Marshal's Refuge, where the wild growth of Un'Goro Crater crowds close against the shelter of the cliffs. The carnivorous Bloodpetals flourish in the warm basin below, multiplying into vicious varieties that endanger everyone living along the rim. Larion wants five lashers, five threshers, five flayers, and five trappers culled to keep their numbers in check.",
+   "spoiler": 0,
+   "title": "Thinning the Bloodpetals"
+  }
+ ],
+ "summary": "Larion needs help clearing out the hostile plant life encroaching around Marshal's Refuge. You are asked to track down and cull four varieties of aggressive Bloodpetals threatening the camp.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Larion and Muigin"
+ ]
+}

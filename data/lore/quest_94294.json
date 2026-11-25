@@ -1,0 +1,64 @@
+{
+ "key": "quest:94294",
+ "type": "quest",
+ "name": "Craftsman's Writ: Dusky Bracers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94294
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what do i need for this writ",
+    "writ items",
+    "what item is needed"
+   ],
+   "answer": "The order requests one pair of Dusky Bracers to satisfy the customer's trade agreement.",
+   "q": "What is requested in this writ?"
+  },
+  {
+   "aliases": [
+    "is writ tradeable",
+    "can i give this writ away",
+    "transfer writ"
+   ],
+   "answer": "Yes. The text denotes that the document is transferable, meaning anyone holding it may fulfill the delivery.",
+   "q": "Can someone else fulfill this writ?"
+  },
+  {
+   "aliases": [
+    "how to get paid",
+    "completing the delivery",
+    "writ payment requirements"
+   ],
+   "answer": "You must hold the writ itself when delivering the bracers to the marked location to receive payment.",
+   "q": "What is needed to claim payment?"
+  }
+ ],
+ "keywords": [
+  "craftsman",
+  "craftsman's writ",
+  "dusky bracers",
+  "order",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has placed an order for a pair of Dusky Bracers, scribbled out in faded ink across this transferable parchment. The note outlines both the promised payment and where the shipment must go. Whoever carries the writ and delivers the armor can claim the coin for the work.",
+   "spoiler": 0,
+   "title": "A Transferable Order"
+  }
+ ],
+ "summary": "A trade order written in faded ink calls for a pair of Dusky Bracers to be delivered to a marked customer. The transferable document promises payment upon arrival, so long as the parchment remains in your hands.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Dusky Bracers"
+ ]
+}

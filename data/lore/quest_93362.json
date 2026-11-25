@@ -1,0 +1,76 @@
+{
+ "key": "quest:93362",
+ "type": "quest",
+ "name": "What They've Done to My Peonies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93362
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives what they've done to my peonies",
+    "peonies quest giver",
+    "who is mithera"
+   ],
+   "answer": "Mithera gives the request from Shen'dralas, grieving over her lost necklace and her suffering plants.",
+   "q": "Who is asking for the garden to be culled?"
+  },
+  {
+   "aliases": [
+    "forlorn garden location",
+    "where are the peonies",
+    "where to cull plants"
+   ],
+   "answer": "The Forlorn Garden lies near Shen'dralas, where the local plant life has grown twisted and hostile.",
+   "q": "Where is the Forlorn Garden located?"
+  },
+  {
+   "aliases": [
+    "why kill the plants",
+    "why cull the flora",
+    "peonies quest reason"
+   ],
+   "answer": "The plants have grown enraged and twisted from suffering. Mithera wants them granted a swift and merciful end because they can feel pain.",
+   "q": "Why does Mithera want the plants culled?"
+  },
+  {
+   "aliases": [
+    "mithera lost item",
+    "what happened to mithera necklace",
+    "mithera necklace"
+   ],
+   "answer": "Mithera lost her necklace, though she considers the chances of recovering it unlikely.",
+   "q": "What else has Mithera lost?"
+  }
+ ],
+ "keywords": [
+  "flora",
+  "forlorn garden",
+  "mithera",
+  "necklace",
+  "peonies",
+  "shen'dralas"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "sections": [
+  {
+   "body": "Grief weighs heavily on Mithera as she lingers within Shen'dralas. Her precious necklace is missing, yet the agony of her beloved garden pains her even more deeply. The flora in the Forlorn Garden has turned wild and angry from whatever twisted power touched the soil. Knowing the suffering plants can feel pain, she seeks someone to thin their ranks swiftly before further harm befalls them.",
+   "spoiler": 0,
+   "title": "Mercy in the Overgrowth"
+  }
+ ],
+ "summary": "Mithera mourns both her lost necklace and the corruption that has gripped the Forlorn Garden. She asks you to grant a swift and merciful end to the tormented flora suffering in Shen'dralas.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: What They've Done to My Peonies"
+ ]
+}

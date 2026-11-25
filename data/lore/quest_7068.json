@@ -1,0 +1,66 @@
+{
+ "key": "quest:7068",
+ "type": "quest",
+ "name": "Shadowshard Fragments",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7068
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is uthelnay",
+    "who gives shadowshard fragments",
+    "where is uthelnay"
+   ],
+   "answer": "Uthel'nay awaits in the city of Orgrimmar, seeking fragments brought back from Maraudon.",
+   "q": "Who is Uthel'nay?"
+  },
+  {
+   "aliases": [
+    "where are shadowshard fragments found",
+    "where to get shadowshard fragments",
+    "shadowshard fragment location"
+   ],
+   "answer": "Shadowshard Fragments are found deep within Maraudon.",
+   "q": "Where do the Shadowshard Fragments come from?"
+  },
+  {
+   "aliases": [
+    "how many fragments needed",
+    "how many shadowshard fragments",
+    "fragment count"
+   ],
+   "answer": "Uthel'nay requires ten Shadowshard Fragments brought to Orgrimmar.",
+   "q": "How many Shadowshard Fragments are needed?"
+  }
+ ],
+ "keywords": [
+  "fragments",
+  "maraudon",
+  "orgrimmar",
+  "shadowshard fragments",
+  "uthelnay"
+ ],
+ "related": [
+  "zone:orgrimmar"
+ ],
+ "sections": [
+  {
+   "body": "Maraudon holds the crystalline shards Uthel'nay desires. Gathering ten of these pieces will require venturing into the caverns before carrying them back to the Orc capital.",
+   "spoiler": 0,
+   "title": "The Shards of Maraudon"
+  }
+ ],
+ "summary": "Uthel'nay in Orgrimmar seeks ten Shadowshard Fragments from within Maraudon. You are asked to gather these mineral remnants from the caverns and return to the Horde capital.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shadowshard Fragments"
+ ]
+}

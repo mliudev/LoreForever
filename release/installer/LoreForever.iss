@@ -43,7 +43,7 @@
   #define OutputDir "..\..\dist"
 #endif
 ; The voice zips of this very version, so a voice always matches the add-on it's installed with.
-#define VoiceBase "https://github.com/mliudev/LoreForever/releases/download/v" + AppVersion + "/"
+#define VoiceBase "https://downloads.loreforeverwow.com/v" + AppVersion + "/"
 
 #define AddOnDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever"
 #define VoiceDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default"

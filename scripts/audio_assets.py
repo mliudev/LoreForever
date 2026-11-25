@@ -46,6 +46,7 @@ import sys
 import tempfile
 import threading
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import zipfile
@@ -58,7 +59,15 @@ ROOT = Path(__file__).resolve().parents[1]
 ADDONS = ROOT / "addon"
 MANIFEST = ROOT / "release" / "audio.json"
 REPO, TAG = "mliudev/LoreForever", "audio"
-BASE = f"https://github.com/{REPO}/releases/download/{TAG}"
+GITHUB_BASE = f"https://github.com/{REPO}/releases/download/{TAG}"
+UA = "LoreForever-audio-assets (bot)"
+
+
+def r2_base() -> str:
+    return f"{(os.environ.get('LORE_DOWNLOADS_PUBLIC_URL') or 'https://downloads.loreforeverwow.com').rstrip('/')}/{TAG}"
+
+
+BASE = r2_base()
 AUDIO = {".mp3", ".ogg"}
 DATE = (2026, 1, 1, 0, 0, 0)   # fixed, so a pack's zip is the same bytes whenever its recordings are
 BUNDLE_FORMAT = "stored-audio-v1"
@@ -83,13 +92,22 @@ class Failure(Exception):
     pass
 
 
-def shipped_packs() -> list[str]:
-    """The voice pack folders a release ships (build-release.sh PACKS and RELEASE_PACKS) that are in addon/."""
+def _build_release_packs(pattern: str) -> list[str]:
     src = (ROOT / "scripts" / "build-release.sh").read_text(encoding="utf-8")
-    names = [n for m in re.findall(r"^(?:RELEASE_)?PACKS = \[(.*?)\]", src, re.M | re.S) for n in re.findall(r'"([^"]+)"', m)]
+    names = [n for m in re.findall(pattern, src, re.M | re.S) for n in re.findall(r'"([^"]+)"', m)]
     return [n for n in dict.fromkeys(names)
             if (n.startswith("LoreForever_Voice_") or n.startswith("LoreForever_Edition_") and n.endswith("_Audio"))
             and (ADDONS / n).is_dir()]
+
+
+def shipped_packs() -> list[str]:
+    """The voice pack folders a release ships (build-release.sh PACKS and RELEASE_PACKS) that are in addon/."""
+    return _build_release_packs(r"^(?:RELEASE_)?PACKS = \[(.*?)\]")
+
+
+def core_packs() -> list[str]:
+    """The voice pack folders bundled in the core zip (build-release.sh PACKS) that are in addon/."""
+    return _build_release_packs(r"^PACKS = \[(.*?)\]")
 
 
 def recordings(pack: str) -> list[tuple[str, Path]]:
@@ -354,8 +372,17 @@ def gh(*args: str, check: bool = True) -> subprocess.CompletedProcess:
 
 def cmd_upload(args) -> int:
     packs = load_manifest()["packs"]
+    target = getattr(args, "target", None) or os.environ.get("LORE_AUDIO_TARGET") or "r2"
+    store = None
     if args.out:
         have = set()
+    elif target == "r2":
+        import downloads_r2
+        try:
+            store = downloads_r2.get_store(root=ROOT)
+            have = set(store.list_tag(TAG))
+        except Exception as e:
+            raise Failure(f"couldn't reach R2 {TAG}/: {e}") from None
     else:
         r = gh("release", "view", TAG, "-R", args.repo, "--json", "assets", check=False)
         if r.returncode == 0:
@@ -364,20 +391,21 @@ def cmd_upload(args) -> int:
             have = None   # no audio release yet
         else:
             raise Failure(f"couldn't read {args.repo}'s {TAG} release: {r.stderr.strip()}")
-    # Only a release prunes (post-release.sh), so candidates between releases must never use up the room a release needs.
-    if args.ahead and have and len(have) + len(packs) > AHEAD_MAX_ASSETS:
+    # Only GitHub has a 1,000-file limit per release; candidates stay clear when targeting GitHub.
+    if not args.out and target == "github" and args.ahead and have and len(have) + len(packs) > AHEAD_MAX_ASSETS:
         print(f"recordings: not uploading ahead, the {TAG} release has {len(have)} files; the real run uploads them")
         return 0
+    dest_label = "out dir" if args.out else (f"R2 {TAG}/" if target == "r2" else f"{args.repo} {TAG} release")
     todo = [(pack, e) for pack, e in packs.items() if e["asset"] not in (have or set())]
     size = sum(e["bytes"] for _, e in todo)
     if not todo:
-        print(f"recordings: the {TAG} release has all {len(packs)} packs' zips already")
+        print(f"recordings: {dest_label} has all {len(packs)} packs' zips already")
         return 0
     print(f"recordings: {len(todo)} of {len(packs)} packs to upload ({size / 1e6:.0f} MB): "
           + ", ".join(e["asset"] for _, e in todo))
     if args.dry_run:
         return 0
-    if have is None:
+    if target == "github" and have is None and not args.out:
         # A prerelease is never the repo's Latest, which the site's download links follow.
         gh("release", "create", TAG, "-R", args.repo, "--title", "Narration recordings", "--prerelease",
            "--latest=false", "--notes", NOTES)
@@ -392,6 +420,12 @@ def cmd_upload(args) -> int:
         return 0
 
     def send(path: Path, e: dict, clobber: bool = False) -> None:
+        if target == "r2":
+            try:
+                store.put(TAG, path, name=e["asset"], clobber=clobber)
+            except Exception as err:
+                raise Failure(str(err)) from None
+            return
         gh("release", "upload", TAG, str(path), "-R", args.repo, *(["--clobber"] if clobber else []))
         # An upload cut short could leave a partial asset that a rerun would skip as there already.
         assets = json.loads(gh("release", "view", TAG, "-R", args.repo, "--json", "assets").stdout)["assets"]
@@ -435,13 +469,20 @@ def cmd_upload(args) -> int:
     return 0
 
 
-def download(url: str, out: Path, tries: int = 4) -> None:
+def download(url: str, out: Path, tries: int = 4, *, allow_not_found: bool = False) -> None:
     for attempt in range(1, tries + 1):
         try:
-            with urllib.request.urlopen(url, timeout=120) as r, open(out, "wb") as f:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=120) as r, open(out, "wb") as f:
                 while chunk := r.read(1 << 20):
                     f.write(chunk)
             return
+        except urllib.error.HTTPError as e:
+            if allow_not_found and e.code == 404:
+                raise
+            if (e.code < 500 and e.code != 429) or attempt == tries:
+                raise Failure(f"couldn't download {url}: {e}") from None
+            time.sleep(10 * attempt)
         except OSError as e:
             if attempt == tries:
                 raise Failure(f"couldn't download {url}: {e}") from None
@@ -453,23 +494,42 @@ def cmd_fetch(args) -> int:
         print(f"no {MANIFEST.relative_to(ROOT)}: this checkout keeps its recordings in git")
         return 0
     packs = load_manifest()["packs"]
+    selected = None
+    if getattr(args, "core", False) or getattr(args, "pack", None):
+        selected = set(args.pack or ())
+        if getattr(args, "core", False):
+            selected.update(core_packs())
+        missing = sorted(p for p in selected if p not in packs and not recordings(p))
+        if missing:
+            raise Failure(f"{MANIFEST.relative_to(ROOT)} has no entry for: {', '.join(missing)}")
     kept = 0
     todo = []
     for pack, e in packs.items():
+        if selected is not None and pack not in selected:
+            continue
         if not (ADDONS / pack).is_dir():
             continue
         if recordings(pack):
             kept += 1
             continue
         todo.append((pack, e))
-    base = urllib.parse.urlsplit(args.base)
+    explicit_base = args.base
+    raw_base = explicit_base if explicit_base is not None else r2_base()
+    base = urllib.parse.urlsplit(raw_base)
     local = base.scheme == "file" and base.netloc in ("", "localhost") and not (base.query or base.fragment)
 
     def put_back(pack: str, e: dict, tmp: str) -> int:
         path = (Path(urllib.request.url2pathname(base.path)) / e["asset"] if local
                 else Path(tmp, e["asset"]))
         if not local:
-            download(f"{args.base.rstrip('/')}/{e['asset']}", path)
+            primary = f"{raw_base.rstrip('/')}/{e['asset']}"
+            try:
+                download(primary, path, allow_not_found=(explicit_base is None))
+            except urllib.error.HTTPError as err:
+                if explicit_base is None and err.code == 404:
+                    download(f"{GITHUB_BASE}/{e['asset']}", path)
+                else:
+                    raise Failure(f"couldn't download {primary}: {err}") from None
         audio = ADDONS / pack / "Audio"
         with zipfile.ZipFile(path) as z:
             for info in z.infolist():
@@ -560,7 +620,10 @@ def gigabytes(assets: list[dict]) -> float:
 
 
 def uploaded(asset: dict) -> float:
-    """When an asset was uploaded, in seconds since the epoch; now if GitHub doesn't say, so that it's kept."""
+    """When an asset was uploaded, in seconds since the epoch; now if missing, so that it's kept."""
+    if "created" in asset:
+        created = asset["created"]
+        return float(created) if isinstance(created, (int, float)) and created > 0 else time.time()
     try:
         return datetime.datetime.fromisoformat(asset["createdAt"].replace("Z", "+00:00")).timestamp()
     except (KeyError, AttributeError, ValueError):
@@ -570,6 +633,7 @@ def uploaded(asset: dict) -> float:
 def cmd_prune(args) -> int:
     if args.keep_releases < 1:
         raise Failure("--keep-releases must be at least 1")
+    target = getattr(args, "target", None) or os.environ.get("LORE_AUDIO_TARGET") or "r2"
     # This checkout's manifest: after a release, the one it just published, even before GitHub lists that release.
     keep = {e["asset"] for e in load_manifest()["packs"].values()}
     tags, drafts = release_tags(args.repo, args.keep_releases)
@@ -579,16 +643,28 @@ def cmd_prune(args) -> int:
         if names is None:
             in_git.append(tag)
         keep |= names or set()
-    r = gh("release", "view", TAG, "-R", args.repo, "--json", "assets", check=False)
-    if r.returncode != 0:
-        if "not found" in r.stderr.lower():
-            print(f"recordings: {args.repo} has no {TAG} release; nothing to prune")
-            return 0
-        raise Failure(f"couldn't read {args.repo}'s {TAG} release: {r.stderr.strip()}")
-    try:
-        assets = json.loads(r.stdout)["assets"]
-    except (ValueError, KeyError, TypeError) as e:
-        raise Failure(f"couldn't read {args.repo}'s {TAG} release's files: {e!r}") from None
+    store = None
+    if target == "r2":
+        import downloads_r2
+        try:
+            store = downloads_r2.get_store(root=ROOT)
+            objs = store.list_tag(TAG)
+        except Exception as e:
+            raise Failure(f"couldn't read R2 {TAG}/ prefix: {e}") from None
+        assets = [{"name": n, "size": m["size"], "created": m.get("created", 0)} for n, m in sorted(objs.items())]
+        store_label = f"R2 {TAG}/ prefix"
+    else:
+        r = gh("release", "view", TAG, "-R", args.repo, "--json", "assets", check=False)
+        if r.returncode != 0:
+            if "not found" in r.stderr.lower():
+                print(f"recordings: {args.repo} has no {TAG} release; nothing to prune")
+                return 0
+            raise Failure(f"couldn't read {args.repo}'s {TAG} release: {r.stderr.strip()}")
+        try:
+            assets = json.loads(r.stdout)["assets"]
+        except (ValueError, KeyError, TypeError) as e:
+            raise Failure(f"couldn't read {args.repo}'s {TAG} release's files: {e!r}") from None
+        store_label = f"the {TAG} release"
     now = time.time()
     kept, recent, other, doomed = [], [], [], []
     for a in assets:
@@ -605,7 +681,7 @@ def cmd_prune(args) -> int:
         span += f", and the draft {', '.join(drafts)}"
     if in_git:
         span += f"; {', '.join(in_git)} keep their recordings in git"
-    print(f"recordings: the {TAG} release has {len(assets)} files ({gigabytes(assets):.2f} GB). {len(kept)} stay, named "
+    print(f"recordings: {store_label} has {len(assets)} files ({gigabytes(assets):.2f} GB). {len(kept)} stay, named "
           f"by this checkout's release/audio.json or the last {len(tags)} releases' ({span}).")
     if recent:
         print(f"  {len(recent)} more uploaded in the last {GRACE // 3600} hours stay too: a release in progress may "
@@ -618,7 +694,13 @@ def cmd_prune(args) -> int:
     print(f"{'Would delete' if args.dry_run else 'Deleting'} {len(doomed)} zips ({gigabytes(doomed):.2f} GB):")
     for a in doomed:
         if not args.dry_run:
-            gh("release", "delete-asset", TAG, a["name"], "-R", args.repo, "--yes")
+            if target == "r2":
+                try:
+                    store.delete(TAG, a["name"])
+                except Exception as e:
+                    raise Failure(f"couldn't delete R2 {TAG}/{a['name']}: {e}") from None
+            else:
+                gh("release", "delete-asset", TAG, a["name"], "-R", args.repo, "--yes")
         print(f"  {a['name']} ({a['size'] / 1e6:.0f} MB)")
     if args.dry_run:
         print("(dry run: nothing deleted)")
@@ -631,6 +713,8 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("manifest")
     up = sub.add_parser("upload")
     up.add_argument("--repo", default=REPO)
+    up.add_argument("--target", choices=("r2", "github"), default=None,
+                    help="upload destination (default: $LORE_AUDIO_TARGET or r2)")
     up.add_argument("--dry-run", action="store_true")
     up.add_argument("--ahead", action="store_true", help="for a candidate: see AHEAD_MAX_ASSETS")
     up.add_argument("--out", help="write the zips here instead of uploading them")
@@ -640,9 +724,13 @@ def main(argv: list[str] | None = None) -> int:
     up.add_argument("--no-cache", action="store_true", default=os.environ.get("LORE_AUDIO_CACHE") == "0",
                     help="bypass the bundle cache (also LORE_AUDIO_CACHE=0)")
     fe = sub.add_parser("fetch")
-    fe.add_argument("--base", default=BASE, help="where the zips are (default: the audio release)")
+    fe.add_argument("--base", default=None, help="where the zips are (default: R2 audio/ with GitHub fallback)")
+    fe.add_argument("--core", action="store_true", help="only fetch voice packs bundled in the core zip (build-release.sh PACKS)")
+    fe.add_argument("--pack", action="append", default=[], help="only fetch named voice pack(s) (repeatable)")
     pr = sub.add_parser("prune")
     pr.add_argument("--repo", default=REPO)
+    pr.add_argument("--target", choices=("r2", "github"), default=None,
+                    help="prune target (default: $LORE_AUDIO_TARGET or r2)")
     pr.add_argument("--keep-releases", type=int, default=KEEP_RELEASES, metavar="N",
                     help=f"keep the zips the last N releases' tags name (default {KEEP_RELEASES})")
     pr.add_argument("--dry-run", action="store_true", help="list what it would delete, with sizes; delete nothing")

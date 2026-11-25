@@ -1,0 +1,64 @@
+{
+ "key": "quest:91734",
+ "type": "quest",
+ "name": "Remote Contact",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91734
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is jediga",
+    "where is jediga"
+   ],
+   "answer": "Jediga is an associate awaiting word in the rugged lands of Azshara.",
+   "q": "Who is Jediga?"
+  },
+  {
+   "aliases": [
+    "why go to azshara",
+    "who sends you to azshara"
+   ],
+   "answer": "An unsteady Forsaken courier needs Jediga in Azshara alerted that an important delivery is on its way.",
+   "q": "Why are you traveling to Azshara?"
+  },
+  {
+   "aliases": [
+    "what delivery",
+    "what is being delivered to jediga"
+   ],
+   "answer": "The messenger only mentions that an important delivery is expected, giving no further details in their drunken state.",
+   "q": "What delivery is expected?"
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "delivery",
+  "forsaken",
+  "jediga",
+  "remote contact"
+ ],
+ "related": [
+  "zone:azshara",
+  "topic:forsaken"
+ ],
+ "sections": [
+  {
+   "body": "An intoxicated Forsaken messenger can barely keep on his feet, let alone carry out his business. He asks you to head out to Azshara on his behalf. There, you need to find Jediga and give word that an important delivery is expected soon.",
+   "spoiler": 0,
+   "title": "A Stumbled Message"
+  }
+ ],
+ "summary": "An unsteady Forsaken messenger needs someone to carry word to Azshara. You are asked to find Jediga and let her know an important delivery is on the way.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Remote Contact"
+ ]
+}

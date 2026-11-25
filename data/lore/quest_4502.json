@@ -1,0 +1,68 @@
+{
+ "key": "quest:4502",
+ "type": "quest",
+ "name": "Volcanic Activity",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4502
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants ungoro ash",
+    "liv rizzlefix",
+    "who is liv rizzlefix"
+   ],
+   "answer": "Liv Rizzlefix is a contact stationed in the port town of Ratchet who needs samples of ash gathered from Un'Goro Crater.",
+   "q": "Who is Liv Rizzlefix?"
+  },
+  {
+   "aliases": [
+    "where to find volcanic ash",
+    "where is the ash",
+    "how to get ungoro ash"
+   ],
+   "answer": "The ash comes from the fire elementals that wander around the slopes of the central volcano in Un'Goro Crater.",
+   "q": "Where is the Un'Goro Ash found?"
+  },
+  {
+   "aliases": [
+    "why collect ash",
+    "what is the ash for"
+   ],
+   "answer": "Liv Rizzlefix in Ratchet seeks samples of volcanic ash taken directly from the fiery elementals of the crater.",
+   "q": "Why does Liv Rizzlefix want the ash?"
+  }
+ ],
+ "keywords": [
+  "fire elementals",
+  "liv rizzlefix",
+  "ratchet",
+  "ungoro ash",
+  "ungoro crater",
+  "volcanic activity",
+  "volcano"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:ratchet"
+ ],
+ "sections": [
+  {
+   "body": "Liv Rizzlefix in the port town of Ratchet seeks ash from deep within Un'Goro Crater. Fire elementals wander the slopes of the great volcano rising in the crater's center, burning with heat from the depths below. You are sent into the wild basin to face the living flames and secure samples of the ash they leave behind.",
+   "spoiler": 0,
+   "title": "Embers of the Crater"
+  }
+ ],
+ "summary": "Liv Rizzlefix in Ratchet needs volcanic ash collected from the fiery spirits prowling the center of Un'Goro Crater. The smoking peak holds living flames born of the deep earth, and bringing their remnants back safely is no easy feat.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Volcanic Activity"
+ ]
+}

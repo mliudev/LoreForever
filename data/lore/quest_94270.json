@@ -1,0 +1,75 @@
+{
+ "key": "quest:94270",
+ "type": "quest",
+ "name": "Craftsman's Writ: Steel Weapon Chain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94270
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "As a blacksmith, you can forge the steel weapon chain yourself, turning your metalwork directly into trade payment."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what item is needed",
+    "writ item requested"
+   ],
+   "answer": "The note asks for a single steel weapon chain.",
+   "q": "What item does the writ ask for?"
+  },
+  {
+   "aliases": [
+    "who can use this writ",
+    "is the writ tradeable"
+   ],
+   "answer": "Anyone carrying the document can fulfill the order, as the note is marked transferable.",
+   "q": "Can someone else deliver the order?"
+  },
+  {
+   "aliases": [
+    "where to bring the chain",
+    "writ drop off location"
+   ],
+   "answer": "The order must be taken to the delivery spot marked on your map.",
+   "q": "Where do you deliver the finished chain?"
+  },
+  {
+   "aliases": [
+    "must i keep the writ",
+    "do i need the paper"
+   ],
+   "answer": "You must carry the writ with you to conclude the trade and receive payment.",
+   "q": "Do you need to hold the writ to finish the delivery?"
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "craftsman's writ",
+  "delivery",
+  "steel weapon chain",
+  "trade",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has drawn up a trade order in faded ink, asking for one steel weapon chain. The note details the payment offered and directs you to a drop-off spot marked on your map. Because the agreement is transferable, whoever holds the paper can finish the trade.",
+   "spoiler": 0,
+   "title": "An Order for Steel"
+  }
+ ],
+ "summary": "A customer has penned a trade note requesting a steel weapon chain, complete with payment terms and delivery instructions. You hold a transferable agreement that lets any bearer provide the forged metalwork and collect the trade fee.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Steel Weapon Chain"
+ ]
+}

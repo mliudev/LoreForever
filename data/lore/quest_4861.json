@@ -1,0 +1,85 @@
+{
+ "key": "quest:4861",
+ "type": "quest",
+ "name": "Enraged Wildkin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4861
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is jaron stoneshaper",
+    "who gave this quest",
+    "quest giver"
+   ],
+   "answer": "Jaron Stoneshaper is an explorer who was digging in southern Winterspring before furious wildkin drove him away.",
+   "q": "Who is Jaron Stoneshaper?"
+  },
+  {
+   "aliases": [
+    "why are wildkin angry",
+    "what angered the wildkin",
+    "wildkin attack reason"
+   ],
+   "answer": "Jaron suspects he wandered too close to something the wildkin were guarding near his camp.",
+   "q": "Why did the wildkin attack the camp?"
+  },
+  {
+   "aliases": [
+    "what was left behind",
+    "what is at the camp",
+    "supplies in winterspring"
+   ],
+   "answer": "Jaron left his camp gear and an amulet he unearthed at the dig site just the day before.",
+   "q": "What did Jaron leave behind at the camp?"
+  },
+  {
+   "aliases": [
+    "where is jaron camp",
+    "wrecked camp location",
+    "where to go in winterspring"
+   ],
+   "answer": "The wrecked camp lies in the snowy reaches of southern Winterspring.",
+   "q": "Where is the camp located?"
+  },
+  {
+   "aliases": [
+    "what happened to his friend",
+    "jaron friend status",
+    "did his friend survive"
+   ],
+   "answer": "Jaron escaped with his life, but he fears his companion was not as fortunate when the beasts struck.",
+   "q": "What happened to Jaron's companion?"
+  }
+ ],
+ "keywords": [
+  "amulet",
+  "dig site",
+  "jaron stoneshaper",
+  "wildkin",
+  "winterspring",
+  "wrecked camp"
+ ],
+ "related": [
+  "zone:winterspring"
+ ],
+ "sections": [
+  {
+   "body": "Jaron Stoneshaper fled for his life after bloodthirsty wildkin overran his excavation in southern Winterspring. The beasts tore through the campsite when he strayed too close to ground they were guarding. While Jaron escaped the onslaught, he fears his companion never made it out alive. Now he needs someone to brave the snows, locate his ruined campsite, and recover both his gear and an amulet he unearthed at the dig.",
+   "spoiler": 0,
+   "title": "Fleeing the Dig"
+  }
+ ],
+ "summary": "Bloodthirsty wildkin have driven Jaron Stoneshaper from his campsite in southern Winterspring. He needs you to venture into the snow to find his wrecked camp, recover his lost gear, and retrieve an unearthed amulet.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Enraged Wildkin"
+ ]
+}

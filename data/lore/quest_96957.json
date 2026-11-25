@@ -1,0 +1,68 @@
+{
+ "key": "quest:96957",
+ "type": "quest",
+ "name": "Bone Sweet Bone",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96957
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "why bones",
+    "sun bleached bones use",
+    "bone sweet bone purpose"
+   ],
+   "answer": "Sun-bleached bones are needed to rebuild nests for the scavengers driven away by the undead blight.",
+   "q": "Why are bones needed here?"
+  },
+  {
+   "aliases": [
+    "scavenger balance",
+    "why feed on blight",
+    "natural balance nutrients"
+   ],
+   "answer": "By feeding on carcasses, these winged creatures break down remains and return vital nutrients to the soil, paving the way for new life.",
+   "q": "How do these scavengers help the land?"
+  },
+  {
+   "aliases": [
+    "who destroyed nests",
+    "undead disruption",
+    "why are nests gone"
+   ],
+   "answer": "The presence of the undead drove off the roosting broods and upset the natural rhythm of the land.",
+   "q": "What disrupted the nests in the first place?"
+  }
+ ],
+ "keywords": [
+  "blight",
+  "bone sweet bone",
+  "natural balance",
+  "nests",
+  "scavengers",
+  "sun-bleached bones",
+  "undead"
+ ],
+ "related": [
+  "quest:6381"
+ ],
+ "sections": [
+  {
+   "body": "The walking dead have disrupted nature's quiet cycle here, driving away the scavengers whose feeding returns vital nourishment to the dirt. A winged guardian needs twenty sun-bleached bones to reconstruct dwellings for its scattered brood. Once the blight lifts and the roosts stand whole again, these creatures can return to their essential feast.",
+   "spoiler": 0,
+   "title": "Nests in the Blight"
+  }
+ ],
+ "summary": "A winged patron seeks to restore balance to soil ruined by the undead blight. While you travel among the fallen, you are asked to gather sun-bleached bones to rebuild roosts for creatures that enrich the earth.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bone Sweet Bone"
+ ]
+}

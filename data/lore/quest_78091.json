@@ -1,0 +1,84 @@
+{
+ "key": "quest:78091",
+ "type": "quest",
+ "name": "Earning Your Salt",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78091
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "Ursula Deline studies an orb on your behalf, but only if you bring her the prepared salts that Blackrock summoners use to empower their rituals."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who wants summoners salt",
+    "who gives earning your salt",
+    "who is ursula deline"
+   ],
+   "answer": "Ursula Deline is a researcher in Stormwind who agrees to inspect an orb for you in exchange for ritual components.",
+   "q": "Who is Ursula Deline?"
+  },
+  {
+   "aliases": [
+    "why does ursula want salt",
+    "what is summoners salt used for",
+    "why gather salt"
+   ],
+   "answer": "Blackrock clan warlocks use specially prepared salts to empower their summoning rituals, and Ursula demands a supply before sharing her research.",
+   "q": "Why does Ursula need summoner's salt?"
+  },
+  {
+   "aliases": [
+    "where to find summoners salt",
+    "where are blackrock summoners",
+    "where do i get the salt"
+   ],
+   "answer": "The salt is carried by Blackrock summoners encamped within the Redridge Mountains.",
+   "q": "Where is the summoner's salt found?"
+  },
+  {
+   "aliases": [
+    "what does ursula promise",
+    "what does ursula study",
+    "what do you get in return"
+   ],
+   "answer": "Ursula promises to study an orb and share the findings of her research once you return with the salt.",
+   "q": "What does Ursula offer in return?"
+  }
+ ],
+ "keywords": [
+  "blackrock clan",
+  "blackrock summoner",
+  "earning your salt",
+  "redridge mountains",
+  "stormwind",
+  "summoners salt",
+  "ursula deline"
+ ],
+ "related": [
+  "zone:redridge",
+  "topic:blackrock-clan",
+  "topic:warlock"
+ ],
+ "sections": [
+  {
+   "body": "Blackrock summoners in the Redridge Mountains carry specially treated salts to bolster their dark rites. Ursula Deline refuses to examine an orb on your behalf until you secure a supply from those encampments. Once you return to Stormwind with the salt in hand, she has agreed to disclose what her studies uncover.",
+   "spoiler": 0,
+   "title": "Ritual Salt"
+  }
+ ],
+ "summary": "Ursula Deline in Stormwind has agreed to study an orb for you, but she demands a service in return. To learn what she discovers, you must venture into the Redridge Mountains and wrest prepared summoning salts from the Blackrock clan.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Earning Your Salt"
+ ]
+}

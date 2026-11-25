@@ -1,0 +1,62 @@
+{
+ "key": "quest:94239",
+ "type": "quest",
+ "name": "Craftsman's Writ: Fine Leather Pants",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94239
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "what is written on the writ",
+    "writ details"
+   ],
+   "answer": "The faded note requests a single pair of Fine Leather Pants and provides the delivery location and payment details. It also notes that the order can be transferred to another person.",
+   "q": "What does the craftsman writ ask for?"
+  },
+  {
+   "aliases": [
+    "who can deliver the pants",
+    "can someone else fill the order"
+   ],
+   "answer": "Anyone holding the writ can fill the order and take payment, because the document is transferable.",
+   "q": "Can anyone fulfill this order?"
+  },
+  {
+   "aliases": [
+    "do I need the writ",
+    "completing the trade"
+   ],
+   "answer": "You must carry the document with you to make the delivery and finish the transaction.",
+   "q": "Why do you need to keep the writ?"
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "craftsmans writ",
+  "fine leather pants",
+  "leatherworking",
+  "trade contract",
+  "work order"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has drawn up a commercial order on faded paper, requesting a pair of Fine Leather Pants in exchange for payment. The note specifies where the goods must go and notes that the agreement is transferable to anyone willing to fulfill it. Holding the written agreement allows you to provide the finished garment and complete the trade.",
+   "spoiler": 0,
+   "title": "A Transferable Trade"
+  }
+ ],
+ "summary": "A faded craftsman's writ asks for a pair of Fine Leather Pants delivered to a specified customer. Whoever holds the agreement can provide the tailored leatherwork and collect payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Fine Leather Pants"
+ ]
+}

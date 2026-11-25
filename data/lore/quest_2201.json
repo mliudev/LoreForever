@@ -1,0 +1,85 @@
+{
+ "key": "quest:2201",
+ "type": "quest",
+ "name": "Find the Gems",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2201
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "Alliance dwarves have pushed into Uldaman, and notes from their camp help pinpoint where ancient stones lie hidden among the troggs."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is talvash",
+    "talvash del kissel",
+    "who wants the gems"
+   ],
+   "answer": "Talvash del Kissel is a gnome in financial trouble who needs the gems recovered to save his professional reputation.",
+   "q": "Who is Talvash del Kissel?"
+  },
+  {
+   "aliases": [
+    "where are the gems",
+    "gem locations uldaman",
+    "find gems uldaman"
+   ],
+   "answer": "The ruby rests behind a Shadowforge barricade, the topaz sits in an urn near an Alliance dwarf camp, and the trogg chieftain Grimlok carries the sapphire.",
+   "q": "Where are the gems hidden in Uldaman?"
+  },
+  {
+   "aliases": [
+    "who is grimlok",
+    "trogg leader sapphire"
+   ],
+   "answer": "Grimlok is the leader of the troggs inside Uldaman, and he has claimed the sapphire for himself.",
+   "q": "Who holds the sapphire?"
+  },
+  {
+   "aliases": [
+    "scrying phial",
+    "how to contact talvash"
+   ],
+   "answer": "The Phial of Scrying allows you to contact Talvash del Kissel remotely through water, though each attempt consumes valuable magic that Talvash cannot afford to waste.",
+   "q": "What is the Phial of Scrying?"
+  }
+ ],
+ "keywords": [
+  "grimlok",
+  "phial of scrying",
+  "ruby",
+  "sapphire",
+  "shadowforge",
+  "talvash del kissel",
+  "topaz",
+  "uldaman"
+ ],
+ "related": [
+  "npc:talvash-del-kissel",
+  "subzone:uldaman",
+  "item:phial-of-scrying",
+  "topic:trogg",
+  "topic:alliance"
+ ],
+ "sections": [
+  {
+   "body": "A recovered journal points deeper into the ancient halls of Uldaman, where three precious stones were lost. A ruby sits stashed behind a Shadowforge barricade, while an urn near an Alliance expedition holds a topaz. To claim the sapphire, you must face Grimlok, the chieftain of the troggs who infests the ruins. Once the stones are yours, a splash of water and the Phial of Scrying will reach Talvash without leaving the tunnels.",
+   "spoiler": 0,
+   "title": "Stones in the Deep"
+  }
+ ],
+ "summary": "Talvash del Kissel needs three lost gems retrieved from the halls of Uldaman to rescue his battered reputation. With notes from a recovered journal, you must scour trogg dens and dark iron redoubts before contacting the anxious gnome through a magical scrying phial.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Find the Gems"
+ ]
+}

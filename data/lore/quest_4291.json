@@ -1,0 +1,67 @@
+{
+ "key": "quest:4291",
+ "type": "quest",
+ "name": "The Scent of Lar'korwi",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4291
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is torwa",
+    "torwa pathfinder location",
+    "where is torwa"
+   ],
+   "answer": "Torwa Pathfinder makes his camp near the entrance into Un'Goro Crater.",
+   "q": "Who is Torwa Pathfinder?"
+  },
+  {
+   "aliases": [
+    "where to find glands",
+    "lar'korwi scent items",
+    "ravasaur glands"
+   ],
+   "answer": "Torwa Pathfinder asks you to collect two ravasaur pheromone glands from the beasts in Un'Goro Crater.",
+   "q": "What does Torwa Pathfinder need?"
+  },
+  {
+   "aliases": [
+    "where is un'goro entrance",
+    "torwa camp"
+   ],
+   "answer": "The crater lies south of Tanaris, and Torwa watches the path that leads down into the wilds.",
+   "q": "Where does this take place?"
+  }
+ ],
+ "keywords": [
+  "lar'korwi",
+  "pheromone glands",
+  "ravasaur",
+  "the scent of lar'korwi",
+  "torwa pathfinder",
+  "un'goro crater"
+ ],
+ "related": [
+  "npc:torwa-pathfinder",
+  "zone:ungoro"
+ ],
+ "sections": [
+  {
+   "body": "At the edge of Un'Goro Crater, Torwa Pathfinder watches the dangerous beasts that roam the lowlands. He seeks ravasaur pheromone glands to aid his hunt. Tracking such predators requires facing the ravasaurs that hunt in the brush below.",
+   "spoiler": 0,
+   "title": "Tracking in the Crater"
+  }
+ ],
+ "summary": "Torwa Pathfinder waits near the entrance to Un'Goro Crater, studying the ferocious beasts of the basin. To assist his hunt, he asks you to bring him two ravasaur pheromone glands.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Scent of Lar'korwi"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "key": "quest:3881",
+ "type": "quest",
+ "name": "Expedition Salvation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3881
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gets the food",
+    "who is williden marshal",
+    "where is williden"
+   ],
+   "answer": "Williden Marshal leads an expedition into Un'Goro Crater and awaits these provisions.",
+   "q": "Who is Williden Marshal?"
+  },
+  {
+   "aliases": [
+    "what supplies are needed",
+    "what are you bringing",
+    "supplies for marshal"
+   ],
+   "answer": "You carry a crate of foodstuffs and research equipment to the camp in Un'Goro Crater.",
+   "q": "What supplies are being delivered?"
+  },
+  {
+   "aliases": [
+    "where are the supplies going",
+    "location of the expedition",
+    "where is the camp"
+   ],
+   "answer": "The expedition is stationed inside Un'Goro Crater, where the supplies must be delivered.",
+   "q": "Where is the expedition located?"
+  }
+ ],
+ "keywords": [
+  "expedition salvation",
+  "foodstuffs",
+  "research equipment",
+  "un'goro crater",
+  "williden marshal"
+ ],
+ "related": [
+  "npc:williden-marshal",
+  "zone:ungoro"
+ ],
+ "sections": [
+  {
+   "body": "Williden Marshal waits within Un'Goro Crater for essential supplies. You carry a crate of foodstuffs and research equipment down to his camp, where the survival of his party depends on what you deliver.",
+   "spoiler": 0,
+   "title": "Supplies for the Crater"
+  }
+ ],
+ "summary": "Williden Marshal needs critical supplies delivered to his camp inside Un'Goro Crater. You carry a crate of foodstuffs and research equipment to aid the expedition.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Expedition Salvation"
+ ]
+}

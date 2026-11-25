@@ -1,0 +1,107 @@
+{
+ "key": "quest:98396",
+ "type": "quest",
+ "name": "The Great Cat Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98396
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "The Great Cat Spirit tests whether you are ready to claim its predatory form. By proving stealth and cunning in the barrow den, you earn the right to walk in its shape."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives this",
+    "great cat spirit identity",
+    "cat spirit lore"
+   ],
+   "answer": "The Great Cat Spirit is an ancient patron who grants its predatory shape to those who embody cunning, stealth, and ferocity.",
+   "q": "Who is the Great Cat Spirit?"
+  },
+  {
+   "aliases": [
+    "cat spirit relics",
+    "which relics are needed",
+    "three relics"
+   ],
+   "answer": "Three tokens mark the spirit's favor: the Relic of the Fang, the Relic of the Claw, and the Relic of the Silent Shadow.",
+   "q": "What relics must you recover?"
+  },
+  {
+   "aliases": [
+    "where are the relics",
+    "barrow den location",
+    "cat spirit location"
+   ],
+   "answer": "The tokens lie inside the Stormrage Barrow Den just east of the Great Cat Spirit.",
+   "q": "Where are the relics kept?"
+  },
+  {
+   "aliases": [
+    "barrow den guards",
+    "what protects the relics",
+    "enraged spirits barrow den"
+   ],
+   "answer": "Enraged spirits haunt the subterranean chambers, attacking anyone who draws near on sight.",
+   "q": "What guards the relics?"
+  },
+  {
+   "aliases": [
+    "entrance statue blessing",
+    "how to sneak past spirits",
+    "statue stealth"
+   ],
+   "answer": "A stone carving at the entrance of the barrow den bestows brief concealment to slip past hostile phantoms.",
+   "q": "How do you bypass the enraged spirits?"
+  },
+  {
+   "aliases": [
+    "cat spirit reward",
+    "cat form blessing",
+    "why get relics"
+   ],
+   "answer": "Returning all three relics earns the Great Cat Spirit's blessing, proving you are worthy to adopt its feline shape.",
+   "q": "What does the Great Cat Spirit offer?"
+  }
+ ],
+ "keywords": [
+  "cat form",
+  "enraged spirits",
+  "great cat spirit",
+  "relic of the claw",
+  "relic of the fang",
+  "relic of the silent shadow",
+  "stealth",
+  "stormrage barrow den"
+ ],
+ "related": [
+  "quest:1083",
+  "quest:98393"
+ ],
+ "sections": [
+  {
+   "body": "The Great Cat Spirit demands more than spoken devotion before sharing its sacred shape. To walk as a predator, you must prove you possess the stealth to slip past danger and the ferocity to strike when cornered. Three tokens of favor\u2014the Relic of the Fang, the Relic of the Claw, and the Relic of the Silent Shadow\u2014wait within the subterranean halls of the Stormrage Barrow Den to the east.",
+   "spoiler": 0,
+   "title": "Test of the Predator"
+  },
+  {
+   "body": "Hostile phantoms haunt the darkened passages of the barrow den, attacking intruders on sight. A stone carving standing at the threshold grants a fleeting mantle of stealth, offering safe passage past the wandering specters. Bringing all three recovered tokens back to the Great Cat Spirit seals the trial and earns the ancient blessing to walk in its shape.",
+   "spoiler": 0,
+   "title": "Trials in the Barrow Den"
+  }
+ ],
+ "summary": "A feral patron tests whether you possess the cunning, stealth, and ferocity needed to claim its feline shape. Three sacred relics lie hidden within the haunted depths of the Stormrage Barrow Den to the east, watched over by hostile spirits. Earning the spirit's blessing requires slipping past these guardians to retrieve the tokens of its favor.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Cat Spirit"
+ ]
+}

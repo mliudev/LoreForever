@@ -1,0 +1,63 @@
+{
+ "key": "quest:7046",
+ "type": "quest",
+ "name": "The Scepter of Celebras",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7046
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who asks for help",
+    "who gives this quest",
+    "who is celebras"
+   ],
+   "answer": "Celebras the Redeemed seeks aid while he works to craft the scepter.",
+   "q": "Who is asking for assistance?"
+  },
+  {
+   "aliases": [
+    "what is being created",
+    "what is celebras making",
+    "scepter purpose"
+   ],
+   "answer": "Celebras is crafting the Scepter of Celebras through a special ritual.",
+   "q": "What is Celebras trying to make?"
+  },
+  {
+   "aliases": [
+    "what does the ritual need",
+    "what do i do during the ritual"
+   ],
+   "answer": "You stand by Celebras the Redeemed to protect and support him until the casting finishes.",
+   "q": "What is needed during the ritual?"
+  }
+ ],
+ "keywords": [
+  "celebras",
+  "celebras the redeemed",
+  "ritual",
+  "scepter",
+  "the scepter of celebras"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Celebras the Redeemed prepares to fashion a relic of his own name. A ritual of creation demands steady hands and vigilant watch, leaving him vulnerable until the work concludes. Once the casting is finished, you are to speak with him to claim the finished staff.",
+   "spoiler": 0,
+   "title": "A Ritual of Creation"
+  }
+ ],
+ "summary": "Celebras the Redeemed calls for your aid to forge the Scepter of Celebras. You must stand guard beside him while the delicate rite takes place and speak with him once the power settles.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Scepter of Celebras"
+ ]
+}

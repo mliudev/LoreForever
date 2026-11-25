@@ -1,0 +1,68 @@
+{
+ "key": "quest:5536",
+ "type": "quest",
+ "name": "A Land Filled with Hatred",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5536
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "lohatu",
+    "who gives this quest",
+    "quest giver"
+   ],
+   "answer": "Loh'atu is stationed on the border of Ashenvale, watching over the edge of the woods and sending travelers to strike down the corrupted satyr nearby.",
+   "q": "Who is Loh'atu?"
+  },
+  {
+   "aliases": [
+    "haldarr location",
+    "where are the satyr",
+    "satyr camp"
+   ],
+   "answer": "The Haldarr satyr dwell in the corrupted woods near the border of Ashenvale.",
+   "q": "Where are the Haldarr satyr found?"
+  },
+  {
+   "aliases": [
+    "why kill satyr",
+    "lohatu motive",
+    "satyr threat"
+   ],
+   "answer": "Their growing presence threatens the borderlands, sending felsworn and tricksters into the wild.",
+   "q": "Why does Loh'atu want the Haldarr satyr slain?"
+  }
+ ],
+ "keywords": [
+  "ashenvale",
+  "felsworn",
+  "haldarr",
+  "loh'atu",
+  "satyr",
+  "tricksters"
+ ],
+ "related": [
+  "zone:ashenvale",
+  "topic:satyr"
+ ],
+ "sections": [
+  {
+   "body": "Corrupted fiends prowl near the frontier, sending out tricksters and felsworn to terrorize the surrounding forest. Loh'atu waits at the edge of the wilderness for word that their ranks have been broken, hoping to keep the roadways open.",
+   "spoiler": 0,
+   "title": "A Watch on the Border"
+  }
+ ],
+ "summary": "Loh'atu watches the border of Ashenvale, where violent satyr threaten anyone crossing between the lands. He asks you to strike deep into the Haldarr encampments to blunt their aggression.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Land Filled with Hatred"
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "key": "quest:97617",
+ "type": "quest",
+ "name": "Safety Checks",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97617
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "The Explorers' League seeks the origins of your kind, making every recovered relic in the arid south a step toward unearthing dwarven heritage."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "dorgaron lore",
+    "who gives safety checks",
+    "dorgaron explorers league"
+   ],
+   "answer": "Dorgaron is an excavator with the Explorers' League stationed at the boundary between Loch Modan and the Badlands.",
+   "q": "Who is Dorgaron?"
+  },
+  {
+   "aliases": [
+    "why safety checks",
+    "badlands dig proof",
+    "why collect artifacts badlands"
+   ],
+   "answer": "Dorgaron must prove to his leadership that the Badlands dig sites have not been picked clean and remain intact enough to warrant another crew.",
+   "q": "Why does the Explorers' League need salvaged gear and relics?"
+  },
+  {
+   "aliases": [
+    "badlands expedition trouble",
+    "what happened to explorers league in badlands"
+   ],
+   "answer": "Earlier digs in the Badlands suffered poor fortune and wrecked gear, leaving equipment scattered and leaders hesitant to send further teams.",
+   "q": "Where did the previous expeditions go wrong?"
+  }
+ ],
+ "keywords": [
+  "artifacts",
+  "badlands",
+  "dig sites",
+  "dorgaron",
+  "explorers' league",
+  "loch modan",
+  "safety checks"
+ ],
+ "related": [
+  "topic:explorers-league",
+  "zone:badlands",
+  "zone:lochmodan"
+ ],
+ "sections": [
+  {
+   "body": "Dorgaron watches the southern pass from the edge of Loch Modan, eager to see the Explorers' League return to the Badlands. Past expeditions met with misfortune, yet he remains convinced that ancient relics still rest beneath the dust.\n\nHis superiors will not dispatch another crew without proof that the sites are secure and unlooted. He asks you to venture south into the arid wastes to salvage unbroken tools and unstudied artifacts from the abandoned digs.",
+   "spoiler": 0,
+   "title": "Proving the Digs"
+  }
+ ],
+ "summary": "On the border between Loch Modan and the Badlands, a dwarven surveyor named Dorgaron hopes to renew his society's excavations to the south. He needs evidence that the desert dig sites remain viable before his superiors will risk sending another expedition.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Safety Checks"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "quest:2936",
+ "type": "quest",
+ "name": "The Spider God",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2936
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, uncovering the ancient names revered by the Witherbark brings you face to face with the darker loa worshipped among distant tribes."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives the spider god",
+    "where to return",
+    "spider god quest giver"
+   ],
+   "answer": "Master Gadrin seeks the name of the deity worshipped by the forest trolls.",
+   "q": "Who asks you to find the name of the spider god?"
+  },
+  {
+   "aliases": [
+    "what tablet",
+    "where is the name",
+    "how to learn the spider god name"
+   ],
+   "answer": "You find the name by reading from the Tablet of Theka.",
+   "q": "Where is the spider god's name recorded?"
+  },
+  {
+   "aliases": [
+    "which trolls worship the spider god",
+    "spider god tribe"
+   ],
+   "answer": "The Witherbark tribe of forest trolls reveres the spider god.",
+   "q": "Which tribe worships the spider god?"
+  }
+ ],
+ "keywords": [
+  "master gadrin",
+  "spider god",
+  "tablet of theka",
+  "the spider god",
+  "troll loa",
+  "witherbark"
+ ],
+ "related": [
+  "npc:master-gadrin"
+ ],
+ "sections": [
+  {
+   "body": "The Tablet of Theka preserves lore that Master Gadrin needs to understand the faith of the Witherbark trolls. Seeking out the stone tablet will reveal which ancient entity holds sway over their rituals, before you journey back to the witch doctor with your discovery.",
+   "spoiler": 0,
+   "title": "Words on Stone"
+  }
+ ],
+ "summary": "Master Gadrin sends you to uncover the name of the spider god worshipped by the Witherbark tribe. To learn it, you must decipher the ancient writings carved upon the Tablet of Theka.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Spider God"
+ ]
+}

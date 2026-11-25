@@ -1,0 +1,90 @@
+{
+ "key": "quest:92345",
+ "type": "quest",
+ "name": "Beneath Nordrassil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92345
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, any passage reaching under Nordrassil strikes at the heart of your people's sacred history and ancestral duty."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As a druid, the health and secrets of the World Tree demand vigilance, making word to the Cenarion Enclave a matter of immediate concern."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is mathrengyl bearwalker",
+    "mathrengyl location"
+   ],
+   "answer": "Mathrengyl Bearwalker is a druid residing in the Cenarion Enclave within Darnassus who evaluates matters concerning the wild lands and the World Tree.",
+   "q": "Who is Mathrengyl Bearwalker?"
+  },
+  {
+   "aliases": [
+    "what burrow beneath nordrassil",
+    "burrow fight nordrassil"
+   ],
+   "answer": "Furbolg and satyr clash over a burrow to the north that appears to delve beneath the roots of the World Tree, Nordrassil.",
+   "q": "What burrow is being fought over?"
+  },
+  {
+   "aliases": [
+    "where is the cenarion enclave",
+    "cenarion enclave location"
+   ],
+   "answer": "The Cenarion Enclave is a sanctuary for druids situated within the night elf capital city of Darnassus.",
+   "q": "Where is the Cenarion Enclave?"
+  },
+  {
+   "aliases": [
+    "why do the druids need to know",
+    "why tell darnassus druids"
+   ],
+   "answer": "A tunnel running beneath Nordrassil directly concerns the kaldorei and the sacred ground of their ancient World Tree.",
+   "q": "Why must the druids of Darnassus be informed?"
+  }
+ ],
+ "keywords": [
+  "beneath nordrassil",
+  "burrow",
+  "cenarion enclave",
+  "darnassus",
+  "druids",
+  "furbolg",
+  "mathrengyl bearwalker",
+  "nordrassil",
+  "satyr"
+ ],
+ "related": [
+  "npc:mathrengyl-bearwalker",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "topic:nordrassil",
+  "topic:druid",
+  "topic:furbolg",
+  "topic:satyr"
+ ],
+ "sections": [
+  {
+   "body": "Furbolg and satyr clash over an earthen den to the north, but the ground itself holds a deeper peril. That burrow appears to delve straight beneath the roots of Nordrassil. The defenders nearby cannot leave their posts, so word must travel swiftly to the Cenarion Enclave in Darnassus. There, Mathrengyl Bearwalker must learn of the passage and weigh what must be done.",
+   "spoiler": 0,
+   "title": "A Hollow Beneath the Roots"
+  }
+ ],
+ "summary": "Fighting between furbolg and satyr draws eyes to a northern burrow that appears to reach beneath Nordrassil. With local watchers occupied, word must reach Mathrengyl Bearwalker in Darnassus to decide if the passage threatens the World Tree.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Beneath Nordrassil"
+ ]
+}

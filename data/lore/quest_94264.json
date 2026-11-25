@@ -1,0 +1,64 @@
+{
+ "key": "quest:94264",
+ "type": "quest",
+ "name": "Craftsman's Writ: Shadow Oil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94264
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "shadow oil order",
+    "what does writ ask for",
+    "writ requirements"
+   ],
+   "answer": "The customer asks for one Shadow Oil delivered to the marked place, along with the writ itself.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "who can fulfill writ",
+    "can i trade craftsman writ",
+    "can writ be traded"
+   ],
+   "answer": "The document notes at the bottom that it is transferable, so anyone holding it may make the exchange.",
+   "q": "Can someone else fulfill this writ?"
+  },
+  {
+   "aliases": [
+    "where to deliver shadow oil",
+    "drop off shadow oil",
+    "shadow oil destination"
+   ],
+   "answer": "The note directs delivery to the designated location marked upon your map, where payment awaits.",
+   "q": "Where is the delivery made?"
+  }
+ ],
+ "keywords": [
+  "craftsman writ",
+  "delivery order",
+  "faded ink",
+  "shadow oil",
+  "trade contract"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer seeks a flask of Shadow Oil and offers payment upon arrival. You need only secure the requested draught, keep the contract in hand, and carry it to the designated drop. Because the agreement remains transferable, any bearer who produces the goods and the paper may claim the fee.",
+   "spoiler": 0,
+   "title": "A Trade in Shadow"
+  }
+ ],
+ "summary": "A faded order calls for a single flask of Shadow Oil to be brought to an appointed destination. The transferable contract promises payment to whoever arrives with the draught and paper in hand.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Shadow Oil"
+ ]
+}

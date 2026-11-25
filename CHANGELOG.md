@@ -7,6 +7,20 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.18.0 (2026-11-24)
+
+- **Keep listening in combat:** choose in Options whether Lore Forever narration keeps playing when combat starts.
+
+- **Books keep reading after you close them:** closing an in-game book lets the current page finish, and pages you flip
+  through play in order.
+
+- **Smoother Found tab browsing:** changing filters in the Found tab keeps your scroll position and handles large
+  collections smoothly.
+
+- Titled characters like Warchief Thrall now match their lore entries reliably, alongside voice pronunciation fixes.
+
+- Corrected lore in 3 entries.
+
 ## 1.17.0 (2026-11-23)
 
 - Corrected lore in 14 entries.

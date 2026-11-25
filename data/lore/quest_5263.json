@@ -1,0 +1,68 @@
+{
+ "key": "quest:5263",
+ "type": "quest",
+ "name": "Above and Beyond",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5263
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "nicholas zverenhoff",
+    "who gives above and beyond",
+    "duke zverenhoff"
+   ],
+   "answer": "Duke Nicholas Zverenhoff is a commander contending with the undead horrors of the Plaguelands, directing travelers to strike down high-ranking officers of the Scourge.",
+   "q": "Who is Duke Nicholas Zverenhoff?"
+  },
+  {
+   "aliases": [
+    "baron rivendare lore",
+    "who is rivendare",
+    "stratholme baron"
+   ],
+   "answer": "Baron Rivendare is a powerful death knight serving the Lich King, commanding the legion of Scourge forces that occupy Stratholme.",
+   "q": "Who is Baron Rivendare?"
+  },
+  {
+   "aliases": [
+    "what to bring back",
+    "rivendare head quest",
+    "proof of death"
+   ],
+   "answer": "Duke Nicholas Zverenhoff requires the severed head of Baron Rivendare as undeniable proof that the ruler of Stratholme has fallen.",
+   "q": "What proof does Duke Nicholas Zverenhoff demand?"
+  }
+ ],
+ "keywords": [
+  "above and beyond",
+  "baron rivendare",
+  "death knight",
+  "duke nicholas zverenhoff",
+  "scourge",
+  "stratholme"
+ ],
+ "related": [
+  "subzone:stratholme-classic",
+  "quest:6030"
+ ],
+ "sections": [
+  {
+   "body": "The burning streets of Stratholme teem with the walking dead, ruled from within by Baron Rivendare. To blunt the Scourge's power in the north, Duke Nicholas Zverenhoff seeks a champion willing to march into the ruin, defeat the dreaded lord, and deliver his head as proof.",
+   "spoiler": 0,
+   "title": "A Strike at Stratholme"
+  }
+ ],
+ "summary": "Duke Nicholas Zverenhoff calls on you to strike at the heart of the Scourge in the Plaguelands. The death knight Baron Rivendare commands Stratholme, and bringing back his severed head would break the undead hold over the ruined city.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Above and Beyond"
+ ]
+}

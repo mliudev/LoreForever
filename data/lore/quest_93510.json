@@ -1,0 +1,80 @@
+{
+ "key": "quest:93510",
+ "type": "quest",
+ "name": "Wake Memories",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93510
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives wake memories",
+    "who asks for the anchor"
+   ],
+   "answer": "A war veteran enduring the grief of Mount Hyjal asks you to seek out a reminder of his youth in the Eastern Kingdoms.",
+   "q": "Who asks you to find the anchor?"
+  },
+  {
+   "aliases": [
+    "lake everstill anchor location",
+    "where is the anchor"
+   ],
+   "answer": "The old iron anchor rests on the shoreline of Lake Everstill in Redridge, stuck in the lakeside mud.",
+   "q": "Where is the anchor located?"
+  },
+  {
+   "aliases": [
+    "who is tobin",
+    "tobin lore"
+   ],
+   "answer": "Tobin is the veteran's childhood friend who enlisted alongside him before the fighting on Mount Hyjal.",
+   "q": "Who is Tobin?"
+  },
+  {
+   "aliases": [
+    "why visit lake everstill",
+    "lake everstill connection"
+   ],
+   "answer": "The veteran and his friend Tobin spent their childhood afternoons skipping stones across Lake Everstill before enlisting together.",
+   "q": "Why does the veteran remember Lake Everstill?"
+  }
+ ],
+ "keywords": [
+  "anchor",
+  "eastern kingdoms",
+  "lake everstill",
+  "mount hyjal",
+  "redridge",
+  "tobin",
+  "wake memories",
+  "war veteran"
+ ],
+ "related": [
+  "subzone:lake-everstill",
+  "quest:4002"
+ ],
+ "sections": [
+  {
+   "body": "In the shadow of Mount Hyjal, a war veteran mourns the companions who perished during the Third War. The scarred slopes echo with grief, but thoughts of his youth in Redridge offer solace. He remembers skipping stones across Lake Everstill with his friend Tobin before they enlisted together, and he hopes a shoreline anchor from those peaceful days still endures.",
+   "spoiler": 0,
+   "title": "Echoes of Home"
+  },
+  {
+   "body": "Along the banks of Lake Everstill, the old anchor remains lodged deep in the mud. Though rust slowly overtakes the iron, the relic still holds against the water, standing as an unbroken link to the youth two friends shared before war tore them away.",
+   "spoiler": 1,
+   "title": "The Shoreline Anchor"
+  }
+ ],
+ "summary": "A grieving war veteran on Mount Hyjal longs for a memory of peace from the Eastern Kingdoms. He asks you to travel to Lake Everstill in Redridge and find an old shoreline anchor from the childhood he shared with his companion Tobin.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wake Memories"
+ ]
+}

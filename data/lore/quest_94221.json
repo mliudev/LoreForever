@@ -1,0 +1,85 @@
+{
+ "key": "quest:94221",
+ "type": "quest",
+ "name": "Craftsman's Writ: Golden Rod",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94221
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you know how weary old dwarven miners and mystics grow far from the warmth of Ironforge's Great Forge. Delivering goods to an elder meditating in the wild spares aged kin a painful march through rough mountains."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is craftsman writ golden rod",
+    "writ golden rod",
+    "golden rod order"
+   ],
+   "answer": "A transferable trade notice written in faded ink calls for a craftsman to deliver a single Golden Rod. Payment and the drop-off location await whoever fills the order and brings the parchment along.",
+   "q": "What is requested in this craftsman's writ?"
+  },
+  {
+   "aliases": [
+    "can anyone fulfill the writ",
+    "who can turn in the writ"
+   ],
+   "answer": "The parchment explicitly states that the agreement is transferable. Any traveler holding the paper may supply the rod and settle the deal with the customer.",
+   "q": "Can anyone deliver the requested item?"
+  },
+  {
+   "aliases": [
+    "who ordered the golden rod",
+    "customer for the rod"
+   ],
+   "answer": "An elderly dwarf immersed in deep meditation placed the original request. He waits at a remote spot far from city markets, grateful for any traveler willing to carry goods to him.",
+   "q": "Who is waiting for the delivery?"
+  },
+  {
+   "aliases": [
+    "why does he want a golden rod",
+    "what is the rod for"
+   ],
+   "answer": "The recipient hopes the rod might help him commune with the mysterious Binding Stones. If that strange craft fails, the old traveler admits it will at least serve him well as a sturdy walking cane.",
+   "q": "Why did the customer ask for a Golden Rod?"
+  }
+ ],
+ "keywords": [
+  "binding stones",
+  "craftsman's writ",
+  "dwarf",
+  "golden rod",
+  "ironforge",
+  "trade writ"
+ ],
+ "related": [
+  "quest:1471",
+  "zone:ironforge",
+  "topic:dwarf"
+ ],
+ "sections": [
+  {
+   "body": "A trade notice penned in faded ink offers coin for a single Golden Rod. The parchment marks a remote delivery point and notes that any bearer can complete the trade. If you hold the writ and bring the rod, the buyer promises fair payment upon arrival.",
+   "spoiler": 0,
+   "title": "An Open Order"
+  },
+  {
+   "body": "The customer turns out to be an elderly meditating dwarf far afield. He hoped the rod might aid in communing with the ancient Binding Stones, though he admits it will make a fine walking cane if the stonecraft fails. Your arrival saves his weary feet an exhausting journey back to the markets of Ironforge.",
+   "spoiler": 1,
+   "title": "A Meditator's Hope"
+  }
+ ],
+ "summary": "A faded work order calls for the delivery of a single Golden Rod to a customer waiting in the wilderness. The transferable contract promises good payment to any traveler willing to fulfill the request and carry the piece to its destination.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Golden Rod"
+ ]
+}

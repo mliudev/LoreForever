@@ -1,0 +1,92 @@
+{
+ "key": "quest:92818",
+ "type": "quest",
+ "name": "Big, No, MASSIVE Iron Axes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92818
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "A blacksmith who can forge massive iron axes will find a ready buyer among the bloodthirsty Magram."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who wants the axes",
+    "grolkar",
+    "who gives this"
+   ],
+   "answer": "Grolkar, a centaur living in Magram Village, demands the weapons to arm his clan.",
+   "q": "Who wants the axes?"
+  },
+  {
+   "aliases": [
+    "why do magram need axes",
+    "why weapons",
+    "centaur war"
+   ],
+   "answer": "The Magram fight a bitter clan war against the Gelkis centaur and need heavy weapons to crush them.",
+   "q": "Why does Grolkar want these weapons?"
+  },
+  {
+   "aliases": [
+    "where is grolkar",
+    "where is magram village",
+    "where do these axes go"
+   ],
+   "answer": "Grolkar stays at Magram Village in eastern Desolace.",
+   "q": "Where is Grolkar located?"
+  },
+  {
+   "aliases": [
+    "what kind of axes",
+    "how many axes",
+    "axes needed"
+   ],
+   "answer": "Grolkar demands two massive iron axes to test what outside smiths can produce.",
+   "q": "What weapons does Grolkar demand?"
+  },
+  {
+   "aliases": [
+    "magram reputation",
+    "can anyone do this",
+    "gelkis friendly"
+   ],
+   "answer": "You must remain on good terms with the Magram clan, which means staying hostile to their Gelkis enemies.",
+   "q": "Do the Magram trust just anyone?"
+  }
+ ],
+ "keywords": [
+  "blacksmithing",
+  "centaur",
+  "desolace",
+  "gelkis",
+  "grolkar",
+  "magram",
+  "massive iron axes"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:magram-village"
+ ],
+ "sections": [
+  {
+   "body": "In the dry wastes of Desolace, the Magram centaur wage a brutal feud against their Gelkis cousins. Grolkar demands heavy iron weapons to crush his clan's rivals and tests whether an outsider has the skill to forge them. You must keep the favor of the Magram and bring two massive iron axes to their village.",
+   "spoiler": 0,
+   "title": "Arms for the Clan"
+  }
+ ],
+ "summary": "Grolkar of the Magram centaur wants heavy weapons to smash the rival Gelkis clan in Desolace. He demands that you bring two massive iron axes to Magram Village to prove your craftsmanship and aid their war.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Big, No, MASSIVE Iron Axes"
+ ]
+}
