@@ -1,0 +1,72 @@
+{
+ "key": "quest:4287",
+ "type": "quest",
+ "name": "The Eastern Pylon",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4287
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A curious visitor in Un'Goro Crater asks you to locate the rumored Eastern Crystal Pylon. The reports describe a large structure lined with crystals.",
+ "sections": [
+  {
+   "title": "Rumors in the Crater",
+   "body": "A visitor staying in Un'Goro Crater has heard rumors of mysterious pylons in its wilderness. Though they have never seen one, the visitor believes the rumors may connect to the crystals found here. You are asked to find the one said to lie in the crater's eastern area.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Eastern Pylon?",
+   "aliases": [
+    "eastern pylon",
+    "eastern crystal pylon",
+    "crystal pylon"
+   ],
+   "answer": "It is a rumored structure in the eastern area of Un'Goro Crater, described as large and lined with crystals."
+  },
+  {
+   "q": "Who asks me to find it?",
+   "aliases": [
+    "who wants the pylon found",
+    "pylon giver"
+   ],
+   "answer": "A visitor staying in Un'Goro Crater asks you to locate the Eastern Crystal Pylon."
+  },
+  {
+   "q": "Why is the visitor curious about the pylon?",
+   "aliases": [
+    "why find pylon",
+    "pylon and crystals"
+   ],
+   "answer": "The visitor wonders whether the rumored pylons have something to do with the crystals found in the crater."
+  },
+  {
+   "q": "Where is the pylon rumored to be?",
+   "aliases": [
+    "eastern pylon location",
+    "where is it"
+   ],
+   "answer": "The rumor places the Eastern Crystal Pylon in the eastern area of Un'Goro Crater."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crystals",
+  "eastern crystal pylon",
+  "eastern pylon",
+  "pylon rumors",
+  "un'goro crater"
+ ],
+ "related": [
+  "zone:ungoro"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Eastern Pylon"
+ ]
+}

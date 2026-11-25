@@ -1,0 +1,69 @@
+{
+ "key": "quest:974",
+ "type": "quest",
+ "name": "Finding the Source",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   974
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krakle asks you to locate the hottest area of Fire Plume Ridge in Un'Goro Crater. He needs you to find the hottest spot.",
+ "sections": [
+  {
+   "title": "Among the Hot Spots",
+   "body": "At Fire Plume Ridge in Un'Goro Crater, Krakle asks you to compare the area's hot spots. Check each one with the thermometer until you find the hottest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Krakle want me to find?",
+   "aliases": [
+    "hottest spot",
+    "find the hot area",
+    "krakle thermometer"
+   ],
+   "answer": "Krakle wants you to find the hottest area of Fire Plume Ridge."
+  },
+  {
+   "q": "Where am I looking for the hottest spot?",
+   "aliases": [
+    "where is the hot spot",
+    "fire plume ridge location",
+    "hot area un'goro"
+   ],
+   "answer": "You are looking for it at Fire Plume Ridge in Un'Goro Crater."
+  },
+  {
+   "q": "How do I check a hot spot?",
+   "aliases": [
+    "how thermometer works",
+    "check temperature",
+    "right click thermometer"
+   ],
+   "answer": "Right click the thermometer at each hot spot to check its temperature."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "finding the source",
+  "fire plume ridge",
+  "hot spot",
+  "krakle",
+  "temperature",
+  "thermometer",
+  "un'goro crater"
+ ],
+ "related": [
+  "zone:ungoro",
+  "subzone:fire-plume-ridge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Finding the Source"
+ ]
+}

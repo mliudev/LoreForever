@@ -36,6 +36,7 @@ Options.DEFAULTS = {
   -- Quest voices as a quest window opens (Voice.QuestDialogue), on since LOR-1408 (Mike, 11/10: "I want to default to
   -- quest giver voices"); older installs are switched on once (Voice.SwitchQuestVoicesOnce).
   questDialogue = true,
+  questObjectives = true,  -- narrate quest objectives right after the quest text (Voice.QuestObjectives)
   -- A book, letter or plaque page's recording as it opens (Voice.ReadBookPage). Options has no switch for it; another
   -- add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
   readBooks = true,
@@ -887,7 +888,7 @@ function Options.VoiceSection(parent, onLayout, onPreviewError)
     if usable and it.stale > 0 then stats = stats .. ns.Lang.Dotted(" · ") .. T.code.stale .. string.format(L["%d outdated"], it.stale) .. "|r" end
     r.stats:SetText(stats)
     r.stats:SetTextColor(T.rgba(T.color.muted))
-    r.sample:SetShown(usable)
+    r.sample:SetShown(usable and not it.extOnly)
     r.sample:SetText(ns.Voice.previewing == it.key and L["Stop"] or L["Sample"])
     r.forget:SetShown(it.missing and not it.default)
     if i == 1 then r.up:Disable() else r.up:Enable() end
@@ -1351,6 +1352,11 @@ function Options.Create()
       p.Waiting()
       relayout("audio")
     end)
+  local questObjectivesRow = addCheck(aR, "questObjectives", L["Narrate quest objectives"],
+    L["Read quest objectives aloud right after the quest text, in the narrator's voice."],
+    nil, function(self)
+      if ns.Voice and ns.Voice.SetQuestObjectives then ns.Voice.SetQuestObjectives(self:GetChecked()) end
+    end)
 
   -- Collapsible disclosure: Narrator and voice packs
   local voiceToggle = CreateFrame("Button", nil, aR)
@@ -1480,7 +1486,8 @@ function Options.Create()
         return spokenCard.Layout(w)
       end,
     },
-    rowEntry(questVoicesRow, nil, 0, 10),
+    rowEntry(questVoicesRow, nil, 0, 4),
+    rowEntry(questObjectivesRow, nil, 0, 10),
     {
       frame = voiceToggle,
       gapBefore = 6,
@@ -2218,12 +2225,19 @@ function Options.Create()
     flightsRow.SetBlocked(autoReason)
 
     local qStatus = ns.Voice and ns.Voice.QuestDialogueStatus and ns.Voice.QuestDialogueStatus()
+    local objReason
     if qStatus then
       spokenCard.SetState(qStatus.tone, qStatus.title, qStatus.copy)
       questVoicesRow.SetBlocked(qStatus.blockedReason)
+      objReason = qStatus.blockedReason
     else
       questVoicesRow.SetBlocked(autoReason)
+      objReason = autoReason
     end
+    if not objReason and not (ns.Voice and ns.Voice.QuestDialogue and ns.Voice.QuestDialogue()) then
+      objReason = string.format(L["Available with %s."], questVoicesLabel)
+    end
+    questObjectivesRow.SetBlocked(objReason)
 
     local willoKeeps = ns.Updates and ns.Updates.WilloKeeps and ns.Updates.WilloKeeps()
     updateRow.SetBlocked(willoKeeps and L["%s keeps this up to date."]:format(ns.COMPANION_NAME) or nil)

@@ -1,0 +1,73 @@
+{
+ "key": "quest:6624",
+ "type": "quest",
+ "name": "Triage",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6624
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A healer asks you to save wounded soldiers with Triage Bandages. You need to tend enough patients before too many die.",
+ "sections": [
+  {
+   "title": "At the Bedside",
+   "body": "The soldiers lie wounded, and you have Triage Bandages to tend them. Critically Injured Soldiers are in the greatest danger, followed by Badly Injured Soldiers. Injured Soldiers can wait longer, so the order of care matters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many soldiers do I need to save?",
+   "aliases": [
+    "save how many patients",
+    "triage number"
+   ],
+   "answer": "You need to save fifteen patients."
+  },
+  {
+   "q": "How many patients can die?",
+   "aliases": [
+    "how many can die",
+    "triage deaths"
+   ],
+   "answer": "No more than five patients can die before you have saved fifteen."
+  },
+  {
+   "q": "Who needs care first?",
+   "aliases": [
+    "which soldiers first",
+    "triage order"
+   ],
+   "answer": "Critically Injured Soldiers die fastest, so tend them first. Badly Injured Soldiers are next, followed by Injured Soldiers."
+  },
+  {
+   "q": "Which soldiers can wait longest?",
+   "aliases": [
+    "who can wait",
+    "injured soldiers order"
+   ],
+   "answer": "Injured Soldiers take the longest to die and should be tended after the more critically wounded."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badly injured",
+  "bandages",
+  "critically injured",
+  "injured",
+  "patients",
+  "soldiers",
+  "triage"
+ ],
+ "related": [
+  "quest:6622"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Triage"
+ ]
+}

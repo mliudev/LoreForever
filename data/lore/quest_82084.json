@@ -1,0 +1,87 @@
+{
+ "key": "quest:82084",
+ "type": "quest",
+ "name": "A Lesson in Literacy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   82084
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian believes you are ready to write your own spellbook. Gather a quill, ink, and papyrus for its pages.",
+ "sections": [
+  {
+   "title": "Spellbook Materials",
+   "body": "A librarian sees promise in your arcane studies and asks you to gather supplies for a spellbook. The requested materials are an owlbeast quill from the Hinterlands, ink made from silithid resin, and Farraki Papyrus for the pages.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want me to collect?",
+   "aliases": [
+    "spellbook supplies",
+    "literacy materials",
+    "what materials"
+   ],
+   "answer": "The librarian asks you to collect an owlbeast quill from the Hinterlands, ink derived from silithid resin, and Farraki Papyrus."
+  },
+  {
+   "q": "Why am I gathering these materials?",
+   "aliases": [
+    "why collect this",
+    "spellbook purpose",
+    "what are supplies for"
+   ],
+   "answer": "The librarian thinks you are ready to write a spellbook of your own."
+  },
+  {
+   "q": "Where does the quill come from?",
+   "aliases": [
+    "owlbeast quill",
+    "quill location",
+    "where quill"
+   ],
+   "answer": "The librarian asks for a quill from the owlbeasts of the Hinterlands."
+  },
+  {
+   "q": "What is the ink made from?",
+   "aliases": [
+    "silithid ink",
+    "ink ingredient",
+    "what makes ink"
+   ],
+   "answer": "The requested ink is derived from silithid resin."
+  },
+  {
+   "q": "What are the spellbook pages made of?",
+   "aliases": [
+    "papyrus pages",
+    "Farraki paper",
+    "page material"
+   ],
+   "answer": "The librarian requests Farraki Papyrus for the pages."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "farraki papyrus",
+  "hinterlands",
+  "ink",
+  "librarian",
+  "literacy",
+  "owlbeast quill",
+  "silithid resin",
+  "spellbook"
+ ],
+ "related": [
+  "zone:hinterlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Lesson in Literacy"
+ ]
+}

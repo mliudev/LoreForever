@@ -1,0 +1,65 @@
+{
+ "key": "quest:8462",
+ "type": "quest",
+ "name": "Speak to Nafien",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8462
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Nafien stands guard outside Timbermaw Hold in Felwood. You are asked to travel north along the main road and speak with him.",
+ "sections": [
+  {
+   "title": "Road North",
+   "body": "In Felwood, Nafien keeps watch outside the entrance to Timbermaw Hold. You are asked to find him by traveling north along the main road.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Nafien?",
+   "aliases": [
+    "nafien",
+    "who's nafien"
+   ],
+   "answer": "Nafien is a furbolg who stands guard outside the entrance to Timbermaw Hold."
+  },
+  {
+   "q": "Where can I find Nafien?",
+   "aliases": [
+    "nafien location",
+    "where nafien"
+   ],
+   "answer": "Nafien stands outside the entrance to Timbermaw Hold in Felwood, along the main road to the north."
+  },
+  {
+   "q": "What am I asked to do?",
+   "aliases": [
+    "speak to nafien",
+    "nafien quest"
+   ],
+   "answer": "Travel north along Felwood's main road and speak with Nafien."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "felwood",
+  "furbolg",
+  "main road",
+  "nafien",
+  "timbermaw hold"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:timbermaw-hold",
+  "topic:furbolg"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Speak to Nafien"
+ ]
+}

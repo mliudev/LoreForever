@@ -1,0 +1,67 @@
+{
+ "key": "quest:84400",
+ "type": "quest",
+ "name": "The Knight and the Lady",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   84400
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A keeper in Ironforge asks you to bring magical works that may benefit the Library. Your efforts help its collection grow.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "A keeper in the Library of Ironforge seeks magical works for its collection. You can bring works that may benefit the library, and the keeper welcomes further additions as its knowledge grows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the keeper want?",
+   "aliases": [
+    "what do they want",
+    "library request",
+    "bring what"
+   ],
+   "answer": "The keeper asks you to bring magical works that might benefit the Library's collection."
+  },
+  {
+   "q": "Where is the collection?",
+   "aliases": [
+    "where is the library",
+    "library location",
+    "ironforge library"
+   ],
+   "answer": "The collection is in the Library of Ironforge."
+  },
+  {
+   "q": "Why bring magical works?",
+   "aliases": [
+    "why books",
+    "what for",
+    "help the library"
+   ],
+   "answer": "The keeper says your efforts expand the library's knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "keeper",
+  "knowledge",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Knight and the Lady"
+ ]
+}

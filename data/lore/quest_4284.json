@@ -1,0 +1,66 @@
+{
+ "key": "quest:4284",
+ "type": "quest",
+ "name": "Crystals of Power",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4284
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "J.D. Collie at Marshal's Refuge asks you to gather Power Crystals in four colors.",
+ "sections": [
+  {
+   "title": "A Crystal Request",
+   "body": "At Marshal's Refuge, J.D. Collie asks you to bring her Power Crystals. She wants seven each in red, blue, yellow, and green, and waits for you to return with them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does J.D. Collie need?",
+   "aliases": [
+    "what crystals does collie want",
+    "jd collie request"
+   ],
+   "answer": "J.D. Collie asks you to bring her seven Power Crystals of each color: red, blue, yellow, and green."
+  },
+  {
+   "q": "Where do I bring the crystals?",
+   "aliases": [
+    "where is collie",
+    "crystals delivery"
+   ],
+   "answer": "Bring the Power Crystals to J.D. Collie at Marshal's Refuge."
+  },
+  {
+   "q": "How many crystals of each color?",
+   "aliases": [
+    "how many power crystals",
+    "crystal count"
+   ],
+   "answer": "J.D. Collie asks for seven red, seven blue, seven yellow, and seven green Power Crystals."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blue crystals",
+  "crystals of power",
+  "green crystals",
+  "j.d. collie",
+  "marshal's refuge",
+  "power crystals",
+  "red crystals",
+  "yellow crystals"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Crystals of Power"
+ ]
+}

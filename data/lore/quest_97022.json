@@ -1,0 +1,65 @@
+{
+ "key": "quest:97022",
+ "type": "quest",
+ "name": "Report to Danitha",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97022
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Danitha Morr asks you to return to Bandarion Keep for further training. Your next step is to speak with her there.",
+ "sections": [
+  {
+   "title": "A Return to the Keep",
+   "body": "Danitha Morr is waiting at Bandarion Keep, where she has arranged more training for you. Return to the keep and speak with her to continue.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants me to report back?",
+   "aliases": [
+    "who sent me back",
+    "report to danitha",
+    "danitha report"
+   ],
+   "answer": "Danitha Morr asks you to return to Bandarion Keep for additional training."
+  },
+  {
+   "q": "Where do I need to go?",
+   "aliases": [
+    "where is danitha",
+    "back to the keep",
+    "report location"
+   ],
+   "answer": "Return to Bandarion Keep and speak with Danitha Morr."
+  },
+  {
+   "q": "Why am I returning to Bandarion Keep?",
+   "aliases": [
+    "why go back",
+    "what for",
+    "more training"
+   ],
+   "answer": "Danitha Morr has arranged additional training for you at Bandarion Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandarion keep",
+  "danitha morr",
+  "report back",
+  "training"
+ ],
+ "related": [
+  "subzone:bandarion-keep"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Report to Danitha"
+ ]
+}

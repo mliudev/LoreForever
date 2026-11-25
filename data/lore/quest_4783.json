@@ -1,0 +1,69 @@
+{
+ "key": "quest:4783",
+ "type": "quest",
+ "name": "Components for the Enchanted Gold Bloodrobe",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4783
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Menara Voidrender in the Barrens asks you to bring her Hatefury blood and a Lesser Infernal Stone. She needs both as components for an enchanted gold bloodrobe.",
+ "sections": [
+  {
+   "title": "Blood and Stone",
+   "body": "Menara Voidrender waits in the Barrens for the components she needs. Bring her ten Vials of Hatefury Blood and one Lesser Infernal Stone. The bloodrobe depends on both.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Menara Voidrender need?",
+   "aliases": [
+    "menara needs",
+    "bloodrobe items",
+    "what components"
+   ],
+   "answer": "Menara Voidrender needs ten Vials of Hatefury Blood and one Lesser Infernal Stone."
+  },
+  {
+   "q": "Who is asking for the components?",
+   "aliases": [
+    "who wants these",
+    "menara who",
+    "who needs blood"
+   ],
+   "answer": "Menara Voidrender asks you to bring the components in the Barrens."
+  },
+  {
+   "q": "What are the components for?",
+   "aliases": [
+    "bloodrobe for what",
+    "enchanted gold bloodrobe",
+    "why these items"
+   ],
+   "answer": "The Vials of Hatefury Blood and Lesser Infernal Stone are components for an enchanted gold bloodrobe."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrens",
+  "bloodrobe components",
+  "enchanted gold bloodrobe",
+  "hatefury blood",
+  "lesser infernal stone",
+  "menara voidrender",
+  "vial of hatefury blood"
+ ],
+ "related": [
+  "npc:menara-voidrender",
+  "zone:barrens"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Components for the Enchanted Gold Bloodrobe"
+ ]
+}

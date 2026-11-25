@@ -1,0 +1,61 @@
+{
+ "key": "quest:93162",
+ "type": "quest",
+ "name": "Head of the Obliterator",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93162
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You find the head of a massive war golem, still in remarkably good shape. Its size suggests the assembled machine would tower over the others nearby.",
+ "sections": [
+  {
+   "title": "A Golem's Head",
+   "body": "Other parts may lie nearby. The head belongs to a massive war golem, and it remains remarkably well preserved. Fully assembled, the machine would tower over the others you have seen here.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What did I find?",
+   "aliases": [
+    "golem head",
+    "war golem head"
+   ],
+   "answer": "You found the head of a massive war golem in remarkably good shape."
+  },
+  {
+   "q": "How big is the golem?",
+   "aliases": [
+    "golem size",
+    "how tall golem"
+   ],
+   "answer": "Fully assembled, it would tower over the other golems you have seen here."
+  },
+  {
+   "q": "Are the other parts nearby?",
+   "aliases": [
+    "golem parts",
+    "where are parts"
+   ],
+   "answer": "Other parts may be nearby."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "golem head",
+  "head",
+  "obliviterator",
+  "parts",
+  "war golem"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Head of the Obliterator"
+ ]
+}

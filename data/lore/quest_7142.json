@@ -1,0 +1,74 @@
+{
+ "key": "quest:7142",
+ "type": "quest",
+ "name": "The Battle for Alterac",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7142
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Voggah Deathgrip sends you into Alterac Valley to defeat the dwarven general Vanndar Stormpike. His defeat is the purpose of this undertaking.",
+ "sections": [
+  {
+   "title": "A General in Alterac",
+   "body": "In the Alterac Mountains, Voggah Deathgrip sends you toward Alterac Valley. The dwarven general Vanndar Stormpike is your target, and Voggah awaits your return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to Alterac Valley?",
+   "aliases": [
+    "who is Voggah",
+    "voggah task"
+   ],
+   "answer": "Voggah Deathgrip sends you into Alterac Valley to defeat Vanndar Stormpike."
+  },
+  {
+   "q": "Who is the target?",
+   "aliases": [
+    "alterac general",
+    "who is Vanndar"
+   ],
+   "answer": "The target is Vanndar Stormpike, a dwarven general."
+  },
+  {
+   "q": "Where do I go?",
+   "aliases": [
+    "where is the battle",
+    "alterac valley"
+   ],
+   "answer": "You are sent into Alterac Valley."
+  },
+  {
+   "q": "Who am I meant to return to?",
+   "aliases": [
+    "return to who",
+    "Voggah"
+   ],
+   "answer": "After defeating Vanndar Stormpike, you are to return to Voggah Deathgrip in the Alterac Mountains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "alterac mountains",
+  "alterac valley",
+  "dwarven general",
+  "vanndar stormpike",
+  "voggah deathgrip"
+ ],
+ "related": [
+  "zone:alteracvalley",
+  "npc:vanndar-stormpike",
+  "zone:alterac"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Battle for Alterac"
+ ]
+}

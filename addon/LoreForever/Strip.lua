@@ -1115,17 +1115,20 @@ end
 
 local questsGo
 
--- Past QUEST_RUN pages waiting: a plan step's page goes first (it only rides, so it never pushes out a page that shows
--- on its own), then the oldest that isn't a boss's kill page (a burst of rolls while a fight goes on mustn't drop the
--- kill it belongs to: the Architect's review of #4684). One rule for a new page, a cut show and its retry (#4731).
-local function trimQuests()
-  while #quests > QUEST_RUN do
+-- Past limit (QUEST_RUN by default) pages waiting: a plan step's page goes first (it only rides, so it never pushes out a
+-- page that shows on its own), then the oldest that isn't a boss's kill page (0x70..0x7F) or run-done page (0x50..0x5F)
+-- (a burst of rolls while a fight goes on mustn't drop the kill it belongs to: the Architect's review of #4684). One rule
+-- for a new page, a cut show, its retry (#4731) and riding an active show (ride).
+local function trimQuests(limit)
+  limit = limit or QUEST_RUN
+  while #quests > limit do
     local drop
     for i, q in ipairs(quests) do if q.ride then drop = i; break end end
     if not drop then
       drop = 1
       for i, q in ipairs(quests) do
-        if not (q.page[2] >= 0x70 and q.page[2] < 0x80) then drop = i; break end
+        local b = q.page[2]
+        if not ((b >= 0x70 and b < 0x80) or (b >= 0x50 and b < 0x60)) then drop = i; break end
       end
     end
     table.remove(quests, drop)
@@ -1167,7 +1170,7 @@ local function ride(m)
   local n = room(m)
   if #quests == 0 or n <= 0 then return end
   m.tail, m.rides = m.tail or {}, m.rides or {}
-  while #quests > n do table.remove(quests, 1) end     -- past QUEST_RUN: the oldest go (the save still ticks them)
+  trimQuests(n)
   for _, q in ipairs(quests) do m.tail[#m.tail + 1] = q.page; m.rides[#m.tail] = q.ride end
   quests = {}
   m.till = math.max(m.till, m.body + #m.tail * QUEST_SHOW)

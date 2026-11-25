@@ -1,0 +1,68 @@
+{
+ "key": "quest:2783",
+ "type": "quest",
+ "name": "Petty Squabbles",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2783
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are asked to speak with the Fallen Hero of the Horde at the edge of the Blasted Lands and the swamp. The meeting is the whole of what is asked here.",
+ "sections": [
+  {
+   "title": "At the Border",
+   "body": "At the border of the Blasted Lands and the swamp, you are asked to find the Fallen Hero of the Horde. Speak with him there; nothing more is asked of you here.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I need to speak with?",
+   "aliases": [
+    "fallen hero meeting",
+    "who is the hero",
+    "talk to fallen hero"
+   ],
+   "answer": "You are asked to speak with the Fallen Hero of the Horde."
+  },
+  {
+   "q": "Where can I find the Fallen Hero?",
+   "aliases": [
+    "where is he",
+    "hero location",
+    "blasted lands border"
+   ],
+   "answer": "He is at the border of the Blasted Lands and the swamp."
+  },
+  {
+   "q": "What am I asked to do?",
+   "aliases": [
+    "what do i do",
+    "speak to who",
+    "petty squabbles task"
+   ],
+   "answer": "You are asked to speak with the Fallen Hero of the Horde at the border of the Blasted Lands and the swamp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blasted lands",
+  "border",
+  "fallen hero of the horde",
+  "petty squabbles",
+  "swamp"
+ ],
+ "related": [
+  "npc:fallen-hero-of-the-horde",
+  "zone:blastedlands",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Petty Squabbles"
+ ]
+}

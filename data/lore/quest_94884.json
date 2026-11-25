@@ -1,0 +1,92 @@
+{
+ "key": "quest:94884",
+ "type": "quest",
+ "name": "An Unsettling Discovery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94884
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Claire asks you to carry samples from the cave to Ashe Amberhall at Farholde Keep. Their energy overwhelms her, and she is too weak to take them herself.",
+ "sections": [
+  {
+   "title": "A Request from the Cave",
+   "body": "Claire is trapped in the cave and says she cannot carry the samples. Their power is too much for her, and she needs to rest. You are asked to bring the Filled Crystal Catalyst to Ashe Amberhall at Farholde Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Farholde Keep",
+   "body": "Ashe Amberhall receives the catalyst and says Claire\u2019s instincts were right. She believes the Twilight's Hammer did not expect such a direct response, and calls the reagents marvelous.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to carry the samples?",
+   "aliases": [
+    "who needs the samples",
+    "claire cave",
+    "who is claire"
+   ],
+   "answer": "Claire is trapped in the cave and says she is too weak to carry the samples."
+  },
+  {
+   "q": "What do I bring to Ashe Amberhall?",
+   "aliases": [
+    "what samples",
+    "filled catalyst",
+    "what do i carry"
+   ],
+   "answer": "You bring the Filled Crystal Catalyst to Ashe Amberhall at Farholde Keep."
+  },
+  {
+   "q": "Why can't Claire carry the samples?",
+   "aliases": [
+    "why can't she carry them",
+    "samples too powerful",
+    "claire too weak"
+   ],
+   "answer": "Claire says their energy overwhelms her and that she is too weak to carry them."
+  },
+  {
+   "q": "Where do I take the catalyst?",
+   "aliases": [
+    "where is ashe",
+    "farholde keep delivery",
+    "where to bring it"
+   ],
+   "answer": "Take the Filled Crystal Catalyst to Ashe Amberhall at Farholde Keep."
+  },
+  {
+   "q": "What does Ashe say about the reagents?",
+   "aliases": [
+    "ashe's reaction",
+    "what does lady amberhall say",
+    "twilight hammer reagents"
+   ],
+   "answer": "Ashe says Claire's instincts were right and calls the reagents marvelous."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "an unsettling discovery",
+  "ashe amberhall",
+  "claire",
+  "farholde keep",
+  "filled crystal catalyst",
+  "reagents",
+  "samples",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Unsettling Discovery"
+ ]
+}

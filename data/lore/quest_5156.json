@@ -1,0 +1,74 @@
+{
+ "key": "quest:5156",
+ "type": "quest",
+ "name": "Verifying the Corruption",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5156
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Taronn Redfeather asks you to check the craters in Shatter Scar Vale for corrupt fel water. Entropic creatures there also need to be destroyed.",
+ "sections": [
+  {
+   "title": "The Vale's Craters",
+   "body": "In Shatter Scar Vale, Taronn Redfeather needs you to check whether the craters remain filled with corrupt fel water. Entropic Beasts and Entropic Horrors are part of the danger you are asked to address. You are to return to Taronn in Felwood after the check.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Taronn Redfeather want checked?",
+   "aliases": [
+    "crater water",
+    "fel water check"
+   ],
+   "answer": "Taronn asks you to see whether the craters in Shatter Scar Vale are still filled with corrupt fel water."
+  },
+  {
+   "q": "Where do I look for the craters?",
+   "aliases": [
+    "where are the craters",
+    "Shatter Scar Vale check"
+   ],
+   "answer": "The craters are in Shatter Scar Vale."
+  },
+  {
+   "q": "Which creatures are involved?",
+   "aliases": [
+    "entropic beasts",
+    "entropic horrors"
+   ],
+   "answer": "Taronn asks you to destroy Entropic Beasts and Entropic Horrors in Shatter Scar Vale."
+  },
+  {
+   "q": "Where do I return after checking?",
+   "aliases": [
+    "where to return",
+    "Taronn location"
+   ],
+   "answer": "Return to Taronn Redfeather in Felwood."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "corrupt fel water",
+  "craters",
+  "entropic beasts",
+  "entropic horrors",
+  "felwood",
+  "shatter scar vale",
+  "taronn redfeather"
+ ],
+ "related": [
+  "zone:felwood",
+  "subzone:shatter-scar-vale"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Verifying the Corruption"
+ ]
+}

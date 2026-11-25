@@ -1,0 +1,86 @@
+{
+ "key": "quest:96798",
+ "type": "quest",
+ "name": "Into the Darkness",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96798
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sergeant Danneth and his squad vanished near Serpent's Coil, south of Nethergarde Keep. You are asked to search the caverns for Danneth, though his chances look poor.",
+ "sections": [
+  {
+   "title": "A Missing Patrol",
+   "body": "A wounded soldier returned to Nethergarde Keep with grim news: Sergeant Danneth's squad had been killed or captured near Serpent's Coil. The survivor died a few hours later, and Danneth's fate remains uncertain. You are asked to search the caverns for him, where the patrol was last seen.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sergeant Danneth?",
+   "aliases": [
+    "danneth",
+    "sergeant danneth",
+    "who is the sergeant"
+   ],
+   "answer": "Sergeant Danneth led the squad last seen on patrol near Serpent's Coil."
+  },
+  {
+   "q": "Where was Danneth last seen?",
+   "aliases": [
+    "where danneth",
+    "danneth location",
+    "where is he"
+   ],
+   "answer": "Sergeant Danneth was last seen with his squad near Serpent's Coil, south of Nethergarde Keep."
+  },
+  {
+   "q": "What happened to Danneth's squad?",
+   "aliases": [
+    "danneth squad",
+    "patrol missing",
+    "what happened to the patrol"
+   ],
+   "answer": "A wounded member of the squad reported that the others had been killed or captured. That soldier later died."
+  },
+  {
+   "q": "Is Sergeant Danneth dead?",
+   "aliases": [
+    "danneth dead",
+    "is he alive",
+    "sergeant fate"
+   ],
+   "answer": "His fate is unconfirmed, though his chances are considered poor."
+  },
+  {
+   "q": "Why are you searching Serpent's Coil?",
+   "aliases": [
+    "into darkness quest",
+    "find danneth",
+    "serpent coil search"
+   ],
+   "answer": "You are asked to search the Serpent's Coil caverns for Sergeant Danneth."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caverns",
+  "into the darkness",
+  "missing patrol",
+  "nethergarde keep",
+  "sergeant danneth",
+  "serpent's coil"
+ ],
+ "related": [
+  "subzone:serpent-s-coil",
+  "subzone:nethergarde-keep"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Into the Darkness"
+ ]
+}

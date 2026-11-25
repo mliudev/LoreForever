@@ -278,7 +278,7 @@ for folder, files in ship.items():
 # The checks below read every text file (~140 MB of Lua) with these patterns. Each file is read and scanned once, by a
 # pool of forked workers (they inherit the patterns), in place of three passes one after another: 13 s down to ~2 s.
 AUDIO_REF = re.compile(r"(?:AddOns[\\/]+([\w\-]+)[\\/]+)?Audio[\\/]+([\w\-. ]+\.(?:mp3|ogg))", re.I)
-CLIP = re.compile(r"""\[\s*["'](\w+:[\w\-]+(?:#faq\d+|#detail|#progress|#complete)?)["']\s*\]\s*=""")
+CLIP = re.compile(r"""\[\s*["'](\w+:[\w\-]+(?:#faq\d+|#detail|#progress|#complete|#objectives)?)["']\s*\]\s*=""")
 # Key shapes are matched exactly and case-sensitively, as whole tokens: the generated search index is a long
 # base64-like blob, and a loose "AIza..." pattern finds false hits in it.
 KEY = re.compile(r"(?<![\w-])(?:AIza[\w-]{35}|sk-(?:ant|proj)-[\w-]{20,}|sk_[0-9a-f]{40,}|sk-[A-Za-z0-9]{40,})(?![\w-])")

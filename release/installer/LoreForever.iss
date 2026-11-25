@@ -42,8 +42,8 @@
 #ifndef OutputDir
   #define OutputDir "..\..\dist"
 #endif
-; The voice zips of this very version, so a voice always matches the add-on it's installed with.
-#define VoiceBase "https://downloads.loreforeverwow.com/v" + AppVersion + "/"
+; Standalone voice packs live on voices/; when compiled with /DDownloadIss, InstallVerifiedDownloads sets VoiceDefaultBase.
+#define VoiceBase "https://downloads.loreforeverwow.com/voices/"
 
 #define AddOnDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever"
 #define VoiceDir "{app}\{code:GameFlavor}\Interface\AddOns\LoreForever_Voice_Default"
@@ -203,6 +203,7 @@ var
   VoicePageRow: array of Integer;   // voice I's row on the page; -1 off the page
   VoicePageDir: String;
   VoiceProblems: String;
+  VoiceDefaultBase: String;
   PickNarrator, PickLang, PickBundle: String;
 
 procedure InitVoices();
@@ -578,19 +579,104 @@ end;
 
 function VoiceUrlBase(): String;
 begin
-  Result := ExpandConstant('{param:VOICEURL|{#VoiceBase}}');
+  Result := ExpandConstant('{param:VOICEURL|}');
+  if Result = '' then begin
+    if VoiceDefaultBase <> '' then Result := VoiceDefaultBase
+    else Result := '{#VoiceBase}';
+  end;
   if Copy(Result, Length(Result), 1) <> '/' then Result := Result + '/';
 end;
 
-// Checks the unpacked folders in DownloadStage (this version, and a transport shard's source and receipt) and lists
-// them for FinishDownloadGroup. Raises at the first that's wrong.
-procedure StageFolders(FolderNames, Source, Receipt: String);
+function ExtractTocVersion(Toc: AnsiString): String;
 var
-  Folder: String;
+  L: TStringList;
+  I: Integer;
+  Line: String;
+begin
+  Result := '';
+  if Copy(Toc, 1, 3) = #$EF#$BB#$BF then Delete(Toc, 1, 3);
+  L := TStringList.Create;
+  try
+    L.Text := Toc;
+    for I := 0 to L.Count - 1 do begin
+      Line := Trim(L[I]);
+      if (Length(Line) > 0) and (Line[1] = #$FEFF) then Delete(Line, 1, 1);
+      if Copy(Line, 1, 11) = '## Version:' then begin
+        Result := Trim(Copy(Line, 12, Length(Line)));
+        Exit;
+      end;
+    end;
+  finally
+    L.Free;
+  end;
+end;
+
+function ParseNonNegInt(S: String; var Val: Integer): Boolean;
+var
+  I: Integer;
+begin
+  Result := False;
+  if Length(S) = 0 then Exit;
+  for I := 1 to Length(S) do
+    if (S[I] < '0') or (S[I] > '9') then Exit;
+  Val := StrToIntDef(S, -1);
+  Result := Val >= 0;
+end;
+
+function ParseVersionParts(V: String; var P1, P2, P3, P4: Integer): Boolean;
+var
+  Dot, Idx: Integer;
+  Parts: array of Integer;
+  Seg: String;
+begin
+  Result := False;
+  V := Trim(V);
+  if V = '' then Exit;
+  SetArrayLength(Parts, 4);
+  Parts[0] := 0; Parts[1] := 0; Parts[2] := 0; Parts[3] := 0;
+  Idx := 0;
+  while V <> '' do begin
+    if Idx > 3 then Exit;
+    Dot := Pos('.', V);
+    if Dot > 0 then begin
+      Seg := Copy(V, 1, Dot - 1);
+      V := Copy(V, Dot + 1, Length(V));
+      if V = '' then Exit;
+    end else begin
+      Seg := V;
+      V := '';
+    end;
+    if not ParseNonNegInt(Seg, Parts[Idx]) then Exit;
+    Idx := Idx + 1;
+  end;
+  if Idx < 3 then Exit;
+  P1 := Parts[0]; P2 := Parts[1]; P3 := Parts[2]; P4 := Parts[3];
+  Result := True;
+end;
+
+function CompareVersion(A, B: String; var Cmp: Integer): Boolean;
+var
+  A1, A2, A3, A4, B1, B2, B3, B4: Integer;
+begin
+  Result := ParseVersionParts(A, A1, A2, A3, A4) and ParseVersionParts(B, B1, B2, B3, B4);
+  if not Result then Exit;
+  if A1 <> B1 then begin if A1 < B1 then Cmp := -1 else Cmp := 1; Exit; end;
+  if A2 <> B2 then begin if A2 < B2 then Cmp := -1 else Cmp := 1; Exit; end;
+  if A3 <> B3 then begin if A3 < B3 then Cmp := -1 else Cmp := 1; Exit; end;
+  if A4 <> B4 then begin if A4 < B4 then Cmp := -1 else Cmp := 1; Exit; end;
+  Cmp := 0;
+end;
+
+// Checks the unpacked folders in DownloadStage (ExpectedVersion, and a transport shard's source and receipt) and lists
+// them for FinishDownloadGroup. Raises at the first that's wrong.
+procedure StageFolders(FolderNames, Source, Receipt, ExpectedVersion: String);
+var
+  Folder, GotVersion: String;
   Text: AnsiString;
   F: TStringList;
   K: Integer;
 begin
+  if ExpectedVersion = '' then ExpectedVersion := '{#AppVersion}';
   F := TStringList.Create;
   try
     StringChangeEx(FolderNames, ';', #13#10, True);
@@ -599,9 +685,10 @@ begin
       Folder := F[K];
       if not LoadStringFromFile(DownloadStage + '\' + Folder + '\' + Folder + '.toc', Text) then
         RaiseException('Missing add-on folder: ' + DownloadStage + '\' + Folder + '\' + Folder + '.toc');
+      GotVersion := ExtractTocVersion(Text);
+      if GotVersion <> ExpectedVersion then
+        RaiseException('Wrong add-on version: ' + Folder + ' (got ' + GotVersion + ', want ' + ExpectedVersion + ')');
       Text := Text + #13#10;
-      if (Pos('## Version: {#AppVersion}' + #13#10, Text) = 0) and
-         (Pos('## Version: {#AppVersion}' + #10, Text) = 0) then RaiseException('Wrong add-on version: ' + Folder);
       if (Source <> '') and (Pos('## Dependencies: ' + Source + #10, Text) = 0) and
          (Pos('## Dependencies: ' + Source + #13#10, Text) = 0) then RaiseException('Wrong transport dependency: ' + Folder);
       if (Receipt <> '') and (GetSHA256OfFile(DownloadStage + '\' + Folder + '\Transport.json') <> Receipt) then
@@ -613,7 +700,7 @@ begin
   end;
 end;
 
-function PrepareDownload(Asset, Digest, FolderNames, Source, Receipt: String): Boolean;
+function PrepareDownload(Asset, Digest, FolderNames, Source, Receipt, ExpectedVersion: String): Boolean;
 var
   Zip: String;
 begin
@@ -624,7 +711,7 @@ begin
     Zip := ExpandConstant('{tmp}\') + Asset;
     ShowBusy('Unpacking ' + DownloadLabel(Asset) + '...');
     if not Unzip(Zip, DownloadStage) then RaiseException('Could not unpack ' + Asset);
-    StageFolders(FolderNames, Source, Receipt);
+    StageFolders(FolderNames, Source, Receipt, ExpectedVersion);
     Result := True;
     DownloadProof.Add(Asset + #9 + Digest);
     Log('verified download staged: ' + Asset + ' sha256 ' + Digest);
@@ -764,7 +851,7 @@ const
   SlotSpeed = 1500000;   // bytes a second each running download must get before another one starts beside them
 
 var
-  QAsset, QDigest, QFolders, QLabel: array of String;
+  QAsset, QDigest, QFolders, QLabel, QVersion: array of String;
   QBytes, QGot: array of Int64;
   QState: array of Integer;
   QSkipped, QChecked: array of Boolean;
@@ -861,45 +948,50 @@ begin
   end;
 end;
 
-// True when an earlier run put this very zip in place and its folders are still there whole: at this version, with as
-// many files as when it was put in place (a file deleted or taken by antivirus since means it's fetched again).
-function PackCurrent(Asset, Digest, FolderNames: String): Boolean;
+// True when a newer standalone release is already in place (never downgrade), or when an earlier run put this very zip
+// in place and its folders are still there whole: at ExpectedVersion, with as many files as when it was put in place
+// (a file deleted or taken by antivirus since means it's fetched again).
+function PackCurrent(Asset, Digest, FolderNames, ExpectedVersion: String): Boolean;
 var
   L, F: TStringList;
-  K: Integer;
+  K, Cmp: Integer;
   Toc: AnsiString;
+  Names, InstalledVer: String;
 begin
   Result := False;
   if HasSwitch('/REDOWNLOAD') then Exit;
-  // A pack released on its own for this add-on (## Version: {#AppVersion}.<n>, docs/releases.md) is newer than the
-  // copy Setup carries: it stays.
+  if ExpectedVersion = '' then ExpectedVersion := '{#AppVersion}';
+  // A standalone pack already on disk at a higher version stays: never downgrade it.
   F := TStringList.Create;
   try
-    StringChangeEx(FolderNames, ';', #13#10, True);
-    F.Text := FolderNames;
+    Names := FolderNames;
+    StringChangeEx(Names, ';', #13#10, True);
+    F.Text := Names;
     Result := F.Count > 0;
     for K := 0 to F.Count - 1 do
       if Result then begin
         Result := LoadStringFromFile(AddOnsDir() + '\' + F[K] + '\' + F[K] + '.toc', Toc);
-        Result := Result and (Pos('## Version: {#AppVersion}.', Toc) > 0);
+        if Result then begin
+          InstalledVer := ExtractTocVersion(Toc);
+          Result := CompareVersion(InstalledVer, ExpectedVersion, Cmp) and (Cmp > 0);
+        end;
       end;
   finally
     F.Free;
   end;
-  StringChangeEx(FolderNames, #13#10, ';', True);
   if Result or not FileExists(ReceiptFile()) then Exit;
   L := TStringList.Create;
   F := TStringList.Create;
   try
     L.LoadFromFile(ReceiptFile());
     Result := L.IndexOf(Asset + #9 + Lowercase(Digest) + #9 + IntToStr(PackFiles(FolderNames))) >= 0;
-    StringChangeEx(FolderNames, ';', #13#10, True);
-    F.Text := FolderNames;
+    Names := FolderNames;
+    StringChangeEx(Names, ';', #13#10, True);
+    F.Text := Names;
     for K := 0 to F.Count - 1 do
       if Result then begin
         Result := LoadStringFromFile(AddOnsDir() + '\' + F[K] + '\' + F[K] + '.toc', Toc);
-        Toc := Toc + #13#10;
-        Result := Result and ((Pos('## Version: {#AppVersion}' + #13#10, Toc) > 0) or (Pos('## Version: {#AppVersion}' + #10, Toc) > 0));
+        Result := Result and (ExtractTocVersion(Toc) = ExpectedVersion);
       end;
   finally
     L.Free;
@@ -927,7 +1019,7 @@ begin
 end;
 
 // The generated InstallVerifiedDownloads calls this for each ticked pack, most needed first.
-procedure QueueDownload(Asset, Digest, FolderNames, PackName: String; Bytes: Int64);
+procedure QueueDownload(Asset, Digest, FolderNames, PackName, ExpectedVersion: String; Bytes: Int64);
 var
   K: Integer;
 begin
@@ -937,6 +1029,7 @@ begin
   SetArrayLength(QDigest, QCount);
   SetArrayLength(QFolders, QCount);
   SetArrayLength(QLabel, QCount);
+  SetArrayLength(QVersion, QCount);
   SetArrayLength(QBytes, QCount);
   SetArrayLength(QGot, QCount);
   SetArrayLength(QState, QCount);
@@ -947,12 +1040,13 @@ begin
   QDigest[K] := Lowercase(Digest);
   QFolders[K] := FolderNames;
   QLabel[K] := PackName;
+  QVersion[K] := ExpectedVersion;
   QBytes[K] := Bytes;
   QGot[K] := 0;
   QState[K] := QWaiting;
   QChecked[K] := False;
   QSetupTries[K] := 0;
-  QSkipped[K] := PackCurrent(Asset, Digest, FolderNames);
+  QSkipped[K] := PackCurrent(Asset, Digest, FolderNames, ExpectedVersion);
   if QSkipped[K] then begin
     QState[K] := QReady;
     Log('voice pack ' + Asset + ': already in place at this version, skipped');
@@ -1208,7 +1302,7 @@ begin
   Ready := False;
   try
     if Code <> 0 then RaiseException('Could not unpack ' + QAsset[K]);
-    StageFolders(QFolders[K], '', '');
+    StageFolders(QFolders[K], '', '', QVersion[K]);
     DownloadProof.Add(QAsset[K] + #9 + QDigest[K]);
     Ready := True;
     Log('verified download staged: ' + QAsset[K] + ' sha256 ' + QDigest[K]);

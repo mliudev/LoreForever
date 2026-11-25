@@ -1,0 +1,67 @@
+{
+ "key": "quest:5090",
+ "type": "quest",
+ "name": "A Call to Arms: The Plaguelands!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5090
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Someone directs you to Commander Ashlam Valorfist at Chillwind Camp. His camp lies north of the Alterac Mountains.",
+ "sections": [
+  {
+   "title": "A Camp in the North",
+   "body": "Chillwind Camp is where you are sent to find Commander Ashlam Valorfist. His base camp lies north of the Alterac Mountains, and he is the one you are asked to seek out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I supposed to find?",
+   "aliases": [
+    "who to find",
+    "commander ash",
+    "where is ash"
+   ],
+   "answer": "You are sent to find Commander Ashlam Valorfist."
+  },
+  {
+   "q": "Where is Ashlam Valorfist?",
+   "aliases": [
+    "where is the commander",
+    "ashlam location",
+    "find valorfist"
+   ],
+   "answer": "Commander Ashlam Valorfist's base camp is at Chillwind Camp, north of the Alterac Mountains."
+  },
+  {
+   "q": "Where is Chillwind Camp?",
+   "aliases": [
+    "chillwind camp location",
+    "where is camp",
+    "camp north of alterac"
+   ],
+   "answer": "Chillwind Camp is north of the Alterac Mountains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "ashlam valorfist",
+  "call to arms",
+  "chillwind camp",
+  "plaguelands"
+ ],
+ "related": [
+  "subzone:chillwind-camp",
+  "zone:alterac"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Call to Arms: The Plaguelands!"
+ ]
+}

@@ -451,7 +451,8 @@ function Voice.Extensions(name)
       and not ns.Packs.IsLoaded(rec.name) then
       ensure(rec.name)   -- (does nothing for a pack in another language)
     end
-    if rec.extends and (rec.extends == name or Voice.InLanguage(rec.extends) == name) and not Voice.Unusable(rec.name) then
+    if rec.extends and (rec.extends == name or Voice.InLanguage(rec.extends) == name or Voice.KeyOf(rec.extends) == base)
+      and not Voice.Unusable(rec.name) then
       out[#out + 1] = rec.name
     end
   end
@@ -1005,38 +1006,98 @@ end
 -- LoreForever_Voice_Female_Quests_deDE); a voice in another language (LoreForever_Voice_Female_deDE) is named after its
 -- voice too, but is that voice (Voice.KeyOf). The name counts when the .toc can't be read yet (a pack in another
 -- language isn't loaded to read it), and the quest givers' voices in any language are never a voice.
+local function isQuestGiver(name)
+  local key = Voice.KeyOf(name)
+  for _, g in ipairs(QUEST_GIVER_PACKS) do if key == g then return true end end
+  return false
+end
+
+local EXT_SUFFIX = {
+  "^LoreForever_Voice_.+_Quests%d*$",
+  "^LoreForever_Voice_.+_MoreQuests%d*$",
+  "^LoreForever_Voice_.+_MorePlaces$",
+  "^LoreForever_Voice_.+_MorePeople$",
+  "^LoreForever_Voice_.+_MoreItems$",
+  "^LoreForever_Voice_.+_Alliance$",
+  "^LoreForever_Voice_.+_Horde$",
+  "^LoreForever_Voice_.+_Answers",
+}
+
 local function extendsVoice(rec, voices)
   if rec.extends then return true end
+  if isQuestGiver(rec.name) then return true end
   local key = Voice.KeyOf(rec.name)
-  for _, name in ipairs(QUEST_GIVER_PACKS) do if key == name then return true end end
+  for _, pat in ipairs(EXT_SUFFIX) do
+    if key:match(pat) then return true end
+  end
   for _, o in ipairs(voices) do
     local okey = Voice.KeyOf(o.name)
     if okey ~= key and key:sub(1, #okey + 1) == okey .. "_" then return true end
   end
 end
 
+local function isQuestExtension(ext)
+  local data = ensure(ext)
+  if not data then return false end
+  if type(data.questVoice) == "table" and next(data.questVoice) ~= nil then return true end
+  for id in pairs(data.clips or {}) do
+    if isQuestClip(id) then return true end
+  end
+  return false
+end
+
+local function questExtensions(base)
+  local out = {}
+  for _, ext in ipairs(Voice.Extensions(base)) do
+    if isQuestExtension(ext) then out[#out + 1] = ext end
+  end
+  return out
+end
+
 local function adoptNew(quiet)
   local s = prefs()
-  local known, voices, new, unusable, waiting = {}, ns.Packs.List("voice"), {}, {}, false
+  local known, voices, new, unusable, extOnly, waiting = {}, ns.Packs.List("voice"), {}, {}, {}, false
   for _, k in ipairs(s.voiceOrder) do known[k] = true end
   local function lands(rec) return extendsVoice(rec, voices) end
+  local function adoptExtension(rec)
+    if not (rec and rec.extends) or isQuestGiver(rec.name) then return end
+    local baseKey = Voice.KeyOf(rec.extends)
+    if baseKey == "" or isDefault(baseKey) or isQuestGiver(baseKey) or known[baseKey] then return end
+    local baseName = packOf(baseKey)
+    if not ns.Packs.Get(baseName) or Voice.Unusable(baseName) then
+      if isQuestExtension(rec.name) then
+        known[baseKey] = true
+        extOnly[#extOnly + 1] = baseKey
+      end
+    elseif ensure(baseName) then
+      known[baseKey] = true
+      new[#new + 1] = baseKey
+    else
+      waiting = true
+    end
+  end
   -- Each voice once, by its key: the pack that plays it in the language shown, or the one that says why it can't.
   for _, rec in ipairs(voices) do
     local key = Voice.KeyOf(rec.name)
-    if not isDefault(key) and not known[key] then
+    if not isDefault(key) and not isQuestGiver(rec.name) and not known[key] then
       local name = packOf(key)
       if Voice.Unusable(name) then
         if not lands(rec) then known[key] = true; unusable[#unusable + 1] = key end
       elseif ensure(name) then
         rec = ns.Packs.Get(name)   -- its X- fields may only be readable now it's loaded
-        if not lands(rec) then known[key] = true; new[#new + 1] = key end
+        if not lands(rec) then
+          known[key] = true
+          new[#new + 1] = key
+        else
+          adoptExtension(rec)
+        end
       else
         waiting = true
       end
     end
   end
   if quiet then
-    for _, list in ipairs({ new, unusable }) do
+    for _, list in ipairs({ new, unusable, extOnly }) do
       for _, key in ipairs(list) do
         s.voiceOrder[#s.voiceOrder + 1] = key
         s.voiceOff[key] = true
@@ -1062,6 +1123,7 @@ local function adoptNew(quiet)
     end
   end
   for _, key in ipairs(unusable) do s.voiceOrder[#s.voiceOrder + 1] = key end
+  for _, key in ipairs(extOnly) do s.voiceOrder[#s.voiceOrder + 1] = key end
   for _, key in ipairs(new) do
     local name = packOf(key)
     local have = Voice.Count(name)
@@ -1159,6 +1221,7 @@ local function noticeMissing()
   choice = packOf(choice)   -- the voice's pack in the language shown
   if Voice.chain[1] == choice then return end
   local why, code = Voice.Unusable(choice)
+  if code == "MISSING" and questExtensions(Voice.KeyOf(choice))[1] then return end
   if code == "LANGUAGE" and Voice.LanguageGap() then return end   -- (noticeLanguage says why, and how to hear it)
   local title = Voice.PackName(choice)
   -- What plays instead: the default voice, nothing, or the next voice in the list (named).
@@ -1331,6 +1394,7 @@ end
 -- Recheck permission at every real audio start, including queues and restored playback targets.
 function Voice.CanPlay(key)
   if Voice.shuttingDown then return false end
+  if type(key) == "string" and key:find("#objectives$") and not Voice.QuestObjectives() then return false end
   if not ns.Lang.ValidateEdition() then return false end
   if ns.lang and ns.lang.edition then
     local base, original = (type(key) == "string" and key or ""):match("^(.-)#faq(%d+)$")
@@ -1434,17 +1498,22 @@ function Voice.List()
       why, code = defaultWhy()
       if code ~= "MISSING" then name = DEFAULT_PACK end
     end
+    local base = key == AUTO and DEFAULT_PACK or key
+    local exts = code == "MISSING" and questExtensions(base) or nil
+    local extOnly = (exts and exts[1] ~= nil) or false
     local have, stale = 0, 0
     if not why then
       if ensure(name) then have, stale = Voice.Count(name) else why, code = Voice.Unusable(name) end
+    elseif extOnly then
+      why, code = nil, nil
     end
-    local st = name and Voice.stats[name]
+    local st = (name and Voice.stats[name]) or (extOnly and Voice.stats[base])
     local title = name and Voice.PackName(name)
     local lacking, complete = Voice.PackGaps(key)
     out[#out + 1] = { key = key, name = name, title = title or L["Default"],
       label = (key == AUTO and title and string.format(L["Default (%s)"], title)) or title or L["Default"],
       default = key == AUTO, on = not s.voiceOff[key], why = why, missing = code == "MISSING",
-      have = have, stale = stale, plays = st and st.plays or 0,
+      extOnly = extOnly, have = have, stale = stale, plays = st and st.plays or 0,
       races = name and ns.Packs.Get(name) and ns.Packs.Get(name).races or nil,
       lacking = lacking, complete = complete }
   end
@@ -1486,7 +1555,8 @@ end
 
 -- Take a voice that isn't installed off the list (the default voice always stays). Returns true if it went.
 function Voice.Forget(key)
-  if key == AUTO or ns.Packs.Get(packOf(key)) then return false end
+  local base = key == AUTO and DEFAULT_PACK or key
+  if key == AUTO or ns.Packs.Get(packOf(key)) or questExtensions(base)[1] then return false end
   local s = prefs()
   for i = #s.voiceOrder, 1, -1 do
     if s.voiceOrder[i] == key then table.remove(s.voiceOrder, i) end
@@ -1517,7 +1587,12 @@ function Voice.SetPack(value)
     value = Voice.KeyOf(value)   -- a voice is kept by its key; its pack in the language shown is what loads
     local name = packOf(value)
     ensure(name)
-    local why = Voice.Unusable(name) or (not ns.Packs.IsLoaded(name) and L["Didn't load"]) or nil
+    local why, code = Voice.Unusable(name)
+    if code == "MISSING" and questExtensions(value)[1] then
+      why = nil
+    elseif not why and not ns.Packs.IsLoaded(name) then
+      why = L["Didn't load"]
+    end
     if why then return false, why end
   end
   apply(prefs(), value)
@@ -2108,6 +2183,7 @@ function Voice.OnDemand() return S().onDemand == true end
 -- plays by itself at a quest giver (Mike, 10/25: our quest-giver voices aren't as good as Spoken's yet). Listen beside
 -- the quest window plays a page with it off too (Voice.PlayQuestPage).
 function Voice.QuestDialogue() return S().questDialogue == true end
+function Voice.QuestObjectives() return S().questObjectives ~= false end
 
 -- The game's own cutscenes and voiced dialog: a cinematic, a movie, or a talking head (on clients that have one).
 -- Nothing starts by itself over them, and what started by itself stops when one begins (Voice.OnGameTalk).
@@ -2878,7 +2954,8 @@ end
 function Voice.QuestFingerprint(text) return Voice.QuestFingerprints(text)[1] end
 
 local QUEST_PART = { detail = 2, progress = 3, complete = 4 }
-local QUEST_TEXT = { detail = "GetQuestText", progress = "GetProgressText", complete = "GetRewardText" }
+local QUEST_TEXT = { detail = "GetQuestText", progress = "GetProgressText", complete = "GetRewardText",
+  objectives = "GetObjectiveText" }
 
 -- Quest givers' voices (LoreForever_Voice_QuestGivers, LOR-225): quest dialogue in a voice of each quest giver's race
 -- and gender, every clip with the voice it's in (P.speaker[id] = "dwarf-male"). It isn't a voice of its own (its
@@ -3012,6 +3089,7 @@ end
 
 function Voice.QuestSpeaker(qid, rec, kind)
   if type(rec) == "string" and kind == nil then rec, kind = nil, rec end
+  if kind == "objectives" then return "narrator" end
   rec = rec or (ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid])
   if not rec then return nil end
   if S().voiceMatchGender == false then return "narrator" end
@@ -3112,8 +3190,79 @@ local function questNarrator(qid, rec, want, fits)
   return best
 end
 
+local function objectiveMatch(objFps, shown)
+  if type(objFps) == "string" then
+    if objFps == "" then return false end
+    if not shown then return true end
+    for _, fp in ipairs(shown) do
+      if (" " .. objFps .. " "):find(" " .. fp .. " ", 1, true) then return true end
+    end
+    return false
+  elseif type(objFps) == "table" then
+    if not objFps[1] then return false end
+    if not shown then return true end
+    for _, v in ipairs(objFps) do
+      for _, fp in ipairs(shown) do
+        if v == fp or (type(v) == "string" and (" " .. v .. " "):find(" " .. fp .. " ", 1, true)) then
+          return true
+        end
+      end
+    end
+    return false
+  end
+  return false
+end
+
+local function questObjectivesClip(qid, text, wantVoice, unchecked, peek)
+  if not qid then return nil end
+  if not Voice.ready then Voice.Refresh() end
+  local rec = ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid]
+  local canon = tostring(rec and rec[1] or qid)
+  local id = "quest:" .. canon .. "#objectives"
+  local list = Voice.questRanked and Voice.questRanked[id] or {}
+  if not list[1] then return nil end
+  local objFps = ns.DB and ns.DB.questObjectives and ns.DB.questObjectives[qid]
+  if not objFps then return nil end
+  local shown
+  if not unchecked then
+    if text == nil then
+      local f = _G[QUEST_TEXT.objectives]
+      local ok, words = false, nil
+      if f then ok, words = pcall(f) end
+      text = ok and words or nil
+    end
+    if type(text) ~= "string" or not text:find("%S") then return nil end
+    shown = Voice.QuestFingerprints(text)
+  end
+  if not objectiveMatch(objFps, shown) then return nil end
+  local family = Voice.questFits or function() return true end
+  local fits = {}
+  for _, v in ipairs(list) do
+    local allowed = not v[4] and (family(v[1]) or (wantVoice and v[1] == wantVoice))
+    if allowed then fits[#fits + 1] = v end
+  end
+  if not fits[1] then return nil end
+  if peek then return id end
+  local order = fits
+  if wantVoice and fits[1][1] ~= wantVoice then
+    order = {}
+    for _, v in ipairs(fits) do if v[1] == wantVoice then order[#order + 1] = v end end
+    for _, v in ipairs(fits) do if v[1] ~= wantVoice then order[#order + 1] = v end end
+  end
+  local paths = {}
+  for _, v in ipairs(order) do paths[#paths + 1] = v[2] end
+  Voice.questPaths[id], Voice.questServed[id] = paths, order[1][1]
+  Voice.questWords[id], Voice.questTitles[id] = nil, nil
+  return id
+end
+
 function Voice.QuestClip(qid, kind, text, unchecked, peek)
   if ns.lang and ns.lang.edition then return nil end
+  if kind == "objectives" then
+    local wantVoice
+    if type(unchecked) == "string" then wantVoice, unchecked = unchecked, false end
+    return questObjectivesClip(qid, text, wantVoice, unchecked, peek)
+  end
   local part = QUEST_PART[kind]
   if not (qid and part) then return nil end
   if not Voice.ready then Voice.Refresh() end
@@ -3230,14 +3379,33 @@ end
 -- recorded them (Voice.QuestClip); nil when the page has no matching recording (the page stays as text).
 -- kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one (story: what
 -- the player's title opens, UI.PlayerOpenStory).
+function Voice.QuestObjectivesPassage(qid, detailKey, objText, asked)
+  if not (qid and detailKey and Voice.QuestObjectives()) then return nil end
+  if objText == nil then
+    local f = _G[QUEST_TEXT.objectives]
+    local ok, words = false, nil
+    if f then ok, words = pcall(f) end
+    objText = ok and words or nil
+  end
+  if type(objText) ~= "string" or not objText:find("%S") then return nil end
+  local served = Voice.questServed and Voice.questServed[detailKey]
+  local detailNarrator = served and not served:find("^LoreForever_Voice_QuestGivers") and served or nil
+  local objClip = Voice.QuestClip(qid, "objectives", objText, detailNarrator)
+  if not objClip then return nil end
+  if asked then Voice.askedClips[objClip] = true end
+  return { { id = objClip, text = objText } }
+end
+
 local function questTarget(qid, kind, recorded)
   local voiced = Voice.Current() ~= "none"
   local key = voiced and Voice.QuestClip(qid, kind) or nil
   if not key then return nil end
   local id = QUEST_PREFIX .. qid .. ":" .. kind
+  local passages = kind == "detail" and Voice.QuestObjectivesPassage(qid, key) or nil
   return { id = id, key = key, label = Voice.questTitles[key] or (GetTitleText and GetTitleText()) or L["Quest"],
     text = questPage(kind),
-    story = recorded }
+    story = recorded,
+    passages = passages }
 end
 
 local function openQuest()
@@ -3517,6 +3685,7 @@ function Voice.PlayQuestPage()
   local target = questTarget(qid, kind, Voice.questRecorded)
   if not target then return false end
   Voice.askedClips[target.key] = true   -- asked for (Voice.HasAudio)
+  for _, p in ipairs(target.passages or {}) do Voice.askedClips[p.id] = true end
   Voice.openPages[target.id] = true
   UI.ListenTo(target)
   return true
@@ -3543,6 +3712,19 @@ function Voice.SetQuestDialogue(on)
   if UI and UI.OnVoiceChanged then UI.OnVoiceChanged(true) end   -- (a story playing plays on, its place kept)
   if ns.Hooks and ns.Hooks.UpdateQuestPlayButton then ns.Hooks.UpdateQuestPlayButton() end
   return S().questDialogue
+end
+
+function Voice.SetQuestObjectives(on)
+  S().questObjectives = on and true or false
+  local UI = ns.UI
+  local playingObj = UI and UI.speaking and (
+    (type(UI.playingKey) == "string" and UI.playingKey:find("#objectives$") ~= nil)
+    or (Voice.lastClip and type(Voice.lastClip.id) == "string" and Voice.lastClip.id:find("#objectives$") ~= nil)
+  )
+  if not on and playingObj then UI.StopAll() end
+  if UI and UI.OnVoiceChanged then UI.OnVoiceChanged(true) end
+  if ns.Hooks and ns.Hooks.UpdateQuestPlayButton then ns.Hooks.UpdateQuestPlayButton() end
+  return S().questObjectives
 end
 
 -- The one line that tells a player their quest voices stop at the band they have (the English quest dialogue is three
