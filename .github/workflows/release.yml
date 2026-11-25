@@ -234,7 +234,7 @@ jobs:
           done
           echo "::group::The narration packs"; cat "$packs/log"; echo "::endgroup::"
           rc=$(cat "$packs/exit")
-          [ "$rc" = 0 ] || { echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc" }
+          [ "$rc" = 0 ] || { echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"; }
           shopt -s nullglob
           mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
           python3 - <<'PY'
