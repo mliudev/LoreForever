@@ -838,11 +838,9 @@ NARRATION_TAG = "voices"
 def upload_narration(args, todo: list[dict], projects: list[dict], token: str) -> int:
     """Narration projects from the narration's own release (scripts/release-narration.sh): the newest
     narration-<version>.json on the "voices" release names each download's newest file (<name>-<version>.zip, version
-    <add-on>.<n>), and each project goes up at its newest source's version. One none of whose downloads is there yet is
-    absent (the add-on release's path still carries it); one whose files are what was last sent is unchanged. Bundles
-    stay with the add-on release's path."""
+    <add-on>.<n>), and each project (including complete bundles) goes up at its newest source's or manifest's version.
+    One none of whose downloads is there yet is absent; one whose files are what was last sent is unchanged."""
     state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state(STATE_FILE)
-    todo = [p for p in todo if not p.get("bundle")]
     with tempfile.TemporaryDirectory() as tmp:
         source_dir = Path(args.dir) if args.dir else Path(tmp, "release")
         source_dir.mkdir(parents=True, exist_ok=True)
@@ -855,37 +853,60 @@ def upload_narration(args, todo: list[dict], projects: list[dict], token: str) -
             print(f"No narration-<version>.json on the {NARRATION_TAG} release yet: narration still goes up with the "
                   "add-on's releases; nothing to upload here.")
             return 0
-        zips = None   # the newest manifest that reads whole (one cut off halfway is passed over)
+        doc, zips = None, None   # the newest manifest that reads whole (one cut off halfway is passed over)
         for newest in sorted(dated, key=lambda n: tuple(int(x) for x in re.findall(r"\d+", n)), reverse=True):
             if args.from_release:
                 fetch({newest}, NARRATION_TAG, source_dir)
             try:
-                zips = json.loads((source_dir / newest).read_text(encoding="utf-8")).get("zips")
+                doc = json.loads((source_dir / newest).read_text(encoding="utf-8"))
+                zips = doc.get("zips") if isinstance(doc, dict) else None
             except (OSError, ValueError, AttributeError):
-                zips = None
+                doc, zips = None, None
             if isinstance(zips, dict):
                 break
         if not isinstance(zips, dict):
             raise Failure(f"no narration-<version>.json on the {NARRATION_TAG} release reads whole")
-        groups, absent, want = {}, [], {}
+        manifest_ver = doc.get("version") if parse_version(doc.get("version")) else newest[len("narration-"):-len(".json")]
+        groups, absent, want, project_versions = {}, [], {}, {}
         for p in todo:
+            if p.get("bundle"):
+                continue
             mine = [zips[s] for s in sources(p) if s in zips]
             if len(mine) < len(sources(p)):   # a file from some of its downloads would drop the others' narration
                 absent.append({"project": p, "absent": f"{', '.join(s for s in sources(p) if s not in zips)} not in "
                                f"{newest} (it still ships with the add-on's releases)", "action": "absent"})
                 continue
-            version = max((e["version"] for e in mine), key=lambda v: tuple(int(x) for x in v.split(".")))
+            version = max((e["version"] for e in mine), key=parse_version)
+            project_versions[p["key"]] = version
             groups.setdefault(version, []).append(p)
             for s in sources(p):
                 if s in zips:
                     want[s] = zips[s]["file"]
+        for p in todo:
+            if not p.get("bundle"):
+                continue
+            brought = brings(p, projects)
+            if not brought:
+                absent.append({"project": p, "absent": "none of the projects it brings is live yet", "action": "absent"})
+                continue
+            candidates = [manifest_ver] if parse_version(manifest_ver) else []
+            for req in brought:
+                rv = project_versions.get(req["key"]) or state.get(str(req.get("id") or ""), {}).get("version")
+                if parse_version(rv):
+                    candidates.append(rv)
+            if not candidates:
+                absent.append({"project": p, "absent": f"no released version in {newest} for its required projects",
+                               "action": "absent"})
+                continue
+            version = max(candidates, key=parse_version)
+            groups.setdefault(version, []).append(p)
         if args.from_release:
             fetch(set(want.values()), NARRATION_TAG, source_dir)
         for base, file in want.items():   # prepare() reads each source by its plain name
             if (source_dir / file).is_file() and file != base:
                 (source_dir / file).replace(source_dir / base)
         failed = send(absent, projects, state, "", token, args.dry_run, source=NARRATION_TAG)
-        for version, group in sorted(groups.items(), key=lambda kv: tuple(int(x) for x in kv[0].split("."))):
+        for version, group in sorted(groups.items(), key=lambda kv: parse_version(kv[0]) or ()):
             steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state,
                          version=version)
             failed |= send(steps, projects, state, version, token, args.dry_run, source=NARRATION_TAG)
