@@ -19,7 +19,7 @@
     "what is this book",
     "tidesages book"
    ],
-   "answer": "It is a magical tome delivered to expand the archives of the Library in Ironforge.",
+   "answer": "It is a magical tome delivered to expand the library kept by Garion Wendell in Stormwind or Owen Thadd in the Undercity.",
    "q": "What is Legends of the Tidesages?"
   },
   {
@@ -28,7 +28,7 @@
     "where to take legends of the tidesages",
     "who takes the book"
    ],
-   "answer": "Scholars at the Library in Ironforge accept the work to preserve its knowledge and add to their collection.",
+   "answer": "The library keeper accepts the work to preserve its knowledge and add to the collection: Garion Wendell in Stormwind for the Alliance, or Owen Thadd in the Undercity for the Horde.",
    "q": "Who wants the book?"
   },
   {
@@ -43,24 +43,23 @@
  ],
  "keywords": [
   "collection",
-  "ironforge",
   "legends of the tidesages",
   "library",
   "magical works",
+  "stormwind",
   "tidesages",
-  "tome"
+  "tome",
+  "undercity"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "sections": [
   {
-   "body": "Scholars in Ironforge seek to broaden their understanding of arcane and historical lore. Each volume retrieved from the wider world preserves lore that might otherwise vanish into obscurity.",
+   "body": "Librarians in Stormwind and the Undercity seek to broaden their understanding of arcane and historical lore. Each volume retrieved from the wider world preserves lore that might otherwise vanish into obscurity.",
    "spoiler": 0,
    "title": "Gathering Knowledge"
   }
  ],
- "summary": "A tome of obscure lore has made its way to the Library in Ironforge. Scholars there welcome such additions, eager to deepen their collection of arcane knowledge.",
+ "summary": "A tome of obscure lore has made its way to a library keeper in Stormwind or the Undercity. Scholars there welcome such additions, eager to deepen their collection of arcane knowledge.",
  "style": 2,
  "attribution": [
   "In-game quest text: Legends of the Tidesages"

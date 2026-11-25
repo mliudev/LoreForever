@@ -19,12 +19,13 @@ def verify(candidate, directory, manifest_path, selection):
     wanted = list(data['selections']['base'])
     if selection != 'base':
         wanted += data['selections'][selection]
-    archives = [candidate]
+    archives = [(candidate, data['releaseVersion'])]
     downloads = [row for row in data['downloads'] if row['selection'] == selection]
     for source in wanted:
         downloads += [dict(row, sha256=row['sha256']) for row in data['packs'].get(source, {}).get('shards', [])]
     failures = []
     expected = {}
+    folder_versions = {}
     status_file = directory / 'lore-download-status.tsv'
     receipts = {}
     if status_file.is_file():
@@ -40,16 +41,21 @@ def verify(candidate, directory, manifest_path, selection):
             continue
         if receipts.get(row['archive']) != (row['sha256'], 'passed'):
             failures.append('Missing passing verified download receipt: ' + row['archive'])
-        archives.append(archive)
+        row_version = row.get('version') or row.get('releaseVersion') or data['releaseVersion']
+        archives.append((archive, row_version))
     if set(receipts) != {row['archive'] for row in downloads}:
         failures.append('Unexpected or missing selected downloads')
-    for archive in archives:
+    for archive, expected_version in archives:
         with zipfile.ZipFile(archive) as package:
             for member in package.infolist():
                 if member.is_dir():
                     continue
                 if member.filename.startswith('/') or '..' in Path(member.filename).parts:
                     raise ValueError('Unsafe ZIP path')
+                folder = member.filename.split('/')[0]
+                if folder in folder_versions and folder_versions[folder] != expected_version:
+                    failures.append('Conflicting expected version: ' + folder)
+                folder_versions[folder] = expected_version
                 digest = hashlib.sha256(package.read(member)).hexdigest()
                 if member.filename in expected and expected[member.filename] != digest:
                     failures.append('Conflicting release member: ' + member.filename)
@@ -61,12 +67,13 @@ def verify(candidate, directory, manifest_path, selection):
     actual = {item.relative_to(addons).as_posix() for item in addons.rglob('*') if item.is_file()}
     failures += ['Unexpected installed member: ' + name for name in sorted(actual - set(expected))]
     expected_folders = {name.split('/')[0] for name in expected}
-    for folder in expected_folders:
+    for folder in sorted(expected_folders):
         toc = addons / folder / (folder + '.toc')
         if not toc.is_file():
             continue
         text = toc.read_text(encoding='utf-8-sig')
-        if not re.search(r'^## Version: ' + re.escape(data['releaseVersion']) + r'\s*$', text, re.M):
+        want_version = folder_versions.get(folder, data['releaseVersion'])
+        if not re.search(r'^## Version: ' + re.escape(want_version) + r'\s*$', text, re.M):
             failures.append('Installed version differs: ' + folder)
         dependencies = re.search(r'^## Dependencies:\s*(.+)$', text, re.M)
         if dependencies:

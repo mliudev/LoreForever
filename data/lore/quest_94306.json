@@ -1,0 +1,78 @@
+{
+ "key": "quest:94306",
+ "type": "quest",
+ "name": "Craftsman's Writ: Crimson Silk Robe",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94306
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Crimson Silk Robe and names a delivery place and payment. You need the writ to complete the transaction.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "A customer\u2019s faded note asks for a Crimson Silk Robe. It also gives a delivery place and payment, and the writ can pass from hand to hand. Carry it when you bring the requested robe to the marked place, for the transaction requires the writ itself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "crimson silk robe writ",
+    "what robe do they want"
+   ],
+   "answer": "The customer asks for one Crimson Silk Robe."
+  },
+  {
+   "q": "Where do I deliver the robe?",
+   "aliases": [
+    "delivery location",
+    "where to take robe"
+   ],
+   "answer": "The writ gives a delivery place, marked on your map."
+  },
+  {
+   "q": "What is the payment?",
+   "aliases": [
+    "how much payment",
+    "robe payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I transfer the writ?",
+   "aliases": [
+    "is writ transferable",
+    "pass the writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the transaction?",
+   "aliases": [
+    "need writ",
+    "robe transaction requirements"
+   ],
+   "answer": "Yes. You need to have the writ with you to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "crimson silk robe",
+  "delivery",
+  "payment",
+  "robe",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Crimson Silk Robe"
+ ]
+}

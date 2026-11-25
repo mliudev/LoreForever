@@ -1,0 +1,88 @@
+{
+ "key": "quest:83934",
+ "type": "quest",
+ "name": "Show Me the Money!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   83934
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Pix Xizzix asks you to recover coin stolen from his brothers in Booty Bay. The money matters to the venture they came from Kezan to start.",
+ "sections": [
+  {
+   "title": "A Stolen Start",
+   "body": "Pix Xizzix in Booty Bay seeks help after pirates stole the startup money he and his brothers brought from Kezan. Their backers at home expect the venture to succeed, so he offers payment for any of the coin you recover. He asks you to bring him a Tarnished Undermine Real.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Pix Xizzix?",
+   "aliases": [
+    "pix xizzix",
+    "who is pix",
+    "xizzix"
+   ],
+   "answer": "Pix Xizzix is one of a group of brothers from Kezan who came to start a business venture."
+  },
+  {
+   "q": "Why does Pix want the coin back?",
+   "aliases": [
+    "why coin back",
+    "stolen money",
+    "pix money"
+   ],
+   "answer": "Pirates stole the startup money Pix and his brothers brought for their business venture. Their backers at home are not understanding."
+  },
+  {
+   "q": "What coin is Pix looking for?",
+   "aliases": [
+    "tarnished real",
+    "undermine coin",
+    "which coin"
+   ],
+   "answer": "Pix asks you to bring him a Tarnished Undermine Real."
+  },
+  {
+   "q": "Where should I bring the coin?",
+   "aliases": [
+    "where bring coin",
+    "pix location",
+    "booty bay coin"
+   ],
+   "answer": "Bring the Tarnished Undermine Real to Pix Xizzix in Booty Bay."
+  },
+  {
+   "q": "What does Pix offer for the coin?",
+   "aliases": [
+    "pix payment",
+    "barter goods",
+    "what for coin"
+   ],
+   "answer": "Pix says he and his brothers will make it worth your while and have goods to barter."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "business venture",
+  "coin",
+  "kezan",
+  "pirates",
+  "pix xizzix",
+  "tarnished undermine real",
+  "undermine real"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Show Me the Money!"
+ ]
+}

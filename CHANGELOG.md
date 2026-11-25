@@ -7,6 +7,12 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.19.0 (2026-11-25)
+
+- Corrected lore in 14 entries.
+
+- **New lore and updated translations:** added 40 new lore entries and updated translations across six languages.
+
 ## 1.18.0 (2026-11-24)
 
 - **Keep listening in combat:** choose in Options whether Lore Forever narration keeps playing when combat starts.

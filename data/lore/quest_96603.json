@@ -1,0 +1,88 @@
+{
+ "key": "quest:96603",
+ "type": "quest",
+ "name": "Unstable Magic",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96603
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Archmage Celindra in Dalaran seeks field data for Archmage Rhonin, who is investigating a disturbance in Azeroth's magic. You are asked to gather motes of unstable magic with an Arcane Censer.",
+ "sections": [
+  {
+   "title": "Field Data",
+   "body": "Archmage Rhonin is abroad, studying a disturbance in the flow of magic across Azeroth. In Dalaran, Archmage Celindra asks you to gather motes that may aid his investigation. The Arcane Censer lets you draw them from skilled spell casters and other powerful beings; the Kirin Tor awaits the gathered data.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the motes?",
+   "aliases": [
+    "who wants motes",
+    "celindra task",
+    "who is celindra"
+   ],
+   "answer": "Archmage Celindra in Dalaran asks you to gather motes of unstable magic for Archmage Rhonin."
+  },
+  {
+   "q": "Why does Rhonin need the motes?",
+   "aliases": [
+    "why motes",
+    "rhonin magic study",
+    "what is rhonin investigating"
+   ],
+   "answer": "Rhonin is investigating a disturbance in the flow of magic across Azeroth, and the motes provide field data for his work."
+  },
+  {
+   "q": "What does the Arcane Censer do?",
+   "aliases": [
+    "censer purpose",
+    "arcane censer",
+    "magic censer"
+   ],
+   "answer": "While its magic affects you, the Arcane Censer lets you extract motes of unstable magic from skilled spell casters and other powerful beings."
+  },
+  {
+   "q": "Where do I bring the motes?",
+   "aliases": [
+    "where to take motes",
+    "dalaran motes",
+    "bring motes"
+   ],
+   "answer": "Bring the motes to Archmage Celindra in Dalaran."
+  },
+  {
+   "q": "How many motes does Celindra ask for?",
+   "aliases": [
+    "mote count",
+    "how many motes",
+    "ten motes"
+   ],
+   "answer": "Celindra asks you to bring ten motes of unstable magic."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arcane censer",
+  "archmage celindra",
+  "archmage rhonin",
+  "dalaran",
+  "kirin tor",
+  "magic disturbance",
+  "motes",
+  "unstable magic"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "quest:98477"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Unstable Magic"
+ ]
+}

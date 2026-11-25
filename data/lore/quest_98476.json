@@ -1,0 +1,65 @@
+{
+ "key": "quest:98476",
+ "type": "quest",
+ "name": "More Unstable Magic",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98476
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Earthen Ring seeks more motes of unstable magic for study. Their concern is that reality itself is fraying.",
+ "sections": [
+  {
+   "title": "The Earthen Ring's Concern",
+   "body": "The Earthen Ring needs raw material to study as reality seems to fray. You are asked to bring any additional motes of unstable magic you encounter in your travels.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Earthen Ring need?",
+   "aliases": [
+    "earthen ring needs",
+    "what do they want"
+   ],
+   "answer": "The Earthen Ring needs more motes of unstable magic as raw material for study."
+  },
+  {
+   "q": "Why are they gathering unstable magic?",
+   "aliases": [
+    "why motes",
+    "unstable magic reason"
+   ],
+   "answer": "The Earthen Ring wants the motes for study because reality seems to be fraying."
+  },
+  {
+   "q": "What are the motes for?",
+   "aliases": [
+    "motes use",
+    "unstable magic motes"
+   ],
+   "answer": "The motes of unstable magic are raw material for the Earthen Ring's study."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "earthen ring",
+  "more unstable magic",
+  "motes",
+  "raw material",
+  "reality fraying",
+  "unstable magic"
+ ],
+ "related": [
+  "quest:98477",
+  "quest:95349"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: More Unstable Magic"
+ ]
+}

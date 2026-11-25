@@ -1,0 +1,77 @@
+{
+ "key": "quest:2752",
+ "type": "quest",
+ "name": "On Iron Pauldrons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2752
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Orokk Omosh in Orgrimmar asks you to bring him bronze weapons. Four battleaxes and four warhammers are needed.",
+ "sections": [
+  {
+   "title": "A smith's request",
+   "body": "Orokk Omosh awaits you in Orgrimmar. He asks for four Bronze Battleaxes and four Bronze Warhammers, and the weapons are the reason he has called for you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Orokk Omosh need?",
+   "aliases": [
+    "orokk needs",
+    "what weapons",
+    "bronze weapons"
+   ],
+   "answer": "Orokk Omosh asks you to bring four Bronze Battleaxes and four Bronze Warhammers."
+  },
+  {
+   "q": "Where do I take the weapons?",
+   "aliases": [
+    "where to bring them",
+    "orokk location",
+    "where is orokk"
+   ],
+   "answer": "Bring the Bronze Battleaxes and Bronze Warhammers to Orokk Omosh in Orgrimmar."
+  },
+  {
+   "q": "How many battleaxes does Orokk want?",
+   "aliases": [
+    "number of axes",
+    "how many axes",
+    "battleaxe count"
+   ],
+   "answer": "Orokk Omosh asks for four Bronze Battleaxes."
+  },
+  {
+   "q": "How many warhammers does Orokk want?",
+   "aliases": [
+    "number of hammers",
+    "how many hammers",
+    "warhammer count"
+   ],
+   "answer": "Orokk Omosh asks for four Bronze Warhammers."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bronze battleaxes",
+  "bronze warhammers",
+  "iron pauldrons",
+  "orgrimmar",
+  "orokk omosh",
+  "weapons"
+ ],
+ "related": [
+  "npc:orokk-omosh",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: On Iron Pauldrons"
+ ]
+}

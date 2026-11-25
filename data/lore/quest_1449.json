@@ -1,0 +1,68 @@
+{
+ "key": "quest:1449",
+ "type": "quest",
+ "name": "To The Hinterlands",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1449
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "High Thane Falstad Wildhammer at Aerie Peak wants to speak with you. Trolls are causing trouble in the Hinterlands, and he has little time to spare.",
+ "sections": [
+  {
+   "title": "At Aerie Peak",
+   "body": "Falstad Wildhammer has matters pressing at Aerie Peak. When you speak with the High Thane, he says trolls are appearing throughout the Hinterlands. He has little patience for delay while the trouble grows.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I speak with in the Hinterlands?",
+   "aliases": [
+    "who do I talk to",
+    "hinterlands dwarf",
+    "falstad"
+   ],
+   "answer": "Speak with High Thane Falstad Wildhammer at Aerie Peak in the Hinterlands."
+  },
+  {
+   "q": "What is troubling Falstad?",
+   "aliases": [
+    "what's wrong there",
+    "why is falstad busy",
+    "troll problem"
+   ],
+   "answer": "Falstad says trolls are appearing throughout the Hinterlands."
+  },
+  {
+   "q": "Where is Falstad Wildhammer?",
+   "aliases": [
+    "where is falstad",
+    "aerie peak location",
+    "falstad at aerie peak"
+   ],
+   "answer": "High Thane Falstad Wildhammer is at Aerie Peak in the Hinterlands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aerie peak",
+  "falstad wildhammer",
+  "high thane",
+  "hinterlands",
+  "to the hinterlands",
+  "trolls"
+ ],
+ "related": [
+  "zone:hinterlands",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: To The Hinterlands"
+ ]
+}

@@ -729,7 +729,10 @@ local function questPlayPill(parent, fromLog)
   b:SetScript("OnClick", function()
     if fromLog then
       local t = ns.UI.QuestLogTarget(Hooks.questLogButton.quest)
-      if t then ns.Voice.askedClips[t.key] = true end   -- asked for: it plays with Speak quest dialogue off
+      if t then
+        ns.Voice.askedClips[t.key] = true   -- asked for: it plays with Speak quest dialogue off
+        for _, pass in ipairs(t.passages or {}) do ns.Voice.askedClips[pass.id] = true end
+      end
       ns.UI.ListenTo(t)
     else ns.Voice.PlayQuestPage() end
     Hooks.UpdateQuestPlayButton()

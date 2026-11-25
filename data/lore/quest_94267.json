@@ -1,0 +1,79 @@
+{
+ "key": "quest:94267",
+ "type": "quest",
+ "name": "Craftsman's Writ: Wildvine Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94267
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Wildvine Potion and gives delivery and payment details. You need the writ to complete the transaction.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "The faded note asks you to obtain a Wildvine Potion for its customer. It also gives a delivery location and payment details. The writ can pass from one bearer to another, but you need it with you to complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what potion",
+    "wildvine request"
+   ],
+   "answer": "The customer requests one Wildvine Potion."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery place",
+    "where to take it"
+   ],
+   "answer": "The writ provides delivery directions through a location marked on your map."
+  },
+  {
+   "q": "What is the payment?",
+   "aliases": [
+    "how much pay",
+    "payment details"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "transfer writ",
+    "pass it on"
+   ],
+   "answer": "Yes. The writ is transferable."
+  },
+  {
+   "q": "Do I need the writ with me?",
+   "aliases": [
+    "need the paper",
+    "writ required"
+   ],
+   "answer": "Yes. You need to have the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "customer",
+  "delivery",
+  "payment",
+  "potion",
+  "transferable writ",
+  "wildvine potion"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Wildvine Potion"
+ ]
+}

@@ -8,6 +8,9 @@ order. The stamp writes them into the version's section and deletes the fragment
 
   changelog.py notes VERSION        print VERSION's notes (Markdown); falls back to the next version's notes (above)
                                     if VERSION has no section yet. Exit 1 if there's nothing to say.
+  changelog.py curseforge VERSION   print VERSION's notes formatted as one tight Markdown '- ' bullet list for
+                                    CurseForge (no blank lines between bullets; un-bulleted paragraphs prefixed).
+                                    Exit 1 if there's nothing to say.
   changelog.py stamp VERSION        rename "## Unreleased" to "## VERSION (today)", with the fragments' notes after its
                                     own, start a fresh, empty Unreleased, and delete the fragments
   changelog.py site INDEX_HTML      write the website's copies from CHANGELOG.md: the landing page's version, its
@@ -82,6 +85,31 @@ def unreleased(text: str) -> str:
 def notes(version: str) -> str:
     text = CHANGELOG.read_text()
     return dict(sections(text)).get(version) or unreleased(text)
+
+
+def curseforge_notes(body: str) -> str:
+    """Format release notes as one tight Markdown '- ' bullet list for CurseForge (LOR-1648).
+
+    Blank lines between bullets render as loose list items (`<li><p>...</p></li>`) on curseforge.com, putting the
+    bullet dot above the text, and un-bulleted paragraphs break out of `<ul>`. Collapse wrapped continuations onto
+    their item, prefix un-bulleted paragraphs with '- ', and emit no blank lines between bullets.
+    """
+    items: list[str] = []
+    in_item = False
+    for line in body.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            in_item = False
+            continue
+        if re.match(r"^\s*[-*]\s+", line):
+            items.append(re.sub(r"^\s*[-*]\s+", "", line).strip())
+            in_item = True
+        elif in_item and items:
+            items[-1] += " " + stripped
+        else:
+            items.append(stripped)
+            in_item = True
+    return "\n".join(f"- {item}" for item in items if item)
 
 
 def stamp(version: str) -> None:
@@ -337,12 +365,19 @@ def main(argv: list[str]) -> int:
         text = merge_back(version, Path(shipped).read_text(), Path(before).read_text(), Path(target).read_text())
         Path(target).write_text(text)
         return 0
-    if len(argv) != 2 or argv[0] not in ("notes", "stamp", "site", "addon", "lint"):
+    if len(argv) != 2 or argv[0] not in ("notes", "curseforge", "stamp", "site", "addon", "lint"):
         print(__doc__, file=sys.stderr)
         return 2
     cmd, arg = argv
     if cmd == "notes":
         body = notes(arg)
+        if not body:
+            print(f"changelog: nothing under '## {arg}' or '## Unreleased' in CHANGELOG.md, and no changelog.d/*.md",
+                  file=sys.stderr)
+            return 1
+        print(body)
+    elif cmd == "curseforge":
+        body = curseforge_notes(notes(arg))
         if not body:
             print(f"changelog: nothing under '## {arg}' or '## Unreleased' in CHANGELOG.md, and no changelog.d/*.md",
                   file=sys.stderr)

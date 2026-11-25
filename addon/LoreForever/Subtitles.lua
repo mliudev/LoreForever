@@ -123,12 +123,13 @@ end
 
 -- A quest giver's page as the game shows it: the open quest window's, else what the quest log or a past visit kept
 -- (the recording reads the quest's text alone, never its title or objectives).
-local QUEST_TEXT = { detail = "GetQuestText", progress = "GetProgressText", complete = "GetRewardText" }
-local QUEST_FIELD = { detail = "text", progress = "progress", complete = "completion" }
+local QUEST_TEXT = { detail = "GetQuestText", progress = "GetProgressText", complete = "GetRewardText",
+  objectives = "GetObjectiveText" }
+local QUEST_FIELD = { detail = "text", progress = "progress", complete = "completion", objectives = "objectives" }
 local function questText(target, kind)
   local open = target.id and target.id:match("^questtext:(%d+):")
   local QF = _G.QuestFrame
-  if open and QF and QF:IsShown() and ns.Voice.questKind == kind then
+  if open and QF and QF:IsShown() and (ns.Voice.questKind == kind or (kind == "objectives" and ns.Voice.questKind == "detail")) then
     local f = _G[QUEST_TEXT[kind]]
     local ok, words = false, nil
     if f then ok, words = pcall(f) end

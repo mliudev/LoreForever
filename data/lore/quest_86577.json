@@ -1,0 +1,95 @@
+{
+ "key": "quest:86577",
+ "type": "quest",
+ "name": "A Sampling of Putrescence",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86577
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kelek Skykeeper seeks organs from Felwood\u2019s afflicted wolves and bears to study the corruption in their waters. The samples may show how it harms the creatures.",
+ "sections": [
+  {
+   "title": "Kelek's Samples",
+   "body": "Felwood\u2019s corrupted waters reach its wolves and bears, and Kelek Skykeeper needs samples to understand the harm. You are asked to bring him organs from both kinds of creature. The corruption leaves them ferocious, diseased, and fearless.",
+   "spoiler": 0
+  },
+  {
+   "title": "What the Samples Show",
+   "body": "Kelek finds tumors and pustules on the organs you bring him. He believes the animals\u2019 pain drives their aggression, but he does not know how to cure them. He suspects the answer lies on Hyjal, while Felwood suffers the corruption\u2019s effects.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kelek want from me?",
+   "aliases": [
+    "kelek samples",
+    "bear and wolf organs",
+    "putrescence organs"
+   ],
+   "answer": "Kelek asks for samples from Felwood\u2019s afflicted bears and wolves so he can study the corruption."
+  },
+  {
+   "q": "What is corrupting the animals?",
+   "aliases": [
+    "felwood corruption",
+    "why are animals diseased",
+    "hyjal corruption"
+   ],
+   "answer": "Corruption from Hyjal flows through the mountain\u2019s waters and seeps into Felwood. Animals that drink the water take it into themselves."
+  },
+  {
+   "q": "What does the corruption do to the creatures?",
+   "aliases": [
+    "why are wolves ferocious",
+    "felwood sick animals",
+    "corrupted bears"
+   ],
+   "answer": "It makes the creatures ferocious, diseased, and fearless."
+  },
+  {
+   "q": "Why are the animals aggressive?",
+   "aliases": [
+    "why are they attacking",
+    "animal aggression",
+    "wolves angry"
+   ],
+   "answer": "Kelek believes tumors and pustules cause the animals excruciating pain, which drives their aggression."
+  },
+  {
+   "q": "Does Kelek know how to cure them?",
+   "aliases": [
+    "cure felwood animals",
+    "how to stop corruption",
+    "can Kelek heal them"
+   ],
+   "answer": "Kelek does not know how to cure the animals. He suspects the solution lies on Hyjal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bear organs",
+  "corruption",
+  "felwood",
+  "hyjal",
+  "kelek skykeeper",
+  "pustules",
+  "putrescence",
+  "tumors",
+  "wolf organs"
+ ],
+ "related": [
+  "quest:923",
+  "zone:felwood",
+  "quest:5307"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Sampling of Putrescence"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:84147",
+ "type": "quest",
+ "name": "An Earnest Proposition",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   84147
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Deliana in Ironforge offers you better Wildheart Bracers in return for a favor. She asks for Winterspring blood, gold, and your ordinary bracers.",
+ "sections": [
+  {
+   "title": "Deliana's Offer",
+   "body": "In Ironforge, Deliana has a set of finer armor bracers and offers to trade them for your Wildheart Bracers. She asks you to bring her blood from the frostsabers and bears of Winterspring, along with gold. The trade is for one piece, though Deliana says she may part with the rest of the set for more work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the bracers?",
+   "aliases": [
+    "who is Deliana",
+    "bracer trade"
+   ],
+   "answer": "Deliana in Ironforge offers to trade you finer bracers for your Wildheart Bracers."
+  },
+  {
+   "q": "What does Deliana want from me?",
+   "aliases": [
+    "what does she need",
+    "Deliana favor"
+   ],
+   "answer": "Deliana asks for blood from Winterspring frostsabers and bears, your Wildheart Bracers, and gold."
+  },
+  {
+   "q": "Why does she want Winterspring blood?",
+   "aliases": [
+    "frostsaber blood",
+    "bear blood"
+   ],
+   "answer": "Deliana says she needs the blood of Winterspring's frostsabers and bears."
+  },
+  {
+   "q": "What armor is Deliana offering?",
+   "aliases": [
+    "what bracers",
+    "better armor"
+   ],
+   "answer": "She offers a set of armor bracers like those worn by your profession, but of higher quality."
+  },
+  {
+   "q": "Can Deliana trade more armor pieces?",
+   "aliases": [
+    "rest of the set",
+    "more work"
+   ],
+   "answer": "Deliana says she may give up the rest of the armor pieces if you are interested in doing more work for her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "an earnest proposition",
+  "armor trade",
+  "bear blood",
+  "deliana",
+  "frostsaber blood",
+  "ironforge",
+  "wildheart bracers",
+  "winterspring"
+ ],
+ "related": [
+  "zone:ironforge",
+  "zone:winterspring"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Earnest Proposition"
+ ]
+}

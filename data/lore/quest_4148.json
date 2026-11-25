@@ -1,0 +1,60 @@
+{
+ "key": "quest:4148",
+ "type": "quest",
+ "name": "Bloodpetal Zapper",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4148
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Bloodpetal Zapper is meant to work against nearby pests. You are told to use it when you see them.",
+ "sections": [
+  {
+   "title": "A Working Zapper",
+   "body": "The zapper is ready for you to use. Its giver says it should work perfectly, and asks you to zap any pests you see.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Bloodpetal Zapper?",
+   "aliases": [
+    "bloodpetal zapper",
+    "what's the zapper for"
+   ],
+   "answer": "The Bloodpetal Zapper is a device meant to zap pests."
+  },
+  {
+   "q": "When should I use the zapper?",
+   "aliases": [
+    "when zapper",
+    "use zapper when"
+   ],
+   "answer": "Use the zapper when you see any of the pests."
+  },
+  {
+   "q": "Will the zapper work?",
+   "aliases": [
+    "does zapper work",
+    "zapper good"
+   ],
+   "answer": "Its giver says the zapper should work perfectly."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodpetal",
+  "bloodpetal zapper",
+  "pests",
+  "zapper"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodpetal Zapper"
+ ]
+}

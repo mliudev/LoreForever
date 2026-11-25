@@ -1,0 +1,64 @@
+{
+ "key": "quest:4984",
+ "type": "quest",
+ "name": "The Wildlife Suffers Too",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4984
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mulgris Deepriver at the Writhing Haunt asks you to deal with diseased wolves in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "At the Writhing Haunt",
+   "body": "At the Writhing Haunt in the Western Plaguelands, Mulgris Deepriver asks you to destroy eight Diseased Wolves, then return to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is Mulgris",
+    "Mulgris Deepriver"
+   ],
+   "answer": "Mulgris Deepriver at the Writhing Haunt asks you to destroy Diseased Wolves."
+  },
+  {
+   "q": "What does Mulgris want me to do?",
+   "aliases": [
+    "what do i do",
+    "wolf quest"
+   ],
+   "answer": "Mulgris Deepriver asks you to destroy eight Diseased Wolves and return to him."
+  },
+  {
+   "q": "Where do I find Mulgris Deepriver?",
+   "aliases": [
+    "where is Mulgris",
+    "Writhing Haunt"
+   ],
+   "answer": "Mulgris Deepriver is at the Writhing Haunt in the Western Plaguelands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "diseased wolves",
+  "mulgris deepriver",
+  "western plaguelands",
+  "wildlife",
+  "writhing haunt"
+ ],
+ "related": [
+  "zone:westernplaguelands",
+  "subzone:writhing-haunt"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Wildlife Suffers Too"
+ ]
+}

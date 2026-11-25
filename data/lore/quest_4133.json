@@ -1,0 +1,76 @@
+{
+ "key": "quest:4133",
+ "type": "quest",
+ "name": "Vivian Lagrave",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4133
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shadowmaster Vivian Lagrave asks you to speak with her in Kargath. Her business begins after a brief comparison with the Apothecarium.",
+ "sections": [
+  {
+   "title": "A Word in Kargath",
+   "body": "Vivian Lagrave, a Shadowmaster, receives you in Kargath. She remarks that the place has a stark charm, though it lacks the Apothecarium\u2019s amenities. Then she turns from pleasantries to business and is ready to speak with you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Vivian Lagrave?",
+   "aliases": [
+    "Vivian",
+    "Vivian Lagrave who",
+    "shadowmaster Vivian"
+   ],
+   "answer": "Vivian Lagrave is a Shadowmaster in Kargath."
+  },
+  {
+   "q": "Where can I speak with Vivian Lagrave?",
+   "aliases": [
+    "where Vivian",
+    "Vivian location",
+    "find Vivian"
+   ],
+   "answer": "You can speak with Vivian Lagrave in Kargath."
+  },
+  {
+   "q": "What does Vivian say about Kargath?",
+   "aliases": [
+    "Kargath amenities",
+    "Vivian on Kargath",
+    "Kargath charm"
+   ],
+   "answer": "Vivian says Kargath has a stark charm, but fewer amenities than the Apothecarium."
+  },
+  {
+   "q": "What does Vivian want to discuss?",
+   "aliases": [
+    "Vivian business",
+    "what does Vivian want",
+    "Vivian talk"
+   ],
+   "answer": "Vivian says she is ready to turn to business, but gives no further details in this meeting."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apothecarium",
+  "kargath",
+  "shadowmaster",
+  "vivian",
+  "vivian lagrave"
+ ],
+ "related": [
+  "subzone:kargath",
+  "subzone:apothecarium"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vivian Lagrave"
+ ]
+}

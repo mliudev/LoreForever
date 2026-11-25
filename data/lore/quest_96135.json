@@ -1,0 +1,80 @@
+{
+ "key": "quest:96135",
+ "type": "quest",
+ "name": "Heed My Call",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96135
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A shaman calls you to the steam pools of Thousand Needles, where corrupted totems can draw out the quilboar\u2019s elementals. The Razormane will resist your interference.",
+ "sections": [
+  {
+   "title": "At the Steam Pools",
+   "body": "The steam pools hold fire, earth, water, and air, making them a fitting place for the defenses. A shaman asks you to set twisted totems there and prepare for the Razormane to resist. The corruption around the totems is meant to summon the quilboar\u2019s elementals.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Elements Answer",
+   "body": "The shaman asks whether the quilboar ritual has ended. When the storm within you disperses, the breeze carries word of victory, and the elements have granted you their respect.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why use the steam pools?",
+   "aliases": [
+    "steam pools why",
+    "why this spot"
+   ],
+   "answer": "The pools hold fire, earth, water, and air, so the shaman considers them suitable for defenses."
+  },
+  {
+   "q": "What are the twisted totems for?",
+   "aliases": [
+    "totems purpose",
+    "twisted totems"
+   ],
+   "answer": "Their corruption is meant to summon the quilboar\u2019s elementals."
+  },
+  {
+   "q": "Who is resisting the totems?",
+   "aliases": [
+    "razormane mad",
+    "who will fight"
+   ],
+   "answer": "The Razormane quilboar are expected to resist your interference."
+  },
+  {
+   "q": "What does the shaman ask me to do?",
+   "aliases": [
+    "what do I do",
+    "totem task"
+   ],
+   "answer": "The shaman asks you to place twisted totems at the Thousand Needles steam pools and put an end to the quilboar ritual."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elementals",
+  "heed my call",
+  "quilboar",
+  "razormane",
+  "shaman",
+  "steam pools",
+  "totems",
+  "twisted totems"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "topic:quilboar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Heed My Call"
+ ]
+}

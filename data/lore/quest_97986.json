@@ -1,0 +1,95 @@
+{
+ "key": "quest:97986",
+ "type": "quest",
+ "name": "Argent Arbiter",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97986
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An Argent Dawn scout may be the remains you found, but no other Skyborne has been seen by the river. You are sent to a medic near Blackwood Lake for more answers.",
+ "sections": [
+  {
+   "title": "A Second Camp",
+   "body": "At the front lines in the Eastern Plaguelands, Hailen's return is overdue. The Argent Dawn scout watches the outskirts and highlands, and usually comes back to camp every fortnight. From your description, the remains may be hers. Yet no other Skyborne like the one you saw has been seen by the river. A medic at another field camp may know more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hailen?",
+   "aliases": [
+    "hailen",
+    "argent scout",
+    "scout by the highlands"
+   ],
+   "answer": "Hailen is an Argent Dawn scout assigned to the outskirts and highlands. She usually returns to camp every fortnight."
+  },
+  {
+   "q": "Could the remains be Hailen's?",
+   "aliases": [
+    "hailen remains",
+    "whose remains",
+    "scout's body"
+   ],
+   "answer": "The Argent Dawn believes the remains you found may be Hailen's, based on your description."
+  },
+  {
+   "q": "Where should I go next?",
+   "aliases": [
+    "medic location",
+    "other camp",
+    "blackwood lake camp"
+   ],
+   "answer": "Speak with the medic at the Argent Dawn field camp northwest of Blackwood Lake in the Eastern Plaguelands."
+  },
+  {
+   "q": "Why am I speaking with the medic?",
+   "aliases": [
+    "what does the medic know",
+    "medic help",
+    "ask the medic"
+   ],
+   "answer": "The medic at the other Argent Dawn field camp may know something about the remains and the Skyborne seen by the river."
+  },
+  {
+   "q": "When does Hailen return to camp?",
+   "aliases": [
+    "hailen schedule",
+    "fortnight scout",
+    "how often hailen returns"
+   ],
+   "answer": "Hailen tends to return to camp every fortnight."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "As a Skyborne, you are told that the Argent Dawn has seen no others like the one you saw by the river."
+  }
+ ],
+ "keywords": [
+  "argent arbiter",
+  "argent dawn",
+  "blackwood lake",
+  "eastern plaguelands",
+  "field camp",
+  "hailen",
+  "medic",
+  "skyborne"
+ ],
+ "related": [
+  "zone:easternplaguelands",
+  "subzone:blackwood-lake",
+  "topic:argent-dawn",
+  "topic:skyborne"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Argent Arbiter"
+ ]
+}

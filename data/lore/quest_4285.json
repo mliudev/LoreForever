@@ -1,0 +1,63 @@
+{
+ "key": "quest:4285",
+ "type": "quest",
+ "name": "The Northern Pylon",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4285
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A curious traveler asks you to find the Northern Crystal Pylon in Un'Goro Crater. The rumors about the crystal pylons have caught their attention.",
+ "sections": [
+  {
+   "title": "A Northern Search",
+   "body": "In Un'Goro Crater, a traveler has heard stories about crystal pylons and wants to know if they are true. They ask you to find the pylon said to lie somewhere in the north.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to find the Northern Crystal Pylon?",
+   "aliases": [
+    "who wants the pylon found",
+    "pylon requester"
+   ],
+   "answer": "A traveler who has heard stories about crystal pylons asks you to locate the northern one."
+  },
+  {
+   "q": "Where is the Northern Crystal Pylon?",
+   "aliases": [
+    "where is the north pylon",
+    "northern pylon location"
+   ],
+   "answer": "It is somewhere in the northern part of Un'Goro Crater; you are asked to discover its location."
+  },
+  {
+   "q": "Why am I looking for it?",
+   "aliases": [
+    "why find the pylon",
+    "pylon quest why"
+   ],
+   "answer": "The traveler wants to learn whether the stories about crystal pylons are true."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crystal pylon",
+  "northern crystal pylon",
+  "northern pylon",
+  "pylon rumors",
+  "ungoro crater"
+ ],
+ "related": [
+  "zone:ungoro"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Northern Pylon"
+ ]
+}

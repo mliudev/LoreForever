@@ -1,0 +1,66 @@
+{
+ "key": "quest:7082",
+ "type": "quest",
+ "name": "The Graveyards of Alterac",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7082
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Corporal Teeka Bloodsnarl asks you to assault a graveyard in the Alterac Mountains, then return to her.",
+ "sections": [
+  {
+   "title": "A Graveyard Assault",
+   "body": "In the Alterac Mountains, Corporal Teeka Bloodsnarl sends you to assault a graveyard. Then you are to return to her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to assault a graveyard?",
+   "aliases": [
+    "who gave this",
+    "Teeka graveyard",
+    "graveyard task"
+   ],
+   "answer": "Corporal Teeka Bloodsnarl asks you to assault a graveyard in the Alterac Mountains."
+  },
+  {
+   "q": "Where is the graveyard?",
+   "aliases": [
+    "graveyard location",
+    "where to go",
+    "Alterac graveyard"
+   ],
+   "answer": "The graveyard is in the Alterac Mountains."
+  },
+  {
+   "q": "What does Teeka ask me to do?",
+   "aliases": [
+    "what do I do",
+    "graveyard request",
+    "what's the task"
+   ],
+   "answer": "Teeka asks you to assault a graveyard, then return to her in the Alterac Mountains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac",
+  "alterac mountains",
+  "corporal teeka bloodsnarl",
+  "graveyard assault",
+  "graveyards"
+ ],
+ "related": [
+  "zone:alterac"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Graveyards of Alterac"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "key": "quest:7044",
+ "type": "quest",
+ "name": "Legends of Maraudon",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7044
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A search for the two pieces of Celebras\u2019s Scepter leads you to seek a way to speak with Celebras.",
+ "sections": [
+  {
+   "title": "The Scepter Pieces",
+   "body": "You seek the Celebrian Rod and Celebrian Diamond, the two parts of Celebras\u2019s Scepter. You also need a way to speak with Celebras.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What pieces am I looking for?",
+   "aliases": [
+    "scepter parts",
+    "celebrans rod and diamond",
+    "what pieces"
+   ],
+   "answer": "The Celebrian Rod and Celebrian Diamond are the two parts of Celebras\u2019s Scepter."
+  },
+  {
+   "q": "Who do I need to speak with?",
+   "aliases": [
+    "talk to celebras",
+    "speak with celebras",
+    "who is celebras"
+   ],
+   "answer": "You are looking for a way to speak with Celebras."
+  },
+  {
+   "q": "What is the Celebrian Rod?",
+   "aliases": [
+    "celebrin rod",
+    "rod piece",
+    "rod"
+   ],
+   "answer": "The Celebrian Rod is one of the two parts of Celebras\u2019s Scepter."
+  },
+  {
+   "q": "What is the Celebrian Diamond?",
+   "aliases": [
+    "diamond piece",
+    "celebrin diamond",
+    "diamond"
+   ],
+   "answer": "The Celebrian Diamond is one of the two parts of Celebras\u2019s Scepter."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "celebras",
+  "celebrian diamond",
+  "celebrian rod",
+  "legends of maraudon",
+  "maraudon",
+  "scepter",
+  "scepter of celebras"
+ ],
+ "related": [
+  "quest:7046"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Legends of Maraudon"
+ ]
+}

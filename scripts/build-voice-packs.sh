@@ -32,32 +32,38 @@
 # --pack NAME (repeatable) limits it to the zips made only of those packs, and hydrates only those from the asset
 # store: `--sizes --pack <a store pack>` works in a pointers worktree (new-worktree.sh --pointers), where no other
 # pack's recordings are needed.
-# Usage: scripts/build-voice-packs.sh [--versioned | --sizes] [--pack NAME ...]
+# Usage: scripts/build-voice-packs.sh [--versioned | --sizes | --list-downloads] [--pack NAME ...]
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-# A sparse worktree without the language folders would do English only: stop, with the line that adds them.
-[ ! -f "$ROOT/scripts/need_langs.py" ] || python3 "$ROOT/scripts/need_langs.py" "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
-# A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
-# audio: refuse rather than build without them.
-{ [ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \
-    || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ]; } \
-  && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
-  || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
-         "a full one: scripts/new-worktree.sh --pointers <path>" \
-         "(and 'python3 scripts/audio_store.py hydrate' there for the recordings)" >&2; exit 1; }
-# Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
-# its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
-ONLY=()
-args=("$@")
-for i in "${!args[@]}"; do
-  if [ "${args[$i]}" = --pack ]; then
-    [ -n "${args[$((i + 1))]:-}" ] || { echo "build-voice-packs.sh: --pack needs a pack name" >&2; exit 2; }
-    ONLY+=("--pack=${args[$((i + 1))]}")
-  fi
+LIST_DOWNLOADS=0
+for arg in "$@"; do
+  [ "$arg" = --list-downloads ] && LIST_DOWNLOADS=1
 done
-if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; then
-  python3 "$ROOT/scripts/audio_store.py" hydrate --quiet "${ONLY[@]}" \
-    || { echo "build-voice-packs.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
+if [ "$LIST_DOWNLOADS" = 0 ]; then
+  # A sparse worktree without the language folders would do English only: stop, with the line that adds them.
+  [ ! -f "$ROOT/scripts/need_langs.py" ] || python3 "$ROOT/scripts/need_langs.py" "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
+  # A sparse worktree (scripts/new-worktree.sh) has no voice audio or translated lore, and the main checkout no voice
+  # audio: refuse rather than build without them.
+  { [ "$(git -C "$ROOT" config --get lore.sparse 2>/dev/null)" != true ] \
+      || [ "$(git -C "$ROOT" config --bool core.sparseCheckout 2>/dev/null)" != true ]; } \
+    && [ "$(git -C "$ROOT" ls-files -t -- addon/LoreForever_Voice_Default/Audio/ 2>/dev/null | head -c 1)" != S ] \
+    || { echo "${0##*/}: this checkout is sparse. In your own worktree, run 'git sparse-checkout disable' first; or make" \
+           "a full one: scripts/new-worktree.sh --pointers <path>" \
+           "(and 'python3 scripts/audio_store.py hydrate' there for the recordings)" >&2; exit 1; }
+  # Packs in the asset store (LOR-440): their recordings into the gitignored Audio/ first, every clip checked against
+  # its manifest. The public repo has no store (its workflow puts recordings back with audio_assets.py fetch).
+  ONLY=()
+  args=("$@")
+  for i in "${!args[@]}"; do
+    if [ "${args[$i]}" = --pack ]; then
+      [ -n "${args[$((i + 1))]:-}" ] || { echo "build-voice-packs.sh: --pack needs a pack name" >&2; exit 2; }
+      ONLY+=("--pack=${args[$((i + 1))]}")
+    fi
+  done
+  if [ -f "$ROOT/scripts/audio_store.py" ] && [ -d "$ROOT/release/audio-store" ]; then
+    python3 "$ROOT/scripts/audio_store.py" hydrate --quiet "${ONLY[@]}" \
+      || { echo "build-voice-packs.sh: couldn't fill in the asset store's recordings (above)" >&2; exit 1; }
+  fi
 fi
 exec python3 - "$ROOT" "$@" <<'PY'
 import atexit, functools, json, multiprocessing, os, re, shutil, sys, tempfile, zipfile, zlib, subprocess
@@ -78,13 +84,14 @@ def shown(path):   # a zip as this log names it: from the checkout's root, or wh
     return path.relative_to(root) if path.is_relative_to(root) else path
 VERSIONED = "--versioned" in sys.argv[2:]
 SIZES = "--sizes" in sys.argv[2:]
+LIST_DOWNLOADS = "--list-downloads" in sys.argv[2:]
 ONLY = {a for i, a in enumerate(sys.argv[2:]) if i and sys.argv[2:][i - 1] == "--pack"}   # --pack NAME ...
 DEFLATED = {}   # path -> its deflated size (a language pack's files go in several zips)
 
 # The zip writers: forked here, before the pause-split pool starts its threads, and only for a build that writes zips.
 # Disk-bound past a few, so at most LORE_PACK_ZIP_JOBS (default 8). LORE_PACK_ZIP_JOBS=1 writes them in this process.
 ZIP_POOL = None
-if not SIZES and int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8) > 1:
+if not SIZES and not LIST_DOWNLOADS and int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8) > 1:
     _zip_slot = build_jobs.reserve("build-voice-packs zips", 150, cap=int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8))
     atexit.register(_zip_slot.release)
     if _zip_slot.workers > 1:
@@ -101,7 +108,7 @@ if not SIZES and int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8) > 1:
 # build-release.sh: they change most days (twice between 1.8.0's two candidates, never in how a zip is written), and with
 # them in the key no candidate ever hit (LOR-1007). A zip from the cache still gets its packs' checks, so a check added
 # since runs on every pack. (Only the rehearsal reads the cache: the Release workflow writes every zip itself.)
-CACHE = Path(os.environ["LORE_PACK_ZIP_CACHE"]) if os.environ.get("LORE_PACK_ZIP_CACHE") and not SIZES else None
+CACHE = Path(os.environ["LORE_PACK_ZIP_CACHE"]) if os.environ.get("LORE_PACK_ZIP_CACHE") and not SIZES and not LIST_DOWNLOADS else None
 import time
 BUILD_START = time.time()
 AUDIO_JSON = {}
@@ -399,12 +406,20 @@ if ONLY:
 held_downloads = [name for name, entry in DOWNLOADS.items() if is_held(name, entry[0])]
 if held_downloads:
     print(f"held on release/pack-holds.json, left alone: {', '.join(held_downloads)}",
-          file=sys.stderr if SIZES else sys.stdout)
+          file=sys.stderr if (SIZES or LIST_DOWNLOADS) else sys.stdout)
 
 DOWNLOADS = {name: entry for name, entry in DOWNLOADS.items()
              if name not in PAUSED and name.removesuffix("-complete") not in PAUSED and not PAUSED & set(entry[0])
              and not is_held(name, entry[0])}
 FULL_BUNDLES = {name: entry for name, entry in FULL_BUNDLES.items() if name in DOWNLOADS}
+if LIST_DOWNLOADS:
+    listable = {
+        f"{name}.zip": entry[0]
+        for name, entry in DOWNLOADS.items()
+        if not (name in FULL_BUNDLES and len(entry[0]) == 1 and DOWNLOADS.get(entry[0][0], ([],))[0] == entry[0])
+    }
+    print(json.dumps(listable, indent=2, sort_keys=True))
+    sys.exit(0)
 # zips a CurseForge project of their own takes as they are (the quest givers' voices, and each narrator and its quest
 # dialogue in each language pack's language: release/curseforge.json), and the answers packs, sized for one
 CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_QuestGivers2", "LoreForever_Voice_QuestGivers3",
@@ -443,18 +458,34 @@ def language_files(locale):
     except (LoadError, OSError) as e:
         sys.exit(f"build-voice-packs: {folder}: {e}")
     # A language pack released on its own carries <core>.<n> (scripts/publish-language-packs.sh): the add-on version
-    # it's built for, then its own release number. Built for this core is what counts.
+    # it's built for, then its own release number. In compat mode (release-narration.sh), older compatible cores stay usable.
     built_for = ".".join(str(meta.get("Version") or "").split(".")[:3])
-    for field, expected, got in (("Interface", "16001", meta.get("Interface")), ("Version", core, built_for),
+    allow_compat = os.environ.get("LORE_ALLOW_COMPAT_LANG") == "1"
+    ver_parts = lambda v: tuple(int(x) for x in str(v or "").split(".")) if re.fullmatch(r"\d+(?:\.\d+)*", str(v or "")) else None
+    for field, expected, got in (("Interface", "16001", meta.get("Interface")),
                                  ("Dependencies", "LoreForever", meta.get("Dependencies")),
                                  ("X-LoreForever-Pack", "lang", meta.get("X-LoreForever-Pack")),
                                  ("X-LoreForever-Locale", locale, meta.get("X-LoreForever-Locale"))):
         if expected is None or got != expected:
             sys.exit(f"build-voice-packs: {folder}.toc has {field} {meta.get(field)!r}, expected {expected!r}")
-    index = addons / "LoreForever" / "Data" / "Index.lua"
-    m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index.read_text(encoding="utf-8"))
-    if not m or meta.get("X-LoreForever-DataVersion") != m.group(1):
-        sys.exit(f"build-voice-packs: {folder} was built from different lore data; rebuild with compile_lua --lang {locale}")
+    if allow_compat:
+        core_t, built_t = ver_parts(core), ver_parts(built_for)
+        if not core_t or not built_t or built_t > core_t:
+            sys.exit(f"build-voice-packs: {folder}.toc has Version {meta.get('Version')!r}, expected <= {core!r}")
+        fmt_raw = meta.get("X-LoreForever-Format")
+        if fmt_raw is not None:
+            try:
+                if int(fmt_raw) > 1:
+                    sys.exit(f"build-voice-packs: {folder}.toc has X-LoreForever-Format {fmt_raw!r} > 1")
+            except ValueError:
+                sys.exit(f"build-voice-packs: {folder}.toc has invalid X-LoreForever-Format {fmt_raw!r}")
+    else:
+        if core is None or built_for != core:
+            sys.exit(f"build-voice-packs: {folder}.toc has Version {meta.get('Version')!r}, expected {core!r}")
+        index = addons / "LoreForever" / "Data" / "Index.lua"
+        m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index.read_text(encoding="utf-8"))
+        if not m or meta.get("X-LoreForever-DataVersion") != m.group(1):
+            sys.exit(f"build-voice-packs: {folder} was built from different lore data; rebuild with compile_lua --lang {locale}")
     listed = list(dict.fromkeys([f"{folder}.toc", *xml, *lua]))
     # These language files previously received build-release.sh's secret scan inside the main zip. Keep the guard
     # when moving them into voice downloads, along with the restricted list of client-loaded files.

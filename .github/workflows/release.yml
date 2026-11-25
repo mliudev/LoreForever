@@ -1,12 +1,14 @@
-# Builds the download zip (the add-on with every default narration and the language packs), publishes it as a GitHub
-# release with that version's notes from CHANGELOG.md, and uploads it to CurseForge. Also builds the optional narration
-# packs (the female narrator) and adds them to the GitHub release. The add-on's Windows installer builds beside it and
-# goes in the same publish when it's signed and checked by then (it usually is), else joins the release once it is
-# (attach-installer): the zip never waits on it (docs/releases.md, rule 1; docs/qa/installers-own-release.md).
+# Builds the core download zip (the add-on with its default starter narration and language packs), publishes it alongside
+# the frozen transport/voice installer catalog (transport-downloads.json from narration-latest.json) as a GitHub release
+# with that version's notes from CHANGELOG.md, and uploads the core zip to CurseForge. Optional narration packs publish on
+# their own rolling `voices` release (scripts/release-narration.sh and voices.yml), never coupled to or blocking an add-on
+# release. The add-on's Windows installer builds beside the core zip and goes in the same publish when it's signed and
+# checked by then (it usually is), else joins the release once it is (attach-installer): the zip never waits on it
+# (docs/releases.md, rule 1; docs/qa/installers-own-release.md).
 # Willo, the companion app, releases on her own (willo.yml), not here.
 # CurseForge refuses additional files for this project (errorCode 1011), and as normal files the CurseForge app would
-# install a pack in place of the add-on, so a voice goes to CurseForge only as its own project (release/curseforge.json,
-# the curseforge-voices job). The site's /voices links follow releases/latest.
+# install a pack in place of the add-on, so optional voices go to CurseForge only on their own projects (voices.yml).
+# The site's /voices links follow the `voices` release.
 # Runs when a version tag is pushed; the maintainer's scripts/release.sh does that. The tag must match
 # "## Version" in addon/LoreForever/LoreForever.toc. Run it by hand (Actions > Release > Run workflow) to
 # rebuild the assets of an existing tag; that only uploads to CurseForge if you tick the box.
@@ -99,7 +101,7 @@ jobs:
             fi
           fi
       # The zip QA tested is the one that ships: scripts/release.sh puts its sha256 in the tag's message. Optional
-      # narration packs build in their own job (narration-packs) so they never hold up the core release.
+      # narration packs release independently via scripts/release-narration.sh (`voices` release).
       - name: Build the core zip
         run: |
           bash scripts/build-release.sh || exit 1
@@ -111,6 +113,32 @@ jobs:
             exit 1
           fi
           echo "zip sha256 $got${want:+, the one QA tested}"
+      - name: Fetch standalone narration manifest and smoke packs, and freeze installer downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p dist/extra dist/transport dist/narration
+          holds_arg=()
+          if [ -f release/pack-holds.json ]; then
+            holds_arg=(--holds release/pack-holds.json)
+          fi
+          python3 ci/scripts/installer_downloads.py --fetch-narration --repo "$GH_REPO" \
+            --voices-url "https://downloads.loreforeverwow.com/voices/" \
+            --narration-out dist/narration/narration-manifest.json \
+            --transport dist/transport --packs dist/extra --output dist/extra \
+            --published-transport release/transport-downloads.json \
+            --version "${{ steps.version.outputs.version }}" \
+            --source-commit "$(git rev-parse HEAD)" --candidate-zip dist/LoreForever.zip \
+            "${holds_arg[@]}"
+      - name: Hand the installer its verified inputs
+        run: |
+          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" handover \
+            --core dist/LoreForever.zip --extras dist/extra --output dist/windows
+      - uses: actions/upload-artifact@v7
+        with:
+          name: installer-inputs-${{ github.run_attempt }}
+          path: dist/windows/
+          compression-level: 0
       - name: Freeze source-bound core asset digest and content fingerprints
         run: |
           zip_arg=()
@@ -118,160 +146,28 @@ jobs:
             zip_arg=(--zip-sha256 '${{ needs.prepare.outputs.zip_sha256 }}')
           fi
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" core-manifest \
-            --core dist/LoreForever.zip --output dist/core-proof.json "${zip_arg[@]}"
-      - name: Stage core asset directly from its Linux producer
+            --core dist/LoreForever.zip --extras dist/extra --handover dist/windows/inputs.json \
+            --output dist/core-proof.json "${zip_arg[@]}"
+      - name: Stage core assets directly from its Linux producer
         if: needs.prepare.outputs.published != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage \
-            --manifest dist/core-proof.json --root dist/LoreForever.zip
+            --manifest dist/core-proof.json --root dist/LoreForever.zip --root dist/extra/transport-downloads.json
       # Preserve the existing published-tag rebuild contract; only this exceptional path transfers full artifacts.
       - uses: actions/upload-artifact@v7
         if: needs.prepare.outputs.published == 'true'
         with:
           name: core-payload-${{ github.run_attempt }}
-          path: dist/LoreForever.zip
+          path: |
+            dist/LoreForever.zip
+            dist/extra/transport-downloads.json
           compression-level: 0
       - uses: actions/upload-artifact@v7
         with:
           name: core-proof-${{ github.run_attempt }}
           path: dist/core-proof.json
-          compression-level: 0
-
-  # Optional narration packs and installer download metadata: builds alongside zip so slow/failing optional packs
-  # never delay publishing LoreForever.zip, and attaches monotonically after release and curseforge finish.
-  narration-packs:
-    needs: prepare
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: ${{ needs.prepare.outputs.source_commit }}
-      - uses: actions/checkout@v7
-        with:
-          path: ci
-          sparse-checkout: |
-            scripts
-            release
-      - id: version
-        name: Check the tag matches the .toc
-        run: |
-          version=$(sed -n 's/^## Version: *//p' addon/LoreForever/LoreForever.toc | tr -d '\r')
-          echo "version=$version" >> "$GITHUB_OUTPUT"
-          [ "v$version" = "$TAG" ] || { echo "::error::tag $TAG doesn't match .toc version $version"; exit 1; }
-      - name: Fetch the recordings
-        run: |
-          if [ -f scripts/audio_assets.py ]; then python3 scripts/audio_assets.py fetch; fi
-      # Build the narration packs (with the installer's downloads first) alongside build-release.sh so installer_downloads
-      # gets the exact candidate LoreForever.zip while build-voice-packs.sh runs.
-      - name: Build the zip and the narration packs, side by side, the installer's packs first
-        run: |
-          packs="$RUNNER_TEMP/packs"; mkdir -p "$packs"
-          # Its own log and exit status in files: nothing of this step's output stays open, so the step can end.
-          ( rc=0; LORE_INSTALLER_PACKS_READY="$packs/installer-ready" bash scripts/build-voice-packs.sh || rc=$?
-            echo "$rc" > "$packs/exit.part"; mv "$packs/exit.part" "$packs/exit" ) > "$packs/log" 2>&1 < /dev/null &
-          bash scripts/build-release.sh || exit 1
-          mv "dist/LoreForever-${{ steps.version.outputs.version }}.zip" dist/LoreForever.zip
-          want='${{ needs.prepare.outputs.zip_sha256 }}'
-          got=$(sha256sum dist/LoreForever.zip | cut -d' ' -f1)
-          if [ -n "$want" ] && [ "$want" != "$got" ]; then
-            echo "::error::The zip came out as sha256 $got, not $want, the zip scripts/release.sh built and QA tested."
-            exit 1
-          fi
-          echo "zip sha256 $got${want:+, the one QA tested}"
-          deadline=$((SECONDS + 1800))
-          until [ -e "$packs/installer-ready" ] || [ -e "$packs/exit" ]; do
-            [ "$SECONDS" -lt "$deadline" ] || { echo "::error::scripts/build-voice-packs.sh is still running after 30 minutes"; exit 1; }
-            sleep 1
-          done
-          if [ ! -e "$packs/installer-ready" ] && [ "$(cat "$packs/exit")" != 0 ]; then
-            rc=$(cat "$packs/exit")
-            echo "::group::The narration packs"; cat "$packs/log"; echo "::endgroup::"
-            echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"
-          fi
-          if [ -e "$packs/installer-ready" ]; then
-            echo "the installer's narration packs, ${SECONDS}s in: $(tr '\n' ' ' < "$packs/installer-ready")"
-          else
-            echo "every narration pack, ${SECONDS}s in (this tag's build-voice-packs.sh doesn't list the installer's)"
-          fi
-      - name: Freeze verified installer downloads and available transport shards, from the installer's packs
-        run: |
-          shopt -s nullglob
-          mkdir -p dist/extra
-          if [ -e "$RUNNER_TEMP/packs/installer-ready" ]; then
-            mapfile -t ready < "$RUNNER_TEMP/packs/installer-ready"
-          else   # a builder without the list has built every pack already
-            ready=(); for zip in dist/packs/*.zip; do ready+=("${zip##*/}"); done
-          fi
-          for zip in "${ready[@]}"; do
-            [[ "$zip" =~ ^[A-Za-z0-9_.-]+\.zip$ ]] || { echo "::error::Unexpected installer pack name: $zip"; exit 1; }
-            mv "dist/packs/$zip" dist/extra/
-          done
-          python3 scripts/installer_downloads.py --transport dist/transport --packs dist/extra --output dist/extra \
-            --published-transport release/transport-downloads.json --version "${{ steps.version.outputs.version }}" \
-            --source-commit "$(git rev-parse HEAD)" --candidate-zip dist/LoreForever.zip \
-            --base-url "https://github.com/${{ github.repository }}/releases/download/$TAG/"
-      # Only what the installer builds and smoke-tests from, hard links to the files the release ships. packs-manifest
-      # --handover then checks that the full build came to the same inputs.
-      - name: Hand the installer its verified inputs while the other narration packs build
-        run: |
-          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" handover \
-            --core dist/LoreForever.zip --extras dist/extra --output dist/windows
-      # upload-artifact (v4 on) makes the current-run artifact downloadable as soon as this step ends.
-      - uses: actions/upload-artifact@v7
-        with:
-          name: installer-inputs-${{ github.run_attempt }}
-          path: dist/windows/
-          compression-level: 0
-      # dist/extra/manifest.tsv: file, display name, version (one line per extra zip).
-      - name: Wait for the other narration packs
-        run: |
-          packs="$RUNNER_TEMP/packs"; deadline=$((SECONDS + 1800))
-          until [ -e "$packs/exit" ]; do
-            [ "$SECONDS" -lt "$deadline" ] || { echo "::error::scripts/build-voice-packs.sh is still running after 30 minutes"; exit 1; }
-            sleep 1
-          done
-          echo "::group::The narration packs"; cat "$packs/log"; echo "::endgroup::"
-          rc=$(cat "$packs/exit")
-          [ "$rc" = 0 ] || { echo "::error::scripts/build-voice-packs.sh failed (exit $rc; its log is above)"; exit "$rc"; }
-          shopt -s nullglob
-          mv dist/packs/*.zip dist/packs/manifest.tsv dist/extra/
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          root = Path('dist/extra')
-          manifest = json.loads((root / 'transport-downloads.json').read_text())
-          with (root / 'manifest.tsv').open('a') as listing:
-              for source, pack in manifest['packs'].items():
-                  for row in pack['shards']:
-                      listing.write(row['archive'] + '\tTransport: ' + source + '\t' + manifest['releaseVersion'] + '\n')
-          PY
-          cat dist/extra/manifest.tsv
-      # Also checks that the full build came to exactly the inputs handed to Windows, and enforces pack-holds.json fail-closed.
-      - name: Freeze source-bound narration pack digests and content fingerprints
-        run: |
-          zip_arg=()
-          if [ -n '${{ needs.prepare.outputs.zip_sha256 }}' ]; then
-            zip_arg=(--zip-sha256 '${{ needs.prepare.outputs.zip_sha256 }}')
-          fi
-          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" packs-manifest \
-            --core dist/LoreForever.zip --extras dist/extra --output dist/packs-proof.json \
-            --handover dist/windows/inputs.json "${zip_arg[@]}"
-      # Release-only files apart from the installer's (already uploaded in installer-inputs).
-      - name: Keep the release extras apart from the installer's inputs
-        run: |
-          python3 scripts/installer_inputs.py --source dist/extra \
-            --installer dist/installer-inputs --release dist/release-extra
-      - uses: actions/upload-artifact@v7
-        with:
-          name: packs-payload-${{ github.run_attempt }}
-          path: dist/release-extra/
-          compression-level: 0
-      - uses: actions/upload-artifact@v7
-        with:
-          name: packs-proof-${{ github.run_attempt }}
-          path: dist/packs-proof.json
           compression-level: 0
 
   installer:
@@ -304,11 +200,11 @@ jobs:
           if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
       # Each file straight from the artifact's storage, several side by side (the whole zip through one stream if that
       # doesn't work), then every file checked against the contract.
-      - name: Receive only verified installer inputs while Linux builds the other packs
+      - name: Receive verified installer inputs from zip job
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" receive --output dist/inputs
+        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" receive --producer zip --output dist/inputs
       # Windows' own tar unzips the ~5,000 files in seconds; Expand-Archive took 5 times as long. By full path: Git's GNU
       # tar comes first on the runner's PATH, and it can't read zips.
       - id: build
@@ -489,48 +385,14 @@ jobs:
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" finalize \
             --core-only --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}"
 
-  # Attach optional narration packs and transport metadata after core release and core CurseForge upload finish,
-  # updating release-manifest.json and SHA256SUMS.txt monotonically (before curseforge-voices and attach-installer so
-  # no two writers or readers race on those two files).
-  attach-packs:
-    needs: [prepare, release, narration-packs, curseforge]
-    if: ${{ !cancelled() && needs.release.result == 'success' && needs.narration-packs.result == 'success' }}
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: ${{ needs.prepare.outputs.source_commit }}
-          sparse-checkout: release
-      - uses: actions/checkout@v7
-        with:
-          path: ci
-          sparse-checkout: |
-            scripts
-            release
-      - uses: actions/download-artifact@v8
-        with:
-          pattern: '*-proof-*'
-          path: dist/proofs
-      - name: Attach verified narration packs and update manifests monotonically
-        env:
-          GH_TOKEN: ${{ github.token }}
-          SIGNING_REQUIRED: ${{ vars.SIGNING_PROFILE != '' }}
-        run: |
-          signed=(); legacy=()
-          if [ "$SIGNING_REQUIRED" = true ]; then signed=(--signed); fi
-          if [ '${{ needs.prepare.outputs.published }}' = true ]; then legacy=(--legacy); fi
-          python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" packs-attach \
-            --proofs dist/proofs --output dist/attach-packs "${signed[@]}" "${legacy[@]}"
-
   # The add-on's Windows installer, when it wasn't ready for the zip side's publish (docs/qa/installers-own-release.md;
   # Mike, 11/14: "these should all have their releases decoupled"): the signed, checked Setup.exe first, then
   # release-manifest.json and SHA256SUMS.txt rewritten to list it. Nothing to do when it went in the publish. After the
-  # CurseForge jobs and attach-packs, so no writer or reader races on release-manifest.json or SHA256SUMS.txt, while
-  # still succeeding whenever optional narration packs are skipped or fail. A failed installer is finished with
-  # scripts/release-installers.sh --windows X.Y.Z (it re-runs installer and this job only, then moves the site's
-  # installer slot). Not a required job: scripts/release_workflow.py waits for zip and release.
+  # CurseForge upload, so no writer or reader races on release-manifest.json or SHA256SUMS.txt. A failed installer is
+  # finished with scripts/release-installers.sh --windows X.Y.Z (it re-runs installer and this job only, then moves the
+  # site's installer slot). Not a required job: scripts/release_workflow.py waits for zip and release.
   attach-installer:
-    needs: [prepare, release, installer, curseforge, attach-packs, curseforge-voices]
+    needs: [prepare, release, installer, curseforge]
     if: ${{ !cancelled() && needs.release.result == 'success' && needs.installer.result == 'success' }}
     runs-on: ubuntu-24.04
     steps:
@@ -612,7 +474,10 @@ jobs:
             id=$(jq -r .id <<<"$newest")
             echo "::warning::CurseForge has no Forever version $game; tagging the newest one, $(jq -r .name <<<"$newest")"
           fi
-          python3 scripts/changelog.py notes "$VERSION" > notes.md
+          # Tight '- ' bullet list for CurseForge (LOR-1648); fall back to `notes` when re-running an older tag.
+          if ! python3 scripts/changelog.py curseforge "$VERSION" > notes.md; then
+            python3 scripts/changelog.py notes "$VERSION" > notes.md
+          fi
           # CurseForge's copy of the zip (release/curseforge.json): without the narration that's live as a CurseForge
           # project of its own, which this file then lists as a dependency, so the app installs it along with the
           # add-on. And under CurseForge's upload limit of about 500 MB (HTTP 413 for 0.7.0's 701 MB zip; 0.6.0's
@@ -643,30 +508,3 @@ jobs:
           main=$(jq -r .id result.json)
           echo "Uploaded Lore Forever $VERSION to CurseForge project $project (file $main); it goes live after moderation." \
             >> "$GITHUB_STEP_SUMMARY"
-
-  # The narration with CurseForge projects of its own (release/curseforge.json; each narrator's stories and its quest
-  # dialogue): each project's folders, from the release just published, go to it as requiring Lore Forever whenever
-  # the narration in them changed since its last upload (scripts/curseforge_voices.py records those on the
-  # "curseforge" release; CurseForge refuses an unchanged re-upload). A project with no id yet is skipped, so this does
-  # nothing until one exists. A job of its own, so narration can't hold up the add-on's upload. The same upload
-  # without a release: the "CurseForge voices" workflow (voices.yml).
-  curseforge-voices:
-    needs: [zip, release, attach-packs]
-    if: ${{ !cancelled() && (github.event_name == 'push' || inputs.curseforge) && needs.release.result == 'success' && needs.attach-packs.result == 'success' }}
-    runs-on: ubuntu-24.04
-    env:
-      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-      GH_TOKEN: ${{ github.token }}
-      GH_REPO: ${{ github.repository }}
-      VERSION: ${{ needs.zip.outputs.version }}
-    steps:
-      # scripts/curseforge_voices.py, release/curseforge.json and the core's .toc (for the game version). From the commit
-      # this run is for: the tag on a push, main on Run workflow, so a project id added since the tag counts.
-      - uses: actions/checkout@v7
-        with:
-          sparse-checkout: |
-            scripts
-            release
-            addon/LoreForever
-      - name: Upload the voices
-        run: python3 scripts/curseforge_voices.py upload --from-release

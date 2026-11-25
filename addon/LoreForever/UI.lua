@@ -1918,11 +1918,20 @@ end
 
 -- Whether a target is what plays now: the same recording, started here or somewhere else. A quest's playlist item
 -- shares its lore entry's id, but plays the quest giver's words: those must not turn the lore answer's Listen to Stop.
+local function hasPassageKey(t, key)
+  if type(t and t.passages) ~= "table" or type(key) ~= "string" then return false end
+  for _, p in ipairs(t.passages) do
+    if p.id == key then return true end
+  end
+  return false
+end
+
 function UI.IsPlayingTarget(t)
   if not (UI.speaking and t) then return false end
-  if UI.playingKey and UI.playingKey ~= t.key then return false end
+  local matchKey = UI.playingKey == t.key or hasPassageKey(t, UI.playingKey)
+  if UI.playingKey and not matchKey then return false end
   if UI.playingId == t.id then return true end
-  return t.key ~= t.id and UI.playingKey == t.key and ns.Voice.HasAudio(t.key)
+  return t.key ~= t.id and matchKey and ns.Voice.HasAudio(UI.playingKey or t.key)
 end
 
 -- Play a target. Pressing the one that's playing stops it; pressing anything else switches to it. A playing playlist
@@ -3444,11 +3453,28 @@ local function restHeard(it, from)
   return true
 end
 
+local logText
+
+local function questObjectiveText(qid)
+  if _G.QuestFrame and QuestFrame:IsShown() and ns.Voice.questKind == "detail" and GetQuestID and GetQuestID() == qid then
+    local ok, raw = false, nil
+    if _G.GetObjectiveText then ok, raw = pcall(GetObjectiveText) end
+    if ok and type(raw) == "string" and raw:find("%S") then return raw end
+  end
+  local _, obj, sure = logText(qid)
+  if sure and type(obj) == "string" and obj:find("%S") then return obj end
+  local q = ns.Log.KeptQuest(qid)
+  local kept = q and q.objectives
+  if type(kept) == "string" and kept:find("%S") then return ns.Capture.Personal(kept) end
+  return nil
+end
+
 local function itemTarget(it, byHand)
   if it.target then   -- a quest giver's page that came by itself: as the window had it (Voice.OnQuestFrame)
     if not ns.Voice.HasAudio(it.target.key) then return nil end
     local t = {}
     for k, v in pairs(it.target) do t[k] = v end
+    if t.passages and not ns.Voice.QuestObjectives() then t.passages = nil end
     return t
   end
   if not it.pages then
@@ -3463,9 +3489,10 @@ local function itemTarget(it, byHand)
       if it.book then
         return { id = it.id, key = clip, label = it.label, text = ns.Voice.BookPageText(it.label, it.pages[p]) }
       end
-      local e = it.key and UI.engine.db.entries[it.key]
+      local kind = it.pages[p]
+      local passages = kind == "detail" and ns.Voice.QuestObjectivesPassage(it.quest, clip, questObjectiveText(it.quest), it.asked) or nil
       return { id = it.id, key = clip, label = ns.Voice.questTitles[clip] or it.label,   -- (its language's, Voice.QuestClip)
-        text = UI.QuestPageText(it.quest, it.pages[p]), story = it.key }
+        text = UI.QuestPageText(it.quest, kind), story = it.key, passages = passages }
     end
   end
 end
@@ -6377,7 +6404,7 @@ end
 -- The quest log's description and objectives for a quest in your log, as the game shows them; nil if it isn't there.
 -- The third value says the log had that quest selected while it was read, so the text is surely that quest's (a
 -- client whose GetQuestLogQuestText ignores the index reads the selected one).
-local function logText(id)
+logText = function(id)
   local QL = _G.C_QuestLog
   if not (QL and QL.GetLogIndexForQuestID and _G.GetQuestLogQuestText) then return nil end
   local ok, idx = pcall(QL.GetLogIndexForQuestID, id)
@@ -6424,7 +6451,8 @@ function UI.QuestLogTarget(qid)
   end
   title = title or (e and e.n) or string.format(L["Quest %d"], qid)
   return { id = "questlog:" .. qid .. ":detail", key = clip, label = title,
-    text = title .. ". " .. desc .. " " .. (type(obj) == "string" and obj or ""), story = key }
+    text = title .. ". " .. desc .. " " .. (type(obj) == "string" and obj or ""), story = key,
+    passages = V.QuestObjectivesPassage(qid, clip, obj) }
 end
 
 -- A quest giver's recorded page of quest qid ("detail": what they say when they offer it, "complete": when you hand it

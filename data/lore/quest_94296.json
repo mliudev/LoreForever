@@ -1,0 +1,86 @@
+{
+ "key": "quest:94296",
+ "type": "quest",
+ "name": "Craftsman's Writ: Wild Leather Shoulders",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94296
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests Wild Leather Shoulders and gives a delivery place and payment details. You need the writ in hand to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A faded note asks you to bring Wild Leather Shoulders to the place marked for delivery. It also gives the payment details. The writ can pass from one bearer to another, but you need it with you for the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "what item is wanted",
+    "writ request",
+    "what do they want"
+   ],
+   "answer": "The writ requests one pair of Wild Leather Shoulders."
+  },
+  {
+   "q": "Where do I deliver the shoulders?",
+   "aliases": [
+    "delivery place",
+    "where to take it",
+    "where is delivery"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "What does the writ say about payment?",
+   "aliases": [
+    "payment details",
+    "how much payment",
+    "what is the payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I pass the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "give writ away",
+    "pass it on"
+   ],
+   "answer": "Yes. The writ says it can be transferred."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need writ with me",
+    "writ required",
+    "can i deliver without it"
+   ],
+   "answer": "Yes. You need to have the writ with you to complete the exchange."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "leather shoulders",
+  "payment",
+  "transferable",
+  "wild leather shoulders",
+  "writ"
+ ],
+ "related": [
+  "quest:2855"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Wild Leather Shoulders"
+ ]
+}

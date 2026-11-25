@@ -1,0 +1,69 @@
+{
+ "key": "quest:8367",
+ "type": "quest",
+ "name": "For Great Honor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8367
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Horde Warbringer asks you to bring marks from four battlegrounds. The request gathers honors from across the Horde's contests.",
+ "sections": [
+  {
+   "title": "Marks for the Warbringer",
+   "body": "A Horde Warbringer outside the battlegrounds asks you for marks from Alterac Valley, Arathi Basin, Warsong Gulch, and the Darkspear Islands. You bring three Marks of Honor from each place, carrying their honors to the Warbringer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Warbringer ask for?",
+   "aliases": [
+    "what marks do i need",
+    "warbringer marks"
+   ],
+   "answer": "The Horde Warbringer asks for three Marks of Honor from Alterac Valley, Arathi Basin, Warsong Gulch, and the Darkspear Islands."
+  },
+  {
+   "q": "Where is the Warbringer?",
+   "aliases": [
+    "where to find warbringer",
+    "horde warbringer location"
+   ],
+   "answer": "The Horde Warbringer is outside the battlegrounds."
+  },
+  {
+   "q": "How many marks are needed from each place?",
+   "aliases": [
+    "marks per battleground",
+    "how many honors"
+   ],
+   "answer": "You bring three Marks of Honor from each of the four places."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac valley",
+  "arathi basin",
+  "darkspear islands",
+  "for great honor",
+  "horde warbringer",
+  "marks of honor",
+  "warsong gulch"
+ ],
+ "related": [
+  "zone:alteracvalley",
+  "zone:arathibasin",
+  "zone:warsonggulch",
+  "zone:darkspearislands",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: For Great Honor"
+ ]
+}

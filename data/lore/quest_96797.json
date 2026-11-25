@@ -1,0 +1,80 @@
+{
+ "key": "quest:96797",
+ "type": "quest",
+ "name": "The Orphan",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96797
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An orphanage worker asks you to find Sergeant Danneth at Nethergarde Keep. He may be the surviving family of Randal, an orphan in their care.",
+ "sections": [
+  {
+   "title": "A Family Search",
+   "body": "Randal may have family at Nethergarde Keep in the Blasted Lands. You are asked to find Sergeant Danneth and, if you can, persuade him to come for his nephew. The two may never have met, but the orphanage hopes Randal can be with family.",
+   "spoiler": 0
+  },
+  {
+   "title": "Word at the Keep",
+   "body": "At Nethergarde Keep, you learn that Danneth has been missing for days. His squad was ambushed near Serpent's Spine, and no body was found. His chances of survival are poor.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Randal?",
+   "aliases": [
+    "randal",
+    "orphan randal"
+   ],
+   "answer": "Randal is an orphan who may have a surviving family member."
+  },
+  {
+   "q": "Who is Danneth?",
+   "aliases": [
+    "sergeant danneth",
+    "danneth"
+   ],
+   "answer": "Danneth is a soldier stationed at Nethergarde Keep and may be Randal's uncle."
+  },
+  {
+   "q": "Where is Danneth stationed?",
+   "aliases": [
+    "danneth location",
+    "where is sergeant danneth"
+   ],
+   "answer": "Danneth is stationed at Nethergarde Keep in the Blasted Lands."
+  },
+  {
+   "q": "Why are you looking for Danneth?",
+   "aliases": [
+    "find danneth",
+    "randal family"
+   ],
+   "answer": "The orphanage has heard that Danneth may be Randal's family and hopes he can take his nephew in."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blasted lands",
+  "danneth",
+  "missing soldier",
+  "nephew",
+  "nethergarde keep",
+  "orphan",
+  "randal",
+  "serpent's spine"
+ ],
+ "related": [
+  "subzone:nethergarde-keep",
+  "zone:blastedlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Orphan"
+ ]
+}

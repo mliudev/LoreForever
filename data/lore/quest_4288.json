@@ -1,0 +1,74 @@
+{
+ "key": "quest:4288",
+ "type": "quest",
+ "name": "The Western Pylon",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4288
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A researcher asks you to search the crater\u2019s western area for a crystal pylon. Finding the pylons may help their experiments.",
+ "sections": [
+  {
+   "title": "A Search in the Crater",
+   "body": "The researcher\u2019s experiments have brought no positive results, so you are asked to look for a pylon in the crater\u2019s western area. They wonder whether combining colors at the pylons could help, but first need you to find them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "western pylon",
+    "crystal pylon",
+    "pylon location"
+   ],
+   "answer": "You are searching for the Western Crystal Pylon in the crater\u2019s western area."
+  },
+  {
+   "q": "Why am I searching for a pylon?",
+   "aliases": [
+    "why find pylon",
+    "pylon experiments",
+    "what's the pylon for"
+   ],
+   "answer": "The researcher hopes that combining colors at the pylons may help their experiments."
+  },
+  {
+   "q": "Where might the pylon be?",
+   "aliases": [
+    "where is western pylon",
+    "crater pylon",
+    "pylon search"
+   ],
+   "answer": "The Western Crystal Pylon is said to be somewhere in the crater\u2019s western area."
+  },
+  {
+   "q": "What does the researcher say about finding it?",
+   "aliases": [
+    "pylon hint",
+    "where to look",
+    "winding paths"
+   ],
+   "answer": "The crater has hidden areas along its sides, and winding paths may lead somewhere worth exploring."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "colors",
+  "crater",
+  "experiments",
+  "pylon",
+  "western crystal pylon",
+  "western pylon"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Western Pylon"
+ ]
+}

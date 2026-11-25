@@ -1,0 +1,78 @@
+{
+ "key": "quest:5238",
+ "type": "quest",
+ "name": "Mission Accomplished!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5238
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The High Executor praises your work re-engineering the cauldrons. He honors you for serving the Forsaken and the Horde in the face of great danger.",
+ "sections": [
+  {
+   "title": "A Public Honor",
+   "body": "The High Executor addresses those gathered in his presence, then names your service to the Forsaken and the Horde. He praises your work on the cauldrons and honors you as a hero of the Horde.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the High Executor honor me?",
+   "aliases": [
+    "why honored",
+    "cauldron praise",
+    "what did I do"
+   ],
+   "answer": "The High Executor honors you for re-engineering the cauldrons and serving the Forsaken and the Horde in the face of danger."
+  },
+  {
+   "q": "Who gives the honor?",
+   "aliases": [
+    "who praises me",
+    "high executor speech"
+   ],
+   "answer": "The High Executor publicly praises your service to the Forsaken and the Horde."
+  },
+  {
+   "q": "What does the High Executor call me?",
+   "aliases": [
+    "hero title",
+    "horde hero"
+   ],
+   "answer": "He honors you as a true hero of the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you are honored for service to the Forsaken and the Horde as a whole."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "The High Executor praises your service to the Forsaken and the Horde."
+  }
+ ],
+ "keywords": [
+  "cauldrons",
+  "forsaken",
+  "hero",
+  "high executor",
+  "horde",
+  "mission accomplished",
+  "re-engineering"
+ ],
+ "related": [
+  "subzone:cauldron",
+  "topic:forsaken",
+  "topic:horde",
+  "quest:5263"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Mission Accomplished!"
+ ]
+}

@@ -152,10 +152,20 @@ for w in ("the and for you not but are was were his her she him they them then t
 
 -- The text with this character's name replaced by `token`: the whole word as written, and in capitals as a yell has it,
 -- also with a dwarf's "-ama" glued on ("Testerama"). Never inside another word: "There" for a character called "The".
+-- When UnitPVPName("player") carries a rank title around the name ("Marshal General PlayerName"), replace that full
+-- titled name first so quest greetings don't leak rank titles as "Marshal General $N".
 function Capture.NameOut(text, token)
   local name = call(_G.UnitName, "player")
   if type(text) ~= "string" or not usable(name) or #name < 2 or ORDINARY[name:lower()] then return text end
-  for _, form in ipairs({ { name, "ama" }, { name:upper(), "AMA" } }) do
+  local forms = {}
+  local pvp = call(_G.UnitPVPName, "player")
+  if usable(pvp) and pvp ~= name and pvp:find(name, 1, true) then
+    forms[#forms + 1] = { pvp, "ama" }
+    forms[#forms + 1] = { pvp:upper(), "AMA" }
+  end
+  forms[#forms + 1] = { name, "ama" }
+  forms[#forms + 1] = { name:upper(), "AMA" }
+  for _, form in ipairs(forms) do
     local at = "%f[" .. WORD .. "]" .. literal(form[1])
     text = text:gsub(at .. form[2] .. "%f[^" .. WORD .. "]", token .. form[2])
     text = text:gsub(at .. "%f[^" .. WORD .. "]", token)
