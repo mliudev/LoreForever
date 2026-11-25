@@ -1,0 +1,76 @@
+{
+ "key": "quest:4300",
+ "type": "quest",
+ "name": "Bone-Bladed Weapons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4300
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is jes'rimon",
+    "jesrimon orgrimmar",
+    "who gives bone-bladed weapons"
+   ],
+   "answer": "Jes'rimon is a craftsman and broker in Orgrimmar who fashions weapons for demanding clients.",
+   "q": "Who is Jes'rimon?"
+  },
+  {
+   "aliases": [
+    "what claws are needed",
+    "bone-bladed weapons claws",
+    "white ravasaur claws"
+   ],
+   "answer": "Jes'rimon requires eight white ravasaur claws to craft goods for his buyers.",
+   "q": "What materials does Jes'rimon need?"
+  },
+  {
+   "aliases": [
+    "why white ravasaur claws",
+    "what are the claws for",
+    "bone bladed weapons purpose"
+   ],
+   "answer": "Jes'rimon uses the claws to fashion bone-bladed weapons for his impatient buyers.",
+   "q": "What are the claws used for?"
+  },
+  {
+   "aliases": [
+    "where to turn in bone-bladed weapons",
+    "jes'rimon location"
+   ],
+   "answer": "Jes'rimon awaits the claws within the Horde capital of Orgrimmar.",
+   "q": "Where can Jes'rimon be found?"
+  }
+ ],
+ "keywords": [
+  "bone-bladed weapons",
+  "claws",
+  "horde",
+  "jes'rimon",
+  "orgrimmar",
+  "ravasaur",
+  "white ravasaur claws"
+ ],
+ "related": [
+  "zone:orgrimmar"
+ ],
+ "sections": [
+  {
+   "body": "Impatient buyers have placed orders with Jes'rimon in Orgrimmar, and their patience wears thin. Procuring eight white ravasaur claws will allow him to satisfy his trade and shape deadly armaments from the beasts.",
+   "spoiler": 0,
+   "title": "Claws for the Forge"
+  }
+ ],
+ "summary": "In Orgrimmar, Jes'rimon needs eight white ravasaur claws to supply bone-bladed weapons for his waiting clients. Delivering the materials quickly earns his favor and the promise of a weapon shaped from the beast.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bone-Bladed Weapons"
+ ]
+}

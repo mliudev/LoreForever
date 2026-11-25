@@ -1,0 +1,73 @@
+{
+ "key": "quest:3790",
+ "type": "quest",
+ "name": "Assisting Arch Druid Staghelm",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3790
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, answering the call means standing before one of the Cenarion Circle's foremost Arch Druids to aid in his personal research."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "where is fandral",
+    "staghelm location"
+   ],
+   "answer": "Arch Druid Fandral Staghelm resides in the Cenarion Enclave within Darnassus.",
+   "q": "Where can I find Fandral Staghelm?"
+  },
+  {
+   "aliases": [
+    "what research",
+    "staghelm project"
+   ],
+   "answer": "The messenger does not know the details of the study, only that it is deemed vital by the Cenarion Circle.",
+   "q": "What kind of research is Staghelm conducting?"
+  },
+  {
+   "aliases": [
+    "who asks for help",
+    "cenarion circle assistance"
+   ],
+   "answer": "The Cenarion Circle seeks seasoned travelers to assist with an inquiry led directly by Staghelm.",
+   "q": "Who needs assistance in Darnassus?"
+  }
+ ],
+ "keywords": [
+  "arch druid",
+  "assisting arch druid staghelm",
+  "cenarion circle",
+  "cenarion enclave",
+  "darnassus",
+  "fandral staghelm"
+ ],
+ "related": [
+  "npc:fandral-staghelm",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "sections": [
+  {
+   "body": "The Cenarion Enclave houses the leaders of the Cenarion Circle, where Staghelm now oversees the order's work. Seasoned travelers are being directed to seek an audience with the Arch Druid directly. Whatever project he leads remains known only to him and his inner circle until you arrive to hear it.",
+   "spoiler": 0,
+   "title": "Call to the Enclave"
+  }
+ ],
+ "summary": "In Darnassus, Arch Druid Fandral Staghelm is leading a vital research project for the Cenarion Circle. A messenger asks you to seek out the Arch Druid in the Cenarion Enclave to offer your aid.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Assisting Arch Druid Staghelm"
+ ]
+}

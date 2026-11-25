@@ -52,6 +52,8 @@ local function chipLabel(group, v)
 end
 local TILE_SIZE, GAP, PAD, ROW_H = 36, 6, 16, 32
 local HEAD_H, SECTION_GAP, EDGE = 18, 10, 3   -- a kind's heading, the space after its cards, room for a ring
+local BUFFER = TILE_SIZE + GAP                 -- one row above and below the viewport
+local FALLBACK_VIEW_H = 350                    -- viewport fallback before ScrollFrame height resolves
 local SEARCH_CAP = 200   -- tiles a search shows at most
 -- The card's picture for each kind of page (Theme.lua's T.KIND_ICON): a topic is a book.
 local TILE_KIND = { places = "place", people = "person", items = "item", quests = "quest", topics = "storyline" }
@@ -181,30 +183,37 @@ end
 
 -- One chapter's counts: { found, total, heard, first, kinds = { places = { found, total }, ... } }.
 local function chapterKeys(ck)
+  local idx = Book.Index()
   if ck ~= ALL then
-    local c = Book.Index().chapters[ck]
+    local c = idx.chapters[ck]
     return c and c.keys or {}
   end
-  local keys = {}
-  for _, c in pairs(Book.Index().chapters) do
-    for _, k in ipairs(c.keys) do keys[#keys + 1] = k end
+  if not idx.all then
+    local keys = {}
+    for _, c in pairs(idx.chapters) do
+      for _, k in ipairs(c.keys) do keys[#keys + 1] = k end
+    end
+    idx.all = keys
   end
-  return keys
+  return idx.all
 end
 
 function Book.Count(ck)
-  local have, out = found(), { found = 0, total = 0, heard = 0, kinds = {} }
+  local db, have, out = entries(), found(), { found = 0, total = 0, heard = 0, kinds = {} }
   for _, k in ipairs(chapterKeys(ck)) do
-    local kind = KIND[entries()[k].t]
-    local kc = out.kinds[kind] or { found = 0, total = 0 }
-    out.kinds[kind] = kc
-    kc.total, out.total = kc.total + 1, out.total + 1
-    local s = have[k]
-    if s then
-      kc.found, out.found = kc.found + 1, out.found + 1
-      if heard(k) then out.heard = out.heard + 1 end
-      local t = foundTime(s)
-      if not out.first or t < out.first then out.first = t end
+    local e = db[k]
+    local kind = e and KIND[e.t]
+    if kind then
+      local kc = out.kinds[kind] or { found = 0, total = 0 }
+      out.kinds[kind] = kc
+      kc.total, out.total = kc.total + 1, out.total + 1
+      local s = have[k]
+      if s then
+        kc.found, out.found = kc.found + 1, out.found + 1
+        if heard(k) then out.heard = out.heard + 1 end
+        local t = foundTime(s)
+        if not out.first or t < out.first then out.first = t end
+      end
     end
   end
   return out
@@ -301,16 +310,18 @@ function Book.Tiles(ck, f)
   f = f or Book.Filters()
   local kindF, pages, storyF = f.kind, f.pages or "all", f.story or "any"
   local rarity, sort = tonumber(f.rarity), f.sort or "found"
-  local have, db, out = found(), entries(), {}
-  local keys = {}
+  local have, db, zs, out = found(), entries(), zones(), {}
+  local Collection, UI = ns.Collection, ns.UI
+  local keys
   if ck == NEW then
-    for _, k in ipairs(ns.Collection.NewKeys()) do keys[#keys + 1] = k end
+    keys = Collection.NewKeys()
   elseif ck == SEARCH then
+    keys = {}
     local words = Book.search and Book.search.words or {}
     for k in pairs(have) do
       local e = db[k]
-      local z = e and e.z and zones()[e.z]
-      if e and KIND[e.t] and ns.UI.SearchMatch(words, e.n, e.en, z and z.n) then keys[#keys + 1] = k end
+      local z = e and e.z and zs[e.z]
+      if e and KIND[e.t] and UI.SearchMatch(words, e.n, e.en, z and z.n) then keys[#keys + 1] = k end
     end
   elseif Book.extra[ck] then
     keys = Book.extra[ck].keys
@@ -318,26 +329,26 @@ function Book.Tiles(ck, f)
     keys = chapterKeys(ck)
   end
   local blanks = ck ~= ALL and ck ~= NEW and ck ~= SEARCH and not Book.extra[ck]
+  if not blanks and (pages == "found" or pages == "blank") then pages = "all" end   -- (no chip for them here)
   for _, k in ipairs(keys) do
     local e, s = db[k], have[k]
     local kind = e and KIND[e.t]
     local ok = kind and (not kindF or kindF == kind)
-    if not blanks and (pages == "found" or pages == "blank") then pages = "all" end   -- (no chip for them here)
     if ok and not s then
       ok = blanks and (pages == "all" or pages == "blank") and storyF == "any" and not rarity
     elseif ok then
       if pages == "blank" then ok = false
-      elseif pages == "new" then ok = ns.Collection.IsNew(k) end
-      if ok and storyF == "rec" then ok = ns.UI.StoryAudio(k) and true or false
+      elseif pages == "new" then ok = Collection.IsNew(k) end
+      if ok and storyF == "rec" then ok = UI.StoryAudio(k) and true or false
       elseif ok and storyF == "heard" then ok = heard(k)
       elseif ok and storyF == "unheard" then ok = not heard(k) end
-      if ok and rarity then ok = (ns.Collection.Quality(k) or 1) >= rarity end
+      if ok and rarity then ok = (Collection.Quality(k) or 1) >= rarity end
     end
     if ok then out[#out + 1] = { key = k, kind = kind, found = s and true or nil, t = s and foundTime(s) or 0 } end
   end
   local q = {}
   if sort == "rarity" then
-    for _, it in ipairs(out) do q[it.key] = it.found and ns.Collection.Quality(it.key) or 1 end
+    for _, it in ipairs(out) do q[it.key] = it.found and Collection.Quality(it.key) or 1 end
   end
   table.sort(out, function(a, b)
     if (a.found or false) ~= (b.found or false) then return a.found or false end
@@ -365,6 +376,31 @@ end
 
 -- The sidebar view ------------------------------------------------------------------------------------------------
 
+local renderVisible
+local layoutVersion = 0
+local renderedVersion, renderedFirstRow, renderedLastRow, renderedFirstHead, renderedLastHead
+
+local function clearRendered()
+  Book.layout = nil
+  renderedVersion, renderedFirstRow, renderedLastRow, renderedFirstHead, renderedLastHead = nil, nil, nil, nil, nil
+end
+
+local function scrollToTop()
+  clearRendered()
+  local sf = Book.scroll
+  if sf and sf.SetVerticalScroll then sf:SetVerticalScroll(0) end
+end
+
+local function clampScroll()
+  local sf = Book.scroll
+  if not sf then return end
+  if sf.UpdateScrollChildRect then sf:UpdateScrollChildRect() end
+  local cur = tonumber(sf.GetVerticalScroll and sf:GetVerticalScroll()) or 0
+  local max = math.max(0, tonumber(sf.GetVerticalScrollRange and sf:GetVerticalScrollRange()) or 0)
+  local clamped = math.max(0, math.min(max, cur))
+  if clamped ~= cur and sf.SetVerticalScroll then sf:SetVerticalScroll(clamped) end
+end
+
 function Book.CreateSide(view)
   local UI = ns.UI
   local SIDE_W = UI.SIDE_W
@@ -381,6 +417,7 @@ function Book.CreateSide(view)
     if #words > 0 then
       if Book.chapter ~= SEARCH then Book.beforeSearch = Book.chapter end
       Book.chapter = SEARCH
+      scrollToTop()
     elseif Book.chapter == SEARCH then
       Book.chapter = Book.beforeSearch
     end
@@ -453,6 +490,7 @@ local function sideRow(i)
     Book.chapter = self.ck
     Book.backTo = nil
     if Book.backButton then Book.backButton:Hide() end
+    scrollToTop()
     Book.Refresh()
     Book.ShowPage()
   end)
@@ -480,7 +518,7 @@ end
 function Book.RefreshSide()
   if not Book.sideContent then return end
   if Book.sideScroll then Book.sideScroll.layoutHint() end
-  local rows, y = Book.Chapters(), 0
+  local rows, y, counts = Book.Chapters(), 0, {}
   for i, it in ipairs(rows) do
     local row = sideRow(i)
     row:ClearAllPoints()
@@ -500,6 +538,7 @@ function Book.RefreshSide()
       row.wax:Hide()
     else
       local n = it.count
+      counts[it.ck] = n
       local seals = ns.Road and try(ns.Road.Seals, it.ck)   -- (Road.lua: the zone's gold and wax seals)
       row.seals = seals
       row.text:SetText(T.code.ink .. esc(it.label) .. "|r")
@@ -520,6 +559,7 @@ function Book.RefreshSide()
   for i = #rows + 1, #Book.sideRows do Book.sideRows[i]:Hide() end
   Book.sideContent:SetHeight(math.max(10, y))
   Book.UpdateBadge()
+  return counts
 end
 
 -- The count of new pages on the Found bookmark: a gilt pill on the tab's top right corner (its own fill, so it reads
@@ -603,7 +643,11 @@ function Book.Create(f)
   -- Sort: small chips at the title's right ("Sort  Name  Order found", Rarity first while Items is picked).
   Book.sortChips = {}
   for _, v in ipairs(SORTS) do
-    Book.sortChips[v] = chip(p, function() Book.sort = v; Book.RefreshPage() end)
+    Book.sortChips[v] = chip(p, function()
+      Book.sort = v
+      scrollToTop()
+      Book.RefreshPage()
+    end)
   end
   Book.sortLabel = ink(p:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   Book.sortLabel:SetPoint("TOPRIGHT", -8, -14)   -- (the title ends at it: placed before the first layout, and in Storylines)
@@ -681,15 +725,26 @@ function Book.Create(f)
     L["Adds the quests of it you've taken to your playlist, in the order you took them, and plays them."],
     function() return Book.StoryKeys(true), Book.ChapterName(Book.chapter) end)
 
-  local sf = CreateFrame("ScrollFrame", nil, p, "UIPanelScrollFrameTemplate")
+  local sf = CreateFrame("ScrollFrame", "LoreForeverFoundPageScroll", p, "UIPanelScrollFrameTemplate")
   sf:SetPoint("TOPLEFT", chips, "BOTTOMLEFT", 0, -8)
   sf:SetPoint("BOTTOMRIGHT", -30, 30)   -- clear of the window's resize corner and the line at the foot
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(300, 100)
   sf:SetScrollChild(content)
   T.PaperScroll(sf)
+  -- Bounded pools of reusable tile frames and header FontStrings for the visible viewport + buffer (not 1:1 with Book.listed).
   Book.scroll, Book.content, Book.tiles, Book.heads = sf, content, {}, {}
-  sf:HookScript("OnVerticalScroll", function() Book.UpdateFigures() end)
+  if sf.EnableMouseWheel then sf:EnableMouseWheel(true) end
+  sf:SetScript("OnMouseWheel", function(self, delta)
+    local cur = tonumber(self:GetVerticalScroll()) or 0
+    local max = math.max(0, tonumber(self:GetVerticalScrollRange()) or 0)
+    local step = 2 * (TILE_SIZE + GAP)
+    self:SetVerticalScroll(math.max(0, math.min(max, cur - (tonumber(delta) or 0) * step)))
+  end)
+  sf:HookScript("OnVerticalScroll", function() if renderVisible then renderVisible() end end)
+  sf:HookScript("OnSizeChanged", function()
+    if Book.frame and Book.frame:IsShown() and Book.layout and renderVisible then renderVisible() end
+  end)
   -- The line at the foot of the page: how to read the cards, and the name of the card under the mouse.
   local foot = ink(p:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   foot:SetPoint("BOTTOMLEFT", PAD, 10)
@@ -842,6 +897,7 @@ local function makeTile(i)
 end
 
 local function setTile(b, it, done)
+  if b.key ~= it.key and b.figure then b:SetFigure(nil) end
   b:SetKind(TILE_KIND[it.kind])   -- (sets b.kind to the picture's kind: the page's kind, "people", goes after it)
   b.key, b.kind, b.found = it.key, it.kind, it.found
   if it.found then
@@ -880,20 +936,151 @@ end
 
 -- A person's card stands them up (the whole body, in a model) while it is wholly in view: a model costs, and a card
 -- cut off by the edge of the scrolling list would draw it over the edge. Run after the cards are laid out and as the
--- list scrolls.
+-- list scrolls. Releases off-screen figures first so the Model pool stays available for newly visible cards.
 function Book.UpdateFigures()
   local sf = Book.scroll
   if not (sf and Book.frame and Book.frame:IsShown()) then return end
   local top = tonumber(sf:GetVerticalScroll()) or 0
   local height = tonumber(sf:GetHeight()) or 0
   local bottom = height > 0 and top + height or math.huge
+  local need = {}
   for _, b in ipairs(Book.tiles) do
-    if b:IsShown() and b.kind == "people" and b.found and b.y then
-      b:SetFigure((b.y >= top and b.y + TILE_SIZE <= bottom) and Book.Look(b.key) or nil)
-    else
+    local want = b:IsShown() and b.kind == "people" and b.found and b.y and b.y >= top and b.y + TILE_SIZE <= bottom
+    if not want then
       b:SetFigure(nil)
+    else
+      local id = Book.Look(b.key)
+      if not id then
+        b:SetFigure(nil)
+      elseif not (b.figure and b.figureID == id) then
+        need[#need + 1] = b
+      end
     end
   end
+  if #need > 1 then
+    table.sort(need, function(a, b)
+      if a.y ~= b.y then return a.y < b.y end
+      return (a.x or 0) < (b.x or 0)
+    end)
+  end
+  for _, b in ipairs(need) do
+    b:SetFigure(Book.Look(b.key))
+  end
+end
+
+-- Binary-search sorted row entries for the inclusive index range overlapping [minTop, maxBottom].
+local function rowBounds(rows, minTop, maxBottom)
+  local lo, hi, first = 1, #rows, #rows + 1
+  while lo <= hi do
+    local mid = math.floor((lo + hi) / 2)
+    if rows[mid].y + TILE_SIZE >= minTop then
+      first = mid
+      hi = mid - 1
+    else
+      lo = mid + 1
+    end
+  end
+  lo, hi = first, #rows
+  local last = first - 1
+  while lo <= hi do
+    local mid = math.floor((lo + hi) / 2)
+    if rows[mid].y <= maxBottom then
+      last = mid
+      lo = mid + 1
+    else
+      hi = mid - 1
+    end
+  end
+  return first, last
+end
+
+renderVisible = function(force)
+  local layout = Book.layout
+  if not (layout and Book.frame and Book.frame:IsShown()) then return end
+  local sf = Book.scroll
+  local top = sf and tonumber(sf:GetVerticalScroll()) or 0
+  local height = sf and tonumber(sf:GetHeight()) or 0
+  local viewH = height > 0 and height or FALLBACK_VIEW_H
+  local minTop, maxBottom = top - BUFFER, top + viewH + BUFFER
+
+  local firstHead, lastHead
+  for i, h in ipairs(layout.headers) do
+    if h.y + HEAD_H >= minTop and h.y <= maxBottom then
+      firstHead = firstHead or i
+      lastHead = i
+    end
+  end
+  local firstRow, lastRow = rowBounds(layout.rows, minTop, maxBottom)
+
+  if not force and renderedVersion == layout.version
+      and renderedFirstRow == firstRow and renderedLastRow == lastRow
+      and renderedFirstHead == firstHead and renderedLastHead == lastHead then
+    Book.UpdateFigures()
+    return
+  end
+
+  local hi = 0
+  if firstHead then
+    for i = firstHead, lastHead do
+      local h = layout.headers[i]
+      hi = hi + 1
+      local head = Book.heads[hi] or makeHead(hi)
+      head:ClearAllPoints()
+      head:SetPoint("TOPLEFT", EDGE, -h.y)
+      head:SetWidth(layout.width - EDGE)
+      head:SetText(h.text)
+      head:Show()
+    end
+  end
+  for i = hi + 1, #Book.heads do Book.heads[i]:Hide() end
+
+  local wanted = {}
+  for r = firstRow, lastRow do
+    for _, it in ipairs(layout.rows[r].items) do
+      wanted[it.key] = it
+    end
+  end
+
+  local kept, free = {}, {}
+  local done = layout.done
+  for i = 1, #Book.tiles do
+    local b = Book.tiles[i]
+    local it = b:IsShown() and b.key and wanted[b.key]
+    if it and not kept[it.key] then
+      kept[it.key] = b
+      if force or b.x ~= it.x or b.y ~= it.y then
+        b.x, b.y = it.x, it.y
+        b:ClearAllPoints()
+        b:SetPoint("TOPLEFT", it.x, -it.y)
+      end
+      if force then setTile(b, it, done) end
+    else
+      free[#free + 1] = b
+    end
+  end
+
+  for r = firstRow, lastRow do
+    for _, it in ipairs(layout.rows[r].items) do
+      if not kept[it.key] then
+        local b = table.remove(free) or makeTile(#Book.tiles + 1)
+        b.x, b.y = it.x, it.y
+        b:ClearAllPoints()
+        b:SetPoint("TOPLEFT", it.x, -it.y)
+        setTile(b, it, done)
+        kept[it.key] = b
+      end
+    end
+  end
+
+  for _, b in ipairs(free) do
+    b.key, b.x, b.y = nil, nil, nil
+    b:Hide()
+  end
+
+  renderedVersion = layout.version
+  renderedFirstRow, renderedLastRow = firstRow, lastRow
+  renderedFirstHead, renderedLastHead = firstHead, lastHead
+  Book.UpdateFigures()
 end
 
 -- Pick `value` in a filter row. Rarity sorts and filters items only: leaving Items leaves them.
@@ -904,13 +1091,48 @@ function Book.SetFilter(group, value)
   else
     Book[group] = value
   end
+  scrollToTop()
   Book.RefreshPage()
 end
 
--- The kinds of page a chapter has (its Kind row offers only those).
+-- The kinds of page a chapter has (its Kind row offers only those): light scan, no tile allocations or sort.
 local function kindsIn(ck)
-  local out = {}
-  for _, t in ipairs(Book.Tiles(ck, {})) do out[t.kind] = true end
+  local out, db, have, total = {}, entries(), found(), 0
+  local blanks = ck ~= ALL and ck ~= NEW and ck ~= SEARCH and not Book.extra[ck]
+  local function scan(keys)
+    for _, k in ipairs(keys) do
+      if blanks or have[k] then
+        local e = db[k]
+        local kind = e and KIND[e.t]
+        if kind and not out[kind] then
+          out[kind] = true
+          total = total + 1
+          if total == 5 then return end
+        end
+      end
+    end
+  end
+  if ck == NEW then
+    scan(ns.Collection.NewKeys())
+  elseif ck == SEARCH then
+    local words, zs = Book.search and Book.search.words or {}, zones()
+    for k in pairs(have) do
+      local e = db[k]
+      local kind = e and KIND[e.t]
+      if kind and not out[kind] then
+        local z = e.z and zs[e.z]
+        if ns.UI.SearchMatch(words, e.n, e.en, z and z.n) then
+          out[kind] = true
+          total = total + 1
+          if total == 5 then break end
+        end
+      end
+    end
+  elseif Book.extra[ck] then
+    scan(Book.extra[ck].keys)
+  else
+    scan(chapterKeys(ck))
+  end
   return out
 end
 
@@ -1088,7 +1310,9 @@ end
 -- took them, each with where it stands and a Listen; "Listen to the story so far" over it. It never says how many
 -- quests the storyline has or which step one is (Storyline.lua's rule).
 local function refreshStoryline(ck)
-  for _, b in ipairs(Book.tiles) do b:Hide() end
+  clearRendered()
+  Book.count = nil
+  for _, b in ipairs(Book.tiles) do b.key, b.x, b.y = nil, nil, nil; b:Hide() end
   for _, h in ipairs(Book.heads) do h:Hide() end
   for _, row in ipairs(FILTERS) do
     Book.filterLabels[row[1]]:Hide()
@@ -1138,6 +1362,7 @@ local function refreshStoryline(ck)
   end
   for i = #keys + 1, #Book.storyRows do Book.storyRows[i]:Hide() end
   Book.content:SetHeight(math.max(20, y))
+  clampScroll()
   Book.foot:SetText("")   -- (the line under the title says how the list reads)
   local emptyText = ck == Book.NONE and L["No storylines yet. Take quests, and the storylines you're on are listed here."] or nil
   Book.empty:SetWidth(cw)
@@ -1145,9 +1370,13 @@ local function refreshStoryline(ck)
   Book.empty:SetShown(emptyText ~= nil)
 end
 
-function Book.RefreshPage()
+function Book.RefreshPage(cachedCount)
   if not (Book.frame and Book.frame:IsShown()) then return end
   local ck = Book.chapter
+  if Book.renderedChapter ~= ck then
+    Book.renderedChapter = ck
+    scrollToTop()
+  end
   Book.title:SetText(esc(Book.ChapterName(ck)))
   local storyline = Book.extra[ck] or ck == Book.NONE
   Book.playStory:SetShown(false)
@@ -1168,9 +1397,11 @@ function Book.RefreshPage()
   local plain = ck == SEARCH or ck == NEW or ck == Book.NONE or Book.extra[ck]
   local counts
   if plain then
+    Book.count = nil
     Book.sub:SetText(string.format(#tiles == 1 and L["%d page"] or L["%d pages"], #tiles))
   else
-    counts = Book.Count(ck)
+    counts = cachedCount or Book.Count(ck)
+    Book.count = counts
     Book.sub:SetText(string.format(L["%d of %d pages found"], counts.found, counts.total)
       .. (counts.heard > 0 and (ns.Lang.Dotted(" · ") .. string.format(L["%d heard"], counts.heard)) or ""))
   end
@@ -1185,37 +1416,44 @@ function Book.RefreshPage()
     if not g then g = {}; groups[it.kind] = g end
     g[#g + 1] = it
   end
-  local done = try(ns.Context.Done)
-  local top, ti, hi = 0, 0, 0
+  layoutVersion = layoutVersion + 1
+  local layout = { version = layoutVersion, headers = {}, rows = {}, width = cw, done = try(ns.Context.Done) }
+  local top = 0
   for _, kind in ipairs(KIND_LIST) do
     local g = groups[kind]
     if g then
-      hi = hi + 1
-      local head = Book.heads[hi] or makeHead(hi)
-      head:ClearAllPoints()
-      head:SetPoint("TOPLEFT", EDGE, -top)
-      head:SetWidth(cw - EDGE)
       local kc = counts and counts.kinds[kind]
-      head:SetText(kc and string.format(L["%s %d of %d"], kindLabel(kind), kc.found, kc.total)
-        or (kindLabel(kind) .. " " .. #g))
-      head:Show()
+      local headText = kc and string.format(L["%s %d of %d"], kindLabel(kind), kc.found, kc.total)
+        or (kindLabel(kind) .. " " .. #g)
+      layout.headers[#layout.headers + 1] = { y = top, text = headText }
       top = top + HEAD_H
-      for j, it in ipairs(g) do
-        ti = ti + 1
-        local b = Book.tiles[ti] or makeTile(ti)
-        local col, row = (j - 1) % cols, math.floor((j - 1) / cols)
-        b.y = top + EDGE + row * (TILE_SIZE + GAP)
-        b:ClearAllPoints()
-        b:SetPoint("TOPLEFT", EDGE + col * (TILE_SIZE + GAP), -b.y)
-        setTile(b, it, done)
+      local rowTop = top + EDGE
+      local rowCount = math.ceil(#g / cols)
+      for r = 0, rowCount - 1 do
+        local rowY = rowTop + r * (TILE_SIZE + GAP)
+        local first = r * cols + 1
+        local last = math.min(#g, first + cols - 1)
+        local items = {}
+        for j = first, last do
+          local it = g[j]
+          items[#items + 1] = {
+            key = it.key,
+            kind = it.kind,
+            found = it.found,
+            col = j - first,
+            x = EDGE + (j - first) * (TILE_SIZE + GAP),
+            y = rowY,
+          }
+        end
+        layout.rows[#layout.rows + 1] = { y = rowY, items = items }
       end
-      top = top + EDGE * 2 + math.ceil(#g / cols) * (TILE_SIZE + GAP) - GAP + SECTION_GAP
+      top = top + EDGE * 2 + rowCount * (TILE_SIZE + GAP) - GAP + SECTION_GAP
     end
   end
-  for i = ti + 1, #Book.tiles do Book.tiles[i]:Hide() end
-  for i = hi + 1, #Book.heads do Book.heads[i]:Hide() end
+  Book.layout = layout
   Book.content:SetHeight(math.max(20, top))
-  Book.UpdateFigures()
+  clampScroll()
+  renderVisible(true)
   local emptyText
   if #tiles == 0 then
     if ck == SEARCH then emptyText = ns.UI.NoMatchText(Book.search) .. " " .. L["Search reads only the pages you've found."]
@@ -1231,8 +1469,8 @@ function Book.RefreshPage()
 end
 
 function Book.Refresh()
-  Book.RefreshSide()
-  Book.RefreshPage()
+  local counts = Book.RefreshSide()
+  Book.RefreshPage(counts and counts[Book.chapter])
 end
 
 -- The chapter Found opens on: the one picked last, else where you are, else the first one.
@@ -1249,19 +1487,21 @@ local function defaultChapter()
   return AZEROTH
 end
 
-function Book.ShowPage()
+function Book.ShowPage(cachedCount)
   if not Book.frame then return end
   Book.frame:Show()
   ns.Page.Hide()   -- after Found shows: closing a story's page brings Found back itself, and only when it's hidden
-  Book.RefreshPage()
+  Book.RefreshPage(cachedCount)
 end
 
 -- The Found bookmark was opened (UI.ShowTab).
 function Book.Show()
   if not Book.frame then return end
+  local prev = Book.chapter
   Book.chapter = defaultChapter()
-  Book.RefreshSide()
-  Book.ShowPage()
+  if Book.chapter ~= prev then scrollToTop() end
+  local counts = Book.RefreshSide()
+  Book.ShowPage(counts and counts[Book.chapter])
 end
 
 function Book.HidePage()

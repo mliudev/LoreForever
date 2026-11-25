@@ -1,0 +1,64 @@
+{
+ "key": "quest:5404",
+ "type": "quest",
+ "name": "Corruptor's Scourgestones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5404
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "argent dawn scourge leadership",
+    "scourgestones meaning"
+   ],
+   "answer": "The Argent Dawn values all strikes against the undead, but destroying a leader of the Scourge delivers a decisive blow to their ranks.",
+   "q": "Why does the Argent Dawn want Scourge leaders defeated?"
+  },
+  {
+   "aliases": [
+    "what are valor tokens",
+    "why get valor token"
+   ],
+   "answer": "The Argent Dawn awards valor tokens to champions who demonstrate great bravery in the war against the undead.",
+   "q": "What is an Argent Dawn valor token?"
+  },
+  {
+   "aliases": [
+    "who accepts corruptor scourgestones",
+    "scourgestones collector"
+   ],
+   "answer": "The Argent Dawn collects these stones from fighters who face the command ranks of the undead.",
+   "q": "Who gathers corruptor scourgestones?"
+  }
+ ],
+ "keywords": [
+  "argent dawn",
+  "corruptor's scourgestones",
+  "scourge",
+  "scourgestone",
+  "valor token"
+ ],
+ "related": [
+  "topic:argent-dawn",
+  "topic:scourge"
+ ],
+ "sections": [
+  {
+   "body": "The Argent Dawn wages an unyielding struggle against the Scourge across the blighted lands. While every fallen undead weakens the enemy, bringing down commanders strikes at the very heart of their malice. For felling such leaders, the Dawn offers recognition and honors those who stand firm in the cause of good.",
+   "spoiler": 0,
+   "title": "A Crushing Defeat"
+  }
+ ],
+ "summary": "The Argent Dawn honors champions who face the leadership of the Scourge in battle. By destroying these formidable commanders, you deal a severe blow against the undead host and earn distinction in the order's cause.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Corruptor's Scourgestones"
+ ]
+}

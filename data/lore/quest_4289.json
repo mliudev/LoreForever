@@ -1,0 +1,65 @@
+{
+ "key": "quest:4289",
+ "type": "quest",
+ "name": "The Apes of Un'Goro",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4289
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is torwa",
+    "where is torwa pathfinder"
+   ],
+   "answer": "Torwa Pathfinder makes his camp at the northern entrance leading down into Un'Goro Crater.",
+   "q": "Who is Torwa Pathfinder?"
+  },
+  {
+   "aliases": [
+    "which pelts needed",
+    "what pelts does torwa want"
+   ],
+   "answer": "Torwa requires two pelts from Un'Goro gorillas, two from stompers, and two from thunderers.",
+   "q": "What pelts does Torwa ask for?"
+  },
+  {
+   "aliases": [
+    "where are gorillas ungoro",
+    "gorilla location ungoro"
+   ],
+   "answer": "The apes inhabit the dense wilderness and caves of Un'Goro Crater.",
+   "q": "Where do the gorillas live in Un'Goro?"
+  }
+ ],
+ "keywords": [
+  "gorilla pelts",
+  "stomper",
+  "the apes of ungoro",
+  "thunderer",
+  "torwa pathfinder",
+  "ungoro crater"
+ ],
+ "related": [
+  "npc:torwa-pathfinder",
+  "zone:ungoro"
+ ],
+ "sections": [
+  {
+   "body": "The gorillas of Un'Goro Crater grow powerful and wild, ranging from ordinary beasts to massive stompers and thunderers. Torwa Pathfinder watches them from the rim above, seeking pelts from each variety to study or survive in the untamed basin. Hunting them requires descending into the dense jungle below to face the beasts on their own ground.",
+   "spoiler": 0,
+   "title": "Beasts of the Basin"
+  }
+ ],
+ "summary": "Torwa Pathfinder watches the rim of Un'Goro Crater and wants proof of the powerful apes roaming the basin below. You are asked to gather pelts from the crater's gorillas, stompers, and thunderers.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Apes of Un'Goro"
+ ]
+}

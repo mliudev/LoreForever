@@ -1,0 +1,70 @@
+{
+ "key": "quest:5283",
+ "type": "quest",
+ "name": "The Art of the Armorsmith",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5283
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "Crafting these ornate mithril pieces proves your dedication to the anvil and opens the path to becoming an Armorsmith."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who gives the art of the armorsmith",
+    "who wants the mithril armor",
+    "who is grumnus"
+   ],
+   "answer": "Grumnus requires the armor to prove your skill before training you as an Armorsmith.",
+   "q": "Who asks for these ornate mithril pieces?"
+  },
+  {
+   "aliases": [
+    "the art of the armorsmith requirements",
+    "what items needed for grumnus",
+    "mithril armor needed for armorsmith"
+   ],
+   "answer": "You need to forge four Ornate Mithril Helms, two pairs of Ornate Mithril Boots, and one Ornate Mithril Breastplate.",
+   "q": "What armor pieces must you forge for Grumnus?"
+  },
+  {
+   "aliases": [
+    "purpose of the art of the armorsmith",
+    "why make ornate mithril armor",
+    "why become an armorsmith"
+   ],
+   "answer": "He requires proof of your forging craft before he will recognize you as an Armorsmith.",
+   "q": "Why does Grumnus want this armor?"
+  }
+ ],
+ "keywords": [
+  "armorsmith",
+  "grumnus",
+  "ornate mithril boots",
+  "ornate mithril breastplate",
+  "ornate mithril helm",
+  "the art of the armorsmith"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Grumnus demands tangible evidence of your craftsmanship before he recognizes you as a true Armorsmith. To satisfy him, you must hammer out four ornate mithril helms, two pairs of ornate mithril boots, and a finished ornate mithril breastplate at your forge. Only presenting this fine mithril panoply will earn his instruction in the trade.",
+   "spoiler": 0,
+   "title": "Mastery of Mithril"
+  }
+ ],
+ "summary": "Grumnus requires proof of your metalworking skill before granting you the title of Armorsmith. You must forge several ornate mithril armors to show your mastery at the anvil.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Art of the Armorsmith"
+ ]
+}

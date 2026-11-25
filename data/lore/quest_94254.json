@@ -1,0 +1,82 @@
+{
+ "key": "quest:94254",
+ "type": "quest",
+ "name": "Craftsman's Writ: Greater Adept's Robe",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94254
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you can craft the Greater Adept's Robe yourself to fulfill the order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who ordered the robe",
+    "who is the customer",
+    "buyer"
+   ],
+   "answer": "Magus Tirth placed the order for the garment.",
+   "q": "Who wants the robe?"
+  },
+  {
+   "aliases": [
+    "what is needed",
+    "writ items",
+    "order contents"
+   ],
+   "answer": "The order calls for a single Greater Adept's Robe delivered with the original writ.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "can someone else deliver it",
+    "writ trade"
+   ],
+   "answer": "The parchment denotes that the order is transferable, allowing any courier who holds it to fulfill the delivery.",
+   "q": "Can the writ be traded to another courier?"
+  },
+  {
+   "aliases": [
+    "why does tirth want a robe",
+    "robe and hat"
+   ],
+   "answer": "He wishes to wear the garment alongside his wizard hat.",
+   "q": "Why does Magus Tirth need the robe?"
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "greater adept's robe",
+  "magus tirth",
+  "robe",
+  "tailoring",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A transferable work order penned in faded ink requests a single Greater Adept's Robe. It outlines delivery directions and payment terms for whoever holds the parchment. Completing the exchange requires bringing both the finished garment and the note directly to the buyer.",
+   "spoiler": 0,
+   "title": "An Open Order"
+  },
+  {
+   "body": "Magus Tirth eagerly awaits the arrival of his tailored garment. With the delivery in hand, he celebrates finally having his proper robe to wear with his wizard hat.",
+   "spoiler": 1,
+   "title": "The Robe and Wizard Hat"
+  }
+ ],
+ "summary": "A craftsman's writ calls for a Greater Adept's Robe to be delivered to an awaiting patron. The transferable order promises payment to anyone who supplies the garment and presents the note.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Greater Adept's Robe"
+ ]
+}

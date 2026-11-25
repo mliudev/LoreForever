@@ -1,0 +1,110 @@
+{
+ "key": "quest:2842",
+ "type": "quest",
+ "name": "Chief Engineer Scooty",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2842
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Goblin engineers claim the Transpolyporter 6000 offers the quickest way into Gnomeregan, despite having blown up a dozen times during testing."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is scooty",
+    "where is scooty",
+    "scooty location"
+   ],
+   "answer": "Scooty is a goblin engineer waiting at the wind rider roost in Booty Bay to operate the Transpolyporter 6000.",
+   "q": "Who is Scooty?"
+  },
+  {
+   "aliases": [
+    "what does the transpolyporter do",
+    "transpolyporter 6000 purpose",
+    "gnomeregan teleporter"
+   ],
+   "answer": "The Transpolyporter 6000 is an experimental goblin transport device designed to send travelers straight into Gnomeregan without crossing Dun Morogh.",
+   "q": "What is the Transpolyporter 6000?"
+  },
+  {
+   "aliases": [
+    "who is kernobee",
+    "gnomish rig news"
+   ],
+   "answer": "Kernobee is the contact who sent word about the new gnomish rig, prompting the construction of the teleporter.",
+   "q": "Who is Kernobee?"
+  },
+  {
+   "aliases": [
+    "why avoid dun morogh",
+    "why use the teleporter"
+   ],
+   "answer": "The overland trek to Gnomeregan forces travelers through the dwarf-patrolled mountains of Dun Morogh, making a direct device far safer.",
+   "q": "Why bypass the route through Dun Morogh?"
+  },
+  {
+   "aliases": [
+    "how to get to booty bay",
+    "travel to booty bay"
+   ],
+   "answer": "Travelers can board the ship from Ratchet to reach Booty Bay directly by sea.",
+   "q": "How do you reach Booty Bay?"
+  },
+  {
+   "aliases": [
+    "is the teleporter safe",
+    "does scooty machine blow up"
+   ],
+   "answer": "Scooty admits the device exploded around a dozen times during development, though he insists it is now patched up and ready for passengers.",
+   "q": "Is the Transpolyporter 6000 safe to use?"
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "chief engineer scooty",
+  "dun morogh",
+  "gnomeregan",
+  "goblin engineering",
+  "kernobee",
+  "ratchet",
+  "scooty",
+  "transpolyporter 6000"
+ ],
+ "related": [
+  "npc:scooty",
+  "zone:gnomeregan",
+  "subzone:booty-bay",
+  "npc:kernobee",
+  "subzone:ratchet",
+  "zone:dunmorogh",
+  "topic:goblin",
+  "topic:dwarf"
+ ],
+ "sections": [
+  {
+   "body": "Word from Kernobee about a new gnomish rig spurred goblin engineers to assemble the Transpolyporter 6000. They promise it is the quickest way into Gnomeregan, avoiding the dwarf-held peaks of Dun Morogh entirely. The device stands ready for boarding in Booty Bay, where Chief Engineer Scooty watches over the platform near the wind rider roost. You are directed to take the vessel from Ratchet across the sea to meet him.",
+   "spoiler": 0,
+   "title": "A Shortcut to Gnomeregan"
+  },
+  {
+   "body": "Scooty takes pride in his handiwork at the roost, calling the contraption the peak of goblin engineering. He readily confesses the machine detonated about twelve times during its trials, but insists all the loose ends are secured. Should anything go sideways now, he promises the end will at least be swift.",
+   "spoiler": 1,
+   "title": "Testing the Rig"
+  }
+ ],
+ "summary": "Goblin inventors have finished the Transpolyporter 6000, promising a direct shortcut into Gnomeregan. Chief Engineer Scooty awaits passengers in Booty Bay, offering an alternative to crossing the dangerous mountains of Dun Morogh.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Chief Engineer Scooty"
+ ]
+}

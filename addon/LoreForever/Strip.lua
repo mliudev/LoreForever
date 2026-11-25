@@ -39,7 +39,8 @@
 --   31-33  the target's model file id (PlayerModel:GetModelFileID, Giver.ModelOf), 0 unknown, not loaded yet, a player
 --   34     UnitSex("target") in bits 0-1 (0 unknown, 1 neither, 2 male, 3 female), its creature type in bits 2-6
 --          (CreatureType ids: 1 beast, 2 dragonkin, 3 demon, 4 elemental, 5 giant, 6 undead, 7 humanoid, 8 critter,
---          9 mechanical, 10 not specified; 0 unknown)
+--          9 mechanical, 10 not specified; 0 unknown), bit 7 ownership unknown (for a Willo with skyTarget:
+--          player-controlled non-player target whose owner couldn't be confirmed as yours or another player's)
 --   35     CRC-8 (polynomial 0x07, start 0xFF) of bytes 10-12 and 31-34: the trailer is about this target
 -- Then what a Lore Forever narration is doing, so Willo doesn't talk over it even after the sky goes
 -- away (LOR-471, Strip.Narration), all zeros meaning none plays:
@@ -327,28 +328,39 @@ function Strip.TargetFromWillo()
 end
 
 -- Who the target is to you, byte 43's bits 5-7 (above): player-controlled, yours, out of talking range. REACH is
--- CheckInteractDistance's "follow" distance (about 28 yards): past it, a character can't hear you. A distance the
--- game won't give (an error, a secret value) counts as in reach.
+-- CheckInteractDistance's "follow" distance (about 28 yards): past it, a character can't hear you. Only an explicit
+-- false or 0 counts as out of reach: nil, combat, an error or a secret value counts as in reach.
 local REACH = 4
 local function outOfReach()
   if type(_G.CheckInteractDistance) ~= "function" then return false end
   -- Never in a fight: it's the kind of call that can raise "Interface action failed" there. Unknown counts as in reach.
   if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) then return false end
   local ok, near = pcall(_G.CheckInteractDistance, "target", REACH)
-  if not ok or (near ~= nil and not ns.Context.Usable(near)) then return false end
-  return not near or near == 0
+  if not ok or not ns.Context.Usable(near) then return false end
+  return near == false or near == 0
 end
 local function whoBits(isPlayer)
   local controlled = isPlayer or yes(try(UnitPlayerControlled, "target"))
   local bits = controlled and 32 or 0
+  local ownerUnknown = false
   if isPlayer then
     if yes(try(UnitIsUnit, "target", "player")) then bits = bits + 64 end
-  elseif controlled and (yes(try(UnitIsUnit, "target", "pet"))
-      or yes(try(_G.UnitIsOwnerOrControllerOfUnit, "player", "target"))) then
-    bits = bits + 64
+  elseif controlled then
+    local isPet = yes(try(UnitIsUnit, "target", "pet"))
+    local okOwner, isOwner = false, nil
+    if not isPet and type(_G.UnitIsOwnerOrControllerOfUnit) == "function" then
+      okOwner, isOwner = pcall(_G.UnitIsOwnerOrControllerOfUnit, "player", "target")
+    end
+    if isPet or (okOwner and yes(isOwner)) then
+      bits = bits + 64
+    else
+      local confirmedTheirs = yes(try(_G.UnitIsOtherPlayersPet, "target"))
+        or (okOwner and ns.Context.Usable(isOwner) and (isOwner == false or isOwner == 0))
+      ownerUnknown = not confirmedTheirs
+    end
   end
   if outOfReach() then bits = bits + 128 end
-  return bits
+  return bits, ownerUnknown
 end
 
 -- The target's model file id, looked at once per target (Giver.ModelOf's "strip" slot; it can load a moment after you
@@ -444,7 +456,7 @@ function Strip.TitleOf(unit)
     -- The template's health bar never shows here, but SetUnit from our code hands it the target's health, and its own
     -- script compares that: a Lua error when the health is a secret number (LOR-1105). pcall can't catch it.
     local bar = scanTip and (scanTip.StatusBar or _G.LoreForeverRoleTipStatusBar)
-    if bar then
+    if type(bar) == "table" then
       try(bar.SetScript, bar, "OnValueChanged", nil)
       try(bar.SetScript, bar, "OnUpdate", nil)
     end
@@ -530,10 +542,12 @@ function Strip.Payload()
   put(out, targetLoreHash(has, isPlayer), 4)
   put(out, placeLoreHash(), 4)
   put(out, Strip.CRC(out), 2)
+  local wBits, ownerUnknown = 0, false
+  if who and has then wBits, ownerUnknown = whoBits(isPlayer) end
   local trailer = {}
   put(trailer, targetModelID(has, isPlayer), 3)
   local sex = has and not isPlayer and int(try(UnitSex, "target"), 3) or 0
-  put(trailer, sex + creatureType(has, isPlayer) * 4, 1)
+  put(trailer, sex + creatureType(has, isPlayer) * 4 + (ownerUnknown and 128 or 0), 1)
   put(trailer, Strip.CRC8({ out[11], out[12], out[13], trailer[1], trailer[2], trailer[3], trailer[4] }), 1)
   for _, b in ipairs(trailer) do out[#out + 1] = b end
   local high, low, clip = Strip.Narration()
@@ -544,7 +558,7 @@ function Strip.Payload()
   for _, b in ipairs(narration) do out[#out + 1] = b end
   put(out, Strip.CRC(narration), 2)
   local role = targetRole(has, isPlayer)
-  if who and has then role = role % 32 + whoBits(isPlayer) end
+  if who and has then role = role % 32 + wBits end
   put(out, role, 1)
   put(out, role > 0 and Strip.CRC8({ out[11], out[12], out[13], role }) or 0, 1)
   return out

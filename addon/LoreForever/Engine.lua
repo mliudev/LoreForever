@@ -620,6 +620,17 @@ function Engine:KeyForGUID(guid)
   return self:KeyForId("npcId", Engine.CreatureID(guid), { npc = true })
 end
 
+-- Recognized honorific, military, ecclesiastical, and age titles that may precede an NPC's indexed name
+-- ("Deputy Willem" -> "Willem"). Only these strip in KeyForName so modifiers like "Twilight Thrall" or
+-- "Carrion Grub" never unlock the lore figure they share a word with (LOR-1649).
+Engine.NPC_TITLES = {
+  archbishop = true, archmage = true, baron = true, bishop = true, captain = true, colonel = true,
+  commander = true, conservator = true, deputy = true, duke = true, general = true, highlord = true,
+  innkeeper = true, keeper = true, king = true, lady = true, lieutenant = true, lord = true, major = true,
+  marshal = true, master = true, mistress = true, old = true, overlord = true, prince = true,
+  princess = true, prophet = true, queen = true, sir = true, warchief = true, young = true,
+}
+
 -- Entry key for a name seen in the game (NPC, zone, or a mob named after a lore topic).
 function Engine:KeyForName(name)
   if not name or name == "" then return nil end
@@ -628,8 +639,8 @@ function Engine:KeyForName(name)
   local k = idx.name[lower]
   if k then return k, "exact" end
   -- "Deputy Willem", "Captain Danuvin": the person's entry may be under the name without the title.
-  local rest = lower:match("^%S+ (.+)$")
-  k = rest and idx.name[rest]
+  local title, rest = lower:match("^([^%s]+) (.+)$")
+  k = title and Engine.NPC_TITLES[title] and idx.name[rest]
   if k and k:find("^npc:") then return k, "exact" end
   local words, best, width = unitWords(name), nil, 0
   for key, aliases in pairs(Engine.MOB_ALIASES) do

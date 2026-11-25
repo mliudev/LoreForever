@@ -1,0 +1,78 @@
+{
+ "key": "quest:7041",
+ "type": "quest",
+ "name": "Vyletongue Corruption",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7041
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "talendria quest",
+    "who gives vyletongue corruption",
+    "nijel's point questgiver"
+   ],
+   "answer": "Talendria gives the charge from the Alliance outpost at Nijel's Point.",
+   "q": "Who sends you into Maraudon?"
+  },
+  {
+   "aliases": [
+    "orange crystal pool location",
+    "where to fill cerulean vial",
+    "cerulean vial water"
+   ],
+   "answer": "The orange crystal pool lies deep inside the cavernous depths of Maraudon.",
+   "q": "Where is the pool located?"
+  },
+  {
+   "aliases": [
+    "how to cleanse vines",
+    "draw out noxxious scion",
+    "vylestem vines"
+   ],
+   "answer": "Pouring water from the orange pool over the vines forces the hiding Noxxious Scions into the open. Slaying the scion cleanses the plant.",
+   "q": "How do you heal the Vylestem Vines?"
+  },
+  {
+   "aliases": [
+    "how many scions",
+    "how many plants healed",
+    "scion count"
+   ],
+   "answer": "Eight plants must be cleansed by destroying the scions nested inside them.",
+   "q": "How many plants must be cleansed?"
+  }
+ ],
+ "keywords": [
+  "cerulean vial",
+  "crystal pool",
+  "maraudon",
+  "nijel's point",
+  "noxxious scion",
+  "talendria",
+  "vylestem vines",
+  "vyletongue corruption"
+ ],
+ "related": [
+  "subzone:nijel-s-point"
+ ],
+ "sections": [
+  {
+   "body": "Deep inside Maraudon, foul growth chokes the subterranean groves. Talendria of Nijel's Point seeks to drive the rot from the Vylestem Vines with water drawn straight from the orange crystal pool. Dousing the flora draws out the Noxxious Scions that infect them, and slaying eight of the creatures allows the blighted plants to heal.",
+   "spoiler": 0,
+   "title": "Cleansing the Caverns"
+  }
+ ],
+ "summary": "Talendria at Nijel's Point needs the tainted growth inside Maraudon cleansed. Drawing water from the cavern's orange crystal pool onto the withered vines forces out the corrupted scions taking root within them.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vyletongue Corruption"
+ ]
+}

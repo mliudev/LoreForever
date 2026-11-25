@@ -1,0 +1,67 @@
+{
+ "key": "quest:94248",
+ "type": "quest",
+ "name": "Craftsman's Writ: Blue Overalls",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94248
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors stitch durable garments like blue overalls, making your needle and cloth essential for fulfilling this customer's order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is craftsman writ blue overalls",
+    "what does this order want"
+   ],
+   "answer": "The faded writ requests a single pair of blue overalls, along with details on payment and where to deliver the finished clothing.",
+   "q": "What does this writ ask for?"
+  },
+  {
+   "aliases": [
+    "can anyone deliver this writ",
+    "is craftsman writ tradable"
+   ],
+   "answer": "Yes. Note text at the bottom marks the document as transferable, so any artisan holding the writ can supply the goods and collect the coin.",
+   "q": "Can another crafter fulfill this order?"
+  },
+  {
+   "aliases": [
+    "where do blue overalls go",
+    "who buys the overalls"
+   ],
+   "answer": "The parchment notes a specific delivery location marked on your map where the customer waits to receive the clothing.",
+   "q": "Where do you deliver the finished overalls?"
+  }
+ ],
+ "keywords": [
+  "blue overalls",
+  "crafting order",
+  "craftsman's writ",
+  "delivery",
+  "tailoring",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A faded parchment orders a pair of blue overalls, detailing a customer's payment and delivery spot. You carry the transferable writ to the marked destination to hand over the tailored work and claim the transaction fee.",
+   "spoiler": 0,
+   "title": "A Tailored Order"
+  }
+ ],
+ "summary": "A customer has placed an order for a pair of blue overalls on a faded writ. You carry the transferable work order to the marked delivery location to hand over the garment and collect your payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Blue Overalls"
+ ]
+}

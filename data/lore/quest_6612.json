@@ -1,0 +1,84 @@
+{
+ "key": "quest:6612",
+ "type": "quest",
+ "name": "I Know A Guy...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6612
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, this journey marks the threshold where common kitchen masters can teach you nothing more, sending you across the sea to seek out goblin expertise."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is dirge quikcleave",
+    "where is dirge quikcleave",
+    "gadgetzan cook"
+   ],
+   "answer": "Dirge Quikcleave is a goblin chef residing in Gadgetzan who is regarded as one of the finest cooks on the continent of Kalimdor.",
+   "q": "Who is Dirge Quikcleave?"
+  },
+  {
+   "aliases": [
+    "where is gadgetzan",
+    "how to get to gadgetzan",
+    "gadgetzan location"
+   ],
+   "answer": "Gadgetzan is a desert settlement run by goblins in the sands of Tanaris on southern Kalimdor.",
+   "q": "Where is Gadgetzan located?"
+  },
+  {
+   "aliases": [
+    "why kalimdor cooking",
+    "why travel to tanaris",
+    "advance cooking"
+   ],
+   "answer": "Local instructors have taught you everything they know, leaving a renowned goblin culinary master in Tanaris as the only one capable of furthering your craft.",
+   "q": "Why must you travel all the way to Kalimdor?"
+  },
+  {
+   "aliases": [
+    "who sends you to dirge",
+    "i know a guy giver"
+   ],
+   "answer": "A seasoned cooking mentor recognizes your prowess with a spoon but has reached the limits of what they can teach, directing you instead to a peer across the sea.",
+   "q": "Who recommends seeking out Dirge Quikcleave?"
+  }
+ ],
+ "keywords": [
+  "cooking",
+  "culinary",
+  "dirge quikcleave",
+  "gadgetzan",
+  "goblin",
+  "kalimdor",
+  "tanaris"
+ ],
+ "related": [
+  "npc:dirge-quikcleave",
+  "subzone:gadgetzan",
+  "zone:tanaris",
+  "topic:goblin"
+ ],
+ "sections": [
+  {
+   "body": "Your skills at the fire have outgrown what local instructors can offer. To learn the finer craft of the kitchen, you are directed across the sea to the dry sands of Tanaris. There, within the goblin settlement of Gadgetzan, an eccentric culinarian named Dirge Quikcleave awaits your arrival.",
+   "spoiler": 0,
+   "title": "Across the Sea"
+  }
+ ],
+ "summary": "Your culinary skill has advanced beyond the lessons of your local mentor, who has nothing left to teach. To take your kitchen craft further, you must make the long journey across the sea to Kalimdor and seek out a master cook in the desert town of Gadgetzan.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: I Know A Guy..."
+ ]
+}

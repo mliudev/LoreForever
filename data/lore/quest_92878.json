@@ -1,0 +1,98 @@
+{
+ "key": "quest:92878",
+ "type": "quest",
+ "name": "Lost for Words",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92878
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "As a fellow Forsaken, you understand what it means to hold your frame together when limbs and jaws can be torn away in battle."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As a druid, facing one of your own calling among the Grimtotem is a stark reminder that nature's power can be bent to violence."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is blaise montgomery",
+    "blaise montgomery camp mojache",
+    "who gave this quest"
+   ],
+   "answer": "Blaise Montgomery is a Forsaken resting at Camp Mojache who lost his lower jaw in a fight with Grimtotem tauren.",
+   "q": "Who is Blaise Montgomery?"
+  },
+  {
+   "aliases": [
+    "who is namida",
+    "namida grimtotem",
+    "grimtotem druid"
+   ],
+   "answer": "Namida is a Grimtotem druid leading a camp to the northwest, responsible for the attack on Blaise Montgomery.",
+   "q": "Who is Namida?"
+  },
+  {
+   "aliases": [
+    "why cant blaise talk",
+    "what happened to blaise",
+    "blaise missing jaw"
+   ],
+   "answer": "He lost his lower jaw in an ambush by Grimtotem attackers, forcing him to write his thoughts on paper instead of speaking.",
+   "q": "Why is Blaise Montgomery unable to speak?"
+  },
+  {
+   "aliases": [
+    "where is namida camp",
+    "namida location",
+    "where to find namida"
+   ],
+   "answer": "Her camp lies to the northwest of Camp Mojache.",
+   "q": "Where is the Grimtotem camp located?"
+  },
+  {
+   "aliases": [
+    "what proof does blaise want",
+    "proof of demise",
+    "namida dead"
+   ],
+   "answer": "He asks for proof that the Grimtotem druid Namida has been slain, seeking vengeance for his lost jaw.",
+   "q": "What does Blaise Montgomery demand?"
+  }
+ ],
+ "keywords": [
+  "blaise montgomery",
+  "camp mojache",
+  "druid",
+  "feralas",
+  "forsaken",
+  "grimtotem",
+  "lost for words",
+  "namida grimtotem"
+ ],
+ "related": [
+  "subzone:camp-mojache",
+  "topic:druid",
+  "topic:forsaken"
+ ],
+ "sections": [
+  {
+   "body": "At Camp Mojache, a Forsaken named Blaise Montgomery cannot speak. A violent skirmish with Grimtotem tauren cost him his lower jaw, leaving him only scraps of paper to scrawl his thoughts. His note names a druid named Namida as the leader of the raiders from a camp to the northwest. He wants her to pay for what she took.",
+   "spoiler": 0,
+   "title": "A Scrawled Vengeance"
+  }
+ ],
+ "summary": "At Camp Mojache, Blaise Montgomery hands you a scrawled note instead of speaking, having lost his lower jaw to Grimtotem raiders. A druid named Namida led the assault from the northwest, and he demands vengeance for what he suffered.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lost for Words"
+ ]
+}

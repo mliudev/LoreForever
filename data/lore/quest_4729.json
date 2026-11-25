@@ -1,0 +1,72 @@
+{
+ "key": "quest:4729",
+ "type": "quest",
+ "name": "Kibler's Exotic Pets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4729
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants the worg",
+    "kibler lore",
+    "who is kibler"
+   ],
+   "answer": "Kibler is a collector seeking ferocious beasts, including young worgs from Blackrock Spire.",
+   "q": "Who is Kibler?"
+  },
+  {
+   "aliases": [
+    "where are worg pups",
+    "bloodaxe worg pup location",
+    "where are the pups"
+   ],
+   "answer": "Bloodaxe worg pups prowl inside Blackrock Spire alongside the Bloodaxe orcs.",
+   "q": "Where are the worg pups found?"
+  },
+  {
+   "aliases": [
+    "how to catch worg pup",
+    "caging worg pups"
+   ],
+   "answer": "Kibler provides a sturdy cage built to hold the fierce beasts securely for transport.",
+   "q": "How do you capture a worg pup?"
+  },
+  {
+   "aliases": [
+    "worg pup danger",
+    "are worg pups dangerous"
+   ],
+   "answer": "Even as pups, the Bloodaxe beasts are ferocious and ready to bite.",
+   "q": "Are Bloodaxe worg pups dangerous?"
+  }
+ ],
+ "keywords": [
+  "blackrock spire",
+  "bloodaxe",
+  "cage",
+  "exotic pets",
+  "kibler",
+  "worg"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Kibler has an eye for dangerous beasts and wants a prize from Blackrock Spire. The Bloodaxe worgs breed within the dark halls of the mountain fortress, fierce from the moment they are whelped. You carry a cage into the spire to trap one of the ferocious pups alive and bring it out.",
+   "spoiler": 0,
+   "title": "Beasts of Blackrock"
+  }
+ ],
+ "summary": "Kibler seeks a live specimen from the dark halls of Blackrock Spire. To satisfy him, you must venture into the mountain fortress and trap a ferocious Bloodaxe worg pup in a sturdy cage.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Kibler's Exotic Pets"
+ ]
+}

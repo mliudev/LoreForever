@@ -1,0 +1,78 @@
+{
+ "key": "quest:94305",
+ "type": "quest",
+ "name": "Craftsman's Writ: Shadoweave Gloves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94305
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, your needle and thread supply the Shadoweave Gloves demanded by this order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what item is needed",
+    "writ requirements",
+    "craftsman writ shadoweave gloves item"
+   ],
+   "answer": "The order calls for a single pair of Shadoweave Gloves.",
+   "q": "What is requested in this writ?"
+  },
+  {
+   "aliases": [
+    "where to deliver",
+    "delivery point",
+    "delivery location"
+   ],
+   "answer": "The parchment directs you to a specific delivery point marked on your map, where payment awaits.",
+   "q": "Where does the shipment go?"
+  },
+  {
+   "aliases": [
+    "is the writ transferable",
+    "can someone else fulfill this",
+    "trade writ"
+   ],
+   "answer": "Yes. A note at the bottom confirms the document is transferable, allowing anyone holding the parchment to complete the exchange.",
+   "q": "Can anyone fulfill this order?"
+  },
+  {
+   "aliases": [
+    "need writ for delivery",
+    "keep parchment",
+    "writ required"
+   ],
+   "answer": "Yes. You must hold the physical writ in your possession to conclude the transaction and receive payment.",
+   "q": "Do you need to keep the parchment to complete the delivery?"
+  }
+ ],
+ "keywords": [
+  "crafting order",
+  "craftsman's writ",
+  "shadoweave gloves",
+  "tailoring",
+  "transferable writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has put quill to parchment in faded ink, asking for a single pair of Shadoweave Gloves. The parchment sets down where to bring the finished work and promises coin upon arrival. Because the agreement is fully transferable, any artisan carrying the writ can fulfill the transaction.",
+   "spoiler": 0,
+   "title": "A Transferable Order"
+  }
+ ],
+ "summary": "A faded order requests a pair of Shadoweave Gloves for a paying customer. The document lists payment terms and a delivery point, and it passes freely from hand to hand until someone fulfills the agreement.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Shadoweave Gloves"
+ ]
+}

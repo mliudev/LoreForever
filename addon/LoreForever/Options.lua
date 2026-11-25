@@ -40,6 +40,7 @@ Options.DEFAULTS = {
   -- add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
   readBooks = true,
   skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
+  playInCombat = false,    -- keep Lore Forever narration playing and advancing through combat (LOR-1652)
   packHints = true,        -- say (once a session per zone, or per quest download) when its narration is in a pack you lack
   voiceOffers = true,      -- the dimmed play button where a free download has that voice (VoiceOffer.lua)
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
@@ -1322,6 +1323,18 @@ function Options.Create()
     L["Don't replay a narration by itself once this character has heard it. You can still play it any time."])
   local recapsRow = addCheck(aL, "recaps", L["Storyline recaps"],
     L["At a storyline's turning points, the narrator retells what you've done so far. Never during a fight."])
+  local playInCombatRow, playInCombatCb = addCheck(aL, "playInCombat", L["Keep narration playing in combat"],
+    L["Keep Lore Forever narration playing and advancing through combat, including in dungeons and raids."], nil,
+    function(self)
+      if self:GetChecked() then
+        if ns.Voice then ns.Voice.fightRelease = nil end
+        if ns.UI and ns.UI.pl and ns.UI.pl.holds and ns.UI.pl.holds.fight then
+          ns.UI.Release("fight")
+        elseif ns.UI and ns.UI.Kick then
+          ns.UI.Kick()
+        end
+      end
+    end)
   local manualNote = makeNote(aL, L["You can still press Play or use your playlist."])
   p.manualNote = manualNote
 
@@ -1450,6 +1463,7 @@ function Options.Create()
     rowEntry(flightsRow),
     rowEntry(skipHeardRow),
     rowEntry(recapsRow),
+    rowEntry(playInCombatRow),
     noteEntry(manualNote, 4, 6, function()
       return LoreForeverDB and LoreForeverDB.settings and LoreForeverDB.settings.onDemand == true
     end),

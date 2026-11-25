@@ -1555,7 +1555,7 @@ end
 -- A queue row as SavedVariables keep it: its plain fields and its pages, what of it was heard, and a quest giver's page
 -- as the window had it (it.target); not what only means something in this session (when it joined, the greeting it
 -- waited out, how often it was paused). nil: a row that can't come back (a book page: its book is closed after a
--- /reload, Voice.OnBookClosed; one that stood in for an item's story, UI.TakePlace, brings that story back instead).
+-- /reload, since a reload closes the book window; one that stood in for an item's story, UI.TakePlace, brings that story back instead).
 local SESSION_ONLY = { at = true, notBefore = true, holdRestarts = true, pauses = true, paused = true,
   windowClosed = true, outcome = true, why = true }
 local ROWS_MAX = 256   -- the most queue rows saved, and read back
@@ -2056,6 +2056,8 @@ function UI.UpdateListen()
   UI.UpdateNowPlaying()
   if UI.completion and UI.completion:IsShown() then UI.LayoutCompletion() end
   if ns.Page and ns.Page.UpdateListen then ns.Page.UpdateListen() end
+  local op = ns.Options and ns.Options.panel
+  if op and op.Waiting and op.IsShown and op:IsShown() then op.Waiting() end
   ns.Book.Changed()   -- heard: not new any more
   -- The Here tab's pills follow the playlist (+, then -, or one stop while it plays).
   for _, list in ipairs({ UI.bossButtons or {}, UI.suggestions or {}, UI.questButtons or {} }) do
@@ -3286,6 +3288,7 @@ local SKIP_NOTE = 4         -- seconds the player says what left
 local QUEST_LINE = { handin = true, newquest = true }
 local function questLine(it) return it ~= nil and QUEST_LINE[it.how] == true end
 UI.IsQuestLine = questLine
+local function bookLine(it) return it ~= nil and it.how == "book" end
 
 -- Item `it` goes under Earlier, newest first: "played", or "skipped" and why. note: the player says so once, for a
 -- few seconds (only for what the player didn't just do themselves: Design Lead, 11/11).
@@ -3319,7 +3322,7 @@ local function turnCheck(it)
     return ns.Voice.LineCheck(it)
   end
   if clock() - (it.at or clock()) > QUEST_WAIT then return L["waited too long"] end
-  if not ns.Voice.QuestDialogue() then return L["turned off"], true end   -- (quest voices turned off while it waited)
+  if ns.Voice.OnDemand() or not ns.Voice.QuestDialogue() then return L["turned off"], true end   -- (quest voices turned off while it waited)
   -- Taken while its quest giver was still greeting you (Voice's keepWaiting): its turn waits out the greeting.
   if it.notBefore and clock() < it.notBefore then return nil, nil, true end
   if it.how ~= "newquest" then return nil end
@@ -3337,11 +3340,33 @@ local function turnCheck(it)
 end
 
 -- Where a quest line goes: after what's next ("Hear this next" keeps the front) and the quest lines already waiting,
--- ahead of stories and what you added. `first`: the first index still to begin.
+-- ahead of book pages, stories and what you added. `first`: the first index still to begin.
 local function questSlot(first)
   local items, slot = UI.pl.items, first
   while items[slot] and (items[slot].next or questLine(items[slot])) do slot = slot + 1 end
   return slot
+end
+
+-- Where a book page goes: after what's next, quest lines and earlier book pages (FIFO), ahead of zone lore and stories.
+-- Even if a paused story sits ahead of earlier queued book pages, keep new book pages after those earlier pages.
+local function bookSlot(first, limit)
+  local items = UI.pl.items
+  local stop = math.min(#items + 1, limit or (#items + 1))
+  local slot = first
+  while slot < stop and (items[slot].next or questLine(items[slot]) or bookLine(items[slot])) do
+    slot = slot + 1
+  end
+  for i = slot, stop - 1 do
+    if bookLine(items[i]) then slot = i + 1 end
+  end
+  return slot
+end
+
+local function hasQueuedBook(from)
+  for i = from, #UI.pl.items do
+    if bookLine(UI.pl.items[i]) then return true end
+  end
+  return false
 end
 
 -- Whether a hold stops what plays (UI.Hold): cutscenes and Willo stop everything; a fight in a group dungeon or raid
@@ -3479,52 +3504,59 @@ local function goTo(i, replacing, fade)
   end
 end
 
+-- Remove the item at pl.pos, retire it, and pause if the next item is pl.holdAt (returns false when paused).
+local function dropAtPos(it, outcome, why, note)
+  local pl = UI.pl
+  table.remove(pl.items, pl.pos)
+  if it == pl.holdAt then pl.holdAt = pl.items[pl.pos] end
+  retire(it, outcome, why, note)
+  if pl.items[pl.pos] == pl.holdAt and pl.holdAt then   -- what you stopped stays stopped (UI.Admit)
+    pl.state, pl.holdAt = "paused", nil
+    UI.UpdateListen()
+    return false
+  end
+  goTo(pl.pos)
+  return true
+end
+
 -- Play items[pos]; startTarget posts the matching words only after its recording starts.
 local function playCurrent(byHand)
   local pl = UI.pl
   pl.gate = nil
   local it = pl.items[pl.pos]
-  -- A flight story may have been heard another way while waiting. Its automatic turn skips it, while the
-  -- player's explicit Play/Next/Previous/Jump still replays whatever they choose.
-  while it and it.flight and not byHand and (ns.Voice.autoSession[it.id]
-      or (settings().skipHeard ~= false and ns.Voice.Heard(it.id))) do
-    goTo(pl.pos + 1)
-    it = pl.items[pl.pos]
-  end
-  -- A line that came by itself may be out of step by its turn (turnCheck): it leaves for Earlier, saying why. A line
-  -- a hold restarted too often gives up too (UI.Hold).
-  while it and it.byItself and not byHand do
-    local why, quiet, wait = turnCheck(it)
-    if wait then   -- its turn, but a fight or a talk is on: the list waits here, and goes on when it ends (UI.Kick)
-      pl.state, pl.gate = "waiting", true
-      return UI.UpdateListen()
+  -- A flight story may have been disabled (OnDemand) or heard another way while waiting, and a line that came by
+  -- itself may be out of step by its turn (turnCheck) or restarted too often by holds (MAX_HOLD_RESTARTS). Explicit
+  -- Play/Next/Previous/Jump (byHand) still replays whatever the player chooses.
+  while it and not byHand do
+    if it.flight and (ns.Voice.OnDemand() or ns.Voice.autoSession[it.id]
+        or (settings().skipHeard ~= false and ns.Voice.Heard(it.id))) then
+      if ns.Voice.OnDemand() then
+        if not dropAtPos(it, "skipped", L["turned off"], false) then return end
+      else
+        goTo(pl.pos + 1)
+      end
+      it = pl.items[pl.pos]
+    elseif it.byItself then
+      local why, quiet, wait = turnCheck(it)
+      if wait then   -- its turn, but a fight or a talk is on: the list waits here, and goes on when it ends (UI.Kick)
+        pl.state, pl.gate = "waiting", true
+        return UI.UpdateListen()
+      end
+      if not why and ((it.holdRestarts and it.holdRestarts > MAX_HOLD_RESTARTS) or it.fightCut) then
+        why = L["interrupted"]
+      end
+      if not why then break end
+      if why == L["interrupted"] or why == L["waited too long"] then ns.Log.Use("pl", "late") end
+      if not dropAtPos(it, "skipped", why, not quiet) then return end
+      it = pl.items[pl.pos]
+    else
+      break
     end
-    if not why and ((it.holdRestarts and it.holdRestarts > MAX_HOLD_RESTARTS) or it.fightCut) then
-      why = L["interrupted"]
-    end
-    if not why then break end
-    if why == L["interrupted"] or why == L["waited too long"] then ns.Log.Use("pl", "late") end
-    table.remove(pl.items, pl.pos)
-    if it == pl.holdAt then pl.holdAt = pl.items[pl.pos] end
-    retire(it, "skipped", why, not quiet)
-    if pl.items[pl.pos] == pl.holdAt and pl.holdAt then   -- what you stopped stays stopped (UI.Admit)
-      pl.state, pl.holdAt = "paused", nil
-      return UI.UpdateListen()
-    end
-    goTo(pl.pos)
-    it = pl.items[pl.pos]
   end
   -- A quest you added whose quest giver already said all of it while it waited leaves as played (change 2); the next
   -- row gets the same turn checks (#3817 review, fix 3: a story that came by itself started in a fight).
   if it and not byHand and not it.started and restHeard(it, 1) then
-    table.remove(pl.items, pl.pos)
-    if it == pl.holdAt then pl.holdAt = pl.items[pl.pos] end
-    retire(it, "played")
-    if pl.items[pl.pos] == pl.holdAt and pl.holdAt then
-      pl.state, pl.holdAt = "paused", nil
-      return UI.UpdateListen()
-    end
-    goTo(pl.pos)
+    if not dropAtPos(it, "played") then return end
     return playCurrent(byHand)
   end
   if not it then return UI.PlaylistClear() end
@@ -3705,7 +3737,8 @@ local function addItem(it, quiet, deferStart)
   end
   if #pl.items == 1 then
     pl.pos = 1
-    if UI.speaking then pl.state = "waiting"
+    if it.flight and held() then pl.state, pl.heldFrom = "held", pl.heldFrom or "playing"
+    elseif UI.speaking then pl.state = "waiting"
     elseif deferStart or UI.PlayerSolo() then pl.state = "paused"
     else return playCurrent() or true end
   end
@@ -3719,6 +3752,37 @@ function UI.PlaylistAdd(key, idx, quiet, deferStart)
   local added = addItem(newItem(key, idx), quiet, deferStart)
   if added and not quiet then ns.Log.Use("pl", "add") end   -- usage counts (LOR-435); QueueHere counts its own
   return added
+end
+
+local function placeAdmitted(it, quest, book)
+  local pl = UI.pl
+  local speakingHere = UI.speaking and pl.state == "playing"
+  local cur = pl.items[pl.pos]
+  -- Priority: quests first, then book pages (FIFO), then zone lore / stories.
+  local first = speakingHere and pl.pos + 1 or math.max(pl.pos, 1)
+  local keepPaused = book and pl.state == "paused" and cur and (questLine(cur) or bookLine(cur) or hasQueuedBook(pl.pos))
+  local limit
+  if pl.state == "paused" and cur and not keepPaused then
+    -- What you stopped stays stopped (the Design Lead's (g), 11/11): this line speaks in its turn, ahead of the
+    -- stopped rows, and the list stops again there. (Over a story you play outside the list too: the list it
+    -- paused stays paused.)
+    pl.holdAt = pl.holdAt or cur
+    limit = UI.PlaylistIndex(pl.holdAt.id)
+  elseif pl.holdAt and not quest then
+    -- The same while a quest giver speaks over the list you stopped: a book or story found now speaks before it stops again.
+    limit = UI.PlaylistIndex(pl.holdAt.id)
+  end
+  local slot = quest and questSlot(first) or book and bookSlot(first, limit) or (#pl.items + 1)
+  if limit and limit < slot then slot = limit end
+  table.insert(pl.items, slot, it)
+  -- The list waits at a line a fight or a talk keeps back (pl.gate): a quest line or book going ahead of it plays now.
+  local gated = pl.gate and pl.state == "waiting" and not UI.speaking and slot <= pl.pos
+  if gated then goTo(pl.pos); playCurrent() end
+  if pl.state == "paused" and not keepPaused then
+    if held() then pl.state, pl.heldFrom = "held", "playing"
+    elseif UI.speaking then pl.state = "waiting"
+    else goTo(pl.pos); playCurrent() end
+  end
 end
 
 -- A line that came by itself joins the queue (LOR-1388). A quest giver's goes after what's next and the quest lines
@@ -3742,12 +3806,12 @@ function UI.Admit(it)
   if old then return false end
   it.byItself, it.at = true, it.at or clock()
   UI.miniClosed = nil   -- (joining the queue brings a closed player back, as addItem)
-  local quest = questLine(it)
+  local quest, book = questLine(it), bookLine(it)
   -- One queue (LOR-1475; Mike's stream 11/12, 23:07: "When I paused the player and then I went to an area that had a
   -- narration I didn't hear, it started its own queue... And then at the end, my previous queue is still waiting"). With
   -- the list paused, nothing starts by itself but a quest giver you clicked or a book you opened: a story joins the end
   -- and waits for your Play, wherever you are by then (it.kept: Voice.LineCheck).
-  if not quest and it.how ~= "book" and UI.ListPaused() then
+  if not quest and not book and UI.ListPaused() then
     it.kept = true
     pl.items[#pl.items + 1] = it
     UI.FlashPlayer()
@@ -3776,27 +3840,7 @@ function UI.Admit(it)
     goTo(pl.pos)
     if held() then pl.state, pl.heldFrom = "held", "playing" else playCurrent() end
   else
-    -- A quest line goes after what's next and the quest lines waiting; anything else at the end.
-    local slot = quest and questSlot(speakingHere and pl.pos + 1 or math.max(pl.pos, 1)) or #pl.items + 1
-    if pl.state == "paused" and pl.items[pl.pos] then
-      -- What you stopped stays stopped (the Design Lead's (g), 11/11): this line speaks in its turn, ahead of the
-      -- stopped rows, and the list stops again there. (Over a story you play outside the list too: the list it
-      -- paused stays paused.)
-      pl.holdAt = pl.holdAt or pl.items[pl.pos]
-      slot = UI.PlaylistIndex(pl.holdAt.id) or slot
-    elseif pl.holdAt and not quest then
-      -- The same while a quest giver speaks over the list you stopped: a story found now speaks before it stops again.
-      slot = UI.PlaylistIndex(pl.holdAt.id) or slot
-    end
-    table.insert(pl.items, slot, it)
-    -- The list waits at a line a fight or a talk keeps back (pl.gate): a quest line going ahead of it plays now.
-    local gated = pl.gate and pl.state == "waiting" and not UI.speaking and slot <= pl.pos
-    if gated then goTo(pl.pos); playCurrent() end
-    if pl.state == "paused" then
-      if held() then pl.state, pl.heldFrom = "held", "playing"
-      elseif UI.speaking then pl.state = "waiting"
-      else goTo(pl.pos); playCurrent() end
-    end
+    placeAdmitted(it, quest, book)
   end
   UI.FlashPlayer()
   UI.UpdateListen()
@@ -3809,62 +3853,9 @@ function UI.QueuedLine(id)
   if i and i >= UI.pl.pos then return UI.pl.items[i], i end
 end
 
--- A page turned (M12, E6c, E6e-E6h; the Design Lead's call on #4375, 11/16): a turn never cuts off what speaks, the
--- book's own page either. The open book has at most two rows: the page reading now, which reads to its end, and the
--- page on screen waiting right after it (or in its turn behind what plays). `it` is the page on screen's row, or nil
--- when it can't play by itself (no recording, heard, or read since the book opened): then nothing of the book waits.
--- Stopped partway (you pressed Stop), the page you left leaves and the page on screen reads, then the list stops again.
--- Mike's stream 11/15, 01:15:45 (add-on 1.11.0, LOR-1542): "every time I turn a page, it overrides the current
--- playlist": each turn cut the page reading off mid-line, each turn while a story played added a row (so pages he'd
--- turned past read later, one by one), and a page with nothing to read stopped the whole list. Returns true when it
--- handled the turn.
-function UI.TurnBookPage(it)
-  local pl = UI.pl
-  local cur = pl.items[pl.pos]
-  if cur and cur.how == "book" and cur.byItself and cur.started and pl.state == "paused" then
-    for j = #pl.items, pl.pos + 1, -1 do   -- (one row: a page waiting behind the stopped one leaves too)
-      local row = pl.items[j]
-      if row.how == "book" and row.byItself and not row.started then
-        ns.Voice.openPages[row.id] = nil
-        table.remove(pl.items, j)
-        if row.replaced then table.insert(pl.items, j, row.replaced) end
-      end
-    end
-    table.remove(pl.items, pl.pos)   -- (the page you left isn't kept as played: it was stopped partway)
-    if cur == pl.holdAt then pl.holdAt = nil end
-    if not pl.items[pl.pos] then UI.PlaylistClear() end
-    UI.UpdateListen()
-    return not it   -- (the page on screen comes in as a book opened on a stopped list: UI.Admit reads it, then stops)
-  end
-  for j = math.max(pl.pos, 1), #pl.items do
-    local row = pl.items[j]
-    if row.how == "book" and row.byItself and not row.started then   -- the book's page waiting its turn
-      ns.Voice.openPages[row.id] = nil   -- (never read: turning back to it reads it)
-      if it then
-        it.byItself, it.at, it.replaced = true, row.at, row.replaced
-        pl.items[j] = it
-        if row == pl.holdAt then pl.holdAt = it end
-        UI.UpdateListen()
-      elseif row.replaced then
-        pl.items[j] = row.replaced   -- (the letter's own story it stood in for comes back: TakePlace)
-        UI.UpdateListen()
-      else
-        UI.LeaveQueue(row, nil, true)
-      end
-      return true
-    end
-  end
-  if not (cur and cur.how == "book" and cur.byItself and pl.state == "playing" and UI.speaking) then return false end
-  if it then   -- the book's page reading now: the page on screen reads right after it
-    it.byItself, it.at = true, clock()
-    table.insert(pl.items, pl.pos + 1, it)
-    UI.UpdateListen()
-  end
-  return true
-end
-
 -- A book's page that came by itself takes the place of the story of the item it is (a letter you looted, then opened),
--- waiting or playing: one row for one thing (the plan's N9). Returns true if it did.
+-- waiting or playing: one row for one thing (the plan's N9). When waiting, it moves to book priority if needed.
+-- Returns true if it did.
 function UI.TakePlace(it)
   local pl, thing = UI.pl, thingOf(it.id)
   for j = math.max(pl.pos, 1), #pl.items do
@@ -3878,9 +3869,18 @@ function UI.TakePlace(it)
         pl.items[j] = it
         goTo(pl.pos, true)
         playCurrent()
-      else
-        it.replaced = row   -- (it hadn't begun: closing the book before the reading's turn brings it back)
+      elseif j == pl.pos or row == pl.holdAt then
+        it.replaced = row
         pl.items[j] = it
+        if pl.holdAt == row then pl.holdAt = it end
+        if j == pl.pos and pl.gate and pl.state == "waiting" and not UI.speaking then
+          goTo(pl.pos)
+          playCurrent()
+        end
+      else
+        it.replaced = row
+        table.remove(pl.items, j)
+        placeAdmitted(it, false, true)
       end
       UI.UpdateListen()
       return true
@@ -3918,7 +3918,7 @@ end
 -- started plays on (a fight). A line in one recording starts over after a hold, so it gives up after a few (playCurrent's
 -- MAX_HOLD_RESTARTS), and one 90% heard counts as done. A dungeon pull ends a story outright (fightCut). Pressing Stop
 -- during a hold wins: the list stays stopped.
-local HOLD_MAX = { willo = 120, cutscene = 300, fight = 600 }   -- a hold the game never ends lets go by itself
+local HOLD_MAX = { willo = 120, spoken = 300, othervoice = 180, cutscene = 300, fight = 600 }   -- a hold the game never ends lets go by itself
 function UI.Hold(why, onlyByItself)
   local pl = UI.pl
   local token = {}
@@ -3952,6 +3952,8 @@ function UI.Hold(why, onlyByItself)
     end
     pl.state = "held"
   elseif pl.state == "playing" or pl.state == "waiting" then   -- between two lines
+    local cur = pl.items[pl.pos]
+    if onlyByItself and cur and not cur.byItself and not cur.flight then return end
     pl.heldFrom, pl.state = pl.state, "held"
   end
   UI.UpdateListen()
@@ -3965,11 +3967,26 @@ function UI.Release(why)
   local solo, from = pl.heldSolo, pl.heldFrom
   pl.heldSolo, pl.heldFrom = nil, nil
   if solo then
+    local autoSolo = solo.byItself or solo.started == "auto"
+    local allowed = not autoSolo or not ns.Voice.AutoTargetAllowed or ns.Voice.AutoTargetAllowed(solo)
     pl.state = from == "playing" and "waiting" or (from or "paused")
-    if not startTarget(solo) and pl.state == "waiting" and pl.items[pl.pos] then pl.state = "playing"; playCurrent() end
+    if allowed and startTarget(solo) then
+      UI.UpdateListen()
+      return
+    end
+    if pl.state == "waiting" and pl.items[pl.pos] and not UI.speaking then
+      pl.state = "playing"
+      playCurrent()
+    elseif pl.state == "waiting" and not UI.speaking then
+      pl.state = "paused"
+    end
   elseif pl.items[pl.pos] then
-    pl.state = "playing"
-    playCurrent()
+    if UI.speaking then
+      pl.state = "waiting"
+    else
+      pl.state = "playing"
+      playCurrent()
+    end
   else
     pl.state = "paused"
   end
@@ -4006,6 +4023,11 @@ function UI.ClearWaiting()
     retire(cur, "skipped", L["cleared"])
     n = n + 1
     if #pl.items == 0 or pl.pos > #pl.items then UI.PlaylistClear() else goTo(pl.pos) end
+  end
+  if pl.heldSolo and (pl.heldSolo.byItself or pl.heldSolo.started == "auto") then
+    pl.heldSolo = nil
+    if pl.state == "held" and not pl.items[pl.pos] then pl.state, pl.heldFrom = "paused", nil end
+    n = n + 1
   end
   if n > 0 then ns.Log.Use("pl", "clearwait") end
   UI.UpdateListen()
@@ -4589,8 +4611,10 @@ function UI.QueueLine(limit)
   end
   local n = #pl.items
   if pl.state == "held" then
-    local words = { willo = L["Willo is talking"], cutscene = L["cutscene"], fight = L["fight"] }
-    for _, why in ipairs({ "willo", "cutscene", "fight" }) do
+    local otherLabel = (ns.Voice and ns.Voice.otherVoice) or L["quest voice"]
+    local words = { willo = L["Willo is talking"], spoken = L["Spoken"], othervoice = otherLabel,
+      cutscene = L["cutscene"], fight = L["fight"] }
+    for _, why in ipairs({ "willo", "spoken", "othervoice", "cutscene", "fight" }) do
       if pl.holds[why] then return L["Paused"] .. " · " .. words[why] end
     end
   end

@@ -1,0 +1,82 @@
+{
+ "key": "quest:95511",
+ "type": "quest",
+ "name": "Your First Feline Friend",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95511
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "Night elves have long raised these fierce cats as trusted steeds under the moon's grace."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what are riding sabers like",
+    "saber mount personality"
+   ],
+   "answer": "They are remarkably intelligent beasts and fiercely loyal to whoever bonds with them.",
+   "q": "What makes riding sabers special?"
+  },
+  {
+   "aliases": [
+    "choosing a saber",
+    "which cat do i pick"
+   ],
+   "answer": "Look over the available cats and decide which one you wish to journey with across the world.",
+   "q": "How do you choose your saber?"
+  },
+  {
+   "aliases": [
+    "can you pick wrong saber",
+    "wrong cat choice"
+   ],
+   "answer": "Any saber you feel drawn toward will prove a faithful and steadfast partner on your travels.",
+   "q": "Can you make the wrong choice?"
+  },
+  {
+   "aliases": [
+    "goddess blessing mounts",
+    "elune mount blessing"
+   ],
+   "answer": "The trainer invokes Elune to watch over you and your new companion as you ride into the wider world.",
+   "q": "Why is Elune invoked?"
+  }
+ ],
+ "keywords": [
+  "companion",
+  "elune",
+  "feline friend",
+  "mount",
+  "riding saber",
+  "saber"
+ ],
+ "related": [
+  "topic:elune"
+ ],
+ "sections": [
+  {
+   "body": "A riding saber is no ordinary beast of burden. These great cats possess sharp wits and remain steadfastly devoted to the rider who earns their trust. You stand before them now to examine each one and discover which companion will journey beside you across the wilderness.",
+   "spoiler": 0,
+   "title": "A Loyal Companion"
+  },
+  {
+   "body": "Once your decision is made, the bond between rider and beast takes root immediately. The chosen cat takes to you warmly, ready to venture forth under the watchful blessing of Elune.",
+   "spoiler": 1,
+   "title": "The Bound Steed"
+  }
+ ],
+ "summary": "You stand ready to choose your first riding saber and venture out into the wider world. These intelligent cats form deep, steadfast bonds with those who ride them.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Your First Feline Friend"
+ ]
+}

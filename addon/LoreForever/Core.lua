@@ -711,6 +711,8 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     if type(s) == "table" and type(s.Attach) == "function" then
       pcall(s.Attach, ns, function(e, ...) events:GetScript("OnEvent")(events, e, ...) end)
     end
+  elseif event == "ADDON_LOADED" and type(arg1) == "string" and arg1:lower():find("^spoken") then
+    if ns.UI and ns.UI.frame and ns.Voice and ns.Voice.OnSpokenLoaded then ns.Voice.OnSpokenLoaded() end
   elseif event == "ADDON_ACTION_FORBIDDEN" or event == "ADDON_ACTION_BLOCKED" then
     ns.Errors.OnBlocked(event, arg1, ...)
   elseif event == "PLAYER_LOGIN" then
@@ -812,9 +814,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     end)
   elseif event == "GOSSIP_SHOW" or event == "QUEST_GREETING" then
     ns.Voice.OnNpcWindow()   -- the NPC greets you aloud: a quest page waits for it (LOR-1238)
-    if event == "GOSSIP_SHOW" then
-      ns.Voice.OnOtherVoice()   -- another add-on reading what they say: what started by itself makes way
-    end
+    ns.Voice.OnOtherVoice("gossip")   -- another add-on reading what they say: what started by itself makes way
   elseif event == "GOSSIP_CLOSED" then
     C_Timer.After(0.2, function()
       ns.Voice.OnNpcWindowClosed()

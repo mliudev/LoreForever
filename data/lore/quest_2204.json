@@ -1,0 +1,77 @@
+{
+ "key": "quest:2204",
+ "type": "quest",
+ "name": "Restoring the Necklace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2204
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is talvash",
+    "where is talvash",
+    "talvash del kissel location"
+   ],
+   "answer": "Talvash del Kissel is a gnome scholar and artificer residing in Ironforge.",
+   "q": "Who is Talvash del Kissel?"
+  },
+  {
+   "aliases": [
+    "where to find power source",
+    "uldaman power source",
+    "which construct uldaman"
+   ],
+   "answer": "The energy component must be recovered from the mightiest construct inside the halls of Uldaman.",
+   "q": "Where do you find the power source?"
+  },
+  {
+   "aliases": [
+    "what is uldaman",
+    "where is uldaman"
+   ],
+   "answer": "Uldaman is an ancient titan vault buried beneath the Badlands, guarded by earthen constructs and ancient guardians.",
+   "q": "What is Uldaman?"
+  },
+  {
+   "aliases": [
+    "what is the power source for",
+    "why need power source"
+   ],
+   "answer": "The power source is required by Talvash del Kissel in Ironforge to restore the damaged necklace.",
+   "q": "Why does Talvash need a construct's power source?"
+  }
+ ],
+ "keywords": [
+  "construct",
+  "ironforge",
+  "necklace",
+  "power source",
+  "restoring the necklace",
+  "talvash del kissel",
+  "uldaman"
+ ],
+ "related": [
+  "npc:talvash-del-kissel",
+  "subzone:uldaman",
+  "zone:ironforge"
+ ],
+ "sections": [
+  {
+   "body": "Talvash del Kissel in Ironforge requires a potent energy source to repair an ancient necklace. The power he needs rests deep within the subterranean halls of Uldaman, contained inside the mightiest construct guarding the titan city. You must brave the ruins, overcome the creature, and bring the source safely back to the gnome artificer.",
+   "spoiler": 0,
+   "title": "The Energy of the Titans"
+  }
+ ],
+ "summary": "Talvash del Kissel seeks to restore a damaged necklace in Ironforge. To mend the piece, he needs a power source taken from the most formidable construct within the ancient halls of Uldaman.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Restoring the Necklace"
+ ]
+}

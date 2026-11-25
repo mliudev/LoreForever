@@ -1,0 +1,100 @@
+{
+ "key": "quest:92069",
+ "type": "quest",
+ "name": "Claws That Rend, Tusks that Gore",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92069
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, facing beasts that eluded entire generations is a true test of tracking and marksmanship. Ogtinc honors their memory by fashioning a hunter's weapon from the trophies."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is ogtinc",
+    "ogtinc azshara",
+    "who gives claws that rend"
+   ],
+   "answer": "Ogtinc is a furbolg living in Azshara who seeks to clear the former home of his people so the Blackmaw tribe can return.",
+   "q": "Who is Ogtinc?"
+  },
+  {
+   "aliases": [
+    "why kill the beasts",
+    "blackmaw home",
+    "why hunt bonesnout and withermaw"
+   ],
+   "answer": "The Blackmaw furbolgs cannot return to their former home while two deadly behemoths prowl the grounds.",
+   "q": "Why must the beasts be slain?"
+  },
+  {
+   "aliases": [
+    "who is bonesnout",
+    "the unbroken azshara",
+    "what is bonesnout"
+   ],
+   "answer": "Bonesnout the Unbroken is a formidable behemoth that has survived generations of hunters attempting to fell it.",
+   "q": "What is Bonesnout?"
+  },
+  {
+   "aliases": [
+    "who is withermaw",
+    "the great bear azshara",
+    "withermaw bear"
+   ],
+   "answer": "Withermaw is a massive bear roaming the former home of the Blackmaw furbolgs, unbeaten by hunters for generations.",
+   "q": "What is Withermaw?"
+  },
+  {
+   "aliases": [
+    "weapon from claws",
+    "remains of the beasts",
+    "what does ogtinc craft"
+   ],
+   "answer": "Ogtinc intends to fashion a weapon from the claws and tusks so the strength of the fallen beasts is remembered.",
+   "q": "What will Ogtinc make from the trophies?"
+  }
+ ],
+ "keywords": [
+  "azshara",
+  "blackmaw",
+  "bonesnout",
+  "claws that rend",
+  "great bear",
+  "ogtinc",
+  "tusks that gore",
+  "unbroken",
+  "withermaw"
+ ],
+ "related": [
+  "npc:ogtinc",
+  "zone:azshara",
+  "topic:hunter"
+ ],
+ "sections": [
+  {
+   "body": "In the rugged wilds of Azshara, two ancient behemoths patrol the grounds where the Blackmaw furbolgs once lived. Bonesnout the Unbroken and the great bear Withermaw have defeated every hunter who challenged them for generations. Now Ogtinc asks you to bring an end to their prowling so his displaced people can finally return home.",
+   "spoiler": 0,
+   "title": "The Lost Home"
+  },
+  {
+   "body": "Ogtinc takes no pleasure in ending the lives of such creatures, yet the path home remains blocked while they live. If you bring him the Claws of the Great Bear and the Tusks of the Unbroken, he promises their deaths will not be in vain. From those trophies he will carve a weapon to honor their enduring strength.",
+   "spoiler": 0,
+   "title": "Honoring the Fallen"
+  }
+ ],
+ "summary": "Ogtinc of Azshara asks you to fell two mighty behemoths, Bonesnout and Withermaw, that haunt the former home of the Blackmaw furbolgs. Removing these enduring beasts will clear the way for his people to return, and Ogtinc promises to craft a weapon from their remains to honor their strength.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Claws That Rend, Tusks that Gore"
+ ]
+}

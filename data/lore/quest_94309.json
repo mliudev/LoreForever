@@ -1,0 +1,80 @@
+{
+ "key": "quest:94309",
+ "type": "quest",
+ "name": "Craftsman's Writ: Star Belt",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94309
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you can craft the Star Belt yourself rather than seeking out another artisan to fulfill the order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "what is this writ",
+    "craftsmans writ",
+    "what is craftsman writ"
+   ],
+   "answer": "It is a transferable commercial order written in faded ink that calls for a crafted item in exchange for payment.",
+   "q": "What is a Craftsman's Writ?"
+  },
+  {
+   "aliases": [
+    "what item needed",
+    "star belt request",
+    "what does customer want"
+   ],
+   "answer": "The customer requests one Star Belt delivered to the marked location.",
+   "q": "What does the writ request?"
+  },
+  {
+   "aliases": [
+    "who can turn this in",
+    "is writ tradeable",
+    "can i trade writ"
+   ],
+   "answer": "The document states at the bottom that it is transferable, though whoever completes the transaction must carry the paper in hand.",
+   "q": "Can someone else fulfill this writ?"
+  },
+  {
+   "aliases": [
+    "how to finish writ",
+    "where deliver star belt",
+    "completing delivery"
+   ],
+   "answer": "You take the requested Star Belt alongside the original writ to the delivery location marked on your map.",
+   "q": "How is the delivery completed?"
+  }
+ ],
+ "keywords": [
+  "contract",
+  "craftsman's writ",
+  "customer",
+  "delivery",
+  "star belt",
+  "tailoring",
+  "writ"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "A customer has put forward a commercial order written in faded ink, asking for a Star Belt to be delivered in exchange for coin. The parchment outlines the delivery point alongside the agreed fee. Any courier or artisan who holds the physical paper may carry out the delivery and claim the payment.",
+   "spoiler": 0,
+   "title": "An Open Commission"
+  }
+ ],
+ "summary": "A faded work order calls for a single Star Belt to be crafted and brought to a designated delivery post. Marked as transferable, the parchment permits anyone holding the writ to fulfill the customer's request and collect payment.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Star Belt"
+ ]
+}

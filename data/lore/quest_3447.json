@@ -1,0 +1,67 @@
+{
+ "key": "quest:3447",
+ "type": "quest",
+ "name": "Secret of the Circle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3447
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "location of the circle",
+    "sunken temple location",
+    "where is the circle"
+   ],
+   "answer": "The circle of statues rests inside the Sunken Temple.",
+   "q": "Where does this take place?"
+  },
+  {
+   "aliases": [
+    "secret of the circle goal",
+    "what is hidden in the statues",
+    "what secret"
+   ],
+   "answer": "You are searching for a hidden secret concealed within the circle of stone figures.",
+   "q": "What are you looking for among the statues?"
+  },
+  {
+   "aliases": [
+    "which statues",
+    "what are the statues",
+    "temple statues"
+   ],
+   "answer": "They are stone carvings arranged in a ring deep inside the sunken corridors of the temple.",
+   "q": "What kind of statues make up the circle?"
+  }
+ ],
+ "keywords": [
+  "circle of statues",
+  "drowned halls",
+  "secret of the circle",
+  "statues",
+  "sunken temple",
+  "temple secret"
+ ],
+ "related": [
+  "quest:3445"
+ ],
+ "sections": [
+  {
+   "body": "A strange gathering of stone carvings stands silent inside the Sunken Temple. Whatever purpose binds these effigies together remains shrouded in mystery, and answering their riddle means walking right into the ancient ruin yourself.",
+   "spoiler": 0,
+   "title": "Into the Drowned Halls"
+  }
+ ],
+ "summary": "Deep within the Sunken Temple lies a mysterious circle of stone figures. You are venturing into the submerged halls to uncover whatever mystery is concealed among the statues.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Secret of the Circle"
+ ]
+}

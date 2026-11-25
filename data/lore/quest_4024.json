@@ -1,0 +1,79 @@
+{
+ "key": "quest:4024",
+ "type": "quest",
+ "name": "A Taste of Flame",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4024
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives a taste of flame",
+    "who is cyrus therepentous",
+    "taste of flame questgiver"
+   ],
+   "answer": "Cyrus Therepentous sends you to claim the giant's heat and expects the encased essence returned to him.",
+   "q": "Who wants the essence of Bael'Gar?"
+  },
+  {
+   "aliases": [
+    "baelgar location",
+    "where is baelgar",
+    "where to find bael'gar"
+   ],
+   "answer": "Bael'Gar resides deep within the halls of Blackrock Depths.",
+   "q": "Where is Bael'Gar found?"
+  },
+  {
+   "aliases": [
+    "how to get fiery essence",
+    "how to use altered black dragonflight molt",
+    "how to capture baelgar essence"
+   ],
+   "answer": "You must use the Altered Black Dragonflight Molt directly upon Bael'Gar's remains after defeating him.",
+   "q": "How do you capture the fiery essence?"
+  },
+  {
+   "aliases": [
+    "what holds the essence",
+    "altered black dragonflight molt use",
+    "what item captures the fire"
+   ],
+   "answer": "Cyrus provides an Altered Black Dragonflight Molt, a specialized dragon skin treated to withstand and capture the fiery core of the giant.",
+   "q": "What is used to contain the essence?"
+  }
+ ],
+ "keywords": [
+  "a taste of flame",
+  "altered black dragonflight molt",
+  "bael'gar",
+  "black dragonflight",
+  "blackrock depths",
+  "cyrus therepentous",
+  "encased fiery essence",
+  "fiery essence"
+ ],
+ "related": [
+  "npc:cyrus-therepentous",
+  "topic:black-dragonflight"
+ ],
+ "sections": [
+  {
+   "body": "Cyrus Therepentous directs your gaze toward the fiery depths beneath the mountain. Somewhere within Blackrock Depths dwells the massive giant Bael'Gar, whose body burns with immense heat. Cyrus has entrusted you with an Altered Black Dragonflight Molt, crafted specifically to absorb that living flame once the creature falls. Slaying the giant is only half the burden, for the skin must be used upon his smoldering remains before the heat escapes.",
+   "spoiler": 0,
+   "title": "The Molt and the Giant"
+  }
+ ],
+ "summary": "Cyrus Therepentous seeks the burning heart of a subterranean colossus. You must venture into Blackrock Depths, slay the giant Bael'Gar, and entrap his fiery essence within an altered dragon skin.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Taste of Flame"
+ ]
+}

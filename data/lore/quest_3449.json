@@ -1,0 +1,77 @@
+{
+ "key": "quest:3449",
+ "type": "quest",
+ "name": "Arcane Runes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3449
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "which runes to rub",
+    "runes needed",
+    "what are the four runes"
+   ],
+   "answer": "You need rubbings of the Rune of Beth'Amara, the Rune of Jin'yael, the Rune of Markri, and the Rune of Sael'hai.",
+   "q": "Which runes must be recorded?"
+  },
+  {
+   "aliases": [
+    "how to copy runes",
+    "what copies the runes"
+   ],
+   "answer": "You make rubbings of the ancient stones using the Drawing Kit provided to you.",
+   "q": "How do you record the runes?"
+  },
+  {
+   "aliases": [
+    "who is xiggs fuselighter",
+    "who gets the rubbings",
+    "where to bring rubbings"
+   ],
+   "answer": "Pilot Xiggs Fuselighter is waiting to collect the completed rubbings on a small island off the southern peninsula of Azshara once you signal him.",
+   "q": "Who takes the finished rune rubbings?"
+  },
+  {
+   "aliases": [
+    "pilot location",
+    "where is pilot xiggs",
+    "azshara island location"
+   ],
+   "answer": "He waits on a small island lying off the southern peninsula of Azshara.",
+   "q": "Where is Pilot Xiggs Fuselighter?"
+  }
+ ],
+ "keywords": [
+  "arcane runes",
+  "azshara",
+  "drawing kit",
+  "rune of beth'amara",
+  "rune of jin'yael",
+  "rune of markri",
+  "rune of sael'hai",
+  "xiggs fuselighter"
+ ],
+ "related": [
+  "zone:azshara"
+ ],
+ "sections": [
+  {
+   "body": "Four ancient markings await in Azshara: the Rune of Beth'Amara, the Rune of Jin'yael, the Rune of Markri, and the Rune of Sael'hai. Equipped with a Drawing Kit, you must take careful rubbings from each stone across the coastal ruins. Once the four copies are gathered, you make for a small island off the southern peninsula. There you will signal Pilot Xiggs Fuselighter to retrieve the records.",
+   "spoiler": 0,
+   "title": "Rubbings of Azshara"
+  }
+ ],
+ "summary": "Ancient runes scattered across Azshara hold secrets of the coast's forgotten past. With a drawing kit in hand, you are called to trace four distinct stones and signal Pilot Xiggs Fuselighter on a southern islet.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Arcane Runes"
+ ]
+}

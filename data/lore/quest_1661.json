@@ -1,0 +1,74 @@
+{
+ "key": "quest:1661",
+ "type": "quest",
+ "name": "The Tome of Nobility",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1661
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "As a paladin, this mark of favor honors your dedication to the brotherhood in Stormwind, granting you an unearned boon before harsher trials are set."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who is duthorian rall",
+    "duthorian rall",
+    "who gives this"
+   ],
+   "answer": "Duthorian Rall is a leader among the paladins gathered in Stormwind, guiding initiates and bestowing honors upon those who serve the Light.",
+   "q": "Who is Duthorian Rall?"
+  },
+  {
+   "aliases": [
+    "where is duthorian rall",
+    "duthorian rall location",
+    "where to find duthorian rall"
+   ],
+   "answer": "Duthorian Rall can be found offering counsel and instruction in the city of Stormwind.",
+   "q": "Where does Duthorian Rall dwell?"
+  },
+  {
+   "aliases": [
+    "why free gift",
+    "tome of nobility challenge",
+    "why is there no trial"
+   ],
+   "answer": "Duthorian Rall grants the boon freely for now in recognition of your devotion, though he intends to set a far sterner test for paladins who come after.",
+   "q": "Why is this gift offered without a trial?"
+  }
+ ],
+ "keywords": [
+  "boon",
+  "cathedral of light",
+  "duthorian rall",
+  "paladin",
+  "silver hand",
+  "stormwind",
+  "tome of nobility"
+ ],
+ "related": [
+  "npc:duthorian-rall",
+  "topic:paladin"
+ ],
+ "sections": [
+  {
+   "body": "In the Cathedral of Light, Duthorian Rall welcomes you as kin. Your continued dedication brings honor to every paladin of the Silver Hand, and he stands ready to bestow a great boon. Though a trial of greater hardship may await those who walk this path hereafter, he offers this token freely to honor your service.",
+   "spoiler": 0,
+   "title": "A Gift from the Order"
+  }
+ ],
+ "summary": "Duthorian Rall calls upon you in Stormwind to recognize your steadfast service among your fellow paladins. Having proven your devotion to the order, he prepares to confer a treasured gift upon you without trial.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Tome of Nobility"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "quest:87494",
+ "type": "quest",
+ "name": "Microcrystal Contamination",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   87494
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who wants the crystal scale",
+    "who is torwa",
+    "who to show scale to"
+   ],
+   "answer": "Torwa Pathfinder studies the wilds of Un'Goro Crater and may understand the odd shimmer embedded in the beast's hide.",
+   "q": "Who might understand the strange scale?"
+  },
+  {
+   "aliases": [
+    "what is the scale from",
+    "why does scale sparkle",
+    "why is scale iridescent"
+   ],
+   "answer": "The beast fed near a shattered crystal where fine dust settled over the local flora, working into its scales over time.",
+   "q": "Why does the scale shimmer with crystal dust?"
+  },
+  {
+   "aliases": [
+    "what happens with crystal dust",
+    "is crystal dust dangerous",
+    "crystal poisoning ungoro"
+   ],
+   "answer": "Heavy doses of crystal dust could cause profound and visible changes in a creature, though this beast swallowed only a small amount.",
+   "q": "What happens if a beast ingests too much crystal dust?"
+  },
+  {
+   "aliases": [
+    "what does torwa do with scale",
+    "who keeps the scale"
+   ],
+   "answer": "Torwa Pathfinder keeps the unusual specimen to study alongside the rest of his collection from the crater.",
+   "q": "What does Torwa Pathfinder do with the scale?"
+  }
+ ],
+ "keywords": [
+  "crystal dust",
+  "crystal infused scale",
+  "microcrystal contamination",
+  "torwa pathfinder",
+  "ungoro beasts",
+  "ungoro crater"
+ ],
+ "related": [
+  "npc:torwa-pathfinder"
+ ],
+ "sections": [
+  {
+   "body": "You carry a beast's scale that shines with a strange, shimmering glint. Fine mineral specks seem caught between the layers, catching the harsh light of Un'Goro Crater. Torwa Pathfinder knows the crater's creatures well and may discern what altered the hide.",
+   "spoiler": 0,
+   "title": "An Iridescent Hide"
+  },
+  {
+   "body": "Torwa Pathfinder recognizes that the beast grazed beside a shattered formation, swallowing mineral dust that coated the jungle foliage. The contamination settled directly into the creature's outer skin. While this animal ingested only enough to speckle its scales, far heavier exposure might drastically alter the crater's wildlife.",
+   "spoiler": 1,
+   "title": "Grit in the Food Chain"
+  }
+ ],
+ "summary": "A beast in Un'Goro Crater carries an unusual scale flecked with fine, glittering minerals. Torwa Pathfinder may know what strange influence caused the creature's hide to shimmer.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Microcrystal Contamination"
+ ]
+}

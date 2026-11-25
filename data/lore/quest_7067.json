@@ -1,0 +1,68 @@
+{
+ "key": "quest:7067",
+ "type": "quest",
+ "name": "The Pariah's Instructions",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7067
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "centaur pariah lore",
+    "who gives this quest",
+    "pariah desolace"
+   ],
+   "answer": "He is an exiled centaur wandering southern Desolace, shunned by the warring clans of his people.",
+   "q": "Who is the Centaur Pariah?"
+  },
+  {
+   "aliases": [
+    "amulet of union",
+    "amulet of union lore",
+    "maraudon amulet"
+   ],
+   "answer": "The Amulet of Union is a relic resting within the depths of Maraudon that the Centaur Pariah seeks to recover.",
+   "q": "What is the Amulet of Union?"
+  },
+  {
+   "aliases": [
+    "centaur pariah location",
+    "where to find the pariah",
+    "pariah location desolace"
+   ],
+   "answer": "The pariah keeps to the southern reaches of Desolace, away from the strongholds of the main clans.",
+   "q": "Where does the Centaur Pariah wait?"
+  }
+ ],
+ "keywords": [
+  "amulet of union",
+  "centaur",
+  "centaur pariah",
+  "desolace",
+  "maraudon",
+  "the pariah's instructions"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "sections": [
+  {
+   "body": "South across the grey wastes of Desolace wanders the Centaur Pariah, cast out from the warring clans of his kin. He has entrusted you with his written words, urging a journey into the sacred caverns of Maraudon. Deep within those halls lies the Amulet of Union, an artifact he bids you recover and carry back to his lonely camp.",
+   "spoiler": 0,
+   "title": "A Plea from the Outcast"
+  }
+ ],
+ "summary": "In the wastes of Desolace, an outcast centaur has handed you a set of written directions. He wants an ancient relic known as the Amulet of Union brought out from the depths of Maraudon. What he intends to do with such a charm remains between you and the pariah.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Pariah's Instructions"
+ ]
+}

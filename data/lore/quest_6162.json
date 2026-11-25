@@ -1,0 +1,65 @@
+{
+ "key": "quest:6162",
+ "type": "quest",
+ "name": "A Husband's Last Battle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6162
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who is drekasur",
+    "drekasur felwood",
+    "who gave this quest"
+   ],
+   "answer": "Dreka'Sur is an orc stationed at Bloodvenom Post in Felwood who seeks the death of Overlord Ror.",
+   "q": "Who is Dreka'Sur?"
+  },
+  {
+   "aliases": [
+    "where is bloodvenom post",
+    "bloodvenom post location"
+   ],
+   "answer": "Bloodvenom Post is a Horde encampment established in the corrupted forest of Felwood.",
+   "q": "Where is Bloodvenom Post?"
+  },
+  {
+   "aliases": [
+    "who is ror",
+    "overlord ror felwood"
+   ],
+   "answer": "Overlord Ror is a menacing creature whose claw Dreka'Sur demands as proof of his demise.",
+   "q": "Who is Overlord Ror?"
+  }
+ ],
+ "keywords": [
+  "bloodvenom post",
+  "claw",
+  "drekasur",
+  "felwood",
+  "overlord ror"
+ ],
+ "related": [
+  "subzone:bloodvenom-post",
+  "zone:felwood"
+ ],
+ "sections": [
+  {
+   "body": "In the poisoned woods of Felwood, Dreka'Sur waits at Bloodvenom Post for vengeance. She calls on you to hunt down Overlord Ror and return with his severed claw as proof of the deed.",
+   "spoiler": 0,
+   "title": "Blood and Claw"
+  }
+ ],
+ "summary": "At Bloodvenom Post in Felwood, Dreka'Sur seeks vengeance against Overlord Ror. She asks you to bring down the brute and return his severed claw to the outpost.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Husband's Last Battle"
+ ]
+}

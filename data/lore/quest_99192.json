@@ -1,0 +1,85 @@
+{
+ "key": "quest:99192",
+ "type": "quest",
+ "name": "A Donation of Silk",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99192
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, your own craft depends on these stores of cloth, making every bundle directly serve your fellow practitioners."
+  },
+  {
+   "target": "profession:Tailoring",
+   "text": "Tailors know the worth of woven cloth, and your bolts can directly replenish the dwindling supplies of the order."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "why silk needed",
+    "what is silk used for",
+    "why donate silk"
+   ],
+   "answer": "The order has depleted its stores while properly outfitting its mages with equipment. Sixty pieces of cloth help restore what was spent.",
+   "q": "Why does the order need silk?"
+  },
+  {
+   "aliases": [
+    "how much silk",
+    "cloth needed",
+    "donation amount"
+   ],
+   "answer": "The order asks for sixty pieces of silk cloth to replenish its supplies.",
+   "q": "How much silk is needed?"
+  },
+  {
+   "aliases": [
+    "donation standing",
+    "what do i get for silk",
+    "reputation gain"
+   ],
+   "answer": "Providing the cloth raises your standing and favor with the order.",
+   "q": "What do you gain by donating silk?"
+  },
+  {
+   "aliases": [
+    "who takes the silk",
+    "who wants silk cloth"
+   ],
+   "answer": "A representative of the magical order gathers the cloth to support and equip their spellcasters.",
+   "q": "Who is collecting the donation?"
+  }
+ ],
+ "keywords": [
+  "a donation of silk",
+  "cloth donation",
+  "donation",
+  "mages",
+  "order",
+  "silk cloth",
+  "standing"
+ ],
+ "related": [
+  "topic:mage"
+ ],
+ "sections": [
+  {
+   "body": "Equipping mages across the order has emptied the storehouses of cloth. Sixty pieces of woven fabric will restore the reserve and earn you genuine goodwill among the spellcasters.",
+   "spoiler": 0,
+   "title": "Replenishing the Bolt"
+  }
+ ],
+ "summary": "Outfitting practicing mages has completely exhausted the order's stores of silk cloth. Supplying sixty pieces helps replenish their reserves and raises your standing in their eyes.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Donation of Silk"
+ ]
+}

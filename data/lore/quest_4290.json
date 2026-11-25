@@ -1,0 +1,76 @@
+{
+ "key": "quest:4290",
+ "type": "quest",
+ "name": "The Fare of Lar'korwi",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4290
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "who gives this quest",
+    "who wants the meat",
+    "torwa pathfinder"
+   ],
+   "answer": "Torwa Pathfinder sends you to find it in Un'Goro Crater.",
+   "q": "Who asks for the carcass?"
+  },
+  {
+   "aliases": [
+    "who killed the threshadon",
+    "what is lar'korwi",
+    "larkorwi kill"
+   ],
+   "answer": "The kill belongs to Lar'korwi, a fierce beast roaming Un'Goro Crater.",
+   "q": "What beast made the kill?"
+  },
+  {
+   "aliases": [
+    "what carcass is it",
+    "carcass type",
+    "threshadon carcass"
+   ],
+   "answer": "Lar'korwi's freshest prey is a threshadon.",
+   "q": "What kind of creature was killed?"
+  },
+  {
+   "aliases": [
+    "where is this quest",
+    "fare of lar'korwi location",
+    "what zone"
+   ],
+   "answer": "The search takes place in Un'Goro Crater.",
+   "q": "Where does this take place?"
+  }
+ ],
+ "keywords": [
+  "fare of lar'korwi",
+  "lar'korwi",
+  "threshadon",
+  "torwa pathfinder",
+  "un'goro crater"
+ ],
+ "related": [
+  "npc:torwa-pathfinder",
+  "zone:ungoro"
+ ],
+ "sections": [
+  {
+   "body": "In the wilds of Un'Goro Crater, Torwa Pathfinder tracks the beast Lar'korwi. You are sent to search the basin for the predator's freshest kill, take a piece of the threshadon carcass, and return with it to Torwa.",
+   "spoiler": 0,
+   "title": "A Hunter's Scent"
+  }
+ ],
+ "summary": "Torwa Pathfinder seeks a piece of a fresh threshadon carcass left behind by the beast Lar'korwi. In the wilds of Un'Goro Crater, you must find the predator's latest kill and return with the meat.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Fare of Lar'korwi"
+ ]
+}

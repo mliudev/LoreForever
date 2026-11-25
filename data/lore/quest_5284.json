@@ -1,0 +1,81 @@
+{
+ "key": "quest:5284",
+ "type": "quest",
+ "name": "The Way of the Weaponsmith",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5284
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "As a blacksmith choosing weapon crafting over armor, this trial opens the way to forging arms for the champions of Azeroth."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "who asks for these weapons",
+    "who is ironus",
+    "weaponsmith trainer"
+   ],
+   "answer": "Ironus demands a display of skill before inducting any smith into the craft of weapon making.",
+   "q": "Who is Ironus?"
+  },
+  {
+   "aliases": [
+    "what weapons are needed",
+    "arms required",
+    "weapon list"
+   ],
+   "answer": "You must craft four Moonsteel Broadswords, four Massive Iron Axes, two Heavy Mithril Axes, and two Big Black Maces.",
+   "q": "What must you forge to become a weaponsmith?"
+  },
+  {
+   "aliases": [
+    "why pick weaponsmithing",
+    "benefits of weaponsmithing",
+    "weaponsmith riches"
+   ],
+   "answer": "Weaponsmiths supply fighters and adventurers with exceptional arms, earning great coin despite the heavy labor and choking forge smoke.",
+   "q": "Why become a weaponsmith?"
+  },
+  {
+   "aliases": [
+    "what makes weaponsmithing hard",
+    "forge hazards",
+    "workload for weaponsmiths"
+   ],
+   "answer": "The work demands grueling hours over the anvil, risking sore backs and ash-filled lungs to satisfy constant requests from travelers.",
+   "q": "What hardships do weaponsmiths face?"
+  }
+ ],
+ "keywords": [
+  "big black mace",
+  "blacksmithing",
+  "heavy mithril axe",
+  "ironus",
+  "massive iron axe",
+  "moonsteel broadsword",
+  "the way of the weaponsmith",
+  "weaponsmith"
+ ],
+ "related": [],
+ "sections": [
+  {
+   "body": "Ironus promises that those who fashion fine arms stand to gain mountains of gold. Adventurers from across the world seek out skilled weapon crafters, keeping every anvil ringing day and night. Proving your worth takes more than words, and you are called upon to shape swords, axes, and heavy maces from solid steel and dark iron.",
+   "spoiler": 0,
+   "title": "The Anvil and the Coin"
+  }
+ ],
+ "summary": "Ironus offers you a path into weaponsmithing, where fine craftsmanship brings both heavy labor and immense wealth. To earn a place among the masters of the craft, you must hammer out an array of blades, axes, and maces at the anvil.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Way of the Weaponsmith"
+ ]
+}

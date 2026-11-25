@@ -12,6 +12,12 @@
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
     $ZipUrl = 'https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip'
+    try {
+        $feed = Invoke-RestMethod -Uri 'https://loreforeverwow.com/data/download-files.json' -TimeoutSec 10 -UseBasicParsing
+        if ($feed.publishedTag -match '^v\d+\.\d+\.\d+$') {
+            $ZipUrl = "https://downloads.loreforeverwow.com/$($Matches[0])/LoreForever.zip"
+        }
+    } catch {}
     $SumsUrl = $ZipUrl -replace '[^/]+$', 'SHA256SUMS.txt'   # the release's checksums, published next to the zip
     $Flavors = '_forever_', '_classic_beta_'   # WoW Forever's game folder, then the beta's
 

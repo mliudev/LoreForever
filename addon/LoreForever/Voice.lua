@@ -1302,6 +1302,7 @@ function Voice.Init()
   Voice.CheckSpoken()
   Voice.CheckQuestVoices()
   Voice.otherVoice = Voice.FindOtherVoice()
+  Voice.HookSpoken()
   Voice.SwitchQuestVoicesOnce()
 end
 
@@ -1643,6 +1644,8 @@ end
 function Voice.Shutdown()
   Voice.shuttingDown = true
   Voice.autoToken, Voice.autoStarted = nil, nil
+  Voice.talkToken, Voice.spokenGraceToken, Voice.spokenReleaseToken = nil, nil, nil
+  Voice.spokenGraceUntil = 0
   ns.UI.StopAll()
 end
 
@@ -2128,6 +2131,7 @@ local function autoPlayingNow()
   local UI, a = ns.UI, Voice.autoStarted
   if not (UI and UI.speaking) then return false end
   if a and UI.playingId == a.id and UI.playToken == a.token then return true end
+  if UI.activeTarget and UI.activeTarget.started == "auto" then return true end
   local cur = UI.pl and UI.pl.state == "playing" and UI.pl.items[UI.pl.pos]
   return cur and (cur.flight or cur.byItself)
     and (UI.playingId == cur.id or (cur.target ~= nil and UI.playingKey == cur.target.key)) or false
@@ -2243,6 +2247,9 @@ end
 
 local function fighting()
   return inCombat() or (inGroupInstance() and groupInCombat())
+end
+local function keepInCombat()
+  return S().playInCombat == true
 end
 local function settle() return inGroupInstance() and INSTANCE_SETTLE or AUTO_SETTLE end
 
@@ -2433,7 +2440,7 @@ local LINE_WAIT = 600
 -- leaves for where you've gone, a flight or the time it waited, and doesn't wait out a fight or a talk (LOR-1475: "I had
 -- a bunch of narrations that I wanted to listen to"). Heard another way meanwhile, it still goes.
 function Voice.LineCheck(it)
-  if it.how == "book" then return nil end   -- (closing the book takes its pages out: Voice.OnBookClosed)
+  if it.how == "book" then return nil end   -- (book pages keep their turn once queued; Stop/Remove/Clear take them out)
   if arrivalsOff() then return L["turned off"], true end
   local kept = it.kept
   if not kept and it.how ~= "arrival" and now() - (it.at or now()) > LINE_WAIT then return L["waited too long"] end
@@ -2456,7 +2463,7 @@ function Voice.LineCheck(it)
     end
   end
   if kept then return nil end   -- (in its turn after your Play, it plays as what you added does: a fight doesn't hold it)
-  if fighting() then
+  if not keepInCombat() and fighting() then
     -- (in a dungeon the group's fight can end without one of yours: look again once it's had time to, one look at a
     -- time however often the queue asks: the Architect, #3635)
     if not inCombat() and not Voice.fightLook then
@@ -2468,7 +2475,17 @@ function Voice.LineCheck(it)
     end
     return nil, nil, true
   end
-  if talking() then return nil, nil, true end
+  if talking() or Voice.SpokenSpeaking() or Voice.InSpokenGrace() then return nil, nil, true end
+end
+
+-- Re-check whether an auto-started solo target held during a hold is still eligible to resume.
+function Voice.AutoTargetAllowed(target)
+  if not target or arrivalsOff() then return false end
+  if target.how == "arrival" or (type(target.key) == "string" and (target.key:match("^zone:") or target.key:match("^subzone:"))) then
+    if onTaxi() then return false end
+    if not stillThere(target.key) and not stillInZone(target.key) then return false end
+  end
+  return true
 end
 
 -- A line that came by itself began (UI's playCurrent). first: not a story carrying on after a pause or a hold.
@@ -2576,7 +2593,7 @@ function Voice.ArrivalSoon(delay)
 end
 
 function Voice.ArrivalPending()
-  if not Voice.arrivalDue or arrivalsOff() or onTaxi() or fighting() then return false end
+  if not Voice.arrivalDue or arrivalsOff() or onTaxi() or (not keepInCombat() and fighting()) then return false end
   return arrivalKey() ~= nil
 end
 
@@ -2661,10 +2678,27 @@ end
 -- You stopped talking to someone, or a fight ended: the line the queue waits at gets its turn (if it's still in step).
 -- It settles first, so walking from one quest giver to the next doesn't start it.
 function Voice.OnTalkOver()
+  if Voice.shuttingDown then return end
+  if not talking() and Voice.SpokenTimingAvailable() and Voice.spokenSawNpcWindow then
+    local sawKind = Voice.spokenSawNpcWindow
+    Voice.spokenSawNpcWindow = nil
+    if Voice.SpokenAnyActive and Voice.SpokenAnyActive(type(sawKind) == "string" and sawKind or nil) then
+      Voice.StartSpokenDispatchGrace()
+    end
+  end
   local token = {}
   Voice.talkToken = token
   C_Timer.After(settle(), function()
-    if Voice.talkToken == token and ns.UI then ns.UI.Kick() end
+    if Voice.talkToken ~= token or Voice.shuttingDown then return end
+    if not talking() and ns.UI then
+      if ns.UI.pl.holds.othervoice then ns.UI.Release("othervoice") end
+      if ns.UI.pl.holds.spoken and (not Voice.SpokenTimingAvailable()
+          or (not Voice.SpokenSpeaking() and not Voice.InSpokenGrace() and not Voice.spokenReleaseToken)) then
+        ns.UI.Release("spoken")
+      end
+      ns.UI.Kick()
+      if Voice.RefreshWaitingUI then Voice.RefreshWaitingUI() end
+    end
   end)
 end
 
@@ -2687,6 +2721,7 @@ local function releaseFight(token, sawFight)
 end
 
 function Voice.OnCombatOver()
+  if keepInCombat() and not (ns.UI and ns.UI.pl.holds.fight) then return end
   if ns.UI and ns.UI.pl.holds.fight then
     local token = {}
     Voice.fightRelease = token
@@ -3352,6 +3387,14 @@ local function sayQuestPackHint(qid, kind)
 end
 
 -- A quest giver's window shows a page (QUEST_DETAIL, QUEST_PROGRESS, QUEST_COMPLETE). Voice.questKind remembers which,
+local function syncSpokenRuntime()
+  if not Voice.SpokenTimingAvailable() then return end
+  Voice.HookSpoken()
+  if not Voice.otherVoice or Voice.otherVoice == "Spoken Quests" then
+    Voice.otherVoice = Voice.FindOtherVoice()
+  end
+end
+
 -- for the play button and UI.QuestPageClip.
 function Voice.OnQuestFrame(kind, recorded, again)
   Voice.closing = nil   -- (a page shows: its window is up)
@@ -3368,7 +3411,8 @@ function Voice.OnQuestFrame(kind, recorded, again)
   if not again then Voice.questKept = nil end
   -- Another add-on reads quests: ours never starts one by itself beside it, whatever the switch (LOR-1408). Its lines
   -- never join the queue either (the Architect, 11/11).
-  if Voice.otherVoice then return Voice.OnOtherVoice() end
+  syncSpokenRuntime()
+  if Voice.otherVoice then return Voice.OnOtherVoice("quests") end
   if not Voice.QuestDialogue() or Voice.OnDemand() or not (UI and UI.frame) then return end
   local qid = openQuest()
   if not qid then return end
@@ -3420,6 +3464,7 @@ end
 -- starts over at the next calm); one not begun yet waits for the calm; a quest giver's line carries on after it.
 -- Elsewhere a fight doesn't stop a story, and what you started yourself always plays on.
 function Voice.OnCombatStart()
+  if keepInCombat() then return end
   local UI = ns.UI
   if not (UI and UI.frame) or not inGroupInstance() then return end
   Voice.autoStarted = nil
@@ -3688,11 +3733,12 @@ function Voice.QuestState(qid)
 end
 
 
--- Books, letters and plaques (LOR-49): a page a voice has recorded (a clip under its page id) plays as the book opens
--- (unless the readBooks setting is off), turning the page reads it next (never cutting one off), closing it stops. Like quest dialogue, a page
--- plays once each time the book opens (pageFresh), one this character has heard doesn't play again by itself while
--- "Skip what you've heard" is on, and nothing cuts off something you started. The book's pill (Hooks.BookFrame) plays
--- the page on demand (Voice.ReadBookPage(true)) and puts the book in the playlist (UI.QueueBook).
+-- Books, letters and plaques (LOR-49, LOR-1542): each recorded page opened or turned to joins the narration queue in
+-- visited order (quests -> book pages -> zone lore), never cutting off what plays; closing the book leaves the reading
+-- and all queued pages in the player. Like quest dialogue, a page plays once each time the book opens (pageFresh), one
+-- this character has heard doesn't play again by itself while "Skip what you've heard" is on, and nothing cuts off
+-- something you started. The book's pill (Hooks.BookFrame) plays the page on demand (Voice.ReadBookPage(true)) and
+-- puts the book in the playlist (UI.DoQueueBook).
 local BOOK_PREFIX = "booktext:"
 local BOOK_MOST_PAGES = 40   -- the longest book recorded has 19
 
@@ -3767,13 +3813,12 @@ function Voice.ReadBookPage(byHand)
   local id, title, text = bookPage()
   if not id then return end
   if byHand and UI.speaking and (UI.playingId == id or UI.playingKey == id) then return UI.StopAll(true) end   -- (or from the playlist)
-  if not byHand and (UI.playingId == id or UI.QueuedLine(id)) then
-    if UI.playingId == id then UI.TurnBookPage(nil) end   -- (back to the page reading: what waited for later leaves)
+  local stem = id:match("^booktext:(.-)#%d+$")
+  if not byHand and (UI.playingId == id or UI.playingKey == id or UI.QueuedLine(id)
+      or (stem and UI.QueuedLine("book:" .. stem))) then
     return
   end
   if not Voice.HasAudio(id) or (not byHand and not pageFresh(id)) then
-    -- A page with nothing to read: the page reading finishes, nothing of the book waits (it used to stop the list).
-    UI.TurnBookPage(nil)
     return
   end
   Voice.openPages[id] = true
@@ -3783,32 +3828,18 @@ function Voice.ReadBookPage(byHand)
     if UI.speaking and UI.playingId == id then Voice.MarkHeard(id) end
     return
   end
-  -- By itself it joins the queue (LOR-1388: it used to be dropped when anything played): after this book's page that
-  -- reads now; over anything else it waits its turn (a cutscene or Willo holds it like the rest). One row for the book.
+  -- By itself it joins the queue (LOR-1388, LOR-1542): after quests and earlier book pages, ahead of zone lore; never
+  -- cuts off what plays. Revisiting a queued or playing page adds no duplicate.
   local line = { id = id, key = id, label = title, how = "book", target = target }
   if UI.TakePlace(line) then return end   -- (a letter whose item story waits or plays: the reading takes its row)
-  if UI.PlaylistIndex(id) or UI.TurnBookPage(line) then return end
+  if UI.PlaylistIndex(id) then return end
   UI.Admit(line)   -- (over a page you played by hand it waits: a turn never cuts a voice)
 end
 
--- The book closed: stop its page.
+-- The book closed: keep its current reading and all queued pages in the player, and never restart if stopped.
 function Voice.OnBookClosed()
   Voice.bookOpen = nil
   closePages(BOOK_PREFIX)
-  local UI = ns.UI
-  if not UI then return end
-  local pl = UI.pl
-  for i = #pl.items, math.max(pl.pos, 1), -1 do   -- its pages leave (no note: the player closed it)
-    local it = pl.items[i]
-    if it and it.how == "book" then
-      if it.replaced and not it.started then
-        pl.items[i] = it.replaced   -- (the letter's own story it took the place of comes back: TakePlace)
-      else
-        UI.LeaveQueue(it, L["book closed"], true)
-      end
-    end
-  end
-  if UI.speaking and isBookText(UI.playingId) then UI.StopAll() end   -- (one you played by hand)
 end
 
 -- Whether a loaded add-on's folder name, in lower case, passes match.
@@ -3846,17 +3877,19 @@ end
 -- must leave Lore Forever's own stories playing. Books are left to its book module quietly.
 -- Its folders by both names: SpokenZones/SpokenBooks/SpokenQuest before its split, Spoken_Places/Spoken_Readables/
 -- Spoken_Quests after (rusty-key/spoken-wow, late October). Missing the new names, Lore Forever talked over it (LOR-1223).
-local function spokenZones(name) return name:find("^spokenzone") or name:find("^spoken_?places") end
-local function spokenBooks(name) return name:find("^spokenbook") or name:find("^spoken_?readables") end
+local function spokenZones(name) return name:find("^spoken_?zone") or name:find("^spoken_?places") end
+local function spokenBooks(name) return name:find("^spoken_?book") or name:find("^spoken_?readables") or name:find("^spoken_?writings") end
+local function spokenBosses(name) return name:find("^spoken_?boss") end
 local function spokenQuests(name) return name:find("^spoken_?quest") end
 
--- Read-only per-module Spoken detection (quests, places, readables, and monolithic core). Uses IsAddOnLoaded and
+-- Read-only per-module Spoken detection (quests, places, readables, bosses, and core). Uses IsAddOnLoaded and
 -- GetAddOnEnableState / GetAddOnInfo so quest-only or places-only installs are reported honestly without mutating DB.
 function Voice.SpokenModules()
   local mod = {
     quests = { installed = false, enabled = false, loaded = false },
     places = { installed = false, enabled = false, loaded = false },
     readables = { installed = false, enabled = false, loaded = false },
+    bosses = { installed = false, enabled = false, loaded = false },
     core = { installed = false, enabled = false, loaded = false },
   }
   local C = _G.C_AddOns
@@ -3873,6 +3906,7 @@ function Voice.SpokenModules()
       if spokenQuests(low) then slot = mod.quests
       elseif spokenZones(low) then slot = mod.places
       elseif spokenBooks(low) then slot = mod.readables
+      elseif spokenBosses(low) then slot = mod.bosses
       elseif low == "spoken" then slot = mod.core
       end
       if slot then
@@ -3888,6 +3922,232 @@ function Voice.SpokenModules()
     end
   end
   return mod
+end
+
+local SPOKEN_DISPATCH_GRACE = 0.8
+Voice.spokenGraceUntil = 0
+
+local function spokenTable()
+  local s = _G.Spoken
+  if type(s) ~= "table" or type(s.IsCompatible) ~= "function" then return nil end
+  local ok, compat = pcall(s.IsCompatible, s, 1)
+  if not (ok and compat == true) then return nil end
+  if type(s.IsPlaying) ~= "function" or type(s.GetQueueSize) ~= "function"
+    or type(s.IsPaused) ~= "function" or type(s.RegisterCallback) ~= "function" then
+    return nil
+  end
+  return s
+end
+
+local function spokenPartOn(part)
+  local sp = spokenTable()
+  if not sp or type(sp.IsPartOn) ~= "function" then return nil end
+  local ok, on = pcall(sp.IsPartOn, sp, part)
+  if ok and type(on) == "boolean" then return on end
+  return nil
+end
+
+local function spokenSourceActive(part)
+  local sp = spokenTable()
+  if not sp or type(sp.GetSource) ~= "function" then return false end
+  local ok, src = pcall(sp.GetSource, sp, part)
+  if not (ok and src ~= nil) then return false end
+  return spokenPartOn(part) ~= false
+end
+
+function Voice.SpokenTimingAvailable()
+  return spokenTable() ~= nil
+end
+
+function Voice.SpokenSpeaking()
+  local sp = spokenTable()
+  if not sp then return false end
+  local okPaused, paused = pcall(sp.IsPaused, sp)
+  if okPaused and paused == true then return false end
+  local okP, playing = pcall(sp.IsPlaying, sp)
+  if okP and playing == true then return true end
+  local okSz, size = pcall(sp.GetQueueSize, sp)
+  if not (okSz and type(size) == "number" and size > 0) then return false end
+  if type(sp.GetNowPlaying) == "function" then
+    local okNow, cur = pcall(sp.GetNowPlaying, sp)
+    return okNow and cur ~= nil
+  end
+  return false
+end
+
+function Voice.InSpokenGrace()
+  return Voice.spokenGraceToken ~= nil and now() < (Voice.spokenGraceUntil or 0)
+end
+
+function Voice.RefreshWaitingUI()
+  local p = ns.Options and ns.Options.panel
+  if p and p.Waiting then p.Waiting() end
+end
+
+local function spokenQuestsActive()
+  if Voice.otherVoice == "Spoken Quests" then return true end
+  if addOnLoaded(spokenQuests) and spokenPartOn("quests") ~= false then return true end
+  return Voice.SpokenTimingAvailable() and spokenSourceActive("quests") or false
+end
+
+local function spokenGossipActive()
+  if not Voice.SpokenTimingAvailable() then return Voice.otherVoice == "Spoken Quests" end
+  if (addOnLoaded(spokenQuests) or spokenSourceActive("gossip")) and spokenPartOn("gossip") == true then
+    return true
+  end
+  return spokenSourceActive("gossip") or false
+end
+
+function Voice.SpokenAnyActive(kind)
+  if kind == "quests" then return spokenQuestsActive() end
+  if kind == "gossip" then return spokenGossipActive() end
+  if kind == "talking" then
+    local q = _G.QuestFrame and _G.QuestFrame.IsShown and _G.QuestFrame:IsShown()
+    local g = _G.GossipFrame and _G.GossipFrame.IsShown and _G.GossipFrame:IsShown()
+    return (q and spokenQuestsActive()) or (g and spokenGossipActive()) or false
+  end
+  return spokenQuestsActive() or spokenGossipActive()
+end
+
+function Voice.StartSpokenDispatchGrace()
+  Voice.spokenGraceUntil = math.max(Voice.spokenGraceUntil or 0, now() + SPOKEN_DISPATCH_GRACE)
+  local gToken = {}
+  Voice.spokenGraceToken = gToken
+  if not (C_Timer and C_Timer.After) then return end
+  C_Timer.After(math.max(0, Voice.spokenGraceUntil - now()) + 0.05, function()
+    if Voice.spokenGraceToken ~= gToken or Voice.shuttingDown then return end
+    Voice.spokenGraceToken, Voice.spokenGraceUntil = nil, 0
+    if not talking() and not Voice.SpokenSpeaking() then
+      if ns.UI then
+        ns.UI.Release("spoken")
+        ns.UI.Kick()
+      end
+      Voice.RefreshWaitingUI()
+    end
+  end)
+end
+
+local function scheduleSpokenRelease()
+  if Voice.shuttingDown or talking() or Voice.SpokenSpeaking() or Voice.InSpokenGrace() then return end
+  Voice.spokenGraceToken, Voice.spokenGraceUntil = nil, 0
+  local rToken = {}
+  Voice.spokenReleaseToken = rToken
+  local function releaseNow()
+    if Voice.spokenReleaseToken ~= rToken or Voice.shuttingDown then return end
+    Voice.spokenReleaseToken = nil
+    if talking() or Voice.SpokenSpeaking() or Voice.InSpokenGrace() then return end
+    if ns.UI then
+      ns.UI.Release("spoken")
+      ns.UI.Kick()
+    end
+    Voice.RefreshWaitingUI()
+  end
+  if C_Timer and C_Timer.After then
+    C_Timer.After(TURN_GAP, releaseNow)
+  else
+    releaseNow()
+  end
+end
+
+function Voice.HookSpoken()
+  local sp = spokenTable()
+  if not sp or Voice.hookedSpoken == sp then return end
+  Voice.hookedSpoken = sp
+  pcall(sp.RegisterCallback, sp, "CLIP_STARTED", function()
+    if Voice.shuttingDown then return end
+    Voice.spokenReleaseToken = nil
+    if ns.UI and ns.UI.frame and autoPlayingNow() then
+      ns.UI.Hold("spoken", true)
+      Voice.autoStarted = nil
+    end
+    Voice.RefreshWaitingUI()
+  end)
+  pcall(sp.RegisterCallback, sp, "CLIP_STOPPED", function()
+    if Voice.shuttingDown then return end
+    Voice.RefreshWaitingUI()
+  end)
+  local function onSpokenDrain()
+    if Voice.shuttingDown then return end
+    Voice.RefreshWaitingUI()
+    if not Voice.SpokenSpeaking() then scheduleSpokenRelease() end
+  end
+  pcall(sp.RegisterCallback, sp, "QUEUE_EMPTY", onSpokenDrain)
+  pcall(sp.RegisterCallback, sp, "AUDIO_CHANGED", onSpokenDrain)
+  pcall(sp.RegisterCallback, sp, "PART_SWITCHED", function()
+    if Voice.shuttingDown then return end
+    Voice.otherVoice = Voice.FindOtherVoice()
+    if spokenPartOn("quests") == false and not Voice.SpokenSpeaking() and not talking() then
+      Voice.spokenGraceToken, Voice.spokenGraceUntil, Voice.spokenReleaseToken = nil, 0, nil
+      if ns.UI then
+        ns.UI.Release("spoken")
+        ns.UI.Kick()
+      end
+    end
+    Voice.RefreshWaitingUI()
+  end)
+end
+
+function Voice.SpokenWaiting()
+  if Voice.OnDemand() then return false end
+  local UI = ns.UI
+  local pl = UI and UI.pl
+  if not pl then return false end
+  if pl.holds and pl.holds.spoken ~= nil then
+    if pl.state == "held" then
+      local cur = pl.items and pl.items[pl.pos]
+      return (pl.heldSolo ~= nil and (pl.heldSolo.byItself == true or pl.heldSolo.started == "auto"))
+        or (cur ~= nil and (cur.byItself == true or cur.flight == true) and not cur.kept)
+    end
+    return false
+  end
+  local cur = pl.items and pl.items[pl.pos]
+  if cur and (cur.byItself or cur.flight) and not cur.kept and pl.gate and pl.state == "waiting" then
+    return Voice.SpokenSpeaking() or Voice.InSpokenGrace() or (talking() and Voice.SpokenAnyActive("talking"))
+  end
+  return false
+end
+
+local function currentOtherVoice(timing)
+  if Voice.otherVoice == "Spoken Quests" and timing then
+    return Voice.FindOtherVoice()
+  end
+  return Voice.otherVoice or Voice.FindOtherVoice()
+end
+
+function Voice.SpokenStatus()
+  local mod = Voice.SpokenModules()
+  local timing = Voice.SpokenTimingAvailable()
+  local questsPartOn = spokenPartOn("quests")
+  local questsActive = ((mod.quests and mod.quests.loaded) and questsPartOn ~= false)
+    or (timing and spokenSourceActive("quests"))
+    or false
+  local speaking = Voice.SpokenSpeaking()
+  local waiting = questsActive and (not Voice.OnDemand()) and Voice.SpokenWaiting()
+  local other = currentOtherVoice(timing)
+  local state
+  if not questsActive then
+    state = "off"
+  elseif not timing then
+    state = "unknown"
+  elseif waiting then
+    state = "waiting"
+  else
+    state = "detected"
+  end
+  return {
+    state = state,
+    modules = {
+      quests = questsActive,
+      places = mod.places and mod.places.loaded or false,
+      readables = mod.readables and mod.readables.loaded or false,
+      bosses = mod.bosses and mod.bosses.loaded or false,
+      core = mod.core and mod.core.loaded or false,
+    },
+    timingAvailable = timing,
+    spokenPlaying = speaking,
+    hasWaitingStory = waiting,
+    otherVoice = other,
+  }
 end
 
 function Voice.CheckSpoken()
@@ -3919,15 +4179,19 @@ local QUEST_VOICES = {
   { id = "forevertts", title = "Forever TTS", folders = { forevertts = true } },
 }
 
--- Another add-on that reads quest givers or what they say aloud is loaded (any of QUEST_VOICES, or one of Spoken's
--- modules): its title, found once at login (Voice.Init), else nil.
+-- Another add-on that reads quest givers or what they say aloud is loaded (any of QUEST_VOICES, or Spoken's quests
+-- source): its title, found at login (Voice.Init) and refreshed on Spoken part changes, else nil.
 function Voice.FindOtherVoice()
   for _, v in ipairs(QUEST_VOICES) do
     if addOnLoaded(function(name) return v.match and v.match(name) or v.folders and v.folders[name] end) then
-      return v.title
+      if v.id ~= "spokenquest" or spokenPartOn("quests") ~= false then
+        return v.title
+      end
     end
   end
-  if addOnLoaded(function(name) return name:find("^spoken") end) then return "Spoken" end
+  if Voice.SpokenTimingAvailable() and spokenSourceActive("quests") then
+    return "Spoken Quests"
+  end
 end
 
 -- Honest, read-only UI helper for Settings > Audio > Quest dialogue (called only by Options.lua). Reports Spoken
@@ -3935,15 +4199,19 @@ end
 -- routing or faking LOR-1549 live playback timing.
 function Voice.QuestDialogueStatus()
   local mod = Voice.SpokenModules()
-  local other = Voice.otherVoice or Voice.FindOtherVoice()
+  local timing = type(Voice.SpokenTimingAvailable) == "function" and Voice.SpokenTimingAvailable() and true or false
+  local questsPartOn = spokenPartOn("quests")
+  local spokenQuest = ((mod.quests and mod.quests.loaded) and questsPartOn ~= false)
+    or (timing and spokenSourceActive("quests"))
+    or false
+  local other = currentOtherVoice(timing)
   local manual = Voice.OnDemand()
   local qd = Voice.QuestDialogue()
-  local spokenQuest = mod.quests.loaded or (mod.core.loaded and not mod.places.loaded and not mod.readables.loaded)
-  local timing = type(Voice.SpokenTimingAvailable) == "function" and Voice.SpokenTimingAvailable() and true or false
-  local waiting = timing and not manual and type(Voice.SpokenWaiting) == "function" and Voice.SpokenWaiting() and true or false
+  local waiting = spokenQuest and timing and not manual and type(Voice.SpokenWaiting) == "function"
+    and Voice.SpokenWaiting() and true or false
   local extraModules = {}
-  if mod.places.loaded then extraModules[#extraModules + 1] = L["Spoken Places"] end
-  if mod.readables.loaded then extraModules[#extraModules + 1] = L["Spoken Readables"] end
+  if mod.places and mod.places.loaded then extraModules[#extraModules + 1] = L["Spoken Places"] end
+  if mod.readables and mod.readables.loaded then extraModules[#extraModules + 1] = L["Spoken Readables"] end
 
   local effective = (not manual) and (not other) and qd
   local blockedReason
@@ -3969,7 +4237,7 @@ function Voice.QuestDialogueStatus()
     return {
       state = "detected",
       tone = "teal",
-      title = mod.quests.loaded and L["Spoken Quests reads quests"] or L["Spoken reads quests"],
+      title = (mod.quests and mod.quests.loaded) and L["Spoken Quests reads quests"] or L["Spoken reads quests"],
       copy = manual and L["Lore Forever stories play when you press Play."]
         or L["Lore Forever stories follow your Playback setting."],
       blockedReason = blockedReason,
@@ -3980,7 +4248,7 @@ function Voice.QuestDialogueStatus()
     }
   elseif spokenQuest then
     local parts = { L["Automatic Lore Forever quest voices yield to Spoken; live playback timing is unavailable."] }
-    if mod.places.loaded then
+    if mod.places and mod.places.loaded then
       parts[#parts + 1] = L["Spoken Places is also active for zone stories."]
     elseif manual then
       parts[#parts + 1] = L["Lore Forever stories play when you press Play."]
@@ -3990,7 +4258,7 @@ function Voice.QuestDialogueStatus()
     return {
       state = "unknown",
       tone = "warm",
-      title = mod.quests.loaded and L["Spoken Quests detected"] or L["Spoken detected"],
+      title = (mod.quests and mod.quests.loaded) and L["Spoken Quests detected"] or L["Spoken detected"],
       copy = table.concat(parts, " "),
       blockedReason = blockedReason,
       effective = false,
@@ -4038,7 +4306,7 @@ function Voice.QuestDialogueStatus()
   end
 
   local copy
-  if mod.quests.installed and not mod.quests.loaded and not mod.quests.enabled then
+  if mod.quests and mod.quests.installed and not mod.quests.loaded and not mod.quests.enabled then
     copy = effective and L["Spoken Quests is disabled in AddOns; Lore Forever reads quest dialogue automatically."]
       or manual and L["Spoken Quests is disabled in AddOns; quest dialogue uses your setting when Automatic playback is on."]
       or L["Spoken Quests is disabled in AddOns, and Lore Forever quest dialogue is off."]
@@ -4065,11 +4333,38 @@ end
 Voice.SpokenUiState = Voice.QuestDialogueStatus
 
 -- A quest giver's or a gossip window opened while another add-on reads them aloud (Voice.otherVoice), whatever
--- Lore Forever's own switch says (LOR-1408): what started by itself makes way, as for the game's own talking, and an arrival
--- story waits for the window to close (a clip report, 10/18: "if the addon Spoken is playing, this one will be
--- paused"). What the player started plays on.
-function Voice.OnOtherVoice()
-  if Voice.otherVoice then Voice.OnGameTalk() end
+-- Lore Forever's own switch says (LOR-1408): what started by itself makes way, and an arrival story waits for Spoken
+-- or the window to finish. What the player started plays on.
+function Voice.OnOtherVoice(sourceKind)
+  syncSpokenRuntime()
+  local gossipActive = sourceKind == "gossip" and Voice.SpokenTimingAvailable()
+    and (addOnLoaded(spokenQuests) or spokenSourceActive("gossip")) and spokenPartOn("gossip") == true
+  if not Voice.otherVoice and not gossipActive then return end
+  local UI = ns.UI
+  if not (UI and UI.frame) then return end
+  if Voice.otherVoice == "Spoken Quests" or gossipActive then
+    if Voice.SpokenTimingAvailable() then
+      local part = sourceKind == "gossip" and "gossip" or "quests"
+      if spokenPartOn(part) == false then return end
+      Voice.spokenSawNpcWindow = part
+      Voice.spokenGraceUntil = math.max(Voice.spokenGraceUntil or 0, now() + SPOKEN_DISPATCH_GRACE)
+    end
+    Voice.spokenReleaseToken = nil
+    UI.Hold("spoken", true)
+    Voice.autoStarted = nil
+    Voice.RefreshWaitingUI()
+    return
+  end
+  UI.Hold("othervoice", true)
+  Voice.autoStarted = nil
+end
+
+function Voice.OnSpokenLoaded()
+  Voice.CheckSpoken()
+  Voice.CheckQuestVoices()
+  Voice.otherVoice = Voice.FindOtherVoice()
+  Voice.HookSpoken()
+  Voice.RefreshWaitingUI()
 end
 
 -- Players who run one of those would hear a quest page twice. The first time Lore Forever finds one loaded, it leaves
@@ -4081,12 +4376,14 @@ function Voice.CheckQuestVoices()
   local checked = type(s.questVoicesChecked) == "table" and s.questVoicesChecked or {}
   for _, v in ipairs(QUEST_VOICES) do
     if not checked[v.id] and addOnLoaded(function(name) return v.match and v.match(name) or v.folders and v.folders[name] end) then
-      checked[v.id] = true
-      s.questVoicesChecked = checked
-      if v.books and s.readBooks ~= false then s.readBooks = false end
-      if Voice.QuestDialogue() then
-        Voice.SetQuestDialogue(false)
-        say(string.format(L["%s is running, so it reads your quests and Lore Forever doesn't. To hear ours, turn %s off and tick Speak quest dialogue."], v.title, v.title))
+      if v.id ~= "spokenquest" or spokenPartOn("quests") ~= false then
+        checked[v.id] = true
+        s.questVoicesChecked = checked
+        if v.books and s.readBooks ~= false then s.readBooks = false end
+        if Voice.QuestDialogue() then
+          Voice.SetQuestDialogue(false)
+          say(string.format(L["%s is running, so it reads your quests and Lore Forever doesn't. To hear ours, turn %s off and tick Speak quest dialogue."], v.title, v.title))
+        end
       end
     end
   end
@@ -4125,14 +4422,36 @@ function Voice.SetOnDemand(on)
   S().onDemand = on and true or false
   if on then
     Voice.autoToken = nil
-    if autoPlayingNow() then
-      Voice.autoStarted = nil
-      ns.UI.StopAll()
+    Voice.foundOnFlight = {}
+    local UI = ns.UI
+    if UI and UI.pl then
+      local solo = UI.pl.heldSolo
+      if solo and (solo.byItself or solo.started == "auto") then
+        UI.pl.heldSolo = nil
+        if UI.pl.state == "held" and not UI.pl.items[UI.pl.pos] then UI.pl.heldFrom = nil end
+      end
+      if autoPlayingNow() then
+        Voice.autoStarted = nil
+        UI.StopAll()
+      elseif UI.pl.state == "held" and not UI.pl.heldSolo then
+        local cur = UI.pl.items[UI.pl.pos]
+        while cur and (cur.byItself or cur.flight) and not cur.kept do
+          UI.LeaveQueue(cur, L["turned off"], true)
+          cur = UI.pl.items[UI.pl.pos]
+        end
+      elseif UI.pl.gate and UI.pl.state == "waiting" and not UI.speaking then
+        UI.Kick()
+      end
+      if UI.pl.state == "held" and not UI.pl.heldSolo and not UI.pl.items[UI.pl.pos] then
+        UI.pl.state, UI.pl.heldFrom = "paused", nil
+        UI.UpdateListen()
+      end
     end
   end
   local p = ns.Options and ns.Options.panel
   for _, cb in ipairs(p and p.checks or {}) do
     if cb.key == "onDemand" then cb:SetChecked(S().onDemand) end
   end
+  Voice.RefreshWaitingUI()
   return S().onDemand
 end

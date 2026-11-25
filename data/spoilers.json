@@ -6858,6 +6858,12 @@
   },
   "summary": "At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry the seal south to Ameth'Aran, where an old flame may break his bonds."
  },
+ "quest:95788": {
+  "faq": {
+   "4": 1,
+   "5": 1
+  }
+ },
  "quest:959": {},
  "quest:96": {},
  "quest:960": {},

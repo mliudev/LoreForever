@@ -1,0 +1,97 @@
+{
+ "key": "quest:93161",
+ "type": "quest",
+ "name": "The Ancient Hilt",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93161
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [
+  {
+   "target": "race:Skyborne",
+   "text": "This hilt carries the touch of Luminarian, the revered magesmith who forged weapons for your people across centuries in the Skyborne Isles."
+  }
+ ],
+ "faq": [
+  {
+   "aliases": [
+    "ancient hilt location",
+    "where to find ancient hilt",
+    "banaethal hilt"
+   ],
+   "answer": "You discover the hilt resting amid the ruins of Ban'aethal.",
+   "q": "Where is the ancient hilt found?"
+  },
+  {
+   "aliases": [
+    "hilt condition",
+    "is the ancient hilt broken",
+    "sword condition"
+   ],
+   "answer": "The blade is completely shattered and missing, leaving behind only the hilt with its magic spent.",
+   "q": "What condition is the sword in when discovered?"
+  },
+  {
+   "aliases": [
+    "can ancient hilt be repaired",
+    "repair ancient sword",
+    "fix luminarian blade"
+   ],
+   "answer": "The blade is broken and its power exhausted, but it is not beyond repair if brought to someone who understands the smith's work.",
+   "q": "Can the broken weapon be fixed?"
+  },
+  {
+   "aliases": [
+    "who made ancient hilt",
+    "ancient hilt creator",
+    "who forged the blade"
+   ],
+   "answer": "It was forged by Luminarian, a renowned magesmith who traveled from Kalimdor to the Skyborne Isles.",
+   "q": "Who crafted the ancient hilt?"
+  },
+  {
+   "aliases": [
+    "luminarian zephras",
+    "skyborne magesmith legacy",
+    "luminarian armor weapons"
+   ],
+   "answer": "Many of the arms and armor carried across Zephras are patterned after Luminarian's distinctive craft.",
+   "q": "What influence did Luminarian have on Zephras?"
+  }
+ ],
+ "keywords": [
+  "ancient hilt",
+  "ban'aethal",
+  "heirloom",
+  "kalimdor",
+  "luminarian",
+  "magesmith",
+  "skyborne",
+  "zephras"
+ ],
+ "related": [
+  "topic:skyborne"
+ ],
+ "sections": [
+  {
+   "body": "A glint of metal catches your eye within the ruined halls of Ban'aethal. It is the shattered hilt of an ancient blade, stripped of its steel yet shaped with extraordinary care. Someone who values old relics might know where it was forged.",
+   "spoiler": 0,
+   "title": "A Gleam in Ban'aethal"
+  },
+  {
+   "body": "The broken sword proves to be an heirloom crafted by Luminarian, a legendary magesmith who traveled with his people into exile from Kalimdor. He labored for centuries across the Skyborne Isles, shaping the style of weapons and armor seen on Zephras. Its magic has run dry, yet the hilt may still be restored if you can find someone versed in his craft.",
+   "spoiler": 1,
+   "title": "The Magesmith's Mark"
+  }
+ ],
+ "summary": "Torchlight reveals a broken sword hilt in the dark ruins of Ban'aethal. Though its blade is missing, the metalwork shows master craft from another age. It appears to be an heirloom, waiting for someone who recognizes its past.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Ancient Hilt"
+ ]
+}

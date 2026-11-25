@@ -1,0 +1,71 @@
+{
+ "key": "quest:7066",
+ "type": "quest",
+ "name": "Seed of Life",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7066
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "where is remulos",
+    "remulos location",
+    "who takes the seed of life"
+   ],
+   "answer": "Remulos dwells within the sacred haven of Moonglade.",
+   "q": "Where can Remulos be found?"
+  },
+  {
+   "aliases": [
+    "what is seed of life",
+    "seed of life purpose",
+    "why deliver the seed of life"
+   ],
+   "answer": "The Seed of Life is an artifact born of sacrifice, carried as an offering to Remulos in Moonglade.",
+   "q": "What is the Seed of Life?"
+  },
+  {
+   "aliases": [
+    "remulos reaction seed of life",
+    "what does remulos think of the seed"
+   ],
+   "answer": "Remulos senses a familiar presence upon those who carry it, even amidst the lingering taint of corruption common to traveling adventurers.",
+   "q": "What does Remulos notice when you approach him?"
+  }
+ ],
+ "keywords": [
+  "cenarion",
+  "corruption",
+  "moonglade",
+  "remulos",
+  "seed of life"
+ ],
+ "related": [
+  "npc:remulos",
+  "quest:5921"
+ ],
+ "sections": [
+  {
+   "body": "A quiet pilgrimage draws you toward the secluded glade of the druids. Within Moonglade, Keeper Remulos keeps watch, waiting for those who can pierce the shroud of corruption that stains the wider world. Bearing the Seed of Life into his presence promises an audience with one of the land's ancient guardians.",
+   "spoiler": 0,
+   "title": "Journey to Moonglade"
+  },
+  {
+   "body": "Upon receiving the relic, Remulos recognizes the token as proof that his fallen brother has at last achieved peace. Though long troubled by pride and wrath, his kin is not truly lost, having embraced rebirth through sacrifice. In Remulos's care, the artifact endures as a beacon of renewed hope for a ravaged world.",
+   "spoiler": 1,
+   "title": "Rebirth in the Glade"
+  }
+ ],
+ "summary": "You carry the Seed of Life toward the sanctuary of Moonglade. There, Keeper Remulos awaits, ready to receive a sacred relic that carries the faint trace of someone he once knew.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Seed of Life"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "key": "quest:2240",
+ "type": "quest",
+ "name": "The Hidden Chamber",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2240
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "angles": [],
+ "faq": [
+  {
+   "aliases": [
+    "prospector stormpike",
+    "who is stormpike",
+    "stormpike"
+   ],
+   "answer": "Prospector Stormpike is a dwarven explorer who awaits a report on what lies inside the hidden chamber.",
+   "q": "Who is Prospector Stormpike?"
+  },
+  {
+   "aliases": [
+    "baelog journal",
+    "baelogs journal",
+    "what is the journal"
+   ],
+   "answer": "Baelog's Journal is a written record left behind by the explorer Baelog, containing details about the ruins.",
+   "q": "What is Baelog's Journal?"
+  },
+  {
+   "aliases": [
+    "hidden chamber",
+    "what chamber",
+    "the hidden chamber"
+   ],
+   "answer": "The hidden chamber is a concealed vault referenced in Baelog's journal that awaits exploration.",
+   "q": "What is the hidden chamber?"
+  }
+ ],
+ "keywords": [
+  "baelog",
+  "baelog's journal",
+  "prospector stormpike",
+  "stormpike",
+  "the hidden chamber"
+ ],
+ "related": [
+  "npc:prospector-stormpike"
+ ],
+ "sections": [
+  {
+   "body": "Baelog recorded his findings within his journal before vanishing deeper into the ruins. By studying his notes, you can uncover the entrance to the hidden chamber and see what remains undisturbed. Once the mystery is laid bare, Prospector Stormpike expects a full report on everything found inside.",
+   "spoiler": 0,
+   "title": "Secrets of the Chamber"
+  }
+ ],
+ "summary": "Prospector Stormpike awaits word on what lies within the hidden chamber. The pages of Baelog's Journal hold clues to finding the way inside, and whatever relics rest in the deep.",
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Hidden Chamber"
+ ]
+}
