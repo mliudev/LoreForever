@@ -38,22 +38,34 @@
 --                                           the instance's name ("" not in English), "party" or "raid", and the last
 --                                           outdoor spot before its loading screen (Journey.Here: map, x, y in
 --                                           thousandths), empty when unknown; at most MAX_INSTS
+--   merchants = { [npcId] = "r;item*qty*f,..." },
+--                                           vendor inventories (MERCHANT_SHOW, anywhere in Forever, known or unknown
+--                                           spots): repair flag (0|1) and item*qty*flags sorted by itemId (f: "" normal,
+--                                           "l" limited stock numAvailable >= 0, "e" extended cost, "le" both),
+--                                           union-merged across visits so sold-out limited stock stays; never copper
+--                                           prices. At most MAX_MERCHANTS / MERCHANT_BYTES (independent of dungeon
+--                                           corpses so vendor visits never evict boss kills)
+--   morder = { npcId, ... }                 merchant keys, oldest first
 -- }
--- Size: at most about 300 KB in the saved file, whatever is looted: what each row takes as WoW writes it is counted,
--- and past BYTES the oldest corpses make room. Kills, rolls and instances have their counts too, a name at most
--- MAX_NAME bytes, a corpse at most MAX_ITEMS items.
+-- Size: at most about 300 KB for dungeon data plus up to 75 KB for merchants in the saved file: what each row takes as
+-- WoW writes it is counted, and past BYTES the oldest corpses make room (merchants use their own morder/MERCHANT_BYTES
+-- budget). Kills, rolls and instances have their counts too, a name at most MAX_NAME bytes, a corpse at most MAX_ITEMS
+-- items, a merchant at most MAX_MERCHANT_ITEMS items.
 -- inst is GetInstanceInfo's 8th value, the instance's map id (36: the Deadmines).
 --
 -- Nothing about another player, ever: a GUID counts only when it is a Creature, Vehicle or GameObject (players, pets and
 -- items are left out), and nothing here reads chat, the group or who rolled (World.Listen hands CHAT_MSG_LOOT to the
 -- Dungeon Guide's kill pages, which read only the player's own loot line; World keeps nothing from it). No time and no character on
 -- any fact. Names only from an English client (as the spots), ids from every client.
--- Cost: no work on nameplates, mouseover or vendor windows; a loot window is a few calls per slot and a lookup in one
--- session cache of corpse hashes; nothing scans the table per event.
+-- Cost: no work on nameplates or mouseover; a loot window is a few calls per slot and a lookup in one session cache of
+-- corpse hashes; a merchant window is one pass over GetMerchantNumItems with a session string cache; nothing scans the
+-- table per event.
 -- To verify on the Forever client (the sims mock them): GetLootSourceInfo (without it, the dead NPC under the mouse or
 -- soft-interact is the source and a chest isn't kept), GetLootSlotInfo's 7th value (the quest mark),
--- GetLootRollItemLink, the boss1-5 units, PLAYER_LEAVING_WORLD and the gathering casts' spell ids (GATHER; their names
--- in the client's language are matched too). World.Stats() times loot windows on the real client for /lore qa.
+-- GetLootRollItemLink, the boss1-5 units, PLAYER_LEAVING_WORLD, the gathering casts' spell ids (GATHER; their names
+-- in the client's language are matched too), and the merchant APIs (C_MerchantFrame.GetItemInfo / GetMerchantItemInfo,
+-- GetMerchantItemLink, GetMerchantNumItems, CanMerchantRepair, GetMerchantItemCostInfo). World.Stats() times loot
+-- windows on the real client for /lore qa.
 
 local _, ns = ...
 local World = {}
@@ -61,7 +73,9 @@ ns.World = World
 
 local V = 1
 local MAX_CORPSES, MAX_KILLS, MAX_ROLLS, MAX_INSTS = 3000, 400, 1000, 200
-local BYTES = 290 * 1024     -- the whole table in the saved file: past it, the oldest corpses make room
+local BYTES = 290 * 1024     -- the Phase 1 table in the saved file: past it, the oldest corpses make room
+local MAX_MERCHANTS, MAX_MERCHANT_ITEMS = 300, 120
+local MERCHANT_BYTES = 75 * 1024   -- independent cap so busy vendor visits never evict dungeon corpses
 local MAX_ITEMS, MAX_NAME = 40, 64
 local RECENT = 120           -- seconds after an encounter's end that a corpse (by its name) or a roll is still its boss's
 local GATHERED = 3           -- seconds after your own gathering cast that a loot window is its yield
@@ -105,8 +119,8 @@ end
 
 -- What a row takes in the saved file as WoW writes it (three tabs: the rows sit in LoreForeverDB.world's lists; the key
 -- in brackets and quotes, " = ", the value, ","), with its line in its order list for the ordered ones ("key", -- [n]).
-local LINES = { corpse = 32, kill = 30, roll = 30, inst = 12 }
-local TWICE = { corpse = true, kill = true, roll = true }   -- the key is written again in the order list
+local LINES = { corpse = 32, kill = 30, roll = 30, inst = 12, merchant = 28 }
+local TWICE = { corpse = true, kill = true, roll = true, merchant = true }   -- the key is written again in the order list
 local function size(kind, k, v)
   k, v = tostring(k), tostring(v)
   return LINES[kind] + #k * (TWICE[kind] and 2 or 1) + #v
@@ -131,8 +145,9 @@ end
 
 -- The table's lists, made when missing and put right, within the caps; and the session's counts, for the caps.
 local counts
+local seenMerchant = {}   -- npcId -> serialized string last kept this session
 local function shape(d)
-  for _, k in ipairs({ "corpses", "ring", "kills", "rolls", "insts" }) do
+  for _, k in ipairs({ "corpses", "ring", "kills", "rolls", "insts", "merchants", "morder" }) do
     d[k] = type(d[k]) == "table" and d[k] or {}
   end
   -- An older add-on's full ring ran from head: it starts at 1 now.
@@ -145,11 +160,13 @@ local function shape(d)
   end
   d.ring, d.head = ordered(ring, d.corpses), 1
   d.korder, d.rorder = ordered(d.korder, d.kills), ordered(d.rorder, d.rolls)
-  local bytes = 0
+  d.morder = ordered(d.morder, d.merchants)
+  local bytes, mbytes = 0, 0
   for _, part in ipairs({ { d.corpses, "corpse" }, { d.kills, "kill" }, { d.rolls, "roll" }, { d.insts, "inst" } }) do
     for k, v in pairs(part[1]) do bytes = bytes + size(part[2], k, v) end
   end
-  counts = { bytes = bytes, insts = count(d.insts) }
+  for k, v in pairs(d.merchants) do mbytes = mbytes + size("merchant", k, v) end
+  counts = { bytes = bytes, insts = count(d.insts), mbytes = mbytes }
   while #d.ring > MAX_CORPSES do
     local h = table.remove(d.ring, 1)
     counts.bytes = counts.bytes - size("corpse", h, d.corpses[h])
@@ -162,6 +179,12 @@ local function shape(d)
       list[1][k] = nil
     end
   end
+  while #d.morder > MAX_MERCHANTS do
+    local npc = table.remove(d.morder, 1)
+    counts.mbytes = counts.mbytes - size("merchant", npc, d.merchants[npc])
+    d.merchants[npc] = nil
+    seenMerchant[npc] = nil
+  end
 end
 
 -- The oldest corpses go while the table is past BYTES (everything new is kept: a new dungeon is the point).
@@ -170,6 +193,16 @@ local function fit(d)
     local h = table.remove(d.ring, 1)
     counts.bytes = counts.bytes - size("corpse", h, d.corpses[h])
     d.corpses[h] = nil
+  end
+end
+
+-- The oldest merchants go while merchants are past MERCHANT_BYTES (independent of dungeon corpses).
+local function fitMerchants(d)
+  while counts.mbytes > MERCHANT_BYTES and #d.morder > 1 do
+    local npc = table.remove(d.morder, 1)
+    counts.mbytes = counts.mbytes - size("merchant", npc, d.merchants[npc])
+    d.merchants[npc] = nil
+    seenMerchant[npc] = nil
   end
 end
 
@@ -197,6 +230,7 @@ local function make()
   end
   shape(d)
   fit(d)
+  fitMerchants(d)
   return d
 end
 
@@ -208,6 +242,7 @@ function World.Init()
   d.v, d.build = V, build()
   shape(d)
   fit(d)
+  fitMerchants(d)
 end
 
 -- Whether this client is Forever's: it can't change in a session, so it's asked once.
@@ -400,6 +435,7 @@ end
 -- "Creature-0-4372-36-12-639-0000AB12CD" -> "n", 639; a GameObject's -> "o", its id; a player, pet or item -> nil.
 -- Giver.ParseGUID's reading in one match, without its table and pieces (a loot window can name a dozen sources).
 local function source(guid)
+  if not text(guid) then return nil end
   local kind, id = guid:match("^(%a+)%-[^%-]*%-[^%-]*%-[^%-]*%-[^%-]*%-(%d+)%-")
   id = tonumber(id)
   if KIND[kind] and id and id > 0 then return KIND[kind], id end
@@ -527,6 +563,171 @@ local function onRoll(rollID)
   fit(d)
 end
 
+-- Vendors -----------------------------------------------------------------------------------------------------------------
+
+local pendingMerchant   -- npcId awaiting a single MERCHANT_UPDATE retry when GetMerchantItemLink was nil on cold cache
+
+local function parseMerchant(s)
+  local out = {}
+  if type(s) ~= "string" then return out end
+  local body = s:match("^[01];(.*)$")
+  if not body then return out end
+  for entry in body:gmatch("[^,]+") do
+    local id, qty, flags = entry:match("^(%d+)%*(%d+)%*([le]*)$")
+    id, qty = tonumber(id), tonumber(qty)
+    if id and id > 0 and id < 10000000 and qty and qty >= 1 then
+      local prev = out[id]
+      local lim = flags:find("l", 1, true) and 1 or 0
+      local alt = flags:find("e", 1, true) and 1 or 0
+      if prev then
+        if qty > prev.qty then prev.qty = qty end
+        if lim == 1 then prev.lim = 1 end
+        if alt == 1 then prev.alt = 1 end
+      else
+        out[id] = { qty = qty, lim = lim, alt = alt }
+      end
+    end
+  end
+  return out
+end
+
+local function formatMerchant(repair, items)
+  local ids = {}
+  for id in pairs(items) do ids[#ids + 1] = id end
+  table.sort(ids)
+  local parts = {}
+  for i = 1, #ids do
+    local id = ids[i]
+    local it = items[id]
+    local f = (it.lim == 1 and "l" or "") .. (it.alt == 1 and "e" or "")
+    parts[i] = id .. "*" .. it.qty .. "*" .. f
+  end
+  return repair .. ";" .. table.concat(parts, ",")
+end
+
+local function merchantItem(i)
+  local qty, numAvailable, extendedCost
+  local M = _G.C_MerchantFrame
+  local info = M and call(M.GetItemInfo, i)
+  if type(info) == "table" then
+    qty = info.stackCount
+    numAvailable = info.numAvailable
+    extendedCost = info.hasExtendedCost
+    if extendedCost == nil then extendedCost = info.extendedCost end
+  elseif _G.GetMerchantItemInfo then
+    local _, _, _, d, e, _, g, h = call(_G.GetMerchantItemInfo, i)
+    -- 8+ values: extendedCost is slot 8 (h); 7-value Classic: extendedCost is slot 7 (g) and h is nil.
+    qty, numAvailable = d, e
+    if h ~= nil then extendedCost = h else extendedCost = g end
+  end
+  if not (usable(extendedCost) and extendedCost and extendedCost ~= 0) then
+    local costItems = call(_G.GetMerchantItemCostInfo, i)
+    if usable(costItems) and type(costItems) == "number" and costItems > 0 then
+      extendedCost = true
+    end
+  end
+  qty = math.max(1, math.floor(usable(qty) and tonumber(qty) or 1))
+  local lim = (usable(numAvailable) and type(numAvailable) == "number" and numAvailable >= 0) and 1 or 0
+  local alt = (usable(extendedCost) and extendedCost and extendedCost ~= 0) and 1 or 0
+  return qty, lim, alt
+end
+
+local function captureMerchant(isUpdate)
+  if not (ns.Capture.On() and inForever()) or call(_G.UnitIsPlayer, "npc") then
+    pendingMerchant = nil
+    return
+  end
+  local kind, npcId = source(call(_G.UnitGUID, "npc"))
+  if kind ~= "n" then
+    if not isUpdate then pendingMerchant = nil end
+    return
+  end
+  if isUpdate then
+    if pendingMerchant ~= npcId then return end
+    pendingMerchant = nil
+  else
+    pendingMerchant = nil
+  end
+  local n = call(_G.GetMerchantNumItems)
+  n = usable(n) and tonumber(n) or 0
+  if n < 0 then n = 0 end
+  local observed, missingLink = {}, false
+  local limit = math.min(n, MAX_MERCHANT_ITEMS)
+  for i = 1, limit do
+    local itemId = itemOf(call(_G.GetMerchantItemLink, i))
+    if not itemId or itemId <= 0 or itemId >= 10000000 then
+      missingLink = true
+    else
+      local qty, lim, alt = merchantItem(i)
+      local prev = observed[itemId]
+      if prev then
+        if qty > prev.qty then prev.qty = qty end
+        if lim == 1 then prev.lim = 1 end
+        if alt == 1 then prev.alt = 1 end
+      else
+        observed[itemId] = { qty = qty, lim = lim, alt = alt }
+      end
+    end
+  end
+  if not isUpdate and (missingLink or n == 0) then pendingMerchant = npcId end
+  if next(observed) == nil then return end
+  local merged, mergedCount = {}, 0
+  local obsIds = {}
+  for id in pairs(observed) do obsIds[#obsIds + 1] = id end
+  table.sort(obsIds)
+  for _, id in ipairs(obsIds) do
+    merged[id] = observed[id]
+    mergedCount = mergedCount + 1
+  end
+  local existingDb = db()
+  local existingStr = existingDb and existingDb.merchants and existingDb.merchants[npcId]
+  if type(existingStr) == "string" then
+    local oldItems = parseMerchant(existingStr)
+    local oldIds = {}
+    for id in pairs(oldItems) do oldIds[#oldIds + 1] = id end
+    table.sort(oldIds)
+    for _, id in ipairs(oldIds) do
+      local oldIt = oldItems[id]
+      local cur = merged[id]
+      if cur then
+        if oldIt.qty > cur.qty then cur.qty = oldIt.qty end
+        if oldIt.lim == 1 then cur.lim = 1 end
+        if oldIt.alt == 1 then cur.alt = 1 end
+      elseif mergedCount < MAX_MERCHANT_ITEMS then
+        merged[id] = oldIt
+        mergedCount = mergedCount + 1
+      end
+    end
+  end
+  if mergedCount == 0 then return end
+  local canRepair = call(_G.CanMerchantRepair)
+  local repair = (usable(canRepair) and canRepair and canRepair ~= 0) and 1 or 0
+  local serialized = formatMerchant(repair, merged)
+  if seenMerchant[npcId] == serialized then return end
+  local d = make()
+  if d.merchants[npcId] == serialized then
+    seenMerchant[npcId] = serialized
+    return
+  end
+  local old = d.merchants[npcId]
+  if old == nil then
+    while #d.morder >= MAX_MERCHANTS do
+      local oldNpc = table.remove(d.morder, 1)
+      local oldVal = d.merchants[oldNpc]
+      if oldVal ~= nil then counts.mbytes = counts.mbytes - size("merchant", oldNpc, oldVal) end
+      d.merchants[oldNpc] = nil
+      seenMerchant[oldNpc] = nil
+    end
+    d.morder[#d.morder + 1] = npcId
+  else
+    counts.mbytes = counts.mbytes - size("merchant", npcId, old)
+  end
+  d.merchants[npcId] = serialized
+  counts.mbytes = counts.mbytes + size("merchant", npcId, serialized)
+  fitMerchants(d)
+  if d.merchants[npcId] == serialized then seenMerchant[npcId] = serialized end
+end
+
 -- What the table holds and what loot windows cost this session on this client, for /lore qa (SelfTest.lua): nil when
 -- nothing is kept yet.
 local spent = { n = 0, ms = 0, max = 0 }
@@ -535,6 +736,7 @@ function World.Stats()
   if not d then return nil end
   return { corpses = count(type(d.corpses) == "table" and d.corpses or {}),
     kills = count(type(d.kills) == "table" and d.kills or {}), rolls = count(type(d.rolls) == "table" and d.rolls or {}),
+    merchants = count(type(d.merchants) == "table" and d.merchants or {}),
     windows = spent.n, avg = spent.n > 0 and spent.ms / spent.n or 0, max = spent.max }
 end
 
@@ -561,6 +763,9 @@ local handlers = {
   PLAYER_LEAVING_WORLD = outdoors,
   ZONE_CHANGED_NEW_AREA = outdoors,
   ZONE_CHANGED = outdoors,
+  MERCHANT_SHOW = function() captureMerchant(false) end,
+  MERCHANT_UPDATE = function() captureMerchant(true) end,
+  MERCHANT_CLOSED = function() pendingMerchant = nil end,
 }
 local frame = CreateFrame("Frame")
 World.frame = frame

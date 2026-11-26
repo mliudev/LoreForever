@@ -54,7 +54,7 @@ end
 -- The professions as the other client languages name them (deDE, frFR, esES and esMX, ptBR, ruRU, itIT), to their
 -- English names. A name not here (a new profession, another language) stays as the game gave it.
 local PROFESSION_NAMES = {
-  ["Alchemy"] = { "Alchimie", "Alquimia", "Алхимия", "Alchimia" },
+  ["Alchemy"] = { "Alchemie", "Alchimie", "Alquimia", "Алхимия", "Alchimia" },
   ["Blacksmithing"] = { "Schmiedekunst", "Forge", "Herrería", "Ferraria", "Кузнечное дело", "Forgiatura" },
   ["Enchanting"] = { "Verzauberkunst", "Enchantement", "Encantamiento", "Encantamento", "Наложение чар", "Incantamento" },
   ["Engineering"] = { "Ingenieurskunst", "Ingénierie", "Ingeniería", "Engenharia", "Инженерное дело", "Ingegneria" },
@@ -71,6 +71,18 @@ local ENGLISH_NAME = {}
 for english, names in pairs(PROFESSION_NAMES) do
   ENGLISH_NAME[english:lower()] = english
   for _, n in ipairs(names) do ENGLISH_NAME[n:lower()] = english end
+end
+
+-- Canonical 1-based profession IDs for live skill pages (0xDE, LOR-1359); must match companion and site.
+Stock.PROFESSIONS = { "Alchemy", "Blacksmithing", "Enchanting", "Engineering", "Herbalism", "Leatherworking",
+  "Mining", "Skinning", "Tailoring", "Cooking", "First Aid", "Fishing" }
+local SKILL_IDS = {}
+for id, english in ipairs(Stock.PROFESSIONS) do SKILL_IDS[english] = id end
+
+function Stock.SkillId(name)
+  if not ns.Context.Usable(name) or type(name) ~= "string" then return nil end
+  local english = ENGLISH_NAME[name:lower()]
+  return english and SKILL_IDS[english] or nil
 end
 
 local function skills()

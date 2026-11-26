@@ -755,7 +755,10 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   elseif event == "UPDATE_BINDINGS" then
     bindingsReady()
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
-    if event == "PLAYER_ENTERING_WORLD" then C_Timer.After(5, bindingsReady) end
+    if event == "PLAYER_ENTERING_WORLD" then
+      C_Timer.After(5, bindingsReady)
+      ns.Guard(ns.Strip.ScanSkills, true)
+    end
     C_Timer.After(2, arrive)
     pcall(ns.Voice.ArrivalSoon, 2)   -- (Willo hears an arrival story coming from now, not from arrive's settle: LOR-811)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
@@ -766,6 +769,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Hooks.UpdateQuestLogButton()
     refreshSoon()
   elseif event == "SKILL_LINES_CHANGED" then
+    ns.Guard(ns.Strip.ScanSkills)
     refreshSoon()
   elseif event == "BAG_UPDATE_DELAYED" then
     ns.Hooks.RefreshBags()

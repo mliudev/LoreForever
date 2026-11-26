@@ -4,6 +4,7 @@
 local _, ns = ...
 local DB = ns.DB
 local P = DB.search.post
+P["foundgnarlpine"] = "Gm5C"
 P["foundgnoarn"] = "CfmC"
 P["foundgnoll"] = "Du3C"
 P["foundgnomish"] = "ArIC"
@@ -12003,4 +12004,3 @@ P["happenednezzliok"] = "BFfB"
 P["happenedprior"] = "ILzC"
 P["happenedprison"] = "JmIC"
 P["happenedraven"] = "MwuC"
-P["happenedright"] = "D6BCGIVC"

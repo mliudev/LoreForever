@@ -6,6 +6,13 @@ local _, ns = ...
 local Voice = {}
 ns.Voice = Voice
 local L = ns.L
+local function tr(new, ...)
+  if ns.Lang and ns.Lang.Reworded then
+    local old = ns.Lang.Reworded(new, ...)
+    if old then return old end
+  end
+  return L[new]
+end
 
 local function S() return (LoreForeverDB and LoreForeverDB.settings) or {} end
 
@@ -47,7 +54,8 @@ local AUTO = "auto"
 local NATIVE_NAMES = { enUS = "English", enGB = "English", deDE = "Deutsch", frFR = "Français", esES = "Español",
   esMX = "Español (Latinoamérica)", ptBR = "Português (Brasil)", itIT = "Italiano", ruRU = "Русский", koKR = "한국어",
   zhCN = "简体中文", zhTW = "繁體中文", ukUA = "Українська",
-  roRO = "Română", svSE = "Svenska" }
+  roRO = "Română", svSE = "Svenska", bgBG = "Български", nlNL = "Nederlands", huHU = "Magyar",
+  plPL = "Polski", daDK = "Dansk", trTR = "Türkçe", jaJP = "日本語", arSA = "العربية" }
 
 -- A language's own name, or its English name where this client's font can't draw it (Packs.LanguageName).
 local LANGUAGES = setmetatable({}, { __index = function(_, locale)
@@ -349,13 +357,15 @@ function Voice.LanguageGap()
   if not recorded then return nil end
   local shown = (ns.lang and ns.lang.locale == readingLocale() and ns.lang.name) or LANGUAGES[readingLocale()]
     or readingLocale()
-  return string.format(L["Your narration voices are recorded in %s and Lore Forever shows %s, so they can't play. To hear them, choose %s in Options > Language and reload."],
+  return string.format(tr(
+    "Your narration voices are recorded in %s and Lore Forever shows %s, so they can't play. To hear them, choose %s in Options > General > Language and reload.",
+    "Your narration voices are recorded in %s and Lore Forever shows %s, so they can't play. To hear them, choose %s in Options > Language and reload."),
     recorded, shown, recorded)
 end
 
 -- Narration installed in a language Lore Forever doesn't show, whose language pack is installed too, so choosing that
 -- language would play it (LOR-390). Automatic follows the game client, so on an English client German narration
--- someone downloaded never played: the English voices read instead, and only Options > Narration voices said why.
+-- someone downloaded never played: the English voices read instead, and only Options > Audio > Narrator and voices said why.
 -- English narration isn't counted: it comes with the add-on, so everyone has it, and Voice.LanguageGap speaks for it
 -- when nothing else can play. Returns the words that say which and how to hear it, and the languages' codes as one
 -- string (to say it once for that set), or nil. Reads only the add-on list: nothing loads.
@@ -385,10 +395,14 @@ function Voice.UnusedLanguages()
   local shownName = (ns.lang and ns.lang.locale == shown and ns.lang.name) or LANGUAGES[shown] or shown
   local words
   if #codes == 1 then
-    words = string.format(L["Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear it, choose %s in Options > Language (or type /lore lang %s) and reload."],
+    words = string.format(tr(
+      "Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear it, choose %s in Options > General > Language (or type /lore lang %s) and reload.",
+      "Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear it, choose %s in Options > Language (or type /lore lang %s) and reload."),
       list[1], shownName, list[1], codes[1])
   else
-    words = string.format(L["Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear one, choose its language in Options > Language (or type /lore lang) and reload."],
+    words = string.format(tr(
+      "Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear one, choose its language in Options > General > Language (or type /lore lang) and reload.",
+      "Narration in %s is installed, but Lore Forever shows %s, so it can't play. To hear one, choose its language in Options > Language (or type /lore lang) and reload."),
       table.concat(list, ", "), shownName)
   end
   return words, table.concat(codes, ",")
@@ -432,7 +446,9 @@ function Voice.MissingTextPacks()
     lines[i] = sameLanguage(wanted, loc)
       and string.format(L["Narration in %s is installed, but it can't play without the %s language pack. Get it at %s, unzip it into Interface\\AddOns and type /reload."],
         name, name, Voice.TextPackLink(loc))
-      or string.format(L["Narration in %s is installed, but it can't play without the %s language pack. Get it at %s, unzip it into Interface\\AddOns, then choose %s in Options > Language (or type /lore lang %s) and reload."],
+      or string.format(tr(
+        "Narration in %s is installed, but it can't play without the %s language pack. Get it at %s, unzip it into Interface\\AddOns, then choose %s in Options > General > Language (or type /lore lang %s) and reload.",
+        "Narration in %s is installed, but it can't play without the %s language pack. Get it at %s, unzip it into Interface\\AddOns, then choose %s in Options > Language (or type /lore lang %s) and reload."),
         name, name, Voice.TextPackLink(loc), name, loc)
   end
   return lines, table.concat(codes, ",")
@@ -599,18 +615,33 @@ function Voice.InstalledPacks()
     it.language = rec.languageName or LANGUAGES[it.locale] or it.locale or L["Language unknown"]
     local loaded = transport and ns.Packs.GameLoaded(rec.name) or data ~= nil
     local other = it.locale and not sameLanguage(it.locale, readingLocale())
+    local isLang = rec.kind == "lang" or rec.kind == "lang-overlay"
+      or rec.kind == "edition-text" or rec.kind == "edition-voice"
+    local inUse = false
+    if isLang then
+      if ns.lang then
+        inUse = (rec.kind == "lang" and ns.lang.pack == rec.name)
+          or (rec.kind == "lang-overlay" and ns.lang.overlay == rec.name)
+          or ((rec.kind == "edition-text" or rec.kind == "edition-voice") and ns.lang.edition
+            and (ns.lang.edition.textName == rec.name or ns.lang.edition.voiceName == rec.name))
+          or false
+      else
+        inUse = not other and loaded
+      end
+    end
     it.checked = not other and data ~= nil
     if rec.loadable == false then
       it.status = ns.Packs.ReasonText(rec.reason, rec) or L["Can't load"]
+    elseif isLang then
+      it.status = inUse and L["In use"] or L["Pick it in General > Language"]
     elseif other and rec.kind == "voice" and not transport and not sameLanguage(it.locale, "enUS")
         and not hasTextPack(it.locale) then   -- (the Language list can't offer it: Voice.MissingTextPacks)
       it.status = string.format(L["Needs the %s language pack: %s"], it.language, Voice.TextPackLink(it.locale))
     elseif other then
-      it.status = L["Choose this language in Options > Language and reload"]
+      it.status = tr("Choose this language in General > Language and reload",
+        "Choose this language in Options > Language and reload")
     elseif not loaded then
       it.status = InCombatLockdown and InCombatLockdown() and L["Can't load during combat"] or L["Not loaded yet"]
-    elseif rec.kind == "lang" or rec.kind == "lang-overlay" then
-      it.status = L["In use"]
     else
       local base = rec.transportFor or rec.extends or Voice.KeyOf(rec.name)
       local key = isDefault(base) and AUTO or Voice.KeyOf(base)
@@ -676,7 +707,7 @@ function Voice.InstalledPacks()
       end
       packMemo[rec.name] = { key = stamp .. tostring(other), counts = it.counts, stale = it.stale, recorded = it.recorded,
         questPageCheck = it.questPageCheck }
-    elseif data and (rec.kind == "lang" or rec.kind == "lang-overlay") then
+    elseif inUse and data and (rec.kind == "lang" or rec.kind == "lang-overlay" or rec.kind == "edition-text") then
       it.entries, it.strings = 0, 0
       -- (a malformed pack's fields may be anything: Options lists it, counting what's a table)
       local function each(t) return pairs(type(t) == "table" and t or {}) end
@@ -1131,11 +1162,17 @@ local function adoptNew(quiet)
     if key == first and s.voiceFillGender then
       say(string.format(L["new voice: %s. It reads first now; the default narrator fills in the rest."], title))
     elseif key == first then
-      say(string.format(L["new voice: %s. It reads first now; stories it hasn't recorded show as text. Let the default narrator fill in under Options > Narration voices."], title))
+      say(string.format(tr(
+        "new voice: %s. It reads first now; stories it hasn't recorded show as text. Let the default narrator fill in under Options > Audio > Narrator and voices.",
+        "new voice: %s. It reads first now; stories it hasn't recorded show as text. Let the default narrator fill in under Options > Narration voices."), title))
     elseif s.voiceFillGender or family(name) then
-      say(string.format(L["new voice: %s. It's at the bottom of your narrator list. Move it up in Options > Narration voices to hear it first."], title))
+      say(string.format(tr(
+        "new voice: %s. It's at the bottom of your narrator list. Move it up in Options > Audio > Narrator and voices to hear it first.",
+        "new voice: %s. It's at the bottom of your narrator list. Move it up in Options > Narration voices to hear it first."), title))
     else
-      say(string.format(L["new voice: %s. Move it to the top in Options > Narration voices to hear it."], title))
+      say(string.format(tr(
+        "new voice: %s. Move it to the top in Options > Audio > Narrator and voices to hear it.",
+        "new voice: %s. Move it to the top in Options > Narration voices to hear it."), title))
     end
   end
   return waiting
@@ -1265,7 +1302,7 @@ local function noticeUnused()
 end
 
 -- Say once that narration is installed without its language's text pack, where to get it (Voice.MissingTextPacks),
--- and again only when the set of those languages changes. Options > Installed packs keeps saying it on the pack's row.
+-- and again only when the set of those languages changes. Options > Packs > Installed packs keeps saying it on the pack's row.
 local function noticeMissingText()
   if Voice.Current() == "none" then return end
   local lines, key = Voice.MissingTextPacks()
@@ -1300,7 +1337,7 @@ local function versionOf(name)
   local ok, v = pcall(get, name, "Version")
   return ok and type(v) == "string" and v or nil
 end
--- A pack's recorded stories and quest pages whose words have changed since (as Options > Installed packs counts them).
+-- A pack's recorded stories and quest pages whose words have changed since (as Options > Packs > Installed packs counts them).
 local function outdatedIn(name, data)
   local n, siblings = 0, siblingsOf(name)
   for id in pairs(data.clips or {}) do
@@ -1778,15 +1815,47 @@ function Voice.ForgetQuestPages()
   end
 end
 
--- Forget what this character has heard (Options' "Reset heard narrations"). Returns how many were forgotten.
+-- Forget what this character has heard (Options' "Reset heard narrations"). Returns count forgotten and an undo snapshot.
 function Voice.ResetHeard()
-  local t, n = heardStore(), 0
-  for id in pairs(t or {}) do
+  local t, n, old = heardStore(), 0, {}
+  for id, at in pairs(t or {}) do
+    old[id] = at
     t[id] = nil
     n = n + 1
   end
+  local oldAuto = {}
+  for id, at in pairs(Voice.autoSession or {}) do
+    oldAuto[id] = at
+    if at and old[id] == nil then n = n + 1 end
+  end
   Voice.autoSession = {}
-  return n
+  return n, { heard = old, autoSession = oldAuto }
+end
+
+-- Restore a ResetHeard snapshot (Options' "Undo"), keeping anything newly heard between Reset and Undo.
+function Voice.RestoreHeard(snap)
+  if type(snap) ~= "table" then return 0 end
+  local t, restored, seen = heardStore(), 0, {}
+  if t then
+    for id, at in pairs(snap.heard or {}) do
+      if t[id] == nil or (type(at) == "number" and type(t[id]) == "number" and at > 0 and at < t[id]) then
+        t[id] = at
+      end
+      seen[id] = true
+      restored = restored + 1
+    end
+  end
+  Voice.autoSession = Voice.autoSession or {}
+  for id, v in pairs(snap.autoSession or {}) do
+    if Voice.autoSession[id] == nil then
+      Voice.autoSession[id] = v
+    end
+    if v and not seen[id] then
+      seen[id] = true
+      restored = restored + 1
+    end
+  end
+  return restored
 end
 
 -- The add-on folder a recording's path is in: Interface\AddOns\<pack>\Audio\... -> <pack>.

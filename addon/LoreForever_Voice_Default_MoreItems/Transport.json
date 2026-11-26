@@ -1901,9 +1901,9 @@
     "item:brock-s-list": {
       "1": [
         {
-          "duration": 40.41142857142857,
-          "file": "Audio/Transport/full_item_brock-s-list-92dbc42263cfa948bd68/1-0000.mp3",
-          "sha256": "18dd498eeb9eb2c498a453d0be949e62fe1948170a805dec062d8cb92ba16d42",
+          "duration": 36.78040816326531,
+          "file": "Audio/Transport/full_item_brock-s-list-8f2a12d08187d471a7d8/1-0000.mp3",
+          "sha256": "758818459029faa6dc4cf24ea15b85d64a1c11bd521564dec47f16d28f9e9e78",
           "start": 0
         }
       ],
@@ -1915,12 +1915,12 @@
         ]
       },
       "fullHash": "805726",
-      "generation": "d9d60c55f8c48c4eb873",
+      "generation": "b10064dbc6689a68777e",
       "hash": "805726",
       "source": {
-        "duration": 40.437551,
+        "duration": 36.780408,
         "file": null,
-        "sha256": "92dbc42263cfa948bd68a016f22781146dae52a854167b17ecb767f2f678a5a4"
+        "sha256": "8f2a12d08187d471a7d8e88a76187a8098bccfeb2790434b25504c0b3f9f3eb9"
       },
       "text": "Brock's List. At Thelsamar, Brock Stoneseeker sends a list of mining pupils honored with picks from Ironforge's guild halls. In Khaz Modan, apprentices must prove their skill before taking on serious work in the mines. Brock records those who excel in their lessons. He entrusts the list to travelers bound for Ironforge, where the honored names can be engraved on the picks. A gryphon carries Brock's List from Thelsamar's roost to Golnir Bouldertoe at the Deep Mountain Mining Guild in Ironforge's Great Forge. There, the students' names are engraved on their honorary picks."
     },
@@ -8661,9 +8661,9 @@
     "item:honorary-picks": {
       "1": [
         {
-          "duration": 48.587755102040816,
-          "file": "Audio/Transport/full_item_honorary-picks-771b98cd4187443a907a/1-0000.mp3",
-          "sha256": "a2158fe3184946b47fd2e97270d59b9bc3df0ec386696f34d122e84fdf79e29f",
+          "duration": 48.27428571428572,
+          "file": "Audio/Transport/full_item_honorary-picks-f9320011050ad41357e1/1-0000.mp3",
+          "sha256": "a4244f9418245bc632593c02617b2bf70ffc3e1ed0626be933d1ed8bc862e68e",
           "start": 0
         }
       ],
@@ -8675,12 +8675,12 @@
         ]
       },
       "fullHash": "9f4db6",
-      "generation": "9b4a67fad587657ce0a4",
+      "generation": "acf4dc8fc01bd02241c2",
       "hash": "9f4db6",
       "source": {
-        "duration": 48.613878,
+        "duration": 48.300408,
         "file": null,
-        "sha256": "771b98cd4187443a907a988a5ba23403ece8bfbad566e02f5dd4665bff460cef"
+        "sha256": "f9320011050ad41357e10ad953069ff82abc2a2c6292b56315abd8139c4e17c7"
       },
       "text": "Honorary Picks. In Ironforge, Honorary Picks are bound for Brock Stoneseeker’s mining apprentices in Thelsamar. Gryphons carry the ceremonial tools to Loch Modan, where they mark students ready to work its ore veins. Mining keeps the great forges burning and brings dwarves the iron and stone they need. In Thelsamar, Brock Stoneseeker teaches young apprentices to mine. Honorary Picks from Ironforge mark the students ready to work the open ore deposits across Loch Modan. The picks travel through the Alliance gryphon network, linking Ironforge with its outlying settlements. At Ironforge’s Great Forge, Gryth Thurden receives the shipment. He sends it over the mountains to Thorgrum Borrelson in Thelsamar."
     },
@@ -10169,9 +10169,9 @@
     "item:lewis-note": {
       "1": [
         {
-          "duration": 40.437551020408165,
-          "file": "Audio/Transport/full_item_lewis-note-686538da8784b7d70554/1-0000.mp3",
-          "sha256": "22d81b7f5b947788ff794c9c1a2af17948fd1ed3ff2c15cd6ec1f03a2c88fdd8",
+          "duration": 37.25061224489796,
+          "file": "Audio/Transport/full_item_lewis-note-b7fcd52f97e40c01ee5b/1-0000.mp3",
+          "sha256": "a5ab2bfc641479a6f8a2a0536feb1dd6f4a6efec0f698963f2d46b6547090792",
           "start": 0
         }
       ],
@@ -10183,12 +10183,12 @@
         ]
       },
       "fullHash": "284d05",
-      "generation": "f855e2c8787e5c60f3b8",
+      "generation": "6214b40173de3bdb453d",
       "hash": "284d05",
       "source": {
-        "duration": 40.463673,
+        "duration": 37.250612,
         "file": null,
-        "sha256": "686538da8784b7d70554c511870361e60be5a650c0a00a88d288be2afb22a2c8"
+        "sha256": "b7fcd52f97e40c01ee5b33778cdaf44ba9791c8e2d69cbebb65374f920171286"
       },
       "text": "Lewis' Note. At Sentinel Hill, Quartermaster Lewis sends a courier by gryphon to seek armor for Westfall's garrison. The order goes to a private armorer in Stormwind. The People's Militia at Sentinel Hill receives little support from Stormwind's House of Nobles. Skirmishes with the Defias Brotherhood keep wearing down its small supply of gear. So Quartermaster Lewis turns to private trade to keep the defenders equipped. His order goes outside the kingdom's military channels. An Alliance courier must fly by gryphon to Old Town and present it to Osric Strang, who owns Limited Immunity."
     },
@@ -11807,9 +11807,9 @@
     "item:osric-s-crate": {
       "1": [
         {
-          "duration": 48.84897959183674,
-          "file": "Audio/Transport/full_item_osric-s-crate-3eb705b9c4460672f9c6/1-0000.mp3",
-          "sha256": "5dc78e62c6b39a991c864d424fd9130603cc3ba7c74ada96b38078a2bf774096",
+          "duration": 47.72571428571429,
+          "file": "Audio/Transport/full_item_osric-s-crate-9a1ff9ec8d9d679502fa/1-0000.mp3",
+          "sha256": "3abc96aeeae64f5410bd6289630cdbaf243a503b7ad57a6cef3c8e0b81f138ed",
           "start": 0
         }
       ],
@@ -11821,12 +11821,12 @@
         ]
       },
       "fullHash": "e06205",
-      "generation": "b7d9f504da7b3d303465",
+      "generation": "450cf6b896a454450a02",
       "hash": "e06205",
       "source": {
-        "duration": 48.875102,
+        "duration": 47.751837,
         "file": null,
-        "sha256": "3eb705b9c4460672f9c61578c3272919a8cfd742abe2c4f98ecf705f59fbb2c3"
+        "sha256": "9a1ff9ec8d9d679502fa0f457bd83f0d4373b42ba1863d82b72bf4718753bfbb"
       },
       "text": "Osric's Crate. At Sentinel Hill, Osric's Crate brings fresh armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army. Quartermaster Lewis receives the shipment and shares the protective gear among the volunteer fighters. The crown gives the People's Militia no formal support. These freshly made suits are meant to help the volunteers hold their position. From Dungar Longdrink's roost in Stormwind's Trade District, a gryphon carries the crate to Thor at Sentinel Hill. The flight avoids dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime."
     },
@@ -19779,13 +19779,6 @@
       1305,
       1474
     ],
-    "18dd498eeb9eb2c498a453d0be949e62fe1948170a805dec062d8cb92ba16d42": [
-      316,
-      578,
-      839,
-      976,
-      1373
-    ],
     "18e21e8e56b1f6c5e987a0f91d74db6f6edafc7fb251dc02afb1cd0bb377f663": [
       198
     ],
@@ -20019,13 +20012,6 @@
     ],
     "22d797bc85719502d52d895736e247398497b09467fdb857a3da53aa7254cc37": [
       430
-    ],
-    "22d81b7f5b947788ff794c9c1a2af17948fd1ed3ff2c15cd6ec1f03a2c88fdd8": [
-      305,
-      454,
-      697,
-      901,
-      1099
     ],
     "22d84d2e13dbea8522e88ab28f09d7954ce18c45b726d44e7ef1ea7136e215cd": [
       209,
@@ -20528,6 +20514,14 @@
       434,
       614,
       877
+    ],
+    "3abc96aeeae64f5410bd6289630cdbaf243a503b7ad57a6cef3c8e0b81f138ed": [
+      309,
+      519,
+      882,
+      1064,
+      1346,
+      1656
     ],
     "3ad5e2ab29490e5f00dde913402a97c1b25bb3f69111151b3b248056fb80752a": [
       185,
@@ -21392,16 +21386,6 @@
       875,
       1268
     ],
-    "5dc78e62c6b39a991c864d424fd9130603cc3ba7c74ada96b38078a2bf774096": [
-      254,
-      498,
-      750,
-      901,
-      1097,
-      1252,
-      1395,
-      1702
-    ],
     "5e95131adbcfc86f1becff31490c77695d0d08825636091e5a8ec5f5c4ecfd78": [
       415
     ],
@@ -22013,6 +21997,11 @@
       1027,
       1287,
       1623
+    ],
+    "758818459029faa6dc4cf24ea15b85d64a1c11bd521564dec47f16d28f9e9e78": [
+      336,
+      577,
+      931
     ],
     "75f273248eabfe7106e716589f0e0116522cfaa9d3cf3a8b4d18fbec0c12b37f": [
       308,
@@ -23125,15 +23114,6 @@
       996,
       1222
     ],
-    "a2158fe3184946b47fd2e97270d59b9bc3df0ec386696f34d122e84fdf79e29f": [
-      261,
-      549,
-      767,
-      961,
-      1251,
-      1502,
-      1687
-    ],
     "a22f8012c84ba701b70f44e09b00ee43dad827e04e67f5e582bac3f5ec4055d6": [
       229,
       603,
@@ -23219,6 +23199,15 @@
       1679,
       1901
     ],
+    "a4244f9418245bc632593c02617b2bf70ffc3e1ed0626be933d1ed8bc862e68e": [
+      336,
+      603,
+      819,
+      1009,
+      1264,
+      1505,
+      1685
+    ],
     "a424a62784da225f0fe327898a0ad863de05b8734e7a3362dbb1882c111a1bb1": [
       226,
       504,
@@ -23242,6 +23231,13 @@
       1100,
       1299,
       1453
+    ],
+    "a5ab2bfc641479a6f8a2a0536feb1dd6f4a6efec0f698963f2d46b6547090792": [
+      323,
+      645,
+      830,
+      1004,
+      1267
     ],
     "a5b8abc0b322079b45332607f2b19feae2b4cb1b341adfc3cd7f86784795f2c6": [
       250,
@@ -25651,10 +25647,6 @@
     "1840a2406b8ddb1e9d9a11d230e4c80d26805a68a4d2593746b10d5d9027b3d9": {
       "596": 1
     },
-    "18dd498eeb9eb2c498a453d0be949e62fe1948170a805dec062d8cb92ba16d42": {
-      "316": 1,
-      "976": 2
-    },
     "191eed5513307135a757e124409762ffaa9986f0509de4a9a9c5295b2fff0e00": {
       "352": 1
     },
@@ -25744,9 +25736,6 @@
     },
     "22d2ceaa4e30d5ecc5c3db16b1d43a4ccc6956c0414dbf62c21501c2d31415bd": {
       "502": 1
-    },
-    "22d81b7f5b947788ff794c9c1a2af17948fd1ed3ff2c15cd6ec1f03a2c88fdd8": {
-      "454": 1
     },
     "22d84d2e13dbea8522e88ab28f09d7954ce18c45b726d44e7ef1ea7136e215cd": {
       "384": 1
@@ -25928,6 +25917,10 @@
     },
     "3a224ab2788842e3339feae5c123c5cc46fda2c271eed5b68fe7e148d7fb8079": {
       "434": 1
+    },
+    "3abc96aeeae64f5410bd6289630cdbaf243a503b7ad57a6cef3c8e0b81f138ed": {
+      "1064": 2,
+      "519": 1
     },
     "3ad5e2ab29490e5f00dde913402a97c1b25bb3f69111151b3b248056fb80752a": {
       "493": 1
@@ -26258,10 +26251,6 @@
       "280": 1,
       "875": 2
     },
-    "5dc78e62c6b39a991c864d424fd9130603cc3ba7c74ada96b38078a2bf774096": {
-      "1097": 2,
-      "498": 1
-    },
     "5effa8da8187057030748d2eeed10d2ca81b78ac42d4a158378fe8c93cc392a1": {
       "369": 1
     },
@@ -26486,6 +26475,10 @@
     },
     "754a289678c114b229322796f56b9632cf223858e9bbb35993421a9716c18396": {
       "543": 1
+    },
+    "758818459029faa6dc4cf24ea15b85d64a1c11bd521564dec47f16d28f9e9e78": {
+      "336": 1,
+      "931": 2
     },
     "75f273248eabfe7106e716589f0e0116522cfaa9d3cf3a8b4d18fbec0c12b37f": {
       "1344": 2,
@@ -26906,10 +26899,6 @@
     "a1d7ad82c05a1a74337e10f122419f7919838ca919a375a3a031c6e310987c5f": {
       "413": 1
     },
-    "a2158fe3184946b47fd2e97270d59b9bc3df0ec386696f34d122e84fdf79e29f": {
-      "1251": 2,
-      "549": 1
-    },
     "a22f8012c84ba701b70f44e09b00ee43dad827e04e67f5e582bac3f5ec4055d6": {
       "603": 1
     },
@@ -26944,6 +26933,10 @@
     "a3b57f94e94deac53952f17a3b8ef9710ce661f767a63bf18d333c6743215aab": {
       "1140": 2,
       "372": 1
+    },
+    "a4244f9418245bc632593c02617b2bf70ffc3e1ed0626be933d1ed8bc862e68e": {
+      "1264": 2,
+      "603": 1
     },
     "a424a62784da225f0fe327898a0ad863de05b8734e7a3362dbb1882c111a1bb1": {
       "504": 1

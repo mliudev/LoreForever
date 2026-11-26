@@ -18,9 +18,9 @@
 --     shared already ("Mark all as sent" in Options; a file upload leaves these out), copied = { [line key] = true }:
 --     its Contribute link was copied (the button hides for it), builds = { [line key] = "1.60.1.70707" }: the client
 --     each line was seen in, game, toc, project, season: which game this client is (Capture.Game), spots = {
---     ["merchant:254081"] = {id, role, name, title, zone, sub, map, x, y, build}: where a merchant or trainer Lore Forever
---     has no place for stands (Capture.OnSpot, LOR-1175), which Willo sends unless "Send what's new in Forever automatically"
---     is off (companion/lore_companion/contribute.py); at most MAX_SPOTS }
+--     ["merchant:254081"] = {id, role, name, title, zone, sub, map, x, y, build}: where a merchant, trainer or flight
+--     master Lore Forever has no place for stands (Capture.OnSpot, LOR-1175, LOR-1687), which Willo sends unless "Send
+--     what's new in Forever automatically" is off (companion/lore_companion/contribute.py); at most MAX_SPOTS }
 --   LoreForeverDB.world                    what drops in Forever's dungeons and their boss kills (World.lua, LOR-1586)
 -- Which game: the add-on also loads in Classic Era, its Anniversary, Season of Discovery and Hardcore realms and retail,
 -- whose text differs from Forever's (Mike, 11/1). Only Forever's text goes into Lore Forever: the site and the nightly
@@ -52,7 +52,7 @@ local MAX_CODE = 8000
 local SAY_PER_NPC, SAY_TOTAL = 12, 1500
 local MAX_QUESTS, MAX_TEXTS = 3000, 4000
 local SAY_KIND = { CHAT_MSG_MONSTER_SAY = "say", CHAT_MSG_MONSTER_YELL = "yell" }
-local SPOT_ROLE = { MERCHANT_SHOW = "merchant", TRAINER_SHOW = "trainer" }
+local SPOT_ROLE = { MERCHANT_SHOW = "merchant", TRAINER_SHOW = "trainer", TAXIMAP_OPENED = "flight" }
 local MAX_SPOTS = 300
 local QUEST_FIELDS = { title = "title", text = "detail", objectives = "objectives", progress = "progress",
   completion = "complete" }
@@ -554,7 +554,7 @@ function Capture.OnSay(event, text, sender, ...)
   Capture.Note("say:" .. id .. "#" .. h, "say", id, true)
 end
 
--- Where vendors and trainers stand ----------------------------------------------------------------------------------------
+-- Where vendors, trainers and flight masters stand ----------------------------------------------------------------------
 
 -- ns.KnownSpots (KnownSpots.lua, generated): the ones Lore Forever has a place for, as ",123,456,".
 function Capture.KnownSpot(id)
@@ -562,9 +562,9 @@ function Capture.KnownSpot(id)
   return type(known) == "string" and known:find("," .. tostring(id) .. ",", 1, true) ~= nil
 end
 
--- A merchant or trainer window opened for an NPC we have no place for: keep who it is, as the game names it, and where
--- you're standing, right beside it. Once per NPC and role; nothing about you. Nothing in a dungeon or on a flight
--- (Journey.Here), and nothing from another version of WoW, whose NPCs stand elsewhere.
+-- A merchant, trainer or flight map window opened for an NPC we have no place for: keep who it is, as the game names
+-- it, and where you're standing, right beside it. Once per NPC and role; nothing about you. Nothing in a dungeon or on
+-- a flight (Journey.Here), and nothing from another version of WoW, whose NPCs stand elsewhere.
 function Capture.OnSpot(event)
   local c, role = db(), SPOT_ROLE[event]
   if not (c and role and Capture.On() and Capture.InForever()) or call(_G.UnitIsPlayer, "npc") then return end
@@ -1004,7 +1004,7 @@ end
 local frame = CreateFrame("Frame")
 Capture.frame = frame
 for _, e in ipairs({ "CHAT_MSG_MONSTER_SAY", "CHAT_MSG_MONSTER_YELL", "QUEST_DETAIL", "QUEST_PROGRESS", "QUEST_COMPLETE",
-  "GOSSIP_SHOW", "ITEM_TEXT_READY", "MERCHANT_SHOW", "TRAINER_SHOW" }) do
+  "GOSSIP_SHOW", "ITEM_TEXT_READY", "MERCHANT_SHOW", "TRAINER_SHOW", "TAXIMAP_OPENED" }) do
   pcall(frame.RegisterEvent, frame, e)
 end
 local PARTS = { QUEST_DETAIL = "detail", QUEST_PROGRESS = "progress", QUEST_COMPLETE = "complete" }

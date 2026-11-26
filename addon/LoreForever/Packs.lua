@@ -110,7 +110,8 @@ end
 Packs.ENGLISH_NAMES = { enUS = "English", enGB = "English", deDE = "German", frFR = "French", esES = "Spanish",
   esMX = "Spanish (Latin America)", ptBR = "Portuguese (Brazil)", itIT = "Italian", ruRU = "Russian",
   koKR = "Korean", zhCN = "Chinese (Simplified)", zhTW = "Chinese (Traditional)", ukUA = "Ukrainian",
-  roRO = "Romanian", svSE = "Swedish", bgBG = "Bulgarian" }
+  roRO = "Romanian", svSE = "Swedish", bgBG = "Bulgarian", nlNL = "Dutch", huHU = "Hungarian",
+  plPL = "Polish", daDK = "Danish", trTR = "Turkish", jaJP = "Japanese", arSA = "Arabic" }
 -- Which scripts each client locale's font covers, besides Latin.
 local CLIENT_SCRIPTS = { ruRU = { cyrillic = true }, zhCN = { han = true }, zhTW = { han = true },
   koKR = { han = true, hangul = true } }

@@ -497,9 +497,9 @@
     "npc:daphne-stilwell": {
       "1": [
         {
-          "duration": 62.798367346938775,
-          "file": "Audio/Transport/full_npc_daphne-stilwell-b362852e8ee4e4751078/1-0000.mp3",
-          "sha256": "d09129f41cdc7614c497d7b249ff4b0e9b00657d106bd0f534cd47daceb1307c",
+          "duration": 59.376326530612246,
+          "file": "Audio/Transport/full_npc_daphne-stilwell-5c19cc853f664eca7b93/1-0000.mp3",
+          "sha256": "00231e157314ae87fb2a5151e8de01cf0fd5251b8353120ed58bc323dbaef383",
           "start": 0
         }
       ],
@@ -511,12 +511,12 @@
         ]
       },
       "fullHash": "417595",
-      "generation": "ceef4ec710ce0ff23731",
+      "generation": "917cffb74d872733b912",
       "hash": "673add",
       "source": {
-        "duration": 62.82449,
+        "duration": 59.402449,
         "file": null,
-        "sha256": "b362852e8ee4e47510780ca6003b8da4375d854e28f8099f504088e20403cfa2"
+        "sha256": "5c19cc853f664eca7b9382797772d6320fe2152af229fe670a788c4dc7adc7cd"
       },
       "text": "Daphne Stilwell. On Westfall’s cliffs, Daphne Stilwell keeps watch over her orchard and home. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their land from nearby outlaws. West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. The Longshore lies below, while gryphon routes to Stranglethorn Vale pass high above. The farm may look quiet from either way, but bandits and scavengers roam nearby. Daphne works among the trees and keeps watch over her isolated land. Before they came to Westfall, Daphne and her husband Jordan lived near Pyrewood Village in Lordaeron. They worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan’s renowned skill as a craftsman and Daphne’s steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand."
     },
@@ -2343,9 +2343,9 @@
     "npc:viktori-prism-antras": {
       "1": [
         {
-          "duration": 52.74122448979592,
-          "file": "Audio/Transport/full_npc_viktori-prism-antras-8cb3156ec2e6402842cc/1-0000.mp3",
-          "sha256": "99ca62b7ea11672698eac39a653790bdc94bb9c96608fa1baa5622cfede74e6c",
+          "duration": 53.47265306122449,
+          "file": "Audio/Transport/full_npc_viktori-prism-antras-358c28355a9453b13ff3/1-0000.mp3",
+          "sha256": "b7eb30136fca90ffe73fb80daaf96969e5c85e1ef04c2eb3df1edab811e52b0a",
           "start": 0
         }
       ],
@@ -2357,12 +2357,12 @@
         ]
       },
       "fullHash": "bd7164",
-      "generation": "a62a6327e45cee7daa67",
+      "generation": "fdd090566eecb3413426",
       "hash": "9b35d0",
       "source": {
-        "duration": 52.767347,
+        "duration": 53.498776,
         "file": null,
-        "sha256": "8cb3156ec2e6402842ccff1b04f465f03cd66d57730a91fa7cafdab6718e45c6"
+        "sha256": "358c28355a9453b13ff3ad420cc75e84c564600de4c61555ef4d6bd5d47ac8e0"
       },
       "text": "Viktori Prism'Antras. Above Darkshire, Viktori Prism'Antras keeps watch on the stars. In Duskwood's gloom, he hopes a telescope will bring them into clear view. Beyond the gryphon roost, up the slope, Viktori Prism'Antras peers into Duskwood's gloom. Undead incursions, ravenous spiders, and creeping shadows surround him. Yet he looks past the suffocating canopy, hoping to build a fine telescope that brings the stars into clear focus. In the heavens, he seeks quiet refuge from the dread engulfing the hamlet. Building a delicate telescope takes work in this cursed forest. Viktori follows blueprints from his gnomish friend, Cog Glitzspinner. He asks passersby to find rare materials for crafting lenses and mechanical housings. Finely cut glass and metal lenses lie scattered across perilous ground."
     },
@@ -4891,9 +4891,9 @@
     "subzone:great-forge": {
       "1": [
         {
-          "duration": 56.58122448979592,
-          "file": "Audio/Transport/full_subzone_great-forge-178e90a6df9e7b49563c/1-0000.mp3",
-          "sha256": "13b6233de021c95a861296976abb5bafd2440a21c6b40550c57027d770623248",
+          "duration": 53.7861224489796,
+          "file": "Audio/Transport/full_subzone_great-forge-b47946c011639e9ffc8b/1-0000.mp3",
+          "sha256": "b696e8231caa20633473b922ad4e064c2b6810b0856cc07d8b3c56c8fc278c0e",
           "start": 0
         }
       ],
@@ -4905,12 +4905,12 @@
         ]
       },
       "fullHash": "05a988",
-      "generation": "a2b4bf8b4b7cf7067678",
+      "generation": "dae11cfede392767d980",
       "hash": "7d64f8",
       "source": {
-        "duration": 56.607347,
+        "duration": 53.812245,
         "file": null,
-        "sha256": "178e90a6df9e7b49563c482a99e48dd435fc11b95745e21656a64cae57624bcf"
+        "sha256": "b47946c011639e9ffc8bedb27ec2952d5a5f4a64ac05c0e7cfee1c23991dc05f"
       },
       "text": "Great Forge. At Ironforge’s center, the Great Forge keeps its fires burning and smiths at work. Its Great Anvil draws people from across the mountain city. The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew outward in rings around it. Molten stone and slag run from giant foundries through glowing channels, lighting the cavern with an amber haze.\n\nAt the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim to hammer armor, tools, and weapons day and night. Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden tends the roost, where travelers from across the Alliance mingle amid the hammer blows."
     },
@@ -5099,9 +5099,9 @@
     "subzone:gryphon-roost": {
       "1": [
         {
-          "duration": 49.68489795918367,
-          "file": "Audio/Transport/full_subzone_gryphon-roost-3de18260afaebf7bb534/1-0000.mp3",
-          "sha256": "b922822e3a015735c40d64fc47bdb617f650f66766bc52f05d317c23ae932991",
+          "duration": 47.33387755102041,
+          "file": "Audio/Transport/full_subzone_gryphon-roost-e28ade8e6ba87d35a68d/1-0000.mp3",
+          "sha256": "6d9286987c696a57091a4b4b74dd4c50c85e6e71fb41ecf1dc185ec15c278f57",
           "start": 0
         }
       ],
@@ -5113,12 +5113,12 @@
         ]
       },
       "fullHash": "6444dc",
-      "generation": "95781f827b2fdd26818c",
+      "generation": "f057813b6543e4cae260",
       "hash": "30bda3",
       "source": {
-        "duration": 49.71102,
+        "duration": 47.36,
         "file": null,
-        "sha256": "3de18260afaebf7bb534c44befef47e1f27847ba5dff7d265c5e190291fcd86d"
+        "sha256": "e28ade8e6ba87d35a68da02fe28fa23cb8907bee286a72cf19d4f34ee24732c1"
       },
       "text": "Gryphon Roost. Gryphons carry travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Human gryphon master Dungar Longdrink tends the roost beside the Trade District. Dungar Longdrink arranges flights to Ironforge, Lakeshire, Sentinel Hill, and other Alliance garrisons and settlements. The roost joins Stormwind to these outlying holds. Its trained gryphons wait ready for the journeys ahead. Gryphons and their handlers bring a trace of Hinterlands tradition into Stormwind. The Wildhammer clan has long honored gryphons as partners. During the Second War, they brought aerial warfare and transport to the wider Alliance. Leather, feed, and fresh winds lend the roost a frontier air amid the city’s stonework."
     },
@@ -7699,9 +7699,9 @@
     "subzone:sentinel-hill": {
       "1": [
         {
-          "duration": 82.10285714285715,
-          "file": "Audio/Transport/full_subzone_sentinel-hill-415e493560ecb7030e81/1-0000.mp3",
-          "sha256": "c965d62448fbfefb48d10bcc60d3315dfac6ac1d5cd10b3a04487aef71248282",
+          "duration": 75.02367346938776,
+          "file": "Audio/Transport/full_subzone_sentinel-hill-1035d71d1c48db493ff2/1-0000.mp3",
+          "sha256": "94048f409d613951b622e212f1f6d05510208421711749a733b03c526a1d1cde",
           "start": 0
         }
       ],
@@ -7713,12 +7713,12 @@
         ]
       },
       "fullHash": "94e3e1",
-      "generation": "d1f83b2076e844711d25",
+      "generation": "2e669abbc6e2537be174",
       "hash": "9a851f",
       "source": {
-        "duration": 82.12898,
+        "duration": 75.049796,
         "file": null,
-        "sha256": "415e493560ecb7030e81cee211d17528c882104f832c0e50500323b041ae0fa1"
+        "sha256": "1035d71d1c48db493ff29baee845b002196ae5c651920a8f736cbee4df45575d"
       },
       "text": "Sentinel Hill. At Sentinel Hill, the Alliance holds its main stronghold in Westfall, and the People's Militia keeps its command post there. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, leaving it as the lawful citizens' only secure foothold in the region. Sentinel Hill rises above central Westfall. Around Sentinel Tower stand a barracks-style inn, a gryphon roost with flights to Stormwind and beyond, a forge, and a lumber mill. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. Within the fragile perimeter, travelers, beleaguered farmers, and recruits can regroup under the eyes of veteran defenders. The royal army is detained in Stormwind and cannot spare soldiers for the outlying territories. So Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, strike at the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. This is no opulent fort or comfortable refuge. It is a working frontline camp, determined to reclaim the kingdom's former breadbasket."
     },
@@ -8843,9 +8843,9 @@
     "subzone:thelsamar": {
       "1": [
         {
-          "duration": 61.074285714285715,
-          "file": "Audio/Transport/full_subzone_thelsamar-f94030b9019a51d71895/1-0000.mp3",
-          "sha256": "42adea629962dd402509253ba461d2755ed8a129a354ef1a622fb9ed9ade7401",
+          "duration": 57.73061224489796,
+          "file": "Audio/Transport/full_subzone_thelsamar-92263164d727b01367e5/1-0000.mp3",
+          "sha256": "e75034102ac34f2b6dacdae424b9e8a952739dd06cb0d13da415e2c5687bd314",
           "start": 0
         }
       ],
@@ -8857,12 +8857,12 @@
         ]
       },
       "fullHash": "28bc11",
-      "generation": "74ac4dd19322402f506f",
+      "generation": "9dbf588a0fcc5b2c796b",
       "hash": "7bbe46",
       "source": {
-        "duration": 61.074286,
+        "duration": 57.756735,
         "file": null,
-        "sha256": "f94030b9019a51d718956d4157ec4500a89f2ef5fe366a1a072981bdfb41f17e"
+        "sha256": "92263164d727b01367e5a1ed588368f26625a7aa5949f9fa8dce348d3def3326"
       },
       "text": "Thelsamar. In Thelsamar, travelers find shelter on the road between Dun Morogh and the Wetlands. The town keeps watch over the western bluffs above Loch Modan's great lake as troggs and ogres press nearby. Thelsamar gathers dwarven life beneath stout roofs of stone and timber. At the Stoutlager Inn, travelers can rest, and nearby they find a gryphon roost, crafting stations, and supply merchants. The town lies along the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands. Travelers crossing the region pass through its doors. Trouble presses in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, while bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm. So the local magistrate and Mountaineers rely on travelers and mercenaries to patrol the trade roads and drive back hostile forces."
     },
@@ -9155,9 +9155,9 @@
     "subzone:trade-district": {
       "1": [
         {
-          "duration": 78.02775510204081,
-          "file": "Audio/Transport/full_subzone_trade-district-9373c8b77f116fb3259b/1-0000.mp3",
-          "sha256": "74691986b73e48ade5df5221dd11eb7bb71cfea9758db4bab6990362b8a8204c",
+          "duration": 72.75102040816327,
+          "file": "Audio/Transport/full_subzone_trade-district-f067eef9691d718de531/1-0000.mp3",
+          "sha256": "51e0312dbb709d31351ec75e7db7c3d6a8db50c088d96e7147d3f421b330b167",
           "start": 0
         }
       ],
@@ -9169,12 +9169,12 @@
         ]
       },
       "fullHash": "241681",
-      "generation": "42b4461e99e2b9082f36",
+      "generation": "ca0282bc3eba219195ab",
       "hash": "ba5adf",
       "source": {
-        "duration": 78.053878,
+        "duration": 72.777143,
         "file": null,
-        "sha256": "9373c8b77f116fb3259ba23c3fa185be408fc7754290a556a0362d833f34d34d"
+        "sha256": "f067eef9691d718de53143a8903337425a72388aa0f882635508209ad8778fe5"
       },
       "text": "Trade District. Trade District draws merchants and travelers through Stormwind’s busy heart. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike. You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a crossroads for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby.\n\nFrom here, roads lead to Old Town, Cathedral Square, and the Mage Quarter. Coin, raw goods, and adventurers’ supplies pass through the district on their way across the realm. Shops line the paved avenues and canals with goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls carry fresh flowers and aged vintages from the Gallina Winery.\n\nJust inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, linking Stormwind’s markets with Alliance territories."
     },
@@ -9934,6 +9934,14 @@
     }
   },
   "cuts": {
+    "00231e157314ae87fb2a5151e8de01cf0fd5251b8353120ed58bc323dbaef383": [
+      235,
+      1124,
+      1277,
+      1493,
+      1784,
+      2091
+    ],
     "00b967894462bdc453769c1d66c10cde663c700d716e654e82bbcd2da7feec32": [
       255,
       462,
@@ -10274,15 +10282,6 @@
       1646,
       1983,
       2179
-    ],
-    "13b6233de021c95a861296976abb5bafd2440a21c6b40550c57027d770623248": [
-      231,
-      391,
-      625,
-      1067,
-      1317,
-      1576,
-      1919
     ],
     "140fceb7e164443f5dcc6b3edf684c1423ad6496efeed4c027e3bdeaa90c1726": [
       236,
@@ -10877,16 +10876,6 @@
       2224,
       2420
     ],
-    "42adea629962dd402509253ba461d2755ed8a129a354ef1a622fb9ed9ade7401": [
-      230,
-      526,
-      716,
-      1040,
-      1459,
-      1598,
-      1863,
-      2022
-    ],
     "438a6ab58f2bc646df9a22d208940ae8399944ac58fbd9b53983fa8794995912": [
       187,
       566,
@@ -11074,6 +11063,17 @@
       942,
       1295,
       1470
+    ],
+    "51e0312dbb709d31351ec75e7db7c3d6a8db50c088d96e7147d3f421b330b167": [
+      223,
+      466,
+      637,
+      831,
+      1132,
+      1344,
+      1757,
+      2169,
+      2471
     ],
     "526162f2e275742c8350701bc8e1c501070c5d19273b330e0c4ed181a0ef567a": [
       206,
@@ -11505,6 +11505,14 @@
       2038,
       2320
     ],
+    "6d9286987c696a57091a4b4b74dd4c50c85e6e71fb41ecf1dc185ec15c278f57": [
+      277,
+      479,
+      799,
+      1054,
+      1232,
+      1584
+    ],
     "6dadf23c49af6f98af78317dd69a568f88ce9c16366a184227ad3c1d10f3cf26": [
       169,
       589,
@@ -11602,20 +11610,6 @@
       472,
       679,
       949
-    ],
-    "74691986b73e48ade5df5221dd11eb7bb71cfea9758db4bab6990362b8a8204c": [
-      204,
-      494,
-      685,
-      918,
-      1091,
-      1245,
-      1473,
-      1729,
-      1932,
-      2188,
-      2395,
-      2686
     ],
     "746e5bd74dca5a2a843f92add75f50add18f75cce1fc8473974097e45e9fb51c": [
       220,
@@ -12029,6 +12023,17 @@
       1520,
       1833
     ],
+    "94048f409d613951b622e212f1f6d05510208421711749a733b03c526a1d1cde": [
+      234,
+      744,
+      992,
+      1211,
+      1473,
+      1699,
+      1936,
+      2121,
+      2511
+    ],
     "9615c25bb3c0cf85e683f0aa73d7e0f074f3a676af543f414c700014bb4a1c6d": [
       251,
       479,
@@ -12076,16 +12081,6 @@
       355,
       490,
       670
-    ],
-    "99ca62b7ea11672698eac39a653790bdc94bb9c96608fa1baa5622cfede74e6c": [
-      189,
-      373,
-      609,
-      800,
-      1290,
-      1438,
-      1620,
-      1832
     ],
     "9a3bce015e8aca95ba8752a976f86ac462ceb1d2614011c8e59c27484e7f0b32": [
       282,
@@ -12502,12 +12497,33 @@
       1103,
       1359
     ],
+    "b696e8231caa20633473b922ad4e064c2b6810b0856cc07d8b3c56c8fc278c0e": [
+      134,
+      287,
+      430,
+      631,
+      1036,
+      1270,
+      1509,
+      1827
+    ],
     "b7d6c9ba36bf16f098b2a8796257e74d59fcf0b48771bd0247585262bbdf5df6": [
       168,
       367,
       553,
       744,
       920
+    ],
+    "b7eb30136fca90ffe73fb80daaf96969e5c85e1ef04c2eb3df1edab811e52b0a": [
+      144,
+      283,
+      687,
+      875,
+      1149,
+      1321,
+      1471,
+      1645,
+      1860
     ],
     "b8985d403aae86a8788485dbcae51963a60e5624273730112c4c7010102cd471": [
       232,
@@ -12531,15 +12547,6 @@
       1329,
       1660,
       1973
-    ],
-    "b922822e3a015735c40d64fc47bdb617f650f66766bc52f05d317c23ae932991": [
-      239,
-      476,
-      615,
-      821,
-      1112,
-      1305,
-      1457
     ],
     "ba1a0f4b947b32abd14106b040a334dd5a51329034efe10b3f4bdc2e5eb7468a": [
       190,
@@ -12769,20 +12776,6 @@
       1962,
       2144
     ],
-    "c965d62448fbfefb48d10bcc60d3315dfac6ac1d5cd10b3a04487aef71248282": [
-      206,
-      343,
-      579,
-      788,
-      929,
-      1076,
-      1320,
-      1558,
-      1906,
-      2151,
-      2356,
-      2773
-    ],
     "c97b245492b76bfc603a0dcd1cd1fe7d7493949512406428fb4384b7b3c57e73": [
       246,
       566,
@@ -12881,17 +12874,6 @@
       2125,
       2270,
       2558
-    ],
-    "d09129f41cdc7614c497d7b249ff4b0e9b00657d106bd0f534cd47daceb1307c": [
-      200,
-      507,
-      769,
-      985,
-      1188,
-      1369,
-      1598,
-      1895,
-      2214
     ],
     "d13c4c237d7b34f765515e14d36b5ed9b9f139fe461db8756641c9a89cc6dd19": [
       315,
@@ -13131,6 +13113,15 @@
       1038,
       1228,
       1484
+    ],
+    "e75034102ac34f2b6dacdae424b9e8a952739dd06cb0d13da415e2c5687bd314": [
+      254,
+      521,
+      702,
+      1020,
+      1374,
+      1739,
+      1885
     ],
     "e77c3cb171f1c5b511dc722df7043dfd52dac52320370a539c84b51d5963ba81": [
       189,
@@ -13466,6 +13457,9 @@
     ]
   },
   "heads": {
+    "00231e157314ae87fb2a5151e8de01cf0fd5251b8353120ed58bc323dbaef383": {
+      "1277": 2
+    },
     "00b967894462bdc453769c1d66c10cde663c700d716e654e82bbcd2da7feec32": {
       "1572": 2,
       "462": 1
@@ -13604,10 +13598,6 @@
     "12ed695a8fb01fe4b44cbf1d3cb44bc2c0cae13e10a81494b8ffdd362f795efa": {
       "1482": 2,
       "500": 1
-    },
-    "13b6233de021c95a861296976abb5bafd2440a21c6b40550c57027d770623248": {
-      "1576": 2,
-      "391": 1
     },
     "140fceb7e164443f5dcc6b3edf684c1423ad6496efeed4c027e3bdeaa90c1726": {
       "526": 1
@@ -13835,10 +13825,6 @@
       "1705": 2,
       "826": 1
     },
-    "42adea629962dd402509253ba461d2755ed8a129a354ef1a622fb9ed9ade7401": {
-      "1459": 2,
-      "526": 1
-    },
     "438a6ab58f2bc646df9a22d208940ae8399944ac58fbd9b53983fa8794995912": {
       "1922": 2,
       "566": 1
@@ -13908,6 +13894,9 @@
     },
     "50a3358040eae04c948e6e16f6cdde4bc06193e85d135bf0f14326a698aef298": {
       "577": 1
+    },
+    "51e0312dbb709d31351ec75e7db7c3d6a8db50c088d96e7147d3f421b330b167": {
+      "466": 1
     },
     "526162f2e275742c8350701bc8e1c501070c5d19273b330e0c4ed181a0ef567a": {
       "1783": 2,
@@ -14073,6 +14062,9 @@
       "2038": 2,
       "586": 1
     },
+    "6d9286987c696a57091a4b4b74dd4c50c85e6e71fb41ecf1dc185ec15c278f57": {
+      "479": 1
+    },
     "6dadf23c49af6f98af78317dd69a568f88ce9c16366a184227ad3c1d10f3cf26": {
       "589": 1
     },
@@ -14111,10 +14103,6 @@
     },
     "73e4f8212683691fd1f8c4528611e415a06d8ba5c8c2976a27adc3ce5760c360": {
       "472": 1
-    },
-    "74691986b73e48ade5df5221dd11eb7bb71cfea9758db4bab6990362b8a8204c": {
-      "1729": 2,
-      "494": 1
     },
     "746e5bd74dca5a2a843f92add75f50add18f75cce1fc8473974097e45e9fb51c": {
       "436": 1
@@ -14273,6 +14261,10 @@
       "1316": 2,
       "446": 1
     },
+    "94048f409d613951b622e212f1f6d05510208421711749a733b03c526a1d1cde": {
+      "1699": 2,
+      "744": 1
+    },
     "9615c25bb3c0cf85e683f0aa73d7e0f074f3a676af543f414c700014bb4a1c6d": {
       "1359": 2,
       "479": 1
@@ -14290,10 +14282,6 @@
     },
     "999980e0167972c0e054c119a06d94d36e10d531fbed546248661c2b3e74c9e6": {
       "355": 1
-    },
-    "99ca62b7ea11672698eac39a653790bdc94bb9c96608fa1baa5622cfede74e6c": {
-      "1290": 2,
-      "373": 1
     },
     "9a3bce015e8aca95ba8752a976f86ac462ceb1d2614011c8e59c27484e7f0b32": {
       "536": 1
@@ -14451,8 +14439,15 @@
       "461": 1,
       "946": 2
     },
+    "b696e8231caa20633473b922ad4e064c2b6810b0856cc07d8b3c56c8fc278c0e": {
+      "1509": 2,
+      "430": 1
+    },
     "b7d6c9ba36bf16f098b2a8796257e74d59fcf0b48771bd0247585262bbdf5df6": {
       "367": 1
+    },
+    "b7eb30136fca90ffe73fb80daaf96969e5c85e1ef04c2eb3df1edab811e52b0a": {
+      "1321": 2
     },
     "b8985d403aae86a8788485dbcae51963a60e5624273730112c4c7010102cd471": {
       "1305": 2,
@@ -14464,10 +14459,6 @@
     "b8be51ed1985ecec3773bf8b0fb5bcba9570ca81d5141a3f6a45029bd8fe882a": {
       "1329": 2,
       "486": 1
-    },
-    "b922822e3a015735c40d64fc47bdb617f650f66766bc52f05d317c23ae932991": {
-      "1112": 2,
-      "476": 1
     },
     "ba1a0f4b947b32abd14106b040a334dd5a51329034efe10b3f4bdc2e5eb7468a": {
       "379": 1
@@ -14556,10 +14547,6 @@
       "1444": 2,
       "526": 1
     },
-    "c965d62448fbfefb48d10bcc60d3315dfac6ac1d5cd10b3a04487aef71248282": {
-      "1906": 2,
-      "788": 1
-    },
     "c97b245492b76bfc603a0dcd1cd1fe7d7493949512406428fb4384b7b3c57e73": {
       "1668": 2,
       "566": 1
@@ -14595,10 +14582,6 @@
     "d0093f7aa3d8d0d023fe13a0cfea895da1991609f7037081f628dd238bc9d898": {
       "1732": 2,
       "643": 1
-    },
-    "d09129f41cdc7614c497d7b249ff4b0e9b00657d106bd0f534cd47daceb1307c": {
-      "1369": 2,
-      "507": 1
     },
     "d13c4c237d7b34f765515e14d36b5ed9b9f139fe461db8756641c9a89cc6dd19": {
       "1724": 2,
@@ -14695,6 +14678,10 @@
     },
     "e587e343ffc718a02060ae5f55f7636e7aa511bd45712982daee452985c39365": {
       "538": 1
+    },
+    "e75034102ac34f2b6dacdae424b9e8a952739dd06cb0d13da415e2c5687bd314": {
+      "1374": 2,
+      "521": 1
     },
     "e77c3cb171f1c5b511dc722df7043dfd52dac52320370a539c84b51d5963ba81": {
       "609": 1

@@ -806,7 +806,7 @@ P.transport["quest:1373"] = {
   fullHash = "b3b3b4",
   text = "Ongeku. Uthek sends you from Desolace to find a shard of draenethyst. The earth has whispered of the red crystal to him, and Ongeku holds a shard in the Swamp of Sorrows. After Stealing Supplies, Uthek the Wise sends you far from Desolace for a red crystal called draenethyst. He says the earth shares its secrets with those who listen. The crystal has only recently come to this land, carried from a place of flying mountains ruled by demons.\n\nUthek says a shard will make the magic strong. Ongeku, the lost one, holds one in the Swamp of Sorrows in the Eastern Kingdoms. When you return, Uthek will seek proof that the Gelkis can still call you friend.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1373-0665cf333a4894c94976/1-0000.mp3", duration = 51.9836735, start = 0},
+    {file = "Audio/Transport/full_quest_1373-21497b174394c4daff41/1-0000.mp3", duration = 47.8302041, start = 0},
   },
 }
 P.transport["quest:1374"] = {
@@ -878,7 +878,7 @@ P.transport["quest:1389"] = {
   fullHash = "09214b",
   text = "Draenethyst Crystals. At the Harborage, Magtoor asks you to recover six draenethyst crystals stolen from the Fallow Sanctuary. Sacred to his people, the crystals are bound to their fear of losing their way. The lost ones of the Fallow Sanctuary resemble Magtoor's people. The journey to Azeroth drove them mad. Once brethren, they now dwell in the Sanctuary to the east, where they seize or kill anyone who strays close. They have also stolen draenethyst crystals, sacred to Magtoor's people. Magtoor's people lack the strength to enter the Fallow Sanctuary and reclaim the draenethyst among its huts and campfires. Without the crystals, they fear they too may lose their way. So Magtoor asks you to bring back six.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1389-c9e2a5f519af81d93dd3/1-0000.mp3", duration = 54.2563265, start = 0},
+    {file = "Audio/Transport/full_quest_1389-c9e3c3a2d16b3a2eb34b/1-0000.mp3", duration = 59.1934694, start = 0},
   },
 }
 P.transport["quest:1392"] = {
@@ -886,7 +886,7 @@ P.transport["quest:1392"] = {
   fullHash = "f23718",
   text = "Noboru the Cudgel. At the Harborage, the Draenei have endured Noboru the Cudgel’s torment for months. You carry his cudgel to their leader, a token of the cruelty the lost ones have dealt them. For months, Noboru has tormented the Draenei who live at the Harborage. His cudgel recalls the cruelty the lost ones have dealt them. You carry it to their leader.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1392-252198798e361a2fb4e9/1-0000.mp3", duration = 27.3763265, start = 0},
+    {file = "Audio/Transport/full_quest_1392-8d3c1ced2cbba914171b/1-0000.mp3", duration = 26.3314286, start = 0},
   },
 }
 P.transport["quest:1393"] = {
@@ -1070,7 +1070,7 @@ P.transport["quest:1450"] = {
   fullHash = "871450",
   text = "Gryphon Master Talonaxe. Inside the Aerie Peak Aviary, flight assignments fall to Gryphon Master Talonaxe. Falstad Wildhammer sends you there after turning away someone who came for an old Explorers' League friend. Falstad Wildhammer has little patience for a visitor sent by an old Explorers' League member. He does not know who that friend once flew with, and flight assignments belong to the gryphon master. You can find Gryphon Master Talonaxe inside the Aerie Peak Aviary. Falstad has real work for anyone who stays nearby.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1450-7f76d66d00fab1d299f6/1-0000.mp3", duration = 33.7763265, start = 0},
+    {file = "Audio/Transport/full_quest_1450-abfbdbf14e9151260889/1-0000.mp3", duration = 39.4187755, start = 0},
   },
 }
 P.transport["quest:1451"] = {
@@ -1078,7 +1078,7 @@ P.transport["quest:1451"] = {
   fullHash = "492450",
   text = "Rhapsody Shindigger. At the Aerie Peak Aviary, Talonaxe has news of a fallen flyer. Rhapsody Shindigger was once its finest flyer, but liquor cost Rhapsody the post. Now Rhapsody keeps a brewing camp east of the aviary, in the Hinterlands, Talonaxe has heard. Gryphon Master Talonaxe says the aviary dwarves all enjoy a good ale. Rhapsody took to liquor as readily as a gryphon takes to the skies. No one could fly like Rhapsody, and Talonaxe still regrets the loss.\n\nThe trouble began when Rhapsody returned stumbling from a trip with Brohann. Things worsened quickly, and the aviary let Rhapsody go. Talonaxe’s last word is that Rhapsody now keeps a brew camp east of Aerie Peak.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1451-400688ef35cec3013e81/1-0000.mp3", duration = 52.7934694, start = 0},
+    {file = "Audio/Transport/full_quest_1451-1c044dda18cc333e6a50/1-0000.mp3", duration = 47.882449, start = 0},
   },
 }
 P.transport["quest:1452"] = {
@@ -2054,7 +2054,7 @@ P.transport["quest:2988"] = {
   fullHash = "e32297",
   text = "Witherbark Cages. At Witherbark Cages, you search for Sharpbeak, heir of Swiftwing, whom Talonaxe calls the mightiest gryphon. Gryphon Master Talonaxe believes the trolls took the young gryphon. Gryphon Master Talonaxe asks you to find Sharpbeak, who went missing a few days ago while hunting with his parents. Talonaxe and the others believe the trolls took him. Three cages in the two Witherbark troll villages remain to be checked. Talonaxe awaits your findings.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2988-35089cdc86f95d0becd3/1-0000.mp3", duration = 33.2016327, start = 0},
+    {file = "Audio/Transport/full_quest_2988-0971180bb4af25642a9e/1-0000.mp3", duration = 34.5077551, start = 0},
   },
 }
 P.transport["quest:2989"] = {
@@ -2062,7 +2062,7 @@ P.transport["quest:2989"] = {
   fullHash = "201e3d",
   text = "The Altar of Zul. At the Altar of Zul, Talonaxe's search for Sharpbeak reaches the Vilebranch lands. Witherbark has no sign of the young gryphon, and Talonaxe fears the Vilebranch may hold him. With no sign of Sharpbeak in the Witherbark cages, Gryphon Master Talonaxe suspects the Vilebranch trolls took him. So he sends you to search the top of the Altar of Zul, at the western edge of their lands. If they hold the gryphon child, Talonaxe fears what they may be doing to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2989-812a22f4c29f5c30dd75/1-0000.mp3", duration = 30.8767347, start = 0},
+    {file = "Audio/Transport/full_quest_2989-d5e2226f40bce17677d8/1-0000.mp3", duration = 33.5673469, start = 0},
   },
 }
 P.transport["quest:2990"] = {
@@ -2070,7 +2070,7 @@ P.transport["quest:2990"] = {
   fullHash = "c3ba27",
   text = "Thadius Grimshade. At Nethergarde Keep, Talonaxe sends you to Thadius Grimshade with a feather from Sharpbeak's nest. Years ago, Thadius Grimshade left Aerie Peak to seek darker knowledge. Yet Talonaxe says he remains a Wildhammer at heart. He hopes Thadius can use divining magic and Sharpbeak's feather to find the gryphon child. Thadius lives in the mage tower at Nethergarde Keep, in the Blasted Lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2990-cc4f0741d560ce5b9fb4/1-0000.mp3", duration = 27.5330612, start = 0},
+    {file = "Audio/Transport/full_quest_2990-2a1522c751c8a24db894/1-0000.mp3", duration = 30.6677551, start = 0},
   },
 }
 P.transport["quest:2992"] = {
@@ -2078,7 +2078,7 @@ P.transport["quest:2992"] = {
   fullHash = "5c07b0",
   text = "The Divination. Thadius Grimshade turns to Sharpbeak’s feather, seeking the gryphon through its trace. He asks you to give him room as he follows the bond to its owner. Thadius Grimshade follows the bond between Sharpbeak’s feather and the gryphon who owns it. He hopes to reach Sharpbeak himself, and asks you for silence and room to work. The ritual may not go as planned. If it does not, he warns, you had better close your eyes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2992-df0e6e9fbb03b58e887c/1-0000.mp3", duration = 28.5518367, start = 0},
+    {file = "Audio/Transport/full_quest_2992-8d8552b1d404a60ff863/1-0000.mp3", duration = 32.1828571, start = 0},
   },
 }
 P.transport["quest:2993"] = {
@@ -2086,7 +2086,7 @@ P.transport["quest:2993"] = {
   fullHash = "8546b6",
   text = "Return to the Hinterlands. You carry Thadius Grimshade's news of Sharpbeak to Gryphon Master Talonaxe. Thadius Grimshade has learned where Sharpbeak is held. The gryphon is caged on a high cliff atop Jintha'Alor in the Hinterlands. Vile Priestess Hexx, high priestess of the Vilebranch trolls, holds the key. You bring the news to Gryphon Master Talonaxe.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2993-d8ad9db118d7e2ebd3ce/1-0000.mp3", duration = 23.9281633, start = 0},
+    {file = "Audio/Transport/full_quest_2993-6cf2f827469e9001ef6b/1-0000.mp3", duration = 26.2008163, start = 0},
   },
 }
 P.transport["quest:2994"] = {
@@ -2094,7 +2094,7 @@ P.transport["quest:2994"] = {
   fullHash = "83ca55",
   text = "Saving Sharpbeak. At Jintha'Alor, Sharpbeak waits in a cage deep in Vilebranch territory. Gryphon Master Talonaxe sends you to free him, and Vile Priestess Hexx holds the key. After Thadius Grimshade's divination, you report to Talonaxe. Now the path to Sharpbeak is clear. Jintha'Alor lies at the heart of Vilebranch territory, and you fight your way to its summit. Vile Priestess Hexx holds the key to Sharpbeak's cage. Take it from her, then find the cage and free the gryphon.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2994-88007b36ace709d5cde7/1-0000.mp3", duration = 33.5673469, start = 0},
+    {file = "Audio/Transport/full_quest_2994-e0dbf9b3111d7d24e208/1-0000.mp3", duration = 35.9183673, start = 0},
   },
 }
 P.transport["quest:3002"] = {
@@ -4638,7 +4638,7 @@ P.transport["quest:7830"] = {
   fullHash = "c46dbc",
   text = "Avenging the Fallen. At Revantusk Village, Markhor turns his anger toward the Skylords. He asks you to slay a Razorbeak Skylord and bring him its plume. Huntsman Markhor of Revantusk Village resents the Wildhammer for training gryphons to slay trolls. He promises justice for the trolls, but first he wants you to strike at the Skylords, the Hinterlands' elder gryphons.\n\nSlay a Razorbeak Skylord and bring its plume back to Markhor. This rare breed lives in the wilds of the Hinterlands. Markhor blames it for breeding murderous young.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7830-b3463717c76caca47e58/1-0000.mp3", duration = 35.1346939, start = 0},
+    {file = "Audio/Transport/full_quest_7830-61eb5bfbc4e2a8cb3f58/1-0000.mp3", duration = 39.9934694, start = 0},
   },
 }
 P.transport["quest:7839"] = {
@@ -4670,7 +4670,7 @@ P.transport["quest:7842"] = {
   fullHash = "f214bb",
   text = "Another Message to the Wildhammer. At Revantusk Village, Otho Moji'ko sends another message to the Wildhammer. He sees their bond with gryphons as close as a troll and a mate, and means to turn it against them. After the Highvale high elves, Otho Moji'ko has another message for the Wildhammer. Their closeness with gryphons disgusts him, but he sees a use for it. Kill the gryphons you meet across the Hinterlands and gather their Long Elegant Feathers. Gryphons live in every region there. Otho will make his final message from the feathers.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7842-650235354eb2ba4219ec/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_quest_7842-fad68afc42fed06ede96/1-0000.mp3", duration = 39.8367347, start = 0},
   },
 }
 P.transport["quest:7843"] = {
@@ -4678,7 +4678,7 @@ P.transport["quest:7843"] = {
   fullHash = "407d05",
   text = "The Final Message to the Wildhammer. At Revantusk Village, Otho Moji'ko sends you west with a blood-soaked spear bound in gryphon feathers. The Wildhammer dwarves will find it planted beside the well at Aerie Peak's heart. After Another Message to the Wildhammer, Otho Moji'ko gives you a spear soaked in blood and bound with gryphon feathers. Carry it west to Aerie Peak and plant it beside the well at the town's heart. The Wildhammer dwarves will see that the trolls mean business. Furious dwarves and rowdy Alliance folk await you there, and Otho hopes you return alive.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7843-85bab2ef932a3022251f/1-0000.mp3", duration = 38.6612245, start = 0},
+    {file = "Audio/Transport/full_quest_7843-4b06d3991aa21a9c59f3/1-0000.mp3", duration = 39.0269388, start = 0},
   },
 }
 P.transport["quest:7844"] = {

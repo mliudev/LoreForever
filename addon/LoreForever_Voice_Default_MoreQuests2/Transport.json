@@ -11729,9 +11729,9 @@
     "quest:647": {
       "1": [
         {
-          "duration": 61.85795918367347,
-          "file": "Audio/Transport/full_quest_647-c3cb7f2c314d8a543674/1-0000.mp3",
-          "sha256": "a0cdcc8c0a6c6e540927505faf04bc58a404e46a30be61630973783807771a29",
+          "duration": 60.943673469387754,
+          "file": "Audio/Transport/full_quest_647-dfcec437647ef48ec167/1-0000.mp3",
+          "sha256": "3ebeae58e7fc3091b2b3043a5d0e552a60a9b98dbba297d5aebd08f03ea57523",
           "start": 0
         }
       ],
@@ -11743,12 +11743,12 @@
         ]
       },
       "fullHash": "1c8776",
-      "generation": "5db860e822ebc5a9a31b",
+      "generation": "4eb019d2300556575a54",
       "hash": "1c8776",
       "source": {
-        "duration": 61.884082,
+        "duration": 60.969796,
         "file": null,
-        "sha256": "c3cb7f2c314d8a543674b755716eb3ace2588d4ac9ae7a32f8f485310f599525"
+        "sha256": "dfcec437647ef48ec1677cbbaa4cd95e5e2292fd1f73de37ceab19355f03a5cf"
       },
       "text": "MacKreel's Moonshine. Foggy MacKreel needs his moonshine carried from the broken Thandol Span to Southshore. He drank too much while on watch and now has little time to deliver a fresh batch to Brewmeister Bilger and settle his debt. On the shattered Thandol Span, Foggy MacKreel keeps watch through wet, cold, and dull hours. He drinks his homemade moonshine to bear the damp chill. The brew hits hard enough that he compares its aftereffects to siege engines pounding across his skull. One drink too many leaves him asleep through his shift. Longbraid the Grim commands the dwarves defending the Span, and Foggy cannot afford another lapse in discipline. Foggy owes Brewmeister Bilger in Southshore a longstanding debt. He promised a batch of his personal brew to settle the account, but his hangover and watch duties have left him minutes from missing the deadline. You race across the Arathi Highlands with the jug, by gryphon and swift feet. Reach Southshore before Bilger decides Foggy has skipped out on his tab again."
     },
@@ -15525,9 +15525,9 @@
     "quest:98246": {
       "1": [
         {
-          "duration": 45.818775510204084,
-          "file": "Audio/Transport/full_quest_98246-0c95af295201b7e3a07a/1-0000.mp3",
-          "sha256": "d2b3a1806b174e5c8e98c6256dbbf1ff2a5a684c2380604c4d3d8ab8f9b1de94",
+          "duration": 42.68408163265306,
+          "file": "Audio/Transport/full_quest_98246-26041f146a0e4ab7b71a/1-0000.mp3",
+          "sha256": "d6d6313c5dfc3b1c48c31fc8f22e69d4a661669826c330e67df000ede4ef4e60",
           "start": 0
         }
       ],
@@ -15539,12 +15539,12 @@
         ]
       },
       "fullHash": "f8684c",
-      "generation": "e087396c62a44915d5c2",
+      "generation": "067fdaeb9a07b9538d05",
       "hash": "f8684c",
       "source": {
-        "duration": 45.844898,
+        "duration": 42.710204,
         "file": null,
-        "sha256": "0c95af295201b7e3a07a986c4b73486645f21652584cca6d6b2b15b858322f45"
+        "sha256": "26041f146a0e4ab7b71a6ddfefbfca554d469e95ca84fc445e991b16795cd108"
       },
       "text": "Trying Times. Before Howin Kindfeather can fly through the Wetlands, Bassbeak needs a meal. He seeks a dozen intact eggs from the fierce Razormaw raptors. Howin Kindfeather tends Bassbeak in the Wetlands. The dwarf will not fly with his gryphon until her hunger is eased. A hungry gryphon can be stubborn and unpredictable. She may lash out, so a proper meal must come before any flight through the marshes. Howin seeks food for Bassbeak among the Razormaw raptors. Their nests lie at Raptor Ridge to the northeast and Saltspray Glen to the northwest. Razormaw eggs have yolks as large as a gnome's head. Howin wants those substantial meals to satisfy Bassbeak before she faces the dangers of the Wetlands."
     },
@@ -17521,6 +17521,16 @@
       446,
       667,
       818
+    ],
+    "3ebeae58e7fc3091b2b3043a5d0e552a60a9b98dbba297d5aebd08f03ea57523": [
+      263,
+      542,
+      760,
+      1227,
+      1483,
+      1638,
+      1956,
+      2139
     ],
     "3fd59967736846afb0d395ca64dd10878311d95f530be538fe1f7938101c85eb": [
       260,
@@ -19850,17 +19860,6 @@
       1103,
       1277
     ],
-    "a0cdcc8c0a6c6e540927505faf04bc58a404e46a30be61630973783807771a29": [
-      224,
-      520,
-      754,
-      1112,
-      1377,
-      1515,
-      1689,
-      1994,
-      2180
-    ],
     "a136b920f11a7f3a619b3a428ca2aa4116772fa5d0be9c885ce4af7f7b3cc00f": [
       264,
       483,
@@ -21222,15 +21221,6 @@
       2393,
       2555
     ],
-    "d2b3a1806b174e5c8e98c6256dbbf1ff2a5a684c2380604c4d3d8ab8f9b1de94": [
-      193,
-      378,
-      665,
-      994,
-      1143,
-      1358,
-      1500
-    ],
     "d314efe8885d965bab0fc251cebcd8127eb4dd08884584480ccee45587ea8cbe": [
       479
     ],
@@ -21291,6 +21281,13 @@
       833,
       1059,
       1284
+    ],
+    "d6d6313c5dfc3b1c48c31fc8f22e69d4a661669826c330e67df000ede4ef4e60": [
+      175,
+      400,
+      941,
+      1077,
+      1269
     ],
     "d738cd7fa9af3a585341aa41d545085536d52aad9b863942e8aa0c604273f880": [
       199,
@@ -22833,6 +22830,10 @@
     "3d487f4cc118d11e473825eddb5568dc0313a8c2c9981523397c156e816666b6": {
       "229": 1
     },
+    "3ebeae58e7fc3091b2b3043a5d0e552a60a9b98dbba297d5aebd08f03ea57523": {
+      "1483": 2,
+      "542": 1
+    },
     "3fd59967736846afb0d395ca64dd10878311d95f530be538fe1f7938101c85eb": {
       "1112": 2,
       "431": 1
@@ -23701,10 +23702,6 @@
       "463": 1,
       "967": 2
     },
-    "a0cdcc8c0a6c6e540927505faf04bc58a404e46a30be61630973783807771a29": {
-      "1515": 2,
-      "520": 1
-    },
     "a136b920f11a7f3a619b3a428ca2aa4116772fa5d0be9c885ce4af7f7b3cc00f": {
       "1234": 2,
       "483": 1
@@ -24216,10 +24213,6 @@
       "1702": 2,
       "639": 1
     },
-    "d2b3a1806b174e5c8e98c6256dbbf1ff2a5a684c2380604c4d3d8ab8f9b1de94": {
-      "378": 1,
-      "994": 2
-    },
     "d31883aa0170e143d1517137c148e6c7c1df5dc6987ed4975a31b43fc64ed466": {
       "528": 1
     },
@@ -24240,6 +24233,10 @@
     "d68b22c317b2be458e79eb620535d3b746c91062e6af991f9c98937d2faecedf": {
       "246": 1,
       "833": 2
+    },
+    "d6d6313c5dfc3b1c48c31fc8f22e69d4a661669826c330e67df000ede4ef4e60": {
+      "400": 1,
+      "941": 2
     },
     "d738cd7fa9af3a585341aa41d545085536d52aad9b863942e8aa0c604273f880": {
       "1282": 2,

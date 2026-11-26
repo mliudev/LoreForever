@@ -388,7 +388,7 @@ end)
 
 -- Voice and language packs: what's installed and loaded, and that our own packs load (no version comparison: a pack
 -- is fine at any version whose format this add-on reads; how many of a voice's stories show as text is said, as
--- Options > Installed packs and NoticeOutdated count it).
+-- Options > Packs > Installed packs and NoticeOutdated count it).
 check("packs", {
   function(c)
     local core = meta(addonName, "Version")
@@ -673,13 +673,14 @@ check("Options", {
     if why then return false end
     if p.SelectTab then
       local missingTabs = {}
-      for _, tabKey in ipairs(ns.Options.TABS or { "audio", "screen", "keys", "willo", "general" }) do
+      for _, tabKey in ipairs(ns.Options.TABS or { "audio", "packs", "screen", "keys", "willo", "general" }) do
         p.SelectTab(tabKey)
         local tf = p.tabFrames and p.tabFrames[tabKey]
         if not (tf and tf.sf and tf.sf:IsShown()) then missingTabs[#missingTabs + 1] = tabKey end
       end
-      expect("Options: 5 tabs switch cleanly", #missingTabs == 0,
-        #missingTabs == 0 and "Audio, On Screen, Keys, Willo, General" or ("not shown: " .. table.concat(missingTabs, ", ")))
+      expect("Options: 6 tabs switch cleanly", #missingTabs == 0,
+        #missingTabs == 0 and "Audio, Packs, On Screen, Keys, Willo, General"
+          or ("not shown: " .. table.concat(missingTabs, ", ")))
       p.SelectTab("audio")
     end
     local wrong, unknown = {}, {}

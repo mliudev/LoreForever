@@ -92,7 +92,7 @@ local LANGUAGES_URL = "loreforeverwow.com/translate"
 
 -- Session-only tab memory: Audio opens on first entry; reopening Settings in the same play session returns to the
 -- last tab. Never stored in LoreForeverDB so opening/switching tabs causes zero SavedVariables mutation.
-Options.TABS = { "audio", "screen", "keys", "willo", "general" }
+Options.TABS = { "audio", "packs", "screen", "keys", "willo", "general" }
 Options.activeTab = Options.activeTab or "audio"
 
 local PALETTE = {
@@ -648,7 +648,7 @@ local function buildVolumeControls(parent, onPreviewMsg)
   return row
 end
 
--- Narrator and voice packs details block (lives inside the collapsible disclosure on Audio).
+-- Narrator and voices details block (lives inside the collapsible fold on Audio).
 local VROW = 38
 local MODES = { "story", "line", "zone" }
 function Options.VoiceSection(parent, onLayout, onPreviewError)
@@ -724,27 +724,20 @@ function Options.VoiceSection(parent, onLayout, onPreviewError)
   setTip(offers, L["Show download buttons"], L["A dimmed play button where a free download has the voice for that quest or story."])
   offers:SetScript("OnClick", function(self) ns.VoiceOffer.SetEnabled(self:GetChecked()) end)
   offers:HookScript("OnShow", function(self) self:SetChecked(ns.VoiceOffer.Enabled()) end)
+  offersRow.cb = offers
+  function offersRow.Layout(w)
+    offersText:SetWidth(math.max(100, w - 32))
+    local h = math.max(26, strHeight(offersText, 16) + 6)
+    offersRow:SetSize(w, h)
+    return h
+  end
 
   local packHintsRow, packHintsCb = makeCheckRow(container, "packHints", L["Narration pack hints"],
     L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."])
 
-  local hint = makeNote(container, L["Installed a voice? Type /reload; it's added at the bottom of the narrator list."])
-  local packsHead = makeHeading(container, L["Installed packs"])
-  local packsHelp = makeNote(container, L["Several packs add recordings to the same narrator above. Language packs are chosen in Options > Language; reload to change language."])
-  local packsList = makeNote(container, "")
-
-  local resetBtn = themedButton(container, L["Reset heard narrations"])
-  resetBtn:SetSize(200, 24)
-  fit(resetBtn, 200)
-  setTip(resetBtn, L["Reset heard narrations"],
-    L["Skip what you've heard"] .. ": " .. L["Don't replay a narration by itself once this character has heard it. You can still play it any time."])
-  resetBtn:SetScript("OnClick", function()
-    local n = ns.Voice.ResetHeard()
-    DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. string.format(n == 1
-      and L["forgot %d narration this character heard; it plays by itself again."]
-      or L["forgot %d narrations this character heard; they play by themselves again."], n))
-    if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
-  end)
+  local hint = makeNote(container,
+    tr("Installed a voice? Type /reload; it's added at the bottom of the narrator list in Audio.",
+      "Installed a voice? Type /reload; it's added at the bottom of the narrator list."))
 
   local modeNames = { story = L["Keep one voice per story"], line = L["Use the first voice for each narration"],
     zone = L["Keep one voice per zone"] }
@@ -912,30 +905,6 @@ function Options.VoiceSection(parent, onLayout, onPreviewError)
     end
     for i = #items + 1, #rows do rows[i]:Hide() end
     box:SetHeight(math.max(y, VROW))
-    local installed, text = ns.Voice.InstalledPacks(), {}
-    for _, it in ipairs(installed) do
-      local detail = it.language .. ns.Lang.Dotted(" · ") .. it.status
-      if it.counts then
-        detail = detail .. "\n" .. (it.checked and not it.questPageCheck and L["Current:"] or L["Installed:"]) .. " " .. string.format(L["%d lore recordings · %d quest dialogue · %d lore answers"],
-          it.counts.lore, it.counts.quest, it.counts.answer)
-        if not it.checked then
-          detail = detail .. ns.Lang.Dotted(" · ") .. L["current/outdated: switch language to check"]
-        elseif it.stale > 0 then
-          detail = detail .. ns.Lang.Dotted(" · ") .. string.format(L["%d outdated"], it.stale)
-        end
-        if it.counts.unknown > 0 then detail = detail .. ns.Lang.Dotted(" · ") .. string.format(L["%d unrecognized"], it.counts.unknown) end
-        if it.questPageCheck then detail = detail .. "\n" .. L["Quest dialogue is checked against the quest page when opened."] end
-      elseif it.support then
-        detail = detail .. "\n" .. string.format(L["Playback support for %d recordings"], it.support)
-      elseif it.entries then
-        detail = detail .. "\n" .. string.format(L["%d translated entries · %d translated strings"], it.entries, it.strings)
-      else
-        detail = detail .. ns.Lang.Dotted(" · ") .. L["Counts not checked"]
-      end
-      text[#text + 1] = T.code.gold .. it.title .. (it.narrator and (ns.Lang.Dotted(" · ") .. it.narrator) or "") .. "|r\n" .. detail
-    end
-    packsList:SetText(table.concat(text, "\n\n"))
-    section.packs = installed
 
     local cur = (LoreForeverDB and LoreForeverDB.settings.voiceGroup) or "story"
     mode:SetText(modeNames[cur] or modeNames.story)
@@ -967,63 +936,44 @@ function Options.VoiceSection(parent, onLayout, onPreviewError)
   end
 
   function section.Layout(w)
-    local y = 0
-    local function placeFS(fs, gap)
-      fs:ClearAllPoints()
-      fs:SetPoint("TOPLEFT", 0, -y)
-      fs:SetWidth(w)
-      y = y + strHeight(fs, 14) + (gap or 8)
-    end
-    local function placeFrame(f, h, gap)
+    local gutter = 28
+    local twoCol = w >= 540
+    local colW = twoCol and math.floor((w - gutter) / 2) or w
+    local xR = twoCol and (colW + gutter) or 0
+    local function put(f, x, y, cw)
+      f:Show()
       f:ClearAllPoints()
-      f:SetPoint("TOPLEFT", 0, -y)
-      f:SetWidth(w)
-      y = y + h + (gap or 6)
+      f:SetPoint("TOPLEFT", x, -y)
+      if cw then f:SetWidth(cw) end
     end
-    placeFS(narratorHead, 4)
-    placeFS(intro, 8)
+    local yl = 0
+    put(narratorHead, 0, yl, colW); yl = yl + strHeight(narratorHead, 14) + 4
+    put(intro, 0, yl, colW); yl = yl + strHeight(intro, 14) + 8
     box:ClearAllPoints()
-    box:SetPoint("TOPLEFT", 0, -y)
-    box:SetWidth(w)
+    box:SetPoint("TOPLEFT", 0, -yl)
+    box:SetWidth(colW)
     local listH = 0
     for _, r in ipairs(rows) do
       if r:IsShown() then
         r:ClearAllPoints()
         r:SetPoint("TOPLEFT", 0, -listH)
-        listH = listH + r.Layout(w)
+        listH = listH + r.Layout(colW)
       end
     end
-    local boxH = math.max(listH, VROW)
-    box:SetHeight(boxH)
-    y = y + boxH + 8
+    box:SetHeight(math.max(listH, VROW))
+    yl = yl + math.max(listH, VROW) + 8
 
-    placeFrame(fillGenderRow, fillGenderRow.Layout(w), 6)
-    placeFS(modeLabel, 4)
-    mode:ClearAllPoints()
-    mode:SetPoint("TOPLEFT", 0, -y)
-    mode:SetWidth(math.min(w, 280))
-    y = y + 30
-    placeFrame(raceRow, raceRow.Layout(w), 4)
-    placeFrame(genderRow, genderRow.Layout(w), 12)
-    placeFS(willoHead, 4)
-    placeFS(willoNote, 10)
-    placeFS(status, 10)
-    local uh = moreUrl.Layout(w)
-    placeFrame(moreUrl, uh, 6)
-    offersText:SetWidth(math.max(100, w - 32))
-    local oh = math.max(26, strHeight(offersText, 16) + 6)
-    offersRow:SetSize(w, oh)
-    placeFrame(offersRow, oh, 4)
-    placeFrame(packHintsRow, packHintsRow.Layout(w), 6)
-    placeFS(hint, 12)
-    placeFS(packsHead, 4)
-    placeFS(packsHelp, 8)
-    placeFS(packsList, 14)
-    resetBtn:ClearAllPoints()
-    resetBtn:SetPoint("TOPLEFT", 0, -y)
-    y = y + 28
-    container:SetSize(w, y)
-    return y
+    local yr = twoCol and 0 or (yl + 6)
+    put(fillGenderRow, xR, yr); yr = yr + fillGenderRow.Layout(colW) + 6
+    put(modeLabel, xR, yr, colW); yr = yr + strHeight(modeLabel, 14) + 4
+    put(mode, xR, yr); mode:SetWidth(math.min(colW, 280)); yr = yr + 30
+    put(raceRow, xR, yr); yr = yr + raceRow.Layout(colW) + 4
+    put(genderRow, xR, yr); yr = yr + genderRow.Layout(colW) + 12
+    put(willoHead, xR, yr, colW); yr = yr + strHeight(willoHead, 14) + 4
+    put(willoNote, xR, yr, colW); yr = yr + strHeight(willoNote, 14) + 8
+    local h = twoCol and math.max(yl, yr) or yr
+    container:SetSize(w, h)
+    return h
   end
 
   mode:SetScript("OnClick", function()
@@ -1040,10 +990,348 @@ function Options.VoiceSection(parent, onLayout, onPreviewError)
   section.rows, section.box, section.mode, section.modeList = rows, box, mode, modeList
   section.status, section.url, section.race = status, moreUrl.url, race
   section.fillGender, section.gender = fillGender, gender
-  section.packsList, section.packsHead = packsList, packsHead
   section.packHintsCb = packHintsCb
-  section.resetHeard = resetBtn
+  section.packsControls = { status = status, moreUrl = moreUrl, offersRow = offersRow,
+    packHintsRow = packHintsRow, hint = hint }
   return section, container
+end
+
+-- Compact installed-packs list grouped by narrator and language, with full counts on hover.
+local LANG_KIND = { lang = true, ["lang-overlay"] = true, ["edition-text"] = true, ["edition-voice"] = true }
+function Options.PackList(parent)
+  local list = { rows = {}, heads = {}, order = {}, groups = {}, showHead = true }
+  local c = CreateFrame("Frame", nil, parent)
+  list.container = c
+  local head = makeHeading(c, L["Installed packs"])
+  local help = makeNote(c, L["Each voice pack adds recordings to one of your narrators. Language packs are picked in General > Language."])
+  local empty = makeNote(c, L["None yet."])
+  empty:Hide()
+  list.head, list.help, list.empty = head, help, empty
+
+  local function plain(title)
+    local s = tostring(title or "")
+    s = s:gsub("^Lore Forever: ", ""):gsub(" %(female narrator%)$", ""):gsub(" %(male narrator%)$", "")
+    s = s:gsub(" %(original male narrator%)$", ""):gsub("^quest givers' voices, ", "")
+    if s:match("^Lore Forever .*narrator$") then s = L["Core stories"] end
+    return (s:gsub("^%l", string.upper))
+  end
+
+  local function groupOf(it)
+    local n = it.name or ""
+    local rec = ns.Packs.Get(n)
+    local kind = (rec and rec.kind) or it.kind
+    if LANG_KIND[kind] then
+      return "lang", L["Language packs"]
+    end
+    local key, title
+    if n:find("QuestGivers", 1, true) then
+      key, title = "givers", L["Quest givers' voices"]
+    elseif n:find("_Female", 1, true) then
+      key, title = "female", (ns.Packs.Get("LoreForever_Voice_Female") or {}).title or "Lore Forever female narrator"
+    elseif n:find("_Original", 1, true) then
+      key, title = "original", (ns.Packs.Get("LoreForever_Voice_Original") or {}).title or "Lore Forever original male narrator"
+    elseif n:find("^LoreForever_Voice_Default") then
+      key, title = "male", (ns.Packs.Get("LoreForever_Voice_Default") or {}).title or "Lore Forever male narrator"
+    elseif kind == "voice" or kind == "transport" then
+      local base = (rec and (rec.transportFor or rec.extends)) or (ns.Voice and ns.Voice.KeyOf and ns.Voice.KeyOf(n)) or n
+      key = "voice:" .. base
+      title = (ns.Packs.Get(base) or {}).title or it.narrator or it.title
+    else
+      key, title = "other:" .. n, it.narrator or it.title
+    end
+    return key .. "|" .. tostring(it.language), title .. ns.Lang.Dotted(" · ") .. tostring(it.language)
+  end
+
+  local function detail(it)
+    local d = it.language .. ns.Lang.Dotted(" · ") .. it.status
+    if it.counts then
+      local countsLine = it.counts.answer > 0
+        and string.format(L["%d lore recordings · %d quest dialogue · %d lore answers"],
+          it.counts.lore, it.counts.quest, it.counts.answer)
+        or string.format(L["%d lore recordings · %d quest dialogue"],
+          it.counts.lore, it.counts.quest)
+      d = d .. "\n" .. (it.checked and not it.questPageCheck and L["Current:"] or L["Installed:"]) .. " " .. countsLine
+      if not it.checked then
+        d = d .. ns.Lang.Dotted(" · ") .. L["current/outdated: switch language to check"]
+      elseif it.stale > 0 then
+        d = d .. ns.Lang.Dotted(" · ") .. string.format(L["%d outdated"], it.stale)
+      end
+      if it.counts.unknown > 0 then
+        d = d .. ns.Lang.Dotted(" · ") .. string.format(L["%d unrecognized"], it.counts.unknown)
+      end
+      if it.questPageCheck then
+        d = d .. "\n" .. L["Quest dialogue is checked against the quest page when opened."]
+      end
+    elseif it.support then
+      d = d .. "\n" .. string.format(L["Playback support for %d recordings"], it.support)
+    elseif it.entries then
+      d = d .. "\n" .. string.format(L["%d translated entries · %d translated strings"], it.entries, it.strings)
+    elseif not LANG_KIND[it.kind] then
+      d = d .. ns.Lang.Dotted(" · ") .. L["Counts not checked"]
+    end
+    return d
+  end
+
+  local function short(it)
+    local loaded = it.status == L["Loaded"] or it.status == L["In use"] or it.status == L["Playback support loaded"]
+    local calm = loaded or it.status == L["Pick it in General > Language"]
+    local state = calm and it.status or (T.code.warn .. it.status .. "|r")
+    local n
+    if it.counts then n = string.format(L["%d recordings"], it.counts.lore + it.counts.quest + it.counts.answer)
+    elseif it.support then n = string.format(L["%d recordings"], it.support)
+    elseif it.entries and it.entries > 0 then n = string.format(L["%d entries"], it.entries) end
+    return state .. (n and (ns.Lang.Dotted(" · ") .. n) or ""), loaded
+  end
+
+  local function row(i)
+    if list.rows[i] then return list.rows[i] end
+    local r = CreateFrame("Frame", nil, c)
+    r:EnableMouse(true)
+    local hl = r:CreateTexture(nil, "HIGHLIGHT")
+    hl:SetAllPoints()
+    hl:SetColorTexture(1, 1, 1, 0.06)
+    r.name = r:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    r.name:SetPoint("LEFT", 12, 0)
+    wrapRegion(r.name)
+    r.right = r:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    r.right:SetPoint("RIGHT", -4, 0)
+    r.right:SetJustifyH("RIGHT")
+    if r.right.SetWordWrap then r.right:SetWordWrap(true) end
+    r.right:SetTextColor(T.rgba(T.color.muted))
+    r:SetScript("OnEnter", function(self)
+      if not (_G.GameTooltip and self.item) then return end
+      GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+      GameTooltip:AddLine(self.item.title)
+      T.Tip(self.detail, "tipText", true)
+      GameTooltip:Show()
+    end)
+    r:SetScript("OnLeave", function() if _G.GameTooltip then GameTooltip:Hide() end end)
+    list.rows[i] = r
+    return r
+  end
+
+  local function headFor(i)
+    if list.heads[i] then return list.heads[i] end
+    local h = makeNote(c, "", "GameFontNormalSmall", T.color.gold)
+    list.heads[i] = h
+    return h
+  end
+
+  function list.MakeRows(n)
+    for i = 1, n do
+      row(i):Hide()
+      headFor(i):Hide()
+    end
+  end
+
+  function list.Update()
+    local items = ns.Voice.InstalledPacks()
+    local groups, order, langGroup = {}, {}, nil
+    for _, it in ipairs(items) do
+      local key, title = groupOf(it)
+      if key == "lang" then
+        langGroup = langGroup or { title = title, items = {} }
+        table.insert(langGroup.items, it)
+      else
+        if not groups[key] then
+          groups[key] = { title = title, items = {} }
+          order[#order + 1] = key
+        end
+        table.insert(groups[key].items, it)
+      end
+    end
+    if langGroup then
+      table.sort(langGroup.items, function(a, b)
+        local la, lb = tostring(a.language or ""):lower(), tostring(b.language or ""):lower()
+        if la ~= lb then return la < lb end
+        return tostring(a.name or "") < tostring(b.name or "")
+      end)
+      groups["lang"] = langGroup
+      order[#order + 1] = "lang"
+    end
+    local ri, allLoaded = 0, true
+    for gi, key in ipairs(order) do
+      local h = headFor(gi)
+      local g = groups[key]
+      h:SetText(g.title .. ns.Lang.Dotted(" · ") .. string.format(#g.items == 1 and L["%d pack"] or L["%d packs"], #g.items))
+      for _, it in ipairs(g.items) do
+        ri = ri + 1
+        local r = row(ri)
+        r.item, r.detail = it, detail(it)
+        r.name:SetText(LANG_KIND[it.kind] and (it.language or plain(it.title)) or plain(it.title))
+        local text, loaded = short(it)
+        r.right:SetText(text)
+        allLoaded = allLoaded and loaded
+      end
+    end
+    for i = ri + 1, #list.rows do list.rows[i]:Hide() end
+    for i = #order + 1, #list.heads do list.heads[i]:Hide() end
+    list.groups, list.order, list.n = groups, order, ri
+    list.summary = string.format(#items == 1 and L["%d pack"] or L["%d packs"], #items)
+      .. (allLoaded and (ns.Lang.Dotted(" · ") .. L["all loaded"]) or "")
+    return list.summary
+  end
+
+  function list.Layout(w)
+    local y = 0
+    if list.showHead then
+      head:Show(); head:ClearAllPoints(); head:SetPoint("TOPLEFT", 0, -y); head:SetWidth(w)
+      y = y + strHeight(head, 16) + 4
+    else
+      head:Hide()
+    end
+    help:ClearAllPoints(); help:SetPoint("TOPLEFT", 0, -y); help:SetWidth(w)
+    y = y + strHeight(help, 14) + 10
+    if #list.order == 0 then
+      empty:Show(); empty:ClearAllPoints(); empty:SetPoint("TOPLEFT", 0, -y); empty:SetWidth(w)
+      y = y + strHeight(empty, 14) + 6
+    else
+      empty:Hide()
+    end
+    local ri = 0
+    for gi, key in ipairs(list.order) do
+      local h = list.heads[gi]
+      h:Show(); h:ClearAllPoints(); h:SetPoint("TOPLEFT", 0, -y); h:SetWidth(w)
+      y = y + strHeight(h, 14) + 3
+      for _ in ipairs(list.groups[key].items) do
+        ri = ri + 1
+        local r = list.rows[ri]
+        local rw = math.max(186, math.min(math.floor(w * 0.6), strWidth(r.right, 100) + 8))
+        local nw = math.max(100, w - 12 - rw - 8)
+        r.name:SetWidth(nw)
+        r.right:SetWidth(rw)
+        local textH = math.max(strHeight(r.name, 14), strHeight(r.right, 14))
+        local rh = textH > 15 and (textH + 6) or 17
+        r:Show(); r:ClearAllPoints(); r:SetPoint("TOPLEFT", 0, -y); r:SetSize(w, rh)
+        y = y + rh
+      end
+      y = y + 10
+    end
+    c:SetSize(w, y)
+    return y
+  end
+
+  return list
+end
+
+-- Reset heard narrations row with in-place Undo while Options remains open (no modal popup; safe on controller UI).
+local function makeResetHeardRow(parent, relayoutFn)
+  local resetBtn = themedButton(parent, L["Reset heard narrations"])
+  resetBtn:SetSize(180, 22)
+  fit(resetBtn, 170)
+  setTip(resetBtn, L["Reset heard narrations"],
+    L["This character forgets what it has heard, so narrations play by themselves again."])
+
+  local note = parent:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+  wrapRegion(note)
+  note:Hide()
+
+  local undoBtn = themedButton(parent, L["Undo"])
+  undoBtn:SetSize(70, 22)
+  fit(undoBtn, 60)
+  undoBtn:Hide()
+
+  local undo, emptyMsg
+  local function say(msg) DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. msg) end
+
+  resetBtn:SetScript("OnClick", function()
+    local n, snap = ns.Voice.ResetHeard()
+    if n == 0 then
+      undo, emptyMsg = nil, L["Nothing heard yet on this character."]
+      note:SetText(emptyMsg)
+      say(emptyMsg)
+      relayoutFn()
+      return
+    end
+    emptyMsg = nil
+    undo = { n = n, snap = snap }
+    local msg = string.format(n == 1 and L["Reset. %d narration will play again."]
+      or L["Reset. %d narrations will play again."], n)
+    note:SetText(msg)
+    say(msg)
+    if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
+    relayoutFn()
+  end)
+
+  undoBtn:SetScript("OnClick", function()
+    if not undo then return end
+    ns.Voice.RestoreHeard(undo.snap)
+    local msg = string.format(undo.n == 1 and L["Put back: %d narration heard."]
+      or L["Put back: %d narrations heard."], undo.n)
+    say(msg)
+    undo = nil
+    if ns.UI and ns.UI.UpdateListen and ns.UI.frame then ns.UI.UpdateListen() end
+    relayoutFn()
+  end)
+
+  local entry = {
+    frame = resetBtn,
+    button = resetBtn,
+    note = note,
+    undoButton = undoBtn,
+    gapBefore = 0,
+    gapAfter = 8,
+    clear = function()
+      if undo or emptyMsg then
+        undo, emptyMsg = nil, nil
+        relayoutFn()
+      end
+    end,
+    place = function(y, w)
+      if not undo and not emptyMsg then
+        note:Hide(); undoBtn:Hide()
+        resetBtn:Show(); resetBtn:ClearAllPoints(); resetBtn:SetPoint("TOPLEFT", 30, -y)
+        return 22
+      end
+      resetBtn:Hide()
+      local bw = tonumber(undoBtn:GetWidth()) or 60
+      local nw = undo and math.max(80, math.min(130, w - 30 - bw - 10)) or math.max(80, w - 30 - 16)
+      note:Show(); note:ClearAllPoints(); note:SetWidth(nw)
+      local h = math.max(12, strHeight(note, 12))
+      local rowH = math.max(22, h + 4)
+      note:SetPoint("TOPLEFT", 30, -y - math.floor((rowH - h) / 2))
+      if undo then
+        undoBtn:Show(); undoBtn:ClearAllPoints()
+        undoBtn:SetPoint("TOPLEFT", 30 + nw + 10, -y - math.floor((rowH - 22) / 2))
+      else
+        undoBtn:Hide()
+      end
+      return rowH
+    end,
+  }
+  return entry
+end
+
+-- Populate the Packs tab with top status/links/switches and the grouped Installed packs list below.
+local function buildPacksTab(packsTab, voiceSection, packList)
+  local pc = packsTab.child
+  local d = voiceSection.packsControls
+  for _, f in ipairs({ d.status, d.moreUrl, d.offersRow, d.packHintsRow, d.hint }) do f:SetParent(pc) end
+  packsTab.layout = function(w)
+    w = math.max(260, (type(w) == "number" and w > 0) and w or 580)
+    pc:SetWidth(w)
+    local pad, gutter = 16, 28
+    local twoCol = w >= 540
+    local colW = twoCol and math.floor((w - pad * 2 - gutter) / 2) or (w - pad * 2)
+    local xR = twoCol and (pad + colW + gutter) or pad
+    local function put(f, x, y, cw)
+      f:Show(); f:ClearAllPoints(); f:SetPoint("TOPLEFT", pc, "TOPLEFT", x, -y)
+      if cw then f:SetWidth(cw) end
+    end
+    local yl = 14
+    put(d.status, pad, yl, colW); yl = yl + strHeight(d.status, 14) + 8
+    put(d.moreUrl, pad, yl); yl = yl + d.moreUrl.Layout(colW) + 8
+    put(d.hint, pad, yl, colW); yl = yl + strHeight(d.hint, 14)
+
+    local yr = twoCol and 14 or (yl + 12)
+    put(d.offersRow, xR, yr); yr = yr + d.offersRow.Layout(colW) + 4
+    put(d.packHintsRow, xR, yr); yr = yr + d.packHintsRow.Layout(colW)
+
+    local y = (twoCol and math.max(yl, yr) or yr) + 18
+    put(packList.container, pad, y)
+    y = y + packList.Layout(w - pad * 2)
+    pc:SetHeight(y + 16)
+  end
 end
 
 function Options.Create()
@@ -1102,7 +1390,7 @@ function Options.Create()
   reload:Hide()
   p.reload = reload
 
-  -- 5-Tab Bar -------------------------------------------------------------------------------------------------------
+  -- 6-Tab Bar -------------------------------------------------------------------------------------------------------
   local tabBar = CreateFrame("Frame", nil, p)
   tabBar:SetPoint("TOPLEFT", header, "BOTTOMLEFT", 0, 0)
   tabBar:SetPoint("TOPRIGHT", header, "BOTTOMRIGHT", 0, 0)
@@ -1113,6 +1401,7 @@ function Options.Create()
 
   local tabSpecs = {
     { key = "audio", label = L["Audio"], scrollName = "LoreForeverOptionsScroll" },
+    { key = "packs", label = L["Packs"], scrollName = "LoreForeverOptionsScrollPacks" },
     { key = "screen", label = L["On Screen"], scrollName = "LoreForeverOptionsScrollScreen" },
     { key = "keys", label = L["Keys"], scrollName = "LoreForeverOptionsScrollKeys" },
     { key = "willo", label = ns.COMPANION_NAME, scrollName = "LoreForeverOptionsScrollWillo" },
@@ -1322,6 +1611,7 @@ function Options.Create()
     L["Read the story of each zone aloud while on a flight path."])
   local skipHeardRow = addCheck(aL, "skipHeard", L["Skip what you've heard"],
     L["Don't replay a narration by itself once this character has heard it. You can still play it any time."])
+  local resetEntry = makeResetHeardRow(aL, function() relayout("audio") end)
   local recapsRow = addCheck(aL, "recaps", L["Storyline recaps"],
     L["At a storyline's turning points, the narrator retells what you've done so far. Never during a fight."])
   local playInCombatRow, playInCombatCb = addCheck(aL, "playInCombat", L["Keep narration playing in combat"],
@@ -1358,8 +1648,8 @@ function Options.Create()
       if ns.Voice and ns.Voice.SetQuestObjectives then ns.Voice.SetQuestObjectives(self:GetChecked()) end
     end)
 
-  -- Collapsible disclosure: Narrator and voice packs
-  local voiceToggle = CreateFrame("Button", nil, aR)
+  -- Collapsible fold: Narrator and voices (full width under both columns on Audio)
+  local voiceToggle = CreateFrame("Button", nil, audioTab.child)
   voiceToggle:SetHeight(26)
   local vtTopRule = fillColor(voiceToggle:CreateTexture(nil, "BORDER"), PALETTE.ruleSoft)
   vtTopRule:SetPoint("TOPLEFT"); vtTopRule:SetPoint("TOPRIGHT"); vtTopRule:SetHeight(1)
@@ -1374,7 +1664,7 @@ function Options.Create()
   voiceToggle.icon = vtIcon
   voiceToggle.text = vtText
 
-  local voiceSection, voiceContainer = Options.VoiceSection(aR, function() relayout("audio") end, function() relayout("audio") end)
+  local voiceSection, voiceContainer = Options.VoiceSection(audioTab.child, function() relayout("audio") end, function() relayout("audio") end)
   voiceSection.volume, voiceSection.volumeValue, voiceSection.volumeNote = vol.slider, vol.value, vol.note
   voiceSection.volumeLabel, voiceSection.volumeNew, voiceSection.SyncVolume = vol.label, vol.new, vol.Sync
   voiceSection.channel, voiceSection.channelList, voiceSection.channelLabel = vol.channel, vol.channelList, vol.pick
@@ -1390,14 +1680,16 @@ function Options.Create()
     p.checks[#p.checks + 1] = voiceSection.packHintsCb
   end
   p.voice = voiceSection
-  p.resetHeard = voiceSection.resetHeard
+  p.resetHeard = resetEntry.button
+  p.resetHeardRow = resetEntry
+  voiceSection.resetHeard = resetEntry.button
 
   function voiceSection.SetExpanded(on)
     voiceSection.expanded = on and true or false
     vtIcon:SetTexture(voiceSection.expanded
       and "Interface\\ChatFrame\\UI-ChatIcon-ScrollDown-Up"
       or (T and T.ARROW or "Interface\\ChatFrame\\ChatFrameExpandArrow"))
-    vtText:SetText(L["Narrator and voice packs"])
+    vtText:SetText(L["Narrator and voices"])
     voiceContainer:SetShown(voiceSection.expanded)
     if voiceSection.expanded then voiceSection.Update() end
     relayout("audio")
@@ -1425,8 +1717,6 @@ function Options.Create()
     relayout("audio")
   end)
 
-  -- Re-hook autoZone/narrateFlights OnClick? Standard addCheck already writes LoreForeverDB.settings[key].
-  -- Hook OnClick on autoZone/narrateFlights so nothing extra is needed; hook Waiting on audio refresh.
   local audioLeftEntries = {
     headingEntry(vol.head, 0),
     { frame = vol.sliderRow, gapAfter = 4, place = function(y, w) vol.Layout(w); vol.sliderRow:Show(); vol.sliderRow:ClearAllPoints(); vol.sliderRow:SetPoint("TOPLEFT", 0, -y); return 28 end },
@@ -1468,6 +1758,7 @@ function Options.Create()
     rowEntry(autoZoneRow),
     rowEntry(flightsRow),
     rowEntry(skipHeardRow),
+    resetEntry,
     rowEntry(recapsRow),
     rowEntry(playInCombatRow),
     noteEntry(manualNote, 4, 6, function()
@@ -1487,37 +1778,41 @@ function Options.Create()
       end,
     },
     rowEntry(questVoicesRow, nil, 0, 4),
-    rowEntry(questObjectivesRow, nil, 0, 10),
-    {
-      frame = voiceToggle,
-      gapBefore = 6,
-      gapAfter = 8,
-      place = function(y, w)
-        voiceToggle:Show()
-        voiceToggle:ClearAllPoints()
-        voiceToggle:SetPoint("TOPLEFT", 0, -y)
-        vtText:SetWidth(math.max(120, w - 24))
-        local h = math.max(28, strHeight(vtText, 16) + 12)
-        voiceToggle:SetSize(w, h)
-        return h
-      end,
-    },
-    {
-      frame = voiceContainer,
-      shown = function() return voiceSection.expanded end,
-      place = function(y, w)
-        voiceContainer:Show()
-        voiceContainer:ClearAllPoints()
-        voiceContainer:SetPoint("TOPLEFT", 0, -y)
-        return voiceSection.Layout(w)
-      end,
-    },
+    rowEntry(questObjectivesRow, nil, 0, 4),
   }
   audioTab.layout = function(w)
     layoutColumns(audioTab, w,
       function(cw) return layoutStack(aL, audioLeftEntries, cw) end,
       function(cw) return layoutStack(aR, audioRightEntries, cw) end)
+    local ww = math.max(260, (type(w) == "number" and w > 0) and w or 580)
+    local fw = ww - 32
+    local y = audioTab.child:GetHeight() - 8
+    voiceToggle:Show()
+    voiceToggle:ClearAllPoints()
+    voiceToggle:SetPoint("TOPLEFT", audioTab.child, "TOPLEFT", 16, -y)
+    vtText:SetWidth(math.max(120, fw - 24))
+    local th = math.max(28, strHeight(vtText, 16) + 12)
+    voiceToggle:SetSize(fw, th)
+    y = y + th + 8
+    if voiceSection.expanded then
+      voiceContainer:Show()
+      voiceContainer:ClearAllPoints()
+      voiceContainer:SetPoint("TOPLEFT", audioTab.child, "TOPLEFT", 16, -y)
+      y = y + voiceSection.Layout(fw) + 14
+    else
+      voiceContainer:Hide()
+    end
+    audioTab.child:SetHeight(y + 12)
   end
+
+  -- =================================================================================================================
+  -- TAB 2: PACKS
+  -- =================================================================================================================
+  local packsTab = makeTabScroll("LoreForeverOptionsScrollPacks")
+  p.tabFrames.packs = packsTab
+  p.packList = Options.PackList(packsTab.child)
+  voiceSection.packsList = p.packList.container
+  buildPacksTab(packsTab, voiceSection, p.packList)
 
   -- =================================================================================================================
   -- TAB 2: ON SCREEN
@@ -2278,6 +2573,9 @@ function Options.Create()
           vol.Sync()
           p.Waiting()
           if voiceSection.expanded then voiceSection.Update() end
+        elseif spec.key == "packs" then
+          voiceSection.Update()
+          p.packList.Update()
         elseif spec.key == "screen" then
           p.updateSize()
         elseif spec.key == "keys" then
@@ -2329,8 +2627,9 @@ function Options.Create()
     relayout(Options.CurrentTab())
   end)
 
-  -- Pre-make voice rows at login (never on an open window: LOR-481 gamepad taint).
+  -- Pre-make voice and pack rows at login (never on an open window: LOR-481 gamepad taint).
   p.voice.MakeRows(#ns.Packs.List("voice") + 1)
+  p.packList.MakeRows(#ns.Packs.registry + 1)
   p.updateWillo()
 
   p:SetScript("OnShow", function(self)
@@ -2353,6 +2652,7 @@ function Options.Create()
   p:SetScript("OnHide", function()
     closeAllLists()
     if ns.Voice and ns.Voice.StopPreview then ns.Voice.StopPreview() end
+    resetEntry.clear()
   end)
 
   if _G.Settings and Settings.RegisterCanvasLayoutCategory then
