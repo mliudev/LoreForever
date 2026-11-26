@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Corporal Teeka Bloodsnarl asks you to assault a graveyard in the Alterac Mountains, then return to her.",
+ "summary": "Corporal Teeka Bloodsnarl asks you to assault an Alliance graveyard in Alterac Valley, then return to her in the Alterac Mountains.",
  "sections": [
   {
    "title": "A Graveyard Assault",
@@ -27,7 +27,7 @@
     "Teeka graveyard",
     "graveyard task"
    ],
-   "answer": "Corporal Teeka Bloodsnarl asks you to assault a graveyard in the Alterac Mountains."
+   "answer": "Corporal Teeka Bloodsnarl, in the Alterac Mountains, asks you to assault a graveyard in Alterac Valley."
   },
   {
    "q": "Where is the graveyard?",
@@ -36,7 +36,7 @@
     "where to go",
     "Alterac graveyard"
    ],
-   "answer": "The graveyard is in the Alterac Mountains."
+   "answer": "The graveyards are in Alterac Valley. Pick one held by the Alliance, marked by an Alliance banner."
   },
   {
    "q": "What does Teeka ask me to do?",

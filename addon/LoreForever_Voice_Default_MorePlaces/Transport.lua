@@ -618,11 +618,11 @@ P.transport["subzone:deadwood-village"] = {
   },
 }
 P.transport["subzone:den-of-flame"] = {
-  hash = "06caec",
-  fullHash = "06caec",
-  text = "Den of Flame. Black dragonkin hold the Den of Flame in western Dustwallow Marsh, west of the Stonemaul Ruins. The Stonemaul ogres raised it as their mound, but Onyxia’s brood has driven them out. Black dragonspawn patrol the burning edge of the Den of Flame and guard its cavern entrance. The Stonemaul ogres built the rough stone stronghold as their main mound and sanctuary. Then the black dragonflight laid waste to the clan’s settlement. The brood scattered the ogres and seized the mound, where dragonspawn now keep watch beneath the shadow of Onyxia’s nearby lair.",
+  hash = "9c720d",
+  fullHash = "9c720d",
+  text = "Den of Flame. Black dragonkin hold the Den of Flame in western Dustwallow Marsh, west of the Stonemaul Ruins. The Stonemaul ogres raised it as their mound, but the black dragonflight has driven them out. Black dragonspawn patrol the burning edge of the Den of Flame and guard its cavern entrance. The Stonemaul ogres built the rough stone stronghold as their main mound and sanctuary. Then the black dragonflight laid waste to the clan’s settlement. The brood scattered the ogres and seized the mound, where dragonspawn now keep watch beneath the shadow of the black dragons’ nearby lair.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_den-of-flame-66f678d7aa6921bab365/1-0000.mp3", duration = 36.7020408, start = 0},
+    {file = "Audio/Transport/full_subzone_den-of-flame-565705b5a0b26f1afb20/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["subzone:dire-maul"] = {
@@ -650,11 +650,11 @@ P.transport["subzone:dragonmaw-gates"] = {
   },
 }
 P.transport["subzone:dragonmurk"] = {
-  hash = "4419e8",
-  fullHash = "4419e8",
-  text = "Dragonmurk. In southern Dustwallow Marsh, black dragonspawn and hatchlings swarm Dragonmurk. Ancient ogre ruins and scorched caverns flank this dangerous tract, held by Onyxia's brood. In southern Dustwallow Marsh, wet paths and thick mud teem with black wyrmkins, dragonspawn, and hungry whelps. The black dragonflight holds the land around Dragonmurk. Stonemaul, a ruined village, and the scorched Den of Flame both lie under its control.",
+  hash = "b4eeea",
+  fullHash = "b4eeea",
+  text = "Dragonmurk. In southern Dustwallow Marsh, black dragonspawn and hatchlings swarm Dragonmurk. Ancient ogre ruins and scorched caverns flank this dangerous tract, held by the black dragonflight. You tread wet paths and thick mud here, where black wyrmkins and hungry whelps lurk. The black dragonflight holds the land around Dragonmurk. Stonemaul, a ruined village, and the scorched Den of Flame both lie under its control.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dragonmurk-4fffcb3a514bc99e5387/1-0000.mp3", duration = 28.395102, start = 0},
+    {file = "Audio/Transport/full_subzone_dragonmurk-66e02b7b5ce441081d12/1-0000.mp3", duration = 29.9102041, start = 0},
   },
 }
 P.transport["subzone:dreadmaul-post"] = {
@@ -830,7 +830,7 @@ P.transport["subzone:fallow-sanctuary"] = {
   fullHash = "49d8ac",
   text = "Fallow Sanctuary. In the Swamp of Sorrows, Fallow Sanctuary shelters a tribe cut off from the world they knew. The Lost Ones are mutated draenei, driven feral by grief and homesickness. Among the sunken trees of the Swamp of Sorrows, the Lost Ones have made Fallow Sanctuary their refuge. Separation from their ancestral world and dark energies deformed them.\n\nSorrow and isolation wore away at the tribe’s sanity. Now they are hostile and feral, attacking outsiders who enter their village. Ongeku and Noboru the Cudgel once guided Fallow Sanctuary. Their absence and deaths left the village without its leaders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fallow-sanctuary-cacd5d34f22a74a162a1/1-0000.mp3", duration = 39.6538776, start = 0},
+    {file = "Audio/Transport/full_subzone_fallow-sanctuary-6e60ea309fbb0fc44c1e/1-0000.mp3", duration = 40.7510204, start = 0},
   },
 }
 P.transport["subzone:feathermoon-stronghold-classic"] = {
@@ -958,7 +958,7 @@ P.transport["subzone:frostwhisper-gorge"] = {
   fullHash = "2950e9",
   text = "Frostwhisper Gorge. In southern Winterspring, Frostwhisper Gorge runs just north of Darkwhisper Gorge. Ancient night elven ruins lie across its icy floor and cliffs, now held by Frostmaul giants. A lone dwarf camp overlooks the ocean from the eastern rim. Frostwhisper Gorge cuts through Winterspring's southern mountains, just north of Darkwhisper Gorge. Snow covers the ravine floor and cliff ridges, where stonework from ancient night elven settlements remains. Frostmaul giants and their preservers claim the gorge now. They fiercely defend its frozen crags, making travel into the ravine perilous. A narrow, quiet track leads to a small outpost atop the gorge's eastern cliffs. Travelers flying by wyvern or gryphon between Azshara, Orgrimmar, and Winterspring may spot it from above. An Ironforge banner marks the solitary dwarven camp at the cliff's edge. Crates of provisions, barrels of ale, a comfortable chair, and a rifle leaning against its rest sit there. The camp overlooks the drop to the Great Sea below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostwhisper-gorge-bdb94a20800e3ab25ecb/1-0000.mp3", duration = 78.0016327, start = 0},
+    {file = "Audio/Transport/full_subzone_frostwhisper-gorge-18b5de13a4fc0ea407e4/1-0000.mp3", duration = 82.5991837, start = 0},
   },
 }
 P.transport["subzone:fungal-rock"] = {
@@ -1686,7 +1686,7 @@ P.transport["subzone:morgan-s-vigil"] = {
   fullHash = "cb3058",
   text = "Morgan's Vigil. Alliance defenders keep watch over the passes to Blackrock Mountain from ruined Morgan's Vigil in the Burning Steppes. Charred homes and a shattered mage tower stand around their camp, the Alliance's only foothold in a land held by Dark Iron dwarves and Blackrock orcs. You find Morgan's Vigil on high stone above the fiery wastes of the Burning Steppes. Once a modest settlement, it fell when the horrors of the region overran it. Charred timbers and a cracked mage tower mark what remains. The defenders shelter in rough canvas tents among the soot.\n\nA gryphon roost links the camp by air to Stormwind City across the mountains. Scouts, marshals, and travelers find shelter here from the warbands below. Morgan's Vigil watches against the threat of Blackrock Mountain. The Dark Iron clan delves into dark sorceries, while Blackrock orcs claim the surrounding wastes. So the defenders maintain the camp's defenses and coordinate scouting runs across the ash. They also secure the vital pass leading south into Redridge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_morgan-s-vigil-b4f01048d14dfebee746/1-0000.mp3", duration = 70.1387755, start = 0},
+    {file = "Audio/Transport/full_subzone_morgan-s-vigil-442f800582ed060b0ccc/1-0000.mp3", duration = 69.355102, start = 0},
   },
 }
 P.transport["subzone:morlos-aran"] = {
@@ -2358,7 +2358,7 @@ P.transport["subzone:shifting-mire"] = {
   fullHash = "f52e2e",
   text = "Shifting Mire. In the Swamp of Sorrows, the Shifting Mire spreads west of the Pool of Tears. Beneath its murky water, strange silt drifts and gathers under an unseen force. The Shifting Mire covers the swamp’s central reaches, where firm ground is scarce. Along the bog floor, fine silt shifts and gathers under a strange energy in the peat. Predators prowl the drifting mud: swamp jaguars, massive sorrow spinners, and hungry sawtooth crocolisks. Bands of broken draenei called the Lost Ones stalk the sunken paths.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shifting-mire-b513c31c847fd1fa4327/1-0000.mp3", duration = 29.3877551, start = 0},
+    {file = "Audio/Transport/full_subzone_shifting-mire-9a50f8b2133ed793b035/1-0000.mp3", duration = 35.6310204, start = 0},
   },
 }
 P.transport["subzone:slag-pit"] = {
@@ -2526,15 +2526,15 @@ P.transport["subzone:stonard"] = {
   fullHash = "c3b594",
   text = "Stonard. In the southern Swamp of Sorrows, Stonard holds a fortified Horde foothold. The outpost dates to the First War and watches the Blasted Lands from the marsh. Stonard began as an Old Horde post in the marsh beyond the Dark Portal. When the invaders crossed into what was then the Black Morass, Stonard and Rockard anchored their lines. Both posts were damaged and abandoned after the Second War. Thrall's New Horde rebuilt Stonard and placed a garrison there. Its Great Hall and fortified burrows now hold a Horde presence amid the dangerous swamp. Scouts and cartographers range from Stonard into the surrounding swamp. They chart its waters and watch for hostile beasts, lost draenei wanderers, and the sunken Temple of Atal'Hakkar to the east. North of the shattered Blasted Lands, the outpost also gives the Horde a staging ground. The dormant Dark Portal remains under watch.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonard-60cdb3f42d153ef1b181/1-0000.mp3", duration = 60.8391837, start = 0},
+    {file = "Audio/Transport/full_subzone_stonard-b2a316f8a9c3e0d8d699/1-0000.mp3", duration = 57.9657143, start = 0},
   },
 }
 P.transport["subzone:stonemaul-ruins"] = {
-  hash = "072c62",
-  fullHash = "072c62",
-  text = "Stonemaul Ruins. Firemane dragonspawn hold Stonemaul Ruins, the old home of the Stonemaul ogres. Driven out by the black dragonflight, the clan fled north and left its village to the brood. Stonemaul Village rose in the swamps of Dustwallow Marsh after the ogres came to Kalimdor. The beastmaster Rexxar won their respect by surviving the clan's deadly trials, killing their chieftain Kor'gall, and rallying the ogres to defend the young Horde against Admiral Proudmoore's forces.\n\nAfter the war, Rexxar left Mok'Morokk in command. But the ogre ruled for himself, and the village fell. Then the black dragonflight ambushed and shattered it. The survivors fled north and founded Brackenwall Village. Onyxia's brood claimed the ruins. Firemane dragonspawn now infest the ruins in Dragonmurk and tend the brood's nearby nesting grounds. Overlord Mok'Morokk has grown cowardly and is content to remain in Brackenwall. Older, prouder clan members Tharg and Draz'Zilb refuse to give up their homeland. From Brackenwall, they urge Horde champions to kill the dragonspawn and smash the dragonflight's eggs. They hope the Stonemaul will march back and reclaim their ancestral village.",
+  hash = "d1b850",
+  fullHash = "d1b850",
+  text = "Stonemaul Ruins. Firemane dragonspawn hold Stonemaul Ruins, the old home of the Stonemaul ogres. Driven out by the black dragonflight, the clan fled north and left its village to the brood. Stonemaul Village rose in the swamps of Dustwallow Marsh after the ogres came to Kalimdor. The beastmaster Rexxar won their respect by surviving the clan's deadly trials, killing their chieftain Kor'gall, and rallying the ogres to defend the young Horde against Admiral Proudmoore's forces.\n\nAfter the war, Rexxar left Mok'Morokk in command. But the ogre ruled for himself, and the village fell. Then the black dragonflight ambushed and shattered it. The survivors fled north and founded Brackenwall Village. Black dragons claimed the ruins. Firemane dragonspawn now infest the ruins in Dragonmurk and tend the brood's nearby nesting grounds. Overlord Mok'Morokk has grown cowardly and is content to remain in Brackenwall. Older, prouder clan members Tharg and Draz'Zilb refuse to give up their homeland. From Brackenwall, they urge Horde champions to kill the dragonspawn and smash the dragonflight's eggs. They hope the Stonemaul will march back and reclaim their ancestral village.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonemaul-ruins-117469a29de5562d8aa1/1-0000.mp3", duration = 80.7183673, start = 0},
+    {file = "Audio/Transport/full_subzone_stonemaul-ruins-6efa52328e636ec900d5/1-0000.mp3", duration = 88.8163265, start = 0},
   },
 }
 P.transport["subzone:stonewrought-pass"] = {
@@ -3178,11 +3178,11 @@ P.transport["subzone:writhing-haunt"] = {
   },
 }
 P.transport["subzone:wyrmbog"] = {
-  hash = "c95f66",
-  fullHash = "c95f66",
-  text = "Wyrmbog. Black dragons hold Wyrmbog, south of the Dragonmurk in Dustwallow Marsh. Their caves cut into the ridges, where Onyxia and Emberstrife keep their lairs. Black dragons patrol the scorched mire beneath towering bones. Whelps and mature drakes fill the air, while toxic fumes and wild beasts make the bog perilous to cross. Onyxia's Lair and Emberstrife's cavernous den lie within these reaches. The black dragonflight holds the southern marsh, and few travelers can pass safely through its territory.",
+  hash = "f64485",
+  fullHash = "f64485",
+  text = "Wyrmbog. Black dragons hold Wyrmbog, south of the Dragonmurk in Dustwallow Marsh. Their caves cut into the ridges, where Emberstrife and the black dragons keep their lairs. Black dragons patrol the scorched mire beneath towering bones. Whelps and mature drakes fill the air, while toxic fumes and wild beasts make the bog perilous to cross. Deep black-dragon caverns and Emberstrife's cavernous den lie within these reaches. The black dragonflight holds the southern marsh, and few travelers can pass safely through its territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_wyrmbog-03029143f0ca4e67b9d8/1-0000.mp3", duration = 34.6383673, start = 0},
+    {file = "Audio/Transport/full_subzone_wyrmbog-8aa43374580cad18e2a9/1-0000.mp3", duration = 40.8555102, start = 0},
   },
 }
 P.transport["subzone:yojamba-isle"] = {

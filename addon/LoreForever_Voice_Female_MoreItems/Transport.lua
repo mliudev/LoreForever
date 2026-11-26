@@ -590,7 +590,7 @@ P.transport["item:brock-s-list"] = {
   fullHash = "805726",
   text = "Brock's List. At Thelsamar, Brock Stoneseeker sends a list of mining pupils honored with picks from Ironforge's guild halls. In Khaz Modan, apprentices must prove their skill before taking on serious work in the mines. Brock records those who excel in their lessons. He entrusts the list to travelers bound for Ironforge, where the honored names can be engraved on the picks. A gryphon carries Brock's List from Thelsamar's roost to Golnir Bouldertoe at the Deep Mountain Mining Guild in Ironforge's Great Forge. There, the students' names are engraved on their honorary picks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_brock-s-list-b71712de4e0d044009b1/1-0000.mp3", duration = 39.9934694, start = 0},
+    {file = "Audio/Transport/full_item_brock-s-list-55394ff646685296a876/1-0000.mp3", duration = 39.8106122, start = 0},
   },
 }
 P.transport["item:broken-and-battered-samophlange"] = {
@@ -2670,7 +2670,7 @@ P.transport["item:honorary-picks"] = {
   fullHash = "9f4db6",
   text = "Honorary Picks. In Ironforge, Honorary Picks are bound for Brock Stoneseeker’s mining apprentices in Thelsamar. Gryphons carry the ceremonial tools to Loch Modan, where they mark students ready to work its ore veins. Mining keeps the great forges burning and brings dwarves the iron and stone they need. In Thelsamar, Brock Stoneseeker teaches young apprentices to mine. Honorary Picks from Ironforge mark the students ready to work the open ore deposits across Loch Modan. The picks travel through the Alliance gryphon network, linking Ironforge with its outlying settlements. At Ironforge’s Great Forge, Gryth Thurden receives the shipment. He sends it over the mountains to Thorgrum Borrelson in Thelsamar.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_honorary-picks-dcde8bc443addd5efe8a/1-0000.mp3", duration = 52.6106122, start = 0},
+    {file = "Audio/Transport/full_item_honorary-picks-9b4235341a6b4c46a824/1-0000.mp3", duration = 52.2187755, start = 0},
   },
 }
 P.transport["item:horn-of-arra-chea"] = {
@@ -3134,7 +3134,7 @@ P.transport["item:lewis-note"] = {
   fullHash = "284d05",
   text = "Lewis' Note. At Sentinel Hill, Quartermaster Lewis sends a courier by gryphon to seek armor for Westfall's garrison. The order goes to a private armorer in Stormwind. The People's Militia at Sentinel Hill receives little support from Stormwind's House of Nobles. Skirmishes with the Defias Brotherhood keep wearing down its small supply of gear. So Quartermaster Lewis turns to private trade to keep the defenders equipped. His order goes outside the kingdom's military channels. An Alliance courier must fly by gryphon to Old Town and present it to Osric Strang, who owns Limited Immunity.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lewis-note-ac4ec0c0772a9f722525/1-0000.mp3", duration = 46.1844898, start = 0},
+    {file = "Audio/Transport/full_item_lewis-note-1c1355308f69e0d1319f/1-0000.mp3", duration = 40.8555102, start = 0},
   },
 }
 P.transport["item:lieutenant-s-insignia"] = {
@@ -3638,7 +3638,7 @@ P.transport["item:osric-s-crate"] = {
   fullHash = "e06205",
   text = "Osric's Crate. At Sentinel Hill, Osric's Crate brings fresh armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army. Quartermaster Lewis receives the shipment and shares the protective gear among the volunteer fighters. The crown gives the People's Militia no formal support. These freshly made suits are meant to help the volunteers hold their position. From Dungar Longdrink's roost in Stormwind's Trade District, a gryphon carries the crate to Thor at Sentinel Hill. The flight avoids dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_osric-s-crate-c8fe97e03f3d612b1aa0/1-0000.mp3", duration = 50.7297959, start = 0},
+    {file = "Audio/Transport/full_item_osric-s-crate-808f15cb46b63176083f/1-0000.mp3", duration = 50.3379592, start = 0},
   },
 }
 P.transport["item:package-of-empty-ooze-containers"] = {

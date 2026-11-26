@@ -28,7 +28,7 @@ except ImportError:
 
 CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance', 'LoreForever_Voice_Default_Horde',
               'LoreForever_Voice_QuestGivers_Start']   # (the starting zones' quest givers, LOR-1408)
-# Quest dialogue: the first pack, then the rest of the game's quests (levels 26-45, 46-59, 60: voicepack.QUEST_MORE_PACKS), each
+# Quest dialogue: the first pack, then the rest of the game's quests (levels 21-40, 41-59, 60: voicepack.QUEST_MORE_PACKS), each
 # its own zip under CurseForge's limit. (The answers packs are retired: LOR-561.) A zip not built yet is left out.
 QUEST_PACKS = ['LoreForever_Voice_Default_Quests', 'LoreForever_Voice_Default_Quests2',
                'LoreForever_Voice_Default_Quests3', 'LoreForever_Voice_Default_Quests4']
@@ -554,8 +554,8 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip,
 LABELS = {'MorePlaces': 'More places', 'MorePeople': 'More people', 'MoreItems': 'Item stories',
           'MoreQuests0': 'Quest stories, levels 1-10', 'MoreQuests1': 'Quest stories, levels 1-19', 'MoreQuests2': 'Quest stories, levels 20-39',
           'MoreQuests3': 'Quest stories, levels 40+ and in-world books',
-          'Quests': 'Quest dialogue, levels 1-25', 'Quests2': 'Quest dialogue, levels 26-45',
-          'Quests3': 'Quest dialogue, levels 46-59', 'Quests4': 'Quest dialogue, level 60',
+          'Quests': 'Quest dialogue, levels 1-20', 'Quests2': 'Quest dialogue, levels 21-40',
+          'Quests3': 'Quest dialogue, levels 41-59', 'Quests4': 'Quest dialogue, level 60',
           'QuestGivers': "Quest givers' voices, levels 1-20",
           'QuestGivers2': "Quest givers' voices, levels 21-40", 'QuestGivers3': "Quest givers' voices, levels 41-55",
           'QuestGivers4': "Quest givers' voices, levels 56+"}

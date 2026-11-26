@@ -2382,7 +2382,7 @@ P.transport["quest:6181"] = {
   fullHash = "a6723d",
   text = "A Swift Message. Quartermaster Lewis needs armor for Westfall's militia, and he sends an urgent note to Stormwind by gryphon. With little help from the kingdom's forces, he asks you to take the requisition to Thor at Sentinel Hill for the flight to the capital. At Sentinel Hill, the People's Militia faces Defias outlaws and gnolls with little help from Stormwind's forces. Quartermaster Lewis relies on private contacts in the capital for weapons and armor. As the militia's supplies run low, he turns to Osric Strang, an armorer in Old Town. Lewis asks travelers to carry the urgent requisition note to Thor, Westfall's gryphon master. Gryphons carry people and messages swiftly across the Kingdom of Stormwind. Thor manages the air route to the capital from Sentinel Hill. When you give him Lewis's note, he carries the requisition to Stormwind by air. This route links Westfall's frontier garrison to the capital despite the lack of official aid.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6181-3777e0d99052a3758359/1-0000.mp3", duration = 71.3404082, start = 0},
+    {file = "Audio/Transport/full_quest_6181-5eb3f27cc09dbe1dfa90/1-0000.mp3", duration = 66.8995918, start = 0},
   },
 }
 P.transport["quest:62"] = {
@@ -2398,7 +2398,7 @@ P.transport["quest:6261"] = {
   fullHash = "93dbaa",
   text = "Dungar Longdrink. At the roost in Stormwind's Trade District, Dungar Longdrink arranges swift gryphon flights for supplies bound to Westfall's defenders. Defias outlaws and feral harvest golems have brought Westfall close to breaking. Quartermaster Lewis and the People's Militia badly need provisions. Lewis sent word to the capital, and armorer Osric Strang packed the equipment they asked for. Carrying military cargo on foot through bandit-ridden Elwynn and Westfall takes precious time. Stormwind's new aerial routes offer a vital link to the frontier. In Stormwind's Trade District, the gryphon roost is where Dungar Longdrink coordinates courier and passenger flights. Wildhammer dwarves have long raised and handled these great beasts. Gryphons carry people and cargo across human lands when roosts at both ends know the route. Bringing Osric's heavy crate straight to Dungar shows how aerial transport works. It links the capital's stockpiles to frontier outposts such as Sentinel Hill.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6261-7eee62d1ba9e3eed80e7/1-0000.mp3", duration = 70.635102, start = 0},
+    {file = "Audio/Transport/full_quest_6261-5095f5f06989e601b754/1-0000.mp3", duration = 69.5640816, start = 0},
   },
 }
 P.transport["quest:6281"] = {
@@ -2406,7 +2406,7 @@ P.transport["quest:6281"] = {
   fullHash = "77db79",
   text = "Continue to Stormwind. You carry a requisition from Sentinel Hill to Stormwind by gryphon, where Osric Strang awaits in Old Town. Quartermaster Lewis prepares a requisition note at Sentinel Hill. Thor, the local gryphon master, offers you the fastest way out of the contested plains. For a modest fee, you ride one of the kingdom’s trained gryphons above dusty farmlands and Elwynn Forest’s river border. Then the gryphon carries you over Stormwind City’s high white ramparts. You land at the capital’s trade roosts, then make your way into Old Town. There you find Osric Strang at his shop, Limited Immunity. Osric supplies the frontier, yet his grim reception shows the growing rift between Westfall’s beleaguered People’s Militia and the distracted rulers in Stormwind Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6281-9953ac1f51a3ae8e262e/1-0000.mp3", duration = 56.8685714, start = 0},
+    {file = "Audio/Transport/full_quest_6281-171ad61b6e22fde90bf9/1-0000.mp3", duration = 55.5363265, start = 0},
   },
 }
 P.transport["quest:6285"] = {
@@ -2414,7 +2414,7 @@ P.transport["quest:6285"] = {
   fullHash = "93eac9",
   text = "Return to Lewis. A crate of armor is bound for the People's Militia at Sentinel Hill, and Dungar Longdrink sends it from Stormwind by gryphon. The flight crosses Elwynn and Westfall to reach defenders under pressure. Osric, an armorer in Stormwind's Old Town, has packed a heavy crate of armor for the People's Militia volunteers at Sentinel Hill. Defias bandits, hungry gnolls, and mechanical harvest reapers threaten Westfall. A lone wagon is an easy target on those roads, so the flight master network gives the armor a safer way to the defenders. Gryphons are loyal and well trained, but they need a known destination before they carry a rider there. Dungar Longdrink explains that they instinctively return to their capital roost in Stormwind. For a remote outpost, you first meet its flight master in person. You have already checked in with Thor at Sentinel Hill, opening the skies over the frontier to swift travel. At Sentinel Hill, Quartermaster Lewis receives the crate and begins distributing its armor among the frontier defenders. He outfits Gryan Stoutmantle's volunteer force. Each shipment helps the militia hold its ground against the Defias Brotherhood.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6285-ebd443ff11e08cd57cee/1-0000.mp3", duration = 82.2857143, start = 0},
+    {file = "Audio/Transport/full_quest_6285-56c39c4da77cfb16d899/1-0000.mp3", duration = 80.4310204, start = 0},
   },
 }
 P.transport["quest:6321"] = {
@@ -2550,7 +2550,7 @@ P.transport["quest:6387"] = {
   fullHash = "a5d1e6",
   text = "Honor Students. Brock Stoneseeker sends an order from Thelsamar to Ironforge for honorary mining picks. He asks you to enlist Thorgrum Borrelson to carry it there. Brock teaches new miners about rock composition and tunnel safety. He rewards the apprentices who distinguish themselves with honorary picks. Mining sustains Thelsamar, and dwarves take pride in the craft. Local supplies are limited, so the picks must come from Ironforge across Khaz Modan. Thorgrum tends the gryphon roost beside Thelsamar, linking the frontier to Ironforge through the kingdom's aerial courier network. Bring Brock's order to him, and he can arrange a swift courier run to the capital's foundries.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6387-d186b7297cf5d0079e54/1-0000.mp3", duration = 48.9534694, start = 0},
+    {file = "Audio/Transport/full_quest_6387-47f22844927c4e6a5032/1-0000.mp3", duration = 46.2367347, start = 0},
   },
 }
 P.transport["quest:6388"] = {
@@ -2558,7 +2558,7 @@ P.transport["quest:6388"] = {
   fullHash = "a703ce",
   text = "Gryth Thurden. In Ironforge, Gryth Thurden can send you back toward Loch Modan with a parcel. You carry the Honorary Picks from Golnir Bouldertoe for Brock Stoneseeker's mining apprentices, and the city's gryphon roost offers a way over the mountain roads. You have traveled from Loch Modan to the Great Forge, where Golnir Bouldertoe gives you Honorary Picks for Brock Stoneseeker's mining apprentices. He points you to Ironforge's gryphon network instead of the mountain passes on foot. Carry the bundle across the city to the master handler, who can arrange your flight back. Gryth Thurden oversees Ironforge's flight roosts in the great mountain hall. Gryphon routes link the city with dwarven settlements across Khaz Modan. After scouting the route and speaking with the local handler, you can ask Gryth to arrange transport back to Thorgrum Borrelson in Thelsamar. The picks are bound for Brock Stoneseeker's apprentices, and the route joins mountain settlements by air.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6388-7169872b1fc4723d1d49/1-0000.mp3", duration = 73.717551, start = 0},
+    {file = "Audio/Transport/full_quest_6388-c9719fb612af3ec61558/1-0000.mp3", duration = 64.8620408, start = 0},
   },
 }
 P.transport["quest:6391"] = {
@@ -2566,7 +2566,7 @@ P.transport["quest:6391"] = {
   fullHash = "56c8bc",
   text = "Ride to Ironforge. Brock Stoneseeker sends you from Thelsamar to Ironforge with the names of his finest mining students. You carry his list to Golnir Bouldertoe at the Great Forge. Thorgrum Borrelson carries you from Thelsamar over Dun Morogh's snowy ridges to the mountain fortress. For many young mountaineers and travelers, this is their first flight on a gryphon. At the Great Forge, Golnir Bouldertoe carves the students' names into ceremonial honorary picks. These honors recognize their hard work in Loch Modan's quarries and mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6391-0b78ae95a256d0b3b25a/1-0000.mp3", duration = 38.3477551, start = 0},
+    {file = "Audio/Transport/full_quest_6391-09181cf27cae108bb441/1-0000.mp3", duration = 41.7959184, start = 0},
   },
 }
 P.transport["quest:6392"] = {
@@ -2574,7 +2574,7 @@ P.transport["quest:6392"] = {
   fullHash = "561a8c",
   text = "Return to Brock. You carry Brock Stoneseeker’s missive to Ironforge and receive Honorary Picks for his apprentices. Gryth Thurden can fly you back to Thelsamar. Gryth Thurden oversees Ironforge’s gryphon flights from the city’s central platform. To fly to Thelsamar, you first need to have met its handler, Thorgrum Borrelson. Then Gryth can carry you and the picks over the mountains, returning Brock’s message and tools to the Loch. Brock Stoneseeker teaches mining in Thelsamar and needs tools for his apprentices. The Honorary Picks will let young miners work the rich copper and tin veins in the hills around the Loch.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6392-4486e009503dd28c6eef/1-0000.mp3", duration = 47.124898, start = 0},
+    {file = "Audio/Transport/full_quest_6392-da957bf5726434c0d051/1-0000.mp3", duration = 40.1763265, start = 0},
   },
 }
 P.transport["quest:6394"] = {

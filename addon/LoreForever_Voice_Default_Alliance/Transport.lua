@@ -158,7 +158,7 @@ P.transport["npc:daphne-stilwell"] = {
   fullHash = "417595",
   text = "Daphne Stilwell. On Westfall’s cliffs, Daphne Stilwell keeps watch over her orchard and home. She and her husband Jordan fled the north and now aid the Church of the Holy Light while guarding their land from nearby outlaws. West of Moonbrook and the Deadmines exit, Daphne Stilwell tends a homestead and apple orchard on the bluffs. The Longshore lies below, while gryphon routes to Stranglethorn Vale pass high above. The farm may look quiet from either way, but bandits and scavengers roam nearby. Daphne works among the trees and keeps watch over her isolated land. Before they came to Westfall, Daphne and her husband Jordan lived near Pyrewood Village in Lordaeron. They worked in what is now Shadowfang Keep. Darkness and disaster drove them south with thousands of other human refugees. Near Stormwind, Jordan’s renowned skill as a craftsman and Daphne’s steady presence brought them close to the Church of the Holy Light. They support the church and provide holy arms to paladins of the Silver Hand.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_daphne-stilwell-b362852e8ee4e4751078/1-0000.mp3", duration = 62.7983673, start = 0},
+    {file = "Audio/Transport/full_npc_daphne-stilwell-5c19cc853f664eca7b93/1-0000.mp3", duration = 59.3763265, start = 0},
   },
 }
 P.transport["npc:delgren-the-purifier"] = {
@@ -726,7 +726,7 @@ P.transport["npc:viktori-prism-antras"] = {
   fullHash = "bd7164",
   text = "Viktori Prism'Antras. Above Darkshire, Viktori Prism'Antras keeps watch on the stars. In Duskwood's gloom, he hopes a telescope will bring them into clear view. Beyond the gryphon roost, up the slope, Viktori Prism'Antras peers into Duskwood's gloom. Undead incursions, ravenous spiders, and creeping shadows surround him. Yet he looks past the suffocating canopy, hoping to build a fine telescope that brings the stars into clear focus. In the heavens, he seeks quiet refuge from the dread engulfing the hamlet. Building a delicate telescope takes work in this cursed forest. Viktori follows blueprints from his gnomish friend, Cog Glitzspinner. He asks passersby to find rare materials for crafting lenses and mechanical housings. Finely cut glass and metal lenses lie scattered across perilous ground.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_viktori-prism-antras-8cb3156ec2e6402842cc/1-0000.mp3", duration = 52.7412245, start = 0},
+    {file = "Audio/Transport/full_npc_viktori-prism-antras-358c28355a9453b13ff3/1-0000.mp3", duration = 53.4726531, start = 0},
   },
 }
 P.transport["npc:warden-thelwater"] = {
@@ -1510,7 +1510,7 @@ P.transport["subzone:great-forge"] = {
   fullHash = "05a988",
   text = "Great Forge. At Ironforge’s center, the Great Forge keeps its fires burning and smiths at work. Its Great Anvil draws people from across the mountain city. The Great Forge was the first structure the early dwarves built beneath Ironforge Mountain. The capital grew outward in rings around it. Molten stone and slag run from giant foundries through glowing channels, lighting the cavern with an amber haze.\n\nAt the center, Master of the Forge Myolor Sunderfury oversees the massive Great Anvil. Masters of metalwork gather around its rim to hammer armor, tools, and weapons day and night. Smithing is only part of the Great Forge’s work. Guild offices, supply shops, and the city’s main gryphon roost ring the chamber. Gryth Thurden tends the roost, where travelers from across the Alliance mingle amid the hammer blows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_great-forge-178e90a6df9e7b49563c/1-0000.mp3", duration = 56.5812245, start = 0},
+    {file = "Audio/Transport/full_subzone_great-forge-b47946c011639e9ffc8b/1-0000.mp3", duration = 53.7861224, start = 0},
   },
 }
 P.transport["subzone:great-lift"] = {
@@ -1574,7 +1574,7 @@ P.transport["subzone:gryphon-roost"] = {
   fullHash = "6444dc",
   text = "Gryphon Roost. Gryphons carry travelers from Stormwind’s eastern ramparts across the Eastern Kingdoms. Human gryphon master Dungar Longdrink tends the roost beside the Trade District. Dungar Longdrink arranges flights to Ironforge, Lakeshire, Sentinel Hill, and other Alliance garrisons and settlements. The roost joins Stormwind to these outlying holds. Its trained gryphons wait ready for the journeys ahead. Gryphons and their handlers bring a trace of Hinterlands tradition into Stormwind. The Wildhammer clan has long honored gryphons as partners. During the Second War, they brought aerial warfare and transport to the wider Alliance. Leather, feed, and fresh winds lend the roost a frontier air amid the city’s stonework.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gryphon-roost-3de18260afaebf7bb534/1-0000.mp3", duration = 49.684898, start = 0},
+    {file = "Audio/Transport/full_subzone_gryphon-roost-e28ade8e6ba87d35a68d/1-0000.mp3", duration = 47.3338776, start = 0},
   },
 }
 P.transport["subzone:hall-of-arms"] = {
@@ -2374,7 +2374,7 @@ P.transport["subzone:sentinel-hill"] = {
   fullHash = "94e3e1",
   text = "Sentinel Hill. At Sentinel Hill, the Alliance holds its main stronghold in Westfall, and the People's Militia keeps its command post there. Overgrown fields, scavenging gnolls, and hostile outlaws surround the rise, leaving it as the lawful citizens' only secure foothold in the region. Sentinel Hill rises above central Westfall. Around Sentinel Tower stand a barracks-style inn, a gryphon roost with flights to Stormwind and beyond, a forge, and a lumber mill. Overgrown fields, scavenging gnolls, and outlaws crowd the surrounding land. Within the fragile perimeter, travelers, beleaguered farmers, and recruits can regroup under the eyes of veteran defenders. The royal army is detained in Stormwind and cannot spare soldiers for the outlying territories. So Gryan Stoutmantle established the People's Militia on Sentinel Hill. Volunteer fighters organize scouts, strike at the Riverpaw gnolls, and investigate the organized banditry tearing through Westfall's abandoned farmsteads. This is no opulent fort or comfortable refuge. It is a working frontline camp, determined to reclaim the kingdom's former breadbasket.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sentinel-hill-415e493560ecb7030e81/1-0000.mp3", duration = 82.1028571, start = 0},
+    {file = "Audio/Transport/full_subzone_sentinel-hill-1035d71d1c48db493ff2/1-0000.mp3", duration = 75.0236735, start = 0},
   },
 }
 P.transport["subzone:sentinel-tower"] = {
@@ -2726,7 +2726,7 @@ P.transport["subzone:thelsamar"] = {
   fullHash = "28bc11",
   text = "Thelsamar. In Thelsamar, travelers find shelter on the road between Dun Morogh and the Wetlands. The town keeps watch over the western bluffs above Loch Modan's great lake as troggs and ogres press nearby. Thelsamar gathers dwarven life beneath stout roofs of stone and timber. At the Stoutlager Inn, travelers can rest, and nearby they find a gryphon roost, crafting stations, and supply merchants. The town lies along the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands. Travelers crossing the region pass through its doors. Trouble presses in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, while bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm. So the local magistrate and Mountaineers rely on travelers and mercenaries to patrol the trade roads and drive back hostile forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thelsamar-f94030b9019a51d71895/1-0000.mp3", duration = 61.0742857, start = 0},
+    {file = "Audio/Transport/full_subzone_thelsamar-92263164d727b01367e5/1-0000.mp3", duration = 57.7306122, start = 0},
   },
 }
 P.transport["subzone:thistlefur-hold"] = {
@@ -2822,7 +2822,7 @@ P.transport["subzone:trade-district"] = {
   fullHash = "241681",
   text = "Trade District. Trade District draws merchants and travelers through Stormwind’s busy heart. Its bank, Auction House, guild registry, and shops serve citizens and adventurers alike. You pass beneath the stone arches from the Valley of Heroes into Trade District. The open plaza is Stormwind’s main marketplace and a crossroads for goods and travel. The Auction House stands at its center, with the Stormwind Counting House, the city’s main bank, and The Gilded Rose nearby.\n\nFrom here, roads lead to Old Town, Cathedral Square, and the Mage Quarter. Coin, raw goods, and adventurers’ supplies pass through the district on their way across the realm. Shops line the paved avenues and canals with goods for daily needs and travel. Weller’s Arsenal and Lionheart Armory sell blades and mail, while The Empty Quiver offers bows. Stalls carry fresh flowers and aged vintages from the Gallina Winery.\n\nJust inside the gates, the Stormwind Visitor’s Center handles newly registered guild charters and tabard designs. On the eastern side, an elevated ramp leads to the Gryphon Roost, linking Stormwind’s markets with Alliance territories.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_trade-district-9373c8b77f116fb3259b/1-0000.mp3", duration = 78.0277551, start = 0},
+    {file = "Audio/Transport/full_subzone_trade-district-f067eef9691d718de531/1-0000.mp3", duration = 72.7510204, start = 0},
   },
 }
 P.transport["subzone:tradesmen-s-terrace"] = {

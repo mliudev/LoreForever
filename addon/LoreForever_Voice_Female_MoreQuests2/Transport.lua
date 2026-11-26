@@ -3614,7 +3614,7 @@ P.transport["quest:647"] = {
   fullHash = "1c8776",
   text = "MacKreel's Moonshine. Foggy MacKreel needs his moonshine carried from the broken Thandol Span to Southshore. He drank too much while on watch and now has little time to deliver a fresh batch to Brewmeister Bilger and settle his debt. On the shattered Thandol Span, Foggy MacKreel keeps watch through wet, cold, and dull hours. He drinks his homemade moonshine to bear the damp chill. The brew hits hard enough that he compares its aftereffects to siege engines pounding across his skull. One drink too many leaves him asleep through his shift. Longbraid the Grim commands the dwarves defending the Span, and Foggy cannot afford another lapse in discipline. Foggy owes Brewmeister Bilger in Southshore a longstanding debt. He promised a batch of his personal brew to settle the account, but his hangover and watch duties have left him minutes from missing the deadline. You race across the Arathi Highlands with the jug, by gryphon and swift feet. Reach Southshore before Bilger decides Foggy has skipped out on his tab again.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_647-9ef054cdfc4d92898491/1-0000.mp3", duration = 65.8285714, start = 0},
+    {file = "Audio/Transport/full_quest_647-b625c9a23bc52e6513f5/1-0000.mp3", duration = 64.2089796, start = 0},
   },
 }
 P.transport["quest:6481"] = {
@@ -4782,7 +4782,7 @@ P.transport["quest:98246"] = {
   fullHash = "f8684c",
   text = "Trying Times. Before Howin Kindfeather can fly through the Wetlands, Bassbeak needs a meal. He seeks a dozen intact eggs from the fierce Razormaw raptors. Howin Kindfeather tends Bassbeak in the Wetlands. The dwarf will not fly with his gryphon until her hunger is eased. A hungry gryphon can be stubborn and unpredictable. She may lash out, so a proper meal must come before any flight through the marshes. Howin seeks food for Bassbeak among the Razormaw raptors. Their nests lie at Raptor Ridge to the northeast and Saltspray Glen to the northwest. Razormaw eggs have yolks as large as a gnome's head. Howin wants those substantial meals to satisfy Bassbeak before she faces the dangers of the Wetlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98246-a246305e0285cb87ec27/1-0000.mp3", duration = 48.6138776, start = 0},
+    {file = "Audio/Transport/full_quest_98246-790a883761bf2f46bbd3/1-0000.mp3", duration = 44.564898, start = 0},
   },
 }
 P.transport["quest:98283"] = {

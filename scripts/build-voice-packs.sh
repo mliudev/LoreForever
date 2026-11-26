@@ -12,7 +12,7 @@
 #   LoreForever_Voice_<Default|Female>_MoreItems.zip / _MoreQuests0.zip ... _MoreQuests3.zip  item stories and quest
 #                                                         stories (levels 1-19, 20+), the same way
 #   LoreForever_Voice_<Default|Female>_Quests2.zip / _Quests3.zip / _Quests4.zip  the rest of the game's quest dialogue
-#                                                         (levels 26-45, 46-59, 60 and unknown), once recorded
+#                                                         (levels 21-40, 41-59, 60 and unknown), once recorded
 #   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip / QuestGivers4.zip  the same for quest levels 21-40, 41-55 and 56+, once recorded
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
@@ -190,22 +190,22 @@ def zip_bytes(folder, src, paths):
     return sum(76 + 2 * len(f"{folder}/{p.relative_to(src).as_posix()}".encode()) + DEFLATED[p] for p in files)
 # zip name -> (folders in it, display name with {v} for the version)
 DOWNLOADS = {
-    "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue, levels 1-25 {v}"),
+    "LoreForever_Voice_Default_Quests": (["LoreForever_Voice_Default_Quests"], "Male narrator: quest dialogue, levels 1-20 {v}"),
     "LoreForever_Voice_Female": (["LoreForever_Voice_Female"], "Female narrator: core {v}"),
     "LoreForever_Voice_Female_Alliance": (["LoreForever_Voice_Female_Alliance"], "Female narrator: Alliance lands {v}"),
     "LoreForever_Voice_Female_Horde": (["LoreForever_Voice_Female_Horde"], "Female narrator: Horde lands {v}"),
-    "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue, levels 1-25 {v}"),
-    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels 26-45, 46-59, and 60 (_Quests holds 1-25).
+    "LoreForever_Voice_Female_Quests": (["LoreForever_Voice_Female_Quests"], "Female narrator: quest dialogue, levels 1-20 {v}"),
+    # The rest of the game's quest dialogue (voicepack.QUEST_MORE_PACKS): levels 21-40, 41-59, and 60 (_Quests holds 1-20).
     "LoreForever_Voice_Default_Quests2": (["LoreForever_Voice_Default_Quests2"],
-                                          "Male narrator: more quest dialogue, levels 26-45 {v}"),
+                                          "Male narrator: more quest dialogue, levels 21-40 {v}"),
     "LoreForever_Voice_Default_Quests3": (["LoreForever_Voice_Default_Quests3"],
-                                          "Male narrator: more quest dialogue, levels 46-59 {v}"),
+                                          "Male narrator: more quest dialogue, levels 41-59 {v}"),
     "LoreForever_Voice_Default_Quests4": (["LoreForever_Voice_Default_Quests4"],
                                           "Male narrator: more quest dialogue, level 60 {v}"),
     "LoreForever_Voice_Female_Quests2": (["LoreForever_Voice_Female_Quests2"],
-                                         "Female narrator: more quest dialogue, levels 26-45 {v}"),
+                                         "Female narrator: more quest dialogue, levels 21-40 {v}"),
     "LoreForever_Voice_Female_Quests3": (["LoreForever_Voice_Female_Quests3"],
-                                         "Female narrator: more quest dialogue, levels 46-59 {v}"),
+                                         "Female narrator: more quest dialogue, levels 41-59 {v}"),
     "LoreForever_Voice_Female_Quests4": (["LoreForever_Voice_Female_Quests4"],
                                          "Female narrator: more quest dialogue, level 60 {v}"),
     "LoreForever_Voice_Female-complete": (["LoreForever_Voice_Female", "LoreForever_Voice_Female_Alliance",

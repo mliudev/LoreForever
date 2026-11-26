@@ -831,7 +831,8 @@ end
 -- once per target per sky-up. A moment or a question going round takes the ring: the pages stop, and start again from
 -- the first once it's free. After every NAME_RUN of them the ring has one SKY_UP_HOLD turn for whatever it would carry
 -- otherwise (the identity, the purse, where you stand, an answer, another kind's page), so nothing waits for the whole
--- name. Kind 3's low 6 bits go to 63: 8-23 are these, 24-27 Own.lua's, 28 a quest's (Strip.QuestPage), 29 on free.
+-- name. Kind 3's low 6 bits go to 63: 8-23 are these, 24-27 Own.lua's, 28 a quest's (Strip.QuestPage), 29 Down.lua's,
+-- 30 a live skill rank-up (Strip.SkillPage, 0xDE), 31 on free.
 -- Never a person's name: only a Creature or Vehicle GUID, and only when the game plainly says it's no player and
 -- nothing a player controls (a hunter's pet, a warlock's demon, the charmed, a guardian; a secret answer sends
 -- nothing); never a name the game keeps secret; never a title that names an owner ("<Owner>'s Minion").
@@ -1128,7 +1129,7 @@ local function trimQuests(limit)
       drop = 1
       for i, q in ipairs(quests) do
         local b = q.page[2]
-        if not ((b >= 0x70 and b < 0x80) or (b >= 0x50 and b < 0x60)) then drop = i; break end
+        if not (q.page[1] == 0xDC and ((b >= 0x70 and b < 0x80) or (b >= 0x50 and b < 0x60))) then drop = i; break end
       end
     end
     table.remove(quests, drop)
@@ -1229,11 +1230,17 @@ local function questLater(delay)
   C_Timer.After(delay, function() questTimer = false; questsGo(true) end)
 end
 
--- The waiting quest pages: onto the show that's up, or (due: QUEST_GATHER has passed) a show of their own.
+-- The waiting quest and skill pages: onto the show that's up, or (due: QUEST_GATHER has passed) a show of their own.
 function questsGo(due)
   local t = now()
-  for i = #quests, 1, -1 do if t - quests[i].at > QUEST_WAIT then table.remove(quests, i) end end
-  if #quests == 0 or not (Strip.On() and Strip.QuestsFromWillo()) then quests = {}; return end
+  if not Strip.On() then quests = {}; return end
+  local allowQ, allowS = Strip.QuestsFromWillo(), Strip.SkillsFromWillo()
+  for i = #quests, 1, -1 do
+    local p = quests[i].page
+    local ok = (p[1] == 0xDE and allowS) or (p[1] ~= 0xDE and allowQ)
+    if not ok or t - quests[i].at > QUEST_WAIT then table.remove(quests, i) end
+  end
+  if #quests == 0 then return end
   -- A plan step's page (ride) never brings the sky up for a player who keeps it hidden until needed: alone, with the sky
   -- down, it goes, and the step ticks at the next save (the Design Lead, LOR-1546 piece 4). With a prep page it rides.
   if not Strip.Showing() then
@@ -1259,11 +1266,16 @@ function questsGo(due)
   end
 end
 
--- A page of kind 3 low 28 waiting for a show: event << 28 | id. due: a show of its own now, not after QUEST_GATHER.
--- ride: only on a sky that's up (questsGo).
+-- A page of kind 3 low 28 waiting for a show: event << 28 | id (or a ready 5-byte page table).
+-- due: a show of its own now, not after QUEST_GATHER. ride: only on a sky that's up (questsGo).
 local function listPage(event, id, due, ride)
-  local v = event * 268435456 + math.floor(id)
-  local page = { 0xDC, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }
+  local page
+  if type(event) == "table" then
+    page, due, ride = event, id, due
+  else
+    local v = event * 268435456 + math.floor(id)
+    page = { 0xDC, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }
+  end
   local key = table.concat(page, ":")
   for _, q in ipairs(quests) do if table.concat(q.page, ":") == key then return end end
   quests[#quests + 1] = { page = page, at = now(), ride = ride or nil }
@@ -1488,6 +1500,126 @@ function Strip.DoorCheck()
   if inst == door.at then return end
   door.at = inst
   if door.carry(inst) and C_Timer and C_Timer.After then C_Timer.After(door.wait, function() door.count(inst) end) end
+end
+
+-- Live profession skill rank-ups (LOR-1359, kind 3 low 30: 0xDE): gated on LoreForeverJourneyData.skySkills.
+-- (In a block of its own: Strip.lua's main chunk is at Lua's 200 locals.)
+do
+local lastSkills = {}   -- [charKey] = { [profId] = rank }
+local pewAt = {}        -- [charKey] = GetTime() of last PLAYER_ENTERING_WORLD
+
+-- Whether the Willo on this PC reads live skill pages (LoreForeverJourneyData.skySkills, written by Willo, LOR-1359).
+function Strip.SkillsFromWillo()
+  local data = Strip.FromWilloLately()
+  return type(data) == "table" and data.skySkills == true
+end
+
+local function hitsTarget(val, rank, prevRank)
+  local function hit(target)
+    if type(target) ~= "number" or target <= 0 then return false end
+    if prevRank ~= nil then return prevRank < target and rank >= target end
+    return rank >= target
+  end
+  if type(val) == "number" then return hit(val) end
+  if type(val) == "table" then
+    for _, target in pairs(val) do
+      if hit(target) then return true end
+    end
+  end
+  return false
+end
+
+local function watchedSkill(charKey, profId, rank, prevRank)
+  local data = Strip.FromWilloLately()
+  local watch = type(data) == "table" and data.watchSkills
+  if type(watch) ~= "table" then return false end
+  local strId = tostring(profId)
+  for _, scope in ipairs({ charKey, "*" }) do
+    local t = watch[scope]
+    if type(t) == "table" then
+      if hitsTarget(t[profId], rank, prevRank) or hitsTarget(t[strId], rank, prevRank) then return true end
+    end
+  end
+  return false
+end
+
+local function validCharKey()
+  local J = ns.Journey
+  if not (J and J.CharKey) then return nil end
+  local key, name, realm = J.CharKey()
+  if type(key) ~= "string" or not name or name == "" or name == "?" or not realm or realm == "" then return nil end
+  return key
+end
+
+-- Emit a 5-byte live profession skill page (0xDE): { 0xDE, profId, w_hi, (w_lo<<4)|r_hi, r_lo }.
+-- Watched skills (data.watchSkills) wake a hidden sky immediately when crossing a target threshold; others only ride an already-showing sky.
+function Strip.SkillPage(profId, rank, prevRank)
+  if not (Strip.On() and Strip.SkillsFromWillo()) then return nil end
+  profId, rank = tonumber(profId), tonumber(rank)
+  if not (profId and profId >= 1 and profId <= 12 and math.floor(profId) == profId) then return nil end
+  if not (rank and rank >= 1 and rank <= 4095) then return nil end
+  if prevRank ~= nil then
+    prevRank = tonumber(prevRank)
+    if not prevRank or prevRank < 0 then prevRank = 0 else prevRank = math.floor(prevRank) end
+  end
+  local charKey = validCharKey()
+  if not charKey then return nil end
+  local w = Strip.CRC32(charKey) % 4096
+  local r = math.min(4095, math.max(0, math.floor(rank)))
+  local page = { 0xDE, profId % 256, math.floor(w / 16) % 256, (w % 16) * 16 + math.floor(r / 256), r % 256 }
+  local due = watchedSkill(charKey, profId, r, prevRank)
+  listPage(page, due, not due)
+  return page
+end
+
+-- Scan Context.Professions(); baseline (or first read for charKey) populates lastSkills silently, while subsequent
+-- SKILL_LINES_CHANGED calls emit strict rank increases and newly learned professions (rank >= 1).
+function Strip.ScanSkills(baseline)
+  if not (ns.Context and ns.Context.Professions and ns.Stock and ns.Stock.SkillId) then return end
+  local charKey = validCharKey()
+  if not charKey then return end
+  if baseline then pewAt[charKey] = now() end
+  local seen = {}
+  for _, p in ipairs(ns.Context.Professions()) do
+    local profId = ns.Stock.SkillId(p.name)
+    local rank = ns.Context.Usable(p.rank) and tonumber(p.rank)
+    rank = rank and math.floor(rank) or nil
+    if profId and rank and rank >= 1 and rank <= 4095 then
+      seen[profId] = rank
+    end
+  end
+  -- Ignore empty reads (cold login before skill lines arrive, zoning/portal transitions, transient empty events).
+  if next(seen) == nil then return end
+  local prev = lastSkills[charKey]
+  if baseline then
+    lastSkills[charKey] = seen
+    return
+  end
+  if not prev then
+    -- Cold-login SKILL_LINES_CHANGED arriving after an empty PEW seeds silently (unless settled and newly learned at rank 1).
+    local initial = not pewAt[charKey] or (now() - pewAt[charKey]) < 5
+    if not initial then
+      for _, r in pairs(seen) do
+        if r > 1 then initial = true; break end
+      end
+    end
+    if initial then
+      lastSkills[charKey] = seen
+      return
+    end
+    prev = {}
+  end
+  for profId = 1, 12 do
+    local rank = seen[profId]
+    if rank then
+      local old = prev[profId]
+      if (old and rank > old) or (not old and rank >= 1) then
+        Strip.SkillPage(profId, rank, old or 0)
+      end
+    end
+  end
+  lastSkills[charKey] = seen
+end
 end
 
 -- Every frame of a twinkle: stop it if something came up, else fade it (only one the sky showed for). True when it

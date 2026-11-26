@@ -12431,9 +12431,9 @@
     "npc:thor": {
       "1": [
         {
-          "duration": 38.582857142857144,
-          "file": "Audio/Transport/full_npc_thor-fe10c7135620a0e8e36e/1-0000.mp3",
-          "sha256": "30a738cacd3680188583bbaf596f0bb2c193109d7c59e8e1c45c22aa6e38fd96",
+          "duration": 39.26204081632653,
+          "file": "Audio/Transport/full_npc_thor-cf26fc586a37910603d3/1-0000.mp3",
+          "sha256": "727c81535e43f6582b8f2b6b5561069657ec22f268de302036d41cc128a741ea",
           "start": 0
         }
       ],
@@ -12445,12 +12445,12 @@
         ]
       },
       "fullHash": "28701e",
-      "generation": "78c866a70432ad74acd5",
+      "generation": "60b8fe43e800930c616d",
       "hash": "28701e",
       "source": {
-        "duration": 38.60898,
+        "duration": 39.288163,
         "file": null,
-        "sha256": "fe10c7135620a0e8e36ef97f16523c92b319e0714959858ddb02023bae83deb8"
+        "sha256": "cf26fc586a37910603d3aa71e76b4794e5f50e993d0a90c32b39a9e6ce9e335f"
       },
       "text": "Thor. At Sentinel Hill, Thor keeps Westfall linked to Stormwind by gryphon flight. His trained mounts carry travelers and urgent messages over dangerous roads. Thor tends the gryphon roost at Sentinel Hill, linking Westfall's defenders with the rest of the kingdom. On the ground, the People's Militia faces bandits, gnolls, and malfunctioning harvest golems. His gryphons carry travelers and military dispatches above those perilous roads. Reports from Gryan Stoutmantle and urgent requests for aid can reach the court in Stormwind far sooner than a messenger on foot."
     },
@@ -12483,9 +12483,9 @@
     "npc:thorgrum-borrelson": {
       "1": [
         {
-          "duration": 28.813061224489797,
-          "file": "Audio/Transport/full_npc_thorgrum-borrelson-391ffcce23ec29c0f75e/1-0000.mp3",
-          "sha256": "2793201d2ada98f53658afb56884d45dfb4deac4e550c9d568ee128c8d8ef9ae",
+          "duration": 34.142040816326535,
+          "file": "Audio/Transport/full_npc_thorgrum-borrelson-853f9286e7e487e7c2a5/1-0000.mp3",
+          "sha256": "52b571a81a821124dc3e01fd171ffc748c6e6185d8b9dd28f9856cd78c2a9113",
           "start": 0
         }
       ],
@@ -12497,12 +12497,12 @@
         ]
       },
       "fullHash": "702587",
-      "generation": "a5db4692412f2538c597",
+      "generation": "ec1cd3448a868d950cf5",
       "hash": "702587",
       "source": {
-        "duration": 28.839184,
+        "duration": 34.168163,
         "file": null,
-        "sha256": "391ffcce23ec29c0f75e13f4d76613e4bed1be8ee280df0d3e155dba8f7b3b10"
+        "sha256": "853f9286e7e487e7c2a5712a0403c08c412977d12b72f5fbe639ca03ab9a5221"
       },
       "text": "Thorgrum Borrelson. Above Thelsamar, Thorgrum Borrelson keeps travelers flying across Loch Modan. His roost links the valley with Ironforge and the nearby mountain passes. Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They pass through South Gate Pass to the Great Forge in Dun Morogh, then fly onward toward the Wetlands and beyond."
     },
@@ -14355,9 +14355,9 @@
     "topic:dwarf": {
       "1": [
         {
-          "duration": 140.69551020408164,
-          "file": "Audio/Transport/full_topic_dwarf-9d2cdb03edd8c272af8f/1-0000.mp3",
-          "sha256": "7e58b23a8bb6e8423db4fbeb7b9196ffaa5a1c54bc7d2f60fad88d64b4360355",
+          "duration": 139.91183673469388,
+          "file": "Audio/Transport/full_topic_dwarf-3d6e4531523a462ca394/1-0000.mp3",
+          "sha256": "b459577dd58191fe15e177c430f823850df90b86b2875da4eb65224402545e66",
           "start": 0
         }
       ],
@@ -14369,12 +14369,12 @@
         ]
       },
       "fullHash": "6813ae",
-      "generation": "7d30cf657fd94a7639ba",
+      "generation": "cf9babc99cf288aec884",
       "hash": "6813ae",
       "source": {
-        "duration": 140.721633,
+        "duration": 139.937959,
         "file": null,
-        "sha256": "9d2cdb03edd8c272af8f92ef19a6d944163915639a08fb6ae6ffacefefde6f29"
+        "sha256": "3d6e4531523a462ca394ae4fdea7227d42871e2d11a360a15eefd24ae108ba5c"
       },
       "text": "Dwarf. In Khaz Modan, dwarves keep to the mountain homes they carved from stone. Once earthen, they changed under the Curse of Flesh and now live across Khaz Modan and beyond. King Magni Bronzebeard rules from Ironforge, beneath the peaks of Dun Morogh, a steadfast heart of the Alliance. Dwarves began as earthen, beings forged by the titans who slept for ages in Uldaman's vaults. The Curse of Flesh changed them into creatures of blood and bone. They took the name dwarves and made their home in Khaz Modan, named for the titan Khaz'goroth. Beneath Dun Morogh's peaks, they carved the stronghold of Ironforge.\n\nTheir bodies endure hardship, and their keen eyes find stone and ore. They bring fierce resolve to the forge and to battle. Their halls ring with roaring hearths, and ale is a favored drink. After High King Modimus Anvilmar died, the dwarves fought over Ironforge. The Bronzebeard, Wildhammer, and Dark Iron clans each sought power, and their struggle became a civil war. The Bronzebeards took the mountain and drove the other clans out.\n\nSorcerer-Thane Thaurissan of the Dark Irons then waged war against both rivals. His forces were driven beneath the Redridge Mountains, where Thaurissan accidentally summoned Ragnaros the Firelord. Flames consumed the Dark Iron realm, leaving the volcanic wastes of Searing Gorge and the Burning Steppes. The survivors became slaves beneath Blackrock Mountain. The Wildhammers, their home devastated, migrated north to Aerie Peak in the Hinterlands. When the Horde swept across the continent in the Second War, King Magni Bronzebeard shut Ironforge's gates against its sieges. Dwarven forces fought beside the Alliance of Lordaeron in heavy plate armor and with muskets, while gryphon riders took to the sky. Their courage helped break the Horde.\n\nIronforge remains one of the Alliance's steadfast defenders. The dwarves have also welcomed their displaced gnome cousins into their halls. Across Khaz Modan, they uncover titan ruins in search of answers about their ancient origins."
     },
@@ -14849,9 +14849,9 @@
     "topic:shaman": {
       "1": [
         {
-          "duration": 139.52,
-          "file": "Audio/Transport/full_topic_shaman-d2bd8373f305928a5e4e/1-0000.mp3",
-          "sha256": "04a25ec1aa6ded8e8e5e26d4e5ce9deb434a1e457e701822bf7b8b87be6fadb3",
+          "duration": 133.69469387755103,
+          "file": "Audio/Transport/full_topic_shaman-21bf1cf8c501ba7096d0/1-0000.mp3",
+          "sha256": "39d12fede580eaa3476ffdbefd79166daeb215544b095d6bc55456e65022e5e7",
           "start": 0
         }
       ],
@@ -14863,12 +14863,12 @@
         ]
       },
       "fullHash": "98f4a3",
-      "generation": "2020fa245e9cda837d0e",
+      "generation": "cc2b10925d28ee436918",
       "hash": "98f4a3",
       "source": {
-        "duration": 139.546122,
+        "duration": 133.720816,
         "file": null,
-        "sha256": "d2bd8373f305928a5e4e72563d20fb178bf9997aacd9ed500c53d1b82921e96e"
+        "sha256": "21bf1cf8c501ba7096d008d98328522d8eafb914605a658f11c8af6d39fcad5b"
       },
       "text": "Shaman. Among the Horde and the dwarves, Shaman seek aid from earth, air, fire and water. Totems help them wield lightning and ancestral healing as they guide their people. Dwarves follow the path too, as the Wildhammer have long done, and the Skyborne Windshapers seek to restore their people's bond with the winds. Shaman petition the primal forces of nature. Earth, air, fire and water are chaotic, locked in constant conflict. Shaman do not enslave them; they ask for aid and try to keep the elements' fury in balance with the mortal world. Wooden and stone totems planted in the soil help them channel these bargains. Through the totems, shaman protect allies, hinder foes and use cleansing water to mend the wounded. Shamanism once formed the ancient foundation of orcish clan life on Draenor. Kil'jaeden and the Shadow Council deceived the shamans into war against the draenei, and the elemental spirits withdrew their favor. Stripped of their gifts, many shamans fell to demonic corruption and became warlocks. The tradition came close to extinction.\n\nAfter the Second War, Thrall rediscovered the ancient rites under the guidance of Drek'Thar of the Frostwolf clan. As Warchief, Thrall revived shamanism and made it the moral compass of the New Horde. Across Kalimdor, the Horde's allied peoples keep different shamanic traditions. Tauren mystics hold communion with the earth and spirits, a sacred anchor of their culture. Darkspear trolls honor the loa and ancestral wild spirits, blending voodoo with nature rites. Across tribal lines, shaman serve as community elders and advisers. They also defend their people on the front lines. The shaman's path reaches beyond the Horde. Wildhammer dwarves of Aerie Peak have long called on storm and stone. Earthseer Farsen brings their far-seeing craft to Dun Morogh, while dwarves of Ironforge also take up the totem and fight for the Alliance.\n\nHigh above the world, the Windshapers lead the Skyborne in spiritual matters. The wind spirits of Zephras Isle have fallen silent, so the Windshapers train new shaman in hope of restoring that lost bond. Skyborne who join the Horde follow their path."
     },
@@ -15109,9 +15109,9 @@
     "topic:wildhammer-clan": {
       "1": [
         {
-          "duration": 143.90857142857143,
-          "file": "Audio/Transport/full_topic_wildhammer-clan-69b39b1651165178f73f/1-0000.mp3",
-          "sha256": "77ae7ec71651841e1ed10c1abbd645ebc78e4a1eef1b44193fcb71f5f3a42e09",
+          "duration": 144.79673469387757,
+          "file": "Audio/Transport/full_topic_wildhammer-clan-b5f82d18ebe970e6938f/1-0000.mp3",
+          "sha256": "bfa746ff0355fd6596eebe52f52d5c5a6ab9f78b1b628e1b03808270b53fa21d",
           "start": 0
         }
       ],
@@ -15123,12 +15123,12 @@
         ]
       },
       "fullHash": "5e8640",
-      "generation": "29d40c098bc983eda1fa",
+      "generation": "b3f1566fa5bffc6b5bb8",
       "hash": "5e8640",
       "source": {
-        "duration": 143.934694,
+        "duration": 144.822857,
         "file": null,
-        "sha256": "69b39b1651165178f73f7ce86fa473a447a7bd5161b4fb4a0b9ff8306af82789"
+        "sha256": "b5f82d18ebe970e6938fe28e8b44dd8a5c89ab1870ddc05cd7a5d609c7499afd"
       },
       "text": "Wildhammer clan. In the Hinterlands, the Wildhammer clan holds to its freedom among the wooded peaks. Driven from Grim Batol centuries ago, the dwarves made Aerie Peak their home and learned to ride wild gryphons. They remain friends of the Alliance and stand ready to defend its skies. Before the War of the Three Hammers, the Wildhammers lived near Ironforge. When High King Modimus Anvilmar died, civil war followed, and the victorious Bronzebeards claimed the city. Thane Khardros led his clan north and built a hold within Grim Batol. Soon, the defeated Dark Irons laid siege to it.\n\nKhardros slew the sorceress Modgud, but her dying curse blighted the mountain and left its halls uninhabitable. The Wildhammers refused an invitation to return under Bronzebeard rule. They chose their freedom and traveled north to the forests and rocky crags of the Hinterlands. The Wildhammers built Aerie Peak in the highlands of their new home. Unlike their kin beneath the earth, they embraced open skies and living rock, and formed a deep spiritual bond with the native gryphons. In secluded aviaries, they forged enchanted stormhammers and became Azeroth's finest aerial cavalry.\n\nDuring the Second War, Warchief Orgrim Doomhammer marched toward Quel'Thalas and attacked Aerie Peak. Supreme Commander Anduin Lothar and the Alliance came to the clan's aid. In gratitude, High Thane Kurdran Wildhammer pledged his gryphon riders to the coalition. They fought the Horde's enslaved red dragons above Lordaeron and the Great Sea. When the Dark Portal reopened, Kurdran Wildhammer led his riders into Draenor with the Alliance Expedition. He gave up his return to seal the rift, and a colossal statue in Stormwind's Valley of Heroes honors his deed. In Aerie Peak, High Thane Falstad took command.\n\nThe human kingdoms later quarreled and fractured, but the Wildhammers remained loyal partners of King Terenas Menethil II. During the Third War, the Scourge swept across Lordaeron. Wildhammer flyers took to the skies again, fighting to defend allied lands and innocent refugees from the walking dead."
     },
@@ -15251,28 +15251,6 @@
     ],
     "041f0e5afaa25784a326b8bcab9ed997ae61f98ac184b5e8b3986e42fc7ac944": [
       566
-    ],
-    "04a25ec1aa6ded8e8e5e26d4e5ce9deb434a1e457e701822bf7b8b87be6fadb3": [
-      241,
-      410,
-      569,
-      766,
-      1091,
-      1346,
-      1528,
-      1799,
-      2002,
-      2291,
-      2512,
-      2684,
-      2893,
-      3124,
-      3317,
-      3524,
-      3776,
-      4081,
-      4710,
-      4904
     ],
     "05525cec1090e4309714dc1a3f7881fb11f4629ea71345d91f658ae71d4a08f7": [
       255,
@@ -16161,12 +16139,6 @@
       1739,
       2180
     ],
-    "2793201d2ada98f53658afb56884d45dfb4deac4e550c9d568ee128c8d8ef9ae": [
-      217,
-      416,
-      582,
-      831
-    ],
     "2795ad778c7ffd794af56b3f218c51de1c4b6de36aadad6eef597c48f03ff28b": [
       287,
       514,
@@ -16351,12 +16323,6 @@
       395,
       677
     ],
-    "30a738cacd3680188583bbaf596f0bb2c193109d7c59e8e1c45c22aa6e38fd96": [
-      231,
-      436,
-      682,
-      943
-    ],
     "31923c423415692786acf1e94912d83c0553a3b5d543a7f33425dc2a2d262ddb": [
       298,
       495,
@@ -16494,6 +16460,21 @@
     ],
     "395f6ffbb0703857c307d71ed807bd6832407d5b8b455b6fd205b5df5dd9f87a": [
       619
+    ],
+    "39d12fede580eaa3476ffdbefd79166daeb215544b095d6bc55456e65022e5e7": [
+      250,
+      421,
+      735,
+      964,
+      1307,
+      1725,
+      1912,
+      2105,
+      2407,
+      3950,
+      4275,
+      4471,
+      4666
     ],
     "3aef171b2fb235bae988a418372a26de30d8b4f8167496a90a91184f37696e59": [
       158,
@@ -17102,6 +17083,13 @@
     ],
     "5250aba728e186ca59e1ceada585c504778c263fb14e64134c40eba24b109968": [
       272
+    ],
+    "52b571a81a821124dc3e01fd171ffc748c6e6185d8b9dd28f9856cd78c2a9113": [
+      175,
+      354,
+      552,
+      734,
+      1005
     ],
     "5329a5e8f0bd92c2d59b858e0eb4c07f1304b63619c827f1bd6aa7b1b1fbde5f": [
       689
@@ -17849,6 +17837,12 @@
       588,
       850
     ],
+    "727c81535e43f6582b8f2b6b5561069657ec22f268de302036d41cc128a741ea": [
+      260,
+      451,
+      699,
+      961
+    ],
     "730e5313579bb57e591d359b14aa2cba00effd379f5fbd4049fce4dbebcf3bb9": [
       265,
       472,
@@ -17998,31 +17992,6 @@
       1709,
       1960
     ],
-    "77ae7ec71651841e1ed10c1abbd645ebc78e4a1eef1b44193fcb71f5f3a42e09": [
-      224,
-      529,
-      715,
-      899,
-      1171,
-      1367,
-      1526,
-      1850,
-      2032,
-      2268,
-      2454,
-      2663,
-      2822,
-      3118,
-      3410,
-      3599,
-      3829,
-      4037,
-      4299,
-      4590,
-      4755,
-      5069,
-      5220
-    ],
     "77ec1a1be7279a9c97936d3f0a7247a898b436bba0c813a54233ed0ce9d755b5": [
       242,
       458,
@@ -18125,29 +18094,6 @@
       311,
       576,
       751
-    ],
-    "7e58b23a8bb6e8423db4fbeb7b9196ffaa5a1c54bc7d2f60fad88d64b4360355": [
-      213,
-      351,
-      606,
-      795,
-      1060,
-      1205,
-      1352,
-      1642,
-      1834,
-      2146,
-      2370,
-      2592,
-      2891,
-      3119,
-      3380,
-      3641,
-      4020,
-      4332,
-      4676,
-      4940,
-      5119
     ],
     "7e7e57e1a0a28b39d0bbbf4595ddfcc8d48fa2db23750fe47a83eec1c7b2dc23": [
       263,
@@ -19276,6 +19222,29 @@
       605,
       872
     ],
+    "b459577dd58191fe15e177c430f823850df90b86b2875da4eb65224402545e66": [
+      251,
+      514,
+      828,
+      1093,
+      1256,
+      1414,
+      1714,
+      1895,
+      2210,
+      2423,
+      2711,
+      2883,
+      3099,
+      3374,
+      3633,
+      3776,
+      4011,
+      4318,
+      4630,
+      4903,
+      5091
+    ],
     "b52d6123d70bfebe2d6d5afdc8052f6f2acfcbe6ff81fed9b2626e425921b160": [
       474,
       828
@@ -19495,6 +19464,30 @@
       604,
       869,
       1181
+    ],
+    "bfa746ff0355fd6596eebe52f52d5c5a6ab9f78b1b628e1b03808270b53fa21d": [
+      276,
+      556,
+      729,
+      906,
+      1171,
+      1348,
+      1498,
+      1802,
+      1998,
+      2225,
+      2391,
+      2748,
+      3060,
+      3363,
+      3561,
+      3805,
+      4012,
+      4296,
+      4596,
+      4757,
+      5083,
+      5231
     ],
     "bfdbee4e15130ffdb2b888e36f1c65e55bc7cc0f3c8864139d799229fa24ae20": [
       280,
@@ -21088,12 +21081,6 @@
       "3716": 4,
       "799": 1
     },
-    "04a25ec1aa6ded8e8e5e26d4e5ce9deb434a1e457e701822bf7b8b87be6fadb3": {
-      "1799": 2,
-      "3124": 3,
-      "4081": 4,
-      "766": 1
-    },
     "05525cec1090e4309714dc1a3f7881fb11f4629ea71345d91f658ae71d4a08f7": {
       "555": 1
     },
@@ -21396,9 +21383,6 @@
       "1454": 2,
       "630": 1
     },
-    "2793201d2ada98f53658afb56884d45dfb4deac4e550c9d568ee128c8d8ef9ae": {
-      "416": 1
-    },
     "2795ad778c7ffd794af56b3f218c51de1c4b6de36aadad6eef597c48f03ff28b": {
       "1276": 2,
       "514": 1
@@ -21467,9 +21451,6 @@
     "305eca7b5ba8c37e4542afcd132a808d0b28343945b9ea439e3a3652237131e1": {
       "246": 1
     },
-    "30a738cacd3680188583bbaf596f0bb2c193109d7c59e8e1c45c22aa6e38fd96": {
-      "436": 1
-    },
     "31923c423415692786acf1e94912d83c0553a3b5d543a7f33425dc2a2d262ddb": {
       "1366": 2,
       "298": 1
@@ -21516,6 +21497,10 @@
     },
     "387a80e2ccb1d3ca85201db4db26d164df0ea9e3a4adbfd85c02ef86c1171773": {
       "398": 1
+    },
+    "39d12fede580eaa3476ffdbefd79166daeb215544b095d6bc55456e65022e5e7": {
+      "1725": 2,
+      "735": 1
     },
     "3aef171b2fb235bae988a418372a26de30d8b4f8167496a90a91184f37696e59": {
       "485": 1
@@ -21719,6 +21704,9 @@
     "524378cd664e23ae90d4ba559b6016a2e3674e3da8d5cf7e467e96f0656d72a6": {
       "1004": 1,
       "2520": 2
+    },
+    "52b571a81a821124dc3e01fd171ffc748c6e6185d8b9dd28f9856cd78c2a9113": {
+      "552": 1
     },
     "538dd3cbab516889b00daa3084ca8bbe15fd8b9452187f0adcb3cda6b1a131fe": {
       "402": 1
@@ -21969,6 +21957,9 @@
     "7270e8e3bc12c02ee048963caed4dca79aa742e9b1284d0ab9ce72187f428f91": {
       "419": 1
     },
+    "727c81535e43f6582b8f2b6b5561069657ec22f268de302036d41cc128a741ea": {
+      "451": 1
+    },
     "730e5313579bb57e591d359b14aa2cba00effd379f5fbd4049fce4dbebcf3bb9": {
       "2115": 2,
       "714": 1
@@ -22022,11 +22013,6 @@
       "1709": 2,
       "505": 1
     },
-    "77ae7ec71651841e1ed10c1abbd645ebc78e4a1eef1b44193fcb71f5f3a42e09": {
-      "2268": 2,
-      "4037": 3,
-      "715": 1
-    },
     "77ec1a1be7279a9c97936d3f0a7247a898b436bba0c813a54233ed0ce9d755b5": {
       "1049": 2,
       "458": 1
@@ -22058,11 +22044,6 @@
     },
     "7e150ba93575f3acc22f21d79c94abf1bd674f5a977ab3ac42531fa217074d25": {
       "311": 1
-    },
-    "7e58b23a8bb6e8423db4fbeb7b9196ffaa5a1c54bc7d2f60fad88d64b4360355": {
-      "2146": 2,
-      "4020": 3,
-      "795": 1
     },
     "7e7e57e1a0a28b39d0bbbf4595ddfcc8d48fa2db23750fe47a83eec1c7b2dc23": {
       "1157": 2,
@@ -22456,6 +22437,11 @@
     "b3cc0e88a517ed5285fc6d8b2f8d1c00b04b09d8ff8d11cedd68b41b9a259876": {
       "402": 1
     },
+    "b459577dd58191fe15e177c430f823850df90b86b2875da4eb65224402545e66": {
+      "2210": 2,
+      "4011": 3,
+      "828": 1
+    },
     "b561e28819efadc748ba9c6ed543dc0f1cb2816c2144bdedc72f88c595064639": {
       "529": 1
     },
@@ -22528,6 +22514,11 @@
     },
     "bf2ed50aa8f9ab2e9d447cc98c1f2dacaae745f310d764f8b66f3fcc68fe98fc": {
       "604": 1
+    },
+    "bfa746ff0355fd6596eebe52f52d5c5a6ab9f78b1b628e1b03808270b53fa21d": {
+      "2225": 2,
+      "4012": 3,
+      "729": 1
     },
     "bfdbee4e15130ffdb2b888e36f1c65e55bc7cc0f3c8864139d799229fa24ae20": {
       "1594": 2,
