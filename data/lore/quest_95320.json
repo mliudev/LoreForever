@@ -1,0 +1,86 @@
+{
+ "key": "quest:95320",
+ "type": "quest",
+ "name": "A Curious Question",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95320
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A crow sends you toward a caged demon near the demon caster encampment. The prisoner may know something about the Ashen Reign.",
+ "sections": [
+  {
+   "title": "A Prisoner Nearby",
+   "body": "A caged demon near the demon caster encampment is making a fuss, and the crow wants you to find him. The prisoner's words speak of imprisonment, freedom, scorched bones and revenge. The crow offers an iron key, hoping to learn what he knows about the demon casters.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Proposed Bargain",
+   "body": "Felflick says you are no friend to the warlocks holding him. He offers information about the Ashen Reign and help dismantling their operations in exchange for freedom and revenge. The bargain rests on what you choose to do for the imprisoned demon.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the imprisoned demon?",
+   "aliases": [
+    "where demon",
+    "caged demon location"
+   ],
+   "answer": "He is near the entrance of the demon caster encampment, just up the road."
+  },
+  {
+   "q": "Who wants me to find the demon?",
+   "aliases": [
+    "who sent me",
+    "crow quest"
+   ],
+   "answer": "A crow asks you to find the caged demon and offers an iron key."
+  },
+  {
+   "q": "What is the demon called?",
+   "aliases": [
+    "demon name",
+    "who is felflick"
+   ],
+   "answer": "The imprisoned demon is named Felflick."
+  },
+  {
+   "q": "What does Felflick know?",
+   "aliases": [
+    "what info demon",
+    "ashen reign secrets"
+   ],
+   "answer": "Felflick offers information about the Ashen Reign."
+  },
+  {
+   "q": "What is making the demon fuss?",
+   "aliases": [
+    "why is demon yelling",
+    "demon rant"
+   ],
+   "answer": "He rants about imprisonment, freedom, scorched bones and revenge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashen reign",
+  "caged demon",
+  "crow",
+  "demon casters",
+  "felflick",
+  "freedom",
+  "imprisoned demon",
+  "iron key",
+  "revenge"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Curious Question"
+ ]
+}

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Corporal Teeka Bloodsnarl in the Alterac Mountains asks you to capture an enemy tower. The stronghold's defenses are at stake.",
+ "summary": "Corporal Teeka Bloodsnarl in the Alterac Mountains asks you to capture an enemy tower in Alterac Valley. The valley's defenses are at stake.",
  "sections": [
   {
    "title": "The Assignment",
-   "body": "An enemy tower is the prize Corporal Teeka Bloodsnarl sets before you in the Alterac Mountains. Capture it, then return to her. The order leaves the tower's hold in question.",
+   "body": "An enemy tower in Alterac Valley is the prize Corporal Teeka Bloodsnarl sets before you. Capture it, then return to her in the Alterac Mountains. The order leaves the tower's hold in question.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "tower assignment",
     "enemy tower"
    ],
-   "answer": "Teeka asks you to capture an enemy tower."
+   "answer": "Teeka asks you to capture an enemy tower in Alterac Valley."
   },
   {
    "q": "Where do I return?",
@@ -58,7 +58,8 @@
   "towers and bunkers"
  ],
  "related": [
-  "zone:alterac"
+  "zone:alterac",
+  "zone:alteracvalley"
  ],
  "style": 2,
  "attribution": [

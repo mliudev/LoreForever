@@ -445,9 +445,9 @@
     "npc:collin-mauren": {
       "1": [
         {
-          "duration": 77.40081632653062,
-          "file": "Audio/Transport/full_npc_collin-mauren-89f4ca53bcdf5a82ade5/1-0000.mp3",
-          "sha256": "c62d5bf6223c41edb78c3d06f9a5e061549318aa02e8ffc52d38c147e5a5ea0e",
+          "duration": 100.83265306122449,
+          "file": "Audio/Transport/full_npc_collin-mauren-c0a8b893e3e3e05717f4/1-0000.mp3",
+          "sha256": "73503199cbc2eeeb0818efb2385f5a9d1bb4459c38b9835b01735151808210c8",
           "start": 0
         }
       ],
@@ -459,12 +459,12 @@
         ]
       },
       "fullHash": "703b85",
-      "generation": "3d44ead7ad7c16bbc761",
+      "generation": "6a0b444e4fbf11c542bb",
       "hash": "c0384b",
       "source": {
-        "duration": 77.426939,
+        "duration": 100.832653,
         "file": null,
-        "sha256": "89f4ca53bcdf5a82ade5e34e24d1aa6f3a2cfa95588f216a2a1849ab67980b43"
+        "sha256": "c0a8b893e3e3e05717f4e24501d05ccbb8ac538c43f282810e503a0defefee30"
       },
       "text": "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and shapes useful spells from natural reagents. He also makes arcane scrolls for Gaxim Rustfizzle, his gnome friend and fellow explorer. In Stormwind's Mage Quarter, Collin Mauren studies how magic can solve practical problems. He shapes arcane formulas with natural anomalies and raw components gathered across Azeroth. Their properties help him make useful scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from afar. Gaxim, a gnome tinkerer, needed a remote trigger, so Collin devised a messaging spell for a scroll. To impress the spell upon it, Collin uses debris from Westfall's erratic Dust Devils. Now he awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks scales from the region's basilisks, whose resilient hides interest him as materials for new spells. Travelers bound for Kalimdor often receive his requests for these rare hides. The scales help him study how primal creature anatomy can steady complex enchantments."
     },
@@ -11460,6 +11460,22 @@
       1563,
       1711
     ],
+    "73503199cbc2eeeb0818efb2385f5a9d1bb4459c38b9835b01735151808210c8": [
+      176,
+      446,
+      738,
+      1040,
+      1335,
+      1574,
+      1748,
+      1916,
+      2092,
+      2242,
+      2670,
+      3007,
+      3345,
+      3583
+    ],
     "73f102a0e5fbd6c3f1a38f72d8657abb9fdd0fe00cfe885f81e0b594262487e3": [
       259,
       445,
@@ -12754,20 +12770,6 @@
       1943,
       2206,
       2481
-    ],
-    "c62d5bf6223c41edb78c3d06f9a5e061549318aa02e8ffc52d38c147e5a5ea0e": [
-      302,
-      530,
-      764,
-      986,
-      1178,
-      1432,
-      1706,
-      1919,
-      2073,
-      2300,
-      2560,
-      2749
     ],
     "c84847e35f90ad8cdd96b4c1fb3fde636b52e5f9940b3c849ad5184913359a49": [
       187,
@@ -14135,6 +14137,11 @@
       "1402": 2,
       "505": 1
     },
+    "73503199cbc2eeeb0818efb2385f5a9d1bb4459c38b9835b01735151808210c8": {
+      "1574": 2,
+      "2670": 3,
+      "738": 1
+    },
     "73f102a0e5fbd6c3f1a38f72d8657abb9fdd0fe00cfe885f81e0b594262487e3": {
       "1969": 2,
       "445": 1
@@ -14615,11 +14622,6 @@
     "c55d26877ab17f4a9da63798cdccf208ffae66a4d3c7f6fe0090cca828378f35": {
       "1688": 2,
       "635": 1
-    },
-    "c62d5bf6223c41edb78c3d06f9a5e061549318aa02e8ffc52d38c147e5a5ea0e": {
-      "1178": 2,
-      "2073": 3,
-      "530": 1
     },
     "c84847e35f90ad8cdd96b4c1fb3fde636b52e5f9940b3c849ad5184913359a49": {
       "443": 1

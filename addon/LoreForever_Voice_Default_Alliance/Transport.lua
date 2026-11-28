@@ -142,7 +142,7 @@ P.transport["npc:collin-mauren"] = {
   fullHash = "703b85",
   text = "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and shapes useful spells from natural reagents. He also makes arcane scrolls for Gaxim Rustfizzle, his gnome friend and fellow explorer. In Stormwind's Mage Quarter, Collin Mauren studies how magic can solve practical problems. He shapes arcane formulas with natural anomalies and raw components gathered across Azeroth. Their properties help him make useful scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from afar. Gaxim, a gnome tinkerer, needed a remote trigger, so Collin devised a messaging spell for a scroll. To impress the spell upon it, Collin uses debris from Westfall's erratic Dust Devils. Now he awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks scales from the region's basilisks, whose resilient hides interest him as materials for new spells. Travelers bound for Kalimdor often receive his requests for these rare hides. The scales help him study how primal creature anatomy can steady complex enchantments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_collin-mauren-ccee1804e939205f1cdf/1-0000.mp3", duration = 74.004898, start = 0},
+    {file = "Audio/Transport/full_npc_collin-mauren-e29f2e9c79affbf8a35e/1-0000.mp3", duration = 102.164898, start = 0},
   },
 }
 P.transport["npc:corithras-moonrage"] = {
@@ -630,7 +630,7 @@ P.transport["npc:sprite-jumpsprocket"] = {
   fullHash = "db0599",
   text = "Sprite Jumpsprocket. In Stormwind's Dwarven District, Sprite Jumpsprocket works beside gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she learns engineering among fellow tinkers. In Stormwind's Dwarven District, Sprite Jumpsprocket trains as an apprentice engineer. Gnomes and dwarves work side by side there, forging metal and shaping intricate devices. The capital gives apprentice tinkers room to learn from experienced masters. Their work keeps the Alliance's everyday mechanisms and marvels in good order. After Gnomeregan fell, displaced gnomes carried their skills in tinkering, chemistry, and mechanics across Alliance lands. In Stormwind, the Dwarven District offered them a welcome refuge, with blast furnaces and workbenches at hand. Sprite Jumpsprocket shares their resolve to master engineering despite the hardships her kin have faced.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sprite-jumpsprocket-a3c03e5b6ae45af8120d/1-0000.mp3", duration = 52.9240816, start = 0},
+    {file = "Audio/Transport/full_npc_sprite-jumpsprocket-cbfa330e0cab9cdcc670/1-0000.mp3", duration = 72.2546939, start = 0},
   },
 }
 P.transport["npc:sten-stoutarm"] = {

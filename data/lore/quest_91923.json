@@ -1,0 +1,85 @@
+{
+ "key": "quest:91923",
+ "type": "quest",
+ "name": "Celastrus the Bitter",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91923
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Thylaen asks you to destroy Celastrus, a corrupted thorn-bush on Hyjal's eastern slopes. Its poisoned growth threatens the mountain's undergrowth.",
+ "sections": [
+  {
+   "title": "A Bitter Growth",
+   "body": "Fel energies have twisted the plants on Hyjal, leaving weeds and growth corrupted and poisonous. Thylaen needs you to find Celastrus the Bitter on the eastern slopes and bring back a broken frond. The thorn-bush kills animals and feeds on the dead, while the undergrowth struggles to recover.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Celastrus the Bitter?",
+   "aliases": [
+    "celastrus",
+    "bitter thorn bush",
+    "celastrus the bitter"
+   ],
+   "answer": "Celastrus the Bitter is a great thorn-bush on Hyjal's eastern slopes, corrupted by fel energies."
+  },
+  {
+   "q": "Why does Thylaen want Celastrus destroyed?",
+   "aliases": [
+    "why kill celastrus",
+    "celastrus problem",
+    "thorn bush"
+   ],
+   "answer": "Celastrus kills animals, lashes out at other plants, and feeds on the dead. Thylaen says clearing the weeds will help the mountain regrow."
+  },
+  {
+   "q": "What happened to Hyjal's plants?",
+   "aliases": [
+    "hyjal weeds",
+    "corrupted plants",
+    "fel growth"
+   ],
+   "answer": "Fel energies that fell on the mountain long ago have left its weeds and plants angry, corrupted, and poisoned."
+  },
+  {
+   "q": "What does Thylaen ask me to bring back?",
+   "aliases": [
+    "celastrus frond",
+    "broken frond",
+    "what to bring back"
+   ],
+   "answer": "Thylaen asks you to return with a broken frond from Celastrus."
+  },
+  {
+   "q": "What does Thylaen say after Celastrus is destroyed?",
+   "aliases": [
+    "celastrus done",
+    "hyjal bloom",
+    "thorn bush destroyed"
+   ],
+   "answer": "Thylaen says the trimmed hedge will make the undergrowth less dangerous and that Hyjal will bloom again."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broken frond",
+  "celastrus",
+  "celastrus the bitter",
+  "corrupted plants",
+  "fel energies",
+  "hyjal",
+  "thorn-bush",
+  "thylaen"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Celastrus the Bitter"
+ ]
+}

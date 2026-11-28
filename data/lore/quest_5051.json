@@ -1,0 +1,67 @@
+{
+ "key": "quest:5051",
+ "type": "quest",
+ "name": "Two Halves Become One",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5051
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Janice Felstone needs you to find and mend the missing half of a Good Luck Charm on Felstone Farm. She is waiting for the charm in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "A Broken Charm",
+   "body": "The charm's other half lies somewhere on Felstone Farm in the Western Plaguelands. You are asked to find it and join the two pieces. Then Janice Felstone can receive the mended charm.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Janice Felstone need?",
+   "aliases": [
+    "Janice charm",
+    "good luck charm",
+    "two halves become one"
+   ],
+   "answer": "Janice Felstone needs you to find the other half of the Good Luck Charm on Felstone Farm, reassemble it, and give it to her."
+  },
+  {
+   "q": "Where is the other half of the charm?",
+   "aliases": [
+    "charm half location",
+    "missing charm piece",
+    "where's the other half"
+   ],
+   "answer": "The other half of the Good Luck Charm is somewhere on Felstone Farm in the Western Plaguelands."
+  },
+  {
+   "q": "What do I do with the two charm pieces?",
+   "aliases": [
+    "fix the charm",
+    "put charm together",
+    "reassemble charm"
+   ],
+   "answer": "Reassemble the Good Luck Charm and give it to Janice Felstone on Felstone Farm."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "charm",
+  "felstone farm",
+  "good luck charm",
+  "janice felstone",
+  "missing half",
+  "western plaguelands"
+ ],
+ "related": [
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Two Halves Become One"
+ ]
+}

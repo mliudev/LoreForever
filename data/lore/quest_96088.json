@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Pix Xizzix in Booty Bay seeks three Titan relics and a mark tied to the Burning Legion. Dalaran researchers want the artifacts recovered from dangerous places.",
+ "summary": "Pix Xizzix in Booty Bay seeks three relics tied to the Titans, their followers, and the Burning Legion. Dalaran researchers want the artifacts recovered from dangerous places.",
  "sections": [
   {
    "title": "Relics Wanted",
@@ -80,7 +80,7 @@
   "shaper's terrace",
   "titan relics",
   "varrox bleakhoof",
-  "ys era's tear"
+  "ysera's tear"
  ],
  "related": [
   "subzone:booty-bay",
@@ -88,8 +88,6 @@
   "subzone:shaper-s-terrace",
   "topic:titan",
   "topic:burning-legion",
-  "quest:1445",
-  "quest:3445",
   "subzone:dalaran"
  ],
  "style": 2,

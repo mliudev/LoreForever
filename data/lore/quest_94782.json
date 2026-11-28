@@ -1,0 +1,88 @@
+{
+ "key": "quest:94782",
+ "type": "quest",
+ "name": "The Western Post",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94782
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A crow sends you from the area where the warlocks are under control to an old outpost. Zet'gan is waiting there, in a village long cut off in a corner of the mountain.",
+ "sections": [
+  {
+   "title": "The Road Northwest",
+   "body": "The crow's work with the warlocks is done, and it sends you to see what is happening elsewhere. Follow the road northwest to the old outpost, where Zet'gan awaits.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Outpost",
+   "body": "Zet'gan says Scourge are on the way here, though few people reach this place. The village has been trapped in this corner of the mountain for a long time.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to the outpost?",
+   "aliases": [
+    "who sent me",
+    "crow outpost"
+   ],
+   "answer": "A crow who says its work with the warlocks is done sends you to the old outpost."
+  },
+  {
+   "q": "Where am I supposed to go?",
+   "aliases": [
+    "where go",
+    "outpost location"
+   ],
+   "answer": "The old outpost is northwest along the road."
+  },
+  {
+   "q": "Who is waiting at the outpost?",
+   "aliases": [
+    "who waits",
+    "zetgan"
+   ],
+   "answer": "Zet'gan is waiting at the old outpost."
+  },
+  {
+   "q": "Why are so few people here?",
+   "aliases": [
+    "why nobody here",
+    "village isolated"
+   ],
+   "answer": "Zet'gan says few people reach the village, which has been trapped in a corner of the mountain for a long time."
+  },
+  {
+   "q": "Are there Scourge on the way?",
+   "aliases": [
+    "scourge nearby",
+    "scourge road"
+   ],
+   "answer": "Zet'gan asks how many Scourge you encountered on the way, suggesting they are on the route."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crow",
+  "mountain",
+  "outpost",
+  "scourge",
+  "village",
+  "warlocks",
+  "western post",
+  "zet'gan"
+ ],
+ "related": [
+  "topic:scourge",
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Western Post"
+ ]
+}

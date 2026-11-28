@@ -3,9 +3,9 @@
     "npc:anastasia-hartwell": {
       "1": [
         {
-          "duration": 83.64408163265307,
-          "file": "Audio/Transport/full_npc_anastasia-hartwell-67ebd9aa0b881d2cb261/1-0000.mp3",
-          "sha256": "15d81d2eb95fdff105fe611db409ba2badd993c1e1dddd0478f1d270e3d0ff08",
+          "duration": 113.26693877551021,
+          "file": "Audio/Transport/full_npc_anastasia-hartwell-24ba9b645fdd253e3faa/1-0000.mp3",
+          "sha256": "51eb040ef7ccdee719274879447afd94e047dc249f6ace35fb9d6d051e60ffb9",
           "start": 0
         }
       ],
@@ -17,12 +17,12 @@
         ]
       },
       "fullHash": "1efddd",
-      "generation": "095f19b44bbcdf3d37e7",
+      "generation": "a7285bdeece50e392f3c",
       "hash": "b4d21f",
       "source": {
-        "duration": 83.670204,
+        "duration": 113.293061,
         "file": null,
-        "sha256": "67ebd9aa0b881d2cb261b2eb951401b197b527ce6b5390d496bcd4e348fb2944"
+        "sha256": "24ba9b645fdd253e3faa36dd8525c6349712e8d1f34a0dbce3af38b5ef074503"
       },
       "text": "Anastasia Hartwell. In the Undercity's Magic Quarter, Anastasia Hartwell trains Forsaken and Horde mages in the arcane arts. She guides spellcasters in their studies and directs magical research and field work across Lordaeron and beyond. In the Undercity's Magic Quarter, Anastasia Hartwell teaches Forsaken and Horde mages to channel arcane energies. Though Lordaeron has fallen to ruin, former human practitioners such as Anastasia preserve their scholarly traditions in undeath. She demands discipline in the practice of magic. Careless incantations can consume the untrained. Anastasia sends promising students into the field as well as teaching them spells. At Balnir Farmstead in eastern Tirisfal Glades, mages gather snapdragons to learn how far the plague has spread. In the Apothecarium, they visit Algernon's alchemist shop to capture invisible creatures of pure magic behind a strange disturbance. Her assignments bring them face to face with magic's dangers, even within their own city. Anastasia's connections reach beyond Tirisfal. As Horde spellcasters grow more skilled, she coordinates with trainers in distant lands, including Deino in Orgrimmar. She also directs advanced students to solitary masters such as Tabetha in the swamplands of Dustwallow Marsh. Her guidance keeps Forsaken mages connected to the Horde's wider magical pursuits."
     },
@@ -5335,20 +5335,6 @@
       1167,
       1546
     ],
-    "15d81d2eb95fdff105fe611db409ba2badd993c1e1dddd0478f1d270e3d0ff08": [
-      268,
-      522,
-      809,
-      1083,
-      1331,
-      1517,
-      1798,
-      2092,
-      2299,
-      2438,
-      2742,
-      3002
-    ],
     "16ad36e21c82fff1d19ba317d9699fdc2777588e58beff7d45217a54502fca66": [
       358,
       641,
@@ -5915,6 +5901,24 @@
       1391,
       1745,
       1969
+    ],
+    "51eb040ef7ccdee719274879447afd94e047dc249f6ace35fb9d6d051e60ffb9": [
+      226,
+      493,
+      862,
+      1227,
+      1625,
+      1772,
+      1941,
+      2100,
+      2366,
+      2569,
+      2743,
+      2973,
+      3240,
+      3396,
+      3657,
+      4082
     ],
     "52439b70b4ccde2d4dca381f51153e3ce2363c6e902b66678dac7b61417baf39": [
       166,
@@ -7514,11 +7518,6 @@
       "1525": 2,
       "677": 1
     },
-    "15d81d2eb95fdff105fe611db409ba2badd993c1e1dddd0478f1d270e3d0ff08": {
-      "1331": 2,
-      "2299": 3,
-      "522": 1
-    },
     "17e8e9887c11755be70a367e10a53f59ab0914918b4e07d43424a9b2e4a66cc9": {
       "1187": 2,
       "381": 1
@@ -7699,6 +7698,11 @@
     "50d32d3ad74e5f3b632e5689873a348f3ad25027adc1031f2937a7bd84b338c0": {
       "1161": 2,
       "364": 1
+    },
+    "51eb040ef7ccdee719274879447afd94e047dc249f6ace35fb9d6d051e60ffb9": {
+      "1941": 2,
+      "3240": 3,
+      "862": 1
     },
     "52439b70b4ccde2d4dca381f51153e3ce2363c6e902b66678dac7b61417baf39": {
       "1631": 2,

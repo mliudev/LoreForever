@@ -7,6 +7,16 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.22.0 (2026-11-28)
+
+- Corrected lore in 18 entries.
+
+- **Cleaner character and quest tracking:** keeps character levels accurate across logouts, preserves Forever realm names, and updates quest progress smoothly as you play.
+
+- **Smarter voice-pack update notices:** only flags packs with outdated recordings and clears warnings automatically once updated.
+
+- **New lore and updated translations:** added 29 new lore entries and updated translations across six languages (German, French, Spanish, Portuguese, Italian, and Chinese).
+
 ## 1.21.0 (2026-11-27)
 
 - **New lore and updated translations:** added 39 new lore entries and updated translations across six languages (German, French, Spanish, Portuguese, Italian, and Chinese).

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Saria Fairmoon seeks the Memory Crystal taken by Razorgill near the Tower of Eldara. Its strange voices may hold arcane power.",
+ "summary": "Saria Fairmoon seeks the Memory Crystal carried by Razorgill near the Tower of Eldara. The glowing relic may hold Highborne history and arcane power.",
  "sections": [
   {
-   "title": "A Crystal Recovered",
-   "body": "The Memory Crystal reaches Saria Fairmoon in Azshara intact. Its clamoring voices stir her curiosity, and she finds them alluring. The crystal may hold the key to arcane power, and it is a piece of history saved.",
+   "title": "A Glowing Relic",
+   "body": "On the beaches of Azshara's northern peninsula, Saria Fairmoon spotted a large orange murloc carrying a glowing crystal near the Tower of Eldara. She believes the Highborne used such crystals to store history and memories, and that it could hold untold arcane power. Take the cliff route west of her camp to recover the Memory Crystal from Razorgill.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "memory crystal meaning",
     "what's the crystal"
    ],
-   "answer": "Saria calls the Memory Crystal a piece of history. Its voices may hold the key to arcane power."
+   "answer": "Saria believes the Memory Crystal is a glowing Highborne relic used to store history and memories, and that it could hold arcane power."
   },
   {
    "q": "What is strange about the crystal?",

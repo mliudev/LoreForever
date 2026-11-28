@@ -12457,9 +12457,9 @@
     "quest:96896": {
       "1": [
         {
-          "duration": 68.7804081632653,
-          "file": "Audio/Transport/full_quest_96896-a5b9ac7a904ed712fb4a/1-0000.mp3",
-          "sha256": "5eca017e4fc7c3aae50536f22d5598c96982e704e691d3bafec8793866488405",
+          "duration": 96.39183673469388,
+          "file": "Audio/Transport/full_quest_96896-6ecb61acb6a2d7d746da/1-0000.mp3",
+          "sha256": "5cbd081cdf2b74549e7fc2e1f65f5c64cf23c570b7dee9a5ba0947c544fd7edf",
           "start": 0
         }
       ],
@@ -12471,12 +12471,12 @@
         ]
       },
       "fullHash": "b562d4",
-      "generation": "fa1a1a32ead12cbf7088",
+      "generation": "78e1f3ffce050d1df36a",
       "hash": "b562d4",
       "source": {
-        "duration": 68.806531,
+        "duration": 96.417959,
         "file": null,
-        "sha256": "a5b9ac7a904ed712fb4ac80b80bc41ce0569fe19065fcd1733dfc755bd1b8b8f"
+        "sha256": "6ecb61acb6a2d7d746daaf940379689557a8eeae76d45dcabf41d5fbab7a8a2c"
       },
       "text": "A Righteous Cause. Leonid Barthalomew the Revered and Danitha Morr meet again to remember the Undercity's defense against Naxxramas. They speak of Garek Bandarion, a fallen undead hero who found the Holy Light again as a paladin, and of the Forsaken who carry his path onward. Leonid Barthalomew the Revered and Danitha Morr meet again after defending Lordaeron together. They survived Naxxramas's assault on the Undercity, though many comrades fell. Now they remember the dead and the hard road faced by Forsaken who still honor the Holy Light. Leonid and Danitha remember Garek Bandarion, the fallen hero whose name was given to the keep. Leonid believes Garek may have been the first Forsaken to wield the Holy Light again as a true paladin. Most Forsaken have turned from the Light. Danitha and her cohort keep Garek's legacy alive and explore what holy unlife may allow. After speaking with Danitha, Leonid prepares to leave the keep and return to the fight against the Scourge in the ravaged east. He is stationed at Light's Hope Chapel in the Eastern Plaguelands. There, he welcomes able-bodied adventurers ready to take up arms."
     },
@@ -16072,6 +16072,23 @@
       2190,
       2347
     ],
+    "5cbd081cdf2b74549e7fc2e1f65f5c64cf23c570b7dee9a5ba0947c544fd7edf": [
+      194,
+      442,
+      722,
+      935,
+      1104,
+      1255,
+      1423,
+      1605,
+      1865,
+      2183,
+      2493,
+      2926,
+      3112,
+      3302,
+      3495
+    ],
     "5dbe93fc6b004cba4dcba8092dd4186e3a8707d5a2de6a037d783b610b9f50f7": [
       245,
       446,
@@ -16121,18 +16138,6 @@
       1067,
       1280,
       1431
-    ],
-    "5eca017e4fc7c3aae50536f22d5598c96982e704e691d3bafec8793866488405": [
-      257,
-      603,
-      825,
-      1019,
-      1234,
-      1470,
-      1692,
-      2027,
-      2301,
-      2450
     ],
     "5ed4ea925faa2a1a06189ef7702e5ba7d9d10e323602a4a6e5f71eb0587dfb4f": [
       220,
@@ -20628,6 +20633,11 @@
       "1557": 2,
       "700": 1
     },
+    "5cbd081cdf2b74549e7fc2e1f65f5c64cf23c570b7dee9a5ba0947c544fd7edf": {
+      "1865": 2,
+      "2926": 3,
+      "935": 1
+    },
     "5dbe93fc6b004cba4dcba8092dd4186e3a8707d5a2de6a037d783b610b9f50f7": {
       "1627": 2,
       "741": 1
@@ -20643,11 +20653,6 @@
     "5e5dd5432b214bc5360f07008f3d39b6622a5fef87ddb1a9b5c18b8398c19434": {
       "1067": 2,
       "470": 1
-    },
-    "5eca017e4fc7c3aae50536f22d5598c96982e704e691d3bafec8793866488405": {
-      "1234": 2,
-      "2027": 3,
-      "603": 1
     },
     "5ed4ea925faa2a1a06189ef7702e5ba7d9d10e323602a4a6e5f71eb0587dfb4f": {
       "1587": 2,

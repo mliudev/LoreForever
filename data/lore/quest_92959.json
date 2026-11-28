@@ -1,0 +1,79 @@
+{
+ "key": "quest:92959",
+ "type": "quest",
+ "name": "The Dying Ancients",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92959
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An ancient asks you to face Sunderbark, corrupted beyond saving. A seed may let something good grow from the sorrow.",
+ "sections": [
+  {
+   "title": "A Friend Lost",
+   "body": "The ancient tells you that corruption has spread into its roots and touched others as well. Its old friend Sunderbark has been broken by that corruption, and there is no saving him. You are asked to strike the corrupted tree by the pool to the east so Sunderbark will come.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Seed in the Earth",
+   "body": "When Sunderbark is destroyed, plant the seed in his remains. The ancient hopes something beautiful will grow from the violence. It, too, expects to return to the earth soon, and trusts new blossoms to carry a future for the mountain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sunderbark?",
+   "aliases": [
+    "sunderbark who",
+    "who is the ancient"
+   ],
+   "answer": "Sunderbark is an ancient and an old friend of the speaker. Corruption has broken him, leaving him beyond saving."
+  },
+  {
+   "q": "What has happened to the ancient?",
+   "aliases": [
+    "ancient corruption",
+    "why is it dying"
+   ],
+   "answer": "Corruption is seeping into the ancient's limbs and roots, and it says other ancients have felt it too."
+  },
+  {
+   "q": "Where will Sunderbark come from?",
+   "aliases": [
+    "corrupted pool",
+    "tree to east"
+   ],
+   "answer": "The ancient directs you to strike the corrupted tree by the pool to the east, which will bring Sunderbark."
+  },
+  {
+   "q": "What is the seed for?",
+   "aliases": [
+    "plant seed where",
+    "seed remains"
+   ],
+   "answer": "The seed is to be planted in Sunderbark's remains after he is destroyed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient",
+  "corrupted tree",
+  "corruption",
+  "mountain",
+  "pool",
+  "seed",
+  "sunderbark",
+  "the dying ancients"
+ ],
+ "related": [
+  "quest:5307"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Dying Ancients"
+ ]
+}

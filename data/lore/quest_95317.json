@@ -1,0 +1,92 @@
+{
+ "key": "quest:95317",
+ "type": "quest",
+ "name": "Notation, Notation, Notation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95317
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A crow asks you to investigate the warlock camp up the mountain and bring back their notes. The experiments involve fel magic and ash, and she wants to learn what the visitors are doing.",
+ "sections": [
+  {
+   "title": "The Camp",
+   "body": "The crow hears noisy visitors up the mountain and suspects their demon magic is tainting the land. She asks you to search their camp for notes on experiments involving ash. Their work is unnatural, and she wants to learn what they are doing.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Findings",
+   "body": "The camp has four separate areas, though the crow cannot get close enough to see what happens in them. When you explain your findings, she grows bored with the detail in the notes. She says stopping the warlocks is what matters now, and plans to throw the notes from a tall cliff.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to investigate the camp?",
+   "aliases": [
+    "who sent me",
+    "the crow",
+    "camp investigator"
+   ],
+   "answer": "A crow asks you to investigate the warlock camp up the mountain and bring back notes."
+  },
+  {
+   "q": "What are the visitors doing?",
+   "aliases": [
+    "what are warlocks doing",
+    "ash experiments",
+    "camp activities"
+   ],
+   "answer": "They are using demon magic and experimenting with piles of ash. Their notes may explain what they are doing."
+  },
+  {
+   "q": "What notes am I looking for?",
+   "aliases": [
+    "fel ash notes",
+    "find notes",
+    "what papers"
+   ],
+   "answer": "The crow asks you to bring back notes about the warlocks' experiments involving fel magic and ash."
+  },
+  {
+   "q": "How is the warlock camp arranged?",
+   "aliases": [
+    "camp areas",
+    "four sections",
+    "warlock camp layout"
+   ],
+   "answer": "The crow believes the camp has four separate areas, but cannot get close enough to see what happens there."
+  },
+  {
+   "q": "What does the crow plan to do with the notes?",
+   "aliases": [
+    "notes fate",
+    "crow throws notes",
+    "what happens to papers"
+   ],
+   "answer": "After hearing your findings, the crow says she plans to drop the notes from a tall cliff."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ash",
+  "crow",
+  "demon magic",
+  "experiments",
+  "fel ash",
+  "notation",
+  "notes",
+  "warlock camp"
+ ],
+ "related": [
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Notation, Notation, Notation"
+ ]
+}

@@ -20,7 +20,7 @@
   },
   {
    "title": "Seeking Knowledge",
-   "body": "In the Blasted Lands, you are asked to find an expert on its beasts. When you bring word back, your interests may prove aligned with the one seeking to learn more about Calefactus.",
+   "body": "You set out for the Blasted Lands to find an expert on its beasts. There, Bloodmage Lynnore hears word of Calefactus and remarks that your interests may be aligned.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "who wants beast info",
     "who am i reporting to"
    ],
-   "answer": "The request asks you to find an expert on the beasts of the Blasted Lands, but gives no name for the one seeking to hear about Calefactus."
+   "answer": "No one sends you; after examining the carving of Calefactus, you seek an expert in the Blasted Lands and bring word to Bloodmage Lynnore."
   }
  ],
  "angles": [],
@@ -72,7 +72,7 @@
  "related": [
   "zone:blastedlands",
   "subzone:dark-portal",
-  "quest:92472"
+  "npc:bloodmage-lynnore"
  ],
  "style": 2,
  "attribution": [

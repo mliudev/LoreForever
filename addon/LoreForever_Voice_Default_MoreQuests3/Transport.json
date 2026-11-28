@@ -4241,9 +4241,9 @@
     "quest:188": {
       "1": [
         {
-          "duration": 27.742040816326533,
-          "file": "Audio/Transport/full_quest_188-06c36f5aed25b382d9a7/1-0000.mp3",
-          "sha256": "eecc2d30a237f8a3fde4fd7ea3c76526d1df5e37b62bdcfeb4c263147bc7a8dd",
+          "duration": 40.48979591836735,
+          "file": "Audio/Transport/full_quest_188-7a330ce8ab9685e328a6/1-0000.mp3",
+          "sha256": "dcfb654160a1b5554f5ec06a56e789e5d73b882951314c1571c0ac1d2c3eb521",
           "start": 0
         }
       ],
@@ -4255,12 +4255,12 @@
         ]
       },
       "fullHash": "f38c27",
-      "generation": "b4e90361c5b65014a1ab",
+      "generation": "e775ba9446d9b13c2f8a",
       "hash": "f38c27",
       "source": {
-        "duration": 27.742041,
+        "duration": 40.515918,
         "file": null,
-        "sha256": "06c36f5aed25b382d9a702d82b594ba7ceaba4d97df95af15cf78e513616b15e"
+        "sha256": "7a330ce8ab9685e328a65b6938d9156bede060bf515b8f7dfd5c44f34220024d"
       },
       "text": "Tiger Mastery. At Nesingwary's Expedition, Ajeck Rouack sends you after a tiger his hunters have tracked for weeks. Sin'Dall waits in northern Stranglethorn Vale, and her paw will prove the hunt is done. At Nesingwary's Expedition, Ajeck Rouack sends you on one last hunt after your earlier trials against Stranglethorn's tigers. His hunters have tracked Sin'Dall through the jungle for weeks. Find the elusive tiger, kill her, and bring back her paw as proof."
     },
@@ -4345,9 +4345,9 @@
     "quest:193": {
       "1": [
         {
-          "duration": 32.57469387755102,
-          "file": "Audio/Transport/full_quest_193-b294cf02d2c5bd8ee652/1-0000.mp3",
-          "sha256": "1841579f9f4d75262d04b0cfea1f3017e5241390f8861497979b66d8bb8992ee",
+          "duration": 46.49795918367347,
+          "file": "Audio/Transport/full_quest_193-0add843558feb1e97b1f/1-0000.mp3",
+          "sha256": "f8f044b14acb9f302939f033d3a1054b9599a1d36e6069f1dac0c959b44b34e0",
           "start": 0
         }
       ],
@@ -4359,12 +4359,12 @@
         ]
       },
       "fullHash": "1d5a09",
-      "generation": "eaa1492165a64f8d3388",
+      "generation": "efc1ea8af38a8125ee2a",
       "hash": "1d5a09",
       "source": {
-        "duration": 32.600816,
+        "duration": 46.524082,
         "file": null,
-        "sha256": "b294cf02d2c5bd8ee6527edebf7e7d6896a5db0940bc9464cf406c9abaec6dac"
+        "sha256": "0add843558feb1e97b1fa60c03c3d4658a6227d3a1295d3ffe19b6e4f1857c20"
       },
       "text": "Panther Mastery. At Nesingwary's Expedition, Sir S. J. Erlgadin sets one final trial for you. You have hunted panthers before, but the expedition's party has failed to find Bhag'thera. Bring back the predator's fang to prove your skill as a master of the hunt. At Nesingwary's Expedition, Sir S. J. Erlgadin sets one last test for you. Bhag'thera still prowls Stranglethorn Vale, beyond the expedition's party's reach. Track down the great panther and bring back its fang as proof of your skill."
     },
@@ -17315,13 +17315,6 @@
     "182041f2222b22117362cb92e7f6d1edfc1d5b1e52cdc775e3eea819b3ad34a6": [
       696
     ],
-    "1841579f9f4d75262d04b0cfea1f3017e5241390f8861497979b66d8bb8992ee": [
-      236,
-      454,
-      647,
-      856,
-      1068
-    ],
     "18700bdeaf523584d6686e3766bf9720016300a7ad686d484680087cee6e8a1b": [
       522,
       825
@@ -18030,6 +18023,12 @@
       615,
       923
     ],
+    "2e75a99e2898c4e24b7bbe4377714a5052edccc5bd0bb36528d214c60db0d30a": [
+      314,
+      828,
+      1265,
+      1699
+    ],
     "2e9576db1cd836ab8c2ab0f8daad2f048e314034b4a602d797b5cf8f34036165": [
       252
     ],
@@ -18291,6 +18290,11 @@
     "37c16f7ad3f4014a1474ecff3b8a39e782deec3b6e29af75d541bb5ea972c8f2": [
       572,
       894
+    ],
+    "382fc125c7f60e226c8f77f2c81cdd82bde00b00943f1796bfae71f1a6343030": [
+      480,
+      914,
+      1393
     ],
     "382fcabb6c57f4dcbf4f697f09e26cd6e7859c7b6c27194146a2800386b8f467": [
       549,
@@ -19034,6 +19038,10 @@
     ],
     "4d7aa467c7416f3d6bba7a4f33504d7757eb2da7053067a0c26901447d3a4951": [
       532
+    ],
+    "4daefce130f4bac7e691328ff702f23b93809e22f437771b586e8df11e6c20a0": [
+      427,
+      1032
     ],
     "4dce113a194c9f3216484828eb6e842b365d060493180d527397c5d339a6a7b6": [
       240,
@@ -19974,6 +19982,12 @@
       947,
       1145
     ],
+    "6cd5a68b7ac88b17339c0a6f74d94a685fc5645ad3ea4e3e978e1bb0e83e3631": [
+      284,
+      924,
+      1260,
+      1517
+    ],
     "6d006571904fe8abed7b29c482ab4ee9de1b2a9a50b7af8c552a3d6cadf20ae0": [
       509
     ],
@@ -20035,6 +20049,12 @@
       211,
       466,
       710
+    ],
+    "70080c7aed07378c58fac4489f07b0112a29c07c05ce157700699145b8a4348b": [
+      302,
+      830,
+      1703,
+      1967
     ],
     "700f2bb7de50341b0cd022dc29f979c98afba36ea5aa879c812fb676839bd3ae": [
       219,
@@ -20602,6 +20622,10 @@
       452,
       953
     ],
+    "84620fc6a3c4bd728dc3976fd73f07154c0c1afe91903bdd6e226b17184cbf17": [
+      504,
+      1014
+    ],
     "8466cde3930ef627cd244e0e6d4b173fd61f356e8e10339ebae2b02dc94acf60": [
       233,
       726,
@@ -21046,6 +21070,11 @@
       845,
       1159,
       1419
+    ],
+    "93e5d991290c3e9946fd229ffe376062ce75333ebdad8f616ce15048e69b55be": [
+      473,
+      1033,
+      1679
     ],
     "94498e7d02eca908849091e95c1cade2e5cf912982a12751f6c02763c489c76e": [
       254,
@@ -21643,6 +21672,12 @@
       505,
       726
     ],
+    "a773d72085258bb2d73f28176c943bc1ba81093368149083d803be1f29be461d": [
+      254,
+      693,
+      1011,
+      1459
+    ],
     "a7b3ad6c0d6621da31cc0cffaaf357fbf1d936b1fdd1f917980374ea2ac26963": [
       221,
       482,
@@ -22072,6 +22107,10 @@
       1440,
       1596
     ],
+    "b4c89218bc1a1506c8d6d799e90395aaec2caca8efeeeffda2ec2c92549c988f": [
+      433,
+      909
+    ],
     "b4f16f943aa3f42dc919a9e0a1f29818855663a74361cdef4eba08aaef90acfd": [
       397
     ],
@@ -22304,6 +22343,11 @@
     "bd4cef53cc3739aab64ff633aadece162990fd97a7b88cc51ab25ee05e6a50b7": [
       401,
       705
+    ],
+    "bd59087d961d283ec4e862335906e436d287fb30b89e97344be72148fb164883": [
+      512,
+      946,
+      1459
     ],
     "bd5e9e20d30742041fa3af5d7d25b13f261624497c2c6fb2a5fc659691414300": [
       416
@@ -22777,6 +22821,11 @@
     "cdec84c83ddb29f7adf7888c2ce861768c2c4821608b0ab8685154e732c5418c": [
       524
     ],
+    "cdf36f47dd2b3f9ae760fadc34908daed173305c0ba8cae69b72d1d1b8361f4b": [
+      563,
+      1072,
+      1437
+    ],
     "ce506a18e9574ad4ef843749ed68004de7085de4ceef2fa1473a5989ea41b221": [
       646
     ],
@@ -22844,6 +22893,11 @@
     ],
     "d0a114db86bd8b34a880b41b90ea87b79a05371786cfbf986af60d3fdd551c78": [
       635
+    ],
+    "d0b2e24274dffb41984167d17334817fd1dd6f0d9be8a5257715c8da8c16daf1": [
+      378,
+      709,
+      1182
     ],
     "d0cc74a08de4f21bc06e0b833d2c7406c203e538320d9a010cc9d129a86d6897": [
       286,
@@ -23143,6 +23197,11 @@
       1993,
       2175
     ],
+    "d85c4f68440186b5034559542deccedb1a34cbdc1f15de82fd48aa5958496261": [
+      323,
+      792,
+      1079
+    ],
     "d86b7b882c1a3b00c0655cdc54ae4bbb3798352c483aaf292f942bd7be987a40": [
       560,
       896
@@ -23239,6 +23298,15 @@
       784,
       1015,
       1274
+    ],
+    "dcfb654160a1b5554f5ec06a56e789e5d73b882951314c1571c0ac1d2c3eb521": [
+      189,
+      417,
+      574,
+      709,
+      951,
+      1130,
+      1307
     ],
     "dd1ec560023c1daf7e395e8892a4d31f919c23973cc5549ebccb78b170eeb478": [
       450,
@@ -23461,6 +23529,11 @@
     "e5b43930bcb0ad922d4a668fce4f9fae0bacb801195e07024346ed02e991ccb5": [
       483,
       860
+    ],
+    "e5cb15ac919522b351cb16d4d96f2216f1261d1f73181c8d8b79f8561cd5d488": [
+      600,
+      1023,
+      1471
     ],
     "e5cbc0001bc57ccc14c995064037600c50cdcb5c14d79ae1df9c7e56b30148f8": [
       453,
@@ -23826,11 +23899,6 @@
       849,
       1136
     ],
-    "eecc2d30a237f8a3fde4fd7ea3c76526d1df5e37b62bdcfeb4c263147bc7a8dd": [
-      246,
-      467,
-      758
-    ],
     "ef4097fe0adc44bcd4157802590a8b451b037eb8be0c8877ba5145d302460498": [
       249,
       514,
@@ -23994,6 +24062,11 @@
       691,
       1057
     ],
+    "f3abf85523210728922dd2e77faa992d134c17afbcd4ee20375a92cc277dd563": [
+      361,
+      784,
+      1404
+    ],
     "f3b8bf42bb5305953cf7645e7a58f870e0b6e37c18243a7e4a0e2d1a88a2dfae": [
       399,
       946,
@@ -24115,6 +24188,14 @@
       342,
       501,
       725
+    ],
+    "f8f044b14acb9f302939f033d3a1054b9599a1d36e6069f1dac0c959b44b34e0": [
+      217,
+      413,
+      687,
+      930,
+      1259,
+      1416
     ],
     "f9002da02234dd305198b8b7730d2018c22b483742b0261aa3e4fff62fd4021d": [
       333
@@ -24492,9 +24573,6 @@
     },
     "17fbb0ab55b21cd57ceb5d85eda8354e5480cc596ab45f090d77153e29d0419d": {
       "469": 1
-    },
-    "1841579f9f4d75262d04b0cfea1f3017e5241390f8861497979b66d8bb8992ee": {
-      "647": 1
     },
     "191dc457cb1c309b7b7ef21826c7103b30c207e76f220571d177cf41f5ca52d4": {
       "526": 1
@@ -26207,6 +26285,9 @@
       "1015": 2,
       "409": 1
     },
+    "dcfb654160a1b5554f5ec06a56e789e5d73b882951314c1571c0ac1d2c3eb521": {
+      "709": 1
+    },
     "ddd30946877edda833bc22b393c1bfb41ddd33a2ba1e5da5328e4e8e075b672f": {
       "563": 1
     },
@@ -26366,9 +26447,6 @@
     "eea8f77ca7bc3ac373f816338c60436d063f7e9b30984673af26a6de2b7faa99": {
       "415": 1
     },
-    "eecc2d30a237f8a3fde4fd7ea3c76526d1df5e37b62bdcfeb4c263147bc7a8dd": {
-      "467": 1
-    },
     "ef4097fe0adc44bcd4157802590a8b451b037eb8be0c8877ba5145d302460498": {
       "514": 1
     },
@@ -26423,6 +26501,9 @@
     },
     "f89b1e8e3f45e601d5ec75d47c3b55818886bca891dc2cffd1228ee49b306a98": {
       "342": 1
+    },
+    "f8f044b14acb9f302939f033d3a1054b9599a1d36e6069f1dac0c959b44b34e0": {
+      "930": 1
     },
     "f91f8554085f7bb16d742c2932022190b84fc7596c180fb6878a242b2dcefdaa": {
       "686": 1

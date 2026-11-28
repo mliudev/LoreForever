@@ -1,0 +1,76 @@
+{
+ "key": "quest:5049",
+ "type": "quest",
+ "name": "The Jeremiah Blues",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5049
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Janice Felstone asks you to find Jeremiah Payson in the Undercity and learn whether he is her kin. If he is, she has a package prepared for him.",
+ "sections": [
+  {
+   "title": "A Family Question",
+   "body": "Janice Felstone has a package for Jeremiah Felstone, but she does not know whether he now lives in the Undercity under the name Jeremiah Payson. You are asked to find him and see if the two names belong to the same man.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Janice looking for?",
+   "aliases": [
+    "jeremiah payson",
+    "jeremiah felstone",
+    "who is jeremiah"
+   ],
+   "answer": "Janice Felstone asks you to find Jeremiah Payson in the Undercity and check whether he is Jeremiah Felstone."
+  },
+  {
+   "q": "Where is Jeremiah Payson?",
+   "aliases": [
+    "where's jeremiah",
+    "jeremiah location",
+    "find payson"
+   ],
+   "answer": "Jeremiah Payson is in the Undercity."
+  },
+  {
+   "q": "What does Janice want you to do?",
+   "aliases": [
+    "jeremiah blues",
+    "janice's request",
+    "find jeremiah quest"
+   ],
+   "answer": "Janice asks you to find Jeremiah Payson and learn whether he is Jeremiah Felstone."
+  },
+  {
+   "q": "What is the package for?",
+   "aliases": [
+    "janice package",
+    "package for jeremiah",
+    "what package"
+   ],
+   "answer": "Janice has made a package for Jeremiah Felstone, if Jeremiah Payson is indeed him."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "identity",
+  "janice felstone",
+  "jeremiah felstone",
+  "jeremiah payson",
+  "package",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Jeremiah Blues"
+ ]
+}

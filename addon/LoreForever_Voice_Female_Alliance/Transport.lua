@@ -142,7 +142,7 @@ P.transport["npc:collin-mauren"] = {
   fullHash = "703b85",
   text = "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and shapes useful spells from natural reagents. He also makes arcane scrolls for Gaxim Rustfizzle, his gnome friend and fellow explorer. In Stormwind's Mage Quarter, Collin Mauren studies how magic can solve practical problems. He shapes arcane formulas with natural anomalies and raw components gathered across Azeroth. Their properties help him make useful scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from afar. Gaxim, a gnome tinkerer, needed a remote trigger, so Collin devised a messaging spell for a scroll. To impress the spell upon it, Collin uses debris from Westfall's erratic Dust Devils. Now he awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks scales from the region's basilisks, whose resilient hides interest him as materials for new spells. Travelers bound for Kalimdor often receive his requests for these rare hides. The scales help him study how primal creature anatomy can steady complex enchantments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_collin-mauren-89f4ca53bcdf5a82ade5/1-0000.mp3", duration = 77.4008163, start = 0},
+    {file = "Audio/Transport/full_npc_collin-mauren-c0a8b893e3e3e05717f4/1-0000.mp3", duration = 100.832653, start = 0},
   },
 }
 P.transport["npc:corithras-moonrage"] = {

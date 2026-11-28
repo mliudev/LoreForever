@@ -1,0 +1,65 @@
+{
+ "key": "quest:81953",
+ "type": "quest",
+ "name": "Stonewrought Design",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   81953
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "In the Library, you are asked to add a magical work to its collection. Your contribution helps expand its knowledge.",
+ "sections": [
+  {
+   "title": "A Library Request",
+   "body": "A keeper in the Library asks you to bring something for the collection. Magical works can add to the Library's knowledge, and further discoveries may also be brought there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is wanted for the Library?",
+   "aliases": [
+    "stonewrought design",
+    "library book",
+    "what to bring"
+   ],
+   "answer": "A magical work to add to the Library's collection."
+  },
+  {
+   "q": "Why bring a magical work?",
+   "aliases": [
+    "why give book",
+    "what does it help"
+   ],
+   "answer": "The Library's knowledge expands through contributions."
+  },
+  {
+   "q": "Can I bring more works?",
+   "aliases": [
+    "more books",
+    "other magical works"
+   ],
+   "answer": "Yes. Further magical works that may benefit the Library can be brought to its keeper."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works",
+  "stonewrought design"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stonewrought Design"
+ ]
+}

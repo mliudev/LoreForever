@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A librarian seeks magical works for the Library in Ironforge. Your discoveries help expand its collection and knowledge.",
+ "summary": "Oran Snakewrithe seeks magical works for the library in Undercity's Magic Quarter. Your discoveries help expand its collection and knowledge.",
  "sections": [
   {
    "title": "For the Collection",
-   "body": "The librarian at the Library in Ironforge asks whether you have brought something to add to the collection. Magical works may benefit the library, and your efforts help its knowledge expand. The librarian welcomes more such discoveries.",
+   "body": "In Undercity's Magic Quarter, Oran Snakewrithe asks whether you have brought something to add to the collection. Magical works may benefit the library, and she welcomes more such discoveries as its knowledge grows.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "library books",
     "magical works"
    ],
-   "answer": "The librarian asks for magical works that might benefit the Library's collection."
+   "answer": "Oran Snakewrithe asks for magical works that might benefit the library's collection."
   },
   {
    "q": "Where is the collection?",
@@ -36,7 +36,7 @@
     "ironforge library",
     "which library"
    ],
-   "answer": "The collection is in the Library in Ironforge."
+   "answer": "The collection is kept by Oran Snakewrithe in Undercity's Magic Quarter."
   },
   {
    "q": "Why bring magical works?",
@@ -51,14 +51,17 @@
  "angles": [],
  "keywords": [
   "collection",
-  "ironforge",
   "librarian",
   "library",
+  "magic quarter",
   "magical works",
-  "undead potatoes"
+  "oran snakewrithe",
+  "undead potatoes",
+  "undercity"
  ],
  "related": [
-  "subzone:library-ironforge"
+  "subzone:magic-quarter",
+  "zone:undercity"
  ],
  "style": 2,
  "attribution": [

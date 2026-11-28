@@ -6,7 +6,7 @@ P.transport["npc:anastasia-hartwell"] = {
   fullHash = "1efddd",
   text = "Anastasia Hartwell. In the Undercity's Magic Quarter, Anastasia Hartwell trains Forsaken and Horde mages in the arcane arts. She guides spellcasters in their studies and directs magical research and field work across Lordaeron and beyond. In the Undercity's Magic Quarter, Anastasia Hartwell teaches Forsaken and Horde mages to channel arcane energies. Though Lordaeron has fallen to ruin, former human practitioners such as Anastasia preserve their scholarly traditions in undeath. She demands discipline in the practice of magic. Careless incantations can consume the untrained. Anastasia sends promising students into the field as well as teaching them spells. At Balnir Farmstead in eastern Tirisfal Glades, mages gather snapdragons to learn how far the plague has spread. In the Apothecarium, they visit Algernon's alchemist shop to capture invisible creatures of pure magic behind a strange disturbance. Her assignments bring them face to face with magic's dangers, even within their own city. Anastasia's connections reach beyond Tirisfal. As Horde spellcasters grow more skilled, she coordinates with trainers in distant lands, including Deino in Orgrimmar. She also directs advanced students to solitary masters such as Tabetha in the swamplands of Dustwallow Marsh. Her guidance keeps Forsaken mages connected to the Horde's wider magical pursuits.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_anastasia-hartwell-67ebd9aa0b881d2cb261/1-0000.mp3", duration = 83.6440816, start = 0},
+    {file = "Audio/Transport/full_npc_anastasia-hartwell-24ba9b645fdd253e3faa/1-0000.mp3", duration = 113.266939, start = 0},
   },
 }
 P.transport["npc:apothecary-johaan"] = {

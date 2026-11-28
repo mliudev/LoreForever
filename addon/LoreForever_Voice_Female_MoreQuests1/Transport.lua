@@ -3838,7 +3838,7 @@ P.transport["quest:96896"] = {
   fullHash = "b562d4",
   text = "A Righteous Cause. Leonid Barthalomew the Revered and Danitha Morr meet again to remember the Undercity's defense against Naxxramas. They speak of Garek Bandarion, a fallen undead hero who found the Holy Light again as a paladin, and of the Forsaken who carry his path onward. Leonid Barthalomew the Revered and Danitha Morr meet again after defending Lordaeron together. They survived Naxxramas's assault on the Undercity, though many comrades fell. Now they remember the dead and the hard road faced by Forsaken who still honor the Holy Light. Leonid and Danitha remember Garek Bandarion, the fallen hero whose name was given to the keep. Leonid believes Garek may have been the first Forsaken to wield the Holy Light again as a true paladin. Most Forsaken have turned from the Light. Danitha and her cohort keep Garek's legacy alive and explore what holy unlife may allow. After speaking with Danitha, Leonid prepares to leave the keep and return to the fight against the Scourge in the ravaged east. He is stationed at Light's Hope Chapel in the Eastern Plaguelands. There, he welcomes able-bodied adventurers ready to take up arms.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96896-5eba89e6a8449548bdb2/1-0000.mp3", duration = 71.6277551, start = 0},
+    {file = "Audio/Transport/full_quest_96896-597041b5ee3e100670cd/1-0000.mp3", duration = 97.3583673, start = 0},
   },
 }
 P.transport["quest:96897"] = {

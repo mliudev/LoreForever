@@ -13003,9 +13003,9 @@
     "quest:92693": {
       "1": [
         {
-          "duration": 23.74530612244898,
-          "file": "Audio/Transport/full_quest_92693-02dfdb7839dec0287f98/1-0000.mp3",
-          "sha256": "5d8c93c0b73483c7b41d034b22cbd6509d38c95596b5e12961180317256e958c",
+          "duration": 37.328979591836735,
+          "file": "Audio/Transport/full_quest_92693-cb265b25f095f214de3e/1-0000.mp3",
+          "sha256": "121dcef96fe4b384e8d911158a2e716244197f46af1d65a0ee976339a71b3bfa",
           "start": 0
         }
       ],
@@ -13017,12 +13017,12 @@
         ]
       },
       "fullHash": "5d4d38",
-      "generation": "40a139c465b43640e143",
+      "generation": "4d0bee27f20e6ed557d5",
       "hash": "5d4d38",
       "source": {
-        "duration": 23.771429,
+        "duration": 37.355102,
         "file": null,
-        "sha256": "02dfdb7839dec0287f98bc816947f2d9ed07b303415eb97af478c6a49298bb21"
+        "sha256": "cb265b25f095f214de3ea71bc634497da8dbebe261d2dc9bd11ea26225b1cb6f"
       },
       "text": "Standing Our Ground. Aamelia Windfield gives you one last chance to retreat to Valanaar before the bandits close in. You have helped the local defenders prepare, yet the coming fight still seems doomed. Aamelia Windfield gives you one last chance to return safely to Valanaar. You have helped the local defenders prepare for the bandits, but the fight ahead looks grim. Will you stand with them, or leave before the clash?"
     },
@@ -17137,9 +17137,9 @@
     "quest:97921": {
       "1": [
         {
-          "duration": 60.395102040816326,
-          "file": "Audio/Transport/full_quest_97921-a27d2e0dce2a1b59e3a6/1-0000.mp3",
-          "sha256": "9997203b5462cfe6cd2585e486957f4e0827588fce691cc430cd856e8a4712cf",
+          "duration": 78.7330612244898,
+          "file": "Audio/Transport/full_quest_97921-882f9acf6bb16328f6ae/1-0000.mp3",
+          "sha256": "b2034759a1f207e0f9999ac22556b6914000f688adc0adef41367c41d81b34d6",
           "start": 0
         }
       ],
@@ -17151,12 +17151,12 @@
         ]
       },
       "fullHash": "d6fb39",
-      "generation": "5cf29a04a061c65e4741",
+      "generation": "030f0a6ac9bff56a4ef5",
       "hash": "d6fb39",
       "source": {
-        "duration": 60.421224,
+        "duration": 78.733061,
         "file": null,
-        "sha256": "a27d2e0dce2a1b59e3a6de6df2bb1b8d947cddb1d794374897af05242e701ec6"
+        "sha256": "882f9acf6bb16328f6aeb0439d0766e9cb7315dab06048114c7712114149644c"
       },
       "text": "Camping 101: Herbalism. In Elwynn Forest, Herbalist Pomeroy teaches skilled gatherers a new comfort for camp. They learn to make Incense Candles, whose fragrance lifts the spirits of spellcasters resting in the wild. A herbalist's craft can help a traveling party in more ways than brewing restorative draughts or selling flowers. With skill in gathering, you can help your companions endure the wilds. A camp needs more than a fire and dry bedroll. Weary travelers also need comforts that keep their minds keen. Some plants give off aromas that refresh tired minds, so herbalists can support a party far from civilization. In Elwynn Forest, Herbalist Pomeroy teaches skilled gatherers to make campsite supplies from local plants. She shows them how to shape an Incense Candle, putting herbs to use beyond alchemy flasks. Burned at camp, its fragrance soothes tired travelers and lifts the spirits of companions who rely on mana. With Pomeroy's teaching, herbalists can bring comfort to parties traveling in the wild."
     },
@@ -20323,6 +20323,13 @@
       811,
       948
     ],
+    "121dcef96fe4b384e8d911158a2e716244197f46af1d65a0ee976339a71b3bfa": [
+      331,
+      546,
+      698,
+      966,
+      1147
+    ],
     "12f90de041589ea9e7b95f0baef2a36919be0c65798e9444d4b05d22a8be2590": [
       189,
       331
@@ -22150,11 +22157,6 @@
       1223,
       1577
     ],
-    "5d8c93c0b73483c7b41d034b22cbd6509d38c95596b5e12961180317256e958c": [
-      218,
-      421,
-      593
-    ],
     "5de9897a22f21b724a34e3c801c355d459d35fbcd4751ee0d1f689eae321e0c0": [
       241,
       384,
@@ -23861,17 +23863,6 @@
       1647,
       1910
     ],
-    "9997203b5462cfe6cd2585e486957f4e0827588fce691cc430cd856e8a4712cf": [
-      206,
-      461,
-      690,
-      857,
-      1104,
-      1378,
-      1643,
-      1860,
-      2116
-    ],
     "99be9babc313212c9ca520098fbd65c5d1446a2e8a335526f0c2a813329a7812": [
       199,
       512,
@@ -24516,6 +24507,20 @@
       356,
       572,
       830
+    ],
+    "b2034759a1f207e0f9999ac22556b6914000f688adc0adef41367c41d81b34d6": [
+      191,
+      482,
+      823,
+      1123,
+      1319,
+      1462,
+      1640,
+      1795,
+      1959,
+      2250,
+      2500,
+      2852
     ],
     "b242fa30fc1b762f573181b19bdf617a75a984645bdb333bc8fcc400680aa671": [
       242,
@@ -26993,6 +26998,9 @@
     "118bcda081d78726706314ba5340536d80e6609d6d3f5f5e9686179f8e0cc2c5": {
       "448": 1
     },
+    "121dcef96fe4b384e8d911158a2e716244197f46af1d65a0ee976339a71b3bfa": {
+      "698": 1
+    },
     "12f90de041589ea9e7b95f0baef2a36919be0c65798e9444d4b05d22a8be2590": {
       "331": 1
     },
@@ -27752,9 +27760,6 @@
       "1223": 2,
       "525": 1
     },
-    "5d8c93c0b73483c7b41d034b22cbd6509d38c95596b5e12961180317256e958c": {
-      "421": 1
-    },
     "5de9897a22f21b724a34e3c801c355d459d35fbcd4751ee0d1f689eae321e0c0": {
       "1279": 2,
       "384": 1
@@ -28472,10 +28477,6 @@
       "1230": 2,
       "426": 1
     },
-    "9997203b5462cfe6cd2585e486957f4e0827588fce691cc430cd856e8a4712cf": {
-      "1378": 2,
-      "461": 1
-    },
     "99be9babc313212c9ca520098fbd65c5d1446a2e8a335526f0c2a813329a7812": {
       "512": 1,
       "970": 2
@@ -28745,6 +28746,10 @@
     },
     "b1aabf4d72402ff61406536633bc34df50fa59432bd116fef35f00f3083d44b2": {
       "356": 1
+    },
+    "b2034759a1f207e0f9999ac22556b6914000f688adc0adef41367c41d81b34d6": {
+      "191": 2,
+      "823": 1
     },
     "b242fa30fc1b762f573181b19bdf617a75a984645bdb333bc8fcc400680aa671": {
       "541": 1

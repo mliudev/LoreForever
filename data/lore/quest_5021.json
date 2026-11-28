@@ -1,0 +1,63 @@
+{
+ "key": "quest:5021",
+ "type": "quest",
+ "name": "Better Late Than Never",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5021
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A ghostly woman asks you to deliver a package, but her directions are unclear.",
+ "sections": [
+  {
+   "title": "A Ghost's Request",
+   "body": "A ghostly woman says a package needs delivering, and you are left to make sense of her words. She claims it lies where her horse is, but neither the horse's whereabouts nor the package's destination is clear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the ghost want?",
+   "aliases": [
+    "ghost package",
+    "deliver package",
+    "what does she need"
+   ],
+   "answer": "The ghostly woman says she needs a package delivered."
+  },
+  {
+   "q": "Where is the package?",
+   "aliases": [
+    "package location",
+    "where package",
+    "horse package"
+   ],
+   "answer": "The woman says the package is where her horse is, but she does not make that place clear."
+  },
+  {
+   "q": "Where does the package need to go?",
+   "aliases": [
+    "package destination",
+    "deliver it where",
+    "where to take package"
+   ],
+   "answer": "The ghost's words do not make the package's destination clear."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "delivery",
+  "ghostly woman",
+  "horse",
+  "package"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Better Late Than Never"
+ ]
+}

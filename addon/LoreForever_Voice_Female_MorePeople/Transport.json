@@ -1875,9 +1875,9 @@
     "npc:christoph-jeffcoat": {
       "1": [
         {
-          "duration": 37.17224489795918,
-          "file": "Audio/Transport/full_npc_christoph-jeffcoat-5da489f5aaf54bf436b0/1-0000.mp3",
-          "sha256": "f37af502b0018de7806def56c8070950f4ba25cc2b31c8427e733995fbe1d66d",
+          "duration": 49.632653061224495,
+          "file": "Audio/Transport/full_npc_christoph-jeffcoat-bd63ff8bd81c8ff0d7fc/1-0000.mp3",
+          "sha256": "9c7efa2dab37f301f4dbd6d9f795cbc7e827a1e41617d080050dfbc6f8046c4f",
           "start": 0
         }
       ],
@@ -1889,12 +1889,12 @@
         ]
       },
       "fullHash": "fc7d01",
-      "generation": "f14e66d42df93faf1ba9",
+      "generation": "0a3531b2c75c1cbc9f3a",
       "hash": "fc7d01",
       "source": {
-        "duration": 37.198367,
+        "duration": 49.658776,
         "file": null,
-        "sha256": "5da489f5aaf54bf436b0410027d8d230026e5f0a986b2dc769f2bbc1f2848b00"
+        "sha256": "bd63ff8bd81c8ff0d7fc1201f4f11a7a6232ee86ca45b941836f43d9e889bc73"
       },
       "text": "Christoph Jeffcoat. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken with goods for trade and travel. His wares serve crafters and travelers in Hillsbrad Foothills, where the Alliance and the Syndicate contest the land. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken stronghold with what its people need. He sells reagents, tools, threads, and spices to soldiers and traveling artisans. Among his goods are spices for turtle bisque, rare schematics, and alchemical vials. Horde forces crossing southern Lordaeron rely on such supplies as they face Southshore and the region's dangers."
     },
@@ -18842,6 +18842,14 @@
       941,
       1080
     ],
+    "9c7efa2dab37f301f4dbd6d9f795cbc7e827a1e41617d080050dfbc6f8046c4f": [
+      172,
+      403,
+      734,
+      1014,
+      1316,
+      1578
+    ],
     "9caba7c007a282b42e7d36e9210d11dd335d5bb1455c18b0a8ff8b37a6a94302": [
       257,
       519,
@@ -20937,12 +20945,6 @@
       2083,
       2267
     ],
-    "f37af502b0018de7806def56c8070950f4ba25cc2b31c8427e733995fbe1d66d": [
-      239,
-      522,
-      744,
-      1163
-    ],
     "f3a02bbba7680fda5fe1dc35da16166ae5c2536aa7b4de95ed3181e5b9b5bc9e": [
       561,
       961
@@ -22484,6 +22486,9 @@
     "9bef2d7d5e72331c7f1d0fd8c4b034407d23b8224e69263682f05c711f22f3d1": {
       "490": 1
     },
+    "9c7efa2dab37f301f4dbd6d9f795cbc7e827a1e41617d080050dfbc6f8046c4f": {
+      "734": 1
+    },
     "9caba7c007a282b42e7d36e9210d11dd335d5bb1455c18b0a8ff8b37a6a94302": {
       "519": 1
     },
@@ -23175,9 +23180,6 @@
     "f2e5b21903001c95f02c6e4615f5bb74415daf42772776ad203c17912cd336be": {
       "1552": 2,
       "448": 1
-    },
-    "f37af502b0018de7806def56c8070950f4ba25cc2b31c8427e733995fbe1d66d": {
-      "522": 1
     },
     "f3ae864e32cdec118f8c73ea2438c14db2f7237df8f099e181d84d1655758865": {
       "230": 1

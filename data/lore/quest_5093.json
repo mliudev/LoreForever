@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "High Executor Derrington calls you to the Bulwark, east of Tirisfal Glade and the Undercity. Seek him out at his base camp.",
+ "summary": "Warcaller Gorlach calls you to the Bulwark, east of Tirisfal Glade and the Undercity. Seek out High Executor Derrington at his base camp.",
  "sections": [
   {
    "title": "The Bulwark",
-   "body": "At the Bulwark, east of Tirisfal Glade and the Undercity, High Executor Derrington has a base camp. He is the one you are asked to seek out.",
+   "body": "High Executor Derrington holds a forward post along the Plaguelands border. You are asked to report to him there, east of Tirisfal Glade and the Undercity.",
    "spoiler": 0
   }
  ],
@@ -59,6 +59,7 @@
   "undercity"
  ],
  "related": [
+  "npc:warcaller-gorlach",
   "npc:high-executor-derrington",
   "subzone:bulwark",
   "zone:undercity"

@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Mathrengyl Bearwalker asks you to speak with him in Darnassus about mistrust among the Cenarion Circle's leaders. Strange corruptions of Teldrassil continue while their duty remains.",
+ "summary": "Arch Druid Fandral Staghelm sends you to Mathrengyl Bearwalker in Darnassus amid mistrust among the Cenarion Circle's leaders. Strange corruptions of Teldrassil continue while their duty remains.",
  "sections": [
   {
    "title": "At the Enclave",
-   "body": "Mathrengyl Bearwalker waits at Darnassus's Cenarion Enclave, where you can hear of a growing rift. He and Keeper Remulos each suspect the other of deception. Strange corruptions of Teldrassil continue, and the Cenarion Circle's duty endures despite its leaders' disagreement.",
+   "body": "Mathrengyl Bearwalker waits at Darnassus's Cenarion Enclave, where he apologizes for the tension. Arch Druid Fandral Staghelm and Keeper Remulos each suspect the other of deception. Strange corruptions of Teldrassil continue, and the Cenarion Circle's duty endures despite its leaders' disagreement.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "mathrengyl",
     "bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker asks you to speak with him at the Cenarion Enclave in Darnassus."
+   "answer": "Arch Druid Fandral Staghelm sends you to speak with Mathrengyl Bearwalker at the Cenarion Enclave in Darnassus."
   },
   {
    "q": "Where do I find Mathrengyl Bearwalker?",
@@ -45,7 +45,7 @@
     "remulos and mathrengyl",
     "cenarion circle trouble"
    ],
-   "answer": "Mathrengyl says he and Keeper Remulos each suspect the other of deception. The continuing corruptions of Teldrassil add to the strain."
+   "answer": "Mathrengyl says Arch Druid Fandral Staghelm and Keeper Remulos each suspect the other of deception. The continuing corruptions of Teldrassil add to the strain."
   },
   {
    "q": "What is happening to Teldrassil?",
@@ -54,7 +54,7 @@
     "strange corruption",
     "tree trouble"
    ],
-   "answer": "Strange corruptions of Teldrassil continue despite the disagreement between Mathrengyl Bearwalker and Keeper Remulos."
+   "answer": "Strange corruptions of Teldrassil continue despite the disagreement between Arch Druid Fandral Staghelm and Keeper Remulos."
   },
   {
    "q": "What duty remains despite their disagreement?",
@@ -83,14 +83,13 @@
   "the new frontier"
  ],
  "related": [
-  "quest:940",
-  "quest:5921",
   "zone:darnassus",
   "subzone:cenarion-enclave",
   "npc:mathrengyl-bearwalker",
   "npc:remulos",
   "topic:cenarion-circle",
-  "topic:druid"
+  "topic:druid",
+  "npc:fandral-staghelm"
  ],
  "style": 2,
  "attribution": [

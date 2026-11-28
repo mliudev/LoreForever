@@ -215,7 +215,9 @@ local function repairCharacterSet()
     return
   end
   LoreForeverDB.bindingRepair = LoreForeverDB.bindingRepair or {}
-  local who = (UnitName("player") or "?") .. "-" .. (GetRealmName and GetRealmName() or "?")
+  local J = ns.Journey
+  local who = (J and J.CharKey and J.CharKey())
+    or ((UnitName("player") or "?") .. "-" .. ((J and J.Realm and J.Realm()) or (GetRealmName and GetRealmName()) or "?"))
   if LoreForeverDB.bindingRepair[who] then return end
   LoreForeverDB.bindingRepair[who] = true
   if GetCurrentBindingSet() ~= 2 then return end                  -- CHARACTER_BINDINGS: only those need a look

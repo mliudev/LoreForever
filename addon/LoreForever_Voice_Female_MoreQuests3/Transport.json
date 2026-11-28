@@ -3409,9 +3409,9 @@
     "quest:1440": {
       "1": [
         {
-          "duration": 31.582040816326533,
-          "file": "Audio/Transport/full_quest_1440-1e19b9110348440458ea/1-0000.mp3",
-          "sha256": "aea6c92ff921188e491c670e47bdb177826c89da7397bda7c63f251370b1facc",
+          "duration": 44.14693877551021,
+          "file": "Audio/Transport/full_quest_1440-ba9db6fb284367760eaa/1-0000.mp3",
+          "sha256": "bd5f61ac25fe2ae98ce261ca634b9bc3ce99357ad7af6d5899e56d94845c1ef7",
           "start": 0
         }
       ],
@@ -3423,12 +3423,12 @@
         ]
       },
       "fullHash": "a5d38a",
-      "generation": "e7927b6388c2a6847d8f",
+      "generation": "98883d8e49bdeec36d27",
       "hash": "a5d38a",
       "source": {
-        "duration": 31.608163,
+        "duration": 44.173061,
         "file": null,
-        "sha256": "1e19b9110348440458ea111a17c7ad1c957391eee1a73706ae183b1a062dcfa4"
+        "sha256": "ba9db6fb284367760eaa9933c3ec0437c640bd0a54f1fced1138abb7b6bc5139"
       },
       "text": "Return to Vahlarriel. At Thunder Axe Fortress, Dalinda Malem is ready to leave when you choose. She thanks you for helping her and her family. Escort her out, then find Vahlarriel Demonslayer. Dalinda Malem is ready to leave Thunder Axe Fortress when you judge the moment right. She thanks you for all you have done for her and her family, in case things do not go as hoped. Nothing else keeps her there. She will leave when you choose the time. Escort her out of the fortress, then find Vahlarriel Demonslayer in Desolace."
     },
@@ -4241,9 +4241,9 @@
     "quest:188": {
       "1": [
         {
-          "duration": 27.794285714285714,
-          "file": "Audio/Transport/full_quest_188-0751c4cf8b08716b588a/1-0000.mp3",
-          "sha256": "6f1501b97665292c02de5976eaf60097de5935ccd7090015255c6e395ea42b35",
+          "duration": 40.15020408163265,
+          "file": "Audio/Transport/full_quest_188-f61b7a72e13a3adcd280/1-0000.mp3",
+          "sha256": "36f04ef2659f031fe3ac3505dd653563882d644aeb3402b30a177608b3fa9950",
           "start": 0
         }
       ],
@@ -4255,12 +4255,12 @@
         ]
       },
       "fullHash": "f38c27",
-      "generation": "d6f037226d32ac189b81",
+      "generation": "d257396a60c835002fcd",
       "hash": "f38c27",
       "source": {
-        "duration": 27.820408,
+        "duration": 40.176327,
         "file": null,
-        "sha256": "0751c4cf8b08716b588a6bf7af7825bf013adcd090eb5dcd6a4075102437bc27"
+        "sha256": "f61b7a72e13a3adcd280923f698d3e3697de83a13160c8a989fb9ab4f466ab9c"
       },
       "text": "Tiger Mastery. At Nesingwary's Expedition, Ajeck Rouack sends you after a tiger his hunters have tracked for weeks. Sin'Dall waits in northern Stranglethorn Vale, and her paw will prove the hunt is done. At Nesingwary's Expedition, Ajeck Rouack sends you on one last hunt after your earlier trials against Stranglethorn's tigers. His hunters have tracked Sin'Dall through the jungle for weeks. Find the elusive tiger, kill her, and bring back her paw as proof."
     },
@@ -11989,9 +11989,9 @@
     "quest:639": {
       "1": [
         {
-          "duration": 51.98367346938776,
-          "file": "Audio/Transport/full_quest_639-a14b9e355c55f731b88a/1-0000.mp3",
-          "sha256": "dbe72f6bd01baede57b328146d79a83ba481881ebb41c4bc18ffb6237e3a4d84",
+          "duration": 64.91428571428571,
+          "file": "Audio/Transport/full_quest_639-db60d3174979f44d44df/1-0000.mp3",
+          "sha256": "79457013ea36231b11acc670d5373b45b51002461053e73f0ed03cb83ee8966d",
           "start": 0
         }
       ],
@@ -12003,12 +12003,12 @@
         ]
       },
       "fullHash": "9fc26a",
-      "generation": "dc99dbe1e01f5f6f7539",
+      "generation": "c0a15e6b7e9aa594562a",
       "hash": "9fc26a",
       "source": {
-        "duration": 52.009796,
+        "duration": 64.940408,
         "file": null,
-        "sha256": "a14b9e355c55f731b88a9eed6e1803579ba25a8150823e8e4b9b432bee8542b2"
+        "sha256": "db60d3174979f44d44df73b0d1b11e709647f1f523cc071ca6241bcca0ca3843"
       },
       "text": "Sigil of Strom. At Hammerfall, Zengu seeks the sigils that guard Trol'kalar, Lord Ignaeus Trollbane's sword. The Syndicate took the Sigil of Strom, and one of its agents in Stromgarde likely carries it. Long ago, Lord Ignaeus of Strom, called Trollbane, was the Arathorian Empire's ablest foe in its war against the trolls. He wielded Trol'kalar in battle. In the trolls' old tongue, its name means troll slayer. Now Trollbane's sons are weakened, and their stronghold lies in ruins. Several sigils guard Trol'kalar, and Stromgarde's survivors each took some. Zengu says they must all be recovered. The Syndicate seized the first, the Sigil of Strom. Zengu believes one of its agents in Stromgarde holds it. Bring the sigil back to Zengu at Hammerfall."
     },
@@ -18295,6 +18295,10 @@
       362,
       911
     ],
+    "31a084add120d23c20dfe75c6210e87058ad5b423d9e55f670ff6e9b9cea3428": [
+      416,
+      806
+    ],
     "31cb88fbb81d056cf70f6df4dbdf0ac39735e89c2a5ff4677cfd359d79155203": [
       438
     ],
@@ -18395,6 +18399,10 @@
       449,
       978
     ],
+    "35a14d129d8487889958888ae225995bb1613d2e1137ad228f1aa9833e952c68": [
+      292,
+      917
+    ],
     "35bbf3e6ddff8b0ccfff8518eb53ced02c1113207b9fd33fbd29424ce67e2425": [
       345,
       561
@@ -18452,6 +18460,14 @@
     "36beed2d95c93941ad3dfb950769d0680f8c4acc8e933696fcf4af5d41b27dc2": [
       454,
       832
+    ],
+    "36f04ef2659f031fe3ac3505dd653563882d644aeb3402b30a177608b3fa9950": [
+      189,
+      410,
+      555,
+      696,
+      1125,
+      1298
     ],
     "370f06ed5d218cdf89e33cd7c7f75d54a3209916a66290deed6067083e680a81": [
       413,
@@ -19375,6 +19391,11 @@
       233,
       611
     ],
+    "55133be1a7c975a766446356e68371588c4e12c66a8a88f93c34bd71bdbabb76": [
+      758,
+      1136,
+      1422
+    ],
     "551eb9b630ac7a130752c5408c924011f14fd5b6a9a6683cbdc61c7697302725": [
       193,
       349,
@@ -20216,11 +20237,6 @@
     "6f1017c408cead1d6047fdf9c7c61369b497a4ea05d49907b6863cd5228d4e07": [
       427
     ],
-    "6f1501b97665292c02de5976eaf60097de5935ccd7090015255c6e395ea42b35": [
-      252,
-      475,
-      769
-    ],
     "6f74ee3d0e65d3c29aec0d811128aa89ab10abc018375dc543dc713809497abb": [
       192,
       370,
@@ -20355,6 +20371,10 @@
     "73743c355b18257407bea33d90f14eacf84fe97658eddb5371e1cbd026e8fa38": [
       283
     ],
+    "73c2acb5e89cc1154b78eca9456b4500241511efcbd485b757d73680c2c5a9d4": [
+      730,
+      1211
+    ],
     "73d15c03a6404e7ffe8c39f022b5270c2171bd47e96ec1a3e94fca4b554fe594": [
       344,
       703
@@ -20469,6 +20489,10 @@
       1135,
       1289
     ],
+    "76ae3562b848eb918630adf298c57adf36900f208ea37bc1599c617434032c3d": [
+      648,
+      1097
+    ],
     "76c373ef82912bb1b23dec3cdd53da1af48d59caa53e38a6d577ba340614017c": [
       428
     ],
@@ -20569,6 +20593,17 @@
     ],
     "793e989989b55a74cc1d778bc1d345a3b041e86fc3744867a0e57e7b3b6e6583": [
       522
+    ],
+    "79457013ea36231b11acc670d5373b45b51002461053e73f0ed03cb83ee8966d": [
+      288,
+      510,
+      668,
+      808,
+      1106,
+      1414,
+      1650,
+      1897,
+      2105
     ],
     "795cfd63c48d1ce05f020c37cd19a9a87b09387b6fe9c2b7ad1b5116291683ec": [
       462
@@ -20783,6 +20818,11 @@
       446,
       783
     ],
+    "7ec65b3f8e1be442f8f1e95cda92134967556bec4c126c154a9947d7fa43a38e": [
+      459,
+      988,
+      1411
+    ],
     "7f1ae668a36369ff100362c3e1869dcd5a1db00f53cd700a6974d6c926e99096": [
       223,
       472,
@@ -20918,6 +20958,10 @@
       1687,
       1951,
       2328
+    ],
+    "8218db8a9a7d6e4b2ed998c930a4d335ecd38da5d187208c8f04cdd2001a4e2f": [
+      421,
+      1143
     ],
     "825d7bdca5c04b1d77a4d0b0f9d1aef9553f229ef6f2b32191fdfb0288c0f1e4": [
       308,
@@ -21151,6 +21195,12 @@
     ],
     "8a54d66d85e4f50150cc682f9f1b01ad64c2213e2a042e735ccad18b549bc211": [
       629
+    ],
+    "8a5db1c3c54ea8dcc39a75f414aea565a4baf3e0812876671968701ca130d12b": [
+      436,
+      822,
+      1168,
+      1581
     ],
     "8a63de14da74d6b42fbca6e269d0978a441e18d6b3545a921fab82eb49715a60": [
       576,
@@ -21742,6 +21792,11 @@
       1250,
       1476
     ],
+    "9cac32c15140688370a065c05dd0cf5eed33c51f1781a26fe717910b219a6746": [
+      394,
+      917,
+      1547
+    ],
     "9d246291e1b757b007d67a288bc49e6067983d9ae4f35beff888d07fcfdf28e3": [
       298,
       638
@@ -22123,6 +22178,12 @@
       375,
       677
     ],
+    "a8a26ddbc15ee7dbc59d5cd4e4e419ce81de292c11a43f87d04f14592f301b35": [
+      517,
+      994,
+      1282,
+      1709
+    ],
     "a907ba427bd757083631eba18a93c74d503a66f47c7e465e3aa5b305acbba70a": [
       352,
       652
@@ -22269,13 +22330,6 @@
       183,
       459,
       654
-    ],
-    "aea6c92ff921188e491c670e47bdb177826c89da7397bda7c63f251370b1facc": [
-      201,
-      463,
-      649,
-      852,
-      1003
     ],
     "aeb09232404b2b482921759d0803929a529101104e2448c5e2640dda3e3f8179": [
       255,
@@ -22786,6 +22840,14 @@
       1260,
       1597
     ],
+    "bd5f61ac25fe2ae98ce261ca634b9bc3ce99357ad7af6d5899e56d94845c1ef7": [
+      189,
+      347,
+      662,
+      840,
+      1102,
+      1302
+    ],
     "bd6e7a602db64cc9f3dbab9acbc66afe51955c842e71553972b3dc943e812259": [
       256,
       436,
@@ -22898,6 +22960,11 @@
       1197,
       1379
     ],
+    "c23485e9e6ffe8aef3604af909332e9f1acd6ec832e829159d27c9505caa8aa1": [
+      620,
+      1319,
+      1702
+    ],
     "c2643372e726986755afb18ee55c999e0f3a479ed541fb47eeffa3cf7c4bacde": [
       406
     ],
@@ -22956,6 +23023,11 @@
       630,
       1013,
       1259
+    ],
+    "c3d43ed93abc0636df18b714b6d815f8aa9080e681257939cd85848cb5e5184c": [
+      592,
+      1129,
+      1454
     ],
     "c3e7603abea0b6718dd90d3ca78b6eed4a44949151c8849635b8763290c51314": [
       141,
@@ -23127,6 +23199,10 @@
     "c98cf3bb64ff4907f86be490321d98f6e85cb8501d7f693c8267e54677ac13cc": [
       453,
       741
+    ],
+    "ca0d737eef2206b4e38eae2ea175636843e45af56035d6d2828d4bb881f91a01": [
+      442,
+      898
     ],
     "ca9baecba90bcfc7b6073e5b547e6c92974483cfbbd2b4b855bd46d916184acb": [
       157,
@@ -23639,16 +23715,6 @@
       965,
       1217
     ],
-    "dbe72f6bd01baede57b328146d79a83ba481881ebb41c4bc18ffb6237e3a4d84": [
-      176,
-      506,
-      660,
-      837,
-      1082,
-      1275,
-      1491,
-      1738
-    ],
     "dbf80972958ca5fccc336d1f173d780cd5317598e8c7883dc85adbf84ba5d092": [
       343
     ],
@@ -23668,6 +23734,11 @@
     "dc6fcfa30e6b16e4b306d2afd52955a64c155ca9721418062c6eda0eb279cbd6": [
       286,
       836
+    ],
+    "dd520234614c3a186163e1f2384abdfe3b9b4633840c405dc3d92b16ebe00af2": [
+      834,
+      1465,
+      1722
     ],
     "ddd3232cfa4620bcde1ceca42887ebd365bee9320b5a2d5bc91c8ca21518d84e": [
       439,
@@ -23775,6 +23846,11 @@
       478,
       746
     ],
+    "e18758fb15945b6189c2413bee8c1105a4c744cafee8cd242aebe6c73d0af157": [
+      322,
+      607,
+      981
+    ],
     "e1c128b19c96d090fd5e49879d655e5edb63752ef1c6dfecad1e72bcdb0b48a2": [
       383,
       915,
@@ -23840,6 +23916,12 @@
       1913,
       2094,
       2322
+    ],
+    "e34fdfa7b88b1d5776a5e4bd207dda77bc799e802cbe3868b83fcaad8f1df1a3": [
+      392,
+      770,
+      1238,
+      1493
     ],
     "e363091c3f0934edfd79e0baedcc02d5b4c4f9858bd4c159d81b1c09bd215854": [
       263,
@@ -24430,6 +24512,11 @@
       538,
       696,
       913
+    ],
+    "f8806c2166738a51e00522496fa4f65a6bd6d8895dd1b195e5397f7c43684c07": [
+      874,
+      1682,
+      1945
     ],
     "f8875d3855e1ff17cd50a6002d7bdc10ace65c189e41a34cefec415063d08028": [
       413,
@@ -25057,6 +25144,9 @@
     "36a0969a713838887accceedbb6850e9180359bff929bb4a2cd1f65cbe593bb8": {
       "810": 1
     },
+    "36f04ef2659f031fe3ac3505dd653563882d644aeb3402b30a177608b3fa9950": {
+      "696": 1
+    },
     "3a11f1aa3cb63560566b085bd72a02e1c352a78c0faf471571fe02c4480886b8": {
       "1517": 3,
       "586": 1
@@ -25534,9 +25624,6 @@
     "6ecad28b267fb5c7c22bf26a1579bb043a15dce311d56eb835e2a7f9b7f269ef": {
       "516": 1
     },
-    "6f1501b97665292c02de5976eaf60097de5935ccd7090015255c6e395ea42b35": {
-      "475": 1
-    },
     "6f74ee3d0e65d3c29aec0d811128aa89ab10abc018375dc543dc713809497abb": {
       "370": 1
     },
@@ -25627,6 +25714,10 @@
     "790af376ddd54cc0192d0c60ec15106d13fd9e8571724afab38d67539626682c": {
       "1367": 2,
       "527": 1
+    },
+    "79457013ea36231b11acc670d5373b45b51002461053e73f0ed03cb83ee8966d": {
+      "1650": 2,
+      "668": 1
     },
     "79a03d6ed88ec39460da1e6be92c39a6119e3a76cb349d5744eabbfc7b2bdfff": {
       "422": 1
@@ -26108,9 +26199,6 @@
     "ae7407470b0f08eca6d4ff725c0381658a67d56eb72914b54406472f52f1da94": {
       "459": 1
     },
-    "aea6c92ff921188e491c670e47bdb177826c89da7397bda7c63f251370b1facc": {
-      "463": 1
-    },
     "aeb09232404b2b482921759d0803929a529101104e2448c5e2640dda3e3f8179": {
       "648": 1
     },
@@ -26261,6 +26349,9 @@
     "bd42ba7fddd13c404d35c63e29af828915e7a682d7df346efe3c9734ce61d4cb": {
       "1123": 2,
       "483": 1
+    },
+    "bd5f61ac25fe2ae98ce261ca634b9bc3ce99357ad7af6d5899e56d94845c1ef7": {
+      "662": 1
     },
     "bd6e7a602db64cc9f3dbab9acbc66afe51955c842e71553972b3dc943e812259": {
       "1178": 2,
@@ -26502,10 +26593,6 @@
     },
     "dbdc398d7ad3671422754ecd5efb1ee047ef04eb41ec805ba380d8e8aa0619c1": {
       "702": 1
-    },
-    "dbe72f6bd01baede57b328146d79a83ba481881ebb41c4bc18ffb6237e3a4d84": {
-      "1275": 2,
-      "506": 1
     },
     "dc63b74252a683cd01f9631afcffdd0628f507e47160f94bbfcaf3971c7555cf": {
       "363": 1,

@@ -1086,7 +1086,7 @@ P.transport["subzone:grimesilt-dig-site"] = {
   fullHash = "605551",
   text = "Grimesilt Dig Site. Dark Iron sentries patrol the Grimesilt Dig Site in the Searing Gorge. Ironforge's search for relics began here, and its surviving crew struggles to endure in hiding. Dark Iron sentries patrol the Grimesilt Dig Site in the Searing Gorge. Ironforge scholars first sent an expedition beneath the crags to seek relics. The native Dark Iron dwarves drove the excavators out and seized their equipment. Wounded and scattered, the original crew remains trapped in and around the pit.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grimesilt-dig-site-a05790fab1d07e607c38/1-0000.mp3", duration = 29.3355102, start = 0},
+    {file = "Audio/Transport/full_subzone_grimesilt-dig-site-37576cb77f4457f86db0/1-0000.mp3", duration = 47.2555102, start = 0},
   },
 }
 P.transport["subzone:grimtotem-compound"] = {

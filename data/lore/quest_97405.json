@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Knaz Blunderflame asks you to deal with ogres snooping near his noisy work at Mosh'Ogg Ogre Mount. Their presence threatens the peace he needs to pursue his Mirage Raceway dream.",
+ "summary": "Knaz Blunderflame asks you to drive off Mosh'Ogg ogres drawn by Gnaz's noisy tinkering. Knaz fears the ogres will maul them over Gnaz's Mirage Raceway dream.",
  "sections": [
   {
    "title": "Ogres Nearby",
-   "body": "Knaz Blunderflame works on a contraption for the Mirage Raceway Championships, and the noise has drawn unwanted attention. He has seen an ogre watching from behind a tree. Now you are asked to stop the Mosh'Ogg ogres near the mount before they bring danger to the place.",
+   "body": "Gnaz has been tinkering late into the night on a contraption for the Mirage Raceway Championships in Kalimdor. Knaz warned him about the noise after spotting an ogre peeking from behind a tree. Now Knaz sends you north over the hill to stop the Mosh'Ogg ogres at Mosh'Ogg Ogre Mount before they attack.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "Knaz Blunderflame",
     "who wants the ogres gone"
    ],
-   "answer": "Knaz Blunderflame asks you to stop the Mosh'Ogg ogres snooping near his work."
+   "answer": "Knaz Blunderflame asks you to stop the Mosh'Ogg ogres snooping near their camp."
   },
   {
    "q": "Why are the ogres there?",
@@ -36,7 +36,7 @@
     "what are they doing",
     "ogres snooping"
    ],
-   "answer": "Knaz saw an ogre peeking from behind a tree near his work, but he does not know why they are watching."
+   "answer": "Knaz saw an ogre peeking from behind a tree after Gnaz's noisy late-night tinkering drew their attention."
   },
   {
    "q": "What is Knaz building?",
@@ -45,7 +45,7 @@
     "Knaz invention",
     "what is he making"
    ],
-   "answer": "Knaz is building a contraption for the Mirage Raceway Championships."
+   "answer": "It is Gnaz, not Knaz, who is building a contraption for the Mirage Raceway Championships."
   },
   {
    "q": "Where are the ogres?",
@@ -63,7 +63,7 @@
     "why noise complaints",
     "late night tinkering"
    ],
-   "answer": "Knaz's late-night tinkering makes a great deal of noise, and his neighbor fears being mauled by the ogres."
+   "answer": "It is Knaz who is bothered by Gnaz's noisy late-night tinkering, fearing the ogres will maul them."
   }
  ],
  "angles": [],
@@ -77,8 +77,7 @@
   "ogres"
  ],
  "related": [
-  "subzone:mirage-raceway",
-  "topic:shaman"
+  "subzone:mirage-raceway"
  ],
  "style": 2,
  "attribution": [

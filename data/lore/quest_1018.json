@@ -1,0 +1,82 @@
+{
+ "key": "quest:1018",
+ "type": "quest",
+ "name": "The New Frontier",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1018
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Cenarion Circle calls for explorers to venture into Kalimdor\u2019s frontiers. You are sent to Arch Druid Hamuul Runetotem on Thunder Bluff\u2019s Elder Rise.",
+ "sections": [
+  {
+   "title": "A Call to Explore",
+   "body": "On Thunder Bluff\u2019s Elder Rise, you are directed to Arch Druid Hamuul Runetotem. The Cenarion Circle has called for explorers to venture into Kalimdor\u2019s frontiers, and Hamuul is the one to speak with about that call.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I speak with?",
+   "aliases": [
+    "who is Hamuul",
+    "Hamuul Runetotem",
+    "who do I talk to"
+   ],
+   "answer": "Speak with Arch Druid Hamuul Runetotem on Thunder Bluff\u2019s Elder Rise."
+  },
+  {
+   "q": "What is the Cenarion Circle calling for?",
+   "aliases": [
+    "what is the call",
+    "frontiers of Kalimdor",
+    "explore Kalimdor"
+   ],
+   "answer": "The Cenarion Circle calls for explorers to explore Kalimdor\u2019s frontiers."
+  },
+  {
+   "q": "Where is Hamuul Runetotem?",
+   "aliases": [
+    "where is Hamuul",
+    "Elder Rise Hamuul",
+    "Hamuul location"
+   ],
+   "answer": "Arch Druid Hamuul Runetotem is on the Elder Rise of Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, you can speak with Arch Druid Hamuul Runetotem on Thunder Bluff\u2019s Elder Rise about the Cenarion Circle\u2019s call to explore Kalimdor\u2019s frontiers."
+  },
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you can speak with Arch Druid Hamuul Runetotem on Thunder Bluff\u2019s Elder Rise about the Cenarion Circle\u2019s call to explore Kalimdor\u2019s frontiers."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "elder rise",
+  "exploration",
+  "frontiers",
+  "hamuul runetotem",
+  "kalimdor",
+  "the new frontier",
+  "thunder bluff"
+ ],
+ "related": [
+  "quest:1489",
+  "zone:thunderbluff",
+  "subzone:elder-rise",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The New Frontier"
+ ]
+}

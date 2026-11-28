@@ -1,0 +1,66 @@
+{
+ "key": "quest:5234",
+ "type": "quest",
+ "name": "Return to the Bulwark",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5234
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shadow Priestess Vandis at the Bulwark asks you to bring her a filled bottle from Writhing Haunt. The delivery links the haunt to the outpost in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "A Bottle for Vandis",
+   "body": "The filled bottle is meant for Shadow Priestess Vandis at the Bulwark. You carry it from Writhing Haunt to the outpost in the Western Plaguelands, where Vandis is waiting for it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the bottle?",
+   "aliases": [
+    "who is Vandis",
+    "bottle for who"
+   ],
+   "answer": "Shadow Priestess Vandis at the Bulwark asks you to bring her the filled Writhing Haunt bottle."
+  },
+  {
+   "q": "Where do I take the filled bottle?",
+   "aliases": [
+    "where to take bottle",
+    "bottle delivery"
+   ],
+   "answer": "Bring the filled Writhing Haunt bottle to Shadow Priestess Vandis at the Bulwark in the Western Plaguelands."
+  },
+  {
+   "q": "Where does the bottle come from?",
+   "aliases": [
+    "writhing haunt bottle",
+    "filled bottle"
+   ],
+   "answer": "The bottle is from Writhing Haunt."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bulwark",
+  "filled bottle",
+  "return to the bulwark",
+  "shadow priestess vandis",
+  "western plaguelands",
+  "writhing haunt"
+ ],
+ "related": [
+  "subzone:bulwark",
+  "subzone:writhing-haunt",
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Return to the Bulwark"
+ ]
+}

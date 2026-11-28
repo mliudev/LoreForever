@@ -1,0 +1,73 @@
+{
+ "key": "quest:6389",
+ "type": "quest",
+ "name": "A Plague Upon Thee",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6389
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Nathaniel Dumah at Chillwind Camp asks you to release Plagueland termites in Northridge Lumber Mill. He needs a barrel of them brought back to the camp.",
+ "sections": [
+  {
+   "title": "At the Mill",
+   "body": "At Northridge Lumber Mill, you release the Plagueland termites. Then you bring their barrel to Nathaniel Dumah at Chillwind Camp in Western Plaguelands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the termites?",
+   "aliases": [
+    "Nathaniel Dumah termites",
+    "who wants the barrel"
+   ],
+   "answer": "Nathaniel Dumah at Chillwind Camp asks you to bring him a barrel of Plagueland termites."
+  },
+  {
+   "q": "Where do I release the termites?",
+   "aliases": [
+    "termite place",
+    "where are the termites released"
+   ],
+   "answer": "You release the Plagueland termites in Northridge Lumber Mill."
+  },
+  {
+   "q": "Where is Nathaniel Dumah?",
+   "aliases": [
+    "Nathaniel Dumah location",
+    "where is he"
+   ],
+   "answer": "Nathaniel Dumah is at Chillwind Camp in Western Plaguelands."
+  },
+  {
+   "q": "What does Nathaniel need brought back?",
+   "aliases": [
+    "what barrel",
+    "plagueland termites"
+   ],
+   "answer": "Nathaniel Dumah asks you to return with a barrel of Plagueland termites."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a plague upon thee",
+  "barrel",
+  "chillwind camp",
+  "nathaniel dumah",
+  "northridge lumber mill",
+  "plagueland termites"
+ ],
+ "related": [
+  "subzone:chillwind-camp",
+  "zone:westernplaguelands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Plague Upon Thee"
+ ]
+}

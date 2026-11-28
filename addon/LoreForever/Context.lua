@@ -194,9 +194,24 @@ function Context.Journey()
     c = try(J.Char)
   else
     local chars = type(db.journey) == "table" and db.journey.chars
-    local name = try(UnitName, "player")
-    local realm = try(GetNormalizedRealmName) or (tostring(try(GetRealmName) or "?"):gsub("[%s%-]", ""))
-    c = type(chars) == "table" and type(name) == "string" and chars[name .. "-" .. realm]
+    if type(chars) == "table" then
+      if J and J.CharKey then
+        local key = try(J.CharKey)
+        c = type(key) == "string" and chars[key]
+      else
+        local name = try(UnitName, "player")
+        local realm = J and J.Realm and try(J.Realm)
+        if type(realm) ~= "string" or realm == "" then
+          local norm = try(GetNormalizedRealmName)
+          local raw = (type(norm) ~= "string" or norm == "") and try(GetRealmName) or nil
+          realm = (type(norm) == "string" and norm ~= "" and norm)
+            or (type(raw) == "string" and raw ~= "" and (raw:gsub("[%s%-]", "")))
+            or (ns.Capture and ns.Capture.Game and ns.Capture.Game((try(GetBuildInfo))) == "forever" and "Forever")
+            or "?"
+        end
+        c = type(name) == "string" and chars[name .. "-" .. realm]
+      end
+    end
   end
   return type(c) == "table" and c or nil
 end

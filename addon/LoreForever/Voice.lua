@@ -1312,26 +1312,11 @@ local function noticeMissingText()
   for _, line in ipairs(lines) do say(line) end
 end
 
--- Say once per add-on version when a voice pack in use is from an older version and OUTDATED_AT or more of its
--- stories no longer match their words, so they show as text (the PM's pick, LOR-673). CurseForge updates only the main
--- download, so packs from the site, or the CurseForge app's separate projects, fall behind without a word: the top
--- complaint (6 players heard another voice, or nothing). A pack of this version whose few recordings wait for the
--- nightly re-record says nothing. Only the packs already loaded for the voices in use are counted, 10 s after
--- login (Voice.Init), so login isn't slower.
+-- Say once per add-on/pack version set when a loaded voice pack has OUTDATED_AT or more recordings that no longer
+-- match their words, so they show as text (the PM's pick, LOR-673). Voice packs release independently of the core
+-- add-on, so packs are checked by actual outdated clip count rather than comparing pack version to core version.
+-- Only the packs already loaded for the voices in use are counted, 10 s after login (Voice.Init), so login isn't slower.
 local OUTDATED_AT = 10
-local function versionParts(v)
-  local out = {}
-  for d in tostring(v or ""):gmatch("%d+") do out[#out + 1] = tonumber(d) end
-  return out
-end
-local function olderThan(a, b)   -- "0.21.0" before "0.22.0"; a version that can't be read is never older
-  local x, y = versionParts(a), versionParts(b)
-  if #x == 0 or #y == 0 then return false end
-  for i = 1, math.max(#x, #y) do
-    if (x[i] or 0) ~= (y[i] or 0) then return (x[i] or 0) < (y[i] or 0) end
-  end
-  return false
-end
 local function versionOf(name)
   local get = (_G.C_AddOns and C_AddOns.GetAddOnMetadata) or _G.GetAddOnMetadata
   local ok, v = pcall(get, name, "Version")
@@ -1365,19 +1350,25 @@ function Voice.OutdatedIn(name)
 end
 function Voice.NoticeOutdated()
   local core = versionOf("LoreForever")
-  if not core or S().outdatedNoted == core then return end
-  local titles, count = {}, 0
+  if not core then return end
+  local titles, affected, count = {}, {}, 0
   for _, rec in ipairs(ns.Packs.registry) do
     local data = ns.Packs.data[rec.name]
-    if rec.kind == "voice" and data and not rec.transportFor and sameLanguage(rec.locale, readingLocale())
-        and olderThan(versionOf(rec.name), core) then
+    if rec.kind == "voice" and data and not rec.transportFor and sameLanguage(rec.locale, readingLocale()) then
       local n = outdatedIn(rec.name, data)
-      if n >= OUTDATED_AT then titles[#titles + 1], count = rec.title or rec.name, count + n end
+      if n >= OUTDATED_AT then
+        titles[#titles + 1] = rec.title or rec.name
+        affected[#affected + 1] = rec.name .. "@" .. (versionOf(rec.name) or rec.version or "?")
+        count = count + n
+      end
     end
   end
-  if #titles == 0 then return end
-  S().outdatedNoted = core
-  say(string.format(L["%d recorded stories show as text because %s is older than this version of Lore Forever. Update it in the CurseForge app (or at %s if you downloaded it there), then type /reload."],
+  if #titles == 0 then S().outdatedNoted = nil; return end
+  table.sort(affected)
+  local key = core .. "|" .. table.concat(affected, ",")
+  if S().outdatedNoted == key then return end
+  S().outdatedNoted = key
+  say(string.format(L["%d recorded stories show as text because %s has outdated recordings. Update the pack in the CurseForge app, Willo, or at %s, then type /reload."],
     count, table.concat(titles, ", "), Voice.DOWNLOADS))
 end
 

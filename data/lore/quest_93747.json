@@ -1,0 +1,76 @@
+{
+ "key": "quest:93747",
+ "type": "quest",
+ "name": "Violence Into Verdure",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93747
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A caretaker asks you to plant enchanted seeds around the ruined war machines in Hyjal. New growth can cover the weapons and help the land recover from the war.",
+ "sections": [
+  {
+   "title": "Seeds for the Ruins",
+   "body": "The war machines lie ruined in Hyjal, and their old metal is rusting. You are given enchanted seeds gathered before, their growth hastened by a little magic. Plant them near the ruined ballista, catapult, and flying machine. There, plants can cover the weapons as the land begins to reclaim them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I planting?",
+   "aliases": [
+    "what seeds",
+    "enchanted seeds",
+    "seed planting"
+   ],
+   "answer": "You are planting enchanted seeds whose growth has been hastened by magic."
+  },
+  {
+   "q": "Where do the seeds go?",
+   "aliases": [
+    "where plant seeds",
+    "seed locations",
+    "plant near what"
+   ],
+   "answer": "Plant the seeds near the ruined ballista, ruined catapult, and ruined flying machine."
+  },
+  {
+   "q": "Why plant seeds around the weapons?",
+   "aliases": [
+    "why seeds on ruins",
+    "cover the weapons",
+    "nature reclaim"
+   ],
+   "answer": "The plants can cover the old weapons and help return them to the soil."
+  },
+  {
+   "q": "What happened to Hyjal?",
+   "aliases": [
+    "war scars",
+    "war in hyjal",
+    "what war damage"
+   ],
+   "answer": "The war was only a few years ago and left scars in Hyjal, including old war machinery."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "enchanted seeds",
+  "hyjal",
+  "reclamation",
+  "ruined ballista",
+  "ruined catapult",
+  "ruined flying machine",
+  "violence into verdure",
+  "war machinery"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Violence Into Verdure"
+ ]
+}
