@@ -1,0 +1,78 @@
+{
+ "key": "quest:5534",
+ "type": "quest",
+ "name": "Kim'jael's \"Missing\" Equipment",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5534
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kim'jael asks you to retrieve a rune held by naga in the Ruins of Eldarath. Bring it back to him in Azshara.",
+ "sections": [
+  {
+   "title": "A Rune in Eldarath",
+   "body": "The naga hold a rune in the Ruins of Eldarath. Kim'jael asks you to find it and bring it back to him in Azshara.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kim'jael want?",
+   "aliases": [
+    "kim'jael rune",
+    "missing equipment",
+    "what am I looking for"
+   ],
+   "answer": "Kim'jael asks you to find a rune held by naga in the Ruins of Eldarath and return it to him in Azshara."
+  },
+  {
+   "q": "Where is the rune?",
+   "aliases": [
+    "rune location",
+    "where rune",
+    "naga rune"
+   ],
+   "answer": "The naga have the rune in the Ruins of Eldarath."
+  },
+  {
+   "q": "Who has the rune?",
+   "aliases": [
+    "who has it",
+    "naga equipment",
+    "what did naga take"
+   ],
+   "answer": "Naga in the Ruins of Eldarath have the rune Kim'jael seeks."
+  },
+  {
+   "q": "Where do I bring it?",
+   "aliases": [
+    "return rune",
+    "bring it where",
+    "kim'jael location"
+   ],
+   "answer": "Kim'jael is in Azshara, where he asks you to return the rune."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "kim'jael",
+  "missing equipment",
+  "naga",
+  "ruins of eldarath",
+  "rune"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Kim'jael's \"Missing\" Equipment"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "quest:92020",
+ "type": "quest",
+ "name": "Hol'anyee's Big Book of Big Lizards",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92020
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hol'anyee asks you to carry her sketches and notes about Un'Goro Crater's creatures to the druids on Mount Hyjal. She hopes the druids will be interested in studying them.",
+ "sections": [
+  {
+   "title": "A Copy for Hyjal",
+   "body": "Hol'anyee has been recording and drawing the creatures of Un'Goro Crater in her sketchbooks. She has made a copy for the druids on Mount Hyjal, who enjoy studying the natural world. The journey is a long one, so she asks you to take the book along if you go there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hol'anyee sending the book to?",
+   "aliases": [
+    "who gets the big book",
+    "book for hyjal druids",
+    "where does book go"
+   ],
+   "answer": "Hol'anyee wants the druids on Mount Hyjal to have her copy of the sketchbook."
+  },
+  {
+   "q": "What's in the big book?",
+   "aliases": [
+    "what is in it",
+    "big lizard book contents",
+    "hol'anyee drawings"
+   ],
+   "answer": "It contains Hol'anyee's notes and drawings of creatures living in Un'Goro Crater."
+  },
+  {
+   "q": "Why does Hol'anyee want the druids to have it?",
+   "aliases": [
+    "why druids",
+    "why send book",
+    "hyjal book reason"
+   ],
+   "answer": "Hol'anyee thinks the druids will be interested because they love to study the natural world."
+  },
+  {
+   "q": "Where should I take the book?",
+   "aliases": [
+    "where to bring it",
+    "book destination",
+    "deliver book where"
+   ],
+   "answer": "Take it to a druid at the summit of Mount Hyjal."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, Hol'anyee hopes you will carry her sketches of Un'Goro Crater's creatures to druids on Mount Hyjal, who study the natural world."
+  }
+ ],
+ "keywords": [
+  "big book of big lizards",
+  "creatures",
+  "drawings",
+  "druid",
+  "hol'anyee",
+  "mount hyjal",
+  "sketchbook",
+  "un'goro crater"
+ ],
+ "related": [
+  "zone:ungoro",
+  "zone:hyjal",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hol'anyee's Big Book of Big Lizards"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "quest:5056",
+ "type": "quest",
+ "name": "Shy-Rotam",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5056
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Storm Shadowhoof at Everlook asks you to defeat Shy-Rotam, matriarch of the frostsabers. Her defeat would earn respect from your fellow race.",
+ "sections": [
+  {
+   "title": "At Frostsaber Rock",
+   "body": "Sacred meat from the frostsabers is meant for the stone of Shy-Rotam in northern Winterspring. Place it there, and the matriarch will come in anger. Storm Shadowhoof asks you to face her, with your standing among your fellow race at stake.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Shy-Rotam?",
+   "aliases": [
+    "shy rotam",
+    "who's shy-rotam"
+   ],
+   "answer": "Shy-Rotam is the matriarch of the great cats gathered around Frostsaber Rock in northern Winterspring."
+  },
+  {
+   "q": "Who asks me to face Shy-Rotam?",
+   "aliases": [
+    "storm shadowhoof quest",
+    "who wants shy rotam"
+   ],
+   "answer": "Storm Shadowhoof at Everlook asks you to defeat Shy-Rotam."
+  },
+  {
+   "q": "What is Shy-Rotam's stone?",
+   "aliases": [
+    "shy rotam stone",
+    "stone at frostsaber rock"
+   ],
+   "answer": "The stone of Shy-Rotam is where you place sacred meat from the frostsabers to summon her."
+  },
+  {
+   "q": "Why does Storm want Shy-Rotam defeated?",
+   "aliases": [
+    "why kill shy rotam",
+    "shy rotam respect"
+   ],
+   "answer": "Defeating the frostsaber matriarch would earn you respect from your fellow race."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "everlook",
+  "frostsaber",
+  "frostsaber rock",
+  "matriarch",
+  "sacred meat",
+  "shy-rotam",
+  "storm shadowhoof",
+  "winterspring"
+ ],
+ "related": [
+  "zone:winterspring",
+  "subzone:frostsaber-rock",
+  "subzone:everlook"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shy-Rotam"
+ ]
+}

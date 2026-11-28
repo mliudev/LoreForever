@@ -1,0 +1,79 @@
+{
+ "key": "quest:94266",
+ "type": "quest",
+ "name": "Craftsman's Writ: Elixir of Agility",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94266
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks for one Elixir of Agility and gives details for delivery and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A faded note asks you to provide one Elixir of Agility. It also gives the delivery place and payment details. The writ can pass from one holder to another, but you need it with you to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "elixir writ",
+    "what item do they want"
+   ],
+   "answer": "The writ asks for one Elixir of Agility."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery location",
+    "where to take elixir"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "How is payment handled?",
+   "aliases": [
+    "payment details",
+    "how much do they pay"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I transfer the writ?",
+   "aliases": [
+    "is the writ transferable",
+    "pass writ on"
+   ],
+   "answer": "Yes. The writ states that it can be transferred."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need writ with me",
+    "complete transaction"
+   ],
+   "answer": "Yes. You need to have the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agility elixir",
+  "craftsman's writ",
+  "delivery",
+  "elixir of agility",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Elixir of Agility"
+ ]
+}

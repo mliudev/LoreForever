@@ -1,0 +1,79 @@
+{
+ "key": "quest:94302",
+ "type": "quest",
+ "name": "Craftsman's Writ: Turtle Scale Breastplate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94302
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests a Turtle Scale Breastplate and gives delivery and payment details. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The faded note names a Turtle Scale Breastplate among the items the customer requests. It also gives details for delivery and payment. You need the writ with you when you bring the requested item to the marked location.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "turtle scale breastplate writ",
+    "what item do they want"
+   ],
+   "answer": "The customer requests one Turtle Scale Breastplate."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery location",
+    "where to bring it"
+   ],
+   "answer": "The writ directs you to the location marked on your map."
+  },
+  {
+   "q": "What do I need to complete the exchange?",
+   "aliases": [
+    "need the writ?",
+    "what to carry"
+   ],
+   "answer": "You need the writ in your possession to complete the transaction."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "is the writ transferable",
+    "pass the writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the writ give payment details?",
+   "aliases": [
+    "how am i paid",
+    "payment info"
+   ],
+   "answer": "Yes. The note includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "breastplate",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "transferable",
+  "turtle scale breastplate",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Turtle Scale Breastplate"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "quest:94281",
+ "type": "quest",
+ "name": "Craftsman's Writ: Advanced Target Dummy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94281
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A customer's transferable writ requests one Advanced Target Dummy and gives the delivery and payment details. It lets you complete the exchange at the marked location.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The note is written in faded ink, and it can pass from one bearer to another. It asks you to bring one Advanced Target Dummy, with the delivery place and payment noted on the writ.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Exchange",
+   "body": "To complete the exchange, you need the requested item and the writ in your possession. Bring them to the location marked on your map.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "advanced dummy writ",
+    "what item does it ask for"
+   ],
+   "answer": "The customer requests one Advanced Target Dummy."
+  },
+  {
+   "q": "Where do I deliver the dummy?",
+   "aliases": [
+    "dummy delivery spot",
+    "where to take it"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Do I need to carry the writ?",
+   "aliases": [
+    "need writ with me",
+    "can i deliver without writ"
+   ],
+   "answer": "Yes. The writ must be in your possession to complete the exchange."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "is the writ transferable",
+    "pass writ to someone"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "dummy payment",
+    "how much do they pay"
+   ],
+   "answer": "The writ includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "advanced target dummy",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "target dummy",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Advanced Target Dummy"
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "key": "quest:91952",
+ "type": "quest",
+ "name": "The Source of the Corruption",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91952
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Felwood\u2019s waters carry corruption down from Mount Hyjal, sickening its plants. You are sent to find the hermit Ketharas, who may know what has happened on the mountain.",
+ "sections": [
+  {
+   "title": "Waters from Hyjal",
+   "body": "Felwood\u2019s plants are diseased, and its waters bring fel taint down from Mount Hyjal. The druid who sends you believes the land cannot heal until the trouble on the mountain is resolved. Ketharas, a hermit with deep knowledge of Hyjal, may know what has happened there. Find him on the mountain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is corrupting Felwood?",
+   "aliases": [
+    "felwood corruption",
+    "why is felwood sick"
+   ],
+   "answer": "Waters running down from Mount Hyjal carry fel taint into Felwood, where it soaks into the ground and diseases plants."
+  },
+  {
+   "q": "Who is Ketharas?",
+   "aliases": [
+    "ketharas",
+    "hyjal hermit"
+   ],
+   "answer": "Ketharas is a druid hermit who lived in the wild and knows Mount Hyjal well."
+  },
+  {
+   "q": "Where can I find Ketharas?",
+   "aliases": [
+    "find ketharas",
+    "where is the hermit"
+   ],
+   "answer": "You are sent to find Ketharas on Mount Hyjal."
+  },
+  {
+   "q": "Why am I looking for Ketharas?",
+   "aliases": [
+    "why find ketharas",
+    "ketharas quest"
+   ],
+   "answer": "Ketharas knows Mount Hyjal well and may know what has happened there."
+  },
+  {
+   "q": "Can Felwood heal?",
+   "aliases": [
+    "heal felwood",
+    "felwood plants"
+   ],
+   "answer": "The druid who sends you believes Felwood cannot heal until the problem on Mount Hyjal is resolved."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you are sent to seek Ketharas, a hermit druid whose knowledge of Mount Hyjal may explain the corruption reaching Felwood."
+  }
+ ],
+ "keywords": [
+  "corruption",
+  "fel taint",
+  "felwood",
+  "hermit",
+  "ketharas",
+  "mount hyjal",
+  "the source of the corruption"
+ ],
+ "related": [
+  "zone:felwood",
+  "zone:hyjal",
+  "quest:5307"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Source of the Corruption"
+ ]
+}

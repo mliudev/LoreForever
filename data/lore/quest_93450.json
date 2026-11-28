@@ -1,0 +1,77 @@
+{
+ "key": "quest:93450",
+ "type": "quest",
+ "name": "Phantasmal Problems",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93450
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Shen'dralas, Vindael asks you to help with a sword he cannot move. He wants it carried into the spirit realm so his work can continue.",
+ "sections": [
+  {
+   "title": "Vindael's Work",
+   "body": "Vindael has labored on an unfinished sword for thousands of years, but he died before completing it. Now the blade remains on his anvil, where he cannot move it or continue his work. He asks you to find a way to carry it into the spirit realm and bring it back to him at Shen'dralas.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is vindael",
+    "vindael sword",
+    "phantom smith"
+   ],
+   "answer": "Vindael is a spirit at Shen'dralas who asks you to help with his unfinished sword."
+  },
+  {
+   "q": "Why can't Vindael move the sword?",
+   "aliases": [
+    "why cant he move it",
+    "ghost sword problem",
+    "incorporeal trouble"
+   ],
+   "answer": "Vindael says that being incorporeal keeps him from moving the sword or continuing his work."
+  },
+  {
+   "q": "How long has Vindael worked on the sword?",
+   "aliases": [
+    "sword age",
+    "how old is the blade",
+    "unfinished sword years"
+   ],
+   "answer": "Vindael says he began the sword thousands of years ago and died before finishing it."
+  },
+  {
+   "q": "What does Vindael want me to do?",
+   "aliases": [
+    "what does vindael need",
+    "sword task",
+    "spirit realm sword"
+   ],
+   "answer": "Vindael wants you to find a way to carry his unfinished sword into the spirit realm and return it to him at Shen'dralas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "incorporeal",
+  "phantasmal blade",
+  "phantasmal problems",
+  "shen'dralas",
+  "spirit realm",
+  "unfinished sword",
+  "vindael"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Phantasmal Problems"
+ ]
+}

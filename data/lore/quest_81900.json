@@ -1,0 +1,81 @@
+{
+ "key": "quest:81900",
+ "type": "quest",
+ "name": "The Burning Beast",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   81900
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A carving names Calefactus the Unleashed, a two-headed beast emerging from the Dark Portal. You head toward the Blasted Lands to find someone who knows its kind.",
+ "sections": [
+  {
+   "title": "A Beast Carved",
+   "body": "The image before you shows Calefactus the Unleashed coming through the Dark Portal, with fel-fire pouring from both mouths. You suspect the Twilight cultists mean to use the beast's destructive power for their own purposes. Your hunt leads toward the Blasted Lands, where someone may know more about it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Seeking Knowledge",
+   "body": "In the Blasted Lands, you are asked to find an expert on its beasts. When you bring word back, your interests may prove aligned with the one seeking to learn more about Calefactus.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Calefactus?",
+   "aliases": [
+    "calefactus",
+    "burning beast",
+    "two headed beast"
+   ],
+   "answer": "Calefactus the Unleashed is shown as a two-headed beast emerging from the Dark Portal, with fel-fire spewing from its mouths."
+  },
+  {
+   "q": "What do the Twilight cultists want with the beast?",
+   "aliases": [
+    "twilight cult beast",
+    "why cultists want it"
+   ],
+   "answer": "You suspect the Twilight cultists plan to harness Calefactus's destructive power for their own aims."
+  },
+  {
+   "q": "Where do I look for someone who knows about the beast?",
+   "aliases": [
+    "where find beast expert",
+    "blasted lands expert"
+   ],
+   "answer": "You are directed toward the Blasted Lands to find an expert on its beasts."
+  },
+  {
+   "q": "Who asks me to find an expert?",
+   "aliases": [
+    "who wants beast info",
+    "who am i reporting to"
+   ],
+   "answer": "The request asks you to find an expert on the beasts of the Blasted Lands, but gives no name for the one seeking to hear about Calefactus."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blasted lands",
+  "burning beast",
+  "calefactus",
+  "dark portal",
+  "fel-fire",
+  "twilight cultists",
+  "two-headed beast"
+ ],
+ "related": [
+  "zone:blastedlands",
+  "subzone:dark-portal",
+  "quest:92472"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Burning Beast"
+ ]
+}

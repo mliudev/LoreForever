@@ -1,0 +1,76 @@
+{
+ "key": "quest:5155",
+ "type": "quest",
+ "name": "Forces of Jaedenar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5155
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Greta Mosshoof asks you to enter Jaedenar and face its forces. She awaits your return in Felwood.",
+ "sections": [
+  {
+   "title": "Felwood's Charge",
+   "body": "Greta Mosshoof waits in Felwood for your return. In Jaedenar, you face Hounds, Guardsmen, Adepts, and Cultists; Greta asks you to slay them before coming back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to go to Jaedenar?",
+   "aliases": [
+    "who sent me",
+    "Greta quest"
+   ],
+   "answer": "Greta Mosshoof asks you to enter Jaedenar and slay its Hounds, Guardsmen, Adepts, and Cultists."
+  },
+  {
+   "q": "Where do I go?",
+   "aliases": [
+    "where is this",
+    "Jaedenar quest"
+   ],
+   "answer": "Greta Mosshoof directs you to Jaedenar, then asks you to return to her in Felwood."
+  },
+  {
+   "q": "Which forces does Greta name?",
+   "aliases": [
+    "who do I face",
+    "Jaedenar enemies"
+   ],
+   "answer": "Greta names Jaedenar Hounds, Jaedenar Guardsmen, Jaedenar Adepts, and Jaedenar Cultists."
+  },
+  {
+   "q": "How many of each does Greta ask me to slay?",
+   "aliases": [
+    "how many enemies",
+    "numbers for Jaedenar"
+   ],
+   "answer": "Greta asks you to slay four Hounds, four Guardsmen, six Adepts, and six Cultists."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "felwood",
+  "forces of jaedenar",
+  "greta mosshoof",
+  "jaedenar",
+  "jaedenar adepts",
+  "jaedenar cultists",
+  "jaedenar guardsmen",
+  "jaedenar hounds"
+ ],
+ "related": [
+  "npc:greta-mosshoof",
+  "subzone:jaedenar",
+  "zone:felwood"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Forces of Jaedenar"
+ ]
+}

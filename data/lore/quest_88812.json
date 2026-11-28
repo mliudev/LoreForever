@@ -1,0 +1,76 @@
+{
+ "key": "quest:88812",
+ "type": "quest",
+ "name": "Reclaiming Ravencrest",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88812
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Truesong sends you to Ravencrest Monument in Azshara, where Spitelash naga channel their magic through power stones. Nullifying the stones and thinning their ranks may help drive them out.",
+ "sections": [
+  {
+   "title": "At the Monument",
+   "body": "The monument is all that remains to show the Kaldorei house of Ravencrest was here. You find it atop the cliffs at the southern peninsula\u2019s tip. Spitelash enchantresses use power stones to channel their magic, and Commander Truesong gives you a ward to nullify them. Their magic is the obstacle to driving the naga out.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Ravencrest Monument?",
+   "aliases": [
+    "ravencrest monument",
+    "ravencrest ruins"
+   ],
+   "answer": "Ravencrest Monument is the lone, crumbling proof that the Kaldorei house of Ravencrest was present in Azshara."
+  },
+  {
+   "q": "Where is the monument?",
+   "aliases": [
+    "where ravencrest",
+    "monument location"
+   ],
+   "answer": "Ravencrest Monument stands atop the cliffs at the tip of Azshara\u2019s southern peninsula."
+  },
+  {
+   "q": "Why does Truesong want the power stones nullified?",
+   "aliases": [
+    "why stones",
+    "naga power stones"
+   ],
+   "answer": "Spitelash enchantresses channel their magic through the stones. Nullifying them will cripple that magic and give an upper hand in driving out the Spitelash."
+  },
+  {
+   "q": "Who are you sent to fight?",
+   "aliases": [
+    "spitelash enemies",
+    "kill naga"
+   ],
+   "answer": "Commander Truesong asks you to kill Spitelash Battlemasters and Enchantresses, and to nullify Naga Power Stones near Ravencrest Monument."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "commander truesong",
+  "kaldorei",
+  "naga",
+  "power stones",
+  "ravencrest",
+  "ravencrest monument",
+  "spitelash"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ravencrest-monument",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Reclaiming Ravencrest"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:94282",
+ "type": "quest",
+ "name": "Craftsman's Writ: Craftsman's Monocle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94282
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests a Craftsman's Monocle and gives details for delivery and payment. You need the writ to complete the transaction.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The faded note asks you to obtain a Craftsman's Monocle for a customer. It also gives the delivery place and payment details. The writ can pass from hand to hand, but you need to possess it when completing the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "what item",
+    "monocle writ",
+    "craftsman's monocle"
+   ],
+   "answer": "The writ requests one Craftsman's Monocle for a customer."
+  },
+  {
+   "q": "Where do I deliver the monocle?",
+   "aliases": [
+    "delivery place",
+    "where to take it",
+    "monocle location"
+   ],
+   "answer": "The writ provides a delivery location, marked on your map."
+  },
+  {
+   "q": "How is payment handled?",
+   "aliases": [
+    "payment details",
+    "how much pay",
+    "monocle payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I transfer the writ?",
+   "aliases": [
+    "is writ transferable",
+    "pass the writ",
+    "give writ away"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the transaction?",
+   "aliases": [
+    "need writ",
+    "writ required",
+    "complete transaction"
+   ],
+   "answer": "Yes. You must have the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's monocle",
+  "craftsman's writ",
+  "delivery",
+  "monocle",
+  "payment",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Craftsman's Monocle"
+ ]
+}

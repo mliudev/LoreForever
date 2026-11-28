@@ -1,0 +1,78 @@
+{
+ "key": "quest:94271",
+ "type": "quest",
+ "name": "Craftsman's Writ: Ornate Mithril Shoulders",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94271
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded, transferable writ requests a pair of Ornate Mithril Shoulders. You are asked to deliver them to the marked location with the writ in hand.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A customer asks you for Ornate Mithril Shoulders through a note written in faded ink. The writ can be passed from one holder to another, and it also carries details about delivery and payment. You need the writ with you to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "ornate mithril shoulders writ",
+    "what item is requested"
+   ],
+   "answer": "The customer requests one pair of Ornate Mithril Shoulders."
+  },
+  {
+   "q": "Where do I deliver the shoulders?",
+   "aliases": [
+    "where to deliver",
+    "delivery location"
+   ],
+   "answer": "The writ directs you to the location marked on your map."
+  },
+  {
+   "q": "Do I need to carry the writ?",
+   "aliases": [
+    "need writ",
+    "forgot the writ"
+   ],
+   "answer": "Yes. You must have the writ with you to complete the transaction."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "transferable writ",
+    "pass writ to someone"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the writ mention payment?",
+   "aliases": [
+    "how much payment",
+    "payment for shoulders"
+   ],
+   "answer": "The note includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "mithril",
+  "ornate mithril shoulders",
+  "payment",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Ornate Mithril Shoulders"
+ ]
+}

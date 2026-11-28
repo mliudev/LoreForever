@@ -1,0 +1,79 @@
+{
+ "key": "quest:2681",
+ "type": "quest",
+ "name": "The Stones That Bind Us",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2681
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Fallen Hero asks you to free bound servants from four stones. Their release depends on staying close to each stone.",
+ "sections": [
+  {
+   "title": "The Bound Servants",
+   "body": "The stones hold servants bound to Razelikh, Sevine, Allistarj, and Grol. You are asked to free nine servants of Razelikh and three servants for each of the other three. Keep close to the stones while freeing them, or the process fails. When the servants are free, return to the Fallen Hero.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to free the servants?",
+   "aliases": [
+    "who gave this",
+    "fallen hero task"
+   ],
+   "answer": "The Fallen Hero asks you to free servants bound to four stones."
+  },
+  {
+   "q": "Which servants need freeing?",
+   "aliases": [
+    "who do i free",
+    "servants stones"
+   ],
+   "answer": "You are asked to free servants of Razelikh, Sevine, Allistarj, and Grol."
+  },
+  {
+   "q": "How many servants must I free?",
+   "aliases": [
+    "how many",
+    "servant count"
+   ],
+   "answer": "Free nine servants of Razelikh and three each of Sevine, Allistarj, and Grol."
+  },
+  {
+   "q": "Why must I stay near the stones?",
+   "aliases": [
+    "stay close why",
+    "stone distance"
+   ],
+   "answer": "The freeing process fails if you move too far from the stones."
+  },
+  {
+   "q": "Where do I return when the servants are free?",
+   "aliases": [
+    "where to go back",
+    "return to who"
+   ],
+   "answer": "Return to the Fallen Hero when the servants are free."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "allistarj",
+  "bound servants",
+  "fallen hero",
+  "grol",
+  "razelikh",
+  "sevine",
+  "stones"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Stones That Bind Us"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "key": "quest:3786",
+ "type": "quest",
+ "name": "Morrowgrain Research",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3786
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Bashana Runetotem asks you to bring her Morrowgrain for research in Thunder Bluff. You are to try cultivating it with an Evergreen Pouch, Tharlendis Seeds and Un'Goro Soil.",
+ "sections": [
+  {
+   "title": "Cultivating Samples",
+   "body": "You need an Evergreen Pouch, a Packet of Tharlendis Seeds and two samples of Un'Goro Soil to try cultivating Morrowgrain. Bring ten Morrowgrain to Bashana Runetotem in Thunder Bluff for her research.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Bashana need?",
+   "aliases": [
+    "morrowgrain research",
+    "what does bashana want",
+    "bashana needs what"
+   ],
+   "answer": "Bashana Runetotem asks you to bring her ten Morrowgrain in Thunder Bluff."
+  },
+  {
+   "q": "How do I try to cultivate Morrowgrain?",
+   "aliases": [
+    "grow morrowgrain",
+    "morrowgrain seeds",
+    "how to cultivate it"
+   ],
+   "answer": "Use an Evergreen Pouch with a Packet of Tharlendis Seeds and two Un'Goro Soil samples to try cultivating Morrowgrain."
+  },
+  {
+   "q": "Where do I bring the Morrowgrain?",
+   "aliases": [
+    "where bashana",
+    "turn in morrowgrain",
+    "morrowgrain location"
+   ],
+   "answer": "Bring the ten Morrowgrain to Bashana Runetotem in Thunder Bluff."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bashana runetotem",
+  "evergreen pouch",
+  "morrowgrain",
+  "research",
+  "tharlendis seeds",
+  "thunder bluff",
+  "un'goro soil"
+ ],
+ "related": [
+  "npc:bashana-runetotem",
+  "zone:thunderbluff",
+  "quest:3761"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Morrowgrain Research"
+ ]
+}

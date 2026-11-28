@@ -1,0 +1,63 @@
+{
+ "key": "quest:84402",
+ "type": "quest",
+ "name": "Necromancy 101",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   84402
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A library collector asks you to add magical works to the collection. Your contributions help expand its knowledge.",
+ "sections": [
+  {
+   "title": "More for the Library",
+   "body": "If you find other magical works that could aid the library, its collector welcomes them. The collection grows through your efforts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library want?",
+   "aliases": [
+    "library request",
+    "what to bring"
+   ],
+   "answer": "The library seeks magical works that could benefit its collection."
+  },
+  {
+   "q": "Why bring magical works here?",
+   "aliases": [
+    "why give books",
+    "library collection"
+   ],
+   "answer": "Your contributions expand the library's knowledge."
+  },
+  {
+   "q": "Can I bring more works later?",
+   "aliases": [
+    "more magic books",
+    "bring more"
+   ],
+   "answer": "Yes. The collector welcomes other magical works that might benefit the library."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "knowledge",
+  "library",
+  "magical works",
+  "necromancy 101"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Necromancy 101"
+ ]
+}

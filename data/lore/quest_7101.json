@@ -1,0 +1,67 @@
+{
+ "key": "quest:7101",
+ "type": "quest",
+ "name": "Towers and Bunkers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7101
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Corporal Teeka Bloodsnarl in the Alterac Mountains asks you to capture an enemy tower. The stronghold's defenses are at stake.",
+ "sections": [
+  {
+   "title": "The Assignment",
+   "body": "An enemy tower is the prize Corporal Teeka Bloodsnarl sets before you in the Alterac Mountains. Capture it, then return to her. The order leaves the tower's hold in question.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this assignment?",
+   "aliases": [
+    "who is Teeka",
+    "Teeka Bloodsnarl",
+    "corporal Teeka"
+   ],
+   "answer": "Corporal Teeka Bloodsnarl gives the order in the Alterac Mountains."
+  },
+  {
+   "q": "What does Teeka want captured?",
+   "aliases": [
+    "capture what",
+    "tower assignment",
+    "enemy tower"
+   ],
+   "answer": "Teeka asks you to capture an enemy tower."
+  },
+  {
+   "q": "Where do I return?",
+   "aliases": [
+    "where is Teeka",
+    "return to corporal",
+    "turn in location"
+   ],
+   "answer": "After capturing an enemy tower, return to Corporal Teeka Bloodsnarl in the Alterac Mountains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alterac mountains",
+  "capture tower",
+  "enemy tower",
+  "stronghold",
+  "teeka bloodsnarl",
+  "towers and bunkers"
+ ],
+ "related": [
+  "zone:alterac"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Towers and Bunkers"
+ ]
+}

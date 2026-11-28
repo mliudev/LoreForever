@@ -1,0 +1,71 @@
+{
+ "key": "quest:1123",
+ "type": "quest",
+ "name": "Rabine Saturna",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1123
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are asked to speak with Rabine Saturna in Nighthaven, Moonglade. The village lies between Felwood and Winterspring, with a path through Timbermaw Hold.",
+ "sections": [
+  {
+   "title": "A Meeting in Nighthaven",
+   "body": "Nighthaven is where you are asked to find Rabine Saturna. Moonglade lies between Felwood and Winterspring, and a path from Timbermaw Hold leads into the region. Speak with Rabine in the village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Rabine Saturna?",
+   "aliases": [
+    "rabine location",
+    "where is Rabine",
+    "Rabine Saturna whereabouts"
+   ],
+   "answer": "Rabine Saturna is in the village of Nighthaven in Moonglade."
+  },
+  {
+   "q": "Where is Moonglade?",
+   "aliases": [
+    "Moonglade location",
+    "where is Moonglade",
+    "Moonglade where"
+   ],
+   "answer": "Moonglade lies between Felwood and Winterspring."
+  },
+  {
+   "q": "How do I reach Moonglade?",
+   "aliases": [
+    "path to Moonglade",
+    "get to Moonglade",
+    "Timbermaw Hold route"
+   ],
+   "answer": "A path out of Timbermaw Hold leads to Moonglade."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "felwood",
+  "moonglade",
+  "nighthaven",
+  "rabine saturna",
+  "timbermaw hold",
+  "winterspring"
+ ],
+ "related": [
+  "quest:5921",
+  "zone:felwood",
+  "zone:winterspring",
+  "subzone:timbermaw-hold",
+  "subzone:nighthaven"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rabine Saturna"
+ ]
+}

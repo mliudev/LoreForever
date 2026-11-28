@@ -1,0 +1,89 @@
+{
+ "key": "quest:88884",
+ "type": "quest",
+ "name": "Highborne Tablets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88884
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Saria Fairmoon seeks three Highborne tablets from the naga-guarded ruins of Southridge Beach. Their writings record studies of the arcane.",
+ "sections": [
+  {
+   "title": "Words in Stone",
+   "body": "The tablets lie in pagoda-like structures among the Southridge Beach ruins, just south of Saria Fairmoon in Azshara. Naga guard them, so she asks you to recover all three and bring them to her. Their Highborne writing concerns investigations into the laws and powers of the arcane. Saria can translate the finer points when you return with the tablets.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the tablets?",
+   "aliases": [
+    "Saria tablets",
+    "who sent me",
+    "tablet giver"
+   ],
+   "answer": "Saria Fairmoon in Azshara asks you to bring her three Highborne tablets."
+  },
+  {
+   "q": "Where are the Highborne tablets?",
+   "aliases": [
+    "tablet location",
+    "where tablets",
+    "Southridge tablets"
+   ],
+   "answer": "The three tablets are among the ruins of Southridge Beach, just south of Saria Fairmoon."
+  },
+  {
+   "q": "What do the tablets say?",
+   "aliases": [
+    "tablet writing",
+    "what's written",
+    "arcane tablets"
+   ],
+   "answer": "Their Highborne writing records investigations into the laws and powers of the arcane."
+  },
+  {
+   "q": "Why does Saria want them?",
+   "aliases": [
+    "why tablets",
+    "Saria wants what",
+    "tablet purpose"
+   ],
+   "answer": "Saria is pursuing knowledge and says she can translate the finer points of the tablets' writing."
+  },
+  {
+   "q": "Why are the naga guarding the tablets?",
+   "aliases": [
+    "naga guards",
+    "why naga",
+    "tablet guards"
+   ],
+   "answer": "Naga guard the pagoda-like structures where the tablets are kept."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arcane",
+  "azshara",
+  "highborne",
+  "highborne tablets",
+  "naga",
+  "saria fairmoon",
+  "southridge beach"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:southridge-beach",
+  "topic:highborne",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Highborne Tablets"
+ ]
+}

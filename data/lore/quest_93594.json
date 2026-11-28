@@ -1,0 +1,94 @@
+{
+ "key": "quest:93594",
+ "type": "quest",
+ "name": "Word of the Woods",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93594
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are asked to find Woodwyrd in the Forlorn Gardens at Shen'dralas. He may know what happened to the gardens and the treants born of the necklace.",
+ "sections": [
+  {
+   "title": "A Friend Remembered",
+   "body": "The gardens\u2019 flowers and trees may hold answers, and you are sent to find Woodwyrd at Shen'dralas in Desolace. He was the greatest of the treants born of the necklace. He cared for every bloom and bud, and sheltered small creatures by rooting himself in the earth at night.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Garden's Keeper",
+   "body": "Woodwyrd tells you the gardens are lost. He is the last caretaker of his generation, and without the gift, no others can take their place. Weeds cover the land, flowers are restless, and trees wither. He turns toward the ancient whose fire fills the sky.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Woodwyrd?",
+   "aliases": [
+    "woodwyrd",
+    "who's woodwyrd",
+    "wood wyrd"
+   ],
+   "answer": "Woodwyrd is a treant born of the necklace and the greatest of his generation. He tended the gardens' blooms and sheltered small creatures at night."
+  },
+  {
+   "q": "Where can I find Woodwyrd?",
+   "aliases": [
+    "woodwyrd location",
+    "find woodwyrd",
+    "where is woodwyrd"
+   ],
+   "answer": "You are sent to look for Woodwyrd in the Forlorn Gardens at Shen'dralas in Desolace."
+  },
+  {
+   "q": "What did Woodwyrd do in the gardens?",
+   "aliases": [
+    "woodwyrd job",
+    "what did he do",
+    "garden caretaker"
+   ],
+   "answer": "Woodwyrd tended every bloom and bud. At night, he rooted himself in the ground to shelter small creatures."
+  },
+  {
+   "q": "What happened to the treants born of the necklace?",
+   "aliases": [
+    "necklace treants",
+    "treants gone",
+    "what happened to treants"
+   ],
+   "answer": "The one asking you fears the treants may have fallen and hopes Woodwyrd is still alive to explain what happened."
+  },
+  {
+   "q": "Why is Woodwyrd important?",
+   "aliases": [
+    "why find woodwyrd",
+    "woodwyrd matters",
+    "why him"
+   ],
+   "answer": "Woodwyrd may know what happened to the treants and the gardens."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caretaker",
+  "desolace",
+  "flowers",
+  "forlorn gardens",
+  "necklace",
+  "shen'dralas",
+  "treants",
+  "woodwyrd"
+ ],
+ "related": [
+  "zone:shendralas",
+  "zone:desolace",
+  "quest:93341"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Word of the Woods"
+ ]
+}

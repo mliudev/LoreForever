@@ -2196,19 +2196,13 @@ local function startTyping(fs, m, chips)
   end)
 end
 
--- Rating an answer (LOR-120): a faint wax seal (a good answer) and a quill (not right) at the bottom left of every
--- answer, in sepia until the mouse is on one; your answer's mark keeps its own colours, the seal stamped in red wax
--- (Mike, 10/14: the green check and red cross broke immersion). The quill also opens the report box (UI.ShowReport),
--- which asks why and can copy a report code to send. Ratings are saved with the logged question.
--- The marks are the game's own icons: the wax seal on a note, cut round by a mask (the square crop where the client
--- has no masks), and a feather, its black ground dropped by ADD.
+-- Narration clip report mark (LOR-232): a feather quill in sepia until hovered, lit in its own colours under the mouse.
 local MARKS = {
-  seal = { tex = "Interface\\Icons\\INV_Misc_Note_02", coords = { 15 / 64, 31 / 64, 20 / 64, 36 / 64 }, rest = 0.42 },
   quill = { tex = "Interface\\Icons\\INV_Feather_01", coords = { 0.08, 0.92, 0.08, 0.92 }, blend = "ADD", rest = 0.5 },
 }
 local SEPIA = { 0.85, 0.78, 0.66 }
 
--- A mark ("seal" or "quill") as button b's icon, size square in its middle.
+-- A mark ("quill") as button b's icon, size square in its middle.
 local function Mark(b, kind, size)
   local m = MARKS[kind]
   local icon = b:CreateTexture(nil, "ARTWORK")
@@ -2217,108 +2211,14 @@ local function Mark(b, kind, size)
   icon:SetTexture(m.tex)
   icon:SetTexCoord(unpack(m.coords))
   if m.blend then icon:SetBlendMode(m.blend) end
-  local mask = kind == "seal" and b.CreateMaskTexture and icon.AddMaskTexture and b:CreateMaskTexture()
-  if mask then
-    mask:SetTexture(T.DISC, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
-    mask:SetAllPoints(icon)
-    icon:AddMaskTexture(mask)
-  end
   b.icon, b.mark = icon, m
   return icon
 end
 
--- At rest, a thin ring with the sign in the page's ink (Design Lead, 11/3, option D); lit (under the mouse, or your
--- answer), the mark in its own colours on its dark disc.
 local function MarkLit(b, lit)
   b.icon:SetDesaturated(not lit)
   b.icon:SetVertexColor(lit and 1 or SEPIA[1], lit and 1 or SEPIA[2], lit and 1 or SEPIA[3], 1)
   b.icon:SetAlpha(lit and 0.9 or b.mark.rest)
-  if not b.ring then return end   -- (a mark with no ring of its own: as it was)
-  b.icon:SetShown(lit)
-  b.back:SetShown(lit)
-  b.ring:SetShown(not lit)
-  b.sign:SetShown(not lit)
-end
-
-local RATE_ANSWERS = false   -- the "Right answer?" marks under answers (off: Mike, 11/4)
-
-local function SetRating(b, log)
-  local show = log ~= nil
-  b.up:SetShown(show)
-  b.down:SetShown(show)
-  b.up.label:SetShown(show)
-  b.up.log, b.down.log = log, log
-  if not show then return end
-  b.up.lit, b.down.lit = log.helpful == true, log.helpful == false
-  MarkLit(b.up, b.up.lit)
-  MarkLit(b.down, b.down.lit)
-end
-
-local function RateButtons(parent)
-  local function button(kind, onClick, title, tip)
-    local b = CreateFrame("Button", nil, parent)
-    b:SetSize(18, 18)
-    b:SetHitRectInsets(-3, -3, -4, -4)   -- a 24px target around the 18px button (the two sit 6px apart)
-    -- A dark disc under the lit mark, so it reads on parchment.
-    local back = b:CreateTexture(nil, "BACKGROUND")
-    back:SetSize(21, 21)
-    back:SetPoint("CENTER")
-    back:SetColorTexture(0.14, 0.10, 0.05, 0.9)
-    local round = b.CreateMaskTexture and back.AddMaskTexture and b:CreateMaskTexture()
-    if round then
-      round:SetTexture(T.DISC, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
-      round:SetAllPoints(back)
-      back:AddMaskTexture(round)
-    end
-    b.back = back
-    -- At rest: the ring and its sign (a small ring for right, a slash for not right; Media/Paper).
-    local ring = b:CreateTexture(nil, "BACKGROUND")
-    ring:SetSize(21, 21)
-    ring:SetPoint("CENTER")
-    ring:SetTexture(T.RING)
-    ring:SetVertexColor(unpack(T.color.inkRim))
-    local sign = b:CreateTexture(nil, "ARTWORK")
-    sign:SetSize(11, 11)
-    sign:SetPoint("CENTER")
-    sign:SetTexture(T.PAPER_ART .. (kind == "seal" and "MarkRing" or "MarkSlash"))
-    sign:SetVertexColor(unpack(T.color.inkAccent))
-    b.ring, b.sign = ring, sign
-    Mark(b, kind, 16)
-    b:SetScript("OnClick", onClick)
-    b:SetScript("OnEnter", function(self)
-      MarkLit(self, true)
-      GameTooltip:SetOwner(self, "ANCHOR_TOP")
-      GameTooltip:AddLine(title)
-      T.Tip(tip, "tipText", true)
-      GameTooltip:Show()
-    end)
-    b:SetScript("OnLeave", function(self)
-      MarkLit(self, self.lit)
-      GameTooltip:Hide()
-    end)
-    b:Hide()
-    return b
-  end
-  local up, down
-  up = button("seal", function(self)
-    ns.Log.Feedback(self.log, true)
-    SetRating({ up = up, down = down }, self.log)
-  end, L["Good answer"], L["Tells us this answer was right."])
-  down = button("quill", function(self)
-    if self.log.helpful ~= false then ns.Log.Feedback(self.log, false) end   -- keeps a reason given earlier
-    SetRating({ up = up, down = down }, self.log)
-    UI.ShowReport(self.log)
-    UI.SuggestWilloLine(self.log.q)   -- a wrong answer is when live answers help most (once a play session)
-  end, L["Not right?"], L["Tell us what was wrong, and copy a short report to send us."])
-  -- What the two marks ask, in words beside them (Design Lead, 10/25: round icons alone read as decoration).
-  local label = T.PaperText(parent:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
-  label:SetText(L["Right answer?"])
-  label:SetPoint("BOTTOMLEFT", PAD, 9)
-  label:Hide()
-  up.label = label
-  up:SetPoint("LEFT", label, "RIGHT", 6, 0)
-  down:SetPoint("LEFT", up, "RIGHT", 6, 0)
-  return up, down
 end
 
 local function bubbleAt(i)
@@ -2423,7 +2323,6 @@ local function bubbleAt(i)
     close:Hide()
     b = { frame = f, bg = bg, edge = edge, head = head, chips = chips, fs = fs, listen = listen, queue = queue, action = action,
       close = close, pill = pill, play = play, add = add, rows = {} }
-    b.up, b.down = RateButtons(f)
     UI.bubbles[i] = b
   end
   return b
@@ -2592,7 +2491,7 @@ function UI.Render(keepScroll)
       b.listen:Hide()
       latestListen = b.play
     elseif m.role == "lore" and canPlay then
-      h = h + 22   -- Listen, + and the rating share a footer below the answer
+      h = h + 22   -- Listen and + share a footer below the answer
       b.listen:Show()
       latestListen = b.listen
     elseif b.isHero and (m.target or m.onAction) then
@@ -2604,11 +2503,6 @@ function UI.Render(keepScroll)
     else
       b.listen:Hide()
     end
-    -- Answers (and "I don't have that" replies) could be rated on a bottom row. Off for now (Mike, 11/4: "Remove the
-    -- right and wrong answer checks at this point"); /lore report still opens the report box for the newest answer.
-    local rate = RATE_ANSWERS and m.log and (m.role == "lore" or m.role == "note") and m.log or nil
-    if rate and (b.icons or not (m.role == "lore" and canPlay)) then h = h + 22 end
-    SetRating(b, rate)
     f:SetSize(w, h)
     f:Show()
     if m.animate and not m.revealed then
@@ -2641,7 +2535,7 @@ end
 -- answer's recording), shown only when a voice recorded it. Left out (the welcome back), the message has none: what no
 -- voice recorded stays as text, never read out by the game's voice (Mike, 2026-10-05).
 -- rows (lore only): clickable boss rows under the text, { {key, name, hook}, ... } (the dungeon primer).
--- log: the logged question this message answers (Log.Question), so it can be rated and reported.
+-- log: the logged question this message answers (Log.Question), so it can be reported.
 -- subject: the entry key the message is about (Back goes to it); linked: the keys its lore links point to, in order,
 -- for the "In this answer" line (UI.Linker).
 -- entry: the full formatted entry, so replaying it can reuse this message; a primer or FAQ is not that story.
@@ -6062,13 +5956,6 @@ function UI.WilloTopic()
   if e and e.n then return { name = e.n } end
   if not over and UI.unanswered then return { question = UI.unanswered } end
   return { place = place ~= "" and place or nil }
-end
-
--- The line on its own, after the red cross on an answer: same rules (Companion.SuggestWillo).
-function UI.SuggestWilloLine(question)
-  if ns.Companion.Installed() or not ns.Companion.SuggestWillo() then return end
-  UI.AddMessage("note", (willoLine():gsub("^\n+", "")))
-  UI.msgs[#UI.msgs].willo = question
 end
 
 -- heading and text are plain and get escaped; tag is already-formatted (e.g. the grey "(narrated)") and must not be.

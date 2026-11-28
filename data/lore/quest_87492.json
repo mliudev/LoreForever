@@ -1,0 +1,91 @@
+{
+ "key": "quest:87492",
+ "type": "quest",
+ "name": "Uncanny Crystal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   87492
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Torwa Pathfinder asks you to bring him a damaged blue crystal from the crater. Its strange growths may have an unnatural cause.",
+ "sections": [
+  {
+   "title": "A Sample for Torwa",
+   "body": "Torwa Pathfinder wants a closer look at the formations scattered across the crater. While foraging, he spotted a damaged crystal and wonders whether it might reveal where these growths began. You are to bring him a sample if you find it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Crystal's Marks",
+   "body": "The crystal has fine cracks and sheds a little powder. Torwa sees lines in it unlike the natural stone beneath the soil. He suspects something made the crystals grow throughout the region, though he cannot tell what.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Torwa want me to bring?",
+   "aliases": [
+    "torwa crystal",
+    "damaged blue crystal",
+    "uncanny crystal quest"
+   ],
+   "answer": "Torwa Pathfinder asks you to bring him one Damaged Blue Crystal."
+  },
+  {
+   "q": "Where did Torwa see the crystal?",
+   "aliases": [
+    "where crystal",
+    "crystal location",
+    "blue crystal where"
+   ],
+   "answer": "Torwa says he saw a damaged crystal not far from where he was foraging."
+  },
+  {
+   "q": "Why does Torwa want a crystal sample?",
+   "aliases": [
+    "why crystal sample",
+    "torwa wants crystal",
+    "crystal origins"
+   ],
+   "answer": "Torwa hopes the sample may reveal something about the origins of the unusual crystal growths."
+  },
+  {
+   "q": "What does the crystal look like?",
+   "aliases": [
+    "crystal appearance",
+    "cracks and powder",
+    "what's on crystal"
+   ],
+   "answer": "It has delicate cracks, sheds tiny bits of powder, and bears striations unlike the natural stone beneath the soil."
+  },
+  {
+   "q": "What does Torwa think caused the growths?",
+   "aliases": [
+    "why crystals grow",
+    "crystal cause",
+    "unnatural crystals"
+   ],
+   "answer": "Torwa suspects something caused the crystals to grow throughout the region, but he does not know what."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crater",
+  "crystal growths",
+  "damaged blue crystal",
+  "powder",
+  "striations",
+  "torwa pathfinder",
+  "uncanny crystal"
+ ],
+ "related": [
+  "npc:torwa-pathfinder"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Uncanny Crystal"
+ ]
+}

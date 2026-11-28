@@ -1,0 +1,87 @@
+{
+ "key": "quest:97405",
+ "type": "quest",
+ "name": "Noise Complaints",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97405
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Knaz Blunderflame asks you to deal with ogres snooping near his noisy work at Mosh'Ogg Ogre Mount. Their presence threatens the peace he needs to pursue his Mirage Raceway dream.",
+ "sections": [
+  {
+   "title": "Ogres Nearby",
+   "body": "Knaz Blunderflame works on a contraption for the Mirage Raceway Championships, and the noise has drawn unwanted attention. He has seen an ogre watching from behind a tree. Now you are asked to stop the Mosh'Ogg ogres near the mount before they bring danger to the place.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is Knaz",
+    "Knaz Blunderflame",
+    "who wants the ogres gone"
+   ],
+   "answer": "Knaz Blunderflame asks you to stop the Mosh'Ogg ogres snooping near his work."
+  },
+  {
+   "q": "Why are the ogres there?",
+   "aliases": [
+    "why ogres here",
+    "what are they doing",
+    "ogres snooping"
+   ],
+   "answer": "Knaz saw an ogre peeking from behind a tree near his work, but he does not know why they are watching."
+  },
+  {
+   "q": "What is Knaz building?",
+   "aliases": [
+    "what is the death trap",
+    "Knaz invention",
+    "what is he making"
+   ],
+   "answer": "Knaz is building a contraption for the Mirage Raceway Championships."
+  },
+  {
+   "q": "Where are the ogres?",
+   "aliases": [
+    "where is Mosh'Ogg",
+    "ogre mountain",
+    "Mosh'Ogg location"
+   ],
+   "answer": "The Mosh'Ogg ogres are near Mosh'Ogg Ogre Mount."
+  },
+  {
+   "q": "What is bothering Knaz's neighbor?",
+   "aliases": [
+    "noise problem",
+    "why noise complaints",
+    "late night tinkering"
+   ],
+   "answer": "Knaz's late-night tinkering makes a great deal of noise, and his neighbor fears being mauled by the ogres."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "gnaz",
+  "knaz blunderflame",
+  "mirage raceway",
+  "mosh'ogg",
+  "mosh'ogg ogre mount",
+  "noise complaints",
+  "ogres"
+ ],
+ "related": [
+  "subzone:mirage-raceway",
+  "topic:shaman"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Noise Complaints"
+ ]
+}
