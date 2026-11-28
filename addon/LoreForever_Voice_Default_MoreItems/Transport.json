@@ -6893,9 +6893,9 @@
     "item:ghost-hair-thread": {
       "1": [
         {
-          "duration": 28.708571428571428,
-          "file": "Audio/Transport/full_item_ghost-hair-thread-605ab37bf8d02e897791/1-0000.mp3",
-          "sha256": "02e8c7b8da435ab08fc3a6337c9f7b4794f91461e13c4454617de87bef924402",
+          "duration": 43.57224489795919,
+          "file": "Audio/Transport/full_item_ghost-hair-thread-0d3634be626bb16fe339/1-0000.mp3",
+          "sha256": "7d65d971b1760274bef6c898b95efb8e875abedf14d77cbb84bcf08d5676b667",
           "start": 0
         }
       ],
@@ -6907,12 +6907,12 @@
         ]
       },
       "fullHash": "439244",
-      "generation": "5c50716d03b8b493fe75",
+      "generation": "2a176d2004f850fad84d",
       "hash": "439244",
       "source": {
-        "duration": 28.708571,
+        "duration": 43.598367,
         "file": null,
-        "sha256": "605ab37bf8d02e89779180a2d57752b2e239bd9310a5a7dd86bf30e463c868ec"
+        "sha256": "0d3634be626bb16fe33936dec1bebf7dce3cf8f37dd90ddffb8893ec898d658c"
       },
       "text": "Ghost Hair Thread. In Darkshire, Madame Eva spins Ghost Hair Thread from the spirit world. Its occult power can bind spirits or stitch life into inanimate things, and Abercrombie asks for it to ward his shack against restless ghosts. In Darkshire, Madame Eva spins Ghost Hair Thread, a spectral strand with strange powers. Eva says it can bind malevolent spirits or stitch vitality into inanimate objects. In Duskwood, people use it in rituals and wards."
     },
@@ -13341,9 +13341,9 @@
     "item:rot-hide-ichor": {
       "1": [
         {
-          "duration": 43.38938775510204,
-          "file": "Audio/Transport/full_item_rot-hide-ichor-a83acb5809d6458e7d4f/1-0000.mp3",
-          "sha256": "1fcddde72cde6d8d53ed7159aeb004538def89a4ee3a7375e84c3e824a842d8d",
+          "duration": 64.49632653061225,
+          "file": "Audio/Transport/full_item_rot-hide-ichor-bd0297250e5efad68539/1-0000.mp3",
+          "sha256": "866b7bd8b4fcc69fa8894ecdeaf78619bb2000aed02072611f1edc68e92a9e16",
           "start": 0
         }
       ],
@@ -13355,12 +13355,12 @@
         ]
       },
       "fullHash": "a608b0",
-      "generation": "eafbb7ac355a632623a6",
+      "generation": "e119e61c168927b034fe",
       "hash": "a608b0",
       "source": {
-        "duration": 43.41551,
+        "duration": 64.522449,
         "file": null,
-        "sha256": "a83acb5809d6458e7d4f6cdbd0fa88b89b6c0464056c373afca5f3d73b50a08d"
+        "sha256": "bd0297250e5efad68539771062d46123ce2949cbc28f6d53929c14ee9989df12"
       },
       "text": "Rot Hide Ichor. At the Sepulcher, Apothecary Renferrel gathers Rot Hide Ichor for the Royal Apothecary Society. They hope it will show what corrupted the gnolls and how to oppose them. On Fenris Isle, the Rot Hide gnolls are twisted by an unnatural blight. Their bodies decay, yet a noxious ichor runs through their veins and sustains their animated flesh. The Royal Apothecary Society hopes the fluid will reveal what corrupted the pack and who commands them from within the ruined keep. At the Sepulcher, Apothecary Renferrel gathers vials of the ichor for study. The Forsaken hope to separate the chemical and magical forces that sustain the gnolls. Then they can find the pack's weaknesses before sending troops across Lordamere Lake in a full assault."
     },
@@ -19335,10 +19335,6 @@
       1374,
       1589
     ],
-    "02e8c7b8da435ab08fc3a6337c9f7b4794f91461e13c4454617de87bef924402": [
-      531,
-      768
-    ],
     "0303e1c2ac839802ff27dd6915f29245b53b2cee3f42fc23e523d894b7320a69": [
       411,
       641
@@ -19935,14 +19931,6 @@
       929,
       1083,
       1268
-    ],
-    "1fcddde72cde6d8d53ed7159aeb004538def89a4ee3a7375e84c3e824a842d8d": [
-      239,
-      398,
-      575,
-      803,
-      1073,
-      1267
     ],
     "202a5cff1592ce360e72b8f6ff59802aa76d9617f6fd1a66c5c505022d0d59e7": [
       245,
@@ -22173,6 +22161,15 @@
       799,
       935
     ],
+    "7d65d971b1760274bef6c898b95efb8e875abedf14d77cbb84bcf08d5676b667": [
+      327,
+      546,
+      781,
+      937,
+      1162,
+      1323,
+      1491
+    ],
     "7d67190603fdba8e7e20db03c3728dd3a664a50b310273aa9c28c53c39834201": [
       773,
       1039
@@ -22376,6 +22373,18 @@
     ],
     "86316effedd8cece86924f8c4106eb86bad3435d630ebbeb7edfe7a9f0084ca7": [
       251
+    ],
+    "866b7bd8b4fcc69fa8894ecdeaf78619bb2000aed02072611f1edc68e92a9e16": [
+      141,
+      304,
+      490,
+      696,
+      931,
+      1251,
+      1469,
+      1630,
+      1900,
+      2153
     ],
     "86a6a1867fa2d8be6c2bdc3ef953642d0e8bf505bf7e160b1d917fa2de397e22": [
       230,
@@ -25482,9 +25491,6 @@
       "1122": 2,
       "349": 1
     },
-    "02e8c7b8da435ab08fc3a6337c9f7b4794f91461e13c4454617de87bef924402": {
-      "531": 1
-    },
     "031d8b3625149c3085a91fd6c9a49b7f5ed71b8a9a965345ad638c3213c11bca": {
       "333": 1
     },
@@ -25707,10 +25713,6 @@
     },
     "1fbf955a59a15bbba819f9b3144354f9eb8381cde7c2ddae98a696d6ad440a32": {
       "526": 1
-    },
-    "1fcddde72cde6d8d53ed7159aeb004538def89a4ee3a7375e84c3e824a842d8d": {
-      "1073": 2,
-      "398": 1
     },
     "202a5cff1592ce360e72b8f6ff59802aa76d9617f6fd1a66c5c505022d0d59e7": {
       "439": 1
@@ -26549,6 +26551,9 @@
     "7d223ee61cb65b0f9467349d68f447773f7ed68f78e7c2682a2370b82a307fe3": {
       "628": 1
     },
+    "7d65d971b1760274bef6c898b95efb8e875abedf14d77cbb84bcf08d5676b667": {
+      "781": 1
+    },
     "7d8da64932fdb7c32754f10230f7e93c189400023e8ad7c182c48e7aeedf63d8": {
       "345": 1
     },
@@ -26622,6 +26627,10 @@
     },
     "85a21f6c106dbccedeb5b9fc27a08d2ed7dd63e6c7a069f7dce05c5cfc872d52": {
       "455": 1
+    },
+    "866b7bd8b4fcc69fa8894ecdeaf78619bb2000aed02072611f1edc68e92a9e16": {
+      "1630": 2,
+      "696": 1
     },
     "86a6a1867fa2d8be6c2bdc3ef953642d0e8bf505bf7e160b1d917fa2de397e22": {
       "230": 1

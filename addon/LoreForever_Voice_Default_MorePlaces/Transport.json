@@ -3513,9 +3513,9 @@
     "subzone:grimesilt-dig-site": {
       "1": [
         {
-          "duration": 29.335510204081633,
-          "file": "Audio/Transport/full_subzone_grimesilt-dig-site-a05790fab1d07e607c38/1-0000.mp3",
-          "sha256": "e9a3cf17366030d9eab09987ed0ae752ff1ced2693a7078fe7f9a408e6945c8e",
+          "duration": 47.25551020408164,
+          "file": "Audio/Transport/full_subzone_grimesilt-dig-site-37576cb77f4457f86db0/1-0000.mp3",
+          "sha256": "8252af184cdfc7efdf82f9b1df2f95ef017b9aa88b02b733e47ff6b4db95611b",
           "start": 0
         }
       ],
@@ -3527,12 +3527,12 @@
         ]
       },
       "fullHash": "605551",
-      "generation": "de0aef62788d12f7e688",
+      "generation": "b5ecd24f9a5a2686ba9c",
       "hash": "605551",
       "source": {
-        "duration": 29.361633,
+        "duration": 47.281633,
         "file": null,
-        "sha256": "a05790fab1d07e607c383f0b5cabe7a3a949713d5c094b436422ee25c38ee121"
+        "sha256": "37576cb77f4457f86db06844802c52bcf85177319d20aa4d879292f4bc5025d2"
       },
       "text": "Grimesilt Dig Site. Dark Iron sentries patrol the Grimesilt Dig Site in the Searing Gorge. Ironforge's search for relics began here, and its surviving crew struggles to endure in hiding. Dark Iron sentries patrol the Grimesilt Dig Site in the Searing Gorge. Ironforge scholars first sent an expedition beneath the crags to seek relics. The native Dark Iron dwarves drove the excavators out and seized their equipment. Wounded and scattered, the original crew remains trapped in and around the pit."
     },
@@ -12626,6 +12626,15 @@
       1146,
       1319
     ],
+    "8252af184cdfc7efdf82f9b1df2f95ef017b9aa88b02b733e47ff6b4db95611b": [
+      160,
+      411,
+      579,
+      745,
+      954,
+      1294,
+      1537
+    ],
     "843ba346bc8c9d7623d5d84ba25cd90ba5fa3d8a77e7a1dad201f717053373cb": [
       244,
       517,
@@ -14372,13 +14381,6 @@
     "e931c6f6af1f5d0758adc7dab3dcf77e10cea57d6002be9a2248b5125f8fb812": [
       431
     ],
-    "e9a3cf17366030d9eab09987ed0ae752ff1ced2693a7078fe7f9a408e6945c8e": [
-      173,
-      425,
-      593,
-      772,
-      941
-    ],
     "e9b1e910afac13d2e4a7c7cc83a128f8c5638b90c695782eb90bd08097cbc46a": [
       240,
       582,
@@ -15444,6 +15446,9 @@
     "81ba4d9d99c75b99c06b3efe75bae2912ff9f83234b255bdfa1e97013b02c9c4": {
       "518": 1
     },
+    "8252af184cdfc7efdf82f9b1df2f95ef017b9aa88b02b733e47ff6b4db95611b": {
+      "160": 1
+    },
     "843ba346bc8c9d7623d5d84ba25cd90ba5fa3d8a77e7a1dad201f717053373cb": {
       "1865": 2,
       "517": 1
@@ -16030,9 +16035,6 @@
     },
     "e7f81158dbd57e1a6d46ae442d30761deef5b06c2ead097823461bad48997bc6": {
       "416": 1
-    },
-    "e9a3cf17366030d9eab09987ed0ae752ff1ced2693a7078fe7f9a408e6945c8e": {
-      "425": 1
     },
     "e9b1e910afac13d2e4a7c7cc83a128f8c5638b90c695782eb90bd08097cbc46a": {
       "1883": 2,

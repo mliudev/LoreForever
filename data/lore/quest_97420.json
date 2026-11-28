@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Knaz Blunderflame asks you to fetch crude oil from Venture Co. operations at Lake Nazferiti. He wants it to give his homemade racer an extra kick for the races in Thousand Needles.",
+ "summary": "Gnaz Blunderflame asks you to fetch crude oil from Venture Co. operations at Lake Nazferiti. He wants it to give his homemade racer an extra kick for the races in Thousand Needles.",
  "sections": [
   {
    "title": "Oil for the Racer",
-   "body": "Knaz Blunderflame has built a racer on his own, and he plans to take it to the races in Thousand Needles. He asks you to obtain crude oil from the Venture Co. operations at Lake Nazferiti to give it more power.",
+   "body": "Gnaz Blunderflame has built a racer on his own, and he plans to take it to the races in Thousand Needles. He asks you to obtain crude oil from the Venture Co. operations at Lake Nazferiti to give it more power.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "knaz blunderflame",
     "oil for racer"
    ],
-   "answer": "Knaz Blunderflame asks you to acquire crude oil for his homemade racer."
+   "answer": "Gnaz Blunderflame asks you to acquire crude oil for his homemade racer."
   },
   {
    "q": "Why does Knaz want the oil?",
@@ -36,7 +36,7 @@
     "racer oil",
     "what's the oil for"
    ],
-   "answer": "Knaz wants to give his racer an extra kick before taking it to the races in Thousand Needles."
+   "answer": "It is Gnaz Blunderflame who wants the oil, hoping to give his racer an extra kick for the races in Thousand Needles."
   },
   {
    "q": "Where is the crude oil?",
@@ -54,20 +54,19 @@
     "what's the baby",
     "racer"
    ],
-   "answer": "Knaz has designed and built a racer himself."
+   "answer": "It is Gnaz Blunderflame who designed and built a racer on his own."
   }
  ],
  "angles": [],
  "keywords": [
   "crude oil",
-  "knaz blunderflame",
+  "gnaz blunderflame",
   "lake nazferiti",
   "racer",
   "thousand needles",
   "venture co"
  ],
  "related": [
-  "quest:764",
   "zone:stranglethorn",
   "subzone:lake-nazferiti",
   "zone:thousandneedles",

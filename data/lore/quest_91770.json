@@ -1,0 +1,90 @@
+{
+ "key": "quest:91770",
+ "type": "quest",
+ "name": "Bark Bite",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91770
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A friend asks you to soothe Fraxinus, an old tree spirit burned in the wars. The poultice may ease his pain for a little while.",
+ "sections": [
+  {
+   "title": "Fraxinus's Wounds",
+   "body": "The poultice is meant for Fraxinus, whose bark is split and whose sap weeps. His friend says the old tree spirit was badly burned in the wars, and that his bark and limbs still hurt. You are asked to apply the medicine to his wounds.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Little Relief",
+   "body": "Fraxinus says the fel taint in Hyjal festers in his roots and bark. The poultice soothes his old wounds, and for a little while his weak roots and branches are without pain. He is willing to call you friend.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fraxinus?",
+   "aliases": [
+    "fraxinus who",
+    "fraxinus tree",
+    "who is the old tree"
+   ],
+   "answer": "Fraxinus is an old tree spirit who was burned in the wars and now suffers pain in his bark and limbs."
+  },
+  {
+   "q": "Why does Fraxinus hurt?",
+   "aliases": [
+    "fraxinus pain",
+    "why bark hurts",
+    "tree spirit wounds"
+   ],
+   "answer": "Fraxinus was badly burned in the wars, and he says fel taint in Hyjal festers in his roots and bark."
+  },
+  {
+   "q": "What does the poultice do?",
+   "aliases": [
+    "poultice for fraxinus",
+    "tree medicine",
+    "medicine help"
+   ],
+   "answer": "The poultice soothes Fraxinus's wounds and eases his pain for a little while."
+  },
+  {
+   "q": "Who asks you to help Fraxinus?",
+   "aliases": [
+    "who needs medicine",
+    "fraxinus friend",
+    "who made poultice"
+   ],
+   "answer": "A friend of Fraxinus makes the poultice from ingredients you brought and asks you to apply it to his wounds."
+  },
+  {
+   "q": "Does Fraxinus feel better?",
+   "aliases": [
+    "fraxinus better",
+    "did medicine work",
+    "bark bite ending"
+   ],
+   "answer": "The poultice soothes Fraxinus, leaving his roots and branches free of pain for a little while."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bark bite",
+  "burned",
+  "fel taint",
+  "fraxinus",
+  "hyjal",
+  "poultice",
+  "tree spirit",
+  "weeping sap"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bark Bite"
+ ]
+}

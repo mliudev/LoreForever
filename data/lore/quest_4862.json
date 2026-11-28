@@ -1,0 +1,61 @@
+{
+ "key": "quest:4862",
+ "type": "quest",
+ "name": "En-Ay-Es-Tee-Why",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4862
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kibler asks you to gather Spire Spider Eggs at Blackrock Spire. He needs fifteen, and the eggs are found near spiders.",
+ "sections": [
+  {
+   "title": "Near the Spiders",
+   "body": "The eggs are said to lie near spiders. At Blackrock Spire, Kibler asks you to bring him fifteen Spire Spider Eggs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Spire Spider Eggs?",
+   "aliases": [
+    "who is Kibler",
+    "Kibler eggs"
+   ],
+   "answer": "Kibler asks you to collect fifteen Spire Spider Eggs."
+  },
+  {
+   "q": "Where are the eggs?",
+   "aliases": [
+    "egg location",
+    "where spire eggs"
+   ],
+   "answer": "The eggs can be found near spiders at Blackrock Spire."
+  },
+  {
+   "q": "How many eggs does Kibler need?",
+   "aliases": [
+    "number of eggs",
+    "how many spire eggs"
+   ],
+   "answer": "Kibler asks for fifteen Spire Spider Eggs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock spire",
+  "en-ay-es-tee-why",
+  "kibler",
+  "spiders",
+  "spire spider eggs"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: En-Ay-Es-Tee-Why"
+ ]
+}

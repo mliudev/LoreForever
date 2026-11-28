@@ -8895,9 +8895,9 @@
     "quest:397": {
       "1": [
         {
-          "duration": 29.70122448979592,
-          "file": "Audio/Transport/full_quest_397-4dfd228ab214b11dfc69/1-0000.mp3",
-          "sha256": "afa07aef3d722824cfb227d423e841edf52d4c247fb00886941b63d9447ba040",
+          "duration": 39.57551020408163,
+          "file": "Audio/Transport/full_quest_397-aea234c29cf1e5c12982/1-0000.mp3",
+          "sha256": "78aee0062411dbab95d333a566a3e7d7457d1b7e17c5b2c1133ef38c6c96b29c",
           "start": 0
         }
       ],
@@ -8909,12 +8909,12 @@
         ]
       },
       "fullHash": "e14e06",
-      "generation": "1a1637f3498d9818531d",
+      "generation": "2bad3b5a8f7389d818a8",
       "hash": "e14e06",
       "source": {
-        "duration": 29.727347,
+        "duration": 39.601633,
         "file": null,
-        "sha256": "4dfd228ab214b11dfc6922a9f81e3966e96ea9e4c52c1a609d4dc141e1dfac35"
+        "sha256": "aea234c29cf1e5c12982d1a7da0e9b032dc57206bdaba3449f7698c6e5959e03"
       },
       "text": "You Have Served Us Well. Beneath the Slaughtered Lamb, Stormwind's warlocks have secured a refuge. They report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay. Beneath the Slaughtered Lamb, Stormwind's warlocks practice their dark arts, tolerated so far by the authorities. Lord Wishock threatens to expose their hidden studies or bring them to an end. So the coven gives him a tainted draught, and his death preserves their refuge beneath the inn."
     },
@@ -19063,6 +19063,12 @@
       1109,
       1323
     ],
+    "78aee0062411dbab95d333a566a3e7d7457d1b7e17c5b2c1133ef38c6c96b29c": [
+      201,
+      651,
+      1019,
+      1171
+    ],
     "79225ef10db3b3b982504b6e546f716448304ad0eeda5417d02489e1a1eb4aa5": [
       213,
       465,
@@ -20613,12 +20619,6 @@
     ],
     "af9e4561c7e1ed449760eea405f623d9992a4f61679923c0ec879a858252c08f": [
       503
-    ],
-    "afa07aef3d722824cfb227d423e841edf52d4c247fb00886941b63d9447ba040": [
-      198,
-      475,
-      660,
-      926
     ],
     "afdd77cbc56be6413b9ef50dfa0e907649501c506475363bda06f161916ecd61": [
       212,
@@ -23571,6 +23571,9 @@
     "7837c2433b9cdb5dadd60f7c19b5e61570742f49413a863642f900509444f418": {
       "598": 1
     },
+    "78aee0062411dbab95d333a566a3e7d7457d1b7e17c5b2c1133ef38c6c96b29c": {
+      "651": 1
+    },
     "79225ef10db3b3b982504b6e546f716448304ad0eeda5417d02489e1a1eb4aa5": {
       "465": 1
     },
@@ -24138,9 +24141,6 @@
     "af33917fc57ded403821703f5239f1710a9cdca7aace840ecf02861f3134975c": {
       "1533": 2,
       "614": 1
-    },
-    "afa07aef3d722824cfb227d423e841edf52d4c247fb00886941b63d9447ba040": {
-      "475": 1
     },
     "afdd77cbc56be6413b9ef50dfa0e907649501c506475363bda06f161916ecd61": {
       "1708": 2,

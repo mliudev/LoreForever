@@ -124,6 +124,7 @@ local turnedIn = {}  -- questID -> GetTime() it was turned in, this session: QUE
 -- The realm as GetNormalizedRealmName has it ("ClassicBetaPvE"), even when only GetRealmName answers ("Classic Beta PvE":
 -- early in a login, or on some clients): spaces and hyphens out. A key made from the other spelling split a character's
 -- heard narrations in two, so a story heard on 10/11 played again on 10/21 (Mike's 0.25.0 questing video).
+-- Forever clients can omit realm names; fall back to "Forever" rather than literal "?" there.
 function Journey.Realm()
   local realm = try(GetNormalizedRealmName)
   if type(realm) == "string" and realm ~= "" then return realm end
@@ -131,7 +132,11 @@ function Journey.Realm()
   if type(realm) == "string" and realm ~= "" then return (realm:gsub("[%s%-]", "")) end
   local getCvar = (_G.C_CVar and _G.C_CVar.GetCVar) or _G.GetCVar
   realm = getCvar and try(getCvar, "realmName")
-  return type(realm) == "string" and realm ~= "" and (realm:gsub("[%s%-]", "")) or "?"
+  if type(realm) == "string" and realm ~= "" then return (realm:gsub("[%s%-]", "")) end
+  if ns.Capture and ns.Capture.Game and ns.Capture.Game((try(GetBuildInfo))) == "forever" then
+    return "Forever"
+  end
+  return "?"
 end
 
 -- The character's own id from its GUID ("Player-4372-0A1B2C3D" -> "0A1B2C3D"), or nil before the game knows it.
@@ -153,7 +158,7 @@ local function sameCharacter(c, guid, id, realm)
   if type(c) ~= "table" then return false end
   local saved = type(c.identity) == "table" and c.identity.guid
   if type(saved) == "string" then return saved == guid end
-  return c.guid == id and c.realm == realm
+  return c.guid == id and (c.realm == realm or (c.realm == "?" and type(realm) == "string" and realm ~= ""))
 end
 
 -- A copy of a saved table, so a join is worked out apart from the record and lands all at once.
@@ -444,12 +449,21 @@ end
 -- spot on the map (Companion.Payload, LOR-664).
 Journey.Here = spot
 
+-- Highest positive level known between two sources, so a stale UnitLevel("player") on logout never overwrites
+-- char.level from PLAYER_LEVEL_UP while normal level growth never stalls either (LOR-1711).
+local function bestLevel(a, b)
+  local na, nb = tonumber(a), tonumber(b)
+  if na and na > 0 and nb and nb > 0 then return math.max(na, nb) end
+  if na and na > 0 then return na end
+  if nb and nb > 0 then return nb end
+end
+
 -- made: something the player crafted, never a find (Willo's big moments, Moments.lua).
 local function add(kind, fields, made)
   if not (char and Journey.On()) then return nil end
   local e = fields or {}
   e.k, e.t = kind, time()
-  e.lv = e.lv or try(UnitLevel, "player")
+  e.lv = e.lv or bestLevel(try(UnitLevel, "player"), char and char.level)
   -- at = false: no spot (Battle.lua writes a battle after you may have left it).
   if e.at == false then e.at = nil elseif kind ~= "logout" and kind ~= "sync" then e.at = e.at or spot() end
   if ns.HistoryArchive then e.archiveId = ns.HistoryArchive.Record((Journey.CharKey()), "event", e, e.t) end
@@ -844,7 +858,8 @@ local function open()
   if type(c.trail) ~= "table" then c.trail = nil end   -- made with the first point kept
   local info = ns.Context.Character()
   c.race, c.raceName, c.class, c.className = info.race, info.raceName, info.class, info.className
-  c.faction, c.sex, c.level = info.faction, info.sex, info.level
+  c.faction, c.sex = info.faction, info.sex
+  c.level = bestLevel(info.level, c.level) or info.level
   noteGuild(c)
   -- The server's list can come back empty this early: keep the saved one and ask again at the next quest log update.
   local ids = completedQuests()
@@ -3923,7 +3938,7 @@ local handlers = {
     end
   end,
   PLAYER_LEVEL_UP = function(lv)
-    char.level = lv
+    char.level = bestLevel(lv, char and char.level) or lv
     local z, s = here()
     add("lvl", { lv = lv, z = z, s = s })
   end,
@@ -3968,6 +3983,7 @@ local handlers = {
     noteGuild(char)
     if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
     if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit (Screen.lua, LOR-802)
+    if char then char.level = bestLevel(try(UnitLevel, "player"), char.level) or char.level end
     add("logout")
     -- Where they stand as the game saves, for Willo's place reminders (core._where_now, LOR-1094). Beside the events, not
     -- one of them: back in a place they know, nothing else says they're there, and an event would be read as a moment.

@@ -1,0 +1,87 @@
+{
+ "key": "quest:95316",
+ "type": "quest",
+ "name": "The Experimental Method",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95316
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A crow sends you to the nearby Ashen Reign encampment with pinecones mixed with fel-infused slime. The mixture is meant to damage their workstations and slow their work.",
+ "sections": [
+  {
+   "title": "At the Encampment",
+   "body": "A crow asks you to carry the pinecones and fel-infused slime to the nearby warlock encampment. There, you are to use them against the Ashen Reign workstations. The crow expects the damage to hinder the warlocks, while the land begins to heal.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blast",
+   "body": "The crow sees explosions from its position and says the work of the meddling mortals will be delayed for a while. It credits you with helping the land heal, and laughs in a string of strange caws.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives me this task?",
+   "aliases": [
+    "who asked me",
+    "crow task"
+   ],
+   "answer": "A crow gives you the pinecones mixed with fel-infused slime and directs you to the nearby warlock encampment."
+  },
+  {
+   "q": "What are the pinecones mixed with?",
+   "aliases": [
+    "pinecone mixture",
+    "what's in the pinecones"
+   ],
+   "answer": "They are mixed with fel-infused slime."
+  },
+  {
+   "q": "What am I supposed to damage?",
+   "aliases": [
+    "what do i break",
+    "ashen reign workstations"
+   ],
+   "answer": "The crow asks you to use the pinecones to destroy the Ashen Reign workstations."
+  },
+  {
+   "q": "Why damage the workstations?",
+   "aliases": [
+    "why wreck them",
+    "slow the warlocks"
+   ],
+   "answer": "The crow says the destruction should slow the Ashen Reign warlocks' work."
+  },
+  {
+   "q": "What does the crow say about the land?",
+   "aliases": [
+    "land healing",
+    "did i help the land"
+   ],
+   "answer": "The crow says the land will eventually heal and that you have helped start that process."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashen reign",
+  "crow",
+  "experimental method",
+  "fel-infused slime",
+  "pinecones",
+  "warlock encampment",
+  "workstations"
+ ],
+ "related": [
+  "quest:567",
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Experimental Method"
+ ]
+}

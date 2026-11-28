@@ -1310,7 +1310,7 @@ P.transport["quest:188"] = {
   fullHash = "f38c27",
   text = "Tiger Mastery. At Nesingwary's Expedition, Ajeck Rouack sends you after a tiger his hunters have tracked for weeks. Sin'Dall waits in northern Stranglethorn Vale, and her paw will prove the hunt is done. At Nesingwary's Expedition, Ajeck Rouack sends you on one last hunt after your earlier trials against Stranglethorn's tigers. His hunters have tracked Sin'Dall through the jungle for weeks. Find the elusive tiger, kill her, and bring back her paw as proof.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_188-06c36f5aed25b382d9a7/1-0000.mp3", duration = 27.7420408, start = 0},
+    {file = "Audio/Transport/full_quest_188-7a330ce8ab9685e328a6/1-0000.mp3", duration = 40.4897959, start = 0},
   },
 }
 P.transport["quest:189"] = {
@@ -1342,7 +1342,7 @@ P.transport["quest:193"] = {
   fullHash = "1d5a09",
   text = "Panther Mastery. At Nesingwary's Expedition, Sir S. J. Erlgadin sets one final trial for you. You have hunted panthers before, but the expedition's party has failed to find Bhag'thera. Bring back the predator's fang to prove your skill as a master of the hunt. At Nesingwary's Expedition, Sir S. J. Erlgadin sets one last test for you. Bhag'thera still prowls Stranglethorn Vale, beyond the expedition's party's reach. Track down the great panther and bring back its fang as proof of your skill.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_193-b294cf02d2c5bd8ee652/1-0000.mp3", duration = 32.5746939, start = 0},
+    {file = "Audio/Transport/full_quest_193-0add843558feb1e97b1f/1-0000.mp3", duration = 46.4979592, start = 0},
   },
 }
 P.transport["quest:194"] = {

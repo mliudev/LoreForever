@@ -328,9 +328,9 @@ def pack_fingerprint(pack: str, files: list[tuple[str, Path]], store: Path) -> s
     return from_sha256s({name: [current(path, name, stamp)] for name, path in files})
 
 
-def cmd_manifest(_args) -> int:
+def cmd_manifest(args) -> int:
     packs = {}
-    names = shipped_packs()
+    names = core_packs() if getattr(args, "core", False) else shipped_packs()
     check_transport(names)
     for pack in names:
         files = recordings(pack)
@@ -372,6 +372,12 @@ def gh(*args: str, check: bool = True) -> subprocess.CompletedProcess:
 
 def cmd_upload(args) -> int:
     packs = load_manifest()["packs"]
+    if getattr(args, "core", False):
+        core = set(core_packs())
+        missing = sorted(p for p in core if p not in packs)
+        if missing:
+            raise Failure(f"{MANIFEST.relative_to(ROOT)} missing core pack(s): {', '.join(missing)}")
+        packs = {k: v for k, v in packs.items() if k in core}
     target = getattr(args, "target", None) or os.environ.get("LORE_AUDIO_TARGET") or "r2"
     store = None
     if args.out:
@@ -710,8 +716,10 @@ def cmd_prune(args) -> int:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("manifest")
+    ma = sub.add_parser("manifest")
+    ma.add_argument("--core", action="store_true", help="only include voice packs bundled in the core zip (build-release.sh PACKS)")
     up = sub.add_parser("upload")
+    up.add_argument("--core", action="store_true", help="only upload voice packs bundled in the core zip (build-release.sh PACKS)")
     up.add_argument("--repo", default=REPO)
     up.add_argument("--target", choices=("r2", "github"), default=None,
                     help="upload destination (default: $LORE_AUDIO_TARGET or r2)")

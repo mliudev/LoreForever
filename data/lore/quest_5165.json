@@ -1,0 +1,77 @@
+{
+ "key": "quest:5165",
+ "type": "quest",
+ "name": "Dousing the Flames of Protection",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5165
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Greta Mosshoof asks you to use Purified Moon Well Water on the four braziers of protection in Shadow Hold, Felwood. Then return to her at the Emerald Sanctuary.",
+ "sections": [
+  {
+   "title": "At Shadow Hold",
+   "body": "Greta Mosshoof sends you from the Emerald Sanctuary to Shadow Hold in Felwood. The four braziers of protection are to be doused with Purified Moon Well Water before you return to her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Greta Mosshoof ask me to do?",
+   "aliases": [
+    "dousing flames quest",
+    "greta mosshoof braziers",
+    "shadow hold flames"
+   ],
+   "answer": "Greta Mosshoof asks you to douse the four braziers of protection in Shadow Hold with Purified Moon Well Water, then return to her at the Emerald Sanctuary."
+  },
+  {
+   "q": "Where are the braziers?",
+   "aliases": [
+    "where are flames",
+    "braziers location"
+   ],
+   "answer": "The four braziers of protection are within Shadow Hold in Felwood."
+  },
+  {
+   "q": "What do I use to douse them?",
+   "aliases": [
+    "purified water",
+    "what water for braziers"
+   ],
+   "answer": "Use Purified Moon Well Water to douse the four braziers of protection."
+  },
+  {
+   "q": "Where do I return afterward?",
+   "aliases": [
+    "where to go back",
+    "greta location"
+   ],
+   "answer": "Return to Greta Mosshoof at the Emerald Sanctuary."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "braziers of protection",
+  "dousing the flames of protection",
+  "emerald sanctuary",
+  "felwood",
+  "greta mosshoof",
+  "purified moon well water",
+  "shadow hold"
+ ],
+ "related": [
+  "subzone:shadow-hold",
+  "subzone:emerald-sanctuary",
+  "npc:greta-mosshoof",
+  "zone:felwood"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dousing the Flames of Protection"
+ ]
+}

@@ -2742,7 +2742,7 @@ P.transport["quest:397"] = {
   fullHash = "e14e06",
   text = "You Have Served Us Well. Beneath the Slaughtered Lamb, Stormwind's warlocks have secured a refuge. They report to Zardeth of the Black Claw, whose cabal has kept the city guard and curious nobles at bay. Beneath the Slaughtered Lamb, Stormwind's warlocks practice their dark arts, tolerated so far by the authorities. Lord Wishock threatens to expose their hidden studies or bring them to an end. So the coven gives him a tainted draught, and his death preserves their refuge beneath the inn.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_397-4dfd228ab214b11dfc69/1-0000.mp3", duration = 29.7012245, start = 0},
+    {file = "Audio/Transport/full_quest_397-aea234c29cf1e5c12982/1-0000.mp3", duration = 39.5755102, start = 0},
   },
 }
 P.transport["quest:401"] = {

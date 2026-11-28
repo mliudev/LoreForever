@@ -1,0 +1,94 @@
+{
+ "key": "quest:92612",
+ "type": "quest",
+ "name": "Aid from Moonglade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92612
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ketharas sends you to Nighthaven with a glowing branch for Dendrite Starblaze to examine. The branch's crystal draws in light, and its magic needs a closer look.",
+ "sections": [
+  {
+   "title": "A Branch for Dendrite",
+   "body": "Ketharas studies the branch and whispers a druidic incantation. Its glow strengthens, and the sickly green crystal draws in the light around it. The branch holds secrets beyond his skill, so he sends you to Nighthaven in Moonglade. There, Dendrite Starblaze can examine it.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dendrite's Finding",
+   "body": "Dendrite Starblaze studies the branch in Nighthaven. He recognizes druidic magic in it, but the crystal is tainted by fel magic. Ketharas's request has brought the branch to someone who can identify what lies within it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Ketharas send me to Nighthaven?",
+   "aliases": [
+    "why nighthaven",
+    "ketharas branch",
+    "branch help"
+   ],
+   "answer": "Ketharas cannot discern the branch's secrets, so he sends you to ask Dendrite Starblaze for help."
+  },
+  {
+   "q": "What happens to the branch when Ketharas studies it?",
+   "aliases": [
+    "glowing branch",
+    "branch glow",
+    "what did ketharas do"
+   ],
+   "answer": "Ketharas whispers a druidic incantation, and the branch glows brighter. Its sickly green crystal begins drawing in the surrounding light."
+  },
+  {
+   "q": "Who is Dendrite Starblaze?",
+   "aliases": [
+    "dendrite",
+    "starblaze",
+    "who is dendrite"
+   ],
+   "answer": "Dendrite Starblaze lives in Nighthaven in Moonglade, where Ketharas sends you to seek assistance."
+  },
+  {
+   "q": "What does Dendrite find in the crystal?",
+   "aliases": [
+    "crystal magic",
+    "fel crystal",
+    "what is wrong with branch"
+   ],
+   "answer": "Dendrite recognizes druidic magic in the branch, but says the crystal bears fel magic."
+  },
+  {
+   "q": "Why does Dendrite agree to help Ketharas?",
+   "aliases": [
+    "old friend note",
+    "why help ketharas",
+    "dendrite helps"
+   ],
+   "answer": "Dendrite says Ketharas would only ask him for help if the matter were urgent, despite Ketharas's stubborn pride."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dendrite starblaze",
+  "druidic magic",
+  "fel magic",
+  "glowing branch",
+  "green crystal",
+  "ketharas",
+  "moonglade",
+  "nighthaven"
+ ],
+ "related": [
+  "quest:5921",
+  "subzone:nighthaven",
+  "npc:dendrite-starblaze"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Aid from Moonglade"
+ ]
+}

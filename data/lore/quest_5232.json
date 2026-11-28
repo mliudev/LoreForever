@@ -1,0 +1,69 @@
+{
+ "key": "quest:5232",
+ "type": "quest",
+ "name": "Return to the Bulwark",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5232
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shadow Priestess Vandis at the Bulwark asks you to bring her a filled bottle from Dalson's Tears. The delivery connects that farmstead to the Forsaken presence in the Western Plaguelands.",
+ "sections": [
+  {
+   "title": "A Bottle for Vandis",
+   "body": "At the Bulwark in the Western Plaguelands, Shadow Priestess Vandis is waiting for you. You are to bring her the filled bottle from Dalson's Tears, carrying it from the farmstead back to the Forsaken outpost.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for the bottle?",
+   "aliases": [
+    "who wants it",
+    "Vandis bottle",
+    "shadow priestess"
+   ],
+   "answer": "Shadow Priestess Vandis at the Bulwark is waiting for the filled bottle from Dalson's Tears."
+  },
+  {
+   "q": "Where do I bring the bottle?",
+   "aliases": [
+    "where to take bottle",
+    "bulwark delivery",
+    "bottle location"
+   ],
+   "answer": "Bring the filled bottle to Shadow Priestess Vandis at the Bulwark in the Western Plaguelands."
+  },
+  {
+   "q": "Where is the bottle from?",
+   "aliases": [
+    "Dalson's Tears bottle",
+    "where from",
+    "filled bottle"
+   ],
+   "answer": "The filled bottle comes from Dalson's Tears."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bulwark",
+  "dalson's tears",
+  "filled bottle",
+  "return to the bulwark",
+  "shadow priestess vandis",
+  "western plaguelands"
+ ],
+ "related": [
+  "subzone:bulwark",
+  "zone:westernplaguelands",
+  "subzone:dalson-s-tears"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Return to the Bulwark"
+ ]
+}

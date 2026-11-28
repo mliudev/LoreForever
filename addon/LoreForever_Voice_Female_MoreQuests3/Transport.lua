@@ -1054,7 +1054,7 @@ P.transport["quest:1440"] = {
   fullHash = "a5d38a",
   text = "Return to Vahlarriel. At Thunder Axe Fortress, Dalinda Malem is ready to leave when you choose. She thanks you for helping her and her family. Escort her out, then find Vahlarriel Demonslayer. Dalinda Malem is ready to leave Thunder Axe Fortress when you judge the moment right. She thanks you for all you have done for her and her family, in case things do not go as hoped. Nothing else keeps her there. She will leave when you choose the time. Escort her out of the fortress, then find Vahlarriel Demonslayer in Desolace.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1440-1e19b9110348440458ea/1-0000.mp3", duration = 31.5820408, start = 0},
+    {file = "Audio/Transport/full_quest_1440-ba9db6fb284367760eaa/1-0000.mp3", duration = 44.1469388, start = 0},
   },
 }
 P.transport["quest:1444"] = {
@@ -1310,7 +1310,7 @@ P.transport["quest:188"] = {
   fullHash = "f38c27",
   text = "Tiger Mastery. At Nesingwary's Expedition, Ajeck Rouack sends you after a tiger his hunters have tracked for weeks. Sin'Dall waits in northern Stranglethorn Vale, and her paw will prove the hunt is done. At Nesingwary's Expedition, Ajeck Rouack sends you on one last hunt after your earlier trials against Stranglethorn's tigers. His hunters have tracked Sin'Dall through the jungle for weeks. Find the elusive tiger, kill her, and bring back her paw as proof.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_188-0751c4cf8b08716b588a/1-0000.mp3", duration = 27.7942857, start = 0},
+    {file = "Audio/Transport/full_quest_188-f61b7a72e13a3adcd280/1-0000.mp3", duration = 40.1502041, start = 0},
   },
 }
 P.transport["quest:189"] = {
@@ -3694,7 +3694,7 @@ P.transport["quest:639"] = {
   fullHash = "9fc26a",
   text = "Sigil of Strom. At Hammerfall, Zengu seeks the sigils that guard Trol'kalar, Lord Ignaeus Trollbane's sword. The Syndicate took the Sigil of Strom, and one of its agents in Stromgarde likely carries it. Long ago, Lord Ignaeus of Strom, called Trollbane, was the Arathorian Empire's ablest foe in its war against the trolls. He wielded Trol'kalar in battle. In the trolls' old tongue, its name means troll slayer. Now Trollbane's sons are weakened, and their stronghold lies in ruins. Several sigils guard Trol'kalar, and Stromgarde's survivors each took some. Zengu says they must all be recovered. The Syndicate seized the first, the Sigil of Strom. Zengu believes one of its agents in Stromgarde holds it. Bring the sigil back to Zengu at Hammerfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_639-a14b9e355c55f731b88a/1-0000.mp3", duration = 51.9836735, start = 0},
+    {file = "Audio/Transport/full_quest_639-db60d3174979f44d44df/1-0000.mp3", duration = 64.9142857, start = 0},
   },
 }
 P.transport["quest:640"] = {

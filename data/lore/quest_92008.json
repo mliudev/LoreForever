@@ -1,0 +1,97 @@
+{
+ "key": "quest:92008",
+ "type": "quest",
+ "name": "Premiere Parts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92008
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kaylaena Springbolt needs an order of engineering parts brought from Nami in Everlook. You are asked to make the winter run to collect it.",
+ "sections": [
+  {
+   "title": "Parts for Kaylaena",
+   "body": "Kaylaena Springbolt has trouble getting parts and building materials to her workshop. She asks you to retrieve her waiting order from Nami in Everlook.",
+   "spoiler": 0
+  },
+  {
+   "title": "Nami's Question",
+   "body": "Nami has Kaylaena's order ready and wonders what the gnome is making. Kaylaena is trying to create a trinket to protect herself from rogues in duels.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to get the parts?",
+   "aliases": [
+    "who wants the parts",
+    "parts for kaylaena"
+   ],
+   "answer": "Kaylaena Springbolt asks you to collect her parts order from Nami in Everlook."
+  },
+  {
+   "q": "Where do I get Kaylaena's order?",
+   "aliases": [
+    "where is nami",
+    "parts order location"
+   ],
+   "answer": "Nami in Everlook has Kaylaena Springbolt's parts order."
+  },
+  {
+   "q": "Why does Kaylaena need the parts?",
+   "aliases": [
+    "what are the parts for",
+    "engineering materials"
+   ],
+   "answer": "Kaylaena has difficulty getting parts and general building materials to her workshop."
+  },
+  {
+   "q": "What is Kaylaena making?",
+   "aliases": [
+    "kaylaena trinket",
+    "what is she building"
+   ],
+   "answer": "Nami wonders whether Kaylaena is still trying to make a trinket to defend against rogues in duels."
+  },
+  {
+   "q": "Who is Nami?",
+   "aliases": [
+    "nami everlook",
+    "who has the order"
+   ],
+   "answer": "Nami in Everlook is holding Kaylaena Springbolt's parts order."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you are asked to collect parts and building materials for Kaylaena's workshop."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "Nami mentions Kaylaena's attempt to make a trinket for duels against rogues."
+  }
+ ],
+ "keywords": [
+  "duels",
+  "engineering parts",
+  "everlook",
+  "kaylaena springbolt",
+  "nami",
+  "premiere parts",
+  "rogues",
+  "trinket"
+ ],
+ "related": [
+  "subzone:everlook",
+  "topic:rogue"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Premiere Parts"
+ ]
+}

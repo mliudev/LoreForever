@@ -166,7 +166,16 @@ local function widgets(name, items, box, extra)
   local bad = {}
   for _, it in ipairs(items) do
     local why = problem(it[2], not it[4] and box or nil)
-    if not why and it[3] and not textOf(it[2]):find("%S") then why = "no label" end
+    if not why and it[3] == "ribbon" then
+      local w = it[2]
+      if type(w.label) ~= "string" or not w.label:find("%S") then
+        why = "no label"
+      elseif not (w.icon and w.icon.GetTexture and w.icon:GetTexture()) then
+        why = "no icon"
+      end
+    elseif not why and it[3] and not textOf(it[2]):find("%S") then
+      why = "no label"
+    end
     if why then bad[#bad + 1] = it[1] .. ": " .. why end
   end
   for _, why in ipairs(extra or {}) do bad[#bad + 1] = why end
@@ -464,8 +473,8 @@ check("panel", {
     c.box = rect(f)
     expect("panel opens on screen", not why, why or (c.box and ("at " .. fmt(c.box)) or "shown"))
     local parts = {
-      { "Here tab", UI.tabs[1], true }, { "Found tab", UI.tabs[2], true }, { "New chat", UI.newButton, true },
-      { "Road tab", UI.tabs[3], true }, { "Storylines tab", UI.tabs[4], true },
+      { "Here tab", UI.tabs[1], "ribbon" }, { "Found tab", UI.tabs[2], "ribbon" }, { "New chat", UI.newButton, true },
+      { "Road tab", UI.tabs[3], "ribbon" }, { "Storylines tab", UI.tabs[4], "ribbon" },
       { "History", UI.historyButton, true }, { "where you are", UI.contextLine, true },
       { "conversation", UI.scroll }, { "message box", UI.input }, { "player", UI.dock },
       { "player's Play", UI.dock and UI.dock.play }, { "player's Queue", UI.dock and UI.dock.queue, true },
@@ -958,7 +967,7 @@ local function pauseResume(name, story, what)
           end
           local first = index and row.rates[1][index]
           if first and (not best or first.duration < best.first.duration) then
-            best = { key = key, pack = pack, first = first, index = index }
+            best = { key = key, pack = pack, first = first, index = index, from = from }
           end
         end
       end
@@ -968,16 +977,24 @@ local function pauseResume(name, story, what)
       end
       if UI.IsBusy() then UI.StopAll() end
       c.key, c.target = best.key, targetOf(best.key)
+      -- Test the segmented Transport handoff directly without playing a separate #title prelude clip first.
+      c.target.title = nil
       c.saved, c.resume = UI.progress[best.key], UI.resumeTarget
       UI.progress[best.key] = nil
       UI.ListenTo(c.target)
       local t = V.transport
-      local ok = UI.speaking and t and t.row.chain and t.index == best.index
+      local leadHead = t and t.parts[t.index] and t.parts[t.index].heading and t.parts[t.index].start == best.from
+      local storyIdx = t and (leadHead and t.index + 1 or t.index)
+      local storyPart = storyIdx and t.parts[storyIdx]
+      local ok = UI.speaking and t and t.row.chain and storyPart and storyPart.start == best.from
+        and not storyPart.heading and storyIdx < #t.parts
       expect(name .. ": " .. what .. " in pieces plays", ok and true or false, string.format("%s from %s: %s",
-        best.key, best.pack, ok and string.format("piece %d of %d (%.1f s)", t.index, #t.parts, t.parts[t.index].duration)
+        best.key, best.pack, ok and string.format("piece %d of %d (%.1f s)", storyIdx, #t.parts, storyPart.duration)
           or "didn't start in pieces where it should"))
       if not ok then return false end
-      c.at, c.first, c.index = GetTime(), t.parts[t.index].duration, t.index
+      c.at = GetTime()
+      c.first = (leadHead and t.parts[t.index].duration or 0) + storyPart.duration
+      c.index = storyIdx
       return c.first + 0.5
     end,
     function(c)

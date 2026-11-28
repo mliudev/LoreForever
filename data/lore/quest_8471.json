@@ -1,0 +1,86 @@
+{
+ "key": "quest:8471",
+ "type": "quest",
+ "name": "Winterfall Ritual Totem",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8471
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Timbermaw ask you to bring them a Winterfall Ritual Totem for study. Its condition may hold a clue to the conflict between the Winterfall and Timbermaw furbolgs.",
+ "sections": [
+  {
+   "title": "A Furbolg Audience",
+   "body": "The Timbermaw in Timbermaw Hold will hear you only if they regard you as at least neutral. You bring them a Winterfall Ritual Totem and ask whether they can use it. They receive you peacefully, yet sense the matter is grave for both furbolgs and your people.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Totem's Taint",
+   "body": "The Timbermaw identify the object as a Winterfall Ritual Totem, twisted by forces beyond their understanding. They sense in it the same taint that has set the Winterfall against them. They will study it, hoping the Winterfall's rage may one day cease.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do the Timbermaw want with the totem?",
+   "aliases": [
+    "why give them the totem",
+    "totem for timbermaw"
+   ],
+   "answer": "They intend to study the twisted Winterfall Ritual Totem and hope to understand the taint behind the Winterfall's hostility."
+  },
+  {
+   "q": "Why are the Winterfall against the Timbermaw?",
+   "aliases": [
+    "why winterfall mad",
+    "winterfall timbermaw conflict"
+   ],
+   "answer": "The Timbermaw sense a taint in the totem that has set the Winterfall against them."
+  },
+  {
+   "q": "What is wrong with the Winterfall Ritual Totem?",
+   "aliases": [
+    "totem tainted",
+    "what happened to totem"
+   ],
+   "answer": "The Timbermaw find it twisted by forces they cannot comprehend and sense in it the taint tied to the Winterfall's hostility."
+  },
+  {
+   "q": "Where do I take the totem?",
+   "aliases": [
+    "where is timbermaw",
+    "totem location"
+   ],
+   "answer": "Take it to the Timbermaw inside Timbermaw Hold."
+  },
+  {
+   "q": "What standing do the Timbermaw require?",
+   "aliases": [
+    "timbermaw reputation needed",
+    "how to speak with timbermaw"
+   ],
+   "answer": "The Timbermaw will speak with you only when they regard you as neutral or better."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "furbolg",
+  "taint",
+  "timbermaw",
+  "timbermaw hold",
+  "winterfall",
+  "winterfall ritual totem"
+ ],
+ "related": [
+  "subzone:timbermaw-hold",
+  "topic:furbolg"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Winterfall Ritual Totem"
+ ]
+}

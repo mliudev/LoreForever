@@ -582,7 +582,7 @@ P.transport["npc:christoph-jeffcoat"] = {
   fullHash = "fc7d01",
   text = "Christoph Jeffcoat. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken with goods for trade and travel. His wares serve crafters and travelers in Hillsbrad Foothills, where the Alliance and the Syndicate contest the land. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken stronghold with what its people need. He sells reagents, tools, threads, and spices to soldiers and traveling artisans. Among his goods are spices for turtle bisque, rare schematics, and alchemical vials. Horde forces crossing southern Lordaeron rely on such supplies as they face Southshore and the region's dangers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_christoph-jeffcoat-5da489f5aaf54bf436b0/1-0000.mp3", duration = 37.1722449, start = 0},
+    {file = "Audio/Transport/full_npc_christoph-jeffcoat-bd63ff8bd81c8ff0d7fc/1-0000.mp3", duration = 49.6326531, start = 0},
   },
 }
 P.transport["npc:chronormu"] = {

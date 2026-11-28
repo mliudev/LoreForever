@@ -1,0 +1,72 @@
+{
+ "key": "quest:91754",
+ "type": "quest",
+ "name": "Rub Some Dirt In It",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91754
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A worried companion asks you to gather untainted soil near Mount Hyjal. The soil will be mixed into poultices for Fraxinus, who is sick.",
+ "sections": [
+  {
+   "title": "Soil for Fraxinus",
+   "body": "Near Mount Hyjal, a companion is tending to a sick friend named Fraxinus. You are asked to gather untainted soil so poultices can be made to help him feel better. The soil gathers beneath shaded trees on the valley\u2019s south side, where rainwater runs down the slopes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sick?",
+   "aliases": [
+    "fraxinus sick",
+    "who needs help"
+   ],
+   "answer": "Fraxinus, the companion\u2019s friend, is sick."
+  },
+  {
+   "q": "What does the companion need?",
+   "aliases": [
+    "what do they need",
+    "soil request"
+   ],
+   "answer": "The companion needs untainted soil to make poultices for Fraxinus."
+  },
+  {
+   "q": "Where can I find the soil?",
+   "aliases": [
+    "soil location",
+    "where is untainted soil"
+   ],
+   "answer": "The soil collects beneath shaded trees on the south side of the valley near Mount Hyjal."
+  },
+  {
+   "q": "What will the soil be used for?",
+   "aliases": [
+    "why collect soil",
+    "poultice dirt"
+   ],
+   "answer": "The companion plans to mix the soil into poultices to help Fraxinus feel better."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fraxinus",
+  "mount hyjal",
+  "poultice",
+  "rub some dirt in it",
+  "sick friend",
+  "untainted soil"
+ ],
+ "related": [
+  "zone:hyjal"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rub Some Dirt In It"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "key": "quest:4283",
+ "type": "quest",
+ "name": "FIFTY! YEP!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4283
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Oralius asks you to bring him fifty Blackrock Medallions. He believes the orcs in the Burning Steppes are likely to have them.",
+ "sections": [
+  {
+   "title": "Oralius's Request",
+   "body": "Oralius seeks fifty Blackrock Medallions, and the orcs in the Burning Steppes are the likely source. You are asked to gather the medallions for him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Oralius want?",
+   "aliases": [
+    "what Oralius need",
+    "oralius medallions",
+    "fifty medallions"
+   ],
+   "answer": "Oralius wants fifty Blackrock Medallions."
+  },
+  {
+   "q": "Where can I find Blackrock Medallions?",
+   "aliases": [
+    "medallions where",
+    "blackrock medallions",
+    "where to get them"
+   ],
+   "answer": "Orcs in the Burning Steppes are likely to have Blackrock Medallions."
+  },
+  {
+   "q": "Who is asking for the medallions?",
+   "aliases": [
+    "who wants these",
+    "oralius who",
+    "medallion request"
+   ],
+   "answer": "Oralius is asking for fifty Blackrock Medallions."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blackrock medallions",
+  "burning steppes",
+  "fifty",
+  "oralius",
+  "orcs"
+ ],
+ "related": [
+  "zone:burningsteppes"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: FIFTY! YEP!"
+ ]
+}

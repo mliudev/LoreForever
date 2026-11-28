@@ -1,0 +1,74 @@
+{
+ "key": "quest:3701",
+ "type": "quest",
+ "name": "The Smoldering Ruins of Thaurissan",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3701
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Royal Historian Archesonus asks you to recover information from Thaurissan Relics in the Burning Steppes. What they hold is sought from the Ruins of Thaurissan.",
+ "sections": [
+  {
+   "title": "Relics in the Ruins",
+   "body": "The Burning Steppes hold the Ruins of Thaurissan, where Thaurissan Relics contain information Royal Historian Archesonus seeks. You are asked to recover that information and return to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to go to the ruins?",
+   "aliases": [
+    "who sent me",
+    "archesonus quest"
+   ],
+   "answer": "Royal Historian Archesonus asks you to recover information from Thaurissan Relics."
+  },
+  {
+   "q": "Where are the Thaurissan Relics?",
+   "aliases": [
+    "where relics",
+    "ruins location"
+   ],
+   "answer": "The Thaurissan Relics are in the Ruins of Thaurissan in the Burning Steppes."
+  },
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "what to find",
+    "relic info"
+   ],
+   "answer": "You are asked to recover information from the Thaurissan Relics."
+  },
+  {
+   "q": "Where do I return?",
+   "aliases": [
+    "return to who",
+    "who gets info"
+   ],
+   "answer": "Return to Royal Historian Archesonus after recovering the information."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning steppes",
+  "royal historian archesonus",
+  "ruins of thaurissan",
+  "smoldering ruins",
+  "thaurissan",
+  "thaurissan relics"
+ ],
+ "related": [
+  "subzone:ruins-of-thaurissan",
+  "zone:burningsteppes",
+  "npc:royal-historian-archesonus"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Smoldering Ruins of Thaurissan"
+ ]
+}

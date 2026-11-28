@@ -4006,7 +4006,7 @@ P.transport["quest:92693"] = {
   fullHash = "5d4d38",
   text = "Standing Our Ground. Aamelia Windfield gives you one last chance to retreat to Valanaar before the bandits close in. You have helped the local defenders prepare, yet the coming fight still seems doomed. Aamelia Windfield gives you one last chance to return safely to Valanaar. You have helped the local defenders prepare for the bandits, but the fight ahead looks grim. Will you stand with them, or leave before the clash?",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92693-02dfdb7839dec0287f98/1-0000.mp3", duration = 23.7453061, start = 0},
+    {file = "Audio/Transport/full_quest_92693-cb265b25f095f214de3e/1-0000.mp3", duration = 37.3289796, start = 0},
   },
 }
 P.transport["quest:92698"] = {
@@ -5278,7 +5278,7 @@ P.transport["quest:97921"] = {
   fullHash = "d6fb39",
   text = "Camping 101: Herbalism. In Elwynn Forest, Herbalist Pomeroy teaches skilled gatherers a new comfort for camp. They learn to make Incense Candles, whose fragrance lifts the spirits of spellcasters resting in the wild. A herbalist's craft can help a traveling party in more ways than brewing restorative draughts or selling flowers. With skill in gathering, you can help your companions endure the wilds. A camp needs more than a fire and dry bedroll. Weary travelers also need comforts that keep their minds keen. Some plants give off aromas that refresh tired minds, so herbalists can support a party far from civilization. In Elwynn Forest, Herbalist Pomeroy teaches skilled gatherers to make campsite supplies from local plants. She shows them how to shape an Incense Candle, putting herbs to use beyond alchemy flasks. Burned at camp, its fragrance soothes tired travelers and lifts the spirits of companions who rely on mana. With Pomeroy's teaching, herbalists can bring comfort to parties traveling in the wild.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97921-a27d2e0dce2a1b59e3a6/1-0000.mp3", duration = 60.395102, start = 0},
+    {file = "Audio/Transport/full_quest_97921-882f9acf6bb16328f6ae/1-0000.mp3", duration = 78.7330612, start = 0},
   },
 }
 P.transport["quest:97922"] = {

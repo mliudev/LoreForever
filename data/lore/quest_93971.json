@@ -1,0 +1,86 @@
+{
+ "key": "quest:93971",
+ "type": "quest",
+ "name": "Farholde Scouting Report",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93971
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krom'rosh at Rog'mar wants a sealed report from Farholde. It may hold news of human activity and a growing cultist threat.",
+ "sections": [
+  {
+   "title": "A Sealed Report",
+   "body": "At Rog'mar, Krom'rosh receives the report bearing Farholde's sigil. Its contents mention increased patrols to the west and reinforcements against a growing cultist threat. Krom'rosh says you have done well, and the Horde has word of those movements.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Krom'rosh?",
+   "aliases": [
+    "kromrosh",
+    "who wants the report",
+    "rog'mar orc"
+   ],
+   "answer": "Krom'rosh is at Rog'mar and receives the sealed report from Farholde."
+  },
+  {
+   "q": "What is in the Farholde report?",
+   "aliases": [
+    "report contents",
+    "what's in report",
+    "farholde intel"
+   ],
+   "answer": "The report mentions increased patrols to the west and reinforcements against a growing cultist threat."
+  },
+  {
+   "q": "Who is the report for?",
+   "aliases": [
+    "deliver report to who",
+    "report recipient",
+    "where does report go"
+   ],
+   "answer": "The report is intended for Krom'rosh at Rog'mar."
+  },
+  {
+   "q": "What does the report say about the west?",
+   "aliases": [
+    "west patrols",
+    "patrol report",
+    "reinforcements"
+   ],
+   "answer": "It mentions increased patrols to the west and reinforcements against a growing cultist threat."
+  },
+  {
+   "q": "What does Krom'rosh think of the humans?",
+   "aliases": [
+    "kromrosh on humans",
+    "human swine",
+    "does kromrosh hate humans"
+   ],
+   "answer": "Krom'rosh calls the humans swine who think they own these lands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cultists",
+  "farholde",
+  "krom'rosh",
+  "patrols",
+  "reinforcements",
+  "rog'mar",
+  "scouting report"
+ ],
+ "related": [
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Farholde Scouting Report"
+ ]
+}

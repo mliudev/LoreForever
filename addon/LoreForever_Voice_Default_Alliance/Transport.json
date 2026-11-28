@@ -445,9 +445,9 @@
     "npc:collin-mauren": {
       "1": [
         {
-          "duration": 74.00489795918368,
-          "file": "Audio/Transport/full_npc_collin-mauren-ccee1804e939205f1cdf/1-0000.mp3",
-          "sha256": "d2a44db34283b00538e0fdc5388df98f29c7fdb9a8637ec421620c0399b3d99a",
+          "duration": 102.16489795918368,
+          "file": "Audio/Transport/full_npc_collin-mauren-e29f2e9c79affbf8a35e/1-0000.mp3",
+          "sha256": "c9e64d29f1b5429b2de8a7e665f387fbe9cddfe062fc2a9afa7924f13ad3fdc2",
           "start": 0
         }
       ],
@@ -459,12 +459,12 @@
         ]
       },
       "fullHash": "703b85",
-      "generation": "69f651d89ce80ea48721",
+      "generation": "0d0d457b05d0efb1d0e6",
       "hash": "c0384b",
       "source": {
-        "duration": 74.03102,
+        "duration": 102.19102,
         "file": null,
-        "sha256": "ccee1804e939205f1cdf4ffb5881975582d948f62d1a00a03464ef1b50978ff9"
+        "sha256": "e29f2e9c79affbf8a35ecb23c0625cb6da1a8279ad35af90dcda8925d8fec91d"
       },
       "text": "Collin Mauren. In Stormwind's Mage Quarter, Collin Mauren studies practical magic and shapes useful spells from natural reagents. He also makes arcane scrolls for Gaxim Rustfizzle, his gnome friend and fellow explorer. In Stormwind's Mage Quarter, Collin Mauren studies how magic can solve practical problems. He shapes arcane formulas with natural anomalies and raw components gathered across Azeroth. Their properties help him make useful scrolls and reagents for friends and travelers. Collin Mauren is helping his friend Gaxim Rustfizzle set off NG-5 explosives from afar. Gaxim, a gnome tinkerer, needed a remote trigger, so Collin devised a messaging spell for a scroll. To impress the spell upon it, Collin uses debris from Westfall's erratic Dust Devils. Now he awaits word on how Gaxim's scheme fares. Collin Mauren's studies reach from Stormwind across the Great Sea to Kalimdor's Stonetalon Mountains. He seeks scales from the region's basilisks, whose resilient hides interest him as materials for new spells. Travelers bound for Kalimdor often receive his requests for these rare hides. The scales help him study how primal creature anatomy can steady complex enchantments."
     },
@@ -2031,9 +2031,9 @@
     "npc:sprite-jumpsprocket": {
       "1": [
         {
-          "duration": 52.92408163265306,
-          "file": "Audio/Transport/full_npc_sprite-jumpsprocket-a3c03e5b6ae45af8120d/1-0000.mp3",
-          "sha256": "28b3d47ed32b6d735f8d39b55431219d1d4b6b77c6fa260fce9d1808c2d5369b",
+          "duration": 72.25469387755102,
+          "file": "Audio/Transport/full_npc_sprite-jumpsprocket-cbfa330e0cab9cdcc670/1-0000.mp3",
+          "sha256": "05862cbb8a194a07b1e742470a15ec35579b5bf0c3ef2f820716a38639368398",
           "start": 0
         }
       ],
@@ -2045,12 +2045,12 @@
         ]
       },
       "fullHash": "db0599",
-      "generation": "92c06848f6f962bcf4f6",
+      "generation": "9c0a5fe0bca6437fb9f4",
       "hash": "e8f25f",
       "source": {
-        "duration": 52.950204,
+        "duration": 72.280816,
         "file": null,
-        "sha256": "a3c03e5b6ae45af8120d02358097f78bfc63b16cbbffa71de8ce68be2188d312"
+        "sha256": "cbfa330e0cab9cdcc6705ac48629ccf75c2a96170a4d66927ea04de949f2eed4"
       },
       "text": "Sprite Jumpsprocket. In Stormwind's Dwarven District, Sprite Jumpsprocket works beside gnomish and dwarven artisans. Like many gnomes who sought refuge after Gnomeregan fell, she learns engineering among fellow tinkers. In Stormwind's Dwarven District, Sprite Jumpsprocket trains as an apprentice engineer. Gnomes and dwarves work side by side there, forging metal and shaping intricate devices. The capital gives apprentice tinkers room to learn from experienced masters. Their work keeps the Alliance's everyday mechanisms and marvels in good order. After Gnomeregan fell, displaced gnomes carried their skills in tinkering, chemistry, and mechanics across Alliance lands. In Stormwind, the Dwarven District offered them a welcome refuge, with blast furnaces and workbenches at hand. Sprite Jumpsprocket shares their resolve to master engineering despite the hardships her kin have faced."
     },
@@ -10039,6 +10039,19 @@
       1576,
       1775
     ],
+    "05862cbb8a194a07b1e742470a15ec35579b5bf0c3ef2f820716a38639368398": [
+      223,
+      433,
+      605,
+      756,
+      1030,
+      1172,
+      1317,
+      1531,
+      1758,
+      2150,
+      2462
+    ],
     "061a6dc55cd35c3d979c9351eb3bb312bb97f11810d2c65a05e3fdfd1c29a481": [
       314,
       577,
@@ -10495,16 +10508,6 @@
       1642,
       1841,
       2019
-    ],
-    "28b3d47ed32b6d735f8d39b55431219d1d4b6b77c6fa260fce9d1808c2d5369b": [
-      237,
-      493,
-      697,
-      913,
-      1076,
-      1256,
-      1547,
-      1808
     ],
     "29a9b5763688db84757c68feae18a83c4820098594701f06137f0220796b1225": [
       204,
@@ -12801,6 +12804,26 @@
       2122,
       2339
     ],
+    "c9e64d29f1b5429b2de8a7e665f387fbe9cddfe062fc2a9afa7924f13ad3fdc2": [
+      172,
+      458,
+      623,
+      760,
+      1067,
+      1347,
+      1481,
+      1624,
+      1816,
+      1978,
+      2157,
+      2311,
+      2519,
+      2763,
+      2961,
+      3216,
+      3418,
+      3638
+    ],
     "ca7bc01e33188a073e66a37ca9ec5dd8760604df260716e974ef3e56062988c8": [
       272,
       458,
@@ -12911,20 +12934,6 @@
       724,
       987,
       1126
-    ],
-    "d2a44db34283b00538e0fdc5388df98f29c7fdb9a8637ec421620c0399b3d99a": [
-      277,
-      505,
-      739,
-      950,
-      1134,
-      1372,
-      1631,
-      1828,
-      1984,
-      2200,
-      2464,
-      2637
     ],
     "d690817dfac448edf76cfd70023a700f5f6d5de99ee9c891655fa655beab404e": [
       247,
@@ -13501,6 +13510,10 @@
       "1313": 2,
       "506": 1
     },
+    "05862cbb8a194a07b1e742470a15ec35579b5bf0c3ef2f820716a38639368398": {
+      "1758": 2,
+      "756": 1
+    },
     "061a6dc55cd35c3d979c9351eb3bb312bb97f11810d2c65a05e3fdfd1c29a481": {
       "577": 1
     },
@@ -13683,10 +13696,6 @@
     "250202eddf7537371b48fa6cbea37bb35f8633c283e0d019c2133c647ff7592d": {
       "1642": 2,
       "650": 1
-    },
-    "28b3d47ed32b6d735f8d39b55431219d1d4b6b77c6fa260fce9d1808c2d5369b": {
-      "1256": 2,
-      "493": 1
     },
     "29a9b5763688db84757c68feae18a83c4820098594701f06137f0220796b1225": {
       "1045": 2,
@@ -14555,6 +14564,11 @@
       "1556": 2,
       "514": 1
     },
+    "c9e64d29f1b5429b2de8a7e665f387fbe9cddfe062fc2a9afa7924f13ad3fdc2": {
+      "1624": 2,
+      "2763": 3,
+      "760": 1
+    },
     "ca7bc01e33188a073e66a37ca9ec5dd8760604df260716e974ef3e56062988c8": {
       "1234": 2,
       "458": 1
@@ -14597,11 +14611,6 @@
     },
     "d24d8b3eeffdcb4e0827ce9ed37aaf901cc594517a86740b3e6f63974d6fd4da": {
       "724": 1
-    },
-    "d2a44db34283b00538e0fdc5388df98f29c7fdb9a8637ec421620c0399b3d99a": {
-      "1134": 2,
-      "1984": 3,
-      "505": 1
     },
     "d690817dfac448edf76cfd70023a700f5f6d5de99ee9c891655fa655beab404e": {
       "1575": 2,

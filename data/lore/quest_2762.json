@@ -1,0 +1,61 @@
+{
+ "key": "quest:2762",
+ "type": "quest",
+ "name": "The Great Silver Deceiver",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2762
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Galvan the Ancient in Stranglethorn asks you to bring him Mithril Bars and Truesilver Bars. The request centers on a deceiver whose name promises more than the details here reveal.",
+ "sections": [
+  {
+   "title": "A Request in Stranglethorn",
+   "body": "Galvan the Ancient asks for metal in Stranglethorn. You are to bring him forty Mithril Bars and five Truesilver Bars; the request names a great silver deceiver, but gives no further account of it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the bars?",
+   "aliases": [
+    "who is Galvan",
+    "Galvan the Ancient"
+   ],
+   "answer": "Galvan the Ancient asks you to bring the bars in Stranglethorn."
+  },
+  {
+   "q": "What does Galvan want?",
+   "aliases": [
+    "what bars",
+    "Galvan bars"
+   ],
+   "answer": "Galvan asks for forty Mithril Bars and five Truesilver Bars."
+  },
+  {
+   "q": "Where do I bring the bars?",
+   "aliases": [
+    "where is Galvan",
+    "bars location"
+   ],
+   "answer": "Bring the bars to Galvan the Ancient in Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "galvan the ancient",
+  "mithril bars",
+  "stranglethorn",
+  "the great silver deceiver",
+  "truesilver bars"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Silver Deceiver"
+ ]
+}

@@ -2126,7 +2126,7 @@ P.transport["item:ghost-hair-thread"] = {
   fullHash = "439244",
   text = "Ghost Hair Thread. In Darkshire, Madame Eva spins Ghost Hair Thread from the spirit world. Its occult power can bind spirits or stitch life into inanimate things, and Abercrombie asks for it to ward his shack against restless ghosts. In Darkshire, Madame Eva spins Ghost Hair Thread, a spectral strand with strange powers. Eva says it can bind malevolent spirits or stitch vitality into inanimate objects. In Duskwood, people use it in rituals and wards.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ghost-hair-thread-605ab37bf8d02e897791/1-0000.mp3", duration = 28.7085714, start = 0},
+    {file = "Audio/Transport/full_item_ghost-hair-thread-0d3634be626bb16fe339/1-0000.mp3", duration = 43.5722449, start = 0},
   },
 }
 P.transport["item:ghoul-fang"] = {
@@ -4110,7 +4110,7 @@ P.transport["item:rot-hide-ichor"] = {
   fullHash = "a608b0",
   text = "Rot Hide Ichor. At the Sepulcher, Apothecary Renferrel gathers Rot Hide Ichor for the Royal Apothecary Society. They hope it will show what corrupted the gnolls and how to oppose them. On Fenris Isle, the Rot Hide gnolls are twisted by an unnatural blight. Their bodies decay, yet a noxious ichor runs through their veins and sustains their animated flesh. The Royal Apothecary Society hopes the fluid will reveal what corrupted the pack and who commands them from within the ruined keep. At the Sepulcher, Apothecary Renferrel gathers vials of the ichor for study. The Forsaken hope to separate the chemical and magical forces that sustain the gnolls. Then they can find the pack's weaknesses before sending troops across Lordamere Lake in a full assault.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rot-hide-ichor-a83acb5809d6458e7d4f/1-0000.mp3", duration = 43.3893878, start = 0},
+    {file = "Audio/Transport/full_item_rot-hide-ichor-bd0297250e5efad68539/1-0000.mp3", duration = 64.4963265, start = 0},
   },
 }
 P.transport["item:rough-quartz"] = {

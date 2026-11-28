@@ -1170,6 +1170,8 @@ end
 local function ride(m)
   local n = room(m)
   if #quests == 0 or n <= 0 then return end
+  questsGo(false, true)
+  if #quests == 0 then return end
   m.tail, m.rides = m.tail or {}, m.rides or {}
   trimQuests(n)
   for _, q in ipairs(quests) do m.tail[#m.tail + 1] = q.page; m.rides[#m.tail] = q.ride end
@@ -1231,22 +1233,23 @@ local function questLater(delay)
 end
 
 -- The waiting quest and skill pages: onto the show that's up, or (due: QUEST_GATHER has passed) a show of their own.
-function questsGo(due)
-  local t = now()
+function questsGo(due, pruneOnly)
   if not Strip.On() then quests = {}; return end
-  local allowQ, allowS = Strip.QuestsFromWillo(), Strip.SkillsFromWillo()
+  local t, allowQ, allowS = now(), Strip.QuestsFromWillo(), Strip.SkillsFromWillo()
   for i = #quests, 1, -1 do
     local p = quests[i].page
     local ok = (p[1] == 0xDE and allowS) or (p[1] ~= 0xDE and allowQ)
     if not ok or t - quests[i].at > QUEST_WAIT then table.remove(quests, i) end
   end
-  if #quests == 0 then return end
-  -- A plan step's page (ride) never brings the sky up for a player who keeps it hidden until needed: alone, with the sky
-  -- down, it goes, and the step ticks at the next save (the Design Lead, LOR-1546 piece 4). With a prep page it rides.
+  if pruneOnly or #quests == 0 then return end
+  -- A plan step's or unwatched skill's page (ride) never brings the sky up for a player who keeps it hidden until
+  -- needed (the Design Lead, LOR-1546 piece 4 / LOR-1710): alone with the sky down, it stays queued up to QUEST_WAIT
+  -- to ride any show that opens (a Moment, a prep page, or an ask), without scheduling a timer or waking a hidden
+  -- sky; past QUEST_WAIT it expires and ticks at the next save.
   if not Strip.Showing() then
     local own = false
     for _, q in ipairs(quests) do if not q.ride then own = true; break end end
-    if not own then quests = {}; return end
+    if not own then return end
   end
   if moment then
     if room(moment) > 0 then return ride(moment) end
@@ -1514,35 +1517,6 @@ function Strip.SkillsFromWillo()
   return type(data) == "table" and data.skySkills == true
 end
 
-local function hitsTarget(val, rank, prevRank)
-  local function hit(target)
-    if type(target) ~= "number" or target <= 0 then return false end
-    if prevRank ~= nil then return prevRank < target and rank >= target end
-    return rank >= target
-  end
-  if type(val) == "number" then return hit(val) end
-  if type(val) == "table" then
-    for _, target in pairs(val) do
-      if hit(target) then return true end
-    end
-  end
-  return false
-end
-
-local function watchedSkill(charKey, profId, rank, prevRank)
-  local data = Strip.FromWilloLately()
-  local watch = type(data) == "table" and data.watchSkills
-  if type(watch) ~= "table" then return false end
-  local strId = tostring(profId)
-  for _, scope in ipairs({ charKey, "*" }) do
-    local t = watch[scope]
-    if type(t) == "table" then
-      if hitsTarget(t[profId], rank, prevRank) or hitsTarget(t[strId], rank, prevRank) then return true end
-    end
-  end
-  return false
-end
-
 local function validCharKey()
   local J = ns.Journey
   if not (J and J.CharKey) then return nil end
@@ -1552,23 +1526,19 @@ local function validCharKey()
 end
 
 -- Emit a 5-byte live profession skill page (0xDE): { 0xDE, profId, w_hi, (w_lo<<4)|r_hi, r_lo }.
--- Watched skills (data.watchSkills) wake a hidden sky immediately when crossing a target threshold; others only ride an already-showing sky.
+-- Strip.ScanSkills only calls this on strict profession rank increases / newly learned professions, so waking a hidden
+-- sky on every call ensures live skill reminders set mid-session fire immediately without /reload.
 function Strip.SkillPage(profId, rank, prevRank)
   if not (Strip.On() and Strip.SkillsFromWillo()) then return nil end
   profId, rank = tonumber(profId), tonumber(rank)
   if not (profId and profId >= 1 and profId <= 12 and math.floor(profId) == profId) then return nil end
   if not (rank and rank >= 1 and rank <= 4095) then return nil end
-  if prevRank ~= nil then
-    prevRank = tonumber(prevRank)
-    if not prevRank or prevRank < 0 then prevRank = 0 else prevRank = math.floor(prevRank) end
-  end
   local charKey = validCharKey()
   if not charKey then return nil end
   local w = Strip.CRC32(charKey) % 4096
   local r = math.min(4095, math.max(0, math.floor(rank)))
   local page = { 0xDE, profId % 256, math.floor(w / 16) % 256, (w % 16) * 16 + math.floor(r / 256), r % 256 }
-  local due = watchedSkill(charKey, profId, r, prevRank)
-  listPage(page, due, not due)
+  listPage(page, true, false)
   return page
 end
 

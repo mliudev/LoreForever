@@ -1,0 +1,89 @@
+{
+ "key": "quest:94479",
+ "type": "quest",
+ "name": "One Person's Trash",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94479
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A piece of metal in the Tainted Foothills may still interest an engineer. You seek someone who can recognize it and know who might salvage it.",
+ "sections": [
+  {
+   "title": "A Piece of Metal",
+   "body": "Among the rusting metal in the Tainted Foothills, you find an engineering component that looks shinier than the rest. Anything else useful seems to have been picked clean. You look for someone nearby who might recognize the piece or know who wants it.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Old War Machines",
+   "body": "The solid cast metal once went into the war machines that ravaged these hills. Survivors and beasts have reclaimed many pieces, but this one may be sought by a particular engineer.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What did I find?",
+   "aliases": [
+    "metal piece",
+    "shiny scrap",
+    "engineering part"
+   ],
+   "answer": "You found a shinier engineering component among rusting metal in the Tainted Foothills."
+  },
+  {
+   "q": "Where should I look for someone who wants it?",
+   "aliases": [
+    "who wants the metal",
+    "metal salvage",
+    "where to take this"
+   ],
+   "answer": "You search the Tainted Foothills for someone interested in the metallic piece."
+  },
+  {
+   "q": "What was this metal used for?",
+   "aliases": [
+    "old machine metal",
+    "war machine parts",
+    "tainted foothills scrap"
+   ],
+   "answer": "The solid cast metal was used to build the war machines that ravaged the hills years ago."
+  },
+  {
+   "q": "Who reclaimed the other pieces?",
+   "aliases": [
+    "who took the scrap",
+    "where did the metal go",
+    "beast salvage"
+   ],
+   "answer": "Survivors and beasts have reclaimed many of the pieces."
+  },
+  {
+   "q": "Is this piece different from the others?",
+   "aliases": [
+    "special metal",
+    "why this piece",
+    "different scrap"
+   ],
+   "answer": "The person who recognizes it says this piece is different and may still be sought by a particular engineer."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "engineer",
+  "engineering component",
+  "metal",
+  "one person's trash",
+  "salvage",
+  "tainted foothills",
+  "war machines"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: One Person's Trash"
+ ]
+}

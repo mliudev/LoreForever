@@ -1,0 +1,76 @@
+{
+ "key": "quest:95319",
+ "type": "quest",
+ "name": "Crystalline Collection",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95319
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Felflick asks you to gather crystals growing from fel blood pools, where ashes from Archimonde have fallen. Their unusual formation makes them useful for draining fel energies.",
+ "sections": [
+  {
+   "title": "Crystals in the Pools",
+   "body": "Behind Felflick, fel blood pools bear crystals formed where Archimonde's ashes have fallen. You gather several kinds for him because their formation gives them a knack for draining fel energies, a problem for Felflick that may still leave the crystals useful.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Pristine Find",
+   "body": "When you bring the crystals back, most are slimy from the grime. Felflick searches through them until he finds one with an even color and a faint glow. He is pleased to have a crystal in pristine condition, and says it will do nicely.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for crystals?",
+   "aliases": [
+    "who wants crystals",
+    "felflick crystals"
+   ],
+   "answer": "Felflick asks you to gather crystals from the fel blood pools behind him."
+  },
+  {
+   "q": "Where do the crystals grow?",
+   "aliases": [
+    "crystal location",
+    "where are fel slime crystals"
+   ],
+   "answer": "The crystals grow from fel blood pools on the side of the hill where Archimonde's ashes have fallen."
+  },
+  {
+   "q": "Why are these crystals useful?",
+   "aliases": [
+    "crystal use",
+    "what do fel crystals do"
+   ],
+   "answer": "Their unusual formation makes them especially good at draining fel energies."
+  },
+  {
+   "q": "Why does Felflick want different kinds?",
+   "aliases": [
+    "why different crystals",
+    "crystal types"
+   ],
+   "answer": "Felflick asks for a few kinds, saying he will know what he needs when he sees them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "archimonde's ashes",
+  "crystalline collection",
+  "fel blood pools",
+  "fel energies",
+  "fel-slime crystals",
+  "felflick",
+  "pristine fel-slime crystal"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Crystalline Collection"
+ ]
+}
