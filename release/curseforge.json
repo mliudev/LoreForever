@@ -1,5 +1,5 @@
 {
-  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so narrator stories, answer packs and quest dialogue have separate projects, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. The male narrator, the default voice, stays bundled in the add-on's own file: projects 1762514 and 1762515 were created 10/23 to split him out so daily updates would be small, and Mike pulled that back 10/24, so nothing uploads to them (retired 10/26). A retired project is out of this list, so nothing uploads to it; its players keep what they installed, and site/lib/stores.js CF_RETIRED keeps its downloads counted (10/26, the fewest-projects cleanup: 1755322, folded back into 1727668, and 1752600, the original male narrator's quest dialogue, which is off by default). Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency. Quest dialogue is always optional and never bundled with the core, whether its project is live or pending. requires: other projects here it needs installed to play (the quest givers' voices use male quest dialogue as a fallback; narrator quest packs play without their narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). bundle: true for a narrator's Complete (10/26): no narration of its own, its file (made by curseforge_voices.py, so no 'from') only requires the narrator's story projects in 'requires', so one install brings them all (quest dialogue stays out: it's off by default). The add-on's Options say for each narrator whether its story projects are all installed or which are missing, from the live projects here (Data/Index.lua narratorPacks, lore.voicepack.narrator_packs), and name its Complete once that's live. id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. min_days (optional): a changed project uploads at most this often, so players re-download its narration at most once in that many days (the male narrator: 7, so recording catch-ups batch into one weekly download instead of riding the daily code updates; new narration reaches CurseForge up to a week late, while the site and GitHub get it daily); its first upload never waits. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps bundled narration folders (quest dialogue is always excluded), unless that would put it over the limit (then its notes say so and point to the full download). paused: true for narration taken back until it's recorded again (none now: LOR-567's Brazilian Portuguese narrators are back, the female one 10/21, and the male one in his first project, 1727668, again from 10/26, after it carried the Brazilian Portuguese text alone since 10/15; see scripts/build-release.sh PAUSED_PACKS); it never uploads and is never live, so the add-on's file doesn't name it, and its project keeps its id and the files it has. core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one narration package without quest dialogue, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
+  "_readme": "The narration that goes to CurseForge as projects of its own (scripts/curseforge_voices.py, run by the public repo's release workflow). CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API refuses files over about 500 MB (Cloudflare answers 413), so narrator stories, answer packs and quest dialogue have separate projects, and every other optional pack (a narrator in another language, the quest givers' voices) is one of its own. The male narrator, the default voice, stays bundled in the add-on's own file: projects 1762514 and 1762515 were created 10/23 to split him out so daily updates would be small, and Mike pulled that back 10/24, so nothing uploads to them (retired 10/26). A retired project is out of this list, so nothing uploads to it; its players keep what they installed, and site/lib/stores.js CF_RETIRED keeps its downloads counted (10/26, the fewest-projects cleanup: 1755322, folded back into 1727668, and 1752600, the original male narrator's quest dialogue, which is off by default). Each project's file is the folders listed here, taken byte for byte from the release zip named in 'from' (or the zips, when it's a list: a project gets the folders the release has so far), and it goes up whenever the narration in it changed since that project's last upload. Every project requires Lore Forever (lore-forever, 1715510), so the CurseForge app installs the add-on along with it. key: a short name for logs and 'requires'. name: the project's name on CurseForge. about: what it is, for players (changelogs). file: each upload's display name, {v} = the release version. core: how the add-on's own file lists the project once it's live, as a required or an optional dependency. Quest dialogue is always optional and never bundled with the core, whether its project is live or pending. requires: other projects here it needs installed to play (the quest givers' voices use male quest dialogue as a fallback; narrator quest packs play without their narrator's other packs). suggests: other projects here it goes well with, which CurseForge lists as optional dependencies (not installed with it). bundle: true for a narrator's Complete (10/26): no narration of its own, its file (made by curseforge_voices.py, so no 'from') only requires the narrator's story projects in 'requires', so one install brings them all (quest dialogue stays out: it's off by default). The add-on's Options say for each narrator whether its story projects are all installed or which are missing, from the live projects here (Data/Index.lua narratorPacks, lore.voicepack.narrator_packs), and name its Complete once that's live. id and slug: the project's number and address (curseforge.com/wow/addons/<slug>), null until Mike creates it; a project without an id is skipped, so nothing uploads until it exists. Create a project only once its pack ships (CurseForge reviews a new project once it has a file); a release that doesn't have a project's zip yet just skips it. min_days (optional): a changed project uploads at most this often, so players re-download its narration at most once in that many days (optional voice/narration packs: 1, so each pack uploads at most once per 24h and avoids multiple re-uploads per day; core stays unthrottled); its first upload never waits. live: true once CurseForge has approved the project, since a file can only name an approved project as a dependency. Until then the add-on's file keeps bundled narration folders (quest dialogue is always excluded), unless that would put it over the limit (then its notes say so and point to the full download). paused: true for narration taken back until it's recorded again (none now: LOR-567's Brazilian Portuguese narrators are back, the female one 10/21, and the male one in his first project, 1727668, again from 10/26, after it carried the Brazilian Portuguese text alone since 10/15; see scripts/build-release.sh PAUSED_PACKS); it never uploads and is never live, so the add-on's file doesn't name it, and its project keeps its id and the files it has. core_upload: how the add-on's own file gets to CurseForge. 'auto': the release workflow uploads it, leaving out what doesn't fit under the API's limit. 'manual': one narration package without quest dialogue, the release's LoreForever.zip and the female narrator's complete zip merged (curseforge_voices.py package; without her only if that's over 2 GB), uploaded by hand on the website, which takes up to 2 GB; the workflow then uploads nothing for the add-on and its summary says what to upload (tried 2026-10-04 for 0.8.0: the website refused the 1.45 GB package as \"too large for this game class\", so it's 'auto' again).",
   "core_upload": "auto",
   "projects": [
     {
@@ -39,7 +39,8 @@
       "requires": ["ukrainian"],
       "id": 1736067,
       "slug": "lore-forever-ukrainian-narration",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese",
@@ -52,7 +53,8 @@
       "requires": [],
       "id": 1822132,
       "slug": "lore-forever-flyingorca-chinese-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-alliance",
@@ -66,7 +68,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822138,
       "slug": "lore-forever-flyingorca-chinese-alliance-lands",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-horde",
@@ -80,7 +83,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822142,
       "slug": "lore-forever-flyingorca-chinese-horde-lands",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-more-places",
@@ -94,7 +98,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822143,
       "slug": "lore-forever-flyingorca-chinese-more-places",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-more-people",
@@ -108,7 +113,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822144,
       "slug": "lore-forever-flyingorca-chinese-more-people",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-item-stories",
@@ -122,7 +128,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822147,
       "slug": "lore-forever-flyingorca-chinese-item-stories",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-quest-stories-3",
@@ -136,7 +143,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822148,
       "slug": "lore-forever-flyingorca-chinese-quest-stories-40",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-quests",
@@ -150,7 +158,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822149,
       "slug": "lore-forever-flyingorca-chinese-dialogue-1-25",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-quests-2",
@@ -164,7 +173,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822150,
       "slug": "lore-forever-flyingorca-chinese-dialogue-26-50",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "flyingorca-chinese-quests-3",
@@ -178,7 +188,8 @@
       "suggests": ["flyingorca-chinese"],
       "id": 1822152,
       "slug": "lore-forever-flyingorca-chinese-dialogue-51-60",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "russian",
@@ -204,7 +215,8 @@
       "requires": [],
       "id": 1727331,
       "slug": "lore-forever-quest-dialogue-male-narrator",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "male-more-quests-2",
@@ -217,7 +229,8 @@
       "requires": ["male-quests", "male-more-quests-3", "male-more-quests-4"],
       "id": 1766729,
       "slug": "lore-forever-more-quest-dialogue-26-50-male",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "male-more-quests-3",
@@ -230,7 +243,8 @@
       "requires": ["male-more-quests-4"],
       "id": 1766730,
       "slug": "lore-forever-more-quest-dialogue-51-60-male",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "male-more-quests-4",
@@ -243,7 +257,8 @@
       "requires": [],
       "id": 1826757,
       "slug": "lore-forever-more-quest-dialogue-60-male-narrator",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-narrator",
@@ -257,7 +272,8 @@
       "requires": ["female-horde"],
       "id": 1727332,
       "slug": "lore-forever-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-alliance",
@@ -271,7 +287,8 @@
       "suggests": ["female-narrator"],
       "id": 1767708,
       "slug": "lore-forever-female-narrator-alliance-lands",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-horde",
@@ -285,7 +302,8 @@
       "suggests": ["female-narrator"],
       "id": 1740579,
       "slug": "lore-forever-female-narrator-horde-lands",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quests",
@@ -299,7 +317,8 @@
       "suggests": ["female-narrator"],
       "id": 1727333,
       "slug": "lore-forever-quest-dialogue-female-narrator",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "female-more-quests-2",
@@ -313,7 +332,8 @@
       "suggests": ["female-narrator"],
       "id": 1766731,
       "slug": "lore-forever-more-quest-dialogue-26-50-female",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "female-more-quests-3",
@@ -327,7 +347,8 @@
       "suggests": ["female-narrator"],
       "id": 1766732,
       "slug": "lore-forever-more-quest-dialogue-51-60-female",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "female-more-quests-4",
@@ -341,7 +362,8 @@
       "suggests": ["female-narrator"],
       "id": 1826776,
       "slug": "lore-forever-more-quest-dialogue-60-female",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-more-places",
@@ -354,7 +376,8 @@
       "requires": [],
       "id": 1743314,
       "slug": "lore-forever-more-places-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-more-people",
@@ -367,7 +390,8 @@
       "requires": [],
       "id": 1743518,
       "slug": "lore-forever-more-people-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-0",
@@ -380,7 +404,8 @@
       "requires": [],
       "id": 1809240,
       "slug": "lore-forever-male-narrator-quest-stories-1-10",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-1",
@@ -393,7 +418,8 @@
       "requires": ["male-quest-stories-0"],
       "id": 1767788,
       "slug": "lore-forever-quest-stories-1-19-male-narrator",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-2",
@@ -406,7 +432,8 @@
       "requires": ["male-quest-stories-0", "male-quest-stories-1", "male-quest-stories-3"],
       "id": 1767790,
       "slug": "lore-forever-quest-stories-20-39-male-narrator",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-3",
@@ -420,7 +447,8 @@
       "requires": [],
       "id": 1767855,
       "slug": "lore-forever-item-stories-and-quest-stories-40",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-item-stories",
@@ -433,7 +461,8 @@
       "requires": [],
       "id": 1809086,
       "slug": "lore-forever-male-narrator-item-stories",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-places",
@@ -446,7 +475,8 @@
       "requires": ["female-narrator"],
       "id": 1743315,
       "slug": "lore-forever-more-places-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-people",
@@ -459,7 +489,8 @@
       "requires": ["female-narrator"],
       "id": 1743604,
       "slug": "lore-forever-more-people-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-0",
@@ -472,7 +503,8 @@
       "requires": ["female-narrator"],
       "id": 1809242,
       "slug": "lore-forever-female-narrator-quest-stories-1-10",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-1",
@@ -485,7 +517,8 @@
       "requires": ["female-narrator", "female-quest-stories-0"],
       "id": 1767789,
       "slug": "lore-forever-quest-stories-1-19-female-narrator",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-2",
@@ -498,7 +531,8 @@
       "requires": ["female-narrator", "female-quest-stories-0", "female-quest-stories-1", "female-quest-stories-3"],
       "id": 1767791,
       "slug": "lore-forever-quest-stories-20-39-female-narrator",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-3",
@@ -512,7 +546,8 @@
       "requires": ["female-narrator"],
       "id": 1767942,
       "slug": "lore-forever-female-narrator-item-and-quest",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-item-stories",
@@ -525,7 +560,8 @@
       "requires": ["female-narrator"],
       "id": 1809088,
       "slug": "lore-forever-female-narrator-item-stories",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "original-narrator",
@@ -538,7 +574,8 @@
       "requires": [],
       "id": 1752597,
       "slug": "lore-forever-original-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "original-more-places",
@@ -551,7 +588,8 @@
       "requires": ["original-narrator"],
       "id": 1752598,
       "slug": "lore-forever-more-places-original-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "original-more-people",
@@ -564,7 +602,8 @@
       "requires": ["original-narrator"],
       "id": 1752599,
       "slug": "lore-forever-more-people-original-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "quest-givers",
@@ -577,7 +616,8 @@
       "requires": ["male-quests", "quest-givers-2", "quest-givers-3", "quest-givers-4"],
       "id": 1731403,
       "slug": "lore-forever-quest-givers-voices",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "quest-givers-2",
@@ -590,7 +630,8 @@
       "requires": ["male-quests", "quest-givers-3"],
       "id": 1767792,
       "slug": "lore-forever-quest-givers-voices-levels-31-50",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "quest-givers-3",
@@ -603,7 +644,8 @@
       "requires": ["male-quests", "quest-givers-4"],
       "id": 1767793,
       "slug": "lore-forever-quest-givers-voices-levels-51-60",
-      "live": false, "paused": true
+      "live": false, "paused": true,
+      "min_days": 1
     },
     {
       "key": "quest-givers-4",
@@ -616,7 +658,8 @@
       "requires": ["male-quests"],
       "id": 1826783,
       "slug": "lore-forever-quest-givers-voices-levels-56",
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-dede",
@@ -629,7 +672,8 @@
       "requires": [],
       "id": 1727666,
       "slug": "lore-forever-german-narration-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-dede",
@@ -642,7 +686,8 @@
       "requires": [],
       "id": 1727667,
       "slug": "lore-forever-german-narration-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-frfr",
@@ -655,7 +700,8 @@
       "requires": [],
       "id": 1731408,
       "slug": "lore-forever-french-narration-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-frfr",
@@ -668,7 +714,8 @@
       "requires": [],
       "id": 1731410,
       "slug": "lore-forever-french-narration-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-eses",
@@ -681,7 +728,8 @@
       "requires": [],
       "id": 1731411,
       "slug": "lore-forever-spanish-narration-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-eses",
@@ -694,7 +742,8 @@
       "requires": [],
       "id": 1731412,
       "slug": "lore-forever-spanish-narration-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-more-people-dede",
@@ -707,7 +756,8 @@
       "requires": [],
       "id": 1754443,
       "slug": "lore-forever-german-narration-more-people-male",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-people-dede",
@@ -720,7 +770,8 @@
       "requires": [],
       "id": 1754444,
       "slug": "lore-forever-german-narration-more-people-female",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-1-dede",
@@ -733,7 +784,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-2-dede",
@@ -746,7 +798,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-3-dede",
@@ -759,7 +812,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-1-dede",
@@ -772,7 +826,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-2-dede",
@@ -785,7 +840,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-3-dede",
@@ -798,7 +854,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-more-people-eses",
@@ -811,7 +868,8 @@
       "requires": [],
       "id": 1767780,
       "slug": "lore-forever-spanish-narration-more-people-male",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-people-eses",
@@ -824,7 +882,8 @@
       "requires": [],
       "id": 1767781,
       "slug": "lore-forever-spanish-narration-more-people-female",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-more-people-ptbr",
@@ -837,7 +896,8 @@
       "requires": [],
       "id": 1755323,
       "slug": "lore-forever-brazilian-portuguese-narration-more",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-people-ptbr",
@@ -850,7 +910,8 @@
       "requires": [],
       "id": 1767782,
       "slug": "lore-forever-portuguese-narration-more-people",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-more-people-frfr",
@@ -863,7 +924,8 @@
       "requires": [],
       "id": 1767783,
       "slug": "lore-forever-french-narration-more-people-male",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-people-frfr",
@@ -876,7 +938,8 @@
       "requires": [],
       "id": 1767784,
       "slug": "lore-forever-french-narration-more-people-female",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-1-frfr",
@@ -889,7 +952,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-2-frfr",
@@ -902,7 +966,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-3-frfr",
@@ -915,7 +980,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-1-frfr",
@@ -928,7 +994,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-2-frfr",
@@ -941,7 +1008,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-3-frfr",
@@ -954,7 +1022,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "portuguese",
@@ -967,7 +1036,8 @@
       "requires": [],
       "id": 1727668,
       "slug": "lore-forever-portuguese-narration-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-ptbr",
@@ -980,7 +1050,8 @@
       "requires": [],
       "id": 1727669,
       "slug": "lore-forever-portuguese-narration-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-itit",
@@ -993,7 +1064,8 @@
       "requires": [],
       "id": 1753615,
       "slug": "lore-forever-italian-narration-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-itit",
@@ -1006,7 +1078,8 @@
       "requires": [],
       "id": 1753616,
       "slug": "lore-forever-italian-narration-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-zhcn",
@@ -1019,7 +1092,8 @@
       "requires": [],
       "id": 1792923,
       "slug": "lore-forever-chinese-narration-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-more-people-zhcn",
@@ -1032,7 +1106,8 @@
       "requires": [],
       "id": 1792926,
       "slug": "lore-forever-chinese-narration-more-people-male",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-1-zhcn",
@@ -1045,7 +1120,8 @@
       "requires": [],
       "id": 1792927,
       "slug": "lore-forever-chinese-narration-quest-stories-1-19",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-2-zhcn",
@@ -1058,7 +1134,8 @@
       "requires": [],
       "id": 1792934,
       "slug": "lore-forever-chinese-narration-quest-stories-20-39",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-3-zhcn",
@@ -1071,7 +1148,8 @@
       "requires": [],
       "id": 1792940,
       "slug": "lore-forever-chinese-narration-item-and-quest",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-zhcn",
@@ -1084,7 +1162,8 @@
       "requires": [],
       "id": 1792944,
       "slug": "lore-forever-chinese-narration-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-more-people-zhcn",
@@ -1097,7 +1176,8 @@
       "requires": [],
       "id": 1792947,
       "slug": "lore-forever-chinese-narration-more-people-female",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-1-zhcn",
@@ -1110,7 +1190,8 @@
       "requires": [],
       "id": 1793013,
       "slug": "lore-forever-female-chinese-quest-stories-1-19",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-2-zhcn",
@@ -1123,7 +1204,8 @@
       "requires": [],
       "id": 1793017,
       "slug": "lore-forever-female-chinese-quest-stories-20-39",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-3-zhcn",
@@ -1136,7 +1218,8 @@
       "requires": [],
       "id": 1793020,
       "slug": "lore-forever-female-chinese-item-and-quest-stories",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-more-people-itit",
@@ -1149,7 +1232,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-1-itit",
@@ -1162,7 +1246,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-2-itit",
@@ -1175,7 +1260,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quest-stories-3-itit",
@@ -1188,7 +1274,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-more-people-itit",
@@ -1201,7 +1288,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-1-itit",
@@ -1214,7 +1302,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-2-itit",
@@ -1227,7 +1316,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "female-quest-stories-3-itit",
@@ -1240,7 +1330,8 @@
       "requires": [],
       "id": null,
       "slug": null,
-      "live": false
+      "live": false,
+      "min_days": 1
     },
     {
       "key": "male-quests-dede",
@@ -1254,7 +1345,8 @@
       "suggests": ["male-dede"],
       "id": 1731414,
       "slug": "lore-forever-german-quest-dialogue-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quests-dede",
@@ -1268,7 +1360,8 @@
       "suggests": ["female-dede"],
       "id": 1731415,
       "slug": "lore-forever-german-quest-dialogue-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quests-frfr",
@@ -1282,7 +1375,8 @@
       "suggests": ["male-frfr"],
       "id": 1754446,
       "slug": "lore-forever-french-quest-dialogue-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quests-frfr",
@@ -1296,7 +1390,8 @@
       "suggests": ["female-frfr"],
       "id": 1754448,
       "slug": "lore-forever-french-quest-dialogue-female-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-quests-eses",
@@ -1310,7 +1405,8 @@
       "suggests": ["male-eses"],
       "id": 1767785,
       "slug": "lore-forever-spanish-quest-dialogue-male-narrator",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "female-quests-eses",
@@ -1324,7 +1420,8 @@
       "suggests": ["female-eses"],
       "id": 1767786,
       "slug": "lore-forever-spanish-quest-dialogue-female",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "quests-ptbr",
@@ -1338,7 +1435,8 @@
       "suggests": ["portuguese", "female-ptbr"],
       "id": 1767787,
       "slug": "lore-forever-portuguese-quest-dialogue",
-      "live": true
+      "live": true,
+      "min_days": 1
     },
     {
       "key": "male-complete",
