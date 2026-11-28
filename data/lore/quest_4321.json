@@ -1,0 +1,65 @@
+{
+ "key": "quest:4321",
+ "type": "quest",
+ "name": "Making Sense of It",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4321
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "J.D. Collie studies the information you brought about the pylons. She asks you to return in a moment for her answer.",
+ "sections": [
+  {
+   "title": "Collie's Findings",
+   "body": "Her calculations are ready when you speak with J.D. Collie again. She has gathered her conclusions into a manual and believes she can answer your questions about the crystals.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is working out the pylon information?",
+   "aliases": [
+    "who is J.D. Collie",
+    "pylon calculations",
+    "collie crystals"
+   ],
+   "answer": "J.D. Collie is studying the information you gave her about the pylons."
+  },
+  {
+   "q": "What does J.D. Collie ask me to do?",
+   "aliases": [
+    "what now",
+    "speak to collie",
+    "wait for collie"
+   ],
+   "answer": "J.D. Collie asks you to speak with her again in a moment while she makes calculations."
+  },
+  {
+   "q": "What is the manual about?",
+   "aliases": [
+    "collie manual",
+    "crystal information",
+    "pylon answers"
+   ],
+   "answer": "J.D. Collie compiles her findings into a manual and says she can answer questions about the crystals."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "calculations",
+  "crystals",
+  "j.d. collie",
+  "making sense of it",
+  "manual",
+  "pylons"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Making Sense of It"
+ ]
+}

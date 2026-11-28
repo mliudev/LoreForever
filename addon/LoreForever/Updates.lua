@@ -12,7 +12,7 @@
 -- Too old to work (LoreForeverJourneyData.addonMin, the oldest add-on the site still works with, from Willo): the chat
 -- says so at every login, at most once a day, whatever that option says, and the tooltip and /lore version say it too.
 -- State: LoreForeverDB.update = { told = time() of the last chat line, toldOld = of the last too-old line }.
--- pipeline/tests/updates_sim.py checks all of this.
+-- pipeline/tests/test_updates.py checks all of this.
 
 local _, ns = ...
 local U = {}
@@ -128,11 +128,17 @@ local function how(maybe, again)
   if w and w.keeps and not maybe then
     return string.format(L["%s installs it for you the next time you close the game."], ns.COMPANION_NAME)
   end
+  local base
   if maybe then
-    return L["Update Lore Forever in the CurseForge app, or get the newest from loreforeverwow.com."]
+    base = L["Update Lore Forever in the CurseForge app, or get the newest from loreforeverwow.com."]
+  else
+    base = again and L["Update Lore Forever in the CurseForge app, or download it again from loreforeverwow.com."]
+      or L["Update Lore Forever in the CurseForge app, or download it from loreforeverwow.com."]
   end
-  return again and L["Update Lore Forever in the CurseForge app, or download it again from loreforeverwow.com."]
-    or L["Update Lore Forever in the CurseForge app, or download it from loreforeverwow.com."]
+  if (w and w.keeps) or U.WilloKeeps() or (ns.Companion and not ns.Companion.OFFER_WILLO) then
+    return base
+  end
+  return base .. " " .. string.format(L["Or type /lore willo: %s updates only changed files."], ns.COMPANION_NAME)
 end
 
 -- The too-old line. A pack with only the older wording (which also named the oldest version that works) keeps its own

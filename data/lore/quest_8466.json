@@ -1,0 +1,61 @@
+{
+ "key": "quest:8466",
+ "type": "quest",
+ "name": "Feathers for Grazle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8466
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Grazle continues to accept feathers you find. He says your deeds will be known among his kind.",
+ "sections": [
+  {
+   "title": "Grazle's Thanks",
+   "body": "Grazle says he will make your deeds known among his kind. He continues to accept any feathers you find for as long as necessary.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Grazle?",
+   "aliases": [
+    "grazle",
+    "who's grazle"
+   ],
+   "answer": "Grazle is the one who accepts the feathers and says he will make your deeds known among his kind."
+  },
+  {
+   "q": "What does Grazle want?",
+   "aliases": [
+    "grazle wants",
+    "feathers for grazle"
+   ],
+   "answer": "Grazle accepts any feathers you find, and says he will keep accepting them for as long as necessary."
+  },
+  {
+   "q": "What happens to my deeds?",
+   "aliases": [
+    "deeds known",
+    "what does grazle say"
+   ],
+   "answer": "Grazle says he will make sure your deeds are known among his kind."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "accept",
+  "deeds",
+  "feathers",
+  "grazle",
+  "kind"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Feathers for Grazle"
+ ]
+}

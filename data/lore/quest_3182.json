@@ -1,0 +1,76 @@
+{
+ "key": "quest:3182",
+ "type": "quest",
+ "name": "Proof of Deed",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3182
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Curator Thorius in Ironforge asks you to bring him Margol\u2019s Gigantic Horn. It is a trophy from the Searing Gorge, where Margol the Rager troubled archaeologists.",
+ "sections": [
+  {
+   "title": "At the Museum",
+   "body": "Curator Thorius greets you in Ironforge with an offer to tour the museum. When you show him Margol\u2019s Gigantic Horn, he recognizes it as belonging to Margol the Rager. The horn recalls an enemy known to archaeologists who entered the Searing Gorge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Margol the Rager?",
+   "aliases": [
+    "who is Margol",
+    "Margol backstory"
+   ],
+   "answer": "Margol the Rager is known as a bane to archaeologists who set foot in the Searing Gorge."
+  },
+  {
+   "q": "What does Curator Thorius recognize?",
+   "aliases": [
+    "what's the horn",
+    "Margol horn"
+   ],
+   "answer": "Curator Thorius recognizes Margol\u2019s Gigantic Horn as the horn of Margol the Rager."
+  },
+  {
+   "q": "Where do I take Margol\u2019s Gigantic Horn?",
+   "aliases": [
+    "where horn go",
+    "Thorius horn"
+   ],
+   "answer": "You take Margol\u2019s Gigantic Horn to Curator Thorius in Ironforge."
+  },
+  {
+   "q": "Where did Margol trouble archaeologists?",
+   "aliases": [
+    "Margol location",
+    "Searing Gorge archaeologists"
+   ],
+   "answer": "Margol troubled archaeologists who set foot in the Searing Gorge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "archaeologists",
+  "curator thorius",
+  "ironforge",
+  "margol",
+  "margol the rager",
+  "margol\u2019s gigantic horn",
+  "proof of deed",
+  "searing gorge"
+ ],
+ "related": [
+  "item:margol-s-gigantic-horn",
+  "zone:ironforge",
+  "zone:searinggorge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Proof of Deed"
+ ]
+}

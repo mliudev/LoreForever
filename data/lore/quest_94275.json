@@ -1,0 +1,84 @@
+{
+ "key": "quest:94275",
+ "type": "quest",
+ "name": "Craftsman's Writ: Solid Sharpening Stone",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94275
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded, transferable writ requests one Solid Sharpening Stone and names a delivery place and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The note sets out what the customer expects in return for payment. Its ink is faded, and it can pass from one bearer to another. You need the writ with you when you make the exchange at the marked place.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "solid sharpening stone writ",
+    "what item is wanted",
+    "craftsman note"
+   ],
+   "answer": "The customer requests one Solid Sharpening Stone."
+  },
+  {
+   "q": "Where do I deliver the stone?",
+   "aliases": [
+    "where to take it",
+    "delivery place",
+    "where is the marked spot"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "What do I need to complete the exchange?",
+   "aliases": [
+    "what do i bring",
+    "need the writ?",
+    "how to complete the trade"
+   ],
+   "answer": "You need the requested Solid Sharpening Stone and the writ in your possession."
+  },
+  {
+   "q": "Is the writ transferable?",
+   "aliases": [
+    "can i pass it on",
+    "can someone else carry it",
+    "transferable writ"
+   ],
+   "answer": "Yes. The writ says it can be transferred."
+  },
+  {
+   "q": "Does the customer offer payment?",
+   "aliases": [
+    "what payment",
+    "is there pay",
+    "customer payment"
+   ],
+   "answer": "The writ includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "sharpening stone",
+  "solid sharpening stone",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Solid Sharpening Stone"
+ ]
+}

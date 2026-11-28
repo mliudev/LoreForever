@@ -1,0 +1,97 @@
+{
+ "key": "quest:86612",
+ "type": "quest",
+ "name": "Stag Lord's Bauble",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86612
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Stag Lord\u2019s Bauble is a green-lit crystal taken from a weathered stag statue at the bottom of a lake. Someone at Bloodvenom Post may know its history.",
+ "sections": [
+  {
+   "title": "The Lake Statue",
+   "body": "A stag statue lies at the bottom of a lake, worn by a pool of foul slime. You cannot tell how it came to rest there. A crystal set in a medallion around its neck gives off a sickly green light, and someone at Bloodvenom Post may know the monument\u2019s history.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Fel Gleam",
+   "body": "At Bloodvenom Post, the gem draws an answer from the one who examines it. It has taken in some of the fel power carried by the cursed waters flowing into Felwood. More study may draw something from it, and the crystal may have power of its own if it belonged to a sacred artifact from before the war.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where does the Stag Lord\u2019s Bauble come from?",
+   "aliases": [
+    "stag bauble origin",
+    "stag statue gem"
+   ],
+   "answer": "The crystal sits in a medallion around the neck of a stag statue at the bottom of a lake."
+  },
+  {
+   "q": "Why is the stag statue worn away?",
+   "aliases": [
+    "statue eroded why",
+    "slime stag statue"
+   ],
+   "answer": "A pool of fetid slime has eroded the statue."
+  },
+  {
+   "q": "What does the bauble look like?",
+   "aliases": [
+    "green crystal",
+    "stag gem"
+   ],
+   "answer": "It is a single crystal set in a medallion, with an unwholesome green gleam."
+  },
+  {
+   "q": "Who might know about the monument?",
+   "aliases": [
+    "bloodvenom post bauble",
+    "who knows stag statue"
+   ],
+   "answer": "Someone at Bloodvenom Post may know the monument\u2019s history."
+  },
+  {
+   "q": "What has the gem absorbed?",
+   "aliases": [
+    "fel gem",
+    "bauble fel power"
+   ],
+   "answer": "The gem has absorbed some of the fel power in the cursed waters flowing into Felwood."
+  },
+  {
+   "q": "Could the gem have power of its own?",
+   "aliases": [
+    "sacred artifact gem",
+    "bauble own power"
+   ],
+   "answer": "The examiner thinks it may have power of its own if it came from a sacred artifact that predated the war."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodvenom post",
+  "crystal",
+  "cursed waters",
+  "fel power",
+  "felwood",
+  "medallion",
+  "stag bauble",
+  "stag lord's bauble",
+  "stag statue"
+ ],
+ "related": [
+  "subzone:bloodvenom-post",
+  "zone:felwood"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stag Lord's Bauble"
+ ]
+}

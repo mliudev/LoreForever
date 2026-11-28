@@ -1,0 +1,85 @@
+{
+ "key": "quest:97170",
+ "type": "quest",
+ "name": "Learning to Ride",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97170
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Randal Hunter offers to teach you horseback riding once you have enough coin. Train with him, and Katie will provide a free mount.",
+ "sections": [
+  {
+   "title": "Randal's Offer",
+   "body": "Randal Hunter can teach you to ride a horse for a fee. Once you have enough coin, speak with him to learn Apprentice Riding. Katie will provide a free mount after your training, and you can purchase additional mounts.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to ride a horse?",
+   "aliases": [
+    "horse riding trainer",
+    "who is Randal",
+    "ride trainer"
+   ],
+   "answer": "Randal Hunter offers to teach you horseback riding for a fee."
+  },
+  {
+   "q": "What do I need to learn riding?",
+   "aliases": [
+    "how learn riding",
+    "riding cost",
+    "need coin"
+   ],
+   "answer": "You need enough coin to pay Randal Hunter for training."
+  },
+  {
+   "q": "Who gives me a free mount?",
+   "aliases": [
+    "free horse",
+    "Katie mount",
+    "where mount"
+   ],
+   "answer": "Katie provides a free mount after you train with Randal Hunter."
+  },
+  {
+   "q": "Can I buy more mounts?",
+   "aliases": [
+    "additional mounts",
+    "buy horse",
+    "more mount"
+   ],
+   "answer": "After training, you can purchase additional mounts."
+  },
+  {
+   "q": "Do other creatures need different riding skills?",
+   "aliases": [
+    "other riding skills",
+    "creature riding",
+    "mount training"
+   ],
+   "answer": "Different creatures require their own riding skill, and you will need to find trainers for each."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice riding",
+  "coin",
+  "horse",
+  "katie",
+  "learning to ride",
+  "mount",
+  "randal hunter",
+  "riding"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Learning to Ride"
+ ]
+}

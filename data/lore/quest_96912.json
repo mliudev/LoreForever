@@ -1,0 +1,64 @@
+{
+ "key": "quest:96912",
+ "type": "quest",
+ "name": "Field of Honor: Week 1",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96912
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A challenge-setter asks you to win ten duels. This is the first of a series of challenges, with another promised afterward.",
+ "sections": [
+  {
+   "title": "The Next Challenge",
+   "body": "After you complete the challenge, the setter accepts your effort and says the journey has only begun. Return soon, and another challenge awaits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I have to do?",
+   "aliases": [
+    "field of honor week one",
+    "10 duels",
+    "duel challenge"
+   ],
+   "answer": "You are asked to win ten duels."
+  },
+  {
+   "q": "Who gives me the challenge?",
+   "aliases": [
+    "who is the challenge setter",
+    "duel guy"
+   ],
+   "answer": "A challenge-setter offers a list of trials for skilled fighters."
+  },
+  {
+   "q": "What comes after this?",
+   "aliases": [
+    "next field of honor challenge",
+    "what happens after week one"
+   ],
+   "answer": "The setter says another challenge will be available if you return soon."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "challenge",
+  "duel",
+  "duels",
+  "field of honor",
+  "fighter",
+  "ten duels",
+  "week one"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Field of Honor: Week 1"
+ ]
+}

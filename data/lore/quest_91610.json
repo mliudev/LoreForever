@@ -1,0 +1,73 @@
+{
+ "key": "quest:91610",
+ "type": "quest",
+ "name": "Winter Frontier Fishery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91610
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kurll at Valormok asks you for winter squid from the Azshara coast. He values a varied diet and would appreciate the fish.",
+ "sections": [
+  {
+   "title": "A Varied Diet",
+   "body": "Kurll at Valormok prefers the safety of land to angling. Winter squid are in season along Azshara's coast, and he asks you to bring him some for a more varied diet.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants winter squid?",
+   "aliases": [
+    "kurll fish",
+    "who needs squid"
+   ],
+   "answer": "Kurll at Valormok asks you for winter squid."
+  },
+  {
+   "q": "Where can I fish for winter squid?",
+   "aliases": [
+    "winter squid location",
+    "where squid"
+   ],
+   "answer": "Winter squid can be fished from the coast of Azshara."
+  },
+  {
+   "q": "Why does Kurll want winter squid?",
+   "aliases": [
+    "why squid",
+    "kurll diet"
+   ],
+   "answer": "Kurll says a varied diet makes the body stronger."
+  },
+  {
+   "q": "Does Kurll fish himself?",
+   "aliases": [
+    "kurll fishing",
+    "does he fish"
+   ],
+   "answer": "Kurll says he prefers the safety of land to angling."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "diet",
+  "fish",
+  "kurll",
+  "valormok",
+  "winter squid"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:valormok"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Winter Frontier Fishery"
+ ]
+}

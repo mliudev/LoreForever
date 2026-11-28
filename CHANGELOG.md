@@ -7,11 +7,15 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.21.0 (2026-11-27)
+
+- **New lore and updated translations:** added 39 new lore entries and updated translations across six languages (German, French, Spanish, Portuguese, Italian, and Chinese).
+
 ## 1.20.0 (2026-11-26)
 
 - Corrected lore in 9 entries.
 
-- **New lore and updated translations:** added 40 new lore entries and updated translations across six languages.
+- **Updated translations:** caught up translations across six languages (German, French, Spanish, Portuguese, Italian, and Chinese).
 
 - **Options has a new Packs tab:** every voice pack you have, one line each, and where to get more.
   'Reset heard narrations' now sits right under 'Skip what you've heard', and you can undo it.

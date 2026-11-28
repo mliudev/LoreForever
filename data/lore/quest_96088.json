@@ -1,0 +1,99 @@
+{
+ "key": "quest:96088",
+ "type": "quest",
+ "name": "In Demand - Titan Relics",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96088
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Pix Xizzix in Booty Bay seeks three Titan relics and a mark tied to the Burning Legion. Dalaran researchers want the artifacts recovered from dangerous places.",
+ "sections": [
+  {
+   "title": "Relics Wanted",
+   "body": "Pix Xizzix in Booty Bay asks you to recover three artifacts for researchers from Dalaran. Ysera\u2019s Tear lies with the Shade of Eranikus in the Sunken Temple, while Varrox Bleakhoof holds a Mark of Xavius in Blackmaw Hold. Nanaya has Freya\u2019s Sigil at the Shaper\u2019s Terrace. Bring all three to Pix.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants these relics?",
+   "aliases": [
+    "who asks",
+    "pix xizzix relics"
+   ],
+   "answer": "Pix Xizzix in Booty Bay is collecting the relics for researchers from Dalaran."
+  },
+  {
+   "q": "Which relics am I looking for?",
+   "aliases": [
+    "relic list",
+    "what artifacts"
+   ],
+   "answer": "You are asked to recover Ysera\u2019s Tear, a Mark of Xavius, and Freya\u2019s Sigil."
+  },
+  {
+   "q": "Where is Ysera\u2019s Tear?",
+   "aliases": [
+    "yssera tear location",
+    "tear relic"
+   ],
+   "answer": "The Shade of Eranikus in the Sunken Temple has Ysera\u2019s Tear."
+  },
+  {
+   "q": "Who has the Mark of Xavius?",
+   "aliases": [
+    "mark of xavius location",
+    "xavius mark"
+   ],
+   "answer": "Varrox Bleakhoof in Blackmaw Hold has a Mark of Xavius."
+  },
+  {
+   "q": "Where is Freya\u2019s Sigil?",
+   "aliases": [
+    "freya sigil location",
+    "sigil relic"
+   ],
+   "answer": "Nanaya in the Shaper\u2019s Terrace has Freya\u2019s Sigil."
+  },
+  {
+   "q": "Who should I bring the relics to?",
+   "aliases": [
+    "where bring relics",
+    "turn in relics"
+   ],
+   "answer": "Bring all three relics to Pix Xizzix in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "freya's sigil",
+  "mark of xavius",
+  "nanaya",
+  "pix xizzix",
+  "shade of eranikus",
+  "shaper's terrace",
+  "titan relics",
+  "varrox bleakhoof",
+  "ys era's tear"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "subzone:temple-of-atal-hakkar",
+  "subzone:shaper-s-terrace",
+  "topic:titan",
+  "topic:burning-legion",
+  "quest:1445",
+  "quest:3445",
+  "subzone:dalaran"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: In Demand - Titan Relics"
+ ]
+}

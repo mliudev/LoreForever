@@ -1,0 +1,78 @@
+{
+ "key": "quest:94263",
+ "type": "quest",
+ "name": "Craftsman's Writ: Fire Protection Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94263
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded writ asks for a Fire Protection Potion and gives terms for delivery and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Written Terms",
+   "body": "The note is penned in faded ink, and its terms call for one Fire Protection Potion. It also names where the customer expects delivery and how payment is to be handled. The writ can pass from hand to hand, but you need to hold it when the transaction is completed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "fire protection potion writ",
+    "what item is requested"
+   ],
+   "answer": "The customer requests one Fire Protection Potion."
+  },
+  {
+   "q": "Where do I deliver the potion?",
+   "aliases": [
+    "delivery location",
+    "where to take it"
+   ],
+   "answer": "The writ provides a delivery location, marked on your map."
+  },
+  {
+   "q": "How is payment handled?",
+   "aliases": [
+    "how much payment",
+    "payment terms"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "pass writ along"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ for the exchange?",
+   "aliases": [
+    "need writ to complete",
+    "writ required"
+   ],
+   "answer": "Yes. You must have the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "fire protection potion",
+  "payment",
+  "potion",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Fire Protection Potion"
+ ]
+}

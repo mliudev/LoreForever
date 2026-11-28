@@ -1,0 +1,67 @@
+{
+ "key": "quest:4503",
+ "type": "quest",
+ "name": "Shizzle's Flyer",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4503
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shizzle asks you to bring him scales from Webbed Diemetradons and Webbed Pterrordaxes. He needs eight of each in Marshal's Refuge.",
+ "sections": [
+  {
+   "title": "Scales for Shizzle",
+   "body": "In Marshal's Refuge, Shizzle asks you for scales from two creatures. He needs eight Webbed Diemetradon Scales and eight Webbed Pterrordax Scales. You gather both kinds for him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Shizzle need?",
+   "aliases": [
+    "shizzle scales",
+    "what scales",
+    "shizzle flyer"
+   ],
+   "answer": "Shizzle needs eight Webbed Diemetradon Scales and eight Webbed Pterrordax Scales."
+  },
+  {
+   "q": "Who am I collecting scales for?",
+   "aliases": [
+    "who wants scales",
+    "shizzle who",
+    "scales for who"
+   ],
+   "answer": "You are collecting the scales for Shizzle."
+  },
+  {
+   "q": "Where is Shizzle asking for the scales?",
+   "aliases": [
+    "where shizzle",
+    "marshal refuge scales",
+    "scale location"
+   ],
+   "answer": "Shizzle asks for the scales in Marshal's Refuge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "marshal's refuge",
+  "scales",
+  "shizzle",
+  "shizzle's flyer",
+  "webbed diemetradon scales",
+  "webbed pterrordax scales"
+ ],
+ "related": [
+  "subzone:marshal-s-refuge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shizzle's Flyer"
+ ]
+}

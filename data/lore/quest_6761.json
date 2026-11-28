@@ -1,0 +1,99 @@
+{
+ "key": "quest:6761",
+ "type": "quest",
+ "name": "The New Frontier",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6761
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mathrengyl Bearwalker asks you to speak with him in Darnassus about mistrust among the Cenarion Circle's leaders. Strange corruptions of Teldrassil continue while their duty remains.",
+ "sections": [
+  {
+   "title": "At the Enclave",
+   "body": "Mathrengyl Bearwalker waits at Darnassus's Cenarion Enclave, where you can hear of a growing rift. He and Keeper Remulos each suspect the other of deception. Strange corruptions of Teldrassil continue, and the Cenarion Circle's duty endures despite its leaders' disagreement.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to speak with them?",
+   "aliases": [
+    "who wants to talk",
+    "mathrengyl",
+    "bearwalker"
+   ],
+   "answer": "Mathrengyl Bearwalker asks you to speak with him at the Cenarion Enclave in Darnassus."
+  },
+  {
+   "q": "Where do I find Mathrengyl Bearwalker?",
+   "aliases": [
+    "mathrengyl location",
+    "where is bearwalker",
+    "cenarion enclave"
+   ],
+   "answer": "Mathrengyl Bearwalker is at the Cenarion Enclave in Darnassus."
+  },
+  {
+   "q": "Why is there mistrust between the leaders?",
+   "aliases": [
+    "why mistrust",
+    "remulos and mathrengyl",
+    "cenarion circle trouble"
+   ],
+   "answer": "Mathrengyl says he and Keeper Remulos each suspect the other of deception. The continuing corruptions of Teldrassil add to the strain."
+  },
+  {
+   "q": "What is happening to Teldrassil?",
+   "aliases": [
+    "teldrassil corruption",
+    "strange corruption",
+    "tree trouble"
+   ],
+   "answer": "Strange corruptions of Teldrassil continue despite the disagreement between Mathrengyl Bearwalker and Keeper Remulos."
+  },
+  {
+   "q": "What duty remains despite their disagreement?",
+   "aliases": [
+    "cenarion duty",
+    "what does the circle do",
+    "circle leaders"
+   ],
+   "answer": "Mathrengyl says the Cenarion Circle's duty remains, even when its leaders disagree."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you meet Mathrengyl Bearwalker at the Cenarion Enclave, where the Cenarion Circle's leaders are at odds as Teldrassil's corruptions continue."
+  }
+ ],
+ "keywords": [
+  "cenarion circle",
+  "cenarion enclave",
+  "darnassus",
+  "keeper remulos",
+  "mathrengyl bearwalker",
+  "mistrust",
+  "teldrassil corruption",
+  "the new frontier"
+ ],
+ "related": [
+  "quest:940",
+  "quest:5921",
+  "zone:darnassus",
+  "subzone:cenarion-enclave",
+  "npc:mathrengyl-bearwalker",
+  "npc:remulos",
+  "topic:cenarion-circle",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The New Frontier"
+ ]
+}

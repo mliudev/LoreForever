@@ -1,0 +1,96 @@
+{
+ "key": "quest:88917",
+ "type": "quest",
+ "name": "Slithering Looters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   88917
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Saria Fairmoon seeks the Staff of Archmage Selwyn among Eldarath\u2019s relics. Naga are looting the ruins, and she asks you to recover it.",
+ "sections": [
+  {
+   "title": "Saria\u2019s Search",
+   "body": "Saria Fairmoon has come to Azshara to study highborne artifacts. She says naga are looting the ruins of Eldarath to the west, led by Lady Sesspira. Saria suspects Sesspira has the staff of Archmage Selwyn, a fallen highborne mage. She asks you to bring it to her, since she is ill-suited for combat.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Staff",
+   "body": "Saria receives the staff in pristine condition. She finds your partnership of scholarly mind and willing strength agreeable, and asks whether you would help her again.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the staff?",
+   "aliases": [
+    "who wants the staff",
+    "Saria Fairmoon",
+    "archaeologist in Azshara"
+   ],
+   "answer": "Saria Fairmoon is studying highborne artifacts in Azshara and asks you to bring her the Staff of Archmage Selwyn."
+  },
+  {
+   "q": "Where is the staff?",
+   "aliases": [
+    "where find Selwyn staff",
+    "staff location",
+    "Eldarath staff"
+   ],
+   "answer": "Saria believes Lady Sesspira may have the Staff of Archmage Selwyn among the relics in the Ruins of Eldarath."
+  },
+  {
+   "q": "Who is Lady Sesspira?",
+   "aliases": [
+    "Sesspira who",
+    "naga leader",
+    "lady naga"
+   ],
+   "answer": "Lady Sesspira is a naga who leads the looting of the Ruins of Eldarath."
+  },
+  {
+   "q": "Who was Archmage Selwyn?",
+   "aliases": [
+    "Selwyn backstory",
+    "who's Selwyn",
+    "highborne mage"
+   ],
+   "answer": "Archmage Selwyn was a highborne mage who has fallen."
+  },
+  {
+   "q": "Why does Saria need help?",
+   "aliases": [
+    "why help Saria",
+    "Saria can't fight",
+    "mind and muscle"
+   ],
+   "answer": "Saria says scholars like her are ill-suited for combat, so she asks you to retrieve the staff."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "highborne",
+  "lady sesspira",
+  "naga",
+  "ruins of eldarath",
+  "saria fairmoon",
+  "slithering looters",
+  "staff of archmage selwyn"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:ruins-of-eldarath",
+  "topic:highborne",
+  "topic:naga",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Slithering Looters"
+ ]
+}

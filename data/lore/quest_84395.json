@@ -1,0 +1,67 @@
+{
+ "key": "quest:84395",
+ "type": "quest",
+ "name": "Undead Potatoes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   84395
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian seeks magical works for the Library in Ironforge. Your discoveries help expand its collection and knowledge.",
+ "sections": [
+  {
+   "title": "For the Collection",
+   "body": "The librarian at the Library in Ironforge asks whether you have brought something to add to the collection. Magical works may benefit the library, and your efforts help its knowledge expand. The librarian welcomes more such discoveries.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want?",
+   "aliases": [
+    "what do they want",
+    "library books",
+    "magical works"
+   ],
+   "answer": "The librarian asks for magical works that might benefit the Library's collection."
+  },
+  {
+   "q": "Where is the collection?",
+   "aliases": [
+    "where's the library",
+    "ironforge library",
+    "which library"
+   ],
+   "answer": "The collection is in the Library in Ironforge."
+  },
+  {
+   "q": "Why bring magical works?",
+   "aliases": [
+    "why books",
+    "what are they for",
+    "library collection"
+   ],
+   "answer": "Your efforts help expand the library's knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "librarian",
+  "library",
+  "magical works",
+  "undead potatoes"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Undead Potatoes"
+ ]
+}

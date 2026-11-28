@@ -1,0 +1,76 @@
+{
+ "key": "quest:89037",
+ "type": "quest",
+ "name": "Murloc Thieves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   89037
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Saria Fairmoon seeks the Memory Crystal taken by Razorgill near the Tower of Eldara. Its strange voices may hold arcane power.",
+ "sections": [
+  {
+   "title": "A Crystal Recovered",
+   "body": "The Memory Crystal reaches Saria Fairmoon in Azshara intact. Its clamoring voices stir her curiosity, and she finds them alluring. The crystal may hold the key to arcane power, and it is a piece of history saved.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Memory Crystal?",
+   "aliases": [
+    "who wants crystal",
+    "Saria Fairmoon crystal"
+   ],
+   "answer": "Saria Fairmoon in Azshara asks you to bring her the Memory Crystal."
+  },
+  {
+   "q": "Where is the Memory Crystal?",
+   "aliases": [
+    "crystal location",
+    "where's Razorgill"
+   ],
+   "answer": "Razorgill has the Memory Crystal near the Tower of Eldara."
+  },
+  {
+   "q": "What is the Memory Crystal?",
+   "aliases": [
+    "memory crystal meaning",
+    "what's the crystal"
+   ],
+   "answer": "Saria calls the Memory Crystal a piece of history. Its voices may hold the key to arcane power."
+  },
+  {
+   "q": "What is strange about the crystal?",
+   "aliases": [
+    "crystal voices",
+    "clamoring crystal"
+   ],
+   "answer": "The Memory Crystal has clamoring voices that Saria finds curious and alluring."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azshara",
+  "crystal voices",
+  "memory crystal",
+  "murloc",
+  "murloc thieves",
+  "razorgill",
+  "saria fairmoon",
+  "tower of eldara"
+ ],
+ "related": [
+  "zone:azshara",
+  "subzone:tower-of-eldara",
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Murloc Thieves"
+ ]
+}
