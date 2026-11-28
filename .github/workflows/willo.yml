@@ -80,12 +80,7 @@ jobs:
           gh api "repos/$env:GH_REPO/git/ref/tags/$env:TAG" 2>$null | Out-Null
           if ($LASTEXITCODE -eq 0 -and $draft -notin 'true', 'ours') { "::error::the tag $env:TAG already exists"; exit 1 }
           $global:LASTEXITCODE = 0
-      # This commit's release/installer (the wizard's pictures).
-      - uses: actions/checkout@v7
-        with:
-          sparse-checkout: |
-            release/installer
-            scripts
+      # Wizard images and release_staging come from her cut (companion_ref), never public main (docs/releases.md rule 1, 2).
       - name: Check out Willo's source (private, read-only)
         uses: actions/checkout@v7
         with:
@@ -96,6 +91,8 @@ jobs:
           sparse-checkout: |
             companion
             data/pronunciation.json
+            release/installer
+            scripts
           sparse-checkout-cone-mode: false
       - uses: astral-sh/setup-uv@v10.3.0
       - name: Install Inno Setup
@@ -133,7 +130,7 @@ jobs:
         run: |
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ inputs.version }}" `
             "/DCompanionDir=$env:RUNNER_TEMP\companion\LoreForeverCompanion" "/DOutputDir=$PWD\dist" `
-            "/DWizardDir=$PWD\release\installer" companion-src\companion\packaging\Willo.iss
+            "/DWizardDir=$PWD\companion-src\release\installer" companion-src\companion\packaging\Willo.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
       - name: Sign Willo-Setup.exe
         if: vars.SIGNING_PROFILE != ''
@@ -175,7 +172,7 @@ jobs:
       - name: Freeze the signed Willo installer
         shell: pwsh
         run: |
-          python scripts/release_staging.py --commit "$(git rev-parse HEAD)" willo-manifest `
+          python companion-src/scripts/release_staging.py --commit "${{ github.sha }}" willo-manifest `
             --setup dist/Willo-Setup.exe --signature dist/willo-signature.json --output dist/willo-proof.json `
             --companion-ref "$(git -C companion-src rev-parse HEAD)"
       - uses: actions/upload-artifact@v7
@@ -210,9 +207,6 @@ jobs:
         run: |
           [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "::error::version must look like 0.37.0"; exit 1; }
           [[ "$REF" =~ ^[0-9a-f]{40}$ ]] || { echo "::error::companion_ref must be a full commit id"; exit 1; }
-      - uses: actions/checkout@v7
-        with:
-          sparse-checkout: scripts
       - id: go
         name: The Mac secrets
         env:
@@ -243,6 +237,7 @@ jobs:
           sparse-checkout: |
             companion
             data/pronunciation.json
+            scripts
           sparse-checkout-cone-mode: false
       - uses: astral-sh/setup-uv@v10.3.0
         if: steps.go.outputs.go == 'true'
@@ -271,7 +266,7 @@ jobs:
       - name: Freeze the notarized Willo for Mac
         if: steps.build.outputs.built == 'true'
         run: |
-          python3 scripts/release_staging.py --commit "$(git rev-parse HEAD)" mac-manifest \
+          python3 companion-src/scripts/release_staging.py --commit "${{ github.sha }}" mac-manifest \
             --dmg dist/Willo-mac.dmg --signature dist/mac-signature.json --output dist/mac-proof.json \
             --companion-ref "$(git -C companion-src rev-parse HEAD)"
       - uses: actions/upload-artifact@v7
@@ -302,7 +297,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          sparse-checkout: scripts
+          sparse-checkout: scripts/willo
       # Every attempt's, in folders of their own: a rerun of a failed job reuses the others' (the newest is taken).
       - uses: actions/download-artifact@v8
         with:
@@ -315,7 +310,7 @@ jobs:
           REF: ${{ inputs.companion_ref }}
           VERSION: ${{ inputs.version }}
           SIGNED: ${{ vars.SIGNING_PROFILE != '' }}
-        run: bash scripts/publish_willo_platform.sh win dist/willo willo-proof.json Willo-Setup.exe
+        run: bash scripts/willo/publish_willo_platform.sh win dist/willo willo-proof.json Willo-Setup.exe
 
   publish-mac:
     needs: willo-mac
@@ -330,7 +325,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          sparse-checkout: scripts
+          sparse-checkout: scripts/willo
       - uses: actions/download-artifact@v8
         with:
           pattern: mac-${{ inputs.version }}-*
@@ -342,4 +337,4 @@ jobs:
           REF: ${{ inputs.companion_ref }}
           VERSION: ${{ inputs.version }}
           SIGNED: ${{ vars.SIGNING_PROFILE != '' }}
-        run: bash scripts/publish_willo_platform.sh mac dist/mac mac-proof.json Willo-mac.dmg
+        run: bash scripts/willo/publish_willo_platform.sh mac dist/mac mac-proof.json Willo-mac.dmg
