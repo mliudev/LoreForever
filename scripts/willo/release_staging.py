@@ -1,0 +1,1593 @@
+#!/usr/bin/env python3
+"""Source-bound producer uploads and verified draft promotion. No large final-job downloads.
+
+Published-tag rebuilds keep the previous local-artifact path. New tags and failed
+unpublished runs stage into a draft; only complete, digest-verified outputs go live.
+"""
+import argparse
+import hashlib
+import http.client
+import json
+import os
+import re
+import shutil
+import subprocess
+import tempfile
+import threading
+import time
+import urllib.error
+import urllib.request
+import zipfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+from installer_inputs import CONTROLS, SELECTIONS, selected_archives
+
+STAGE_WORKERS = 5      # side-by-side uploads to the draft release (stage --workers)
+ARTIFACT_WORKERS = 6   # artifact entries fetched side by side, each straight from storage (receive)
+
+
+WILLO = 'Willo-Setup.exe'                  # Willo's own installer: optional, the release never waits on it
+WILLO_MAC = 'Willo-mac.dmg'                # Willo for Mac (LOR-636), signed and notarized: optional the same way
+INSTALLER = 'LoreForever-Setup.exe'        # the add-on's Windows installer: attached after the zip publishes (attach())
+INSTALLER_KEYS = ('signature', 'smoke')    # what the manifest says of it, beside its row
+GITHUB_ASSET_LIMIT = 2 * 1024 ** 3         # GitHub's per-file release asset limit
+
+
+class Failure(RuntimeError):
+    pass
+
+
+def run(*args, binary=None):
+    # gh writes UTF-8; Windows' default (cp1252) can't read a release note's '…' (1.11.0's staging, 11/15).
+    text = {'encoding': 'utf-8', 'errors': 'replace'} if binary is None else {}
+    result = subprocess.run(['gh', *map(str, args)], stdout=binary or subprocess.PIPE,
+                            stderr=subprocess.PIPE, **text)
+    if result.returncode:
+        error = result.stderr if binary is None else result.stderr.decode(errors='replace')
+        raise Failure(error.strip() or 'gh failed')
+    return result.stdout
+
+
+def api(repo, endpoint):
+    return json.loads(run('api', f'repos/{repo}/{endpoint}'))
+
+
+def sha(path):
+    with path.open('rb') as stream:
+        return hashlib.file_digest(stream, 'sha256').hexdigest()
+
+
+def name(value):
+    if not isinstance(value, str) or not re.fullmatch(r'[A-Za-z0-9_.-]+', value) or '..' in value:
+        raise Failure('Unsafe asset name: ' + repr(value))
+    return value
+
+
+def row(path, asset=None):
+    if not path.is_file() or path.is_symlink():
+        raise Failure('Expected a regular asset: ' + str(path))
+    return {'name': name(asset or path.name), 'bytes': path.stat().st_size, 'sha256': sha(path)}
+
+
+def binding(args):
+    # The add-on's vX.Y.Z, or Willo's own willo-vX.Y.Z (her version apart from the add-on's, Mike 11/1).
+    if not re.fullmatch(r'(willo-)?v\d+\.\d+\.\d+', args.tag) or not re.fullmatch(r'[0-9a-f]{40}', args.commit):
+        raise Failure('Require exact version tag and source commit')
+    if not str(args.run).isdigit() or not str(args.attempt).isdigit():
+        raise Failure('Require current workflow run and attempt')
+    return {'repository': args.repo, 'tag': args.tag, 'sourceCommit': args.commit,
+            'runId': str(args.run), 'runAttempt': str(args.attempt)}
+
+
+
+def same_binding(actual, expected):
+    """A failed-job retry may reuse a successful producer from this run, with identical immutable inputs."""
+    return (all(actual.get(k) == expected[k] for k in ('repository', 'tag', 'sourceCommit', 'runId'))
+            and str(actual.get('runAttempt', '')).isdigit()
+            and 1 <= int(actual['runAttempt']) <= int(expected['runAttempt']))
+
+def read(path):
+    return json.loads(path.read_text(encoding='utf-8-sig'))
+
+
+def write(path, value):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+
+
+def get_release(repo, tag):
+    """The release for a tag, drafts included. GitHub's by-tag endpoint never returns a draft (HTTP 404), so a draft
+    this workflow just created is found in the release list instead (0.13.0's first run failed on exactly that)."""
+    try:
+        return api(repo, 'releases/tags/' + tag)
+    except Failure as error:
+        if '(HTTP 404)' not in str(error):
+            raise
+    for page in range(1, 6):
+        releases = api(repo, f'releases?per_page=100&page={page}')
+        for release in releases:
+            if release.get('tag_name') == tag:
+                return release
+        if len(releases) < 100:
+            break
+    return None
+
+
+def prepare(args):
+    version = args.tag.removeprefix('v')
+    toc = Path('addon/LoreForever/LoreForever.toc').read_text()
+    actual = re.search(r'^## Version: *([^\r\n]+)', toc, re.M)
+    if not actual or actual[1] != version:
+        raise Failure('Tag does not match the .toc version')
+    binding(args)
+    release = get_release(args.repo, args.tag)
+    if release is None:
+        run('release', 'create', args.tag, '-R', args.repo, '--verify-tag', '--draft',
+            '--title', 'Lore Forever ' + version, '--notes', 'Release preparation in progress.')
+        # The release list can lag a draft created a moment ago (0.13.1's first run read nothing right after creating
+        # it), so look again for up to half a minute.
+        for wait in (0, 2, 4, 8, 16):
+            time.sleep(wait)
+            release = get_release(args.repo, args.tag)
+            if release is not None:
+                break
+        else:
+            raise Failure('Created the draft release, but GitHub does not list it yet; rerun the workflow')
+    published = not release['draft']
+    if release.get('prerelease'):
+        raise Failure('Version tag points to a prerelease')
+    message = subprocess.run(['git', 'for-each-ref', 'refs/tags/' + args.tag, '--format=%(contents)'],
+                             capture_output=True, encoding='utf-8', errors='replace', check=True).stdout
+    hashes = re.findall(r'^zip-sha256: *([^\r\n]*)$', message, re.M)
+    if any(not re.fullmatch('[0-9a-f]{64}', h) for h in hashes):
+        raise Failure('Invalid QA ZIP binding in tag')
+    if len(hashes) > 1:
+        raise Failure('Duplicate QA ZIP binding in tag')
+    outputs = {'version': version, 'source_commit': args.commit, 'published': str(published).lower(),
+               'zip_sha256': hashes[0] if hashes else ''}
+    if os.environ.get('GITHUB_OUTPUT'):
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as stream:
+            for key, value in outputs.items():
+                stream.write(f'{key}={value}\n')
+    print(json.dumps(outputs))
+
+
+def load_holds(holds_path=None):
+    """Load release/pack-holds.json fail-closed; missing default file means no holds."""
+    explicit = holds_path is not None
+    path = Path(holds_path) if explicit else Path('release/pack-holds.json')
+    if not path.exists() and not path.is_symlink():
+        if explicit:
+            raise Failure(f'Missing pack holds file: {path}')
+        return set()
+    try:
+        doc = read(path)
+    except (OSError, ValueError) as error:
+        raise Failure(f'Invalid pack holds file {path}: {error}') from error
+    if not isinstance(doc, dict) or not isinstance(doc.get('holds'), dict):
+        raise Failure(f'Invalid pack holds schema in {path}: expected object with dict "holds"')
+    for pack, reason in doc['holds'].items():
+        if not isinstance(pack, str) or not pack or not isinstance(reason, str):
+            raise Failure(f'Invalid pack holds entry in {path}: expected string pack name and reason')
+    return set(doc['holds'].keys())
+
+
+VERSION_SUFFIX = re.compile(r'-\d+\.\d+\.\d+(?:\.\d+)?$')
+
+
+def matches_held(name_or_stem, held):
+    """Whether an archive name, stem, bundle stem, or transport shard matches a held pack."""
+    stem = VERSION_SUFFIX.sub('', name_or_stem.removesuffix('.zip'))
+    return (stem in held
+            or stem.removesuffix('-complete') in held
+            or any(stem.startswith(h + '_Transport_') for h in held))
+
+
+def check_downloads_not_held(downloads, held):
+    """Fail closed if the download contract includes any pack in release/pack-holds.json."""
+    if not held:
+        return
+    for item in downloads.get('downloads', []):
+        arc = item.get('archive', '')
+        folders = item.get('folders', [])
+        if (isinstance(arc, str) and matches_held(arc, held)) or any(isinstance(f, str) and matches_held(f, held) for f in folders):
+            raise Failure(f'Held pack download {arc or folders} is barred by release/pack-holds.json')
+    for selection, folders in (downloads.get('selections') or {}).items():
+        if isinstance(folders, list):
+            blocked = [f for f in folders if isinstance(f, str) and matches_held(f, held)]
+            if blocked:
+                raise Failure(f'Held pack(s) {", ".join(blocked)} in selection {selection} barred by release/pack-holds.json')
+    for source in (downloads.get('packs') or {}):
+        if isinstance(source, str) and matches_held(source, held):
+            raise Failure(f'Held pack transport {source} is barred by release/pack-holds.json')
+
+
+def check_archive_not_held(zip_path, held):
+    """Fail closed if an archive's stem or top-level ZIP folders match any held pack."""
+    if not held:
+        return
+    if matches_held(zip_path.name, held):
+        raise Failure(f'Held pack archive {zip_path.name} is barred by release/pack-holds.json')
+    if zip_path.is_file() and zip_path.suffix == '.zip':
+        with zipfile.ZipFile(zip_path) as archive:
+            folders = {member.split('/', 1)[0] for member in archive.namelist() if member}
+        blocked = sorted(f for f in folders if matches_held(f, held))
+        if blocked:
+            raise Failure(f'Archive {zip_path.name} contains held pack(s) ({", ".join(blocked)}) barred by release/pack-holds.json')
+
+
+def installer_inputs(args, candidate):
+    """The Windows job's inputs: the QA-tested zip, the download controls and every archive the three install checks
+    fetch, each matching the frozen download contract, which must be this tag's, source's and zip's."""
+    held = load_holds(getattr(args, 'holds', None))
+    downloads = read(args.extras / CONTROLS[0])
+    if (downloads.get('releaseVersion'), downloads.get('sourceCommit'), downloads.get('candidateZipSha256')) != (
+            args.tag.removeprefix('v'), args.commit, candidate['sha256']):
+        raise Failure('Installer downloads differ from this tag/source/QA ZIP')
+    selected = selected_archives(downloads)
+    check_downloads_not_held(downloads, held)
+    inputs = [candidate | {'name': 'LoreForever.zip'}]
+    for n in sorted(set(CONTROLS) | selected.keys()):
+        info = row(args.extras / n)
+        if n in selected:
+            if info['sha256'] != selected[n]:
+                raise Failure('Selected installer archive differs: ' + n)
+            check_archive_not_held(args.extras / n, held)
+        inputs.append(info | {'name': 'extra/' + n})
+    return downloads, inputs
+
+
+def handover(args):
+    """The Windows job's inputs as soon as they're built, before the other narration packs (0.18.0's installer waited
+    4 minutes for those): the same files and contract bundle() makes from the full proof. linux-manifest --handover
+    then checks that the full build came to the same inputs."""
+    bound = binding(args)
+    candidate = row(args.core, 'LoreForever.zip')
+    _, inputs = installer_inputs(args, candidate)
+    write_inputs(inputs, [args.core, args.extras], args.output, bound, candidate['sha256'])
+    print(json.dumps({'handedOverFiles': len(inputs), 'handedOverBytes': sum(r['bytes'] for r in inputs)}))
+
+
+def _check_candidate_sha(candidate, expected_sha):
+    if expected_sha:
+        if not re.fullmatch(r'[0-9a-f]{64}', expected_sha):
+            raise Failure('Invalid expected candidate ZIP SHA256')
+        if candidate['sha256'] != expected_sha:
+            raise Failure('Candidate ZIP binding differs')
+
+
+def core_manifest(args):
+    """Freeze source-bound core ZIP (+ decoupled transport contract when provided) without building optional packs."""
+    bound = binding(args)
+    version = args.tag.removeprefix('v')
+    candidate = row(args.core, 'LoreForever.zip')
+    _check_candidate_sha(candidate, getattr(args, 'zip_sha256', None))
+    if not 0 < candidate['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure('LoreForever.zip is over GitHub\'s release asset limit')
+    import curseforge_voices as cv
+    projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
+    fingerprints = cv.source_fingerprints(projects, {'LoreForever.zip': args.core}, version)
+    proof_assets = [candidate]
+    extra_fields = {}
+    report = {'releaseFiles': 1, 'releaseBytes': candidate['bytes']}
+    if getattr(args, 'extras', None) is not None:
+        downloads, inputs = installer_inputs(args, candidate)
+        if getattr(args, 'handover', None) is not None:
+            early = read(args.handover)
+            if (early.get('version'), early.get('binding'), early.get('files'), early.get('candidateZipSha256')) != (
+                    1, bound, inputs, candidate['sha256']):
+                raise Failure('The installer inputs handed to Windows differ from the full build')
+        transport_row = row(args.extras / CONTROLS[0], 'transport-downloads.json')
+        if not 0 < transport_row['bytes'] < GITHUB_ASSET_LIMIT:
+            raise Failure('transport-downloads.json is over GitHub\'s release asset limit')
+        proof_assets = sorted([candidate, transport_row], key=lambda r: r['name'])
+        extra_fields = {
+            'installerInputs': inputs,
+            'smokeSelections': {s: s == 'base' or bool(downloads['selections'].get(s)) for s in SELECTIONS},
+        }
+        report = {
+            'releaseFiles': len(proof_assets),
+            'releaseBytes': sum(r['bytes'] for r in proof_assets),
+            'windowsFiles': len(inputs),
+            'windowsBytes': sum(r['bytes'] for r in inputs),
+        }
+    proof = {'version': 1, 'producer': 'core', 'binding': bound, 'assets': proof_assets,
+             'candidateZipSha256': candidate['sha256'], 'curseforge': fingerprints, **extra_fields}
+    write(args.output, proof)
+    print(json.dumps(report))
+
+
+def _validate_extras(args):
+    bound = binding(args)
+    version = args.tag.removeprefix('v')
+    candidate = row(args.core, 'LoreForever.zip')
+    _check_candidate_sha(candidate, getattr(args, 'zip_sha256', None))
+    downloads, inputs = installer_inputs(args, candidate)
+    # The installer's downloads are frozen once its own packs are built: a pack it calls unavailable that the
+    # release has after all was built after that, and the installer would leave it out.
+    for item in downloads.get('unavailable', []):
+        if 'archive' in item and (args.extras / name(item['archive'])).exists():
+            raise Failure('Installer downloads were frozen before ' + item['archive'] + ' was built')
+    if getattr(args, 'handover', None):
+        early = read(args.handover)
+        if (early.get('version'), early.get('binding'), early.get('files'), early.get('candidateZipSha256')) != (
+                1, bound, inputs, candidate['sha256']):
+            raise Failure('The installer inputs handed to Windows differ from the full build')
+    archives = []
+    for line in (args.extras / 'manifest.tsv').read_text().splitlines():
+        fields = line.split('\t')
+        if len(fields) != 3 or fields[2] != version or not name(fields[0]).endswith('.zip'):
+            raise Failure('Invalid release extras inventory')
+        archives.append(fields[0])
+    if 'LoreForever.zip' in archives or len(set(archives)) != len(archives):
+        raise Failure('Duplicate release archive')
+    if set(archives) != {p.name for p in args.extras.glob('*.zip')}:
+        raise Failure('Release extras inventory differs from the built archives')
+    held = load_holds(getattr(args, 'holds', None))
+    for n in archives:
+        check_archive_not_held(args.extras / n, held)
+    return bound, version, candidate, downloads, inputs, archives
+
+
+def linux_manifest(args):
+    if getattr(args, 'core_only', False):
+        return core_manifest(args)
+    bound, version, candidate, downloads, inputs, archives = _validate_extras(args)
+    files = {'LoreForever.zip': args.core, **{n: args.extras / n for n in archives},
+             'transport-downloads.json': args.extras / CONTROLS[0]}
+    import curseforge_voices as cv
+    projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
+    fingerprints = cv.source_fingerprints(projects, files, version)
+    proof = {'version': 1, 'producer': 'linux', 'binding': bound, 'assets': [row(p, n) for n, p in sorted(files.items())],
+             'installerInputs': inputs, 'candidateZipSha256': candidate['sha256'], 'curseforge': fingerprints,
+             'smokeSelections': {s: s == 'base' or bool(downloads['selections'].get(s)) for s in SELECTIONS}}
+    write(args.output, proof)
+    print(json.dumps({'releaseFiles': len(files), 'releaseBytes': sum(p.stat().st_size for p in files.values()),
+                      'windowsFiles': len(inputs), 'windowsBytes': sum(r['bytes'] for r in inputs)}))
+
+
+def packs_manifest(args):
+    """Freeze source-bound optional narration packs and transport contract bound to source_commit and candidateZipSha256."""
+    bound, version, candidate, downloads, inputs, archives = _validate_extras(args)
+    pack_files = {**{n: args.extras / n for n in archives}, 'transport-downloads.json': args.extras / CONTROLS[0]}
+    rows = check_rows([row(p, n) for n, p in sorted(pack_files.items())])
+    for r in rows:
+        if r['bytes'] >= GITHUB_ASSET_LIMIT:
+            raise Failure(r['name'] + ' is over GitHub\'s release asset limit')
+    import curseforge_voices as cv
+    projects = [p for p in cv.load_config() if p.get('id') and not cv.language_project(p)]
+    fingerprints = cv.source_fingerprints(projects, {'LoreForever.zip': args.core, **pack_files}, version)
+    proof = {'version': 1, 'producer': 'packs', 'binding': bound, 'assets': rows,
+             'installerInputs': inputs, 'candidateZipSha256': candidate['sha256'], 'curseforge': fingerprints,
+             'smokeSelections': {s: s == 'base' or bool(downloads['selections'].get(s)) for s in SELECTIONS}}
+    write(args.output, proof)
+    print(json.dumps({'packFiles': len(pack_files), 'packBytes': sum(p.stat().st_size for p in pack_files.values()),
+                      'windowsFiles': len(inputs), 'windowsBytes': sum(r['bytes'] for r in inputs)}))
+
+
+def check_row(actual, expected):
+    if (actual.get('state'), actual.get('size'), actual.get('digest')) != (
+            'uploaded', expected['bytes'], 'sha256:' + expected['sha256']):
+        raise Failure('Remote size/SHA256 differs: ' + expected['name'])
+
+
+def assets(release):
+    result = {a['name']: a for a in release['assets']}
+    if len(result) != len(release['assets']):
+        raise Failure('Duplicate remote assets')
+    return result
+
+
+def locate(roots, expected):
+    matches = [p for root in roots for p in ([root] if root.is_file() else root.rglob(expected['name']))
+               if p.is_file() and p.name == expected['name']]
+    if not matches:
+        raise Failure('Missing local asset: ' + expected['name'])
+    for path in matches:
+        if row(path) != expected:
+            raise Failure('Local size/SHA256 differs: ' + expected['name'])
+    return matches[0]
+
+
+def matches(current, expected):
+    return bool(current) and (current.get('state'), current.get('size'), current.get('digest')) == (
+        'uploaded', expected['bytes'], 'sha256:' + expected['sha256'])
+
+
+def upload_once(repo, tag, path, expected):
+    run('release', 'upload', tag, '-R', repo, path, '--clobber')
+    current = assets(get_release(repo, tag)).get(expected['name'])
+    if current is None:
+        raise Failure('Uploaded asset is missing from the release: ' + expected['name'])
+    check_row(current, expected)
+    print('uploaded ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
+    return expected['bytes']
+
+
+def upload(repo, tag, path, expected, published=False):
+    release = get_release(repo, tag)
+    if release is None or (not release['draft'] and not published):
+        raise Failure('Producer uploads require an unpublished draft')
+    if matches(assets(release).get(expected['name']), expected):
+        print('reused ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
+        return 0
+    for attempt in range(3):
+        try:
+            return upload_once(repo, tag, path, expected)
+        except Failure:
+            if attempt == 2:
+                raise
+            time.sleep(2)
+    return 0
+
+
+def _upload_assets(repo, tag, jobs, remote, *, workers=STAGE_WORKERS, published=False):
+    """Upload jobs [(path, row)] in parallel, reusing matching remote assets and verifying all on remote."""
+    pending = []
+    for path, r in jobs:
+        if matches(remote.get(r['name']), r):
+            print('reused ' + r['name'] + ' ' + str(r['bytes']) + ' bytes', flush=True)
+        else:
+            pending.append((path, r))
+    pending.sort(key=lambda job: -job[1]['bytes'])   # the biggest first, so the last ones to finish are small
+    transferred, failed = 0, []
+    pool_workers = max(1, min(workers, len(pending) or 1))
+    with ThreadPoolExecutor(pool_workers) as pool:
+        futures = {pool.submit(upload_once, repo, tag, path, r): (path, r) for path, r in pending}
+        for future in as_completed(futures):
+            path, r = futures[future]
+            try:
+                transferred += future.result()
+            except Exception as error:   # noqa: BLE001 - any failure here gets the serial retry below
+                last = (str(error).strip().splitlines() or [type(error).__name__])[-1]
+                print('retrying ' + r['name'] + ' on its own: ' + last, flush=True)
+                failed.append((path, r))
+    for path, r in sorted(failed, key=lambda job: job[1]['name']):
+        transferred += upload(repo, tag, path, r, published=published)
+    remote = assets(get_release(repo, tag))
+    for _, r in jobs:
+        if r['name'] not in remote:
+            raise Failure('Missing staged asset: ' + r['name'])
+        check_row(remote[r['name']], r)
+    return transferred, pool_workers, len(failed), remote
+
+
+def stage(args):
+    """Upload a producer's assets to the draft, several at a time (0.17.0: 41 files, 10 GB, one after another took
+    6.4 minutes at ~30 MB/s each). Every local file matches the proof before anything uploads; whatever fails side by
+    side is retried one at a time with upload()'s own retries; and at the end every asset of the proof is on the draft
+    with its exact size and SHA256, as finalize() checks again before promotion."""
+    proof = read(args.manifest)
+    if proof['binding'] != binding(args):
+        raise Failure('Producer proof belongs to another source/run')
+    jobs = [(locate(args.root, r), r) for r in proof['assets']]
+    release = get_release(args.repo, args.tag)
+    if release is not None and not release['draft'] and getattr(args, 'if_draft', False):
+        # The Windows installer, after the zip side published without it: attach-installer adds it.
+        print(json.dumps({'producer': proof['producer'], 'staged': False,
+                          'reason': args.tag + ' is already published; attach-installer adds this'}))
+        return
+    if release is None or not release['draft']:
+        raise Failure('Producer uploads require an unpublished draft')
+    transferred, workers, retries, _ = _upload_assets(
+        args.repo, args.tag, jobs, assets(release),
+        workers=getattr(args, 'workers', STAGE_WORKERS),
+        published=getattr(args, 'if_draft', False),
+    )
+    print(json.dumps({'producer': proof['producer'], 'completedUploadBytes': transferred,
+                      'verifiedAssets': len(proof['assets']), 'parallelUploads': workers,
+                      'serialRetries': retries}))
+
+
+def write_inputs(rows, roots, output, bound, candidate_sha):
+    if output.exists():
+        raise Failure('Bundle binding differs or destination already exists')
+    output.mkdir(parents=True)
+    for expected in rows:
+        relative = expected['name']
+        local = expected | {'name': relative.split('/')[-1]}
+        source = locate(roots, local)
+        target = output / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            os.link(source, target)
+        except OSError:
+            shutil.copyfile(source, target)
+    write(output / 'inputs.json', {'version': 1, 'binding': bound, 'files': rows, 'candidateZipSha256': candidate_sha})
+
+
+def bundle(args):
+    proof = read(args.manifest)
+    if proof['binding'] != binding(args):
+        raise Failure('Bundle binding differs or destination already exists')
+    write_inputs(proof['installerInputs'], args.root, args.output, proof['binding'], proof['candidateZipSha256'])
+
+
+def verify_inputs(folder, bound):
+    contract = read(folder / 'inputs.json')
+    if contract.get('version') != 1 or not same_binding(contract['binding'], bound):
+        raise Failure('Installer inputs belong to another tag/source/run attempt')
+    expected = contract['files']
+    names = [r['name'] for r in expected]
+    if len(set(names)) != len(names) or set(names) != {str(p.relative_to(folder)).replace('\\', '/')
+            for p in folder.rglob('*') if p.is_file() and p != folder / 'inputs.json'}:
+        raise Failure('Installer input file set differs')
+    for r in expected:
+        if not re.fullmatch(r'(extra/)?[A-Za-z0-9_.-]+', r['name']) or '..' in r['name']:
+            raise Failure('Unsafe installer input path')
+        path = folder / r['name']
+        if row(path, r['name'].split('/')[-1]) != (r | {'name': r['name'].split('/')[-1]}):
+            raise Failure('Installer input digest differs: ' + r['name'])
+    return contract
+
+
+class Unsafe(Failure):
+    pass
+
+
+def check_members(z):
+    seen = set()
+    for item in z.infolist():
+        parts = item.filename.rstrip('/').split('/')
+        if (not parts or any(not re.fullmatch(r'[A-Za-z0-9_.-]+', part) or '..' in part for part in parts)
+                or item.filename in seen or (item.external_attr >> 16) & 0o170000 == 0o120000):
+            raise Unsafe('Unsafe or duplicate artifact path')
+        seen.add(item.filename)
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+def artifact_url(repo, artifact_id):
+    """The artifact zip's signed storage URL: the API answers with a redirect to it (good for about 10 minutes)."""
+    token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
+    if not token:
+        raise Failure('No token for the artifact API')
+    api_url = os.environ.get('GITHUB_API_URL', 'https://api.github.com').rstrip('/')
+    request = urllib.request.Request(f'{api_url}/repos/{repo}/actions/artifacts/{artifact_id}/zip', headers={
+        'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json'})
+    try:
+        urllib.request.build_opener(_NoRedirect).open(request, timeout=60).close()
+    except urllib.error.HTTPError as answer:
+        location = answer.headers.get('Location', '')
+        if answer.code in (301, 302, 303, 307, 308) and location.startswith('https://'):
+            return location
+        raise Failure(f'The artifact API answered HTTP {answer.code}') from None
+    raise Failure('The artifact API gave no download location')
+
+
+class RemoteZip:
+    """The artifact's zip, read where it is stored, for zipfile: seeks are free, and reads that follow one another
+    share one HTTP range response, so each entry streams in a single request."""
+
+    def __init__(self, url, size=None):
+        self.url, self.size, self.pos, self.response, self.at = url, size, 0, None, None
+        if size is None:
+            self.size = self._open(0, 0)
+            self.drop()
+
+    def _open(self, start, end=''):
+        """Open bytes start..end (to the blob's end without one); answers the blob's size."""
+        self.drop()
+        response = urllib.request.urlopen(urllib.request.Request(self.url, headers={'Range': f'bytes={start}-{end}'}),
+                                          timeout=60)
+        found = re.fullmatch(r'bytes (\d+)-\d+/(\d+)', response.headers.get('Content-Range') or '')
+        if response.status != 206 or not found or int(found[1]) != start or (
+                self.size is not None and int(found[2]) != self.size):
+            response.close()
+            raise Failure('Artifact storage answered a range request with something else')
+        self.response, self.at = response, start
+        return int(found[2])
+
+    def drop(self):
+        if self.response is not None:
+            self.response.close()
+        self.response = None
+
+    def seekable(self):
+        return True
+
+    def tell(self):
+        return self.pos
+
+    def seek(self, offset, whence=0):
+        self.pos = (offset, self.pos + offset, self.size + offset)[whence]
+        return self.pos
+
+    def read(self, n=-1):
+        n = self.size - self.pos if n is None or n < 0 else min(n, self.size - self.pos)
+        if n <= 0:
+            return b''
+        if self.response is None or self.at != self.pos:
+            self._open(self.pos)
+        data = self.response.read(n)
+        if not data:
+            raise Failure('Artifact download ended early')
+        self.pos += len(data)
+        self.at = self.pos
+        return data
+
+    def close(self):
+        self.drop()
+
+
+def fetch_in_place(repo, artifact_id, output, workers=ARTIFACT_WORKERS):
+    """Every entry of the artifact straight from storage into output, several side by side, biggest first: no 2.4 GB
+    download into one stream, no copy of it to unzip (0.18.0's installer took 2.6 minutes for that). zipfile checks
+    each entry's CRC-32 as it streams; verify_inputs() then checks every file's SHA-256."""
+    url = artifact_url(repo, artifact_id)
+    first = RemoteZip(url)
+    with zipfile.ZipFile(first) as z:
+        check_members(z)
+        entries = sorted(z.infolist(), key=lambda item: -item.file_size)
+    first.close()
+    output.mkdir(parents=True)
+    queue = list(entries)
+    lock, failed = threading.Lock(), threading.Event()
+
+    def worker():
+        remote = RemoteZip(url, first.size)
+        try:
+            with zipfile.ZipFile(remote) as z:
+                while True:
+                    with lock:
+                        if not queue or failed.is_set():   # one gave up: the whole zip goes instead, so stop here
+                            return
+                        item = queue.pop(0)
+                    target = output.joinpath(*item.filename.rstrip('/').split('/'))
+                    if item.is_dir():
+                        target.mkdir(parents=True, exist_ok=True)
+                        continue
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    for attempt in range(3):   # a dropped connection: that entry again, from a fresh storage URL
+                        try:
+                            with z.open(item.filename) as source, target.open('wb') as stream:
+                                shutil.copyfileobj(source, stream, 4 * 1024 * 1024)
+                            break
+                        except (OSError, http.client.HTTPException, zipfile.BadZipFile, EOFError, Failure):
+                            remote.drop()
+                            if attempt == 2:
+                                raise
+                            time.sleep(1 + attempt)
+                            remote.url = artifact_url(repo, artifact_id)
+                    remote.drop()   # the rest of that response is the next entries'
+        except BaseException:
+            failed.set()
+            raise
+        finally:
+            remote.close()
+
+    with ThreadPoolExecutor(max(1, min(workers, len(entries)))) as pool:
+        for future in [pool.submit(worker) for _ in range(max(1, min(workers, len(entries))))]:
+            future.result()
+    return sum(item.file_size for item in entries)
+
+
+def extract_artifact(repo, artifact_id, output):
+    if output.exists():
+        raise Failure('Artifact destination already exists')
+    started = time.monotonic()
+    try:
+        size = fetch_in_place(repo, artifact_id, output)
+        print(f'fetched artifact {artifact_id} in place: {size} bytes in {time.monotonic() - started:.0f}s', flush=True)
+        return
+    except Unsafe:
+        shutil.rmtree(output, ignore_errors=True)
+        raise
+    except Exception as error:   # noqa: BLE001 - whatever went wrong in transit, the whole zip below goes again
+        shutil.rmtree(output, ignore_errors=True)
+        last = (str(error).strip().splitlines() or [type(error).__name__])[-1]
+        print(f'fetching artifact {artifact_id} in place failed ({type(error).__name__}: {last}); downloading the '
+              'whole zip instead', flush=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        archive = Path(tmp) / 'artifact.zip'
+        with archive.open('wb') as stream:
+            run('api', f'repos/{repo}/actions/artifacts/{artifact_id}/zip', binary=stream)
+        with zipfile.ZipFile(archive) as z:
+            check_members(z)
+            z.extractall(output)
+
+
+def legacy_receive(args):
+    bound = binding(args)
+    artifacts = api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
+    # The installer's payload goes to attach() (attach-installer), not here: the zip side publishes without it.
+    base = ('core',) if getattr(args, 'core_only', False) else ('linux',)
+    for producer in base + (('willo',) if args.willo else ()) + (('mac',) if args.mac else ()):
+        proof = read(latest_proof(args.proofs, producer, bound))
+        artifact_name = producer + '-payload-' + proof['binding']['runAttempt']
+        choices = [a for a in artifacts if a['name'] == artifact_name and not a['expired']]
+        if len(choices) != 1:
+            raise Failure('Missing or duplicate legacy payload artifact: ' + artifact_name)
+        extract_artifact(args.repo, choices[0]['id'], args.output / producer)
+
+
+def receive(args):
+    if args.timeout <= 0 or args.interval <= 0:
+        raise Failure('Receive timeout and interval must be positive')
+    bound, deadline = binding(args), time.monotonic() + args.timeout
+    started = api(args.repo, f'actions/runs/{args.run}/attempts/{args.attempt}').get('run_started_at') or ''
+    while True:
+        response = api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')
+        snapshot = api(args.repo, f'actions/runs/{args.run}/attempts/{args.attempt}/jobs?per_page=100')
+        jobs = snapshot['jobs']
+        producer_name = getattr(args, 'producer', None)
+        producer = next((j for j in jobs if j['name'] == (producer_name or 'narration-packs')), None)
+        if producer is None and not producer_name:
+            producer = next((j for j in jobs if j['name'] == 'zip'), None)
+        # If the producer is rerunning, wait for its new inputs. Installer-only retries reuse the successful earlier producer.
+        # A rerun of failed jobs lists the reused producer job too, under this attempt with a new id, but it keeps the start
+        # time it had: started before this attempt, it didn't run in it, so its inputs are an earlier attempt's (the
+        # 1.2.0 rerun waited 30 minutes for installer-inputs-2 that nothing would make, 11/6).
+        if producer and producer.get('started_at') and producer['started_at'] < started:
+            producer = None
+        candidates = [a for a in response['artifacts'] if not a['expired']
+                      and re.fullmatch(r'installer-inputs-[0-9]+', a['name'])
+                      and int(a['name'].rsplit('-', 1)[1]) <= int(args.attempt)]
+        target = int(args.attempt) if producer else max(
+            (int(a['name'].rsplit('-', 1)[1]) for a in candidates), default=0)
+        found = [a for a in candidates if a['name'] == 'installer-inputs-' + str(target)]
+        if len(found) > 1:
+            raise Failure('Duplicate installer artifact')
+        if found:
+            extract_artifact(args.repo, found[0]['id'], args.output)
+            contract = verify_inputs(args.output, bound)
+            print(json.dumps({'downloadedFiles': len(contract['files']), 'downloadedBytes': sum(r['bytes'] for r in contract['files'])}))
+            return
+        if time.monotonic() >= deadline:
+            raise Failure('Timed out waiting for current-attempt installer inputs')
+        if producer and producer['status'] == 'completed' and producer['conclusion'] != 'success':
+            raise Failure('Linux producer failed before installer inputs were available')
+        time.sleep(args.interval)
+
+
+def installer_manifest(args):
+    bound = binding(args)
+    inputs = verify_inputs(args.inputs, bound)
+    proof = {'version': 1, 'producer': 'installer', 'binding': bound, 'assets': [row(args.setup)],
+             'candidateZipSha256': inputs['candidateZipSha256'], 'installerInputs': inputs['files'],
+             'signature': read(args.signature), 'smoke': read(args.smoke)}
+    write(args.output, proof)
+
+
+def willo_manifest(args):
+    """Willo's own installer (the release workflow's willo job): no add-on inputs, just the signed Setup."""
+    proof = {'version': 1, 'producer': 'willo', 'binding': binding(args), 'assets': [row(args.setup)],
+             'signature': read(args.signature), **companion(args)}
+    if proof['assets'][0]['name'] != WILLO:
+        raise Failure('Expected ' + WILLO)
+    write(args.output, proof)
+
+
+def companion(args):
+    """The private repo's commit Willo was built from (the build checkout's HEAD), on her own releases' proofs: both
+    platforms of one release come from the tag's commit, never main's tip (docs/qa/willo-publish-split.md, A1)."""
+    ref = getattr(args, 'companion_ref', None)
+    if ref is None:
+        return {}
+    if not re.fullmatch(r'[0-9a-f]{40}', ref):
+        raise Failure('Require the full commit Willo was built from')
+    return {'companionRef': ref}
+
+
+def mac_manifest(args):
+    """Willo for Mac (the willo-mac jobs): the signed, notarized, stapled Willo-mac.dmg and what the Mac said of it."""
+    proof = {'version': 1, 'producer': 'mac', 'binding': binding(args), 'assets': [row(args.dmg)],
+             'signature': read(args.signature), **companion(args)}
+    check_mac(proof, proof['binding'])
+    write(args.output, proof)
+
+
+def check_mac(mac, bound):
+    """A .dmg ships only signed with a Developer ID, accepted by Apple's notary, stapled, passed by Gatekeeper and
+    started once on the runner (the job's smoke test): anything less and the release goes out without it."""
+    if mac.get('version') != 1 or mac.get('producer') != 'mac' or not same_binding(mac['binding'], bound):
+        raise Failure('Invalid Willo for Mac proof')
+    if [r['name'] for r in mac['assets']] != [WILLO_MAC]:
+        raise Failure('Willo for Mac producer asset set differs')
+    if not 0 < mac['assets'][0]['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure(WILLO_MAC + ' is over GitHub\'s release asset limit')
+    sig = mac.get('signature') or {}
+    if not (str(sig.get('authority', '')).startswith('Developer ID Application: ') and sig.get('notarization') == 'Accepted'
+            and sig.get('stapled') is True and sig.get('gatekeeper') == 'Notarized Developer ID' and sig.get('launched') is True):
+        raise Failure('Required Willo for Mac signing, notarization or launch evidence is missing')
+    return mac['assets']
+
+
+def check_signature(sig, signed, what):
+    if sig.get('required') is not signed or (signed and (sig.get('status') != 'Valid' or not sig.get('thumbprint'))):
+        raise Failure('Required ' + what + ' signature evidence is missing')
+
+
+def check_willo(willo, bound, signed):
+    if willo.get('version') != 1 or willo.get('producer') != 'willo' or not same_binding(willo['binding'], bound):
+        raise Failure('Invalid Willo proof')
+    if [r['name'] for r in willo['assets']] != [WILLO]:
+        raise Failure('Willo producer asset set differs')
+    if not 0 < willo['assets'][0]['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure(WILLO + ' is over GitHub\'s release asset limit')
+    check_signature(willo['signature'], signed, 'Willo installer')
+    return willo['assets']
+
+
+def check_rows(rows):
+    for r in rows:
+        if type(r['bytes']) is not int or r['bytes'] <= 0 or not re.fullmatch('[0-9a-f]{64}', r['sha256']):
+            raise Failure('Invalid asset digest/size')
+    return rows
+
+
+def check_installer(linux, installer, bound, signed, packs=None, holds_path=None):
+    """The signed Setup.exe joins the release only built from the exact zip and inputs the release published, signed when
+    signing is set up, and with every first-install check passed: the checks the release made before it waited on it."""
+    if installer.get('version') != 1 or installer.get('producer') != 'installer' or not same_binding(installer['binding'], bound):
+        raise Failure('Invalid installer proof')
+    if linux['candidateZipSha256'] != installer['candidateZipSha256']:
+        raise Failure('Installer did not use the exact Linux inputs')
+    check_signature(installer['signature'], signed, 'installer')
+    if linux.get('producer') == 'linux':
+        if linux['installerInputs'] != installer['installerInputs']:
+            raise Failure('Installer did not use the exact Linux inputs')
+        expected = {s: 'passed' if available else 'unavailable' for s, available in linux['smokeSelections'].items()}
+        if installer['smoke'] != expected or expected.get('base') != 'passed':
+            raise Failure('Installer smoke evidence is incomplete')
+    elif linux.get('producer') == 'core':
+        ref = None
+        if packs is not None:
+            if packs.get('version') != 1 or packs.get('producer') != 'packs' or not same_binding(packs['binding'], bound):
+                raise Failure('Invalid packs proof')
+            if packs['candidateZipSha256'] != linux['candidateZipSha256']:
+                raise Failure('Installer did not use the exact Linux inputs')
+            ref = packs
+        elif 'installerInputs' in linux and 'smokeSelections' in linux:
+            held = load_holds(holds_path)
+            for item in installer['installerInputs']:
+                if matches_held(item.get('name', '').split('/')[-1], held):
+                    raise Failure('Held pack in installer inputs: ' + item.get('name', ''))
+            ref = linux
+        if ref is not None:
+            if ref['installerInputs'] != installer['installerInputs']:
+                raise Failure('Installer did not use the exact Linux inputs')
+            expected = {s: 'passed' if available else 'unavailable' for s, available in ref['smokeSelections'].items()}
+            if installer['smoke'] != expected or expected.get('base') != 'passed':
+                raise Failure('Installer smoke evidence is incomplete')
+        else:
+            inputs = installer.get('installerInputs') or []
+            core_row = next((r for r in linux['assets'] if r['name'] == 'LoreForever.zip'), None)
+            if core_row not in inputs or not any(r.get('name') == 'extra/transport-downloads.json' for r in inputs):
+                raise Failure('Installer did not use the exact Linux inputs')
+            held = load_holds(holds_path)
+            for item in inputs:
+                if matches_held(item.get('name', '').split('/')[-1], held):
+                    raise Failure('Held pack in installer inputs: ' + item.get('name', ''))
+            smoke = installer.get('smoke')
+            if (not isinstance(smoke, dict) or set(smoke) != set(SELECTIONS)
+                    or smoke.get('base') != 'passed'
+                    or any(v not in ('passed', 'unavailable') for v in smoke.values())):
+                raise Failure('Installer smoke evidence is incomplete')
+    else:
+        raise Failure('Invalid producer proof')
+    if [r['name'] for r in installer['assets']] != [INSTALLER]:
+        raise Failure('Installer producer asset set differs')
+    if not 0 < installer['assets'][0]['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure(INSTALLER + ' is over GitHub\'s release asset limit')
+    return check_rows(installer['assets'])
+
+
+def _combined_base(producer_proof, expected_producer, required_names, bound, signed, willo=None, mac=None):
+    if producer_proof.get('version') != 1 or producer_proof.get('producer') != expected_producer or not same_binding(producer_proof['binding'], bound):
+        raise Failure('Invalid producer proof')
+    rows = (producer_proof['assets'] + (check_willo(willo, bound, signed) if willo else [])
+            + (check_mac(mac, bound) if mac else []))
+    names = [name(r['name']) for r in rows]
+    if len(set(names)) != len(names) or not required_names <= set(names) or INSTALLER in names:
+        raise Failure('Required assets are missing or duplicated')
+    if next(r['sha256'] for r in rows if r['name'] == 'LoreForever.zip') != producer_proof['candidateZipSha256']:
+        raise Failure('Candidate ZIP binding differs')
+    result = {'version': 1, 'binding': bound, 'assets': check_rows(rows),
+              'candidateZipSha256': producer_proof['candidateZipSha256'], 'curseforge': producer_proof['curseforge']}
+    if willo:
+        result['willoSignature'] = willo['signature']
+    if mac:
+        result['macSignature'] = mac['signature']
+    return result
+
+
+def combined(linux, bound, signed, willo=None, mac=None):
+    """What the release publishes as soon as the zip side is done: the zip, the narration packs and the download
+    controls. The Windows installer never holds it up (docs/qa/installers-own-release.md): attach() adds it after."""
+    return _combined_base(linux, 'linux', {'LoreForever.zip', 'transport-downloads.json'}, bound, signed, willo, mac)
+
+
+def combined_core(core, bound, signed, willo=None, mac=None):
+    """What the release publishes as soon as the core zip is built, before optional narration packs or installer."""
+    return _combined_base(core, 'core', {'LoreForever.zip'}, bound, signed, willo, mac)
+
+
+def payload(args, producer, attempt):
+    """A producer's payload artifact of one attempt of this run, extracted under args.output/producer."""
+    artifact_name = producer + '-payload-' + attempt
+    choices = [a for a in api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
+               if a['name'] == artifact_name and not a['expired']]
+    if len(choices) != 1:
+        raise Failure('Missing or duplicate payload artifact: ' + artifact_name)
+    extract_artifact(args.repo, choices[0]['id'], args.output / producer)
+    return args.output / producer
+
+
+def artifact_by_name(args, artifact_name, dest):
+    """Extract a named non-expired artifact of this run under dest."""
+    choices = [a for a in api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
+               if a['name'] == artifact_name and not a['expired']]
+    if len(choices) != 1:
+        raise Failure('Missing or duplicate artifact: ' + artifact_name)
+    extract_artifact(args.repo, choices[0]['id'], dest)
+    return dest
+
+
+def _resolve_base_proofs(args, bound):
+    """Load either legacy linux-proof or scoped core-proof (+ optional packs-proof)."""
+    try:
+        linux = read(latest_proof(args.proofs, 'linux', bound))
+        return linux, None
+    except Failure:
+        core = read(latest_proof(args.proofs, 'core', bound))
+        try:
+            packs = read(latest_proof(args.proofs, 'packs', bound))
+        except Failure:
+            packs = None
+        return core, packs
+
+
+def attach(args):
+    """The add-on's signed Setup.exe onto its release when it wasn't ready for the zip side's publish (the
+    attach-installer job; docs/qa/installers-own-release.md): the file first, then release-manifest.json and
+    SHA256SUMS.txt rewritten to list it, so nothing names it before it's there. Safe to re-run, also after one that
+    died halfway; preserves any already-attached narration packs and core assets monotonically."""
+    bound = binding(args)
+    holds_path = getattr(args, 'holds', None)
+    if getattr(args, 'proofs', None):
+        linux, packs = _resolve_base_proofs(args, bound)
+        installer = read(latest_proof(args.proofs, 'installer', bound))
+    else:
+        linux = read(args.core) if getattr(args, 'core', None) else read(args.linux)
+        packs = read(args.packs) if getattr(args, 'packs', None) else None
+        installer = read(args.installer)
+    rows = check_installer(linux, installer, bound, args.signed, packs=packs, holds_path=holds_path)
+    release = get_release(args.repo, args.tag)
+    if release is None or release['draft']:
+        raise Failure(args.tag + ' is not published; the zip side publishes it first')
+    remote = assets(release)
+    existing, body = None, None
+    if 'release-manifest.json' in remote:
+        body = run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-')
+        existing = json.loads(body)
+        if not same_binding(existing.get('binding', {}), bound):
+            raise Failure('Published release ' + args.tag + ' belongs to a different run')
+    if existing is None or existing.get('candidateZipSha256') != linux['candidateZipSha256'] or any(
+            r not in existing.get('assets', []) for r in linux['assets']):
+        if existing is not None:
+            raise Failure('Published release ' + args.tag + ' is not the zip this installer was built from')
+        known = {r['name'] for r in linux['assets']} | {INSTALLER, 'release-manifest.json', 'SHA256SUMS.txt'}
+        packs_rows = []
+        packs_present = False
+        if packs is not None and packs.get('candidateZipSha256') == linux['candidateZipSha256']:
+            packs_rows = check_rows(packs.get('assets') or [])
+            packs_present = bool(packs_rows) and all(matches(remote.get(r['name']), r) for r in packs_rows)
+        if packs_present:
+            known |= {name(r['name']) for r in packs_rows}
+        others = sorted(set(remote) - known)
+        if others:
+            raise Failure(args.tag + ' has no release-manifest.json, and holds files this run\'s proofs don\'t name ('
+                          + ', '.join(others) + '): restore its manifest by hand, then re-run this job')
+        existing = (combined(linux, bound, args.signed) if linux.get('producer') == 'linux'
+                    else combined_core(linux, bound, args.signed))
+        if packs_present:
+            seen_names = {r['name'] for r in existing['assets']}
+            merged_rows = existing['assets'] + [r for r in packs_rows if r['name'] not in seen_names]
+            existing['assets'] = sorted(merged_rows, key=lambda r: r['name'])
+            existing['curseforge'] = dict(existing.get('curseforge', {}), **packs.get('curseforge', {}))
+        print('rebuilt the manifest from this run\'s proofs (the published one is missing)', flush=True)
+    there = next((r for r in existing['assets'] if r['name'] == INSTALLER), None)
+    if body is not None and there and (there == rows[0] or not args.legacy):
+        check_row(remote[INSTALLER], there)
+        repaired = publish_sums(args, existing['assets'] + [row_of(body, 'release-manifest.json')], remote)
+        print(json.dumps({'installer': 'already on the release' if there == rows[0] else 'kept',
+                          'bytes': there['bytes'], 'sumsRepaired': repaired}))
+        return
+    roots = list(args.root) if getattr(args, 'root', None) else [payload(args, 'installer', installer['binding']['runAttempt'])]
+    upload(args.repo, args.tag, locate(roots, rows[0]), rows[0], published=True)
+    manifest_rows = sorted([r for r in existing['assets'] if r['name'] != INSTALLER] + rows, key=lambda r: r['name'])
+    proof = dict(existing, assets=manifest_rows, signature=installer['signature'], smoke=installer['smoke'])
+    args.output.mkdir(parents=True, exist_ok=True)
+    manifest = args.output / 'release-manifest.json'
+    write(manifest, proof)
+    upload(args.repo, args.tag, manifest, row(manifest), published=True)
+    publish_sums(args, manifest_rows + [row(manifest)], assets(get_release(args.repo, args.tag)))
+    print(json.dumps({'installer': 'attached', 'bytes': rows[0]['bytes']}))
+
+
+def packs_attach(args):
+    """Attach verified optional narration packs and transport contract onto a published release monotonically,
+    preserving LoreForever.zip, any already-attached Setup.exe (plus signature/smoke), and any legacy assets."""
+    bound = binding(args)
+    core = read(args.core) if getattr(args, 'core', None) else read(latest_proof(args.proofs, 'core', bound))
+    packs = read(args.packs) if getattr(args, 'packs', None) else read(latest_proof(args.proofs, 'packs', bound))
+    if core.get('version') != 1 or core.get('producer') != 'core' or not same_binding(core['binding'], bound):
+        raise Failure('Invalid core proof')
+    if packs.get('version') != 1 or packs.get('producer') != 'packs' or not same_binding(packs['binding'], bound):
+        raise Failure('Invalid packs proof')
+    if packs.get('candidateZipSha256') != core.get('candidateZipSha256'):
+        raise Failure('Narration packs candidate ZIP binding differs from core proof')
+    pack_rows = check_rows(packs['assets'])
+    pack_names = [name(r['name']) for r in pack_rows]
+    if len(set(pack_names)) != len(pack_names) or 'transport-downloads.json' not in pack_names:
+        raise Failure('Required narration pack assets are missing or duplicated')
+    forbidden = {'LoreForever.zip', INSTALLER, 'release-manifest.json', 'SHA256SUMS.txt'} & set(pack_names)
+    if forbidden:
+        raise Failure('Invalid packs proof asset: ' + ', '.join(sorted(forbidden)))
+    for r in pack_rows:
+        if r['bytes'] >= GITHUB_ASSET_LIMIT:
+            raise Failure(r['name'] + ' is over GitHub\'s release asset limit')
+    held = load_holds(getattr(args, 'holds', None))
+    for n in pack_names:
+        if matches_held(n, held):
+            raise Failure(f'Held pack asset {n} is barred by release/pack-holds.json')
+    release = get_release(args.repo, args.tag)
+    if release is None or release['draft']:
+        raise Failure(args.tag + ' is not published; the zip side publishes it first')
+    remote = assets(release)
+    for n in remote:
+        if n.endswith('.zip') and matches_held(n, held):
+            raise Failure(f'Held pack asset {n} is already on the release')
+    existing, body = None, None
+    if 'release-manifest.json' in remote:
+        body = run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-')
+        existing = json.loads(body)
+        if not same_binding(existing.get('binding', {}), bound):
+            raise Failure('Published release ' + args.tag + ' belongs to a different run')
+    if existing is None or existing.get('candidateZipSha256') != core['candidateZipSha256'] or any(
+            r not in existing.get('assets', []) for r in core['assets']):
+        if existing is not None:
+            raise Failure('Published release ' + args.tag + ' is not the zip these packs were built for')
+        known = {r['name'] for r in core['assets']} | set(pack_names) | {'release-manifest.json', 'SHA256SUMS.txt'}
+        installer_present = False
+        if INSTALLER in remote and getattr(args, 'proofs', None):
+            try:
+                installer = read(latest_proof(args.proofs, 'installer', bound))
+                inst_rows = check_installer(core, installer, bound, args.signed, packs=packs,
+                                            holds_path=getattr(args, 'holds', None))
+                if matches(remote.get(INSTALLER), inst_rows[0]):
+                    installer_present = True
+                    known.add(INSTALLER)
+            except Failure:
+                pass
+        others = sorted(set(remote) - known)
+        if others:
+            raise Failure(args.tag + ' has no release-manifest.json, and holds files this run\'s proofs don\'t name ('
+                          + ', '.join(others) + '): restore its manifest by hand, then re-run this job')
+        existing = combined_core(core, bound, args.signed)
+        if installer_present:
+            existing['assets'] = sorted(existing['assets'] + inst_rows, key=lambda r: r['name'])
+            existing.update(signature=installer['signature'], smoke=installer['smoke'])
+        print('rebuilt the manifest from this run\'s proofs (the published one is missing)', flush=True)
+    by_name = {r['name']: r for r in existing['assets']}
+    if body is not None and all(r['name'] in by_name for r in pack_rows):
+        all_same = all(by_name[r['name']] == r for r in pack_rows)
+        if all_same or not args.legacy:
+            for r in pack_rows:
+                check_row(remote[r['name']], by_name[r['name']])
+            repaired = publish_sums(args, existing['assets'] + [row_of(body, 'release-manifest.json')],
+                                    remote, allow_unlisted_installer=True)
+            print(json.dumps({'packs': 'already on the release' if all_same else 'kept',
+                              'files': len(pack_rows), 'sumsRepaired': repaired}))
+            return
+    if getattr(args, 'root', None):
+        roots = list(args.root)
+    else:
+        attempt = packs['binding']['runAttempt']
+        roots = [
+            payload(args, 'packs', attempt),
+            artifact_by_name(args, 'installer-inputs-' + attempt, args.output / 'installer-inputs') / 'extra',
+        ]
+    jobs = []
+    for r in pack_rows:
+        path = locate(roots, r)
+        check_archive_not_held(path, held)
+        jobs.append((path, r))
+    transferred, workers, retries, remote = _upload_assets(
+        args.repo, args.tag, jobs, remote,
+        workers=getattr(args, 'workers', STAGE_WORKERS), published=True,
+    )
+    preserved = [r for r in existing['assets'] if r['name'] not in set(pack_names)]
+    manifest_rows = sorted(preserved + pack_rows, key=lambda r: r['name'])
+    curseforge = dict(existing.get('curseforge', {}), **packs.get('curseforge', {}))
+    proof = dict(existing, assets=manifest_rows, curseforge=curseforge)
+    args.output.mkdir(parents=True, exist_ok=True)
+    manifest = args.output / 'release-manifest.json'
+    write(manifest, proof)
+    upload(args.repo, args.tag, manifest, row(manifest), published=True)
+    publish_sums(args, manifest_rows + [row(manifest)], assets(get_release(args.repo, args.tag)),
+                 allow_unlisted_installer=True)
+    print(json.dumps({'packs': 'attached', 'files': len(pack_rows), 'completedUploadBytes': transferred,
+                      'parallelUploads': workers, 'serialRetries': retries}))
+
+
+def row_of(text, asset_name):
+    data = text.encode()
+    return {'name': asset_name, 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+
+
+def publish_sums(args, rows, remote, allow_unlisted_installer=False):
+    """SHA256SUMS.txt for rows (every file but itself) onto the published release, unless it's there and current; then
+    the release's files are checked against rows and it, exactly. True when it uploaded."""
+    text = ''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name']))
+    want = row_of(text, 'SHA256SUMS.txt')
+    uploaded = not matches(remote.get('SHA256SUMS.txt'), want)
+    if uploaded:
+        args.output.mkdir(parents=True, exist_ok=True)
+        sums = args.output / 'SHA256SUMS.txt'
+        sums.write_text(text, newline='\n')
+        upload(args.repo, args.tag, sums, want, published=True)
+    every = rows + [want]
+    remote = assets(get_release(args.repo, args.tag))
+    if allow_unlisted_installer and INSTALLER not in {r['name'] for r in every}:
+        if unexpected(remote, every):
+            raise Failure('Published asset set differs from the expected inventory: ' + ', '.join(sorted(set(remote) ^ {r['name'] for r in every})))
+    elif set(remote) != {r['name'] for r in every}:
+        raise Failure('Published asset set differs from the expected inventory: ' + ', '.join(sorted(set(remote) ^ {r['name'] for r in every})))
+    for r in every:
+        check_row(remote[r['name']], r)
+    return uploaded
+
+def latest_proof(folder, producer, bound):
+    choices = []
+    for path in folder.rglob(producer + '-proof.json'):
+        value = read(path)
+        if same_binding(value.get('binding', {}), bound):
+            choices.append((int(value['binding']['runAttempt']), path))
+    if not choices:
+        raise Failure('Missing current-run ' + producer + ' proof')
+    newest = max(n for n, _ in choices)
+    matches = [path for n, path in choices if n == newest]
+    if len(matches) != 1:
+        raise Failure('Duplicate producer proof')
+    return matches[0]
+
+def published_row(args, release, file, keys):
+    """A file on a published release and what its manifest says of it (keys), from the release-manifest.json published
+    with it: what the rebuilt manifest and SHA256SUMS.txt must still carry, since installed Willos check their download
+    against her row there. Checked against what GitHub holds, so a file that changed since fails instead of staying."""
+    published = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
+    kept = next((r for r in published.get('assets', []) if r.get('name') == file), None)
+    if kept is None or not all(published.get(k) for k in keys):
+        raise Failure('Published release has ' + file + ', but its manifest has no row and ' + '/'.join(keys) + ' for it to keep')
+    check_row(assets(release)[file], kept)
+    return kept, {k: published[k] for k in keys}
+
+
+def zip_side(manifest):
+    """A manifest without the Windows installer's row and evidence: what the zip side published, whether or not the
+    installer joined it then or later."""
+    return {k: v for k, v in manifest.items() if k not in INSTALLER_KEYS} | {
+        'assets': [r for r in manifest.get('assets', []) if r.get('name') != INSTALLER]}
+
+
+def unexpected(remote, rows):
+    """The release's files differ from rows: one missing, or one more than an unlisted Setup.exe still on its way
+    (the installer's job uploading, or attach-installer about to list it)."""
+    names = {r['name'] for r in rows}
+    return bool(names - set(remote) or set(remote) - names - ({INSTALLER} if INSTALLER not in names else set()))
+
+
+def finalize(args):
+    bound = binding(args)
+    core_only = getattr(args, 'core_only', False)
+    packs = None
+    if args.proofs:
+        if core_only:
+            args.core = latest_proof(args.proofs, 'core', bound)
+        elif not args.linux and not getattr(args, 'core', None):
+            try:
+                args.linux = latest_proof(args.proofs, 'linux', bound)
+            except Failure:
+                args.core = latest_proof(args.proofs, 'core', bound)
+                core_only = True
+        if core_only:
+            try:
+                packs = read(latest_proof(args.proofs, 'packs', bound))
+            except Failure:
+                packs = None
+        if args.willo:
+            args.willo_proof = latest_proof(args.proofs, 'willo', bound)
+        if args.mac:
+            args.mac_proof = latest_proof(args.proofs, 'mac', bound)
+    if getattr(args, 'core', None) and not args.linux:
+        core_only = True
+    if core_only and not getattr(args, 'core', None):
+        raise Failure('Require the core producer proof')
+    if not core_only and not args.linux:
+        raise Failure('Require the Linux producer proof')
+    if args.willo and not args.willo_proof:
+        raise Failure('Require the Willo proof')
+    if args.mac and not args.mac_proof:
+        raise Failure('Require the Willo for Mac proof')
+    willo = read(args.willo_proof) if args.willo else None
+    mac = read(args.mac_proof) if args.mac else None
+    base_proof = read(args.core) if core_only else read(args.linux)
+    proof = (combined_core(base_proof, bound, args.signed, willo, mac) if core_only
+             else combined(base_proof, bound, args.signed, willo, mac))
+    release = get_release(args.repo, args.tag)
+    if release is None:
+        raise Failure('Final promotion requires the prepared release')
+    # The Windows installer goes in this publish when it's ready (it usually finishes minutes before the zip): its proof
+    # is uploaded after its staging, so a proof means the upload finished. Not ready, or not right, and the zip goes
+    # without it; attach-installer adds it once it is (docs/qa/installers-own-release.md).
+    installer = None
+    if args.proofs and release['draft'] and not args.legacy:
+        try:
+            installer = read(latest_proof(args.proofs, 'installer', bound))
+            rows = check_installer(base_proof, installer, bound, args.signed, packs=packs,
+                                   holds_path=getattr(args, 'holds', None))
+            if not matches(assets(release).get(INSTALLER), rows[0]):
+                raise Failure(INSTALLER + ' is not on the draft as its proof says')
+            proof['assets'] = proof['assets'] + rows
+            proof.update(signature=installer['signature'], smoke=installer['smoke'])
+            print('the Windows installer goes in this publish', flush=True)
+        except Failure as error:
+            installer = None
+            print('the zip goes without the Windows installer (attach-installer adds it when it is ready): ' + str(error), flush=True)
+    kept = set()   # files that stay on a published release as they are
+    if args.legacy and core_only and not release['draft'] and 'release-manifest.json' in assets(release):
+        remote_now = assets(release)
+        published_manifest = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
+        core_names = {r['name'] for r in proof['assets']}
+        for r in published_manifest.get('assets', []):
+            if r['name'] in core_names or r['name'] not in remote_now:
+                continue
+            check_row(remote_now[r['name']], r)
+            proof['assets'].append(r)
+            kept.add(r['name'])
+        for k in (*INSTALLER_KEYS, 'willoSignature', 'macSignature'):
+            if k in published_manifest and k not in proof:
+                proof[k] = published_manifest[k]
+        if published_manifest.get('curseforge'):
+            proof['curseforge'] = dict(published_manifest['curseforge'], **proof.get('curseforge', {}))
+    else:
+        for optional, included, keys in ((WILLO, willo, ('willoSignature',)), (WILLO_MAC, mac, ('macSignature',)),
+                                         (INSTALLER, installer, INSTALLER_KEYS)):
+            if included or optional not in assets(release):
+                continue
+            # The Windows installer's job may still be uploading its file to the draft: it's left alone and unlisted, and
+            # attach-installer lists it (or replaces it) once its proof is there.
+            if optional == INSTALLER and release['draft']:
+                continue
+            # Willo's jobs upload before they leave their proof; without a proof the upload isn't trusted. A draft just
+            # loses it (the site keeps serving the last good one); a published release's is never removed here.
+            if release['draft']:
+                run('release', 'delete-asset', args.tag, optional, '-R', args.repo, '--yes')
+                release = get_release(args.repo, args.tag)
+                continue
+            # A published release keeps what attach() added (a retry of this job) or what an older tag shipped with: Willo
+            # from before 11/1, when the Release workflow built her too. Rebuilding leaves it as it was published; a
+            # rebuild's own Setup.exe replaces it through attach(). An unlisted Setup.exe (an attach under way) stays so.
+            try:
+                kept_row, kept_keys = published_row(args, release, optional, keys)
+            except Failure:
+                if optional == INSTALLER:
+                    continue
+                raise
+            proof['assets'].append(kept_row)
+            proof.update(kept_keys)
+            kept.add(optional)
+    if not release['draft'] and not args.legacy:
+        # A publication response can be lost after promotion. A final-job retry only verifies it;
+        # a new workflow run must use the explicit published-tag rebuild path.
+        remote = assets(release)
+        manifest_asset = remote.get('release-manifest.json', {})
+        body = run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-')
+        existing = json.loads(body)
+        if not same_binding(existing.get('binding', {}), bound):
+            raise Failure('Published release belongs to a different run or producer outputs')
+        if core_only:
+            if existing.get('candidateZipSha256') != proof['candidateZipSha256'] or any(
+                    r not in existing.get('assets', []) for r in base_proof['assets']):
+                raise Failure('Published release belongs to a different run or producer outputs')
+        elif zip_side(existing | {'binding': bound}) != zip_side(proof):
+            raise Failure('Published release belongs to a different run or producer outputs')
+        check_row(manifest_asset, {'name': 'release-manifest.json', 'bytes': len(body.encode()),
+                                  'sha256': hashlib.sha256(body.encode()).hexdigest()})
+        rows = existing['assets'] + [{'name': 'release-manifest.json', 'bytes': manifest_asset['size'],
+                                     'sha256': manifest_asset['digest'].removeprefix('sha256:')}]
+        sums = ''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name']))
+        rows.append({'name': 'SHA256SUMS.txt', 'bytes': len(sums.encode()),
+                     'sha256': hashlib.sha256(sums.encode()).hexdigest()})
+        if unexpected(remote, rows):
+            raise Failure('Published asset inventory differs')
+        for r in rows:
+            check_row(remote[r['name']], r)
+        print(json.dumps({'verifiedAssets': len(rows), 'finalJobPayloadDownloadBytes': 0,
+                          'alreadyPublishedByThisRun': True}))
+        return
+    if args.legacy:
+        # Only an already-public tag rebuild takes the previous full-artifact path.
+        # Validate every local output before replacing any public asset.
+        rebuilt = [r for r in proof['assets'] if r['name'] not in kept]
+        paths = [locate(args.root, r) for r in rebuilt]
+        for path, r in zip(paths, rebuilt):
+            upload(args.repo, args.tag, path, r, published=True)
+    remote = assets(get_release(args.repo, args.tag))
+    for r in proof['assets']:
+        if r['name'] not in remote:
+            raise Failure('Missing staged asset: ' + r['name'])
+        check_row(remote[r['name']], r)
+    args.output.mkdir(parents=True, exist_ok=True)
+    manifest = args.output / 'release-manifest.json'
+    write(manifest, proof)
+    all_rows = proof['assets'] + [row(manifest)]
+    sums = args.output / 'SHA256SUMS.txt'
+    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(all_rows, key=lambda r: r['name'])), newline='\n')
+    for path in (manifest, sums):
+        upload(args.repo, args.tag, path, row(path), published=args.legacy)
+    all_rows.append(row(sums))
+    remote = assets(get_release(args.repo, args.tag))
+    if unexpected(remote, all_rows):
+        raise Failure('Staged asset set differs from complete expected inventory')
+    for r in all_rows:
+        check_row(remote[r['name']], r)
+    if not args.legacy:
+        # A rebuild only replaces already-public assets; preserve its notes/title and the newer Latest release.
+        if args.notes is None:
+            generated = json.loads(run('api', f'repos/{args.repo}/releases/generate-notes',
+                                       '--method', 'POST', '-f', 'tag_name=' + args.tag))
+            args.notes = args.output / 'notes.md'
+            args.notes.write_text(generated['body'], encoding='utf-8')
+        notes = ['--notes-file', str(args.notes)]
+        run('release', 'edit', args.tag, '-R', args.repo, '--draft=false', '--latest',
+            '--title', 'Lore Forever ' + args.tag.removeprefix('v'), *notes)
+    print(json.dumps({'verifiedAssets': len(all_rows), 'finalJobPayloadDownloadBytes':
+                     sum(r['bytes'] for r in proof['assets']) if args.legacy else 0, 'legacyPublishedTagRebuild': args.legacy}))
+
+
+def willo_release(args):
+    """One platform of a Willo-only release (the public willo.yml, run by scripts/release-willo.sh): Windows' signed
+    Willo-Setup.exe (--platform win) or the Mac's notarized Willo-mac.dmg (--platform mac), on the release willo-vX.Y.Z
+    of this repo's commit, never marked Latest (the site's /voices links follow Latest, and the add-on's downloads stay
+    on its own release). Each platform publishes on its own (Mike, 11/13: "Let's keep these releases all separate from
+    each other"; docs/qa/willo-publish-split.md): whichever lands first creates the release with its file, the other
+    adds its file to it. Beside them, release-manifest.json (Willo's updaters read their row and willoSignature or
+    macSignature there) and SHA256SUMS.txt, both rewritten each time to list exactly the files on the release. The
+    workflow's per-version lock keeps the two from writing at once. A rerun is safe: a file already there is reused,
+    and a release another run made (or another Willo commit) is refused."""
+    bound = binding(args)
+    mine = read(args.manifest)
+    if args.platform == 'win':
+        rows, name, key = check_willo(mine, bound, args.signed), WILLO, 'willoSignature'
+    else:
+        rows, name, key = check_mac(mine, bound), WILLO_MAC, 'macSignature'
+    ref = companion(args).get('companionRef')
+    if not ref or mine.get('companionRef') != ref:
+        raise Failure(name + ' was built from ' + str(mine.get('companionRef')) + ', not the release\'s commit ' + str(ref))
+    title = 'Willo ' + args.tag.removeprefix('willo-').removeprefix('v')
+    release = get_release(args.repo, args.tag)
+    if release is not None and not release['draft']:
+        release = settle_published(args.repo, args.tag, release)
+    existing = None
+    if release is not None and 'release-manifest.json' in assets(release):
+        try:
+            existing = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
+        except (Failure, ValueError):
+            existing = None
+        if existing is None or not same_binding(existing.get('binding', {}), bound) or existing.get('companionRef') != ref:
+            if not release['draft']:
+                raise Failure('Published release ' + args.tag + ' belongs to a different run or Willo build')
+            existing = None   # an earlier run's draft: none of it is proven here, so it starts over
+    elif release is not None and not release['draft']:
+        # Published with no manifest: nothing says what its other file is, so nothing on it is touched (a re-run that
+        # took it for a fresh draft deleted the other platform's live file: the Architect's review of #4034).
+        raise Failure('Published release ' + args.tag + ' has no release-manifest.json: not touching it. Put this run\'s '
+                      'manifest back first (docs/qa/willo-publish-split.md, A10)')
+    there = next((r for r in (existing or {}).get('assets', []) if r['name'] == name), None)
+    if there and not release['draft']:
+        # Published already: the same build is a rerun, which only puts back a manifest or SHA256SUMS.txt that a died
+        # job left missing or stale; another build (a full re-run rebuilt it) never replaces a file players may be
+        # downloading, nor the sizes the site's feed froze.
+        if there != rows[0] or existing.get(key) != mine['signature']:
+            raise Failure(name + ' on published release ' + args.tag + ' is another build of this run; not replacing it')
+        proof = existing
+    else:
+        other = [r for r in (existing or {}).get('assets', []) if r['name'] != name]
+        proof = {'version': 1, 'binding': bound, 'assets': sorted(other + rows, key=lambda r: r['name']),
+                 'willoOnly': True, 'companionRef': ref, key: mine['signature']}
+        for k in {'willoSignature', 'macSignature'} - {key}:
+            if any(r['name'] == {'willoSignature': WILLO, 'macSignature': WILLO_MAC}[k] for r in other):
+                proof[k] = existing[k]
+    if release is None:
+        run('release', 'create', args.tag, '-R', args.repo, '--draft', '--target', args.commit, '--latest=false',
+            '--title', title, '--notes', 'Release preparation in progress.')
+        for wait in (0, 2, 4, 8, 16):   # the list can lag a draft just created (prepare())
+            time.sleep(wait)
+            release = get_release(args.repo, args.tag)
+            if release is not None:
+                break
+        else:
+            raise Failure('Created the draft release, but GitHub does not list it yet; rerun the workflow')
+    published = not release['draft']
+    if not published:   # an earlier attempt's file on the draft, unproven in this one: not shipped. Never on a public one
+        keep = {r['name'] for r in proof['assets']} | {'release-manifest.json', 'SHA256SUMS.txt'}
+        for stray in set(assets(release)) - keep:
+            run('release', 'delete-asset', args.tag, stray, '-R', args.repo, '--yes')
+    # This platform's file first, the manifest that lists it after: until then nothing names it, so no updater and no
+    # feed reads a file that isn't there yet.
+    put(args.repo, args.tag, locate(args.root, rows[0]), rows[0], published)
+    args.output.mkdir(parents=True, exist_ok=True)
+    manifest, sums = args.output / 'release-manifest.json', args.output / 'SHA256SUMS.txt'
+    write(manifest, proof)
+    every = proof['assets'] + [row(manifest)]
+    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(every, key=lambda r: r['name'])), newline='\n')
+    for path in (manifest, sums):
+        put(args.repo, args.tag, path, row(path), published)
+    every.append(row(sums))
+    remote = assets(get_release(args.repo, args.tag))
+    if set(remote) != {r['name'] for r in every}:
+        raise Failure('Staged asset set differs from complete expected inventory: ' + ', '.join(sorted(remote)))
+    for r in every:
+        check_row(remote[r['name']], r)
+    if not published:
+        notes = ['--notes-file', str(args.notes)] if args.notes else ['--notes', title + ': fixes for Willo.']
+        run('release', 'edit', args.tag, '-R', args.repo, '--draft=false', '--latest=false', '--title', title, *notes)
+    print(json.dumps({'verifiedAssets': len(every), 'willoOnly': True, 'platform': args.platform,
+                      'alreadyPublishedByThisRun': there is not None and published,
+                      'files': [r['name'] for r in proof['assets']]}))
+
+
+NEXT = '.next'   # a published file's replacement goes up beside it under this name first (put())
+
+
+def settle_published(repo, tag, release):
+    """A replacement that died between taking the old file down and naming the new one (put()) left NAME.next, complete
+    and checked, and no NAME: it takes the name now. A NAME.next beside its NAME is a replacement that never finished:
+    the old file stands and the leftover goes."""
+    have = assets(release)
+    for name in [n for n in have if n.endswith(NEXT)]:
+        base = name[:-len(NEXT)]
+        if base in have:
+            run('release', 'delete-asset', tag, name, '-R', repo, '--yes')
+        else:
+            run('api', '-X', 'PATCH', f'repos/{repo}/releases/assets/{have[name]["id"]}', '-f', 'name=' + base)
+    return get_release(repo, tag)
+
+
+def put(repo, tag, path, expected, published):
+    """upload(), except that a file already on a published release is replaced without a moment where a failed upload
+    leaves it missing: the new one goes up as NAME.next, then the old one goes and the new one takes its name (a step
+    that died in between is settled by the next run: settle_published())."""
+    current = assets(get_release(repo, tag)).get(expected['name'])
+    if not published or current is None or matches(current, expected):
+        return upload(repo, tag, path, expected, published)
+    nxt = Path(tempfile.mkdtemp()) / (expected['name'] + NEXT)
+    shutil.copyfile(path, nxt)
+    upload(repo, tag, nxt, dict(expected, name=nxt.name), True)
+    run('release', 'delete-asset', tag, expected['name'], '-R', repo, '--yes')
+    asset = assets(get_release(repo, tag))[nxt.name]
+    run('api', '-X', 'PATCH', f'repos/{repo}/releases/assets/{asset["id"]}', '-f', 'name=' + expected['name'])
+    check_row(assets(get_release(repo, tag))[expected['name']], expected)
+    print('replaced ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
+    shutil.rmtree(nxt.parent, ignore_errors=True)
+    return expected['bytes']
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--repo', default=os.environ.get('GH_REPO'))
+    parser.add_argument('--tag', default=os.environ.get('TAG'))
+    parser.add_argument('--commit', required=True)
+    parser.add_argument('--run', default=os.environ.get('GITHUB_RUN_ID'))
+    parser.add_argument('--attempt', default=os.environ.get('GITHUB_RUN_ATTEMPT'))
+    sub = parser.add_subparsers(dest='command', required=True)
+    sub.add_parser('prepare')
+    core = sub.add_parser('core-manifest')
+    core.add_argument('--core', type=Path, required=True)
+    core.add_argument('--output', type=Path, required=True)
+    core.add_argument('--extras', type=Path)
+    core.add_argument('--handover', type=Path)
+    core.add_argument('--holds', type=Path)
+    core.add_argument('--zip-sha256', help='expected candidate ZIP SHA256 (from prepare)')
+    for cmd_name in ('linux-manifest', 'packs-manifest'):
+        manifest_cmd = sub.add_parser(cmd_name)
+        manifest_cmd.add_argument('--core', type=Path, required=True)
+        manifest_cmd.add_argument('--extras', type=Path, required=(cmd_name == 'packs-manifest'))
+        manifest_cmd.add_argument('--output', type=Path, required=True)
+        manifest_cmd.add_argument('--handover', type=Path, help="the inputs.json handover wrote: the full build must agree")
+        manifest_cmd.add_argument('--holds', type=Path, help="optional pack-holds.json path (defaults to release/pack-holds.json if present)")
+        manifest_cmd.add_argument('--zip-sha256', help='expected candidate ZIP SHA256 (from prepare)')
+        if cmd_name == 'linux-manifest':
+            manifest_cmd.add_argument('--core-only', action='store_true', help='emit scoped core-proof without extras')
+    p = sub.add_parser('handover')
+    for key in ('core', 'extras', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
+    p.add_argument('--holds', type=Path, help="optional pack-holds.json path (defaults to release/pack-holds.json if present)")
+    for command in ('bundle', 'stage'):
+        p = sub.add_parser(command)
+        p.add_argument('--manifest', type=Path, required=True)
+        p.add_argument('--root', type=Path, action='append', required=True)
+        if command == 'bundle': p.add_argument('--output', type=Path, required=True)
+        if command == 'stage':
+            p.add_argument('--workers', type=int, default=STAGE_WORKERS)
+            p.add_argument('--if-draft', action='store_true', help='stage only while the release is a draft (the installer)')
+    p = sub.add_parser('receive')
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--timeout', type=float, default=1800)
+    p.add_argument('--interval', type=float, default=5)
+    p.add_argument('--producer', help='producer job name that uploads installer-inputs (default: narration-packs, fallback zip)')
+    p = sub.add_parser('installer-manifest')
+    for key in ('inputs', 'setup', 'signature', 'smoke', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
+    p = sub.add_parser('willo-manifest')
+    for key in ('setup', 'signature', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
+    p.add_argument('--companion-ref', help="the commit Willo was built from (her checkout's HEAD)")
+    p = sub.add_parser('mac-manifest')
+    for key in ('dmg', 'signature', 'output'):
+        p.add_argument('--' + key, type=Path, required=True)
+    p.add_argument('--companion-ref', help="the commit Willo was built from (her checkout's HEAD)")
+    p = sub.add_parser('legacy-receive')
+    p.add_argument('--proofs', type=Path, required=True)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--core-only', action='store_true', help="fetch core-payload instead of linux-payload")
+    p.add_argument('--willo', action='store_true', help="also Willo's payload (the willo job succeeded)")
+    p.add_argument('--mac', action='store_true', help="also Willo for Mac's payload (its job left a proof)")
+    p = sub.add_parser('finalize')
+    for key in ('linux', 'core', 'installer', 'proofs', 'willo-proof', 'mac-proof', 'holds'):
+        p.add_argument('--' + key, type=Path)
+    p.add_argument('--core-only', action='store_true', help="publish core release without requiring optional narration packs")
+    p.add_argument('--willo', action='store_true', help="include Willo-Setup.exe (the willo job succeeded)")
+    p.add_argument('--mac', action='store_true', help="include Willo-mac.dmg (the willo-mac job left a proof)")
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--root', type=Path, action='append', default=[])
+    p.add_argument('--notes', type=Path)
+    p.add_argument('--signed', action='store_true')
+    p.add_argument('--legacy', action='store_true')
+    p = sub.add_parser('installer-attach')
+    p.add_argument('--proofs', type=Path)
+    for key in ('core', 'linux', 'packs', 'installer', 'holds'):
+        p.add_argument('--' + key, type=Path)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--root', type=Path, action='append', default=[])
+    p.add_argument('--signed', action='store_true')
+    p.add_argument('--legacy', action='store_true', help='a published-tag rebuild: replace the published Setup.exe')
+    p = sub.add_parser('packs-attach')
+    p.add_argument('--proofs', type=Path)
+    for key in ('core', 'packs', 'holds'):
+        p.add_argument('--' + key, type=Path)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--root', type=Path, action='append', default=[])
+    p.add_argument('--workers', type=int, default=STAGE_WORKERS)
+    p.add_argument('--signed', action='store_true')
+    p.add_argument('--legacy', action='store_true', help='a published-tag rebuild: replace the published narration packs')
+    p = sub.add_parser('willo-release')
+    p.add_argument('--platform', choices=('win', 'mac'), required=True, help='the platform this job publishes')
+    p.add_argument('--manifest', type=Path, required=True, help='its willo-manifest or mac-manifest proof')
+    p.add_argument('--companion-ref', required=True, help="the release's Willo commit (willo.yml's companion_ref)")
+    p.add_argument('--root', type=Path, action='append', required=True)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--notes', type=Path)
+    p.add_argument('--signed', action='store_true')
+    args = parser.parse_args()
+    try:
+        if not args.repo or not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', args.repo):
+            raise Failure('Require a repository')
+        {'prepare': prepare, 'core-manifest': core_manifest, 'linux-manifest': linux_manifest,
+         'packs-manifest': packs_manifest, 'handover': handover, 'bundle': bundle, 'stage': stage,
+         'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest,
+         'willo-manifest': willo_manifest, 'mac-manifest': mac_manifest, 'finalize': finalize,
+         'installer-attach': attach, 'packs-attach': packs_attach, 'willo-release': willo_release}[args.command](args)
+    except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:
+        parser.exit(1, 'release-staging: ' + str(error) + '\n')
+
+
+if __name__ == '__main__':
+    main()
