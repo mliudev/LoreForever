@@ -42,16 +42,15 @@ jobs:
           ref: ${{ steps.live.outputs.tag }}
           sparse-checkout: |
             addon/LoreForever
-      # The uploader and the project ids from main: projects can be added after a release.
+      # The uploader and the project ids from main: self-synced by publish-language-packs.sh (single-writer under scripts/languages/).
       - uses: actions/checkout@v7
         with:
           path: config
           sparse-checkout: |
-            release
-            scripts
+            scripts/languages
       - name: Upload the translations
         run: |
           mkdir -p release scripts
-          cp config/release/curseforge.json release/curseforge.json
-          cp config/scripts/curseforge_voices.py scripts/curseforge_voices.py
+          cp config/scripts/languages/curseforge.json release/curseforge.json
+          cp config/scripts/languages/curseforge_voices.py scripts/curseforge_voices.py
           python3 scripts/curseforge_voices.py upload --from-release --languages
